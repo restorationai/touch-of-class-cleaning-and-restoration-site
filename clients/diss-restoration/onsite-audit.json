@@ -1,49 +1,49 @@
 {
   "schema_version": 1,
   "slug": "diss-restoration",
-  "site": "staging.rankai-diss-restoration.pages.dev",
-  "live_origin": "https://staging.rankai-diss-restoration.pages.dev",
-  "live_origin_source": "staging",
-  "generated_at": "2026-08-26T23:29:30Z",
+  "site": "dissrestoration.com",
+  "live_origin": "https://dissrestoration.com",
+  "live_origin_source": "apex",
+  "generated_at": "2026-09-28T20:58:31Z",
   "audit_form_factor": "desktop",
   "lighthouse_version": "13.4.0",
-  "url_selection_mode": "auto-derived from plan/url-plan.json (no audit-urls.txt present)",
+  "url_selection_mode": "auto-derived from plan/url-plan.json (no audit-urls.txt present); same 6 paths as the 2026-08-26 audit for comparability",
   "environment_caveats": [
-    "live_origin is the Cloudflare Pages staging preview. apex_cutover.completed_at is not set on the client record, and https://dissrestoration.com/ still 301s to a Wix-hosted site (server: Pepyaka), so the apex is not yet serving the Rank AI build.",
-    "x-robots-tag: noindex is injected by Cloudflare Pages on *.pages.dev previews. The Lighthouse is-crawlable audit fails as a result and pins the SEO category to 69 on all 6 URLs. SEO is recorded but EXCLUDED from every verdict this run. SEO status is inconclusive - re-audit after apex cutover.",
-    "Canonical tags on every audited page point to https://dissrestoration.com/... (the apex). That is the intended production canonical and is not treated as a defect while auditing staging.",
-    "DataForSEO on-page returned has_micromarkup=false on all 6 URLs. Verified directly against the served HTML: every page ships JSON-LD (home: Organization, WebSite, LocalBusiness; services hub and contact: Organization, WebSite, LocalBusiness, FAQPage, BreadcrumbList; service landings: Service, LocalBusiness, FAQPage, BreadcrumbList; service area: LocalBusiness, FAQPage, BreadcrumbList). Treated as a vendor false negative, NOT reported as missing schema.",
-    "Lighthouse ran DESKTOP only (for_mobile=false) to stay comparable with the rest of the fleet. Mobile scores would typically run 10-20 performance points lower, and the 1.39 MB logo.png would hurt far more on mobile.",
-    "Client record status is 'onboarding', not 'active'. build_status is pushed_main and all 6 URLs returned HTTP 200, so the site is auditable and the run proceeded. Flagged rather than skipped.",
-    "lighthouse_issues is capped at the 5 highest-impact failing audits per URL per the methodology. is-crawlable is retained beyond that cap as an info-severity entry so the SEO score stays explainable.",
-    "DataForSEO's own crawler recorded dom_complete of 3.4-5.1 s on /, /services/water-damage-restoration/ and /services/fire-damage-restoration/, well above the 1.6-1.8 s Lighthouse LCP. Different network conditions; both point at the same oversized logo asset."
+    "live_origin is the production apex (apex_cutover.completed_at 2026-09-19T00:24:09+00:00). No staging noindex correction applied; SEO counts toward every verdict this run.",
+    "The prior audit (2026-08-26) ran against the Cloudflare Pages staging preview. Regression deltas are matched by URL path across different origins (staging preview vs apex), so small performance and LCP deltas partly reflect environment differences, not code changes. The SEO jump from 69 to 100 is the expected removal of the staging x-robots-tag noindex artifact, not a site fix.",
+    "Lighthouse ran DESKTOP only (for_mobile=false) via the DataForSEO API. Mobile scores would typically run 10-20 performance points lower, and the 1.39 MB logo.png would hurt far more on mobile.",
+    "DataForSEO on-page returned has_micromarkup=null on all 6 URLs. Verified against served HTML: every page ships valid JSON-LD (home: Organization, WebSite, LocalBusiness; hub and contact: plus FAQPage, BreadcrumbList; service landings: Service, LocalBusiness, FAQPage, BreadcrumbList; service area: LocalBusiness, FAQPage, BreadcrumbList). Treated as a vendor false negative.",
+    "lighthouse_issues is capped at the 5 highest-impact failing audits per URL. lighthouse_failing_audit_ids_all lists every failing audit so future regression runs do not mistake a cap drop for a resolution. Issues from the prior run are only marked resolved if they no longer fail at all.",
+    "unused-javascript is newly surfaced in the top 5 this month but the GA4 gtag script (G-QQDEBB808D) is also present on the staging build today; it is most likely pre-existing and was below the prior top-5 cap.",
+    "DataForSEO flags has_render_blocking_resources (all 6), low_content_rate (/, /services/), no_image_title (all 6) and frame (/service-areas/warren-oh/). These are not recorded as separate on-page issues: render blocking is covered by the Lighthouse render-blocking-insight entry, and the rest are cosmetic or intentional embeds.",
+    "The homepage (/) meta description length (176 chars) was also 176 on the prior run but was not recorded as an issue then; it is newly recorded, not newly introduced."
   ],
   "audited_urls": [
     {
-      "url": "https://staging.rankai-diss-restoration.pages.dev/",
+      "url": "https://dissrestoration.com/",
       "url_path": "/",
       "archetype": "home",
       "verdict": "amber",
       "error_reason": null,
       "scores": {
-        "performance": 88,
+        "performance": 79,
         "accessibility": 100,
         "best_practices": 100,
-        "seo": 69
+        "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1646,
-        "CLS": 0.1528,
+        "LCP_ms": 2021,
+        "CLS": 0.2151,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "supporting_metrics": {
-        "FCP_ms": 296,
-        "SI_ms": 296,
-        "TTI_ms": 1646
+        "FCP_ms": 856,
+        "SI_ms": 856,
+        "TTI_ms": 2021
       },
-      "onpage_score": 90.39,
-      "word_count": 1272,
+      "onpage_score": 100,
+      "word_count": 1754,
       "target_word_count": 1200,
       "title": "DISS Restoration | Restoration Services in Youngstown, OH",
       "title_length": 57,
@@ -52,23 +52,7 @@
       "h1": [
         "24/7 Restoration Services in Youngstown"
       ],
-      "page_bytes": {
-        "images": 1907392,
-        "css": 48927,
-        "js": 2250
-      },
       "lighthouse_issues": [
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": 1578823,
-          "category": "performance",
-          "source": "lighthouse",
-          "detail": "Est savings of 1,542\u00a0KiB",
-          "note": null
-        },
         {
           "id": "layout-shifts",
           "title": "Avoid large layout shifts",
@@ -77,8 +61,8 @@
           "estimated_savings_bytes": null,
           "category": "performance",
           "source": "lighthouse",
-          "detail": "2 layout shifts found",
-          "note": null
+          "detail": "1 layout shift found",
+          "note": "Hero text container (main > header.relative > div.container-wide) shifts when the Inter web font swaps in."
         },
         {
           "id": "cls-culprits-insight",
@@ -89,7 +73,18 @@
           "category": "performance",
           "source": "lighthouse",
           "detail": null,
-          "note": null
+          "note": "Culprit is a web font swap: Inter from fonts.gstatic.com reflows the hero text container (header > div.container-wide)."
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 1577874,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": "Est savings of 1,541 KiB",
+          "note": "Primary offender is /images/logo.png (1,423,236 bytes, displayed at h-20 in the header) on every page."
         },
         {
           "id": "cumulative-layout-shift",
@@ -99,38 +94,38 @@
           "estimated_savings_bytes": null,
           "category": "performance",
           "source": "lighthouse",
-          "detail": "0.153",
+          "detail": "0.215",
           "note": null
         },
         {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
           "severity": "medium",
-          "estimated_savings_ms": 52,
-          "estimated_savings_bytes": null,
+          "estimated_savings_ms": 100,
+          "estimated_savings_bytes": 70336,
           "category": "performance",
           "source": "lighthouse",
-          "detail": "Est savings of 50\u00a0ms",
-          "note": null
-        },
-        {
-          "id": "is-crawlable",
-          "title": "Page is blocked from indexing",
-          "severity": "info",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "seo",
-          "source": "lighthouse",
-          "detail": null,
-          "note": "Cloudflare Pages injects x-robots-tag: noindex on *.pages.dev previews. Environment artifact, not a site defect. Excluded from the verdict."
+          "detail": "Est savings of 69 KiB",
+          "note": "GA4 gtag.js (G-QQDEBB808D), about 69 KiB unused of 156 KiB. Third-party; mitigate by deferring load, not by editing the script."
         }
+      ],
+      "lighthouse_failing_audit_ids_all": [
+        "layout-shifts",
+        "cls-culprits-insight",
+        "image-delivery-insight",
+        "cumulative-layout-shift",
+        "unused-javascript",
+        "largest-contentful-paint",
+        "network-dependency-tree-insight",
+        "cache-insight",
+        "render-blocking-insight"
       ],
       "onpage_issues": [
         {
-          "id": "high_loading_time",
-          "title": "DataForSEO crawler recorded dom_complete 3405 ms",
+          "id": "meta_description_length_out_of_range",
+          "title": "Meta description is 176 chars (target 70-160); will truncate in SERPs",
           "severity": "medium",
-          "source": "dataforseo_onpage"
+          "source": "rank_ai_length_check"
         },
         {
           "id": "faqpage_schema_missing",
@@ -141,30 +136,30 @@
       ]
     },
     {
-      "url": "https://staging.rankai-diss-restoration.pages.dev/services/",
+      "url": "https://dissrestoration.com/services/",
       "url_path": "/services/",
       "archetype": "services-hub",
       "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 92,
+        "performance": 90,
         "accessibility": 95,
         "best_practices": 100,
-        "seo": 69
+        "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1878,
-        "CLS": 0.0025,
+        "LCP_ms": 2038,
+        "CLS": 0.0024,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "supporting_metrics": {
-        "FCP_ms": 337,
-        "SI_ms": 337,
-        "TTI_ms": 1878
+        "FCP_ms": 394,
+        "SI_ms": 402,
+        "TTI_ms": 2040
       },
-      "onpage_score": 97.44,
-      "word_count": 692,
+      "onpage_score": 100,
+      "word_count": 706,
       "target_word_count": 800,
       "title": "Restoration Services in Youngstown | DISS Restoration",
       "title_length": 53,
@@ -173,33 +168,28 @@
       "h1": [
         "Our Restoration Services"
       ],
-      "page_bytes": {
-        "images": 2028204,
-        "css": 48927,
-        "js": 2250
-      },
       "lighthouse_issues": [
         {
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "high",
           "estimated_savings_ms": null,
-          "estimated_savings_bytes": 1533989,
+          "estimated_savings_bytes": 1780121,
           "category": "performance",
           "source": "lighthouse",
-          "detail": "Est savings of 1,498\u00a0KiB",
-          "note": null
+          "detail": "Est savings of 1,738 KiB",
+          "note": "Primary offender is /images/logo.png (1,423,236 bytes, displayed at h-20 in the header) on every page."
         },
         {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
           "severity": "medium",
-          "estimated_savings_ms": 53,
-          "estimated_savings_bytes": null,
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": 69590,
           "category": "performance",
           "source": "lighthouse",
-          "detail": "Est savings of 50\u00a0ms",
-          "note": null
+          "detail": "Est savings of 68 KiB",
+          "note": "GA4 gtag.js (G-QQDEBB808D), about 69 KiB unused of 156 KiB. Third-party; mitigate by deferring load, not by editing the script."
         },
         {
           "id": "color-contrast",
@@ -210,7 +200,7 @@
           "category": "accessibility",
           "source": "lighthouse",
           "detail": null,
-          "note": null
+          "note": "Breadcrumb links (nav ol li a.text-dark/50) render #888c93 on #ffffff at 12px, ratio 3.37:1 (needs 4.5:1)."
         },
         {
           "id": "lcp-discovery-insight",
@@ -231,55 +221,55 @@
           "estimated_savings_bytes": null,
           "category": "performance",
           "source": "lighthouse",
-          "detail": "1.9\u00a0s",
+          "detail": "2.0 s",
           "note": null
-        },
-        {
-          "id": "is-crawlable",
-          "title": "Page is blocked from indexing",
-          "severity": "info",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "seo",
-          "source": "lighthouse",
-          "detail": null,
-          "note": "Cloudflare Pages injects x-robots-tag: noindex on *.pages.dev previews. Environment artifact, not a site defect. Excluded from the verdict."
         }
+      ],
+      "lighthouse_failing_audit_ids_all": [
+        "image-delivery-insight",
+        "unused-javascript",
+        "color-contrast",
+        "lcp-discovery-insight",
+        "largest-contentful-paint",
+        "forced-reflow-insight",
+        "network-dependency-tree-insight",
+        "cache-insight",
+        "render-blocking-insight"
       ],
       "onpage_issues": [
         {
           "id": "word_count_below_plan_target",
-          "title": "Word count 692 vs url-plan target_word_count 800",
+          "title": "Rendered word count 706 is below the url-plan target of 800",
           "severity": "low",
-          "source": "rank_ai_plan_target"
+          "source": "dataforseo_onpage"
         }
       ]
     },
     {
-      "url": "https://staging.rankai-diss-restoration.pages.dev/services/water-damage-restoration/",
+      "url": "https://dissrestoration.com/services/water-damage-restoration/",
       "url_path": "/services/water-damage-restoration/",
       "archetype": "service-landing",
-      "verdict": "amber",
+      "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 93,
+        "performance": 91,
         "accessibility": 95,
         "best_practices": 100,
-        "seo": 69
+        "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1804,
-        "CLS": 0.0036,
+        "LCP_ms": 1924,
+        "CLS": 0.0037,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "supporting_metrics": {
-        "FCP_ms": 308,
-        "SI_ms": 308,
-        "TTI_ms": 1804
+        "FCP_ms": 331,
+        "SI_ms": 331,
+        "TTI_ms": 1924
       },
-      "onpage_score": 90.39,
-      "word_count": 1948,
+      "onpage_score": 100,
+      "word_count": 1975,
       "target_word_count": 1100,
       "title": "Water Damage Restoration in Youngstown | DISS Restoration",
       "title_length": 57,
@@ -288,33 +278,17 @@
       "h1": [
         "Water Damage Restoration in Youngstown"
       ],
-      "page_bytes": {
-        "images": 1539488,
-        "css": 48927,
-        "js": 2250
-      },
       "lighthouse_issues": [
         {
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "high",
           "estimated_savings_ms": null,
-          "estimated_savings_bytes": 1422476,
+          "estimated_savings_bytes": 1421527,
           "category": "performance",
           "source": "lighthouse",
-          "detail": "Est savings of 1,389\u00a0KiB",
-          "note": null
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
-          "severity": "medium",
-          "estimated_savings_ms": 53,
-          "estimated_savings_bytes": null,
-          "category": "performance",
-          "source": "lighthouse",
-          "detail": "Est savings of 50\u00a0ms",
-          "note": null
+          "detail": "Est savings of 1,388 KiB",
+          "note": "Primary offender is /images/logo.png (1,423,236 bytes, displayed at h-20 in the header) on every page."
         },
         {
           "id": "color-contrast",
@@ -325,7 +299,7 @@
           "category": "accessibility",
           "source": "lighthouse",
           "detail": null,
-          "note": null
+          "note": "Breadcrumb links (nav ol li a.text-dark/50) render #888c93 on #ffffff at 12px, ratio 3.37:1 (needs 4.5:1)."
         },
         {
           "id": "lcp-discovery-insight",
@@ -339,62 +313,66 @@
           "note": null
         },
         {
-          "id": "largest-contentful-paint",
-          "title": "Largest Contentful Paint",
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
           "severity": "medium",
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
           "category": "performance",
           "source": "lighthouse",
-          "detail": "1.8\u00a0s",
-          "note": null
+          "detail": "Est savings of 50 ms",
+          "note": "Inter Google Fonts stylesheet is linked twice in <head>: once async (media=print onload swap) and once as a plain render-blocking <link>. Plus the Astro page CSS."
         },
         {
-          "id": "is-crawlable",
-          "title": "Page is blocked from indexing",
-          "severity": "info",
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "medium",
           "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "seo",
+          "estimated_savings_bytes": 70337,
+          "category": "performance",
           "source": "lighthouse",
-          "detail": null,
-          "note": "Cloudflare Pages injects x-robots-tag: noindex on *.pages.dev previews. Environment artifact, not a site defect. Excluded from the verdict."
+          "detail": "Est savings of 69 KiB",
+          "note": "GA4 gtag.js (G-QQDEBB808D), about 69 KiB unused of 156 KiB. Third-party; mitigate by deferring load, not by editing the script."
         }
       ],
-      "onpage_issues": [
-        {
-          "id": "high_loading_time",
-          "title": "DataForSEO crawler recorded dom_complete 4226 ms",
-          "severity": "medium",
-          "source": "dataforseo_onpage"
-        }
-      ]
+      "lighthouse_failing_audit_ids_all": [
+        "image-delivery-insight",
+        "color-contrast",
+        "lcp-discovery-insight",
+        "render-blocking-insight",
+        "unused-javascript",
+        "largest-contentful-paint",
+        "forced-reflow-insight",
+        "network-dependency-tree-insight",
+        "cache-insight"
+      ],
+      "onpage_issues": []
     },
     {
-      "url": "https://staging.rankai-diss-restoration.pages.dev/services/fire-damage-restoration/",
+      "url": "https://dissrestoration.com/services/fire-damage-restoration/",
       "url_path": "/services/fire-damage-restoration/",
       "archetype": "service-landing",
-      "verdict": "amber",
+      "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 93,
+        "performance": 98,
         "accessibility": 95,
         "best_practices": 100,
-        "seo": 69
+        "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1734,
-        "CLS": 0.0036,
+        "LCP_ms": 937,
+        "CLS": 0.0024,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "supporting_metrics": {
-        "FCP_ms": 291,
-        "SI_ms": 291,
-        "TTI_ms": 1734
+        "FCP_ms": 857,
+        "SI_ms": 857,
+        "TTI_ms": 941
       },
-      "onpage_score": 90.39,
-      "word_count": 1703,
+      "onpage_score": 100,
+      "word_count": 1730,
       "target_word_count": 1100,
       "title": "Fire Damage Restoration in Youngstown | DISS Restoration",
       "title_length": 56,
@@ -403,22 +381,17 @@
       "h1": [
         "Fire Damage Restoration in Youngstown"
       ],
-      "page_bytes": {
-        "images": 1505998,
-        "css": 48927,
-        "js": 2250
-      },
       "lighthouse_issues": [
         {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": 1422476,
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "medium",
+          "estimated_savings_ms": 30,
+          "estimated_savings_bytes": 67274,
           "category": "performance",
           "source": "lighthouse",
-          "detail": "Est savings of 1,389\u00a0KiB",
-          "note": null
+          "detail": "Est savings of 66 KiB",
+          "note": "GA4 gtag.js (G-QQDEBB808D), about 69 KiB unused of 156 KiB. Third-party; mitigate by deferring load, not by editing the script."
         },
         {
           "id": "color-contrast",
@@ -429,7 +402,7 @@
           "category": "accessibility",
           "source": "lighthouse",
           "detail": null,
-          "note": null
+          "note": "Breadcrumb links (nav ol li a.text-dark/50) render #888c93 on #ffffff at 12px, ratio 3.37:1 (needs 4.5:1)."
         },
         {
           "id": "lcp-discovery-insight",
@@ -443,238 +416,15 @@
           "note": null
         },
         {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "performance",
-          "source": "lighthouse",
-          "detail": null,
-          "note": null
-        },
-        {
-          "id": "largest-contentful-paint",
-          "title": "Largest Contentful Paint",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "performance",
-          "source": "lighthouse",
-          "detail": "1.7\u00a0s",
-          "note": null
-        },
-        {
-          "id": "is-crawlable",
-          "title": "Page is blocked from indexing",
-          "severity": "info",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "seo",
-          "source": "lighthouse",
-          "detail": null,
-          "note": "Cloudflare Pages injects x-robots-tag: noindex on *.pages.dev previews. Environment artifact, not a site defect. Excluded from the verdict."
-        }
-      ],
-      "onpage_issues": [
-        {
-          "id": "high_loading_time",
-          "title": "DataForSEO crawler recorded dom_complete 5051 ms",
-          "severity": "medium",
-          "source": "dataforseo_onpage"
-        }
-      ]
-    },
-    {
-      "url": "https://staging.rankai-diss-restoration.pages.dev/service-areas/warren-oh/",
-      "url_path": "/service-areas/warren-oh/",
-      "archetype": "service-area",
-      "verdict": "green",
-      "error_reason": null,
-      "scores": {
-        "performance": 93,
-        "accessibility": 95,
-        "best_practices": 100,
-        "seo": 69
-      },
-      "core_web_vitals": {
-        "LCP_ms": 1766,
-        "CLS": 0.0034,
-        "TBT_ms": 0,
-        "INP_ms": null
-      },
-      "supporting_metrics": {
-        "FCP_ms": 276,
-        "SI_ms": 279,
-        "TTI_ms": 1766
-      },
-      "onpage_score": 97.44,
-      "word_count": 1329,
-      "target_word_count": 900,
-      "title": "Restoration Services in Warren, OH | DISS Restoration",
-      "title_length": 53,
-      "meta_description_length": 120,
-      "canonical": "https://dissrestoration.com/service-areas/warren-oh/",
-      "h1": [
-        "Restoration Services in Warren"
-      ],
-      "page_bytes": {
-        "images": 1567234,
-        "css": 48927,
-        "js": 2250
-      },
-      "lighthouse_issues": [
-        {
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": 1449757,
-          "category": "performance",
-          "source": "lighthouse",
-          "detail": "Est savings of 1,416\u00a0KiB",
-          "note": null
-        },
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
           "severity": "medium",
           "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "accessibility",
-          "source": "lighthouse",
-          "detail": null,
-          "note": null
-        },
-        {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
+          "estimated_savings_bytes": 1421527,
           "category": "performance",
           "source": "lighthouse",
-          "detail": null,
-          "note": null
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "performance",
-          "source": "lighthouse",
-          "detail": null,
-          "note": null
-        },
-        {
-          "id": "largest-contentful-paint",
-          "title": "Largest Contentful Paint",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "performance",
-          "source": "lighthouse",
-          "detail": "1.8\u00a0s",
-          "note": null
-        },
-        {
-          "id": "is-crawlable",
-          "title": "Page is blocked from indexing",
-          "severity": "info",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "seo",
-          "source": "lighthouse",
-          "detail": null,
-          "note": "Cloudflare Pages injects x-robots-tag: noindex on *.pages.dev previews. Environment artifact, not a site defect. Excluded from the verdict."
-        }
-      ],
-      "onpage_issues": []
-    },
-    {
-      "url": "https://staging.rankai-diss-restoration.pages.dev/contact/",
-      "url_path": "/contact/",
-      "archetype": "contact",
-      "verdict": "green",
-      "error_reason": null,
-      "scores": {
-        "performance": 100,
-        "accessibility": 96,
-        "best_practices": 100,
-        "seo": 69
-      },
-      "core_web_vitals": {
-        "LCP_ms": 808,
-        "CLS": 0.0238,
-        "TBT_ms": 0,
-        "INP_ms": null
-      },
-      "supporting_metrics": {
-        "FCP_ms": 336,
-        "SI_ms": 355,
-        "TTI_ms": 808
-      },
-      "onpage_score": 97.44,
-      "word_count": 654,
-      "target_word_count": 400,
-      "title": "Contact DISS Restoration | 24/7 Restoration in Youngstown",
-      "title_length": 57,
-      "meta_description_length": 129,
-      "canonical": "https://dissrestoration.com/contact/",
-      "h1": [
-        "Contact DISS Restoration"
-      ],
-      "page_bytes": {
-        "images": 1567234,
-        "css": 48927,
-        "js": 2250
-      },
-      "lighthouse_issues": [
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": 1517629,
-          "category": "performance",
-          "source": "lighthouse",
-          "detail": "Est savings of 1,482\u00a0KiB",
-          "note": null
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
-          "severity": "medium",
-          "estimated_savings_ms": 54,
-          "estimated_savings_bytes": null,
-          "category": "performance",
-          "source": "lighthouse",
-          "detail": "Est savings of 50\u00a0ms",
-          "note": null
-        },
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "accessibility",
-          "source": "lighthouse",
-          "detail": null,
-          "note": null
-        },
-        {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "performance",
-          "source": "lighthouse",
-          "detail": null,
-          "note": null
+          "detail": "Est savings of 1,388 KiB",
+          "note": "Primary offender is /images/logo.png (1,423,236 bytes, displayed at h-20 in the header) on every page."
         },
         {
           "id": "network-dependency-tree-insight",
@@ -686,35 +436,237 @@
           "source": "lighthouse",
           "detail": null,
           "note": null
+        }
+      ],
+      "lighthouse_failing_audit_ids_all": [
+        "unused-javascript",
+        "color-contrast",
+        "lcp-discovery-insight",
+        "image-delivery-insight",
+        "network-dependency-tree-insight",
+        "cache-insight",
+        "render-blocking-insight"
+      ],
+      "onpage_issues": []
+    },
+    {
+      "url": "https://dissrestoration.com/service-areas/warren-oh/",
+      "url_path": "/service-areas/warren-oh/",
+      "archetype": "service-area",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 90,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 2020,
+        "CLS": 0.0034,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "supporting_metrics": {
+        "FCP_ms": 851,
+        "SI_ms": 851,
+        "TTI_ms": 2020
+      },
+      "onpage_score": 100,
+      "word_count": 1348,
+      "target_word_count": 900,
+      "title": "Restoration Services in Warren, OH | DISS Restoration",
+      "title_length": 53,
+      "meta_description_length": 120,
+      "canonical": "https://dissrestoration.com/service-areas/warren-oh/",
+      "h1": [
+        "Restoration Services in Warren"
+      ],
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 1448808,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": "Est savings of 1,415 KiB",
+          "note": "Primary offender is /images/logo.png (1,423,236 bytes, displayed at h-20 in the header) on every page."
         },
         {
-          "id": "is-crawlable",
-          "title": "Page is blocked from indexing",
-          "severity": "info",
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "medium",
+          "estimated_savings_ms": 110,
+          "estimated_savings_bytes": 70533,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": "Est savings of 69 KiB",
+          "note": "GA4 gtag.js (G-QQDEBB808D), about 69 KiB unused of 156 KiB. Third-party; mitigate by deferring load, not by editing the script."
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
-          "category": "seo",
+          "category": "accessibility",
           "source": "lighthouse",
           "detail": null,
-          "note": "Cloudflare Pages injects x-robots-tag: noindex on *.pages.dev previews. Environment artifact, not a site defect. Excluded from the verdict."
+          "note": "Breadcrumb links (nav ol li a.text-dark/50) render #888c93 on #ffffff at 12px, ratio 3.37:1 (needs 4.5:1)."
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": null,
+          "note": null
+        },
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": "2.0 s",
+          "note": null
         }
+      ],
+      "lighthouse_failing_audit_ids_all": [
+        "image-delivery-insight",
+        "unused-javascript",
+        "color-contrast",
+        "lcp-discovery-insight",
+        "largest-contentful-paint",
+        "network-dependency-tree-insight",
+        "cache-insight",
+        "render-blocking-insight"
+      ],
+      "onpage_issues": []
+    },
+    {
+      "url": "https://dissrestoration.com/contact/",
+      "url_path": "/contact/",
+      "archetype": "contact",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 96,
+        "accessibility": 96,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1239,
+        "CLS": 0.0237,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "supporting_metrics": {
+        "FCP_ms": 876,
+        "SI_ms": 876,
+        "TTI_ms": 1241
+      },
+      "onpage_score": 100,
+      "word_count": 670,
+      "target_word_count": 400,
+      "title": "Contact DISS Restoration | 24/7 Restoration in Youngstown",
+      "title_length": 57,
+      "meta_description_length": 129,
+      "canonical": "https://dissrestoration.com/contact/",
+      "h1": [
+        "Contact DISS Restoration"
+      ],
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 1517107,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": "Est savings of 1,482 KiB",
+          "note": "Primary offender is /images/logo.png (1,423,236 bytes, displayed at h-20 in the header) on every page."
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "medium",
+          "estimated_savings_ms": 140,
+          "estimated_savings_bytes": 69147,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": "Est savings of 68 KiB",
+          "note": "GA4 gtag.js (G-QQDEBB808D), about 69 KiB unused of 156 KiB. Third-party; mitigate by deferring load, not by editing the script."
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "source": "lighthouse",
+          "detail": null,
+          "note": "Breadcrumb links (nav ol li a.text-dark/50) render #888c93 on #ffffff at 12px, ratio 3.37:1 (needs 4.5:1)."
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": null,
+          "note": null
+        },
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": "1.2 s",
+          "note": null
+        }
+      ],
+      "lighthouse_failing_audit_ids_all": [
+        "image-delivery-insight",
+        "unused-javascript",
+        "color-contrast",
+        "lcp-discovery-insight",
+        "largest-contentful-paint",
+        "network-dependency-tree-insight",
+        "cache-insight",
+        "render-blocking-insight"
       ],
       "onpage_issues": []
     }
   ],
   "site_rollup": {
     "avg_scores": {
-      "performance": 93.2,
+      "performance": 90.7,
       "accessibility": 96.0,
       "best_practices": 100.0,
-      "seo": 69.0
+      "seo": 100.0
     },
     "verdict": "amber",
-    "verdict_basis": "performance, accessibility, best_practices (seo excluded - staging noindex artifact)",
+    "verdict_basis": "performance, accessibility, best_practices, seo (apex, all four categories counted)",
     "url_count": 6,
     "urls_by_verdict": {
-      "green": 3,
-      "amber": 3,
+      "green": 5,
+      "amber": 1,
       "red": 0,
       "error": 0
     },
@@ -724,7 +676,6 @@
         "title": "Improve image delivery",
         "severity": "high",
         "source": "lighthouse",
-        "affected_urls": 6,
         "urls": [
           "/",
           "/services/",
@@ -733,14 +684,14 @@
           "/service-areas/warren-oh/",
           "/contact/"
         ],
-        "note": null
+        "affected_urls": 6,
+        "note": "Primary offender is /images/logo.png (1,423,236 bytes, displayed at h-20 in the header) on every page."
       },
       {
-        "id": "render-blocking-insight",
-        "title": "Render-blocking requests",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
         "severity": "medium",
         "source": "lighthouse",
-        "affected_urls": 6,
         "urls": [
           "/",
           "/services/",
@@ -749,14 +700,14 @@
           "/service-areas/warren-oh/",
           "/contact/"
         ],
-        "note": null
+        "affected_urls": 6,
+        "note": "GA4 gtag.js (G-QQDEBB808D), about 69 KiB unused of 156 KiB. Third-party; mitigate by deferring load, not by editing the script."
       },
       {
         "id": "color-contrast",
         "title": "Background and foreground colors do not have a sufficient contrast ratio.",
         "severity": "medium",
         "source": "lighthouse",
-        "affected_urls": 5,
         "urls": [
           "/services/",
           "/services/water-damage-restoration/",
@@ -764,14 +715,14 @@
           "/service-areas/warren-oh/",
           "/contact/"
         ],
-        "note": null
+        "affected_urls": 5,
+        "note": "Breadcrumb links (nav ol li a.text-dark/50) render #888c93 on #ffffff at 12px, ratio 3.37:1 (needs 4.5:1)."
       },
       {
         "id": "lcp-discovery-insight",
         "title": "LCP request discovery",
         "severity": "medium",
         "source": "lighthouse",
-        "affected_urls": 5,
         "urls": [
           "/services/",
           "/services/water-damage-restoration/",
@@ -779,6 +730,7 @@
           "/service-areas/warren-oh/",
           "/contact/"
         ],
+        "affected_urls": 5,
         "note": null
       },
       {
@@ -786,73 +738,279 @@
         "title": "Largest Contentful Paint",
         "severity": "medium",
         "source": "lighthouse",
-        "affected_urls": 4,
         "urls": [
           "/services/",
-          "/services/water-damage-restoration/",
-          "/services/fire-damage-restoration/",
-          "/service-areas/warren-oh/"
-        ],
-        "note": null
-      },
-      {
-        "id": "high_loading_time",
-        "title": "DataForSEO crawler recorded dom_complete 3405 ms",
-        "severity": "medium",
-        "source": "dataforseo_onpage",
-        "affected_urls": 3,
-        "urls": [
-          "/",
-          "/services/water-damage-restoration/",
-          "/services/fire-damage-restoration/"
-        ],
-        "note": null
-      },
-      {
-        "id": "is-crawlable",
-        "title": "Page is blocked from indexing",
-        "severity": "info",
-        "source": "lighthouse",
-        "affected_urls": 6,
-        "urls": [
-          "/",
-          "/services/",
-          "/services/water-damage-restoration/",
-          "/services/fire-damage-restoration/",
           "/service-areas/warren-oh/",
           "/contact/"
         ],
-        "note": "Cloudflare Pages injects x-robots-tag: noindex on *.pages.dev previews. Environment artifact, not a site defect. Excluded from the verdict."
+        "affected_urls": 3,
+        "note": null
       }
     ],
     "money_page_alerts": [
       {
-        "url": "https://staging.rankai-diss-restoration.pages.dev/",
+        "url": "https://dissrestoration.com/",
         "archetype": "home",
         "verdict": "amber",
-        "main_issue": "performance 88, CLS 0.153 (web-font reflow in the hero), 1.39 MB logo.png on every render"
-      },
-      {
-        "url": "https://staging.rankai-diss-restoration.pages.dev/services/water-damage-restoration/",
-        "archetype": "service-landing",
-        "verdict": "amber",
-        "main_issue": "performance 93, CLS 0.004 (web-font reflow in the hero), 1.39 MB logo.png on every render"
-      },
-      {
-        "url": "https://staging.rankai-diss-restoration.pages.dev/services/fire-damage-restoration/",
-        "archetype": "service-landing",
-        "verdict": "amber",
-        "main_issue": "performance 93, CLS 0.004 (web-font reflow in the hero), 1.39 MB logo.png on every render"
+        "main_issue": "performance 79, CLS 0.2151, LCP 2.0s; meta description 176 chars; FAQPage JSON-LD missing"
       }
     ]
   },
   "regression": {
-    "prior_run_at": null,
-    "score_deltas": null,
-    "verdict_transitions": [],
-    "new_issues": [],
-    "resolved_issues": [],
-    "note": "First audit for this client - no comparison data."
+    "prior_run_at": "2026-08-26T23:29:30Z",
+    "prior_live_origin": "https://staging.rankai-diss-restoration.pages.dev",
+    "comparison_basis": "matched by url_path; prior origin staging, current origin apex",
+    "score_deltas": {
+      "performance": -2.5,
+      "accessibility": 0.0,
+      "best_practices": 0.0,
+      "seo": 31.0
+    },
+    "site_level_flags": [],
+    "per_url": [
+      {
+        "url": "https://dissrestoration.com/",
+        "url_path": "/",
+        "score_deltas": {
+          "performance": -9,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 31
+        },
+        "cwv_deltas": {
+          "LCP_ms": 375,
+          "CLS": 0.0623,
+          "TBT_ms": 0
+        },
+        "regressions": [
+          {
+            "metric": "performance",
+            "prior": 88,
+            "current": 79,
+            "delta": -9
+          },
+          {
+            "metric": "LCP_ms",
+            "prior": 1646,
+            "current": 2021,
+            "delta": 375
+          },
+          {
+            "metric": "CLS",
+            "prior": 0.1528,
+            "current": 0.2151,
+            "delta": 0.0623
+          }
+        ]
+      },
+      {
+        "url": "https://dissrestoration.com/services/",
+        "url_path": "/services/",
+        "score_deltas": {
+          "performance": -2,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 31
+        },
+        "cwv_deltas": {
+          "LCP_ms": 160,
+          "CLS": -0.0001,
+          "TBT_ms": 0
+        },
+        "regressions": []
+      },
+      {
+        "url": "https://dissrestoration.com/services/water-damage-restoration/",
+        "url_path": "/services/water-damage-restoration/",
+        "score_deltas": {
+          "performance": -2,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 31
+        },
+        "cwv_deltas": {
+          "LCP_ms": 120,
+          "CLS": 0.0001,
+          "TBT_ms": 0
+        },
+        "regressions": []
+      },
+      {
+        "url": "https://dissrestoration.com/services/fire-damage-restoration/",
+        "url_path": "/services/fire-damage-restoration/",
+        "score_deltas": {
+          "performance": 5,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 31
+        },
+        "cwv_deltas": {
+          "LCP_ms": -797,
+          "CLS": -0.0012,
+          "TBT_ms": 0
+        },
+        "regressions": []
+      },
+      {
+        "url": "https://dissrestoration.com/service-areas/warren-oh/",
+        "url_path": "/service-areas/warren-oh/",
+        "score_deltas": {
+          "performance": -3,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 31
+        },
+        "cwv_deltas": {
+          "LCP_ms": 254,
+          "CLS": 0.0,
+          "TBT_ms": 0
+        },
+        "regressions": [
+          {
+            "metric": "LCP_ms",
+            "prior": 1766,
+            "current": 2020,
+            "delta": 254
+          }
+        ]
+      },
+      {
+        "url": "https://dissrestoration.com/contact/",
+        "url_path": "/contact/",
+        "score_deltas": {
+          "performance": -4,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 31
+        },
+        "cwv_deltas": {
+          "LCP_ms": 431,
+          "CLS": -0.0001,
+          "TBT_ms": 0
+        },
+        "regressions": [
+          {
+            "metric": "LCP_ms",
+            "prior": 808,
+            "current": 1239,
+            "delta": 431
+          }
+        ]
+      }
+    ],
+    "verdict_transitions": [
+      {
+        "url": "https://dissrestoration.com/services/water-damage-restoration/",
+        "from": "amber",
+        "to": "green",
+        "direction": "improved"
+      },
+      {
+        "url": "https://dissrestoration.com/services/fire-damage-restoration/",
+        "from": "amber",
+        "to": "green",
+        "direction": "improved"
+      }
+    ],
+    "new_issues": [
+      {
+        "url": "https://dissrestoration.com/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://dissrestoration.com/",
+        "id": "meta_description_length_out_of_range",
+        "title": "Meta description is 176 chars (target 70-160); will truncate in SERPs"
+      },
+      {
+        "url": "https://dissrestoration.com/services/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://dissrestoration.com/services/water-damage-restoration/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://dissrestoration.com/services/fire-damage-restoration/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://dissrestoration.com/services/fire-damage-restoration/",
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree"
+      },
+      {
+        "url": "https://dissrestoration.com/service-areas/warren-oh/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://dissrestoration.com/contact/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://dissrestoration.com/contact/",
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint"
+      }
+    ],
+    "resolved_issues": [
+      {
+        "url": "https://dissrestoration.com/",
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing"
+      },
+      {
+        "url": "https://dissrestoration.com/",
+        "id": "high_loading_time",
+        "title": "DataForSEO crawler recorded dom_complete 3405 ms"
+      },
+      {
+        "url": "https://dissrestoration.com/services/",
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing"
+      },
+      {
+        "url": "https://dissrestoration.com/services/water-damage-restoration/",
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing"
+      },
+      {
+        "url": "https://dissrestoration.com/services/water-damage-restoration/",
+        "id": "high_loading_time",
+        "title": "DataForSEO crawler recorded dom_complete 4226 ms"
+      },
+      {
+        "url": "https://dissrestoration.com/services/fire-damage-restoration/",
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint"
+      },
+      {
+        "url": "https://dissrestoration.com/services/fire-damage-restoration/",
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing"
+      },
+      {
+        "url": "https://dissrestoration.com/services/fire-damage-restoration/",
+        "id": "high_loading_time",
+        "title": "DataForSEO crawler recorded dom_complete 5051 ms"
+      },
+      {
+        "url": "https://dissrestoration.com/service-areas/warren-oh/",
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing"
+      },
+      {
+        "url": "https://dissrestoration.com/contact/",
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing"
+      }
+    ]
   },
-  "run_cost_usd": 0.0606
+  "run_cost_usd": 0.0408
 }

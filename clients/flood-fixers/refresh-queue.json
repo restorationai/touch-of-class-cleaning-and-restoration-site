@@ -3,7 +3,7 @@
   "slug": "flood-fixers",
   "site": "flood-fixers.com",
   "origin": "https://flood-fixers.com",
-  "generated_at": "2026-08-27T02:14:36Z",
+  "generated_at": "2026-09-28T21:30:06Z",
   "gsc_enabled": false,
   "totals": {
     "total_actions": 0,
@@ -22,10 +22,9 @@
   },
   "items": [],
   "notes": [
-    "URLs skipped because already in content-queue: none. Nine candidate URLs also appear in content-queue.json, but all nine carry status published or written, not an active status in {queued, in_progress, needs_review}. The 15 active queued items are unpublished and have no post_url, so they cannot collide with a live URL.",
-    "URLs where date extraction failed: none. All 120 inspected URLs resolved a date (96 via json_ld_date_modified, 24 via sitemap_lastmod); failed_html_count is 0.",
-    "v1 limitations: no GSC indexing flags. not_indexed and index_warning coverage states are unavailable, so request_indexing and fix_canonical are unreachable this run. No candidate carried search_signals, so the v2 striking_queries and low_ctr paths did not fire either.",
-    "All 120 candidates are fresh: every URL has empty flags and age_days between 0 and 59, well below the 305-day aging threshold and the 365-day stale threshold. The site cut over on 2026-07-04. No refresh or audit action is warranted this cycle.",
-    "Coverage observation (not an action): 14 pages in url-plan.json are absent from the sitemap and therefore from the candidate set, including the /services/ hub and all six service-landing pages. All 14 still carry plan status 'planned', so their absence reflects unbuilt pages rather than content decay. Nothing for this layer to do; it is a build-side gap."
+    "URLs skipped because already in content-queue: none (15 candidate URLs appear in content-queue.json but all are status published or written; the 6 queued items have no post_url yet)",
+    "URLs where date extraction failed: none (97 json_ld_date_modified, 23 sitemap_lastmod, 0 HTML fetch failures)",
+    "All 120 URLs are 0-91 days old with no layer-1 flags; oldest is 91 days vs 305-day aging threshold",
+    "v1 limitations: no GSC indexing flags, no striking_queries or low_ctr demand signals"
   ]
 }

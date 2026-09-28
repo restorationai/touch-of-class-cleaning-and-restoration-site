@@ -13,7 +13,7 @@
     "url_count": 492,
     "generated_at": "2026-09-24T23:21:20.590880+00:00"
   },
-  "updated_at": "2026-09-28T02:42:16.549820+00:00",
+  "updated_at": "2026-09-28T21:12:33Z",
   "gbp": {
     "place_id": "ChIJAbX4Kjsyg2IRF9RgElzgJXk",
     "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJAbX4Kjsyg2IRF9RgElzgJXk"
@@ -54,9 +54,9 @@
   },
   "cut_over_at": "2026-08-21T01:49:03+00:00",
   "audit": {
-    "last_audit_at": "2026-08-26T13:30:57Z",
+    "last_audit_at": "2026-09-28T21:12:33Z",
     "last_audit_verdict": "amber",
-    "last_audit_report_path": "audit-runs/2026-08-26-onsite-audit.md"
+    "last_audit_report_path": "audit-runs/2026-09-28-onsite-audit.md"
   },
   "brightlocal": {
     "location_id": 4147618,

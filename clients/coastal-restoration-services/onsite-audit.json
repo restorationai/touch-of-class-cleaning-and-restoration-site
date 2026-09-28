@@ -1,57 +1,49 @@
 {
   "schema_version": 1,
   "slug": "coastal-restoration-services",
-  "site": "staging.rankai-coastal-restoration-services.pages.dev",
-  "live_origin": "https://staging.rankai-coastal-restoration-services.pages.dev",
-  "live_origin_source": "staging",
+  "site": "callcrs.com",
+  "live_origin": "https://callcrs.com",
+  "live_origin_source": "apex",
   "audit_form_factor": "desktop",
-  "generated_at": "2026-08-26T14:37:01Z",
+  "generated_at": "2026-09-28T21:17:22Z",
+  "lighthouse_detail": "full - complete audits array captured per URL via direct DataForSEO REST (on_page/lighthouse/live/json, for_mobile=false). lighthouse_issues[] holds the top 5 per URL. lighthouse_failing_ids[] holds every audit with score < 1.",
   "environment_caveats": [
-    "Audited the Cloudflare Pages staging preview because clients/coastal-restoration-services.json has domain: null and no apex_cutover.completed_at. Verified x-robots-tag: noindex is present on the preview, so the Lighthouse SEO category (69 on every URL, is-crawlable scoring 0) is inconclusive and was excluded from all verdicts. Re-audit after apex cutover.",
-    "Lighthouse ran DESKTOP only (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240). Mobile scores would typically land 10-20 performance points lower. Do not read these as mobile-first scores.",
-    "DataForSEO on-page reports has_micromarkup: false on all six URLs. Manually verified against the rendered HTML that JSON-LD IS present (Organization, WebSite, LocalBusiness, Service, FAQPage, BreadcrumbList). Treated as a vendor false negative for JSON-LD and NOT reported as a missing-schema issue.",
-    "The named MCP tools on_page_lighthouse and on_page_instant_pages are not exposed by this DataForSEO MCP build. Used authenticated REST calls to /v3/on_page/lighthouse/live/json and /v3/on_page/instant_pages, piped to disk. Equivalent data, same cost basis.",
-    "Client record status is 'onboarding', not 'active'. Proceeded because build_status is pushed_main and all six URLs returned HTTP 200, so the site is live and auditable.",
-    "Issue IDs prefixed rankai_ are Rank AI derived checks, not Lighthouse or DataForSEO audit IDs. All unprefixed IDs are genuine vendor IDs."
+    "live_origin_source=apex. apex_cutover.completed_at is 2026-09-08T17:52:50Z, so https://callcrs.com was audited. curl -sI shows no x-robots-tag on the apex, and SEO counts toward the verdict this run. The prior run (2026-08-26) audited the staging Pages preview with SEO excluded, so the SEO delta (+31) is mostly the noindex artifact clearing, not a code change.",
+    "URL matching for regression uses url_path because the origin changed from staging.rankai-coastal-restoration-services.pages.dev to callcrs.com.",
+    "Lighthouse ran DESKTOP (configSettings.formFactor=desktop). Mobile scores would typically run 10-20 performance points lower. No mobile-first claim is made.",
+    "https://www.callcrs.com/ returns HTTP 200 and serves the site directly. It does not 301 to the apex. rel=canonical on www pages points at https://callcrs.com/..., so the duplicate host is mitigated but not eliminated.",
+    "DataForSEO has_micromarkup reported false again despite 3-5 JSON-LD blocks on every page (verified by fetching the served HTML). Schema checks in this run were performed by parsing the served HTML directly.",
+    "Root cause of rankai_wrong_primary_city_in_metadata, verified in scripts/build_site.py:964-981: the RENDERED-CONTENT GUARD keeps any content file whose frontmatter has rendered: true. The 2026-09-23 url-plan regeneration corrected titles/H1s/meta to Santa Maria, but already-rendered pages kept their old Vandenberg Village frontmatter. They need a targeted render --url ... --force."
   ],
+  "seo_score_status": "counted (apex, no noindex)",
   "audited_urls": [
     {
-      "url": "https://staging.rankai-coastal-restoration-services.pages.dev/",
+      "url": "https://callcrs.com/",
       "url_path": "/",
       "archetype": "home",
-      "verdict": "red",
+      "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 99,
-        "accessibility": 92,
+        "performance": 98,
+        "accessibility": 96,
         "best_practices": 100,
-        "seo": 69
+        "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 836,
-        "CLS": 0.0027,
+        "LCP_ms": 951,
+        "CLS": 0.0024,
         "TBT_ms": 0,
         "INP_ms": null
       },
-      "onpage_score": 97.44,
+      "onpage_score": 100,
       "lighthouse_issues": [
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "category": "accessibility",
-          "failing_elements": 11,
-          "detail": "Brand gold #e6ac1a and hover shade #af8213 behind white bold text measure 2.04:1 to 3.48:1 against a 4.5:1 requirement."
-        },
         {
           "id": "target-size",
           "title": "Touch targets do not have sufficient size or spacing.",
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "accessibility",
-          "failing_elements": 2,
-          "detail": "Footer tel: and mailto: links render 17px tall against a 24px minimum."
+          "detail": "Footer tel:+18053457440 (110x17px) and mailto:tony@callcrs.com (118x17px) links are under the 24px minimum height."
         },
         {
           "id": "image-delivery-insight",
@@ -59,82 +51,104 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance",
-          "estimated_savings_bytes": 83127,
-          "failing_elements": 2,
-          "detail": "Oversized/under-compressed images; header logo alone wastes ~66KB (220x209 served for a 67x64 slot)."
+          "estimated_savings_bytes": 37488,
+          "detail": "Wasted bytes: /images/logo.webp 20KB, /images/hero-bg.webp 16KB"
         },
         {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 100,
+          "category": "performance",
+          "estimated_savings_bytes": 68034,
+          "detail": "Google Analytics gtag.js (G-VHZE6NYBPE), about 66-69KB unused. It was added at apex cutover and was not on the staging build."
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
           "severity": "low",
           "estimated_savings_ms": null,
           "category": "performance",
-          "estimated_savings_bytes": 8998,
-          "detail": "Astro stylesheet _astro/_slug_.BT6bhdIk.css (~9KB) blocks first paint."
+          "detail": "The Cloudflare Email Obfuscation script /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js has a short cache TTL (about 0.3s). Negligible bytes."
         },
         {
           "id": "network-dependency-tree-insight",
           "title": "Network dependency tree",
           "severity": "low",
-          "estimated_savings_ms": 183,
-          "category": "performance",
-          "detail": "Longest critical request chain 183ms (document then CSS/JS)."
-        },
-        {
-          "id": "is-crawlable",
-          "title": "Page is blocked from indexing",
-          "severity": "info",
           "estimated_savings_ms": null,
-          "category": "seo",
-          "excluded_from_verdict": true,
-          "detail": "Cloudflare Pages preview injects x-robots-tag: noindex. Environment artifact, not a site defect."
+          "category": "performance",
+          "detail": "Critical chain: document, then CSS/JS. Informational on desktop."
         }
+      ],
+      "lighthouse_failing_ids": [
+        "target-size",
+        "image-delivery-insight",
+        "unused-javascript",
+        "cache-insight",
+        "network-dependency-tree-insight",
+        "render-blocking-insight"
       ],
       "onpage_issues": [
         {
-          "id": "canonical",
-          "title": "Canonical URL resolves to an invalid host: https://none/",
-          "severity": "high",
-          "source": "dataforseo_onpage",
-          "detail": "rel=canonical and og:url render the literal string None as the hostname because clients/coastal-restoration-services.json has domain: null."
+          "id": "low_content_rate",
+          "title": "Low ratio of plain text to HTML",
+          "severity": "low",
+          "source": "dataforseo_onpage"
         },
         {
-          "id": "rankai_jsonld_invalid_entity_id",
-          "title": "JSON-LD @id and url properties point to https://None",
-          "severity": "high",
+          "id": "no_image_title",
+          "title": "Images without title attribute (informational)",
+          "severity": "low",
+          "source": "dataforseo_onpage"
+        },
+        {
+          "id": "rankai_jsonld_relative_image_url",
+          "title": "JSON-LD image/logo uses the relative path /images/logo.webp",
+          "severity": "low",
           "source": "rankai_derived",
-          "detail": "Organization, WebSite, LocalBusiness, Service and BreadcrumbList entities carry https://None identifiers, breaking entity resolution."
+          "detail": "The LocalBusiness/Organization image or logo is \"/images/logo.webp\". Emit the absolute https://callcrs.com/images/logo.webp. Google does not flag this today, but some parsers treat the value as literal text."
         }
-      ]
+      ],
+      "onpage_meta": {
+        "title": "Restoration Services in Santa Maria, CA",
+        "title_length": 39,
+        "description_length": 152,
+        "word_count": 1426,
+        "target_word_count": 1200,
+        "h1": [
+          "Restoration Services in Santa Maria"
+        ],
+        "canonical": "https://callcrs.com/",
+        "status_code": 200
+      }
     },
     {
-      "url": "https://staging.rankai-coastal-restoration-services.pages.dev/services/",
+      "url": "https://callcrs.com/services/",
       "url_path": "/services/",
       "archetype": "services-hub",
       "verdict": "red",
       "error_reason": null,
       "scores": {
-        "performance": 99,
+        "performance": 98,
         "accessibility": 90,
         "best_practices": 100,
-        "seo": 69
+        "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 840,
-        "CLS": 0.002,
+        "LCP_ms": 992,
+        "CLS": 0.0019,
         "TBT_ms": 0,
         "INP_ms": null
       },
-      "onpage_score": 97.44,
+      "onpage_score": 100,
       "lighthouse_issues": [
         {
           "id": "color-contrast",
           "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "high",
+          "severity": "medium",
           "estimated_savings_ms": null,
           "category": "accessibility",
-          "failing_elements": 9,
-          "detail": "Brand gold #e6ac1a and hover shade #af8213 behind white bold text measure 2.04:1 to 3.48:1 against a 4.5:1 requirement."
+          "detail": "Only the breadcrumb links fail now: text-dark/50 (#888c93) on white measures 3.37:1 at 12px against 4.5:1. The brand-gold failures from 2026-08-26 are gone."
         },
         {
           "id": "target-size",
@@ -142,35 +156,16 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "accessibility",
-          "failing_elements": 2,
-          "detail": "Footer tel: and mailto: links render 17px tall against a 24px minimum."
+          "detail": "Footer tel:+18053457440 (110x17px) and mailto:tony@callcrs.com (118x17px) links are under the 24px minimum height."
         },
         {
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "medium",
-          "estimated_savings_ms": null,
+          "estimated_savings_ms": 50,
           "category": "performance",
-          "estimated_savings_bytes": 243933,
-          "failing_elements": 12,
-          "detail": "Oversized/under-compressed images; header logo alone wastes ~66KB (220x209 served for a 67x64 slot)."
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "estimated_savings_bytes": 9052,
-          "detail": "Astro stylesheet _astro/_slug_.BT6bhdIk.css (~9KB) blocks first paint."
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "low",
-          "estimated_savings_ms": 146,
-          "category": "performance",
-          "detail": "Longest critical request chain 146ms (document then CSS/JS)."
+          "estimated_savings_bytes": 210186,
+          "detail": "Wasted bytes: /images/hero-bg.webp 93KB, /images/logo.webp 20KB, /images/services/storm-damage-restoration-480w.webp 17KB, /images/services/vandalism-cleanup-480w.webp 12KB"
         },
         {
           "id": "lcp-discovery-insight",
@@ -178,77 +173,103 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance",
-          "detail": "LCP hero image is missing fetchpriority=\"high\"."
+          "detail": "The LCP hero image is eager-loaded and discoverable but has no fetchpriority=\"high\". The homepage template passes this check."
         },
         {
-          "id": "is-crawlable",
-          "title": "Page is blocked from indexing",
-          "severity": "info",
-          "estimated_savings_ms": null,
-          "category": "seo",
-          "excluded_from_verdict": true,
-          "detail": "Cloudflare Pages preview injects x-robots-tag: noindex. Environment artifact, not a site defect."
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 100,
+          "category": "performance",
+          "estimated_savings_bytes": 70333,
+          "detail": "Google Analytics gtag.js (G-VHZE6NYBPE), about 66-69KB unused. It was added at apex cutover and was not on the staging build."
         }
+      ],
+      "lighthouse_failing_ids": [
+        "color-contrast",
+        "target-size",
+        "image-delivery-insight",
+        "lcp-discovery-insight",
+        "unused-javascript",
+        "cache-insight",
+        "forced-reflow-insight",
+        "network-dependency-tree-insight",
+        "render-blocking-insight"
       ],
       "onpage_issues": [
         {
-          "id": "canonical",
-          "title": "Canonical URL resolves to an invalid host: https://none/services/",
-          "severity": "high",
-          "source": "dataforseo_onpage",
-          "detail": "rel=canonical and og:url render the literal string None as the hostname because clients/coastal-restoration-services.json has domain: null."
+          "id": "low_content_rate",
+          "title": "Low ratio of plain text to HTML",
+          "severity": "low",
+          "source": "dataforseo_onpage"
         },
         {
-          "id": "rankai_jsonld_invalid_entity_id",
-          "title": "JSON-LD @id and url properties point to https://None",
-          "severity": "high",
-          "source": "rankai_derived",
-          "detail": "Organization, WebSite, LocalBusiness, Service and BreadcrumbList entities carry https://None identifiers, breaking entity resolution."
+          "id": "no_image_title",
+          "title": "Images without title attribute (informational)",
+          "severity": "low",
+          "source": "dataforseo_onpage"
         },
         {
           "id": "rankai_wrong_primary_city_in_metadata",
           "title": "Title/H1/meta target Vandenberg Village instead of the primary city Santa Maria",
           "severity": "high",
           "source": "rankai_derived",
-          "detail": "Renderer substitutes service_areas[0] (Vandenberg Village) rather than the entry flagged primary: true (Santa Maria). Contradicts the approved url-plan."
+          "detail": "Live title, meta_description say Vandenberg Village, plan/url-plan.json says Santa Maria. Live title: \"Restoration Services in Vandenberg Village\" | plan: \"Restoration Services in Santa Maria | Coastal Restoration Services Inc\". Live meta_description: \"Full-service restoration in Vandenberg Village: water, fire, mold, storm, biohazard, and commercial restoration. Prompt scheduling. Call (805) 345-7440.\" | plan: \"Full-service restoration in Santa Maria: water, fire, mold, storm, biohazard, and commercial restoration. Prompt scheduling. Call (805) 345-7440.\"."
+        },
+        {
+          "id": "rankai_jsonld_relative_image_url",
+          "title": "JSON-LD image/logo uses the relative path /images/logo.webp",
+          "severity": "low",
+          "source": "rankai_derived",
+          "detail": "The LocalBusiness/Organization image or logo is \"/images/logo.webp\". Emit the absolute https://callcrs.com/images/logo.webp. Google does not flag this today, but some parsers treat the value as literal text."
         },
         {
           "id": "low_character_count",
-          "title": "Word count 790 is below the planned target 800",
+          "title": "Word count 788 below url-plan target 800",
           "severity": "low",
-          "source": "dataforseo_onpage",
-          "detail": "Rendered 790 words against a url-plan target of 800."
+          "source": "rankai_derived"
         }
-      ]
+      ],
+      "onpage_meta": {
+        "title": "Restoration Services in Vandenberg Village",
+        "title_length": 42,
+        "description_length": 152,
+        "word_count": 788,
+        "target_word_count": 800,
+        "h1": [
+          "Our Restoration Services"
+        ],
+        "canonical": "https://callcrs.com/services/",
+        "status_code": 200
+      }
     },
     {
-      "url": "https://staging.rankai-coastal-restoration-services.pages.dev/services/water-damage-restoration/",
+      "url": "https://callcrs.com/services/water-damage-restoration/",
       "url_path": "/services/water-damage-restoration/",
       "archetype": "service-landing",
       "verdict": "red",
       "error_reason": null,
       "scores": {
-        "performance": 100,
+        "performance": 99,
         "accessibility": 91,
         "best_practices": 100,
-        "seo": 69
+        "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 791,
-        "CLS": 0.003,
+        "LCP_ms": 837,
+        "CLS": 0.0028,
         "TBT_ms": 0,
         "INP_ms": null
       },
-      "onpage_score": 97.44,
+      "onpage_score": 100,
       "lighthouse_issues": [
         {
           "id": "color-contrast",
           "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "high",
+          "severity": "medium",
           "estimated_savings_ms": null,
           "category": "accessibility",
-          "failing_elements": 10,
-          "detail": "Brand gold #e6ac1a and hover shade #af8213 behind white bold text measure 2.04:1 to 3.48:1 against a 4.5:1 requirement."
+          "detail": "Only the breadcrumb links fail now: text-dark/50 (#888c93) on white measures 3.37:1 at 12px against 4.5:1. The brand-gold failures from 2026-08-26 are gone."
         },
         {
           "id": "target-size",
@@ -256,8 +277,7 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "accessibility",
-          "failing_elements": 2,
-          "detail": "Footer tel: and mailto: links render 17px tall against a 24px minimum."
+          "detail": "Footer tel:+18053457440 (110x17px) and mailto:tony@callcrs.com (118x17px) links are under the 24px minimum height."
         },
         {
           "id": "image-delivery-insight",
@@ -265,26 +285,8 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance",
-          "estimated_savings_bytes": 66307,
-          "failing_elements": 1,
-          "detail": "Oversized/under-compressed images; header logo alone wastes ~66KB (220x209 served for a 67x64 slot)."
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "estimated_savings_bytes": 8996,
-          "detail": "Astro stylesheet _astro/_slug_.BT6bhdIk.css (~9KB) blocks first paint."
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "low",
-          "estimated_savings_ms": 149,
-          "category": "performance",
-          "detail": "Longest critical request chain 149ms (document then CSS/JS)."
+          "estimated_savings_bytes": 20668,
+          "detail": "Wasted bytes: /images/logo.webp 20KB"
         },
         {
           "id": "lcp-discovery-insight",
@@ -292,70 +294,91 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance",
-          "detail": "LCP hero image is missing fetchpriority=\"high\"."
+          "detail": "The LCP hero image is eager-loaded and discoverable but has no fetchpriority=\"high\". The homepage template passes this check."
         },
         {
-          "id": "is-crawlable",
-          "title": "Page is blocked from indexing",
-          "severity": "info",
-          "estimated_savings_ms": null,
-          "category": "seo",
-          "excluded_from_verdict": true,
-          "detail": "Cloudflare Pages preview injects x-robots-tag: noindex. Environment artifact, not a site defect."
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 50,
+          "category": "performance",
+          "estimated_savings_bytes": 69657,
+          "detail": "Google Analytics gtag.js (G-VHZE6NYBPE), about 66-69KB unused. It was added at apex cutover and was not on the staging build."
         }
+      ],
+      "lighthouse_failing_ids": [
+        "color-contrast",
+        "target-size",
+        "image-delivery-insight",
+        "lcp-discovery-insight",
+        "unused-javascript",
+        "cache-insight",
+        "forced-reflow-insight",
+        "network-dependency-tree-insight",
+        "render-blocking-insight"
       ],
       "onpage_issues": [
         {
-          "id": "canonical",
-          "title": "Canonical URL resolves to an invalid host: https://none/services/water-damage-restoration/",
-          "severity": "high",
-          "source": "dataforseo_onpage",
-          "detail": "rel=canonical and og:url render the literal string None as the hostname because clients/coastal-restoration-services.json has domain: null."
-        },
-        {
-          "id": "rankai_jsonld_invalid_entity_id",
-          "title": "JSON-LD @id and url properties point to https://None",
-          "severity": "high",
-          "source": "rankai_derived",
-          "detail": "Organization, WebSite, LocalBusiness, Service and BreadcrumbList entities carry https://None identifiers, breaking entity resolution."
+          "id": "no_image_title",
+          "title": "Images without title attribute (informational)",
+          "severity": "low",
+          "source": "dataforseo_onpage"
         },
         {
           "id": "rankai_wrong_primary_city_in_metadata",
           "title": "Title/H1/meta target Vandenberg Village instead of the primary city Santa Maria",
           "severity": "high",
           "source": "rankai_derived",
-          "detail": "Renderer substitutes service_areas[0] (Vandenberg Village) rather than the entry flagged primary: true (Santa Maria). Contradicts the approved url-plan."
+          "detail": "Live title, h1, meta_description say Vandenberg Village, plan/url-plan.json says Santa Maria. Live title: \"Water Damage Restoration in Vandenberg Village\" | plan: \"Water Damage Restoration in Santa Maria | Coastal Restoration Services Inc\". Live h1: \"Water Damage Restoration in Vandenberg Village\" | plan: \"Water Damage Restoration in Santa Maria\". Live meta_description: \"Water damage restoration in Vandenberg Village and surrounding areas. Insurance billing accepted. Call (805) 345-7440.\" | plan: \"Water damage restoration in Santa Maria and surrounding areas. IICRC-certified, insurance billing accepted. Call (805) 345-7440.\"."
+        },
+        {
+          "id": "rankai_jsonld_relative_image_url",
+          "title": "JSON-LD image/logo uses the relative path /images/logo.webp",
+          "severity": "low",
+          "source": "rankai_derived",
+          "detail": "The LocalBusiness/Organization image or logo is \"/images/logo.webp\". Emit the absolute https://callcrs.com/images/logo.webp. Google does not flag this today, but some parsers treat the value as literal text."
         }
-      ]
+      ],
+      "onpage_meta": {
+        "title": "Water Damage Restoration in Vandenberg Village",
+        "title_length": 46,
+        "description_length": 118,
+        "word_count": 2062,
+        "target_word_count": 1100,
+        "h1": [
+          "Water Damage Restoration in Vandenberg Village"
+        ],
+        "canonical": "https://callcrs.com/services/water-damage-restoration/",
+        "status_code": 200
+      }
     },
     {
-      "url": "https://staging.rankai-coastal-restoration-services.pages.dev/services/fire-damage-restoration/",
+      "url": "https://callcrs.com/services/fire-damage-restoration/",
       "url_path": "/services/fire-damage-restoration/",
       "archetype": "service-landing",
       "verdict": "red",
       "error_reason": null,
       "scores": {
-        "performance": 100,
+        "performance": 99,
         "accessibility": 91,
         "best_practices": 100,
-        "seo": 69
+        "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 784,
-        "CLS": 0.003,
+        "LCP_ms": 871,
+        "CLS": 0.0027,
         "TBT_ms": 0,
         "INP_ms": null
       },
-      "onpage_score": 97.44,
+      "onpage_score": 100,
       "lighthouse_issues": [
         {
           "id": "color-contrast",
           "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "high",
+          "severity": "medium",
           "estimated_savings_ms": null,
           "category": "accessibility",
-          "failing_elements": 10,
-          "detail": "Brand gold #e6ac1a and hover shade #af8213 behind white bold text measure 2.04:1 to 3.48:1 against a 4.5:1 requirement."
+          "detail": "Only the breadcrumb links fail now: text-dark/50 (#888c93) on white measures 3.37:1 at 12px against 4.5:1. The brand-gold failures from 2026-08-26 are gone."
         },
         {
           "id": "target-size",
@@ -363,35 +386,16 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "accessibility",
-          "failing_elements": 2,
-          "detail": "Footer tel: and mailto: links render 17px tall against a 24px minimum."
+          "detail": "Footer tel:+18053457440 (110x17px) and mailto:tony@callcrs.com (118x17px) links are under the 24px minimum height."
         },
         {
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "medium",
-          "estimated_savings_ms": null,
+          "estimated_savings_ms": 50,
           "category": "performance",
-          "estimated_savings_bytes": 66307,
-          "failing_elements": 1,
-          "detail": "Oversized/under-compressed images; header logo alone wastes ~66KB (220x209 served for a 67x64 slot)."
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "estimated_savings_bytes": 9002,
-          "detail": "Astro stylesheet _astro/_slug_.BT6bhdIk.css (~9KB) blocks first paint."
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "low",
-          "estimated_savings_ms": 193,
-          "category": "performance",
-          "detail": "Longest critical request chain 193ms (document then CSS/JS)."
+          "estimated_savings_bytes": 20668,
+          "detail": "Wasted bytes: /images/logo.webp 20KB"
         },
         {
           "id": "lcp-discovery-insight",
@@ -399,70 +403,90 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance",
-          "detail": "LCP hero image is missing fetchpriority=\"high\"."
+          "detail": "The LCP hero image is eager-loaded and discoverable but has no fetchpriority=\"high\". The homepage template passes this check."
         },
         {
-          "id": "is-crawlable",
-          "title": "Page is blocked from indexing",
-          "severity": "info",
-          "estimated_savings_ms": null,
-          "category": "seo",
-          "excluded_from_verdict": true,
-          "detail": "Cloudflare Pages preview injects x-robots-tag: noindex. Environment artifact, not a site defect."
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 50,
+          "category": "performance",
+          "estimated_savings_bytes": 67913,
+          "detail": "Google Analytics gtag.js (G-VHZE6NYBPE), about 66-69KB unused. It was added at apex cutover and was not on the staging build."
         }
+      ],
+      "lighthouse_failing_ids": [
+        "color-contrast",
+        "target-size",
+        "image-delivery-insight",
+        "lcp-discovery-insight",
+        "unused-javascript",
+        "cache-insight",
+        "network-dependency-tree-insight",
+        "render-blocking-insight"
       ],
       "onpage_issues": [
         {
-          "id": "canonical",
-          "title": "Canonical URL resolves to an invalid host: https://none/services/fire-damage-restoration/",
-          "severity": "high",
-          "source": "dataforseo_onpage",
-          "detail": "rel=canonical and og:url render the literal string None as the hostname because clients/coastal-restoration-services.json has domain: null."
-        },
-        {
-          "id": "rankai_jsonld_invalid_entity_id",
-          "title": "JSON-LD @id and url properties point to https://None",
-          "severity": "high",
-          "source": "rankai_derived",
-          "detail": "Organization, WebSite, LocalBusiness, Service and BreadcrumbList entities carry https://None identifiers, breaking entity resolution."
+          "id": "no_image_title",
+          "title": "Images without title attribute (informational)",
+          "severity": "low",
+          "source": "dataforseo_onpage"
         },
         {
           "id": "rankai_wrong_primary_city_in_metadata",
           "title": "Title/H1/meta target Vandenberg Village instead of the primary city Santa Maria",
           "severity": "high",
           "source": "rankai_derived",
-          "detail": "Renderer substitutes service_areas[0] (Vandenberg Village) rather than the entry flagged primary: true (Santa Maria). Contradicts the approved url-plan."
+          "detail": "Live title, h1, meta_description say Vandenberg Village, plan/url-plan.json says Santa Maria. Live title: \"Fire Damage Restoration in Vandenberg Village\" | plan: \"Fire Damage Restoration in Santa Maria | Coastal Restoration Services Inc\". Live h1: \"Fire Damage Restoration in Vandenberg Village\" | plan: \"Fire Damage Restoration in Santa Maria\". Live meta_description: \"Fire damage restoration in Vandenberg Village and surrounding areas. Insurance billing accepted. Call (805) 345-7440.\" | plan: \"Fire damage restoration in Santa Maria and surrounding areas. IICRC-certified, insurance billing accepted. Call (805) 345-7440.\"."
+        },
+        {
+          "id": "rankai_jsonld_relative_image_url",
+          "title": "JSON-LD image/logo uses the relative path /images/logo.webp",
+          "severity": "low",
+          "source": "rankai_derived",
+          "detail": "The LocalBusiness/Organization image or logo is \"/images/logo.webp\". Emit the absolute https://callcrs.com/images/logo.webp. Google does not flag this today, but some parsers treat the value as literal text."
         }
-      ]
+      ],
+      "onpage_meta": {
+        "title": "Fire Damage Restoration in Vandenberg Village",
+        "title_length": 45,
+        "description_length": 117,
+        "word_count": 1886,
+        "target_word_count": 1100,
+        "h1": [
+          "Fire Damage Restoration in Vandenberg Village"
+        ],
+        "canonical": "https://callcrs.com/services/fire-damage-restoration/",
+        "status_code": 200
+      }
     },
     {
-      "url": "https://staging.rankai-coastal-restoration-services.pages.dev/service-areas/vandenberg-village-ca/",
+      "url": "https://callcrs.com/service-areas/vandenberg-village-ca/",
       "url_path": "/service-areas/vandenberg-village-ca/",
       "archetype": "service-area",
-      "verdict": "red",
+      "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 100,
+        "performance": 97,
         "accessibility": 91,
         "best_practices": 100,
-        "seo": 69
+        "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 781,
+        "LCP_ms": 1240,
         "CLS": 0.0236,
         "TBT_ms": 0,
         "INP_ms": null
       },
-      "onpage_score": 97.44,
+      "onpage_score": 100,
       "lighthouse_issues": [
         {
           "id": "color-contrast",
           "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "high",
+          "severity": "medium",
           "estimated_savings_ms": null,
           "category": "accessibility",
-          "failing_elements": 24,
-          "detail": "Brand gold #e6ac1a and hover shade #af8213 behind white bold text measure 2.04:1 to 3.48:1 against a 4.5:1 requirement."
+          "detail": "Only the breadcrumb links fail now: text-dark/50 (#888c93) on white measures 3.37:1 at 12px against 4.5:1. The brand-gold failures from 2026-08-26 are gone."
         },
         {
           "id": "target-size",
@@ -470,35 +494,16 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "accessibility",
-          "failing_elements": 2,
-          "detail": "Footer tel: and mailto: links render 17px tall against a 24px minimum."
+          "detail": "Footer tel:+18053457440 (110x17px) and mailto:tony@callcrs.com (118x17px) links are under the 24px minimum height."
         },
         {
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "medium",
-          "estimated_savings_ms": null,
+          "estimated_savings_ms": 100,
           "category": "performance",
-          "estimated_savings_bytes": 135944,
-          "failing_elements": 2,
-          "detail": "Oversized/under-compressed images; header logo alone wastes ~66KB (220x209 served for a 67x64 slot)."
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "estimated_savings_bytes": 8994,
-          "detail": "Astro stylesheet _astro/_slug_.BT6bhdIk.css (~9KB) blocks first paint."
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "low",
-          "estimated_savings_ms": 143,
-          "category": "performance",
-          "detail": "Longest critical request chain 143ms (document then CSS/JS)."
+          "estimated_savings_bytes": 90305,
+          "detail": "Wasted bytes: /images/hero-bg.webp 68KB, /images/logo.webp 20KB"
         },
         {
           "id": "lcp-discovery-insight",
@@ -506,44 +511,64 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance",
-          "detail": "LCP hero image is missing fetchpriority=\"high\"."
+          "detail": "The LCP hero image is eager-loaded and discoverable but has no fetchpriority=\"high\". The homepage template passes this check."
         },
         {
-          "id": "is-crawlable",
-          "title": "Page is blocked from indexing",
-          "severity": "info",
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "severity": "low",
           "estimated_savings_ms": null,
-          "category": "seo",
-          "excluded_from_verdict": true,
-          "detail": "Cloudflare Pages preview injects x-robots-tag: noindex. Environment artifact, not a site defect."
+          "category": "performance",
+          "detail": "LCP measured 1.24s (score 0.88). This is still inside the 2.5s good threshold."
         }
+      ],
+      "lighthouse_failing_ids": [
+        "color-contrast",
+        "target-size",
+        "image-delivery-insight",
+        "lcp-discovery-insight",
+        "largest-contentful-paint",
+        "unused-javascript",
+        "cache-insight",
+        "network-dependency-tree-insight",
+        "render-blocking-insight"
       ],
       "onpage_issues": [
         {
-          "id": "canonical",
-          "title": "Canonical URL resolves to an invalid host: https://none/service-areas/vandenberg-village-ca/",
-          "severity": "high",
-          "source": "dataforseo_onpage",
-          "detail": "rel=canonical and og:url render the literal string None as the hostname because clients/coastal-restoration-services.json has domain: null."
-        },
-        {
-          "id": "rankai_jsonld_invalid_entity_id",
-          "title": "JSON-LD @id and url properties point to https://None",
-          "severity": "high",
-          "source": "rankai_derived",
-          "detail": "Organization, WebSite, LocalBusiness, Service and BreadcrumbList entities carry https://None identifiers, breaking entity resolution."
+          "id": "no_image_title",
+          "title": "Images without title attribute (informational)",
+          "severity": "low",
+          "source": "dataforseo_onpage"
         },
         {
           "id": "frame",
-          "title": "Page embeds a frame/iframe",
+          "title": "Page contains an iframe (embedded Google Map)",
           "severity": "low",
-          "source": "dataforseo_onpage",
-          "detail": "Google Maps embed. Already loading=lazy; informational only."
+          "source": "dataforseo_onpage"
+        },
+        {
+          "id": "rankai_jsonld_relative_image_url",
+          "title": "JSON-LD image/logo uses the relative path /images/logo.webp",
+          "severity": "low",
+          "source": "rankai_derived",
+          "detail": "The LocalBusiness/Organization image or logo is \"/images/logo.webp\". Emit the absolute https://callcrs.com/images/logo.webp. Google does not flag this today, but some parsers treat the value as literal text."
         }
-      ]
+      ],
+      "onpage_meta": {
+        "title": "Restoration Services in Vandenberg Village, CA",
+        "title_length": 46,
+        "description_length": 123,
+        "word_count": 1351,
+        "target_word_count": 900,
+        "h1": [
+          "Restoration Services in Vandenberg Village"
+        ],
+        "canonical": "https://callcrs.com/service-areas/vandenberg-village-ca/",
+        "status_code": 200
+      }
     },
     {
-      "url": "https://staging.rankai-coastal-restoration-services.pages.dev/contact/",
+      "url": "https://callcrs.com/contact/",
       "url_path": "/contact/",
       "archetype": "contact",
       "verdict": "red",
@@ -552,24 +577,23 @@
         "performance": 99,
         "accessibility": 92,
         "best_practices": 100,
-        "seo": 69
+        "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 829,
-        "CLS": 0.002,
+        "LCP_ms": 890,
+        "CLS": 0.0174,
         "TBT_ms": 0,
         "INP_ms": null
       },
-      "onpage_score": 97.44,
+      "onpage_score": 100,
       "lighthouse_issues": [
         {
           "id": "color-contrast",
           "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "high",
+          "severity": "medium",
           "estimated_savings_ms": null,
           "category": "accessibility",
-          "failing_elements": 10,
-          "detail": "Brand gold #e6ac1a and hover shade #af8213 behind white bold text measure 2.04:1 to 3.48:1 against a 4.5:1 requirement."
+          "detail": "Only the breadcrumb links fail now: text-dark/50 (#888c93) on white measures 3.37:1 at 12px against 4.5:1. The brand-gold failures from 2026-08-26 are gone."
         },
         {
           "id": "target-size",
@@ -577,35 +601,16 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "accessibility",
-          "failing_elements": 2,
-          "detail": "Footer tel: and mailto: links render 17px tall against a 24px minimum."
+          "detail": "Footer tel:+18053457440 (110x17px) and mailto:tony@callcrs.com (118x17px) links are under the 24px minimum height."
         },
         {
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "medium",
-          "estimated_savings_ms": null,
+          "estimated_savings_ms": 50,
           "category": "performance",
-          "estimated_savings_bytes": 194482,
-          "failing_elements": 2,
-          "detail": "Oversized/under-compressed images; header logo alone wastes ~66KB (220x209 served for a 67x64 slot)."
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "estimated_savings_bytes": 9000,
-          "detail": "Astro stylesheet _astro/_slug_.BT6bhdIk.css (~9KB) blocks first paint."
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "low",
-          "estimated_savings_ms": 244,
-          "category": "performance",
-          "detail": "Longest critical request chain 244ms (document then CSS/JS)."
+          "estimated_savings_bytes": 149248,
+          "detail": "Wasted bytes: /images/hero-bg.webp 126KB, /images/logo.webp 20KB"
         },
         {
           "id": "lcp-discovery-insight",
@@ -613,75 +618,86 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance",
-          "detail": "LCP hero image is missing fetchpriority=\"high\"."
+          "detail": "The LCP hero image is eager-loaded and discoverable but has no fetchpriority=\"high\". The homepage template passes this check."
         },
         {
-          "id": "is-crawlable",
-          "title": "Page is blocked from indexing",
-          "severity": "info",
-          "estimated_savings_ms": null,
-          "category": "seo",
-          "excluded_from_verdict": true,
-          "detail": "Cloudflare Pages preview injects x-robots-tag: noindex. Environment artifact, not a site defect."
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 50,
+          "category": "performance",
+          "estimated_savings_bytes": 70479,
+          "detail": "Google Analytics gtag.js (G-VHZE6NYBPE), about 66-69KB unused. It was added at apex cutover and was not on the staging build."
         }
+      ],
+      "lighthouse_failing_ids": [
+        "color-contrast",
+        "target-size",
+        "image-delivery-insight",
+        "lcp-discovery-insight",
+        "unused-javascript",
+        "cache-insight",
+        "forced-reflow-insight",
+        "network-dependency-tree-insight",
+        "render-blocking-insight"
       ],
       "onpage_issues": [
         {
-          "id": "canonical",
-          "title": "Canonical URL resolves to an invalid host: https://none/contact/",
-          "severity": "high",
-          "source": "dataforseo_onpage",
-          "detail": "rel=canonical and og:url render the literal string None as the hostname because clients/coastal-restoration-services.json has domain: null."
-        },
-        {
-          "id": "rankai_jsonld_invalid_entity_id",
-          "title": "JSON-LD @id and url properties point to https://None",
-          "severity": "high",
-          "source": "rankai_derived",
-          "detail": "Organization, WebSite, LocalBusiness, Service and BreadcrumbList entities carry https://None identifiers, breaking entity resolution."
+          "id": "no_image_title",
+          "title": "Images without title attribute (informational)",
+          "severity": "low",
+          "source": "dataforseo_onpage"
         },
         {
           "id": "rankai_wrong_primary_city_in_metadata",
           "title": "Title/H1/meta target Vandenberg Village instead of the primary city Santa Maria",
           "severity": "high",
           "source": "rankai_derived",
-          "detail": "Renderer substitutes service_areas[0] (Vandenberg Village) rather than the entry flagged primary: true (Santa Maria). Contradicts the approved url-plan."
+          "detail": "Live meta_description say Vandenberg Village, plan/url-plan.json says Santa Maria. Live meta_description: \"Call (805) 345-7440 for restoration services in Vandenberg Village and surrounding areas. Free estimates. Direct insurance billing.\" | plan: \"Call (805) 345-7440 for restoration services in Santa Maria and surrounding areas. Free estimates. Direct insurance billing.\"."
+        },
+        {
+          "id": "rankai_jsonld_relative_image_url",
+          "title": "JSON-LD image/logo uses the relative path /images/logo.webp",
+          "severity": "low",
+          "source": "rankai_derived",
+          "detail": "The LocalBusiness/Organization image or logo is \"/images/logo.webp\". Emit the absolute https://callcrs.com/images/logo.webp. Google does not flag this today, but some parsers treat the value as literal text."
         }
-      ]
+      ],
+      "onpage_meta": {
+        "title": "Contact Coastal Restoration Services Inc",
+        "title_length": 40,
+        "description_length": 131,
+        "word_count": 694,
+        "target_word_count": 400,
+        "h1": [
+          "Contact Coastal Restoration Services Inc"
+        ],
+        "canonical": "https://callcrs.com/contact/",
+        "status_code": 200
+      }
     }
   ],
   "site_rollup": {
     "avg_scores": {
-      "performance": 99.5,
-      "accessibility": 91.2,
+      "performance": 98.3,
+      "accessibility": 91.8,
       "best_practices": 100.0,
-      "seo": 69.0
+      "seo": 100.0
     },
     "verdict": "red",
     "url_count": 6,
     "urls_by_verdict": {
-      "green": 0,
+      "green": 2,
       "amber": 0,
-      "red": 6,
+      "red": 4,
       "error": 0
     },
+    "verdict_excludes_seo": false,
     "template_issues": [
       {
-        "id": "color-contrast",
-        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-        "affected_urls": 6,
-        "severity": "high"
-      },
-      {
-        "id": "canonical",
-        "title": "Canonical URL resolves to an invalid host: https://none/",
-        "affected_urls": 6,
-        "severity": "high"
-      },
-      {
-        "id": "rankai_jsonld_invalid_entity_id",
-        "title": "JSON-LD @id and url properties point to https://None",
-        "affected_urls": 6,
+        "id": "rankai_wrong_primary_city_in_metadata",
+        "title": "Title/H1/meta target Vandenberg Village instead of the primary city Santa Maria",
+        "affected_urls": 4,
         "severity": "high"
       },
       {
@@ -697,8 +713,26 @@
         "severity": "medium"
       },
       {
-        "id": "render-blocking-insight",
-        "title": "Render-blocking requests",
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "affected_urls": 5,
+        "severity": "medium"
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
+        "affected_urls": 5,
+        "severity": "medium"
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
         "affected_urls": 6,
         "severity": "low"
       },
@@ -709,58 +743,424 @@
         "severity": "low"
       },
       {
-        "id": "lcp-discovery-insight",
-        "title": "LCP request discovery",
-        "affected_urls": 5,
-        "severity": "medium"
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "affected_urls": 6,
+        "severity": "low"
       },
       {
-        "id": "rankai_wrong_primary_city_in_metadata",
-        "title": "Title/H1/meta target Vandenberg Village instead of the primary city Santa Maria",
-        "affected_urls": 4,
-        "severity": "high"
+        "id": "no_image_title",
+        "title": "Images without title attribute (informational)",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "rankai_jsonld_relative_image_url",
+        "title": "JSON-LD image/logo uses the relative path /images/logo.webp",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
+        "affected_urls": 3,
+        "severity": "low"
+      },
+      {
+        "id": "low_content_rate",
+        "title": "Low ratio of plain text to HTML",
+        "affected_urls": 2,
+        "severity": "low"
       }
     ],
     "money_page_alerts": [
       {
-        "url": "https://staging.rankai-coastal-restoration-services.pages.dev/",
-        "archetype": "home",
-        "verdict": "red",
-        "main_issue": "Canonical URL resolves to an invalid host: https://none/; JSON-LD @id and url properties point to https://None"
-      },
-      {
-        "url": "https://staging.rankai-coastal-restoration-services.pages.dev/services/",
+        "url": "https://callcrs.com/services/",
         "archetype": "services-hub",
         "verdict": "red",
-        "main_issue": "Canonical URL resolves to an invalid host: https://none/services/; JSON-LD @id and url properties point to https://None"
+        "main_issue": "rankai_wrong_primary_city_in_metadata - Live title, meta_description say Vandenberg Village, plan/url-plan.json says Santa Maria. Live title: \"Restoration Services in Vandenberg Village\" | plan: \"Restoration Services in Santa Maria | Coastal Restoration Services Inc\". Live meta_description: \"Full-service restoration in Vandenberg Village: water, fire, mold, storm, biohazard, and commercial restoration. Prompt scheduling. Call (805) 345-7440.\" | plan: \"Full-service restoration in Santa Maria: water, fire, mold, storm, biohazard, and commercial restoration. Prompt scheduling. Call (805) 345-7440.\". Lighthouse perf 98, a11y 90, LCP 992ms"
       },
       {
-        "url": "https://staging.rankai-coastal-restoration-services.pages.dev/services/water-damage-restoration/",
+        "url": "https://callcrs.com/services/water-damage-restoration/",
         "archetype": "service-landing",
         "verdict": "red",
-        "main_issue": "Canonical URL resolves to an invalid host: https://none/services/water-damage-restoration/; JSON-LD @id and url properties point to https://None"
+        "main_issue": "rankai_wrong_primary_city_in_metadata - Live title, h1, meta_description say Vandenberg Village, plan/url-plan.json says Santa Maria. Live title: \"Water Damage Restoration in Vandenberg Village\" | plan: \"Water Damage Restoration in Santa Maria | Coastal Restoration Services Inc\". Live h1: \"Water Damage Restoration in Vandenberg Village\" | plan: \"Water Damage Restoration in Santa Maria\". Live meta_description: \"Water damage restoration in Vandenberg Village and surrounding areas. Insurance billing accepted. Call (805) 345-7440.\" | plan: \"Water damage restoration in Santa Maria and surrounding areas. IICRC-certified, insurance billing accepted. Call (805) 345-7440.\". Lighthouse perf 99, a11y 91, LCP 837ms"
       },
       {
-        "url": "https://staging.rankai-coastal-restoration-services.pages.dev/services/fire-damage-restoration/",
+        "url": "https://callcrs.com/services/fire-damage-restoration/",
         "archetype": "service-landing",
         "verdict": "red",
-        "main_issue": "Canonical URL resolves to an invalid host: https://none/services/fire-damage-restoration/; JSON-LD @id and url properties point to https://None"
+        "main_issue": "rankai_wrong_primary_city_in_metadata - Live title, h1, meta_description say Vandenberg Village, plan/url-plan.json says Santa Maria. Live title: \"Fire Damage Restoration in Vandenberg Village\" | plan: \"Fire Damage Restoration in Santa Maria | Coastal Restoration Services Inc\". Live h1: \"Fire Damage Restoration in Vandenberg Village\" | plan: \"Fire Damage Restoration in Santa Maria\". Live meta_description: \"Fire damage restoration in Vandenberg Village and surrounding areas. Insurance billing accepted. Call (805) 345-7440.\" | plan: \"Fire damage restoration in Santa Maria and surrounding areas. IICRC-certified, insurance billing accepted. Call (805) 345-7440.\". Lighthouse perf 99, a11y 91, LCP 871ms"
       },
       {
-        "url": "https://staging.rankai-coastal-restoration-services.pages.dev/contact/",
+        "url": "https://callcrs.com/contact/",
         "archetype": "contact",
         "verdict": "red",
-        "main_issue": "Canonical URL resolves to an invalid host: https://none/contact/; JSON-LD @id and url properties point to https://None"
+        "main_issue": "rankai_wrong_primary_city_in_metadata - Live meta_description say Vandenberg Village, plan/url-plan.json says Santa Maria. Live meta_description: \"Call (805) 345-7440 for restoration services in Vandenberg Village and surrounding areas. Free estimates. Direct insurance billing.\" | plan: \"Call (805) 345-7440 for restoration services in Santa Maria and surrounding areas. Free estimates. Direct insurance billing.\". Lighthouse perf 99, a11y 92, LCP 890ms"
       }
-    ],
-    "seo_score_status": "inconclusive - staging noindex artifact, re-audit after apex cutover"
+    ]
   },
   "regression": {
-    "prior_run_at": null,
-    "score_deltas": null,
-    "verdict_transitions": [],
-    "new_issues": [],
-    "resolved_issues": [],
-    "note": "First audit for this client - no comparison data."
+    "prior_run_at": "2026-08-26T14:37:01Z",
+    "prior_live_origin": "https://staging.rankai-coastal-restoration-services.pages.dev",
+    "score_deltas": {
+      "performance": -1.2,
+      "accessibility": 0.6,
+      "best_practices": 0.0,
+      "seo": 31.0
+    },
+    "site_level_flags": [],
+    "per_url": [
+      {
+        "url": "https://callcrs.com/",
+        "prior_url": "https://staging.rankai-coastal-restoration-services.pages.dev/",
+        "score_deltas": {
+          "performance": -1,
+          "accessibility": 4,
+          "best_practices": 0,
+          "seo": 31
+        },
+        "cwv_deltas": {
+          "LCP_ms": 115,
+          "CLS": -0.0003,
+          "TBT_ms": 0
+        },
+        "regression_flags": [],
+        "verdict_from": "red",
+        "verdict_to": "green"
+      },
+      {
+        "url": "https://callcrs.com/services/",
+        "prior_url": "https://staging.rankai-coastal-restoration-services.pages.dev/services/",
+        "score_deltas": {
+          "performance": -1,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 31
+        },
+        "cwv_deltas": {
+          "LCP_ms": 152,
+          "CLS": -0.0001,
+          "TBT_ms": 0
+        },
+        "regression_flags": [],
+        "verdict_from": "red",
+        "verdict_to": "red"
+      },
+      {
+        "url": "https://callcrs.com/services/water-damage-restoration/",
+        "prior_url": "https://staging.rankai-coastal-restoration-services.pages.dev/services/water-damage-restoration/",
+        "score_deltas": {
+          "performance": -1,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 31
+        },
+        "cwv_deltas": {
+          "LCP_ms": 46,
+          "CLS": -0.0002,
+          "TBT_ms": 0
+        },
+        "regression_flags": [],
+        "verdict_from": "red",
+        "verdict_to": "red"
+      },
+      {
+        "url": "https://callcrs.com/services/fire-damage-restoration/",
+        "prior_url": "https://staging.rankai-coastal-restoration-services.pages.dev/services/fire-damage-restoration/",
+        "score_deltas": {
+          "performance": -1,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 31
+        },
+        "cwv_deltas": {
+          "LCP_ms": 87,
+          "CLS": -0.0003,
+          "TBT_ms": 0
+        },
+        "regression_flags": [],
+        "verdict_from": "red",
+        "verdict_to": "red"
+      },
+      {
+        "url": "https://callcrs.com/service-areas/vandenberg-village-ca/",
+        "prior_url": "https://staging.rankai-coastal-restoration-services.pages.dev/service-areas/vandenberg-village-ca/",
+        "score_deltas": {
+          "performance": -3,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 31
+        },
+        "cwv_deltas": {
+          "LCP_ms": 459,
+          "CLS": 0.0,
+          "TBT_ms": 0
+        },
+        "regression_flags": [
+          "LCP_ms +459"
+        ],
+        "verdict_from": "red",
+        "verdict_to": "green"
+      },
+      {
+        "url": "https://callcrs.com/contact/",
+        "prior_url": "https://staging.rankai-coastal-restoration-services.pages.dev/contact/",
+        "score_deltas": {
+          "performance": 0,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 31
+        },
+        "cwv_deltas": {
+          "LCP_ms": 61,
+          "CLS": 0.0154,
+          "TBT_ms": 0
+        },
+        "regression_flags": [],
+        "verdict_from": "red",
+        "verdict_to": "red"
+      }
+    ],
+    "verdict_transitions": [
+      {
+        "url": "https://callcrs.com/",
+        "from": "red",
+        "to": "green",
+        "direction": "improved"
+      },
+      {
+        "url": "https://callcrs.com/service-areas/vandenberg-village-ca/",
+        "from": "red",
+        "to": "green",
+        "direction": "improved"
+      }
+    ],
+    "new_issues": [
+      {
+        "url": "https://callcrs.com/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://callcrs.com/",
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes"
+      },
+      {
+        "url": "https://callcrs.com/",
+        "id": "low_content_rate",
+        "title": "Low ratio of plain text to HTML"
+      },
+      {
+        "url": "https://callcrs.com/",
+        "id": "rankai_jsonld_relative_image_url",
+        "title": "JSON-LD image/logo uses the relative path /images/logo.webp"
+      },
+      {
+        "url": "https://callcrs.com/services/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://callcrs.com/services/",
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes"
+      },
+      {
+        "url": "https://callcrs.com/services/",
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
+      },
+      {
+        "url": "https://callcrs.com/services/",
+        "id": "low_content_rate",
+        "title": "Low ratio of plain text to HTML"
+      },
+      {
+        "url": "https://callcrs.com/services/",
+        "id": "rankai_jsonld_relative_image_url",
+        "title": "JSON-LD image/logo uses the relative path /images/logo.webp"
+      },
+      {
+        "url": "https://callcrs.com/services/water-damage-restoration/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://callcrs.com/services/water-damage-restoration/",
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes"
+      },
+      {
+        "url": "https://callcrs.com/services/water-damage-restoration/",
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
+      },
+      {
+        "url": "https://callcrs.com/services/water-damage-restoration/",
+        "id": "rankai_jsonld_relative_image_url",
+        "title": "JSON-LD image/logo uses the relative path /images/logo.webp"
+      },
+      {
+        "url": "https://callcrs.com/services/fire-damage-restoration/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://callcrs.com/services/fire-damage-restoration/",
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes"
+      },
+      {
+        "url": "https://callcrs.com/services/fire-damage-restoration/",
+        "id": "rankai_jsonld_relative_image_url",
+        "title": "JSON-LD image/logo uses the relative path /images/logo.webp"
+      },
+      {
+        "url": "https://callcrs.com/service-areas/vandenberg-village-ca/",
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint"
+      },
+      {
+        "url": "https://callcrs.com/service-areas/vandenberg-village-ca/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://callcrs.com/service-areas/vandenberg-village-ca/",
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes"
+      },
+      {
+        "url": "https://callcrs.com/service-areas/vandenberg-village-ca/",
+        "id": "rankai_jsonld_relative_image_url",
+        "title": "JSON-LD image/logo uses the relative path /images/logo.webp"
+      },
+      {
+        "url": "https://callcrs.com/contact/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://callcrs.com/contact/",
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes"
+      },
+      {
+        "url": "https://callcrs.com/contact/",
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
+      },
+      {
+        "url": "https://callcrs.com/contact/",
+        "id": "rankai_jsonld_relative_image_url",
+        "title": "JSON-LD image/logo uses the relative path /images/logo.webp"
+      }
+    ],
+    "resolved_issues": [
+      {
+        "url": "https://callcrs.com/",
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "note": null
+      },
+      {
+        "url": "https://callcrs.com/",
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing",
+        "note": "staging noindex artifact; cleared by apex cutover"
+      },
+      {
+        "url": "https://callcrs.com/",
+        "id": "canonical",
+        "title": "Canonical URL resolves to an invalid host: https://none/"
+      },
+      {
+        "url": "https://callcrs.com/",
+        "id": "rankai_jsonld_invalid_entity_id",
+        "title": "JSON-LD @id and url properties point to https://None"
+      },
+      {
+        "url": "https://callcrs.com/services/",
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing",
+        "note": "staging noindex artifact; cleared by apex cutover"
+      },
+      {
+        "url": "https://callcrs.com/services/",
+        "id": "canonical",
+        "title": "Canonical URL resolves to an invalid host: https://none/services/"
+      },
+      {
+        "url": "https://callcrs.com/services/",
+        "id": "rankai_jsonld_invalid_entity_id",
+        "title": "JSON-LD @id and url properties point to https://None"
+      },
+      {
+        "url": "https://callcrs.com/services/water-damage-restoration/",
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing",
+        "note": "staging noindex artifact; cleared by apex cutover"
+      },
+      {
+        "url": "https://callcrs.com/services/water-damage-restoration/",
+        "id": "canonical",
+        "title": "Canonical URL resolves to an invalid host: https://none/services/water-damage-restoration/"
+      },
+      {
+        "url": "https://callcrs.com/services/water-damage-restoration/",
+        "id": "rankai_jsonld_invalid_entity_id",
+        "title": "JSON-LD @id and url properties point to https://None"
+      },
+      {
+        "url": "https://callcrs.com/services/fire-damage-restoration/",
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing",
+        "note": "staging noindex artifact; cleared by apex cutover"
+      },
+      {
+        "url": "https://callcrs.com/services/fire-damage-restoration/",
+        "id": "canonical",
+        "title": "Canonical URL resolves to an invalid host: https://none/services/fire-damage-restoration/"
+      },
+      {
+        "url": "https://callcrs.com/services/fire-damage-restoration/",
+        "id": "rankai_jsonld_invalid_entity_id",
+        "title": "JSON-LD @id and url properties point to https://None"
+      },
+      {
+        "url": "https://callcrs.com/service-areas/vandenberg-village-ca/",
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing",
+        "note": "staging noindex artifact; cleared by apex cutover"
+      },
+      {
+        "url": "https://callcrs.com/service-areas/vandenberg-village-ca/",
+        "id": "canonical",
+        "title": "Canonical URL resolves to an invalid host: https://none/service-areas/vandenberg-village-ca/"
+      },
+      {
+        "url": "https://callcrs.com/service-areas/vandenberg-village-ca/",
+        "id": "rankai_jsonld_invalid_entity_id",
+        "title": "JSON-LD @id and url properties point to https://None"
+      },
+      {
+        "url": "https://callcrs.com/contact/",
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing",
+        "note": "staging noindex artifact; cleared by apex cutover"
+      },
+      {
+        "url": "https://callcrs.com/contact/",
+        "id": "canonical",
+        "title": "Canonical URL resolves to an invalid host: https://none/contact/"
+      },
+      {
+        "url": "https://callcrs.com/contact/",
+        "id": "rankai_jsonld_invalid_entity_id",
+        "title": "JSON-LD @id and url properties point to https://None"
+      }
+    ]
   }
 }

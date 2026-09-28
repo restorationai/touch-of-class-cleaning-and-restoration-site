@@ -1268,20 +1268,19 @@
       "sha1": "4d4a732d103945e8",
       "exif": {},
       "category": "job_progress",
-      "subject": "Tree fallen on house roof, storm damage exterior",
-      "quality": 65,
+      "subject": "Tree fallen through house roof exterior view",
+      "quality": 68,
       "slots": {
         "hero": 40,
         "team": 0,
-        "services": 50
+        "services": 45
       },
       "service_slugs": [
-        "storm-damage-restoration",
-        "emergency-board-up-tarping"
+        "storm-damage-restoration"
       ],
       "flags": [],
-      "reason": "Real storm damage scene showing tree impact on residence, no crew present",
-      "triaged_at": "2026-09-28T20:45:08Z",
+      "reason": "Storm damage scene showing tree impact on home, no crew present.",
+      "triaged_at": "2026-09-28T20:30:47Z",
       "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipM127XuHtOfp1i2v_S4-QJkcygQftikJn9pE9xQ": {
@@ -1392,20 +1391,19 @@
         "taken_at": "2026:09:25 13:26:30"
       },
       "category": "job_progress",
-      "subject": "Tree branch punctured through house eave siding",
-      "quality": 70,
+      "subject": "Close-up of tree branch through roof gable",
+      "quality": 65,
       "slots": {
-        "hero": 35,
+        "hero": 25,
         "team": 0,
-        "services": 60
+        "services": 55
       },
       "service_slugs": [
-        "storm-damage-restoration",
-        "emergency-board-up-tarping"
+        "storm-damage-restoration"
       ],
       "flags": [],
-      "reason": "Close-up of storm damage penetration point on roofline",
-      "triaged_at": "2026-09-28T20:45:08Z",
+      "reason": "Detailed storm damage to roof structure, good for services page.",
+      "triaged_at": "2026-09-28T20:30:47Z",
       "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipMZo8Cj0N4E9qPf1-n_76X-plcjmghbvaq6mOQO": {
@@ -1420,12 +1418,12 @@
         "taken_at": "2026:09:25 13:09:30"
       },
       "category": "job_progress",
-      "subject": "Tree branch broken through garage ceiling interior",
-      "quality": 60,
+      "subject": "Ceiling collapse hole with insulation exposed indoors",
+      "quality": 55,
       "slots": {
-        "hero": 20,
+        "hero": 10,
         "team": 0,
-        "services": 65
+        "services": 50
       },
       "service_slugs": [
         "storm-damage-restoration",
@@ -1434,8 +1432,8 @@
       "flags": [
         "indoor_clutter"
       ],
-      "reason": "Interior ceiling breach from storm, insulation exposed, dark lighting",
-      "triaged_at": "2026-09-28T20:45:08Z",
+      "reason": "Interior ceiling damage from storm, dark garage setting.",
+      "triaged_at": "2026-09-28T20:30:47Z",
       "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipMeA8Ta-zrmoirjiFupMWnb8To6QPK-Y_iYxqQE": {
@@ -1569,20 +1567,19 @@
       "sha1": "2882df1a5cb47ba7",
       "exif": {},
       "category": "job_progress",
-      "subject": "Fallen tree across house roof and porch",
-      "quality": 68,
+      "subject": "Tree fallen across roof of ranch-style home",
+      "quality": 70,
       "slots": {
         "hero": 45,
         "team": 0,
-        "services": 55
+        "services": 45
       },
       "service_slugs": [
-        "storm-damage-restoration",
-        "emergency-board-up-tarping"
+        "storm-damage-restoration"
       ],
       "flags": [],
-      "reason": "Wide exterior shot of storm-damaged home with tree on roof",
-      "triaged_at": "2026-09-28T20:45:08Z",
+      "reason": "Wide exterior shot of storm damage suitable for illustrating job scope.",
+      "triaged_at": "2026-09-28T20:30:47Z",
       "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipNLjXYk4YiqCxtRYIGBxRiU7UhtS4wWwN_svkRV": {
@@ -1859,19 +1856,19 @@
         "taken_at": "2026:09:25 18:49:01"
       },
       "category": "job_progress",
-      "subject": "Gap in roofline peak with exposed wood damage",
+      "subject": "Broken roof gable with sunset sky background",
       "quality": 72,
       "slots": {
         "hero": 50,
         "team": 0,
-        "services": 55
+        "services": 40
       },
       "service_slugs": [
         "storm-damage-restoration"
       ],
       "flags": [],
-      "reason": "Detail shot of structural gap damage against sunset sky",
-      "triaged_at": "2026-09-28T20:45:08Z",
+      "reason": "Dramatic angle of storm-damaged roofline against colorful sky.",
+      "triaged_at": "2026-09-28T20:30:47Z",
       "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipOoL6B-RWuz8aSvR_ZJR3UMjJMLlWnyKmZpDaqQ": {
@@ -2164,5 +2161,5 @@
       "file": "/images/services.webp"
     }
   },
-  "triaged_at": "2026-09-28T20:45:08Z"
+  "triaged_at": "2026-09-28T20:30:47Z"
 }

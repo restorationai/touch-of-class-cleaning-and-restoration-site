@@ -1,546 +1,575 @@
 {
-  "items": [
+ "items": [
+  {
+   "id": "2026-09-28-who-to-call-for-storm-damage-restoration-in-chesterfield-mo",
+   "status": "queued",
+   "queued_at": "2026-09-28T20:38:17Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "who_to_call",
+   "combo_key": "who-to-call-for-storm-damage-restoration-in-chesterfield-mo",
+   "primary_keyword": "who to call for storm damage restoration in Chesterfield, MO",
+   "intent": "transactional",
+   "target_word_count": 1200,
+   "city_anchor": "chesterfield-mo",
+   "best_of": {
+    "service": "storm-damage-restoration",
+    "service_pretty": "Storm Damage Restoration",
+    "city": "Chesterfield",
+    "state": "MO",
+    "competitors": []
+   },
+   "fan_out_cluster": [
+    "who do you call for storm damage restoration Chesterfield",
+    "who do I call for storm damage restoration in Chesterfield",
+    "storm damage restoration emergency number Chesterfield MO",
+    "storm damage repair Chesterfield",
+    "wind damage repair Chesterfield",
+    "storm cleanup Chesterfield"
+   ],
+   "source": "best-of-seeder"
+  },
+  {
+   "id": "2026-09-10-emergency-roof-tarping-chesterfield-mo",
+   "status": "archived",
+   "queued_at": "2026-09-10T20:05:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "emergency roof tarping",
+   "intent": "transactional",
+   "volume": 720,
+   "kd": 0,
+   "fan_out_cluster": [
+    "emergency roof tarp",
+    "emergency roof tarp service",
+    "emergency roof tarp installation",
+    "emergency roof tarping Chesterfield MO",
+    "roof tarping services",
+    "how to emergency tarp a roof"
+   ],
+   "suggested_slug": "emergency-roof-tarping-chesterfield-mo",
+   "suggested_title": "Emergency roof tarping in Chesterfield, MO: what happens in the first few hours",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/st-louis-mo/storm-damage-restoration/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "storm-damage-restoration"
+   ],
+   "city_anchor": "chesterfield-mo",
+   "external_authority_candidates": [
+    "https://www.iicrc.org/",
+    "https://www.weather.gov/lsx/"
+   ],
+   "notes": "Highest-value transactional term in this fan-out: 720/mo at a 42.65 CPC, KD 0. There is no tarping service page (emergency-board-up-tarping is not a plan-input service), so this post carries the topic and links up to the storm damage restoration landing page. Lead with the response-time promise and the fact that a tarp is a temporary measure ahead of permanent repair.",
+   "archived_reason": "client departed/archived \u2014 queue residue cleared 2026-09-17"
+  },
+  {
+   "id": "2026-09-10-emergency-board-up-service-st-louis-mo",
+   "status": "archived",
+   "queued_at": "2026-09-10T20:05:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "emergency board up service",
+   "intent": "transactional",
+   "volume": 480,
+   "kd": 0,
+   "fan_out_cluster": [
+    "emergency board up",
+    "board up service",
+    "24 hour board up service",
+    "board up service St. Louis",
+    "window board up service",
+    "what is a board up"
+   ],
+   "suggested_slug": "emergency-board-up-service-st-louis-mo",
+   "suggested_title": "Emergency board up service in St. Louis, MO: securing a damaged home after a storm",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/st-louis-mo/storm-damage-restoration/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "storm-damage-restoration"
+   ],
+   "city_anchor": "st-louis-mo",
+   "external_authority_candidates": [
+    "https://www.iicrc.org/",
+    "https://insurance.mo.gov/"
+   ],
+   "notes": "480/mo at a 51.46 CPC. St. Louis is the only city in the cluster with measurable local volume (board up service st louis, 10/mo, KD 38), so anchor there. Cover broken windows, doors and open wall sections, and why securing the property matters for the insurance claim.",
+   "archived_reason": "client departed/archived \u2014 queue residue cleared 2026-09-17"
+  },
+  {
+   "id": "2026-09-10-roof-tarping-cost-st-charles-mo",
+   "status": "archived",
+   "queued_at": "2026-09-10T20:05:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "roof tarping cost",
+   "intent": "commercial",
+   "volume": 110,
+   "kd": 0,
+   "fan_out_cluster": [
+    "cost of tarping a roof",
+    "emergency roof tarp cost",
+    "emergency roof tarping cost",
+    "what is the average cost to tarp a roof",
+    "roof tarping cost St. Charles MO",
+    "emergency board up cost"
+   ],
+   "suggested_slug": "roof-tarping-cost-st-charles-mo",
+   "suggested_title": "Roof tarping cost in St. Charles, MO: what emergency tarping actually runs",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/st-charles-mo/storm-damage-restoration/"
+   ],
+   "service_tags": [
+    "storm-damage-restoration"
+   ],
+   "city_anchor": "st-charles-mo",
+   "external_authority_candidates": [
+    "https://insurance.mo.gov/",
+    "https://www.iicrc.org/"
+   ],
+   "notes": "Cost intent, KD 0. Keep the scope tight to tarping and board up pricing so it does not cannibalize the queued storm damage restoration cost MO item. Give ranges plus the variables (roof pitch, square footage, access, after-hours dispatch) and note that emergency mitigation is usually claimable.",
+   "archived_reason": "client departed/archived \u2014 queue residue cleared 2026-09-17"
+  },
+  {
+   "id": "2026-09-10-does-insurance-cover-roof-tarping",
+   "status": "archived",
+   "queued_at": "2026-09-10T20:05:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "does insurance cover roof tarping",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "does insurance cover emergency roof tarping in Missouri",
+    "is roof tarping covered as emergency mitigation",
+    "emergency roof tarp cost",
+    "storm damage insurance claim documentation",
+    "how long can i leave a tarp on my roof",
+    "what is the average cost to tarp a roof"
+   ],
+   "suggested_slug": "does-insurance-cover-roof-tarping-chesterfield-mo",
+   "suggested_title": "Does insurance cover roof tarping? What Chesterfield, MO homeowners should know",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/storm-damage-restoration/",
+    "/blog/storm-damage-insurance-claim-checklist/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "storm-damage-restoration"
+   ],
+   "city_anchor": "chesterfield-mo",
+   "external_authority_candidates": [
+    "https://insurance.mo.gov/",
+    "https://www.iicrc.org/"
+   ],
+   "notes": "No measured Google volume, queued on AI-search demand: this question surfaced in People Also Ask for both roof tarping and emergency roof tarp storm damage, and decision-stage insurance questions reach homeowners 24 to 48 hours before they hire. Explain the duty to mitigate, why tarping is normally reimbursable, and what documentation to keep. Link to the existing claim checklist post rather than repeating it.",
+   "archived_reason": "client departed/archived \u2014 queue residue cleared 2026-09-17"
+  },
+  {
+   "id": "2026-09-10-how-long-can-i-leave-a-tarp-on-my-roof",
+   "status": "archived",
+   "queued_at": "2026-09-10T20:05:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "how long can i leave a tarp on my roof",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "how long does tarping a roof last",
+    "is tarping a roof a good idea",
+    "long term roof tarp",
+    "emergency roof tarping",
+    "roof tarping company",
+    "when to replace a storm damaged roof"
+   ],
+   "suggested_slug": "how-long-can-i-leave-a-tarp-on-my-roof-florissant-mo",
+   "suggested_title": "How long can I leave a tarp on my roof? A Florissant, MO storm damage answer",
+   "target_word_count": 1300,
+   "internal_link_targets": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/florissant-mo/storm-damage-restoration/"
+   ],
+   "service_tags": [
+    "storm-damage-restoration"
+   ],
+   "city_anchor": "florissant-mo",
+   "external_authority_candidates": [
+    "https://www.iicrc.org/",
+    "https://www.weather.gov/lsx/"
+   ],
+   "notes": "Pure AI-retrieval question play: no Google volume, but it appeared in People Also Ask for roof tarping and emergency roof tarp storm damage, and it is the kind of short factual answer AI engines lift verbatim. Answer in the first two sentences (weeks, not months) then explain tarp material, fastening and the Missouri freeze-thaw and wind cycle that shortens tarp life.",
+   "archived_reason": "client departed/archived \u2014 queue residue cleared 2026-09-17"
+  },
+  {
+   "id": "2026-09-10-storm-damage-restoration-cost-mo",
+   "status": "archived",
+   "queued_at": "2026-09-10T19:29:48Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "cost_guide",
+   "combo_key": "storm-damage-restoration-cost-mo",
+   "primary_keyword": "storm damage restoration cost MO",
+   "intent": "transactional",
+   "target_word_count": 1500,
+   "city_anchor": "chesterfield-mo",
+   "best_of": {
+    "service": "storm-damage-restoration",
+    "service_pretty": "Storm Damage Restoration",
+    "city": "Chesterfield",
+    "state": "MO",
+    "competitors": []
+   },
+   "fan_out_cluster": [
+    "how much does storm damage restoration cost in MO",
+    "storm damage restoration price MO",
+    "average cost of storm damage restoration MO",
+    "storm damage repair MO",
+    "wind damage repair MO",
+    "storm cleanup MO"
+   ],
+   "source": "best-of-seeder",
+   "archived_reason": "client departed/archived \u2014 queue residue cleared 2026-09-17"
+  },
+  {
+   "id": "2026-08-27-best-storm-damage-restoration-in-chesterfield-mo",
+   "status": "written",
+   "queued_at": "2026-08-27T04:41:43Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "best_of_comparison",
+   "combo_key": "best-storm-damage-restoration-in-chesterfield-mo",
+   "primary_keyword": "best storm damage restoration company in Chesterfield, MO",
+   "intent": "commercial",
+   "target_word_count": 1600,
+   "city_anchor": "chesterfield-mo",
+   "best_of": {
+    "service": "storm-damage-restoration",
+    "service_pretty": "Storm Damage Restoration",
+    "city": "Chesterfield",
+    "state": "MO",
+    "competitors": [
+     {
+      "name": "True North Restoration of Greater St. Louis West",
+      "google_rating": 5,
+      "review_count": 153
+     },
+     {
+      "name": "SERVPRO of South Chesterfield / Wildwood",
+      "google_rating": 4.7,
+      "review_count": 60
+     },
+     {
+      "name": "MacPro Restore Cleaning & Restoration",
+      "google_rating": 5,
+      "review_count": 7
+     },
+     {
+      "name": "BELFOR Property Restoration (St. Louis)",
+      "google_rating": 3.4,
+      "review_count": 36
+     }
+    ]
+   },
+   "fan_out_cluster": [
+    "best storm damage restoration companies Chesterfield",
+    "top rated storm damage restoration Chesterfield MO",
+    "who is the best storm damage restoration company in Chesterfield",
+    "storm damage repair Chesterfield",
+    "wind damage repair Chesterfield",
+    "storm cleanup Chesterfield"
+   ],
+   "source": "best-of-seeder",
+   "written_at": "2026-08-27T04:50:09Z",
+   "post_url": "https://None/blog/best-storm-damage-restoration-company-in-chesterfield-mo/",
+   "claims_flags": [
     {
-      "id": "2026-09-10-emergency-roof-tarping-chesterfield-mo",
-      "status": "archived",
-      "queued_at": "2026-09-10T20:05:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "emergency roof tarping",
-      "intent": "transactional",
-      "volume": 720,
-      "kd": 0,
-      "fan_out_cluster": [
-        "emergency roof tarp",
-        "emergency roof tarp service",
-        "emergency roof tarp installation",
-        "emergency roof tarping Chesterfield MO",
-        "roof tarping services",
-        "how to emergency tarp a roof"
-      ],
-      "suggested_slug": "emergency-roof-tarping-chesterfield-mo",
-      "suggested_title": "Emergency roof tarping in Chesterfield, MO: what happens in the first few hours",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/storm-damage-restoration/",
-        "/service-areas/st-louis-mo/storm-damage-restoration/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "storm-damage-restoration"
-      ],
-      "city_anchor": "chesterfield-mo",
-      "external_authority_candidates": [
-        "https://www.iicrc.org/",
-        "https://www.weather.gov/lsx/"
-      ],
-      "notes": "Highest-value transactional term in this fan-out: 720/mo at a 42.65 CPC, KD 0. There is no tarping service page (emergency-board-up-tarping is not a plan-input service), so this post carries the topic and links up to the storm damage restoration landing page. Lead with the response-time promise and the fact that a tarp is a temporary measure ahead of permanent repair.",
-      "archived_reason": "client departed/archived \u2014 queue residue cleared 2026-09-17"
+     "file": "src/content/blog/best-storm-damage-restoration-company-in-chesterfield-mo.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "error",
+     "matched": "153 reviews",
+     "context": "s West holds a 5.0 Google rating across 153 reviews, which is a substantial volume for a lo",
+     "reason": "claims 153 reviews but no synced gbpReviewCount exists for this site"
     },
     {
-      "id": "2026-09-10-emergency-board-up-service-st-louis-mo",
-      "status": "archived",
-      "queued_at": "2026-09-10T20:05:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "emergency board up service",
-      "intent": "transactional",
-      "volume": 480,
-      "kd": 0,
-      "fan_out_cluster": [
-        "emergency board up",
-        "board up service",
-        "24 hour board up service",
-        "board up service St. Louis",
-        "window board up service",
-        "what is a board up"
-      ],
-      "suggested_slug": "emergency-board-up-service-st-louis-mo",
-      "suggested_title": "Emergency board up service in St. Louis, MO: securing a damaged home after a storm",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/storm-damage-restoration/",
-        "/service-areas/st-louis-mo/storm-damage-restoration/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "storm-damage-restoration"
-      ],
-      "city_anchor": "st-louis-mo",
-      "external_authority_candidates": [
-        "https://www.iicrc.org/",
-        "https://insurance.mo.gov/"
-      ],
-      "notes": "480/mo at a 51.46 CPC. St. Louis is the only city in the cluster with measurable local volume (board up service st louis, 10/mo, KD 38), so anchor there. Cover broken windows, doors and open wall sections, and why securing the property matters for the insurance claim.",
-      "archived_reason": "client departed/archived \u2014 queue residue cleared 2026-09-17"
+     "file": "src/content/blog/best-storm-damage-restoration-company-in-chesterfield-mo.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "error",
+     "matched": "153 reviews",
+     "context": "Wildwood area. **Google Rating:** 5.0 (153 reviews) --- ### #3 SERVPRO of South Chesterf",
+     "reason": "claims 153 reviews but no synced gbpReviewCount exists for this site"
     },
     {
-      "id": "2026-09-10-roof-tarping-cost-st-charles-mo",
-      "status": "archived",
-      "queued_at": "2026-09-10T20:05:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "roof tarping cost",
-      "intent": "commercial",
-      "volume": 110,
-      "kd": 0,
-      "fan_out_cluster": [
-        "cost of tarping a roof",
-        "emergency roof tarp cost",
-        "emergency roof tarping cost",
-        "what is the average cost to tarp a roof",
-        "roof tarping cost St. Charles MO",
-        "emergency board up cost"
-      ],
-      "suggested_slug": "roof-tarping-cost-st-charles-mo",
-      "suggested_title": "Roof tarping cost in St. Charles, MO: what emergency tarping actually runs",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/storm-damage-restoration/",
-        "/service-areas/st-charles-mo/storm-damage-restoration/"
-      ],
-      "service_tags": [
-        "storm-damage-restoration"
-      ],
-      "city_anchor": "st-charles-mo",
-      "external_authority_candidates": [
-        "https://insurance.mo.gov/",
-        "https://www.iicrc.org/"
-      ],
-      "notes": "Cost intent, KD 0. Keep the scope tight to tarping and board up pricing so it does not cannibalize the queued storm damage restoration cost MO item. Give ranges plus the variables (roof pitch, square footage, access, after-hours dispatch) and note that emergency mitigation is usually claimable.",
-      "archived_reason": "client departed/archived \u2014 queue residue cleared 2026-09-17"
+     "file": "src/content/blog/best-storm-damage-restoration-company-in-chesterfield-mo.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "error",
+     "matched": "60 reviews",
+     "context": "wood carries a 4.7 Google rating across 60 reviews. SERVPRO is a nationally recognized fra",
+     "reason": "claims 60 reviews but no synced gbpReviewCount exists for this site"
     },
     {
-      "id": "2026-09-10-does-insurance-cover-roof-tarping",
-      "status": "archived",
-      "queued_at": "2026-09-10T20:05:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "does insurance cover roof tarping",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "does insurance cover emergency roof tarping in Missouri",
-        "is roof tarping covered as emergency mitigation",
-        "emergency roof tarp cost",
-        "storm damage insurance claim documentation",
-        "how long can i leave a tarp on my roof",
-        "what is the average cost to tarp a roof"
-      ],
-      "suggested_slug": "does-insurance-cover-roof-tarping-chesterfield-mo",
-      "suggested_title": "Does insurance cover roof tarping? What Chesterfield, MO homeowners should know",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/storm-damage-restoration/",
-        "/blog/storm-damage-insurance-claim-checklist/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "storm-damage-restoration"
-      ],
-      "city_anchor": "chesterfield-mo",
-      "external_authority_candidates": [
-        "https://insurance.mo.gov/",
-        "https://www.iicrc.org/"
-      ],
-      "notes": "No measured Google volume, queued on AI-search demand: this question surfaced in People Also Ask for both roof tarping and emergency roof tarp storm damage, and decision-stage insurance questions reach homeowners 24 to 48 hours before they hire. Explain the duty to mitigate, why tarping is normally reimbursable, and what documentation to keep. Link to the existing claim checklist post rather than repeating it.",
-      "archived_reason": "client departed/archived \u2014 queue residue cleared 2026-09-17"
+     "file": "src/content/blog/best-storm-damage-restoration-company-in-chesterfield-mo.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "error",
+     "matched": "60 reviews",
+     "context": "ry by location. Their 4.7 rating across 60 reviews reflects generally positive customer ex",
+     "reason": "claims 60 reviews but no synced gbpReviewCount exists for this site"
     },
     {
-      "id": "2026-09-10-how-long-can-i-leave-a-tarp-on-my-roof",
-      "status": "archived",
-      "queued_at": "2026-09-10T20:05:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "how long can i leave a tarp on my roof",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "how long does tarping a roof last",
-        "is tarping a roof a good idea",
-        "long term roof tarp",
-        "emergency roof tarping",
-        "roof tarping company",
-        "when to replace a storm damaged roof"
-      ],
-      "suggested_slug": "how-long-can-i-leave-a-tarp-on-my-roof-florissant-mo",
-      "suggested_title": "How long can I leave a tarp on my roof? A Florissant, MO storm damage answer",
-      "target_word_count": 1300,
-      "internal_link_targets": [
-        "/services/storm-damage-restoration/",
-        "/service-areas/florissant-mo/storm-damage-restoration/"
-      ],
-      "service_tags": [
-        "storm-damage-restoration"
-      ],
-      "city_anchor": "florissant-mo",
-      "external_authority_candidates": [
-        "https://www.iicrc.org/",
-        "https://www.weather.gov/lsx/"
-      ],
-      "notes": "Pure AI-retrieval question play: no Google volume, but it appeared in People Also Ask for roof tarping and emergency roof tarp storm damage, and it is the kind of short factual answer AI engines lift verbatim. Answer in the first two sentences (weeks, not months) then explain tarp material, fastening and the Missouri freeze-thaw and wind cycle that shortens tarp life.",
-      "archived_reason": "client departed/archived \u2014 queue residue cleared 2026-09-17"
+     "file": "src/content/blog/best-storm-damage-restoration-company-in-chesterfield-mo.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "error",
+     "matched": "60 reviews",
+     "context": "fic franchise. **Google Rating:** 4.7 (60 reviews) --- ### #4 MacPro Restore Cleaning &",
+     "reason": "claims 60 reviews but no synced gbpReviewCount exists for this site"
     },
     {
-      "id": "2026-09-10-storm-damage-restoration-cost-mo",
-      "status": "archived",
-      "queued_at": "2026-09-10T19:29:48Z",
-      "priority": 1,
-      "prioritized": true,
-      "content_type": "cost_guide",
-      "combo_key": "storm-damage-restoration-cost-mo",
-      "primary_keyword": "storm damage restoration cost MO",
-      "intent": "transactional",
-      "target_word_count": 1500,
-      "city_anchor": "chesterfield-mo",
-      "best_of": {
-        "service": "storm-damage-restoration",
-        "service_pretty": "Storm Damage Restoration",
-        "city": "Chesterfield",
-        "state": "MO",
-        "competitors": []
-      },
-      "fan_out_cluster": [
-        "how much does storm damage restoration cost in MO",
-        "storm damage restoration price MO",
-        "average cost of storm damage restoration MO",
-        "storm damage repair MO",
-        "wind damage repair MO",
-        "storm cleanup MO"
-      ],
-      "source": "best-of-seeder",
-      "archived_reason": "client departed/archived \u2014 queue residue cleared 2026-09-17"
+     "file": "src/content/blog/best-storm-damage-restoration-company-in-chesterfield-mo.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "error",
+     "matched": "7 reviews",
+     "context": "oration holds a 5.0 Google rating. With 7 reviews, the sample size is small, which makes",
+     "reason": "claims 7 reviews but no synced gbpReviewCount exists for this site"
     },
     {
-      "id": "2026-08-27-best-storm-damage-restoration-in-chesterfield-mo",
-      "status": "written",
-      "queued_at": "2026-08-27T04:41:43Z",
-      "priority": 1,
-      "prioritized": true,
-      "content_type": "best_of_comparison",
-      "combo_key": "best-storm-damage-restoration-in-chesterfield-mo",
-      "primary_keyword": "best storm damage restoration company in Chesterfield, MO",
-      "intent": "commercial",
-      "target_word_count": 1600,
-      "city_anchor": "chesterfield-mo",
-      "best_of": {
-        "service": "storm-damage-restoration",
-        "service_pretty": "Storm Damage Restoration",
-        "city": "Chesterfield",
-        "state": "MO",
-        "competitors": [
-          {
-            "name": "True North Restoration of Greater St. Louis West",
-            "google_rating": 5,
-            "review_count": 153
-          },
-          {
-            "name": "SERVPRO of South Chesterfield / Wildwood",
-            "google_rating": 4.7,
-            "review_count": 60
-          },
-          {
-            "name": "MacPro Restore Cleaning & Restoration",
-            "google_rating": 5,
-            "review_count": 7
-          },
-          {
-            "name": "BELFOR Property Restoration (St. Louis)",
-            "google_rating": 3.4,
-            "review_count": 36
-          }
-        ]
-      },
-      "fan_out_cluster": [
-        "best storm damage restoration companies Chesterfield",
-        "top rated storm damage restoration Chesterfield MO",
-        "who is the best storm damage restoration company in Chesterfield",
-        "storm damage repair Chesterfield",
-        "wind damage repair Chesterfield",
-        "storm cleanup Chesterfield"
-      ],
-      "source": "best-of-seeder",
-      "written_at": "2026-08-27T04:50:09Z",
-      "post_url": "https://None/blog/best-storm-damage-restoration-company-in-chesterfield-mo/",
-      "claims_flags": [
-        {
-          "file": "src/content/blog/best-storm-damage-restoration-company-in-chesterfield-mo.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "error",
-          "matched": "153 reviews",
-          "context": "s West holds a 5.0 Google rating across 153 reviews, which is a substantial volume for a lo",
-          "reason": "claims 153 reviews but no synced gbpReviewCount exists for this site"
-        },
-        {
-          "file": "src/content/blog/best-storm-damage-restoration-company-in-chesterfield-mo.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "error",
-          "matched": "153 reviews",
-          "context": "Wildwood area. **Google Rating:** 5.0 (153 reviews) --- ### #3 SERVPRO of South Chesterf",
-          "reason": "claims 153 reviews but no synced gbpReviewCount exists for this site"
-        },
-        {
-          "file": "src/content/blog/best-storm-damage-restoration-company-in-chesterfield-mo.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "error",
-          "matched": "60 reviews",
-          "context": "wood carries a 4.7 Google rating across 60 reviews. SERVPRO is a nationally recognized fra",
-          "reason": "claims 60 reviews but no synced gbpReviewCount exists for this site"
-        },
-        {
-          "file": "src/content/blog/best-storm-damage-restoration-company-in-chesterfield-mo.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "error",
-          "matched": "60 reviews",
-          "context": "ry by location. Their 4.7 rating across 60 reviews reflects generally positive customer ex",
-          "reason": "claims 60 reviews but no synced gbpReviewCount exists for this site"
-        },
-        {
-          "file": "src/content/blog/best-storm-damage-restoration-company-in-chesterfield-mo.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "error",
-          "matched": "60 reviews",
-          "context": "fic franchise. **Google Rating:** 4.7 (60 reviews) --- ### #4 MacPro Restore Cleaning &",
-          "reason": "claims 60 reviews but no synced gbpReviewCount exists for this site"
-        },
-        {
-          "file": "src/content/blog/best-storm-damage-restoration-company-in-chesterfield-mo.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "error",
-          "matched": "7 reviews",
-          "context": "oration holds a 5.0 Google rating. With 7 reviews, the sample size is small, which makes",
-          "reason": "claims 7 reviews but no synced gbpReviewCount exists for this site"
-        },
-        {
-          "file": "src/content/blog/best-storm-damage-restoration-company-in-chesterfield-mo.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "error",
-          "matched": "153 reviews",
-          "context": "e same statistical weight as a 5.0 from 153 reviews. MacPro is an option worth considering,",
-          "reason": "claims 153 reviews but no synced gbpReviewCount exists for this site"
-        },
-        {
-          "file": "src/content/blog/best-storm-damage-restoration-company-in-chesterfield-mo.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "error",
-          "matched": "7 reviews",
-          "context": "r review base. **Google Rating:** 5.0 (7 reviews) --- ### #5 BELFOR Property Restorati",
-          "reason": "claims 7 reviews but no synced gbpReviewCount exists for this site"
-        },
-        {
-          "file": "src/content/blog/best-storm-damage-restoration-company-in-chesterfield-mo.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "error",
-          "matched": "36 reviews",
-          "context": "tion carries a 3.4 Google rating across 36 reviews, which is notably lower than the other",
-          "reason": "claims 36 reviews but no synced gbpReviewCount exists for this site"
-        },
-        {
-          "file": "src/content/blog/best-storm-damage-restoration-company-in-chesterfield-mo.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "error",
-          "matched": "36 reviews",
-          "context": "local ratings. **Google Rating:** 3.4 (36 reviews) --- ## Side-by-Side Comparison | Co",
-          "reason": "claims 36 reviews but no synced gbpReviewCount exists for this site"
-        }
-      ]
+     "file": "src/content/blog/best-storm-damage-restoration-company-in-chesterfield-mo.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "error",
+     "matched": "153 reviews",
+     "context": "e same statistical weight as a 5.0 from 153 reviews. MacPro is an option worth considering,",
+     "reason": "claims 153 reviews but no synced gbpReviewCount exists for this site"
     },
     {
-      "id": "2026-08-27-does-homeowners-insurance-cover-storm-damage",
-      "status": "archived",
-      "queued_at": "2026-08-27T04:45:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "does homeowners insurance cover storm damage",
-      "intent": "informational",
-      "volume": 90,
-      "kd": 2,
-      "fan_out_cluster": [
-        "what storm damage is covered by homeowners insurance",
-        "wind damage insurance coverage Missouri",
-        "hail damage homeowners insurance deductible",
-        "is roof storm damage covered by insurance",
-        "what storm damage insurance does not cover",
-        "storm damage claim denied what to do"
-      ],
-      "suggested_slug": "does-homeowners-insurance-cover-storm-damage",
-      "suggested_title": "Does homeowners insurance cover storm damage? A Missouri homeowner's guide",
-      "target_word_count": 1600,
-      "internal_link_targets": [
-        "/services/storm-damage-restoration/",
-        "/blog/storm-damage-insurance-claim-checklist/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "storm-damage-restoration"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iii.org/article/how-file-homeowners-claim",
-        "https://www.fema.gov/fact-sheet/protect-your-property-severe-wind"
-      ],
-      "notes": "Highest-value decision-stage query in the set: KD 2, CPC 8.07, and it reaches homeowners 24-48 hours before they hire anyone. Cover wind, hail and falling-tree perils separately from flood, which standard MO policies exclude. Link out to the existing claim-checklist post as the next step.",
-      "archived_reason": "client departed/archived \u2014 queue residue cleared 2026-09-17"
+     "file": "src/content/blog/best-storm-damage-restoration-company-in-chesterfield-mo.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "error",
+     "matched": "7 reviews",
+     "context": "r review base. **Google Rating:** 5.0 (7 reviews) --- ### #5 BELFOR Property Restorati",
+     "reason": "claims 7 reviews but no synced gbpReviewCount exists for this site"
     },
     {
-      "id": "2026-08-27-what-to-do-after-storm-damage-to-your-home",
-      "status": "archived",
-      "queued_at": "2026-08-27T04:45:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "what to do after storm damage to your home",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "who to call after storm damage",
-        "emergency tarping after a storm",
-        "how to document storm damage for insurance",
-        "temporary repairs after a storm",
-        "is it safe to stay in a storm damaged house",
-        "how long do I have to file a storm damage claim"
-      ],
-      "suggested_slug": "what-to-do-after-storm-damage-to-your-home",
-      "suggested_title": "What to do after storm damage to your home: the first 24 hours in Chesterfield, MO",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/storm-damage-restoration/",
-        "/service-areas/chesterfield-mo/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "storm-damage-restoration"
-      ],
-      "city_anchor": "chesterfield-mo",
-      "external_authority_candidates": [
-        "https://www.fema.gov/fact-sheet/protect-your-property-severe-wind",
-        "https://www.weather.gov/lsx/"
-      ],
-      "notes": "Zero recorded Google volume but surfaced directly by the ChatGPT decomposition, so score it intent-first: this is the passage AI assistants lift when a St. Louis-area homeowner asks what to do next. Sequence it as a numbered first-24-hours checklist. Anchor to Chesterfield and reference the NWS St. Louis office for local severe-weather context.",
-      "archived_reason": "client departed/archived \u2014 queue residue cleared 2026-09-17"
+     "file": "src/content/blog/best-storm-damage-restoration-company-in-chesterfield-mo.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "error",
+     "matched": "36 reviews",
+     "context": "tion carries a 3.4 Google rating across 36 reviews, which is notably lower than the other",
+     "reason": "claims 36 reviews but no synced gbpReviewCount exists for this site"
     },
     {
-      "id": "2026-08-27-how-much-does-storm-damage-repair-cost",
-      "status": "archived",
-      "queued_at": "2026-08-27T04:45:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "how much does storm damage repair cost",
-      "intent": "informational",
-      "volume": null,
-      "kd": null,
-      "fan_out_cluster": [
-        "storm damage restoration cost",
-        "average cost to repair roof storm damage",
-        "storm damage siding repair cost",
-        "what affects storm damage repair pricing",
-        "does insurance pay the full storm damage repair cost",
-        "storm damage repair estimate what to look for"
-      ],
-      "suggested_slug": "how-much-does-storm-damage-repair-cost",
-      "suggested_title": "How much does storm damage repair cost? Real ranges for St. Louis area homes",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/storm-damage-restoration/",
-        "/service-areas/st-louis-mo/storm-damage-restoration/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "storm-damage-restoration"
-      ],
-      "city_anchor": "st-louis-mo",
-      "external_authority_candidates": [
-        "https://www.iii.org/article/how-file-homeowners-claim",
-        "https://www.iicrc.org/"
-      ],
-      "notes": "ChatGPT-surfaced cost query and the site has no pricing content anywhere. Give honest ranges by damage type (roof, siding, water intrusion, tree impact) and explain the deductible-versus-scope math rather than quoting one number. Cost pages are heavily cited by AI answer engines.",
-      "archived_reason": "client departed/archived \u2014 queue residue cleared 2026-09-17"
-    },
-    {
-      "id": "2026-08-27-roof-storm-damage-repair",
-      "status": "archived",
-      "queued_at": "2026-08-27T04:45:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "roof storm damage repair",
-      "intent": "commercial",
-      "volume": 2900,
-      "kd": 2,
-      "fan_out_cluster": [
-        "how do I know if my roof has storm damage",
-        "storm damage roof repair vs full replacement",
-        "hidden roof storm damage signs",
-        "how to tarp a roof after a storm",
-        "roof storm damage insurance claim",
-        "how long can a tarp stay on a roof"
-      ],
-      "suggested_slug": "roof-storm-damage-repair",
-      "suggested_title": "Roof storm damage repair: how to spot it, tarp it, and get it covered",
-      "target_word_count": 1700,
-      "internal_link_targets": [
-        "/services/storm-damage-restoration/",
-        "/service-areas/chesterfield-mo/storm-damage-restoration/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "storm-damage-restoration"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.fema.gov/fact-sheet/protect-your-property-severe-wind",
-        "https://www.iicrc.org/"
-      ],
-      "notes": "2900/mo at KD 2 with no page in the url-plan targeting the roof sub-angle, and ProCraft is an exteriors company so this is squarely their work. Keep the framing educational (inspection, tarping, claim) so it supports the service landing page instead of competing with it.",
-      "archived_reason": "client departed/archived \u2014 queue residue cleared 2026-09-17"
-    },
-    {
-      "id": "2026-08-27-storm-damage-cleanup",
-      "status": "archived",
-      "queued_at": "2026-08-27T04:45:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "storm damage cleanup",
-      "intent": "transactional",
-      "volume": 880,
-      "kd": 0,
-      "fan_out_cluster": [
-        "storm damage cleanup process step by step",
-        "debris removal after a storm",
-        "water extraction after storm flooding",
-        "how to prevent mold after storm flooding",
-        "emergency board up after storm",
-        "how long does storm damage cleanup take"
-      ],
-      "suggested_slug": "storm-damage-cleanup",
-      "suggested_title": "Storm damage cleanup: what a professional crew actually does, step by step",
-      "target_word_count": 1600,
-      "internal_link_targets": [
-        "/services/storm-damage-restoration/",
-        "/service-areas/st-louis-mo/storm-damage-restoration/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "storm-damage-restoration"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.iicrc.org/",
-        "https://www.fema.gov/fact-sheet/protect-your-property-severe-wind"
-      ],
-      "notes": "The money term of this run: 880/mo, KD 0, CPC 46.85, and nothing in the url-plan targets it. Walk the crew's actual sequence (make-safe, board-up and tarp, debris haul, water extraction, drying, mold prevention) and hit the 24-48 hour mold window.",
-      "archived_reason": "client departed/archived \u2014 queue residue cleared 2026-09-17"
+     "file": "src/content/blog/best-storm-damage-restoration-company-in-chesterfield-mo.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "error",
+     "matched": "36 reviews",
+     "context": "local ratings. **Google Rating:** 3.4 (36 reviews) --- ## Side-by-Side Comparison | Co",
+     "reason": "claims 36 reviews but no synced gbpReviewCount exists for this site"
     }
-  ]
+   ]
+  },
+  {
+   "id": "2026-08-27-does-homeowners-insurance-cover-storm-damage",
+   "status": "archived",
+   "queued_at": "2026-08-27T04:45:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "does homeowners insurance cover storm damage",
+   "intent": "informational",
+   "volume": 90,
+   "kd": 2,
+   "fan_out_cluster": [
+    "what storm damage is covered by homeowners insurance",
+    "wind damage insurance coverage Missouri",
+    "hail damage homeowners insurance deductible",
+    "is roof storm damage covered by insurance",
+    "what storm damage insurance does not cover",
+    "storm damage claim denied what to do"
+   ],
+   "suggested_slug": "does-homeowners-insurance-cover-storm-damage",
+   "suggested_title": "Does homeowners insurance cover storm damage? A Missouri homeowner's guide",
+   "target_word_count": 1600,
+   "internal_link_targets": [
+    "/services/storm-damage-restoration/",
+    "/blog/storm-damage-insurance-claim-checklist/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "storm-damage-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iii.org/article/how-file-homeowners-claim",
+    "https://www.fema.gov/fact-sheet/protect-your-property-severe-wind"
+   ],
+   "notes": "Highest-value decision-stage query in the set: KD 2, CPC 8.07, and it reaches homeowners 24-48 hours before they hire anyone. Cover wind, hail and falling-tree perils separately from flood, which standard MO policies exclude. Link out to the existing claim-checklist post as the next step.",
+   "archived_reason": "client departed/archived \u2014 queue residue cleared 2026-09-17"
+  },
+  {
+   "id": "2026-08-27-what-to-do-after-storm-damage-to-your-home",
+   "status": "archived",
+   "queued_at": "2026-08-27T04:45:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "what to do after storm damage to your home",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "who to call after storm damage",
+    "emergency tarping after a storm",
+    "how to document storm damage for insurance",
+    "temporary repairs after a storm",
+    "is it safe to stay in a storm damaged house",
+    "how long do I have to file a storm damage claim"
+   ],
+   "suggested_slug": "what-to-do-after-storm-damage-to-your-home",
+   "suggested_title": "What to do after storm damage to your home: the first 24 hours in Chesterfield, MO",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/chesterfield-mo/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "storm-damage-restoration"
+   ],
+   "city_anchor": "chesterfield-mo",
+   "external_authority_candidates": [
+    "https://www.fema.gov/fact-sheet/protect-your-property-severe-wind",
+    "https://www.weather.gov/lsx/"
+   ],
+   "notes": "Zero recorded Google volume but surfaced directly by the ChatGPT decomposition, so score it intent-first: this is the passage AI assistants lift when a St. Louis-area homeowner asks what to do next. Sequence it as a numbered first-24-hours checklist. Anchor to Chesterfield and reference the NWS St. Louis office for local severe-weather context.",
+   "archived_reason": "client departed/archived \u2014 queue residue cleared 2026-09-17"
+  },
+  {
+   "id": "2026-08-27-how-much-does-storm-damage-repair-cost",
+   "status": "archived",
+   "queued_at": "2026-08-27T04:45:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "how much does storm damage repair cost",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "fan_out_cluster": [
+    "storm damage restoration cost",
+    "average cost to repair roof storm damage",
+    "storm damage siding repair cost",
+    "what affects storm damage repair pricing",
+    "does insurance pay the full storm damage repair cost",
+    "storm damage repair estimate what to look for"
+   ],
+   "suggested_slug": "how-much-does-storm-damage-repair-cost",
+   "suggested_title": "How much does storm damage repair cost? Real ranges for St. Louis area homes",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/st-louis-mo/storm-damage-restoration/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "storm-damage-restoration"
+   ],
+   "city_anchor": "st-louis-mo",
+   "external_authority_candidates": [
+    "https://www.iii.org/article/how-file-homeowners-claim",
+    "https://www.iicrc.org/"
+   ],
+   "notes": "ChatGPT-surfaced cost query and the site has no pricing content anywhere. Give honest ranges by damage type (roof, siding, water intrusion, tree impact) and explain the deductible-versus-scope math rather than quoting one number. Cost pages are heavily cited by AI answer engines.",
+   "archived_reason": "client departed/archived \u2014 queue residue cleared 2026-09-17"
+  },
+  {
+   "id": "2026-08-27-roof-storm-damage-repair",
+   "status": "archived",
+   "queued_at": "2026-08-27T04:45:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "roof storm damage repair",
+   "intent": "commercial",
+   "volume": 2900,
+   "kd": 2,
+   "fan_out_cluster": [
+    "how do I know if my roof has storm damage",
+    "storm damage roof repair vs full replacement",
+    "hidden roof storm damage signs",
+    "how to tarp a roof after a storm",
+    "roof storm damage insurance claim",
+    "how long can a tarp stay on a roof"
+   ],
+   "suggested_slug": "roof-storm-damage-repair",
+   "suggested_title": "Roof storm damage repair: how to spot it, tarp it, and get it covered",
+   "target_word_count": 1700,
+   "internal_link_targets": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/chesterfield-mo/storm-damage-restoration/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "storm-damage-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.fema.gov/fact-sheet/protect-your-property-severe-wind",
+    "https://www.iicrc.org/"
+   ],
+   "notes": "2900/mo at KD 2 with no page in the url-plan targeting the roof sub-angle, and ProCraft is an exteriors company so this is squarely their work. Keep the framing educational (inspection, tarping, claim) so it supports the service landing page instead of competing with it.",
+   "archived_reason": "client departed/archived \u2014 queue residue cleared 2026-09-17"
+  },
+  {
+   "id": "2026-08-27-storm-damage-cleanup",
+   "status": "archived",
+   "queued_at": "2026-08-27T04:45:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "storm damage cleanup",
+   "intent": "transactional",
+   "volume": 880,
+   "kd": 0,
+   "fan_out_cluster": [
+    "storm damage cleanup process step by step",
+    "debris removal after a storm",
+    "water extraction after storm flooding",
+    "how to prevent mold after storm flooding",
+    "emergency board up after storm",
+    "how long does storm damage cleanup take"
+   ],
+   "suggested_slug": "storm-damage-cleanup",
+   "suggested_title": "Storm damage cleanup: what a professional crew actually does, step by step",
+   "target_word_count": 1600,
+   "internal_link_targets": [
+    "/services/storm-damage-restoration/",
+    "/service-areas/st-louis-mo/storm-damage-restoration/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "storm-damage-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.iicrc.org/",
+    "https://www.fema.gov/fact-sheet/protect-your-property-severe-wind"
+   ],
+   "notes": "The money term of this run: 880/mo, KD 0, CPC 46.85, and nothing in the url-plan targets it. Walk the crew's actual sequence (make-safe, board-up and tarp, debris haul, water extraction, drying, mold prevention) and hit the 24-48 hour mold window.",
+   "archived_reason": "client departed/archived \u2014 queue residue cleared 2026-09-17"
+  }
+ ]
 }

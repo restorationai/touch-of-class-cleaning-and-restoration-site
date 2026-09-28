@@ -13,7 +13,7 @@
     "url_count": 481,
     "generated_at": "2026-09-23T14:11:28.681853+00:00"
   },
-  "updated_at": "2026-09-28T02:46:25.601047+00:00",
+  "updated_at": "2026-09-28T21:17:22Z",
   "build": {
     "scaffolded_at": "2026-07-30T16:30:42.265700+00:00",
     "github_repo": "restorationai/coastal-restoration-services-site",
@@ -31,10 +31,10 @@
     "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJgb6Gdhxh4wYRjbzm6ELYT38"
   },
   "audit": {
-    "last_audit_at": "2026-08-26T14:38:25Z",
+    "last_audit_at": "2026-09-28T21:17:22Z",
     "last_audit_verdict": "red",
-    "last_audit_report_path": "audit-runs/2026-08-26-onsite-audit.md",
-    "last_audit_origin_source": "staging",
+    "last_audit_report_path": "audit-runs/2026-09-28-onsite-audit.md",
+    "last_audit_origin_source": "apex",
     "last_audit_form_factor": "desktop"
   },
   "indexnow_key": "e69401578f9142578bd2fc2a9d8bf283",

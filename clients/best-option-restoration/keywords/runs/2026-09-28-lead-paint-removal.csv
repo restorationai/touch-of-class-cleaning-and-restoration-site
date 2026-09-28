@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+lead paint testing,transactional,12100,17,1.86,2,lead paint removal,,,false
+lead paint inspection,transactional,6600,17,11.76,2,lead paint removal,,,false
+lead paint removal,transactional,5400,,5.5,2,lead paint removal,,,false
+lead abatement,transactional,2400,3,14.2,2,lead paint removal,,,false
+lead abatement contractors,transactional,2400,7,13.43,2,lead paint removal,,,false
+lead abatement company,transactional,2400,7,13.43,2,lead paint removal,,,false
+lead paint removal company,transactional,1900,2,6.01,2,lead paint removal,,,false
+lead paint abatement,transactional,720,8,7.08,2,lead paint removal,,,false
+lead paint inspection near me,transactional,390,,10.88,2,lead paint removal,,,false
+lead paint removal service,transactional,390,,6.03,2,lead paint removal,,,false
+lead paint removal contractor,transactional,390,5,28.27,2,lead paint removal,,,false
+lead based paint removal companies,transactional,390,9,28.27,2,lead paint removal,,,false
+lead paint removal near me,transactional,320,,16.02,2,lead paint removal,,,false
+lead abatement near me,transactional,320,,13.24,2,lead paint removal,,,false
+lead paint testing near me,transactional,320,,7.1,2,lead paint removal,,,false
+lead dust cleanup,transactional,170,3,2.62,2,lead paint removal,,,false
+lead abatement contractors near me,transactional,140,,7.19,2,lead paint removal,,,false
+certified lead inspector near me,transactional,140,2,3.54,2,lead paint removal,,,false
+lead paint encapsulation,commercial,5400,,0.85,2,lead paint removal,,,false
+lead paint removal cost,commercial,1300,,4.68,2,lead paint removal,,,false
+lead paint abatement cost,commercial,1300,,4.68,2,lead paint removal,,,false
+lead paint inspection cost,commercial,1300,,10.58,2,lead paint removal,,,false
+lead abatement cost,commercial,210,,9.53,2,lead paint removal,,,false
+how much does lead paint removal cost,commercial,170,,2.2,2,lead paint removal,,,false
+lead paint removal cost calculator,commercial,110,,,2,lead paint removal,,,false
+how much does a lead paint inspection cost,commercial,90,,0.81,2,lead paint removal,,,false
+how to test for lead paint,informational,2400,9,1.14,2,lead paint removal,,,false
+what does lead paint look like,informational,1000,3,,2,lead paint removal,,,false
+is lead paint dangerous,informational,880,25,0.77,2,lead paint removal,,,false
+lead paint chips,informational,720,12,,2,lead paint removal,,,false
+can you paint over lead paint,informational,590,5,0.65,2,lead paint removal,,,false
+what year was lead paint banned,informational,480,41,,2,lead paint removal,,,false
+how to tell if paint has lead,informational,320,,2.88,2,lead paint removal,,,false
+how to remove lead paint safely,informational,320,,4.28,2,lead paint removal,,,false
+what is lead abatement,informational,210,,,2,lead paint removal,,,false
+lead hazard reduction grant program,informational,110,11,,2,lead paint removal,,,false
+how to remove lead paint from wood,informational,110,,1.26,2,lead paint removal,,,false
+lead paint removal grants,informational,90,10,4.85,2,lead paint removal,,,false
+is lead paint dangerous if painted over,informational,70,,6.22,2,lead paint removal,,,false
+can i remove lead paint myself,informational,70,,0.89,2,lead paint removal,,,false

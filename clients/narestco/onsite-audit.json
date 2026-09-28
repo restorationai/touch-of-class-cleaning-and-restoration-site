@@ -6,12 +6,12 @@
   "live_origin_source": "apex",
   "audit_form_factor": "desktop",
   "lighthouse_version": "13.4.0",
-  "generated_at": "2026-08-27T04:31:55Z",
+  "generated_at": "2026-09-28T21:02:54Z",
   "environment_caveats": [
     "Lighthouse run DESKTOP only (cpuSlowdownMultiplier=1, formFactor=desktop). Mobile scores would typically run 10-20 performance points lower.",
-    "The dedicated on_page_lighthouse / on_page_instant_pages MCP wrappers are not exposed in this DataForSEO MCP server build. This run called /v3/on_page/lighthouse/live/json and /v3/on_page/instant_pages directly with enable_javascript, enable_browser_rendering and load_resources enabled. That is a broader detection profile than prior runs, so no_image_alt and high_loading_time appear as new issue IDs without any corresponding site change.",
-    "Static HTML alt-text coverage was independently verified at 100 percent on all 6 audited pages (16/16, 25/25, 3/3, 3/3, 2/2, 3/3), so no_image_alt is recorded at low severity and is not treated as a real regression.",
-    "Service-area slot changed this month: /service-areas/federal-way-wa/ (audited in prior runs) now returns 301 to the homepage and is absent from sitemap-0.xml. It was replaced with /service-areas/seattle-wa/, the first area slug in url-plan.json."
+    "The dedicated on_page_lighthouse / on_page_instant_pages MCP wrappers are not exposed in this DataForSEO MCP server build. This run called /v3/on_page/lighthouse/live/json (for_mobile=false) and /v3/on_page/instant_pages (enable_javascript, enable_browser_rendering, load_resources) directly, the same profile as the 2026-08-27 run, so issue detection is comparable month over month.",
+    "Lighthouse version is unchanged (13.4.0), so the accessibility drop from 100 to 92-96 is a real site change, not a scoring-rule change.",
+    "DataForSEO checks no_image_title (images without a title attribute, all 6 pages) and frame (Google Maps iframe on the Seattle page) are not in the audit rubric and are not recorded as issues."
   ],
   "audited_urls": [
     {
@@ -20,44 +20,44 @@
       "verdict": "amber",
       "error_reason": null,
       "scores": {
-        "performance": 97,
-        "accessibility": 100,
+        "performance": 98,
+        "accessibility": 92,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1287,
-        "CLS": 0.0068,
+        "LCP_ms": 1121,
+        "CLS": 0.0046,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
           "id": "unused-javascript",
           "title": "Reduce unused JavaScript",
           "severity": "medium",
-          "estimated_savings_ms": 130,
-          "category": "performance"
-        },
-        {
-          "id": "forced-reflow-insight",
-          "title": "Forced reflow",
-          "severity": "low",
-          "estimated_savings_ms": null,
+          "estimated_savings_ms": 50,
           "category": "performance"
         },
         {
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "low",
-          "estimated_savings_ms": null,
+          "estimated_savings_ms": 50,
           "category": "performance"
         },
         {
@@ -81,12 +81,7 @@
         },
         {
           "id": "low_content_rate",
-          "title": "Text-to-HTML ratio 8.8 percent, under the 10 percent threshold",
-          "severity": "low"
-        },
-        {
-          "id": "no_image_alt",
-          "title": "DataForSEO flagged images without alt in the rendered DOM",
+          "title": "Text-to-HTML ratio 6.8 percent, under the 10 percent threshold",
           "severity": "low"
         }
       ]
@@ -97,30 +92,37 @@
       "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 99,
-        "accessibility": 100,
+        "performance": 96,
+        "accessibility": 95,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1026,
-        "CLS": 0.0034,
+        "LCP_ms": 1393,
+        "CLS": 0.0039,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes",
-          "severity": "low",
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
           "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "medium",
+          "estimated_savings_ms": 50,
           "category": "performance"
         },
         {
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "low",
-          "estimated_savings_ms": null,
+          "estimated_savings_ms": 50,
           "category": "performance"
         },
         {
@@ -131,17 +133,10 @@
           "category": "performance"
         },
         {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
           "severity": "low",
           "estimated_savings_ms": null,
-          "category": "performance"
-        },
-        {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "low",
-          "estimated_savings_ms": 0,
           "category": "performance"
         }
       ],
@@ -153,12 +148,12 @@
         },
         {
           "id": "low_content_rate",
-          "title": "Text-to-HTML ratio under the 10 percent threshold",
+          "title": "Text-to-HTML ratio 5.2 percent, under the 10 percent threshold",
           "severity": "low"
         },
         {
-          "id": "no_image_alt",
-          "title": "DataForSEO flagged images without alt in the rendered DOM",
+          "id": "content_length_below_target",
+          "title": "Body copy 785 words vs 800-word services-hub target (15 under)",
           "severity": "low"
         }
       ]
@@ -169,243 +164,37 @@
       "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 98,
-        "accessibility": 100,
+        "performance": 95,
+        "accessibility": 95,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1132,
-        "CLS": 0.0046,
+        "LCP_ms": 1330,
+        "CLS": 0.0099,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
         {
           "id": "unused-javascript",
           "title": "Reduce unused JavaScript",
           "severity": "medium",
-          "estimated_savings_ms": 130,
+          "estimated_savings_ms": 100,
           "category": "performance"
         },
         {
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        },
-        {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        }
-      ],
-      "onpage_issues": [
-        {
-          "id": "has_render_blocking_resources",
-          "title": "Render-blocking CSS/JS in the critical path",
-          "severity": "low"
-        },
-        {
-          "id": "high_loading_time",
-          "title": "Crawler sample recorded 4.0s dom_complete, contradicted by Lighthouse perf 98",
-          "severity": "low"
-        },
-        {
-          "id": "no_image_alt",
-          "title": "DataForSEO flagged images without alt in the rendered DOM",
-          "severity": "low"
-        }
-      ]
-    },
-    {
-      "url": "https://narestco.com/services/fire-damage-restoration/",
-      "archetype": "service-landing",
-      "verdict": "green",
-      "error_reason": null,
-      "scores": {
-        "performance": 98,
-        "accessibility": 100,
-        "best_practices": 100,
-        "seo": 100
-      },
-      "core_web_vitals": {
-        "LCP_ms": 1153,
-        "CLS": 0.0046,
-        "TBT_ms": 0,
-        "INP_ms": null
-      },
-      "lighthouse_issues": [
-        {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "medium",
-          "estimated_savings_ms": 80,
-          "category": "performance"
-        },
-        {
-          "id": "forced-reflow-insight",
-          "title": "Forced reflow",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        },
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        }
-      ],
-      "onpage_issues": [
-        {
-          "id": "has_render_blocking_resources",
-          "title": "Render-blocking CSS/JS in the critical path",
-          "severity": "low"
-        },
-        {
-          "id": "no_image_alt",
-          "title": "DataForSEO flagged images without alt in the rendered DOM",
-          "severity": "low"
-        }
-      ]
-    },
-    {
-      "url": "https://narestco.com/service-areas/seattle-wa/",
-      "archetype": "service-area",
-      "verdict": "green",
-      "error_reason": null,
-      "scores": {
-        "performance": 100,
-        "accessibility": 100,
-        "best_practices": 100,
-        "seo": 100
-      },
-      "core_web_vitals": {
-        "LCP_ms": 574,
-        "CLS": 0.0044,
-        "TBT_ms": 0,
-        "INP_ms": null
-      },
-      "lighthouse_issues": [
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        },
-        {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "low",
-          "estimated_savings_ms": 0,
-          "category": "performance"
-        },
-        {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        }
-      ],
-      "onpage_issues": [
-        {
-          "id": "has_render_blocking_resources",
-          "title": "Render-blocking CSS/JS in the critical path",
-          "severity": "low"
-        },
-        {
-          "id": "no_image_alt",
-          "title": "DataForSEO flagged images without alt in the rendered DOM",
-          "severity": "low"
-        }
-      ]
-    },
-    {
-      "url": "https://narestco.com/contact/",
-      "archetype": "contact",
-      "verdict": "green",
-      "error_reason": null,
-      "scores": {
-        "performance": 94,
-        "accessibility": 100,
-        "best_practices": 100,
-        "seo": 100
-      },
-      "core_web_vitals": {
-        "LCP_ms": 1625,
-        "CLS": 0.0057,
-        "TBT_ms": 0,
-        "INP_ms": null
-      },
-      "lighthouse_issues": [
-        {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "high",
-          "estimated_savings_ms": 240,
-          "category": "performance"
-        },
-        {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        },
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "low",
-          "estimated_savings_ms": null,
+          "estimated_savings_ms": 50,
           "category": "performance"
         },
         {
@@ -416,10 +205,196 @@
           "category": "performance"
         },
         {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
           "severity": "low",
           "estimated_savings_ms": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Render-blocking CSS/JS in the critical path",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://narestco.com/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 97,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1160,
+        "CLS": 0.0056,
+        "TBT_ms": 69,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "medium",
+          "estimated_savings_ms": 50,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": 50,
+          "category": "performance"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Render-blocking CSS/JS in the critical path",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://narestco.com/service-areas/seattle-wa/",
+      "archetype": "service-area",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 98,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1053,
+        "CLS": 0.0054,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "medium",
+          "estimated_savings_ms": 50,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": 100,
+          "category": "performance"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": 100,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Render-blocking CSS/JS in the critical path",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://narestco.com/contact/",
+      "archetype": "contact",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 96,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 930,
+        "CLS": 0.0333,
+        "TBT_ms": 34,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "medium",
+          "estimated_savings_ms": 100,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": 50,
+          "category": "performance"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": 50,
           "category": "performance"
         }
       ],
@@ -431,12 +406,7 @@
         },
         {
           "id": "low_content_rate",
-          "title": "Text-to-HTML ratio under the 10 percent threshold",
-          "severity": "low"
-        },
-        {
-          "id": "no_image_alt",
-          "title": "DataForSEO flagged images without alt in the rendered DOM",
+          "title": "Text-to-HTML ratio 8.3 percent, under the 10 percent threshold",
           "severity": "low"
         }
       ]
@@ -444,8 +414,8 @@
   ],
   "site_rollup": {
     "avg_scores": {
-      "performance": 97.7,
-      "accessibility": 100.0,
+      "performance": 97.2,
+      "accessibility": 94.7,
       "best_practices": 100.0,
       "seo": 100.0
     },
@@ -459,20 +429,20 @@
     },
     "template_issues": [
       {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "affected_urls": 6,
+        "severity": "medium"
+      },
+      {
         "id": "unused-javascript",
         "title": "Reduce unused JavaScript",
         "affected_urls": 6,
-        "severity": "high"
+        "severity": "medium"
       },
       {
         "id": "image-delivery-insight",
         "title": "Improve image delivery",
-        "affected_urls": 6,
-        "severity": "low"
-      },
-      {
-        "id": "network-dependency-tree-insight",
-        "title": "Network dependency tree",
         "affected_urls": 6,
         "severity": "low"
       },
@@ -483,15 +453,15 @@
         "severity": "low"
       },
       {
-        "id": "no_image_alt",
-        "title": "DataForSEO flagged images without alt in the rendered DOM",
-        "affected_urls": 6,
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
+        "affected_urls": 5,
         "severity": "low"
       },
       {
         "id": "cache-insight",
         "title": "Use efficient cache lifetimes",
-        "affected_urls": 5,
+        "affected_urls": 4,
         "severity": "low"
       },
       {
@@ -501,20 +471,8 @@
         "severity": "low"
       },
       {
-        "id": "render-blocking-insight",
-        "title": "Render-blocking requests",
-        "affected_urls": 3,
-        "severity": "low"
-      },
-      {
-        "id": "forced-reflow-insight",
-        "title": "Forced reflow",
-        "affected_urls": 2,
-        "severity": "low"
-      },
-      {
-        "id": "lcp-discovery-insight",
-        "title": "LCP request discovery",
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
         "affected_urls": 2,
         "severity": "low"
       }
@@ -524,281 +482,205 @@
         "url": "https://narestco.com/",
         "archetype": "home",
         "verdict": "amber",
-        "main_issue": "meta description 194 chars (limit 160)"
+        "main_issue": "Meta description 194 chars, over the 160 char limit"
       }
     ]
   },
   "regression": {
-    "prior_run_at": "2026-07-15T15:59:36Z",
+    "prior_run_at": "2026-08-27T04:31:55Z",
     "score_deltas": {
-      "performance": -0.8,
-      "accessibility": 0.0,
+      "performance": -0.5,
+      "accessibility": -5.3,
       "best_practices": 0.0,
       "seo": 0.0
     },
-    "category_regressions": [],
+    "category_regressions": [
+      {
+        "url": "https://narestco.com/",
+        "category": "accessibility",
+        "from": 100,
+        "to": 92,
+        "delta": -8
+      },
+      {
+        "url": "https://narestco.com/services/",
+        "category": "accessibility",
+        "from": 100,
+        "to": 95,
+        "delta": -5
+      },
+      {
+        "url": "https://narestco.com/services/water-damage-restoration/",
+        "category": "accessibility",
+        "from": 100,
+        "to": 95,
+        "delta": -5
+      },
+      {
+        "url": "https://narestco.com/services/fire-damage-restoration/",
+        "category": "accessibility",
+        "from": 100,
+        "to": 95,
+        "delta": -5
+      },
+      {
+        "url": "https://narestco.com/service-areas/seattle-wa/",
+        "category": "accessibility",
+        "from": 100,
+        "to": 95,
+        "delta": -5
+      }
+    ],
     "core_web_vital_regressions": [
       {
-        "url": "https://narestco.com/contact/",
+        "url": "https://narestco.com/services/",
         "metric": "LCP_ms",
-        "from": 1147,
-        "to": 1625,
-        "delta": 478
+        "from": 1026,
+        "to": 1393,
+        "delta": 367
+      },
+      {
+        "url": "https://narestco.com/service-areas/seattle-wa/",
+        "metric": "LCP_ms",
+        "from": 574,
+        "to": 1053,
+        "delta": 479
+      },
+      {
+        "url": "https://narestco.com/contact/",
+        "metric": "CLS",
+        "from": 0.0057,
+        "to": 0.0333,
+        "delta": 0.0276
       }
     ],
     "verdict_transitions": [],
     "new_issues": [
       {
         "url": "https://narestco.com/",
-        "id": "unused-javascript",
-        "title": "Reduce unused JavaScript",
-        "detection_artifact": true,
-        "note": "Prior run deferred Lighthouse full_data, so no lighthouse_issues were recorded. Not a site change."
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio."
       },
       {
         "url": "https://narestco.com/",
-        "id": "forced-reflow-insight",
-        "title": "Forced reflow",
-        "detection_artifact": true,
-        "note": "Prior run deferred Lighthouse full_data, so no lighthouse_issues were recorded. Not a site change."
-      },
-      {
-        "url": "https://narestco.com/",
-        "id": "image-delivery-insight",
-        "title": "Improve image delivery",
-        "detection_artifact": true,
-        "note": "Prior run deferred Lighthouse full_data, so no lighthouse_issues were recorded. Not a site change."
-      },
-      {
-        "url": "https://narestco.com/",
-        "id": "network-dependency-tree-insight",
-        "title": "Network dependency tree",
-        "detection_artifact": true,
-        "note": "Prior run deferred Lighthouse full_data, so no lighthouse_issues were recorded. Not a site change."
-      },
-      {
-        "url": "https://narestco.com/",
-        "id": "cache-insight",
-        "title": "Use efficient cache lifetimes",
-        "detection_artifact": true,
-        "note": "Prior run deferred Lighthouse full_data, so no lighthouse_issues were recorded. Not a site change."
-      },
-      {
-        "url": "https://narestco.com/",
-        "id": "no_image_alt",
-        "title": "DataForSEO flagged images without alt in the rendered DOM",
-        "detection_artifact": true,
-        "note": "Surfaced by the broader instant_pages detection profile used this run (JS + browser rendering enabled). Not a site change."
+        "id": "link-in-text-block",
+        "title": "Links rely on color to be distinguishable."
       },
       {
         "url": "https://narestco.com/services/",
-        "id": "cache-insight",
-        "title": "Use efficient cache lifetimes",
-        "detection_artifact": true,
-        "note": "Prior run deferred Lighthouse full_data, so no lighthouse_issues were recorded. Not a site change."
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio."
       },
       {
         "url": "https://narestco.com/services/",
-        "id": "image-delivery-insight",
-        "title": "Improve image delivery",
-        "detection_artifact": true,
-        "note": "Prior run deferred Lighthouse full_data, so no lighthouse_issues were recorded. Not a site change."
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint"
       },
       {
         "url": "https://narestco.com/services/",
+        "id": "content_length_below_target",
+        "title": "Body copy 785 words vs 800-word services-hub target (15 under)"
+      },
+      {
+        "url": "https://narestco.com/services/water-damage-restoration/",
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio."
+      },
+      {
+        "url": "https://narestco.com/services/water-damage-restoration/",
         "id": "lcp-discovery-insight",
         "title": "LCP request discovery",
         "detection_artifact": true,
-        "note": "Prior run deferred Lighthouse full_data, so no lighthouse_issues were recorded. Not a site change."
-      },
-      {
-        "url": "https://narestco.com/services/",
-        "id": "network-dependency-tree-insight",
-        "title": "Network dependency tree",
-        "detection_artifact": true,
-        "note": "Prior run deferred Lighthouse full_data, so no lighthouse_issues were recorded. Not a site change."
-      },
-      {
-        "url": "https://narestco.com/services/",
-        "id": "unused-javascript",
-        "title": "Reduce unused JavaScript",
-        "detection_artifact": true,
-        "note": "Prior run deferred Lighthouse full_data, so no lighthouse_issues were recorded. Not a site change."
-      },
-      {
-        "url": "https://narestco.com/services/",
-        "id": "no_image_alt",
-        "title": "DataForSEO flagged images without alt in the rendered DOM",
-        "detection_artifact": true,
-        "note": "Surfaced by the broader instant_pages detection profile used this run (JS + browser rendering enabled). Not a site change."
+        "note": "Zero-weight Lighthouse insight that was failing but outside the prior run's top-5 cut. Not a site change."
       },
       {
         "url": "https://narestco.com/services/water-damage-restoration/",
-        "id": "unused-javascript",
-        "title": "Reduce unused JavaScript",
-        "detection_artifact": true,
-        "note": "Prior run deferred Lighthouse full_data, so no lighthouse_issues were recorded. Not a site change."
-      },
-      {
-        "url": "https://narestco.com/services/water-damage-restoration/",
-        "id": "image-delivery-insight",
-        "title": "Improve image delivery",
-        "detection_artifact": true,
-        "note": "Prior run deferred Lighthouse full_data, so no lighthouse_issues were recorded. Not a site change."
-      },
-      {
-        "url": "https://narestco.com/services/water-damage-restoration/",
-        "id": "network-dependency-tree-insight",
-        "title": "Network dependency tree",
-        "detection_artifact": true,
-        "note": "Prior run deferred Lighthouse full_data, so no lighthouse_issues were recorded. Not a site change."
-      },
-      {
-        "url": "https://narestco.com/services/water-damage-restoration/",
-        "id": "cache-insight",
-        "title": "Use efficient cache lifetimes",
-        "detection_artifact": true,
-        "note": "Prior run deferred Lighthouse full_data, so no lighthouse_issues were recorded. Not a site change."
-      },
-      {
-        "url": "https://narestco.com/services/water-damage-restoration/",
-        "id": "render-blocking-insight",
-        "title": "Render-blocking requests",
-        "detection_artifact": true,
-        "note": "Prior run deferred Lighthouse full_data, so no lighthouse_issues were recorded. Not a site change."
-      },
-      {
-        "url": "https://narestco.com/services/water-damage-restoration/",
-        "id": "high_loading_time",
-        "title": "Crawler sample recorded 4.0s dom_complete, contradicted by Lighthouse perf 98",
-        "detection_artifact": true,
-        "note": "Surfaced by the broader instant_pages detection profile used this run (JS + browser rendering enabled). Not a site change."
-      },
-      {
-        "url": "https://narestco.com/services/water-damage-restoration/",
-        "id": "no_image_alt",
-        "title": "DataForSEO flagged images without alt in the rendered DOM",
-        "detection_artifact": true,
-        "note": "Surfaced by the broader instant_pages detection profile used this run (JS + browser rendering enabled). Not a site change."
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint"
       },
       {
         "url": "https://narestco.com/services/fire-damage-restoration/",
-        "id": "unused-javascript",
-        "title": "Reduce unused JavaScript",
-        "detection_artifact": true,
-        "note": "Prior run deferred Lighthouse full_data, so no lighthouse_issues were recorded. Not a site change."
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio."
       },
       {
         "url": "https://narestco.com/services/fire-damage-restoration/",
-        "id": "forced-reflow-insight",
-        "title": "Forced reflow",
-        "detection_artifact": true,
-        "note": "Prior run deferred Lighthouse full_data, so no lighthouse_issues were recorded. Not a site change."
-      },
-      {
-        "url": "https://narestco.com/services/fire-damage-restoration/",
-        "id": "image-delivery-insight",
-        "title": "Improve image delivery",
-        "detection_artifact": true,
-        "note": "Prior run deferred Lighthouse full_data, so no lighthouse_issues were recorded. Not a site change."
-      },
-      {
-        "url": "https://narestco.com/services/fire-damage-restoration/",
-        "id": "network-dependency-tree-insight",
-        "title": "Network dependency tree",
-        "detection_artifact": true,
-        "note": "Prior run deferred Lighthouse full_data, so no lighthouse_issues were recorded. Not a site change."
-      },
-      {
-        "url": "https://narestco.com/services/fire-damage-restoration/",
-        "id": "render-blocking-insight",
-        "title": "Render-blocking requests",
-        "detection_artifact": true,
-        "note": "Prior run deferred Lighthouse full_data, so no lighthouse_issues were recorded. Not a site change."
-      },
-      {
-        "url": "https://narestco.com/services/fire-damage-restoration/",
-        "id": "no_image_alt",
-        "title": "DataForSEO flagged images without alt in the rendered DOM",
-        "detection_artifact": true,
-        "note": "Surfaced by the broader instant_pages detection profile used this run (JS + browser rendering enabled). Not a site change."
-      },
-      {
-        "url": "https://narestco.com/contact/",
-        "id": "unused-javascript",
-        "title": "Reduce unused JavaScript",
-        "detection_artifact": true,
-        "note": "Prior run deferred Lighthouse full_data, so no lighthouse_issues were recorded. Not a site change."
-      },
-      {
-        "url": "https://narestco.com/contact/",
-        "id": "cache-insight",
-        "title": "Use efficient cache lifetimes",
-        "detection_artifact": true,
-        "note": "Prior run deferred Lighthouse full_data, so no lighthouse_issues were recorded. Not a site change."
-      },
-      {
-        "url": "https://narestco.com/contact/",
-        "id": "image-delivery-insight",
-        "title": "Improve image delivery",
-        "detection_artifact": true,
-        "note": "Prior run deferred Lighthouse full_data, so no lighthouse_issues were recorded. Not a site change."
-      },
-      {
-        "url": "https://narestco.com/contact/",
         "id": "lcp-discovery-insight",
         "title": "LCP request discovery",
         "detection_artifact": true,
-        "note": "Prior run deferred Lighthouse full_data, so no lighthouse_issues were recorded. Not a site change."
+        "note": "Zero-weight Lighthouse insight that was failing but outside the prior run's top-5 cut. Not a site change."
       },
       {
-        "url": "https://narestco.com/contact/",
-        "id": "network-dependency-tree-insight",
-        "title": "Network dependency tree",
+        "url": "https://narestco.com/services/fire-damage-restoration/",
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
         "detection_artifact": true,
-        "note": "Prior run deferred Lighthouse full_data, so no lighthouse_issues were recorded. Not a site change."
+        "note": "Zero-weight Lighthouse insight that was failing but outside the prior run's top-5 cut. Not a site change."
       },
       {
-        "url": "https://narestco.com/contact/",
-        "id": "low_content_rate",
-        "title": "Text-to-HTML ratio under the 10 percent threshold",
-        "detection_artifact": false,
-        "note": null
+        "url": "https://narestco.com/service-areas/seattle-wa/",
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio."
       },
       {
-        "url": "https://narestco.com/contact/",
-        "id": "no_image_alt",
-        "title": "DataForSEO flagged images without alt in the rendered DOM",
+        "url": "https://narestco.com/service-areas/seattle-wa/",
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
         "detection_artifact": true,
-        "note": "Surfaced by the broader instant_pages detection profile used this run (JS + browser rendering enabled). Not a site change."
+        "note": "Zero-weight Lighthouse insight that was failing but outside the prior run's top-5 cut. Not a site change."
+      },
+      {
+        "url": "https://narestco.com/contact/",
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio."
       }
     ],
     "resolved_issues": [
       {
+        "url": "https://narestco.com/",
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
+      },
+      {
+        "url": "https://narestco.com/",
+        "id": "no_image_alt",
+        "title": "DataForSEO flagged images without alt in the rendered DOM"
+      },
+      {
         "url": "https://narestco.com/services/",
-        "id": "content_length_below_target",
-        "title": "Body copy 790 words vs 800-word services-hub target (10 under)"
+        "id": "no_image_alt",
+        "title": "DataForSEO flagged images without alt in the rendered DOM"
+      },
+      {
+        "url": "https://narestco.com/services/water-damage-restoration/",
+        "id": "high_loading_time",
+        "title": "Crawler sample recorded 4.0s dom_complete, contradicted by Lighthouse perf 98"
+      },
+      {
+        "url": "https://narestco.com/services/water-damage-restoration/",
+        "id": "no_image_alt",
+        "title": "DataForSEO flagged images without alt in the rendered DOM"
+      },
+      {
+        "url": "https://narestco.com/services/fire-damage-restoration/",
+        "id": "no_image_alt",
+        "title": "DataForSEO flagged images without alt in the rendered DOM"
+      },
+      {
+        "url": "https://narestco.com/service-areas/seattle-wa/",
+        "id": "no_image_alt",
+        "title": "DataForSEO flagged images without alt in the rendered DOM"
       },
       {
         "url": "https://narestco.com/contact/",
-        "id": "cumulative_layout_shift_borderline",
-        "title": "CLS 0.028 (Google Good is <0.1; internal target <=0.025 for solidly Good). Unchanged vs prior audit."
+        "id": "no_image_alt",
+        "title": "DataForSEO flagged images without alt in the rendered DOM"
       }
     ],
-    "urls_removed_from_set": [
-      {
-        "url": "https://narestco.com/service-areas/federal-way-wa/",
-        "prior_verdict": "green",
-        "reason": "301 redirect to homepage, absent from sitemap"
-      }
-    ],
-    "urls_added_to_set": [
-      {
-        "url": "https://narestco.com/service-areas/seattle-wa/",
-        "reason": "replaces /service-areas/federal-way-wa/ as the service-area slot"
-      }
-    ],
-    "genuinely_new_issue_count": 1,
-    "prior_run_recorded_lighthouse_detail": false
-  }
+    "urls_removed_from_set": [],
+    "urls_added_to_set": [],
+    "genuinely_new_issue_count": 10
+  },
+  "lighthouse_detail": "captured (live/json returns full audits; top 5 failing audits per URL recorded)",
+  "run_cost_usd": 0.0606
 }

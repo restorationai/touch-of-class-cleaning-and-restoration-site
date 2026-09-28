@@ -13,7 +13,7 @@
     "url_count": 740,
     "generated_at": "2026-09-23T14:11:30.589986+00:00"
   },
-  "updated_at": "2026-09-28T14:10:52.304160+00:00",
+  "updated_at": "2026-09-28T20:45:24Z",
   "build": {
     "scaffolded_at": "2026-07-26T06:51:44.253391+00:00",
     "github_repo": "restorationai/crew-restoration-construction-site",
@@ -50,9 +50,9 @@
     }
   },
   "audit": {
-    "last_audit_at": "2026-08-26T14:55:00Z",
+    "last_audit_at": "2026-09-28T20:45:24Z",
     "last_audit_verdict": "amber",
-    "last_audit_report_path": "audit-runs/2026-08-26-onsite-audit.md",
+    "last_audit_report_path": "audit-runs/2026-09-28-onsite-audit.md",
     "last_audit_origin": "https://crew3r.com",
     "last_audit_origin_source": "apex",
     "last_audit_form_factor": "desktop",

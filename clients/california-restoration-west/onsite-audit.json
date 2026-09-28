@@ -4,39 +4,41 @@
   "site": "staging.rankai-california-restoration-west.pages.dev",
   "live_origin": "https://staging.rankai-california-restoration-west.pages.dev",
   "live_origin_source": "staging",
-  "generated_at": "2026-08-26T22:47:49Z",
+  "generated_at": "2026-09-28T21:22:13Z",
   "audit_form_factor": "desktop",
   "lighthouse_version": "13.4.0",
-  "url_selection_mode": "auto-derived from plan/url-plan.json (no audit-urls.txt present)",
+  "url_selection_mode": "auto-derived from plan/url-plan.json (no audit-urls.txt present); same 6 URLs as the 2026-08-26 baseline",
+  "lighthouse_detail": "full audit payload pulled per URL and reduced on disk; failing audits (score < 0.9) captured",
   "environment_caveats": [
     "live_origin is the Cloudflare Pages staging preview; apex_cutover.completed_at is not set on the client record.",
-    "x-robots-tag: noindex is injected by Cloudflare Pages on *.pages.dev previews. The Lighthouse is-crawlable audit fails as a result and deflates the SEO category to 69 on every URL. SEO is recorded but EXCLUDED from all verdicts this run. SEO status is inconclusive - re-audit after apex cutover.",
-    "Canonical tags on every audited page point to https://californiarestorationwest.com/... (the apex). That is the intended production canonical and is not treated as a defect while auditing staging.",
-    "DataForSEO on-page returned has_micromarkup=false on all 6 URLs. Verified directly against the served HTML: every page ships one application/ld+json block containing LocalBusiness, Organization, WebSite, BreadcrumbList, FAQPage and (on service pages) Service. Treated as a vendor false negative, NOT reported as missing schema.",
-    "Lighthouse ran DESKTOP only (for_mobile=false) to stay comparable with the rest of the fleet. Mobile scores would typically run 10-20 performance points lower, and the 1.73 MB logo would hurt far more on mobile.",
-    "Client record status is 'onboarding', not 'active'. build_status is pushed_main and all 6 URLs returned 200, so the site is auditable and the run proceeded. Flagged rather than skipped."
+    "x-robots-tag: noindex confirmed on the staging origin (curl -sI, 2026-09-28). The Lighthouse is-crawlable audit fails and deflates SEO to 69 on every URL. SEO is recorded but EXCLUDED from all verdicts. SEO status: inconclusive - staging noindex artifact, re-audit after apex cutover.",
+    "Canonical tags on every audited page point to https://californiarestorationwest.com/... (the apex). Intended production canonical; not treated as a defect while auditing staging.",
+    "DataForSEO on-page returned no micromarkup flag (null) on all 6 URLs. Verified directly against served HTML: every page ships parseable application/ld+json with LocalBusiness; inner pages add BreadcrumbList and FAQPage; service landings add Service. Not reported as missing schema.",
+    "DataForSEO high_loading_time is only counted when it reproduced on a second instant_pages call. First call flagged /services/, /services/water-damage-restoration/, /service-areas/oxnard-ca/ and /contact/; only /contact/ reproduced. Lighthouse LCP on all 6 URLs is 0.84-1.17s, so the vendor timing flag is treated as noisy.",
+    "Lighthouse ran DESKTOP only (for_mobile=false) to stay comparable with the 2026-08-26 baseline. Mobile scores would typically run 10-20 performance points lower.",
+    "Client record status is 'onboarding', not 'active'. build_status is pushed_main and all 6 URLs returned 200, so the run proceeded. Flagged rather than skipped."
   ],
   "audited_urls": [
     {
       "url": "https://staging.rankai-california-restoration-west.pages.dev/",
       "url_path": "/",
       "archetype": "home",
-      "verdict": "red",
+      "verdict": "amber",
       "error_reason": null,
       "scores": {
-        "performance": 92,
+        "performance": 98,
         "accessibility": 100,
-        "best_practices": 96,
+        "best_practices": 100,
         "seo": 69
       },
       "core_web_vitals": {
-        "LCP_ms": 1816,
+        "LCP_ms": 1116,
         "CLS": 0.003,
         "TBT_ms": 0,
         "INP_ms": null
       },
-      "onpage_score": 90.39,
-      "word_count": 1175,
+      "onpage_score": 97.44,
+      "word_count": 1359,
       "target_word_count": 1200,
       "title": "California Restoration West",
       "title_length": 27,
@@ -45,39 +47,29 @@
       "h1": [
         "24/7 Restoration Services in Ventura"
       ],
+      "total_byte_weight": 1020110,
       "lighthouse_issues": [
         {
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": 1810583,
-          "category": "performance",
-          "source": "lighthouse",
-          "detail": "Est savings of 1,768\u00a0KiB",
-          "note": null
-        },
-        {
-          "id": "errors-in-console",
-          "title": "Browser errors were logged to the console",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "best_practices",
-          "source": "lighthouse",
-          "detail": null,
-          "note": null
-        },
-        {
-          "id": "largest-contentful-paint",
-          "title": "Largest Contentful Paint",
           "severity": "medium",
-          "estimated_savings_ms": null,
+          "estimated_savings_ms": 250,
           "estimated_savings_bytes": null,
           "category": "performance",
           "source": "lighthouse",
-          "detail": "1.8\u00a0s",
+          "detail": "Est savings of 406\u00a0KiB",
           "note": null
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 90,
+          "estimated_savings_bytes": 70222,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": "Est savings of 69\u00a0KiB",
+          "note": "third-party: googletagmanager.com/gtag/js (GA4 G-5DKZE0DK8C)"
         },
         {
           "id": "network-dependency-tree-insight",
@@ -114,13 +106,6 @@
         }
       ],
       "onpage_issues": [
-        {
-          "id": "broken_resources",
-          "title": "Page requests resources that return 404",
-          "severity": "high",
-          "source": "dataforseo_onpage",
-          "detail": "/images/hero-bg.webp, /images/services.webp, /images/team.webp"
-        },
         {
           "id": "title_too_short",
           "title": "Title tag is 27 chars (Rank AI window 30-65)",
@@ -134,20 +119,6 @@
           "severity": "medium",
           "source": "rankai_spec",
           "detail": null
-        },
-        {
-          "id": "high_loading_time",
-          "title": "Page load time flagged as high by DataForSEO",
-          "severity": "medium",
-          "source": "dataforseo_onpage",
-          "detail": null
-        },
-        {
-          "id": "rankai_word_count_below_target",
-          "title": "Word count 1175 is below the url-plan target of 1200",
-          "severity": "low",
-          "source": "rankai_spec",
-          "detail": null
         }
       ]
     },
@@ -155,22 +126,22 @@
       "url": "https://staging.rankai-california-restoration-west.pages.dev/services/",
       "url_path": "/services/",
       "archetype": "services-hub",
-      "verdict": "red",
+      "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 100,
+        "performance": 98,
         "accessibility": 95,
-        "best_practices": 96,
+        "best_practices": 100,
         "seo": 69
       },
       "core_web_vitals": {
-        "LCP_ms": 499,
+        "LCP_ms": 1165,
         "CLS": 0.002,
         "TBT_ms": 0,
         "INP_ms": null
       },
-      "onpage_score": 97.44,
-      "word_count": 779,
+      "onpage_score": 90.39,
+      "word_count": 753,
       "target_word_count": 800,
       "title": "Restoration Services in Ventura | California Restoration West",
       "title_length": 61,
@@ -179,29 +150,8 @@
       "h1": [
         "Our Restoration Services"
       ],
+      "total_byte_weight": 938103,
       "lighthouse_issues": [
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": 1810583,
-          "category": "performance",
-          "source": "lighthouse",
-          "detail": "Est savings of 1,768\u00a0KiB",
-          "note": null
-        },
-        {
-          "id": "errors-in-console",
-          "title": "Browser errors were logged to the console",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "best_practices",
-          "source": "lighthouse",
-          "detail": null,
-          "note": null
-        },
         {
           "id": "color-contrast",
           "title": "Background and foreground colors do not have a sufficient contrast ratio.",
@@ -214,14 +164,36 @@
           "note": null
         },
         {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
-          "severity": "low",
-          "estimated_savings_ms": 53,
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 350,
           "estimated_savings_bytes": null,
           "category": "performance",
           "source": "lighthouse",
-          "detail": "Est savings of 50\u00a0ms",
+          "detail": "Est savings of 422\u00a0KiB",
+          "note": null
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 110,
+          "estimated_savings_bytes": 69576,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": "Est savings of 68\u00a0KiB",
+          "note": "third-party: googletagmanager.com/gtag/js (GA4 G-5DKZE0DK8C)"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": null,
           "note": null
         },
         {
@@ -233,6 +205,17 @@
           "category": "performance",
           "source": "lighthouse",
           "detail": null,
+          "note": null
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": "Est savings of 50\u00a0ms",
           "note": null
         },
         {
@@ -249,15 +232,8 @@
       ],
       "onpage_issues": [
         {
-          "id": "broken_resources",
-          "title": "Page requests resources that return 404",
-          "severity": "high",
-          "source": "dataforseo_onpage",
-          "detail": "/images/hero-bg.webp, /images/services.webp"
-        },
-        {
           "id": "rankai_word_count_below_target",
-          "title": "Word count 779 is below the url-plan target of 800",
+          "title": "Word count 753 is below the url-plan target of 800",
           "severity": "low",
           "source": "rankai_spec",
           "detail": null
@@ -268,22 +244,22 @@
       "url": "https://staging.rankai-california-restoration-west.pages.dev/services/water-damage-restoration/",
       "url_path": "/services/water-damage-restoration/",
       "archetype": "service-landing",
-      "verdict": "red",
+      "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 92,
+        "performance": 98,
         "accessibility": 95,
-        "best_practices": 96,
+        "best_practices": 100,
         "seo": 69
       },
       "core_web_vitals": {
-        "LCP_ms": 1875,
-        "CLS": 0.03,
+        "LCP_ms": 1067,
+        "CLS": 0.024,
         "TBT_ms": 0,
         "INP_ms": null
       },
-      "onpage_score": 97.44,
-      "word_count": 1830,
+      "onpage_score": 90.39,
+      "word_count": 1898,
       "target_word_count": 1100,
       "title": "Water Damage Restoration in Ventura | California Restoration West",
       "title_length": 65,
@@ -292,29 +268,8 @@
       "h1": [
         "Water Damage Restoration in Ventura"
       ],
+      "total_byte_weight": 757305,
       "lighthouse_issues": [
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": 1810583,
-          "category": "performance",
-          "source": "lighthouse",
-          "detail": "Est savings of 1,768\u00a0KiB",
-          "note": null
-        },
-        {
-          "id": "errors-in-console",
-          "title": "Browser errors were logged to the console",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "best_practices",
-          "source": "lighthouse",
-          "detail": null,
-          "note": null
-        },
         {
           "id": "color-contrast",
           "title": "Background and foreground colors do not have a sufficient contrast ratio.",
@@ -327,120 +282,36 @@
           "note": null
         },
         {
-          "id": "largest-contentful-paint",
-          "title": "Largest Contentful Paint",
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
           "severity": "medium",
-          "estimated_savings_ms": null,
+          "estimated_savings_ms": 250,
           "estimated_savings_bytes": null,
           "category": "performance",
           "source": "lighthouse",
-          "detail": "1.9\u00a0s",
+          "detail": "Est savings of 298\u00a0KiB",
           "note": null
         },
         {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
           "severity": "low",
-          "estimated_savings_ms": 54,
-          "estimated_savings_bytes": null,
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": 70383,
           "category": "performance",
           "source": "lighthouse",
-          "detail": "Est savings of 40\u00a0ms",
-          "note": null
+          "detail": "Est savings of 69\u00a0KiB",
+          "note": "third-party: googletagmanager.com/gtag/js (GA4 G-5DKZE0DK8C)"
         },
         {
-          "id": "is-crawlable",
-          "title": "Page is blocked from indexing",
-          "severity": "info",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "seo",
-          "source": "lighthouse",
-          "detail": null,
-          "note": "staging noindex artifact, not a site defect"
-        }
-      ],
-      "onpage_issues": [
-        {
-          "id": "broken_resources",
-          "title": "Page requests resources that return 404",
-          "severity": "high",
-          "source": "dataforseo_onpage",
-          "detail": "/images/hero-bg.webp"
-        }
-      ]
-    },
-    {
-      "url": "https://staging.rankai-california-restoration-west.pages.dev/services/mold-remediation/",
-      "url_path": "/services/mold-remediation/",
-      "archetype": "service-landing",
-      "verdict": "red",
-      "error_reason": null,
-      "scores": {
-        "performance": 100,
-        "accessibility": 95,
-        "best_practices": 96,
-        "seo": 69
-      },
-      "core_web_vitals": {
-        "LCP_ms": 811,
-        "CLS": 0.003,
-        "TBT_ms": 0,
-        "INP_ms": null
-      },
-      "onpage_score": 97.44,
-      "word_count": 1787,
-      "target_word_count": 1100,
-      "title": "Mold Remediation in Ventura | California Restoration West",
-      "title_length": 57,
-      "meta_description_length": 121,
-      "canonical": "https://californiarestorationwest.com/services/mold-remediation/",
-      "h1": [
-        "Mold Remediation in Ventura"
-      ],
-      "lighthouse_issues": [
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": 1810583,
-          "category": "performance",
-          "source": "lighthouse",
-          "detail": "Est savings of 1,768\u00a0KiB",
-          "note": null
-        },
-        {
-          "id": "errors-in-console",
-          "title": "Browser errors were logged to the console",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "best_practices",
-          "source": "lighthouse",
-          "detail": null,
-          "note": null
-        },
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "accessibility",
-          "source": "lighthouse",
-          "detail": null,
-          "note": null
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
           "severity": "low",
-          "estimated_savings_ms": 52,
+          "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
           "category": "performance",
           "source": "lighthouse",
-          "detail": "Est savings of 50\u00a0ms",
+          "detail": null,
           "note": null
         },
         {
@@ -455,218 +326,10 @@
           "note": null
         },
         {
-          "id": "is-crawlable",
-          "title": "Page is blocked from indexing",
-          "severity": "info",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "seo",
-          "source": "lighthouse",
-          "detail": null,
-          "note": "staging noindex artifact, not a site defect"
-        }
-      ],
-      "onpage_issues": [
-        {
-          "id": "broken_resources",
-          "title": "Page requests resources that return 404",
-          "severity": "high",
-          "source": "dataforseo_onpage",
-          "detail": "/images/hero-bg.webp"
-        }
-      ]
-    },
-    {
-      "url": "https://staging.rankai-california-restoration-west.pages.dev/service-areas/oxnard-ca/",
-      "url_path": "/service-areas/oxnard-ca/",
-      "archetype": "service-area",
-      "verdict": "red",
-      "error_reason": null,
-      "scores": {
-        "performance": 92,
-        "accessibility": 95,
-        "best_practices": 96,
-        "seo": 69
-      },
-      "core_web_vitals": {
-        "LCP_ms": 1840,
-        "CLS": 0.003,
-        "TBT_ms": 0,
-        "INP_ms": null
-      },
-      "onpage_score": 90.39,
-      "word_count": 1309,
-      "target_word_count": 900,
-      "title": "Restoration Services in Oxnard, CA | California Restoration West",
-      "title_length": 64,
-      "meta_description_length": 120,
-      "canonical": "https://californiarestorationwest.com/service-areas/oxnard-ca/",
-      "h1": [
-        "Restoration Services in Oxnard"
-      ],
-      "lighthouse_issues": [
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": 1810583,
-          "category": "performance",
-          "source": "lighthouse",
-          "detail": "Est savings of 1,768\u00a0KiB",
-          "note": null
-        },
-        {
-          "id": "errors-in-console",
-          "title": "Browser errors were logged to the console",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "best_practices",
-          "source": "lighthouse",
-          "detail": null,
-          "note": null
-        },
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "accessibility",
-          "source": "lighthouse",
-          "detail": null,
-          "note": null
-        },
-        {
-          "id": "largest-contentful-paint",
-          "title": "Largest Contentful Paint",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "performance",
-          "source": "lighthouse",
-          "detail": "1.8\u00a0s",
-          "note": null
-        },
-        {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": 18139,
-          "category": "performance",
-          "source": "lighthouse",
-          "detail": "Est savings of 18\u00a0KiB",
-          "note": null
-        },
-        {
-          "id": "is-crawlable",
-          "title": "Page is blocked from indexing",
-          "severity": "info",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "seo",
-          "source": "lighthouse",
-          "detail": null,
-          "note": "staging noindex artifact, not a site defect"
-        }
-      ],
-      "onpage_issues": [
-        {
-          "id": "broken_resources",
-          "title": "Page requests resources that return 404",
-          "severity": "high",
-          "source": "dataforseo_onpage",
-          "detail": "/images/hero-bg.webp"
-        },
-        {
-          "id": "high_loading_time",
-          "title": "Page load time flagged as high by DataForSEO",
-          "severity": "medium",
-          "source": "dataforseo_onpage",
-          "detail": null
-        }
-      ]
-    },
-    {
-      "url": "https://staging.rankai-california-restoration-west.pages.dev/contact/",
-      "url_path": "/contact/",
-      "archetype": "contact",
-      "verdict": "red",
-      "error_reason": null,
-      "scores": {
-        "performance": 92,
-        "accessibility": 96,
-        "best_practices": 96,
-        "seo": 69
-      },
-      "core_web_vitals": {
-        "LCP_ms": 1860,
-        "CLS": 0.041,
-        "TBT_ms": 0,
-        "INP_ms": null
-      },
-      "onpage_score": 97.44,
-      "word_count": 657,
-      "target_word_count": 400,
-      "title": "Contact California Restoration West",
-      "title_length": 35,
-      "meta_description_length": 126,
-      "canonical": "https://californiarestorationwest.com/contact/",
-      "h1": [
-        "Contact California Restoration West"
-      ],
-      "lighthouse_issues": [
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": 1810583,
-          "category": "performance",
-          "source": "lighthouse",
-          "detail": "Est savings of 1,768\u00a0KiB",
-          "note": null
-        },
-        {
-          "id": "errors-in-console",
-          "title": "Browser errors were logged to the console",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "best_practices",
-          "source": "lighthouse",
-          "detail": null,
-          "note": null
-        },
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "accessibility",
-          "source": "lighthouse",
-          "detail": null,
-          "note": null
-        },
-        {
-          "id": "largest-contentful-paint",
-          "title": "Largest Contentful Paint",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "performance",
-          "source": "lighthouse",
-          "detail": "1.9\u00a0s",
-          "note": null
-        },
-        {
           "id": "render-blocking-insight",
           "title": "Render-blocking requests",
           "severity": "low",
-          "estimated_savings_ms": 52,
+          "estimated_savings_ms": 50,
           "estimated_savings_bytes": null,
           "category": "performance",
           "source": "lighthouse",
@@ -685,68 +348,379 @@
           "note": "staging noindex artifact, not a site defect"
         }
       ],
+      "onpage_issues": []
+    },
+    {
+      "url": "https://staging.rankai-california-restoration-west.pages.dev/services/mold-remediation/",
+      "url_path": "/services/mold-remediation/",
+      "archetype": "service-landing",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 838,
+        "CLS": 0.003,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 97.44,
+      "word_count": 2114,
+      "target_word_count": 1100,
+      "title": "Mold Remediation in Ventura | California Restoration West",
+      "title_length": 57,
+      "meta_description_length": 121,
+      "canonical": "https://californiarestorationwest.com/services/mold-remediation/",
+      "h1": [
+        "Mold Remediation in Ventura"
+      ],
+      "total_byte_weight": 740761,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "source": "lighthouse",
+          "detail": null,
+          "note": null
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": "Est savings of 298\u00a0KiB",
+          "note": null
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": null,
+          "note": null
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": null,
+          "note": null
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 10,
+          "estimated_savings_bytes": 70327,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": "Est savings of 69\u00a0KiB",
+          "note": "third-party: googletagmanager.com/gtag/js (GA4 G-5DKZE0DK8C)"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": null,
+          "note": null
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "info",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "seo",
+          "source": "lighthouse",
+          "detail": null,
+          "note": "staging noindex artifact, not a site defect"
+        }
+      ],
+      "onpage_issues": []
+    },
+    {
+      "url": "https://staging.rankai-california-restoration-west.pages.dev/service-areas/oxnard-ca/",
+      "url_path": "/service-areas/oxnard-ca/",
+      "archetype": "service-area",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 966,
+        "CLS": 0.003,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 90.39,
+      "word_count": 1292,
+      "target_word_count": 900,
+      "title": "Restoration Services in Oxnard, CA | California Restoration West",
+      "title_length": 64,
+      "meta_description_length": 120,
+      "canonical": "https://californiarestorationwest.com/service-areas/oxnard-ca/",
+      "h1": [
+        "Restoration Services in Oxnard"
+      ],
+      "total_byte_weight": 1306237,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "source": "lighthouse",
+          "detail": null,
+          "note": null
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 250,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": "Est savings of 359\u00a0KiB",
+          "note": null
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": 70383,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": "Est savings of 69\u00a0KiB",
+          "note": "third-party: googletagmanager.com/gtag/js (GA4 G-5DKZE0DK8C)"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": null,
+          "note": null
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": null,
+          "note": null
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": "Est savings of 19\u00a0KiB",
+          "note": "Google Maps resources; cache headers are set by Google, not actionable"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": null,
+          "note": null
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "info",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "seo",
+          "source": "lighthouse",
+          "detail": null,
+          "note": "staging noindex artifact, not a site defect"
+        }
+      ],
+      "onpage_issues": []
+    },
+    {
+      "url": "https://staging.rankai-california-restoration-west.pages.dev/contact/",
+      "url_path": "/contact/",
+      "archetype": "contact",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 98,
+        "accessibility": 96,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 871,
+        "CLS": 0.041,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 90.39,
+      "word_count": 696,
+      "target_word_count": 400,
+      "title": "Contact California Restoration West",
+      "title_length": 35,
+      "meta_description_length": 126,
+      "canonical": "https://californiarestorationwest.com/contact/",
+      "h1": [
+        "Contact California Restoration West"
+      ],
+      "total_byte_weight": 816799,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "source": "lighthouse",
+          "detail": null,
+          "note": null
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": "Est savings of 426\u00a0KiB",
+          "note": null
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 60,
+          "estimated_savings_bytes": 70383,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": "Est savings of 69\u00a0KiB",
+          "note": "third-party: googletagmanager.com/gtag/js (GA4 G-5DKZE0DK8C)"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": null,
+          "note": null
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": null,
+          "note": null
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "source": "lighthouse",
+          "detail": null,
+          "note": null
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "info",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "seo",
+          "source": "lighthouse",
+          "detail": null,
+          "note": "staging noindex artifact, not a site defect"
+        }
+      ],
       "onpage_issues": [
         {
-          "id": "broken_resources",
-          "title": "Page requests resources that return 404",
-          "severity": "high",
+          "id": "high_loading_time",
+          "title": "Page load time flagged as high by DataForSEO",
+          "severity": "medium",
           "source": "dataforseo_onpage",
-          "detail": "/images/hero-bg.webp"
+          "detail": "reproduced on 2 of 2 instant_pages calls (duration 5467ms first call)"
         }
       ]
     }
   ],
   "site_rollup": {
     "avg_scores": {
-      "performance": 94.7,
+      "performance": 98.3,
       "accessibility": 96.0,
-      "best_practices": 96.0,
+      "best_practices": 100.0,
       "seo": 69.0
     },
-    "verdict": "red",
+    "verdict": "amber",
     "verdict_basis": "performance, accessibility, best_practices (seo excluded - staging noindex artifact)",
     "url_count": 6,
     "urls_by_verdict": {
-      "green": 0,
-      "amber": 0,
-      "red": 6,
+      "green": 4,
+      "amber": 2,
+      "red": 0,
       "error": 0
     },
     "template_issues": [
       {
-        "id": "broken_resources",
-        "title": "Page requests resources that return 404",
-        "severity": "high",
-        "source": "dataforseo_onpage",
-        "affected_urls": 6,
-        "urls": [
-          "/",
-          "/services/",
-          "/services/water-damage-restoration/",
-          "/services/mold-remediation/",
-          "/service-areas/oxnard-ca/",
-          "/contact/"
-        ]
-      },
-      {
-        "id": "errors-in-console",
-        "title": "Browser errors were logged to the console",
-        "severity": "high",
-        "source": "lighthouse",
-        "affected_urls": 6,
-        "urls": [
-          "/",
-          "/services/",
-          "/services/water-damage-restoration/",
-          "/services/mold-remediation/",
-          "/service-areas/oxnard-ca/",
-          "/contact/"
-        ]
-      },
-      {
         "id": "image-delivery-insight",
         "title": "Improve image delivery",
-        "severity": "high",
+        "severity": "medium",
         "source": "lighthouse",
         "affected_urls": 6,
         "urls": [
@@ -759,41 +733,18 @@
         ]
       },
       {
-        "id": "color-contrast",
-        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-        "severity": "high",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "severity": "low",
         "source": "lighthouse",
-        "affected_urls": 5,
+        "affected_urls": 6,
         "urls": [
+          "/",
           "/services/",
           "/services/water-damage-restoration/",
           "/services/mold-remediation/",
           "/service-areas/oxnard-ca/",
           "/contact/"
-        ]
-      },
-      {
-        "id": "largest-contentful-paint",
-        "title": "Largest Contentful Paint",
-        "severity": "medium",
-        "source": "lighthouse",
-        "affected_urls": 4,
-        "urls": [
-          "/",
-          "/services/water-damage-restoration/",
-          "/service-areas/oxnard-ca/",
-          "/contact/"
-        ]
-      },
-      {
-        "id": "high_loading_time",
-        "title": "Page load time flagged as high by DataForSEO",
-        "severity": "medium",
-        "source": "dataforseo_onpage",
-        "affected_urls": 2,
-        "urls": [
-          "/",
-          "/service-areas/oxnard-ca/"
         ]
       },
       {
@@ -827,14 +778,31 @@
         ]
       },
       {
-        "id": "rankai_word_count_below_target",
-        "title": "Word count 1175 is below the url-plan target of 1200",
-        "severity": "low",
-        "source": "rankai_spec",
-        "affected_urls": 2,
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "severity": "high",
+        "source": "lighthouse",
+        "affected_urls": 5,
         "urls": [
-          "/",
-          "/services/"
+          "/services/",
+          "/services/water-damage-restoration/",
+          "/services/mold-remediation/",
+          "/service-areas/oxnard-ca/",
+          "/contact/"
+        ]
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
+        "severity": "low",
+        "source": "lighthouse",
+        "affected_urls": 5,
+        "urls": [
+          "/services/",
+          "/services/water-damage-restoration/",
+          "/services/mold-remediation/",
+          "/service-areas/oxnard-ca/",
+          "/contact/"
         ]
       }
     ],
@@ -842,41 +810,334 @@
       {
         "url": "https://staging.rankai-california-restoration-west.pages.dev/",
         "archetype": "home",
-        "verdict": "red",
-        "main_issue": "Page requests resources that return 404"
-      },
-      {
-        "url": "https://staging.rankai-california-restoration-west.pages.dev/services/",
-        "archetype": "services-hub",
-        "verdict": "red",
-        "main_issue": "Page requests resources that return 404"
-      },
-      {
-        "url": "https://staging.rankai-california-restoration-west.pages.dev/services/water-damage-restoration/",
-        "archetype": "service-landing",
-        "verdict": "red",
-        "main_issue": "Page requests resources that return 404"
-      },
-      {
-        "url": "https://staging.rankai-california-restoration-west.pages.dev/services/mold-remediation/",
-        "archetype": "service-landing",
-        "verdict": "red",
-        "main_issue": "Page requests resources that return 404"
+        "verdict": "amber",
+        "main_issue": "Title tag is 27 chars (Rank AI window 30-65); Meta description is 185 chars (Rank AI window 70-160)"
       },
       {
         "url": "https://staging.rankai-california-restoration-west.pages.dev/contact/",
         "archetype": "contact",
-        "verdict": "red",
-        "main_issue": "Page requests resources that return 404"
+        "verdict": "amber",
+        "main_issue": "Page load time flagged as high by DataForSEO"
       }
     ]
   },
   "regression": {
-    "prior_run_at": null,
-    "score_deltas": null,
-    "verdict_transitions": [],
-    "new_issues": [],
-    "resolved_issues": [],
-    "note": "First audit for this client - no comparison data."
+    "prior_run_at": "2026-08-26T22:47:49Z",
+    "score_deltas": {
+      "performance": 3.6,
+      "accessibility": 0.0,
+      "best_practices": 4.0,
+      "seo": 0.0
+    },
+    "url_deltas": [
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/",
+        "score_deltas": {
+          "performance": 6,
+          "accessibility": 0,
+          "best_practices": 4,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": -700,
+          "CLS": 0.0,
+          "TBT_ms": 0
+        }
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/services/",
+        "score_deltas": {
+          "performance": -2,
+          "accessibility": 0,
+          "best_practices": 4,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 666,
+          "CLS": 0.0,
+          "TBT_ms": 0
+        }
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/services/water-damage-restoration/",
+        "score_deltas": {
+          "performance": 6,
+          "accessibility": 0,
+          "best_practices": 4,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": -808,
+          "CLS": -0.006,
+          "TBT_ms": 0
+        }
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/services/mold-remediation/",
+        "score_deltas": {
+          "performance": -1,
+          "accessibility": 0,
+          "best_practices": 4,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 27,
+          "CLS": 0.0,
+          "TBT_ms": 0
+        }
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/service-areas/oxnard-ca/",
+        "score_deltas": {
+          "performance": 7,
+          "accessibility": 0,
+          "best_practices": 4,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": -874,
+          "CLS": 0.0,
+          "TBT_ms": 0
+        }
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/contact/",
+        "score_deltas": {
+          "performance": 6,
+          "accessibility": 0,
+          "best_practices": 4,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": -989,
+          "CLS": 0.0,
+          "TBT_ms": 0
+        }
+      }
+    ],
+    "regressions": [
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/services/",
+        "metric": "LCP_ms",
+        "delta": 666
+      }
+    ],
+    "verdict_transitions": [
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/",
+        "from": "red",
+        "to": "amber",
+        "direction": "improved"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/services/",
+        "from": "red",
+        "to": "green",
+        "direction": "improved"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/services/water-damage-restoration/",
+        "from": "red",
+        "to": "green",
+        "direction": "improved"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/services/mold-remediation/",
+        "from": "red",
+        "to": "green",
+        "direction": "improved"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/service-areas/oxnard-ca/",
+        "from": "red",
+        "to": "green",
+        "direction": "improved"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/contact/",
+        "from": "red",
+        "to": "amber",
+        "direction": "improved"
+      }
+    ],
+    "new_issues": [
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/services/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/services/",
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/services/water-damage-restoration/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/services/water-damage-restoration/",
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/services/water-damage-restoration/",
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/services/mold-remediation/",
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/services/mold-remediation/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/service-areas/oxnard-ca/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/service-areas/oxnard-ca/",
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/service-areas/oxnard-ca/",
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/service-areas/oxnard-ca/",
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/contact/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/contact/",
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/contact/",
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/contact/",
+        "id": "high_loading_time",
+        "title": "Page load time flagged as high by DataForSEO"
+      }
+    ],
+    "resolved_issues": [
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/",
+        "id": "errors-in-console",
+        "title": "Browser errors were logged to the console"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/",
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/",
+        "id": "broken_resources",
+        "title": "Page requests resources that return 404"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/",
+        "id": "high_loading_time",
+        "title": "Page load time flagged as high by DataForSEO"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/",
+        "id": "rankai_word_count_below_target",
+        "title": "Word count 1175 is below the url-plan target of 1200"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/services/",
+        "id": "errors-in-console",
+        "title": "Browser errors were logged to the console"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/services/",
+        "id": "broken_resources",
+        "title": "Page requests resources that return 404"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/services/water-damage-restoration/",
+        "id": "errors-in-console",
+        "title": "Browser errors were logged to the console"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/services/water-damage-restoration/",
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/services/water-damage-restoration/",
+        "id": "broken_resources",
+        "title": "Page requests resources that return 404"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/services/mold-remediation/",
+        "id": "errors-in-console",
+        "title": "Browser errors were logged to the console"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/services/mold-remediation/",
+        "id": "broken_resources",
+        "title": "Page requests resources that return 404"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/service-areas/oxnard-ca/",
+        "id": "errors-in-console",
+        "title": "Browser errors were logged to the console"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/service-areas/oxnard-ca/",
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/service-areas/oxnard-ca/",
+        "id": "broken_resources",
+        "title": "Page requests resources that return 404"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/service-areas/oxnard-ca/",
+        "id": "high_loading_time",
+        "title": "Page load time flagged as high by DataForSEO"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/contact/",
+        "id": "errors-in-console",
+        "title": "Browser errors were logged to the console"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/contact/",
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint"
+      },
+      {
+        "url": "https://staging.rankai-california-restoration-west.pages.dev/contact/",
+        "id": "broken_resources",
+        "title": "Page requests resources that return 404"
+      }
+    ]
   }
 }

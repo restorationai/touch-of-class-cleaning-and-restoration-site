@@ -3,7 +3,7 @@
   "slug": "flood-fixers",
   "origin": "https://flood-fixers.com",
   "origin_source": "apex",
-  "generated_at": "2026-08-27T02:12:53+00:00",
+  "generated_at": "2026-09-28T21:29:12+00:00",
   "stale_threshold_days": 365,
   "aging_threshold_days": 305,
   "gsc_enabled": false,
@@ -20,7 +20,7 @@
       "url": "https://flood-fixers.com/",
       "date": "2026-06-29",
       "date_source": "sitemap_lastmod",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:51:26.811Z",
       "html_dates": {
@@ -37,7 +37,7 @@
       "url": "https://flood-fixers.com/about/",
       "date": "2026-06-29",
       "date_source": "sitemap_lastmod",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:55:13.838Z",
       "html_dates": {
@@ -54,7 +54,7 @@
       "url": "https://flood-fixers.com/accessibility/",
       "date": "2026-06-29",
       "date_source": "sitemap_lastmod",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:55:33.469Z",
       "html_dates": {
@@ -71,7 +71,7 @@
       "url": "https://flood-fixers.com/blog/",
       "date": "2026-06-29",
       "date_source": "sitemap_lastmod",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:54:52.964Z",
       "html_dates": {
@@ -85,10 +85,27 @@
       "search_signals": null
     },
     {
+      "url": "https://flood-fixers.com/blog/basement-flooded-who-to-call/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-24",
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://flood-fixers.com/blog/basement-flooding-prevention/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T00:00:00.000Z",
       "html_dates": {
@@ -102,10 +119,27 @@
       "search_signals": null
     },
     {
+      "url": "https://flood-fixers.com/blog/best-water-damage-restoration-company-in-san-diego-ca/",
+      "date": "2026-09-18",
+      "date_source": "json_ld_date_modified",
+      "age_days": 10,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-18T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-18",
+        "json_ld_date_modified": "2026-09-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://flood-fixers.com/blog/burst-pipe-emergency-checklist/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T00:00:00.000Z",
       "html_dates": {
@@ -122,7 +156,7 @@
       "url": "https://flood-fixers.com/blog/choosing-a-restoration-company/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T00:00:00.000Z",
       "html_dates": {
@@ -139,7 +173,7 @@
       "url": "https://flood-fixers.com/blog/commercial-water-damage-business-continuity/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T00:00:00.000Z",
       "html_dates": {
@@ -156,7 +190,7 @@
       "url": "https://flood-fixers.com/blog/difference-between-flood-damage-and-water-damage/",
       "date": "2026-08-27",
       "date_source": "json_ld_date_modified",
-      "age_days": 0,
+      "age_days": 32,
       "flags": [],
       "sitemap_lastmod": "2026-08-27T00:00:00.000Z",
       "html_dates": {
@@ -173,7 +207,7 @@
       "url": "https://flood-fixers.com/blog/does-homeowners-insurance-cover-flood-damage/",
       "date": "2026-07-23",
       "date_source": "json_ld_date_modified",
-      "age_days": 35,
+      "age_days": 67,
       "flags": [],
       "sitemap_lastmod": "2026-07-23T00:00:00.000Z",
       "html_dates": {
@@ -190,7 +224,7 @@
       "url": "https://flood-fixers.com/blog/does-homeowners-insurance-cover-water-damage/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T00:00:00.000Z",
       "html_dates": {
@@ -204,10 +238,27 @@
       "search_signals": null
     },
     {
+      "url": "https://flood-fixers.com/blog/does-renters-insurance-cover-basement-flooding/",
+      "date": "2026-09-22",
+      "date_source": "json_ld_date_modified",
+      "age_days": 6,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-22T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-22",
+        "json_ld_date_modified": "2026-09-22",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://flood-fixers.com/blog/how-long-does-water-damage-restoration-take/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T00:00:00.000Z",
       "html_dates": {
@@ -224,7 +275,7 @@
       "url": "https://flood-fixers.com/blog/how-much-does-water-damage-restoration-cost/",
       "date": "2026-07-20",
       "date_source": "json_ld_date_modified",
-      "age_days": 38,
+      "age_days": 70,
       "flags": [],
       "sitemap_lastmod": "2026-07-20T00:00:00.000Z",
       "html_dates": {
@@ -241,7 +292,7 @@
       "url": "https://flood-fixers.com/blog/how-to-dry-out-a-flooded-house/",
       "date": "2026-08-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 24,
+      "age_days": 56,
       "flags": [],
       "sitemap_lastmod": "2026-08-03T00:00:00.000Z",
       "html_dates": {
@@ -258,7 +309,7 @@
       "url": "https://flood-fixers.com/blog/how-to-tell-if-you-have-water-damage-behind-walls/",
       "date": "2026-07-13",
       "date_source": "json_ld_date_modified",
-      "age_days": 45,
+      "age_days": 77,
       "flags": [],
       "sitemap_lastmod": "2026-07-13T00:00:00.000Z",
       "html_dates": {
@@ -275,12 +326,29 @@
       "url": "https://flood-fixers.com/blog/iicrc-certification-explained/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T00:00:00.000Z",
       "html_dates": {
         "json_ld_date_published": "2026-06-29",
         "json_ld_date_modified": "2026-06-29",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/blog/is-flood-water-dangerous/",
+      "date": "2026-09-10",
+      "date_source": "json_ld_date_modified",
+      "age_days": 18,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-10T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-10",
+        "json_ld_date_modified": "2026-09-10",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -292,7 +360,7 @@
       "url": "https://flood-fixers.com/blog/mold-after-water-damage/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T00:00:00.000Z",
       "html_dates": {
@@ -306,10 +374,44 @@
       "search_signals": null
     },
     {
+      "url": "https://flood-fixers.com/blog/water-damage-repair/",
+      "date": "2026-08-31",
+      "date_source": "json_ld_date_modified",
+      "age_days": 28,
+      "flags": [],
+      "sitemap_lastmod": "2026-08-31T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-08-31",
+        "json_ld_date_modified": "2026-08-31",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/blog/water-damage-restoration-cost-ca/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-20T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-20",
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://flood-fixers.com/blog/water-damage-restoration-process-explained/",
       "date": "2026-07-09",
       "date_source": "json_ld_date_modified",
-      "age_days": 49,
+      "age_days": 81,
       "flags": [],
       "sitemap_lastmod": "2026-07-09T00:00:00.000Z",
       "html_dates": {
@@ -326,7 +428,7 @@
       "url": "https://flood-fixers.com/blog/what-happens-if-water-damage-is-left-untreated/",
       "date": "2026-07-16",
       "date_source": "json_ld_date_modified",
-      "age_days": 42,
+      "age_days": 74,
       "flags": [],
       "sitemap_lastmod": "2026-07-16T00:00:00.000Z",
       "html_dates": {
@@ -343,7 +445,7 @@
       "url": "https://flood-fixers.com/blog/what-is-category-3-water-damage/",
       "date": "2026-07-06",
       "date_source": "json_ld_date_modified",
-      "age_days": 52,
+      "age_days": 84,
       "flags": [],
       "sitemap_lastmod": "2026-07-06T00:00:00.000Z",
       "html_dates": {
@@ -360,7 +462,7 @@
       "url": "https://flood-fixers.com/blog/what-to-do-after-a-flood-in-your-house/",
       "date": "2026-07-30",
       "date_source": "json_ld_date_modified",
-      "age_days": 28,
+      "age_days": 60,
       "flags": [],
       "sitemap_lastmod": "2026-07-30T00:00:00.000Z",
       "html_dates": {
@@ -377,7 +479,7 @@
       "url": "https://flood-fixers.com/blog/what-to-do-first-24-hours-water-damage/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T00:00:00.000Z",
       "html_dates": {
@@ -391,12 +493,29 @@
       "search_signals": null
     },
     {
-      "url": "https://flood-fixers.com/certifications/",
-      "date": "2026-08-27",
+      "url": "https://flood-fixers.com/case-studies/",
+      "date": "2026-09-28",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-08-27T02:01:31.530Z",
+      "sitemap_lastmod": "2026-09-28T02:55:17.515Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/certifications/",
+      "date": "2026-09-28",
+      "date_source": "sitemap_lastmod",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-28T02:55:17.515Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -411,7 +530,7 @@
       "url": "https://flood-fixers.com/contact/",
       "date": "2026-06-29",
       "date_source": "sitemap_lastmod",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:55:14.254Z",
       "html_dates": {
@@ -425,12 +544,29 @@
       "search_signals": null
     },
     {
-      "url": "https://flood-fixers.com/emergency/",
-      "date": "2026-08-27",
+      "url": "https://flood-fixers.com/embed/estimate/",
+      "date": "2026-09-28",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-08-27T02:01:31.530Z",
+      "sitemap_lastmod": "2026-09-28T02:55:17.515Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/emergency/",
+      "date": "2026-09-28",
+      "date_source": "sitemap_lastmod",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-28T02:55:17.515Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -445,7 +581,7 @@
       "url": "https://flood-fixers.com/privacy/",
       "date": "2026-06-29",
       "date_source": "sitemap_lastmod",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:55:15.174Z",
       "html_dates": {
@@ -460,11 +596,11 @@
     },
     {
       "url": "https://flood-fixers.com/reviews/",
-      "date": "2026-08-27",
+      "date": "2026-09-28",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-08-27T02:01:31.530Z",
+      "sitemap_lastmod": "2026-09-28T02:55:17.515Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -479,7 +615,7 @@
       "url": "https://flood-fixers.com/service-areas/",
       "date": "2026-06-29",
       "date_source": "sitemap_lastmod",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:54:56.274Z",
       "html_dates": {
@@ -493,10 +629,418 @@
       "search_signals": null
     },
     {
+      "url": "https://flood-fixers.com/service-areas/bonsall-ca/",
+      "date": "2026-09-24",
+      "date_source": "sitemap_lastmod",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T23:13:01.000Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/bonsall-ca/basement-flooding-cleanup/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.415Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/bonsall-ca/burst-pipe-repair/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.414Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/bonsall-ca/flood-damage-restoration/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.414Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/bonsall-ca/general-contracting/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.415Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/bonsall-ca/reconstruction/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.415Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/bonsall-ca/water-cleanup/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.415Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/bonsall-ca/water-damage-restoration/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.414Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/camp-pendleton-mainside-ca/",
+      "date": "2026-09-24",
+      "date_source": "sitemap_lastmod",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.404Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/camp-pendleton-mainside-ca/basement-flooding-cleanup/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.422Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/camp-pendleton-mainside-ca/burst-pipe-repair/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.422Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/camp-pendleton-mainside-ca/flood-damage-restoration/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.421Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/camp-pendleton-mainside-ca/general-contracting/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.422Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/camp-pendleton-mainside-ca/reconstruction/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.422Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/camp-pendleton-mainside-ca/water-cleanup/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.423Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/camp-pendleton-mainside-ca/water-damage-restoration/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.421Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/camp-pendleton-south-ca/",
+      "date": "2026-09-24",
+      "date_source": "sitemap_lastmod",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.404Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/camp-pendleton-south-ca/basement-flooding-cleanup/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.423Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/camp-pendleton-south-ca/burst-pipe-repair/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.423Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/camp-pendleton-south-ca/flood-damage-restoration/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.423Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/camp-pendleton-south-ca/general-contracting/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.423Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/camp-pendleton-south-ca/reconstruction/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.423Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/camp-pendleton-south-ca/water-cleanup/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.424Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/camp-pendleton-south-ca/water-damage-restoration/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.423Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://flood-fixers.com/service-areas/carlsbad-ca/",
       "date": "2026-06-29",
       "date_source": "sitemap_lastmod",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:52:07.725Z",
       "html_dates": {
@@ -513,7 +1057,7 @@
       "url": "https://flood-fixers.com/service-areas/carlsbad-ca/basement-flooding-cleanup/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:44:38.617Z",
       "html_dates": {
@@ -530,7 +1074,7 @@
       "url": "https://flood-fixers.com/service-areas/carlsbad-ca/burst-pipe-repair/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:44:25.660Z",
       "html_dates": {
@@ -547,7 +1091,7 @@
       "url": "https://flood-fixers.com/service-areas/carlsbad-ca/flood-damage-restoration/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:37:06.982Z",
       "html_dates": {
@@ -564,7 +1108,7 @@
       "url": "https://flood-fixers.com/service-areas/carlsbad-ca/general-contracting/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:45:06.384Z",
       "html_dates": {
@@ -581,7 +1125,7 @@
       "url": "https://flood-fixers.com/service-areas/carlsbad-ca/reconstruction/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:37:04.669Z",
       "html_dates": {
@@ -595,10 +1139,27 @@
       "search_signals": null
     },
     {
+      "url": "https://flood-fixers.com/service-areas/carlsbad-ca/water-cleanup/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.407Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://flood-fixers.com/service-areas/carlsbad-ca/water-damage-restoration/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:33:03.259Z",
       "html_dates": {
@@ -615,7 +1176,7 @@
       "url": "https://flood-fixers.com/service-areas/chula-vista-ca/",
       "date": "2026-06-29",
       "date_source": "sitemap_lastmod",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:51:37.283Z",
       "html_dates": {
@@ -632,7 +1193,7 @@
       "url": "https://flood-fixers.com/service-areas/chula-vista-ca/basement-flooding-cleanup/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:42:48.729Z",
       "html_dates": {
@@ -649,7 +1210,7 @@
       "url": "https://flood-fixers.com/service-areas/chula-vista-ca/burst-pipe-repair/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:42:47.431Z",
       "html_dates": {
@@ -666,7 +1227,7 @@
       "url": "https://flood-fixers.com/service-areas/chula-vista-ca/flood-damage-restoration/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:35:55.403Z",
       "html_dates": {
@@ -683,7 +1244,7 @@
       "url": "https://flood-fixers.com/service-areas/chula-vista-ca/general-contracting/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:42:48.517Z",
       "html_dates": {
@@ -700,7 +1261,7 @@
       "url": "https://flood-fixers.com/service-areas/chula-vista-ca/reconstruction/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:36:02.817Z",
       "html_dates": {
@@ -714,10 +1275,27 @@
       "search_signals": null
     },
     {
+      "url": "https://flood-fixers.com/service-areas/chula-vista-ca/water-cleanup/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.405Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://flood-fixers.com/service-areas/chula-vista-ca/water-damage-restoration/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:32:48.766Z",
       "html_dates": {
@@ -731,10 +1309,146 @@
       "search_signals": null
     },
     {
+      "url": "https://flood-fixers.com/service-areas/del-mar-ca/",
+      "date": "2026-09-24",
+      "date_source": "sitemap_lastmod",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.404Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/del-mar-ca/basement-flooding-cleanup/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.421Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/del-mar-ca/burst-pipe-repair/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.420Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/del-mar-ca/flood-damage-restoration/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.420Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/del-mar-ca/general-contracting/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.421Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/del-mar-ca/reconstruction/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.421Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/del-mar-ca/water-cleanup/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.421Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/del-mar-ca/water-damage-restoration/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.420Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://flood-fixers.com/service-areas/el-cajon-ca/",
       "date": "2026-06-29",
       "date_source": "sitemap_lastmod",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:52:17.793Z",
       "html_dates": {
@@ -751,7 +1465,7 @@
       "url": "https://flood-fixers.com/service-areas/el-cajon-ca/basement-flooding-cleanup/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:45:14.613Z",
       "html_dates": {
@@ -768,7 +1482,7 @@
       "url": "https://flood-fixers.com/service-areas/el-cajon-ca/burst-pipe-repair/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:45:06.602Z",
       "html_dates": {
@@ -785,7 +1499,7 @@
       "url": "https://flood-fixers.com/service-areas/el-cajon-ca/flood-damage-restoration/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:37:30.699Z",
       "html_dates": {
@@ -802,7 +1516,7 @@
       "url": "https://flood-fixers.com/service-areas/el-cajon-ca/general-contracting/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:45:28.952Z",
       "html_dates": {
@@ -819,7 +1533,7 @@
       "url": "https://flood-fixers.com/service-areas/el-cajon-ca/reconstruction/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:37:37.206Z",
       "html_dates": {
@@ -833,10 +1547,27 @@
       "search_signals": null
     },
     {
+      "url": "https://flood-fixers.com/service-areas/el-cajon-ca/water-cleanup/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.407Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://flood-fixers.com/service-areas/el-cajon-ca/water-damage-restoration/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:33:38.078Z",
       "html_dates": {
@@ -853,7 +1584,7 @@
       "url": "https://flood-fixers.com/service-areas/encinitas-ca/",
       "date": "2026-06-29",
       "date_source": "sitemap_lastmod",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:52:47.509Z",
       "html_dates": {
@@ -870,7 +1601,7 @@
       "url": "https://flood-fixers.com/service-areas/encinitas-ca/basement-flooding-cleanup/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:47:14.766Z",
       "html_dates": {
@@ -887,7 +1618,7 @@
       "url": "https://flood-fixers.com/service-areas/encinitas-ca/burst-pipe-repair/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:46:44.342Z",
       "html_dates": {
@@ -904,7 +1635,7 @@
       "url": "https://flood-fixers.com/service-areas/encinitas-ca/flood-damage-restoration/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:38:40.657Z",
       "html_dates": {
@@ -921,7 +1652,7 @@
       "url": "https://flood-fixers.com/service-areas/encinitas-ca/general-contracting/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:47:31.742Z",
       "html_dates": {
@@ -938,7 +1669,7 @@
       "url": "https://flood-fixers.com/service-areas/encinitas-ca/reconstruction/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:38:44.082Z",
       "html_dates": {
@@ -952,10 +1683,27 @@
       "search_signals": null
     },
     {
+      "url": "https://flood-fixers.com/service-areas/encinitas-ca/water-cleanup/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.409Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://flood-fixers.com/service-areas/encinitas-ca/water-damage-restoration/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:33:48.785Z",
       "html_dates": {
@@ -972,7 +1720,7 @@
       "url": "https://flood-fixers.com/service-areas/escondido-ca/",
       "date": "2026-06-29",
       "date_source": "sitemap_lastmod",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:52:05.620Z",
       "html_dates": {
@@ -989,7 +1737,7 @@
       "url": "https://flood-fixers.com/service-areas/escondido-ca/basement-flooding-cleanup/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:44:12.675Z",
       "html_dates": {
@@ -1006,7 +1754,7 @@
       "url": "https://flood-fixers.com/service-areas/escondido-ca/burst-pipe-repair/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:43:46.740Z",
       "html_dates": {
@@ -1023,7 +1771,7 @@
       "url": "https://flood-fixers.com/service-areas/escondido-ca/flood-damage-restoration/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:36:42.136Z",
       "html_dates": {
@@ -1040,7 +1788,7 @@
       "url": "https://flood-fixers.com/service-areas/escondido-ca/general-contracting/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:44:19.930Z",
       "html_dates": {
@@ -1057,7 +1805,7 @@
       "url": "https://flood-fixers.com/service-areas/escondido-ca/reconstruction/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:36:50.405Z",
       "html_dates": {
@@ -1071,10 +1819,27 @@
       "search_signals": null
     },
     {
+      "url": "https://flood-fixers.com/service-areas/escondido-ca/water-cleanup/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.406Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://flood-fixers.com/service-areas/escondido-ca/water-damage-restoration/",
       "date": "2026-06-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 91,
       "flags": [],
       "sitemap_lastmod": "2026-06-29T20:32:56.881Z",
       "html_dates": {
@@ -1088,12 +1853,12 @@
       "search_signals": null
     },
     {
-      "url": "https://flood-fixers.com/service-areas/la-mesa-ca/",
-      "date": "2026-06-29",
+      "url": "https://flood-fixers.com/service-areas/fairbanks-ranch-ca/",
+      "date": "2026-09-24",
       "date_source": "sitemap_lastmod",
-      "age_days": 59,
+      "age_days": 4,
       "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:53:00.881Z",
+      "sitemap_lastmod": "2026-09-24T17:22:06.403Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -1105,15 +1870,15 @@
       "search_signals": null
     },
     {
-      "url": "https://flood-fixers.com/service-areas/la-mesa-ca/basement-flooding-cleanup/",
-      "date": "2026-06-29",
+      "url": "https://flood-fixers.com/service-areas/fairbanks-ranch-ca/basement-flooding-cleanup/",
+      "date": "2026-09-24",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 4,
       "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:47:34.900Z",
+      "sitemap_lastmod": "2026-09-24T17:22:06.418Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
+        "json_ld_date_modified": "2026-09-24",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1122,15 +1887,15 @@
       "search_signals": null
     },
     {
-      "url": "https://flood-fixers.com/service-areas/la-mesa-ca/burst-pipe-repair/",
-      "date": "2026-06-29",
+      "url": "https://flood-fixers.com/service-areas/fairbanks-ranch-ca/burst-pipe-repair/",
+      "date": "2026-09-24",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 4,
       "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:47:34.067Z",
+      "sitemap_lastmod": "2026-09-24T17:22:06.418Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
+        "json_ld_date_modified": "2026-09-24",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1139,15 +1904,15 @@
       "search_signals": null
     },
     {
-      "url": "https://flood-fixers.com/service-areas/la-mesa-ca/flood-damage-restoration/",
-      "date": "2026-06-29",
+      "url": "https://flood-fixers.com/service-areas/fairbanks-ranch-ca/flood-damage-restoration/",
+      "date": "2026-09-24",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 4,
       "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:39:06.668Z",
+      "sitemap_lastmod": "2026-09-24T17:22:06.418Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
+        "json_ld_date_modified": "2026-09-24",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1156,15 +1921,15 @@
       "search_signals": null
     },
     {
-      "url": "https://flood-fixers.com/service-areas/la-mesa-ca/general-contracting/",
-      "date": "2026-06-29",
+      "url": "https://flood-fixers.com/service-areas/fairbanks-ranch-ca/general-contracting/",
+      "date": "2026-09-24",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 4,
       "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:48:01.453Z",
+      "sitemap_lastmod": "2026-09-24T17:22:06.418Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
+        "json_ld_date_modified": "2026-09-24",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1173,15 +1938,15 @@
       "search_signals": null
     },
     {
-      "url": "https://flood-fixers.com/service-areas/la-mesa-ca/reconstruction/",
-      "date": "2026-06-29",
+      "url": "https://flood-fixers.com/service-areas/fairbanks-ranch-ca/reconstruction/",
+      "date": "2026-09-24",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 4,
       "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:39:11.858Z",
+      "sitemap_lastmod": "2026-09-24T17:22:06.418Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
+        "json_ld_date_modified": "2026-09-24",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1190,15 +1955,15 @@
       "search_signals": null
     },
     {
-      "url": "https://flood-fixers.com/service-areas/la-mesa-ca/water-damage-restoration/",
-      "date": "2026-06-29",
+      "url": "https://flood-fixers.com/service-areas/fairbanks-ranch-ca/water-cleanup/",
+      "date": "2026-09-24",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 4,
       "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:34:25.741Z",
+      "sitemap_lastmod": "2026-09-24T17:22:06.419Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
+        "json_ld_date_modified": "2026-09-24",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1207,12 +1972,29 @@
       "search_signals": null
     },
     {
-      "url": "https://flood-fixers.com/service-areas/national-city-ca/",
-      "date": "2026-06-29",
+      "url": "https://flood-fixers.com/service-areas/fairbanks-ranch-ca/water-damage-restoration/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T17:22:06.418Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://flood-fixers.com/service-areas/fallbrook-ca/",
+      "date": "2026-09-24",
       "date_source": "sitemap_lastmod",
-      "age_days": 59,
+      "age_days": 4,
       "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:53:29.659Z",
+      "sitemap_lastmod": "2026-09-24T17:22:06.404Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -1224,15 +2006,15 @@
       "search_signals": null
     },
     {
-      "url": "https://flood-fixers.com/service-areas/national-city-ca/basement-flooding-cleanup/",
-      "date": "2026-06-29",
+      "url": "https://flood-fixers.com/service-areas/fallbrook-ca/basement-flooding-cleanup/",
+      "date": "2026-09-24",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 4,
       "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:49:36.996Z",
+      "sitemap_lastmod": "2026-09-24T17:22:06.424Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
+        "json_ld_date_modified": "2026-09-24",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1241,15 +2023,15 @@
       "search_signals": null
     },
     {
-      "url": "https://flood-fixers.com/service-areas/national-city-ca/burst-pipe-repair/",
-      "date": "2026-06-29",
+      "url": "https://flood-fixers.com/service-areas/fallbrook-ca/burst-pipe-repair/",
+      "date": "2026-09-24",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 4,
       "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:49:15.745Z",
+      "sitemap_lastmod": "2026-09-24T17:22:06.424Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
+        "json_ld_date_modified": "2026-09-24",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1258,797 +2040,15 @@
       "search_signals": null
     },
     {
-      "url": "https://flood-fixers.com/service-areas/national-city-ca/flood-damage-restoration/",
-      "date": "2026-06-29",
+      "url": "https://flood-fixers.com/service-areas/fallbrook-ca/flood-damage-restoration/",
+      "date": "2026-09-24",
       "date_source": "json_ld_date_modified",
-      "age_days": 59,
+      "age_days": 4,
       "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:40:18.320Z",
+      "sitemap_lastmod": "2026-09-24T17:22:06.424Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/national-city-ca/general-contracting/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:49:54.237Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/national-city-ca/reconstruction/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:40:18.574Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/national-city-ca/water-damage-restoration/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:34:38.323Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/oceanside-ca/",
-      "date": "2026-06-29",
-      "date_source": "sitemap_lastmod",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:56:48.206Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/oceanside-ca/basement-flooding-cleanup/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:43:35.522Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/oceanside-ca/burst-pipe-repair/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:43:27.547Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/oceanside-ca/flood-damage-restoration/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:36:17.599Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/oceanside-ca/general-contracting/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:43:30.108Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/oceanside-ca/reconstruction/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:36:16.329Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/oceanside-ca/water-damage-restoration/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:32:54.547Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/poway-ca/",
-      "date": "2026-06-29",
-      "date_source": "sitemap_lastmod",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:53:28.698Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/poway-ca/basement-flooding-cleanup/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:49:11.622Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/poway-ca/burst-pipe-repair/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:48:49.908Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/poway-ca/flood-damage-restoration/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:39:59.778Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/poway-ca/general-contracting/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:49:08.992Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/poway-ca/reconstruction/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:40:01.256Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/poway-ca/water-damage-restoration/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:34:36.948Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/san-marcos-ca/",
-      "date": "2026-06-29",
-      "date_source": "sitemap_lastmod",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:52:49.508Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/san-marcos-ca/basement-flooding-cleanup/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:46:45.763Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/san-marcos-ca/burst-pipe-repair/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:46:21.945Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/san-marcos-ca/flood-damage-restoration/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:38:19.116Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/san-marcos-ca/general-contracting/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:46:45.878Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/san-marcos-ca/reconstruction/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:38:26.853Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/san-marcos-ca/water-damage-restoration/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:33:43.120Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/santee-ca/",
-      "date": "2026-06-29",
-      "date_source": "sitemap_lastmod",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:53:01.329Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/santee-ca/basement-flooding-cleanup/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:48:22.162Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/santee-ca/burst-pipe-repair/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:48:21.557Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/santee-ca/flood-damage-restoration/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:39:31.614Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/santee-ca/general-contracting/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:48:21.535Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/santee-ca/reconstruction/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:39:33.003Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/santee-ca/water-damage-restoration/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:34:23.795Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/spring-valley-ca/",
-      "date": "2026-06-29",
-      "date_source": "sitemap_lastmod",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:53:41.619Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/spring-valley-ca/basement-flooding-cleanup/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:50:02.584Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/spring-valley-ca/burst-pipe-repair/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:50:02.736Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/spring-valley-ca/flood-damage-restoration/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:40:49.746Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/spring-valley-ca/general-contracting/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:50:22.420Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/spring-valley-ca/reconstruction/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:40:49.803Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/spring-valley-ca/water-damage-restoration/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:35:08.948Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/temecula-ca/",
-      "date": "2026-06-29",
-      "date_source": "sitemap_lastmod",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:53:44.911Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/temecula-ca/basement-flooding-cleanup/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:50:51.874Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/temecula-ca/burst-pipe-repair/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:50:42.268Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/temecula-ca/flood-damage-restoration/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:41:07.361Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/temecula-ca/general-contracting/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:50:53.205Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/temecula-ca/reconstruction/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:41:10.945Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/temecula-ca/water-damage-restoration/",
-      "date": "2026-06-29",
-      "date_source": "json_ld_date_modified",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:35:14.483Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-06-29",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://flood-fixers.com/service-areas/vista-ca/",
-      "date": "2026-06-29",
-      "date_source": "sitemap_lastmod",
-      "age_days": 59,
-      "flags": [],
-      "sitemap_lastmod": "2026-06-29T20:52:18.812Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
+        "json_ld_date_modified": "2026-09-24",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
