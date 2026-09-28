@@ -3,7 +3,7 @@
   "slug": "frontline-fire-flood",
   "origin": "https://frontlinefireflood.com",
   "origin_source": "apex",
-  "generated_at": "2026-09-14T20:21:25+00:00",
+  "generated_at": "2026-09-28T22:30:27+00:00",
   "stale_threshold_days": 365,
   "aging_threshold_days": 305,
   "gsc_enabled": false,
@@ -12,15 +12,15 @@
     "See docs/system-4-v2-activation.md for GSC v2 setup."
   ],
   "inspected_count": 120,
-  "fetched_html_count": 115,
-  "failed_html_count": 5,
+  "fetched_html_count": 120,
+  "failed_html_count": 0,
   "flag_counts": {},
   "candidates": [
     {
       "url": "https://frontlinefireflood.com/",
       "date": "2026-09-03",
       "date_source": "sitemap_lastmod",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T04:53:47.346Z",
       "html_dates": {
@@ -37,7 +37,7 @@
       "url": "https://frontlinefireflood.com/about/",
       "date": "2026-09-03",
       "date_source": "sitemap_lastmod",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T05:01:03.638Z",
       "html_dates": {
@@ -54,7 +54,7 @@
       "url": "https://frontlinefireflood.com/accessibility/",
       "date": "2026-09-03",
       "date_source": "sitemap_lastmod",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T05:01:12.820Z",
       "html_dates": {
@@ -71,7 +71,7 @@
       "url": "https://frontlinefireflood.com/blog/",
       "date": "2026-09-03",
       "date_source": "sitemap_lastmod",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T05:00:37.376Z",
       "html_dates": {
@@ -85,13 +85,36 @@
       "search_signals": null
     },
     {
+      "url": "https://frontlinefireflood.com/blog/asbestos-lead-abatement/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-24",
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://frontlinefireflood.com/blog/best-water-damage-restoration-company-in-lakewood-wa/",
       "date": "2026-09-06",
-      "date_source": "sitemap_lastmod",
-      "age_days": 8,
+      "date_source": "json_ld_date_modified",
+      "age_days": 22,
       "flags": [],
       "sitemap_lastmod": "2026-09-06T00:00:00.000Z",
-      "html_dates": {},
+      "html_dates": {
+        "json_ld_date_published": "2026-09-06",
+        "json_ld_date_modified": "2026-09-06",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
       "gsc": null,
       "search_signals": null
     },
@@ -99,7 +122,7 @@
       "url": "https://frontlinefireflood.com/blog/black-mold-vs-regular-mold/",
       "date": "2026-08-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 24,
+      "age_days": 38,
       "flags": [],
       "sitemap_lastmod": "2026-08-21T00:00:00.000Z",
       "html_dates": {
@@ -113,10 +136,27 @@
       "search_signals": null
     },
     {
+      "url": "https://frontlinefireflood.com/blog/board-up-tarping-services/",
+      "date": "2026-09-22",
+      "date_source": "json_ld_date_modified",
+      "age_days": 6,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-22T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-22",
+        "json_ld_date_modified": "2026-09-22",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://frontlinefireflood.com/blog/burst-pipe-emergency-checklist/",
       "date": "2026-08-19",
       "date_source": "json_ld_date_modified",
-      "age_days": 26,
+      "age_days": 40,
       "flags": [],
       "sitemap_lastmod": "2026-08-19T00:00:00.000Z",
       "html_dates": {
@@ -133,7 +173,7 @@
       "url": "https://frontlinefireflood.com/blog/choosing-a-restoration-company/",
       "date": "2026-08-26",
       "date_source": "json_ld_date_modified",
-      "age_days": 19,
+      "age_days": 33,
       "flags": [],
       "sitemap_lastmod": "2026-08-26T00:00:00.000Z",
       "html_dates": {
@@ -150,7 +190,7 @@
       "url": "https://frontlinefireflood.com/blog/does-homeowners-insurance-cover-water-damage/",
       "date": "2026-08-17",
       "date_source": "json_ld_date_modified",
-      "age_days": 28,
+      "age_days": 42,
       "flags": [],
       "sitemap_lastmod": "2026-08-17T00:00:00.000Z",
       "html_dates": {
@@ -167,7 +207,7 @@
       "url": "https://frontlinefireflood.com/blog/fire-damage-restoration-process/",
       "date": "2026-08-28",
       "date_source": "json_ld_date_modified",
-      "age_days": 17,
+      "age_days": 31,
       "flags": [],
       "sitemap_lastmod": "2026-08-28T00:00:00.000Z",
       "html_dates": {
@@ -184,7 +224,7 @@
       "url": "https://frontlinefireflood.com/blog/how-to-test-for-mold/",
       "date": "2026-08-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 24,
+      "age_days": 38,
       "flags": [],
       "sitemap_lastmod": "2026-08-21T00:00:00.000Z",
       "html_dates": {
@@ -201,7 +241,7 @@
       "url": "https://frontlinefireflood.com/blog/signs-of-hidden-mold/",
       "date": "2026-08-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 24,
+      "age_days": 38,
       "flags": [],
       "sitemap_lastmod": "2026-08-21T00:00:00.000Z",
       "html_dates": {
@@ -216,14 +256,31 @@
     },
     {
       "url": "https://frontlinefireflood.com/blog/storm-wind-damage-restoration/",
-      "date": "2026-09-14",
+      "date": "2026-09-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 0,
+      "age_days": 10,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T00:00:00.000Z",
+      "sitemap_lastmod": "2026-09-18T00:00:00.000Z",
       "html_dates": {
-        "json_ld_date_published": "2026-09-14",
-        "json_ld_date_modified": "2026-09-14",
+        "json_ld_date_published": "2026-09-18",
+        "json_ld_date_modified": "2026-09-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://frontlinefireflood.com/blog/water-damage-restoration-cost-wa/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-20T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-20",
+        "json_ld_date_modified": "2026-09-20",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -235,7 +292,7 @@
       "url": "https://frontlinefireflood.com/blog/what-to-do-first-24-hours-water-damage/",
       "date": "2026-08-31",
       "date_source": "json_ld_date_modified",
-      "age_days": 14,
+      "age_days": 28,
       "flags": [],
       "sitemap_lastmod": "2026-08-31T00:00:00.000Z",
       "html_dates": {
@@ -250,11 +307,11 @@
     },
     {
       "url": "https://frontlinefireflood.com/case-studies/",
-      "date": "2026-09-14",
+      "date": "2026-09-28",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T11:04:26.562Z",
+      "sitemap_lastmod": "2026-09-28T20:49:41.456Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -267,11 +324,11 @@
     },
     {
       "url": "https://frontlinefireflood.com/certifications/",
-      "date": "2026-09-14",
+      "date": "2026-09-28",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T11:04:26.562Z",
+      "sitemap_lastmod": "2026-09-28T20:49:41.456Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -286,7 +343,7 @@
       "url": "https://frontlinefireflood.com/contact/",
       "date": "2026-09-03",
       "date_source": "sitemap_lastmod",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T05:00:57.489Z",
       "html_dates": {
@@ -300,12 +357,29 @@
       "search_signals": null
     },
     {
-      "url": "https://frontlinefireflood.com/emergency/",
-      "date": "2026-09-14",
+      "url": "https://frontlinefireflood.com/embed/estimate/",
+      "date": "2026-09-28",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T11:04:26.562Z",
+      "sitemap_lastmod": "2026-09-28T20:49:41.456Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://frontlinefireflood.com/emergency/",
+      "date": "2026-09-28",
+      "date_source": "sitemap_lastmod",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-28T20:49:41.456Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -320,7 +394,7 @@
       "url": "https://frontlinefireflood.com/privacy/",
       "date": "2026-09-03",
       "date_source": "sitemap_lastmod",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T05:00:55.298Z",
       "html_dates": {
@@ -335,11 +409,11 @@
     },
     {
       "url": "https://frontlinefireflood.com/reviews/",
-      "date": "2026-09-14",
+      "date": "2026-09-28",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T11:04:26.562Z",
+      "sitemap_lastmod": "2026-09-28T20:49:41.456Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -354,7 +428,7 @@
       "url": "https://frontlinefireflood.com/service-areas/",
       "date": "2026-09-03",
       "date_source": "sitemap_lastmod",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T04:59:01.340Z",
       "html_dates": {
@@ -368,10 +442,214 @@
       "search_signals": null
     },
     {
+      "url": "https://frontlinefireflood.com/service-areas/anderson-island-wa/",
+      "date": "2026-09-23",
+      "date_source": "sitemap_lastmod",
+      "age_days": 5,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:42.568Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://frontlinefireflood.com/service-areas/anderson-island-wa/asbestos-abatement/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 5,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:42.615Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://frontlinefireflood.com/service-areas/anderson-island-wa/contents-restoration-storage/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 5,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:42.615Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://frontlinefireflood.com/service-areas/anderson-island-wa/emergency-board-up-tarping/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 5,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:42.618Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://frontlinefireflood.com/service-areas/anderson-island-wa/emergency-plumbing/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 5,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:42.618Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://frontlinefireflood.com/service-areas/anderson-island-wa/fire-damage-restoration/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 5,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:42.618Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://frontlinefireflood.com/service-areas/anderson-island-wa/mold-remediation/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 5,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:42.618Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://frontlinefireflood.com/service-areas/anderson-island-wa/odor-removal/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 5,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:42.619Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://frontlinefireflood.com/service-areas/anderson-island-wa/sewage-cleanup/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 5,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:42.619Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://frontlinefireflood.com/service-areas/anderson-island-wa/storm-damage-restoration/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 5,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:42.619Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://frontlinefireflood.com/service-areas/anderson-island-wa/water-cleanup/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 5,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:42.620Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://frontlinefireflood.com/service-areas/anderson-island-wa/water-damage-restoration/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 5,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:42.620Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://frontlinefireflood.com/service-areas/auburn-wa/",
       "date": "2026-09-11",
       "date_source": "sitemap_lastmod",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:26:42.073Z",
       "html_dates": {
@@ -388,7 +666,7 @@
       "url": "https://frontlinefireflood.com/service-areas/auburn-wa/asbestos-abatement/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:30:03.077Z",
       "html_dates": {
@@ -405,7 +683,7 @@
       "url": "https://frontlinefireflood.com/service-areas/auburn-wa/contents-restoration-storage/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:33:10.053Z",
       "html_dates": {
@@ -422,7 +700,7 @@
       "url": "https://frontlinefireflood.com/service-areas/auburn-wa/emergency-board-up-tarping/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:23:22.814Z",
       "html_dates": {
@@ -436,10 +714,27 @@
       "search_signals": null
     },
     {
+      "url": "https://frontlinefireflood.com/service-areas/auburn-wa/emergency-plumbing/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 5,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:42.584Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://frontlinefireflood.com/service-areas/auburn-wa/fire-damage-restoration/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:05:34.479Z",
       "html_dates": {
@@ -456,7 +751,7 @@
       "url": "https://frontlinefireflood.com/service-areas/auburn-wa/mold-remediation/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:05:47.754Z",
       "html_dates": {
@@ -470,10 +765,27 @@
       "search_signals": null
     },
     {
+      "url": "https://frontlinefireflood.com/service-areas/auburn-wa/odor-removal/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 5,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:42.584Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://frontlinefireflood.com/service-areas/auburn-wa/sewage-cleanup/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:15:34.196Z",
       "html_dates": {
@@ -489,11 +801,17 @@
     {
       "url": "https://frontlinefireflood.com/service-areas/auburn-wa/storm-damage-restoration/",
       "date": "2026-09-11",
-      "date_source": "sitemap_lastmod",
-      "age_days": 3,
+      "date_source": "json_ld_date_modified",
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:15:22.592Z",
-      "html_dates": {},
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-11",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
       "gsc": null,
       "search_signals": null
     },
@@ -501,7 +819,7 @@
       "url": "https://frontlinefireflood.com/service-areas/auburn-wa/water-cleanup/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:15:50.968Z",
       "html_dates": {
@@ -518,7 +836,7 @@
       "url": "https://frontlinefireflood.com/service-areas/auburn-wa/water-damage-restoration/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:05:06.156Z",
       "html_dates": {
@@ -535,10 +853,16 @@
       "url": "https://frontlinefireflood.com/service-areas/bellevue-wa/",
       "date": "2026-09-11",
       "date_source": "sitemap_lastmod",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:25:59.294Z",
-      "html_dates": {},
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
       "gsc": null,
       "search_signals": null
     },
@@ -546,7 +870,7 @@
       "url": "https://frontlinefireflood.com/service-areas/bellevue-wa/asbestos-abatement/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:29:13.404Z",
       "html_dates": {
@@ -563,7 +887,7 @@
       "url": "https://frontlinefireflood.com/service-areas/bellevue-wa/contents-restoration-storage/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:32:23.076Z",
       "html_dates": {
@@ -580,7 +904,7 @@
       "url": "https://frontlinefireflood.com/service-areas/bellevue-wa/emergency-board-up-tarping/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:22:38.162Z",
       "html_dates": {
@@ -594,10 +918,27 @@
       "search_signals": null
     },
     {
+      "url": "https://frontlinefireflood.com/service-areas/bellevue-wa/emergency-plumbing/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 5,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:42.580Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://frontlinefireflood.com/service-areas/bellevue-wa/fire-damage-restoration/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:03:16.661Z",
       "html_dates": {
@@ -614,7 +955,7 @@
       "url": "https://frontlinefireflood.com/service-areas/bellevue-wa/mold-remediation/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:03:18.061Z",
       "html_dates": {
@@ -628,10 +969,27 @@
       "search_signals": null
     },
     {
+      "url": "https://frontlinefireflood.com/service-areas/bellevue-wa/odor-removal/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 5,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:42.580Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://frontlinefireflood.com/service-areas/bellevue-wa/sewage-cleanup/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:13:02.546Z",
       "html_dates": {
@@ -648,7 +1006,7 @@
       "url": "https://frontlinefireflood.com/service-areas/bellevue-wa/storm-damage-restoration/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:12:53.665Z",
       "html_dates": {
@@ -665,7 +1023,7 @@
       "url": "https://frontlinefireflood.com/service-areas/bellevue-wa/water-cleanup/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:13:23.425Z",
       "html_dates": {
@@ -682,7 +1040,7 @@
       "url": "https://frontlinefireflood.com/service-areas/bellevue-wa/water-damage-restoration/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:02:39.010Z",
       "html_dates": {
@@ -699,7 +1057,7 @@
       "url": "https://frontlinefireflood.com/service-areas/bonney-lake-wa/",
       "date": "2026-09-11",
       "date_source": "sitemap_lastmod",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:27:03.900Z",
       "html_dates": {
@@ -716,7 +1074,7 @@
       "url": "https://frontlinefireflood.com/service-areas/bonney-lake-wa/asbestos-abatement/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:30:19.515Z",
       "html_dates": {
@@ -733,7 +1091,7 @@
       "url": "https://frontlinefireflood.com/service-areas/bonney-lake-wa/contents-restoration-storage/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:33:35.388Z",
       "html_dates": {
@@ -750,7 +1108,7 @@
       "url": "https://frontlinefireflood.com/service-areas/bonney-lake-wa/emergency-board-up-tarping/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:23:53.247Z",
       "html_dates": {
@@ -764,10 +1122,27 @@
       "search_signals": null
     },
     {
+      "url": "https://frontlinefireflood.com/service-areas/bonney-lake-wa/emergency-plumbing/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 5,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:42.586Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://frontlinefireflood.com/service-areas/bonney-lake-wa/fire-damage-restoration/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:06:37.452Z",
       "html_dates": {
@@ -784,7 +1159,7 @@
       "url": "https://frontlinefireflood.com/service-areas/bonney-lake-wa/mold-remediation/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:06:38.488Z",
       "html_dates": {
@@ -798,10 +1173,27 @@
       "search_signals": null
     },
     {
+      "url": "https://frontlinefireflood.com/service-areas/bonney-lake-wa/odor-removal/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 5,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:42.586Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://frontlinefireflood.com/service-areas/bonney-lake-wa/sewage-cleanup/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:16:47.362Z",
       "html_dates": {
@@ -818,7 +1210,7 @@
       "url": "https://frontlinefireflood.com/service-areas/bonney-lake-wa/storm-damage-restoration/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:16:38.958Z",
       "html_dates": {
@@ -835,7 +1227,7 @@
       "url": "https://frontlinefireflood.com/service-areas/bonney-lake-wa/water-cleanup/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:16:56.609Z",
       "html_dates": {
@@ -852,7 +1244,7 @@
       "url": "https://frontlinefireflood.com/service-areas/bonney-lake-wa/water-damage-restoration/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:06:34.177Z",
       "html_dates": {
@@ -869,7 +1261,7 @@
       "url": "https://frontlinefireflood.com/service-areas/bremerton-wa/",
       "date": "2026-09-11",
       "date_source": "sitemap_lastmod",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:28:24.991Z",
       "html_dates": {
@@ -886,7 +1278,7 @@
       "url": "https://frontlinefireflood.com/service-areas/bremerton-wa/asbestos-abatement/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:31:40.582Z",
       "html_dates": {
@@ -903,7 +1295,7 @@
       "url": "https://frontlinefireflood.com/service-areas/bremerton-wa/contents-restoration-storage/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:34:53.860Z",
       "html_dates": {
@@ -920,7 +1312,7 @@
       "url": "https://frontlinefireflood.com/service-areas/bremerton-wa/emergency-board-up-tarping/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:25:15.086Z",
       "html_dates": {
@@ -934,10 +1326,27 @@
       "search_signals": null
     },
     {
+      "url": "https://frontlinefireflood.com/service-areas/bremerton-wa/emergency-plumbing/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 5,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:42.592Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://frontlinefireflood.com/service-areas/bremerton-wa/fire-damage-restoration/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:10:37.165Z",
       "html_dates": {
@@ -954,7 +1363,7 @@
       "url": "https://frontlinefireflood.com/service-areas/bremerton-wa/mold-remediation/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:10:58.713Z",
       "html_dates": {
@@ -968,13 +1377,36 @@
       "search_signals": null
     },
     {
+      "url": "https://frontlinefireflood.com/service-areas/bremerton-wa/odor-removal/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 5,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:42.593Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://frontlinefireflood.com/service-areas/bremerton-wa/sewage-cleanup/",
       "date": "2026-09-11",
-      "date_source": "sitemap_lastmod",
-      "age_days": 3,
+      "date_source": "json_ld_date_modified",
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:20:53.415Z",
-      "html_dates": {},
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-11",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
       "gsc": null,
       "search_signals": null
     },
@@ -982,7 +1414,7 @@
       "url": "https://frontlinefireflood.com/service-areas/bremerton-wa/storm-damage-restoration/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:20:51.185Z",
       "html_dates": {
@@ -999,7 +1431,7 @@
       "url": "https://frontlinefireflood.com/service-areas/bremerton-wa/water-cleanup/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:20:56.637Z",
       "html_dates": {
@@ -1016,7 +1448,7 @@
       "url": "https://frontlinefireflood.com/service-areas/bremerton-wa/water-damage-restoration/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:10:34.424Z",
       "html_dates": {
@@ -1033,7 +1465,7 @@
       "url": "https://frontlinefireflood.com/service-areas/burien-wa/",
       "date": "2026-09-11",
       "date_source": "sitemap_lastmod",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:26:59.446Z",
       "html_dates": {
@@ -1050,7 +1482,7 @@
       "url": "https://frontlinefireflood.com/service-areas/burien-wa/asbestos-abatement/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:30:06.610Z",
       "html_dates": {
@@ -1067,7 +1499,7 @@
       "url": "https://frontlinefireflood.com/service-areas/burien-wa/contents-restoration-storage/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:33:25.063Z",
       "html_dates": {
@@ -1084,7 +1516,7 @@
       "url": "https://frontlinefireflood.com/service-areas/burien-wa/emergency-board-up-tarping/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:23:43.094Z",
       "html_dates": {
@@ -1098,10 +1530,27 @@
       "search_signals": null
     },
     {
+      "url": "https://frontlinefireflood.com/service-areas/burien-wa/emergency-plumbing/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 5,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:42.585Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://frontlinefireflood.com/service-areas/burien-wa/fire-damage-restoration/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:05:51.272Z",
       "html_dates": {
@@ -1118,7 +1567,7 @@
       "url": "https://frontlinefireflood.com/service-areas/burien-wa/mold-remediation/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:06:19.821Z",
       "html_dates": {
@@ -1132,10 +1581,27 @@
       "search_signals": null
     },
     {
+      "url": "https://frontlinefireflood.com/service-areas/burien-wa/odor-removal/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 5,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:42.585Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://frontlinefireflood.com/service-areas/burien-wa/sewage-cleanup/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:16:09.583Z",
       "html_dates": {
@@ -1152,7 +1618,7 @@
       "url": "https://frontlinefireflood.com/service-areas/burien-wa/storm-damage-restoration/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:16:02.547Z",
       "html_dates": {
@@ -1169,7 +1635,7 @@
       "url": "https://frontlinefireflood.com/service-areas/burien-wa/water-cleanup/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:16:21.234Z",
       "html_dates": {
@@ -1186,7 +1652,7 @@
       "url": "https://frontlinefireflood.com/service-areas/burien-wa/water-damage-restoration/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:05:50.378Z",
       "html_dates": {
@@ -1203,7 +1669,7 @@
       "url": "https://frontlinefireflood.com/service-areas/centralia-wa/",
       "date": "2026-09-11",
       "date_source": "sitemap_lastmod",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:28:41.973Z",
       "html_dates": {
@@ -1220,7 +1686,7 @@
       "url": "https://frontlinefireflood.com/service-areas/centralia-wa/asbestos-abatement/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:32:06.610Z",
       "html_dates": {
@@ -1237,7 +1703,7 @@
       "url": "https://frontlinefireflood.com/service-areas/centralia-wa/contents-restoration-storage/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:35:27.759Z",
       "html_dates": {
@@ -1254,7 +1720,7 @@
       "url": "https://frontlinefireflood.com/service-areas/centralia-wa/emergency-board-up-tarping/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:25:34.238Z",
       "html_dates": {
@@ -1268,10 +1734,27 @@
       "search_signals": null
     },
     {
+      "url": "https://frontlinefireflood.com/service-areas/centralia-wa/emergency-plumbing/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 5,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:42.594Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://frontlinefireflood.com/service-areas/centralia-wa/fire-damage-restoration/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:12:05.087Z",
       "html_dates": {
@@ -1288,7 +1771,7 @@
       "url": "https://frontlinefireflood.com/service-areas/centralia-wa/mold-remediation/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:12:05.089Z",
       "html_dates": {
@@ -1302,10 +1785,27 @@
       "search_signals": null
     },
     {
+      "url": "https://frontlinefireflood.com/service-areas/centralia-wa/odor-removal/",
+      "date": "2026-09-23",
+      "date_source": "json_ld_date_modified",
+      "age_days": 5,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-23T14:11:42.595Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-23",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://frontlinefireflood.com/service-areas/centralia-wa/sewage-cleanup/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:22:09.579Z",
       "html_dates": {
@@ -1322,7 +1822,7 @@
       "url": "https://frontlinefireflood.com/service-areas/centralia-wa/storm-damage-restoration/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:21:44.701Z",
       "html_dates": {
@@ -1339,7 +1839,7 @@
       "url": "https://frontlinefireflood.com/service-areas/centralia-wa/water-cleanup/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:22:19.017Z",
       "html_dates": {
@@ -1356,7 +1856,7 @@
       "url": "https://frontlinefireflood.com/service-areas/centralia-wa/water-damage-restoration/",
       "date": "2026-09-11",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 17,
       "flags": [],
       "sitemap_lastmod": "2026-09-11T18:11:43.749Z",
       "html_dates": {
@@ -1370,12 +1870,12 @@
       "search_signals": null
     },
     {
-      "url": "https://frontlinefireflood.com/service-areas/dupont-wa/",
-      "date": "2026-09-03",
+      "url": "https://frontlinefireflood.com/service-areas/clover-creek-wa/",
+      "date": "2026-09-23",
       "date_source": "sitemap_lastmod",
-      "age_days": 11,
+      "age_days": 5,
       "flags": [],
-      "sitemap_lastmod": "2026-09-03T04:57:04.963Z",
+      "sitemap_lastmod": "2026-09-23T14:11:42.569Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -1387,15 +1887,15 @@
       "search_signals": null
     },
     {
-      "url": "https://frontlinefireflood.com/service-areas/dupont-wa/asbestos-abatement/",
-      "date": "2026-09-03",
+      "url": "https://frontlinefireflood.com/service-areas/clover-creek-wa/asbestos-abatement/",
+      "date": "2026-09-23",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 5,
       "flags": [],
-      "sitemap_lastmod": "2026-09-03T04:59:10.085Z",
+      "sitemap_lastmod": "2026-09-23T14:11:42.624Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-03",
+        "json_ld_date_modified": "2026-09-23",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1404,15 +1904,15 @@
       "search_signals": null
     },
     {
-      "url": "https://frontlinefireflood.com/service-areas/dupont-wa/contents-restoration-storage/",
-      "date": "2026-09-03",
+      "url": "https://frontlinefireflood.com/service-areas/clover-creek-wa/contents-restoration-storage/",
+      "date": "2026-09-23",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 5,
       "flags": [],
-      "sitemap_lastmod": "2026-09-03T05:01:14.298Z",
+      "sitemap_lastmod": "2026-09-23T14:11:42.624Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-03",
+        "json_ld_date_modified": "2026-09-23",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1421,15 +1921,15 @@
       "search_signals": null
     },
     {
-      "url": "https://frontlinefireflood.com/service-areas/dupont-wa/emergency-board-up-tarping/",
-      "date": "2026-09-03",
+      "url": "https://frontlinefireflood.com/service-areas/clover-creek-wa/emergency-board-up-tarping/",
+      "date": "2026-09-23",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 5,
       "flags": [],
-      "sitemap_lastmod": "2026-09-03T04:55:38.699Z",
+      "sitemap_lastmod": "2026-09-23T14:11:42.624Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-03",
+        "json_ld_date_modified": "2026-09-23",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1438,15 +1938,15 @@
       "search_signals": null
     },
     {
-      "url": "https://frontlinefireflood.com/service-areas/dupont-wa/fire-damage-restoration/",
-      "date": "2026-09-03",
+      "url": "https://frontlinefireflood.com/service-areas/clover-creek-wa/emergency-plumbing/",
+      "date": "2026-09-23",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 5,
       "flags": [],
-      "sitemap_lastmod": "2026-09-03T04:47:11.047Z",
+      "sitemap_lastmod": "2026-09-23T14:11:42.624Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-03",
+        "json_ld_date_modified": "2026-09-23",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1455,15 +1955,15 @@
       "search_signals": null
     },
     {
-      "url": "https://frontlinefireflood.com/service-areas/dupont-wa/mold-remediation/",
-      "date": "2026-09-03",
+      "url": "https://frontlinefireflood.com/service-areas/clover-creek-wa/fire-damage-restoration/",
+      "date": "2026-09-23",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 5,
       "flags": [],
-      "sitemap_lastmod": "2026-09-03T04:47:18.999Z",
+      "sitemap_lastmod": "2026-09-23T14:11:42.625Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-03",
+        "json_ld_date_modified": "2026-09-23",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1472,15 +1972,15 @@
       "search_signals": null
     },
     {
-      "url": "https://frontlinefireflood.com/service-areas/dupont-wa/sewage-cleanup/",
-      "date": "2026-09-03",
+      "url": "https://frontlinefireflood.com/service-areas/clover-creek-wa/mold-remediation/",
+      "date": "2026-09-23",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 5,
       "flags": [],
-      "sitemap_lastmod": "2026-09-03T04:51:57.037Z",
+      "sitemap_lastmod": "2026-09-23T14:11:42.625Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-03",
+        "json_ld_date_modified": "2026-09-23",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1489,15 +1989,15 @@
       "search_signals": null
     },
     {
-      "url": "https://frontlinefireflood.com/service-areas/dupont-wa/storm-damage-restoration/",
-      "date": "2026-09-03",
+      "url": "https://frontlinefireflood.com/service-areas/clover-creek-wa/odor-removal/",
+      "date": "2026-09-23",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 5,
       "flags": [],
-      "sitemap_lastmod": "2026-09-03T04:51:49.782Z",
+      "sitemap_lastmod": "2026-09-23T14:11:42.625Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-03",
+        "json_ld_date_modified": "2026-09-23",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1506,26 +2006,15 @@
       "search_signals": null
     },
     {
-      "url": "https://frontlinefireflood.com/service-areas/dupont-wa/water-cleanup/",
-      "date": "2026-09-03",
-      "date_source": "sitemap_lastmod",
-      "age_days": 11,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-03T04:52:02.710Z",
-      "html_dates": {},
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://frontlinefireflood.com/service-areas/dupont-wa/water-damage-restoration/",
-      "date": "2026-09-03",
+      "url": "https://frontlinefireflood.com/service-areas/clover-creek-wa/sewage-cleanup/",
+      "date": "2026-09-23",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 5,
       "flags": [],
-      "sitemap_lastmod": "2026-09-03T04:46:36.351Z",
+      "sitemap_lastmod": "2026-09-23T14:11:42.626Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-03",
+        "json_ld_date_modified": "2026-09-23",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1534,32 +2023,15 @@
       "search_signals": null
     },
     {
-      "url": "https://frontlinefireflood.com/service-areas/federal-way-wa/",
-      "date": "2026-09-11",
-      "date_source": "sitemap_lastmod",
-      "age_days": 3,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:26:29.928Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://frontlinefireflood.com/service-areas/federal-way-wa/asbestos-abatement/",
-      "date": "2026-09-11",
+      "url": "https://frontlinefireflood.com/service-areas/clover-creek-wa/storm-damage-restoration/",
+      "date": "2026-09-23",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 5,
       "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:29:41.793Z",
+      "sitemap_lastmod": "2026-09-23T14:11:42.626Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-11",
+        "json_ld_date_modified": "2026-09-23",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -1568,457 +2040,15 @@
       "search_signals": null
     },
     {
-      "url": "https://frontlinefireflood.com/service-areas/federal-way-wa/contents-restoration-storage/",
-      "date": "2026-09-11",
+      "url": "https://frontlinefireflood.com/service-areas/clover-creek-wa/water-cleanup/",
+      "date": "2026-09-23",
       "date_source": "json_ld_date_modified",
-      "age_days": 3,
+      "age_days": 5,
       "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:33:13.061Z",
+      "sitemap_lastmod": "2026-09-23T14:11:42.626Z",
       "html_dates": {
         "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://frontlinefireflood.com/service-areas/federal-way-wa/emergency-board-up-tarping/",
-      "date": "2026-09-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 3,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:23:16.484Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://frontlinefireflood.com/service-areas/federal-way-wa/fire-damage-restoration/",
-      "date": "2026-09-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 3,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:04:59.094Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://frontlinefireflood.com/service-areas/federal-way-wa/mold-remediation/",
-      "date": "2026-09-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 3,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:05:04.646Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://frontlinefireflood.com/service-areas/federal-way-wa/sewage-cleanup/",
-      "date": "2026-09-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 3,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:15:01.407Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://frontlinefireflood.com/service-areas/federal-way-wa/storm-damage-restoration/",
-      "date": "2026-09-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 3,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:14:45.263Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://frontlinefireflood.com/service-areas/federal-way-wa/water-cleanup/",
-      "date": "2026-09-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 3,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:15:16.255Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://frontlinefireflood.com/service-areas/federal-way-wa/water-damage-restoration/",
-      "date": "2026-09-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 3,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:04:46.555Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://frontlinefireflood.com/service-areas/fife-wa/",
-      "date": "2026-09-11",
-      "date_source": "sitemap_lastmod",
-      "age_days": 3,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:27:49.816Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://frontlinefireflood.com/service-areas/fife-wa/asbestos-abatement/",
-      "date": "2026-09-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 3,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:31:07.704Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://frontlinefireflood.com/service-areas/fife-wa/contents-restoration-storage/",
-      "date": "2026-09-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 3,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:34:20.635Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://frontlinefireflood.com/service-areas/fife-wa/emergency-board-up-tarping/",
-      "date": "2026-09-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 3,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:24:38.969Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://frontlinefireflood.com/service-areas/fife-wa/fire-damage-restoration/",
-      "date": "2026-09-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 3,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:09:01.792Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://frontlinefireflood.com/service-areas/fife-wa/mold-remediation/",
-      "date": "2026-09-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 3,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:09:02.986Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://frontlinefireflood.com/service-areas/fife-wa/sewage-cleanup/",
-      "date": "2026-09-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 3,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:19:14.977Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://frontlinefireflood.com/service-areas/fife-wa/storm-damage-restoration/",
-      "date": "2026-09-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 3,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:18:59.660Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://frontlinefireflood.com/service-areas/fife-wa/water-cleanup/",
-      "date": "2026-09-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 3,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:19:17.435Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://frontlinefireflood.com/service-areas/fife-wa/water-damage-restoration/",
-      "date": "2026-09-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 3,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:08:55.610Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://frontlinefireflood.com/service-areas/gig-harbor-wa/",
-      "date": "2026-09-11",
-      "date_source": "sitemap_lastmod",
-      "age_days": 3,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:27:13.905Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://frontlinefireflood.com/service-areas/gig-harbor-wa/asbestos-abatement/",
-      "date": "2026-09-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 3,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:30:30.028Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://frontlinefireflood.com/service-areas/gig-harbor-wa/contents-restoration-storage/",
-      "date": "2026-09-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 3,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:33:57.655Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://frontlinefireflood.com/service-areas/gig-harbor-wa/emergency-board-up-tarping/",
-      "date": "2026-09-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 3,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:24:03.083Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://frontlinefireflood.com/service-areas/gig-harbor-wa/fire-damage-restoration/",
-      "date": "2026-09-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 3,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:07:24.922Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://frontlinefireflood.com/service-areas/gig-harbor-wa/mold-remediation/",
-      "date": "2026-09-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 3,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:07:24.638Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://frontlinefireflood.com/service-areas/gig-harbor-wa/sewage-cleanup/",
-      "date": "2026-09-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 3,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:17:25.062Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://frontlinefireflood.com/service-areas/gig-harbor-wa/storm-damage-restoration/",
-      "date": "2026-09-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 3,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:17:09.335Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-11",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://frontlinefireflood.com/service-areas/gig-harbor-wa/water-cleanup/",
-      "date": "2026-09-11",
-      "date_source": "json_ld_date_modified",
-      "age_days": 3,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-11T18:17:35.429Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-11",
+        "json_ld_date_modified": "2026-09-23",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null

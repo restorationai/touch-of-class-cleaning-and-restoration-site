@@ -5,23 +5,21 @@
   "live_origin": "https://callcrs.com",
   "live_origin_source": "apex",
   "audit_form_factor": "desktop",
-  "generated_at": "2026-09-28T21:54:08Z",
-  "lighthouse_detail": "full_data captured; all failing audits (score < 0.9, excluding informative/notApplicable) recorded per URL",
-  "url_selection": {
-    "mode": "B (url-plan auto-derive)",
-    "notes": "No audit-urls.txt. service-landing tie at priority 9.0 (fire, mold, water); kept water + fire to match the 2026-08-26 baseline. url-plan has no primary: true service-area and no /service-areas/santa-maria-ca/ page (primary city is excluded from area pages), so fell back to the first area slug, vandenberg-village-ca, same as the baseline."
-  },
+  "generated_at": "2026-09-28T22:14:50Z",
+  "lighthouse_detail": "full audits captured (DataForSEO lighthouse/live/json returns full audit payload; raw files not committed)",
   "environment_caveats": [
-    "Audited the apex production site https://callcrs.com (apex_cutover.completed_at 2026-09-08T17:52:50Z). curl -sI confirmed HTTP 200 and no x-robots-tag header on all six URLs, so SEO counts toward the verdict this run.",
-    "The prior audit (2026-08-26) ran against the Cloudflare Pages staging preview with a noindex artifact (SEO 69 on every URL). The SEO delta (+31) reflects the environment change, not a site change. Performance numbers also move between Pages preview and apex+CDN, so small LCP deltas are not treated as site changes.",
-    "Lighthouse ran DESKTOP only (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240). Mobile scores would typically land 10-20 performance points lower.",
-    "The named MCP tools on_page_lighthouse and on_page_instant_pages are not exposed by this DataForSEO MCP build. Used authenticated REST calls to /v3/on_page/lighthouse/live/json (full_data: true) and /v3/on_page/instant_pages, piped to disk. Total API cost about $0.041.",
-    "DataForSEO instant_pages checks has_render_blocking_resources (duplicates Lighthouse render-blocking-insight), no_image_title (the img title attribute has no SEO weight) and low_content_rate (text-to-HTML ratio; word counts are healthy) were not recorded as issues.",
-    "Issue IDs prefixed rankai_ are Rank AI derived checks, not Lighthouse or DataForSEO audit IDs. All unprefixed IDs are genuine vendor IDs."
+    "First audit on the apex (apex_cutover.completed_at 2026-09-08). The prior run (2026-08-26) audited the Cloudflare Pages staging preview. Regression comparison matches URLs by path across the two origins; SEO deltas (+31) reflect removal of the staging noindex artifact, not a site change.",
+    "Apex response has no x-robots-tag header; SEO counts toward the verdict this run.",
+    "Lighthouse ran DESKTOP only (for_mobile=false) to stay comparable with the August desktop baseline. Mobile scores typically run 10-20 performance points lower.",
+    "The named MCP tools on_page_lighthouse and on_page_instant_pages are not exposed by this DataForSEO MCP build. Used authenticated REST calls to /v3/on_page/lighthouse/live/json and /v3/on_page/instant_pages. Same data, same cost basis.",
+    "Service-landing slot: fire-damage-restoration, mold-remediation, and water-damage-restoration tie at priority 9.0. Kept water + fire (same pair as August) for regression continuity.",
+    "Service-area slot: no primary:true entry and the HQ city (Santa Maria) has no service-area page (/service-areas/santa-maria-ca/ 301s to /). Fell back to the first area slug, /service-areas/vandenberg-village-ca/, matching August.",
+    "Issue IDs prefixed rankai_ are Rank AI derived checks, not vendor IDs. has_micromarkup_errors is a DataForSEO boolean with no per-error detail in instant_pages."
   ],
   "audited_urls": [
     {
       "url": "https://callcrs.com/",
+      "url_path": "/",
       "archetype": "home",
       "verdict": "green",
       "error_reason": null,
@@ -32,25 +30,12 @@
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 938,
+        "LCP_ms": 959,
         "CLS": 0.0024,
         "TBT_ms": 0,
         "INP_ms": null
       },
-      "onpage_meta": {
-        "http_status": 200,
-        "title": "Restoration Services in Santa Maria, CA",
-        "title_length": 39,
-        "meta_description_length": 152,
-        "h1": [
-          "Restoration Services in Santa Maria"
-        ],
-        "canonical": "https://callcrs.com/",
-        "canonical_self_referencing": true,
-        "word_count": 1426,
-        "broken_links": false,
-        "broken_resources": false
-      },
+      "onpage_score": 100,
       "lighthouse_issues": [
         {
           "id": "image-delivery-insight",
@@ -58,7 +43,9 @@
           "severity": "medium",
           "estimated_savings_ms": 50,
           "category": "performance",
-          "detail": "Header /images/logo.webp wastes ~20KB; hero-bg.webp has srcset but still ~17KB over."
+          "estimated_savings_bytes": 37488,
+          "failing_elements": 2,
+          "detail": null
         },
         {
           "id": "target-size",
@@ -66,24 +53,19 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "accessibility",
-          "detail": "Footer tel:+18053457440 and mailto:tony@callcrs.com links render 17px tall against a 24px minimum."
+          "estimated_savings_bytes": null,
+          "failing_elements": 2,
+          "detail": "Footer tel: and mailto: links render 17px tall against a 24px minimum."
         },
         {
           "id": "unused-javascript",
           "title": "Reduce unused JavaScript",
           "severity": "low",
-          "estimated_savings_ms": 110,
+          "estimated_savings_ms": 50,
           "category": "performance",
-          "estimated_savings_bytes": 70230,
-          "detail": "Google Tag Manager gtag.js (G-VHZE6NYBPE) ships ~159KB, ~43-44% unused on this page."
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "detail": "Critical request chain flagged (document then CSS/JS); Lighthouse estimates 0ms LCP savings."
+          "estimated_savings_bytes": 70367,
+          "failing_elements": 1,
+          "detail": "googletagmanager.com/gtag/js (G-VHZE6NYBPE) ships ~69KB of unused JS out of 159KB."
         },
         {
           "id": "cache-insight",
@@ -91,7 +73,19 @@
           "severity": "low",
           "estimated_savings_ms": null,
           "category": "performance",
-          "detail": "Cloudflare email-obfuscation script /cdn-cgi/scripts/.../email-decode.min.js served with a 2-day TTL; ~0 KiB savings."
+          "estimated_savings_bytes": 289,
+          "failing_elements": 1,
+          "detail": "Cloudflare Email Obfuscation script cdn-cgi/.../email-decode.min.js served with a 2-day TTL. Negligible bytes."
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": null,
+          "failing_elements": 3,
+          "detail": "Critical chain: document, then _astro/page.CyD_eNI3.js, _slug_ CSS, and Cloudflare cdn-cgi email-decode.min.js."
         },
         {
           "id": "render-blocking-insight",
@@ -99,13 +93,16 @@
           "severity": "low",
           "estimated_savings_ms": null,
           "category": "performance",
-          "detail": "Astro stylesheet /_astro/_slug_.BP1u6yHs.css (~9KB) blocks first paint."
+          "estimated_savings_bytes": null,
+          "failing_elements": 1,
+          "detail": "_astro/_slug_.BP1u6yHs.css (~9KB) blocks first paint."
         }
       ],
       "onpage_issues": []
     },
     {
       "url": "https://callcrs.com/services/",
+      "url_path": "/services/",
       "archetype": "services-hub",
       "verdict": "red",
       "error_reason": null,
@@ -116,25 +113,12 @@
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 929,
+        "LCP_ms": 969,
         "CLS": 0.0019,
-        "TBT_ms": 0,
+        "TBT_ms": 15,
         "INP_ms": null
       },
-      "onpage_meta": {
-        "http_status": 200,
-        "title": "Restoration Services in Vandenberg Village",
-        "title_length": 42,
-        "meta_description_length": 152,
-        "h1": [
-          "Our Restoration Services"
-        ],
-        "canonical": "https://callcrs.com/services/",
-        "canonical_self_referencing": true,
-        "word_count": 788,
-        "broken_links": false,
-        "broken_resources": false
-      },
+      "onpage_score": 100,
       "lighthouse_issues": [
         {
           "id": "image-delivery-insight",
@@ -142,23 +126,9 @@
           "severity": "medium",
           "estimated_savings_ms": 100,
           "category": "performance",
-          "detail": "Hero /images/hero-bg.webp (186KB) is served full-size with no srcset/sizes on this template; header /images/logo.webp (22KB) wastes ~20KB."
-        },
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "category": "accessibility",
-          "detail": "Breadcrumb links (class text-dark/50, #888c93 on #ffffff) measure 3.37:1 against a 4.5:1 requirement."
-        },
-        {
-          "id": "target-size",
-          "title": "Touch targets do not have sufficient size or spacing.",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "category": "accessibility",
-          "detail": "Footer tel:+18053457440 and mailto:tony@callcrs.com links render 17px tall against a 24px minimum."
+          "estimated_savings_bytes": 210186,
+          "failing_elements": 13,
+          "detail": null
         },
         {
           "id": "lcp-discovery-insight",
@@ -166,24 +136,39 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance",
-          "detail": "LCP hero <img> has loading=\"eager\" but no fetchpriority=\"high\"; the homepage template already sets it."
+          "estimated_savings_bytes": null,
+          "failing_elements": 2,
+          "detail": "LCP hero <img> lacks fetchpriority=\"high\" (homepage template already has it)."
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "estimated_savings_bytes": null,
+          "failing_elements": 1,
+          "detail": "Breadcrumb links (text-dark/50, #888c93 on #ffffff) measure 3.37:1 against 4.5:1. The brand-gold contrast failures from August are gone."
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "estimated_savings_bytes": null,
+          "failing_elements": 2,
+          "detail": "Footer tel: and mailto: links render 17px tall against a 24px minimum."
         },
         {
           "id": "unused-javascript",
           "title": "Reduce unused JavaScript",
           "severity": "low",
-          "estimated_savings_ms": 90,
+          "estimated_savings_ms": 100,
           "category": "performance",
-          "estimated_savings_bytes": 70281,
-          "detail": "Google Tag Manager gtag.js (G-VHZE6NYBPE) ships ~159KB, ~43-44% unused on this page."
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "detail": "Critical request chain flagged (document then CSS/JS); Lighthouse estimates 0ms LCP savings."
+          "estimated_savings_bytes": 70328,
+          "failing_elements": 1,
+          "detail": "googletagmanager.com/gtag/js (G-VHZE6NYBPE) ships ~69KB of unused JS out of 159KB."
         },
         {
           "id": "cache-insight",
@@ -191,7 +176,19 @@
           "severity": "low",
           "estimated_savings_ms": null,
           "category": "performance",
-          "detail": "Cloudflare email-obfuscation script /cdn-cgi/scripts/.../email-decode.min.js served with a 2-day TTL; ~0 KiB savings."
+          "estimated_savings_bytes": 285,
+          "failing_elements": 1,
+          "detail": "Cloudflare Email Obfuscation script cdn-cgi/.../email-decode.min.js served with a 2-day TTL. Negligible bytes."
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": null,
+          "failing_elements": 3,
+          "detail": "Critical chain: document, then _astro/page.CyD_eNI3.js, _slug_ CSS, and Cloudflare cdn-cgi email-decode.min.js."
         },
         {
           "id": "render-blocking-insight",
@@ -199,7 +196,9 @@
           "severity": "low",
           "estimated_savings_ms": null,
           "category": "performance",
-          "detail": "Astro stylesheet /_astro/_slug_.BP1u6yHs.css (~9KB) blocks first paint."
+          "estimated_savings_bytes": null,
+          "failing_elements": 1,
+          "detail": "_astro/_slug_.BP1u6yHs.css (~9KB) blocks first paint."
         }
       ],
       "onpage_issues": [
@@ -208,79 +207,53 @@
           "title": "Title/H1/meta target Vandenberg Village instead of the primary city Santa Maria",
           "severity": "high",
           "source": "rankai_derived",
-          "detail": "Live title, meta description reference Vandenberg Village; the approved url-plan specifies Santa Maria (plan-input service_areas marks santa-maria-ca primary: true, but it is entry [1], not [0]). Unresolved since the 2026-08-26 audit."
+          "detail": "Title \"Restoration Services in Vandenberg Village\" and meta description target Vandenberg Village; url-plan specifies Santa Maria."
         },
         {
           "id": "has_micromarkup_errors",
           "title": "Structured data has validation errors",
           "severity": "medium",
           "source": "dataforseo_onpage",
-          "detail": "DataForSEO flags JSON-LD validation errors on every template carrying FAQPage + BreadcrumbList (not the homepage, which carries neither). Likely causes: the final BreadcrumbList ListItem has no 'item' URL, and FAQ answer text contains raw markdown (**...**). Validate in the Rich Results Test to confirm."
+          "detail": "Flagged on every page carrying FAQPage/BreadcrumbList/Service JSON-LD; the homepage (Organization/WebSite/LocalBusiness only) passes. Likely candidates: final BreadcrumbList ListItem has no \"item\", LocalBusiness image/logo are relative paths, Service areaServed is just \"CA\"."
         },
         {
-          "id": "low_character_count",
-          "title": "Word count 788 is below the planned target 800",
+          "id": "rankai_word_count_below_target",
+          "title": "Word count 788 below url-plan target 800",
           "severity": "low",
-          "source": "dataforseo_onpage",
-          "detail": "Rendered 788 words against a url-plan target_word_count of 800."
+          "source": "rankai_derived",
+          "detail": "788 plain-text words vs target_word_count 800."
         }
       ]
     },
     {
       "url": "https://callcrs.com/services/water-damage-restoration/",
+      "url_path": "/services/water-damage-restoration/",
       "archetype": "service-landing",
       "verdict": "red",
       "error_reason": null,
       "scores": {
-        "performance": 99,
+        "performance": 97,
         "accessibility": 91,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 850,
+        "LCP_ms": 1226,
         "CLS": 0.0028,
         "TBT_ms": 0,
         "INP_ms": null
       },
-      "onpage_meta": {
-        "http_status": 200,
-        "title": "Water Damage Restoration in Vandenberg Village",
-        "title_length": 46,
-        "meta_description_length": 118,
-        "h1": [
-          "Water Damage Restoration in Vandenberg Village"
-        ],
-        "canonical": "https://callcrs.com/services/water-damage-restoration/",
-        "canonical_self_referencing": true,
-        "word_count": 2062,
-        "broken_links": false,
-        "broken_resources": false
-      },
+      "onpage_score": 100,
       "lighthouse_issues": [
         {
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "medium",
-          "estimated_savings_ms": 50,
+          "estimated_savings_ms": null,
           "category": "performance",
-          "detail": "Header /images/logo.webp (22KB) wastes ~20KB against its rendered slot."
-        },
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "category": "accessibility",
-          "detail": "Breadcrumb links (class text-dark/50, #888c93 on #ffffff) measure 3.37:1 against a 4.5:1 requirement."
-        },
-        {
-          "id": "target-size",
-          "title": "Touch targets do not have sufficient size or spacing.",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "category": "accessibility",
-          "detail": "Footer tel:+18053457440 and mailto:tony@callcrs.com links render 17px tall against a 24px minimum."
+          "estimated_savings_bytes": 20668,
+          "failing_elements": 1,
+          "detail": null
         },
         {
           "id": "lcp-discovery-insight",
@@ -288,24 +261,39 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance",
-          "detail": "LCP hero <img> has loading=\"eager\" but no fetchpriority=\"high\"; the homepage template already sets it."
+          "estimated_savings_bytes": null,
+          "failing_elements": 2,
+          "detail": "LCP hero <img> lacks fetchpriority=\"high\" (homepage template already has it)."
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "estimated_savings_bytes": null,
+          "failing_elements": 2,
+          "detail": "Breadcrumb links (text-dark/50, #888c93 on #ffffff) measure 3.37:1 against 4.5:1. The brand-gold contrast failures from August are gone."
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "estimated_savings_bytes": null,
+          "failing_elements": 2,
+          "detail": "Footer tel: and mailto: links render 17px tall against a 24px minimum."
         },
         {
           "id": "unused-javascript",
           "title": "Reduce unused JavaScript",
           "severity": "low",
-          "estimated_savings_ms": 30,
+          "estimated_savings_ms": 200,
           "category": "performance",
-          "estimated_savings_bytes": 67830,
-          "detail": "Google Tag Manager gtag.js (G-VHZE6NYBPE) ships ~159KB, ~43-44% unused on this page."
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "detail": "Critical request chain flagged (document then CSS/JS); Lighthouse estimates 0ms LCP savings."
+          "estimated_savings_bytes": 67954,
+          "failing_elements": 1,
+          "detail": "googletagmanager.com/gtag/js (G-VHZE6NYBPE) ships ~69KB of unused JS out of 159KB."
         },
         {
           "id": "cache-insight",
@@ -313,7 +301,29 @@
           "severity": "low",
           "estimated_savings_ms": null,
           "category": "performance",
-          "detail": "Cloudflare email-obfuscation script /cdn-cgi/scripts/.../email-decode.min.js served with a 2-day TTL; ~0 KiB savings."
+          "estimated_savings_bytes": 282,
+          "failing_elements": 1,
+          "detail": "Cloudflare Email Obfuscation script cdn-cgi/.../email-decode.min.js served with a 2-day TTL. Negligible bytes."
+        },
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": null,
+          "failing_elements": null,
+          "detail": "LCP 1.23s scores 0.89 on the metric (desktop)."
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": null,
+          "failing_elements": 3,
+          "detail": "Critical chain: document, then _astro/page.CyD_eNI3.js, _slug_ CSS, and Cloudflare cdn-cgi email-decode.min.js."
         },
         {
           "id": "render-blocking-insight",
@@ -321,7 +331,9 @@
           "severity": "low",
           "estimated_savings_ms": null,
           "category": "performance",
-          "detail": "Astro stylesheet /_astro/_slug_.BP1u6yHs.css (~9KB) blocks first paint."
+          "estimated_savings_bytes": null,
+          "failing_elements": 1,
+          "detail": "_astro/_slug_.BP1u6yHs.css (~9KB) blocks first paint."
         }
       ],
       "onpage_issues": [
@@ -330,19 +342,20 @@
           "title": "Title/H1/meta target Vandenberg Village instead of the primary city Santa Maria",
           "severity": "high",
           "source": "rankai_derived",
-          "detail": "Live title, meta description, H1 reference Vandenberg Village; the approved url-plan specifies Santa Maria (plan-input service_areas marks santa-maria-ca primary: true, but it is entry [1], not [0]). Unresolved since the 2026-08-26 audit."
+          "detail": "Title, H1 and meta description read \"Water Damage Restoration in Vandenberg Village\"; url-plan specifies Santa Maria."
         },
         {
           "id": "has_micromarkup_errors",
           "title": "Structured data has validation errors",
           "severity": "medium",
           "source": "dataforseo_onpage",
-          "detail": "DataForSEO flags JSON-LD validation errors on every template carrying FAQPage + BreadcrumbList (not the homepage, which carries neither). Likely causes: the final BreadcrumbList ListItem has no 'item' URL, and FAQ answer text contains raw markdown (**...**). Validate in the Rich Results Test to confirm."
+          "detail": "Flagged on every page carrying FAQPage/BreadcrumbList/Service JSON-LD; the homepage (Organization/WebSite/LocalBusiness only) passes. Likely candidates: final BreadcrumbList ListItem has no \"item\", LocalBusiness image/logo are relative paths, Service areaServed is just \"CA\"."
         }
       ]
     },
     {
       "url": "https://callcrs.com/services/fire-damage-restoration/",
+      "url_path": "/services/fire-damage-restoration/",
       "archetype": "service-landing",
       "verdict": "red",
       "error_reason": null,
@@ -353,49 +366,22 @@
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 870,
+        "LCP_ms": 832,
         "CLS": 0.0027,
         "TBT_ms": 0,
         "INP_ms": null
       },
-      "onpage_meta": {
-        "http_status": 200,
-        "title": "Fire Damage Restoration in Vandenberg Village",
-        "title_length": 45,
-        "meta_description_length": 117,
-        "h1": [
-          "Fire Damage Restoration in Vandenberg Village"
-        ],
-        "canonical": "https://callcrs.com/services/fire-damage-restoration/",
-        "canonical_self_referencing": true,
-        "word_count": 1886,
-        "broken_links": false,
-        "broken_resources": false
-      },
+      "onpage_score": 100,
       "lighthouse_issues": [
         {
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "medium",
-          "estimated_savings_ms": 50,
+          "estimated_savings_ms": null,
           "category": "performance",
-          "detail": "Header /images/logo.webp (22KB) wastes ~20KB against its rendered slot."
-        },
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "category": "accessibility",
-          "detail": "Breadcrumb links (class text-dark/50, #888c93 on #ffffff) measure 3.37:1 against a 4.5:1 requirement."
-        },
-        {
-          "id": "target-size",
-          "title": "Touch targets do not have sufficient size or spacing.",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "category": "accessibility",
-          "detail": "Footer tel:+18053457440 and mailto:tony@callcrs.com links render 17px tall against a 24px minimum."
+          "estimated_savings_bytes": 20668,
+          "failing_elements": 1,
+          "detail": null
         },
         {
           "id": "lcp-discovery-insight",
@@ -403,32 +389,39 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance",
-          "detail": "LCP hero <img> has loading=\"eager\" but no fetchpriority=\"high\"; the homepage template already sets it."
+          "estimated_savings_bytes": null,
+          "failing_elements": 2,
+          "detail": "LCP hero <img> lacks fetchpriority=\"high\" (homepage template already has it)."
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "estimated_savings_bytes": null,
+          "failing_elements": 2,
+          "detail": "Breadcrumb links (text-dark/50, #888c93 on #ffffff) measure 3.37:1 against 4.5:1. The brand-gold contrast failures from August are gone."
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "estimated_savings_bytes": null,
+          "failing_elements": 2,
+          "detail": "Footer tel: and mailto: links render 17px tall against a 24px minimum."
         },
         {
           "id": "unused-javascript",
           "title": "Reduce unused JavaScript",
           "severity": "low",
-          "estimated_savings_ms": 70,
+          "estimated_savings_ms": 50,
           "category": "performance",
-          "estimated_savings_bytes": 70285,
-          "detail": "Google Tag Manager gtag.js (G-VHZE6NYBPE) ships ~159KB, ~43-44% unused on this page."
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "detail": "Critical request chain flagged (document then CSS/JS); Lighthouse estimates 0ms LCP savings."
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "detail": "Astro stylesheet /_astro/_slug_.BP1u6yHs.css (~9KB) blocks first paint."
+          "estimated_savings_bytes": 70229,
+          "failing_elements": 1,
+          "detail": "googletagmanager.com/gtag/js (G-VHZE6NYBPE) ships ~69KB of unused JS out of 159KB."
         },
         {
           "id": "cache-insight",
@@ -436,7 +429,39 @@
           "severity": "low",
           "estimated_savings_ms": null,
           "category": "performance",
-          "detail": "Cloudflare email-obfuscation script /cdn-cgi/scripts/.../email-decode.min.js served with a 2-day TTL; ~0 KiB savings."
+          "estimated_savings_bytes": 279,
+          "failing_elements": 1,
+          "detail": "Cloudflare Email Obfuscation script cdn-cgi/.../email-decode.min.js served with a 2-day TTL. Negligible bytes."
+        },
+        {
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": null,
+          "failing_elements": 1,
+          "detail": "A script forces synchronous layout during load. No measurable savings reported."
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": null,
+          "failing_elements": 3,
+          "detail": "Critical chain: document, then _astro/page.CyD_eNI3.js, _slug_ CSS, and Cloudflare cdn-cgi email-decode.min.js."
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": null,
+          "failing_elements": 1,
+          "detail": "_astro/_slug_.BP1u6yHs.css (~9KB) blocks first paint."
         }
       ],
       "onpage_issues": [
@@ -445,72 +470,46 @@
           "title": "Title/H1/meta target Vandenberg Village instead of the primary city Santa Maria",
           "severity": "high",
           "source": "rankai_derived",
-          "detail": "Live title, meta description, H1 reference Vandenberg Village; the approved url-plan specifies Santa Maria (plan-input service_areas marks santa-maria-ca primary: true, but it is entry [1], not [0]). Unresolved since the 2026-08-26 audit."
+          "detail": "Title, H1 and meta description read \"Fire Damage Restoration in Vandenberg Village\"; url-plan specifies Santa Maria."
         },
         {
           "id": "has_micromarkup_errors",
           "title": "Structured data has validation errors",
           "severity": "medium",
           "source": "dataforseo_onpage",
-          "detail": "DataForSEO flags JSON-LD validation errors on every template carrying FAQPage + BreadcrumbList (not the homepage, which carries neither). Likely causes: the final BreadcrumbList ListItem has no 'item' URL, and FAQ answer text contains raw markdown (**...**). Validate in the Rich Results Test to confirm."
+          "detail": "Flagged on every page carrying FAQPage/BreadcrumbList/Service JSON-LD; the homepage (Organization/WebSite/LocalBusiness only) passes. Likely candidates: final BreadcrumbList ListItem has no \"item\", LocalBusiness image/logo are relative paths, Service areaServed is just \"CA\"."
         }
       ]
     },
     {
       "url": "https://callcrs.com/service-areas/vandenberg-village-ca/",
+      "url_path": "/service-areas/vandenberg-village-ca/",
       "archetype": "service-area",
       "verdict": "amber",
       "error_reason": null,
       "scores": {
-        "performance": 99,
+        "performance": 98,
         "accessibility": 91,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 908,
+        "LCP_ms": 947,
         "CLS": 0.0236,
         "TBT_ms": 0,
         "INP_ms": null
       },
-      "onpage_meta": {
-        "http_status": 200,
-        "title": "Restoration Services in Vandenberg Village, CA",
-        "title_length": 46,
-        "meta_description_length": 123,
-        "h1": [
-          "Restoration Services in Vandenberg Village"
-        ],
-        "canonical": "https://callcrs.com/service-areas/vandenberg-village-ca/",
-        "canonical_self_referencing": true,
-        "word_count": 1351,
-        "broken_links": false,
-        "broken_resources": false
-      },
+      "onpage_score": 100,
       "lighthouse_issues": [
         {
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "medium",
-          "estimated_savings_ms": 50,
+          "estimated_savings_ms": 100,
           "category": "performance",
-          "detail": "Hero /images/hero-bg.webp (186KB) is served full-size with no srcset/sizes on this template; header /images/logo.webp (22KB) wastes ~20KB."
-        },
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "category": "accessibility",
-          "detail": "Breadcrumb links (text-dark/50, #888c93 on #ffffff) measure 3.37:1 and the '29 Google reviews' label (#94a3b8 on #ffffff) measures 2.56:1, against a 4.5:1 requirement."
-        },
-        {
-          "id": "target-size",
-          "title": "Touch targets do not have sufficient size or spacing.",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "category": "accessibility",
-          "detail": "Footer tel:+18053457440 and mailto:tony@callcrs.com links render 17px tall against a 24px minimum."
+          "estimated_savings_bytes": 90305,
+          "failing_elements": 2,
+          "detail": null
         },
         {
           "id": "lcp-discovery-insight",
@@ -518,32 +517,39 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance",
-          "detail": "LCP hero <img> has loading=\"eager\" but no fetchpriority=\"high\"; the homepage template already sets it."
+          "estimated_savings_bytes": null,
+          "failing_elements": 2,
+          "detail": "LCP hero <img> lacks fetchpriority=\"high\" (homepage template already has it)."
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "estimated_savings_bytes": null,
+          "failing_elements": 3,
+          "detail": "Breadcrumb links (text-dark/50, #888c93 on #ffffff) measure 3.37:1 against 4.5:1. The brand-gold contrast failures from August are gone."
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "estimated_savings_bytes": null,
+          "failing_elements": 2,
+          "detail": "Footer tel: and mailto: links render 17px tall against a 24px minimum."
         },
         {
           "id": "unused-javascript",
           "title": "Reduce unused JavaScript",
           "severity": "low",
-          "estimated_savings_ms": 90,
+          "estimated_savings_ms": 150,
           "category": "performance",
-          "estimated_savings_bytes": 69604,
-          "detail": "Google Tag Manager gtag.js (G-VHZE6NYBPE) ships ~159KB, ~43-44% unused on this page."
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "detail": "Critical request chain flagged (document then CSS/JS); Lighthouse estimates 0ms LCP savings."
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "detail": "Astro stylesheet /_astro/_slug_.BP1u6yHs.css (~9KB) blocks first paint."
+          "estimated_savings_bytes": 70229,
+          "failing_elements": 1,
+          "detail": "googletagmanager.com/gtag/js (G-VHZE6NYBPE) ships ~69KB of unused JS out of 159KB."
         },
         {
           "id": "cache-insight",
@@ -551,7 +557,39 @@
           "severity": "low",
           "estimated_savings_ms": null,
           "category": "performance",
-          "detail": "Cloudflare email-obfuscation script /cdn-cgi/scripts/.../email-decode.min.js served with a 2-day TTL; ~0 KiB savings."
+          "estimated_savings_bytes": 278,
+          "failing_elements": 1,
+          "detail": "Cloudflare Email Obfuscation script cdn-cgi/.../email-decode.min.js served with a 2-day TTL. Negligible bytes."
+        },
+        {
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": null,
+          "failing_elements": 1,
+          "detail": "A script forces synchronous layout during load. No measurable savings reported."
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": null,
+          "failing_elements": 3,
+          "detail": "Critical chain: document, then _astro/page.CyD_eNI3.js, _slug_ CSS, and Cloudflare cdn-cgi email-decode.min.js."
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": null,
+          "failing_elements": 1,
+          "detail": "_astro/_slug_.BP1u6yHs.css (~9KB) blocks first paint."
         }
       ],
       "onpage_issues": [
@@ -560,19 +598,20 @@
           "title": "Structured data has validation errors",
           "severity": "medium",
           "source": "dataforseo_onpage",
-          "detail": "DataForSEO flags JSON-LD validation errors on every template carrying FAQPage + BreadcrumbList (not the homepage, which carries neither). Likely causes: the final BreadcrumbList ListItem has no 'item' URL, and FAQ answer text contains raw markdown (**...**). Validate in the Rich Results Test to confirm."
+          "detail": "Flagged on every page carrying FAQPage/BreadcrumbList/Service JSON-LD; the homepage (Organization/WebSite/LocalBusiness only) passes. Likely candidates: final BreadcrumbList ListItem has no \"item\", LocalBusiness image/logo are relative paths, Service areaServed is just \"CA\"."
         },
         {
           "id": "frame",
-          "title": "Page contains an iframe",
+          "title": "Page contains a frame/iframe",
           "severity": "low",
           "source": "dataforseo_onpage",
-          "detail": "Embedded map iframe. Informational; no action required unless it delays LCP."
+          "detail": "Embedded Google Map iframe. Expected on a service-area page; informational."
         }
       ]
     },
     {
       "url": "https://callcrs.com/contact/",
+      "url_path": "/contact/",
       "archetype": "contact",
       "verdict": "red",
       "error_reason": null,
@@ -583,25 +622,12 @@
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 872,
+        "LCP_ms": 1035,
         "CLS": 0.0174,
         "TBT_ms": 0,
         "INP_ms": null
       },
-      "onpage_meta": {
-        "http_status": 200,
-        "title": "Contact Coastal Restoration Services Inc",
-        "title_length": 40,
-        "meta_description_length": 131,
-        "h1": [
-          "Contact Coastal Restoration Services Inc"
-        ],
-        "canonical": "https://callcrs.com/contact/",
-        "canonical_self_referencing": true,
-        "word_count": 694,
-        "broken_links": false,
-        "broken_resources": false
-      },
+      "onpage_score": 100,
       "lighthouse_issues": [
         {
           "id": "image-delivery-insight",
@@ -609,23 +635,9 @@
           "severity": "medium",
           "estimated_savings_ms": 100,
           "category": "performance",
-          "detail": "Hero /images/hero-bg.webp (186KB) is served full-size with no srcset/sizes on this template; header /images/logo.webp (22KB) wastes ~20KB."
-        },
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "category": "accessibility",
-          "detail": "Breadcrumb links (class text-dark/50, #888c93 on #ffffff) measure 3.37:1 against a 4.5:1 requirement."
-        },
-        {
-          "id": "target-size",
-          "title": "Touch targets do not have sufficient size or spacing.",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "category": "accessibility",
-          "detail": "Footer tel:+18053457440 and mailto:tony@callcrs.com links render 17px tall against a 24px minimum."
+          "estimated_savings_bytes": 149248,
+          "failing_elements": 2,
+          "detail": null
         },
         {
           "id": "lcp-discovery-insight",
@@ -633,24 +645,39 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance",
-          "detail": "LCP hero <img> has loading=\"eager\" but no fetchpriority=\"high\"; the homepage template already sets it."
+          "estimated_savings_bytes": null,
+          "failing_elements": 2,
+          "detail": "LCP hero <img> lacks fetchpriority=\"high\" (homepage template already has it)."
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "estimated_savings_bytes": null,
+          "failing_elements": 1,
+          "detail": "Breadcrumb links (text-dark/50, #888c93 on #ffffff) measure 3.37:1 against 4.5:1. The brand-gold contrast failures from August are gone."
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "estimated_savings_bytes": null,
+          "failing_elements": 2,
+          "detail": "Footer tel: and mailto: links render 17px tall against a 24px minimum."
         },
         {
           "id": "unused-javascript",
           "title": "Reduce unused JavaScript",
           "severity": "low",
-          "estimated_savings_ms": 70,
+          "estimated_savings_ms": 100,
           "category": "performance",
-          "estimated_savings_bytes": 70273,
-          "detail": "Google Tag Manager gtag.js (G-VHZE6NYBPE) ships ~159KB, ~43-44% unused on this page."
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "detail": "Critical request chain flagged (document then CSS/JS); Lighthouse estimates 0ms LCP savings."
+          "estimated_savings_bytes": 70229,
+          "failing_elements": 1,
+          "detail": "googletagmanager.com/gtag/js (G-VHZE6NYBPE) ships ~69KB of unused JS out of 159KB."
         },
         {
           "id": "cache-insight",
@@ -658,7 +685,19 @@
           "severity": "low",
           "estimated_savings_ms": null,
           "category": "performance",
-          "detail": "Cloudflare email-obfuscation script /cdn-cgi/scripts/.../email-decode.min.js served with a 2-day TTL; ~0 KiB savings."
+          "estimated_savings_bytes": 278,
+          "failing_elements": 1,
+          "detail": "Cloudflare Email Obfuscation script cdn-cgi/.../email-decode.min.js served with a 2-day TTL. Negligible bytes."
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": null,
+          "failing_elements": 3,
+          "detail": "Critical chain: document, then _astro/page.CyD_eNI3.js, _slug_ CSS, and Cloudflare cdn-cgi email-decode.min.js."
         },
         {
           "id": "render-blocking-insight",
@@ -666,7 +705,9 @@
           "severity": "low",
           "estimated_savings_ms": null,
           "category": "performance",
-          "detail": "Astro stylesheet /_astro/_slug_.BP1u6yHs.css (~9KB) blocks first paint."
+          "estimated_savings_bytes": null,
+          "failing_elements": 1,
+          "detail": "_astro/_slug_.BP1u6yHs.css (~9KB) blocks first paint."
         }
       ],
       "onpage_issues": [
@@ -675,21 +716,21 @@
           "title": "Title/H1/meta target Vandenberg Village instead of the primary city Santa Maria",
           "severity": "high",
           "source": "rankai_derived",
-          "detail": "Live meta description reference Vandenberg Village; the approved url-plan specifies Santa Maria (plan-input service_areas marks santa-maria-ca primary: true, but it is entry [1], not [0]). Unresolved since the 2026-08-26 audit."
+          "detail": "Meta description reads \"restoration services in Vandenberg Village\"; url-plan specifies Santa Maria."
         },
         {
           "id": "has_micromarkup_errors",
           "title": "Structured data has validation errors",
           "severity": "medium",
           "source": "dataforseo_onpage",
-          "detail": "DataForSEO flags JSON-LD validation errors on every template carrying FAQPage + BreadcrumbList (not the homepage, which carries neither). Likely causes: the final BreadcrumbList ListItem has no 'item' URL, and FAQ answer text contains raw markdown (**...**). Validate in the Rich Results Test to confirm."
+          "detail": "Flagged on every page carrying FAQPage/BreadcrumbList/Service JSON-LD; the homepage (Organization/WebSite/LocalBusiness only) passes. Likely candidates: final BreadcrumbList ListItem has no \"item\", LocalBusiness image/logo are relative paths, Service areaServed is just \"CA\"."
         }
       ]
     }
   ],
   "site_rollup": {
     "avg_scores": {
-      "performance": 99.0,
+      "performance": 98.5,
       "accessibility": 91.8,
       "best_practices": 100.0,
       "seo": 100.0
@@ -722,14 +763,14 @@
         "severity": "low"
       },
       {
-        "id": "network-dependency-tree-insight",
-        "title": "Network dependency tree",
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
         "affected_urls": 6,
         "severity": "low"
       },
       {
-        "id": "cache-insight",
-        "title": "Use efficient cache lifetimes",
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
         "affected_urls": 6,
         "severity": "low"
       },
@@ -740,14 +781,14 @@
         "severity": "low"
       },
       {
-        "id": "color-contrast",
-        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
         "affected_urls": 5,
         "severity": "medium"
       },
       {
-        "id": "lcp-discovery-insight",
-        "title": "LCP request discovery",
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
         "affected_urls": 5,
         "severity": "medium"
       },
@@ -762,6 +803,12 @@
         "title": "Title/H1/meta target Vandenberg Village instead of the primary city Santa Maria",
         "affected_urls": 4,
         "severity": "high"
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
+        "affected_urls": 2,
+        "severity": "low"
       }
     ],
     "money_page_alerts": [
@@ -769,52 +816,159 @@
         "url": "https://callcrs.com/services/",
         "archetype": "services-hub",
         "verdict": "red",
-        "main_issue": "Title/H1/meta target Vandenberg Village instead of the primary city Santa Maria"
+        "main_issue": "wrong primary city in title/meta (Vandenberg Village vs Santa Maria); schema validation errors"
       },
       {
         "url": "https://callcrs.com/services/water-damage-restoration/",
         "archetype": "service-landing",
         "verdict": "red",
-        "main_issue": "Title/H1/meta target Vandenberg Village instead of the primary city Santa Maria"
+        "main_issue": "wrong primary city in title/H1/meta; schema validation errors; LCP 1.23s"
       },
       {
         "url": "https://callcrs.com/services/fire-damage-restoration/",
         "archetype": "service-landing",
         "verdict": "red",
-        "main_issue": "Title/H1/meta target Vandenberg Village instead of the primary city Santa Maria"
+        "main_issue": "wrong primary city in title/H1/meta; schema validation errors"
       },
       {
         "url": "https://callcrs.com/contact/",
         "archetype": "contact",
         "verdict": "red",
-        "main_issue": "Title/H1/meta target Vandenberg Village instead of the primary city Santa Maria"
+        "main_issue": "wrong primary city in meta description; schema validation errors"
       }
     ]
   },
   "regression": {
     "prior_run_at": "2026-08-26T14:37:01Z",
-    "prior_live_origin_source": "staging",
+    "prior_live_origin": "https://staging.rankai-coastal-restoration-services.pages.dev",
     "score_deltas": {
-      "performance": -0.5,
+      "performance": -1.0,
       "accessibility": 0.6,
       "best_practices": 0.0,
       "seo": 31.0
     },
-    "seo_delta_comparable": false,
-    "site_level_regressions": [],
-    "url_regressions": [],
+    "per_url": [
+      {
+        "url": "https://callcrs.com/",
+        "url_path": "/",
+        "score_deltas": {
+          "performance": 0,
+          "accessibility": 4,
+          "best_practices": 0,
+          "seo": 31
+        },
+        "cwv_deltas": {
+          "LCP_ms": 123,
+          "CLS": -0.0003,
+          "TBT_ms": 0
+        },
+        "regressions": []
+      },
+      {
+        "url": "https://callcrs.com/services/",
+        "url_path": "/services/",
+        "score_deltas": {
+          "performance": 0,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 31
+        },
+        "cwv_deltas": {
+          "LCP_ms": 129,
+          "CLS": -0.0001,
+          "TBT_ms": 15
+        },
+        "regressions": []
+      },
+      {
+        "url": "https://callcrs.com/services/water-damage-restoration/",
+        "url_path": "/services/water-damage-restoration/",
+        "score_deltas": {
+          "performance": -3,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 31
+        },
+        "cwv_deltas": {
+          "LCP_ms": 435,
+          "CLS": -0.0002,
+          "TBT_ms": 0
+        },
+        "regressions": [
+          "LCP +435ms"
+        ]
+      },
+      {
+        "url": "https://callcrs.com/services/fire-damage-restoration/",
+        "url_path": "/services/fire-damage-restoration/",
+        "score_deltas": {
+          "performance": -1,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 31
+        },
+        "cwv_deltas": {
+          "LCP_ms": 48,
+          "CLS": -0.0003,
+          "TBT_ms": 0
+        },
+        "regressions": []
+      },
+      {
+        "url": "https://callcrs.com/service-areas/vandenberg-village-ca/",
+        "url_path": "/service-areas/vandenberg-village-ca/",
+        "score_deltas": {
+          "performance": -2,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 31
+        },
+        "cwv_deltas": {
+          "LCP_ms": 166,
+          "CLS": 0.0,
+          "TBT_ms": 0
+        },
+        "regressions": []
+      },
+      {
+        "url": "https://callcrs.com/contact/",
+        "url_path": "/contact/",
+        "score_deltas": {
+          "performance": 0,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 31
+        },
+        "cwv_deltas": {
+          "LCP_ms": 206,
+          "CLS": 0.0154,
+          "TBT_ms": 0
+        },
+        "regressions": [
+          "LCP +206ms"
+        ]
+      }
+    ],
+    "metric_regressions": [
+      {
+        "url": "https://callcrs.com/services/water-damage-restoration/",
+        "metric": "LCP +435ms"
+      },
+      {
+        "url": "https://callcrs.com/contact/",
+        "metric": "LCP +206ms"
+      }
+    ],
     "verdict_transitions": [
       {
         "url": "https://callcrs.com/",
         "from": "red",
-        "to": "green",
-        "direction": "improved"
+        "to": "green"
       },
       {
         "url": "https://callcrs.com/service-areas/vandenberg-village-ca/",
         "from": "red",
-        "to": "amber",
-        "direction": "improved"
+        "to": "amber"
       }
     ],
     "new_issues": [
@@ -844,6 +998,11 @@
         "title": "Structured data has validation errors"
       },
       {
+        "url": "https://callcrs.com/services/",
+        "id": "rankai_word_count_below_target",
+        "title": "Word count 788 below url-plan target 800"
+      },
+      {
         "url": "https://callcrs.com/services/water-damage-restoration/",
         "id": "unused-javascript",
         "title": "Reduce unused JavaScript"
@@ -852,6 +1011,11 @@
         "url": "https://callcrs.com/services/water-damage-restoration/",
         "id": "cache-insight",
         "title": "Use efficient cache lifetimes"
+      },
+      {
+        "url": "https://callcrs.com/services/water-damage-restoration/",
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint"
       },
       {
         "url": "https://callcrs.com/services/water-damage-restoration/",
@@ -870,6 +1034,11 @@
       },
       {
         "url": "https://callcrs.com/services/fire-damage-restoration/",
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
+      },
+      {
+        "url": "https://callcrs.com/services/fire-damage-restoration/",
         "id": "has_micromarkup_errors",
         "title": "Structured data has validation errors"
       },
@@ -882,6 +1051,11 @@
         "url": "https://callcrs.com/service-areas/vandenberg-village-ca/",
         "id": "cache-insight",
         "title": "Use efficient cache lifetimes"
+      },
+      {
+        "url": "https://callcrs.com/service-areas/vandenberg-village-ca/",
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
       },
       {
         "url": "https://callcrs.com/service-areas/vandenberg-village-ca/",
@@ -939,6 +1113,11 @@
         "url": "https://callcrs.com/services/",
         "id": "rankai_jsonld_invalid_entity_id",
         "title": "JSON-LD @id and url properties point to https://None"
+      },
+      {
+        "url": "https://callcrs.com/services/",
+        "id": "low_character_count",
+        "title": "Word count 790 is below the planned target 800"
       },
       {
         "url": "https://callcrs.com/services/water-damage-restoration/",
@@ -1001,5 +1180,6 @@
         "title": "JSON-LD @id and url properties point to https://None"
       }
     ]
-  }
+  },
+  "cost_usd": 0.0408
 }

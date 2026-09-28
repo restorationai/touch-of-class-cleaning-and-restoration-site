@@ -23,7 +23,7 @@
   "status": "active",
   "video_publish_mode": "public",
   "created_at": "2026-06-29T20:08:03.446673+00:00",
-  "updated_at": "2026-09-28T21:30:06Z",
+  "updated_at": "2026-09-28T22:25:27Z",
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
@@ -54,12 +54,12 @@
   },
   "cut_over_at": "2026-07-04T20:30:00Z",
   "audit": {
-    "last_audit_at": "2026-09-28T21:27:15Z",
+    "last_audit_at": "2026-09-28T22:40:00Z",
     "last_audit_verdict": "green",
     "last_audit_report_path": "audit-runs/2026-09-28-onsite-audit.md"
   },
   "refresh": {
-    "last_run_at": "2026-09-28T21:30:06Z",
+    "last_run_at": "2026-09-28T22:25:27Z",
     "last_run_total_actions": 0,
     "last_run_top_action": "none",
     "last_run_report_path": "clients/flood-fixers/refresh-runs/2026-09-28-refresh-recommender.md"

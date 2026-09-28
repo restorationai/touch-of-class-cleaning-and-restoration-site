@@ -10,7 +10,7 @@
   "r2": null,
   "status": "pending",
   "created_at": "2026-07-08T00:00:00+00:00",
-  "updated_at": "2026-09-28T21:44:51Z",
+  "updated_at": "2026-09-28T22:06:39Z",
   "nap": {
     "name": "AAA Water Damage Restoration & Carpet Care",
     "street": "",
@@ -64,7 +64,7 @@
   "company_id": "CO-1783963933703",
   "indexnow_key": "be5d663f394b49babe59a73fec5955f4",
   "audit": {
-    "last_audit_at": "2026-09-28T21:44:51Z",
+    "last_audit_at": "2026-09-28T22:06:39Z",
     "last_audit_verdict": "amber",
     "last_audit_report_path": "audit-runs/2026-09-28-onsite-audit.md"
   }

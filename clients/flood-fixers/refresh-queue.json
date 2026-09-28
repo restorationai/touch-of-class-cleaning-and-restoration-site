@@ -3,7 +3,7 @@
   "slug": "flood-fixers",
   "site": "flood-fixers.com",
   "origin": "https://flood-fixers.com",
-  "generated_at": "2026-09-28T21:30:06Z",
+  "generated_at": "2026-09-28T22:25:27Z",
   "gsc_enabled": false,
   "totals": {
     "total_actions": 0,
@@ -22,9 +22,10 @@
   },
   "items": [],
   "notes": [
-    "URLs skipped because already in content-queue: none (15 candidate URLs appear in content-queue.json but all are status published or written; the 6 queued items have no post_url yet)",
-    "URLs where date extraction failed: none (97 json_ld_date_modified, 23 sitemap_lastmod, 0 HTML fetch failures)",
-    "All 120 URLs are 0-91 days old with no layer-1 flags; oldest is 91 days vs 305-day aging threshold",
-    "v1 limitations: no GSC indexing flags, no striking_queries or low_ctr demand signals"
+    "URLs skipped because already in content-queue: none. 15 candidate URLs appear in content-queue.json as post_url, but all carry status published (12) or written (3), not an active status in {queued, in_progress, needs_review}. The 6 active queued items are unpublished and carry no post_url, so they cannot collide with a live URL.",
+    "URLs where date extraction failed: none. All 120 inspected URLs resolved a date (97 via json_ld_date_modified, 23 via sitemap_lastmod); failed_html_count is 0.",
+    "v1 limitations: no GSC indexing flags. not_indexed and index_warning are unavailable, so request_indexing and fix_canonical are unreachable. No candidate carried search_signals, so the v2 striking_queries and low_ctr paths did not fire.",
+    "All 120 candidates are fresh: every URL has empty flags and age_days between 0 and 91, below the 305-day aging threshold. Earliest possible aging trip is 2027-04-30 (oldest cohort dated 2026-06-29).",
+    "Coverage observation (not an action): url-plan.json now lists 133 pages absent from the sitemap, all status 'planned', including /services/, all 7 service-landing pages, 16 newly planned service-area pages and their service-area-service children. 20 live URLs (15 blog posts plus /case-studies/, /certifications/, /embed/estimate/, /emergency/, /reviews/) have no url-plan entry and were classified by URL pattern only."
   ]
 }
