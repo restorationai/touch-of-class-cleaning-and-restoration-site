@@ -1,6 +1,71 @@
 {
   "items": [
     {
+      "id": "2026-09-28-sewage-backup-cleanup-thonotosassa-fl",
+      "status": "queued",
+      "queued_at": "2026-09-28T09:27:46Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "sewage-backup-cleanup-thonotosassa-fl",
+      "primary_keyword": "sewage backup cleanup Thonotosassa FL",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "thonotosassa-fl",
+      "source": "app target-term (dev-agent-gameplan)"
+    },
+    {
+      "id": "2026-09-28-hurricane-storm-damage-repair-thonotosassa-fl",
+      "status": "queued",
+      "queued_at": "2026-09-28T09:27:46Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "hurricane-storm-damage-repair-thonotosassa-fl",
+      "primary_keyword": "hurricane storm damage repair Thonotosassa FL",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "thonotosassa-fl",
+      "source": "app target-term (dev-agent-gameplan)"
+    },
+    {
+      "id": "2026-09-28-mold-prevention-humid-climate-thonotosassa-fl",
+      "status": "queued",
+      "queued_at": "2026-09-28T09:27:46Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "mold-prevention-humid-climate-thonotosassa-fl",
+      "primary_keyword": "mold prevention humid climate Thonotosassa FL",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "thonotosassa-fl",
+      "source": "app target-term (dev-agent-gameplan)"
+    },
+    {
+      "id": "2026-09-28-what-to-do-after-a-flood-thonotosassa-fl",
+      "status": "queued",
+      "queued_at": "2026-09-28T09:27:46Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "what-to-do-after-a-flood-thonotosassa-fl",
+      "primary_keyword": "what to do after a flood Thonotosassa FL",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "thonotosassa-fl",
+      "source": "app target-term (dev-agent-gameplan)"
+    },
+    {
+      "id": "2026-09-28-water-damage-restoration-cost-thonotosassa-fl",
+      "status": "queued",
+      "queued_at": "2026-09-28T09:27:46Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "water-damage-restoration-cost-thonotosassa-fl",
+      "primary_keyword": "water damage restoration cost Thonotosassa FL",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "thonotosassa-fl",
+      "source": "app target-term (dev-agent-gameplan)"
+    },
+    {
       "id": "2026-09-17-water-damage-restoration-cost-fl",
       "status": "written",
       "queued_at": "2026-09-17T20:47:05Z",
