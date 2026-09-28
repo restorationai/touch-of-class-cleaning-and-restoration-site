@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+burst frozen pipe,transactional,720,9,,1,frozen pipe damage,,,false
+frozen pipe repair,transactional,390,0,,2,frozen pipe damage,,,false
+frozen pipe repair near me,transactional,260,0,,2,frozen pipe damage,,,false
+who to call for frozen pipes,commercial,720,5,,1,frozen pipe damage,,,false
+how much does it cost to fix a frozen pipe,commercial,170,0,,2,frozen pipe damage,,,false
+frozen pipe burst repair cost,commercial,90,0,,2,frozen pipe damage,,,false
+how much does frozen pipe water damage cost to repair,commercial,,,,2,frozen pipe damage,,,false
+how to prevent pipes from freezing,informational,18100,31,0.52,1,frozen pipe damage,,,false
+frozen pipes,informational,8100,13,3.45,1,frozen pipe damage,,,false
+at what temperature do pipes freeze,informational,8100,12,,1,frozen pipe damage,,,false
+what to do if pipes freeze,informational,4400,13,,1,frozen pipe damage,,,false
+how to keep pipes from freezing without heat,informational,1600,6,1.82,1,frozen pipe damage,,,false
+what happens if your pipes freeze,informational,1000,9,,1,frozen pipe damage,,,false
+frozen pipes burst,informational,720,13,,1,frozen pipe damage,,,false
+will shutting off water keep pipes from freezing,informational,720,10,,1,frozen pipe damage,,,false
+signs of frozen pipes,informational,590,8,,1,frozen pipe damage,,,false
+frozen pipe in house,informational,590,19,,1,frozen pipe damage,,,false
+how to keep pipes from freezing on outside wall,informational,480,14,2.37,1,frozen pipe damage,,,false
+pipes frozen for 2 days,informational,390,3,,1,frozen pipe damage,,,false
+does homeowners insurance cover frozen pipes,informational,320,7,,1,frozen pipe damage,,,false
+how to prevent frozen pipes from bursting,informational,210,12,0.02,1,frozen pipe damage,,,false
+crawl space frozen pipes,informational,140,4,,1,frozen pipe damage,,,false
+frozen pipe damage,informational,110,10,,1,frozen pipe damage,,,false
+what causes frozen pipes to burst,informational,70,30,,1,frozen pipe damage,,,false
+frozen pipe water damage,informational,70,5,,1,frozen pipe damage,,,false
+do pipes burst when they freeze or thaw,informational,70,12,,1,frozen pipe damage,,,false
+how to thaw a frozen pipe,informational,4400,0,,2,frozen pipe damage,,,false
+how to tell if pipes are frozen,informational,3600,0,,2,frozen pipe damage,,,false
+will frozen pipes thaw on their own,informational,720,0,,2,frozen pipe damage,,,false
+do frozen pipes always burst,informational,480,0,,2,frozen pipe damage,,,false
+how to know if pipes are frozen or busted,informational,260,0,,2,frozen pipe damage,,,false
+how to thaw a frozen pipe in the wall,informational,110,0,,2,frozen pipe damage,,,false
+frozen pipes in wall,informational,70,0,,2,frozen pipe damage,,,false
+frozen pipe in basement,informational,50,0,,2,frozen pipe damage,,,false
+is frozen pipe damage covered by insurance,informational,10,4,,2,frozen pipe damage,,,false
+what to do if a frozen pipe bursts,informational,10,45,,2,frozen pipe damage,,,false
+should i turn off water if pipes freeze,informational,,,,2,frozen pipe damage,,,false
+how to dry out a wall after a burst pipe,informational,,,,2,frozen pipe damage,,,false
+what are the signs of water damage from a frozen pipe,informational,,,,2,frozen pipe damage,,,false
+can a frozen pipe burst cause mold,informational,,,,2,frozen pipe damage,,,false
