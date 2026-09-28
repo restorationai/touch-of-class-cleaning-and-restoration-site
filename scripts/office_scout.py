@@ -38,11 +38,24 @@ list: both are bot-protected, so they are never fetched; Google organic SERP
 (`site:loopnet.com` / `site:crexi.com`, ~$0.01 each, + one plain "flex space
 for lease" query at ~$0.002) is parsed for address, sq ft, $/SF or $/mo.
 Those listings rate HIGH (a real suite with signage) and outrank storage.
-~$0.034/town. Every run is capped at MAX_RUN_COST ($0.15) and stops querying
-past it; spend is printed.
 
-Store: ops_kv `office-scout:{company_id}` (only with --apply; default is a
-dry-run print):
+MORE SOURCES (2026-09-27, same rule: Google's index via DataForSEO organic
+SERP, NEVER a direct fetch of the site): CityFeet + Showcase (CoStar), and
+CommercialCafe + OfficeSpace.com go through the same address parser as
+LoopNet/Crexi; Craigslist "office & commercial" posts (monthly rent + sq ft
+from the snippet, address when the post gives one); LiquidSpace + Coworker.com
+PRIVATE offices (tier coworking); SpareFoot facilities (tier storage). Paired
+sites share one `site:a OR site:b` query (billed once). Facebook Marketplace
+is login-walled and not indexed: a future Mac Mini browser lane, not here.
+~$0.084/town (6 Maps + 7 site: + 1 plain organic). Every run is capped at
+MAX_RUN_COST ($0.30, ~3 towns; pass --cap for more) and stops querying past
+it; spend is printed.
+
+Store (only with --apply; default is a dry-run print):
+  * marketing_office_scout: one row per option (the app's Locations tab reads
+    it under RLS). A run inserts the fresh ranked set, then deletes that
+    company's older rows, so the table is always the current set.
+  * ops_kv `office-scout:{company_id}`, the full run blob:
   {"slug", "company_id", "generated_at", "pin", "reach_mi", "spend_usd",
    "towns": [{"town", "state", "lat", "lng", "source", "would_cover",
               "distance_from_pin_mi", "options": [...], "excluded": [...]}]}
@@ -59,6 +72,7 @@ import argparse
 import base64
 import json
 import math
+import os
 import re
 import sys
 from concurrent.futures import ThreadPoolExecutor
@@ -78,11 +92,11 @@ DFS_MAPS = "https://api.dataforseo.com/v3/serp/google/maps/live/advanced"
 DFS_ORGANIC = "https://api.dataforseo.com/v3/serp/google/organic/live/advanced"
 COST_PER_QUERY = 0.002
 COST_PER_SITE_QUERY = 0.01   # DataForSEO bills search operators (site:) ~5x
-# ~$0.034/town (6 Maps + 2 site: + 1 plain organic), so the cap covers ~4 towns.
-MAX_RUN_COST = 0.15
+# ~$0.084/town (6 Maps + 7 site: + 1 plain organic), so the cap covers ~3 towns.
+MAX_RUN_COST = 0.30
 DEFAULT_TOP_TOWNS = 3
-PER_TOWN = 6            # options shown per town
-MAX_LISTINGS = 3        # LoopNet/Crexi listings per town, so Maps options still show
+PER_TOWN = 8            # options shown per town
+MAX_LISTINGS = 4        # CRE/Craigslist listings per town, so Maps options still show
 PER_TIER_CAP = 2        # keep a spread of tiers, not five storage units
 # An office further than this from the town it is meant to serve is serving a
 # different town. The seat's own reach is used when larger.
@@ -373,6 +387,7 @@ def gather_towns(ctx: dict | None, towns_arg: str, top: int, fresh: bool) -> tup
                 continue
             towns.append({"town": s["seat_city"], "state": s.get("state") or "", "lat": _f(s["lat"]),
                           "lng": _f(s["lng"]), "source": f"{src} #{s.get('rank', taken + 1)}",
+                          "town_rank": s.get("rank", taken + 1),
                           "would_cover": s.get("would_cover") or [s["seat_city"]]})
             taken += 1
     have = {t["town"].lower() for t in towns}
@@ -391,7 +406,7 @@ def gather_towns(ctx: dict | None, towns_arg: str, top: int, fresh: bool) -> tup
             print(f"  could not geocode {city}, {state} plausibly; skipped")
             continue
         towns.append({"town": city, "state": state, "lat": ll[0], "lng": ll[1],
-                      "source": "--towns", "would_cover": [city]})
+                      "source": "--towns", "town_rank": None, "would_cover": [city]})
         have.add(city.lower())
     for t in towns:
         t["distance_from_pin_mi"] = (round(ls.haversine_mi(pin[0], pin[1], t["lat"], t["lng"]), 1)
@@ -435,21 +450,43 @@ LISTING_QUERIES = [
     ("loopnet", 'site:loopnet.com/Listing "{town}, {st}" (flex OR office OR industrial OR warehouse) for lease'),
     ("crexi", 'site:crexi.com/lease "{town}, {st}" office OR flex OR industrial OR warehouse'),
     ("web", "{town} {st} flex space for lease"),
+    # CoStar's consumer sites: /cont/listing/{addr}/ and /{addr}/{id}/ pages
+    # (Showcase is mostly "no longer advertised" + FOR SALE; filters drop those).
+    ("cityfeet", 'site:cityfeet.com OR site:showcase.com "{town}, {st}" for lease'),
+    ("commercialcafe", 'site:commercialcafe.com OR site:officespace.com "{town}, {st}" office OR warehouse OR flex'),
 ]
+# Sources parsed by their own handlers (extra_options), not the address flow.
+EXTRA_QUERIES = [
+    # Plain form on purpose: quoting the town or OR-ing terms returned 0 (tested).
+    ("craigslist", "site:craigslist.org {town} office for rent"),
+    ("coworking", 'site:liquidspace.com OR site:coworker.com "{town}, {st}" private office'),
+    ("storage", 'site:sparefoot.com "{town}, {st}" self storage'),
+]
+# Hosts we recognise, host fragment -> source label shown in the app.
+SOURCES = {"loopnet": "loopnet", "crexi": "crexi", "cityfeet": "cityfeet", "showcase": "showcase",
+           "commercialcafe": "commercialcafe", "officespace": "officespace",
+           "craigslist": "craigslist", "liquidspace": "liquidspace", "coworker": "coworker",
+           "sparefoot": "sparefoot"}
+# CRE listing sites whose own listing page is a unit for lease even when it
+# never names the type ("listing: space").
+CRE_SITES = ("loopnet", "crexi", "cityfeet", "showcase", "commercialcafe", "officespace")
 LISTING_TIERS = ("listing: flex", "listing: industrial", "listing: office", "listing: retail",
                  "listing: space")
 COST_BAND.update({"listing: flex": "$800-2,500", "listing: industrial": "$900-3,000",
                   "listing: office": "$500-1,500", "listing: retail": "$1,000-3,000",
                   "listing: space": "$600-2,000"})
 SF_RE = re.compile(r"(\d{1,3}(?:,\d{3})+|\d{3,6})\s*(?:-\s*(\d{1,3}(?:,\d{3})+|\d{3,6})\s*)?"
-                   r"(?:\+/-\s*)?(?:sf\b|sq\.?\s?ft|sqft|square f(?:ee|oo)t)", re.I)
+                   r"(?:\+/-\s*)?(?:sf\b|sq\.?\s?ft|sqft|square f(?:ee|oo)t|ft\s?(?:2|²)(?!\d))", re.I)
 # An address needs a street word, or "1 Warehouse For Rent in Delano, CA" and
 # "10 Shared Office Spaces near Tehachapi, CA" read as addresses.
 STREET_RE = re.compile(r"\b(?:st|street|ave|avenue|rd|road|blvd|boulevard|dr|drive|ln|lane|way|"
                        r"hwy|highway|pkwy|pky|parkway|ct|court|pl|place|cir|circle|ter|terrace|"
                        r"trl|trail|loop|plaza|expy|fwy|freeway|route|rte)\b", re.I)
 NOT_LISTINGS = re.compile(r"facebook\.com|instagram\.com|yelp\.com|reddit\.com|nextdoor\.com|"
-                          r"tiktok\.com|youtube\.com|linkedin\.com|craigslist", re.I)
+                          r"tiktok\.com|youtube\.com|linkedin\.com|craigslist|"
+                          # residential portals: parcel/home records, not units for lease
+                          r"zillow\.com|redfin\.com|trulia\.com|realtor\.com|homes\.com|"
+                          r"apartments\.com|movoto\.com", re.I)
 MAX_LISTING_SF = 20_000   # a satellite needs 500-1,500 SF; 60,000 SF is not an option
 RATE_RE = re.compile(r"\$\s?(\d+(?:\.\d{1,2})?)\s*(?:-\s*\$?\s?\d+(?:\.\d{1,2})?\s*)?/?\s*"
                      r"(?:per\s+)?(?:sf|sq\.?\s?ft|sqft)\s*/?\s*(yr|year|mo|month)\b", re.I)
@@ -460,13 +497,19 @@ LEASE_RE = re.compile(r"\blease\b|\bfor rent\b|\brent\b", re.I)
 STALE_RE = re.compile(r"no longer (?:being )?advertised|off market", re.I)
 SALE_PRICE_RE = re.compile(r"\$\s?\d{1,3},\d{3},\d{3}|\$\s?[1-9]\d{2},\d{3}(?!\s*(?:/|per))")
 LAND_RE = re.compile(r"\bland (?:for lease|property)|\bground lease\b|/acre|\bacres?\b|\blot\b", re.I)
+# Parcels that never have a building: "Capital Hills Commercial Land", "Two
+# Highway Commercial / Light Industrial lots" (CommercialCafe, 2026-09-27).
+# Only a real building word rescues these, not "industrial".
+LAND_STRONG = re.compile(r"(?:commercial|vacant|industrial) land\b|\blots\b|\bparcels?\b|shovel.ready|"
+                         r"\bapn\b|[-/]lot-[a-z0-9]|[-/]acres?\b|\d-acres", re.I)
+BUILDING_RE = re.compile(r"building|suite|warehouse|\bunit\b|office space|sq\.?\s?ft|\bsf\b", re.I)
 
 
 def _src(url: str) -> str:
     host = re.sub(r"^https?://(www\.)?", "", url or "").split("/")[0].lower()
-    for k in ("loopnet", "crexi"):
+    for k, label in SOURCES.items():
         if k in host:
-            return k
+            return label
     return host.rsplit(".", 1)[0] if host else "web"
 
 
@@ -520,7 +563,9 @@ def _cost_band(tier: str, money: dict) -> tuple[str, str]:
 
 def _addr_re(town: str, st: str):
     # "1700 Schuster Rd, Delano, CA 93215" / "701 Bailey Ave, Tehachapi CA - Warehouse"
-    return re.compile(r"(\d{1,6}(?:\s*-\s*\d{1,6})?\s+[A-Za-z0-9][A-Za-z0-9 .'#&-]{1,50}?)"
+    # optional ", Unit A400" / ", Suite 5" inside the street part
+    return re.compile(r"(\d{1,6}(?:\s*-\s*\d{1,6})?\s+[A-Za-z0-9][A-Za-z0-9 .'#&-]{1,50}?"
+                      r"(?:,?\s*(?:unit|suite|ste\.?|bldg\.?|#)\s*[A-Za-z0-9-]{1,8})?)"
                       r",?\s+(" + re.escape(town) + r"),?\s+" + re.escape(st) + r"\b(?:\s+(\d{5}))?",
                       re.I)
 
@@ -603,6 +648,9 @@ def listing_options(dfs: DFS, town: dict) -> tuple[list[dict], list[dict], list[
             return                                       # Crexi sale listing
         # Land: judged on the listing's own words plus a /...-Land results page,
         # and only a building word in the listing's own words rescues it.
+        if (LAND_STRONG.search(own) or (title and LAND_STRONG.search(url))) and not BUILDING_RE.search(own):
+            drop(key, name_, addr, f"{src}: land / parcel, no building")
+            return
         landish = LAND_RE.search(own) or (not title and re.search(r"[-/]land\b", url, re.I))
         if landish and not re.search(r"office|industrial|flex|warehouse|retail|building|suite",
                                      own, re.I):
@@ -612,7 +660,7 @@ def listing_options(dfs: DFS, town: dict) -> tuple[list[dict], list[dict], list[
         if not tier:
             # A LoopNet/Crexi listing page that never names the type ("Amazing
             # 1226 square foot unit on Mill St") is still a unit for lease.
-            if not (title and src in ("loopnet", "crexi")):
+            if not (title and src in CRE_SITES):
                 return
             tier = "listing: space"
         hits.setdefault(key, []).append({"addr": addr, "city": city, "zip": zip5, "tier": tier,
@@ -630,7 +678,7 @@ def listing_options(dfs: DFS, town: dict) -> tuple[list[dict], list[dict], list[
         for key, hs in hits.items():
             if key in dead:
                 continue
-            hs.sort(key=lambda h: (not h["from_title"], h["src"] not in ("loopnet", "crexi")))
+            hs.sort(key=lambda h: (not h["from_title"], h["src"] not in CRE_SITES))
             best = hs[0]
             money: dict = {}
             for h in hs:
@@ -660,7 +708,7 @@ def listing_options(dfs: DFS, town: dict) -> tuple[list[dict], list[dict], list[
                 "rate": money.get("rate"), "rate_unit": money.get("rate_unit"),
                 "verification_likelihood": v, "verification_reason": reason,
                 "cost_band": band, "cost_source": band_src, "notes": note,
-                "found_by": "organic SERP (LoopNet/Crexi via Google, not scraped)",
+                "found_by": f"organic SERP ({best['src']} via Google, not scraped)",
             }
 
     for src_hint, tmpl in LISTING_QUERIES:
@@ -675,8 +723,13 @@ def listing_options(dfs: DFS, town: dict) -> tuple[list[dict], list[dict], list[
                 continue                          # assessor parcel record, not a listing
             if src == "loopnet" and "/commercial-real-estate-brokers/" in low:
                 continue
+            if low.endswith(".pdf") or "images1.showcase.com" in low:
+                continue                          # marketing brochures: often stale
             is_search = (src == "loopnet" and "/search/" in low) or \
-                (src == "crexi" and ("/search" in low or re.search(r"/properties/[a-z]{2}/", low)))
+                (src == "crexi" and ("/search" in low or re.search(r"/properties/[a-z]{2}/", low))) or \
+                (src == "cityfeet" and "/cont/" in low and "/cont/listing/" not in low) or \
+                (src == "commercialcafe" and "/commercial-real-estate/" in low) or \
+                (src == "officespace" and not re.search(r"/\d+[-/]", low))
             # 1) The page itself is one listing: address in the title.
             hit = None
             if not is_search:
@@ -699,7 +752,7 @@ def listing_options(dfs: DFS, town: dict) -> tuple[list[dict], list[dict], list[
                     seg = pre + snip[m.start(): stop].split(" · ")[0]
                     add(m.group(1), m.group(2), m.group(3), seg, url, "", src, page_title=title)
             # 3) Town-level search pages on LoopNet/Crexi are worth a link.
-            if is_search and src in ("loopnet", "crexi") and slug in low and "sale" not in low \
+            if is_search and src in CRE_SITES and slug in low and "sale" not in low \
                     and not re.search(r"[-/]land\b", low):
                 cnt = re.match(r"\s*(\d{1,3})\s", title) or re.search(r"there (?:is|are) (\d+)", snip, re.I)
                 browse.setdefault(url, {"source": src, "title": title[:90], "url": url,
@@ -713,7 +766,7 @@ def listing_options(dfs: DFS, town: dict) -> tuple[list[dict], list[dict], list[
             s += 0.5
         if (o.get("sq_ft_min") or 0) > 5000:
             s -= 3.0                                                  # oversized for a satellite
-        if o["source"] in ("loopnet", "crexi"):
+        if o["source"] in CRE_SITES:
             s += 0.3
         return round(s, 2)
     for o in options.values():
@@ -721,6 +774,193 @@ def listing_options(dfs: DFS, town: dict) -> tuple[list[dict], list[dict], list[
     ranked = sorted(options.values(), key=lambda o: o["score"], reverse=True)
     links = [b for b in browse.values() if b["count"] != 0][:3]
     return ranked, links, excluded
+
+
+# ------------------------------------------------------------- Craigslist / coworking / storage
+# Same rule as LoopNet/Crexi: Google's index only (DataForSEO organic SERP),
+# never a direct fetch. These sources are not "one address = one listing"
+# pages, so they get their own handler:
+#   craigslist   individual posts (/view/d/{town}-... or {area}.craigslist.org
+#                /off/d/...). Office & commercial prices are monthly rent. The
+#                post may not give a street address; it is kept (the post link
+#                is the lead) when it is clearly in this town.
+#   liquidspace/coworker  a PRIVATE OFFICE at a named centre (tier coworking).
+#                Hourly day-offices, meeting rooms, desks and virtual plans are
+#                not the product and are skipped.
+#   sparefoot    a storage facility page (tier storage).
+CL_POST = re.compile(r"craigslist\.org/(?:view/d/|[a-z]{3}/d/|.*/d/)", re.I)
+CL_HOUSING = re.compile(r"bedroom|\bbd\b|\bbath\b|apartment|\bapt\b|studio|roommate|\broom for rent\b|"
+                        r"house for rent|home for rent|mobile home|\bduplex\b|\bcondo\b|furnished|"
+                        r"\bhousing\b|parking space|\brv\b", re.I)
+CL_COMMERCIAL = re.compile(r"office|commercial|warehouse|\bshop\b|industrial|retail|suite|business|flex|"
+                           r"medical|storefront", re.I)
+CL_PRICE = re.compile(r"\$\s?(\d{1,3}(?:,\d{3})+|\d{3,5})(?!\s*(?:/|per)\s*(?:hr|hour|day|sf|sq))", re.I)
+COWORK_SKIP = re.compile(r"meeting room|conference|event space|virtual|mailbox|hourly|day office|"
+                         r"day-office|hot desk|coworking desk|dedicated desk|\bdesk\b|podcast|studio", re.I)
+HOURLY_RE = re.compile(r"\$\s?\d+(?:\.\d{2})?\+?\s*/\s*(?:hr|hour)|per hour|/hour", re.I)
+
+
+def extra_options(dfs: DFS, town: dict) -> tuple[list[dict], list[dict], list[dict]]:
+    """-> (options, browse links, excluded) from Craigslist, LiquidSpace/Coworker, SpareFoot."""
+    name, st = town["town"], (town.get("state") or "").upper()
+    towns_ok = {t.lower() for t in (town.get("would_cover") or [])} | {name.lower()}
+    canon = {t.lower(): t for t in (town.get("would_cover") or [])} | {name.lower(): name}
+    rx = [_addr_re(t, st) for t in sorted(towns_ok, key=len, reverse=True)]
+    slugs = {re.sub(r"[^a-z0-9]+", "-", t).strip("-") for t in towns_ok}
+    opts: dict[str, dict] = {}
+    browse: dict[str, dict] = {}
+    excluded: list[dict] = []
+
+    def find_addr(text: str):
+        for x in rx:
+            m = x.search(text)
+            if m:
+                addr = re.split(r"\.\s+|\s+[•·;|]\s+", re.sub(r"\s+", " ", m.group(1)))[-1]
+                addr = re.sub(r"^[\d,]*\d\s*(?:sq\.?\s?ft|sqft|sf|ft\s?2)\b\.?\s*", "", addr, flags=re.I)
+                addr = re.sub(r"^\d{5}\s+(?=\d)", "", addr).strip(" ,-·.")
+                if re.match(r"\d", addr) and STREET_RE.search(addr):
+                    city = canon.get(m.group(2).lower(), m.group(2))
+                    return f"{addr}, {city}, {st}" + (f" {m.group(3)}" if m.group(3) else ""), city
+        return None, None
+
+    def base(nm, tier, src, url, addr, city, v, reason, note, band, band_src, money, price_text):
+        return {"name": nm, "tier": tier, "category": f"{src} listing", "source": src,
+                "address": addr, "city": city, "phone": None, "website": url, "listing_page": True,
+                "rating": None, "reviews": None, "lat": None, "lng": None, "cid": None,
+                "place_id": None, "distance_from_town_mi": None, "distance_from_pin_mi": None,
+                "sq_ft_min": money.get("sq_ft_min"), "sq_ft_max": money.get("sq_ft_max"),
+                "rate": money.get("rate"), "rate_unit": money.get("rate_unit"),
+                "verification_likelihood": v, "verification_reason": reason,
+                "cost_band": band, "cost_source": band_src, "price_text": price_text, "notes": note,
+                "found_by": f"organic SERP ({src} via Google, not scraped)"}
+
+    for kind, tmpl in EXTRA_QUERIES:
+        for r in dfs.organic(tmpl.format(town=name, st=st)):
+            url, title, snip = r["url"], r["title"], r["snippet"]
+            low, src, text = url.lower(), _src(url), f"{title}. {snip}"
+            if kind == "craigslist":
+                if src != "craigslist":
+                    continue
+                if "/search/" in low:
+                    # Town-level "office & commercial" search page: a browse link.
+                    if "cat=off" in low and any(f"/{sl}-" in low for sl in slugs) and "query=" not in low:
+                        browse.setdefault(url, {"source": "craigslist", "title": title[:90], "url": url,
+                                                "count": None})
+                    continue
+                if not CL_POST.search(url):
+                    continue
+                path = low.split("/d/", 1)[-1]
+                addr, city = find_addr(snip)
+                in_town = bool(addr) or any(path.startswith(f"{sl}-") for sl in slugs) or \
+                    any(f"({t})" in text.lower() for t in towns_ok)
+                if not in_town:
+                    continue
+                if CL_HOUSING.search(title) or not CL_COMMERCIAL.search(title):
+                    continue
+                if SALE_RE.search(title) and not LEASE_RE.search(title):
+                    continue
+                if NEVER_PASS.search(text):
+                    excluded.append({"name": title[:80], "address": addr, "reason":
+                                     "craigslist: mailbox/virtual office (never passes)"})
+                    continue
+                money = _money(text)
+                pm = CL_PRICE.search(snip) or CL_PRICE.search(title)
+                if pm and "monthly" not in money:
+                    v_ = int(pm.group(1).replace(",", ""))
+                    if 100 <= v_ <= 20000:
+                        money["monthly"] = v_
+                if (money.get("sq_ft_min") or 0) > MAX_LISTING_SF:
+                    excluded.append({"name": title[:80], "address": addr,
+                                     "reason": f"craigslist: {money['sq_ft_min']:,} SF, far too large"})
+                    continue
+                tier = _tier_from(title) or _tier_from(snip) or "listing: space"
+                v, reason, note = rate_listing(tier, money)
+                note += " Craigslist post: confirm it is still available and that the poster is " \
+                        "the landlord or listing broker before sharing details."
+                band, band_src = _cost_band(tier, dict(money))
+                city = city or name
+                key = re.sub(r"[^a-z0-9]", "", (addr or url).lower())
+                opts.setdefault(key, base(
+                    title.strip()[:120], tier, "craigslist", url,
+                    addr or f"{city}, {st} (street address on the post)", city, v, reason, note, band,
+                    "craigslist post" if band_src == "listing snippet" else band_src, money,
+                    f"${money['monthly']:,}/mo" if money.get("monthly") else None))
+            elif kind == "coworking":
+                if src not in ("liquidspace", "coworker"):
+                    continue
+                path = re.sub(r"^https?://[^/]+", "", low)
+                depth = len([x for x in path.split("?")[0].split("/") if x])
+                if depth <= 3 or "/s/" in path or "search" in path:
+                    # /us/ca/{town} (LiquidSpace) or /united-states/ca/{town} index page
+                    if any(f"/{sl}" in path for sl in slugs) and "?" not in path:
+                        browse.setdefault(url, {"source": src, "title": title[:90], "url": url,
+                                                "count": None})
+                    continue
+                if COWORK_SKIP.search(title) or COWORK_SKIP.search(path):
+                    continue
+                addr, city = find_addr(snip)
+                if not addr:
+                    continue                           # no in-town address: some other city's centre
+                if NEVER_PASS.search(text):
+                    continue
+                money = {}
+                mm = MONTHLY_RE.search(snip)
+                if mm:
+                    money["monthly"] = int(mm.group(1).replace(",", ""))
+                iwg = bool(IWG.search(text))
+                v = "medium"
+                reason = ("IWG private offices sometimes pass (Power Dry KC precedent); the "
+                          "virtual-office product fails." if iwg else
+                          "A lockable private office in an executive/coworking centre passes "
+                          "sometimes with door or lobby signage; desks and mail plans fail.")
+                note = ("Ask for a PRIVATE OFFICE on a monthly term (not hourly, not a virtual "
+                        "office or membership); confirm your name on the door and lobby "
+                        "directory, and staffed-hours access.")
+                band = f"${money['monthly']:,}/mo" if money.get("monthly") else COST_BAND["coworking"]
+                key = re.sub(r"[^a-z0-9]", "", addr.lower()) + re.sub(r"[^a-z0-9]", "", title.lower())[:20]
+                opts.setdefault(key, base(
+                    title.split("|")[0].strip()[:120], "coworking", src, url, addr, city, v, reason,
+                    note, band, "listing snippet" if money else "tier default", money,
+                    band if money else None))
+            else:  # storage
+                if src != "sparefoot":
+                    continue
+                path = re.sub(r"^https?://[^/]+", "", low)
+                url_town = re.match(r"/([a-z0-9-]+)-[a-z]{2}-self-storage/", path)
+                addr, city = find_addr(snip)
+                if not addr and not (url_town and url_town.group(1) in slugs):
+                    continue
+                # Facility pages end in "-{id}.html"; "5x10-storage-units.html"
+                # and "rv-storage.html" are size/feature category pages.
+                if not re.search(r"-\d{4,}\.html$", path):
+                    continue
+                if STORAGE_BAD.search(title):
+                    continue
+                pm = re.search(r"\$\s?(\d{2,4})(?:\s?\.\d{2})?\s*(?:/\s*mo|per month)", snip, re.I)
+                money = {"monthly": int(pm.group(1))} if pm else {}
+                fake = {"title": title}
+                v, reason, note = rate("storage", fake)
+                band = f"from ${money['monthly']:,}/mo" if money else COST_BAND["storage"]
+                city = city or canon.get((url_town.group(1).replace("-", " ") if url_town else ""), name)
+                nm = re.sub(r"\s*[|-]\s*SpareFoot.*$", "", title).strip()[:120]
+                key = "sf" + re.sub(r"[^a-z0-9]", "", nm.lower())
+                opts.setdefault(key, base(
+                    nm, "storage", "sparefoot", url, addr or f"{city}, {st} (see listing)", city, v,
+                    reason, note, band, "listing snippet" if money else "tier default", money,
+                    band if money else None))
+
+    def xscore(o):
+        s = V_WEIGHT[o["verification_likelihood"]] * 10 + 1.5          # in town by construction
+        if o["cost_source"] != "tier default":
+            s += 0.5
+        if (o.get("sq_ft_min") or 0) > 5000:
+            s -= 3.0
+        if o["source"] == "craigslist" and not re.match(r"\d", o["address"] or ""):
+            s -= 1.0                                                   # no street address yet
+        return round(s + cost_rank(o["tier"]), 2)
+    for o in opts.values():
+        o["score"] = xscore(o)
+    return sorted(opts.values(), key=lambda o: o["score"], reverse=True), list(browse.values())[:3], excluded
 
 
 # ------------------------------------------------------------- core
@@ -783,24 +1023,34 @@ def scout_town(dfs: DFS, town: dict, pin, reach: float) -> dict:
     # LoopNet/Crexi listings (scored in listing_options: a HIGH-rated real
     # suite in town lands at ~32, above any storage unit at ~20-23).
     listings, browse, l_excluded = listing_options(dfs, town)
-    ranked = sorted(list(seen.values()) + listings, key=lambda o: o["score"], reverse=True)
-    picks, per_tier, n_list = [], {}, 0
+    # Craigslist posts, LiquidSpace/Coworker private offices, SpareFoot.
+    extras, x_browse, x_excluded = extra_options(dfs, town)
+    browse = browse + [b for b in x_browse if b["url"] not in {x["url"] for x in browse}]
+    ranked = sorted(list(seen.values()) + listings + extras, key=lambda o: o["score"], reverse=True)
+    picks, per_tier, n_list, addr_seen = [], {}, 0, set()
     for o in ranked:
         if per_tier.get(o["tier"], 0) >= PER_TIER_CAP:
+            continue
+        # The same building found twice (Regus on Maps AND on LiquidSpace,
+        # one suite on LoopNet AND CityFeet): keep the higher-scored one.
+        ak = addr_key(o.get("address"))
+        if ak and ak in addr_seen:
             continue
         is_listing = o["tier"] in LISTING_TIERS
         if is_listing and n_list >= MAX_LISTINGS:
             continue
         per_tier[o["tier"]] = per_tier.get(o["tier"], 0) + 1
         n_list += is_listing
+        if ak:
+            addr_seen.add(ak)
         picks.append(o)
         if len(picks) >= PER_TOWN:
             break
 
     # One cheap GET per Maps pick for a posted monthly price. Never scrapes
-    # deeper, and never touches LoopNet/Crexi (bot-protected; the SERP snippet
-    # is all we use from them).
-    maps_picks = [o for o in picks if o["tier"] not in LISTING_TIERS]
+    # deeper, and never touches a listing site (LoopNet, Crexi, Craigslist,
+    # CityFeet, LiquidSpace, SpareFoot...): the SERP snippet is all we use.
+    maps_picks = [o for o in picks if o.get("source") == "google maps"]
     with ThreadPoolExecutor(max_workers=5) as ex:
         prices = list(ex.map(lambda o: price_peek(o.get("website") or ""), maps_picks))
     for o, p in zip(maps_picks, prices):
@@ -808,8 +1058,15 @@ def scout_town(dfs: DFS, town: dict, pin, reach: float) -> dict:
             o["cost_band"] = f"from ${p:,}/mo"
             o["cost_source"] = "website"
     return {**town, "options": picks, "candidates_seen": len(seen),
-            "listings_seen": len(listings), "listing_searches": browse,
-            "excluded": [{k: v for k, v in e.items() if k != "key"} for e in excluded + l_excluded]}
+            "listings_seen": len(listings) + len(extras), "listing_searches": browse,
+            "excluded": [{k: v for k, v in e.items() if k != "key"}
+                         for e in excluded + l_excluded + x_excluded]}
+
+
+def addr_key(addr: str | None) -> str | None:
+    """'4900 California Avenue, Tower B' -> '4900california'. None without a number."""
+    m = re.match(r"\s*(\d{1,6})\s+(?:[NSEW]\.?\s+)?([A-Za-z0-9]+)", addr or "")
+    return f"{m.group(1)}{m.group(2).lower()}" if m else None
 
 
 def render(out: dict) -> None:
@@ -824,15 +1081,15 @@ def render(out: dict) -> None:
             print(f"    would cover: {', '.join(t['would_cover'])}")
         if not t["options"]:
             print(f"    no rentable space found on Google Maps ({t['candidates_seen']} candidates) "
-                  f"or LoopNet/Crexi ({t.get('listings_seen', 0)}); try a commercial broker or the "
+                  f"or listing sites ({t.get('listings_seen', 0)}); try a commercial broker or the "
                   f"nearest bigger town")
         for i, o in enumerate(t["options"], 1):
             print(f"    {i}. {o['name']}  [{o['tier']}]  verify: {o['verification_likelihood'].upper()}"
                   f"  cost: {o['cost_band']}  ({o.get('source') or 'google maps'})")
-            if o["tier"] in LISTING_TIERS:
+            if o.get("source") != "google maps":
                 sf = (f"{o['sq_ft_min']:,}" + (f"-{o['sq_ft_max']:,}" if o.get("sq_ft_max") else "")
                       + " SF") if o.get("sq_ft_min") else "size n/a"
-                print(f"       {sf}  |  cost from {o['cost_source']}  |  call the listing broker")
+                print(f"       {o.get('address') or ''}  |  {sf}  |  cost from {o['cost_source']}")
             else:
                 rv = f"{o['rating']}* ({o['reviews']})" if o.get("rating") else "no reviews"
                 print(f"       {o['address']}  |  {o.get('phone') or 'no phone'}  |  {rv}  |  "
@@ -854,6 +1111,80 @@ def render(out: dict) -> None:
           + (f"; {out['dfs_skipped']} queries SKIPPED at the cap" if out.get("dfs_skipped") else ""))
 
 
+# ------------------------------------------------------------- app table
+TABLE = "marketing_office_scout"
+
+
+def _sb(method: str, path: str, body=None, prefer: str = "return=minimal"):
+    """Service-role PostgREST call (client_ops_sync._sb pattern)."""
+    url = os.environ["SUPABASE_URL"].rstrip("/") + path
+    key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+    r = requests.request(method, url, json=body, timeout=30, headers={
+        "apikey": key, "Authorization": f"Bearer {key}", "Content-Type": "application/json",
+        "Prefer": prefer, "User-Agent": UA})
+    if r.status_code >= 400:
+        raise RuntimeError(f"{method} {path.split('?')[0]} -> {r.status_code}: {r.text[:300]}")
+    return r.json() if r.content else None
+
+
+def _price_text(o: dict) -> str | None:
+    if o.get("price_text"):
+        return o["price_text"]
+    if o.get("cost_source") in ("listing snippet", "website", "craigslist post"):
+        return o.get("cost_band")
+    return None
+
+
+def _sqft(o: dict) -> str | None:
+    lo, hi = o.get("sq_ft_min"), o.get("sq_ft_max")
+    if not lo:
+        return None
+    return f"{lo:,}" + (f"-{hi:,}" if hi else "") + " SF"
+
+
+def table_rows(out: dict) -> list[dict]:
+    """One marketing_office_scout row per shown option, in rank order."""
+    rows = []
+    for t in out["towns"]:
+        for i, o in enumerate(t["options"], 1):
+            extra = []
+            if o.get("listing_page") is False:
+                extra.append("address only mentioned on a search page; open the link to find it")
+            if o.get("category") and o.get("source") == "google maps":
+                extra.append(f"Maps category: {o['category']}")
+            if o.get("rating"):
+                extra.append(f"{o['rating']} stars ({o.get('reviews') or 0} reviews)")
+            if o.get("phone"):
+                extra.append(f"phone {o['phone']}")
+            extra.append(f"found by: {o.get('found_by')}")
+            rows.append({
+                "company_id": out["company_id"], "town": t["town"], "town_rank": t.get("town_rank"),
+                "option_rank": i, "name": o.get("name"), "address": o.get("address"),
+                "tier": o.get("tier"), "source": o.get("source") or "google maps",
+                "url": o.get("website") if (o.get("website") or "").startswith("http")
+                else (f"https://{o['website']}" if o.get("website") else None),
+                "verification": o.get("verification_likelihood"),
+                "verification_reason": o.get("verification_reason"),
+                "cost_band": o.get("cost_band"), "price_text": _price_text(o), "sqft": _sqft(o),
+                "distance_town_mi": o.get("distance_from_town_mi"),
+                "distance_pin_mi": o.get("distance_from_pin_mi"),
+                "ask_for": o.get("notes"), "notes": "; ".join(extra),
+                "scanned_at": out["generated_at"],
+            })
+    return rows
+
+
+def save_table(out: dict) -> int:
+    """Insert the fresh set, then delete this company's older rows: the table
+    is never empty mid-run, and ends holding exactly this run."""
+    cid = out["company_id"]
+    rows = table_rows(out)
+    if rows:
+        _sb("POST", f"/rest/v1/{TABLE}", rows)
+    _sb("DELETE", f"/rest/v1/{TABLE}?company_id=eq.{cid}&scanned_at=lt.{requests.utils.quote(out['generated_at'])}")
+    return len(rows)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="Find rentable spaces for a second GBP in each scouted town")
     ap.add_argument("--slug", help="client slug (uses its location_scout shortlist)")
@@ -864,7 +1195,8 @@ def main() -> int:
                     help="re-run location_scout live instead of reading the saved shortlist")
     ap.add_argument("--cap", type=float, default=MAX_RUN_COST, help="DataForSEO spend cap in USD")
     ap.add_argument("--json", action="store_true")
-    ap.add_argument("--apply", action="store_true", help="write ops_kv office-scout:{company_id}")
+    ap.add_argument("--apply", action="store_true",
+                    help="write marketing_office_scout rows + ops_kv office-scout:{company_id}")
     a = ap.parse_args()
     if not a.slug and not a.towns:
         ap.error("give --slug and/or --towns")
@@ -896,8 +1228,17 @@ def main() -> int:
         back = kv_get(key) or {}
         print(f"  wrote ops_kv {key} [{sum(len(t['options']) for t in results)} options across "
               f"{len(results)} town(s), generated_at {back.get('generated_at')}]", file=log)
+        n = save_table(out)
+        live = _sb("GET", f"/rest/v1/{TABLE}?company_id=eq.{out['company_id']}&select=source",
+                   prefer="count=exact") or []
+        by_src: dict[str, int] = {}
+        for r in live:
+            by_src[r["source"]] = by_src.get(r["source"], 0) + 1
+        print(f"  wrote {n} rows to {TABLE}; now holds {len(live)} for {out['company_id']} "
+              f"({', '.join(f'{k} {v}' for k, v in sorted(by_src.items(), key=lambda kv: -kv[1]))})",
+              file=log)
     elif key:
-        print(f"  (dry-run) would write ops_kv {key}; re-run with --apply", file=log)
+        print(f"  (dry-run) would write {TABLE} rows + ops_kv {key}; re-run with --apply", file=log)
     return 0
 
 
