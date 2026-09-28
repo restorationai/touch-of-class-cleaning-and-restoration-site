@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Room Additions and Home Additions in Manteca, CA | TDI USA, Inc."
+title: "Room Additions and Home Additions in Manteca, CA | TDI Builders"
 h1: "Room Additions and Home Additions in Manteca"
 meta_description: "Trusted room additions and home additions in Manteca, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "room additions and home additions manteca"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Room Additions and Home Additions"
 rendered: true
 ---
-Manteca's rapid growth along the Highway 99 corridor has pushed home addition projects into nearly every established neighborhood in the city, from the older ranch-style tracts near downtown to the newer subdivisions spreading toward the Lathrop border. If your household has outgrown its square footage, a room addition or home addition is often the most practical answer, and getting it done right in San Joaquin County means working with a contractor who understands the local permitting environment, the clay-heavy soils that underlie much of the valley floor, and the HOA covenants that govern a growing number of Manteca communities. TDI USA, Inc. has been building and rebuilding residential and commercial properties since 1985, and our team is available to talk through your project any time.
+Manteca's rapid growth along the Highway 99 corridor has pushed home addition projects into nearly every established neighborhood in the city, from the older ranch-style tracts near downtown to the newer subdivisions spreading toward the Lathrop border. If your household has outgrown its square footage, a room addition or home addition is often the most practical answer, and getting it done right in San Joaquin County means working with a contractor who understands the local permitting environment, the clay-heavy soils that underlie much of the valley floor, and the HOA covenants that govern a growing number of Manteca communities. TDI Builders has been building and rebuilding residential and commercial properties since 1985, and our team is available to talk through your project any time.
 
 ## Why Manteca's Growth Patterns Shape Home Addition Planning
 
@@ -46,4 +46,4 @@ For properties not in an HOA, the city's zoning code still governs setbacks, lot
 
 Manteca's older tracts, particularly those built in the late 1960s and early 1970s closer to the downtown core, frequently used post-and-pier foundations rather than continuous perimeter footings. When an addition ties into one of these homes, the connection point between the new perimeter footing and the existing pier system requires a transition detail that a lot of general contractors overlook. Getting that detail wrong shows up as cracking at the interior corner of the addition, sometimes within the first full year of seasonal soil movement. It is one of the first things our team checks during the initial site walk on any older Manteca property.
 
-If your home or property in Manteca is ready for more space, call TDI USA, Inc. at (877) 688-0866. We handle the permitting, the HOA coordination, and the construction from start to final inspection, so you can focus on what you actually want the new space to become.
+If your home or property in Manteca is ready for more space, call TDI Builders at (877) 688-0866. We handle the permitting, the HOA coordination, and the construction from start to final inspection, so you can focus on what you actually want the new space to become.

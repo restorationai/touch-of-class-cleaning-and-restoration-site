@@ -96,12 +96,12 @@ For a full list of contract questions, see [15 Questions To Ask a Contractor Bef
 
 The best first step is a site visit with a licensed general contractor who can walk the space, identify any structural or systems issues upfront, and give you a realistic scope and budget range before you invest in design drawings.
 
-If you're in Sacramento, Carmichael, Rancho Cordova, or anywhere in the greater metro area, TDI Builders, Inc. handles home remodeling, kitchen and bathroom renovations, room additions, and new construction, with licensed crews who pull permits and manage the full project from demo to final inspection. They've been doing this work since 1985.
+If you're in Sacramento, Carmichael, Rancho Cordova, or anywhere in the greater metro area, TDI Builders handles home remodeling, kitchen and bathroom renovations, room additions, and new construction, with licensed crews who pull permits and manage the full project from demo to final inspection. They've been doing this work since 1985.
 
 Request a remodel consultation by calling (877) 688-0866 or visiting the [home remodeling service page](/services/home-remodeling/).
 
 ---
 
-**About TDI USA, Inc.**
+**About TDI Builders**
 
-TDI USA, Inc. is a licensed and insured general contractor based in Sacramento, CA (701 Del Paso Rd, Sacramento, CA 95834), serving residential and commercial clients across the Sacramento metro since 1985. With over 40 years of construction and rebuilding experience, their crews handle home remodeling, kitchen and bathroom renovations, room additions, new construction, and insurance rebuilds across Sacramento, Carmichael, Rancho Cordova, Elk Grove, Roseville, and surrounding communities. Call (877) 688-0866 to schedule a consultation.
+TDI Builders is a licensed and insured general contractor based in Sacramento, CA (701 Del Paso Road Suite 200, Sacramento, CA 95834), serving residential and commercial clients across the Sacramento metro since 1985. With over 40 years of construction and rebuilding experience, their crews handle home remodeling, kitchen and bathroom renovations, room additions, new construction, and insurance rebuilds across Sacramento, Carmichael, Rancho Cordova, Elk Grove, Roseville, and surrounding communities. Call (877) 688-0866 to schedule a consultation.

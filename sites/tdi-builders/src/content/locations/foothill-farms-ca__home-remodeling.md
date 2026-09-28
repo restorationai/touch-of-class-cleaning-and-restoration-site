@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Home Remodeling in Foothill Farms, CA | TDI USA, Inc."
+title: "Home Remodeling in Foothill Farms, CA | TDI Builders"
 h1: "Home Remodeling in Foothill Farms"
 meta_description: "Trusted home remodeling in Foothill Farms, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "home remodeling foothill farms"

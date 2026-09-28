@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Room Additions and Home Additions in Antelope, CA | TDI USA, Inc."
+title: "Room Additions and Home Additions in Antelope, CA | TDI Builders"
 h1: "Room Additions and Home Additions in Antelope"
 meta_description: "Trusted room additions and home additions in Antelope, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "room additions and home additions antelope"

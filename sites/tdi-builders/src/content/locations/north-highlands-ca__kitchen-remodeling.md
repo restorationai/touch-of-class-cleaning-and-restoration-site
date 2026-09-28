@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Kitchen Remodeling in North Highlands, CA | TDI USA, Inc."
+title: "Kitchen Remodeling in North Highlands, CA | TDI Builders"
 h1: "Kitchen Remodeling in North Highlands"
 meta_description: "Trusted kitchen remodeling in North Highlands, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "kitchen remodeling north highlands"

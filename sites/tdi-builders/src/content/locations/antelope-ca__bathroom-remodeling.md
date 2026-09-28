@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Bathroom Remodeling in Antelope, CA | TDI USA, Inc."
+title: "Bathroom Remodeling in Antelope, CA | TDI Builders"
 h1: "Bathroom Remodeling in Antelope"
 meta_description: "Trusted bathroom remodeling in Antelope, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "bathroom remodeling antelope"

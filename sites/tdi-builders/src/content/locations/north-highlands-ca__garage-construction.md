@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Garage Construction in North Highlands, CA | TDI USA, Inc."
+title: "Garage Construction in North Highlands, CA | TDI Builders"
 h1: "Garage Construction in North Highlands"
 meta_description: "Trusted garage construction in North Highlands, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "garage construction north highlands"

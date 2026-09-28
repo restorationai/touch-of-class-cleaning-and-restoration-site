@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Kitchen Remodeling in Davis, CA | TDI USA, Inc."
+title: "Kitchen Remodeling in Davis, CA | TDI Builders"
 h1: "Kitchen Remodeling in Davis"
 meta_description: "Trusted kitchen remodeling in Davis, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "kitchen remodeling davis"

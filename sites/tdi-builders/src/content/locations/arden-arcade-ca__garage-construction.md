@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Garage Construction in Arden-Arcade, CA | TDI USA, Inc."
+title: "Garage Construction in Arden-Arcade, CA | TDI Builders"
 h1: "Garage Construction in Arden-Arcade"
 meta_description: "Trusted garage construction in Arden-Arcade, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "garage construction arden-arcade"

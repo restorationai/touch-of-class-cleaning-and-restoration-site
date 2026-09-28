@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Home Remodeling in Rio Linda, CA | TDI USA, Inc."
+title: "Home Remodeling in Rio Linda, CA | TDI Builders"
 h1: "Home Remodeling in Rio Linda"
 meta_description: "Trusted home remodeling in Rio Linda, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "home remodeling rio linda"

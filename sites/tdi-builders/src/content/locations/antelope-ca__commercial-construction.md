@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Commercial Construction and Tenant Improvements in Antelope, CA | TDI USA, Inc."
+title: "Commercial Construction and Tenant Improvements in Antelope, CA | TDI Builders"
 h1: "Commercial Construction and Tenant Improvements in Antelope"
 meta_description: "Trusted commercial construction and tenant improvements in Antelope, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "commercial construction and tenant improvements antelope"

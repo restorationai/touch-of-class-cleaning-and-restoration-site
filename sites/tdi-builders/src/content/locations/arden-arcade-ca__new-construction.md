@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "New Home Construction in Arden-Arcade, CA | TDI USA, Inc."
+title: "New Home Construction in Arden-Arcade, CA | TDI Builders"
 h1: "New Home Construction in Arden-Arcade"
 meta_description: "Trusted new home construction in Arden-Arcade, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "new home construction arden-arcade"

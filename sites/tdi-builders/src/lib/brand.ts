@@ -4,9 +4,9 @@
 
 export const brand = {
   slug: "tdi-builders",
-  displayName: "TDI USA, Inc.",
-  shortName: "TDI USA, Inc.",
-  legalName: "TDI USA, Inc.",
+  displayName: "TDI Builders",
+  shortName: "TDI Builders",
+  legalName: "TDI Builders",
   domain: "tdiusa.com",
   canonicalUrl: "https://www.tdiusa.com",
   phone: "(877) 688-0866",
@@ -26,7 +26,7 @@ export const brand = {
   // Youngstown OH target) — only the address pair may go in a PostalAddress.
   addressCity: "Sacramento",
   addressState: "CA",
-  streetAddress: "701 Del Paso Rd",
+  streetAddress: "701 Del Paso Road Suite 200",
   postalCode: "95834",
   lat: "38.6446",
   lng: "-121.5058",

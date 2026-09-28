@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Renovations, Remodels and General Contracting in Antelope, CA | TDI USA, Inc."
+title: "Renovations, Remodels and General Contracting in Antelope, CA | TDI Builders"
 h1: "Renovations, Remodels and General Contracting in Antelope"
 meta_description: "Trusted renovations, remodels and general contracting in Antelope, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "renovations, remodels and general contracting antelope"

@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Room Additions and Home Additions in Foothill Farms, CA | TDI USA, Inc."
+title: "Room Additions and Home Additions in Foothill Farms, CA | TDI Builders"
 h1: "Room Additions and Home Additions in Foothill Farms"
 meta_description: "Trusted room additions and home additions in Foothill Farms, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "room additions and home additions foothill farms"

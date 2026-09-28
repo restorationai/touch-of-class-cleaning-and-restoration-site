@@ -1,6 +1,6 @@
 ---
 archetype: "service-area"
-title: "Construction Services in North Highlands, CA | TDI USA, Inc."
+title: "Construction Services in North Highlands, CA | TDI Builders"
 h1: "Construction Services in North Highlands"
 meta_description: "Serving North Highlands, CA with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (877) 688-0866 for a free estimate."
 primary_keyword: "construction services north highlands"

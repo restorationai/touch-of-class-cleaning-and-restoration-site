@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Kitchen Remodeling in Arden-Arcade, CA | TDI USA, Inc."
+title: "Kitchen Remodeling in Arden-Arcade, CA | TDI Builders"
 h1: "Kitchen Remodeling in Arden-Arcade"
 meta_description: "Trusted kitchen remodeling in Arden-Arcade, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "kitchen remodeling arden-arcade"

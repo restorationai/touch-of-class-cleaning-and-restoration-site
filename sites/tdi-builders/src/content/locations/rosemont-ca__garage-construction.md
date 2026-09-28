@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Garage Construction in Rosemont, CA | TDI USA, Inc."
+title: "Garage Construction in Rosemont, CA | TDI Builders"
 h1: "Garage Construction in Rosemont"
 meta_description: "Trusted garage construction in Rosemont, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "garage construction rosemont"

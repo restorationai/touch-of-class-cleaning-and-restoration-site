@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Bathroom Remodeling in Manteca, CA | TDI USA, Inc."
+title: "Bathroom Remodeling in Manteca, CA | TDI Builders"
 h1: "Bathroom Remodeling in Manteca"
 meta_description: "Trusted bathroom remodeling in Manteca, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "bathroom remodeling manteca"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Bathroom Remodeling"
 rendered: true
 ---
-Manteca's rapid growth over the past two decades has layered newer tract homes on top of an older agricultural-town core, and that mix creates a bathroom remodeling landscape unlike most of the Central Valley. Slab foundations dominate across the city, which means plumbing runs under concrete rather than through accessible crawl spaces, and any shower or tub-to-shower conversion that requires repositioning a drain becomes a concrete-cutting job before a single tile goes up. TDI USA, Inc. has been navigating exactly these kinds of structural realities since 1985, and our licensed and insured crews bring that depth of experience to every master bath remodel and renovation project we take on in San Joaquin County.
+Manteca's rapid growth over the past two decades has layered newer tract homes on top of an older agricultural-town core, and that mix creates a bathroom remodeling landscape unlike most of the Central Valley. Slab foundations dominate across the city, which means plumbing runs under concrete rather than through accessible crawl spaces, and any shower or tub-to-shower conversion that requires repositioning a drain becomes a concrete-cutting job before a single tile goes up. TDI Builders has been navigating exactly these kinds of structural realities since 1985, and our licensed and insured crews bring that depth of experience to every master bath remodel and renovation project we take on in San Joaquin County.
 
 ## Why Manteca Homes Require a Different Remodeling Approach
 
@@ -46,4 +46,4 @@ A significant portion of Manteca's newer developments, particularly in the maste
 
 Manteca's older neighborhoods closer to the downtown corridor contain homes built in the 1950s through 1970s with cast-iron drain lines that have often corroded or partially collapsed by the time a bathroom remodel surfaces the issue. When we open a wall or cut into a slab in these areas and find a compromised drain line, replacing it during the remodel is almost always less expensive than addressing it as a separate emergency later. It is the kind of condition that does not show up in a visual inspection but becomes obvious the moment demolition starts, and knowing to look for it in Manteca's older housing stock is something that comes from working in this region for decades.
 
-If your bathroom is showing signs of grout failure, persistent moisture odors, or fixtures that belong to a different era entirely, the right time to act is before the underlying structure gets worse. Call TDI USA, Inc. at (877) 688-0866 to schedule your Manteca bathroom remodeling consultation. Our team is available around the clock, and we serve the full city and surrounding San Joaquin County communities.
+If your bathroom is showing signs of grout failure, persistent moisture odors, or fixtures that belong to a different era entirely, the right time to act is before the underlying structure gets worse. Call TDI Builders at (877) 688-0866 to schedule your Manteca bathroom remodeling consultation. Our team is available around the clock, and we serve the full city and surrounding San Joaquin County communities.

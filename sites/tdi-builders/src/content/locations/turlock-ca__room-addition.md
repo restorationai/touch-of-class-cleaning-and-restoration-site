@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Room Additions and Home Additions in Turlock, CA | TDI USA, Inc."
+title: "Room Additions and Home Additions in Turlock, CA | TDI Builders"
 h1: "Room Additions and Home Additions in Turlock"
 meta_description: "Trusted room additions and home additions in Turlock, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "room additions and home additions turlock"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Room Additions and Home Additions"
 rendered: true
 ---
-Turlock's steady growth across Stanislaus County has pushed many homeowners to expand rather than relocate, and for good reason: land costs, school districts, and established neighborhoods make staying put the smarter financial move. Whether you're planning a primary bedroom suite at the back of a 1970s ranch-style home or a full second-story bump-out addition, the planning and permitting process here moves on its own timeline and under its own set of local conditions. TDI USA, Inc. has been navigating exactly these kinds of projects since 1985, and our licensed and insured team brings more than 40 years of construction and rebuilding experience to every home addition in Turlock.
+Turlock's steady growth across Stanislaus County has pushed many homeowners to expand rather than relocate, and for good reason: land costs, school districts, and established neighborhoods make staying put the smarter financial move. Whether you're planning a primary bedroom suite at the back of a 1970s ranch-style home or a full second-story bump-out addition, the planning and permitting process here moves on its own timeline and under its own set of local conditions. TDI Builders has been navigating exactly these kinds of projects since 1985, and our licensed and insured team brings more than 40 years of construction and rebuilding experience to every home addition in Turlock.
 
 ## Why Turlock's Housing Stock and Climate Shape Home Addition Planning
 
@@ -36,7 +36,7 @@ From there, the process moves through design and plan preparation, permit submit
 
 ## Reaching Turlock from Sacramento
 
-TDI USA, Inc. is headquartered in Sacramento, and Turlock is a straightforward drive south on Highway 99 through Modesto. We schedule project visits, consultations, and crew deployment across the Central Valley regularly, and our team is available around the clock. For homeowners in Turlock who want to move quickly on a room addition project, reaching us by phone at (877) 688-0866 connects you directly to scheduling regardless of the time of day.
+TDI Builders is headquartered in Sacramento, and Turlock is a straightforward drive south on Highway 99 through Modesto. We schedule project visits, consultations, and crew deployment across the Central Valley regularly, and our team is available around the clock. For homeowners in Turlock who want to move quickly on a room addition project, reaching us by phone at (877) 688-0866 connects you directly to scheduling regardless of the time of day.
 
 ## Coordinating Permits and HOA Requirements for Turlock Additions
 
@@ -48,4 +48,4 @@ For additions that involve converting a garage, enclosing a patio, or adding an 
 
 Turlock's older neighborhoods near downtown, where homes were built on smaller lots with minimal side-yard setbacks, leave little room for traditional bump-out additions toward the property lines. In those situations, a second-story addition or a rear addition accessed through the kitchen or dining area is often the only viable path to meaningful square footage. We've learned to read lot surveys carefully in these tighter blocks and to design addition footprints that work within what the zoning allows rather than discovering the constraint after plans are drawn.
 
-If you're ready to add space, functionality, and long-term value to your Turlock home, call TDI USA, Inc. at (877) 688-0866. We'll walk your property, review your goals, and give you a clear picture of what a room addition or home addition will take from permit to final inspection.
+If you're ready to add space, functionality, and long-term value to your Turlock home, call TDI Builders at (877) 688-0866. We'll walk your property, review your goals, and give you a clear picture of what a room addition or home addition will take from permit to final inspection.

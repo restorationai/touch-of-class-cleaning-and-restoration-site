@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Bathroom Remodeling in Mather, CA | TDI USA, Inc."
+title: "Bathroom Remodeling in Mather, CA | TDI Builders"
 h1: "Bathroom Remodeling in Mather"
 meta_description: "Trusted bathroom remodeling in Mather, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "bathroom remodeling mather"

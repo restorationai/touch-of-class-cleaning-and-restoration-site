@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Mold Remediation in Davis, CA | TDI USA, Inc."
+title: "Mold Remediation in Davis, CA | TDI Builders"
 h1: "Mold Remediation in Davis"
 meta_description: "Trusted mold remediation in Davis, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "mold remediation davis"

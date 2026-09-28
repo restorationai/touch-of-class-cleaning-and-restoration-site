@@ -1,11 +1,11 @@
 {
   "brand": {
-    "display_name": "TDI USA, Inc.",
+    "display_name": "TDI Builders",
     "lat": 38.6446,
     "lng": -121.5058,
     "phone": "(877) 688-0866",
     "email": "",
-    "street_address": "701 Del Paso Rd",
+    "street_address": "701 Del Paso Road Suite 200",
     "city": "Sacramento",
     "state": "CA",
     "postal_code": "95834",
@@ -53,10 +53,16 @@
     "ga4_measurement_id": "G-HCNBG7B9HN"
   },
   "second_location": {
-    "street_address": "1086 Bessemer Ave, Suite #G",
+    "street_address": "1086 Bessemer Ave Suite B",
     "city": "Manteca",
     "state": "CA",
     "postal_code": "95337"
+  },
+  "third_location": {
+    "street_address": "1015 12th Street",
+    "city": "Modesto",
+    "state": "CA",
+    "postal_code": "95354"
   },
   "services": [
     "commercial-construction",

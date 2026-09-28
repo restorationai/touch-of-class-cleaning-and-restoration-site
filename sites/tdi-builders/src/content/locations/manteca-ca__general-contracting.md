@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Renovations, Remodels and General Contracting in Manteca, CA | TDI USA, Inc."
+title: "Renovations, Remodels and General Contracting in Manteca, CA | TDI Builders"
 h1: "Renovations, Remodels and General Contracting in Manteca"
 meta_description: "Trusted renovations, remodels and general contracting in Manteca, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "renovations, remodels and general contracting manteca"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Renovations, Remodels and General Contracting"
 rendered: true
 ---
-Manteca has grown fast, and that growth shows up in the work. Subdivisions built during the Central Valley's 2000s boom sit alongside older ranch-style homes from the 1970s and 1980s, and each era carries its own set of quirks: undersized electrical panels, original single-pane windows, slab foundations that shift with the valley's expansive clay soils, and kitchens that were never designed for how families actually cook today. TDI USA, Inc. brings more than 40 years of construction and rebuilding experience to renovation and remodel projects throughout Manteca, handling everything from design through final inspection under one licensed and insured roof.
+Manteca has grown fast, and that growth shows up in the work. Subdivisions built during the Central Valley's 2000s boom sit alongside older ranch-style homes from the 1970s and 1980s, and each era carries its own set of quirks: undersized electrical panels, original single-pane windows, slab foundations that shift with the valley's expansive clay soils, and kitchens that were never designed for how families actually cook today. TDI Builders brings more than 40 years of construction and rebuilding experience to renovation and remodel projects throughout Manteca, handling everything from design through final inspection under one licensed and insured roof.
 
 ## Why Manteca's Housing Stock Shapes Every Remodel
 
@@ -36,7 +36,7 @@ Once scope and budget are aligned, we move through a defined sequence: demolitio
 
 ## Reaching Manteca from Sacramento
 
-TDI USA, Inc. is headquartered in Sacramento, and Manteca is a straightforward run south on Highway 99 through Stockton. We schedule project visits, consultations, and crew deployment to Manteca regularly, and our 24/7 availability means that if an issue surfaces mid-project that needs immediate attention, someone can respond. For homeowners in areas of Manteca closer to the Lathrop Road corridor or the newer development along the south side of the city, routing is direct and adds no meaningful delay to project coordination.
+TDI Builders is headquartered in Sacramento, and Manteca is a straightforward run south on Highway 99 through Stockton. We schedule project visits, consultations, and crew deployment to Manteca regularly, and our 24/7 availability means that if an issue surfaces mid-project that needs immediate attention, someone can respond. For homeowners in areas of Manteca closer to the Lathrop Road corridor or the newer development along the south side of the city, routing is direct and adds no meaningful delay to project coordination.
 
 ## Local Note
 
@@ -48,4 +48,4 @@ The City of Manteca requires permits for most structural, electrical, plumbing, 
 
 Many of Manteca's newer subdivisions are governed by homeowners associations that have their own approval requirements for exterior modifications, additions, and in some cases window or door replacements. We work with homeowners to prepare the documentation HOAs typically request, including material specifications and project drawings, before construction begins.
 
-If you are ready to move forward on a renovation, remodel, or new construction project in Manteca, call TDI USA, Inc. at (877) 688-0866. We will walk through the scope with you, give you a clear picture of what the project involves, and put more than four decades of construction experience to work on your property.
+If you are ready to move forward on a renovation, remodel, or new construction project in Manteca, call TDI Builders at (877) 688-0866. We will walk through the scope with you, give you a clear picture of what the project involves, and put more than four decades of construction experience to work on your property.

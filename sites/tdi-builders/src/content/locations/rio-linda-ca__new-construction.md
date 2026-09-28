@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "New Home Construction in Rio Linda, CA | TDI USA, Inc."
+title: "New Home Construction in Rio Linda, CA | TDI Builders"
 h1: "New Home Construction in Rio Linda"
 meta_description: "Trusted new home construction in Rio Linda, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "new home construction rio linda"

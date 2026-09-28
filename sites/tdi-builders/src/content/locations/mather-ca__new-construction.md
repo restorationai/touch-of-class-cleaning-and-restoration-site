@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "New Home Construction in Mather, CA | TDI USA, Inc."
+title: "New Home Construction in Mather, CA | TDI Builders"
 h1: "New Home Construction in Mather"
 meta_description: "Trusted new home construction in Mather, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "new home construction mather"

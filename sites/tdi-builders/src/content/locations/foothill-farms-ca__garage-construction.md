@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Garage Construction in Foothill Farms, CA | TDI USA, Inc."
+title: "Garage Construction in Foothill Farms, CA | TDI Builders"
 h1: "Garage Construction in Foothill Farms"
 meta_description: "Trusted garage construction in Foothill Farms, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "garage construction foothill farms"

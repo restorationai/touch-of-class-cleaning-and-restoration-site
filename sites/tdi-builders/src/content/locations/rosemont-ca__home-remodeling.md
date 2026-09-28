@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Home Remodeling in Rosemont, CA | TDI USA, Inc."
+title: "Home Remodeling in Rosemont, CA | TDI Builders"
 h1: "Home Remodeling in Rosemont"
 meta_description: "Trusted home remodeling in Rosemont, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "home remodeling rosemont"

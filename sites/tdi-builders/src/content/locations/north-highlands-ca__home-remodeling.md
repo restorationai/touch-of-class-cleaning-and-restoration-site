@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Home Remodeling in North Highlands, CA | TDI USA, Inc."
+title: "Home Remodeling in North Highlands, CA | TDI Builders"
 h1: "Home Remodeling in North Highlands"
 meta_description: "Trusted home remodeling in North Highlands, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "home remodeling north highlands"

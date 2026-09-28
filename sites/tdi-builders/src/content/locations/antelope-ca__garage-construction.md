@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Garage Construction in Antelope, CA | TDI USA, Inc."
+title: "Garage Construction in Antelope, CA | TDI Builders"
 h1: "Garage Construction in Antelope"
 meta_description: "Trusted garage construction in Antelope, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "garage construction antelope"

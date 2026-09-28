@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Mold Remediation in Rio Linda, CA | TDI USA, Inc."
+title: "Mold Remediation in Rio Linda, CA | TDI Builders"
 h1: "Mold Remediation in Rio Linda"
 meta_description: "Trusted mold remediation in Rio Linda, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "mold remediation rio linda"

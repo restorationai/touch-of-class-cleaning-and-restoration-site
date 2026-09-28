@@ -1,6 +1,6 @@
 ---
 archetype: "service-area"
-title: "Construction Services in Foothill Farms, CA | TDI USA, Inc."
+title: "Construction Services in Foothill Farms, CA | TDI Builders"
 h1: "Construction Services in Foothill Farms"
 meta_description: "Serving Foothill Farms, CA with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (877) 688-0866 for a free estimate."
 primary_keyword: "construction services foothill farms"

@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "New Home Construction in McClellan Park, CA | TDI USA, Inc."
+title: "New Home Construction in McClellan Park, CA | TDI Builders"
 h1: "New Home Construction in McClellan Park"
 meta_description: "Trusted new home construction in McClellan Park, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "new home construction mcclellan park"

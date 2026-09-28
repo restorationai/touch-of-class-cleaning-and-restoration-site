@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Kitchen Remodeling in Manteca, CA | TDI USA, Inc."
+title: "Kitchen Remodeling in Manteca, CA | TDI Builders"
 h1: "Kitchen Remodeling in Manteca"
 meta_description: "Trusted kitchen remodeling in Manteca, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "kitchen remodeling manteca"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Kitchen Remodeling"
 rendered: true
 ---
-Manteca's rapid growth over the past two decades has brought a wave of tract homes and newer subdivisions alongside older ranch-style properties built in the 1970s and 1980s, and the kitchens in both eras tend to show their age in similar ways: cramped layouts, laminate surfaces that have absorbed years of Central Valley heat, and cabinetry that was never designed for the way families actually cook and gather. TDI USA, Inc. has been doing construction and rebuilding work since 1985, and a kitchen remodel in Manteca calls for a specific kind of attention to local conditions that generic renovation guides simply don't cover.
+Manteca's rapid growth over the past two decades has brought a wave of tract homes and newer subdivisions alongside older ranch-style properties built in the 1970s and 1980s, and the kitchens in both eras tend to show their age in similar ways: cramped layouts, laminate surfaces that have absorbed years of Central Valley heat, and cabinetry that was never designed for the way families actually cook and gather. TDI Builders has been doing construction and rebuilding work since 1985, and a kitchen remodel in Manteca calls for a specific kind of attention to local conditions that generic renovation guides simply don't cover.
 
 ## Why Manteca Kitchens Benefit from a Thoughtful Remodel
 
@@ -44,4 +44,4 @@ For straightforward interior kitchen remodels with no structural changes, the pe
 
 One thing that catches homeowners off guard in Manteca's slab-foundation tract homes is the location of the original kitchen drain stub-out. Builders in the 1980s and 1990s often placed the drain in a position that made sense for the standard 30-inch sink cabinet of that era. When a remodel calls for a farmhouse sink, a larger island sink, or a relocated dishwasher, that stub-out position becomes a real constraint. Moving it means cutting concrete, which is straightforward work but adds time and cost that should be in the budget from day one, not discovered after demolition is underway. We flag this in the initial walkthrough so the estimate reflects what the project actually requires.
 
-If you are ready to talk through what a kitchen remodel would look like in your Manteca home, call TDI USA, Inc. at (877) 688-0866. With more than 40 years of construction and rebuilding experience and a team that is available around the clock, we can schedule a walkthrough and put together a scope that fits the way your household actually uses the space.
+If you are ready to talk through what a kitchen remodel would look like in your Manteca home, call TDI Builders at (877) 688-0866. With more than 40 years of construction and rebuilding experience and a team that is available around the clock, we can schedule a walkthrough and put together a scope that fits the way your household actually uses the space.

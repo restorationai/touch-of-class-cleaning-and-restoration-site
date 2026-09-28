@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in North Highlands, CA | TDI USA, Inc."
+title: "Water Damage Restoration in North Highlands, CA | TDI Builders"
 h1: "Water Damage Restoration in North Highlands"
 meta_description: "Trusted water damage restoration in North Highlands, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "water damage restoration north highlands"

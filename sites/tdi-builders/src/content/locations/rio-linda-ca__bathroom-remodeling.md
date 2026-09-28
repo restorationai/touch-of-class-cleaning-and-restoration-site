@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Bathroom Remodeling in Rio Linda, CA | TDI USA, Inc."
+title: "Bathroom Remodeling in Rio Linda, CA | TDI Builders"
 h1: "Bathroom Remodeling in Rio Linda"
 meta_description: "Trusted bathroom remodeling in Rio Linda, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "bathroom remodeling rio linda"

@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Fire and Smoke Damage Rebuilding in Davis, CA | TDI USA, Inc."
+title: "Fire and Smoke Damage Rebuilding in Davis, CA | TDI Builders"
 h1: "Fire and Smoke Damage Rebuilding in Davis"
 meta_description: "Trusted fire and smoke damage rebuilding in Davis, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "fire and smoke damage rebuilding davis"

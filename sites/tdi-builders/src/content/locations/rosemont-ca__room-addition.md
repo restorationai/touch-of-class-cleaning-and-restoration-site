@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Room Additions and Home Additions in Rosemont, CA | TDI USA, Inc."
+title: "Room Additions and Home Additions in Rosemont, CA | TDI Builders"
 h1: "Room Additions and Home Additions in Rosemont"
 meta_description: "Trusted room additions and home additions in Rosemont, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "room additions and home additions rosemont"

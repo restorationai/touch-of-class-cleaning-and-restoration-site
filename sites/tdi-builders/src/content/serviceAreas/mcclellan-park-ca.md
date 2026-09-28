@@ -1,6 +1,6 @@
 ---
 archetype: "service-area"
-title: "Construction Services in McClellan Park, CA | TDI USA, Inc."
+title: "Construction Services in McClellan Park, CA | TDI Builders"
 h1: "Construction Services in McClellan Park"
 meta_description: "Serving McClellan Park, CA with home remodeling, new construction, roofing, and exterior work. Licensed and insured. Call (877) 688-0866 for a free estimate."
 primary_keyword: "construction services mcclellan park"

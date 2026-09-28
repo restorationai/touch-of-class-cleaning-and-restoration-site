@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Home Remodeling in Manteca, CA | TDI USA, Inc."
+title: "Home Remodeling in Manteca, CA | TDI Builders"
 h1: "Home Remodeling in Manteca"
 meta_description: "Trusted home remodeling in Manteca, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "home remodeling manteca"
@@ -20,7 +20,7 @@ state: "CA"
 service_display: "Home Remodeling"
 rendered: true
 ---
-Manteca has been growing fast, and the homes here reflect that layered history: ranch-style tract houses from the postwar boom sitting alongside newer infill construction and the kind of 1970s split-levels that were built when the Central Valley's agricultural economy was still the dominant force shaping the city's footprint. When a home remodeling project comes together well in Manteca, it has to account for that mix, because a kitchen addition on a 1960s slab foundation behaves very differently than a bathroom renovation in a newer development near the Highway 120 corridor. TDI USA, Inc. has been navigating exactly those distinctions since 1985, and the work here reflects what four decades of construction experience actually looks like in practice.
+Manteca has been growing fast, and the homes here reflect that layered history: ranch-style tract houses from the postwar boom sitting alongside newer infill construction and the kind of 1970s split-levels that were built when the Central Valley's agricultural economy was still the dominant force shaping the city's footprint. When a home remodeling project comes together well in Manteca, it has to account for that mix, because a kitchen addition on a 1960s slab foundation behaves very differently than a bathroom renovation in a newer development near the Highway 120 corridor. TDI Builders has been navigating exactly those distinctions since 1985, and the work here reflects what four decades of construction experience actually looks like in practice.
 
 ## Why Manteca Homes Present Specific Remodeling Considerations
 
@@ -38,7 +38,7 @@ Material selections are made with the climate in mind. Flooring that handles tem
 
 ## Reaching Manteca from Sacramento
 
-TDI USA, Inc. operates out of Sacramento, and Manteca sits roughly 50 miles to the south via Highway 99, a route the team travels regularly for projects throughout San Joaquin County. Because the operation runs around the clock, scheduling is flexible, and initial consultations can be arranged to fit around work schedules rather than forcing homeowners to take time off for a mid-morning appointment.
+TDI Builders operates out of Sacramento, and Manteca sits roughly 50 miles to the south via Highway 99, a route the team travels regularly for projects throughout San Joaquin County. Because the operation runs around the clock, scheduling is flexible, and initial consultations can be arranged to fit around work schedules rather than forcing homeowners to take time off for a mid-morning appointment.
 
 For projects in the northern parts of the city near the Lathrop Road corridor, or further south toward the Union Road area, access and staging logistics are part of the pre-construction conversation. Knowing the local street grid and where permit-required work requires utility coordination with PG&E or the City's public works department is the kind of operational detail that keeps projects on schedule.
 

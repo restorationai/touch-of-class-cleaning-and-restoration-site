@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Kitchen Remodeling in McClellan Park, CA | TDI USA, Inc."
+title: "Kitchen Remodeling in McClellan Park, CA | TDI Builders"
 h1: "Kitchen Remodeling in McClellan Park"
 meta_description: "Trusted kitchen remodeling in McClellan Park, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "kitchen remodeling mcclellan park"

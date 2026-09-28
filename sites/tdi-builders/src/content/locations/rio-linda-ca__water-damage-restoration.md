@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Water Damage Restoration in Rio Linda, CA | TDI USA, Inc."
+title: "Water Damage Restoration in Rio Linda, CA | TDI Builders"
 h1: "Water Damage Restoration in Rio Linda"
 meta_description: "Trusted water damage restoration in Rio Linda, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "water damage restoration rio linda"

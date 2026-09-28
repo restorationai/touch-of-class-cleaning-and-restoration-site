@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Mold Remediation in Antelope, CA | TDI USA, Inc."
+title: "Mold Remediation in Antelope, CA | TDI Builders"
 h1: "Mold Remediation in Antelope"
 meta_description: "Trusted mold remediation in Antelope, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "mold remediation antelope"

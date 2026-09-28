@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Mold Remediation in Foothill Farms, CA | TDI USA, Inc."
+title: "Mold Remediation in Foothill Farms, CA | TDI Builders"
 h1: "Mold Remediation in Foothill Farms"
 meta_description: "Trusted mold remediation in Foothill Farms, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "mold remediation foothill farms"

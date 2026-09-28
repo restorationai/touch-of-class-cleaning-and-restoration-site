@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Home Remodeling in Florin, CA | TDI USA, Inc."
+title: "Home Remodeling in Florin, CA | TDI Builders"
 h1: "Home Remodeling in Florin"
 meta_description: "Trusted home remodeling in Florin, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "home remodeling florin"

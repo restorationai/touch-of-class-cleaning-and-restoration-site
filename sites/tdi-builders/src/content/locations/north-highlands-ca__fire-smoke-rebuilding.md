@@ -1,6 +1,6 @@
 ---
 archetype: "service-area-service"
-title: "Fire and Smoke Damage Rebuilding in North Highlands, CA | TDI USA, Inc."
+title: "Fire and Smoke Damage Rebuilding in North Highlands, CA | TDI Builders"
 h1: "Fire and Smoke Damage Rebuilding in North Highlands"
 meta_description: "Trusted fire and smoke damage rebuilding in North Highlands, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866."
 primary_keyword: "fire and smoke damage rebuilding north highlands"
