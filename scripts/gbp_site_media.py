@@ -22,16 +22,30 @@ Two jobs, one per-client unit:
                allowed_claims / cities   the claims_lint truth table and the
                            plan-input city pool (same inputs gbp.py's
                            service_descriptions uses)
-  push       Add website images to the client's GBP over time. ONLY when
+  push       Add website images to the client's GBP over time, for EVERY
+             client with an existing verified GBP (owner-approved 2026-09-28,
+             not just planner profiles). ONLY when
                (a) the site answers on its real domain (HTTP probe, not flags)
                (b) the GBP is verified (metadata.hasVoiceOfMerchant)
-             At most --cap (default 3, env GBP_SITE_PHOTOS_WEEKLY_CAP) new
-             photos per rolling 7 days. Order: real photos before AI images,
-             then hero, service cards, team, before/after, services hub. Logos
-             never ride this lane (cover/logo are the planner's call). Every
-             push is recorded in ops_kv 'gbp-site-media/{company_id}' (sha1 +
-             URL) so nothing is uploaded twice; the planner's push_media writes
-             the same ledger.
+             Selection (owner 2026-09-28): ONLY the hero + per-service images,
+             plus REAL client photos in any site slot (photo-manifest), which
+             keep priority. Team / before-after / services-hub AI images stay
+             in the manifest for the planner but never ride this lane.
+             Cadence: --cap (default 1, env GBP_SITE_PHOTOS_WEEKLY_CAP) new
+             photo per client per rolling 7 days until the hero + service
+             images are exhausted, then the lane goes quiet for that client.
+             NEVER sets or changes a COVER and never uploads a LOGO: photos are
+             only ADDED (hero goes up as EXTERIOR). Every push is recorded in
+             ops_kv 'gbp-site-media/{company_id}' (sha1 + URL) so nothing is
+             uploaded twice; the planner's push_media writes the same ledger.
+  planner-tick  Nightly GBP Profile Planner tick for one company with an
+             APPLIED plan: calls the gbp-planner edge function's
+             verification_status (service-role auth). That records verified_at
+             and, 3 days after Google verifies, swaps the primary phone to the
+             DNI GBP tracking number (real number -> additional). The swap only
+             writes when the edge-function secret GBP_PLANNER_PHONE_SWAP=1 is
+             set (supabase secrets set GBP_PLANNER_PHONE_SWAP=1 --project-ref
+             nyscciinkhlutvqkgyvq); unset = reported as due, never written.
 
 WRITE GATE: push is a dry run unless BOTH --apply is passed AND env
 GBP_SITE_PHOTOS_WRITE is 1/true. CI passes --apply; the env flag stays unset
@@ -46,6 +60,8 @@ Usage:
   python3 scripts/gbp_site_media.py push --slug kenneth-w-talbot-jr          # dry run
   python3 scripts/gbp_site_media.py run --slug X --apply                      # manifest + push
   python3 scripts/gbp_site_media.py list-due
+  python3 scripts/gbp_site_media.py list-planner                           # company ids with an applied plan
+  python3 scripts/gbp_site_media.py planner-tick --company-id CO-...
 """
 from __future__ import annotations
 
@@ -74,7 +90,9 @@ SB_URL = os.environ.get("SUPABASE_URL", "").rstrip("/")
 SB_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
 BUCKET = "branding"
 UA = "Mozilla/5.0 (RankAI site-media parity; +https://restorationai.io)"
-DEFAULT_CAP = 3
+DEFAULT_CAP = 1                     # new photos per client per rolling 7 days
+LANE_ROLES = ("hero", "service")    # AI site images the lane may push (real photos: any role but logo)
+NEVER_CATEGORIES = ("COVER", "LOGO")  # the lane only ADDS photos
 ROLE_RANK = {"hero": 0, "service": 1, "team": 2, "before_after": 3, "services_hub": 4, "crew": 2, "other": 5}
 ROLE_CATEGORY = {"hero": "EXTERIOR", "service": "AT_WORK", "team": "TEAMS", "crew": "TEAMS",
                  "before_after": "AT_WORK", "services_hub": "ADDITIONAL", "logo": "LOGO", "other": "ADDITIONAL"}
@@ -415,6 +433,8 @@ def locate(slug: str, cid: str) -> tuple[str | None, str | None, dict | None, st
 
 
 def push_one(tok: str, acct: str, loc_name: str, img: dict) -> dict:
+    if img.get("category") in NEVER_CATEGORIES:   # hard guard: never set/replace a cover or logo
+        raise RuntimeError(f"refusing category {img.get('category')}: the lane only adds photos")
     locid = loc_name.split("/")[-1]
     body = {"mediaFormat": "PHOTO", "locationAssociation": {"category": img["category"]},
             "sourceUrl": img["gbp_url"], "description": img.get("caption", "")[:250]}
@@ -457,6 +477,8 @@ def cmd_push(slug: str, apply: bool, cap: int, real_only: bool, manifest: dict |
     recent = [p for p in pushed if p.get("by") == "lane" and p.get("at", "") >= iso(week_ago)]
     room = max(0, cap - len(recent))
     cands = [i for i in m.get("images", []) if i.get("live") and i.get("gbp_url") and i.get("role") != "logo"
+             and i.get("category") not in NEVER_CATEGORIES
+             and (not i.get("ai_generated") or i.get("role") in LANE_ROLES)
              and i.get("sha1") not in have and i.get("site_url") not in have
              and not (real_only and i.get("ai_generated"))]
     cands.sort(key=lambda i: (bool(i.get("ai_generated")), ROLE_RANK.get(i.get("role"), 9), i.get("key")))
@@ -464,13 +486,23 @@ def cmd_push(slug: str, apply: bool, cap: int, real_only: bool, manifest: dict |
     report["candidates"] = [{"key": i["key"], "role": i["role"], "ai": i["ai_generated"], "category": i["category"]}
                             for i in cands[:10]]
     report["remaining"] = len(cands)
+    lane_imgs = [i for i in m.get("images", []) if i.get("role") != "logo"
+                 and (not i.get("ai_generated") or i.get("role") in LANE_ROLES)]
+    if not lane_imgs:
+        quiet = "; no hero/service/real images in the site build"
+    elif not any(i.get("live") and i.get("gbp_url") for i in lane_imgs):
+        quiet = "; site images NOT served on the domain (our build not live there?), nothing to push"
+    else:
+        quiet = "; hero + service images EXHAUSTED, lane quiet"
+    report["quiet_reason"] = quiet.strip("; ") if not cands else None
     report["room_this_week"] = room
 
     gates_ok = all(g["ok"] for g in report["gates"].values())
     lines = [f"  [{slug}] {mode}: site {'LIVE' if live else 'not live'} ({why}); GBP "
              f"{'verified' if report['gates']['gbp_verified']['ok'] else 'NOT verified'} "
              f"({report['gates']['gbp_verified']['detail']}); {len(cands)} unpushed site image(s), "
-             f"{len(recent)}/{cap} used this week"]
+             f"{len(recent)}/{cap} used this week"
+             + (quiet if not cands else "")]
     if not gates_ok:
         lines.append("    gates closed: nothing would be pushed")
     for i in batch:
@@ -505,6 +537,33 @@ def cmd_push(slug: str, apply: bool, cap: int, real_only: bool, manifest: dict |
     return "\n".join(lines)
 
 
+def list_planner() -> list[str]:
+    """Company ids whose GBP Profile Planner plan was APPLIED (created/verifying/verified)."""
+    r = requests.get(f"{SB_URL}/rest/v1/companies?select=id,st:integration_settings->gbp_plan->>status"
+                     f"&integration_settings->gbp_plan->>status=in.(created,verifying,verified)",
+                     headers=_h(), timeout=30)
+    r.raise_for_status()
+    return [row["id"] for row in r.json()]
+
+
+def planner_tick(cid: str) -> str:
+    r = requests.post(f"{SB_URL}/functions/v1/gbp-planner", headers=_h(),
+                      json={"company_id": cid, "action": "verification_status"}, timeout=150)
+    try:
+        j = r.json()
+    except ValueError:
+        return f"  [{cid}] planner-tick HTTP {r.status_code}: {r.text[:160]}"
+    if not j.get("success"):
+        return f"  [{cid}] planner-tick error: {str(j.get('error'))[:200]}"
+    p = j.get("plan") or {}
+    sw = j.get("phone_swap") or {}
+    mp = j.get("media_push") or {}
+    detail = f" ({sw.get('detail')})" if sw.get("detail") else ""
+    media = f" media pushed={mp.get('pushed')}" if mp else ""
+    return (f"  [{cid}] planner-tick: status={p.get('status')} phone_phase={p.get('phone_phase')} "
+            f"primary={p.get('phone')} swap={sw.get('status') or '-'}{detail}{media}")
+
+
 def list_due() -> list[str]:
     import contextlib
     with contextlib.redirect_stdout(sys.stderr):   # the status gate prints; stdout stays pure JSON
@@ -514,14 +573,26 @@ def list_due() -> list[str]:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Website images -> GBP photo parity lane (+ planner site-asset mirror)")
-    ap.add_argument("cmd", choices=["manifest", "push", "run", "list-due"])
+    ap.add_argument("cmd", choices=["manifest", "push", "run", "list-due", "list-planner", "planner-tick"])
     ap.add_argument("--slug")
+    ap.add_argument("--company-id")
     ap.add_argument("--apply", action="store_true", help="allow writes (still needs env GBP_SITE_PHOTOS_WRITE=1)")
     ap.add_argument("--cap", type=int, default=int(os.environ.get("GBP_SITE_PHOTOS_WEEKLY_CAP") or DEFAULT_CAP))
     ap.add_argument("--real-only", action="store_true", help="never push AI-generated site images")
     args = ap.parse_args()
     if args.cmd == "list-due":
         print(json.dumps(list_due()))
+        return 0
+    if args.cmd == "list-planner":
+        print(json.dumps(list_planner()))
+        return 0
+    if args.cmd == "planner-tick":
+        if not args.company_id:
+            ap.error("--company-id is required")
+        try:
+            print(planner_tick(args.company_id))
+        except Exception as e:  # noqa: BLE001 -- fail-open
+            print(f"  [{args.company_id}] planner-tick ERROR (non-fatal): {str(e)[:200]}")
         return 0
     if not args.slug:
         ap.error("--slug is required (per-client unit; use list-due for the roster)")

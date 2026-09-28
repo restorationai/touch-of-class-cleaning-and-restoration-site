@@ -249,13 +249,25 @@ jobs:
           python3 scripts/gbp_parity.py --all --apply --apply-site --max-new-cities 1 || true
           # SITE-PHOTO PARITY LANE (2026-09-28): per client (one process +
           # timeout each, LAW 09-19): refresh the site-assets mirror the app's
-          # GBP Profile Planner drafts from, then add up to 3 website images
-          # per rolling week to the GBP, only when the real domain answers AND
-          # the GBP is verified; ledger ops_kv gbp-site-media/{cid} dedupes.
-          # REPORT MODE until the owner flips repo variable
+          # GBP Profile Planner drafts from, then add ONE website image per
+          # client per rolling week (GBP_SITE_PHOTOS_WEEKLY_CAP, default 1):
+          # only the hero + per-service images (real client photos first),
+          # until they are exhausted; never sets/changes a cover, never a
+          # logo. Every client with a verified GBP whose real domain serves
+          # our build (owner-approved fleet-wide 2026-09-28); ledger ops_kv
+          # gbp-site-media/{cid} dedupes. Writes need repo variable
           # GBP_SITE_PHOTOS_WRITE=1 (--apply alone never writes).
           for s in $(python3 scripts/gbp_site_media.py list-due | python3 -c "import json,sys; print(' '.join(json.load(sys.stdin)))"); do
             timeout 240 python3 scripts/gbp_site_media.py run --slug "$s" --apply || echo "gbp_site_media $s failed (non-fatal)"
+          done
+          # GBP PROFILE PLANNER TICK (2026-09-28): per applied plan, refresh
+          # verification status (records verified_at, pushes queued photos on
+          # VERIFIED) and, 3 days after Google verifies, swap the primary phone
+          # to the DNI GBP tracking number (real number -> additional). The
+          # swap only writes when the gbp-planner function secret
+          # GBP_PLANNER_PHONE_SWAP=1 is set; otherwise it is reported as due.
+          for c in $(python3 scripts/gbp_site_media.py list-planner | python3 -c "import json,sys; print(' '.join(json.load(sys.stdin)))"); do
+            timeout 180 python3 scripts/gbp_site_media.py planner-tick --company-id "$c" || echo "planner-tick $c failed (non-fatal)"
           done
           # D1 PIPELINE WATCHDOG (2026-09-17): workflows + engine
           # heartbeats + per-client coverage assertions + content SLA.
