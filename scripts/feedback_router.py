@@ -119,7 +119,15 @@ CATEGORIES: dict[str, tuple[str, bool, str]] = {
                      "citation_listings kind=social (Connect card) + "
                      "citations_sync footer/sameAs pass"),
     "rejection":    ("preview rejected", False, "depends on what they meant"),
-    "other":        ("unclassified", False, "n/a"),
+    # UNCLASSIFIED RUNS TOO (Santino 2026-09-28): "I don't want to have to
+    # approve every time after a meeting." Rachelle's "publish the new site
+    # today" sat as an unclassified [TODO-PROPOSED] on the very day it was
+    # promised. The dev agent triages every task and hands back only a step
+    # that truly needs a person, so an unfamiliar ask is its problem to
+    # scope, not a reason to park it. Confidence and the risk regexes above
+    # still apply.
+    "other":        ("unclassified", True,
+                     "dev agent triage: do what it can, punt the rest"),
 }
 
 AUTO_CATEGORIES = {k for k, (_, ok, _) in CATEGORIES.items() if ok}

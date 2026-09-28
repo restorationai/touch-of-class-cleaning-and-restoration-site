@@ -30,7 +30,10 @@ auto-runnable dev task. It now reads Fathom's own action items as well as
 the summary, and routes every WEBSITE item through the same gate the inbound
 concierge uses (scripts/feedback_router.risk_verdict): pixels and paint run
 themselves, WORDS and FACTS stop at Santino. Non-site commitments (accounts,
-listings, ads, calls) file as [TODO-PROPOSED]. Anything the CLIENT owes us
+listings, ads, calls) are routed with no approval step (2026-09-28): dev agent
+by default, Monica for pure communication, Santino only for his human-only
+list (registrars/DNS, client spend, the manual GBP name edit, his personal
+judgment). Anything the CLIENT owes us
 is not a card at all — it belongs in the intel the concierge nudges from.
 
 SILENCE IS A FAILURE MODE. Every run stamps a heartbeat in ops_kv, and
@@ -272,25 +275,138 @@ def add_ghl_note(contact_id: str, body: str) -> None:
 
 
 # --------------------------------------------------------------- call -> work
+# NO APPROVAL STEP (Santino 2026-09-28): "I don't want to have to approve
+# every time after a meeting. I'd rather Monica just have the knowledge base
+# needed to handle these things." Every non-site commitment used to file as
+# [TODO-PROPOSED] ("approve to queue it") and sat: 9 from Josiah's call and
+# 11 from Rachelle's that same day, including a site launch promised for
+# that afternoon. Each commitment now goes straight to the lane that can
+# execute it. The only human lane left is the short list Santino's own laws
+# keep human, and it is an owner assignment, not an approval.
+ROUTE_SYSTEM = """\
+You route commitments WE made on a client call to whoever executes them.
+Nobody approves these; your routing IS the decision, so route to the lane
+that can actually do the work.
+
+Lanes:
+- "dev": our dev agent. It has the codebase and our scripts: the client's
+  website and content, directory listings/citations (BrightLocal), call
+  tracking numbers, review campaigns, the app's AI receptionist/dispatcher
+  settings and alert contacts, reports, location scouting, NAP/address data,
+  and Google Business Profile content through the API (photos, services,
+  posts, cover images). DEFAULT LANE: when in doubt, route here; it will do
+  every step it can and hand back only a step that truly needs a person.
+- "monica": our client concierge texts/emails the client. ONLY for pure
+  communication whose content already exists: confirm a decision that was
+  made on the call, explain something, answer a question, send a link or
+  a document we have, offer times for a call. Never route work to Monica,
+  and never "tell them X is done" before X exists (put that on the X item
+  as notify_client instead). A decision the call left OPEN ("confirm X,
+  including whether to add Y") is NOT ready to communicate: it goes to
+  "santino" (he decides first), never to Monica.
+- "santino": ONLY these, nothing else:
+    1. domains, DNS, registrars, domain forwarding or transfers (his law:
+       registrar work stays human);
+    2. spending or committing the client's money: launching paid ads or
+       LSA, setting or raising a budget, buying a service;
+    3. the manual Google business-NAME edit itself (house doctrine: a name
+       change is never pushed by automation). Everything around it (DBA
+       checks, citations under the new name, site name updates) is "dev".
+    4. something only Santino personally can do: attend a call, make a
+       legal or contract judgment, decide pricing, settle a decision the
+       call left open.
+- "skip": already handled. Sending the meeting summary or recap (it is
+  sent automatically after every call), or anything the call says was done
+  live.
+
+notify_client: true when the client is waiting to hear the result (they
+asked to be told, or the work unblocks something on their side). The
+client then gets a short "it's done" message automatically when the work
+lands. false for internal work (building a listing, tuning a setting they
+never asked about).
+
+Return ONLY JSON, one entry per input item, same order:
+{"routes": [{"route": "dev"|"monica"|"santino"|"skip",
+             "notify_client": bool, "reason": string}]}
+"reason" is one short line a person can read."""
+
+
+def route_ops_items(company: dict, items: list[dict]) -> list[dict]:
+    """Attach route/notify_client/reason to each ops item (one LLM call).
+    Fail-safe: an unroutable item goes to "dev", never back to a hold."""
+    if not items:
+        return items
+    listing = "\n".join(
+        f"{n}. {str(i.get('what') or '').strip()}"
+        + (f"  [where: {i.get('where')}]" if i.get("where") else "")
+        for n, i in enumerate(items, 1))
+    try:
+        out = anthropic_json(
+            ROUTE_SYSTEM,
+            f"Client: {company.get('name')}\n\nCommitments:\n{listing}",
+            max_tokens=2000)
+        routes = out.get("routes") or []
+    except Exception as e:  # noqa: BLE001
+        print(f"    ! routing failed ({str(e)[:80]}), defaulting to dev")
+        routes = []
+    for n, i in enumerate(items):
+        r = routes[n] if n < len(routes) and isinstance(routes[n], dict) else {}
+        route = str(r.get("route") or "dev").lower()
+        i["route"] = route if route in ("dev", "monica", "santino", "skip") \
+            else "dev"
+        i["notify_client"] = bool(r.get("notify_client"))
+        i["route_reason"] = str(r.get("reason") or "").strip()
+    return items
+
+
 def compose_ops_note(item: dict, *, company_name: str, slug: str,
                      who: str, title: str, when: str, url: str | None) -> str:
-    """A non-website commitment, written as a task a human can act on."""
+    """A non-website commitment, filed straight into the lane that executes
+    it (item["route"], set by route_ops_items)."""
+    from feedback_router import ORIGIN_MARK
+    route = item.get("route") or "dev"
+    what = str(item.get("what") or "").strip()
     where = str(item.get("where") or "").strip()
-    lines = [
-        f"[TODO-PROPOSED] CALL COMMITMENT from {who} at {company_name}, "
-        f"{when}:",
-        str(item.get("what") or "").strip(),
-    ]
+    quote = str(item.get("quote") or "").strip()
+    head = {
+        "dev": f"[DEV] {slug}: CALL COMMITMENT from {who} at {company_name}, {when}:",
+        "monica": f"[FOR MONICA] CALL COMMITMENT from {who} at {company_name}, {when}:",
+        "santino": f"[TODO-SANTINO] CALL COMMITMENT (yours) from {who} at "
+                   f"{company_name}, {when}:",
+    }[route]
+    lines = [head, what]
     if where:
         lines.append(f"WHERE: {where}")
-    if item.get("quote"):
-        lines.append(f'THEY SAID: "{str(item["quote"]).strip()}"')
+    if quote:
+        lines.append(f'THEY SAID: "{quote}"')
     lines.append(f"CALL: {title}" + (f" — {url}" if url else ""))
-    lines.append("This is account/listing/outreach work, not a website edit, "
-                 "so no build agent can take it unattended. Approve to queue "
-                 "it, dismiss if it is already handled.")
+    if item.get("route_reason"):
+        lines.append(f"ROUTED: {item['route_reason']}")
+    if route == "dev":
+        lines.append(
+            "HOW: account/ops work from a call, not necessarily a site edit. "
+            "Do every step our tools can do; hand back (NEEDS INPUT) only a "
+            "step that truly needs a person or a client action, and name it.")
+        if item.get("notify_client"):
+            lines.append("WHEN DONE: dev_inbox.py done files the [FROM "
+                         "SANTINO] note automatically, so Monica tells them "
+                         "it is done. Do not text the client yourself.")
+    elif route == "monica":
+        lines.append("Send this to the client in your own words. It is "
+                     "communication only: do not claim any work is done "
+                     "unless this note says it is.")
+    else:
+        lines.append("Owner: Santino. This is on the short list that stays "
+                     "human by his own rules; nothing else waits on him.")
+    # A client-waiting dev item carries the client-feedback trailer so the
+    # done-loop texts them; everything else keeps the meeting trailer so we
+    # never text "your change is done" after internal work.
+    if route == "dev" and item.get("notify_client"):
+        lines.append(f"{ORIGIN_MARK} | who={who} | cat=other | conf=high"
+                     f" | slug={slug} | ch=sms | src=meeting")
     lines.append(f"{MEETING_MARK} | who={who} | slug={slug} | when={when}"
-                 + (f" | call={url}" if url else ""))
+                 + (f" | call={url}" if url else "")
+                 + f" | route={route}")
     return "\n".join(lines)
 
 
@@ -343,7 +459,8 @@ def route_meeting_work(company: dict, slug: str, m: dict, *, title: str,
     """Turn one call into board work. Returns a small per-lane tally.
 
     WEBSITE items go through feedback_router (the risk gate decides [DEV] vs
-    [TODO-PROPOSED]); everything else is proposed for a human. Fail-open:
+    [TODO-PROPOSED]); everything else is routed by route_ops_items straight to
+    the lane that executes it (dev / monica / santino-owned / skip). Fail-open:
     intel and the GHL note have already landed by the time this runs, so an
     extraction failure costs cards, never the whole sync.
     """
@@ -390,9 +507,15 @@ def route_meeting_work(company: dict, slug: str, m: dict, *, title: str,
                                      if r.get("tag") == "[TODO-PROPOSED]")
         tally["skipped"] += len(site) - len(res)
 
+    route_ops_items(company, ops)
     for item in ops:
         what = str(item.get("what") or "").strip()
         if not what:
+            tally["skipped"] += 1
+            continue
+        if item.get("route") == "skip":
+            print(f"    skipping (already handled): {what[:70]} "
+                  f"— {item.get('route_reason', '')[:60]}")
             tally["skipped"] += 1
             continue
         try:
@@ -415,13 +538,15 @@ def route_meeting_work(company: dict, slug: str, m: dict, *, title: str,
         body = compose_ops_note(item, company_name=company.get("name") or slug,
                                 slug=slug, who=who, title=title, when=when,
                                 url=m.get("url"))
+        lane = item.get("route") or "dev"
+        tally[f"ops_{lane}"] = tally.get(f"ops_{lane}", 0) + 1
         if dry_run:
-            print(f"    [dry-run] would file OPS card: {what[:90]}")
+            print(f"    [dry-run] would file ops -> {lane}: {what[:90]}")
             tally["ops"] += 1
             continue
         sb_insert_note(company["id"], body)
         tally["ops"] += 1
-        print(f"    filed [TODO-PROPOSED] ops card: {what[:80]}")
+        print(f"    filed ops -> {lane}: {what[:80]}")
         try:
             from work_log import work_log
             work_log(company["id"], "outreach", "call-commitment-queued",

@@ -40,6 +40,8 @@ def main() -> int:
     ap.add_argument("--contact-id", help="GHL contact (default: company's)")
     ap.add_argument("--channel", default="sms", choices=("sms", "email"))
     ap.add_argument("--subject")
+    ap.add_argument("--reply-to-email", metavar="GHL_MSG_ID",
+                    help="GHL id of the client's email to answer IN its thread")
     ap.add_argument("--send", action="store_true")
     a = ap.parse_args()
     cc.load_env()
@@ -65,7 +67,8 @@ def main() -> int:
     # context note behind, or a retry files a duplicate (DryCor 09-27).
     # Monica's reply path debounces 100s, so the note still lands first.
     r = cc.send_message(contact, a.channel, a.body, subject=a.subject,
-                        company=comp, human_hold_exempt=True)
+                        company=comp, human_hold_exempt=True,
+                        email_msg_id=a.reply_to_email)
     state = cc.load_state()
     cc.record_sent_message(state, r)
     cc.save_state(state, dry_run=False)
