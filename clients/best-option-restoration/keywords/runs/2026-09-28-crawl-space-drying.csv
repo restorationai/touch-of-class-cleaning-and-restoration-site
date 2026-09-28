@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+crawl space encapsulation,transactional,40500,12,31.5,2,crawl space drying,,,false
+crawl space waterproofing,transactional,2900,,39.97,2,crawl space drying,,,false
+crawl space cleaning,transactional,2900,,36.88,2,crawl space drying,,,false
+crawl space mold removal,transactional,1900,,23.55,2,crawl space drying,,,false
+crawl space inspection,transactional,1900,,56.53,2,crawl space drying,,,false
+crawl space cleanup,transactional,320,,34.82,2,crawl space drying,,,false
+crawl space restoration,transactional,210,,53.76,2,crawl space drying,,,false
+crawl space water removal,transactional,210,,49.13,2,crawl space drying,,,false
+flooded crawl space,transactional,170,,84.74,2,crawl space drying,,,false
+crawl space mold treatment,transactional,140,,18.58,2,crawl space drying,,,false
+crawl space drying,transactional,90,,19.11,2,crawl space drying,,,false
+crawl space water damage,transactional,70,,42.86,2,crawl space drying,,,false
+crawl space dry out,transactional,70,,27.4,2,crawl space drying,,,false
+crawl space water damage repair,transactional,70,,42.13,2,crawl space drying,,,false
+crawl space encapsulation cost,commercial,9900,,25.57,2,crawl space drying,,,false
+standing water in crawl space cost to fix,commercial,50,,29.33,2,crawl space drying,,,false
+crawl space vapor barrier,informational,14800,,11.85,2,crawl space drying,,,false
+mold in crawl space,informational,1300,,24.91,2,crawl space drying,,,false
+crawl space mold,informational,1300,,24.91,2,crawl space drying,,,false
+water in crawl space,informational,590,,46.69,2,crawl space drying,,,false
+crawl space humidity level,informational,390,,11.85,2,crawl space drying,,,false
+crawl space moisture,informational,320,,24.6,2,crawl space drying,,,false
+subfloor water damage,informational,260,,43.62,2,crawl space drying,,,false
+water in crawl space after heavy rain normal,informational,260,,20.38,2,crawl space drying,,,false
+standing water in crawl space,informational,210,,46.77,2,crawl space drying,,,false
+musty smell crawl space,informational,210,,10.33,2,crawl space drying,,,false
+crawl space flooding,informational,170,,84.74,2,crawl space drying,,,false
+wet crawl space,informational,140,,6.77,2,crawl space drying,,,false
+crawl space moisture problems,informational,140,,15.19,2,crawl space drying,,,false
+how to dry out crawl space,informational,110,,10.53,2,crawl space drying,,,false
+water under house,informational,110,,36.66,2,crawl space drying,,,false
+who to call for water in crawl space,informational,70,,39.36,2,crawl space drying,,,false
+water in crawl space under vapor barrier,informational,70,,40.44,2,crawl space drying,,,false
+how to get rid of water in crawl space,informational,50,,106.62,2,crawl space drying,,,false
+water under house after heavy rain,informational,50,,59.55,2,crawl space drying,,,false
+how much water in crawl space is ok,informational,40,,8.9,2,crawl space drying,,,false
+is mold in crawl space dangerous,informational,40,,3.84,2,crawl space drying,,,false
+how long does it take to dry out a crawl space,informational,,,,2,crawl space drying,,,false
+should i open crawl space vents to dry it out,informational,,,,2,crawl space drying,,,false
+does homeowners insurance cover water in crawl space,informational,,28,,2,crawl space drying,,,false
