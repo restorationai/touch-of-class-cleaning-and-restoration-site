@@ -1,6 +1,6 @@
 {
   "slug": "narestco",
-  "checked_at": "2026-09-28T16:33:25.654982+00:00",
+  "checked_at": "2026-09-28T17:24:37.354829+00:00",
   "canonical": {
     "name": "National Restoration Construction",
     "phone": "(206) 883-0333",
@@ -66,13 +66,11 @@
       "platform": "homeadvisor",
       "url": "https://www.homeadvisor.com/rated.NationalRestoration.118159482.html",
       "status": "ok",
-      "fetch": "http",
-      "phones_found": [
-        "(206) 883-8209"
-      ],
-      "phone_match": false,
+      "fetch": "google_serp_snippet",
+      "phones_found": [],
+      "phone_match": null,
       "address_match": null,
-      "notes": "canonical phone absent; page shows (206) 883-8209; canonical street address not found on page"
+      "notes": "via Google snippet (page bot-blocked); no phone number found on page; canonical street address not found on page"
     },
     {
       "platform": "yahoo-local",
@@ -89,8 +87,12 @@
     {
       "platform": "angi",
       "url": "https://www.angi.com/companylist/us/wa/federal-way/national-restoration-construction-llc-reviews-1.htm",
-      "status": "unverified",
-      "notes": "unverifiable \u2014 every fetch tier failed (http 403; dfs_content_parsing Page content is empty; google_serp_snippet: page not indexed; wayback: no 200 capture)"
+      "status": "ok",
+      "fetch": "google_serp_snippet",
+      "phones_found": [],
+      "phone_match": null,
+      "address_match": null,
+      "notes": "via Google snippet (page bot-blocked); no phone number found on page; canonical street address not found on page"
     },
     {
       "platform": "houzz",
@@ -112,8 +114,12 @@
     {
       "platform": "facebook",
       "url": "https://www.facebook.com/sasserrestoration/posts/meet-jeremy-clifton-our-newest-national-restoration-supervisor-in-our-north-caro/1001835915279614/",
-      "status": "unverified",
-      "notes": "unverifiable \u2014 every fetch tier failed (http 400; dfs_content_parsing Page content is empty; google_serp_snippet: page not indexed; wayback: no 200 capture)"
+      "status": "ok",
+      "fetch": "google_serp_snippet",
+      "phones_found": [],
+      "phone_match": null,
+      "address_match": null,
+      "notes": "via Google snippet (page bot-blocked); no phone number found on page; canonical street address not found on page"
     },
     {
       "platform": "homeguide",
@@ -178,12 +184,6 @@
     },
     {
       "kind": "phone",
-      "platform": "homeadvisor",
-      "target": "https://www.homeadvisor.com/rated.NationalRestoration.118159482.html",
-      "title": "Fix wrong phone number on homeadvisor"
-    },
-    {
-      "kind": "phone",
       "platform": "yahoo-local",
       "target": "https://local.yahoo.com/info-228522009-national-restoration-construction-federal-way",
       "title": "Fix wrong phone number on yahoo-local"
@@ -195,5 +195,5 @@
       "title": "Remove/merge duplicate yelp listing"
     }
   ],
-  "actions_upserted": 1
+  "actions_upserted": 0
 }

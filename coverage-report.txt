@@ -1,0 +1,138 @@
+Coverage gate — 2026-09-28T17:15:17+00:00
+
+CLIENT                           VERTICAL           QUEUE      KW-BANK    AUDIT<=45d   GEOGRID<=21d   GBP-PROFILE  AI-SCAN<=14d NAP<=35d       
+-----------------------------------------------------------------------------------------------------------------------------------------------
+aaa-water-damage                 OK(restoration)    OK(6)      OK(80)     OK(33d)      OK(12d)        MISS         OK(0d)       MISS(never)    
+air-care-restoration             OK(restoration)    OK(6)      OK(80)     OK(33d)      OK(19d)        OK           OK(0d)       MISS(never)    
+aldredo-moreno                   OK(restoration)    OK(6)      OK(40)     OK(3d)       OK(18d)        OK           OK(0d)       MISS(never)    
+all-pro-plumbing                 OK(plumbing)       OK(6)      OK(119)    OK(27d)      OK(13d)        OK           OK(0d)       MISS(mismatch) 
+arch-enviornmental-group-llc     OK(environmenta)   OK(6)      OK(113)    OK(6d)       MISS(27d)      OK           OK(0d)       MISS(never)    
+bcp-flood-pros-allison-harris    OK(restoration)    OK(6)      OK(40)     OK(6d)       OK(19d)        MISS         OK(0d)       MISS(never)    
+best-option-restoration          OK(restoration)    MISS(0)    OK(1150)   MISS         MISS(cfg)      MISS(no-cid) MISS(no-cid) MISS(never)    
+california-restoration-west      OK(restoration)    OK(6)      OK(88)     OK(32d)      MISS(33d)      OK           OK(0d)       MISS(never)    
+coastal-restoration-services     OK(restoration)    OK(6)      OK(80)     OK(33d)      OK(12d)        OK           OK(0d)       MISS(mismatch) 
+crew-restoration-construction    OK(restoration)    OK(6)      OK(142)    OK(33d)      OK(7d)         OK           OK(0d)       MISS(never)    
+daved                            OK(restoration)    MISS(0)    OK(634)    MISS         MISS(cfg)      MISS         OK(0d)       MISS(never)    
+davis-construction               OK(construction)   OK(6)      OK(218)    OK(32d)      MISS(cfg)      MISS         OK(0d)       MISS(mismatch) 
+diss-restoration                 OK(restoration)    OK(7)      OK(79)     OK(32d)      OK(18d)        OK           OK(0d)       MISS(mismatch) 
+dry-bros-water-fire-restoration  OK(restoration)    OK(6)      OK(80)     OK(9d)       OK(18d)        MISS         OK(0d)       MISS(never)    
+dry-county-restoration           OK(restoration)    OK(6)      OK(80)     OK(32d)      OK(13d)        OK           OK(0d)       MISS(never)    
+drycor-restore                   OK(restoration)    OK(9)      OK(80)     OK(3d)       OK(5d)         OK           OK(0d)       MISS(never)    
+firedex-butler                   OK(restoration)    OK(6)      OK(120)    OK(32d)      OK(7d)         OK           OK(0d)       MISS(never)    
+flood-fixers                     OK(restoration)    OK(6)      OK(180)    OK(32d)      OK(9d)         OK           OK(0d)       MISS(mismatch) 
+flood-solutions-inc              OK(restoration)    OK(6)      OK(80)     OK(3d)       OK(17d)        OK           OK(0d)       MISS(never)    
+frontline-fire-flood             OK(restoration)    OK(7)      OK(40)     OK(3d)       MISS(26d)      OK           OK(0d)       MISS(mismatch) 
+go-green-restoration-of-nc       OK(restoration)    OK(6)      OK(193)    OK(32d)      MISS(49d)      OK           OK(0d)       MISS(never)    
+heritage-restoration-llc         OK(restoration)    OK(6)      OK(79)     OK(9d)       OK(12d)        OK           OK(0d)       MISS(never)    
+homelyft-restoration-ms          OK(restoration)    OK(6)      OK(80)     OK(32d)      OK(12d)        OK           OK(0d)       MISS(mismatch) 
+homepriderestorationandcleaning  OK(restoration)    OK(6)      OK(173)    OK(32d)      OK(9d)         OK           OK(0d)       MISS(mismatch) 
+katofsky-construction-llc        OK(restoration)    OK(18)     OK(39)     MISS         OK(0d)         MISS         OK(0d)       MISS(never)    
+kenneth-w-talbot-jr              OK(restoration)    OK(4)      OK(40)     OK(4d)       MISS(25d)      MISS         OK(0d)       MISS(never)    
+life-savers-restoration-llc      OK(restoration)    OK(6)      OK(79)     OK(32d)      OK(18d)        OK           OK(0d)       MISS(mismatch) 
+loopple                          OK(restoration)    MISS(0)    MISS       MISS         MISS(cfg)      MISS(no-cid) MISS(no-cid) MISS(never)    
+narestco                         OK(restoration)    OK(6)      OK(272)    OK(32d)      OK(13d)        OK           OK(0d)       MISS(mismatch) 
+paul-davis-charleston            OK(restoration)    OK(6)      OK(120)    MISS         MISS(26d)      MISS         OK(0d)       MISS(never)    
+procraft-exteriors               OK(restoration)    MISS(0)    OK(80)     OK(32d)      MISS(no-cid)   MISS(no-cid) MISS(no-cid) MISS(never)    
+prorestoration                   OK(restoration)    OK(6)      OK(137)    OK(32d)      OK(12d)        OK           OK(0d)       MISS(never)    
+puroclean-east-las-vegas         OK(restoration)    OK(6)      OK(147)    OK(32d)      OK(8d)         OK           OK(0d)       MISS(never)    
+quality-contracting-inc          OK(restoration)    OK(6)      OK(81)     OK(32d)      OK(9d)         OK           OK(0d)       MISS(mismatch) 
+rachelle-elliston                OK(restoration)    OK(5)      OK(120)    OK(6d)       OK(16d)        OK           OK(0d)       MISS(never)    
+reign-restoration                OK(restoration)    OK(6)      OK(256)    OK(32d)      OK(9d)         OK           OK(0d)       MISS(never)    
+restoration-groups               OK(restoration)    OK(6)      OK(120)    OK(3d)       OK(12d)        OK           OK(0d)       MISS(mismatch) 
+restorationxpress                OK(restoration)    OK(6)      OK(159)    OK(31d)      OK(12d)        OK           OK(0d)       MISS(never)    
+rt-olson-plumbing-heating-and-air-conditioning OK(plumbing)       OK(4)      OK(40)     MISS         OK(12d)        OK           OK(0d)       MISS(mismatch) 
+tdi-builders                     OK(construction)   MISS(0)    OK(80)     OK(31d)      OK(16d)        OK           OK(0d)       MISS(never)    
+transformation-remodeling        OK(restoration)    MISS(0)    MISS       MISS         MISS(cfg)      MISS         OK(0d)       MISS(never)    
+xtreme-clean                     OK(restoration)    MISS(0)    OK(274)    MISS         MISS(cfg)      MISS         OK(0d)       MISS(never)    
+
+MISSING systems (coverage gate FAILED):
+  - aaa-water-damage: no row in marketing_gbp_profiles (GBP sync never ran)
+  - aaa-water-damage: NAP audit never ran (clients/aaa-water-damage/nap-audit.json missing — run scripts/nap_audit.py --slug aaa-water-damage)
+  - air-care-restoration: NAP audit never ran (clients/air-care-restoration/nap-audit.json missing — run scripts/nap_audit.py --slug air-care-restoration)
+  - aldredo-moreno: NAP audit never ran (clients/aldredo-moreno/nap-audit.json missing — run scripts/nap_audit.py --slug aldredo-moreno)
+  - all-pro-plumbing: 5 unresolved NAP mismatch(es) — see clients/all-pro-plumbing/nap-audit.json
+  - arch-enviornmental-group-llc: newest geo-grid scan is 27d old (max 21d)
+  - arch-enviornmental-group-llc: NAP audit never ran (clients/arch-enviornmental-group-llc/nap-audit.json missing — run scripts/nap_audit.py --slug arch-enviornmental-group-llc)
+  - bcp-flood-pros-allison-harris: no row in marketing_gbp_profiles (GBP sync never ran)
+  - bcp-flood-pros-allison-harris: NAP audit never ran (clients/bcp-flood-pros-allison-harris/nap-audit.json missing — run scripts/nap_audit.py --slug bcp-flood-pros-allison-harris)
+  - best-option-restoration: content queue is EMPTY (System 1 refill not landing)
+  - best-option-restoration: no onsite audit on record (System 3 never ran)
+  - best-option-restoration: geo-grid config missing (geogrid-cities.json)
+  - best-option-restoration: no company_id mapping — GBP profile can't be verified
+  - best-option-restoration: no company_id mapping — AI-search scans can't be verified
+  - best-option-restoration: NAP audit never ran (clients/best-option-restoration/nap-audit.json missing — run scripts/nap_audit.py --slug best-option-restoration)
+  - california-restoration-west: newest geo-grid scan is 33d old (max 21d)
+  - california-restoration-west: NAP audit never ran (clients/california-restoration-west/nap-audit.json missing — run scripts/nap_audit.py --slug california-restoration-west)
+  - coastal-restoration-services: 5 unresolved NAP mismatch(es) — see clients/coastal-restoration-services/nap-audit.json
+  - crew-restoration-construction: NAP audit never ran (clients/crew-restoration-construction/nap-audit.json missing — run scripts/nap_audit.py --slug crew-restoration-construction)
+  - daved: content queue is EMPTY (System 1 refill not landing)
+  - daved: no onsite audit on record (System 3 never ran)
+  - daved: geo-grid config missing (geogrid-cities.json)
+  - daved: no row in marketing_gbp_profiles (GBP sync never ran)
+  - daved: NAP audit never ran (clients/daved/nap-audit.json missing — run scripts/nap_audit.py --slug daved)
+  - davis-construction: geo-grid config missing (geogrid-keywords.txt, geogrid-cities.json)
+  - davis-construction: no row in marketing_gbp_profiles (GBP sync never ran)
+  - davis-construction: 1 unresolved NAP mismatch(es) — see clients/davis-construction/nap-audit.json
+  - diss-restoration: 2 unresolved NAP mismatch(es) — see clients/diss-restoration/nap-audit.json
+  - dry-bros-water-fire-restoration: no row in marketing_gbp_profiles (GBP sync never ran)
+  - dry-bros-water-fire-restoration: NAP audit never ran (clients/dry-bros-water-fire-restoration/nap-audit.json missing — run scripts/nap_audit.py --slug dry-bros-water-fire-restoration)
+  - dry-county-restoration: NAP audit never ran (clients/dry-county-restoration/nap-audit.json missing — run scripts/nap_audit.py --slug dry-county-restoration)
+  - drycor-restore: NAP audit never ran (clients/drycor-restore/nap-audit.json missing — run scripts/nap_audit.py --slug drycor-restore)
+  - firedex-butler: NAP audit never ran (clients/firedex-butler/nap-audit.json missing — run scripts/nap_audit.py --slug firedex-butler)
+  - flood-fixers: 2 unresolved NAP mismatch(es) — see clients/flood-fixers/nap-audit.json
+  - flood-solutions-inc: NAP audit never ran (clients/flood-solutions-inc/nap-audit.json missing — run scripts/nap_audit.py --slug flood-solutions-inc)
+  - frontline-fire-flood: newest geo-grid scan is 26d old (max 21d)
+  - frontline-fire-flood: 2 unresolved NAP mismatch(es) — see clients/frontline-fire-flood/nap-audit.json
+  - go-green-restoration-of-nc: newest geo-grid scan is 49d old (max 21d)
+  - go-green-restoration-of-nc: NAP audit never ran (clients/go-green-restoration-of-nc/nap-audit.json missing — run scripts/nap_audit.py --slug go-green-restoration-of-nc)
+  - heritage-restoration-llc: NAP audit never ran (clients/heritage-restoration-llc/nap-audit.json missing — run scripts/nap_audit.py --slug heritage-restoration-llc)
+  - homelyft-restoration-ms: 3 unresolved NAP mismatch(es) — see clients/homelyft-restoration-ms/nap-audit.json
+  - homepriderestorationandcleaning: 3 unresolved NAP mismatch(es) — see clients/homepriderestorationandcleaning/nap-audit.json
+  - katofsky-construction-llc: no onsite audit on record (System 3 never ran)
+  - katofsky-construction-llc: no row in marketing_gbp_profiles (GBP sync never ran)
+  - katofsky-construction-llc: NAP audit never ran (clients/katofsky-construction-llc/nap-audit.json missing — run scripts/nap_audit.py --slug katofsky-construction-llc)
+  - kenneth-w-talbot-jr: newest geo-grid scan is 25d old (max 21d)
+  - kenneth-w-talbot-jr: no row in marketing_gbp_profiles (GBP sync never ran)
+  - kenneth-w-talbot-jr: NAP audit never ran (clients/kenneth-w-talbot-jr/nap-audit.json missing — run scripts/nap_audit.py --slug kenneth-w-talbot-jr)
+  - life-savers-restoration-llc: 3 unresolved NAP mismatch(es) — see clients/life-savers-restoration-llc/nap-audit.json
+  - loopple: content queue is EMPTY (System 1 refill not landing)
+  - loopple: keyword-bank.json missing (System 1 never ran)
+  - loopple: no onsite audit on record (System 3 never ran)
+  - loopple: geo-grid config missing (geogrid-cities.json)
+  - loopple: no company_id mapping — GBP profile can't be verified
+  - loopple: no company_id mapping — AI-search scans can't be verified
+  - loopple: NAP audit never ran (clients/loopple/nap-audit.json missing — run scripts/nap_audit.py --slug loopple)
+  - narestco: 5 unresolved NAP mismatch(es) — see clients/narestco/nap-audit.json
+  - paul-davis-charleston: no onsite audit on record (System 3 never ran)
+  - paul-davis-charleston: newest geo-grid scan is 26d old (max 21d)
+  - paul-davis-charleston: no row in marketing_gbp_profiles (GBP sync never ran)
+  - paul-davis-charleston: NAP audit never ran (clients/paul-davis-charleston/nap-audit.json missing — run scripts/nap_audit.py --slug paul-davis-charleston)
+  - procraft-exteriors: content queue is EMPTY (System 1 refill not landing)
+  - procraft-exteriors: no company_id mapping — geo-grid scans can't be verified
+  - procraft-exteriors: no company_id mapping — GBP profile can't be verified
+  - procraft-exteriors: no company_id mapping — AI-search scans can't be verified
+  - procraft-exteriors: NAP audit never ran (clients/procraft-exteriors/nap-audit.json missing — run scripts/nap_audit.py --slug procraft-exteriors)
+  - prorestoration: NAP audit never ran (clients/prorestoration/nap-audit.json missing — run scripts/nap_audit.py --slug prorestoration)
+  - puroclean-east-las-vegas: NAP audit never ran (clients/puroclean-east-las-vegas/nap-audit.json missing — run scripts/nap_audit.py --slug puroclean-east-las-vegas)
+  - quality-contracting-inc: 2 unresolved NAP mismatch(es) — see clients/quality-contracting-inc/nap-audit.json
+  - rachelle-elliston: NAP audit never ran (clients/rachelle-elliston/nap-audit.json missing — run scripts/nap_audit.py --slug rachelle-elliston)
+  - reign-restoration: NAP audit never ran (clients/reign-restoration/nap-audit.json missing — run scripts/nap_audit.py --slug reign-restoration)
+  - restoration-groups: 6 unresolved NAP mismatch(es) — see clients/restoration-groups/nap-audit.json
+  - restorationxpress: NAP audit never ran (clients/restorationxpress/nap-audit.json missing — run scripts/nap_audit.py --slug restorationxpress)
+  - rt-olson-plumbing-heating-and-air-conditioning: no onsite audit on record (System 3 never ran)
+  - rt-olson-plumbing-heating-and-air-conditioning: 3 unresolved NAP mismatch(es) — see clients/rt-olson-plumbing-heating-and-air-conditioning/nap-audit.json
+  - tdi-builders: content queue is EMPTY (System 1 refill not landing)
+  - tdi-builders: NAP audit never ran (clients/tdi-builders/nap-audit.json missing — run scripts/nap_audit.py --slug tdi-builders)
+  - transformation-remodeling: content queue is EMPTY (System 1 refill not landing)
+  - transformation-remodeling: keyword-bank.json missing (System 1 never ran)
+  - transformation-remodeling: no onsite audit on record (System 3 never ran)
+  - transformation-remodeling: geo-grid config missing (geogrid-keywords.txt, geogrid-cities.json)
+  - transformation-remodeling: no row in marketing_gbp_profiles (GBP sync never ran)
+  - transformation-remodeling: NAP audit never ran (clients/transformation-remodeling/nap-audit.json missing — run scripts/nap_audit.py --slug transformation-remodeling)
+  - xtreme-clean: content queue is EMPTY (System 1 refill not landing)
+  - xtreme-clean: no onsite audit on record (System 3 never ran)
+  - xtreme-clean: geo-grid config missing (geogrid-cities.json)
+  - xtreme-clean: no row in marketing_gbp_profiles (GBP sync never ran)
+  - xtreme-clean: NAP audit never ran (clients/xtreme-clean/nap-audit.json missing — run scripts/nap_audit.py --slug xtreme-clean)
+
+88 gap(s) across 42 active client(s). Exit 1.
