@@ -797,6 +797,31 @@ def is_internal_sender(msg: dict) -> bool:
     return bool(msg.get("userId"))
 
 
+def _is_machine_row(msg: dict) -> bool:
+    """True when a raw GHL row was sent by our machinery, not typed by a
+    person: an API send (GHL stamps the marketplace appId on those; Santino's
+    own app sends carry none) or a workflow automation."""
+    meta = msg.get("meta") or {}
+    if isinstance(meta, dict) and (meta.get("marketplace") or {}).get("appId"):
+        return True
+    return str(msg.get("source") or "").lower() == "workflow"
+
+
+# A message that itself promises or stalls ("I'll get you the exact number,
+# one sec", "passing this along to Santino") is a HOLDING line, not the
+# delivery of anything. Used to decide whether our own later message closed
+# an owed answer or promise (Jim/CRW 2026-09-28).
+_HOLDING_EXTRA_RE = re.compile(
+    r"\b(?:pass(?:ing)? (?:this|it|that) along|one sec|give me a (?:sec|second|"
+    r"minute|moment)|let me (?:check|find out|look)|checking (?:on|into)|"
+    r"looking into|flagging (?:this|it))\b", re.I)
+
+
+def _is_holding_line(body: str | None) -> bool:
+    b = body or ""
+    return bool(_PROMISE_RE.search(b) or _HOLDING_EXTRA_RE.search(b))
+
+
 def fetch_history(contact_id: str, max_msgs: int = HISTORY_MAX_MSGS) -> list[dict]:
     """The contact's full cross-conversation message history, newest first.
 
@@ -885,11 +910,20 @@ def fetch_history(contact_id: str, max_msgs: int = HISTORY_MAX_MSGS) -> list[dic
                 "direction": ("out" if is_internal_sender(msg)
                               else "in" if msg.get("direction") == "inbound"
                               else "out"),
-                # user_id: set on every message a real person sent from the
-                # GHL app (texts AND calls); null on API sends like Monica's.
-                # The direct human-vs-concierge signal — no id bookkeeping.
+                # user_id: set ONLY on messages a real person sent from the
+                # GHL app (texts AND calls). MACHINE rows carry it too and are
+                # nulled here: since 2026-09-04 every API send through our
+                # GHL key (Monica, Claude one-offs) is stamped with Santino's
+                # userId, and the only thing telling them apart is the
+                # marketplace appId GHL adds to API sends (his app sends have
+                # none). Unnulled, Monica read her own holding acks as
+                # Santino answering, so owed follow-ups silently voided
+                # (Jim/CRW 2026-09-28). Workflow rows are robots whatever
+                # userId they wear (is_internal_sender, Mike Luna 09-06).
                 "channel": channel, "body": body,
-                "user_id": msg.get("userId")})
+                "machine": _is_machine_row(msg),
+                "user_id": (None if _is_machine_row(msg)
+                            else msg.get("userId"))})
     merged.sort(key=lambda m: m["when"], reverse=True)
     return merged[:max_msgs]
 
@@ -1039,8 +1073,10 @@ def pending_client_message(cs: dict, history: list[dict], state: dict) -> dict |
       - kind "answer" / "closer": ANY newer outbound voids it, ours included
         — once something advanced the thread after their message we already
         have the last word, never send twice;
-      - kind "question": only a newer HUMAN outbound (not one of ours) voids
-        it — Santino answered it himself; our own holding ack does not."""
+      - kind "question": a newer HUMAN outbound voids it (Santino answered
+        it himself), and so does our own SUBSTANTIVE answer (Jim/CRW
+        2026-09-28); only our holding ack ("one sec", "I'll get you
+        that") leaves it owed."""
     now = datetime.now(timezone.utc)
 
     def outbound_after(after: datetime, human_only: bool) -> bool:
@@ -1050,8 +1086,15 @@ def pending_client_message(cs: dict, history: list[dict], state: dict) -> dict |
             if not human_only:
                 return True
             if m.get("user_id"):
-                return True   # a real human wrote it (GHL userId; Monica's
-                              # API sends carry none — 2026-08-19, Fran)
+                return True   # a real human wrote it (fetch_history nulls
+                              # user_id on machine rows)
+            # OUR OWN REAL ANSWER counts too (Jim/CRW 2026-09-28): only a
+            # holding line ("one sec", "I'll get you the number") leaves the
+            # question owed. Monica's correction with the actual price did
+            # not close "How much is it?", so three days later she answered
+            # it again and contradicted herself.
+            if m.get("machine") and not _is_holding_line(m.get("body")):
+                return True
         return False
 
     def substantive_inbound_after(after: datetime) -> dict | None:
@@ -1139,10 +1182,23 @@ def revalidate_commitment(cs: dict, history: list[dict], state: dict,
         return None
     ours = sent_message_ids(state)
     for m in history:
-        if (m["direction"] == "out" and m["when"] > at
-                and not (m["id"] and m["id"] in ours)):
+        if m["direction"] != "out" or m["when"] <= at:
+            continue
+        machine = m.get("machine") or (m["id"] and m["id"] in ours)
+        if not machine:
             cs.pop("pending_commitment", None)
             return (f"open commitment dropped: a human answered it at "
+                    f"{m['when']:%m-%d %H:%M} UTC "
+                    f"({str(m.get('body'))[:60]!r}) — not delivering it twice")
+        # WE ALREADY DELIVERED IT (Jim/CRW 2026-09-28): "I'll get you the
+        # exact number" stayed armed after Monica's own correction gave him
+        # the price, because only a HUMAN reply ever cleared a promise; on
+        # the Sunday it was "delivered" again as "Good question, that's one
+        # Santino handles". A later substantive message from us is the
+        # delivery; a holding line (the promise itself included) is not.
+        if not _is_holding_line(m.get("body")):
+            cs.pop("pending_commitment", None)
+            return (f"open commitment dropped: we already followed through at "
                     f"{m['when']:%m-%d %H:%M} UTC "
                     f"({str(m.get('body'))[:60]!r}) — not delivering it twice")
     topics = message_topics(commitment.get("promise"))
@@ -7804,6 +7860,29 @@ change the business address, phone, hours, service areas, or people
 (remove someone from a campaign or a list) is category "brand" or
 "service_area" work on OUR side — it ripples to the site, the records, and
 the campaigns whether or not they say the word "website".
+PHONE NUMBERS (Santino 2026-09-28, TDI/Rob): phone requests are no longer
+held for a human. You decide, so decide carefully. Our sites show TRACKING
+numbers by design: every visible number forwards to the client's real line
+and tells us where the call came from, and which one a visitor sees depends
+on how they arrived (Google, Bing, an ad, their metro). So:
+  - They think the number shown is WRONG, unknown, or "not ours" and give
+    no instruction ("the number on the site is wrong", "whose number is
+    this?") -> NOT feedback. That is a tracking line doing its job. Answer
+    it: it is a tracking number that forwards straight to them and records
+    where the call came from, and invite them to call it to confirm.
+  - They INSTRUCT a change: they name the number(s) and/or the placement
+    ("put our office lines under each address in the footer: 916-966-2601,
+    ...", "use 850-555-0100 in the header", "remove 916-314-8955 from the
+    footer", "our main number changed to ...") -> feedback, category
+    "facts", confidence "high". Put every number verbatim in "what" with
+    exactly where it goes, and say whether it replaces the MAIN number or is
+    an additional listed line. This holds even after we explained tracking
+    numbers to them: once they tell us what they want, we do it.
+  - A layout/design complaint that merely mentions the phone ("the phone
+    number wraps on mobile", "make the call button bigger") -> feedback in
+    its own category, and "what" must end with "(do not change which
+    number is displayed)". This is the case that once overwrote a tracking
+    line (Frontline 2026-09-12); saying so in "what" keeps it from repeating.
 NOT feedback: compliments, approvals ("go ahead and launch it"), questions
 about how something works, anything about their Google listing / reviews /
 ads / billing, and anything they are going to do themselves.
@@ -14034,6 +14113,36 @@ def cmd_selfcheck(_args) -> int:
              {"pending_commitment": {"promise": "p", "at": old_at.isoformat()}},
              [{"direction": "out", "id": "ours-1", "when": now_,
                "channel": "sms", "body": "one sec"}], st_) is None),
+        # Jim/CRW 2026-09-28 replay: the holding line promised the number,
+        # our own correction delivered it, Sunday "delivered" it again.
+        ("Jim: our own SUBSTANTIVE follow-through voids the commitment",
+         bool(revalidate_commitment(
+             {"pending_commitment": {"promise": "I'll get you the exact number "
+                                     "so you're not caught off guard, one sec.",
+                                     "at": old_at.isoformat()}},
+             [{"direction": "out", "id": "mkt-2", "when": now_, "machine": True,
+               "channel": "sms", "body": "My mistake Jimmy, there's no setup "
+               "fee, you only pay per lead, usually 25 to 95 dollars."}], st_))),
+        ("Jim: our own substantive answer voids an owed QUESTION",
+         pending_client_message(
+             {"awaiting_reply": {"body": "How much is it?", "at": stamp,
+                                 "channel": "sms", "kind": "question"}},
+             [{"direction": "out", "id": "mkt-3", "when": now_, "machine": True,
+               "channel": "sms", "body": "No setup fee, you only pay per lead, "
+               "usually 25 to 95 dollars with a weekly cap."}], st_) is None),
+        ("...but our holding line still leaves the question owed",
+         (pending_client_message(
+             {"awaiting_reply": {"body": "How much is it?", "at": stamp,
+                                 "channel": "sms", "kind": "question"}},
+             [{"direction": "out", "id": "mkt-4", "when": now_, "machine": True,
+               "channel": "sms", "body": "I'll get you the exact number, one sec."}],
+             st_) or {}).get("kind") == "question"),
+        # 2026-09-04 regression: API sends wear Santino's userId + an appId
+        ("an API send (marketplace appId) is a machine row, never a human",
+         _is_machine_row({"userId": "u1", "source": "app",
+                          "meta": {"marketplace": {"appId": "a1"}}})
+         and not _is_machine_row({"userId": "u1", "source": "app", "meta": None})
+         and _is_machine_row({"userId": "u1", "source": "workflow"})),
     ]
     for label, ok in recheck_cases:
         fails += not ok

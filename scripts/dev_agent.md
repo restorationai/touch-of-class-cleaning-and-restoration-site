@@ -281,13 +281,39 @@ logo/livery corrections.
 
 Wording, headlines, a wrong phone number or service.
 
-- These reach you ONLY as an approved [TODO-PROPOSED]; the router never
-  auto-runs them. Someone has already decided the change is correct.
+- Clear, specific requests auto-run straight from the client's message
+  (phone numbers included since 2026-09-28). The classifier already decided
+  the change is what they want; your job is to execute it safely.
 - Business facts (phone, address, hours, services, licence) live in
   `plan-input.json` / `brand.ts` — fix them there, then re-render or retint,
   never by editing one rendered page.
 - Rendered copy lives in `sites/{slug}/src/content/**/*.md`. Edit the smallest
   surface that does the job, then run claims lint.
+
+### Phone numbers
+
+These run without a human now (Santino 2026-09-28), so know how the numbers
+work before touching one. `brand.phone` is the canonical NAP number: it stays
+in the HTML source and schema. `brand.trackingPhone` plus the DNI script in
+`BaseLayout.astro` swap what VISITORS see, per channel (Bing, Google Ads,
+ChatGPT...) and per metro, from the KV map at `restorationai.io/dni/{slug}.json`.
+The swap only rewrites text and `tel:` links that match `brand.phone` exactly.
+
+- **Additional numbers the client supplies** (per-office lines, a second
+  location): add them as literal text exactly where asked, exactly as
+  written. The swap never touches them. If they say "not a link", do not
+  wrap them in `tel:` (TDI footer, 2026-09-28).
+- **The client's MAIN number changed**: update `brand.phone` / `phoneRaw` in
+  plan-input + brand.ts. Never touch `trackingPhone` for this; the tracking
+  lines keep working and forward to the line on file.
+- **Remove a number from a surface**: if it is a literal, delete it. If it is
+  the swapped main number (a tracking line they saw), remove that element
+  from the surface they named only, and keep the header/hero call buttons
+  on `brand.phone` so attribution survives everywhere else.
+- **Layout or style work that mentions the phone** ("the number wraps on
+  mobile"): change presentation only. Never hardcode a number over
+  `brand.phone`; that cemented over Frontline's tracking line on 2026-09-12.
+- Say in your done line which number changed and on which surface.
 
 ## Hard rules
 
@@ -309,7 +335,8 @@ Wording, headlines, a wrong phone number or service.
   `python3 scripts/claims_lint.py --slug <slug>` and fix any ERROR it reports
   before deploying.
 - **Never invent business facts.** Phone numbers, addresses, service names,
-  cities come from the client's plan-input / brand.ts only.
+  cities come from the client's plan-input / brand.ts, or verbatim from the
+  client's own words quoted in the task (then record them in plan-input).
 - **Never invent job stories.** No customer anecdotes, no "we responded in 45
   minutes", no testimonials. 318 of those were deleted fleet-wide on 08-04.
 - **Build before deploy.** From the site dir:

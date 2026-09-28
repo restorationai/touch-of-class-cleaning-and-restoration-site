@@ -238,18 +238,17 @@ def risk_verdict(fb: dict, *, site_live: bool, has_site: bool) -> tuple[str, str
     # record, which is a better test than a keyword match on a text message.
     if _MONEY_RE.search(blob) and cat not in AUTO_CATEGORIES:
         return "propose", "touches pricing, billing or the contract"
-    # PHONE NUMBERS NEVER AUTO-RUN (Frontline/Jared 2026-09-12: a mobile
-    # LAYOUT complaint mentioning "phone number" auto-ran as display work
-    # and the site's DNI tracking number was cemented over — attribution
-    # silently lost). Any change whose words touch a phone number goes to a
-    # human: the displayed number is usually a TRACKING line by design, and
-    # Monica's script is to explain that first, not to swap it.
-    if re.search(r"\bphone\s*(number|#)?\b|\bcall(?:ing)? number\b|"
-                 r"\(\d{3}\)\s*\d{3}[- ]?\d{4}|\b\d{3}[-.]\d{3}[-.]\d{4}\b",
-                 blob, re.I):
-        return "propose", ("mentions a phone number — displayed numbers are "
-                           "DNI tracking lines by design; a human confirms "
-                           "before anything touches them")
+    # PHONE NUMBERS AUTO-RUN (Santino 2026-09-28, TDI/Rob): "If he requests
+    # it, we can just do it. I don't want to have to oversee something when
+    # someone makes a request like this anymore." The 09-12 hold (Frontline/
+    # Jared: a layout complaint that mentioned "phone number" auto-ran and a
+    # build cemented over the DNI tracking number) parked Rob's explicit
+    # footer-numbers request for a day, the rest of his message shipped, and
+    # he had to ask twice. The DNI safety did not go away, it moved to where
+    # the judgment belongs: the classifier (CLASSIFY_SYSTEM, "PHONE NUMBERS")
+    # decides whether a phone mention is a real change request or a
+    # tracking-line misunderstanding to explain, and dev_agent.md ("Phone
+    # numbers") says how to execute one without breaking attribution.
     # LEGAL PAGES NO LONGER STOP (Santino 2026-08-09): "if somebody says to
     # update our privacy policy, Monica just needs to tell them to provide what
     # they want it updated to." The client supplies the wording; we apply it.
