@@ -165,6 +165,11 @@
       "city": "Searchlight",
       "state": "NV",
       "slug": "searchlight-nv"
+    },
+    {
+      "city": "Pahrump",
+      "state": "NV",
+      "slug": "pahrump-nv"
     }
   ],
   "template": "restoration",

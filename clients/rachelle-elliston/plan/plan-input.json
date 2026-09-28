@@ -31,6 +31,25 @@
       "Licensed & Insured",
       "24/7 Emergency Service",
       "Locally Owned & Operated"
+    ],
+    "primary_color": "#557cd3",
+    "accent_color": "#f28536",
+    "dark_color": "#161618",
+    "logo_url": "/images/logo.png",
+    "palette_source": "auto: site CSS + logo (retint 2026-09-27, Santino flagged all-black template)",
+    "awards": [
+      {
+        "name": "Quality Business Awards Best Home Renovations in North Las Vegas",
+        "year": "2024",
+        "organizer": "Quality Business Awards",
+        "url": "https://qualitybusinessawards.com/2024/the-best-Home-Renovations-in-North-Las-Vegas/desert-valley-contracting-2/"
+      },
+      {
+        "name": "BusinessRate Best of 2026",
+        "year": 2026,
+        "category": "Contractor, North Las Vegas",
+        "organizer": "BusinessRate"
+      }
     ]
   },
   "services": [
@@ -146,6 +165,11 @@
       "city": "Searchlight",
       "state": "NV",
       "slug": "searchlight-nv"
+    },
+    {
+      "city": "Pahrump",
+      "state": "NV",
+      "slug": "pahrump-nv"
     }
   ],
   "template": "restoration",

@@ -1,21 +1,21 @@
 # Site Plan Report — Desert Valley Contracting Inc 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-23T14:11:59.084260+00:00
+- Generated: 2026-09-28T20:18:01.666766+00:00
 - Domain: `desertvalleycontracting.net`
-- Services selected: 10 of 65 catalog entries
-- Service areas: 20
+- Services selected: 24 of 65 catalog entries
+- Service areas: 21
 - Cross-product enabled: True
-- Total URLs: **236**
-- Total internal links: 1884 (avg 8.0 per page)
+- Total URLs: **541**
+- Total internal links: 4439 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 190 |
-| `service-area` | 19 |
-| `service-landing` | 10 |
+| `service-area-service` | 480 |
+| `service-landing` | 24 |
+| `service-area` | 20 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -37,6 +37,20 @@
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
+- `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
+- `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
+- `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
+- `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
+- `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
+- `commercial-restoration` — Commercial Restoration (core, priority 9)
+- `industrial-restoration` — Industrial Restoration (core, priority 7)
+- `reconstruction` — Reconstruction Services (core, priority 9)
+- `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
+- `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
+- `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
+- `water-leak-detection` — Water Leak Detection (core, priority 7)
+- `emergency-water-removal` — 24/7 Emergency Water Removal (core, priority 9)
+- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 
 ## Service areas
 
@@ -60,6 +74,7 @@
 - `moapa-town-nv` — Moapa Town, NV
 - `moapa-valley-nv` — Moapa Valley, NV
 - `searchlight-nv` — Searchlight, NV
+- `pahrump-nv` — Pahrump, NV
 
 ## Top 10 priority pages
 
@@ -68,13 +83,13 @@
 | `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration north las vegas |
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation north las vegas |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration north las vegas |
+| `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration north las vegas |
+| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing north las vegas |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | 24/7 emergency water removal north las vegas |
+| `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration north las vegas |
+| `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services north las vegas |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization north las vegas |
-| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration north las vegas |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup north las vegas |
-| `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup north las vegas |
-| `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting north las vegas |
-| `/service-areas/blue-diamond-nv/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration blue diamond |
-| `/service-areas/blue-diamond-nv/mold-remediation/` | `service-area-service` | 7.0 | mold remediation blue diamond |
+| `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration north las vegas |
 
 ## Validation
 

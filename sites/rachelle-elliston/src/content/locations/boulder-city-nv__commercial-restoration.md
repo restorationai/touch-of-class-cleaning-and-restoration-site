@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Commercial Restoration in Boulder City, NV | Desert Valley Contracting Inc "
+h1: "Commercial Restoration in Boulder City"
+meta_description: "24/7 commercial restoration in Boulder City, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
+primary_keyword: "commercial restoration boulder city"
+secondary_keywords: ["commercial water damage", "commercial fire damage", "business restoration", "office restoration", "retail restoration"]
+search_intent: "local_b2b"
+priority: 6.3
+plan_hash: "d01114372afca0e6"
+generated_at: "2026-09-28T20:18:01.834987+00:00"
+manual_override: false
+internal_links: ["/services/commercial-restoration/", "/service-areas/boulder-city-nv/", "/service-areas/boulder-city-nv/fire-damage-restoration/", "/service-areas/boulder-city-nv/mold-remediation/", "/service-areas/blue-diamond-nv/commercial-restoration/", "/service-areas/enterprise-nv/commercial-restoration/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Boulder City", "url": "/service-areas/boulder-city-nv/"}, {"name": "commercial-restoration"}]
+faq: []
+area_slug: "boulder-city-nv"
+service_slug: "commercial-restoration"
+city: "Boulder City"
+state: "NV"
+service_display: "commercial-restoration"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug rachelle-elliston` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Commercial Restoration in Boulder City.

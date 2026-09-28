@@ -1258,6 +1258,32 @@
       "triaged_at": "2026-09-15T23:29:08Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipM10M0qzLPKSQK6xc55f9BU9V_K77XwspLc02ay": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipM10M0qzLPKSQK6xc55f9BU9V_K77XwspLc02ay.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipM10M0qzLPKSQK6xc55f9BU9V_K77XwspLc02ay.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 1632968,
+      "sha1": "4d4a732d103945e8",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Tree fallen onto house roof, storm damage",
+      "quality": 65,
+      "slots": {
+        "hero": 40,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "storm-damage-restoration",
+        "emergency-board-up-tarping"
+      ],
+      "flags": [],
+      "reason": "Real storm damage scene, tree through roof, no crew present",
+      "triaged_at": "2026-09-28T20:11:59Z",
+      "triage_model": "claude-sonnet-5"
+    },
     "gbp:gbp-AF1QipM127XuHtOfp1i2v_S4-QJkcygQftikJn9pE9xQ": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipM127XuHtOfp1i2v_S4-QJkcygQftikJn9pE9xQ.jpg",
@@ -1353,6 +1379,64 @@
       "reason": "Authentic fire damage scene; GPS timestamp is real scene data, not overlay.",
       "triaged_at": "2026-09-01T23:15:27Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipMZPYZEmL88cNDfIVZ4hKhymVrf1dsIKEvHosDA": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMZPYZEmL88cNDfIVZ4hKhymVrf1dsIKEvHosDA.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipMZPYZEmL88cNDfIVZ4hKhymVrf1dsIKEvHosDA.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 1460829,
+      "sha1": "30ec2afc74fd43d9",
+      "exif": {
+        "taken_at": "2026:09:25 13:26:30"
+      },
+      "category": "job_progress",
+      "subject": "Close-up of tree impact hole in house eave",
+      "quality": 70,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "storm-damage-restoration",
+        "emergency-board-up-tarping"
+      ],
+      "flags": [],
+      "reason": "Detailed storm damage to roofline from fallen tree",
+      "triaged_at": "2026-09-28T20:11:59Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipMZo8Cj0N4E9qPf1-n_76X-plcjmghbvaq6mOQO": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMZo8Cj0N4E9qPf1-n_76X-plcjmghbvaq6mOQO.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipMZo8Cj0N4E9qPf1-n_76X-plcjmghbvaq6mOQO.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 460790,
+      "sha1": "80e6dbc4224ecad8",
+      "exif": {
+        "taken_at": "2026:09:25 13:09:30"
+      },
+      "category": "job_progress",
+      "subject": "Interior ceiling hole with insulation and tree branch",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "storm-damage-restoration",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Indoor ceiling breach from storm, dark garage setting",
+      "triaged_at": "2026-09-28T20:11:59Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipMeA8Ta-zrmoirjiFupMWnb8To6QPK-Y_iYxqQE": {
       "source": "gbp",
@@ -1474,6 +1558,32 @@
       "reason": "Camera timestamp visible; graphic mold detail useful for mold service card only.",
       "triaged_at": "2026-09-01T23:15:41Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipNJz5jndA_kuZejUxtnVyM5bxKvULhdGnVqWmQV": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNJz5jndA_kuZejUxtnVyM5bxKvULhdGnVqWmQV.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipNJz5jndA_kuZejUxtnVyM5bxKvULhdGnVqWmQV.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 1521514,
+      "sha1": "2882df1a5cb47ba7",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "House with tree fallen across roof, exterior view",
+      "quality": 68,
+      "slots": {
+        "hero": 45,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "storm-damage-restoration",
+        "emergency-board-up-tarping"
+      ],
+      "flags": [],
+      "reason": "Wide exterior shot of storm damage, tree on roof",
+      "triaged_at": "2026-09-28T20:11:59Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipNLjXYk4YiqCxtRYIGBxRiU7UhtS4wWwN_svkRV": {
       "source": "gbp",
@@ -1736,6 +1846,33 @@
       "reason": "Clear fire damage evidence; decent composition but residential address visible in scene.",
       "triaged_at": "2026-09-01T23:16:11Z",
       "triage_model": "claude-sonnet-4-6"
+    },
+    "gbp:gbp-AF1QipOjs0ZKXVYplTQOOH73v9VCKY53qgBwMjvvLcdu": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOjs0ZKXVYplTQOOH73v9VCKY53qgBwMjvvLcdu.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipOjs0ZKXVYplTQOOH73v9VCKY53qgBwMjvvLcdu.jpg",
+      "width": 2560,
+      "height": 1920,
+      "bytes": 732563,
+      "sha1": "d98a8b8f3432aa04",
+      "exif": {
+        "taken_at": "2026:09:25 18:49:01"
+      },
+      "category": "job_progress",
+      "subject": "Broken roof gable with hole from tree impact",
+      "quality": 65,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "storm-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Close-up of structural damage to roof peak from storm",
+      "triaged_at": "2026-09-28T20:11:59Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipOoL6B-RWuz8aSvR_ZJR3UMjJMLlWnyKmZpDaqQ": {
       "source": "gbp",
@@ -2027,5 +2164,5 @@
       "file": "/images/services.webp"
     }
   },
-  "triaged_at": "2026-09-15T23:29:08Z"
+  "triaged_at": "2026-09-28T20:11:59Z"
 }
