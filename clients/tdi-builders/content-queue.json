@@ -336,7 +336,7 @@
     },
     {
       "id": "2026-09-24-how-much-does-it-cost-to-remodel-a-house-sacramento",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T12:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -374,11 +374,12 @@
         "https://www.cslb.ca.gov/",
         "https://www.nahb.org/"
       ],
-      "notes": "Whole-house cost post, distinct from the kitchen-only cost breakdown and from the banked 'how much does a general contractor cost' item (that one is about contractor fees; this one is about total project cost). Lead with a cost table by scope: bathroom, kitchen, whole-home per square foot, room addition. The ChatGPT decomposition quoted Sacramento planning ranges of roughly 12k to 55k for baths, 25k to 100k+ for kitchens, 150 to 300+ per sq ft for substantial whole-home work, and 250 to 450+ per sq ft for additions: use as context, do not present as TDI quotes. Include a 10 to 20 percent contingency section for older Sacramento homes, a payment-schedule section (California caps the down payment on home improvement contracts at 1,000 dollars or 10 percent, whichever is less: verify on CSLB before publishing), and a timeline section."
+      "notes": "Whole-house cost post, distinct from the kitchen-only cost breakdown and from the banked 'how much does a general contractor cost' item (that one is about contractor fees; this one is about total project cost). Lead with a cost table by scope: bathroom, kitchen, whole-home per square foot, room addition. The ChatGPT decomposition quoted Sacramento planning ranges of roughly 12k to 55k for baths, 25k to 100k+ for kitchens, 150 to 300+ per sq ft for substantial whole-home work, and 250 to 450+ per sq ft for additions: use as context, do not present as TDI quotes. Include a 10 to 20 percent contingency section for older Sacramento homes, a payment-schedule section (California caps the down payment on home improvement contracts at 1,000 dollars or 10 percent, whichever is less: verify on CSLB before publishing), and a timeline section.",
+      "banked_at": "2026-09-28T18:13:00.604707+00:00"
     },
     {
       "id": "2026-09-24-cost-to-remodel-a-house-sacramento",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T21:11:18Z",
       "written_at": null,
       "post_url": null,
@@ -414,11 +415,12 @@
         "https://www.remodeling.hw.net/cost-vs-value/"
       ],
       "notes": "Lead with a cost-per-square-foot table by remodel scope (cosmetic, mid-range, full gut). Cover older Sacramento housing stock and concealed-condition allowances, and the CA deposit cap ($1,000 or 10%, whichever is less). Link the kitchen cost breakdown post rather than duplicating it.",
-      "source": "keyword-researcher seed=remodeling contractor"
+      "source": "keyword-researcher seed=remodeling contractor",
+      "banked_at": "2026-09-28T18:13:00.604723+00:00"
     },
     {
       "id": "2026-09-24-design-build-vs-general-contractor-folsom",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T12:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -452,11 +454,12 @@
         "https://www.cslb.ca.gov/",
         "https://dbia.org/"
       ],
-      "notes": "Comparison post: KD 0 with steady volume. Explain design-bid-build vs design-build vs a remodeling contractor in plain terms with a side-by-side table (who designs, who holds the contract, change-order risk, typical timeline). Cover the 'general contractor vs remodeling contractor' question in its own H2 since it had no measurable Google volume but surfaced in the AI decomposition. Link to the existing what-does-a-general-contractor-do and choosing-a-general-contractor posts rather than repeating them."
+      "notes": "Comparison post: KD 0 with steady volume. Explain design-bid-build vs design-build vs a remodeling contractor in plain terms with a side-by-side table (who designs, who holds the contract, change-order risk, typical timeline). Cover the 'general contractor vs remodeling contractor' question in its own H2 since it had no measurable Google volume but surfaced in the AI decomposition. Link to the existing what-does-a-general-contractor-do and choosing-a-general-contractor posts rather than repeating them.",
+      "banked_at": "2026-09-28T18:13:00.604725+00:00"
     },
     {
       "id": "2026-09-24-what-is-a-change-order-in-construction-folsom",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T21:11:18Z",
       "written_at": null,
       "post_url": null,
@@ -488,11 +491,12 @@
         "https://www2.cslb.ca.gov/Consumers/Hire_A_Contractor/Contracts_And_Binding_Agreements.aspx"
       ],
       "notes": "ChatGPT decomposition of the seed flagged change orders as a top remodel cost driver. Show a worked example (original price, change, added cost, new total). Cite the CSLB rule that scope and price changes must be in a signed written change order.",
-      "source": "keyword-researcher seed=remodeling contractor"
+      "source": "keyword-researcher seed=remodeling contractor",
+      "banked_at": "2026-09-28T18:13:00.604727+00:00"
     },
     {
       "id": "2026-09-24-design-build-vs-general-contractor-rocklin",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T21:11:18Z",
       "written_at": null,
       "post_url": null,
@@ -524,7 +528,8 @@
         "https://www.cslb.ca.gov/consumers/hire_a_contractor/What_Kind_Of_Contractor.aspx"
       ],
       "notes": "KD 0 decision-stage query. Compare single-contract design-build against design-bid-build with a separate architect. Explain the CSLB B General Building classification for multi-trade remodels. Keep it vendor-neutral.",
-      "source": "keyword-researcher seed=remodeling contractor"
+      "source": "keyword-researcher seed=remodeling contractor",
+      "banked_at": "2026-09-28T18:13:00.604729+00:00"
     }
   ]
 }
