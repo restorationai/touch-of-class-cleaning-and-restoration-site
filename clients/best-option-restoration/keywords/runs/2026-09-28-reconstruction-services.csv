@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+restoration contractors near me,transactional,18100,33,29.08,2,reconstruction services,,,false
+water damaged ceiling repair,transactional,1900,,31.06,2,reconstruction services,,,false
+water damage repair contractor,transactional,1300,33,19.43,2,reconstruction services,,,false
+flood damage repair,transactional,1300,22,125.43,2,reconstruction services,,,false
+home restoration services,transactional,1000,,41.76,2,reconstruction services,,,false
+water damage drywall repair,transactional,880,,26.11,2,reconstruction services,,,false
+hardwood floor water damage repair,transactional,880,,19.53,2,reconstruction services,,,false
+fire reconstruction,transactional,480,24,4.04,2,reconstruction services,,,false
+restoration contractor,transactional,480,,7.48,2,reconstruction services,,,false
+reconstruction company,transactional,390,26,35.93,2,reconstruction services,,,false
+water damaged floor repair,transactional,390,,33.99,2,reconstruction services,,,false
+home restoration contractor,transactional,390,,23.66,2,reconstruction services,,,false
+contents restoration,transactional,320,,42.77,2,reconstruction services,,,false
+smoke damage repair,transactional,320,7,24.35,2,reconstruction services,,,false
+reconstruction services,transactional,260,,50.29,2,reconstruction services,,,false
+reconstruction contractor,transactional,260,18,26.61,2,reconstruction services,,,false
+water damaged kitchen cabinets,transactional,210,,27.48,2,reconstruction services,,,false
+pack out services,transactional,210,,10.21,2,reconstruction services,,,false
+insurance restoration contractor,transactional,170,,24.19,2,reconstruction services,,,false
+fire damage repair contractor,transactional,140,,82.54,2,reconstruction services,,,false
+fire damage reconstruction,transactional,110,35,9.77,2,reconstruction services,,,false
+water damaged subfloor repair,transactional,110,,113.22,2,reconstruction services,,,false
+restoration and reconstruction,transactional,110,,33.95,2,reconstruction services,,,false
+water damage reconstruction,transactional,70,28,152.75,2,reconstruction services,,,false
+water damage repair cost,commercial,390,,36.46,2,reconstruction services,,,false
+replacement cost vs actual cash value,informational,3600,18,11.2,2,reconstruction services,,,false
+what is dwelling coverage,informational,1900,,13.94,2,reconstruction services,,,false
+recoverable depreciation,informational,1600,,34.79,2,reconstruction services,,,false
+water damaged baseboards,informational,1300,,77.69,2,reconstruction services,,,false
+ordinance and law coverage,informational,880,,20.73,2,reconstruction services,,,false
+what is xactimate,informational,390,9,10.94,2,reconstruction services,,,false
+extended replacement cost,informational,390,4,35.73,2,reconstruction services,,,false
+mitigation vs restoration,informational,40,,33.53,2,reconstruction services,,,false
+how long does it take to rebuild after a fire,informational,20,,,2,reconstruction services,,,false
+how much does it cost to rebuild a house after a fire,informational,,,,2,reconstruction services,,,false
+can i use my own contractor for insurance claim,informational,,,,2,reconstruction services,,,false
+what happens after water mitigation,informational,,,,2,reconstruction services,,,false
+does insurance pay to rebuild after fire,informational,,,,2,reconstruction services,,,false
+what questions should i ask a restoration contractor before signing,informational,,,,2,reconstruction services,,,false
+do i need a permit to rebuild after a house fire,informational,,,,2,reconstruction services,,,false
