@@ -5,22 +5,23 @@
   "live_origin": "https://crew3r.com",
   "live_origin_source": "apex",
   "audit_form_factor": "desktop",
-  "generated_at": "2026-09-28T20:45:24Z",
+  "generated_at": "2026-09-28T21:18:52Z",
   "lighthouse_version": "13.4.0",
   "environment_caveats": [
-    "Audited the apex production domain https://crew3r.com. The client record still has apex_cutover: null, but the apex has been live since the 2026-08-08 cutover, returned HTTP 200 on all six URLs and carries no x-robots-tag: noindex. Same origin as the 2026-08-26 baseline. The staging SEO-exclusion correction does NOT apply; all four Lighthouse categories count toward the verdicts.",
+    "Audited the apex production domain https://crew3r.com. The client record has no apex_cutover.completed_at key but carries cut_over_at 2026-08-08; the apex returned HTTP 200 on all six URLs and carries no x-robots-tag: noindex. Apex is the correct origin, so the Step 4 staging SEO-exclusion correction does NOT apply and all four categories count toward verdicts.",
     "Lighthouse ran DESKTOP only (for_mobile=false). Mobile scores would typically land 10-20 performance points lower. Do not read these as mobile-first scores.",
-    "Client record status is still 'onboarding', not 'active' (flagged in the August audit too). Proceeded because build_status is pushed_main and the apex is demonstrably live.",
-    "The named MCP tools on_page_lighthouse and on_page_instant_pages are not exposed by this DataForSEO MCP build. Used authenticated REST calls to /v3/on_page/lighthouse/live/json (full_data) and /v3/on_page/instant_pages, piped to /tmp/rank-ai-audit/raw and parsed. Total spend about $0.04.",
-    "lighthouse_issues holds the top 5 failing audits per URL; lighthouse_failing_audit_ids holds every failing audit. The August baseline stored only the top 5, so an audit reported as new this month on a URL may have been failing-but-truncated last month (applies to render-blocking-insight and unused-javascript on non-home pages; unused-javascript is confirmed new because the gtag.js script it flags was not loaded in August).",
-    "has_micromarkup_errors still fires on the five pages that carry BreadcrumbList + FAQPage; the terminal BreadcrumbList ListItem still has no item property. DataForSEO 'frame' check on /service-areas/brookings-sd/ is the same map-iframe false positive as August and is not reported.",
-    "The LCP values are Lighthouse simulated (lantern) values. The observed trace LCP breakdown on / sums to about 310 ms. The +75 to +660 ms simulated LCP increases coincide with the new 159 KB googletagmanager gtag.js request; all LCP values remain under 1.2 s, well inside the 2.5 s good threshold."
+    "Client record status is still 'onboarding', not 'active' (unchanged since the 2026-08-26 audit). Proceeded because build_status is pushed_main and all six URLs returned HTTP 200.",
+    "The named MCP tools on_page_lighthouse and on_page_instant_pages are not exposed by this DataForSEO MCP build. Used authenticated REST calls to /v3/on_page/lighthouse/live/json and /v3/on_page/instant_pages (validate_micromarkup=true), piped to disk. Total API cost about $0.041.",
+    "URL set held identical to the 2026-08-26 baseline for comparability. Four service-landing entries tie at priority 9.0 (fire, mold, roofing, water); water and fire were kept as in the baseline.",
+    "lighthouse_issues holds the top 5 failing audits per URL as the methodology requires; lighthouse_failing_audits holds the full failing set. The prior run stored only the top 5, so 'resolved' is judged against the full current failing set (an issue that merely dropped out of the top 5 is not counted as resolved), and 'new' lists top-5 audits absent from the prior top 5.",
+    "The DataForSEO 'frame' check fires on /service-areas/brookings-sd/ (one map <iframe>, zero <frame>/<frameset>). Vendor false positive, not reported. has_render_blocking_resources, high_loading_time and no_image_title are outside the Step 3 check list and not recorded as on-page issues."
   ],
   "audited_urls": [
     {
       "url": "https://crew3r.com/",
       "url_path": "/",
       "archetype": "home",
+      "verdict": "green",
       "error_reason": null,
       "scores": {
         "performance": 99,
@@ -29,74 +30,15 @@
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 921,
+        "LCP_ms": 907,
         "CLS": 0.0025,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "supporting_metrics": {
-        "FCP_ms": 323,
-        "SI_ms": 438
+        "FCP_ms": 314,
+        "SI_ms": 477
       },
-      "lighthouse_failing_audit_ids": [
-        "image-delivery-insight",
-        "unused-javascript",
-        "network-dependency-tree-insight",
-        "cache-insight",
-        "render-blocking-insight"
-      ],
-      "lighthouse_issues": [
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "high",
-          "estimated_savings_ms": 50,
-          "estimated_savings_bytes": 122267,
-          "category": "performance",
-          "affected_elements": 2,
-          "display_value": "Est savings of 119\u00a0KiB"
-        },
-        {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "high",
-          "estimated_savings_ms": 50,
-          "estimated_savings_bytes": 70531,
-          "category": "performance",
-          "affected_elements": 1,
-          "display_value": "Est savings of 69\u00a0KiB"
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "performance",
-          "affected_elements": 3,
-          "display_value": null
-        },
-        {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": 283.20437037037044,
-          "category": "performance",
-          "affected_elements": 1,
-          "display_value": "Est savings of 0\u00a0KiB"
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "performance",
-          "affected_elements": 1,
-          "display_value": null
-        }
-      ],
       "onpage_score": 100,
       "http_status": 200,
       "page_facts": {
@@ -117,7 +59,7 @@
         "render_blocking_stylesheets": 1,
         "scripts_size": 0,
         "stylesheets_size": 0,
-        "total_transfer_size": 14365,
+        "total_transfer_size": 14589,
         "has_micromarkup": true,
         "has_micromarkup_errors": false,
         "broken_links": false,
@@ -125,84 +67,35 @@
         "duplicate_title": false,
         "duplicate_description": false
       },
-      "onpage_issues": [
-        {
-          "id": "low_content_rate",
-          "title": "Low text-to-HTML ratio",
-          "severity": "low"
-        }
-      ],
-      "verdict": "green"
-    },
-    {
-      "url": "https://crew3r.com/services/",
-      "url_path": "/services/",
-      "archetype": "services-hub",
-      "error_reason": null,
-      "scores": {
-        "performance": 99,
-        "accessibility": 95,
-        "best_practices": 100,
-        "seo": 100
-      },
-      "core_web_vitals": {
-        "LCP_ms": 966,
-        "CLS": 0.002,
-        "TBT_ms": 0,
-        "INP_ms": null
-      },
-      "supporting_metrics": {
-        "FCP_ms": 384,
-        "SI_ms": 384
-      },
-      "lighthouse_failing_audit_ids": [
-        "color-contrast",
-        "image-delivery-insight",
-        "unused-javascript",
-        "lcp-discovery-insight",
-        "network-dependency-tree-insight",
-        "cache-insight",
-        "render-blocking-insight"
-      ],
       "lighthouse_issues": [
         {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
           "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "accessibility",
+          "estimated_savings_ms": 70,
+          "estimated_savings_bytes": 70531,
+          "category": "performance",
           "affected_elements": 1,
-          "display_value": null
+          "display_value": "Est savings of 69 KiB"
         },
         {
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "high",
-          "estimated_savings_ms": 100,
-          "estimated_savings_bytes": 148371,
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": null,
           "category": "performance",
-          "affected_elements": 12,
-          "display_value": "Est savings of 145\u00a0KiB"
+          "affected_elements": 2,
+          "display_value": "Est savings of 119 KiB"
         },
         {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "high",
-          "estimated_savings_ms": 100,
-          "estimated_savings_bytes": 70333,
-          "category": "performance",
-          "affected_elements": 1,
-          "display_value": "Est savings of 69\u00a0KiB"
-        },
-        {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow",
           "severity": "high",
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
           "category": "performance",
-          "affected_elements": 2,
+          "affected_elements": 1,
           "display_value": null
         },
         {
@@ -214,8 +107,80 @@
           "category": "performance",
           "affected_elements": 3,
           "display_value": null
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 1,
+          "display_value": "Est savings of 0 KiB"
         }
       ],
+      "lighthouse_failing_audits": [
+        {
+          "id": "unused-javascript",
+          "score": 0,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "score": 0,
+          "category": "performance"
+        },
+        {
+          "id": "forced-reflow-insight",
+          "score": 0,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "score": 0,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "score": 0.5,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "score": 0.5,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "low_content_rate",
+          "title": "Low text-to-HTML ratio",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://crew3r.com/services/",
+      "url_path": "/services/",
+      "archetype": "services-hub",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 915,
+        "CLS": 0.002,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "supporting_metrics": {
+        "FCP_ms": 317,
+        "SI_ms": 397
+      },
       "onpage_score": 100,
       "http_status": 200,
       "page_facts": {
@@ -236,7 +201,7 @@
         "render_blocking_stylesheets": 1,
         "scripts_size": 0,
         "stylesheets_size": 0,
-        "total_transfer_size": 9704,
+        "total_transfer_size": 9705,
         "has_micromarkup": true,
         "has_micromarkup_errors": true,
         "broken_links": false,
@@ -244,6 +209,100 @@
         "duplicate_title": false,
         "duplicate_description": false
       },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": 100,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 12,
+          "display_value": "Est savings of 145 KiB"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "high",
+          "estimated_savings_ms": 90,
+          "estimated_savings_bytes": 70527,
+          "category": "performance",
+          "affected_elements": 1,
+          "display_value": "Est savings of 69 KiB"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "affected_elements": 1,
+          "display_value": null
+        },
+        {
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 1,
+          "display_value": null
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 2,
+          "display_value": null
+        }
+      ],
+      "lighthouse_failing_audits": [
+        {
+          "id": "image-delivery-insight",
+          "score": 0,
+          "category": "performance"
+        },
+        {
+          "id": "unused-javascript",
+          "score": 0,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "score": 0,
+          "category": "accessibility"
+        },
+        {
+          "id": "forced-reflow-insight",
+          "score": 0,
+          "category": "performance"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "score": 0,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "score": 0,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "score": 0.5,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "score": 0.5,
+          "category": "performance"
+        }
+      ],
       "onpage_issues": [
         {
           "id": "has_micromarkup_errors",
@@ -255,91 +314,30 @@
           "title": "Low text-to-HTML ratio",
           "severity": "low"
         }
-      ],
-      "verdict": "amber"
+      ]
     },
     {
       "url": "https://crew3r.com/services/water-damage-restoration/",
       "url_path": "/services/water-damage-restoration/",
       "archetype": "service-landing",
+      "verdict": "amber",
       "error_reason": null,
       "scores": {
-        "performance": 98,
+        "performance": 99,
         "accessibility": 95,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1183,
-        "CLS": 0.002,
+        "LCP_ms": 911,
+        "CLS": 0.0029,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "supporting_metrics": {
-        "FCP_ms": 353,
-        "SI_ms": 580
+        "FCP_ms": 351,
+        "SI_ms": 370
       },
-      "lighthouse_failing_audit_ids": [
-        "color-contrast",
-        "image-delivery-insight",
-        "unused-javascript",
-        "lcp-discovery-insight",
-        "network-dependency-tree-insight",
-        "cache-insight",
-        "render-blocking-insight"
-      ],
-      "lighthouse_issues": [
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "accessibility",
-          "affected_elements": 3,
-          "display_value": null
-        },
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "high",
-          "estimated_savings_ms": 50,
-          "estimated_savings_bytes": 139017,
-          "category": "performance",
-          "affected_elements": 2,
-          "display_value": "Est savings of 136\u00a0KiB"
-        },
-        {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "high",
-          "estimated_savings_ms": 150,
-          "estimated_savings_bytes": 70299,
-          "category": "performance",
-          "affected_elements": 1,
-          "display_value": "Est savings of 69\u00a0KiB"
-        },
-        {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "performance",
-          "affected_elements": 2,
-          "display_value": null
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "performance",
-          "affected_elements": 3,
-          "display_value": null
-        }
-      ],
       "onpage_score": 100,
       "http_status": 200,
       "page_facts": {
@@ -360,7 +358,7 @@
         "render_blocking_stylesheets": 1,
         "scripts_size": 0,
         "stylesheets_size": 0,
-        "total_transfer_size": 11515,
+        "total_transfer_size": 11280,
         "has_micromarkup": true,
         "has_micromarkup_errors": true,
         "broken_links": false,
@@ -368,46 +366,17 @@
         "duplicate_title": false,
         "duplicate_description": false
       },
-      "onpage_issues": [
-        {
-          "id": "has_micromarkup_errors",
-          "title": "Schema.org markup has validation errors",
-          "severity": "medium"
-        }
-      ],
-      "verdict": "amber"
-    },
-    {
-      "url": "https://crew3r.com/services/fire-damage-restoration/",
-      "url_path": "/services/fire-damage-restoration/",
-      "archetype": "service-landing",
-      "error_reason": null,
-      "scores": {
-        "performance": 99,
-        "accessibility": 95,
-        "best_practices": 100,
-        "seo": 100
-      },
-      "core_web_vitals": {
-        "LCP_ms": 877,
-        "CLS": 0.0029,
-        "TBT_ms": 0,
-        "INP_ms": null
-      },
-      "supporting_metrics": {
-        "FCP_ms": 322,
-        "SI_ms": 427
-      },
-      "lighthouse_failing_audit_ids": [
-        "color-contrast",
-        "image-delivery-insight",
-        "unused-javascript",
-        "lcp-discovery-insight",
-        "network-dependency-tree-insight",
-        "render-blocking-insight",
-        "cache-insight"
-      ],
       "lighthouse_issues": [
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "high",
+          "estimated_savings_ms": 70,
+          "estimated_savings_bytes": 70393,
+          "category": "performance",
+          "affected_elements": 1,
+          "display_value": "Est savings of 69 KiB"
+        },
         {
           "id": "color-contrast",
           "title": "Background and foreground colors do not have a sufficient contrast ratio.",
@@ -417,26 +386,6 @@
           "category": "accessibility",
           "affected_elements": 3,
           "display_value": null
-        },
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "high",
-          "estimated_savings_ms": 50,
-          "estimated_savings_bytes": 77333,
-          "category": "performance",
-          "affected_elements": 1,
-          "display_value": "Est savings of 76\u00a0KiB"
-        },
-        {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "high",
-          "estimated_savings_ms": 50,
-          "estimated_savings_bytes": 70337,
-          "category": "performance",
-          "affected_elements": 1,
-          "display_value": "Est savings of 69\u00a0KiB"
         },
         {
           "id": "lcp-discovery-insight",
@@ -457,8 +406,85 @@
           "category": "performance",
           "affected_elements": 3,
           "display_value": null
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 1,
+          "display_value": "Est savings of 50 ms"
         }
       ],
+      "lighthouse_failing_audits": [
+        {
+          "id": "unused-javascript",
+          "score": 0,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "score": 0,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "score": 0,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "score": 0,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "score": 0,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "score": 0.5,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "score": 0.5,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Schema.org markup has validation errors",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "url": "https://crew3r.com/services/fire-damage-restoration/",
+      "url_path": "/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 888,
+        "CLS": 0.0029,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "supporting_metrics": {
+        "FCP_ms": 332,
+        "SI_ms": 415
+      },
       "onpage_score": 100,
       "http_status": 200,
       "page_facts": {
@@ -487,46 +513,17 @@
         "duplicate_title": false,
         "duplicate_description": false
       },
-      "onpage_issues": [
-        {
-          "id": "has_micromarkup_errors",
-          "title": "Schema.org markup has validation errors",
-          "severity": "medium"
-        }
-      ],
-      "verdict": "amber"
-    },
-    {
-      "url": "https://crew3r.com/service-areas/brookings-sd/",
-      "url_path": "/service-areas/brookings-sd/",
-      "archetype": "service-area",
-      "error_reason": null,
-      "scores": {
-        "performance": 98,
-        "accessibility": 95,
-        "best_practices": 100,
-        "seo": 100
-      },
-      "core_web_vitals": {
-        "LCP_ms": 1123,
-        "CLS": 0.0029,
-        "TBT_ms": 0,
-        "INP_ms": null
-      },
-      "supporting_metrics": {
-        "FCP_ms": 353,
-        "SI_ms": 515
-      },
-      "lighthouse_failing_audit_ids": [
-        "color-contrast",
-        "unused-javascript",
-        "lcp-discovery-insight",
-        "network-dependency-tree-insight",
-        "render-blocking-insight",
-        "image-delivery-insight",
-        "cache-insight"
-      ],
       "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 1,
+          "display_value": "Est savings of 76 KiB"
+        },
         {
           "id": "color-contrast",
           "title": "Background and foreground colors do not have a sufficient contrast ratio.",
@@ -534,18 +531,8 @@
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
           "category": "accessibility",
-          "affected_elements": 5,
+          "affected_elements": 3,
           "display_value": null
-        },
-        {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "high",
-          "estimated_savings_ms": 100,
-          "estimated_savings_bytes": 70355,
-          "category": "performance",
-          "affected_elements": 1,
-          "display_value": "Est savings of 69\u00a0KiB"
         },
         {
           "id": "lcp-discovery-insight",
@@ -571,13 +558,80 @@
           "id": "render-blocking-insight",
           "title": "Render-blocking requests",
           "severity": "high",
-          "estimated_savings_ms": 50,
+          "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
           "category": "performance",
           "affected_elements": 1,
-          "display_value": "Est savings of 40\u00a0ms"
+          "display_value": "Est savings of 50 ms"
         }
       ],
+      "lighthouse_failing_audits": [
+        {
+          "id": "image-delivery-insight",
+          "score": 0,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "score": 0,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "score": 0,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "score": 0,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "score": 0,
+          "category": "performance"
+        },
+        {
+          "id": "unused-javascript",
+          "score": 0.5,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "score": 0.5,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Schema.org markup has validation errors",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "url": "https://crew3r.com/service-areas/brookings-sd/",
+      "url_path": "/service-areas/brookings-sd/",
+      "archetype": "service-area",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 100,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 795,
+        "CLS": 0.0029,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "supporting_metrics": {
+        "FCP_ms": 293,
+        "SI_ms": 365
+      },
       "onpage_score": 100,
       "http_status": 200,
       "page_facts": {
@@ -606,46 +660,27 @@
         "duplicate_title": false,
         "duplicate_description": false
       },
-      "onpage_issues": [
-        {
-          "id": "has_micromarkup_errors",
-          "title": "Schema.org markup has validation errors",
-          "severity": "medium"
-        }
-      ],
-      "verdict": "amber"
-    },
-    {
-      "url": "https://crew3r.com/contact/",
-      "url_path": "/contact/",
-      "archetype": "contact",
-      "error_reason": null,
-      "scores": {
-        "performance": 98,
-        "accessibility": 96,
-        "best_practices": 100,
-        "seo": 100
-      },
-      "core_web_vitals": {
-        "LCP_ms": 1154,
-        "CLS": 0.0048,
-        "TBT_ms": 0,
-        "INP_ms": null
-      },
-      "supporting_metrics": {
-        "FCP_ms": 380,
-        "SI_ms": 555
-      },
-      "lighthouse_failing_audit_ids": [
-        "color-contrast",
-        "image-delivery-insight",
-        "unused-javascript",
-        "lcp-discovery-insight",
-        "network-dependency-tree-insight",
-        "render-blocking-insight",
-        "cache-insight"
-      ],
       "lighthouse_issues": [
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "high",
+          "estimated_savings_ms": 110,
+          "estimated_savings_bytes": 70531,
+          "category": "performance",
+          "affected_elements": 1,
+          "display_value": "Est savings of 69 KiB"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": 100,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 1,
+          "display_value": "Est savings of 76 KiB"
+        },
         {
           "id": "color-contrast",
           "title": "Background and foreground colors do not have a sufficient contrast ratio.",
@@ -653,28 +688,8 @@
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
           "category": "accessibility",
-          "affected_elements": 1,
+          "affected_elements": 5,
           "display_value": null
-        },
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "high",
-          "estimated_savings_ms": 50,
-          "estimated_savings_bytes": 117481,
-          "category": "performance",
-          "affected_elements": 2,
-          "display_value": "Est savings of 115\u00a0KiB"
-        },
-        {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "high",
-          "estimated_savings_ms": 100,
-          "estimated_savings_bytes": 67332,
-          "category": "performance",
-          "affected_elements": 1,
-          "display_value": "Est savings of 66\u00a0KiB"
         },
         {
           "id": "lcp-discovery-insight",
@@ -697,6 +712,73 @@
           "display_value": null
         }
       ],
+      "lighthouse_failing_audits": [
+        {
+          "id": "unused-javascript",
+          "score": 0,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "score": 0,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "score": 0,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "score": 0,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "score": 0,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "score": 0.5,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "score": 0.5,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Schema.org markup has validation errors",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "url": "https://crew3r.com/contact/",
+      "url_path": "/contact/",
+      "archetype": "contact",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 96,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 875,
+        "CLS": 0.0048,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "supporting_metrics": {
+        "FCP_ms": 353,
+        "SI_ms": 353
+      },
       "onpage_score": 100,
       "http_status": 200,
       "page_facts": {
@@ -717,7 +799,7 @@
         "render_blocking_stylesheets": 1,
         "scripts_size": 0,
         "stylesheets_size": 0,
-        "total_transfer_size": 9823,
+        "total_transfer_size": 9580,
         "has_micromarkup": true,
         "has_micromarkup_errors": true,
         "broken_links": false,
@@ -725,6 +807,95 @@
         "duplicate_title": false,
         "duplicate_description": false
       },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "affected_elements": 1,
+          "display_value": null
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 2,
+          "display_value": null
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 3,
+          "display_value": null
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "affected_elements": 1,
+          "display_value": "Est savings of 50 ms"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "medium",
+          "estimated_savings_ms": 20,
+          "estimated_savings_bytes": 70393,
+          "category": "performance",
+          "affected_elements": 1,
+          "display_value": "Est savings of 69 KiB"
+        }
+      ],
+      "lighthouse_failing_audits": [
+        {
+          "id": "color-contrast",
+          "score": 0,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "score": 0,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "score": 0,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "score": 0,
+          "category": "performance"
+        },
+        {
+          "id": "unused-javascript",
+          "score": 0.5,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "score": 0.5,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "score": 0.5,
+          "category": "performance"
+        }
+      ],
       "onpage_issues": [
         {
           "id": "has_micromarkup_errors",
@@ -736,13 +907,12 @@
           "title": "Low text-to-HTML ratio",
           "severity": "low"
         }
-      ],
-      "verdict": "amber"
+      ]
     }
   ],
   "site_rollup": {
     "avg_scores": {
-      "performance": 98.5,
+      "performance": 99.2,
       "accessibility": 96.0,
       "best_practices": 100.0,
       "seo": 100.0
@@ -759,21 +929,6 @@
       {
         "id": "image-delivery-insight",
         "title": "Improve image delivery",
-        "affected_urls": 6,
-        "severity": "high",
-        "source": "lighthouse",
-        "urls": [
-          "/",
-          "/services/",
-          "/services/water-damage-restoration/",
-          "/services/fire-damage-restoration/",
-          "/service-areas/brookings-sd/",
-          "/contact/"
-        ]
-      },
-      {
-        "id": "unused-javascript",
-        "title": "Reduce unused JavaScript",
         "affected_urls": 6,
         "severity": "high",
         "source": "lighthouse",
@@ -804,6 +959,21 @@
       {
         "id": "render-blocking-insight",
         "title": "Render-blocking requests",
+        "affected_urls": 6,
+        "severity": "high",
+        "source": "lighthouse",
+        "urls": [
+          "/",
+          "/services/",
+          "/services/water-damage-restoration/",
+          "/services/fire-damage-restoration/",
+          "/service-areas/brookings-sd/",
+          "/contact/"
+        ]
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
         "affected_urls": 6,
         "severity": "high",
         "source": "lighthouse",
@@ -864,7 +1034,7 @@
         "title": "Schema.org markup has validation errors",
         "affected_urls": 5,
         "severity": "medium",
-        "source": "onpage",
+        "source": "dataforseo_instant_pages",
         "urls": [
           "/services/",
           "/services/water-damage-restoration/",
@@ -878,11 +1048,22 @@
         "title": "Low text-to-HTML ratio",
         "affected_urls": 3,
         "severity": "low",
-        "source": "onpage",
+        "source": "dataforseo_instant_pages",
         "urls": [
           "/",
           "/services/",
           "/contact/"
+        ]
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
+        "affected_urls": 2,
+        "severity": "high",
+        "source": "lighthouse",
+        "urls": [
+          "/",
+          "/services/"
         ]
       }
     ],
@@ -891,65 +1072,59 @@
         "url": "https://crew3r.com/services/",
         "archetype": "services-hub",
         "verdict": "amber",
-        "main_issue": "has_micromarkup_errors (BreadcrumbList schema); accessibility 95 (color-contrast); performance 99, LCP 0.97s"
+        "main_issue": "accessibility 95 (color-contrast), BreadcrumbList schema validation error (has_micromarkup_errors), LCP 0.92s"
       },
       {
         "url": "https://crew3r.com/services/water-damage-restoration/",
         "archetype": "service-landing",
         "verdict": "amber",
-        "main_issue": "has_micromarkup_errors (BreadcrumbList schema); accessibility 95 (color-contrast); performance 98, LCP 1.18s"
+        "main_issue": "accessibility 95 (color-contrast), BreadcrumbList schema validation error (has_micromarkup_errors), LCP 0.91s"
       },
       {
         "url": "https://crew3r.com/services/fire-damage-restoration/",
         "archetype": "service-landing",
         "verdict": "amber",
-        "main_issue": "has_micromarkup_errors (BreadcrumbList schema); accessibility 95 (color-contrast); performance 99, LCP 0.88s"
+        "main_issue": "accessibility 95 (color-contrast), BreadcrumbList schema validation error (has_micromarkup_errors), LCP 0.89s"
       },
       {
         "url": "https://crew3r.com/contact/",
         "archetype": "contact",
         "verdict": "amber",
-        "main_issue": "has_micromarkup_errors (BreadcrumbList schema); accessibility 96 (color-contrast); performance 98, LCP 1.15s"
+        "main_issue": "accessibility 96 (color-contrast), BreadcrumbList schema validation error (has_micromarkup_errors), LCP 0.88s"
       }
     ]
   },
   "regression": {
     "prior_run_at": "2026-08-26T14:55:00Z",
     "score_deltas": {
-      "performance": -1.3,
+      "performance": -0.6,
       "accessibility": -0.3,
       "best_practices": 0.0,
       "seo": 0.0
     },
     "site_level_flags": [],
-    "url_regressions": [
+    "score_regressions": [],
+    "cwv_regressions": [
       {
         "url": "https://crew3r.com/",
         "metric": "LCP_ms",
         "prior": 577,
-        "current": 921,
-        "delta": 344
-      },
-      {
-        "url": "https://crew3r.com/services/water-damage-restoration/",
-        "metric": "LCP_ms",
-        "prior": 807,
-        "current": 1183,
-        "delta": 376
+        "current": 907,
+        "delta": 330
       },
       {
         "url": "https://crew3r.com/service-areas/brookings-sd/",
         "metric": "LCP_ms",
         "prior": 560,
-        "current": 1123,
-        "delta": 563
+        "current": 795,
+        "delta": 235
       },
       {
         "url": "https://crew3r.com/contact/",
         "metric": "LCP_ms",
         "prior": 492,
-        "current": 1154,
-        "delta": 662
+        "current": 875,
+        "delta": 383
       }
     ],
     "verdict_transitions": [],
@@ -960,9 +1135,19 @@
         "title": "Reduce unused JavaScript"
       },
       {
+        "url": "https://crew3r.com/",
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
+      },
+      {
         "url": "https://crew3r.com/services/",
         "id": "unused-javascript",
         "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://crew3r.com/services/",
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
       },
       {
         "url": "https://crew3r.com/services/water-damage-restoration/",
@@ -970,9 +1155,14 @@
         "title": "Reduce unused JavaScript"
       },
       {
+        "url": "https://crew3r.com/services/water-damage-restoration/",
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests"
+      },
+      {
         "url": "https://crew3r.com/services/fire-damage-restoration/",
-        "id": "unused-javascript",
-        "title": "Reduce unused JavaScript"
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests"
       },
       {
         "url": "https://crew3r.com/service-areas/brookings-sd/",
@@ -980,7 +1170,7 @@
         "title": "Reduce unused JavaScript"
       },
       {
-        "url": "https://crew3r.com/service-areas/brookings-sd/",
+        "url": "https://crew3r.com/contact/",
         "id": "render-blocking-insight",
         "title": "Render-blocking requests"
       },

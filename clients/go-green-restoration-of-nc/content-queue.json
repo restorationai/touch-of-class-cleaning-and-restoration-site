@@ -1,1557 +1,1558 @@
 {
- "items": [
-  {
-   "id": "2026-09-28-best-mold-remediation-in-raleigh-nc",
-   "status": "queued",
-   "queued_at": "2026-09-28T18:17:12Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "best_of_comparison",
-   "combo_key": "best-mold-remediation-in-raleigh-nc",
-   "primary_keyword": "best mold remediation company in Raleigh, NC",
-   "intent": "commercial",
-   "target_word_count": 1600,
-   "city_anchor": "raleigh-nc",
-   "best_of": {
-    "service": "mold-remediation",
-    "service_pretty": "Mold Remediation",
-    "city": "Raleigh",
-    "state": "NC",
-    "competitors": [
-     {
-      "name": "Summit mold remediation",
-      "google_rating": 5,
-      "review_count": 15
-     },
-     {
-      "name": "Glover Environmental Mold Removal",
-      "google_rating": 5,
-      "review_count": 30
-     },
-     {
-      "name": "Raleigh NC Mold Testing and Remediation",
-      "google_rating": 5,
-      "review_count": 3
-     },
-     {
-      "name": "Raleigh Mold Inspection and Remediation",
-      "google_rating": 4.7,
-      "review_count": 87
-     }
-    ]
-   },
-   "fan_out_cluster": [
-    "best mold remediation companies Raleigh",
-    "top rated mold remediation Raleigh NC",
-    "who is the best mold remediation company in Raleigh",
-    "mold removal Raleigh",
-    "mold treatment Raleigh",
-    "black mold removal Raleigh"
-   ],
-   "source": "best-of-seeder"
-  },
-  {
-   "id": "2026-09-10-who-to-call-for-water-damage-restoration-in-middlesex-nc",
-   "status": "written",
-   "queued_at": "2026-09-10T20:15:29Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "who_to_call",
-   "combo_key": "who-to-call-for-water-damage-restoration-in-middlesex-nc",
-   "primary_keyword": "who to call for water damage restoration in Middlesex, NC",
-   "intent": "transactional",
-   "target_word_count": 1200,
-   "city_anchor": "middlesex-nc",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Middlesex",
-    "state": "NC",
-    "competitors": []
-   },
-   "fan_out_cluster": [
-    "who do you call for water damage restoration Middlesex",
-    "who do I call for water damage restoration in Middlesex",
-    "water damage restoration emergency number Middlesex NC",
-    "water damage cleanup Middlesex",
-    "water cleanup Middlesex",
-    "water removal Middlesex"
-   ],
-   "source": "best-of-seeder",
-   "written_at": "2026-09-10T20:24:50Z",
-   "post_url": "https://gogreenrestorationofnc.com/blog/who-to-call-for-water-damage-restoration-in-middlesex-nc/",
-   "claims_flags": [
+  "items": [
     {
-     "file": "src/content/blog/who-to-call-for-water-damage-restoration-in-middlesex-nc.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "d air movers, moisture mapping per the [IICRC S500 standard](https://www.iicrc.org),",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+      "id": "2026-09-28-best-mold-remediation-in-raleigh-nc",
+      "status": "queued",
+      "queued_at": "2026-09-28T18:17:12Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-mold-remediation-in-raleigh-nc",
+      "primary_keyword": "best mold remediation company in Raleigh, NC",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "raleigh-nc",
+      "best_of": {
+        "service": "mold-remediation",
+        "service_pretty": "Mold Remediation",
+        "city": "Raleigh",
+        "state": "NC",
+        "competitors": [
+          {
+            "name": "Summit mold remediation",
+            "google_rating": 5,
+            "review_count": 15
+          },
+          {
+            "name": "Glover Environmental Mold Removal",
+            "google_rating": 5,
+            "review_count": 30
+          },
+          {
+            "name": "Raleigh NC Mold Testing and Remediation",
+            "google_rating": 5,
+            "review_count": 3
+          },
+          {
+            "name": "Raleigh Mold Inspection and Remediation",
+            "google_rating": 4.7,
+            "review_count": 87
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best mold remediation companies Raleigh",
+        "top rated mold remediation Raleigh NC",
+        "who is the best mold remediation company in Raleigh",
+        "mold removal Raleigh",
+        "mold treatment Raleigh",
+        "black mold removal Raleigh"
+      ],
+      "source": "best-of-seeder"
     },
     {
-     "file": "src/content/blog/who-to-call-for-water-damage-restoration-in-middlesex-nc.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "m. From there, the process follows the IICRC S500 standard for water damage restorat",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+      "id": "2026-09-10-who-to-call-for-water-damage-restoration-in-middlesex-nc",
+      "status": "written",
+      "queued_at": "2026-09-10T20:15:29Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "who_to_call",
+      "combo_key": "who-to-call-for-water-damage-restoration-in-middlesex-nc",
+      "primary_keyword": "who to call for water damage restoration in Middlesex, NC",
+      "intent": "transactional",
+      "target_word_count": 1200,
+      "city_anchor": "middlesex-nc",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Middlesex",
+        "state": "NC",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "who do you call for water damage restoration Middlesex",
+        "who do I call for water damage restoration in Middlesex",
+        "water damage restoration emergency number Middlesex NC",
+        "water damage cleanup Middlesex",
+        "water cleanup Middlesex",
+        "water removal Middlesex"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-10T20:24:50Z",
+      "post_url": "https://gogreenrestorationofnc.com/blog/who-to-call-for-water-damage-restoration-in-middlesex-nc/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/who-to-call-for-water-damage-restoration-in-middlesex-nc.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "d air movers, moisture mapping per the [IICRC S500 standard](https://www.iicrc.org),",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/who-to-call-for-water-damage-restoration-in-middlesex-nc.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "m. From there, the process follows the IICRC S500 standard for water damage restorat",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-06-att-and-crawlspace-insulation-removal-and-install",
+      "status": "published",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "att-and-crawlspace-insulation-removal-and-install",
+      "primary_keyword": "Att and crawlspace insulation removal and install",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "zebulon-nc",
+      "source": "app target-term (onboarding-backfill)",
+      "written_at": "2026-09-22T15:19:30Z",
+      "post_url": "https://gogreenrestorationofnc.com/blog/att-and-crawlspace-insulation-removal-and-install/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/att-and-crawlspace-insulation-removal-and-install.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "NC** Go Green Restoration of NC is an IICRC-certified restoration and remediation c",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/att-and-crawlspace-insulation-removal-and-install.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "Go Green Restoration of NC is an IICRC-certified restoration and remediation company serving Zebulon",
+          "reason": "names a certification not present in brand.certifications"
+        }
+      ],
+      "published_verified_at": "2026-09-22T15:24:23Z"
+    },
+    {
+      "id": "2026-09-06-hvac-cleaning",
+      "status": "published",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "hvac-cleaning",
+      "primary_keyword": "HVAC cleaning",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "wilson-nc",
+      "source": "app target-term (onboarding-backfill)",
+      "written_at": "2026-09-24T16:26:13Z",
+      "post_url": "https://gogreenrestorationofnc.com/blog/hvac-cleaning/",
+      "published_verified_at": "2026-09-24T16:27:40Z"
+    },
+    {
+      "id": "2026-09-06-crawlspace-encapsulation",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "crawlspace-encapsulation",
+      "primary_keyword": "crawlspace encapsulation",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "smithfield-nc",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
+      "id": "2026-09-06-water-damage",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "water-damage",
+      "primary_keyword": "Water Damage",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "rocky-mount-nc",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
+      "id": "2026-08-27-water-damage-restoration-cost-nc",
+      "status": "published",
+      "queued_at": "2026-08-27T03:31:38Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "cost_guide",
+      "combo_key": "water-damage-restoration-cost-nc",
+      "primary_keyword": "water damage restoration cost NC",
+      "intent": "transactional",
+      "target_word_count": 1500,
+      "city_anchor": "middlesex-nc",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Middlesex",
+        "state": "NC",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "how much does water damage restoration cost in NC",
+        "water damage restoration price NC",
+        "average cost of water damage restoration NC",
+        "water damage cleanup NC",
+        "water cleanup NC",
+        "water removal NC"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-08-31T23:15:58Z",
+      "post_url": "https://gogreenrestorationofnc.com/blog/water-damage-restoration-cost-nc/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-nc.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "nything else. **Water category.** The [IICRC S500 standard](https://www.iicrc.org) c",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-nc.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "(how much moisture got absorbed).** The IICRC also defines four classes based on evap",
+          "reason": "names a certification not present in brand.certifications"
+        }
+      ],
+      "published_verified_at": "2026-08-31T23:17:09Z"
+    },
+    {
+      "id": "2026-08-07-best-mold-remediation-in-middlesex-nc",
+      "status": "published",
+      "queued_at": "2026-08-07T03:42:52Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-mold-remediation-in-middlesex-nc",
+      "primary_keyword": "best mold remediation company in Middlesex, NC",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "middlesex-nc",
+      "best_of": {
+        "service": "mold-remediation",
+        "service_pretty": "Mold Remediation",
+        "city": "Middlesex",
+        "state": "NC",
+        "competitors": [
+          {
+            "name": "Carolina Mold & Air",
+            "google_rating": 5,
+            "review_count": 11
+          },
+          {
+            "name": "NC Water And Mold",
+            "google_rating": 5,
+            "review_count": 66
+          },
+          {
+            "name": "Mold Free NC",
+            "google_rating": 5,
+            "review_count": 136
+          },
+          {
+            "name": "Glover Environmental Mold Removal",
+            "google_rating": 5,
+            "review_count": 30
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best mold remediation companies Middlesex",
+        "top rated mold remediation Middlesex NC",
+        "who is the best mold remediation company in Middlesex",
+        "mold removal Middlesex",
+        "mold cleanup Middlesex",
+        "black mold removal Middlesex"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-08-27T02:25:00Z",
+      "post_url": "https://gogreenrestorationofnc.com/blog/best-mold-remediation-company-in-middlesex-nc/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-middlesex-nc.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "in the 27557 zip code, available 24/7, IICRC-certified, and handle the full scope of",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-middlesex-nc.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "e contractors. Their crews follow the [IICRC S520 Standard for Professional Mold Rem",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-middlesex-nc.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "gle Rating | Reviews | 24/7 Emergency | IICRC Certified | |---|---|---|---|---| | Go",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-middlesex-nc.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "ook for. **Containment protocol.** The IICRC S520 standard requires physical contain",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-middlesex-nc.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "NC** Go Green Restoration of NC is an IICRC-certified restoration company based in",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-middlesex-nc.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "Go Green Restoration of NC is an IICRC-certified restoration company based in Middlesex, NC (27557),",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-middlesex-nc.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "136 reviews",
+          "context": "ree NC holds a 5.0 Google rating across 136 reviews, making them the most-reviewed company",
+          "reason": "claims 136 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-middlesex-nc.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "66 reviews",
+          "context": "er And Mold carries a 5.0 rating across 66 reviews. The name signals that they handle both",
+          "reason": "claims 66 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-middlesex-nc.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "66 reviews",
+          "context": "same problem at different stages. With 66 reviews at a perfect rating, they have demonstr",
+          "reason": "claims 66 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-middlesex-nc.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "30 reviews",
+          "context": "Mold Removal holds a 5.0 rating across 30 reviews. The name suggests a focus on environme",
+          "reason": "claims 30 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-middlesex-nc.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "11 reviews",
+          "context": "na Mold & Air holds a 5.0 rating across 11 reviews. Fewer reviews make it harder to draw f",
+          "reason": "claims 11 reviews but no synced gbpReviewCount exists for this site"
+        }
+      ],
+      "published_verified_at": "2026-08-27T02:26:09Z"
+    },
+    {
+      "id": "2026-08-09-crawl-space-encapsulation-cost",
+      "status": "banked",
+      "queued_at": "2026-08-10T00:45:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "crawl space encapsulation cost",
+      "intent": "commercial",
+      "volume": 9900,
+      "kd": null,
+      "fan_out_cluster": [
+        "how much does it cost to encapsulate a crawl space",
+        "crawl space encapsulation cost per square foot",
+        "crawl space vapor barrier cost",
+        "crawl space dehumidifier cost",
+        "crawl space encapsulation cost calculator",
+        "negatives to crawl space encapsulation"
+      ],
+      "suggested_slug": "crawl-space-encapsulation-cost",
+      "suggested_title": "Crawl Space Encapsulation Cost in North Carolina: What Homeowners Actually Pay",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/durham-nc/crawl-space-encapsulation/",
+        "/service-areas/raleigh-nc/crawl-space-encapsulation/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "crawl-space-encapsulation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-course-chapter-2"
+      ],
+      "notes": "Flagship cost guide: 9,900/mo national, $24.35 CPC, top CPC tier for this service. Give national ranges then anchor to the housing stock we serve: older homes around Durham's Trinity Park and Duke Park bring frequent crawl space moisture calls, and Zebulon's rural properties are typically well-and-crawl-space homes (both per plan-input local notes). Break out cost per square foot, vapor barrier only vs full encapsulation, and dehumidifier add-on.",
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.795194+00:00"
+    },
+    {
+      "id": "2026-08-09-mold-remediation-cost",
+      "status": "banked",
+      "queued_at": "2026-08-10T00:46:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "mold remediation cost",
+      "intent": "commercial",
+      "volume": 9900,
+      "kd": 3,
+      "fan_out_cluster": [
+        "mold removal cost",
+        "average cost of mold remediation",
+        "crawl space mold removal cost",
+        "black mold removal cost",
+        "mold remediation cost per square foot"
+      ],
+      "suggested_slug": "mold-remediation-cost",
+      "suggested_title": "Mold Remediation Cost in Raleigh, NC: What Homeowners Actually Pay",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/raleigh-nc/mold-remediation/",
+        "/blog/how-to-test-for-mold/",
+        "/blog/signs-of-hidden-mold/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "mold-remediation"
+      ],
+      "city_anchor": "raleigh-nc",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "Highest-volume mold cost guide (9,900/mo, KD 3, $23 CPC). National ranges first, then Raleigh-area factors: humid summers, crawl space and attic jobs, containment and clearance testing. Cross-link the existing mold testing and hidden mold posts.",
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.795198+00:00"
+    },
+    {
+      "id": "2026-08-09-air-duct-cleaning-cost",
+      "status": "banked",
+      "queued_at": "2026-08-10T00:47:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "air duct cleaning cost",
+      "intent": "commercial",
+      "volume": 9900,
+      "kd": null,
+      "fan_out_cluster": [
+        "average air duct cleaning cost",
+        "air duct cleaning prices",
+        "air duct cleaning cost per vent",
+        "is air duct cleaning worth it",
+        "signs your air ducts need cleaning"
+      ],
+      "suggested_slug": "air-duct-cleaning-cost",
+      "suggested_title": "Air Duct Cleaning Cost in Raleigh, NC: Fair Prices and the Scams to Avoid",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/air-duct-cleaning/",
+        "/service-areas/raleigh-nc/air-duct-cleaning/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "air-duct-cleaning"
+      ],
+      "city_anchor": "raleigh-nc",
+      "external_authority_candidates": [
+        "https://www.epa.gov/indoor-air-quality-iaq/should-you-have-air-ducts-your-home-cleaned"
+      ],
+      "notes": "9,900/mo national, $13 CPC. This niche is full of $99 bait-and-switch coupon operators, so a straight-talk pricing guide builds trust. Reference the EPA guidance on when duct cleaning is and is not worthwhile. Do not promise health outcomes.",
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.795202+00:00"
+    },
+    {
+      "id": "2026-08-09-attic-insulation-cost",
+      "status": "banked",
+      "queued_at": "2026-08-10T00:48:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "attic insulation cost",
+      "intent": "commercial",
+      "volume": 9900,
+      "kd": null,
+      "fan_out_cluster": [
+        "blown in insulation cost",
+        "insulation removal cost",
+        "cost to insulate an attic",
+        "spray foam vs blown in insulation cost",
+        "when to replace attic insulation"
+      ],
+      "suggested_slug": "attic-insulation-cost",
+      "suggested_title": "Attic Insulation Cost in Wake Forest, NC: Removal, Replacement, and R-Value Math",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/insulation-removal-installation/",
+        "/service-areas/wake-forest-nc/insulation-removal-installation/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "insulation-removal-installation"
+      ],
+      "city_anchor": "wake-forest-nc",
+      "external_authority_candidates": [
+        "https://www.energy.gov/energysaver/insulation"
+      ],
+      "notes": "9,900/mo national, $10 CPC. Anchor to Wake Forest where fast-growing subdivisions make attic insulation and duct work common projects (per plan-input local notes). Cover removal cost separately (390/mo for insulation removal cost): old, damp, or pest-contaminated insulation is the removal trigger in this climate.",
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.795203+00:00"
+    },
+    {
+      "id": "2026-08-09-mold-inspection-cost",
+      "status": "banked",
+      "queued_at": "2026-08-10T00:49:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "mold inspection cost",
+      "intent": "commercial",
+      "volume": 5400,
+      "kd": null,
+      "fan_out_cluster": [
+        "mold testing cost",
+        "air quality mold test cost",
+        "is a mold inspection worth it",
+        "what does a mold inspector check"
+      ],
+      "suggested_slug": "mold-inspection-cost",
+      "suggested_title": "Mold Inspection Cost in Durham, NC: What You Get for the Money",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/durham-nc/mold-remediation/",
+        "/blog/how-to-test-for-mold/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "mold-remediation"
+      ],
+      "city_anchor": "durham-nc",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "5,400/mo national, $14 CPC. Anchor to Durham where older housing stock around Trinity Park and Duke Park drives moisture and mold calls (per plan-input local notes). Distinguish inspection vs testing vs remediation quotes. Cross-link the existing DIY-vs-pro mold testing post instead of repeating it.",
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.795204+00:00"
+    },
+    {
+      "id": "2026-08-09-carpet-cleaning-cost",
+      "status": "banked",
+      "queued_at": "2026-08-10T00:50:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "carpet cleaning cost",
+      "intent": "commercial",
+      "volume": 5400,
+      "kd": null,
+      "fan_out_cluster": [
+        "professional carpet cleaning prices",
+        "carpet cleaning cost per room",
+        "how long does carpet take to dry after cleaning",
+        "how often should carpets be professionally cleaned"
+      ],
+      "suggested_slug": "carpet-cleaning-cost",
+      "suggested_title": "Carpet Cleaning Cost in Raleigh, NC: Per-Room Pricing Explained",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/carpet-cleaning/",
+        "/service-areas/raleigh-nc/carpet-cleaning/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "carpet-cleaning"
+      ],
+      "city_anchor": "raleigh-nc",
+      "external_authority_candidates": [],
+      "notes": "5,400/mo national plus 1,600/mo for carpet cleaning raleigh shows real metro demand. Per-room vs per-square-foot pricing, hot water extraction vs low-moisture, and why dry times matter in humid summers. Keep claims to process and pricing.",
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.795205+00:00"
+    },
+    {
+      "id": "2026-08-09-water-damage-restoration-cost",
+      "status": "banked",
+      "queued_at": "2026-08-10T00:51:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "water damage restoration cost",
+      "intent": "commercial",
+      "volume": 880,
+      "kd": 3,
+      "fan_out_cluster": [
+        "water damage repair cost",
+        "water mitigation cost",
+        "cost to dry out a house after a leak",
+        "water damage restoration cost per square foot"
+      ],
+      "suggested_slug": "water-damage-restoration-cost",
+      "suggested_title": "Water Damage Restoration Cost in Eastern North Carolina: A Straight Answer",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/how-long-does-water-damage-restoration-take/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "880/mo, KD 3, $20 CPC. Category and class drive price: explain Cat 1 vs Cat 3 and drying scope. Region angle is groundable from plan-input: Tar River flooding history around Rocky Mount and storm-driven intrusions near the Neuse in Smithfield make storm-season claims a recurring cost question. Cross-link both existing water damage posts.",
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.795206+00:00"
+    },
+    {
+      "id": "2026-08-09-does-homeowners-insurance-cover-mold",
+      "status": "banked",
+      "queued_at": "2026-08-10T00:52:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "does homeowners insurance cover mold",
+      "intent": "informational",
+      "volume": 5400,
+      "kd": 11,
+      "fan_out_cluster": [
+        "does homeowners insurance cover mold remediation",
+        "when does insurance deny mold claims",
+        "mold from a water leak insurance claim",
+        "how to document a mold claim"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-mold",
+      "suggested_title": "Does Homeowners Insurance Cover Mold? A Plain-English Guide for NC Homeowners",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/signs-of-hidden-mold/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iii.org/article/will-homeowners-insurance-cover-mold"
+      ],
+      "notes": "5,400/mo, KD 11, $12.57 CPC. Companion to the existing water damage insurance post: link it early and keep the two distinct (this one is mold-specific: sudden-event coverage vs excluded slow leaks and humidity neglect). No legal or coverage guarantees, always point to the policy.",
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.795207+00:00"
+    },
+    {
+      "id": "2026-08-09-mold-in-air-ducts",
+      "status": "banked",
+      "queued_at": "2026-08-10T00:53:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "mold in air ducts",
+      "intent": "informational",
+      "volume": 3600,
+      "kd": 2,
+      "fan_out_cluster": [
+        "black mold in air vents",
+        "signs of mold in air ducts",
+        "can mold in air ducts make you sick",
+        "how to get rid of mold in air ducts",
+        "musty smell from vents"
+      ],
+      "suggested_slug": "mold-in-air-ducts",
+      "suggested_title": "Mold in Air Ducts: Signs, Causes, and What to Do About It",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/air-duct-cleaning/",
+        "/services/mold-remediation/",
+        "/blog/black-mold-vs-regular-mold/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "air-duct-cleaning",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/indoor-air-quality-iaq/should-you-have-air-ducts-your-home-cleaned"
+      ],
+      "notes": "3,600/mo, KD 2, $20.69 CPC, and it bridges two of the client's services (duct cleaning + mold remediation). Humid-climate condensation in ductwork is the mechanism. Health claims stay cautious and cite EPA. Cross-link black mold vs regular mold.",
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.795208+00:00"
+    },
+    {
+      "id": "2026-08-09-mold-in-crawl-space",
+      "status": "banked",
+      "queued_at": "2026-08-10T00:54:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "mold in crawl space",
+      "intent": "informational",
+      "volume": 1300,
+      "kd": null,
+      "fan_out_cluster": [
+        "how to get rid of mold in crawl space",
+        "can mold in crawl space affect upstairs",
+        "musty smell in crawl space",
+        "white mold on floor joists",
+        "crawl space mold prevention"
+      ],
+      "suggested_slug": "mold-in-crawl-space",
+      "suggested_title": "Mold in Crawl Space: Why Eastern NC Homes Get It and How to Stop It",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/crawl-space-encapsulation/",
+        "/blog/signs-of-hidden-mold/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "crawl-space-encapsulation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-course-chapter-2"
+      ],
+      "notes": "1,300/mo, $19.76 CPC. The natural bridge post from mold remediation to crawl space encapsulation. Groundable local hooks from plan-input: older Durham housing stock brings frequent crawl space moisture calls, Wilson's humid summers drive encapsulation demand, Zebulon homes typically sit on crawl spaces. Stack-effect explanation for the upstairs question.",
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.795210+00:00"
+    },
+    {
+      "id": "2026-08-09-how-to-lower-humidity-in-house",
+      "status": "banked",
+      "queued_at": "2026-08-10T00:55:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "how to lower humidity in house",
+      "intent": "informational",
+      "volume": 8100,
+      "kd": 11,
+      "fan_out_cluster": [
+        "why is my house so humid",
+        "what should indoor humidity be",
+        "why is my house humid with ac on",
+        "can a wet crawl space raise indoor humidity",
+        "dehumidifier vs crawl space encapsulation"
+      ],
+      "suggested_slug": "how-to-lower-humidity-in-house",
+      "suggested_title": "How to Lower Humidity in House: A Guide for Sticky Eastern NC Summers",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/crawl-space-encapsulation/",
+        "/services/air-duct-cleaning/",
+        "/blog/signs-of-hidden-mold/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "crawl-space-encapsulation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-course-chapter-2"
+      ],
+      "notes": "8,100/mo with a clear summer peak (12,100 in June), KD 11. Low CPC but big AI-answer surface. The differentiated angle vs national listicles: the crawl space is the humidity source most NC guides skip. Funnel to encapsulation without overselling; keep the 30 to 50 percent indoor RH guidance sourced to EPA.",
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.795211+00:00"
+    },
+    {
+      "id": "2026-08-09-is-crawl-space-encapsulation-worth-it",
+      "status": "banked",
+      "queued_at": "2026-08-10T00:56:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "is crawl space encapsulation worth it",
+      "intent": "informational",
+      "volume": 140,
+      "kd": null,
+      "fan_out_cluster": [
+        "negatives to crawl space encapsulation",
+        "alternatives to crawl space encapsulation",
+        "crawl space encapsulation mistakes",
+        "vapor barrier vs full encapsulation",
+        "does encapsulation lower indoor humidity"
+      ],
+      "suggested_slug": "is-crawl-space-encapsulation-worth-it",
+      "suggested_title": "Is Crawl Space Encapsulation Worth It? An Honest Answer for NC Homeowners",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/crawl-space-encapsulation/",
+        "/blog/crawl-space-encapsulation-cost/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "crawl-space-encapsulation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-course-chapter-2"
+      ],
+      "notes": "140/mo but $22.35 CPC and the negatives variant adds 320/mo: decision-stage searchers about to spend thousands. Answer honestly including when encapsulation is NOT worth it (dry lots, slab additions), which is what wins AI citations. Link the cost guide once it publishes (target slug crawl-space-encapsulation-cost).",
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:47.795212+00:00"
+    },
+    {
+      "id": "2026-08-09-water-in-crawl-space-after-heavy-rain",
+      "status": "published",
+      "queued_at": "2026-08-10T00:57:00Z",
+      "written_at": "2026-09-18T11:47:36Z",
+      "post_url": "https://gogreenrestorationofnc.com/blog/water-in-crawl-space-after-heavy-rain/",
+      "priority": 1,
+      "primary_keyword": "water in crawl space after heavy rain",
+      "intent": "informational",
+      "volume": 170,
+      "kd": null,
+      "fan_out_cluster": [
+        "how to dry out a crawl space",
+        "why is my crawl space wet",
+        "standing water in crawl space",
+        "what to check in your crawl space after a storm",
+        "sump pump for crawl space"
+      ],
+      "suggested_slug": "water-in-crawl-space-after-heavy-rain",
+      "suggested_title": "Water in Crawl Space After Heavy Rain: What to Do Before Mold Moves In",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/crawl-space-encapsulation/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "crawl-space-encapsulation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-course-chapter-2"
+      ],
+      "notes": "170/mo, $21.86 CPC, hurricane-season timing. Groundable region hooks from plan-input: Tar River flooding history at Rocky Mount and storm-driven water intrusions along low-lying streets near the Neuse in Smithfield. Storm checklist format (drainage, vapor barrier, wet insulation, drying), then when to call a pro.",
+      "source": "keyword-researcher",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-in-crawl-space-after-heavy-rain.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "NC** Go Green Restoration of NC is an IICRC-certified restoration company based in",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/water-in-crawl-space-after-heavy-rain.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "Go Green Restoration of NC is an IICRC-certified restoration company based in Middlesex, NC, serving",
+          "reason": "names a certification not present in brand.certifications"
+        }
+      ],
+      "published_verified_at": "2026-09-18T11:48:52Z"
+    },
+    {
+      "id": "2026-08-09-how-fast-does-mold-grow-after-water-damage",
+      "status": "published",
+      "queued_at": "2026-08-10T00:58:00Z",
+      "written_at": "2026-09-20T14:31:23Z",
+      "post_url": "https://gogreenrestorationofnc.com/blog/how-fast-does-mold-grow-after-water-damage/",
+      "priority": 1,
+      "primary_keyword": "how fast does mold grow after water damage",
+      "intent": "informational",
+      "volume": 110,
+      "kd": 1,
+      "fan_out_cluster": [
+        "mold growth timeline after a leak",
+        "can mold grow in 24 hours",
+        "how to prevent mold after flooding",
+        "how long before mold sets in after a flood"
+      ],
+      "suggested_slug": "how-fast-does-mold-grow-after-water-damage",
+      "suggested_title": "How Fast Does Mold Grow After Water Damage? The 24-48 Hour Window",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/how-long-does-water-damage-restoration-take/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "110/mo, KD 1, cheap win with high urgency intent. The EPA 24-48 hour guidance is the citable core. NC humidity accelerates the timeline argument stays qualitative, no invented local stats. Cross-link the first-24-hours checklist post as the action companion.",
+      "source": "keyword-researcher",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/how-fast-does-mold-grow-after-water-damage.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "hour window is the standard used by the IICRC S500 to define how quickly professional",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/how-fast-does-mold-grow-after-water-damage.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "nce from the EPA and the basis for the [IICRC S500 standard](https://www.iicrc.org/pa",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/how-fast-does-mold-grow-after-water-damage.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "e meter gives you an actual number. The IICRC S500 standard defines acceptable moistu",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/how-fast-does-mold-grow-after-water-damage.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "NC** Go Green Restoration of NC is an IICRC-certified restoration company based in",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/how-fast-does-mold-grow-after-water-damage.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "certified restoration",
+          "context": "Go Green Restoration of NC is an IICRC-certified restoration company based in Middlesex, NC, serving",
+          "reason": "names a certification not present in brand.certifications"
+        }
+      ],
+      "published_verified_at": "2026-09-20T14:32:42Z"
+    },
+    {
+      "id": "2026-08-27-what-to-do-after-a-house-fire",
+      "status": "banked",
+      "queued_at": "2026-08-27T02:20:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to do after a house fire",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 0,
+      "fan_out_cluster": [
+        "what to do after a house fire checklist",
+        "what happens after a house fire",
+        "what to do after a total loss house fire",
+        "how to deal with insurance adjuster after a house fire",
+        "what can be salvaged after a house fire",
+        "fire restoration checklist"
+      ],
+      "suggested_slug": "what-to-do-after-a-house-fire",
+      "suggested_title": "What to do after a house fire: your first 72 hours, step by step",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/water-damage-restoration/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/",
+        "https://www.iii.org/"
+      ],
+      "notes": "Pillar post for the whole fire seed family: every other queued fire item should link back here. Lead with safety and the do-not-re-enter rule, then the insurance call, then securing the property. Cover the detail most competitors miss: firefighting water is itself a category 2 or 3 water loss, so water damage and mold risk start the same day as the fire. That is the natural bridge to the water damage restoration service page. Local angle: Go Green runs 24/7 out of Middlesex on the US-264 corridor, so name realistic response expectations for Nash and Johnston County line towns.",
+      "banked_at": "2026-09-17T22:13:26.019181+00:00"
+    },
+    {
+      "id": "2026-08-27-fire-damage-restoration-cost",
+      "status": "banked",
+      "queued_at": "2026-08-27T02:20:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "fire damage restoration cost",
+      "intent": "commercial",
+      "volume": 260,
+      "kd": 0,
+      "fan_out_cluster": [
+        "fire restoration cost per square foot",
+        "house fire debris removal cost",
+        "smoke damage restoration cost",
+        "soot removal cost",
+        "smoke odor removal cost",
+        "fire damage restoration process"
+      ],
+      "suggested_slug": "fire-damage-restoration-cost",
+      "suggested_title": "Fire damage restoration cost: what homeowners actually pay in 2026",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/air-duct-cleaning/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "air-duct-cleaning"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/standards",
+        "https://www.iii.org/"
+      ],
+      "notes": "Highest commercial-intent item in this run: KD 0 at 260 a month. Give real cost ranges broken out by phase (board up and tarping, water extraction, soot and smoke cleaning, deodorization, contents, reconstruction) rather than one national average, and state plainly which phases Go Green performs and which it does not. Note that reconstruction and general contracting are not in this client's planned services, so do not imply a full rebuild is offered. Include a per-square-foot table since 'fire restoration cost per square foot' is a live sub-query.",
+      "banked_at": "2026-09-17T22:13:26.019183+00:00"
+    },
+    {
+      "id": "2026-08-27-what-to-throw-away-after-smoke-damage",
+      "status": "banked",
+      "queued_at": "2026-08-27T02:20:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to throw away after smoke damage",
+      "intent": "informational",
+      "volume": 210,
+      "kd": 0,
+      "fan_out_cluster": [
+        "what can be salvaged after a house fire",
+        "what does smoke damage look like",
+        "what is smoke damage",
+        "smoke damage insurance claim",
+        "how to clean up smoke damage"
+      ],
+      "suggested_slug": "what-to-throw-away-after-smoke-damage",
+      "suggested_title": "What to throw away after smoke damage (and what a pro can actually save)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/carpet-cleaning/",
+        "/services/air-duct-cleaning/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "carpet-cleaning",
+        "air-duct-cleaning"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/",
+        "https://www.iicrc.org/standards"
+      ],
+      "notes": "KD 0 at 210 a month and a perfect AI-retrieval shape: build it as a scannable keep-versus-toss list by category (food and medication, mattresses and pillows, cosmetics, clothing, upholstery, electronics, dishes, wood furniture). Be direct that porous items absorbing smoke residue are usually unsalvageable while hard goods and many textiles are restorable, which is the honest case for calling a pro before bagging everything. Stress documenting every discarded item with photos before disposal because the insurer will want the inventory.",
+      "banked_at": "2026-09-17T22:13:26.019184+00:00"
+    },
+    {
+      "id": "2026-08-27-fire-damage-insurance-claim",
+      "status": "banked",
+      "queued_at": "2026-08-27T02:20:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "fire damage insurance claim",
+      "intent": "informational",
+      "volume": 210,
+      "kd": 4,
+      "fan_out_cluster": [
+        "house fire insurance claim",
+        "smoke damage insurance claim",
+        "how to deal with insurance adjuster after a house fire",
+        "what to do after a total loss house fire",
+        "how long does a fire insurance claim take",
+        "rebuilding after a house fire"
+      ],
+      "suggested_slug": "fire-damage-insurance-claim",
+      "suggested_title": "How to file a fire damage insurance claim without leaving money on the table",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/water-damage-restoration/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iii.org/",
+        "https://www.ncdoi.gov/consumers/homeowners-insurance"
+      ],
+      "notes": "Decision-stage money post: CPC 15.54 at KD 4 means people search this 24 to 48 hours before they hire anyone. Walk the claim timeline (report, adjuster visit, scope of loss, ACV advance, depreciation recovery) and explain additional living expenses, which most homeowners do not know they can claim. Use the NC Department of Insurance page for state-specific consumer rights. Position Go Green as the contractor who documents the loss for the adjuster, and be careful not to give legal advice or promise claim outcomes.",
+      "banked_at": "2026-09-17T22:13:26.019185+00:00"
+    },
+    {
+      "id": "2026-08-27-how-to-clean-smoke-damage-walls-ceiling",
+      "status": "banked",
+      "queued_at": "2026-08-27T02:20:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to clean smoke damage on walls and ceiling",
+      "intent": "informational",
+      "volume": 170,
+      "kd": 0,
+      "fan_out_cluster": [
+        "how to clean up smoke damage",
+        "what does smoke damage look like",
+        "how to get smoke smell out of house after fire",
+        "smoke damage repair",
+        "what is smoke damage",
+        "smoke odor removal cost"
+      ],
+      "suggested_slug": "how-to-clean-smoke-damage-walls-ceiling",
+      "suggested_title": "How to clean smoke damage on walls and ceiling (and when to stop and call a pro)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/air-duct-cleaning/",
+        "/services/carpet-cleaning/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "air-duct-cleaning",
+        "carpet-cleaning"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/standards",
+        "https://www.epa.gov/indoor-air-quality-iaq/should-you-have-air-ducts-your-home-cleaned"
+      ],
+      "notes": "KD 0 at 170 a month. Genuine how-to with a real stopping point: chemical sponge first and dry cleaning before any wet method, because water sets soot into a permanent stain. Distinguish the residue types (dry or protein or petroleum based) since they need different approaches. The honest hand-off is that surface cleaning does not touch odor held in the HVAC system, insulation, and framing, which is where the air duct cleaning page belongs.",
+      "banked_at": "2026-09-17T22:13:26.019186+00:00"
+    },
+    {
+      "id": "2026-09-10-homeowners-insurance-storm-damage",
+      "status": "banked",
+      "queued_at": "2026-09-10T20:25:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "homeowners insurance for storm damage",
+      "intent": "informational",
+      "volume": 590,
+      "kd": 22,
+      "fan_out_cluster": [
+        "does homeowners insurance cover storm damage",
+        "storm damage insurance coverage",
+        "storm damage insurance",
+        "what storm damage is not covered by insurance",
+        "wind driven rain vs flood damage",
+        "hurricane deductible north carolina"
+      ],
+      "suggested_slug": "homeowners-insurance-for-storm-damage",
+      "suggested_title": "Homeowners insurance for storm damage in Middlesex, NC: what is covered and what is not",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/service-areas/middlesex-nc/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": "middlesex-nc",
+      "external_authority_candidates": [
+        "https://www.ncdoi.gov/consumers/disaster/how-deal-aftermath-disaster",
+        "https://www.ncdoi.gov/documents/consumer/publications/after-disaster-brochure/open",
+        "https://www.floodsmart.gov/"
+      ],
+      "notes": "KD 22 at 590 a month, and the whole term is decision-stage: people read this before they call anyone. Do NOT rewrite the existing water damage insurance post: the storm angle is the separate-perils problem. Wind driven rain through a damaged roof is usually covered, rising surface water is not and needs a separate NFIP flood policy, and NC coastal and windstorm deductibles are a percentage of dwelling value rather than a flat number. Cite NC DOI, not a carrier blog. Link across to /blog/does-homeowners-insurance-cover-water-damage/ for the non-storm causes.",
+      "banked_at": "2026-09-24T22:24:15.040000+00:00"
+    },
+    {
+      "id": "2026-09-10-storm-damage-insurance-claim",
+      "status": "banked",
+      "queued_at": "2026-09-10T20:25:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "storm damage insurance claim",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 4,
+      "fan_out_cluster": [
+        "how to file a storm damage insurance claim",
+        "what to document for a storm damage claim",
+        "storm damage insurance claim denied",
+        "how long do i have to file a storm damage claim in nc",
+        "should i make temporary repairs before the adjuster comes",
+        "storm damage insurance claims"
+      ],
+      "suggested_slug": "storm-damage-insurance-claim",
+      "suggested_title": "How to file a storm damage insurance claim in Raleigh, NC (step by step)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/service-areas/raleigh-nc/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": "raleigh-nc",
+      "external_authority_candidates": [
+        "https://www.ncdoi.gov/consumers/disaster/how-deal-aftermath-disaster",
+        "https://www.ncdoi.gov/documents/consumer/publications/after-disaster-brochure/open"
+      ],
+      "notes": "KD 4 with a 21 dollar CPC: the ads side is paying for this intent, so own it organically. Structure as the actual sequence: photograph everything before touching it, make temporary repairs only (tarp, board up, extract standing water) and keep receipts, do not make permanent repairs until the adjuster has agreed scope. Note that mitigation is a policy DUTY, so delaying drying can reduce the payout, which is the honest reason to call fast. Same-topic siblings 'how to file a storm damage insurance claim' stay in the bank as H2s.",
+      "banked_at": "2026-09-24T22:24:15.040006+00:00"
+    },
+    {
+      "id": "2026-09-10-what-to-do-after-storm-damage",
+      "status": "banked",
+      "queued_at": "2026-09-10T20:25:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to do after storm damage to your home",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "is it safe to stay in a flooded house",
+        "how do i know if my home is safe after a storm",
+        "what to document for my insurance claim",
+        "should i hire a professional for storm damage assessment",
+        "how to prevent water damage during a storm",
+        "roof leak after storm what to do"
+      ],
+      "suggested_slug": "what-to-do-after-storm-damage",
+      "suggested_title": "What to do after storm damage to your home in Middlesex, NC (the first 24 hours)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/service-areas/middlesex-nc/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": "middlesex-nc",
+      "external_authority_candidates": [
+        "https://www.ncdoi.gov/consumers/disaster/how-deal-aftermath-disaster",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Zero measured Google volume, queued on AI-retrieval demand: this was the top decomposition ChatGPT produced for a storm damage prompt, so it is the passage an assistant lifts. Safety first and concretely: downed lines, gas smell, sagging ceilings holding water. Then document, then temporary repairs only. Distinct from /blog/what-to-do-first-24-hours-water-damage/ because the storm version has an exterior-hazard and power-outage phase before any drying starts. Ties to the US-264 corridor and the Nash and Johnston county line for response time.",
+      "banked_at": "2026-09-24T22:24:15.040009+00:00"
+    },
+    {
+      "id": "2026-09-10-how-to-dry-out-house-after-storm",
+      "status": "banked",
+      "queued_at": "2026-09-10T20:25:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to dry out a house after a storm",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "how long to dry out a house after flooding",
+        "how long after flooding does mold grow",
+        "wet drywall after storm",
+        "storm damage to ceiling",
+        "do i need to remove wet insulation",
+        "how long does storm damage restoration take"
+      ],
+      "suggested_slug": "how-to-dry-out-house-after-storm",
+      "suggested_title": "How to dry out a house after a storm in Rocky Mount, NC (and what fans alone will not fix)",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/insulation-removal-installation/",
+        "/services/mold-remediation/",
+        "/service-areas/rocky-mount-nc/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "insulation-removal-installation",
+        "mold-remediation"
+      ],
+      "city_anchor": "rocky-mount-nc",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "Rocky Mount is the right anchor: Tar River flooding history means this is a repeat local search. The honest technical spine is IICRC S500 structural drying: box fans move air but do not remove water vapor, so without dehumidification you just relocate moisture into cavities. Cover the 24 to 48 hour mold window, wet insulation as non-salvageable, and moisture readings behind drywall as the reason a dry-looking wall can still be wet. Feeds the insulation removal page naturally.",
+      "banked_at": "2026-09-17T22:13:26.019190+00:00"
+    },
+    {
+      "id": "2026-09-10-signs-of-water-intrusion-in-walls",
+      "status": "banked",
+      "queued_at": "2026-09-10T20:25:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "signs of water intrusion in walls",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "what are the signs of water intrusion in a home",
+        "how to tell if there is water behind drywall",
+        "musty smell but no visible water",
+        "bubbling paint after heavy rain",
+        "what are the risks of mold after water intrusion",
+        "storm damage to ceiling"
+      ],
+      "suggested_slug": "signs-of-water-intrusion-in-walls",
+      "suggested_title": "Signs of water intrusion in walls: what Durham, NC homeowners miss after a storm",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/blog/signs-of-hidden-mold/",
+        "/service-areas/durham-nc/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation",
+        "crawl-space-encapsulation"
+      ],
+      "city_anchor": "durham-nc",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Pulled from the ChatGPT decomposition ('what are the signs of water intrusion in my home'), no measured volume, queued as AI-retrieval fuel. Durham anchor because the older Trinity Park and Duke Park housing stock is where slow intrusion hides. Symptom-first structure so each H2 is liftable: staining and tide lines, bubbling or blistering paint, cool spots, musty odor with nothing visible, warped baseboard, crawl space humidity climbing. Complements /blog/signs-of-hidden-mold/ by staying on the water cause rather than the mold outcome.",
+      "banked_at": "2026-09-17T22:13:26.019191+00:00"
+    },
+    {
+      "id": "2026-09-24-flooded-house-insurance-north-carolina",
+      "status": "queued",
+      "queued_at": "2026-09-24T16:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "flooded house insurance",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 38,
+      "fan_out_cluster": [
+        "does homeowners insurance cover flood damage",
+        "does flood insurance cover crawl space",
+        "does renters insurance cover flood damage",
+        "should you document flood damage before cleaning up",
+        "flood damage is normally covered in a homeowners insurance policy",
+        "flood damage insurance claim steps"
+      ],
+      "suggested_slug": "flooded-house-insurance-north-carolina",
+      "suggested_title": "Flooded house insurance in North Carolina: what homeowners policies cover and when you need NFIP",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": "rocky-mount-nc",
+      "external_authority_candidates": [
+        "https://www.ncdoi.gov/consumers/homeowners-insurance/flood-insurance",
+        "https://www.floodsmart.gov/"
+      ],
+      "notes": "Rocky Mount anchor: Tar River flood history. Explain rising water vs sudden pipe water (homeowners vs NFIP). NC DOI is the source ChatGPT cites. Link to the existing water-damage insurance post, do not repeat it."
+    },
+    {
+      "id": "2026-09-24-water-damage-remediation-vs-mitigation",
+      "status": "queued",
+      "queued_at": "2026-09-24T16:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "remediation vs mitigation",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 0,
+      "fan_out_cluster": [
+        "water mitigation vs remediation",
+        "mitigation vs remediation vs restoration",
+        "water mitigation cost",
+        "what is water mitigation",
+        "flood remediation meaning"
+      ],
+      "suggested_slug": "water-damage-remediation-vs-mitigation",
+      "suggested_title": "Remediation vs mitigation: what Wilson homeowners should know after flood or water damage",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/water-cleanup/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": "wilson-nc",
+      "external_authority_candidates": [
+        "https://iicrc.org/s500/"
+      ],
+      "notes": "Define mitigation (stop and dry: extraction, drying) vs remediation (remove contamination: mold, Category 3 water) vs restoration (rebuild). Tie to insurance line items. Wilson is a wizard priority area."
+    },
+    {
+      "id": "2026-09-24-flood-damage-restoration-companies-raleigh",
+      "status": "queued",
+      "queued_at": "2026-09-24T16:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "flood damage restoration companies",
+      "intent": "commercial",
+      "volume": 720,
+      "kd": 13,
+      "fan_out_cluster": [
+        "flood damage remediation companies",
+        "flood damage restoration services",
+        "emergency flood damage restoration",
+        "flood damage cleanup near me",
+        "IICRC certified flood restoration"
+      ],
+      "suggested_slug": "flood-damage-restoration-companies-raleigh",
+      "suggested_title": "Flood damage restoration companies in Raleigh: how to pick one you can trust",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-cleanup/",
+        "/service-areas/raleigh-nc/water-cleanup/",
+        "/service-areas/raleigh-nc/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": "raleigh-nc",
+      "external_authority_candidates": [
+        "https://iicrc.org/"
+      ],
+      "notes": "Flood-specific angle only: the existing /blog/choosing-a-restoration-company/ is generic, so link to it rather than repeat it. Cover certifications, Category 3 handling, drying logs, insurance billing, local response time from the east side via US-64."
+    },
+    {
+      "id": "2026-09-24-what-damage-can-a-flood-cause",
+      "status": "banked",
+      "queued_at": "2026-09-24T16:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what damage can a flood cause",
+      "intent": "informational",
+      "volume": 320,
+      "kd": 26,
+      "fan_out_cluster": [
+        "what damage does a flood cause",
+        "flooded crawl space cleanup",
+        "wet insulation after a flood",
+        "is flood water category 3",
+        "mold after flooding"
+      ],
+      "suggested_slug": "what-damage-can-a-flood-cause",
+      "suggested_title": "What damage can a flood cause to a Zebulon home? Hidden damage beyond the waterline",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/crawl-space-encapsulation/",
+        "/services/mold-remediation/",
+        "/services/insulation-removal-installation/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "crawl-space-encapsulation",
+        "mold-remediation",
+        "insulation-removal-installation"
+      ],
+      "city_anchor": "zebulon-nc",
+      "external_authority_candidates": [
+        "https://www.fema.gov/pdf/rebuild/recover/fema_mold_brochure_english.pdf"
+      ],
+      "notes": "Walk through structure, crawl space, insulation, subfloor, HVAC ducts, electrical, and mold. Strong cross-link to the client's crawl space and insulation services (wizard goals).",
+      "banked_at": "2026-09-28T22:24:24.204021+00:00"
+    },
+    {
+      "id": "2026-09-24-cleaning-a-flooded-house",
+      "status": "banked",
+      "queued_at": "2026-09-24T16:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "cleaning a flooded house",
+      "intent": "informational",
+      "volume": 90,
+      "kd": 14,
+      "fan_out_cluster": [
+        "how to clean up a flooded house",
+        "what to throw away after a flood",
+        "how to disinfect after a flood",
+        "dehumidifier for flooded house",
+        "flooded house cleanup"
+      ],
+      "suggested_slug": "cleaning-a-flooded-house",
+      "suggested_title": "Cleaning a flooded house: a step-by-step guide for Durham homeowners",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-cleanup/",
+        "/services/water-damage-restoration/",
+        "/services/carpet-cleaning/",
+        "/blog/what-to-do-first-24-hours-water-damage/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "carpet-cleaning",
+        "mold-remediation"
+      ],
+      "city_anchor": "durham-nc",
+      "external_authority_candidates": [
+        "https://www.cdc.gov/floods/safety/index.html",
+        "https://www.fema.gov/pdf/rebuild/recover/fema_mold_brochure_english.pdf"
+      ],
+      "notes": "Safety first (power, PPE, Category 3). Document before discarding (ChatGPT lead point). Porous vs non-porous discard list. Clear point where DIY stops and a pro is needed. Durham older housing stock and crawl spaces.",
+      "banked_at": "2026-09-24T22:24:15.040011+00:00"
     }
-   ]
-  },
-  {
-   "id": "2026-09-06-att-and-crawlspace-insulation-removal-and-install",
-   "status": "published",
-   "queued_at": "2026-09-06T10:23:57Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "att-and-crawlspace-insulation-removal-and-install",
-   "primary_keyword": "Att and crawlspace insulation removal and install",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "zebulon-nc",
-   "source": "app target-term (onboarding-backfill)",
-   "written_at": "2026-09-22T15:19:30Z",
-   "post_url": "https://gogreenrestorationofnc.com/blog/att-and-crawlspace-insulation-removal-and-install/",
-   "claims_flags": [
-    {
-     "file": "src/content/blog/att-and-crawlspace-insulation-removal-and-install.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "IICRC",
-     "context": "NC** Go Green Restoration of NC is an IICRC-certified restoration and remediation c",
-     "reason": "names a certification not present in brand.certifications"
-    },
-    {
-     "file": "src/content/blog/att-and-crawlspace-insulation-removal-and-install.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "certified restoration",
-     "context": "Go Green Restoration of NC is an IICRC-certified restoration and remediation company serving Zebulon",
-     "reason": "names a certification not present in brand.certifications"
-    }
-   ],
-   "published_verified_at": "2026-09-22T15:24:23Z"
-  },
-  {
-   "id": "2026-09-06-hvac-cleaning",
-   "status": "published",
-   "queued_at": "2026-09-06T10:23:57Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "hvac-cleaning",
-   "primary_keyword": "HVAC cleaning",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "wilson-nc",
-   "source": "app target-term (onboarding-backfill)",
-   "written_at": "2026-09-24T16:26:13Z",
-   "post_url": "https://gogreenrestorationofnc.com/blog/hvac-cleaning/",
-   "published_verified_at": "2026-09-24T16:27:40Z"
-  },
-  {
-   "id": "2026-09-06-crawlspace-encapsulation",
-   "status": "queued",
-   "queued_at": "2026-09-06T10:23:57Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "crawlspace-encapsulation",
-   "primary_keyword": "crawlspace encapsulation",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "smithfield-nc",
-   "source": "app target-term (onboarding-backfill)"
-  },
-  {
-   "id": "2026-09-06-water-damage",
-   "status": "queued",
-   "queued_at": "2026-09-06T10:23:57Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "water-damage",
-   "primary_keyword": "Water Damage",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "rocky-mount-nc",
-   "source": "app target-term (onboarding-backfill)"
-  },
-  {
-   "id": "2026-08-27-water-damage-restoration-cost-nc",
-   "status": "published",
-   "queued_at": "2026-08-27T03:31:38Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "cost_guide",
-   "combo_key": "water-damage-restoration-cost-nc",
-   "primary_keyword": "water damage restoration cost NC",
-   "intent": "transactional",
-   "target_word_count": 1500,
-   "city_anchor": "middlesex-nc",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Middlesex",
-    "state": "NC",
-    "competitors": []
-   },
-   "fan_out_cluster": [
-    "how much does water damage restoration cost in NC",
-    "water damage restoration price NC",
-    "average cost of water damage restoration NC",
-    "water damage cleanup NC",
-    "water cleanup NC",
-    "water removal NC"
-   ],
-   "source": "best-of-seeder",
-   "written_at": "2026-08-31T23:15:58Z",
-   "post_url": "https://gogreenrestorationofnc.com/blog/water-damage-restoration-cost-nc/",
-   "claims_flags": [
-    {
-     "file": "src/content/blog/water-damage-restoration-cost-nc.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "nything else. **Water category.** The [IICRC S500 standard](https://www.iicrc.org) c",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/water-damage-restoration-cost-nc.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "IICRC",
-     "context": "(how much moisture got absorbed).** The IICRC also defines four classes based on evap",
-     "reason": "names a certification not present in brand.certifications"
-    }
-   ],
-   "published_verified_at": "2026-08-31T23:17:09Z"
-  },
-  {
-   "id": "2026-08-07-best-mold-remediation-in-middlesex-nc",
-   "status": "published",
-   "queued_at": "2026-08-07T03:42:52Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "best_of_comparison",
-   "combo_key": "best-mold-remediation-in-middlesex-nc",
-   "primary_keyword": "best mold remediation company in Middlesex, NC",
-   "intent": "commercial",
-   "target_word_count": 1600,
-   "city_anchor": "middlesex-nc",
-   "best_of": {
-    "service": "mold-remediation",
-    "service_pretty": "Mold Remediation",
-    "city": "Middlesex",
-    "state": "NC",
-    "competitors": [
-     {
-      "name": "Carolina Mold & Air",
-      "google_rating": 5,
-      "review_count": 11
-     },
-     {
-      "name": "NC Water And Mold",
-      "google_rating": 5,
-      "review_count": 66
-     },
-     {
-      "name": "Mold Free NC",
-      "google_rating": 5,
-      "review_count": 136
-     },
-     {
-      "name": "Glover Environmental Mold Removal",
-      "google_rating": 5,
-      "review_count": 30
-     }
-    ]
-   },
-   "fan_out_cluster": [
-    "best mold remediation companies Middlesex",
-    "top rated mold remediation Middlesex NC",
-    "who is the best mold remediation company in Middlesex",
-    "mold removal Middlesex",
-    "mold cleanup Middlesex",
-    "black mold removal Middlesex"
-   ],
-   "source": "best-of-seeder",
-   "written_at": "2026-08-27T02:25:00Z",
-   "post_url": "https://gogreenrestorationofnc.com/blog/best-mold-remediation-company-in-middlesex-nc/",
-   "claims_flags": [
-    {
-     "file": "src/content/blog/best-mold-remediation-company-in-middlesex-nc.md",
-     "part": "frontmatter",
-     "family": "certification",
-     "severity": "error",
-     "matched": "IICRC",
-     "context": "in the 27557 zip code, available 24/7, IICRC-certified, and handle the full scope of",
-     "reason": "names a certification not present in brand.certifications"
-    },
-    {
-     "file": "src/content/blog/best-mold-remediation-company-in-middlesex-nc.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "e contractors. Their crews follow the [IICRC S520 Standard for Professional Mold Rem",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/best-mold-remediation-company-in-middlesex-nc.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "IICRC",
-     "context": "gle Rating | Reviews | 24/7 Emergency | IICRC Certified | |---|---|---|---|---| | Go",
-     "reason": "names a certification not present in brand.certifications"
-    },
-    {
-     "file": "src/content/blog/best-mold-remediation-company-in-middlesex-nc.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "ook for. **Containment protocol.** The IICRC S520 standard requires physical contain",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/best-mold-remediation-company-in-middlesex-nc.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "IICRC",
-     "context": "NC** Go Green Restoration of NC is an IICRC-certified restoration company based in",
-     "reason": "names a certification not present in brand.certifications"
-    },
-    {
-     "file": "src/content/blog/best-mold-remediation-company-in-middlesex-nc.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "certified restoration",
-     "context": "Go Green Restoration of NC is an IICRC-certified restoration company based in Middlesex, NC (27557),",
-     "reason": "names a certification not present in brand.certifications"
-    },
-    {
-     "file": "src/content/blog/best-mold-remediation-company-in-middlesex-nc.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "136 reviews",
-     "context": "ree NC holds a 5.0 Google rating across 136 reviews, making them the most-reviewed company",
-     "reason": "claims 136 reviews but no synced gbpReviewCount exists for this site"
-    },
-    {
-     "file": "src/content/blog/best-mold-remediation-company-in-middlesex-nc.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "66 reviews",
-     "context": "er And Mold carries a 5.0 rating across 66 reviews. The name signals that they handle both",
-     "reason": "claims 66 reviews but no synced gbpReviewCount exists for this site"
-    },
-    {
-     "file": "src/content/blog/best-mold-remediation-company-in-middlesex-nc.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "66 reviews",
-     "context": "same problem at different stages. With 66 reviews at a perfect rating, they have demonstr",
-     "reason": "claims 66 reviews but no synced gbpReviewCount exists for this site"
-    },
-    {
-     "file": "src/content/blog/best-mold-remediation-company-in-middlesex-nc.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "30 reviews",
-     "context": "Mold Removal holds a 5.0 rating across 30 reviews. The name suggests a focus on environme",
-     "reason": "claims 30 reviews but no synced gbpReviewCount exists for this site"
-    },
-    {
-     "file": "src/content/blog/best-mold-remediation-company-in-middlesex-nc.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "11 reviews",
-     "context": "na Mold & Air holds a 5.0 rating across 11 reviews. Fewer reviews make it harder to draw f",
-     "reason": "claims 11 reviews but no synced gbpReviewCount exists for this site"
-    }
-   ],
-   "published_verified_at": "2026-08-27T02:26:09Z"
-  },
-  {
-   "id": "2026-08-09-crawl-space-encapsulation-cost",
-   "status": "banked",
-   "queued_at": "2026-08-10T00:45:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "crawl space encapsulation cost",
-   "intent": "commercial",
-   "volume": 9900,
-   "kd": null,
-   "fan_out_cluster": [
-    "how much does it cost to encapsulate a crawl space",
-    "crawl space encapsulation cost per square foot",
-    "crawl space vapor barrier cost",
-    "crawl space dehumidifier cost",
-    "crawl space encapsulation cost calculator",
-    "negatives to crawl space encapsulation"
-   ],
-   "suggested_slug": "crawl-space-encapsulation-cost",
-   "suggested_title": "Crawl Space Encapsulation Cost in North Carolina: What Homeowners Actually Pay",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/crawl-space-encapsulation/",
-    "/service-areas/durham-nc/crawl-space-encapsulation/",
-    "/service-areas/raleigh-nc/crawl-space-encapsulation/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "crawl-space-encapsulation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/mold-course-chapter-2"
-   ],
-   "notes": "Flagship cost guide: 9,900/mo national, $24.35 CPC, top CPC tier for this service. Give national ranges then anchor to the housing stock we serve: older homes around Durham's Trinity Park and Duke Park bring frequent crawl space moisture calls, and Zebulon's rural properties are typically well-and-crawl-space homes (both per plan-input local notes). Break out cost per square foot, vapor barrier only vs full encapsulation, and dehumidifier add-on.",
-   "source": "keyword-researcher",
-   "banked_at": "2026-09-17T22:13:47.795194+00:00"
-  },
-  {
-   "id": "2026-08-09-mold-remediation-cost",
-   "status": "banked",
-   "queued_at": "2026-08-10T00:46:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "mold remediation cost",
-   "intent": "commercial",
-   "volume": 9900,
-   "kd": 3,
-   "fan_out_cluster": [
-    "mold removal cost",
-    "average cost of mold remediation",
-    "crawl space mold removal cost",
-    "black mold removal cost",
-    "mold remediation cost per square foot"
-   ],
-   "suggested_slug": "mold-remediation-cost",
-   "suggested_title": "Mold Remediation Cost in Raleigh, NC: What Homeowners Actually Pay",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/service-areas/raleigh-nc/mold-remediation/",
-    "/blog/how-to-test-for-mold/",
-    "/blog/signs-of-hidden-mold/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "mold-remediation"
-   ],
-   "city_anchor": "raleigh-nc",
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/mold-cleanup-your-home"
-   ],
-   "notes": "Highest-volume mold cost guide (9,900/mo, KD 3, $23 CPC). National ranges first, then Raleigh-area factors: humid summers, crawl space and attic jobs, containment and clearance testing. Cross-link the existing mold testing and hidden mold posts.",
-   "source": "keyword-researcher",
-   "banked_at": "2026-09-17T22:13:47.795198+00:00"
-  },
-  {
-   "id": "2026-08-09-air-duct-cleaning-cost",
-   "status": "banked",
-   "queued_at": "2026-08-10T00:47:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "air duct cleaning cost",
-   "intent": "commercial",
-   "volume": 9900,
-   "kd": null,
-   "fan_out_cluster": [
-    "average air duct cleaning cost",
-    "air duct cleaning prices",
-    "air duct cleaning cost per vent",
-    "is air duct cleaning worth it",
-    "signs your air ducts need cleaning"
-   ],
-   "suggested_slug": "air-duct-cleaning-cost",
-   "suggested_title": "Air Duct Cleaning Cost in Raleigh, NC: Fair Prices and the Scams to Avoid",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/air-duct-cleaning/",
-    "/service-areas/raleigh-nc/air-duct-cleaning/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "air-duct-cleaning"
-   ],
-   "city_anchor": "raleigh-nc",
-   "external_authority_candidates": [
-    "https://www.epa.gov/indoor-air-quality-iaq/should-you-have-air-ducts-your-home-cleaned"
-   ],
-   "notes": "9,900/mo national, $13 CPC. This niche is full of $99 bait-and-switch coupon operators, so a straight-talk pricing guide builds trust. Reference the EPA guidance on when duct cleaning is and is not worthwhile. Do not promise health outcomes.",
-   "source": "keyword-researcher",
-   "banked_at": "2026-09-17T22:13:47.795202+00:00"
-  },
-  {
-   "id": "2026-08-09-attic-insulation-cost",
-   "status": "banked",
-   "queued_at": "2026-08-10T00:48:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "attic insulation cost",
-   "intent": "commercial",
-   "volume": 9900,
-   "kd": null,
-   "fan_out_cluster": [
-    "blown in insulation cost",
-    "insulation removal cost",
-    "cost to insulate an attic",
-    "spray foam vs blown in insulation cost",
-    "when to replace attic insulation"
-   ],
-   "suggested_slug": "attic-insulation-cost",
-   "suggested_title": "Attic Insulation Cost in Wake Forest, NC: Removal, Replacement, and R-Value Math",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/insulation-removal-installation/",
-    "/service-areas/wake-forest-nc/insulation-removal-installation/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "insulation-removal-installation"
-   ],
-   "city_anchor": "wake-forest-nc",
-   "external_authority_candidates": [
-    "https://www.energy.gov/energysaver/insulation"
-   ],
-   "notes": "9,900/mo national, $10 CPC. Anchor to Wake Forest where fast-growing subdivisions make attic insulation and duct work common projects (per plan-input local notes). Cover removal cost separately (390/mo for insulation removal cost): old, damp, or pest-contaminated insulation is the removal trigger in this climate.",
-   "source": "keyword-researcher",
-   "banked_at": "2026-09-17T22:13:47.795203+00:00"
-  },
-  {
-   "id": "2026-08-09-mold-inspection-cost",
-   "status": "banked",
-   "queued_at": "2026-08-10T00:49:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "mold inspection cost",
-   "intent": "commercial",
-   "volume": 5400,
-   "kd": null,
-   "fan_out_cluster": [
-    "mold testing cost",
-    "air quality mold test cost",
-    "is a mold inspection worth it",
-    "what does a mold inspector check"
-   ],
-   "suggested_slug": "mold-inspection-cost",
-   "suggested_title": "Mold Inspection Cost in Durham, NC: What You Get for the Money",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/service-areas/durham-nc/mold-remediation/",
-    "/blog/how-to-test-for-mold/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "mold-remediation"
-   ],
-   "city_anchor": "durham-nc",
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/mold-cleanup-your-home"
-   ],
-   "notes": "5,400/mo national, $14 CPC. Anchor to Durham where older housing stock around Trinity Park and Duke Park drives moisture and mold calls (per plan-input local notes). Distinguish inspection vs testing vs remediation quotes. Cross-link the existing DIY-vs-pro mold testing post instead of repeating it.",
-   "source": "keyword-researcher",
-   "banked_at": "2026-09-17T22:13:47.795204+00:00"
-  },
-  {
-   "id": "2026-08-09-carpet-cleaning-cost",
-   "status": "banked",
-   "queued_at": "2026-08-10T00:50:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "carpet cleaning cost",
-   "intent": "commercial",
-   "volume": 5400,
-   "kd": null,
-   "fan_out_cluster": [
-    "professional carpet cleaning prices",
-    "carpet cleaning cost per room",
-    "how long does carpet take to dry after cleaning",
-    "how often should carpets be professionally cleaned"
-   ],
-   "suggested_slug": "carpet-cleaning-cost",
-   "suggested_title": "Carpet Cleaning Cost in Raleigh, NC: Per-Room Pricing Explained",
-   "target_word_count": 1300,
-   "internal_link_targets": [
-    "/services/carpet-cleaning/",
-    "/service-areas/raleigh-nc/carpet-cleaning/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "carpet-cleaning"
-   ],
-   "city_anchor": "raleigh-nc",
-   "external_authority_candidates": [],
-   "notes": "5,400/mo national plus 1,600/mo for carpet cleaning raleigh shows real metro demand. Per-room vs per-square-foot pricing, hot water extraction vs low-moisture, and why dry times matter in humid summers. Keep claims to process and pricing.",
-   "source": "keyword-researcher",
-   "banked_at": "2026-09-17T22:13:47.795205+00:00"
-  },
-  {
-   "id": "2026-08-09-water-damage-restoration-cost",
-   "status": "banked",
-   "queued_at": "2026-08-10T00:51:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "water damage restoration cost",
-   "intent": "commercial",
-   "volume": 880,
-   "kd": 3,
-   "fan_out_cluster": [
-    "water damage repair cost",
-    "water mitigation cost",
-    "cost to dry out a house after a leak",
-    "water damage restoration cost per square foot"
-   ],
-   "suggested_slug": "water-damage-restoration-cost",
-   "suggested_title": "Water Damage Restoration Cost in Eastern North Carolina: A Straight Answer",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/blog/does-homeowners-insurance-cover-water-damage/",
-    "/blog/how-long-does-water-damage-restoration-take/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "880/mo, KD 3, $20 CPC. Category and class drive price: explain Cat 1 vs Cat 3 and drying scope. Region angle is groundable from plan-input: Tar River flooding history around Rocky Mount and storm-driven intrusions near the Neuse in Smithfield make storm-season claims a recurring cost question. Cross-link both existing water damage posts.",
-   "source": "keyword-researcher",
-   "banked_at": "2026-09-17T22:13:47.795206+00:00"
-  },
-  {
-   "id": "2026-08-09-does-homeowners-insurance-cover-mold",
-   "status": "banked",
-   "queued_at": "2026-08-10T00:52:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "does homeowners insurance cover mold",
-   "intent": "informational",
-   "volume": 5400,
-   "kd": 11,
-   "fan_out_cluster": [
-    "does homeowners insurance cover mold remediation",
-    "when does insurance deny mold claims",
-    "mold from a water leak insurance claim",
-    "how to document a mold claim"
-   ],
-   "suggested_slug": "does-homeowners-insurance-cover-mold",
-   "suggested_title": "Does Homeowners Insurance Cover Mold? A Plain-English Guide for NC Homeowners",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/blog/does-homeowners-insurance-cover-water-damage/",
-    "/blog/signs-of-hidden-mold/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "mold-remediation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iii.org/article/will-homeowners-insurance-cover-mold"
-   ],
-   "notes": "5,400/mo, KD 11, $12.57 CPC. Companion to the existing water damage insurance post: link it early and keep the two distinct (this one is mold-specific: sudden-event coverage vs excluded slow leaks and humidity neglect). No legal or coverage guarantees, always point to the policy.",
-   "source": "keyword-researcher",
-   "banked_at": "2026-09-17T22:13:47.795207+00:00"
-  },
-  {
-   "id": "2026-08-09-mold-in-air-ducts",
-   "status": "banked",
-   "queued_at": "2026-08-10T00:53:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "mold in air ducts",
-   "intent": "informational",
-   "volume": 3600,
-   "kd": 2,
-   "fan_out_cluster": [
-    "black mold in air vents",
-    "signs of mold in air ducts",
-    "can mold in air ducts make you sick",
-    "how to get rid of mold in air ducts",
-    "musty smell from vents"
-   ],
-   "suggested_slug": "mold-in-air-ducts",
-   "suggested_title": "Mold in Air Ducts: Signs, Causes, and What to Do About It",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/air-duct-cleaning/",
-    "/services/mold-remediation/",
-    "/blog/black-mold-vs-regular-mold/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "air-duct-cleaning",
-    "mold-remediation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.epa.gov/indoor-air-quality-iaq/should-you-have-air-ducts-your-home-cleaned"
-   ],
-   "notes": "3,600/mo, KD 2, $20.69 CPC, and it bridges two of the client's services (duct cleaning + mold remediation). Humid-climate condensation in ductwork is the mechanism. Health claims stay cautious and cite EPA. Cross-link black mold vs regular mold.",
-   "source": "keyword-researcher",
-   "banked_at": "2026-09-17T22:13:47.795208+00:00"
-  },
-  {
-   "id": "2026-08-09-mold-in-crawl-space",
-   "status": "banked",
-   "queued_at": "2026-08-10T00:54:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "mold in crawl space",
-   "intent": "informational",
-   "volume": 1300,
-   "kd": null,
-   "fan_out_cluster": [
-    "how to get rid of mold in crawl space",
-    "can mold in crawl space affect upstairs",
-    "musty smell in crawl space",
-    "white mold on floor joists",
-    "crawl space mold prevention"
-   ],
-   "suggested_slug": "mold-in-crawl-space",
-   "suggested_title": "Mold in Crawl Space: Why Eastern NC Homes Get It and How to Stop It",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/services/crawl-space-encapsulation/",
-    "/blog/signs-of-hidden-mold/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "mold-remediation",
-    "crawl-space-encapsulation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/mold-course-chapter-2"
-   ],
-   "notes": "1,300/mo, $19.76 CPC. The natural bridge post from mold remediation to crawl space encapsulation. Groundable local hooks from plan-input: older Durham housing stock brings frequent crawl space moisture calls, Wilson's humid summers drive encapsulation demand, Zebulon homes typically sit on crawl spaces. Stack-effect explanation for the upstairs question.",
-   "source": "keyword-researcher",
-   "banked_at": "2026-09-17T22:13:47.795210+00:00"
-  },
-  {
-   "id": "2026-08-09-how-to-lower-humidity-in-house",
-   "status": "banked",
-   "queued_at": "2026-08-10T00:55:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "how to lower humidity in house",
-   "intent": "informational",
-   "volume": 8100,
-   "kd": 11,
-   "fan_out_cluster": [
-    "why is my house so humid",
-    "what should indoor humidity be",
-    "why is my house humid with ac on",
-    "can a wet crawl space raise indoor humidity",
-    "dehumidifier vs crawl space encapsulation"
-   ],
-   "suggested_slug": "how-to-lower-humidity-in-house",
-   "suggested_title": "How to Lower Humidity in House: A Guide for Sticky Eastern NC Summers",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/crawl-space-encapsulation/",
-    "/services/air-duct-cleaning/",
-    "/blog/signs-of-hidden-mold/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "crawl-space-encapsulation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/mold-course-chapter-2"
-   ],
-   "notes": "8,100/mo with a clear summer peak (12,100 in June), KD 11. Low CPC but big AI-answer surface. The differentiated angle vs national listicles: the crawl space is the humidity source most NC guides skip. Funnel to encapsulation without overselling; keep the 30 to 50 percent indoor RH guidance sourced to EPA.",
-   "source": "keyword-researcher",
-   "banked_at": "2026-09-17T22:13:47.795211+00:00"
-  },
-  {
-   "id": "2026-08-09-is-crawl-space-encapsulation-worth-it",
-   "status": "banked",
-   "queued_at": "2026-08-10T00:56:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "is crawl space encapsulation worth it",
-   "intent": "informational",
-   "volume": 140,
-   "kd": null,
-   "fan_out_cluster": [
-    "negatives to crawl space encapsulation",
-    "alternatives to crawl space encapsulation",
-    "crawl space encapsulation mistakes",
-    "vapor barrier vs full encapsulation",
-    "does encapsulation lower indoor humidity"
-   ],
-   "suggested_slug": "is-crawl-space-encapsulation-worth-it",
-   "suggested_title": "Is Crawl Space Encapsulation Worth It? An Honest Answer for NC Homeowners",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/crawl-space-encapsulation/",
-    "/blog/crawl-space-encapsulation-cost/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "crawl-space-encapsulation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/mold-course-chapter-2"
-   ],
-   "notes": "140/mo but $22.35 CPC and the negatives variant adds 320/mo: decision-stage searchers about to spend thousands. Answer honestly including when encapsulation is NOT worth it (dry lots, slab additions), which is what wins AI citations. Link the cost guide once it publishes (target slug crawl-space-encapsulation-cost).",
-   "source": "keyword-researcher",
-   "banked_at": "2026-09-17T22:13:47.795212+00:00"
-  },
-  {
-   "id": "2026-08-09-water-in-crawl-space-after-heavy-rain",
-   "status": "published",
-   "queued_at": "2026-08-10T00:57:00Z",
-   "written_at": "2026-09-18T11:47:36Z",
-   "post_url": "https://gogreenrestorationofnc.com/blog/water-in-crawl-space-after-heavy-rain/",
-   "priority": 1,
-   "primary_keyword": "water in crawl space after heavy rain",
-   "intent": "informational",
-   "volume": 170,
-   "kd": null,
-   "fan_out_cluster": [
-    "how to dry out a crawl space",
-    "why is my crawl space wet",
-    "standing water in crawl space",
-    "what to check in your crawl space after a storm",
-    "sump pump for crawl space"
-   ],
-   "suggested_slug": "water-in-crawl-space-after-heavy-rain",
-   "suggested_title": "Water in Crawl Space After Heavy Rain: What to Do Before Mold Moves In",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/crawl-space-encapsulation/",
-    "/blog/what-to-do-first-24-hours-water-damage/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "crawl-space-encapsulation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/mold-course-chapter-2"
-   ],
-   "notes": "170/mo, $21.86 CPC, hurricane-season timing. Groundable region hooks from plan-input: Tar River flooding history at Rocky Mount and storm-driven water intrusions along low-lying streets near the Neuse in Smithfield. Storm checklist format (drainage, vapor barrier, wet insulation, drying), then when to call a pro.",
-   "source": "keyword-researcher",
-   "claims_flags": [
-    {
-     "file": "src/content/blog/water-in-crawl-space-after-heavy-rain.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "IICRC",
-     "context": "NC** Go Green Restoration of NC is an IICRC-certified restoration company based in",
-     "reason": "names a certification not present in brand.certifications"
-    },
-    {
-     "file": "src/content/blog/water-in-crawl-space-after-heavy-rain.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "certified restoration",
-     "context": "Go Green Restoration of NC is an IICRC-certified restoration company based in Middlesex, NC, serving",
-     "reason": "names a certification not present in brand.certifications"
-    }
-   ],
-   "published_verified_at": "2026-09-18T11:48:52Z"
-  },
-  {
-   "id": "2026-08-09-how-fast-does-mold-grow-after-water-damage",
-   "status": "published",
-   "queued_at": "2026-08-10T00:58:00Z",
-   "written_at": "2026-09-20T14:31:23Z",
-   "post_url": "https://gogreenrestorationofnc.com/blog/how-fast-does-mold-grow-after-water-damage/",
-   "priority": 1,
-   "primary_keyword": "how fast does mold grow after water damage",
-   "intent": "informational",
-   "volume": 110,
-   "kd": 1,
-   "fan_out_cluster": [
-    "mold growth timeline after a leak",
-    "can mold grow in 24 hours",
-    "how to prevent mold after flooding",
-    "how long before mold sets in after a flood"
-   ],
-   "suggested_slug": "how-fast-does-mold-grow-after-water-damage",
-   "suggested_title": "How Fast Does Mold Grow After Water Damage? The 24-48 Hour Window",
-   "target_word_count": 1300,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/services/water-damage-restoration/",
-    "/blog/what-to-do-first-24-hours-water-damage/",
-    "/blog/how-long-does-water-damage-restoration-take/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "mold-remediation",
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/mold-cleanup-your-home",
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "110/mo, KD 1, cheap win with high urgency intent. The EPA 24-48 hour guidance is the citable core. NC humidity accelerates the timeline argument stays qualitative, no invented local stats. Cross-link the first-24-hours checklist post as the action companion.",
-   "source": "keyword-researcher",
-   "claims_flags": [
-    {
-     "file": "src/content/blog/how-fast-does-mold-grow-after-water-damage.md",
-     "part": "frontmatter",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "hour window is the standard used by the IICRC S500 to define how quickly professional",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/how-fast-does-mold-grow-after-water-damage.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "nce from the EPA and the basis for the [IICRC S500 standard](https://www.iicrc.org/pa",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/how-fast-does-mold-grow-after-water-damage.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "e meter gives you an actual number. The IICRC S500 standard defines acceptable moistu",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/how-fast-does-mold-grow-after-water-damage.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "IICRC",
-     "context": "NC** Go Green Restoration of NC is an IICRC-certified restoration company based in",
-     "reason": "names a certification not present in brand.certifications"
-    },
-    {
-     "file": "src/content/blog/how-fast-does-mold-grow-after-water-damage.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "certified restoration",
-     "context": "Go Green Restoration of NC is an IICRC-certified restoration company based in Middlesex, NC, serving",
-     "reason": "names a certification not present in brand.certifications"
-    }
-   ],
-   "published_verified_at": "2026-09-20T14:32:42Z"
-  },
-  {
-   "id": "2026-08-27-what-to-do-after-a-house-fire",
-   "status": "banked",
-   "queued_at": "2026-08-27T02:20:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "what to do after a house fire",
-   "intent": "informational",
-   "volume": 260,
-   "kd": 0,
-   "fan_out_cluster": [
-    "what to do after a house fire checklist",
-    "what happens after a house fire",
-    "what to do after a total loss house fire",
-    "how to deal with insurance adjuster after a house fire",
-    "what can be salvaged after a house fire",
-    "fire restoration checklist"
-   ],
-   "suggested_slug": "what-to-do-after-a-house-fire",
-   "suggested_title": "What to do after a house fire: your first 72 hours, step by step",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/fire-damage-restoration/",
-    "/services/water-damage-restoration/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "fire-damage-restoration",
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/",
-    "https://www.iii.org/"
-   ],
-   "notes": "Pillar post for the whole fire seed family: every other queued fire item should link back here. Lead with safety and the do-not-re-enter rule, then the insurance call, then securing the property. Cover the detail most competitors miss: firefighting water is itself a category 2 or 3 water loss, so water damage and mold risk start the same day as the fire. That is the natural bridge to the water damage restoration service page. Local angle: Go Green runs 24/7 out of Middlesex on the US-264 corridor, so name realistic response expectations for Nash and Johnston County line towns.",
-   "banked_at": "2026-09-17T22:13:26.019181+00:00"
-  },
-  {
-   "id": "2026-08-27-fire-damage-restoration-cost",
-   "status": "banked",
-   "queued_at": "2026-08-27T02:20:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "fire damage restoration cost",
-   "intent": "commercial",
-   "volume": 260,
-   "kd": 0,
-   "fan_out_cluster": [
-    "fire restoration cost per square foot",
-    "house fire debris removal cost",
-    "smoke damage restoration cost",
-    "soot removal cost",
-    "smoke odor removal cost",
-    "fire damage restoration process"
-   ],
-   "suggested_slug": "fire-damage-restoration-cost",
-   "suggested_title": "Fire damage restoration cost: what homeowners actually pay in 2026",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/fire-damage-restoration/",
-    "/services/air-duct-cleaning/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "fire-damage-restoration",
-    "air-duct-cleaning"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/standards",
-    "https://www.iii.org/"
-   ],
-   "notes": "Highest commercial-intent item in this run: KD 0 at 260 a month. Give real cost ranges broken out by phase (board up and tarping, water extraction, soot and smoke cleaning, deodorization, contents, reconstruction) rather than one national average, and state plainly which phases Go Green performs and which it does not. Note that reconstruction and general contracting are not in this client's planned services, so do not imply a full rebuild is offered. Include a per-square-foot table since 'fire restoration cost per square foot' is a live sub-query.",
-   "banked_at": "2026-09-17T22:13:26.019183+00:00"
-  },
-  {
-   "id": "2026-08-27-what-to-throw-away-after-smoke-damage",
-   "status": "banked",
-   "queued_at": "2026-08-27T02:20:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "what to throw away after smoke damage",
-   "intent": "informational",
-   "volume": 210,
-   "kd": 0,
-   "fan_out_cluster": [
-    "what can be salvaged after a house fire",
-    "what does smoke damage look like",
-    "what is smoke damage",
-    "smoke damage insurance claim",
-    "how to clean up smoke damage"
-   ],
-   "suggested_slug": "what-to-throw-away-after-smoke-damage",
-   "suggested_title": "What to throw away after smoke damage (and what a pro can actually save)",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/fire-damage-restoration/",
-    "/services/carpet-cleaning/",
-    "/services/air-duct-cleaning/"
-   ],
-   "service_tags": [
-    "fire-damage-restoration",
-    "carpet-cleaning",
-    "air-duct-cleaning"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/",
-    "https://www.iicrc.org/standards"
-   ],
-   "notes": "KD 0 at 210 a month and a perfect AI-retrieval shape: build it as a scannable keep-versus-toss list by category (food and medication, mattresses and pillows, cosmetics, clothing, upholstery, electronics, dishes, wood furniture). Be direct that porous items absorbing smoke residue are usually unsalvageable while hard goods and many textiles are restorable, which is the honest case for calling a pro before bagging everything. Stress documenting every discarded item with photos before disposal because the insurer will want the inventory.",
-   "banked_at": "2026-09-17T22:13:26.019184+00:00"
-  },
-  {
-   "id": "2026-08-27-fire-damage-insurance-claim",
-   "status": "banked",
-   "queued_at": "2026-08-27T02:20:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "fire damage insurance claim",
-   "intent": "informational",
-   "volume": 210,
-   "kd": 4,
-   "fan_out_cluster": [
-    "house fire insurance claim",
-    "smoke damage insurance claim",
-    "how to deal with insurance adjuster after a house fire",
-    "what to do after a total loss house fire",
-    "how long does a fire insurance claim take",
-    "rebuilding after a house fire"
-   ],
-   "suggested_slug": "fire-damage-insurance-claim",
-   "suggested_title": "How to file a fire damage insurance claim without leaving money on the table",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/fire-damage-restoration/",
-    "/services/water-damage-restoration/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "fire-damage-restoration",
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iii.org/",
-    "https://www.ncdoi.gov/consumers/homeowners-insurance"
-   ],
-   "notes": "Decision-stage money post: CPC 15.54 at KD 4 means people search this 24 to 48 hours before they hire anyone. Walk the claim timeline (report, adjuster visit, scope of loss, ACV advance, depreciation recovery) and explain additional living expenses, which most homeowners do not know they can claim. Use the NC Department of Insurance page for state-specific consumer rights. Position Go Green as the contractor who documents the loss for the adjuster, and be careful not to give legal advice or promise claim outcomes.",
-   "banked_at": "2026-09-17T22:13:26.019185+00:00"
-  },
-  {
-   "id": "2026-08-27-how-to-clean-smoke-damage-walls-ceiling",
-   "status": "banked",
-   "queued_at": "2026-08-27T02:20:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "how to clean smoke damage on walls and ceiling",
-   "intent": "informational",
-   "volume": 170,
-   "kd": 0,
-   "fan_out_cluster": [
-    "how to clean up smoke damage",
-    "what does smoke damage look like",
-    "how to get smoke smell out of house after fire",
-    "smoke damage repair",
-    "what is smoke damage",
-    "smoke odor removal cost"
-   ],
-   "suggested_slug": "how-to-clean-smoke-damage-walls-ceiling",
-   "suggested_title": "How to clean smoke damage on walls and ceiling (and when to stop and call a pro)",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/fire-damage-restoration/",
-    "/services/air-duct-cleaning/",
-    "/services/carpet-cleaning/"
-   ],
-   "service_tags": [
-    "fire-damage-restoration",
-    "air-duct-cleaning",
-    "carpet-cleaning"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/standards",
-    "https://www.epa.gov/indoor-air-quality-iaq/should-you-have-air-ducts-your-home-cleaned"
-   ],
-   "notes": "KD 0 at 170 a month. Genuine how-to with a real stopping point: chemical sponge first and dry cleaning before any wet method, because water sets soot into a permanent stain. Distinguish the residue types (dry or protein or petroleum based) since they need different approaches. The honest hand-off is that surface cleaning does not touch odor held in the HVAC system, insulation, and framing, which is where the air duct cleaning page belongs.",
-   "banked_at": "2026-09-17T22:13:26.019186+00:00"
-  },
-  {
-   "id": "2026-09-10-homeowners-insurance-storm-damage",
-   "status": "banked",
-   "queued_at": "2026-09-10T20:25:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "homeowners insurance for storm damage",
-   "intent": "informational",
-   "volume": 590,
-   "kd": 22,
-   "fan_out_cluster": [
-    "does homeowners insurance cover storm damage",
-    "storm damage insurance coverage",
-    "storm damage insurance",
-    "what storm damage is not covered by insurance",
-    "wind driven rain vs flood damage",
-    "hurricane deductible north carolina"
-   ],
-   "suggested_slug": "homeowners-insurance-for-storm-damage",
-   "suggested_title": "Homeowners insurance for storm damage in Middlesex, NC: what is covered and what is not",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/blog/does-homeowners-insurance-cover-water-damage/",
-    "/service-areas/middlesex-nc/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "mold-remediation"
-   ],
-   "city_anchor": "middlesex-nc",
-   "external_authority_candidates": [
-    "https://www.ncdoi.gov/consumers/disaster/how-deal-aftermath-disaster",
-    "https://www.ncdoi.gov/documents/consumer/publications/after-disaster-brochure/open",
-    "https://www.floodsmart.gov/"
-   ],
-   "notes": "KD 22 at 590 a month, and the whole term is decision-stage: people read this before they call anyone. Do NOT rewrite the existing water damage insurance post: the storm angle is the separate-perils problem. Wind driven rain through a damaged roof is usually covered, rising surface water is not and needs a separate NFIP flood policy, and NC coastal and windstorm deductibles are a percentage of dwelling value rather than a flat number. Cite NC DOI, not a carrier blog. Link across to /blog/does-homeowners-insurance-cover-water-damage/ for the non-storm causes.",
-   "banked_at": "2026-09-24T22:24:15.040000+00:00"
-  },
-  {
-   "id": "2026-09-10-storm-damage-insurance-claim",
-   "status": "banked",
-   "queued_at": "2026-09-10T20:25:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "storm damage insurance claim",
-   "intent": "informational",
-   "volume": 260,
-   "kd": 4,
-   "fan_out_cluster": [
-    "how to file a storm damage insurance claim",
-    "what to document for a storm damage claim",
-    "storm damage insurance claim denied",
-    "how long do i have to file a storm damage claim in nc",
-    "should i make temporary repairs before the adjuster comes",
-    "storm damage insurance claims"
-   ],
-   "suggested_slug": "storm-damage-insurance-claim",
-   "suggested_title": "How to file a storm damage insurance claim in Raleigh, NC (step by step)",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/blog/does-homeowners-insurance-cover-water-damage/",
-    "/service-areas/raleigh-nc/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "mold-remediation"
-   ],
-   "city_anchor": "raleigh-nc",
-   "external_authority_candidates": [
-    "https://www.ncdoi.gov/consumers/disaster/how-deal-aftermath-disaster",
-    "https://www.ncdoi.gov/documents/consumer/publications/after-disaster-brochure/open"
-   ],
-   "notes": "KD 4 with a 21 dollar CPC: the ads side is paying for this intent, so own it organically. Structure as the actual sequence: photograph everything before touching it, make temporary repairs only (tarp, board up, extract standing water) and keep receipts, do not make permanent repairs until the adjuster has agreed scope. Note that mitigation is a policy DUTY, so delaying drying can reduce the payout, which is the honest reason to call fast. Same-topic siblings 'how to file a storm damage insurance claim' stay in the bank as H2s.",
-   "banked_at": "2026-09-24T22:24:15.040006+00:00"
-  },
-  {
-   "id": "2026-09-10-what-to-do-after-storm-damage",
-   "status": "banked",
-   "queued_at": "2026-09-10T20:25:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "what to do after storm damage to your home",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "is it safe to stay in a flooded house",
-    "how do i know if my home is safe after a storm",
-    "what to document for my insurance claim",
-    "should i hire a professional for storm damage assessment",
-    "how to prevent water damage during a storm",
-    "roof leak after storm what to do"
-   ],
-   "suggested_slug": "what-to-do-after-storm-damage",
-   "suggested_title": "What to do after storm damage to your home in Middlesex, NC (the first 24 hours)",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/service-areas/middlesex-nc/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "mold-remediation"
-   ],
-   "city_anchor": "middlesex-nc",
-   "external_authority_candidates": [
-    "https://www.ncdoi.gov/consumers/disaster/how-deal-aftermath-disaster",
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Zero measured Google volume, queued on AI-retrieval demand: this was the top decomposition ChatGPT produced for a storm damage prompt, so it is the passage an assistant lifts. Safety first and concretely: downed lines, gas smell, sagging ceilings holding water. Then document, then temporary repairs only. Distinct from /blog/what-to-do-first-24-hours-water-damage/ because the storm version has an exterior-hazard and power-outage phase before any drying starts. Ties to the US-264 corridor and the Nash and Johnston county line for response time.",
-   "banked_at": "2026-09-24T22:24:15.040009+00:00"
-  },
-  {
-   "id": "2026-09-10-how-to-dry-out-house-after-storm",
-   "status": "banked",
-   "queued_at": "2026-09-10T20:25:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "how to dry out a house after a storm",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "how long to dry out a house after flooding",
-    "how long after flooding does mold grow",
-    "wet drywall after storm",
-    "storm damage to ceiling",
-    "do i need to remove wet insulation",
-    "how long does storm damage restoration take"
-   ],
-   "suggested_slug": "how-to-dry-out-house-after-storm",
-   "suggested_title": "How to dry out a house after a storm in Rocky Mount, NC (and what fans alone will not fix)",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/insulation-removal-installation/",
-    "/services/mold-remediation/",
-    "/service-areas/rocky-mount-nc/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "insulation-removal-installation",
-    "mold-remediation"
-   ],
-   "city_anchor": "rocky-mount-nc",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500",
-    "https://www.epa.gov/mold/mold-cleanup-your-home"
-   ],
-   "notes": "Rocky Mount is the right anchor: Tar River flooding history means this is a repeat local search. The honest technical spine is IICRC S500 structural drying: box fans move air but do not remove water vapor, so without dehumidification you just relocate moisture into cavities. Cover the 24 to 48 hour mold window, wet insulation as non-salvageable, and moisture readings behind drywall as the reason a dry-looking wall can still be wet. Feeds the insulation removal page naturally.",
-   "banked_at": "2026-09-17T22:13:26.019190+00:00"
-  },
-  {
-   "id": "2026-09-10-signs-of-water-intrusion-in-walls",
-   "status": "banked",
-   "queued_at": "2026-09-10T20:25:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "signs of water intrusion in walls",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "what are the signs of water intrusion in a home",
-    "how to tell if there is water behind drywall",
-    "musty smell but no visible water",
-    "bubbling paint after heavy rain",
-    "what are the risks of mold after water intrusion",
-    "storm damage to ceiling"
-   ],
-   "suggested_slug": "signs-of-water-intrusion-in-walls",
-   "suggested_title": "Signs of water intrusion in walls: what Durham, NC homeowners miss after a storm",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/blog/signs-of-hidden-mold/",
-    "/service-areas/durham-nc/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "mold-remediation",
-    "crawl-space-encapsulation"
-   ],
-   "city_anchor": "durham-nc",
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/mold-cleanup-your-home",
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Pulled from the ChatGPT decomposition ('what are the signs of water intrusion in my home'), no measured volume, queued as AI-retrieval fuel. Durham anchor because the older Trinity Park and Duke Park housing stock is where slow intrusion hides. Symptom-first structure so each H2 is liftable: staining and tide lines, bubbling or blistering paint, cool spots, musty odor with nothing visible, warped baseboard, crawl space humidity climbing. Complements /blog/signs-of-hidden-mold/ by staying on the water cause rather than the mold outcome.",
-   "banked_at": "2026-09-17T22:13:26.019191+00:00"
-  },
-  {
-   "id": "2026-09-24-flooded-house-insurance-north-carolina",
-   "status": "queued",
-   "queued_at": "2026-09-24T16:30:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "flooded house insurance",
-   "intent": "informational",
-   "volume": 1000,
-   "kd": 38,
-   "fan_out_cluster": [
-    "does homeowners insurance cover flood damage",
-    "does flood insurance cover crawl space",
-    "does renters insurance cover flood damage",
-    "should you document flood damage before cleaning up",
-    "flood damage is normally covered in a homeowners insurance policy",
-    "flood damage insurance claim steps"
-   ],
-   "suggested_slug": "flooded-house-insurance-north-carolina",
-   "suggested_title": "Flooded house insurance in North Carolina: what homeowners policies cover and when you need NFIP",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/water-cleanup/",
-    "/blog/does-homeowners-insurance-cover-water-damage/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "mold-remediation"
-   ],
-   "city_anchor": "rocky-mount-nc",
-   "external_authority_candidates": [
-    "https://www.ncdoi.gov/consumers/homeowners-insurance/flood-insurance",
-    "https://www.floodsmart.gov/"
-   ],
-   "notes": "Rocky Mount anchor: Tar River flood history. Explain rising water vs sudden pipe water (homeowners vs NFIP). NC DOI is the source ChatGPT cites. Link to the existing water-damage insurance post, do not repeat it."
-  },
-  {
-   "id": "2026-09-24-water-damage-remediation-vs-mitigation",
-   "status": "queued",
-   "queued_at": "2026-09-24T16:30:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "remediation vs mitigation",
-   "intent": "informational",
-   "volume": 1000,
-   "kd": 0,
-   "fan_out_cluster": [
-    "water mitigation vs remediation",
-    "mitigation vs remediation vs restoration",
-    "water mitigation cost",
-    "what is water mitigation",
-    "flood remediation meaning"
-   ],
-   "suggested_slug": "water-damage-remediation-vs-mitigation",
-   "suggested_title": "Remediation vs mitigation: what Wilson homeowners should know after flood or water damage",
-   "target_word_count": 1300,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/services/water-cleanup/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "mold-remediation"
-   ],
-   "city_anchor": "wilson-nc",
-   "external_authority_candidates": [
-    "https://iicrc.org/s500/"
-   ],
-   "notes": "Define mitigation (stop and dry: extraction, drying) vs remediation (remove contamination: mold, Category 3 water) vs restoration (rebuild). Tie to insurance line items. Wilson is a wizard priority area."
-  },
-  {
-   "id": "2026-09-24-flood-damage-restoration-companies-raleigh",
-   "status": "queued",
-   "queued_at": "2026-09-24T16:30:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "flood damage restoration companies",
-   "intent": "commercial",
-   "volume": 720,
-   "kd": 13,
-   "fan_out_cluster": [
-    "flood damage remediation companies",
-    "flood damage restoration services",
-    "emergency flood damage restoration",
-    "flood damage cleanup near me",
-    "IICRC certified flood restoration"
-   ],
-   "suggested_slug": "flood-damage-restoration-companies-raleigh",
-   "suggested_title": "Flood damage restoration companies in Raleigh: how to pick one you can trust",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-cleanup/",
-    "/service-areas/raleigh-nc/water-cleanup/",
-    "/service-areas/raleigh-nc/water-damage-restoration/"
-   ],
-   "service_tags": [
-    "water-damage-restoration"
-   ],
-   "city_anchor": "raleigh-nc",
-   "external_authority_candidates": [
-    "https://iicrc.org/"
-   ],
-   "notes": "Flood-specific angle only: the existing /blog/choosing-a-restoration-company/ is generic, so link to it rather than repeat it. Cover certifications, Category 3 handling, drying logs, insurance billing, local response time from the east side via US-64."
-  },
-  {
-   "id": "2026-09-24-what-damage-can-a-flood-cause",
-   "status": "queued",
-   "queued_at": "2026-09-24T16:30:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "what damage can a flood cause",
-   "intent": "informational",
-   "volume": 320,
-   "kd": 26,
-   "fan_out_cluster": [
-    "what damage does a flood cause",
-    "flooded crawl space cleanup",
-    "wet insulation after a flood",
-    "is flood water category 3",
-    "mold after flooding"
-   ],
-   "suggested_slug": "what-damage-can-a-flood-cause",
-   "suggested_title": "What damage can a flood cause to a Zebulon home? Hidden damage beyond the waterline",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/crawl-space-encapsulation/",
-    "/services/mold-remediation/",
-    "/services/insulation-removal-installation/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "crawl-space-encapsulation",
-    "mold-remediation",
-    "insulation-removal-installation"
-   ],
-   "city_anchor": "zebulon-nc",
-   "external_authority_candidates": [
-    "https://www.fema.gov/pdf/rebuild/recover/fema_mold_brochure_english.pdf"
-   ],
-   "notes": "Walk through structure, crawl space, insulation, subfloor, HVAC ducts, electrical, and mold. Strong cross-link to the client's crawl space and insulation services (wizard goals)."
-  },
-  {
-   "id": "2026-09-24-cleaning-a-flooded-house",
-   "status": "banked",
-   "queued_at": "2026-09-24T16:30:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "cleaning a flooded house",
-   "intent": "informational",
-   "volume": 90,
-   "kd": 14,
-   "fan_out_cluster": [
-    "how to clean up a flooded house",
-    "what to throw away after a flood",
-    "how to disinfect after a flood",
-    "dehumidifier for flooded house",
-    "flooded house cleanup"
-   ],
-   "suggested_slug": "cleaning-a-flooded-house",
-   "suggested_title": "Cleaning a flooded house: a step-by-step guide for Durham homeowners",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-cleanup/",
-    "/services/water-damage-restoration/",
-    "/services/carpet-cleaning/",
-    "/blog/what-to-do-first-24-hours-water-damage/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "carpet-cleaning",
-    "mold-remediation"
-   ],
-   "city_anchor": "durham-nc",
-   "external_authority_candidates": [
-    "https://www.cdc.gov/floods/safety/index.html",
-    "https://www.fema.gov/pdf/rebuild/recover/fema_mold_brochure_english.pdf"
-   ],
-   "notes": "Safety first (power, PPE, Category 3). Document before discarding (ChatGPT lead point). Porous vs non-porous discard list. Clear point where DIY stops and a pro is needed. Durham older housing stock and crawl spaces.",
-   "banked_at": "2026-09-24T22:24:15.040011+00:00"
-  }
- ]
+  ]
 }

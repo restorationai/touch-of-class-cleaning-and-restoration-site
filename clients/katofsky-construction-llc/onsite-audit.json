@@ -4,18 +4,20 @@
   "site": "staging.rankai-katofsky-construction-llc.pages.dev",
   "live_origin": "https://staging.rankai-katofsky-construction-llc.pages.dev",
   "live_origin_source": "staging",
-  "generated_at": "2026-09-28T20:41:38Z",
   "audit_form_factor": "desktop",
   "lighthouse_version": "13.4.0",
-  "audit_tooling": "DataForSEO REST /v3/on_page/lighthouse/live/json (for_mobile=false) + /v3/on_page/instant_pages (enable_javascript, load_resources, validate_micromarkup); MCP on_page_lighthouse / on_page_instant_pages tools not exposed in this build",
-  "lighthouse_detail": "captured (full audits parsed from disk)",
-  "url_selection": "auto-derived from plan/url-plan.json (no audit-urls.txt). Service landings: fire-damage-restoration and roofing (first two of four tied at priority 9.0, plan order). No url-plan service-area has primary: true; plan-input primary area pittsburgh-pa has no page (folded into home, /service-areas/pittsburgh-pa/ returns 404), so the first area slug was used: penn-hills-pa.",
+  "generated_at": "2026-09-28T21:15:26Z",
+  "lighthouse_detail": "full - complete audits array captured per URL (raw JSON parsed from disk); lighthouse_issues[] capped at top 5 per URL",
+  "url_selection_mode": "auto-derived from plan/url-plan.json (no audit-urls.txt); service-landing ties at priority 9.0 broken by plan order; no primary service area and no business address city in client record, so first service area (penn-hills-pa) used",
   "environment_caveats": [
-    "SEO score inconclusive: staging noindex artifact (x-robots-tag: noindex on *.pages.dev, is-crawlable fails). SEO excluded from verdicts; re-audit after apex cutover.",
-    "Desktop-only Lighthouse (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240). Mobile scores typically 10-20 performance points lower.",
-    "Client record status is 'onboarding', not 'active'; audit proceeded because build_status is pushed_main and the staging preview is live.",
-    "Canonicals, og:url and JSON-LD point to https://katofskyconstruction.com, which currently resolves to 3.33.130.190 / 15.197.148.33 and fails the TLS handshake (curl exit 35). Correct for post-cutover, but canonicals point at a host that does not serve this build until apex cutover."
+    "live_origin_source=staging: client record has apex_cutover=null, so the Cloudflare Pages preview was audited. katofskyconstruction.com currently resolves to 15.197.148.33 / 3.33.130.190 (not Cloudflare) and returned no HTTPS response to curl during this run.",
+    "Cloudflare Pages preview returns x-robots-tag: noindex (verified via curl -sI). The Lighthouse is-crawlable audit fails on all 6 URLs and deflates the SEO category to 69. SEO is EXCLUDED from all verdicts this run and is inconclusive - staging noindex artifact, re-audit after apex cutover.",
+    "Lighthouse ran DESKTOP only via DataForSEO (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240). Mobile scores would typically run 10-20 performance points lower. Do not read these as mobile-first scores.",
+    "Client record status is \"onboarding\", not \"active\". build_status is pushed_main and the staging preview returns 200 on all 6 URLs, so the audit proceeded (same precedent as other onboarding clients).",
+    "Canonical tags on staging correctly point at the apex https://katofskyconstruction.com/... URLs. Expected pre-cutover, not counted as a canonical issue.",
+    "DataForSEO has_micromarkup=false on all pages because it checks microdata only; JSON-LD is present on every page (LocalBusiness everywhere; Service on service landings; FAQPage and BreadcrumbList on inner pages). Not counted as missing schema."
   ],
+  "seo_score_status": "inconclusive - staging noindex artifact, re-audit after apex cutover",
   "audited_urls": [
     {
       "url": "https://staging.rankai-katofsky-construction-llc.pages.dev/",
@@ -23,164 +25,59 @@
       "verdict": "amber",
       "error_reason": null,
       "scores": {
-        "performance": 96,
+        "performance": 97,
         "accessibility": 100,
         "best_practices": 100,
         "seo": 69
       },
       "core_web_vitals": {
-        "LCP_ms": 1426,
+        "LCP_ms": 1251,
         "CLS": 0.0158,
         "TBT_ms": 0,
         "INP_ms": null
       },
-      "onpage_facts": {
-        "status_code": 200,
-        "onpage_score": 97.44,
-        "title_length": 38,
-        "description_length": 185,
-        "h1": [
-          "24/7 Restoration Services in Pittsburgh"
-        ],
-        "word_count": 1226,
-        "canonical": "https://katofskyconstruction.com/",
-        "images_count": 17,
-        "images_missing_alt": 0
-      },
       "lighthouse_issues": [
         {
           "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "medium",
+          "title": "Improve image delivery (Est savings of 811\u00a0KiB; worst: logo.png 664 KiB, team.webp 109 KiB; logo.png is a 1200x800 PNG rendered at ~96px tall)",
+          "severity": "high",
           "estimated_savings_ms": 500,
-          "category": "performance",
-          "detail": "Est savings of 811\u00a0KiB; /images/logo.png is a 666 KiB 1200x800 PNG displayed at about 96px tall (679,722 bytes wasted)"
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "detail": null
+          "category": "performance"
         },
         {
           "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
+          "title": "Render-blocking requests (/_astro/_slug_.BOM1TY-a.css, ~8.8 KB)",
           "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "detail": "/_astro/_slug_.*.css (about 8.8 KB) blocks first paint"
+          "estimated_savings_ms": 0,
+          "category": "performance"
         },
         {
           "id": "is-crawlable",
-          "title": "Page is blocked from indexing (staging x-robots-tag: noindex artifact)",
+          "title": "Page is blocked from indexing (x-robots-tag: noindex injected by Cloudflare Pages preview; staging artifact)",
           "severity": "low",
           "estimated_savings_ms": null,
-          "category": "seo",
-          "detail": null
+          "category": "seo"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree (critical chain via fonts.googleapis.com / fonts.gstatic.com)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
         }
       ],
       "onpage_issues": [
         {
-          "id": "derived:description_length_out_of_range",
-          "title": "Meta description is 185 chars (target 70-160)",
-          "severity": "medium",
-          "source": "derived_from_instant_pages_meta.description_length"
+          "id": "rankai_meta_description_too_long",
+          "title": "Meta description is 185 characters (target 70-160); will truncate in SERPs",
+          "severity": "medium"
         }
       ]
     },
     {
       "url": "https://staging.rankai-katofsky-construction-llc.pages.dev/services/",
       "archetype": "services-hub",
-      "verdict": "amber",
-      "error_reason": null,
-      "scores": {
-        "performance": 96,
-        "accessibility": 95,
-        "best_practices": 100,
-        "seo": 69
-      },
-      "core_web_vitals": {
-        "LCP_ms": 1392,
-        "CLS": 0.0026,
-        "TBT_ms": 0,
-        "INP_ms": null
-      },
-      "onpage_facts": {
-        "status_code": 200,
-        "onpage_score": 97.44,
-        "title_length": 62,
-        "description_length": 140,
-        "h1": [
-          "Our Restoration Services"
-        ],
-        "word_count": 695,
-        "canonical": "https://katofskyconstruction.com/services/",
-        "images_count": 14,
-        "images_missing_alt": 0
-      },
-      "lighthouse_issues": [
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "medium",
-          "estimated_savings_ms": 450,
-          "category": "performance",
-          "detail": "Est savings of 847\u00a0KiB; /images/logo.png is a 666 KiB 1200x800 PNG displayed at about 96px tall (679,722 bytes wasted)"
-        },
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "category": "accessibility",
-          "detail": "Breadcrumb links (a.text-dark/50) render #888c93 on #ffffff at 12px, contrast 3.37:1 (needs 4.5:1)"
-        },
-        {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "detail": "Hero <img> (main > section > div.absolute > img.w-full) is missing fetchpriority=\"high\""
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "detail": null
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "detail": "/_astro/_slug_.*.css (about 8.8 KB) blocks first paint"
-        }
-      ],
-      "onpage_issues": [
-        {
-          "id": "has_micromarkup_errors",
-          "title": "DataForSEO structured-data validation reports errors (page carries FAQPage + BreadcrumbList; final BreadcrumbList ListItem has no item URL)",
-          "severity": "medium",
-          "source": "dataforseo-instant_pages"
-        },
-        {
-          "id": "derived:low_word_count",
-          "title": "Rendered word count 695 is below the url-plan target_word_count of 800",
-          "severity": "low",
-          "source": "derived_from_instant_pages_meta.content.plain_text_word_count"
-        }
-      ]
-    },
-    {
-      "url": "https://staging.rankai-katofsky-construction-llc.pages.dev/services/fire-damage-restoration/",
-      "archetype": "service-landing",
-      "verdict": "amber",
+      "verdict": "green",
       "error_reason": null,
       "scores": {
         "performance": 97,
@@ -189,160 +86,60 @@
         "seo": 69
       },
       "core_web_vitals": {
-        "LCP_ms": 1234,
-        "CLS": 0.0035,
+        "LCP_ms": 1332,
+        "CLS": 0.0026,
         "TBT_ms": 0,
         "INP_ms": null
-      },
-      "onpage_facts": {
-        "status_code": 200,
-        "onpage_score": 97.44,
-        "title_length": 65,
-        "description_length": 131,
-        "h1": [
-          "Fire Damage Restoration in Pittsburgh"
-        ],
-        "word_count": 1779,
-        "canonical": "https://katofskyconstruction.com/services/fire-damage-restoration/",
-        "images_count": 2,
-        "images_missing_alt": 0
       },
       "lighthouse_issues": [
         {
           "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "medium",
-          "estimated_savings_ms": 450,
-          "category": "performance",
-          "detail": "Est savings of 692\u00a0KiB; /images/logo.png is a 666 KiB 1200x800 PNG displayed at about 96px tall (679,722 bytes wasted)"
+          "title": "Improve image delivery (Est savings of 847\u00a0KiB; worst: logo.png 664 KiB, hero-bg.webp 90 KiB; logo.png is a 1200x800 PNG rendered at ~96px tall)",
+          "severity": "high",
+          "estimated_savings_ms": 550,
+          "category": "performance"
         },
         {
           "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio (breadcrumb links a.text-dark/50, #888c93 on #ffffff at 3.37:1, needs 4.5:1)",
           "severity": "medium",
           "estimated_savings_ms": null,
-          "category": "accessibility",
-          "detail": "Breadcrumb links (a.text-dark/50) render #888c93 on #ffffff at 12px, contrast 3.37:1 (needs 4.5:1)"
+          "category": "accessibility"
         },
         {
           "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
-          "severity": "low",
+          "title": "LCP request discovery: fetchpriority=high not applied to the hero LCP image (main > section.relative > div.absolute > img.w-full)",
+          "severity": "medium",
           "estimated_savings_ms": null,
-          "category": "performance",
-          "detail": "Hero <img> (main > section > div.absolute > img.w-full) is missing fetchpriority=\"high\""
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "detail": null
+          "category": "performance"
         },
         {
           "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
+          "title": "Render-blocking requests (/_astro/_slug_.BOM1TY-a.css, ~8.8 KB)",
+          "severity": "low",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (x-robots-tag: noindex injected by Cloudflare Pages preview; staging artifact)",
           "severity": "low",
           "estimated_savings_ms": null,
-          "category": "performance",
-          "detail": "/_astro/_slug_.*.css (about 8.8 KB) blocks first paint"
+          "category": "seo"
         }
       ],
       "onpage_issues": [
         {
-          "id": "has_micromarkup_errors",
-          "title": "DataForSEO structured-data validation reports errors (page carries FAQPage + BreadcrumbList; final BreadcrumbList ListItem has no item URL)",
-          "severity": "medium",
-          "source": "dataforseo-instant_pages"
+          "id": "rankai_word_count_below_target",
+          "title": "Word count 695 below url-plan target_word_count 800",
+          "severity": "low"
         }
       ]
     },
     {
-      "url": "https://staging.rankai-katofsky-construction-llc.pages.dev/services/roofing/",
+      "url": "https://staging.rankai-katofsky-construction-llc.pages.dev/services/fire-damage-restoration/",
       "archetype": "service-landing",
-      "verdict": "amber",
-      "error_reason": null,
-      "scores": {
-        "performance": 99,
-        "accessibility": 95,
-        "best_practices": 100,
-        "seo": 69
-      },
-      "core_web_vitals": {
-        "LCP_ms": 955,
-        "CLS": 0.0036,
-        "TBT_ms": 0,
-        "INP_ms": null
-      },
-      "onpage_facts": {
-        "status_code": 200,
-        "onpage_score": 97.44,
-        "title_length": 50,
-        "description_length": 144,
-        "h1": [
-          "Roofing Installation and Replacement in Pittsburgh"
-        ],
-        "word_count": 1857,
-        "canonical": "https://katofskyconstruction.com/services/roofing/",
-        "images_count": 2,
-        "images_missing_alt": 0
-      },
-      "lighthouse_issues": [
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "category": "accessibility",
-          "detail": "Breadcrumb links (a.text-dark/50) render #888c93 on #ffffff at 12px, contrast 3.37:1 (needs 4.5:1)"
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
-          "severity": "low",
-          "estimated_savings_ms": 50,
-          "category": "performance",
-          "detail": "/_astro/_slug_.*.css (about 8.8 KB) blocks first paint"
-        },
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "detail": "Est savings of 753\u00a0KiB; /images/logo.png is a 666 KiB 1200x800 PNG displayed at about 96px tall (679,722 bytes wasted)"
-        },
-        {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "detail": "Hero <img> (main > section > div.absolute > img.w-full) is missing fetchpriority=\"high\""
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "detail": null
-        }
-      ],
-      "onpage_issues": [
-        {
-          "id": "has_micromarkup_errors",
-          "title": "DataForSEO structured-data validation reports errors (page carries FAQPage + BreadcrumbList; final BreadcrumbList ListItem has no item URL)",
-          "severity": "medium",
-          "source": "dataforseo-instant_pages"
-        }
-      ]
-    },
-    {
-      "url": "https://staging.rankai-katofsky-construction-llc.pages.dev/service-areas/penn-hills-pa/",
-      "archetype": "service-area",
-      "verdict": "amber",
+      "verdict": "green",
       "error_reason": null,
       "scores": {
         "performance": 96,
@@ -351,160 +148,228 @@
         "seo": 69
       },
       "core_web_vitals": {
-        "LCP_ms": 1370,
-        "CLS": 0.0034,
+        "LCP_ms": 1349,
+        "CLS": 0.0035,
         "TBT_ms": 0,
         "INP_ms": null
-      },
-      "onpage_facts": {
-        "status_code": 200,
-        "onpage_score": 97.44,
-        "title_length": 38,
-        "description_length": 124,
-        "h1": [
-          "Restoration Services in Penn Hills"
-        ],
-        "word_count": 1247,
-        "canonical": "https://katofskyconstruction.com/service-areas/penn-hills-pa/",
-        "images_count": 2,
-        "images_missing_alt": 0
       },
       "lighthouse_issues": [
         {
           "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "medium",
+          "title": "Improve image delivery (Est savings of 692\u00a0KiB; worst: logo.png 664 KiB, fire-damage-restoration.webp 28 KiB; logo.png is a 1200x800 PNG rendered at ~96px tall)",
+          "severity": "high",
           "estimated_savings_ms": 550,
-          "category": "performance",
-          "detail": "Est savings of 729\u00a0KiB; /images/logo.png is a 666 KiB 1200x800 PNG displayed at about 96px tall (679,722 bytes wasted)"
+          "category": "performance"
         },
         {
           "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio (breadcrumb links a.text-dark/50, #888c93 on #ffffff at 3.37:1, needs 4.5:1)",
           "severity": "medium",
           "estimated_savings_ms": null,
-          "category": "accessibility",
-          "detail": "Breadcrumb links (a.text-dark/50) render #888c93 on #ffffff at 12px, contrast 3.37:1 (needs 4.5:1)"
-        },
-        {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "detail": "Third-party Google Maps static map / JS API responses with 30 min to 1 day TTL (not fixable in origin config)"
+          "category": "accessibility"
         },
         {
           "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
-          "severity": "low",
+          "title": "LCP request discovery: fetchpriority=high not applied to the hero LCP image (main > section.relative > div.absolute > img.w-full)",
+          "severity": "medium",
           "estimated_savings_ms": null,
-          "category": "performance",
-          "detail": "Hero <img> (main > section > div.absolute > img.w-full) is missing fetchpriority=\"high\""
+          "category": "performance"
         },
         {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests (/_astro/_slug_.BOM1TY-a.css, ~8.8 KB)",
+          "severity": "low",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (x-robots-tag: noindex injected by Cloudflare Pages preview; staging artifact)",
           "severity": "low",
           "estimated_savings_ms": null,
-          "category": "performance",
-          "detail": null
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": []
+    },
+    {
+      "url": "https://staging.rankai-katofsky-construction-llc.pages.dev/services/roofing/",
+      "archetype": "service-landing",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 97,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1257,
+        "CLS": 0.003,
+        "TBT_ms": 54,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery (Est savings of 753\u00a0KiB; worst: logo.png 664 KiB, roofing.webp 89 KiB; logo.png is a 1200x800 PNG rendered at ~96px tall)",
+          "severity": "high",
+          "estimated_savings_ms": 600,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio (breadcrumb links a.text-dark/50, #888c93 on #ffffff at 3.37:1, needs 4.5:1)",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery: fetchpriority=high not applied to the hero LCP image (main > section.relative > div.absolute > img.w-full)",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests (/_astro/_slug_.BOM1TY-a.css, ~8.8 KB)",
+          "severity": "low",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (x-robots-tag: noindex injected by Cloudflare Pages preview; staging artifact)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo"
+        }
+      ],
+      "onpage_issues": []
+    },
+    {
+      "url": "https://staging.rankai-katofsky-construction-llc.pages.dev/service-areas/penn-hills-pa/",
+      "archetype": "service-area",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 97,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1273,
+        "CLS": 0.0034,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery (Est savings of 729\u00a0KiB; worst: logo.png 664 KiB, hero-bg.webp 66 KiB; logo.png is a 1200x800 PNG rendered at ~96px tall)",
+          "severity": "high",
+          "estimated_savings_ms": 500,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio (breadcrumb links a.text-dark/50, #888c93 on #ffffff at 3.37:1, needs 4.5:1)",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery: fetchpriority=high not applied to the hero LCP image (main > section.relative > div.absolute > img.w-full)",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests (/_astro/_slug_.BOM1TY-a.css, ~8.8 KB)",
+          "severity": "low",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (x-robots-tag: noindex injected by Cloudflare Pages preview; staging artifact)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo"
         }
       ],
       "onpage_issues": [
         {
-          "id": "has_micromarkup_errors",
-          "title": "DataForSEO structured-data validation reports errors (page carries FAQPage + BreadcrumbList; final BreadcrumbList ListItem has no item URL)",
-          "severity": "medium",
-          "source": "dataforseo-instant_pages"
+          "id": "frame",
+          "title": "Page contains an iframe (Google Maps embed)",
+          "severity": "low"
         }
       ]
     },
     {
       "url": "https://staging.rankai-katofsky-construction-llc.pages.dev/contact/",
       "archetype": "contact",
-      "verdict": "amber",
+      "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 95,
+        "performance": 97,
         "accessibility": 96,
         "best_practices": 100,
         "seo": 69
       },
       "core_web_vitals": {
-        "LCP_ms": 1512,
+        "LCP_ms": 1256,
         "CLS": 0.0236,
         "TBT_ms": 0,
         "INP_ms": null
       },
-      "onpage_facts": {
-        "status_code": 200,
-        "onpage_score": 97.44,
-        "title_length": 33,
-        "description_length": 129,
-        "h1": [
-          "Contact Katofsky Construction LLC"
-        ],
-        "word_count": 614,
-        "canonical": "https://katofskyconstruction.com/contact/",
-        "images_count": 2,
-        "images_missing_alt": 0
-      },
       "lighthouse_issues": [
         {
           "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "medium",
+          "title": "Improve image delivery (Est savings of 796\u00a0KiB; worst: logo.png 664 KiB, hero-bg.webp 132 KiB; logo.png is a 1200x800 PNG rendered at ~96px tall)",
+          "severity": "high",
           "estimated_savings_ms": 500,
-          "category": "performance",
-          "detail": "Est savings of 796\u00a0KiB; /images/logo.png is a 666 KiB 1200x800 PNG displayed at about 96px tall (679,722 bytes wasted)"
+          "category": "performance"
         },
         {
           "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio (breadcrumb links a.text-dark/50, #888c93 on #ffffff at 3.37:1, needs 4.5:1)",
           "severity": "medium",
           "estimated_savings_ms": null,
-          "category": "accessibility",
-          "detail": "Breadcrumb links (a.text-dark/50) render #888c93 on #ffffff at 12px, contrast 3.37:1 (needs 4.5:1)"
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
-          "severity": "low",
-          "estimated_savings_ms": 50,
-          "category": "performance",
-          "detail": "/_astro/_slug_.*.css (about 8.8 KB) blocks first paint"
+          "category": "accessibility"
         },
         {
           "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
-          "severity": "low",
+          "title": "LCP request discovery: fetchpriority=high not applied to the hero LCP image (main > section.relative > div.absolute > img.w-full)",
+          "severity": "medium",
           "estimated_savings_ms": null,
-          "category": "performance",
-          "detail": "Hero <img> (main > section > div.absolute > img.w-full) is missing fetchpriority=\"high\""
+          "category": "performance"
         },
         {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests (/_astro/_slug_.BOM1TY-a.css, ~8.8 KB)",
+          "severity": "low",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (x-robots-tag: noindex injected by Cloudflare Pages preview; staging artifact)",
           "severity": "low",
           "estimated_savings_ms": null,
-          "category": "performance",
-          "detail": null
+          "category": "seo"
         }
       ],
-      "onpage_issues": [
-        {
-          "id": "has_micromarkup_errors",
-          "title": "DataForSEO structured-data validation reports errors (page carries FAQPage + BreadcrumbList; final BreadcrumbList ListItem has no item URL)",
-          "severity": "medium",
-          "source": "dataforseo-instant_pages"
-        }
-      ]
+      "onpage_issues": []
     }
   ],
   "site_rollup": {
     "avg_scores": {
-      "performance": 96.5,
+      "performance": 96.83,
       "accessibility": 96.0,
       "best_practices": 100.0,
       "seo": 69.0
@@ -512,47 +377,41 @@
     "verdict": "amber",
     "url_count": 6,
     "urls_by_verdict": {
-      "green": 0,
-      "amber": 6,
+      "green": 5,
+      "amber": 1,
       "red": 0,
       "error": 0
     },
     "template_issues": [
       {
         "id": "image-delivery-insight",
-        "title": "Improve image delivery (shared 666 KiB logo.png is the main offender)",
+        "title": "Improve image delivery: /images/logo.png (682 KB PNG, 1200x800) loaded in header and footer on every page; oversized hero/card webps",
         "affected_urls": 6,
-        "severity": "medium"
+        "severity": "high"
       },
       {
-        "id": "network-dependency-tree-insight",
-        "title": "Network dependency tree",
+        "id": "render-blocking-insight",
+        "title": "Render-blocking stylesheet /_astro/_slug_.BOM1TY-a.css (~8.8 KB)",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing (staging x-robots-tag: noindex artifact)",
         "affected_urls": 6,
         "severity": "low"
       },
       {
         "id": "color-contrast",
-        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "title": "Breadcrumb links a.text-dark/50 (#888c93 on #ffffff) at 3.37:1, needs 4.5:1",
         "affected_urls": 5,
         "severity": "medium"
-      },
-      {
-        "id": "has_micromarkup_errors",
-        "title": "DataForSEO structured-data validation errors on every page carrying BreadcrumbList + FAQPage",
-        "affected_urls": 5,
-        "severity": "medium"
-      },
-      {
-        "id": "render-blocking-insight",
-        "title": "Render-blocking requests",
-        "affected_urls": 5,
-        "severity": "low"
       },
       {
         "id": "lcp-discovery-insight",
-        "title": "LCP request discovery",
+        "title": "fetchpriority=high missing on inner-page hero LCP image (home hero already has it)",
         "affected_urls": 5,
-        "severity": "low"
+        "severity": "medium"
       }
     ],
     "money_page_alerts": [
@@ -560,31 +419,7 @@
         "url": "https://staging.rankai-katofsky-construction-llc.pages.dev/",
         "archetype": "home",
         "verdict": "amber",
-        "main_issue": "Meta description is 185 chars (target 70-160); Lighthouse perf 96, LCP 1.43s"
-      },
-      {
-        "url": "https://staging.rankai-katofsky-construction-llc.pages.dev/services/",
-        "archetype": "services-hub",
-        "verdict": "amber",
-        "main_issue": "DataForSEO structured-data validation reports errors (page carries FAQPage + BreadcrumbList; final BreadcrumbList ListItem has no item URL); Lighthouse perf 96, LCP 1.39s"
-      },
-      {
-        "url": "https://staging.rankai-katofsky-construction-llc.pages.dev/services/fire-damage-restoration/",
-        "archetype": "service-landing",
-        "verdict": "amber",
-        "main_issue": "DataForSEO structured-data validation reports errors (page carries FAQPage + BreadcrumbList; final BreadcrumbList ListItem has no item URL); Lighthouse perf 97, LCP 1.23s"
-      },
-      {
-        "url": "https://staging.rankai-katofsky-construction-llc.pages.dev/services/roofing/",
-        "archetype": "service-landing",
-        "verdict": "amber",
-        "main_issue": "DataForSEO structured-data validation reports errors (page carries FAQPage + BreadcrumbList; final BreadcrumbList ListItem has no item URL); Lighthouse perf 99, LCP 0.95s"
-      },
-      {
-        "url": "https://staging.rankai-katofsky-construction-llc.pages.dev/contact/",
-        "archetype": "contact",
-        "verdict": "amber",
-        "main_issue": "DataForSEO structured-data validation reports errors (page carries FAQPage + BreadcrumbList; final BreadcrumbList ListItem has no item URL); Lighthouse perf 95, LCP 1.51s"
+        "main_issue": "meta description 185 chars (limit 160); Lighthouse perf 97 / a11y 100 / BP 100 are all green"
       }
     ]
   },
@@ -595,10 +430,5 @@
     "new_issues": [],
     "resolved_issues": [],
     "note": "First audit for this client - no comparison data."
-  },
-  "cost_usd": {
-    "lighthouse": 0.03,
-    "instant_pages": 0.0108,
-    "total": 0.0408
   }
 }

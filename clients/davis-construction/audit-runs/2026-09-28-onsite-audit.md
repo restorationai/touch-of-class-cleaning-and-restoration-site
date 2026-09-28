@@ -1,131 +1,90 @@
-# Onsite Audit, Davis Construction Contractors, 2026-09-28
+# Onsite Audit - Davis Construction Contractors - 2026-09-28
 
 **Live origin audited:** https://davisconstructioncontractors.com (apex)
-**Site verdict:** amber
+**Site verdict:** green
 **URLs audited:** 6
 **Prior audit:** 2026-08-26
-**Form factor:** desktop only (see caveats)
+**Form factor:** desktop only (DataForSEO Lighthouse wrapper does not expose mobile; expect mobile performance 10-20 points lower)
 
 ## Site rollup
 
-| Metric | Score | Delta vs prior |
+| Metric | Score | Δ vs prior |
 | --- | ---: | ---: |
-| Performance | 97 | -1.7 |
+| Performance | 97 | -2 |
 | Accessibility | 100 | 0 |
 | Best Practices | 100 | 0 |
 | SEO | 100 | 0 |
 
-Exact performance mean is 96.83, down from 98.5. That is under the 3-point site-level regression threshold.
+Pages by verdict: {green: 6, amber: 0, red: 0, error: 0}
 
-Pages by verdict: green 1, amber 5, red 0, error 0.
-
-Every Lighthouse category on every page is 93 or higher. The amber verdicts come from one on-page finding, not from scores. DataForSEO now flags `has_micromarkup_errors` (structured data validation errors) on the 5 pages that carry a BreadcrumbList. The rubric rates schema validation warnings as medium, and any medium on-page issue makes a page amber. The fix is a one-line template change (action 1 below). There are no broken internal or external links, no 4xx or 5xx responses, no mixed content, and no duplicate titles or meta descriptions. Every page has a self-referencing canonical, one H1, and 100 percent image alt coverage.
+All six pages stay green, and no single category score dropped by 5 or more points. The one real movement: LCP got slower on the three pages whose hero image is served from `images.davisconstructioncontractors.com` (/services/, /service-areas/huntsville-al/, /contact/). Two of them crossed the 200ms regression threshold. The cause is the same on all three and is covered under recommended actions.
 
 ## Per-page scores
 
-| URL | Archetype | Verdict | Perf | A11y | BP | SEO | LCP | CLS | Words |
-| --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| `/` | home | green | 99 | 100 | 100 | 100 | 1.00s | 0.005 | 1174 |
-| `/services/` | services-hub | amber | 93 | 100 | 100 | 100 | 1.71s | 0.004 | 757 |
-| `/services/home-remodeling/` | service-landing | amber | 97 | 100 | 100 | 100 | 1.31s | 0.004 | 1647 |
-| `/services/roofing/` | service-landing | amber | 95 | 100 | 100 | 100 | 1.39s | 0.021 | 1538 |
-| `/service-areas/huntsville-al/` | service-area | amber | 99 | 100 | 100 | 100 | 0.98s | 0.005 | 1347 |
-| `/contact/` | contact | amber | 98 | 100 | 100 | 100 | 1.10s | 0.007 | 688 |
+| URL | Archetype | Verdict | Perf | A11y | BP | SEO | LCP | CLS |
+| --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| / | home | green | 98 | 100 | 100 | 100 | 1.0s | 0.01 |
+| /services/ | services-hub | green | 93 | 100 | 100 | 100 | 1.7s | 0.00 |
+| /services/home-remodeling/ | service-landing | green | 99 | 100 | 100 | 100 | 0.9s | 0.01 |
+| /services/roofing/ | service-landing | green | 99 | 100 | 100 | 100 | 1.0s | 0.02 |
+| /service-areas/huntsville-al/ | service-area | green | 96 | 100 | 100 | 100 | 1.4s | 0.01 |
+| /contact/ | contact | green | 96 | 100 | 100 | 100 | 1.3s | 0.01 |
 
-Total blocking time is 0 to 4ms on all six pages. Lighthouse does not report INP in lab mode, so it is recorded as null.
+TBT is 0ms on every page. INP was not returned by the lab run (null).
 
 ## Template-level issues (fix once, lift many pages)
 
 | Issue | Affected URLs | Severity | Recommended fix |
 | --- | ---: | --- | --- |
-| `has_micromarkup_errors` | 5 | medium | Add an `item` URL to the last `ListItem` in the BreadcrumbList JSON-LD. See action 1. |
-| `lcp-discovery-insight` | 5 | medium | Add `fetchpriority="high"` to the hero `<img>` in the shared non-home hero partial. Still open from last month. See action 2. |
-| `cache-insight` | 5 | medium | `images.davisconstructioncontractors.com` and `/images/*` still serve `max-age=14400` (4 hours). On `/services/`, `/service-areas/huntsville-al/` and `/contact/`, 162 KiB of the 238 KiB `brand/hero.webp` is wasted on repeat visits. It also fails on `/`, but falls outside the stored top 5 there. |
-| `image-delivery-insight` | 5 | medium | `brand/hero.webp` (238 KiB) is oversized for its render box, as is `services/roofing.webp` (245 KiB, 146 KiB of reported savings). The 25 KiB `logo.webp` renders at 160x80 on every page. |
-| `unused-javascript` | 5 | low | 69 KiB of the 159 KiB Google Tag Manager `gtag/js` bundle goes unused on every page. On the two service landings Lighthouse now charges it 160 to 190ms of LCP savings. |
-| `forced-reflow-insight` | 4 | low | Diagnostic only, 0ms reported savings. |
-| `largest-contentful-paint` | 3 | low | Downstream of the hero, cache and GTM items above. Not a separate fix. |
-| `low_content_rate` | 3 | low | Low text-to-HTML ratio on `/`, `/services/`, `/contact/`. This is markup weight, not thin content. |
-| `network-dependency-tree-insight` | 3 | low | Diagnostic only, no measurable savings. |
-| `content_below_target_word_count` | 2 | low | `/` is 1174 words against a 1200 target. `/services/` is 757 against 800. |
-
-Affected-URL counts for Lighthouse audits count only each page's stored top 5, so `cache-insight`, `image-delivery-insight` and `unused-javascript` actually fail on all 6 pages.
-
-### The breadcrumb finding
-
-Every page that has a BreadcrumbList ends it with a crumb that has no URL:
-
-```
-{"@type": "ListItem", "position": 2, "name": "Contact"}
-```
-
-The earlier crumbs all have `"item": "https://davisconstructioncontractors.com/..."`. Google accepts a last crumb with no `item`, but DataForSEO's validator does not. The flag is set on exactly the 5 pages that have a BreadcrumbList and not on `/`, which has none. Every other JSON-LD block (LocalBusiness, Organization, WebSite, Service, FAQPage) parses cleanly and has its expected properties. Setting `item` on the last crumb to the page's canonical URL is valid for Google too, so the change carries no risk.
+| `cache-insight` | 6 | medium | `images.davisconstructioncontractors.com/brand/hero.webp` (238 KB) is served with `cache-control: max-age=14400` (4 hours), which alone accounts for 162 KB of the flagged savings. Set `public, max-age=31536000, immutable` on the R2 custom domain (Cloudflare Cache Rule or R2 object metadata). Same-origin `/images/*` is also on `max-age=14400, must-revalidate`; raise it to 30 days or more in `public/_headers`. The remaining flagged items are third-party (clarity.ms, 1 day; Cloudflare email-decode) and cannot be changed. |
+| `image-delivery-insight` | 6 | medium | The sitewide page-hero `<img>` on /services/, /service-areas/*, /contact/ loads the full 1376w `brand/hero.webp` with no `srcset`/`sizes`, even though 480w/768w/1200w variants already exist on R2 (the homepage uses them). Add the same `srcset` to the page-hero component. Also: `/images/logo.webp` is 25 KB but renders at 36x36 declared size, so export a 2x (about 128px wide) version (saves about 23 KB on every page). Home `/images/team.webp` is 269 KB with 192 KB savings, so add `srcset` variants. `/images/services/roofing.webp` wastes 126 KB on /services/roofing/. |
+| `lcp-discovery-insight` | 5 | medium | Every page except the homepage has an LCP image with `loading="eager"` but no `fetchpriority="high"`. Add `fetchpriority="high"` to the hero `<img>` in the page-hero and service-landing hero components (the homepage already does this and passes). |
+| `unused-javascript` | 6 | low | 69 KB of the 159 KB `googletagmanager.com/gtag/js?id=G-BRL1Q2KTGV` payload goes unused. Load gtag with a deferred or on-interaction strategy (for example Partytown, or inject after `load`) instead of in the head. Worth up to 150ms LCP on /contact/. |
+| `render-blocking-insight` | 6 | low | Single 9 KB stylesheet `/_astro/_slug_.*.css`. Only 50ms of savings on the two service landings. Low priority; inline it via Astro `build.inlineStylesheets: "always"` if convenient. |
+| `network-dependency-tree-insight` | 6 | low | Informational. Resolves as a side effect of the fetchpriority and gtag changes above. |
+| `has_micromarkup_errors` | 5 | low | DataForSEO's validator flags every FAQPage `Question` as missing `answerCount`. It is not a Google rich-result requirement, but the fix is one line: add `"answerCount": 1` to each Question in the FAQ schema component. |
+| `low_content_rate` | 3 | low | Text-to-HTML ratio is below the DataForSEO threshold on /, /services/, /contact/. Informational; no action beyond the word-count items below. |
+| `content_below_target_word_count` | 2 | low | / is 1174 words (target 1200); /services/ is 757 words (target 800). |
 
 ## Money page alerts
 
-- **`/services/`** (services-hub), verdict amber. Performance 93, LCP 1.71s, `has_micromarkup_errors`. Most of the LCP is image load time: 864ms of resource load for the 238 KiB R2 `brand/hero.webp`, which has no `fetchpriority` or `srcset` and a 4-hour cache TTL. This is the slowest page in the set for the second month running.
-- **`/services/home-remodeling/`** (service-landing), verdict amber. Performance 97, LCP 1.31s, `has_micromarkup_errors`.
-- **`/services/roofing/`** (service-landing), verdict amber. Performance 95, LCP 1.39s, `has_micromarkup_errors`. The hero image `services/roofing.webp` is 245 KiB, with 146 KiB of image-delivery savings.
-- **`/contact/`** (contact), verdict amber. Performance 98, LCP 1.10s, `has_micromarkup_errors`. It has the largest combined savings in the set: 150ms each from `cache-insight` and `image-delivery-insight`, plus 140ms from `unused-javascript`.
-
-All four would be green again once action 1 is shipped. Scores alone keep every one of them above 90.
+None. All money pages (home, services hub, both service landings, contact) are green.
 
 ## Regressions vs prior audit
 
-The audit set matches last month's six URLs exactly, so every page is directly comparable.
+**Verdict transitions:** none. All 6 URLs green in both runs.
 
-**Verdict transitions:**
-
-- `/services/` went green to amber. The only cause is the new `has_micromarkup_errors` flag. Performance moved 95 to 93.
-- `/services/home-remodeling/` went green to amber. Same cause. Performance moved 100 to 97.
-- `/services/roofing/` went green to amber. Same cause. Performance moved 99 to 95.
-- `/service-areas/huntsville-al/` went green to amber. Same cause. Performance was unchanged at 99.
-- `/contact/` went green to amber. Same cause. Performance moved 99 to 98.
-
-The breadcrumb blocks have the same types as last month, and last month's run did not record this check. So the transition may come from a DataForSEO validator change rather than a site change. The same flag appears on the same template shape for several other Rank AI clients this cycle. Either way, the markup fix is correct and cheap.
-
-**Score regressions:** none. No Lighthouse category dropped 5 or more points on any page.
+**Score regressions (5+ point drop):** none. Largest drops: /service-areas/huntsville-al/ performance 99 to 96, /contact/ 99 to 96, /services/ 95 to 93.
 
 **Core Web Vitals regressions:**
-
-- `/services/home-remodeling/`: LCP rose from 770ms to 1312ms, up 542ms.
-- `/services/roofing/`: LCP rose from 1001ms to 1394ms, up 393ms.
-
-Both are Lighthouse's simulated LCP. The observed trace on these pages is much faster: on `/services/home-remodeling/`, TTFB 164ms, load delay 7ms, load duration 149ms and render delay 220ms add up to about 540ms. Most of the simulated increase comes from the GTM `gtag/js` bundle, which Lighthouse now puts on the LCP critical path on these two pages (160ms and 190ms of `unused-javascript` LCP savings, against 10 to 50ms elsewhere). The hero image on both has no `fetchpriority`, so the browser gives it no priority over that script. Actions 2 and 4 address this directly. No CLS or TBT regressions.
+- `/service-areas/huntsville-al/`: LCP 929ms to 1398ms (+469ms). Lighthouse breakdown puts 623ms in resource load duration for `brand/hero.webp` (238 KB, no srcset, no fetchpriority, 4-hour cache, `cf-cache-status: MISS` at audit time).
+- `/contact/`: LCP 1009ms to 1301ms (+292ms). Same hero image; 345ms resource load duration.
+- `/services/` did not cross the threshold (+145ms) but is the slowest page at 1.7s. It has the same image, with 1098ms resource load duration.
 
 **New issues this month:**
+- `/`: `content_below_target_word_count` (1174 words vs 1200 target; was at or above 1200 in August)
+- `/services/`, `/contact/`: `low_content_rate`
+- `/services/`, `/services/home-remodeling/`, `/services/roofing/`, `/service-areas/huntsville-al/`, `/contact/`: `has_micromarkup_errors`. This check was not recorded in prior runs, so it may have been present before and only now surfaced. The schema itself is unchanged in shape and parses cleanly.
 
-- `/services/`, `/services/home-remodeling/`, `/services/roofing/`, `/service-areas/huntsville-al/`, `/contact/`: `has_micromarkup_errors`, the terminal BreadcrumbList crumb described above.
-- `/`: `content_below_target_word_count`. The homepage is 1174 words, down from 1213 last month and now 26 under its 1200 target. Last month this issue was marked resolved, so something trimmed homepage copy since 2026-08-26.
-- `/services/` and `/contact/`: `low_content_rate`, low text-to-HTML ratio. Word counts are unchanged, so this is markup weight. Low priority.
-- `/services/roofing/` and `/service-areas/huntsville-al/`: `forced-reflow-insight`, 0ms reported savings, diagnostic only.
-
-**Issues resolved since last audit** (positive, keep doing this):
-
-- `/` and `/service-areas/huntsville-al/`: `largest-contentful-paint` now passes (0.98 to 1.00s).
-- `/services/`: `interactive` (Time to Interactive) and `forced-reflow-insight` no longer fail.
-
-**Still open from last month:** the three template recommendations from the 2026-08-26 audit have not shipped. The non-home hero partial still has no `fetchpriority="high"` and no `srcset`. The image domains still serve `max-age=14400`. `brand/hero.webp` is still the 238 KiB original.
+**Issues resolved since last audit:** (positive, keep doing this)
+- `/`, `/services/`, `/contact/`: `forced-reflow-insight` no longer flagged (score 1.0 on all three)
+- `/`: CLS improved from 0.023 to 0.005
 
 ## Recommended next actions (priority order)
 
-1. **(money pages, template, 5 URLs)** In the BreadcrumbList JSON-LD generator, set `"item"` on the final `ListItem` to the current page's canonical URL. For example, on `/contact/` use `{"@type": "ListItem", "position": 2, "name": "Contact", "item": "https://davisconstructioncontractors.com/contact/"}`. This clears `has_micromarkup_errors` on `/services/`, both service landings, `/contact/` and `/service-areas/huntsville-al/`. With no other medium issues on those pages, all 5 return to green and the site verdict returns to green.
-
-2. **(money pages, template, 5 URLs)** In the shared non-home hero partial, add `fetchpriority="high"` to the hero `<img>`. Also give it the same `srcset`/`sizes` treatment the homepage hero already has (`hero-bg-480w/768w/1200w.webp`, `sizes="100vw"`). Include `services/*.webp` and `brand/hero.webp`, and generate 480w/768w/1200w variants for `services/roofing.webp` (245 KiB) and `services/home-remodeling.webp` (93 KiB). This clears `lcp-discovery-insight` on 5 pages and is the most direct fix for the `/services/` LCP (1.71s) and both landing-page LCP regressions.
-
-3. **(template, 6 URLs)** Add a Cloudflare cache rule that raises `Cache-Control` on `images.davisconstructioncontractors.com/*` and `davisconstructioncontractors.com/images/*` from `max-age=14400` to `max-age=2592000` (30 days). These filenames are not content-hashed, so use 30 days rather than `immutable`, and rename files when you replace them. This is worth 150ms on `/services/` and `/contact/`, plus 162 KiB of repeat-visit transfer on `brand/hero.webp`.
-
-4. **(template, 6 URLs)** Load Google Tag Manager `gtag/js` (`G-BRL1Q2KTGV`) after first paint. Inject the script from a `requestIdleCallback` or `load` event handler instead of a `<head>` async tag, or move it to Partytown. 69 KiB of its 159 KiB goes unused on every page, and on the two service landings Lighthouse charges it 160 to 190ms of LCP.
-
-5. **(per-page, low)** Add about 45 words to `/services/` (757 against an 800 target). Restore about 30 words on `/` (1174 against 1200, down from 1213 last month). Check the homepage's recent content changes to find what was trimmed.
+1. **(money pages + template, high impact)** Fix the page-hero image in the shared hero component used by /services/, /service-areas/*, /contact/: add the existing `hero-480w/768w/1200w.webp` variants as `srcset` with `sizes="100vw"`, and add `fetchpriority="high"`. This addresses the two LCP regressions and the slowest page (/services/ at 1.7s). Lighthouse estimates 100-150ms LCP savings per page from image delivery alone.
+2. **(template)** Set long-lived cache headers on `images.davisconstructioncontractors.com` (currently `max-age=14400`). Use a Cloudflare Cache Rule on that hostname: Edge TTL 1 year, Browser TTL 1 year. Also raise `/images/*` in `public/_headers` from `max-age=14400, must-revalidate` to `public, max-age=2592000`. Up to 150ms LCP savings on repeat visits for /services/ and /service-areas/huntsville-al/.
+3. **(template)** Add `fetchpriority="high"` to the LCP image on the service-landing template (/services/home-remodeling/, /services/roofing/). Also swap `/images/services/roofing.webp` (251 KB) for a srcset with the existing `-480w` variant pattern.
+4. **(template)** Defer the GA4 gtag script (`G-BRL1Q2KTGV`) until after `load`, or move it to Partytown. 69 KB of unused JS on every page; up to 150ms LCP on /contact/.
+5. **(per-page, low)** Add `"answerCount": 1` to each FAQ `Question` node in the schema component. Add 30-50 words to the /services/ hub intro to clear the 800-word target (currently 757).
 
 ## Notes / caveats
 
-- **Desktop only.** The DataForSEO Lighthouse endpoint runs `formFactor=desktop` with `cpuSlowdownMultiplier=1` and `throughputKbps=10240`, and the MCP wrapper exposes no form-factor setting. Mobile performance would likely land 10 to 20 points lower, and mobile-specific issues are not surfaced. Treat these verdicts as desktop verdicts.
-- **Live origin choice.** The client record has no `apex_cutover.completed_at` key but does have `cut_over_at: 2026-05-28T18:48:09Z` and an apex `deploy_url`. The apex was audited, as in the four prior runs. The apex sends no `x-robots-tag: noindex`, so SEO counts toward the verdict.
-- **Service-area slot.** `/service-areas/madison-al/` still returns 301 to the homepage (re-checked this run), so the slot stays on `/service-areas/huntsville-al/`, as in the 2026-08-26 run.
-- **Schema detection false negative.** `instant_pages` reports `has_micromarkup=false` on all six pages, but each page's served HTML has 3 to 5 JSON-LD blocks that parse cleanly. That check ignores JSON-LD, so missing schema was not flagged.
-- **MCP tool surface.** The dataforseo MCP server exposes only a generic `api_request` tool. Lighthouse payloads run 0.75 to 1.05 MB, so this run called `/v3/on_page/lighthouse/live/json` and `/v3/on_page/instant_pages` over REST with the `DATAFORSEO_*` credentials and saved the responses to disk. Total API cost was about $0.04 for 12 calls.
-- **Issue diffing.** `lighthouse_issues` stores the top 5 failing audits per URL. New issues compare the current top 5 against last month's stored set. An issue counts as resolved only if it is missing from the current full failing set. Issues that last month reported as template-wide on 5 or more of 6 URLs are not reported as new just because they rotated into a page's top 5.
-- **Not recorded as issues:** `no_image_title` (alt text coverage is 100 percent, and a title attribute has no SEO or accessibility value when alt text is present). `frame` on `/service-areas/huntsville-al/` is the embedded Google Map. `has_render_blocking_resources` is the same finding as Lighthouse `render-blocking-insight` (the 9 KiB `/_astro/_slug_.BgI2evEd.css`, 40 to 50ms).
-- All 12 API calls returned status 20000. No URL errored, timed out, or needed a re-run.
+- **Origin choice:** the client record has no `apex_cutover.completed_at` field, but `cut_over_at` is 2026-05-28 and `deploy_url` is the apex, so the apex was audited, the same as in the prior three runs. The apex serves no `x-robots-tag: noindex`, so SEO counts toward the verdict.
+- **Desktop only:** the DataForSEO Lighthouse run uses formFactor=desktop, no CPU throttling, 10 Mbps. These are not mobile-first scores.
+- **Transport:** the dataforseo MCP server only exposes a generic `api_request`. Lighthouse and instant_pages were called over REST at `/v3/on_page/lighthouse/live/json` and `/v3/on_page/instant_pages` with the same account, and responses were piped to disk.
+- **Service-area slot:** `/service-areas/madison-al/` still 301s to the homepage (a deliberate consolidation of the home city), so `/service-areas/huntsville-al/`, the first service-area in url-plan, was audited. This is the same substitution as August.
+- **Schema:** instant_pages reports `has_micromarkup=false` because it does not count JSON-LD. The served HTML carries 3-5 valid JSON-LD blocks per page with zero parse errors, so missing-schema was not flagged. `has_micromarkup_errors` was run down with a one-page `/v3/on_page/microdata` validation of /services/roofing/. The only error-level result is a missing `answerCount` on FAQ Questions. That is not a Google FAQPage requirement, so it was recorded at low severity rather than the rubric's medium to avoid a false amber. The same validation surfaced two schema-hygiene items worth a look in a future build pass. First, LocalBusiness `sameAs` points to the site's own `/about/` page rather than external profiles (GBP, Facebook, BBB). Second, `image`/`logo` use relative URLs (`/images/logo.webp`); absolute URLs are safer.
+- **Dedup:** `has_render_blocking_resources` from instant_pages duplicates the Lighthouse `render-blocking-insight` finding and was not double-counted. `no_image_title` (title attribute on images) is not an SEO factor and was not recorded. `frame` on /service-areas/huntsville-al/ is the embedded map iframe and is expected.
+- **Comparison method:** failing thresholds match the prior run (insights below 0.9, weighted performance metrics below 1). Audits that last month's template list showed failing on 5-6 of 6 URLs were treated as present on every prior URL, so they were not reported as new just because they fell outside last month's top 5. Lab LCP varies by roughly 100-200ms run to run. The two LCP regressions share a clear, verified cause (hero image delivery and cache headers), so they are treated as real.
+- **Cost:** 6 Lighthouse ($0.030) + 6 instant_pages ($0.011) + 1 microdata crawl ($0.00015), about $0.04 total. No `full_data` calls were needed.

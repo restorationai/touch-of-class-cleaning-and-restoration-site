@@ -32,8 +32,8 @@
   "cut_over_at": "2026-05-28T18:48:09Z",
   "deploy_url": "https://davisconstructioncontractors.com",
   "audit": {
-    "last_audit_at": "2026-09-28T20:50:26Z",
-    "last_audit_verdict": "amber",
+    "last_audit_at": "2026-09-28T21:30:00Z",
+    "last_audit_verdict": "green",
     "last_audit_report_path": "audit-runs/2026-09-28-onsite-audit.md"
   },
   "refresh": {
@@ -43,7 +43,7 @@
     "last_run_report_path": "clients/davis-construction/refresh-runs/2026-08-31-refresh-recommender.md"
   },
   "created_at": "2026-05-21T22:14:07.882136+00:00",
-  "updated_at": "2026-09-28T20:50:26Z",
+  "updated_at": "2026-09-28T21:30:00Z",
   "plan": {
     "template": "construction",
     "template_version": "0.1.0",

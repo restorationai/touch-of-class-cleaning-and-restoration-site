@@ -24,7 +24,7 @@
   },
   "status": "active",
   "created_at": "2026-05-10T03:18:58.761481+00:00",
-  "updated_at": "2026-09-28T21:02:54Z",
+  "updated_at": "2026-09-28T21:39:54Z",
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
@@ -47,10 +47,10 @@
   "cut_over_at": "2026-05-17T22:11:55+00:00",
   "deploy_url": "https://narestco.com",
   "audit": {
-    "last_audit_at": "2026-09-28T21:02:54Z",
+    "last_audit_at": "2026-09-28T21:39:54Z",
     "last_audit_verdict": "amber",
     "last_audit_report_path": "clients/narestco/audit-runs/2026-09-28-onsite-audit.md",
-    "last_audit_caveat": "Apex audit, desktop only. 5 of 6 pages green; site held at amber by the homepage meta description at 194 chars (limit 160), unresolved since 2026-07-15. Accessibility regressed 100 -> 92-96 on all 6 pages (site avg -5.3) from a new color-contrast failure: the footer WA L&I license link inherits text-primary-200 (#f0c1bd) on the white footer (1.6:1). Fix is one class in Footer.astro. CWV: LCP up on /services/ (+367ms) and Seattle (+479ms), contact CLS 0.006 -> 0.033; contact LCP improved 1625 -> 930ms. Duplicate Google Ads gtag bundle is gone.",
+    "last_audit_caveat": "Apex audit, desktop only. 5 of 6 pages green; site held at amber solely by the homepage meta description at 194 chars (limit 160), unresolved since 2026-07-15. Avg perf 98.3 (+0.6), BP/SEO 100. Accessibility fell 100 -> 94.7 sitewide from a new footer WA L&I verify link at #f0c1bd on white (1.6:1). CWV regressions: Seattle LCP 574 -> 1041ms (unprioritized R2 hero), /contact/ CLS 0.006 -> 0.033 (mis-sized logo width/height). /contact/ LCP recovered 1625 -> 986ms. has_micromarkup_errors (FAQ answerCount) is a validator false positive, recorded low.",
     "live_origin_audited": "https://narestco.com"
   },
   "apex_cutover": {

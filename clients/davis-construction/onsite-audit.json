@@ -5,8 +5,7 @@
   "live_origin": "https://davisconstructioncontractors.com",
   "live_origin_source": "apex",
   "audit_form_factor": "desktop",
-  "generated_at": "2026-09-28T20:50:26Z",
-  "lighthouse_detail": "full audits array captured via REST; top 5 failing audits stored per URL",
+  "generated_at": "2026-09-28T21:30:00Z",
   "audited_urls": [
     {
       "url": "https://davisconstructioncontractors.com/",
@@ -14,50 +13,24 @@
       "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 99,
+        "performance": 98,
         "accessibility": 100,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 998,
+        "LCP_ms": 1049,
         "CLS": 0.0051,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "word_count": 1174,
-      "target_word_count": 1200,
       "lighthouse_issues": [
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "medium",
-          "estimated_savings_ms": 50,
-          "estimated_savings_bytes": null,
-          "category": "performance"
-        },
         {
           "id": "unused-javascript",
           "title": "Reduce unused JavaScript",
           "severity": "low",
-          "estimated_savings_ms": 10,
-          "estimated_savings_bytes": 70390,
-          "category": "performance"
-        },
-        {
-          "id": "forced-reflow-insight",
-          "title": "Forced reflow",
-          "severity": "low",
-          "estimated_savings_ms": 0,
-          "estimated_savings_bytes": null,
-          "category": "performance"
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "low",
-          "estimated_savings_ms": 0,
-          "estimated_savings_bytes": null,
+          "estimated_savings_ms": 50,
           "category": "performance"
         },
         {
@@ -65,14 +38,34 @@
           "title": "Use efficient cache lifetimes",
           "severity": "medium",
           "estimated_savings_ms": 0,
-          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 0,
           "category": "performance"
         }
       ],
       "onpage_issues": [
         {
           "id": "low_content_rate",
-          "title": "Low text-to-HTML ratio",
+          "title": "Text-to-HTML ratio below DataForSEO threshold",
           "severity": "low"
         },
         {
@@ -85,7 +78,7 @@
     {
       "url": "https://davisconstructioncontractors.com/services/",
       "archetype": "services-hub",
-      "verdict": "amber",
+      "verdict": "green",
       "error_reason": null,
       "scores": {
         "performance": 93,
@@ -100,30 +93,19 @@
         "INP_ms": null
       },
       "word_count": 757,
-      "target_word_count": 800,
       "lighthouse_issues": [
         {
           "id": "cache-insight",
           "title": "Use efficient cache lifetimes",
           "severity": "medium",
           "estimated_savings_ms": 150,
-          "estimated_savings_bytes": null,
           "category": "performance"
         },
         {
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "medium",
-          "estimated_savings_ms": 50,
-          "estimated_savings_bytes": null,
-          "category": "performance"
-        },
-        {
-          "id": "largest-contentful-paint",
-          "title": "Largest Contentful Paint",
-          "severity": "low",
-          "estimated_savings_ms": 0,
-          "estimated_savings_bytes": null,
+          "estimated_savings_ms": 100,
           "category": "performance"
         },
         {
@@ -131,7 +113,6 @@
           "title": "LCP request discovery",
           "severity": "medium",
           "estimated_savings_ms": 0,
-          "estimated_savings_bytes": null,
           "category": "performance"
         },
         {
@@ -139,24 +120,30 @@
           "title": "Network dependency tree",
           "severity": "low",
           "estimated_savings_ms": 0,
-          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 0,
           "category": "performance"
         }
       ],
       "onpage_issues": [
         {
-          "id": "has_micromarkup_errors",
-          "title": "Structured data validation errors (terminal BreadcrumbList ListItem has no item URL)",
-          "severity": "medium"
-        },
-        {
           "id": "low_content_rate",
-          "title": "Low text-to-HTML ratio",
+          "title": "Text-to-HTML ratio below DataForSEO threshold",
           "severity": "low"
         },
         {
           "id": "content_below_target_word_count",
           "title": "Word count 757 below archetype target 800",
+          "severity": "low"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "title": "FAQPage Question nodes missing answerCount (DataForSEO validator error; not a Google rich-result requirement)",
           "severity": "low"
         }
       ]
@@ -164,145 +151,7 @@
     {
       "url": "https://davisconstructioncontractors.com/services/home-remodeling/",
       "archetype": "service-landing",
-      "verdict": "amber",
-      "error_reason": null,
-      "scores": {
-        "performance": 97,
-        "accessibility": 100,
-        "best_practices": 100,
-        "seo": 100
-      },
-      "core_web_vitals": {
-        "LCP_ms": 1312,
-        "CLS": 0.0041,
-        "TBT_ms": 4,
-        "INP_ms": null
-      },
-      "word_count": 1647,
-      "target_word_count": 1100,
-      "lighthouse_issues": [
-        {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "low",
-          "estimated_savings_ms": 160,
-          "estimated_savings_bytes": 70299,
-          "category": "performance"
-        },
-        {
-          "id": "largest-contentful-paint",
-          "title": "Largest Contentful Paint",
-          "severity": "low",
-          "estimated_savings_ms": 0,
-          "estimated_savings_bytes": null,
-          "category": "performance"
-        },
-        {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
-          "severity": "medium",
-          "estimated_savings_ms": 0,
-          "estimated_savings_bytes": null,
-          "category": "performance"
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "low",
-          "estimated_savings_ms": 0,
-          "estimated_savings_bytes": null,
-          "category": "performance"
-        },
-        {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes",
-          "severity": "medium",
-          "estimated_savings_ms": 0,
-          "estimated_savings_bytes": null,
-          "category": "performance"
-        }
-      ],
-      "onpage_issues": [
-        {
-          "id": "has_micromarkup_errors",
-          "title": "Structured data validation errors (terminal BreadcrumbList ListItem has no item URL)",
-          "severity": "medium"
-        }
-      ]
-    },
-    {
-      "url": "https://davisconstructioncontractors.com/services/roofing/",
-      "archetype": "service-landing",
-      "verdict": "amber",
-      "error_reason": null,
-      "scores": {
-        "performance": 95,
-        "accessibility": 100,
-        "best_practices": 100,
-        "seo": 100
-      },
-      "core_web_vitals": {
-        "LCP_ms": 1394,
-        "CLS": 0.0206,
-        "TBT_ms": 0,
-        "INP_ms": null
-      },
-      "word_count": 1538,
-      "target_word_count": 1100,
-      "lighthouse_issues": [
-        {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "low",
-          "estimated_savings_ms": 190,
-          "estimated_savings_bytes": 70299,
-          "category": "performance"
-        },
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "medium",
-          "estimated_savings_ms": 50,
-          "estimated_savings_bytes": null,
-          "category": "performance"
-        },
-        {
-          "id": "largest-contentful-paint",
-          "title": "Largest Contentful Paint",
-          "severity": "low",
-          "estimated_savings_ms": 0,
-          "estimated_savings_bytes": null,
-          "category": "performance"
-        },
-        {
-          "id": "forced-reflow-insight",
-          "title": "Forced reflow",
-          "severity": "low",
-          "estimated_savings_ms": 0,
-          "estimated_savings_bytes": null,
-          "category": "performance"
-        },
-        {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
-          "severity": "medium",
-          "estimated_savings_ms": 0,
-          "estimated_savings_bytes": null,
-          "category": "performance"
-        }
-      ],
-      "onpage_issues": [
-        {
-          "id": "has_micromarkup_errors",
-          "title": "Structured data validation errors (terminal BreadcrumbList ListItem has no item URL)",
-          "severity": "medium"
-        }
-      ]
-    },
-    {
-      "url": "https://davisconstructioncontractors.com/service-areas/huntsville-al/",
-      "archetype": "service-area",
-      "verdict": "amber",
+      "verdict": "green",
       "error_reason": null,
       "scores": {
         "performance": 99,
@@ -311,44 +160,88 @@
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 984,
-        "CLS": 0.0054,
+        "LCP_ms": 872,
+        "CLS": 0.0056,
         "TBT_ms": 0,
         "INP_ms": null
       },
-      "word_count": 1347,
-      "target_word_count": 900,
+      "word_count": 1647,
       "lighthouse_issues": [
         {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "low",
-          "estimated_savings_ms": 50,
-          "estimated_savings_bytes": 70393,
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": 0,
           "category": "performance"
         },
         {
           "id": "cache-insight",
           "title": "Use efficient cache lifetimes",
           "severity": "medium",
-          "estimated_savings_ms": 50,
-          "estimated_savings_bytes": null,
+          "estimated_savings_ms": 0,
           "category": "performance"
         },
         {
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "medium",
-          "estimated_savings_ms": 50,
-          "estimated_savings_bytes": null,
+          "estimated_savings_ms": 0,
           "category": "performance"
         },
         {
-          "id": "forced-reflow-insight",
-          "title": "Forced reflow",
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
           "severity": "low",
           "estimated_savings_ms": 0,
-          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "FAQPage Question nodes missing answerCount (DataForSEO validator error; not a Google rich-result requirement)",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/services/roofing/",
+      "archetype": "service-landing",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 997,
+        "CLS": 0.0206,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "word_count": 1538,
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 100,
+          "category": "performance"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 50,
           "category": "performance"
         },
         {
@@ -356,68 +249,118 @@
           "title": "LCP request discovery",
           "severity": "medium",
           "estimated_savings_ms": 0,
-          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "medium",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": 0,
           "category": "performance"
         }
       ],
       "onpage_issues": [
         {
           "id": "has_micromarkup_errors",
-          "title": "Structured data validation errors (terminal BreadcrumbList ListItem has no item URL)",
-          "severity": "medium"
+          "title": "FAQPage Question nodes missing answerCount (DataForSEO validator error; not a Google rich-result requirement)",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://davisconstructioncontractors.com/service-areas/huntsville-al/",
+      "archetype": "service-area",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 96,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1398,
+        "CLS": 0.0054,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "word_count": 1347,
+      "lighthouse_issues": [
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "medium",
+          "estimated_savings_ms": 150,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 150,
+          "category": "performance"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 100,
+          "category": "performance"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "FAQPage Question nodes missing answerCount (DataForSEO validator error; not a Google rich-result requirement)",
+          "severity": "low"
         }
       ]
     },
     {
       "url": "https://davisconstructioncontractors.com/contact/",
       "archetype": "contact",
-      "verdict": "amber",
+      "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 98,
+        "performance": 96,
         "accessibility": 100,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1104,
+        "LCP_ms": 1301,
         "CLS": 0.0069,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "word_count": 688,
-      "target_word_count": 400,
       "lighthouse_issues": [
-        {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes",
-          "severity": "medium",
-          "estimated_savings_ms": 150,
-          "estimated_savings_bytes": null,
-          "category": "performance"
-        },
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "medium",
-          "estimated_savings_ms": 150,
-          "estimated_savings_bytes": null,
-          "category": "performance"
-        },
         {
           "id": "unused-javascript",
           "title": "Reduce unused JavaScript",
           "severity": "low",
-          "estimated_savings_ms": 140,
-          "estimated_savings_bytes": 70230,
-          "category": "performance"
-        },
-        {
-          "id": "forced-reflow-insight",
-          "title": "Forced reflow",
-          "severity": "low",
-          "estimated_savings_ms": 0,
-          "estimated_savings_bytes": null,
+          "estimated_savings_ms": 150,
           "category": "performance"
         },
         {
@@ -425,19 +368,39 @@
           "title": "LCP request discovery",
           "severity": "medium",
           "estimated_savings_ms": 0,
-          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "medium",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": 0,
           "category": "performance"
         }
       ],
       "onpage_issues": [
         {
-          "id": "has_micromarkup_errors",
-          "title": "Structured data validation errors (terminal BreadcrumbList ListItem has no item URL)",
-          "severity": "medium"
+          "id": "low_content_rate",
+          "title": "Text-to-HTML ratio below DataForSEO threshold",
+          "severity": "low"
         },
         {
-          "id": "low_content_rate",
-          "title": "Low text-to-HTML ratio",
+          "id": "has_micromarkup_errors",
+          "title": "FAQPage Question nodes missing answerCount (DataForSEO validator error; not a Google rich-result requirement)",
           "severity": "low"
         }
       ]
@@ -456,11 +419,11 @@
       "best_practices": 100.0,
       "seo": 100.0
     },
-    "verdict": "amber",
+    "verdict": "green",
     "url_count": 6,
     "urls_by_verdict": {
-      "green": 1,
-      "amber": 5,
+      "green": 6,
+      "amber": 0,
       "red": 0,
       "error": 0
     },
@@ -468,151 +431,93 @@
       {
         "id": "cache-insight",
         "title": "Use efficient cache lifetimes",
-        "affected_urls": 5,
         "severity": "medium",
-        "category": "performance"
-      },
-      {
-        "id": "has_micromarkup_errors",
-        "title": "Structured data validation errors (terminal BreadcrumbList ListItem has no item URL)",
-        "affected_urls": 5,
-        "severity": "medium",
-        "category": "onpage"
+        "category": "performance",
+        "affected_urls": 6
       },
       {
         "id": "image-delivery-insight",
         "title": "Improve image delivery",
-        "affected_urls": 5,
         "severity": "medium",
-        "category": "performance"
-      },
-      {
-        "id": "lcp-discovery-insight",
-        "title": "LCP request discovery",
-        "affected_urls": 5,
-        "severity": "medium",
-        "category": "performance"
-      },
-      {
-        "id": "unused-javascript",
-        "title": "Reduce unused JavaScript",
-        "affected_urls": 5,
-        "severity": "low",
-        "category": "performance"
-      },
-      {
-        "id": "forced-reflow-insight",
-        "title": "Forced reflow",
-        "affected_urls": 4,
-        "severity": "low",
-        "category": "performance"
-      },
-      {
-        "id": "largest-contentful-paint",
-        "title": "Largest Contentful Paint",
-        "affected_urls": 3,
-        "severity": "low",
-        "category": "performance"
-      },
-      {
-        "id": "low_content_rate",
-        "title": "Low text-to-HTML ratio",
-        "affected_urls": 3,
-        "severity": "low",
-        "category": "onpage"
+        "category": "performance",
+        "affected_urls": 6
       },
       {
         "id": "network-dependency-tree-insight",
         "title": "Network dependency tree",
-        "affected_urls": 3,
         "severity": "low",
-        "category": "performance"
+        "category": "performance",
+        "affected_urls": 6
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "severity": "low",
+        "category": "performance",
+        "affected_urls": 6
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "severity": "low",
+        "category": "performance",
+        "affected_urls": 6
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
+        "severity": "medium",
+        "category": "performance",
+        "affected_urls": 5
+      },
+      {
+        "id": "has_micromarkup_errors",
+        "title": "FAQPage Question nodes missing answerCount (DataForSEO validator error; not a Google rich-result requirement)",
+        "severity": "low",
+        "category": "onpage",
+        "affected_urls": 5
+      },
+      {
+        "id": "low_content_rate",
+        "title": "Text-to-HTML ratio below DataForSEO threshold",
+        "severity": "low",
+        "category": "onpage",
+        "affected_urls": 3
       },
       {
         "id": "content_below_target_word_count",
         "title": "Word count 1174 below archetype target 1200",
-        "affected_urls": 2,
         "severity": "low",
-        "category": "onpage"
+        "category": "onpage",
+        "affected_urls": 2
       }
     ],
-    "money_page_alerts": [
-      {
-        "url": "https://davisconstructioncontractors.com/services/",
-        "archetype": "services-hub",
-        "verdict": "amber",
-        "main_issue": "performance 93, LCP 1.71s, has_micromarkup_errors"
-      },
-      {
-        "url": "https://davisconstructioncontractors.com/services/home-remodeling/",
-        "archetype": "service-landing",
-        "verdict": "amber",
-        "main_issue": "performance 97, LCP 1.31s, has_micromarkup_errors"
-      },
-      {
-        "url": "https://davisconstructioncontractors.com/services/roofing/",
-        "archetype": "service-landing",
-        "verdict": "amber",
-        "main_issue": "performance 95, LCP 1.39s, has_micromarkup_errors"
-      },
-      {
-        "url": "https://davisconstructioncontractors.com/contact/",
-        "archetype": "contact",
-        "verdict": "amber",
-        "main_issue": "performance 98, LCP 1.10s, has_micromarkup_errors"
-      }
-    ]
+    "money_page_alerts": []
   },
   "regression": {
     "prior_run_at": "2026-08-26T23:10:00Z",
     "score_deltas": {
-      "performance": -1.67,
-      "accessibility": 0.0,
-      "best_practices": 0.0,
-      "seo": 0.0
+      "performance": -2,
+      "accessibility": 0,
+      "best_practices": 0,
+      "seo": 0
     },
-    "verdict_transitions": [
-      {
-        "url": "https://davisconstructioncontractors.com/services/",
-        "from": "green",
-        "to": "amber"
-      },
-      {
-        "url": "https://davisconstructioncontractors.com/services/home-remodeling/",
-        "from": "green",
-        "to": "amber"
-      },
-      {
-        "url": "https://davisconstructioncontractors.com/services/roofing/",
-        "from": "green",
-        "to": "amber"
-      },
-      {
-        "url": "https://davisconstructioncontractors.com/service-areas/huntsville-al/",
-        "from": "green",
-        "to": "amber"
-      },
-      {
-        "url": "https://davisconstructioncontractors.com/contact/",
-        "from": "green",
-        "to": "amber"
-      }
-    ],
+    "verdict_transitions": [],
     "score_regressions": [],
     "core_web_vitals_regressions": [
       {
-        "url": "https://davisconstructioncontractors.com/services/home-remodeling/",
+        "url": "https://davisconstructioncontractors.com/service-areas/huntsville-al/",
         "metric": "LCP_ms",
-        "from": 770,
-        "to": 1312,
-        "delta": 542
+        "from": 929,
+        "to": 1398,
+        "delta": 469
       },
       {
-        "url": "https://davisconstructioncontractors.com/services/roofing/",
+        "url": "https://davisconstructioncontractors.com/contact/",
         "metric": "LCP_ms",
-        "from": 1001,
-        "to": 1394,
-        "delta": 393
+        "from": 1009,
+        "to": 1301,
+        "delta": 292
       }
     ],
     "new_issues": [
@@ -623,55 +528,45 @@
       },
       {
         "url": "https://davisconstructioncontractors.com/services/",
-        "id": "has_micromarkup_errors",
-        "title": "Structured data validation errors (terminal BreadcrumbList ListItem has no item URL)"
+        "id": "low_content_rate",
+        "title": "Text-to-HTML ratio below DataForSEO threshold"
       },
       {
         "url": "https://davisconstructioncontractors.com/services/",
-        "id": "low_content_rate",
-        "title": "Low text-to-HTML ratio"
+        "id": "has_micromarkup_errors",
+        "title": "FAQPage Question nodes missing answerCount (DataForSEO validator error; not a Google rich-result requirement)"
       },
       {
         "url": "https://davisconstructioncontractors.com/services/home-remodeling/",
         "id": "has_micromarkup_errors",
-        "title": "Structured data validation errors (terminal BreadcrumbList ListItem has no item URL)"
-      },
-      {
-        "url": "https://davisconstructioncontractors.com/services/roofing/",
-        "id": "forced-reflow-insight",
-        "title": "Forced reflow"
+        "title": "FAQPage Question nodes missing answerCount (DataForSEO validator error; not a Google rich-result requirement)"
       },
       {
         "url": "https://davisconstructioncontractors.com/services/roofing/",
         "id": "has_micromarkup_errors",
-        "title": "Structured data validation errors (terminal BreadcrumbList ListItem has no item URL)"
-      },
-      {
-        "url": "https://davisconstructioncontractors.com/service-areas/huntsville-al/",
-        "id": "forced-reflow-insight",
-        "title": "Forced reflow"
+        "title": "FAQPage Question nodes missing answerCount (DataForSEO validator error; not a Google rich-result requirement)"
       },
       {
         "url": "https://davisconstructioncontractors.com/service-areas/huntsville-al/",
         "id": "has_micromarkup_errors",
-        "title": "Structured data validation errors (terminal BreadcrumbList ListItem has no item URL)"
-      },
-      {
-        "url": "https://davisconstructioncontractors.com/contact/",
-        "id": "has_micromarkup_errors",
-        "title": "Structured data validation errors (terminal BreadcrumbList ListItem has no item URL)"
+        "title": "FAQPage Question nodes missing answerCount (DataForSEO validator error; not a Google rich-result requirement)"
       },
       {
         "url": "https://davisconstructioncontractors.com/contact/",
         "id": "low_content_rate",
-        "title": "Low text-to-HTML ratio"
+        "title": "Text-to-HTML ratio below DataForSEO threshold"
+      },
+      {
+        "url": "https://davisconstructioncontractors.com/contact/",
+        "id": "has_micromarkup_errors",
+        "title": "FAQPage Question nodes missing answerCount (DataForSEO validator error; not a Google rich-result requirement)"
       }
     ],
     "resolved_issues": [
       {
         "url": "https://davisconstructioncontractors.com/",
-        "id": "largest-contentful-paint",
-        "title": "Largest Contentful Paint"
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
       },
       {
         "url": "https://davisconstructioncontractors.com/services/",
@@ -679,14 +574,9 @@
         "title": "Forced reflow"
       },
       {
-        "url": "https://davisconstructioncontractors.com/services/",
-        "id": "interactive",
-        "title": "Time to Interactive"
-      },
-      {
-        "url": "https://davisconstructioncontractors.com/service-areas/huntsville-al/",
-        "id": "largest-contentful-paint",
-        "title": "Largest Contentful Paint"
+        "url": "https://davisconstructioncontractors.com/contact/",
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
       }
     ],
     "urls_not_compared": []
@@ -698,35 +588,35 @@
     },
     {
       "id": "mcp_generic_api_request",
-      "description": "The dataforseo MCP server exposes only a generic api_request tool, not on_page_lighthouse / on_page_instant_pages. Lighthouse payloads are 0.75-1.05MB each, so this run called /v3/on_page/lighthouse/live/json and /v3/on_page/instant_pages over REST with the DATAFORSEO_* credentials and piped responses to disk. Same account, same data source. Total API cost 0.0408 USD."
-    },
-    {
-      "id": "apex_origin_from_cut_over_at",
-      "description": "The client record has no apex_cutover.completed_at key but does carry cut_over_at=2026-05-28T18:48:09Z and deploy_url on the apex. The apex was audited, consistent with the four prior runs. No x-robots-tag noindex header on the apex, so SEO counts toward the verdict."
+      "description": "The dataforseo MCP server no longer exposes on_page_lighthouse / on_page_instant_pages as named tools (its surface collapsed to a generic api_request). Lighthouse payloads are 0.7-1.0MB each, so this run called the same endpoints (/v3/on_page/lighthouse/live/json and /v3/on_page/instant_pages) over REST with the DATAFORSEO_* credentials and piped responses to disk. Same account, same data source."
     },
     {
       "id": "service_area_slot_substituted",
-      "description": "/service-areas/madison-al/ still returns 301 to the homepage (re-checked this run), so the service-area slot stays on /service-areas/huntsville-al/, same as the 2026-08-26 run. All six URLs are directly comparable to last month."
-    },
-    {
-      "id": "schema_jsonld_detection",
-      "description": "instant_pages reports has_micromarkup=false on all 6 pages, but JSON-LD was re-verified in the served HTML: 3-5 blocks per page, all parse cleanly. has_micromarkup does not count JSON-LD, so missing-schema was NOT flagged."
-    },
-    {
-      "id": "micromarkup_errors_newly_reported",
-      "description": "has_micromarkup_errors is set on the 5 pages that carry BreadcrumbList + FAQPage and not on /, which carries neither. The only structural defect found in those blocks is the terminal BreadcrumbList ListItem, which has name and position but no item URL. The block types are the same as last month and the prior run did not record this check, so the flag may reflect a DataForSEO validator change rather than a site change. The same flag appears on the same template shape across several other Rank AI clients this cycle. It is recorded at medium severity per the rubric (schema validation warning), which is what moves these 5 pages from green to amber."
+      "description": "The url-plan marks Madison as the primary service area, but /service-areas/madison-al/ returns 301 to the homepage. It is absent from sitemap-0.xml and not linked from /service-areas/, so the redirect is a deliberate consolidation of the home city onto the homepage, not a defect. The service-area slot was moved to /service-areas/huntsville-al/ so the archetype gets real coverage. The prior audit measured the homepage twice."
     },
     {
       "id": "render_blocking_dedup",
-      "description": "instant_pages sets has_render_blocking_resources=true on all 6 pages. This is the same finding as Lighthouse render-blocking-insight, so it was not recorded a second time as an on-page issue."
+      "description": "instant_pages sets has_render_blocking_resources=true on all 6 pages. This is the same finding as the Lighthouse render-blocking-insight audit, so it was not recorded a second time as an on-page issue; recording both would inflate the issue counts and produce six spurious new_issues entries."
     },
     {
       "id": "issue_diff_asymmetry",
-      "description": "lighthouse_issues stores the top 5 failing audits per URL. new_issues is computed from the current top 5 against the prior stored set; resolved_issues is computed against the CURRENT FULL failing set, so an issue only counts as resolved if it genuinely no longer fails. Issues that the prior run reported as template issues on 5+ of 6 URLs (cache-insight, image-delivery-insight, network-dependency-tree-insight, render-blocking-insight, unused-javascript, lcp-discovery-insight) are excluded from new_issues, because their absence from the prior per-URL top 5 was a cap artifact, not a real absence."
+      "description": "lighthouse_issues stores the top 5 failing audits per URL. To avoid the top-5 cap creating false results, new_issues is computed from the current top-5 against the prior stored set, while resolved_issues is computed against the CURRENT FULL failing set. An issue therefore only counts as resolved if it genuinely no longer fails."
     },
     {
-      "id": "no_image_title_and_frame_ignored",
-      "description": "instant_pages no_image_title (images lack a title attribute) is not a ranking or accessibility issue when alt text is present (100% alt coverage on all pages) and was not recorded. The frame check on /service-areas/huntsville-al/ is the embedded Google Map iframe and was not recorded."
+      "id": "new_issue_top5_suppression",
+      "description": "Prior lighthouse_issues stored only the top 5 per URL, but prior template_issues recorded audits failing on 5-6 of 6 URLs (cache-insight, image-delivery-insight, largest-contentful-paint, network-dependency-tree-insight, render-blocking-insight, unused-javascript on 6; lcp-discovery-insight on 5). Those IDs are treated as present on every prior URL so they are not reported as new_issues just because they fell outside a prior top-5. Failing threshold matches the prior run: insight/diagnostic audits score < 0.9, weighted performance metric audits score < 1. For resolved_issues, any numeric audit still scoring < 1 counts as still flagged."
+    },
+    {
+      "id": "live_origin_selection",
+      "description": "The client record has no apex_cutover.completed_at field, but cut_over_at is 2026-05-28T18:48:09Z and deploy_url is the apex, so the apex origin was audited (same as the prior three audits). No x-robots-tag noindex header is served on the apex, so SEO counts toward the verdict."
+    },
+    {
+      "id": "schema_jsonld_detection",
+      "description": "instant_pages reports has_micromarkup=false on all 6 pages, but the served HTML carries 3-5 JSON-LD blocks per page (Organization, WebSite, LocalBusiness, Service, FAQPage, BreadcrumbList) with zero parse errors. has_micromarkup does not count JSON-LD, so missing-schema was NOT flagged."
+    },
+    {
+      "id": "micromarkup_errors_triage",
+      "description": "instant_pages sets has_micromarkup_errors=true on the 5 pages that carry FAQPage. A one-page /v3/on_page/microdata validation of /services/roofing/ (cost $0.00015) shows the only error-level result is \"missing field 'answerCount'\" on every Question node, plus a \"missing field 'text'\" warning. Google's FAQPage rich-result spec requires only Question.name and acceptedAnswer.text, so this is a schema.org-strictness finding, not a rich-result blocker. It was recorded as has_micromarkup_errors at LOW severity instead of the rubric's medium so it does not create a false amber. The fix is still cheap (add answerCount: 1 to each Question in the FAQ schema component)."
     }
   ]
 }

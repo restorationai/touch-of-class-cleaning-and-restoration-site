@@ -1,597 +1,598 @@
 {
- "items": [
-  {
-   "id": "2026-09-28-who-to-call-for-air-duct-cleaning-in-corona-ca",
-   "status": "queued",
-   "queued_at": "2026-09-28T20:51:58Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "who_to_call",
-   "combo_key": "who-to-call-for-air-duct-cleaning-in-corona-ca",
-   "primary_keyword": "who to call for air duct cleaning in Corona, CA",
-   "intent": "transactional",
-   "target_word_count": 1200,
-   "city_anchor": "corona-ca",
-   "best_of": {
-    "service": "air-duct-cleaning",
-    "service_pretty": "Air Duct Cleaning",
-    "city": "Corona",
-    "state": "CA",
-    "competitors": []
-   },
-   "fan_out_cluster": [
-    "who do you call for air duct cleaning Corona",
-    "who do I call for air duct cleaning in Corona",
-    "air duct cleaning emergency number Corona CA"
-   ],
-   "source": "best-of-seeder"
-  },
-  {
-   "id": "2026-09-14-water-damage-restoration-cost-ca",
-   "status": "written",
-   "queued_at": "2026-09-14T20:20:30Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "cost_guide",
-   "combo_key": "water-damage-restoration-cost-ca",
-   "primary_keyword": "water damage restoration cost CA",
-   "intent": "transactional",
-   "target_word_count": 1500,
-   "city_anchor": "corona-ca",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Corona",
-    "state": "CA",
-    "competitors": []
-   },
-   "fan_out_cluster": [
-    "how much does water damage restoration cost in CA",
-    "water damage restoration price CA",
-    "average cost of water damage restoration CA",
-    "water damage cleanup CA",
-    "water cleanup CA",
-    "water removal CA"
-   ],
-   "source": "best-of-seeder",
-   "written_at": "2026-09-17T20:27:18Z",
-   "post_url": "https://None/blog/water-damage-restoration-cost-ca/"
-  },
-  {
-   "id": "2026-09-06-reconstruction",
-   "status": "written",
-   "queued_at": "2026-09-06T10:23:57Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "reconstruction",
-   "primary_keyword": "Reconstruction",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "fullerton-ca",
-   "source": "app target-term (onboarding-backfill)",
-   "written_at": "2026-09-19T22:27:37Z",
-   "post_url": "https://drycountyrestoration.com/blog/reconstruction/",
-   "claims_flags": [
+  "items": [
     {
-     "file": "src/content/blog/reconstruction.md",
-     "part": "frontmatter",
-     "family": "service-scope",
-     "severity": "review",
-     "matched": "Reconstruction Services",
-     "context": "archetype: \"blog-post\" title: \"Reconstruction Services in Fullerton, CA: What Happens After th",
-     "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, fire-damage-restoration, mold-remediation, general-contracting, storm-damage-restoration, sewage-cleanup"
-    }
-   ]
-  },
-  {
-   "id": "2026-09-06-mold",
-   "status": "written",
-   "queued_at": "2026-09-06T10:23:57Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "mold",
-   "primary_keyword": "Mold",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "chino-hills-ca",
-   "source": "app target-term (onboarding-backfill)",
-   "written_at": "2026-09-22T00:58:20Z",
-   "post_url": "https://drycountyrestoration.com/blog/mold/"
-  },
-  {
-   "id": "2026-09-06-water-damage",
-   "status": "published",
-   "queued_at": "2026-09-06T10:23:57Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "water-damage",
-   "primary_keyword": "Water damage",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "chino-ca",
-   "source": "app target-term (onboarding-backfill)",
-   "written_at": "2026-09-24T10:27:11Z",
-   "post_url": "https://drycountyrestoration.com/blog/water-damage/",
-   "published_verified_at": "2026-09-24T10:28:43Z"
-  },
-  {
-   "id": "2026-09-06-leak-detection",
-   "status": "queued",
-   "queued_at": "2026-09-06T10:23:57Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "leak-detection",
-   "primary_keyword": "Leak Detection",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "anaheim-ca",
-   "source": "app target-term (onboarding-backfill)"
-  },
-  {
-   "id": "2026-08-26-best-water-damage-restoration-in-corona-ca",
-   "status": "written",
-   "queued_at": "2026-08-26T23:31:10Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "best_of_comparison",
-   "combo_key": "best-water-damage-restoration-in-corona-ca",
-   "primary_keyword": "best water damage restoration company in Corona, CA",
-   "intent": "commercial",
-   "target_word_count": 1600,
-   "city_anchor": "corona-ca",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Corona",
-    "state": "CA",
-    "competitors": [
-     {
-      "name": "Livewell Restoration, LLC.",
-      "google_rating": 5,
-      "review_count": 74
-     },
-     {
-      "name": "Water Damage Champ",
-      "google_rating": 5,
-      "review_count": 10
-     },
-     {
-      "name": "SERVPRO of Corona",
-      "google_rating": 4.9,
-      "review_count": 61
-     },
-     {
-      "name": "Wet To Dry Mitigation Services Inc",
-      "google_rating": 5,
-      "review_count": 30
-     }
-    ]
-   },
-   "fan_out_cluster": [
-    "best water damage restoration companies Corona",
-    "top rated water damage restoration Corona CA",
-    "who is the best water damage restoration company in Corona",
-    "water damage cleanup Corona",
-    "water damage repair Corona",
-    "water cleanup Corona"
-   ],
-   "source": "best-of-seeder",
-   "written_at": "2026-08-26T23:38:57Z",
-   "post_url": "https://None/blog/best-water-damage-restoration-company-in-corona-ca/",
-   "claims_flags": [
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-corona-ca.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "review",
-     "matched": "10 reviews",
-     "context": "Champ carries a 5.0 Google rating with 10 reviews. Their review count is lower than other",
-     "reason": "listicle review-count 10 (competitor stat \u2014 verify it is not presented as ours)"
+      "id": "2026-09-28-who-to-call-for-air-duct-cleaning-in-corona-ca",
+      "status": "queued",
+      "queued_at": "2026-09-28T21:25:52Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "who_to_call",
+      "combo_key": "who-to-call-for-air-duct-cleaning-in-corona-ca",
+      "primary_keyword": "who to call for air duct cleaning in Corona, CA",
+      "intent": "transactional",
+      "target_word_count": 1200,
+      "city_anchor": "corona-ca",
+      "best_of": {
+        "service": "air-duct-cleaning",
+        "service_pretty": "Air Duct Cleaning",
+        "city": "Corona",
+        "state": "CA",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "who do you call for air duct cleaning Corona",
+        "who do I call for air duct cleaning in Corona",
+        "air duct cleaning emergency number Corona CA"
+      ],
+      "source": "best-of-seeder"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-corona-ca.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "review",
-     "matched": "30 reviews",
-     "context": "rvices holds a 5.0 Google rating across 30 reviews. Their name signals a focused mitigatio",
-     "reason": "listicle review-count 30 (competitor stat \u2014 verify it is not presented as ours)"
+      "id": "2026-09-14-water-damage-restoration-cost-ca",
+      "status": "written",
+      "queued_at": "2026-09-14T20:20:30Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "cost_guide",
+      "combo_key": "water-damage-restoration-cost-ca",
+      "primary_keyword": "water damage restoration cost CA",
+      "intent": "transactional",
+      "target_word_count": 1500,
+      "city_anchor": "corona-ca",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Corona",
+        "state": "CA",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "how much does water damage restoration cost in CA",
+        "water damage restoration price CA",
+        "average cost of water damage restoration CA",
+        "water damage cleanup CA",
+        "water cleanup CA",
+        "water removal CA"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-17T20:27:18Z",
+      "post_url": "https://None/blog/water-damage-restoration-cost-ca/"
+    },
+    {
+      "id": "2026-09-06-reconstruction",
+      "status": "written",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "reconstruction",
+      "primary_keyword": "Reconstruction",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "fullerton-ca",
+      "source": "app target-term (onboarding-backfill)",
+      "written_at": "2026-09-19T22:27:37Z",
+      "post_url": "https://drycountyrestoration.com/blog/reconstruction/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/reconstruction.md",
+          "part": "frontmatter",
+          "family": "service-scope",
+          "severity": "review",
+          "matched": "Reconstruction Services",
+          "context": "archetype: \"blog-post\" title: \"Reconstruction Services in Fullerton, CA: What Happens After th",
+          "reason": "names the 'reconstruction' service family but plan-input services are only: water-damage-restoration, fire-damage-restoration, mold-remediation, general-contracting, storm-damage-restoration, sewage-cleanup"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-06-mold",
+      "status": "written",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "mold",
+      "primary_keyword": "Mold",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "chino-hills-ca",
+      "source": "app target-term (onboarding-backfill)",
+      "written_at": "2026-09-22T00:58:20Z",
+      "post_url": "https://drycountyrestoration.com/blog/mold/"
+    },
+    {
+      "id": "2026-09-06-water-damage",
+      "status": "published",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "water-damage",
+      "primary_keyword": "Water damage",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "chino-ca",
+      "source": "app target-term (onboarding-backfill)",
+      "written_at": "2026-09-24T10:27:11Z",
+      "post_url": "https://drycountyrestoration.com/blog/water-damage/",
+      "published_verified_at": "2026-09-24T10:28:43Z"
+    },
+    {
+      "id": "2026-09-06-leak-detection",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "leak-detection",
+      "primary_keyword": "Leak Detection",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "anaheim-ca",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
+      "id": "2026-08-26-best-water-damage-restoration-in-corona-ca",
+      "status": "written",
+      "queued_at": "2026-08-26T23:31:10Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-water-damage-restoration-in-corona-ca",
+      "primary_keyword": "best water damage restoration company in Corona, CA",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "corona-ca",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Corona",
+        "state": "CA",
+        "competitors": [
+          {
+            "name": "Livewell Restoration, LLC.",
+            "google_rating": 5,
+            "review_count": 74
+          },
+          {
+            "name": "Water Damage Champ",
+            "google_rating": 5,
+            "review_count": 10
+          },
+          {
+            "name": "SERVPRO of Corona",
+            "google_rating": 4.9,
+            "review_count": 61
+          },
+          {
+            "name": "Wet To Dry Mitigation Services Inc",
+            "google_rating": 5,
+            "review_count": 30
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best water damage restoration companies Corona",
+        "top rated water damage restoration Corona CA",
+        "who is the best water damage restoration company in Corona",
+        "water damage cleanup Corona",
+        "water damage repair Corona",
+        "water cleanup Corona"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-08-26T23:38:57Z",
+      "post_url": "https://None/blog/best-water-damage-restoration-company-in-corona-ca/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-corona-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "10 reviews",
+          "context": "Champ carries a 5.0 Google rating with 10 reviews. Their review count is lower than other",
+          "reason": "listicle review-count 10 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-corona-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "30 reviews",
+          "context": "rvices holds a 5.0 Google rating across 30 reviews. Their name signals a focused mitigatio",
+          "reason": "listicle review-count 30 (competitor stat \u2014 verify it is not presented as ours)"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-26-water-damage-restoration-cost",
+      "status": "written",
+      "queued_at": "2026-08-26T23:35:00Z",
+      "written_at": "2026-08-31T22:56:50Z",
+      "post_url": "https://None/blog/water-damage-restoration-cost/",
+      "primary_keyword": "water damage restoration cost",
+      "intent": "commercial",
+      "volume": 880,
+      "kd": 3,
+      "fan_out_cluster": [
+        "how much does water damage restoration cost",
+        "water damage restoration cost per square foot",
+        "average cost of water damage restoration",
+        "water damage restoration cost with insurance",
+        "cost to dry out a flooded room",
+        "water damage restoration cost California"
+      ],
+      "suggested_slug": "water-damage-restoration-cost",
+      "suggested_title": "Water damage restoration cost: what homeowners actually pay in 2026",
+      "target_word_count": 1800,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Highest-value uncovered term in the seed family (880/mo, KD 3, CPC 14.73). Build the pillar: cost by water category (1/2/3), by affected area, by square foot. Give real Southern California ranges and say plainly what insurance usually absorbs vs what the homeowner pays. Cover per-square-foot pricing as an H2 so the lower-volume variant folds in here instead of getting its own thin post.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
+    },
+    {
+      "id": "2026-08-26-does-renters-insurance-cover-water-damage",
+      "status": "written",
+      "queued_at": "2026-08-26T23:35:00Z",
+      "written_at": "2026-09-03T20:21:57Z",
+      "post_url": "https://None/blog/does-renters-insurance-cover-water-damage/",
+      "primary_keyword": "does renters insurance cover water damage",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 9,
+      "fan_out_cluster": [
+        "will renters insurance cover water damage",
+        "does renters insurance cover burst pipes",
+        "renters insurance water damage from upstairs neighbor",
+        "what water damage is not covered by renters insurance",
+        "is water damage covered by insurance in California",
+        "should I file an insurance claim for water damage"
+      ],
+      "suggested_slug": "does-renters-insurance-cover-water-damage",
+      "suggested_title": "Does renters insurance cover water damage? What is and is not paid for",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "sewage-cleanup"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iii.org/article/what-covered-renters-insurance",
+        "https://www.insurance.ca.gov/"
+      ],
+      "notes": "1000/mo, KD 9, CPC 10.79 and genuinely uncovered: the existing blog only handles homeowners policies. Draw the line clearly between the renter's contents coverage and the landlord's structure coverage, which is the question people are actually asking. Cross-link the homeowners post rather than repeating it. Reference California Department of Insurance for state-specific rules.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration"
+    },
+    {
+      "id": "2026-08-26-how-to-fix-water-damage-on-ceiling",
+      "status": "banked",
+      "queued_at": "2026-08-26T23:35:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to fix water damage on ceiling",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 0,
+      "fan_out_cluster": [
+        "why is my ceiling leaking after heavy rain",
+        "how to tell if water damage is behind wall",
+        "water stain on ceiling but no leak",
+        "how to repair a sagging water damaged ceiling",
+        "when a water damaged ceiling needs a professional",
+        "how long does mold take to grow after water damage"
+      ],
+      "suggested_slug": "how-to-fix-water-damage-on-ceiling",
+      "suggested_title": "How to fix water damage on a ceiling (and when to stop and call a pro)",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/general-contracting/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation",
+        "general-contracting"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "1000/mo, KD 0. Lead with the safety call: a sagging or bulging ceiling is holding water and is a collapse risk, not a DIY patch. Give the honest DIY boundary (small stain, dry, source fixed) then hand off to the restoration and reconstruction pages. The heavy-rain question is the strongest AI-retrieval passage in the cluster.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-17T22:13:26.016216+00:00"
+    },
+    {
+      "id": "2026-08-26-how-to-repair-water-damage-to-hardwood-floors",
+      "status": "banked",
+      "queued_at": "2026-08-26T23:35:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to repair water damage to hardwood floors",
+      "intent": "informational",
+      "volume": 590,
+      "kd": 0,
+      "fan_out_cluster": [
+        "how to repair water damage on wood",
+        "can water damaged hardwood floors be saved",
+        "how to dry hardwood floors after a leak",
+        "cupping and buckling in hardwood floors",
+        "when hardwood floors need replacing after water damage",
+        "how long does it take to dry out water damage"
+      ],
+      "suggested_slug": "how-to-repair-water-damage-to-hardwood-floors",
+      "suggested_title": "How to repair water damage to hardwood floors before they are a total loss",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/general-contracting/",
+        "/services/carpet-cleaning/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "general-contracting"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "590/mo, KD 0. The money angle is salvage vs replace: in-place structural drying (the firm holds IICRC ASD) often saves floors that look ruined, and that is a real differentiator worth stating. Explain cupping vs crowning vs buckling as the diagnostic. Fold the generic 'water damage on wood' variant in as an H2 on furniture and trim.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-17T22:13:26.016220+00:00"
+    },
+    {
+      "id": "2026-08-26-how-long-does-water-damage-restoration-take",
+      "status": "banked",
+      "queued_at": "2026-08-26T23:35:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how long does water damage restoration take",
+      "intent": "informational",
+      "volume": 50,
+      "kd": 3,
+      "fan_out_cluster": [
+        "how long does it take to dry out water damage",
+        "how long does a flooded house take to dry",
+        "do I need to move out during water damage restoration",
+        "water damage restoration process steps",
+        "what happens if water damage is not fixed",
+        "how long does mold take to grow after water damage"
+      ],
+      "suggested_slug": "how-long-does-water-damage-restoration-take",
+      "suggested_title": "How long does water damage restoration take? A day-by-day timeline",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/general-contracting/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "50/mo, KD 3, but it answers the two questions every panicked caller asks: how long, and do we have to leave. Structure as a literal day-by-day timeline (inspection, extraction, 3-5 days drying, then reconstruction) because that format is what AI assistants lift verbatim. Separate mitigation timeline from rebuild timeline so expectations are not set wrong.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-17T22:13:26.016221+00:00"
+    },
+    {
+      "id": "2026-09-17-what-to-do-after-a-house-fire",
+      "status": "queued",
+      "queued_at": "2026-09-17T20:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to do after a house fire",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 0,
+      "fan_out_cluster": [
+        "what happens after a house fire",
+        "what to do first after a house fire",
+        "do i need to move out after a house fire",
+        "can a house be saved after a fire",
+        "how long does fire damage restoration take",
+        "emergency board up after a fire"
+      ],
+      "suggested_slug": "what-to-do-after-a-house-fire",
+      "suggested_title": "What to do after a house fire in Corona, CA (your first 24 hours)",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/emergency-board-up-tarping/",
+        "/services/contents-restoration/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "emergency-board-up-tarping",
+        "contents-restoration"
+      ],
+      "city_anchor": "corona-ca",
+      "external_authority_candidates": [
+        "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/",
+        "https://www.redcross.org/get-help/disaster-relief-and-recovery-services/recovering-from-a-home-fire.html",
+        "https://www.iicrc.org/page/IICRCS700"
+      ],
+      "notes": "KD 0 with 260/mo: easiest win in this seed family. Lead with the safety/re-entry sequence, then board-up and tarping to stop secondary damage, then documenting for the claim. Distinct from the existing /blog/what-to-do-first-24-hours-water-damage/ post: that one is water, this one is fire. Cross-link the two. Mention 24/7 dispatch and the (951) 667-9910 line early."
+    },
+    {
+      "id": "2026-09-17-does-homeowners-insurance-cover-fire-damage",
+      "status": "queued",
+      "queued_at": "2026-09-17T20:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover fire damage",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 30,
+      "fan_out_cluster": [
+        "smoke damage insurance claim",
+        "is smoke damage covered by insurance",
+        "does renters insurance cover smoke damage",
+        "what to throw away after smoke damage",
+        "how to prove smoke damage",
+        "fire damage restoration cost"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-fire-damage",
+      "suggested_title": "Does homeowners insurance cover fire damage? A Riverside County homeowner's guide",
+      "target_word_count": 1700,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/riverside-ca/fire-damage-restoration/",
+        "/services/contents-restoration/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "contents-restoration"
+      ],
+      "city_anchor": "riverside-ca",
+      "external_authority_candidates": [
+        "https://www.insurance.ca.gov/01-consumers/105-type/9-residential/",
+        "https://www.iicrc.org/page/IICRCS700",
+        "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/"
+      ],
+      "notes": "CPC 16.66 signals real commercial value. Highest-value decision-stage topic in this family: homeowners read it 24-48 hours before they hire. Cover dwelling vs contents vs loss-of-use, smoke and soot as covered fire damage, water damage from firefighting, and the California-specific angle (CA Dept of Insurance, wildfire-adjacent coverage). Parallels the existing water-damage insurance post; cross-link, do not duplicate."
+    },
+    {
+      "id": "2026-09-17-smoke-damage-restoration",
+      "status": "queued",
+      "queued_at": "2026-09-17T20:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "smoke damage restoration",
+      "intent": "commercial",
+      "volume": 1600,
+      "kd": 20,
+      "fan_out_cluster": [
+        "smoke damage restoration near me",
+        "smoke damage cleaning",
+        "smoke damage repair",
+        "soot cleaning",
+        "smoke damage restoration services",
+        "smoke damage in house",
+        "is smoke damage worse than fire damage"
+      ],
+      "suggested_slug": "smoke-damage-restoration-corona-ca",
+      "suggested_title": "Smoke damage restoration in Corona, CA: what it costs and how it works",
+      "target_word_count": 1800,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/services/air-duct-cleaning/",
+        "/services/contents-restoration/",
+        "/services/carpet-cleaning/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "air-duct-cleaning",
+        "contents-restoration",
+        "carpet-cleaning"
+      ],
+      "city_anchor": "corona-ca",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS700",
+        "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/"
+      ],
+      "notes": "Biggest uncovered commercial gap found this run: 1600/mo at KD 20 with CPC 31.88 and NO page in the url-plan targeting smoke or soot. SERVICE-FIT FLAG: smoke-damage-restoration and soot-removal are catalog slugs that are NOT in this client's plan-input services[], so this is written as a sub-topic of the in-plan fire-damage-restoration service and tagged that way. Do not promise smoke remediation as a standalone service line. Client holds IICRC WRT/ASD/AMRT but NOT FSRT/OCT; keep claims to their actual certifications. Recommend the team add smoke-damage-restoration to plan-input and build a service page."
+    },
+    {
+      "id": "2026-09-17-fire-damage-restoration-cost",
+      "status": "queued",
+      "queued_at": "2026-09-17T20:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "fire damage restoration cost",
+      "intent": "commercial",
+      "volume": 260,
+      "kd": 1,
+      "fan_out_cluster": [
+        "average cost of fire damage restoration",
+        "fire damage restoration cost per square foot",
+        "how much does fire damage restoration cost",
+        "cost to restore a house after a fire",
+        "fire damage restoration cost california",
+        "fire damage restoration rates"
+      ],
+      "suggested_slug": "fire-damage-restoration-cost-anaheim-ca",
+      "suggested_title": "Fire damage restoration cost in Anaheim, CA (2026 pricing ranges)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/anaheim-ca/fire-damage-restoration/",
+        "/services/general-contracting/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "general-contracting"
+      ],
+      "city_anchor": "anaheim-ca",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS700",
+        "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/"
+      ],
+      "notes": "KD 1. Give honest ranges by damage severity and square footage, separate mitigation from reconstruction (general-contracting is in plan, so the rebuild side is sellable), and explain how the insurance deductible changes out-of-pocket cost. Pairs with the queued water damage restoration cost CA post: use the same table format, do not repeat the copy."
+    },
+    {
+      "id": "2026-09-17-what-to-throw-away-after-smoke-damage",
+      "status": "banked",
+      "queued_at": "2026-09-17T20:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to throw away after smoke damage",
+      "intent": "informational",
+      "volume": 210,
+      "kd": null,
+      "fan_out_cluster": [
+        "how to clean smoke damage on walls and ceiling",
+        "how to clean up smoke damage",
+        "how to get smoke smell out of house after fire",
+        "how do you clean soot off walls after a fire",
+        "how long does smoke smell last after a fire",
+        "smoke damage in house"
+      ],
+      "suggested_slug": "what-to-throw-away-after-smoke-damage",
+      "suggested_title": "What to throw away after smoke damage (and what a pro can save) in Santa Ana, CA",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/contents-restoration/",
+        "/services/fire-damage-restoration/",
+        "/service-areas/santa-ana-ca/fire-damage-restoration/",
+        "/services/air-duct-cleaning/"
+      ],
+      "service_tags": [
+        "contents-restoration",
+        "fire-damage-restoration",
+        "air-duct-cleaning"
+      ],
+      "city_anchor": "santa-ana-ca",
+      "external_authority_candidates": [
+        "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/",
+        "https://www.redcross.org/get-help/disaster-relief-and-recovery-services/recovering-from-a-home-fire.html",
+        "https://www.iicrc.org/page/IICRCS700"
+      ],
+      "notes": "CPC 18.92 on a 210/mo question: strong AI-retrieval fuel, and the keep-vs-toss list is exactly the passage format ChatGPT lifts verbatim. Build it as a room-by-room and material-by-material list (food, medication, cosmetics, mattresses, porous vs non-porous). Tie the save side to contents-restoration, which IS in plan. KD unknown (not in the Labs DB); queued on volume plus intent.",
+      "banked_at": "2026-09-28T22:24:24.201297+00:00"
     }
-   ]
-  },
-  {
-   "id": "2026-08-26-water-damage-restoration-cost",
-   "status": "written",
-   "queued_at": "2026-08-26T23:35:00Z",
-   "written_at": "2026-08-31T22:56:50Z",
-   "post_url": "https://None/blog/water-damage-restoration-cost/",
-   "primary_keyword": "water damage restoration cost",
-   "intent": "commercial",
-   "volume": 880,
-   "kd": 3,
-   "fan_out_cluster": [
-    "how much does water damage restoration cost",
-    "water damage restoration cost per square foot",
-    "average cost of water damage restoration",
-    "water damage restoration cost with insurance",
-    "cost to dry out a flooded room",
-    "water damage restoration cost California"
-   ],
-   "suggested_slug": "water-damage-restoration-cost",
-   "suggested_title": "Water damage restoration cost: what homeowners actually pay in 2026",
-   "target_word_count": 1800,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "mold-remediation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Highest-value uncovered term in the seed family (880/mo, KD 3, CPC 14.73). Build the pillar: cost by water category (1/2/3), by affected area, by square foot. Give real Southern California ranges and say plainly what insurance usually absorbs vs what the homeowner pays. Cover per-square-foot pricing as an H2 so the lower-volume variant folds in here instead of getting its own thin post.",
-   "source": "keyword-researcher",
-   "seed": "water damage restoration"
-  },
-  {
-   "id": "2026-08-26-does-renters-insurance-cover-water-damage",
-   "status": "written",
-   "queued_at": "2026-08-26T23:35:00Z",
-   "written_at": "2026-09-03T20:21:57Z",
-   "post_url": "https://None/blog/does-renters-insurance-cover-water-damage/",
-   "primary_keyword": "does renters insurance cover water damage",
-   "intent": "informational",
-   "volume": 1000,
-   "kd": 9,
-   "fan_out_cluster": [
-    "will renters insurance cover water damage",
-    "does renters insurance cover burst pipes",
-    "renters insurance water damage from upstairs neighbor",
-    "what water damage is not covered by renters insurance",
-    "is water damage covered by insurance in California",
-    "should I file an insurance claim for water damage"
-   ],
-   "suggested_slug": "does-renters-insurance-cover-water-damage",
-   "suggested_title": "Does renters insurance cover water damage? What is and is not paid for",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/blog/does-homeowners-insurance-cover-water-damage/",
-    "/services/water-damage-restoration/",
-    "/services/sewage-cleanup/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "sewage-cleanup"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iii.org/article/what-covered-renters-insurance",
-    "https://www.insurance.ca.gov/"
-   ],
-   "notes": "1000/mo, KD 9, CPC 10.79 and genuinely uncovered: the existing blog only handles homeowners policies. Draw the line clearly between the renter's contents coverage and the landlord's structure coverage, which is the question people are actually asking. Cross-link the homeowners post rather than repeating it. Reference California Department of Insurance for state-specific rules.",
-   "source": "keyword-researcher",
-   "seed": "water damage restoration"
-  },
-  {
-   "id": "2026-08-26-how-to-fix-water-damage-on-ceiling",
-   "status": "banked",
-   "queued_at": "2026-08-26T23:35:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "how to fix water damage on ceiling",
-   "intent": "informational",
-   "volume": 1000,
-   "kd": 0,
-   "fan_out_cluster": [
-    "why is my ceiling leaking after heavy rain",
-    "how to tell if water damage is behind wall",
-    "water stain on ceiling but no leak",
-    "how to repair a sagging water damaged ceiling",
-    "when a water damaged ceiling needs a professional",
-    "how long does mold take to grow after water damage"
-   ],
-   "suggested_slug": "how-to-fix-water-damage-on-ceiling",
-   "suggested_title": "How to fix water damage on a ceiling (and when to stop and call a pro)",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/services/general-contracting/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "mold-remediation",
-    "general-contracting"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/mold-cleanup-your-home"
-   ],
-   "notes": "1000/mo, KD 0. Lead with the safety call: a sagging or bulging ceiling is holding water and is a collapse risk, not a DIY patch. Give the honest DIY boundary (small stain, dry, source fixed) then hand off to the restoration and reconstruction pages. The heavy-rain question is the strongest AI-retrieval passage in the cluster.",
-   "source": "keyword-researcher",
-   "seed": "water damage restoration",
-   "banked_at": "2026-09-17T22:13:26.016216+00:00"
-  },
-  {
-   "id": "2026-08-26-how-to-repair-water-damage-to-hardwood-floors",
-   "status": "banked",
-   "queued_at": "2026-08-26T23:35:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "how to repair water damage to hardwood floors",
-   "intent": "informational",
-   "volume": 590,
-   "kd": 0,
-   "fan_out_cluster": [
-    "how to repair water damage on wood",
-    "can water damaged hardwood floors be saved",
-    "how to dry hardwood floors after a leak",
-    "cupping and buckling in hardwood floors",
-    "when hardwood floors need replacing after water damage",
-    "how long does it take to dry out water damage"
-   ],
-   "suggested_slug": "how-to-repair-water-damage-to-hardwood-floors",
-   "suggested_title": "How to repair water damage to hardwood floors before they are a total loss",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/general-contracting/",
-    "/services/carpet-cleaning/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "general-contracting"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "590/mo, KD 0. The money angle is salvage vs replace: in-place structural drying (the firm holds IICRC ASD) often saves floors that look ruined, and that is a real differentiator worth stating. Explain cupping vs crowning vs buckling as the diagnostic. Fold the generic 'water damage on wood' variant in as an H2 on furniture and trim.",
-   "source": "keyword-researcher",
-   "seed": "water damage restoration",
-   "banked_at": "2026-09-17T22:13:26.016220+00:00"
-  },
-  {
-   "id": "2026-08-26-how-long-does-water-damage-restoration-take",
-   "status": "banked",
-   "queued_at": "2026-08-26T23:35:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "how long does water damage restoration take",
-   "intent": "informational",
-   "volume": 50,
-   "kd": 3,
-   "fan_out_cluster": [
-    "how long does it take to dry out water damage",
-    "how long does a flooded house take to dry",
-    "do I need to move out during water damage restoration",
-    "water damage restoration process steps",
-    "what happens if water damage is not fixed",
-    "how long does mold take to grow after water damage"
-   ],
-   "suggested_slug": "how-long-does-water-damage-restoration-take",
-   "suggested_title": "How long does water damage restoration take? A day-by-day timeline",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/services/general-contracting/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "mold-remediation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "50/mo, KD 3, but it answers the two questions every panicked caller asks: how long, and do we have to leave. Structure as a literal day-by-day timeline (inspection, extraction, 3-5 days drying, then reconstruction) because that format is what AI assistants lift verbatim. Separate mitigation timeline from rebuild timeline so expectations are not set wrong.",
-   "source": "keyword-researcher",
-   "seed": "water damage restoration",
-   "banked_at": "2026-09-17T22:13:26.016221+00:00"
-  },
-  {
-   "id": "2026-09-17-what-to-do-after-a-house-fire",
-   "status": "queued",
-   "queued_at": "2026-09-17T20:30:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "what to do after a house fire",
-   "intent": "informational",
-   "volume": 260,
-   "kd": 0,
-   "fan_out_cluster": [
-    "what happens after a house fire",
-    "what to do first after a house fire",
-    "do i need to move out after a house fire",
-    "can a house be saved after a fire",
-    "how long does fire damage restoration take",
-    "emergency board up after a fire"
-   ],
-   "suggested_slug": "what-to-do-after-a-house-fire",
-   "suggested_title": "What to do after a house fire in Corona, CA (your first 24 hours)",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/fire-damage-restoration/",
-    "/services/emergency-board-up-tarping/",
-    "/services/contents-restoration/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "fire-damage-restoration",
-    "emergency-board-up-tarping",
-    "contents-restoration"
-   ],
-   "city_anchor": "corona-ca",
-   "external_authority_candidates": [
-    "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/",
-    "https://www.redcross.org/get-help/disaster-relief-and-recovery-services/recovering-from-a-home-fire.html",
-    "https://www.iicrc.org/page/IICRCS700"
-   ],
-   "notes": "KD 0 with 260/mo: easiest win in this seed family. Lead with the safety/re-entry sequence, then board-up and tarping to stop secondary damage, then documenting for the claim. Distinct from the existing /blog/what-to-do-first-24-hours-water-damage/ post: that one is water, this one is fire. Cross-link the two. Mention 24/7 dispatch and the (951) 667-9910 line early."
-  },
-  {
-   "id": "2026-09-17-does-homeowners-insurance-cover-fire-damage",
-   "status": "queued",
-   "queued_at": "2026-09-17T20:30:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "does homeowners insurance cover fire damage",
-   "intent": "informational",
-   "volume": 260,
-   "kd": 30,
-   "fan_out_cluster": [
-    "smoke damage insurance claim",
-    "is smoke damage covered by insurance",
-    "does renters insurance cover smoke damage",
-    "what to throw away after smoke damage",
-    "how to prove smoke damage",
-    "fire damage restoration cost"
-   ],
-   "suggested_slug": "does-homeowners-insurance-cover-fire-damage",
-   "suggested_title": "Does homeowners insurance cover fire damage? A Riverside County homeowner's guide",
-   "target_word_count": 1700,
-   "internal_link_targets": [
-    "/services/fire-damage-restoration/",
-    "/service-areas/riverside-ca/fire-damage-restoration/",
-    "/services/contents-restoration/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "fire-damage-restoration",
-    "contents-restoration"
-   ],
-   "city_anchor": "riverside-ca",
-   "external_authority_candidates": [
-    "https://www.insurance.ca.gov/01-consumers/105-type/9-residential/",
-    "https://www.iicrc.org/page/IICRCS700",
-    "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/"
-   ],
-   "notes": "CPC 16.66 signals real commercial value. Highest-value decision-stage topic in this family: homeowners read it 24-48 hours before they hire. Cover dwelling vs contents vs loss-of-use, smoke and soot as covered fire damage, water damage from firefighting, and the California-specific angle (CA Dept of Insurance, wildfire-adjacent coverage). Parallels the existing water-damage insurance post; cross-link, do not duplicate."
-  },
-  {
-   "id": "2026-09-17-smoke-damage-restoration",
-   "status": "queued",
-   "queued_at": "2026-09-17T20:30:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "smoke damage restoration",
-   "intent": "commercial",
-   "volume": 1600,
-   "kd": 20,
-   "fan_out_cluster": [
-    "smoke damage restoration near me",
-    "smoke damage cleaning",
-    "smoke damage repair",
-    "soot cleaning",
-    "smoke damage restoration services",
-    "smoke damage in house",
-    "is smoke damage worse than fire damage"
-   ],
-   "suggested_slug": "smoke-damage-restoration-corona-ca",
-   "suggested_title": "Smoke damage restoration in Corona, CA: what it costs and how it works",
-   "target_word_count": 1800,
-   "internal_link_targets": [
-    "/services/fire-damage-restoration/",
-    "/services/air-duct-cleaning/",
-    "/services/contents-restoration/",
-    "/services/carpet-cleaning/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "fire-damage-restoration",
-    "air-duct-cleaning",
-    "contents-restoration",
-    "carpet-cleaning"
-   ],
-   "city_anchor": "corona-ca",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS700",
-    "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/"
-   ],
-   "notes": "Biggest uncovered commercial gap found this run: 1600/mo at KD 20 with CPC 31.88 and NO page in the url-plan targeting smoke or soot. SERVICE-FIT FLAG: smoke-damage-restoration and soot-removal are catalog slugs that are NOT in this client's plan-input services[], so this is written as a sub-topic of the in-plan fire-damage-restoration service and tagged that way. Do not promise smoke remediation as a standalone service line. Client holds IICRC WRT/ASD/AMRT but NOT FSRT/OCT; keep claims to their actual certifications. Recommend the team add smoke-damage-restoration to plan-input and build a service page."
-  },
-  {
-   "id": "2026-09-17-fire-damage-restoration-cost",
-   "status": "queued",
-   "queued_at": "2026-09-17T20:30:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "fire damage restoration cost",
-   "intent": "commercial",
-   "volume": 260,
-   "kd": 1,
-   "fan_out_cluster": [
-    "average cost of fire damage restoration",
-    "fire damage restoration cost per square foot",
-    "how much does fire damage restoration cost",
-    "cost to restore a house after a fire",
-    "fire damage restoration cost california",
-    "fire damage restoration rates"
-   ],
-   "suggested_slug": "fire-damage-restoration-cost-anaheim-ca",
-   "suggested_title": "Fire damage restoration cost in Anaheim, CA (2026 pricing ranges)",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/fire-damage-restoration/",
-    "/service-areas/anaheim-ca/fire-damage-restoration/",
-    "/services/general-contracting/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "fire-damage-restoration",
-    "general-contracting"
-   ],
-   "city_anchor": "anaheim-ca",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS700",
-    "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/"
-   ],
-   "notes": "KD 1. Give honest ranges by damage severity and square footage, separate mitigation from reconstruction (general-contracting is in plan, so the rebuild side is sellable), and explain how the insurance deductible changes out-of-pocket cost. Pairs with the queued water damage restoration cost CA post: use the same table format, do not repeat the copy."
-  },
-  {
-   "id": "2026-09-17-what-to-throw-away-after-smoke-damage",
-   "status": "queued",
-   "queued_at": "2026-09-17T20:30:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "what to throw away after smoke damage",
-   "intent": "informational",
-   "volume": 210,
-   "kd": null,
-   "fan_out_cluster": [
-    "how to clean smoke damage on walls and ceiling",
-    "how to clean up smoke damage",
-    "how to get smoke smell out of house after fire",
-    "how do you clean soot off walls after a fire",
-    "how long does smoke smell last after a fire",
-    "smoke damage in house"
-   ],
-   "suggested_slug": "what-to-throw-away-after-smoke-damage",
-   "suggested_title": "What to throw away after smoke damage (and what a pro can save) in Santa Ana, CA",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/contents-restoration/",
-    "/services/fire-damage-restoration/",
-    "/service-areas/santa-ana-ca/fire-damage-restoration/",
-    "/services/air-duct-cleaning/"
-   ],
-   "service_tags": [
-    "contents-restoration",
-    "fire-damage-restoration",
-    "air-duct-cleaning"
-   ],
-   "city_anchor": "santa-ana-ca",
-   "external_authority_candidates": [
-    "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/",
-    "https://www.redcross.org/get-help/disaster-relief-and-recovery-services/recovering-from-a-home-fire.html",
-    "https://www.iicrc.org/page/IICRCS700"
-   ],
-   "notes": "CPC 18.92 on a 210/mo question: strong AI-retrieval fuel, and the keep-vs-toss list is exactly the passage format ChatGPT lifts verbatim. Build it as a room-by-room and material-by-material list (food, medication, cosmetics, mattresses, porous vs non-porous). Tie the save side to contents-restoration, which IS in plan. KD unknown (not in the Labs DB); queued on volume plus intent."
-  }
- ]
+  ]
 }
