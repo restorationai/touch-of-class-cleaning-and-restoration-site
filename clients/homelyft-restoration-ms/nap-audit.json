@@ -1,6 +1,6 @@
 {
   "slug": "homelyft-restoration-ms",
-  "checked_at": "2026-09-28T14:43:00.980291+00:00",
+  "checked_at": "2026-09-28T16:23:01.491458+00:00",
   "canonical": {
     "name": "HomeLyft Restoration MS",
     "phone": "+12282845200",
@@ -38,13 +38,11 @@
       "platform": "yelp",
       "url": "https://www.homelyft.net/",
       "status": "ok",
-      "fetch": "wayback:2026-03-05",
-      "phones_found": [
-        "(228) 284-5200"
-      ],
-      "phone_match": true,
+      "fetch": "http",
+      "phones_found": [],
+      "phone_match": null,
       "address_match": true,
-      "notes": "via Wayback capture 2026-03-05 (page bot-blocked)"
+      "notes": "no phone number found on page"
     },
     {
       "platform": "homeguide",
