@@ -69,14 +69,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.6",
-  gbpReviewCount: "108",
+  gbpReviewCount: "109",
   gbpReviews: [
+    { author: "Denise", rating: 5, text: "There are not enough adjectives to describe how fabulous Luis and his crew have been during the demolition phase of this job. Luis leads by example for professionalism, skill, safety, punctuality, clean up, and even humor to keep us smiling during a difficult time. We look forward to Luis returning…", when: "September 2026" },
     { author: "Ellin", rating: 5, text: "Quality did an excellent restoration job when my condo was involved in a fire.", when: "September 2026" },
     { author: "Peggy", rating: 4, text: "Derek was wonderful! We had an insurance claim from water damage. The work was well done.", when: "September 2026" },
     { author: "Mark", rating: 5, text: "Quality Contracting updated our standard tub/shower to a walk in for my elderly father. They came when they said they would, the did everything they said they would and the charged me the reasonable cost that they said they would. Highly recommend.", when: "September 2026" },
     { author: "Jane", rating: 5, text: "I highly recommend Quality Construction! When my condo suffered water damage Matt , Kale and a third person (sorry I don’t remember his name), provided outstanding support and expertise from start to finish.They worked carefully and thoroughly to dry and clean every affected area, while treating my…", when: "September 2026" },
     { author: "Denise", rating: 5, text: "We had extensive flood damage at our home. Quality Contracting did the repairs for us and did an exceptional job", when: "September 2026" },
-    { author: "Jeannine", rating: 5, text: "Luis was wonderful! Explained everything and handled the our water leak professionally. Thank you!", when: "September 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Auburn, MA.",
   ctaLabel: "24/7 Emergency Line",
