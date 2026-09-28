@@ -591,7 +591,7 @@
     },
     {
       "id": "2026-09-24-does-renters-insurance-cover-water-damage-chicago",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T20:28:17Z",
       "written_at": null,
       "post_url": null,
@@ -628,11 +628,12 @@
       ],
       "notes": "HO-4 covers the renter's personal property and loss of use, not the building (landlord's policy). Cover sudden-and-accidental vs gradual leaks, upstairs-unit leaks in Chicago two-flats and condo buildings, and the landlord/HOA notification step. Contrast with the existing homeowners insurance post and link to it.",
       "source": "keyword-researcher",
-      "seed": "what to do after water damage"
+      "seed": "what to do after water damage",
+      "banked_at": "2026-09-28T10:24:07.253698+00:00"
     },
     {
       "id": "2026-09-24-how-to-fix-water-damage-on-ceiling-evanston",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T20:28:17Z",
       "written_at": null,
       "post_url": null,
@@ -668,11 +669,12 @@
       ],
       "notes": "Lead with finding and stopping the source (roof, upstairs bath, pipe), sagging-ceiling safety, and moisture readings before any patching. Stain-only DIY vs saturated drywall that must come down. Evanston's older housing stock (plaster and lath) is a good local angle.",
       "source": "keyword-researcher",
-      "seed": "what to do after water damage"
+      "seed": "what to do after water damage",
+      "banked_at": "2026-09-28T10:24:07.253714+00:00"
     },
     {
       "id": "2026-09-24-drywall-repair-after-water-damage-naperville",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T20:28:17Z",
       "written_at": null,
       "post_url": null,
@@ -708,11 +710,12 @@
       ],
       "notes": "Frame from the mitigation side: water category, moisture mapping, flood cuts at 2 ft/4 ft, when drywall can be dried in place. Reconstruction is not a planned service, so stop at 'dried and ready for rebuild'; do not promise drywall hanging/finishing. Naperville finished basements are the local angle.",
       "source": "keyword-researcher",
-      "seed": "what to do after water damage"
+      "seed": "what to do after water damage",
+      "banked_at": "2026-09-28T10:24:07.253718+00:00"
     },
     {
       "id": "2026-09-24-how-fast-does-mold-grow-after-water-damage-chicago",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T20:28:17Z",
       "written_at": null,
       "post_url": null,
@@ -749,11 +752,12 @@
       ],
       "notes": "Lead with the EPA 24-48 hour drying window (ChatGPT cites it verbatim). Cover humid Chicago summers vs heated winter basements, why bleach sprays do not fix wet porous materials, and health risk framing without fear-mongering. Consolidates bank items on mold timing.",
       "source": "keyword-researcher",
-      "seed": "what to do after water damage"
+      "seed": "what to do after water damage",
+      "banked_at": "2026-09-28T10:24:07.253720+00:00"
     },
     {
       "id": "2026-09-24-how-to-repair-water-damage-hardwood-floor-oak-park",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T20:28:17Z",
       "written_at": null,
       "post_url": null,
@@ -789,7 +793,8 @@
       ],
       "notes": "Cupping vs crowning vs buckling, why floor drying mats and dehumidification come before sanding, and when boards must be pulled. Oak Park's century-old oak floors (Prairie School homes) make the save-vs-replace decision high-stakes. Stay on the drying/mitigation side, no refinishing promises.",
       "source": "keyword-researcher",
-      "seed": "what to do after water damage"
+      "seed": "what to do after water damage",
+      "banked_at": "2026-09-28T10:24:07.253723+00:00"
     }
   ]
 }

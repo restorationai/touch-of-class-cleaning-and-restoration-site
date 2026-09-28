@@ -429,7 +429,7 @@
     },
     {
       "id": "2026-09-24-smoke-odor-removal-after-house-fire-brandon",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T21:41:56Z",
       "written_at": null,
       "post_url": null,
@@ -462,11 +462,12 @@
         "https://www.iicrc.org/page/IICRCS700"
       ],
       "notes": "Highest-volume term in the fire family (1600/mo, KD 18) with no dedicated page. Explain why masking sprays fail and why Florida humidity reactivates smoke odor. Mention HVAC as an odor reservoir without promising duct replacement. Keep distinct from the queued Fire & Smoke Restoration item (service overview) by staying on odor only.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-28T10:24:07.255337+00:00"
     },
     {
       "id": "2026-09-24-how-to-clean-soot-off-walls-tampa",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T21:41:56Z",
       "written_at": null,
       "post_url": null,
@@ -500,7 +501,8 @@
         "https://www.epa.gov/indoor-air-quality-iaq"
       ],
       "notes": "590/mo, KD 0, question-format how-to that AI assistants quote. Give honest light-soot DIY steps (dry sponge first, no water) then clear stop signs: oily protein residue, large areas, or soot in HVAC. Avoid guaranteeing results.",
-      "source": "keyword-researcher"
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-28T10:24:07.255344+00:00"
     },
     {
       "id": "2026-09-24-what-to-do-after-a-house-fire-tampa",

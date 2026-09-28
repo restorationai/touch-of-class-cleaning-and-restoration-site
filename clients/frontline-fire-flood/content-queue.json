@@ -262,7 +262,7 @@
     },
     {
       "id": "2026-09-24-water-damage-in-ceiling-tacoma",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -297,11 +297,12 @@
         "https://www.iicrc.org/page/IICRCS500",
         "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
       ],
-      "notes": "Highest-volume uncovered term this run (2,900 US, 70/mo in WA, KD 0). Pacific Northwest rain season angle: roof and attic leaks, upstairs bathroom and supply-line leaks. Cover sagging drywall collapse risk, when DIY patching is fine vs when wet insulation and mold mean a pro. Absorbs 'ceiling water damage repair' (1,900) and 'how to repair water damaged ceiling' (1,000) as H2s."
+      "notes": "Highest-volume uncovered term this run (2,900 US, 70/mo in WA, KD 0). Pacific Northwest rain season angle: roof and attic leaks, upstairs bathroom and supply-line leaks. Cover sagging drywall collapse risk, when DIY patching is fine vs when wet insulation and mold mean a pro. Absorbs 'ceiling water damage repair' (1,900) and 'how to repair water damaged ceiling' (1,000) as H2s.",
+      "banked_at": "2026-09-28T10:24:07.256869+00:00"
     },
     {
       "id": "2026-09-24-what-is-water-mitigation",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -333,11 +334,12 @@
         "https://www.iicrc.org/page/IICRCS500",
         "https://www.insurance.wa.gov/insurance-resources/home-insurance/how-home-insurance-works/leaks-water-damage-and-mold"
       ],
-      "notes": "Insurance adjusters and invoices separate mitigation (stop, extract, dry) from restoration (rebuild), and homeowners search the term after seeing it on a claim. ChatGPT's Tacoma answer led with 'a restoration company's first job is usually not rebuilding'. Cite the WA Office of the Insurance Commissioner page ChatGPT sourced."
+      "notes": "Insurance adjusters and invoices separate mitigation (stop, extract, dry) from restoration (rebuild), and homeowners search the term after seeing it on a claim. ChatGPT's Tacoma answer led with 'a restoration company's first job is usually not rebuilding'. Cite the WA Office of the Insurance Commissioner page ChatGPT sourced.",
+      "banked_at": "2026-09-28T10:24:07.256875+00:00"
     },
     {
       "id": "2026-09-24-water-damage-restoration-process-puyallup",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -370,11 +372,12 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Water counterpart to the existing fire-damage-restoration-process post. Build it around the questions ChatGPT tells Tacoma-area homeowners to ask: where the moisture is, thermal imaging, written moisture readings, how many dehumidifiers and air movers, how you know it is dry enough to rebuild. Frontline's IICRC WRT and ASD certifications fit naturally here."
+      "notes": "Water counterpart to the existing fire-damage-restoration-process post. Build it around the questions ChatGPT tells Tacoma-area homeowners to ask: where the moisture is, thermal imaging, written moisture readings, how many dehumidifiers and air movers, how you know it is dry enough to rebuild. Frontline's IICRC WRT and ASD certifications fit naturally here.",
+      "banked_at": "2026-09-28T10:24:07.256877+00:00"
     },
     {
       "id": "2026-09-24-how-long-does-water-damage-restoration-take",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-24T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -406,7 +409,8 @@
         "https://www.iicrc.org/page/IICRCS500",
         "https://doh.wa.gov/community-and-environment/contaminants/mold"
       ],
-      "notes": "Question-format GEO target (US volume up 180% YoY). Open with a direct answer passage (mitigation and drying typically take 3 to 5 days; rebuild takes longer), then a phase-by-phase timeline. Brings in two banked question keywords as H2s. Mention the humid Puget Sound climate when explaining drying times."
+      "notes": "Question-format GEO target (US volume up 180% YoY). Open with a direct answer passage (mitigation and drying typically take 3 to 5 days; rebuild takes longer), then a phase-by-phase timeline. Brings in two banked question keywords as H2s. Mention the humid Puget Sound climate when explaining drying times.",
+      "banked_at": "2026-09-28T10:24:07.256878+00:00"
     }
   ]
 }
