@@ -1,41 +1,38 @@
 keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
-restoration smoke damage,transactional,1600,12,31.88,2,smoke damage restoration,,,no
-smoke and fire damage restoration,transactional,590,12,28.79,2,smoke damage restoration,,,no
 smoke damage cleaning,transactional,480,19,59.88,2,smoke damage restoration,,,no
-smoke damage restoration company,transactional,170,6,,2,smoke damage restoration,,,no
 smoke damage repair near me,transactional,110,4,,2,smoke damage restoration,,,no
-smoke damage claim,transactional,90,0,13.24,2,smoke damage restoration,,,no
-smoke damage near me,transactional,90,50,,2,smoke damage restoration,,,no
-smoke damage repair companies,transactional,70,5,,2,smoke damage restoration,,,no
-smoke damage cleaning service,transactional,70,3,33.63,2,smoke damage restoration,,,no
-smoke damage removal,transactional,40,12,98.03,2,smoke damage restoration,,,no
+smoke damage cleaners near me,transactional,40,0,46.54,2,smoke damage restoration,,,no
+smoke damage cleaning services near me,transactional,30,5,148.72,2,smoke damage restoration,,,no
+smoke damage odor removal,transactional,30,16,3.89,2,smoke damage restoration,,,no
+fire damage restoration smoke cleanup,transactional,20,24,,2,smoke damage restoration,,,no
+smoke damage mitigation,transactional,20,7,,2,smoke damage restoration,,,no
+residential smoke damage restoration,transactional,10,,,2,smoke damage restoration,,,no
 smoke damage restoration cost,commercial,50,0,10.16,2,smoke damage restoration,,,no
 smoke damage cleaning cost,commercial,40,0,40.58,2,smoke damage restoration,,,no
-how much does smoke damage restoration cost,commercial,,,,2,smoke damage restoration,,,no
-how do i choose a smoke damage restoration company,commercial,,,,2,smoke damage restoration,,,no
+smoke damage cleaner,commercial,210,1,11.42,3,smoke damage restoration,,,no
+hepa vacuum for smoke damage,commercial,210,1,2.21,3,smoke damage restoration,,,no
+smoke damage cleaning products,commercial,110,0,6.4,3,smoke damage restoration,,,no
+smoke damage primer,commercial,70,0,0.67,3,smoke damage restoration,,,no
 smoke damage,informational,880,1,2.42,2,smoke damage restoration,,,no
 smoke damage from fire,informational,590,11,6.96,2,smoke damage restoration,,,no
-smoke damage house,informational,260,10,35.8,2,smoke damage restoration,,,no
-cleaning up smoke damage,informational,210,12,11.42,2,smoke damage restoration,,,no
-smoke damage to walls,informational,170,0,,2,smoke damage restoration,,,no
-how to clean smoke damage,informational,90,10,1.75,2,smoke damage restoration,,,no
+smoke damage on walls,informational,170,0,,2,smoke damage restoration,,,no
 smoke damage to clothes,informational,90,0,,2,smoke damage restoration,,,no
+how do you clean smoke damage,informational,90,10,1.75,2,smoke damage restoration,,,no
 smoke damage on ceiling,informational,70,6,,2,smoke damage restoration,,,no
+smoke damage apartment,informational,50,0,,2,smoke damage restoration,,,no
 what does smoke damage look like,informational,50,0,,2,smoke damage restoration,,,no
 what is smoke damage,informational,50,0,,2,smoke damage restoration,,,no
-smoke damage apartment,informational,50,0,,2,smoke damage restoration,,,no
-cleaning after fire smoke damage,informational,50,6,23.4,2,smoke damage restoration,,,no
+thermal fogging for smoke damage,informational,40,0,5.39,2,smoke damage restoration,,,no
+candle smoke damage,informational,40,1,,2,smoke damage restoration,,,no
+does smoke damage electronics,informational,40,0,,2,smoke damage restoration,,,no
+are smoke-damaged clothes dangerous,informational,40,0,,2,smoke damage restoration,,,no
+how to get rid of smoke damage,informational,40,11,3.92,2,smoke damage restoration,,,no
+cigarette smoke damage in house,informational,30,6,49.51,2,smoke damage restoration,,,no
+smoke and soot damage,informational,30,0,,2,smoke damage restoration,,,no
+does renters insurance cover smoke damage,informational,30,0,,2,smoke damage restoration,,,no
 smoke damage from wildfire,informational,20,31,95.56,2,smoke damage restoration,,,no
-does homeowners insurance cover smoke damage restoration,informational,,,,2,smoke damage restoration,,,no
-why does my house still smell like smoke after cleaning,informational,,,,2,smoke damage restoration,,,no
-can smoke damage be cleaned or do i need to replace everything,informational,,,,2,smoke damage restoration,,,no
-is my house safe to enter after smoke damage,informational,,,,2,smoke damage restoration,,,no
-can smoke damage spread to rooms where there was no fire,informational,,,,2,smoke damage restoration,,,no
-do air ducts need to be cleaned after smoke damage,informational,,,,2,smoke damage restoration,,,no
-how long does smoke damage cleanup take,informational,,,,2,smoke damage restoration,,,no
-should i throw away smoke damaged items or wait for insurance,informational,,,,2,smoke damage restoration,,,no
-how do professionals remove smoke odor from a house,informational,,,,2,smoke damage restoration,,,no
-what items can be saved after smoke damage,informational,,,,2,smoke damage restoration,,,no
-is smoke residue harmful to my family's health,informational,,,,2,smoke damage restoration,,,no
-can smoke odor return months later,informational,,,,2,smoke damage restoration,,,no
-should i turn off my hvac system after smoke damage,informational,,,,2,smoke damage restoration,,,no
+house fire smoke damage,informational,20,11,2.86,2,smoke damage restoration,,,no
+smoke damage from neighbor's fire,informational,20,0,,2,smoke damage restoration,,,no
+is smoke damage covered by insurance,informational,20,5,,2,smoke damage restoration,,,no
+how much does fema pay for smoke damage,informational,20,0,27.73,2,smoke damage restoration,,,no
+how to get smoke damage out of clothes,informational,20,0,,2,smoke damage restoration,,,no

@@ -5,18 +5,17 @@
   "live_origin": "https://staging.rankai-aaa-water-damage.pages.dev",
   "live_origin_source": "staging",
   "audit_form_factor": "desktop",
-  "generated_at": "2026-09-28T21:09:03Z",
-  "lighthouse_detail": "full - complete audits array captured per URL via direct DataForSEO API (on_page/lighthouse/live/json, for_mobile=false); lighthouse_issues[] capped at top 5 per URL, lighthouse_failing_ids[] lists the full failing set (score < 1) for exact month-over-month diffing",
+  "generated_at": "2026-09-28T21:44:51Z",
+  "lighthouse_detail": "full - complete audits array captured per URL via the REST live/json endpoint; lighthouse_issues[] is capped at the top 5 per URL, site_rollup.template_issues counts the full failing set (score < 1, excluding informative/manual/notApplicable)",
   "environment_caveats": [
-    "live_origin_source=staging: apex domain aaawaterdamagehawaii.com still does not resolve (dig returns no A record; onboarding_notes.domain_status says the domain is not yet registered) and client record has apex_cutover=null, so the Cloudflare Pages preview was audited.",
+    "live_origin_source=staging: apex domain aaawaterdamagehawaii.com still does not resolve (no DNS A record) and the client record has no apex_cutover, so the Cloudflare Pages preview was audited. Per onboarding_notes the domain has not been registered yet (no Cloudflare zone, no DNS).",
     "Cloudflare Pages preview returns x-robots-tag: noindex (verified via curl -sI on 2026-09-28). is-crawlable fails on all 6 URLs and deflates SEO to 69. SEO is EXCLUDED from all verdicts and is inconclusive - staging noindex artifact, re-audit after apex cutover.",
-    "Canonical tags point at the apex domain https://aaawaterdamagehawaii.com/..., which is expected pre-cutover and not counted as a canonical issue.",
-    "Lighthouse ran DESKTOP (configSettings.formFactor=desktop, Lighthouse 13.4.0). Mobile scores would typically run 10-20 performance points lower. No mobile-first claim is made.",
-    "Client record status is still \"pending\" (not \"active\") while build_status is pushed_main. Audit proceeded because the site is live and auditable, same as the 2026-08-26 run. Flagged for record hygiene.",
-    "DataForSEO instant_pages reported has_micromarkup=false and has_micromarkup_errors=false on all 6 URLs, although every page serves 3-5 JSON-LD blocks (verified by curl). This is a detector change, not a fix: the schema defects noted on 2026-08-26 (terminal BreadcrumbList ListItem without item, relative LocalBusiness image/logo) were re-verified as still present on /contact/. has_micromarkup_errors is therefore carried forward on the 5 pages that emit the defective BreadcrumbList (onpage_issues entries with source=carried_forward_verified) so the verdict does not falsely flip to green. The homepage, which emits no BreadcrumbList, stays clean as in the prior run.",
-    "high_loading_time / high_waiting_time on / come from a single DataForSEO instant fetch (TTFB 4029ms). Three follow-up curl requests measured TTFB 0.08-0.11s and Lighthouse LCP was 819ms, so this is most likely a cold Pages edge cache. Recorded as low severity.",
-    "LocalBusiness.address has no streetAddress. This is intentional: onboarding_notes.sab says this is a service-area business whose street address is never published. Do not populate it.",
-    "LCP regressions flagged on /services/ (+202ms) and /services/water-damage-restoration/ (+389ms) meet the 200ms rubric threshold but both pages remain near 1.0s or below, well inside the 2.5s good threshold. Treat as run-to-run variance unless it repeats next month."
+    "Canonical tags and schema url/og:url on staging correctly point at https://aaawaterdamagehawaii.com/, which is not yet resolving. Expected pre-cutover; not counted as a canonical issue.",
+    "Lighthouse 13.4.0 ran DESKTOP (configSettings.formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240). Mobile scores would typically run 10-20 performance points lower. No mobile-first claim is made.",
+    "Client record status is \"pending\" (not \"active\"); build_status is pushed_main with last_pushed_main_at 2026-09-28. Audit proceeded because the site is live and auditable, matching the 2026-08-26 precedent. Flagged for record hygiene.",
+    "instant_pages was called with validate_micromarkup=true, enable_javascript=true, load_resources=true to match the 2026-08-26 baseline. An initial call without validate_micromarkup returned has_micromarkup=false on every page (a false negative, since all 6 pages serve JSON-LD) and was discarded.",
+    "Prior-run per-URL issue lists were capped at 5. For new/resolved issue detection the prior full failing set was reconstructed from the capped lists plus site_rollup.template_issues and the prior report notes; issues that were possibly present but unrecorded last month are marked in the report.",
+    "Service-area business: onboarding_notes.sab says the street address is never published. LocalBusiness.address lacking streetAddress is intentional and must not be remediated by adding a street; this supersedes the 2026-08-26 recommendation to populate nap.street."
   ],
   "seo_score_status": "inconclusive - staging noindex artifact, re-audit after apex cutover",
   "audited_urls": [
@@ -26,18 +25,25 @@
       "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 100,
+        "performance": 99,
         "accessibility": 100,
         "best_practices": 100,
         "seo": 69
       },
       "core_web_vitals": {
-        "LCP_ms": 819,
+        "LCP_ms": 825,
         "CLS": 0.003,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "seo"
+        },
         {
           "id": "unsized-images",
           "title": "Image elements do not have explicit `width` and `height`",
@@ -60,13 +66,6 @@
           "category": "performance"
         },
         {
-          "id": "is-crawlable",
-          "title": "Page is blocked from indexing",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "seo"
-        },
-        {
           "id": "network-dependency-tree-insight",
           "title": "Network dependency tree",
           "severity": "low",
@@ -74,41 +73,23 @@
           "category": "performance"
         }
       ],
-      "lighthouse_failing_ids": [
-        "unsized-images",
-        "image-delivery-insight",
-        "largest-contentful-paint",
-        "is-crawlable",
-        "network-dependency-tree-insight",
-        "render-blocking-insight"
-      ],
       "onpage_issues": [
         {
-          "id": "high_loading_time",
-          "title": "Page loading time exceeds 3 seconds (DataForSEO instant fetch)",
-          "severity": "low"
-        },
-        {
-          "id": "high_waiting_time",
-          "title": "Time to first byte exceeds 1.5 seconds (DataForSEO instant fetch)",
-          "severity": "low"
-        },
-        {
           "id": "derived:description_length_out_of_range",
-          "title": "Meta description length 164 outside 70-160 characters",
+          "title": "Meta description is 164 chars (target 70-160)",
           "severity": "low"
         }
       ],
-      "onpage_meta": {
+      "onpage_metrics": {
+        "status_code": 200,
+        "onpage_score": 97.44,
         "title_length": 55,
         "description_length": 164,
+        "h1_count": 1,
         "word_count": 1320,
-        "target_word_count": 1200,
-        "h1": [
-          "24/7 Restoration Services in Honolulu"
-        ],
         "canonical": "https://aaawaterdamagehawaii.com/",
-        "onpage_score": 90.39
+        "broken_links": false,
+        "broken_resources": false
       }
     },
     {
@@ -117,14 +98,14 @@
       "verdict": "amber",
       "error_reason": null,
       "scores": {
-        "performance": 98,
+        "performance": 99,
         "accessibility": 95,
         "best_practices": 100,
         "seo": 69
       },
       "core_web_vitals": {
-        "LCP_ms": 1021,
-        "CLS": 0.0027,
+        "LCP_ms": 810,
+        "CLS": 0.0018,
         "TBT_ms": 0,
         "INP_ms": null
       },
@@ -135,6 +116,13 @@
           "severity": "high",
           "estimated_savings_ms": null,
           "category": "accessibility"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "seo"
         },
         {
           "id": "unsized-images",
@@ -156,50 +144,30 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance"
-        },
-        {
-          "id": "largest-contentful-paint",
-          "title": "Largest Contentful Paint",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
         }
-      ],
-      "lighthouse_failing_ids": [
-        "color-contrast",
-        "unsized-images",
-        "image-delivery-insight",
-        "lcp-discovery-insight",
-        "largest-contentful-paint",
-        "first-contentful-paint",
-        "is-crawlable",
-        "network-dependency-tree-insight",
-        "render-blocking-insight"
       ],
       "onpage_issues": [
         {
           "id": "has_micromarkup_errors",
           "title": "Schema.org markup present but fails validation",
-          "severity": "medium",
-          "source": "carried_forward_verified",
-          "note": "DataForSEO detector returned has_micromarkup=false this run despite served JSON-LD; defect verified present by parsing served HTML: terminal BreadcrumbList ListItem has no item, LocalBusiness image/logo are relative paths"
+          "severity": "medium"
         },
         {
           "id": "derived:word_count_below_target",
-          "title": "Word count 755 below url-plan target 800",
+          "title": "Word count 755 below archetype target 800",
           "severity": "low"
         }
       ],
-      "onpage_meta": {
+      "onpage_metrics": {
+        "status_code": 200,
+        "onpage_score": 97.44,
         "title_length": 51,
         "description_length": 138,
+        "h1_count": 1,
         "word_count": 755,
-        "target_word_count": 800,
-        "h1": [
-          "Our Restoration Services"
-        ],
         "canonical": "https://aaawaterdamagehawaii.com/services/",
-        "onpage_score": 97.44
+        "broken_links": false,
+        "broken_resources": false
       }
     },
     {
@@ -214,8 +182,8 @@
         "seo": 69
       },
       "core_web_vitals": {
-        "LCP_ms": 843,
-        "CLS": 0.0301,
+        "LCP_ms": 873,
+        "CLS": 0.0309,
         "TBT_ms": 0,
         "INP_ms": null
       },
@@ -226,6 +194,13 @@
           "severity": "high",
           "estimated_savings_ms": null,
           "category": "accessibility"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "seo"
         },
         {
           "id": "unsized-images",
@@ -247,44 +222,25 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance"
-        },
-        {
-          "id": "largest-contentful-paint",
-          "title": "Largest Contentful Paint",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
         }
-      ],
-      "lighthouse_failing_ids": [
-        "color-contrast",
-        "unsized-images",
-        "image-delivery-insight",
-        "lcp-discovery-insight",
-        "largest-contentful-paint",
-        "is-crawlable",
-        "network-dependency-tree-insight",
-        "render-blocking-insight"
       ],
       "onpage_issues": [
         {
           "id": "has_micromarkup_errors",
           "title": "Schema.org markup present but fails validation",
-          "severity": "medium",
-          "source": "carried_forward_verified",
-          "note": "DataForSEO detector returned has_micromarkup=false this run despite served JSON-LD; defect verified present by parsing served HTML: terminal BreadcrumbList ListItem has no item, LocalBusiness image/logo are relative paths"
+          "severity": "medium"
         }
       ],
-      "onpage_meta": {
+      "onpage_metrics": {
+        "status_code": 200,
+        "onpage_score": 97.44,
         "title_length": 55,
         "description_length": 85,
+        "h1_count": 1,
         "word_count": 1643,
-        "target_word_count": 1100,
-        "h1": [
-          "Water Damage Restoration in Honolulu"
-        ],
         "canonical": "https://aaawaterdamagehawaii.com/services/water-damage-restoration/",
-        "onpage_score": 97.44
+        "broken_links": false,
+        "broken_resources": false
       }
     },
     {
@@ -293,14 +249,14 @@
       "verdict": "amber",
       "error_reason": null,
       "scores": {
-        "performance": 99,
+        "performance": 100,
         "accessibility": 95,
         "best_practices": 100,
         "seo": 69
       },
       "core_web_vitals": {
-        "LCP_ms": 849,
-        "CLS": 0.0026,
+        "LCP_ms": 786,
+        "CLS": 0.0034,
         "TBT_ms": 0,
         "INP_ms": null
       },
@@ -311,6 +267,13 @@
           "severity": "high",
           "estimated_savings_ms": null,
           "category": "accessibility"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "seo"
         },
         {
           "id": "unsized-images",
@@ -332,44 +295,25 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance"
-        },
-        {
-          "id": "largest-contentful-paint",
-          "title": "Largest Contentful Paint",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
         }
-      ],
-      "lighthouse_failing_ids": [
-        "color-contrast",
-        "unsized-images",
-        "image-delivery-insight",
-        "lcp-discovery-insight",
-        "largest-contentful-paint",
-        "is-crawlable",
-        "network-dependency-tree-insight",
-        "render-blocking-insight"
       ],
       "onpage_issues": [
         {
           "id": "has_micromarkup_errors",
           "title": "Schema.org markup present but fails validation",
-          "severity": "medium",
-          "source": "carried_forward_verified",
-          "note": "DataForSEO detector returned has_micromarkup=false this run despite served JSON-LD; defect verified present by parsing served HTML: terminal BreadcrumbList ListItem has no item, LocalBusiness image/logo are relative paths"
+          "severity": "medium"
         }
       ],
-      "onpage_meta": {
+      "onpage_metrics": {
+        "status_code": 200,
+        "onpage_score": 97.44,
         "title_length": 47,
         "description_length": 77,
+        "h1_count": 1,
         "word_count": 1644,
-        "target_word_count": 1100,
-        "h1": [
-          "Mold Remediation in Honolulu"
-        ],
         "canonical": "https://aaawaterdamagehawaii.com/services/mold-remediation/",
-        "onpage_score": 97.44
+        "broken_links": false,
+        "broken_resources": false
       }
     },
     {
@@ -384,7 +328,7 @@
         "seo": 69
       },
       "core_web_vitals": {
-        "LCP_ms": 796,
+        "LCP_ms": 794,
         "CLS": 0.0035,
         "TBT_ms": 0,
         "INP_ms": null
@@ -396,6 +340,13 @@
           "severity": "high",
           "estimated_savings_ms": null,
           "category": "accessibility"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "seo"
         },
         {
           "id": "unsized-images",
@@ -417,49 +368,30 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance"
-        },
-        {
-          "id": "largest-contentful-paint",
-          "title": "Largest Contentful Paint",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
         }
-      ],
-      "lighthouse_failing_ids": [
-        "color-contrast",
-        "unsized-images",
-        "image-delivery-insight",
-        "lcp-discovery-insight",
-        "largest-contentful-paint",
-        "is-crawlable",
-        "network-dependency-tree-insight",
-        "render-blocking-insight"
       ],
       "onpage_issues": [
         {
-          "id": "frame",
-          "title": "Page contains a frame/iframe element",
-          "severity": "low"
-        },
-        {
           "id": "has_micromarkup_errors",
           "title": "Schema.org markup present but fails validation",
-          "severity": "medium",
-          "source": "carried_forward_verified",
-          "note": "DataForSEO detector returned has_micromarkup=false this run despite served JSON-LD; defect verified present by parsing served HTML: terminal BreadcrumbList ListItem has no item, LocalBusiness image/logo are relative paths"
+          "severity": "medium"
+        },
+        {
+          "id": "frame",
+          "title": "Page embeds an iframe (Google Maps embed)",
+          "severity": "low"
         }
       ],
-      "onpage_meta": {
+      "onpage_metrics": {
+        "status_code": 200,
+        "onpage_score": 97.44,
         "title_length": 57,
         "description_length": 120,
+        "h1_count": 1,
         "word_count": 1435,
-        "target_word_count": 900,
-        "h1": [
-          "Restoration Services in Hawaii Kai"
-        ],
         "canonical": "https://aaawaterdamagehawaii.com/service-areas/hawaii-kai-hi/",
-        "onpage_score": 97.44
+        "broken_links": false,
+        "broken_resources": false
       }
     },
     {
@@ -468,14 +400,14 @@
       "verdict": "amber",
       "error_reason": null,
       "scores": {
-        "performance": 99,
+        "performance": 100,
         "accessibility": 91,
         "best_practices": 100,
         "seo": 69
       },
       "core_web_vitals": {
-        "LCP_ms": 882,
-        "CLS": 0.0057,
+        "LCP_ms": 791,
+        "CLS": 0.0042,
         "TBT_ms": 0,
         "INP_ms": null
       },
@@ -495,11 +427,11 @@
           "category": "accessibility"
         },
         {
-          "id": "agent-accessibility-tree",
-          "title": "Accessibility tree is not well-formed",
-          "severity": "medium",
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "severity": "high",
           "estimated_savings_ms": null,
-          "category": "agentic-browsing"
+          "category": "seo"
         },
         {
           "id": "unsized-images",
@@ -509,50 +441,36 @@
           "category": "performance"
         },
         {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
+          "id": "agent-accessibility-tree",
+          "title": "Accessibility tree is not well-formed",
           "severity": "medium",
           "estimated_savings_ms": null,
-          "category": "performance"
+          "category": "agentic-browsing"
         }
-      ],
-      "lighthouse_failing_ids": [
-        "color-contrast",
-        "link-name",
-        "agent-accessibility-tree",
-        "unsized-images",
-        "image-delivery-insight",
-        "lcp-discovery-insight",
-        "largest-contentful-paint",
-        "is-crawlable",
-        "network-dependency-tree-insight",
-        "render-blocking-insight"
       ],
       "onpage_issues": [
         {
           "id": "has_micromarkup_errors",
           "title": "Schema.org markup present but fails validation",
-          "severity": "medium",
-          "source": "carried_forward_verified",
-          "note": "DataForSEO detector returned has_micromarkup=false this run despite served JSON-LD; defect verified present by parsing served HTML: terminal BreadcrumbList ListItem has no item, LocalBusiness image/logo are relative paths"
+          "severity": "medium"
         }
       ],
-      "onpage_meta": {
+      "onpage_metrics": {
+        "status_code": 200,
+        "onpage_score": 97.44,
         "title_length": 55,
         "description_length": 101,
+        "h1_count": 1,
         "word_count": 689,
-        "target_word_count": 400,
-        "h1": [
-          "Contact AAA Water Damage Restoration & Carpet Care"
-        ],
         "canonical": "https://aaawaterdamagehawaii.com/contact/",
-        "onpage_score": 97.44
+        "broken_links": false,
+        "broken_resources": false
       }
     }
   ],
   "site_rollup": {
     "avg_scores": {
-      "performance": 99.2,
+      "performance": 99.5,
       "accessibility": 95.2,
       "best_practices": 100.0,
       "seo": 69.0
@@ -582,12 +500,6 @@
       {
         "id": "largest-contentful-paint",
         "title": "Largest Contentful Paint",
-        "affected_urls": 6,
-        "severity": "low"
-      },
-      {
-        "id": "is-crawlable",
-        "title": "Page is blocked from indexing",
         "affected_urls": 6,
         "severity": "low"
       },
@@ -627,40 +539,106 @@
         "url": "https://staging.rankai-aaa-water-damage.pages.dev/services/",
         "archetype": "services-hub",
         "verdict": "amber",
-        "main_issue": "performance 98, accessibility 95, LCP 1021ms; color-contrast, has_micromarkup_errors"
+        "main_issue": "performance 99, accessibility 95, LCP 810ms; has_micromarkup_errors, color-contrast, is-crawlable"
       },
       {
         "url": "https://staging.rankai-aaa-water-damage.pages.dev/services/water-damage-restoration/",
         "archetype": "service-landing",
         "verdict": "amber",
-        "main_issue": "performance 99, accessibility 95, LCP 843ms; color-contrast, has_micromarkup_errors"
+        "main_issue": "performance 99, accessibility 95, LCP 873ms; has_micromarkup_errors, color-contrast, is-crawlable"
       },
       {
         "url": "https://staging.rankai-aaa-water-damage.pages.dev/services/mold-remediation/",
         "archetype": "service-landing",
         "verdict": "amber",
-        "main_issue": "performance 99, accessibility 95, LCP 849ms; color-contrast, has_micromarkup_errors"
+        "main_issue": "performance 100, accessibility 95, LCP 786ms; has_micromarkup_errors, color-contrast, is-crawlable"
       },
       {
         "url": "https://staging.rankai-aaa-water-damage.pages.dev/contact/",
         "archetype": "contact",
         "verdict": "amber",
-        "main_issue": "performance 99, accessibility 91, LCP 882ms; color-contrast, link-name, has_micromarkup_errors"
+        "main_issue": "performance 100, accessibility 91, LCP 791ms; has_micromarkup_errors, color-contrast, link-name, is-crawlable"
       }
     ]
   },
   "regression": {
     "prior_run_at": "2026-08-26T13:08:44Z",
     "score_deltas": {
-      "performance": -0.6,
+      "performance": -0.3,
       "accessibility": 0.0,
       "best_practices": 0.0,
       "seo": 0.0
     },
-    "site_level_flags": [],
-    "per_url": [
+    "verdict_transitions": [],
+    "url_regressions": [
+      {
+        "url": "https://staging.rankai-aaa-water-damage.pages.dev/services/water-damage-restoration/",
+        "score_deltas": {
+          "performance": -1,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 419,
+          "CLS": 0.0,
+          "TBT_ms": 0
+        },
+        "regressions": [
+          "LCP_ms +419 (454 -> 873)"
+        ]
+      }
+    ],
+    "per_url_deltas": [
       {
         "url": "https://staging.rankai-aaa-water-damage.pages.dev/",
+        "score_deltas": {
+          "performance": -1,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 5,
+          "CLS": 0.0008,
+          "TBT_ms": 0
+        },
+        "regressions": []
+      },
+      {
+        "url": "https://staging.rankai-aaa-water-damage.pages.dev/services/",
+        "score_deltas": {
+          "performance": -1,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": -9,
+          "CLS": 0.0,
+          "TBT_ms": 0
+        },
+        "regressions": []
+      },
+      {
+        "url": "https://staging.rankai-aaa-water-damage.pages.dev/services/water-damage-restoration/",
+        "score_deltas": {
+          "performance": -1,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 419,
+          "CLS": 0.0,
+          "TBT_ms": 0
+        },
+        "regressions": [
+          "LCP_ms +419 (454 -> 873)"
+        ]
+      },
+      {
+        "url": "https://staging.rankai-aaa-water-damage.pages.dev/services/mold-remediation/",
         "score_deltas": {
           "performance": 0,
           "accessibility": 0,
@@ -668,60 +646,11 @@
           "seo": 0
         },
         "cwv_deltas": {
-          "LCP_ms": -1,
+          "LCP_ms": -18,
           "CLS": 0.0008,
           "TBT_ms": 0
         },
-        "regression_flags": []
-      },
-      {
-        "url": "https://staging.rankai-aaa-water-damage.pages.dev/services/",
-        "score_deltas": {
-          "performance": -2,
-          "accessibility": 0,
-          "best_practices": 0,
-          "seo": 0
-        },
-        "cwv_deltas": {
-          "LCP_ms": 202,
-          "CLS": 0.0009,
-          "TBT_ms": 0
-        },
-        "regression_flags": [
-          "LCP_ms +202"
-        ]
-      },
-      {
-        "url": "https://staging.rankai-aaa-water-damage.pages.dev/services/water-damage-restoration/",
-        "score_deltas": {
-          "performance": -1,
-          "accessibility": 0,
-          "best_practices": 0,
-          "seo": 0
-        },
-        "cwv_deltas": {
-          "LCP_ms": 389,
-          "CLS": -0.0008,
-          "TBT_ms": 0
-        },
-        "regression_flags": [
-          "LCP_ms +389"
-        ]
-      },
-      {
-        "url": "https://staging.rankai-aaa-water-damage.pages.dev/services/mold-remediation/",
-        "score_deltas": {
-          "performance": -1,
-          "accessibility": 0,
-          "best_practices": 0,
-          "seo": 0
-        },
-        "cwv_deltas": {
-          "LCP_ms": 45,
-          "CLS": 0.0,
-          "TBT_ms": 0
-        },
-        "regression_flags": []
+        "regressions": []
       },
       {
         "url": "https://staging.rankai-aaa-water-damage.pages.dev/service-areas/hawaii-kai-hi/",
@@ -732,47 +661,58 @@
           "seo": 0
         },
         "cwv_deltas": {
-          "LCP_ms": -20,
+          "LCP_ms": -22,
           "CLS": 0.0,
           "TBT_ms": 0
         },
-        "regression_flags": []
+        "regressions": []
       },
       {
         "url": "https://staging.rankai-aaa-water-damage.pages.dev/contact/",
         "score_deltas": {
-          "performance": 0,
+          "performance": 1,
           "accessibility": 0,
           "best_practices": 0,
           "seo": 0
         },
         "cwv_deltas": {
-          "LCP_ms": 50,
-          "CLS": 0.0015,
+          "LCP_ms": -41,
+          "CLS": 0.0,
           "TBT_ms": 0
         },
-        "regression_flags": []
+        "regressions": []
       }
     ],
-    "verdict_transitions": [],
     "new_issues": [
-      {
-        "url": "https://staging.rankai-aaa-water-damage.pages.dev/",
-        "id": "high_loading_time",
-        "title": "Page loading time exceeds 3 seconds (DataForSEO instant fetch)"
-      },
-      {
-        "url": "https://staging.rankai-aaa-water-damage.pages.dev/",
-        "id": "high_waiting_time",
-        "title": "Time to first byte exceeds 1.5 seconds (DataForSEO instant fetch)"
-      },
       {
         "url": "https://staging.rankai-aaa-water-damage.pages.dev/services/",
         "id": "first-contentful-paint",
         "title": "First Contentful Paint"
+      },
+      {
+        "url": "https://staging.rankai-aaa-water-damage.pages.dev/services/",
+        "id": "speed-index",
+        "title": "Speed Index"
+      },
+      {
+        "url": "https://staging.rankai-aaa-water-damage.pages.dev/services/water-damage-restoration/",
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint"
       }
     ],
-    "resolved_issues": [],
-    "unverified_clearances": []
+    "resolved_issues": [
+      {
+        "url": "https://staging.rankai-aaa-water-damage.pages.dev/service-areas/hawaii-kai-hi/",
+        "id": "bf-cache",
+        "title": "Page prevented back/forward cache restoration"
+      }
+    ],
+    "note": "No template fixes from the 2026-08-26 recommendations have shipped; every template issue from last month persists with identical markup."
+  },
+  "cost_usd": {
+    "lighthouse": 0.03,
+    "instant_pages_used": 0.0108,
+    "instant_pages_discarded": 0.0117,
+    "total": 0.0525
   }
 }
