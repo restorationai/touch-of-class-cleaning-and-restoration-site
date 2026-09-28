@@ -25,7 +25,9 @@ WHAT IT USES (deliberately nothing new)
     ranks. Coastal ranks nowhere in the top 3 across their own 9.5-mile grid,
     which is worth knowing before anyone signs a lease.
   * Free Nominatim geocoding for target towns (same helper the lead audit
-    uses). No new API keys, no paid calls.
+    uses). No new API keys, no paid calls. Every match is checked for
+    plausibility against the pin (right state, near the pin or vouched for by
+    the rest of the service area) — see geocode_detail().
 
 NON-OVERLAP
 -----------
@@ -102,16 +104,137 @@ def _sb(path: str):
         return []
 
 
-def geocode(city: str, state: str) -> tuple | None:
-    """Free Nominatim lookup. Rate-limited by courtesy sleep in the caller."""
-    q = urllib.parse.urlencode({"q": f"{city}, {state}, USA", "format": "json", "limit": 1})
-    req = urllib.request.Request(f"https://nominatim.openstreetmap.org/search?{q}", headers=UA)
+# ------------------------------------------------------------------ geocoding
+# Plausibility guard (2026-09-27). The old helper took Nominatim's FIRST hit for
+# "Town, ST, USA" and trusted it. ProRestoration's "East Niles" (an east-
+# Bakersfield CDP that OSM has no place node for) came back as "East Niles
+# Avenue, Fresno", 108mi from the pin, and a fresh scout ranked it the #1 office.
+# 150mi (MAX_PLAUSIBLE_AREA_MI) was far too loose to catch that.
+#
+# Now: every candidate must sit in the town's own STATE; we pull several
+# candidates biased toward the pin, prefer real places over streets, and
+# re-query "Town, County, ST" (county = the pin's county, reverse-geocoded once)
+# when the plain form has nothing near. A result more than NEAR_PIN_MI out is
+# only kept when the rest of the service area vouches for it (another target
+# town within NEIGHBOR_MI, or within NEAR_PIN_MI of the area's centroid) —
+# Crew's Iowa towns are legitimately 80-90mi from Sioux Falls, but they have
+# neighbours; Fresno had none. Otherwise the town is dropped with a warning.
+NEAR_PIN_MI = 75.0
+NEIGHBOR_MI = 25.0
+_NOMINATIM = "https://nominatim.openstreetmap.org"
+_GEO_CACHE: dict = {}          # in-process only: (endpoint, params) -> json
+_LAST_CALL = [0.0]
+_PLACE_CLASSES = {"place", "boundary"}
+_NOT_A_TOWN = {"state", "country", "county", "state_district", "postcode", "road"}
+
+
+def _nominatim(endpoint: str, params: dict):
+    """One Nominatim GET, memoised, and paced at <=1 req/1.1s (usage policy).
+    Callers no longer need their own courtesy sleep; cache hits cost nothing."""
+    key = (endpoint, tuple(sorted(params.items())))
+    if key in _GEO_CACHE:
+        return _GEO_CACHE[key]
+    wait = 1.1 - (time.time() - _LAST_CALL[0])
+    if wait > 0:
+        time.sleep(wait)
+    q = urllib.parse.urlencode({**params, "format": "json"})
+    req = urllib.request.Request(f"{_NOMINATIM}/{endpoint}?{q}", headers=UA)
     try:
         with urllib.request.urlopen(req, timeout=20) as r:
             js = json.load(r)
-        return (float(js[0]["lat"]), float(js[0]["lon"])) if js else None
     except Exception:
+        js = None
+    _LAST_CALL[0] = time.time()
+    if js is not None:
+        _GEO_CACHE[key] = js
+    return js
+
+
+def _state_code(addr: dict) -> str:
+    iso = (addr or {}).get("ISO3166-2-lvl4") or ""
+    return iso.split("-", 1)[1].upper() if iso.startswith("US-") else ""
+
+
+def county_of(lat: float, lng: float) -> tuple[str | None, str | None]:
+    """-> ("Kern County", "CA") for a point, via one reverse lookup."""
+    js = _nominatim("reverse", {"lat": f"{lat:.5f}", "lon": f"{lng:.5f}", "zoom": 10,
+                                "addressdetails": 1})
+    addr = (js or {}).get("address") or {}
+    return addr.get("county"), (_state_code(addr) or None)
+
+
+def _candidates(q: str, state: str, near) -> list[dict]:
+    params = {"q": q, "limit": 5, "addressdetails": 1, "countrycodes": "us"}
+    if near and near[0] is not None:
+        # Bias (not bound) toward the pin: ranking prefers nearby matches.
+        params["viewbox"] = f"{near[1]-1.5:.3f},{near[0]+1.5:.3f},{near[1]+1.5:.3f},{near[0]-1.5:.3f}"
+    out = []
+    for i, r in enumerate(_nominatim("search", params) or []):
+        addr = r.get("address") or {}
+        st = _state_code(addr)
+        want = (state or "").strip().upper()
+        if want and len(want) == 2 and st and st != want:
+            continue                                   # right name, wrong state
+        if want and len(want) > 2 and (addr.get("state") or "").lower() != want.lower():
+            continue
+        try:
+            lat, lng = float(r["lat"]), float(r["lon"])
+        except (KeyError, TypeError, ValueError):
+            continue
+        atype = r.get("addresstype") or r.get("type") or ""
+        out.append({"lat": lat, "lng": lng, "rank": i, "query": q,
+                    "is_place": r.get("class") in _PLACE_CLASSES and atype not in _NOT_A_TOWN,
+                    "county": addr.get("county"), "label": (r.get("display_name") or "")[:90],
+                    "kind": atype,
+                    "distance_mi": haversine_mi(near[0], near[1], lat, lng)
+                    if near and near[0] is not None else None})
+    return out
+
+
+def geocode_detail(city: str, state: str, near=None, county: str | None = None,
+                   max_mi: float = NEAR_PIN_MI) -> dict | None:
+    """Best in-state candidate for a town, or None if Nominatim knows nothing.
+
+    Returns {lat, lng, distance_mi, near (bool), is_place, label, query}. With
+    `near` (the client's pin) a candidate beyond `max_mi` comes back with
+    near=False; the caller decides whether the service area vouches for it.
+    """
+    def pick(cands):
+        if not cands:
+            return None
+        name = city.strip().lower()
+
+        def key(c):
+            inside = c["distance_mi"] is None or c["distance_mi"] <= max_mi
+            named = c["label"].lower().startswith(name + ",")
+            same_county = bool(county and c.get("county") == county)
+            return (inside, c["is_place"], named, same_county, -c["rank"])
+        return max(cands, key=key)
+
+    cands = _candidates(f"{city}, {state}, USA", state, near)
+    best = pick(cands)
+    good = best and best["is_place"] and (best["distance_mi"] is None or best["distance_mi"] <= max_mi)
+    if not good and county:
+        # "East Niles, CA" -> Fresno streets; "East Niles, Kern County, CA" -> east Bakersfield.
+        cands += _candidates(f"{city}, {county}, {state}", state, near)
+        best = pick(cands)
+    if not best:
         return None
+    best["near"] = best["distance_mi"] is None or best["distance_mi"] <= max_mi
+    return best
+
+
+def geocode(city: str, state: str, near=None, county: str | None = None) -> tuple | None:
+    """(lat, lng) or None. With `near`, an implausibly distant match is refused
+    (printed warning) rather than returned as a wrong point."""
+    d = geocode_detail(city, state, near=near, county=county)
+    if not d:
+        return None
+    if not d["near"]:
+        print(f"  [geocode] dropped {city}, {state}: best match {d['label']!r} is "
+              f"{d['distance_mi']:.0f}mi from the pin", file=sys.stderr)
+        return None
+    return (d["lat"], d["lng"])
 
 
 def measured_reach(company_id: str) -> dict:
@@ -186,27 +309,49 @@ def scout(slug: str, with_census: bool = True) -> dict:
     effective_reach = measured if measured > 0 else DEFAULT_REACH_MI
 
     areas = data["plan"].get("service_areas") or []
-    rows = []
+    # The pin's county biases same-state lookups ("East Niles, Kern County, CA").
+    pin_county, pin_state = county_of(pin[0], pin[1])
+    pin_state = (brand.get("state") or pin_state or "").upper() or None
+    geo: list = []                         # (area, detail | None), original order
     for a in areas:
         city, state = a.get("city"), a.get("state") or ""
         if not city:
             continue
-        ll = geocode(city, state)
-        time.sleep(1.1)                      # Nominatim courtesy
-        if not ll:
+        same_state = bool(pin_state and state.strip().upper() == pin_state)
+        geo.append((a, geocode_detail(city, state, near=pin,
+                                      county=pin_county if same_state else None)))
+    # A far match survives only if the service area vouches for it: another
+    # target town within NEIGHBOR_MI, or within NEAR_PIN_MI of the centroid of
+    # the towns that did land near the pin.
+    near_pts = [(g["lat"], g["lng"]) for _, g in geo if g and g["near"]]
+    cen = None
+    if near_pts:
+        lats, lngs = sorted(p[0] for p in near_pts), sorted(p[1] for p in near_pts)
+        cen = (lats[len(lats) // 2], lngs[len(lngs) // 2])     # median: outlier-proof
+
+    rows = []
+    for a, g in geo:
+        city, state = a.get("city"), a.get("state") or ""
+        if not g:
             rows.append({"city": city, "state": state, "lat": None, "lng": None,
                          "distance_mi": None, "covered": None, "note": "could not geocode"})
             continue
+        ll = (g["lat"], g["lng"])
         d = haversine_mi(pin[0], pin[1], ll[0], ll[1])
-        # Nominatim happily returns a same-named place on another continent —
-        # it put Coastal's "Blacklake" 2,421 miles away. A service area that
-        # far is not a geocoding result, it is a wrong match; drop it rather
-        # than let it become a recommended office.
-        if d > MAX_PLAUSIBLE_AREA_MI:
-            rows.append({"city": city, "state": state, "lat": None, "lng": None,
-                         "distance_mi": None, "covered": None,
-                         "note": f"geocoded {int(d)}mi away — wrong match, ignored"})
-            continue
+        if not g["near"]:
+            vouched = any(haversine_mi(ll[0], ll[1], p[0], p[1]) <= NEIGHBOR_MI for p in near_pts) \
+                or (cen is not None and haversine_mi(ll[0], ll[1], cen[0], cen[1]) <= NEAR_PIN_MI)
+            # Nominatim happily returns a same-named place on another continent —
+            # it put Coastal's "Blacklake" 2,421 miles away — or a same-named
+            # street 108mi off (East Niles). Drop it rather than let it become
+            # a recommended office.
+            if not vouched or d > MAX_PLAUSIBLE_AREA_MI:
+                print(f"  [geocode] dropped {city}, {state}: best match {g['label']!r} is "
+                      f"{int(d)}mi from the pin with no target town near it", file=sys.stderr)
+                rows.append({"city": city, "state": state, "lat": None, "lng": None,
+                             "distance_mi": None, "covered": None,
+                             "note": f"geocoded {int(d)}mi away — implausible match, ignored"})
+                continue
         # Phase 2: is this town worth serving, not just reachable? Silently None
         # without CENSUS_API_KEY, and the whole report falls back to geometry.
         demo = demographics(ll[0], ll[1]) if with_census else None
@@ -215,7 +360,11 @@ def scout(slug: str, with_census: bool = True) -> dict:
                      "covered": d <= effective_reach,
                      "primary": bool(a.get("primary")),
                      "demographics": demo,
-                     "demand": demand_score(demo)})
+                     "demand": demand_score(demo),
+                     # OSM has no place node for some CDPs; a same-named street
+                     # in the right county is the best point we have.
+                     **({} if g["is_place"] else
+                        {"geocode_note": f"approximate: matched {g['label'].split(',')[0]}"})})
 
     # Cluster the uncovered towns into offices. HIGHEST-COVERAGE first, not
     # farthest first: an office is worth its lease by how many target towns it
@@ -378,7 +527,8 @@ def render(res: dict, top_n: int = DEFAULT_TOP_N) -> None:
         else:
             verdict = "NO — outside the radius"
         star = " *" if r.get("primary") else ""
-        print(f"    {r['city'][:21]:<22} {d:>7}  {verdict}{star}")
+        approx = f"  ({r['geocode_note']})" if r.get("geocode_note") else ""
+        print(f"    {r['city'][:21]:<22} {d:>7}  {verdict}{star}{approx}")
     shortlist = res["recommended_offices"][:top_n]
     print(f"\n  RECOMMENDED OFFICES — top {len(shortlist)} of {len(res['recommended_offices'])} viable"
           f"  [>= {res['effective_reach_mi']}mi apart, no overlap, ranked by addressable market]")
