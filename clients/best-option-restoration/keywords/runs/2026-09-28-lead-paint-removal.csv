@@ -2,40 +2,40 @@ keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,qu
 lead paint testing,transactional,12100,17,1.86,2,lead paint removal,,,false
 lead paint inspection,transactional,6600,17,11.76,2,lead paint removal,,,false
 lead paint removal,transactional,5400,,5.5,2,lead paint removal,,,false
-lead paint encapsulation,transactional,5400,,0.85,2,lead paint removal,,,false
 lead abatement,transactional,2400,3,14.2,2,lead paint removal,,,false
 lead abatement contractors,transactional,2400,7,13.43,2,lead paint removal,,,false
+lead paint removal company,transactional,1900,2,6.01,2,lead paint removal,,,false
+lead paint removal contractors,transactional,1900,2,6.01,2,lead paint removal,,,false
 lead paint abatement,transactional,720,8,7.08,2,lead paint removal,,,false
 lead paint removal service,transactional,390,,6.03,2,lead paint removal,,,false
-lead paint removal contractor,transactional,390,5,28.27,2,lead paint removal,,,false
 lead paint removal near me,transactional,320,,16.02,2,lead paint removal,,,false
 lead abatement near me,transactional,320,,13.24,2,lead paint removal,,,false
-lead paint testing near me,transactional,320,,7.1,2,lead paint removal,,,false
-lead dust cleanup,transactional,170,3,2.62,2,lead paint removal,,,false
 certified lead inspector near me,transactional,140,2,3.54,2,lead paint removal,,,false
 lead abatement contractors near me,transactional,140,,7.19,2,lead paint removal,,,false
-lead paint removal exterior,transactional,50,4,7.42,2,lead paint removal,,,false
+lead paint removal from windows,transactional,,,,2,lead paint removal,,,false
 lead paint test kit,commercial,14800,18,0.53,2,lead paint removal,,,false
 lead paint removal cost,commercial,1300,,4.68,2,lead paint removal,,,false
-lead paint abatement cost,commercial,1300,,4.68,2,lead paint removal,,,false
-lead paint inspection cost,commercial,1300,,10.58,2,lead paint removal,,,false
 lead abatement cost,commercial,210,,9.53,2,lead paint removal,,,false
 how much does lead paint removal cost,commercial,170,,2.2,2,lead paint removal,,,false
 lead paint encapsulation cost,commercial,140,,0.99,2,lead paint removal,,,false
+lead paint removal cost calculator,commercial,110,,,2,lead paint removal,,,false
+lead paint abatement vs encapsulation,commercial,,,,2,lead paint removal,,,false
+lead paint encapsulation,informational,5400,,0.85,2,lead paint removal,,,false
+lead based paint,informational,3600,55,2.65,2,lead paint removal,,,false
 how to test for lead paint,informational,2400,9,1.14,2,lead paint removal,,,false
 what does lead paint look like,informational,1000,3,,2,lead paint removal,,,false
-how to remove lead paint,informational,880,,3.39,2,lead paint removal,,,false
 is lead paint dangerous,informational,880,25,0.77,2,lead paint removal,,,false
-can you paint over lead paint,informational,590,5,0.65,2,lead paint removal,,,false
+lead paint chips,informational,720,12,,2,lead paint removal,,,false
+how to tell if paint is lead based,informational,480,,0.01,2,lead paint removal,,,false
 what year was lead paint banned,informational,480,41,,2,lead paint removal,,,false
-how to tell if paint has lead,informational,320,,2.88,2,lead paint removal,,,false
-lead paint symptoms,informational,320,34,,2,lead paint removal,,,false
+how to encapsulate lead paint,informational,170,,0.3,2,lead paint removal,,,false
 lead paint on windows,informational,140,,,2,lead paint removal,,,false
-how to clean up lead dust,informational,110,,1.5,2,lead paint removal,,,false
+can you just paint over lead paint,informational,110,,,2,lead paint removal,,,false
 when is lead abatement required,informational,70,,11.89,2,lead paint removal,,,false
 how to remove lead paint from walls,informational,70,5,2.83,2,lead paint removal,,,false
-lead paint in old houses,informational,70,12,,2,lead paint removal,,,false
+how to clean up lead paint dust,informational,50,,,2,lead paint removal,,,false
+does my house have lead paint,informational,30,4,5.3,2,lead paint removal,,,false
 does insurance cover lead paint removal,informational,20,,,2,lead paint removal,,,false
 how long does lead abatement take,informational,20,,,2,lead paint removal,,,false
-is it safe to live in a house with lead paint,informational,,,,2,lead paint removal,,,false
-is lead paint dangerous if not peeling,informational,,,,2,lead paint removal,,,false
+is it safe to live with lead paint,informational,,,,2,lead paint removal,,,false
+does homeowners insurance cover lead paint,informational,,,,2,lead paint removal,,,false

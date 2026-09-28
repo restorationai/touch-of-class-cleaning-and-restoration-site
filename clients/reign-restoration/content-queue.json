@@ -1,533 +1,553 @@
 {
-  "items": [
+ "items": [
+  {
+   "id": "2026-09-28-case-study-AbFvOql0XBAf62uE",
+   "status": "queued",
+   "queued_at": "2026-09-28T22:30:57Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "case_study",
+   "combo_key": "case-study-AbFvOql0XBAf62uE",
+   "primary_keyword": "",
+   "intent": "commercial",
+   "target_word_count": 1000,
+   "case_study": {
+    "review_id": "AbFvOql0XBAf62uE2Pb7H3pfPNpRa2-CGxUr9nYxGwOi-T-Dmua51Nl9779hUL9FXMdORVd1QlKp3g",
+    "reviewer_name": "Walter",
+    "star_rating": 5,
+    "review_text": "Jerrott was very attentive to our needs during the 10 months that it took to rebuild after major water damage to our home.  His subs were good and he actively supervised their work.  We'd recommend Reign without any reservations to anyone.",
+    "review_date": "2026-02-09"
+   },
+   "source": "best-of-seeder"
+  },
+  {
+   "id": "2026-09-14-who-to-call-for-water-damage-restoration-in-royse-city-tx",
+   "status": "published",
+   "queued_at": "2026-09-14T20:21:36Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "who_to_call",
+   "combo_key": "who-to-call-for-water-damage-restoration-in-royse-city-tx",
+   "primary_keyword": "who to call for water damage restoration in Royse City, TX",
+   "intent": "transactional",
+   "target_word_count": 1200,
+   "city_anchor": "royse-city-tx",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Royse City",
+    "state": "TX",
+    "competitors": []
+   },
+   "fan_out_cluster": [
+    "who do you call for water damage restoration Royse City",
+    "who do I call for water damage restoration in Royse City",
+    "water damage restoration emergency number Royse City TX",
+    "water damage cleanup Royse City",
+    "water cleanup Royse City",
+    "water removal Royse City"
+   ],
+   "source": "best-of-seeder",
+   "written_at": "2026-09-18T10:52:41Z",
+   "post_url": "https://reign-restoration.com/blog/who-to-call-for-water-damage-restoration-in-royse-city-tx/",
+   "published_verified_at": "2026-09-18T10:52:56Z"
+  },
+  {
+   "id": "2026-08-27-water-damage-restoration-cost-tx",
+   "status": "written",
+   "queued_at": "2026-08-27T06:29:37Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "cost_guide",
+   "combo_key": "water-damage-restoration-cost-tx",
+   "primary_keyword": "water damage restoration cost TX",
+   "intent": "transactional",
+   "target_word_count": 1500,
+   "city_anchor": "royse-city-tx",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Royse City",
+    "state": "TX",
+    "competitors": []
+   },
+   "fan_out_cluster": [
+    "how much does water damage restoration cost in TX",
+    "water damage restoration price TX",
+    "average cost of water damage restoration TX",
+    "water damage cleanup TX",
+    "water cleanup TX",
+    "water removal TX"
+   ],
+   "source": "best-of-seeder",
+   "written_at": "2026-09-07T16:01:21Z",
+   "post_url": "https://reign-restoration.com/blog/water-damage-restoration-cost-tx/"
+  },
+  {
+   "id": "2026-08-07-best-water-damage-restoration-in-royse-city-tx",
+   "status": "published",
+   "queued_at": "2026-08-07T03:44:36Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "best_of_comparison",
+   "combo_key": "best-water-damage-restoration-in-royse-city-tx",
+   "primary_keyword": "best water damage restoration company in Royse City, TX",
+   "intent": "commercial",
+   "target_word_count": 1600,
+   "city_anchor": "royse-city-tx",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Royse City",
+    "state": "TX",
+    "competitors": [
+     {
+      "name": "Paul Davis Emergency Services of Rockwall",
+      "google_rating": 4.9,
+      "review_count": 85
+     },
+     {
+      "name": "PuroClean of Rockwall",
+      "google_rating": 5,
+      "review_count": 30
+     },
+     {
+      "name": "SERVPRO of Northeast Collin County/Greenville",
+      "google_rating": 4.9,
+      "review_count": 172
+     }
+    ]
+   },
+   "fan_out_cluster": [
+    "best water damage restoration companies Royse City",
+    "top rated water damage restoration Royse City TX",
+    "who is the best water damage restoration company in Royse City",
+    "water damage cleanup Royse City",
+    "water cleanup Royse City",
+    "water removal Royse City"
+   ],
+   "source": "best-of-seeder",
+   "written_at": "2026-08-26T22:17:33Z",
+   "post_url": "https://reign-restoration.com/blog/best-water-damage-restoration-company-in-royse-city-tx/",
+   "claims_flags": [
     {
-      "id": "2026-09-14-who-to-call-for-water-damage-restoration-in-royse-city-tx",
-      "status": "published",
-      "queued_at": "2026-09-14T20:21:36Z",
-      "priority": 1,
-      "prioritized": true,
-      "content_type": "who_to_call",
-      "combo_key": "who-to-call-for-water-damage-restoration-in-royse-city-tx",
-      "primary_keyword": "who to call for water damage restoration in Royse City, TX",
-      "intent": "transactional",
-      "target_word_count": 1200,
-      "city_anchor": "royse-city-tx",
-      "best_of": {
-        "service": "water-damage-restoration",
-        "service_pretty": "Water Damage Restoration",
-        "city": "Royse City",
-        "state": "TX",
-        "competitors": []
-      },
-      "fan_out_cluster": [
-        "who do you call for water damage restoration Royse City",
-        "who do I call for water damage restoration in Royse City",
-        "water damage restoration emergency number Royse City TX",
-        "water damage cleanup Royse City",
-        "water cleanup Royse City",
-        "water removal Royse City"
-      ],
-      "source": "best-of-seeder",
-      "written_at": "2026-09-18T10:52:41Z",
-      "post_url": "https://reign-restoration.com/blog/who-to-call-for-water-damage-restoration-in-royse-city-tx/",
-      "published_verified_at": "2026-09-18T10:52:56Z"
-    },
-    {
-      "id": "2026-08-27-water-damage-restoration-cost-tx",
-      "status": "written",
-      "queued_at": "2026-08-27T06:29:37Z",
-      "priority": 1,
-      "prioritized": true,
-      "content_type": "cost_guide",
-      "combo_key": "water-damage-restoration-cost-tx",
-      "primary_keyword": "water damage restoration cost TX",
-      "intent": "transactional",
-      "target_word_count": 1500,
-      "city_anchor": "royse-city-tx",
-      "best_of": {
-        "service": "water-damage-restoration",
-        "service_pretty": "Water Damage Restoration",
-        "city": "Royse City",
-        "state": "TX",
-        "competitors": []
-      },
-      "fan_out_cluster": [
-        "how much does water damage restoration cost in TX",
-        "water damage restoration price TX",
-        "average cost of water damage restoration TX",
-        "water damage cleanup TX",
-        "water cleanup TX",
-        "water removal TX"
-      ],
-      "source": "best-of-seeder",
-      "written_at": "2026-09-07T16:01:21Z",
-      "post_url": "https://reign-restoration.com/blog/water-damage-restoration-cost-tx/"
-    },
-    {
-      "id": "2026-08-07-best-water-damage-restoration-in-royse-city-tx",
-      "status": "published",
-      "queued_at": "2026-08-07T03:44:36Z",
-      "priority": 1,
-      "prioritized": true,
-      "content_type": "best_of_comparison",
-      "combo_key": "best-water-damage-restoration-in-royse-city-tx",
-      "primary_keyword": "best water damage restoration company in Royse City, TX",
-      "intent": "commercial",
-      "target_word_count": 1600,
-      "city_anchor": "royse-city-tx",
-      "best_of": {
-        "service": "water-damage-restoration",
-        "service_pretty": "Water Damage Restoration",
-        "city": "Royse City",
-        "state": "TX",
-        "competitors": [
-          {
-            "name": "Paul Davis Emergency Services of Rockwall",
-            "google_rating": 4.9,
-            "review_count": 85
-          },
-          {
-            "name": "PuroClean of Rockwall",
-            "google_rating": 5,
-            "review_count": 30
-          },
-          {
-            "name": "SERVPRO of Northeast Collin County/Greenville",
-            "google_rating": 4.9,
-            "review_count": 172
-          }
-        ]
-      },
-      "fan_out_cluster": [
-        "best water damage restoration companies Royse City",
-        "top rated water damage restoration Royse City TX",
-        "who is the best water damage restoration company in Royse City",
-        "water damage cleanup Royse City",
-        "water cleanup Royse City",
-        "water removal Royse City"
-      ],
-      "source": "best-of-seeder",
-      "written_at": "2026-08-26T22:17:33Z",
-      "post_url": "https://reign-restoration.com/blog/best-water-damage-restoration-company-in-royse-city-tx/",
-      "claims_flags": [
-        {
-          "file": "src/content/blog/best-water-damage-restoration-company-in-royse-city-tx.md",
-          "part": "body",
-          "family": "reviews",
-          "severity": "review",
-          "matched": "172 Google reviews",
-          "context": "gest verified review base on this list: 172 Google reviews at a 4.9 rating. That volume of reviews",
-          "reason": "listicle review-count 172 (competitor stat \u2014 verify it is not presented as ours)"
-        }
-      ],
-      "published_verified_at": "2026-08-26T22:19:15Z"
-    },
-    {
-      "id": "2026-08-26-ceiling-water-damage",
-      "status": "written",
-      "queued_at": "2026-08-26T22:20:00Z",
-      "written_at": "2026-09-20T14:43:15Z",
-      "post_url": "https://reign-restoration.com/blog/ceiling-water-damage/",
-      "primary_keyword": "ceiling water damage",
-      "intent": "informational",
-      "volume": 3600,
-      "kd": 0,
-      "fan_out_cluster": [
-        "ceiling water damage repair",
-        "minor ceiling water damage",
-        "signs of water damage in ceiling",
-        "popcorn ceiling water damage",
-        "water damage ceiling tiles",
-        "roof water damage",
-        "water damage stains"
-      ],
-      "suggested_slug": "ceiling-water-damage",
-      "suggested_title": "Ceiling water damage: how to read the stain, and when the ceiling has to come down",
-      "target_word_count": 1600,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/storm-damage-restoration/",
-        "/services/mold-remediation/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "storm-damage-restoration",
-        "mold-remediation"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://iicrc.org/iicrcstandards/",
-        "https://www.epa.gov/mold/mold-cleanup-your-home"
-      ],
-      "notes": "Highest-volume uncovered term from the seed family (3,600/mo, KD 0, $44.85 CPC) and no blog post touches it. Lead with the three-stain triage a homeowner can do from the floor: colour, spread, and whether the drywall is sagging. Anchor locally: in Royse City, Rockwall and Fate the usual cause is a hail-punctured roof or a failed attic air-handler pan, not a burst supply line, because these are slab-on-grade houses with the AC sitting over finished space. In Lakewood and the M Streets a ceiling stain more often means a century-old cast-iron stack in a pier-and-beam house. Give the sag-and-bulge safety cutoff (do not poke a bulging ceiling, it is holding standing water) and hand off to the water damage restoration page.",
-      "source": "keyword-researcher",
-      "seed": "water damage restoration"
-    },
-    {
-      "id": "2026-08-26-hardwood-floor-water-damage",
-      "status": "published",
-      "queued_at": "2026-08-26T22:20:00Z",
-      "written_at": "2026-09-22T15:34:16Z",
-      "post_url": "https://reign-restoration.com/blog/hardwood-floor-water-damage/",
-      "primary_keyword": "hardwood floor water damage",
-      "intent": "informational",
-      "volume": 1600,
-      "kd": 0,
-      "fan_out_cluster": [
-        "water damage floor",
-        "repair water damage floor",
-        "wood water damage repair",
-        "water damaged subfloor",
-        "carpet water damage",
-        "water damage under sink"
-      ],
-      "suggested_slug": "hardwood-floor-water-damage",
-      "suggested_title": "Hardwood floor water damage: what can be dried and saved, and what has to come out",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/contents-restoration/",
-        "/services/mold-remediation/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "contents-restoration",
-        "mold-remediation"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://iicrc.org/iicrcstandards/",
-        "https://www.epa.gov/mold/mold-cleanup-your-home"
-      ],
-      "notes": "1,600/mo, KD 0, uncovered. The decision homeowners actually want made for them is dry-in-place versus tear-out, so structure the post around cupping vs crowning vs buckling and the moisture-content thresholds a tech reads with a meter. Local hook: DFW hardwood is usually engineered plank glued to a slab, which traps water underneath and hides it from a surface reading, so the post should explain why a floor that looks fine on top can still be a total loss. Mention the 24-48 hour mold window and route to mold remediation.",
-      "source": "keyword-researcher",
-      "seed": "water damage restoration",
-      "published_verified_at": "2026-09-22T15:35:42Z"
-    },
-    {
-      "id": "2026-08-26-water-damage-baseboard",
-      "status": "published",
-      "queued_at": "2026-08-26T22:20:00Z",
-      "written_at": "2026-09-24T19:55:38Z",
-      "post_url": "https://reign-restoration.com/blog/water-damage-baseboard/",
-      "primary_keyword": "water damage baseboard",
-      "intent": "informational",
-      "volume": 1300,
-      "kd": 0,
-      "fan_out_cluster": [
-        "water damage wall",
-        "drywall water damage",
-        "drywall water damage repair",
-        "fix water damage wall",
-        "water damage in walls",
-        "bathroom baseboard water damage",
-        "water damage in bathroom"
-      ],
-      "suggested_slug": "water-damage-baseboard",
-      "suggested_title": "Water damage baseboard repair: what the trim is telling you about the wall behind it",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/mold-remediation/",
-        "/services/general-contracting/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "mold-remediation",
-        "general-contracting"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://iicrc.org/iicrcstandards/",
-        "https://www.epa.gov/mold/mold-cleanup-your-home"
-      ],
-      "notes": "Combined uncovered cluster worth roughly 5,000/mo at KD 0 (baseboard 1,300, wall 880, drywall 590 + 880 repair). Swelling or dark-staining baseboard is the single most common early tell of a slab leak in this market, so make the post the diagnostic: swollen MDF trim, soft drywall at 2-4 inches, a warm spot on the floor. Explain flood cuts and why a restoration firm removes trim and drills the wall cavity instead of just repainting. Ties to general contracting for the rebuild.",
-      "source": "keyword-researcher",
-      "seed": "water damage restoration",
-      "published_verified_at": "2026-09-24T19:55:58Z"
-    },
-    {
-      "id": "2026-08-26-water-damage-restoration-cost",
-      "status": "queued",
-      "queued_at": "2026-08-26T22:20:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "water damage restoration cost",
-      "intent": "informational",
-      "volume": 880,
-      "kd": 3,
-      "fan_out_cluster": [
-        "how much does water damage restoration cost",
-        "water damage repair cost",
-        "water damage restoration cost per square foot",
-        "water damage repair cost calculator",
-        "water damage restoration cost calculator",
-        "who pays for water damage restoration",
-        "what does water damage restoration include"
-      ],
-      "suggested_slug": "water-damage-restoration-cost",
-      "suggested_title": "Water damage restoration cost: what a real job runs in North Texas",
-      "target_word_count": 1600,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/general-contracting/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "general-contracting"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://iicrc.org/iicrcstandards/",
-        "https://www.tdi.texas.gov/consumer/disasters.html"
-      ],
-      "notes": "880/mo at KD 3, plus a surrounding cost cluster the site has nothing on. Decision-stage: people search this 24-48 hours before they hire. Break cost down by water category (1/2/3) and by class of drying rather than giving one number, and explain the part most homeowners get wrong: mitigation and reconstruction are two separate line items and insurance usually treats them separately. Give an honest range and say what moves it. Two of the cluster terms ('who pays for water damage restoration', 'what does water damage restoration include') came out of the ChatGPT decomposition with near-zero Google volume: they are AI-retrieval fuel, so answer each in a clean two-to-three sentence passage under its own H2.",
-      "source": "keyword-researcher",
-      "seed": "water damage restoration"
-    },
-    {
-      "id": "2026-08-26-water-damage-insurance-claim",
-      "status": "banked",
-      "queued_at": "2026-08-26T22:20:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "water damage insurance claim",
-      "intent": "informational",
-      "volume": 590,
-      "kd": 27,
-      "fan_out_cluster": [
-        "water damage insurance claims",
-        "insurance claim for water damage",
-        "water damage insurance claim tips",
-        "water damage claim",
-        "water damage public adjuster",
-        "should i file a claim for water damage",
-        "how long does a water damage insurance claim take"
-      ],
-      "suggested_slug": "water-damage-insurance-claim",
-      "suggested_title": "Water damage insurance claim: how to file one in Texas without sinking it",
-      "target_word_count": 1600,
-      "internal_link_targets": [
-        "/services/water-damage-restoration/",
-        "/services/storm-damage-restoration/",
-        "/services/contents-restoration/"
-      ],
-      "service_tags": [
-        "water-damage-restoration",
-        "storm-damage-restoration",
-        "contents-restoration"
-      ],
-      "city_anchor": null,
-      "external_authority_candidates": [
-        "https://www.tdi.texas.gov/consumer/disasters.html",
-        "https://iicrc.org/iicrcstandards/"
-      ],
-      "notes": "590/mo, KD 27, $45.19 CPC. IMPORTANT boundary: the site already has /blog/does-homeowners-insurance-cover-water-damage/, which answers whether a loss is covered. This post must NOT re-answer that. It is the process post: documenting the loss, what an adjuster looks for, mitigation duty (the policy obligation to stop ongoing damage, which is why calling a restoration firm before the adjuster arrives does not void a claim), typical Texas timelines, and when a public adjuster is worth it. Link back to the coverage post rather than restating it. Cite TDI for Texas-specific timelines.",
-      "source": "keyword-researcher",
-      "seed": "water damage restoration",
-      "banked_at": "2026-09-24T22:24:15.050741+00:00"
-    },
-    {
-      "id": "2026-09-24-mold-remediation-cost-dallas-tx",
-      "status": "queued",
-      "queued_at": "2026-09-24T19:55:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "mold remediation cost",
-      "intent": "commercial",
-      "volume": 9900,
-      "kd": 3,
-      "fan_out_cluster": [
-        "how much does mold remediation cost",
-        "mold removal cost",
-        "mold remediation cost per square foot",
-        "black mold removal cost",
-        "mold remediation cost basement",
-        "hvac mold remediation cost",
-        "who pays for mold remediation"
-      ],
-      "suggested_slug": "mold-remediation-cost-dallas-tx",
-      "suggested_title": "Mold remediation cost in Dallas: what a real job runs by size and location",
-      "target_word_count": 1600,
-      "internal_link_targets": [
-        "/services/mold-remediation/",
-        "/service-areas/dallas-tx/mold-remediation/",
-        "/services/water-damage-restoration/",
-        "/contact/"
-      ],
-      "service_tags": [
-        "mold-remediation",
-        "water-damage-restoration"
-      ],
-      "city_anchor": "dallas-tx",
-      "external_authority_candidates": [
-        "https://www.tdlr.texas.gov/mld/mld.htm",
-        "https://www.epa.gov/mold/mold-cleanup-your-home"
-      ],
-      "notes": "9,900/mo at KD 3 and the site has no cost content for mold. Owner named mold as a wizard goal and Dallas is a priority area. Break cost down by job size (small localized, one or two rooms, drywall and insulation removal, whole-house) and by location in the house (attic, crawl space, HVAC, basement), and call out that Texas requires a separate licensed mold assessment before regulated remediation, which is its own line item. Explain that reconstruction is usually billed separately. 'who pays for mold remediation' gets its own short answer passage under an H2 for AI retrieval. Do not quote competitor pricing (ServPro cost query was banked as navigational).",
-      "source": "keyword-researcher",
-      "seed": "mold remediation"
-    },
-    {
-      "id": "2026-09-24-does-homeowners-insurance-cover-mold-rockwall-tx",
-      "status": "queued",
-      "queued_at": "2026-09-24T19:55:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "does homeowners insurance cover mold",
-      "intent": "informational",
-      "volume": 5400,
-      "kd": 11,
-      "fan_out_cluster": [
-        "does homeowners insurance cover mold remediation",
-        "is mold remediation covered by insurance",
-        "who pays for mold remediation",
-        "mold from a burst pipe vs a slow leak",
-        "texas mold endorsement coverage limits",
-        "how to document mold damage for an insurance claim"
-      ],
-      "suggested_slug": "does-homeowners-insurance-cover-mold-rockwall-tx",
-      "suggested_title": "Does homeowners insurance cover mold? A guide for Rockwall homeowners",
-      "target_word_count": 1500,
-      "internal_link_targets": [
-        "/services/mold-remediation/",
-        "/service-areas/rockwall-tx/mold-remediation/",
-        "/blog/does-homeowners-insurance-cover-water-damage/",
-        "/services/water-damage-restoration/"
-      ],
-      "service_tags": [
-        "mold-remediation",
-        "water-damage-restoration"
-      ],
-      "city_anchor": "rockwall-tx",
-      "external_authority_candidates": [
-        "https://www.tdi.texas.gov/tips/when-are-water-damage-and-mold-covered-by-insurance.html",
-        "https://www.tdi.texas.gov/orders/mendorse.html",
-        "https://www.texasattorneygeneral.gov/consumer-protection/home-real-estate-and-travel/mold-remediation"
-      ],
-      "notes": "Decision-stage insurance query, 5,400/mo at KD 11. The ChatGPT answer for Rockwall mold leaned entirely on TDI and the Texas AG, so cite those. Core distinction: sudden and accidental water (burst supply line) leading to mold vs gradual leaks and flooding, plus Texas mold endorsements with sublimits. Cover CLUE database impact honestly. Link to the existing water damage insurance post rather than repeating it. Informational, not a sales page.",
-      "source": "keyword-researcher",
-      "seed": "mold remediation"
-    },
-    {
-      "id": "2026-09-24-attic-mold-remediation-royse-city-tx",
-      "status": "queued",
-      "queued_at": "2026-09-24T19:55:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "attic mold remediation",
-      "intent": "transactional",
-      "volume": 2900,
-      "kd": 0,
-      "fan_out_cluster": [
-        "mold in attic",
-        "how to get rid of mold in attic",
-        "attic mold removal cost",
-        "what causes mold in an attic in texas",
-        "attic ventilation and roof leaks",
-        "can attic mold spread to the house"
-      ],
-      "suggested_slug": "attic-mold-remediation-royse-city-tx",
-      "suggested_title": "Attic mold remediation in Royse City: causes, cost, and what the job involves",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/mold-remediation/",
-        "/services/roofing/",
-        "/services/storm-damage-restoration/",
-        "/service-areas/royse-city-tx/"
-      ],
-      "service_tags": [
-        "mold-remediation",
-        "roofing"
-      ],
-      "city_anchor": "royse-city-tx",
-      "external_authority_candidates": [
-        "https://www.epa.gov/mold/mold-cleanup-your-home",
-        "https://www.tdlr.texas.gov/mld/mld.htm"
-      ],
-      "notes": "2,900/mo at KD 0 with no dedicated page on the site (only the general mold service page). Royse City is the primary city. Tie attic mold to its North Texas causes: roof leaks after hail and storms, poor ventilation, bath fans venting into the attic. Natural cross-link to roofing and storm damage, both planned services. Include a cost section that folds in 'attic mold removal cost' (1,000/mo).",
-      "source": "keyword-researcher",
-      "seed": "mold remediation"
-    },
-    {
-      "id": "2026-09-24-how-long-does-mold-remediation-take-garland-tx",
-      "status": "queued",
-      "queued_at": "2026-09-24T19:55:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "how long does mold remediation take",
-      "intent": "informational",
-      "volume": 720,
-      "kd": 0,
-      "fan_out_cluster": [
-        "mold remediation process",
-        "what is mold remediation",
-        "when is mold remediation required",
-        "can i stay in my house during mold remediation",
-        "mold assessment texas",
-        "mold clearance testing after remediation"
-      ],
-      "suggested_slug": "how-long-does-mold-remediation-take-garland-tx",
-      "suggested_title": "How long does mold remediation take? A day-by-day timeline for Garland homes",
-      "target_word_count": 1300,
-      "internal_link_targets": [
-        "/services/mold-remediation/",
-        "/service-areas/garland-tx/mold-remediation/",
-        "/blog/how-to-test-for-mold/",
-        "/services/general-contracting/"
-      ],
-      "service_tags": [
-        "mold-remediation",
-        "general-contracting"
-      ],
-      "city_anchor": "garland-tx",
-      "external_authority_candidates": [
-        "https://www.tdlr.texas.gov/mld/mld.htm",
-        "https://www.epa.gov/mold/mold-cleanup-your-home"
-      ],
-      "notes": "Question-format GEO page, KD 0. Lay out the timeline: assessment, containment, removal, drying, clearance, rebuild. Contained jobs are 1 to 3 days of remediation; hidden or HVAC mold can run one to several weeks. Each cluster question gets a two-to-three sentence answer passage under its own H2 (several came from the ChatGPT decomposition). 'can i stay in my house during mold remediation' has no measured Google volume but is AI-retrieval fuel. Mention reconstruction as a separate phase and link general contracting.",
-      "source": "keyword-researcher",
-      "seed": "mold remediation"
-    },
-    {
-      "id": "2026-09-24-hvac-mold-remediation-plano-tx",
-      "status": "queued",
-      "queued_at": "2026-09-24T19:55:00Z",
-      "written_at": null,
-      "post_url": null,
-      "primary_keyword": "hvac mold remediation",
-      "intent": "transactional",
-      "volume": 1300,
-      "kd": 0,
-      "fan_out_cluster": [
-        "hvac mold remediation cost",
-        "mold in ac vents",
-        "mold in air ducts",
-        "signs of mold in your ac system",
-        "why texas ac units grow mold",
-        "does mold in ducts come back after cleaning"
-      ],
-      "suggested_slug": "hvac-mold-remediation-plano-tx",
-      "suggested_title": "HVAC mold remediation in Plano: mold in AC vents and ducts explained",
-      "target_word_count": 1400,
-      "internal_link_targets": [
-        "/services/mold-remediation/",
-        "/service-areas/plano-tx/mold-remediation/",
-        "/services/odor-removal/"
-      ],
-      "service_tags": [
-        "mold-remediation",
-        "odor-removal"
-      ],
-      "city_anchor": "plano-tx",
-      "external_authority_candidates": [
-        "https://www.epa.gov/indoor-air-quality-iaq/should-you-have-air-ducts-your-home-cleaned",
-        "https://www.epa.gov/mold/mold-cleanup-your-home"
-      ],
-      "notes": "1,300/mo at KD 0, CPC 28.74, plus 'mold in air ducts' (2,900) and 'mold in ac vents' (1,300) in cluster. North Texas runs AC most of the year and condensation is a top mold source. Keep scope to mold remediation in the system (the client does not offer standalone HVAC or duct cleaning services, so do not promise HVAC repair). Link odor removal for musty smell. Plano is a priority area.",
-      "source": "keyword-researcher",
-      "seed": "mold remediation"
+     "file": "src/content/blog/best-water-damage-restoration-company-in-royse-city-tx.md",
+     "part": "body",
+     "family": "reviews",
+     "severity": "review",
+     "matched": "172 Google reviews",
+     "context": "gest verified review base on this list: 172 Google reviews at a 4.9 rating. That volume of reviews",
+     "reason": "listicle review-count 172 (competitor stat \u2014 verify it is not presented as ours)"
     }
-  ]
+   ],
+   "published_verified_at": "2026-08-26T22:19:15Z"
+  },
+  {
+   "id": "2026-08-26-ceiling-water-damage",
+   "status": "written",
+   "queued_at": "2026-08-26T22:20:00Z",
+   "written_at": "2026-09-20T14:43:15Z",
+   "post_url": "https://reign-restoration.com/blog/ceiling-water-damage/",
+   "primary_keyword": "ceiling water damage",
+   "intent": "informational",
+   "volume": 3600,
+   "kd": 0,
+   "fan_out_cluster": [
+    "ceiling water damage repair",
+    "minor ceiling water damage",
+    "signs of water damage in ceiling",
+    "popcorn ceiling water damage",
+    "water damage ceiling tiles",
+    "roof water damage",
+    "water damage stains"
+   ],
+   "suggested_slug": "ceiling-water-damage",
+   "suggested_title": "Ceiling water damage: how to read the stain, and when the ceiling has to come down",
+   "target_word_count": 1600,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/storm-damage-restoration/",
+    "/services/mold-remediation/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "storm-damage-restoration",
+    "mold-remediation"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://iicrc.org/iicrcstandards/",
+    "https://www.epa.gov/mold/mold-cleanup-your-home"
+   ],
+   "notes": "Highest-volume uncovered term from the seed family (3,600/mo, KD 0, $44.85 CPC) and no blog post touches it. Lead with the three-stain triage a homeowner can do from the floor: colour, spread, and whether the drywall is sagging. Anchor locally: in Royse City, Rockwall and Fate the usual cause is a hail-punctured roof or a failed attic air-handler pan, not a burst supply line, because these are slab-on-grade houses with the AC sitting over finished space. In Lakewood and the M Streets a ceiling stain more often means a century-old cast-iron stack in a pier-and-beam house. Give the sag-and-bulge safety cutoff (do not poke a bulging ceiling, it is holding standing water) and hand off to the water damage restoration page.",
+   "source": "keyword-researcher",
+   "seed": "water damage restoration"
+  },
+  {
+   "id": "2026-08-26-hardwood-floor-water-damage",
+   "status": "published",
+   "queued_at": "2026-08-26T22:20:00Z",
+   "written_at": "2026-09-22T15:34:16Z",
+   "post_url": "https://reign-restoration.com/blog/hardwood-floor-water-damage/",
+   "primary_keyword": "hardwood floor water damage",
+   "intent": "informational",
+   "volume": 1600,
+   "kd": 0,
+   "fan_out_cluster": [
+    "water damage floor",
+    "repair water damage floor",
+    "wood water damage repair",
+    "water damaged subfloor",
+    "carpet water damage",
+    "water damage under sink"
+   ],
+   "suggested_slug": "hardwood-floor-water-damage",
+   "suggested_title": "Hardwood floor water damage: what can be dried and saved, and what has to come out",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/contents-restoration/",
+    "/services/mold-remediation/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "contents-restoration",
+    "mold-remediation"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://iicrc.org/iicrcstandards/",
+    "https://www.epa.gov/mold/mold-cleanup-your-home"
+   ],
+   "notes": "1,600/mo, KD 0, uncovered. The decision homeowners actually want made for them is dry-in-place versus tear-out, so structure the post around cupping vs crowning vs buckling and the moisture-content thresholds a tech reads with a meter. Local hook: DFW hardwood is usually engineered plank glued to a slab, which traps water underneath and hides it from a surface reading, so the post should explain why a floor that looks fine on top can still be a total loss. Mention the 24-48 hour mold window and route to mold remediation.",
+   "source": "keyword-researcher",
+   "seed": "water damage restoration",
+   "published_verified_at": "2026-09-22T15:35:42Z"
+  },
+  {
+   "id": "2026-08-26-water-damage-baseboard",
+   "status": "published",
+   "queued_at": "2026-08-26T22:20:00Z",
+   "written_at": "2026-09-24T19:55:38Z",
+   "post_url": "https://reign-restoration.com/blog/water-damage-baseboard/",
+   "primary_keyword": "water damage baseboard",
+   "intent": "informational",
+   "volume": 1300,
+   "kd": 0,
+   "fan_out_cluster": [
+    "water damage wall",
+    "drywall water damage",
+    "drywall water damage repair",
+    "fix water damage wall",
+    "water damage in walls",
+    "bathroom baseboard water damage",
+    "water damage in bathroom"
+   ],
+   "suggested_slug": "water-damage-baseboard",
+   "suggested_title": "Water damage baseboard repair: what the trim is telling you about the wall behind it",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/mold-remediation/",
+    "/services/general-contracting/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "mold-remediation",
+    "general-contracting"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://iicrc.org/iicrcstandards/",
+    "https://www.epa.gov/mold/mold-cleanup-your-home"
+   ],
+   "notes": "Combined uncovered cluster worth roughly 5,000/mo at KD 0 (baseboard 1,300, wall 880, drywall 590 + 880 repair). Swelling or dark-staining baseboard is the single most common early tell of a slab leak in this market, so make the post the diagnostic: swollen MDF trim, soft drywall at 2-4 inches, a warm spot on the floor. Explain flood cuts and why a restoration firm removes trim and drills the wall cavity instead of just repainting. Ties to general contracting for the rebuild.",
+   "source": "keyword-researcher",
+   "seed": "water damage restoration",
+   "published_verified_at": "2026-09-24T19:55:58Z"
+  },
+  {
+   "id": "2026-08-26-water-damage-restoration-cost",
+   "status": "queued",
+   "queued_at": "2026-08-26T22:20:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "water damage restoration cost",
+   "intent": "informational",
+   "volume": 880,
+   "kd": 3,
+   "fan_out_cluster": [
+    "how much does water damage restoration cost",
+    "water damage repair cost",
+    "water damage restoration cost per square foot",
+    "water damage repair cost calculator",
+    "water damage restoration cost calculator",
+    "who pays for water damage restoration",
+    "what does water damage restoration include"
+   ],
+   "suggested_slug": "water-damage-restoration-cost",
+   "suggested_title": "Water damage restoration cost: what a real job runs in North Texas",
+   "target_word_count": 1600,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/general-contracting/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "general-contracting"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://iicrc.org/iicrcstandards/",
+    "https://www.tdi.texas.gov/consumer/disasters.html"
+   ],
+   "notes": "880/mo at KD 3, plus a surrounding cost cluster the site has nothing on. Decision-stage: people search this 24-48 hours before they hire. Break cost down by water category (1/2/3) and by class of drying rather than giving one number, and explain the part most homeowners get wrong: mitigation and reconstruction are two separate line items and insurance usually treats them separately. Give an honest range and say what moves it. Two of the cluster terms ('who pays for water damage restoration', 'what does water damage restoration include') came out of the ChatGPT decomposition with near-zero Google volume: they are AI-retrieval fuel, so answer each in a clean two-to-three sentence passage under its own H2.",
+   "source": "keyword-researcher",
+   "seed": "water damage restoration"
+  },
+  {
+   "id": "2026-08-26-water-damage-insurance-claim",
+   "status": "banked",
+   "queued_at": "2026-08-26T22:20:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "water damage insurance claim",
+   "intent": "informational",
+   "volume": 590,
+   "kd": 27,
+   "fan_out_cluster": [
+    "water damage insurance claims",
+    "insurance claim for water damage",
+    "water damage insurance claim tips",
+    "water damage claim",
+    "water damage public adjuster",
+    "should i file a claim for water damage",
+    "how long does a water damage insurance claim take"
+   ],
+   "suggested_slug": "water-damage-insurance-claim",
+   "suggested_title": "Water damage insurance claim: how to file one in Texas without sinking it",
+   "target_word_count": 1600,
+   "internal_link_targets": [
+    "/services/water-damage-restoration/",
+    "/services/storm-damage-restoration/",
+    "/services/contents-restoration/"
+   ],
+   "service_tags": [
+    "water-damage-restoration",
+    "storm-damage-restoration",
+    "contents-restoration"
+   ],
+   "city_anchor": null,
+   "external_authority_candidates": [
+    "https://www.tdi.texas.gov/consumer/disasters.html",
+    "https://iicrc.org/iicrcstandards/"
+   ],
+   "notes": "590/mo, KD 27, $45.19 CPC. IMPORTANT boundary: the site already has /blog/does-homeowners-insurance-cover-water-damage/, which answers whether a loss is covered. This post must NOT re-answer that. It is the process post: documenting the loss, what an adjuster looks for, mitigation duty (the policy obligation to stop ongoing damage, which is why calling a restoration firm before the adjuster arrives does not void a claim), typical Texas timelines, and when a public adjuster is worth it. Link back to the coverage post rather than restating it. Cite TDI for Texas-specific timelines.",
+   "source": "keyword-researcher",
+   "seed": "water damage restoration",
+   "banked_at": "2026-09-24T22:24:15.050741+00:00"
+  },
+  {
+   "id": "2026-09-24-mold-remediation-cost-dallas-tx",
+   "status": "queued",
+   "queued_at": "2026-09-24T19:55:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "mold remediation cost",
+   "intent": "commercial",
+   "volume": 9900,
+   "kd": 3,
+   "fan_out_cluster": [
+    "how much does mold remediation cost",
+    "mold removal cost",
+    "mold remediation cost per square foot",
+    "black mold removal cost",
+    "mold remediation cost basement",
+    "hvac mold remediation cost",
+    "who pays for mold remediation"
+   ],
+   "suggested_slug": "mold-remediation-cost-dallas-tx",
+   "suggested_title": "Mold remediation cost in Dallas: what a real job runs by size and location",
+   "target_word_count": 1600,
+   "internal_link_targets": [
+    "/services/mold-remediation/",
+    "/service-areas/dallas-tx/mold-remediation/",
+    "/services/water-damage-restoration/",
+    "/contact/"
+   ],
+   "service_tags": [
+    "mold-remediation",
+    "water-damage-restoration"
+   ],
+   "city_anchor": "dallas-tx",
+   "external_authority_candidates": [
+    "https://www.tdlr.texas.gov/mld/mld.htm",
+    "https://www.epa.gov/mold/mold-cleanup-your-home"
+   ],
+   "notes": "9,900/mo at KD 3 and the site has no cost content for mold. Owner named mold as a wizard goal and Dallas is a priority area. Break cost down by job size (small localized, one or two rooms, drywall and insulation removal, whole-house) and by location in the house (attic, crawl space, HVAC, basement), and call out that Texas requires a separate licensed mold assessment before regulated remediation, which is its own line item. Explain that reconstruction is usually billed separately. 'who pays for mold remediation' gets its own short answer passage under an H2 for AI retrieval. Do not quote competitor pricing (ServPro cost query was banked as navigational).",
+   "source": "keyword-researcher",
+   "seed": "mold remediation"
+  },
+  {
+   "id": "2026-09-24-does-homeowners-insurance-cover-mold-rockwall-tx",
+   "status": "queued",
+   "queued_at": "2026-09-24T19:55:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "does homeowners insurance cover mold",
+   "intent": "informational",
+   "volume": 5400,
+   "kd": 11,
+   "fan_out_cluster": [
+    "does homeowners insurance cover mold remediation",
+    "is mold remediation covered by insurance",
+    "who pays for mold remediation",
+    "mold from a burst pipe vs a slow leak",
+    "texas mold endorsement coverage limits",
+    "how to document mold damage for an insurance claim"
+   ],
+   "suggested_slug": "does-homeowners-insurance-cover-mold-rockwall-tx",
+   "suggested_title": "Does homeowners insurance cover mold? A guide for Rockwall homeowners",
+   "target_word_count": 1500,
+   "internal_link_targets": [
+    "/services/mold-remediation/",
+    "/service-areas/rockwall-tx/mold-remediation/",
+    "/blog/does-homeowners-insurance-cover-water-damage/",
+    "/services/water-damage-restoration/"
+   ],
+   "service_tags": [
+    "mold-remediation",
+    "water-damage-restoration"
+   ],
+   "city_anchor": "rockwall-tx",
+   "external_authority_candidates": [
+    "https://www.tdi.texas.gov/tips/when-are-water-damage-and-mold-covered-by-insurance.html",
+    "https://www.tdi.texas.gov/orders/mendorse.html",
+    "https://www.texasattorneygeneral.gov/consumer-protection/home-real-estate-and-travel/mold-remediation"
+   ],
+   "notes": "Decision-stage insurance query, 5,400/mo at KD 11. The ChatGPT answer for Rockwall mold leaned entirely on TDI and the Texas AG, so cite those. Core distinction: sudden and accidental water (burst supply line) leading to mold vs gradual leaks and flooding, plus Texas mold endorsements with sublimits. Cover CLUE database impact honestly. Link to the existing water damage insurance post rather than repeating it. Informational, not a sales page.",
+   "source": "keyword-researcher",
+   "seed": "mold remediation"
+  },
+  {
+   "id": "2026-09-24-attic-mold-remediation-royse-city-tx",
+   "status": "queued",
+   "queued_at": "2026-09-24T19:55:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "attic mold remediation",
+   "intent": "transactional",
+   "volume": 2900,
+   "kd": 0,
+   "fan_out_cluster": [
+    "mold in attic",
+    "how to get rid of mold in attic",
+    "attic mold removal cost",
+    "what causes mold in an attic in texas",
+    "attic ventilation and roof leaks",
+    "can attic mold spread to the house"
+   ],
+   "suggested_slug": "attic-mold-remediation-royse-city-tx",
+   "suggested_title": "Attic mold remediation in Royse City: causes, cost, and what the job involves",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/mold-remediation/",
+    "/services/roofing/",
+    "/services/storm-damage-restoration/",
+    "/service-areas/royse-city-tx/"
+   ],
+   "service_tags": [
+    "mold-remediation",
+    "roofing"
+   ],
+   "city_anchor": "royse-city-tx",
+   "external_authority_candidates": [
+    "https://www.epa.gov/mold/mold-cleanup-your-home",
+    "https://www.tdlr.texas.gov/mld/mld.htm"
+   ],
+   "notes": "2,900/mo at KD 0 with no dedicated page on the site (only the general mold service page). Royse City is the primary city. Tie attic mold to its North Texas causes: roof leaks after hail and storms, poor ventilation, bath fans venting into the attic. Natural cross-link to roofing and storm damage, both planned services. Include a cost section that folds in 'attic mold removal cost' (1,000/mo).",
+   "source": "keyword-researcher",
+   "seed": "mold remediation"
+  },
+  {
+   "id": "2026-09-24-how-long-does-mold-remediation-take-garland-tx",
+   "status": "queued",
+   "queued_at": "2026-09-24T19:55:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "how long does mold remediation take",
+   "intent": "informational",
+   "volume": 720,
+   "kd": 0,
+   "fan_out_cluster": [
+    "mold remediation process",
+    "what is mold remediation",
+    "when is mold remediation required",
+    "can i stay in my house during mold remediation",
+    "mold assessment texas",
+    "mold clearance testing after remediation"
+   ],
+   "suggested_slug": "how-long-does-mold-remediation-take-garland-tx",
+   "suggested_title": "How long does mold remediation take? A day-by-day timeline for Garland homes",
+   "target_word_count": 1300,
+   "internal_link_targets": [
+    "/services/mold-remediation/",
+    "/service-areas/garland-tx/mold-remediation/",
+    "/blog/how-to-test-for-mold/",
+    "/services/general-contracting/"
+   ],
+   "service_tags": [
+    "mold-remediation",
+    "general-contracting"
+   ],
+   "city_anchor": "garland-tx",
+   "external_authority_candidates": [
+    "https://www.tdlr.texas.gov/mld/mld.htm",
+    "https://www.epa.gov/mold/mold-cleanup-your-home"
+   ],
+   "notes": "Question-format GEO page, KD 0. Lay out the timeline: assessment, containment, removal, drying, clearance, rebuild. Contained jobs are 1 to 3 days of remediation; hidden or HVAC mold can run one to several weeks. Each cluster question gets a two-to-three sentence answer passage under its own H2 (several came from the ChatGPT decomposition). 'can i stay in my house during mold remediation' has no measured Google volume but is AI-retrieval fuel. Mention reconstruction as a separate phase and link general contracting.",
+   "source": "keyword-researcher",
+   "seed": "mold remediation"
+  },
+  {
+   "id": "2026-09-24-hvac-mold-remediation-plano-tx",
+   "status": "queued",
+   "queued_at": "2026-09-24T19:55:00Z",
+   "written_at": null,
+   "post_url": null,
+   "primary_keyword": "hvac mold remediation",
+   "intent": "transactional",
+   "volume": 1300,
+   "kd": 0,
+   "fan_out_cluster": [
+    "hvac mold remediation cost",
+    "mold in ac vents",
+    "mold in air ducts",
+    "signs of mold in your ac system",
+    "why texas ac units grow mold",
+    "does mold in ducts come back after cleaning"
+   ],
+   "suggested_slug": "hvac-mold-remediation-plano-tx",
+   "suggested_title": "HVAC mold remediation in Plano: mold in AC vents and ducts explained",
+   "target_word_count": 1400,
+   "internal_link_targets": [
+    "/services/mold-remediation/",
+    "/service-areas/plano-tx/mold-remediation/",
+    "/services/odor-removal/"
+   ],
+   "service_tags": [
+    "mold-remediation",
+    "odor-removal"
+   ],
+   "city_anchor": "plano-tx",
+   "external_authority_candidates": [
+    "https://www.epa.gov/indoor-air-quality-iaq/should-you-have-air-ducts-your-home-cleaned",
+    "https://www.epa.gov/mold/mold-cleanup-your-home"
+   ],
+   "notes": "1,300/mo at KD 0, CPC 28.74, plus 'mold in air ducts' (2,900) and 'mold in ac vents' (1,300) in cluster. North Texas runs AC most of the year and condensation is a top mold source. Keep scope to mold remediation in the system (the client does not offer standalone HVAC or duct cleaning services, so do not promise HVAC repair). Link odor removal for musty smell. Plano is a priority area.",
+   "source": "keyword-researcher",
+   "seed": "mold remediation"
+  }
+ ]
 }

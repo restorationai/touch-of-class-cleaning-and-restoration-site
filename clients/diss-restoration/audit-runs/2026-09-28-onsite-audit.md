@@ -3,94 +3,86 @@
 **Live origin audited:** https://dissrestoration.com (apex)
 **Site verdict:** amber
 **URLs audited:** 6
-**Prior audit:** 2026-08-26 (amber, staging Pages preview)
-**Form factor:** desktop only (see caveats)
-
-## Headline
-
-This is the first audit on the live apex. The 2026-09-19 cutover went through: all 6 URLs return 200 from Cloudflare with no `x-robots-tag`, HSTS is on, and canonicals self-reference the apex. SEO now counts toward the verdict and scores 100 on every page (it was 69 on staging only because of the Pages noindex header).
-
-Two service landings improved from amber to green. The site stays amber because of the homepage. It scores 80 on performance, has a 0.215 CLS hero shift that got worse since last month, a 176-character meta description, and still has no FAQPage schema.
-
-The biggest cost on the site is unchanged from last month. `/images/logo.png` is a 1,423,236-byte 1200x1078 PNG displayed at 64 to 96px tall, and it loads on every page.
+**Prior audit:** 2026-08-26 (run against the staging Pages preview; this is the first apex audit)
+**Form factor:** desktop only (DataForSEO wrapper does not expose mobile). Expect mobile performance 10-20 points lower.
 
 ## Site rollup
 
 | Metric | Score | Δ vs prior |
 | --- | ---: | ---: |
 | Performance | 89.3 | -3.9 |
-| Accessibility | 96.0 | 0.0 |
-| Best Practices | 100.0 | 0.0 |
-| SEO | 100.0 | +31.0 (staging artifact removed) |
+| Accessibility | 96.0 | 0 |
+| Best Practices | 100.0 | 0 |
+| SEO | 100.0 | +31 |
 
-Pages by verdict: green: 5, amber: 1, red: 0, error: 0
+Pages by verdict: {green: 5, amber: 1, red: 0, error: 0}
+
+SEO jumped from 69 to 100 because the apex no longer carries the Cloudflare Pages `x-robots-tag: noindex` header. That was a staging artifact, not a fix. SEO counts toward the verdict from this run on.
 
 ## Per-page scores
 
-| URL | Archetype | Verdict | Perf | A11y | BP | SEO | LCP | CLS | TBT |
-| --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| `/` | home | amber | 80 | 100 | 100 | 100 | 1.98s | 0.215 | 0ms |
-| `/services/` | services-hub | green | 91 | 95 | 100 | 100 | 1.99s | 0.003 | 0ms |
-| `/services/water-damage-restoration/` | service-landing | green | 91 | 95 | 100 | 100 | 1.95s | 0.002 | 0ms |
-| `/services/fire-damage-restoration/` | service-landing | green | 92 | 95 | 100 | 100 | 1.87s | 0.004 | 0ms |
-| `/service-areas/warren-oh/` | service-area | green | 92 | 95 | 100 | 100 | 1.91s | 0.003 | 0ms |
-| `/contact/` | contact | green | 90 | 96 | 100 | 100 | 2.00s | 0.002 | 0ms |
+| URL | Archetype | Verdict | Perf | A11y | BP | SEO | LCP | CLS |
+| --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| / | home | amber | 80 | 100 | 100 | 100 | 1.9s | 0.215 |
+| /services/ | services-hub | green | 91 | 95 | 100 | 100 | 2.0s | 0.002 |
+| /services/water-damage-restoration/ | service-landing | green | 91 | 95 | 100 | 100 | 1.9s | 0.004 |
+| /services/fire-damage-restoration/ | service-landing | green | 92 | 95 | 100 | 100 | 1.9s | 0.002 |
+| /service-areas/warren-oh/ | service-area | green | 91 | 95 | 100 | 100 | 1.9s | 0.004 |
+| /contact/ | contact | green | 91 | 96 | 100 | 100 | 2.0s | 0.024 |
 
-On desktop, LCP passes the 2.5s "good" threshold on every page, but only by a little (1.87 to 2.00s). The homepage is the only page that fails CLS (0.215 against a 0.1 threshold). On-page basics are clean on all 6 URLs: one H1 each, titles of 53 to 57 characters, self-referencing canonicals, no broken links, and no mixed content.
+TBT is 0 ms on every page. On-page checks came back clean everywhere: no broken internal or external links, no mixed content, 100% image alt coverage, one H1 per page, titles 53-57 chars, and self-referencing apex canonicals.
 
 ## Template-level issues (fix once, lift many pages)
 
 | Issue | Affected URLs | Severity | Recommended fix |
 | --- | ---: | --- | --- |
-| `image-delivery-insight` | 6 | high | Lighthouse estimates 1,388 to 1,738 KiB of avoidable image bytes per page, about 1,421 KiB of it from `/images/logo.png`. The header renders it at `width="64" height="64"` (`h-20 md:h-24`) and the footer at 48px. Export a WebP about 200px tall (target under 20 KB) and point both header and footer `<img>` at it. Also flagged: `/images/services.webp` on `/services/` (262 KB, 247 KB wasted) and `/images/team.webp` on `/` (250 KB, 152 KB wasted). Resize both to their displayed dimensions. |
-| `unused-javascript` | 6 | medium | New since cutover. `gtag/js?id=G-QQDEBB808D` (about 156 KiB, about 69 KiB unused) now loads on every page. Inject it on first user interaction or in `requestIdleCallback` so it stays out of the critical window. |
-| `lcp-discovery-insight` | 5 | medium | Unchanged from last month. The inner-page hero `<img src="/images/hero-bg.webp" ... loading="eager">` (and `/images/services/water-damage-restoration.webp` on that landing) has no `fetchpriority="high"`. The homepage hero has it, which is why `/` passes. Add the attribute in the shared inner-page hero component. |
-| `color-contrast` | 5 | medium | Unchanged. Breadcrumb links use `text-dark/50`, which renders as `#888c93` on `#ffffff` at 3.37:1 (4.5:1 required). Change them to `text-dark/70` or darker in the breadcrumb component. `/service-areas/warren-oh/` also has a `text-slate-400` span (`#94a3b8`) at 2.56:1. Use `text-slate-600` there. |
-| `largest-contentful-paint` | 5 | medium | LCP is 1.9 to 2.0s on desktop and scores 0.63 to 0.67. It is a symptom, not a separate fix. The logo and `fetchpriority` changes above address it. |
-| `has_micromarkup_errors` | 5 | low | DataForSEO's schema.org validator flags the FAQPage `Question` objects for missing `answerCount` and `text`. Those are QAPage fields that Google's FAQPage rich result does not require, so this is a validator false positive. Optional: add `"answerCount": 1` to each Question in the FAQ schema builder to clear the flag. |
+| `image-delivery-insight` | 6 | high | Replace `/images/logo.png` (1,423,236 bytes, 1200x1078 PNG, shown at about 107x96) with a 256px-wide WebP/AVIF or SVG. Lighthouse puts the waste at 1.42 MB per page view, from the header and footer logos. |
+| `unused-javascript` | 6 | medium | GA4 `gtag/js?id=G-QQDEBB808D` (159 KB, 44% unused) is new with the apex build. Load it after the `load` event or on first interaction, or move it to Cloudflare Zaraz so it runs off the main thread. |
+| `render-blocking-insight` | 6 | medium | Inline the critical CSS from `/_astro/_slug_.*.css` (about 9 KB) with Astro `build.inlineStylesheets: "always"`. |
+| `color-contrast` | 5 | medium | Breadcrumb link class `text-dark/50` renders #888c93 on white (3.37:1). Change it to `text-dark/70` or darker to reach 4.5:1. Home passes because it has no breadcrumb. |
+| `lcp-discovery-insight` | 5 | medium | Add `fetchpriority="high"` to the `hero-bg.webp` `<img>` in the inner-page hero component. The homepage hero already has it. |
 
 ## Money page alerts
 
-- **`/`** (home). Verdict: amber. Performance 80 and CLS 0.215. The shifting element is the hero text container `div.container-wide relative z-10 pt-10 pb-14 ...` (shift score 0.215). Inter loads asynchronously (`media="print" onload="this.media='all'"`, six weights 400 to 900 with `display=swap`), so the hero headline reflows when the web font replaces the fallback. The 1.36 MB logo also loads here. On the on-page side, the meta description is 176 characters (limit 160), and the visible "Frequently Asked Questions" section ships no FAQPage JSON-LD.
+- **`/`** - verdict: amber. Performance 80, CLS 0.215, LCP 1.9s. Cause: the hero text container (`main > header.relative > div.container-wide`) reflows when the Google Fonts Inter woff2 swaps in (Lighthouse `cls-culprits-insight`: "Web font loaded"). The 1.42 MB logo.png and the new GA4 script make it worse. On-page, the meta description is 176 chars, so it will be cut off in search results, and the FAQ section ships no FAQPage JSON-LD.
 
 ## Regressions vs prior audit
 
-Deltas below compare apex (this run) against the staging Pages preview (2026-08-26), matched by path. Part of each performance and LCP change comes from the different edge path and single-run Lighthouse variance. The new gtag script is a real code change that contributes on every page.
+Comparison is by URL path: staging preview (2026-08-26) vs apex+CDN (today). Some movement comes from the change of environment itself. The apex also loads GA4, Google Fonts, and Cloudflare Email Obfuscation, which staging did not.
 
-**Per-page regressions (thresholds: category -5, LCP +200ms, CLS +0.02, TBT +100ms):**
-- `/`: performance 88 to 80 (-8). LCP 1,646 to 1,980ms (+334ms). CLS 0.153 to 0.215 (+0.062). The hero font-swap shift was already the top issue last month and it grew.
-- `/contact/`: performance 100 to 90 (-10). LCP 808 to 1,998ms (+1,190ms). The LCP element is now the hero `<img src="/images/hero-bg.webp" loading="eager">` with no `fetchpriority`. Lighthouse estimates 95 KB of that 144 KB image is wasted at the rendered size. FCP is 835ms here, against 280 to 350ms on most other pages.
+**Metric regressions:**
+- `/`: performance 88 to 80 (-8), LCP +291 ms, CLS 0.153 to 0.215 (+0.062).
+- `/contact/`: performance 100 to 91 (-9), LCP 808 ms to 1,953 ms (+1,145 ms). The contact LCP is now in line with every other page. Its hero image lacks `fetchpriority="high"`, and the extra third-party bytes now compete for bandwidth.
+- Site average performance dropped 3.9 points (threshold: 3).
 
-**Site-level:** average performance fell by 3.9 points (93.2 to 89.3), past the 3-point flag. No page moved to a worse verdict.
-
-**Verdict improvements:**
-- `/services/water-damage-restoration/` went from amber to green. The `high_loading_time` crawl flag cleared: dom_complete dropped from 4,226ms to 311ms.
-- `/services/fire-damage-restoration/` went from amber to green, for the same reason (dom_complete fell from 5,051ms to 1,909ms).
+**Verdict transitions:**
+- `/services/water-damage-restoration/` went amber to green. The DataForSEO `high_loading_time` flag cleared (dom_complete dropped from 4,226 ms to 42 ms).
+- `/services/fire-damage-restoration/` went amber to green. `high_loading_time` cleared (dom_complete dropped from 5,051 ms to 86 ms).
 
 **New issues this month:**
-- All 6 pages: `unused-javascript` (gtag G-QQDEBB808D, about 69 KiB unused).
-- `/`: `meta_description_length` (176 characters).
-- `/contact/`: `largest-contentful-paint` now fails (2.0s, previously 0.8s).
-- `/services/`, both landings, `/service-areas/warren-oh/`, `/contact/`: `has_micromarkup_errors`. This is new only because DataForSEO detected no micromarkup at all on staging last month. See the template table.
+- All 6 URLs: `unused-javascript`, which is GA4 gtag.js (about 69 KB unused).
+- `/`: `meta_description_length_out_of_range` (176 chars). This was already true in August but was not flagged then, so it is newly detected rather than newly introduced.
 
-**Issues resolved since last audit:** (positive, keep doing this)
-- All 6 pages: `is-crawlable` passes now that the site is served from the apex without the staging noindex header.
-- `/`, `/services/water-damage-restoration/`, `/services/fire-damage-restoration/`: `high_loading_time` has cleared (dom_complete is now 224ms, 311ms and 1,909ms respectively).
+**Issues resolved since last audit:** (positive - keep doing this)
+- All 6 URLs: `is-crawlable` is no longer flagged. The apex is indexable.
+- `/`, `/services/water-damage-restoration/`, `/services/fire-damage-restoration/`: `high_loading_time` is no longer flagged. The Cloudflare edge serves these pages much faster than the staging preview did.
+
+**Still open from last audit:** logo.png size (`image-delivery-insight`), home hero web-font CLS, breadcrumb `color-contrast`, inner-page `lcp-discovery-insight`, home `faqpage_schema_missing`, and `/services/` word count (706 vs the 800 target).
 
 ## Recommended next actions (priority order)
 
-1. **(money page + template, high impact)** Replace `/images/logo.png` (1,423,236 bytes, 1200x1078) with an approximately 200px-tall WebP in both the header and footer `<img>` tags. This removes about 1.4 MB from every page load. Lighthouse estimates about 1,100ms of LCP savings per page. It is also the single biggest mobile risk. This item was #1 last month and has not been done.
-2. **(money page, `/`)** Stop the hero font-swap shift (CLS 0.215). Self-host Inter as woff2 and add `<link rel="preload" as="font" type="font/woff2" crossorigin>` for the hero weight(s). Load only the weights actually used instead of all six (400 to 900). Add a metric-matched fallback `@font-face` (`size-adjust` / `ascent-override` on Arial) so the swap does not move the hero container.
-3. **(money page, `/`)** Add FAQPage JSON-LD for the homepage "Frequently Asked Questions" section, using the same builder the inner pages use. Shorten the meta description from 176 to 160 characters or fewer. Suggested 148-character version: "DISS Restoration provides 24/7 water, fire, mold, and storm damage restoration in Youngstown and nearby areas. IICRC-certified. Call (724) 981-1441."
-4. **(template, money pages)** Add `fetchpriority="high"` to the hero `<img>` in the shared inner-page hero (affects `/services/`, both landings, `/service-areas/warren-oh/`, `/contact/`). This is the main lever for the `/contact/` LCP regression. In the same change, defer the gtag `G-QQDEBB808D` injection until first interaction or idle.
-5. **(template, accessibility)** Change breadcrumb link color from `text-dark/50` (3.37:1) to `text-dark/70` or darker. Change the `text-slate-400` span on the service-area template (2.56:1) to `text-slate-600`. This lifts accessibility from 95 to 100 on 5 pages.
+1. **(money page, home)** Stop the hero font shift on `/`. Self-host Inter (for example `@fontsource-variable/inter`), preload the woff2 in the layout `<head>`, and add a metric-matched fallback (`size-adjust` / `ascent-override` on a local Arial `@font-face`). That should bring CLS from 0.215 to under 0.1. Also shorten the home meta description to 160 chars or fewer, for example: "DISS Restoration provides 24/7 water, fire, mold, and storm damage restoration in Youngstown, OH. IICRC-certified. Call (724) 981-1441." (136 chars).
+2. **(money page, home)** Add a FAQPage JSON-LD block to the homepage, built from the questions already in its FAQ section. The hub, contact, landing, and area templates already emit FAQPage.
+3. **(template, high impact)** Replace `/images/logo.png` with a properly sized WebP/AVIF (about 256x230, under 20 KB) or an SVG, and update the header and footer `<img>` tags. This saves about 1.42 MB on every page view and is the main driver of the uniform 1.9-2.0s simulated LCP.
+4. **(template)** Defer GA4. Inject gtag.js after `window.load` or first interaction, or move it to Cloudflare Zaraz. This recovers about 69 KB of unused JS on all 6 pages and should win back most of the `/contact/` regression.
+5. **(template)** Add `fetchpriority="high"` to the inner-page hero `<img src="/images/hero-bg.webp">`. Change the breadcrumb `text-dark/50` to a color with at least 4.5:1 contrast, which lifts accessibility from 95 to 100 on 5 pages.
 
 ## Notes / caveats
 
-- **Origin change.** Last month's baseline was `https://staging.rankai-diss-restoration.pages.dev`. This run used the apex because `apex_cutover.completed_at` is 2026-09-19. Read the score deltas with that in mind. The +31 SEO delta is entirely the staging noindex going away.
-- **Desktop only.** The DataForSEO Lighthouse wrapper ran with `for_mobile=false`. Mobile performance would typically be 10 to 20 points lower, and the 1.36 MB logo would dominate on a throttled mobile connection.
-- **URL selection.** URLs were auto-derived from `plan/url-plan.json` because no `audit-urls.txt` exists. The service-landing slots came from a three-way tie at priority 9.0 (water-damage-restoration, fire-damage-restoration, mold-remediation). I kept the same two as last month for comparability. No service-area has `primary: true`, and the business city (Farrell, PA) has no area page, so `warren-oh` was used per the fallback rule.
-- **Issue cap.** Only the top 5 failing Lighthouse audits are stored per URL. These minor failures also appear but sit outside the cap: `render-blocking-insight` (single 9 KB CSS file, about 50ms), `cache-insight` (Cloudflare `email-decode.min.js`, 0 KiB savings), `network-dependency-tree-insight`, and `forced-reflow-insight` (fire page only).
-- **Word count.** `/services/` has 706 words against a url-plan target of 800 (low severity). Every other page meets its target.
-- **Security headers.** HSTS (`max-age=31536000; includeSubDomains`), `x-content-type-options: nosniff`, and a `frame-ancestors` CSP are present on all 6 URLs.
-- **Run cost:** $0.041 in DataForSEO calls (6 Lighthouse plus 6 instant_pages).
+- First audit against the apex. Apex cutover completed 2026-09-19. There is no noindex header, so SEO counts in the verdict.
+- Service-landing selection: fire-damage, mold-remediation, and water-damage all share url-plan priority 9.0. I kept water-damage and fire-damage (the August selection) so the regression comparison stays valid.
+- Service-area selection: there is no `primary: true` area and no address city on the client record, so I used `/service-areas/warren-oh/` (first area slug, same as August).
+- DataForSEO instant_pages returned `has_micromarkup: null` on all pages. I checked the served HTML directly and every page ships valid JSON-LD. The only gap is FAQPage on the homepage.
+- `/service-areas/warren-oh/` trips the DataForSEO `frame` check because of the embedded map iframe. This is expected and is not reported as an issue.
+- Cloudflare Email Obfuscation injects `/cdn-cgi/.../email-decode.min.js`, which shows up under `cache-insight` (285 bytes). It is negligible, but if no email addresses are obfuscated on the site, you can turn it off in the Cloudflare dashboard (Scrape Shield) and save a request.
+- Run cost: about $0.03 (6 Lighthouse live calls plus 6 instant_pages calls).

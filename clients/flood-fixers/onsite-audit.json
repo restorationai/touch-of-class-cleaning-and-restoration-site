@@ -4,23 +4,21 @@
   "site": "flood-fixers.com",
   "live_origin": "https://flood-fixers.com",
   "live_origin_source": "apex",
-  "generated_at": "2026-09-28T21:27:15Z",
+  "generated_at": "2026-09-28T22:40:00Z",
   "audit_form_factor": "desktop",
   "lighthouse_version": "13.4.0",
-  "lighthouse_detail": "captured - full Lighthouse report pulled per URL (on_page/lighthouse/live/json) and parsed on disk under /tmp/rank-ai-audit/raw. Top 5 failing weighted audits per URL recorded in lighthouse_issues; complete failing-audit ID list in lighthouse_issue_ids_full.",
+  "lighthouse_detail": "captured - full Lighthouse report pulled per URL (on_page/lighthouse/live/json) and parsed on disk under /tmp/rank-ai-audit/ff/raw. Top 5 failing weighted audits per URL recorded in lighthouse_issues; complete failing-audit ID set in lighthouse_issue_ids_full.",
   "environment_caveats": [
-    "Live origin: clients/flood-fixers.json records apex cutover as top-level cut_over_at=2026-07-04T20:30:00Z rather than apex_cutover.completed_at. Treated as cut over: the apex https://flood-fixers.com is live (HTTP 200, no x-robots-tag, build_status pushed_main) and both prior audits ran against it. The staging preview still returns x-robots-tag: noindex, as expected, and was not audited.",
-    "The DataForSEO MCP wrapper in this CI run exposes only the generic api_request tool (no on_page_lighthouse / on_page_instant_pages wrappers). The audit called the identical REST endpoints (on_page/lighthouse/live/json with for_mobile=false, on_page/instant_pages with enable_javascript, load_resources and validate_micromarkup) using the DATAFORSEO_USERNAME/PASSWORD credentials.",
-    "Lighthouse ran DESKTOP only (formFactor=desktop, verified in configSettings). Mobile performance would typically score 10-20 points lower. Scores are not mobile-first.",
-    "Micromarkup: instant_pages returned has_micromarkup_errors=true on the 5 pages that carry FAQPage (all except home). A 1-page on_page crawl task with microdata validation showed the only 'error' level results are \"missing field 'answerCount'\" on each FAQPage Question (plus warning \"missing field 'text'\"). answerCount is a QAPage property and is not required by Google's FAQPage structured-data spec, so these are recorded as low severity and do not affect the verdict. JSON-LD on all 6 pages parses cleanly. Info-level findings are real hygiene gaps: LocalBusiness/Organization emit email:\"\", foundingDate:\"\", address.streetAddress:\"\", address.postalCode:\"\", and image/logo as relative paths (/images/logo.webp).",
-    "This run enabled validate_micromarkup on instant_pages; last month's run did not surface micromarkup errors, so has_micromarkup_errors is newly surfaced, not necessarily newly broken.",
-    "TBT_ms is 0 on all 6 pages. INP_ms is null on all 6 because lab Lighthouse does not emit interaction-to-next-paint.",
-    "Broken-link detection: on_page/instant_pages audits a single URL and does not crawl outbound links, so link-level 4xx/5xx checks were not performed. All 6 audited URLs returned 200. No http:// resources found on any page (no mixed content). Image alt coverage is 100% on all 6 pages.",
-    "LCP regressions (+321 to +488ms on 4 pages) all remain well inside the 2.5s 'good' threshold. Lab variance between single desktop runs is in the 100-300ms range; the consistent cause across pages this month is the newly added GA4 gtag.js (159KB) which competes for bandwidth during load.",
-    "Unweighted/agentic Lighthouse audits (agent-accessibility-tree in the agentic-browsing category) are excluded from lighthouse_issues. It fails on all 6 URLs with the same root cause as link-name.",
-    "no_image_title (instant_pages) is not part of the audit rubric and is not recorded as an issue."
+    "Live origin: clients/flood-fixers.json has no apex_cutover.completed_at key, but it records the cutover as cut_over_at=2026-07-04T20:30:00Z. The apex https://flood-fixers.com is live (HTTP 200 on all 6 audited URLs, no x-robots-tag noindex, build_status pushed_main), so the apex was audited and SEO counts toward the verdict, consistent with the prior 3 audits.",
+    "The DataForSEO MCP wrapper in this CI run exposes only the generic api_request tool (no on_page_lighthouse / on_page_instant_pages wrappers). The audit called the same DataForSEO OnPage REST endpoints (on_page/lighthouse/live/json and on_page/instant_pages) directly with the DATAFORSEO_USERNAME/PASSWORD credentials. Same data source, same engine.",
+    "Lighthouse ran DESKTOP only (formFactor=desktop, verified in the report configSettings). Mobile performance would typically score 10-20 points lower. These are not mobile-first scores.",
+    "Schema.org: DataForSEO instant_pages returned has_micromarkup=false on all 6 URLs, but direct HTML inspection found parseable JSON-LD on every page (home: Organization/WebSite/LocalBusiness; services hub and contact: Organization/WebSite/LocalBusiness/FAQPage/BreadcrumbList; service landings: Service/LocalBusiness/FAQPage/BreadcrumbList; service area: LocalBusiness/FAQPage/BreadcrumbList). The DataForSEO flag is a false negative and is NOT treated as a missing-schema issue.",
+    "TBT_ms is 0 on all 6 pages. INP_ms is null on all 6: lab Lighthouse does not emit interaction-to-next-paint. Both recorded as measured.",
+    "Broken-link detection: on_page/instant_pages audits a single URL and does not crawl outlinks, so link-level 4xx/5xx checks were not performed. instant_pages reported broken_links=false and broken_resources=false on all 6 pages and every audited URL returned 200.",
+    "Unweighted Lighthouse audits are excluded from lighthouse_issues. agent-accessibility-tree (agentic-browsing category, not scored) failed on all 6 URLs with the same root cause as link-name, which is recorded.",
+    "DataForSEO no_image_title (images without a title attribute) fired on all 6 pages. It is not in the on-page rubric and has no SEO or accessibility impact when alt is present (alt coverage is 100% on all 6 pages), so it is not recorded as an issue, consistent with prior runs.",
+    "Lab variance: LCP rose 67-326ms on 5 of 6 pages while performance scores moved only 0-1 points. Only /contact/ (+326ms) crossed the 200ms regression threshold; its LCP breakdown subparts sum to about 300ms, so the 1172ms figure is partly simulated throttling overhead. All 6 LCPs remain under 1.2s, well inside the 2.5s good threshold. Re-check next month before investing in a fix beyond the priority-hint change already recommended."
   ],
-  "audit_cost_usd": 0.041,
   "audited_urls": [
     {
       "url": "https://flood-fixers.com/",
@@ -28,13 +26,13 @@
       "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 99,
+        "performance": 98,
         "accessibility": 96,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 951,
+        "LCP_ms": 959,
         "CLS": 0.0393,
         "TBT_ms": 0,
         "INP_ms": null
@@ -62,8 +60,8 @@
           "category": "performance"
         },
         {
-          "id": "forced-reflow-insight",
-          "title": "Forced reflow",
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
           "severity": "low",
           "estimated_savings_ms": null,
           "category": "performance"
@@ -95,7 +93,6 @@
       ],
       "lighthouse_issue_ids_full": [
         "cache-insight",
-        "forced-reflow-insight",
         "image-delivery-insight",
         "link-name",
         "network-dependency-tree-insight",
@@ -109,13 +106,13 @@
       "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 96,
+        "performance": 98,
         "accessibility": 95,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1343,
+        "LCP_ms": 1089,
         "CLS": 0.004,
         "TBT_ms": 0,
         "INP_ms": null
@@ -129,40 +126,35 @@
           "category": "accessibility"
         },
         {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
           "severity": "low",
-          "estimated_savings_ms": null,
+          "estimated_savings_ms": 150,
           "category": "performance"
         },
         {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
           "severity": "low",
-          "estimated_savings_ms": null,
+          "estimated_savings_ms": 150,
           "category": "performance"
         },
         {
           "id": "render-blocking-insight",
           "title": "Render-blocking requests",
           "severity": "low",
-          "estimated_savings_ms": null,
+          "estimated_savings_ms": 50,
           "category": "performance"
         },
         {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes",
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
           "severity": "low",
-          "estimated_savings_ms": null,
+          "estimated_savings_ms": 50,
           "category": "performance"
         }
       ],
       "onpage_issues": [
-        {
-          "id": "has_micromarkup_errors",
-          "title": "DataForSEO micromarkup validator: FAQPage Question missing answerCount (QAPage-only property; not required by Google FAQPage spec)",
-          "severity": "low"
-        },
         {
           "id": "has_render_blocking_resources",
           "title": "Render-blocking resources present (1 script, 1 stylesheet)",
@@ -170,12 +162,13 @@
         },
         {
           "id": "content_below_target_word_count",
-          "title": "751 words vs url-plan target 800",
+          "title": "Word count 751 is below the services-hub target of 800",
           "severity": "low"
         }
       ],
       "lighthouse_issue_ids_full": [
         "cache-insight",
+        "forced-reflow-insight",
         "image-delivery-insight",
         "lcp-discovery-insight",
         "link-name",
@@ -190,13 +183,13 @@
       "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 96,
+        "performance": 99,
         "accessibility": 95,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1246,
+        "LCP_ms": 935,
         "CLS": 0.0057,
         "TBT_ms": 0,
         "INP_ms": null
@@ -210,40 +203,35 @@
           "category": "accessibility"
         },
         {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
           "severity": "low",
-          "estimated_savings_ms": 150,
+          "estimated_savings_ms": 100,
           "category": "performance"
         },
         {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 100,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
           "severity": "low",
           "estimated_savings_ms": 50,
           "category": "performance"
         },
         {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
           "severity": "low",
           "estimated_savings_ms": null,
           "category": "performance"
         }
       ],
       "onpage_issues": [
-        {
-          "id": "has_micromarkup_errors",
-          "title": "DataForSEO micromarkup validator: FAQPage Question missing answerCount (QAPage-only property; not required by Google FAQPage spec)",
-          "severity": "low"
-        },
         {
           "id": "has_render_blocking_resources",
           "title": "Render-blocking resources present (1 script, 1 stylesheet)",
@@ -266,13 +254,13 @@
       "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 98,
+        "performance": 99,
         "accessibility": 95,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1184,
+        "LCP_ms": 908,
         "CLS": 0.0057,
         "TBT_ms": 0,
         "INP_ms": null
@@ -286,17 +274,24 @@
           "category": "accessibility"
         },
         {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "low",
-          "estimated_savings_ms": 200,
-          "category": "performance"
-        },
-        {
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "low",
           "estimated_savings_ms": 100,
+          "category": "performance"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 50,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
           "category": "performance"
         },
         {
@@ -305,21 +300,9 @@
           "severity": "low",
           "estimated_savings_ms": null,
           "category": "performance"
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
         }
       ],
       "onpage_issues": [
-        {
-          "id": "has_micromarkup_errors",
-          "title": "DataForSEO micromarkup validator: FAQPage Question missing answerCount (QAPage-only property; not required by Google FAQPage spec)",
-          "severity": "low"
-        },
         {
           "id": "has_render_blocking_resources",
           "title": "Render-blocking resources present (1 script, 1 stylesheet)",
@@ -342,13 +325,13 @@
       "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 97,
+        "performance": 98,
         "accessibility": 91,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1188,
+        "LCP_ms": 1010,
         "CLS": 0.0498,
         "TBT_ms": 0,
         "INP_ms": null
@@ -361,6 +344,77 @@
           "estimated_savings_ms": null,
           "category": "accessibility"
         },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": 150,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": 100,
+          "category": "performance"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 100,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Render-blocking resources present (1 script, 1 stylesheet)",
+          "severity": "low"
+        },
+        {
+          "id": "frame",
+          "title": "Page embeds an iframe",
+          "severity": "low"
+        }
+      ],
+      "lighthouse_issue_ids_full": [
+        "cache-insight",
+        "color-contrast",
+        "forced-reflow-insight",
+        "image-delivery-insight",
+        "lcp-discovery-insight",
+        "link-name",
+        "network-dependency-tree-insight",
+        "render-blocking-insight",
+        "unused-javascript"
+      ]
+    },
+    {
+      "url": "https://flood-fixers.com/contact/",
+      "archetype": "contact",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 98,
+        "accessibility": 96,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1172,
+        "CLS": 0.0357,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
         {
           "id": "link-name",
           "title": "Links do not have a discernible name",
@@ -383,101 +437,21 @@
           "category": "performance"
         },
         {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        }
-      ],
-      "onpage_issues": [
-        {
-          "id": "has_micromarkup_errors",
-          "title": "DataForSEO micromarkup validator: FAQPage Question missing answerCount (QAPage-only property; not required by Google FAQPage spec)",
-          "severity": "low"
-        },
-        {
-          "id": "has_render_blocking_resources",
-          "title": "Render-blocking resources present (1 script, 1 stylesheet)",
-          "severity": "low"
-        },
-        {
-          "id": "frame",
-          "title": "Page contains an iframe (embedded Google Map)",
-          "severity": "low"
-        }
-      ],
-      "lighthouse_issue_ids_full": [
-        "cache-insight",
-        "color-contrast",
-        "image-delivery-insight",
-        "lcp-discovery-insight",
-        "link-name",
-        "network-dependency-tree-insight",
-        "render-blocking-insight",
-        "unused-javascript"
-      ]
-    },
-    {
-      "url": "https://flood-fixers.com/contact/",
-      "archetype": "contact",
-      "verdict": "green",
-      "error_reason": null,
-      "scores": {
-        "performance": 99,
-        "accessibility": 96,
-        "best_practices": 100,
-        "seo": 100
-      },
-      "core_web_vitals": {
-        "LCP_ms": 965,
-        "CLS": 0.0357,
-        "TBT_ms": 0,
-        "INP_ms": null
-      },
-      "lighthouse_issues": [
-        {
-          "id": "link-name",
-          "title": "Links do not have a discernible name",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "category": "accessibility"
-        },
-        {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes",
-          "severity": "low",
-          "estimated_savings_ms": 150,
-          "category": "performance"
-        },
-        {
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "low",
-          "estimated_savings_ms": 150,
+          "estimated_savings_ms": 50,
           "category": "performance"
         },
         {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
           "severity": "low",
-          "estimated_savings_ms": 100,
-          "category": "performance"
-        },
-        {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
-          "severity": "low",
-          "estimated_savings_ms": null,
+          "estimated_savings_ms": 50,
           "category": "performance"
         }
       ],
       "onpage_issues": [
-        {
-          "id": "has_micromarkup_errors",
-          "title": "DataForSEO micromarkup validator: FAQPage Question missing answerCount (QAPage-only property; not required by Google FAQPage spec)",
-          "severity": "low"
-        },
         {
           "id": "has_render_blocking_resources",
           "title": "Render-blocking resources present (1 script, 1 stylesheet)",
@@ -507,6 +481,12 @@
       "best_practices": 100,
       "seo": 100
     },
+    "avg_scores_exact": {
+      "performance": 98.33,
+      "accessibility": 94.67,
+      "best_practices": 100.0,
+      "seo": 100.0
+    },
     "verdict": "green",
     "url_count": 6,
     "urls_by_verdict": {
@@ -523,26 +503,14 @@
         "severity": "medium"
       },
       {
-        "id": "image-delivery-insight",
-        "title": "Improve image delivery",
-        "affected_urls": 6,
-        "severity": "low"
-      },
-      {
-        "id": "unused-javascript",
-        "title": "Reduce unused JavaScript",
-        "affected_urls": 6,
-        "severity": "low"
-      },
-      {
         "id": "cache-insight",
         "title": "Use efficient cache lifetimes",
         "affected_urls": 6,
         "severity": "low"
       },
       {
-        "id": "render-blocking-insight",
-        "title": "Render-blocking requests",
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
         "affected_urls": 6,
         "severity": "low"
       },
@@ -553,15 +521,21 @@
         "severity": "low"
       },
       {
-        "id": "has_render_blocking_resources",
-        "title": "Render-blocking resources present (1 script, 1 stylesheet)",
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
         "affected_urls": 6,
         "severity": "low"
       },
       {
-        "id": "has_micromarkup_errors",
-        "title": "DataForSEO micromarkup validator: FAQPage Question missing answerCount (QAPage-only property; not required by Google FAQPage spec)",
-        "affected_urls": 5,
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "affected_urls": 6,
+        "severity": "low"
+      },
+      {
+        "id": "has_render_blocking_resources",
+        "title": "Render-blocking resources present (1 script, 1 stylesheet)",
+        "affected_urls": 6,
         "severity": "low"
       },
       {
@@ -572,7 +546,13 @@
       },
       {
         "id": "low_content_rate",
-        "title": "Text-to-HTML ratio is 9.1%",
+        "title": "Text-to-HTML ratio is 7.1%",
+        "affected_urls": 2,
+        "severity": "low"
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
         "affected_urls": 2,
         "severity": "low"
       }
@@ -587,99 +567,9 @@
       "best_practices": 0,
       "seo": 0
     },
-    "score_deltas_unrounded": {
-      "performance": -1.67,
-      "accessibility": 3.34,
-      "best_practices": 0.0,
-      "seo": 0.0
-    },
-    "per_url_deltas": [
-      {
-        "url": "https://flood-fixers.com/",
-        "scores": {
-          "performance": 1,
-          "accessibility": 0,
-          "best_practices": 0,
-          "seo": 0
-        },
-        "core_web_vitals": {
-          "LCP_ms": -87,
-          "CLS": 0.0215,
-          "TBT_ms": 0
-        }
-      },
-      {
-        "url": "https://flood-fixers.com/services/",
-        "scores": {
-          "performance": -3,
-          "accessibility": 5,
-          "best_practices": 0,
-          "seo": 0
-        },
-        "core_web_vitals": {
-          "LCP_ms": 321,
-          "CLS": 0.0008,
-          "TBT_ms": 0
-        }
-      },
-      {
-        "url": "https://flood-fixers.com/services/water-damage-restoration/",
-        "scores": {
-          "performance": -4,
-          "accessibility": 5,
-          "best_practices": 0,
-          "seo": 0
-        },
-        "core_web_vitals": {
-          "LCP_ms": 488,
-          "CLS": 0.0015,
-          "TBT_ms": 0
-        }
-      },
-      {
-        "url": "https://flood-fixers.com/services/flood-damage-restoration/",
-        "scores": {
-          "performance": -2,
-          "accessibility": 5,
-          "best_practices": 0,
-          "seo": 0
-        },
-        "core_web_vitals": {
-          "LCP_ms": 425,
-          "CLS": 0.0015,
-          "TBT_ms": 0
-        }
-      },
-      {
-        "url": "https://flood-fixers.com/service-areas/chula-vista-ca/",
-        "scores": {
-          "performance": -2,
-          "accessibility": 0,
-          "best_practices": 0,
-          "seo": 0
-        },
-        "core_web_vitals": {
-          "LCP_ms": 365,
-          "CLS": 0.0007,
-          "TBT_ms": 0
-        }
-      },
-      {
-        "url": "https://flood-fixers.com/contact/",
-        "scores": {
-          "performance": 0,
-          "accessibility": 5,
-          "best_practices": 0,
-          "seo": 0
-        },
-        "core_web_vitals": {
-          "LCP_ms": 119,
-          "CLS": 0.0132,
-          "TBT_ms": 0
-        }
-      }
-    ],
-    "regressions": [
+    "verdict_transitions": [],
+    "url_score_regressions": [],
+    "cwv_regressions": [
       {
         "url": "https://flood-fixers.com/",
         "metric": "CLS",
@@ -688,60 +578,114 @@
         "delta": 0.0215
       },
       {
-        "url": "https://flood-fixers.com/services/",
+        "url": "https://flood-fixers.com/contact/",
         "metric": "LCP_ms",
-        "prior": 1022,
-        "current": 1343,
-        "delta": 321
+        "prior": 846,
+        "current": 1172,
+        "delta": 326
+      }
+    ],
+    "per_url_deltas": [
+      {
+        "url": "https://flood-fixers.com/",
+        "score_deltas": {
+          "performance": 0,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": -79,
+          "CLS": 0.0215,
+          "TBT_ms": 0
+        }
+      },
+      {
+        "url": "https://flood-fixers.com/services/",
+        "score_deltas": {
+          "performance": -1,
+          "accessibility": 5,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 67,
+          "CLS": 0.0008,
+          "TBT_ms": 0
+        }
       },
       {
         "url": "https://flood-fixers.com/services/water-damage-restoration/",
-        "metric": "LCP_ms",
-        "prior": 758,
-        "current": 1246,
-        "delta": 488
+        "score_deltas": {
+          "performance": -1,
+          "accessibility": 5,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 177,
+          "CLS": 0.0015,
+          "TBT_ms": 0
+        }
       },
       {
         "url": "https://flood-fixers.com/services/flood-damage-restoration/",
-        "metric": "LCP_ms",
-        "prior": 759,
-        "current": 1184,
-        "delta": 425
+        "score_deltas": {
+          "performance": -1,
+          "accessibility": 5,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 149,
+          "CLS": 0.0015,
+          "TBT_ms": 0
+        }
       },
       {
         "url": "https://flood-fixers.com/service-areas/chula-vista-ca/",
-        "metric": "LCP_ms",
-        "prior": 823,
-        "current": 1188,
-        "delta": 365
+        "score_deltas": {
+          "performance": -1,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 187,
+          "CLS": 0.0007,
+          "TBT_ms": 0
+        }
+      },
+      {
+        "url": "https://flood-fixers.com/contact/",
+        "score_deltas": {
+          "performance": -1,
+          "accessibility": 5,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 326,
+          "CLS": 0.0132,
+          "TBT_ms": 0
+        }
       }
     ],
-    "verdict_transitions": [],
     "new_issues": [
       {
         "url": "https://flood-fixers.com/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://flood-fixers.com/services/",
         "id": "forced-reflow-insight",
         "title": "Forced reflow"
       },
       {
-        "url": "https://flood-fixers.com/",
-        "id": "unused-javascript",
-        "title": "Reduce unused JavaScript"
-      },
-      {
-        "url": "https://flood-fixers.com/services/",
-        "id": "has_micromarkup_errors",
-        "title": "DataForSEO micromarkup validator: FAQPage Question missing answerCount (QAPage-only property; not required by Google FAQPage spec)"
-      },
-      {
         "url": "https://flood-fixers.com/services/",
         "id": "unused-javascript",
         "title": "Reduce unused JavaScript"
-      },
-      {
-        "url": "https://flood-fixers.com/services/water-damage-restoration/",
-        "id": "has_micromarkup_errors",
-        "title": "DataForSEO micromarkup validator: FAQPage Question missing answerCount (QAPage-only property; not required by Google FAQPage spec)"
       },
       {
         "url": "https://flood-fixers.com/services/water-damage-restoration/",
@@ -750,28 +694,18 @@
       },
       {
         "url": "https://flood-fixers.com/services/flood-damage-restoration/",
-        "id": "has_micromarkup_errors",
-        "title": "DataForSEO micromarkup validator: FAQPage Question missing answerCount (QAPage-only property; not required by Google FAQPage spec)"
-      },
-      {
-        "url": "https://flood-fixers.com/services/flood-damage-restoration/",
         "id": "unused-javascript",
         "title": "Reduce unused JavaScript"
       },
       {
         "url": "https://flood-fixers.com/service-areas/chula-vista-ca/",
-        "id": "has_micromarkup_errors",
-        "title": "DataForSEO micromarkup validator: FAQPage Question missing answerCount (QAPage-only property; not required by Google FAQPage spec)"
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
       },
       {
         "url": "https://flood-fixers.com/service-areas/chula-vista-ca/",
         "id": "unused-javascript",
         "title": "Reduce unused JavaScript"
-      },
-      {
-        "url": "https://flood-fixers.com/contact/",
-        "id": "has_micromarkup_errors",
-        "title": "DataForSEO micromarkup validator: FAQPage Question missing answerCount (QAPage-only property; not required by Google FAQPage spec)"
       },
       {
         "url": "https://flood-fixers.com/contact/",
@@ -805,6 +739,8 @@
         "id": "color-contrast",
         "title": "Background and foreground colors do not have a sufficient contrast ratio."
       }
-    ]
-  }
+    ],
+    "regression_notes": "Green month, no verdict transitions and no per-URL category drop of 5+ points. Accessibility average rose 91 to 95: the breadcrumb and btn-accent contrast fixes shipped, clearing color-contrast on the services hub, both service landings and contact (each +5). /service-areas/chula-vista-ca/ still fails color-contrast, now on a different element (span.text-slate-400, #94a3b8 on white, 2.56:1). Performance average slipped 99 to 98 (-1 rounded, inside the 3-point site threshold). Two Core Web Vitals regressions past threshold: / CLS 0.0178 to 0.0393 (+0.0215, caused by the Inter web font swap shifting the hero container) and /contact/ LCP 846ms to 1172ms (+326ms). Both remain well inside Google good thresholds (CLS 0.1, LCP 2.5s). New: unused-javascript on all 6 pages, from the GA4 gtag.js (G-BPB9R60M10) added to brand.ts on 2026-08-31 after the prior audit; 69 KiB of its 156 KiB is unused on load. forced-reflow-insight is new on /services/ (32ms) and /service-areas/chula-vista-ca/ (54ms). low_content_rate is new on /contact/ (9.1%). Diff is computed against prior lighthouse_issue_ids_full, which holds the complete failing-audit set, so per-URL new and resolved are both reliable this month."
+  },
+  "audit_cost_usd": 0.0408
 }

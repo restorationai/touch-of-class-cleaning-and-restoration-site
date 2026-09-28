@@ -5,14 +5,19 @@
   "live_origin": "https://staging.rankai-firedex-butler.pages.dev",
   "live_origin_source": "staging",
   "audit_form_factor": "desktop",
-  "generated_at": "2026-08-27T01:51:16Z",
+  "lighthouse_version": "13.4.0",
+  "generated_at": "2026-09-28T22:28:46Z",
   "environment_caveats": [
-    "Audited the Cloudflare Pages staging preview; apex firedex.net still serves the legacy 2020 WordPress site and was deliberately not audited.",
-    "All 6 URLs return x-robots-tag: noindex (Pages preview default). is-crawlable is the ONLY failing SEO audit on every page, so SEO 69 is a staging artifact and is EXCLUDED from all verdicts. Expected apex SEO is 100.",
+    "Audited the Cloudflare Pages staging preview; apex_cutover is null and firedex.net still 301s to www.firedex.net (Apache, legacy WordPress). Apex was not audited.",
+    "All 6 URLs return x-robots-tag: noindex (Pages preview default). is-crawlable is the ONLY failing SEO audit on every page, so SEO 69 is a staging artifact and is EXCLUDED from all verdicts. SEO status: inconclusive - staging noindex artifact, re-audit after apex cutover.",
     "Lighthouse ran desktop only (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240). Mobile scores would run lower and would weight the 535KB logo far more heavily.",
-    "Canonicals point to https://firedex.net/... by design for cutover; they resolve to the legacy WordPress site until cutover completes.",
-    "Client record status is 'pending', not 'active'; audited anyway because build_status is pushed_main and the preview is live."
+    "Canonicals point to https://firedex.net/... by design for cutover; DataForSEO canonical check reads false on the staging host. Not a defect.",
+    "Client record status is 'pending', not 'active'; audited anyway (same as the 2026-08-27 baseline) because build_status is pushed_main and the preview is live.",
+    "has_micromarkup_errors is a DataForSEO validator false positive: it demands answerCount on FAQPage Question items, which is a QAPage-only property. Recorded as low severity; not verdict-driving."
   ],
+  "seo_status": "inconclusive - staging noindex artifact, re-audit after apex cutover",
+  "lighthouse_detail": "full audit JSON pulled per URL; top 5 failing non-SEO audits recorded (is-crawlable omitted as staging artifact)",
+  "run_cost_usd": 0.041,
   "audited_urls": [
     {
       "url": "https://staging.rankai-firedex-butler.pages.dev/",
@@ -20,13 +25,13 @@
       "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 98,
+        "performance": 97,
         "accessibility": 91,
         "best_practices": 100,
         "seo": 69
       },
       "core_web_vitals": {
-        "LCP_ms": 1115,
+        "LCP_ms": 1196,
         "CLS": 0.0419,
         "TBT_ms": 0,
         "INP_ms": null
@@ -80,6 +85,9 @@
           "severity": "low",
           "source": "derived"
         }
+      ],
+      "seo_failing_audits": [
+        "is-crawlable"
       ]
     },
     {
@@ -88,14 +96,14 @@
       "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 97,
+        "performance": 98,
         "accessibility": 90,
         "best_practices": 100,
         "seo": 69
       },
       "core_web_vitals": {
-        "LCP_ms": 1212,
-        "CLS": 0.0042,
+        "LCP_ms": 1194,
+        "CLS": 0.0058,
         "TBT_ms": 0,
         "INP_ms": null
       },
@@ -141,7 +149,17 @@
           "category": "performance"
         }
       ],
-      "onpage_issues": []
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Micromarkup validator error: FAQPage Question missing answerCount (a QAPage-only property; not required for FAQPage)",
+          "severity": "low",
+          "source": "dataforseo"
+        }
+      ],
+      "seo_failing_audits": [
+        "is-crawlable"
+      ]
     },
     {
       "url": "https://staging.rankai-firedex-butler.pages.dev/services/water-damage-restoration/",
@@ -156,7 +174,7 @@
       },
       "core_web_vitals": {
         "LCP_ms": 1102,
-        "CLS": 0.0102,
+        "CLS": 0.0059,
         "TBT_ms": 0,
         "INP_ms": null
       },
@@ -202,7 +220,17 @@
           "category": "performance"
         }
       ],
-      "onpage_issues": []
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Micromarkup validator error: FAQPage Question missing answerCount (a QAPage-only property; not required for FAQPage)",
+          "severity": "low",
+          "source": "dataforseo"
+        }
+      ],
+      "seo_failing_audits": [
+        "is-crawlable"
+      ]
     },
     {
       "url": "https://staging.rankai-firedex-butler.pages.dev/services/fire-damage-restoration/",
@@ -210,14 +238,14 @@
       "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 99,
+        "performance": 98,
         "accessibility": 90,
         "best_practices": 100,
         "seo": 69
       },
       "core_web_vitals": {
-        "LCP_ms": 1042,
-        "CLS": 0.0051,
+        "LCP_ms": 1086,
+        "CLS": 0.0083,
         "TBT_ms": 0,
         "INP_ms": null
       },
@@ -263,7 +291,17 @@
           "category": "performance"
         }
       ],
-      "onpage_issues": []
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Micromarkup validator error: FAQPage Question missing answerCount (a QAPage-only property; not required for FAQPage)",
+          "severity": "low",
+          "source": "dataforseo"
+        }
+      ],
+      "seo_failing_audits": [
+        "is-crawlable"
+      ]
     },
     {
       "url": "https://staging.rankai-firedex-butler.pages.dev/service-areas/wexford-pa/",
@@ -277,7 +315,7 @@
         "seo": 69
       },
       "core_web_vitals": {
-        "LCP_ms": 1093,
+        "LCP_ms": 1118,
         "CLS": 0.0049,
         "TBT_ms": 0,
         "INP_ms": null
@@ -330,7 +368,16 @@
           "title": "Page contains an iframe (Google Maps embed, lazy-loaded)",
           "severity": "low",
           "source": "dataforseo"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Micromarkup validator error: FAQPage Question missing answerCount (a QAPage-only property; not required for FAQPage)",
+          "severity": "low",
+          "source": "dataforseo"
         }
+      ],
+      "seo_failing_audits": [
+        "is-crawlable"
       ]
     },
     {
@@ -345,8 +392,8 @@
         "seo": 69
       },
       "core_web_vitals": {
-        "LCP_ms": 1112,
-        "CLS": 0.0063,
+        "LCP_ms": 1168,
+        "CLS": 0.0042,
         "TBT_ms": 0,
         "INP_ms": null
       },
@@ -392,12 +439,22 @@
           "category": "performance"
         }
       ],
-      "onpage_issues": []
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Micromarkup validator error: FAQPage Question missing answerCount (a QAPage-only property; not required for FAQPage)",
+          "severity": "low",
+          "source": "dataforseo"
+        }
+      ],
+      "seo_failing_audits": [
+        "is-crawlable"
+      ]
     }
   ],
   "site_rollup": {
     "avg_scores": {
-      "performance": 98.0,
+      "performance": 97.8,
       "accessibility": 90.7,
       "best_practices": 100.0,
       "seo": 69.0
@@ -412,34 +469,10 @@
     },
     "template_issues": [
       {
-        "id": "color-contrast",
-        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-        "affected_urls": 6,
-        "severity": "medium"
-      },
-      {
         "id": "image-delivery-insight",
         "title": "Improve image delivery",
         "affected_urls": 6,
         "severity": "high"
-      },
-      {
-        "id": "network-dependency-tree-insight",
-        "title": "Network dependency tree",
-        "affected_urls": 6,
-        "severity": "low"
-      },
-      {
-        "id": "render-blocking-insight",
-        "title": "Render-blocking requests",
-        "affected_urls": 6,
-        "severity": "low"
-      },
-      {
-        "id": "target-size",
-        "title": "Touch targets do not have sufficient size or spacing.",
-        "affected_urls": 6,
-        "severity": "medium"
       },
       {
         "id": "unsized-images",
@@ -448,8 +481,26 @@
         "severity": "medium"
       },
       {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "affected_urls": 6,
+        "severity": "medium"
+      },
+      {
+        "id": "target-size",
+        "title": "Touch targets do not have sufficient size or spacing.",
+        "affected_urls": 6,
+        "severity": "medium"
+      },
+      {
         "id": "lcp-discovery-insight",
         "title": "LCP request discovery",
+        "affected_urls": 5,
+        "severity": "low"
+      },
+      {
+        "id": "has_micromarkup_errors",
+        "title": "Micromarkup validator error: FAQPage Question missing answerCount (a QAPage-only property; not required for FAQPage)",
         "affected_urls": 5,
         "severity": "low"
       }
@@ -457,11 +508,128 @@
     "money_page_alerts": []
   },
   "regression": {
-    "prior_run_at": null,
-    "score_deltas": null,
+    "prior_run_at": "2026-08-27T01:51:16Z",
+    "score_deltas": {
+      "performance": -0.2,
+      "accessibility": 0.0,
+      "best_practices": 0.0,
+      "seo": 0.0
+    },
+    "per_url_deltas": [
+      {
+        "url": "https://staging.rankai-firedex-butler.pages.dev/",
+        "score_deltas": {
+          "performance": -1,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 81,
+          "CLS": 0.0,
+          "TBT_ms": 0
+        }
+      },
+      {
+        "url": "https://staging.rankai-firedex-butler.pages.dev/services/",
+        "score_deltas": {
+          "performance": 1,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": -18,
+          "CLS": 0.0016,
+          "TBT_ms": 0
+        }
+      },
+      {
+        "url": "https://staging.rankai-firedex-butler.pages.dev/services/water-damage-restoration/",
+        "score_deltas": {
+          "performance": 0,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 0,
+          "CLS": -0.0043,
+          "TBT_ms": 0
+        }
+      },
+      {
+        "url": "https://staging.rankai-firedex-butler.pages.dev/services/fire-damage-restoration/",
+        "score_deltas": {
+          "performance": -1,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 44,
+          "CLS": 0.0032,
+          "TBT_ms": 0
+        }
+      },
+      {
+        "url": "https://staging.rankai-firedex-butler.pages.dev/service-areas/wexford-pa/",
+        "score_deltas": {
+          "performance": 0,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 25,
+          "CLS": 0.0,
+          "TBT_ms": 0
+        }
+      },
+      {
+        "url": "https://staging.rankai-firedex-butler.pages.dev/contact/",
+        "score_deltas": {
+          "performance": 0,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 56,
+          "CLS": -0.0021,
+          "TBT_ms": 0
+        }
+      }
+    ],
+    "url_regressions": [],
     "verdict_transitions": [],
-    "new_issues": [],
-    "resolved_issues": [],
-    "note": "First audit for this client. No comparison data."
+    "new_issues": [
+      {
+        "url": "https://staging.rankai-firedex-butler.pages.dev/services/",
+        "id": "has_micromarkup_errors",
+        "title": "Micromarkup validator error: FAQPage Question missing answerCount (a QAPage-only property; not required for FAQPage)"
+      },
+      {
+        "url": "https://staging.rankai-firedex-butler.pages.dev/services/water-damage-restoration/",
+        "id": "has_micromarkup_errors",
+        "title": "Micromarkup validator error: FAQPage Question missing answerCount (a QAPage-only property; not required for FAQPage)"
+      },
+      {
+        "url": "https://staging.rankai-firedex-butler.pages.dev/services/fire-damage-restoration/",
+        "id": "has_micromarkup_errors",
+        "title": "Micromarkup validator error: FAQPage Question missing answerCount (a QAPage-only property; not required for FAQPage)"
+      },
+      {
+        "url": "https://staging.rankai-firedex-butler.pages.dev/service-areas/wexford-pa/",
+        "id": "has_micromarkup_errors",
+        "title": "Micromarkup validator error: FAQPage Question missing answerCount (a QAPage-only property; not required for FAQPage)"
+      },
+      {
+        "url": "https://staging.rankai-firedex-butler.pages.dev/contact/",
+        "id": "has_micromarkup_errors",
+        "title": "Micromarkup validator error: FAQPage Question missing answerCount (a QAPage-only property; not required for FAQPage)"
+      }
+    ],
+    "resolved_issues": []
   }
 }

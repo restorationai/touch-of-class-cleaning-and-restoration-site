@@ -16,11 +16,11 @@
 
 ## Action: refresh content
 
-No URLs qualified. The oldest URL on the site is 91 days old, 214 days short of the 305-day aging threshold.
+No URLs qualified. The oldest URL on the site is 91 days old against a 305-day aging threshold and a 365-day stale threshold.
 
 ## Action: audit then decide
 
-No URLs qualified. Every candidate resolved a date via json_ld_date_modified (97) or sitemap_lastmod (23), and layer 1 raised no flags (flag_counts is empty), so there is no ambiguous signal to hand-inspect.
+No URLs qualified. Every candidate resolved a date via json_ld_date_modified or sitemap_lastmod, and no flags fired, so there is no ambiguous signal to hand-inspect.
 
 ## Freshness distribution
 
@@ -33,29 +33,29 @@ Layer 1 inspected 120 URLs and fetched HTML for all 120 with 0 failures.
 | 305-364 days (aging) | 0 |
 | 365+ days (stale_12mo) | 0 |
 
-Oldest URLs on the site, none close to actionable:
+Oldest URLs, none close to actionable:
 
 | URL | Age (d) | Date source |
 | --- | ---: | --- |
 | / | 91 | sitemap_lastmod |
-| /about/ | 91 | sitemap_lastmod |
-| /accessibility/ | 91 | sitemap_lastmod |
-| /blog/ | 91 | sitemap_lastmod |
-| /blog/basement-flooding-prevention/ | 91 | json_ld_date_modified |
+| /contact/ | 91 | sitemap_lastmod |
+| /service-areas/carlsbad-ca/ | 91 | sitemap_lastmod |
+| /service-areas/escondido-ca/water-damage-restoration/ | 91 | json_ld_date_modified |
+| /service-areas/escondido-ca/burst-pipe-repair/ | 91 | json_ld_date_modified |
 
-Of the 120 candidates, 13 map to money-page archetypes in url-plan.json (1 home, 1 contact, 11 service-area). The oldest money pages (the homepage and the Encinitas and Escondido service-area pages) are 91 days old. The rest are 73 service-area-service pages, 9 planned blog posts, legal/about/hub pages, and 20 live URLs not present in url-plan.json (15 blog posts plus /case-studies/, /certifications/, /embed/estimate/, /emergency/, /reviews/), which were scored as non-money pages.
+13 candidates map to money-page archetypes (1 home, 1 contact, 11 service-area). The oldest, the homepage at 91 days (sitemap_lastmod), is 214 days short of the aging trigger.
 
 ## Notes
 
-- URLs skipped because already in content-queue: none. 15 candidate URLs appear in content-queue.json, but all are status published (12) or written (3), not queued/in_progress/needs_review. The 6 queued items have no post_url yet, so there is no System 2 collision this cycle.
+- URLs skipped because already in content-queue: none. 15 candidate URLs appear in content-queue.json, but all are status published (12) or written (3). The 6 active queued items (commercial water damage, ceiling water damage repair, ceiling leak, water spots on ceiling, condo insurance, apartment flooded rights) have no post_url yet, so there is no System 2 collision.
 - URLs where date extraction failed: none. 97 URLs resolved via json_ld_date_modified and 23 via sitemap_lastmod; failed_html_count is 0.
-- Coverage gap: v1 sees publication and modification dates only. It cannot see whether these 120 URLs are indexed, whether Google chose a different canonical, or which pages rank on page 2 for real demand (striking_queries) or earn poor CTR (low_ctr). GSC v2 closes that gap (see docs/system-4-v2-activation.md).
-- Coverage observation: 133 url-plan.json entries are status planned and absent from the sitemap, so they were never scored. That includes /services/ and all 7 service-landing pages (water-damage-restoration, flood-damage-restoration, burst-pipe-repair, basement-flooding-cleanup, reconstruction, general-contracting, water-cleanup), 16 service-area pages (Oceanside, Vista, San Marcos, La Mesa, Santee, Poway, National City, Spring Valley, Temecula, and others), and their service-area-service children. This is a build backlog, not a refresh item.
+- Coverage gap: v1 sees publication and modification dates only. It cannot see indexing status, Google-selected canonicals, or impression/click decay. A deindexed page would still read as fresh here. GSC v2 closes that gap (see docs/system-4-v2-activation.md).
+- Coverage observation: url-plan.json has grown since the 2026-08-27 run and now lists 133 planned pages not in the sitemap, including /services/, all 7 service-landing pages, 16 new service-area pages (Oceanside, Vista, San Marcos, La Mesa, Santee, Poway, Temecula and others) with their service-area-service children, and /terms/. Separately, 20 live URLs (15 blog posts plus /case-studies/, /certifications/, /embed/estimate/, /emergency/, /reviews/) have no url-plan entry; none are money-page archetypes by URL pattern except possibly /emergency/, which is fresh regardless.
 
 ## Recommended next actions (top 5)
 
-1. Take no refresh action on flood-fixers this cycle. All 120 live URLs are 0 to 91 days old against a 305-day aging threshold; rewriting any of them now would churn pages Google is still settling.
-2. Build /services/water-damage-restoration/ and /services/flood-damage-restoration/ first, then the other 5 planned service-landing pages and the /services/ hub. They are the highest-intent targets in url-plan.json and are still status planned, so the 73 live service-area-service pages are linking into an incomplete hub structure.
-3. Activate GSC for this client (docs/system-4-v2-activation.md). With 120 URLs all under 92 days old, the realistic near-term risk is "Discovered - currently not indexed" across the service-area-service tail, and the biggest upside is striking_queries on the 15 blog posts; v1 cannot see either.
-4. Reconcile the 3 content-queue items at status written that are already live: /blog/how-to-tell-if-you-have-water-damage-behind-walls/ (77 days), /blog/what-happens-if-water-damage-is-left-untreated/ (74 days), and /blog/how-to-dry-out-a-flooded-house/ (56 days). Mark them published in System 2 so future dedupe passes read the queue correctly. This is the second run flagging them.
-5. Add the 20 live but unplanned URLs (for example /emergency/, /reviews/, /blog/how-much-does-water-damage-restoration-cost/) to url-plan.json with archetypes, so /emergency/ in particular is classified correctly when money-page priority starts to matter. The earliest any URL can trip the aging flag is about 2027-04-30 (305 days after the 2026-06-29 launch cohort), so expect quiet runs until then unless GSC v2 lands first.
+1. Take no refresh action on flood-fixers this cycle. All 120 live URLs are 0 to 91 days old; rewriting any of them now would churn content Google has only recently crawled.
+2. Build the planned service-landing pages, starting with /services/water-damage-restoration/ and /services/flood-damage-restoration/, plus the /services/ hub. They remain absent from the sitemap and are the highest-intent commercial targets in url-plan.json.
+3. Activate GSC for this client so the next run can score indexing and demand. With 120 URLs launched inside 91 days, the likely near-term risk is "Discovered - currently not indexed" across the 73 service-area-service pages, which v1 cannot detect. Follow docs/system-4-v2-activation.md.
+4. Reconcile the 3 content-queue items still at status written (/blog/how-to-tell-if-you-have-water-damage-behind-walls/ at 77 days, /blog/what-happens-if-water-damage-is-left-untreated/ at 74 days, /blog/how-to-dry-out-a-flooded-house/ at 56 days). They are live in the sitemap, so moving them to published keeps future dedupe passes accurate.
+5. Add url-plan entries for /emergency/, /reviews/, /certifications/ and /case-studies/ so the recommender can classify them by archetype (/emergency/ is likely a money page). Then keep the monthly cadence; expect quiet runs until about 2027-04-30 unless GSC v2 introduces demand-side flags first.

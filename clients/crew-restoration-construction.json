@@ -50,8 +50,8 @@
     }
   },
   "audit": {
-    "last_audit_at": "2026-09-28T21:18:52Z",
-    "last_audit_verdict": "amber",
+    "last_audit_at": "2026-09-28T21:46:31Z",
+    "last_audit_verdict": "green",
     "last_audit_report_path": "audit-runs/2026-09-28-onsite-audit.md",
     "last_audit_origin": "https://crew3r.com",
     "last_audit_origin_source": "apex",

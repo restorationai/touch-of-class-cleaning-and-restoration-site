@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "slug": "frontline-fire-flood",
+  "site": "frontlinefireflood.com",
+  "origin": "https://frontlinefireflood.com",
+  "generated_at": "2026-09-28T22:30:52Z",
+  "gsc_enabled": false,
+  "totals": {
+    "total_actions": 0,
+    "by_action": {
+      "refresh": 0,
+      "audit_then_decide": 0,
+      "request_indexing": 0,
+      "fix_canonical": 0
+    },
+    "by_priority": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    }
+  },
+  "items": [],
+  "notes": [
+    "URLs skipped because already in content-queue: none",
+    "URLs where date extraction failed: none",
+    "All 120 URLs are fresh: ages range 0-42 days, below the 305-day aging threshold; no layer-1 flags fired",
+    "v1 limitations: no GSC indexing flags"
+  ]
+}

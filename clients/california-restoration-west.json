@@ -13,7 +13,7 @@
     "url_count": 205,
     "generated_at": "2026-09-23T14:11:26.721672+00:00"
   },
-  "updated_at": "2026-09-28T21:58:27Z",
+  "updated_at": "2026-09-28T22:19:39Z",
   "indexnow_key": "083b7bb2c77745718e103e96051292a9",
   "build": {
     "scaffolded_at": "2026-08-26T01:45:16.022751+00:00",
@@ -36,13 +36,13 @@
     "mapped_at": "2026-08-26T06:46:49+00:00"
   },
   "audit": {
-    "last_audit_at": "2026-09-28T21:58:27Z",
+    "last_audit_at": "2026-09-28T22:18:41Z",
     "last_audit_verdict": "amber",
     "last_audit_report_path": "audit-runs/2026-09-28-onsite-audit.md",
-    "last_audit_origin": "https://californiarestorationwest.com",
-    "last_audit_origin_source": "apex",
+    "last_audit_origin": "https://staging.rankai-california-restoration-west.pages.dev",
+    "last_audit_origin_source": "staging",
     "last_audit_form_factor": "desktop",
-    "last_audit_seo_inconclusive": false
+    "last_audit_seo_inconclusive": true
   },
   "brightlocal": {
     "location_id": 4147620,

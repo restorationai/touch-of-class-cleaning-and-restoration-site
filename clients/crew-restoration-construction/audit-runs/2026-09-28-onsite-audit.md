@@ -1,154 +1,205 @@
 # Onsite Audit - Crew Restoration & Construction - 2026-09-28
 
 **Live origin audited:** https://crew3r.com (apex)
-**Site verdict:** amber
+**Site verdict:** green
 **URLs audited:** 6
-**Prior audit:** 2026-08-26
+**Prior audit:** 2026-08-26 (amber)
 **Form factor:** desktop only (see Notes)
 
-> **Read this month correctly.** The verdict is unchanged: amber, same 1 green / 5 amber
-> split, no red pages, no errors. None of the five August recommendations have shipped.
-> The BreadcrumbList schema defect, the contrast failures, the non-prioritized hero and
-> the 640x640 logo are all still live, byte for byte. The one real change is new: a
-> Google Analytics 4 tag (`G-GCKPEW6C00`) now loads on every page, and it brings
-> 69 KiB of unused JavaScript with it. LCP rose 235-383ms on three pages in the same
-> window. Every page is still under 1 second LCP on desktop, so this is a trend to
-> contain, not an emergency.
+> **Read the green correctly.** All six pages are green this month, up from one
+> in August. The site did not change to earn that. DataForSEO stopped flagging
+> `has_micromarkup_errors`, which was the only thing keeping five pages amber, but
+> the BreadcrumbList markup that flag pointed at is the same as last month. None
+> of August's five recommendations have shipped. The one real change is a new
+> Google Analytics 4 tag (`G-GCKPEW6C00`) on every page. It adds about 159 KB of
+> JavaScript, roughly 69 KB of it unused on first load, and it lines up with LCP
+> rising on all six pages. `/contact/` rose the most, 492ms to 1159ms. Scores are
+> still 95-100 everywhere, so this is a healthy site with a small backlog that has
+> grown slightly.
 
 ## Site rollup
 
 | Metric | Score | Δ vs prior |
 | --- | ---: | ---: |
-| Performance | 99.2 | -0.6 |
+| Performance | 98.5 | -1.3 |
 | Accessibility | 96.0 | -0.3 |
 | Best Practices | 100.0 | 0.0 |
 | SEO | 100.0 | 0.0 |
 
-Pages by verdict: green: 1, amber: 5, red: 0, error: 0
+Pages by verdict: green: 6, amber: 0, red: 0, error: 0
+
+No site-level category dropped by 3 or more points.
 
 ## Per-page scores
 
 | URL | Archetype | Verdict | Perf | A11y | BP | SEO | LCP | CLS | TBT |
 | --- | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| `/` | home | green | 99 | 100 | 100 | 100 | 0.91s | 0.003 | 0ms |
-| `/services/` | services-hub | amber | 99 | 95 | 100 | 100 | 0.91s | 0.002 | 0ms |
-| `/services/water-damage-restoration/` | service-landing | amber | 99 | 95 | 100 | 100 | 0.91s | 0.003 | 0ms |
-| `/services/fire-damage-restoration/` | service-landing | amber | 99 | 95 | 100 | 100 | 0.89s | 0.003 | 0ms |
-| `/service-areas/brookings-sd/` | service-area | amber | 100 | 95 | 100 | 100 | 0.79s | 0.003 | 0ms |
-| `/contact/` | contact | amber | 99 | 96 | 100 | 100 | 0.87s | 0.005 | 0ms |
+| `/` | home | green | 99 | 100 | 100 | 100 | 0.92s | 0.003 | 0ms |
+| `/services/` | services-hub | green | 98 | 95 | 100 | 100 | 0.97s | 0.002 | 0ms |
+| `/services/water-damage-restoration/` | service-landing | green | 99 | 95 | 100 | 100 | 0.85s | 0.003 | 0ms |
+| `/services/fire-damage-restoration/` | service-landing | green | 99 | 95 | 100 | 100 | 0.89s | 0.003 | 0ms |
+| `/service-areas/brookings-sd/` | service-area | green | 99 | 95 | 100 | 100 | 0.88s | 0.003 | 0ms |
+| `/contact/` | contact | green | 97 | 96 | 100 | 100 | 1.16s | 0.005 | 0ms |
 
-Core Web Vitals are inside the "good" thresholds on every page on desktop. INP was not
-reported by Lighthouse (it needs field data or a scripted interaction) and is recorded
-as null.
+On desktop, Core Web Vitals are still well inside the "good" range: LCP under
+1.2s on every page, CLS effectively zero, and TBT zero. Lighthouse did not report
+INP (it needs field data), so INP is recorded as null.
 
 ## Template-level issues (fix once, lift many pages)
 
 | Issue | Affected URLs | Severity | Recommended fix |
 | --- | ---: | --- | --- |
-| `image-delivery-insight` | 6 | high | Still led by `/images/logo.png`: a 640x640 PNG (78.9 KB, 77.3 KB wasted) rendered at 64x64 in the header. Export a 128x128 WebP and swap the header `<img>`. Secondary items are page-specific (for example `water-damage-restoration.webp` at 186 KB with 62 KB wasted). |
-| `unused-javascript` | 6 | high | New this month. `https://www.googletagmanager.com/gtag/js?id=G-GCKPEW6C00` ships 159 KB with about 69 KiB unused on every page. It already loads `async`. Delay injection until after `load` or first user interaction, or move it to a Partytown web worker (Astro has an official integration). |
-| `render-blocking-insight` | 6 | high | `/_astro/_slug_.DEXtdMVo.css` (about 9.1 KB) blocks first render. It now scores 0 with about 50-59ms savings on water, fire and contact, up from 0.5 on the homepage only in August. Inline the above-the-fold rules and defer the rest. |
-| `network-dependency-tree-insight` | 6 | high | Same critical chain as August: document to the Astro CSS bundle plus `/_astro/page.CyD_eNI3.js`. Shrinks when the render-blocking fix above lands. |
-| `cache-insight` | 6 | medium | Only flags Cloudflare's own `email-decode.min.js` at a 2-day TTL (0 KiB real savings). Turn off Email Address Obfuscation in Cloudflare, or ignore. |
-| `color-contrast` | 5 | high | Unchanged. Breadcrumb links use `text-dark/50` at 12px on white. The `.btn-accent` `tel:+16059652727` CTA (white on `#e9292f`, 14px bold) and `text-slate-400` on the service-area template also fail 4.5:1. |
-| `lcp-discovery-insight` | 5 | high | Unchanged. Every non-home template still emits the hero without `fetchpriority="high"` or `srcset`. The homepage already does it correctly. |
-| `has_micromarkup_errors` | 5 | medium | Unchanged. The final BreadcrumbList `ListItem` is still `{"@type":"ListItem","position":3,"name":"Water Damage Restoration"}` with no `item`. |
-| `low_content_rate` | 3 | low | `/`, `/services/`, `/contact/`. All three are above their word-count targets (1366/1200, 804/800, 619/400), so this is markup weight, not thin content. No action. |
-| `forced-reflow-insight` | 2 | high | New on `/` (97ms) and `/services/` (45ms), unattributed. Most likely the GA4 bootstrap reading layout. Should drop out with the gtag delay above. Re-check next month before chasing it separately. |
+| `unused-javascript` | 6 | high | **New this month.** `https://www.googletagmanager.com/gtag/js?id=G-GCKPEW6C00` (159 KB, 66-70 KB unused per page) is loaded with `<script async>` in the `<head>` of the shared layout. Move it off the critical path: either run it in a worker via `@astrojs/partytown` (`<script type="text/partytown">`), or inject the gtag script on the first `scroll`/`pointerdown`/`keydown` or after `requestIdleCallback`. Keep the `dataLayer`/`gtag('config')` stub inline so no events are lost. |
+| `image-delivery-insight` | 6 | high | Not fixed since August. `/images/logo.png` is a 640x640 PNG (78.9 KB, 77.3 KB wasted) shown at 64x64 in the header on every page. Export a 128x128 WebP and point the header `<img>` at it. Page-specific extras: `/contact/` and `/services/` serve the full 1376w `hero-bg.webp` (97.9 KB) with no `srcset`. `/services/water-damage-restoration/` serves `water-damage-restoration.webp` at 186 KB (61.7 KB wasted). |
+| `render-blocking-insight` | 6 | high | The only blocking request is `/_astro/_slug_.DEXtdMVo.css` (about 9.1 KB). Lighthouse estimates 50ms FCP savings on fire-damage and brookings-sd and 0ms elsewhere. Inline the above-the-fold rules with Astro `build.inlineStylesheets: 'always'` (the sheet is small enough) and drop the external link. Low absolute payoff. |
+| `network-dependency-tree-insight` | 6 | high | The critical chain is the document plus that same 9 KB stylesheet. Inlining the CSS (row above) removes the chain. Lighthouse reports no extra preconnect candidates. |
+| `cache-insight` | 6 | medium | The only flagged asset is Cloudflare's `/cdn-cgi/scripts/.../email-decode.min.js`, with a 2-day TTL we can't change. Either turn off Email Address Obfuscation in Cloudflare Scrape Shield or ignore this. |
+| `color-contrast` | 5 | high | Not fixed since August. Breadcrumb links use `text-dark/50`, which renders `#888c93` on white at 3.38:1. Change to `text-slate-500` (`#64748b`, 4.76:1) or darker. The `.btn-accent` CTA is white on `#e9292f` at 4.35:1; darken the background to `#dc2626` (4.83:1). On the service-area template, `text-slate-400` (`#94a3b8`, 2.56:1) should become `text-slate-500`. |
+| `lcp-discovery-insight` | 5 | high | Not fixed since August. Every non-home template renders the hero as `<img src="/images/hero-bg.webp" ... loading="eager">` with no `fetchpriority="high"` and no `srcset`. The homepage already emits `srcset="/images/hero-bg-480w.webp 480w, ...768w, ...1200w, /images/hero-bg.webp 1376w" sizes="100vw" fetchpriority="high" decoding="async"` and passes. Copy that markup into the other hero components. |
+| `forced-reflow-insight` | 3 | high | **New this month** on `/`, `/services/` and `/services/fire-damage-restoration/`: 33-79ms of forced reflow, and Lighthouse could not attribute it to a script. It first appears alongside the GA4 tag. Re-check after the gtag change before digging further. |
+| `low_content_rate` | 3 | low | Flagged on `/`, `/services/` and `/contact/`. All three pages beat their word targets (1366/1200, 804/800, 619/400), so the low ratio comes from markup weight, not thin content. No action needed. |
 
 ## Money page alerts
 
-- **`/services/`** - verdict: amber. Accessibility 95 (breadcrumb `<a href="/">` contrast), BreadcrumbList schema validation error. LCP 0.91s, hero has no `fetchpriority`.
-- **`/services/water-damage-restoration/`** - verdict: amber. Accessibility 95, down 1 from August. Three contrast nodes (two breadcrumb links plus the `.btn-accent` `tel:` button), BreadcrumbList schema error, render-blocking CSS now costing about 59ms.
-- **`/services/fire-damage-restoration/`** - verdict: amber. Same three contrast nodes and schema error as water. Accessibility 95, down 1 from August.
-- **`/contact/`** - verdict: amber. Accessibility 96, BreadcrumbList schema error. LCP 0.87s, up from 0.49s. The conversion path itself is clean: HTTP 200, canonical correct, no broken links.
-
-`/` is green. `/service-areas/brookings-sd/` is amber but is not a money archetype.
+None. All four money pages (`/`, `/services/`, both service landings, `/contact/`)
+are green. `/contact/` has the largest LCP regression in the set, though, so it
+leads the action list below.
 
 ## Regressions vs prior audit
 
-**Verdict transitions:** none. Every URL holds its August verdict.
-
-**Score regressions (5+ points):** none. The largest per-page drop is 1 point (performance 100 to 99 on four pages, accessibility 96 to 95 on water and fire). No site average dropped 3+ points.
+**Score regressions (5+ point drop):** none. Per-page category deltas range from
+-3 to 0. The largest is `/contact/` performance, 100 to 97.
 
 **Core Web Vitals regressions (LCP +200ms or more):**
-- `/`: LCP 577ms to 907ms (+330ms)
-- `/contact/`: LCP 492ms to 875ms (+383ms)
-- `/service-areas/brookings-sd/`: LCP 560ms to 795ms (+235ms)
+- `/contact/`: LCP 492ms to 1159ms (+667ms), FCP 290ms to 776ms. Two things
+  now sit on this page's critical path: the new 159 KB gtag.js, and the hero
+  `hero-bg.webp`, which is 97.9 KB with no `srcset` or `fetchpriority` (40 KB
+  wasted). This is the strongest signal in the run.
+- `/`: LCP 577ms to 924ms (+347ms). The homepage hero was already optimized, so
+  most of the increase comes from gtag.js plus normal run-to-run variance.
+- `/service-areas/brookings-sd/`: LCP 560ms to 878ms (+318ms). The cause looks the
+  same as on `/`.
 
-The other three pages rose 61-104ms. CLS and TBT did not regress anywhere. The site-wide rise lines up with the new GA4 tag competing for bandwidth during load. Some of it may be run-to-run Lighthouse variance, so confirm on the next audit after the gtag change.
+The other three pages rose 47-117ms, which is inside normal variance. No CLS or
+TBT regressions.
+
+**Verdict transitions:** five pages went amber to green (`/services/`, both
+service landings, `/service-areas/brookings-sd/`, `/contact/`). All five are
+improvements, but see the callout at the top: the vendor flag cleared without a
+site change.
 
 **New issues this month:**
-- All six pages: `unused-javascript` (GA4 gtag, about 69 KiB unused). On fire it is present but ranks outside the top 5.
-- `/`, `/services/`: `forced-reflow-insight` (97ms and 45ms of unattributed reflow)
-- `/services/water-damage-restoration/`, `/services/fire-damage-restoration/`, `/contact/`: `render-blocking-insight` got worse and now scores 0 with about 50ms of estimated savings
-- `/contact/`: `low_content_rate` (informational, page is above its word target)
+- All six pages: `unused-javascript`. The GA4 gtag.js was added since August,
+  with 66-70 KB unused per page.
+- `/`, `/services/`, `/services/fire-damage-restoration/`: `forced-reflow-insight`
+  (33-79ms, unattributed).
+- `/services/fire-damage-restoration/`, `/service-areas/brookings-sd/`:
+  `render-blocking-insight` now fails outright (50ms FCP estimate). On the other
+  four pages it still fails at partial score. August stored only the top 5 issues
+  per page, so this may have gotten worse rather than appeared for the first time.
+- `/contact/`: `low_content_rate` (low, informational).
 
-**Issues resolved since last audit:** none. Every issue flagged in August is still failing.
+**Issues resolved since last audit:** `has_micromarkup_errors` no longer fires
+on `/services/`, `/services/water-damage-restoration/`,
+`/services/fire-damage-restoration/`, `/service-areas/brookings-sd/` or
+`/contact/`. The markup itself is unchanged, as explained above. One real fix
+did ship: the `LocalBusiness` JSON-LD `foundingDate` is no longer an empty string
+(it is now `"2015"`).
 
 ## Recommended next actions (priority order)
 
-1. **(money page + template, high impact, carried from August)** Add `"item"` with the
-   page's own canonical URL to the final `ListItem` in the shared breadcrumb component's
-   BreadcrumbList JSON-LD. This is still the only reason `/services/`, both service
-   landings, `/contact/` and the service-area page are amber and not green. It is a
-   one-line fix in one component and it applies to every built page.
-2. **(money page + template, accessibility, carried from August)** Change breadcrumb
-   links from `text-dark/50` to `text-dark/70` or darker. Darken the `.btn-accent`
-   background from `#e9292f` to a red that passes 4.5:1 with white (about `#c81e24`).
-   Replace `text-slate-400` on the service-area template with `text-slate-600`. This
-   brings accessibility to 100 on five pages.
-3. **(template, new this month)** Delay the GA4 tag. Load
-   `gtag/js?id=G-GCKPEW6C00` after `window.load` or first interaction, or run it through
-   `@astrojs/partytown`. This targets the new `unused-javascript` and
-   `forced-reflow-insight` flags and the LCP creep on `/`, `/contact/` and the
-   service-area page. Confirm GA4 still records page views after the change.
-4. **(money page + template, carried from August)** Copy the homepage hero markup
-   (`srcset`, `sizes="100vw"`, `fetchpriority="high"`) into the services-hub,
-   service-landing, service-area and contact templates. This clears
-   `lcp-discovery-insight` on five pages.
-5. **(template, carried from August)** Replace the 640x640 `/images/logo.png` (78.9 KB)
-   in the header with a 128x128 WebP (about 3-5 KB). This saves about 77 KB on every
-   page load. Also make the `LocalBusiness` `image` and `logo` absolute
-   (`https://crew3r.com/images/logo.png`). They are still relative.
+1. **(money page, regression)** Fix the `/contact/` hero. Change
+   `<img src="/images/hero-bg.webp" alt="Contact Crew Restoration &amp; Construction" class="w-full h-full object-cover" loading="eager">`
+   to the homepage pattern: add
+   `srcset="/images/hero-bg-480w.webp 480w, /images/hero-bg-768w.webp 768w, /images/hero-bg-1200w.webp 1200w, /images/hero-bg.webp 1376w" sizes="100vw" fetchpriority="high" decoding="async"`.
+   Make the change in the shared inner-page hero component, not only on
+   `/contact/`. That also clears `lcp-discovery-insight` on `/services/`, both
+   service landings and the service-area template (280 built pages). This is the
+   August recommendation 2, still open.
+2. **(template, new, high impact)** Take GA4 off the critical path. The layout
+   currently has
+   `<script async src="https://www.googletagmanager.com/gtag/js?id=G-GCKPEW6C00">`
+   in `<head>`. Add `@astrojs/partytown`, set `forward: ["dataLayer.push", "gtag"]`,
+   and change the tag to `type="text/partytown"`. If you'd rather not add a
+   dependency, inject the script from a small inline loader on the first user
+   interaction or on `requestIdleCallback`. Expect about 69 KB less main-thread JS
+   per page, and it should reverse most of this month's LCP drift.
+3. **(template, high impact)** Replace the header logo. `/images/logo.png` is
+   640x640 and 78.9 KB but displays at 64x64. Export
+   `/images/logo-128.webp` (it should be about 3-5 KB) and update the header
+   partial, and also update the `LocalBusiness` `logo`/`image` fields (see item 5).
+   This is the largest byte saving on every page and has been open since August.
+4. **(template, accessibility)** Fix the three contrast failures in the layout:
+   breadcrumb `text-dark/50` to `text-slate-500` (#64748b, 4.76:1), `.btn-accent`
+   background `#e9292f` to `#dc2626` (4.83:1, which also covers the
+   `tel:+16059652727` CTA), and `text-slate-400` to `text-slate-500` on the
+   service-area template. Together these move accessibility from 95-96 to 100 on
+   five pages.
+5. **(template, schema hygiene)** In the `LocalBusiness` block on all pages,
+   change `image` and `logo` from the relative `/images/logo.png` to the absolute
+   `https://crew3r.com/images/logo.png` (or the new WebP). In the breadcrumb
+   component, add `"item": "<page canonical URL>"` to the final `ListItem`. It
+   still reads, for example,
+   `{"@type":"ListItem","position":3,"name":"Water Damage Restoration"}`.
+   DataForSEO no longer flags either one, but both remain open from August and
+   are one-line fixes.
 
 ## Notes / caveats
 
-- **August recommendations did not ship.** The rendered HTML on 2026-09-28 still
-  shows: the terminal breadcrumb `ListItem` without `item`, `text-dark/50` breadcrumbs,
-  the 640x640 PNG logo, bare heroes on non-home templates, and relative `LocalBusiness`
-  `image`/`logo`. Unless those fixes are queued in the client deploy repo, the
-  October audit will say the same thing.
-- **One August item partly addressed.** `LocalBusiness.foundingDate` was an empty
-  string in August and is now `"2015"`, which matches the homepage's current
-  "Since 2015" copy. DataForSEO never flagged it, so it does not show under resolved
-  issues. The published phone number also changed to `+16059652727`. That is noted
-  only because it appears in the contrast-failing CTA.
-- **Origin.** Audited the apex. The client record has no `apex_cutover.completed_at`
-  but has `cut_over_at 2026-08-08`. All six URLs returned HTTP 200 with no
-  `x-robots-tag: noindex`, so the staging SEO-exclusion correction does not apply and
-  all four categories counted.
-- **Form factor.** Desktop only (DataForSEO `for_mobile=false`). Mobile performance
-  would typically land 10-20 points lower. The GA4 payload and the unprioritized hero
-  both cost more on mobile. Do not quote these as mobile scores.
-- **Client record status.** Still `status: "onboarding"` with `build_status: pushed_main`
-  and a live apex since 2026-08-08. This was flagged last month and is still stale.
-  The audit proceeded because the site is live and auditable.
-- **Tooling.** The `on_page_lighthouse` / `on_page_instant_pages` MCP tools are not
-  exposed by this DataForSEO MCP build. Used authenticated REST calls to
-  `/v3/on_page/lighthouse/live/json` and `/v3/on_page/instant_pages`. Total spend was
-  about $0.04.
-- **Comparison method.** August stored only the top 5 failing audits per URL. This run
-  stores the top 5 plus the full failing set (`lighthouse_failing_audits`), so October
-  gets a clean diff. An August issue counts as resolved only if it is absent from the
-  full current failing set. `cache-insight` still fails everywhere but now ranks
-  outside the top 5 on most pages.
-- **URL selection.** Held identical to August for comparability (derived from
-  `plan/url-plan.json`, no `audit-urls.txt`). Four service landings tie at priority
-  9.0 (fire, mold, roofing, water). Water and fire were kept.
-- **Vendor false positive.** The DataForSEO `frame` check again fires on
-  `/service-areas/brookings-sd/` for its map `<iframe>`. Not reported.
-- **Clean bill on the basics.** Across all six URLs: HTTP 200, correct self-referencing
-  canonicals, exactly one H1 each, titles 41-46 chars, meta descriptions 110-151 chars,
-  no duplicate titles or descriptions, no broken links or resources, no mixed content,
-  `image-alt` passing everywhere, and every page above its `target_word_count`.
+- **Origin.** Audited the apex production domain, the same origin as the August
+  baseline, so deltas compare like with like. The client record still has no
+  `apex_cutover.completed_at`, but `cut_over_at` is 2026-08-08. The apex returned
+  HTTP 200 on all six URLs and sends no `x-robots-tag: noindex`. The staging
+  SEO-exclusion correction does not apply, and all four categories counted.
+- **Form factor.** Lighthouse ran desktop only (`formFactor=desktop`,
+  `cpuSlowdownMultiplier=1`, `throughputKbps=10240`, `rttMs=40`). The DataForSEO
+  wrapper has no mobile option. On mobile the 159 KB gtag.js and the unprioritized
+  heroes would cost noticeably more than they do here. Do not quote these numbers
+  as mobile scores.
+- **Why the vendor flag cleared.** In August, `has_micromarkup_errors: true`
+  fired on five pages. This month it is `false` everywhere, and DataForSEO also
+  reports `has_micromarkup: false` on every page, even though each page ships 3-5
+  valid JSON-LD blocks (Organization, WebSite, LocalBusiness, Service, FAQPage,
+  BreadcrumbList). The vendor's detection changed; the site did not. The green
+  verdicts follow the rubric correctly, but the breadcrumb fix is still
+  outstanding (item 5).
+- **LCP variance.** Single-run desktop Lighthouse typically varies by 100-300ms
+  at these LCP levels. `/contact/` (+667ms, with FCP also up 486ms) is a clear
+  signal. The `/` and `/service-areas/brookings-sd/` rises crossed the 200ms
+  threshold and are recorded as regressions, but confirm them in October before
+  acting on them alone.
+- **New-issue detection.** The August state stored only the top 5 Lighthouse
+  issues per page. An issue counts as new here only when it is high severity
+  (it would have outranked the stored mediums) or when the page's August list was
+  complete (the homepage). This run also stores `all_failing_lighthouse_audit_ids`
+  per page so October can diff the full set.
+- **Phone number changed.** The CTA `tel:` link is now `+16059652727`, and the
+  `LocalBusiness` `telephone` matches. In August it was `+18444917560`. That is
+  out of scope for this audit, but confirm the GBP and citations use the same
+  number.
+- **Client record status.** `status` is still `"onboarding"` even though the site
+  has been live since 2026-08-08. This was flagged in August too, and it should
+  be `active`.
+- **Tooling and cost.** This DataForSEO MCP build does not expose the
+  `on_page_lighthouse` and `on_page_instant_pages` tools, so the audit used
+  authenticated REST calls to `/v3/on_page/lighthouse/live/json` and
+  `/v3/on_page/instant_pages`. The Lighthouse live response already includes the
+  full audit set, so no separate `full_data` call was needed. Total spend was
+  about $0.03.
+- **Not reported.** DataForSEO's `frame` check fires on
+  `/service-areas/brookings-sd/` again because of one map `<iframe>`; that's a
+  false positive. `no_image_title`, `has_render_blocking_resources` and
+  `high_loading_time` fall outside this skill's check list, and Lighthouse
+  already covers the last two.
+- **Clean bill on the basics.** All six URLs return HTTP 200, have correct
+  self-referencing canonicals, exactly one H1, titles of 41-46 chars and meta
+  descriptions of 110-151 chars. There are no duplicate titles or descriptions,
+  no broken links or resources, and no mixed content. Image alt coverage is full
+  (Lighthouse `image-alt` passed on every page), and every page is above its
+  `target_word_count`.
+- **URL selection.** Same six URLs as August, taken from `plan/url-plan.json`
+  (there is no `audit-urls.txt`). No service-area page has `primary: true` and
+  the plan has no Sioux Falls area page, so the first plan-order area,
+  `/service-areas/brookings-sd/`, was used. For the two service landings, four
+  pages tie at priority 9.0. Water and fire damage were kept for continuity with
+  the August baseline.

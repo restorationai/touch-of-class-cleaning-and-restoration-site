@@ -5,20 +5,21 @@
 **URLs audited:** 0
 **Prior audit:** first audit (no prior `onsite-audit.json`; the 2026-09-24 run was also blocked at pre-flight)
 
-## Status: BLOCKED at pre-flight (unchanged since 2026-09-24)
+## Status: BLOCKED at pre-flight (second consecutive run)
 
 No Lighthouse or on-page calls were made, so there was no DataForSEO spend. No state file was written and the client record was not changed, so nothing downstream will read a fake result.
 
-### Blockers (re-checked 2026-09-28)
+### Blockers (unchanged since 2026-09-24)
 
-1. **Client status is still `onboarding`, not `active`.** The audit requires `status == "active"`. `build_status` is `pushed_main`, which is fine.
+1. **Client status is `onboarding`, not `active`.** The audit requires `status == "active"`. (`build_status` is `pushed_main`, which is fine.)
 2. **Nothing is live to audit.**
-   - `domain` is still `null` and there is no `apex_cutover.completed_at`, so the apex origin cannot be used.
-   - `https://staging.rankai-paul-davis-charleston.pages.dev/` still does not resolve (curl exit 6, `Could not resolve host`). The production alias `https://rankai-paul-davis-charleston.pages.dev/` does not resolve either, which means the Cloudflare Pages project does not exist yet. A branch that simply hasn't been deployed would still leave the production alias resolving.
-   - Control check: `https://staging.rankai-tdi-builders.pages.dev/` returned 200 from the same runner, so the runner's network is fine.
-   - Repo `restorationai/paul-davis-charleston-site` was last pushed to main on 2026-09-23T00:48Z. The code exists, but nothing is hosting it.
+   - `domain` is `null` and there is no `apex_cutover.completed_at`, so the apex origin cannot be used.
+   - The fallback staging origin `https://staging.rankai-paul-davis-charleston.pages.dev/` still does not resolve (HTTP 000, connection failed). The production Pages alias `https://rankai-paul-davis-charleston.pages.dev/` also fails. The Cloudflare Pages project has most likely never been created, even though `build.last_pushed_main_at` is 2026-09-23T00:48Z (repo `restorationai/paul-davis-charleston-site`).
+   - Network check: `https://staging.rankai-tdi-builders.pages.dev/` returned 200 (with `x-robots-tag: noindex`) from the same runner, so this is not a runner network problem.
 
 ### URL set that will be audited once unblocked (Mode B, from url-plan.json)
+
+No `audit-urls.txt` exists, so the audit will use Mode B.
 
 | Slot | Archetype | Path |
 | --- | --- | --- |
@@ -29,17 +30,17 @@ No Lighthouse or on-page calls were made, so there was no DataForSEO spend. No s
 | 4 | service-area | `/service-areas/mount-pleasant-sc/` |
 | 5 | contact | `/contact/` |
 
-No service-area entry has `primary: true`, and the client record has no `business.address.city`. The first service-area in the plan was used as a fallback.
+Note: no service-area entry has `primary: true`, and the client record has no `business.address.city`. The first service-area in the plan was used as a fallback. A Charleston-city area page would be a better slot-4 pick once the address is in the record.
 
 ## Recommended next actions (priority order)
 
-1. Create a Cloudflare Pages project named `rankai-paul-davis-charleston` connected to `restorationai/paul-davis-charleston-site`, then deploy the `staging` branch. Confirm that `https://staging.rankai-paul-davis-charleston.pages.dev/` returns 200.
+1. Create a Cloudflare Pages project named `rankai-paul-davis-charleston`, connect it to `restorationai/paul-davis-charleston-site`, and deploy the `staging` branch. Confirm that `https://staging.rankai-paul-davis-charleston.pages.dev/` returns 200. This has been open since at least 2026-09-24 and blocks every downstream audit.
 2. When the client leaves onboarding, set `status` to `active` in `clients/paul-davis-charleston.json`.
-3. Add `domain` and `business.address` (at least `city`) to the client record. The address lets the audit pick the Charleston service-area page instead of the first area in the plan.
-4. Re-run the onsite audit. It will be the client's first real audit, so there will be no regression comparison.
+3. Add `domain` and `business.address` to the client record. `domain` is needed for the eventual apex cutover, and the address is needed for service-area selection.
+4. Re-run the onsite audit. It will be the first real audit for this client, so there will be no regression comparison.
+5. Until item 1 is done, consider pausing this client in the monthly audit schedule. Each blocked run adds noise without adding data.
 
 ## Notes / caveats
 
-- This is the second blocked run in a row (2026-09-24 and 2026-09-28). Until blocker 1 is fixed, further scheduled runs will produce the same result.
-- When the audit does run, Lighthouse will be desktop-only through the DataForSEO wrapper.
-- A staging audit will apply the noindex SEO-exclusion correction from Step 4.
+- When the audit does run, Lighthouse will be desktop-only through the DataForSEO wrapper. Expect mobile performance scores to be 10-20 points lower.
+- A staging audit will apply the noindex SEO-exclusion correction, so SEO will stay inconclusive until apex cutover.

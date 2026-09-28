@@ -1,773 +1,774 @@
 {
- "items": [
-  {
-   "id": "2026-09-28-water-damage-restoration-cost-mi",
-   "status": "queued",
-   "queued_at": "2026-09-28T18:16:50Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "cost_guide",
-   "combo_key": "water-damage-restoration-cost-mi",
-   "primary_keyword": "water damage restoration cost MI",
-   "intent": "transactional",
-   "target_word_count": 1500,
-   "city_anchor": "macomb-mi",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Macomb",
-    "state": "MI",
-    "competitors": []
-   },
-   "fan_out_cluster": [
-    "how much does water damage restoration cost in MI",
-    "water damage restoration price MI",
-    "average cost of water damage restoration MI",
-    "flood cleanup MI",
-    "water damage cleanup MI",
-    "water cleanup MI"
-   ],
-   "source": "best-of-seeder"
-  },
-  {
-   "id": "2026-09-12-water-damage-of-any-kind",
-   "status": "written",
-   "queued_at": "2026-09-12T13:40:21Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "water-damage-of-any-kind",
-   "primary_keyword": "Water Damage of any kind",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "chesterfield-mi",
-   "source": "app target-term (onboarding)",
-   "written_at": "2026-09-18T11:57:48Z",
-   "post_url": "https://None/blog/water-damage-of-any-kind/",
-   "claims_flags": [
+  "items": [
     {
-     "file": "src/content/blog/water-damage-of-any-kind.md",
-     "part": "frontmatter",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "idifiers and air movers, positioned per IICRC drying science, are required for a prop",
-     "reason": "certification mention looks like a regulatory reference \u2014 verify it is not a self-claim"
+      "id": "2026-09-28-water-damage-restoration-cost-mi",
+      "status": "queued",
+      "queued_at": "2026-09-28T18:16:50Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "cost_guide",
+      "combo_key": "water-damage-restoration-cost-mi",
+      "primary_keyword": "water damage restoration cost MI",
+      "intent": "transactional",
+      "target_word_count": 1500,
+      "city_anchor": "macomb-mi",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Macomb",
+        "state": "MI",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "how much does water damage restoration cost in MI",
+        "water damage restoration price MI",
+        "average cost of water damage restoration MI",
+        "flood cleanup MI",
+        "water damage cleanup MI",
+        "water cleanup MI"
+      ],
+      "source": "best-of-seeder"
     },
     {
-     "file": "src/content/blog/water-damage-of-any-kind.md",
-     "part": "body",
-     "family": "service-scope",
-     "severity": "review",
-     "matched": "mold remediation",
-     "context": "sit, the more likely you are to face a mold remediation cost on top of the water damage bill.",
-     "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration"
+      "id": "2026-09-12-water-damage-of-any-kind",
+      "status": "written",
+      "queued_at": "2026-09-12T13:40:21Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "water-damage-of-any-kind",
+      "primary_keyword": "Water Damage of any kind",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "chesterfield-mi",
+      "source": "app target-term (onboarding)",
+      "written_at": "2026-09-18T11:57:48Z",
+      "post_url": "https://None/blog/water-damage-of-any-kind/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-damage-of-any-kind.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "idifiers and air movers, positioned per IICRC drying science, are required for a prop",
+          "reason": "certification mention looks like a regulatory reference \u2014 verify it is not a self-claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-of-any-kind.md",
+          "part": "body",
+          "family": "service-scope",
+          "severity": "review",
+          "matched": "mold remediation",
+          "context": "sit, the more likely you are to face a mold remediation cost on top of the water damage bill.",
+          "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration"
+        },
+        {
+          "file": "src/content/blog/water-damage-of-any-kind.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "utions, and the restoration scope. The [IICRC S500 standard](https://www.iicrc.org),",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-of-any-kind.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "protocols. Beyond water category, the IICRC also classifies losses by how far water",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/water-damage-of-any-kind.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "s positioned at specific angles per the IICRC drying science) combined with LGR dehum",
+          "reason": "names a certification not present in brand.certifications"
+        }
+      ]
     },
     {
-     "file": "src/content/blog/water-damage-of-any-kind.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "utions, and the restoration scope. The [IICRC S500 standard](https://www.iicrc.org),",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+      "id": "2026-09-12-best-water-damage-restoration-in-macomb-mi",
+      "status": "written",
+      "queued_at": "2026-09-12T10:24:14Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-water-damage-restoration-in-macomb-mi",
+      "primary_keyword": "best water damage restoration company in Macomb, MI",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "macomb-mi",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Macomb",
+        "state": "MI",
+        "competitors": [
+          {
+            "name": "SERVPRO of Northeast Macomb Township",
+            "google_rating": 5,
+            "review_count": 57
+          },
+          {
+            "name": "Action Extraction Inc",
+            "google_rating": 5,
+            "review_count": 184
+          },
+          {
+            "name": "Metro Water Damage Restoration Macomb",
+            "google_rating": 4.9,
+            "review_count": 44
+          },
+          {
+            "name": "All Weather Restoration LLC",
+            "google_rating": 4.5,
+            "review_count": 86
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best water damage restoration companies Macomb",
+        "top rated water damage restoration Macomb MI",
+        "who is the best water damage restoration company in Macomb",
+        "water damage cleanup Macomb",
+        "water cleanup Macomb",
+        "water removal Macomb"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-12T10:26:24Z",
+      "post_url": "https://None/blog/best-water-damage-restoration-company-in-macomb-mi/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "and insured in Michigan and follow the IICRC S500 standard for structural drying and",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "ogress. Legitimate companies follow the IICRC S500 standard and provide daily drying",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "later. The company's work follows the [IICRC S500 Standard for Professional Water Da",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "ting | Reviews | Licensed and Insured | IICRC Standard | |---|---|---|---|---| | **Fl",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "laim holds up, dry the structure to the IICRC S500 standard so mold does not follow,",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "arget moisture content specified by the IICRC S500 standard. Ask how they track and d",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "on the category and class of loss. The IICRC classifies water losses by contaminatio",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "eld. Their restoration work follows the IICRC S500 standard for professional water da",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "184 reviews",
+          "context": "tion Inc **Google Rating:** 5.0 stars (184 reviews) Action Extraction Inc carries the hig",
+          "reason": "claims 184 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "184 Google reviews",
+          "context": "ighest review volume on this list, with 184 Google reviews at a 5.0 average, which is a meaningful",
+          "reason": "claims 184 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "57 reviews",
+          "context": "Township **Google Rating:** 5.0 stars (57 reviews) SERVPRO of Northeast Macomb Township",
+          "reason": "claims 57 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "57 reviews",
+          "context": "etwork, with a 5.0 Google rating across 57 reviews. National franchise networks offer stan",
+          "reason": "claims 57 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "44 reviews",
+          "context": "n Macomb **Google Rating:** 4.9 stars (44 reviews) Metro Water Damage Restoration Macomb",
+          "reason": "claims 44 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "44 reviews",
+          "context": "Macomb holds a 4.9 Google rating across 44 reviews. They are a local restoration company s",
+          "reason": "claims 44 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "86 reviews",
+          "context": "tion LLC **Google Rating:** 4.5 stars (86 reviews) All Weather Restoration LLC has 86 Go",
+          "reason": "claims 86 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "86 Google reviews",
+          "context": "views) All Weather Restoration LLC has 86 Google reviews at a 4.5 average, giving them one of th",
+          "reason": "claims 86 reviews but no synced gbpReviewCount exists for this site"
+        }
+      ]
     },
     {
-     "file": "src/content/blog/water-damage-of-any-kind.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "IICRC",
-     "context": "protocols. Beyond water category, the IICRC also classifies losses by how far water",
-     "reason": "names a certification not present in brand.certifications"
+      "id": "2026-09-21-water-damage-restoration-cost-macomb",
+      "status": "written",
+      "queued_at": "2026-09-21T16:50:00Z",
+      "written_at": "2026-09-21T16:56:53Z",
+      "post_url": "https://floodsolutionsinc.com/blog/water-damage-restoration-cost-macomb-mi/",
+      "primary_keyword": "water damage restoration cost",
+      "intent": "commercial",
+      "volume": 720,
+      "kd": 0,
+      "fan_out_cluster": [
+        "water damage restoration cost per square foot",
+        "average cost of water damage restoration",
+        "how much does water damage restoration cost",
+        "water damage restoration cost calculator",
+        "water damage restoration prices",
+        "cost of water damage restoration"
+      ],
+      "suggested_slug": "water-damage-restoration-cost-macomb-mi",
+      "suggested_title": "Water damage restoration cost in Macomb, MI: what homeowners actually pay",
+      "target_word_count": 1800,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": "macomb-mi",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Highest-value uncovered term in the run: 720/mo at KD 0 with a 43.02 CPC. Break cost out by loss size (single room, finished basement, whole first floor), by water category, and by the line items an insurer expects to see (extraction, structural drying, antimicrobial, reconstruction). Give real dollar ranges, not a lead-gen dodge, then explain what shifts a quote up or down. Include a per-square-foot table to absorb the cost-per-square-foot and cost-calculator variations.",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-macomb-mi.md",
+          "part": "body",
+          "family": "service-scope",
+          "severity": "review",
+          "matched": "mold remediation",
+          "context": "ndetected for more than 48 to 72 hours, mold remediation may be required in addition to water mi",
+          "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-macomb-mi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "finitions behind these categories, the [IICRC S500 Standard for Professional Water Da",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-macomb-mi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "is required by most insurers and by the IICRC S500 protocol for Category 2 and Catego",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-macomb-mi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "ed block walls. **Class of loss.** The IICRC S500 defines four classes of water intr",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
     },
     {
-     "file": "src/content/blog/water-damage-of-any-kind.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "IICRC",
-     "context": "s positioned at specific angles per the IICRC drying science) combined with LGR dehum",
-     "reason": "names a certification not present in brand.certifications"
+      "id": "2026-09-21-category-3-water-damage",
+      "status": "written",
+      "queued_at": "2026-09-21T16:50:00Z",
+      "written_at": "2026-09-23T22:28:28Z",
+      "post_url": "https://floodsolutionsinc.com/blog/category-3-water-damage-sterling-heights-mi/",
+      "primary_keyword": "category 3 water damage",
+      "intent": "informational",
+      "volume": 390,
+      "kd": 0,
+      "fan_out_cluster": [
+        "category 1 2 and 3 water damage",
+        "black water damage",
+        "what is category 3 water",
+        "sewage water damage category",
+        "iicrc water damage categories",
+        "category 3 water damage cleanup"
+      ],
+      "suggested_slug": "category-3-water-damage-sterling-heights-mi",
+      "suggested_title": "Category 3 water damage explained for Sterling Heights homeowners",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/service-areas/sterling-heights-mi/water-damage-restoration/",
+        "/services/water-cleanup/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": "sterling-heights-mi",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.epa.gov/mold"
+      ],
+      "notes": "390/mo at KD 0 and a 58.79 CPC: category education is where panicked homeowners land before they call. Lead with the three IICRC categories side by side, then make clear why category 3 (sewage, rising floodwater, standing water gone stale) is never a DIY job and why porous materials get removed rather than dried. Keep the tone calm and factual, not alarmist.",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "ires professional cleanup, and what the IICRC S500 standard says about porous materia",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "error",
+          "matched": "iicrc",
+          "context": "ater\", \"sewage water damage category\", \"iicrc water damage categories\", \"category 3 w",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "taminated class of water loss under the IICRC S500 standard. It includes sewage backu",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "materials that contacted the water. The IICRC S500 standard requires porous materials",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "inate the biological contamination. The IICRC S500 standard requires removal and disp",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "aminated class of water loss under the [IICRC S500 standard](https://www.iicrc.org/pa",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "nup needs to be. ## What Are the Three IICRC Water Damage Categories? The IICRC div",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "ree IICRC Water Damage Categories? The IICRC divides water losses into three categor",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "ckly. **Porous material removal.** The IICRC S500 standard is explicit: porous mater",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-21-sump-pump-failure-insurance-macomb",
+      "status": "banked",
+      "queued_at": "2026-09-21T16:50:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover sump pump failure",
+      "intent": "informational",
+      "volume": 50,
+      "kd": 2,
+      "fan_out_cluster": [
+        "does insurance cover sewer backup",
+        "water backup coverage endorsement",
+        "sump pump failure insurance michigan",
+        "does insurance cover basement flooding",
+        "sewer backup coverage michigan",
+        "how much does a water backup rider cost"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-sump-pump-failure-macomb",
+      "suggested_title": "Does homeowners insurance cover sump pump failure in Macomb County?",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": "macomb-mi",
+      "external_authority_candidates": [
+        "https://www.michigan.gov/difs",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Distinct from the existing general insurance post: a standard Michigan homeowners policy excludes sump pump overflow and sewer backup unless the owner bought a water backup endorsement. Cite Michigan DIFS on that split. Macomb County is sump pump country with a clay-soil water table, so this is the single most locally relevant insurance question. Answer the coverage question in the first 60 words so AI engines can lift it, then cover endorsement cost, claim steps, and documentation.",
+      "banked_at": "2026-09-28T22:24:24.202785+00:00"
+    },
+    {
+      "id": "2026-09-21-what-causes-basement-flooding-michigan",
+      "status": "banked",
+      "queued_at": "2026-09-21T16:50:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what causes basement flooding in michigan",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "clay soil basement flooding michigan",
+        "storm sewer backup macomb county",
+        "sump pump failure basement flood",
+        "frozen pipe basement flooding michigan",
+        "spring thaw basement flooding",
+        "why does my basement flood when it rains"
+      ],
+      "suggested_slug": "what-causes-basement-flooding-michigan-macomb",
+      "suggested_title": "What causes basement flooding in Michigan (and what Macomb homeowners can do about it)",
+      "target_word_count": 1700,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/blog/basement-flooding-prevention/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": "macomb-mi",
+      "external_authority_candidates": [
+        "https://www.michigan.gov/difs",
+        "https://www.epa.gov/mold"
+      ],
+      "notes": "No measured Google volume, surfaced by the ChatGPT decomposition and scored intent-first per the GEO rule. Southeast Michigan has a specific causal stack worth naming: heavy clay soil that sheds water toward foundations, combined storm and sanitary sewers that surcharge in summer downpours, spring thaw over still-frozen ground, and sump pump failure during the power cuts that come with the same storms. Pair causes with fixes, and link to the existing prevention post rather than repeating it.",
+      "banked_at": "2026-09-24T22:24:15.038805+00:00"
+    },
+    {
+      "id": "2026-09-21-water-damage-restoration-process-steps",
+      "status": "banked",
+      "queued_at": "2026-09-21T16:50:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water damage restoration process steps",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "water damage restoration process",
+        "water extraction and structural drying",
+        "how do you know when a house is completely dry",
+        "when to replace drywall after water damage",
+        "moisture mapping water damage",
+        "water damage restoration equipment"
+      ],
+      "suggested_slug": "water-damage-restoration-process-steps-clinton-township",
+      "suggested_title": "The water damage restoration process steps, start to finish (Clinton Township, MI)",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/service-areas/clinton-township-mi/water-damage-restoration/",
+        "/services/water-cleanup/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": "clinton-township-mi",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "A numbered process explainer is the passage format AI engines lift verbatim, which is the whole point of queueing a term with no measured volume. Walk the real IICRC S500 sequence: emergency contact and make-safe, inspection and moisture mapping, extraction, demolition of unsalvageable porous materials, structural drying with air movers and dehumidifiers, daily moisture readings to dry standard, then reconstruction. Absorb the drywall-replacement and how-do-you-know-it-is-dry questions as their own H2s.",
+      "banked_at": "2026-09-24T22:24:15.038812+00:00"
+    },
+    {
+      "id": "2026-09-24-flooded-basement-cleanup-cost-sterling-heights",
+      "status": "queued",
+      "queued_at": "2026-09-24T20:45:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "flooded basement cleanup cost",
+      "intent": "commercial",
+      "volume": 210,
+      "kd": 0,
+      "fan_out_cluster": [
+        "flooded basement repair",
+        "flood damage repair",
+        "water damage restoration cost per square foot",
+        "flooded basement insurance claim",
+        "does home insurance cover flooded basement"
+      ],
+      "suggested_slug": "flooded-basement-cleanup-cost-sterling-heights",
+      "suggested_title": "Flooded basement cleanup cost in Sterling Heights, MI: what drives the price",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-cleanup/",
+        "/services/water-damage-restoration/",
+        "/service-areas/sterling-heights-mi/water-cleanup/"
+      ],
+      "service_tags": [
+        "water-cleanup",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "sterling-heights-mi",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Commercial-intent cost guide, basement-specific (distinct from the published water damage restoration cost post: link to it, do not repeat it). Break out cost drivers: water category (clean vs sewage), square footage and depth, finished vs unfinished, days of drying equipment, demo and disposal. Use ranges and drivers, never a fabricated flat price. KD 0 nationally."
+    },
+    {
+      "id": "2026-09-24-flooded-basement-what-to-do-macomb",
+      "status": "queued",
+      "queued_at": "2026-09-24T20:45:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "flooded basement what to do",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 5,
+      "fan_out_cluster": [
+        "how to clean up a flooded basement",
+        "what should i do when my basement is flooded",
+        "how to get water out of a flooded basement",
+        "what to throw away after a basement flood",
+        "how long to dry out a flooded basement",
+        "what to do immediately after basement floods"
+      ],
+      "suggested_slug": "flooded-basement-what-to-do-macomb",
+      "suggested_title": "Flooded basement: what to do in the first hours (Macomb, MI)",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-cleanup/",
+        "/services/water-damage-restoration/",
+        "/blog/what-to-do-first-24-hours-water-damage/"
+      ],
+      "service_tags": [
+        "water-cleanup",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "macomb-mi",
+      "external_authority_candidates": [
+        "https://www.michigan.gov/mdhhs/inside-mdhhs/newsroom/2023/08/25/flood-information",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Basement-specific action guide: power and gas safety first, figure out the water source (groundwater seepage, sump failure, floor-drain sewer backup), document for the insurer, then extract and dry. Must not cannibalize /blog/what-to-do-first-24-hours-water-damage/ (generic water damage): stay on basements, link to it once. ChatGPT's answer for Michigan homeowners cited MDHHS and DIFS guidance, so cite both. Michigan volume for this term is 140/mo with a large April spike (spring thaw and storms)."
+    },
+    {
+      "id": "2026-09-24-how-to-disinfect-a-flooded-basement-warren",
+      "status": "queued",
+      "queued_at": "2026-09-24T20:45:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to disinfect a flooded basement",
+      "intent": "informational",
+      "volume": 480,
+      "kd": 10,
+      "fan_out_cluster": [
+        "is flood water in my basement dangerous",
+        "basement flooded with sewage",
+        "category 3 water damage",
+        "what to throw away after a basement flood",
+        "does insurance cover sewer backup"
+      ],
+      "suggested_slug": "how-to-disinfect-a-flooded-basement-warren",
+      "suggested_title": "How to disinfect a flooded basement safely (Warren, MI)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/sewage-cleanup/",
+        "/services/water-cleanup/",
+        "/service-areas/warren-mi/sewage-cleanup/"
+      ],
+      "service_tags": [
+        "sewage-cleanup",
+        "water-cleanup"
+      ],
+      "city_anchor": "warren-mi",
+      "external_authority_candidates": [
+        "https://www.michigan.gov/mdhhs/-/media/Project/Websites/mdhhs/Safety-and-Injury-Prevention/Environmental-Health/Climate/Documents/After_a_Flood.pdf",
+        "https://www.epa.gov/flooded-homes"
+      ],
+      "notes": "Floodwater and floor-drain backups are often Category 3 (sewage). Explain what can be cleaned and sanitized (hard, non-porous surfaces) vs what must be discarded (carpet, pad, saturated drywall and insulation), PPE per MDHHS, and never mixing bleach with ammonia cleaners. Warren is a client priority area and saw widespread basement backups in the 2021 Detroit-area floods. Link the published category 3 post."
+    },
+    {
+      "id": "2026-09-24-who-to-call-for-flooded-basement-clinton-township",
+      "status": "queued",
+      "queued_at": "2026-09-24T20:45:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "who to call for flooded basement",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 0,
+      "fan_out_cluster": [
+        "should i call insurance or restoration company first",
+        "plumber for flooded basement",
+        "flooded basement insurance claim",
+        "sump pump not working basement flooded",
+        "basement flooded with sewage"
+      ],
+      "suggested_slug": "who-to-call-for-flooded-basement-clinton-township",
+      "suggested_title": "Who to call for a flooded basement: plumber, restoration company, or insurer? (Clinton Township, MI)",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/water-cleanup/",
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/",
+        "/service-areas/clinton-township-mi/water-cleanup/"
+      ],
+      "service_tags": [
+        "water-cleanup",
+        "water-damage-restoration",
+        "sewage-cleanup"
+      ],
+      "city_anchor": "clinton-township-mi",
+      "external_authority_candidates": [
+        "https://www.michigan.gov/difs/consumers/disaster-prep/flood"
+      ],
+      "notes": "Decision-stage query with a Michigan PPC CPC over $200, so the reader is close to hiring. Order of calls by situation: utility or electrician if water reaches outlets or the panel, plumber for an active supply leak, restoration company for extraction and drying, insurer (DIFS says report promptly and photograph before cleanup), municipality for a city sewer backup. Absorbs the banked 'should i call insurance or restoration company first' question as an H2."
+    },
+    {
+      "id": "2026-09-24-water-heater-in-flooded-basement-chesterfield",
+      "status": "queued",
+      "queued_at": "2026-09-24T20:45:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water heater in flooded basement",
+      "intent": "informational",
+      "volume": 170,
+      "kd": 0,
+      "fan_out_cluster": [
+        "basement flooded hot water heater",
+        "is flood water in my basement dangerous",
+        "sump pump not working basement flooded",
+        "what damage can a flood cause"
+      ],
+      "suggested_slug": "water-heater-in-flooded-basement-chesterfield",
+      "suggested_title": "Water heater in a flooded basement: is it safe to use? (Chesterfield, MI)",
+      "target_word_count": 1200,
+      "internal_link_targets": [
+        "/services/water-cleanup/",
+        "/services/water-damage-restoration/",
+        "/service-areas/chesterfield-mi/water-cleanup/"
+      ],
+      "service_tags": [
+        "water-cleanup",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "chesterfield-mi",
+      "external_authority_candidates": [
+        "https://www.michigan.gov/mdhhs/inside-mdhhs/newsroom/2023/08/25/flood-information"
+      ],
+      "notes": "Most Macomb County homes keep the gas water heater and furnace in the basement, so this safety question follows almost every basement flood. Core message: if water reached the burner, controls, or gas valve, do not relight it; shut gas and power and have a licensed plumber or HVAC tech inspect or replace. Include carbon monoxide warnings (never run generators or fuel equipment indoors). Stay inside restoration scope: we do extraction and drying, the appliance call goes to a licensed tech."
     }
-   ]
-  },
-  {
-   "id": "2026-09-12-best-water-damage-restoration-in-macomb-mi",
-   "status": "written",
-   "queued_at": "2026-09-12T10:24:14Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "best_of_comparison",
-   "combo_key": "best-water-damage-restoration-in-macomb-mi",
-   "primary_keyword": "best water damage restoration company in Macomb, MI",
-   "intent": "commercial",
-   "target_word_count": 1600,
-   "city_anchor": "macomb-mi",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Macomb",
-    "state": "MI",
-    "competitors": [
-     {
-      "name": "SERVPRO of Northeast Macomb Township",
-      "google_rating": 5,
-      "review_count": 57
-     },
-     {
-      "name": "Action Extraction Inc",
-      "google_rating": 5,
-      "review_count": 184
-     },
-     {
-      "name": "Metro Water Damage Restoration Macomb",
-      "google_rating": 4.9,
-      "review_count": 44
-     },
-     {
-      "name": "All Weather Restoration LLC",
-      "google_rating": 4.5,
-      "review_count": 86
-     }
-    ]
-   },
-   "fan_out_cluster": [
-    "best water damage restoration companies Macomb",
-    "top rated water damage restoration Macomb MI",
-    "who is the best water damage restoration company in Macomb",
-    "water damage cleanup Macomb",
-    "water cleanup Macomb",
-    "water removal Macomb"
-   ],
-   "source": "best-of-seeder",
-   "written_at": "2026-09-12T10:26:24Z",
-   "post_url": "https://None/blog/best-water-damage-restoration-company-in-macomb-mi/",
-   "claims_flags": [
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
-     "part": "frontmatter",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "and insured in Michigan and follow the IICRC S500 standard for structural drying and",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
-     "part": "frontmatter",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "ogress. Legitimate companies follow the IICRC S500 standard and provide daily drying",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "later. The company's work follows the [IICRC S500 Standard for Professional Water Da",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "ting | Reviews | Licensed and Insured | IICRC Standard | |---|---|---|---|---| | **Fl",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "laim holds up, dry the structure to the IICRC S500 standard so mold does not follow,",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "arget moisture content specified by the IICRC S500 standard. Ask how they track and d",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "IICRC",
-     "context": "on the category and class of loss. The IICRC classifies water losses by contaminatio",
-     "reason": "names a certification not present in brand.certifications"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "eld. Their restoration work follows the IICRC S500 standard for professional water da",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "184 reviews",
-     "context": "tion Inc **Google Rating:** 5.0 stars (184 reviews) Action Extraction Inc carries the hig",
-     "reason": "claims 184 reviews but no synced gbpReviewCount exists for this site"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "184 Google reviews",
-     "context": "ighest review volume on this list, with 184 Google reviews at a 5.0 average, which is a meaningful",
-     "reason": "claims 184 reviews but no synced gbpReviewCount exists for this site"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "57 reviews",
-     "context": "Township **Google Rating:** 5.0 stars (57 reviews) SERVPRO of Northeast Macomb Township",
-     "reason": "claims 57 reviews but no synced gbpReviewCount exists for this site"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "57 reviews",
-     "context": "etwork, with a 5.0 Google rating across 57 reviews. National franchise networks offer stan",
-     "reason": "claims 57 reviews but no synced gbpReviewCount exists for this site"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "44 reviews",
-     "context": "n Macomb **Google Rating:** 4.9 stars (44 reviews) Metro Water Damage Restoration Macomb",
-     "reason": "claims 44 reviews but no synced gbpReviewCount exists for this site"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "44 reviews",
-     "context": "Macomb holds a 4.9 Google rating across 44 reviews. They are a local restoration company s",
-     "reason": "claims 44 reviews but no synced gbpReviewCount exists for this site"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "86 reviews",
-     "context": "tion LLC **Google Rating:** 4.5 stars (86 reviews) All Weather Restoration LLC has 86 Go",
-     "reason": "claims 86 reviews but no synced gbpReviewCount exists for this site"
-    },
-    {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-macomb-mi.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "86 Google reviews",
-     "context": "views) All Weather Restoration LLC has 86 Google reviews at a 4.5 average, giving them one of th",
-     "reason": "claims 86 reviews but no synced gbpReviewCount exists for this site"
-    }
-   ]
-  },
-  {
-   "id": "2026-09-21-water-damage-restoration-cost-macomb",
-   "status": "written",
-   "queued_at": "2026-09-21T16:50:00Z",
-   "written_at": "2026-09-21T16:56:53Z",
-   "post_url": "https://floodsolutionsinc.com/blog/water-damage-restoration-cost-macomb-mi/",
-   "primary_keyword": "water damage restoration cost",
-   "intent": "commercial",
-   "volume": 720,
-   "kd": 0,
-   "fan_out_cluster": [
-    "water damage restoration cost per square foot",
-    "average cost of water damage restoration",
-    "how much does water damage restoration cost",
-    "water damage restoration cost calculator",
-    "water damage restoration prices",
-    "cost of water damage restoration"
-   ],
-   "suggested_slug": "water-damage-restoration-cost-macomb-mi",
-   "suggested_title": "Water damage restoration cost in Macomb, MI: what homeowners actually pay",
-   "target_word_count": 1800,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/water-cleanup/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration"
-   ],
-   "city_anchor": "macomb-mi",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Highest-value uncovered term in the run: 720/mo at KD 0 with a 43.02 CPC. Break cost out by loss size (single room, finished basement, whole first floor), by water category, and by the line items an insurer expects to see (extraction, structural drying, antimicrobial, reconstruction). Give real dollar ranges, not a lead-gen dodge, then explain what shifts a quote up or down. Include a per-square-foot table to absorb the cost-per-square-foot and cost-calculator variations.",
-   "claims_flags": [
-    {
-     "file": "src/content/blog/water-damage-restoration-cost-macomb-mi.md",
-     "part": "body",
-     "family": "service-scope",
-     "severity": "review",
-     "matched": "mold remediation",
-     "context": "ndetected for more than 48 to 72 hours, mold remediation may be required in addition to water mi",
-     "reason": "names the 'mold' service family but plan-input services are only: water-damage-restoration"
-    },
-    {
-     "file": "src/content/blog/water-damage-restoration-cost-macomb-mi.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "finitions behind these categories, the [IICRC S500 Standard for Professional Water Da",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/water-damage-restoration-cost-macomb-mi.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "is required by most insurers and by the IICRC S500 protocol for Category 2 and Catego",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/water-damage-restoration-cost-macomb-mi.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "ed block walls. **Class of loss.** The IICRC S500 defines four classes of water intr",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    }
-   ]
-  },
-  {
-   "id": "2026-09-21-category-3-water-damage",
-   "status": "written",
-   "queued_at": "2026-09-21T16:50:00Z",
-   "written_at": "2026-09-23T22:28:28Z",
-   "post_url": "https://floodsolutionsinc.com/blog/category-3-water-damage-sterling-heights-mi/",
-   "primary_keyword": "category 3 water damage",
-   "intent": "informational",
-   "volume": 390,
-   "kd": 0,
-   "fan_out_cluster": [
-    "category 1 2 and 3 water damage",
-    "black water damage",
-    "what is category 3 water",
-    "sewage water damage category",
-    "iicrc water damage categories",
-    "category 3 water damage cleanup"
-   ],
-   "suggested_slug": "category-3-water-damage-sterling-heights-mi",
-   "suggested_title": "Category 3 water damage explained for Sterling Heights homeowners",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/service-areas/sterling-heights-mi/water-damage-restoration/",
-    "/services/water-cleanup/"
-   ],
-   "service_tags": [
-    "water-damage-restoration"
-   ],
-   "city_anchor": "sterling-heights-mi",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500",
-    "https://www.epa.gov/mold"
-   ],
-   "notes": "390/mo at KD 0 and a 58.79 CPC: category education is where panicked homeowners land before they call. Lead with the three IICRC categories side by side, then make clear why category 3 (sewage, rising floodwater, standing water gone stale) is never a DIY job and why porous materials get removed rather than dried. Keep the tone calm and factual, not alarmist.",
-   "claims_flags": [
-    {
-     "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
-     "part": "frontmatter",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "ires professional cleanup, and what the IICRC S500 standard says about porous materia",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
-     "part": "frontmatter",
-     "family": "certification",
-     "severity": "error",
-     "matched": "iicrc",
-     "context": "ater\", \"sewage water damage category\", \"iicrc water damage categories\", \"category 3 w",
-     "reason": "names a certification not present in brand.certifications"
-    },
-    {
-     "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
-     "part": "frontmatter",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "taminated class of water loss under the IICRC S500 standard. It includes sewage backu",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
-     "part": "frontmatter",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "materials that contacted the water. The IICRC S500 standard requires porous materials",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
-     "part": "frontmatter",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "inate the biological contamination. The IICRC S500 standard requires removal and disp",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "aminated class of water loss under the [IICRC S500 standard](https://www.iicrc.org/pa",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    },
-    {
-     "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "IICRC",
-     "context": "nup needs to be. ## What Are the Three IICRC Water Damage Categories? The IICRC div",
-     "reason": "names a certification not present in brand.certifications"
-    },
-    {
-     "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "error",
-     "matched": "IICRC",
-     "context": "ree IICRC Water Damage Categories? The IICRC divides water losses into three categor",
-     "reason": "names a certification not present in brand.certifications"
-    },
-    {
-     "file": "src/content/blog/category-3-water-damage-sterling-heights-mi.md",
-     "part": "body",
-     "family": "certification",
-     "severity": "review",
-     "matched": "IICRC",
-     "context": "ckly. **Porous material removal.** The IICRC S500 standard is explicit: porous mater",
-     "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
-    }
-   ]
-  },
-  {
-   "id": "2026-09-21-sump-pump-failure-insurance-macomb",
-   "status": "queued",
-   "queued_at": "2026-09-21T16:50:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "does homeowners insurance cover sump pump failure",
-   "intent": "informational",
-   "volume": 50,
-   "kd": 2,
-   "fan_out_cluster": [
-    "does insurance cover sewer backup",
-    "water backup coverage endorsement",
-    "sump pump failure insurance michigan",
-    "does insurance cover basement flooding",
-    "sewer backup coverage michigan",
-    "how much does a water backup rider cost"
-   ],
-   "suggested_slug": "does-homeowners-insurance-cover-sump-pump-failure-macomb",
-   "suggested_title": "Does homeowners insurance cover sump pump failure in Macomb County?",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/water-cleanup/",
-    "/blog/does-homeowners-insurance-cover-water-damage/"
-   ],
-   "service_tags": [
-    "water-damage-restoration"
-   ],
-   "city_anchor": "macomb-mi",
-   "external_authority_candidates": [
-    "https://www.michigan.gov/difs",
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Distinct from the existing general insurance post: a standard Michigan homeowners policy excludes sump pump overflow and sewer backup unless the owner bought a water backup endorsement. Cite Michigan DIFS on that split. Macomb County is sump pump country with a clay-soil water table, so this is the single most locally relevant insurance question. Answer the coverage question in the first 60 words so AI engines can lift it, then cover endorsement cost, claim steps, and documentation."
-  },
-  {
-   "id": "2026-09-21-what-causes-basement-flooding-michigan",
-   "status": "banked",
-   "queued_at": "2026-09-21T16:50:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "what causes basement flooding in michigan",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "clay soil basement flooding michigan",
-    "storm sewer backup macomb county",
-    "sump pump failure basement flood",
-    "frozen pipe basement flooding michigan",
-    "spring thaw basement flooding",
-    "why does my basement flood when it rains"
-   ],
-   "suggested_slug": "what-causes-basement-flooding-michigan-macomb",
-   "suggested_title": "What causes basement flooding in Michigan (and what Macomb homeowners can do about it)",
-   "target_word_count": 1700,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/water-cleanup/",
-    "/blog/basement-flooding-prevention/"
-   ],
-   "service_tags": [
-    "water-damage-restoration"
-   ],
-   "city_anchor": "macomb-mi",
-   "external_authority_candidates": [
-    "https://www.michigan.gov/difs",
-    "https://www.epa.gov/mold"
-   ],
-   "notes": "No measured Google volume, surfaced by the ChatGPT decomposition and scored intent-first per the GEO rule. Southeast Michigan has a specific causal stack worth naming: heavy clay soil that sheds water toward foundations, combined storm and sanitary sewers that surcharge in summer downpours, spring thaw over still-frozen ground, and sump pump failure during the power cuts that come with the same storms. Pair causes with fixes, and link to the existing prevention post rather than repeating it.",
-   "banked_at": "2026-09-24T22:24:15.038805+00:00"
-  },
-  {
-   "id": "2026-09-21-water-damage-restoration-process-steps",
-   "status": "banked",
-   "queued_at": "2026-09-21T16:50:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "water damage restoration process steps",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "water damage restoration process",
-    "water extraction and structural drying",
-    "how do you know when a house is completely dry",
-    "when to replace drywall after water damage",
-    "moisture mapping water damage",
-    "water damage restoration equipment"
-   ],
-   "suggested_slug": "water-damage-restoration-process-steps-clinton-township",
-   "suggested_title": "The water damage restoration process steps, start to finish (Clinton Township, MI)",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/service-areas/clinton-township-mi/water-damage-restoration/",
-    "/services/water-cleanup/"
-   ],
-   "service_tags": [
-    "water-damage-restoration"
-   ],
-   "city_anchor": "clinton-township-mi",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "A numbered process explainer is the passage format AI engines lift verbatim, which is the whole point of queueing a term with no measured volume. Walk the real IICRC S500 sequence: emergency contact and make-safe, inspection and moisture mapping, extraction, demolition of unsalvageable porous materials, structural drying with air movers and dehumidifiers, daily moisture readings to dry standard, then reconstruction. Absorb the drywall-replacement and how-do-you-know-it-is-dry questions as their own H2s.",
-   "banked_at": "2026-09-24T22:24:15.038812+00:00"
-  },
-  {
-   "id": "2026-09-24-flooded-basement-cleanup-cost-sterling-heights",
-   "status": "queued",
-   "queued_at": "2026-09-24T20:45:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "flooded basement cleanup cost",
-   "intent": "commercial",
-   "volume": 210,
-   "kd": 0,
-   "fan_out_cluster": [
-    "flooded basement repair",
-    "flood damage repair",
-    "water damage restoration cost per square foot",
-    "flooded basement insurance claim",
-    "does home insurance cover flooded basement"
-   ],
-   "suggested_slug": "flooded-basement-cleanup-cost-sterling-heights",
-   "suggested_title": "Flooded basement cleanup cost in Sterling Heights, MI: what drives the price",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-cleanup/",
-    "/services/water-damage-restoration/",
-    "/service-areas/sterling-heights-mi/water-cleanup/"
-   ],
-   "service_tags": [
-    "water-cleanup",
-    "water-damage-restoration"
-   ],
-   "city_anchor": "sterling-heights-mi",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Commercial-intent cost guide, basement-specific (distinct from the published water damage restoration cost post: link to it, do not repeat it). Break out cost drivers: water category (clean vs sewage), square footage and depth, finished vs unfinished, days of drying equipment, demo and disposal. Use ranges and drivers, never a fabricated flat price. KD 0 nationally."
-  },
-  {
-   "id": "2026-09-24-flooded-basement-what-to-do-macomb",
-   "status": "queued",
-   "queued_at": "2026-09-24T20:45:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "flooded basement what to do",
-   "intent": "informational",
-   "volume": 1000,
-   "kd": 5,
-   "fan_out_cluster": [
-    "how to clean up a flooded basement",
-    "what should i do when my basement is flooded",
-    "how to get water out of a flooded basement",
-    "what to throw away after a basement flood",
-    "how long to dry out a flooded basement",
-    "what to do immediately after basement floods"
-   ],
-   "suggested_slug": "flooded-basement-what-to-do-macomb",
-   "suggested_title": "Flooded basement: what to do in the first hours (Macomb, MI)",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/water-cleanup/",
-    "/services/water-damage-restoration/",
-    "/blog/what-to-do-first-24-hours-water-damage/"
-   ],
-   "service_tags": [
-    "water-cleanup",
-    "water-damage-restoration"
-   ],
-   "city_anchor": "macomb-mi",
-   "external_authority_candidates": [
-    "https://www.michigan.gov/mdhhs/inside-mdhhs/newsroom/2023/08/25/flood-information",
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Basement-specific action guide: power and gas safety first, figure out the water source (groundwater seepage, sump failure, floor-drain sewer backup), document for the insurer, then extract and dry. Must not cannibalize /blog/what-to-do-first-24-hours-water-damage/ (generic water damage): stay on basements, link to it once. ChatGPT's answer for Michigan homeowners cited MDHHS and DIFS guidance, so cite both. Michigan volume for this term is 140/mo with a large April spike (spring thaw and storms)."
-  },
-  {
-   "id": "2026-09-24-how-to-disinfect-a-flooded-basement-warren",
-   "status": "queued",
-   "queued_at": "2026-09-24T20:45:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "how to disinfect a flooded basement",
-   "intent": "informational",
-   "volume": 480,
-   "kd": 10,
-   "fan_out_cluster": [
-    "is flood water in my basement dangerous",
-    "basement flooded with sewage",
-    "category 3 water damage",
-    "what to throw away after a basement flood",
-    "does insurance cover sewer backup"
-   ],
-   "suggested_slug": "how-to-disinfect-a-flooded-basement-warren",
-   "suggested_title": "How to disinfect a flooded basement safely (Warren, MI)",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/sewage-cleanup/",
-    "/services/water-cleanup/",
-    "/service-areas/warren-mi/sewage-cleanup/"
-   ],
-   "service_tags": [
-    "sewage-cleanup",
-    "water-cleanup"
-   ],
-   "city_anchor": "warren-mi",
-   "external_authority_candidates": [
-    "https://www.michigan.gov/mdhhs/-/media/Project/Websites/mdhhs/Safety-and-Injury-Prevention/Environmental-Health/Climate/Documents/After_a_Flood.pdf",
-    "https://www.epa.gov/flooded-homes"
-   ],
-   "notes": "Floodwater and floor-drain backups are often Category 3 (sewage). Explain what can be cleaned and sanitized (hard, non-porous surfaces) vs what must be discarded (carpet, pad, saturated drywall and insulation), PPE per MDHHS, and never mixing bleach with ammonia cleaners. Warren is a client priority area and saw widespread basement backups in the 2021 Detroit-area floods. Link the published category 3 post."
-  },
-  {
-   "id": "2026-09-24-who-to-call-for-flooded-basement-clinton-township",
-   "status": "queued",
-   "queued_at": "2026-09-24T20:45:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "who to call for flooded basement",
-   "intent": "informational",
-   "volume": 260,
-   "kd": 0,
-   "fan_out_cluster": [
-    "should i call insurance or restoration company first",
-    "plumber for flooded basement",
-    "flooded basement insurance claim",
-    "sump pump not working basement flooded",
-    "basement flooded with sewage"
-   ],
-   "suggested_slug": "who-to-call-for-flooded-basement-clinton-township",
-   "suggested_title": "Who to call for a flooded basement: plumber, restoration company, or insurer? (Clinton Township, MI)",
-   "target_word_count": 1300,
-   "internal_link_targets": [
-    "/services/water-cleanup/",
-    "/services/water-damage-restoration/",
-    "/services/sewage-cleanup/",
-    "/service-areas/clinton-township-mi/water-cleanup/"
-   ],
-   "service_tags": [
-    "water-cleanup",
-    "water-damage-restoration",
-    "sewage-cleanup"
-   ],
-   "city_anchor": "clinton-township-mi",
-   "external_authority_candidates": [
-    "https://www.michigan.gov/difs/consumers/disaster-prep/flood"
-   ],
-   "notes": "Decision-stage query with a Michigan PPC CPC over $200, so the reader is close to hiring. Order of calls by situation: utility or electrician if water reaches outlets or the panel, plumber for an active supply leak, restoration company for extraction and drying, insurer (DIFS says report promptly and photograph before cleanup), municipality for a city sewer backup. Absorbs the banked 'should i call insurance or restoration company first' question as an H2."
-  },
-  {
-   "id": "2026-09-24-water-heater-in-flooded-basement-chesterfield",
-   "status": "queued",
-   "queued_at": "2026-09-24T20:45:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "water heater in flooded basement",
-   "intent": "informational",
-   "volume": 170,
-   "kd": 0,
-   "fan_out_cluster": [
-    "basement flooded hot water heater",
-    "is flood water in my basement dangerous",
-    "sump pump not working basement flooded",
-    "what damage can a flood cause"
-   ],
-   "suggested_slug": "water-heater-in-flooded-basement-chesterfield",
-   "suggested_title": "Water heater in a flooded basement: is it safe to use? (Chesterfield, MI)",
-   "target_word_count": 1200,
-   "internal_link_targets": [
-    "/services/water-cleanup/",
-    "/services/water-damage-restoration/",
-    "/service-areas/chesterfield-mi/water-cleanup/"
-   ],
-   "service_tags": [
-    "water-cleanup",
-    "water-damage-restoration"
-   ],
-   "city_anchor": "chesterfield-mi",
-   "external_authority_candidates": [
-    "https://www.michigan.gov/mdhhs/inside-mdhhs/newsroom/2023/08/25/flood-information"
-   ],
-   "notes": "Most Macomb County homes keep the gas water heater and furnace in the basement, so this safety question follows almost every basement flood. Core message: if water reached the burner, controls, or gas valve, do not relight it; shut gas and power and have a licensed plumber or HVAC tech inspect or replace. Include carbon monoxide warnings (never run generators or fuel equipment indoors). Stay inside restoration scope: we do extraction and drying, the appliance call goes to a licensed tech."
-  }
- ]
+  ]
 }
