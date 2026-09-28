@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+asbestos testing,transactional,27100,16,10.27,2,asbestos abatement,,,false
+asbestos removal,transactional,14800,32,14.84,2,asbestos abatement,,,false
+asbestos inspection,transactional,12100,,20.19,2,asbestos abatement,,,false
+asbestos abatement,transactional,8100,28,18.07,2,asbestos abatement,,,false
+asbestos testing near me,transactional,5400,,10.39,2,asbestos abatement,,,false
+asbestos abatement company,transactional,5400,,15.13,2,asbestos abatement,,,false
+asbestos removal near me,transactional,3600,,11.33,2,asbestos abatement,,,false
+professional asbestos removal,transactional,3600,11,11.18,2,asbestos abatement,,,false
+asbestos abatement near me,transactional,2900,7,15.95,2,asbestos abatement,,,false
+asbestos floor tiles removal,transactional,1900,,10.79,2,asbestos abatement,,,false
+asbestos siding removal,transactional,1900,,13.75,2,asbestos abatement,,,false
+asbestos inspection near me,transactional,1600,,24.32,2,asbestos abatement,,,false
+asbestos removal company,transactional,1600,3,17.08,2,asbestos abatement,,,false
+asbestos encapsulation,transactional,1600,,4.15,2,asbestos abatement,,,false
+asbestos popcorn ceiling removal,transactional,720,1,13.13,2,asbestos abatement,,,false
+asbestos removal cost,commercial,2400,,9.87,2,asbestos abatement,,,false
+asbestos remediation cost,commercial,2400,,9.87,2,asbestos abatement,,,false
+asbestos abatement cost,commercial,1000,,6.9,2,asbestos abatement,,,false
+how much does asbestos removal cost,commercial,1000,,6.72,2,asbestos abatement,,,false
+how much does asbestos testing cost,commercial,590,,7.38,2,asbestos abatement,,,false
+what does asbestos look like,informational,14800,17,2.39,2,asbestos abatement,,,false
+popcorn ceiling asbestos test,informational,14800,,4.85,2,asbestos abatement,,,false
+asbestos insulation,informational,12100,18,26.5,2,asbestos abatement,,,false
+asbestos siding,informational,8100,1,1.95,2,asbestos abatement,,,false
+asbestos ceiling tiles,informational,5400,,4.51,2,asbestos abatement,,,false
+how to test for asbestos,informational,3600,5,3.63,2,asbestos abatement,,,false
+asbestos floor tiles,informational,3600,,1.11,2,asbestos abatement,,,false
+asbestos in drywall,informational,2400,,15.5,2,asbestos abatement,,,false
+does popcorn ceiling have asbestos,informational,1900,3,3.85,2,asbestos abatement,,,false
+testing insulation for asbestos,informational,1900,,8.22,2,asbestos abatement,,,false
+how to tell if popcorn ceiling has asbestos,informational,1000,7,4.66,2,asbestos abatement,,,false
+how long does asbestos testing take,informational,320,,5.48,2,asbestos abatement,,,false
+how long does asbestos removal take,informational,210,,7.97,2,asbestos abatement,,,false
+how long does asbestos abatement take,informational,210,,7.97,2,asbestos abatement,,,false
+does homeowners insurance cover asbestos removal,informational,210,,6.5,2,asbestos abatement,,,false
+what year did they stop using asbestos in homes,informational,210,12,0.02,2,asbestos abatement,,,false
+does insurance cover asbestos removal,informational,170,,10.04,2,asbestos abatement,,,false
+is it safe to live in a house with asbestos,informational,140,21,,2,asbestos abatement,,,false
+can i remove asbestos myself,informational,90,19,,2,asbestos abatement,,,false
+how to tell if floor tiles are asbestos,informational,90,,0.01,2,asbestos abatement,,,false
