@@ -1,0 +1,40 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+emergency roof repair,transactional,8100,,43.29,2,emergency tarping,,,false
+roof tarping,transactional,5400,1,4.65,2,emergency tarping,,,false
+emergency roof tarp,transactional,880,,34.52,2,emergency tarping,,,false
+roof tarping near me,transactional,320,,38.26,2,emergency tarping,,,false
+roof tarp near me,transactional,320,,38.26,2,emergency tarping,,,false
+roof tarp service,transactional,260,,37.48,2,emergency tarping,,,false
+roof tarping service,transactional,210,,44.77,2,emergency tarping,,,false
+temporary roof repair,transactional,210,,14.14,2,emergency tarping,,,false
+roof shrink wrap,transactional,210,,8.62,2,emergency tarping,,,false
+emergency roof tarping near me,transactional,140,,51.68,2,emergency tarping,,,false
+emergency tarping,transactional,140,,19.8,2,emergency tarping,,,false
+emergency roof tarp service,transactional,140,,8.0,2,emergency tarping,,,false
+roof tarping service near me,transactional,90,,28.7,2,emergency tarping,,,false
+roof tarp installation,transactional,70,,23.5,2,emergency tarping,,,false
+emergency roof tarp service near me,transactional,50,,49.35,2,emergency tarping,,,false
+emergency tarping services,transactional,50,,58.71,2,emergency tarping,,,false
+tarp services near me,transactional,40,,30.14,2,emergency tarping,,,false
+tarping companies near me,transactional,30,,88.45,2,emergency tarping,,,false
+roof tarp installation near me,transactional,30,,37.65,2,emergency tarping,,,false
+roof tarping company,transactional,30,,12.02,2,emergency tarping,,,false
+temporary roof cover,commercial,320,,1.02,2,emergency tarping,,,false
+roof tarping cost,commercial,110,3,10.86,2,emergency tarping,,,false
+temporary roof tarp,commercial,70,9,3.65,2,emergency tarping,,,false
+how much does it cost to tarp a roof,commercial,70,,11.44,2,emergency tarping,,,false
+emergency roof tarping cost,commercial,50,,23.94,2,emergency tarping,,,false
+how to tarp a roof,informational,880,,4.02,2,emergency tarping,,,false
+how to tarp a roof leak,informational,480,,11.62,2,emergency tarping,,,false
+how to secure a tarp on a roof,informational,390,,1.45,2,emergency tarping,,,false
+how to put a tarp on a roof without nails,informational,210,,2.98,2,emergency tarping,,,false
+operation blue roof,informational,140,,13.43,2,emergency tarping,,,false
+tree fell on house what to do,informational,110,,13.93,2,emergency tarping,,,false
+how to tarp a flat roof,informational,90,,0.35,2,emergency tarping,,,false
+how much does insurance pay to tarp a roof,informational,20,,6.05,2,emergency tarping,,,false
+does homeowners insurance cover emergency roof tarping,informational,,,,2,emergency tarping,,,false
+should i take photos of roof damage before tarping,informational,,,,2,emergency tarping,,,false
+should i wait for the insurance adjuster before tarping my roof,informational,,,,2,emergency tarping,,,false
+is a roof tarp a permanent repair,informational,,,,2,emergency tarping,,,false
+who qualifies for fema operation blue roof,informational,,,,2,emergency tarping,,,false
+how to avoid storm chaser contractors after a roof is damaged,informational,,,,2,emergency tarping,,,false
