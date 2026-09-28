@@ -1,6 +1,71 @@
 {
   "items": [
     {
+      "id": "2026-09-28-mold-remediation-chicago-il",
+      "status": "queued",
+      "queued_at": "2026-09-28T09:27:46Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "mold-remediation-chicago-il",
+      "primary_keyword": "mold remediation Chicago IL",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "chicago-il",
+      "source": "app target-term (dev-agent-gameplan)"
+    },
+    {
+      "id": "2026-09-28-fire-and-smoke-damage-restoration-chicago-il",
+      "status": "queued",
+      "queued_at": "2026-09-28T09:27:46Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "fire-and-smoke-damage-restoration-chicago-il",
+      "primary_keyword": "fire and smoke damage restoration Chicago IL",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "chicago-il",
+      "source": "app target-term (dev-agent-gameplan)"
+    },
+    {
+      "id": "2026-09-28-basement-flooding-cleanup-chicago-il",
+      "status": "queued",
+      "queued_at": "2026-09-28T09:27:46Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "basement-flooding-cleanup-chicago-il",
+      "primary_keyword": "basement flooding cleanup Chicago IL",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "chicago-il",
+      "source": "app target-term (dev-agent-gameplan)"
+    },
+    {
+      "id": "2026-09-28-burst-pipe-cleanup-winter-chicago-il",
+      "status": "queued",
+      "queued_at": "2026-09-28T09:27:46Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "burst-pipe-cleanup-winter-chicago-il",
+      "primary_keyword": "burst pipe cleanup winter Chicago IL",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "chicago-il",
+      "source": "app target-term (dev-agent-gameplan)"
+    },
+    {
+      "id": "2026-09-28-water-damage-restoration-cost-chicago-il",
+      "status": "queued",
+      "queued_at": "2026-09-28T09:27:46Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "water-damage-restoration-cost-chicago-il",
+      "primary_keyword": "water damage restoration cost Chicago IL",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "chicago-il",
+      "source": "app target-term (dev-agent-gameplan)"
+    },
+    {
       "id": "2026-09-24-water-damage-restoration-cost-il",
       "status": "queued",
       "queued_at": "2026-09-24T15:28:56Z",
