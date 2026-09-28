@@ -1,6 +1,6 @@
 # Expansion System: multiple Google Business Profiles per client
 
-Owner: Santino. Started 2026-09-27. Status: **scouting built, outreach + profile creation next.**
+Owner: Santino. Started 2026-09-27. Status: **scouting + GBP planner built, outreach next.**
 Related build-queue items: `docs/IMPLEMENTATION-QUEUE.md` #21 (office scout, GBP planner) and #22 (this system).
 
 ## Why
@@ -26,11 +26,36 @@ The goal is **digital real estate**: most restoration jobs come from Google (map
 | 5 | **Name + DBA:** client files "{Brand} of {City}" | Monica asks; DBA intake already exists | Existing flow |
 | 6 | **Identity per location:** own email alias, own local Twilio number, own page on the client's site | alias routing + Twilio + site build | TO BUILD (pieces exist) |
 | 7 | **Staging kit:** branded sign, equipment, video-verification script | checklist in the app | TO BUILD |
-| 8 | **Create + verify the GBP** (new name applied before verification) | GBP Profile Planner (queue #21) | NEXT BUILD |
+| 8 | **Create + verify the GBP** (new name applied before verification) | GBP Profile Planner: app Locations > Profile + edge fn `gbp-planner` (see below) | BUILT 09-27 (branch `feat/gbp-planner`, awaiting merge) |
 | 9 | **Citations** under the location's DBA | `brightlocal.py` ladder + Mini lanes | BUILT (per client; per-location variant TO BUILD) |
 | 10 | **Reviews** routed per location (customers served from that town review that profile) | review reactivation + ongoing review campaigns | EXISTING (routing TO BUILD) |
 
 **Contacts (built 2026-09-28):** Google Maps options get the Maps phone plus an email from the business's own site (homepage, /contact, /contact-us, /about). CRE listings (LoopNet, Crexi, CityFeet, Showcase, CommercialCafe) block every fetcher, DataForSEO OnPage included (tested: 403 / empty), so the broker comes from Google snippets ("Contact Colliers for more information", CityFeet broker names) plus the brokerage's own property page (vCard / agent block), then one SERP on the broker's name for phone/email. Craigslist records the post as a relay link only. Twilio Lookup sets mobile/landline/voip; the app shows a Text link only for mobiles. Never invented: blank means not found. ProRestoration run (33 options): 18 phone, 10 email, 8 named broker; contacts pass $0.22 (SERP $0.09 + Twilio $0.13), whole run $0.64.
+
+## GBP Profile Planner (step 8, built 2026-09-27)
+
+**Where:** app, Marketing > Locations > Profile, "Google Business Profile Planner" card (Restoration-AI-APP branch `feat/gbp-planner`, `components/GbpPlannerCard.tsx`). Superadmins edit and act; clients see the read-only mock. Backend: edge function `gbp-planner` (deployed, superadmin-gated).
+
+**What it is:** a mock Google Business Profile of exactly what we will create, or what an existing UNVERIFIED profile becomes, then one button that writes it. The keyword name from the rename strategy goes on BEFORE verification (Google reviews the name at verification; a later rename can trigger a re-review).
+
+**Single source of truth:** `companies.integration_settings.gbp_plan` = {title, primary_category, additional_categories, description, services, service_areas, regular_hours, phone, website_url, address, hide_address, photos, status (draft/ready/created/verifying/verified/failed), google_location, last_error, updated_at} plus `current` (snapshot of the live profile), `check`, `last_validation`, `verification`, `sources`, `edited`.
+
+**Auto-draft (never asks for data we hold):** name = chosen rename (`marketing_gbp_suggestions` item_type=name status=chosen, else a non-caps `rename_intent.dba_name`); primary category = the existing profile's, else Water damage restoration service; additional = declared services mapped to real category ids (fire, building restoration, sewage) + optimizer category suggestions, validated with `categories:batchGet`; services = company services + existing profile + optimizer service suggestions; areas = `site_brief.cities` + existing profile areas (cap 20); hours = existing profile, else 24/7; phone = company phone (real line); website = live Rank AI site; description = open optimizer suggestion, else drafted from badges/credentials/services/cities (<=750, no em dashes); photos = latest logo + job photos from the `branding` bucket. Human edits (`edited`) survive "Refresh draft".
+
+**Gates (server-enforced on the real write, shown as a checklist):** client confirmed the name; planned name = confirmed name; DBA filed; no other profile (duplicate check); existing target is unverified (update mode) or the client's own Google grant is connected (create mode); required fields; service areas matched to Google place IDs; text rules (description <= 750, name <= 90, no em/en dashes).
+
+**How to use:**
+1. Open the client's Locations > Profile. "Draft the profile" (or "Refresh draft").
+2. "Duplicate check": scans every connected Google grant's Business Profile accounts plus Maps (`googleLocations:search`) by phone, website and brand name. A single unverified match is ADOPTED, the button becomes "Update & verify" and the card shows CURRENT vs PLANNED. Other matches are listed (with Request access for Maps listings) and block the write.
+3. Edit if needed (name, categories via Google's taxonomy search, description, phone, website, hours, areas, services, address/hide, photos). Save.
+4. If "Service areas matched to Google places" fails: `python3 scripts/gbp_planner_areas.py --slug X` (fills the shared ops_kv `geocode-place-ids` cache), then Refresh draft. Google rejects name-only areas.
+5. "Validate with Google (writes nothing)": `validateOnly=true` create/patch; Google's answer is shown.
+6. "Create Listing" / "Update & verify" (locked until every gate passes; confirm dialog). Create uses the client's own OAuth grant so the client owns the profile; update uses whichever grant can read the location (Veterans lives in Santino's account).
+7. Verification: "Verification options" -> start SMS / call / email -> enter the code -> "Refresh status". Verify refuses to start until the live name equals the planned name.
+
+**Test run 2026-09-27 (validateOnly only, nothing written):** Veterans (`locations/11814819342496578403`, Santino's account) and Dry Bros (`locations/8755232768131418210`, Amin's account) were both adopted as updates; all gates pass; Google accepted both patches (HTTP 200: Veterans 53 service items / 11 areas, Dry Bros 67 / 17). A CREATE preview for Dry Bros in Amin's account also validated 200. `fetchVerificationOptions` returned `[{}]` for both: no method the API can start, which in practice means video verification in the Business Profile / Maps app (the planner then only tracks status).
+
+**Not in v1:** photos are shown in the mock but not uploaded by the planner (Google media on unverified profiles is untested; use the photo/cover pipeline after verification).
 
 ## Decisions (Santino 2026-09-27)
 
