@@ -13,7 +13,7 @@
     "url_count": 268,
     "generated_at": "2026-09-21T19:18:25.835656+00:00"
   },
-  "updated_at": "2026-09-24T15:23:37.218946+00:00",
+  "updated_at": "2026-09-28T02:44:40.477820+00:00",
   "indexnow_key": "8026e963116042a2a25b9ac9c28dcd0e",
   "build": {
     "scaffolded_at": "2026-09-23T05:11:20.346614+00:00",
@@ -24,9 +24,9 @@
     "pages_status": "exists",
     "last_rendered_at": "2026-09-25T15:39:11.980341+00:00",
     "last_pushed_staging_at": "2026-09-23T05:11:09.868973+00:00",
-    "last_pushed_main_at": "2026-09-24T15:23:37.218928+00:00"
+    "last_pushed_main_at": "2026-09-28T02:44:40.477802+00:00"
   },
-  "build_status": "content_rendered",
+  "build_status": "pushed_main",
   "cutover_prep": {
     "domain": "fixofutah.com",
     "harvested_at": "2026-09-18T18:27:53+00:00",
