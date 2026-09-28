@@ -14,6 +14,9 @@ const count = String(brand.gbpReviewCount || "");
 const hasRating = rating !== "" && count !== "";
 const stars = hasRating ? Math.min(5, Math.round(parseFloat(rating))) : 0;
 const snippets = (brand.gbpReviews || []).slice(0, 3);
+// Rob 2026-09-28 / 09-15 call: hide the review COUNT until it hits triple
+// digits; rating + stars stand alone below 100.
+const showCount = Number(count) >= 100;
 // cid FIRST (2026-09-19, ACS "this link is dead"): hidden-address SABs
 // often don't resolve through the placeid reviews viewer; maps?cid= is the
 // mapsUri Google itself hands back in GBP metadata and always lands.
@@ -34,7 +37,7 @@ const reviewsUrl = brand.googleCid
           ))}
         </div>
         <p class="text-2xl md:text-3xl font-black uppercase tracking-tighter text-white m-0">
-          ★ {rating} rating · {count} Google reviews
+          ★ {rating} rating{showCount ? ` · ${count} Google reviews` : " on Google"}
         </p>
         {reviewsUrl && (
           <a

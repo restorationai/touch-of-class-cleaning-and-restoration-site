@@ -32,6 +32,8 @@ const directionsHref = `https://www.google.com/maps/dir/?api=1&destination=${enc
 
 const clean = (v: string) => v && !v.includes("{{") ? v : "";
 const hasRating = clean(brand.gbpRatingValue) && clean(brand.gbpReviewCount);
+// Rob 2026-09-28 / 09-15 call: hide the review COUNT until triple digits.
+const showCount = Number(brand.gbpReviewCount) >= 100;
 const hoursText = clean(brand.hours);
 ---
 
@@ -52,7 +54,7 @@ const hoursText = clean(brand.hours);
           <div class="flex items-center gap-2 mt-3 text-sm">
             <span class="text-amber-500 tracking-tight">★★★★★</span>
             <span class="font-black text-slate-900">{brand.gbpRatingValue}</span>
-            <span class="text-slate-400">· {brand.gbpReviewCount} Google reviews</span>
+            <span class="text-slate-400">{showCount ? `· ${brand.gbpReviewCount} Google reviews` : "on Google"}</span>
           </div>
         )}
 

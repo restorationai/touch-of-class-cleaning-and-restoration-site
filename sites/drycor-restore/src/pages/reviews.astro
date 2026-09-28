@@ -11,13 +11,15 @@ import { Star, ExternalLink } from "@lucide/astro";
 const rating = String(brand.gbpRatingValue || "");
 const count = String(brand.gbpReviewCount || "");
 const hasSynced = rating !== "" && count !== "";
+// Rob 2026-09-28 / 09-15 call: review COUNT hidden until triple digits.
+const showCount = Number(count) >= 100;
 const mapsUrl = brand.placeId
   ? `https://www.google.com/maps/place/?q=place_id:${brand.placeId}`
   : (Array.isArray(brand.sameAsUrls) ? brand.sameAsUrls.find((u: string) => u.includes("google.com/maps")) : "") || "";
 
 const title = `Reviews | ${brand.displayName}`;
 const meta = hasSynced
-  ? `${brand.displayName} holds a ${rating}-star Google rating across ${count} reviews. Read what customers say about the work.`
+  ? `${brand.displayName} holds a ${rating}-star Google rating${showCount ? ` across ${count} reviews` : ""}. Read what customers say about the work.`
   : `Read customer reviews of ${brand.displayName} on Google.`;
 ---
 
@@ -28,7 +30,7 @@ const meta = hasSynced
       {hasSynced ? (
         <p class="text-lg opacity-80 mt-4 flex items-center gap-2">
           <Star size={20} class="shrink-0" />
-          <span><strong>{rating}</strong> stars across <strong>{count}</strong> Google reviews — pulled directly from our Google Business Profile.</span>
+          <span><strong>{rating}</strong> stars {showCount ? <>across <strong>{count}</strong> Google reviews </> : "on Google "}— pulled directly from our Google Business Profile.</span>
         </p>
       ) : (
         <p class="text-lg opacity-80 mt-4">

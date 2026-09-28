@@ -16,9 +16,11 @@ const count = String(brand.gbpReviewCount || "");
 const hasRating = rating !== "" && count !== "";
 const reviews = brand.gbpReviews || [];
 const review = hasRating && reviews.length > 0 ? reviews[cityHash(city) % reviews.length] : undefined;
+// Rob 2026-09-28 / 09-15 call: hide the review COUNT until triple digits.
+const ratingTail = Number(count) >= 100 ? `★ ${rating} · ${count} Google reviews` : `★ ${rating} on Google`;
 const heading = isHqCity(city)
-  ? `Headquartered right here in ${city} — ★ ${rating} · ${count} Google reviews`
-  : `Serving ${city} from our ${brand.primaryCity} headquarters — ★ ${rating} · ${count} Google reviews`;
+  ? `Headquartered right here in ${city} — ${ratingTail}`
+  : `Serving ${city} from our ${brand.primaryCity} headquarters — ${ratingTail}`;
 const reviewsUrl = brand.placeId
   ? `https://search.google.com/local/reviews?placeid=${brand.placeId}`
   : brand.googleCid
