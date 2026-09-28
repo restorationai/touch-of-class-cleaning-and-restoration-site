@@ -1,6 +1,6 @@
 {
   "slug": "rt-olson-plumbing-heating-and-air-conditioning",
-  "checked_at": "2026-09-27T18:58:39.581973+00:00",
+  "checked_at": "2026-09-28T03:43:00.592760+00:00",
   "canonical": {
     "name": "RT Olson Plumbing, Heating and Air Conditioning",
     "phone": "(951) 344-5596",
@@ -15,8 +15,13 @@
       "platform": "google-maps",
       "url": null,
       "source": "dataforseo maps live",
-      "status": "error",
-      "notes": "maps lookup failed: No Search Results."
+      "status": "ok",
+      "found_name": "RT Olson Plumbing, Heating and Air Conditioning",
+      "found_phone": "(951) 647-5356",
+      "found_address": "9064 Pulsar Ct Ste J, Corona, CA 92883",
+      "name_match": true,
+      "phone_match": false,
+      "address_match": true
     },
     {
       "platform": "gbp-profile",
@@ -59,6 +64,12 @@
   ],
   "duplicates": [],
   "mismatches": [
+    {
+      "kind": "phone",
+      "platform": "google-maps",
+      "target": "google-maps",
+      "title": "Fix wrong phone number on google-maps"
+    },
     {
       "kind": "phone",
       "platform": "gbp-profile",
