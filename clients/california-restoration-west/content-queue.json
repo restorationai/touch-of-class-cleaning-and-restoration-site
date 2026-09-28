@@ -1,616 +1,617 @@
 {
- "items": [
-  {
-   "id": "2026-09-28-who-to-call-for-mold-remediation-in-ventura-ca",
-   "status": "queued",
-   "queued_at": "2026-09-28T21:55:14Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "who_to_call",
-   "combo_key": "who-to-call-for-mold-remediation-in-ventura-ca",
-   "primary_keyword": "who to call for mold remediation in Ventura, CA",
-   "intent": "transactional",
-   "target_word_count": 1200,
-   "city_anchor": "ventura-ca",
-   "best_of": {
-    "service": "mold-remediation",
-    "service_pretty": "Mold Remediation",
-    "city": "Ventura",
-    "state": "CA",
-    "competitors": []
-   },
-   "fan_out_cluster": [
-    "who do you call for mold remediation Ventura",
-    "who do I call for mold remediation in Ventura",
-    "mold remediation emergency number Ventura CA",
-    "mold removal Ventura",
-    "mold cleanup Ventura",
-    "black mold removal Ventura"
-   ],
-   "source": "best-of-seeder"
-  },
-  {
-   "id": "2026-09-14-water-damage-restoration-cost-ca",
-   "status": "written",
-   "queued_at": "2026-09-14T20:20:03Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "cost_guide",
-   "combo_key": "water-damage-restoration-cost-ca",
-   "primary_keyword": "water damage restoration cost CA",
-   "intent": "transactional",
-   "target_word_count": 1500,
-   "city_anchor": "ventura-ca",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Ventura",
-    "state": "CA",
-    "competitors": []
-   },
-   "fan_out_cluster": [
-    "how much does water damage restoration cost in CA",
-    "water damage restoration price CA",
-    "average cost of water damage restoration CA",
-    "water damage cleanup CA",
-    "water cleanup CA",
-    "water removal CA"
-   ],
-   "source": "best-of-seeder",
-   "written_at": "2026-09-15T10:29:59Z",
-   "post_url": "https://californiarestorationwest.com/blog/water-damage-restoration-cost-ca/"
-  },
-  {
-   "id": "2026-09-06-contents-restoration-storage",
-   "status": "published",
-   "queued_at": "2026-09-06T10:23:57Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "contents-restoration-storage",
-   "primary_keyword": "Contents Restoration & Storage",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "ojai-ca",
-   "source": "app target-term (onboarding-backfill)",
-   "written_at": "2026-09-24T15:30:44Z",
-   "post_url": "https://californiarestorationwest.com/blog/contents-restoration-storage/",
-   "published_verified_at": "2026-09-24T15:34:42Z"
-  },
-  {
-   "id": "2026-09-06-odor-control-deodorization",
-   "status": "queued",
-   "queued_at": "2026-09-06T10:23:57Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "odor-control-deodorization",
-   "primary_keyword": "Odor Control & Deodorization",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "fillmore-ca",
-   "source": "app target-term (onboarding-backfill)"
-  },
-  {
-   "id": "2026-09-06-storm-wind-damage-restoration",
-   "status": "queued",
-   "queued_at": "2026-09-06T10:23:57Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "storm-wind-damage-restoration",
-   "primary_keyword": "Storm & Wind Damage Restoration",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "camarillo-ca",
-   "source": "app target-term (onboarding-backfill)"
-  },
-  {
-   "id": "2026-08-26-best-water-damage-restoration-in-ventura-ca",
-   "status": "written",
-   "queued_at": "2026-08-26T13:57:55Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "best_of_comparison",
-   "combo_key": "best-water-damage-restoration-in-ventura-ca",
-   "primary_keyword": "best water damage restoration company in Ventura, CA",
-   "intent": "commercial",
-   "target_word_count": 1600,
-   "city_anchor": "ventura-ca",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Ventura",
-    "state": "CA",
-    "competitors": [
-     {
-      "name": "SERVPRO of Ventura",
-      "google_rating": 4.9,
-      "review_count": 63
-     },
-     {
-      "name": "Water Damage Services",
-      "google_rating": 4.7,
-      "review_count": 59
-     },
-     {
-      "name": "Ventura\u2019s 24 Hr Flood Cleanup",
-      "google_rating": 5,
-      "review_count": 3
-     },
-     {
-      "name": "SERVPRO of Northwest Ventura County",
-      "google_rating": 4.9,
-      "review_count": 74
-     }
-    ]
-   },
-   "fan_out_cluster": [
-    "best water damage restoration companies Ventura",
-    "top rated water damage restoration Ventura CA",
-    "who is the best water damage restoration company in Ventura",
-    "water damage cleanup Ventura",
-    "water cleanup Ventura",
-    "water removal Ventura"
-   ],
-   "source": "best-of-seeder",
-   "written_at": "2026-08-26T14:06:42Z",
-   "post_url": "https://californiarestorationwest.com/blog/best-water-damage-restoration-company-in-ventura-ca/",
-   "claims_flags": [
+  "items": [
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-ventura-ca.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "74 reviews",
-     "context": "y holds a 4.9-star Google rating across 74 reviews, the largest verified review base on th",
-     "reason": "claims 74 reviews but no synced gbpReviewCount exists for this site"
+      "id": "2026-09-28-who-to-call-for-mold-remediation-in-ventura-ca",
+      "status": "queued",
+      "queued_at": "2026-09-28T21:55:14Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "who_to_call",
+      "combo_key": "who-to-call-for-mold-remediation-in-ventura-ca",
+      "primary_keyword": "who to call for mold remediation in Ventura, CA",
+      "intent": "transactional",
+      "target_word_count": 1200,
+      "city_anchor": "ventura-ca",
+      "best_of": {
+        "service": "mold-remediation",
+        "service_pretty": "Mold Remediation",
+        "city": "Ventura",
+        "state": "CA",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "who do you call for mold remediation Ventura",
+        "who do I call for mold remediation in Ventura",
+        "mold remediation emergency number Ventura CA",
+        "mold removal Ventura",
+        "mold cleanup Ventura",
+        "black mold removal Ventura"
+      ],
+      "source": "best-of-seeder"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-ventura-ca.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "63 reviews",
-     "context": "a holds a 4.9-star Google rating across 63 reviews. This is the Ventura-city franchise loc",
-     "reason": "claims 63 reviews but no synced gbpReviewCount exists for this site"
+      "id": "2026-09-14-water-damage-restoration-cost-ca",
+      "status": "written",
+      "queued_at": "2026-09-14T20:20:03Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "cost_guide",
+      "combo_key": "water-damage-restoration-cost-ca",
+      "primary_keyword": "water damage restoration cost CA",
+      "intent": "transactional",
+      "target_word_count": 1500,
+      "city_anchor": "ventura-ca",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Ventura",
+        "state": "CA",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "how much does water damage restoration cost in CA",
+        "water damage restoration price CA",
+        "average cost of water damage restoration CA",
+        "water damage cleanup CA",
+        "water cleanup CA",
+        "water removal CA"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-15T10:29:59Z",
+      "post_url": "https://californiarestorationwest.com/blog/water-damage-restoration-cost-ca/"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-ventura-ca.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "59 reviews",
-     "context": "s holds a 4.7-star Google rating across 59 reviews. The 4.7 average across a 59-review sam",
-     "reason": "claims 59 reviews but no synced gbpReviewCount exists for this site"
+      "id": "2026-09-06-contents-restoration-storage",
+      "status": "published",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "contents-restoration-storage",
+      "primary_keyword": "Contents Restoration & Storage",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "ojai-ca",
+      "source": "app target-term (onboarding-backfill)",
+      "written_at": "2026-09-24T15:30:44Z",
+      "post_url": "https://californiarestorationwest.com/blog/contents-restoration-storage/",
+      "published_verified_at": "2026-09-24T15:34:42Z"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-ventura-ca.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "3 reviews",
-     "context": "p holds a 5.0-star Google rating across 3 reviews. The perfect rating is a positive early",
-     "reason": "claims 3 reviews but no synced gbpReviewCount exists for this site"
+      "id": "2026-09-06-odor-control-deodorization",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "odor-control-deodorization",
+      "primary_keyword": "Odor Control & Deodorization",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "fillmore-ca",
+      "source": "app target-term (onboarding-backfill)"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-ventura-ca.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "3 reviews",
-     "context": "rating is a positive early signal, but 3 reviews is too small a sample to draw firm conc",
-     "reason": "claims 3 reviews but no synced gbpReviewCount exists for this site"
+      "id": "2026-09-06-storm-wind-damage-restoration",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "storm-wind-damage-restoration",
+      "primary_keyword": "Storm & Wind Damage Restoration",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "camarillo-ca",
+      "source": "app target-term (onboarding-backfill)"
+    },
+    {
+      "id": "2026-08-26-best-water-damage-restoration-in-ventura-ca",
+      "status": "written",
+      "queued_at": "2026-08-26T13:57:55Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-water-damage-restoration-in-ventura-ca",
+      "primary_keyword": "best water damage restoration company in Ventura, CA",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "ventura-ca",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Ventura",
+        "state": "CA",
+        "competitors": [
+          {
+            "name": "SERVPRO of Ventura",
+            "google_rating": 4.9,
+            "review_count": 63
+          },
+          {
+            "name": "Water Damage Services",
+            "google_rating": 4.7,
+            "review_count": 59
+          },
+          {
+            "name": "Ventura\u2019s 24 Hr Flood Cleanup",
+            "google_rating": 5,
+            "review_count": 3
+          },
+          {
+            "name": "SERVPRO of Northwest Ventura County",
+            "google_rating": 4.9,
+            "review_count": 74
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best water damage restoration companies Ventura",
+        "top rated water damage restoration Ventura CA",
+        "who is the best water damage restoration company in Ventura",
+        "water damage cleanup Ventura",
+        "water cleanup Ventura",
+        "water removal Ventura"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-08-26T14:06:42Z",
+      "post_url": "https://californiarestorationwest.com/blog/best-water-damage-restoration-company-in-ventura-ca/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-ventura-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "74 reviews",
+          "context": "y holds a 4.9-star Google rating across 74 reviews, the largest verified review base on th",
+          "reason": "claims 74 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-ventura-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "63 reviews",
+          "context": "a holds a 4.9-star Google rating across 63 reviews. This is the Ventura-city franchise loc",
+          "reason": "claims 63 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-ventura-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "59 reviews",
+          "context": "s holds a 4.7-star Google rating across 59 reviews. The 4.7 average across a 59-review sam",
+          "reason": "claims 59 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-ventura-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "3 reviews",
+          "context": "p holds a 5.0-star Google rating across 3 reviews. The perfect rating is a positive early",
+          "reason": "claims 3 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-ventura-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "3 reviews",
+          "context": "rating is a positive early signal, but 3 reviews is too small a sample to draw firm conc",
+          "reason": "claims 3 reviews but no synced gbpReviewCount exists for this site"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-26-water-damage-restoration-cost",
+      "status": "written",
+      "queued_at": "2026-08-26T14:05:00Z",
+      "written_at": "2026-08-31T22:24:36Z",
+      "post_url": "https://californiarestorationwest.com/blog/water-damage-restoration-cost/",
+      "primary_keyword": "water damage restoration cost",
+      "intent": "commercial",
+      "volume": 880,
+      "kd": 3,
+      "fan_out_cluster": [
+        "how much does water damage restoration cost",
+        "water damage restoration cost ventura",
+        "water damage restoration prices",
+        "average cost of water damage restoration per square foot",
+        "does insurance pay the water damage restoration bill",
+        "what drives water damage restoration cost up"
+      ],
+      "suggested_slug": "water-damage-restoration-cost",
+      "suggested_title": "Water damage restoration cost: what Ventura County homeowners actually pay",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/services/mold-remediation/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Highest-volume uncovered term in the seed family (880/mo, KD 3) and no page targets cost. Break pricing out by category 1/2/3 and by affected area, not a single number. Use Ventura County framing (coastal humidity extends dry time and cost) and fold the city cost variant in as an H2. Do not publish a fixed price: give ranges plus the variables.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-26-commercial-water-damage-restoration",
+      "status": "written",
+      "queued_at": "2026-08-26T14:05:00Z",
+      "written_at": "2026-09-03T19:52:44Z",
+      "post_url": "https://californiarestorationwest.com/blog/commercial-water-damage-restoration/",
+      "primary_keyword": "commercial water damage restoration",
+      "intent": "transactional",
+      "volume": 590,
+      "kd": 15,
+      "fan_out_cluster": [
+        "commercial water damage restoration near me",
+        "commercial water damage cleanup",
+        "office water damage restoration",
+        "water damage restoration for apartment buildings",
+        "business interruption after water damage",
+        "commercial water damage restoration ventura"
+      ],
+      "suggested_slug": "commercial-water-damage-restoration",
+      "suggested_title": "Commercial water damage restoration: how businesses limit downtime after a loss",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/contents-restoration/",
+        "/service-areas/oxnard-ca/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "contents-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.osha.gov/flood/cleanup"
+      ],
+      "notes": "590/mo, KD 15, zero coverage: every service page is written residential. Oxnard and Camarillo have real commercial and agricultural property stock, so anchor examples there. Lead with downtime and business interruption, not drying science.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-26-residential-water-damage-restoration",
+      "status": "published",
+      "queued_at": "2026-08-26T14:05:00Z",
+      "written_at": "2026-09-18T12:20:48Z",
+      "post_url": "https://californiarestorationwest.com/blog/residential-water-damage-restoration/",
+      "primary_keyword": "residential water damage restoration",
+      "intent": "transactional",
+      "volume": 320,
+      "kd": 10,
+      "fan_out_cluster": [
+        "residential water damage restoration near me",
+        "home water damage restoration",
+        "house water damage restoration",
+        "water damage restoration for homeowners",
+        "what happens during residential water damage restoration",
+        "residential water damage restoration ventura"
+      ],
+      "suggested_slug": "residential-water-damage-restoration",
+      "suggested_title": "Residential water damage restoration: what happens in your home, step by step",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/service-areas/ventura-ca/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "320/mo, KD 10, uncovered. Companion piece to the commercial post: cross-link them so the pair captures the residential/commercial split the service pages collapse. Keep the tone calm, the reader is usually mid-emergency.",
+      "source": "keyword-researcher",
+      "published_verified_at": "2026-09-18T12:22:03Z"
+    },
+    {
+      "id": "2026-08-26-what-is-water-damage-restoration",
+      "status": "published",
+      "queued_at": "2026-08-26T14:05:00Z",
+      "written_at": "2026-09-20T14:26:31Z",
+      "post_url": "https://californiarestorationwest.com/blog/what-is-water-damage-restoration/",
+      "primary_keyword": "what is water damage restoration",
+      "intent": "informational",
+      "volume": 210,
+      "kd": 3,
+      "fan_out_cluster": [
+        "what does water damage restoration include",
+        "water damage restoration vs water mitigation",
+        "what is the water damage restoration process",
+        "how does the water damage restoration process work",
+        "what equipment do water damage restoration companies use",
+        "is water damage restoration the same as remediation"
+      ],
+      "suggested_slug": "what-is-water-damage-restoration",
+      "suggested_title": "What is water damage restoration (and how it differs from mitigation)",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/water-cleanup/",
+        "/blog/what-to-do-first-24-hours-water-damage/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "210/mo, KD 3, definitional query with no blog covering it. Prime AI-retrieval passage: answer the definition in the first 40 words, then expand. The mitigation vs restoration distinction is the differentiator competitors skip.",
+      "source": "keyword-researcher",
+      "published_verified_at": "2026-09-20T14:27:53Z"
+    },
+    {
+      "id": "2026-08-26-how-soon-does-mold-grow-after-water-damage",
+      "status": "published",
+      "queued_at": "2026-08-26T14:05:00Z",
+      "written_at": "2026-09-22T15:13:40Z",
+      "post_url": "https://californiarestorationwest.com/blog/how-soon-does-mold-grow-after-water-damage/",
+      "primary_keyword": "how soon does mold grow after water damage",
+      "intent": "informational",
+      "volume": 110,
+      "kd": 0,
+      "fan_out_cluster": [
+        "how long before mold grows after a leak",
+        "does water damage always cause mold",
+        "24 to 48 hour mold growth window",
+        "signs of mold after water damage",
+        "how to prevent mold after water damage",
+        "when to call mold remediation after a flood"
+      ],
+      "suggested_slug": "how-soon-does-mold-grow-after-water-damage",
+      "suggested_title": "How soon does mold grow after water damage? The 24 to 48 hour window",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/blog/signs-of-hidden-mold/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home",
+        "https://www.cdc.gov/mold/"
+      ],
+      "notes": "110/mo, KD 0. Bridges the client's two biggest planned services and is not covered by the hidden-mold or black-mold posts (those cover identification, not timeline). Ventura's coastal humidity is a genuine local angle: cite it, do not invent a local statistic.",
+      "source": "keyword-researcher",
+      "published_verified_at": "2026-09-22T15:16:04Z"
+    },
+    {
+      "id": "2026-09-14-mold-remediation-ventura",
+      "status": "banked",
+      "queued_at": "2026-09-14T00:00:00Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "mold-remediation-ventura",
+      "primary_keyword": "mold remediation ventura ca",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "ventura-ca",
+      "source": "dev-agent geo-target (gameplan-2026-09-4)",
+      "banked_at": "2026-09-24T22:24:15.031556+00:00"
+    },
+    {
+      "id": "2026-09-14-water-damage-restoration-ventura",
+      "status": "banked",
+      "queued_at": "2026-09-14T00:00:00Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "water-damage-restoration-ventura",
+      "primary_keyword": "water damage restoration ventura ca",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "ventura-ca",
+      "source": "dev-agent geo-target (gameplan-2026-09-4)",
+      "banked_at": "2026-09-24T22:24:15.031562+00:00"
+    },
+    {
+      "id": "2026-09-24-mold-remediation-cost",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "mold remediation cost",
+      "intent": "commercial",
+      "volume": 9900,
+      "kd": 3,
+      "fan_out_cluster": [
+        "mold remediation cost per square foot",
+        "whole-house mold remediation cost",
+        "how much does mold remediation cost in california",
+        "mold remediation cost ventura",
+        "hvac mold remediation cost",
+        "is mold remediation worth it"
+      ],
+      "suggested_slug": "mold-remediation-cost",
+      "suggested_title": "Mold remediation cost in Ventura: what homeowners actually pay in 2026",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/services/crawl-space-encapsulation/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "ventura-ca",
+      "external_authority_candidates": [
+        "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHLB/AQS/Pages/Frequently-Asked-Questions-about-Mold.aspx",
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+        "https://iicrc.org/s520/"
+      ],
+      "notes": "Highest-volume, lowest-KD money term in the family (9,900/mo, KD 3, CPC $20). Break cost down by square footage, containment level, and whether drywall/insulation removal and rebuild are included. Explain that the leak fix is a separate line item. No invented local price figures: use ranges with clear drivers.",
+      "source": "keyword-researcher seed=mold remediation"
+    },
+    {
+      "id": "2026-09-24-does-homeowners-insurance-cover-mold-remediation",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover mold remediation",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 17,
+      "fan_out_cluster": [
+        "who pays for mold remediation",
+        "is mold from a burst pipe covered by insurance",
+        "mold exclusions and sublimits in homeowners policies",
+        "documenting mold damage for an insurance claim",
+        "how long does mold remediation take"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-mold-remediation",
+      "suggested_title": "Does homeowners insurance cover mold remediation? Sudden leak vs. long-term moisture",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHLB/AQS/Pages/Frequently-Asked-Questions-about-Mold.aspx",
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+        "https://iicrc.org/s520/"
+      ],
+      "notes": "Decision-stage insurance query, high value 24-48 hours before hire. City anchor intentionally null (policy explainer). Center on the sudden-and-accidental vs. neglect distinction and common mold sublimits. Do not promise coverage outcomes. Cross-link the existing water damage insurance post.",
+      "source": "keyword-researcher seed=mold remediation"
+    },
+    {
+      "id": "2026-09-24-what-is-mold-remediation",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what is mold remediation",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 18,
+      "fan_out_cluster": [
+        "mold remediation process",
+        "what happens during mold remediation",
+        "black mold remediation process",
+        "mold remediation vs removal",
+        "epa mold remediation guidelines",
+        "how do i know if mold remediation was successful"
+      ],
+      "suggested_slug": "what-is-mold-remediation",
+      "suggested_title": "What is mold remediation? The step-by-step process for Oxnard homes",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/oxnard-ca/mold-remediation/",
+        "/services/odor-removal/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "odor-removal"
+      ],
+      "city_anchor": "oxnard-ca",
+      "external_authority_candidates": [
+        "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHLB/AQS/Pages/Frequently-Asked-Questions-about-Mold.aspx",
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+        "https://iicrc.org/s520/"
+      ],
+      "notes": "Absorbs the process cluster (mold remediation process 720/mo is folded in as H2s, not queued separately, to avoid cannibalization). Walk source control, containment, removal, HEPA cleaning, drying, verification. Use CDPH's completion criteria (moisture fixed, no visible mold, no mold odor) and note CDPH does not recognize a test that proves remediation succeeded. Coastal humidity angle for Oxnard.",
+      "source": "keyword-researcher seed=mold remediation"
+    },
+    {
+      "id": "2026-09-24-who-pays-for-mold-remediation",
+      "status": "banked",
+      "queued_at": "2026-09-24T21:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "who pays for mold remediation",
+      "intent": "informational",
+      "volume": 880,
+      "kd": 9,
+      "fan_out_cluster": [
+        "does homeowners insurance cover mold remediation",
+        "landlord responsibility for mold in california",
+        "who pays for mold remediation when buying a house",
+        "hoa responsibility for mold in a condo",
+        "when is mold remediation required"
+      ],
+      "suggested_slug": "who-pays-for-mold-remediation",
+      "suggested_title": "Who pays for mold remediation? Homeowners, landlords, tenants, and insurers in Thousand Oaks",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/thousand-oaks-ca/mold-remediation/",
+        "/services/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "thousand-oaks-ca",
+      "external_authority_candidates": [
+        "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHLB/AQS/Pages/Frequently-Asked-Questions-about-Mold.aspx",
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+        "https://iicrc.org/s520/"
+      ],
+      "notes": "Split by situation: owner-occupied with a covered loss, rental (California habitability rules; point readers to official state sources rather than giving legal advice), condo/HOA, and real estate transactions. Informational, not legal advice; say so plainly.",
+      "source": "keyword-researcher seed=mold remediation",
+      "banked_at": "2026-09-28T22:24:24.198094+00:00"
+    },
+    {
+      "id": "2026-09-24-how-long-does-mold-remediation-take",
+      "status": "banked",
+      "queued_at": "2026-09-24T21:30:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how long does mold remediation take",
+      "intent": "informational",
+      "volume": 720,
+      "kd": 0,
+      "fan_out_cluster": [
+        "can i stay in my house during mold remediation",
+        "how long does mold remediation take for a bathroom",
+        "how long after mold remediation can i return home",
+        "what happens during mold remediation",
+        "how do i know if mold remediation was successful"
+      ],
+      "suggested_slug": "how-long-does-mold-remediation-take",
+      "suggested_title": "How long does mold remediation take? A realistic timeline for Simi Valley homes",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/service-areas/simi-valley-ca/mold-remediation/",
+        "/services/contents-restoration/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "contents-restoration"
+      ],
+      "city_anchor": "simi-valley-ca",
+      "external_authority_candidates": [
+        "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHLB/AQS/Pages/Frequently-Asked-Questions-about-Mold.aspx",
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+        "https://iicrc.org/s520/"
+      ],
+      "notes": "KD 0 with 720/mo. Give phase-by-phase timeline (assessment, containment, removal, drying, clearance, rebuild) and what extends it (hidden growth, HVAC involvement, insurance approval). Cover whether a family can stay home during the work and when contents need to be moved out.",
+      "source": "keyword-researcher seed=mold remediation",
+      "banked_at": "2026-09-24T22:24:15.031565+00:00"
     }
-   ]
-  },
-  {
-   "id": "2026-08-26-water-damage-restoration-cost",
-   "status": "written",
-   "queued_at": "2026-08-26T14:05:00Z",
-   "written_at": "2026-08-31T22:24:36Z",
-   "post_url": "https://californiarestorationwest.com/blog/water-damage-restoration-cost/",
-   "primary_keyword": "water damage restoration cost",
-   "intent": "commercial",
-   "volume": 880,
-   "kd": 3,
-   "fan_out_cluster": [
-    "how much does water damage restoration cost",
-    "water damage restoration cost ventura",
-    "water damage restoration prices",
-    "average cost of water damage restoration per square foot",
-    "does insurance pay the water damage restoration bill",
-    "what drives water damage restoration cost up"
-   ],
-   "suggested_slug": "water-damage-restoration-cost",
-   "suggested_title": "Water damage restoration cost: what Ventura County homeowners actually pay",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/water-cleanup/",
-    "/services/mold-remediation/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "water-cleanup"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Highest-volume uncovered term in the seed family (880/mo, KD 3) and no page targets cost. Break pricing out by category 1/2/3 and by affected area, not a single number. Use Ventura County framing (coastal humidity extends dry time and cost) and fold the city cost variant in as an H2. Do not publish a fixed price: give ranges plus the variables.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-26-commercial-water-damage-restoration",
-   "status": "written",
-   "queued_at": "2026-08-26T14:05:00Z",
-   "written_at": "2026-09-03T19:52:44Z",
-   "post_url": "https://californiarestorationwest.com/blog/commercial-water-damage-restoration/",
-   "primary_keyword": "commercial water damage restoration",
-   "intent": "transactional",
-   "volume": 590,
-   "kd": 15,
-   "fan_out_cluster": [
-    "commercial water damage restoration near me",
-    "commercial water damage cleanup",
-    "office water damage restoration",
-    "water damage restoration for apartment buildings",
-    "business interruption after water damage",
-    "commercial water damage restoration ventura"
-   ],
-   "suggested_slug": "commercial-water-damage-restoration",
-   "suggested_title": "Commercial water damage restoration: how businesses limit downtime after a loss",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/contents-restoration/",
-    "/service-areas/oxnard-ca/water-damage-restoration/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "contents-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500",
-    "https://www.osha.gov/flood/cleanup"
-   ],
-   "notes": "590/mo, KD 15, zero coverage: every service page is written residential. Oxnard and Camarillo have real commercial and agricultural property stock, so anchor examples there. Lead with downtime and business interruption, not drying science.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-26-residential-water-damage-restoration",
-   "status": "published",
-   "queued_at": "2026-08-26T14:05:00Z",
-   "written_at": "2026-09-18T12:20:48Z",
-   "post_url": "https://californiarestorationwest.com/blog/residential-water-damage-restoration/",
-   "primary_keyword": "residential water damage restoration",
-   "intent": "transactional",
-   "volume": 320,
-   "kd": 10,
-   "fan_out_cluster": [
-    "residential water damage restoration near me",
-    "home water damage restoration",
-    "house water damage restoration",
-    "water damage restoration for homeowners",
-    "what happens during residential water damage restoration",
-    "residential water damage restoration ventura"
-   ],
-   "suggested_slug": "residential-water-damage-restoration",
-   "suggested_title": "Residential water damage restoration: what happens in your home, step by step",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/water-cleanup/",
-    "/service-areas/ventura-ca/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "water-cleanup"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "320/mo, KD 10, uncovered. Companion piece to the commercial post: cross-link them so the pair captures the residential/commercial split the service pages collapse. Keep the tone calm, the reader is usually mid-emergency.",
-   "source": "keyword-researcher",
-   "published_verified_at": "2026-09-18T12:22:03Z"
-  },
-  {
-   "id": "2026-08-26-what-is-water-damage-restoration",
-   "status": "published",
-   "queued_at": "2026-08-26T14:05:00Z",
-   "written_at": "2026-09-20T14:26:31Z",
-   "post_url": "https://californiarestorationwest.com/blog/what-is-water-damage-restoration/",
-   "primary_keyword": "what is water damage restoration",
-   "intent": "informational",
-   "volume": 210,
-   "kd": 3,
-   "fan_out_cluster": [
-    "what does water damage restoration include",
-    "water damage restoration vs water mitigation",
-    "what is the water damage restoration process",
-    "how does the water damage restoration process work",
-    "what equipment do water damage restoration companies use",
-    "is water damage restoration the same as remediation"
-   ],
-   "suggested_slug": "what-is-water-damage-restoration",
-   "suggested_title": "What is water damage restoration (and how it differs from mitigation)",
-   "target_word_count": 1300,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/water-cleanup/",
-    "/blog/what-to-do-first-24-hours-water-damage/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "water-cleanup"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "210/mo, KD 3, definitional query with no blog covering it. Prime AI-retrieval passage: answer the definition in the first 40 words, then expand. The mitigation vs restoration distinction is the differentiator competitors skip.",
-   "source": "keyword-researcher",
-   "published_verified_at": "2026-09-20T14:27:53Z"
-  },
-  {
-   "id": "2026-08-26-how-soon-does-mold-grow-after-water-damage",
-   "status": "published",
-   "queued_at": "2026-08-26T14:05:00Z",
-   "written_at": "2026-09-22T15:13:40Z",
-   "post_url": "https://californiarestorationwest.com/blog/how-soon-does-mold-grow-after-water-damage/",
-   "primary_keyword": "how soon does mold grow after water damage",
-   "intent": "informational",
-   "volume": 110,
-   "kd": 0,
-   "fan_out_cluster": [
-    "how long before mold grows after a leak",
-    "does water damage always cause mold",
-    "24 to 48 hour mold growth window",
-    "signs of mold after water damage",
-    "how to prevent mold after water damage",
-    "when to call mold remediation after a flood"
-   ],
-   "suggested_slug": "how-soon-does-mold-grow-after-water-damage",
-   "suggested_title": "How soon does mold grow after water damage? The 24 to 48 hour window",
-   "target_word_count": 1300,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/services/water-damage-restoration/",
-    "/blog/signs-of-hidden-mold/"
-   ],
-   "service_tags": [
-    "mold-remediation",
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/mold-cleanup-your-home",
-    "https://www.cdc.gov/mold/"
-   ],
-   "notes": "110/mo, KD 0. Bridges the client's two biggest planned services and is not covered by the hidden-mold or black-mold posts (those cover identification, not timeline). Ventura's coastal humidity is a genuine local angle: cite it, do not invent a local statistic.",
-   "source": "keyword-researcher",
-   "published_verified_at": "2026-09-22T15:16:04Z"
-  },
-  {
-   "id": "2026-09-14-mold-remediation-ventura",
-   "status": "banked",
-   "queued_at": "2026-09-14T00:00:00Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "mold-remediation-ventura",
-   "primary_keyword": "mold remediation ventura ca",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "ventura-ca",
-   "source": "dev-agent geo-target (gameplan-2026-09-4)",
-   "banked_at": "2026-09-24T22:24:15.031556+00:00"
-  },
-  {
-   "id": "2026-09-14-water-damage-restoration-ventura",
-   "status": "banked",
-   "queued_at": "2026-09-14T00:00:00Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "water-damage-restoration-ventura",
-   "primary_keyword": "water damage restoration ventura ca",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "ventura-ca",
-   "source": "dev-agent geo-target (gameplan-2026-09-4)",
-   "banked_at": "2026-09-24T22:24:15.031562+00:00"
-  },
-  {
-   "id": "2026-09-24-mold-remediation-cost",
-   "status": "queued",
-   "queued_at": "2026-09-24T21:30:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "mold remediation cost",
-   "intent": "commercial",
-   "volume": 9900,
-   "kd": 3,
-   "fan_out_cluster": [
-    "mold remediation cost per square foot",
-    "whole-house mold remediation cost",
-    "how much does mold remediation cost in california",
-    "mold remediation cost ventura",
-    "hvac mold remediation cost",
-    "is mold remediation worth it"
-   ],
-   "suggested_slug": "mold-remediation-cost",
-   "suggested_title": "Mold remediation cost in Ventura: what homeowners actually pay in 2026",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/services/water-damage-restoration/",
-    "/services/crawl-space-encapsulation/"
-   ],
-   "service_tags": [
-    "mold-remediation",
-    "water-damage-restoration"
-   ],
-   "city_anchor": "ventura-ca",
-   "external_authority_candidates": [
-    "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHLB/AQS/Pages/Frequently-Asked-Questions-about-Mold.aspx",
-    "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
-    "https://iicrc.org/s520/"
-   ],
-   "notes": "Highest-volume, lowest-KD money term in the family (9,900/mo, KD 3, CPC $20). Break cost down by square footage, containment level, and whether drywall/insulation removal and rebuild are included. Explain that the leak fix is a separate line item. No invented local price figures: use ranges with clear drivers.",
-   "source": "keyword-researcher seed=mold remediation"
-  },
-  {
-   "id": "2026-09-24-does-homeowners-insurance-cover-mold-remediation",
-   "status": "queued",
-   "queued_at": "2026-09-24T21:30:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "does homeowners insurance cover mold remediation",
-   "intent": "informational",
-   "volume": 1000,
-   "kd": 17,
-   "fan_out_cluster": [
-    "who pays for mold remediation",
-    "is mold from a burst pipe covered by insurance",
-    "mold exclusions and sublimits in homeowners policies",
-    "documenting mold damage for an insurance claim",
-    "how long does mold remediation take"
-   ],
-   "suggested_slug": "does-homeowners-insurance-cover-mold-remediation",
-   "suggested_title": "Does homeowners insurance cover mold remediation? Sudden leak vs. long-term moisture",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/services/water-damage-restoration/",
-    "/blog/does-homeowners-insurance-cover-water-damage/"
-   ],
-   "service_tags": [
-    "mold-remediation",
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHLB/AQS/Pages/Frequently-Asked-Questions-about-Mold.aspx",
-    "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
-    "https://iicrc.org/s520/"
-   ],
-   "notes": "Decision-stage insurance query, high value 24-48 hours before hire. City anchor intentionally null (policy explainer). Center on the sudden-and-accidental vs. neglect distinction and common mold sublimits. Do not promise coverage outcomes. Cross-link the existing water damage insurance post.",
-   "source": "keyword-researcher seed=mold remediation"
-  },
-  {
-   "id": "2026-09-24-what-is-mold-remediation",
-   "status": "queued",
-   "queued_at": "2026-09-24T21:30:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "what is mold remediation",
-   "intent": "informational",
-   "volume": 1000,
-   "kd": 18,
-   "fan_out_cluster": [
-    "mold remediation process",
-    "what happens during mold remediation",
-    "black mold remediation process",
-    "mold remediation vs removal",
-    "epa mold remediation guidelines",
-    "how do i know if mold remediation was successful"
-   ],
-   "suggested_slug": "what-is-mold-remediation",
-   "suggested_title": "What is mold remediation? The step-by-step process for Oxnard homes",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/service-areas/oxnard-ca/mold-remediation/",
-    "/services/odor-removal/"
-   ],
-   "service_tags": [
-    "mold-remediation",
-    "odor-removal"
-   ],
-   "city_anchor": "oxnard-ca",
-   "external_authority_candidates": [
-    "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHLB/AQS/Pages/Frequently-Asked-Questions-about-Mold.aspx",
-    "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
-    "https://iicrc.org/s520/"
-   ],
-   "notes": "Absorbs the process cluster (mold remediation process 720/mo is folded in as H2s, not queued separately, to avoid cannibalization). Walk source control, containment, removal, HEPA cleaning, drying, verification. Use CDPH's completion criteria (moisture fixed, no visible mold, no mold odor) and note CDPH does not recognize a test that proves remediation succeeded. Coastal humidity angle for Oxnard.",
-   "source": "keyword-researcher seed=mold remediation"
-  },
-  {
-   "id": "2026-09-24-who-pays-for-mold-remediation",
-   "status": "queued",
-   "queued_at": "2026-09-24T21:30:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "who pays for mold remediation",
-   "intent": "informational",
-   "volume": 880,
-   "kd": 9,
-   "fan_out_cluster": [
-    "does homeowners insurance cover mold remediation",
-    "landlord responsibility for mold in california",
-    "who pays for mold remediation when buying a house",
-    "hoa responsibility for mold in a condo",
-    "when is mold remediation required"
-   ],
-   "suggested_slug": "who-pays-for-mold-remediation",
-   "suggested_title": "Who pays for mold remediation? Homeowners, landlords, tenants, and insurers in Thousand Oaks",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/service-areas/thousand-oaks-ca/mold-remediation/",
-    "/services/water-damage-restoration/"
-   ],
-   "service_tags": [
-    "mold-remediation",
-    "water-damage-restoration"
-   ],
-   "city_anchor": "thousand-oaks-ca",
-   "external_authority_candidates": [
-    "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHLB/AQS/Pages/Frequently-Asked-Questions-about-Mold.aspx",
-    "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
-    "https://iicrc.org/s520/"
-   ],
-   "notes": "Split by situation: owner-occupied with a covered loss, rental (California habitability rules; point readers to official state sources rather than giving legal advice), condo/HOA, and real estate transactions. Informational, not legal advice; say so plainly.",
-   "source": "keyword-researcher seed=mold remediation"
-  },
-  {
-   "id": "2026-09-24-how-long-does-mold-remediation-take",
-   "status": "banked",
-   "queued_at": "2026-09-24T21:30:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "how long does mold remediation take",
-   "intent": "informational",
-   "volume": 720,
-   "kd": 0,
-   "fan_out_cluster": [
-    "can i stay in my house during mold remediation",
-    "how long does mold remediation take for a bathroom",
-    "how long after mold remediation can i return home",
-    "what happens during mold remediation",
-    "how do i know if mold remediation was successful"
-   ],
-   "suggested_slug": "how-long-does-mold-remediation-take",
-   "suggested_title": "How long does mold remediation take? A realistic timeline for Simi Valley homes",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/service-areas/simi-valley-ca/mold-remediation/",
-    "/services/contents-restoration/"
-   ],
-   "service_tags": [
-    "mold-remediation",
-    "contents-restoration"
-   ],
-   "city_anchor": "simi-valley-ca",
-   "external_authority_candidates": [
-    "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHLB/AQS/Pages/Frequently-Asked-Questions-about-Mold.aspx",
-    "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
-    "https://iicrc.org/s520/"
-   ],
-   "notes": "KD 0 with 720/mo. Give phase-by-phase timeline (assessment, containment, removal, drying, clearance, rebuild) and what extends it (hidden growth, HVAC involvement, insurance approval). Cover whether a family can stay home during the work and when contents need to be moved out.",
-   "source": "keyword-researcher seed=mold remediation",
-   "banked_at": "2026-09-24T22:24:15.031565+00:00"
-  }
- ]
+  ]
 }
