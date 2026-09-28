@@ -1,36 +1,35 @@
 {
   "schema_version": 1,
   "slug": "homelyft-restoration-ms",
-  "site": "staging.rankai-homelyft-restoration-ms.pages.dev",
-  "live_origin": "https://staging.rankai-homelyft-restoration-ms.pages.dev",
-  "live_origin_source": "staging",
+  "site": "homelyft.net",
+  "live_origin": "https://homelyft.net",
+  "live_origin_source": "apex",
   "audit_form_factor": "desktop",
-  "generated_at": "2026-08-27T02:58:36Z",
+  "generated_at": "2026-09-28T23:13:58Z",
   "lighthouse_version": "13.4.0",
   "environment_caveats": [
-    "Audited the Cloudflare Pages staging preview: client record has domain=null and no apex_cutover.",
-    "All 6 URLs return x-robots-tag: noindex (Cloudflare Pages preview default). Lighthouse SEO is deflated to 69 on every page and is-crawlable is the ONLY failing SEO audit anywhere. SEO is excluded from all verdicts this run and recorded as inconclusive - staging noindex artifact, re-audit after apex cutover.",
+    "First apex audit. apex_cutover.completed_at=2026-09-11T14:43:17+00:00, so https://homelyft.net was audited. The prior (2026-08-27) baseline was the Cloudflare Pages staging preview; score deltas partly reflect staging-vs-apex+CDN differences, and the prior SEO score (69) was a staging noindex artifact.",
+    "No x-robots-tag header on apex. SEO counts toward the verdict this run.",
     "Lighthouse ran DESKTOP only (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240). Mobile scores would typically run 10-20 performance points lower.",
-    "The dedicated on_page_lighthouse / on_page_instant_pages MCP tools are not present in this MCP build; both datasets were collected from the same DataForSEO endpoints (/v3/on_page/lighthouse/live/json, /v3/on_page/instant_pages) via authenticated HTTP. Desktop was kept deliberately for comparability with prior audits in this repo.",
-    "Pre-flight deviation: client status is 'onboarding', not 'active'. build_status is 'pushed_main' and the site serves HTTP 200, so the audit proceeded (consistent with prior audits of non-active clients in this repo)."
+    "The dedicated on_page_lighthouse / on_page_instant_pages MCP tools are not present in this MCP build; both datasets were collected from /v3/on_page/lighthouse/live/json (for_mobile=false) and /v3/on_page/instant_pages via authenticated HTTP. Lighthouse live returned full audit detail, so top failing audits are captured without a separate full_data call.",
+    "rankai:tel_link_malformed was verified by direct fetch of the served HTML, not by a vendor check. It is absent from the prior audit's issue list but may have pre-existed undetected; it is not visible to Lighthouse or DataForSEO."
   ],
   "audited_urls": [
     {
-      "url": "https://staging.rankai-homelyft-restoration-ms.pages.dev/",
+      "url": "https://homelyft.net/",
       "archetype": "home",
       "verdict": "red",
       "error_reason": null,
       "scores": {
         "performance": 98,
-        "accessibility": 100,
+        "accessibility": 96,
         "best_practices": 100,
-        "seo": 69
+        "seo": 100
       },
-      "seo_score_status": "inconclusive - staging noindex artifact, re-audit after apex cutover",
       "core_web_vitals": {
-        "LCP_ms": 863,
+        "LCP_ms": 967,
         "CLS": 0.0023,
-        "TBT_ms": 102,
+        "TBT_ms": 5,
         "INP_ms": null
       },
       "lighthouse_issues": [
@@ -38,8 +37,32 @@
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "high",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js, ~69 KiB unused)",
+          "severity": "medium",
+          "estimated_savings_ms": 70,
+          "estimated_savings_bytes": 70420,
+          "category": "performance"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio",
+          "severity": "medium",
           "estimated_savings_ms": null,
-          "estimated_savings_bytes": 83968,
+          "estimated_savings_bytes": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes (Cloudflare email-decode.min.js, 2-day TTL)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
           "category": "performance"
         },
         {
@@ -49,28 +72,20 @@
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
           "category": "performance"
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render blocking requests (_astro/_slug_.*.css)",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "performance"
-        },
-        {
-          "id": "is-crawlable",
-          "title": "Page is blocked from indexing (staging x-robots-tag: noindex)",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "seo"
         }
+      ],
+      "lighthouse_failing_audit_ids": [
+        "image-delivery-insight",
+        "unused-javascript",
+        "color-contrast",
+        "cache-insight",
+        "network-dependency-tree-insight",
+        "render-blocking-insight"
       ],
       "onpage_issues": [
         {
-          "id": "rankai:canonical_host_unresolvable",
-          "title": "Canonical and og:url point to https://None/ (unresolvable host)",
+          "id": "rankai:tel_link_malformed",
+          "title": "Every tel: link and JSON-LD telephone is +112282845200 (double +1 country code); click-to-call dials an invalid 11-digit NANP number",
           "severity": "high"
         },
         {
@@ -79,26 +94,25 @@
           "severity": "medium"
         },
         {
-          "id": "high_loading_time",
-          "title": "DataForSEO flags high page loading time",
+          "id": "low_content_rate",
+          "title": "DataForSEO flags low text-to-HTML ratio",
           "severity": "low"
         }
       ]
     },
     {
-      "url": "https://staging.rankai-homelyft-restoration-ms.pages.dev/services/",
+      "url": "https://homelyft.net/services/",
       "archetype": "services-hub",
       "verdict": "red",
       "error_reason": null,
       "scores": {
-        "performance": 99,
+        "performance": 98,
         "accessibility": 91,
         "best_practices": 100,
-        "seo": 69
+        "seo": 100
       },
-      "seo_score_status": "inconclusive - staging noindex artifact, re-audit after apex cutover",
       "core_web_vitals": {
-        "LCP_ms": 829,
+        "LCP_ms": 934,
         "CLS": 0.0018,
         "TBT_ms": 0,
         "INP_ms": null
@@ -108,8 +122,16 @@
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": 190464,
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js, ~69 KiB unused)",
+          "severity": "medium",
+          "estimated_savings_ms": 90,
+          "estimated_savings_bytes": 69594,
           "category": "performance"
         },
         {
@@ -129,65 +151,55 @@
           "category": "accessibility"
         },
         {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery: fetchpriority=high not applied to hero image",
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes (Cloudflare email-decode.min.js, 2-day TTL)",
           "severity": "low",
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
           "category": "performance"
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Avoid chaining critical requests",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "performance"
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render blocking requests (_astro/_slug_.*.css)",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "performance"
-        },
-        {
-          "id": "is-crawlable",
-          "title": "Page is blocked from indexing (staging x-robots-tag: noindex)",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "seo"
         }
+      ],
+      "lighthouse_failing_audit_ids": [
+        "image-delivery-insight",
+        "unused-javascript",
+        "color-contrast",
+        "link-in-text-block",
+        "cache-insight",
+        "lcp-discovery-insight",
+        "network-dependency-tree-insight",
+        "render-blocking-insight"
       ],
       "onpage_issues": [
         {
-          "id": "rankai:canonical_host_unresolvable",
-          "title": "Canonical and og:url point to https://None/ (unresolvable host)",
+          "id": "rankai:tel_link_malformed",
+          "title": "Every tel: link and JSON-LD telephone is +112282845200 (double +1 country code); click-to-call dials an invalid 11-digit NANP number",
           "severity": "high"
         },
         {
           "id": "rankai:word_count_below_target",
-          "title": "767 words vs url-plan target 800",
+          "title": "768 words vs url-plan target 800",
+          "severity": "low"
+        },
+        {
+          "id": "low_content_rate",
+          "title": "DataForSEO flags low text-to-HTML ratio",
           "severity": "low"
         }
       ]
     },
     {
-      "url": "https://staging.rankai-homelyft-restoration-ms.pages.dev/services/water-damage-restoration/",
+      "url": "https://homelyft.net/services/water-damage-restoration/",
       "archetype": "service-landing",
       "verdict": "red",
       "error_reason": null,
       "scores": {
-        "performance": 100,
+        "performance": 99,
         "accessibility": 95,
         "best_practices": 100,
-        "seo": 69
+        "seo": 100
       },
-      "seo_score_status": "inconclusive - staging noindex artifact, re-audit after apex cutover",
       "core_web_vitals": {
-        "LCP_ms": 752,
+        "LCP_ms": 869,
         "CLS": 0.0236,
         "TBT_ms": 0,
         "INP_ms": null
@@ -197,8 +209,16 @@
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": 31744,
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js, ~69 KiB unused)",
+          "severity": "medium",
+          "estimated_savings_ms": 70,
+          "estimated_savings_bytes": 69557,
           "category": "performance"
         },
         {
@@ -210,65 +230,53 @@
           "category": "accessibility"
         },
         {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery: fetchpriority=high not applied to hero image",
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes (Cloudflare email-decode.min.js, 2-day TTL)",
           "severity": "low",
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
           "category": "performance"
         },
         {
-          "id": "network-dependency-tree-insight",
-          "title": "Avoid chaining critical requests",
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow",
           "severity": "low",
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
           "category": "performance"
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render blocking requests (_astro/_slug_.*.css)",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "performance"
-        },
-        {
-          "id": "is-crawlable",
-          "title": "Page is blocked from indexing (staging x-robots-tag: noindex)",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "seo"
         }
+      ],
+      "lighthouse_failing_audit_ids": [
+        "image-delivery-insight",
+        "unused-javascript",
+        "color-contrast",
+        "cache-insight",
+        "forced-reflow-insight",
+        "lcp-discovery-insight",
+        "network-dependency-tree-insight",
+        "render-blocking-insight"
       ],
       "onpage_issues": [
         {
-          "id": "rankai:canonical_host_unresolvable",
-          "title": "Canonical and og:url point to https://None/ (unresolvable host)",
+          "id": "rankai:tel_link_malformed",
+          "title": "Every tel: link and JSON-LD telephone is +112282845200 (double +1 country code); click-to-call dials an invalid 11-digit NANP number",
           "severity": "high"
-        },
-        {
-          "id": "high_loading_time",
-          "title": "DataForSEO flags high page loading time",
-          "severity": "low"
         }
       ]
     },
     {
-      "url": "https://staging.rankai-homelyft-restoration-ms.pages.dev/services/fire-damage-restoration/",
+      "url": "https://homelyft.net/services/fire-damage-restoration/",
       "archetype": "service-landing",
       "verdict": "red",
       "error_reason": null,
       "scores": {
-        "performance": 100,
+        "performance": 99,
         "accessibility": 95,
         "best_practices": 100,
-        "seo": 69
+        "seo": 100
       },
-      "seo_score_status": "inconclusive - staging noindex artifact, re-audit after apex cutover",
       "core_web_vitals": {
-        "LCP_ms": 771,
+        "LCP_ms": 846,
         "CLS": 0.0301,
         "TBT_ms": 0,
         "INP_ms": null
@@ -279,7 +287,7 @@
           "title": "Improve image delivery",
           "severity": "high",
           "estimated_savings_ms": null,
-          "estimated_savings_bytes": 36864,
+          "estimated_savings_bytes": null,
           "category": "performance"
         },
         {
@@ -291,60 +299,60 @@
           "category": "accessibility"
         },
         {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js, ~69 KiB unused)",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 70272,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes (Cloudflare email-decode.min.js, 2-day TTL)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
           "id": "lcp-discovery-insight",
           "title": "LCP request discovery: fetchpriority=high not applied to hero image",
           "severity": "low",
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
           "category": "performance"
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Avoid chaining critical requests",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "performance"
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render blocking requests (_astro/_slug_.*.css)",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "performance"
-        },
-        {
-          "id": "is-crawlable",
-          "title": "Page is blocked from indexing (staging x-robots-tag: noindex)",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "seo"
         }
+      ],
+      "lighthouse_failing_audit_ids": [
+        "image-delivery-insight",
+        "color-contrast",
+        "unused-javascript",
+        "cache-insight",
+        "lcp-discovery-insight",
+        "network-dependency-tree-insight",
+        "render-blocking-insight"
       ],
       "onpage_issues": [
         {
-          "id": "rankai:canonical_host_unresolvable",
-          "title": "Canonical and og:url point to https://None/ (unresolvable host)",
+          "id": "rankai:tel_link_malformed",
+          "title": "Every tel: link and JSON-LD telephone is +112282845200 (double +1 country code); click-to-call dials an invalid 11-digit NANP number",
           "severity": "high"
         }
       ]
     },
     {
-      "url": "https://staging.rankai-homelyft-restoration-ms.pages.dev/service-areas/eastabuchie-ms/",
+      "url": "https://homelyft.net/service-areas/eastabuchie-ms/",
       "archetype": "service-area",
       "verdict": "red",
       "error_reason": null,
       "scores": {
-        "performance": 100,
+        "performance": 99,
         "accessibility": 95,
         "best_practices": 100,
-        "seo": 69
+        "seo": 100
       },
-      "seo_score_status": "inconclusive - staging noindex artifact, re-audit after apex cutover",
       "core_web_vitals": {
-        "LCP_ms": 767,
+        "LCP_ms": 924,
         "CLS": 0.0025,
         "TBT_ms": 0,
         "INP_ms": null
@@ -354,8 +362,16 @@
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": 99328,
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js, ~69 KiB unused)",
+          "severity": "medium",
+          "estimated_savings_ms": 120,
+          "estimated_savings_bytes": 70416,
           "category": "performance"
         },
         {
@@ -367,42 +383,36 @@
           "category": "accessibility"
         },
         {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery: fetchpriority=high not applied to hero image",
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes (Cloudflare email-decode.min.js, 2-day TTL)",
           "severity": "low",
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
           "category": "performance"
         },
         {
-          "id": "network-dependency-tree-insight",
-          "title": "Avoid chaining critical requests",
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow",
           "severity": "low",
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
           "category": "performance"
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render blocking requests (_astro/_slug_.*.css)",
-          "severity": "low",
-          "estimated_savings_ms": 57,
-          "estimated_savings_bytes": null,
-          "category": "performance"
-        },
-        {
-          "id": "is-crawlable",
-          "title": "Page is blocked from indexing (staging x-robots-tag: noindex)",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "seo"
         }
+      ],
+      "lighthouse_failing_audit_ids": [
+        "image-delivery-insight",
+        "unused-javascript",
+        "color-contrast",
+        "cache-insight",
+        "forced-reflow-insight",
+        "lcp-discovery-insight",
+        "network-dependency-tree-insight",
+        "render-blocking-insight"
       ],
       "onpage_issues": [
         {
-          "id": "rankai:canonical_host_unresolvable",
-          "title": "Canonical and og:url point to https://None/ (unresolvable host)",
+          "id": "rankai:tel_link_malformed",
+          "title": "Every tel: link and JSON-LD telephone is +112282845200 (double +1 country code); click-to-call dials an invalid 11-digit NANP number",
           "severity": "high"
         },
         {
@@ -413,19 +423,18 @@
       ]
     },
     {
-      "url": "https://staging.rankai-homelyft-restoration-ms.pages.dev/contact/",
+      "url": "https://homelyft.net/contact/",
       "archetype": "contact",
       "verdict": "red",
       "error_reason": null,
       "scores": {
-        "performance": 100,
+        "performance": 99,
         "accessibility": 96,
         "best_practices": 100,
-        "seo": 69
+        "seo": 100
       },
-      "seo_score_status": "inconclusive - staging noindex artifact, re-audit after apex cutover",
       "core_web_vitals": {
-        "LCP_ms": 636,
+        "LCP_ms": 933,
         "CLS": 0.0066,
         "TBT_ms": 0,
         "INP_ms": null
@@ -435,8 +444,16 @@
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": 166912,
+          "estimated_savings_ms": 100,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js, ~69 KiB unused)",
+          "severity": "medium",
+          "estimated_savings_ms": 110,
+          "estimated_savings_bytes": 70365,
           "category": "performance"
         },
         {
@@ -448,58 +465,46 @@
           "category": "accessibility"
         },
         {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes (Cloudflare email-decode.min.js, 2-day TTL)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance"
+        },
+        {
           "id": "lcp-discovery-insight",
           "title": "LCP request discovery: fetchpriority=high not applied to hero image",
           "severity": "low",
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
           "category": "performance"
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Avoid chaining critical requests",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "performance"
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render blocking requests (_astro/_slug_.*.css)",
-          "severity": "low",
-          "estimated_savings_ms": 54,
-          "estimated_savings_bytes": null,
-          "category": "performance"
-        },
-        {
-          "id": "is-crawlable",
-          "title": "Page is blocked from indexing (staging x-robots-tag: noindex)",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "category": "seo"
         }
+      ],
+      "lighthouse_failing_audit_ids": [
+        "image-delivery-insight",
+        "unused-javascript",
+        "color-contrast",
+        "cache-insight",
+        "lcp-discovery-insight",
+        "network-dependency-tree-insight",
+        "render-blocking-insight"
       ],
       "onpage_issues": [
         {
-          "id": "rankai:canonical_host_unresolvable",
-          "title": "Canonical and og:url point to https://None/ (unresolvable host)",
+          "id": "rankai:tel_link_malformed",
+          "title": "Every tel: link and JSON-LD telephone is +112282845200 (double +1 country code); click-to-call dials an invalid 11-digit NANP number",
           "severity": "high"
-        },
-        {
-          "id": "high_loading_time",
-          "title": "DataForSEO flags high page loading time",
-          "severity": "low"
         }
       ]
     }
   ],
   "site_rollup": {
     "avg_scores": {
-      "performance": 99.5,
-      "accessibility": 95.3,
+      "performance": 98.7,
+      "accessibility": 94.7,
       "best_practices": 100.0,
-      "seo": 69.0
+      "seo": 100.0
     },
     "verdict": "red",
     "url_count": 6,
@@ -512,7 +517,8 @@
     "counted_categories": [
       "performance",
       "accessibility",
-      "best_practices"
+      "best_practices",
+      "seo"
     ],
     "template_issues": [
       {
@@ -522,10 +528,28 @@
         "severity": "high"
       },
       {
-        "id": "rankai:canonical_host_unresolvable",
-        "title": "Canonical and og:url point to https://None/ (unresolvable host)",
+        "id": "rankai:tel_link_malformed",
+        "title": "Every tel: link and JSON-LD telephone is +112282845200 (double +1 country code); click-to-call dials an invalid 11-digit NANP number",
         "affected_urls": 6,
         "severity": "high"
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js, ~69 KiB unused)",
+        "affected_urls": 6,
+        "severity": "medium"
+      },
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio",
+        "affected_urls": 6,
+        "severity": "medium"
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes (Cloudflare email-decode.min.js, 2-day TTL)",
+        "affected_urls": 6,
+        "severity": "low"
       },
       {
         "id": "network-dependency-tree-insight",
@@ -540,68 +564,275 @@
         "severity": "low"
       },
       {
-        "id": "color-contrast",
-        "title": "Background and foreground colors do not have a sufficient contrast ratio",
-        "affected_urls": 5,
-        "severity": "medium"
-      },
-      {
         "id": "lcp-discovery-insight",
         "title": "LCP request discovery: fetchpriority=high not applied to hero image",
         "affected_urls": 5,
         "severity": "low"
       },
       {
-        "id": "high_loading_time",
-        "title": "DataForSEO flags high page loading time",
-        "affected_urls": 3,
+        "id": "low_content_rate",
+        "title": "DataForSEO flags low text-to-HTML ratio",
+        "affected_urls": 2,
+        "severity": "low"
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
+        "affected_urls": 2,
         "severity": "low"
       }
     ],
     "money_page_alerts": [
       {
-        "url": "https://staging.rankai-homelyft-restoration-ms.pages.dev/",
+        "url": "https://homelyft.net/",
         "archetype": "home",
         "verdict": "red",
-        "main_issue": "canonical and og:url resolve to https://None/ (unresolvable host); Lighthouse scores are otherwise healthy"
+        "main_issue": "click-to-call CTA links to tel:+112282845200 (invalid number); Lighthouse otherwise healthy: perf 98, a11y 96, LCP 1.0s"
       },
       {
-        "url": "https://staging.rankai-homelyft-restoration-ms.pages.dev/services/",
+        "url": "https://homelyft.net/services/",
         "archetype": "services-hub",
         "verdict": "red",
-        "main_issue": "canonical and og:url resolve to https://None/ (unresolvable host); Lighthouse scores are otherwise healthy"
+        "main_issue": "click-to-call CTA links to tel:+112282845200 (invalid number); Lighthouse otherwise healthy: perf 98, a11y 91, LCP 0.9s"
       },
       {
-        "url": "https://staging.rankai-homelyft-restoration-ms.pages.dev/services/water-damage-restoration/",
+        "url": "https://homelyft.net/services/water-damage-restoration/",
         "archetype": "service-landing",
         "verdict": "red",
-        "main_issue": "canonical and og:url resolve to https://None/ (unresolvable host); Lighthouse scores are otherwise healthy"
+        "main_issue": "click-to-call CTA links to tel:+112282845200 (invalid number); Lighthouse otherwise healthy: perf 99, a11y 95, LCP 0.9s"
       },
       {
-        "url": "https://staging.rankai-homelyft-restoration-ms.pages.dev/services/fire-damage-restoration/",
+        "url": "https://homelyft.net/services/fire-damage-restoration/",
         "archetype": "service-landing",
         "verdict": "red",
-        "main_issue": "canonical and og:url resolve to https://None/ (unresolvable host); Lighthouse scores are otherwise healthy"
+        "main_issue": "click-to-call CTA links to tel:+112282845200 (invalid number); Lighthouse otherwise healthy: perf 99, a11y 95, LCP 0.8s"
       },
       {
-        "url": "https://staging.rankai-homelyft-restoration-ms.pages.dev/contact/",
+        "url": "https://homelyft.net/contact/",
         "archetype": "contact",
         "verdict": "red",
-        "main_issue": "canonical and og:url resolve to https://None/ (unresolvable host); Lighthouse scores are otherwise healthy"
+        "main_issue": "click-to-call CTA links to tel:+112282845200 (invalid number); Lighthouse otherwise healthy: perf 99, a11y 96, LCP 0.9s"
       }
     ]
   },
   "regression": {
-    "prior_run_at": null,
-    "score_deltas": null,
+    "prior_run_at": "2026-08-27T02:58:36Z",
+    "prior_live_origin": "https://staging.rankai-homelyft-restoration-ms.pages.dev",
+    "score_deltas": {
+      "performance": -0.8,
+      "accessibility": -0.6,
+      "best_practices": 0.0,
+      "seo": 31.0
+    },
+    "site_score_regressions": [],
+    "url_score_regressions": [
+      {
+        "url": "https://homelyft.net/contact/",
+        "metric": "LCP_ms",
+        "prior": 636,
+        "current": 933,
+        "delta": 297
+      }
+    ],
     "verdict_transitions": [],
-    "new_issues": [],
-    "resolved_issues": [],
-    "note": "First audit for this client - no comparison data."
+    "new_issues": [
+      {
+        "url": "https://homelyft.net/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js, ~69 KiB unused)"
+      },
+      {
+        "url": "https://homelyft.net/",
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio"
+      },
+      {
+        "url": "https://homelyft.net/",
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes (Cloudflare email-decode.min.js, 2-day TTL)"
+      },
+      {
+        "url": "https://homelyft.net/",
+        "id": "rankai:tel_link_malformed",
+        "title": "Every tel: link and JSON-LD telephone is +112282845200 (double +1 country code); click-to-call dials an invalid 11-digit NANP number"
+      },
+      {
+        "url": "https://homelyft.net/",
+        "id": "low_content_rate",
+        "title": "DataForSEO flags low text-to-HTML ratio"
+      },
+      {
+        "url": "https://homelyft.net/services/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js, ~69 KiB unused)"
+      },
+      {
+        "url": "https://homelyft.net/services/",
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes (Cloudflare email-decode.min.js, 2-day TTL)"
+      },
+      {
+        "url": "https://homelyft.net/services/",
+        "id": "rankai:tel_link_malformed",
+        "title": "Every tel: link and JSON-LD telephone is +112282845200 (double +1 country code); click-to-call dials an invalid 11-digit NANP number"
+      },
+      {
+        "url": "https://homelyft.net/services/",
+        "id": "low_content_rate",
+        "title": "DataForSEO flags low text-to-HTML ratio"
+      },
+      {
+        "url": "https://homelyft.net/services/water-damage-restoration/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js, ~69 KiB unused)"
+      },
+      {
+        "url": "https://homelyft.net/services/water-damage-restoration/",
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes (Cloudflare email-decode.min.js, 2-day TTL)"
+      },
+      {
+        "url": "https://homelyft.net/services/water-damage-restoration/",
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
+      },
+      {
+        "url": "https://homelyft.net/services/water-damage-restoration/",
+        "id": "rankai:tel_link_malformed",
+        "title": "Every tel: link and JSON-LD telephone is +112282845200 (double +1 country code); click-to-call dials an invalid 11-digit NANP number"
+      },
+      {
+        "url": "https://homelyft.net/services/fire-damage-restoration/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js, ~69 KiB unused)"
+      },
+      {
+        "url": "https://homelyft.net/services/fire-damage-restoration/",
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes (Cloudflare email-decode.min.js, 2-day TTL)"
+      },
+      {
+        "url": "https://homelyft.net/services/fire-damage-restoration/",
+        "id": "rankai:tel_link_malformed",
+        "title": "Every tel: link and JSON-LD telephone is +112282845200 (double +1 country code); click-to-call dials an invalid 11-digit NANP number"
+      },
+      {
+        "url": "https://homelyft.net/service-areas/eastabuchie-ms/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js, ~69 KiB unused)"
+      },
+      {
+        "url": "https://homelyft.net/service-areas/eastabuchie-ms/",
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes (Cloudflare email-decode.min.js, 2-day TTL)"
+      },
+      {
+        "url": "https://homelyft.net/service-areas/eastabuchie-ms/",
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
+      },
+      {
+        "url": "https://homelyft.net/service-areas/eastabuchie-ms/",
+        "id": "rankai:tel_link_malformed",
+        "title": "Every tel: link and JSON-LD telephone is +112282845200 (double +1 country code); click-to-call dials an invalid 11-digit NANP number"
+      },
+      {
+        "url": "https://homelyft.net/contact/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript (googletagmanager.com/gtag/js, ~69 KiB unused)"
+      },
+      {
+        "url": "https://homelyft.net/contact/",
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes (Cloudflare email-decode.min.js, 2-day TTL)"
+      },
+      {
+        "url": "https://homelyft.net/contact/",
+        "id": "rankai:tel_link_malformed",
+        "title": "Every tel: link and JSON-LD telephone is +112282845200 (double +1 country code); click-to-call dials an invalid 11-digit NANP number"
+      }
+    ],
+    "resolved_issues": [
+      {
+        "url": "https://homelyft.net/",
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing (staging x-robots-tag: noindex)"
+      },
+      {
+        "url": "https://homelyft.net/",
+        "id": "rankai:canonical_host_unresolvable",
+        "title": "Canonical and og:url point to https://None/ (unresolvable host)"
+      },
+      {
+        "url": "https://homelyft.net/",
+        "id": "high_loading_time",
+        "title": "DataForSEO flags high page loading time"
+      },
+      {
+        "url": "https://homelyft.net/services/",
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing (staging x-robots-tag: noindex)"
+      },
+      {
+        "url": "https://homelyft.net/services/",
+        "id": "rankai:canonical_host_unresolvable",
+        "title": "Canonical and og:url point to https://None/ (unresolvable host)"
+      },
+      {
+        "url": "https://homelyft.net/services/water-damage-restoration/",
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing (staging x-robots-tag: noindex)"
+      },
+      {
+        "url": "https://homelyft.net/services/water-damage-restoration/",
+        "id": "rankai:canonical_host_unresolvable",
+        "title": "Canonical and og:url point to https://None/ (unresolvable host)"
+      },
+      {
+        "url": "https://homelyft.net/services/water-damage-restoration/",
+        "id": "high_loading_time",
+        "title": "DataForSEO flags high page loading time"
+      },
+      {
+        "url": "https://homelyft.net/services/fire-damage-restoration/",
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing (staging x-robots-tag: noindex)"
+      },
+      {
+        "url": "https://homelyft.net/services/fire-damage-restoration/",
+        "id": "rankai:canonical_host_unresolvable",
+        "title": "Canonical and og:url point to https://None/ (unresolvable host)"
+      },
+      {
+        "url": "https://homelyft.net/service-areas/eastabuchie-ms/",
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing (staging x-robots-tag: noindex)"
+      },
+      {
+        "url": "https://homelyft.net/service-areas/eastabuchie-ms/",
+        "id": "rankai:canonical_host_unresolvable",
+        "title": "Canonical and og:url point to https://None/ (unresolvable host)"
+      },
+      {
+        "url": "https://homelyft.net/contact/",
+        "id": "is-crawlable",
+        "title": "Page is blocked from indexing (staging x-robots-tag: noindex)"
+      },
+      {
+        "url": "https://homelyft.net/contact/",
+        "id": "rankai:canonical_host_unresolvable",
+        "title": "Canonical and og:url point to https://None/ (unresolvable host)"
+      },
+      {
+        "url": "https://homelyft.net/contact/",
+        "id": "high_loading_time",
+        "title": "DataForSEO flags high page loading time"
+      }
+    ]
   },
   "cost_usd": {
     "lighthouse": 0.03,
-    "instant_pages": 0.0306,
-    "total": 0.0606
+    "instant_pages": 0.0108,
+    "total": 0.0408
   }
 }

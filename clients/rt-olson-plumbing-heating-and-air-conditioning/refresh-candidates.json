@@ -3,7 +3,7 @@
   "slug": "rt-olson-plumbing-heating-and-air-conditioning",
   "origin": "https://rtolsonplumbing.com",
   "origin_source": "apex",
-  "generated_at": "2026-09-14T20:24:30+00:00",
+  "generated_at": "2026-09-28T23:04:46+00:00",
   "stale_threshold_days": 365,
   "aging_threshold_days": 305,
   "gsc_enabled": false,
@@ -12,15 +12,15 @@
     "See docs/system-4-v2-activation.md for GSC v2 setup."
   ],
   "inspected_count": 120,
-  "fetched_html_count": 118,
-  "failed_html_count": 2,
+  "fetched_html_count": 120,
+  "failed_html_count": 0,
   "flag_counts": {},
   "candidates": [
     {
       "url": "https://rtolsonplumbing.com/",
       "date": "2026-08-18",
       "date_source": "sitemap_lastmod",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:29:54.754Z",
       "html_dates": {
@@ -37,7 +37,7 @@
       "url": "https://rtolsonplumbing.com/about/",
       "date": "2026-08-18",
       "date_source": "sitemap_lastmod",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:36:32.470Z",
       "html_dates": {
@@ -54,7 +54,7 @@
       "url": "https://rtolsonplumbing.com/accessibility/",
       "date": "2026-08-18",
       "date_source": "sitemap_lastmod",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:36:51.504Z",
       "html_dates": {
@@ -71,7 +71,7 @@
       "url": "https://rtolsonplumbing.com/blog/",
       "date": "2026-08-18",
       "date_source": "sitemap_lastmod",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:36:17.688Z",
       "html_dates": {
@@ -88,7 +88,7 @@
       "url": "https://rtolsonplumbing.com/blog/drain-cleaning-diy-vs-pro/",
       "date": "2026-07-21",
       "date_source": "json_ld_date_modified",
-      "age_days": 55,
+      "age_days": 69,
       "flags": [],
       "sitemap_lastmod": "2026-07-21T00:00:00.000Z",
       "html_dates": {
@@ -102,10 +102,27 @@
       "search_signals": null
     },
     {
+      "url": "https://rtolsonplumbing.com/blog/duct-cleaning/",
+      "date": "2026-09-24",
+      "date_source": "json_ld_date_modified",
+      "age_days": 4,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-24T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-24",
+        "json_ld_date_modified": "2026-09-24",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://rtolsonplumbing.com/blog/furnace-repair-or-replace/",
       "date": "2026-08-06",
       "date_source": "json_ld_date_modified",
-      "age_days": 39,
+      "age_days": 53,
       "flags": [],
       "sitemap_lastmod": "2026-08-06T00:00:00.000Z",
       "html_dates": {
@@ -119,10 +136,27 @@
       "search_signals": null
     },
     {
+      "url": "https://rtolsonplumbing.com/blog/how-much-does-a-plumber-cost/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-20T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-20",
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://rtolsonplumbing.com/blog/how-to-pick-the-best-plumber-near-me/",
       "date": "2026-09-08",
       "date_source": "json_ld_date_modified",
-      "age_days": 6,
+      "age_days": 20,
       "flags": [],
       "sitemap_lastmod": "2026-09-08T00:00:00.000Z",
       "html_dates": {
@@ -139,7 +173,7 @@
       "url": "https://rtolsonplumbing.com/blog/hydro-jetting-vs-snaking/",
       "date": "2026-08-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 42,
+      "age_days": 56,
       "flags": [],
       "sitemap_lastmod": "2026-08-03T00:00:00.000Z",
       "html_dates": {
@@ -154,14 +188,14 @@
     },
     {
       "url": "https://rtolsonplumbing.com/blog/licensed-plumber-c36-verify-california/",
-      "date": "2026-09-14",
+      "date": "2026-09-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 0,
+      "age_days": 10,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T00:00:00.000Z",
+      "sitemap_lastmod": "2026-09-18T00:00:00.000Z",
       "html_dates": {
-        "json_ld_date_published": "2026-09-14",
-        "json_ld_date_modified": "2026-09-14",
+        "json_ld_date_published": "2026-09-18",
+        "json_ld_date_modified": "2026-09-18",
         "article_modified_time": null,
         "time_published": null,
         "time_updated": null
@@ -173,7 +207,7 @@
       "url": "https://rtolsonplumbing.com/blog/local-plumber-vs-national-chain/",
       "date": "2026-08-28",
       "date_source": "json_ld_date_modified",
-      "age_days": 17,
+      "age_days": 31,
       "flags": [],
       "sitemap_lastmod": "2026-08-28T00:00:00.000Z",
       "html_dates": {
@@ -190,7 +224,7 @@
       "url": "https://rtolsonplumbing.com/blog/low-water-pressure-causes/",
       "date": "2026-08-12",
       "date_source": "json_ld_date_modified",
-      "age_days": 33,
+      "age_days": 47,
       "flags": [],
       "sitemap_lastmod": "2026-08-12T00:00:00.000Z",
       "html_dates": {
@@ -204,10 +238,27 @@
       "search_signals": null
     },
     {
+      "url": "https://rtolsonplumbing.com/blog/should-i-tip-a-plumber/",
+      "date": "2026-09-22",
+      "date_source": "json_ld_date_modified",
+      "age_days": 6,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-22T00:00:00.000Z",
+      "html_dates": {
+        "json_ld_date_published": "2026-09-22",
+        "json_ld_date_modified": "2026-09-22",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://rtolsonplumbing.com/blog/signs-of-a-slab-leak/",
       "date": "2026-07-27",
       "date_source": "json_ld_date_modified",
-      "age_days": 49,
+      "age_days": 63,
       "flags": [],
       "sitemap_lastmod": "2026-07-27T00:00:00.000Z",
       "html_dates": {
@@ -224,7 +275,7 @@
       "url": "https://rtolsonplumbing.com/blog/tankless-vs-tank-water-heater/",
       "date": "2026-08-09",
       "date_source": "json_ld_date_modified",
-      "age_days": 36,
+      "age_days": 50,
       "flags": [],
       "sitemap_lastmod": "2026-08-09T00:00:00.000Z",
       "html_dates": {
@@ -241,7 +292,7 @@
       "url": "https://rtolsonplumbing.com/blog/water-heater-lifespan-repair-or-replace/",
       "date": "2026-07-29",
       "date_source": "json_ld_date_modified",
-      "age_days": 47,
+      "age_days": 61,
       "flags": [],
       "sitemap_lastmod": "2026-07-29T00:00:00.000Z",
       "html_dates": {
@@ -258,7 +309,7 @@
       "url": "https://rtolsonplumbing.com/blog/what-to-do-burst-pipe/",
       "date": "2026-08-17",
       "date_source": "json_ld_date_modified",
-      "age_days": 28,
+      "age_days": 42,
       "flags": [],
       "sitemap_lastmod": "2026-08-17T00:00:00.000Z",
       "html_dates": {
@@ -273,11 +324,11 @@
     },
     {
       "url": "https://rtolsonplumbing.com/case-studies/",
-      "date": "2026-09-14",
+      "date": "2026-09-28",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T11:24:50.048Z",
+      "sitemap_lastmod": "2026-09-28T03:11:18.689Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -290,11 +341,11 @@
     },
     {
       "url": "https://rtolsonplumbing.com/certifications/",
-      "date": "2026-09-14",
+      "date": "2026-09-28",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T11:24:50.048Z",
+      "sitemap_lastmod": "2026-09-28T03:11:18.689Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -309,7 +360,7 @@
       "url": "https://rtolsonplumbing.com/contact/",
       "date": "2026-08-18",
       "date_source": "sitemap_lastmod",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:36:35.496Z",
       "html_dates": {
@@ -323,12 +374,29 @@
       "search_signals": null
     },
     {
-      "url": "https://rtolsonplumbing.com/emergency/",
-      "date": "2026-09-14",
+      "url": "https://rtolsonplumbing.com/embed/estimate/",
+      "date": "2026-09-28",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T11:24:50.048Z",
+      "sitemap_lastmod": "2026-09-28T03:11:18.689Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
+      "url": "https://rtolsonplumbing.com/emergency/",
+      "date": "2026-09-28",
+      "date_source": "sitemap_lastmod",
+      "age_days": 0,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-28T03:11:18.689Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -343,7 +411,7 @@
       "url": "https://rtolsonplumbing.com/privacy/",
       "date": "2026-08-18",
       "date_source": "sitemap_lastmod",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:36:34.525Z",
       "html_dates": {
@@ -358,11 +426,11 @@
     },
     {
       "url": "https://rtolsonplumbing.com/reviews/",
-      "date": "2026-09-14",
+      "date": "2026-09-28",
       "date_source": "sitemap_lastmod",
       "age_days": 0,
       "flags": [],
-      "sitemap_lastmod": "2026-09-14T11:24:50.048Z",
+      "sitemap_lastmod": "2026-09-28T03:11:18.689Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": null,
@@ -377,7 +445,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/",
       "date": "2026-08-18",
       "date_source": "sitemap_lastmod",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:35:25.022Z",
       "html_dates": {
@@ -394,7 +462,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/anaheim-ca/",
       "date": "2026-08-18",
       "date_source": "sitemap_lastmod",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:32:25.958Z",
       "html_dates": {
@@ -411,7 +479,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/anaheim-ca/ac-repair/",
       "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:24:12.504Z",
       "html_dates": {
@@ -427,11 +495,17 @@
     {
       "url": "https://rtolsonplumbing.com/service-areas/anaheim-ca/drain-cleaning/",
       "date": "2026-08-18",
-      "date_source": "sitemap_lastmod",
-      "age_days": 27,
+      "date_source": "json_ld_date_modified",
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:24:06.235Z",
-      "html_dates": {},
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-08-18",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
       "gsc": null,
       "search_signals": null
     },
@@ -439,7 +513,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/anaheim-ca/emergency-plumbing/",
       "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:23:24.248Z",
       "html_dates": {
@@ -456,7 +530,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/anaheim-ca/furnace-repair/",
       "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:27:46.369Z",
       "html_dates": {
@@ -473,7 +547,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/anaheim-ca/garbage-disposal/",
       "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:35:56.060Z",
       "html_dates": {
@@ -490,7 +564,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/anaheim-ca/indoor-air-quality/",
       "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:34:13.334Z",
       "html_dates": {
@@ -507,7 +581,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/anaheim-ca/leak-detection/",
       "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:30:27.220Z",
       "html_dates": {
@@ -521,10 +595,27 @@
       "search_signals": null
     },
     {
+      "url": "https://rtolsonplumbing.com/service-areas/anaheim-ca/repiping/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-20T14:13:48.585Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://rtolsonplumbing.com/service-areas/anaheim-ca/toilet-faucet-repair/",
       "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:30:28.513Z",
       "html_dates": {
@@ -541,7 +632,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/anaheim-ca/water-heater-installation/",
       "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:27:45.180Z",
       "html_dates": {
@@ -558,7 +649,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/anaheim-ca/water-heater-repair/",
       "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:24:02.906Z",
       "html_dates": {
@@ -575,7 +666,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/anaheim-ca/water-softeners-filtration/",
       "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:33:58.456Z",
       "html_dates": {
@@ -592,7 +683,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/bloomington-ca/",
       "date": "2026-09-03",
       "date_source": "sitemap_lastmod",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:42:42.725Z",
       "html_dates": {
@@ -609,7 +700,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/bloomington-ca/ac-repair/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:16:54.233Z",
       "html_dates": {
@@ -626,7 +717,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/bloomington-ca/drain-cleaning/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:16:50.364Z",
       "html_dates": {
@@ -643,7 +734,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/bloomington-ca/emergency-plumbing/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:16:46.572Z",
       "html_dates": {
@@ -660,7 +751,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/bloomington-ca/furnace-repair/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:27:44.747Z",
       "html_dates": {
@@ -677,7 +768,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/bloomington-ca/garbage-disposal/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T04:07:53.778Z",
       "html_dates": {
@@ -694,7 +785,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/bloomington-ca/indoor-air-quality/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:51:31.708Z",
       "html_dates": {
@@ -711,7 +802,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/bloomington-ca/leak-detection/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:37:17.397Z",
       "html_dates": {
@@ -725,10 +816,27 @@
       "search_signals": null
     },
     {
+      "url": "https://rtolsonplumbing.com/service-areas/bloomington-ca/repiping/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-20T14:13:48.594Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://rtolsonplumbing.com/service-areas/bloomington-ca/toilet-faucet-repair/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:37:13.092Z",
       "html_dates": {
@@ -745,7 +853,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/bloomington-ca/water-heater-installation/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:27:42.293Z",
       "html_dates": {
@@ -762,7 +870,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/bloomington-ca/water-heater-repair/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:16:46.300Z",
       "html_dates": {
@@ -779,7 +887,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/bloomington-ca/water-softeners-filtration/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:51:00.381Z",
       "html_dates": {
@@ -796,7 +904,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/canyon-lake-ca/",
       "date": "2026-09-03",
       "date_source": "sitemap_lastmod",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:40:53.493Z",
       "html_dates": {
@@ -813,7 +921,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/canyon-lake-ca/ac-repair/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:08:56.811Z",
       "html_dates": {
@@ -830,7 +938,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/canyon-lake-ca/drain-cleaning/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:08:49.548Z",
       "html_dates": {
@@ -847,7 +955,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/canyon-lake-ca/emergency-plumbing/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:08:45.677Z",
       "html_dates": {
@@ -864,7 +972,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/canyon-lake-ca/furnace-repair/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:24:01.572Z",
       "html_dates": {
@@ -881,7 +989,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/canyon-lake-ca/garbage-disposal/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T04:05:47.423Z",
       "html_dates": {
@@ -898,7 +1006,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/canyon-lake-ca/indoor-air-quality/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:47:04.315Z",
       "html_dates": {
@@ -915,7 +1023,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/canyon-lake-ca/leak-detection/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:32:53.578Z",
       "html_dates": {
@@ -929,10 +1037,27 @@
       "search_signals": null
     },
     {
+      "url": "https://rtolsonplumbing.com/service-areas/canyon-lake-ca/repiping/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-20T14:13:48.590Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://rtolsonplumbing.com/service-areas/canyon-lake-ca/toilet-faucet-repair/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:32:58.212Z",
       "html_dates": {
@@ -949,7 +1074,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/canyon-lake-ca/water-heater-installation/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:24:01.324Z",
       "html_dates": {
@@ -966,7 +1091,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/canyon-lake-ca/water-heater-repair/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:08:51.206Z",
       "html_dates": {
@@ -983,7 +1108,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/canyon-lake-ca/water-softeners-filtration/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:46:57.602Z",
       "html_dates": {
@@ -1000,7 +1125,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/chino-ca/",
       "date": "2026-08-18",
       "date_source": "sitemap_lastmod",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:32:37.967Z",
       "html_dates": {
@@ -1017,7 +1142,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/chino-ca/ac-repair/",
       "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:26:15.603Z",
       "html_dates": {
@@ -1034,7 +1159,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/chino-ca/drain-cleaning/",
       "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:25:35.728Z",
       "html_dates": {
@@ -1051,7 +1176,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/chino-ca/emergency-plumbing/",
       "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:25:38.642Z",
       "html_dates": {
@@ -1068,7 +1193,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/chino-ca/furnace-repair/",
       "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:28:40.281Z",
       "html_dates": {
@@ -1085,7 +1210,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/chino-ca/garbage-disposal/",
       "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:36:39.251Z",
       "html_dates": {
@@ -1102,7 +1227,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/chino-ca/indoor-air-quality/",
       "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:35:05.181Z",
       "html_dates": {
@@ -1119,7 +1244,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/chino-ca/leak-detection/",
       "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:31:33.257Z",
       "html_dates": {
@@ -1133,10 +1258,27 @@
       "search_signals": null
     },
     {
+      "url": "https://rtolsonplumbing.com/service-areas/chino-ca/repiping/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-20T14:13:48.587Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://rtolsonplumbing.com/service-areas/chino-ca/toilet-faucet-repair/",
       "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:31:42.456Z",
       "html_dates": {
@@ -1153,7 +1295,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/chino-ca/water-heater-installation/",
       "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:28:32.404Z",
       "html_dates": {
@@ -1170,7 +1312,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/chino-ca/water-heater-repair/",
       "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:25:52.825Z",
       "html_dates": {
@@ -1187,7 +1329,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/chino-ca/water-softeners-filtration/",
       "date": "2026-08-18",
       "date_source": "json_ld_date_modified",
-      "age_days": 27,
+      "age_days": 41,
       "flags": [],
       "sitemap_lastmod": "2026-08-18T12:35:02.304Z",
       "html_dates": {
@@ -1204,7 +1346,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/chino-hills-ca/",
       "date": "2026-09-03",
       "date_source": "sitemap_lastmod",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:41:46.339Z",
       "html_dates": {
@@ -1221,7 +1363,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/chino-hills-ca/ac-repair/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:12:32.937Z",
       "html_dates": {
@@ -1238,7 +1380,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/chino-hills-ca/drain-cleaning/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:12:22.769Z",
       "html_dates": {
@@ -1255,7 +1397,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/chino-hills-ca/emergency-plumbing/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:12:23.020Z",
       "html_dates": {
@@ -1272,7 +1414,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/chino-hills-ca/furnace-repair/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:25:36.271Z",
       "html_dates": {
@@ -1289,7 +1431,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/chino-hills-ca/garbage-disposal/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T04:07:04.066Z",
       "html_dates": {
@@ -1306,7 +1448,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/chino-hills-ca/indoor-air-quality/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:49:13.350Z",
       "html_dates": {
@@ -1323,7 +1465,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/chino-hills-ca/leak-detection/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:35:02.063Z",
       "html_dates": {
@@ -1337,10 +1479,27 @@
       "search_signals": null
     },
     {
+      "url": "https://rtolsonplumbing.com/service-areas/chino-hills-ca/repiping/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-20T14:13:48.592Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://rtolsonplumbing.com/service-areas/chino-hills-ca/toilet-faucet-repair/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:35:04.152Z",
       "html_dates": {
@@ -1357,7 +1516,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/chino-hills-ca/water-heater-installation/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:25:35.966Z",
       "html_dates": {
@@ -1374,7 +1533,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/chino-hills-ca/water-heater-repair/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:12:25.314Z",
       "html_dates": {
@@ -1391,7 +1550,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/chino-hills-ca/water-softeners-filtration/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:48:46.983Z",
       "html_dates": {
@@ -1408,10 +1567,16 @@
       "url": "https://rtolsonplumbing.com/service-areas/claremont-ca/",
       "date": "2026-09-03",
       "date_source": "sitemap_lastmod",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:42:22.447Z",
-      "html_dates": {},
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": null,
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
       "gsc": null,
       "search_signals": null
     },
@@ -1419,7 +1584,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/claremont-ca/ac-repair/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:14:41.405Z",
       "html_dates": {
@@ -1436,7 +1601,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/claremont-ca/drain-cleaning/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:14:32.888Z",
       "html_dates": {
@@ -1453,7 +1618,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/claremont-ca/emergency-plumbing/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:14:34.167Z",
       "html_dates": {
@@ -1470,7 +1635,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/claremont-ca/furnace-repair/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:26:56.636Z",
       "html_dates": {
@@ -1487,7 +1652,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/claremont-ca/garbage-disposal/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T04:07:11.975Z",
       "html_dates": {
@@ -1504,7 +1669,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/claremont-ca/indoor-air-quality/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:50:16.974Z",
       "html_dates": {
@@ -1521,7 +1686,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/claremont-ca/leak-detection/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:35:52.099Z",
       "html_dates": {
@@ -1535,10 +1700,27 @@
       "search_signals": null
     },
     {
+      "url": "https://rtolsonplumbing.com/service-areas/claremont-ca/repiping/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-20T14:13:48.593Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://rtolsonplumbing.com/service-areas/claremont-ca/toilet-faucet-repair/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:35:55.494Z",
       "html_dates": {
@@ -1555,7 +1737,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/claremont-ca/water-heater-installation/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:26:50.893Z",
       "html_dates": {
@@ -1572,7 +1754,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/claremont-ca/water-heater-repair/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:14:35.133Z",
       "html_dates": {
@@ -1589,7 +1771,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/claremont-ca/water-softeners-filtration/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:50:01.668Z",
       "html_dates": {
@@ -1606,7 +1788,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/diamond-bar-ca/",
       "date": "2026-09-03",
       "date_source": "sitemap_lastmod",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:43:11.960Z",
       "html_dates": {
@@ -1623,7 +1805,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/diamond-bar-ca/ac-repair/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:18:23.937Z",
       "html_dates": {
@@ -1640,7 +1822,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/diamond-bar-ca/drain-cleaning/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:18:14.187Z",
       "html_dates": {
@@ -1657,7 +1839,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/diamond-bar-ca/emergency-plumbing/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:18:14.881Z",
       "html_dates": {
@@ -1674,7 +1856,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/diamond-bar-ca/furnace-repair/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:28:26.488Z",
       "html_dates": {
@@ -1691,7 +1873,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/diamond-bar-ca/garbage-disposal/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T04:08:26.183Z",
       "html_dates": {
@@ -1708,7 +1890,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/diamond-bar-ca/indoor-air-quality/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T04:03:37.235Z",
       "html_dates": {
@@ -1725,7 +1907,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/diamond-bar-ca/leak-detection/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:38:01.650Z",
       "html_dates": {
@@ -1739,10 +1921,27 @@
       "search_signals": null
     },
     {
+      "url": "https://rtolsonplumbing.com/service-areas/diamond-bar-ca/repiping/",
+      "date": "2026-09-20",
+      "date_source": "json_ld_date_modified",
+      "age_days": 8,
+      "flags": [],
+      "sitemap_lastmod": "2026-09-20T14:13:48.595Z",
+      "html_dates": {
+        "json_ld_date_published": null,
+        "json_ld_date_modified": "2026-09-20",
+        "article_modified_time": null,
+        "time_published": null,
+        "time_updated": null
+      },
+      "gsc": null,
+      "search_signals": null
+    },
+    {
       "url": "https://rtolsonplumbing.com/service-areas/diamond-bar-ca/toilet-faucet-repair/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:37:59.358Z",
       "html_dates": {
@@ -1759,7 +1958,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/diamond-bar-ca/water-heater-installation/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:28:31.635Z",
       "html_dates": {
@@ -1776,7 +1975,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/diamond-bar-ca/water-heater-repair/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:18:09.513Z",
       "html_dates": {
@@ -1793,7 +1992,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/diamond-bar-ca/water-softeners-filtration/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:51:56.580Z",
       "html_dates": {
@@ -1810,7 +2009,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/eastvale-ca/",
       "date": "2026-09-03",
       "date_source": "sitemap_lastmod",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:39:27.615Z",
       "html_dates": {
@@ -1827,7 +2026,7 @@
       "url": "https://rtolsonplumbing.com/service-areas/eastvale-ca/ac-repair/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:03:00.061Z",
       "html_dates": {
@@ -1844,196 +2043,9 @@
       "url": "https://rtolsonplumbing.com/service-areas/eastvale-ca/drain-cleaning/",
       "date": "2026-09-03",
       "date_source": "json_ld_date_modified",
-      "age_days": 11,
+      "age_days": 25,
       "flags": [],
       "sitemap_lastmod": "2026-09-03T03:03:03.444Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-03",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://rtolsonplumbing.com/service-areas/eastvale-ca/emergency-plumbing/",
-      "date": "2026-09-03",
-      "date_source": "json_ld_date_modified",
-      "age_days": 11,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-03T03:03:04.002Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-03",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://rtolsonplumbing.com/service-areas/eastvale-ca/furnace-repair/",
-      "date": "2026-09-03",
-      "date_source": "json_ld_date_modified",
-      "age_days": 11,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-03T03:21:08.819Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-03",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://rtolsonplumbing.com/service-areas/eastvale-ca/garbage-disposal/",
-      "date": "2026-09-03",
-      "date_source": "json_ld_date_modified",
-      "age_days": 11,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-03T04:04:18.879Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-03",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://rtolsonplumbing.com/service-areas/eastvale-ca/indoor-air-quality/",
-      "date": "2026-09-03",
-      "date_source": "json_ld_date_modified",
-      "age_days": 11,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-03T03:44:04.816Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-03",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://rtolsonplumbing.com/service-areas/eastvale-ca/leak-detection/",
-      "date": "2026-09-03",
-      "date_source": "json_ld_date_modified",
-      "age_days": 11,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-03T03:29:55.347Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-03",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://rtolsonplumbing.com/service-areas/eastvale-ca/toilet-faucet-repair/",
-      "date": "2026-09-03",
-      "date_source": "json_ld_date_modified",
-      "age_days": 11,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-03T03:30:02.909Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-03",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://rtolsonplumbing.com/service-areas/eastvale-ca/water-heater-installation/",
-      "date": "2026-09-03",
-      "date_source": "json_ld_date_modified",
-      "age_days": 11,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-03T03:21:06.722Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-03",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://rtolsonplumbing.com/service-areas/eastvale-ca/water-heater-repair/",
-      "date": "2026-09-03",
-      "date_source": "json_ld_date_modified",
-      "age_days": 11,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-03T03:03:03.873Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-03",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://rtolsonplumbing.com/service-areas/eastvale-ca/water-softeners-filtration/",
-      "date": "2026-09-03",
-      "date_source": "json_ld_date_modified",
-      "age_days": 11,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-03T03:43:53.666Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": "2026-09-03",
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://rtolsonplumbing.com/service-areas/fontana-ca/",
-      "date": "2026-09-03",
-      "date_source": "sitemap_lastmod",
-      "age_days": 11,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-03T03:41:47.784Z",
-      "html_dates": {
-        "json_ld_date_published": null,
-        "json_ld_date_modified": null,
-        "article_modified_time": null,
-        "time_published": null,
-        "time_updated": null
-      },
-      "gsc": null,
-      "search_signals": null
-    },
-    {
-      "url": "https://rtolsonplumbing.com/service-areas/fontana-ca/ac-repair/",
-      "date": "2026-09-03",
-      "date_source": "json_ld_date_modified",
-      "age_days": 11,
-      "flags": [],
-      "sitemap_lastmod": "2026-09-03T03:13:18.198Z",
       "html_dates": {
         "json_ld_date_published": null,
         "json_ld_date_modified": "2026-09-03",

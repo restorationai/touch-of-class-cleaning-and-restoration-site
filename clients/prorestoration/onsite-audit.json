@@ -5,7 +5,7 @@
   "live_origin": "https://prorestorationca.com",
   "live_origin_source": "apex",
   "audit_form_factor": "desktop",
-  "generated_at": "2026-08-27T05:34:00Z",
+  "generated_at": "2026-09-28T23:40:00Z",
   "audit_tooling": {
     "lighthouse_endpoint": "/v3/on_page/lighthouse/live/json",
     "onpage_endpoint": "/v3/on_page/instant_pages",
@@ -15,9 +15,17 @@
       "throughputKbps": 10240,
       "rttMs": 40
     },
-    "note": "Called the DataForSEO REST API directly; the MCP server in this environment exposes only api_request/docs_* and has no on_page_lighthouse or on_page_instant_pages tool. for_mobile=false was sent explicitly to match the documented System 3 desktop baseline.",
-    "estimated_cost_usd": 0.061
+    "note": "Called the DataForSEO REST API directly (the MCP server exposes only api_request/docs_*). for_mobile=false to match the System 3 desktop baseline. Lighthouse 13.4 also emits an 'agentic-browsing' category; it is recorded under supplemental_scores and excluded from verdicts and issue lists, since its only failing audit (agent-accessibility-tree) has the same root cause as link-name.",
+    "estimated_cost_usd": 0.041
   },
+  "url_selection": {
+    "mode": "B (url-plan archetypes)",
+    "note": "No audit-urls.txt. Service-landing slots: five pages tie at priority 9.0; kept water-damage-restoration and fire-damage-restoration to match the 2026-08-27 baseline. No service-area has primary:true and the client record has no business.address, so oildale-ca (first area) was kept."
+  },
+  "environment_caveats": [
+    "apex_cutover.completed_at is null in clients/prorestoration.json, which by the methodology would point the audit at the staging Pages preview. The apex https://prorestorationca.com serves the Rank AI Astro build (200, no x-robots-tag, /_astro/ assets) and was the origin of the 2026-08-27 baseline, so the apex was audited again to keep regression data comparable. The staging preview does carry x-robots-tag: noindex, so auditing it would have deflated SEO.",
+    "clients/prorestoration.json status is 'pending', not 'active'. Audit proceeded (build_status pushed_main, apex live), matching the 2026-08-27 precedent."
+  ],
   "audited_urls": [
     {
       "url": "https://prorestorationca.com/",
@@ -25,16 +33,32 @@
       "verdict": "amber",
       "error_reason": null,
       "scores": {
-        "performance": 99,
+        "performance": 98,
         "accessibility": 96,
         "best_practices": 100,
         "seo": 100
       },
+      "supplemental_scores": {
+        "agentic_browsing": 66
+      },
       "core_web_vitals": {
-        "LCP_ms": 765,
-        "CLS": 0.0412,
+        "LCP_ms": 1055,
+        "CLS": 0.0591,
         "TBT_ms": 0,
         "INP_ms": null
+      },
+      "onpage_metrics": {
+        "title_length": 65,
+        "description_length": 184,
+        "h1_count": 1,
+        "canonical": "https://prorestorationca.com/",
+        "word_count": 1610,
+        "broken_links": false,
+        "broken_resources": false,
+        "duplicate_title": false,
+        "duplicate_description": false,
+        "crawler_load_time_ms": 231,
+        "crawler_connection_time_ms": 5
       },
       "lighthouse_issues": [
         {
@@ -48,23 +72,33 @@
           "category": "accessibility"
         },
         {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 100,
+          "estimated_savings_bytes": 266933,
+          "failing_elements": 3,
+          "display_value": "Est savings of 261\u00a0KiB",
+          "category": "performance"
+        },
+        {
           "id": "cache-insight",
           "title": "Use efficient cache lifetimes",
           "severity": "low",
           "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
+          "estimated_savings_bytes": 281.4043425925927,
           "failing_elements": 1,
           "display_value": "Est savings of 0\u00a0KiB",
           "category": "performance"
         },
         {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow",
           "severity": "low",
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
-          "failing_elements": 2,
-          "display_value": "Est savings of 27\u00a0KiB",
+          "failing_elements": null,
+          "display_value": null,
           "category": "performance"
         },
         {
@@ -73,7 +107,7 @@
           "severity": "low",
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
-          "failing_elements": 3,
+          "failing_elements": null,
           "display_value": null,
           "category": "performance"
         },
@@ -88,20 +122,20 @@
           "category": "performance"
         },
         {
-          "id": "unsized-images",
-          "title": "Image elements do not have explicit `width` and `height`",
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
           "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
+          "estimated_savings_ms": 100,
+          "estimated_savings_bytes": 69524,
           "failing_elements": 1,
-          "display_value": null,
+          "display_value": "Est savings of 68\u00a0KiB",
           "category": "performance"
         }
       ],
       "onpage_issues": [
         {
           "id": "description_length_out_of_range",
-          "title": "Meta description length 184 chars (target 70-160)",
+          "title": "Meta description is 184 characters (target 70-160)",
           "severity": "medium"
         },
         {
@@ -119,151 +153,31 @@
           "title": "Images have no title attribute",
           "severity": "low"
         }
-      ],
-      "onpage_meta": {
-        "onpage_score": 100,
-        "status_code": 200,
-        "title_len": 65,
-        "description_len": 184,
-        "h1_count": 1,
-        "canonical": "https://prorestorationca.com/",
-        "word_count": 1574,
-        "broken_links": false,
-        "broken_resources": false,
-        "duplicate_title": false,
-        "duplicate_description": false,
-        "ttfb_ms": 289,
-        "duration_ms": 461,
-        "connection_ms": 68,
-        "cache_control_ttl": 0
-      }
+      ]
     },
     {
       "url": "https://prorestorationca.com/services/",
       "archetype": "services-hub",
-      "verdict": "amber",
+      "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 99,
+        "performance": 98,
         "accessibility": 90,
         "best_practices": 100,
         "seo": 100
       },
+      "supplemental_scores": {
+        "agentic_browsing": 67
+      },
       "core_web_vitals": {
-        "LCP_ms": 874,
-        "CLS": 0.0018,
+        "LCP_ms": 1016,
+        "CLS": 0.0019,
         "TBT_ms": 0,
         "INP_ms": null
       },
-      "lighthouse_issues": [
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "failing_elements": 1,
-          "display_value": null,
-          "category": "accessibility"
-        },
-        {
-          "id": "link-name",
-          "title": "Links do not have a discernible name",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "failing_elements": 1,
-          "display_value": null,
-          "category": "accessibility"
-        },
-        {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "failing_elements": 1,
-          "display_value": "Est savings of 0\u00a0KiB",
-          "category": "performance"
-        },
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "failing_elements": 9,
-          "display_value": "Est savings of 135\u00a0KiB",
-          "category": "performance"
-        },
-        {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "failing_elements": 2,
-          "display_value": null,
-          "category": "performance"
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "failing_elements": 3,
-          "display_value": null,
-          "category": "performance"
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "failing_elements": 1,
-          "display_value": "Est savings of 50\u00a0ms",
-          "category": "performance"
-        },
-        {
-          "id": "unsized-images",
-          "title": "Image elements do not have explicit `width` and `height`",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "failing_elements": 1,
-          "display_value": null,
-          "category": "performance"
-        }
-      ],
-      "onpage_issues": [
-        {
-          "id": "high_loading_time",
-          "title": "Page load time exceeds the crawler threshold",
-          "severity": "medium"
-        },
-        {
-          "id": "has_render_blocking_resources",
-          "title": "Page has render-blocking resources",
-          "severity": "low"
-        },
-        {
-          "id": "low_content_rate",
-          "title": "Low text-to-HTML content rate",
-          "severity": "low"
-        },
-        {
-          "id": "no_image_title",
-          "title": "Images have no title attribute",
-          "severity": "low"
-        }
-      ],
-      "onpage_meta": {
-        "onpage_score": 92.95,
-        "status_code": 200,
-        "title_len": 61,
-        "description_len": 141,
+      "onpage_metrics": {
+        "title_length": 61,
+        "description_length": 141,
         "h1_count": 1,
         "canonical": "https://prorestorationca.com/services/",
         "word_count": 795,
@@ -271,11 +185,108 @@
         "broken_resources": false,
         "duplicate_title": false,
         "duplicate_description": false,
-        "ttfb_ms": 1673,
-        "duration_ms": 4444,
-        "connection_ms": 285,
-        "cache_control_ttl": 0
-      }
+        "crawler_load_time_ms": 216,
+        "crawler_connection_time_ms": 6
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "failing_elements": 1,
+          "display_value": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "failing_elements": 1,
+          "display_value": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 150,
+          "estimated_savings_bytes": 304943,
+          "failing_elements": 8,
+          "display_value": "Est savings of 298\u00a0KiB",
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 287.70443981481486,
+          "failing_elements": 1,
+          "display_value": "Est savings of 0\u00a0KiB",
+          "category": "performance"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "failing_elements": null,
+          "display_value": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "failing_elements": null,
+          "display_value": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "failing_elements": 1,
+          "display_value": null,
+          "category": "performance"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": 70226,
+          "failing_elements": 1,
+          "display_value": "Est savings of 69\u00a0KiB",
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Page has render-blocking resources",
+          "severity": "low"
+        },
+        {
+          "id": "low_content_rate",
+          "title": "Low text-to-HTML content rate",
+          "severity": "low"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Images have no title attribute",
+          "severity": "low"
+        }
+      ]
     },
     {
       "url": "https://prorestorationca.com/services/water-damage-restoration/",
@@ -283,106 +294,23 @@
       "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 100,
+        "performance": 99,
         "accessibility": 90,
         "best_practices": 100,
         "seo": 100
       },
+      "supplemental_scores": {
+        "agentic_browsing": 67
+      },
       "core_web_vitals": {
-        "LCP_ms": 763,
-        "CLS": 0.0026,
+        "LCP_ms": 956,
+        "CLS": 0.005,
         "TBT_ms": 0,
         "INP_ms": null
       },
-      "lighthouse_issues": [
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "failing_elements": 3,
-          "display_value": null,
-          "category": "accessibility"
-        },
-        {
-          "id": "link-name",
-          "title": "Links do not have a discernible name",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "failing_elements": 1,
-          "display_value": null,
-          "category": "accessibility"
-        },
-        {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "failing_elements": 1,
-          "display_value": "Est savings of 0\u00a0KiB",
-          "category": "performance"
-        },
-        {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "failing_elements": 2,
-          "display_value": null,
-          "category": "performance"
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "failing_elements": 3,
-          "display_value": null,
-          "category": "performance"
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "failing_elements": 1,
-          "display_value": null,
-          "category": "performance"
-        },
-        {
-          "id": "unsized-images",
-          "title": "Image elements do not have explicit `width` and `height`",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "failing_elements": 1,
-          "display_value": null,
-          "category": "performance"
-        }
-      ],
-      "onpage_issues": [
-        {
-          "id": "has_render_blocking_resources",
-          "title": "Page has render-blocking resources",
-          "severity": "low"
-        },
-        {
-          "id": "no_image_title",
-          "title": "Images have no title attribute",
-          "severity": "low"
-        }
-      ],
-      "onpage_meta": {
-        "onpage_score": 100,
-        "status_code": 200,
-        "title_len": 65,
-        "description_len": 133,
+      "onpage_metrics": {
+        "title_length": 65,
+        "description_length": 133,
         "h1_count": 1,
         "canonical": "https://prorestorationca.com/services/water-damage-restoration/",
         "word_count": 1626,
@@ -390,28 +318,8 @@
         "broken_resources": false,
         "duplicate_title": false,
         "duplicate_description": false,
-        "ttfb_ms": 272,
-        "duration_ms": 396,
-        "connection_ms": 38,
-        "cache_control_ttl": 0
-      }
-    },
-    {
-      "url": "https://prorestorationca.com/services/fire-damage-restoration/",
-      "archetype": "service-landing",
-      "verdict": "green",
-      "error_reason": null,
-      "scores": {
-        "performance": 100,
-        "accessibility": 90,
-        "best_practices": 100,
-        "seo": 100
-      },
-      "core_web_vitals": {
-        "LCP_ms": 814,
-        "CLS": 0.0053,
-        "TBT_ms": 0,
-        "INP_ms": null
+        "crawler_load_time_ms": 1447,
+        "crawler_connection_time_ms": 283
       },
       "lighthouse_issues": [
         {
@@ -420,7 +328,7 @@
           "severity": "high",
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
-          "failing_elements": 3,
+          "failing_elements": 2,
           "display_value": null,
           "category": "accessibility"
         },
@@ -435,11 +343,21 @@
           "category": "accessibility"
         },
         {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 100,
+          "estimated_savings_bytes": 115871,
+          "failing_elements": 2,
+          "display_value": "Est savings of 113\u00a0KiB",
+          "category": "performance"
+        },
+        {
           "id": "cache-insight",
           "title": "Use efficient cache lifetimes",
           "severity": "low",
           "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
+          "estimated_savings_bytes": 285.9044120370371,
           "failing_elements": 1,
           "display_value": "Est savings of 0\u00a0KiB",
           "category": "performance"
@@ -450,7 +368,7 @@
           "severity": "low",
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
-          "failing_elements": 2,
+          "failing_elements": null,
           "display_value": null,
           "category": "performance"
         },
@@ -460,7 +378,7 @@
           "severity": "low",
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
-          "failing_elements": 3,
+          "failing_elements": null,
           "display_value": null,
           "category": "performance"
         },
@@ -475,13 +393,13 @@
           "category": "performance"
         },
         {
-          "id": "unsized-images",
-          "title": "Image elements do not have explicit `width` and `height`",
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
           "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
+          "estimated_savings_ms": 100,
+          "estimated_savings_bytes": 70363,
           "failing_elements": 1,
-          "display_value": null,
+          "display_value": "Est savings of 69\u00a0KiB",
           "category": "performance"
         }
       ],
@@ -496,12 +414,31 @@
           "title": "Images have no title attribute",
           "severity": "low"
         }
-      ],
-      "onpage_meta": {
-        "onpage_score": 100,
-        "status_code": 200,
-        "title_len": 64,
-        "description_len": 132,
+      ]
+    },
+    {
+      "url": "https://prorestorationca.com/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 90,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "supplemental_scores": {
+        "agentic_browsing": 67
+      },
+      "core_web_vitals": {
+        "LCP_ms": 926,
+        "CLS": 0.0028,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_metrics": {
+        "title_length": 64,
+        "description_length": 132,
         "h1_count": 1,
         "canonical": "https://prorestorationca.com/services/fire-damage-restoration/",
         "word_count": 1788,
@@ -509,28 +446,8 @@
         "broken_resources": false,
         "duplicate_title": false,
         "duplicate_description": false,
-        "ttfb_ms": 238,
-        "duration_ms": 240,
-        "connection_ms": 34,
-        "cache_control_ttl": 0
-      }
-    },
-    {
-      "url": "https://prorestorationca.com/service-areas/oildale-ca/",
-      "archetype": "service-area",
-      "verdict": "amber",
-      "error_reason": null,
-      "scores": {
-        "performance": 100,
-        "accessibility": 91,
-        "best_practices": 100,
-        "seo": 100
-      },
-      "core_web_vitals": {
-        "LCP_ms": 801,
-        "CLS": 0.0025,
-        "TBT_ms": 0,
-        "INP_ms": null
+        "crawler_load_time_ms": 2031,
+        "crawler_connection_time_ms": 276
       },
       "lighthouse_issues": [
         {
@@ -539,7 +456,7 @@
           "severity": "high",
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
-          "failing_elements": 5,
+          "failing_elements": 2,
           "display_value": null,
           "category": "accessibility"
         },
@@ -554,23 +471,33 @@
           "category": "accessibility"
         },
         {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 100,
+          "estimated_savings_bytes": 104281,
+          "failing_elements": 1,
+          "display_value": "Est savings of 102\u00a0KiB",
+          "category": "performance"
+        },
+        {
           "id": "cache-insight",
           "title": "Use efficient cache lifetimes",
           "severity": "low",
           "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
+          "estimated_savings_bytes": 288.0044444444445,
           "failing_elements": 1,
           "display_value": "Est savings of 0\u00a0KiB",
           "category": "performance"
         },
         {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow",
           "severity": "low",
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
-          "failing_elements": 1,
-          "display_value": "Est savings of 51\u00a0KiB",
+          "failing_elements": null,
+          "display_value": null,
           "category": "performance"
         },
         {
@@ -579,7 +506,7 @@
           "severity": "low",
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
-          "failing_elements": 2,
+          "failing_elements": null,
           "display_value": null,
           "category": "performance"
         },
@@ -589,7 +516,135 @@
           "severity": "low",
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
+          "failing_elements": null,
+          "display_value": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "failing_elements": 1,
+          "display_value": null,
+          "category": "performance"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 100,
+          "estimated_savings_bytes": 70419,
+          "failing_elements": 1,
+          "display_value": "Est savings of 69\u00a0KiB",
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Page has render-blocking resources",
+          "severity": "low"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Images have no title attribute",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "url": "https://prorestorationca.com/service-areas/oildale-ca/",
+      "archetype": "service-area",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 91,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "supplemental_scores": {
+        "agentic_browsing": 67
+      },
+      "core_web_vitals": {
+        "LCP_ms": 996,
+        "CLS": 0.0027,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_metrics": {
+        "title_length": 61,
+        "description_length": 121,
+        "h1_count": 1,
+        "canonical": "https://prorestorationca.com/service-areas/oildale-ca/",
+        "word_count": 1353,
+        "broken_links": false,
+        "broken_resources": false,
+        "duplicate_title": false,
+        "duplicate_description": false,
+        "crawler_load_time_ms": 286,
+        "crawler_connection_time_ms": 13
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
           "failing_elements": 3,
+          "display_value": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "link-name",
+          "title": "Links do not have a discernible name",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "failing_elements": 1,
+          "display_value": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 150,
+          "estimated_savings_bytes": 235642,
+          "failing_elements": 2,
+          "display_value": "Est savings of 230\u00a0KiB",
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": 285.60330555555555,
+          "failing_elements": 1,
+          "display_value": "Est savings of 0\u00a0KiB",
+          "category": "performance"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "failing_elements": null,
+          "display_value": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "failing_elements": null,
           "display_value": null,
           "category": "performance"
         },
@@ -604,27 +659,17 @@
           "category": "performance"
         },
         {
-          "id": "unsized-images",
-          "title": "Image elements do not have explicit `width` and `height`",
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
           "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": 70281,
           "failing_elements": 1,
-          "display_value": null,
+          "display_value": "Est savings of 69\u00a0KiB",
           "category": "performance"
         }
       ],
       "onpage_issues": [
-        {
-          "id": "high_loading_time",
-          "title": "Page load time exceeds the crawler threshold",
-          "severity": "medium"
-        },
-        {
-          "id": "frame",
-          "title": "Page embeds an iframe",
-          "severity": "low"
-        },
         {
           "id": "has_render_blocking_resources",
           "title": "Page has render-blocking resources",
@@ -634,42 +679,46 @@
           "id": "no_image_title",
           "title": "Images have no title attribute",
           "severity": "low"
+        },
+        {
+          "id": "frame",
+          "title": "Page embeds an iframe",
+          "severity": "low"
         }
-      ],
-      "onpage_meta": {
-        "onpage_score": 92.95,
-        "status_code": 200,
-        "title_len": 61,
-        "description_len": 121,
-        "h1_count": 1,
-        "canonical": "https://prorestorationca.com/service-areas/oildale-ca/",
-        "word_count": 1353,
-        "broken_links": false,
-        "broken_resources": false,
-        "duplicate_title": false,
-        "duplicate_description": false,
-        "ttfb_ms": 1333,
-        "duration_ms": 3318,
-        "connection_ms": 288,
-        "cache_control_ttl": 0
-      }
+      ]
     },
     {
       "url": "https://prorestorationca.com/contact/",
       "archetype": "contact",
-      "verdict": "amber",
+      "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 100,
+        "performance": 97,
         "accessibility": 91,
         "best_practices": 100,
         "seo": 100
       },
+      "supplemental_scores": {
+        "agentic_browsing": 66
+      },
       "core_web_vitals": {
-        "LCP_ms": 771,
-        "CLS": 0.0211,
+        "LCP_ms": 1181,
+        "CLS": 0.0631,
         "TBT_ms": 0,
         "INP_ms": null
+      },
+      "onpage_metrics": {
+        "title_length": 65,
+        "description_length": 130,
+        "h1_count": 1,
+        "canonical": "https://prorestorationca.com/contact/",
+        "word_count": 673,
+        "broken_links": false,
+        "broken_resources": false,
+        "duplicate_title": false,
+        "duplicate_description": false,
+        "crawler_load_time_ms": 250,
+        "crawler_connection_time_ms": 5
       },
       "lighthouse_issues": [
         {
@@ -693,23 +742,23 @@
           "category": "accessibility"
         },
         {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 150,
+          "estimated_savings_bytes": 303941,
+          "failing_elements": 2,
+          "display_value": "Est savings of 297\u00a0KiB",
+          "category": "performance"
+        },
+        {
           "id": "cache-insight",
           "title": "Use efficient cache lifetimes",
           "severity": "low",
           "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
+          "estimated_savings_bytes": 286.20331250000004,
           "failing_elements": 1,
           "display_value": "Est savings of 0\u00a0KiB",
-          "category": "performance"
-        },
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "failing_elements": 1,
-          "display_value": "Est savings of 118\u00a0KiB",
           "category": "performance"
         },
         {
@@ -718,7 +767,7 @@
           "severity": "low",
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
-          "failing_elements": 2,
+          "failing_elements": null,
           "display_value": null,
           "category": "performance"
         },
@@ -728,7 +777,7 @@
           "severity": "low",
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
-          "failing_elements": 3,
+          "failing_elements": null,
           "display_value": null,
           "category": "performance"
         },
@@ -739,26 +788,21 @@
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
           "failing_elements": 1,
-          "display_value": null,
+          "display_value": "Est savings of 20\u00a0ms",
           "category": "performance"
         },
         {
-          "id": "unsized-images",
-          "title": "Image elements do not have explicit `width` and `height`",
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
           "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
+          "estimated_savings_ms": 100,
+          "estimated_savings_bytes": 69019,
           "failing_elements": 1,
-          "display_value": null,
+          "display_value": "Est savings of 67\u00a0KiB",
           "category": "performance"
         }
       ],
       "onpage_issues": [
-        {
-          "id": "high_loading_time",
-          "title": "Page load time exceeds the crawler threshold",
-          "severity": "medium"
-        },
         {
           "id": "has_render_blocking_resources",
           "title": "Page has render-blocking resources",
@@ -769,29 +813,12 @@
           "title": "Images have no title attribute",
           "severity": "low"
         }
-      ],
-      "onpage_meta": {
-        "onpage_score": 92.95,
-        "status_code": 200,
-        "title_len": 65,
-        "description_len": 130,
-        "h1_count": 1,
-        "canonical": "https://prorestorationca.com/contact/",
-        "word_count": 673,
-        "broken_links": false,
-        "broken_resources": false,
-        "duplicate_title": false,
-        "duplicate_description": false,
-        "ttfb_ms": 1712,
-        "duration_ms": 4567,
-        "connection_ms": 280,
-        "cache_control_ttl": 0
-      }
+      ]
     }
   ],
   "site_rollup": {
     "avg_scores": {
-      "performance": 99.7,
+      "performance": 98.3,
       "accessibility": 91.3,
       "best_practices": 100.0,
       "seo": 100.0
@@ -799,8 +826,8 @@
     "verdict": "amber",
     "url_count": 6,
     "urls_by_verdict": {
-      "green": 2,
-      "amber": 4,
+      "green": 5,
+      "amber": 1,
       "red": 0,
       "error": 0
     },
@@ -810,6 +837,12 @@
         "title": "Links do not have a discernible name",
         "affected_urls": 6,
         "severity": "high"
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "affected_urls": 6,
+        "severity": "medium"
       },
       {
         "id": "cache-insight",
@@ -842,8 +875,8 @@
         "severity": "low"
       },
       {
-        "id": "unsized-images",
-        "title": "Image elements do not have explicit `width` and `height`",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
         "affected_urls": 6,
         "severity": "low"
       },
@@ -860,16 +893,10 @@
         "severity": "low"
       },
       {
-        "id": "image-delivery-insight",
-        "title": "Improve image delivery",
-        "affected_urls": 4,
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
+        "affected_urls": 2,
         "severity": "low"
-      },
-      {
-        "id": "high_loading_time",
-        "title": "Page load time exceeds the crawler threshold",
-        "affected_urls": 3,
-        "severity": "medium"
       },
       {
         "id": "low_content_rate",
@@ -883,19 +910,7 @@
         "url": "https://prorestorationca.com/",
         "archetype": "home",
         "verdict": "amber",
-        "main_issue": "cold-fetch load 461ms; on-page: description_length_out_of_range"
-      },
-      {
-        "url": "https://prorestorationca.com/services/",
-        "archetype": "services-hub",
-        "verdict": "amber",
-        "main_issue": "accessibility 90; cold-fetch load 4444ms; on-page: high_loading_time"
-      },
-      {
-        "url": "https://prorestorationca.com/contact/",
-        "archetype": "contact",
-        "verdict": "amber",
-        "main_issue": "accessibility 91; cold-fetch load 4567ms; on-page: high_loading_time"
+        "main_issue": "meta description 184 chars (target 70-160); accessibility 96 (empty footer mailto link); LCP 1.05s, up from 0.77s"
       }
     ]
   },
@@ -912,19 +927,242 @@
       "severity": "medium"
     }
   ],
-  "environment_caveats": [
-    "Audited the apex production origin; staging noindex correction does not apply. Apex GET / returns 200 with no x-robots-tag.",
-    "Lighthouse ran DESKTOP (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240). Mobile scores would typically run 10-20 performance points lower. The direct REST path does expose for_mobile, so a mobile baseline can be added in a future run.",
-    "DataForSEO check has_micromarkup=false on all 6 URLs is a FALSE POSITIVE: that check detects microdata/RDFa itemscope only. All 6 pages ship valid JSON-LD (verified by fetching the HTML). Not recorded as an issue.",
-    "DataForSEO check is_https=true is a pass, not a defect. Not recorded as an issue.",
-    "clients/prorestoration.json has status=pending, not active. build_status=pushed_main and the apex origin serves 200, so the audit proceeded. The pending status reflects outstanding intake items, not site availability."
-  ],
   "regression": {
-    "prior_run_at": null,
-    "score_deltas": null,
-    "verdict_transitions": [],
-    "new_issues": [],
-    "resolved_issues": [],
-    "note": "First audit for this client - no comparison data."
+    "prior_run_at": "2026-08-27T05:34:00Z",
+    "score_deltas": {
+      "performance": -1.4,
+      "accessibility": 0.0,
+      "best_practices": 0.0,
+      "seo": 0.0
+    },
+    "per_url": [
+      {
+        "url": "https://prorestorationca.com/",
+        "score_deltas": {
+          "performance": -1,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 290,
+          "CLS": 0.0179,
+          "TBT_ms": 0
+        }
+      },
+      {
+        "url": "https://prorestorationca.com/services/",
+        "score_deltas": {
+          "performance": -1,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 142,
+          "CLS": 0.0001,
+          "TBT_ms": 0
+        }
+      },
+      {
+        "url": "https://prorestorationca.com/services/water-damage-restoration/",
+        "score_deltas": {
+          "performance": -1,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 193,
+          "CLS": 0.0024,
+          "TBT_ms": 0
+        }
+      },
+      {
+        "url": "https://prorestorationca.com/services/fire-damage-restoration/",
+        "score_deltas": {
+          "performance": -1,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 112,
+          "CLS": -0.0025,
+          "TBT_ms": 0
+        }
+      },
+      {
+        "url": "https://prorestorationca.com/service-areas/oildale-ca/",
+        "score_deltas": {
+          "performance": -1,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 195,
+          "CLS": 0.0002,
+          "TBT_ms": 0
+        }
+      },
+      {
+        "url": "https://prorestorationca.com/contact/",
+        "score_deltas": {
+          "performance": -3,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 410,
+          "CLS": 0.042,
+          "TBT_ms": 0
+        }
+      }
+    ],
+    "score_regressions": [],
+    "cwv_regressions": [
+      {
+        "url": "https://prorestorationca.com/",
+        "metric": "LCP_ms",
+        "from": 765,
+        "to": 1055,
+        "delta": 290
+      },
+      {
+        "url": "https://prorestorationca.com/contact/",
+        "metric": "LCP_ms",
+        "from": 771,
+        "to": 1181,
+        "delta": 410
+      },
+      {
+        "url": "https://prorestorationca.com/contact/",
+        "metric": "CLS",
+        "from": 0.0211,
+        "to": 0.0631,
+        "delta": 0.042
+      }
+    ],
+    "verdict_transitions": [
+      {
+        "url": "https://prorestorationca.com/services/",
+        "from": "amber",
+        "to": "green",
+        "direction": "improved"
+      },
+      {
+        "url": "https://prorestorationca.com/service-areas/oildale-ca/",
+        "from": "amber",
+        "to": "green",
+        "direction": "improved"
+      },
+      {
+        "url": "https://prorestorationca.com/contact/",
+        "from": "amber",
+        "to": "green",
+        "direction": "improved"
+      }
+    ],
+    "new_issues": [
+      {
+        "url": "https://prorestorationca.com/",
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
+      },
+      {
+        "url": "https://prorestorationca.com/services/fire-damage-restoration/",
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
+      },
+      {
+        "url": "https://prorestorationca.com/services/fire-damage-restoration/",
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery"
+      },
+      {
+        "url": "https://prorestorationca.com/services/water-damage-restoration/",
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery"
+      },
+      {
+        "url": "https://prorestorationca.com/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://prorestorationca.com/contact/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://prorestorationca.com/service-areas/oildale-ca/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://prorestorationca.com/services/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://prorestorationca.com/services/fire-damage-restoration/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://prorestorationca.com/services/water-damage-restoration/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      }
+    ],
+    "resolved_issues": [
+      {
+        "url": "https://prorestorationca.com/contact/",
+        "id": "high_loading_time",
+        "title": "Page load time exceeds the crawler threshold"
+      },
+      {
+        "url": "https://prorestorationca.com/service-areas/oildale-ca/",
+        "id": "high_loading_time",
+        "title": "Page load time exceeds the crawler threshold"
+      },
+      {
+        "url": "https://prorestorationca.com/services/",
+        "id": "high_loading_time",
+        "title": "Page load time exceeds the crawler threshold"
+      },
+      {
+        "url": "https://prorestorationca.com/",
+        "id": "unsized-images",
+        "title": "Image elements do not have explicit `width` and `height`"
+      },
+      {
+        "url": "https://prorestorationca.com/contact/",
+        "id": "unsized-images",
+        "title": "Image elements do not have explicit `width` and `height`"
+      },
+      {
+        "url": "https://prorestorationca.com/service-areas/oildale-ca/",
+        "id": "unsized-images",
+        "title": "Image elements do not have explicit `width` and `height`"
+      },
+      {
+        "url": "https://prorestorationca.com/services/",
+        "id": "unsized-images",
+        "title": "Image elements do not have explicit `width` and `height`"
+      },
+      {
+        "url": "https://prorestorationca.com/services/fire-damage-restoration/",
+        "id": "unsized-images",
+        "title": "Image elements do not have explicit `width` and `height`"
+      },
+      {
+        "url": "https://prorestorationca.com/services/water-damage-restoration/",
+        "id": "unsized-images",
+        "title": "Image elements do not have explicit `width` and `height`"
+      }
+    ]
   }
 }

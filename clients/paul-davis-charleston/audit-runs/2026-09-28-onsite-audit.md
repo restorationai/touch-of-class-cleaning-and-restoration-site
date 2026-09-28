@@ -42,5 +42,6 @@ Note: no service-area entry has `primary: true`, and the client record has no `b
 
 ## Notes / caveats
 
+- Re-checked in a later run on 2026-09-28: nothing has changed. `staging.rankai-paul-davis-charleston.pages.dev` still fails DNS (`Could not resolve host`), `rankai-paul-davis-charleston.pages.dev` also fails, and the control `staging.rankai-tdi-builders.pages.dev` returns 200 with `x-robots-tag: noindex`. The client record still has `status: onboarding` and `domain: null`. No DataForSEO calls were made and no state file was written.
 - When the audit does run, Lighthouse will be desktop-only through the DataForSEO wrapper. Expect mobile performance scores to be 10-20 points lower.
 - A staging audit will apply the noindex SEO-exclusion correction, so SEO will stay inconclusive until apex cutover.

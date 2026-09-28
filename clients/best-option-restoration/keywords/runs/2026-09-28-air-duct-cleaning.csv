@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+dryer vent cleaning,transactional,201000,5,21.71,2,air duct cleaning,,,false
+air duct cleaning,transactional,90500,21,24.41,2,air duct cleaning,,,false
+air duct cleaning near me,transactional,90500,1,24.01,2,air duct cleaning,,,false
+duct cleaning near me,transactional,90500,3,24.01,2,air duct cleaning,,,false
+air duct cleaning service,transactional,40500,30,20.71,2,air duct cleaning,,,false
+dryer vent cleaning near me,transactional,33100,17,20.84,2,air duct cleaning,,,false
+air duct cleaning service near me,transactional,9900,17,24.46,2,air duct cleaning,,,false
+air duct cleaning company,transactional,8100,18,26.09,2,air duct cleaning,,,false
+hvac duct cleaning,transactional,8100,25,20.99,2,air duct cleaning,,,false
+hvac cleaning,transactional,6600,31,22.83,2,air duct cleaning,,,false
+ac duct cleaning,transactional,6600,21,29.02,2,air duct cleaning,,,false
+air duct inspection,transactional,1900,11,22.79,2,air duct cleaning,,,false
+nadca certified duct cleaning,transactional,1900,,14.53,2,air duct cleaning,,,false
+commercial air duct cleaning,transactional,1600,2,30.74,2,air duct cleaning,,,false
+residential air duct cleaning near me,transactional,1000,19,21.78,2,air duct cleaning,,,false
+air duct sanitizing,transactional,720,2,6.25,2,air duct cleaning,,,false
+air duct mold removal,transactional,480,2,19.17,2,air duct cleaning,,,false
+residential air duct cleaning service,transactional,170,17,59.97,2,air duct cleaning,,,false
+air duct cleaning cost,commercial,9900,,15.01,2,air duct cleaning,,,false
+dryer duct cleaning cost,commercial,4400,,14.41,2,air duct cleaning,,,false
+how much does air duct cleaning cost,commercial,3600,,9.86,2,air duct cleaning,,,false
+best air duct cleaning near me,commercial,2900,17,17.96,2,air duct cleaning,,,false
+is duct cleaning a waste of money,commercial,1900,,10.47,2,air duct cleaning,,,false
+is air duct cleaning worth it,commercial,1300,20,10.74,2,air duct cleaning,,,false
+air duct cleaning scams,commercial,260,,16.23,2,air duct cleaning,,,false
+duct cleaning cost calculator,commercial,170,,11.03,2,air duct cleaning,,,false
+residential air duct cleaning cost,commercial,110,3,11.78,2,air duct cleaning,,,false
+why is my house so dusty,informational,3600,,0.64,2,air duct cleaning,,,false
+mold in air ducts,informational,2900,2,13.16,2,air duct cleaning,,,false
+black mold in air ducts,informational,1300,,13.34,2,air duct cleaning,,,false
+how often should air ducts be cleaned,informational,1000,4,11.45,2,air duct cleaning,,,false
+how to clean air ducts yourself,informational,1000,1,2.31,2,air duct cleaning,,,false
+how often should you clean air ducts,informational,880,6,11.83,2,air duct cleaning,,,false
+how long does air duct cleaning take,informational,880,,12.55,2,air duct cleaning,,,false
+air duct cleaning benefits,informational,590,,9.43,2,air duct cleaning,,,false
+air duct cleaning process,informational,390,4,12.18,2,air duct cleaning,,,false
+air duct cleaning before and after,informational,320,,10.25,2,air duct cleaning,,,false
+how is air duct cleaning done,informational,210,7,6.56,2,air duct cleaning,,,false
+does air duct cleaning remove mold,informational,90,,9.27,2,air duct cleaning,,,false
+stanley steemer air duct cleaning,navigational,6600,,10.77,3,air duct cleaning,,,false

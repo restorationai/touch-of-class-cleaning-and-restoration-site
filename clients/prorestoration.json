@@ -22,7 +22,7 @@
   },
   "status": "pending",
   "created_at": "2026-07-08T16:12:33.269867+00:00",
-  "updated_at": "2026-09-28T02:58:36.958243+00:00",
+  "updated_at": "2026-09-28T23:40:00Z",
   "company_id": "CO-1779551010975",
   "nap": {
     "name": "ProRestoration Services Inc",
@@ -83,9 +83,9 @@
     "mapped_at": "2026-08-12T15:45:02+00:00"
   },
   "audit": {
-    "last_audit_at": "2026-08-27T05:34:00Z",
+    "last_audit_at": "2026-09-28T23:40:00Z",
     "last_audit_verdict": "amber",
-    "last_audit_report_path": "audit-runs/2026-08-27-onsite-audit.md"
+    "last_audit_report_path": "audit-runs/2026-09-28-onsite-audit.md"
   },
   "brightlocal": {
     "location_id": 4147629,

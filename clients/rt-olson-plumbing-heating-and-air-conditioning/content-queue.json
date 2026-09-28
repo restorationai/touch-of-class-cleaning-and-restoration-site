@@ -266,6 +266,120 @@
       "external_authority_candidates": [],
       "notes": "2,400/mo at KD 0 and zero competition (competition_index 1): the cheapest win in this seed. Low direct dispatch value, high trust and AI-answer value, and it lands people on the site while they already have a plumber in the house. Answer the question in the first 40 words (no, tipping is not expected; cash tips on holidays or brutal after-hours calls are appreciated but never required), then pivot to the alternatives that actually help a local shop: a Google review, referrals, cold drinks. Point the review CTA at the GBP review link on file.",
       "source": "rank-ai-keyword-researcher"
+    },
+    {
+      "id": "2026-09-28-emergency-plumber-cost",
+      "status": "queued",
+      "queued_at": "2026-09-28T12:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "emergency plumber cost",
+      "intent": "commercial",
+      "volume": 390,
+      "kd": 0,
+      "fan_out_cluster": [
+        "how much does an emergency plumber cost",
+        "emergency plumber cost per hour",
+        "24 hour plumber cost",
+        "do plumbers charge more on weekends",
+        "what counts as a plumbing emergency",
+        "when to call an emergency plumber"
+      ],
+      "suggested_slug": "emergency-plumber-cost",
+      "suggested_title": "Emergency plumber cost in Corona: after-hours, weekend and holiday rates explained",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/emergency-plumbing/",
+        "/blog/how-much-does-a-plumber-cost/",
+        "/services/leak-detection/",
+        "/blog/what-to-do-burst-pipe/"
+      ],
+      "service_tags": [
+        "emergency-plumbing",
+        "leak-detection"
+      ],
+      "city_anchor": "corona-ca",
+      "external_authority_candidates": [
+        "https://www.cslb.ca.gov/Consumers/"
+      ],
+      "notes": "Deeper companion to the written general cost post (link to it, do not repeat its per-job price table). Cover what drives after-hours pricing (trip or dispatch fee, overtime labor, weekend and holiday premiums), when waiting until morning is safe vs when it is not, and how to shut off water to limit the bill. Brand hours are 24/7 so 24/7 claims are allowed. Only cite price ranges the writer can source; no invented rates."
+    },
+    {
+      "id": "2026-09-28-how-to-shut-off-main-water-valve",
+      "status": "queued",
+      "queued_at": "2026-09-28T12:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to shut off main water valve",
+      "intent": "informational",
+      "volume": 880,
+      "kd": 17,
+      "fan_out_cluster": [
+        "where is the main water shut off valve in my house",
+        "how to turn off water at the street meter",
+        "what to do in a plumbing emergency",
+        "main water valve stuck or will not turn",
+        "how to shut off water to a water heater",
+        "should you shut off water when you go on vacation"
+      ],
+      "suggested_slug": "how-to-shut-off-main-water-valve",
+      "suggested_title": "How to shut off main water valve in your Riverside home (and find it fast)",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/emergency-plumbing/",
+        "/services/leak-detection/",
+        "/services/repiping/",
+        "/blog/what-to-do-burst-pipe/"
+      ],
+      "service_tags": [
+        "emergency-plumbing",
+        "leak-detection",
+        "repiping"
+      ],
+      "city_anchor": "riverside-ca",
+      "external_authority_candidates": [
+        "https://www.epa.gov/watersense/fix-leak-week",
+        "https://www.redcross.org/get-help/how-to-prepare-for-emergencies.html"
+      ],
+      "notes": "ChatGPT's answer to 'emergency plumber' leads with 'shut off your main water valve first', so this is the passage AI engines already want to cite. Open with a 3-step answer capsule. Cover typical SoCal locations (garage wall, exterior hose-bib side near the front, street meter box), gate vs ball valves, and a stuck-valve warning. Link to the burst pipe blog post; stop at stopping the water (no water damage drying content)."
+    },
+    {
+      "id": "2026-09-28-is-a-leaking-water-heater-an-emergency",
+      "status": "queued",
+      "queued_at": "2026-09-28T12:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "is a leaking water heater an emergency",
+      "intent": "informational",
+      "volume": 70,
+      "kd": 0,
+      "fan_out_cluster": [
+        "water heater leaking from the bottom",
+        "water heater leaking from the pressure relief valve",
+        "how to shut off water to a water heater",
+        "can I use hot water if my water heater is leaking",
+        "repair or replace a leaking water heater",
+        "is a clogged toilet an emergency"
+      ],
+      "suggested_slug": "is-a-leaking-water-heater-an-emergency",
+      "suggested_title": "Is a leaking water heater an emergency? What Anaheim homeowners should do first",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/water-heater-repair/",
+        "/services/water-heater-installation/",
+        "/services/emergency-plumbing/",
+        "/blog/water-heater-lifespan-repair-or-replace/"
+      ],
+      "service_tags": [
+        "water-heater-repair",
+        "water-heater-installation",
+        "emergency-plumbing"
+      ],
+      "city_anchor": "anaheim-ca",
+      "external_authority_candidates": [
+        "https://www.energy.gov/energysaver/water-heating"
+      ],
+      "notes": "Triage by leak location (fittings and drain valve vs T&P valve vs tank body). Safety first: if the unit is gas and there is a gas smell, leave and call the gas utility or 911 before calling a plumber. Explain shutting off the cold supply and gas or power. Link to the repair-vs-replace lifespan post rather than repeating it."
     }
   ]
 }
