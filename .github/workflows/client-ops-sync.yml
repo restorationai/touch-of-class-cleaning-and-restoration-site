@@ -188,6 +188,9 @@ jobs:
           # Parity placeId resolution (2026-09-18 wipe postmortem): every
           # serviceArea place is geocoded to a placeId before writing.
           GEOCODING_API_KEY:         ${{ secrets.GEOCODING_API_KEY }}
+          # Site-photo parity lane write gate (unset = report mode).
+          GBP_SITE_PHOTOS_WRITE:     ${{ vars.GBP_SITE_PHOTOS_WRITE }}
+          GBP_SITE_PHOTOS_WEEKLY_CAP: ${{ vars.GBP_SITE_PHOTOS_WEEKLY_CAP }}
           # The watchdog's alert SMS rides the concierge ops-ping path.
           GHL_API_KEY:               ${{ secrets.GHL_API_KEY }}
           GHL_LOCATION_ID:           ${{ secrets.GHL_LOCATION_ID }}
@@ -244,6 +247,16 @@ jobs:
           # on GBP, home county pinned, fill-to-20 from the Census
           # gazetteer). Site-side city builds stay gated (--apply-site).
           python3 scripts/gbp_parity.py --all --apply --apply-site --max-new-cities 1 || true
+          # SITE-PHOTO PARITY LANE (2026-09-28): per client (one process +
+          # timeout each, LAW 09-19): refresh the site-assets mirror the app's
+          # GBP Profile Planner drafts from, then add up to 3 website images
+          # per rolling week to the GBP, only when the real domain answers AND
+          # the GBP is verified; ledger ops_kv gbp-site-media/{cid} dedupes.
+          # REPORT MODE until the owner flips repo variable
+          # GBP_SITE_PHOTOS_WRITE=1 (--apply alone never writes).
+          for s in $(python3 scripts/gbp_site_media.py list-due | python3 -c "import json,sys; print(' '.join(json.load(sys.stdin)))"); do
+            timeout 240 python3 scripts/gbp_site_media.py run --slug "$s" --apply || echo "gbp_site_media $s failed (non-fatal)"
+          done
           # D1 PIPELINE WATCHDOG (2026-09-17): workflows + engine
           # heartbeats + per-client coverage assertions + content SLA.
           # Every silent failure class from the RX postmortem alerts
