@@ -290,6 +290,24 @@ Wording, headlines, a wrong phone number or service.
 - Rendered copy lives in `sites/{slug}/src/content/**/*.md`. Edit the smallest
   surface that does the job, then run claims lint.
 
+### Call commitments
+
+`[DEV] {slug}: CALL COMMITMENT ...` notes are things WE promised on a client
+call (2026-09-28: they no longer wait for Santino's approval). Many are not
+site edits: citations/listings, call-tracking numbers, review campaigns, the
+app's AI receptionist settings and alert contacts, GBP photos/services/NAP
+via the API, location scouting, ad attribution checks. Rules:
+
+- Do every step our tools can do, end to end, and verify from the outside.
+- Hand back NEEDS INPUT only for the step that truly needs a person (a
+  client upload that hasn't arrived, a portal login we don't hold) and name
+  that step exactly. Never punt the whole task for one blocked step.
+- Never do the manual GBP business-name edit, DNS/registrar work, or
+  anything that spends the client's money; those route to Santino upstream.
+  If one is buried in your task, finish the rest and name it.
+- A note with a `ORIGIN: client-feedback` line means the client is waiting:
+  `dev_inbox.py done` texts them automatically. Without it, finish silently.
+
 ### Phone numbers
 
 These run without a human now (Santino 2026-09-28), so know how the numbers
