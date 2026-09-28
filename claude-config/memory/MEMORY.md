@@ -85,3 +85,7 @@
 - [RTO/BDA + embed CSP fleet gap](rto-bda-embed-csp.md) — BDA Digital crew IDs + GA4/GTM grants; frame-ancestors blocks /embed/ iframing fleet-wide, only rt-olson fixed
 - [CC Owner on Third-Party Emails](cc-owner-on-third-party-emails.md) — LAW 09-17: owner always CCd on vendor/associate threads about their account
 - [No-Show Human-Only](noshow-human-only.md) — LAW 09-18 (Amin incident): automation never marks no-show; noshow_checker auto-bury branch must go report-only (fix the standalone Call-List repo)
+- [LSA Policies + Diagnostics](lsa-policies-and-diagnostics.md) — 09-27: no tracking numbers on LSA, message leads + brand search OFF, 0s-call streak = dead forwarding (DryCor), API can't touch profile phone/toggles on legacy LSA; don't unlink A&J
+- [One-off Sends via Monica](oneoff-sends-via-monica.md) — 09-27: client one-offs ONLY via scripts/monica_oneoff.py (ledger + [CONTEXT] note); raw GHL sends silence Monica (Rachelle case)
+- [Verification Code Self-Fetch](verification-code-self-fetch.md) — 09-27: 2FA codes via scripts/verification_code.py (Apple uses a new sender each time); never ask Santino, check timestamps
+- [Gray-Area Results Stance](gray-area-results-stance.md) — LAW 09-27: results-first gray area (self-ranking listicles, awards, confident credit tied to real work); still no fake reviews/impersonation/invented verification
