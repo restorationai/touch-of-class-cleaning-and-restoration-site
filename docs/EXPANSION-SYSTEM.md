@@ -101,3 +101,13 @@ Restoration companies almost always get **video verification**. What Google's re
 - **Facebook Marketplace listings:** Mac Mini logged-in browser lane (Marketplace is login-walled and not indexed).
 - **Per-location citation ladders and review routing.**
 - **"Expansion" section in the Locations tab:** scout, office options, outreach status and per-location profile status in one view.
+
+## Entity structure: one LLC + a DBA per location (default)
+
+Santino asked 2026-09-28 (Dry One Out: Vista + Hayward; planned Temecula/Vista/San Diego pins) whether each GBP needs its own LLC. Default answer: **no.**
+- **Google's rules:** one legal business may run many GBPs, one per real location, with no separate LLC required (chains do this under one entity). What Google checks at verification: the name matches something real (a DBA/FBN or the legal name), the address is a real place you control (lease/utility bill), and the video shows signage, equipment and access.
+- **Structure:** the client's existing LLC acts as the holding company. It files one DBA/FBN per location name ("{Brand} of {City}" or the keyword name) in the county of that location (Rob Carpenter filed in 3 counties). Each location gets its own address, phone, Google account/email, site page and verification documents (DBA + lease).
+- **Why not separate LLCs by default (California especially):** CA charges an $800/yr minimum franchise tax per LLC; a CSLB contractor license belongs to the ENTITY, so a new LLC would need its own license, bond and workers' comp before it could legally do restoration/construction work; plus separate EIN, bank account, tax return and insurance per LLC.
+- **When a separate LLC makes sense:** a genuinely separate division (e.g. Dry One Out's construction-heavy Hayward vs restoration-first Vista), different ownership/partners, liability separation the client wants anyway, or states where LLCs are cheap and licensing isn't entity-bound. Their CPA/attorney makes the final call.
+- **Suspension isolation** comes from separate Google accounts/emails, phones, addresses and payment methods per location, not from the LLC. Google links profiles by accounts and signals, not state filings.
+- **Several pins in one metro** (Temecula / Vista / San Diego): allowed when each is a real location. They're far enough apart that each ranks in its own radius.
