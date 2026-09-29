@@ -352,6 +352,70 @@
       ],
       "tier": "restoration",
       "priority": 7
+    },
+    {
+      "slug": "24-7-emergency-water-cleanup",
+      "display_name": "24/7 Emergency Water Cleanup",
+      "short_name": "24/7 Emergency Water",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [],
+      "tier": "adjacent",
+      "priority": 5
+    },
+    {
+      "slug": "basement-sewage-cleanup",
+      "display_name": "Basement Sewage Cleanup",
+      "short_name": "Basement Sewage Cleanup",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [],
+      "tier": "adjacent",
+      "priority": 5,
+      "content_guardrails": "sensitive"
+    },
+    {
+      "slug": "bathroom-remodeler",
+      "display_name": "Bathroom Remodeler",
+      "short_name": "Bathroom Remodeler",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [],
+      "tier": "adjacent",
+      "priority": 5
+    },
+    {
+      "slug": "carpet-upholstery-cleaning",
+      "display_name": "Carpet & Upholstery Cleaning",
+      "short_name": "Carpet & Upholstery",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [],
+      "tier": "adjacent",
+      "priority": 5
+    },
+    {
+      "slug": "carpet-water-extraction",
+      "display_name": "Carpet Water Extraction",
+      "short_name": "Carpet Water Extraction",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [],
+      "tier": "adjacent",
+      "priority": 5
+    },
+    {
+      "slug": "general-contractor",
+      "display_name": "General Contractor",
+      "short_name": "General Contractor",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [],
+      "tier": "adjacent",
+      "priority": 5
+    },
+    {
+      "slug": "post-construction-specialty-cleaning",
+      "display_name": "Post-Construction & Specialty Cleaning",
+      "short_name": "Post-Construction & Specialty",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [],
+      "tier": "adjacent",
+      "priority": 5
     }
   ]
 }

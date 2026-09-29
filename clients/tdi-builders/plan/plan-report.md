@@ -1,21 +1,21 @@
-# Site Plan Report — TDI USA, Inc.
+# Site Plan Report — TDI Builders
 
 - Template: `construction` v0.1.0
-- Generated: 2026-09-21T19:19:28.578667+00:00
+- Generated: 2026-09-29T23:13:49.533016+00:00
 - Domain: `tdiusa.com`
-- Services selected: 12 of 23 catalog entries
+- Services selected: 19 of 30 catalog entries
 - Service areas: 29
 - Cross-product enabled: True
-- Total URLs: **393**
-- Total internal links: 3152 (avg 8.0 per page)
+- Total URLs: **596**
+- Total internal links: 4832 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 336 |
+| `service-area-service` | 532 |
 | `service-area` | 28 |
-| `service-landing` | 12 |
+| `service-landing` | 19 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -39,6 +39,13 @@
 - `bathroom-remodeling` — Bathroom Remodeling (core, priority 9)
 - `garage-construction` — Garage Construction (specialty, priority 6)
 - `room-addition` — Room Additions and Home Additions (core, priority 8)
+- `24-7-emergency-water-cleanup` — 24/7 Emergency Water Cleanup (adjacent, priority 5)
+- `basement-sewage-cleanup` — Basement Sewage Cleanup (adjacent, priority 5)
+- `bathroom-remodeler` — Bathroom Remodeler (adjacent, priority 5)
+- `carpet-upholstery-cleaning` — Carpet & Upholstery Cleaning (adjacent, priority 5)
+- `carpet-water-extraction` — Carpet Water Extraction (adjacent, priority 5)
+- `general-contractor` — General Contractor (adjacent, priority 5)
+- `post-construction-specialty-cleaning` — Post-Construction & Specialty Cleaning (adjacent, priority 5)
 
 ## Service areas
 

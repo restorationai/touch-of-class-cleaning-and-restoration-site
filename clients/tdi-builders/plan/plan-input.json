@@ -1,11 +1,11 @@
 {
   "brand": {
-    "display_name": "TDI USA, Inc.",
+    "display_name": "TDI Builders",
     "lat": 38.6446,
     "lng": -121.5058,
     "phone": "(877) 688-0866",
     "email": "",
-    "street_address": "701 Del Paso Rd",
+    "street_address": "701 Del Paso Road Suite 200",
     "city": "Sacramento",
     "state": "CA",
     "postal_code": "95834",
@@ -53,10 +53,16 @@
     "ga4_measurement_id": "G-HCNBG7B9HN"
   },
   "second_location": {
-    "street_address": "1086 Bessemer Ave, Suite #G",
+    "street_address": "1086 Bessemer Ave Suite B",
     "city": "Manteca",
     "state": "CA",
     "postal_code": "95337"
+  },
+  "third_location": {
+    "street_address": "1015 12th Street",
+    "city": "Modesto",
+    "state": "CA",
+    "postal_code": "95354"
   },
   "services": [
     "commercial-construction",
@@ -70,154 +76,190 @@
     "kitchen-remodeling",
     "bathroom-remodeling",
     "garage-construction",
-    "room-addition"
+    "room-addition",
+    "24-7-emergency-water-cleanup",
+    "basement-sewage-cleanup",
+    "bathroom-remodeler",
+    "carpet-upholstery-cleaning",
+    "carpet-water-extraction",
+    "general-contractor",
+    "post-construction-specialty-cleaning"
   ],
   "service_areas": [
     {
       "city": "Sacramento",
       "state": "CA",
       "slug": "sacramento-ca",
-      "primary": true
+      "primary": true,
+      "metro_area_code": "916"
     },
     {
       "city": "Roseville",
       "state": "CA",
-      "slug": "roseville-ca"
+      "slug": "roseville-ca",
+      "metro_area_code": "916"
     },
     {
       "city": "Elk Grove",
       "state": "CA",
-      "slug": "elk-grove-ca"
+      "slug": "elk-grove-ca",
+      "metro_area_code": "916"
     },
     {
       "city": "Folsom",
       "state": "CA",
-      "slug": "folsom-ca"
+      "slug": "folsom-ca",
+      "metro_area_code": "916"
     },
     {
       "city": "Modesto",
       "state": "CA",
-      "slug": "modesto-ca"
+      "slug": "modesto-ca",
+      "metro_area_code": "209"
     },
     {
       "city": "Rocklin",
       "state": "CA",
-      "slug": "rocklin-ca"
+      "slug": "rocklin-ca",
+      "metro_area_code": "916"
     },
     {
       "city": "Citrus Heights",
       "state": "CA",
-      "slug": "citrus-heights-ca"
+      "slug": "citrus-heights-ca",
+      "metro_area_code": "916"
     },
     {
       "city": "Rancho Cordova",
       "state": "CA",
-      "slug": "rancho-cordova-ca"
+      "slug": "rancho-cordova-ca",
+      "metro_area_code": "916"
     },
     {
       "city": "Fair Oaks",
       "state": "CA",
-      "slug": "fair-oaks-ca"
+      "slug": "fair-oaks-ca",
+      "metro_area_code": "916"
     },
     {
       "city": "Carmichael",
       "state": "CA",
-      "slug": "carmichael-ca"
+      "slug": "carmichael-ca",
+      "metro_area_code": "916"
     },
     {
       "city": "West Sacramento",
       "state": "CA",
-      "slug": "west-sacramento-ca"
+      "slug": "west-sacramento-ca",
+      "metro_area_code": "916"
     },
     {
       "city": "Lincoln",
       "state": "CA",
-      "slug": "lincoln-ca"
+      "slug": "lincoln-ca",
+      "metro_area_code": "916"
     },
     {
       "city": "Granite Bay",
       "state": "CA",
-      "slug": "granite-bay-ca"
+      "slug": "granite-bay-ca",
+      "metro_area_code": "916"
     },
     {
       "city": "El Dorado Hills",
       "state": "CA",
-      "slug": "el-dorado-hills-ca"
+      "slug": "el-dorado-hills-ca",
+      "metro_area_code": "916"
     },
     {
       "city": "Loomis",
       "state": "CA",
-      "slug": "loomis-ca"
+      "slug": "loomis-ca",
+      "metro_area_code": "916"
     },
     {
       "city": "Manteca",
       "state": "CA",
-      "slug": "manteca-ca"
+      "slug": "manteca-ca",
+      "metro_area_code": "209"
     },
     {
       "city": "Turlock",
       "state": "CA",
-      "slug": "turlock-ca"
+      "slug": "turlock-ca",
+      "metro_area_code": "209"
     },
     {
       "city": "Rio Linda",
       "state": "CA",
-      "slug": "rio-linda-ca"
+      "slug": "rio-linda-ca",
+      "metro_area_code": "916"
     },
     {
       "city": "Elverta",
       "state": "CA",
-      "slug": "elverta-ca"
+      "slug": "elverta-ca",
+      "metro_area_code": "916"
     },
     {
       "city": "McClellan Park",
       "state": "CA",
-      "slug": "mcclellan-park-ca"
+      "slug": "mcclellan-park-ca",
+      "metro_area_code": "916"
     },
     {
       "city": "Arden-Arcade",
       "state": "CA",
-      "slug": "arden-arcade-ca"
+      "slug": "arden-arcade-ca",
+      "metro_area_code": "916"
     },
     {
       "city": "North Highlands",
       "state": "CA",
-      "slug": "north-highlands-ca"
+      "slug": "north-highlands-ca",
+      "metro_area_code": "916"
     },
     {
       "city": "Antelope",
       "state": "CA",
-      "slug": "antelope-ca"
+      "slug": "antelope-ca",
+      "metro_area_code": "916"
     },
     {
       "city": "Foothill Farms",
       "state": "CA",
-      "slug": "foothill-farms-ca"
+      "slug": "foothill-farms-ca",
+      "metro_area_code": "916"
     },
     {
       "city": "Rosemont",
       "state": "CA",
-      "slug": "rosemont-ca"
+      "slug": "rosemont-ca",
+      "metro_area_code": "916"
     },
     {
       "city": "Florin",
       "state": "CA",
-      "slug": "florin-ca"
+      "slug": "florin-ca",
+      "metro_area_code": "916"
     },
     {
       "city": "Woodland",
       "state": "CA",
-      "slug": "woodland-ca"
+      "slug": "woodland-ca",
+      "metro_area_code": "530"
     },
     {
       "city": "Mather",
       "state": "CA",
-      "slug": "mather-ca"
+      "slug": "mather-ca",
+      "metro_area_code": "916"
     },
     {
       "city": "Davis",
       "state": "CA",
-      "slug": "davis-ca"
+      "slug": "davis-ca",
+      "metro_area_code": "530"
     }
   ],
   "template": "construction",
