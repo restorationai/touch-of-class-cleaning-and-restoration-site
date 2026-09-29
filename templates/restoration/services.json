@@ -1057,6 +1057,25 @@
    "secondary_keywords": [],
    "tier": "adjacent",
    "priority": 5
+  },
+  {
+   "slug": "basement-sewage-cleanup",
+   "display_name": "Basement Sewage Cleanup",
+   "short_name": "Basement Sewage Cleanup",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [],
+   "tier": "adjacent",
+   "priority": 5,
+   "content_guardrails": "sensitive"
+  },
+  {
+   "slug": "basement-water-cleanup",
+   "display_name": "Basement Water Cleanup",
+   "short_name": "Basement Water Cleanup",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [],
+   "tier": "adjacent",
+   "priority": 5
   }
  ]
 }

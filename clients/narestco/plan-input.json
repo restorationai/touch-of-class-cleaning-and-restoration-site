@@ -37,7 +37,16 @@
     "vandalism-cleanup",
     "water-cleanup",
     "water-damage-restoration",
-    "water-leak-detection"
+    "water-leak-detection",
+    "basement-sewage-cleanup",
+    "basement-water-cleanup",
+    "ceiling-water-damage-repair",
+    "commercial-restoration",
+    "emergency-plumbing",
+    "emergency-water-removal",
+    "industrial-restoration",
+    "large-loss-response",
+    "water-heater-flood-cleanup"
   ],
   "service_areas": [
     {

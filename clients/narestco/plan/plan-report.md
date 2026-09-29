@@ -1,20 +1,20 @@
 # Site Plan Report — National Restoration Construction
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-24T23:27:16.072035+00:00
+- Generated: 2026-09-29T23:29:54.710906+00:00
 - Domain: `narestco.com`
-- Services selected: 32 of 65 catalog entries
+- Services selected: 41 of 79 catalog entries
 - Service areas: 30
 - Cross-product enabled: True
-- Total URLs: **1010**
-- Total internal links: 8242 (avg 8.2 per page)
+- Total URLs: **1280**
+- Total internal links: 10474 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 928 |
-| `service-landing` | 32 |
+| `service-area-service` | 1189 |
+| `service-landing` | 41 |
 | `service-area` | 29 |
 | `blog-post` | 12 |
 | `legal` | 3 |
@@ -59,6 +59,15 @@
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
+- `basement-sewage-cleanup` — Basement Sewage Cleanup (adjacent, priority 5)
+- `basement-water-cleanup` — Basement Water Cleanup (adjacent, priority 5)
+- `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
+- `commercial-restoration` — Commercial Restoration (core, priority 9)
+- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
+- `emergency-water-removal` — 24/7 Emergency Water Removal (core, priority 9)
+- `industrial-restoration` — Industrial Restoration (core, priority 7)
+- `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
+- `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
 
 ## Service areas
 
@@ -101,12 +110,12 @@
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation federal way |
 | `/services/roofing/` | `service-landing` | 9.0 | roofing installation and replacement federal way |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration federal way |
+| `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration federal way |
+| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing federal way |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | 24/7 emergency water removal federal way |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration federal way |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services federal way |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization federal way |
-| `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration federal way |
-| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration federal way |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup federal way |
 
 ## Validation
 

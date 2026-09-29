@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Emergency Plumbing in Algona, WA | National Restoration Construction"
+h1: "Emergency Plumbing in Algona"
+meta_description: "24/7 emergency plumbing in Algona, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333."
+primary_keyword: "emergency plumbing algona"
+secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber", "emergency plumbing repair", "24/7 plumbing"]
+search_intent: "local_emergency"
+priority: 6.3
+plan_hash: "7e88f55faee6784f"
+generated_at: "2026-09-29T23:29:54.945546+00:00"
+manual_override: false
+internal_links: ["/services/emergency-plumbing/", "/service-areas/algona-wa/", "/service-areas/algona-wa/fire-damage-restoration/", "/service-areas/algona-wa/mold-remediation/", "/service-areas/auburn-wa/emergency-plumbing/", "/service-areas/bellevue-wa/emergency-plumbing/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Algona", "url": "/service-areas/algona-wa/"}, {"name": "Emergency Plumbing"}]
+faq: []
+area_slug: "algona-wa"
+service_slug: "emergency-plumbing"
+city: "Algona"
+state: "WA"
+service_display: "Emergency Plumbing"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug narestco` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Emergency Plumbing in Algona.
