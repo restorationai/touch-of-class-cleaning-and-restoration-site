@@ -12,6 +12,9 @@ const certs: string[] = Array.isArray(brand.certifications) ? brand.certificatio
 const licenses: string[] = Array.isArray(brand.licenseNumbers) ? brand.licenseNumbers : [];
 const lookupUrl = (brand as { licenseLookupUrl?: string }).licenseLookupUrl || "";
 const attested = (brand as { licensedInsuredAttested?: boolean }).licensedInsuredAttested === true;
+// Federal tax ID (EIN) — a business identifier, not a contractor license, so
+// it renders on its own line rather than inside the license-number list.
+const ein = (brand as { ein?: string }).ein || "";
 
 // What each credential family actually means — generic standards language,
 // never a claim beyond the credential's own name being on file.
@@ -54,6 +57,9 @@ const meta = `The licenses, certifications, and standards ${brand.displayName} w
               </a>
             )}
           </p>
+          {ein && (
+            <p class="mt-3 opacity-80"><span class="font-semibold">EIN:</span> {ein}</p>
+          )}
         </div>
       )}
 

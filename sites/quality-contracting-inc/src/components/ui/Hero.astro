@@ -9,9 +9,12 @@ interface Props {
   subtitle?: string;
   isSensitive?: boolean;
   backgroundImage?: string;
+  /** Hide the small insurance line under the CTA when a page already carries
+      that message in a prominent banner (homepage). Defaults to shown. */
+  showInsuranceNote?: boolean;
 }
 
-const { title, subtitle, isSensitive = false, backgroundImage } = Astro.props;
+const { title, subtitle, isSensitive = false, backgroundImage, showInsuranceNote = true } = Astro.props;
 // Optional brand-level trust subheadline (e.g. insurance preferred-vendor
 // status). Renders only when brand.insuranceTrustLine is set.
 const trustLine = (brand as any).insuranceTrustLine as string | undefined;
@@ -79,9 +82,10 @@ const ctaFg = isSensitive ? "text-white" : "text-cta-fg";
           href="/contact/"
           class="inline-flex items-center justify-center rounded-xl px-8 py-4 font-black text-lg uppercase tracking-wide border-2 border-cta text-dark bg-white/90 hover:bg-white shadow-lg transition-transform hover:-translate-y-1"
         >
-          Get a Free Estimate
+          Request Service
         </a>
       </div>
+      {showInsuranceNote && <p class="mt-5 text-sm font-semibold opacity-80 drop-shadow-md">We work with all insurance carriers and handle the claim paperwork.</p>}
     </div>
     {hasForm && (
       <div class="mt-10 lg:mt-0 flex lg:justify-end">

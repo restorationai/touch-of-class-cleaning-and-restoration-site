@@ -38,7 +38,7 @@ const bestCompanyAnswer = [
     : "",
   is247
     ? `We answer calls 24/7 — call ${brand.phone} for immediate help.`
-    : `Call ${brand.phone} during business hours (${brand.hours}) for a free estimate.`,
+    : `Call ${brand.phone} during business hours (${brand.hours}) to get scheduled.`,
 ].filter(Boolean).join(" ");
 ---
 
@@ -67,7 +67,7 @@ const bestCompanyAnswer = [
         <p class="text-lg text-white/85 mb-8 leading-relaxed">{data.meta_description}</p>
         <div class="flex flex-col sm:flex-row gap-4">
           <a href={`tel:${brand.phoneRaw}`} class="btn-accent">📞 Call {brand.phone}</a>
-          <a href="/contact/" class="btn-outline">Get a Free Estimate</a>
+          <a href="/contact/" class="btn-outline">Request Service</a>
         </div>
       </div>
     </div>

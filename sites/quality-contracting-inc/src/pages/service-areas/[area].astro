@@ -59,7 +59,7 @@ const otherLocs = locations.filter((l) => l !== primaryLoc);
         <p class="text-lg text-white/85 mb-8 leading-relaxed">{data.meta_description}</p>
         <div class="flex flex-col sm:flex-row gap-4">
           <a href={`tel:${brand.phoneRaw}`} class="btn-accent">📞 Call {brand.phone}</a>
-          <a href="/contact/" class="btn-outline">Get a Free Estimate</a>
+          <a href="/contact/" class="btn-outline">Request Service</a>
         </div>
       </div>
     </div>
@@ -121,7 +121,7 @@ const otherLocs = locations.filter((l) => l !== primaryLoc);
     heading={is247 ? `Restoration emergency in ${data.city}?` : `Planning a project in ${data.city}?`}
     subheading={is247
       ? `Our team is based nearby. Call now for fast response.`
-      : `Our ${brand.primaryCity} team serves ${data.city}. Call for a free estimate.`}
+      : `Our ${brand.primaryCity} team serves ${data.city}. Call to get a crew scheduled.`}
   />
 
   <InternalLinks paths={data.internal_links} heading="More Service Areas" eyebrow="Nearby Coverage" />

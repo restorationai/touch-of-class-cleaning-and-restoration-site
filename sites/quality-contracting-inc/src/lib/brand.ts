@@ -89,7 +89,7 @@ export const brand = {
   tradeNoun: "restoration",
   specialistPhrase: "Damage Restoration Specialists",
   announcementSuffix: "24/7 Emergency Response",
-  homeAboutBlurb: "Quality Contracting, Inc. serves Auburn and the surrounding MA area with professional damage restoration for homes and businesses. From the first emergency call to the final walkthrough, our team manages the entire recovery — and we answer the phone 24/7, so help is on the way the moment something goes wrong.",
+  homeAboutBlurb: "Quality Contracting, Inc. serves Central Massachusetts and Greater Worcester from its Auburn, MA headquarters. We specialize in rapid-response disaster restoration, handling everything from water and fire damage to biohazard cleanup and full reconstruction. When disaster strikes, our certified professionals are standing by 24/7 to return your property to its pre-loss condition quickly and safely.",
 } as const;
 
 export const entityId = `${brand.canonicalUrl}/#identity`;
