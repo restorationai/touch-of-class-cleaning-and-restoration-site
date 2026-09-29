@@ -339,7 +339,7 @@
     },
     {
       "id": "2026-09-28-how-to-shut-off-main-water-valve",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-28T12:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -370,11 +370,12 @@
       "external_authority_candidates": [
         "https://www.epa.gov/watersense"
       ],
-      "notes": "Step-by-step capsule first (locate, turn clockwise, open a low faucet to drain). Cover common Inland Empire slab-home valve locations (garage wall, front hose bib area) and the meter-box curb stop. Link to the burst-pipe blog as a sibling, not a duplicate."
+      "notes": "Step-by-step capsule first (locate, turn clockwise, open a low faucet to drain). Cover common Inland Empire slab-home valve locations (garage wall, front hose bib area) and the meter-box curb stop. Link to the burst-pipe blog as a sibling, not a duplicate.",
+      "banked_at": "2026-09-29T02:04:34.990467+00:00"
     },
     {
       "id": "2026-09-28-how-to-stop-a-toilet-from-overflowing",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-28T12:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -405,11 +406,12 @@
       "external_authority_candidates": [
         "https://www.epa.gov/watersense"
       ],
-      "notes": "Answer in the first two sentences (close the supply valve, lift the float/flapper). Then diagnose repeat overflows and multi-fixture backups as a main line issue. Stay on stopping the water and fixing the cause, not cleanup/drying (restoration turf)."
+      "notes": "Answer in the first two sentences (close the supply valve, lift the float/flapper). Then diagnose repeat overflows and multi-fixture backups as a main line issue. Stay on stopping the water and fixing the cause, not cleanup/drying (restoration turf).",
+      "banked_at": "2026-09-29T02:04:34.990472+00:00"
     },
     {
       "id": "2026-09-28-what-is-considered-a-plumbing-emergency",
-      "status": "queued",
+      "status": "banked",
       "queued_at": "2026-09-28T12:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -441,7 +443,8 @@
       "external_authority_candidates": [
         "https://www.ready.gov/"
       ],
-      "notes": "Hub post for the emergency cluster. Use a call-now vs can-wait list. Link out to the shut-off valve, toilet overflow, gas smell and emergency cost posts once published. Gas smell item must say call 911/SoCalGas first."
+      "notes": "Hub post for the emergency cluster. Use a call-now vs can-wait list. Link out to the shut-off valve, toilet overflow, gas smell and emergency cost posts once published. Gas smell item must say call 911/SoCalGas first.",
+      "banked_at": "2026-09-29T02:04:34.990474+00:00"
     }
   ]
 }
