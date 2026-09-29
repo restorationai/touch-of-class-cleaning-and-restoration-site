@@ -1360,6 +1360,33 @@ def cmd_sync(args) -> int:
         return bool(args.since and meeting_when(m) >= args.since
                     and state["processed"][rid] not in ("unmatched", "baseline"))
 
+    # RECAP RETRY (Kenny + Cole 2026-09-28). A recap blocked by the quiet
+    # window (Santino texted the client minutes before) leaves recaps[rid]
+    # unset, but the meeting is marked processed anyway, so the loop below
+    # never saw it again: both recaps that day were stranded. Every cycle
+    # now re-offers any matched meeting whose recap never reached a final
+    # state; send_meeting_recap still applies the 30h age cap and every
+    # send-time guard, so a blocked send simply waits for the next cycle.
+    recaps = state.setdefault("recaps", {})
+    for m in meetings:
+        rid = str(m.get("recording_id"))
+        slug_p = state["processed"].get(rid)
+        if slug_p not in by_slug or recaps.get(rid) is not None:
+            continue
+        summary_md = ((m.get("default_summary") or {})
+                      .get("markdown_formatted") or "")
+        if not summary_md:
+            continue
+        title = m.get("title") or m.get("meeting_title") or "?"
+        print(f"\n--- recap retry {meeting_when(m)} {title!r} -> {slug_p}")
+        try:
+            send_meeting_recap(by_slug[slug_p], slug_p, m, title=title,
+                               when=meeting_when(m), summary_md=summary_md,
+                               dry_run=dry_run, state=state)
+            save_state(state, dry_run)
+        except Exception as e:  # noqa: BLE001 — one recap never stops the run
+            print(f"    recap retry errored ({str(e)[:90]})")
+
     new = [m for m in meetings if due(m)]
     print(f"fathom sync: {len(new)} meeting(s) to process"
           + (f" (re-mining from {args.since})" if args.since else "")
