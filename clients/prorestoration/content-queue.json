@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-28-case-study-AbFvOql9FoqY9eZG",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-28T22:30:13Z",
       "priority": 1,
       "prioritized": true,
@@ -18,7 +18,9 @@
         "review_text": "Our house flood on Christmas Eve, I called them first thing the morning after Christmas and they showed up within 2 hours and got to work. It took several days to get things cleaned up and dried out. Jack (the owner) stopped by everyday to make sure things were being taken care of. They did a great job and were so great to work with!",
         "review_date": "2026-09-25"
       },
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-29T22:42:24Z",
+      "post_url": "https://prorestorationca.com/blog/.md/"
     },
     {
       "id": "2026-09-14-who-to-call-for-water-damage-restoration-in-bakersfield-ca",
