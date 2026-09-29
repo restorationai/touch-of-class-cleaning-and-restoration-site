@@ -1,0 +1,31 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+trauma cleanup services,transactional,390,17,53.51,2,trauma scene cleanup,,,no
+biohazard cleaning services near me,transactional,320,0,73.27,2,trauma scene cleanup,,,no
+trauma scene cleanup,transactional,260,8,50.8,2,trauma scene cleanup,,,no
+trauma crime scene cleanup,transactional,260,8,50.8,2,trauma scene cleanup,,,no
+trauma and crime scene cleanup,transactional,260,8,50.8,2,trauma scene cleanup,,,no
+trauma cleanup,transactional,210,5,55.47,2,trauma scene cleanup,,,no
+unattended death cleanup near me,transactional,210,2,58.42,2,trauma scene cleanup,,,no
+trauma scene cleanup near me,transactional,70,0,15.18,2,trauma scene cleanup,,,no
+trauma cleanup near me,transactional,70,22,37.69,2,trauma scene cleanup,,,no
+bio trauma cleanup,transactional,10,40,336.16,2,trauma scene cleanup,,,no
+bio and trauma scene cleanup,transactional,10,,,2,trauma scene cleanup,,,no
+trauma cleanup company,commercial,40,12,28.62,2,trauma scene cleanup,,,no
+trauma cleanup companies,commercial,40,11,28.62,2,trauma scene cleanup,,,no
+unattended death cleanup cost,commercial,40,0,27.94,2,trauma scene cleanup,,,no
+cost of unattended death cleanup,commercial,10,0,21.33,2,trauma scene cleanup,,,no
+who cleans up after murders,informational,40,16,,2,trauma scene cleanup,,,no
+who cleans up after a suicide,informational,30,12,,2,trauma scene cleanup,,,no
+who cleans up after suicide,informational,30,12,,2,trauma scene cleanup,,,no
+who cleans up after a death,informational,30,0,24.88,2,trauma scene cleanup,,,no
+who cleans up dead bodies after accident,informational,30,17,21.24,2,trauma scene cleanup,,,no
+who cleans up after a crime,informational,20,12,11.3,2,trauma scene cleanup,,,no
+how much does unattended death cleanup cost,informational,10,,,2,trauma scene cleanup,,,no
+iicrc trauma and crime scene cleanup,informational,10,0,,2,trauma scene cleanup,,,no
+who cleans up after a crime scene,informational,10,9,11.49,2,trauma scene cleanup,,,no
+who cleans up after crime scenes,informational,10,9,,2,trauma scene cleanup,,,no
+who cleans up after a homicide,informational,10,12,6.37,2,trauma scene cleanup,,,no
+who cleans up after someone dies,informational,10,8,,2,trauma scene cleanup,,,no
+who cleans up after a dead body,informational,10,13,,2,trauma scene cleanup,,,no
+who cleans up the blood after a crime scene,informational,10,52,4.24,2,trauma scene cleanup,,,no
+who cleans up after mass shootings,informational,10,13,,2,trauma scene cleanup,,,no

@@ -40,5 +40,7 @@ No Lighthouse or on-page calls were made, so there was no DataForSEO spend. No s
 
 ## Notes / caveats
 
+- Re-checked later on 2026-09-29 (second invocation today): still blocked. `status` is still `onboarding` and `domain` is still `null`. Both Pages origins still return HTTP 000, and the tdi-builders control still returns 200. No DataForSEO calls were made and no state file was written.
+
 - Once the audit runs, Lighthouse will be desktop-only through the DataForSEO wrapper. Expect mobile performance scores to be 10-20 points lower.
 - A staging audit will leave SEO out of the verdict because of the Pages noindex header. SEO stays inconclusive until apex cutover.
