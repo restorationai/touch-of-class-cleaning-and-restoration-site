@@ -32,7 +32,7 @@ When something in the air is causing headaches, irritation, or unexplained odors
 
 Environmental testing sits at an awkward intersection: you need results you can act on, not a report full of hedged language that leaves you guessing. The certifications behind this work matter, Arch Environmental Group holds credentials as a Certified Asbestos Consultant, Lead Inspector/Assessor, and NIOSH 582 Microscopist, which means sampling and analysis follow the regulatory standards that govern how findings are used in real projects.
 
-Kingsburg and the surrounding San Joaquin Valley have a substantial stock of mid-century housing, ranch homes, agricultural worker housing, and commercial buildings constructed during the postwar boom when asbestos and lead paint were standard materials. That context shapes the work. A house built in the 1950s or 1960s in this region is more likely than not to contain materials that require evaluation before any significant renovation.
+The San Joaquin Valley has a substantial stock of mid-century housing, ranch homes, agricultural worker housing, and commercial buildings constructed during the postwar boom when asbestos and lead paint were standard materials. That context shapes the work. A house built in the 1950s or 1960s in this region is more likely than not to contain materials that require evaluation before any significant renovation.
 
 Because we're locally based, we're not routing your call through a regional dispatch center. You reach the people doing the work directly at (559) 296-2088.
 
