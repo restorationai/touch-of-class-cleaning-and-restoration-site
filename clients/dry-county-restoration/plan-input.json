@@ -48,7 +48,20 @@
     "sewage-cleanup",
     "storm-damage-restoration",
     "water-damage-restoration",
-    "water-leak-detection"
+    "water-leak-detection",
+    "basement-flooding-cleanup",
+    "basement-remodeling",
+    "burst-pipe-repair",
+    "ceiling-water-damage-repair",
+    "commercial-restoration",
+    "emergency-water-removal",
+    "flood-damage-restoration",
+    "industrial-restoration",
+    "large-loss-response",
+    "mold-inspection-testing",
+    "reconstruction",
+    "smoke-damage-restoration",
+    "water-heater-flood-cleanup"
   ],
   "service_areas": [
     {

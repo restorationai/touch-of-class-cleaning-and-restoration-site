@@ -1039,6 +1039,15 @@
    "secondary_keywords": [],
    "tier": "adjacent",
    "priority": 5
+  },
+  {
+   "slug": "basement-remodeling",
+   "display_name": "Basement Remodeling",
+   "short_name": "Basement Remodeling",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [],
+   "tier": "adjacent",
+   "priority": 5
   }
  ]
 }

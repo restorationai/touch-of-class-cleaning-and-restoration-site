@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Basement Flooding Cleanup in Montclair, CA | Dry County Restoration"
+h1: "Basement Flooding Cleanup in Montclair"
+meta_description: "24/7 basement flooding cleanup in Montclair, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910."
+primary_keyword: "basement flooding cleanup montclair"
+secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
+search_intent: "local_emergency"
+priority: 5.6
+plan_hash: "7988e064771586cf"
+generated_at: "2026-09-29T23:24:34.733265+00:00"
+manual_override: false
+internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/montclair-ca/", "/service-areas/montclair-ca/fire-damage-restoration/", "/service-areas/montclair-ca/mold-remediation/", "/service-areas/anaheim-ca/basement-flooding-cleanup/", "/service-areas/chino-ca/basement-flooding-cleanup/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Montclair", "url": "/service-areas/montclair-ca/"}, {"name": "Basement Flooding Cleanup"}]
+faq: []
+area_slug: "montclair-ca"
+service_slug: "basement-flooding-cleanup"
+city: "Montclair"
+state: "CA"
+service_display: "Basement Flooding Cleanup"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug dry-county-restoration` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Basement Flooding Cleanup in Montclair.
