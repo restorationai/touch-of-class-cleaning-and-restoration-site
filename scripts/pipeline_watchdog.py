@@ -92,7 +92,18 @@ def _self_heal_ai_scan() -> str:
     """B3 (Santino 2026-09-17): a stale scan heartbeat doesn't just alert —
     it DISPATCHES a fresh weekly-maintenance run (which runs the sharded,
     stalest-first scanner). Auto-run instead of a label."""
+    # 12h cooldown (2026-09-29): every watchdog pass re-dispatched while the
+    # beat was stale, so 3 weekly-maintenance runs overlapped today and ~10
+    # on 09-28. One heal per 12h; the stamp lives in ops_kv.
+    key = "self-heal:ai-scan"
+    last = ((_sb("GET", f"/rest/v1/ops_kv?k=eq.{key}&select=v") or [{}])[0]
+            .get("v") or {}).get("at")
+    if last and NOW - datetime.fromisoformat(last) < timedelta(hours=12):
+        return f"already dispatched {last[:16]}Z (12h cooldown)"
     tok = os.environ.get("GITHUB_PERSONAL_ACCESS_TOKEN") or os.environ.get("GH_PAT", "")
+    _sb("POST", "/rest/v1/ops_kv?on_conflict=k",
+        {"k": key, "v": {"at": NOW.isoformat()}},
+        prefer="resolution=merge-duplicates,return=minimal")
     r = requests.post(
         f"https://api.github.com/repos/{REPO}/actions/workflows/weekly-maintenance.yml/dispatches",
         headers={"Authorization": f"token {tok}"},
@@ -416,10 +427,26 @@ def check_coverage() -> list[str]:
     from collections import Counter
     # active clients only (2026-09-29: an inactive CO-… row surfaced by id)
     stale_by = Counter(r["company_id"] for r in stale if r["company_id"] in comps)
-    for cid, n in stale_by.most_common(5):
+    # Access-blocked clients (gbp_auto_apply's ledger: no OAuth, listing not
+    # in the connected account, suspended/unverified) can't be cleared by any
+    # rerun, so they are not "apply broken" (2026-09-29: 297 of 338 stale
+    # items were these). One summary line instead, naming the real blocker.
+    blocked = ((_sb("GET", "/rest/v1/ops_kv?k=eq.gbp-auto-apply-blocked&select=v")
+                or [{}])[0].get("v") or {})
+    for cid, n in stale_by.most_common():
+        if cid in blocked:
+            continue
         nm = (comps.get(cid) or {}).get("name") or cid
         issues.append(f"optimizer SLA: {nm} has {n} auto-safe item(s) open "
                       ">7 days — the nightly apply is not clearing them")
+        if sum(1 for i in issues if i.startswith("optimizer SLA:")) >= 5:
+            break
+    held = sorted((comps.get(c) or {}).get("name") or c
+                  for c in stale_by if c in blocked)
+    if held:
+        issues.append(f"optimizer blocked on Google access: {len(held)} client(s) "
+                      f"({', '.join(held)}) — fix their Google connection/listing "
+                      "access; the nightly apply cannot reach them")
 
     # PER-CLIENT CADENCE SLA (Santino 2026-09-17: "twice per week per
     # client... a full-sweep metric breaks as we acquire clients rapidly").
