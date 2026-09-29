@@ -111,6 +111,12 @@ python3 scripts/promise_tracker.py set <id-prefix> cancelled --evidence "client 
   Dev-owned build promises do not hold by default (they live on the dev
   queue and often need the very items Monica asks for; the 09-29 backfill
   had 100+ of them). Widen with `PROMISES_HOLD_OWNERS=monica,santino,dev`.
+- **Hold rollout gate:** only promises made on/after `PROMISES_HOLD_SINCE`
+  (default `2026-09-29T00:00:00+00:00`) hold Monica. The backfill left 57
+  overdue monica/santino promises across 22 clients, unreviewed; holding on
+  them would have stopped Monica's nudges fleet-wide on day one. They show
+  in the digest; once they are triaged (`set ... done|cancelled`), move the
+  date back (Railway ops-worker env) to let older promises hold too.
 
 ## 5. Monica autosend (OFF)
 

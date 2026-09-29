@@ -1235,11 +1235,17 @@ def overdue_commitments(company_ids: list[str] | str,
     # fleet-wide. PROMISES_HOLD_OWNERS widens it (e.g. "monica,santino,dev").
     owners = [o.strip() for o in os.environ.get(
         "PROMISES_HOLD_OWNERS", "monica,santino").split(",") if o.strip()]
+    # ROLLOUT GATE: the 21-day backfill (57 overdue monica/santino rows over
+    # 22 clients, unreviewed) would have held Monica fleet-wide on day one.
+    # Only promises made on/after PROMISES_HOLD_SINCE hold; move the date
+    # back once Santino has triaged the backfill in the digest.
+    hold_since = os.environ.get("PROMISES_HOLD_SINCE", "2026-09-29T00:00:00+00:00")
     try:
         return _sb("GET", "/rest/v1/client_commitments?status=eq.open"
                    "&company_id=in.(" + ",".join(ids) + ")"
                    "&owner=in.(" + ",".join(owners) + ")"
-                   "&due_at=lt." + urllib.parse.quote(now.isoformat())
+                   "&said_at=gte." + urllib.parse.quote(hold_since)
+                   + "&due_at=lt." + urllib.parse.quote(now.isoformat())
                    + "&select=id,company_id,what,quote,owner,due_at"
                    "&order=due_at.asc") or []
     except Exception as e:  # noqa: BLE001 — the hold is fail-open

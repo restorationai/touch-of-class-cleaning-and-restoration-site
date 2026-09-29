@@ -561,10 +561,17 @@ def digest_sections(now: datetime | None = None) -> dict:
         elif d_local == n_local + timedelta(days=1) or (
                 n_local.weekday() == 4 and d_local == n_local + timedelta(days=3)):
             out["tomorrow"].append(row)
+    for k in ("overdue", "today", "tomorrow"):       # grouped per client
+        out[k].sort(key=lambda r: (r["client"], r["due"]))
     hold_owners = {o.strip() for o in os.environ.get(
         "PROMISES_HOLD_OWNERS", "monica,santino").split(",")}
-    out["holds"] = sorted({r["client"] for r in out["overdue"]
-                           if r["owner"] in hold_owners})
+    hold_since = datetime.fromisoformat(os.environ.get(
+        "PROMISES_HOLD_SINCE", "2026-09-29T00:00:00+00:00"))
+    said = {c["id"]: c.get("said_at") for c in opens}
+    out["holds"] = sorted({
+        r["client"] for r in out["overdue"] if r["owner"] in hold_owners
+        and said.get(r["id"]) and datetime.fromisoformat(
+            str(said[r["id"]]).replace("Z", "+00:00")) >= hold_since})
     return out
 
 
