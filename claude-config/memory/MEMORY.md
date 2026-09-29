@@ -89,3 +89,5 @@
 - [One-off Sends via Monica](oneoff-sends-via-monica.md) — 09-27: client one-offs ONLY via scripts/monica_oneoff.py (ledger + [CONTEXT] note); raw GHL sends silence Monica (Rachelle case)
 - [Verification Code Self-Fetch](verification-code-self-fetch.md) — 09-27: 2FA codes via scripts/verification_code.py (Apple uses a new sender each time); never ask Santino, check timestamps
 - [Gray-Area Results Stance](gray-area-results-stance.md) — LAW 09-27: results-first gray area (self-ranking listicles, awards, confident credit tied to real work); still no fake reviews/impersonation/invented verification
+- [No Human Gates on Client Requests](no-human-gates-on-client-requests.md) — LAW 09-28: clear client change requests auto-run (phone hold removed); safety lives in classifier knowledge + dev_agent.md, not approval holds
+- [Client Texts via monica_oneoff](client-texts-via-monica-oneoff.md) — Claude's one-off texts use scripts/monica_oneoff.py (context note), never raw _ghl; API sends = machine rows (appId) since fix dc2a24c1a
