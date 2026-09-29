@@ -1,21 +1,21 @@
 # Site Plan Report — Crew Restoration & Construction
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-23T14:11:30.589385+00:00
+- Generated: 2026-09-29T22:44:27.880303+00:00
 - Domain: `crew3r.com`
-- Services selected: 15 of 65 catalog entries
+- Services selected: 32 of 68 catalog entries
 - Service areas: 45
 - Cross-product enabled: True
-- Total URLs: **740**
-- Total internal links: 5923 (avg 8.0 per page)
+- Total URLs: **1505**
+- Total internal links: 12185 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 660 |
+| `service-area-service` | 1408 |
 | `service-area` | 44 |
-| `service-landing` | 15 |
+| `service-landing` | 32 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -41,6 +41,23 @@
 - `siding-gutters` — Siding and Gutters (construction, priority 8)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
+- `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
+- `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
+- `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
+- `commercial-restoration` — Commercial Restoration (core, priority 9)
+- `deck-construction` — Deck Construction (construction, priority 5)
+- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
+- `emergency-water-removal` — 24/7 Emergency Water Removal (core, priority 9)
+- `excavations` — Excavations (construction, priority 5)
+- `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
+- `foundation-installation` — Foundation Installation (construction, priority 5)
+- `industrial-restoration` — Industrial Restoration (core, priority 7)
+- `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
+- `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
+- `reconstruction` — Reconstruction Services (core, priority 9)
+- `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
+- `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
+- `water-leak-detection` — Water Leak Detection (core, priority 7)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 
 ## Service areas
@@ -99,12 +116,12 @@
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation sioux falls |
 | `/services/roofing/` | `service-landing` | 9.0 | roofing installation and replacement sioux falls |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration sioux falls |
+| `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration sioux falls |
+| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing sioux falls |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | 24/7 emergency water removal sioux falls |
+| `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration sioux falls |
+| `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services sioux falls |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization sioux falls |
-| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration sioux falls |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup sioux falls |
-| `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup sioux falls |
-| `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting sioux falls |
-| `/services/siding-gutters/` | `service-landing` | 7.2 | siding and gutters sioux falls |
 
 ## Validation
 

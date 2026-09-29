@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Large Loss and Catastrophic Response in Rock Rapids, IA | Crew Restoration & Construction"
+h1: "Large Loss and Catastrophic Response in Rock Rapids"
+meta_description: "Large loss and catastrophic response in Rock Rapids, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
+primary_keyword: "large loss and catastrophic response rock rapids"
+secondary_keywords: ["large loss restoration", "catastrophic loss response", "commercial catastrophic restoration", "multi-million dollar restoration", "large loss adjusters"]
+search_intent: "local_b2b"
+priority: 5.6
+plan_hash: "fe019f729d4fecf6"
+generated_at: "2026-09-29T22:44:28.138936+00:00"
+manual_override: false
+internal_links: ["/services/large-loss-response/", "/service-areas/rock-rapids-ia/", "/service-areas/rock-rapids-ia/fire-damage-restoration/", "/service-areas/rock-rapids-ia/mold-remediation/", "/service-areas/adrian-mn/large-loss-response/", "/service-areas/akron-ia/large-loss-response/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rock Rapids", "url": "/service-areas/rock-rapids-ia/"}, {"name": "Large Loss and Catastrophic Response"}]
+faq: []
+area_slug: "rock-rapids-ia"
+service_slug: "large-loss-response"
+city: "Rock Rapids"
+state: "IA"
+service_display: "Large Loss and Catastrophic Response"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug crew-restoration-construction` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Large Loss and Catastrophic Response in Rock Rapids.

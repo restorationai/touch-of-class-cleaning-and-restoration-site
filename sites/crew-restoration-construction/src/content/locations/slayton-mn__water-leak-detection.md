@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Water Leak Detection in Slayton, MN | Crew Restoration & Construction"
+h1: "Water Leak Detection in Slayton"
+meta_description: "Water leak detection in Slayton, MN. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
+primary_keyword: "water leak detection slayton"
+secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection", "water leak in wall", "leak detection service"]
+search_intent: "local_emergency"
+priority: 4.9
+plan_hash: "e7a0616c47038680"
+generated_at: "2026-09-29T22:44:28.155545+00:00"
+manual_override: false
+internal_links: ["/services/water-leak-detection/", "/service-areas/slayton-mn/", "/service-areas/slayton-mn/fire-damage-restoration/", "/service-areas/slayton-mn/mold-remediation/", "/service-areas/adrian-mn/water-leak-detection/", "/service-areas/akron-ia/water-leak-detection/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Slayton", "url": "/service-areas/slayton-mn/"}, {"name": "Water Leak Detection"}]
+faq: []
+area_slug: "slayton-mn"
+service_slug: "water-leak-detection"
+city: "Slayton"
+state: "MN"
+service_display: "Water Leak Detection"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug crew-restoration-construction` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Water Leak Detection in Slayton.

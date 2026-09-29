@@ -185,7 +185,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Asbestos Abatement, Biohazard Cleanup, Contents Restoration and Storage, Contents Restoration & Storage, Emergency Board-Up and Tarping, Fire Damage Restoration, Renovations, Remodels and General Contracting, Mold Remediation, Post-Construction and Specialty Cleaning, Roofing Installation and Replacement, Sewage Cleanup and Sanitization, Siding and Gutters, Storm Damage Restoration, Water Damage Restoration, Emergency Water Cleanup)
+- [ ] (continue for each of Asbestos Abatement, Biohazard Cleanup, Contents Restoration and Storage, Contents Restoration & Storage, Emergency Board-Up and Tarping, Fire Damage Restoration, Renovations, Remodels and General Contracting, Mold Remediation, Post-Construction and Specialty Cleaning, Roofing Installation and Replacement, Sewage Cleanup and Sanitization, Siding and Gutters, Storm Damage Restoration, Water Damage Restoration, Basement Flooding Cleanup, Burst Pipe Cleanup and Repair, Ceiling Water Damage Repair, Commercial Restoration, Deck Construction, Emergency Plumbing, 24/7 Emergency Water Removal, Excavations, Flood Damage Restoration, Foundation Installation, Industrial Restoration, Large Loss and Catastrophic Response, Mold Inspection and Testing, Reconstruction Services, Smoke Damage Restoration, Water Heater Flood Cleanup, Water Leak Detection, Emergency Water Cleanup)
 
 ### Service area pages (one image per city served)
 - [ ] Sioux Falls hero — exterior shot, regional housing stock, evocative of the city

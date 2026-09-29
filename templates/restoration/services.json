@@ -949,6 +949,33 @@
    "tier": "core",
    "priority": 9,
    "license_gate": "Advertising plumbing requires a state plumbing license (IL: Illinois Plumbing License Law). Verify before enabling for a client."
+  },
+  {
+   "slug": "deck-construction",
+   "display_name": "Deck Construction",
+   "short_name": "Deck Construction",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [],
+   "tier": "construction",
+   "priority": 5
+  },
+  {
+   "slug": "excavations",
+   "display_name": "Excavations",
+   "short_name": "Excavations",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [],
+   "tier": "construction",
+   "priority": 5
+  },
+  {
+   "slug": "foundation-installation",
+   "display_name": "Foundation Installation",
+   "short_name": "Foundation Installation",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [],
+   "tier": "construction",
+   "priority": 5
   }
  ]
 }

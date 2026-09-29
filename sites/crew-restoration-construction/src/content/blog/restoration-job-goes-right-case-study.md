@@ -7,8 +7,8 @@ primary_keyword: ""
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: "/images/blog/2026/09//hero.webp"
-og: "/images/blog/2026/09//hero.webp"
+hero: "/images/blog/2026/09/restoration-job-goes-right-case-study/hero.webp"
+og: "/images/blog/2026/09/restoration-job-goes-right-case-study/hero.webp"
 generated_at: "2026-09-29T20:13:47Z"
 manual_override: false
 internal_links: ["/blog/choosing-a-restoration-company/", "/blog/burst-pipe-emergency-checklist/", "/blog/what-to-do-first-24-hours-water-damage/", "/contact/", "/services/"]
@@ -42,7 +42,7 @@ This is also where real trust in a restoration company gets built. Certification
 
 If you are comparing companies before you hire one, our [guide to choosing a restoration company](/blog/choosing-a-restoration-company/) covers what to ask before signing anything, including how a company communicates before a crew ever sets foot on the property.
 
-![Why Does a Technician's Demeanor Matter as Much as the Technical Work](/images/blog/2026/09//section.webp)
+![Why Does a Technician's Demeanor Matter as Much as the Technical Work](/images/blog/2026/09/restoration-job-goes-right-case-study/section.webp)
 
 ## What Does Good Communication Look Like From First Call to Final Walkthrough?
 

@@ -241,6 +241,10 @@ SERVICE_SCENES = {
     "repiping": "a plumber fitting new PEX supply lines through opened drywall in a hallway wall, manifold and crimp tool in hand",
     "financing": "a project manager at a kitchen table walking a homeowner couple through a printed repair estimate on a tablet and clipboard, calm and friendly, faces not the focus",
     "insurance-claim-assistance": "a project manager photographing water damage for an insurance claim with a tablet while a homeowner looks on, moisture meter clipped to his belt",
+    # 2026-09-29 (Crew service-image pass): construction-tier services.
+    "deck-construction": "a carpenter fastening new deck boards onto fresh pressure-treated joists of a backyard deck attached to a two-story home, cordless drill and stacked lumber nearby",
+    "excavations": "a compact excavator digging a trench along a house foundation in a residential yard while a technician in a hi-vis vest guides it, a mound of dark soil beside the trench; no vehicles other than the excavator, and no lettering, numbers or color codes anywhere in the frame",
+    "foundation-installation": "workers tying rebar inside plywood concrete forms for a new poured foundation wall on a residential lot, a concrete pump boom hose lowered into the form",
 }
 
 

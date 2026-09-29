@@ -1198,6 +1198,39 @@
       "triage_model": "claude-sonnet-4-6"
     }
   },
-  "slots": {},
+  "slots": {
+    "service:basement-flooding-cleanup": {
+      "asset": "gbp:gbp-AF1QipOBXzkb1xYm0GLKY6MptN7H3W8n7LMUC8qbs4k8",
+      "source": "gbp",
+      "category": "equipment",
+      "subject": "Blue air mover fan running in wet basement during drying",
+      "file": "/images/services/basement-flooding-cleanup.webp",
+      "installed_at": "2026-09-29T22:46:57Z"
+    },
+    "service:emergency-water-removal": {
+      "asset": "gbp:gbp-AF1QipN7DZtwwNOmmT0ubmKKzwVx9LWLoOyLK1hFiFcN",
+      "source": "gbp",
+      "category": "job_progress",
+      "subject": "Two technicians running blue hose in finished basement",
+      "file": "/images/services/emergency-water-removal.webp",
+      "installed_at": "2026-09-29T22:46:58Z"
+    },
+    "service:flood-damage-restoration": {
+      "asset": "gbp:gbp-AF1QipME7OLk8lWUH7kDUdYwnu-W1-AnSWNGeirpNIEt",
+      "source": "gbp",
+      "category": "job_progress",
+      "subject": "Water-damaged room with removed drywall and dehumidifier",
+      "file": "/images/services/flood-damage-restoration.webp",
+      "installed_at": "2026-09-29T22:46:58Z"
+    },
+    "service:smoke-damage-restoration": {
+      "asset": "gbp:gbp-AF1QipPK5iPyvTf9SwdTSf-pVTNyN5RX3JsrH39WCagj",
+      "source": "gbp",
+      "category": "job_progress",
+      "subject": "Fire and soot heavily damaged public restroom interior before cleanup",
+      "file": "/images/services/smoke-damage-restoration.webp",
+      "installed_at": "2026-09-29T22:47:00Z"
+    }
+  },
   "triaged_at": "2026-08-05T06:39:40Z"
 }

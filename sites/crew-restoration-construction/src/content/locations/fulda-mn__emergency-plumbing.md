@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Plumbing in Fulda, MN | Crew Restoration & Construction"
+h1: "Plumbing in Fulda"
+meta_description: "Plumbing in Fulda, MN. IICRC-certified, insurance billing accepted. Call (605) 965-2727."
+primary_keyword: "emergency plumbing fulda"
+secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
+search_intent: "local_emergency"
+priority: 6.3
+plan_hash: "3e49daa6f76ecc1c"
+generated_at: "2026-09-29T22:44:28.201911+00:00"
+manual_override: false
+internal_links: ["/services/emergency-plumbing/", "/service-areas/fulda-mn/", "/service-areas/fulda-mn/fire-damage-restoration/", "/service-areas/fulda-mn/mold-remediation/", "/service-areas/adrian-mn/emergency-plumbing/", "/service-areas/akron-ia/emergency-plumbing/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fulda", "url": "/service-areas/fulda-mn/"}, {"name": "Emergency Plumbing"}]
+faq: []
+area_slug: "fulda-mn"
+service_slug: "emergency-plumbing"
+city: "Fulda"
+state: "MN"
+service_display: "Emergency Plumbing"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug crew-restoration-construction` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Plumbing in Fulda.
