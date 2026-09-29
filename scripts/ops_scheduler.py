@@ -8,6 +8,7 @@ One long-lived process replaces the four Mac launchd jobs:
     every 30 min   fathom_sync.py sync --send                  (meeting intel)
     every 60 min   client_concierge.py compose --all --send    (nudges;
                    per-client business-hours/cadence gates live in the script)
+    every 60 min   promise_tracker.py run --send               (close + remind)
 
 Each job runs as a subprocess so one crash never takes down the loop; output
 goes to stdout (Railway log stream). State lives in Supabase (ops_kv +
@@ -170,6 +171,11 @@ DAILY_JOBS = [
     # system could have said so either way.
     ("fathom-watch", "15:10", [sys.executable, str(HERE / "fathom_sync.py"),
                                "watch", "--send"]),
+    # PROMISE TRACKER (2026-09-29): Santino's human texts/emails -> what he
+    # promised, once a day, 40 min before the 14:00 ops-sync digest reads
+    # the table. Calls feed the tracker inside the 30-min fathom job.
+    ("promise-texts", "13:20", [sys.executable, str(HERE / "promise_tracker.py"),
+                                "scan-texts", "--send"]),
     # ALL-SYSTEMS silence watchdog: for every automation that is supposed to
     # produce something (feedback queue, meeting sync, GBP invites, citation
     # queue, geo-grid, Bing sweep, review dispatcher, dev agent), does its
@@ -217,6 +223,10 @@ JOBS = [
                               "sync", "--send"]),
     ("nudge", 3600, [sys.executable, str(HERE / "client_concierge.py"),
                      "compose", "--all", "--send"]),
+    # close delivered promises + remind (ops pings respect quiet hours;
+    # Monica directives only with PROMISES_MONICA_AUTOSEND=1)
+    ("promises", 3600, [sys.executable, str(HERE / "promise_tracker.py"),
+                        "run", "--send"]),
     # App-initiated rename pitches (2026-09-18): the Build Stages RENAME
     # card queues a pitch into ops_kv; this executes it through the
     # concierge chokepoint within a minute of the click.

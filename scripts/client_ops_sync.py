@@ -403,8 +403,25 @@ def _lsa_review_digest_lines() -> list[str]:
     return out
 
 
-def digest_markdown(date_str: str, per_client: dict[str, dict]) -> str:
+def _promise_sections() -> dict:
+    """PROMISES block for the top of the digest (scripts/promise_tracker.py).
+    Fail-open: the digest never dies on it."""
+    try:
+        from promise_tracker import digest_sections
+        return digest_sections()
+    except Exception as e:  # noqa: BLE001
+        print(f"  [promises] digest section skipped: {str(e)[:100]}")
+        return {}
+
+
+def digest_markdown(date_str: str, per_client: dict[str, dict],
+                    promises: dict | None = None) -> str:
     lines = [f"# Client Ops Digest — {date_str}", ""]
+    try:
+        from promise_tracker import digest_markdown as _pmd
+        lines += _pmd(promises or {})
+    except Exception:  # noqa: BLE001
+        pass
     _lsa = _lsa_review_digest_lines()
     if _lsa:
         lines += ["## LSA lead review (daily AI)"] + [f"- {x}" for x in _lsa] + [""]
@@ -422,7 +439,8 @@ def digest_markdown(date_str: str, per_client: dict[str, dict]) -> str:
     return "\n".join(lines) + "\n"
 
 
-def digest_html(date_str: str, per_client: dict[str, dict]) -> str:
+def digest_html(date_str: str, per_client: dict[str, dict],
+                promises: dict | None = None) -> str:
     def esc(s) -> str:
         # A non-string entry (a dict slipped into a section list) crashed the
         # WHOLE ops run on 2026-08-01 — the digest must never be fatal, so
@@ -433,6 +451,11 @@ def digest_html(date_str: str, per_client: dict[str, dict]) -> str:
     parts = ['<div style="font-family:-apple-system,Segoe UI,Roboto,sans-serif;'
              'max-width:640px;margin:0 auto;color:#0f172a">',
              f'<h2 style="letter-spacing:-.01em">Client Ops Digest — {esc(date_str)}</h2>']
+    try:
+        from promise_tracker import digest_html as _phtml
+        parts.append(_phtml(promises or {}, esc))
+    except Exception:  # noqa: BLE001
+        pass
     _lsa = _lsa_review_digest_lines()
     if _lsa:
         parts.append('<h3 style="color:#0f766e;margin-bottom:2px">LSA lead review (daily AI)</h3><ul style="margin:2px 0">')
@@ -495,8 +518,32 @@ def ensure_bootstrapped(dry_run: bool, do_send: bool,
         slug = (cid_to_slug or {}).get(cid)
         return bool(slug and (ROOT / "clients" / f"{slug}.json").exists())
 
+    # SIGNUP STUBS (Daniel Restum 2026-09-23): the sales signup can mint a
+    # person-named companies row sharing the owner's email with the real
+    # company. Bootstrapping it would create a second client for the same
+    # business. call_match.is_signup_stub is the shared definition.
+    try:
+        from call_match import is_signup_stub
+        full_rows = _sb("GET", "/rest/v1/companies?status=eq.Active&plan=eq."
+                        "Rank%20AI&select=id,name,email,integration_settings",
+                        prefer="return=representation") or []
+        by_email: dict[str, list[dict]] = {}
+        for r in full_rows:
+            em = str(r.get("email") or "").strip().lower()
+            if em:
+                by_email.setdefault(em, []).append(r)
+        stubs = {r["id"] for r in full_rows if is_signup_stub(
+            r, by_email.get(str(r.get("email") or "").strip().lower(), []))}
+    except Exception as e:  # noqa: BLE001 — the guard never blocks bootstrap
+        print(f"  [bootstrap] stub guard unavailable: {str(e)[:90]}")
+        stubs = set()
+
     for co in cos:
         if "test" in (co.get("name") or "").lower():
+            continue
+        if co["id"] in stubs:
+            print(f"  [bootstrap] skipping {co['name']} ({co['id']}): signup "
+                  "stub sharing its owner's email with the real company row")
             continue
         if co["id"] in have and _repo_bootstrapped(co["id"]):
             continue
@@ -526,9 +573,27 @@ def ensure_bootstrapped(dry_run: bool, do_send: bool,
             continue
         if full:
             import subprocess as _sp
-            r = _sp.run([sys.executable, str(Path(__file__).parent / "bootstrap_client.py"),
-                         "--company-id", co["id"], "--slug", slug],
-                        capture_output=True, text=True, timeout=900)
+            # A TIMEOUT MUST NOT KILL THE RUN (RestoPros 2026-09-24..29): one
+            # client's bootstrap hung past 900s every 2 hours for five days,
+            # the uncaught TimeoutExpired failed the whole job, and the
+            # commit step never ran, so even the company_map line that
+            # bootstrap_client writes FIRST never reached the repo. Every
+            # repo-keyed system (Fathom intel included) stayed blind to the
+            # client. Now the partial result is kept and committed; later
+            # steps (GBP sync, photo harvest) heal via setup_ledger.
+            try:
+                r = _sp.run([sys.executable, str(Path(__file__).parent / "bootstrap_client.py"),
+                             "--company-id", co["id"], "--slug", slug],
+                            capture_output=True, text=True, timeout=900)
+            except _sp.TimeoutExpired as te:
+                tail = ((te.stdout or b"") if isinstance(te.stdout, bytes)
+                        else (te.stdout or "").encode())[-300:].decode(
+                            "utf-8", "replace")
+                lines.append(f"FULL bootstrap TIMED OUT after 900s for "
+                             f"{co['name']} ({co['id']}) as {slug} — partial "
+                             "files kept for commit; last output: "
+                             + tail.replace("\n", " | "))
+                continue
             ok = r.returncode == 0
             lines.append(f"{'FULL-bootstrapped' if ok else 'FULL bootstrap FAILED'} "
                          f"{co['name']} ({co['id']}) as {slug}"
@@ -2021,7 +2086,11 @@ def run(since_override: str | None, dry_run: bool, do_send: bool) -> int:
         print(f"  plan {row['id'][:8]} ({slug or cid}): {row['status']} — {row['title'][:70]!r}")
         state["processed_plan_events"].append(f"{row['id']}:{row['status']}")
 
-    if not per_client:
+    # PROMISES ride at the top of every digest, and are reason enough to
+    # send one on a day nothing else moved (2026-09-29).
+    promises = _promise_sections()
+    has_promises = any(promises.get(k) for k in ("overdue", "today", "tomorrow"))
+    if not per_client and not has_promises:
         print("Nothing new — no digest, no email.")
         state["cursor"] = cursor_out
         state["last_run_at"] = run_start.isoformat()
@@ -2029,14 +2098,15 @@ def run(since_override: str | None, dry_run: bool, do_send: bool) -> int:
         return 0
 
     date_str = run_start.strftime("%Y-%m-%d")
-    md = digest_markdown(date_str, per_client)
+    md = digest_markdown(date_str, per_client, promises)
     print("\n" + "=" * 60 + "\n" + md + "=" * 60)
     if not dry_run:
         OPS_DIR.mkdir(parents=True, exist_ok=True)
         (OPS_DIR / f"digest-{date_str}.md").write_text(md)
         print(f"  wrote clients/_ops/digest-{date_str}.md")
     send_email(f"Client Ops Digest — {date_str}",
-               digest_html(date_str, per_client), do_send and not dry_run)
+               digest_html(date_str, per_client, promises),
+               do_send and not dry_run)
 
     state["cursor"] = cursor_out
     state["last_run_at"] = run_start.isoformat()
