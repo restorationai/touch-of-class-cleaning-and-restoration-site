@@ -162,6 +162,8 @@ Single source of truth. No em dashes in client copy. Quiet hours. One-offs
 only via `scripts/monica_oneoff.py` or `scripts/scheduled_sends.py`. Dan and
 RestoPros: no plumbing, no pushback. App changes: localhost first, merge only
 after Santino confirms.
+Deploy guard (09-29): production sync-deploy refuses automated rewrites of layouts/components/pages/styles/brand.ts/tailwind, automated page deletions, automated changes to existing public/images, and rollbacks of a fresh live deploy this checkout lacks (`scripts/deploy_guard.py`, dry run `--all`). Human, DEV AGENT and `[design-change]` commits pass; `--allow-design-change` overrides and is logged to ops_kv deploy-guard-log.
+Site watcher (09-29): `scripts/site_regression_watch.py` (workflow site-regression-watch, per client, nightly and after deploy lanes) fingerprints each live site (nav, homepage sections, videos, logo, service images, sitemap count) into ops_kv site-fingerprint/{slug}. A regression files one System Errors card naming the Cloudflare deploy. Resolving the card, or `--accept SLUG`, adopts the current page.
 
 ### Every client action logs (09-29)
 Any system that changes a client's Google profile, site, listings or ads, or

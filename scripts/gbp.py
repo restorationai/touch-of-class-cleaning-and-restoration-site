@@ -2769,6 +2769,21 @@ def build_client_pages(slug: str) -> tuple:
                       "--branch", "main", "--allow-dirty"])
     if rcd != 0:
         return False, f"BUILD FAILED at `sync-deploy` -> ...{logd.strip()[-400:]}"
+
+    # 6. land the commit on origin/main NOW (2026-09-29): the workflow's single
+    #    end-of-run `git push origin HEAD:main` was rejected every week (other
+    #    lanes push during the 3.5h run; `|| echo` hid it), so hundreds of
+    #    deployed location pages per client lived ONLY in the per-client repo
+    #    and the next deploy from main silently rolled them back. CI only; a
+    #    failed push is reported, the deploy already happened.
+    if os.environ.get("GITHUB_ACTIONS") == "true":
+        for _ in range(4):
+            _sh(["git", "pull", "-q", "--rebase", "--autostash", "origin", "main"])
+            rcp, logp = _sh(["git", "push", "-q", "origin", "HEAD:main"])
+            if rcp == 0:
+                break
+        else:
+            render_note += f" (WARNING: monorepo push failed: {logp.strip()[-160:]})"
     return True, "built + deployed (plan -> add-pages -> render -> commit -> sync-deploy main)" + render_note
 
 

@@ -2702,6 +2702,19 @@ def cmd_sync_deploy(args) -> int:
     # if that fails, refuse rather than roll newer work back.
     _catch_up_site(slug, mono)
 
+    # PRE-DEPLOY GUARD (2026-09-29, Santino: "We definitely don't want these
+    # sites getting reverted after we make changes"). Production only. Diffs
+    # the tree about to ship against the per-client repo's live main and
+    # refuses when AUTOMATION would rewrite design files (layouts,
+    # components, pages, styles, brand.ts, tailwind), delete live pages,
+    # change existing public/images, or roll back a fresh deploy this
+    # checkout lacks. Human, dev-agent and [design-change] commits pass;
+    # --allow-design-change overrides (logged). See scripts/deploy_guard.py.
+    if branch == "main":
+        from deploy_guard import enforce as _deploy_guard
+        _deploy_guard(slug, client_repo,
+                      allow_design_change=getattr(args, "allow_design_change", False))
+
     # Step 4: Subtree split — create a synthetic branch containing only sites/{slug}/'s history
     temp_branch = f"_sync-deploy-{slug}-{branch}"
     print(f"[3/4] Splitting subtree sites/{slug}/ into temp branch {temp_branch!r}...")
@@ -2859,6 +2872,7 @@ def cmd_sync_deploy_all(args) -> int:
         sub_args = argparse.Namespace(
             slug=slug, branch=args.branch,
             private=args.private, allow_dirty=args.allow_dirty,
+            allow_design_change=getattr(args, "allow_design_change", False),
         )
         try:
             cmd_sync_deploy(sub_args)
@@ -3235,6 +3249,10 @@ def build_parser() -> argparse.ArgumentParser:
                      help="If the per-client repo needs to be created, make it private (default: public).")
     psd.add_argument("--allow-dirty", action="store_true",
                      help="Allow sync even if monorepo working tree has uncommitted changes.")
+    psd.add_argument("--allow-design-change", action="store_true",
+                     help="Deliberate human work: ship even if the deploy guard sees "
+                          "design/page/image changes vs live (logged to ops_kv "
+                          "deploy-guard-log).")
     psd.set_defaults(func=cmd_sync_deploy)
 
     # sync-deploy-all: bulk version
@@ -3245,6 +3263,7 @@ def build_parser() -> argparse.ArgumentParser:
     psda.add_argument("--branch", required=True, choices=["main", "staging"])
     psda.add_argument("--private", action="store_true")
     psda.add_argument("--allow-dirty", action="store_true")
+    psda.add_argument("--allow-design-change", action="store_true")
     psda.set_defaults(func=cmd_sync_deploy_all)
 
     # indexnow: manual ping (also runs automatically after sync-deploy --branch main)

@@ -187,7 +187,17 @@ jobs:
             git commit -m "chore: gbp page build $(date +%Y-%m-%d) [automated]"
           fi
           # Push whatever commits exist (create-pages --build commits per client before deploy).
-          git push origin HEAD:main || echo "nothing to push"
+          # 2026-09-29: a bare `git push || echo "nothing to push"` was REJECTED
+          # every run (other lanes push during this 3.5h job) and the echo hid
+          # it, so deployed pages never reached main and the next deploy rolled
+          # them back. Rebase-retry, and fail loudly if it still can't land.
+          for i in 1 2 3 4 5; do
+            git pull --rebase --autostash origin main || { git rebase --abort 2>/dev/null; true; }
+            git push origin HEAD:main && exit 0
+            sleep $((RANDOM % 15 + 5))
+          done
+          echo "::error::gbp-maintenance could not push its commits to main (deployed pages will be rolled back by the next deploy)"
+          exit 1
 
       - name: Alert on failure
         if: failure()

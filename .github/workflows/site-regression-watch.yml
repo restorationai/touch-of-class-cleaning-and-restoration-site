@@ -1,0 +1,101 @@
+# Live-site regression watcher (Santino 2026-09-29: "We definitely don't want
+# these sites getting reverted after we make changes ... we need to add a
+# watcher either way"). PER-CLIENT FAN-OUT (LAW 09-19): a cheap plan job lists
+# every active client with a cut-over domain, then one isolated job per site
+# fingerprints the live homepage / services / sitemap and diffs it against
+# ops_kv site-fingerprint/{slug}. A regression files ONE [PIPELINE ALERT]
+# card for that site naming the Cloudflare deploy that introduced it.
+# HTTP GETs only (no checkout writes, no commits).
+#
+# Runs nightly and after every deploy-heavy lane finishes (waits 5 min for
+# Cloudflare Pages to finish building what the lane pushed).
+name: Site Regression Watch
+
+on:
+  schedule:
+    - cron: "47 12 * * *"   # 12:47 UTC daily (05:47 PT), after the 10:23 content slot
+  workflow_run:
+    workflows:
+      - "Content Daily"
+      - "Rank AI GBP Maintenance"
+      - "Rank AI Client Ops Sync"
+      - "Site Render"
+      - "Site Build"
+      - "Deploy Client Sites (cloud)"
+      - "Rank AI Weekly Maintenance"
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      only_slug:
+        description: "Watch ONE client slug (empty = all live sites)"
+        required: false
+        default: ""
+      seed:
+        description: "Re-seed baselines (adopt what is live now)"
+        type: boolean
+        default: false
+
+concurrency:
+  group: site-regression-watch
+  cancel-in-progress: false
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    outputs:
+      slugs: ${{ steps.list.outputs.slugs }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Let Cloudflare finish building the lane's deploys
+        if: github.event_name == 'workflow_run'
+        run: sleep 300
+      - name: Live sites
+        id: list
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          if [ -n "${{ github.event.inputs.only_slug }}" ]; then
+            echo "slugs=[\"${{ github.event.inputs.only_slug }}\"]" >> "$GITHUB_OUTPUT"
+          else
+            echo "slugs=$(python3 scripts/site_regression_watch.py --list | tail -1)" >> "$GITHUB_OUTPUT"
+          fi
+
+  watch:
+    needs: plan
+    if: needs.plan.outputs.slugs != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      max-parallel: 6
+      matrix:
+        slug: ${{ fromJson(needs.plan.outputs.slugs) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Fingerprint + diff ${{ matrix.slug }}
+        env:
+          SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          CLOUDFLARE_ACCOUNT_ID:      ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_PAGES_API_TOKEN: ${{ secrets.CLOUDFLARE_PAGES_API_TOKEN }}
+          CLOUDFLARE_API_TOKEN:       ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          GHL_API_KEY:                ${{ secrets.GHL_API_KEY }}
+          GHL_LOCATION_ID:            ${{ secrets.GHL_LOCATION_ID }}
+        run: |
+          if [ "${{ github.event.inputs.seed }}" = "true" ]; then
+            python3 scripts/site_regression_watch.py --slug "${{ matrix.slug }}" --seed
+          else
+            python3 scripts/site_regression_watch.py --slug "${{ matrix.slug }}"
+          fi

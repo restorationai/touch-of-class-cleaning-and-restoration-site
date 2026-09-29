@@ -51,7 +51,7 @@ WATCHED_WORKFLOWS = [
     "client-ops-sync.yml", "content-daily.yml", "video-automation.yml",
     "weekly-maintenance.yml", "call-intel.yml", "gbp-maintenance.yml",
     "monthly-reports.yml", "dev-agent.yml", "site-render.yml",
-    "lsa-lead-review.yml",
+    "lsa-lead-review.yml", "site-regression-watch.yml",
 ]
 HEARTBEATS = {"heartbeat:parity": 8, "heartbeat:service-bank": 8,
               "heartbeat:ai-scan": 5, "heartbeat:lsa-lead-review": 2}
@@ -533,7 +533,52 @@ def _stamp(issue: str) -> str:
             "place and auto-resolves when the condition clears)")
 
 
-def reconcile_notes(issues: list[str]) -> list[str]:
+def check_site_guards() -> list[str]:
+    """Live-site regressions + blocked production deploys (Santino
+    2026-09-29: "we don't want these sites getting reverted"). The per-client
+    site_regression_watch.py jobs keep ops_kv site-fingerprint/{slug} with an
+    open `regression`; deploy_guard.py keeps deploy-guard-block/{slug} while a
+    site's production deploy is refused. Both file their own cards the
+    moment they happen; this re-states them so the daily pass keeps those
+    cards open instead of auto-clearing them."""
+    issues = []
+    try:
+        rows = _sb("GET", "/rest/v1/ops_kv?or=(k.like.site-fingerprint/*,"
+                   "k.like.deploy-guard-block/*)&select=k,v",
+                   prefer="return=representation") or []
+    except Exception as e:  # noqa: BLE001
+        return [f"site guard check failed: {str(e)[:80]}"]
+    for r in sorted(rows, key=lambda x: x["k"]):
+        v = r.get("v") or {}
+        if r["k"].startswith("deploy-guard-block/"):
+            if v.get("issue"):
+                issues.append(v["issue"])
+        elif (v.get("regression") or {}).get("issue"):
+            issues.append(v["regression"]["issue"])
+    return issues
+
+
+def text_santino(fresh: list[str]) -> None:
+    """ONE SMS per run for brand-new alert cards only (2026-09-17: "not only
+    Ops Attention but also a text"). Same ops-ping path the credit canary
+    uses; a failed text never kills the caller."""
+    if not fresh:
+        return
+    heads = [i.split(" — ")[0] for i in fresh[:4]]
+    body = (f"PIPELINE ALERT ({len(fresh)} new): " + "; ".join(heads)
+            + ("; +more" if len(fresh) > 4 else "")
+            + ". Details in the app's Errors tab.")
+    try:
+        from client_concierge import (send_message, OPS_PING_CONTACT_ID,
+                                      OPS_PING_CELL)
+        send_message({"id": OPS_PING_CONTACT_ID, "phone": OPS_PING_CELL},
+                     "sms", body[:640])
+        print("  -> alert SMS sent")
+    except Exception as e:  # noqa: BLE001
+        print(f"  -> alert SMS failed: {str(e)[:100]}")
+
+
+def reconcile_notes(issues: list[str], scope: str | None = None) -> list[str]:
     """ONE open note per alert key, refreshed in place (Santino 2026-09-29:
     2,489 open notes, the same 'cadence SLA' card stacked weekly per client).
 
@@ -544,7 +589,11 @@ def reconcile_notes(issues: list[str]) -> list[str]:
     - condition true + nothing           -> file a new card (+ SMS, fresh).
     - open card whose key is NOT in this run's issues -> the condition
       cleared: resolve it (marked auto_cleared so a relapse reopens it).
-    Returns the list of FRESH issues (the only ones that text Santino)."""
+    Returns the list of FRESH issues (the only ones that text Santino).
+
+    scope (2026-09-29, site guards): ONE alert key. Only the card with that
+    key is refreshed or cleared, so a per-client job can own its one card
+    without touching (or auto-clearing) anyone else's."""
     now_iso = NOW.isoformat().replace("+00:00", "Z")
     open_notes = _sb("GET", "/rest/v1/marketing_ops_notes?status=eq.open"
                      "&author=eq.pipeline_watchdog&company_id=is.null"
@@ -554,10 +603,16 @@ def reconcile_notes(issues: list[str]) -> list[str]:
     for n in open_notes:
         b = (n.get("body") or "").split("\n(still true as of")[0]
         b = b.replace("[PIPELINE ALERT]", "", 1).strip()
-        by_key.setdefault(alert_key(b), []).append(n)   # newest first
+        k = alert_key(b)
+        if scope and k != scope:
+            continue
+        by_key.setdefault(k, []).append(n)   # newest first
     current: dict[str, str] = {}
     for issue in issues:
-        current.setdefault(alert_key(issue), issue)
+        k = alert_key(issue)
+        if scope and k != scope:
+            continue
+        current.setdefault(k, issue)
     fresh: list[str] = []
 
     def _resolve(ids: list[str]) -> None:
@@ -622,7 +677,8 @@ def main() -> int:
               + check_lsa_leads()
               + check_stuck_lead_audits()
               + check_email_claims()
-              + check_nap_parity())
+              + check_nap_parity()
+              + check_site_guards())
     if not issues:
         print("pipeline watchdog: ALL SYSTEMS ALIVE")
     fresh = [] if a.dry_run else reconcile_notes(issues)
@@ -631,21 +687,9 @@ def main() -> int:
             print(f"  !! {issue}  [key {alert_key(issue)}]")
     # SMS to Santino (2026-09-17: "not only Ops Attention but also a text —
     # I don't really view Ops Attention"). One text per run, NEW issues only
-    # (the 7-day dedupe above already keeps repeats quiet). Same ops-ping
-    # path the credit canary uses.
-    if fresh and not a.dry_run:
-        heads = [i.split(" — ")[0] for i in fresh[:4]]
-        body = (f"PIPELINE ALERT ({len(fresh)} new): " + "; ".join(heads)
-                + ("; +more" if len(fresh) > 4 else "")
-                + ". Details in the app's Errors tab.")
-        try:
-            from client_concierge import (send_message, OPS_PING_CONTACT_ID,
-                                          OPS_PING_CELL, SendBlocked)
-            send_message({"id": OPS_PING_CONTACT_ID, "phone": OPS_PING_CELL},
-                         "sms", body[:640])
-            print("  -> alert SMS sent")
-        except Exception as e:  # noqa: BLE001 — SMS failure never kills the run
-            print(f"  -> alert SMS failed: {str(e)[:100]}")
+    # (the 7-day dedupe above already keeps repeats quiet).
+    if not a.dry_run:
+        text_santino(fresh)
     print(f"pipeline watchdog: {len(issues)} issue(s), {len(fresh)} new")
     return 0
 
