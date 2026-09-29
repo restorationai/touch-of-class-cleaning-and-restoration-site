@@ -9,6 +9,8 @@
 
 # Working State — leave-and-resume doc
 
+> **Roadmap / phases / waiting-on-Santino list: see docs/ROADMAP-STATUS.md (read it too).**
+
 ## 2026-09-03 NIGHT — toll-free auto-registration pipeline LIVE end to end
 
 Full loop shipped in one evening (Santino approved each stage): DISS TFV
