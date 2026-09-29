@@ -218,9 +218,15 @@ def risk_verdict(fb: dict, *, site_live: bool, has_site: bool) -> tuple[str, str
     conf = str(fb.get("confidence") or "low").strip().lower()
     blob = f"{quote}\n{what}\n{fb.get('where') or ''}"
 
+    # NO SITE YET IS NOT A REASON TO PARK (Santino 2026-09-28, Dry1 Out):
+    # Cole's kickoff asked for the Astro rebuild, local landing pages and a
+    # restoration-first Vista position; all three sat as proposals because
+    # the site did not exist yet, which is exactly when they matter most.
+    # They run as build INPUT: dev_agent.md records them in plan-input so
+    # the first build ships with them.
     if not has_site:
-        return "propose", ("no site subtree on file for this client, so there "
-                           "is nothing a build agent can change")
+        return "auto", ("no site built yet: record it as input for the first "
+                        "build (plan-input / site brief)")
     if not what:
         return "propose", "the classifier could not say what they want changed"
     if cat not in CATEGORIES:
@@ -832,11 +838,11 @@ REPLAYS: list[tuple[str, dict, bool, str]] = [
       "where": "privacy policy", "quote": "Our privacy policy needs updating",
       "confidence": "high"},
      False, "auto"),
-    ("no site to change yet",
+    ("no site yet runs as build input",
      {"category": "imagery", "what": "change the hero image",
       "where": "homepage", "quote": "the hero image should be a house",
       "confidence": "high"},
-     False, "propose"),   # forced by has_site=False below
+     False, "auto"),   # has_site=False below; 2026-09-28: input for the first build
 ]
 
 

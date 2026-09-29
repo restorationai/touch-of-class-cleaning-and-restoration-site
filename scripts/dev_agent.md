@@ -290,6 +290,14 @@ Wording, headlines, a wrong phone number or service.
 - Rendered copy lives in `sites/{slug}/src/content/**/*.md`. Edit the smallest
   surface that does the job, then run claims lint.
 
+### Site not built yet
+
+A [DEV] for a client whose `sites/{slug}` does not exist yet is build
+INPUT, not an edit (2026-09-28). Record it in `clients/{slug}/plan-input.json`
+(site_brief, service_areas, positioning, services) so the first plan and
+scaffold ship with it, commit, and say so in your done line. If the client
+has no site planned at all, hand it back as NEEDS INPUT with that reason.
+
 ### Call commitments
 
 `[DEV] {slug}: CALL COMMITMENT ...` notes are things WE promised on a client
