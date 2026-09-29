@@ -50,6 +50,9 @@ export const brand = {
   ga4MeasurementId: "G-BRL1Q2KTGV",
   clarityProjectId: "xdoje59wr1",
   logoUrl: "/images/logo.webp",
+  // Davis's own Restoration AI chat widget (live until the 09-23 sweep dropped the
+  // hardcoded embed); BaseLayout renders it only when this is set.
+  emergencyWidgetId: "CO-1778778644861",
   licenseNumbers: [] as string[],
   licenseAuthority: "",
   // State license-verification page — the footer links the license number here.
@@ -78,7 +81,7 @@ export const brand = {
   tradeNoun: "construction",
   specialistPhrase: "Construction & Remodeling Specialists",
   announcementSuffix: "Free Estimates",
-  homeAboutBlurb: "Davis Construction Contractors serves Madison and the surrounding AL area with full-service construction and remodeling. From new construction and additions to roofing, siding, decks, and painting, our team manages every project from the first estimate to the final walkthrough.",
+  homeAboutBlurb: "Davis Construction Contractors has been serving Madison and North Alabama since 2008. We handle new construction, remodeling, decks, roofing, siding, and painting, and when storms or water damage strike, our restoration team responds fast to get your property back to normal. One call covers it all.",
 } as const;
 
 export const entityId = `${brand.canonicalUrl}/#identity`;

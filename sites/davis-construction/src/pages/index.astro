@@ -14,7 +14,6 @@ import ProcessSection from "~/components/ui/ProcessSection.astro";
 import BeforeAfterSection from "~/components/ui/BeforeAfterSection.astro";
 import RecentWork from "~/components/RecentWork.astro";
 import ProudlyServing from "~/components/ui/ProudlyServing.astro";
-import ReviewsSection from "~/components/ui/ReviewsSection.astro";
 import { brand } from "~/lib/brand";
 import { workPairs } from "~/data/work";
 
@@ -25,7 +24,7 @@ const data = entry.data;
 
 const heroImage = data.hero || `${brand.imagesBase}/brand/hero.webp`;
 
-// Pull top 6 services by priority for the home page strip
+// Show top 6 services by priority on the home page strip
 const allServices = await getCollection("services");
 const services = (allServices as CollectionEntry<"services">[])
   .sort((a, b) => (b.data.priority || 0) - (a.data.priority || 0))
@@ -40,15 +39,13 @@ const services = (allServices as CollectionEntry<"services">[])
   schema_ctx={{ archetype: "home" }}
   faq={data.faq}
 >
-  {/* Homepage hero background. DEFAULT for new builds: a branded small-fleet
-      scene (3-5 matched vehicles in the client's brand-color livery, region-
-      matched street, golden hour, calm left third for the headline) generated
-      per the client's image-style-guide.md "Homepage hero" spec, uploaded to
-      R2 at brand/hero-fleet.webp and referenced via brand.imagesBase — or
-      dropped into public/images/hero-bg.webp if R2 isn't provisioned yet. */}
-  <Hero title={data.h1} subtitle={data.meta_description} backgroundImage="/images/hero-bg.webp">
+  <Hero
+    title="General Contractor & Restoration Services in Madison, AL"
+    subtitle="Construction, remodeling, decks, roofing, and full disaster restoration. One trusted team for every project."
+    backgroundImage="/images/hero-bg.webp"
+  >
     {/* Davis exception (Santino 2026-09-25): hero quote form ON despite the
-        call-first default — no GBP, lead capture is this site's job. */}
+        call-first default. No GBP, lead capture is this site's job. */}
     <FreeEstimateForm slot="form" variant="hero" />
   </Hero>
 
@@ -56,11 +53,8 @@ const services = (allServices as CollectionEntry<"services">[])
 
   <ReviewsStrip />
 
-  <AboutSection imageSrc="/images/team.webp" imageAlt={`${brand.displayName} Team`}>
+  <AboutSection imageSrc="/images/team.png" imageAlt={`${brand.displayName} construction crew on a residential job site in Madison, AL`}>
     <p>
-      {/* Vertical copy — never hardcode a trade phrase here (industry-bleed
-          audit 2026-07-31: the light variant of this paragraph shipped All
-          Pro's plumbing identity on four restoration sites). */}
       {brand.homeAboutBlurb}
     </p>
   </AboutSection>
@@ -73,11 +67,9 @@ const services = (allServices as CollectionEntry<"services">[])
 
   <RecentWork />
 
-  <ReviewsSection />
-
   <ProudlyServing />
 
-  <CtaBanner heading="24/7 Emergency Response" subheading="We answer the phone day and night. Insurance billing accepted." />
+  <CtaBanner heading="Family-Owned, Licensed & Insured" subheading="Serving Madison & North Alabama since 2008. Free estimates on all construction work." />
 
   <FAQSection faq={data.faq} />
 

@@ -183,7 +183,7 @@
     "legal_name": "Davis Construction Inc.",
     "phone": "(256) 771-0326",
     "email": "davisheath09@gmail.com",
-    "hours": "Monday\u2013Friday, 8:00 AM \u2013 5:00 PM",
+    "hours": "Monday–Friday, 8:00 AM – 5:00 PM",
     "founded_year": "2008",
     "license_numbers": [],
     "certifications": [],
@@ -195,7 +195,8 @@
     "family_owned": true,
     "licensed_insured_attested": true,
     "primary_color": "#dc2626",
-    "logo_url": "/images/logo.webp"
+    "logo_url": "/images/logo.webp",
+    "home_about_blurb": "Davis Construction Contractors has been serving Madison and North Alabama since 2008. We handle new construction, remodeling, decks, roofing, siding, and painting, and when storms or water damage strike, our restoration team responds fast to get your property back to normal. One call covers it all."
   },
   "cross_product": true,
   "keyword_strategy": "conservative",

@@ -174,9 +174,8 @@ const ctx: PageSchemaContext = {
   </head>
   <body class="min-h-screen flex flex-col">
     <div class="hidden md:block bg-cta text-cta-fg text-xs md:text-sm font-bold text-center py-2 px-4 tracking-wider">
-      {isLicensed
-        ? <>Licensed &amp; Insured &mdash; {brand.primaryCity}, {brand.primaryState}{" "}{brand.specialistPhrase}</>
-        : <>{brand.primaryCity}, {brand.primaryState}{" "}{brand.specialistPhrase} &mdash; {brand.announcementSuffix}</>}
+      {/* Davis's own bar (pre-sweep): a contractor, not a 24/7 emergency line. */}
+      Construction &amp; Restoration Specialists Serving Madison, AL
     </div>
     <Header />
     <Breadcrumb trail={breadcrumb} />
