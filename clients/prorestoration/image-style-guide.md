@@ -30,7 +30,16 @@ VAN-OVERRIDE: a fleet of EXACTLY THREE matching white service vans, parked in a 
    fixture or task in an impossible place, ladders on uneven ground, torch work
    near combustibles. If a scene would make a real restorer wince, regenerate.
 
-CREW-OVERRIDE: the worker wears a navy-blue branded ProRestoration shirt or work jacket with jeans, never a red shirt or red polo, the same navy-blue uniform in every image
+5. **BAKERSFIELD IS FLAT (Santino/Shana 2026-09-02, restated 2026-09-29).**
+   Valley-floor geography: flat streets, flat horizon, no hills, no
+   mountains, no hillside neighborhoods behind any window or roofline.
+   AUTOMATIC REJECT: visible hills or mountains. No readable phone numbers
+   on vans (the real line is (661) 393-9306 and the model invents others),
+   and no blurred or smudged faces.
+
+LIVERY-REFERENCE: van-wrap-mockup.jpg
+
+CREW-OVERRIDE: the worker wears a navy-blue branded ProRestoration shirt or work jacket with jeans, never a red shirt or red polo, the same navy-blue uniform in every image. Flat Central Valley surroundings (Bakersfield): no hills or mountains anywhere in frame
 
 ---
 

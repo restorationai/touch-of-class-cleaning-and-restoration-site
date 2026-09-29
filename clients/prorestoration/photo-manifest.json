@@ -6553,7 +6553,9 @@
       "triage_model": "claude-sonnet-4-6"
     }
   },
-  "slots": {
+  "slots": {},
+  "triaged_at": "2026-09-16T20:12:12Z",
+  "slots_retired": {
     "hero": {
       "asset": "web:8c032e383cb4ec8f",
       "source": "website",
@@ -6561,7 +6563,8 @@
       "category": "fleet",
       "subject": "Three ProRestoration Services branded vans and truck parked outdoors",
       "installed_at": "2026-09-03T04:45:58Z",
-      "file": "/images/hero-bg.webp"
+      "file": "/images/hero-bg.webp",
+      "retired": "2026-09-29: installed by the 09-03 dev-agent overhaul that Santino reverted (eda5f3c95); the files on disk are the restored generated set, not these photos"
     },
     "team": {
       "asset": "gbp:gbp-AF1QipOMul36j4OmZ7exsZEavwMIcIWykPhrgvvi0p_N",
@@ -6570,7 +6573,8 @@
       "category": "crew",
       "subject": "Six uniformed crew members standing in front of branded van",
       "installed_at": "2026-09-03T04:45:59Z",
-      "file": "/images/team.webp"
+      "file": "/images/team.webp",
+      "retired": "2026-09-29: installed by the 09-03 dev-agent overhaul that Santino reverted (eda5f3c95); the files on disk are the restored generated set, not these photos"
     },
     "services": {
       "asset": "gbp:gbp-AF1QipM8HPvT7C097YeKUwGra6NZTRfZQ2AQsKSgjfDG",
@@ -6579,7 +6583,8 @@
       "category": "crew",
       "subject": "Technician in full PPE extracting water in commercial lobby",
       "installed_at": "2026-09-03T04:46:00Z",
-      "file": "/images/services.webp"
+      "file": "/images/services.webp",
+      "retired": "2026-09-29: installed by the 09-03 dev-agent overhaul that Santino reverted (eda5f3c95); the files on disk are the restored generated set, not these photos"
     },
     "service:appliance-leak-cleanup": {
       "asset": "web:e22b53dee007945e",
@@ -6587,7 +6592,8 @@
       "category": "equipment",
       "subject": "Syclone XL dehumidifier and two air movers on hardwood floor",
       "file": "/images/services/appliance-leak-cleanup.webp",
-      "installed_at": "2026-09-03T04:46:00Z"
+      "installed_at": "2026-09-03T04:46:00Z",
+      "retired": "2026-09-29: installed by the 09-03 dev-agent overhaul that Santino reverted (eda5f3c95); the files on disk are the restored generated set, not these photos"
     },
     "service:burst-pipe-repair": {
       "asset": "gbp:gbp-AF1QipOb6vJ192CB0KPfFd5BfiY7fg41_jHqx56D2n3c",
@@ -6595,7 +6601,8 @@
       "category": "job_progress",
       "subject": "Hallway wall demolished exposing pipes and water damage",
       "file": "/images/services/burst-pipe-repair.webp",
-      "installed_at": "2026-09-03T04:46:01Z"
+      "installed_at": "2026-09-03T04:46:01Z",
+      "retired": "2026-09-29: installed by the 09-03 dev-agent overhaul that Santino reverted (eda5f3c95); the files on disk are the restored generated set, not these photos"
     },
     "service:fire-damage-restoration": {
       "asset": "gbp:gbp-AF1QipNkSjwuZYpNhk5agvCwUMjgR33LC3DfKap89Kcl",
@@ -6603,7 +6610,8 @@
       "category": "crew",
       "subject": "Technician in yellow hazmat suit working in fire-damaged kitchen",
       "file": "/images/services/fire-damage-restoration.webp",
-      "installed_at": "2026-09-03T04:46:02Z"
+      "installed_at": "2026-09-03T04:46:02Z",
+      "retired": "2026-09-29: installed by the 09-03 dev-agent overhaul that Santino reverted (eda5f3c95); the files on disk are the restored generated set, not these photos"
     },
     "service:flood-damage-restoration": {
       "asset": "gbp:gbp-AF1QipMrXhotlp55t6uH_IaXQffQK-vy2CttjcKI3fPC",
@@ -6611,7 +6619,8 @@
       "category": "crew",
       "subject": "Technician in Tyvek suit extracting water in large commercial lobby",
       "file": "/images/services/flood-damage-restoration.webp",
-      "installed_at": "2026-09-03T04:46:03Z"
+      "installed_at": "2026-09-03T04:46:03Z",
+      "retired": "2026-09-29: installed by the 09-03 dev-agent overhaul that Santino reverted (eda5f3c95); the files on disk are the restored generated set, not these photos"
     },
     "service:general-contracting": {
       "asset": "gbp:gbp-AF1QipP6uuBg16F9DnvUGotFA6VlsBQ_DvdCUTraJdHV",
@@ -6619,7 +6628,8 @@
       "category": "job_progress",
       "subject": "Renovated kitchen with quartz countertop and white cabinets",
       "file": "/images/services/general-contracting.webp",
-      "installed_at": "2026-09-03T04:46:04Z"
+      "installed_at": "2026-09-03T04:46:04Z",
+      "retired": "2026-09-29: installed by the 09-03 dev-agent overhaul that Santino reverted (eda5f3c95); the files on disk are the restored generated set, not these photos"
     },
     "service:home-remodeling": {
       "asset": "gbp:gbp-AF1QipMEDWQ6HfykcSpjlEQ0RfXxayfIhsIsB80v7X4f",
@@ -6627,7 +6637,8 @@
       "category": "job_progress",
       "subject": "Completed kitchen remodel with island quartz countertop and dark cabinets",
       "file": "/images/services/home-remodeling.webp",
-      "installed_at": "2026-09-03T04:46:05Z"
+      "installed_at": "2026-09-03T04:46:05Z",
+      "retired": "2026-09-29: installed by the 09-03 dev-agent overhaul that Santino reverted (eda5f3c95); the files on disk are the restored generated set, not these photos"
     },
     "service:mold-inspection-testing": {
       "asset": "gbp:gbp-AF1QipM78MD89MCqitXJe_JMA7Yqib0dx3He_bGTwI5o",
@@ -6635,7 +6646,8 @@
       "category": "equipment",
       "subject": "Gloved hand holding moisture meter reading 99.5 on wall",
       "file": "/images/services/mold-inspection-testing.webp",
-      "installed_at": "2026-09-03T04:46:06Z"
+      "installed_at": "2026-09-03T04:46:06Z",
+      "retired": "2026-09-29: installed by the 09-03 dev-agent overhaul that Santino reverted (eda5f3c95); the files on disk are the restored generated set, not these photos"
     },
     "service:mold-remediation": {
       "asset": "gbp:gbp-AF1QipMMCQfTvM8Gl86ztaYJbRMHcI6AHnGzWfCSWLk1",
@@ -6643,7 +6655,8 @@
       "category": "crew",
       "subject": "Technician in full Tyvek suit and respirator spraying mold treatment indoors",
       "file": "/images/services/mold-remediation.webp",
-      "installed_at": "2026-09-03T04:46:07Z"
+      "installed_at": "2026-09-03T04:46:07Z",
+      "retired": "2026-09-29: installed by the 09-03 dev-agent overhaul that Santino reverted (eda5f3c95); the files on disk are the restored generated set, not these photos"
     },
     "service:reconstruction": {
       "asset": "gbp:gbp-AF1QipOTPBhbE2ECCmWywbpmI9ZoTaxLfnU4cHS5oJc5",
@@ -6651,7 +6664,8 @@
       "category": "job_progress",
       "subject": "Gutted bathroom interior with exposed framing and stripped cabinets",
       "file": "/images/services/reconstruction.webp",
-      "installed_at": "2026-09-03T04:46:08Z"
+      "installed_at": "2026-09-03T04:46:08Z",
+      "retired": "2026-09-29: installed by the 09-03 dev-agent overhaul that Santino reverted (eda5f3c95); the files on disk are the restored generated set, not these photos"
     },
     "service:sewage-cleanup": {
       "asset": "gbp:gbp-AF1QipPWYAFRLNAFw7fCXReuJJVBCjLCoy7_dy9pficv",
@@ -6659,7 +6673,8 @@
       "category": "crew",
       "subject": "Technician in Tyvek suit extracting water from flooded lobby floor",
       "file": "/images/services/sewage-cleanup.webp",
-      "installed_at": "2026-09-03T04:46:09Z"
+      "installed_at": "2026-09-03T04:46:09Z",
+      "retired": "2026-09-29: installed by the 09-03 dev-agent overhaul that Santino reverted (eda5f3c95); the files on disk are the restored generated set, not these photos"
     },
     "service:smoke-damage-restoration": {
       "asset": "web:5c0b1c48a78fd49c",
@@ -6667,7 +6682,8 @@
       "category": "job_progress",
       "subject": "Severely fire-damaged kitchen cabinets stove and wall",
       "file": "/images/services/smoke-damage-restoration.webp",
-      "installed_at": "2026-09-03T04:46:10Z"
+      "installed_at": "2026-09-03T04:46:10Z",
+      "retired": "2026-09-29: installed by the 09-03 dev-agent overhaul that Santino reverted (eda5f3c95); the files on disk are the restored generated set, not these photos"
     },
     "service:storm-damage-restoration": {
       "asset": "gbp:gbp-AF1QipOP1zLJ3kqiV3gemzP-S2En2Tih2_07xkmtgg8W",
@@ -6675,7 +6691,8 @@
       "category": "equipment",
       "subject": "Two air movers deployed in wet attic rafters with insulation",
       "file": "/images/services/storm-damage-restoration.webp",
-      "installed_at": "2026-09-03T04:46:12Z"
+      "installed_at": "2026-09-03T04:46:12Z",
+      "retired": "2026-09-29: installed by the 09-03 dev-agent overhaul that Santino reverted (eda5f3c95); the files on disk are the restored generated set, not these photos"
     },
     "service:water-damage-restoration": {
       "asset": "gbp:gbp-AF1QipOdQve23acC6mEdZwMEp5_IBTb3bc_if--bGk8-",
@@ -6683,8 +6700,8 @@
       "category": "crew",
       "subject": "Technician in Tyvek suit extracting water in commercial lobby",
       "file": "/images/services/water-damage-restoration.webp",
-      "installed_at": "2026-09-03T04:46:13Z"
+      "installed_at": "2026-09-03T04:46:13Z",
+      "retired": "2026-09-29: installed by the 09-03 dev-agent overhaul that Santino reverted (eda5f3c95); the files on disk are the restored generated set, not these photos"
     }
-  },
-  "triaged_at": "2026-09-16T20:12:12Z"
+  }
 }

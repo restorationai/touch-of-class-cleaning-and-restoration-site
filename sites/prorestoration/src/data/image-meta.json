@@ -17,12 +17,49 @@
       1200
     ]
   },
+  "/images/services/air-duct-cleaning.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/appliance-leak-cleanup.webp": {
     "width": 1376,
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
+    ]
+  },
+  "/images/services/asbestos-abatement.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/basement-flooding-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/biohazard-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
     ]
   },
   "/images/services/burst-pipe-repair.webp": {
@@ -30,7 +67,8 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/carpet-cleaning.webp": {
@@ -38,7 +76,71 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
+    ]
+  },
+  "/images/services/ceiling-water-damage-repair.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/commercial-restoration.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/contents-restoration-storage.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/crawl-space-encapsulation.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/emergency-board-up-tarping.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/emergency-plumbing.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/emergency-water-removal.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
     ]
   },
   "/images/services/fire-damage-restoration.webp": {
@@ -54,7 +156,8 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/general-contracting.webp": {
@@ -62,7 +165,8 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/home-remodeling.webp": {
@@ -70,7 +174,26 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
+    ]
+  },
+  "/images/services/industrial-restoration.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/large-loss-response.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
     ]
   },
   "/images/services/mold-inspection-testing.webp": {
@@ -78,7 +201,8 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/mold-remediation.webp": {
@@ -94,7 +218,17 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
+    ]
+  },
+  "/images/services/post-construction-cleaning.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
     ]
   },
   "/images/services/reconstruction.webp": {
@@ -102,7 +236,17 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
+    ]
+  },
+  "/images/services/roofing.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
     ]
   },
   "/images/services/sewage-cleanup.webp": {
@@ -118,7 +262,8 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/soot-removal.webp": {
@@ -126,7 +271,8 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/storm-damage-restoration.webp": {
@@ -137,12 +283,49 @@
       768
     ]
   },
+  "/images/services/vandalism-graffiti-removal.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/water-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/water-damage-restoration.webp": {
     "width": 1376,
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
+    ]
+  },
+  "/images/services/water-heater-flood-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/water-leak-detection.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
     ]
   },
   "/images/team.webp": {
