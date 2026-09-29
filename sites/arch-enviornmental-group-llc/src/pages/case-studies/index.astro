@@ -49,7 +49,11 @@ const breadcrumb = [{ name: "Home", url: "/" }, { name: "Case Studies" }];
         </div>
       )}
       {studies.length === 0 && (
-        <p class="text-white/60">Case studies are on the way — our crews document real jobs as they finish them.</p>
+        <div class="max-w-2xl rounded-lg border border-white/10 bg-white/5 p-8">
+          <h2 class="text-2xl text-white mt-0 mb-3">Job stories are on the way</h2>
+          <p class="text-white/70 mb-6 leading-relaxed">Our crews write up real jobs as they finish them: what happened, what we did, and how it turned out. Check back soon, or call us to talk through your project today.</p>
+          <a href={`tel:${brand.phoneRaw}`} class="btn-primary no-underline">Call {brand.phone}</a>
+        </div>
       )}
       <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {studies.map((s) => (
