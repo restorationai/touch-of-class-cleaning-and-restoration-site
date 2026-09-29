@@ -1936,6 +1936,26 @@ def save_table(out: dict) -> int:
     return len(rows)
 
 
+def log_work(out: dict) -> None:
+    """Reports tab (2026-09-29, every client action logs): research delivered
+    to the client's app. Fail-soft: never breaks a saved run."""
+    try:
+        from work_log import work_log
+        towns = [t.get("town") for t in out.get("towns") or [] if t.get("town")]
+        n = sum(len(t.get("options") or []) for t in out.get("towns") or [])
+        if not (n and out.get("company_id")):
+            return
+        work_log(out["company_id"], "research", "office-scout",
+                 f"Office search delivered in your app: {n} rentable space"
+                 f"{'s' if n != 1 else ''} rated for a second Google listing in "
+                 f"{', '.join(towns[:5])}, with the best contact to call for each.",
+                 evidence={"towns": towns, "options": n,
+                           "generated_at": out.get("generated_at")},
+                 actor="automation", source="office_scout.py")
+    except Exception as e:  # noqa: BLE001
+        print(f"  [work-log] warn: {str(e)[:100]}", file=sys.stderr)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="Find rentable spaces for a second GBP in each scouted town")
     ap.add_argument("--slug", help="client slug (uses its location_scout shortlist)")
@@ -2018,6 +2038,7 @@ def main() -> int:
         print(f"  wrote {n} rows to {TABLE}; now holds {len(live)} for {out['company_id']} "
               f"({', '.join(f'{k} {v}' for k, v in sorted(by_src.items(), key=lambda kv: -kv[1]))})",
               file=log)
+        log_work(out)
     elif key:
         print(f"  (dry-run) would write {TABLE} rows + ops_kv {key}; re-run with --apply", file=log)
     return 0

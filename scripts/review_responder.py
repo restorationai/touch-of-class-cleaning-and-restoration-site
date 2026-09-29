@@ -124,6 +124,7 @@ def respond_for(slug: str, limit: int = 5, dry_run: bool = False) -> str:
         return f"{slug}: all {len(reviews)} recent reviews already have replies"
 
     posted, parked = 0, 0
+    replied_to: list[str] = []
     for r in unreplied[:limit]:
         stars = STAR_NUM.get(r.get("starRating", ""), 0)
         reviewer = ((r.get("reviewer") or {}).get("displayName") or "").strip()
@@ -146,6 +147,7 @@ def respond_for(slug: str, limit: int = 5, dry_run: bool = False) -> str:
                     headers={"Authorization": f"Bearer {token}",
                              "Content-Type": "application/json"},
                     json={"comment": reply}, timeout=30).raise_for_status()
+                replied_to.append(f"{first or 'a customer'} ({stars} stars)")
             posted += 1
         else:
             key = "review-reply-" + str(r.get("reviewId", ""))[:16]
@@ -165,6 +167,16 @@ def respond_for(slug: str, limit: int = 5, dry_run: bool = False) -> str:
                         "rationale": ("REVIEW ({}★): {}\n\nPROPOSED REPLY: {}"
                                       .format(stars, comment[:400], reply))}])
             parked += 1
+    if replied_to:
+        # Reports tab (2026-09-29, every client action logs): one change-log
+        # row per run; the monthly summary files review_reply under Reviews.
+        # gbp.log_change is fail-soft and never breaks the replies.
+        n = len(replied_to)
+        gbp.log_change(cid, "review_reply",
+                       f"Replied to {n} new Google review{'s' if n != 1 else ''} on your "
+                       f"profile: {', '.join(replied_to[:6])}"
+                       + (" and more" if n > 6 else "") + ".",
+                       actor="automation", meta={"replies": n})
     return f"{slug}: {posted} replied, {parked} parked for approval ({len(unreplied)} unreplied found)"
 
 

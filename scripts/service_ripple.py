@@ -124,6 +124,12 @@ def _dev_note_once(cid: str, slug: str, services: list[str],
     print(f"  {slug}: [DEV] filed — custom pages for {fresh}")
 
 
+def verticals_label(slug: str) -> str:
+    """catalog slug -> plain service name ("water-damage-restoration" ->
+    "water damage restoration")."""
+    return slug.replace("-", " ")
+
+
 def run(only_slug: str | None, dry_run: bool, cap: int = 5) -> int:
     cmap = json.loads((CLIENTS / "company_map.json").read_text())
     cos = {c["id"]: c for c in _sb(
@@ -175,6 +181,18 @@ def run(only_slug: str | None, dry_run: bool, cap: int = 5) -> int:
                         "from the truth table — stub pages scaffolded, the "
                         "nightly render sweep writes + deploys the content "
                         "(50 pages/night)."}, prefer="return=minimal")
+            # Reports tab (2026-09-29, every client action logs). Fail-soft.
+            try:
+                from work_log import work_log
+                labels = [verticals_label(n) for n in new]
+                work_log(cid, "site", "services-added-to-site",
+                         f"Your website is growing to cover more of the services you "
+                         f"offer: {', '.join(labels)}. The new pages are being written "
+                         "and go live over the next few nights.",
+                         evidence={"services": new}, actor="automation",
+                         source="service_ripple.py")
+            except Exception as e:  # noqa: BLE001
+                print(f"    [work-log] warn: {str(e)[:100]}")
             changed += 1
     print(f"service ripple: {changed} site(s) grown")
     return 0

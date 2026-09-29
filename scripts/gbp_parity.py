@@ -550,6 +550,26 @@ def main() -> int:
                 msg = write_service_area(slug, cid, lp["target"])
                 print(f"    GBP serviceArea -> {msg}")
                 entry["areas"]["write"] = msg
+                if msg.startswith("updated"):
+                    # Reports tab (2026-09-29, every client action logs).
+                    # log_change is fail-soft; the write already verified.
+                    added = [c["city"] for c in lp["to_add"]]
+                    dropped = list(lp["to_drop"])
+                    bits = []
+                    if added:
+                        bits.append("added " + ", ".join(added[:8])
+                                    + (" and more" if len(added) > 8 else ""))
+                    if dropped:
+                        bits.append("replaced farther areas " + ", ".join(dropped[:6])
+                                    + (" and more" if len(dropped) > 6 else ""))
+                    gbp.log_change(
+                        cid, "profile_service_areas",
+                        f"Service areas on your Google listing updated to your closest "
+                        f"{len(lp['target'])} cities"
+                        + (f" ({'; '.join(bits)})" if bits else "") + ".",
+                        actor="automation",
+                        meta={"added": added, "dropped": dropped,
+                              "source": "gbp_parity.py"})
             if apply and a.apply_site and lp["site_missing"]:
                 pi_p = ROOT / "clients" / slug / "plan-input.json"
                 pi = json.loads(pi_p.read_text())

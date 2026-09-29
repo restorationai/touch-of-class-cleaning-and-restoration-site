@@ -165,6 +165,17 @@ def main() -> int:
         print(f"  {site.name:44} {msg}")
         if msg.startswith(("favicon set built", "would build")):
             changed.append(site.name)
+        if msg.startswith("favicon set built"):
+            # Reports tab (2026-09-29, every client action logs). Fail-soft.
+            try:
+                sys.path.insert(0, str(ROOT / "scripts"))
+                from work_log import company_id_for_slug, work_log
+                work_log(company_id_for_slug(site.name), "site", "favicon-logo",
+                         "Your logo is now the icon on your website's browser tab "
+                         "and phone home-screen shortcut.",
+                         actor="automation", source="favicon_sync.py")
+            except Exception as e:  # noqa: BLE001
+                print(f"    [work-log] warn: {str(e)[:100]}")
     print(f"\n{len(changed)} site(s) {'would be ' if args.dry_run else ''}updated")
     return 0
 

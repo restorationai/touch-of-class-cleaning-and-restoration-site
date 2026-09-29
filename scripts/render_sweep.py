@@ -41,10 +41,15 @@ CLIENTS = ROOT / "clients"
 
 def pending_pages(slug: str) -> int:
     """Count content files scaffolded but not yet rendered."""
+    return len(pending_paths(slug))
+
+
+def pending_paths(slug: str) -> set[str]:
+    """Content files (relative to src/content) scaffolded but not rendered."""
     base = SITES / slug / "src" / "content"
     if not base.is_dir():
-        return 0
-    n = 0
+        return set()
+    out: set[str] = set()
     for p in base.rglob("*.md"):
         try:
             raw = p.read_text(errors="ignore")
@@ -61,8 +66,51 @@ def pending_pages(slug: str) -> int:
             if end != -1:
                 fm = raw[:end + 4]
         if not re.search(r"^rendered:\s*true\b", fm, re.M):
-            n += 1
-    return n
+            out.add(str(p.relative_to(base)))
+    return out
+
+
+_PAGE_KIND = {"serviceAreas": ("city page", "city pages"),
+              "locations": ("local service page", "local service pages"),
+              "services": ("service page", "service pages"),
+              "blog": ("article", "articles"),
+              "caseStudies": ("project story", "project stories"),
+              "pages": ("main page", "main pages"),
+              "legal": ("policy page", "policy pages")}
+
+
+def pages_line(rendered: set[str], live: bool) -> str:
+    """Plain client line for pages this sweep wrote (Reports tab)."""
+    kinds: dict[str, int] = {}
+    for rel in rendered:
+        kinds[rel.split("/", 1)[0]] = kinds.get(rel.split("/", 1)[0], 0) + 1
+    parts = []
+    for k, c in sorted(kinds.items(), key=lambda kv: -kv[1]):
+        one, many = _PAGE_KIND.get(k, ("page", "pages"))
+        parts.append(f"{c} {one if c == 1 else many}")
+    n = len(rendered)
+    head = (f"{n} new page{'s' if n != 1 else ''} written and published on your website"
+            if live else
+            f"{n} new page{'s' if n != 1 else ''} written for your new website "
+            "(in preview until it launches)")
+    return head + (f": {', '.join(parts)}." if parts else ".")
+
+
+def log_rendered(slug: str, rendered: set[str], branch: str) -> None:
+    """Reports tab (2026-09-29, every client action logs): the sweep commits
+    as [automated], which the monthly summary's git roll-up skips, so the
+    pages must land in marketing_work_log. Fail-soft by contract."""
+    if not rendered:
+        return
+    try:
+        sys.path.insert(0, str(ROOT / "scripts"))
+        from work_log import company_id_for_slug, work_log
+        work_log(company_id_for_slug(slug), "site", "pages-rendered",
+                 pages_line(rendered, branch == "main"),
+                 evidence={"pages": sorted(rendered)[:200], "branch": branch},
+                 actor="automation", source="render_sweep.py")
+    except Exception as e:  # noqa: BLE001
+        print(f"[{slug}] work-log warn: {str(e)[:100]}")
 
 
 def images_missing(slug: str) -> bool:
@@ -105,7 +153,8 @@ def run(cmd: list[str], timeout: int = 7200) -> int:
 
 
 def render_one(slug: str, workers: int) -> bool:
-    n = pending_pages(slug)
+    before = pending_paths(slug)
+    n = len(before)
     if n == 0 and not images_missing(slug):
         print(f"[{slug}] nothing pending — skip")
         return True
@@ -150,6 +199,8 @@ def render_one(slug: str, workers: int) -> bool:
                "--allow-dirty"])
     print(f"[{slug}] deployed to {branch}" if rc2 == 0
           else f"[{slug}] sync-deploy exited {rc2}")
+    if rc2 == 0:
+        log_rendered(slug, before - pending_paths(slug), branch)
     return rc == 0 and rc2 == 0
 
 

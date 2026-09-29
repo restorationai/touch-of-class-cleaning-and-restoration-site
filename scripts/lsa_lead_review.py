@@ -68,6 +68,57 @@ STOP = {"llc", "inc", "the", "of", "and", "co", "company", "services",
         "service", "lsa", "restoration", "construction", "&", "-", "/"}
 
 
+# ------------------------------------------------------------------ work log
+_REASON_TEXT = {"GEO_MISMATCH": "outside your service area",
+                "JOB_TYPE_MISMATCH": "jobs you do not do",
+                "NOT_READY_TO_BOOK": "not ready to book",
+                "SPAM": "spam", "DUPLICATE": "duplicates",
+                "SOLICITATION": "sales calls",
+                "SOLICITATION_CALL": "sales calls"}
+
+
+def sent_ok(decision) -> bool:
+    """True when Google accepted the feedback (any credit decision). None,
+    HELD and error: decisions never reached Google."""
+    d = str(decision or "")
+    return bool(d) and not d.startswith(("HELD", "error"))
+
+
+def work_line(good: int, bad: int, credits: int, bad_whys: list) -> str:
+    """One plain client-readable Reports line for a batch of rated leads."""
+    n = good + bad
+    parts = []
+    if good:
+        parts.append(f"{good} confirmed as good job{'s' if good != 1 else ''}")
+    if bad:
+        whys = sorted({_REASON_TEXT.get(str(w or ""), "") for w in bad_whys} - {""})
+        parts.append(f"{bad} reported as poor fit"
+                     + (f" ({', '.join(whys)})" if whys else ""))
+    line = (f"Reviewed and rated {'one' if n == 1 else n} of your Local Services "
+            f"Ads leads with Google: {' and '.join(parts)}, so Google learns which "
+            "customers to send you.")
+    if credits:
+        line += (f" Google credited back {credits} lead charge"
+                 f"{'s' if credits != 1 else ''}.")
+    return line
+
+
+def log_feedback(cid: str, good: int, bad: int, credits: int, bad_whys: list,
+                 source: str, evidence: dict | None = None) -> None:
+    """Reports-tab line (2026-09-29, every client action logs). Fail-soft."""
+    if not (good or bad):
+        return
+    try:
+        from work_log import work_log
+        work_log(cid, "ads", "lsa-lead-feedback",
+                 work_line(good, bad, credits, bad_whys),
+                 evidence={"good": good, "bad": bad, "credits": credits,
+                           **(evidence or {})},
+                 actor="automation", source=source)
+    except Exception as e:  # noqa: BLE001 — logging never breaks the review
+        print(f"  [work-log] warn: {str(e)[:100]}")
+
+
 # ------------------------------------------------------------------ plumbing
 def _mcc():
     from lsa_detect import build_mcc_client
@@ -360,6 +411,7 @@ def cmd_review(a) -> int:
     done = cc.kv_prefix(f"{KV}:{cid}:")
     tally = {"good": 0, "bad": 0, "unclear": 0, "missed": 0,
              "submitted": 0, "credits": 0}
+    sent = {"good": 0, "bad": 0, "credits": 0, "whys": []}
     zero_streak = 0
     print(f"== {a.slug} ({co.get('name')}) LSA {acid}: {len(leads)} lead(s) "
           f"in {a.days}d {'[APPLY]' if a.apply else '[dry run]'}")
@@ -432,6 +484,10 @@ def cmd_review(a) -> int:
                 tally["submitted"] += 1
                 if decision.startswith("SUCCESS"):
                     tally["credits"] += 1
+                    sent["credits"] += 1
+                sent[verdict] += 1
+                if verdict == "bad":
+                    sent["whys"].append(v.get("dissatisfied_reason"))
                 print(f"      -> feedback sent, Google credit decision: {decision}")
             except Exception as e:  # noqa: BLE001
                 decision = f"error: {str(e)[:120]}"
@@ -453,6 +509,8 @@ def cmd_review(a) -> int:
         print(f"  ALERT: last {zero_streak} LSA calls connected for 0 seconds — "
               "the LSA profile may be forwarding to a dead number")
     if a.apply:
+        log_feedback(cid, sent["good"], sent["bad"], sent["credits"], sent["whys"],
+                     "lsa_lead_review.py review", {"account_id": acid})
         cc.kv_set("heartbeat:lsa-lead-review", {
             "at": datetime.now(timezone.utc).isoformat(), "last_slug": a.slug})
         cc.kv_set(f"{KV}-summary:{cid}", {
@@ -484,7 +542,8 @@ def cmd_approve(a) -> int:
             _sb("PATCH", f"/rest/v1/companies?id=eq.{cid}",
                 {"integration_settings": ints}, prefer="return=minimal")
             print(f"{a.slug}: lead profile confirmed")
-    n = 0
+    n = ok_n = credits = 0
+    whys: list = []
     for k, v in (cc.kv_prefix(f"{KV}:{cid}:") or {}).items():
         if not str(v.get("credit_decision") or "").startswith("HELD"):
             continue
@@ -498,7 +557,13 @@ def cmd_approve(a) -> int:
         v["credit_decision"] = dec
         cc.kv_set(k, v)
         n += 1
+        if sent_ok(dec):
+            ok_n += 1
+            whys.append(v.get("dissatisfied_reason"))
+            credits += 1 if str(dec).startswith("SUCCESS") else 0
         print(f"  sent {v.get('why')} -> {dec} | {v.get('summary', '')[:100]}")
+    if not a.dry_run:
+        log_feedback(cid, 0, ok_n, credits, whys, "lsa_lead_review.py approve")
     print(f"{a.slug} ({co.get('name')}): {n} held verdict(s) sent")
     return 0
 

@@ -161,3 +161,11 @@ Single source of truth. No em dashes in client copy. Quiet hours. One-offs
 only via `scripts/monica_oneoff.py` or `scripts/scheduled_sends.py`. Dan and
 RestoPros: no plumbing, no pushback. App changes: localhost first, merge only
 after Santino confirms.
+
+### Every client action logs (09-29)
+Any system that changes a client's Google profile, site, listings or ads, or
+delivers research to them, writes one plain client-readable line: Google
+profile edits via `gbp.log_change` (marketing_gbp_changes), everything else
+via `work_log()` (marketing_work_log). Fail-soft, never the plan, only what
+Google or the site actually accepted. `monthly_summary.py` maps it into the
+Reports tab.

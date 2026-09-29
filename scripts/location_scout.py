@@ -492,6 +492,18 @@ def save(res: dict) -> int:
     try:
         urllib.request.urlopen(req, timeout=30)
         print(f"  saved {len(rows)} recommendation(s) to marketing_location_scout")
+        # Reports tab (2026-09-29, every client action logs). Weekly refresh,
+        # so one fixed line that monthly_summary rolls up with a count.
+        try:
+            from work_log import work_log
+            work_log(cid, "research", "location-scout",
+                     "Second-location research refreshed in your app: the best "
+                     "nearby towns for another Google listing, ranked by local "
+                     "demand and reach.",
+                     evidence={"towns": [r["seat_city"] for r in rows]},
+                     actor="automation", source="location_scout.py")
+        except Exception as e:  # noqa: BLE001 — fail-soft
+            print(f"  [work-log] warn: {str(e)[:100]}")
         return len(rows)
     except Exception as e:
         body = e.read().decode()[:200] if hasattr(e, "read") else str(e)[:200]

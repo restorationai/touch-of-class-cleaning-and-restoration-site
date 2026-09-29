@@ -287,6 +287,45 @@ def _git(args: list) -> str:
     return (r.stdout or r.stderr).strip()
 
 
+def _site_award_names(bt: Path) -> set[str]:
+    m = re.search(r"^\s*awards:\s*(\[.*?\])\s+as\b", bt.read_text(), re.M)
+    try:
+        return {a.get("name") for a in json.loads(m.group(1)) if a.get("name")} if m else set()
+    except (json.JSONDecodeError, AttributeError):
+        return set()
+
+
+def log_work(slug: str, awards: list, before_awards: set, had_block: bool,
+             notes: list[str]) -> None:
+    """Reports-tab lines (2026-09-29, every client action logs): these edits
+    ship in [automated] commits the monthly summary's git roll-up skips, so
+    they must land in marketing_work_log or the client never sees them.
+    Fail-soft by contract (work_log never raises)."""
+    try:
+        from work_log import company_id_for_slug, work_log
+        cid = company_id_for_slug(slug)
+        for a in awards:
+            if a["name"] not in before_awards:
+                work_log(cid, "site", "award-added",
+                         f"Your award is now featured on your website: {award_label(a)}. "
+                         "It leads your trust badges, homepage description and the "
+                         "search-engine data Google and AI assistants read.",
+                         evidence={"award": a}, source="ai_answers.py")
+        if "llms: updated" in notes:
+            if not had_block:
+                work_log(cid, "site", "ai-answers-added",
+                         "Added a direct-answers section to your website for AI assistants "
+                         "(ChatGPT, Google AI Overviews and others), answering \"who is the "
+                         "best company near me\" questions with your real reviews, "
+                         "credentials and phone number.", source="ai_answers.py")
+            else:
+                work_log(cid, "site", "ai-answers-refresh",
+                         "Your website's answers for AI assistants were refreshed with "
+                         "your latest reviews and credentials.", source="ai_answers.py")
+    except Exception as e:  # noqa: BLE001 — never break the sync
+        print(f"  [work-log] warn: {str(e)[:100]}")
+
+
 def sync(slug: str, dry: bool, deploy: bool = True) -> str:
     site = SITES / slug
     bt = site / "src" / "lib" / "brand.ts"
@@ -294,6 +333,9 @@ def sync(slug: str, dry: bool, deploy: bool = True) -> str:
         return f"{slug}: no site"
     pi = _plan_input(slug)
     awards = [a for a in ((pi.get("brand") or {}).get("awards") or []) if a.get("name")]
+    before_awards = _site_award_names(bt)
+    llms_p = site / "public" / "llms.txt"
+    had_block = llms_p.exists() and BEGIN in llms_p.read_text()
     notes = []
     if awards or re.search(r"^\s*awards:", bt.read_text(), re.M):
         notes += _patch_awards(slug, awards, dry)
@@ -322,6 +364,8 @@ def sync(slug: str, dry: bool, deploy: bool = True) -> str:
                      "DEPLOY FAILED: " + ((r.stderr or r.stdout).strip().splitlines() or ["?"])[-1][:150])
     else:
         notes.append("source edit only (next deploy carries it)")
+    if not any(n.startswith("DEPLOY FAILED") for n in notes):
+        log_work(slug, awards, before_awards, had_block, notes)
     return f"{slug}: " + "; ".join(notes)
 
 

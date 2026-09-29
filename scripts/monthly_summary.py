@@ -22,13 +22,22 @@ listings_added, total_actions, by_category.
 Sources (each fail-soft; one broken table never kills the compile):
   marketing_work_log            everything work_log() records (site work,
                                 citations syncs, keyword research, dev-agent
-                                completions). Dev rows prefer the
-                                evidence.client_line written by dev_inbox.py.
+                                completions, LSA lead reviews + LSA changes,
+                                AI-answer/award site updates, render-sweep
+                                pages, research delivered in the app). Dev
+                                rows prefer the evidence.client_line written
+                                by dev_inbox.py. Category map: _WORKLOG_CAT.
+
+RULE (2026-09-29, "every client action logs"): any system that changes a
+client's Google profile, site, listings or ads, or delivers research to them,
+writes one plain client-readable line via gbp.log_change (Google profile
+edits) or work_log.work_log (everything else). This compiler only reads.
   marketing_ops_notes           resolved [DEV] notes with no work_log twin
                                 (pre-client_line history), cleaned for clients
   marketing_gbp_changes         GBP optimization edits (services, description,
-                                phone, cover ...; change_type=post excluded,
-                                those mirror marketing_gbp_posts)
+                                phone, cover, service areas ...; change_type=
+                                post excluded, those mirror marketing_gbp_posts;
+                                review_reply lands under Reviews)
   marketing_gbp_posts           GBP posts published
   review_requests               review texts sent (per-day roll-up) + clicked
   clients/{slug}/ads-journal.md Google Ads changes (budget, negatives, pause,
@@ -140,11 +149,28 @@ def item(when, category: str, line: str, detail: str | None = None,
 # Each returns a list of items. Orchestrated by compile_month(), which wraps
 # every call so one bad source degrades to a printed warning.
 
+# "note" rows are operator analysis (ads audits, watch notes), never a
+# client line; the ads journal skips its note entries for the same reason.
 _WORKLOG_SKIP_ACTIONS = {"production-deploy", "staging-deploy",
-                         "client-feedback-notified"}
+                         "client-feedback-notified", "note"}
+# work_log category -> report category. Anything unmapped lands in "other".
+# gbp/ads/content added 2026-09-29 ("every client action logs"): gbp_auto_apply
+# and friends wrote category "gbp", LSA work writes "ads", and both used to
+# fall through to "other".
 _WORKLOG_CAT = {"site": "website", "citations": "citations",
-                "keyword-research": "content", "reviews": "reviews",
-                "outreach": "other", "routine": "other"}
+                "keyword-research": "content", "content": "content",
+                "reviews": "reviews", "gbp": "google-profile", "ads": "ads",
+                "outreach": "other", "routine": "other", "research": "other"}
+# gbp work_log summaries whose per-change rows already land in
+# marketing_gbp_changes (add_services / log_change): the change-log row is the
+# client line, the work_log twin would double-count the same edit.
+_WORKLOG_GBP_TWINS = {"optimizer-auto-apply", "services-applied",
+                      "services-auto-applied", "services-auto-trimmed",
+                      "service-trim"}
+# recurring checks/refreshes: identical lines roll up into one item with a
+# count (like category "routine") instead of one line per night.
+_WORKLOG_ROLLUP_ACTIONS = {"parity-check", "ai-answers-refresh",
+                           "review-snippets-sync", "location-scout"}
 
 
 def from_work_log(cid: str, since: date, until: date,
@@ -152,14 +178,17 @@ def from_work_log(cid: str, since: date, until: date,
     out = []
     # routine sweeps run nightly; a line per night drowns the month, so
     # identical routine lines roll up into one item with a count
-    routine: dict[str, tuple[date, int]] = {}
+    routine: dict[tuple[str, str], tuple[date, int]] = {}
     for r in _rows(f"/rest/v1/marketing_work_log?company_id=eq.{cid}"
                    "&select=ts,category,action,detail,evidence"
                    f"{_range_filter('ts', since, until)}&order=ts.asc&limit=1000"):
         evidence = r.get("evidence") or {}
         if isinstance(evidence, dict) and evidence.get("note_id"):
             seen_note_ids.add(str(evidence["note_id"]))
-        if (r.get("action") or "") in _WORKLOG_SKIP_ACTIONS:
+        action = r.get("action") or ""
+        if action in _WORKLOG_SKIP_ACTIONS:
+            continue
+        if (r.get("category") or "") == "gbp" and action in _WORKLOG_GBP_TWINS:
             continue
         ts = _parse_ts(r.get("ts"))
         line = clean(evidence.get("client_line") if isinstance(evidence, dict)
@@ -171,18 +200,19 @@ def from_work_log(cid: str, since: date, until: date,
         if m:
             detail = m.group(1)
             line = line[:m.start()].rstrip(" :,") + "."
-        if (r.get("category") or "") == "routine":
-            if ts:
-                prev = routine.get(line)
-                routine[line] = (max(ts.date(), prev[0]) if prev else ts.date(),
-                                 prev[1] + 1 if prev else 1)
-            continue
         cat = _WORKLOG_CAT.get(r.get("category") or "", "other")
+        if (r.get("category") or "") == "routine" or action in _WORKLOG_ROLLUP_ACTIONS:
+            if ts:
+                prev = routine.get((cat, line))
+                routine[(cat, line)] = (
+                    max(ts.date(), prev[0]) if prev else ts.date(),
+                    prev[1] + 1 if prev else 1)
+            continue
         e = item(ts, cat, line, detail=detail, kind="work-log")
         if e:
             out.append(e)
-    for line, (d, n) in routine.items():
-        e = item(d, "other", line, count=n if n > 1 else None, kind="work-log")
+    for (cat, line), (d, n) in routine.items():
+        e = item(d, cat, line, count=n if n > 1 else None, kind="work-log")
         if e:
             out.append(e)
     return out
@@ -217,6 +247,11 @@ def from_dev_notes(cid: str, since: date, until: date,
     return out
 
 
+# change_types that are not profile EDITS: review replies are review work
+# (reported under Reviews, not counted as profile edits).
+_GBP_CHANGE_CAT = {"review_reply": ("reviews", "review-reply")}
+
+
 def from_gbp_changes(cid: str, since: date, until: date) -> list[dict]:
     out = []
     for r in _rows(f"/rest/v1/marketing_gbp_changes?company_id=eq.{cid}"
@@ -224,9 +259,11 @@ def from_gbp_changes(cid: str, since: date, until: date) -> list[dict]:
                    "&select=changed_at,change_type,summary"
                    f"{_range_filter('changed_at', since, until)}"
                    "&order=changed_at.asc&limit=500"):
-        e = item(_parse_ts(r.get("changed_at")), "google-profile",
+        cat, kind = _GBP_CHANGE_CAT.get(r.get("change_type") or "",
+                                        ("google-profile", "gbp-change"))
+        e = item(_parse_ts(r.get("changed_at")), cat,
                  clean(r.get("summary") or r.get("change_type"), 170),
-                 kind="gbp-change")
+                 kind=kind)
         if e:
             out.append(e)
     return out

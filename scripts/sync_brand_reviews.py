@@ -263,6 +263,29 @@ def sync(slug: str, dry: bool) -> None:
     if llms_change:
         changes.append(llms_change)
     print(f"  {tag}{slug}: {rating}★ / {count} reviews — " + "; ".join(changes))
+    if not dry:
+        log_work(slug, cid, rating, count, changes)
+
+
+def log_work(slug: str, cid: str, rating: str, count: str, changes: list[str]) -> None:
+    """Reports tab (2026-09-29, every client action logs): the site edit ships
+    in an [automated] commit the monthly git roll-up skips. Only real changes
+    log; a rating refresh rolls up per month (review-snippets-sync is a
+    roll-up action in monthly_summary). Fail-soft."""
+    rating_moved = any(c.startswith("rating ") and "unchanged" not in c for c in changes)
+    snippets = any(c.startswith("gbpReviews") for c in changes)
+    if not (rating_moved or snippets):
+        return
+    try:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from work_log import work_log
+        work_log(cid, "site", "review-snippets-sync",
+                 "Your website's Google star rating, review count and newest "
+                 "review quotes kept in sync with your Google profile.",
+                 evidence={"rating": rating, "count": count, "changes": changes},
+                 actor="automation", source="sync_brand_reviews.py")
+    except Exception as e:  # noqa: BLE001
+        print(f"    [work-log] warn: {str(e)[:100]}")
 
 
 def main() -> int:

@@ -28,6 +28,7 @@ Commands (all dry-run unless --apply):
   awards.py plan --slug X --queue --apply            # Mini tasks -> mini-inbox.md,
                                                      # [FOR MONICA] only for LIVE voting windows
   awards.py confirm-won --slug X --id W [--apply]    # human-confirmed candidate -> ai_answers add-award
+  awards.py applied --slug X --program qba [--apply] # record a real submission (+ Reports line)
   awards.py <cmd> --all [...]                        # per-client loop over active clients, fail-open
 
 DataForSEO: Google organic live/advanced, depth 10 (~$0.002/query); every
@@ -982,7 +983,9 @@ GUARDRAILS = ("Guardrails: REAL NAP only (settled business name, real address, R
               "CAPTCHA = one checkbox click max, puzzles -> park; ANY payment/fee screen -> "
               "STOP, park, structured Need type=human (Santino pays); one submission per "
               "client per program; daytime PT; ledger line + commit/push the moment it is "
-              "submitted; do not accept ad/upsell packages.")
+              "submitted; do not accept ad/upsell packages. After a real submission run "
+              "`python3 scripts/awards.py applied --slug {slug} --program <key> --apply` so it "
+              "shows in the client's Reports tab.")
 
 
 def build_plan(slug: str) -> tuple[dict, list[dict]]:
@@ -1227,6 +1230,39 @@ def cmd_confirm_won(slug: str, wid: str, apply: bool, name: str | None) -> None:
     save_record(cid, rec, apply)
 
 
+def cmd_applied(slug: str, program: str, apply: bool, note: str | None) -> None:
+    """Record a REAL award submission (Mini or human) and put it in the
+    client's Reports tab (2026-09-29, every client action logs)."""
+    cid = company_id(slug)
+    if not cid:
+        sys.exit(f"{slug}: no company_id")
+    prog = CATALOG.get(program)
+    rec = load_record(slug, cid)
+    contest = next((c for c in rec.get("contests") or [] if c.get("id") == program), None)
+    name = (prog or {}).get("name") or (contest or {}).get("title") or program
+    if not (prog or contest):
+        sys.exit(f"unknown program/contest {program!r} (catalog keys: {', '.join(CATALOG)})")
+    print(f"{slug}: applied -> {name}")
+    if not apply:
+        print("  [dry-run] re-run with --apply to record it")
+        return
+    if prog:
+        progs = rec.setdefault("programs", {})
+        progs[program] = {**progs.get(program, {}), "status": "applied",
+                          "applied_at": _now(), **({"notes": note} if note else {})}
+    else:
+        contest.update({"status": "entered", "entered": True, "nominated_at": _now()})
+    save_record(cid, rec, True)
+    try:
+        from work_log import work_log
+        work_log(cid, "citations", "award-applied",
+                 f"Entered your business for the {name} award. Wins get featured "
+                 "on your website and are cited by Google and AI assistants.",
+                 evidence={"program": program, "note": note}, source="awards.py applied")
+    except Exception as e:  # noqa: BLE001 — logging never blocks the record
+        print(f"  [work-log] warn: {str(e)[:100]}")
+
+
 # ============================================================== main
 def active_slugs() -> list[str]:
     try:
@@ -1256,16 +1292,23 @@ def print_catalog() -> None:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("cmd", choices=["catalog", "discover-polls", "discover-won", "plan",
-                                    "confirm-won"])
+                                    "confirm-won", "applied"])
     ap.add_argument("--slug")
     ap.add_argument("--all", action="store_true")
     ap.add_argument("--apply", action="store_true", help="write ops_kv / site / inbox / notes")
     ap.add_argument("--queue", action="store_true", help="plan: Mini inbox + live-window Monica")
     ap.add_argument("--id", help="confirm-won: won entry id")
     ap.add_argument("--name", help="confirm-won: exact award name if not parsed")
+    ap.add_argument("--program", help="applied: catalog key (qba, ...) or contest id")
+    ap.add_argument("--note", help="applied: what was submitted (optional)")
     a = ap.parse_args()
     if a.cmd == "catalog":
         print_catalog()
+        return 0
+    if a.cmd == "applied":
+        if not (a.slug and a.program):
+            ap.error("applied needs --slug and --program")
+        cmd_applied(a.slug, a.program, a.apply, a.note)
         return 0
     if a.cmd == "confirm-won":
         if not (a.slug and a.id):

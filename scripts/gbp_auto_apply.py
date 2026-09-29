@@ -167,6 +167,14 @@ def remove_services(slug: str, cid: str, removals: list[str]) -> str:
                        timeout=60)
     if r.status_code != 200:
         return f"PATCH failed {r.status_code}: {r.text[:120]}"
+    # Change-log row (2026-09-29, every client action logs): the Reports tab
+    # and monthly summary read marketing_gbp_changes. log_change is fail-soft.
+    names = [_svc_display(d) for d in dropped]
+    gbp.log_change(cid, "service_remove",
+                   f"Cleaned {len(names)} junk service entr{'y' if len(names) == 1 else 'ies'} "
+                   f"off your Google listing: {', '.join(names[:8])}"
+                   + (" and more" if len(names) > 8 else "") + ".",
+                   actor="optimizer", meta={"removed": names})
     return f"removed {len(dropped)}: {', '.join(_svc_display(d) for d in dropped[:6])}" \
            + (" ..." if len(dropped) > 6 else "")
 
@@ -185,6 +193,11 @@ def apply_description(slug: str, cid: str, text: str) -> str:
                        headers=hdrs,
                        data=json.dumps({"profile": {"description": text[:750]}}),
                        timeout=60)
+    if r.status_code == 200:
+        gbp.log_change(cid, "description",
+                       "Business description on your Google listing rewritten to "
+                       "highlight your services and service area.",
+                       actor="optimizer", meta={"description": text[:750]})
     return "updated" if r.status_code == 200 else f"failed {r.status_code}: {r.text[:100]}"
 
 
@@ -229,9 +242,12 @@ def run_client(slug: str, cid: str, terms: list[str], apply: bool) -> str | None
         print("  [dry-run] nothing written")
         return None
 
+    done = {"added": 0, "removed": 0, "description": False}
     if plan["add"]:
         msg = gbp.add_services(slug, [_svc_display(a) for a in plan["add"]])
         print(f"  add -> {msg}")
+        m_add = re.search(r"added (\d+)/", msg)
+        done["added"] = int(m_add.group(1)) if m_add else 0
         blocked = _access_block(msg)
         if blocked:
             # Nothing else below can succeed either (same token/listing).
@@ -242,6 +258,8 @@ def run_client(slug: str, cid: str, terms: list[str], apply: bool) -> str | None
     if plan["remove"]:
         msg = remove_services(slug, cid, plan["remove"])
         print(f"  remove -> {msg}")
+        m_rm = re.match(r"removed (\d+)", msg)
+        done["removed"] = int(m_rm.group(1)) if m_rm else 0
         if msg.startswith("removed") or "nothing matched" in msg:
             _mark(cid, "service", plan["remove"], "applied")
     if plan["protected"]:
@@ -251,18 +269,31 @@ def run_client(slug: str, cid: str, terms: list[str], apply: bool) -> str | None
         msg = apply_description(slug, cid, plan["description"])
         print(f"  description -> {msg}")
         if msg == "updated":
+            done["description"] = True
             rows = _sb("GET", f"/rest/v1/marketing_gbp_suggestions?company_id=eq.{cid}"
                        "&item_type=eq.description&status=eq.open&select=item") or []
             _mark(cid, "description", [r["item"] for r in rows], "applied")
-    try:
-        from work_log import work_log
-        work_log(cid, "gbp", "optimizer-auto-apply",
-                 f"Google listing tuned automatically: {len(plan['add'])} services added"
-                 + (f", {len(plan['remove'])} junk entries cleaned" if plan["remove"] else "")
-                 + (", business description refreshed" if plan["description"] else "") + ".",
-                 evidence=plan, source="gbp_auto_apply.py")
-    except Exception:
-        pass
+    # Ops ledger line: what Google actually ACCEPTED this run, never the plan
+    # (2026-09-29: this used to log the plan every night, e.g. "52 services
+    # added" 58 nights running while add_services confirmed 0). The client
+    # Reports lines are the per-change marketing_gbp_changes rows written by
+    # add_services / remove_services / apply_description; monthly_summary
+    # skips this summary as their twin.
+    if done["added"] or done["removed"] or done["description"]:
+        try:
+            from work_log import work_log
+            bits = []
+            if done["added"]:
+                bits.append(f"{done['added']} service{'s' if done['added'] != 1 else ''} added")
+            if done["removed"]:
+                bits.append(f"{done['removed']} junk entr{'y' if done['removed'] == 1 else 'ies'} cleaned")
+            if done["description"]:
+                bits.append("business description refreshed")
+            work_log(cid, "gbp", "optimizer-auto-apply",
+                     f"Google listing tuned automatically: {', '.join(bits)}.",
+                     evidence={**plan, "applied": done}, source="gbp_auto_apply.py")
+        except Exception:
+            pass
     return None
 
 
