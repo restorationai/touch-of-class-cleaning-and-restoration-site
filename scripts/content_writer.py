@@ -107,10 +107,13 @@ def anthropic_call(system: str, user: str, *, model: str = ANTHROPIC_MODEL,
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
         die("Missing ANTHROPIC_API_KEY (see rank-ai/.env).")
+    # `temperature` kept for call-site compatibility but NOT sent: 5-series
+    # models (claude-sonnet-5) 400 on sampling params ("`temperature` is
+    # deprecated for this model") since the 09-27 upgrade (c20e1dc6f).
+    del temperature
     body = {
         "model": model,
         "max_tokens": max_tokens,
-        "temperature": temperature,
         "system": system,
         "messages": [{"role": "user", "content": user}],
         "stream": True,
