@@ -20,10 +20,10 @@
       },
       "source": "best-of-seeder",
       "written_at": "2026-09-29T22:47:57Z",
-      "post_url": "https://restorationxpress.com/blog/.md/",
+      "post_url": "https://restorationxpress.com/blog/water-damage-call-case-study/",
       "claims_flags": [
         {
-          "file": "src/content/blog/.md",
+          "file": "src/content/blog/water-damage-call-case-study.md",
           "part": "body",
           "family": "certification",
           "severity": "review",
@@ -31,7 +31,8 @@
           "context": "floor. Most reputable crews dry to the [IICRC S500 standard](https://www.iicrc.org),",
           "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
         }
-      ]
+      ],
+      "suggested_slug": "water-damage-call-case-study"
     },
     {
       "id": "2026-09-14-who-to-call-for-water-damage-restoration-in-davie-fl",

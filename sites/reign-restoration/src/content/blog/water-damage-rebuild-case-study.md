@@ -7,8 +7,8 @@ primary_keyword: ""
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: "/images/blog/2026/09//hero.webp"
-og: "/images/blog/2026/09//hero.webp"
+hero: "/images/blog/2026/09/water-damage-rebuild-case-study/hero.webp"
+og: "/images/blog/2026/09/water-damage-rebuild-case-study/hero.webp"
 generated_at: "2026-09-29T22:46:31Z"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/services/general-contracting/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/does-homeowners-insurance-cover-water-damage/", "/contact/"]

@@ -330,13 +330,16 @@ def pop_next_queued(queue: dict) -> dict | None:
 
 
 def mark_written(slug: str, item_id: str, post_url: str,
-                 claims_flags: list | None = None) -> None:
+                 claims_flags: list | None = None,
+                 suggested_slug: str | None = None) -> None:
     queue = load_queue(slug)
     for item in queue.get("items", []):
         if item.get("id") == item_id:
             item["status"] = "written"
             item["written_at"] = now_iso()
             item["post_url"] = post_url
+            if suggested_slug and not item.get("suggested_slug"):
+                item["suggested_slug"] = suggested_slug  # title-derived slug
             if claims_flags:
                 # Truth-gate violations found in the written post (see
                 # scripts/claims_lint.py). Deliberately does NOT fail the run —
@@ -509,6 +512,32 @@ def strip_em_dashes(text: str) -> str:
     return text.replace("—", "-")
 
 
+def resolve_post_slug(slug: str, item: dict, content: dict | None = None) -> str:
+    """The post's URL slug: suggested_slug, else the slugified primary_keyword,
+    else (case-study seeds from best_of_seeder carry neither) the generated
+    title, de-duplicated against the blog dir and pinned on item so the hero,
+    section image and markdown all agree. Never returns '': 09-29 an empty
+    slug wrote blog/.md + images/blog/YYYY/MM//hero.webp on 9 sites."""
+    def _slugify(s: str) -> str:
+        return re.sub(r"[^a-z0-9]+", "-", (s or "").lower()).strip("-")
+    post_slug = item.get("suggested_slug") or _slugify(item.get("primary_keyword", ""))
+    if not post_slug:
+        title = (content or {}).get("title") or item.get("suggested_title") or ""
+        post_slug = _slugify(title)
+        if len(post_slug) > 80:
+            post_slug = post_slug[:80].rsplit("-", 1)[0]
+        if post_slug:
+            blog_dir = SITES_DIR / slug / "src" / "content" / "blog"
+            base, n = post_slug, 2
+            while (blog_dir / f"{post_slug}.md").exists():
+                post_slug, n = f"{base}-{n}", n + 1
+            item["suggested_slug"] = post_slug
+    if not post_slug:
+        die(f"Queue item {item.get('id')} has no suggested_slug, primary_keyword "
+            "or title to derive a post slug from. Refusing to write blog/.md.")
+    return post_slug
+
+
 def write_markdown(slug: str, item: dict, content: dict, hero_url: str) -> Path:
     """Write the post markdown to sites/{slug}/src/content/blog/{post-slug}.md.
     Returns the file path."""
@@ -517,7 +546,7 @@ def write_markdown(slug: str, item: dict, content: dict, hero_url: str) -> Path:
     if not blog_dir.exists():
         die(f"Blog content dir doesn't exist: {blog_dir}. Has the site been scaffolded?")
 
-    post_slug = item.get("suggested_slug") or re.sub(r"[^a-z0-9]+", "-", item["primary_keyword"].lower()).strip("-")
+    post_slug = resolve_post_slug(slug, item, content)
     out_path = blog_dir / f"{post_slug}.md"
 
     # Frontmatter — matches the blog content collection schema in content/config.ts
@@ -591,7 +620,7 @@ def generate_and_upload_hero(slug: str, item: dict, image_prompt: str, *, use_pr
     client = load_json(CLIENTS_DIR / f"{slug}.json")
     domain = client["domain"]
     bucket = f"rankai-{slug}"
-    post_slug = item.get("suggested_slug") or re.sub(r"[^a-z0-9]+", "-", item["primary_keyword"].lower()).strip("-")
+    post_slug = resolve_post_slug(slug, item)
     today = datetime.now(timezone.utc).strftime("%Y/%m")
     r2_key = f"blog/{today}/{post_slug}/{filename}"
 
@@ -694,7 +723,7 @@ def commit_and_sync(slug: str, item: dict, post_path: Path, branch: str) -> None
          f"clients/{slug}/content-queue.json"], REPO_ROOT)
     try:
         run(["git", "commit", "-m",
-             f"Content writer: publish {item['primary_keyword']} for {slug}"],
+             f"Content writer: publish {item['primary_keyword'] or post_path.stem} for {slug}"],
             REPO_ROOT)
         print(f"      Committed.")
     except RuntimeError as e:
@@ -784,6 +813,9 @@ def cmd_next_post(args) -> int:
         print(f"      LLM returned non-JSON (first 300 chars):\n{raw[:300]}")
         raise RuntimeError(f"Content writer LLM output failed JSON parse: {e}")
     content = sanitize_content(content)  # enforce no-em-dash rule deterministically
+    # Pin the slug now (title fallback for keywordless case-study items) so
+    # the hero/section image keys and the markdown filename all match.
+    print(f"      Post slug: {resolve_post_slug(slug, item, content)}")
 
     # C6 SELF-PROMOTION LINT (Santino 2026-09-17): every post names the
     # client at least once in a recommendation context and never reads
@@ -911,7 +943,8 @@ def cmd_next_post(args) -> int:
     # Step 4: mark queue item written
     print("[4/5] Marking queue item as written...")
     post_url = f"https://{load_json(CLIENTS_DIR / f'{slug}.json')['domain']}/blog/{post_path.stem}/"
-    mark_written(slug, item["id"], post_url, claims_flags=claims_flags)
+    mark_written(slug, item["id"], post_url, claims_flags=claims_flags,
+                 suggested_slug=item.get("suggested_slug"))
     print(f"      Queue item {item['id']} → status: written, post_url: {post_url}"
           + (f", claims_flags: {len(claims_flags)}" if claims_flags else ""))
 

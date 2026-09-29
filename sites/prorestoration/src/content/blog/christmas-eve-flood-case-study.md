@@ -7,8 +7,8 @@ primary_keyword: ""
 secondary_keywords: []
 search_intent: "commercial"
 priority: 7
-hero: "/images/blog/2026/09//hero.webp"
-og: "/images/blog/2026/09//hero.webp"
+hero: "/images/blog/2026/09/christmas-eve-flood-case-study/hero.webp"
+og: "/images/blog/2026/09/christmas-eve-flood-case-study/hero.webp"
 generated_at: "2026-09-29T22:42:24Z"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/services/water-damage-restoration/", "/services/emergency-plumbing/", "/contact/", "/blog/what-to-do-first-24-hours-water-damage/"]
@@ -35,7 +35,7 @@ A two-hour flood response means a crew arrives with extraction equipment already
 
 On arrival, the first steps look the same on nearly every flood job: confirm the water source is off, extract standing water with truck-mounted equipment, then map the wet areas with a moisture meter so nothing gets missed behind baseboards, under cabinetry, or beneath flooring. Only after that assessment does drying equipment, air movers and dehumidifiers, get placed room by room. Skipping the mapping step is how homes end up with hidden mold months later.
 
-![What "Showed Up Within 2 Hours" Actually Looks Like](/images/blog/2026/09//section.webp)
+![What "Showed Up Within 2 Hours" Actually Looks Like](/images/blog/2026/09/christmas-eve-flood-case-study/section.webp)
 
 ## Why "Several Days" to Dry Out Is Normal, Not a Delay
 
