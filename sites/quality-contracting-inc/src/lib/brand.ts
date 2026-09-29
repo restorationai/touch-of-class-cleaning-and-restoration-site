@@ -68,8 +68,8 @@ export const brand = {
   sameAsUrls: ["https://www.facebook.com/qualcon534/", "https://www.linkedin.com/company/quality-contracting-inc-", "https://maps.google.com/maps?cid=8645835952486055131", "https://www.yelp.com/biz/quality-contracting-auburn", "https://qualitycontracting.us/services/capital-projects/"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
-  gbpRatingValue: "4.6",
-  gbpReviewCount: "109",
+  gbpRatingValue: "4.5",
+  gbpReviewCount: "110",
   gbpReviews: [
     { author: "Denise", rating: 5, text: "There are not enough adjectives to describe how fabulous Luis and his crew have been during the demolition phase of this job. Luis leads by example for professionalism, skill, safety, punctuality, clean up, and even humor to keep us smiling during a difficult time. We look forward to Luis returning…", when: "September 2026" },
     { author: "Ellin", rating: 5, text: "Quality did an excellent restoration job when my condo was involved in a fire.", when: "September 2026" },
