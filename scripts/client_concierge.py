@@ -7944,6 +7944,14 @@ Fields per entry:
                   icons (Facebook, Instagram, LinkedIn), external links,
                   footer links (Angie 2026-09-10: her Facebook/Instagram
                   ask sat four days as unclassified)
+     call_routing where one of their TRACKING numbers should ring ("forward
+                  our Google Ads calls to 951-257-9526", "send the Facebook
+                  ads line to our ServiceTitan number"). Add "source" (what
+                  they call it: "Google Ads", "Facebook Ads", "website",
+                  "Google profile") and "forward_to" (the number, verbatim);
+                  one entry per number. "reset": true when they want it back
+                  on the main line. This runs immediately, so only "high"
+                  when both the source and the number are unambiguous.
      rejection    they turned the preview down without saying what to change
      other        actionable, but none of the above
   "what":  the change WE must make, in our words, one line, specific enough
@@ -8010,7 +8018,9 @@ on how they arrived (Google, Bing, an ad, their metro). So:
     line (Frontline 2026-09-12); saying so in "what" keeps it from repeating.
 NOT feedback: compliments, approvals ("go ahead and launch it"), questions
 about how something works, anything about their Google listing / reviews /
-ads / billing, and anything they are going to do themselves.
+ads / billing (EXCEPT where a tracking number forwards: that is
+call_routing, Bob Olson 2026-09-29), and anything they are going to do
+themselves.
 "client_feedback" is [] for the large majority of messages.
 
 If the reply is a PURE ACKNOWLEDGMENT of our last outbound message — an
@@ -8130,7 +8140,8 @@ Return ONLY JSON:
                                 "quote": "<their words, verbatim>",
                                 "reason": string}],
  "client_feedback": [{"category": "imagery|design|brand|service_area|copy|
-                                   facts|rejection|other",
+                                   facts|site_links|call_routing|rejection|other",
+                      "source": string|null, "forward_to": string|null,
                       "what": string, "where": string,
                       "quote": "<their words, verbatim>",
                       "confidence": "high|medium|low",

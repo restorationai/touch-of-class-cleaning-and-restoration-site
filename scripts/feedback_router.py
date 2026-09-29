@@ -118,6 +118,13 @@ CATEGORIES: dict[str, tuple[str, bool, str]] = {
     "site_links":   ("links and social icons on the site", True,
                      "citation_listings kind=social (Connect card) + "
                      "citations_sync footer/sameAs pass"),
+    # CALL FORWARDING RUNS ON THE SPOT (Santino 2026-09-29, Bob Olson): a
+    # client naming where a tracking number should ring is a setting we
+    # manage, not a build. route_feedback executes it via call_forward.apply
+    # the moment it arrives and files the done-directive; only an ambiguous
+    # or invalid ask falls through to the dev agent like "other".
+    "call_routing": ("call forwarding", True,
+                     "scripts/call_forward.py set (call_tracking.{source}.forward_to)"),
     "rejection":    ("preview rejected", False, "depends on what they meant"),
     # UNCLASSIFIED RUNS TOO (Santino 2026-09-28): "I don't want to have to
     # approve every time after a meeting." Rachelle's "publish the new site
@@ -624,6 +631,13 @@ def route_feedback(company: dict, feedback: list[dict], *, who: str,
                 print(f"  [feedback] already queued as note {str(dupe)[:8]} — "
                       f"not filing again ({quote[:50]!r})")
                 continue
+            if (str(fb.get("category") or "").lower() == "call_routing"
+                    and str(fb.get("confidence") or "").lower() == "high"):
+                done = _run_call_routing(company, fb, who=who, quote=quote,
+                                         dry_run=dry_run)
+                if done:
+                    out.append(done)
+                    continue
             verdict, why = risk_verdict(fb, site_live=live, has_site=has_site)
             tag = "[DEV]" if verdict == "auto" else "[TODO-PROPOSED]"
             body = compose_task_note(
@@ -691,6 +705,36 @@ def route_feedback(company: dict, feedback: list[dict], *, who: str,
     except Exception as e:  # noqa: BLE001
         print(f"  [feedback] heartbeat warn: {str(e)[:90]}")
     return out
+
+
+def _run_call_routing(company: dict, fb: dict, *, who: str, quote: str,
+                      dry_run: bool) -> dict | None:
+    """Execute a call-forwarding request now. Returns the out-row when it was
+    handled (done or already set), None to fall through to a normal task."""
+    try:
+        import call_forward
+        r = call_forward.apply(
+            company["id"], str(fb.get("source") or fb.get("where") or ""),
+            str(fb.get("forward_to") or ""), who=who, quote=quote,
+            reset=bool(fb.get("reset")), dry_run=dry_run)
+    except Exception as e:  # noqa: BLE001
+        print(f"  [feedback] call routing failed ({str(e)[:100]}) — queuing")
+        return None
+    if not r.get("ok"):
+        print(f"  [feedback] call routing not run: {r.get('why')} — queuing")
+        return None
+    print(f"  [feedback] CALL ROUTING done: {r['line']}")
+    note_id = None
+    if not r.get("noop") and not r.get("dry_run"):
+        body = compose_done_directive({"who": who, "quote": quote},
+                                      r["line"], None)
+        row = _sb("POST", "/rest/v1/marketing_ops_notes",
+                  {"company_id": company["id"], "body": body,
+                   "status": "open", "author": "monica"},
+                  prefer="return=representation")
+        note_id = (row or [{}])[0].get("id") if isinstance(row, list) else None
+    return {"tag": "[DONE]", "why": r["line"], "note_id": note_id,
+            "category": "call_routing"}
 
 
 # ---------------------------------------------------------------- selftest
