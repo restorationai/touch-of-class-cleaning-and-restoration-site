@@ -17,11 +17,15 @@ rendered: true
 ---
 Veterans Remediation & Restoration started in 2020 with a straightforward premise: restoration work done with the same discipline and accountability that military service demands. Based in Freeport and serving Santa Rosa Beach and the 30A corridor as its primary market, the company was built around the idea that homeowners and property managers dealing with water damage, mold, or fire loss deserve a crew that shows up prepared, communicates clearly, and sees the job through, not one that disappears after the first day of drying.
 
-## Veteran owned and operated
+## About Us
 
-Veterans Remediation & Restoration is owned and operated by Kenny, who served in both the United States Air Force and the United States Coast Guard. That service is where the company's name and its standards come from: show up when you say you will, do the work to a standard someone can inspect, and take responsibility for the outcome.
+Veterans Remediation is built on more than 25 years of experience in occupational safety and health, industrial hygiene, and emergency response. Our founder began his military career in the United States Air Force as a Bioenvironmental Engineer, specializing in CBRNE hazards—chemical, biological, radiological, nuclear, and explosive threats—and advancing to the rank of Staff Sergeant.
 
-Kenny brings more than 25 years of experience to the work, along with a background in industrial hygiene, the discipline concerned with identifying and controlling the health hazards inside a building, from mold and moisture to airborne contaminants. That background shapes how he approaches a loss: not just drying a floor or hauling out damaged material, but understanding what a water or mold problem does to the air and the structure, and what it takes to make a home genuinely safe to live in again.
+He later received a commission in the United States Coast Guard, serving as a Marine Safety Officer, Industrial Hygienist, and Counterterrorism Officer. Across his military and professional career, he developed experience in air sampling, hazard assessment, first response, and protecting people and property from environmental and workplace risks.
+
+That experience informs the work we do today, including mold and moisture remediation, lead-related hazards, fire and other environmental concerns, and the safety practices that guide each project. We bring a practical, service-minded approach to every job, with a focus on careful work, clear communication, and the well-being of our clients.
+
+Family is at the heart of who we are. My wife and I have been together for 32 years and married for 29. We have four children, two sons-in-law, and three grandchildren. Our military service and family life have taught us the value of responsibility, teamwork, and serving others—values we carry into our work and our community every day.
 
 ## What we do
 
