@@ -28,3 +28,6 @@
 
 ## 2026-09-29 21:02 UTC — 1 fulfilled, 0 routed
 - NEED-CANARY-202609292101 [x] company-nap narestco: National Restoration Construction | 1530 S Dash Point RD, Federal Way, WA 98003 | REAL phone (206) 883-0333 | https://narestco.com
+
+## 2026-09-29 21:10 UTC — 0 fulfilled, 1 routed
+- NEED-20260929-1410-sweep-tracking-phone-2 [~] human _ops: routed to Santino (judgment call)
