@@ -115,9 +115,40 @@ def log_rendered(slug: str, rendered: set[str], branch: str) -> None:
 
 def images_missing(slug: str) -> bool:
     """A rendered site without its image pass ships grey placeholder heroes
-    (Frontline 2026-09-04). Cheap check: the core hero is the sentinel —
-    gen_site_images is idempotent and fills whatever else is missing."""
-    return not (SITES / slug / "public" / "images" / "hero-bg.webp").exists()
+    (Frontline 2026-09-04). The core hero is the sentinel, AND (2026-09-29,
+    ProRestoration/Crew) every service page must own a registered image: the
+    ops-sync parity step adds service pages to LIVE sites, the hero already
+    exists, and those pages all fell back to the one shared services.webp
+    card (19 of 35 on ProRestoration). gen_site_images is idempotent and never
+    overwrites, so running it for a gap only ever ADDS images."""
+    if not (SITES / slug / "public" / "images" / "hero-bg.webp").exists():
+        return True
+    return bool(service_images_missing(slug))
+
+
+def service_images_missing(slug: str) -> list[str]:
+    """service_slugs whose page has no hero: override and no registered
+    /images/services/{slug}.webp (the serviceImage() fallback condition)."""
+    import re as _re
+    site = SITES / slug
+    svc_dir = site / "src" / "content" / "services"
+    if not svc_dir.is_dir():
+        return []
+    try:
+        meta = json.loads((site / "src" / "data" / "image-meta.json").read_text())
+    except (OSError, json.JSONDecodeError):
+        meta = {}
+    missing = []
+    for md in sorted(svc_dir.glob("*.md")):
+        head = md.read_text(encoding="utf-8").split("---", 2)
+        fm = head[1] if len(head) > 2 else ""
+        if _re.search(r"^hero:\s*\S", fm, _re.M):
+            continue
+        m = _re.search(r"""^service_slug:\s*['"]?([^'"\n]+?)['"]?\s*$""", fm, _re.M)
+        s = m.group(1).strip() if m else md.stem
+        if f"/images/services/{s}.webp" not in meta:
+            missing.append(s)
+    return missing
 
 
 def run_image_pass(slug: str) -> bool:
@@ -159,7 +190,8 @@ def render_one(slug: str, workers: int) -> bool:
         print(f"[{slug}] nothing pending — skip")
         return True
     if n == 0:
-        print(f"[{slug}] pages rendered but images missing — image pass only")
+        print(f"[{slug}] pages rendered but images missing — image pass only "
+              f"(service cards on the fallback: {service_images_missing(slug)[:12]})")
         run_image_pass(slug)
     # Per-site nightly drip (Santino 2026-09-04): a brand-new site should not
     # publish its whole 100+ page plan in one shot. Money pages render first

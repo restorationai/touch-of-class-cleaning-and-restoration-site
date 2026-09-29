@@ -200,12 +200,47 @@ SERVICE_SCENES = {
     "crawl-space-encapsulation": "a technician with a headlamp installing a bright white vapor-barrier liner across a crawl space floor and foundation walls",
     "emergency-board-up-tarping": "a technician at dusk drilling plywood over a broken window, ladder against the wall, {van} parked with headlights on",
     "post-construction-cleaning": "a technician HEPA-vacuuming fine dust in a freshly renovated room with new drywall and floor-protection paper down",
-    "vandalism-cleanup": "a technician pressure-cleaning abstract paint smears (no readable letters or symbols) off a masonry storefront wall, glass-repair supplies staged",
     "general-contracting": "a carpenter in a tool belt hanging drywall in a partly rebuilt room, lumber and materials staged",
     "reconstruction": "a technician with a nail gun framing a partially rebuilt interior wall, fresh lumber and drywall stacked nearby",
     "asbestos-abatement": "a technician in full hooded Tyvek with a P100 respirator working inside a negative-pressure containment, flexible ducting visible",
     "air-duct-cleaning": "a technician feeding a rotary brush line into an open ceiling duct register, HEPA vacuum unit on the floor below",
     "carpet-cleaning": "a technician pulling a truck-mount carpet extraction wand across carpet, clean stripes visible behind the wand",
+    # 2026-09-29 (Santino, ProRestoration + fleet): the ops-sync parity step
+    # added these service pages with no image, and the generic "performing
+    # {display} work" fallback prompt is how a wrong-subject card happens.
+    # Every slug the fleet actually ships gets a concrete, distinct scene.
+    "commercial-restoration": "a technician running a ride-behind extraction unit across the wet carpet tile of an empty commercial office floor, rows of desks and air movers staged along glass partitions",
+    "industrial-restoration": "two technicians in hard hats and hi-vis vests staging large desiccant dehumidifiers and lay-flat ducting inside a high-bay warehouse with steel racking and a wet concrete floor",
+    "large-loss-response": "a crew staging dozens of air movers and several large dehumidifiers along the long corridor of a multi-unit commercial building, a technician with a clipboard directing the setup",
+    "roofing": "two roofers on a pitched residential roof nailing fresh architectural asphalt shingles in neat courses, a bundle of new shingles and a nail gun beside them, clear daylight",
+    "emergency-plumbing": "a plumber kneeling under a kitchen sink tightening a compression fitting with a wrench, headlamp on, towels and a bucket catching drips, tool bag open beside them",
+    "emergency-water-removal": "a technician running a portable truck-mount extraction wand across soaked living-room carpet at night, work lights on, water visibly drawing up into the wand",
+    "water-leak-detection": "a technician wearing an acoustic leak-detection headset, pressing a ground microphone to a tile floor while holding up a handheld thermal imaging camera toward the wall; the leak appears ONLY on the small camera screen, the wall itself looks ordinary (nothing glowing or drawn on it)",
+    "water-heater-flood-cleanup": "a technician wet-vacuuming standing water around a failed tank water heater in a garage utility corner, towels down and an air mover staged nearby",
+    "ceiling-water-damage-repair": "a technician on a step ladder cutting out a sagging water-stained section of ceiling drywall, a plastic drop sheet catching debris below",
+    "contents-restoration-storage": "a technician carefully wrapping household items into padded packing boxes on a folding table, labeled moving boxes stacked on shelving in a clean storage warehouse behind",
+    "contents-restoration-pack-out": "technicians carrying padded, wrapped furniture and packed boxes out of a home toward a box truck on a sunny driveway",
+    "vandalism-graffiti-removal": "a technician pressure-washing abstract colored spray-paint smears (no readable letters or symbols) off a concrete block wall, runoff on the pavement, cleaned section visibly bright",
+    "vandalism-cleanup": "a technician in work gloves sweeping broken window glass into a dustpan inside a vandalized storefront, a sheet of plywood leaned against the broken window frame",
+    "structural-drying-dehumidification": "an LGR dehumidifier and a ring of axial air movers running in a room with baseboards removed and small drill holes along the bottom of the drywall, a technician checking a hygrometer",
+    "mold-inspection-assessment": "a technician holding an air-sampling pump cassette near a suspect wall corner, moisture meter and flashlight in hand",
+    "dryer-vent-cleaning": "a technician feeding a rotary brush through a disconnected dryer vent duct behind a pulled-out clothes dryer in a laundry room, lint collected in a bag",
+    "junk-debris-removal": "two workers carrying water-damaged boxes and a broken chair out of a garage toward a trailer, the garage half cleared",
+    "tile-grout-cleaning": "a technician running a rotary tile-cleaning tool across a kitchen tile floor, a clearly brighter clean section beside the dingy grout",
+    "windows": "a carpenter setting a new vinyl replacement window into a prepared wall opening, level held against the frame, shims and caulk gun nearby",
+    "windows-doors": "a carpenter hanging a new exterior entry door in its frame, checking the reveal with a level, window trim supplies staged nearby",
+    "fire-smoke-rebuilding": "a carpenter framing new wall studs in a fire-gutted room, fresh lumber bright against a few remaining soot-darkened joists, drywall stacked nearby",
+    "textile-restoration": "a technician lifting freshly cleaned curtains and garments from a rack in a clean contents-cleaning facility, ozone chamber and wrapped textiles behind",
+    "temporary-fencing": "workers setting sections of galvanized temporary chain-link construction fencing on weighted stands around a damaged property",
+    "drywall-repair": "a technician taping and skimming joint compound over a new drywall patch on a living-room wall, a mud pan and taping knife in hand",
+    "flooring-carpet-installation": "an installer on his knees laying new luxury vinyl plank flooring in a bright empty room, boxes of planks and a rubber mallet beside him",
+    "trim-baseboard-installation": "a carpenter nailing new white baseboard trim along a freshly painted wall with a finish nailer, a miter saw on the floor nearby",
+    "red-stain-removal": "a technician applying a heat-transfer stain treatment to a red drink stain on light beige carpet, spray bottle and towels beside him",
+    "attic-insulation": "a technician in a respirator blowing loose-fill insulation across attic joists with a hose, a depth ruler standing in the fresh insulation",
+    "hvac-installation": "an HVAC technician setting a new condenser unit on a pad beside a house, refrigerant gauges connected, the old unit on a dolly behind",
+    "repiping": "a plumber fitting new PEX supply lines through opened drywall in a hallway wall, manifold and crimp tool in hand",
+    "financing": "a project manager at a kitchen table walking a homeowner couple through a printed repair estimate on a tablet and clipboard, calm and friendly, faces not the focus",
+    "insurance-claim-assistance": "a project manager photographing water damage for an insurance claim with a tablet while a homeowner looks on, moisture meter clipped to his belt",
 }
 
 
@@ -219,7 +254,8 @@ def generate_service_images(*, slug: str, geo: str, guide: str,
                             logo_rule: str, img_dir: Path,
                             crew: str = "", mood: str = "",
                             equip: str = "", redo: set | None = None,
-                            real: dict | None = None) -> int:
+                            real: dict | None = None,
+                            request: str = "", requested_by: str = "") -> int:
     """One image per src/content/services/*.md page, named {service_slug}.webp
     so serviceImage() resolves it. Existing base images are never overwritten
     (missing variants + manifest entries are still backfilled) — EXCEPT the
@@ -289,6 +325,12 @@ def generate_service_images(*, slug: str, geo: str, guide: str,
             img.save(out, "WEBP", quality=84)
             made += 1
             print(f"    saved {out.relative_to(ROOT)} ({out.stat().st_size // 1024}KB)")
+            if svc_slug in redo:
+                # A redo REPLACES a live image: record the client's request and
+                # archive the old version, or the deploy's image guard reverts it.
+                import image_guard
+                image_guard.approve(slug, f"services/{svc_slug}.webp", request,
+                                    requested_by, None, "main")
 
         # variants + manifest entry — same shape resize_images.py writes, so
         # srcsetFor/serviceImage pick the image up without a separate pass.
@@ -561,6 +603,12 @@ def main() -> int:
                     help="comma-separated service_slugs to regenerate even "
                          "though they exist — the client-correction path "
                          "(e.g. --redo mold-remediation,sewage-cleanup)")
+    ap.add_argument("--request", default="",
+                    help="REQUIRED with --redo/--force: the client's explicit "
+                         "request for these specific images (quoted). Live images "
+                         "are never replaced without one (image_guard.py).")
+    ap.add_argument("--requested-by", default="",
+                    help="REQUIRED with --redo/--force: who asked and when")
     ap.add_argument("--no-harvest", action="store_true",
                     help="skip the real-photo harvest that otherwise runs "
                          "before the first generation for a client")
@@ -570,6 +618,17 @@ def main() -> int:
                          "work.ts is never overwritten)")
     args = ap.parse_args()
     slug = args.slug
+    # STANDING RULE (Santino 2026-09-29, after 26 days of blue-skinned
+    # ProRestoration technicians): automation never replaces an approved
+    # image on its own. --redo/--force exist for ONE purpose, a client asking
+    # for a specific image to change, and must say so.
+    if (args.redo or args.force) and (len(args.request.strip()) < 12
+                                      or not args.requested_by.strip()):
+        print("REFUSED: --redo/--force replace live images. Pass --request "
+              "\"<the client's words about THIS image>\" and --requested-by "
+              "\"<who, when>\". Without an explicit client request, leave "
+              "approved images alone.")
+        return 2
 
     if not args.no_harvest:
         harvest_first(slug)
@@ -765,7 +824,8 @@ def main() -> int:
             slug=slug, geo=geo, guide=guide, refs=refs, van=van,
             logo_rule=logo_rule, img_dir=img_dir, crew=crew, mood=mood,
             equip=equip, real=real,
-            redo={s.strip() for s in args.redo.split(",") if s.strip()})
+            redo={s.strip() for s in args.redo.split(",") if s.strip()},
+            request=args.request, requested_by=args.requested_by)
 
     SHOTS = {
         "hero-bg.webp": (
@@ -811,9 +871,14 @@ def main() -> int:
         print(f"  generating {fname}...")
         png = gemini_generate_image(full_prompt, reference_png=refs)
         img = Image.open(io.BytesIO(png)).convert("RGB")
+        existed = out.exists()
         img.save(out, "WEBP", quality=84)
         made += 1
         print(f"    saved {out.relative_to(ROOT)} ({out.stat().st_size // 1024}KB)")
+        if existed:  # --force replaced a live image: record + archive (image_guard)
+            import image_guard
+            image_guard.approve(slug, fname, args.request, args.requested_by,
+                                None, "main")
         # The hero doubles as the continuity anchor for the shots after it.
         if fname == "hero-bg.webp":
             buf = io.BytesIO()

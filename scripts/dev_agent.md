@@ -142,11 +142,18 @@ scene, wrong region.
      suit" for PuroClean; the franchise's required-attire page did. If the
      client sent a photo or screenshot, save it under
      `clients/{slug}/harvested/` and reference it.
-2. Regenerate ONLY what is wrong:
-   `python3 scripts/gen_site_images.py --slug <slug> --services --redo <service_slugs>`
-   (`--redo` is the client-correction opt-out of "never overwrite"; without it
-   an existing image cannot be replaced). Core set: drop `--services`, add
-   `--force`.
+2. Regenerate ONLY the specific images the client named:
+   `python3 scripts/gen_site_images.py --slug <slug> --services --redo <service_slugs> --request "<client's words about THOSE images>" --requested-by "<who, when>"`
+   (`--redo` is the client-correction opt-out of "never overwrite"; it refuses
+   to run without --request/--requested-by). Core set: drop `--services`, add
+   `--force` (same two flags). Any other way of changing a live image (edit,
+   inpaint, composite, a real photo) must be recorded with
+   `python3 scripts/image_guard.py approve --slug <slug> --path <path under public/images> --request "..." --requested-by "..."`
+   before you commit, or sync-deploy's image guard reverts it to the live
+   version. IMAGE LAW (Santino 2026-09-29): an approved image is replaced only
+   when the client explicitly asked about THAT image. Never batch-"fix" a
+   whole set because a style rule changed, never touch an image the card did
+   not name, and a brand-color change is NOT a request to recolor photos.
 2a. **AI-generated imagery is the house standard (Santino 2026-09-03: "the
    AI images are beating the real photos 99% of the time").** Default to
    generated scenes in the client's style guide. Install a client's real
@@ -180,10 +187,17 @@ scene, wrong region.
    from their real harvested photos (exact body style, exact wrap, phone
    number), save it as clients/{slug}/van-wrap-mockup.jpg, and use it as the
    reference image for every scene that includes a vehicle. One source of
-   truth ends per-image wrap drift. Also: for pure COLOR changes (a shirt,
-   a hood) prefer a deterministic pixel recolor (PIL hue-shift, region-
-   masked) over an AI edit — zero text risk, zero recompose risk; the AI
-   edit is for changes that need real redrawing.
+   truth ends per-image wrap drift.
+   **NO hue-shift recolors of people (RETRACTED 2026-09-29).** The old advice
+   here ("prefer a deterministic PIL hue-shift for a shirt color") produced
+   blue ears, blue forearms and blue knuckles on 11 ProRestoration images:
+   skin, lips and wood share the red hue range, so a red->navy shift paints
+   them too, and no hue mask separates a maroon shirt from a sunburnt neck.
+   For a garment color change use the image model's EDIT mode on the
+   original file ("recolor ONLY the shirt; skin keeps its natural tone"),
+   then quality-gate at full size: skin, hands and ears must be skin-colored.
+   Pixel recolors stay allowed only for flat non-skin objects that sit apart
+   from people (a van hood, a trailer panel), checked the same way.
 2f. **Deploy where the CLIENT is looking (DISS 2026-09-03).** A client whose
    site has no custom domain yet sees the MAIN pages.dev build — that IS
    their preview. Business-fact fixes (address, phone, hours, legal) for

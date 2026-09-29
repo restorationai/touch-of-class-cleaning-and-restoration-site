@@ -78,7 +78,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 # become a [TODO-PROPOSED], no matter how confident the classifier is.
 CATEGORIES: dict[str, tuple[str, bool, str]] = {
     "imagery":      ("site imagery", True,
-                     "image-style-guide.md + gen_site_images.py --redo"),
+                     "image-style-guide.md + gen_site_images.py --redo (named images only, --request quoting the client; image_guard.py)"),
     "design":       ("look and feel", True,
                      "plan-input brand block + build_site.resolve_tokens"),
     "brand":        ("brand assets", True,

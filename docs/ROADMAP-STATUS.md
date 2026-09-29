@@ -172,3 +172,16 @@ profile edits via `gbp.log_change` (marketing_gbp_changes), everything else
 via `work_log()` (marketing_work_log). Fail-soft, never the plan, only what
 Google or the site actually accepted. `monthly_summary.py` maps it into the
 Reports tab.
+
+### Approved site images are never silently replaced (09-29)
+A live image changes only when the client asked about that specific image.
+The change is recorded with `scripts/image_guard.py approve` (client's words,
+who asked, when), which archives the old file under
+`clients/{slug}/image-archive/`. `gen_site_images.py --redo/--force` refuse
+to run without `--request`. Anything else is reverted to the live version by
+the image guard inside `build_site.py sync-deploy`, with the rejected file
+archived. The guard also rebuilds stale -480w/-768w/-1200w variants. No hue-shift
+recolors of people: skin shares red's hue, so it turns blue (ProRestoration,
+11 images). New service pages get their own image through the nightly render
+sweep (`gen_site_images --services`, which only adds), never the shared
+`services.webp` fallback.

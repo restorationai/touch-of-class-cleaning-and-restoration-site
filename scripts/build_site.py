@@ -2702,6 +2702,22 @@ def cmd_sync_deploy(args) -> int:
     # if that fails, refuse rather than roll newer work back.
     _catch_up_site(slug, mono)
 
+    # IMAGE GUARD (Santino 2026-09-29, ProRestoration blue-skin recolors +
+    # orphan -1200w variants): a LIVE image is only replaced when
+    # clients/{slug}/image-changes.jsonl approves that exact path + content
+    # for an explicit client request (scripts/image_guard.py approve). Any
+    # other replacement is reverted to the live version here (candidate
+    # archived, commit made) and the rest of the deploy proceeds; stale
+    # responsive variants are regenerated from their base. Fail-open.
+    try:
+        sys.path.insert(0, str(REPO_ROOT / "scripts"))
+        import image_guard as _ig
+        _ig.enforce(slug, branch)
+    except Exception as _e:  # noqa: BLE001
+        print(f"      image guard skipped ({str(_e)[:120]})")
+    # Runs BEFORE the deploy guard: once an unapproved image is put back to
+    # its live version there is nothing left for deploy_guard (c) to block.
+
     # PRE-DEPLOY GUARD (2026-09-29, Santino: "We definitely don't want these
     # sites getting reverted after we make changes"). Production only. Diffs
     # the tree about to ship against the per-client repo's live main and

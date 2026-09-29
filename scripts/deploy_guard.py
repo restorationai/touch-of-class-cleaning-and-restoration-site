@@ -111,6 +111,19 @@ def is_image(p: str) -> bool:
     return p.startswith(IMAGE_PREFIX)
 
 
+import re as _re  # noqa: E402
+_IG_VARIANT = _re.compile(r"-\d+w\.webp$")
+
+
+def _ig_approvals(slug: str) -> set:
+    try:
+        sys.path.insert(0, str(ROOT / "scripts"))
+        import image_guard
+        return image_guard.approvals(slug)
+    except Exception:  # noqa: BLE001
+        return set()
+
+
 def classify_commit(name: str, email: str, message: str) -> str:
     """intentional | automated."""
     low = message.lower()
@@ -332,6 +345,14 @@ def evaluate(slug: str, repo: str | None = None, head: str = "HEAD",
                 res["findings"].append(f"(b) removes live page {p} [by {who(p)}]")
             continue
         if is_image(p):
+            # image_guard.py owns image replacement (runs just before this in
+            # sync-deploy): responsive -480w/-768w/-1200w variants are derived
+            # from their base and healed there, and a base change carrying a
+            # client-request approval in clients/{slug}/image-changes.jsonl is
+            # intentional no matter which lane committed it.
+            rel = p[len(IMAGE_PREFIX):]
+            if _IG_VARIANT.search(rel) or (lsha and (rel, lsha) in _ig_approvals(slug)):
+                continue
             if not cs or autos:
                 verb = "deletes" if lsha is None else "changes"
                 res["findings"].append(f"(c) {verb} live image {p} [by {who(p)}]")
