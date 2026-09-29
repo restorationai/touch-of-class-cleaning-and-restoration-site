@@ -13,7 +13,7 @@
     "url_count": 976,
     "generated_at": "2026-09-24T23:23:05.888657+00:00"
   },
-  "updated_at": "2026-09-29T00:05:44Z",
+  "updated_at": "2026-09-29T17:57:01.524811+00:00",
   "build": {
     "scaffolded_at": "2026-08-01T20:18:36.299156+00:00",
     "github_repo": "restorationai/homelyft-restoration-ms-site",
@@ -23,7 +23,7 @@
     "pages_status": "exists",
     "last_rendered_at": "2026-08-01T23:17:02.052583+00:00",
     "last_pushed_staging_at": "2026-09-23T20:34:20.676547+00:00",
-    "last_pushed_main_at": "2026-09-28T02:55:16.538728+00:00"
+    "last_pushed_main_at": "2026-09-29T17:57:01.524792+00:00"
   },
   "build_status": "pushed_main",
   "gbp": {
@@ -39,7 +39,7 @@
     "rating": 5.0,
     "review_count": 48,
     "checked_at": "2026-08-02",
-    "note": "Claimed listing confirmed via DataForSEO 2026-08-02. NOT yet OAuth-connected in app (no user_integrations google row). NAP mismatch: listing phone 228-325-1496 + address 3200 B Ave vs our records 228-284-5200 + 1311 Spring St — reconcile with Terry before citations build-out."
+    "note": "Claimed listing confirmed via DataForSEO 2026-08-02. NOT yet OAuth-connected in app (no user_integrations google row). NAP mismatch: listing phone 228-325-1496 + address 3200 B Ave vs our records 228-284-5200 + 1311 Spring St \u2014 reconcile with Terry before citations build-out."
   },
   "audit": {
     "last_audit_at": "2026-09-29T00:05:44Z",

@@ -47,12 +47,12 @@ export const brand = {
   gbpRatingValue: "4.9",
   gbpReviewCount: "133",
   gbpReviews: [
+    { author: "Efrat", rating: 5, text: "Excellent service. Was easy and fast", when: "September 2026" },
     { author: "Patricia", rating: 5, text: "The company provided me with not only excellent service but also personalized attention—going far beyond a simple, one-off interaction! I am grateful for their help and support in resolving the issues caused by the water accident in my home.", when: "September 2026" },
     { author: "Gisela", rating: 5, text: "Great work and excelent customer service!!!", when: "September 2026" },
     { author: "Piero", rating: 5, text: "Shadi and Chris were very helpful, all the expensive furniture was placed on foam blocks to prevent damage. The place was left dry. Very grateful would recommend.", when: "August 2026" },
     { author: "Jonathan", rating: 5, text: "I highly recommend this restoration company! They did an outstanding job repairing and restoring my bathroom. From start to finish, the team was professional, reliable, and courteous. They kept me informed throughout the process, showed up when they said they would, and paid close attention to…", when: "July 2026" },
     { author: "Cheryl", rating: 5, text: "Shadi and Chris were professional, kind, thoughtful and patient under a very difficult circumstance. I appreciate how much they went above and beyond to be certain all was taken care in the correct way.", when: "June 2026" },
-    { author: "Shmuel", rating: 5, text: "Shadi and chris did a great job", when: "June 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Davie, FL.",
   ctaLabel: "24/7 Emergency Line",

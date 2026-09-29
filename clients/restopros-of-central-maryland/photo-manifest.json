@@ -1,0 +1,320 @@
+{
+  "slug": "restopros-of-central-maryland",
+  "assets": {
+    "gbp:gbp-AF1QipMbgJoXvphbl6cOMSG87QKeAHtvIYWgjzgSQbk": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMbgJoXvphbl6cOMSG87QKeAHtvIYWgjzgSQbk.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790266778598/job-photos/posted/gbp-AF1QipMbgJoXvphbl6cOMSG87QKeAHtvIYWgjzgSQbk.jpg",
+      "width": 250,
+      "height": 250,
+      "bytes": 89127,
+      "sha1": "5efbbf132d96600d",
+      "exif": {},
+      "category": "crew",
+      "subject": "Technician in respirator treating mold on ceiling",
+      "quality": 70,
+      "slots": {
+        "hero": 30,
+        "team": 60,
+        "services": 80
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Single worker mid-task doing mold remediation, clear service shot.",
+      "triaged_at": "2026-09-29T17:54:41Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipMfP6ixGMeUAJXVpnZwQo9wBF0j75HVE_66VHQ": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMfP6ixGMeUAJXVpnZwQo9wBF0j75HVE_66VHQ.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790266778598/job-photos/posted/gbp-AF1QipMfP6ixGMeUAJXVpnZwQo9wBF0j75HVE_66VHQ.jpg",
+      "width": 720,
+      "height": 720,
+      "bytes": 19361,
+      "sha1": "9d4848d28f93a211",
+      "exif": {},
+      "category": "graphic",
+      "subject": "RestoPros Central Maryland company logo",
+      "quality": 90,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "logo_card"
+      ],
+      "reason": "Company logo graphic, not a photograph.",
+      "triaged_at": "2026-09-29T17:54:41Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipMo2USK7ZEqSBi9RYItDQEqZapqpfzrBYyIsew": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMo2USK7ZEqSBi9RYItDQEqZapqpfzrBYyIsew.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790266778598/job-photos/posted/gbp-AF1QipMo2USK7ZEqSBi9RYItDQEqZapqpfzrBYyIsew.jpg",
+      "width": 2560,
+      "height": 1928,
+      "bytes": 852210,
+      "sha1": "883a069902296e8e",
+      "exif": {
+        "taken_at": "2025:08:30 09:34:06"
+      },
+      "category": "job_progress",
+      "subject": "Water-damaged rotted subfloor in shower stall",
+      "quality": 65,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Damage documentation showing rotted wood floor under shower tile.",
+      "triaged_at": "2026-09-29T17:54:41Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipMo86M3MvNWUWHP-wdbunnsQDF25QJYv_8fUVs": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMo86M3MvNWUWHP-wdbunnsQDF25QJYv_8fUVs.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790266778598/job-photos/posted/gbp-AF1QipMo86M3MvNWUWHP-wdbunnsQDF25QJYv_8fUVs.jpg",
+      "width": 2560,
+      "height": 1928,
+      "bytes": 434975,
+      "sha1": "98c17610919b7a56",
+      "exif": {
+        "taken_at": "2025:08:28 16:43:02"
+      },
+      "category": "job_progress",
+      "subject": "Exposed wall framing and ceiling damage near bathroom",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Interior demolition showing exposed studs and damaged ceiling.",
+      "triaged_at": "2026-09-29T17:54:41Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipN8rn-znhI2-BZsr7l2qVZO-HOClqqZJtl59Vo": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipN8rn-znhI2-BZsr7l2qVZO-HOClqqZJtl59Vo.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790266778598/job-photos/posted/gbp-AF1QipN8rn-znhI2-BZsr7l2qVZO-HOClqqZJtl59Vo.jpg",
+      "width": 1928,
+      "height": 2560,
+      "bytes": 628714,
+      "sha1": "c70f223994c0d5eb",
+      "exif": {
+        "taken_at": "2025:10:21 17:09:20"
+      },
+      "category": "job_progress",
+      "subject": "Living room with hardwood floor and cleaning equipment",
+      "quality": 50,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Interior room with mop-like tool, unclear job focus.",
+      "triaged_at": "2026-09-29T17:54:41Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipNrhLyUDIh6eyI4lyYtQDe-DL24JR0KuU1Fl5Y": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNrhLyUDIh6eyI4lyYtQDe-DL24JR0KuU1Fl5Y.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790266778598/job-photos/posted/gbp-AF1QipNrhLyUDIh6eyI4lyYtQDe-DL24JR0KuU1Fl5Y.jpg",
+      "width": 2560,
+      "height": 1928,
+      "bytes": 584956,
+      "sha1": "da2d4b1c48e33689",
+      "exif": {
+        "taken_at": "2025:08:25 22:20:50"
+      },
+      "category": "job_progress",
+      "subject": "Bathroom ceiling collapsed exposing roof framing",
+      "quality": 60,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Significant ceiling damage in residential bathroom, clear damage documentation.",
+      "triaged_at": "2026-09-29T17:54:41Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipNrlNmn3TNikCUPtdBZf6mieQv9-CijRcg5Yts": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNrlNmn3TNikCUPtdBZf6mieQv9-CijRcg5Yts.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790266778598/job-photos/posted/gbp-AF1QipNrlNmn3TNikCUPtdBZf6mieQv9-CijRcg5Yts.jpg",
+      "width": 2560,
+      "height": 1928,
+      "bytes": 611398,
+      "sha1": "8d103fda4cb79de0",
+      "exif": {
+        "taken_at": "2025:08:25 11:58:08"
+      },
+      "category": "job_progress",
+      "subject": "Living room with ceiling water damage hole",
+      "quality": 55,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Ceiling collapse damage in cluttered furnished room, shows job need.",
+      "triaged_at": "2026-09-29T17:54:50Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipOgVZ6U4QlhbgCO7w4rMsO8kEeNnNwROCkcrYc": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOgVZ6U4QlhbgCO7w4rMsO8kEeNnNwROCkcrYc.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790266778598/job-photos/posted/gbp-AF1QipOgVZ6U4QlhbgCO7w4rMsO8kEeNnNwROCkcrYc.jpg",
+      "width": 1928,
+      "height": 2560,
+      "bytes": 380781,
+      "sha1": "0fb48e57d9f832ab",
+      "exif": {
+        "taken_at": "2025:08:25 12:05:05"
+      },
+      "category": "equipment",
+      "subject": "Hand holding moisture meter at damaged ceiling",
+      "quality": 60,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Technician using moisture meter on ceiling damage, good service shot.",
+      "triaged_at": "2026-09-29T17:54:50Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipOk4SDDqzh8W1iQf_IUQ_sqWO-uhLClBN1UlRU": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOk4SDDqzh8W1iQf_IUQ_sqWO-uhLClBN1UlRU.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790266778598/job-photos/posted/gbp-AF1QipOk4SDDqzh8W1iQf_IUQ_sqWO-uhLClBN1UlRU.jpg",
+      "width": 2560,
+      "height": 1928,
+      "bytes": 722939,
+      "sha1": "0049f215cdaaa015",
+      "exif": {
+        "taken_at": "2025:10:25 09:11:37"
+      },
+      "category": "equipment",
+      "subject": "Dehumidifiers and air movers in gutted room",
+      "quality": 65,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 75
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Drying equipment deployed in stripped-down water damaged room.",
+      "triaged_at": "2026-09-29T17:54:50Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipP9tokJlyPIU8oxe5AuBqVInmVKu6skcW2V9yA": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipP9tokJlyPIU8oxe5AuBqVInmVKu6skcW2V9yA.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790266778598/job-photos/posted/gbp-AF1QipP9tokJlyPIU8oxe5AuBqVInmVKu6skcW2V9yA.jpg",
+      "width": 2560,
+      "height": 1928,
+      "bytes": 678652,
+      "sha1": "feca361ea7ab04e7",
+      "exif": {
+        "taken_at": "2025:08:25 11:57:55"
+      },
+      "category": "job_progress",
+      "subject": "Basement room with ceiling hole and exercise equipment",
+      "quality": 55,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Damaged ceiling in cluttered finished basement room.",
+      "triaged_at": "2026-09-29T17:54:50Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipPLgVR-6udpm4rjFZLFq7zUy6ZjeEPu_tEQNj4": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPLgVR-6udpm4rjFZLFq7zUy6ZjeEPu_tEQNj4.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790266778598/job-photos/posted/gbp-AF1QipPLgVR-6udpm4rjFZLFq7zUy6ZjeEPu_tEQNj4.jpg",
+      "width": 250,
+      "height": 250,
+      "bytes": 55418,
+      "sha1": "6071e9a941154dc0",
+      "exif": {},
+      "category": "crew",
+      "subject": "Two people inspecting water stain on wall",
+      "quality": 45,
+      "slots": {
+        "hero": 10,
+        "team": 40,
+        "services": 45
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces",
+        "low_res"
+      ],
+      "reason": "Small low-res photo of technician pointing at wall stain with client.",
+      "triaged_at": "2026-09-29T17:54:50Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipPu9KhIDzECAHjMW5lywJvgFQmQRcnhkP99m_I": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPu9KhIDzECAHjMW5lywJvgFQmQRcnhkP99m_I.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790266778598/job-photos/posted/gbp-AF1QipPu9KhIDzECAHjMW5lywJvgFQmQRcnhkP99m_I.jpg",
+      "width": 1928,
+      "height": 2560,
+      "bytes": 507457,
+      "sha1": "d3662effcc8c2ee4",
+      "exif": {
+        "taken_at": "2025:08:28 16:43:06"
+      },
+      "category": "job_progress",
+      "subject": "Exposed moldy drywall and framing in wall cavity",
+      "quality": 60,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Close-up of mold damage behind removed drywall section.",
+      "triaged_at": "2026-09-29T17:54:50Z",
+      "triage_model": "claude-sonnet-5"
+    }
+  },
+  "slots": {},
+  "triaged_at": "2026-09-29T17:54:50Z"
+}

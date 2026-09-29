@@ -1,5 +1,5 @@
 {
-  "cursor": "2026-09-29T14:02:28Z",
+  "cursor": "2026-09-29T17:38:09Z",
   "processed_intake_ids": [
     "fc44dd89-d909-44f9-93f6-794f847caf15",
     "6b16a3b8-90f1-4cdc-bb25-93335099c603",
@@ -166,7 +166,8 @@
     "ff29b8a3-67e7-4eba-8715-aa5ca1bf04fd",
     "13221680-4797-46cc-a7fb-4c36c31745c2",
     "97352715-bbef-4513-83ff-475e5b4fa653",
-    "7f92fbfc-73d8-4ded-92c9-996a512662b1"
+    "7f92fbfc-73d8-4ded-92c9-996a512662b1",
+    "747ef4a7-cff6-47c4-9f82-3b7005ef1d12"
   ],
   "processed_plan_events": [
     "80fd3777-f57b-4a61-9cf4-dc4e7d243cd1:done",
@@ -829,7 +830,8 @@
     "a1450e2e-8fa1-4d07-9d60-1a8540a221e9:done",
     "b490a37d-7fb7-4b92-8a6f-906acdbb2a3f:done",
     "2e12c988-4dda-4f12-bb2c-dcdbaa281af7:done",
-    "feaaf68c-4cc9-4a2a-bf69-618dde368c66:done"
+    "feaaf68c-4cc9-4a2a-bf69-618dde368c66:done",
+    "9a191d8f-2525-47a0-a7da-25b7e6f9655f:resolved"
   ],
-  "last_run_at": "2026-09-29T14:02:28.691890+00:00"
+  "last_run_at": "2026-09-29T17:38:09.132714+00:00"
 }
