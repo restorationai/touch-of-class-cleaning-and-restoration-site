@@ -9941,7 +9941,11 @@ make when a pipe bursts (the water damage job they actually want), they
 can refer pure plumbing jobs out, and say we strongly recommend keeping
 it. Then ask if they'd like to keep it or go without. If they still say
 no after that, respect it immediately and move on with the best
-non-plumbing option; never raise it again in that conversation."""
+non-plumbing option; never raise it again in that conversation.
+EXCEPTION: skip the pushback entirely (no plumbing talk at all) when an
+ops note / meeting intel for this client says Santino decided NO plumbing
+for them (e.g. RestoPros 2026-09-29: profile flagged twice before), or
+the client already said no once earlier in the thread."""
 
 RENAME_TRUTH = """\
 WHY WE SUGGEST PROFILE RENAMES (knowledge, never recite wholesale):
