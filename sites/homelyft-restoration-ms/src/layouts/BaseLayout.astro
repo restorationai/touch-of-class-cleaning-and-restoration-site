@@ -4,6 +4,7 @@ import { brand } from "~/lib/brand";
 import Analytics from "~/components/Analytics.astro";
 import Header from "~/components/Header.astro";
 import Footer from "~/components/Footer.astro";
+import DniSwap from "~/components/DniSwap.astro";
 import Schema from "~/components/Schema.astro";
 import Breadcrumb from "~/components/Breadcrumb.astro";
 import { Phone } from "@lucide/astro";
@@ -161,8 +162,8 @@ const ctx: PageSchemaContext = {
   <body class="min-h-screen flex flex-col">
     <div class="hidden md:block bg-primary-600 text-white text-xs md:text-sm font-bold text-center py-2 px-4 tracking-wider">
       {isLicensed
-        ? <>Licensed &amp; Insured &mdash; {brand.primaryCity}, {brand.primaryState}{" "}{brand.specialistPhrase}</>
-        : <>{brand.primaryCity}, {brand.primaryState}{" "}{brand.specialistPhrase} &mdash; {brand.announcementSuffix}</>}
+        ? <>Licensed &amp; Insured &mdash; {brand.primaryCity}, {brand.primaryState} {brand.specialistPhrase}</>
+        : <>{brand.primaryCity}, {brand.primaryState} {brand.specialistPhrase} &mdash; {brand.announcementSuffix}</>}
     </div>
     <Header />
     <Breadcrumb trail={breadcrumb} />
@@ -174,5 +175,6 @@ const ctx: PageSchemaContext = {
       <Phone size={18} strokeWidth={3} />
       Call Now: {brand.phone}
     </a>
+    <DniSwap />
   </body>
 </html>
