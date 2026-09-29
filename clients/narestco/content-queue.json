@@ -1088,10 +1088,10 @@
     },
     {
       "id": "2026-08-26-sewage-backup-in-basement",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-26T08:30:38Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-29T20:57:31Z",
+      "post_url": "https://narestco.com/blog/sewage-backup-in-basement/",
       "primary_keyword": "sewage backup in basement",
       "intent": "informational",
       "volume": 720,
