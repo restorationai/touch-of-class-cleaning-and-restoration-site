@@ -333,7 +333,20 @@ def cmd_review(a) -> int:
         print(f"{a.slug}: no LSA account — skipped")
         return 0
     cl = _mcc()
-    ok, gname = _owned(cl, acid, co)
+    try:
+        ok, gname = _owned(cl, acid, co)
+    except Exception as e:  # noqa: BLE001
+        # 2026-09-29 RestoPros: the LSA account is detected but the MCC link
+        # invite is still PENDING (client hasn't accepted), so every query is
+        # USER_PERMISSION_DENIED. That is an access gap the MCC-link watcher
+        # already tracks, not a crashed review; skip cleanly so one unlinked
+        # account doesn't fail the whole fan-out.
+        if "PERMISSION_DENIED" in str(e) or "USER_PERMISSION_DENIED" in repr(e):
+            link = (_ints(co).get("lsa") or {}).get("link_status") or "?"
+            print(f"{a.slug}: no MCC access to LSA account {acid} "
+                  f"(link_status={link}) — skipped until the link is accepted")
+            return 0
+        raise
     if not ok:
         print(f"{a.slug}: LSA account {acid} is '{gname}', not this client — "
               "NOT reviewing a stranger's leads")
