@@ -2497,7 +2497,37 @@ def load_meeting_intel(company: dict) -> str | None:
                 "untouched — Reign, 2026-08-05)]\n" + "\n".join(lines))
     except Exception as e:
         print(f"  [intel] work-done fetch failed: {e}", file=sys.stderr)
+    # RENAME KNOWLEDGE EVERYWHERE (Santino 2026-09-29, Michael/Katofsky): the
+    # rename options went out as a plain scheduled text, the rename flow was
+    # never armed, and Monica answered "why do I need a DBA?" with "checking
+    # with Santino" twice and dropped plumbing on the first objection.
+    # RENAME_TRUTH used to ride ONLY inside an armed rename conversation; now
+    # it rides into every compose/reply whenever a rename is in play.
+    try:
+        if _rename_in_play(company):
+            parts.append("[RENAME KNOWLEDGE — answer rename/DBA/plumbing "
+                         "questions from this; never defer them to Santino]\n"
+                         + RENAME_TRUTH + "\n" + RENAME_PLUMBING_PUSHBACK)
+    except Exception as e:  # noqa: BLE001 — knowledge is best-effort
+        print(f"  [intel] rename knowledge skipped: {e}", file=sys.stderr)
     return "\n\n".join(parts) or None
+
+
+def _rename_in_play(company: dict) -> bool:
+    """A rename is in play when a name is seeded/chosen, the rename flow is
+    armed, or rename_intent exists."""
+    cid = company.get("id")
+    if not cid:
+        return False
+    ints = company.get("integration_settings") or {}
+    if ints.get("rename_intent"):
+        return True
+    if kv_get(f"rename-convo:{cid}"):
+        return True
+    rows = _sb("GET", "/rest/v1/marketing_gbp_suggestions"
+               f"?company_id=eq.{cid}&item_type=eq.name"
+               "&status=in.(open,chosen)&select=item&limit=1") or []
+    return bool(rows)
 
 
 # ---------------------------------------------------------------- data pulls
@@ -9836,6 +9866,20 @@ def handle_booking_reply(company: dict, contact: dict, msg: dict,
 # app buttons and the gate can never disagree. NOTHING here touches Google:
 # the GBP change stays a separate, human-sequenced step after citations.
 
+# PLUMBING PUSHBACK (Santino 2026-09-29, Michael/Katofsky said "I don't
+# do plumbing" and Monica dropped it on the spot): ONE educational
+# pushback with a clear recommendation, then respect the answer.
+RENAME_PLUMBING_PUSHBACK = """\
+PLUMBING PUSHBACK RULE: when a client says no to plumbing in the name the
+FIRST time (e.g. "I don't do plumbing"), do NOT drop it immediately. In
+one short, warm message: explain they don't have to do plumbing work, the
+word just puts them in front of the "emergency plumber" searches people
+make when a pipe bursts (the water damage job they actually want), they
+can refer pure plumbing jobs out, and say we strongly recommend keeping
+it. Then ask if they'd like to keep it or go without. If they still say
+no after that, respect it immediately and move on with the best
+non-plumbing option; never raise it again in that conversation."""
+
 RENAME_TRUTH = """\
 WHY WE SUGGEST PROFILE RENAMES (knowledge, never recite wholesale):
 Google's local ranking leans heavily on the words in the business name.
@@ -9846,12 +9890,16 @@ their state for the exact string, it goes on their citations and site
 first, and only then does the Google profile get its ONE name change.
 Renames are never pushed by us without that sequence; a keyworded name
 without paperwork behind it is how profiles get suspended.
-PLUMBING (restoration clients only): plumbing search volume is bigger
-than restoration volume, so a plumbing term in the name can be the
-strongest option. But the name is ADVERTISING: most states require the
-advertiser to hold (or partner with) a plumbing license. Subcontracting
-alone does not cure that in strict states. So the plumbing option is
-only ever offered together with the license question.
+PLUMBING (restoration clients only, house stance Santino 2026-09-18/26):
+plumbing search volume is bigger than restoration volume, and people with
+a burst pipe search "emergency plumber" first, so a plumbing term in the
+name is the #1 recommendation. The client does NOT have to do plumbing
+repairs: the name puts them in front of that search, they take the water
+damage job and refer the pure plumbing work out (which makes plumbers
+start sending restoration jobs back). Google does not check licenses for
+names; the only risk is a competitor reporting it, which is very unlikely,
+and the worst case is the word gets removed. Still mention the license
+question honestly if they ask.
 STEPS in client language: 1) pick the name, 2) they file the DBA for
 exactly that string, 3) we update citations and the website, 4) we make
 the one-time Google profile change, 5) if Google asks to re-verify, we
@@ -9870,6 +9918,23 @@ DBA becomes the canonical form everywhere.
 Q "Will Google make us re-verify after the change?" A: Possibly, and we
 plan for it: by the time we change the name, the DBA, website, and
 listings all prove it, so a re-verification is winnable.
+Q "I already have a DBA (e.g. KCS Restore), why do I need all the extra
+words / another filing?" (Michael/Katofsky 2026-09-29) A: Google only lets
+a profile show the business's REAL name. "KCS Restore" is real; "KCS
+Restore - 24/7 Emergency Water and Fire Damage Restoration" is not, until
+it is filed. Without the filing, Google treats the extra words as keyword
+stuffing and can suspend the profile. Filing the full phrase makes it
+your registered name, so Google has to accept it. Their existing DBA is
+the base; the new filing is that same brand plus the phrase.
+Q "Isn't it just a description of my services? I already own the name."
+A: To you and me yes, but Google judges the name field by the paperwork,
+not intent. Descriptions belong in the description; only a registered
+name can carry those words in the NAME field, which is the part Google
+ranks most heavily for emergency searches. That's the whole point.
+Q "Why does the name matter so much?" A: The business name is one of the
+strongest local ranking signals. A profile named for what people type
+(24/7 emergency, water damage) shows up for those searches ahead of
+profiles with a bare brand name. It's the single biggest lever we have.
 Q "What is a DBA, do I need a lawyer?" A: A simple trade-name filing
 with the state, usually online in minutes, no lawyer needed.
 Q "Why the word Emergency?" A: It is what people type in urgent moments
@@ -9890,11 +9955,12 @@ files (one-name-forever cuts both ways):
      concentrate, one DBA, Google differentiates by address. For
      single-location clients with no expansion plans.
   B) Franchise pattern ("Brand of Tampa - ...") — HOUSE DEFAULT for
-     expansion-track clients (Santino 2026-09-15): the game plan is
-     near-fully-separate profiles per location (own entity, own email,
-     own LSA account, max map real estate), so each location's entity
-     files its own geo-DBA registering that exact name (the Servpro
-     model) with its own citation set. The per-location DBA is what
+     expansion-track clients (Santino 2026-09-15; entity rule updated
+     2026-09-28): near-fully-separate profiles per location (own email,
+     phone, address, LSA account, max map real estate). By default the
+     client's existing LLC files one geo-DBA per location for that exact
+     name (no new LLC needed; see docs/EXPANSION-SYSTEM.md), each with
+     its own citation set. The per-location DBA is what
      makes the geo-name policy-bulletproof.
 A bare city tag without the registration is the policy risk. Never
 present this fork as settled; it is a Santino-level strategy decision
@@ -10223,7 +10289,7 @@ multiple people at the company.
 Answer questions ONLY from the knowledge above; anything outside it is
 "handoff". Never claim any step is already done."""
 RENAME_REPLY_SYSTEM = RENAME_REPLY_SYSTEM.replace(
-    "<<RENAME_TRUTH>>", RENAME_TRUTH)
+    "<<RENAME_TRUTH>>", RENAME_TRUTH + "\n" + RENAME_PLUMBING_PUSHBACK)
 
 # ---- Rename Conversation v2 (Santino 2026-09-26, Greg/PuroClean) ----------
 # "Number 2 probably best ... Any results on hoarding cleanup?" locked the

@@ -52,7 +52,8 @@ def cmd_add(a) -> int:
            "send_at": send_at.astimezone(timezone.utc).isoformat(),
            "status": "queued", "created_by": "claude-macbook",
            "created_at": _now().isoformat(),
-           "allow_extra_recipient": bool(a.allow_extra_recipient)}
+           "allow_extra_recipient": bool(a.allow_extra_recipient),
+           "arm_rename": bool(a.arm_rename)}
     cc.kv_set(PREFIX + sid, row)
     print(f"queued {sid} for {row['send_at']} -> {a.company}/{a.contact_id}")
     return 0
@@ -97,6 +98,13 @@ def _send(v: dict) -> dict:
     state = cc.load_state()
     cc.record_sent_message(state, r)
     cc.save_state(state, dry_run=False)
+    if v.get("arm_rename"):
+        # Rename options sent outside the pitch worker must still arm the
+        # rename flow, or Monica answers the pick without RENAME_TRUTH
+        # (Michael/Katofsky 2026-09-29).
+        cc.kv_set(f"rename-convo:{v['company_id']}", {
+            "stage": "options", "last_outbound": v["body"],
+            "at": _now().isoformat(), "notes": "armed by scheduled_sends"})
     who = contact.get("firstName") or contact["id"]
     cc._sb("POST", "/rest/v1/marketing_ops_notes",
            {"company_id": v["company_id"], "author": "scheduled-send",
@@ -150,6 +158,9 @@ def main() -> int:
     ad.add_argument("--subject")
     ad.add_argument("--channel", default="sms", choices=("sms", "email"))
     ad.add_argument("--allow-extra-recipient", action="store_true")
+    ad.add_argument("--arm-rename", action="store_true",
+                    help="this message offers name options: arm Monica's rename "
+                         "conversation (stage=options) when it sends")
     ad.set_defaults(func=cmd_add)
     sub.add_parser("list").set_defaults(func=cmd_list)
     ca = sub.add_parser("cancel")
