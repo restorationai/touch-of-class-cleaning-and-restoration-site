@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-28-who-to-call-for-air-duct-cleaning-in-corona-ca",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-28T21:51:26Z",
       "priority": 1,
       "prioritized": true,
@@ -24,7 +24,9 @@
         "who do I call for air duct cleaning in Corona",
         "air duct cleaning emergency number Corona CA"
       ],
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-29T20:41:35Z",
+      "post_url": "https://drycountyrestoration.com/blog/who-to-call-for-air-duct-cleaning-in-corona-ca/"
     },
     {
       "id": "2026-09-14-water-damage-restoration-cost-ca",
