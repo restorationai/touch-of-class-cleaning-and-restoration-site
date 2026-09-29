@@ -1,21 +1,21 @@
 # Site Plan Report — Go Green Restoration of NC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-23T14:11:42.794919+00:00
+- Generated: 2026-09-29T23:13:49.131830+00:00
 - Domain: `gogreenrestorationofnc.com`
-- Services selected: 10 of 65 catalog entries
+- Services selected: 29 of 75 catalog entries
 - Service areas: 23
 - Cross-product enabled: True
-- Total URLs: **269**
-- Total internal links: 2145 (avg 8.0 per page)
+- Total URLs: **706**
+- Total internal links: 5797 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 220 |
+| `service-area-service` | 638 |
+| `service-landing` | 29 |
 | `service-area` | 22 |
-| `service-landing` | 10 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -36,6 +36,25 @@
 - `mold-remediation` — Mold Remediation (core, priority 10)
 - `odor-removal` — Odor Removal and Deodorization (specialty, priority 7)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
+- `air-duct-hvac-cleaning` — Air Duct & HVAC Cleaning (adjacent, priority 5)
+- `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
+- `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
+- `carpet-upholstery-cleaning` — Carpet & Upholstery Cleaning (adjacent, priority 5)
+- `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
+- `commercial-restoration` — Commercial Restoration (core, priority 9)
+- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
+- `emergency-water-removal` — 24/7 Emergency Water Removal (core, priority 9)
+- `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
+- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
+- `industrial-restoration` — Industrial Restoration (core, priority 7)
+- `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
+- `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
+- `reconstruction` — Reconstruction Services (core, priority 9)
+- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
+- `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
+- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
+- `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
+- `water-leak-detection` — Water Leak Detection (core, priority 7)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 
 ## Service areas
@@ -71,13 +90,13 @@
 | `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration middlesex |
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation middlesex |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration middlesex |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup middlesex |
-| `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup middlesex |
-| `/service-areas/archer-lodge-nc/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration archer lodge |
-| `/service-areas/archer-lodge-nc/mold-remediation/` | `service-area-service` | 7.0 | mold remediation archer lodge |
-| `/service-areas/archer-lodge-nc/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration archer lodge |
-| `/service-areas/clayton-nc/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration clayton |
-| `/service-areas/clayton-nc/mold-remediation/` | `service-area-service` | 7.0 | mold remediation clayton |
+| `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration middlesex |
+| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing middlesex |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | 24/7 emergency water removal middlesex |
+| `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration middlesex |
+| `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services middlesex |
+| `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization middlesex |
+| `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration middlesex |
 
 ## Validation
 

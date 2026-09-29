@@ -1021,6 +1021,24 @@
    "secondary_keywords": [],
    "tier": "adjacent",
    "priority": 5
+  },
+  {
+   "slug": "air-duct-hvac-cleaning",
+   "display_name": "Air Duct & HVAC Cleaning",
+   "short_name": "Air Duct & HVAC",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [],
+   "tier": "adjacent",
+   "priority": 5
+  },
+  {
+   "slug": "carpet-upholstery-cleaning",
+   "display_name": "Carpet & Upholstery Cleaning",
+   "short_name": "Carpet & Upholstery",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [],
+   "tier": "adjacent",
+   "priority": 5
   }
  ]
 }

@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Ceiling Water Damage Repair in Zebulon, NC | Go Green Restoration of NC"
+h1: "Ceiling Water Damage Repair in Zebulon"
+meta_description: "24/7 ceiling water damage repair in Zebulon, NC. Insurance billing accepted. Call (919) 906-5473."
+primary_keyword: "ceiling water damage repair zebulon"
+secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
+search_intent: "local_emergency"
+priority: 5.6
+plan_hash: "f0e73a316e3d94ee"
+generated_at: "2026-09-29T23:13:49.288984+00:00"
+manual_override: false
+internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/zebulon-nc/", "/service-areas/zebulon-nc/fire-damage-restoration/", "/service-areas/zebulon-nc/mold-remediation/", "/service-areas/archer-lodge-nc/ceiling-water-damage-repair/", "/service-areas/clayton-nc/ceiling-water-damage-repair/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Zebulon", "url": "/service-areas/zebulon-nc/"}, {"name": "Ceiling Water Damage Repair"}]
+faq: []
+area_slug: "zebulon-nc"
+service_slug: "ceiling-water-damage-repair"
+city: "Zebulon"
+state: "NC"
+service_display: "Ceiling Water Damage Repair"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug go-green-restoration-of-nc` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Ceiling Water Damage Repair in Zebulon.

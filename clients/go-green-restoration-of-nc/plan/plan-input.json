@@ -26,7 +26,26 @@
     "insulation-removal-installation",
     "mold-remediation",
     "odor-removal",
-    "water-damage-restoration"
+    "water-damage-restoration",
+    "air-duct-hvac-cleaning",
+    "basement-flooding-cleanup",
+    "burst-pipe-repair",
+    "carpet-upholstery-cleaning",
+    "ceiling-water-damage-repair",
+    "commercial-restoration",
+    "emergency-plumbing",
+    "emergency-water-removal",
+    "flood-damage-restoration",
+    "general-contracting",
+    "industrial-restoration",
+    "large-loss-response",
+    "mold-inspection-testing",
+    "reconstruction",
+    "sewage-cleanup",
+    "smoke-damage-restoration",
+    "storm-damage-restoration",
+    "water-heater-flood-cleanup",
+    "water-leak-detection"
   ],
   "service_areas": [
     {
