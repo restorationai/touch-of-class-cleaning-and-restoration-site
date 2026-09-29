@@ -57,6 +57,8 @@ from datetime import date, datetime, time as dtime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+import requests
+
 sys.path.insert(0, str(Path(__file__).parent))
 import client_concierge as cc  # noqa: E402
 from client_concierge import _sb, anthropic_json, kv_get, kv_set, load_env  # noqa: E402
@@ -171,9 +173,19 @@ Return ONLY JSON:
 
 
 def _extract(company: dict, header: str, body: str) -> list[dict]:
-    out = anthropic_json(EXTRACT_SYSTEM,
-                         f"Client: {company.get('name')}\n{header}\n\n{body}",
-                         max_tokens=8000, model=MODEL_EXTRACT)
+    out = None
+    for attempt in (1, 2):
+        try:
+            out = anthropic_json(
+                EXTRACT_SYSTEM,
+                f"Client: {company.get('name')}\n{header}\n\n{body}",
+                max_tokens=8000, model=MODEL_EXTRACT, timeout=300)
+            break
+        except (ValueError, requests.RequestException) as e:
+            # malformed JSON / a slow long-transcript read: one retry
+            if attempt == 2:
+                raise
+            print(f"    extraction retry ({str(e)[:70]})")
     keep = []
     for p in out.get("promises") or []:
         if not isinstance(p, dict) or not str(p.get("what") or "").strip():
@@ -273,6 +285,11 @@ def write_rows(rows: list[dict], dry_run: bool) -> int:
         return 0
     if dry_run:
         return len(rows)
+    # PostgREST bulk inserts need identical keys on every object
+    keys = ("company_id", "source", "source_ref", "said_at", "quote", "what",
+            "owner", "due_at", "status", "evidence", "closed_at")
+    rows = [{k: r.get(k, "open" if k == "status" else None) for k in keys}
+            for r in rows]
     _sb("POST", f"{TABLE}?on_conflict=company_id,source_ref,what", rows,
         prefer="resolution=ignore-duplicates,return=minimal")
     return len(rows)
@@ -490,9 +507,13 @@ def remind(companies: dict, opens: list[dict], state: dict,
                 n += 1
             continue
         if due <= now and c["id"] not in late:
-            line = f"OVERDUE since {due:%m/%d}: {c['what'][:110]}"
             late[c["id"]] = now.isoformat()
             soon.setdefault(c["id"], now.isoformat())
+            if now - due > timedelta(hours=72):
+                # overdue long before we first saw it (backfill, or a call
+                # mined late): the digest carries it, the phone does not
+                continue
+            line = f"OVERDUE since {due:%m/%d}: {c['what'][:110]}"
         elif now < due <= now + timedelta(hours=24) and c["id"] not in soon:
             line = f"due {due:%m/%d %H:%M} UTC: {c['what'][:110]}"
             soon[c["id"]] = now.isoformat()
@@ -540,7 +561,10 @@ def digest_sections(now: datetime | None = None) -> dict:
         elif d_local == n_local + timedelta(days=1) or (
                 n_local.weekday() == 4 and d_local == n_local + timedelta(days=3)):
             out["tomorrow"].append(row)
-    out["holds"] = sorted({r["client"] for r in out["overdue"]})
+    hold_owners = {o.strip() for o in os.environ.get(
+        "PROMISES_HOLD_OWNERS", "monica,santino").split(",")}
+    out["holds"] = sorted({r["client"] for r in out["overdue"]
+                           if r["owner"] in hold_owners})
     return out
 
 

@@ -580,7 +580,7 @@ def _loc() -> str:
 
 def anthropic_json(system: str, user: str, *, max_tokens: int = 4000,
                    images: list[dict] | None = None,
-                   model: str | None = None) -> dict:
+                   model: str | None = None, timeout: int = 120) -> dict:
     """One Messages call, expects a single JSON object in the reply.
     Retries once on an empty/non-JSON reply (2026-07-29: intermittent empty
     responses starved whole compose passes). `images` (from _vision_blocks:
@@ -601,7 +601,7 @@ def anthropic_json(system: str, user: str, *, max_tokens: int = 4000,
     last_stop = None
     messages: list[dict] = [{"role": "user", "content": content}]
     for attempt in (1, 2, 3):
-        resp = requests.post(ANTHROPIC_API, timeout=120, headers={
+        resp = requests.post(ANTHROPIC_API, timeout=timeout, headers={
             "x-api-key": os.environ["ANTHROPIC_API_KEY"],
             "anthropic-version": "2023-06-01",
             "Content-Type": "application/json", "User-Agent": UA,
@@ -1226,9 +1226,19 @@ def overdue_commitments(company_ids: list[str] | str,
     if not ids:
         return []
     now = now or datetime.now(timezone.utc)
+    # WHICH PROMISES HOLD (2026-09-29 backfill): the client is waiting on an
+    # ANSWER / decision / message from us (owner monica or santino: the
+    # Katofsky name options). Build work (owner dev: "build the site", "set
+    # up LSA") lives on the dev queue and often NEEDS the very items Monica
+    # nudges for, and the 21-day backfill found 100+ such rows the close
+    # check cannot prove from messages; holding on them would silence Monica
+    # fleet-wide. PROMISES_HOLD_OWNERS widens it (e.g. "monica,santino,dev").
+    owners = [o.strip() for o in os.environ.get(
+        "PROMISES_HOLD_OWNERS", "monica,santino").split(",") if o.strip()]
     try:
         return _sb("GET", "/rest/v1/client_commitments?status=eq.open"
                    "&company_id=in.(" + ",".join(ids) + ")"
+                   "&owner=in.(" + ",".join(owners) + ")"
                    "&due_at=lt." + urllib.parse.quote(now.isoformat())
                    + "&select=id,company_id,what,quote,owner,due_at"
                    "&order=due_at.asc") or []
