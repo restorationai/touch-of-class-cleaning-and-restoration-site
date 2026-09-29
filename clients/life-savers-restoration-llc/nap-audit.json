@@ -1,6 +1,6 @@
 {
   "slug": "life-savers-restoration-llc",
-  "checked_at": "2026-09-29T19:53:23.904600+00:00",
+  "checked_at": "2026-09-29T19:55:34.544084+00:00",
   "canonical": {
     "name": "Life Savers Restoration LLC",
     "phone": "(702) 845-1325",
@@ -32,14 +32,8 @@
     {
       "platform": "bbb",
       "url": "https://www.bbb.org/us/nv/henderson/profile/fire-water-damage-restoration/life-savers-restoration-llc-1086-90068182",
-      "status": "ok",
-      "fetch": "google_serp_snippet",
-      "phones_found": [
-        "(702) 845-1325"
-      ],
-      "phone_match": true,
-      "address_match": null,
-      "notes": "via Google snippet (page bot-blocked); canonical street address not found on page"
+      "status": "unverified",
+      "notes": "unverifiable \u2014 every fetch tier failed (http 403; dfs_content_parsing Page content is empty; google_serp_snippet: page not indexed; wayback: no 200 capture)"
     },
     {
       "platform": "houzz",
@@ -52,7 +46,7 @@
         "(888) 610-7168",
         "(800) 340-9610",
         "(888) 316-6960",
-        "(289) 766-2262"
+        "(289) 781-3346"
       ],
       "phone_match": false,
       "address_match": true,
