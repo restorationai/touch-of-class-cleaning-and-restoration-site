@@ -29,7 +29,8 @@
       "IICRC Certified Firm",
       "Licensed & Insured",
       "Locally Owned & Operated"
-    ]
+    ],
+    "hide_mobile_header_call": "true"
   },
   "services": [
     "water-damage-restoration",
@@ -37,7 +38,28 @@
     "general-contracting",
     "water-cleanup",
     "fire-damage-restoration",
-    "roofing"
+    "roofing",
+    "basement-flooding-cleanup",
+    "burst-pipe-repair",
+    "ceiling-water-damage-repair",
+    "commercial-restoration",
+    "emergency-plumbing",
+    "emergency-water-removal",
+    "flood-damage-restoration",
+    "general-contractor",
+    "industrial-restoration",
+    "job-type-id-basement-remodeling",
+    "job-type-id-bathroom-remodeling",
+    "job-type-id-construction",
+    "large-loss-response",
+    "mold-inspection-testing",
+    "mold-remediation",
+    "reconstruction",
+    "remodeler",
+    "sewage-cleanup",
+    "smoke-damage-restoration",
+    "water-heater-flood-cleanup",
+    "water-leak-detection"
   ],
   "service_areas": [
     {

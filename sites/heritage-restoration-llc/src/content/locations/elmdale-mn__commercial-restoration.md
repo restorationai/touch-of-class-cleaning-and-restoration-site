@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Commercial Restoration in Elmdale, MN | Heritage Restoration LLC"
+h1: "Commercial Restoration in Elmdale"
+meta_description: "Commercial restoration in Elmdale, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+primary_keyword: "commercial restoration elmdale"
+secondary_keywords: ["commercial water damage", "commercial fire damage", "business restoration", "office restoration", "retail restoration"]
+search_intent: "local_b2b"
+priority: 6.3
+plan_hash: "d827727010c2a00a"
+generated_at: "2026-09-29T23:13:48.885277+00:00"
+manual_override: false
+internal_links: ["/services/commercial-restoration/", "/service-areas/elmdale-mn/", "/service-areas/elmdale-mn/fire-damage-restoration/", "/service-areas/elmdale-mn/mold-remediation/", "/service-areas/albany-mn/commercial-restoration/", "/service-areas/avon-mn/commercial-restoration/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elmdale", "url": "/service-areas/elmdale-mn/"}, {"name": "Commercial Restoration"}]
+faq: []
+area_slug: "elmdale-mn"
+service_slug: "commercial-restoration"
+city: "Elmdale"
+state: "MN"
+service_display: "Commercial Restoration"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug heritage-restoration-llc` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Commercial Restoration in Elmdale.

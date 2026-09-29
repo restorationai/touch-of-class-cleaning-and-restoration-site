@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Construction in Baxter, MN | Heritage Restoration LLC"
+h1: "Construction in Baxter"
+meta_description: "Construction in Baxter, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+primary_keyword: "construction baxter"
+secondary_keywords: []
+search_intent: "local_specialty"
+priority: 3.5
+plan_hash: "ce4950ec75da04a4"
+generated_at: "2026-09-29T23:13:48.862779+00:00"
+manual_override: false
+internal_links: ["/services/job-type-id-construction/", "/service-areas/baxter-mn/", "/service-areas/baxter-mn/fire-damage-restoration/", "/service-areas/baxter-mn/mold-remediation/", "/service-areas/albany-mn/job-type-id-construction/", "/service-areas/avon-mn/job-type-id-construction/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Baxter", "url": "/service-areas/baxter-mn/"}, {"name": "Construction"}]
+faq: []
+area_slug: "baxter-mn"
+service_slug: "job-type-id-construction"
+city: "Baxter"
+state: "MN"
+service_display: "Construction"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug heritage-restoration-llc` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Construction in Baxter.

@@ -976,6 +976,51 @@
    "secondary_keywords": [],
    "tier": "construction",
    "priority": 5
+  },
+  {
+   "slug": "general-contractor",
+   "display_name": "General Contractor",
+   "short_name": "General Contractor",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [],
+   "tier": "adjacent",
+   "priority": 5
+  },
+  {
+   "slug": "job-type-id-basement-remodeling",
+   "display_name": "Basement Remodeling",
+   "short_name": "Basement Remodeling",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [],
+   "tier": "adjacent",
+   "priority": 5
+  },
+  {
+   "slug": "job-type-id-bathroom-remodeling",
+   "display_name": "Bathroom Remodeling",
+   "short_name": "Bathroom Remodeling",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [],
+   "tier": "adjacent",
+   "priority": 5
+  },
+  {
+   "slug": "job-type-id-construction",
+   "display_name": "Construction",
+   "short_name": "Construction",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [],
+   "tier": "adjacent",
+   "priority": 5
+  },
+  {
+   "slug": "remodeler",
+   "display_name": "Remodeler",
+   "short_name": "Remodeler",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [],
+   "tier": "adjacent",
+   "priority": 5
   }
  ]
 }

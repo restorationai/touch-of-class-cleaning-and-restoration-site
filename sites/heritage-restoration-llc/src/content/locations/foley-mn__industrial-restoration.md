@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Industrial Restoration in Foley, MN | Heritage Restoration LLC"
+h1: "Industrial Restoration in Foley"
+meta_description: "Industrial restoration in Foley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+primary_keyword: "industrial restoration foley"
+secondary_keywords: ["industrial water damage", "warehouse restoration", "manufacturing facility restoration", "industrial fire damage", "plant restoration services"]
+search_intent: "local_b2b"
+priority: 4.9
+plan_hash: "2c115ca393b7b971"
+generated_at: "2026-09-29T23:13:48.865605+00:00"
+manual_override: false
+internal_links: ["/services/industrial-restoration/", "/service-areas/foley-mn/", "/service-areas/foley-mn/fire-damage-restoration/", "/service-areas/foley-mn/mold-remediation/", "/service-areas/albany-mn/industrial-restoration/", "/service-areas/avon-mn/industrial-restoration/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Foley", "url": "/service-areas/foley-mn/"}, {"name": "Industrial Restoration"}]
+faq: []
+area_slug: "foley-mn"
+service_slug: "industrial-restoration"
+city: "Foley"
+state: "MN"
+service_display: "Industrial Restoration"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug heritage-restoration-llc` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Industrial Restoration in Foley.

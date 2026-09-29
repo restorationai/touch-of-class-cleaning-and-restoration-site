@@ -1,22 +1,22 @@
 # Site Plan Report — Heritage Restoration LLC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-22T22:46:04.341718+00:00
+- Generated: 2026-09-29T23:13:48.694928+00:00
 - Domain: `heritagermn.com`
-- Services selected: 6 of 65 catalog entries
+- Services selected: 27 of 75 catalog entries
 - Service areas: 23
 - Cross-product enabled: True
-- Total URLs: **177**
-- Total internal links: 1371 (avg 7.7 per page)
+- Total URLs: **660**
+- Total internal links: 5413 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 132 |
+| `service-area-service` | 594 |
+| `service-landing` | 27 |
 | `service-area` | 22 |
 | `blog-post` | 8 |
-| `service-landing` | 6 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -33,6 +33,27 @@
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `roofing` — Roofing Installation and Replacement (construction, priority 10)
+- `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
+- `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
+- `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
+- `commercial-restoration` — Commercial Restoration (core, priority 9)
+- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
+- `emergency-water-removal` — 24/7 Emergency Water Removal (core, priority 9)
+- `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
+- `general-contractor` — General Contractor (adjacent, priority 5)
+- `industrial-restoration` — Industrial Restoration (core, priority 7)
+- `job-type-id-basement-remodeling` — Basement Remodeling (adjacent, priority 5)
+- `job-type-id-bathroom-remodeling` — Bathroom Remodeling (adjacent, priority 5)
+- `job-type-id-construction` — Construction (adjacent, priority 5)
+- `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
+- `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
+- `mold-remediation` — Mold Remediation (core, priority 10)
+- `reconstruction` — Reconstruction Services (core, priority 9)
+- `remodeler` — Remodeler (adjacent, priority 5)
+- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
+- `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
+- `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
+- `water-leak-detection` — Water Leak Detection (core, priority 7)
 
 ## Service areas
 
@@ -65,15 +86,15 @@
 | URL | Archetype | Priority | Primary keyword |
 | --- | --- | --- | --- |
 | `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration little falls |
+| `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation little falls |
 | `/services/roofing/` | `service-landing` | 9.0 | roofing installation and replacement little falls |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration little falls |
-| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration little falls |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup little falls |
-| `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting little falls |
-| `/service-areas/albany-mn/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration albany |
-| `/service-areas/albany-mn/roofing/` | `service-area-service` | 7.0 | roofing installation and replacement albany |
-| `/service-areas/albany-mn/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration albany |
-| `/service-areas/avon-mn/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration avon |
+| `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration little falls |
+| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing little falls |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | 24/7 emergency water removal little falls |
+| `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration little falls |
+| `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services little falls |
+| `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization little falls |
 
 ## Validation
 

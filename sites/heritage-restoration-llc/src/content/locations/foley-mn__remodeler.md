@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Remodeler in Foley, MN | Heritage Restoration LLC"
+h1: "Remodeler in Foley"
+meta_description: "Remodeler in Foley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+primary_keyword: "remodeler foley"
+secondary_keywords: []
+search_intent: "local_specialty"
+priority: 3.5
+plan_hash: "af99974fe76aa296"
+generated_at: "2026-09-29T23:13:48.866829+00:00"
+manual_override: false
+internal_links: ["/services/remodeler/", "/service-areas/foley-mn/", "/service-areas/foley-mn/fire-damage-restoration/", "/service-areas/foley-mn/mold-remediation/", "/service-areas/albany-mn/remodeler/", "/service-areas/avon-mn/remodeler/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Foley", "url": "/service-areas/foley-mn/"}, {"name": "Remodeler"}]
+faq: []
+area_slug: "foley-mn"
+service_slug: "remodeler"
+city: "Foley"
+state: "MN"
+service_display: "Remodeler"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug heritage-restoration-llc` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Remodeler in Foley.

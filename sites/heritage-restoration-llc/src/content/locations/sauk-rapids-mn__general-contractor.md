@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "General Contractor in Sauk Rapids, MN | Heritage Restoration LLC"
+h1: "General Contractor in Sauk Rapids"
+meta_description: "General contractor in Sauk Rapids, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868."
+primary_keyword: "general contractor sauk rapids"
+secondary_keywords: []
+search_intent: "local_specialty"
+priority: 3.5
+plan_hash: "9919220977ae26ec"
+generated_at: "2026-09-29T23:13:48.854757+00:00"
+manual_override: false
+internal_links: ["/services/general-contractor/", "/service-areas/sauk-rapids-mn/", "/service-areas/sauk-rapids-mn/fire-damage-restoration/", "/service-areas/sauk-rapids-mn/mold-remediation/", "/service-areas/albany-mn/general-contractor/", "/service-areas/avon-mn/general-contractor/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sauk Rapids", "url": "/service-areas/sauk-rapids-mn/"}, {"name": "General Contractor"}]
+faq: []
+area_slug: "sauk-rapids-mn"
+service_slug: "general-contractor"
+city: "Sauk Rapids"
+state: "MN"
+service_display: "General Contractor"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug heritage-restoration-llc` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for General Contractor in Sauk Rapids.
