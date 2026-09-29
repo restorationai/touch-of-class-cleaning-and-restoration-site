@@ -4,6 +4,7 @@ import { brand } from "~/lib/brand";
 import Analytics from "~/components/Analytics.astro";
 import Header from "~/components/Header.astro";
 import Footer from "~/components/Footer.astro";
+import DniSwap from "~/components/DniSwap.astro";
 import Schema from "~/components/Schema.astro";
 import Breadcrumb from "~/components/Breadcrumb.astro";
 import { Phone } from "@lucide/astro";
@@ -174,5 +175,6 @@ const ctx: PageSchemaContext = {
       <Phone size={18} strokeWidth={3} />
       Call Now: {brand.phone}
     </a>
+    <DniSwap />
   </body>
 </html>
