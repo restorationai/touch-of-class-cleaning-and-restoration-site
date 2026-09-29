@@ -1,21 +1,21 @@
 # Site Plan Report — RT Olson Plumbing, Heating and Air Conditioning
 
 - Template: `plumbing` v0.1.0
-- Generated: 2026-09-20T17:30:07.475793+00:00
+- Generated: 2026-09-29T23:13:07.678225+00:00
 - Domain: `rtolsonplumbing.com`
-- Services selected: 12 of 22 catalog entries
+- Services selected: 24 of 34 catalog entries
 - Service areas: 41
 - Cross-product enabled: True
-- Total URLs: **549**
-- Total internal links: 4367 (avg 8.0 per page)
+- Total URLs: **1041**
+- Total internal links: 8399 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 480 |
+| `service-area-service` | 960 |
 | `service-area` | 40 |
-| `service-landing` | 12 |
+| `service-landing` | 24 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -39,6 +39,18 @@
 - `furnace-repair` — Furnace Repair (core, priority 9)
 - `indoor-air-quality` — Indoor Air Quality Services (specialty, priority 6)
 - `repiping` — Whole-House Repiping (specialty, priority 7)
+- `air-duct-cleaning-service` — Air Duct Cleaning Service (adjacent, priority 5)
+- `all-plumbing-services` — All Plumbing Services (adjacent, priority 5)
+- `attic-insulation` — Attic Insulation (adjacent, priority 5)
+- `camera-inspections-of-drain-and-sewer-line` — Camera Inspections of Drain and Sewer Line (adjacent, priority 5)
+- `common-plumbing-emergencies` — Common Plumbing Emergencies (adjacent, priority 5)
+- `drain-sewer-repairs` — Drain & Sewer Repairs (adjacent, priority 5)
+- `gas-line-inspections` — Gas Line Inspections (adjacent, priority 5)
+- `instant-hot-water-system` — Instant Hot Water System (adjacent, priority 5)
+- `kitchen-bathroom-remodeling` — Kitchen & Bathroom Remodeling (adjacent, priority 5)
+- `reverse-osmosis` — Reverse Osmosis (adjacent, priority 5)
+- `sewer-camera-inspection` — Sewer Camera Inspection (adjacent, priority 5)
+- `slab-leak-and-pipe-repair` — Slab Leak and Pipe Repair (adjacent, priority 5)
 
 ## Service areas
 

@@ -10,10 +10,10 @@
   "plan": {
     "template": "plumbing",
     "template_version": "0.1.0",
-    "url_count": 549,
-    "generated_at": "2026-09-20T17:30:07.476221+00:00"
+    "url_count": 1041,
+    "generated_at": "2026-09-29T23:13:07.678917+00:00"
   },
-  "updated_at": "2026-09-29T22:49:50.563578+00:00",
+  "updated_at": "2026-09-29T23:13:07.678920+00:00",
   "indexnow_key": "86c3afe660ff4fa0a7fce519ce3c93ec",
   "build": {
     "scaffolded_at": "2026-09-03T03:02:00.367952+00:00",

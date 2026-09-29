@@ -36,7 +36,19 @@
     "ac-repair",
     "furnace-repair",
     "indoor-air-quality",
-    "repiping"
+    "repiping",
+    "air-duct-cleaning-service",
+    "all-plumbing-services",
+    "attic-insulation",
+    "camera-inspections-of-drain-and-sewer-line",
+    "common-plumbing-emergencies",
+    "drain-sewer-repairs",
+    "gas-line-inspections",
+    "instant-hot-water-system",
+    "kitchen-bathroom-remodeling",
+    "reverse-osmosis",
+    "sewer-camera-inspection",
+    "slab-leak-and-pipe-repair"
   ],
   "service_areas": [
     {

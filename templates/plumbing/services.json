@@ -337,6 +337,114 @@
       ],
       "tier": "specialty",
       "priority": 6
+    },
+    {
+      "slug": "air-duct-cleaning-service",
+      "display_name": "Air Duct Cleaning Service",
+      "short_name": "Air Duct Cleaning",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [],
+      "tier": "adjacent",
+      "priority": 5
+    },
+    {
+      "slug": "all-plumbing-services",
+      "display_name": "All Plumbing Services",
+      "short_name": "All Plumbing Services",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [],
+      "tier": "adjacent",
+      "priority": 5
+    },
+    {
+      "slug": "attic-insulation",
+      "display_name": "Attic Insulation",
+      "short_name": "Attic Insulation",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [],
+      "tier": "adjacent",
+      "priority": 5
+    },
+    {
+      "slug": "camera-inspections-of-drain-and-sewer-line",
+      "display_name": "Camera Inspections of Drain and Sewer Line",
+      "short_name": "Camera Inspections of",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [],
+      "tier": "adjacent",
+      "priority": 5
+    },
+    {
+      "slug": "common-plumbing-emergencies",
+      "display_name": "Common Plumbing Emergencies",
+      "short_name": "Common Plumbing Emergencies",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [],
+      "tier": "adjacent",
+      "priority": 5
+    },
+    {
+      "slug": "drain-sewer-repairs",
+      "display_name": "Drain & Sewer Repairs",
+      "short_name": "Drain & Sewer",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [],
+      "tier": "adjacent",
+      "priority": 5
+    },
+    {
+      "slug": "gas-line-inspections",
+      "display_name": "Gas Line Inspections",
+      "short_name": "Gas Line Inspections",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [],
+      "tier": "adjacent",
+      "priority": 5
+    },
+    {
+      "slug": "instant-hot-water-system",
+      "display_name": "Instant Hot Water System",
+      "short_name": "Instant Hot Water",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [],
+      "tier": "adjacent",
+      "priority": 5
+    },
+    {
+      "slug": "kitchen-bathroom-remodeling",
+      "display_name": "Kitchen & Bathroom Remodeling",
+      "short_name": "Kitchen & Bathroom",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [],
+      "tier": "adjacent",
+      "priority": 5
+    },
+    {
+      "slug": "reverse-osmosis",
+      "display_name": "Reverse Osmosis",
+      "short_name": "Reverse Osmosis",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [],
+      "tier": "adjacent",
+      "priority": 5
+    },
+    {
+      "slug": "sewer-camera-inspection",
+      "display_name": "Sewer Camera Inspection",
+      "short_name": "Sewer Camera Inspection",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [],
+      "tier": "adjacent",
+      "priority": 5
+    },
+    {
+      "slug": "slab-leak-and-pipe-repair",
+      "display_name": "Slab Leak and Pipe Repair",
+      "short_name": "Slab Leak and",
+      "primary_intent": "local_specialty",
+      "secondary_keywords": [],
+      "tier": "adjacent",
+      "priority": 5
     }
   ]
 }
