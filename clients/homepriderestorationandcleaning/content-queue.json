@@ -838,10 +838,10 @@
     },
     {
       "id": "2026-08-27-hail-damage-roof-signs-utah",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-08-27T03:05:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-29T22:39:25Z",
+      "post_url": "https://homepriderestorationandcleaning.com/blog/hail-damage-roof-signs-utah/",
       "primary_keyword": "hail damage roof",
       "intent": "informational",
       "volume": 5400,
