@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+flooded basement clean up,transactional,1600,1,46.83,2,basement flooding cleanup,,,no
+basement flooding repair,transactional,720,7,59.82,2,basement flooding cleanup,,,no
+water removal basement,transactional,480,0,62.42,2,basement flooding cleanup,,,no
+water clean up service near me,transactional,260,8,45.32,2,basement flooding cleanup,,,no
+basement flooding cleanup,transactional,170,16,49.31,2,basement flooding cleanup,,,no
+basement water removal near me,transactional,170,10,51.94,2,basement flooding cleanup,,,no
+flooded basement cleanup companies near me,transactional,170,0,31.27,2,basement flooding cleanup,,,no
+basement flooding clean up service,transactional,170,0,47.44,2,basement flooding cleanup,,,no
+basement flooding restoration,transactional,110,0,42.59,2,basement flooding cleanup,,,no
+basement flooding services,transactional,110,7,48.14,2,basement flooding cleanup,,,no
+basement flood water removal,transactional,90,11,90.48,2,basement flooding cleanup,,,no
+emergency basement flooding,transactional,90,1,121.36,2,basement flooding cleanup,,,no
+emergency basement flooding services,transactional,70,0,88.13,2,basement flooding cleanup,,,no
+basement flooding remediation,transactional,70,0,53.33,2,basement flooding cleanup,,,no
+basement flooding cleanup company,transactional,70,0,32.36,2,basement flooding cleanup,,,no
+basement flooding help,transactional,70,5,108.22,2,basement flooding cleanup,,,no
+basement restoration companies near me,transactional,50,2,81.88,2,basement flooding cleanup,,,no
+basement flooded who to call,commercial,260,0,56.19,2,basement flooding cleanup,,,no
+flooded basement cleanup cost,commercial,210,0,31.07,2,basement flooding cleanup,,,no
+basement water removal cost,commercial,70,0,73.7,2,basement flooding cleanup,,,no
+basement flooding repair cost,commercial,70,0,81.78,2,basement flooding cleanup,,,no
+servpro basement cleaning cost,commercial,50,3,11.73,2,basement flooding cleanup,,,no
+flooded basement,informational,5400,10,59.93,2,basement flooding cleanup,,,no
+basement flooding what to do,informational,1000,8,55.81,2,basement flooding cleanup,,,no
+does renters insurance cover basement flooding,informational,720,12,,2,basement flooding cleanup,,,no
+what to do if your basement is flooding,informational,480,4,37.6,2,basement flooding cleanup,,,no
+how to clean basement flooding,informational,480,10,33.16,2,basement flooding cleanup,,,no
+basement flooding insurance,informational,480,3,62.78,2,basement flooding cleanup,,,no
+does homeowners insurance cover basement flooding,informational,390,0,5.9,2,basement flooding cleanup,,,no
+what to do when your basement floods from rain,informational,210,5,38.01,2,basement flooding cleanup,,,no
+basement flooding causes,informational,210,9,18.31,2,basement flooding cleanup,,,no
+my basement flooded what will insurance cover,informational,170,3,17.76,2,basement flooding cleanup,,,no
+basement flood clean up by yourself,informational,170,7,16.9,2,basement flooding cleanup,,,no
+why is my basement flooding,informational,170,10,38.44,2,basement flooding cleanup,,,no
+water heater flooding basement,informational,170,0,69.46,2,basement flooding cleanup,,,no
+basement flooding sump pump not working,informational,110,1,30.96,2,basement flooding cleanup,,,no
+does insurance cover basement flooding from rain,informational,110,1,22.76,2,basement flooding cleanup,,,no
+how to dry out a basement fast,informational,90,0,3.87,2,basement flooding cleanup,,,no
+how to get water out of basement without sump pump,informational,70,0,11.87,2,basement flooding cleanup,,,no
+what to do if your basement floods with sewage,informational,20,3,35.1,2,basement flooding cleanup,,,no

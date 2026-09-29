@@ -1,0 +1,800 @@
+{
+ "slug": "dry1-out-restoration-and-construction",
+ "keywords": [
+  {
+   "keyword": "water damage restoration",
+   "seed": "water damage restoration",
+   "intent": "transactional",
+   "volume": 135000,
+   "kd": 20,
+   "cpc": 48.57,
+   "priority": 2,
+   "would_be_priority": 1,
+   "blocked_reason": "transactional service or city x service term; the planned site will carry a commercial page for it, but plan/url-plan.json does not exist yet so Step 5 coverage cannot be verified. Held at priority 2 so the writer does not queue a blog post that cannibalizes the future service page.",
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": null,
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "dataforseo_labs_google_keyword_suggestions",
+   "service_tags": [
+    "water-damage-restoration"
+   ]
+  },
+  {
+   "keyword": "water damage restoration company",
+   "seed": "water damage restoration",
+   "intent": "transactional",
+   "volume": 110000,
+   "kd": 25,
+   "cpc": 54.87,
+   "priority": 2,
+   "would_be_priority": 1,
+   "blocked_reason": "transactional service or city x service term; the planned site will carry a commercial page for it, but plan/url-plan.json does not exist yet so Step 5 coverage cannot be verified. Held at priority 2 so the writer does not queue a blog post that cannibalizes the future service page.",
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": null,
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "dataforseo_labs_google_keyword_suggestions",
+   "service_tags": [
+    "water-damage-restoration"
+   ]
+  },
+  {
+   "keyword": "water damage repair",
+   "seed": "water damage restoration",
+   "intent": "transactional",
+   "volume": 9900,
+   "kd": 38,
+   "cpc": 44.4,
+   "priority": 2,
+   "would_be_priority": 1,
+   "blocked_reason": "transactional service or city x service term; the planned site will carry a commercial page for it, but plan/url-plan.json does not exist yet so Step 5 coverage cannot be verified. Held at priority 2 so the writer does not queue a blog post that cannibalizes the future service page.",
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": null,
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "dataforseo_labs_google_keyword_suggestions",
+   "service_tags": [
+    "water-damage-restoration",
+    "general-contracting"
+   ]
+  },
+  {
+   "keyword": "emergency water damage restoration",
+   "seed": "water damage restoration",
+   "intent": "transactional",
+   "volume": 2900,
+   "kd": 19,
+   "cpc": 59.12,
+   "priority": 2,
+   "would_be_priority": 1,
+   "blocked_reason": "transactional service or city x service term; the planned site will carry a commercial page for it, but plan/url-plan.json does not exist yet so Step 5 coverage cannot be verified. Held at priority 2 so the writer does not queue a blog post that cannibalizes the future service page.",
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": null,
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "dataforseo_labs_google_keyword_suggestions",
+   "service_tags": [
+    "water-damage-restoration"
+   ]
+  },
+  {
+   "keyword": "water damage cleanup",
+   "seed": "water damage restoration",
+   "intent": "transactional",
+   "volume": 2900,
+   "kd": 31,
+   "cpc": 58.35,
+   "priority": 2,
+   "would_be_priority": 1,
+   "blocked_reason": "transactional service or city x service term; the planned site will carry a commercial page for it, but plan/url-plan.json does not exist yet so Step 5 coverage cannot be verified. Held at priority 2 so the writer does not queue a blog post that cannibalizes the future service page.",
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": null,
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "dataforseo_labs_google_keyword_suggestions",
+   "service_tags": [
+    "water-cleanup"
+   ]
+  },
+  {
+   "keyword": "ceiling water damage repair",
+   "seed": "water damage restoration",
+   "intent": "transactional",
+   "volume": 1900,
+   "kd": 0,
+   "cpc": 31.06,
+   "priority": 2,
+   "would_be_priority": 1,
+   "blocked_reason": "transactional service or city x service term; the planned site will carry a commercial page for it, but plan/url-plan.json does not exist yet so Step 5 coverage cannot be verified. Held at priority 2 so the writer does not queue a blog post that cannibalizes the future service page.",
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": null,
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "dataforseo_labs_google_keyword_suggestions",
+   "service_tags": [
+    "water-damage-restoration",
+    "general-contracting"
+   ],
+   "needs_kd_verification": true,
+   "kd_note": "bulk_keyword_difficulty returned 0, which may be the no-data sentinel rather than an open SERP",
+   "clustered_into": "2026-09-29-how-to-fix-water-damage-on-ceiling"
+  },
+  {
+   "keyword": "residential water damage restoration",
+   "seed": "water damage restoration",
+   "intent": "transactional",
+   "volume": 320,
+   "kd": 32,
+   "cpc": 57.42,
+   "priority": 2,
+   "would_be_priority": 1,
+   "blocked_reason": "transactional service or city x service term; the planned site will carry a commercial page for it, but plan/url-plan.json does not exist yet so Step 5 coverage cannot be verified. Held at priority 2 so the writer does not queue a blog post that cannibalizes the future service page.",
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": null,
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "dataforseo_labs_google_related_keywords",
+   "service_tags": [
+    "water-damage-restoration"
+   ]
+  },
+  {
+   "keyword": "water damage restoration cost",
+   "seed": "water damage restoration",
+   "intent": "commercial",
+   "volume": 720,
+   "kd": 0,
+   "cpc": 43.02,
+   "priority": 1,
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": null,
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "dataforseo_labs_google_related_keywords",
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "needs_kd_verification": true,
+   "kd_note": "bulk_keyword_difficulty returned 0, which may be the no-data sentinel rather than an open SERP",
+   "queued_as": "2026-09-29-water-damage-restoration-cost-san-diego"
+  },
+  {
+   "keyword": "best water damage restoration near me",
+   "seed": "water damage restoration",
+   "intent": "commercial",
+   "volume": 320,
+   "kd": 33,
+   "cpc": 40.97,
+   "priority": 2,
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": null,
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "dataforseo_labs_google_related_keywords",
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "note": "Overlaps queue item 2026-09-29-best-water-damage-restoration-in-vista-ca (best-of-seeder); held at 2 to avoid a second best-of post."
+  },
+  {
+   "keyword": "water damage restoration cost per square foot",
+   "seed": "water damage restoration",
+   "intent": "commercial",
+   "volume": 70,
+   "kd": 0,
+   "cpc": 56.88,
+   "priority": 1,
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": null,
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "dataforseo_labs_google_related_keywords",
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "needs_kd_verification": true,
+   "kd_note": "bulk_keyword_difficulty returned 0, which may be the no-data sentinel rather than an open SERP",
+   "clustered_into": "2026-09-29-water-damage-restoration-cost-san-diego"
+  },
+  {
+   "keyword": "water damage house repair costs",
+   "seed": "water damage restoration",
+   "intent": "commercial",
+   "volume": 70,
+   "kd": 5,
+   "cpc": 38.97,
+   "priority": 1,
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": null,
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "dataforseo_labs_google_related_keywords",
+   "service_tags": [
+    "water-damage-restoration",
+    "general-contracting"
+   ],
+   "clustered_into": "2026-09-29-water-damage-restoration-cost-san-diego"
+  },
+  {
+   "keyword": "how much does water damage restoration cost",
+   "seed": "water damage restoration",
+   "intent": "commercial",
+   "volume": 40,
+   "kd": 6,
+   "cpc": null,
+   "priority": 2,
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": null,
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "keywords_data_google_ads_search_volume",
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "question_format": true,
+   "clustered_into": "2026-09-29-water-damage-restoration-cost-san-diego"
+  },
+  {
+   "keyword": "does homeowners insurance cover water damage",
+   "seed": "water damage restoration",
+   "intent": "informational",
+   "volume": 1900,
+   "kd": 16,
+   "cpc": 25.58,
+   "priority": 1,
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": null,
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "dataforseo_labs_google_keyword_suggestions",
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "question_format": true,
+   "queued_as": "2026-09-29-does-homeowners-insurance-cover-water-damage"
+  },
+  {
+   "keyword": "water damage to hardwood floors",
+   "seed": "water damage restoration",
+   "intent": "informational",
+   "volume": 1600,
+   "kd": 0,
+   "cpc": 23.17,
+   "priority": 1,
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": null,
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "dataforseo_labs_google_keyword_suggestions",
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "needs_kd_verification": true,
+   "kd_note": "bulk_keyword_difficulty returned 0, which may be the no-data sentinel rather than an open SERP",
+   "queued_as": "2026-09-29-water-damage-to-hardwood-floors"
+  },
+  {
+   "keyword": "how to fix water damage on ceiling",
+   "seed": "water damage restoration",
+   "intent": "informational",
+   "volume": 1000,
+   "kd": 0,
+   "cpc": 2.96,
+   "priority": 1,
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": null,
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "keywords_data_google_ads_search_volume",
+   "service_tags": [
+    "water-damage-restoration",
+    "general-contracting"
+   ],
+   "question_format": true,
+   "needs_kd_verification": true,
+   "kd_note": "bulk_keyword_difficulty returned 0, which may be the no-data sentinel rather than an open SERP",
+   "queued_as": "2026-09-29-how-to-fix-water-damage-on-ceiling"
+  },
+  {
+   "keyword": "category 3 water damage",
+   "seed": "water damage restoration",
+   "intent": "informational",
+   "volume": 390,
+   "kd": 0,
+   "cpc": 58.79,
+   "priority": 1,
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": null,
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "keywords_data_google_ads_search_volume",
+   "service_tags": [
+    "water-damage-restoration",
+    "sewage-cleanup"
+   ],
+   "needs_kd_verification": true,
+   "kd_note": "bulk_keyword_difficulty returned 0, which may be the no-data sentinel rather than an open SERP",
+   "clustered_into": "2026-09-29-does-homeowners-insurance-cover-water-damage"
+  },
+  {
+   "keyword": "water damage restoration process",
+   "seed": "water damage restoration",
+   "intent": "informational",
+   "volume": 110,
+   "kd": 1,
+   "cpc": 88.27,
+   "priority": 1,
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": null,
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "keywords_data_google_ads_search_volume",
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "clustered_into": "2026-09-29-how-to-fix-water-damage-on-ceiling"
+  },
+  {
+   "keyword": "signs of water damage in walls",
+   "seed": "water damage restoration",
+   "intent": "informational",
+   "volume": 110,
+   "kd": 8,
+   "cpc": null,
+   "priority": 1,
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": null,
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "keywords_data_google_ads_search_volume",
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "clustered_into": "2026-09-29-how-to-fix-water-damage-on-ceiling"
+  },
+  {
+   "keyword": "how fast does mold grow after water damage",
+   "seed": "water damage restoration",
+   "intent": "informational",
+   "volume": 110,
+   "kd": 1,
+   "cpc": 5.02,
+   "priority": 1,
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": null,
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "chat_gpt_llm_scraper+keywords_data_google_ads_search_volume",
+   "service_tags": [
+    "water-damage-restoration",
+    "mold-remediation"
+   ],
+   "question_format": true,
+   "queued_as": "2026-09-29-how-fast-does-mold-grow-after-water-damage"
+  },
+  {
+   "keyword": "can water damage cause mold",
+   "seed": "water damage restoration",
+   "intent": "informational",
+   "volume": 90,
+   "kd": 7,
+   "cpc": 5.55,
+   "priority": 1,
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": null,
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "chat_gpt_llm_scraper+keywords_data_google_ads_search_volume",
+   "service_tags": [
+    "water-damage-restoration",
+    "mold-remediation"
+   ],
+   "question_format": true,
+   "clustered_into": "2026-09-29-how-fast-does-mold-grow-after-water-damage"
+  },
+  {
+   "keyword": "how long does water damage restoration take",
+   "seed": "water damage restoration",
+   "intent": "informational",
+   "volume": 50,
+   "kd": 0,
+   "cpc": 64.28,
+   "priority": 1,
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": null,
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "keywords_data_google_ads_search_volume",
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "question_format": true,
+   "needs_kd_verification": true,
+   "kd_note": "bulk_keyword_difficulty returned 0, which may be the no-data sentinel rather than an open SERP",
+   "clustered_into": "2026-09-29-water-damage-restoration-cost-san-diego"
+  },
+  {
+   "keyword": "what to do after water damage in your house",
+   "seed": "water damage restoration",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "cpc": null,
+   "priority": 2,
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": null,
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "chat_gpt_llm_scraper",
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "question_format": true,
+   "needs_kd_verification": true,
+   "kd_note": "bulk_keyword_difficulty returned null (no data)",
+   "volume_note": "Google Ads search_volume returned no data (unknown, not confirmed zero)",
+   "clustered_into": "2026-09-29-does-homeowners-insurance-cover-water-damage"
+  },
+  {
+   "keyword": "does insurance cover water damage from a leaking pipe",
+   "seed": "water damage restoration",
+   "intent": "informational",
+   "volume": null,
+   "kd": null,
+   "cpc": null,
+   "priority": 2,
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": null,
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "chat_gpt_llm_scraper",
+   "service_tags": [
+    "water-damage-restoration",
+    "burst-pipe-repair"
+   ],
+   "question_format": true,
+   "needs_kd_verification": true,
+   "kd_note": "bulk_keyword_difficulty returned null (no data)",
+   "volume_note": "Google Ads search_volume returned no data (unknown, not confirmed zero)",
+   "clustered_into": "2026-09-29-does-homeowners-insurance-cover-water-damage"
+  },
+  {
+   "keyword": "how long does it take to dry out water damage",
+   "seed": "water damage restoration",
+   "intent": "informational",
+   "volume": 10,
+   "kd": 0,
+   "cpc": null,
+   "priority": 2,
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": null,
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "chat_gpt_llm_scraper+keywords_data_google_ads_search_volume",
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "question_format": true,
+   "needs_kd_verification": true,
+   "kd_note": "bulk_keyword_difficulty returned 0, which may be the no-data sentinel rather than an open SERP",
+   "clustered_into": "2026-09-29-water-damage-to-hardwood-floors"
+  },
+  {
+   "keyword": "water damage restoration san diego",
+   "seed": "water damage restoration",
+   "intent": "transactional",
+   "volume": 1300,
+   "kd": 7,
+   "cpc": 20.57,
+   "priority": 2,
+   "would_be_priority": 1,
+   "blocked_reason": "transactional service or city x service term; the planned site will carry a commercial page for it, but plan/url-plan.json does not exist yet so Step 5 coverage cannot be verified. Held at priority 2 so the writer does not queue a blog post that cannibalizes the future service page.",
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": "San Diego",
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "geo_fanout+keywords_data_google_ads_search_volume",
+   "service_tags": [
+    "water-damage-restoration"
+   ]
+  },
+  {
+   "keyword": "water damage san diego",
+   "seed": "water damage restoration",
+   "intent": "transactional",
+   "volume": 590,
+   "kd": 8,
+   "cpc": 21.59,
+   "priority": 2,
+   "would_be_priority": 1,
+   "blocked_reason": "transactional service or city x service term; the planned site will carry a commercial page for it, but plan/url-plan.json does not exist yet so Step 5 coverage cannot be verified. Held at priority 2 so the writer does not queue a blog post that cannibalizes the future service page.",
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": "San Diego",
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "geo_fanout+keywords_data_google_ads_search_volume",
+   "service_tags": [
+    "water-damage-restoration"
+   ]
+  },
+  {
+   "keyword": "water damage repair san diego",
+   "seed": "water damage restoration",
+   "intent": "transactional",
+   "volume": 480,
+   "kd": 2,
+   "cpc": null,
+   "priority": 2,
+   "would_be_priority": 1,
+   "blocked_reason": "transactional service or city x service term; the planned site will carry a commercial page for it, but plan/url-plan.json does not exist yet so Step 5 coverage cannot be verified. Held at priority 2 so the writer does not queue a blog post that cannibalizes the future service page.",
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": "San Diego",
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "geo_fanout+keywords_data_google_ads_search_volume",
+   "service_tags": [
+    "water-damage-restoration"
+   ]
+  },
+  {
+   "keyword": "water damage restoration carlsbad",
+   "seed": "water damage restoration",
+   "intent": "transactional",
+   "volume": 110,
+   "kd": 0,
+   "cpc": 12.37,
+   "priority": 2,
+   "would_be_priority": 1,
+   "blocked_reason": "transactional service or city x service term; the planned site will carry a commercial page for it, but plan/url-plan.json does not exist yet so Step 5 coverage cannot be verified. Held at priority 2 so the writer does not queue a blog post that cannibalizes the future service page.",
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": "Carlsbad",
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "geo_fanout+keywords_data_google_ads_search_volume",
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "needs_kd_verification": true,
+   "kd_note": "bulk_keyword_difficulty returned 0, which may be the no-data sentinel rather than an open SERP"
+  },
+  {
+   "keyword": "water damage restoration san marcos",
+   "seed": "water damage restoration",
+   "intent": "transactional",
+   "volume": 70,
+   "kd": null,
+   "cpc": null,
+   "priority": 2,
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": "San Marcos",
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "geo_fanout+keywords_data_google_ads_search_volume",
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "needs_kd_verification": true,
+   "kd_note": "bulk_keyword_difficulty returned null (no data)"
+  },
+  {
+   "keyword": "water damage restoration vista",
+   "seed": "water damage restoration",
+   "intent": "transactional",
+   "volume": 50,
+   "kd": 0,
+   "cpc": null,
+   "priority": 2,
+   "would_be_priority": 1,
+   "blocked_reason": "transactional service or city x service term; the planned site will carry a commercial page for it, but plan/url-plan.json does not exist yet so Step 5 coverage cannot be verified. Held at priority 2 so the writer does not queue a blog post that cannibalizes the future service page.",
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": "Vista",
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "geo_fanout+keywords_data_google_ads_search_volume",
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "needs_kd_verification": true,
+   "kd_note": "bulk_keyword_difficulty returned 0, which may be the no-data sentinel rather than an open SERP"
+  },
+  {
+   "keyword": "water damage restoration oceanside",
+   "seed": "water damage restoration",
+   "intent": "transactional",
+   "volume": 40,
+   "kd": 0,
+   "cpc": 553.48,
+   "priority": 2,
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": "Oceanside",
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "geo_fanout+keywords_data_google_ads_search_volume",
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "needs_kd_verification": true,
+   "kd_note": "bulk_keyword_difficulty returned 0, which may be the no-data sentinel rather than an open SERP"
+  },
+  {
+   "keyword": "water damage restoration chula vista",
+   "seed": "water damage restoration",
+   "intent": "transactional",
+   "volume": 40,
+   "kd": 0,
+   "cpc": 0.18,
+   "priority": 2,
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": "Chula Vista",
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "geo_fanout+keywords_data_google_ads_search_volume",
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "needs_kd_verification": true,
+   "kd_note": "bulk_keyword_difficulty returned 0, which may be the no-data sentinel rather than an open SERP"
+  },
+  {
+   "keyword": "water damage restoration escondido",
+   "seed": "water damage restoration",
+   "intent": "transactional",
+   "volume": 20,
+   "kd": null,
+   "cpc": 506.42,
+   "priority": 2,
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": "Escondido",
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "geo_fanout+keywords_data_google_ads_search_volume",
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "needs_kd_verification": true,
+   "kd_note": "bulk_keyword_difficulty returned null (no data)"
+  },
+  {
+   "keyword": "water damage cleanup san diego",
+   "seed": "water damage restoration",
+   "intent": "transactional",
+   "volume": 20,
+   "kd": 7,
+   "cpc": null,
+   "priority": 2,
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": "San Diego",
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "geo_fanout+keywords_data_google_ads_search_volume",
+   "service_tags": [
+    "water-cleanup"
+   ]
+  },
+  {
+   "keyword": "water mitigation san diego",
+   "seed": "water damage restoration",
+   "intent": "transactional",
+   "volume": 20,
+   "kd": 62,
+   "cpc": null,
+   "priority": 3,
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": "San Diego",
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "geo_fanout+keywords_data_google_ads_search_volume",
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "note": "KD 62 from bulk_keyword_difficulty; parked."
+  },
+  {
+   "keyword": "water damage restoration vista ca",
+   "seed": "water damage restoration",
+   "intent": "transactional",
+   "volume": 10,
+   "kd": null,
+   "cpc": null,
+   "priority": 2,
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": "Vista",
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "geo_fanout+keywords_data_google_ads_search_volume",
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "needs_kd_verification": true,
+   "kd_note": "bulk_keyword_difficulty returned null (no data)"
+  },
+  {
+   "keyword": "emergency water damage restoration vista",
+   "seed": "water damage restoration",
+   "intent": "transactional",
+   "volume": null,
+   "kd": null,
+   "cpc": null,
+   "priority": 3,
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": "Vista",
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "geo_fanout",
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "needs_kd_verification": true,
+   "kd_note": "bulk_keyword_difficulty returned null (no data)",
+   "volume_note": "Google Ads search_volume returned no data (unknown, not confirmed zero)"
+  },
+  {
+   "keyword": "emergency water damage restoration san diego",
+   "seed": "water damage restoration",
+   "intent": "transactional",
+   "volume": null,
+   "kd": null,
+   "cpc": null,
+   "priority": 3,
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": "San Diego",
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "geo_fanout",
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "needs_kd_verification": true,
+   "kd_note": "bulk_keyword_difficulty returned null (no data)",
+   "volume_note": "Google Ads search_volume returned no data (unknown, not confirmed zero)"
+  },
+  {
+   "keyword": "water damage repair oceanside",
+   "seed": "water damage restoration",
+   "intent": "transactional",
+   "volume": 10,
+   "kd": null,
+   "cpc": null,
+   "priority": 2,
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": "Oceanside",
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "geo_fanout+keywords_data_google_ads_search_volume",
+   "service_tags": [
+    "water-damage-restoration"
+   ],
+   "needs_kd_verification": true,
+   "kd_note": "bulk_keyword_difficulty returned null (no data)"
+  },
+  {
+   "keyword": "water damage restoration hayward",
+   "seed": "water damage restoration",
+   "intent": "transactional",
+   "volume": 10,
+   "kd": null,
+   "cpc": null,
+   "priority": 2,
+   "fan_out_parent": "water damage restoration",
+   "city_modifier": "Hayward",
+   "covered_by": null,
+   "discovered": "2026-09-29",
+   "source": "geo_fanout+keywords_data_google_ads_search_volume",
+   "service_tags": [
+    "water-damage-restoration",
+    "general-contracting"
+   ],
+   "needs_kd_verification": true,
+   "kd_note": "bulk_keyword_difficulty returned null (no data)"
+  }
+ ],
+ "seeds_researched": [
+  {
+   "seed": "water damage restoration",
+   "last_researched": "2026-09-29"
+  }
+ ],
+ "last_updated": "2026-09-29",
+ "notes": "Run 1 (2026-09-29, seed 'water damage restoration'). clients/dry1-out-restoration-and-construction.json is status=onboarding (not active) with no plan_status, and plan/url-plan.json does not exist yet (site not built: sites/dry1-out-restoration-and-construction/ holds only a logo). plan-input.json DOES carry a confirmed truth table (9 services) and 20 service_areas from Cole's 2026-09-28 kickoff call, so service fit and geography were verifiable and informational/commercial topics were queued. Transactional service and city x service terms that score priority 1 are held at priority 2 with would_be_priority 1 until url-plan.json exists, because those belong on service and service-area pages, not blog posts. Wizard goals for CO-1766829460317 were read from Supabase and are empty (services, priority_areas, competitors all []), so seed order fell back to template order. No keyword-research.json exists, so the PPC money-keyword override did not run. Geo fan-out used Vista (primary) plus the North County SR-78 cluster (Oceanside, Escondido, San Marcos, Carlsbad) and San Diego, per the positioning note that Vista/San Diego is restoration-first. Most city-modified variants returned no measurable Google volume or KD; only San Diego terms clear 50/mo."
+}
