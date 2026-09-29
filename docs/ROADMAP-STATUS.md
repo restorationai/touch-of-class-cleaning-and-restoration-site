@@ -63,7 +63,7 @@ Details: docs/FOLLOW-THROUGH-SYSTEM.md.
 | Planner phone swap (real number primary during verification, DNI tracking primary 3 days after) | edge fn `gbp-planner` | `supabase secrets set GBP_PLANNER_PHONE_SWAP=1` |
 | Monica promise autosend | `scripts/promise_tracker.py` | set `PROMISES_MONICA_AUTOSEND=1` |
 | Dan (RestoPros) mold name reply | draft below | send via `monica_oneoff.py` |
-| GBP cover from site hero, every client | `scripts/gbp_cover_sync.py` (in build 09-29), preview gallery | set `GBP_COVER_SYNC_WRITE=1` after he approves the gallery |
+| GBP cover from site hero, every client | `scripts/gbp_cover_sync.py` (built 09-29, 77bacfd42, nightly in report mode), gallery https://claude.ai/artifact/K7YfDY1yQNGwqfAubMaSjM | set repo var `GBP_COVER_SYNC_WRITE=1` after he approves; per-client flags `--replace-owner-cover`, `--allow-ai-branding` |
 | Resend the September report to Home Pride / Dry County / Go Green / RT Olson / TDI | `client-reports.yml` | dispatch |
 | Frontline's new address (also the NAP-drift system error) | Santino to confirm the address | update GBP + site + citations |
 | PRNow test, Apple Podcasts card | | |
