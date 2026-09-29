@@ -69,7 +69,7 @@ Per-client brand colors take priority. The values below are substituted from `pl
 
 | Role | Source | Value for this client |
 |------|--------|----------------------|
-| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#187cab` | **#187cab** |
+| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#e11f2c` | **#e11f2c** |
 | Accent (emergency markings, CTAs that appear in promo shots) | `#f3663e` | **#f3663e** |
 | Logo color (if a worker's uniform back is visible) | derived from brand logo | match DRYCOR RESTORE's logo |
 | Skin / texture / restoration materials | natural and neutral | warm wood tones for housing stock, cool concrete grays, real surface textures |
@@ -98,7 +98,7 @@ Per-client brand colors take priority. The values below are substituted from `pl
 Every image that depicts a person must show a worker in branded company uniform. This is non-negotiable for visual consistency and trust signaling.
 
 ### Uniform specifications
-- **Top**: Polo or work shirt in the client's primary brand color (`#187cab`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
+- **Top**: Polo or work shirt in the client's primary brand color (`#e11f2c`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
 - **Bottom**: Neutral work pants (charcoal, dark navy, or khaki). Subordinate to the top.
 - **Branding**: DRYCOR RESTORE or DRYCOR RESTORE embroidered on chest or back. IICRC certification badge visible on sleeve or chest where it makes sense.
 - **PPE**: Match the service context (see service-specific notes below) — gloves always, respirators / face shields / Tyvek suits when the service warrants it.
@@ -185,7 +185,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Contents Restoration & Storage, Emergency Board-Up and Tarping, Emergency Plumbing, Fire Damage Restoration, Renovations, Remodels and General Contracting, Mold Remediation, Sewage Cleanup and Sanitization, Storm Damage Restoration, Emergency Water Cleanup, Water Damage Restoration)
+- [ ] (continue for each of Contents Restoration & Storage, Emergency Board-Up and Tarping, Emergency Plumbing, Fire Damage Restoration, Renovations, Remodels and General Contracting, Mold Remediation, Sewage Cleanup and Sanitization, Storm Damage Restoration, Emergency Water Cleanup, Water Damage Restoration, Basement Flooding Cleanup, Burst Pipe Cleanup and Repair, Ceiling Water Damage Repair, Commercial Restoration, 24/7 Emergency Water Removal, Flood Damage Restoration, Hurricane Damage Restoration, Industrial Restoration, Large Loss and Catastrophic Response, Mold Inspection and Testing, Reconstruction Services, Smoke Damage Restoration, Water Heater Flood Cleanup, Water Leak Detection)
 
 ### Service area pages (one image per city served)
 - [ ] Thonotosassa hero — exterior shot, regional housing stock, evocative of the city

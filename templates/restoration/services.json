@@ -1048,6 +1048,15 @@
    "secondary_keywords": [],
    "tier": "adjacent",
    "priority": 5
+  },
+  {
+   "slug": "hurricane-damage-restoration",
+   "display_name": "Hurricane Damage Restoration",
+   "short_name": "Hurricane Damage Restoration",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [],
+   "tier": "adjacent",
+   "priority": 5
   }
  ]
 }

@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Flood Damage Restoration in Dover, FL | DRYCOR RESTORE"
+h1: "Flood Damage Restoration in Dover"
+meta_description: "24/7 flood damage restoration in Dover, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
+primary_keyword: "flood damage restoration dover"
+secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
+search_intent: "local_emergency"
+priority: 6.3
+plan_hash: "7566c57a01eb9c94"
+generated_at: "2026-09-29T23:28:29.484630+00:00"
+manual_override: false
+internal_links: ["/services/flood-damage-restoration/", "/service-areas/dover-fl/", "/service-areas/dover-fl/fire-damage-restoration/", "/service-areas/dover-fl/mold-remediation/", "/service-areas/anna-maria-fl/flood-damage-restoration/", "/service-areas/apollo-beach-fl/flood-damage-restoration/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Dover", "url": "/service-areas/dover-fl/"}, {"name": "Flood Damage Restoration"}]
+faq: []
+area_slug: "dover-fl"
+service_slug: "flood-damage-restoration"
+city: "Dover"
+state: "FL"
+service_display: "Flood Damage Restoration"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug drycor-restore` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Flood Damage Restoration in Dover.

@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Industrial Restoration in Lutz, FL | DRYCOR RESTORE"
+h1: "Industrial Restoration in Lutz"
+meta_description: "24/7 industrial restoration in Lutz, FL. IICRC-certified, insurance billing accepted. Call (813) 829-1091."
+primary_keyword: "industrial restoration lutz"
+secondary_keywords: ["industrial water damage", "warehouse restoration", "manufacturing facility restoration", "industrial fire damage", "plant restoration services"]
+search_intent: "local_b2b"
+priority: 4.9
+plan_hash: "299533943777e7d0"
+generated_at: "2026-09-29T23:28:29.523735+00:00"
+manual_override: false
+internal_links: ["/services/industrial-restoration/", "/service-areas/lutz-fl/", "/service-areas/lutz-fl/fire-damage-restoration/", "/service-areas/lutz-fl/mold-remediation/", "/service-areas/anna-maria-fl/industrial-restoration/", "/service-areas/apollo-beach-fl/industrial-restoration/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lutz", "url": "/service-areas/lutz-fl/"}, {"name": "Industrial Restoration"}]
+faq: []
+area_slug: "lutz-fl"
+service_slug: "industrial-restoration"
+city: "Lutz"
+state: "FL"
+service_display: "Industrial Restoration"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug drycor-restore` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Industrial Restoration in Lutz.
