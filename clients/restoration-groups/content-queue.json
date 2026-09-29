@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-28-case-study-AbFvOqmEijiU2_Nl",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-28T22:31:03Z",
       "priority": 1,
       "prioritized": true,
@@ -18,7 +18,9 @@
         "review_text": "(Translated by Google) Excellent work. The staff were responsible, friendly, and above all, very clean. I was very satisfied and I recommend them 100%.\n\n(Original)\nExcelente trabajo.el personal responsables,amables y sobre todo muy limpios para trabajar .qued\u00e9 satisfecha y lo recomiendo al \ud83d\udcaf.",
         "review_date": "2026-09-10"
       },
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-29T22:47:14Z",
+      "post_url": "https://therestorationgroup.com/blog/.md/"
     },
     {
       "id": "2026-09-14-who-to-call-for-water-damage-restoration-in-kenilworth-nj",
