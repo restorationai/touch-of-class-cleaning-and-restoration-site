@@ -5,10 +5,10 @@
 // paragraph, and FAQPage + Service + LocalBusiness JSON-LD via the existing
 // Schema mechanism.
 //
-// CLAIMS HONESTY: the response-time wording must match what the client already
-// claims elsewhere (lp-manifest bodyContent / brand.ts). This canonical starter
-// makes NO minutes-based promise — if a client publishes one (e.g. narestco's
-// 60-minute claim), update `responseClaim` + the speed FAQ in that site's copy.
+// CLAIMS HONESTY: Home Pride publishes no specific minutes-based response
+// promise in lp-manifest.json bodyContent or brand.ts, so this page makes NO
+// minutes claim — rapid dispatch language only. If the client later commits to
+// a number, update `responseClaim` + the speed FAQ below.
 // 24/7 language is gated on brand.hours exactly like the Header.
 import { getCollection } from "astro:content";
 import BaseLayout from "~/layouts/BaseLayout.astro";
@@ -20,7 +20,8 @@ import { brand } from "~/lib/brand";
 import { Phone, MapPin } from "@lucide/astro";
 
 const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
-const shortLabel = brand.shortName || brand.displayName;
+// brand.shortName is the full business name for this client — use a readable label.
+const shortLabel = "Home Pride";
 
 // No invented minutes — this client has no published response-time number.
 const responseClaim = is247
@@ -73,7 +74,7 @@ const faq = [
 ---
 
 <BaseLayout
-  title={`${h1} | ${shortLabel}`}
+  title={h1}
   meta_description={metaDescription}
   schema_stubs={["local-business", "service", "faq", "breadcrumb-list"]}
   schema_ctx={{
