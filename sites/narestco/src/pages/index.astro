@@ -3,7 +3,6 @@ import { getEntry, getCollection, type CollectionEntry } from "astro:content";
 import BaseLayout from "~/layouts/BaseLayout.astro";
 import CtaBanner from "~/components/CtaBanner.astro";
 import FAQSection from "~/components/FAQSection.astro";
-import InternalLinks from "~/components/InternalLinks.astro";
 import Hero from "~/components/ui/Hero.astro";
 import FreeEstimateForm from "~/components/FreeEstimateForm.astro";
 import TrustStrip from "~/components/ui/TrustStrip.astro";
@@ -12,12 +11,11 @@ import ReviewsStrip from "~/components/ui/ReviewsStrip.astro";
 import AboutSection from "~/components/ui/AboutSection.astro";
 import ServicesStrip from "~/components/ui/ServicesStrip.astro";
 import ProcessSection from "~/components/ui/ProcessSection.astro";
-import BeforeAfterSection from "~/components/ui/BeforeAfterSection.astro";
+import GallerySection from "~/components/ui/GallerySection.astro";
 import RecentWork from "~/components/RecentWork.astro";
 import ProudlyServing from "~/components/ui/ProudlyServing.astro";
 import ReviewsSection from "~/components/ui/ReviewsSection.astro";
 import { brand } from "~/lib/brand";
-import { workPairs } from "~/data/work";
 
 const entry = await getEntry("pages", "home");
 if (!entry) throw new Error("Missing content: pages/home.md — has Skill 3 rendered yet?");
@@ -26,11 +24,19 @@ const data = entry.data;
 
 const heroImage = data.hero || `${brand.imagesBase}/brand/hero.webp`;
 
-// Pull top 6 services by priority for the home page strip
+// Pull the top 6 services as requested by the client for the home page strip
+const targetSlugs = [
+  "water-damage-restoration",
+  "fire-damage-restoration",
+  "mold-remediation",
+  "biohazard-cleanup",
+  "storm-damage-restoration",
+  "general-contracting"
+];
 const allServices = await getCollection("services");
-const services = (allServices as CollectionEntry<"services">[])
-  .sort((a, b) => (b.data.priority || 0) - (a.data.priority || 0))
-  .slice(0, 6);
+const services = targetSlugs
+  .map(slug => allServices.find(s => s.data.service_slug === slug || s.id.includes(slug)))
+  .filter(s => s !== undefined) as CollectionEntry<"services">[];
 ---
 
 <BaseLayout
@@ -74,7 +80,8 @@ const services = (allServices as CollectionEntry<"services">[])
 
   <ProcessSection />
 
-  <BeforeAfterSection pairs={workPairs} />
+  {/* NaRestCo's own job-photo gallery (pre-sweep homepage); RecentWork kept. */}
+  <GallerySection />
 
   <RecentWork />
 
@@ -91,6 +98,4 @@ const services = (allServices as CollectionEntry<"services">[])
       <Content />
     </div>
   </section>
-
-  <InternalLinks paths={data.internal_links} heading="Where to Next" />
 </BaseLayout>

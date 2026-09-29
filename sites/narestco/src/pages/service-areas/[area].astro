@@ -6,8 +6,8 @@ import FAQSection from "~/components/FAQSection.astro";
 import CaseStudies from "~/components/CaseStudies.astro";
 import InternalLinks from "~/components/InternalLinks.astro";
 import GoogleMap from "~/components/GoogleMap.astro";
+import Hero from "~/components/ui/Hero.astro";
 import { brand } from "~/lib/brand";
-import { is247 } from "~/lib/dispatch";
 
 export async function getStaticPaths() {
   const areas = await getCollection("serviceAreas");
@@ -46,27 +46,10 @@ const otherLocs = locations.filter((l) => l !== primaryLoc);
   breadcrumb={data.breadcrumb}
   faq={data.faq}
 >
-  <!-- HERO -->
-  <section class="relative min-h-[500px] flex items-center overflow-hidden bg-navy border-b border-white/10">
-    <div class="absolute inset-0 z-0">
-      <img src={heroImage} alt={data.h1} class="w-full h-full object-cover" loading="eager" />
-      <div class="absolute inset-0 bg-gradient-to-r from-navy via-navy/85 to-navy/30"></div>
-    </div>
-    <div class="container-wide relative z-10 py-20">
-      <div class="max-w-2xl">
-        <div class="eyebrow">Service Area</div>
-        <h1 class="mb-6">{data.h1}</h1>
-        <p class="text-lg text-white/85 mb-8 leading-relaxed">{data.meta_description}</p>
-        <div class="flex flex-col sm:flex-row gap-4">
-          <a href={`tel:${brand.phoneRaw}`} class="btn-accent">📞 Call {brand.phone}</a>
-          <a href="/contact/" class="btn-outline">Get a Free Estimate</a>
-        </div>
-      </div>
-    </div>
-  </section>
+  <Hero title={data.h1} subtitle={data.meta_description} ctaText={`📞 Call ${brand.phone}`} ctaLink={`tel:${brand.phoneRaw}`} />
 
   <!-- BODY -->
-  <section class="section-first bg-navy">
+  <section class="section-first bg-dark">
     <div class="container-wide">
       <div class="prose-body">
         <Content />
@@ -78,7 +61,7 @@ const otherLocs = locations.filter((l) => l !== primaryLoc);
 
   <!-- Services in this area -->
   {locations.length > 0 && (
-    <section class="section bg-navy">
+    <section class="section bg-dark">
       <div class="container-wide">
         <div class="text-center mb-12">
           <div class="eyebrow">{data.city}, {data.state}</div>
@@ -87,7 +70,7 @@ const otherLocs = locations.filter((l) => l !== primaryLoc);
         {primaryLoc && (
           <a
             href={`/service-areas/${primaryLoc.data.area_slug}/${primaryLoc.data.service_slug}/`}
-            class="group block max-w-3xl mx-auto mb-10 p-8 rounded-lg border-2 border-accent/60 bg-white/5 hover:bg-white/10 hover:border-accent transition-all no-underline text-center"
+            class="group block max-w-3xl mx-auto mb-10 p-8 rounded-lg border-2 border-accent/60 bg-white/5 hover:bg-white/10 hover:border-accent transition-all no-underline text-center shadow-lg hover:shadow-primary-900/20 hover:-translate-y-1"
           >
             <div class="eyebrow">Most Requested</div>
             <div class="text-2xl md:text-3xl font-black text-white mb-3">
@@ -101,10 +84,10 @@ const otherLocs = locations.filter((l) => l !== primaryLoc);
         )}
         <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {otherLocs.map((l) => (
-            <a href={`/service-areas/${l.data.area_slug}/${l.data.service_slug}/`} class="group block p-6 rounded-lg border border-white/10 bg-white/5 hover:bg-white/10 hover:border-primary/40 transition-all no-underline">
+            <a href={`/service-areas/${l.data.area_slug}/${l.data.service_slug}/`} class="group block p-6 rounded-lg border border-white/10 bg-white/5 hover:bg-white/10 hover:border-primary-500 transition-all no-underline shadow-lg hover:shadow-primary-900/20 hover:-translate-y-1">
               <div class="text-lg font-bold text-white mb-2">{l.data.service_display}</div>
               <p class="text-sm text-white/65 mb-4">{l.data.meta_description.slice(0, 100)}…</p>
-              <span class="text-xs font-black uppercase tracking-widest text-primary-200 group-hover:text-white transition-colors">
+              <span class="text-xs font-black uppercase tracking-widest text-primary-400 group-hover:text-primary-300 transition-colors">
                 {l.data.service_display} in {l.data.city}, {l.data.state} →
               </span>
             </a>
@@ -117,12 +100,7 @@ const otherLocs = locations.filter((l) => l !== primaryLoc);
   <CaseStudies areaSlug={data.area_slug} city={data.city} state={data.state} />
   <FAQSection faq={data.faq} eyebrow={`${data.city}, ${data.state}`} />
 
-  <CtaBanner
-    heading={is247 ? `Restoration emergency in ${data.city}?` : `Planning a project in ${data.city}?`}
-    subheading={is247
-      ? `Our team is based nearby. Call now for fast response.`
-      : `Our ${brand.primaryCity} team serves ${data.city}. Call for a free estimate.`}
-  />
+  <CtaBanner heading={`Restoration emergency in ${data.city}?`} subheading={`Our team is based nearby. Call now for fast response.`} />
 
   <InternalLinks paths={data.internal_links} heading="More Service Areas" eyebrow="Nearby Coverage" />
 </BaseLayout>
