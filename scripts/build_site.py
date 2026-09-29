@@ -2601,6 +2601,35 @@ def _rehydrate_domain(slug: str, site_dir: Path, mono: Path) -> None:
               + ", ".join(changed))
 
 
+def _catch_up_site(slug: str, mono: Path) -> None:
+    """Die unless this checkout holds every origin/main commit that touched
+    sites/{slug}. Rebases onto origin/main when behind (autostash keeps local
+    WIP). No origin (a detached scratch copy) = warn and continue."""
+    try:
+        git(["fetch", "-q", "origin", "main"], mono)
+    except RuntimeError as e:
+        print(f"      (stale-checkout guard skipped: fetch failed: {str(e)[:120]})")
+        return
+    behind = git(["rev-list", "HEAD..origin/main", "--", f"sites/{slug}"], mono).strip()
+    if not behind:
+        return
+    n = len(behind.splitlines())
+    print(f"      checkout is {n} site commit(s) behind origin/main for {slug}; "
+          "rebasing before deploy")
+    try:
+        git(["pull", "-q", "--rebase", "--autostash", "origin", "main"], mono)
+    except RuntimeError as e:
+        try:
+            git(["rebase", "--abort"], mono)
+        except RuntimeError:
+            pass
+        die(f"REFUSING to deploy {slug}: this checkout is {n} commit(s) behind "
+            f"origin/main for sites/{slug} and could not catch up ({str(e)[:160]}). "
+            "Deploying would roll back newer site work.")
+    if git(["rev-list", "HEAD..origin/main", "--", f"sites/{slug}"], mono).strip():
+        die(f"REFUSING to deploy {slug}: still behind origin/main after rebase.")
+
+
 def cmd_sync_deploy(args) -> int:
     slug = args.slug
     branch = args.branch
@@ -2663,6 +2692,15 @@ def cmd_sync_deploy(args) -> int:
     print(f"[2/4] Configuring remote {remote_name!r} on monorepo...")
     _ensure_remote(remote_name, remote_url, mono)
     print(f"      Remote set.")
+
+    # STALE-CHECKOUT GUARD (2026-09-29, All Pro / Angie): a 3.5h
+    # gbp-maintenance run checked out main at 17:25Z, and at 20:59Z its
+    # sync-deploy force-pushed that OLD sites/all-pro-plumbing over the dev
+    # agent's 20:27Z East Niles removal. The client had just been told it
+    # was done. A force-push publishes whatever this checkout holds, so it
+    # must never be behind origin/main for this site: catch up first, and
+    # if that fails, refuse rather than roll newer work back.
+    _catch_up_site(slug, mono)
 
     # Step 4: Subtree split — create a synthetic branch containing only sites/{slug}/'s history
     temp_branch = f"_sync-deploy-{slug}-{branch}"
