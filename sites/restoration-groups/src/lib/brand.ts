@@ -89,7 +89,7 @@ export const brand = {
   tradeNoun: "restoration",
   specialistPhrase: "Damage Restoration Specialists",
   announcementSuffix: "24/7 Emergency Response",
-  homeAboutBlurb: "The Restoration Group serves Kenilworth and the surrounding NJ area with professional damage restoration for homes and businesses. From the first emergency call to the final walkthrough, our team manages the entire recovery — and we answer the phone 24/7, so help is on the way the moment something goes wrong.",
+  homeAboutBlurb: "The Restoration Group has been restoring New Jersey homes and businesses since 2021, with crews across northern and central New Jersey, the New York City metro and eastern Pennsylvania. We specialize in rapid-response water, fire, storm and mold damage restoration through full reconstruction, and as an IICRC Certified Firm we answer the phone 24/7. When disaster strikes, our team returns your property to its pre-loss condition quickly and safely.",
 } as const;
 
 export const entityId = `${brand.canonicalUrl}/#identity`;
