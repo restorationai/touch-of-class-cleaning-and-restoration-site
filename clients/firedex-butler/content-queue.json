@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-24-case-study-AbFvOql2fVbpi7l9",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-24T21:34:36Z",
       "priority": 1,
       "prioritized": true,
@@ -18,7 +18,9 @@
         "review_text": "I had a great experience with FireDEX. They were great to work with. Quick to get me a quote and to schedule the repairs. The job they did turned out fantastic and I would call them again if the need arises. Hands Down Solid 5 Star!!",
         "review_date": "2025-08-12"
       },
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-29T22:35:05Z",
+      "post_url": "https://firedex.net/blog/.md/"
     },
     {
       "id": "2026-09-10-who-to-call-for-water-damage-restoration-in-cranberry-township-pa",
