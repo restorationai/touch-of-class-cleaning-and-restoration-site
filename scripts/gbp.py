@@ -2776,6 +2776,11 @@ def create_pages(slug_filter: str | None = None, build: bool = False) -> list[st
 
     for slug, reqs in by_slug.items():
         pi_path = ROOT / "clients" / slug / "plan-input.json"
+        if not pi_path.exists():
+            # Dead/removed clients (mold-solutionz 2026-09-29 crashed the
+            # whole gbp-maintenance run) never block everyone else.
+            print(f"  {slug}: no plan-input.json (dead/removed client) — skipped")
+            continue
         pi = json.loads(pi_path.read_text())
         services = pi.get("services", [])
         added, new_catalog = [], []

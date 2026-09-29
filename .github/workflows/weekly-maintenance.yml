@@ -146,7 +146,7 @@ jobs:
             for attempt in 1 2 3 4; do
               git push origin HEAD:main && break
               git fetch origin main
-              if ! git rebase origin/main; then
+              if ! git rebase --autostash origin/main; then
                 git checkout --theirs -- clients/ 2>/dev/null || true
                 git add -A
                 GIT_EDITOR=true git rebase --continue || { git rebase --abort; exit 1; }
@@ -390,7 +390,7 @@ jobs:
             for attempt in 1 2 3 4; do
               git push origin HEAD:main && break
               git fetch origin main
-              if ! git rebase origin/main; then
+              if ! git rebase --autostash origin/main; then
                 git checkout --theirs -- clients/ 2>/dev/null || true
                 git add -A
                 GIT_EDITOR=true git rebase --continue || { git rebase --abort; exit 1; }
