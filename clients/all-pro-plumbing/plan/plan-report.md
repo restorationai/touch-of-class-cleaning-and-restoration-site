@@ -1,21 +1,21 @@
 # Site Plan Report — All Pro Plumbing Heating and Air
 
 - Template: `plumbing` v0.1.0
-- Generated: 2026-09-22T14:26:59.426160+00:00
+- Generated: 2026-09-29T20:25:37.102203+00:00
 - Domain: `allproplumbingheatingandair.com`
 - Services selected: 22 of 22 catalog entries
-- Service areas: 21
+- Service areas: 20
 - Cross-product enabled: True
-- Total URLs: **503**
-- Total internal links: 4097 (avg 8.1 per page)
+- Total URLs: **480**
+- Total internal links: 3914 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 440 |
+| `service-area-service` | 418 |
 | `service-landing` | 22 |
-| `service-area` | 20 |
+| `service-area` | 19 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -59,7 +59,6 @@
 - `delano-ca` — Delano, CA
 - `taft-ca` — Taft, CA
 - `tehachapi-ca` — Tehachapi, CA
-- `east-niles-ca` — East Niles, CA
 - `lamont-ca` — Lamont, CA
 - `tarina-ca` — Tarina, CA
 - `weedpatch-ca` — Weedpatch, CA
