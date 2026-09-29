@@ -13,18 +13,18 @@ export default {
     extend: {
       colors: {
         dark: {
-          DEFAULT: "#111827",
-          50: "#f9fafb",
-          100: "#f3f4f6",
-          200: "#e5e7eb",
-          300: "#d1d5db",
-          400: "#9ca3af",
-          500: "#6b7280",
-          600: "#4b5563",
-          700: "#374151",
-          800: "#1f2937",
-          900: "#111827",
-          950: "#030712",
+          DEFAULT: "#14144a",
+          50: "#f3f3fc",
+          100: "#e3e3f7",
+          200: "#c3c3ef",
+          300: "#8f8fe1",
+          400: "#4a4ace",
+          500: "#2b2ba1",
+          600: "#212178",
+          700: "#181858",
+          800: "#111140",
+          900: "#0c0c2c",
+          950: "#08081c",
         },
         primary: {
           DEFAULT: "#14144a",
@@ -51,14 +51,27 @@ export default {
            light brand (gold, lime, sky) gets hex + a near-black label. Reign,
            2026-08-05: "Action to call on the website need to match golds as
            the logo" — the fill is the logo gold now, the label moved instead. */
+        gold: {
+          DEFAULT: "#e6ac1a",
+          50: "#fdfaf1",
+          100: "#fbf2da",
+          200: "#f7e4b5",
+          300: "#f1d07e",
+          400: "#ebbc47",
+          500: "#e6ac19",
+          600: "#af8213",
+          700: "#8f6a10",
+          800: "#73560d",
+          900: "#57410a",
+          950: "#332606",
+        },
         cta: {
           DEFAULT: "#14144a",
           hover: "#0b0b2a",
           fg: "#ffffff",
         },
         accent: {
-          // Same pair rule as cta — btn-accent renders text-accent-fg on this.
-          DEFAULT: "#14144a",
+          DEFAULT: "#8f6a10",
           fg: "#ffffff",
         },
         muted: {
