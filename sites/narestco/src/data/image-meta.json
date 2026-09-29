@@ -62,7 +62,25 @@
       1200
     ]
   },
+  "/images/services/air-duct-cleaning.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/appliance-leak-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/asbestos-abatement.webp": {
     "width": 1376,
     "height": 768,
     "variants": [
@@ -97,7 +115,34 @@
       1200
     ]
   },
+  "/images/services/contents-restoration-storage.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/crawl-space-encapsulation.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/crime-scene-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/emergency-board-up-tarping.webp": {
     "width": 1376,
     "height": 768,
     "variants": [
@@ -175,6 +220,15 @@
       1200
     ]
   },
+  "/images/services/post-construction-cleaning.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/reconstruction.webp": {
     "width": 1376,
     "height": 768,
@@ -185,6 +239,15 @@
     ]
   },
   "/images/services/roof-leak-repair.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/roofing.webp": {
     "width": 1376,
     "height": 768,
     "variants": [
@@ -228,6 +291,15 @@
       768
     ]
   },
+  "/images/services/structural-drying-dehumidification.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/trauma-scene-cleanup.webp": {
     "width": 1376,
     "height": 768,
@@ -246,12 +318,48 @@
       1200
     ]
   },
+  "/images/services/vandalism-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/vandalism-graffiti-removal.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/water-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/water-damage-restoration.webp": {
     "width": 1024,
     "height": 1024,
     "variants": [
       480,
       768
+    ]
+  },
+  "/images/services/water-leak-detection.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
     ]
   },
   "/images/team.webp": {

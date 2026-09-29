@@ -215,12 +215,12 @@ SERVICE_SCENES = {
     "roofing": "two roofers on a pitched residential roof nailing fresh architectural asphalt shingles in neat courses, a bundle of new shingles and a nail gun beside them, clear daylight",
     "emergency-plumbing": "a plumber kneeling under a kitchen sink tightening a compression fitting with a wrench, headlamp on, towels and a bucket catching drips, tool bag open beside them",
     "emergency-water-removal": "a technician running a portable truck-mount extraction wand across soaked living-room carpet at night, work lights on, water visibly drawing up into the wand",
-    "water-leak-detection": "a technician wearing an acoustic leak-detection headset, pressing a ground microphone to a tile floor while holding up a handheld thermal imaging camera toward the wall; the leak appears ONLY on the small camera screen, the wall itself looks ordinary (nothing glowing or drawn on it)",
+    "water-leak-detection": "a technician wearing an acoustic leak-detection headset, kneeling and pressing a ground microphone to a tile floor while holding a pin moisture meter against the baseboard; plain walls, no thermal camera, no glow or colored light anywhere",
     "water-heater-flood-cleanup": "a technician wet-vacuuming standing water around a failed tank water heater in a garage utility corner, towels down and an air mover staged nearby",
     "ceiling-water-damage-repair": "a technician on a step ladder cutting out a sagging water-stained section of ceiling drywall, a plastic drop sheet catching debris below",
-    "contents-restoration-storage": "a technician carefully wrapping household items into padded packing boxes on a folding table, labeled moving boxes stacked on shelving in a clean storage warehouse behind",
+    "contents-restoration-storage": "a technician in the everyday company uniform (no hazmat suit) carefully wrapping household items into padded packing boxes on a folding table, labeled moving boxes stacked on shelving in a clean storage warehouse behind",
     "contents-restoration-pack-out": "technicians carrying padded, wrapped furniture and packed boxes out of a home toward a box truck on a sunny driveway",
-    "vandalism-graffiti-removal": "a technician pressure-washing abstract colored spray-paint smears (no readable letters or symbols) off a concrete block wall, runoff on the pavement, cleaned section visibly bright",
+    "vandalism-graffiti-removal": "a technician in the everyday company uniform (no hazmat suit) pressure-washing abstract colored spray-paint smears (no readable letters or symbols) off a concrete block wall, runoff on the pavement, cleaned section visibly bright",
     "vandalism-cleanup": "a technician in work gloves sweeping broken window glass into a dustpan inside a vandalized storefront, a sheet of plywood leaned against the broken window frame",
     "structural-drying-dehumidification": "an LGR dehumidifier and a ring of axial air movers running in a room with baseboards removed and small drill holes along the bottom of the drywall, a technician checking a hygrometer",
     "mold-inspection-assessment": "a technician holding an air-sampling pump cassette near a suspect wall corner, moisture meter and flashlight in hand",
@@ -239,6 +239,7 @@ SERVICE_SCENES = {
     "attic-insulation": "a technician in a respirator blowing loose-fill insulation across attic joists with a hose, a depth ruler standing in the fresh insulation",
     "hvac-installation": "an HVAC technician setting a new condenser unit on a pad beside a house, refrigerant gauges connected, the old unit on a dolly behind",
     "repiping": "a plumber fitting new PEX supply lines through opened drywall in a hallway wall, manifold and crimp tool in hand",
+    "plasma-guard-pro": "an HVAC technician installing a compact whole-home air purification module into the supply plenum of an indoor air handler, sheet-metal screws and a drill in hand, no product branding readable",
     "financing": "a project manager at a kitchen table walking a homeowner couple through a printed repair estimate on a tablet and clipboard, calm and friendly, faces not the focus",
     "insurance-claim-assistance": "a project manager photographing water damage for an insurance claim with a tablet while a homeowner looks on, moisture meter clipped to his belt",
     # 2026-09-29 (Crew service-image pass): construction-tier services.
@@ -314,8 +315,12 @@ def generate_service_images(*, slug: str, geo: str, guide: str,
             prompt = (
                 f"Photorealistic photograph for a restoration company website service "
                 f"card — {scene}. Professional full-frame mirrorless look, "
-                f"{mood or 'natural competent lighting'}, mid-task not posed, no "
-                f"faces clearly visible (back or side angle). {crew}{equip}"
+                f"{mood or 'natural competent lighting'}, mid-task not posed, "
+                f"shot from behind or three-quarter back so faces are turned away "
+                f"or in natural profile. Any face in frame is a normal, sharp, "
+                f"natural face: NEVER blurred, pixelated, smudged, masked or "
+                f"blacked out (2026-09-29 QC: 'no faces visible' made the model "
+                f"blur and black out faces). {crew}{equip}"
                 f"{logo_rule} {geo}")
             full_prompt = prompt + ("\n\nStyle guide notes:\n" + guide if guide else "")
             print(f"  generating services/{out.name} ({display})...")

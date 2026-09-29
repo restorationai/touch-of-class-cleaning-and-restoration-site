@@ -22,7 +22,8 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/ac-repair.webp": {
@@ -30,7 +31,8 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/burst-pipe-repair.webp": {
@@ -38,7 +40,8 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/drain-cleaning.webp": {
@@ -46,7 +49,8 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/ductless-mini-splits.webp": {
@@ -54,7 +58,8 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/ductwork.webp": {
@@ -62,7 +67,8 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/emergency-plumbing.webp": {
@@ -70,7 +76,8 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/furnace-installation.webp": {
@@ -78,7 +85,8 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/furnace-repair.webp": {
@@ -86,7 +94,8 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/garbage-disposal.webp": {
@@ -94,7 +103,8 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/gas-line-services.webp": {
@@ -102,7 +112,8 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/heat-pump-services.webp": {
@@ -110,7 +121,8 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/indoor-air-quality.webp": {
@@ -118,7 +130,8 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/leak-detection.webp": {
@@ -126,7 +139,17 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
+    ]
+  },
+  "/images/services/plasma-guard-pro.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
     ]
   },
   "/images/services/repiping.webp": {
@@ -134,7 +157,8 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/sewer-line-repair.webp": {
@@ -142,7 +166,8 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/slab-leak-repair.webp": {
@@ -150,7 +175,8 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/sump-pumps.webp": {
@@ -158,7 +184,8 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/toilet-faucet-repair.webp": {
@@ -166,7 +193,8 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/water-heater-installation.webp": {
@@ -174,7 +202,8 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/water-heater-repair.webp": {
@@ -182,7 +211,8 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/services/water-softeners-filtration.webp": {
@@ -190,7 +220,8 @@
     "height": 768,
     "variants": [
       480,
-      768
+      768,
+      1200
     ]
   },
   "/images/team.webp": {

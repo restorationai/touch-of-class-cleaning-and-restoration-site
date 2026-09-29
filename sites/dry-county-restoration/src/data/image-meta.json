@@ -35,6 +35,15 @@
       1200
     ]
   },
+  "/images/services/contents-restoration-storage.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/contents-restoration.webp": {
     "width": 1376,
     "height": 768,
@@ -45,6 +54,15 @@
     ]
   },
   "/images/services/emergency-board-up-tarping.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/emergency-plumbing.webp": {
     "width": 1376,
     "height": 768,
     "variants": [
@@ -80,7 +98,25 @@
       1200
     ]
   },
+  "/images/services/odor-removal.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/post-construction-cleaning.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/roofing.webp": {
     "width": 1376,
     "height": 768,
     "variants": [
@@ -117,6 +153,15 @@
     ]
   },
   "/images/services/water-damage-restoration.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/water-leak-detection.webp": {
     "width": 1376,
     "height": 768,
     "variants": [

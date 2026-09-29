@@ -134,6 +134,15 @@
       1200
     ]
   },
+  "/images/services/biohazard-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/burst-pipe-repair.webp": {
     "width": 1376,
     "height": 768,
@@ -161,6 +170,24 @@
       1200
     ]
   },
+  "/images/services/drywall-repair.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/emergency-board-up-tarping.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/fabric-protection.webp": {
     "width": 1376,
     "height": 768,
@@ -179,7 +206,25 @@
       1200
     ]
   },
+  "/images/services/flooring-carpet-installation.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/frozen-pipe-restoration.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/hoarding-cleanup.webp": {
     "width": 1376,
     "height": 768,
     "variants": [
@@ -216,6 +261,24 @@
     ]
   },
   "/images/services/odor-removal.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/post-construction-cleaning.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/red-stain-removal.webp": {
     "width": 1376,
     "height": 768,
     "variants": [
@@ -269,6 +332,15 @@
       1200
     ]
   },
+  "/images/services/trim-baseboard-installation.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/upholstery-cleaning.webp": {
     "width": 1376,
     "height": 768,
@@ -278,7 +350,25 @@
       1200
     ]
   },
+  "/images/services/water-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/water-damage-restoration.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/water-leak-detection.webp": {
     "width": 1376,
     "height": 768,
     "variants": [

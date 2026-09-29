@@ -26,7 +26,25 @@
       1200
     ]
   },
+  "/images/services/contents-restoration-storage.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/contents-restoration.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/financing.webp": {
     "width": 1376,
     "height": 768,
     "variants": [
@@ -44,7 +62,25 @@
       1200
     ]
   },
+  "/images/services/insurance-claim-assistance.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/mold-remediation.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/odor-removal.webp": {
     "width": 1376,
     "height": 768,
     "variants": [
@@ -63,6 +99,15 @@
     ]
   },
   "/images/services/storm-damage-restoration.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/water-cleanup.webp": {
     "width": 1376,
     "height": 768,
     "variants": [

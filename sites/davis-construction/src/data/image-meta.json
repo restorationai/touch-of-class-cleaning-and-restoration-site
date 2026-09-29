@@ -53,6 +53,15 @@
       1200
     ]
   },
+  "/images/services/fire-smoke-rebuilding.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/home-remodeling.webp": {
     "width": 1376,
     "height": 768,
@@ -117,6 +126,15 @@
     ]
   },
   "/images/services/water-damage-restoration.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/windows-doors.webp": {
     "width": 1376,
     "height": 768,
     "variants": [
