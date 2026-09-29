@@ -1,6 +1,6 @@
 {
   "slug": "homelyft-restoration-ms",
-  "generated_at": "2026-09-28T17:15:24Z",
+  "generated_at": "2026-09-29T17:59:58Z",
   "truth": {
     "hours": "24/7",
     "is_247": true,
@@ -21,7 +21,7 @@
     "response_minutes": null,
     "family_owned": false,
     "founded_year": "2022",
-    "gbp_review_count": 60,
+    "gbp_review_count": 61,
     "vertical": "restoration"
   },
   "errors": 0,

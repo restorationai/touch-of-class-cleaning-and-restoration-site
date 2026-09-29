@@ -1,6 +1,6 @@
 {
   "slug": "flood-fixers",
-  "checked_at": "2026-09-28T17:06:33.349377+00:00",
+  "checked_at": "2026-09-29T17:47:58.569551+00:00",
   "canonical": {
     "name": "Flood Fixers",
     "phone": "(855) 204-1124",
@@ -37,14 +37,8 @@
     {
       "platform": "yelp",
       "url": "https://m.yelp.com/biz/flood-fixers-san-diego",
-      "status": "ok",
-      "fetch": "google_serp_snippet",
-      "phones_found": [
-        "(855) 204-1124"
-      ],
-      "phone_match": true,
-      "address_match": null,
-      "notes": "via Google snippet (page bot-blocked); canonical street address not found on page"
+      "status": "unverified",
+      "notes": "unverifiable \u2014 every fetch tier failed (http 403; dfs_content_parsing Page content is empty; google_serp_snippet: page not indexed; wayback: no 200 capture)"
     },
     {
       "platform": "houzz",
