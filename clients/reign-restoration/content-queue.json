@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-28-case-study-AbFvOql0XBAf62uE",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-28T22:30:57Z",
       "priority": 1,
       "prioritized": true,
@@ -18,7 +18,9 @@
         "review_text": "Jerrott was very attentive to our needs during the 10 months that it took to rebuild after major water damage to our home.  His subs were good and he actively supervised their work.  We'd recommend Reign without any reservations to anyone.",
         "review_date": "2026-02-09"
       },
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-29T22:46:31Z",
+      "post_url": "https://reign-restoration.com/blog/.md/"
     },
     {
       "id": "2026-09-14-who-to-call-for-water-damage-restoration-in-royse-city-tx",
