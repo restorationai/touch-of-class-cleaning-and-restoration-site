@@ -67,6 +67,8 @@ Details: docs/FOLLOW-THROUGH-SYSTEM.md.
 | September report gaps (the 09-01 send reached 27 clients; the link text never reached Bob (Dry County + RT Olson, one contact), Go Green or TDI; Home Pride has no email on file). July reports were never sent to anyone, and no backfill is planned | `client-reports.yml` | 3 texts via monica_oneoff + Home Pride email once we have an address |
 | Frontline's new address (also the NAP-drift system error) | Santino to confirm the address | update GBP + site + citations |
 | PRNow test, Apple Podcasts card | | |
+| Air Care LSA (09-29): stuck at verification 25 days. The API shows only the 09-04 background check (NO_SUBMISSION, the Jennifer-name one); Sarha's 09-26 Evident redo is not registered, and there's no license or insurance on file. Budget is $19,000/DAY with nothing on record agreeing to it | LSA portal + Google Ads support, customer 651-449-5227 | Santino calls Google; decide the real budget before verification clears |
+| 10 prospect audits failed in Sept (8 killed by deploy restarts before the 09-29 guard, 2 in the 09-14 credit outage): Titan (AZ), Magic Clean, AFC Cleaning, United Water, Doctor Dry, We Do It All, Money for Repairs, + 2 no-website | marketing_jobs | re-run for sales if still warm |
 
 **Dan's draft** (no plumbing, no pushback, per Santino 09-29):
 > Great pick, and mold is a smart swap. In Maryland about 1,600 people a
