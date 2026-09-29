@@ -65,14 +65,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.9",
-  gbpReviewCount: "598",
+  gbpReviewCount: "599",
   gbpReviews: [
+    { author: "Rameezy", rating: 5, text: "Big thank you to syionte for being such a helpful and easy person to work with! I would definitely work with him again!", when: "September 2026" },
+    { author: "Jeff", rating: 5, text: "Zach Wiseman was very good to work with. He kept things rolling and really seemed to care about our end project.", when: "September 2026" },
     { author: "Chris", rating: 5, text: "Zach and the Crew team go above and beyond making sure everything meet your standards.", when: "September 2026" },
     { author: "Todd", rating: 5, text: "Zack- prompt & professional! Highly recommended if need anything they do- which is a lot !!! Great company & “Crew”", when: "September 2026" },
     { author: "Luci", rating: 5, text: "Professional, helpful and excellent customer service", when: "September 2026" },
     { author: "Amir", rating: 5, text: "Zach and the crew team are great. They have installed our Christmas lights for several years and it always looks amazing. Don't end up in the emergency room, hire these guys and get it done right", when: "September 2026" },
-    { author: "Scott", rating: 5, text: "Zach is seriously the best! Not only did he help me get my house in order, but his kind and cheerful demeanor made my whole week! 5/5 stars!! I love that guy", when: "September 2026" },
-    { author: "Jeffery", rating: 5, text: "Sy is amazing at his job highly recommend!!", when: "September 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Sioux Falls, SD.",
   ctaLabel: "24/7 Emergency Line",
