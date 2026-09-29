@@ -69,14 +69,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "5.0",
-  gbpReviewCount: "60",
+  gbpReviewCount: "61",
   gbpReviews: [
+    { author: "Tara", rating: 5, text: "HomeLyft was professional and courteous with each interaction, every step of my rebuild and tear out was explained and executed. The gentleman that installed my flooring was impressive especially because he had to match ceramic tiles that was damaged by the previous contractor. The craftsman ship…", when: "September 2026" },
     { author: "Joshua", rating: 5, text: "Very knowledgeable and professional.", when: "September 2026" },
     { author: "Danny", rating: 5, text: "Terry helped me at my business and my home and would happily use him again. Thanks for the great work.", when: "September 2026" },
     { author: "Rachel", rating: 5, text: "Was very helpful and compassionate to our situation. Highly recommend 👌", when: "September 2026" },
     { author: "Lauren", rating: 5, text: "The entire HomeLyft team was very professional and great to work with. They went above and beyond to provide quality customer service and quality construction work.", when: "August 2026" },
     { author: "Emile", rating: 5, text: "We hired this company to mitigate the damage to our home after it sustained water damage from rising water during a torrential rain. They arrived at our home the very next day to start the process of remediating the damage. We truly cannot say enough good things about our experience with them. They…", when: "August 2026" },
-    { author: "Tamera", rating: 5, text: "I highly recommend HomeLyft Restoration. When I first found them online, I was honestly a little nervous because I had never heard of them before. Hiring a company to restore your home after water damage is a big decision, and I wasn’t sure what to expect. I wondered if they would show up when they…", when: "July 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "24/7 restoration services in Gulfport, MS.",
   ctaLabel: "24/7 Emergency Line",
