@@ -1303,17 +1303,21 @@ def anthropic_call(system: str, user: str, *, model: str = ANTHROPIC_DEFAULT_MOD
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
         die("Missing ANTHROPIC_API_KEY env var (see rank-ai/.env).")
+    # `temperature` is accepted for call-site compatibility but NOT sent:
+    # claude-sonnet-5 (and other 5-series models) reject sampling params with
+    # HTTP 400 "`temperature` is deprecated for this model" — this killed every
+    # site-render sweep after the 09-27 model upgrade (c20e1dc6f).
+    del temperature
     body = {
         "model": model,
         "max_tokens": max_tokens,
-        "temperature": temperature,
         "system": system,
         "messages": [{"role": "user", "content": user}],
     }
-    data = json.dumps(body).encode()
 
     last_err: str = ""
     for attempt in range(1, max_retries + 1):
+        data = json.dumps(body).encode()
         req = urllib.request.Request(ANTHROPIC_API, data=data, method="POST",
                                      headers={
                                          "x-api-key": api_key,
@@ -1323,8 +1327,20 @@ def anthropic_call(system: str, user: str, *, model: str = ANTHROPIC_DEFAULT_MOD
         try:
             with urllib.request.urlopen(req, timeout=300) as resp:
                 payload = json.loads(resp.read().decode())
-            content = payload["content"][0]["text"]
+            # 5-series models may think adaptively: content can start with a
+            # thinking block, so join the text blocks rather than [0]["text"].
+            content = "".join(b.get("text", "") for b in payload.get("content", [])
+                              if b.get("type") == "text")
             usage = payload.get("usage", {})
+            if payload.get("stop_reason") == "max_tokens" and attempt < max_retries:
+                # thinking + text share max_tokens on 5-series models; a
+                # truncated reply is cut-off JSON (non_json page failure,
+                # seen on the 09-29 verification run) — double and retry
+                body["max_tokens"] = min(body["max_tokens"] * 2, 32000)
+                last_err = "truncated reply (max_tokens)"
+                print(f"      retry {attempt}/{max_retries}: reply hit max_tokens, "
+                      f"raising to {body['max_tokens']}")
+                continue
             return content, usage
         except urllib.error.HTTPError as e:
             err = e.read().decode(errors="replace")
@@ -2724,18 +2740,30 @@ def cmd_sync_deploy(args) -> int:
             import requests as _rq
             _base = os.environ["SUPABASE_URL"].rstrip("/")
             _key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
-            _rq.post(f"{_base}/rest/v1/marketing_ops_notes", timeout=20,
-                     headers={"apikey": _key, "Authorization": f"Bearer {_key}",
-                              "Prefer": "return=minimal"},
-                     json=[{"company_id": _cid, "status": "open",
-                            "author": "build_site.py",
-                            "body": f"[PREVIEW PIPELINE] {slug}: first build is "
-                                    f"LIVE at {_purl} . The client reveal seeds "
-                                    "automatically and goes out after the "
-                                    "10-day soak window. Note 'share now' to "
-                                    "release early, or 'hold preview' to stop "
-                                    "it. Nothing else needed for it to send."}])
-            print("      preview-pipeline card filed (first build)")
+            # Once per client + URL, EVER (2026-09-29: prev_build_status
+            # misses re-fired this 'first build' card on every sync-deploy,
+            # 22 open copies for aldredo-moreno). Any status counts.
+            from urllib.parse import quote as _q
+            _seen = _rq.get(
+                f"{_base}/rest/v1/marketing_ops_notes?company_id=eq.{_cid}"
+                "&body=ilike." + _q(f"[PREVIEW PIPELINE] {slug}: first build is LIVE at {_purl}*")
+                + "&select=id&limit=1", timeout=20,
+                headers={"apikey": _key, "Authorization": f"Bearer {_key}"})
+            if _seen.ok and _seen.json():
+                print("      preview-pipeline card already on file (skipped)")
+            else:
+                _rq.post(f"{_base}/rest/v1/marketing_ops_notes", timeout=20,
+                         headers={"apikey": _key, "Authorization": f"Bearer {_key}",
+                                  "Prefer": "return=minimal"},
+                         json=[{"company_id": _cid, "status": "open",
+                                "author": "build_site.py",
+                                "body": f"[PREVIEW PIPELINE] {slug}: first build is "
+                                        f"LIVE at {_purl} . The client reveal seeds "
+                                        "automatically and goes out after the "
+                                        "10-day soak window. Note 'share now' to "
+                                        "release early, or 'hold preview' to stop "
+                                        "it. Nothing else needed for it to send."}])
+                print("      preview-pipeline card filed (first build)")
         except Exception as _e:  # noqa: BLE001 — a deploy never fails over a card
             print(f"      (preview-pipeline card failed: {str(_e)[:80]})")
 

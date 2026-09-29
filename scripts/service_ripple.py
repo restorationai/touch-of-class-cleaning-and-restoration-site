@@ -27,6 +27,7 @@ import re
 import subprocess
 import sys
 from pathlib import Path
+from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -87,23 +88,39 @@ def _dev_note_once(cid: str, slug: str, services: list[str],
     if not services:
         return
     marker = "[SERVICE RIPPLE] custom pages needed"
+    # 2026-09-29: the old filter was 'SERVICE RIPPLE custom' — the ']'
+    # between RIPPLE and 'custom' meant it NEVER matched, so every run
+    # (4x on 09-29) filed the identical card for all 17 clients. Match the
+    # exact marker (URL-encoded), across ALL statuses: a resolved card means
+    # the dev lane already handled those services, never re-file them.
     existing = _sb("GET", "/rest/v1/marketing_ops_notes"
                    f"?company_id=eq.{cid}"
-                   "&body=ilike.*SERVICE RIPPLE%20custom*"
-                   "&select=id,body&limit=5") or []
+                   f"&body=ilike.{quote('*' + marker + '*')}"
+                   "&select=id,body,status&order=created_at.desc"
+                   "&limit=50") or []
     listed = " ".join((n.get("body") or "") for n in existing)
     fresh = [s for s in services if s not in listed]
     if not fresh:
         return
+    open_ones = [n for n in existing if n.get("status") == "open"]
+    if open_ones:
+        # Fold the new services into the one open card instead of a 2nd card.
+        prev = re.search(r"sells (.*?) \(truth table\)",
+                         open_ones[0].get("body") or "")
+        fresh = ([x.strip() for x in prev.group(1).split(",")] if prev else []) + fresh
     body = (f"[DEV] {slug}: {marker} — the client sells "
             f"{', '.join(fresh)} (truth table) but the vertical catalog "
             "has no archetype for them. Create custom service pages "
             "following the existing patterns (hero, body, FAQ, schema, "
             "internal links) and add them to the services nav.")
     if not dry_run:
-        _sb("POST", "/rest/v1/marketing_ops_notes", {
-            "company_id": cid, "author": "service_ripple",
-            "status": "open", "body": body}, prefer="return=minimal")
+        if open_ones:
+            _sb("PATCH", "/rest/v1/marketing_ops_notes"
+                f"?id=eq.{open_ones[0]['id']}", {"body": body})
+        else:
+            _sb("POST", "/rest/v1/marketing_ops_notes", {
+                "company_id": cid, "author": "service_ripple",
+                "status": "open", "body": body}, prefer="return=minimal")
     print(f"  {slug}: [DEV] filed — custom pages for {fresh}")
 
 

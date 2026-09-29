@@ -65,6 +65,26 @@ def company_id_for(slug: str) -> str | None:
     return json.loads(cmap.read_text()).get(slug) if cmap.exists() else None
 
 
+DEAD_PREFIXES = ("mcc-restoration", "mold-solutionz")   # dead clients, never scanned
+
+
+def _unscannable(slug: str) -> str | None:
+    """Reason this client can't produce money queries (else None)."""
+    if slug.startswith(DEAD_PREFIXES):
+        return "dead client"
+    rec = ROOT / "clients" / f"{slug}.json"
+    pi = ROOT / "clients" / slug / "plan-input.json"
+    if not rec.exists() or not pi.exists():
+        return "no client record / plan-input.json yet"
+    try:
+        p = json.loads(pi.read_text())
+    except Exception:  # noqa: BLE001
+        return "unreadable plan-input.json"
+    if not (p.get("services") and p.get("service_areas")):
+        return "plan-input has no services/service_areas yet"
+    return None
+
+
 def client_identity(slug: str) -> dict:
     rec = json.loads((ROOT / "clients" / f"{slug}.json").read_text())
     pi = json.loads((ROOT / "clients" / slug / "plan-input.json").read_text())
@@ -327,6 +347,21 @@ def main() -> int:
     auth = base64.b64encode(f"{u}:{p}".encode()).decode()
     all_slugs = sorted(json.loads((ROOT / "clients" / "company_map.json").read_text())) \
         if args.all else [args.slug]
+    if args.all:
+        # 2026-09-29: heartbeat:ai-scan froze on 09-18. Stalest-first put
+        # never-scannable clients (dead mold-solutionz, restopros with no
+        # plan-input, clients with 0 services/areas) at the FRONT of every
+        # shard forever; the first missing file raised FileNotFoundError and
+        # killed the whole shard before the heartbeat stamp. Only scannable
+        # clients enter the shard now.
+        keep = []
+        for sl in all_slugs:
+            why = _unscannable(sl)
+            if why:
+                print(f"  skip {sl}: {why}", file=sys.stderr)
+            else:
+                keep.append(sl)
+        all_slugs = keep
     if args.all and args.shard:
         # B3 self-healing order (Santino 2026-09-17: "why not just auto run
         # a new scan?"): every shard scans the STALEST clients first —
@@ -361,7 +396,12 @@ def main() -> int:
         if args.budget_min and (time.monotonic() - t0) > args.budget_min * 60:
             print(f"  budget reached after {done} client(s) — cursor saves the rest")
             break
-        total += run_for(s, auth, args.limit, engines, args.dry_run)
+        try:
+            total += run_for(s, auth, args.limit, engines, args.dry_run)
+        except Exception as e:  # noqa: BLE001 — one client never kills the shard
+            print(f"  {s}: scan failed ({type(e).__name__}: {str(e)[:160]})",
+                  file=sys.stderr)
+            continue
         done += 1
     if args.all and args.shard and not args.dry_run:
         _sb_set_kv("heartbeat:ai-scan",

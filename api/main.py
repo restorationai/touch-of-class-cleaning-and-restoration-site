@@ -937,7 +937,22 @@ def lead_business_lookup(q: str, request: Request):
     return {"query": q, "matches": matches}
 
 
+# Job ids with a live audit thread in THIS process. The periodic stale sweep
+# skips these so a slow-but-alive audit is never double-run.
+_LEAD_AUDIT_LIVE: set = set()
+LEAD_AUDIT_STALE_MIN = 60        # queued/running this long with no live thread = orphan
+LEAD_AUDIT_SWEEP_SEC = 900       # periodic stale sweep interval
+
+
 def _run_lead_audit_job(job_id: str, req: "LeadAuditRequest"):
+    _LEAD_AUDIT_LIVE.add(job_id)
+    try:
+        _run_lead_audit_job_inner(job_id, req)
+    finally:
+        _LEAD_AUDIT_LIVE.discard(job_id)
+
+
+def _run_lead_audit_job_inner(job_id: str, req: "LeadAuditRequest"):
     client = sb()
     client.table("marketing_jobs").update(
         {"status": "running", "started_at": datetime.now(timezone.utc).isoformat()}
@@ -1086,24 +1101,42 @@ def _notify_lead_audit_failure(job_id: str, req: "LeadAuditRequest", error: str,
         pass  # notification is best-effort
 
 
-def _recover_orphaned_lead_audits():
-    """Boot-time crash recovery (Santino 2026-07-30): a Railway deploy kills
-    in-flight audit threads, leaving jobs stuck 'queued'/'running' forever —
-    a hot lead with no report and no alert (Andrew Gomez, 2026-07-28). On
-    startup: retry each orphan once; on the second orphaning, mark failed and
-    send the existing failure email so a human follows up."""
-    import time as _t
-    _t.sleep(10)  # let the app finish booting before burning CPU on audits
+def _recover_orphaned_lead_audits(stale_minutes: int = 0):
+    """Crash recovery (Santino 2026-07-30): a Railway deploy kills in-flight
+    audit threads, leaving jobs stuck 'queued'/'running' forever — a hot lead
+    with no report and no alert (Andrew Gomez, 2026-07-28). Retry each orphan
+    once (params.attempts); on the second orphaning, mark failed and send the
+    existing failure email so a human follows up.
+
+    stale_minutes=0 (boot): no thread survives a restart, so every open job
+    is an orphan. stale_minutes>0 (periodic sweep): only jobs older than that
+    with no live thread in this process.
+
+    2026-09-29 (Silvano Conejo sat 'running' 7 days): this scan filtered on
+    marketing_jobs.created_at, a column that does not exist, so it 400'd on
+    every boot and recovered nothing. The table's timestamp is queued_at."""
     try:
         client = sb()
-        cutoff = (datetime.now(timezone.utc) - timedelta(hours=48)).isoformat()
-        rows = (client.table("marketing_jobs").select("id, params, status")
+        now = datetime.now(timezone.utc)
+        cutoff = (now - timedelta(hours=48)).isoformat()
+        rows = (client.table("marketing_jobs")
+                .select("id, params, status, queued_at, started_at")
                 .eq("type", "lead_audit").in_("status", ["queued", "running"])
-                .gte("created_at", cutoff).execute().data) or []
+                .gte("queued_at", cutoff).execute().data) or []
     except Exception as e:  # noqa: BLE001
         print("[lead-audit recovery] scan failed:", str(e)[:150])
         return
     for row in rows:
+        if row["id"] in _LEAD_AUDIT_LIVE:
+            continue
+        if stale_minutes:
+            ts = row.get("started_at") or row.get("queued_at")
+            try:
+                age = now - datetime.fromisoformat(ts)
+            except Exception:  # noqa: BLE001
+                continue
+            if age < timedelta(minutes=stale_minutes):
+                continue
         p = row.get("params") or {}
         attempts = int(p.get("attempts") or 0)
         req = LeadAuditRequest(
@@ -1115,17 +1148,17 @@ def _recover_orphaned_lead_audits():
             source="funnel-recovery" if p.get("sales") else "", secret="",
             ghl_contact_id=p.get("ghl_contact_id") or "")
         if attempts >= 1:
-            print(f"[lead-audit recovery] {row['id']}: died twice — marking failed")
+            print(f"[lead-audit recovery] {row['id']}: orphaned twice, marking failed")
             try:
                 client.table("marketing_jobs").update({
                     "status": "failed",
                     "completed_at": datetime.now(timezone.utc).isoformat(),
-                    "error": "orphaned by deploy twice — needs manual re-run",
+                    "error": "orphaned twice (deploy restart or stale >{}m); needs manual re-run".format(LEAD_AUDIT_STALE_MIN),
                 }).eq("id", row["id"]).execute()
             except Exception:
                 pass
             _notify_lead_audit_failure(row["id"], req,
-                                       "audit thread killed by deploys twice")
+                                       "audit thread orphaned twice (deploy restart or stale)")
             continue
         print(f"[lead-audit recovery] {row['id']}: re-running (attempt 2)")
         try:
@@ -1138,9 +1171,25 @@ def _recover_orphaned_lead_audits():
                          args=(row["id"], req), daemon=True).start()
 
 
+def _lead_audit_recovery_loop():
+    """Boot sweep, then a stale-job sweep every LEAD_AUDIT_SWEEP_SEC (catches
+    threads that die without a restart, and any boot sweep that failed)."""
+    time.sleep(10)  # let the app finish booting before burning CPU on audits
+    try:
+        _recover_orphaned_lead_audits()
+    except Exception as e:  # noqa: BLE001
+        print("[lead-audit recovery] boot sweep error:", str(e)[:150])
+    while True:
+        time.sleep(LEAD_AUDIT_SWEEP_SEC)
+        try:
+            _recover_orphaned_lead_audits(stale_minutes=LEAD_AUDIT_STALE_MIN)
+        except Exception as e:  # noqa: BLE001 — the loop must never die
+            print("[lead-audit recovery] sweep error:", str(e)[:150])
+
+
 @app.on_event("startup")
 def _lead_audit_recovery_on_boot():
-    threading.Thread(target=_recover_orphaned_lead_audits, daemon=True).start()
+    threading.Thread(target=_lead_audit_recovery_loop, daemon=True).start()
 
 
 @app.post("/lead-audit")

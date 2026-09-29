@@ -7435,8 +7435,34 @@ def cmd_compose(args) -> int:
         print("  [directive] left OPEN — this message was the client's reply, "
               "not the order; it goes out on the next pass")
     else:
-        resolve_directives(directives)
+        # WORD-FOR-WORD orders close only when their text actually went out
+        # (Amin/Dry Bros 2026-09-29: "Big news! Your new website is live"
+        # was marked acted-on while the message only covered the van wrap,
+        # so he was never told his site was live).
+        undelivered = [d for d in directives or []
+                       if not verbatim_directive_delivered(d, draft["body"])]
+        for d in undelivered:
+            print("  [directive] left OPEN — word-for-word text not in this "
+                  f"message: {str(d.get('body', ''))[:70]!r}")
+        resolve_directives([d for d in directives or [] if d not in undelivered])
     return 0
+
+
+_VERBATIM_RE = re.compile(r"word[- ]for[- ]word\s*[:,.-]?\s*(.+)", re.I | re.S)
+
+
+def verbatim_directive_delivered(directive: dict, sent_body: str) -> bool:
+    """True unless the directive orders exact words that the sent body does
+    not contain. Compared on letters/digits only, first 80 chars, so
+    punctuation or dash cleanup by the sender still counts as delivered."""
+    m = _VERBATIM_RE.search(str(directive.get("body") or ""))
+    if not m:
+        return True
+
+    def norm(s: str) -> str:
+        return re.sub(r"[^a-z0-9]", "", (s or "").lower())
+    want = norm(m.group(1))[:80]
+    return not want or want in norm(sent_body)
 
 
 # ---------------------------------------------------------------- preview

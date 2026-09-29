@@ -357,6 +357,14 @@ def run(slug: str, days: int, dry_run: bool) -> str:
     if not dry_run:
         verdict = body.split("## What the numbers say")[0].replace("## Verdict", "").strip()
         do_next = body.split("## Do next (prioritized)")[-1].strip()[:700]
+        # Supersede (2026-09-29 backlog cleanup): only the NEWEST analyzer
+        # card stays open per client; older weeks resolve when a new one lands.
+        requests.patch(f"{SB}/rest/v1/marketing_ops_notes"
+                       f"?company_id=eq.{m['company_id']}&status=eq.open"
+                       "&body=like.%5BANALYZER%20*",
+                       headers=HDR, timeout=30, json={
+                           "status": "resolved",
+                           "resolved_at": datetime.now(timezone.utc).isoformat()})
         requests.post(f"{SB}/rest/v1/marketing_ops_notes", headers=HDR, json={
             "company_id": m["company_id"], "status": "open",
             "body": (f"[ANALYZER {stamp}] {verdict[:400]}\n\nDO NEXT:\n{do_next}"

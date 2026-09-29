@@ -20,9 +20,10 @@ FOUR CHECKS, one daily pass:
                  comes through, I want you watching that it goes through")
                - CONTENT SLA (C1): queued posts + no publish in 14 days
                  = starved (the Paul Davis / ProCraft class).
-4. REPORT      Each new issue files ONE [PIPELINE ALERT] ops note
-               (deduped 7 days via ops_kv) so it lands in Ops Attention +
-               the morning digest. Recovery clears the dedupe key.
+4. REPORT      ONE open [PIPELINE ALERT] card per alert key, refreshed in
+               place every run; the card auto-resolves when the condition
+               clears and reopens on relapse (reconcile_notes). Only a
+               brand-new condition texts Santino.
 
 Rides client-ops-sync daily. CLI: python3 scripts/pipeline_watchdog.py [--dry-run]
 """
@@ -413,7 +414,8 @@ def check_coverage() -> list[str]:
                 f"&created_at=lt.{(NOW - timedelta(days=7)).isoformat().replace('+00:00', 'Z')}"
                 "&select=company_id") or []
     from collections import Counter
-    stale_by = Counter(r["company_id"] for r in stale)
+    # active clients only (2026-09-29: an inactive CO-… row surfaced by id)
+    stale_by = Counter(r["company_id"] for r in stale if r["company_id"] in comps)
     for cid, n in stale_by.most_common(5):
         nm = (comps.get(cid) or {}).get("name") or cid
         issues.append(f"optimizer SLA: {nm} has {n} auto-safe item(s) open "
@@ -427,6 +429,10 @@ def check_coverage() -> list[str]:
     # client's promise invisibly.
     for mp_dir in glob.glob(str(ROOT / "sites/*/src/content/blog")):
         slugc = Path(mp_dir).parent.parent.parent.name
+        # Active clients only (2026-09-29: dead mcc-restoration kept filing
+        # a weekly 'cadence SLA' card for a site we no longer post to).
+        if inv.get(slugc) not in comps:
+            continue
         qf2 = ROOT / "clients" / slugc / "content-queue.json"
         if not qf2.exists():
             continue
@@ -450,6 +456,8 @@ def check_coverage() -> list[str]:
     # CONTENT SLA (C1)
     for qf in glob.glob(str(ROOT / "clients/*/content-queue.json")):
         slug = Path(qf).parent.name
+        if inv.get(slug) not in comps:
+            continue  # active clients only (see cadence SLA)
         try:
             q = json.loads(Path(qf).read_text())
         except Exception:
@@ -476,6 +484,108 @@ def check_coverage() -> list[str]:
     return issues
 
 
+def alert_key(issue: str) -> str:
+    """Stable identity of an alert condition, independent of the numbers in
+    it. Digits stripped (2026-09-19: '0/2 posts' -> '1/2 posts' minted a NEW
+    key daily); workflow + heartbeat alerts key on the workflow / heartbeat
+    name alone (2026-09-29: 'failure/failure' vs 'failure/cancelled' were two
+    keys for one dead pipeline)."""
+    head = issue.split("\u2014")[0].strip()
+    m = re.match(r"^([\w.-]+\.ya?ml):", head)
+    if m:
+        return "wd-alert:wf:" + m.group(1)
+    m = re.match(r"^(heartbeat:[\w-]+):", head)
+    if m:
+        return "wd-alert:" + m.group(1)
+    return "wd-alert:" + re.sub(r"[^a-z]+", "-", head.lower())[:60]
+
+
+def _stamp(issue: str) -> str:
+    return (f"[PIPELINE ALERT] {issue}\n(still true as of "
+            f"{NOW.strftime('%Y-%m-%d %H:%M')} UTC; this card refreshes in "
+            "place and auto-resolves when the condition clears)")
+
+
+def reconcile_notes(issues: list[str]) -> list[str]:
+    """ONE open note per alert key, refreshed in place (Santino 2026-09-29:
+    2,489 open notes, the same 'cadence SLA' card stacked weekly per client).
+
+    - condition true + open card exists  -> PATCH its body (newest kept,
+      any older duplicates of the same key resolved). No SMS.
+    - condition true + card auto-cleared by us < 7d ago -> REOPEN it. No SMS.
+    - condition true + human resolved it < 7d ago -> respect that (quiet).
+    - condition true + nothing           -> file a new card (+ SMS, fresh).
+    - open card whose key is NOT in this run's issues -> the condition
+      cleared: resolve it (marked auto_cleared so a relapse reopens it).
+    Returns the list of FRESH issues (the only ones that text Santino)."""
+    now_iso = NOW.isoformat().replace("+00:00", "Z")
+    open_notes = _sb("GET", "/rest/v1/marketing_ops_notes?status=eq.open"
+                     "&author=eq.pipeline_watchdog&company_id=is.null"
+                     "&select=id,body,created_at&order=created_at.desc"
+                     "&limit=1000", prefer="return=representation") or []
+    by_key: dict[str, list[dict]] = {}
+    for n in open_notes:
+        b = (n.get("body") or "").split("\n(still true as of")[0]
+        b = b.replace("[PIPELINE ALERT]", "", 1).strip()
+        by_key.setdefault(alert_key(b), []).append(n)   # newest first
+    current: dict[str, str] = {}
+    for issue in issues:
+        current.setdefault(alert_key(issue), issue)
+    fresh: list[str] = []
+
+    def _resolve(ids: list[str]) -> None:
+        for i in ids:
+            _sb("PATCH", f"/rest/v1/marketing_ops_notes?id=eq.{i}",
+                {"status": "resolved", "resolved_at": now_iso})
+
+    def _kv_put(key: str, v: dict) -> None:
+        _sb("POST", "/rest/v1/ops_kv?on_conflict=k", {"k": key, "v": v},
+            prefer="resolution=merge-duplicates")
+
+    for key, issue in current.items():
+        print(f"  !! {issue}")
+        notes = by_key.get(key) or []
+        seen = ((_sb("GET", f"/rest/v1/ops_kv?k=eq.{key}&select=v")
+                 or [{}])[0].get("v") or {})
+        if notes:
+            keep, dupes = notes[0], notes[1:]
+            _sb("PATCH", f"/rest/v1/marketing_ops_notes?id=eq.{keep['id']}",
+                {"body": _stamp(issue)})
+            _resolve([d["id"] for d in dupes])
+            _kv_put(key, {"at": seen.get("at") or NOW.isoformat(),
+                          "note_id": keep["id"]})
+            continue
+        at = seen.get("at")
+        recent = bool(at) and (NOW - datetime.fromisoformat(at)).days < 7
+        if recent and seen.get("auto_cleared") and seen.get("note_id"):
+            _sb("PATCH", f"/rest/v1/marketing_ops_notes?id=eq.{seen['note_id']}",
+                {"status": "open", "resolved_at": None, "body": _stamp(issue)})
+            _kv_put(key, {"at": at, "note_id": seen["note_id"]})
+            print("     (relapse: reopened the auto-cleared card)")
+            continue
+        if recent:
+            continue  # a human resolved it this week; stay quiet
+        row = _sb("POST", "/rest/v1/marketing_ops_notes",
+                  {"company_id": None, "status": "open",
+                   "author": "pipeline_watchdog", "body": _stamp(issue)},
+                  prefer="return=representation") or [{}]
+        fresh.append(issue)
+        _kv_put(key, {"at": NOW.isoformat(), "note_id": (row[0] or {}).get("id")})
+    cleared = 0
+    for key, notes in by_key.items():
+        if key in current:
+            continue
+        _resolve([n["id"] for n in notes])
+        seen = ((_sb("GET", f"/rest/v1/ops_kv?k=eq.{key}&select=v")
+                 or [{}])[0].get("v") or {})
+        _kv_put(key, {"at": seen.get("at") or NOW.isoformat(),
+                      "note_id": notes[0]["id"], "auto_cleared": True})
+        cleared += len(notes)
+    if cleared:
+        print(f"  cleared: {cleared} card(s) whose condition no longer holds")
+    return fresh
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
@@ -488,26 +598,10 @@ def main() -> int:
               + check_nap_parity())
     if not issues:
         print("pipeline watchdog: ALL SYSTEMS ALIVE")
-    fresh: list[str] = []
-    for issue in issues:
-        print(f"  !! {issue}")
-        if a.dry_run:
-            continue
-        # digits stripped (2026-09-19: '0/2 posts' -> '1/2 posts' minted a
-        # NEW key daily, so one starved client stacked rows + SMS noise)
-        key = "wd-alert:" + re.sub(
-            r"[^a-z]+", "-", issue.split("—")[0].lower())[:60]
-        seen = (_sb("GET", f"/rest/v1/ops_kv?k=eq.{key}&select=v") or [{}])[0]
-        at = (seen.get("v") or {}).get("at")
-        if at and (NOW - datetime.fromisoformat(at)).days < 7:
-            continue  # already alerted this week
-        fresh.append(issue)
-        _sb("POST", "/rest/v1/marketing_ops_notes",
-            {"company_id": None, "status": "open", "author": "pipeline_watchdog",
-             "body": f"[PIPELINE ALERT] {issue}"}, prefer="return=minimal")
-        _sb("POST", "/rest/v1/ops_kv?on_conflict=k",
-            {"k": key, "v": {"at": NOW.isoformat()}},
-            prefer="resolution=merge-duplicates")
+    fresh = [] if a.dry_run else reconcile_notes(issues)
+    if a.dry_run:
+        for issue in issues:
+            print(f"  !! {issue}  [key {alert_key(issue)}]")
     # SMS to Santino (2026-09-17: "not only Ops Attention but also a text —
     # I don't really view Ops Attention"). One text per run, NEW issues only
     # (the 7-day dedupe above already keeps repeats quiet). Same ops-ping

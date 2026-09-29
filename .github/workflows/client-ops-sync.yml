@@ -274,6 +274,12 @@ jobs:
           # Every silent failure class from the RX postmortem alerts
           # into Ops Attention within a day.
           python3 scripts/pipeline_watchdog.py || true
+          # OPS NOTE AUTO-EXPIRE (2026-09-29, backlog hit 2,489 open notes):
+          # per-tag TTLs + newest-per-client supersede for MACHINE notes only
+          # (analyzer, preview pipeline, stage, dev handbacks, client-email
+          # intake, Monica acks). Human/Monica notes are never touched. Rules
+          # in the script docstring.
+          python3 scripts/ops_note_expire.py || true
 
       - name: Mini heartbeat mirror (superadmin dot, 2026-09-14)
         # The Mac Mini heartbeats + daily-reports by git commit; this step

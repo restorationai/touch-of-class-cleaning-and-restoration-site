@@ -31,9 +31,11 @@ board, the ledger tables, the artifacts other people can see. Never from the
 same self-report as the inputs: a system that stamps a heartbeat and writes
 nothing must still be caught.
 
-A RED files ONE [TODO-SANTINO] card per system per UTC day (ops_kv
-`silence-watch-state`), so a week-long stall is a week of one card a day, not
-a flood. The card carries the exact command to check with. Systems whose
+A RED keeps ONE open [TODO-SANTINO] card per system (2026-09-29: was one
+per UTC day, which stacked 17 cards for one stall): the open card's body is
+refreshed in place each pass, and it auto-resolves when the system is green
+or quiet again. A human-resolved card that is still red is re-filed at most
+once per UTC day (ops_kv `silence-watch-state`). The card carries the exact command to check with. Systems whose
 probe itself fails are held as "unknown" and only carded when unknown two
 runs running — a flaky lookup is not an outage, but a lookup that never
 recovers is.
@@ -51,6 +53,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -435,7 +438,32 @@ def cmd_check(args) -> int:
     today = NOW.strftime("%Y-%m-%d")
     company_id = None
     fired = 0
+    # ONE open card per system, refreshed in place (2026-09-29: the
+    # one-card-per-day rule stacked 17 open 'Bing sweep' cards on RX).
+    open_cards: dict[str, list[dict]] = {}
+    try:
+        for n in _rows("/rest/v1/marketing_ops_notes?status=eq.open"
+                       "&author=eq.silence-watch&select=id,body"
+                       "&order=created_at.desc&limit=500"):
+            m = re.search(r"ORIGIN: silence-watch \| system=([\w-]+)",
+                          n.get("body") or "")
+            if m:
+                open_cards.setdefault(m.group(1), []).append(n)
+    except Exception as e:  # noqa: BLE001
+        print(f"  [watch] open-card read failed ({str(e)[:90]})")
+        open_cards = None
+    now_z = _iso(NOW)
     for v in verdicts:
+        cards = (open_cards or {}).get(v["key"]) or []
+        if (not dry_run and open_cards is not None and cards
+                and v["state"] in ("green", "quiet")):
+            # Condition cleared: the system produced again (or has nothing
+            # to do). Close its card(s) so the board only shows live REDs.
+            for c in cards:
+                _sb("PATCH", f"/rest/v1/marketing_ops_notes?id=eq.{c['id']}",
+                    {"status": "resolved", "resolved_at": now_z})
+            print(f"  [watch] {v['key']}: {v['state']} again, "
+                  f"{len(cards)} card(s) auto-resolved")
         prev = state.get(v["key"]) or {}
         alarm = v["state"] in ("silent", "never")
         if v["state"] == "unknown":
@@ -455,10 +483,20 @@ def cmd_check(args) -> int:
                            "last_card_on": prev.get("last_card_on")}
         if not alarm:
             continue
+        body = compose_card(v)
+        if cards and not dry_run:
+            # Still red: refresh the newest open card, close any duplicates.
+            _sb("PATCH", f"/rest/v1/marketing_ops_notes?id=eq.{cards[0]['id']}",
+                {"body": body})
+            for c in cards[1:]:
+                _sb("PATCH", f"/rest/v1/marketing_ops_notes?id=eq.{c['id']}",
+                    {"status": "resolved", "resolved_at": now_z})
+            state[v["key"]]["last_card_on"] = today
+            print(f"  [watch] {v['key']}: open card refreshed in place")
+            continue
         if prev.get("last_card_on") == today:
             print(f"  [watch] {v['key']}: already carded today")
             continue
-        body = compose_card(v)
         if dry_run:
             print(f"  [dry-run] would file:\n    "
                   + body.replace("\n", "\n    "))
