@@ -4,20 +4,26 @@
   "site": "purocleaneastlasvegas.com",
   "live_origin": "https://purocleaneastlasvegas.com",
   "live_origin_source": "apex",
-  "generated_at": "2026-09-28T23:27:12Z",
+  "generated_at": "2026-09-29T00:30:00Z",
   "audit_form_factor": "desktop",
   "supplementary_form_factors": [
     "mobile"
   ],
   "lighthouse_version": "13.4.0",
-  "lighthouse_detail": "full audits extracted from REST live response; all failing non-informational audits stored per URL (sorted severity then LCP savings), not just top 5, so month-over-month diffs are not distorted by truncation",
   "environment_caveats": [
-    "Audited the apex production origin (https://purocleaneastlasvegas.com). The client record has no apex_cutover.completed_at but has cut_over_at=2026-07-23 and the apex serves 200 with no x-robots-tag, so the staging noindex correction does not apply and SEO counts toward the verdict.",
-    "Canonical scoring is DESKTOP (formFactor=desktop), recorded in audit_form_factor. Lighthouse and instant_pages were called through the DataForSEO REST API directly (on_page/lighthouse/live/json with for_mobile false and true), so a supplementary mobile pass is stored per URL under .mobile and in site_rollup.avg_scores_mobile.",
-    "Lighthouse lab scores are single-run measurements. Month-over-month deltas of a few points or ~100-200ms LCP are within normal run-to-run variance; the mobile regression flagged this month is larger than that and has an identified cause (new GA4 gtag.js on every page, unused-javascript newly failing on all 6 URLs, mobile TBT up from 0-2ms to 27-264ms).",
-    "has_micromarkup_errors (5 of 6 URLs) is carried at low severity for the same reason documented in the 2026-08-27 audit: the validator messages are optional-field warnings (FAQPage Question.text/answerCount, trailing BreadcrumbList item). The one real schema defect, \"foundingDate\": \"\" in Organization and LocalBusiness JSON-LD, was re-verified on the live HTML and is still present; it has no Lighthouse or DataForSEO check ID so it lives in the report recommendations only.",
+    "Audited the apex production origin (https://purocleaneastlasvegas.com). clients/puroclean-east-las-vegas.json has apex_cutover=null, but the apex serves 200 with no x-robots-tag and the 2026-08-27 baseline was also taken on the apex, so the apex was used for month-over-month comparability. The staging noindex correction in Step 4 does not apply and SEO counts toward the verdict.",
+    "clients/puroclean-east-las-vegas.json has status=\"live\", not \"active\". build_status=pushed_main and the apex origin serves 200, so the audit proceeded (same as the prior run).",
+    "Canonical scoring is DESKTOP (formFactor=desktop), recorded in audit_form_factor. The run called the DataForSEO REST endpoint on_page/lighthouse/live/json directly; a supplementary mobile pass (for_mobile=true) is stored per-URL under .mobile and in site_rollup.avg_scores_mobile. Desktop remains canonical for month-over-month comparability.",
+    "lighthouse_issues lists every scored audit below 0.9 (max 8 per URL) rather than a top-5 cap, so that new/resolved issue detection is not distorted by the cap. Detail extracted from the full Lighthouse JSON on disk.",
+    "Severity mapping for Lighthouse issues (unchanged from prior run): color-contrast = high; any other audit scoring 0 = medium; audits scoring 0.5 = low. Only on-page high/medium issues drive the verdict; Lighthouse issues drive it via category scores.",
+    "DataForSEO check has_micromarkup_errors is no longer raised on any audited URL (was 5 of 6 in August). However, Organization/LocalBusiness foundingDate is still emitted as an empty string (\"\") in the JSON-LD (verified by curl on /). There is no DataForSEO or Lighthouse check ID for this, so it is carried in recommendations, not onpage_issues[].",
+    "DataForSEO passes (is_https, canonical, has_html_doctype, seo_friendly_url*) are not recorded as issues. no_image_title is excluded: the img title attribute is not an SEO requirement and Lighthouse image-alt passes on every page.",
+    "The 'frame' check on /service-areas/henderson-nv/ is the lazy-loaded Google Maps embed. It is intentional and recorded as low severity.",
+    "Word counts meet url-plan target_word_count on all 6 URLs; titles 48-63 chars, meta descriptions 99-143 chars, exactly one H1, self-referencing canonical, no broken links or resources on any URL.",
     "INP is null on every URL: interaction-to-next-paint is a field metric and is not produced by a Lighthouse lab run.",
-    "clients/puroclean-east-las-vegas.json has status=\"live\", not \"active\". build_status=pushed_main and the apex serves 200, so the audit proceeded."
+    "Raw responses were written to a dedicated scratch directory (/tmp/rank-ai-audit/pcelv/) to avoid collision with other clients' files in /tmp/rank-ai-audit/raw; every file used was verified to resolve to purocleaneastlasvegas.com.",
+    "Prior (2026-08-27) run capped lighthouse_issues at 5 per URL. On the home page the prior list already reached low-severity items, so unused-javascript (medium) and forced-reflow-insight (medium) are genuinely new there. On the other 5 URLs, 'new' cache-insight (low) entries may be an artifact of the prior cap rather than a real change; unused-javascript is attributed to the Google tag (gtag/js?id=G-M4N5NVD0WN, ~69 KiB unused of ~156 KiB) on every page and is treated as new site-wide.",
+    "Supplementary mobile averages dropped from 94.7 to 87.7 performance (mobile LCP now 2.5-4.1s vs 2.6-3.4s in August). Mobile is not canonical and does not drive the verdict, but the drop coincides with the new gtag.js payload and is called out in the report."
   ],
   "audited_urls": [
     {
@@ -32,8 +38,8 @@
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 974,
-        "CLS": 0.0055,
+        "LCP_ms": 951,
+        "CLS": 0.0044,
         "TBT_ms": 0,
         "INP_ms": null
       },
@@ -42,8 +48,8 @@
           "id": "unused-javascript",
           "title": "Reduce unused JavaScript",
           "severity": "medium",
-          "estimated_savings_ms": 50,
-          "estimated_savings_bytes": 70245,
+          "estimated_savings_ms": 100,
+          "estimated_savings_bytes": 70224,
           "display_value": "Est savings of 69 KiB",
           "category": "performance"
         },
@@ -51,9 +57,18 @@
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "medium",
-          "estimated_savings_ms": 50,
+          "estimated_savings_ms": 100,
           "estimated_savings_bytes": null,
           "display_value": "Est savings of 95 KiB",
+          "category": "performance"
+        },
+        {
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
           "category": "performance"
         },
         {
@@ -96,18 +111,29 @@
           "severity": "low"
         }
       ],
+      "onpage_meta": {
+        "status_code": 200,
+        "title_length": 49,
+        "description_length": 143,
+        "h1_count": 1,
+        "word_count": 1603,
+        "canonical": "https://purocleaneastlasvegas.com/",
+        "broken_links": false,
+        "broken_resources": false,
+        "onpage_score": 100
+      },
       "mobile": {
-        "verdict": "amber",
+        "verdict": "green",
         "scores": {
-          "performance": 86,
+          "performance": 90,
           "accessibility": 100,
           "best_practices": 100,
           "seo": 100
         },
         "core_web_vitals": {
-          "LCP_ms": 3448,
-          "CLS": 0.0339,
-          "TBT_ms": 264,
+          "LCP_ms": 3482,
+          "CLS": 0.0003,
+          "TBT_ms": 139,
           "INP_ms": null
         },
         "lighthouse_issues": [
@@ -116,7 +142,7 @@
             "title": "Reduce unused JavaScript",
             "severity": "medium",
             "estimated_savings_ms": 450,
-            "estimated_savings_bytes": 70227,
+            "estimated_savings_bytes": 70239,
             "display_value": "Est savings of 69 KiB",
             "category": "performance"
           },
@@ -130,12 +156,12 @@
             "category": "performance"
           },
           {
-            "id": "largest-contentful-paint",
-            "title": "Largest Contentful Paint",
+            "id": "forced-reflow-insight",
+            "title": "Forced reflow",
             "severity": "medium",
             "estimated_savings_ms": null,
             "estimated_savings_bytes": null,
-            "display_value": "3.4 s",
+            "display_value": null,
             "category": "performance"
           },
           {
@@ -148,21 +174,12 @@
             "category": "performance"
           },
           {
-            "id": "total-blocking-time",
-            "title": "Total Blocking Time",
+            "id": "largest-contentful-paint",
+            "title": "Largest Contentful Paint",
             "severity": "low",
             "estimated_savings_ms": null,
             "estimated_savings_bytes": null,
-            "display_value": "260 ms",
-            "category": "performance"
-          },
-          {
-            "id": "max-potential-fid",
-            "title": "Max Potential First Input Delay",
-            "severity": "low",
-            "estimated_savings_ms": null,
-            "estimated_savings_bytes": null,
-            "display_value": "180 ms",
+            "display_value": "3.5 s",
             "category": "performance"
           },
           {
@@ -175,15 +192,6 @@
             "category": "performance"
           },
           {
-            "id": "forced-reflow-insight",
-            "title": "Forced reflow",
-            "severity": "low",
-            "estimated_savings_ms": null,
-            "estimated_savings_bytes": null,
-            "display_value": null,
-            "category": "performance"
-          },
-          {
             "id": "render-blocking-insight",
             "title": "Render-blocking requests",
             "severity": "low",
@@ -193,19 +201,6 @@
             "category": "performance"
           }
         ]
-      },
-      "onpage_meta": {
-        "status_code": 200,
-        "onpage_score": 100,
-        "title_length": 49,
-        "description_length": 143,
-        "canonical": "https://purocleaneastlasvegas.com/",
-        "h1_count": 1,
-        "word_count": 1601,
-        "broken_links": false,
-        "broken_resources": false,
-        "duplicate_title": false,
-        "duplicate_description": false
       }
     },
     {
@@ -220,8 +215,8 @@
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 975,
-        "CLS": 0.0044,
+        "LCP_ms": 989,
+        "CLS": 0.0049,
         "TBT_ms": 0,
         "INP_ms": null
       },
@@ -240,7 +235,7 @@
           "title": "Reduce unused JavaScript",
           "severity": "medium",
           "estimated_savings_ms": 100,
-          "estimated_savings_bytes": 70186,
+          "estimated_savings_bytes": 70272,
           "display_value": "Est savings of 69 KiB",
           "category": "performance"
         },
@@ -248,9 +243,231 @@
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "medium",
-          "estimated_savings_ms": 100,
+          "estimated_savings_ms": 50,
           "estimated_savings_bytes": null,
           "display_value": "Est savings of 214 KiB",
+          "category": "performance"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": "Est savings of 40 ms",
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": "Est savings of 0 KiB",
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Render-blocking stylesheet in <head>",
+          "severity": "low"
+        },
+        {
+          "id": "low_content_rate",
+          "title": "Low text-to-HTML ratio",
+          "severity": "low"
+        }
+      ],
+      "onpage_meta": {
+        "status_code": 200,
+        "title_length": 63,
+        "description_length": 141,
+        "h1_count": 1,
+        "word_count": 826,
+        "canonical": "https://purocleaneastlasvegas.com/services/",
+        "broken_links": false,
+        "broken_resources": false,
+        "onpage_score": 100
+      },
+      "mobile": {
+        "verdict": "amber",
+        "scores": {
+          "performance": 88,
+          "accessibility": 95,
+          "best_practices": 100,
+          "seo": 100
+        },
+        "core_web_vitals": {
+          "LCP_ms": 3789,
+          "CLS": 0.0344,
+          "TBT_ms": 68,
+          "INP_ms": null
+        },
+        "lighthouse_issues": [
+          {
+            "id": "color-contrast",
+            "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+            "severity": "high",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": null,
+            "category": "accessibility"
+          },
+          {
+            "id": "unused-javascript",
+            "title": "Reduce unused JavaScript",
+            "severity": "medium",
+            "estimated_savings_ms": 200,
+            "estimated_savings_bytes": 70227,
+            "display_value": "Est savings of 69 KiB",
+            "category": "performance"
+          },
+          {
+            "id": "image-delivery-insight",
+            "title": "Improve image delivery",
+            "severity": "medium",
+            "estimated_savings_ms": 150,
+            "estimated_savings_bytes": null,
+            "display_value": "Est savings of 161 KiB",
+            "category": "performance"
+          },
+          {
+            "id": "lcp-discovery-insight",
+            "title": "LCP request discovery",
+            "severity": "medium",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": null,
+            "category": "performance"
+          },
+          {
+            "id": "network-dependency-tree-insight",
+            "title": "Network dependency tree",
+            "severity": "medium",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": null,
+            "category": "performance"
+          },
+          {
+            "id": "render-blocking-insight",
+            "title": "Render-blocking requests",
+            "severity": "medium",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "Est savings of 70 ms",
+            "category": "performance"
+          },
+          {
+            "id": "largest-contentful-paint",
+            "title": "Largest Contentful Paint",
+            "severity": "low",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "3.8 s",
+            "category": "performance"
+          },
+          {
+            "id": "max-potential-fid",
+            "title": "Max Potential First Input Delay",
+            "severity": "low",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "140 ms",
+            "category": "performance"
+          },
+          {
+            "id": "interactive",
+            "title": "Time to Interactive",
+            "severity": "low",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "3.9 s",
+            "category": "performance"
+          },
+          {
+            "id": "cache-insight",
+            "title": "Use efficient cache lifetimes",
+            "severity": "low",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "Est savings of 0 KiB",
+            "category": "performance"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://purocleaneastlasvegas.com/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 98,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 936,
+        "CLS": 0.0053,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 100,
+          "estimated_savings_bytes": null,
+          "display_value": "Est savings of 110 KiB",
+          "category": "performance"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "medium",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": 70239,
+          "display_value": "Est savings of 69 KiB",
+          "category": "performance"
+        },
+        {
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
           "category": "performance"
         },
         {
@@ -286,7 +503,7 @@
           "severity": "low",
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
-          "display_value": "Est savings of 40 ms",
+          "display_value": null,
           "category": "performance"
         }
       ],
@@ -295,30 +512,31 @@
           "id": "has_render_blocking_resources",
           "title": "Render-blocking stylesheet in <head>",
           "severity": "low"
-        },
-        {
-          "id": "low_content_rate",
-          "title": "Low text-to-HTML ratio",
-          "severity": "low"
-        },
-        {
-          "id": "has_micromarkup_errors",
-          "title": "Structured data validation warnings (FAQPage Question.text/answerCount, BreadcrumbList trailing item, empty LocalBusiness foundingDate)",
-          "severity": "low"
         }
       ],
+      "onpage_meta": {
+        "status_code": 200,
+        "title_length": 48,
+        "description_length": 106,
+        "h1_count": 1,
+        "word_count": 1604,
+        "canonical": "https://purocleaneastlasvegas.com/services/fire-damage-restoration/",
+        "broken_links": false,
+        "broken_resources": false,
+        "onpage_score": 100
+      },
       "mobile": {
-        "verdict": "amber",
+        "verdict": "green",
         "scores": {
-          "performance": 83,
+          "performance": 97,
           "accessibility": 95,
           "best_practices": 100,
           "seo": 100
         },
         "core_web_vitals": {
-          "LCP_ms": 4298,
-          "CLS": 0.0348,
-          "TBT_ms": 183,
+          "LCP_ms": 2543,
+          "CLS": 0.0232,
+          "TBT_ms": 14,
           "INP_ms": null
         },
         "lighthouse_issues": [
@@ -335,27 +553,9 @@
             "id": "image-delivery-insight",
             "title": "Improve image delivery",
             "severity": "medium",
-            "estimated_savings_ms": 650,
+            "estimated_savings_ms": 800,
             "estimated_savings_bytes": null,
-            "display_value": "Est savings of 176 KiB",
-            "category": "performance"
-          },
-          {
-            "id": "unused-javascript",
-            "title": "Reduce unused JavaScript",
-            "severity": "medium",
-            "estimated_savings_ms": 300,
-            "estimated_savings_bytes": 69526,
-            "display_value": "Est savings of 68 KiB",
-            "category": "performance"
-          },
-          {
-            "id": "largest-contentful-paint",
-            "title": "Largest Contentful Paint",
-            "severity": "medium",
-            "estimated_savings_ms": null,
-            "estimated_savings_bytes": null,
-            "display_value": "4.3 s",
+            "display_value": "Est savings of 160 KiB",
             "category": "performance"
           },
           {
@@ -377,21 +577,21 @@
             "category": "performance"
           },
           {
-            "id": "max-potential-fid",
-            "title": "Max Potential First Input Delay",
+            "id": "unused-javascript",
+            "title": "Reduce unused JavaScript",
             "severity": "low",
             "estimated_savings_ms": null,
-            "estimated_savings_bytes": null,
-            "display_value": "140 ms",
+            "estimated_savings_bytes": 67120,
+            "display_value": "Est savings of 66 KiB",
             "category": "performance"
           },
           {
-            "id": "interactive",
-            "title": "Time to Interactive",
+            "id": "largest-contentful-paint",
+            "title": "Largest Contentful Paint",
             "severity": "low",
             "estimated_savings_ms": null,
             "estimated_savings_bytes": null,
-            "display_value": "4.3 s",
+            "display_value": "2.5 s",
             "category": "performance"
           },
           {
@@ -409,39 +609,474 @@
             "severity": "low",
             "estimated_savings_ms": null,
             "estimated_savings_bytes": null,
-            "display_value": "Est savings of 100 ms",
+            "display_value": null,
             "category": "performance"
           }
         ]
-      },
-      "onpage_meta": {
-        "status_code": 200,
-        "onpage_score": 100,
-        "title_length": 63,
-        "description_length": 141,
-        "canonical": "https://purocleaneastlasvegas.com/services/",
-        "h1_count": 1,
-        "word_count": 824,
-        "broken_links": false,
-        "broken_resources": false,
-        "duplicate_title": false,
-        "duplicate_description": false
       }
     },
     {
-      "url": "https://purocleaneastlasvegas.com/services/fire-damage-restoration/",
+      "url": "https://purocleaneastlasvegas.com/services/mold-remediation/",
       "archetype": "service-landing",
       "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 99,
+        "performance": 98,
         "accessibility": 95,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 901,
-        "CLS": 0.0073,
+        "LCP_ms": 898,
+        "CLS": 0.0098,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "medium",
+          "estimated_savings_ms": 100,
+          "estimated_savings_bytes": 69526,
+          "display_value": "Est savings of 68 KiB",
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": null,
+          "display_value": "Est savings of 47 KiB",
+          "category": "performance"
+        },
+        {
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "performance"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": "Est savings of 0 KiB",
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Render-blocking stylesheet in <head>",
+          "severity": "low"
+        }
+      ],
+      "onpage_meta": {
+        "status_code": 200,
+        "title_length": 59,
+        "description_length": 99,
+        "h1_count": 1,
+        "word_count": 1711,
+        "canonical": "https://purocleaneastlasvegas.com/services/mold-remediation/",
+        "broken_links": false,
+        "broken_resources": false,
+        "onpage_score": 100
+      },
+      "mobile": {
+        "verdict": "amber",
+        "scores": {
+          "performance": 83,
+          "accessibility": 95,
+          "best_practices": 100,
+          "seo": 100
+        },
+        "core_web_vitals": {
+          "LCP_ms": 3873,
+          "CLS": 0.0011,
+          "TBT_ms": 267,
+          "INP_ms": null
+        },
+        "lighthouse_issues": [
+          {
+            "id": "color-contrast",
+            "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+            "severity": "high",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": null,
+            "category": "accessibility"
+          },
+          {
+            "id": "unused-javascript",
+            "title": "Reduce unused JavaScript",
+            "severity": "medium",
+            "estimated_savings_ms": 550,
+            "estimated_savings_bytes": 70224,
+            "display_value": "Est savings of 69 KiB",
+            "category": "performance"
+          },
+          {
+            "id": "image-delivery-insight",
+            "title": "Improve image delivery",
+            "severity": "medium",
+            "estimated_savings_ms": 500,
+            "estimated_savings_bytes": null,
+            "display_value": "Est savings of 88 KiB",
+            "category": "performance"
+          },
+          {
+            "id": "lcp-discovery-insight",
+            "title": "LCP request discovery",
+            "severity": "medium",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": null,
+            "category": "performance"
+          },
+          {
+            "id": "network-dependency-tree-insight",
+            "title": "Network dependency tree",
+            "severity": "medium",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": null,
+            "category": "performance"
+          },
+          {
+            "id": "render-blocking-insight",
+            "title": "Render-blocking requests",
+            "severity": "medium",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "Est savings of 130 ms",
+            "category": "performance"
+          },
+          {
+            "id": "largest-contentful-paint",
+            "title": "Largest Contentful Paint",
+            "severity": "low",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "3.9 s",
+            "category": "performance"
+          },
+          {
+            "id": "total-blocking-time",
+            "title": "Total Blocking Time",
+            "severity": "low",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "270 ms",
+            "category": "performance"
+          },
+          {
+            "id": "max-potential-fid",
+            "title": "Max Potential First Input Delay",
+            "severity": "low",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "240 ms",
+            "category": "performance"
+          },
+          {
+            "id": "interactive",
+            "title": "Time to Interactive",
+            "severity": "low",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "4.0 s",
+            "category": "performance"
+          },
+          {
+            "id": "cache-insight",
+            "title": "Use efficient cache lifetimes",
+            "severity": "low",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "Est savings of 0 KiB",
+            "category": "performance"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://purocleaneastlasvegas.com/service-areas/henderson-nv/",
+      "archetype": "service-area",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 98,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 927,
+        "CLS": 0.006,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "medium",
+          "estimated_savings_ms": 100,
+          "estimated_savings_bytes": 69582,
+          "display_value": "Est savings of 68 KiB",
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": null,
+          "display_value": "Est savings of 92 KiB",
+          "category": "performance"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": "Est savings of 0 KiB",
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Render-blocking stylesheet in <head>",
+          "severity": "low"
+        },
+        {
+          "id": "frame",
+          "title": "Page contains an iframe (embedded Google Map)",
+          "severity": "low"
+        }
+      ],
+      "onpage_meta": {
+        "status_code": 200,
+        "title_length": 49,
+        "description_length": 112,
+        "h1_count": 1,
+        "word_count": 1380,
+        "canonical": "https://purocleaneastlasvegas.com/service-areas/henderson-nv/",
+        "broken_links": false,
+        "broken_resources": false,
+        "onpage_score": 100
+      },
+      "mobile": {
+        "verdict": "amber",
+        "scores": {
+          "performance": 87,
+          "accessibility": 96,
+          "best_practices": 100,
+          "seo": 100
+        },
+        "core_web_vitals": {
+          "LCP_ms": 3982,
+          "CLS": 0.002,
+          "TBT_ms": 112,
+          "INP_ms": null
+        },
+        "lighthouse_issues": [
+          {
+            "id": "color-contrast",
+            "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+            "severity": "high",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": null,
+            "category": "accessibility"
+          },
+          {
+            "id": "image-delivery-insight",
+            "title": "Improve image delivery",
+            "severity": "medium",
+            "estimated_savings_ms": 500,
+            "estimated_savings_bytes": null,
+            "display_value": "Est savings of 134 KiB",
+            "category": "performance"
+          },
+          {
+            "id": "unused-javascript",
+            "title": "Reduce unused JavaScript",
+            "severity": "medium",
+            "estimated_savings_ms": 450,
+            "estimated_savings_bytes": 70272,
+            "display_value": "Est savings of 69 KiB",
+            "category": "performance"
+          },
+          {
+            "id": "forced-reflow-insight",
+            "title": "Forced reflow",
+            "severity": "medium",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": null,
+            "category": "performance"
+          },
+          {
+            "id": "lcp-discovery-insight",
+            "title": "LCP request discovery",
+            "severity": "medium",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": null,
+            "category": "performance"
+          },
+          {
+            "id": "network-dependency-tree-insight",
+            "title": "Network dependency tree",
+            "severity": "medium",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": null,
+            "category": "performance"
+          },
+          {
+            "id": "render-blocking-insight",
+            "title": "Render-blocking requests",
+            "severity": "medium",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "Est savings of 120 ms",
+            "category": "performance"
+          },
+          {
+            "id": "largest-contentful-paint",
+            "title": "Largest Contentful Paint",
+            "severity": "low",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "4.0 s",
+            "category": "performance"
+          },
+          {
+            "id": "max-potential-fid",
+            "title": "Max Potential First Input Delay",
+            "severity": "low",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "140 ms",
+            "category": "performance"
+          },
+          {
+            "id": "interactive",
+            "title": "Time to Interactive",
+            "severity": "low",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "4.0 s",
+            "category": "performance"
+          },
+          {
+            "id": "cache-insight",
+            "title": "Use efficient cache lifetimes",
+            "severity": "low",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "Est savings of 0 KiB",
+            "category": "performance"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://purocleaneastlasvegas.com/contact/",
+      "archetype": "contact",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 98,
+        "accessibility": 96,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 917,
+        "CLS": 0.0049,
         "TBT_ms": 0,
         "INP_ms": null
       },
@@ -459,9 +1094,9 @@
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "medium",
-          "estimated_savings_ms": 100,
+          "estimated_savings_ms": 150,
           "estimated_savings_bytes": null,
-          "display_value": "Est savings of 110 KiB",
+          "display_value": "Est savings of 167 KiB",
           "category": "performance"
         },
         {
@@ -517,646 +1152,34 @@
           "severity": "low"
         },
         {
-          "id": "has_micromarkup_errors",
-          "title": "Structured data validation warnings (FAQPage Question.text/answerCount, BreadcrumbList trailing item, empty LocalBusiness foundingDate)",
-          "severity": "low"
-        }
-      ],
-      "mobile": {
-        "verdict": "amber",
-        "scores": {
-          "performance": 87,
-          "accessibility": 95,
-          "best_practices": 100,
-          "seo": 100
-        },
-        "core_web_vitals": {
-          "LCP_ms": 4095,
-          "CLS": 0.0233,
-          "TBT_ms": 50,
-          "INP_ms": null
-        },
-        "lighthouse_issues": [
-          {
-            "id": "color-contrast",
-            "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-            "severity": "high",
-            "estimated_savings_ms": null,
-            "estimated_savings_bytes": null,
-            "display_value": null,
-            "category": "accessibility"
-          },
-          {
-            "id": "image-delivery-insight",
-            "title": "Improve image delivery",
-            "severity": "medium",
-            "estimated_savings_ms": 850,
-            "estimated_savings_bytes": null,
-            "display_value": "Est savings of 155 KiB",
-            "category": "performance"
-          },
-          {
-            "id": "unused-javascript",
-            "title": "Reduce unused JavaScript",
-            "severity": "medium",
-            "estimated_savings_ms": 300,
-            "estimated_savings_bytes": 70227,
-            "display_value": "Est savings of 69 KiB",
-            "category": "performance"
-          },
-          {
-            "id": "largest-contentful-paint",
-            "title": "Largest Contentful Paint",
-            "severity": "medium",
-            "estimated_savings_ms": null,
-            "estimated_savings_bytes": null,
-            "display_value": "4.1 s",
-            "category": "performance"
-          },
-          {
-            "id": "lcp-discovery-insight",
-            "title": "LCP request discovery",
-            "severity": "medium",
-            "estimated_savings_ms": null,
-            "estimated_savings_bytes": null,
-            "display_value": null,
-            "category": "performance"
-          },
-          {
-            "id": "network-dependency-tree-insight",
-            "title": "Network dependency tree",
-            "severity": "medium",
-            "estimated_savings_ms": null,
-            "estimated_savings_bytes": null,
-            "display_value": null,
-            "category": "performance"
-          },
-          {
-            "id": "interactive",
-            "title": "Time to Interactive",
-            "severity": "low",
-            "estimated_savings_ms": null,
-            "estimated_savings_bytes": null,
-            "display_value": "4.1 s",
-            "category": "performance"
-          },
-          {
-            "id": "cache-insight",
-            "title": "Use efficient cache lifetimes",
-            "severity": "low",
-            "estimated_savings_ms": null,
-            "estimated_savings_bytes": null,
-            "display_value": "Est savings of 0 KiB",
-            "category": "performance"
-          },
-          {
-            "id": "render-blocking-insight",
-            "title": "Render-blocking requests",
-            "severity": "low",
-            "estimated_savings_ms": null,
-            "estimated_savings_bytes": null,
-            "display_value": "Est savings of 140 ms",
-            "category": "performance"
-          }
-        ]
-      },
-      "onpage_meta": {
-        "status_code": 200,
-        "onpage_score": 100,
-        "title_length": 48,
-        "description_length": 106,
-        "canonical": "https://purocleaneastlasvegas.com/services/fire-damage-restoration/",
-        "h1_count": 1,
-        "word_count": 1598,
-        "broken_links": false,
-        "broken_resources": false,
-        "duplicate_title": false,
-        "duplicate_description": false
-      }
-    },
-    {
-      "url": "https://purocleaneastlasvegas.com/services/mold-remediation/",
-      "archetype": "service-landing",
-      "verdict": "green",
-      "error_reason": null,
-      "scores": {
-        "performance": 99,
-        "accessibility": 95,
-        "best_practices": 100,
-        "seo": 100
-      },
-      "core_web_vitals": {
-        "LCP_ms": 888,
-        "CLS": 0.0073,
-        "TBT_ms": 0,
-        "INP_ms": null
-      },
-      "lighthouse_issues": [
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "display_value": null,
-          "category": "accessibility"
-        },
-        {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "medium",
-          "estimated_savings_ms": 100,
-          "estimated_savings_bytes": 70227,
-          "display_value": "Est savings of 69 KiB",
-          "category": "performance"
-        },
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "medium",
-          "estimated_savings_ms": 50,
-          "estimated_savings_bytes": null,
-          "display_value": "Est savings of 47 KiB",
-          "category": "performance"
-        },
-        {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "display_value": null,
-          "category": "performance"
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "display_value": null,
-          "category": "performance"
-        },
-        {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "display_value": "Est savings of 0 KiB",
-          "category": "performance"
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "display_value": "Est savings of 40 ms",
-          "category": "performance"
-        }
-      ],
-      "onpage_issues": [
-        {
-          "id": "has_render_blocking_resources",
-          "title": "Render-blocking stylesheet in <head>",
-          "severity": "low"
-        },
-        {
-          "id": "has_micromarkup_errors",
-          "title": "Structured data validation warnings (FAQPage Question.text/answerCount, BreadcrumbList trailing item, empty LocalBusiness foundingDate)",
-          "severity": "low"
-        }
-      ],
-      "mobile": {
-        "verdict": "green",
-        "scores": {
-          "performance": 96,
-          "accessibility": 95,
-          "best_practices": 100,
-          "seo": 100
-        },
-        "core_web_vitals": {
-          "LCP_ms": 2802,
-          "CLS": 0.0011,
-          "TBT_ms": 58,
-          "INP_ms": null
-        },
-        "lighthouse_issues": [
-          {
-            "id": "color-contrast",
-            "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-            "severity": "high",
-            "estimated_savings_ms": null,
-            "estimated_savings_bytes": null,
-            "display_value": null,
-            "category": "accessibility"
-          },
-          {
-            "id": "image-delivery-insight",
-            "title": "Improve image delivery",
-            "severity": "medium",
-            "estimated_savings_ms": 150,
-            "estimated_savings_bytes": null,
-            "display_value": "Est savings of 88 KiB",
-            "category": "performance"
-          },
-          {
-            "id": "largest-contentful-paint",
-            "title": "Largest Contentful Paint",
-            "severity": "medium",
-            "estimated_savings_ms": null,
-            "estimated_savings_bytes": null,
-            "display_value": "2.8 s",
-            "category": "performance"
-          },
-          {
-            "id": "unused-javascript",
-            "title": "Reduce unused JavaScript",
-            "severity": "medium",
-            "estimated_savings_ms": null,
-            "estimated_savings_bytes": 70227,
-            "display_value": "Est savings of 69 KiB",
-            "category": "performance"
-          },
-          {
-            "id": "lcp-discovery-insight",
-            "title": "LCP request discovery",
-            "severity": "medium",
-            "estimated_savings_ms": null,
-            "estimated_savings_bytes": null,
-            "display_value": null,
-            "category": "performance"
-          },
-          {
-            "id": "network-dependency-tree-insight",
-            "title": "Network dependency tree",
-            "severity": "medium",
-            "estimated_savings_ms": null,
-            "estimated_savings_bytes": null,
-            "display_value": null,
-            "category": "performance"
-          },
-          {
-            "id": "cache-insight",
-            "title": "Use efficient cache lifetimes",
-            "severity": "low",
-            "estimated_savings_ms": null,
-            "estimated_savings_bytes": null,
-            "display_value": "Est savings of 0 KiB",
-            "category": "performance"
-          },
-          {
-            "id": "render-blocking-insight",
-            "title": "Render-blocking requests",
-            "severity": "low",
-            "estimated_savings_ms": null,
-            "estimated_savings_bytes": null,
-            "display_value": "Est savings of 150 ms",
-            "category": "performance"
-          }
-        ]
-      },
-      "onpage_meta": {
-        "status_code": 200,
-        "onpage_score": 100,
-        "title_length": 59,
-        "description_length": 99,
-        "canonical": "https://purocleaneastlasvegas.com/services/mold-remediation/",
-        "h1_count": 1,
-        "word_count": 1707,
-        "broken_links": false,
-        "broken_resources": false,
-        "duplicate_title": false,
-        "duplicate_description": false
-      }
-    },
-    {
-      "url": "https://purocleaneastlasvegas.com/service-areas/henderson-nv/",
-      "archetype": "service-area",
-      "verdict": "green",
-      "error_reason": null,
-      "scores": {
-        "performance": 99,
-        "accessibility": 95,
-        "best_practices": 100,
-        "seo": 100
-      },
-      "core_web_vitals": {
-        "LCP_ms": 872,
-        "CLS": 0.0039,
-        "TBT_ms": 0,
-        "INP_ms": null
-      },
-      "lighthouse_issues": [
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "display_value": null,
-          "category": "accessibility"
-        },
-        {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "medium",
-          "estimated_savings_ms": 100,
-          "estimated_savings_bytes": 67127,
-          "display_value": "Est savings of 66 KiB",
-          "category": "performance"
-        },
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "medium",
-          "estimated_savings_ms": 50,
-          "estimated_savings_bytes": null,
-          "display_value": "Est savings of 92 KiB",
-          "category": "performance"
-        },
-        {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "display_value": null,
-          "category": "performance"
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "display_value": null,
-          "category": "performance"
-        },
-        {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "display_value": "Est savings of 0 KiB",
-          "category": "performance"
-        },
-        {
-          "id": "forced-reflow-insight",
-          "title": "Forced reflow",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "display_value": null,
-          "category": "performance"
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "display_value": null,
-          "category": "performance"
-        }
-      ],
-      "onpage_issues": [
-        {
-          "id": "has_render_blocking_resources",
-          "title": "Render-blocking stylesheet in <head>",
-          "severity": "low"
-        },
-        {
-          "id": "has_micromarkup_errors",
-          "title": "Structured data validation warnings (FAQPage Question.text/answerCount, BreadcrumbList trailing item, empty LocalBusiness foundingDate)",
-          "severity": "low"
-        }
-      ],
-      "mobile": {
-        "verdict": "amber",
-        "scores": {
-          "performance": 88,
-          "accessibility": 96,
-          "best_practices": 100,
-          "seo": 100
-        },
-        "core_web_vitals": {
-          "LCP_ms": 3993,
-          "CLS": 0.0011,
-          "TBT_ms": 27,
-          "INP_ms": null
-        },
-        "lighthouse_issues": [
-          {
-            "id": "color-contrast",
-            "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-            "severity": "high",
-            "estimated_savings_ms": null,
-            "estimated_savings_bytes": null,
-            "display_value": null,
-            "category": "accessibility"
-          },
-          {
-            "id": "image-delivery-insight",
-            "title": "Improve image delivery",
-            "severity": "medium",
-            "estimated_savings_ms": 600,
-            "estimated_savings_bytes": null,
-            "display_value": "Est savings of 134 KiB",
-            "category": "performance"
-          },
-          {
-            "id": "unused-javascript",
-            "title": "Reduce unused JavaScript",
-            "severity": "medium",
-            "estimated_savings_ms": 300,
-            "estimated_savings_bytes": 67828,
-            "display_value": "Est savings of 66 KiB",
-            "category": "performance"
-          },
-          {
-            "id": "largest-contentful-paint",
-            "title": "Largest Contentful Paint",
-            "severity": "medium",
-            "estimated_savings_ms": null,
-            "estimated_savings_bytes": null,
-            "display_value": "4.0 s",
-            "category": "performance"
-          },
-          {
-            "id": "lcp-discovery-insight",
-            "title": "LCP request discovery",
-            "severity": "medium",
-            "estimated_savings_ms": null,
-            "estimated_savings_bytes": null,
-            "display_value": null,
-            "category": "performance"
-          },
-          {
-            "id": "network-dependency-tree-insight",
-            "title": "Network dependency tree",
-            "severity": "medium",
-            "estimated_savings_ms": null,
-            "estimated_savings_bytes": null,
-            "display_value": null,
-            "category": "performance"
-          },
-          {
-            "id": "interactive",
-            "title": "Time to Interactive",
-            "severity": "low",
-            "estimated_savings_ms": null,
-            "estimated_savings_bytes": null,
-            "display_value": "4.0 s",
-            "category": "performance"
-          },
-          {
-            "id": "cache-insight",
-            "title": "Use efficient cache lifetimes",
-            "severity": "low",
-            "estimated_savings_ms": null,
-            "estimated_savings_bytes": null,
-            "display_value": "Est savings of 0 KiB",
-            "category": "performance"
-          },
-          {
-            "id": "render-blocking-insight",
-            "title": "Render-blocking requests",
-            "severity": "low",
-            "estimated_savings_ms": null,
-            "estimated_savings_bytes": null,
-            "display_value": "Est savings of 140 ms",
-            "category": "performance"
-          }
-        ]
-      },
-      "onpage_meta": {
-        "status_code": 200,
-        "onpage_score": 100,
-        "title_length": 49,
-        "description_length": 112,
-        "canonical": "https://purocleaneastlasvegas.com/service-areas/henderson-nv/",
-        "h1_count": 1,
-        "word_count": 1378,
-        "broken_links": false,
-        "broken_resources": false,
-        "duplicate_title": false,
-        "duplicate_description": false
-      }
-    },
-    {
-      "url": "https://purocleaneastlasvegas.com/contact/",
-      "archetype": "contact",
-      "verdict": "green",
-      "error_reason": null,
-      "scores": {
-        "performance": 99,
-        "accessibility": 96,
-        "best_practices": 100,
-        "seo": 100
-      },
-      "core_web_vitals": {
-        "LCP_ms": 896,
-        "CLS": 0.0426,
-        "TBT_ms": 0,
-        "INP_ms": null
-      },
-      "lighthouse_issues": [
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "display_value": null,
-          "category": "accessibility"
-        },
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "medium",
-          "estimated_savings_ms": 150,
-          "estimated_savings_bytes": null,
-          "display_value": "Est savings of 167 KiB",
-          "category": "performance"
-        },
-        {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "medium",
-          "estimated_savings_ms": 50,
-          "estimated_savings_bytes": 70421,
-          "display_value": "Est savings of 69 KiB",
-          "category": "performance"
-        },
-        {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "display_value": null,
-          "category": "performance"
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "display_value": null,
-          "category": "performance"
-        },
-        {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "display_value": "Est savings of 0 KiB",
-          "category": "performance"
-        },
-        {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "display_value": null,
-          "category": "performance"
-        }
-      ],
-      "onpage_issues": [
-        {
-          "id": "has_render_blocking_resources",
-          "title": "Render-blocking stylesheet in <head>",
-          "severity": "low"
-        },
-        {
           "id": "low_content_rate",
           "title": "Low text-to-HTML ratio",
           "severity": "low"
-        },
-        {
-          "id": "has_micromarkup_errors",
-          "title": "Structured data validation warnings (FAQPage Question.text/answerCount, BreadcrumbList trailing item, empty LocalBusiness foundingDate)",
-          "severity": "low"
         }
       ],
+      "onpage_meta": {
+        "status_code": 200,
+        "title_length": 62,
+        "description_length": 122,
+        "h1_count": 1,
+        "word_count": 658,
+        "canonical": "https://purocleaneastlasvegas.com/contact/",
+        "broken_links": false,
+        "broken_resources": false,
+        "onpage_score": 100
+      },
       "mobile": {
         "verdict": "amber",
         "scores": {
-          "performance": 86,
+          "performance": 81,
           "accessibility": 96,
           "best_practices": 100,
           "seo": 100
         },
         "core_web_vitals": {
-          "LCP_ms": 3951,
+          "LCP_ms": 4078,
           "CLS": 0.0198,
-          "TBT_ms": 168,
+          "TBT_ms": 290,
           "INP_ms": null
         },
         "lighthouse_issues": [
@@ -1173,7 +1196,7 @@
             "id": "image-delivery-insight",
             "title": "Improve image delivery",
             "severity": "medium",
-            "estimated_savings_ms": 650,
+            "estimated_savings_ms": 700,
             "estimated_savings_bytes": null,
             "display_value": "Est savings of 146 KiB",
             "category": "performance"
@@ -1188,15 +1211,6 @@
             "category": "performance"
           },
           {
-            "id": "largest-contentful-paint",
-            "title": "Largest Contentful Paint",
-            "severity": "medium",
-            "estimated_savings_ms": null,
-            "estimated_savings_bytes": null,
-            "display_value": "4.0 s",
-            "category": "performance"
-          },
-          {
             "id": "lcp-discovery-insight",
             "title": "LCP request discovery",
             "severity": "medium",
@@ -1215,12 +1229,39 @@
             "category": "performance"
           },
           {
+            "id": "render-blocking-insight",
+            "title": "Render-blocking requests",
+            "severity": "medium",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "Est savings of 70 ms",
+            "category": "performance"
+          },
+          {
+            "id": "largest-contentful-paint",
+            "title": "Largest Contentful Paint",
+            "severity": "low",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "4.1 s",
+            "category": "performance"
+          },
+          {
+            "id": "total-blocking-time",
+            "title": "Total Blocking Time",
+            "severity": "low",
+            "estimated_savings_ms": null,
+            "estimated_savings_bytes": null,
+            "display_value": "290 ms",
+            "category": "performance"
+          },
+          {
             "id": "max-potential-fid",
             "title": "Max Potential First Input Delay",
             "severity": "low",
             "estimated_savings_ms": null,
             "estimated_savings_bytes": null,
-            "display_value": "140 ms",
+            "display_value": "210 ms",
             "category": "performance"
           },
           {
@@ -1229,7 +1270,7 @@
             "severity": "low",
             "estimated_savings_ms": null,
             "estimated_savings_bytes": null,
-            "display_value": "4.0 s",
+            "display_value": "4.1 s",
             "category": "performance"
           },
           {
@@ -1240,36 +1281,14 @@
             "estimated_savings_bytes": null,
             "display_value": "Est savings of 0 KiB",
             "category": "performance"
-          },
-          {
-            "id": "render-blocking-insight",
-            "title": "Render-blocking requests",
-            "severity": "low",
-            "estimated_savings_ms": null,
-            "estimated_savings_bytes": null,
-            "display_value": "Est savings of 130 ms",
-            "category": "performance"
           }
         ]
-      },
-      "onpage_meta": {
-        "status_code": 200,
-        "onpage_score": 100,
-        "title_length": 62,
-        "description_length": 122,
-        "canonical": "https://purocleaneastlasvegas.com/contact/",
-        "h1_count": 1,
-        "word_count": 653,
-        "broken_links": false,
-        "broken_resources": false,
-        "duplicate_title": false,
-        "duplicate_description": false
       }
     }
   ],
   "site_rollup": {
     "avg_scores": {
-      "performance": 99.0,
+      "performance": 98.3,
       "accessibility": 96.0,
       "best_practices": 100.0,
       "seo": 100.0
@@ -1281,17 +1300,10 @@
       "seo": 100.0
     },
     "verdict": "green",
-    "verdict_mobile": "amber",
     "url_count": 6,
     "urls_by_verdict": {
       "green": 6,
       "amber": 0,
-      "red": 0,
-      "error": 0
-    },
-    "urls_by_verdict_mobile": {
-      "green": 1,
-      "amber": 5,
       "red": 0,
       "error": 0
     },
@@ -1345,10 +1357,10 @@
         "affected_urls": 5
       },
       {
-        "id": "has_micromarkup_errors",
-        "title": "Structured data validation warnings (FAQPage Question.text/answerCount, BreadcrumbList trailing item, empty LocalBusiness foundingDate)",
-        "severity": "low",
-        "affected_urls": 5
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
+        "severity": "medium",
+        "affected_urls": 3
       },
       {
         "id": "low_content_rate",
@@ -1357,294 +1369,112 @@
         "affected_urls": 3
       }
     ],
-    "money_page_alerts": [],
-    "money_page_alerts_mobile": [
-      {
-        "url": "https://purocleaneastlasvegas.com/",
-        "archetype": "home",
-        "form_factor": "mobile",
-        "verdict": "amber",
-        "main_issue": "mobile performance 86, LCP 3.4s, TBT 264ms"
-      },
-      {
-        "url": "https://purocleaneastlasvegas.com/services/",
-        "archetype": "services-hub",
-        "form_factor": "mobile",
-        "verdict": "amber",
-        "main_issue": "mobile performance 83, LCP 4.3s, TBT 183ms"
-      },
-      {
-        "url": "https://purocleaneastlasvegas.com/services/fire-damage-restoration/",
-        "archetype": "service-landing",
-        "form_factor": "mobile",
-        "verdict": "amber",
-        "main_issue": "mobile performance 87, LCP 4.1s, TBT 50ms"
-      },
-      {
-        "url": "https://purocleaneastlasvegas.com/contact/",
-        "archetype": "contact",
-        "form_factor": "mobile",
-        "verdict": "amber",
-        "main_issue": "mobile performance 86, LCP 4.0s, TBT 168ms"
-      }
-    ]
+    "money_page_alerts": []
   },
   "regression": {
-    "prior_run_at": "2026-08-27T06:05:00Z",
+    "prior_run_at": "2026-09-29T00:30:00Z",
     "score_deltas": {
-      "performance": -0.7,
+      "performance": 0.0,
       "accessibility": 0.0,
       "best_practices": 0.0,
       "seo": 0.0
     },
-    "score_deltas_mobile": {
-      "performance": -7.0,
-      "accessibility": 0.0,
-      "best_practices": 0.0,
-      "seo": 0.0
-    },
-    "site_level_flags": [
-      {
-        "form_factor": "mobile",
-        "metric": "performance",
-        "delta": -7.0
-      }
-    ],
-    "url_regressions": [
-      {
-        "url": "https://purocleaneastlasvegas.com/",
-        "desktop": [],
-        "mobile": [
-          {
-            "metric": "performance",
-            "prior": 97,
-            "current": 86,
-            "delta": -11
-          },
-          {
-            "metric": "LCP_ms",
-            "prior": 2648,
-            "current": 3448,
-            "delta": 800
-          },
-          {
-            "metric": "TBT_ms",
-            "prior": 2,
-            "current": 264,
-            "delta": 262
-          }
-        ]
-      },
-      {
-        "url": "https://purocleaneastlasvegas.com/services/",
-        "desktop": [],
-        "mobile": [
-          {
-            "metric": "performance",
-            "prior": 97,
-            "current": 83,
-            "delta": -14
-          },
-          {
-            "metric": "LCP_ms",
-            "prior": 2678,
-            "current": 4298,
-            "delta": 1620
-          },
-          {
-            "metric": "TBT_ms",
-            "prior": 0,
-            "current": 183,
-            "delta": 183
-          }
-        ]
-      },
-      {
-        "url": "https://purocleaneastlasvegas.com/services/fire-damage-restoration/",
-        "desktop": [],
-        "mobile": [
-          {
-            "metric": "performance",
-            "prior": 92,
-            "current": 87,
-            "delta": -5
-          },
-          {
-            "metric": "LCP_ms",
-            "prior": 3377,
-            "current": 4095,
-            "delta": 718
-          }
-        ]
-      },
-      {
-        "url": "https://purocleaneastlasvegas.com/service-areas/henderson-nv/",
-        "desktop": [
-          {
-            "metric": "LCP_ms",
-            "prior": 603,
-            "current": 872,
-            "delta": 269
-          }
-        ],
-        "mobile": [
-          {
-            "metric": "performance",
-            "prior": 93,
-            "current": 88,
-            "delta": -5
-          },
-          {
-            "metric": "LCP_ms",
-            "prior": 3201,
-            "current": 3993,
-            "delta": 792
-          }
-        ]
-      },
-      {
-        "url": "https://purocleaneastlasvegas.com/contact/",
-        "desktop": [],
-        "mobile": [
-          {
-            "metric": "performance",
-            "prior": 93,
-            "current": 86,
-            "delta": -7
-          },
-          {
-            "metric": "LCP_ms",
-            "prior": 3242,
-            "current": 3951,
-            "delta": 709
-          },
-          {
-            "metric": "TBT_ms",
-            "prior": 0,
-            "current": 168,
-            "delta": 168
-          }
-        ]
-      }
-    ],
+    "site_score_regressions": [],
     "verdict_transitions": [],
-    "verdict_transitions_mobile": [
+    "per_url_deltas": [
       {
         "url": "https://purocleaneastlasvegas.com/",
-        "form_factor": "mobile",
-        "from": "green",
-        "to": "amber"
+        "score_deltas": {
+          "performance": 0,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 0,
+          "CLS": 0.0,
+          "TBT_ms": 0
+        },
+        "regression_flags": []
       },
       {
         "url": "https://purocleaneastlasvegas.com/services/",
-        "form_factor": "mobile",
-        "from": "green",
-        "to": "amber"
+        "score_deltas": {
+          "performance": 0,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 0,
+          "CLS": 0.0,
+          "TBT_ms": 0
+        },
+        "regression_flags": []
       },
       {
         "url": "https://purocleaneastlasvegas.com/services/fire-damage-restoration/",
-        "form_factor": "mobile",
-        "from": "green",
-        "to": "amber"
-      },
-      {
-        "url": "https://purocleaneastlasvegas.com/service-areas/henderson-nv/",
-        "form_factor": "mobile",
-        "from": "green",
-        "to": "amber"
-      },
-      {
-        "url": "https://purocleaneastlasvegas.com/contact/",
-        "form_factor": "mobile",
-        "from": "green",
-        "to": "amber"
-      }
-    ],
-    "new_issues": [
-      {
-        "url": "https://purocleaneastlasvegas.com/",
-        "id": "unused-javascript",
-        "title": "Reduce unused JavaScript"
-      },
-      {
-        "url": "https://purocleaneastlasvegas.com/services/",
-        "id": "cache-insight",
-        "title": "Use efficient cache lifetimes",
-        "note": "Prior run stored only the top 5 failing audits per URL; cache-insight appeared on the prior homepage, so it likely existed on other pages too and is not a genuine new defect."
-      },
-      {
-        "url": "https://purocleaneastlasvegas.com/services/",
-        "id": "low_content_rate",
-        "title": "Low text-to-HTML ratio"
-      },
-      {
-        "url": "https://purocleaneastlasvegas.com/services/",
-        "id": "unused-javascript",
-        "title": "Reduce unused JavaScript"
-      },
-      {
-        "url": "https://purocleaneastlasvegas.com/services/fire-damage-restoration/",
-        "id": "cache-insight",
-        "title": "Use efficient cache lifetimes",
-        "note": "Prior run stored only the top 5 failing audits per URL; cache-insight appeared on the prior homepage, so it likely existed on other pages too and is not a genuine new defect."
-      },
-      {
-        "url": "https://purocleaneastlasvegas.com/services/fire-damage-restoration/",
-        "id": "unused-javascript",
-        "title": "Reduce unused JavaScript"
+        "score_deltas": {
+          "performance": 0,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 0,
+          "CLS": 0.0,
+          "TBT_ms": 0
+        },
+        "regression_flags": []
       },
       {
         "url": "https://purocleaneastlasvegas.com/services/mold-remediation/",
-        "id": "cache-insight",
-        "title": "Use efficient cache lifetimes",
-        "note": "Prior run stored only the top 5 failing audits per URL; cache-insight appeared on the prior homepage, so it likely existed on other pages too and is not a genuine new defect."
-      },
-      {
-        "url": "https://purocleaneastlasvegas.com/services/mold-remediation/",
-        "id": "unused-javascript",
-        "title": "Reduce unused JavaScript"
-      },
-      {
-        "url": "https://purocleaneastlasvegas.com/service-areas/henderson-nv/",
-        "id": "cache-insight",
-        "title": "Use efficient cache lifetimes",
-        "note": "Prior run stored only the top 5 failing audits per URL; cache-insight appeared on the prior homepage, so it likely existed on other pages too and is not a genuine new defect."
-      },
-      {
-        "url": "https://purocleaneastlasvegas.com/service-areas/henderson-nv/",
-        "id": "forced-reflow-insight",
-        "title": "Forced reflow"
+        "score_deltas": {
+          "performance": 0,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 0,
+          "CLS": 0.0,
+          "TBT_ms": 0
+        },
+        "regression_flags": []
       },
       {
         "url": "https://purocleaneastlasvegas.com/service-areas/henderson-nv/",
-        "id": "unused-javascript",
-        "title": "Reduce unused JavaScript"
+        "score_deltas": {
+          "performance": 0,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 0,
+          "CLS": 0.0,
+          "TBT_ms": 0
+        },
+        "regression_flags": []
       },
       {
         "url": "https://purocleaneastlasvegas.com/contact/",
-        "id": "cache-insight",
-        "title": "Use efficient cache lifetimes",
-        "note": "Prior run stored only the top 5 failing audits per URL; cache-insight appeared on the prior homepage, so it likely existed on other pages too and is not a genuine new defect."
-      },
-      {
-        "url": "https://purocleaneastlasvegas.com/contact/",
-        "id": "low_content_rate",
-        "title": "Low text-to-HTML ratio"
-      },
-      {
-        "url": "https://purocleaneastlasvegas.com/contact/",
-        "id": "unused-javascript",
-        "title": "Reduce unused JavaScript"
+        "score_deltas": {
+          "performance": 0,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 0,
+          "CLS": 0.0,
+          "TBT_ms": 0
+        },
+        "regression_flags": []
       }
     ],
-    "resolved_issues": [
-      {
-        "url": "https://purocleaneastlasvegas.com/",
-        "id": "largest-contentful-paint",
-        "title": "Largest Contentful Paint",
-        "note": "Metric-score audit whose pass/fail flips on small lab variance; not a template change."
-      }
-    ],
-    "prior_recommendations_status": "None of the 5 recommendations from 2026-08-27 have shipped: non-home hero <img> still lacks srcset/sizes/fetchpriority, breadcrumb still uses text-dark/50, henderson card span still text-slate-400, logo is still /images/logo.png, foundingDate still empty string."
+    "url_regressions": [],
+    "new_issues": [],
+    "resolved_issues": []
   }
 }

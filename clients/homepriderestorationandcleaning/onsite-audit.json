@@ -5,16 +5,18 @@
   "live_origin": "https://homepriderestorationandcleaning.com",
   "live_origin_source": "apex",
   "audit_form_factor": "desktop",
-  "generated_at": "2026-09-28T23:10:00Z",
+  "generated_at": "2026-09-29T00:09:49Z",
   "environment_caveats": [
-    "Lighthouse run via DataForSEO is DESKTOP only (formFactor=desktop, Lighthouse 13.4.0); mobile scores would typically run 10-20 performance points lower. Scores here are not mobile-first.",
-    "No on_page_lighthouse / on_page_instant_pages MCP tools are exposed in this environment; both steps used the DataForSEO REST API directly (on_page/lighthouse/live/json with for_mobile=false, on_page/instant_pages with enable_javascript). Full audit data was pulled on every call, so lighthouse_detail is complete, not deferred.",
-    "Service-landing slot: three pages tie at the top url-plan priority (9.0: water-damage-restoration, fire-damage-restoration, mold-remediation). Water and fire were kept to preserve month-over-month comparability with the prior two audits.",
-    "Service-area slot uses /service-areas/lehi-ut/, the first service-area entry in url-plan.json (no entry has primary=true and the client city Saratoga Springs has no service-area page). Same URL as the 2026-08-27 audit, so this month has a valid comparison.",
-    "DataForSEO has_micromarkup does not detect JSON-LD. Rendered HTML was checked directly: valid JSON-LD on all 6 pages (LocalBusiness on all; Service on both landings; BreadcrumbList and FAQPage on all non-home pages). Schema is not flagged as missing. No http:// resources found in rendered HTML (no mixed content).",
-    "DataForSEO checks.frame=true on the Lehi page reflects the embedded Google Map iframe; low_content_rate=true on home, services hub and contact reflects text-to-HTML ratio, not thin content (all word counts exceed archetype targets). Neither is counted as an issue.",
-    "Lighthouse issue lists record the top 5 failing audits per URL ranked by estimated LCP savings, with accessibility failures ranked ahead of zero-savings performance insights. Zero-savings insights (network-dependency-tree-insight, lcp-discovery-insight, forced-reflow-insight, render-blocking-insight) still fail on most pages but can fall out of the top 5, so they appear as churn in new/resolved lists."
+    "Lighthouse run via DataForSEO is DESKTOP only (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240); mobile scores would typically run 10-20 performance points lower. Scores here are not mobile-first.",
+    "No on_page_lighthouse / on_page_instant_pages MCP tools are exposed in this environment; both steps used the DataForSEO REST endpoints on_page/lighthouse/live/json (full audit set, Lighthouse 13.4.0) and on_page/instant_pages directly. Total API cost about $0.041.",
+    "Service-landing slots: /services/fire-damage-restoration/, /services/mold-remediation/ and /services/water-damage-restoration/ are tied at priority 9.0 in url-plan.json. Water + fire were kept for continuity with the August baseline. Service-area slot is /service-areas/lehi-ut/ (first service-area in the plan; no primary=true entry and the client city Saratoga Springs has no service-area page).",
+    "DataForSEO has_micromarkup is not relied on for schema: rendered HTML contains JSON-LD on all 6 pages (LocalBusiness, Organization, WebSite, BreadcrumbList, FAQPage, Service on landings). Schema is not flagged as missing.",
+    "DataForSEO checks.frame=true on the Lehi page is the embedded Google Map iframe; checks.low_content_rate on home/services/contact is a text-to-HTML ratio flag, measured word counts exceed every archetype target (home 1777/1200, services 810/800, water 1856/1100, fire 1652/1100, Lehi 1356/900, contact 743/400). Neither counted as an issue.",
+    "no_image_alt is false on all 6 pages this month (was a detection artifact last month) and Lighthouse image-alt passes everywhere.",
+    "LCP regressions on fire-damage (+279ms) and Lehi (+340ms) are single-run desktop measurements still well under the 2.5s good threshold; treat as watch items and confirm on next month's run before acting.",
+    "Accessibility drop coincides with the 2026-09-25 brand-restore commit (099a6941d) that re-pinned the orange palette via primary_color #c2410c; the global a { text-primary-200 } rule now renders #fac7b2, which is designed for dark sections and fails on white."
   ],
+  "lighthouse_version": "13.4.0",
   "audited_urls": [
     {
       "url": "https://homepriderestorationandcleaning.com/",
@@ -22,51 +24,51 @@
       "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 98,
+        "performance": 99,
         "accessibility": 92,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1063,
+        "LCP_ms": 1017,
         "CLS": 0.004,
-        "TBT_ms": 0,
+        "TBT_ms": 4,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "low",
-          "estimated_savings_ms": 50,
-          "category": "performance"
-        },
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "low",
-          "estimated_savings_ms": 50,
-          "category": "performance"
-        },
-        {
           "id": "color-contrast",
           "title": "Background and foreground colors do not have a sufficient contrast ratio.",
           "severity": "medium",
-          "estimated_savings_ms": 0,
+          "estimated_savings_ms": null,
           "category": "accessibility"
         },
         {
           "id": "link-in-text-block",
           "title": "Links rely on color to be distinguishable.",
           "severity": "medium",
-          "estimated_savings_ms": 0,
+          "estimated_savings_ms": null,
           "category": "accessibility"
         },
         {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
           "severity": "low",
-          "estimated_savings_ms": 0,
+          "estimated_savings_ms": 150,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": 100,
+          "category": "performance"
+        },
+        {
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow",
+          "severity": "low",
+          "estimated_savings_ms": null,
           "category": "performance"
         }
       ],
@@ -77,21 +79,217 @@
           "severity": "low"
         }
       ],
-      "onpage_metrics": {
-        "status_code": 200,
-        "title_length": 44,
-        "description_length": 201,
-        "h1_count": 1,
-        "canonical": "https://homepriderestorationandcleaning.com/",
-        "plain_text_word_count": 1777,
-        "broken_links": false,
-        "broken_resources": false,
-        "onpage_score": 100
-      }
+      "all_failing_audit_ids": [
+        "cache-insight",
+        "color-contrast",
+        "forced-reflow-insight",
+        "image-delivery-insight",
+        "link-in-text-block",
+        "network-dependency-tree-insight",
+        "render-blocking-insight",
+        "unused-javascript"
+      ]
     },
     {
       "url": "https://homepriderestorationandcleaning.com/services/",
       "archetype": "services-hub",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 97,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1214,
+        "CLS": 0.004,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": 250,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": 100,
+          "category": "performance"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [],
+      "all_failing_audit_ids": [
+        "cache-insight",
+        "color-contrast",
+        "image-delivery-insight",
+        "lcp-discovery-insight",
+        "network-dependency-tree-insight",
+        "render-blocking-insight",
+        "unused-javascript"
+      ]
+    },
+    {
+      "url": "https://homepriderestorationandcleaning.com/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 98,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1062,
+        "CLS": 0.005,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": 100,
+          "category": "performance"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 50,
+          "category": "performance"
+        },
+        {
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [],
+      "all_failing_audit_ids": [
+        "cache-insight",
+        "color-contrast",
+        "forced-reflow-insight",
+        "image-delivery-insight",
+        "lcp-discovery-insight",
+        "network-dependency-tree-insight",
+        "render-blocking-insight",
+        "unused-javascript"
+      ]
+    },
+    {
+      "url": "https://homepriderestorationandcleaning.com/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 98,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1072,
+        "CLS": 0.007,
+        "TBT_ms": 5,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": 150,
+          "category": "performance"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 100,
+          "category": "performance"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 50,
+          "category": "performance"
+        },
+        {
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [],
+      "all_failing_audit_ids": [
+        "cache-insight",
+        "color-contrast",
+        "forced-reflow-insight",
+        "image-delivery-insight",
+        "lcp-discovery-insight",
+        "network-dependency-tree-insight",
+        "render-blocking-insight",
+        "unused-javascript"
+      ]
+    },
+    {
+      "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/",
+      "archetype": "service-area",
       "verdict": "green",
       "error_reason": null,
       "scores": {
@@ -101,12 +299,86 @@
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1250,
-        "CLS": 0.004,
+        "LCP_ms": 1368,
+        "CLS": 0.005,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "low",
+          "estimated_savings_ms": 100,
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": 100,
+          "category": "performance"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": 50,
+          "category": "performance"
+        },
+        {
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        }
+      ],
+      "onpage_issues": [],
+      "all_failing_audit_ids": [
+        "cache-insight",
+        "color-contrast",
+        "forced-reflow-insight",
+        "image-delivery-insight",
+        "interactive",
+        "lcp-discovery-insight",
+        "network-dependency-tree-insight",
+        "render-blocking-insight",
+        "unused-javascript"
+      ]
+    },
+    {
+      "url": "https://homepriderestorationandcleaning.com/contact/",
+      "archetype": "contact",
+      "verdict": "green",
+      "error_reason": null,
+      "scores": {
+        "performance": 97,
+        "accessibility": 96,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1204,
+        "CLS": 0.006,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "accessibility"
+        },
         {
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
@@ -129,300 +401,24 @@
           "category": "performance"
         },
         {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "medium",
-          "estimated_savings_ms": 0,
-          "category": "accessibility"
-        },
-        {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
-          "severity": "low",
-          "estimated_savings_ms": 0,
-          "category": "performance"
-        }
-      ],
-      "onpage_issues": [],
-      "onpage_metrics": {
-        "status_code": 200,
-        "title_length": 40,
-        "description_length": 146,
-        "h1_count": 1,
-        "canonical": "https://homepriderestorationandcleaning.com/services/",
-        "plain_text_word_count": 810,
-        "broken_links": false,
-        "broken_resources": false,
-        "onpage_score": 100
-      }
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/services/water-damage-restoration/",
-      "archetype": "service-landing",
-      "verdict": "green",
-      "error_reason": null,
-      "scores": {
-        "performance": 98,
-        "accessibility": 95,
-        "best_practices": 100,
-        "seo": 100
-      },
-      "core_web_vitals": {
-        "LCP_ms": 983,
-        "CLS": 0.006,
-        "TBT_ms": 0,
-        "INP_ms": null
-      },
-      "lighthouse_issues": [
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "low",
-          "estimated_savings_ms": 100,
-          "category": "performance"
-        },
-        {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "low",
-          "estimated_savings_ms": 50,
-          "category": "performance"
-        },
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "medium",
-          "estimated_savings_ms": 0,
-          "category": "accessibility"
-        },
-        {
           "id": "forced-reflow-insight",
           "title": "Forced reflow",
           "severity": "low",
-          "estimated_savings_ms": 0,
-          "category": "performance"
-        },
-        {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
-          "severity": "low",
-          "estimated_savings_ms": 0,
+          "estimated_savings_ms": null,
           "category": "performance"
         }
       ],
       "onpage_issues": [],
-      "onpage_metrics": {
-        "status_code": 200,
-        "title_length": 44,
-        "description_length": 138,
-        "h1_count": 1,
-        "canonical": "https://homepriderestorationandcleaning.com/services/water-damage-restoration/",
-        "plain_text_word_count": 1856,
-        "broken_links": false,
-        "broken_resources": false,
-        "onpage_score": 100
-      }
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/services/fire-damage-restoration/",
-      "archetype": "service-landing",
-      "verdict": "green",
-      "error_reason": null,
-      "scores": {
-        "performance": 99,
-        "accessibility": 95,
-        "best_practices": 100,
-        "seo": 100
-      },
-      "core_web_vitals": {
-        "LCP_ms": 964,
-        "CLS": 0.007,
-        "TBT_ms": 0,
-        "INP_ms": null
-      },
-      "lighthouse_issues": [
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "low",
-          "estimated_savings_ms": 150,
-          "category": "performance"
-        },
-        {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "low",
-          "estimated_savings_ms": 100,
-          "category": "performance"
-        },
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "medium",
-          "estimated_savings_ms": 0,
-          "category": "accessibility"
-        },
-        {
-          "id": "forced-reflow-insight",
-          "title": "Forced reflow",
-          "severity": "low",
-          "estimated_savings_ms": 0,
-          "category": "performance"
-        },
-        {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
-          "severity": "low",
-          "estimated_savings_ms": 0,
-          "category": "performance"
-        }
-      ],
-      "onpage_issues": [],
-      "onpage_metrics": {
-        "status_code": 200,
-        "title_length": 43,
-        "description_length": 137,
-        "h1_count": 1,
-        "canonical": "https://homepriderestorationandcleaning.com/services/fire-damage-restoration/",
-        "plain_text_word_count": 1652,
-        "broken_links": false,
-        "broken_resources": false,
-        "onpage_score": 100
-      }
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/",
-      "archetype": "service-area",
-      "verdict": "green",
-      "error_reason": null,
-      "scores": {
-        "performance": 97,
-        "accessibility": 95,
-        "best_practices": 100,
-        "seo": 100
-      },
-      "core_web_vitals": {
-        "LCP_ms": 1222,
-        "CLS": 0.005,
-        "TBT_ms": 0,
-        "INP_ms": null
-      },
-      "lighthouse_issues": [
-        {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes",
-          "severity": "low",
-          "estimated_savings_ms": 200,
-          "category": "performance"
-        },
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "low",
-          "estimated_savings_ms": 200,
-          "category": "performance"
-        },
-        {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "low",
-          "estimated_savings_ms": 100,
-          "category": "performance"
-        },
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "medium",
-          "estimated_savings_ms": 0,
-          "category": "accessibility"
-        },
-        {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
-          "severity": "low",
-          "estimated_savings_ms": 0,
-          "category": "performance"
-        }
-      ],
-      "onpage_issues": [],
-      "onpage_metrics": {
-        "status_code": 200,
-        "title_length": 32,
-        "description_length": 118,
-        "h1_count": 1,
-        "canonical": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/",
-        "plain_text_word_count": 1356,
-        "broken_links": false,
-        "broken_resources": false,
-        "onpage_score": 100
-      }
-    },
-    {
-      "url": "https://homepriderestorationandcleaning.com/contact/",
-      "archetype": "contact",
-      "verdict": "green",
-      "error_reason": null,
-      "scores": {
-        "performance": 97,
-        "accessibility": 96,
-        "best_practices": 100,
-        "seo": 100
-      },
-      "core_web_vitals": {
-        "LCP_ms": 1266,
-        "CLS": 0.004,
-        "TBT_ms": 17,
-        "INP_ms": null
-      },
-      "lighthouse_issues": [
-        {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "low",
-          "estimated_savings_ms": 150,
-          "category": "performance"
-        },
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "medium",
-          "estimated_savings_ms": 0,
-          "category": "accessibility"
-        },
-        {
-          "id": "forced-reflow-insight",
-          "title": "Forced reflow",
-          "severity": "low",
-          "estimated_savings_ms": 0,
-          "category": "performance"
-        },
-        {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
-          "severity": "low",
-          "estimated_savings_ms": 0,
-          "category": "performance"
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "low",
-          "estimated_savings_ms": 0,
-          "category": "performance"
-        }
-      ],
-      "onpage_issues": [],
-      "onpage_metrics": {
-        "status_code": 200,
-        "title_length": 43,
-        "description_length": 135,
-        "h1_count": 1,
-        "canonical": "https://homepriderestorationandcleaning.com/contact/",
-        "plain_text_word_count": 743,
-        "broken_links": false,
-        "broken_resources": false,
-        "onpage_score": 100
-      }
+      "all_failing_audit_ids": [
+        "cache-insight",
+        "color-contrast",
+        "forced-reflow-insight",
+        "image-delivery-insight",
+        "lcp-discovery-insight",
+        "network-dependency-tree-insight",
+        "render-blocking-insight",
+        "unused-javascript"
+      ]
     }
   ],
   "site_rollup": {
@@ -448,38 +444,32 @@
         "severity": "medium"
       },
       {
-        "id": "unused-javascript",
-        "title": "Reduce unused JavaScript",
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
         "affected_urls": 6,
         "severity": "low"
       },
       {
-        "id": "image-delivery-insight",
-        "title": "Improve image delivery",
-        "affected_urls": 5,
-        "severity": "low"
-      },
-      {
-        "id": "lcp-discovery-insight",
-        "title": "LCP request discovery",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
         "affected_urls": 5,
         "severity": "low"
       },
       {
         "id": "forced-reflow-insight",
         "title": "Forced reflow",
-        "affected_urls": 3,
+        "affected_urls": 5,
         "severity": "low"
       },
       {
         "id": "cache-insight",
         "title": "Use efficient cache lifetimes",
-        "affected_urls": 2,
+        "affected_urls": 3,
         "severity": "low"
       },
       {
-        "id": "network-dependency-tree-insight",
-        "title": "Network dependency tree",
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
         "affected_urls": 2,
         "severity": "low"
       }
@@ -494,171 +484,150 @@
       "best_practices": 0,
       "seo": 0
     },
-    "site_level_flags": [
-      {
-        "metric": "accessibility",
-        "delta": -5
-      }
+    "site_score_regressions": [
+      "accessibility"
     ],
     "verdict_transitions": [],
-    "url_regressions": [
+    "score_regressions": [
       {
         "url": "https://homepriderestorationandcleaning.com/",
         "metric": "accessibility",
-        "prior": 100,
-        "current": 92,
+        "from": 100,
+        "to": 92,
         "delta": -8
       },
       {
         "url": "https://homepriderestorationandcleaning.com/services/",
         "metric": "accessibility",
-        "prior": 100,
-        "current": 95,
+        "from": 100,
+        "to": 95,
         "delta": -5
       },
       {
         "url": "https://homepriderestorationandcleaning.com/services/water-damage-restoration/",
         "metric": "accessibility",
-        "prior": 100,
-        "current": 95,
+        "from": 100,
+        "to": 95,
         "delta": -5
       },
       {
         "url": "https://homepriderestorationandcleaning.com/services/fire-damage-restoration/",
         "metric": "accessibility",
-        "prior": 100,
-        "current": 95,
+        "from": 100,
+        "to": 95,
         "delta": -5
       },
       {
         "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/",
         "metric": "accessibility",
-        "prior": 100,
-        "current": 95,
+        "from": 100,
+        "to": 95,
         "delta": -5
+      }
+    ],
+    "cwv_regressions": [
+      {
+        "url": "https://homepriderestorationandcleaning.com/services/fire-damage-restoration/",
+        "metric": "LCP_ms",
+        "from": 793,
+        "to": 1072,
+        "delta": 279
       },
       {
-        "url": "https://homepriderestorationandcleaning.com/contact/",
+        "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/",
         "metric": "LCP_ms",
-        "prior": 1016,
-        "current": 1266,
-        "delta": 250
+        "from": 1028,
+        "to": 1368,
+        "delta": 340
       }
     ],
     "new_issues": [
       {
         "url": "https://homepriderestorationandcleaning.com/",
         "id": "color-contrast",
-        "title": "Background and foreground colors do not have a sufficient contrast ratio."
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "genuinely_new": true
       },
       {
         "url": "https://homepriderestorationandcleaning.com/",
         "id": "link-in-text-block",
-        "title": "Links rely on color to be distinguishable."
+        "title": "Links rely on color to be distinguishable.",
+        "genuinely_new": true
       },
       {
         "url": "https://homepriderestorationandcleaning.com/services/",
         "id": "color-contrast",
-        "title": "Background and foreground colors do not have a sufficient contrast ratio."
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "genuinely_new": true
+      },
+      {
+        "url": "https://homepriderestorationandcleaning.com/services/",
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "genuinely_new": false
       },
       {
         "url": "https://homepriderestorationandcleaning.com/services/water-damage-restoration/",
         "id": "color-contrast",
-        "title": "Background and foreground colors do not have a sufficient contrast ratio."
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "genuinely_new": true
       },
       {
         "url": "https://homepriderestorationandcleaning.com/services/water-damage-restoration/",
         "id": "lcp-discovery-insight",
-        "title": "LCP request discovery"
+        "title": "LCP request discovery",
+        "genuinely_new": false
+      },
+      {
+        "url": "https://homepriderestorationandcleaning.com/services/fire-damage-restoration/",
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "genuinely_new": true
       },
       {
         "url": "https://homepriderestorationandcleaning.com/services/fire-damage-restoration/",
         "id": "unused-javascript",
-        "title": "Reduce unused JavaScript"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/services/fire-damage-restoration/",
-        "id": "color-contrast",
-        "title": "Background and foreground colors do not have a sufficient contrast ratio."
+        "title": "Reduce unused JavaScript",
+        "genuinely_new": false
       },
       {
         "url": "https://homepriderestorationandcleaning.com/services/fire-damage-restoration/",
         "id": "forced-reflow-insight",
-        "title": "Forced reflow"
+        "title": "Forced reflow",
+        "genuinely_new": false
       },
       {
         "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/",
         "id": "color-contrast",
-        "title": "Background and foreground colors do not have a sufficient contrast ratio."
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "genuinely_new": true
+      },
+      {
+        "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/",
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
+        "genuinely_new": false
       },
       {
         "url": "https://homepriderestorationandcleaning.com/contact/",
         "id": "color-contrast",
-        "title": "Background and foreground colors do not have a sufficient contrast ratio."
+        "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+        "genuinely_new": true
       },
       {
         "url": "https://homepriderestorationandcleaning.com/contact/",
         "id": "forced-reflow-insight",
-        "title": "Forced reflow"
+        "title": "Forced reflow",
+        "genuinely_new": false
       }
     ],
     "resolved_issues": [
       {
-        "url": "https://homepriderestorationandcleaning.com/",
-        "id": "cache-insight",
-        "title": "Use efficient cache lifetimes"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/",
-        "id": "forced-reflow-insight",
-        "title": "Forced reflow"
-      },
-      {
         "url": "https://homepriderestorationandcleaning.com/services/",
         "id": "forced-reflow-insight",
         "title": "Forced reflow"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/services/water-damage-restoration/",
-        "id": "cache-insight",
-        "title": "Use efficient cache lifetimes"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/services/water-damage-restoration/",
-        "id": "render-blocking-insight",
-        "title": "Render-blocking requests"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/services/fire-damage-restoration/",
-        "id": "network-dependency-tree-insight",
-        "title": "Network dependency tree"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/services/fire-damage-restoration/",
-        "id": "cache-insight",
-        "title": "Use efficient cache lifetimes"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/services/fire-damage-restoration/",
-        "id": "render-blocking-insight",
-        "title": "Render-blocking requests"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/service-areas/lehi-ut/",
-        "id": "render-blocking-insight",
-        "title": "Render-blocking requests"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/contact/",
-        "id": "cache-insight",
-        "title": "Use efficient cache lifetimes"
-      },
-      {
-        "url": "https://homepriderestorationandcleaning.com/contact/",
-        "id": "image-delivery-insight",
-        "title": "Improve image delivery"
       }
-    ]
-  },
-  "run_cost_usd": 0.0408
+    ],
+    "note": "Compared against the 2026-08-27 audit; all 6 URLs present in both runs. Per-URL lighthouse_issues are capped at the top 5, so a performance insight dropping out of or entering the top 5 is not a real change. resolved_issues is filtered against the full current failing-audit set (all_failing_audit_ids, stored from this run onward). new_issues entries with genuinely_new=false were outside last month's top 5 and are likely ranking churn; the genuinely new failures are color-contrast (6 URLs) and link-in-text-block (home)."
+  }
 }

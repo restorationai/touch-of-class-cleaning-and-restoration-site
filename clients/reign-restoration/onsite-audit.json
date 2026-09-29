@@ -1,1191 +1,1055 @@
 {
- "schema_version": 1,
- "slug": "reign-restoration",
- "site": "reign-restoration.com",
- "live_origin": "https://reign-restoration.com",
- "live_origin_source": "apex",
- "audit_form_factor": "desktop",
- "lighthouse_version": "13.4.0",
- "generated_at": "2026-09-28T23:41:04Z",
- "environment_caveats": [
-  "Lighthouse ran DESKTOP only (cpuSlowdownMultiplier=1, throughputKbps=10240). Mobile scores typically run 10-20 performance points lower. Do not read these as mobile-first scores.",
-  "Client record status is \"onboarding\", not \"active\". build_status is pushed_main and apex cutover completed 2026-08-13, so the apex site was audited as live. Status mismatch still unreconciled since the 2026-08-26 audit.",
-  "Apex origin: curl -sI returned no x-robots-tag: noindex, so the staging SEO-exclusion correction does not apply. SEO counted toward the verdict.",
-  "DataForSEO on_page reports has_micromarkup=false; the check does not detect JSON-LD. Direct inspection found 3 valid JSON-LD blocks on the homepage (Organization, WebSite, LocalBusiness with AggregateRating). Not reported as a finding.",
-  "broken_image_404, og_image_404 and meta_description_too_long are source=\"manual_verification\" (curl-confirmed). Neither vendor flagged them: Lighthouse recorded the hero.webp request with status -1 and no console error, and DataForSEO instant_pages returned broken_resources=false. They are deliberately not presented as vendor audit IDs.",
-  "Per-URL lighthouse_issues now lists every failing audit (7-8 per URL) instead of the top 5, so month-over-month new/resolved diffs are not polluted by truncation. Audits the prior run recorded on all 6 URLs at site level are not counted as new."
- ],
- "audited_urls": [
-  {
-   "url": "https://reign-restoration.com/",
-   "archetype": "home",
-   "verdict": "red",
-   "error_reason": null,
-   "scores": {
-    "performance": 98,
-    "accessibility": 96,
-    "best_practices": 100,
-    "seo": 100
-   },
-   "core_web_vitals": {
-    "LCP_ms": 1067,
-    "CLS": 0.005,
-    "TBT_ms": 0,
-    "INP_ms": null
-   },
-   "supplemental_metrics": {
-    "FCP_ms": 330,
-    "SpeedIndex_ms": 391,
-    "agentic_browsing_score": 100
-   },
-   "onpage_score": 100,
-   "content": {
-    "word_count": 1671,
-    "target_word_count": 1200,
-    "title_length": 58,
-    "description_length": 172,
-    "h1_count": 1,
-    "canonical": "https://reign-restoration.com/",
-    "internal_links": 51,
-    "broken_links": false,
-    "broken_resources": false
-   },
-   "lighthouse_issues": [
-    {
-     "id": "color-contrast",
-     "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-     "severity": "medium",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "accessibility",
-     "detail": "footer links use brand yellow #f2b623 on #ffffff (1.82:1) and the TDLR license link #fae5b2 on #ffffff (1.24:1); WCAG AA needs 4.5:1"
-    },
-    {
-     "id": "image-delivery-insight",
-     "title": "Improve image delivery",
-     "severity": "medium",
-     "estimated_savings_ms": 100,
-     "estimated_savings_bytes": 149760,
-     "category": "performance",
-     "detail": "/images/logo.png 86.7 KB with 86.4 KB wasted; /images/hero-bg.webp 215.7 KB with 50.2 KB wasted; /images/team-768w.webp 39.6 KB with 9.7 KB wasted (logo is 2896x1065 displayed at 174x64)"
-    },
-    {
-     "id": "unused-javascript",
-     "title": "Reduce unused JavaScript",
-     "severity": "medium",
-     "estimated_savings_ms": 110,
-     "estimated_savings_bytes": 70223,
-     "category": "performance",
-     "detail": "GA4 gtag.js (G-NBFCYGQXJY) ships 159 KB with ~69 KB unused on first load; new since last audit"
-    },
-    {
-     "id": "forced-reflow-insight",
-     "title": "Forced reflow",
-     "severity": "low",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "performance",
-     "detail": "unattributed forced reflow; most likely the DNI tracking-number swap script walking document.body with a TreeWalker on load"
-    },
-    {
-     "id": "render-blocking-insight",
-     "title": "Render-blocking requests",
-     "severity": "low",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "performance",
-     "detail": "/_astro/_slug_.D67O75JN.css (~9 KB) blocks first paint by ~50ms"
-    },
-    {
-     "id": "cache-insight",
-     "title": "Use efficient cache lifetimes",
-     "severity": "low",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "performance",
-     "detail": "Cloudflare-injected email-decode.min.js has a 2-day cache TTL"
-    },
-    {
-     "id": "network-dependency-tree-insight",
-     "title": "Network dependency tree",
-     "severity": "low",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "performance",
-     "detail": "critical chain: document -> page.js / _slug_.css"
-    }
-   ],
-   "onpage_issues": [
-    {
-     "id": "has_render_blocking_resources",
-     "title": "Page has render-blocking resources",
-     "severity": "low",
-     "source": "dataforseo_on_page"
-    },
-    {
-     "id": "low_content_rate",
-     "title": "Low text-to-HTML content rate",
-     "severity": "low",
-     "source": "dataforseo_on_page"
-    },
-    {
-     "id": "no_image_title",
-     "title": "Images are missing the title attribute",
-     "severity": "low",
-     "source": "dataforseo_on_page"
-    },
-    {
-     "id": "broken_image_404",
-     "title": "Page renders <img> elements whose src returns HTTP 404",
-     "severity": "high",
-     "source": "manual_verification",
-     "detail": "2 service-card images (Roofing, Water Cleanup) point at https://images.reign-restoration.com/brand/hero.webp, which returns HTTP 404"
-    },
-    {
-     "id": "og_image_404",
-     "title": "og:image and twitter:image return HTTP 404",
-     "severity": "medium",
-     "source": "manual_verification",
-     "detail": "og:image and twitter:image resolve to https://images.reign-restoration.com/brand/hero.webp, which returns HTTP 404"
-    },
-    {
-     "id": "meta_description_too_long",
-     "title": "Meta description is 172 chars (target 70-160)",
-     "severity": "medium",
-     "source": "manual_verification",
-     "detail": "Meta description is 172 chars (target 70-160)"
-    }
-   ]
-  },
-  {
-   "url": "https://reign-restoration.com/services/",
-   "archetype": "services-hub",
-   "verdict": "red",
-   "error_reason": null,
-   "scores": {
-    "performance": 99,
-    "accessibility": 95,
-    "best_practices": 100,
-    "seo": 100
-   },
-   "core_web_vitals": {
-    "LCP_ms": 852,
-    "CLS": 0.0039,
-    "TBT_ms": 0,
-    "INP_ms": null
-   },
-   "supplemental_metrics": {
-    "FCP_ms": 319,
-    "SpeedIndex_ms": 319,
-    "agentic_browsing_score": 100
-   },
-   "onpage_score": 100,
-   "content": {
-    "word_count": 836,
-    "target_word_count": 800,
-    "title_length": 54,
-    "description_length": 144,
-    "h1_count": 1,
-    "canonical": "https://reign-restoration.com/services/",
-    "internal_links": 34,
-    "broken_links": false,
-    "broken_resources": false
-   },
-   "lighthouse_issues": [
-    {
-     "id": "color-contrast",
-     "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-     "severity": "medium",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "accessibility",
-     "detail": "footer links use brand yellow #f2b623 on #ffffff (1.82:1) and the TDLR license link #fae5b2 on #ffffff (1.24:1); WCAG AA needs 4.5:1"
-    },
-    {
-     "id": "image-delivery-insight",
-     "title": "Improve image delivery",
-     "severity": "medium",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": 94381,
-     "category": "performance",
-     "detail": "/images/logo.png 86.7 KB with 86.4 KB wasted; /images/services/storm-damage-restoration-480w.webp 19.9 KB with 5.8 KB wasted (logo is 2896x1065 displayed at 174x64)"
-    },
-    {
-     "id": "unused-javascript",
-     "title": "Reduce unused JavaScript",
-     "severity": "medium",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": 69522,
-     "category": "performance",
-     "detail": "GA4 gtag.js (G-NBFCYGQXJY) ships 159 KB with ~69 KB unused on first load; new since last audit"
-    },
-    {
-     "id": "lcp-discovery-insight",
-     "title": "LCP request discovery",
-     "severity": "low",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "performance",
-     "detail": "LCP hero image lacks fetchpriority=high"
-    },
-    {
-     "id": "render-blocking-insight",
-     "title": "Render-blocking requests",
-     "severity": "low",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "performance",
-     "detail": "/_astro/_slug_.D67O75JN.css (~9 KB) blocks first paint by ~50ms"
-    },
-    {
-     "id": "cache-insight",
-     "title": "Use efficient cache lifetimes",
-     "severity": "low",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "performance",
-     "detail": "Cloudflare-injected email-decode.min.js has a 2-day cache TTL"
-    },
-    {
-     "id": "network-dependency-tree-insight",
-     "title": "Network dependency tree",
-     "severity": "low",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "performance",
-     "detail": "critical chain: document -> page.js / _slug_.css"
-    }
-   ],
-   "onpage_issues": [
-    {
-     "id": "has_render_blocking_resources",
-     "title": "Page has render-blocking resources",
-     "severity": "low",
-     "source": "dataforseo_on_page"
-    },
-    {
-     "id": "no_image_title",
-     "title": "Images are missing the title attribute",
-     "severity": "low",
-     "source": "dataforseo_on_page"
-    },
-    {
-     "id": "broken_image_404",
-     "title": "Page renders <img> elements whose src returns HTTP 404",
-     "severity": "high",
-     "source": "manual_verification",
-     "detail": "eager-loaded hero image plus 4 service-card images (Roofing, Water Cleanup, Odor Removal, Contents Restoration & Storage) point at https://images.reign-restoration.com/brand/hero.webp, which returns HTTP 404"
-    },
-    {
-     "id": "og_image_404",
-     "title": "og:image and twitter:image return HTTP 404",
-     "severity": "medium",
-     "source": "manual_verification",
-     "detail": "og:image and twitter:image resolve to https://images.reign-restoration.com/brand/hero.webp, which returns HTTP 404"
-    }
-   ]
-  },
-  {
-   "url": "https://reign-restoration.com/services/water-damage-restoration/",
-   "archetype": "service-landing",
-   "verdict": "green",
-   "error_reason": null,
-   "scores": {
-    "performance": 99,
-    "accessibility": 95,
-    "best_practices": 100,
-    "seo": 100
-   },
-   "core_web_vitals": {
-    "LCP_ms": 877,
-    "CLS": 0.0055,
-    "TBT_ms": 0,
-    "INP_ms": null
-   },
-   "supplemental_metrics": {
-    "FCP_ms": 788,
-    "SpeedIndex_ms": 788,
-    "agentic_browsing_score": 100
-   },
-   "onpage_score": 100,
-   "content": {
-    "word_count": 1963,
-    "target_word_count": 1100,
-    "title_length": 58,
-    "description_length": 127,
-    "h1_count": 1,
-    "canonical": "https://reign-restoration.com/services/water-damage-restoration/",
-    "internal_links": 43,
-    "broken_links": false,
-    "broken_resources": false
-   },
-   "lighthouse_issues": [
-    {
-     "id": "color-contrast",
-     "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-     "severity": "medium",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "accessibility",
-     "detail": "footer links use brand yellow #f2b623 on #ffffff (1.82:1) and the TDLR license link #fae5b2 on #ffffff (1.24:1); WCAG AA needs 4.5:1"
-    },
-    {
-     "id": "image-delivery-insight",
-     "title": "Improve image delivery",
-     "severity": "medium",
-     "estimated_savings_ms": 50,
-     "estimated_savings_bytes": 88487,
-     "category": "performance",
-     "detail": "/images/logo.png 86.7 KB with 86.4 KB wasted (logo is 2896x1065 displayed at 174x64)"
-    },
-    {
-     "id": "unused-javascript",
-     "title": "Reduce unused JavaScript",
-     "severity": "medium",
-     "estimated_savings_ms": 90,
-     "estimated_savings_bytes": 70228,
-     "category": "performance",
-     "detail": "GA4 gtag.js (G-NBFCYGQXJY) ships 159 KB with ~69 KB unused on first load; new since last audit"
-    },
-    {
-     "id": "forced-reflow-insight",
-     "title": "Forced reflow",
-     "severity": "low",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "performance",
-     "detail": "unattributed forced reflow; most likely the DNI tracking-number swap script walking document.body with a TreeWalker on load"
-    },
-    {
-     "id": "lcp-discovery-insight",
-     "title": "LCP request discovery",
-     "severity": "low",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "performance",
-     "detail": "LCP hero image lacks fetchpriority=high"
-    },
-    {
-     "id": "render-blocking-insight",
-     "title": "Render-blocking requests",
-     "severity": "low",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "performance",
-     "detail": "/_astro/_slug_.D67O75JN.css (~9 KB) blocks first paint by ~50ms"
-    },
-    {
-     "id": "cache-insight",
-     "title": "Use efficient cache lifetimes",
-     "severity": "low",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "performance",
-     "detail": "Cloudflare-injected email-decode.min.js has a 2-day cache TTL"
-    },
-    {
-     "id": "network-dependency-tree-insight",
-     "title": "Network dependency tree",
-     "severity": "low",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "performance",
-     "detail": "critical chain: document -> page.js / _slug_.css"
-    }
-   ],
-   "onpage_issues": [
-    {
-     "id": "has_render_blocking_resources",
-     "title": "Page has render-blocking resources",
-     "severity": "low",
-     "source": "dataforseo_on_page"
-    },
-    {
-     "id": "no_image_title",
-     "title": "Images are missing the title attribute",
-     "severity": "low",
-     "source": "dataforseo_on_page"
-    }
-   ]
-  },
-  {
-   "url": "https://reign-restoration.com/services/fire-damage-restoration/",
-   "archetype": "service-landing",
-   "verdict": "green",
-   "error_reason": null,
-   "scores": {
-    "performance": 99,
-    "accessibility": 95,
-    "best_practices": 100,
-    "seo": 100
-   },
-   "core_web_vitals": {
-    "LCP_ms": 900,
-    "CLS": 0.0055,
-    "TBT_ms": 0,
-    "INP_ms": null
-   },
-   "supplemental_metrics": {
-    "FCP_ms": 312,
-    "SpeedIndex_ms": 405,
-    "agentic_browsing_score": 100
-   },
-   "onpage_score": 100,
-   "content": {
-    "word_count": 1774,
-    "target_word_count": 1100,
-    "title_length": 57,
-    "description_length": 126,
-    "h1_count": 1,
-    "canonical": "https://reign-restoration.com/services/fire-damage-restoration/",
-    "internal_links": 42,
-    "broken_links": false,
-    "broken_resources": false
-   },
-   "lighthouse_issues": [
-    {
-     "id": "color-contrast",
-     "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-     "severity": "medium",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "accessibility",
-     "detail": "footer links use brand yellow #f2b623 on #ffffff (1.82:1) and the TDLR license link #fae5b2 on #ffffff (1.24:1); WCAG AA needs 4.5:1"
-    },
-    {
-     "id": "image-delivery-insight",
-     "title": "Improve image delivery",
-     "severity": "medium",
-     "estimated_savings_ms": 100,
-     "estimated_savings_bytes": 88487,
-     "category": "performance",
-     "detail": "/images/logo.png 86.7 KB with 86.4 KB wasted (logo is 2896x1065 displayed at 174x64)"
-    },
-    {
-     "id": "unused-javascript",
-     "title": "Reduce unused JavaScript",
-     "severity": "medium",
-     "estimated_savings_ms": 110,
-     "estimated_savings_bytes": 69621,
-     "category": "performance",
-     "detail": "GA4 gtag.js (G-NBFCYGQXJY) ships 159 KB with ~69 KB unused on first load; new since last audit"
-    },
-    {
-     "id": "forced-reflow-insight",
-     "title": "Forced reflow",
-     "severity": "low",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "performance",
-     "detail": "unattributed forced reflow; most likely the DNI tracking-number swap script walking document.body with a TreeWalker on load"
-    },
-    {
-     "id": "lcp-discovery-insight",
-     "title": "LCP request discovery",
-     "severity": "low",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "performance",
-     "detail": "LCP hero image lacks fetchpriority=high"
-    },
-    {
-     "id": "render-blocking-insight",
-     "title": "Render-blocking requests",
-     "severity": "low",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "performance",
-     "detail": "/_astro/_slug_.D67O75JN.css (~9 KB) blocks first paint by ~50ms"
-    },
-    {
-     "id": "cache-insight",
-     "title": "Use efficient cache lifetimes",
-     "severity": "low",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "performance",
-     "detail": "Cloudflare-injected email-decode.min.js has a 2-day cache TTL"
-    },
-    {
-     "id": "network-dependency-tree-insight",
-     "title": "Network dependency tree",
-     "severity": "low",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "performance",
-     "detail": "critical chain: document -> page.js / _slug_.css"
-    }
-   ],
-   "onpage_issues": [
-    {
-     "id": "has_render_blocking_resources",
-     "title": "Page has render-blocking resources",
-     "severity": "low",
-     "source": "dataforseo_on_page"
-    },
-    {
-     "id": "no_image_title",
-     "title": "Images are missing the title attribute",
-     "severity": "low",
-     "source": "dataforseo_on_page"
-    }
-   ]
-  },
-  {
-   "url": "https://reign-restoration.com/service-areas/rockwall-tx/",
-   "archetype": "service-area",
-   "verdict": "red",
-   "error_reason": null,
-   "scores": {
-    "performance": 99,
-    "accessibility": 95,
-    "best_practices": 100,
-    "seo": 100
-   },
-   "core_web_vitals": {
-    "LCP_ms": 830,
-    "CLS": 0.0062,
-    "TBT_ms": 0,
-    "INP_ms": null
-   },
-   "supplemental_metrics": {
-    "FCP_ms": 314,
-    "SpeedIndex_ms": 314,
-    "agentic_browsing_score": 100
-   },
-   "onpage_score": 100,
-   "content": {
-    "word_count": 1198,
-    "target_word_count": 900,
-    "title_length": 56,
-    "description_length": 117,
-    "h1_count": 1,
-    "canonical": "https://reign-restoration.com/service-areas/rockwall-tx/",
-    "internal_links": 42,
-    "broken_links": false,
-    "broken_resources": false
-   },
-   "lighthouse_issues": [
-    {
-     "id": "color-contrast",
-     "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-     "severity": "medium",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "accessibility",
-     "detail": "footer links use brand yellow #f2b623 on #ffffff (1.82:1) and the TDLR license link #fae5b2 on #ffffff (1.24:1); WCAG AA needs 4.5:1"
-    },
-    {
-     "id": "image-delivery-insight",
-     "title": "Improve image delivery",
-     "severity": "medium",
-     "estimated_savings_ms": 50,
-     "estimated_savings_bytes": 88487,
-     "category": "performance",
-     "detail": "/images/logo.png 86.7 KB with 86.4 KB wasted (logo is 2896x1065 displayed at 174x64)"
-    },
-    {
-     "id": "unused-javascript",
-     "title": "Reduce unused JavaScript",
-     "severity": "medium",
-     "estimated_savings_ms": 40,
-     "estimated_savings_bytes": 70274,
-     "category": "performance",
-     "detail": "GA4 gtag.js (G-NBFCYGQXJY) ships 159 KB with ~69 KB unused on first load; new since last audit"
-    },
-    {
-     "id": "forced-reflow-insight",
-     "title": "Forced reflow",
-     "severity": "low",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "performance",
-     "detail": "unattributed forced reflow; most likely the DNI tracking-number swap script walking document.body with a TreeWalker on load"
-    },
-    {
-     "id": "render-blocking-insight",
-     "title": "Render-blocking requests",
-     "severity": "low",
-     "estimated_savings_ms": 50,
-     "estimated_savings_bytes": null,
-     "category": "performance",
-     "detail": "/_astro/_slug_.D67O75JN.css (~9 KB) blocks first paint by ~50ms"
-    },
-    {
-     "id": "cache-insight",
-     "title": "Use efficient cache lifetimes",
-     "severity": "low",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "performance",
-     "detail": "Cloudflare-injected email-decode.min.js has a 2-day cache TTL"
-    },
-    {
-     "id": "network-dependency-tree-insight",
-     "title": "Network dependency tree",
-     "severity": "low",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "performance",
-     "detail": "critical chain: document -> page.js / _slug_.css"
-    }
-   ],
-   "onpage_issues": [
-    {
-     "id": "has_render_blocking_resources",
-     "title": "Page has render-blocking resources",
-     "severity": "low",
-     "source": "dataforseo_on_page"
-    },
-    {
-     "id": "no_image_title",
-     "title": "Images are missing the title attribute",
-     "severity": "low",
-     "source": "dataforseo_on_page"
-    },
-    {
-     "id": "frame",
-     "title": "Page contains a frame/iframe element",
-     "severity": "low",
-     "source": "dataforseo_on_page"
-    },
-    {
-     "id": "broken_image_404",
-     "title": "Page renders <img> elements whose src returns HTTP 404",
-     "severity": "high",
-     "source": "manual_verification",
-     "detail": "eager-loaded hero image points at https://images.reign-restoration.com/brand/hero.webp, which returns HTTP 404"
-    },
-    {
-     "id": "og_image_404",
-     "title": "og:image and twitter:image return HTTP 404",
-     "severity": "medium",
-     "source": "manual_verification",
-     "detail": "og:image and twitter:image resolve to https://images.reign-restoration.com/brand/hero.webp, which returns HTTP 404"
-    }
-   ]
-  },
-  {
-   "url": "https://reign-restoration.com/contact/",
-   "archetype": "contact",
-   "verdict": "red",
-   "error_reason": null,
-   "scores": {
-    "performance": 100,
-    "accessibility": 96,
-    "best_practices": 100,
-    "seo": 100
-   },
-   "core_web_vitals": {
-    "LCP_ms": 806,
-    "CLS": 0.0092,
-    "TBT_ms": 0,
-    "INP_ms": null
-   },
-   "supplemental_metrics": {
-    "FCP_ms": 346,
-    "SpeedIndex_ms": 355,
-    "agentic_browsing_score": 100
-   },
-   "onpage_score": 100,
-   "content": {
-    "word_count": 711,
-    "target_word_count": 400,
-    "title_length": 53,
-    "description_length": 123,
-    "h1_count": 1,
-    "canonical": "https://reign-restoration.com/contact/",
-    "internal_links": 32,
-    "broken_links": false,
-    "broken_resources": false
-   },
-   "lighthouse_issues": [
-    {
-     "id": "color-contrast",
-     "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-     "severity": "medium",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "accessibility",
-     "detail": "footer links use brand yellow #f2b623 on #ffffff (1.82:1) and the TDLR license link #fae5b2 on #ffffff (1.24:1); WCAG AA needs 4.5:1"
-    },
-    {
-     "id": "image-delivery-insight",
-     "title": "Improve image delivery",
-     "severity": "medium",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": 88307,
-     "category": "performance",
-     "detail": "/images/logo.png 86.7 KB with 86.2 KB wasted (logo is 2896x1065 displayed at 174x64)"
-    },
-    {
-     "id": "unused-javascript",
-     "title": "Reduce unused JavaScript",
-     "severity": "medium",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": 69536,
-     "category": "performance",
-     "detail": "GA4 gtag.js (G-NBFCYGQXJY) ships 159 KB with ~69 KB unused on first load; new since last audit"
-    },
-    {
-     "id": "render-blocking-insight",
-     "title": "Render-blocking requests",
-     "severity": "low",
-     "estimated_savings_ms": 50,
-     "estimated_savings_bytes": null,
-     "category": "performance",
-     "detail": "/_astro/_slug_.D67O75JN.css (~9 KB) blocks first paint by ~50ms"
-    },
-    {
-     "id": "cache-insight",
-     "title": "Use efficient cache lifetimes",
-     "severity": "low",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "performance",
-     "detail": "Cloudflare-injected email-decode.min.js has a 2-day cache TTL"
-    },
-    {
-     "id": "network-dependency-tree-insight",
-     "title": "Network dependency tree",
-     "severity": "low",
-     "estimated_savings_ms": null,
-     "estimated_savings_bytes": null,
-     "category": "performance",
-     "detail": "critical chain: document -> page.js / _slug_.css"
-    }
-   ],
-   "onpage_issues": [
-    {
-     "id": "has_render_blocking_resources",
-     "title": "Page has render-blocking resources",
-     "severity": "low",
-     "source": "dataforseo_on_page"
-    },
-    {
-     "id": "low_content_rate",
-     "title": "Low text-to-HTML content rate",
-     "severity": "low",
-     "source": "dataforseo_on_page"
-    },
-    {
-     "id": "no_image_title",
-     "title": "Images are missing the title attribute",
-     "severity": "low",
-     "source": "dataforseo_on_page"
-    },
-    {
-     "id": "broken_image_404",
-     "title": "Page renders <img> elements whose src returns HTTP 404",
-     "severity": "high",
-     "source": "manual_verification",
-     "detail": "eager-loaded hero image points at https://images.reign-restoration.com/brand/hero.webp, which returns HTTP 404"
-    },
-    {
-     "id": "og_image_404",
-     "title": "og:image and twitter:image return HTTP 404",
-     "severity": "medium",
-     "source": "manual_verification",
-     "detail": "og:image and twitter:image resolve to https://images.reign-restoration.com/brand/hero.webp, which returns HTTP 404"
-    }
-   ]
-  }
- ],
- "site_rollup": {
-  "avg_scores": {
-   "performance": 99.0,
-   "accessibility": 95.3,
-   "best_practices": 100.0,
-   "seo": 100.0
-  },
-  "verdict": "red",
-  "url_count": 6,
-  "urls_by_verdict": {
-   "green": 2,
-   "amber": 0,
-   "red": 4,
-   "error": 0
-  },
-  "template_issues": [
-   {
-    "id": "color-contrast",
-    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-    "affected_urls": 6,
-    "severity": "medium",
-    "source": "lighthouse"
-   },
-   {
-    "id": "image-delivery-insight",
-    "title": "Improve image delivery",
-    "affected_urls": 6,
-    "severity": "medium",
-    "source": "lighthouse"
-   },
-   {
-    "id": "unused-javascript",
-    "title": "Reduce unused JavaScript",
-    "affected_urls": 6,
-    "severity": "medium",
-    "source": "lighthouse"
-   },
-   {
-    "id": "render-blocking-insight",
-    "title": "Render-blocking requests",
-    "affected_urls": 6,
-    "severity": "low",
-    "source": "lighthouse"
-   },
-   {
-    "id": "cache-insight",
-    "title": "Use efficient cache lifetimes",
-    "affected_urls": 6,
-    "severity": "low",
-    "source": "lighthouse"
-   },
-   {
-    "id": "network-dependency-tree-insight",
-    "title": "Network dependency tree",
-    "affected_urls": 6,
-    "severity": "low",
-    "source": "lighthouse"
-   },
-   {
-    "id": "has_render_blocking_resources",
-    "title": "Page has render-blocking resources",
-    "affected_urls": 6,
-    "severity": "low",
-    "source": "dataforseo_on_page"
-   },
-   {
-    "id": "no_image_title",
-    "title": "Images are missing the title attribute",
-    "affected_urls": 6,
-    "severity": "low",
-    "source": "dataforseo_on_page"
-   },
-   {
-    "id": "broken_image_404",
-    "title": "Page renders <img> elements whose src returns HTTP 404",
-    "affected_urls": 4,
-    "severity": "high",
-    "source": "manual_verification"
-   },
-   {
-    "id": "og_image_404",
-    "title": "og:image and twitter:image return HTTP 404",
-    "affected_urls": 4,
-    "severity": "medium",
-    "source": "manual_verification"
-   },
-   {
-    "id": "forced-reflow-insight",
-    "title": "Forced reflow",
-    "affected_urls": 4,
-    "severity": "low",
-    "source": "lighthouse"
-   },
-   {
-    "id": "lcp-discovery-insight",
-    "title": "LCP request discovery",
-    "affected_urls": 3,
-    "severity": "low",
-    "source": "lighthouse"
-   },
-   {
-    "id": "low_content_rate",
-    "title": "Low text-to-HTML content rate",
-    "affected_urls": 2,
-    "severity": "low",
-    "source": "dataforseo_on_page"
-   }
+  "schema_version": 1,
+  "slug": "reign-restoration",
+  "site": "reign-restoration.com",
+  "live_origin": "https://reign-restoration.com",
+  "live_origin_source": "apex",
+  "audit_form_factor": "desktop",
+  "lighthouse_version": "13.4.0",
+  "generated_at": "2026-09-29T00:40:00Z",
+  "environment_caveats": [
+    "Lighthouse ran DESKTOP only (cpuSlowdownMultiplier=1, throughputKbps=10240). Mobile scores typically run 10-20 performance points lower. Do not read these as mobile-first scores.",
+    "Client record status is \"onboarding\", not \"active\". build_status is pushed_main and apex cutover completed 2026-08-13, so the apex site was audited as live. Same mismatch flagged on 2026-08-26 and still unreconciled.",
+    "DataForSEO has_micromarkup=false on every page is a vendor detection gap: it looks for microdata/RDFa and does not see JSON-LD. Direct inspection found 3-5 parseable JSON-LD blocks per page.",
+    "has_micromarkup_errors is a new DataForSEO flag this run on 5 of 6 URLs. The underlying cause (empty foundingDate in Organization/LocalBusiness JSON-LD) has been in the source since 2026-08-03, so the green->amber transitions on the two service landings reflect detection, not a site change. The defect is real and the fix is one line.",
+    "Issue IDs og_image_broken_host and meta_description_too_long are source=manual_verification, not vendor audit IDs.",
+    "Lighthouse on /, /services/, /contact/ and landings rendered footer tel: links as +19035277868. This is the intentional Rank AI DNI tracking-number swap (inline script, tpr=+19035277868), not a NAP defect. Static HTML and JSON-LD carry +12143040621.",
+    "Prior-run per-URL issue lists were capped at top 5 Lighthouse audits. For new-issue detection, template issues the prior run recorded on 6 of 6 URLs are treated as present on every prior URL, so truncation does not produce false 'new' issues."
   ],
-  "money_page_alerts": [
-   {
-    "url": "https://reign-restoration.com/",
-    "archetype": "home",
-    "verdict": "red",
-    "main_issue": "2 service-card images (Roofing, Water Cleanup) point at https://images.reign-restoration.com/brand/hero.webp, which returns HTTP 404; og:image and twitter:image resolve to https://images.reign-restoration.com/brand/hero.webp, which returns HTTP 404; Meta description is 172 chars (target 70-160)"
-   },
-   {
-    "url": "https://reign-restoration.com/services/",
-    "archetype": "services-hub",
-    "verdict": "red",
-    "main_issue": "eager-loaded hero image plus 4 service-card images (Roofing, Water Cleanup, Odor Removal, Contents Restoration & Storage) point at https://images.reign-restoration.com/brand/hero.webp, which returns HTTP 404; og:image and twitter:image resolve to https://images.reign-restoration.com/brand/hero.webp, which returns HTTP 404"
-   },
-   {
-    "url": "https://reign-restoration.com/contact/",
-    "archetype": "contact",
-    "verdict": "red",
-    "main_issue": "eager-loaded hero image points at https://images.reign-restoration.com/brand/hero.webp, which returns HTTP 404; og:image and twitter:image resolve to https://images.reign-restoration.com/brand/hero.webp, which returns HTTP 404"
-   }
-  ]
- },
- "regression": {
-  "prior_run_at": "2026-08-26T22:25:18Z",
-  "score_deltas": {
-   "performance": -0.8,
-   "accessibility": 0.0,
-   "best_practices": 2.0,
-   "seo": 0.0
-  },
-  "site_level_flags": [],
-  "per_url": [
-   {
-    "url": "https://reign-restoration.com/",
-    "score_deltas": {
-     "performance": -2,
-     "accessibility": 0,
-     "best_practices": 0,
-     "seo": 0
+  "audited_urls": [
+    {
+      "url": "https://reign-restoration.com/",
+      "archetype": "home",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 97,
+        "accessibility": 96,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1231,
+        "CLS": 0.005,
+        "TBT_ms": 4,
+        "INP_ms": null
+      },
+      "supplemental_metrics": {
+        "FCP_ms": 308,
+        "SpeedIndex_ms": 438
+      },
+      "onpage_score": 100,
+      "content": {
+        "word_count": 1671,
+        "target_word_count": 1200,
+        "title_length": 58,
+        "description_length": 172,
+        "h1_count": 1,
+        "canonical": "https://reign-restoration.com/",
+        "internal_links": 52,
+        "broken_links": false,
+        "broken_resources": false
+      },
+      "lighthouse_issues": [
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "medium",
+          "estimated_savings_ms": 190,
+          "estimated_savings_bytes": 70416,
+          "category": "performance",
+          "detail": "googletagmanager.com/gtag/js?id=G-NBFCYGQXJY (GA4): 68.8 KB unused of 155.6 KB"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "/images/logo.png 86.4 KB wasted of 86.7 KB; /images/hero-bg.webp 50.2 KB wasted of 215.7 KB; /images/team-768w.webp 9.7 KB wasted of 39.6 KB"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "detail": "5 elements fail; footer links in brand yellow #f2b623 on #ffffff measure 1.82:1 (WCAG AA needs 4.5:1)"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+        },
+        {
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "104ms of forced reflow from unattributed inline script"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "critical chain: document -> page.js / _slug_.css"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "/_astro/_slug_.D67O75JN.css (8.9 KB)"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Page has render-blocking resources",
+          "severity": "low",
+          "source": "dataforseo_on_page"
+        },
+        {
+          "id": "low_content_rate",
+          "title": "Low text-to-HTML content rate",
+          "severity": "low",
+          "source": "dataforseo_on_page"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Images are missing the title attribute",
+          "severity": "low",
+          "source": "dataforseo_on_page"
+        },
+        {
+          "id": "og_image_broken_host",
+          "title": "og:image and twitter:image point at images.reign-restoration.com/brand/hero.webp, which returns HTTP 404",
+          "severity": "medium",
+          "source": "manual_verification",
+          "detail": "og:image = https://images.reign-restoration.com/brand/hero.webp ; host now resolves (Cloudflare) but the object is missing, HTTP 404"
+        },
+        {
+          "id": "meta_description_too_long",
+          "title": "Meta description is 172 chars (target 70-160)",
+          "severity": "medium",
+          "source": "manual_verification"
+        }
+      ]
     },
-    "cwv_deltas": {
-     "LCP_ms": 262,
-     "CLS": 0.0007,
-     "TBT_ms": 0
+    {
+      "url": "https://reign-restoration.com/services/",
+      "archetype": "services-hub",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 98,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 899,
+        "CLS": 0.0039,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "supplemental_metrics": {
+        "FCP_ms": 796,
+        "SpeedIndex_ms": 796
+      },
+      "onpage_score": 100,
+      "content": {
+        "word_count": 836,
+        "target_word_count": 800,
+        "title_length": 54,
+        "description_length": 144,
+        "h1_count": 1,
+        "canonical": "https://reign-restoration.com/services/",
+        "internal_links": 35,
+        "broken_links": false,
+        "broken_resources": false
+      },
+      "lighthouse_issues": [
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "medium",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": 70361,
+          "category": "performance",
+          "detail": "googletagmanager.com/gtag/js?id=G-NBFCYGQXJY (GA4): 68.7 KB unused of 155.6 KB"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "/images/logo.png 86.4 KB wasted of 86.7 KB; /images/services/storm-damage-restoration-480w.webp 5.8 KB wasted of 19.9 KB"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "detail": "5 elements fail; footer links in brand yellow #f2b623 on #ffffff measure 1.82:1 (WCAG AA needs 4.5:1)"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "LCP image lacks fetchpriority=high (discoverable and eagerly loaded)"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "critical chain: document -> page.js / _slug_.css"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "/_astro/_slug_.D67O75JN.css (8.9 KB)"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Page has render-blocking resources",
+          "severity": "low",
+          "source": "dataforseo_on_page"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Images are missing the title attribute",
+          "severity": "low",
+          "source": "dataforseo_on_page"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Structured data has validation errors",
+          "severity": "medium",
+          "source": "dataforseo_on_page",
+          "detail": "Organization/LocalBusiness JSON-LD emits foundingDate: \"\" (empty string, not a valid Date). Source: sites/reign-restoration/src/lib/brand.ts:32 foundedYear: \"\""
+        },
+        {
+          "id": "og_image_broken_host",
+          "title": "og:image and twitter:image point at images.reign-restoration.com/brand/hero.webp, which returns HTTP 404",
+          "severity": "medium",
+          "source": "manual_verification",
+          "detail": "og:image = https://images.reign-restoration.com/brand/hero.webp ; host now resolves (Cloudflare) but the object is missing, HTTP 404"
+        }
+      ]
     },
-    "regressions": [
-     "LCP +262ms"
+    {
+      "url": "https://reign-restoration.com/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 935,
+        "CLS": 0.0055,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "supplemental_metrics": {
+        "FCP_ms": 313,
+        "SpeedIndex_ms": 465
+      },
+      "onpage_score": 100,
+      "content": {
+        "word_count": 1963,
+        "target_word_count": 1100,
+        "title_length": 58,
+        "description_length": 127,
+        "h1_count": 1,
+        "canonical": "https://reign-restoration.com/services/water-damage-restoration/",
+        "internal_links": 44,
+        "broken_links": false,
+        "broken_resources": false
+      },
+      "lighthouse_issues": [
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "medium",
+          "estimated_savings_ms": 150,
+          "estimated_savings_bytes": 70383,
+          "category": "performance",
+          "detail": "googletagmanager.com/gtag/js?id=G-NBFCYGQXJY (GA4): 68.7 KB unused of 155.7 KB"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 100,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "/images/logo.png 86.4 KB wasted of 86.7 KB"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "detail": "5 elements fail; footer links in brand yellow #f2b623 on #ffffff measure 1.82:1 (WCAG AA needs 4.5:1)"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+        },
+        {
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "40ms of forced reflow from unattributed inline script"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "LCP image lacks fetchpriority=high (discoverable and eagerly loaded)"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "critical chain: document -> page.js / _slug_.css"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "/_astro/_slug_.D67O75JN.css (8.9 KB)"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Page has render-blocking resources",
+          "severity": "low",
+          "source": "dataforseo_on_page"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Images are missing the title attribute",
+          "severity": "low",
+          "source": "dataforseo_on_page"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Structured data has validation errors",
+          "severity": "medium",
+          "source": "dataforseo_on_page",
+          "detail": "Organization/LocalBusiness JSON-LD emits foundingDate: \"\" (empty string, not a valid Date). Source: sites/reign-restoration/src/lib/brand.ts:32 foundedYear: \"\""
+        }
+      ]
+    },
+    {
+      "url": "https://reign-restoration.com/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 876,
+        "CLS": 0.0055,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "supplemental_metrics": {
+        "FCP_ms": 295,
+        "SpeedIndex_ms": 437
+      },
+      "onpage_score": 100,
+      "content": {
+        "word_count": 1774,
+        "target_word_count": 1100,
+        "title_length": 57,
+        "description_length": 126,
+        "h1_count": 1,
+        "canonical": "https://reign-restoration.com/services/fire-damage-restoration/",
+        "internal_links": 43,
+        "broken_links": false,
+        "broken_resources": false
+      },
+      "lighthouse_issues": [
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "medium",
+          "estimated_savings_ms": 80,
+          "estimated_savings_bytes": 70366,
+          "category": "performance",
+          "detail": "googletagmanager.com/gtag/js?id=G-NBFCYGQXJY (GA4): 68.7 KB unused of 155.7 KB"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "/images/logo.png 86.4 KB wasted of 86.7 KB"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "detail": "5 elements fail; footer links in brand yellow #f2b623 on #ffffff measure 1.82:1 (WCAG AA needs 4.5:1)"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "LCP image lacks fetchpriority=high (discoverable and eagerly loaded)"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "critical chain: document -> page.js / _slug_.css"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "/_astro/_slug_.D67O75JN.css (8.9 KB)"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Page has render-blocking resources",
+          "severity": "low",
+          "source": "dataforseo_on_page"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Images are missing the title attribute",
+          "severity": "low",
+          "source": "dataforseo_on_page"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Structured data has validation errors",
+          "severity": "medium",
+          "source": "dataforseo_on_page",
+          "detail": "Organization/LocalBusiness JSON-LD emits foundingDate: \"\" (empty string, not a valid Date). Source: sites/reign-restoration/src/lib/brand.ts:32 foundedYear: \"\""
+        }
+      ]
+    },
+    {
+      "url": "https://reign-restoration.com/service-areas/rockwall-tx/",
+      "archetype": "service-area",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 827,
+        "CLS": 0.0062,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "supplemental_metrics": {
+        "FCP_ms": 332,
+        "SpeedIndex_ms": 348
+      },
+      "onpage_score": 100,
+      "content": {
+        "word_count": 1198,
+        "target_word_count": 900,
+        "title_length": 56,
+        "description_length": 117,
+        "h1_count": 1,
+        "canonical": "https://reign-restoration.com/service-areas/rockwall-tx/",
+        "internal_links": 43,
+        "broken_links": false,
+        "broken_resources": false
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "/images/logo.png 86.4 KB wasted of 86.7 KB"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "medium",
+          "estimated_savings_ms": 20,
+          "estimated_savings_bytes": 70228,
+          "category": "performance",
+          "detail": "googletagmanager.com/gtag/js?id=G-NBFCYGQXJY (GA4): 68.6 KB unused of 155.7 KB"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "detail": "6 elements fail; footer links in brand yellow #f2b623 on #ffffff measure 1.82:1 (WCAG AA needs 4.5:1)"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "/_astro/_slug_.D67O75JN.css (8.9 KB)"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage; https://maps.googleapis.com/maps/api/js; /cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+        },
+        {
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "31ms of forced reflow from unattributed inline script"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "critical chain: document -> page.js / _slug_.css"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Page has render-blocking resources",
+          "severity": "low",
+          "source": "dataforseo_on_page"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Images are missing the title attribute",
+          "severity": "low",
+          "source": "dataforseo_on_page"
+        },
+        {
+          "id": "frame",
+          "title": "Page contains an iframe",
+          "severity": "low",
+          "source": "dataforseo_on_page",
+          "detail": "embedded Google Map"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Structured data has validation errors",
+          "severity": "medium",
+          "source": "dataforseo_on_page",
+          "detail": "Organization/LocalBusiness JSON-LD emits foundingDate: \"\" (empty string, not a valid Date). Source: sites/reign-restoration/src/lib/brand.ts:32 foundedYear: \"\""
+        },
+        {
+          "id": "og_image_broken_host",
+          "title": "og:image and twitter:image point at images.reign-restoration.com/brand/hero.webp, which returns HTTP 404",
+          "severity": "medium",
+          "source": "manual_verification",
+          "detail": "og:image = https://images.reign-restoration.com/brand/hero.webp ; host now resolves (Cloudflare) but the object is missing, HTTP 404"
+        }
+      ]
+    },
+    {
+      "url": "https://reign-restoration.com/contact/",
+      "archetype": "contact",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 96,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 813,
+        "CLS": 0.0092,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "supplemental_metrics": {
+        "FCP_ms": 782,
+        "SpeedIndex_ms": 782
+      },
+      "onpage_score": 100,
+      "content": {
+        "word_count": 711,
+        "target_word_count": 400,
+        "title_length": 53,
+        "description_length": 123,
+        "h1_count": 1,
+        "canonical": "https://reign-restoration.com/contact/",
+        "internal_links": 33,
+        "broken_links": false,
+        "broken_resources": false
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "medium",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "/images/logo.png 86.2 KB wasted of 86.7 KB"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "medium",
+          "estimated_savings_ms": 30,
+          "estimated_savings_bytes": 70283,
+          "category": "performance",
+          "detail": "googletagmanager.com/gtag/js?id=G-NBFCYGQXJY (GA4): 68.6 KB unused of 155.7 KB"
+        },
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "accessibility",
+          "detail": "5 elements fail; footer links in brand yellow #f2b623 on #ffffff measure 1.82:1 (WCAG AA needs 4.5:1)"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "critical chain: document -> page.js / _slug_.css"
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "category": "performance",
+          "detail": "/_astro/_slug_.D67O75JN.css (8.9 KB)"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_render_blocking_resources",
+          "title": "Page has render-blocking resources",
+          "severity": "low",
+          "source": "dataforseo_on_page"
+        },
+        {
+          "id": "low_content_rate",
+          "title": "Low text-to-HTML content rate",
+          "severity": "low",
+          "source": "dataforseo_on_page"
+        },
+        {
+          "id": "no_image_title",
+          "title": "Images are missing the title attribute",
+          "severity": "low",
+          "source": "dataforseo_on_page"
+        },
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Structured data has validation errors",
+          "severity": "medium",
+          "source": "dataforseo_on_page",
+          "detail": "Organization/LocalBusiness JSON-LD emits foundingDate: \"\" (empty string, not a valid Date). Source: sites/reign-restoration/src/lib/brand.ts:32 foundedYear: \"\""
+        },
+        {
+          "id": "og_image_broken_host",
+          "title": "og:image and twitter:image point at images.reign-restoration.com/brand/hero.webp, which returns HTTP 404",
+          "severity": "medium",
+          "source": "manual_verification",
+          "detail": "og:image = https://images.reign-restoration.com/brand/hero.webp ; host now resolves (Cloudflare) but the object is missing, HTTP 404"
+        }
+      ]
+    }
+  ],
+  "site_rollup": {
+    "avg_scores": {
+      "performance": 98.5,
+      "accessibility": 95.3,
+      "best_practices": 100.0,
+      "seo": 100.0
+    },
+    "verdict": "amber",
+    "url_count": 6,
+    "urls_by_verdict": {
+      "green": 0,
+      "amber": 6,
+      "red": 0,
+      "error": 0
+    },
+    "template_issues": [
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "severity": "medium",
+        "affected_urls": 6,
+        "source": "lighthouse"
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "severity": "medium",
+        "affected_urls": 6,
+        "source": "lighthouse"
+      },
+      {
+        "id": "color-contrast",
+        "title": "Background and foreground colors do not have a sufficient contrast ratio",
+        "severity": "medium",
+        "affected_urls": 6,
+        "source": "lighthouse"
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "severity": "low",
+        "affected_urls": 6,
+        "source": "lighthouse"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "severity": "low",
+        "affected_urls": 6,
+        "source": "lighthouse"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "severity": "low",
+        "affected_urls": 6,
+        "source": "lighthouse"
+      },
+      {
+        "id": "has_render_blocking_resources",
+        "title": "Page has render-blocking resources",
+        "severity": "low",
+        "affected_urls": 6,
+        "source": "dataforseo_on_page"
+      },
+      {
+        "id": "no_image_title",
+        "title": "Images are missing the title attribute",
+        "severity": "low",
+        "affected_urls": 6,
+        "source": "dataforseo_on_page"
+      },
+      {
+        "id": "has_micromarkup_errors",
+        "title": "Structured data has validation errors",
+        "severity": "medium",
+        "affected_urls": 5,
+        "source": "dataforseo_on_page"
+      },
+      {
+        "id": "og_image_broken_host",
+        "title": "og:image and twitter:image point at images.reign-restoration.com/brand/hero.webp, which returns HTTP 404",
+        "severity": "medium",
+        "affected_urls": 4,
+        "source": "manual_verification"
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
+        "severity": "low",
+        "affected_urls": 3,
+        "source": "lighthouse"
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
+        "severity": "low",
+        "affected_urls": 3,
+        "source": "lighthouse"
+      },
+      {
+        "id": "low_content_rate",
+        "title": "Low text-to-HTML content rate",
+        "severity": "low",
+        "affected_urls": 2,
+        "source": "dataforseo_on_page"
+      }
+    ],
+    "money_page_alerts": [
+      {
+        "url": "https://reign-restoration.com/",
+        "archetype": "home",
+        "verdict": "amber",
+        "main_issue": "og:image and twitter:image point at images.reign-restoration.com/brand/hero.webp, which returns HTTP 404; Meta description is 172 chars (target 70-160)"
+      },
+      {
+        "url": "https://reign-restoration.com/services/",
+        "archetype": "services-hub",
+        "verdict": "amber",
+        "main_issue": "Structured data has validation errors; og:image and twitter:image point at images.reign-restoration.com/brand/hero.webp, which returns HTTP 404"
+      },
+      {
+        "url": "https://reign-restoration.com/services/water-damage-restoration/",
+        "archetype": "service-landing",
+        "verdict": "amber",
+        "main_issue": "Structured data has validation errors"
+      },
+      {
+        "url": "https://reign-restoration.com/services/fire-damage-restoration/",
+        "archetype": "service-landing",
+        "verdict": "amber",
+        "main_issue": "Structured data has validation errors"
+      },
+      {
+        "url": "https://reign-restoration.com/contact/",
+        "archetype": "contact",
+        "verdict": "amber",
+        "main_issue": "Structured data has validation errors; og:image and twitter:image point at images.reign-restoration.com/brand/hero.webp, which returns HTTP 404"
+      }
     ]
-   },
-   {
-    "url": "https://reign-restoration.com/services/",
+  },
+  "regression": {
+    "prior_run_at": "2026-08-26T22:25:18Z",
     "score_deltas": {
-     "performance": 0,
-     "accessibility": 0,
-     "best_practices": 4,
-     "seo": 0
+      "performance": -1.3,
+      "accessibility": 0.0,
+      "best_practices": 2.0,
+      "seo": 0.0
     },
-    "cwv_deltas": {
-     "LCP_ms": 36,
-     "CLS": 0.0007,
-     "TBT_ms": 0
-    },
-    "regressions": []
-   },
-   {
-    "url": "https://reign-restoration.com/services/water-damage-restoration/",
-    "score_deltas": {
-     "performance": -1,
-     "accessibility": 0,
-     "best_practices": 0,
-     "seo": 0
-    },
-    "cwv_deltas": {
-     "LCP_ms": 113,
-     "CLS": 0.0008,
-     "TBT_ms": 0
-    },
-    "regressions": []
-   },
-   {
-    "url": "https://reign-restoration.com/services/fire-damage-restoration/",
-    "score_deltas": {
-     "performance": -1,
-     "accessibility": 0,
-     "best_practices": 0,
-     "seo": 0
-    },
-    "cwv_deltas": {
-     "LCP_ms": 141,
-     "CLS": 0.0008,
-     "TBT_ms": 0
-    },
-    "regressions": []
-   },
-   {
-    "url": "https://reign-restoration.com/service-areas/rockwall-tx/",
-    "score_deltas": {
-     "performance": -1,
-     "accessibility": 0,
-     "best_practices": 4,
-     "seo": 0
-    },
-    "cwv_deltas": {
-     "LCP_ms": 60,
-     "CLS": 0.0009,
-     "TBT_ms": 0
-    },
-    "regressions": []
-   },
-   {
-    "url": "https://reign-restoration.com/contact/",
-    "score_deltas": {
-     "performance": 0,
-     "accessibility": 0,
-     "best_practices": 4,
-     "seo": 0
-    },
-    "cwv_deltas": {
-     "LCP_ms": 29,
-     "CLS": 0.001,
-     "TBT_ms": 0
-    },
-    "regressions": []
-   }
-  ],
-  "metric_regressions": [
-   {
-    "url": "https://reign-restoration.com/",
-    "metric": "LCP +262ms"
-   }
-  ],
-  "verdict_transitions": [
-   {
-    "url": "https://reign-restoration.com/",
-    "from": "amber",
-    "to": "red"
-   },
-   {
-    "url": "https://reign-restoration.com/services/",
-    "from": "amber",
-    "to": "red"
-   },
-   {
-    "url": "https://reign-restoration.com/service-areas/rockwall-tx/",
-    "from": "amber",
-    "to": "red"
-   },
-   {
-    "url": "https://reign-restoration.com/contact/",
-    "from": "amber",
-    "to": "red"
-   }
-  ],
-  "new_issues": [
-   {
-    "url": "https://reign-restoration.com/",
-    "id": "unused-javascript",
-    "title": "Reduce unused JavaScript"
-   },
-   {
-    "url": "https://reign-restoration.com/",
-    "id": "forced-reflow-insight",
-    "title": "Forced reflow"
-   },
-   {
-    "url": "https://reign-restoration.com/",
-    "id": "broken_image_404",
-    "title": "Page renders <img> elements whose src returns HTTP 404"
-   },
-   {
-    "url": "https://reign-restoration.com/",
-    "id": "og_image_404",
-    "title": "og:image and twitter:image return HTTP 404"
-   },
-   {
-    "url": "https://reign-restoration.com/services/",
-    "id": "unused-javascript",
-    "title": "Reduce unused JavaScript"
-   },
-   {
-    "url": "https://reign-restoration.com/services/",
-    "id": "broken_image_404",
-    "title": "Page renders <img> elements whose src returns HTTP 404"
-   },
-   {
-    "url": "https://reign-restoration.com/services/",
-    "id": "og_image_404",
-    "title": "og:image and twitter:image return HTTP 404"
-   },
-   {
-    "url": "https://reign-restoration.com/services/water-damage-restoration/",
-    "id": "unused-javascript",
-    "title": "Reduce unused JavaScript"
-   },
-   {
-    "url": "https://reign-restoration.com/services/water-damage-restoration/",
-    "id": "forced-reflow-insight",
-    "title": "Forced reflow"
-   },
-   {
-    "url": "https://reign-restoration.com/services/fire-damage-restoration/",
-    "id": "unused-javascript",
-    "title": "Reduce unused JavaScript"
-   },
-   {
-    "url": "https://reign-restoration.com/services/fire-damage-restoration/",
-    "id": "forced-reflow-insight",
-    "title": "Forced reflow"
-   },
-   {
-    "url": "https://reign-restoration.com/service-areas/rockwall-tx/",
-    "id": "unused-javascript",
-    "title": "Reduce unused JavaScript"
-   },
-   {
-    "url": "https://reign-restoration.com/service-areas/rockwall-tx/",
-    "id": "forced-reflow-insight",
-    "title": "Forced reflow"
-   },
-   {
-    "url": "https://reign-restoration.com/service-areas/rockwall-tx/",
-    "id": "broken_image_404",
-    "title": "Page renders <img> elements whose src returns HTTP 404"
-   },
-   {
-    "url": "https://reign-restoration.com/service-areas/rockwall-tx/",
-    "id": "og_image_404",
-    "title": "og:image and twitter:image return HTTP 404"
-   },
-   {
-    "url": "https://reign-restoration.com/contact/",
-    "id": "unused-javascript",
-    "title": "Reduce unused JavaScript"
-   },
-   {
-    "url": "https://reign-restoration.com/contact/",
-    "id": "low_content_rate",
-    "title": "Low text-to-HTML content rate"
-   },
-   {
-    "url": "https://reign-restoration.com/contact/",
-    "id": "broken_image_404",
-    "title": "Page renders <img> elements whose src returns HTTP 404"
-   },
-   {
-    "url": "https://reign-restoration.com/contact/",
-    "id": "og_image_404",
-    "title": "og:image and twitter:image return HTTP 404"
-   }
-  ],
-  "resolved_issues": [
-   {
-    "url": "https://reign-restoration.com/",
-    "id": "og_image_broken_host",
-    "title": "og:image and twitter:image point at the non-resolving host images.None"
-   },
-   {
-    "url": "https://reign-restoration.com/services/",
-    "id": "errors-in-console",
-    "title": "Browser errors were logged to the console"
-   },
-   {
-    "url": "https://reign-restoration.com/services/",
-    "id": "og_image_broken_host",
-    "title": "og:image and twitter:image point at the non-resolving host images.None"
-   },
-   {
-    "url": "https://reign-restoration.com/service-areas/rockwall-tx/",
-    "id": "errors-in-console",
-    "title": "Browser errors were logged to the console"
-   },
-   {
-    "url": "https://reign-restoration.com/service-areas/rockwall-tx/",
-    "id": "og_image_broken_host",
-    "title": "og:image and twitter:image point at the non-resolving host images.None"
-   },
-   {
-    "url": "https://reign-restoration.com/contact/",
-    "id": "errors-in-console",
-    "title": "Browser errors were logged to the console"
-   },
-   {
-    "url": "https://reign-restoration.com/contact/",
-    "id": "og_image_broken_host",
-    "title": "og:image and twitter:image point at the non-resolving host images.None"
-   }
-  ],
-  "note": "og_image_broken_host is resolved in its original form (images.None no longer appears; brand.ts imagesBase is now https://images.reign-restoration.com) but is superseded by og_image_404 and broken_image_404: the host now resolves and returns HTTP 404 for /brand/hero.webp. broken_image_404 is not a new defect. The same <img> tags pointed at images.None last month and were missed by the prior audit."
- },
- "cost_usd": 0.0408
+    "site_score_flags": [],
+    "url_score_regressions": [],
+    "cwv_regressions": [
+      {
+        "url": "https://reign-restoration.com/",
+        "metric": "LCP_ms",
+        "from": 805,
+        "to": 1231,
+        "delta": 426
+      }
+    ],
+    "verdict_transitions": [
+      {
+        "url": "https://reign-restoration.com/services/water-damage-restoration/",
+        "from": "green",
+        "to": "amber"
+      },
+      {
+        "url": "https://reign-restoration.com/services/fire-damage-restoration/",
+        "from": "green",
+        "to": "amber"
+      }
+    ],
+    "new_issues": [
+      {
+        "url": "https://reign-restoration.com/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://reign-restoration.com/",
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
+      },
+      {
+        "url": "https://reign-restoration.com/services/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://reign-restoration.com/services/",
+        "id": "has_micromarkup_errors",
+        "title": "Structured data has validation errors"
+      },
+      {
+        "url": "https://reign-restoration.com/services/water-damage-restoration/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://reign-restoration.com/services/water-damage-restoration/",
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
+      },
+      {
+        "url": "https://reign-restoration.com/services/water-damage-restoration/",
+        "id": "has_micromarkup_errors",
+        "title": "Structured data has validation errors"
+      },
+      {
+        "url": "https://reign-restoration.com/services/fire-damage-restoration/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://reign-restoration.com/services/fire-damage-restoration/",
+        "id": "has_micromarkup_errors",
+        "title": "Structured data has validation errors"
+      },
+      {
+        "url": "https://reign-restoration.com/service-areas/rockwall-tx/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://reign-restoration.com/service-areas/rockwall-tx/",
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
+      },
+      {
+        "url": "https://reign-restoration.com/service-areas/rockwall-tx/",
+        "id": "has_micromarkup_errors",
+        "title": "Structured data has validation errors"
+      },
+      {
+        "url": "https://reign-restoration.com/contact/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "url": "https://reign-restoration.com/contact/",
+        "id": "low_content_rate",
+        "title": "Low text-to-HTML content rate"
+      },
+      {
+        "url": "https://reign-restoration.com/contact/",
+        "id": "has_micromarkup_errors",
+        "title": "Structured data has validation errors"
+      }
+    ],
+    "resolved_issues": [
+      {
+        "url": "https://reign-restoration.com/services/",
+        "id": "errors-in-console",
+        "title": "Browser errors were logged to the console"
+      },
+      {
+        "url": "https://reign-restoration.com/service-areas/rockwall-tx/",
+        "id": "errors-in-console",
+        "title": "Browser errors were logged to the console"
+      },
+      {
+        "url": "https://reign-restoration.com/contact/",
+        "id": "errors-in-console",
+        "title": "Browser errors were logged to the console"
+      }
+    ]
+  },
+  "cost_usd": 0.0309
 }

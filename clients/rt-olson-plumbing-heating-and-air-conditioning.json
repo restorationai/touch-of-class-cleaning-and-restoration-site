@@ -13,7 +13,7 @@
     "url_count": 549,
     "generated_at": "2026-09-20T17:30:07.476221+00:00"
   },
-  "updated_at": "2026-09-28T23:05:18Z",
+  "updated_at": "2026-09-28T23:59:02Z",
   "indexnow_key": "86c3afe660ff4fa0a7fce519ce3c93ec",
   "build": {
     "scaffolded_at": "2026-09-03T03:02:00.367952+00:00",
@@ -66,12 +66,12 @@
     "sitemap_url": "https://rtolsonplumbing.com/sitemap-index.xml"
   },
   "audit": {
-    "last_audit_at": "2026-09-28T23:03:41Z",
+    "last_audit_at": "2026-09-28T23:57:17Z",
     "last_audit_verdict": "amber",
     "last_audit_report_path": "audit-runs/2026-09-28-onsite-audit.md"
   },
   "refresh": {
-    "last_run_at": "2026-09-28T23:05:18Z",
+    "last_run_at": "2026-09-28T23:59:02Z",
     "last_run_total_actions": 0,
     "last_run_top_action": null,
     "last_run_report_path": "clients/rt-olson-plumbing-heating-and-air-conditioning/refresh-runs/2026-09-28-refresh-recommender.md"

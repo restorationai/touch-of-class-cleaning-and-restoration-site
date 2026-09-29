@@ -13,7 +13,7 @@
     "url_count": 180,
     "generated_at": "2026-09-21T14:13:48.976989+00:00"
   },
-  "updated_at": "2026-09-28T23:45:13.312347+00:00",
+  "updated_at": "2026-09-29T00:34:58Z",
   "build": {
     "scaffolded_at": "2026-07-23T05:41:15.712612+00:00",
     "github_repo": "restorationai/restorationxpress-site",
@@ -53,9 +53,9 @@
     "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJCzaMJr6p2YgRt87XYVAI8ek"
   },
   "audit": {
-    "last_audit_at": "2026-09-28T23:45:13.312347+00:00",
+    "last_audit_at": "2026-09-29T00:34:58Z",
     "last_audit_verdict": "amber",
-    "last_audit_report_path": "audit-runs/2026-09-28-onsite-audit.md"
+    "last_audit_report_path": "audit-runs/2026-09-29-onsite-audit.md"
   },
   "brightlocal": {
     "location_id": 4147632,

@@ -4,19 +4,12 @@
   "site": "rtolsonplumbing.com",
   "live_origin": "https://rtolsonplumbing.com",
   "live_origin_source": "apex",
+  "generated_at": "2026-09-28T23:57:17Z",
   "audit_form_factor": "desktop",
   "lighthouse_version": "13.4.0",
-  "generated_at": "2026-09-28T23:03:41Z",
-  "url_selection_mode": "B (auto-derived from plan/url-plan.json)",
-  "environment_caveats": [
-    "Lighthouse ran DESKTOP only (formFactor=desktop); mobile performance is typically 10-20 points lower.",
-    "Service-area slot: no primary:true entry and no Corona (HQ city) area page exists, so fell back to the first area slug (/service-areas/riverside-ca/).",
-    "IDs prefixed rankai_ are Rank AI rubric checks (meta description length, word count vs url-plan target) computed from DataForSEO instant_pages meta fields; DataForSEO has no native check ID for them.",
-    "DataForSEO has_micromarkup=false on all pages, but direct HTML fetch confirms valid JSON-LD (LocalBusiness, Service, FAQPage, BreadcrumbList, AggregateRating); treated as a DataForSEO detection gap, not a schema issue.",
-    "Image alt coverage is 100% for content images; the only alt-less <img> is the Meta Pixel noscript 1x1 beacon."
-  ],
-  "lighthouse_detail": "captured (full audits via DataForSEO lighthouse/live/json, raw responses parsed off-context)",
-  "cost_usd": 0.0408,
+  "lighthouse_detail": "full_data extracted (top 5 failing audits per URL)",
+  "url_selection_mode": "B (url-plan auto-derive)",
+  "environment_caveats": [],
   "audited_urls": [
     {
       "url": "https://rtolsonplumbing.com/",
@@ -24,25 +17,25 @@
       "verdict": "amber",
       "error_reason": null,
       "scores": {
-        "performance": 88,
+        "performance": 89,
         "accessibility": 100,
         "best_practices": 96,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1269,
+        "LCP_ms": 1256,
         "CLS": 0.012,
-        "TBT_ms": 241,
+        "TBT_ms": 226,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
+          "id": "total-blocking-time",
+          "title": "Total Blocking Time",
           "severity": "high",
-          "estimated_savings_ms": 40,
-          "estimated_savings_bytes": 435694,
-          "display_value": "Est savings of 425\u00a0KiB",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": "230 ms",
           "category": "performance"
         },
         {
@@ -51,25 +44,16 @@
           "severity": "high",
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
-          "display_value": "Est savings of 509\u00a0KiB",
+          "display_value": "Est savings of 509 KiB",
           "category": "performance"
         },
         {
-          "id": "errors-in-console",
-          "title": "Browser errors were logged to the console",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "display_value": null,
-          "category": "best-practices"
-        },
-        {
-          "id": "total-blocking-time",
-          "title": "Total Blocking Time",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "display_value": "240\u00a0ms",
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "high",
+          "estimated_savings_ms": 40,
+          "estimated_savings_bytes": 434671,
+          "display_value": "Est savings of 424 KiB",
           "category": "performance"
         },
         {
@@ -78,63 +62,7 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
-          "display_value": "1.3\u00a0s",
-          "category": "performance"
-        }
-      ],
-      "onpage_issues": [
-        {
-          "id": "rankai_description_length",
-          "title": "Meta description is 202 chars (target 70-160); Google will truncate it",
-          "severity": "medium"
-        },
-        {
-          "id": "has_render_blocking_resources",
-          "title": "Render-blocking stylesheet /_astro/_slug_.*.css (~9 KB) in head",
-          "severity": "low"
-        },
-        {
-          "id": "low_content_rate",
-          "title": "Low text-to-HTML ratio",
-          "severity": "low"
-        }
-      ],
-      "word_count": 1652
-    },
-    {
-      "url": "https://rtolsonplumbing.com/services/",
-      "archetype": "services-hub",
-      "verdict": "green",
-      "error_reason": null,
-      "scores": {
-        "performance": 93,
-        "accessibility": 95,
-        "best_practices": 96,
-        "seo": 100
-      },
-      "core_web_vitals": {
-        "LCP_ms": 1181,
-        "CLS": 0.025,
-        "TBT_ms": 174,
-        "INP_ms": null
-      },
-      "lighthouse_issues": [
-        {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "high",
-          "estimated_savings_ms": 40,
-          "estimated_savings_bytes": 435570,
-          "display_value": "Est savings of 425\u00a0KiB",
-          "category": "performance"
-        },
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "display_value": "Est savings of 712\u00a0KiB",
+          "display_value": "1.3 s",
           "category": "performance"
         },
         {
@@ -144,7 +72,63 @@
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
           "display_value": null,
-          "category": "best-practices"
+          "category": "best_practices"
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "rankai_meta_description_too_long",
+          "title": "Meta description 202 chars (target 70-160)",
+          "severity": "medium"
+        }
+      ],
+      "onpage_meta": {
+        "title_length": 37,
+        "description_length": 202,
+        "h1_count": 1,
+        "canonical": "https://rtolsonplumbing.com/",
+        "word_count": 1652,
+        "target_word_count": 1200,
+        "broken_links": false,
+        "broken_resources": false,
+        "onpage_score": 100
+      }
+    },
+    {
+      "url": "https://rtolsonplumbing.com/services/",
+      "archetype": "services-hub",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 96,
+        "accessibility": 95,
+        "best_practices": 96,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1355,
+        "CLS": 0.024,
+        "TBT_ms": 28,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": "Est savings of 712 KiB",
+          "category": "performance"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "high",
+          "estimated_savings_ms": 50,
+          "estimated_savings_bytes": 434558,
+          "display_value": "Est savings of 424 KiB",
+          "category": "performance"
         },
         {
           "id": "color-contrast",
@@ -163,26 +147,40 @@
           "estimated_savings_bytes": null,
           "display_value": null,
           "category": "performance"
+        },
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": "1.4 s",
+          "category": "performance"
         }
       ],
       "onpage_issues": [
         {
-          "id": "rankai_low_word_count",
-          "title": "784 words vs 800 target in url-plan",
-          "severity": "low"
+          "id": "has_micromarkup_errors",
+          "title": "Structured data markup has validation errors",
+          "severity": "medium"
         },
         {
-          "id": "has_render_blocking_resources",
-          "title": "Render-blocking stylesheet /_astro/_slug_.*.css (~9 KB) in head",
-          "severity": "low"
-        },
-        {
-          "id": "low_content_rate",
-          "title": "Low text-to-HTML ratio",
+          "id": "rankai_word_count_below_target",
+          "title": "Word count 784 below url-plan target 800",
           "severity": "low"
         }
       ],
-      "word_count": 784
+      "onpage_meta": {
+        "title_length": 42,
+        "description_length": 143,
+        "h1_count": 1,
+        "canonical": "https://rtolsonplumbing.com/services/",
+        "word_count": 784,
+        "target_word_count": 800,
+        "broken_links": false,
+        "broken_resources": false,
+        "onpage_score": 100
+      }
     },
     {
       "url": "https://rtolsonplumbing.com/services/emergency-plumbing/",
@@ -196,38 +194,29 @@
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1266,
-        "CLS": 0.003,
-        "TBT_ms": 124,
+        "LCP_ms": 1513,
+        "CLS": 0.002,
+        "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
-        {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "high",
-          "estimated_savings_ms": 50,
-          "estimated_savings_bytes": 435165,
-          "display_value": "Est savings of 425\u00a0KiB",
-          "category": "performance"
-        },
         {
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "high",
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
-          "display_value": "Est savings of 582\u00a0KiB",
+          "display_value": "Est savings of 582 KiB",
           "category": "performance"
         },
         {
-          "id": "errors-in-console",
-          "title": "Browser errors were logged to the console",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "display_value": null,
-          "category": "best-practices"
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "high",
+          "estimated_savings_ms": 110,
+          "estimated_savings_bytes": 434622,
+          "display_value": "Est savings of 424 KiB",
+          "category": "performance"
         },
         {
           "id": "color-contrast",
@@ -246,26 +235,40 @@
           "estimated_savings_bytes": null,
           "display_value": null,
           "category": "performance"
+        },
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": "1.5 s",
+          "category": "performance"
         }
       ],
       "onpage_issues": [
         {
-          "id": "title_too_short",
-          "title": "Title is 28 chars (target 30-65): \"Emergency Plumbing in Corona\"",
+          "id": "has_micromarkup_errors",
+          "title": "Structured data markup has validation errors",
           "severity": "medium"
         },
         {
-          "id": "high_loading_time",
-          "title": "DataForSEO crawler page load 3934 ms (Lighthouse LCP 1266 ms disagrees)",
-          "severity": "low"
-        },
-        {
-          "id": "has_render_blocking_resources",
-          "title": "Render-blocking stylesheet /_astro/_slug_.*.css (~9 KB) in head",
-          "severity": "low"
+          "id": "title_too_short",
+          "title": "Title tag shorter than 30 characters",
+          "severity": "medium"
         }
       ],
-      "word_count": 1801
+      "onpage_meta": {
+        "title_length": 28,
+        "description_length": 158,
+        "h1_count": 1,
+        "canonical": "https://rtolsonplumbing.com/services/emergency-plumbing/",
+        "word_count": 1801,
+        "target_word_count": 1100,
+        "broken_links": false,
+        "broken_resources": false,
+        "onpage_score": 98.17
+      }
     },
     {
       "url": "https://rtolsonplumbing.com/services/drain-cleaning/",
@@ -279,38 +282,29 @@
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1625,
-        "CLS": 0.002,
-        "TBT_ms": 39,
+        "LCP_ms": 1499,
+        "CLS": 0.011,
+        "TBT_ms": 100,
         "INP_ms": null
       },
       "lighthouse_issues": [
-        {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "high",
-          "estimated_savings_ms": 180,
-          "estimated_savings_bytes": 435466,
-          "display_value": "Est savings of 425\u00a0KiB",
-          "category": "performance"
-        },
         {
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "high",
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
-          "display_value": "Est savings of 562\u00a0KiB",
+          "display_value": "Est savings of 562 KiB",
           "category": "performance"
         },
         {
-          "id": "errors-in-console",
-          "title": "Browser errors were logged to the console",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "display_value": null,
-          "category": "best-practices"
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "high",
+          "estimated_savings_ms": 150,
+          "estimated_savings_bytes": 434880,
+          "display_value": "Est savings of 425 KiB",
+          "category": "performance"
         },
         {
           "id": "color-contrast",
@@ -329,26 +323,40 @@
           "estimated_savings_bytes": null,
           "display_value": null,
           "category": "performance"
+        },
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": "1.5 s",
+          "category": "performance"
         }
       ],
       "onpage_issues": [
         {
-          "id": "title_too_short",
-          "title": "Title is 24 chars (target 30-65): \"Drain Cleaning in Corona\"",
+          "id": "has_micromarkup_errors",
+          "title": "Structured data markup has validation errors",
           "severity": "medium"
         },
         {
-          "id": "high_loading_time",
-          "title": "DataForSEO crawler page load 4480 ms (Lighthouse LCP 1625 ms disagrees)",
-          "severity": "low"
-        },
-        {
-          "id": "has_render_blocking_resources",
-          "title": "Render-blocking stylesheet /_astro/_slug_.*.css (~9 KB) in head",
-          "severity": "low"
+          "id": "title_too_short",
+          "title": "Title tag shorter than 30 characters",
+          "severity": "medium"
         }
       ],
-      "word_count": 1667
+      "onpage_meta": {
+        "title_length": 24,
+        "description_length": 154,
+        "h1_count": 1,
+        "canonical": "https://rtolsonplumbing.com/services/drain-cleaning/",
+        "word_count": 1667,
+        "target_word_count": 1100,
+        "broken_links": false,
+        "broken_resources": false,
+        "onpage_score": 98.17
+      }
     },
     {
       "url": "https://rtolsonplumbing.com/service-areas/riverside-ca/",
@@ -356,44 +364,35 @@
       "verdict": "amber",
       "error_reason": null,
       "scores": {
-        "performance": 85,
+        "performance": 96,
         "accessibility": 95,
         "best_practices": 96,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1495,
-        "CLS": 0.002,
-        "TBT_ms": 254,
+        "LCP_ms": 1357,
+        "CLS": 0.004,
+        "TBT_ms": 88,
         "INP_ms": null
       },
       "lighthouse_issues": [
-        {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "high",
-          "estimated_savings_ms": 130,
-          "estimated_savings_bytes": 435207,
-          "display_value": "Est savings of 425\u00a0KiB",
-          "category": "performance"
-        },
         {
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "high",
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
-          "display_value": "Est savings of 553\u00a0KiB",
+          "display_value": "Est savings of 553 KiB",
           "category": "performance"
         },
         {
-          "id": "errors-in-console",
-          "title": "Browser errors were logged to the console",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "display_value": null,
-          "category": "best-practices"
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "high",
+          "estimated_savings_ms": 90,
+          "estimated_savings_bytes": 435579,
+          "display_value": "Est savings of 425 KiB",
+          "category": "performance"
         },
         {
           "id": "color-contrast",
@@ -412,42 +411,61 @@
           "estimated_savings_bytes": null,
           "display_value": null,
           "category": "performance"
+        },
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": "1.4 s",
+          "category": "performance"
         }
       ],
       "onpage_issues": [
         {
-          "id": "has_render_blocking_resources",
-          "title": "Render-blocking stylesheet /_astro/_slug_.*.css (~9 KB) in head",
-          "severity": "low"
+          "id": "has_micromarkup_errors",
+          "title": "Structured data markup has validation errors",
+          "severity": "medium"
         }
       ],
-      "word_count": 1304
+      "onpage_meta": {
+        "title_length": 40,
+        "description_length": 136,
+        "h1_count": 1,
+        "canonical": "https://rtolsonplumbing.com/service-areas/riverside-ca/",
+        "word_count": 1304,
+        "target_word_count": 900,
+        "broken_links": false,
+        "broken_resources": false,
+        "onpage_score": 100
+      }
     },
     {
       "url": "https://rtolsonplumbing.com/contact/",
       "archetype": "contact",
-      "verdict": "green",
+      "verdict": "amber",
       "error_reason": null,
       "scores": {
-        "performance": 95,
+        "performance": 90,
         "accessibility": 96,
         "best_practices": 96,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1550,
+        "LCP_ms": 1484,
         "CLS": 0.004,
-        "TBT_ms": 46,
+        "TBT_ms": 182,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
+          "id": "total-blocking-time",
+          "title": "Total Blocking Time",
           "severity": "high",
-          "estimated_savings_ms": 160,
-          "estimated_savings_bytes": 433582,
-          "display_value": "Est savings of 423\u00a0KiB",
+          "estimated_savings_ms": null,
+          "estimated_savings_bytes": null,
+          "display_value": "180 ms",
           "category": "performance"
         },
         {
@@ -456,17 +474,17 @@
           "severity": "high",
           "estimated_savings_ms": null,
           "estimated_savings_bytes": null,
-          "display_value": "Est savings of 604\u00a0KiB",
+          "display_value": "Est savings of 604 KiB",
           "category": "performance"
         },
         {
-          "id": "errors-in-console",
-          "title": "Browser errors were logged to the console",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "estimated_savings_bytes": null,
-          "display_value": null,
-          "category": "best-practices"
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "high",
+          "estimated_savings_ms": 140,
+          "estimated_savings_bytes": 423979,
+          "display_value": "Est savings of 414 KiB",
+          "category": "performance"
         },
         {
           "id": "color-contrast",
@@ -489,27 +507,27 @@
       ],
       "onpage_issues": [
         {
-          "id": "high_loading_time",
-          "title": "DataForSEO crawler page load 4151 ms (Lighthouse LCP 1550 ms disagrees)",
-          "severity": "low"
-        },
-        {
-          "id": "has_render_blocking_resources",
-          "title": "Render-blocking stylesheet /_astro/_slug_.*.css (~9 KB) in head",
-          "severity": "low"
-        },
-        {
-          "id": "low_content_rate",
-          "title": "Low text-to-HTML ratio",
-          "severity": "low"
+          "id": "has_micromarkup_errors",
+          "title": "Structured data markup has validation errors",
+          "severity": "medium"
         }
       ],
-      "word_count": 644
+      "onpage_meta": {
+        "title_length": 55,
+        "description_length": 157,
+        "h1_count": 1,
+        "canonical": "https://rtolsonplumbing.com/contact/",
+        "word_count": 644,
+        "target_word_count": 400,
+        "broken_links": false,
+        "broken_resources": false,
+        "onpage_score": 100
+      }
     }
   ],
   "site_rollup": {
     "avg_scores": {
-      "performance": 91.7,
+      "performance": 93.3,
       "accessibility": 96.0,
       "best_practices": 96.0,
       "seo": 100.0
@@ -517,74 +535,66 @@
     "verdict": "amber",
     "url_count": 6,
     "urls_by_verdict": {
-      "green": 2,
-      "amber": 4,
+      "green": 0,
+      "amber": 6,
       "red": 0,
       "error": 0
     },
     "template_issues": [
       {
-        "id": "unused-javascript",
-        "title": "Reduce unused JavaScript",
-        "affected_urls": 6,
-        "severity": "high",
-        "source": "lighthouse"
-      },
-      {
         "id": "image-delivery-insight",
         "title": "Improve image delivery",
         "affected_urls": 6,
-        "severity": "high",
-        "source": "lighthouse"
+        "severity": "high"
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "affected_urls": 6,
+        "severity": "high"
       },
       {
         "id": "errors-in-console",
-        "title": "Browser errors were logged to the console",
+        "title": "Browser errors were logged to the console (ReferenceError: jQuery is not defined, fired from GTM-PKJQHGRF)",
         "affected_urls": 6,
         "severity": "medium",
-        "source": "lighthouse"
+        "note": "Failing on all 6 URLs; outside the top-5 cap on 5 of them"
       },
       {
-        "id": "has_render_blocking_resources",
-        "title": "Render-blocking resources in <head>",
-        "affected_urls": 6,
-        "severity": "low",
-        "source": "onpage"
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "affected_urls": 5,
+        "severity": "medium"
       },
       {
         "id": "color-contrast",
         "title": "Background and foreground colors do not have a sufficient contrast ratio.",
         "affected_urls": 5,
-        "severity": "medium",
-        "source": "lighthouse"
+        "severity": "medium"
       },
       {
         "id": "lcp-discovery-insight",
         "title": "LCP request discovery",
         "affected_urls": 5,
-        "severity": "medium",
-        "source": "lighthouse"
+        "severity": "medium"
       },
       {
-        "id": "low_content_rate",
-        "title": "Low text-to-HTML ratio",
-        "affected_urls": 3,
-        "severity": "low",
-        "source": "onpage"
+        "id": "has_micromarkup_errors",
+        "title": "Structured data markup has validation errors",
+        "affected_urls": 5,
+        "severity": "medium"
       },
       {
-        "id": "high_loading_time",
-        "title": "High page load time (DataForSEO crawler)",
-        "affected_urls": 3,
-        "severity": "low",
-        "source": "onpage"
+        "id": "total-blocking-time",
+        "title": "Total Blocking Time",
+        "affected_urls": 2,
+        "severity": "high"
       },
       {
         "id": "title_too_short",
-        "title": "Title shorter than 30 characters",
+        "title": "Title tag shorter than 30 characters",
         "affected_urls": 2,
-        "severity": "medium",
-        "source": "onpage"
+        "severity": "medium"
       }
     ],
     "money_page_alerts": [
@@ -592,19 +602,31 @@
         "url": "https://rtolsonplumbing.com/",
         "archetype": "home",
         "verdict": "amber",
-        "main_issue": "performance 88; TBT 241 ms; Meta description is 202 chars (target 70-160); Google will truncate it"
+        "main_issue": "performance 89, rankai_meta_description_too_long, TBT 226ms"
+      },
+      {
+        "url": "https://rtolsonplumbing.com/services/",
+        "archetype": "services-hub",
+        "verdict": "amber",
+        "main_issue": "has_micromarkup_errors"
       },
       {
         "url": "https://rtolsonplumbing.com/services/emergency-plumbing/",
         "archetype": "service-landing",
         "verdict": "amber",
-        "main_issue": "Title is 28 chars (target 30-65): \"Emergency Plumbing in Corona\""
+        "main_issue": "has_micromarkup_errors, title_too_short"
       },
       {
         "url": "https://rtolsonplumbing.com/services/drain-cleaning/",
         "archetype": "service-landing",
         "verdict": "amber",
-        "main_issue": "Title is 24 chars (target 30-65): \"Drain Cleaning in Corona\""
+        "main_issue": "has_micromarkup_errors, title_too_short"
+      },
+      {
+        "url": "https://rtolsonplumbing.com/contact/",
+        "archetype": "contact",
+        "verdict": "amber",
+        "main_issue": "has_micromarkup_errors, TBT 182ms"
       }
     ]
   },
@@ -614,6 +636,7 @@
     "verdict_transitions": [],
     "new_issues": [],
     "resolved_issues": [],
-    "note": "First audit for this client - no comparison data."
-  }
+    "note": "First audit for this client, no comparison data."
+  },
+  "issue_id_notes": "IDs prefixed rankai_ are Rank AI methodology checks with no native DataForSEO check ID. All other IDs are Lighthouse 13.4.0 audit IDs or DataForSEO instant_pages check IDs."
 }

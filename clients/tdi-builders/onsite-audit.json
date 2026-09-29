@@ -4,18 +4,19 @@
   "site": "staging.rankai-tdi-builders.pages.dev",
   "live_origin": "https://staging.rankai-tdi-builders.pages.dev",
   "live_origin_source": "staging",
-  "generated_at": "2026-09-28T23:48:01Z",
+  "generated_at": "2026-09-29T00:38:49Z",
   "audit_form_factor": "desktop",
   "lighthouse_version": "13.4.0",
+  "lighthouse_detail": "full_data parsed from disk",
   "environment_caveats": [
-    "Staging Cloudflare Pages preview returns x-robots-tag: noindex (verified via curl -sI 2026-09-28), so the Lighthouse is-crawlable audit fails on all 6 URLs and pins SEO at 69. SEO is recorded but EXCLUDED from all verdicts. Status: inconclusive - staging noindex artifact, re-audit after apex cutover.",
-    "Production appears to be live already: https://tdiusa.com/ and https://www.tdiusa.com/ both return 200 serving the new Astro build with no x-robots-tag, and www.buildwithtdi.com 301s to www.tdiusa.com. The client record has apex_cutover=null, so per methodology this run still audited staging. Record apex_cutover.completed_at so the next run audits production and scores SEO.",
-    "tdiusa.com (bare apex) serves 200 directly instead of 301-redirecting to www.tdiusa.com. Canonicals point at www, which mitigates duplicate-host indexing, but a host-level redirect is the correct fix. Not scored this run (off-origin).",
-    "Canonicals on staging point to https://www.tdiusa.com/... (changed from https://tdiusa.com/... in the 2026-08-28 run). DataForSEO flags canonical=false because the target is off-origin from staging; expected pre-cutover and NOT counted as a defect.",
-    "DataForSEO instant_pages returned has_micromarkup=false, but JSON-LD parses on every checked page (Organization, WebSite, LocalBusiness; plus FAQPage and BreadcrumbList on /services/ and /contact/), verified against served HTML. Treated as a DataForSEO false negative.",
-    "Client record status is \"onboarding\", not \"active\". Audit proceeded because the scheduler's System 3 gate keys on build_status (pushed_main), consistent with the 2026-08-28 run.",
-    "Lighthouse 13.4.0 agentic-browsing category recorded per URL as agentic_browsing_score, excluded from verdicts.",
-    "on_page_lighthouse / on_page_instant_pages MCP tools are absent from this MCP build; endpoints were called directly (/v3/on_page/lighthouse/live/json with for_mobile=false, /v3/on_page/instant_pages). Full Lighthouse JSON was written to disk and parsed there."
+    "Staging Cloudflare Pages preview returns x-robots-tag: noindex (re-verified 2026-09-29), so the Lighthouse is-crawlable audit fails on all 6 URLs and deflates the SEO category to 69. SEO is recorded but EXCLUDED from all verdicts this run. Status: inconclusive - staging noindex artifact, re-audit after apex cutover.",
+    "APEX IS LIVE BUT CUTOVER NOT RECORDED: https://tdiusa.com/ and https://www.tdiusa.com/ both return HTTP 200 serving the new Astro build (identical _astro asset hashes to staging, no noindex). Last month tdiusa.com 302-redirected to the old Scorpion site. The client record has no apex_cutover.completed_at, so per methodology this run still audited staging. A supplementary desktop Lighthouse run on https://www.tdiusa.com/ scored performance 99, accessibility 92, best practices 100, SEO 100 (recorded under supplementary_apex_check, not counted in verdicts).",
+    "Canonicals now point to https://www.tdiusa.com/... (last month: https://tdiusa.com/...). The non-www apex serves 200 rather than 301 to www, and robots.txt declares Sitemap: https://tdiusa.com/sitemap-index.xml (non-www). Host is inconsistent across canonical, sitemap, and client record domain.",
+    "DataForSEO instant_pages returned has_micromarkup=false again; JSON-LD is present and parses on every page (types listed per URL under onpage_summary.jsonld_types_verified). Treated as a DataForSEO false negative.",
+    "Client record status is \"onboarding\", not \"active\". Audit proceeded on build_status=pushed_main, consistent with the 2026-08-28 run and the scheduler System 3 gate.",
+    "Lighthouse 13.4.0 agentic-browsing category recorded per URL as agentic_browsing_score but excluded from verdicts.",
+    "on_page_lighthouse / on_page_instant_pages MCP tools are absent from this MCP build; endpoints called directly via /v3/on_page/lighthouse/live/json (for_mobile=false) and /v3/on_page/instant_pages. Full Lighthouse JSON was written to disk and parsed there.",
+    "Word counts come from DataForSEO plain_text_word_count; the 2026-08-28 run reported different absolute counts for the same pages, so month-over-month word count changes are not meaningful."
   ],
   "audited_urls": [
     {
@@ -24,35 +25,38 @@
       "verdict": "amber",
       "error_reason": null,
       "scores": {
-        "performance": 98,
+        "performance": 99,
         "accessibility": 92,
         "best_practices": 100,
         "seo": 69
       },
       "seo_score_counted": false,
-      "agentic_browsing_score": 66,
+      "agentic_browsing_score": 67,
       "core_web_vitals": {
-        "LCP_ms": 960,
-        "CLS": 0.043,
+        "LCP_ms": 963,
+        "CLS": 0.033,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "supporting_metrics": {
-        "FCP_ms": 809,
-        "speed_index_ms": 809,
-        "TTFB_ms": 18,
-        "total_bytes": 552713
+        "FCP_ms": 321,
+        "speed_index_ms": 450,
+        "TTFB_ms": 33,
+        "total_bytes": 552740
       },
       "onpage_summary": {
         "title_length": 53,
         "meta_description_length": 211,
         "h1_count": 1,
         "word_count": 1457,
-        "target_word_count": 1200,
         "canonical": "https://www.tdiusa.com/",
         "internal_links": 51,
-        "images": 21,
-        "dataforseo_onpage_score": 97.44
+        "dataforseo_onpage_score": 97.44,
+        "jsonld_types_verified": [
+          "Organization",
+          "WebSite",
+          "LocalBusiness"
+        ]
       },
       "lighthouse_issues": [
         {
@@ -83,8 +87,8 @@
           "id": "unused-javascript",
           "title": "Reduce unused JavaScript",
           "severity": "low",
-          "estimated_savings_ms": 100,
-          "display_value": "Est savings of 69 KiB",
+          "estimated_savings_ms": 50,
+          "display_value": "Est savings of 69\u00a0KiB",
           "category": "performance"
         },
         {
@@ -107,8 +111,8 @@
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "low",
-          "estimated_savings_ms": 50,
-          "display_value": "Est savings of 73 KiB",
+          "estimated_savings_ms": null,
+          "display_value": "Est savings of 73\u00a0KiB",
           "category": "performance"
         },
         {
@@ -151,27 +155,32 @@
       "seo_score_counted": false,
       "agentic_browsing_score": 67,
       "core_web_vitals": {
-        "LCP_ms": 960,
+        "LCP_ms": 913,
         "CLS": 0.028,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "supporting_metrics": {
-        "FCP_ms": 305,
+        "FCP_ms": 300,
         "speed_index_ms": 357,
-        "TTFB_ms": 32,
-        "total_bytes": 696423
+        "TTFB_ms": 40,
+        "total_bytes": 696371
       },
       "onpage_summary": {
         "title_length": 50,
         "meta_description_length": 152,
         "h1_count": 1,
         "word_count": 705,
-        "target_word_count": 800,
         "canonical": "https://www.tdiusa.com/services/",
         "internal_links": 33,
-        "images": 11,
-        "dataforseo_onpage_score": 97.44
+        "dataforseo_onpage_score": 97.44,
+        "jsonld_types_verified": [
+          "Organization",
+          "WebSite",
+          "LocalBusiness",
+          "FAQPage",
+          "BreadcrumbList"
+        ]
       },
       "lighthouse_issues": [
         {
@@ -202,8 +211,16 @@
           "id": "unused-javascript",
           "title": "Reduce unused JavaScript",
           "severity": "low",
-          "estimated_savings_ms": 50,
-          "display_value": "Est savings of 69 KiB",
+          "estimated_savings_ms": 100,
+          "display_value": "Est savings of 69\u00a0KiB",
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": 100,
+          "display_value": "Est savings of 192\u00a0KiB",
           "category": "performance"
         },
         {
@@ -213,14 +230,6 @@
           "estimated_savings_ms": null,
           "display_value": null,
           "category": "agentic-browsing"
-        },
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "low",
-          "estimated_savings_ms": 100,
-          "display_value": "Est savings of 192 KiB",
-          "category": "performance"
         },
         {
           "id": "lcp-discovery-insight",
@@ -270,27 +279,31 @@
       "seo_score_counted": false,
       "agentic_browsing_score": 67,
       "core_web_vitals": {
-        "LCP_ms": 854,
-        "CLS": 0.005,
+        "LCP_ms": 840,
+        "CLS": 0.003,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "supporting_metrics": {
-        "FCP_ms": 301,
-        "speed_index_ms": 362,
-        "TTFB_ms": 19,
-        "total_bytes": 388415
+        "FCP_ms": 327,
+        "speed_index_ms": 327,
+        "TTFB_ms": 33,
+        "total_bytes": 388410
       },
       "onpage_summary": {
         "title_length": 44,
         "meta_description_length": 149,
         "h1_count": 1,
         "word_count": 1727,
-        "target_word_count": 1100,
         "canonical": "https://www.tdiusa.com/services/home-remodeling/",
         "internal_links": 47,
-        "images": 2,
-        "dataforseo_onpage_score": 97.44
+        "dataforseo_onpage_score": 97.44,
+        "jsonld_types_verified": [
+          "Service",
+          "LocalBusiness",
+          "FAQPage",
+          "BreadcrumbList"
+        ]
       },
       "lighthouse_issues": [
         {
@@ -321,8 +334,8 @@
           "id": "unused-javascript",
           "title": "Reduce unused JavaScript",
           "severity": "low",
-          "estimated_savings_ms": 100,
-          "display_value": "Est savings of 66 KiB",
+          "estimated_savings_ms": null,
+          "display_value": "Est savings of 68\u00a0KiB",
           "category": "performance"
         },
         {
@@ -337,8 +350,8 @@
           "id": "image-delivery-insight",
           "title": "Improve image delivery",
           "severity": "low",
-          "estimated_savings_ms": 50,
-          "display_value": "Est savings of 13 KiB",
+          "estimated_savings_ms": null,
+          "display_value": "Est savings of 13\u00a0KiB",
           "category": "performance"
         },
         {
@@ -362,7 +375,7 @@
           "title": "Render-blocking requests",
           "severity": "low",
           "estimated_savings_ms": null,
-          "display_value": null,
+          "display_value": "Est savings of 50\u00a0ms",
           "category": "performance"
         }
       ],
@@ -382,27 +395,31 @@
       "seo_score_counted": false,
       "agentic_browsing_score": 67,
       "core_web_vitals": {
-        "LCP_ms": 881,
+        "LCP_ms": 926,
         "CLS": 0.025,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "supporting_metrics": {
-        "FCP_ms": 313,
-        "speed_index_ms": 313,
-        "TTFB_ms": 27,
-        "total_bytes": 450888
+        "FCP_ms": 312,
+        "speed_index_ms": 319,
+        "TTFB_ms": 18,
+        "total_bytes": 450900
       },
       "onpage_summary": {
         "title_length": 50,
         "meta_description_length": 155,
         "h1_count": 1,
         "word_count": 1836,
-        "target_word_count": 1100,
         "canonical": "https://www.tdiusa.com/services/new-construction/",
         "internal_links": 45,
-        "images": 2,
-        "dataforseo_onpage_score": 97.44
+        "dataforseo_onpage_score": 97.44,
+        "jsonld_types_verified": [
+          "Service",
+          "LocalBusiness",
+          "FAQPage",
+          "BreadcrumbList"
+        ]
       },
       "lighthouse_issues": [
         {
@@ -433,8 +450,16 @@
           "id": "unused-javascript",
           "title": "Reduce unused JavaScript",
           "severity": "low",
-          "estimated_savings_ms": 50,
-          "display_value": "Est savings of 69 KiB",
+          "estimated_savings_ms": 100,
+          "display_value": "Est savings of 68\u00a0KiB",
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": 100,
+          "display_value": "Est savings of 99\u00a0KiB",
           "category": "performance"
         },
         {
@@ -444,14 +469,6 @@
           "estimated_savings_ms": null,
           "display_value": null,
           "category": "agentic-browsing"
-        },
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "low",
-          "estimated_savings_ms": 50,
-          "display_value": "Est savings of 99 KiB",
-          "category": "performance"
         },
         {
           "id": "lcp-discovery-insight",
@@ -474,7 +491,7 @@
           "title": "Render-blocking requests",
           "severity": "low",
           "estimated_savings_ms": null,
-          "display_value": "Est savings of 50 ms",
+          "display_value": "Est savings of 30\u00a0ms",
           "category": "performance"
         }
       ],
@@ -486,7 +503,7 @@
       "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 99,
+        "performance": 98,
         "accessibility": 91,
         "best_practices": 100,
         "seo": 69
@@ -494,27 +511,30 @@
       "seo_score_counted": false,
       "agentic_browsing_score": 67,
       "core_web_vitals": {
-        "LCP_ms": 917,
-        "CLS": 0.012,
+        "LCP_ms": 952,
+        "CLS": 0.002,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "supporting_metrics": {
-        "FCP_ms": 299,
-        "speed_index_ms": 318,
-        "TTFB_ms": 30,
-        "total_bytes": 492345
+        "FCP_ms": 782,
+        "speed_index_ms": 782,
+        "TTFB_ms": 21,
+        "total_bytes": 492147
       },
       "onpage_summary": {
         "title_length": 53,
         "meta_description_length": 152,
         "h1_count": 1,
         "word_count": 1353,
-        "target_word_count": 900,
         "canonical": "https://www.tdiusa.com/service-areas/roseville-ca/",
         "internal_links": 41,
-        "images": 2,
-        "dataforseo_onpage_score": 97.44
+        "dataforseo_onpage_score": 97.44,
+        "jsonld_types_verified": [
+          "LocalBusiness",
+          "FAQPage",
+          "BreadcrumbList"
+        ]
       },
       "lighthouse_issues": [
         {
@@ -545,8 +565,16 @@
           "id": "unused-javascript",
           "title": "Reduce unused JavaScript",
           "severity": "low",
-          "estimated_savings_ms": 50,
-          "display_value": "Est savings of 68 KiB",
+          "estimated_savings_ms": 150,
+          "display_value": "Est savings of 68\u00a0KiB",
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": 100,
+          "display_value": "Est savings of 113\u00a0KiB",
           "category": "performance"
         },
         {
@@ -556,14 +584,6 @@
           "estimated_savings_ms": null,
           "display_value": null,
           "category": "agentic-browsing"
-        },
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "low",
-          "estimated_savings_ms": 100,
-          "display_value": "Est savings of 113 KiB",
-          "category": "performance"
         },
         {
           "id": "lcp-discovery-insight",
@@ -593,9 +613,9 @@
       "onpage_issues": [
         {
           "id": "frame",
-          "title": "Page contains an iframe (Google Maps embed)",
+          "title": "Page contains an iframe (Google Maps embed, intentional)",
           "severity": "low",
-          "source": "dataforseo"
+          "source": "dataforseo:checks"
         }
       ]
     },
@@ -613,27 +633,32 @@
       "seo_score_counted": false,
       "agentic_browsing_score": 67,
       "core_web_vitals": {
-        "LCP_ms": 914,
+        "LCP_ms": 941,
         "CLS": 0.013,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "supporting_metrics": {
-        "FCP_ms": 311,
-        "speed_index_ms": 311,
-        "TTFB_ms": 26,
-        "total_bytes": 491129
+        "FCP_ms": 303,
+        "speed_index_ms": 381,
+        "TTFB_ms": 44,
+        "total_bytes": 491044
       },
       "onpage_summary": {
         "title_length": 51,
         "meta_description_length": 141,
         "h1_count": 1,
         "word_count": 732,
-        "target_word_count": 400,
         "canonical": "https://www.tdiusa.com/contact/",
         "internal_links": 32,
-        "images": 2,
-        "dataforseo_onpage_score": 97.44
+        "dataforseo_onpage_score": 97.44,
+        "jsonld_types_verified": [
+          "Organization",
+          "WebSite",
+          "LocalBusiness",
+          "FAQPage",
+          "BreadcrumbList"
+        ]
       },
       "lighthouse_issues": [
         {
@@ -664,8 +689,16 @@
           "id": "unused-javascript",
           "title": "Reduce unused JavaScript",
           "severity": "low",
-          "estimated_savings_ms": 50,
-          "display_value": "Est savings of 69 KiB",
+          "estimated_savings_ms": 100,
+          "display_value": "Est savings of 69\u00a0KiB",
+          "category": "performance"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "low",
+          "estimated_savings_ms": 100,
+          "display_value": "Est savings of 173\u00a0KiB",
           "category": "performance"
         },
         {
@@ -675,14 +708,6 @@
           "estimated_savings_ms": null,
           "display_value": null,
           "category": "agentic-browsing"
-        },
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "low",
-          "estimated_savings_ms": 100,
-          "display_value": "Est savings of 173 KiB",
-          "category": "performance"
         },
         {
           "id": "lcp-discovery-insight",
@@ -705,13 +730,24 @@
           "title": "Render-blocking requests",
           "severity": "low",
           "estimated_savings_ms": null,
-          "display_value": "Est savings of 40 ms",
+          "display_value": null,
           "category": "performance"
         }
       ],
       "onpage_issues": []
     }
   ],
+  "supplementary_apex_check": {
+    "url": "https://www.tdiusa.com/",
+    "scores": {
+      "performance": 99,
+      "accessibility": 92,
+      "best_practices": 100,
+      "seo": 100
+    },
+    "counted_in_verdict": false,
+    "note": "Apex serves the new build but apex_cutover.completed_at is unset; single home-page check to confirm SEO category is clean off staging."
+  },
   "site_rollup": {
     "avg_scores": {
       "performance": 98.8,
@@ -801,30 +837,22 @@
       "best_practices": 1.3,
       "seo": 0.0
     },
-    "site_level_flags": [],
-    "verdict_transitions": [
-      {
-        "url": "https://staging.rankai-tdi-builders.pages.dev/services/",
-        "from": "amber",
-        "to": "green",
-        "direction": "improvement"
-      }
-    ],
-    "per_url": [
+    "site_level_regressions": [],
+    "url_level_regressions": [],
+    "per_url_deltas": [
       {
         "url": "https://staging.rankai-tdi-builders.pages.dev/",
         "score_deltas": {
-          "performance": -2,
+          "performance": -1,
           "accessibility": 6,
           "best_practices": 4,
           "seo": 0
         },
         "cwv_deltas": {
-          "LCP_ms": 173,
-          "CLS": 0.01,
+          "LCP_ms": 176,
+          "CLS": 0.0,
           "TBT_ms": 0
-        },
-        "regression_flags": []
+        }
       },
       {
         "url": "https://staging.rankai-tdi-builders.pages.dev/services/",
@@ -835,11 +863,10 @@
           "seo": 0
         },
         "cwv_deltas": {
-          "LCP_ms": 166,
+          "LCP_ms": 119,
           "CLS": 0.0,
           "TBT_ms": 0
-        },
-        "regression_flags": []
+        }
       },
       {
         "url": "https://staging.rankai-tdi-builders.pages.dev/services/home-remodeling/",
@@ -850,11 +877,10 @@
           "seo": 0
         },
         "cwv_deltas": {
-          "LCP_ms": 78,
-          "CLS": 0.0,
+          "LCP_ms": 64,
+          "CLS": -0.002,
           "TBT_ms": 0
-        },
-        "regression_flags": []
+        }
       },
       {
         "url": "https://staging.rankai-tdi-builders.pages.dev/services/new-construction/",
@@ -865,26 +891,24 @@
           "seo": 0
         },
         "cwv_deltas": {
-          "LCP_ms": 115,
+          "LCP_ms": 160,
           "CLS": 0.0,
           "TBT_ms": 0
-        },
-        "regression_flags": []
+        }
       },
       {
         "url": "https://staging.rankai-tdi-builders.pages.dev/service-areas/roseville-ca/",
         "score_deltas": {
-          "performance": -1,
+          "performance": -2,
           "accessibility": 0,
           "best_practices": 0,
           "seo": 0
         },
         "cwv_deltas": {
-          "LCP_ms": 148,
-          "CLS": 0.001,
+          "LCP_ms": 183,
+          "CLS": -0.009,
           "TBT_ms": 0
-        },
-        "regression_flags": []
+        }
       },
       {
         "url": "https://staging.rankai-tdi-builders.pages.dev/contact/",
@@ -895,14 +919,19 @@
           "seo": 0
         },
         "cwv_deltas": {
-          "LCP_ms": 144,
+          "LCP_ms": 171,
           "CLS": 0.002,
           "TBT_ms": 0
-        },
-        "regression_flags": []
+        }
       }
     ],
-    "regressions": [],
+    "verdict_transitions": [
+      {
+        "url": "https://staging.rankai-tdi-builders.pages.dev/services/",
+        "from": "amber",
+        "to": "green"
+      }
+    ],
     "new_issues": [
       {
         "url": "https://staging.rankai-tdi-builders.pages.dev/",
@@ -942,7 +971,7 @@
       {
         "url": "https://staging.rankai-tdi-builders.pages.dev/service-areas/roseville-ca/",
         "id": "frame",
-        "title": "Page contains an iframe (Google Maps embed)"
+        "title": "Page contains an iframe (Google Maps embed, intentional)"
       },
       {
         "url": "https://staging.rankai-tdi-builders.pages.dev/contact/",
@@ -977,6 +1006,5 @@
         "title": "Referenced asset returns 404: https://staging.rankai-tdi-builders.pages.dev/images/services.webp"
       }
     ]
-  },
-  "cost_usd": 0.0408
+  }
 }

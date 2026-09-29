@@ -16,20 +16,31 @@
 
 ## Action: refresh content
 
-No URLs qualify. No page has reached the 305-day aging threshold or the 365-day stale threshold.
+None this run. No URL carries a `stale_12mo` or `aging` flag.
 
 ## Action: audit then decide
 
-No URLs qualify. Every candidate has a usable date and no layer-1 flags.
+None this run. Every URL has a resolved date (100 from json_ld_date_modified, 20 from sitemap_lastmod) and no combined or conflicting flags.
+
+## Oldest URLs (watch list, not queued)
+
+| URL | Age (d) | Date source | Crosses 305-day aging threshold |
+| --- | ---: | --- | --- |
+| /blog/drain-cleaning-diy-vs-pro/ | 69 | json_ld_date_modified | 2027-05-22 |
+| /blog/signs-of-a-slab-leak/ | 63 | json_ld_date_modified | 2027-05-28 |
+| /blog/water-heater-lifespan-repair-or-replace/ | 61 | json_ld_date_modified | 2027-05-30 |
+| /blog/hydro-jetting-vs-snaking/ | 56 | json_ld_date_modified | 2027-06-04 |
+| /blog/furnace-repair-or-replace/ | 53 | json_ld_date_modified | 2027-06-07 |
 
 ## Notes
 
-- URLs skipped because already in content-queue: none
-- URLs where date extraction failed: none
-- Freshness: all 120 URLs are between 0 and 69 days old (oldest: https://rtolsonplumbing.com/blog/drain-cleaning-diy-vs-pro/, 69 days via json_ld_date_modified). Date sources: sitemap_lastmod (20), json_ld_date_modified (100). 10 URLs map to money-page archetypes in the url-plan.
-- Coverage gap: v1 cannot see indexing or canonical problems, so a fresh page that Google has not indexed would not surface here until GSC (v2) is connected.
+- URLs skipped because already in content-queue: none. The 9 active content-queue items (2026-09-06-cooling, 2026-09-06-heating, 2026-09-06-water-treatment, 2026-09-06-water-heaters, 2026-09-28-emergency-plumber-cost, 2026-09-28-what-to-do-if-you-smell-gas-in-your-house, 2026-09-28-how-to-shut-off-main-water-valve, 2026-09-28-how-to-stop-a-toilet-from-overflowing, 2026-09-28-what-is-considered-a-plumbing-emergency) are net-new posts without a published URL, so none overlap the evaluated set.
+- URLs where date extraction failed: none.
+- Coverage gap: v1 cannot see indexing status or canonical problems; a freshly built site like this one is most at risk of "Discovered - currently not indexed", which only GSC (v2) will surface.
 
 ## Recommended next actions (top 5)
 
-1. No refresh work is due this cycle. The site was rebuilt recently, so the earliest pages will enter the aging window (305 days) around 2027-05-22; re-run monthly as scheduled.
-2. The GSC property sc-domain:rtolsonplumbing.com is already verified in the client record; enable the v2 scorer (see docs/system-4-v2-activation.md) so the next run can detect not-indexed and canonical issues on the 10 money pages, which age scoring alone cannot catch.
+1. No refresh work is due. The site was rebuilt between 2026-07-21 and 2026-09-28, so the oldest URL (/blog/drain-cleaning-diy-vs-pro/, 69 days, json_ld_date_modified) will not enter the aging window until 2027-05-22.
+2. Activate the System 4 v2 GSC layer (docs/system-4-v2-activation.md) for rtolsonplumbing.com so the next run can flag not-indexed and canonical issues on the 120 new URLs, which is the real risk for a site this young.
+3. Keep System 2 working the 9 queued posts; when /blog/drain-cleaning-diy-vs-pro/ and /blog/signs-of-a-slab-leak/ are linked from the new emergency-plumber cluster posts, update their dateModified so the recency signal stays accurate.
+4. Re-run this recommender monthly after the System 3 audit; expect the first `aging` blog flags around 2027-05-22 and first money-page flags shortly after, since the service pages share the same August 2026 build dates.

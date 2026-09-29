@@ -1,44 +1,41 @@
 keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
-emergency plumbing near me,transactional,110000,0,76.5,3,emergency plumber,,/services/emergency-plumbing/,no
-emergency plumbers near me,transactional,110000,0,76.5,3,emergency plumber,,/services/emergency-plumbing/,no
-plumber for water leak,transactional,27100,0,11.22,3,emergency plumber,,/services/leak-detection/,no
 emergency plumbing services,transactional,14800,1,61.88,3,emergency plumber,,/services/emergency-plumbing/,no
-plumber for burst pipes,transactional,14800,0,3.29,3,emergency plumber,,/services/emergency-plumbing/,no
-24/7 plumbing,transactional,5400,25,67.78,3,emergency plumber,,/services/emergency-plumbing/,no
-24 hours plumbing,transactional,3600,0,69.04,3,emergency plumber,,/services/emergency-plumbing/,no
 emergency plumbing services near me,transactional,3600,0,56.29,3,emergency plumber,,/services/emergency-plumbing/,no
 24/7 plumber near me,transactional,2900,0,70.17,3,emergency plumber,,/services/emergency-plumbing/,no
+emergency plumbing repair,transactional,1900,2,51.0,3,emergency plumber,,/services/emergency-plumbing/,no
+after hours plumber,transactional,1600,0,48.25,3,emergency plumber,,/services/emergency-plumbing/,no
+emergency water heater repair,transactional,1600,0,66.57,3,emergency plumber,,/services/water-heater-repair/,no
+burst pipe repair,transactional,1600,5,21.12,3,emergency plumber,,/services/emergency-plumbing/,no
+24/7 emergency plumbing services,transactional,1300,0,87.64,3,emergency plumber,,/services/emergency-plumbing/,no
 24 hour emergency plumber,transactional,1000,3,83.94,3,emergency plumber,,/services/emergency-plumbing/,no
+emergency drain cleaning,transactional,1000,14,53.03,3,emergency plumber,,/services/drain-cleaning/,no
 24 hour plumbing service near me,transactional,880,1,52.43,3,emergency plumber,,/services/emergency-plumbing/,no
 24 hour emergency plumbing,transactional,720,21,56.64,3,emergency plumber,,/services/emergency-plumbing/,no
-24 hour emergency plumber near me,transactional,720,0,70.02,3,emergency plumber,,/services/emergency-plumbing/,no
+weekend plumber,transactional,480,0,43.81,3,emergency plumber,,/services/emergency-plumbing/,no
 emergency plumbers near me open now,transactional,260,7,56.5,3,emergency plumber,,/services/emergency-plumbing/,no
-24 hour plumber near me open now,transactional,170,1,48.97,3,emergency plumber,,/services/emergency-plumbing/,no
-anaheim emergency plumber,transactional,110,,27.59,3,emergency plumber,Anaheim,/service-areas/anaheim-ca/emergency-plumbing/,no
-riverside emergency plumber,transactional,70,,20.96,3,emergency plumber,Riverside,/service-areas/riverside-ca/emergency-plumbing/,no
-emergency plumbing riverside ca,transactional,70,,20.96,3,emergency plumber,Riverside,/service-areas/riverside-ca/emergency-plumbing/,no
+emergency leak repair,transactional,140,0,90.92,3,emergency plumber,,/services/leak-detection/,no
+emergency plumber anaheim,transactional,110,0,27.59,3,emergency plumber,Anaheim,/service-areas/anaheim-ca/emergency-plumbing/,no
+emergency plumber riverside,transactional,70,0,20.96,3,emergency plumber,Riverside,/service-areas/riverside-ca/emergency-plumbing/,no
 emergency plumber santa ana,transactional,50,0,180.52,3,emergency plumber,Santa Ana,/service-areas/santa-ana-ca/emergency-plumbing/,no
-emergency plumber santa ana ca,transactional,50,,180.52,3,emergency plumber,Santa Ana,/service-areas/santa-ana-ca/emergency-plumbing/,no
-plumbers open on sunday near me,transactional,40,0,47.93,3,emergency plumber,,/services/emergency-plumbing/,no
-corona emergency plumber,transactional,30,,,3,emergency plumber,Corona,/services/emergency-plumbing/,no
 emergency plumber corona ca,transactional,20,0,21.67,3,emergency plumber,Corona,/services/emergency-plumbing/,no
-emergency plumbing corona ca,transactional,20,,21.67,3,emergency plumber,Corona,/services/emergency-plumbing/,no
-santa ana emergency plumber,transactional,10,,,3,emergency plumber,Santa Ana,/service-areas/santa-ana-ca/emergency-plumbing/,no
-24 hour plumber santa ana,transactional,10,,,3,emergency plumber,Santa Ana,/service-areas/santa-ana-ca/emergency-plumbing/,no
-24 hour plumber riverside ca,transactional,10,,,3,emergency plumber,Riverside,/service-areas/riverside-ca/emergency-plumbing/,no
-24 hour plumber anaheim,transactional,10,7,,3,emergency plumber,Anaheim,/service-areas/anaheim-ca/emergency-plumbing/,no
-24 hour plumber corona ca,transactional,,,,3,emergency plumber,Corona,/services/emergency-plumbing/,no
-emergency plumber in corona ca,transactional,,,,3,emergency plumber,Corona,/services/emergency-plumbing/,no
-burst pipe repair corona ca,transactional,,,,3,emergency plumber,Corona,/services/emergency-plumbing/,no
+24 hour plumber anaheim,transactional,10,7,,3,24 hour plumber,Anaheim,/service-areas/anaheim-ca/emergency-plumbing/,no
 emergency plumber cost,commercial,390,0,22.02,1,emergency plumber,,,yes
-emergency plumber cost per hour,commercial,50,0,23.22,2,emergency plumber,,,no
-24 hour plumber cost,commercial,30,1,74.39,2,emergency plumber,,,no
-best emergency plumber near me,commercial,170,3,62.84,3,emergency plumber,,/services/emergency-plumbing/,no
+best emergency plumber near me,commercial,170,3,62.84,2,emergency plumber,,,no
+how much does an emergency plumber cost,commercial,140,0,29.43,2,emergency plumber cost,,,no
+emergency plumber near me cheap,commercial,90,6,116.74,2,emergency plumber cost,,,no
+emergency plumber cost per hour,commercial,50,0,23.22,2,emergency plumber cost,,,no
+24 hour plumber cost,commercial,30,1,74.39,2,emergency plumber cost,,,no
+what to do if you smell gas in your house,informational,880,26,4.77,1,emergency plumber,,,yes
 how to shut off main water valve,informational,880,17,0.95,1,emergency plumber,,,yes
-is a leaking water heater an emergency,informational,70,0,23.37,1,emergency plumber,,,yes
-how much does an emergency plumber cost,informational,140,0,29.43,2,emergency plumber,,,no
-do plumbers charge more on weekends,informational,90,0,34.98,2,emergency plumber,,,no
-what counts as a plumbing emergency,informational,40,37,,2,emergency plumber,,,no
-when to call an emergency plumber,informational,40,0,,2,emergency plumber,,,no
-is a clogged toilet an emergency,informational,40,0,,2,emergency plumber,,,no
-what to do in a plumbing emergency,informational,10,7,,2,emergency plumber,,,no
+how to stop a toilet from overflowing,informational,590,0,7.49,1,emergency plumber,,,yes
+sewage backup in house,informational,260,7,28.6,1,emergency plumber,,,no
+water heater leaking what to do,informational,210,0,26.94,1,emergency plumber,,,no
+what is considered a plumbing emergency,informational,90,0,,1,emergency plumber,,,yes
+where is my main water shut off valve,informational,110,10,,2,how to shut off main water valve,,,no
+do plumbers charge more on weekends,informational,90,0,34.98,2,emergency plumber cost,,,no
+is a leaking water heater an emergency,informational,70,0,23.37,2,water heater leaking what to do,,,no
+what counts as a plumbing emergency,informational,40,37,,2,what is considered a plumbing emergency,,,no
+what to do if sewage backs up into house,informational,,,,2,sewage backup in house,,,no
+is a clogged toilet a plumbing emergency,informational,,,,2,what is considered a plumbing emergency,,,no
+what to do while waiting for an emergency plumber,informational,,,,2,what is considered a plumbing emergency,,,no
+what to do when a pipe bursts,informational,720,8,48.99,3,emergency plumber,,/blog/what-to-do-burst-pipe/,no

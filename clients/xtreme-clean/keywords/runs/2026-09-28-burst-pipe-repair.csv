@@ -1,0 +1,41 @@
+keyword,intent,volume,kd,cpc,priority,fan_out_parent,city_modifier,covered_by,queued
+burst pipe repair,transactional,1600,5,21.12,2,burst pipe repair,,,no
+burst pipe cleanup,transactional,1000,0,10.24,2,burst pipe repair,,,no
+pipe burst in house,transactional,880,3,34.58,2,burst pipe repair,,,no
+burst pipe repair near me,transactional,720,0,60.26,2,burst pipe repair,,,no
+water pipe burst inside house,transactional,590,1,48.56,2,burst pipe repair,,,no
+pipe burst in apartment,transactional,480,0,6.06,2,burst pipe repair,,,no
+burst pipe in wall,transactional,210,0,42.94,2,burst pipe repair,,,no
+pipe burst in basement,transactional,170,0,38.22,2,burst pipe repair,,,no
+pipe burst ceiling,transactional,140,0,136.73,2,burst pipe repair,,,no
+burst pipe flooded house,transactional,140,0,63.36,2,burst pipe repair,,,no
+burst pipe under sink,transactional,140,0,48.75,2,burst pipe repair,,,no
+burst pipe under house,transactional,110,6,95.22,2,burst pipe repair,,,no
+burst pipe cleanup near me,transactional,110,0,,2,burst pipe repair,,,no
+burst pipe repair services,transactional,90,0,83.56,2,burst pipe repair,,,no
+emergency burst pipe repair,transactional,70,0,,2,burst pipe repair,,,no
+burst pipe emergency,transactional,50,0,147.19,2,burst pipe repair,,,no
+burst pipe repair cost,commercial,480,0,29,2,burst pipe repair,,,no
+cost to repair leaking pipe in wall,commercial,110,7,10.62,2,burst pipe repair,,,no
+frozen pipe burst repair cost,commercial,90,0,,2,burst pipe repair,,,no
+who to call for a burst pipe,commercial,70,0,71.8,2,burst pipe repair,,,no
+how to tell if a pipe burst,informational,1300,0,,2,burst pipe repair,,,no
+what to do if a pipe burst,informational,720,8,48.99,2,burst pipe repair,,,no
+frozen pipe burst,informational,720,4,,2,burst pipe repair,,,no
+what causes a pipe to burst,informational,480,2,,2,burst pipe repair,,,no
+how to prevent burst pipe,informational,480,20,0.04,2,burst pipe repair,,,no
+does frozen pipe always burst,informational,480,12,,2,burst pipe repair,,,no
+burst pipe in winter,informational,320,17,159.62,2,burst pipe repair,,,no
+burst pipe water damage,informational,170,2,3.6,2,burst pipe repair,,,no
+burst pipe insurance claim tips,informational,170,4,11.3,2,burst pipe repair,,,no
+signs of a burst pipe,informational,170,0,,2,burst pipe repair,,,no
+how to tell if a pipe burst underground,informational,170,0,3.14,2,burst pipe repair,,,no
+how long does it take to fix a burst pipe,informational,140,0,,2,burst pipe repair,,,no
+water pipe burst in house what to do,informational,110,7,,2,burst pipe repair,,,no
+burst pipe homeowners insurance,informational,90,30,208.68,2,burst pipe repair,,,no
+how to tell if a pipe burst in the wall,informational,90,0,,2,burst pipe repair,,,no
+what does a burst pipe sound like,informational,90,0,,2,burst pipe repair,,,no
+can a pipe burst in the summer,informational,70,0,,2,burst pipe repair,,,no
+pipe frozen but not burst,informational,70,10,,2,burst pipe repair,,,no
+what happens when a pipe bursts under your house,informational,50,10,29.35,2,burst pipe repair,,,no
+burst pipe emergency homeowner steps,informational,,,,2,burst pipe repair,,,no

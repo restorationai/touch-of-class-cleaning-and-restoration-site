@@ -5,16 +5,14 @@
   "live_origin": "https://lifesaversrestorationvegas.com",
   "live_origin_source": "apex",
   "audit_form_factor": "desktop",
-  "generated_at": "2026-09-28T23:22:49Z",
+  "generated_at": "2026-09-29T00:15:23Z",
   "environment_caveats": [
-    "Audited the production apex. The client record has no apex_cutover.completed_at, but it does have cut_over_at=2026-09-04T21:21:07Z and deploy_url=https://lifesaversrestorationvegas.com (the cutover field convention used by scripts/cutover_execute.py). The apex returns 200 with no x-robots-tag, so SEO counts toward verdicts this run.",
-    "The prior audit (2026-08-27) ran against the staging Pages preview with the noindex artifact. Deltas vs prior therefore mix a real code change with an origin change (Pages preview vs apex behind the Cloudflare zone). The SEO jump from 69 to 100 is mostly the noindex artifact going away.",
-    "Lighthouse ran DESKTOP (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240). Mobile scores would typically run 10-20 performance points lower.",
-    "TBT is noisy run to run. /contact/ was run 4 times: performance 82, 95, 95, 77 (TBT 311, 0, 0, 467 ms). The first scheduled run (82) is recorded. A same-day staging pass showed the same pattern on /service-areas/las-vegas-nv/ (perf 81, TBT 349ms) which scored 96 with TBT 0 on the apex.",
-    "The staging Pages preview still serves an older build: its header/footer tel links use +17029308647 while the apex serves +17028451325 everywhere. Staging is no longer the production origin, but do not use it for NAP or screenshot checks.",
-    "Service-landing tie-break: fire-damage-restoration, mold-remediation, and water-damage-restoration all have priority 9.0 in url-plan.json. Kept water-damage-restoration and mold-remediation (the prior audit's pair) so month-over-month deltas are comparable."
+    "Audited the apex production origin. The client record has no apex_cutover.completed_at object, but it does carry cut_over_at=2026-09-04T21:21:07Z and deploy_url=https://lifesaversrestorationvegas.com, and the apex serves the Rank AI build with no x-robots-tag noindex. Treated as cut over (same convention as go-green-restoration-of-nc). SEO counts toward verdicts this run.",
+    "First audit on the apex. The prior audit (2026-08-27) ran on the staging Pages preview; regression comparisons match URLs by path across the two origins. Staging-to-apex differences (Cloudflare custom-domain edge caching vs pages.dev) can shift performance and LCP by a few points or a few hundred ms independent of code changes.",
+    "SEO deltas vs prior are not like-for-like: the prior SEO of 69 was a staging noindex artifact (is-crawlable). The +31 SEO delta reflects the origin change, not a code fix.",
+    "Lighthouse ran DESKTOP (formFactor=desktop, cpuSlowdownMultiplier=1, throughputKbps=10240) via DataForSEO on_page/lighthouse/live/json. Mobile scores would typically run 10-20 performance points lower."
   ],
-  "lighthouse_detail": "full audits extracted from the live/json response (no separate full_data call needed)",
+  "lighthouse_detail": "full audit data returned by live/json endpoint; top 5 failing audits per URL captured",
   "audited_urls": [
     {
       "url": "https://lifesaversrestorationvegas.com/",
@@ -22,41 +20,43 @@
       "verdict": "amber",
       "error_reason": null,
       "scores": {
-        "performance": 97,
+        "performance": 98,
         "accessibility": 96,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1258,
-        "CLS": 0.0236,
-        "TBT_ms": 24,
+        "LCP_ms": 975,
+        "CLS": 0.0228,
+        "TBT_ms": 0,
         "INP_ms": null
       },
+      "onpage_score": 100,
+      "word_count": 1766,
       "lighthouse_issues": [
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "high",
-          "estimated_savings_ms": 350,
-          "category": "performance",
-          "display_value": "Est savings of 473 KiB"
-        },
         {
           "id": "color-contrast",
           "title": "Background and foreground colors do not have a sufficient contrast ratio.",
           "severity": "high",
           "estimated_savings_ms": null,
           "category": "accessibility",
-          "display_value": null
+          "detail": null
         },
         {
           "id": "unused-javascript",
           "title": "Reduce unused JavaScript",
           "severity": "medium",
-          "estimated_savings_ms": 100,
+          "estimated_savings_ms": 110,
           "category": "performance",
-          "display_value": "Est savings of 69 KiB"
+          "detail": "Est savings of 69 KiB"
+        },
+        {
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
         },
         {
           "id": "network-dependency-tree-insight",
@@ -64,34 +64,29 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance",
-          "display_value": null
+          "detail": null
         },
         {
           "id": "cache-insight",
           "title": "Use efficient cache lifetimes",
-          "severity": "low",
+          "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance",
-          "display_value": "Est savings of 0 KiB"
+          "detail": "Est savings of 0 KiB"
         }
       ],
       "onpage_issues": [
         {
           "id": "description_length",
-          "title": "Meta description is 186 chars (target 70-160)",
+          "title": "Meta description length 186 chars, outside the 70-160 target",
           "severity": "medium"
-        },
-        {
-          "id": "low_content_rate",
-          "title": "Low text-to-HTML ratio",
-          "severity": "low"
         }
       ]
     },
     {
       "url": "https://lifesaversrestorationvegas.com/services/",
       "archetype": "services-hub",
-      "verdict": "green",
+      "verdict": "amber",
       "error_reason": null,
       "scores": {
         "performance": 96,
@@ -100,27 +95,29 @@
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1431,
+        "LCP_ms": 1383,
         "CLS": 0.0033,
-        "TBT_ms": 31,
+        "TBT_ms": 0,
         "INP_ms": null
       },
+      "onpage_score": 100,
+      "word_count": 725,
       "lighthouse_issues": [
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "high",
-          "estimated_savings_ms": 250,
-          "category": "performance",
-          "display_value": "Est savings of 542 KiB"
-        },
         {
           "id": "color-contrast",
           "title": "Background and foreground colors do not have a sufficient contrast ratio.",
           "severity": "high",
           "estimated_savings_ms": null,
           "category": "accessibility",
-          "display_value": null
+          "detail": null
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "Est savings of 542 KiB"
         },
         {
           "id": "unused-javascript",
@@ -128,7 +125,7 @@
           "severity": "medium",
           "estimated_savings_ms": 100,
           "category": "performance",
-          "display_value": "Est savings of 69 KiB"
+          "detail": "Est savings of 68 KiB"
         },
         {
           "id": "lcp-discovery-insight",
@@ -136,7 +133,7 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance",
-          "display_value": null
+          "detail": null
         },
         {
           "id": "network-dependency-tree-insight",
@@ -144,18 +141,18 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance",
-          "display_value": null
+          "detail": null
         }
       ],
       "onpage_issues": [
         {
-          "id": "plain_text_word_count",
-          "title": "Word count 725 below archetype target 800",
-          "severity": "low"
+          "id": "has_micromarkup_errors",
+          "title": "Schema.org markup fails DataForSEO validation (likely cause: BreadcrumbList final ListItem has no `item`; logo/image values are relative paths)",
+          "severity": "medium"
         },
         {
-          "id": "low_content_rate",
-          "title": "Low text-to-HTML ratio",
+          "id": "plain_text_word_count",
+          "title": "Word count 725 below the 800 url-plan target",
           "severity": "low"
         }
       ]
@@ -163,129 +160,7 @@
     {
       "url": "https://lifesaversrestorationvegas.com/services/water-damage-restoration/",
       "archetype": "service-landing",
-      "verdict": "green",
-      "error_reason": null,
-      "scores": {
-        "performance": 97,
-        "accessibility": 95,
-        "best_practices": 100,
-        "seo": 100
-      },
-      "core_web_vitals": {
-        "LCP_ms": 1317,
-        "CLS": 0.0039,
-        "TBT_ms": 0,
-        "INP_ms": null
-      },
-      "lighthouse_issues": [
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "high",
-          "estimated_savings_ms": 200,
-          "category": "performance",
-          "display_value": "Est savings of 422 KiB"
-        },
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "category": "accessibility",
-          "display_value": null
-        },
-        {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "medium",
-          "estimated_savings_ms": 50,
-          "category": "performance",
-          "display_value": "Est savings of 69 KiB"
-        },
-        {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "display_value": null
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "display_value": null
-        }
-      ],
-      "onpage_issues": []
-    },
-    {
-      "url": "https://lifesaversrestorationvegas.com/services/mold-remediation/",
-      "archetype": "service-landing",
-      "verdict": "green",
-      "error_reason": null,
-      "scores": {
-        "performance": 92,
-        "accessibility": 91,
-        "best_practices": 100,
-        "seo": 100
-      },
-      "core_web_vitals": {
-        "LCP_ms": 1313,
-        "CLS": 0.0038,
-        "TBT_ms": 180,
-        "INP_ms": null
-      },
-      "lighthouse_issues": [
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "high",
-          "estimated_savings_ms": 200,
-          "category": "performance",
-          "display_value": "Est savings of 422 KiB"
-        },
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "category": "accessibility",
-          "display_value": null
-        },
-        {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript",
-          "severity": "medium",
-          "estimated_savings_ms": 100,
-          "category": "performance",
-          "display_value": "Est savings of 66 KiB"
-        },
-        {
-          "id": "total-blocking-time",
-          "title": "Total Blocking Time",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "display_value": "180 ms"
-        },
-        {
-          "id": "link-in-text-block",
-          "title": "Links rely on color to be distinguishable.",
-          "severity": "medium",
-          "estimated_savings_ms": null,
-          "category": "accessibility",
-          "display_value": null
-        }
-      ],
-      "onpage_issues": []
-    },
-    {
-      "url": "https://lifesaversrestorationvegas.com/service-areas/las-vegas-nv/",
-      "archetype": "service-area",
-      "verdict": "green",
+      "verdict": "amber",
       "error_reason": null,
       "scores": {
         "performance": 96,
@@ -294,35 +169,45 @@
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1367,
-        "CLS": 0.0048,
+        "LCP_ms": 1324,
+        "CLS": 0.0039,
         "TBT_ms": 0,
         "INP_ms": null
       },
+      "onpage_score": 100,
+      "word_count": 2055,
       "lighthouse_issues": [
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "high",
-          "estimated_savings_ms": 250,
-          "category": "performance",
-          "display_value": "Est savings of 488 KiB"
-        },
         {
           "id": "color-contrast",
           "title": "Background and foreground colors do not have a sufficient contrast ratio.",
           "severity": "high",
           "estimated_savings_ms": null,
           "category": "accessibility",
-          "display_value": null
+          "detail": null
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "Est savings of 422 KiB"
         },
         {
           "id": "unused-javascript",
           "title": "Reduce unused JavaScript",
           "severity": "medium",
-          "estimated_savings_ms": 50,
+          "estimated_savings_ms": 100,
           "category": "performance",
-          "display_value": "Est savings of 69 KiB"
+          "detail": "Est savings of 69 KiB"
+        },
+        {
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
         },
         {
           "id": "lcp-discovery-insight",
@@ -330,7 +215,137 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance",
-          "display_value": null
+          "detail": null
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Schema.org markup fails DataForSEO validation (likely cause: BreadcrumbList final ListItem has no `item`; logo/image values are relative paths)",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "url": "https://lifesaversrestorationvegas.com/services/mold-remediation/",
+      "archetype": "service-landing",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 96,
+        "accessibility": 91,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1364,
+        "CLS": 0.0033,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "onpage_score": 100,
+      "word_count": 1783,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "detail": null
+        },
+        {
+          "id": "link-in-text-block",
+          "title": "Links rely on color to be distinguishable.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "detail": null
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "Est savings of 422 KiB"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "medium",
+          "estimated_savings_ms": 120,
+          "category": "performance",
+          "detail": "Est savings of 69 KiB"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
+        }
+      ],
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Schema.org markup fails DataForSEO validation (likely cause: BreadcrumbList final ListItem has no `item`; logo/image values are relative paths)",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "url": "https://lifesaversrestorationvegas.com/service-areas/las-vegas-nv/",
+      "archetype": "service-area",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 94,
+        "accessibility": 95,
+        "best_practices": 100,
+        "seo": 100
+      },
+      "core_web_vitals": {
+        "LCP_ms": 1397,
+        "CLS": 0.0039,
+        "TBT_ms": 124,
+        "INP_ms": null
+      },
+      "onpage_score": 100,
+      "word_count": 1366,
+      "lighthouse_issues": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "accessibility",
+          "detail": null
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "Est savings of 488 KiB"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "severity": "medium",
+          "estimated_savings_ms": 50,
+          "category": "performance",
+          "detail": "Est savings of 69 KiB"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
         },
         {
           "id": "network-dependency-tree-insight",
@@ -338,13 +353,18 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance",
-          "display_value": null
+          "detail": null
         }
       ],
       "onpage_issues": [
         {
+          "id": "has_micromarkup_errors",
+          "title": "Schema.org markup fails DataForSEO validation (likely cause: BreadcrumbList final ListItem has no `item`; logo/image values are relative paths)",
+          "severity": "medium"
+        },
+        {
           "id": "frame",
-          "title": "Page contains an iframe (embedded Google Map)",
+          "title": "Page contains an <iframe> (embedded map)",
           "severity": "low"
         }
       ]
@@ -355,49 +375,43 @@
       "verdict": "amber",
       "error_reason": null,
       "scores": {
-        "performance": 82,
+        "performance": 95,
         "accessibility": 96,
         "best_practices": 100,
         "seo": 100
       },
       "core_web_vitals": {
-        "LCP_ms": 1405,
+        "LCP_ms": 1410,
         "CLS": 0.0559,
-        "TBT_ms": 311,
+        "TBT_ms": 0,
         "INP_ms": null
       },
+      "onpage_score": 100,
+      "word_count": 726,
       "lighthouse_issues": [
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "severity": "high",
-          "estimated_savings_ms": 250,
-          "category": "performance",
-          "display_value": "Est savings of 555 KiB"
-        },
-        {
-          "id": "total-blocking-time",
-          "title": "Total Blocking Time",
-          "severity": "high",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "display_value": "310 ms"
-        },
         {
           "id": "color-contrast",
           "title": "Background and foreground colors do not have a sufficient contrast ratio.",
           "severity": "high",
           "estimated_savings_ms": null,
           "category": "accessibility",
-          "display_value": null
+          "detail": null
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "severity": "high",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": "Est savings of 555 KiB"
         },
         {
           "id": "unused-javascript",
           "title": "Reduce unused JavaScript",
           "severity": "medium",
-          "estimated_savings_ms": 50,
+          "estimated_savings_ms": 110,
           "category": "performance",
-          "display_value": "Est savings of 68 KiB"
+          "detail": "Est savings of 69 KiB"
         },
         {
           "id": "lcp-discovery-insight",
@@ -405,15 +419,29 @@
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance",
-          "display_value": null
+          "detail": null
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "severity": "medium",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "detail": null
         }
       ],
-      "onpage_issues": []
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Schema.org markup fails DataForSEO validation (likely cause: BreadcrumbList final ListItem has no `item`; logo/image values are relative paths)",
+          "severity": "medium"
+        }
+      ]
     }
   ],
   "site_rollup": {
     "avg_scores": {
-      "performance": 93,
+      "performance": 96,
       "accessibility": 95,
       "best_practices": 100,
       "seo": 100
@@ -421,18 +449,12 @@
     "verdict": "amber",
     "url_count": 6,
     "urls_by_verdict": {
-      "green": 4,
-      "amber": 2,
+      "green": 0,
+      "amber": 6,
       "red": 0,
       "error": 0
     },
     "template_issues": [
-      {
-        "id": "image-delivery-insight",
-        "title": "Improve image delivery",
-        "affected_urls": 6,
-        "severity": "high"
-      },
       {
         "id": "color-contrast",
         "title": "Background and foreground colors do not have a sufficient contrast ratio.",
@@ -446,28 +468,34 @@
         "severity": "medium"
       },
       {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "affected_urls": 5,
+        "severity": "high"
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
+        "affected_urls": 5,
+        "severity": "medium"
+      },
+      {
+        "id": "has_micromarkup_errors",
+        "title": "Schema.org markup fails DataForSEO validation (likely cause: BreadcrumbList final ListItem has no `item`; logo/image values are relative paths)",
+        "affected_urls": 5,
+        "severity": "medium"
+      },
+      {
         "id": "network-dependency-tree-insight",
         "title": "Network dependency tree",
         "affected_urls": 4,
         "severity": "medium"
       },
       {
-        "id": "lcp-discovery-insight",
-        "title": "LCP request discovery",
-        "affected_urls": 4,
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
+        "affected_urls": 2,
         "severity": "medium"
-      },
-      {
-        "id": "total-blocking-time",
-        "title": "Total Blocking Time",
-        "affected_urls": 2,
-        "severity": "high"
-      },
-      {
-        "id": "low_content_rate",
-        "title": "Low text-to-HTML ratio",
-        "affected_urls": 2,
-        "severity": "low"
       }
     ],
     "money_page_alerts": [
@@ -475,151 +503,78 @@
         "url": "https://lifesaversrestorationvegas.com/",
         "archetype": "home",
         "verdict": "amber",
-        "main_issue": "meta description 186 chars (limit 160); otherwise perf 97, LCP 1.3s"
+        "main_issue": "Meta description length 186 chars, outside the 70-160 target"
+      },
+      {
+        "url": "https://lifesaversrestorationvegas.com/services/",
+        "archetype": "services-hub",
+        "verdict": "amber",
+        "main_issue": "Schema.org markup fails DataForSEO validation (likely cause: BreadcrumbList final ListItem has no `item`; logo/image values are relative paths)"
+      },
+      {
+        "url": "https://lifesaversrestorationvegas.com/services/water-damage-restoration/",
+        "archetype": "service-landing",
+        "verdict": "amber",
+        "main_issue": "Schema.org markup fails DataForSEO validation (likely cause: BreadcrumbList final ListItem has no `item`; logo/image values are relative paths)"
+      },
+      {
+        "url": "https://lifesaversrestorationvegas.com/services/mold-remediation/",
+        "archetype": "service-landing",
+        "verdict": "amber",
+        "main_issue": "Schema.org markup fails DataForSEO validation (likely cause: BreadcrumbList final ListItem has no `item`; logo/image values are relative paths)"
       },
       {
         "url": "https://lifesaversrestorationvegas.com/contact/",
         "archetype": "contact",
         "verdict": "amber",
-        "main_issue": "performance 82 driven by TBT 311ms (intermittent: 4 runs scored 82/95/95/77); GA4 gtag and inline estimate-form script long tasks"
+        "main_issue": "Schema.org markup fails DataForSEO validation (likely cause: BreadcrumbList final ListItem has no `item`; logo/image values are relative paths)"
       }
     ]
   },
   "regression": {
     "prior_run_at": "2026-08-27T03:56:47Z",
-    "prior_live_origin": "https://staging.rankai-life-savers-restoration-llc.pages.dev",
     "score_deltas": {
-      "performance": -5,
+      "performance": -2,
       "accessibility": 0,
       "best_practices": 0,
       "seo": 31
     },
-    "per_url": [
-      {
-        "url": "https://lifesaversrestorationvegas.com/",
-        "score_deltas": {
-          "performance": -1,
-          "accessibility": 0,
-          "best_practices": 0,
-          "seo": 31
-        },
-        "lcp_delta_ms": 199,
-        "cls_delta": 0.0069,
-        "tbt_delta_ms": -6,
-        "regressions": []
-      },
+    "score_regressions": [],
+    "cwv_regressions": [
       {
         "url": "https://lifesaversrestorationvegas.com/services/",
-        "score_deltas": {
-          "performance": -2,
-          "accessibility": 0,
-          "best_practices": 0,
-          "seo": 31
-        },
-        "lcp_delta_ms": 302,
-        "cls_delta": 0.0006,
-        "tbt_delta_ms": 31,
-        "regressions": [
-          "LCP_ms"
-        ]
+        "metric": "LCP_ms",
+        "from": 1129,
+        "to": 1383,
+        "delta": 254
       },
       {
         "url": "https://lifesaversrestorationvegas.com/services/water-damage-restoration/",
-        "score_deltas": {
-          "performance": -2,
-          "accessibility": 0,
-          "best_practices": 0,
-          "seo": 31
-        },
-        "lcp_delta_ms": 366,
-        "cls_delta": 0.0003,
-        "tbt_delta_ms": -9,
-        "regressions": [
-          "LCP_ms"
-        ]
+        "metric": "LCP_ms",
+        "from": 951,
+        "to": 1324,
+        "delta": 373
       },
       {
         "url": "https://lifesaversrestorationvegas.com/services/mold-remediation/",
-        "score_deltas": {
-          "performance": -6,
-          "accessibility": -4,
-          "best_practices": 0,
-          "seo": 31
-        },
-        "lcp_delta_ms": 337,
-        "cls_delta": 0.0003,
-        "tbt_delta_ms": 96,
-        "regressions": [
-          "performance",
-          "LCP_ms"
-        ]
+        "metric": "LCP_ms",
+        "from": 976,
+        "to": 1364,
+        "delta": 388
       },
       {
         "url": "https://lifesaversrestorationvegas.com/service-areas/las-vegas-nv/",
-        "score_deltas": {
-          "performance": -2,
-          "accessibility": 0,
-          "best_practices": 0,
-          "seo": 31
-        },
-        "lcp_delta_ms": 312,
-        "cls_delta": 0.0012,
-        "tbt_delta_ms": -38,
-        "regressions": [
-          "LCP_ms"
-        ]
+        "metric": "LCP_ms",
+        "from": 1055,
+        "to": 1397,
+        "delta": 342
       },
       {
         "url": "https://lifesaversrestorationvegas.com/contact/",
-        "score_deltas": {
-          "performance": -16,
-          "accessibility": 0,
-          "best_practices": 0,
-          "seo": 31
-        },
-        "lcp_delta_ms": 344,
-        "cls_delta": 0.0003,
-        "tbt_delta_ms": 311,
-        "regressions": [
-          "performance",
-          "LCP_ms",
-          "TBT_ms"
-        ]
-      }
-    ],
-    "regression_flags": [
-      {
-        "url": "https://lifesaversrestorationvegas.com/services/",
-        "metrics": [
-          "LCP_ms"
-        ]
-      },
-      {
-        "url": "https://lifesaversrestorationvegas.com/services/water-damage-restoration/",
-        "metrics": [
-          "LCP_ms"
-        ]
-      },
-      {
-        "url": "https://lifesaversrestorationvegas.com/services/mold-remediation/",
-        "metrics": [
-          "performance",
-          "LCP_ms"
-        ]
-      },
-      {
-        "url": "https://lifesaversrestorationvegas.com/service-areas/las-vegas-nv/",
-        "metrics": [
-          "LCP_ms"
-        ]
-      },
-      {
-        "url": "https://lifesaversrestorationvegas.com/contact/",
-        "metrics": [
-          "performance",
-          "LCP_ms",
-          "TBT_ms"
-        ]
+        "metric": "LCP_ms",
+        "from": 1061,
+        "to": 1410,
+        "delta": 349
       }
     ],
     "verdict_transitions": [
@@ -632,25 +587,25 @@
       {
         "url": "https://lifesaversrestorationvegas.com/services/",
         "from": "red",
-        "to": "green",
+        "to": "amber",
         "direction": "improved"
       },
       {
         "url": "https://lifesaversrestorationvegas.com/services/water-damage-restoration/",
         "from": "red",
-        "to": "green",
+        "to": "amber",
         "direction": "improved"
       },
       {
         "url": "https://lifesaversrestorationvegas.com/services/mold-remediation/",
         "from": "red",
-        "to": "green",
+        "to": "amber",
         "direction": "improved"
       },
       {
         "url": "https://lifesaversrestorationvegas.com/service-areas/las-vegas-nv/",
         "from": "red",
-        "to": "green",
+        "to": "amber",
         "direction": "improved"
       },
       {
@@ -660,7 +615,6 @@
         "direction": "improved"
       }
     ],
-    "new_issues_note": "Prior state captured only the top 5 Lighthouse issues per URL, so a 'new' Lighthouse issue may have existed below the prior cutoff. unused-javascript also fails on today's staging pass, so treat it as pre-existing, not introduced this month. Resolved issues are checked against the full current failing-audit set.",
     "new_issues": [
       {
         "url": "https://lifesaversrestorationvegas.com/",
@@ -669,23 +623,18 @@
       },
       {
         "url": "https://lifesaversrestorationvegas.com/",
-        "id": "cache-insight",
-        "title": "Use efficient cache lifetimes"
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
       },
       {
         "url": "https://lifesaversrestorationvegas.com/",
-        "id": "low_content_rate",
-        "title": "Low text-to-HTML ratio"
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes"
       },
       {
         "url": "https://lifesaversrestorationvegas.com/services/",
         "id": "unused-javascript",
         "title": "Reduce unused JavaScript"
-      },
-      {
-        "url": "https://lifesaversrestorationvegas.com/services/",
-        "id": "low_content_rate",
-        "title": "Low text-to-HTML ratio"
       },
       {
         "url": "https://lifesaversrestorationvegas.com/services/water-damage-restoration/",
@@ -693,14 +642,9 @@
         "title": "Reduce unused JavaScript"
       },
       {
-        "url": "https://lifesaversrestorationvegas.com/services/mold-remediation/",
-        "id": "unused-javascript",
-        "title": "Reduce unused JavaScript"
-      },
-      {
-        "url": "https://lifesaversrestorationvegas.com/services/mold-remediation/",
-        "id": "total-blocking-time",
-        "title": "Total Blocking Time"
+        "url": "https://lifesaversrestorationvegas.com/services/water-damage-restoration/",
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
       },
       {
         "url": "https://lifesaversrestorationvegas.com/services/mold-remediation/",
@@ -708,14 +652,14 @@
         "title": "Links rely on color to be distinguishable."
       },
       {
-        "url": "https://lifesaversrestorationvegas.com/service-areas/las-vegas-nv/",
+        "url": "https://lifesaversrestorationvegas.com/services/mold-remediation/",
         "id": "unused-javascript",
         "title": "Reduce unused JavaScript"
       },
       {
-        "url": "https://lifesaversrestorationvegas.com/contact/",
-        "id": "total-blocking-time",
-        "title": "Total Blocking Time"
+        "url": "https://lifesaversrestorationvegas.com/service-areas/las-vegas-nv/",
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript"
       },
       {
         "url": "https://lifesaversrestorationvegas.com/contact/",
@@ -750,11 +694,6 @@
         "title": "Canonical points to invalid host: https://none/services/"
       },
       {
-        "url": "https://lifesaversrestorationvegas.com/services/",
-        "id": "has_micromarkup_errors",
-        "title": "Schema.org markup fails validation (all @id/url/item values resolve to https://None/)"
-      },
-      {
         "url": "https://lifesaversrestorationvegas.com/services/water-damage-restoration/",
         "id": "is-crawlable",
         "title": "Page is blocked from indexing"
@@ -763,11 +702,6 @@
         "url": "https://lifesaversrestorationvegas.com/services/water-damage-restoration/",
         "id": "canonical",
         "title": "Canonical points to invalid host: https://none/services/water-damage-restoration/"
-      },
-      {
-        "url": "https://lifesaversrestorationvegas.com/services/water-damage-restoration/",
-        "id": "has_micromarkup_errors",
-        "title": "Schema.org markup fails validation (all @id/url/item values resolve to https://None/)"
       },
       {
         "url": "https://lifesaversrestorationvegas.com/services/mold-remediation/",
@@ -780,11 +714,6 @@
         "title": "Canonical points to invalid host: https://none/services/mold-remediation/"
       },
       {
-        "url": "https://lifesaversrestorationvegas.com/services/mold-remediation/",
-        "id": "has_micromarkup_errors",
-        "title": "Schema.org markup fails validation (all @id/url/item values resolve to https://None/)"
-      },
-      {
         "url": "https://lifesaversrestorationvegas.com/service-areas/las-vegas-nv/",
         "id": "is-crawlable",
         "title": "Page is blocked from indexing"
@@ -795,11 +724,6 @@
         "title": "Canonical points to invalid host: https://none/service-areas/las-vegas-nv/"
       },
       {
-        "url": "https://lifesaversrestorationvegas.com/service-areas/las-vegas-nv/",
-        "id": "has_micromarkup_errors",
-        "title": "Schema.org markup fails validation (all @id/url/item values resolve to https://None/)"
-      },
-      {
         "url": "https://lifesaversrestorationvegas.com/contact/",
         "id": "is-crawlable",
         "title": "Page is blocked from indexing"
@@ -808,13 +732,9 @@
         "url": "https://lifesaversrestorationvegas.com/contact/",
         "id": "canonical",
         "title": "Canonical points to invalid host: https://none/contact/"
-      },
-      {
-        "url": "https://lifesaversrestorationvegas.com/contact/",
-        "id": "has_micromarkup_errors",
-        "title": "Schema.org markup fails validation (all @id/url/item values resolve to https://None/)"
       }
-    ]
-  },
-  "cost_usd": 0.112
+    ],
+    "regression_count": 5,
+    "note": "URLs matched by path between the prior staging run and this apex run. Prior run stored only the top 5 Lighthouse failures per URL, so a 'new' Lighthouse issue may have been failing below the cap last month. 'Resolved' is checked against the full current failing set."
+  }
 }

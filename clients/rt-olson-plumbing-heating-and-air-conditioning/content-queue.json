@@ -280,29 +280,62 @@
       "fan_out_cluster": [
         "how much does an emergency plumber cost",
         "emergency plumber cost per hour",
-        "24 hour plumber cost",
         "do plumbers charge more on weekends",
-        "what counts as a plumbing emergency",
-        "when to call an emergency plumber"
+        "24 hour plumber cost",
+        "emergency plumber near me cheap"
       ],
       "suggested_slug": "emergency-plumber-cost",
-      "suggested_title": "Emergency plumber cost in Corona: after-hours, weekend and holiday rates explained",
+      "suggested_title": "Emergency plumber cost in Corona: what after-hours plumbing really runs",
       "target_word_count": 1400,
       "internal_link_targets": [
         "/services/emergency-plumbing/",
-        "/blog/how-much-does-a-plumber-cost/",
-        "/services/leak-detection/",
-        "/blog/what-to-do-burst-pipe/"
+        "/blog/how-much-does-a-plumber-cost/"
       ],
       "service_tags": [
-        "emergency-plumbing",
-        "leak-detection"
+        "emergency-plumbing"
       ],
       "city_anchor": "corona-ca",
       "external_authority_candidates": [
-        "https://www.cslb.ca.gov/Consumers/"
+        "https://www.cslb.ca.gov/"
       ],
-      "notes": "Deeper companion to the written general cost post (link to it, do not repeat its per-job price table). Cover what drives after-hours pricing (trip or dispatch fee, overtime labor, weekend and holiday premiums), when waiting until morning is safe vs when it is not, and how to shut off water to limit the bill. Brand hours are 24/7 so 24/7 claims are allowed. Only cite price ranges the writer can source; no invented rates."
+      "notes": "Lead with a cost-factor capsule (after-hours, weekend, holiday, trip fee, repair type) rather than invented dollar figures; only cite prices the brand has confirmed. Link to the existing general plumber-cost post, differentiate on the after-hours premium. RT Olson hours are 24/7 so round-the-clock claims are supported."
+    },
+    {
+      "id": "2026-09-28-what-to-do-if-you-smell-gas-in-your-house",
+      "status": "queued",
+      "queued_at": "2026-09-28T12:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to do if you smell gas in your house",
+      "intent": "informational",
+      "volume": 880,
+      "kd": 26,
+      "fan_out_cluster": [
+        "signs of a gas leak in the home",
+        "should you call 911 or the gas company for a gas smell",
+        "gas smell near water heater or furnace",
+        "what not to do when you smell gas",
+        "when it is safe to go back inside after a gas leak"
+      ],
+      "suggested_slug": "what-to-do-if-you-smell-gas-in-your-house",
+      "suggested_title": "What to do if you smell gas in your house in Riverside",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/furnace-repair/",
+        "/services/water-heater-repair/",
+        "/services/emergency-plumbing/"
+      ],
+      "service_tags": [
+        "furnace-repair",
+        "water-heater-repair",
+        "emergency-plumbing"
+      ],
+      "city_anchor": "riverside-ca",
+      "external_authority_candidates": [
+        "https://www.socalgas.com/stay-safe/gas-leaks",
+        "https://www.cpuc.ca.gov/"
+      ],
+      "notes": "Safety-first framing: leave the house, no switches or flames, call 911 or SoCalGas from outside BEFORE calling a plumber (matches site copy). Service fit is via gas appliances (furnace, water heater); client does not list gas-line services, so do not promise gas line repair."
     },
     {
       "id": "2026-09-28-how-to-shut-off-main-water-valve",
@@ -315,71 +348,100 @@
       "volume": 880,
       "kd": 17,
       "fan_out_cluster": [
-        "where is the main water shut off valve in my house",
-        "how to turn off water at the street meter",
-        "what to do in a plumbing emergency",
-        "main water valve stuck or will not turn",
-        "how to shut off water to a water heater",
-        "should you shut off water when you go on vacation"
+        "where is my main water shut off valve",
+        "curb stop vs house shut-off valve",
+        "what to do if the main valve is stuck",
+        "shutting off water to a water heater or toilet",
+        "when to call an emergency plumber after shutting off water"
       ],
       "suggested_slug": "how-to-shut-off-main-water-valve",
-      "suggested_title": "How to shut off main water valve in your Riverside home (and find it fast)",
-      "target_word_count": 1300,
+      "suggested_title": "How to shut off main water valve in a Corona home",
+      "target_word_count": 1400,
       "internal_link_targets": [
         "/services/emergency-plumbing/",
-        "/services/leak-detection/",
-        "/services/repiping/",
-        "/blog/what-to-do-burst-pipe/"
+        "/blog/what-to-do-burst-pipe/",
+        "/services/leak-detection/"
       ],
       "service_tags": [
         "emergency-plumbing",
-        "leak-detection",
-        "repiping"
+        "leak-detection"
       ],
-      "city_anchor": "riverside-ca",
+      "city_anchor": "corona-ca",
       "external_authority_candidates": [
-        "https://www.epa.gov/watersense/fix-leak-week",
-        "https://www.redcross.org/get-help/how-to-prepare-for-emergencies.html"
+        "https://www.epa.gov/watersense"
       ],
-      "notes": "ChatGPT's answer to 'emergency plumber' leads with 'shut off your main water valve first', so this is the passage AI engines already want to cite. Open with a 3-step answer capsule. Cover typical SoCal locations (garage wall, exterior hose-bib side near the front, street meter box), gate vs ball valves, and a stuck-valve warning. Link to the burst pipe blog post; stop at stopping the water (no water damage drying content)."
+      "notes": "Step-by-step capsule first (locate, turn clockwise, open a low faucet to drain). Cover common Inland Empire slab-home valve locations (garage wall, front hose bib area) and the meter-box curb stop. Link to the burst-pipe blog as a sibling, not a duplicate."
     },
     {
-      "id": "2026-09-28-is-a-leaking-water-heater-an-emergency",
+      "id": "2026-09-28-how-to-stop-a-toilet-from-overflowing",
       "status": "queued",
       "queued_at": "2026-09-28T12:00:00Z",
       "written_at": null,
       "post_url": null,
-      "primary_keyword": "is a leaking water heater an emergency",
+      "primary_keyword": "how to stop a toilet from overflowing",
       "intent": "informational",
-      "volume": 70,
+      "volume": 590,
       "kd": 0,
       "fan_out_cluster": [
-        "water heater leaking from the bottom",
-        "water heater leaking from the pressure relief valve",
-        "how to shut off water to a water heater",
-        "can I use hot water if my water heater is leaking",
-        "repair or replace a leaking water heater",
-        "is a clogged toilet an emergency"
+        "toilet shut off valve location",
+        "lifting the flapper to stop the flow",
+        "is a clogged toilet a plumbing emergency",
+        "why a toilet keeps overflowing",
+        "when a toilet overflow points to a main line clog"
       ],
-      "suggested_slug": "is-a-leaking-water-heater-an-emergency",
-      "suggested_title": "Is a leaking water heater an emergency? What Anaheim homeowners should do first",
-      "target_word_count": 1300,
+      "suggested_slug": "how-to-stop-a-toilet-from-overflowing",
+      "suggested_title": "How to stop a toilet from overflowing (Anaheim homeowner guide)",
+      "target_word_count": 1400,
       "internal_link_targets": [
-        "/services/water-heater-repair/",
-        "/services/water-heater-installation/",
-        "/services/emergency-plumbing/",
-        "/blog/water-heater-lifespan-repair-or-replace/"
+        "/services/toilet-faucet-repair/",
+        "/services/drain-cleaning/",
+        "/services/emergency-plumbing/"
       ],
       "service_tags": [
-        "water-heater-repair",
-        "water-heater-installation",
-        "emergency-plumbing"
+        "toilet-faucet-repair",
+        "drain-cleaning"
       ],
       "city_anchor": "anaheim-ca",
       "external_authority_candidates": [
-        "https://www.energy.gov/energysaver/water-heating"
+        "https://www.epa.gov/watersense"
       ],
-      "notes": "Triage by leak location (fittings and drain valve vs T&P valve vs tank body). Safety first: if the unit is gas and there is a gas smell, leave and call the gas utility or 911 before calling a plumber. Explain shutting off the cold supply and gas or power. Link to the repair-vs-replace lifespan post rather than repeating it."
+      "notes": "Answer in the first two sentences (close the supply valve, lift the float/flapper). Then diagnose repeat overflows and multi-fixture backups as a main line issue. Stay on stopping the water and fixing the cause, not cleanup/drying (restoration turf)."
+    },
+    {
+      "id": "2026-09-28-what-is-considered-a-plumbing-emergency",
+      "status": "queued",
+      "queued_at": "2026-09-28T12:00:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what is considered a plumbing emergency",
+      "intent": "informational",
+      "volume": 90,
+      "kd": 0,
+      "fan_out_cluster": [
+        "what counts as a plumbing emergency",
+        "is a clogged toilet a plumbing emergency",
+        "is a leaking water heater an emergency",
+        "what to do while waiting for an emergency plumber",
+        "sewage backup in house"
+      ],
+      "suggested_slug": "what-is-considered-a-plumbing-emergency",
+      "suggested_title": "What is considered a plumbing emergency in Temecula (and what can wait)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/emergency-plumbing/",
+        "/services/water-heater-repair/",
+        "/services/drain-cleaning/"
+      ],
+      "service_tags": [
+        "emergency-plumbing",
+        "water-heater-repair",
+        "drain-cleaning"
+      ],
+      "city_anchor": "temecula-ca",
+      "external_authority_candidates": [
+        "https://www.ready.gov/"
+      ],
+      "notes": "Hub post for the emergency cluster. Use a call-now vs can-wait list. Link out to the shut-off valve, toilet overflow, gas smell and emergency cost posts once published. Gas smell item must say call 911/SoCalGas first."
     }
   ]
 }

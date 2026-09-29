@@ -5,14 +5,14 @@
   "live_origin": "https://staging.rankai-quality-contracting-inc.pages.dev",
   "live_origin_source": "staging",
   "audit_form_factor": "desktop",
-  "generated_at": "2026-09-28T23:36:56Z",
+  "generated_at": "2026-09-29T00:27:04Z",
   "environment_caveats": [
-    "Audited the Cloudflare Pages staging preview because clients/quality-contracting-inc.json still has no apex_cutover.completed_at. HOWEVER, as of this run https://qualitycontracting.us/ is already serving the new Rank AI build (server: cloudflare, same Astro asset set, title 'Restoration Services in Central Massachusetts...', IndexNow key file /92370eb0990e4d9a832d8b93a4bd94ef.txt returns 200, no x-robots-tag). The cutover appears to have happened without being recorded in the client record.",
-    "GET https://staging.rankai-quality-contracting-inc.pages.dev/ returns x-robots-tag: noindex (Cloudflare Pages preview injection). is-crawlable fails on all 6 URLs and deflates SEO to 69. SEO is inconclusive on the staging run and was excluded from every verdict; verdicts use performance, accessibility and best_practices only.",
-    "Diagnostic only, not in audited_urls: one desktop Lighthouse run against the apex homepage https://qualitycontracting.us/ returned performance 98, accessibility 100, best_practices 100, SEO 100, LCP 1106ms, CLS 0.036. SEO 100 on the apex confirms is-crawlable is the only thing holding the staging SEO score down.",
-    "Canonical tags on all 6 staging pages point to https://qualitycontracting.us/..., so the DataForSEO canonical self-reference check reports false on all 6. Correct for a staging preview; not recorded as an issue.",
-    "Lighthouse 13.4.0 ran desktop only (for_mobile false, cpuSlowdownMultiplier 1, throughputKbps 10240). Mobile performance would typically run 10-20 points lower and the homepage CLS would very likely be worse.",
-    "URL set held identical to the 2026-08-27 baseline for regression continuity. url-plan.json now has four service-landing pages tied at priority 9.0 (fire-damage, mold-remediation, roofing, water-damage in plan order); water-damage and fire-damage were kept from the tie."
+    "Audited the Cloudflare Pages staging preview because clients/quality-contracting-inc.json still has no apex_cutover.completed_at. HOWEVER, https://qualitycontracting.us/ no longer serves the old WordPress/Kinsta site: it now returns the Rank AI Astro build via Cloudflare (IndexNow key /92370eb0990e4d9a832d8b93a4bd94ef.txt returns 200, no x-robots-tag, client record deploy_url is https://qualitycontracting.us). The apex cutover appears to have happened without completed_at being recorded.",
+    "The apex and staging builds are NOT identical: different CSS bundle hashes (_slug_.B3bBBMuK.css on apex vs _slug_.A-a6aXyj.css on staging), apex serves inner-page images from images.qualitycontracting.us, apex homepage hero markup differs (lg:grid layout), and apex CTA buttons use bg-cta tokens where staging uses bg-primary-600. Staging appears to lag production, so this staging audit may not reflect what visitors and Google see.",
+    "GET https://staging.rankai-quality-contracting-inc.pages.dev/ returns x-robots-tag: noindex (injected by Cloudflare Pages on *.pages.dev). is-crawlable fails on all 6 URLs and deflates SEO to 69. SEO is inconclusive and was excluded from every verdict; verdicts use performance, accessibility and best_practices only.",
+    "Canonical tags on all 6 staging pages point to https://qualitycontracting.us/..., which is correct for a staging preview and is not recorded as an issue.",
+    "Lighthouse 13.4.0 ran desktop only (formFactor desktop, cpuSlowdownMultiplier 1, throughputKbps 10240). Mobile scores would typically run 10-20 performance points lower.",
+    "One diagnostic Lighthouse plus instant_pages pair was run against https://qualitycontracting.us/ (apex homepage) outside the 6-URL audit set to check the cutover. It is not counted in audited_urls or the verdict: performance 99, accessibility 100, best_practices 100, SEO 100, LCP 895ms, CLS 0.036."
   ],
   "audited_urls": [
     {
@@ -21,13 +21,13 @@
       "verdict": "green",
       "error_reason": null,
       "scores": {
-        "performance": 92,
+        "performance": 93,
         "accessibility": 100,
         "best_practices": 100,
         "seo": 69
       },
       "core_web_vitals": {
-        "LCP_ms": 928,
+        "LCP_ms": 794,
         "CLS": 0.1598,
         "TBT_ms": 0,
         "INP_ms": null
@@ -42,37 +42,37 @@
         },
         {
           "id": "layout-shifts",
-          "title": "Avoid large layout shifts: 1 shift on the hero container (header.relative > div.container-wide), web-font swap",
+          "title": "Avoid large layout shifts: hero div.container-wide shifts 0.16 when the Inter web font loads",
           "severity": "high",
           "estimated_savings_ms": null,
           "category": "performance"
         },
         {
           "id": "cls-culprits-insight",
-          "title": "Layout shift culprits: Inter web font swapping in over the fallback face on the hero H1 and intro",
+          "title": "Layout shift culprits: web font loaded (fonts.gstatic.com Inter woff2)",
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance"
         },
         {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript: googletagmanager.com/gtag/js?id=G-G8PLTS9XDN (156KB, about 44 percent unused)",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "estimated_savings_bytes": 70407
-        },
-        {
           "id": "image-delivery-insight",
-          "title": "Improve image delivery: /images/team-768w.webp oversized for its slot (33KB waste)",
+          "title": "Improve image delivery: team-768w.webp oversized for its rendered box (33KB waste), hero-bg.webp 6KB",
           "severity": "low",
           "estimated_savings_ms": null,
           "category": "performance",
           "estimated_savings_bytes": 38333
         },
         {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript: GA4 gtag.js (G-G8PLTS9XDN, 159KB) ships ~69KB unused on first load",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": 70300
+        },
+        {
           "id": "render-blocking-insight",
-          "title": "Render-blocking requests: /_astro/_slug_.A-a6aXyj.css blocks first paint; layout still emits a duplicate blocking Google Fonts stylesheet",
+          "title": "Render-blocking requests: /_astro/_slug_.A-a6aXyj.css plus the duplicate blocking Google Fonts stylesheet",
           "severity": "low",
           "estimated_savings_ms": null,
           "category": "performance"
@@ -92,17 +92,7 @@
           "category": "seo"
         }
       ],
-      "onpage_issues": [],
-      "onpage_metrics": {
-        "title_length": 45,
-        "description_length": 155,
-        "word_count": 1723,
-        "h1_count": 1,
-        "images": 9,
-        "broken_links": false,
-        "broken_resources": false,
-        "canonical": "https://qualitycontracting.us/"
-      }
+      "onpage_issues": []
     },
     {
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/services/",
@@ -116,7 +106,7 @@
         "seo": 69
       },
       "core_web_vitals": {
-        "LCP_ms": 895,
+        "LCP_ms": 911,
         "CLS": 0.0044,
         "TBT_ms": 0,
         "INP_ms": null
@@ -124,115 +114,37 @@
       "lighthouse_issues": [
         {
           "id": "link-in-text-block",
-          "title": "Links rely on color to be distinguishable: prose tel: link at 1.14:1 against surrounding text, no underline",
+          "title": "Links rely on color to be distinguishable: tel:5087568800 link at 1.14:1 against surrounding text (#fbb1b2 on #cfd1d4)",
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "accessibility"
         },
         {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript: googletagmanager.com/gtag/js?id=G-G8PLTS9XDN (156KB, about 44 percent unused)",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "estimated_savings_bytes": 70228
-        },
-        {
           "id": "image-delivery-insight",
-          "title": "Improve image delivery: /brand/hero.webp served at full size with no srcset (73KB) plus oversized service card thumbnails",
+          "title": "Improve image delivery: shared /brand/hero.webp (73KB waste) plus service card thumbnails",
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance",
-          "estimated_savings_bytes": 134647
+          "estimated_savings_bytes": 134000
         },
         {
           "id": "lcp-discovery-insight",
-          "title": "LCP request discovery: inner-page hero image is missing fetchpriority=\"high\"",
+          "title": "LCP request discovery: hero image is missing fetchpriority=\"high\"",
           "severity": "low",
           "estimated_savings_ms": 0,
           "category": "performance"
         },
         {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests: /_astro/_slug_.A-a6aXyj.css blocks first paint; layout still emits a duplicate blocking Google Fonts stylesheet",
-          "severity": "low",
-          "estimated_savings_ms": 53,
-          "category": "performance"
-        },
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree: no origins preconnected (Lighthouse reports no good preconnect candidates)",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance"
-        },
-        {
-          "id": "is-crawlable",
-          "title": "Page is blocked from indexing (staging x-robots-tag: noindex, not a site defect)",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "seo"
-        }
-      ],
-      "onpage_issues": [
-        {
-          "id": "has_micromarkup_errors",
-          "title": "Structured data validation errors reported by DataForSEO (every flagged page carries an FAQPage node; the only unflagged page, /, has none; unchanged since 2026-08-27)",
-          "severity": "medium"
-        },
-        {
-          "id": "tel_link_text_href_mismatch",
-          "title": "Rank AI check (not a DataForSEO ID): after the call-tracking swap runs, the prose tel: link displays (508) 355-3039 but still dials tel:5087568800, because its href lacks the +1 prefix the swap script matches on",
-          "severity": "medium"
-        }
-      ],
-      "onpage_metrics": {
-        "title_length": 58,
-        "description_length": 140,
-        "word_count": 961,
-        "h1_count": 1,
-        "images": 12,
-        "broken_links": false,
-        "broken_resources": false,
-        "canonical": "https://qualitycontracting.us/services/"
-      }
-    },
-    {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/services/water-damage-restoration/",
-      "archetype": "service-landing",
-      "verdict": "amber",
-      "error_reason": null,
-      "scores": {
-        "performance": 99,
-        "accessibility": 100,
-        "best_practices": 100,
-        "seo": 69
-      },
-      "core_web_vitals": {
-        "LCP_ms": 823,
-        "CLS": 0.0375,
-        "TBT_ms": 0,
-        "INP_ms": null
-      },
-      "lighthouse_issues": [
-        {
           "id": "unused-javascript",
-          "title": "Reduce unused JavaScript: googletagmanager.com/gtag/js?id=G-G8PLTS9XDN (156KB, about 44 percent unused)",
+          "title": "Reduce unused JavaScript: GA4 gtag.js (G-G8PLTS9XDN, 159KB) ships ~69KB unused on first load",
           "severity": "low",
           "estimated_savings_ms": null,
           "category": "performance",
-          "estimated_savings_bytes": 67957
-        },
-        {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery: inner-page hero image is missing fetchpriority=\"high\"",
-          "severity": "low",
-          "estimated_savings_ms": 0,
-          "category": "performance"
+          "estimated_savings_bytes": 70300
         },
         {
           "id": "render-blocking-insight",
-          "title": "Render-blocking requests: /_astro/_slug_.A-a6aXyj.css blocks first paint; layout still emits a duplicate blocking Google Fonts stylesheet",
+          "title": "Render-blocking requests: /_astro/_slug_.A-a6aXyj.css plus the duplicate blocking Google Fonts stylesheet",
           "severity": "low",
           "estimated_savings_ms": null,
           "category": "performance"
@@ -255,23 +167,13 @@
       "onpage_issues": [
         {
           "id": "has_micromarkup_errors",
-          "title": "Structured data validation errors reported by DataForSEO (every flagged page carries an FAQPage node; the only unflagged page, /, has none; unchanged since 2026-08-27)",
+          "title": "Structured data validation errors reported by DataForSEO (isolated to the FAQPage node; unchanged since 2026-08-27; markup previously hand-validated as structurally correct)",
           "severity": "medium"
         }
-      ],
-      "onpage_metrics": {
-        "title_length": 62,
-        "description_length": 106,
-        "word_count": 1772,
-        "h1_count": 1,
-        "images": 2,
-        "broken_links": false,
-        "broken_resources": false,
-        "canonical": "https://qualitycontracting.us/services/water-damage-restoration/"
-      }
+      ]
     },
     {
-      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/services/fire-damage-restoration/",
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/services/water-damage-restoration/",
       "archetype": "service-landing",
       "verdict": "amber",
       "error_reason": null,
@@ -282,32 +184,32 @@
         "seo": 69
       },
       "core_web_vitals": {
-        "LCP_ms": 821,
+        "LCP_ms": 814,
         "CLS": 0.0375,
         "TBT_ms": 0,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript: googletagmanager.com/gtag/js?id=G-G8PLTS9XDN (156KB, about 44 percent unused)",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "estimated_savings_bytes": 70356
-        },
-        {
           "id": "lcp-discovery-insight",
-          "title": "LCP request discovery: inner-page hero image is missing fetchpriority=\"high\"",
+          "title": "LCP request discovery: hero image is missing fetchpriority=\"high\"",
           "severity": "low",
           "estimated_savings_ms": 0,
           "category": "performance"
         },
         {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests: /_astro/_slug_.A-a6aXyj.css blocks first paint; layout still emits a duplicate blocking Google Fonts stylesheet",
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript: GA4 gtag.js (G-G8PLTS9XDN, 159KB) ships ~69KB unused on first load",
           "severity": "low",
-          "estimated_savings_ms": 53,
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": 70300
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests: /_astro/_slug_.A-a6aXyj.css plus the duplicate blocking Google Fonts stylesheet",
+          "severity": "low",
+          "estimated_savings_ms": null,
           "category": "performance"
         },
         {
@@ -328,20 +230,80 @@
       "onpage_issues": [
         {
           "id": "has_micromarkup_errors",
-          "title": "Structured data validation errors reported by DataForSEO (every flagged page carries an FAQPage node; the only unflagged page, /, has none; unchanged since 2026-08-27)",
+          "title": "Structured data validation errors reported by DataForSEO (isolated to the FAQPage node; unchanged since 2026-08-27; markup previously hand-validated as structurally correct)",
           "severity": "medium"
         }
+      ]
+    },
+    {
+      "url": "https://staging.rankai-quality-contracting-inc.pages.dev/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "verdict": "amber",
+      "error_reason": null,
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best_practices": 100,
+        "seo": 69
+      },
+      "core_web_vitals": {
+        "LCP_ms": 842,
+        "CLS": 0.0375,
+        "TBT_ms": 0,
+        "INP_ms": null
+      },
+      "lighthouse_issues": [
+        {
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow: 76ms of unattributed reflow time",
+          "severity": "low",
+          "estimated_savings_ms": 76,
+          "category": "performance"
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery: hero image is missing fetchpriority=\"high\"",
+          "severity": "low",
+          "estimated_savings_ms": 0,
+          "category": "performance"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript: GA4 gtag.js (G-G8PLTS9XDN, 159KB) ships ~69KB unused on first load",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": 70300
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests: /_astro/_slug_.A-a6aXyj.css plus the duplicate blocking Google Fonts stylesheet",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree: no origins preconnected (Lighthouse reports no good preconnect candidates)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "performance"
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing (staging x-robots-tag: noindex, not a site defect)",
+          "severity": "low",
+          "estimated_savings_ms": null,
+          "category": "seo"
+        }
       ],
-      "onpage_metrics": {
-        "title_length": 61,
-        "description_length": 105,
-        "word_count": 1684,
-        "h1_count": 1,
-        "images": 2,
-        "broken_links": false,
-        "broken_resources": false,
-        "canonical": "https://qualitycontracting.us/services/fire-damage-restoration/"
-      }
+      "onpage_issues": [
+        {
+          "id": "has_micromarkup_errors",
+          "title": "Structured data validation errors reported by DataForSEO (isolated to the FAQPage node; unchanged since 2026-08-27; markup previously hand-validated as structurally correct)",
+          "severity": "medium"
+        }
+      ]
     },
     {
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/worcester-ma/",
@@ -355,7 +317,7 @@
         "seo": 69
       },
       "core_web_vitals": {
-        "LCP_ms": 843,
+        "LCP_ms": 874,
         "CLS": 0.006,
         "TBT_ms": 0,
         "INP_ms": null
@@ -363,22 +325,14 @@
       "lighthouse_issues": [
         {
           "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio: span.text-slate-400 '106 Google reviews' at 2.56:1 (needs 4.5:1)",
+          "title": "Insufficient contrast: span.text-slate-400 (#94a3b8 on #ffffff, 14px) at 2.56:1, needs 4.5:1",
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "accessibility"
         },
         {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript: googletagmanager.com/gtag/js?id=G-G8PLTS9XDN (156KB, about 44 percent unused)",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "estimated_savings_bytes": 70269
-        },
-        {
           "id": "image-delivery-insight",
-          "title": "Improve image delivery: /brand/hero.webp served at full size with no srcset (47KB)",
+          "title": "Improve image delivery: shared /brand/hero.webp with no srcset (47KB waste)",
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance",
@@ -386,21 +340,22 @@
         },
         {
           "id": "lcp-discovery-insight",
-          "title": "LCP request discovery: inner-page hero image is missing fetchpriority=\"high\"",
+          "title": "LCP request discovery: hero image is missing fetchpriority=\"high\"",
           "severity": "low",
           "estimated_savings_ms": 0,
           "category": "performance"
         },
         {
-          "id": "forced-reflow-insight",
-          "title": "Forced reflow: 90ms of unattributed forced reflow (likely the embedded map iframe or a script reading layout)",
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript: GA4 gtag.js (G-G8PLTS9XDN, 159KB) ships ~69KB unused on first load",
           "severity": "low",
           "estimated_savings_ms": null,
-          "category": "performance"
+          "category": "performance",
+          "estimated_savings_bytes": 70300
         },
         {
           "id": "render-blocking-insight",
-          "title": "Render-blocking requests: /_astro/_slug_.A-a6aXyj.css blocks first paint; layout still emits a duplicate blocking Google Fonts stylesheet",
+          "title": "Render-blocking requests: /_astro/_slug_.A-a6aXyj.css plus the duplicate blocking Google Fonts stylesheet",
           "severity": "low",
           "estimated_savings_ms": null,
           "category": "performance"
@@ -423,20 +378,10 @@
       "onpage_issues": [
         {
           "id": "has_micromarkup_errors",
-          "title": "Structured data validation errors reported by DataForSEO (every flagged page carries an FAQPage node; the only unflagged page, /, has none; unchanged since 2026-08-27)",
+          "title": "Structured data validation errors reported by DataForSEO (isolated to the FAQPage node; unchanged since 2026-08-27; markup previously hand-validated as structurally correct)",
           "severity": "medium"
         }
-      ],
-      "onpage_metrics": {
-        "title_length": 65,
-        "description_length": 114,
-        "word_count": 1296,
-        "h1_count": 1,
-        "images": 2,
-        "broken_links": false,
-        "broken_resources": false,
-        "canonical": "https://qualitycontracting.us/service-areas/worcester-ma/"
-      }
+      ]
     },
     {
       "url": "https://staging.rankai-quality-contracting-inc.pages.dev/contact/",
@@ -450,23 +395,15 @@
         "seo": 69
       },
       "core_web_vitals": {
-        "LCP_ms": 855,
-        "CLS": 0.0044,
-        "TBT_ms": 0,
+        "LCP_ms": 869,
+        "CLS": 0.0139,
+        "TBT_ms": 28,
         "INP_ms": null
       },
       "lighthouse_issues": [
         {
-          "id": "unused-javascript",
-          "title": "Reduce unused JavaScript: googletagmanager.com/gtag/js?id=G-G8PLTS9XDN (156KB, about 44 percent unused)",
-          "severity": "low",
-          "estimated_savings_ms": null,
-          "category": "performance",
-          "estimated_savings_bytes": 70318
-        },
-        {
           "id": "image-delivery-insight",
-          "title": "Improve image delivery: /brand/hero.webp served at full size with no srcset (116KB)",
+          "title": "Improve image delivery: shared /brand/hero.webp with no srcset (116KB waste, largest single-image waste in the set)",
           "severity": "medium",
           "estimated_savings_ms": null,
           "category": "performance",
@@ -474,16 +411,24 @@
         },
         {
           "id": "lcp-discovery-insight",
-          "title": "LCP request discovery: inner-page hero image is missing fetchpriority=\"high\"",
+          "title": "LCP request discovery: hero image is missing fetchpriority=\"high\"",
           "severity": "low",
           "estimated_savings_ms": 0,
           "category": "performance"
         },
         {
-          "id": "render-blocking-insight",
-          "title": "Render-blocking requests: /_astro/_slug_.A-a6aXyj.css blocks first paint; layout still emits a duplicate blocking Google Fonts stylesheet",
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript: GA4 gtag.js (G-G8PLTS9XDN, 159KB) ships ~69KB unused on first load",
           "severity": "low",
           "estimated_savings_ms": null,
+          "category": "performance",
+          "estimated_savings_bytes": 70300
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests: /_astro/_slug_.A-a6aXyj.css plus the duplicate blocking Google Fonts stylesheet",
+          "severity": "low",
+          "estimated_savings_ms": 52,
           "category": "performance"
         },
         {
@@ -504,30 +449,20 @@
       "onpage_issues": [
         {
           "id": "has_micromarkup_errors",
-          "title": "Structured data validation errors reported by DataForSEO (every flagged page carries an FAQPage node; the only unflagged page, /, has none; unchanged since 2026-08-27)",
+          "title": "Structured data validation errors reported by DataForSEO (isolated to the FAQPage node; unchanged since 2026-08-27; markup previously hand-validated as structurally correct)",
           "severity": "medium"
         }
-      ],
-      "onpage_metrics": {
-        "title_length": 57,
-        "description_length": 103,
-        "word_count": 711,
-        "h1_count": 1,
-        "images": 2,
-        "broken_links": false,
-        "broken_resources": false,
-        "canonical": "https://qualitycontracting.us/contact/"
-      }
+      ]
     }
   ],
   "site_rollup": {
     "avg_scores": {
-      "performance": 98.0,
+      "performance": 98.2,
       "accessibility": 98.7,
       "best_practices": 100.0,
       "seo": 69.0
     },
-    "seo_score_status": "inconclusive - staging noindex artifact, re-audit after apex cutover is recorded (apex diagnostic homepage SEO 100)",
+    "seo_score_status": "inconclusive - staging noindex artifact, re-audit after apex cutover is recorded",
     "verdict": "amber",
     "url_count": 6,
     "urls_by_verdict": {
@@ -539,13 +474,13 @@
     "template_issues": [
       {
         "id": "unused-javascript",
-        "title": "Reduce unused JavaScript: GA4 gtag.js (G-G8PLTS9XDN), about 69KB unused per page. New this month",
+        "title": "Reduce unused JavaScript: GA4 gtag.js ships ~69KB unused (new this month)",
         "affected_urls": 6,
         "severity": "low"
       },
       {
         "id": "render-blocking-insight",
-        "title": "Render-blocking requests: /_astro/_slug_.A-a6aXyj.css plus a duplicate blocking Google Fonts stylesheet (still present, not fixed since 2026-08-27)",
+        "title": "Render-blocking requests: /_astro/_slug_.A-a6aXyj.css plus a duplicate blocking Google Fonts stylesheet (still present, carried over from 2026-08-27)",
         "affected_urls": 6,
         "severity": "low"
       },
@@ -563,19 +498,19 @@
       },
       {
         "id": "has_micromarkup_errors",
-        "title": "Structured data validation errors on every page carrying an FAQPage node",
+        "title": "Structured data validation errors on every page carrying a FAQPage node",
         "affected_urls": 5,
         "severity": "medium"
       },
       {
         "id": "lcp-discovery-insight",
-        "title": "Inner-page hero image is missing fetchpriority=\"high\"",
+        "title": "LCP request discovery: inner-page hero missing fetchpriority=\"high\"",
         "affected_urls": 5,
         "severity": "low"
       },
       {
         "id": "image-delivery-insight",
-        "title": "Oversized images: /brand/hero.webp (164KB) shipped with no srcset into inner-page hero slots",
+        "title": "Improve image delivery: shared /brand/hero.webp has no srcset on inner pages; team-768w.webp oversized on home",
         "affected_urls": 4,
         "severity": "medium"
       }
@@ -585,114 +520,229 @@
         "url": "https://staging.rankai-quality-contracting-inc.pages.dev/services/",
         "archetype": "services-hub",
         "verdict": "amber",
-        "main_issue": "accessibility 96 (prose tel: link 1.14:1, colour-only), tel: link text/href mismatch after call-tracking swap, 135KB avoidable image weight, FAQPage schema validation signal"
+        "main_issue": "accessibility 96 (tel: link contrast 1.14:1 against surrounding text), 134KB of avoidable image weight, FAQPage schema validation errors"
       },
       {
         "url": "https://staging.rankai-quality-contracting-inc.pages.dev/services/water-damage-restoration/",
         "archetype": "service-landing",
         "verdict": "amber",
-        "main_issue": "FAQPage schema validation signal only; scores 99/100/100; hero missing fetchpriority=\"high\""
+        "main_issue": "FAQPage schema validation errors; hero missing fetchpriority=\"high\""
       },
       {
         "url": "https://staging.rankai-quality-contracting-inc.pages.dev/services/fire-damage-restoration/",
         "archetype": "service-landing",
         "verdict": "amber",
-        "main_issue": "FAQPage schema validation signal only; scores 100/100/100; hero missing fetchpriority=\"high\""
+        "main_issue": "FAQPage schema validation errors; hero missing fetchpriority=\"high\"; performance 99; 76ms forced reflow"
       },
       {
         "url": "https://staging.rankai-quality-contracting-inc.pages.dev/contact/",
         "archetype": "contact",
         "verdict": "amber",
-        "main_issue": "FAQPage schema validation signal; 116KB avoidable weight in /brand/hero.webp, the largest single-image waste on the site"
+        "main_issue": "116KB of avoidable hero image weight, FAQPage schema validation errors, performance 99"
       }
     ]
   },
   "regression": {
     "prior_run_at": "2026-08-27T06:27:43Z",
     "score_deltas": {
-      "performance": -0.8,
+      "performance": -0.6,
       "accessibility": 0.0,
       "best_practices": 0.0,
       "seo": 0.0
     },
-    "url_regressions": [],
-    "cwv_deltas": [
+    "per_url_deltas": [
       {
         "url": "https://staging.rankai-quality-contracting-inc.pages.dev/",
-        "LCP_ms_delta": 140,
-        "CLS_delta": 0.0125
+        "score_deltas": {
+          "performance": -1,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 6,
+          "CLS": 0.0125,
+          "TBT_ms": 0
+        }
       },
       {
         "url": "https://staging.rankai-quality-contracting-inc.pages.dev/services/",
-        "LCP_ms_delta": 97,
-        "CLS_delta": 0.0008
+        "score_deltas": {
+          "performance": -1,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 113,
+          "CLS": 0.0008,
+          "TBT_ms": 0
+        }
       },
       {
         "url": "https://staging.rankai-quality-contracting-inc.pages.dev/services/water-damage-restoration/",
-        "LCP_ms_delta": 39,
-        "CLS_delta": 0.0044
+        "score_deltas": {
+          "performance": 0,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 30,
+          "CLS": 0.0044,
+          "TBT_ms": 0
+        }
       },
       {
         "url": "https://staging.rankai-quality-contracting-inc.pages.dev/services/fire-damage-restoration/",
-        "LCP_ms_delta": -4,
-        "CLS_delta": 0.0044
+        "score_deltas": {
+          "performance": 0,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 17,
+          "CLS": 0.0044,
+          "TBT_ms": 0
+        }
       },
       {
         "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/worcester-ma/",
-        "LCP_ms_delta": 80,
-        "CLS_delta": 0.001
+        "score_deltas": {
+          "performance": -1,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 111,
+          "CLS": 0.001,
+          "TBT_ms": 0
+        }
       },
       {
         "url": "https://staging.rankai-quality-contracting-inc.pages.dev/contact/",
-        "LCP_ms_delta": 102,
-        "CLS_delta": -0.0076
+        "score_deltas": {
+          "performance": -1,
+          "accessibility": 0,
+          "best_practices": 0,
+          "seo": 0
+        },
+        "cwv_deltas": {
+          "LCP_ms": 116,
+          "CLS": 0.0019,
+          "TBT_ms": 28
+        }
       }
     ],
+    "regressions_flagged": [],
     "verdict_transitions": [],
     "new_issues": [
       {
         "url": "https://staging.rankai-quality-contracting-inc.pages.dev/",
         "id": "unused-javascript",
-        "title": "Reduce unused JavaScript: googletagmanager.com/gtag/js?id=G-G8PLTS9XDN (156KB, about 44 percent unused)"
+        "title": "Reduce unused JavaScript: GA4 gtag.js (G-G8PLTS9XDN, 159KB) ships ~69KB unused on first load"
       },
       {
         "url": "https://staging.rankai-quality-contracting-inc.pages.dev/services/",
         "id": "unused-javascript",
-        "title": "Reduce unused JavaScript: googletagmanager.com/gtag/js?id=G-G8PLTS9XDN (156KB, about 44 percent unused)"
-      },
-      {
-        "url": "https://staging.rankai-quality-contracting-inc.pages.dev/services/",
-        "id": "tel_link_text_href_mismatch",
-        "title": "Rank AI check (not a DataForSEO ID): after the call-tracking swap runs, the prose tel: link displays (508) 355-3039 but still dials tel:5087568800, because its href lacks the +1 prefix the swap script matches on"
+        "title": "Reduce unused JavaScript: GA4 gtag.js (G-G8PLTS9XDN, 159KB) ships ~69KB unused on first load"
       },
       {
         "url": "https://staging.rankai-quality-contracting-inc.pages.dev/services/water-damage-restoration/",
         "id": "unused-javascript",
-        "title": "Reduce unused JavaScript: googletagmanager.com/gtag/js?id=G-G8PLTS9XDN (156KB, about 44 percent unused)"
+        "title": "Reduce unused JavaScript: GA4 gtag.js (G-G8PLTS9XDN, 159KB) ships ~69KB unused on first load"
+      },
+      {
+        "url": "https://staging.rankai-quality-contracting-inc.pages.dev/services/fire-damage-restoration/",
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow: 76ms of unattributed reflow time"
       },
       {
         "url": "https://staging.rankai-quality-contracting-inc.pages.dev/services/fire-damage-restoration/",
         "id": "unused-javascript",
-        "title": "Reduce unused JavaScript: googletagmanager.com/gtag/js?id=G-G8PLTS9XDN (156KB, about 44 percent unused)"
+        "title": "Reduce unused JavaScript: GA4 gtag.js (G-G8PLTS9XDN, 159KB) ships ~69KB unused on first load"
       },
       {
         "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/worcester-ma/",
         "id": "unused-javascript",
-        "title": "Reduce unused JavaScript: googletagmanager.com/gtag/js?id=G-G8PLTS9XDN (156KB, about 44 percent unused)"
-      },
-      {
-        "url": "https://staging.rankai-quality-contracting-inc.pages.dev/service-areas/worcester-ma/",
-        "id": "forced-reflow-insight",
-        "title": "Forced reflow: 90ms of unattributed forced reflow (likely the embedded map iframe or a script reading layout)"
+        "title": "Reduce unused JavaScript: GA4 gtag.js (G-G8PLTS9XDN, 159KB) ships ~69KB unused on first load"
       },
       {
         "url": "https://staging.rankai-quality-contracting-inc.pages.dev/contact/",
         "id": "unused-javascript",
-        "title": "Reduce unused JavaScript: googletagmanager.com/gtag/js?id=G-G8PLTS9XDN (156KB, about 44 percent unused)"
+        "title": "Reduce unused JavaScript: GA4 gtag.js (G-G8PLTS9XDN, 159KB) ships ~69KB unused on first load"
       }
     ],
     "resolved_issues": []
   },
-  "lighthouse_detail": "extracted from the standard live/json response (audits object includes details); no separate full_data pass needed",
-  "run_cost_usd": 0.0359
+  "diagnostic_apex_check": {
+    "url": "https://qualitycontracting.us/",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best_practices": 100,
+      "seo": 100
+    },
+    "core_web_vitals": {
+      "LCP_ms": 895,
+      "CLS": 0.0359,
+      "TBT_ms": 0,
+      "INP_ms": null
+    },
+    "lighthouse_issues": [
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery: header /images/logo.png is 205KB PNG rendered at h-14 with declared 36x36 (204KB waste)",
+        "severity": "medium",
+        "estimated_savings_ms": null,
+        "category": "performance",
+        "estimated_savings_bytes": 237000
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow detected",
+        "severity": "low",
+        "estimated_savings_ms": null,
+        "category": "performance"
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript: GA4 gtag.js ~68KB unused",
+        "severity": "low",
+        "estimated_savings_ms": 0,
+        "category": "performance",
+        "estimated_savings_bytes": 69706
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "severity": "low",
+        "estimated_savings_ms": null,
+        "category": "performance"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests: /_astro/_slug_.B3bBBMuK.css plus duplicate Google Fonts stylesheet",
+        "severity": "low",
+        "estimated_savings_ms": null,
+        "category": "performance"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "severity": "low",
+        "estimated_savings_ms": null,
+        "category": "performance"
+      }
+    ],
+    "onpage_flags": [
+      "low_content_rate",
+      "no_image_title",
+      "has_render_blocking_resources"
+    ]
+  },
+  "lighthouse_detail": "captured (live endpoint returns full audits; extracted from /tmp/rank-ai-audit/raw/lh-*.json)",
+  "run_cost_usd": 0.03605
 }

@@ -3,7 +3,7 @@
   "slug": "rt-olson-plumbing-heating-and-air-conditioning",
   "site": "rtolsonplumbing.com",
   "origin": "https://rtolsonplumbing.com",
-  "generated_at": "2026-09-28T23:05:18Z",
+  "generated_at": "2026-09-28T23:59:02Z",
   "gsc_enabled": false,
   "totals": {
     "total_actions": 0,
@@ -22,9 +22,10 @@
   },
   "items": [],
   "notes": [
-    "URLs skipped because already in content-queue: none",
-    "URLs where date extraction failed: none",
-    "All 120 URLs are fresh (age 0-69 days, below the 305-day aging threshold); no layer-1 flags fired.",
-    "v1 limitations: no GSC indexing flags (request_indexing and fix_canonical unreachable)"
+    "URLs skipped because already in content-queue: [] (9 active content-queue items are net-new posts with no published URL yet; none match an evaluated URL)",
+    "URLs where date extraction failed: []",
+    "All 120 URLs are fresh (age 0 to 69 days, no layer-1 flags); nothing crossed the 305-day aging threshold",
+    "Earliest URL to reach the aging threshold: /blog/drain-cleaning-diy-vs-pro/ on 2027-05-22 (date_source json_ld_date_modified)",
+    "v1 limitations: no GSC indexing flags (request_indexing and fix_canonical deferred to v2)"
   ]
 }
