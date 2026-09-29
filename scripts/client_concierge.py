@@ -10008,6 +10008,13 @@ Q "Why does the name matter so much?" A: The business name is one of the
 strongest local ranking signals. A profile named for what people type
 (24/7 emergency, water damage) shows up for those searches ahead of
 profiles with a bare brand name. It's the single biggest lever we have.
+Q "The state takes weeks / a month to make the name active." (Michael/
+Katofsky 2026-09-29) A: That's fine and normal. File it now; while the
+state processes it we put the name on the website and listings so
+everything is ready the day it goes active, and the Google change (or
+profile creation, for clients with no profile yet) happens once it's
+active. Ask them to send the filing receipt when they submit. Never
+suggest skipping or rushing the filing.
 Q "What is a DBA, do I need a lawyer?" A: A simple trade-name filing
 with the state, usually online in minutes, no lawyer needed.
 Q "Why the word Emergency?" A: It is what people type in urgent moments
@@ -10836,6 +10843,56 @@ def _rename_save(cid: str, pend: dict | None, dry_run: bool) -> None:
     kv_set(_rename_kv(cid), pend if pend else {"stage": "closed"})
 
 
+_PLUMB_DECLINE_RE = re.compile(
+    r"(?:\b(?:no|not|don'?t|dont|never|without)\b[^.?!]{0,40}plumb)|"
+    r"(?:plumb[^.?!]{0,40}\b(?:no|not)\b)|(?:not\s+licen[cs]ed)", re.I)
+_PLUMB_PUSH_RE = re.compile(r"plumb[^\n]{0,300}(?:recommend|strongly)|"
+                            r"(?:recommend|strongly)[^\n]{0,300}plumb", re.I)
+
+
+def _rename_thread_tail(contact: dict | None, n: int = 8) -> str:
+    """Last n messages, oldest first, so rename reads see pushbacks and
+    answers sent outside the rename flow (Michael/Katofsky 2026-09-29:
+    Monica pushed plumbing a second time because she only saw her own
+    last message, not Claude's pushback sent as her)."""
+    try:
+        hist = fetch_history((contact or {}).get("id"), n)
+    except Exception:  # noqa: BLE001
+        return "(unavailable)"
+    return "\n".join(f"{'CLIENT' if m['direction'] == 'in' else 'US'}: "
+                     f"{_clip(m['body'], 220)}" for m in reversed(hist))
+
+
+def _plumbing_status_line(contact: dict | None, pend: dict | None) -> str:
+    """Deterministic plumbing-pushback bookkeeping for the rename read."""
+    if (pend or {}).get("plumbing_pushback_done") or \
+            (pend or {}).get("plumbing") == "declined":
+        return ("PLUMBING STATUS: DONE. The client declined plumbing and was "
+                "already told why once. NEVER mention plumbing again; move on "
+                "with the best non-plumbing option.")
+    try:
+        hist = list(reversed(fetch_history((contact or {}).get("id"), 20)))
+    except Exception:  # noqa: BLE001
+        return ""
+    declined_at = None
+    for i, m in enumerate(hist):
+        if m["direction"] == "in" and _PLUMB_DECLINE_RE.search(m["body"] or ""):
+            declined_at = i
+            break
+    if declined_at is None:
+        return ""
+    pushed = any(m["direction"] == "out" and _PLUMB_PUSH_RE.search(m["body"] or "")
+                 for m in hist[declined_at + 1:])
+    if pushed:
+        return ("PLUMBING STATUS: DONE. The client declined plumbing and we "
+                "already gave the one pushback. NEVER mention plumbing again; "
+                "accept their choice and move on with the best non-plumbing "
+                "option.")
+    return ("PLUMBING STATUS: client declined plumbing once and has NOT had the "
+            "pushback yet: the one educational pushback is allowed now (unless "
+            "an ops note says Santino decided no plumbing for them).")
+
+
 def handle_rename_reply(company: dict, contact: dict, msg: dict,
                         state: dict, dry_run: bool) -> bool:
     """Consume a client message inside a live rename conversation. Returns
@@ -10907,6 +10964,9 @@ def handle_rename_reply(company: dict, contact: dict, msg: dict,
         f"Conversation stage: {pend.get('stage')}\n"
         f"Monica's previous message: "
         f"{_clip(str(pend.get('last_outbound') or '(none on record)'), 380)}\n"
+        f"Recent thread (oldest first; includes messages Santino/Claude sent "
+        f"as you):\n{_rename_thread_tail(contact)}\n"
+        f"{_plumbing_status_line(contact, pend)}\n"
         f"Candidate names ON RECORD:\n{cand_lines}\n\n"
         f"Client message: {(msg.get('body') or '')[:600]}")
     read = (result.get("read") or "").strip().lower()
