@@ -58,14 +58,14 @@ export const brand = {
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "4.9",
-  gbpReviewCount: "608",
+  gbpReviewCount: "609",
   gbpReviews: [
+    { author: "Shawn", rating: 5, text: "Great service and so personable. I felt very comfortable and they were so knowledgeable. I would definitely recommend!", when: "September 2026" },
     { author: "Tim", rating: 4, text: "Replaced our pressure regulator valve for main line coming into the house. Scheduled promptly, went right to work, plumbing was clean and neat. Finished in reasonable time. Plumber was polite and courteous. Despite them being from out of town, I would call them again.", when: "September 2026" },
     { author: "Minh", rating: 5, text: "This is a very reliable business if you have any plumbing problems. Good service, fair price and very prompt. I would recommend this business to everyone.", when: "September 2026" },
     { author: "Jim", rating: 5, text: "Insurance agent here. Bob is a complete pro, with a well trained staff. 5 Stars!", when: "September 2026" },
     { author: "Gina", rating: 5, text: "The most respectful company I’ve had the pleasure to work with. Everyone i either spoke with, worked with in my home was considerate, polite, thourough and on time. The pricing was fair and the work seems like it will be complete in a fair amount of time. Alfonso was AMAZING!", when: "September 2026" },
     { author: "Michelle", rating: 5, text: "I always have a great experience with RT Olson plumbing and their technicians. Today Mike came out for a routine service, he showed up on time, was extremely knowledgeable and very pleasant. I will always recommend RT Olson to others as well.", when: "September 2026" },
-    { author: "Lonnie", rating: 5, text: "Quick response, quality work and courteous.", when: "September 2026" },
   ] as { author: string; rating: number; text: string; when: string }[],
   tagline: "Plumbing, heating & air services in Corona, CA.",
   ctaLabel: "24/7 Emergency Line",
