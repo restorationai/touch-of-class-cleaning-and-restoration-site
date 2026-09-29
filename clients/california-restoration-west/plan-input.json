@@ -27,7 +27,8 @@
       "Locally Owned & Operated"
     ],
     "ga4_measurement_id": "G-5DKZE0DK8C",
-    "place_id": "ChIJx7cmNM8b-ioRFlPXDWY8C-A"
+    "place_id": "ChIJx7cmNM8b-ioRFlPXDWY8C-A",
+    "primary_color": "#dc2626"
   },
   "services": [
     "contents-restoration",
