@@ -1,0 +1,54 @@
+{
+ "items": [
+  {
+   "id": "2026-09-29-best-water-damage-restoration-in-vista-ca",
+   "status": "queued",
+   "queued_at": "2026-09-29T02:07:36Z",
+   "priority": 1,
+   "prioritized": true,
+   "content_type": "best_of_comparison",
+   "combo_key": "best-water-damage-restoration-in-vista-ca",
+   "primary_keyword": "best water damage restoration company in Vista, CA",
+   "intent": "commercial",
+   "target_word_count": 1600,
+   "city_anchor": "vista-ca",
+   "best_of": {
+    "service": "water-damage-restoration",
+    "service_pretty": "Water Damage Restoration",
+    "city": "Vista",
+    "state": "CA",
+    "competitors": [
+     {
+      "name": "Coast to Coast Restoration, Inc.",
+      "google_rating": 4.9,
+      "review_count": 50
+     },
+     {
+      "name": "All City Cleaning",
+      "google_rating": 4.6,
+      "review_count": 73
+     },
+     {
+      "name": "American Response Team",
+      "google_rating": 5,
+      "review_count": 263
+     },
+     {
+      "name": "Steampro Clean Up & Drying Services",
+      "google_rating": 5,
+      "review_count": 21
+     }
+    ]
+   },
+   "fan_out_cluster": [
+    "best water damage restoration companies Vista",
+    "top rated water damage restoration Vista CA",
+    "who is the best water damage restoration company in Vista",
+    "water damage cleanup Vista",
+    "water cleanup Vista",
+    "water removal Vista"
+   ],
+   "source": "best-of-seeder"
+  }
+ ]
+}
