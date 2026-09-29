@@ -1158,6 +1158,33 @@
    "secondary_keywords": [],
    "tier": "adjacent",
    "priority": 5
+  },
+  {
+   "slug": "content-recovery",
+   "display_name": "Content Recovery",
+   "short_name": "Content Recovery",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [],
+   "tier": "adjacent",
+   "priority": 5
+  },
+  {
+   "slug": "environmental-consultants",
+   "display_name": "Environmental Consultants",
+   "short_name": "Environmental Consultants",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [],
+   "tier": "adjacent",
+   "priority": 5
+  },
+  {
+   "slug": "ice-dams",
+   "display_name": "Ice Dams",
+   "short_name": "Ice Dams",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [],
+   "tier": "adjacent",
+   "priority": 5
   }
  ]
 }

@@ -35,7 +35,11 @@
     "water-damage-restoration",
     "sewage-cleanup",
     "water-cleanup",
-    "fire-damage-restoration"
+    "fire-damage-restoration",
+    "content-recovery",
+    "emergency-board-up",
+    "environmental-consultants",
+    "ice-dams"
   ],
   "service_areas": [
     {

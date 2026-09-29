@@ -1,20 +1,20 @@
 # Site Plan Report — Flood Solutions inc
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-24T23:50:22.807522+00:00
+- Generated: 2026-09-29T23:32:21.803686+00:00
 - Domain: `floodsolutionsinc.com`
-- Services selected: 18 of 65 catalog entries
+- Services selected: 22 of 91 catalog entries
 - Service areas: 9
 - Cross-product enabled: True
-- Total URLs: **187**
-- Total internal links: 1499 (avg 8.0 per page)
+- Total URLs: **223**
+- Total internal links: 1803 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 144 |
-| `service-landing` | 18 |
+| `service-area-service` | 176 |
+| `service-landing` | 22 |
 | `service-area` | 8 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -31,6 +31,10 @@
 - `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
+- `content-recovery` — Content Recovery (adjacent, priority 5)
+- `emergency-board-up` — Emergency Board Up (adjacent, priority 5)
+- `environmental-consultants` — Environmental Consultants (adjacent, priority 5)
+- `ice-dams` — Ice Dams (adjacent, priority 5)
 - `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
 - `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
 - `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
