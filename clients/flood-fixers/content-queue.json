@@ -1067,7 +1067,7 @@
     },
     {
       "id": "2026-09-10-commercial-water-damage-restoration-san-diego",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-10T20:15:00Z",
       "written_at": "2026-09-29T22:34:15Z",
       "post_url": "https://flood-fixers.com/blog/commercial-water-damage-restoration-san-diego/",
@@ -1101,7 +1101,8 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Highest-volume gap in the whole commercial family (590/mo, KD 15) and the site has zero commercial service pages: the only commercial asset is /blog/commercial-water-damage-business-continuity/. Write for the decision maker, not the homeowner: multi-tenant shutoffs, after-hours response, documenting loss for a commercial carrier, phased drying so part of the building stays open. Break out by property type (office, retail, restaurant, warehouse, multifamily) so the property-type long tail in the bank has a landing spot. Link the burst pipe and reconstruction service pages: commercial losses almost always run through rebuild."
+      "notes": "Highest-volume gap in the whole commercial family (590/mo, KD 15) and the site has zero commercial service pages: the only commercial asset is /blog/commercial-water-damage-business-continuity/. Write for the decision maker, not the homeowner: multi-tenant shutoffs, after-hours response, documenting loss for a commercial carrier, phased drying so part of the building stays open. Break out by property type (office, retail, restaurant, warehouse, multifamily) so the property-type long tail in the bank has a landing spot. Link the burst pipe and reconstruction service pages: commercial losses almost always run through rebuild.",
+      "published_verified_at": "2026-09-29T22:34:47Z"
     },
     {
       "id": "2026-09-10-does-commercial-property-insurance-cover-water-damage",
