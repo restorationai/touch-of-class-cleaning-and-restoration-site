@@ -52,6 +52,7 @@ import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -121,6 +122,21 @@ def open_devs() -> list[dict]:
 def _note(company_id: str, body: str) -> None:
     _sb("POST", "/rest/v1/marketing_ops_notes",
         {"company_id": company_id, "body": body})
+
+
+def _handback_on_file(company_id: str, kind: str, task_text: str) -> bool:
+    """True when an OPEN handback row of this kind already quotes the same
+    task text for this client (2026-09-29: the dev agent drained 4 identical
+    [SERVICE RIPPLE] re-files and filed 4 identical review / NEEDS INPUT
+    rows each, ~200 of Santino's 981 open TODOs). One row per task text."""
+    try:
+        rows = _sb("GET", "/rest/v1/marketing_ops_notes?status=eq.open"
+                   f"&company_id=eq.{company_id}&body=like.{quote(kind + '*')}"
+                   "&select=body&limit=500") or []
+    except Exception:  # noqa: BLE001 - dedupe is best-effort
+        return False
+    needle = f"(task was: {task_text})"
+    return any(needle in (r.get("body") or "") for r in rows)
 
 
 _CODE_FILE_RE = re.compile(
@@ -238,7 +254,12 @@ def main() -> int:
     now = datetime.now(timezone.utc).isoformat()
     _sb("PATCH", f"/rest/v1/marketing_ops_notes?id=eq.{a.id}",
         {"status": "resolved", "resolved_at": now})
-    if a.cmd == "done":
+    task_text = note["body"][:120]
+    if a.cmd == "done" and not origin and _handback_on_file(
+            note["company_id"], "[TODO-SANTINO] Review: dev agent finished",
+            task_text):
+        print("resolved (identical review row already open, not re-filed)")
+    elif a.cmd == "done":
         _note(note["company_id"],
               f"[TODO-SANTINO] Review: dev agent finished — {a.summary} "
               f"(task was: {note['body'][:120]}) Hit Done after you eyeball it."
@@ -268,6 +289,9 @@ def main() -> int:
                  f"Website work completed: {client_line[:150]}",
                  {"note_id": a.id, "summary": a.summary[:200],
                   "client_line": client_line})
+    elif _handback_on_file(note["company_id"],
+                           "[TODO-SANTINO] Dev agent NEEDS INPUT", task_text):
+        print("resolved (identical NEEDS INPUT row already open, not re-filed)")
     else:
         _note(note["company_id"],
               f"[TODO-SANTINO] Dev agent NEEDS INPUT: {a.reason} "
