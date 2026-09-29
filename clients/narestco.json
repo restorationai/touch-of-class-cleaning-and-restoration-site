@@ -24,7 +24,7 @@
   },
   "status": "active",
   "created_at": "2026-05-10T03:18:58.761481+00:00",
-  "updated_at": "2026-09-28T22:02:28Z",
+  "updated_at": "2026-09-29T20:57:57.798351+00:00",
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
@@ -40,7 +40,7 @@
     "url_count": 1010,
     "pages_status": "exists",
     "last_rendered_at": "2026-09-24T23:44:12.773358+00:00",
-    "last_pushed_main_at": "2026-09-28T02:58:11.461133+00:00",
+    "last_pushed_main_at": "2026-09-29T20:57:57.798335+00:00",
     "last_pushed_staging_at": "2026-09-14T16:03:52.203683+00:00"
   },
   "build_status": "pushed_main",
@@ -86,7 +86,7 @@
     {
       "key": "lsa_not_serving",
       "title": "Google LSA not serving (verification stalled)",
-      "detail": "Local Services Ads aren't showing despite high bids/budget. Verification/background-check artifacts pending — needs manual follow-up with Google LSA support.",
+      "detail": "Local Services Ads aren't showing despite high bids/budget. Verification/background-check artifacts pending \u2014 needs manual follow-up with Google LSA support.",
       "severity": "high",
       "system": "ads",
       "status": "open"

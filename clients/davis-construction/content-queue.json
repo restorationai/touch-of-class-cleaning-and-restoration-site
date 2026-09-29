@@ -1358,7 +1358,7 @@
     },
     {
       "id": "2026-09-19-do-i-need-a-permit-to-remodel-a-kitchen",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-19T00:05:00Z",
       "written_at": "2026-09-29T20:28:11Z",
       "post_url": "https://davisconstructioncontractors.com/blog/do-i-need-a-permit-to-remodel-a-kitchen/",
@@ -1396,7 +1396,8 @@
         "https://www.nkba.org/"
       ],
       "source": "keyword-researcher s1 seed=kitchen remodel",
-      "notes": "High-value decision-stage query with almost no local competition. Be concrete about the Madison, Huntsville and Limestone County permit paths, and be clear on the common trigger line: cosmetic swaps usually do not need a permit, but moving plumbing, gas or electrical does. State plainly that the contractor should pull the permit. Practical tone, no alarmism."
+      "notes": "High-value decision-stage query with almost no local competition. Be concrete about the Madison, Huntsville and Limestone County permit paths, and be clear on the common trigger line: cosmetic swaps usually do not need a permit, but moving plumbing, gas or electrical does. State plainly that the contractor should pull the permit. Practical tone, no alarmism.",
+      "published_verified_at": "2026-09-29T20:30:41Z"
     },
     {
       "id": "2026-09-19-how-much-value-does-a-kitchen-remodel-add",
