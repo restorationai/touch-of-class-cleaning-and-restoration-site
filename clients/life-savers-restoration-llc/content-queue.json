@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-28-case-study-AbFvOqm0xA2_1ROX",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-28T22:29:28Z",
       "priority": 1,
       "prioritized": true,
@@ -18,7 +18,9 @@
         "review_text": "Excellent and professional technicians, whom came in assessed the damages and got to work in a very well planned timeline. Although the fans are very noisy, we would have to watch out for any kind of water flow if there\u2019s any water you used with tubes.",
         "review_date": "2026-09-20"
       },
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-29T22:41:08Z",
+      "post_url": "https://lifesaversrestorationvegas.com/blog/.md/"
     },
     {
       "id": "2026-09-14-who-to-call-for-water-damage-restoration-in-henderson-nv",
