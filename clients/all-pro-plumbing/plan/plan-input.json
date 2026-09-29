@@ -221,11 +221,6 @@
       "slug": "lamont-ca"
     },
     {
-      "city": "Tarina",
-      "state": "CA",
-      "slug": "tarina-ca"
-    },
-    {
       "city": "Weedpatch",
       "state": "CA",
       "slug": "weedpatch-ca"
@@ -269,11 +264,6 @@
       "city": "Valley Acres",
       "state": "CA",
       "slug": "valley-acres-ca"
-    },
-    {
-      "city": "Woody",
-      "state": "CA",
-      "slug": "woody-ca"
     },
     {
       "city": "Stallion Springs",
