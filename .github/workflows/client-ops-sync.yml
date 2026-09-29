@@ -191,6 +191,11 @@ jobs:
           # Site-photo parity lane write gate (unset = report mode).
           GBP_SITE_PHOTOS_WRITE:     ${{ vars.GBP_SITE_PHOTOS_WRITE }}
           GBP_SITE_PHOTOS_WEEKLY_CAP: ${{ vars.GBP_SITE_PHOTOS_WEEKLY_CAP }}
+          # GBP cover-from-site-hero (2026-09-29): unset = report mode
+          GBP_COVER_SYNC_WRITE:      ${{ vars.GBP_COVER_SYNC_WRITE }}
+          # its hero-branding / cover-kind vision checks; scoped to that loop
+          # only (other scripts in this step keep running without the key)
+          GBP_COVER_ANTHROPIC_KEY:   ${{ secrets.ANTHROPIC_API_KEY }}
           # The watchdog's alert SMS rides the concierge ops-ping path.
           GHL_API_KEY:               ${{ secrets.GHL_API_KEY }}
           GHL_LOCATION_ID:           ${{ secrets.GHL_LOCATION_ID }}
@@ -259,6 +264,20 @@ jobs:
           # GBP_SITE_PHOTOS_WRITE=1 (--apply alone never writes).
           for s in $(python3 scripts/gbp_site_media.py list-due | python3 -c "import json,sys; print(' '.join(json.load(sys.stdin)))"); do
             timeout 240 python3 scripts/gbp_site_media.py run --slug "$s" --apply || echo "gbp_site_media $s failed (non-fatal)"
+          done
+          # GBP COVER FROM SITE HERO (2026-09-29, Santino: "the RX hero as
+          # the cover looks great, do it for every client"): per client (one
+          # process + timeout each, LAW 09-19), after the site-assets mirror
+          # above is fresh: smart-crop the site hero to exact 16:9
+          # (1920x1080, else 1280x720) and set it as the GBP COVER when there
+          # is no cover, the cover is ours, or the owner's cover is a graphic.
+          # Owner-uploaded real photos, app-picked covers and AI heroes with
+          # invented branding are reported, never replaced; unverified
+          # profiles wait for verification. A new hero sha1 re-applies;
+          # ledger ops_kv gbp-cover-sync/{cid}. Writes need repo variable
+          # GBP_COVER_SYNC_WRITE=1 (--apply alone never writes).
+          for s in $(python3 scripts/gbp_cover_sync.py list-due | python3 -c "import json,sys; print(' '.join(json.load(sys.stdin)))"); do
+            ANTHROPIC_API_KEY="$GBP_COVER_ANTHROPIC_KEY" timeout 240 python3 scripts/gbp_cover_sync.py run --slug "$s" --apply || echo "gbp_cover_sync $s failed (non-fatal)"
           done
           # GBP PROFILE PLANNER TICK (2026-09-28): per applied plan, refresh
           # verification status (records verified_at, pushes queued photos on
