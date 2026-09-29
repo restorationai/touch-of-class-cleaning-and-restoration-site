@@ -1,20 +1,20 @@
 # Site Plan Report — Dry1 Out Restoration and Construction
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-29T14:31:47.670564+00:00
+- Generated: 2026-09-29T23:31:28.211553+00:00
 - Domain: `dry1out.com`
-- Services selected: 25 of 65 catalog entries
+- Services selected: 36 of 88 catalog entries
 - Service areas: 20
 - Cross-product enabled: True
-- Total URLs: **540**
-- Total internal links: 4434 (avg 8.2 per page)
+- Total URLs: **760**
+- Total internal links: 6284 (avg 8.3 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 475 |
-| `service-landing` | 25 |
+| `service-area-service` | 684 |
+| `service-landing` | 36 |
 | `service-area` | 19 |
 | `blog-post` | 12 |
 | `legal` | 3 |
@@ -39,6 +39,17 @@
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
+- `24-7-emergency-water-damage-restoration` — 24/7 Emergency Water Damage Restoration (adjacent, priority 5)
+- `appliance-leak-cleanup` — Appliance Leak Cleanup (specialty, priority 6)
+- `basement-sewage-cleanup` — Basement Sewage Cleanup (adjacent, priority 5)
+- `blood-cleanup` — Blood Cleanup (adjacent, priority 5)
+- `burst-pipe-water-damage-cleanup` — Burst Pipe Water Damage Cleanup (adjacent, priority 5)
+- `carpet-water-extraction` — Carpet Water Extraction (adjacent, priority 5)
+- `category-3-water-cleanup` — Category 3 Water Cleanup (adjacent, priority 5)
+- `emergency-board-up` — Emergency Board Up (adjacent, priority 5)
+- `emergency-board-ups` — Emergency Board Ups (adjacent, priority 5)
+- `vandalism-damage-cleanup-and-repair` — Vandalism Damage Cleanup and Repair (adjacent, priority 5)
+- `vehicle-impact-damage-repair` — Vehicle Impact Damage Repair (adjacent, priority 5)
 - `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
 - `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
 - `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)

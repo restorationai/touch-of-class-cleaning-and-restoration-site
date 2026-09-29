@@ -45,7 +45,18 @@
     "sewage-cleanup",
     "storm-damage-restoration",
     "water-cleanup",
-    "water-damage-restoration"
+    "water-damage-restoration",
+    "24-7-emergency-water-damage-restoration",
+    "appliance-leak-cleanup",
+    "basement-sewage-cleanup",
+    "blood-cleanup",
+    "burst-pipe-water-damage-cleanup",
+    "carpet-water-extraction",
+    "category-3-water-cleanup",
+    "emergency-board-up",
+    "emergency-board-ups",
+    "vandalism-damage-cleanup-and-repair",
+    "vehicle-impact-damage-repair"
   ],
   "blog_seed_count": 12,
   "service_areas": [

@@ -1076,6 +1076,88 @@
    "secondary_keywords": [],
    "tier": "adjacent",
    "priority": 5
+  },
+  {
+   "slug": "24-7-emergency-water-damage-restoration",
+   "display_name": "24/7 Emergency Water Damage Restoration",
+   "short_name": "24/7 Emergency Water",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [],
+   "tier": "adjacent",
+   "priority": 5
+  },
+  {
+   "slug": "blood-cleanup",
+   "display_name": "Blood Cleanup",
+   "short_name": "Blood Cleanup",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [],
+   "tier": "adjacent",
+   "priority": 5,
+   "content_guardrails": "sensitive"
+  },
+  {
+   "slug": "burst-pipe-water-damage-cleanup",
+   "display_name": "Burst Pipe Water Damage Cleanup",
+   "short_name": "Burst Pipe Water",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [],
+   "tier": "adjacent",
+   "priority": 5
+  },
+  {
+   "slug": "carpet-water-extraction",
+   "display_name": "Carpet Water Extraction",
+   "short_name": "Carpet Water Extraction",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [],
+   "tier": "adjacent",
+   "priority": 5
+  },
+  {
+   "slug": "category-3-water-cleanup",
+   "display_name": "Category 3 Water Cleanup",
+   "short_name": "Category 3 Water",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [],
+   "tier": "adjacent",
+   "priority": 5
+  },
+  {
+   "slug": "emergency-board-up",
+   "display_name": "Emergency Board Up",
+   "short_name": "Emergency Board Up",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [],
+   "tier": "adjacent",
+   "priority": 5
+  },
+  {
+   "slug": "emergency-board-ups",
+   "display_name": "Emergency Board Ups",
+   "short_name": "Emergency Board Ups",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [],
+   "tier": "adjacent",
+   "priority": 5
+  },
+  {
+   "slug": "vandalism-damage-cleanup-and-repair",
+   "display_name": "Vandalism Damage Cleanup and Repair",
+   "short_name": "Vandalism Damage Cleanup",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [],
+   "tier": "adjacent",
+   "priority": 5
+  },
+  {
+   "slug": "vehicle-impact-damage-repair",
+   "display_name": "Vehicle Impact Damage Repair",
+   "short_name": "Vehicle Impact Damage",
+   "primary_intent": "local_specialty",
+   "secondary_keywords": [],
+   "tier": "adjacent",
+   "priority": 5
   }
  ]
 }
