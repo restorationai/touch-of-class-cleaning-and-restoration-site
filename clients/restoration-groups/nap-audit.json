@@ -1,6 +1,6 @@
 {
   "slug": "restoration-groups",
-  "checked_at": "2026-09-29T19:37:31.019880+00:00",
+  "checked_at": "2026-09-29T20:06:23.328383+00:00",
   "canonical": {
     "name": "The Restoration Group",
     "phone": "(855) 650-7422",
@@ -47,26 +47,14 @@
     {
       "platform": "yelp",
       "url": "https://www.yelp.com/biz/the-restoration-group-highland-park",
-      "status": "ok",
-      "fetch": "google_serp_snippet",
-      "phones_found": [
-        "(973) 587-2139"
-      ],
-      "phone_match": false,
-      "address_match": null,
-      "notes": "via Google snippet (page bot-blocked); canonical phone absent; page shows (973) 587-2139; canonical street address not found on page"
+      "status": "unverified",
+      "notes": "unverifiable \u2014 every fetch tier failed (http 403; dfs_content_parsing Page content is empty; google_serp_snippet: page not indexed; wayback: no 200 capture)"
     },
     {
       "platform": "facebook",
       "url": "https://www.facebook.com/KenilworthTAP/posts/mike-young-from-the-restoration-group-located-in-kenilworth-was-honored-with-the/879540930853556/",
-      "status": "ok",
-      "fetch": "google_serp_snippet",
-      "phones_found": [
-        "(302) 664-1700"
-      ],
-      "phone_match": false,
-      "address_match": null,
-      "notes": "via Google snippet (page bot-blocked); canonical phone absent; page shows (302) 664-1700; canonical street address not found on page"
+      "status": "unverified",
+      "notes": "unverifiable \u2014 every fetch tier failed (http 400; dfs_content_parsing Page content is empty; google_serp_snippet: page not indexed; wayback: no 200 capture)"
     },
     {
       "platform": "homeguide",
@@ -94,18 +82,6 @@
       "platform": "gbp-profile",
       "target": "gbp-profile",
       "title": "Fix business name on gbp-profile"
-    },
-    {
-      "kind": "phone",
-      "platform": "yelp",
-      "target": "https://www.yelp.com/biz/the-restoration-group-highland-park",
-      "title": "Fix wrong phone number on yelp"
-    },
-    {
-      "kind": "phone",
-      "platform": "facebook",
-      "target": "https://www.facebook.com/KenilworthTAP/posts/mike-young-from-the-restoration-group-located-in-kenilworth-was-honored-with-the/879540930853556/",
-      "title": "Fix wrong phone number on facebook"
     },
     {
       "kind": "phone",
