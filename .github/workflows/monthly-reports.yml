@@ -32,31 +32,14 @@ jobs:
           git config user.email "ops@restorationai.io"
           git config user.name "Rank AI Bot"
 
-      - name: Restore Ads token file (narestco reports need Ads spend data)
-        env:
-          NARESTCO_ADS_TOKEN: ${{ secrets.NARESTCO_ADS_TOKEN }}
-        run: |
-          # 08-01 failure: narestco's publish exits 1 in CI with no Ads creds
-          # (build_ads_client falls back to this per-client token file, which
-          # is gitignored). Same restore pattern as GSC_AGENCY_TOKEN.
-          if [ -n "$NARESTCO_ADS_TOKEN" ]; then
-            printf '%s' "$NARESTCO_ADS_TOKEN" > clients/narestco/.ads-token.json
-          fi
-
-      - name: Generate, publish and notify per-client reports
-        env:
-          SUPABASE_URL:               ${{ secrets.SUPABASE_URL }}
-          SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-          SENDGRID_API_KEY:           ${{ secrets.SENDGRID_API_KEY }}
-        run: |
-          # client_report.py was refactored 2026-08-31 to --all/--period/--notify
-          # (generate + publish + email link + Monica note in one pass). The old
-          # 'publish'/'send'/'portfolio' subcommands no longer exist — calling
-          # them rc=2'd every client, which is why the Aug 1 and Sep 1 runs
-          # failed and clients missed two monthly reports (found by the
-          # pipeline watchdog 2026-09-17).
-          PERIOD=$(python3 -c "from datetime import date, timedelta; print((date.today().replace(day=1)-timedelta(days=1)).strftime('%Y-%m'))")
-          python3 scripts/client_report.py --all --period "$PERIOD" --notify
+      # Client monthly reports are NOT generated here. client-reports.yml
+      # (1st, 16:00 UTC) owns generate + publish + --notify (email + Monica
+      # note) and delivered August on 09-01. This workflow's old report steps
+      # called the pre-08-31 publish/send/portfolio subcommands (rc=2, the
+      # 08-01 and 09-01 failures); the 09-17 "fix" swapped them for a second
+      # `client_report.py --all --notify`, which would have emailed + texted
+      # every client TWICE on 10-01 (one hour apart). Removed 09-29: one
+      # canonical sender. This job keeps the monthly side-jobs only.
 
       - name: Wrong-page ranks check (queries stuck on home/blog + unserved-area demand)
         env:
