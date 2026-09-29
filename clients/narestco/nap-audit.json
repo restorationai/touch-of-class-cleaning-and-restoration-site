@@ -1,6 +1,6 @@
 {
   "slug": "narestco",
-  "checked_at": "2026-09-29T17:57:34.528949+00:00",
+  "checked_at": "2026-09-29T18:36:05.048028+00:00",
   "canonical": {
     "name": "National Restoration Construction",
     "phone": "(206) 883-0333",
@@ -81,8 +81,12 @@
     {
       "platform": "angi",
       "url": "https://www.angi.com/companylist/us/wa/federal-way/national-restoration-construction-llc-reviews-1.htm",
-      "status": "unverified",
-      "notes": "unverifiable \u2014 every fetch tier failed (http 403; dfs_content_parsing Page content is empty; google_serp_snippet: page not indexed; wayback: no 200 capture)"
+      "status": "ok",
+      "fetch": "google_serp_snippet",
+      "phones_found": [],
+      "phone_match": null,
+      "address_match": null,
+      "notes": "via Google snippet (page bot-blocked); no phone number found on page; canonical street address not found on page"
     },
     {
       "platform": "houzz",
@@ -95,7 +99,7 @@
         "(888) 610-7168",
         "(800) 340-9610",
         "(888) 316-6960",
-        "(714) 689-6633"
+        "(222) 743-9534"
       ],
       "phone_match": true,
       "address_match": true,

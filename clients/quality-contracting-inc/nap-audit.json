@@ -1,6 +1,6 @@
 {
   "slug": "quality-contracting-inc",
-  "checked_at": "2026-09-29T17:58:49.601146+00:00",
+  "checked_at": "2026-09-29T18:38:11.154538+00:00",
   "canonical": {
     "name": "Quality Contracting, Inc.",
     "phone": "(508) 756-8800",
@@ -49,14 +49,8 @@
     {
       "platform": "yelp",
       "url": "https://www.yelp.com/biz/quality-contracting-auburn",
-      "status": "ok",
-      "fetch": "google_serp_snippet",
-      "phones_found": [
-        "(508) 756-8800"
-      ],
-      "phone_match": true,
-      "address_match": true,
-      "notes": "via Google snippet (page bot-blocked)"
+      "status": "unverified",
+      "notes": "unverifiable \u2014 every fetch tier failed (http 403; dfs_content_parsing Page content is empty; google_serp_snippet: page not indexed; wayback: no 200 capture)"
     },
     {
       "platform": "porch",
