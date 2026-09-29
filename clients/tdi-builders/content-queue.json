@@ -3,7 +3,7 @@
   "items": [
     {
       "id": "2026-09-23-best-water-damage-restoration-in-sacramento-ca",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-23T22:26:10Z",
       "priority": 1,
       "prioritized": true,
@@ -89,7 +89,8 @@
           "context": "heast Sacramento shows 4.8 stars across 43 reviews. All four have built their names primar",
           "reason": "listicle review-count 43 (competitor stat \u2014 verify it is not presented as ours)"
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-29T22:55:55Z"
     },
     {
       "id": "2026-09-06-fire-smoke-restoration",
