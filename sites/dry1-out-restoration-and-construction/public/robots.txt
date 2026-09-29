@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dry1out.com/sitemap-index.xml

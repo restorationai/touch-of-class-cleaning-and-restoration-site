@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Water Leak Detection in El Cajon, CA | Dry1 Out Restoration and Construction"
+h1: "Water Leak Detection in El Cajon"
+meta_description: "24/7 water leak detection in El Cajon, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+primary_keyword: "water leak detection el cajon"
+secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection", "water leak in wall", "leak detection service"]
+search_intent: "local_emergency"
+priority: 4.9
+plan_hash: "0c55e0c010bb31b2"
+generated_at: "2026-09-29T14:31:48.432398+00:00"
+manual_override: false
+internal_links: ["/services/water-leak-detection/", "/service-areas/el-cajon-ca/", "/service-areas/el-cajon-ca/fire-damage-restoration/", "/service-areas/el-cajon-ca/mold-remediation/", "/service-areas/berkeley-ca/water-leak-detection/", "/service-areas/carlsbad-ca/water-leak-detection/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "El Cajon", "url": "/service-areas/el-cajon-ca/"}, {"name": "water-leak-detection"}]
+faq: []
+area_slug: "el-cajon-ca"
+service_slug: "water-leak-detection"
+city: "El Cajon"
+state: "CA"
+service_display: "water-leak-detection"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug dry1-out-restoration-and-construction` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Water Leak Detection in El Cajon.

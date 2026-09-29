@@ -11,7 +11,25 @@
       "sha1": "effbb7ddaa6c201c",
       "exif": {
         "taken_at": "2026:01:26 12:27:09"
-      }
+      },
+      "category": "job_progress",
+      "subject": "office with plastic containment and air movers set up",
+      "quality": 60,
+      "slots": {
+        "hero": 25,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "commercial-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Containment and drying equipment in commercial space, no people.",
+      "triaged_at": "2026-09-29T14:34:43Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipMCrThUi4dzx5AnCMv4YyBiAUo1iahf0-tx6e_Q": {
       "source": "gbp",
@@ -23,7 +41,25 @@
       "sha1": "dbb6a7d49947f6cd",
       "exif": {
         "taken_at": "2026:02:06 16:31:05"
-      }
+      },
+      "category": "job_progress",
+      "subject": "exposed ceiling joists with drying fans in home",
+      "quality": 55,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "ceiling-water-damage-repair"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Demoed ceiling with dehumidifiers, shows active water damage repair.",
+      "triaged_at": "2026-09-29T14:34:43Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipMLVslWSlW25btYWRPLcckhhi_YI-h5fy3hkLc6": {
       "source": "gbp",
@@ -35,7 +71,23 @@
       "sha1": "fde5686fcf0ad2c1",
       "exif": {
         "taken_at": "2026:01:05 06:44:37"
-      }
+      },
+      "category": "job_progress",
+      "subject": "flooded office floor with standing water near printer",
+      "quality": 55,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "commercial-restoration"
+      ],
+      "flags": [],
+      "reason": "Standing water covering commercial office floor, no crew visible.",
+      "triaged_at": "2026-09-29T14:34:43Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipMMiAU6dabvKFBo6wnI2DIzPUjZTFHQw_NYVT5b": {
       "source": "gbp",
@@ -47,7 +99,25 @@
       "sha1": "9f5236e1dde7c197",
       "exif": {
         "taken_at": "2026:06:11 22:35:53"
-      }
+      },
+      "category": "crew",
+      "subject": "technician in yellow hazmat suit boarding up fire-damaged wall",
+      "quality": 60,
+      "slots": {
+        "hero": 30,
+        "team": 60,
+        "services": 65
+      },
+      "service_slugs": [
+        "fire-damage-restoration",
+        "smoke-damage-restoration"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Worker in company gear boarding up scorched wall, real branded plywood.",
+      "triaged_at": "2026-09-29T14:34:43Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipMWM47lngP6CMpNyUq01r2ZCR3LOIGBBaA_yFxR": {
       "source": "gbp",
@@ -57,7 +127,23 @@
       "height": 804,
       "bytes": 141145,
       "sha1": "822a3a766a0f3b88",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "house exterior under reconstruction with exposed roof trusses",
+      "quality": 65,
+      "slots": {
+        "hero": 55,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "reconstruction",
+        "fire-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Home mid-rebuild with new roof framing and Lowe's wrap, no people.",
+      "triaged_at": "2026-09-29T14:34:43Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipMYQ4GCV1Agcix5GUSyY1npayc0W5aE2n0NQNzo": {
       "source": "gbp",
@@ -69,7 +155,22 @@
       "sha1": "7d3defe5118aebc6",
       "exif": {
         "taken_at": "2025:07:28 21:45:44"
-      }
+      },
+      "category": "job_progress",
+      "subject": "branded plywood boarding covering fire-damaged window",
+      "quality": 55,
+      "slots": {
+        "hero": 25,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "fire-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Company-branded board-up on charred window frame, no crew visible.",
+      "triaged_at": "2026-09-29T14:34:43Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipMZ6fyt27gsbApCGTlnNHm264aT4qYgho_w9IUv": {
       "source": "gbp",
@@ -81,7 +182,25 @@
       "sha1": "714e827d8fe9e2dc",
       "exif": {
         "taken_at": "2025:07:07 11:53:28"
-      }
+      },
+      "category": "job_progress",
+      "subject": "charred fire-damaged interior with soot and debris",
+      "quality": 45,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "fire-damage-restoration",
+        "smoke-damage-restoration"
+      ],
+      "flags": [
+        "low_res"
+      ],
+      "reason": "Dark, low-detail fire damage interior shot, limited hero appeal.",
+      "triaged_at": "2026-09-29T14:34:58Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipMcd9M0YV48Jgi094dMZTw4BEodPQO2IcZwN3D5": {
       "source": "gbp",
@@ -93,7 +212,25 @@
       "sha1": "bab61726619b90b9",
       "exif": {
         "taken_at": "2025:12:02 11:21:53"
-      }
+      },
+      "category": "crew",
+      "subject": "technician in PPE suit and respirator in gutted room",
+      "quality": 65,
+      "slots": {
+        "hero": 25,
+        "team": 70,
+        "services": 60
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "biohazard-cleanup"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Single worker posed in protective gear, clear branding-free uniform shot.",
+      "triaged_at": "2026-09-29T14:34:58Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipMfSUZo32OZiiL6lRwGmPGONLdfd4agZ31g49kD": {
       "source": "gbp",
@@ -105,7 +242,23 @@
       "sha1": "ea8c26ee38daf850",
       "exif": {
         "taken_at": "2026:01:31 19:51:09"
-      }
+      },
+      "category": "job_progress",
+      "subject": "water stain damage on ceiling around fan",
+      "quality": 60,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 70
+      },
+      "service_slugs": [
+        "ceiling-water-damage-repair",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clear ceiling water stain, good for services page illustration.",
+      "triaged_at": "2026-09-29T14:34:58Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipMgXzRvlk_GPH5s7rf8fjqXnwVpz-Sa94ZuPkIU": {
       "source": "gbp",
@@ -117,7 +270,25 @@
       "sha1": "019537d309f41649",
       "exif": {
         "taken_at": "2026:09:21 11:47:13"
-      }
+      },
+      "category": "equipment",
+      "subject": "stacked air movers in office lobby entrance",
+      "quality": 55,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Equipment stacked indoors, cluttered but shows restoration gear.",
+      "triaged_at": "2026-09-29T14:34:58Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipMkr7cLfxEGoGawTTZJXI30jWLrypnWnXmrh9di": {
       "source": "gbp",
@@ -129,7 +300,25 @@
       "sha1": "4cbf7b0f50c765f0",
       "exif": {
         "taken_at": "2026:01:28 09:49:51"
-      }
+      },
+      "category": "crew",
+      "subject": "worker in PPE removing baseboard during mold remediation",
+      "quality": 70,
+      "slots": {
+        "hero": 20,
+        "team": 60,
+        "services": 80
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Technician mid-task removing damaged material, strong services shot.",
+      "triaged_at": "2026-09-29T14:34:58Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipMldgd-lVk4kAATVJCb5i9BQbA2jrTPkNeXy5x2": {
       "source": "gbp",
@@ -141,7 +330,25 @@
       "sha1": "7c4a00017dfce069",
       "exif": {
         "taken_at": "2026:01:06 12:29:59"
-      }
+      },
+      "category": "equipment",
+      "subject": "air movers drying office carpet near desk",
+      "quality": 60,
+      "slots": {
+        "hero": 25,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "commercial-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Drying equipment in commercial office space, decent service illustration.",
+      "triaged_at": "2026-09-29T14:34:58Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipMljz9yESMs_SFBusWHpw-SoLegyG2KSpSx_s4R": {
       "source": "gbp",
@@ -153,7 +360,24 @@
       "sha1": "b39fcd6acf67f701",
       "exif": {
         "taken_at": "2026:09:06 11:19:47"
-      }
+      },
+      "category": "job_progress",
+      "subject": "carpet cleaning wand in hotel-style hallway",
+      "quality": 55,
+      "slots": {
+        "hero": 25,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-cleanup"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "POV shot of extraction wand cleaning corridor carpet, no crew visible",
+      "triaged_at": "2026-09-29T14:35:11Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipMlwKz5F_hcOZ_blAo0JeeK1kRT4st0OKUjy4d8": {
       "source": "gbp",
@@ -165,7 +389,51 @@
       "sha1": "eb16fd7d490cdfa6",
       "exif": {
         "taken_at": "2025:07:07 11:52:11"
-      }
+      },
+      "category": "job_progress",
+      "subject": "severely fire-charred hallway with debris",
+      "quality": 60,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "fire-damage-restoration",
+        "smoke-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Burned interior hallway showing extensive fire and smoke damage",
+      "triaged_at": "2026-09-29T14:35:11Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipMmo7JrOlTctYb32p2oqSJaYTpnvDDk_7mVKl2h": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMmo7JrOlTctYb32p2oqSJaYTpnvDDk_7mVKl2h.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1766829460317/job-photos/posted/gbp-AF1QipMmo7JrOlTctYb32p2oqSJaYTpnvDDk_7mVKl2h.jpg",
+      "width": 1177,
+      "height": 2560,
+      "bytes": 3425219,
+      "sha1": "7f6ae8077768d477",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "red extraction hoses across warehouse floor",
+      "quality": 65,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "commercial-restoration",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Water extraction hoses laid out in industrial warehouse racking",
+      "triaged_at": "2026-09-29T14:35:11Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipMn81s37NN_GxXqTJQXSd__H5uL6kODLCcPFE9M": {
       "source": "gbp",
@@ -177,7 +445,25 @@
       "sha1": "b0bba0e50c3c84ab",
       "exif": {
         "taken_at": "2026:09:06 10:35:20"
-      }
+      },
+      "category": "job_progress",
+      "subject": "moisture meter tool on wet bathroom tile floor",
+      "quality": 50,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [
+        "water-cleanup",
+        "water-leak-detection"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Detection tool on wet tile floor near toilet, low composition",
+      "triaged_at": "2026-09-29T14:35:11Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipMr6wo8mVRpXrmtlb08a4nNxeBq787q2lWTwirm": {
       "source": "gbp",
@@ -189,7 +475,23 @@
       "sha1": "b9c45fc8225a9c24",
       "exif": {
         "taken_at": "2026:02:06 10:40:31"
-      }
+      },
+      "category": "equipment",
+      "subject": "infrared moisture meter scanning ceiling for leak",
+      "quality": 60,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "water-leak-detection",
+        "ceiling-water-damage-repair"
+      ],
+      "flags": [],
+      "reason": "Handheld laser moisture detector reading ceiling water damage source",
+      "triaged_at": "2026-09-29T14:35:11Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipMrh16nOvluKRzTQKHycROCsGjOMYHpeNYfEo8f": {
       "source": "gbp",
@@ -201,7 +503,26 @@
       "sha1": "bff59c069d473313",
       "exif": {
         "taken_at": "2025:12:20 01:18:48"
-      }
+      },
+      "category": "crew",
+      "subject": "technician installing plywood panel in dark crawlspace",
+      "quality": 45,
+      "slots": {
+        "hero": 10,
+        "team": 45,
+        "services": 50
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter",
+        "blurry"
+      ],
+      "reason": "Worker installs board in dark moldy crawlspace, image partly blurred",
+      "triaged_at": "2026-09-29T14:35:11Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipMtWR8d9rZ_o-z-I3u3iZBWB4WomqZN4h-RVFSt": {
       "source": "gbp",
@@ -211,7 +532,25 @@
       "height": 887,
       "bytes": 2195457,
       "sha1": "3009c6a4fd54a166",
-      "exif": {}
+      "exif": {},
+      "category": "before_after",
+      "subject": "Fire-damaged hallway before, renovated hallway after",
+      "quality": 80,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [
+        "fire-damage-restoration",
+        "reconstruction"
+      ],
+      "flags": [
+        "text_overlay"
+      ],
+      "reason": "Side-by-side before/after composite with caption labels burnt in.",
+      "triaged_at": "2026-09-29T14:35:26Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipMtXjO1ZN_NhTwCHlySgwXrE04UaJCctOO4o9qm": {
       "source": "gbp",
@@ -223,7 +562,25 @@
       "sha1": "f540df577d85752e",
       "exif": {
         "taken_at": "2026:05:18 12:11:30"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Exposed roof framing with plastic containment barrier in home",
+      "quality": 55,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "reconstruction",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Interior demolition and containment setup during restoration work.",
+      "triaged_at": "2026-09-29T14:35:26Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipMvYRwVnNB0tKapwuL95iBCcrVmAlzThQ-kCYGr": {
       "source": "gbp",
@@ -235,7 +592,24 @@
       "sha1": "5860a0e3cb4a56ad",
       "exif": {
         "taken_at": "2025:11:29 07:53:33"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Worker boarding up fire-damaged building exterior at night",
+      "quality": 60,
+      "slots": {
+        "hero": 20,
+        "team": 40,
+        "services": 55
+      },
+      "service_slugs": [
+        "fire-damage-restoration"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Technician securing fire-damaged structure with plywood at night.",
+      "triaged_at": "2026-09-29T14:35:26Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipNBPnlak1oDZDYB4J_-ekKtWiTIvHbmVg1jYgM_": {
       "source": "gbp",
@@ -247,7 +621,25 @@
       "sha1": "c258259e605fc647",
       "exif": {
         "taken_at": "2026:09:06 12:13:00"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Extraction hose on wet floor amid storm debris on balcony",
+      "quality": 50,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "storm-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "First-person view of water extraction amid storm debris and clutter.",
+      "triaged_at": "2026-09-29T14:35:26Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipNBYv7yeUeHTa05EvOr6U8-E2jOA1YqkjNeMgU8": {
       "source": "gbp",
@@ -259,7 +651,25 @@
       "sha1": "bfead15878f6ae86",
       "exif": {
         "taken_at": "2025:08:27 11:01:00"
-      }
+      },
+      "category": "equipment",
+      "subject": "Air movers and containment plastic set up in room",
+      "quality": 60,
+      "slots": {
+        "hero": 25,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Drying equipment and containment barriers installed in residential room.",
+      "triaged_at": "2026-09-29T14:35:26Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipNLnY7biSM_Id4748KR3-d_N60sIbOSejiJ-l07": {
       "source": "gbp",
@@ -271,7 +681,24 @@
       "sha1": "bb0ca0b791615d5d",
       "exif": {
         "taken_at": "2026:09:21 11:47:20"
-      }
+      },
+      "category": "building",
+      "subject": "Office interior with company caution sign reading restoration in progress",
+      "quality": 50,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [
+        "commercial-restoration"
+      ],
+      "flags": [
+        "logo_card"
+      ],
+      "reason": "Company branded caution sign placed in commercial office space.",
+      "triaged_at": "2026-09-29T14:35:26Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipNRs4dpVL0_r-Lx1pyH2es41g_iHx-SzaIrBapB": {
       "source": "gbp",
@@ -283,7 +710,23 @@
       "sha1": "891429408d5aa578",
       "exif": {
         "taken_at": "2026:09:21 11:16:15"
-      }
+      },
+      "category": "fleet",
+      "subject": "Dry1Out branded van parked in lot",
+      "quality": 88,
+      "slots": {
+        "hero": 85,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "emergency-water-removal"
+      ],
+      "flags": [],
+      "reason": "Clean, sharp fleet shot with real vehicle signage, good hero candidate.",
+      "triaged_at": "2026-09-29T14:35:43Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipNV-10rWVNjYr3J59_8Dp3yb5OtAT8Q2BELSOkD": {
       "source": "gbp",
@@ -295,7 +738,25 @@
       "sha1": "7df92d33ff5e308c",
       "exif": {
         "taken_at": "2026:09:21 11:46:29"
-      }
+      },
+      "category": "equipment",
+      "subject": "Air movers and dehumidifiers staged in office lobby",
+      "quality": 70,
+      "slots": {
+        "hero": 25,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "commercial-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Stacked equipment in cluttered interior space, decent equipment/services shot.",
+      "triaged_at": "2026-09-29T14:35:43Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipNZXtRgoLpfzqTjbiuoExb744RWi8iWSaLDHnb3": {
       "source": "gbp",
@@ -305,7 +766,24 @@
       "height": 766,
       "bytes": 101169,
       "sha1": "59074652319e4463",
-      "exif": {}
+      "exif": {},
+      "category": "fleet",
+      "subject": "Large water extraction truck parked at commercial job site",
+      "quality": 80,
+      "slots": {
+        "hero": 75,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "emergency-water-removal",
+        "commercial-restoration"
+      ],
+      "flags": [],
+      "reason": "Real specialty truck with printed signage at active jobsite, strong hero option.",
+      "triaged_at": "2026-09-29T14:35:43Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipNZw8v1z4rkFrt1clX7fE5tpKI8NDhoU-VUEMjc": {
       "source": "gbp",
@@ -317,7 +795,23 @@
       "sha1": "1ecbb402a3fb75df",
       "exif": {
         "taken_at": "2026:01:31 21:42:46"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Water-damaged ceiling with collapsed drywall panel",
+      "quality": 75,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "ceiling-water-damage-repair",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Clear documentation of ceiling water damage, good services image.",
+      "triaged_at": "2026-09-29T14:35:43Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipNcFVe34mgmFP3m5O0RK6gS9WGQX4CDlkmc0BYC": {
       "source": "gbp",
@@ -329,7 +823,25 @@
       "sha1": "4a331bb56f58aec3",
       "exif": {
         "taken_at": "2025:08:29 09:52:20"
-      }
+      },
+      "category": "equipment",
+      "subject": "Dehumidifier and containment setup in bathroom",
+      "quality": 72,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 70
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-cleanup"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Equipment deployed in active bathroom drying job, solid services shot.",
+      "triaged_at": "2026-09-29T14:35:43Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipNg7wNGTooSuZELX_I1hm8plxh1H5g_jdo9DkPM": {
       "source": "gbp",
@@ -341,7 +853,55 @@
       "sha1": "06537da9790dce75",
       "exif": {
         "taken_at": "2025:12:03 13:44:53"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Technician testing moisture on mold-covered wall",
+      "quality": 65,
+      "slots": {
+        "hero": 5,
+        "team": 10,
+        "services": 75
+      },
+      "service_slugs": [
+        "mold-inspection-testing",
+        "mold-remediation"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Hand holding meter against visible mold, strong service documentation shot.",
+      "triaged_at": "2026-09-29T14:35:43Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipNjcT5k4e91MCk5L5jAiTWJOCHtoyRHPP1Dq2Ka": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNjcT5k4e91MCk5L5jAiTWJOCHtoyRHPP1Dq2Ka.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1766829460317/job-photos/posted/gbp-AF1QipNjcT5k4e91MCk5L5jAiTWJOCHtoyRHPP1Dq2Ka.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 949369,
+      "sha1": "b847d181e5385400",
+      "exif": {
+        "taken_at": "2025:12:23 17:16:02"
+      },
+      "category": "equipment",
+      "subject": "Hydroxyl generator running in cluttered living room",
+      "quality": 30,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 30
+      },
+      "service_slugs": [
+        "odor-removal"
+      ],
+      "flags": [
+        "indoor_clutter",
+        "low_res"
+      ],
+      "reason": "Dark cluttered room with equipment, poor composition and lighting.",
+      "triaged_at": "2026-09-29T14:35:57Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipNlAyA7HLSFWaQFF4IZ4mszAzTC9MSf8WQyo1z8": {
       "source": "gbp",
@@ -351,7 +911,52 @@
       "height": 769,
       "bytes": 66229,
       "sha1": "e3c8f857d60158bf",
-      "exif": {}
+      "exif": {},
+      "category": "graphic",
+      "subject": "Company logo card Dry1Out The Standard San Diego",
+      "quality": 80,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "logo_card"
+      ],
+      "reason": "Designed logo graphic, not a photo of work or crew.",
+      "triaged_at": "2026-09-29T14:35:57Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "gbp:gbp-AF1QipO04OSqqPBH4pnPTYtppbIRlWnfFbGcXfTSMFKo": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipO04OSqqPBH4pnPTYtppbIRlWnfFbGcXfTSMFKo.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1766829460317/job-photos/posted/gbp-AF1QipO04OSqqPBH4pnPTYtppbIRlWnfFbGcXfTSMFKo.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 1282551,
+      "sha1": "75e1a2f196e61b0f",
+      "exif": {
+        "taken_at": "2025:12:31 11:03:43"
+      },
+      "category": "equipment",
+      "subject": "Photo of dehumidifier and equipment on carpet, screenshot of screen",
+      "quality": 25,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "screenshot",
+        "low_res"
+      ],
+      "reason": "Screenshot of a photo showing restoration equipment, poor quality.",
+      "triaged_at": "2026-09-29T14:35:57Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipO3-1ade5NWj0lcL0qougWbRNhoDSLNXt4lcf0X": {
       "source": "gbp",
@@ -363,7 +968,25 @@
       "sha1": "5eb8b0b3cd1c850f",
       "exif": {
         "taken_at": "2026:09:06 15:15:59"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Worker boarding up damaged balcony wall with branded plywood",
+      "quality": 65,
+      "slots": {
+        "hero": 30,
+        "team": 50,
+        "services": 60
+      },
+      "service_slugs": [
+        "storm-damage-restoration",
+        "general-contracting"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Technician securing plywood with company branding, real job site work.",
+      "triaged_at": "2026-09-29T14:35:57Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipO4lY8haGzOSOftkFSn191ElQm4sMFGHAjZecXt": {
       "source": "gbp",
@@ -375,7 +998,23 @@
       "sha1": "61fbb6175fd6e6f8",
       "exif": {
         "taken_at": "2026:01:22 14:40:51"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Mold damaged drywall and flooring torn up in room",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Close-up of mold-damaged wall and flooring during remediation work.",
+      "triaged_at": "2026-09-29T14:35:57Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipOBuu7GRlzP2f5SphUna6Thzf-KXwoFMMkMR2iK": {
       "source": "gbp",
@@ -387,7 +1026,26 @@
       "sha1": "8844b5859d014d72",
       "exif": {
         "taken_at": "2025:12:02 11:21:36"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Worker in gutted hallway with construction equipment during reconstruction",
+      "quality": 50,
+      "slots": {
+        "hero": 30,
+        "team": 30,
+        "services": 55
+      },
+      "service_slugs": [
+        "reconstruction",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "people_faces",
+        "indoor_clutter"
+      ],
+      "reason": "Interior demolition/reconstruction hallway with worker and equipment visible.",
+      "triaged_at": "2026-09-29T14:35:57Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipOIvBmv9gA8Va86X3V_gYmmoo4IxXohTil-xMtw": {
       "source": "gbp",
@@ -397,7 +1055,22 @@
       "height": 1057,
       "bytes": 118831,
       "sha1": "5af2b5db3979649c",
-      "exif": {}
+      "exif": {},
+      "category": "building",
+      "subject": "Finished modern kitchen with island, no job activity",
+      "quality": 60,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [
+        "reconstruction"
+      ],
+      "flags": [],
+      "reason": "Completed renovation kitchen, no visible restoration work in progress",
+      "triaged_at": "2026-09-29T14:36:12Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipOOn_PKFcO_aaS3GS51UUa6EJffYJcbui3lj8dV": {
       "source": "gbp",
@@ -409,7 +1082,23 @@
       "sha1": "71ecdef94f2151db",
       "exif": {
         "taken_at": "2026:02:02 12:40:07"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Empty office room with plastic containment sheeting and exposed studs",
+      "quality": 55,
+      "slots": {
+        "hero": 25,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [
+        "commercial-restoration",
+        "water-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Containment setup in commercial space during remediation",
+      "triaged_at": "2026-09-29T14:36:12Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipOOwKNzwtiyw6moCqVNL1PQ0_DxN3dVWcgBXow8": {
       "source": "gbp",
@@ -421,7 +1110,23 @@
       "sha1": "488caad241e45344",
       "exif": {
         "taken_at": "2026:05:16 13:52:33"
-      }
+      },
+      "category": "equipment",
+      "subject": "Air movers, dehumidifier and containment barrier in bedroom",
+      "quality": 65,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 75
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [],
+      "reason": "Drying equipment and containment set up mid-job",
+      "triaged_at": "2026-09-29T14:36:12Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipOT9SvNZHNqc_ko8LE_-YE9I2hIjVBKex5-CoyG": {
       "source": "gbp",
@@ -433,7 +1138,23 @@
       "sha1": "f600a248d42ee966",
       "exif": {
         "taken_at": "2026:01:22 14:56:34"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Close-up of mold-stained drywall and metal stud",
+      "quality": 50,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "mold-inspection-testing"
+      ],
+      "flags": [],
+      "reason": "Close-up damage shot showing mold growth on wall material",
+      "triaged_at": "2026-09-29T14:36:12Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipOnUMRs-SiSWcgupHXjpCLCNN9TE7mgL25jLCDs": {
       "source": "gbp",
@@ -445,7 +1166,23 @@
       "sha1": "99289fffbdb1cae2",
       "exif": {
         "taken_at": "2025:07:07 11:56:04"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Interior of severely fire-damaged building with charred debris",
+      "quality": 60,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 70
+      },
+      "service_slugs": [
+        "fire-damage-restoration",
+        "smoke-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Extensive fire damage interior showing scope of destruction",
+      "triaged_at": "2026-09-29T14:36:12Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipOqArSJp-JYpI-F9QliDrElmqjHp2wSFtDa668_": {
       "source": "gbp",
@@ -470,7 +1207,23 @@
       "sha1": "a667ab7a85f7e420",
       "exif": {
         "taken_at": "2026:09:06 15:24:38"
-      }
+      },
+      "category": "job_progress",
+      "subject": "Boarded up exterior wall with company logo stenciled on plywood",
+      "quality": 55,
+      "slots": {
+        "hero": 35,
+        "team": 0,
+        "services": 45
+      },
+      "service_slugs": [
+        "storm-damage-restoration",
+        "fire-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Company-branded plywood board-up on damaged building exterior",
+      "triaged_at": "2026-09-29T14:36:12Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipP7YEc4o0V-VU7diOQlVJYLG6yTxnR44DPjYJlM": {
       "source": "gbp",
@@ -482,7 +1235,24 @@
       "sha1": "d734f238ecb7f3d9",
       "exif": {
         "taken_at": "2026:02:17 11:57:04"
-      }
+      },
+      "category": "job_progress",
+      "subject": "gloved worker handling framed artwork on furniture",
+      "quality": 45,
+      "slots": {
+        "hero": 5,
+        "team": 10,
+        "services": 30
+      },
+      "service_slugs": [
+        "post-construction-cleaning"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Content packing item, minor scene, not compelling marketing shot.",
+      "triaged_at": "2026-09-29T14:36:34Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipPC0H9Eooy3YR1RB7ssKWVrcUn7nKBUuyRqF3sq": {
       "source": "gbp",
@@ -494,7 +1264,24 @@
       "sha1": "3c3af7a3623772dd",
       "exif": {
         "taken_at": "2026:09:02 11:24:01"
-      }
+      },
+      "category": "fleet",
+      "subject": "Dry1Out branded box truck parked in lot",
+      "quality": 90,
+      "slots": {
+        "hero": 85,
+        "team": 0,
+        "services": 40
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "fire-damage-restoration",
+        "emergency-water-removal"
+      ],
+      "flags": [],
+      "reason": "Clean branded company truck, sharp and well composed.",
+      "triaged_at": "2026-09-29T14:36:34Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipPILpt6GXaA3SYnToh1GtUS8isQUhkh5cBHDiE_": {
       "source": "gbp",
@@ -506,7 +1293,25 @@
       "sha1": "d25af113b8865e65",
       "exif": {
         "taken_at": "2025:07:07 11:53:58"
-      }
+      },
+      "category": "job_progress",
+      "subject": "fire damaged closet and room with charred debris",
+      "quality": 60,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "fire-damage-restoration",
+        "smoke-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Severe fire damage scene, good documentation but cluttered dark interior.",
+      "triaged_at": "2026-09-29T14:36:34Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipPJw38Km0T31k0nHvcPoM7_0nR9ZdWI7klZvSVW": {
       "source": "gbp",
@@ -518,7 +1323,25 @@
       "sha1": "943c87be4e1e7347",
       "exif": {
         "taken_at": "2025:08:22 10:27:43"
-      }
+      },
+      "category": "job_progress",
+      "subject": "plastic containment barrier set up in living room",
+      "quality": 65,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Standard containment setup shot, useful for services page.",
+      "triaged_at": "2026-09-29T14:36:34Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipPgyET7ZulVMs4F10p3-1jfVOtiIJQTwNjL1UYA": {
       "source": "gbp",
@@ -530,7 +1353,26 @@
       "sha1": "f6e8ca0a5fd34342",
       "exif": {
         "taken_at": "2026:09:21 09:17:53"
-      }
+      },
+      "category": "crew",
+      "subject": "technician drilling into water-damaged wall interior",
+      "quality": 55,
+      "slots": {
+        "hero": 10,
+        "team": 40,
+        "services": 65
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "water-leak-detection"
+      ],
+      "flags": [
+        "people_faces",
+        "indoor_clutter"
+      ],
+      "reason": "Worker mid-task on damaged wall, decent services candidate.",
+      "triaged_at": "2026-09-29T14:36:34Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipPq010DkLZyAoRs-GRIyDx5LziaYXHADKrzDvFn": {
       "source": "gbp",
@@ -542,7 +1384,26 @@
       "sha1": "0569fcf941ea9e1d",
       "exif": {
         "taken_at": "2026:06:11 22:05:48"
-      }
+      },
+      "category": "crew",
+      "subject": "worker in yellow hazmat suit removing debris from wall",
+      "quality": 60,
+      "slots": {
+        "hero": 10,
+        "team": 50,
+        "services": 70
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "biohazard-cleanup"
+      ],
+      "flags": [
+        "people_faces",
+        "indoor_clutter"
+      ],
+      "reason": "PPE-clad worker mid-demolition, strong services shot.",
+      "triaged_at": "2026-09-29T14:36:34Z",
+      "triage_model": "claude-sonnet-5"
     },
     "web:038ce939d23727be": {
       "source": "website",
@@ -554,7 +1415,27 @@
       "height": 1174,
       "bytes": 763910,
       "sha1": "038ce939d23727be",
-      "exif": {}
+      "exif": {},
+      "category": "graphic",
+      "subject": "Marketing poster with flood and fire imagery and logo",
+      "quality": 80,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [
+        "fire-damage-restoration",
+        "flood-damage-restoration"
+      ],
+      "flags": [
+        "text_overlay",
+        "logo_card",
+        "stock_photo"
+      ],
+      "reason": "Composited marketing graphic with burnt-in text and stock imagery.",
+      "triaged_at": "2026-09-29T14:36:48Z",
+      "triage_model": "claude-sonnet-5"
     },
     "web:0aff75c4627a242d": {
       "source": "website",
@@ -566,7 +1447,23 @@
       "height": 1020,
       "bytes": 154460,
       "sha1": "0aff75c4627a242d",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Worker tarping damaged roof with trees in background",
+      "quality": 60,
+      "slots": {
+        "hero": 25,
+        "team": 30,
+        "services": 55
+      },
+      "service_slugs": [
+        "storm-damage-restoration",
+        "general-contracting"
+      ],
+      "flags": [],
+      "reason": "Real job site photo of roof tarping in progress.",
+      "triaged_at": "2026-09-29T14:36:48Z",
+      "triage_model": "claude-sonnet-5"
     },
     "web:246ade72ef0ee8f9": {
       "source": "website",
@@ -578,7 +1475,23 @@
       "height": 859,
       "bytes": 149640,
       "sha1": "246ade72ef0ee8f9",
-      "exif": {}
+      "exif": {},
+      "category": "graphic",
+      "subject": "Service area map graphic showing counties and cities",
+      "quality": 60,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay",
+        "graphic_content"
+      ],
+      "reason": "Designed map graphic, not a photograph of work or crew.",
+      "triaged_at": "2026-09-29T14:36:48Z",
+      "triage_model": "claude-sonnet-5"
     },
     "web:3cc6d1a38ad90a80": {
       "source": "website",
@@ -590,7 +1503,23 @@
       "height": 1020,
       "bytes": 236670,
       "sha1": "3cc6d1a38ad90a80",
-      "exif": {}
+      "exif": {},
+      "category": "fleet",
+      "subject": "White service truck with hose reels parked by brick building",
+      "quality": 70,
+      "slots": {
+        "hero": 60,
+        "team": 10,
+        "services": 40
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "emergency-water-removal"
+      ],
+      "flags": [],
+      "reason": "Company work truck with equipment parked on city street.",
+      "triaged_at": "2026-09-29T14:36:48Z",
+      "triage_model": "claude-sonnet-5"
     },
     "web:4f9691382dd267a2": {
       "source": "website",
@@ -602,7 +1531,25 @@
       "height": 1124,
       "bytes": 79808,
       "sha1": "4f9691382dd267a2",
-      "exif": {}
+      "exif": {},
+      "category": "crew",
+      "subject": "Workers in white protective suits on scissor lifts in warehouse",
+      "quality": 55,
+      "slots": {
+        "hero": 20,
+        "team": 60,
+        "services": 50
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "post-construction-cleaning"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Crew in PPE performing cleaning work in cluttered warehouse interior.",
+      "triaged_at": "2026-09-29T14:36:48Z",
+      "triage_model": "claude-sonnet-5"
     },
     "web:50434c25b33f6c77": {
       "source": "website",
@@ -614,7 +1561,23 @@
       "height": 1020,
       "bytes": 63866,
       "sha1": "50434c25b33f6c77",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "Severely fire-damaged kitchen with charred ceiling and appliances",
+      "quality": 65,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [
+        "fire-damage-restoration",
+        "smoke-damage-restoration"
+      ],
+      "flags": [],
+      "reason": "Real photo of fire damage aftermath in a kitchen.",
+      "triaged_at": "2026-09-29T14:36:48Z",
+      "triage_model": "claude-sonnet-5"
     },
     "web:a387716432b1b679": {
       "source": "website",
@@ -626,7 +1589,25 @@
       "height": 1020,
       "bytes": 74920,
       "sha1": "a387716432b1b679",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "room mid-remediation with air mover, ladder, plastic containment sheeting",
+      "quality": 60,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 65
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Active containment and drying setup, no crew visible.",
+      "triaged_at": "2026-09-29T14:36:57Z",
+      "triage_model": "claude-sonnet-5"
     },
     "web:a8755e9f1cfd482b": {
       "source": "website",
@@ -638,7 +1619,20 @@
       "height": 1200,
       "bytes": 100540,
       "sha1": "a8755e9f1cfd482b",
-      "exif": {}
+      "exif": {},
+      "category": "unusable",
+      "subject": "close-up of rippling pool water",
+      "quality": 40,
+      "slots": {
+        "hero": 10,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Irrelevant water texture image, no restoration content.",
+      "triaged_at": "2026-09-29T14:36:57Z",
+      "triage_model": "claude-sonnet-5"
     },
     "web:bbfc88d59f2d48b2": {
       "source": "website",
@@ -650,7 +1644,25 @@
       "height": 1020,
       "bytes": 30608,
       "sha1": "bbfc88d59f2d48b2",
-      "exif": {}
+      "exif": {},
+      "category": "job_progress",
+      "subject": "gutted bedroom with debris, ceiling fan removed, closet exposed",
+      "quality": 55,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 55
+      },
+      "service_slugs": [
+        "reconstruction",
+        "water-damage-restoration"
+      ],
+      "flags": [
+        "indoor_clutter"
+      ],
+      "reason": "Demolition-stage room showing damage remediation in progress.",
+      "triaged_at": "2026-09-29T14:36:57Z",
+      "triage_model": "claude-sonnet-5"
     },
     "web:ea6ccbb422476c00": {
       "source": "website",
@@ -662,8 +1674,29 @@
       "height": 1020,
       "bytes": 87872,
       "sha1": "ea6ccbb422476c00",
-      "exif": {}
+      "exif": {},
+      "category": "crew",
+      "subject": "two technicians in hazmat suits cleaning mechanical equipment room",
+      "quality": 65,
+      "slots": {
+        "hero": 25,
+        "team": 75,
+        "services": 80
+      },
+      "service_slugs": [
+        "mold-remediation",
+        "biohazard-cleanup",
+        "industrial-restoration"
+      ],
+      "flags": [
+        "people_faces",
+        "indoor_clutter"
+      ],
+      "reason": "PPE-clad crew performing remediation work in commercial equipment room.",
+      "triaged_at": "2026-09-29T14:36:57Z",
+      "triage_model": "claude-sonnet-5"
     }
   },
-  "slots": {}
+  "slots": {},
+  "triaged_at": "2026-09-29T14:36:57Z"
 }

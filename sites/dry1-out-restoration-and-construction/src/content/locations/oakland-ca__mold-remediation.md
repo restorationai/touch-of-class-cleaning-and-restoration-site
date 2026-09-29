@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Mold Remediation in Oakland, CA | Dry1 Out Restoration and Construction"
+h1: "Mold Remediation in Oakland"
+meta_description: "24/7 mold remediation in Oakland, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+primary_keyword: "mold remediation oakland"
+secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
+search_intent: "local_health"
+priority: 7.0
+plan_hash: "30e920b027ddd601"
+generated_at: "2026-09-29T14:31:48.340093+00:00"
+manual_override: false
+internal_links: ["/services/mold-remediation/", "/service-areas/oakland-ca/", "/service-areas/oakland-ca/fire-damage-restoration/", "/service-areas/oakland-ca/water-damage-restoration/", "/service-areas/berkeley-ca/mold-remediation/", "/service-areas/carlsbad-ca/mold-remediation/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oakland", "url": "/service-areas/oakland-ca/"}, {"name": "Mold Remediation"}]
+faq: []
+area_slug: "oakland-ca"
+service_slug: "mold-remediation"
+city: "Oakland"
+state: "CA"
+service_display: "Mold Remediation"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug dry1-out-restoration-and-construction` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Mold Remediation in Oakland.

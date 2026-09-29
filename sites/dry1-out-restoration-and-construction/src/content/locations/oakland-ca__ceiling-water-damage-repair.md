@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Ceiling Water Damage Repair in Oakland, CA | Dry1 Out Restoration and Construction"
+h1: "Ceiling Water Damage Repair in Oakland"
+meta_description: "24/7 ceiling water damage repair in Oakland, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+primary_keyword: "ceiling water damage repair oakland"
+secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
+search_intent: "local_emergency"
+priority: 5.6
+plan_hash: "4b72cf918fb3fcc8"
+generated_at: "2026-09-29T14:31:48.344619+00:00"
+manual_override: false
+internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/oakland-ca/", "/service-areas/oakland-ca/fire-damage-restoration/", "/service-areas/oakland-ca/mold-remediation/", "/service-areas/berkeley-ca/ceiling-water-damage-repair/", "/service-areas/carlsbad-ca/ceiling-water-damage-repair/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oakland", "url": "/service-areas/oakland-ca/"}, {"name": "ceiling-water-damage-repair"}]
+faq: []
+area_slug: "oakland-ca"
+service_slug: "ceiling-water-damage-repair"
+city: "Oakland"
+state: "CA"
+service_display: "ceiling-water-damage-repair"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug dry1-out-restoration-and-construction` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Ceiling Water Damage Repair in Oakland.

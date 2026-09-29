@@ -1,0 +1,5340 @@
+{
+  "/": {
+    "archetype": "home",
+    "stubs": [
+      "organization",
+      "website",
+      "local-business",
+      "aggregate-rating"
+    ],
+    "missing_stubs": []
+  },
+  "/services/": {
+    "archetype": "services-hub",
+    "stubs": [
+      "organization",
+      "website",
+      "local-business",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/": {
+    "archetype": "service-areas-hub",
+    "stubs": [
+      "organization",
+      "website",
+      "local-business",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/": {
+    "archetype": "blog-index",
+    "stubs": [
+      "website",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/about/": {
+    "archetype": "about",
+    "stubs": [
+      "organization",
+      "website",
+      "local-business",
+      "aggregate-rating",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/contact/": {
+    "archetype": "contact",
+    "stubs": [
+      "organization",
+      "website",
+      "local-business",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/biohazard-cleanup/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/crime-scene-cleanup/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/fire-damage-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/general-contracting/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/mold-inspection-testing/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/mold-remediation/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/odor-removal/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/post-construction-cleaning/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/sewage-cleanup/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/storm-damage-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/water-cleanup/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/water-damage-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/flood-damage-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/burst-pipe-repair/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/basement-flooding-cleanup/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/smoke-damage-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/commercial-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/industrial-restoration/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/reconstruction/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/large-loss-response/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/ceiling-water-damage-repair/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/water-heater-flood-cleanup/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/water-leak-detection/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/emergency-water-removal/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/services/emergency-plumbing/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-diego-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-jose-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-francisco-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oakland-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/chula-vista-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fremont-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oceanside-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/escondido-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/carlsbad-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-marcos-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/temecula-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hayward-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sunnyvale-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-clara-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/el-cajon-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/concord-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/berkeley-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/encinitas-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-cruz-ca/": {
+    "archetype": "service-area",
+    "stubs": [
+      "local-business",
+      "service",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-diego-ca/biohazard-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-diego-ca/crime-scene-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-diego-ca/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-diego-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-diego-ca/mold-inspection-testing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-diego-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-diego-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-diego-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-diego-ca/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-diego-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-diego-ca/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-diego-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-diego-ca/flood-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-diego-ca/burst-pipe-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-diego-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-diego-ca/smoke-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-diego-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-diego-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-diego-ca/reconstruction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-diego-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-diego-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-diego-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-diego-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-diego-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-diego-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-jose-ca/biohazard-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-jose-ca/crime-scene-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-jose-ca/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-jose-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-jose-ca/mold-inspection-testing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-jose-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-jose-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-jose-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-jose-ca/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-jose-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-jose-ca/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-jose-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-jose-ca/flood-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-jose-ca/burst-pipe-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-jose-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-jose-ca/smoke-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-jose-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-jose-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-jose-ca/reconstruction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-jose-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-jose-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-jose-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-jose-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-jose-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-jose-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-francisco-ca/biohazard-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-francisco-ca/crime-scene-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-francisco-ca/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-francisco-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-francisco-ca/mold-inspection-testing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-francisco-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-francisco-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-francisco-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-francisco-ca/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-francisco-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-francisco-ca/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-francisco-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-francisco-ca/flood-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-francisco-ca/burst-pipe-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-francisco-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-francisco-ca/smoke-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-francisco-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-francisco-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-francisco-ca/reconstruction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-francisco-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-francisco-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-francisco-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-francisco-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-francisco-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-francisco-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oakland-ca/biohazard-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oakland-ca/crime-scene-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oakland-ca/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oakland-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oakland-ca/mold-inspection-testing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oakland-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oakland-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oakland-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oakland-ca/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oakland-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oakland-ca/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oakland-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oakland-ca/flood-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oakland-ca/burst-pipe-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oakland-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oakland-ca/smoke-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oakland-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oakland-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oakland-ca/reconstruction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oakland-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oakland-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oakland-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oakland-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oakland-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oakland-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/chula-vista-ca/biohazard-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/chula-vista-ca/crime-scene-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/chula-vista-ca/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/chula-vista-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/chula-vista-ca/mold-inspection-testing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/chula-vista-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/chula-vista-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/chula-vista-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/chula-vista-ca/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/chula-vista-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/chula-vista-ca/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/chula-vista-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/chula-vista-ca/flood-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/chula-vista-ca/burst-pipe-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/chula-vista-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/chula-vista-ca/smoke-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/chula-vista-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/chula-vista-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/chula-vista-ca/reconstruction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/chula-vista-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/chula-vista-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/chula-vista-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/chula-vista-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/chula-vista-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/chula-vista-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fremont-ca/biohazard-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fremont-ca/crime-scene-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fremont-ca/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fremont-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fremont-ca/mold-inspection-testing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fremont-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fremont-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fremont-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fremont-ca/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fremont-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fremont-ca/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fremont-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fremont-ca/flood-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fremont-ca/burst-pipe-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fremont-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fremont-ca/smoke-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fremont-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fremont-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fremont-ca/reconstruction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fremont-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fremont-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fremont-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fremont-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fremont-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fremont-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oceanside-ca/biohazard-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oceanside-ca/crime-scene-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oceanside-ca/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oceanside-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oceanside-ca/mold-inspection-testing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oceanside-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oceanside-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oceanside-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oceanside-ca/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oceanside-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oceanside-ca/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oceanside-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oceanside-ca/flood-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oceanside-ca/burst-pipe-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oceanside-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oceanside-ca/smoke-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oceanside-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oceanside-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oceanside-ca/reconstruction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oceanside-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oceanside-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oceanside-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oceanside-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oceanside-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oceanside-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/escondido-ca/biohazard-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/escondido-ca/crime-scene-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/escondido-ca/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/escondido-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/escondido-ca/mold-inspection-testing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/escondido-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/escondido-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/escondido-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/escondido-ca/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/escondido-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/escondido-ca/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/escondido-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/escondido-ca/flood-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/escondido-ca/burst-pipe-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/escondido-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/escondido-ca/smoke-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/escondido-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/escondido-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/escondido-ca/reconstruction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/escondido-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/escondido-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/escondido-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/escondido-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/escondido-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/escondido-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/carlsbad-ca/biohazard-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/carlsbad-ca/crime-scene-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/carlsbad-ca/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/carlsbad-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/carlsbad-ca/mold-inspection-testing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/carlsbad-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/carlsbad-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/carlsbad-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/carlsbad-ca/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/carlsbad-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/carlsbad-ca/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/carlsbad-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/carlsbad-ca/flood-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/carlsbad-ca/burst-pipe-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/carlsbad-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/carlsbad-ca/smoke-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/carlsbad-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/carlsbad-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/carlsbad-ca/reconstruction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/carlsbad-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/carlsbad-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/carlsbad-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/carlsbad-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/carlsbad-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/carlsbad-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-marcos-ca/biohazard-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-marcos-ca/crime-scene-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-marcos-ca/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-marcos-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-marcos-ca/mold-inspection-testing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-marcos-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-marcos-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-marcos-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-marcos-ca/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-marcos-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-marcos-ca/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-marcos-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-marcos-ca/flood-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-marcos-ca/burst-pipe-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-marcos-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-marcos-ca/smoke-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-marcos-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-marcos-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-marcos-ca/reconstruction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-marcos-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-marcos-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-marcos-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-marcos-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-marcos-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/san-marcos-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/temecula-ca/biohazard-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/temecula-ca/crime-scene-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/temecula-ca/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/temecula-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/temecula-ca/mold-inspection-testing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/temecula-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/temecula-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/temecula-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/temecula-ca/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/temecula-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/temecula-ca/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/temecula-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/temecula-ca/flood-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/temecula-ca/burst-pipe-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/temecula-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/temecula-ca/smoke-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/temecula-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/temecula-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/temecula-ca/reconstruction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/temecula-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/temecula-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/temecula-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/temecula-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/temecula-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/temecula-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hayward-ca/biohazard-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hayward-ca/crime-scene-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hayward-ca/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hayward-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hayward-ca/mold-inspection-testing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hayward-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hayward-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hayward-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hayward-ca/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hayward-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hayward-ca/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hayward-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hayward-ca/flood-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hayward-ca/burst-pipe-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hayward-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hayward-ca/smoke-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hayward-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hayward-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hayward-ca/reconstruction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hayward-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hayward-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hayward-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hayward-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hayward-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hayward-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sunnyvale-ca/biohazard-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sunnyvale-ca/crime-scene-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sunnyvale-ca/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sunnyvale-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sunnyvale-ca/mold-inspection-testing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sunnyvale-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sunnyvale-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sunnyvale-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sunnyvale-ca/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sunnyvale-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sunnyvale-ca/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sunnyvale-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sunnyvale-ca/flood-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sunnyvale-ca/burst-pipe-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sunnyvale-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sunnyvale-ca/smoke-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sunnyvale-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sunnyvale-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sunnyvale-ca/reconstruction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sunnyvale-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sunnyvale-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sunnyvale-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sunnyvale-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sunnyvale-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sunnyvale-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-clara-ca/biohazard-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-clara-ca/crime-scene-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-clara-ca/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-clara-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-clara-ca/mold-inspection-testing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-clara-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-clara-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-clara-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-clara-ca/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-clara-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-clara-ca/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-clara-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-clara-ca/flood-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-clara-ca/burst-pipe-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-clara-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-clara-ca/smoke-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-clara-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-clara-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-clara-ca/reconstruction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-clara-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-clara-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-clara-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-clara-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-clara-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-clara-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/el-cajon-ca/biohazard-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/el-cajon-ca/crime-scene-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/el-cajon-ca/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/el-cajon-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/el-cajon-ca/mold-inspection-testing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/el-cajon-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/el-cajon-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/el-cajon-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/el-cajon-ca/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/el-cajon-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/el-cajon-ca/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/el-cajon-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/el-cajon-ca/flood-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/el-cajon-ca/burst-pipe-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/el-cajon-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/el-cajon-ca/smoke-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/el-cajon-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/el-cajon-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/el-cajon-ca/reconstruction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/el-cajon-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/el-cajon-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/el-cajon-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/el-cajon-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/el-cajon-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/el-cajon-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/concord-ca/biohazard-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/concord-ca/crime-scene-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/concord-ca/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/concord-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/concord-ca/mold-inspection-testing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/concord-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/concord-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/concord-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/concord-ca/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/concord-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/concord-ca/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/concord-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/concord-ca/flood-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/concord-ca/burst-pipe-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/concord-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/concord-ca/smoke-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/concord-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/concord-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/concord-ca/reconstruction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/concord-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/concord-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/concord-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/concord-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/concord-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/concord-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/berkeley-ca/biohazard-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/berkeley-ca/crime-scene-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/berkeley-ca/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/berkeley-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/berkeley-ca/mold-inspection-testing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/berkeley-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/berkeley-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/berkeley-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/berkeley-ca/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/berkeley-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/berkeley-ca/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/berkeley-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/berkeley-ca/flood-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/berkeley-ca/burst-pipe-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/berkeley-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/berkeley-ca/smoke-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/berkeley-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/berkeley-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/berkeley-ca/reconstruction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/berkeley-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/berkeley-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/berkeley-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/berkeley-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/berkeley-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/berkeley-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/encinitas-ca/biohazard-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/encinitas-ca/crime-scene-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/encinitas-ca/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/encinitas-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/encinitas-ca/mold-inspection-testing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/encinitas-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/encinitas-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/encinitas-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/encinitas-ca/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/encinitas-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/encinitas-ca/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/encinitas-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/encinitas-ca/flood-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/encinitas-ca/burst-pipe-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/encinitas-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/encinitas-ca/smoke-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/encinitas-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/encinitas-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/encinitas-ca/reconstruction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/encinitas-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/encinitas-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/encinitas-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/encinitas-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/encinitas-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/encinitas-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-cruz-ca/biohazard-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-cruz-ca/crime-scene-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-cruz-ca/fire-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-cruz-ca/general-contracting/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-cruz-ca/mold-inspection-testing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-cruz-ca/mold-remediation/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-cruz-ca/odor-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-cruz-ca/post-construction-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-cruz-ca/sewage-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-cruz-ca/storm-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-cruz-ca/water-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-cruz-ca/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-cruz-ca/flood-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-cruz-ca/burst-pipe-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-cruz-ca/basement-flooding-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-cruz-ca/smoke-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-cruz-ca/commercial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-cruz-ca/industrial-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-cruz-ca/reconstruction/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-cruz-ca/large-loss-response/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-cruz-ca/ceiling-water-damage-repair/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-cruz-ca/water-heater-flood-cleanup/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-cruz-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-cruz-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/santa-cruz-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/what-to-do-first-24-hours-water-damage/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/burst-pipe-emergency-checklist/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/does-homeowners-insurance-cover-water-damage/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/signs-of-hidden-mold/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/how-to-test-for-mold/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/fire-damage-restoration-process/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/choosing-a-restoration-company/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/black-mold-vs-regular-mold/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/storm-damage-insurance-claim-checklist/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/how-long-does-water-damage-restoration-take/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/mold-after-water-damage/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/blog/smoke-odor-removal-techniques/": {
+    "archetype": "blog-post",
+    "stubs": [
+      "blog-posting",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  }
+}

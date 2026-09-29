@@ -1,9 +1,35 @@
 {
- "slug": "dry1-out-restoration-and-construction",
- "display_name": "Dry1 Out Restoration and Construction",
- "domain": "dry1out.com",
- "tier": "standard",
- "vertical": "restoration",
- "contact": "Jason@dry1out.com",
- "status": "onboarding"
+  "slug": "dry1-out-restoration-and-construction",
+  "display_name": "Dry1 Out Restoration and Construction",
+  "domain": "dry1out.com",
+  "tier": "standard",
+  "vertical": "restoration",
+  "contact": "Jason@dry1out.com",
+  "status": "onboarding",
+  "plan_status": "planned",
+  "plan": {
+    "template": "restoration",
+    "template_version": "0.3.0",
+    "url_count": 540,
+    "generated_at": "2026-09-29T14:31:47.671029+00:00"
+  },
+  "updated_at": "2026-09-29T14:31:47.671037+00:00",
+  "indexnow_key": "2eb1eb31473749648b3686a6667044f6",
+  "build": {
+    "scaffolded_at": "2026-09-29T14:28:39.950220+00:00",
+    "github_repo": "restorationai/dry1-out-restoration-and-construction-site",
+    "pages_project": "rankai-dry1-out-restoration-and-construction",
+    "starter_version": "0.1.0",
+    "url_count": 500,
+    "pages_status": "created"
+  },
+  "build_status": "scaffolded",
+  "cutover_prep": {
+    "domain": "dry1out.com",
+    "harvested_at": "2026-09-29T14:48:26+00:00",
+    "url_count": 25,
+    "backlinked_count": 2,
+    "redirects_added": 20,
+    "mapped_at": "2026-09-29T14:48:37+00:00"
+  }
 }
