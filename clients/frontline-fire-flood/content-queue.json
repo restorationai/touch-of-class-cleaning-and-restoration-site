@@ -146,7 +146,7 @@
     },
     {
       "id": "2026-09-07-sewage-cleanup-remediation",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-07T10:24:01Z",
       "priority": 1,
       "content_type": "target_term",
@@ -155,7 +155,9 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "lacey-wa",
-      "source": "app target-term (onboarding-backfill)"
+      "source": "app target-term (onboarding-backfill)",
+      "written_at": "2026-09-29T22:36:18Z",
+      "post_url": "https://frontlinefireflood.com/blog/sewage-cleanup-remediation/"
     },
     {
       "id": "2026-09-07-fire-smoke-restoration",
