@@ -124,7 +124,7 @@
     },
     {
       "id": "2026-09-09-sewage-cleanup-remediation",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-09T14:41:57Z",
       "priority": 1,
       "content_type": "target_term",
@@ -133,7 +133,10 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "big-spring-tx",
-      "source": "app target-term (onboarding)"
+      "source": "app target-term (onboarding)",
+      "written_at": "2026-09-29T21:21:54Z",
+      "post_url": "https://theacs-enterprises.com/blog/sewage-cleanup-remediation/",
+      "suggested_slug": "sewage-cleanup-remediation"
     },
     {
       "id": "2026-09-09-storm-wind-damage-restoration",
