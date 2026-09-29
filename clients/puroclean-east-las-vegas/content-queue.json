@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-28-case-study-AbFvOqm8vr2mhrnZ",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-28T22:30:20Z",
       "priority": 1,
       "prioritized": true,
@@ -18,7 +18,10 @@
         "review_text": "Our experience was great! They responded quickly, they were respectful of the property, and very friendly! Unfortunately we lived in a rental and the homeowner chose not to use PuroClean. I felt the estimate was reasonable that was given.",
         "review_date": "2026-09-04"
       },
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-29T22:12:56Z",
+      "post_url": "https://purocleaneastlasvegas.com/blog/restoration-estimate-visit-case-study/",
+      "suggested_slug": "restoration-estimate-visit-case-study"
     },
     {
       "id": "2026-09-14-who-to-call-for-fire-damage-restoration-in-las-vegas-nv",
