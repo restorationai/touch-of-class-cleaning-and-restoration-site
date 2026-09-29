@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-28-case-study-AbFvOqkLk5aNHkJV",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-28T18:17:12Z",
       "priority": 1,
       "prioritized": true,
@@ -18,7 +18,9 @@
         "review_text": "The entire HomeLyft team was very professional and great to work with. They went above and beyond to provide quality customer service and quality construction work.",
         "review_date": "2026-08-30"
       },
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-29T22:36:57Z",
+      "post_url": "https://homelyft.net/blog/.md/"
     },
     {
       "id": "2026-09-11-who-to-call-for-water-damage-restoration-in-gulfport-ms",
