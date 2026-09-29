@@ -552,7 +552,7 @@
     },
     {
       "id": "2026-09-10-does-homeowners-insurance-cover-fire-damage",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-10T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -585,8 +585,7 @@
         "https://www.naic.org/consumer_home.htm"
       ],
       "notes": "Decision-stage insurance query: readers are 24 to 48 hours from hiring someone. Cover the four coverage buckets (dwelling, other structures, contents, and Additional Living Expenses), then replacement cost versus actual cash value, then the exclusions people get surprised by (arson, vacancy clauses, and the fact that firefighting water damage IS covered as part of the fire loss). Explain Assignment of Benefits plainly and tell readers to understand what rights they sign away: the ChatGPT decomposition flagged AOB as a top homeowner question and a common red flag. Note that Paul Davis writes itemized Xactimate estimates and works directly with adjusters. Left city_anchor null on purpose: this is a national policy explainer and localizing it would read absurd.",
-      "source": "keyword-researcher",
-      "banked_at": "2026-09-24T22:24:15.045811+00:00"
+      "source": "keyword-researcher"
     },
     {
       "id": "2026-09-10-what-to-throw-away-after-smoke-damage",

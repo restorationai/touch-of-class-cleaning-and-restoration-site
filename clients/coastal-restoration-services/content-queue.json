@@ -1,1012 +1,1013 @@
 {
- "items": [
-  {
-   "id": "2026-09-29-case-study-AbFvOql2hunedjh_",
-   "status": "queued",
-   "queued_at": "2026-09-29T16:36:54Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "case_study",
-   "combo_key": "case-study-AbFvOql2hunedjh_",
-   "primary_keyword": "",
-   "intent": "commercial",
-   "target_word_count": 1000,
-   "case_study": {
-    "review_id": "AbFvOql2hunedjh_Jgzu9XcUJCAxHsRSJ-KQEPh6QrJTF5T1fWRJLHzkwvpbjyQR58oqqfvHTwSNSQ",
-    "reviewer_name": "George",
-    "star_rating": 5,
-    "review_text": "Yes i highly recommend.  Coastal rushed to the scene on the weekend and promptly provided valued feedback.  We were able to move forward with our situation forthwith.  Very satisfied with outcome.",
-    "review_date": "2026-07-17"
-   },
-   "source": "best-of-seeder"
-  },
-  {
-   "id": "2026-09-15-who-to-call-for-water-damage-restoration-in-santa-maria-ca",
-   "status": "published",
-   "queued_at": "2026-09-15T15:11:50Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "who_to_call",
-   "combo_key": "who-to-call-for-water-damage-restoration-in-santa-maria-ca",
-   "primary_keyword": "who to call for water damage restoration in Santa Maria, CA",
-   "intent": "transactional",
-   "target_word_count": 1200,
-   "city_anchor": "santa-maria-ca",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Santa Maria",
-    "state": "CA",
-    "competitors": []
-   },
-   "fan_out_cluster": [
-    "who do you call for water damage restoration Santa Maria",
-    "who do I call for water damage restoration in Santa Maria",
-    "water damage restoration emergency number Santa Maria CA",
-    "water damage cleanup Santa Maria",
-    "water cleanup Santa Maria",
-    "water removal Santa Maria"
-   ],
-   "source": "best-of-seeder",
-   "written_at": "2026-09-18T12:24:51Z",
-   "post_url": "https://callcrs.com/blog/who-to-call-for-water-damage-restoration-in-santa-maria-ca/",
-   "published_verified_at": "2026-09-18T12:26:37Z"
-  },
-  {
-   "id": "2026-09-06-water-damage-and-mold-and-fire",
-   "status": "queued",
-   "queued_at": "2026-09-06T10:23:57Z",
-   "priority": 1,
-   "content_type": "target_term",
-   "combo_key": "water-damage-and-mold-and-fire",
-   "primary_keyword": "water damage and mold and fire",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "arroyo-grande-ca",
-   "source": "app target-term (onboarding-backfill)"
-  },
-  {
-   "id": "2026-08-26-water-damage-restoration-cost-ca",
-   "status": "written",
-   "queued_at": "2026-08-26T14:12:29Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "cost_guide",
-   "combo_key": "water-damage-restoration-cost-ca",
-   "primary_keyword": "water damage restoration cost CA",
-   "intent": "transactional",
-   "target_word_count": 1500,
-   "city_anchor": "santa-maria-ca",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Santa Maria",
-    "state": "CA",
-    "competitors": []
-   },
-   "fan_out_cluster": [
-    "how much does water damage restoration cost in CA",
-    "water damage restoration price CA",
-    "average cost of water damage restoration CA",
-    "water damage cleanup CA",
-    "water cleanup CA",
-    "water removal CA"
-   ],
-   "source": "best-of-seeder",
-   "written_at": "2026-08-26T14:24:04Z",
-   "post_url": "https://None/blog/water-damage-restoration-cost-ca/"
-  },
-  {
-   "id": "2026-08-07-best-water-damage-restoration-in-santa-maria-ca",
-   "status": "written",
-   "queued_at": "2026-08-07T03:42:01Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "best_of_comparison",
-   "combo_key": "best-water-damage-restoration-in-santa-maria-ca",
-   "primary_keyword": "best water damage restoration company in Santa Maria, CA",
-   "intent": "commercial",
-   "target_word_count": 1600,
-   "city_anchor": "santa-maria-ca",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Santa Maria",
-    "state": "CA",
-    "competitors": [
-     {
-      "name": "Fire & Water Damage Santa Maria",
-      "google_rating": 4.9,
-      "review_count": 56
-     },
-     {
-      "name": "SERVPRO of Santa Maria",
-      "google_rating": 4.8,
-      "review_count": 80
-     },
-     {
-      "name": "Fire Damage Santa Maria",
-      "google_rating": 4.9,
-      "review_count": 55
-     },
-     {
-      "name": "PuroClean of Santa Maria",
-      "google_rating": 5,
-      "review_count": 24
-     }
-    ]
-   },
-   "fan_out_cluster": [
-    "best water damage restoration companies Santa Maria",
-    "top rated water damage restoration Santa Maria CA",
-    "who is the best water damage restoration company in Santa Maria",
-    "water damage cleanup Santa Maria",
-    "water cleanup Santa Maria",
-    "water removal Santa Maria"
-   ],
-   "source": "best-of-seeder",
-   "written_at": "2026-08-10T17:48:52Z",
-   "post_url": "https://None/blog/best-water-damage-restoration-company-in-santa-maria-ca/",
-   "claims_flags": [
+  "items": [
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-santa-maria-ca.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "56 reviews",
-     "context": "a holds a 4.9-star Google rating across 56 reviews, making them one of the better-reviewed",
-     "reason": "claims 56 reviews but synced gbpReviewCount is 29 (allowed \u00b120%: 23-34)"
+      "id": "2026-09-29-case-study-AbFvOql2hunedjh_",
+      "status": "queued",
+      "queued_at": "2026-09-29T16:36:54Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "case_study",
+      "combo_key": "case-study-AbFvOql2hunedjh_",
+      "primary_keyword": "",
+      "intent": "commercial",
+      "target_word_count": 1000,
+      "case_study": {
+        "review_id": "AbFvOql2hunedjh_Jgzu9XcUJCAxHsRSJ-KQEPh6QrJTF5T1fWRJLHzkwvpbjyQR58oqqfvHTwSNSQ",
+        "reviewer_name": "George",
+        "star_rating": 5,
+        "review_text": "Yes i highly recommend.  Coastal rushed to the scene on the weekend and promptly provided valued feedback.  We were able to move forward with our situation forthwith.  Very satisfied with outcome.",
+        "review_date": "2026-07-17"
+      },
+      "source": "best-of-seeder"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-santa-maria-ca.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "56 reviews",
-     "context": "d losses in the Santa Maria area. With 56 reviews at 4.9 stars, they have a consistent tr",
-     "reason": "claims 56 reviews but synced gbpReviewCount is 29 (allowed \u00b120%: 23-34)"
+      "id": "2026-09-15-who-to-call-for-water-damage-restoration-in-santa-maria-ca",
+      "status": "published",
+      "queued_at": "2026-09-15T15:11:50Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "who_to_call",
+      "combo_key": "who-to-call-for-water-damage-restoration-in-santa-maria-ca",
+      "primary_keyword": "who to call for water damage restoration in Santa Maria, CA",
+      "intent": "transactional",
+      "target_word_count": 1200,
+      "city_anchor": "santa-maria-ca",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Santa Maria",
+        "state": "CA",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "who do you call for water damage restoration Santa Maria",
+        "who do I call for water damage restoration in Santa Maria",
+        "water damage restoration emergency number Santa Maria CA",
+        "water damage cleanup Santa Maria",
+        "water cleanup Santa Maria",
+        "water removal Santa Maria"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-18T12:24:51Z",
+      "post_url": "https://callcrs.com/blog/who-to-call-for-water-damage-restoration-in-santa-maria-ca/",
+      "published_verified_at": "2026-09-18T12:26:37Z"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-santa-maria-ca.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "80 Google reviews",
-     "context": "twork, holding a 4.8-star rating across 80 Google reviews, the highest review count of any compan",
-     "reason": "claims 80 reviews but synced gbpReviewCount is 29 (allowed \u00b120%: 23-34)"
+      "id": "2026-09-06-water-damage-and-mold-and-fire",
+      "status": "queued",
+      "queued_at": "2026-09-06T10:23:57Z",
+      "priority": 1,
+      "content_type": "target_term",
+      "combo_key": "water-damage-and-mold-and-fire",
+      "primary_keyword": "water damage and mold and fire",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "arroyo-grande-ca",
+      "source": "app target-term (onboarding-backfill)"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-santa-maria-ca.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "55 reviews",
-     "context": "ta Maria holds a 4.9-star rating across 55 reviews. Their name suggests a primary focus on",
-     "reason": "claims 55 reviews but synced gbpReviewCount is 29 (allowed \u00b120%: 23-34)"
+      "id": "2026-08-26-water-damage-restoration-cost-ca",
+      "status": "written",
+      "queued_at": "2026-08-26T14:12:29Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "cost_guide",
+      "combo_key": "water-damage-restoration-cost-ca",
+      "primary_keyword": "water damage restoration cost CA",
+      "intent": "transactional",
+      "target_word_count": 1500,
+      "city_anchor": "santa-maria-ca",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Santa Maria",
+        "state": "CA",
+        "competitors": []
+      },
+      "fan_out_cluster": [
+        "how much does water damage restoration cost in CA",
+        "water damage restoration price CA",
+        "average cost of water damage restoration CA",
+        "water damage cleanup CA",
+        "water cleanup CA",
+        "water removal CA"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-08-26T14:24:04Z",
+      "post_url": "https://None/blog/water-damage-restoration-cost-ca/"
     },
     {
-     "file": "src/content/blog/best-water-damage-restoration-company-in-santa-maria-ca.md",
-     "part": "body",
-     "family": "reviews",
-     "severity": "error",
-     "matched": "55 reviews",
-     "context": "suppression and water intrusion. With 55 reviews at 4.9 stars, they have a strong local",
-     "reason": "claims 55 reviews but synced gbpReviewCount is 29 (allowed \u00b120%: 23-34)"
+      "id": "2026-08-07-best-water-damage-restoration-in-santa-maria-ca",
+      "status": "written",
+      "queued_at": "2026-08-07T03:42:01Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-water-damage-restoration-in-santa-maria-ca",
+      "primary_keyword": "best water damage restoration company in Santa Maria, CA",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "santa-maria-ca",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Santa Maria",
+        "state": "CA",
+        "competitors": [
+          {
+            "name": "Fire & Water Damage Santa Maria",
+            "google_rating": 4.9,
+            "review_count": 56
+          },
+          {
+            "name": "SERVPRO of Santa Maria",
+            "google_rating": 4.8,
+            "review_count": 80
+          },
+          {
+            "name": "Fire Damage Santa Maria",
+            "google_rating": 4.9,
+            "review_count": 55
+          },
+          {
+            "name": "PuroClean of Santa Maria",
+            "google_rating": 5,
+            "review_count": 24
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best water damage restoration companies Santa Maria",
+        "top rated water damage restoration Santa Maria CA",
+        "who is the best water damage restoration company in Santa Maria",
+        "water damage cleanup Santa Maria",
+        "water cleanup Santa Maria",
+        "water removal Santa Maria"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-08-10T17:48:52Z",
+      "post_url": "https://None/blog/best-water-damage-restoration-company-in-santa-maria-ca/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-santa-maria-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "56 reviews",
+          "context": "a holds a 4.9-star Google rating across 56 reviews, making them one of the better-reviewed",
+          "reason": "claims 56 reviews but synced gbpReviewCount is 29 (allowed \u00b120%: 23-34)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-santa-maria-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "56 reviews",
+          "context": "d losses in the Santa Maria area. With 56 reviews at 4.9 stars, they have a consistent tr",
+          "reason": "claims 56 reviews but synced gbpReviewCount is 29 (allowed \u00b120%: 23-34)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-santa-maria-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "80 Google reviews",
+          "context": "twork, holding a 4.8-star rating across 80 Google reviews, the highest review count of any compan",
+          "reason": "claims 80 reviews but synced gbpReviewCount is 29 (allowed \u00b120%: 23-34)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-santa-maria-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "55 reviews",
+          "context": "ta Maria holds a 4.9-star rating across 55 reviews. Their name suggests a primary focus on",
+          "reason": "claims 55 reviews but synced gbpReviewCount is 29 (allowed \u00b120%: 23-34)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-santa-maria-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "55 reviews",
+          "context": "suppression and water intrusion. With 55 reviews at 4.9 stars, they have a strong local",
+          "reason": "claims 55 reviews but synced gbpReviewCount is 29 (allowed \u00b120%: 23-34)"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-10-water-damage-restoration-cost",
+      "status": "written",
+      "queued_at": "2026-08-10T17:42:32Z",
+      "written_at": "2026-08-17T17:58:02Z",
+      "post_url": "https://None/blog/water-damage-restoration-cost/",
+      "primary_keyword": "water damage restoration cost",
+      "intent": "commercial",
+      "volume": 880,
+      "kd": 3,
+      "fan_out_cluster": [
+        "water damage restoration cost per square foot",
+        "water damage restoration cost calculator",
+        "how much does water damage restoration cost",
+        "water damage restoration price sheet",
+        "average insurance payout for water damage",
+        "what does a water damage restoration company do"
+      ],
+      "suggested_slug": "water-damage-restoration-cost",
+      "suggested_title": "Water damage restoration cost: what Central Coast homeowners actually pay in 2026",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/service-areas/santa-maria-ca/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.cslb.ca.gov/"
+      ],
+      "notes": "Highest-volume uncovered term from this seed (880/mo, KD 3, CPC $20.21) and the url-plan has no cost page in the commercial partition. Break cost out by category 1/2/3 water and by square footage, and give a real Santa Maria / San Luis Obispo range rather than a national average. Close on the deductible-vs-out-of-pocket question: the ChatGPT decomposition shows homeowners asking what they personally owe regardless of what insurance pays.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-10-roof-leaks-in-heavy-rain",
+      "status": "written",
+      "queued_at": "2026-08-10T17:42:32Z",
+      "written_at": "2026-08-31T22:32:24Z",
+      "post_url": "https://None/blog/roof-leaks-in-heavy-rain/",
+      "primary_keyword": "roof leaks in heavy rain",
+      "intent": "informational",
+      "volume": 720,
+      "kd": null,
+      "fan_out_cluster": [
+        "does homeowners insurance cover water damage from rain",
+        "does homeowners insurance cover water damage from roof leak",
+        "does homeowners insurance cover water damage from a leaking roof",
+        "how do i make a successful roof leak insurance claim",
+        "does home insurance cover mold from water damage",
+        "how long does it take to dry out water damage"
+      ],
+      "suggested_slug": "roof-leaks-in-heavy-rain",
+      "suggested_title": "Roof leaks in heavy rain: what to do in the first hours (and what your insurance covers)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/storm-damage-restoration/",
+        "/services/emergency-board-up-tarping/",
+        "/services/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "storm-damage-restoration",
+        "emergency-board-up-tarping",
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/res-prop-claim.cfm",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "SCOPE GUARD: Coastal does not sell roof replacement (roof-leak-repair is not in plan-input services). The post covers emergency tarping, water extraction, and drying of the interior damage, and refers roof repair itself out to a roofer. Do not promise roof repair. Anchor to Central Coast winter storm season.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-10-water-damage-insurance-claim-tips",
+      "status": "written",
+      "queued_at": "2026-08-10T17:42:32Z",
+      "written_at": "2026-09-03T20:00:40Z",
+      "post_url": "https://None/blog/water-damage-insurance-claim-tips/",
+      "primary_keyword": "water damage insurance claim tips",
+      "intent": "informational",
+      "volume": 590,
+      "kd": null,
+      "fan_out_cluster": [
+        "water damage insurance claim list",
+        "how to file a home insurance claim for water damage",
+        "what is an assignment of benefits in a water damage claim",
+        "do i have to use my insurance company's preferred restoration contractor",
+        "does homeowners insurance cover additional living expenses water damage",
+        "what questions to ask a water damage restoration company",
+        "does homeowners insurance cover water damage in california"
+      ],
+      "suggested_slug": "water-damage-insurance-claim-tips",
+      "suggested_title": "Water damage insurance claim tips: 12 things to do before anyone tears out drywall",
+      "target_word_count": 1800,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/res-prop-claim.cfm",
+        "https://www.cslb.ca.gov/"
+      ],
+      "notes": "Strongest GEO/AI-retrieval target in this run: ChatGPT's own decomposition of this topic returns a question checklist, so a question-structured page is what gets lifted verbatim. Include the assignment-of-benefits warning and the 'you can choose your own licensed contractor' point, and cite CA Dept of Insurance directly. Coastal is IICRC/WRT/ASD certified with CSLB license 11245226: use that as the trust proof.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-08-10-average-insurance-payout-for-water-damage",
+      "status": "banked",
+      "queued_at": "2026-08-10T17:42:32Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "average insurance payout for water damage",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 44,
+      "fan_out_cluster": [
+        "should i file a home insurance claim for water damage",
+        "water damage restoration cost",
+        "does homeowners insurance cover water damage from plumbing",
+        "does homeowners insurance cover a slow leak",
+        "what does homeowners insurance cover and not cover",
+        "does home insurance cover mold from water damage"
+      ],
+      "suggested_slug": "average-insurance-payout-for-water-damage",
+      "suggested_title": "Average insurance payout for water damage (and why yours may come in lower)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/",
+        "/services/mold-remediation/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "sewage-cleanup",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/res-ins-guide.cfm"
+      ],
+      "notes": "KD 44 is the highest in this queue batch but still inside the priority-1 band. The angle that wins: payout varies by cause of loss (sudden burst pipe vs slow seepage), and mold sublimits cap the number. Explain replacement cost vs actual cash value in plain English.",
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:26.011920+00:00"
+    },
+    {
+      "id": "2026-08-10-should-i-file-a-home-insurance-claim-for-water-damage",
+      "status": "banked",
+      "queued_at": "2026-08-10T17:42:32Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "should i file a home insurance claim for water damage",
+      "intent": "informational",
+      "volume": 210,
+      "kd": 27,
+      "fan_out_cluster": [
+        "how to file a home insurance claim for water damage",
+        "average insurance payout for water damage",
+        "does homeowners insurance cover water damage from appliances",
+        "does homeowners insurance cover water damage in california",
+        "water damage restoration cost",
+        "what moisture level is considered dry after water damage"
+      ],
+      "suggested_slug": "should-i-file-a-home-insurance-claim-for-water-damage",
+      "suggested_title": "Should I file a home insurance claim for water damage? A decision guide",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/res-prop-claim.cfm"
+      ],
+      "notes": "Decision-stage: this reader is 24 to 48 hours from hiring someone. Frame it as deductible vs likely repair cost vs premium impact, and note that CA Dept of Insurance recommends reporting promptly even when undecided. Offer a no-charge moisture assessment as the CTA.",
+      "source": "keyword-researcher",
+      "banked_at": "2026-09-17T22:13:26.011922+00:00"
+    },
+    {
+      "id": "2026-08-17-water-damage-restoration-equipment",
+      "status": "published",
+      "queued_at": "2026-08-17T17:55:00Z",
+      "written_at": "2026-09-22T15:15:26Z",
+      "post_url": "https://callcrs.com/blog/water-damage-restoration-equipment/",
+      "primary_keyword": "water damage restoration equipment",
+      "intent": "informational",
+      "volume": 170,
+      "kd": 0,
+      "fan_out_cluster": [
+        "air movers vs box fans water damage",
+        "dehumidifier for water damage restoration",
+        "moisture meter water damage inspection",
+        "thermal imaging camera water leak detection",
+        "negative air machine water damage",
+        "how long do drying fans stay in the house"
+      ],
+      "suggested_slug": "water-damage-restoration-equipment",
+      "suggested_title": "Water damage restoration equipment: what the pros bring to your home (and why)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/service-areas/santa-maria-ca/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "Lead with what the homeowner actually sees on day one: air movers, LGR dehumidifiers, moisture meters, thermal cameras. Tie to Coastal's ASD (Applied Structural Drying) certification. Explain why DIY box fans push moisture into wall cavities instead of removing it. Good AI-retrieval passage target: a plain table of equipment, what it does, how long it runs.",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-damage-restoration-equipment.md",
+          "part": "body",
+          "family": "24/7",
+          "severity": "error",
+          "matched": "24 hours",
+          "context": "e loss dries faster than one that waits 24 hours. The crew checks readings daily and re",
+          "reason": "claims round-the-clock availability but brand.hours is \"(unset)\""
+        }
+      ],
+      "published_verified_at": "2026-09-22T15:17:22Z"
+    },
+    {
+      "id": "2026-08-17-water-damage-restoration-process",
+      "status": "written",
+      "queued_at": "2026-08-17T17:55:00Z",
+      "written_at": "2026-09-24T15:30:09Z",
+      "post_url": "https://callcrs.com/blog/water-damage-restoration-process/",
+      "primary_keyword": "water damage restoration process",
+      "intent": "informational",
+      "volume": 110,
+      "kd": 6,
+      "fan_out_cluster": [
+        "water damage inspection and assessment",
+        "water extraction process",
+        "structural drying and dehumidification",
+        "cleaning and sanitizing after water damage",
+        "water damage repairs and reconstruction",
+        "how long does the restoration process take"
+      ],
+      "suggested_slug": "water-damage-restoration-process",
+      "suggested_title": "The water damage restoration process, step by step (what happens after you call)",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/",
+        "/services/mold-remediation/",
+        "/service-areas/santa-maria-ca/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "sewage-cleanup",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Mirrors the existing /blog/fire-damage-restoration-process/ post for the water side, so match its structure for internal-link symmetry. Six numbered phases: assessment, extraction, drying, cleaning/sanitizing, repairs, prevention. Include the IICRC S500 water categories (1/2/3) since that is the passage AI assistants quote. Santa Maria angle: coastal humidity extends drying time versus inland Central Valley jobs."
+    },
+    {
+      "id": "2026-08-17-how-soon-can-mold-develop-after-water-damage",
+      "status": "banked",
+      "queued_at": "2026-08-17T17:55:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how soon can mold develop after water damage",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "mold growth timeline after a leak",
+        "24 to 48 hour mold window",
+        "does drying prevent mold after water damage",
+        "hidden mold behind drywall after a flood",
+        "humidity level that causes mold growth",
+        "when to call mold remediation after water damage"
+      ],
+      "suggested_slug": "how-soon-can-mold-develop-after-water-damage",
+      "suggested_title": "How soon can mold develop after water damage? The 24 to 48 hour window explained",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/service-areas/santa-maria-ca/mold-remediation/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+        "https://www.cdc.gov/mold/about/index.html"
+      ],
+      "notes": "Highest-urgency question in the seed family and pure AI-retrieval fuel: answer the timeline in the first 40 words so assistants can lift it. Distinguish visible growth from colonization. Cross-link to /blog/signs-of-hidden-mold/ rather than repeating the signs list. Coastal marine layer keeps indoor humidity high year round on the Central Coast, which shortens the safe window versus dry climates.",
+      "banked_at": "2026-09-17T22:13:26.011925+00:00"
+    },
+    {
+      "id": "2026-08-17-how-long-does-it-take-to-dry-out-water-damage",
+      "status": "banked",
+      "queued_at": "2026-08-17T17:55:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how long does it take to dry out water damage",
+      "intent": "informational",
+      "volume": 10,
+      "kd": 0,
+      "fan_out_cluster": [
+        "how long to dry out drywall after a leak",
+        "drying time for hardwood floors water damage",
+        "how long do air movers need to run",
+        "when is a structure considered dry",
+        "why drying takes longer in humid coastal climates",
+        "daily moisture readings during drying"
+      ],
+      "suggested_slug": "how-long-does-it-take-to-dry-out-water-damage",
+      "suggested_title": "How long does it take to dry out water damage? Realistic timelines by material",
+      "target_word_count": 1300,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/crawl-space-encapsulation/",
+        "/service-areas/santa-maria-ca/water-damage-restoration/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "crawl-space-encapsulation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Give a material-by-material table (drywall, framing, hardwood, concrete, insulation) with day ranges, then explain the variables. The honest answer (3 to 5 days for a standard job, longer for hardwood and crawl spaces) builds trust. Reference daily moisture-reading logs as the proof of completion, which sets Coastal apart from dry-and-dash operators.",
+      "banked_at": "2026-09-17T22:13:26.011927+00:00"
+    },
+    {
+      "id": "2026-08-17-water-damage-restoration-certification",
+      "status": "banked",
+      "queued_at": "2026-08-17T17:55:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "water damage restoration certification",
+      "intent": "informational",
+      "volume": 90,
+      "kd": 35,
+      "fan_out_cluster": [
+        "what is IICRC certification",
+        "WRT water damage restoration technician certification",
+        "applied structural drying ASD certification",
+        "how to verify a restoration company is certified",
+        "does insurance require a certified restoration company",
+        "certified firm vs certified technician"
+      ],
+      "suggested_slug": "water-damage-restoration-certification",
+      "suggested_title": "Water damage restoration certification: what IICRC, WRT, and ASD actually mean",
+      "target_word_count": 1200,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation",
+        "biohazard-cleanup"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCcertifiedfirms",
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Direct brand fit: Coastal is an IICRC Certified Firm with WRT and ASD, license 11245226. Teach the homeowner to verify a firm on the IICRC registry, then let the credential speak for itself rather than claiming superiority. Pairs with the planned /blog/choosing-a-restoration-company/ post: link to it, do not duplicate its checklist.",
+      "banked_at": "2026-09-17T22:13:26.011928+00:00"
+    },
+    {
+      "id": "2026-08-26-mold-remediation-cost-after-water-damage",
+      "status": "published",
+      "queued_at": "2026-08-26T14:20:00Z",
+      "written_at": "2026-09-20T14:26:47Z",
+      "post_url": "https://callcrs.com/blog/mold-remediation-cost-after-water-damage/",
+      "primary_keyword": "how much does mold remediation cost after water damage",
+      "intent": "commercial",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "mold remediation cost per square foot",
+        "cost to remove mold after a water leak",
+        "does insurance cover mold remediation after water damage",
+        "mold inspection cost before remediation",
+        "how much does mold remediation cost after water damage in California",
+        "signs you need mold remediation not just drying"
+      ],
+      "suggested_slug": "mold-remediation-cost-after-water-damage",
+      "suggested_title": "How much does mold remediation cost after water damage?",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/mold-remediation/",
+        "/services/water-damage-restoration/",
+        "/service-areas/lompoc-ca/mold-remediation/"
+      ],
+      "service_tags": [
+        "mold-remediation",
+        "water-damage-restoration"
+      ],
+      "city_anchor": "santa-maria-ca",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/mold-cleanup-your-home",
+        "https://www.iicrc.org/page/IICRCS520"
+      ],
+      "notes": "Highest-value gap this run: mold carries the top local CPC in the Santa Barbara-Santa Maria-SLO DMA ($86.24) and the site has zero cost content for it. Give real Central Coast ranges, split contained-area vs whole-home, and be explicit that drying alone is cheaper than remediation so the 24-48 hour urgency argument lands.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration",
+      "published_verified_at": "2026-09-20T14:28:40Z"
+    },
+    {
+      "id": "2026-08-26-call-insurance-or-restoration-company-first",
+      "status": "banked",
+      "queued_at": "2026-08-26T14:20:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "should i call my insurance company or a restoration company first",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "do i need to call my insurance before starting water cleanup",
+        "will insurance deny my claim if i start cleanup early",
+        "who do i call first after a burst pipe",
+        "does my insurer get to pick the restoration company",
+        "emergency mitigation coverage homeowners policy",
+        "what to document before restoration crews arrive"
+      ],
+      "suggested_slug": "call-insurance-or-restoration-company-first",
+      "suggested_title": "Should I call my insurance company or a restoration company first after water damage?",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "water-damage-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.insurance.ca.gov/01-consumers/105-type/9-resid/"
+      ],
+      "notes": "Decision-stage: this gets asked in the 24-48 hours before anyone hires. The existing insurance blog answers what is covered, not the sequencing. Key point to lead with: the policy's duty-to-mitigate means calling a mitigation crew immediately does not void a claim, and the homeowner picks the contractor, not the carrier. Link to the CDI page.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-24T22:24:15.032482+00:00"
+    },
+    {
+      "id": "2026-08-26-water-damage-categories-and-classes",
+      "status": "banked",
+      "queued_at": "2026-08-26T14:20:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what are the categories and classes of water damage",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "category 1 vs category 2 vs category 3 water",
+        "is gray water or black water damage safe to clean up yourself",
+        "what is black water damage",
+        "class 1 to class 4 water damage explained",
+        "how long before category 1 water becomes category 2",
+        "sewage backup water category"
+      ],
+      "suggested_slug": "water-damage-categories-and-classes",
+      "suggested_title": "What are the categories and classes of water damage? (IICRC S500 explained)",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/sewage-cleanup/",
+        "/services/mold-remediation/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "sewage-cleanup",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.cdc.gov/mold/php/about/index.html"
+      ],
+      "notes": "Definition content is what AI assistants quote verbatim, and this one has no coverage in the editorial partition. Absorbs the gray-water DIY-safety question as a section. Make the clean-water-degrades-to-category-2-in-48-hours point explicit: it is the single best argument for calling fast.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-24T22:24:15.032488+00:00"
+    },
+    {
+      "id": "2026-08-26-dry-out-water-damage-yourself-or-hire-a-pro",
+      "status": "banked",
+      "queued_at": "2026-08-26T14:20:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "can i dry out water damage myself or should i hire a professional",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "when is water damage small enough to handle yourself",
+        "box fans vs commercial air movers",
+        "do i need a dehumidifier or a desiccant",
+        "how do pros know when a wall is actually dry",
+        "moisture meter readings that mean you need help",
+        "what DIY drying misses behind baseboards"
+      ],
+      "suggested_slug": "dry-out-water-damage-yourself-or-hire-a-pro",
+      "suggested_title": "Can I dry out water damage myself or should I hire a professional?",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/services/crawl-space-encapsulation/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.epa.gov/mold/mold-cleanup-your-home"
+      ],
+      "notes": "Last query before the phone call. Be honest about the DIY-viable case (small, clean-water, caught inside a few hours) so the pro case reads as advice instead of a pitch. Anchor the cut-off on measurable things: standing water over a small footprint, water in wall cavities or subfloor, any category 2 or 3 source, anyone in the house with asthma.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-24T22:24:15.032490+00:00"
+    },
+    {
+      "id": "2026-08-26-signs-of-hidden-water-damage-behind-walls",
+      "status": "banked",
+      "queued_at": "2026-08-26T14:20:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what are the signs of hidden water damage behind walls",
+      "intent": "informational",
+      "volume": null,
+      "kd": null,
+      "fan_out_cluster": [
+        "musty smell but no visible leak",
+        "bubbling or peeling paint on a wall",
+        "warm spot on the floor slab leak",
+        "unexplained spike in water bill",
+        "how do professionals find water behind drywall",
+        "thermal imaging vs moisture meter for hidden leaks"
+      ],
+      "suggested_slug": "signs-of-hidden-water-damage-behind-walls",
+      "suggested_title": "What are the signs of hidden water damage behind walls?",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/blog/signs-of-hidden-mold/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500",
+        "https://www.epa.gov/mold/mold-and-health"
+      ],
+      "notes": "/blog/signs-of-hidden-mold/ covers hidden mold, which is the downstream problem, not the leak itself. Write this as the upstream piece and interlink both ways. Central Coast angle: slab-on-grade construction is common here, so cover slab leaks and the warm-floor tell.",
+      "source": "keyword-researcher",
+      "seed": "water damage restoration",
+      "banked_at": "2026-09-24T22:24:15.032492+00:00"
+    },
+    {
+      "id": "2026-09-15-coastal-restoration",
+      "status": "written",
+      "queued_at": "2026-09-15T14:24:35Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "target_term",
+      "combo_key": "coastal-restoration",
+      "primary_keyword": "coastal restoration",
+      "intent": "commercial",
+      "target_word_count": 1400,
+      "city_anchor": "santa-maria-ca",
+      "source": "gameplan-2026-09-4 (dev-agent)",
+      "written_at": "2026-09-15T15:13:48Z",
+      "post_url": "https://callcrs.com/blog/coastal-restoration/"
+    },
+    {
+      "id": "2026-09-24-fire-damage-restoration-cost-santa-maria-ca",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "fire damage restoration cost",
+      "intent": "commercial",
+      "volume": 260,
+      "kd": 1,
+      "fan_out_cluster": [
+        "fire restoration cost per square foot",
+        "fire damage restoration rates",
+        "what does a fire restoration company do",
+        "how much does smoke damage cleanup cost",
+        "does insurance pay for fire damage restoration",
+        "fire damage cleanup cost vs reconstruction cost"
+      ],
+      "suggested_slug": "fire-damage-restoration-cost-santa-maria-ca",
+      "suggested_title": "Fire damage restoration cost in Santa Maria, CA: what drives the price",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/blog/fire-damage-restoration-process/",
+        "/contact/",
+        "/services/odor-removal/",
+        "/blog/water-damage-restoration-cost-ca/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "odor-removal",
+        "contents-restoration"
+      ],
+      "city_anchor": "santa-maria-ca",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS700",
+        "https://www.insurance.ca.gov/01-consumers/105-type/9-resid/"
+      ],
+      "notes": "Commercial intent with no commercial URL targeting cost. Break cost into mitigation (board-up, soot, odor), contents, and rebuild. Give ranges only if sourced; otherwise explain the drivers (square footage, smoke type, water from suppression). Mirror the structure of the shipped water damage cost CA post. Santa Maria is the client's primary city and a named priority area.",
+      "source": "keyword-researcher",
+      "seed": "fire damage restoration"
+    },
+    {
+      "id": "2026-09-24-what-to-do-after-a-house-fire-san-luis-obispo",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to do after a house fire",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 0,
+      "fan_out_cluster": [
+        "what happens after a house fire",
+        "what to do after a house fire checklist",
+        "how to deal with insurance adjuster after a house fire",
+        "is it safe to stay in a house after a fire",
+        "who cleans up after a house fire",
+        "help after a house fire"
+      ],
+      "suggested_slug": "what-to-do-after-a-house-fire-san-luis-obispo",
+      "suggested_title": "What to do after a house fire in San Luis Obispo: the first 72 hours",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/blog/fire-damage-restoration-process/",
+        "/contact/",
+        "/services/emergency-board-up-tarping/",
+        "/services/contents-restoration-storage/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "emergency-board-up-tarping",
+        "contents-restoration-storage"
+      ],
+      "city_anchor": "san-luis-obispo-ca",
+      "external_authority_candidates": [
+        "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire/recovering-after-fire.html",
+        "https://www.usfa.fema.gov/downloads/pdf/publications/after_the_fire.pdf",
+        "https://www.insurance.ca.gov/01-consumers/105-type/9-resid/"
+      ],
+      "notes": "KD 0 question with 260/mo. Homeowner's first-steps post, not the restoration process (that blog already exists; link to it). Sequence: safety and fire department clearance, securing the property (board-up), calling the insurer, documenting, what not to touch (soot smears). Include a printable checklist block.",
+      "source": "keyword-researcher",
+      "seed": "fire damage restoration"
+    },
+    {
+      "id": "2026-09-24-how-to-get-smoke-smell-out-of-house-after-fire-lompoc",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "how to get fire smoke smell out of house fast",
+      "intent": "informational",
+      "volume": 390,
+      "kd": 0,
+      "fan_out_cluster": [
+        "how to remove smoke odor from walls",
+        "does airing out a house remove smoke smell",
+        "ozone vs hydroxyl odor removal",
+        "why smoke smell comes back after cleaning",
+        "can you paint over smoke damage",
+        "smoke smell in hvac ducts after a fire"
+      ],
+      "suggested_slug": "how-to-get-smoke-smell-out-of-house-after-fire-lompoc",
+      "suggested_title": "How to get fire smoke smell out of a house fast (and when it takes a pro) in Lompoc",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/odor-removal/",
+        "/services/fire-damage-restoration/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "odor-removal",
+        "fire-damage-restoration"
+      ],
+      "city_anchor": "lompoc-ca",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS700",
+        "https://www.epa.gov/indoor-air-quality-iaq"
+      ],
+      "notes": "Maps directly to the odor-removal service page. Be honest that DIY (ventilation, vinegar, baking soda) masks surface odor, while embedded smoke in porous materials and ducts needs thermal fogging, hydroxyl or ozone, and sealing. Safety note on ozone occupancy. Lompoc is a named priority area.",
+      "source": "keyword-researcher",
+      "seed": "fire damage restoration"
+    },
+    {
+      "id": "2026-09-24-does-homeowners-insurance-cover-fire-damage",
+      "status": "queued",
+      "queued_at": "2026-09-24T21:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "does homeowners insurance cover fire damage",
+      "intent": "informational",
+      "volume": 260,
+      "kd": 30,
+      "fan_out_cluster": [
+        "is smoke damage covered by insurance",
+        "fire damage insurance claim",
+        "renters insurance for fire damage",
+        "does insurance cover smoke damage from a neighbor's fire",
+        "additional living expenses after a house fire",
+        "how to deal with insurance adjuster after a house fire"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-fire-damage",
+      "suggested_title": "Does homeowners insurance cover fire damage? A California homeowner's guide",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/fire-damage-restoration/",
+        "/blog/does-homeowners-insurance-cover-water-damage/",
+        "/blog/water-damage-insurance-claim-tips/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "fire-damage-restoration",
+        "contents-restoration"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.insurance.ca.gov/01-consumers/105-type/9-resid/",
+        "https://www.iii.org/article/what-covered-standard-homeowners-policy"
+      ],
+      "notes": "Insurance policy explainer, so city_anchor left null. Keep it California-specific via the CDI guidance (additional living expenses, contents inventory timelines). Include a short renters section since that variant has 1300/mo. Never promise coverage; frame as what policies typically include. Pair with the existing water insurance post.",
+      "source": "keyword-researcher",
+      "seed": "fire damage restoration"
+    },
+    {
+      "id": "2026-09-24-what-to-throw-away-after-smoke-damage-arroyo-grande",
+      "status": "banked",
+      "queued_at": "2026-09-24T21:15:00Z",
+      "written_at": null,
+      "post_url": null,
+      "primary_keyword": "what to throw away after smoke damage",
+      "intent": "informational",
+      "volume": 210,
+      "kd": 0,
+      "fan_out_cluster": [
+        "what can be salvaged after a house fire",
+        "can smoke damage electronics",
+        "is food safe after smoke exposure",
+        "can smoke damaged clothes be cleaned",
+        "should you keep furniture after a house fire",
+        "contents pack-out and storage after a fire"
+      ],
+      "suggested_slug": "what-to-throw-away-after-smoke-damage-arroyo-grande",
+      "suggested_title": "What to throw away after smoke damage (and what can be saved) in Arroyo Grande",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/contents-restoration/",
+        "/services/contents-restoration-storage/",
+        "/services/fire-damage-restoration/",
+        "/contact/"
+      ],
+      "service_tags": [
+        "contents-restoration",
+        "contents-restoration-storage",
+        "fire-damage-restoration"
+      ],
+      "city_anchor": "arroyo-grande-ca",
+      "external_authority_candidates": [
+        "https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage",
+        "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire/recovering-after-fire.html"
+      ],
+      "notes": "KD 0, feeds the contents restoration and storage services. Clear discard list (food, medicine, cosmetics, heat-exposed plastics) vs salvageable (hard goods, many textiles, documents via specialist cleaning). Remind readers to photograph and inventory before discarding for the claim. Arroyo Grande is a named priority area.",
+      "source": "keyword-researcher",
+      "seed": "fire damage restoration",
+      "banked_at": "2026-09-29T22:24:35.148983+00:00"
     }
-   ]
-  },
-  {
-   "id": "2026-08-10-water-damage-restoration-cost",
-   "status": "written",
-   "queued_at": "2026-08-10T17:42:32Z",
-   "written_at": "2026-08-17T17:58:02Z",
-   "post_url": "https://None/blog/water-damage-restoration-cost/",
-   "primary_keyword": "water damage restoration cost",
-   "intent": "commercial",
-   "volume": 880,
-   "kd": 3,
-   "fan_out_cluster": [
-    "water damage restoration cost per square foot",
-    "water damage restoration cost calculator",
-    "how much does water damage restoration cost",
-    "water damage restoration price sheet",
-    "average insurance payout for water damage",
-    "what does a water damage restoration company do"
-   ],
-   "suggested_slug": "water-damage-restoration-cost",
-   "suggested_title": "Water damage restoration cost: what Central Coast homeowners actually pay in 2026",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/service-areas/santa-maria-ca/water-damage-restoration/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "mold-remediation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500",
-    "https://www.cslb.ca.gov/"
-   ],
-   "notes": "Highest-volume uncovered term from this seed (880/mo, KD 3, CPC $20.21) and the url-plan has no cost page in the commercial partition. Break cost out by category 1/2/3 water and by square footage, and give a real Santa Maria / San Luis Obispo range rather than a national average. Close on the deductible-vs-out-of-pocket question: the ChatGPT decomposition shows homeowners asking what they personally owe regardless of what insurance pays.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-10-roof-leaks-in-heavy-rain",
-   "status": "written",
-   "queued_at": "2026-08-10T17:42:32Z",
-   "written_at": "2026-08-31T22:32:24Z",
-   "post_url": "https://None/blog/roof-leaks-in-heavy-rain/",
-   "primary_keyword": "roof leaks in heavy rain",
-   "intent": "informational",
-   "volume": 720,
-   "kd": null,
-   "fan_out_cluster": [
-    "does homeowners insurance cover water damage from rain",
-    "does homeowners insurance cover water damage from roof leak",
-    "does homeowners insurance cover water damage from a leaking roof",
-    "how do i make a successful roof leak insurance claim",
-    "does home insurance cover mold from water damage",
-    "how long does it take to dry out water damage"
-   ],
-   "suggested_slug": "roof-leaks-in-heavy-rain",
-   "suggested_title": "Roof leaks in heavy rain: what to do in the first hours (and what your insurance covers)",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/storm-damage-restoration/",
-    "/services/emergency-board-up-tarping/",
-    "/services/water-damage-restoration/"
-   ],
-   "service_tags": [
-    "storm-damage-restoration",
-    "emergency-board-up-tarping",
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/res-prop-claim.cfm",
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "SCOPE GUARD: Coastal does not sell roof replacement (roof-leak-repair is not in plan-input services). The post covers emergency tarping, water extraction, and drying of the interior damage, and refers roof repair itself out to a roofer. Do not promise roof repair. Anchor to Central Coast winter storm season.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-10-water-damage-insurance-claim-tips",
-   "status": "written",
-   "queued_at": "2026-08-10T17:42:32Z",
-   "written_at": "2026-09-03T20:00:40Z",
-   "post_url": "https://None/blog/water-damage-insurance-claim-tips/",
-   "primary_keyword": "water damage insurance claim tips",
-   "intent": "informational",
-   "volume": 590,
-   "kd": null,
-   "fan_out_cluster": [
-    "water damage insurance claim list",
-    "how to file a home insurance claim for water damage",
-    "what is an assignment of benefits in a water damage claim",
-    "do i have to use my insurance company's preferred restoration contractor",
-    "does homeowners insurance cover additional living expenses water damage",
-    "what questions to ask a water damage restoration company",
-    "does homeowners insurance cover water damage in california"
-   ],
-   "suggested_slug": "water-damage-insurance-claim-tips",
-   "suggested_title": "Water damage insurance claim tips: 12 things to do before anyone tears out drywall",
-   "target_word_count": 1800,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "mold-remediation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/res-prop-claim.cfm",
-    "https://www.cslb.ca.gov/"
-   ],
-   "notes": "Strongest GEO/AI-retrieval target in this run: ChatGPT's own decomposition of this topic returns a question checklist, so a question-structured page is what gets lifted verbatim. Include the assignment-of-benefits warning and the 'you can choose your own licensed contractor' point, and cite CA Dept of Insurance directly. Coastal is IICRC/WRT/ASD certified with CSLB license 11245226: use that as the trust proof.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-08-10-average-insurance-payout-for-water-damage",
-   "status": "banked",
-   "queued_at": "2026-08-10T17:42:32Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "average insurance payout for water damage",
-   "intent": "informational",
-   "volume": 260,
-   "kd": 44,
-   "fan_out_cluster": [
-    "should i file a home insurance claim for water damage",
-    "water damage restoration cost",
-    "does homeowners insurance cover water damage from plumbing",
-    "does homeowners insurance cover a slow leak",
-    "what does homeowners insurance cover and not cover",
-    "does home insurance cover mold from water damage"
-   ],
-   "suggested_slug": "average-insurance-payout-for-water-damage",
-   "suggested_title": "Average insurance payout for water damage (and why yours may come in lower)",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/sewage-cleanup/",
-    "/services/mold-remediation/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "sewage-cleanup",
-    "mold-remediation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/res-ins-guide.cfm"
-   ],
-   "notes": "KD 44 is the highest in this queue batch but still inside the priority-1 band. The angle that wins: payout varies by cause of loss (sudden burst pipe vs slow seepage), and mold sublimits cap the number. Explain replacement cost vs actual cash value in plain English.",
-   "source": "keyword-researcher",
-   "banked_at": "2026-09-17T22:13:26.011920+00:00"
-  },
-  {
-   "id": "2026-08-10-should-i-file-a-home-insurance-claim-for-water-damage",
-   "status": "banked",
-   "queued_at": "2026-08-10T17:42:32Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "should i file a home insurance claim for water damage",
-   "intent": "informational",
-   "volume": 210,
-   "kd": 27,
-   "fan_out_cluster": [
-    "how to file a home insurance claim for water damage",
-    "average insurance payout for water damage",
-    "does homeowners insurance cover water damage from appliances",
-    "does homeowners insurance cover water damage in california",
-    "water damage restoration cost",
-    "what moisture level is considered dry after water damage"
-   ],
-   "suggested_slug": "should-i-file-a-home-insurance-claim-for-water-damage",
-   "suggested_title": "Should I file a home insurance claim for water damage? A decision guide",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/res-prop-claim.cfm"
-   ],
-   "notes": "Decision-stage: this reader is 24 to 48 hours from hiring someone. Frame it as deductible vs likely repair cost vs premium impact, and note that CA Dept of Insurance recommends reporting promptly even when undecided. Offer a no-charge moisture assessment as the CTA.",
-   "source": "keyword-researcher",
-   "banked_at": "2026-09-17T22:13:26.011922+00:00"
-  },
-  {
-   "id": "2026-08-17-water-damage-restoration-equipment",
-   "status": "published",
-   "queued_at": "2026-08-17T17:55:00Z",
-   "written_at": "2026-09-22T15:15:26Z",
-   "post_url": "https://callcrs.com/blog/water-damage-restoration-equipment/",
-   "primary_keyword": "water damage restoration equipment",
-   "intent": "informational",
-   "volume": 170,
-   "kd": 0,
-   "fan_out_cluster": [
-    "air movers vs box fans water damage",
-    "dehumidifier for water damage restoration",
-    "moisture meter water damage inspection",
-    "thermal imaging camera water leak detection",
-    "negative air machine water damage",
-    "how long do drying fans stay in the house"
-   ],
-   "suggested_slug": "water-damage-restoration-equipment",
-   "suggested_title": "Water damage restoration equipment: what the pros bring to your home (and why)",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/service-areas/santa-maria-ca/water-damage-restoration/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "mold-remediation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500",
-    "https://www.epa.gov/mold/mold-cleanup-your-home"
-   ],
-   "notes": "Lead with what the homeowner actually sees on day one: air movers, LGR dehumidifiers, moisture meters, thermal cameras. Tie to Coastal's ASD (Applied Structural Drying) certification. Explain why DIY box fans push moisture into wall cavities instead of removing it. Good AI-retrieval passage target: a plain table of equipment, what it does, how long it runs.",
-   "claims_flags": [
-    {
-     "file": "src/content/blog/water-damage-restoration-equipment.md",
-     "part": "body",
-     "family": "24/7",
-     "severity": "error",
-     "matched": "24 hours",
-     "context": "e loss dries faster than one that waits 24 hours. The crew checks readings daily and re",
-     "reason": "claims round-the-clock availability but brand.hours is \"(unset)\""
-    }
-   ],
-   "published_verified_at": "2026-09-22T15:17:22Z"
-  },
-  {
-   "id": "2026-08-17-water-damage-restoration-process",
-   "status": "written",
-   "queued_at": "2026-08-17T17:55:00Z",
-   "written_at": "2026-09-24T15:30:09Z",
-   "post_url": "https://callcrs.com/blog/water-damage-restoration-process/",
-   "primary_keyword": "water damage restoration process",
-   "intent": "informational",
-   "volume": 110,
-   "kd": 6,
-   "fan_out_cluster": [
-    "water damage inspection and assessment",
-    "water extraction process",
-    "structural drying and dehumidification",
-    "cleaning and sanitizing after water damage",
-    "water damage repairs and reconstruction",
-    "how long does the restoration process take"
-   ],
-   "suggested_slug": "water-damage-restoration-process",
-   "suggested_title": "The water damage restoration process, step by step (what happens after you call)",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/sewage-cleanup/",
-    "/services/mold-remediation/",
-    "/service-areas/santa-maria-ca/water-damage-restoration/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "sewage-cleanup",
-    "mold-remediation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Mirrors the existing /blog/fire-damage-restoration-process/ post for the water side, so match its structure for internal-link symmetry. Six numbered phases: assessment, extraction, drying, cleaning/sanitizing, repairs, prevention. Include the IICRC S500 water categories (1/2/3) since that is the passage AI assistants quote. Santa Maria angle: coastal humidity extends drying time versus inland Central Valley jobs."
-  },
-  {
-   "id": "2026-08-17-how-soon-can-mold-develop-after-water-damage",
-   "status": "banked",
-   "queued_at": "2026-08-17T17:55:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "how soon can mold develop after water damage",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "mold growth timeline after a leak",
-    "24 to 48 hour mold window",
-    "does drying prevent mold after water damage",
-    "hidden mold behind drywall after a flood",
-    "humidity level that causes mold growth",
-    "when to call mold remediation after water damage"
-   ],
-   "suggested_slug": "how-soon-can-mold-develop-after-water-damage",
-   "suggested_title": "How soon can mold develop after water damage? The 24 to 48 hour window explained",
-   "target_word_count": 1300,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/services/water-damage-restoration/",
-    "/service-areas/santa-maria-ca/mold-remediation/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "mold-remediation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
-    "https://www.cdc.gov/mold/about/index.html"
-   ],
-   "notes": "Highest-urgency question in the seed family and pure AI-retrieval fuel: answer the timeline in the first 40 words so assistants can lift it. Distinguish visible growth from colonization. Cross-link to /blog/signs-of-hidden-mold/ rather than repeating the signs list. Coastal marine layer keeps indoor humidity high year round on the Central Coast, which shortens the safe window versus dry climates.",
-   "banked_at": "2026-09-17T22:13:26.011925+00:00"
-  },
-  {
-   "id": "2026-08-17-how-long-does-it-take-to-dry-out-water-damage",
-   "status": "banked",
-   "queued_at": "2026-08-17T17:55:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "how long does it take to dry out water damage",
-   "intent": "informational",
-   "volume": 10,
-   "kd": 0,
-   "fan_out_cluster": [
-    "how long to dry out drywall after a leak",
-    "drying time for hardwood floors water damage",
-    "how long do air movers need to run",
-    "when is a structure considered dry",
-    "why drying takes longer in humid coastal climates",
-    "daily moisture readings during drying"
-   ],
-   "suggested_slug": "how-long-does-it-take-to-dry-out-water-damage",
-   "suggested_title": "How long does it take to dry out water damage? Realistic timelines by material",
-   "target_word_count": 1300,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/crawl-space-encapsulation/",
-    "/service-areas/santa-maria-ca/water-damage-restoration/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "crawl-space-encapsulation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Give a material-by-material table (drywall, framing, hardwood, concrete, insulation) with day ranges, then explain the variables. The honest answer (3 to 5 days for a standard job, longer for hardwood and crawl spaces) builds trust. Reference daily moisture-reading logs as the proof of completion, which sets Coastal apart from dry-and-dash operators.",
-   "banked_at": "2026-09-17T22:13:26.011927+00:00"
-  },
-  {
-   "id": "2026-08-17-water-damage-restoration-certification",
-   "status": "banked",
-   "queued_at": "2026-08-17T17:55:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "water damage restoration certification",
-   "intent": "informational",
-   "volume": 90,
-   "kd": 35,
-   "fan_out_cluster": [
-    "what is IICRC certification",
-    "WRT water damage restoration technician certification",
-    "applied structural drying ASD certification",
-    "how to verify a restoration company is certified",
-    "does insurance require a certified restoration company",
-    "certified firm vs certified technician"
-   ],
-   "suggested_slug": "water-damage-restoration-certification",
-   "suggested_title": "Water damage restoration certification: what IICRC, WRT, and ASD actually mean",
-   "target_word_count": 1200,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "mold-remediation",
-    "biohazard-cleanup"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCcertifiedfirms",
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Direct brand fit: Coastal is an IICRC Certified Firm with WRT and ASD, license 11245226. Teach the homeowner to verify a firm on the IICRC registry, then let the credential speak for itself rather than claiming superiority. Pairs with the planned /blog/choosing-a-restoration-company/ post: link to it, do not duplicate its checklist.",
-   "banked_at": "2026-09-17T22:13:26.011928+00:00"
-  },
-  {
-   "id": "2026-08-26-mold-remediation-cost-after-water-damage",
-   "status": "published",
-   "queued_at": "2026-08-26T14:20:00Z",
-   "written_at": "2026-09-20T14:26:47Z",
-   "post_url": "https://callcrs.com/blog/mold-remediation-cost-after-water-damage/",
-   "primary_keyword": "how much does mold remediation cost after water damage",
-   "intent": "commercial",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "mold remediation cost per square foot",
-    "cost to remove mold after a water leak",
-    "does insurance cover mold remediation after water damage",
-    "mold inspection cost before remediation",
-    "how much does mold remediation cost after water damage in California",
-    "signs you need mold remediation not just drying"
-   ],
-   "suggested_slug": "mold-remediation-cost-after-water-damage",
-   "suggested_title": "How much does mold remediation cost after water damage?",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/mold-remediation/",
-    "/services/water-damage-restoration/",
-    "/service-areas/lompoc-ca/mold-remediation/"
-   ],
-   "service_tags": [
-    "mold-remediation",
-    "water-damage-restoration"
-   ],
-   "city_anchor": "santa-maria-ca",
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/mold-cleanup-your-home",
-    "https://www.iicrc.org/page/IICRCS520"
-   ],
-   "notes": "Highest-value gap this run: mold carries the top local CPC in the Santa Barbara-Santa Maria-SLO DMA ($86.24) and the site has zero cost content for it. Give real Central Coast ranges, split contained-area vs whole-home, and be explicit that drying alone is cheaper than remediation so the 24-48 hour urgency argument lands.",
-   "source": "keyword-researcher",
-   "seed": "water damage restoration",
-   "published_verified_at": "2026-09-20T14:28:40Z"
-  },
-  {
-   "id": "2026-08-26-call-insurance-or-restoration-company-first",
-   "status": "banked",
-   "queued_at": "2026-08-26T14:20:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "should i call my insurance company or a restoration company first",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "do i need to call my insurance before starting water cleanup",
-    "will insurance deny my claim if i start cleanup early",
-    "who do i call first after a burst pipe",
-    "does my insurer get to pick the restoration company",
-    "emergency mitigation coverage homeowners policy",
-    "what to document before restoration crews arrive"
-   ],
-   "suggested_slug": "call-insurance-or-restoration-company-first",
-   "suggested_title": "Should I call my insurance company or a restoration company first after water damage?",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/blog/does-homeowners-insurance-cover-water-damage/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "water-damage-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500",
-    "https://www.insurance.ca.gov/01-consumers/105-type/9-resid/"
-   ],
-   "notes": "Decision-stage: this gets asked in the 24-48 hours before anyone hires. The existing insurance blog answers what is covered, not the sequencing. Key point to lead with: the policy's duty-to-mitigate means calling a mitigation crew immediately does not void a claim, and the homeowner picks the contractor, not the carrier. Link to the CDI page.",
-   "source": "keyword-researcher",
-   "seed": "water damage restoration",
-   "banked_at": "2026-09-24T22:24:15.032482+00:00"
-  },
-  {
-   "id": "2026-08-26-water-damage-categories-and-classes",
-   "status": "banked",
-   "queued_at": "2026-08-26T14:20:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "what are the categories and classes of water damage",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "category 1 vs category 2 vs category 3 water",
-    "is gray water or black water damage safe to clean up yourself",
-    "what is black water damage",
-    "class 1 to class 4 water damage explained",
-    "how long before category 1 water becomes category 2",
-    "sewage backup water category"
-   ],
-   "suggested_slug": "water-damage-categories-and-classes",
-   "suggested_title": "What are the categories and classes of water damage? (IICRC S500 explained)",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/sewage-cleanup/",
-    "/services/mold-remediation/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "sewage-cleanup",
-    "mold-remediation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500",
-    "https://www.cdc.gov/mold/php/about/index.html"
-   ],
-   "notes": "Definition content is what AI assistants quote verbatim, and this one has no coverage in the editorial partition. Absorbs the gray-water DIY-safety question as a section. Make the clean-water-degrades-to-category-2-in-48-hours point explicit: it is the single best argument for calling fast.",
-   "source": "keyword-researcher",
-   "seed": "water damage restoration",
-   "banked_at": "2026-09-24T22:24:15.032488+00:00"
-  },
-  {
-   "id": "2026-08-26-dry-out-water-damage-yourself-or-hire-a-pro",
-   "status": "banked",
-   "queued_at": "2026-08-26T14:20:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "can i dry out water damage myself or should i hire a professional",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "when is water damage small enough to handle yourself",
-    "box fans vs commercial air movers",
-    "do i need a dehumidifier or a desiccant",
-    "how do pros know when a wall is actually dry",
-    "moisture meter readings that mean you need help",
-    "what DIY drying misses behind baseboards"
-   ],
-   "suggested_slug": "dry-out-water-damage-yourself-or-hire-a-pro",
-   "suggested_title": "Can I dry out water damage myself or should I hire a professional?",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/services/crawl-space-encapsulation/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "mold-remediation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500",
-    "https://www.epa.gov/mold/mold-cleanup-your-home"
-   ],
-   "notes": "Last query before the phone call. Be honest about the DIY-viable case (small, clean-water, caught inside a few hours) so the pro case reads as advice instead of a pitch. Anchor the cut-off on measurable things: standing water over a small footprint, water in wall cavities or subfloor, any category 2 or 3 source, anyone in the house with asthma.",
-   "source": "keyword-researcher",
-   "seed": "water damage restoration",
-   "banked_at": "2026-09-24T22:24:15.032490+00:00"
-  },
-  {
-   "id": "2026-08-26-signs-of-hidden-water-damage-behind-walls",
-   "status": "banked",
-   "queued_at": "2026-08-26T14:20:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "what are the signs of hidden water damage behind walls",
-   "intent": "informational",
-   "volume": null,
-   "kd": null,
-   "fan_out_cluster": [
-    "musty smell but no visible leak",
-    "bubbling or peeling paint on a wall",
-    "warm spot on the floor slab leak",
-    "unexplained spike in water bill",
-    "how do professionals find water behind drywall",
-    "thermal imaging vs moisture meter for hidden leaks"
-   ],
-   "suggested_slug": "signs-of-hidden-water-damage-behind-walls",
-   "suggested_title": "What are the signs of hidden water damage behind walls?",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/blog/signs-of-hidden-mold/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "mold-remediation"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500",
-    "https://www.epa.gov/mold/mold-and-health"
-   ],
-   "notes": "/blog/signs-of-hidden-mold/ covers hidden mold, which is the downstream problem, not the leak itself. Write this as the upstream piece and interlink both ways. Central Coast angle: slab-on-grade construction is common here, so cover slab leaks and the warm-floor tell.",
-   "source": "keyword-researcher",
-   "seed": "water damage restoration",
-   "banked_at": "2026-09-24T22:24:15.032492+00:00"
-  },
-  {
-   "id": "2026-09-15-coastal-restoration",
-   "status": "written",
-   "queued_at": "2026-09-15T14:24:35Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "target_term",
-   "combo_key": "coastal-restoration",
-   "primary_keyword": "coastal restoration",
-   "intent": "commercial",
-   "target_word_count": 1400,
-   "city_anchor": "santa-maria-ca",
-   "source": "gameplan-2026-09-4 (dev-agent)",
-   "written_at": "2026-09-15T15:13:48Z",
-   "post_url": "https://callcrs.com/blog/coastal-restoration/"
-  },
-  {
-   "id": "2026-09-24-fire-damage-restoration-cost-santa-maria-ca",
-   "status": "queued",
-   "queued_at": "2026-09-24T21:15:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "fire damage restoration cost",
-   "intent": "commercial",
-   "volume": 260,
-   "kd": 1,
-   "fan_out_cluster": [
-    "fire restoration cost per square foot",
-    "fire damage restoration rates",
-    "what does a fire restoration company do",
-    "how much does smoke damage cleanup cost",
-    "does insurance pay for fire damage restoration",
-    "fire damage cleanup cost vs reconstruction cost"
-   ],
-   "suggested_slug": "fire-damage-restoration-cost-santa-maria-ca",
-   "suggested_title": "Fire damage restoration cost in Santa Maria, CA: what drives the price",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/fire-damage-restoration/",
-    "/blog/fire-damage-restoration-process/",
-    "/contact/",
-    "/services/odor-removal/",
-    "/blog/water-damage-restoration-cost-ca/"
-   ],
-   "service_tags": [
-    "fire-damage-restoration",
-    "odor-removal",
-    "contents-restoration"
-   ],
-   "city_anchor": "santa-maria-ca",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS700",
-    "https://www.insurance.ca.gov/01-consumers/105-type/9-resid/"
-   ],
-   "notes": "Commercial intent with no commercial URL targeting cost. Break cost into mitigation (board-up, soot, odor), contents, and rebuild. Give ranges only if sourced; otherwise explain the drivers (square footage, smoke type, water from suppression). Mirror the structure of the shipped water damage cost CA post. Santa Maria is the client's primary city and a named priority area.",
-   "source": "keyword-researcher",
-   "seed": "fire damage restoration"
-  },
-  {
-   "id": "2026-09-24-what-to-do-after-a-house-fire-san-luis-obispo",
-   "status": "queued",
-   "queued_at": "2026-09-24T21:15:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "what to do after a house fire",
-   "intent": "informational",
-   "volume": 260,
-   "kd": 0,
-   "fan_out_cluster": [
-    "what happens after a house fire",
-    "what to do after a house fire checklist",
-    "how to deal with insurance adjuster after a house fire",
-    "is it safe to stay in a house after a fire",
-    "who cleans up after a house fire",
-    "help after a house fire"
-   ],
-   "suggested_slug": "what-to-do-after-a-house-fire-san-luis-obispo",
-   "suggested_title": "What to do after a house fire in San Luis Obispo: the first 72 hours",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/fire-damage-restoration/",
-    "/blog/fire-damage-restoration-process/",
-    "/contact/",
-    "/services/emergency-board-up-tarping/",
-    "/services/contents-restoration-storage/"
-   ],
-   "service_tags": [
-    "fire-damage-restoration",
-    "emergency-board-up-tarping",
-    "contents-restoration-storage"
-   ],
-   "city_anchor": "san-luis-obispo-ca",
-   "external_authority_candidates": [
-    "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire/recovering-after-fire.html",
-    "https://www.usfa.fema.gov/downloads/pdf/publications/after_the_fire.pdf",
-    "https://www.insurance.ca.gov/01-consumers/105-type/9-resid/"
-   ],
-   "notes": "KD 0 question with 260/mo. Homeowner's first-steps post, not the restoration process (that blog already exists; link to it). Sequence: safety and fire department clearance, securing the property (board-up), calling the insurer, documenting, what not to touch (soot smears). Include a printable checklist block.",
-   "source": "keyword-researcher",
-   "seed": "fire damage restoration"
-  },
-  {
-   "id": "2026-09-24-how-to-get-smoke-smell-out-of-house-after-fire-lompoc",
-   "status": "queued",
-   "queued_at": "2026-09-24T21:15:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "how to get fire smoke smell out of house fast",
-   "intent": "informational",
-   "volume": 390,
-   "kd": 0,
-   "fan_out_cluster": [
-    "how to remove smoke odor from walls",
-    "does airing out a house remove smoke smell",
-    "ozone vs hydroxyl odor removal",
-    "why smoke smell comes back after cleaning",
-    "can you paint over smoke damage",
-    "smoke smell in hvac ducts after a fire"
-   ],
-   "suggested_slug": "how-to-get-smoke-smell-out-of-house-after-fire-lompoc",
-   "suggested_title": "How to get fire smoke smell out of a house fast (and when it takes a pro) in Lompoc",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/odor-removal/",
-    "/services/fire-damage-restoration/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "odor-removal",
-    "fire-damage-restoration"
-   ],
-   "city_anchor": "lompoc-ca",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS700",
-    "https://www.epa.gov/indoor-air-quality-iaq"
-   ],
-   "notes": "Maps directly to the odor-removal service page. Be honest that DIY (ventilation, vinegar, baking soda) masks surface odor, while embedded smoke in porous materials and ducts needs thermal fogging, hydroxyl or ozone, and sealing. Safety note on ozone occupancy. Lompoc is a named priority area.",
-   "source": "keyword-researcher",
-   "seed": "fire damage restoration"
-  },
-  {
-   "id": "2026-09-24-does-homeowners-insurance-cover-fire-damage",
-   "status": "queued",
-   "queued_at": "2026-09-24T21:15:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "does homeowners insurance cover fire damage",
-   "intent": "informational",
-   "volume": 260,
-   "kd": 30,
-   "fan_out_cluster": [
-    "is smoke damage covered by insurance",
-    "fire damage insurance claim",
-    "renters insurance for fire damage",
-    "does insurance cover smoke damage from a neighbor's fire",
-    "additional living expenses after a house fire",
-    "how to deal with insurance adjuster after a house fire"
-   ],
-   "suggested_slug": "does-homeowners-insurance-cover-fire-damage",
-   "suggested_title": "Does homeowners insurance cover fire damage? A California homeowner's guide",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/fire-damage-restoration/",
-    "/blog/does-homeowners-insurance-cover-water-damage/",
-    "/blog/water-damage-insurance-claim-tips/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "fire-damage-restoration",
-    "contents-restoration"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.insurance.ca.gov/01-consumers/105-type/9-resid/",
-    "https://www.iii.org/article/what-covered-standard-homeowners-policy"
-   ],
-   "notes": "Insurance policy explainer, so city_anchor left null. Keep it California-specific via the CDI guidance (additional living expenses, contents inventory timelines). Include a short renters section since that variant has 1300/mo. Never promise coverage; frame as what policies typically include. Pair with the existing water insurance post.",
-   "source": "keyword-researcher",
-   "seed": "fire damage restoration"
-  },
-  {
-   "id": "2026-09-24-what-to-throw-away-after-smoke-damage-arroyo-grande",
-   "status": "queued",
-   "queued_at": "2026-09-24T21:15:00Z",
-   "written_at": null,
-   "post_url": null,
-   "primary_keyword": "what to throw away after smoke damage",
-   "intent": "informational",
-   "volume": 210,
-   "kd": 0,
-   "fan_out_cluster": [
-    "what can be salvaged after a house fire",
-    "can smoke damage electronics",
-    "is food safe after smoke exposure",
-    "can smoke damaged clothes be cleaned",
-    "should you keep furniture after a house fire",
-    "contents pack-out and storage after a fire"
-   ],
-   "suggested_slug": "what-to-throw-away-after-smoke-damage-arroyo-grande",
-   "suggested_title": "What to throw away after smoke damage (and what can be saved) in Arroyo Grande",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/contents-restoration/",
-    "/services/contents-restoration-storage/",
-    "/services/fire-damage-restoration/",
-    "/contact/"
-   ],
-   "service_tags": [
-    "contents-restoration",
-    "contents-restoration-storage",
-    "fire-damage-restoration"
-   ],
-   "city_anchor": "arroyo-grande-ca",
-   "external_authority_candidates": [
-    "https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage",
-    "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire/recovering-after-fire.html"
-   ],
-   "notes": "KD 0, feeds the contents restoration and storage services. Clear discard list (food, medicine, cosmetics, heat-exposed plastics) vs salvageable (hard goods, many textiles, documents via specialist cleaning). Remind readers to photograph and inventory before discarding for the claim. Arroyo Grande is a named priority area.",
-   "source": "keyword-researcher",
-   "seed": "fire damage restoration"
-  }
- ]
+  ]
 }

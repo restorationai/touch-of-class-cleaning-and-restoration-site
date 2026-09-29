@@ -557,7 +557,7 @@
     },
     {
       "id": "2026-09-17-what-to-throw-away-after-smoke-damage",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-17T20:30:00Z",
       "written_at": null,
       "post_url": null,
@@ -593,8 +593,7 @@
         "https://www.redcross.org/get-help/disaster-relief-and-recovery-services/recovering-from-a-home-fire.html",
         "https://www.iicrc.org/page/IICRCS700"
       ],
-      "notes": "CPC 18.92 on a 210/mo question: strong AI-retrieval fuel, and the keep-vs-toss list is exactly the passage format ChatGPT lifts verbatim. Build it as a room-by-room and material-by-material list (food, medication, cosmetics, mattresses, porous vs non-porous). Tie the save side to contents-restoration, which IS in plan. KD unknown (not in the Labs DB); queued on volume plus intent.",
-      "banked_at": "2026-09-29T02:04:34.981025+00:00"
+      "notes": "CPC 18.92 on a 210/mo question: strong AI-retrieval fuel, and the keep-vs-toss list is exactly the passage format ChatGPT lifts verbatim. Build it as a room-by-room and material-by-material list (food, medication, cosmetics, mattresses, porous vs non-porous). Tie the save side to contents-restoration, which IS in plan. KD unknown (not in the Labs DB); queued on volume plus intent."
     }
   ]
 }

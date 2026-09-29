@@ -1129,7 +1129,7 @@
     },
     {
       "id": "2026-08-26-cheapest-way-to-add-addition-to-house",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-26T22:55:00Z",
       "written_at": null,
       "post_url": null,
@@ -1160,8 +1160,7 @@
       "external_authority_candidates": [
         "https://www.nahb.org/"
       ],
-      "notes": "Budget-first angle, no overlap with the queued build-up-or-out post (that one is a structural comparison, this one ranks options by dollars per square foot). Rank the cheap routes honestly: garage conversion, bump-out, finishing existing space, sunroom. Flag where cutting cost creates resale or permit problems.",
-      "banked_at": "2026-09-19T10:23:53.719969+00:00"
+      "notes": "Budget-first angle, no overlap with the queued build-up-or-out post (that one is a structural comparison, this one ranks options by dollars per square foot). Rank the cheap routes honestly: garage conversion, bump-out, finishing existing space, sunroom. Flag where cutting cost creates resale or permit problems."
     },
     {
       "id": "2026-08-26-can-you-live-in-your-house-during-a-home-addition",

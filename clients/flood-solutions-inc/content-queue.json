@@ -505,7 +505,7 @@
     },
     {
       "id": "2026-09-21-sump-pump-failure-insurance-macomb",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-21T16:50:00Z",
       "written_at": null,
       "post_url": null,
@@ -537,8 +537,7 @@
         "https://www.michigan.gov/difs",
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Distinct from the existing general insurance post: a standard Michigan homeowners policy excludes sump pump overflow and sewer backup unless the owner bought a water backup endorsement. Cite Michigan DIFS on that split. Macomb County is sump pump country with a clay-soil water table, so this is the single most locally relevant insurance question. Answer the coverage question in the first 60 words so AI engines can lift it, then cover endorsement cost, claim steps, and documentation.",
-      "banked_at": "2026-09-28T22:24:24.202785+00:00"
+      "notes": "Distinct from the existing general insurance post: a standard Michigan homeowners policy excludes sump pump overflow and sewer backup unless the owner bought a water backup endorsement. Cite Michigan DIFS on that split. Macomb County is sump pump country with a clay-soil water table, so this is the single most locally relevant insurance question. Answer the coverage question in the first 60 words so AI engines can lift it, then cover endorsement cost, claim steps, and documentation."
     },
     {
       "id": "2026-09-21-what-causes-basement-flooding-michigan",

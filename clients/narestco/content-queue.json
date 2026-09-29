@@ -1154,7 +1154,7 @@
     },
     {
       "id": "2026-08-26-sewage-backup-cleanup-cost",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-26T08:30:38Z",
       "written_at": null,
       "post_url": null,
@@ -1182,8 +1182,7 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Fold the cost variants into one guide. Break cost by category 3 factors: extraction, sanitizing, affected materials, structural drying. Give ranges, not guarantees.",
-      "banked_at": "2026-09-17T22:13:26.022313+00:00"
+      "notes": "Fold the cost variants into one guide. Break cost by category 3 factors: extraction, sanitizing, affected materials, structural drying. Give ranges, not guarantees."
     },
     {
       "id": "2026-08-26-how-to-clean-up-raw-sewage-in-basement",
