@@ -56,6 +56,24 @@ Commands:
                                    meetings exist but no work came out of
                                    them, or when the sync itself has stalled.
     status                         what the last run did, per client.
+    replay --rid ID [--rid ID] [--send] [--intel-only]
+                                   re-run specific recordings through the
+                                   matcher + miner (dry run shows intel,
+                                   cards and promises; --intel-only writes
+                                   meeting intel + promises, never cards or
+                                   client messages).
+
+CALL MATCHING (rebuilt 2026-09-29, Katofsky + RestoPros losses). The roster
+is the DATABASE, not company_map: every live companies row is matchable the
+moment it exists, keyed by slug (company_map, else marketing_sites) or by
+company id when no slug has been minted yet. Hard evidence (invitee emails,
+the booked GHL appointment's contact, title names, transcript speakers; see
+scripts/call_match.py) decides before the model does. A call that still
+matches nothing is RETRIED every sync for 7 days (the client row may appear
+later) and then filed as a "call could not be matched" card instead of
+silently dying. Every mined call also feeds the promise tracker
+(scripts/promise_tracker.py): what WE promised on the call, from the full
+transcript, lands in public.client_commitments with an owner and a due date.
 
 State: ops_kv `fathom-sync-state` (processed recording ids; the repo file
 clients/_ops/fathom-sync-state.json is a pre-KV seed only).
@@ -77,8 +95,12 @@ import requests
 
 sys.path.insert(0, str(Path(__file__).parent))
 from client_concierge import (  # noqa: E402
-    ROOT, _sb, anthropic_json, fetch_companies, kv_get, kv_set, load_env,
+    ROOT, _sb, anthropic_json, kv_get, kv_set, load_env,
 )
+import call_match  # noqa: E402
+
+UNMATCHED_RETRY_DAYS = 7          # retry an unmatched call this long, then card
+WINDOW_DAYS = UNMATCHED_RETRY_DAYS + 2   # how far back each sync lists calls
 
 
 def sb_insert_note(company_id: str, body: str) -> None:
@@ -93,10 +115,11 @@ WATCH_KEY = "fathom-watch-state"
 
 MATCH_SYSTEM = """\
 You match a meeting recording to one of our restoration-industry clients.
-You get the client roster (slug, company name, owner) and the meeting's
-title + summary opening. Sales calls with NEW prospects (anyone not on the
-roster), internal team meetings, and vendor calls match NOTHING.
-Return ONLY JSON: {"slug": "<roster slug>"|null, "why": string}"""
+You get the client roster (key, company name, owner, people) and the
+meeting's title, the speakers heard on the call and the summary opening.
+Sales calls with NEW prospects (anyone not on the roster), internal team
+meetings, and vendor calls match NOTHING.
+Return ONLY JSON: {"key": "<roster key>"|null, "why": string}"""
 
 DISTILL_SYSTEM = """\
 You distill a meeting summary into INTERNAL onboarding intel for our client
@@ -196,7 +219,7 @@ def _fathom_keys() -> list[str]:
     return [k.strip() for k in keys if k.strip()]
 
 
-def fathom_meetings(limit: int = 25) -> list[dict]:
+def fathom_meetings(limit: int = 25, since: str | None = None) -> list[dict]:
     """Recent recordings across EVERY configured Fathom account, newest
     first, with summary AND action items; each tagged with the key that can
     fetch its transcript.
@@ -206,22 +229,55 @@ def fathom_meetings(limit: int = 25) -> list[dict]:
     items against a summary that yielded 4 tasks), and each one carries an
     assignee, which is how we tell OUR work from the client's homework.
     """
+    # WINDOW, NOT A COUNT (2026-09-29): with `since`, page back through
+    # every recording since that instant. A fixed "newest 25" silently
+    # dropped calls off the end before an unmatched retry could see them.
     items: list[dict] = []
     for key in _fathom_keys():
+        cursor = None
         try:
-            r = requests.get(f"{FATHOM_API}/meetings",
-                             params={"include_summary": "true",
-                                     "include_action_items": "true",
-                                     "limit": limit},
-                             headers={"X-Api-Key": key}, timeout=60)
-            r.raise_for_status()
-            for m in r.json().get("items", []):
-                m["_api_key"] = key
-                items.append(m)
+            for _page in range(20):
+                params = {"include_summary": "true",
+                          "include_action_items": "true",
+                          "limit": 100 if since else limit}
+                if since:
+                    params["created_after"] = since
+                if cursor:
+                    params["cursor"] = cursor
+                r = _fathom_get(f"{FATHOM_API}/meetings", key, params)
+                data = r.json()
+                for m in data.get("items", []):
+                    m["_api_key"] = key
+                    items.append(m)
+                cursor = data.get("next_cursor")
+                if not (since and cursor):
+                    break
         except Exception as e:  # noqa: BLE001 — one dead key must not blind the sync
             sys.stderr.write(f"  fathom key …{key[-4:]} failed: {str(e)[:100]}\n")
     items.sort(key=lambda m: m.get("recording_start_time") or "", reverse=True)
     return items
+
+
+def _fathom_get(url: str, key: str, params: dict | None = None):
+    """GET with a short 429 backoff (Fathom rate-limits bursts)."""
+    import time
+    for attempt in range(4):
+        r = requests.get(url, params=params, headers={"X-Api-Key": key},
+                         timeout=90)
+        if r.status_code == 429 and attempt < 3:
+            time.sleep(15 * (attempt + 1))
+            continue
+        r.raise_for_status()
+        return r
+    r.raise_for_status()
+    return r
+
+
+def fathom_transcript(rid: str, api_key: str | None = None) -> list[dict]:
+    """The FULL transcript: [{speaker: {display_name}, text, timestamp}]."""
+    r = _fathom_get(f"{FATHOM_API}/recordings/{rid}/transcript",
+                    api_key or os.environ["FATHOM_API_KEY"])
+    return r.json().get("transcript") or []
 
 
 def action_items_text(m: dict) -> str:
@@ -242,23 +298,15 @@ def meeting_when(m: dict) -> str:
     return (m.get("recording_start_time") or m.get("created_at") or "")[:10]
 
 
-def roster(companies: dict) -> tuple[str, dict]:
-    cmap = json.loads((ROOT / "clients" / "company_map.json").read_text())
-    slug_by_cid = {cid: slug for slug, cid in cmap.items()}
-    lines, by_slug = [], {}
-    for cid, co in companies.items():
-        slug = slug_by_cid.get(cid)
-        if not slug:
-            continue
-        contacts = ((co.get("integration_settings") or {}).get("contacts")) or []
-        people = "; ".join(
-            f"{c.get('first_name', '')} {c.get('last_name', '')}".strip()
-            + (f" <{c.get('email')}>" if c.get("email") else "")
-            for c in contacts if c.get("first_name") or c.get("email"))
-        lines.append(f"- slug={slug}  company=\"{co.get('name')}\"  "
-                     f"people=\"{people}\"")
-        by_slug[slug] = co
-    return "\n".join(lines), by_slug
+def roster(_companies: dict | None = None) -> tuple[str, dict, list[dict]]:
+    """(model roster text, {key: company}, roster entries). key = slug, or
+    the company id for a client bootstrap has not slugged yet. Built from
+    the DATABASE (call_match.load_roster), not company_map alone: a client
+    whose slug lives only in marketing_sites, or who has no slug yet, is
+    still a client (Katofsky + RestoPros 2026-09-29)."""
+    entries = call_match.load_roster(_sb)
+    return (call_match.roster_text(entries),
+            {e["key"]: e["company"] for e in entries}, entries)
 
 
 def ghl_contact_for(company: dict) -> str | None:
@@ -696,13 +744,8 @@ def _ghl_api(method: str, path: str, body=None):
 
 def fathom_transcript_tail(rid: str, chars: int = 9000,
                            api_key: str | None = None) -> str:
-    r = requests.get(f"{FATHOM_API}/recordings/{rid}/transcript",
-                     headers={"X-Api-Key": api_key
-                              or os.environ["FATHOM_API_KEY"]},
-                     timeout=60)
-    r.raise_for_status()
     lines = []
-    for seg in r.json().get("transcript") or []:
+    for seg in fathom_transcript(rid, api_key=api_key):
         who = ((seg.get("speaker") or {}).get("display_name") or "?")
         lines.append(f"{who}: {seg.get('text') or ''}")
     return "\n".join(lines)[-chars:]
@@ -1327,13 +1370,217 @@ def write_heartbeat(run: dict, dry_run: bool) -> None:
         print(f"  [heartbeat] warn: not recorded ({str(e)[:100]})")
 
 
+def _speakers(segments: list[dict]) -> list[str]:
+    return sorted({str((s.get("speaker") or {}).get("display_name") or "")
+                   for s in segments} - {""})
+
+
+def _anchor_contact(m: dict, rec: dict) -> dict | None:
+    """The GHL contact behind the appointment this recording sat on (cached
+    in the unmatched record: it costs ~10 GHL calls)."""
+    if "anchor_contact" in rec:
+        return rec["anchor_contact"]
+    contact = None
+    try:
+        anchor = _appointment_anchor(m)
+        if anchor and anchor.get("contact_id"):
+            c = _ghl_api("GET", f"/contacts/{anchor['contact_id']}").get("contact") or {}
+            contact = {"id": c.get("id"), "email": c.get("email"),
+                       "phone": c.get("phone"), "kind": anchor.get("kind")}
+    except Exception:  # noqa: BLE001 — evidence, never a failure
+        contact = None
+    rec["anchor_contact"] = contact
+    return contact
+
+
+def match_call(m: dict, entries: list[dict], roster_text: str, summary_md: str,
+               segments: list[dict], rec: dict, *, use_model: bool = True
+               ) -> tuple[dict | None, str]:
+    """Hard evidence first (call_match), then the model. Returns
+    (roster entry, why)."""
+    title = m.get("title") or m.get("meeting_title") or "?"
+    speakers = rec.get("speakers")
+    if speakers is None:
+        speakers = rec["speakers"] = _speakers(segments)
+    entry, why = call_match.match_meeting(m, entries, speakers=speakers)
+    if entry or call_match.is_sales_title(title):
+        return entry, why
+    entry, why2 = call_match.match_meeting(
+        m, entries, speakers=speakers, anchor_contact=_anchor_contact(m, rec))
+    if entry:
+        return entry, why2
+    if not use_model or not summary_md:
+        return None, why2
+    match = anthropic_json(
+        MATCH_SYSTEM,
+        f"Roster:\n{roster_text}\n\nMeeting title: {title}\n"
+        f"Speakers heard: {', '.join(speakers) or '(unknown)'}\n"
+        f"Summary opening:\n{summary_md[:1200]}")
+    key = match.get("key") or match.get("slug")
+    by_key = {e["key"]: e for e in entries}
+    entry = by_key.get(key) if key else None
+    if entry and call_match.signed_up_after(entry, m):
+        return None, (f"model said {key} but the call predates their signup "
+                      "(sales conversation)")
+    return entry, f"model: {str(match.get('why') or '?')[:90]}"
+
+
+def match_for_backfill(m: dict, entries: list[dict]) -> tuple[dict | None, str]:
+    """promise_tracker backfill: match a call the sync never placed."""
+    summary_md = ((m.get("default_summary") or {}).get("markdown_formatted") or "")
+    try:
+        segs = fathom_transcript(str(m.get("recording_id")), api_key=m.get("_api_key"))
+    except Exception:  # noqa: BLE001
+        segs = []
+    return match_call(m, entries, call_match.roster_text(entries), summary_md,
+                      segs, {})
+
+
+def process_matched(entry: dict, m: dict, *, state: dict, dry_run: bool,
+                    summary_md: str, segments: list[dict] | None,
+                    reprocess: bool = False, intel_only: bool = False,
+                    replay: bool = False) -> dict:
+    """Mine one matched call: intel, GHL note, board work, recap, booking,
+    promises. key = slug, or the company id when bootstrap has not minted a
+    slug yet (intel then lives at ops_kv meeting-intel/{company id}, which
+    client_concierge.load_meeting_intel reads)."""
+    company, key = entry["company"], entry["key"]
+    rid = str(m.get("recording_id"))
+    title = m.get("title") or m.get("meeting_title") or "?"
+    when = meeting_when(m)
+    out = {"slug": key, "rid": rid, "when": when, "title": title, "cards": 0}
+    distilled = anthropic_json(
+        DISTILL_SYSTEM,
+        f"Client: {company.get('name')} (key {key})\n"
+        f"Meeting: {title} on {when}\nFathom URL: {m.get('url')}\n\n"
+        f"Fathom action items:\n{action_items_text(m) or '(none)'}\n\n"
+        f"Summary:\n{summary_md[:9000]}")
+    intel = (distilled.get("intel") or "").strip()
+    note = (distilled.get("ghl_note") or "").strip()
+    if not intel:
+        print("    distill produced nothing — skipping")
+        state["processed"][rid] = "empty"
+        return out
+    already_done = state["processed"].get(rid) not in (
+        None, "unmatched", "baseline") and not str(
+            state["processed"].get(rid)).startswith("unmatched")
+    kv_key = f"meeting-intel/{key}"
+    block = (f"\n\n{intel}\n_(source: Fathom {m.get('url')}, auto-synced; "
+             f"company {company['id']})_\n")
+    if already_done:
+        print("    intel + GHL note already written on the first pass "
+              "— re-mining the work items only")
+    elif dry_run:
+        print(f"    [dry-run] would append to kv {kv_key}:\n{intel[:1500]}")
+        if note and not intel_only:
+            print(f"    [dry-run] would add GHL note: {note[:200]}")
+    else:
+        cur = kv_get(kv_key) or {}
+        content = cur.get("content", "") if isinstance(cur, dict) else str(cur)
+        kv_set(kv_key, {"content": (content + block).strip()})
+        print(f"    intel appended -> ops_kv {kv_key}")
+        cid = ghl_contact_for(company)
+        if cid and note and not intel_only:
+            try:
+                add_ghl_note(cid, f"[Auto from Fathom] {title} ({when}): {note}")
+                print(f"    GHL note added on contact {cid}")
+            except RuntimeError as e:
+                print(f"    ! GHL note failed: {e}", file=sys.stderr)
+
+    if intel_only and not dry_run:
+        print("    --intel-only: no board cards, no recap, no booking")
+    else:
+        if already_done and reprocess:
+            supersede_old_proposals(company["id"], title, when,
+                                    dry_run or intel_only)
+        tally = route_meeting_work(company, key, m, title=title, when=when,
+                                   summary_md=summary_md,
+                                   dry_run=dry_run or intel_only)
+        out["cards"] = tally["site_auto"] + tally["site_proposed"] + tally["ops"]
+        out.update(tally)
+        print(f"    board: {tally['site_auto']} auto [DEV], "
+              f"{tally['site_proposed']} site proposals, "
+              f"{tally['ops']} ops proposals"
+              + (" [DRY RUN / not filed]" if dry_run or intel_only else ""))
+        if not already_done and not replay:
+            send_meeting_recap(company, key, m, title=title, when=when,
+                               summary_md=summary_md, dry_run=dry_run,
+                               state=state)
+            book_agreed_followup(company, key, m, title=title,
+                                 dry_run=dry_run, state=state)
+    # PROMISES (2026-09-29): what WE promised on this call, from the full
+    # transcript, into public.client_commitments. Fail-open: a promise pass
+    # that errors never costs the intel or the cards above.
+    try:
+        import promise_tracker
+        rows = promise_tracker.record_call(company, m, dry_run,
+                                           segments=segments)
+        out["promises"] = len(rows)
+    except Exception as e:  # noqa: BLE001
+        print(f"    ! promise extraction failed ({str(e)[:100]}) — retried "
+              "by the tracker backfill")
+    state["processed"][rid] = key
+    (state.get("unmatched") or {}).pop(rid, None)
+    return out
+
+
+def _unmatched_final_card(m: dict, rec: dict, state: dict, by_key: dict,
+                          dry_run: bool) -> None:
+    """Day 7: the call becomes a card instead of silently dying. Calls the
+    prospect/internal lanes already handled are not lost, so no card."""
+    rid = str(m.get("recording_id"))
+    title = m.get("title") or m.get("meeting_title") or "?"
+    lane = str((state.get("bookings") or {}).get(rid) or "")
+    handled = (lane.startswith(("prospect-", "unmatched-internal",
+                                "unmatched-vendor"))
+               or lane == "already-booked"
+               or call_match.is_sales_title(title))
+    if not handled:
+        attendees = sorted(set(rec.get("speakers") or []) | {
+            str((i.get("name") or i.get("email")) if isinstance(i, dict) else i)
+            for i in (m.get("calendar_invitees") or [])})
+        attendees = [a for a in attendees if a and not call_match.is_ours(a)]
+        body = (f"[TODO-SANTINO] CALL COULD NOT BE MATCHED: {title} "
+                f"{meeting_when(m)} {', '.join(attendees) or '(no attendees)'}"
+                f" — recording {m.get('url')}. Tried for "
+                f"{UNMATCHED_RETRY_DAYS} days ({rec.get('tries', 0)} passes); "
+                f"last reason: {str(rec.get('why'))[:120]}. If this was a "
+                "client call, make sure the client has a companies row with "
+                "their contact names/emails, then: python3 "
+                f"scripts/fathom_sync.py replay --rid {rid} --send")
+        print(f"    UNMATCHED for {UNMATCHED_RETRY_DAYS} days -> card: "
+              f"{body[:140]}")
+        target = _fleet_company(by_key)
+        if not dry_run and target:
+            sb_insert_note(target["id"], body)
+    else:
+        print(f"    unmatched for {UNMATCHED_RETRY_DAYS} days, already "
+              f"handled by the {lane or 'sales'} lane — no card")
+    state["processed"][rid] = "unmatched-final"
+    (state.get("unmatched") or {}).pop(rid, None)
+
+
+def _age_days(m: dict) -> float:
+    try:
+        t0 = datetime.fromisoformat(str(m.get("recording_start_time")
+                                        or m.get("created_at")).replace("Z", "+00:00"))
+        return (datetime.now(timezone.utc) - t0).total_seconds() / 86400
+    except (ValueError, TypeError):
+        return 0.0
+
+
 def cmd_sync(args) -> int:
     dry_run = not args.send
     state = load_state()
     first_run = state.get("initialized_at") is None
-    meetings = fathom_meetings()
-    companies = fetch_companies()
-    roster_text, by_slug = roster(companies)
+    since = (datetime.now(timezone.utc) - timedelta(days=WINDOW_DAYS))
+    if args.since:
+        since = min(since, datetime.fromisoformat(args.since).replace(
+            tzinfo=timezone.utc))
+    meetings = fathom_meetings(since=since.strftime("%Y-%m-%dT%H:%M:%SZ"))
+    roster_text, by_key, entries = roster()
+    rhash = call_match.roster_hash(entries)
+    unmatched = state.setdefault("unmatched", {})
 
     if first_run:
         state["initialized_at"] = datetime.now(timezone.utc).isoformat()
@@ -1349,16 +1596,20 @@ def cmd_sync(args) -> int:
             return 0
         meetings = meetings[:args.backfill]
 
-    # --since re-opens meetings we already processed. Used to backfill a
-    # window after a change to how calls become work; --reprocess also retires
-    # the cards the earlier pass filed for those calls so the board shows one
-    # correct list, never two overlapping ones.
+    # UNMATCHED IS NOT FINAL (2026-09-29). An unmatched call is retried on
+    # every sync for UNMATCHED_RETRY_DAYS (the client's row or slug may land
+    # after the call: Katofsky, RestoPros), then becomes a card. --since
+    # re-opens unmatched calls too, not only matched ones.
     def due(m: dict) -> bool:
         rid = str(m.get("recording_id"))
-        if rid not in state["processed"]:
+        v = state["processed"].get(rid)
+        if v is None:
             return True
-        return bool(args.since and meeting_when(m) >= args.since
-                    and state["processed"][rid] not in ("unmatched", "baseline"))
+        if args.since and meeting_when(m) >= args.since and v != "baseline":
+            return True
+        if v == "unmatched":
+            return True       # the retry branch below decides what to spend
+        return False
 
     # RECAP RETRY (Kenny + Cole 2026-09-28). A recap blocked by the quiet
     # window (Santino texted the client minutes before) leaves recaps[rid]
@@ -1371,7 +1622,7 @@ def cmd_sync(args) -> int:
     for m in meetings:
         rid = str(m.get("recording_id"))
         slug_p = state["processed"].get(rid)
-        if slug_p not in by_slug or recaps.get(rid) is not None:
+        if slug_p not in by_key or recaps.get(rid) is not None:
             continue
         summary_md = ((m.get("default_summary") or {})
                       .get("markdown_formatted") or "")
@@ -1380,7 +1631,7 @@ def cmd_sync(args) -> int:
         title = m.get("title") or m.get("meeting_title") or "?"
         print(f"\n--- recap retry {meeting_when(m)} {title!r} -> {slug_p}")
         try:
-            send_meeting_recap(by_slug[slug_p], slug_p, m, title=title,
+            send_meeting_recap(by_key[slug_p], slug_p, m, title=title,
                                when=meeting_when(m), summary_md=summary_md,
                                dry_run=dry_run, state=state)
             save_state(state, dry_run)
@@ -1393,14 +1644,27 @@ def cmd_sync(args) -> int:
           + (" [DRY RUN]" if dry_run else ""))
     run = {"at": datetime.now(timezone.utc).isoformat(), "meetings": 0,
            "matched": 0, "cards": 0, "clients": [], "error": None,
-           "dry_run": dry_run}
+           "dry_run": dry_run, "unmatched_retries": 0, "late_matches": 0}
     for m in reversed(new):  # oldest first
         rid = str(m.get("recording_id"))
         title = m.get("title") or m.get("meeting_title") or "?"
         summary_md = ((m.get("default_summary") or {})
                       .get("markdown_formatted") or "")
         when = meeting_when(m)
-        print(f"\n--- {when} {title!r} (recording {rid})")
+        retry = state["processed"].get(rid) == "unmatched" and not (
+            args.since and when >= args.since)
+        if retry:
+            rec = unmatched.setdefault(rid, {"first_seen": run["at"]})
+            if _age_days(m) > UNMATCHED_RETRY_DAYS:
+                print(f"\n--- {when} {title!r} (recording {rid}) — retry "
+                      "window over")
+                _unmatched_final_card(m, rec, state, by_key, dry_run)
+                save_state(state, dry_run)
+                continue
+            if call_match.is_sales_title(title):
+                continue      # the prospect lane owns sales calls
+        else:
+            print(f"\n--- {when} {title!r} (recording {rid})")
         run["meetings"] += 1
         if not summary_md:
             print("    no summary yet — leaving for next run")
@@ -1411,92 +1675,123 @@ def cmd_sync(args) -> int:
         # cards as duplicates. Each meeting now stands alone and commits its
         # own state the moment it succeeds.
         try:
-            match = anthropic_json(
-                MATCH_SYSTEM,
-                f"Roster:\n{roster_text}\n\nMeeting title: {title}\n"
-                f"Summary opening:\n{summary_md[:1200]}")
-            slug = match.get("slug")
-            if not slug or slug not in by_slug:
-                print(f"    unmatched ({match.get('why', '?')[:90]})")
+            rec = unmatched.setdefault(rid, {"first_seen": run["at"]})
+            segments = None
+            if rec.get("speakers") is None:
                 try:
-                    handle_unmatched(m, rid, title, when, summary_md,
-                                     state, dry_run)
-                except Exception as e:  # noqa: BLE001 — prospect handling
-                    print(f"    prospect handling errored ({str(e)[:90]})")
+                    segments = fathom_transcript(rid, api_key=m.get("_api_key"))
+                except Exception as e:  # noqa: BLE001 — transcript may lag
+                    print(f"    transcript not ready ({str(e)[:60]})")
+                    segments = []
+                    rec["speakers"] = None
+            # a retry re-asks the MODEL only when the roster changed (a new
+            # client appeared) — hard evidence is re-checked every pass
+            use_model = (not retry) or rec.get("roster_hash") != rhash
+            entry, why = match_call(m, entries, roster_text, summary_md,
+                                    segments or [], rec, use_model=use_model)
+            if retry:
+                run["unmatched_retries"] += 1
+            if entry and not call_match.is_minable(entry):
+                print(f"    matched a non-Rank-AI account "
+                      f"({entry['company'].get('name')}, {entry.get('plan')})"
+                      " — recognised, not mined")
+                state["processed"][rid] = f"other-plan:{entry['cid']}"
+                unmatched.pop(rid, None)
+                save_state(state, dry_run)
+                continue
+            if not entry:
+                rec.update(tries=rec.get("tries", 0) + 1, why=why,
+                           last_try=run["at"], when=when, title=title)
+                if use_model:
+                    rec["roster_hash"] = rhash
+                if retry:
+                    print(f"    [retry {rec['tries']}] {when} {title!r} "
+                          f"still unmatched ({why[:70]})")
+                else:
+                    print(f"    unmatched ({why[:90]})")
+                if use_model:
+                    try:
+                        handle_unmatched(m, rid, title, when, summary_md,
+                                         state, dry_run)
+                    except Exception as e:  # noqa: BLE001 — prospect handling
+                        print(f"    prospect handling errored ({str(e)[:90]})")
                 state["processed"][rid] = "unmatched"
                 save_state(state, dry_run)
                 continue
-            company = by_slug[slug]
-            print(f"    matched -> {slug} ({company.get('name')})")
+            if retry:
+                print(f"\n--- {when} {title!r} (recording {rid}) — LATE "
+                      f"MATCH after {rec.get('tries', 0)} retries")
+                run["late_matches"] += 1
+            print(f"    matched -> {entry['key']} ({entry['company'].get('name')})"
+                  f" — {why[:100]}" + ("" if entry.get("slug") else
+                                       " [no slug yet: keyed by company id]"))
             run["matched"] += 1
-
-            distilled = anthropic_json(
-                DISTILL_SYSTEM,
-                f"Client: {company.get('name')} (slug {slug})\n"
-                f"Meeting: {title} on {when}\nFathom URL: {m.get('url')}\n\n"
-                f"Fathom action items:\n{action_items_text(m) or '(none)'}\n\n"
-                f"Summary:\n{summary_md[:9000]}")
-            intel = (distilled.get("intel") or "").strip()
-            note = (distilled.get("ghl_note") or "").strip()
-            if not intel:
-                print("    distill produced nothing — skipping")
-                state["processed"][rid] = "empty"
-                save_state(state, dry_run)
-                continue
-
-            already_done = state["processed"].get(rid) not in (None, "unmatched",
-                                                               "baseline")
-            kv_key = f"meeting-intel/{slug}"
-            block = f"\n\n{intel}\n_(source: Fathom {m.get('url')}, auto-synced)_\n"
-            if already_done:
-                print("    intel + GHL note already written on the first pass "
-                      "— re-mining the work items only")
-            elif dry_run:
-                print(f"    [dry-run] would append to kv {kv_key}:\n{intel[:500]}")
-                if note:
-                    print(f"    [dry-run] would add GHL note: {note[:200]}")
-            else:
-                cur = kv_get(kv_key) or {}
-                content = cur.get("content", "") if isinstance(cur, dict) else str(cur)
-                kv_set(kv_key, {"content": (content + block).strip()})
-                print(f"    intel appended -> ops_kv {kv_key}")
-                cid = ghl_contact_for(company)
-                if cid and note:
-                    try:
-                        add_ghl_note(cid, f"[Auto from Fathom] {title} ({when}): {note}")
-                        print(f"    GHL note added on contact {cid}")
-                    except RuntimeError as e:
-                        print(f"    ! GHL note failed: {e}", file=sys.stderr)
-
-            if already_done and args.reprocess:
-                supersede_old_proposals(company["id"], title, when, dry_run)
-            tally = route_meeting_work(company, slug, m, title=title, when=when,
-                                       summary_md=summary_md, dry_run=dry_run)
-            cards = tally["site_auto"] + tally["site_proposed"] + tally["ops"]
-            run["cards"] += cards
-            run["clients"].append({"slug": slug, "rid": rid, "when": when,
-                                   "title": title, "cards": cards, **tally})
-            print(f"    board: {tally['site_auto']} auto [DEV], "
-                  f"{tally['site_proposed']} site proposals, "
-                  f"{tally['ops']} ops proposals")
-            if not already_done:
-                send_meeting_recap(company, slug, m, title=title, when=when,
-                                   summary_md=summary_md, dry_run=dry_run,
-                                   state=state)
-                book_agreed_followup(company, slug, m, title=title,
-                                     dry_run=dry_run, state=state)
-            state["processed"][rid] = slug
+            if segments is None:
+                try:
+                    segments = fathom_transcript(rid, api_key=m.get("_api_key"))
+                except Exception:  # noqa: BLE001
+                    segments = None
+            res = process_matched(entry, m, state=state, dry_run=dry_run,
+                                  summary_md=summary_md, segments=segments,
+                                  reprocess=args.reprocess)
+            run["cards"] += res.get("cards", 0)
+            run["clients"].append(res)
             save_state(state, dry_run)
         except Exception as e:  # noqa: BLE001 — one meeting, not the run
             run["error"] = f"{rid}: {str(e)[:200]}"
             print(f"    !! FAILED on this meeting ({str(e)[:160]}) — left "
                   "unprocessed for the next run", file=sys.stderr)
 
+    # prune retry records for calls that left the window or got placed
+    live = {str(m.get("recording_id")) for m in meetings}
+    for rid in list(unmatched):
+        if rid not in live or state["processed"].get(rid) != "unmatched":
+            unmatched.pop(rid, None)
+    save_state(state, dry_run)
     write_heartbeat(run, dry_run)
     print(f"\nrun: {run['meetings']} meeting(s), {run['matched']} matched to "
-          f"clients, {run['cards']} board card(s)"
+          f"clients ({run['late_matches']} late), {run['cards']} board card(s)"
           + (f", ERROR {run['error']}" if run["error"] else ""))
     return 1 if run["error"] and not run["cards"] else 0
+
+
+def cmd_replay(args) -> int:
+    """Re-run specific recordings (the Katofsky / RestoPros recovery).
+    Dry run prints intel, cards and promises; --send --intel-only writes
+    meeting intel + promises only (no cards, no GHL note, no client
+    message)."""
+    dry_run = not args.send
+    state = load_state()
+    roster_text, by_key, entries = roster()
+    since = (datetime.now(timezone.utc) - timedelta(days=args.days)
+             ).strftime("%Y-%m-%dT%H:%M:%SZ")
+    meetings = {str(m.get("recording_id")): m
+                for m in fathom_meetings(since=since)}
+    for rid in args.rid:
+        m = meetings.get(str(rid))
+        if not m:
+            print(f"{rid}: not found in the last {args.days} days")
+            continue
+        title = m.get("title") or m.get("meeting_title") or "?"
+        summary_md = ((m.get("default_summary") or {})
+                      .get("markdown_formatted") or "")
+        print(f"\n=== replay {meeting_when(m)} {title!r} (recording {rid})"
+              + (" [DRY RUN]" if dry_run else ""))
+        segs = fathom_transcript(rid, api_key=m.get("_api_key"))
+        entry, why = match_call(m, entries, roster_text, summary_md, segs, {})
+        if not entry:
+            print(f"    still unmatched: {why}")
+            continue
+        print(f"    matched -> {entry['key']} ({entry['company'].get('name')})"
+              f" — {why[:100]}")
+        prev = state["processed"].get(str(rid))
+        if prev not in (None, "baseline") and not str(prev).startswith("unmatched"):
+            print(f"    NOTE: already processed as {prev!r}")
+        process_matched(entry, m, state=state, dry_run=dry_run,
+                        summary_md=summary_md, segments=segs,
+                        intel_only=args.intel_only, replay=True)
+        save_state(state, dry_run)
+    return 0
 
 
 def save_state(state: dict, dry_run: bool) -> None:
@@ -1575,10 +1870,10 @@ def cmd_watch(args) -> int:
             break
 
     # 2. Did recent client meetings actually produce work?
-    companies = fetch_companies()
-    _roster_text, by_slug = roster(companies)
+    _roster_text, by_slug, _entries = roster()
     try:
-        meetings = fathom_meetings(limit=25)
+        meetings = fathom_meetings(since=(now - timedelta(days=args.days + 1)
+                                          ).strftime("%Y-%m-%dT%H:%M:%SZ"))
     except Exception as e:  # noqa: BLE001
         print(f"fathom API unreachable: {str(e)[:140]}")
         meetings = []
@@ -1760,14 +2055,22 @@ def main() -> int:
     pw.add_argument("--max-age-hours", type=float, default=6.0,
                     help="how long without a clean run counts as stalled")
     sub.add_parser("status")
+    pr = sub.add_parser("replay")
+    pr.add_argument("--rid", action="append", required=True)
+    pr.add_argument("--send", action="store_true")
+    pr.add_argument("--intel-only", action="store_true",
+                    help="write intel + promises only: no cards, no GHL note,"
+                         " no recap/booking")
+    pr.add_argument("--days", type=int, default=30,
+                    help="how far back to look the recordings up")
     args = ap.parse_args()
     load_env()
     for k in ("FATHOM_API_KEY", "ANTHROPIC_API_KEY", "SUPABASE_URL"):
         if not os.environ.get(k):
             print(f"ERROR: missing env {k}", file=sys.stderr)
             return 1
-    return {"sync": cmd_sync, "watch": cmd_watch,
-            "status": cmd_status}[args.cmd](args)
+    return {"sync": cmd_sync, "watch": cmd_watch, "status": cmd_status,
+            "replay": cmd_replay}[args.cmd](args)
 
 
 if __name__ == "__main__":
