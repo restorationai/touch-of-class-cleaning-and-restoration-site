@@ -1,6 +1,6 @@
 {
   "slug": "restoration-groups",
-  "checked_at": "2026-09-29T18:39:27.323666+00:00",
+  "checked_at": "2026-09-29T19:37:31.019880+00:00",
   "canonical": {
     "name": "The Restoration Group",
     "phone": "(855) 650-7422",
@@ -47,8 +47,14 @@
     {
       "platform": "yelp",
       "url": "https://www.yelp.com/biz/the-restoration-group-highland-park",
-      "status": "unverified",
-      "notes": "unverifiable \u2014 every fetch tier failed (http 403; dfs_content_parsing Page content is empty; google_serp_snippet: page not indexed; wayback: no 200 capture)"
+      "status": "ok",
+      "fetch": "google_serp_snippet",
+      "phones_found": [
+        "(973) 587-2139"
+      ],
+      "phone_match": false,
+      "address_match": null,
+      "notes": "via Google snippet (page bot-blocked); canonical phone absent; page shows (973) 587-2139; canonical street address not found on page"
     },
     {
       "platform": "facebook",
@@ -88,6 +94,12 @@
       "platform": "gbp-profile",
       "target": "gbp-profile",
       "title": "Fix business name on gbp-profile"
+    },
+    {
+      "kind": "phone",
+      "platform": "yelp",
+      "target": "https://www.yelp.com/biz/the-restoration-group-highland-park",
+      "title": "Fix wrong phone number on yelp"
     },
     {
       "kind": "phone",
