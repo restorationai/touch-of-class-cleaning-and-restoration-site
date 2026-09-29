@@ -64,7 +64,7 @@ Details: docs/FOLLOW-THROUGH-SYSTEM.md.
 | Monica promise autosend | `scripts/promise_tracker.py` | set `PROMISES_MONICA_AUTOSEND=1` |
 | Dan (RestoPros) mold name reply | draft below | send via `monica_oneoff.py` |
 | GBP cover from site hero, every client | `scripts/gbp_cover_sync.py` (built 09-29, 77bacfd42, nightly in report mode), gallery https://claude.ai/artifact/K7YfDY1yQNGwqfAubMaSjM | set repo var `GBP_COVER_SYNC_WRITE=1` after he approves; per-client flags `--replace-owner-cover`, `--allow-ai-branding` |
-| Resend the September report to Home Pride / Dry County / Go Green / RT Olson / TDI | `client-reports.yml` | dispatch |
+| September report gaps (the 09-01 send reached 27 clients; the link text never reached Bob (Dry County + RT Olson, one contact), Go Green or TDI; Home Pride has no email on file). July reports were never sent to anyone, and no backfill is planned | `client-reports.yml` | 3 texts via monica_oneoff + Home Pride email once we have an address |
 | Frontline's new address (also the NAP-drift system error) | Santino to confirm the address | update GBP + site + citations |
 | PRNow test, Apple Podcasts card | | |
 
