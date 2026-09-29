@@ -821,10 +821,20 @@ def add_services(slug: str, services: list) -> str:
     existing = loc.get("serviceItems", [])
     have = {((s.get("freeFormServiceItem", {}) or {}).get("label", {}) or {}).get("displayName", "").strip().lower()
             for s in existing if "freeFormServiceItem" in s}
+    # UNIQUE-NAME GUARD (Crew 2026-09-29: every nightly batch 400ed with
+    # "free-form service items must have unique display names within each
+    # category"): structured Google services (job_type_id:water_damage_
+    # restoration) count as their plain-English name, and a batch can carry
+    # the same phrase twice in different casing. Both now dedupe.
+    have |= {re.sub(r"^job_type_id:", "", str((s.get("structuredServiceItem") or {})
+                                             .get("serviceTypeId") or "")).replace("_", " ").strip().lower()
+             for s in existing if "structuredServiceItem" in s}
     new_list, added = list(existing), []
     for svc in services:
-        if svc.strip().lower() in have:
+        key = " ".join(svc.strip().lower().split())
+        if not key or key in have:
             continue
+        have.add(key)
         new_list.append({"freeFormServiceItem": {"category": primary_cat,
                                                   "label": {"displayName": svc.strip()}}})
         added.append(svc.strip())
@@ -844,13 +854,19 @@ def add_services(slug: str, services: list) -> str:
     # DESCRIPTION CLAMP (RT Olson 2026-09-10): pre-existing items with
     # descriptions Google now counts as >300 chars fail EVERY list write.
     # Trim to a safe 295 so history can never block an update.
+    # Clamp at a word boundary and rstrip (Crew 2026-09-29): a raw [:295]
+    # cut usually ends on a space, and Google rejects the WHOLE list with
+    # "Strings must not contain leading/trailing or contiguous whitespace".
+    def _clamp(t: str) -> str:
+        t = str(t)[:295]
+        return (t.rsplit(" ", 1)[0] if " " in t[200:] else t).rstrip()
     for item in new_list:
         lab = (item.get("freeFormServiceItem") or {}).get("label") or {}
         if len(str(lab.get("description") or "")) > 295:
-            lab["description"] = str(lab["description"])[:295]
+            lab["description"] = _clamp(lab["description"])
         st = item.get("structuredServiceItem") or {}
         if len(str(st.get("description") or "")) > 295:
-            st["description"] = str(st["description"])[:295]
+            st["description"] = _clamp(st["description"])
     hdrs = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
 
     def _validate(lst: list):

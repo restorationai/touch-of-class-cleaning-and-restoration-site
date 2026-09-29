@@ -188,11 +188,30 @@ def apply_description(slug: str, cid: str, text: str) -> str:
     return "updated" if r.status_code == 200 else f"failed {r.status_code}: {r.text[:100]}"
 
 
-def run_client(slug: str, cid: str, terms: list[str], apply: bool) -> None:
+BLOCKED_KV = "gbp-auto-apply-blocked"
+
+
+def _access_block(msg: str) -> str | None:
+    """A skip that no amount of re-running can clear: we hold no Google
+    write access to this listing (no OAuth token / place, or the listing is
+    not in the connected account: suspended, unverified, never shared)."""
+    m = (msg or "").lower()
+    for needle, why in (("no token", "no Google connection (OAuth token / place_id)"),
+                        ("no gbp location", "listing not found in the connected Google account"),
+                        ("no location", "listing not found in the connected Google account"),
+                        ("plan-input.json", "no plan-input.json (client not planned yet)")):
+        if needle in m:
+            return why
+    return None
+
+
+def run_client(slug: str, cid: str, terms: list[str], apply: bool) -> str | None:
+    """Returns an access-block reason when the client's auto-safe items can
+    never apply until a human fixes Google access (else None)."""
     plan = stage(cid, slug, terms)
     n_auto = len(plan["add"]) + len(plan["remove"]) + (1 if plan["description"] else 0)
     if n_auto == 0 and not plan["protected"]:
-        return
+        return None
     print(f"\n== {slug}")
     if plan["add"]:
         print(f"  ADD ({len(plan['add'])}): " + ", ".join(_svc_display(a) for a in plan["add"]))
@@ -208,11 +227,16 @@ def run_client(slug: str, cid: str, terms: list[str], apply: bool) -> None:
         print(f"  left for humans: {hum}")
     if not apply:
         print("  [dry-run] nothing written")
-        return
+        return None
 
     if plan["add"]:
         msg = gbp.add_services(slug, [_svc_display(a) for a in plan["add"]])
         print(f"  add -> {msg}")
+        blocked = _access_block(msg)
+        if blocked:
+            # Nothing else below can succeed either (same token/listing).
+            print(f"  BLOCKED: {blocked} — {n_auto} auto-safe item(s) wait for access")
+            return blocked
         if "skip" not in msg and "failed" not in msg.lower():
             _mark(cid, "service", plan["add"], "applied")
     if plan["remove"]:
@@ -239,6 +263,7 @@ def run_client(slug: str, cid: str, terms: list[str], apply: bool) -> None:
                  evidence=plan, source="gbp_auto_apply.py")
     except Exception:
         pass
+    return None
 
 
 def main() -> int:
@@ -271,14 +296,38 @@ def main() -> int:
     # Cancelled/departed clients never get writes (Mold Solutionz class).
     active = {c["id"] for c in _sb(
         "GET", "/rest/v1/companies?status=eq.Active&select=id") or []}
+    apply = a.apply and not a.dry_run
+    blocked: dict[str, dict] = {}
     for slug in slugs:
         cid = inv.get(slug)
         if not cid or cid not in active:
             continue
         try:
-            run_client(slug, cid, terms, apply=a.apply and not a.dry_run)
+            why = run_client(slug, cid, terms, apply=apply)
         except Exception as e:  # noqa: BLE001 — one client never stops the fleet
             print(f"{slug}: ERROR {str(e)[:150]}")
+            why = _access_block(str(e))
+        if why:
+            blocked[cid] = {"slug": slug, "reason": why}
+    # ACCESS-BLOCK LEDGER (2026-09-29, optimizer SLA triage): 340 auto-safe
+    # items sat >7 days and the watchdog blamed "the nightly apply", but every
+    # one belonged to a client whose Google listing we cannot write (no OAuth
+    # connection, listing not in the account, GBP suspended). Record them so
+    # the SLA can say "blocked on Google access" instead of "apply broken";
+    # `since` survives across nights so the age of the block is visible.
+    if apply and a.all:
+        try:
+            prev = ((_sb("GET", f"/rest/v1/ops_kv?k=eq.{BLOCKED_KV}&select=v")
+                     or [{}])[0].get("v") or {})
+            now = datetime.now(timezone.utc).isoformat()
+            for cid, b in blocked.items():
+                b["since"] = (prev.get(cid) or {}).get("since") or now
+            _sb("POST", "/rest/v1/ops_kv?on_conflict=k",
+                {"k": BLOCKED_KV, "v": blocked, "updated_at": now},
+                prefer="resolution=merge-duplicates,return=minimal")
+            print(f"\naccess-blocked clients: {len(blocked)} -> ops_kv {BLOCKED_KV}")
+        except Exception as e:  # noqa: BLE001
+            print(f"  [blocked-ledger] warn: {str(e)[:120]}")
     return 0
 
 
