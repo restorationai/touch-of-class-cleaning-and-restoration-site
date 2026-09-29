@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-28-who-to-call-for-mold-remediation-in-ventura-ca",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-28T22:16:10Z",
       "priority": 1,
       "prioritized": true,
@@ -29,7 +29,8 @@
       ],
       "source": "best-of-seeder",
       "written_at": "2026-09-29T22:31:02Z",
-      "post_url": "https://californiarestorationwest.com/blog/who-to-call-for-mold-remediation-in-ventura-ca/"
+      "post_url": "https://californiarestorationwest.com/blog/who-to-call-for-mold-remediation-in-ventura-ca/",
+      "published_verified_at": "2026-09-29T22:31:27Z"
     },
     {
       "id": "2026-09-14-water-damage-restoration-cost-ca",
