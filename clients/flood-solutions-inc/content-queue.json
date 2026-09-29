@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-28-water-damage-restoration-cost-mi",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-28T18:16:50Z",
       "priority": 1,
       "prioritized": true,
@@ -27,7 +27,29 @@
         "water damage cleanup MI",
         "water cleanup MI"
       ],
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-29T20:34:01Z",
+      "post_url": "https://floodsolutionsinc.com/blog/water-damage-restoration-cost-mi/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-mi.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "most porous materials it contacted, per IICRC S500 guidelines. That added demolition,",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-mi.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "s materials the water touched, per the [IICRC S500](https://www.iicrc.org) standard.",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
     },
     {
       "id": "2026-09-12-water-damage-of-any-kind",
