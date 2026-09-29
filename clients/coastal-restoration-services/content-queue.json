@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-29-case-study-AbFvOql2hunedjh_",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-29T16:36:54Z",
       "priority": 1,
       "prioritized": true,
@@ -18,7 +18,10 @@
         "review_text": "Yes i highly recommend.  Coastal rushed to the scene on the weekend and promptly provided valued feedback.  We were able to move forward with our situation forthwith.  Very satisfied with outcome.",
         "review_date": "2026-07-17"
       },
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-29T22:29:35Z",
+      "post_url": "https://callcrs.com/blog/weekend-emergency-restoration-case-study/",
+      "suggested_slug": "weekend-emergency-restoration-case-study"
     },
     {
       "id": "2026-09-15-who-to-call-for-water-damage-restoration-in-santa-maria-ca",
