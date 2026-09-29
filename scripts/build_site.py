@@ -1332,12 +1332,13 @@ def anthropic_call(system: str, user: str, *, model: str = ANTHROPIC_DEFAULT_MOD
             content = "".join(b.get("text", "") for b in payload.get("content", [])
                               if b.get("type") == "text")
             usage = payload.get("usage", {})
-            if not content.strip() and payload.get("stop_reason") == "max_tokens" \
-                    and attempt < max_retries:
-                # thinking + text share max_tokens; thinking ate the budget
+            if payload.get("stop_reason") == "max_tokens" and attempt < max_retries:
+                # thinking + text share max_tokens on 5-series models; a
+                # truncated reply is cut-off JSON (non_json page failure,
+                # seen on the 09-29 verification run) — double and retry
                 body["max_tokens"] = min(body["max_tokens"] * 2, 32000)
-                last_err = "empty reply (max_tokens)"
-                print(f"      retry {attempt}/{max_retries}: empty reply at max_tokens, "
+                last_err = "truncated reply (max_tokens)"
+                print(f"      retry {attempt}/{max_retries}: reply hit max_tokens, "
                       f"raising to {body['max_tokens']}")
                 continue
             return content, usage
