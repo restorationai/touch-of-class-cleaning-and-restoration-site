@@ -117,6 +117,8 @@ jobs:
             python3 scripts/client_concierge.py status
           elif [ "$MODE" = "poll" ]; then
             python3 scripts/client_concierge.py inbound --poll $SEND_FLAG
+            # Backup for the Railway ops worker's scheduled-sends job (exact-text queued messages).
+            if [ -n "$SEND_FLAG" ]; then python3 scripts/scheduled_sends.py run || true; fi
           else
             # Email intake FIRST (2026-08-21, the Sarha-promise gap: her
             # corrections email arrived at 13:00 and the daily ops-sync

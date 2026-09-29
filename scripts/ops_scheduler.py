@@ -202,6 +202,10 @@ JOBS = [
     #                           str(HERE / "callist" / "run_notes_sync.py")]),
     ("inbound", 300, [sys.executable, str(HERE / "client_concierge.py"),
                       "inbound", "--poll", "--send"]),
+    # Exact-text scheduled client messages (Santino 2026-09-28: queue
+    # tonight's follow-ups for tomorrow morning). scripts/scheduled_sends.py.
+    ("scheduled-sends", 300, [sys.executable, str(HERE / "scheduled_sends.py"),
+                              "run"]),
     ("email", 300, [sys.executable, str(HERE / "email_intake.py"),
                     "poll", "--send"]),
     ("fathom", 1800, [sys.executable, str(HERE / "fathom_sync.py"),
