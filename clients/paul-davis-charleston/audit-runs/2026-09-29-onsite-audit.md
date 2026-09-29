@@ -43,7 +43,7 @@ No Lighthouse or on-page calls were made, so there was no DataForSEO spend. No s
 - Re-checked later on 2026-09-29 (second invocation today): still blocked. `status` is still `onboarding` and `domain` is still `null`. Both Pages origins still return HTTP 000, and the tdi-builders control still returns 200. No DataForSEO calls were made and no state file was written.
 - Re-checked again at 2026-09-29T18:17Z (third invocation today): same result. `status` is `onboarding`, `domain` is `null`, both Pages origins return HTTP 000, and the tdi-builders control returns 200. No DataForSEO calls and no state file. The scheduler is re-dispatching this client several times a day, which makes recommendation 4 more urgent.
 - Re-checked again at 2026-09-29T18:55Z (fourth invocation today): same result. `status` is `onboarding`, `domain` is `null`, both Pages origins return HTTP 000, and the tdi-builders control returns 200. No DataForSEO calls and no state file.
-- Re-checked again at 2026-09-29T19:29Z (fifth invocation today): same result. `status` is `onboarding`, `domain` is `null`, both Pages origins return HTTP 000, and the tdi-builders control returns 200. No DataForSEO calls and no state file.
+- Re-checked again at 2026-09-29T19:31Z (fifth invocation today): same result. `status` is `onboarding`, `domain` is `null`, both Pages origins return HTTP 000, and the tdi-builders control returns 200 with `x-robots-tag: noindex`. No DataForSEO calls and no state file.
 
 - Once the audit runs, Lighthouse will be desktop-only through the DataForSEO wrapper. Expect mobile performance scores to be 10-20 points lower.
 - A staging audit will leave SEO out of the verdict because of the Pages noindex header. SEO stays inconclusive until apex cutover.
