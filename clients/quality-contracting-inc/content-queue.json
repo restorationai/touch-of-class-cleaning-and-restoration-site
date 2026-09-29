@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-28-case-study-AbFvOql87CV_q_3i",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-28T22:30:22Z",
       "priority": 1,
       "prioritized": true,
@@ -18,7 +18,10 @@
         "review_text": "There are not enough adjectives to describe how fabulous Luis and his crew have been during the demolition phase of this job. Luis leads by example for professionalism, skill, safety, punctuality, clean up, and even humor to keep us smiling during a difficult time. We look forward to Luis returning for the next phase of this project, continued excellence provided by Luis and this company, as well as the speedy completion of this huge job.",
         "review_date": "2026-09-28"
       },
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-29T22:26:13Z",
+      "post_url": "https://qualitycontracting.us/blog/demolition-phase-case-study/",
+      "suggested_slug": "demolition-phase-case-study"
     },
     {
       "id": "2026-09-14-who-to-call-for-water-damage-restoration-in-auburn-ma",
