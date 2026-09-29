@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-28-case-study-AbFvOqnKH-SgU6J6",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-28T21:43:18Z",
       "priority": 1,
       "prioritized": true,
@@ -18,7 +18,9 @@
         "review_text": "Zach is seriously the best! Not only did he help me get my house in order, but his kind and cheerful demeanor made my whole week! 5/5 stars!! I love that guy",
         "review_date": "2026-09-27"
       },
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-29T20:13:47Z",
+      "post_url": "https://crew3r.com/blog/.md/"
     },
     {
       "id": "2026-09-14-who-to-call-for-water-damage-restoration-in-sioux-falls-sd",
