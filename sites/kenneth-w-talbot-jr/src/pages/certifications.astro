@@ -38,22 +38,26 @@ const meta = `The licenses, certifications, and standards ${brand.displayName} w
         straight to the issuing authority.
       </p>
 
-      {licenses.length > 0 && (
+      {(licenses.length > 0 || brand.licenseType) && (
         <div class="rounded-2xl border border-current/15 p-6 mb-6">
           <div class="flex items-center gap-3 mb-2">
             <ShieldCheck size={22} />
             <h2 class="!mt-0 !mb-0 text-xl">{brand.licenseType || "Contractor License"}</h2>
           </div>
           {brand.licenseAuthority && <p class="opacity-80 mb-2">Issued by {brand.licenseAuthority}.</p>}
-          <p class="font-bold">
-            License {licenses.map((n) => `#${n}`).join(", ")}
-            {lookupUrl && (
-              <a href={lookupUrl} target="_blank" rel="noopener nofollow"
-                 class="inline-flex items-center gap-1 ml-3 underline decoration-dotted underline-offset-2 font-semibold">
-                Verify with the state <ExternalLink size={14} />
-              </a>
-            )}
-          </p>
+          {licenses.length > 0 ? (
+            <p class="font-bold">
+              License {licenses.map((n) => `#${n}`).join(", ")}
+              {lookupUrl && (
+                <a href={lookupUrl} target="_blank" rel="noopener nofollow"
+                   class="inline-flex items-center gap-1 ml-3 underline decoration-dotted underline-offset-2 font-semibold">
+                  Verify with the state <ExternalLink size={14} />
+                </a>
+              )}
+            </p>
+          ) : (
+            <p class="opacity-80">License documentation is available on request — call {brand.phone} and we will provide it directly.</p>
+          )}
         </div>
       )}
 

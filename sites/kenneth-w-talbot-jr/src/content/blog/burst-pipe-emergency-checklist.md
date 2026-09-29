@@ -42,7 +42,7 @@ This step costs you nothing and protects you significantly when you file an insu
 
 If you have a home inventory list or receipts for major items, pull those up now. You'll want them when you call your carrier.
 
-One thing to know about Florida homes specifically: many older Freeport-area properties use CPVC or copper supply lines that can become brittle over time, especially in crawl spaces that see significant temperature swings between winter nights and summer heat. A pipe that looks intact from the outside can fail at a fitting or a spot where it was nicked during a previous renovation. The source of the break isn't always where the water appears.
+One thing to know about Florida homes specifically: many older Freeport-area properties use CPVC or copper supply lines that can become brittle over time, especially in crawl spaces that see significant temperature swings between winter nights and summer heat. A pipe that looks intact from the outside can fail at a fitting or a spot where it was nicked during earlier work on the home. The source of the break isn't always where the water appears.
 
 ## Step 3: Begin Controlled Water Removal, Carefully
 

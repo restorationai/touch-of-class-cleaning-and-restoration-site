@@ -2,9 +2,9 @@
 archetype: "about"
 title: "About Veterans Remediation & Restoration  | Freeport Restoration Company"
 h1: "About Veterans Remediation & Restoration "
-meta_description: "Veterans Remediation & Restoration has served Freeport since 2020. Meet our restoration team. Licensed, insured, locally owned."
+meta_description: "Veteran-owned restoration serving Santa Rosa Beach, the 30A corridor, and Freeport since 2020. Florida Licensed Mold Assessor and Remediator. Meet our team."
 primary_keyword: "veterans remediation & restoration  freeport"
-secondary_keywords: ["local restoration company", "iicrc certified restoration", "licensed restoration contractor"]
+secondary_keywords: ["local restoration company", "veteran owned restoration", "licensed mold assessor freeport"]
 search_intent: "navigational_trust"
 priority: 2.5
 plan_hash: "75123b62d14251a7"
@@ -15,7 +15,13 @@ breadcrumb: [{"name": "Home", "url": "/"}, {"name": "About"}]
 faq: [{"question": "How long has Veterans Remediation & Restoration been in business?", "answer": "The company was founded in 2020 and has been operating out of Freeport, FL since then. While we're a newer company, the team brings trained, disciplined experience to every job, and we're available 24/7 for emergency calls."}, {"question": "What areas do you serve?", "answer": "We're based in Freeport, FL and serve communities throughout the surrounding region in Northwest Florida's Walton County and nearby areas. If you're unsure whether your location falls within our service area, call us directly at (337) 344-1248 and we'll give you a clear answer."}, {"question": "What does it mean that your team is OSHA trained?", "answer": "OSHA training covers workplace safety standards for environments where crews handle hazardous materials, work in confined or contaminated spaces, and operate heavy equipment. In restoration, that means our team knows how to protect both themselves and the occupants of a home when dealing with mold, sewage, or fire-damaged materials, not just how to dry a floor."}]
 rendered: true
 ---
-Veterans Remediation & Restoration started in 2020 with a straightforward premise: restoration work done with the same discipline and accountability that military service demands. Based in Freeport, FL, the company was built around the idea that homeowners and property managers dealing with water damage, mold, or fire loss deserve a crew that shows up prepared, communicates clearly, and sees the job through, not one that disappears after the first day of drying.
+Veterans Remediation & Restoration started in 2020 with a straightforward premise: restoration work done with the same discipline and accountability that military service demands. Based in Freeport and serving Santa Rosa Beach and the 30A corridor as its primary market, the company was built around the idea that homeowners and property managers dealing with water damage, mold, or fire loss deserve a crew that shows up prepared, communicates clearly, and sees the job through, not one that disappears after the first day of drying.
+
+## Veteran owned and operated
+
+Veterans Remediation & Restoration is owned and operated by Kenny, who served in both the United States Air Force and the United States Coast Guard. That service is where the company's name and its standards come from: show up when you say you will, do the work to a standard someone can inspect, and take responsibility for the outcome.
+
+Kenny brings more than 25 years of experience to the work, along with a background in industrial hygiene, the discipline concerned with identifying and controlling the health hazards inside a building, from mold and moisture to airborne contaminants. That background shapes how he approaches a loss: not just drying a floor or hauling out damaged material, but understanding what a water or mold problem does to the air and the structure, and what it takes to make a home genuinely safe to live in again.
 
 ## What we do
 
@@ -25,8 +31,10 @@ A significant part of this work runs through insurance claims. We document affec
 
 ## Our certifications and licensure
 
+Kenny holds Florida state licenses as both a Mold Assessor and a Mold Remediator, issued through the Florida Department of Business and Professional Regulation. Earning those licenses takes state testing and continuing education, and holding both means the work is led by someone who understands mold from assessment through remediation. Licensing documentation is available on request.
+
 Our team is OSHA trained. In a trade where crews work in confined spaces, handle contaminated materials, and operate drying equipment in occupied homes, that training isn't a box to check, it shapes how a job site is set up and how workers protect themselves and the people living there. Restoration work can expose crews and homeowners to mold spores, sewage pathogens, and in older homes, lead-containing materials. Knowing how to manage those hazards is part of doing the job right.
 
 ## Where we work
 
-Freeport sits in Walton County in the Florida Panhandle, a stretch of the Gulf Coast where the combination of high humidity, sandy soil, and a housing stock that includes everything from older wood-frame cottages to newer coastal construction creates a particular set of moisture and storm challenges. The region sees tropical weather systems that can push water into homes from multiple directions at once, storm surge, wind-driven rain, and overwhelmed drainage all at the same time. We serve Freeport and the surrounding communities throughout the area, including the coastal and inland neighborhoods that make up this part of Northwest Florida. If you're not sure whether we cover your location, a quick call will give you a straight answer.
+Our primary service area is Santa Rosa Beach and the 30A corridor, the stretch of Scenic Highway 30A along Walton County's Gulf Coast, where high humidity, sandy soil, and a housing stock that runs from older cottages to newer coastal construction and vacation rentals creates a particular set of moisture and storm challenges. The region sees tropical weather systems that can push water into homes from multiple directions at once, storm surge, wind-driven rain, and overwhelmed drainage all at the same time. From a home base just inland in Freeport, we also serve the surrounding Walton County communities and the coastal and inland neighborhoods that make up this part of Northwest Florida. If you're not sure whether we cover your location, a quick call will give you a straight answer.

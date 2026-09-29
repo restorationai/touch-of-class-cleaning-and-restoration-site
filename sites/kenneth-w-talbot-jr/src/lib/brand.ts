@@ -46,15 +46,15 @@ export const brand = {
   clarityProjectId: "",
   logoUrl: "/images/logo.png",
   licenseNumbers: [] as string[],
-  licenseAuthority: "",
+  licenseAuthority: "Florida Department of Business & Professional Regulation (DBPR)",
   // State license-verification page — the footer links the license number here.
   licenseLookupUrl: "",
-  licenseType: "",
+  licenseType: "Florida Licensed Mold Assessor & Mold Remediator",
   // Operator-confirmed "licensed & insured" attestation from plan-input.json —
   // lets the TrustStrip show the badge before a license number is on file.
   licensedInsuredAttested: true as boolean,
   certifications: ["OSHA TRAINED"] as string[],
-  trustBadges: ["Licensed & Insured", "Veteran Owned & Operated", "Locally Owned & Operated"] as string[],
+  trustBadges: ["Veteran Owned & Operated", "Licensed Mold Assessor", "Licensed Mold Remediator", "Licensed & Insured", "Locally Owned & Operated"] as string[],
   jobPhotos: [] as string[],
   sameAsUrls: ["https://veteransremediation.com/"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by

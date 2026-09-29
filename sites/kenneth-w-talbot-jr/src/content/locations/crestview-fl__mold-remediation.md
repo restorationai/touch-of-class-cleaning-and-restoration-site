@@ -28,7 +28,7 @@ Crestview's climate is the primary driver. The city averages some of the highest
 
 The red clay and sandy loam soils common in this part of Okaloosa County also affect drainage. Water that can't move away from a foundation tends to wick upward through slab edges and block foundations, keeping crawl spaces and lower-level walls perpetually damp. That chronic dampness is exactly what mold needs to establish itself behind baseboards, inside wall cavities, and under subfloors, places where you won't see it until the smell or a water stain gives it away.
 
-Crestview also sits close to Eglin Air Force Base, and many properties in the area have been rental housing for military families over the decades. High-turnover rentals sometimes accumulate deferred maintenance, small leaks that get patched cosmetically rather than dried properly, and that history can mean hidden mold growth that only surfaces during a sale inspection or a renovation.
+Crestview also sits close to Eglin Air Force Base, and many properties in the area have been rental housing for military families over the decades. High-turnover rentals sometimes accumulate deferred maintenance, small leaks that get patched cosmetically rather than dried properly, and that history can mean hidden mold growth that only surfaces during a sale inspection or later repairs.
 
 ## Our Mold Remediation Process in Crestview
 
