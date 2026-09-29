@@ -100,12 +100,17 @@ python3 scripts/promise_tracker.py set <id-prefix> cancelled --evidence "client 
   8pm PT window applies; night pings are held for morning): once when a
   santino/dev promise is due within 24h, once when it goes overdue. Monica
   promises are included while autosend is off, because a human has to send
-  them.
-- **Monica hold:** while a client has an OVERDUE open promise, the hourly
-  nudge pass (`compose --all`) drops every client-owed ask and skips the send
-  with `promise-hold`. Replies to the client's messages, delivering our own
-  promise, and Santino's directives still go. Fail-open: a lookup error
-  never blocks. Covered by `client_concierge.py selfcheck`.
+  them. A promise that was already more than 72h overdue when the tracker
+  first saw it (backfill, a call mined late) is digest-only, no ping.
+- **Monica hold:** while a client has an OVERDUE open promise owned by
+  `monica` or `santino` (something the client is waiting to hear from us),
+  the hourly nudge pass (`compose --all`) drops every client-owed ask and
+  skips the send with `promise-hold`. Replies to the client's messages,
+  delivering our own promise, and Santino's directives still go. Fail-open:
+  a lookup error never blocks. Covered by `client_concierge.py selfcheck`.
+  Dev-owned build promises do not hold by default (they live on the dev
+  queue and often need the very items Monica asks for; the 09-29 backfill
+  had 100+ of them). Widen with `PROMISES_HOLD_OWNERS=monica,santino,dev`.
 
 ## 5. Monica autosend (OFF)
 
