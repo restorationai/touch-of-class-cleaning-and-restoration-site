@@ -38,7 +38,7 @@ Because we're locally based, we're not routing your call through a regional disp
 
 ## Service area
 
-Arch Environmental Group is headquartered in Kingsburg and serves property owners and contractors throughout the surrounding Central Valley communities. That includes Fresno, Selma, Hanford, Visalia, and the smaller agricultural towns in between. If you're managing a property in Fresno County or Kings County and need environmental testing before a project moves forward, we can get you scheduled.
+Arch Environmental Group is headquartered in Kingsburg and serves property owners and contractors throughout the surrounding Central Valley communities. That includes Fresno, Selma, Hanford, Visalia, Bakersfield, and the smaller agricultural towns in between. If you're managing a property in Fresno County or Kings County and need environmental testing before a project moves forward, we can get you scheduled.
 
 The Central Valley's climate, hot, dry summers and mild winters, affects how some materials age and off-gas, and local permitting offices in cities like Fresno and Hanford have their own requirements for pre-demolition surveys. We're familiar with the regional landscape and can help you understand what documentation your project will need.
 
