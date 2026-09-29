@@ -11,10 +11,10 @@
   "plan": {
     "template": "environmental",
     "template_version": "0.1.0",
-    "url_count": 390,
-    "generated_at": "2026-09-20T19:36:44.110168+00:00"
+    "url_count": 373,
+    "generated_at": "2026-09-29T22:13:11.890014+00:00"
   },
-  "updated_at": "2026-09-29T20:13:07.594870+00:00",
+  "updated_at": "2026-09-29T22:13:11.890021+00:00",
   "indexnow_key": "2c6c0206ffe44f7e93d6ab9b17168a31",
   "build": {
     "scaffolded_at": "2026-09-04T23:03:27.626508+00:00",

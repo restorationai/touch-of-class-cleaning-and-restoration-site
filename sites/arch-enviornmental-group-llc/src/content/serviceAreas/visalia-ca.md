@@ -16,7 +16,7 @@ faq: [{"question": "Can you reach properties on the south side of Visalia near G
 area_slug: "visalia-ca"
 city: "Visalia"
 state: "CA"
-primary: false
+primary: true
 rendered: true
 ---
 Arch Environmental Group LLC provides independent environmental testing and inspection services to property owners throughout Visalia and the surrounding San Joaquin Valley. From mold inspection and air quality testing to post-water-damage mold and moisture assessment and hazardous material identification, the work is hands-on and locally grounded, not dispatched from a call center. Because the team tests and assesses conditions rather than performing the remediation itself, its findings stay unbiased. When you have a concern about your property, you need answers about what you're dealing with before you can fix it.
