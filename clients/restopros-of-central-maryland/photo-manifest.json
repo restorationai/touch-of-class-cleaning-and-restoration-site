@@ -447,6 +447,33 @@
       "triaged_at": "2026-09-29T17:31:51Z",
       "triage_model": "claude-sonnet-5"
     },
+    "web:31df294c7cd9162c": {
+      "source": "website",
+      "storage": "site-assets/web/web-31df294c7cd9162c.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790266778598/site-assets/web/web-31df294c7cd9162c.png",
+      "origin_url": "https://www.restopros.co/md-central-maryland/wp-content/uploads/2026/08/1.png",
+      "found_on": "https://www.restopros.co/md-central-maryland/news/",
+      "width": 800,
+      "height": 500,
+      "bytes": 145865,
+      "sha1": "31df294c7cd9162c",
+      "exif": {},
+      "category": "crew",
+      "subject": "two RestoPros techs posing in front of company truck",
+      "quality": 85,
+      "slots": {
+        "hero": 70,
+        "team": 90,
+        "services": 40
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Clean branded crew photo with real truck signage, strong team shot.",
+      "triaged_at": "2026-09-29T18:10:31Z",
+      "triage_model": "claude-sonnet-5"
+    },
     "web:3f7c50df036ae78b": {
       "source": "website",
       "storage": "site-assets/web/web-3f7c50df036ae78b.jpg",
@@ -553,6 +580,34 @@
       "triaged_at": "2026-09-29T17:32:02Z",
       "triage_model": "claude-sonnet-5"
     },
+    "web:6100ba30d76ed247": {
+      "source": "website",
+      "storage": "site-assets/web/web-6100ba30d76ed247.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790266778598/site-assets/web/web-6100ba30d76ed247.png",
+      "origin_url": "https://www.restopros.co/md-central-maryland/wp-content/uploads/2026/08/resized-image-test-1.png",
+      "found_on": "https://www.restopros.co/md-central-maryland/news/",
+      "width": 600,
+      "height": 400,
+      "bytes": 106403,
+      "sha1": "6100ba30d76ed247",
+      "exif": {},
+      "category": "unusable",
+      "subject": "schoolchildren raising hands in classroom",
+      "quality": 40,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo",
+        "people_faces"
+      ],
+      "reason": "Unrelated stock classroom scene, no connection to restoration trade.",
+      "triaged_at": "2026-09-29T18:10:31Z",
+      "triage_model": "claude-sonnet-5"
+    },
     "web:648f957626140766": {
       "source": "website",
       "storage": "site-assets/web/web-648f957626140766.png",
@@ -578,6 +633,33 @@
       ],
       "reason": "Unrelated classroom scene, irrelevant to restoration trade.",
       "triaged_at": "2026-09-29T17:32:02Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "web:751a7535e6c33677": {
+      "source": "website",
+      "storage": "site-assets/web/web-751a7535e6c33677.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790266778598/site-assets/web/web-751a7535e6c33677.png",
+      "origin_url": "https://www.restopros.co/md-central-maryland/wp-content/uploads/2026/08/image2-1.png",
+      "found_on": "https://www.restopros.co/md-central-maryland/news/",
+      "width": 800,
+      "height": 600,
+      "bytes": 163131,
+      "sha1": "751a7535e6c33677",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "moldy bathtub grout and tile corner",
+      "quality": 55,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Generic mold damage photo, likely stock, usable as service illustration.",
+      "triaged_at": "2026-09-29T18:10:31Z",
       "triage_model": "claude-sonnet-5"
     },
     "web:769d8ca73610b554": {
@@ -688,6 +770,33 @@
       "triaged_at": "2026-09-29T17:32:11Z",
       "triage_model": "claude-sonnet-5"
     },
+    "web:8f4f4a76ebd2cc92": {
+      "source": "website",
+      "storage": "site-assets/web/web-8f4f4a76ebd2cc92.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790266778598/site-assets/web/web-8f4f4a76ebd2cc92.png",
+      "origin_url": "https://www.restopros.co/md-central-maryland/wp-content/uploads/2026/08/image2.png",
+      "found_on": "https://www.restopros.co/md-central-maryland/news/",
+      "width": 800,
+      "height": 500,
+      "bytes": 195438,
+      "sha1": "8f4f4a76ebd2cc92",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "mold growth spreading on wall near blinds",
+      "quality": 55,
+      "slots": {
+        "hero": 15,
+        "team": 0,
+        "services": 60
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Close-up mold damage image, possibly stock but relevant to trade.",
+      "triaged_at": "2026-09-29T18:10:31Z",
+      "triage_model": "claude-sonnet-5"
+    },
     "web:99f0446802b272ea": {
       "source": "website",
       "storage": "site-assets/web/web-99f0446802b272ea.png",
@@ -713,6 +822,33 @@
       ],
       "reason": "Close-up mold damage, looks like licensed stock photo.",
       "triaged_at": "2026-09-29T17:32:11Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "web:9c8d5459a32bae3e": {
+      "source": "website",
+      "storage": "site-assets/web/web-9c8d5459a32bae3e.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790266778598/site-assets/web/web-9c8d5459a32bae3e.png",
+      "origin_url": "https://www.restopros.co/md-central-maryland/wp-content/uploads/2026/08/image4.png",
+      "found_on": "https://www.restopros.co/md-central-maryland/news/",
+      "width": 800,
+      "height": 600,
+      "bytes": 246291,
+      "sha1": "9c8d5459a32bae3e",
+      "exif": {},
+      "category": "unusable",
+      "subject": "palm trees blowing in storm wind",
+      "quality": 50,
+      "slots": {
+        "hero": 20,
+        "team": 0,
+        "services": 10
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Generic storm stock photo, not specific to company or property damage.",
+      "triaged_at": "2026-09-29T18:10:31Z",
       "triage_model": "claude-sonnet-5"
     },
     "web:9f237babba7edfe1": {
@@ -769,6 +905,33 @@
       "triaged_at": "2026-09-29T17:32:11Z",
       "triage_model": "claude-sonnet-5"
     },
+    "web:a0ae79c7115b8f9f": {
+      "source": "website",
+      "storage": "site-assets/web/web-a0ae79c7115b8f9f.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790266778598/site-assets/web/web-a0ae79c7115b8f9f.png",
+      "origin_url": "https://www.restopros.co/md-central-maryland/wp-content/uploads/2025/08/image1.png",
+      "found_on": "https://www.restopros.co/md-central-maryland/news/",
+      "width": 800,
+      "height": 500,
+      "bytes": 137796,
+      "sha1": "a0ae79c7115b8f9f",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "technician photographing water-damaged ceiling with tablet",
+      "quality": 75,
+      "slots": {
+        "hero": 30,
+        "team": 50,
+        "services": 75
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Real documentation of water damage assessment, good service visual.",
+      "triaged_at": "2026-09-29T18:10:31Z",
+      "triage_model": "claude-sonnet-5"
+    },
     "web:a21d4a6822668f15": {
       "source": "website",
       "storage": "site-assets/web/web-a21d4a6822668f15.jpg",
@@ -819,6 +982,31 @@
       "flags": [],
       "reason": "Mold damage close-up, no crew or branding present.",
       "triaged_at": "2026-09-29T17:32:22Z",
+      "triage_model": "claude-sonnet-5"
+    },
+    "web:a57c1be04bd00244": {
+      "source": "website",
+      "storage": "site-assets/web/web-a57c1be04bd00244.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790266778598/site-assets/web/web-a57c1be04bd00244.jpg",
+      "origin_url": "https://www.restopros.co/md-central-maryland/wp-content/uploads/2026/09/feature-image.jpg",
+      "found_on": "https://www.restopros.co/md-central-maryland/news/",
+      "width": 1999,
+      "height": 1334,
+      "bytes": 166890,
+      "sha1": "a57c1be04bd00244",
+      "exif": {},
+      "category": "job_progress",
+      "subject": "flooded rooftop terrace with standing water pooling",
+      "quality": 55,
+      "slots": {
+        "hero": 40,
+        "team": 0,
+        "services": 50
+      },
+      "service_slugs": [],
+      "flags": [],
+      "reason": "Standing water on rooftop shows damage but lacks crew or clear focal point.",
+      "triaged_at": "2026-09-29T18:10:36Z",
       "triage_model": "claude-sonnet-5"
     },
     "web:ac3430d6d3e24655": {
@@ -1008,6 +1196,33 @@
       "triaged_at": "2026-09-29T17:32:34Z",
       "triage_model": "claude-sonnet-5"
     },
+    "web:e474ff7b0d2b7c44": {
+      "source": "website",
+      "storage": "site-assets/web/web-e474ff7b0d2b7c44.png",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1790266778598/site-assets/web/web-e474ff7b0d2b7c44.png",
+      "origin_url": "https://www.restopros.co/md-central-maryland/wp-content/uploads/sites/138/2026/05/4-1.png",
+      "found_on": "https://www.restopros.co/md-central-maryland/about/",
+      "width": 800,
+      "height": 500,
+      "bytes": 451260,
+      "sha1": "e474ff7b0d2b7c44",
+      "exif": {},
+      "category": "crew",
+      "subject": "two RestoPros technicians posing by company truck",
+      "quality": 85,
+      "slots": {
+        "hero": 60,
+        "team": 90,
+        "services": 55
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Clean, professional crew photo with branded truck, good for team page.",
+      "triaged_at": "2026-09-29T18:10:36Z",
+      "triage_model": "claude-sonnet-5"
+    },
     "web:e75226c3ad6ccc0c": {
       "source": "website",
       "storage": "site-assets/web/web-e75226c3ad6ccc0c.jpg",
@@ -1118,5 +1333,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-29T17:32:34Z"
+  "triaged_at": "2026-09-29T18:10:36Z"
 }
