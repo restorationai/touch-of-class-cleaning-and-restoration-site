@@ -35,12 +35,8 @@ const {
 } = Astro.props;
 
 const fullCanonical = canonical_url ?? `${brand.canonicalUrl}${Astro.url.pathname}`;
-const rawOgImage = hero_image_url ?? `${brand.imagesBase}/brand/hero.webp`;
-// og:image/twitter:image must be ABSOLUTE (audit: og_image_relative_url) —
-// social scrapers don't resolve site-relative paths, so shares showed no image.
-const ogImage = rawOgImage.startsWith("http")
-  ? rawOgImage
-  : new URL(rawOgImage, brand.canonicalUrl).href;
+// og:image must be an absolute URL — resolve local /images/ paths against the site origin.
+const ogImage = new URL(hero_image_url ?? "/images/hero-bg.webp", Astro.site).href; /* preview: local image until R2 brand assets are provisioned */
 
 // Keep the rendered <title> at or under 65 chars (audit: title_length_over_65 on
 // every page). Plan-generated titles are "{descriptor} | {brand}" compositions;
@@ -123,20 +119,7 @@ const ctx: PageSchemaContext = {
     <meta name="twitter:description" content={meta_description} />
     <meta name="twitter:image" content={ogImage} />
 
-    {/* FAVICON — REQUIRED BUILD STEP (standing rule: every site ships a favicon).
-        The scaffolded public/favicon.svg is only a text-initials placeholder.
-        Before preview deploy, generate the real set from the client's logo MARK
-        (crop the iconic element from clients/{slug}/<logo file> — e.g. the badge,
-        circle mark, or lettermark; if no logo exists yet, hand-build a clean
-        monogram SVG in the client's palette):
-          public/favicon.svg          — vector (or 192px PNG embedded as data URI
-                                        for raster logos)
-          public/favicon.ico          — 16/32/48 multi-size (PIL: save format=ICO)
-          public/apple-touch-icon.png — 180x180, opaque white background
-          public/favicon-32x32.png / favicon-16x16.png — if the mark is faint at
-                                        small sizes (chrome/gradient lettering),
-                                        substitute a bolder solid-color variant.
-        All five files are referenced below; verify each lands in dist/ after build. */}
+    {/* Favicon set — generated from the client's real logo mark (see clients/{slug}/). */}
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="alternate icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="alternate icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -173,10 +156,10 @@ const ctx: PageSchemaContext = {
     </style>
   </head>
   <body class="min-h-screen flex flex-col">
-    <div class="hidden md:block bg-cta text-cta-fg text-xs md:text-sm font-bold text-center py-2 px-4 tracking-wider">
+    <div class="hidden md:block bg-primary-600 text-white text-xs md:text-sm font-bold text-center py-2 px-4 tracking-wider">
       {isLicensed
-        ? <>Licensed &amp; Insured &mdash; {brand.primaryCity}, {brand.primaryState}{" "}{brand.specialistPhrase}</>
-        : <>{brand.primaryCity}, {brand.primaryState}{" "}{brand.specialistPhrase} &mdash; {brand.announcementSuffix}</>}
+        ? <>Licensed &amp; Insured &mdash; {brand.primaryCity}, {brand.primaryState} Restoration Specialists</>
+        : <>{brand.primaryCity}, {brand.primaryState} Restoration Specialists &mdash; 24/7 Emergency Response</>}
     </div>
     <Header />
     <Breadcrumb trail={breadcrumb} />
@@ -184,7 +167,7 @@ const ctx: PageSchemaContext = {
       <slot />
     </main>
     <Footer />
-    <a href={`tel:${brand.phoneRaw}`} class="fixed bottom-0 inset-x-0 z-40 md:hidden flex items-center justify-center gap-3 bg-cta text-cta-fg font-black py-4 text-base shadow-[0_-4px_24px_theme(colors.cta.DEFAULT/35%)] border-t border-cta-hover">
+    <a href={`tel:${brand.phoneRaw}`} class="fixed bottom-0 inset-x-0 z-40 md:hidden flex items-center justify-center gap-3 bg-primary-600 text-white font-black py-4 text-base shadow-[0_-4px_24px_theme(colors.primary.600/35%)] border-t border-primary-700">
       <Phone size={18} strokeWidth={3} />
       Call Now: {brand.phone}
     </a>

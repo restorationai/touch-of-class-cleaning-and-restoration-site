@@ -24,7 +24,7 @@ if (!entry) throw new Error("Missing content: pages/home.md — has Skill 3 rend
 const { Content } = await entry.render();
 const data = entry.data;
 
-const heroImage = data.hero || `${brand.imagesBase}/brand/hero.webp`;
+const heroImage = data.hero || "/images/hero-bg.webp" /* preview: local image until R2 brand assets are provisioned */;
 
 // Pull top 6 services by priority for the home page strip
 const allServices = await getCollection("services");
@@ -86,8 +86,8 @@ const services = (allServices as CollectionEntry<"services">[])
 
   <FAQSection faq={data.faq} />
 
-  <section class="bg-dark py-20 border-t border-white/10">
-    <div class="container-wide max-w-6xl mx-auto prose prose-xl prose-invert prose-headings:font-black prose-headings:uppercase prose-headings:tracking-tighter prose-a:text-primary-500 text-white/70">
+  <section class="bg-white py-20 border-t border-dark/10">
+    <div class="container-wide max-w-6xl mx-auto prose prose-xl prose-invert prose-headings:font-black prose-headings:uppercase prose-headings:tracking-tighter prose-a:text-primary-500 text-dark/70">
       <Content />
     </div>
   </section>

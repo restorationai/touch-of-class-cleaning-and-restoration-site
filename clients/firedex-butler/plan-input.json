@@ -1,11 +1,11 @@
 {
-  "_source": "Preview-stage draft 2026-07-08 from clients/firedex-butler/intel/audit-2026-07-08.md. WATER-FIRST positioning per audit (water difficulty 4/10; fire already ranks). Domain has a LIVE 2020 WordPress site \u2014 preview build only, no DNS changes.",
+  "_source": "Preview-stage draft 2026-07-08 from clients/firedex-butler/intel/audit-2026-07-08.md. WATER-FIRST positioning per audit (water difficulty 4/10; fire already ranks). Domain has a LIVE 2020 WordPress site — preview build only, no DNS changes.",
   "_claims_notes": {
-    "founded_1981": "In business since 1981 \u2014 claimed on firedex.net and consistent across citations; treated as claimable.",
+    "founded_1981": "In business since 1981 — claimed on firedex.net and consistent across citations; treated as claimable.",
     "pa_hic": "PA HIC #001913 (Pennsylvania Home Improvement Contractor registration).",
-    "epa_lead_safe": "EPA Lead-Safe Certified Firm NAT-23375-1 \u2014 claimed on legacy site; keep out of certifications badges until Robert confirms current.",
-    "iicrc_ria": "IICRC and RIA memberships CLAIMED on legacy site only \u2014 certifications list stays EMPTY until Robert confirms. No IICRC/RIA badges or 'certified' copy.",
-    "gbp_rating": "3.8 stars / 11 reviews \u2014 NEVER quote rating or review count anywhere in copy.",
+    "epa_lead_safe": "EPA Lead-Safe Certified Firm NAT-23375-1 — claimed on legacy site; keep out of certifications badges until Robert confirms current.",
+    "iicrc_ria": "IICRC and RIA memberships CLAIMED on legacy site only — certifications list stays EMPTY until Robert confirms. No IICRC/RIA badges or 'certified' copy.",
+    "gbp_rating": "3.8 stars / 11 reviews — NEVER quote rating or review count anywhere in copy.",
     "insured": "licensed_insured_attested stays false until intake answered."
   },
   "_intake_pending": [
@@ -67,7 +67,7 @@
       "zip_codes": [
         "16066"
       ],
-      "local_notes": "Butler County's fastest-growing township (~33k) at the I-79/Turnpike crossroads, 20 minutes north of Pittsburgh. Nearly every home has a basement \u2014 many finished \u2014 so sump-pump failures during spring thaw and summer thunderstorms are the signature water loss, alongside frozen and burst supply lines in January polar snaps. 1960s Fernway plats carry end-of-life galvanized plumbing while 1990s-2020s two-story plans see washing-machine hose, water-heater and second-floor bathroom failures that soak finished lower levels. Heavy clay soil sends hydrostatic seepage through foundation walls in wet springs; Brush Creek drainage backs up in cloudburst storms. FireDEX's own shop sits on Marshall Rd, so Cranberry response is measured in minutes."
+      "local_notes": "Butler County's fastest-growing township (~33k) at the I-79/Turnpike crossroads, 20 minutes north of Pittsburgh. Nearly every home has a basement — many finished — so sump-pump failures during spring thaw and summer thunderstorms are the signature water loss, alongside frozen and burst supply lines in January polar snaps. 1960s Fernway plats carry end-of-life galvanized plumbing while 1990s-2020s two-story plans see washing-machine hose, water-heater and second-floor bathroom failures that soak finished lower levels. Heavy clay soil sends hydrostatic seepage through foundation walls in wet springs; Brush Creek drainage backs up in cloudburst storms. FireDEX's own shop sits on Marshall Rd, so Cranberry response is measured in minutes."
     },
     {
       "city": "Wexford",
@@ -93,7 +93,7 @@
       "zip_codes": [
         "15090"
       ],
-      "local_notes": "Affluent North Hills postal community spanning Pine and Franklin Park townships in the North Allegheny school district. Large 1990s-2010s two-story and estate homes with finished walk-out basements, wet bars and home theaters \u2014 supply-line, water-heater and sump failures here mean high-value contents losses and full lower-level rebuilds to matching finishes. Bonus rooms over garages freeze pipes in hard cold snaps, and wooded lots on well water add pressure-tank and well-line failures. Homeowners carry strong insurance and expect fast, documentation-heavy mitigation."
+      "local_notes": "Affluent North Hills postal community spanning Pine and Franklin Park townships in the North Allegheny school district. Large 1990s-2010s two-story and estate homes with finished walk-out basements, wet bars and home theaters — supply-line, water-heater and sump failures here mean high-value contents losses and full lower-level rebuilds to matching finishes. Bonus rooms over garages freeze pipes in hard cold snaps, and wooded lots on well water add pressure-tank and well-line failures. Homeowners carry strong insurance and expect fast, documentation-heavy mitigation."
     },
     {
       "city": "Mars",
@@ -142,7 +142,7 @@
       "zip_codes": [
         "16063"
       ],
-      "local_notes": "Historic borough on the Connoquenessing Creek ten minutes north of Cranberry. The creek's floodplain history is the defining local risk \u2014 heavy-rain years push water into low-lying streets and basements near the community park. Pre-war Main Street homes and storefronts have stone foundations, original galvanized supply lines and knob-era wiring, driving basement seepage, burst pipes and older-structure fire losses. Neighboring Harmony's historic district shares the same aging-building profile."
+      "local_notes": "Historic borough on the Connoquenessing Creek ten minutes north of Cranberry. The creek's floodplain history is the defining local risk — heavy-rain years push water into low-lying streets and basements near the community park. Pre-war Main Street homes and storefronts have stone foundations, original galvanized supply lines and knob-era wiring, driving basement seepage, burst pipes and older-structure fire losses. Neighboring Harmony's historic district shares the same aging-building profile."
     },
     {
       "city": "Evans City",
@@ -165,7 +165,7 @@
       "zip_codes": [
         "16033"
       ],
-      "local_notes": "Small borough in the Breakneck Creek valley best known as the filming home of Night of the Living Dead. Creek-valley geography concentrates storm runoff \u2014 flash flooding and basement backups hit the low blocks near the creek in cloudburst summers. Housing stock is largely 1900-1950s frame homes with stone or block foundations, original drains and undersized sumps; winter freeze-thaw cycles crack aging supply lines. Surrounding Forward Township farm properties add outbuilding and well-system losses."
+      "local_notes": "Small borough in the Breakneck Creek valley best known as the filming home of Night of the Living Dead. Creek-valley geography concentrates storm runoff — flash flooding and basement backups hit the low blocks near the creek in cloudburst summers. Housing stock is largely 1900-1950s frame homes with stone or block foundations, original drains and undersized sumps; winter freeze-thaw cycles crack aging supply lines. Surrounding Forward Township farm properties add outbuilding and well-system losses."
     },
     {
       "city": "Seven Fields",
@@ -187,7 +187,7 @@
       "zip_codes": [
         "16046"
       ],
-      "local_notes": "One of Pennsylvania's youngest boroughs \u2014 a master-planned community built almost entirely from the late 1980s onward between Cranberry and Mars. Losses skew to appliance failures: washing-machine hoses, dishwasher lines, water heaters and refrigerator ice-maker lines flooding finished basements and first floors. Two-story plans with second-floor laundries send water through kitchen ceilings; townhome and patio-home clusters mean shared-wall losses where fast mitigation protects neighbors. Minutes from the FireDEX shop."
+      "local_notes": "One of Pennsylvania's youngest boroughs — a master-planned community built almost entirely from the late 1980s onward between Cranberry and Mars. Losses skew to appliance failures: washing-machine hoses, dishwasher lines, water heaters and refrigerator ice-maker lines flooding finished basements and first floors. Two-story plans with second-floor laundries send water through kitchen ceilings; townhome and patio-home clusters mean shared-wall losses where fast mitigation protects neighbors. Minutes from the FireDEX shop."
     },
     {
       "city": "Butler",
@@ -215,7 +215,7 @@
         "16002",
         "16003"
       ],
-      "local_notes": "The county seat and FireDEX's namesake city \u2014 a classic Western-PA industrial town where most housing predates 1950. Brick foursquares and frame homes on Institute Hill and in Lyndora run original cast-iron stacks, galvanized supply lines and fuse-era electrical, producing burst pipes, sewage backups and above-average house-fire frequency. Connoquenessing Creek and its runs flood low-lying streets in heavy rain. Downtown's older commercial blocks and the hospital corridor generate commercial water and fire losses; steep hillside streets complicate winter response, which rewards a local crew that knows them."
+      "local_notes": "The county seat and FireDEX's namesake city — a classic Western-PA industrial town where most housing predates 1950. Brick foursquares and frame homes on Institute Hill and in Lyndora run original cast-iron stacks, galvanized supply lines and fuse-era electrical, producing burst pipes, sewage backups and above-average house-fire frequency. Connoquenessing Creek and its runs flood low-lying streets in heavy rain. Downtown's older commercial blocks and the hospital corridor generate commercial water and fire losses; steep hillside streets complicate winter response, which rewards a local crew that knows them."
     },
     {
       "city": "Gibsonia",
@@ -239,7 +239,7 @@
       "zip_codes": [
         "15044"
       ],
-      "local_notes": "North Allegheny County postal area covering Richland Township and the Treesdale planned community. Upscale 1990s-2020s homes with finished basements see the classic suburban loss set \u2014 sump failures in spring, frozen bonus-room pipes in January, water-heater and supply-line floods year-round. Wooded lots off Route 8 on well and septic add well-line and ejector-pump failures, and long private drives make winter access planning part of the job. Older Bakerstown homes carry aging plumbing and chimney-fire risk."
+      "local_notes": "North Allegheny County postal area covering Richland Township and the Treesdale planned community. Upscale 1990s-2020s homes with finished basements see the classic suburban loss set — sump failures in spring, frozen bonus-room pipes in January, water-heater and supply-line floods year-round. Wooded lots off Route 8 on well and septic add well-line and ejector-pump failures, and long private drives make winter access planning part of the job. Older Bakerstown homes carry aging plumbing and chimney-fire risk."
     },
     {
       "city": "Beaver Falls",
@@ -263,7 +263,7 @@
       "zip_codes": [
         "15010"
       ],
-      "local_notes": "Beaver County mill town on the Beaver River, home to Geneva College \u2014 FireDEX holds a Beaver County Chamber membership and serves the county from Cranberry via Route 68/I-76 in about 25 minutes. Pre-war brick rowhomes and frame houses on College Hill and the numbered avenues run original cast-iron drains, galvanized lines and aging furnaces: burst pipes, sewage backups and space-heater fires are the recurring losses. River-valley humidity and stone foundations make chronic basement moisture and mold common, and the older commercial stock along Seventh Avenue adds sprinkler-discharge and roof-leak commercial work."
+      "local_notes": "Beaver County mill town on the Beaver River, home to Geneva College — FireDEX holds a Beaver County Chamber membership and serves the county from Cranberry via Route 68/I-76 in about 25 minutes. Pre-war brick rowhomes and frame houses on College Hill and the numbered avenues run original cast-iron drains, galvanized lines and aging furnaces: burst pipes, sewage backups and space-heater fires are the recurring losses. River-valley humidity and stone foundations make chronic basement moisture and mold common, and the older commercial stock along Seventh Avenue adds sprinkler-discharge and roof-leak commercial work."
     },
     {
       "city": "Economy",
@@ -351,7 +351,7 @@
     "license_numbers": [
       "PA001913"
     ],
-    "license_authority": "Pennsylvania Attorney General \u2014 Home Improvement Contractor Registration",
+    "license_authority": "Pennsylvania Attorney General — Home Improvement Contractor Registration",
     "certifications": [],
     "same_as_urls": [
       "https://www.google.com/maps?cid=14805396469301132499"
@@ -359,7 +359,7 @@
     "google_maps_api_key": "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
     "licensed_insured_attested": false,
     "logo_url": "",
-    "tagline": "Water \u2022 Fire \u2022 Storm Restoration \u2014 24/7 emergency response across Cranberry Township, Butler County and the Pittsburgh North suburbs since 1981.",
+    "tagline": "Water • Fire • Storm Restoration — 24/7 emergency response across Cranberry Township, Butler County and the Pittsburgh North suburbs since 1981.",
     "dark_color": "#102a43",
     "primary_color": "#c8102e",
     "primary_dark": "#a30d25",
@@ -367,7 +367,8 @@
     "accent_color": "#e5304c",
     "lat": 40.7099,
     "lng": -80.1061,
-    "ga4_measurement_id": "G-65LP4WBQWM"
+    "ga4_measurement_id": "G-65LP4WBQWM",
+    "theme": "light"
   },
   "cross_product": true,
   "keyword_strategy": "conservative",
