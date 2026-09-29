@@ -3,7 +3,7 @@
   "items": [
     {
       "id": "2026-09-23-best-water-damage-restoration-in-sacramento-ca",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-23T22:26:10Z",
       "priority": 1,
       "prioritized": true,
@@ -49,7 +49,47 @@
         "water damage cleanup Sacramento",
         "flood cleanup Sacramento"
       ],
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-29T22:51:27Z",
+      "post_url": "https://tdiusa.com/blog/best-water-damage-restoration-company-in-sacramento-ca/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-sacramento-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "166 reviews",
+          "context": "e deepest review base in the area, with 166 reviews and a 5.0 average, reflecting years of",
+          "reason": "listicle review-count 166 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-sacramento-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "25 reviews",
+          "context": "rtheast also holds a 5.0 average across 25 reviews. CRBR Property Damage Services of Sacra",
+          "reason": "listicle review-count 25 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-sacramento-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "41 reviews",
+          "context": "es of Sacramento sits at 4.9 stars from 41 reviews, and PuroClean of Southeast Sacramento",
+          "reason": "listicle review-count 41 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-sacramento-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "43 reviews",
+          "context": "heast Sacramento shows 4.8 stars across 43 reviews. All four have built their names primar",
+          "reason": "listicle review-count 43 (competitor stat \u2014 verify it is not presented as ours)"
+        }
+      ]
     },
     {
       "id": "2026-09-06-fire-smoke-restoration",
