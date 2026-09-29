@@ -579,7 +579,8 @@ def _loc() -> str:
 
 
 def anthropic_json(system: str, user: str, *, max_tokens: int = 4000,
-                   images: list[dict] | None = None) -> dict:
+                   images: list[dict] | None = None,
+                   model: str | None = None) -> dict:
     """One Messages call, expects a single JSON object in the reply.
     Retries once on an empty/non-JSON reply (2026-07-29: intermittent empty
     responses starved whole compose passes). `images` (from _vision_blocks:
@@ -605,7 +606,7 @@ def anthropic_json(system: str, user: str, *, max_tokens: int = 4000,
             "anthropic-version": "2023-06-01",
             "Content-Type": "application/json", "User-Agent": UA,
         }, json={
-            "model": ANTHROPIC_MODEL, "max_tokens": max_tokens,
+            "model": model or ANTHROPIC_MODEL, "max_tokens": max_tokens,
             "system": system,
             "messages": messages,
         })
@@ -1209,6 +1210,46 @@ def revalidate_commitment(cs: dict, history: list[dict], state: dict,
                 return (f"open commitment dropped: the work ledger shows it "
                         f"shipped ({line[:70]!r}) — it is done, not owed")
     return None
+
+
+# PROMISE HOLD (Santino 2026-09-29, Katofsky): Monica kept nudging Michael
+# for a customer list that was not due for weeks while OUR promise to him sat
+# seven days overdue. While a client holds an OVERDUE open commitment of ours
+# (public.client_commitments, written by scripts/promise_tracker.py), the
+# proactive nudge path stops asking them for anything. Replies to their
+# messages, delivering our own promise and Santino's directives still go;
+# only client-owed asks are dropped. Fail-open: a lookup error never blocks.
+def overdue_commitments(company_ids: list[str] | str,
+                        now: datetime | None = None) -> list[dict]:
+    ids = [company_ids] if isinstance(company_ids, str) else list(company_ids)
+    ids = [i for i in ids if i]
+    if not ids:
+        return []
+    now = now or datetime.now(timezone.utc)
+    try:
+        return _sb("GET", "/rest/v1/client_commitments?status=eq.open"
+                   "&company_id=in.(" + ",".join(ids) + ")"
+                   "&due_at=lt." + urllib.parse.quote(now.isoformat())
+                   + "&select=id,company_id,what,quote,owner,due_at"
+                   "&order=due_at.asc") or []
+    except Exception as e:  # noqa: BLE001 — the hold is fail-open
+        print(f"  [promise-hold] lookup failed ({str(e)[:80]}) — no hold")
+        return []
+
+
+def promise_hold(items: list[dict], overdue: list[dict]
+                 ) -> tuple[list[dict], str | None]:
+    """(items to keep, hold reason). An overdue promise of ours empties the
+    client-owed ask list; the caller skips the send entirely when nothing
+    else (a reply, our own promise, a directive) is owed."""
+    if not overdue or not items:
+        return items, None
+    o = overdue[0]
+    due = str(o.get("due_at") or "")[:10]
+    return [], (f"promise-hold: we owe them {len(overdue)} overdue "
+                f"promise(s), oldest due {due}: {str(o.get('what'))[:90]!r} "
+                f"— not nudging for {len(items)} client-owed item(s) until "
+                "we deliver (scripts/promise_tracker.py list)")
 
 
 # ---------------------------------------------------------------- timezone
@@ -2414,7 +2455,11 @@ def load_meeting_intel(company: dict) -> str | None:
     for key in sorted(docs):
         text = docs[key].strip()
         low = text.lower()
+        # key == company id: a client whose meeting was mined before its
+        # slug existed (fathom_sync keys that intel by company id, Katofsky
+        # / RestoPros 2026-09-29)
         hit = ((slug and key == slug)
+               or (cid and key.lower() == cid)
                or (cid and cid in low)
                or (name and name in low)
                or (len(core) >= 5 and core in low))
@@ -6964,6 +7009,14 @@ def cmd_compose(args) -> int:
         print("  (cooldown, nudge cap and the human-defer window are all "
               "bypassed — acting on his order is not a nudge)")
     owed = bool(pending or commitment or directives)
+    items, hold = promise_hold(
+        items, overdue_commitments([args.company] + merge_with) if items else [])
+    if hold:
+        print(f"PROMISE HOLD: {hold}")
+        if not owed:
+            print(f"{company['name']}: nudge skipped (promise-hold) — replies "
+                  "and our own deliveries still go, asks wait.")
+            return 0
     if not items and not owed:
         print(f"{company['name']}: nothing outstanding — no message needed.")
         return 0
@@ -14453,6 +14506,27 @@ def cmd_selfcheck(_args) -> int:
          any(i["id"] == "int-1" for i in _kept)),
     ]
     for label, ok in reval_cases:
+        fails += not ok
+        print(f"  {'ok  ' if ok else 'FAIL'} {label}")
+
+    # ---- promise hold (2026-09-29, Katofsky): an overdue promise of OURS
+    # silences client-owed nudges; replies still go. Pure-function check.
+    print("\npromise hold: overdue promise of ours => no client-owed nudges:")
+    _asks = [{"kind": "intake", "id": "a1", "text": "Send your customer list"}]
+    _od = [{"id": "p1", "what": "Send name options", "due_at":
+            "2026-09-22T21:00:00+00:00", "owner": "santino"}]
+    _k1, _r1 = promise_hold(list(_asks), _od)
+    _k2, _r2 = promise_hold(list(_asks), [])
+    _k3, _r3 = promise_hold([], _od)
+    for label, ok in [
+        ("overdue promise drops the client-owed asks", _k1 == [] and bool(_r1)),
+        ("...with a promise-hold skip reason", str(_r1).startswith("promise-hold")),
+        ("no overdue promise leaves asks untouched", _k2 == _asks and _r2 is None),
+        ("nothing to nudge = no hold noise (a reply path stays clean)",
+         _k3 == [] and _r3 is None),
+        ("lookup with no company ids is empty, never an error",
+         overdue_commitments([]) == []),
+    ]:
         fails += not ok
         print(f"  {'ok  ' if ok else 'FAIL'} {label}")
 
