@@ -140,9 +140,12 @@ AI reviewer can judge incoming phone/message leads for them. Work only from the
 facts given. Be concrete and short. The business may be ANY service niche
 (restoration, plumbing, HVAC, roofing, remodeling, cleaning...).
 
-Services NOT in lsa_services_enabled, and anything an ops note says was turned
-off or is unwanted, belong in does_not_want (an operator turned them off on
-purpose), even if the business technically offers them.
+WHAT THEY DO comes from site_services (their full service list) plus
+custom_services and lsa_services_enabled. A service they offer is WANTED even
+when it is not switched on in LSA (ACS 09-27: carpet cleaning is on their
+site but not enabled in LSA; carpet leads are GOOD leads). Put something in
+does_not_want ONLY when they don't offer it at all, or an ops note / meeting
+says they explicitly don't want it.
 
 Reply with ONLY JSON:
 {"summary": "one or two sentences: who they are and the jobs they want most",
@@ -154,6 +157,18 @@ Reply with ONLY JSON:
    vs residential, insurance work, minimum job size); empty if nothing"}"""
 
 
+def _site_services(co: dict) -> list:
+    """The client's full service list from its plan-input (what the site
+    sells), the truest 'what do they do' record we hold."""
+    slug = slug_map().get(co.get("id"))
+    try:
+        pi = json.loads((ROOT / "clients" / slug / "plan-input.json").read_text())
+    except Exception:  # noqa: BLE001
+        return []
+    return [s.get("name") if isinstance(s, dict) else s
+            for s in (pi.get("services") or [])]
+
+
 def seed_profile(cl, acid: str, co: dict, ctx: dict) -> dict:
     ints = _ints(co)
     notes = _sb("GET", "/rest/v1/marketing_ops_notes?company_id=eq."
@@ -163,6 +178,7 @@ def seed_profile(cl, acid: str, co: dict, ctx: dict) -> dict:
         "business_name": co.get("name"),
         "city_state": f"{co.get('city')}, {co.get('state')}",
         "custom_services": ints.get("custom_services"),
+        "site_services": _site_services(co),
         "site_brief": ints.get("site_brief"),
         "goals": ints.get("goals"),
         "lsa_services_enabled": ctx["lsa_services"],
@@ -205,7 +221,9 @@ Verdicts:
 - "good": a real customer asking for a job the business wants, in its area.
 - "bad": clearly one of Google's accepted reasons:
     GEO_MISMATCH (customer is outside the service area),
-    JOB_TYPE_MISMATCH (asks for work the business doesn't do / doesn't want),
+    JOB_TYPE_MISMATCH (asks for work the business doesn't do at all, or that
+      the profile's does_not_want explicitly lists; a service in the profile's
+      wants or site_services is NEVER a mismatch, even if not enabled in LSA),
     NOT_READY_TO_BOOK (just price shopping / no real need yet),
     SPAM (robocall, wrong number, prank, silent),
     DUPLICATE (same customer, same job, already a lead recently),
