@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-18-who-to-call-for-water-damage-restoration-in-abilene-tx",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-18T12:10:12Z",
       "priority": 1,
       "prioritized": true,
@@ -27,7 +27,9 @@
         "water cleanup Abilene",
         "water removal Abilene"
       ],
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-29T22:30:26Z",
+      "post_url": "https://aircarerestoration.com/blog/who-to-call-for-water-damage-restoration-in-abilene-tx/"
     },
     {
       "id": "2026-09-06-deodorization",
