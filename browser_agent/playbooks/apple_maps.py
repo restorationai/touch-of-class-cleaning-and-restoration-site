@@ -107,8 +107,12 @@ def _gbp_facts(company_id: str) -> dict:
         pid = gbp._place_id_from_connection(company_id)
         loc = gbp.find_location(tok, pid) if (tok and pid) else None
         if loc:
+            # PHONE = the REAL line, never the GBP primary (a tracking number
+            # wherever call tracking is live; policy corrected 09-26,
+            # sweep incident 09-28/29). The company row is the NAP truth.
+            from ..chassis import company_truth
             return {
-                "phone": (loc.get("phoneNumbers") or {}).get("primaryPhone"),
+                "phone": (company_truth(company_id) or {}).get("phone"),
                 "website": loc.get("websiteUri"),
                 "place_id": pid,
             }

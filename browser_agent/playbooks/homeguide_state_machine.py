@@ -109,8 +109,8 @@ def main() -> int:
     slug = sys.argv[1]
     resume = "--resume" in sys.argv
     # NAP overrides (added for run 2 / RX, 2026-08-03): the companies row can
-    # lag GBP — the phone entered is ALWAYS the GBP primary (form_fill.py
-    # phone policy) and the street line the clean GBP one, so callers pass a
+    # lag GBP — the phone entered is ALWAYS the client's REAL line (never a
+    # tracking number; policy corrected 09-26, the sweep passes it) and the street line the clean GBP one, so callers pass a
     # JSON arg like '{"phone": "8669435551", "address": "4700 SW 51st St",
     # "suite": "Ste 205", "website": "https://..."}'. Mirrors houzz_run.py.
     ov = next((json.loads(a) for a in sys.argv[2:] if not a.startswith("--")), {})
