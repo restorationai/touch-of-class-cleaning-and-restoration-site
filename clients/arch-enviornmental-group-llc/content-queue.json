@@ -49,7 +49,7 @@
     },
     {
       "id": "2026-09-06-lead-testing",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-06T10:23:57Z",
       "priority": 1,
       "content_type": "target_term",
@@ -58,7 +58,65 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": "clovis-ca",
-      "source": "app target-term (onboarding-backfill)"
+      "source": "app target-term (onboarding-backfill)",
+      "written_at": "2026-09-30T10:27:29Z",
+      "post_url": "https://archenviroservice.com/blog/lead-testing/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/lead-testing.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "lead-safe",
+          "context": "for lead or assume it's present and use lead-safe work practices. A test can confirm lead",
+          "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+        },
+        {
+          "file": "src/content/blog/lead-testing.md",
+          "part": "frontmatter",
+          "family": "certification",
+          "severity": "review",
+          "matched": "lead-safe",
+          "context": "a qualified, licensed lead abatement or lead-safe renovation contractor to address the pa",
+          "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+        },
+        {
+          "file": "src/content/blog/lead-testing.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "lead-safe",
+          "context": "ndard rules; a positive result triggers lead-safe work practices under the Renovation, Re",
+          "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+        },
+        {
+          "file": "src/content/blog/lead-testing.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "lead-safe",
+          "context": "is hiring a qualified lead abatement or lead-safe renovation contractor, not calling the",
+          "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+        },
+        {
+          "file": "src/content/blog/lead-testing.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "lead-safe",
+          "context": "ition may only require encapsulation or lead-safe work practices during renovation. Deter",
+          "reason": "lead-safe practice reference on a brand without the cert \u2014 verify it does not read as an EPA Lead-Safe credential claim"
+        },
+        {
+          "file": "src/content/blog/lead-testing.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "lead-safe",
+          "context": "EPA-mandated](https://www.epa.gov/lead) lead-safe procedures. Once that work is finished",
+          "reason": "names a certification not present in brand.certifications"
+        }
+      ]
     },
     {
       "id": "2026-09-03-best-mold-inspection-testing-in-kingsburg-ca",
