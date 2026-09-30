@@ -33,6 +33,6 @@ Every assessment produces documentation, not just a verbal "you have mold." The 
 
 ## Our process
 
-The clock and the humidity both work against you here on the coast, so the goal is a clear answer quickly. We survey the property, identify and document the moisture source, coordinate independent sampling where it is warranted, and walk you through the lab results once they are back. If remediation is the right next step, we can perform that work, with the assessment and the final clearance kept independent so the outcome is verified rather than assumed.
+The clock and the humidity both work against you here on the coast, so the goal is a clear answer quickly. We survey the property, identify and document the moisture source, coordinate independent sampling where it is warranted, and walk you through the lab results once they are back. If remediation is the right next step, we can perform that work, with the assessment and the final clearance kept independent so the outcome is verified rather than assumed. That is what we mean by cradle to grave: we coordinate the assessor, do the remediation, are on site for the post-remediation verification (PRV), and help you make sense of the lab report at the end.
 
 If you are dealing with a musty smell that will not go away, visible growth, or a water problem you are worried left mold behind, call **(337) 344-1248**. We will tell you honestly whether an assessment is warranted and what it will take to know for sure.

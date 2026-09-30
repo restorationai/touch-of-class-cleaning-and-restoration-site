@@ -39,6 +39,10 @@ Freeport's Gulf Coast humidity, with summer dewpoints that regularly push into t
 
 5. **Post-remediation air sampling and clearance.** Air samples collected inside the work zone and in adjacent areas are compared against outdoor baseline samples. Clearance is confirmed when indoor spore counts and species composition are consistent with or better than the outdoor reference. The project is not complete until clearance is documented.
 
+## Cradle to grave, from assessment to sign-off
+
+Kenny describes the way we work as cradle to grave: we stay with you through every step of a mold job, from the first assessment to the final sign-off. We line up an independent assessor and walk the property with them. We handle the demolition and the remediation. We are on site when the assessor comes back for post-remediation verification (PRV), the clearance that certifies the cleanup. And when the lab report arrives, we help you read it, translating the findings into plain language so you know exactly what they mean. You get one team accountable for the whole process, while the testing and the clearance stay independent.
+
 ## What separates a good mold remediation response from a bad one
 
 The most common failure in mold cleanup is inadequate containment. Without negative air pressure and proper barrier installation, remediation activity aerosolizes spores into unaffected areas of the home, sometimes causing cross-contamination that's worse than the original loss. A second common mistake is skipping post-remediation clearance testing, which leaves both the homeowner and the contractor without documented proof that the work achieved its goal.

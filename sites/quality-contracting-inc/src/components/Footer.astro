@@ -95,6 +95,15 @@ const IG_ICON = `<svg width="18" height="18" viewBox="0 0 24 24" fill="currentCo
         <li><a href="/privacy/" class="text-navy-900/70 hover:text-primary no-underline">Privacy</a></li>
         <li><a href="/terms/" class="text-navy-900/70 hover:text-primary no-underline">Terms</a></li>
         <li><a href="/accessibility/" class="text-navy-900/70 hover:text-primary no-underline">Accessibility</a></li>
+        <li>
+          {/* Fran 2026-08-19: PAY HERE — Authorize.net checkout ported from qualitycontracting.us.
+              Lost in the 09-23 ops-sync sweep, header copy restored 09-29, footer copy
+              restored 09-30 (Fran 09-25 + 09-29: "the payment link dropped from our website"). */}
+          <form name="PrePage" method="post" action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx" target="_blank" class="inline">
+            <input type="hidden" name="LinkId" value="84c642bd-2c15-4cb2-995e-a0d1c8654865" />
+            <input type="submit" value="Pay Here" class="p-0 bg-transparent border-0 text-primary font-bold cursor-pointer hover:underline" />
+          </form>
+        </li>
       </ul>
     </div>
   </div>
