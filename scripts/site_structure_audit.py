@@ -114,7 +114,8 @@ def audit(slug: str, live: bool) -> dict:
             "merged": {k: v.get("into") for k, v in m.get("merged", {}).items()},
             "kept_pairs": [(k["a"], k["b"]) for k in m.get("kept_pairs", [])],
             "gbp": audit_gbp(slug, live),
-            "our_work": audit_our_work(slug)}
+            "our_work": audit_our_work(slug),
+            "redirects": ss.normalize_redirects(ss.SITES / slug / "public" / "_redirects", apply=False)}
 
 
 def main() -> int:
@@ -128,7 +129,7 @@ def main() -> int:
     rows = [audit(s, a.live) for s in slugs
             if ss.service_pages(s) and (ss.SITES / s / "src" / "pages" / "index.astro").exists()]
     print(f"{'site':44} {'home':>5} {'dupes':>5} {'merged':>6} {'kept':>4} "
-          f"{'gbp':>4} {'unmap':>5} {'B/A':>4} {'CS':>3}")
+          f"{'gbp':>4} {'unmap':>5} {'B/A':>4} {'CS':>3} {'301s':>5}")
     tot = {"home_bad": 0, "dupes": 0, "merged": 0, "kept": 0, "gbp": 0, "unmapped": 0}
     for r in rows:
         h, g, w = r["homepage"], r["gbp"], r["our_work"]
@@ -137,8 +138,10 @@ def main() -> int:
         if w["missing_images"]:
             ba += "!"
         cs = "ok" if w["case_studies_page"] and w["case_studies_nav_links"] else "-"
+        rd = r["redirects"]
+        red = "CAP!" if rd["over_cap"] else ("ORDER" if rd["changed"] and rd["dynamic"] else "ok")
         print(f"{r['slug']:44} {home:>5} {len(r['duplicates']):>5} {len(r['merged']):>6} "
-              f"{len(r['kept_pairs']):>4} {g['total']:>4} {len(g['unmapped']):>5} {ba:>4} {cs:>3}")
+              f"{len(r['kept_pairs']):>4} {g['total']:>4} {len(g['unmapped']):>5} {ba:>4} {cs:>3} {red:>5}")
         tot["home_bad"] += bool(h["issues"])
         tot["dupes"] += len(r["duplicates"])
         tot["merged"] += len(r["merged"])
@@ -162,6 +165,7 @@ def main() -> int:
     print(f"\n{len(rows)} sites | homepage issues: {tot['home_bad']} | open duplicate clusters: "
           f"{tot['dupes']} | merged pages: {tot['merged']} | kept pairs: {tot['kept']} | "
           f"GBP services mapped: {tot['gbp']} ({tot['unmapped']} without a decision)")
+    print("301s = _redirects health (ORDER = a static rule after a dynamic one, which Cloudflare drops past 100; CAP! = over 2,000 static / 100 dynamic)")
     print("B/A = before/after pairs on the homepage 'Our Work' slider (off = not wired, "
           "0 = wired but no pairs yet, ! = image missing); CS = /case-studies/ page + nav link")
     if a.json:

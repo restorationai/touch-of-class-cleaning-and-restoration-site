@@ -106,17 +106,6 @@
 /water-softeners/how-a-water-softener-works/ /services/water-softeners-filtration/ 301
 /water-softeners/how-much-do-softeners-cost/ /services/water-softeners-filtration/ 301
 /water-softeners/how-to-size-a-water-softener/ /services/water-softeners-filtration/ 301
-/area-served/* /service-areas/ 301
-/category/* /blog/ 301
-/author/* /blog/ 301
-/corona-ca/* /service-areas/corona-ca/ 301
-/*.aspx / 301
-/drain-cleaning-lp/* /services/drain-cleaning/ 301
-/plumbing-services-lp/* /services/ 301
-/emergency-plumbing-lp/* /services/emergency-plumbing/ 301
-/leak-detection-lp/* /services/leak-detection/ 301
-/leak-detection/* /services/leak-detection/ 301
-/services/re-pipe/* /services/repiping/ 301
 /services/water-damage-restoration/thank-you/ /services/water-damage-restoration/ 301
 /services/water-damage/ /services/water-damage-restoration/ 301
 /water-damage-restoration/ /services/water-damage-restoration/ 301
@@ -125,8 +114,6 @@
 # so they are NOT restored; they forward to the Dry County referral page.
 /services/repair-water-damage/ /services/water-damage-restoration/ 301
 /services/repair-water-damage /services/water-damage-restoration/ 301
-/service-areas/:city/repair-water-damage/ /services/water-damage-restoration/ 301
-/service-areas/:city/repair-water-damage /services/water-damage-restoration/ 301
 # duplicate service merge 2026-09-30: /services/air-duct-cleaning-service/ folded into /services/air-duct-cleaning/ (scripts/service_merge.py)
 /services/air-duct-cleaning-service /services/air-duct-cleaning/ 301
 /services/air-duct-cleaning-service/ /services/air-duct-cleaning/ 301
@@ -376,3 +363,16 @@
 /service-areas/winchester-ca/common-plumbing-emergencies/ /service-areas/winchester-ca/emergency-plumbing/ 301
 /service-areas/woodcrest-ca/common-plumbing-emergencies/ /service-areas/woodcrest-ca/emergency-plumbing/ 301
 /service-areas/yorba-linda-ca/common-plumbing-emergencies/ /service-areas/yorba-linda-ca/emergency-plumbing/ 301
+/area-served/* /service-areas/ 301
+/category/* /blog/ 301
+/author/* /blog/ 301
+/corona-ca/* /service-areas/corona-ca/ 301
+/*.aspx / 301
+/drain-cleaning-lp/* /services/drain-cleaning/ 301
+/plumbing-services-lp/* /services/ 301
+/emergency-plumbing-lp/* /services/emergency-plumbing/ 301
+/leak-detection-lp/* /services/leak-detection/ 301
+/leak-detection/* /services/leak-detection/ 301
+/services/re-pipe/* /services/repiping/ 301
+/service-areas/:city/repair-water-damage/ /services/water-damage-restoration/ 301
+/service-areas/:city/repair-water-damage /services/water-damage-restoration/ 301

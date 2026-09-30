@@ -195,6 +195,7 @@ def append_redirects(site: Path, src: str, dst: str, cities: list[str],
                    "(scripts/service_merge.py)\n" + "\n".join(lines) + "\n")
         red.parent.mkdir(parents=True, exist_ok=True)
         red.write_text(existing + block)
+        ss.normalize_redirects(red)  # static before dynamic (CF counts rules after a dynamic one as dynamic)
     return len(lines)
 
 

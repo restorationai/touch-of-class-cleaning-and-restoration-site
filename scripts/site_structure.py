@@ -524,6 +524,41 @@ def clears_new_page_bar(head: str, city: str | None, state: str | None) -> tuple
 
 
 # --------------------------------------------------------------------------- #
+# Cloudflare Pages _redirects hygiene
+# --------------------------------------------------------------------------- #
+def _is_dynamic(src: str) -> bool:
+    return "*" in src or bool(re.search(r"/:[A-Za-z]", src))
+
+
+def normalize_redirects(path: Path, apply: bool = True) -> dict:
+    """Cloudflare Pages counts every rule AFTER the first dynamic one
+    (placeholder or splat) against the 100-dynamic cap and silently drops
+    the rest (found 09-30: Air Care honored only rules 1-128 because a
+    :city rule sat at #29). Static rules therefore go first, dynamic rules
+    last, each block in its original order. Comments stay with the rule that
+    follows them. Returns counts; refuses nothing, just reports caps."""
+    text = path.read_text() if path.exists() else ""
+    static, dynamic, pending = [], [], []
+    for line in text.splitlines():
+        if not line.strip():
+            continue
+        if line.lstrip().startswith("#"):
+            pending.append(line)
+            continue
+        src = line.split()[0]
+        (dynamic if _is_dynamic(src) else static).extend(pending + [line])
+        pending = []
+    out = static + dynamic + pending
+    new = "\n".join(out).strip("\n") + "\n" if out else ""
+    n_static = sum(1 for l in static if l.strip() and not l.lstrip().startswith("#"))
+    n_dyn = sum(1 for l in dynamic if l.strip() and not l.lstrip().startswith("#"))
+    if apply and new != text and text:
+        path.write_text(new)
+    return {"static": n_static, "dynamic": n_dyn, "changed": new != text,
+            "over_cap": n_static > 2000 or n_dyn > 100}
+
+
+# --------------------------------------------------------------------------- #
 # git helper (seeding homepage_services from the pre-parity homepage)
 # --------------------------------------------------------------------------- #
 PRE_PARITY_DATE = "2026-09-17"   # gbp_parity.py P1-P3 went live 09-17

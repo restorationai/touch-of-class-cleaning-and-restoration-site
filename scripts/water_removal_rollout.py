@@ -273,6 +273,7 @@ def rollout(slug: str, apply: bool, rewrite: bool) -> dict | None:
         red.write_text(existing + ("" if existing.endswith("\n") or not existing else "\n")
                        + f"# {STAMP}: /services/{OLD}/ moved to /services/{NEW}/ "
                          "(scripts/water_removal_rollout.py)\n" + "\n".join(add) + "\n")
+        ss.normalize_redirects(red)
     if apply:
         sm.dedupe_internal_links(site, True, only=set(touched))
         # plan-input

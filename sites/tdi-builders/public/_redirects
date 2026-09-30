@@ -2,8 +2,6 @@
 # service pages are the Sacramento service pages.
 /service-areas/sacramento-ca / 301
 /service-areas/sacramento-ca/ / 301
-/service-areas/sacramento-ca/:service /services/:service/ 301
-/service-areas/sacramento-ca/:service/ /services/:service/ 301
 # duplicate service merge 2026-09-30: /services/24-7-emergency-water-cleanup/ folded into /services/water-damage-restoration/ (scripts/service_merge.py)
 /services/24-7-emergency-water-cleanup /services/water-damage-restoration/ 301
 /services/24-7-emergency-water-cleanup/ /services/water-damage-restoration/ 301
@@ -181,3 +179,5 @@
 /service-areas/turlock-ca/bathroom-remodeler/ /service-areas/turlock-ca/bathroom-remodeling/ 301
 /service-areas/west-sacramento-ca/bathroom-remodeler/ /service-areas/west-sacramento-ca/bathroom-remodeling/ 301
 /service-areas/woodland-ca/bathroom-remodeler/ /service-areas/woodland-ca/bathroom-remodeling/ 301
+/service-areas/sacramento-ca/:service /services/:service/ 301
+/service-areas/sacramento-ca/:service/ /services/:service/ 301
