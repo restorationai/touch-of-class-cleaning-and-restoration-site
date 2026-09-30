@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "08065b608d770a7f"
 generated_at: "2026-09-30T19:28:37.914706+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anderson-island-wa/industrial-restoration/", "/service-areas/auburn-wa/industrial-restoration/", "/service-areas/bellevue-wa/industrial-restoration/", "/service-areas/bonney-lake-wa/industrial-restoration/", "/service-areas/bremerton-wa/industrial-restoration/", "/service-areas/burien-wa/industrial-restoration/", "/service-areas/centralia-wa/industrial-restoration/", "/service-areas/clover-creek-wa/industrial-restoration/", "/service-areas/dupont-wa/industrial-restoration/", "/service-areas/federal-way-wa/industrial-restoration/", "/service-areas/fife-wa/industrial-restoration/", "/service-areas/fircrest-wa/industrial-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/anderson-island-wa/industrial-restoration/", "/service-areas/auburn-wa/industrial-restoration/", "/service-areas/bonney-lake-wa/industrial-restoration/", "/service-areas/bremerton-wa/industrial-restoration/", "/service-areas/burien-wa/industrial-restoration/", "/service-areas/centralia-wa/industrial-restoration/", "/service-areas/dupont-wa/industrial-restoration/", "/service-areas/federal-way-wa/industrial-restoration/", "/service-areas/fife-wa/industrial-restoration/", "/service-areas/fircrest-wa/industrial-restoration/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "industrial-restoration"}]
 faq: []
 service_slug: "industrial-restoration"

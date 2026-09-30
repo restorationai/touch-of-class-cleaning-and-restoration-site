@@ -10,7 +10,7 @@ priority: 5.6
 plan_hash: "3ff285e8fb364700"
 generated_at: "2026-09-30T19:28:37.968087+00:00"
 manual_override: false
-internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/auburn-wa/", "/service-areas/auburn-wa/fire-damage-restoration/", "/service-areas/auburn-wa/mold-remediation/", "/service-areas/anderson-island-wa/basement-flooding-cleanup/", "/service-areas/bellevue-wa/basement-flooding-cleanup/", "/contact/"]
+internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/auburn-wa/", "/service-areas/auburn-wa/fire-damage-restoration/", "/service-areas/auburn-wa/mold-remediation/", "/service-areas/anderson-island-wa/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Auburn", "url": "/service-areas/auburn-wa/"}, {"name": "basement-flooding-cleanup"}]
 faq: []
 area_slug: "auburn-wa"

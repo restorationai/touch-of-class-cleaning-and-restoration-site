@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "8497199a53a56186"
 generated_at: "2026-09-30T19:28:37.968148+00:00"
 manual_override: false
-internal_links: ["/services/smoke-damage-restoration/", "/service-areas/auburn-wa/", "/service-areas/auburn-wa/fire-damage-restoration/", "/service-areas/auburn-wa/mold-remediation/", "/service-areas/anderson-island-wa/smoke-damage-restoration/", "/service-areas/bellevue-wa/smoke-damage-restoration/", "/contact/"]
+internal_links: ["/services/smoke-damage-restoration/", "/service-areas/auburn-wa/", "/service-areas/auburn-wa/fire-damage-restoration/", "/service-areas/auburn-wa/mold-remediation/", "/service-areas/anderson-island-wa/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Auburn", "url": "/service-areas/auburn-wa/"}, {"name": "smoke-damage-restoration"}]
 faq: []
 area_slug: "auburn-wa"

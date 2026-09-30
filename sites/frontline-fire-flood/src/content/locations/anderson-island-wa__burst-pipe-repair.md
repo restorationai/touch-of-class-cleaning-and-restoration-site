@@ -10,7 +10,7 @@ priority: 5.6
 plan_hash: "f62a902f88d6e349"
 generated_at: "2026-09-30T19:28:38.045650+00:00"
 manual_override: false
-internal_links: ["/services/burst-pipe-repair/", "/service-areas/anderson-island-wa/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/burst-pipe-repair/", "/service-areas/bellevue-wa/burst-pipe-repair/", "/contact/"]
+internal_links: ["/services/burst-pipe-repair/", "/service-areas/anderson-island-wa/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Anderson Island", "url": "/service-areas/anderson-island-wa/"}, {"name": "burst-pipe-repair"}]
 faq: []
 area_slug: "anderson-island-wa"

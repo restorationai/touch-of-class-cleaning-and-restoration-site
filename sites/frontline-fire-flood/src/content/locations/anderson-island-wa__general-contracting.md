@@ -10,7 +10,7 @@ priority: 5.6
 plan_hash: "8f652016dc9993d3"
 generated_at: "2026-09-30T19:28:38.046123+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/anderson-island-wa/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/general-contracting/", "/service-areas/bellevue-wa/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/anderson-island-wa/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Anderson Island", "url": "/service-areas/anderson-island-wa/"}, {"name": "general-contracting"}]
 faq: []
 area_slug: "anderson-island-wa"

@@ -10,7 +10,7 @@ priority: 3.5
 plan_hash: "aabed118e89e512d"
 generated_at: "2026-09-30T19:28:38.042428+00:00"
 manual_override: false
-internal_links: ["/services/contents-restoration-storage/", "/service-areas/anderson-island-wa/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/contents-restoration-storage/", "/service-areas/bellevue-wa/contents-restoration-storage/", "/contact/"]
+internal_links: ["/services/contents-restoration-storage/", "/service-areas/anderson-island-wa/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Anderson Island", "url": "/service-areas/anderson-island-wa/"}, {"name": "Contents Restoration & Storage"}]
 faq: []
 area_slug: "anderson-island-wa"

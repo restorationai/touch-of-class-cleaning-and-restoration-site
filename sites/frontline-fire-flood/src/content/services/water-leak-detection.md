@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "85ecb06b3dd78f64"
 generated_at: "2026-09-30T19:28:37.915088+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anderson-island-wa/water-leak-detection/", "/service-areas/auburn-wa/water-leak-detection/", "/service-areas/bellevue-wa/water-leak-detection/", "/service-areas/bonney-lake-wa/water-leak-detection/", "/service-areas/bremerton-wa/water-leak-detection/", "/service-areas/burien-wa/water-leak-detection/", "/service-areas/centralia-wa/water-leak-detection/", "/service-areas/clover-creek-wa/water-leak-detection/", "/service-areas/dupont-wa/water-leak-detection/", "/service-areas/federal-way-wa/water-leak-detection/", "/service-areas/fife-wa/water-leak-detection/", "/service-areas/fircrest-wa/water-leak-detection/"]
+internal_links: ["/services/", "/contact/", "/service-areas/anderson-island-wa/water-leak-detection/", "/service-areas/auburn-wa/water-leak-detection/", "/service-areas/bonney-lake-wa/water-leak-detection/", "/service-areas/bremerton-wa/water-leak-detection/", "/service-areas/burien-wa/water-leak-detection/", "/service-areas/centralia-wa/water-leak-detection/", "/service-areas/dupont-wa/water-leak-detection/", "/service-areas/federal-way-wa/water-leak-detection/", "/service-areas/fife-wa/water-leak-detection/", "/service-areas/fircrest-wa/water-leak-detection/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "water-leak-detection"}]
 faq: []
 service_slug: "water-leak-detection"

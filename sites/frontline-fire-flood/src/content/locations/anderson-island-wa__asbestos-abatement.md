@@ -10,7 +10,7 @@ priority: 4.2
 plan_hash: "4781bc185e66a3c3"
 generated_at: "2026-09-30T19:28:38.042091+00:00"
 manual_override: false
-internal_links: ["/services/asbestos-abatement/", "/service-areas/anderson-island-wa/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/asbestos-abatement/", "/service-areas/bellevue-wa/asbestos-abatement/", "/contact/"]
+internal_links: ["/services/asbestos-abatement/", "/service-areas/anderson-island-wa/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Anderson Island", "url": "/service-areas/anderson-island-wa/"}, {"name": "Asbestos Abatement"}]
 faq: []
 area_slug: "anderson-island-wa"

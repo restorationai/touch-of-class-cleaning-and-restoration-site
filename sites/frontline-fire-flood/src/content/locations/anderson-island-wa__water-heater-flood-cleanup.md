@@ -10,7 +10,7 @@ priority: 4.9
 plan_hash: "255802a0eca9758e"
 generated_at: "2026-09-30T19:28:38.046301+00:00"
 manual_override: false
-internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/anderson-island-wa/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/water-heater-flood-cleanup/", "/service-areas/bellevue-wa/water-heater-flood-cleanup/", "/contact/"]
+internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/anderson-island-wa/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Anderson Island", "url": "/service-areas/anderson-island-wa/"}, {"name": "water-heater-flood-cleanup"}]
 faq: []
 area_slug: "anderson-island-wa"

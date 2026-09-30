@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "cdd944d902194966"
 generated_at: "2026-09-30T19:28:38.043314+00:00"
 manual_override: false
-internal_links: ["/services/emergency-water-removal/", "/service-areas/anderson-island-wa/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/emergency-water-removal/", "/service-areas/bellevue-wa/emergency-water-removal/", "/contact/"]
+internal_links: ["/services/emergency-water-removal/", "/service-areas/anderson-island-wa/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Anderson Island", "url": "/service-areas/anderson-island-wa/"}, {"name": "Emergency Water Removal & Cleanup"}]
 faq: []
 area_slug: "anderson-island-wa"

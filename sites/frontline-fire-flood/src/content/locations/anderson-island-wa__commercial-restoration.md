@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "3774262d9db91e9a"
 generated_at: "2026-09-30T19:28:38.045917+00:00"
 manual_override: false
-internal_links: ["/services/commercial-restoration/", "/service-areas/anderson-island-wa/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/commercial-restoration/", "/service-areas/bellevue-wa/commercial-restoration/", "/contact/"]
+internal_links: ["/services/commercial-restoration/", "/service-areas/anderson-island-wa/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Anderson Island", "url": "/service-areas/anderson-island-wa/"}, {"name": "commercial-restoration"}]
 faq: []
 area_slug: "anderson-island-wa"

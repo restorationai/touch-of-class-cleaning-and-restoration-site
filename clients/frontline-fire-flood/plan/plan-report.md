@@ -1,20 +1,20 @@
 # Site Plan Report — Frontline Fire & Flood
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T19:28:36.752601+00:00
+- Generated: 2026-09-30T21:50:08.080809+00:00
 - Domain: `frontlinefireflood.com`
 - Services selected: 24 of 91 catalog entries
-- Service areas: 39
+- Service areas: 36
 - Cross-product enabled: True
-- Total URLs: **991**
-- Total internal links: 8021 (avg 8.1 per page)
+- Total URLs: **916**
+- Total internal links: 7424 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 912 |
-| `service-area` | 38 |
+| `service-area-service` | 840 |
+| `service-area` | 35 |
 | `service-landing` | 24 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -63,8 +63,6 @@
 - `spanaway-wa` — Spanaway, WA
 - `parkland-wa` — Parkland, WA
 - `dupont-wa` — DuPont, WA
-- `seattle-wa` — Seattle, WA
-- `bellevue-wa` — Bellevue, WA
 - `kent-wa` — Kent, WA
 - `renton-wa` — Renton, WA
 - `federal-way-wa` — Federal Way, WA
@@ -88,7 +86,6 @@
 - `fort-lewis-wa` — Fort Lewis, WA
 - `anderson-island-wa` — Anderson Island, WA
 - `waller-wa` — Waller, WA
-- `clover-creek-wa` — Clover Creek, WA
 - `wollochet-wa` — Wollochet, WA
 - `summit-wa` — Summit, WA
 - `summit-view-wa` — Summit View, WA

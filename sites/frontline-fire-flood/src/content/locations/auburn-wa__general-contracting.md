@@ -10,7 +10,7 @@ priority: 5.6
 plan_hash: "eee1464056c6dbf7"
 generated_at: "2026-09-30T19:28:37.968440+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/auburn-wa/", "/service-areas/auburn-wa/fire-damage-restoration/", "/service-areas/auburn-wa/mold-remediation/", "/service-areas/anderson-island-wa/general-contracting/", "/service-areas/bellevue-wa/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/auburn-wa/", "/service-areas/auburn-wa/fire-damage-restoration/", "/service-areas/auburn-wa/mold-remediation/", "/service-areas/anderson-island-wa/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Auburn", "url": "/service-areas/auburn-wa/"}, {"name": "general-contracting"}]
 faq: []
 area_slug: "auburn-wa"

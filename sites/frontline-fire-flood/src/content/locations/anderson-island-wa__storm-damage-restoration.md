@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "064fdb4c0ad0f3f3"
 generated_at: "2026-09-30T19:28:38.044987+00:00"
 manual_override: false
-internal_links: ["/services/storm-damage-restoration/", "/service-areas/anderson-island-wa/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/storm-damage-restoration/", "/service-areas/bellevue-wa/storm-damage-restoration/", "/contact/"]
+internal_links: ["/services/storm-damage-restoration/", "/service-areas/anderson-island-wa/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Anderson Island", "url": "/service-areas/anderson-island-wa/"}, {"name": "Storm Damage Restoration"}]
 faq: []
 area_slug: "anderson-island-wa"

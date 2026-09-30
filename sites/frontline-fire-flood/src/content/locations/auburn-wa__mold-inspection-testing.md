@@ -10,7 +10,7 @@ priority: 5.6
 plan_hash: "cb614c401c41670a"
 generated_at: "2026-09-30T19:28:37.968210+00:00"
 manual_override: false
-internal_links: ["/services/mold-inspection-testing/", "/service-areas/auburn-wa/", "/service-areas/auburn-wa/fire-damage-restoration/", "/service-areas/auburn-wa/mold-remediation/", "/service-areas/anderson-island-wa/mold-inspection-testing/", "/service-areas/bellevue-wa/mold-inspection-testing/", "/contact/"]
+internal_links: ["/services/mold-inspection-testing/", "/service-areas/auburn-wa/", "/service-areas/auburn-wa/fire-damage-restoration/", "/service-areas/auburn-wa/mold-remediation/", "/service-areas/anderson-island-wa/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Auburn", "url": "/service-areas/auburn-wa/"}, {"name": "mold-inspection-testing"}]
 faq: []
 area_slug: "auburn-wa"

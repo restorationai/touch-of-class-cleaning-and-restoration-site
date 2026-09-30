@@ -99,16 +99,6 @@
       "slug": "dupont-wa"
     },
     {
-      "city": "Seattle",
-      "state": "WA",
-      "slug": "seattle-wa"
-    },
-    {
-      "city": "Bellevue",
-      "state": "WA",
-      "slug": "bellevue-wa"
-    },
-    {
       "city": "Kent",
       "state": "WA",
       "slug": "kent-wa"
@@ -224,11 +214,6 @@
       "slug": "waller-wa"
     },
     {
-      "city": "Clover Creek",
-      "state": "WA",
-      "slug": "clover-creek-wa"
-    },
-    {
       "city": "Wollochet",
       "state": "WA",
       "slug": "wollochet-wa"
@@ -260,5 +245,95 @@
   ],
   "merged_services": {
     "water-cleanup": "emergency-water-removal"
-  }
+  },
+  "client_removed_areas": [
+    {
+      "city": "Bellevue",
+      "state": "WA",
+      "slug": "bellevue-wa",
+      "removed_at": "2026-09-30",
+      "requested_by": "Jared",
+      "why": "client asked to remove it (SMS 2026-09-30)"
+    },
+    {
+      "city": "Clover Creek",
+      "state": "WA",
+      "slug": "clover-creek-wa",
+      "removed_at": "2026-09-30",
+      "requested_by": "Jared",
+      "why": "client asked to remove it (SMS 2026-09-30)"
+    },
+    {
+      "city": "Seattle",
+      "state": "WA",
+      "slug": "seattle-wa",
+      "removed_at": "2026-09-30",
+      "requested_by": "Jared",
+      "why": "client asked to remove it (SMS 2026-09-30)"
+    },
+    {
+      "city": "Shoreline",
+      "state": "WA",
+      "slug": "shoreline-wa",
+      "removed_at": "2026-09-30",
+      "requested_by": "Jared",
+      "why": "client asked to remove it (SMS 2026-09-30)"
+    },
+    {
+      "city": "Issaquah",
+      "state": "WA",
+      "slug": "issaquah-wa",
+      "removed_at": "2026-09-30",
+      "requested_by": "Jared",
+      "why": "client asked to remove it (SMS 2026-09-30)"
+    },
+    {
+      "city": "Bainbridge Island",
+      "state": "WA",
+      "slug": "bainbridge-island-wa",
+      "removed_at": "2026-09-30",
+      "requested_by": "Jared",
+      "why": "client asked to remove it (SMS 2026-09-30)"
+    },
+    {
+      "city": "Bangor Base",
+      "state": "WA",
+      "slug": "bangor-base-wa",
+      "removed_at": "2026-09-30",
+      "requested_by": "Jared",
+      "why": "client asked to remove it (SMS 2026-09-30)"
+    },
+    {
+      "city": "Port Gamble",
+      "state": "WA",
+      "slug": "port-gamble-wa",
+      "removed_at": "2026-09-30",
+      "requested_by": "Jared",
+      "why": "client asked to remove it (SMS 2026-09-30)"
+    },
+    {
+      "city": "Hansville",
+      "state": "WA",
+      "slug": "hansville-wa",
+      "removed_at": "2026-09-30",
+      "requested_by": "Jared",
+      "why": "client asked to remove it (SMS 2026-09-30)"
+    },
+    {
+      "city": "Indianola",
+      "state": "WA",
+      "slug": "indianola-wa",
+      "removed_at": "2026-09-30",
+      "requested_by": "Jared",
+      "why": "client asked to remove it (SMS 2026-09-30)"
+    },
+    {
+      "city": "Kingston",
+      "state": "WA",
+      "slug": "kingston-wa",
+      "removed_at": "2026-09-30",
+      "requested_by": "Jared",
+      "why": "client asked to remove it (SMS 2026-09-30)"
+    }
+  ]
 }

@@ -10,7 +10,7 @@ priority: 5.6
 plan_hash: "60ade39e4e560af5"
 generated_at: "2026-09-30T19:28:38.046184+00:00"
 manual_override: false
-internal_links: ["/services/large-loss-response/", "/service-areas/anderson-island-wa/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/large-loss-response/", "/service-areas/bellevue-wa/large-loss-response/", "/contact/"]
+internal_links: ["/services/large-loss-response/", "/service-areas/anderson-island-wa/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/large-loss-response/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Anderson Island", "url": "/service-areas/anderson-island-wa/"}, {"name": "large-loss-response"}]
 faq: []
 area_slug: "anderson-island-wa"

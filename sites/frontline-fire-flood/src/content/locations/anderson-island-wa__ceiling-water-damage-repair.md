@@ -10,7 +10,7 @@ priority: 5.6
 plan_hash: "e903d0613d054749"
 generated_at: "2026-09-30T19:28:38.046244+00:00"
 manual_override: false
-internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/anderson-island-wa/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/ceiling-water-damage-repair/", "/service-areas/bellevue-wa/ceiling-water-damage-repair/", "/contact/"]
+internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/anderson-island-wa/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Anderson Island", "url": "/service-areas/anderson-island-wa/"}, {"name": "ceiling-water-damage-repair"}]
 faq: []
 area_slug: "anderson-island-wa"

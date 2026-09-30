@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "f9025a98f8f65b18"
 generated_at: "2026-09-30T19:28:37.967109+00:00"
 manual_override: false
-internal_links: ["/services/emergency-plumbing/", "/service-areas/auburn-wa/", "/service-areas/auburn-wa/fire-damage-restoration/", "/service-areas/auburn-wa/mold-remediation/", "/service-areas/anderson-island-wa/emergency-plumbing/", "/service-areas/bellevue-wa/emergency-plumbing/", "/contact/"]
+internal_links: ["/services/emergency-plumbing/", "/service-areas/auburn-wa/", "/service-areas/auburn-wa/fire-damage-restoration/", "/service-areas/auburn-wa/mold-remediation/", "/service-areas/anderson-island-wa/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Auburn", "url": "/service-areas/auburn-wa/"}, {"name": "Emergency Plumbing"}]
 faq: []
 area_slug: "auburn-wa"

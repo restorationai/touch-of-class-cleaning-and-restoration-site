@@ -10,7 +10,7 @@ priority: 5.6
 plan_hash: "7c149f05def95439"
 generated_at: "2026-09-30T19:28:37.968496+00:00"
 manual_override: false
-internal_links: ["/services/large-loss-response/", "/service-areas/auburn-wa/", "/service-areas/auburn-wa/fire-damage-restoration/", "/service-areas/auburn-wa/mold-remediation/", "/service-areas/anderson-island-wa/large-loss-response/", "/service-areas/bellevue-wa/large-loss-response/", "/contact/"]
+internal_links: ["/services/large-loss-response/", "/service-areas/auburn-wa/", "/service-areas/auburn-wa/fire-damage-restoration/", "/service-areas/auburn-wa/mold-remediation/", "/service-areas/anderson-island-wa/large-loss-response/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Auburn", "url": "/service-areas/auburn-wa/"}, {"name": "large-loss-response"}]
 faq: []
 area_slug: "auburn-wa"

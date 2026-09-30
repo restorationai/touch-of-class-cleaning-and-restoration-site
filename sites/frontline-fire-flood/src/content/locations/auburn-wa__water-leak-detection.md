@@ -10,7 +10,7 @@ priority: 4.9
 plan_hash: "ac181d5d99e1dc24"
 generated_at: "2026-09-30T19:28:37.968669+00:00"
 manual_override: false
-internal_links: ["/services/water-leak-detection/", "/service-areas/auburn-wa/", "/service-areas/auburn-wa/fire-damage-restoration/", "/service-areas/auburn-wa/mold-remediation/", "/service-areas/anderson-island-wa/water-leak-detection/", "/service-areas/bellevue-wa/water-leak-detection/", "/contact/"]
+internal_links: ["/services/water-leak-detection/", "/service-areas/auburn-wa/", "/service-areas/auburn-wa/fire-damage-restoration/", "/service-areas/auburn-wa/mold-remediation/", "/service-areas/anderson-island-wa/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Auburn", "url": "/service-areas/auburn-wa/"}, {"name": "water-leak-detection"}]
 faq: []
 area_slug: "auburn-wa"

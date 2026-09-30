@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "87776179ee54c24b"
 generated_at: "2026-09-30T19:28:38.045796+00:00"
 manual_override: false
-internal_links: ["/services/smoke-damage-restoration/", "/service-areas/anderson-island-wa/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/smoke-damage-restoration/", "/service-areas/bellevue-wa/smoke-damage-restoration/", "/contact/"]
+internal_links: ["/services/smoke-damage-restoration/", "/service-areas/anderson-island-wa/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Anderson Island", "url": "/service-areas/anderson-island-wa/"}, {"name": "smoke-damage-restoration"}]
 faq: []
 area_slug: "anderson-island-wa"

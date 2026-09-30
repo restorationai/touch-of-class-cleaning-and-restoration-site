@@ -10,7 +10,7 @@ priority: 6.3
 plan_hash: "85b2ca24a4e1d4a2"
 generated_at: "2026-09-30T19:28:37.968384+00:00"
 manual_override: false
-internal_links: ["/services/reconstruction/", "/service-areas/auburn-wa/", "/service-areas/auburn-wa/fire-damage-restoration/", "/service-areas/auburn-wa/mold-remediation/", "/service-areas/anderson-island-wa/reconstruction/", "/service-areas/bellevue-wa/reconstruction/", "/contact/"]
+internal_links: ["/services/reconstruction/", "/service-areas/auburn-wa/", "/service-areas/auburn-wa/fire-damage-restoration/", "/service-areas/auburn-wa/mold-remediation/", "/service-areas/anderson-island-wa/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Auburn", "url": "/service-areas/auburn-wa/"}, {"name": "reconstruction"}]
 faq: []
 area_slug: "auburn-wa"

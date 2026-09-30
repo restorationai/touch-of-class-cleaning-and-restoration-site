@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "9747f485fe7e6c62"
 generated_at: "2026-09-30T19:28:37.914270+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anderson-island-wa/flood-damage-restoration/", "/service-areas/auburn-wa/flood-damage-restoration/", "/service-areas/bellevue-wa/flood-damage-restoration/", "/service-areas/bonney-lake-wa/flood-damage-restoration/", "/service-areas/bremerton-wa/flood-damage-restoration/", "/service-areas/burien-wa/flood-damage-restoration/", "/service-areas/centralia-wa/flood-damage-restoration/", "/service-areas/clover-creek-wa/flood-damage-restoration/", "/service-areas/dupont-wa/flood-damage-restoration/", "/service-areas/federal-way-wa/flood-damage-restoration/", "/service-areas/fife-wa/flood-damage-restoration/", "/service-areas/fircrest-wa/flood-damage-restoration/"]
+internal_links: ["/services/", "/contact/", "/service-areas/anderson-island-wa/flood-damage-restoration/", "/service-areas/auburn-wa/flood-damage-restoration/", "/service-areas/bonney-lake-wa/flood-damage-restoration/", "/service-areas/bremerton-wa/flood-damage-restoration/", "/service-areas/burien-wa/flood-damage-restoration/", "/service-areas/centralia-wa/flood-damage-restoration/", "/service-areas/dupont-wa/flood-damage-restoration/", "/service-areas/federal-way-wa/flood-damage-restoration/", "/service-areas/fife-wa/flood-damage-restoration/", "/service-areas/fircrest-wa/flood-damage-restoration/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "flood-damage-restoration"}]
 faq: []
 service_slug: "flood-damage-restoration"

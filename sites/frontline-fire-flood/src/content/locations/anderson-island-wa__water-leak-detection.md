@@ -10,7 +10,7 @@ priority: 4.9
 plan_hash: "62702de4eb00f8d4"
 generated_at: "2026-09-30T19:28:38.046358+00:00"
 manual_override: false
-internal_links: ["/services/water-leak-detection/", "/service-areas/anderson-island-wa/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/water-leak-detection/", "/service-areas/bellevue-wa/water-leak-detection/", "/contact/"]
+internal_links: ["/services/water-leak-detection/", "/service-areas/anderson-island-wa/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Anderson Island", "url": "/service-areas/anderson-island-wa/"}, {"name": "water-leak-detection"}]
 faq: []
 area_slug: "anderson-island-wa"

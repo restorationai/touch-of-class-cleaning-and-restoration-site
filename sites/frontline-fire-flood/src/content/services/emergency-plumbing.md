@@ -10,7 +10,7 @@ priority: 8.1
 plan_hash: "ba659c3f7121405a"
 generated_at: "2026-09-30T19:28:37.912973+00:00"
 manual_override: false
-internal_links: ["/services/", "/contact/", "/service-areas/anderson-island-wa/emergency-plumbing/", "/service-areas/auburn-wa/emergency-plumbing/", "/service-areas/bellevue-wa/emergency-plumbing/", "/service-areas/bonney-lake-wa/emergency-plumbing/", "/service-areas/bremerton-wa/emergency-plumbing/", "/service-areas/burien-wa/emergency-plumbing/", "/service-areas/centralia-wa/emergency-plumbing/", "/service-areas/clover-creek-wa/emergency-plumbing/", "/service-areas/dupont-wa/emergency-plumbing/", "/service-areas/federal-way-wa/emergency-plumbing/", "/service-areas/fife-wa/emergency-plumbing/", "/service-areas/fircrest-wa/emergency-plumbing/"]
+internal_links: ["/services/", "/contact/", "/service-areas/anderson-island-wa/emergency-plumbing/", "/service-areas/auburn-wa/emergency-plumbing/", "/service-areas/bonney-lake-wa/emergency-plumbing/", "/service-areas/bremerton-wa/emergency-plumbing/", "/service-areas/burien-wa/emergency-plumbing/", "/service-areas/centralia-wa/emergency-plumbing/", "/service-areas/dupont-wa/emergency-plumbing/", "/service-areas/federal-way-wa/emergency-plumbing/", "/service-areas/fife-wa/emergency-plumbing/", "/service-areas/fircrest-wa/emergency-plumbing/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Emergency Plumbing"}]
 faq: []
 service_slug: "emergency-plumbing"

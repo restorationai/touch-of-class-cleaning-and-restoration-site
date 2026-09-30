@@ -10,7 +10,7 @@ priority: 5.6
 plan_hash: "6ca6c56699cb00d3"
 generated_at: "2026-09-30T19:28:37.968023+00:00"
 manual_override: false
-internal_links: ["/services/burst-pipe-repair/", "/service-areas/auburn-wa/", "/service-areas/auburn-wa/fire-damage-restoration/", "/service-areas/auburn-wa/mold-remediation/", "/service-areas/anderson-island-wa/burst-pipe-repair/", "/service-areas/bellevue-wa/burst-pipe-repair/", "/contact/"]
+internal_links: ["/services/burst-pipe-repair/", "/service-areas/auburn-wa/", "/service-areas/auburn-wa/fire-damage-restoration/", "/service-areas/auburn-wa/mold-remediation/", "/service-areas/anderson-island-wa/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Auburn", "url": "/service-areas/auburn-wa/"}, {"name": "burst-pipe-repair"}]
 faq: []
 area_slug: "auburn-wa"
