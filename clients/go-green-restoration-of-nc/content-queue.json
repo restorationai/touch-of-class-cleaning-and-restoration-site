@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-28-best-mold-remediation-in-raleigh-nc",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-28T18:17:12Z",
       "priority": 1,
       "prioritized": true,
@@ -124,7 +124,8 @@
           "context": "deepest review history on this list at 87 Google reviews, with a 4.7 average rating. That volume",
           "reason": "claims 87 reviews but no synced gbpReviewCount exists for this site"
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-30T10:31:31Z"
     },
     {
       "id": "2026-09-10-who-to-call-for-water-damage-restoration-in-middlesex-nc",
