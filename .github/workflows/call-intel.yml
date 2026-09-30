@@ -80,10 +80,10 @@ jobs:
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: python3 scripts/rename_pipeline.py || echo "rename mirror failed (non-fatal)"
 
-      - name: Rename approval evidence (2026-09-30)
-        # Where did the client say yes to the chosen name? Filed DBA, Fathom
-        # call, GHL phone call (transcribed once, cached) or message. Only
-        # clients with a chosen name and no evidence; cheap once found.
+      - name: DBA filing sweep (2026-09-30)
+        # The DBA filing IS the rename consent (Santino). Vision-reads every
+        # not-yet-checked file in the client's docs + emailed attachments for
+        # a filing of the chosen name; match clears the citations gate.
         timeout-minutes: 15
         env:
           SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
