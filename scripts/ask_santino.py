@@ -33,12 +33,24 @@ def main() -> int:
     a = ap.parse_args()
     cc.load_env()
     q = re.sub(r"\s+", " ", a.question).strip()
+    # Numbered asks (2026-09-30): the SMS carries a short code; Santino's
+    # text reply ("Q7 yes, do it") is matched back to the need by
+    # client_concierge.handle_boss_reply and written to the Mini by
+    # mini_responder.py. One open ask may be answered without the code.
+    asks = cc.kv_get("santino-asks") or {}
+    n = 1 + max([int(k[1:]) for k in asks if k[1:].isdigit()] or [0])
+    code = f"Q{n}"
+    from datetime import datetime, timezone
+    asks[code] = {"need": a.need, "client": a.client, "question": q[:600],
+                  "asked_at": datetime.now(timezone.utc).isoformat(), "status": "open"}
+    cc.kv_set("santino-asks", asks)
     cc._sb("POST", "/rest/v1/marketing_ops_notes",
            {"company_id": None, "author": "mini-needs-agent", "status": "open",
-            "body": (f"[TODO-SANTINO] MINI QUESTION {a.need} ({a.client}): {q} "
-                     "— reply to Claude; Claude writes the answer back to the Mini.")[:1900]},
+            "body": (f"[TODO-SANTINO] MINI QUESTION {code} {a.need} ({a.client}): {q} "
+                     f"— text back '{code} <answer>' or tell Claude.")[:1900]},
            prefer="return=minimal")
-    sms = f"Claude needs you (Mini, {a.client}): {q[:430]}{' ...' if len(q) > 430 else ''} Reply to Claude."
+    sms = (f"{code} Claude needs you (Mini, {a.client}): {q[:420]}{' ...' if len(q) > 420 else ''} "
+           f"Reply '{code} <your answer>'.")
     try:
         cc.send_message({"id": cc.OPS_PING_CONTACT_ID, "phone": cc.OPS_PING_CELL},
                         "sms", sms[:640])

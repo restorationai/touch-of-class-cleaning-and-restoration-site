@@ -13059,6 +13059,56 @@ def upload_stranded_check(dry_run: bool = False,
     return flagged
 
 
+def handle_boss_reply(msgs: list, dry_run: bool = False) -> int:
+    """Santino's text replies on the ops thread -> answers for open Mini asks
+    (Santino 2026-09-30: "make it so I can reply to texts and it reaches
+    you"). A reply starting with a code ("Q7 ...") answers that ask; with
+    exactly one open ask, any reply answers it. Matched answers go to ops_kv
+    santino-answers, then the mini-responder workflow is dispatched to write
+    them into clients/_ops/mini-needs.md and wake the Mini. Unmatched replies
+    stay on the boss-feedback escalation for a session. Returns #matched."""
+    asks = kv_get("santino-asks") or {}
+    seen = set(kv_get("santino-replies-seen") or [])
+    open_codes = [k for k, v in asks.items() if v.get("status") == "open"]
+    queue = kv_get("santino-answers") or []
+    matched = 0
+    for m in msgs:
+        mid = str(m.get("id") or "")
+        body = (m.get("body") or "").strip()
+        if not body or mid in seen:
+            continue
+        seen.add(mid)
+        mm = re.match(r"\s*(Q\d+)\b[\s:.,-]*(.*)", body, re.I | re.S)
+        code, answer = ((mm.group(1).upper(), mm.group(2).strip()) if mm
+                        else ((open_codes[0], body) if len(open_codes) == 1 else (None, body)))
+        if not code or code not in asks or asks[code].get("status") != "open" or not answer:
+            continue
+        asks[code].update({"status": "answered", "answer": answer[:900],
+                           "answered_at": datetime.now(timezone.utc).isoformat()})
+        queue.append({"code": code, "need": asks[code]["need"], "answer": answer[:900],
+                      "at": asks[code]["answered_at"]})
+        matched += 1
+    if dry_run:
+        return matched
+    kv_set("santino-replies-seen", sorted(seen)[-300:])
+    if matched:
+        kv_set("santino-asks", asks)
+        kv_set("santino-answers", queue)
+        tok = os.environ.get("GH_PAT") or os.environ.get("GITHUB_PERSONAL_ACCESS_TOKEN")
+        try:
+            if tok:
+                requests.post("https://api.github.com/repos/restorationai/Rank-AI-Pipeline"
+                              "/actions/workflows/mini-responder.yml/dispatches",
+                              headers={"Authorization": f"Bearer {tok}",
+                                       "Accept": "application/vnd.github+json"},
+                              json={"ref": "main"}, timeout=20)
+            send_message({"id": OPS_PING_CONTACT_ID, "phone": OPS_PING_CELL}, "sms",
+                         f"Got it, passing {matched} answer(s) to the Mini now.")
+        except Exception as e:  # noqa: BLE001
+            print(f"  [boss-reply] dispatch/confirm failed: {str(e)[:120]}")
+    return matched
+
+
 def webhook_inbound(contact_id: str, do_send: bool = True) -> dict:
     """Instant inbound for ONE contact — the Railway POST /concierge-inbound
     webhook (Santino 2026-08-02: GHL fires the moment a client responds; no
@@ -13073,6 +13123,15 @@ def webhook_inbound(contact_id: str, do_send: bool = True) -> dict:
     the handled-ids ledger."""
     dry_run = not do_send
     state = load_state()
+    if contact_id == OPS_PING_CONTACT_ID:
+        # Santino replying on the ops thread (answers to Mini questions)
+        since = datetime.now(timezone.utc) - timedelta(hours=72)
+        msgs = fetch_inbound_since(contact_id, since)
+        if not msgs:
+            time.sleep(5)
+            msgs = fetch_inbound_since(contact_id, since)
+        n = handle_boss_reply(msgs, dry_run=dry_run)
+        return {"status": "boss-reply", "matched": n}
     company_id = _company_for_contact(contact_id, state)
     if not company_id:
         print(f"[webhook] contact {contact_id} is not tracked — ignoring")
@@ -13212,6 +13271,10 @@ def cmd_inbound(args) -> int:
                                     prefer="return=minimal")
                             except Exception as e:  # noqa: BLE001
                                 print(f"  [boss-feedback] insert failed: {str(e)[:120]}")
+                    try:
+                        handle_boss_reply(msgs, dry_run=dry_run)
+                    except Exception as e:  # noqa: BLE001
+                        print(f"  [boss-reply] failed: {str(e)[:120]}")
                 continue
             company = companies.get(company_id, {"id": company_id, "name": company_id})
             muted = company_inactive(company)
