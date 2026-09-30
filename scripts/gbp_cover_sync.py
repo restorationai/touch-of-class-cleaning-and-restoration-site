@@ -1095,12 +1095,16 @@ def create_cover(tok: str, acct: str, loc_name: str, public_url: str, jpg: bytes
         raise RuntimeError(f"{first}; bytes fallback: {str(e)[:200]}")
 
 
-def readback_cover(tok: str, acct: str, loc_name: str, name: str) -> dict:
+def readback_cover(tok: str, acct: str, loc_name: str, name: str, source_url: str = "") -> dict:
+    """The newest COVER must be ours. Google renames a created item once it is
+    processed (create returns CIABIh..., the list shows AF1Qip...), so the
+    match is on name OR our sourceUrl."""
     covers = [m for m in list_media(tok, acct, loc_name)
               if (m.get("locationAssociation") or {}).get("category") == "COVER"]
     covers.sort(key=lambda m: m.get("createTime", ""), reverse=True)
     top = covers[0] if covers else {}
-    return {"ok": bool(top) and top.get("name") == name, "newest_cover": top.get("name"),
+    ok = bool(top) and (top.get("name") == name or (source_url and top.get("sourceUrl") == source_url))
+    return {"ok": ok, "newest_cover": top.get("name"), "source_url": top.get("sourceUrl"),
             "google_url": top.get("googleUrl"), "create_time": top.get("createTime"), "at": sm.iso()}
 
 
@@ -1201,14 +1205,15 @@ def _write(slug: str, cid: str, rep: dict, built: dict, ledger: dict) -> None:
     cur = rep.get("current_cover") or {}
     tok, acct, loc, _ = resolve_location(slug, cid)
     name, via = create_cover(tok, acct, loc["name"], public, jpg)
-    rb = readback_cover(tok, acct, loc["name"], name)
-    rec.update({"applied_at": sm.iso(), "media_name": name, "via": via, "replaced": cur.get("media_name"),
+    rb = readback_cover(tok, acct, loc["name"], name, public)
+    rec.update({"applied_at": sm.iso(), "media_name": rb["newest_cover"] if rb.get("ok") else name, "created_as": name, "via": via, "replaced": cur.get("media_name"),
                 "replaced_who": cur.get("who"), "readback": rb})
     led.setdefault("applied", []).append(rec)
     led.pop("prepared", None)
     sm.kv_put(LEDGER.format(cid=cid), led)
     src_note = {"hero": "the website hero", "real-photo": "a real photo of the team's branded work",
-                "variant": "the website hero (cover edition)"}.get(built["source"]["kind"], "the website hero")
+                "variant": "a real photo of the team's branded work" if built["source"].get("origin") == "real"
+                else "the website hero (cover edition)"}.get(built["source"]["kind"], "the website hero")
     gbp.log_change(cid, "profile_cover_photo",
                    f"Cover photo updated: {src_note}, fitted to 16:9 so every vehicle and logo shows in full",
                    actor=ACTOR, meta={"media_name": name, "photo_url": public, "hero_sha1": anchor, "via": via,
