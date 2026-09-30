@@ -328,6 +328,16 @@
     ],
     "missing_stubs": []
   },
+  "/services/upholstery-cleaning/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/services/emergency-water-removal/": {
     "archetype": "service-landing",
     "stubs": [
@@ -797,6 +807,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/riverside-ca/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/riverside-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1068,6 +1088,16 @@
     "missing_stubs": []
   },
   "/service-areas/anaheim-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/anaheim-ca/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1357,6 +1387,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/santa-ana-ca/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/santa-ana-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1628,6 +1668,16 @@
     "missing_stubs": []
   },
   "/service-areas/ontario-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/ontario-ca/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1917,6 +1967,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/fullerton-ca/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/fullerton-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2188,6 +2248,16 @@
     "missing_stubs": []
   },
   "/service-areas/norco-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/norco-ca/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2477,6 +2547,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/chino-ca/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/chino-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2748,6 +2828,16 @@
     "missing_stubs": []
   },
   "/service-areas/chino-hills-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/chino-hills-ca/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3037,6 +3127,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/eastvale-ca/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/eastvale-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3308,6 +3408,16 @@
     "missing_stubs": []
   },
   "/service-areas/silverado-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/silverado-ca/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3597,6 +3707,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/jurupa-valley-ca/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/jurupa-valley-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3868,6 +3988,16 @@
     "missing_stubs": []
   },
   "/service-areas/temescal-valley-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/temescal-valley-ca/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4157,6 +4287,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/yorba-linda-ca/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/yorba-linda-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4428,6 +4568,16 @@
     "missing_stubs": []
   },
   "/service-areas/lake-mathews-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/lake-mathews-ca/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4717,6 +4867,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/woodcrest-ca/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/woodcrest-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4988,6 +5148,16 @@
     "missing_stubs": []
   },
   "/service-areas/trabuco-canyon-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/trabuco-canyon-ca/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5277,6 +5447,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/north-tustin-ca/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/north-tustin-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5548,6 +5728,16 @@
     "missing_stubs": []
   },
   "/service-areas/montclair-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/montclair-ca/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5837,6 +6027,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/villa-park-ca/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/villa-park-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6117,6 +6317,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/fontana-ca/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/fontana-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6388,6 +6598,16 @@
     "missing_stubs": []
   },
   "/service-areas/pomona-ca/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/pomona-ca/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

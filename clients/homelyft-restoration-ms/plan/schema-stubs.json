@@ -218,6 +218,16 @@
     ],
     "missing_stubs": []
   },
+  "/services/upholstery-cleaning/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/services/emergency-water-removal/": {
     "archetype": "service-landing",
     "stubs": [
@@ -931,6 +941,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/eastabuchie-ms/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/eastabuchie-ms/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1212,6 +1232,16 @@
     "missing_stubs": []
   },
   "/service-areas/hattiesburg-ms/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hattiesburg-ms/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1511,6 +1541,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/petal-ms/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/petal-ms/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1792,6 +1832,16 @@
     "missing_stubs": []
   },
   "/service-areas/rawls-springs-ms/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rawls-springs-ms/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2091,6 +2141,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/leakesville-ms/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/leakesville-ms/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2372,6 +2432,16 @@
     "missing_stubs": []
   },
   "/service-areas/mclain-ms/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/mclain-ms/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2671,6 +2741,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/state-line-ms/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/state-line-ms/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2952,6 +3032,16 @@
     "missing_stubs": []
   },
   "/service-areas/biloxi-ms/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/biloxi-ms/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3251,6 +3341,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/d-iberville-ms/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/d-iberville-ms/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3532,6 +3632,16 @@
     "missing_stubs": []
   },
   "/service-areas/delisle-ms/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/delisle-ms/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3831,6 +3941,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/diamondhead-ms/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/diamondhead-ms/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4112,6 +4232,16 @@
     "missing_stubs": []
   },
   "/service-areas/henderson-point-ms/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/henderson-point-ms/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4411,6 +4541,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/latimer-ms/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/latimer-ms/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4692,6 +4832,16 @@
     "missing_stubs": []
   },
   "/service-areas/long-beach-ms/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/long-beach-ms/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4991,6 +5141,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/lyman-ms/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/lyman-ms/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5272,6 +5432,16 @@
     "missing_stubs": []
   },
   "/service-areas/pass-christian-ms/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/pass-christian-ms/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5571,6 +5741,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/saucier-ms/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/saucier-ms/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5852,6 +6032,16 @@
     "missing_stubs": []
   },
   "/service-areas/st-martin-ms/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/st-martin-ms/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6151,6 +6341,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/bay-st-louis-ms/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/bay-st-louis-ms/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6432,6 +6632,16 @@
     "missing_stubs": []
   },
   "/service-areas/kiln-ms/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/kiln-ms/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6731,6 +6941,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/pearlington-ms/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/pearlington-ms/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7012,6 +7232,16 @@
     "missing_stubs": []
   },
   "/service-areas/picayune-ms/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/picayune-ms/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7311,6 +7541,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/waveland-ms/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/waveland-ms/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7592,6 +7832,16 @@
     "missing_stubs": []
   },
   "/service-areas/wiggins-ms/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/wiggins-ms/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7891,6 +8141,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/hide-a-way-lake-ms/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/hide-a-way-lake-ms/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8172,6 +8432,16 @@
     "missing_stubs": []
   },
   "/service-areas/lumberton-ms/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/lumberton-ms/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8471,6 +8741,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/poplarville-ms/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/poplarville-ms/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8752,6 +9032,16 @@
     "missing_stubs": []
   },
   "/service-areas/big-point-ms/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/big-point-ms/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9051,6 +9341,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/escatawpa-ms/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/escatawpa-ms/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9332,6 +9632,16 @@
     "missing_stubs": []
   },
   "/service-areas/gautier-ms/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/gautier-ms/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9631,6 +9941,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/gulf-hills-ms/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/gulf-hills-ms/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9912,6 +10232,16 @@
     "missing_stubs": []
   },
   "/service-areas/gulf-park-estates-ms/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/gulf-park-estates-ms/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10211,6 +10541,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/helena-ms/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/helena-ms/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -10492,6 +10832,16 @@
     "missing_stubs": []
   },
   "/service-areas/hurley-ms/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hurley-ms/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10791,6 +11141,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/moss-point-ms/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/moss-point-ms/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -11072,6 +11432,16 @@
     "missing_stubs": []
   },
   "/service-areas/ocean-springs-ms/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/ocean-springs-ms/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11371,6 +11741,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/pascagoula-ms/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/pascagoula-ms/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -11652,6 +12032,16 @@
     "missing_stubs": []
   },
   "/service-areas/vancleave-ms/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/vancleave-ms/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11951,6 +12341,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/wade-ms/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/wade-ms/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -12232,6 +12632,16 @@
     "missing_stubs": []
   },
   "/service-areas/agricola-ms/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/agricola-ms/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12531,6 +12941,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/benndale-ms/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/benndale-ms/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -12812,6 +13232,16 @@
     "missing_stubs": []
   },
   "/service-areas/lucedale-ms/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/lucedale-ms/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -13111,6 +13541,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/ellisville-ms/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/ellisville-ms/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -13392,6 +13832,16 @@
     "missing_stubs": []
   },
   "/service-areas/laurel-ms/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/laurel-ms/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -13691,6 +14141,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/moselle-ms/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/moselle-ms/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -13981,6 +14441,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/ovett-ms/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/ovett-ms/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -14262,6 +14732,16 @@
     "missing_stubs": []
   },
   "/service-areas/sandersville-ms/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sandersville-ms/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

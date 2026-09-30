@@ -32,6 +32,7 @@
     "/services/contents-restoration/",
     "/services/carpet-cleaning/",
     "/services/post-construction-cleaning/",
+    "/services/upholstery-cleaning/",
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/chino-hills-ca/",
@@ -83,7 +84,8 @@
     "/services/basement-remodeling/",
     "/services/contents-restoration/",
     "/services/carpet-cleaning/",
-    "/services/post-construction-cleaning/"
+    "/services/post-construction-cleaning/",
+    "/services/upholstery-cleaning/"
   ],
   "/service-areas/": [
     "/",
@@ -573,6 +575,22 @@
     "/service-areas/north-tustin-ca/water-leak-detection/",
     "/service-areas/ontario-ca/water-leak-detection/"
   ],
+  "/services/upholstery-cleaning/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/anaheim-ca/upholstery-cleaning/",
+    "/service-areas/chino-ca/upholstery-cleaning/",
+    "/service-areas/chino-hills-ca/upholstery-cleaning/",
+    "/service-areas/eastvale-ca/upholstery-cleaning/",
+    "/service-areas/fontana-ca/upholstery-cleaning/",
+    "/service-areas/fullerton-ca/upholstery-cleaning/",
+    "/service-areas/jurupa-valley-ca/upholstery-cleaning/",
+    "/service-areas/lake-mathews-ca/upholstery-cleaning/",
+    "/service-areas/montclair-ca/upholstery-cleaning/",
+    "/service-areas/norco-ca/upholstery-cleaning/",
+    "/service-areas/north-tustin-ca/upholstery-cleaning/",
+    "/service-areas/ontario-ca/upholstery-cleaning/"
+  ],
   "/services/emergency-water-removal/": [
     "/services/",
     "/contact/",
@@ -621,6 +639,7 @@
     "/service-areas/riverside-ca/contents-restoration/",
     "/service-areas/riverside-ca/carpet-cleaning/",
     "/service-areas/riverside-ca/post-construction-cleaning/",
+    "/service-areas/riverside-ca/upholstery-cleaning/",
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/chino-hills-ca/"
@@ -656,6 +675,7 @@
     "/service-areas/anaheim-ca/contents-restoration/",
     "/service-areas/anaheim-ca/carpet-cleaning/",
     "/service-areas/anaheim-ca/post-construction-cleaning/",
+    "/service-areas/anaheim-ca/upholstery-cleaning/",
     "/service-areas/chino-ca/",
     "/service-areas/chino-hills-ca/",
     "/service-areas/eastvale-ca/"
@@ -691,6 +711,7 @@
     "/service-areas/santa-ana-ca/contents-restoration/",
     "/service-areas/santa-ana-ca/carpet-cleaning/",
     "/service-areas/santa-ana-ca/post-construction-cleaning/",
+    "/service-areas/santa-ana-ca/upholstery-cleaning/",
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/chino-hills-ca/"
@@ -726,6 +747,7 @@
     "/service-areas/ontario-ca/contents-restoration/",
     "/service-areas/ontario-ca/carpet-cleaning/",
     "/service-areas/ontario-ca/post-construction-cleaning/",
+    "/service-areas/ontario-ca/upholstery-cleaning/",
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/chino-hills-ca/"
@@ -761,6 +783,7 @@
     "/service-areas/fullerton-ca/contents-restoration/",
     "/service-areas/fullerton-ca/carpet-cleaning/",
     "/service-areas/fullerton-ca/post-construction-cleaning/",
+    "/service-areas/fullerton-ca/upholstery-cleaning/",
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/chino-hills-ca/"
@@ -796,6 +819,7 @@
     "/service-areas/norco-ca/contents-restoration/",
     "/service-areas/norco-ca/carpet-cleaning/",
     "/service-areas/norco-ca/post-construction-cleaning/",
+    "/service-areas/norco-ca/upholstery-cleaning/",
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/chino-hills-ca/"
@@ -831,6 +855,7 @@
     "/service-areas/chino-ca/contents-restoration/",
     "/service-areas/chino-ca/carpet-cleaning/",
     "/service-areas/chino-ca/post-construction-cleaning/",
+    "/service-areas/chino-ca/upholstery-cleaning/",
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-hills-ca/",
     "/service-areas/eastvale-ca/"
@@ -866,6 +891,7 @@
     "/service-areas/chino-hills-ca/contents-restoration/",
     "/service-areas/chino-hills-ca/carpet-cleaning/",
     "/service-areas/chino-hills-ca/post-construction-cleaning/",
+    "/service-areas/chino-hills-ca/upholstery-cleaning/",
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/eastvale-ca/"
@@ -901,6 +927,7 @@
     "/service-areas/eastvale-ca/contents-restoration/",
     "/service-areas/eastvale-ca/carpet-cleaning/",
     "/service-areas/eastvale-ca/post-construction-cleaning/",
+    "/service-areas/eastvale-ca/upholstery-cleaning/",
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/chino-hills-ca/"
@@ -936,6 +963,7 @@
     "/service-areas/silverado-ca/contents-restoration/",
     "/service-areas/silverado-ca/carpet-cleaning/",
     "/service-areas/silverado-ca/post-construction-cleaning/",
+    "/service-areas/silverado-ca/upholstery-cleaning/",
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/chino-hills-ca/"
@@ -971,6 +999,7 @@
     "/service-areas/jurupa-valley-ca/contents-restoration/",
     "/service-areas/jurupa-valley-ca/carpet-cleaning/",
     "/service-areas/jurupa-valley-ca/post-construction-cleaning/",
+    "/service-areas/jurupa-valley-ca/upholstery-cleaning/",
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/chino-hills-ca/"
@@ -1006,6 +1035,7 @@
     "/service-areas/temescal-valley-ca/contents-restoration/",
     "/service-areas/temescal-valley-ca/carpet-cleaning/",
     "/service-areas/temescal-valley-ca/post-construction-cleaning/",
+    "/service-areas/temescal-valley-ca/upholstery-cleaning/",
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/chino-hills-ca/"
@@ -1041,6 +1071,7 @@
     "/service-areas/yorba-linda-ca/contents-restoration/",
     "/service-areas/yorba-linda-ca/carpet-cleaning/",
     "/service-areas/yorba-linda-ca/post-construction-cleaning/",
+    "/service-areas/yorba-linda-ca/upholstery-cleaning/",
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/chino-hills-ca/"
@@ -1076,6 +1107,7 @@
     "/service-areas/lake-mathews-ca/contents-restoration/",
     "/service-areas/lake-mathews-ca/carpet-cleaning/",
     "/service-areas/lake-mathews-ca/post-construction-cleaning/",
+    "/service-areas/lake-mathews-ca/upholstery-cleaning/",
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/chino-hills-ca/"
@@ -1111,6 +1143,7 @@
     "/service-areas/woodcrest-ca/contents-restoration/",
     "/service-areas/woodcrest-ca/carpet-cleaning/",
     "/service-areas/woodcrest-ca/post-construction-cleaning/",
+    "/service-areas/woodcrest-ca/upholstery-cleaning/",
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/chino-hills-ca/"
@@ -1146,6 +1179,7 @@
     "/service-areas/trabuco-canyon-ca/contents-restoration/",
     "/service-areas/trabuco-canyon-ca/carpet-cleaning/",
     "/service-areas/trabuco-canyon-ca/post-construction-cleaning/",
+    "/service-areas/trabuco-canyon-ca/upholstery-cleaning/",
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/chino-hills-ca/"
@@ -1181,6 +1215,7 @@
     "/service-areas/north-tustin-ca/contents-restoration/",
     "/service-areas/north-tustin-ca/carpet-cleaning/",
     "/service-areas/north-tustin-ca/post-construction-cleaning/",
+    "/service-areas/north-tustin-ca/upholstery-cleaning/",
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/chino-hills-ca/"
@@ -1216,6 +1251,7 @@
     "/service-areas/montclair-ca/contents-restoration/",
     "/service-areas/montclair-ca/carpet-cleaning/",
     "/service-areas/montclair-ca/post-construction-cleaning/",
+    "/service-areas/montclair-ca/upholstery-cleaning/",
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/chino-hills-ca/"
@@ -1251,6 +1287,7 @@
     "/service-areas/villa-park-ca/contents-restoration/",
     "/service-areas/villa-park-ca/carpet-cleaning/",
     "/service-areas/villa-park-ca/post-construction-cleaning/",
+    "/service-areas/villa-park-ca/upholstery-cleaning/",
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/chino-hills-ca/"
@@ -1286,6 +1323,7 @@
     "/service-areas/fontana-ca/contents-restoration/",
     "/service-areas/fontana-ca/carpet-cleaning/",
     "/service-areas/fontana-ca/post-construction-cleaning/",
+    "/service-areas/fontana-ca/upholstery-cleaning/",
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/chino-hills-ca/"
@@ -1321,6 +1359,7 @@
     "/service-areas/pomona-ca/contents-restoration/",
     "/service-areas/pomona-ca/carpet-cleaning/",
     "/service-areas/pomona-ca/post-construction-cleaning/",
+    "/service-areas/pomona-ca/upholstery-cleaning/",
     "/service-areas/anaheim-ca/",
     "/service-areas/chino-ca/",
     "/service-areas/chino-hills-ca/"
@@ -1566,6 +1605,15 @@
     "/service-areas/riverside-ca/mold-remediation/",
     "/service-areas/anaheim-ca/water-leak-detection/",
     "/service-areas/chino-ca/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/riverside-ca/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/riverside-ca/",
+    "/service-areas/riverside-ca/fire-damage-restoration/",
+    "/service-areas/riverside-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/upholstery-cleaning/",
+    "/service-areas/chino-ca/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/riverside-ca/emergency-water-removal/": [
@@ -1820,6 +1868,15 @@
     "/service-areas/chino-hills-ca/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/anaheim-ca/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/anaheim-ca/fire-damage-restoration/",
+    "/service-areas/anaheim-ca/mold-remediation/",
+    "/service-areas/chino-ca/upholstery-cleaning/",
+    "/service-areas/chino-hills-ca/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/anaheim-ca/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/anaheim-ca/",
@@ -2070,6 +2127,15 @@
     "/service-areas/santa-ana-ca/mold-remediation/",
     "/service-areas/anaheim-ca/water-leak-detection/",
     "/service-areas/chino-ca/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/santa-ana-ca/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/santa-ana-ca/",
+    "/service-areas/santa-ana-ca/fire-damage-restoration/",
+    "/service-areas/santa-ana-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/upholstery-cleaning/",
+    "/service-areas/chino-ca/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/santa-ana-ca/emergency-water-removal/": [
@@ -2324,6 +2390,15 @@
     "/service-areas/chino-ca/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/ontario-ca/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/ontario-ca/",
+    "/service-areas/ontario-ca/fire-damage-restoration/",
+    "/service-areas/ontario-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/upholstery-cleaning/",
+    "/service-areas/chino-ca/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/ontario-ca/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/ontario-ca/",
@@ -2574,6 +2649,15 @@
     "/service-areas/fullerton-ca/mold-remediation/",
     "/service-areas/anaheim-ca/water-leak-detection/",
     "/service-areas/chino-ca/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/fullerton-ca/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/fullerton-ca/",
+    "/service-areas/fullerton-ca/fire-damage-restoration/",
+    "/service-areas/fullerton-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/upholstery-cleaning/",
+    "/service-areas/chino-ca/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/fullerton-ca/emergency-water-removal/": [
@@ -2828,6 +2912,15 @@
     "/service-areas/chino-ca/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/norco-ca/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/norco-ca/",
+    "/service-areas/norco-ca/fire-damage-restoration/",
+    "/service-areas/norco-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/upholstery-cleaning/",
+    "/service-areas/chino-ca/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/norco-ca/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/norco-ca/",
@@ -3078,6 +3171,15 @@
     "/service-areas/chino-ca/mold-remediation/",
     "/service-areas/anaheim-ca/water-leak-detection/",
     "/service-areas/chino-hills-ca/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/chino-ca/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/chino-ca/",
+    "/service-areas/chino-ca/fire-damage-restoration/",
+    "/service-areas/chino-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/upholstery-cleaning/",
+    "/service-areas/chino-hills-ca/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/chino-ca/emergency-water-removal/": [
@@ -3332,6 +3434,15 @@
     "/service-areas/chino-ca/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/chino-hills-ca/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/chino-hills-ca/",
+    "/service-areas/chino-hills-ca/fire-damage-restoration/",
+    "/service-areas/chino-hills-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/upholstery-cleaning/",
+    "/service-areas/chino-ca/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/chino-hills-ca/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/chino-hills-ca/",
@@ -3582,6 +3693,15 @@
     "/service-areas/eastvale-ca/mold-remediation/",
     "/service-areas/anaheim-ca/water-leak-detection/",
     "/service-areas/chino-ca/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/eastvale-ca/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/eastvale-ca/",
+    "/service-areas/eastvale-ca/fire-damage-restoration/",
+    "/service-areas/eastvale-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/upholstery-cleaning/",
+    "/service-areas/chino-ca/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/eastvale-ca/emergency-water-removal/": [
@@ -3836,6 +3956,15 @@
     "/service-areas/chino-ca/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/silverado-ca/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/silverado-ca/",
+    "/service-areas/silverado-ca/fire-damage-restoration/",
+    "/service-areas/silverado-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/upholstery-cleaning/",
+    "/service-areas/chino-ca/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/silverado-ca/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/silverado-ca/",
@@ -4086,6 +4215,15 @@
     "/service-areas/jurupa-valley-ca/mold-remediation/",
     "/service-areas/anaheim-ca/water-leak-detection/",
     "/service-areas/chino-ca/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/jurupa-valley-ca/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/jurupa-valley-ca/",
+    "/service-areas/jurupa-valley-ca/fire-damage-restoration/",
+    "/service-areas/jurupa-valley-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/upholstery-cleaning/",
+    "/service-areas/chino-ca/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/jurupa-valley-ca/emergency-water-removal/": [
@@ -4340,6 +4478,15 @@
     "/service-areas/chino-ca/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/temescal-valley-ca/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/temescal-valley-ca/",
+    "/service-areas/temescal-valley-ca/fire-damage-restoration/",
+    "/service-areas/temescal-valley-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/upholstery-cleaning/",
+    "/service-areas/chino-ca/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/temescal-valley-ca/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/temescal-valley-ca/",
@@ -4590,6 +4737,15 @@
     "/service-areas/yorba-linda-ca/mold-remediation/",
     "/service-areas/anaheim-ca/water-leak-detection/",
     "/service-areas/chino-ca/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/yorba-linda-ca/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/yorba-linda-ca/",
+    "/service-areas/yorba-linda-ca/fire-damage-restoration/",
+    "/service-areas/yorba-linda-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/upholstery-cleaning/",
+    "/service-areas/chino-ca/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/yorba-linda-ca/emergency-water-removal/": [
@@ -4844,6 +5000,15 @@
     "/service-areas/chino-ca/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/lake-mathews-ca/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/lake-mathews-ca/",
+    "/service-areas/lake-mathews-ca/fire-damage-restoration/",
+    "/service-areas/lake-mathews-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/upholstery-cleaning/",
+    "/service-areas/chino-ca/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/lake-mathews-ca/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/lake-mathews-ca/",
@@ -5094,6 +5259,15 @@
     "/service-areas/woodcrest-ca/mold-remediation/",
     "/service-areas/anaheim-ca/water-leak-detection/",
     "/service-areas/chino-ca/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/woodcrest-ca/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/woodcrest-ca/",
+    "/service-areas/woodcrest-ca/fire-damage-restoration/",
+    "/service-areas/woodcrest-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/upholstery-cleaning/",
+    "/service-areas/chino-ca/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/woodcrest-ca/emergency-water-removal/": [
@@ -5348,6 +5522,15 @@
     "/service-areas/chino-ca/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/trabuco-canyon-ca/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/trabuco-canyon-ca/",
+    "/service-areas/trabuco-canyon-ca/fire-damage-restoration/",
+    "/service-areas/trabuco-canyon-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/upholstery-cleaning/",
+    "/service-areas/chino-ca/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/trabuco-canyon-ca/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/trabuco-canyon-ca/",
@@ -5598,6 +5781,15 @@
     "/service-areas/north-tustin-ca/mold-remediation/",
     "/service-areas/anaheim-ca/water-leak-detection/",
     "/service-areas/chino-ca/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/north-tustin-ca/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/north-tustin-ca/",
+    "/service-areas/north-tustin-ca/fire-damage-restoration/",
+    "/service-areas/north-tustin-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/upholstery-cleaning/",
+    "/service-areas/chino-ca/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/north-tustin-ca/emergency-water-removal/": [
@@ -5852,6 +6044,15 @@
     "/service-areas/chino-ca/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/montclair-ca/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/montclair-ca/",
+    "/service-areas/montclair-ca/fire-damage-restoration/",
+    "/service-areas/montclair-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/upholstery-cleaning/",
+    "/service-areas/chino-ca/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/montclair-ca/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/montclair-ca/",
@@ -6102,6 +6303,15 @@
     "/service-areas/villa-park-ca/mold-remediation/",
     "/service-areas/anaheim-ca/water-leak-detection/",
     "/service-areas/chino-ca/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/villa-park-ca/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/villa-park-ca/",
+    "/service-areas/villa-park-ca/fire-damage-restoration/",
+    "/service-areas/villa-park-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/upholstery-cleaning/",
+    "/service-areas/chino-ca/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/villa-park-ca/emergency-water-removal/": [
@@ -6356,6 +6566,15 @@
     "/service-areas/chino-ca/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/fontana-ca/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/fontana-ca/",
+    "/service-areas/fontana-ca/fire-damage-restoration/",
+    "/service-areas/fontana-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/upholstery-cleaning/",
+    "/service-areas/chino-ca/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/fontana-ca/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/fontana-ca/",
@@ -6606,6 +6825,15 @@
     "/service-areas/pomona-ca/mold-remediation/",
     "/service-areas/anaheim-ca/water-leak-detection/",
     "/service-areas/chino-ca/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/pomona-ca/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/pomona-ca/",
+    "/service-areas/pomona-ca/fire-damage-restoration/",
+    "/service-areas/pomona-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/upholstery-cleaning/",
+    "/service-areas/chino-ca/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/pomona-ca/emergency-water-removal/": [

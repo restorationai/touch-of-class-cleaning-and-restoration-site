@@ -32,6 +32,7 @@
     "/services/contents-restoration/",
     "/services/carpet-cleaning/",
     "/services/post-construction-cleaning/",
+    "/services/upholstery-cleaning/",
     "/service-areas/austintown-oh/",
     "/service-areas/boardman-oh/",
     "/service-areas/campbell-oh/",
@@ -82,7 +83,8 @@
     "/services/air-duct-cleaning/",
     "/services/contents-restoration/",
     "/services/carpet-cleaning/",
-    "/services/post-construction-cleaning/"
+    "/services/post-construction-cleaning/",
+    "/services/upholstery-cleaning/"
   ],
   "/service-areas/": [
     "/",
@@ -378,6 +380,22 @@
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
   ],
+  "/services/upholstery-cleaning/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/austintown-oh/upholstery-cleaning/",
+    "/service-areas/boardman-oh/upholstery-cleaning/",
+    "/service-areas/campbell-oh/upholstery-cleaning/",
+    "/service-areas/canfield-oh/upholstery-cleaning/",
+    "/service-areas/farrell-pa/upholstery-cleaning/",
+    "/service-areas/girard-oh/upholstery-cleaning/",
+    "/service-areas/greenville-pa/upholstery-cleaning/",
+    "/service-areas/grove-city-pa/upholstery-cleaning/",
+    "/service-areas/hermitage-pa/upholstery-cleaning/",
+    "/service-areas/hubbard-oh/upholstery-cleaning/",
+    "/service-areas/mercer-pa/upholstery-cleaning/",
+    "/service-areas/mineral-ridge-oh/upholstery-cleaning/"
+  ],
   "/services/flood-damage-restoration/": [
     "/services/",
     "/contact/",
@@ -619,6 +637,7 @@
     "/service-areas/warren-oh/contents-restoration/",
     "/service-areas/warren-oh/carpet-cleaning/",
     "/service-areas/warren-oh/post-construction-cleaning/",
+    "/service-areas/warren-oh/upholstery-cleaning/",
     "/service-areas/austintown-oh/",
     "/service-areas/boardman-oh/",
     "/service-areas/campbell-oh/"
@@ -654,6 +673,7 @@
     "/service-areas/boardman-oh/contents-restoration/",
     "/service-areas/boardman-oh/carpet-cleaning/",
     "/service-areas/boardman-oh/post-construction-cleaning/",
+    "/service-areas/boardman-oh/upholstery-cleaning/",
     "/service-areas/austintown-oh/",
     "/service-areas/campbell-oh/",
     "/service-areas/canfield-oh/"
@@ -689,6 +709,7 @@
     "/service-areas/austintown-oh/contents-restoration/",
     "/service-areas/austintown-oh/carpet-cleaning/",
     "/service-areas/austintown-oh/post-construction-cleaning/",
+    "/service-areas/austintown-oh/upholstery-cleaning/",
     "/service-areas/boardman-oh/",
     "/service-areas/campbell-oh/",
     "/service-areas/canfield-oh/"
@@ -724,6 +745,7 @@
     "/service-areas/niles-oh/contents-restoration/",
     "/service-areas/niles-oh/carpet-cleaning/",
     "/service-areas/niles-oh/post-construction-cleaning/",
+    "/service-areas/niles-oh/upholstery-cleaning/",
     "/service-areas/austintown-oh/",
     "/service-areas/boardman-oh/",
     "/service-areas/campbell-oh/"
@@ -759,6 +781,7 @@
     "/service-areas/girard-oh/contents-restoration/",
     "/service-areas/girard-oh/carpet-cleaning/",
     "/service-areas/girard-oh/post-construction-cleaning/",
+    "/service-areas/girard-oh/upholstery-cleaning/",
     "/service-areas/austintown-oh/",
     "/service-areas/boardman-oh/",
     "/service-areas/campbell-oh/"
@@ -794,6 +817,7 @@
     "/service-areas/struthers-oh/contents-restoration/",
     "/service-areas/struthers-oh/carpet-cleaning/",
     "/service-areas/struthers-oh/post-construction-cleaning/",
+    "/service-areas/struthers-oh/upholstery-cleaning/",
     "/service-areas/austintown-oh/",
     "/service-areas/boardman-oh/",
     "/service-areas/campbell-oh/"
@@ -829,6 +853,7 @@
     "/service-areas/canfield-oh/contents-restoration/",
     "/service-areas/canfield-oh/carpet-cleaning/",
     "/service-areas/canfield-oh/post-construction-cleaning/",
+    "/service-areas/canfield-oh/upholstery-cleaning/",
     "/service-areas/austintown-oh/",
     "/service-areas/boardman-oh/",
     "/service-areas/campbell-oh/"
@@ -864,6 +889,7 @@
     "/service-areas/hubbard-oh/contents-restoration/",
     "/service-areas/hubbard-oh/carpet-cleaning/",
     "/service-areas/hubbard-oh/post-construction-cleaning/",
+    "/service-areas/hubbard-oh/upholstery-cleaning/",
     "/service-areas/austintown-oh/",
     "/service-areas/boardman-oh/",
     "/service-areas/campbell-oh/"
@@ -899,6 +925,7 @@
     "/service-areas/campbell-oh/contents-restoration/",
     "/service-areas/campbell-oh/carpet-cleaning/",
     "/service-areas/campbell-oh/post-construction-cleaning/",
+    "/service-areas/campbell-oh/upholstery-cleaning/",
     "/service-areas/austintown-oh/",
     "/service-areas/boardman-oh/",
     "/service-areas/canfield-oh/"
@@ -934,6 +961,7 @@
     "/service-areas/mineral-ridge-oh/contents-restoration/",
     "/service-areas/mineral-ridge-oh/carpet-cleaning/",
     "/service-areas/mineral-ridge-oh/post-construction-cleaning/",
+    "/service-areas/mineral-ridge-oh/upholstery-cleaning/",
     "/service-areas/austintown-oh/",
     "/service-areas/boardman-oh/",
     "/service-areas/campbell-oh/"
@@ -969,6 +997,7 @@
     "/service-areas/farrell-pa/contents-restoration/",
     "/service-areas/farrell-pa/carpet-cleaning/",
     "/service-areas/farrell-pa/post-construction-cleaning/",
+    "/service-areas/farrell-pa/upholstery-cleaning/",
     "/service-areas/greenville-pa/",
     "/service-areas/grove-city-pa/",
     "/service-areas/hermitage-pa/"
@@ -1004,6 +1033,7 @@
     "/service-areas/sharon-pa/contents-restoration/",
     "/service-areas/sharon-pa/carpet-cleaning/",
     "/service-areas/sharon-pa/post-construction-cleaning/",
+    "/service-areas/sharon-pa/upholstery-cleaning/",
     "/service-areas/farrell-pa/",
     "/service-areas/greenville-pa/",
     "/service-areas/grove-city-pa/"
@@ -1039,6 +1069,7 @@
     "/service-areas/hermitage-pa/contents-restoration/",
     "/service-areas/hermitage-pa/carpet-cleaning/",
     "/service-areas/hermitage-pa/post-construction-cleaning/",
+    "/service-areas/hermitage-pa/upholstery-cleaning/",
     "/service-areas/farrell-pa/",
     "/service-areas/greenville-pa/",
     "/service-areas/grove-city-pa/"
@@ -1074,6 +1105,7 @@
     "/service-areas/sharpsville-pa/contents-restoration/",
     "/service-areas/sharpsville-pa/carpet-cleaning/",
     "/service-areas/sharpsville-pa/post-construction-cleaning/",
+    "/service-areas/sharpsville-pa/upholstery-cleaning/",
     "/service-areas/farrell-pa/",
     "/service-areas/greenville-pa/",
     "/service-areas/grove-city-pa/"
@@ -1109,6 +1141,7 @@
     "/service-areas/wheatland-pa/contents-restoration/",
     "/service-areas/wheatland-pa/carpet-cleaning/",
     "/service-areas/wheatland-pa/post-construction-cleaning/",
+    "/service-areas/wheatland-pa/upholstery-cleaning/",
     "/service-areas/farrell-pa/",
     "/service-areas/greenville-pa/",
     "/service-areas/grove-city-pa/"
@@ -1144,6 +1177,7 @@
     "/service-areas/west-middlesex-pa/contents-restoration/",
     "/service-areas/west-middlesex-pa/carpet-cleaning/",
     "/service-areas/west-middlesex-pa/post-construction-cleaning/",
+    "/service-areas/west-middlesex-pa/upholstery-cleaning/",
     "/service-areas/farrell-pa/",
     "/service-areas/greenville-pa/",
     "/service-areas/grove-city-pa/"
@@ -1179,6 +1213,7 @@
     "/service-areas/greenville-pa/contents-restoration/",
     "/service-areas/greenville-pa/carpet-cleaning/",
     "/service-areas/greenville-pa/post-construction-cleaning/",
+    "/service-areas/greenville-pa/upholstery-cleaning/",
     "/service-areas/farrell-pa/",
     "/service-areas/grove-city-pa/",
     "/service-areas/hermitage-pa/"
@@ -1214,6 +1249,7 @@
     "/service-areas/grove-city-pa/contents-restoration/",
     "/service-areas/grove-city-pa/carpet-cleaning/",
     "/service-areas/grove-city-pa/post-construction-cleaning/",
+    "/service-areas/grove-city-pa/upholstery-cleaning/",
     "/service-areas/farrell-pa/",
     "/service-areas/greenville-pa/",
     "/service-areas/hermitage-pa/"
@@ -1249,6 +1285,7 @@
     "/service-areas/mercer-pa/contents-restoration/",
     "/service-areas/mercer-pa/carpet-cleaning/",
     "/service-areas/mercer-pa/post-construction-cleaning/",
+    "/service-areas/mercer-pa/upholstery-cleaning/",
     "/service-areas/farrell-pa/",
     "/service-areas/greenville-pa/",
     "/service-areas/grove-city-pa/"
@@ -1284,6 +1321,7 @@
     "/service-areas/new-castle-pa/contents-restoration/",
     "/service-areas/new-castle-pa/carpet-cleaning/",
     "/service-areas/new-castle-pa/post-construction-cleaning/",
+    "/service-areas/new-castle-pa/upholstery-cleaning/",
     "/service-areas/farrell-pa/",
     "/service-areas/greenville-pa/",
     "/service-areas/grove-city-pa/"
@@ -1421,6 +1459,15 @@
     "/service-areas/warren-oh/mold-remediation/",
     "/service-areas/austintown-oh/water-damage-restoration/",
     "/service-areas/boardman-oh/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/warren-oh/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/warren-oh/",
+    "/service-areas/warren-oh/fire-damage-restoration/",
+    "/service-areas/warren-oh/mold-remediation/",
+    "/service-areas/austintown-oh/upholstery-cleaning/",
+    "/service-areas/boardman-oh/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/warren-oh/flood-damage-restoration/": [
@@ -1675,6 +1722,15 @@
     "/service-areas/campbell-oh/water-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/boardman-oh/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/boardman-oh/",
+    "/service-areas/boardman-oh/fire-damage-restoration/",
+    "/service-areas/boardman-oh/mold-remediation/",
+    "/service-areas/austintown-oh/upholstery-cleaning/",
+    "/service-areas/campbell-oh/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/boardman-oh/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/boardman-oh/",
@@ -1925,6 +1981,15 @@
     "/service-areas/austintown-oh/mold-remediation/",
     "/service-areas/boardman-oh/water-damage-restoration/",
     "/service-areas/campbell-oh/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/austintown-oh/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/austintown-oh/",
+    "/service-areas/austintown-oh/fire-damage-restoration/",
+    "/service-areas/austintown-oh/mold-remediation/",
+    "/service-areas/boardman-oh/upholstery-cleaning/",
+    "/service-areas/campbell-oh/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/austintown-oh/flood-damage-restoration/": [
@@ -2179,6 +2244,15 @@
     "/service-areas/boardman-oh/water-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/niles-oh/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/niles-oh/",
+    "/service-areas/niles-oh/fire-damage-restoration/",
+    "/service-areas/niles-oh/mold-remediation/",
+    "/service-areas/austintown-oh/upholstery-cleaning/",
+    "/service-areas/boardman-oh/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/niles-oh/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/niles-oh/",
@@ -2429,6 +2503,15 @@
     "/service-areas/girard-oh/mold-remediation/",
     "/service-areas/austintown-oh/water-damage-restoration/",
     "/service-areas/boardman-oh/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/girard-oh/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/girard-oh/",
+    "/service-areas/girard-oh/fire-damage-restoration/",
+    "/service-areas/girard-oh/mold-remediation/",
+    "/service-areas/austintown-oh/upholstery-cleaning/",
+    "/service-areas/boardman-oh/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/girard-oh/flood-damage-restoration/": [
@@ -2683,6 +2766,15 @@
     "/service-areas/boardman-oh/water-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/struthers-oh/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/struthers-oh/",
+    "/service-areas/struthers-oh/fire-damage-restoration/",
+    "/service-areas/struthers-oh/mold-remediation/",
+    "/service-areas/austintown-oh/upholstery-cleaning/",
+    "/service-areas/boardman-oh/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/struthers-oh/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/struthers-oh/",
@@ -2933,6 +3025,15 @@
     "/service-areas/canfield-oh/mold-remediation/",
     "/service-areas/austintown-oh/water-damage-restoration/",
     "/service-areas/boardman-oh/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/canfield-oh/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/canfield-oh/",
+    "/service-areas/canfield-oh/fire-damage-restoration/",
+    "/service-areas/canfield-oh/mold-remediation/",
+    "/service-areas/austintown-oh/upholstery-cleaning/",
+    "/service-areas/boardman-oh/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/canfield-oh/flood-damage-restoration/": [
@@ -3187,6 +3288,15 @@
     "/service-areas/boardman-oh/water-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/hubbard-oh/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/hubbard-oh/",
+    "/service-areas/hubbard-oh/fire-damage-restoration/",
+    "/service-areas/hubbard-oh/mold-remediation/",
+    "/service-areas/austintown-oh/upholstery-cleaning/",
+    "/service-areas/boardman-oh/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/hubbard-oh/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/hubbard-oh/",
@@ -3437,6 +3547,15 @@
     "/service-areas/campbell-oh/mold-remediation/",
     "/service-areas/austintown-oh/water-damage-restoration/",
     "/service-areas/boardman-oh/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/campbell-oh/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/campbell-oh/",
+    "/service-areas/campbell-oh/fire-damage-restoration/",
+    "/service-areas/campbell-oh/mold-remediation/",
+    "/service-areas/austintown-oh/upholstery-cleaning/",
+    "/service-areas/boardman-oh/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/campbell-oh/flood-damage-restoration/": [
@@ -3691,6 +3810,15 @@
     "/service-areas/boardman-oh/water-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/mineral-ridge-oh/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/mineral-ridge-oh/",
+    "/service-areas/mineral-ridge-oh/fire-damage-restoration/",
+    "/service-areas/mineral-ridge-oh/mold-remediation/",
+    "/service-areas/austintown-oh/upholstery-cleaning/",
+    "/service-areas/boardman-oh/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/mineral-ridge-oh/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/mineral-ridge-oh/",
@@ -3941,6 +4069,15 @@
     "/service-areas/farrell-pa/mold-remediation/",
     "/service-areas/austintown-oh/water-damage-restoration/",
     "/service-areas/boardman-oh/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/farrell-pa/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/farrell-pa/",
+    "/service-areas/farrell-pa/fire-damage-restoration/",
+    "/service-areas/farrell-pa/mold-remediation/",
+    "/service-areas/austintown-oh/upholstery-cleaning/",
+    "/service-areas/boardman-oh/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/farrell-pa/flood-damage-restoration/": [
@@ -4195,6 +4332,15 @@
     "/service-areas/boardman-oh/water-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/sharon-pa/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/sharon-pa/",
+    "/service-areas/sharon-pa/fire-damage-restoration/",
+    "/service-areas/sharon-pa/mold-remediation/",
+    "/service-areas/austintown-oh/upholstery-cleaning/",
+    "/service-areas/boardman-oh/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/sharon-pa/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/sharon-pa/",
@@ -4445,6 +4591,15 @@
     "/service-areas/hermitage-pa/mold-remediation/",
     "/service-areas/austintown-oh/water-damage-restoration/",
     "/service-areas/boardman-oh/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/hermitage-pa/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/hermitage-pa/",
+    "/service-areas/hermitage-pa/fire-damage-restoration/",
+    "/service-areas/hermitage-pa/mold-remediation/",
+    "/service-areas/austintown-oh/upholstery-cleaning/",
+    "/service-areas/boardman-oh/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/hermitage-pa/flood-damage-restoration/": [
@@ -4699,6 +4854,15 @@
     "/service-areas/boardman-oh/water-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/sharpsville-pa/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/sharpsville-pa/",
+    "/service-areas/sharpsville-pa/fire-damage-restoration/",
+    "/service-areas/sharpsville-pa/mold-remediation/",
+    "/service-areas/austintown-oh/upholstery-cleaning/",
+    "/service-areas/boardman-oh/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/sharpsville-pa/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/sharpsville-pa/",
@@ -4949,6 +5113,15 @@
     "/service-areas/wheatland-pa/mold-remediation/",
     "/service-areas/austintown-oh/water-damage-restoration/",
     "/service-areas/boardman-oh/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/wheatland-pa/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/wheatland-pa/",
+    "/service-areas/wheatland-pa/fire-damage-restoration/",
+    "/service-areas/wheatland-pa/mold-remediation/",
+    "/service-areas/austintown-oh/upholstery-cleaning/",
+    "/service-areas/boardman-oh/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/wheatland-pa/flood-damage-restoration/": [
@@ -5203,6 +5376,15 @@
     "/service-areas/boardman-oh/water-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/west-middlesex-pa/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/west-middlesex-pa/",
+    "/service-areas/west-middlesex-pa/fire-damage-restoration/",
+    "/service-areas/west-middlesex-pa/mold-remediation/",
+    "/service-areas/austintown-oh/upholstery-cleaning/",
+    "/service-areas/boardman-oh/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/west-middlesex-pa/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/west-middlesex-pa/",
@@ -5453,6 +5635,15 @@
     "/service-areas/greenville-pa/mold-remediation/",
     "/service-areas/austintown-oh/water-damage-restoration/",
     "/service-areas/boardman-oh/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/greenville-pa/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/greenville-pa/",
+    "/service-areas/greenville-pa/fire-damage-restoration/",
+    "/service-areas/greenville-pa/mold-remediation/",
+    "/service-areas/austintown-oh/upholstery-cleaning/",
+    "/service-areas/boardman-oh/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/greenville-pa/flood-damage-restoration/": [
@@ -5707,6 +5898,15 @@
     "/service-areas/boardman-oh/water-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/grove-city-pa/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/grove-city-pa/",
+    "/service-areas/grove-city-pa/fire-damage-restoration/",
+    "/service-areas/grove-city-pa/mold-remediation/",
+    "/service-areas/austintown-oh/upholstery-cleaning/",
+    "/service-areas/boardman-oh/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/grove-city-pa/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/grove-city-pa/",
@@ -5959,6 +6159,15 @@
     "/service-areas/boardman-oh/water-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/mercer-pa/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/mercer-pa/",
+    "/service-areas/mercer-pa/fire-damage-restoration/",
+    "/service-areas/mercer-pa/mold-remediation/",
+    "/service-areas/austintown-oh/upholstery-cleaning/",
+    "/service-areas/boardman-oh/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/mercer-pa/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/mercer-pa/",
@@ -6209,6 +6418,15 @@
     "/service-areas/new-castle-pa/mold-remediation/",
     "/service-areas/austintown-oh/water-damage-restoration/",
     "/service-areas/boardman-oh/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/new-castle-pa/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/new-castle-pa/",
+    "/service-areas/new-castle-pa/fire-damage-restoration/",
+    "/service-areas/new-castle-pa/mold-remediation/",
+    "/service-areas/austintown-oh/upholstery-cleaning/",
+    "/service-areas/boardman-oh/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/new-castle-pa/flood-damage-restoration/": [

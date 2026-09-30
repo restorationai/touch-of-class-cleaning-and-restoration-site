@@ -10,10 +10,10 @@
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 654,
-    "generated_at": "2026-09-30T19:28:30.355564+00:00"
+    "url_count": 676,
+    "generated_at": "2026-09-30T21:36:57.720843+00:00"
   },
-  "updated_at": "2026-09-30T19:28:30.355570+00:00",
+  "updated_at": "2026-09-30T21:36:57.720849+00:00",
   "indexnow_key": "899685c92b08481ebe32ce5b9e39fe67",
   "build": {
     "scaffolded_at": "2026-08-08T18:59:41.259271+00:00",
@@ -22,11 +22,11 @@
     "starter_version": "0.1.0",
     "url_count": 136,
     "pages_status": "exists",
-    "last_rendered_at": "2026-08-08T19:26:17.402652+00:00",
+    "last_rendered_at": "2026-09-30T21:54:46.588688+00:00",
     "last_pushed_staging_at": "2026-09-21T23:30:34.801415+00:00",
     "last_pushed_main_at": "2026-09-30T01:41:26.852150+00:00"
   },
-  "build_status": "pushed_main",
+  "build_status": "content_rendered",
   "gbp": {
     "place_id": "ChIJBQyutfy53IARKDqQsaEwmyQ",
     "google_review_url": "https://search.google.com/local/writereview?placeid=ChIJBQyutfy53IARKDqQsaEwmyQ"

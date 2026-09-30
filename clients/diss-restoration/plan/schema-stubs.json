@@ -208,6 +208,16 @@
     ],
     "missing_stubs": []
   },
+  "/services/upholstery-cleaning/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/services/flood-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
@@ -668,6 +678,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/warren-oh/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/warren-oh/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -939,6 +959,16 @@
     "missing_stubs": []
   },
   "/service-areas/boardman-oh/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/boardman-oh/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1228,6 +1258,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/austintown-oh/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/austintown-oh/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1499,6 +1539,16 @@
     "missing_stubs": []
   },
   "/service-areas/niles-oh/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/niles-oh/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1788,6 +1838,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/girard-oh/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/girard-oh/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2059,6 +2119,16 @@
     "missing_stubs": []
   },
   "/service-areas/struthers-oh/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/struthers-oh/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2348,6 +2418,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/canfield-oh/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/canfield-oh/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2619,6 +2699,16 @@
     "missing_stubs": []
   },
   "/service-areas/hubbard-oh/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hubbard-oh/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2908,6 +2998,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/campbell-oh/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/campbell-oh/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3179,6 +3279,16 @@
     "missing_stubs": []
   },
   "/service-areas/mineral-ridge-oh/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/mineral-ridge-oh/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3468,6 +3578,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/farrell-pa/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/farrell-pa/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3739,6 +3859,16 @@
     "missing_stubs": []
   },
   "/service-areas/sharon-pa/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sharon-pa/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4028,6 +4158,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/hermitage-pa/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/hermitage-pa/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4299,6 +4439,16 @@
     "missing_stubs": []
   },
   "/service-areas/sharpsville-pa/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sharpsville-pa/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4588,6 +4738,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/wheatland-pa/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/wheatland-pa/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4859,6 +5019,16 @@
     "missing_stubs": []
   },
   "/service-areas/west-middlesex-pa/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/west-middlesex-pa/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5148,6 +5318,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/greenville-pa/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/greenville-pa/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5419,6 +5599,16 @@
     "missing_stubs": []
   },
   "/service-areas/grove-city-pa/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/grove-city-pa/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5708,6 +5898,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/mercer-pa/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/mercer-pa/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5979,6 +6179,16 @@
     "missing_stubs": []
   },
   "/service-areas/new-castle-pa/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/new-castle-pa/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

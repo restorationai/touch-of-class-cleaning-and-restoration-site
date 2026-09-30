@@ -1,20 +1,20 @@
 # Site Plan Report — DISS Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T19:28:27.012151+00:00
+- Generated: 2026-09-30T21:36:57.537456+00:00
 - Domain: `dissrestoration.com`
-- Services selected: 28 of 91 catalog entries
+- Services selected: 29 of 91 catalog entries
 - Service areas: 21
 - Cross-product enabled: True
-- Total URLs: **625**
-- Total internal links: 5143 (avg 8.2 per page)
+- Total URLs: **646**
+- Total internal links: 5319 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 560 |
-| `service-landing` | 28 |
+| `service-area-service` | 580 |
+| `service-landing` | 29 |
 | `service-area` | 20 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -42,6 +42,7 @@
 - `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
+- `upholstery-cleaning` — Upholstery Cleaning (adjacent, priority 4)
 - `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
 - `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
 - `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)

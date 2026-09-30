@@ -1,20 +1,20 @@
 # Site Plan Report — ACS Enterprise 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T19:28:20.381484+00:00
+- Generated: 2026-09-30T21:36:57.373160+00:00
 - Domain: `theacsenterprises.com`
-- Services selected: 24 of 91 catalog entries
+- Services selected: 25 of 91 catalog entries
 - Service areas: 16
 - Cross-product enabled: True
-- Total URLs: **416**
-- Total internal links: 3444 (avg 8.3 per page)
+- Total URLs: **432**
+- Total internal links: 3580 (avg 8.3 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 360 |
-| `service-landing` | 24 |
+| `service-area-service` | 375 |
+| `service-landing` | 25 |
 | `service-area` | 15 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -35,6 +35,7 @@
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `tile-grout-cleaning` — Tile & Grout Cleaning (adjacent, priority 4)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
+- `upholstery-cleaning` — Upholstery Cleaning (adjacent, priority 4)
 - `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
 - `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
 - `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)

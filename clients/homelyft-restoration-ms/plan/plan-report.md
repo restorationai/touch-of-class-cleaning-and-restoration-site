@@ -1,21 +1,21 @@
 # Site Plan Report — HomeLyft Restoration MS
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T19:28:42.364178+00:00
+- Generated: 2026-09-30T21:36:58.367433+00:00
 - Domain: `homelyft.net`
-- Services selected: 29 of 91 catalog entries
+- Services selected: 30 of 91 catalog entries
 - Service areas: 48
 - Cross-product enabled: True
-- Total URLs: **1456**
-- Total internal links: 11772 (avg 8.1 per page)
+- Total URLs: **1504**
+- Total internal links: 12164 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 1363 |
+| `service-area-service` | 1410 |
 | `service-area` | 47 |
-| `service-landing` | 29 |
+| `service-landing` | 30 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -43,6 +43,7 @@
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
+- `upholstery-cleaning` — Upholstery Cleaning (adjacent, priority 4)
 - `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
 - `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
 - `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)

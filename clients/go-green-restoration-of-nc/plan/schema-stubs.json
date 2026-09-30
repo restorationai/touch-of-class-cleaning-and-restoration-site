@@ -308,6 +308,16 @@
     ],
     "missing_stubs": []
   },
+  "/services/upholstery-cleaning/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/services/emergency-water-removal/": {
     "archetype": "service-landing",
     "stubs": [
@@ -766,6 +776,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/raleigh-nc/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/raleigh-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1017,6 +1037,16 @@
     "missing_stubs": []
   },
   "/service-areas/durham-nc/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/durham-nc/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1286,6 +1316,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/rocky-mount-nc/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/rocky-mount-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1537,6 +1577,16 @@
     "missing_stubs": []
   },
   "/service-areas/wilson-nc/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/wilson-nc/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1806,6 +1856,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/smithfield-nc/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/smithfield-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2057,6 +2117,16 @@
     "missing_stubs": []
   },
   "/service-areas/wake-forest-nc/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/wake-forest-nc/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2326,6 +2396,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/zebulon-nc/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/zebulon-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2577,6 +2657,16 @@
     "missing_stubs": []
   },
   "/service-areas/wendell-nc/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/wendell-nc/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2846,6 +2936,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/archer-lodge-nc/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/archer-lodge-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3097,6 +3197,16 @@
     "missing_stubs": []
   },
   "/service-areas/lake-royale-nc/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/lake-royale-nc/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3366,6 +3476,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/spring-hope-nc/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/spring-hope-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3617,6 +3737,16 @@
     "missing_stubs": []
   },
   "/service-areas/kenly-nc/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/kenly-nc/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3886,6 +4016,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/clayton-nc/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/clayton-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4137,6 +4277,16 @@
     "missing_stubs": []
   },
   "/service-areas/knightdale-nc/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/knightdale-nc/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4406,6 +4556,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/wilson-s-mills-nc/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/wilson-s-mills-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4657,6 +4817,16 @@
     "missing_stubs": []
   },
   "/service-areas/rolesville-nc/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rolesville-nc/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4926,6 +5096,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/selma-nc/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/selma-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5177,6 +5357,16 @@
     "missing_stubs": []
   },
   "/service-areas/nashville-nc/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/nashville-nc/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5446,6 +5636,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/elm-city-nc/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/elm-city-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5697,6 +5897,16 @@
     "missing_stubs": []
   },
   "/service-areas/pine-level-nc/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/pine-level-nc/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5966,6 +6176,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/louisburg-nc/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/louisburg-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6217,6 +6437,16 @@
     "missing_stubs": []
   },
   "/service-areas/youngsville-nc/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/youngsville-nc/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

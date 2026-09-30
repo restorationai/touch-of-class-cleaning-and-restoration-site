@@ -28,6 +28,7 @@
     "/services/junk-debris-removal/",
     "/services/carpet-cleaning/",
     "/services/tile-grout-cleaning/",
+    "/services/upholstery-cleaning/",
     "/service-areas/andrews-tx/",
     "/service-areas/big-lake-tx/",
     "/service-areas/big-spring-tx/",
@@ -69,7 +70,8 @@
     "/services/air-duct-cleaning/",
     "/services/junk-debris-removal/",
     "/services/carpet-cleaning/",
-    "/services/tile-grout-cleaning/"
+    "/services/tile-grout-cleaning/",
+    "/services/upholstery-cleaning/"
   ],
   "/service-areas/": [
     "/",
@@ -242,6 +244,22 @@
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
+  ],
+  "/services/upholstery-cleaning/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/andrews-tx/upholstery-cleaning/",
+    "/service-areas/big-lake-tx/upholstery-cleaning/",
+    "/service-areas/big-spring-tx/upholstery-cleaning/",
+    "/service-areas/crane-tx/upholstery-cleaning/",
+    "/service-areas/garden-city-tx/upholstery-cleaning/",
+    "/service-areas/gardendale-tx/upholstery-cleaning/",
+    "/service-areas/goldsmith-tx/upholstery-cleaning/",
+    "/service-areas/greenwood-tx/upholstery-cleaning/",
+    "/service-areas/imperial-tx/upholstery-cleaning/",
+    "/service-areas/mccamey-tx/upholstery-cleaning/",
+    "/service-areas/monahans-tx/upholstery-cleaning/",
+    "/service-areas/odessa-tx/upholstery-cleaning/"
   ],
   "/services/flood-damage-restoration/": [
     "/services/",
@@ -533,6 +551,7 @@
     "/service-areas/odessa-tx/junk-debris-removal/",
     "/service-areas/odessa-tx/carpet-cleaning/",
     "/service-areas/odessa-tx/tile-grout-cleaning/",
+    "/service-areas/odessa-tx/upholstery-cleaning/",
     "/service-areas/andrews-tx/",
     "/service-areas/big-lake-tx/",
     "/service-areas/big-spring-tx/"
@@ -564,6 +583,7 @@
     "/service-areas/big-spring-tx/junk-debris-removal/",
     "/service-areas/big-spring-tx/carpet-cleaning/",
     "/service-areas/big-spring-tx/tile-grout-cleaning/",
+    "/service-areas/big-spring-tx/upholstery-cleaning/",
     "/service-areas/andrews-tx/",
     "/service-areas/big-lake-tx/",
     "/service-areas/crane-tx/"
@@ -595,6 +615,7 @@
     "/service-areas/stanton-tx/junk-debris-removal/",
     "/service-areas/stanton-tx/carpet-cleaning/",
     "/service-areas/stanton-tx/tile-grout-cleaning/",
+    "/service-areas/stanton-tx/upholstery-cleaning/",
     "/service-areas/andrews-tx/",
     "/service-areas/big-lake-tx/",
     "/service-areas/big-spring-tx/"
@@ -626,6 +647,7 @@
     "/service-areas/andrews-tx/junk-debris-removal/",
     "/service-areas/andrews-tx/carpet-cleaning/",
     "/service-areas/andrews-tx/tile-grout-cleaning/",
+    "/service-areas/andrews-tx/upholstery-cleaning/",
     "/service-areas/big-lake-tx/",
     "/service-areas/big-spring-tx/",
     "/service-areas/crane-tx/"
@@ -657,6 +679,7 @@
     "/service-areas/gardendale-tx/junk-debris-removal/",
     "/service-areas/gardendale-tx/carpet-cleaning/",
     "/service-areas/gardendale-tx/tile-grout-cleaning/",
+    "/service-areas/gardendale-tx/upholstery-cleaning/",
     "/service-areas/andrews-tx/",
     "/service-areas/big-lake-tx/",
     "/service-areas/big-spring-tx/"
@@ -688,6 +711,7 @@
     "/service-areas/greenwood-tx/junk-debris-removal/",
     "/service-areas/greenwood-tx/carpet-cleaning/",
     "/service-areas/greenwood-tx/tile-grout-cleaning/",
+    "/service-areas/greenwood-tx/upholstery-cleaning/",
     "/service-areas/andrews-tx/",
     "/service-areas/big-lake-tx/",
     "/service-areas/big-spring-tx/"
@@ -719,6 +743,7 @@
     "/service-areas/goldsmith-tx/junk-debris-removal/",
     "/service-areas/goldsmith-tx/carpet-cleaning/",
     "/service-areas/goldsmith-tx/tile-grout-cleaning/",
+    "/service-areas/goldsmith-tx/upholstery-cleaning/",
     "/service-areas/andrews-tx/",
     "/service-areas/big-lake-tx/",
     "/service-areas/big-spring-tx/"
@@ -750,6 +775,7 @@
     "/service-areas/west-odessa-tx/junk-debris-removal/",
     "/service-areas/west-odessa-tx/carpet-cleaning/",
     "/service-areas/west-odessa-tx/tile-grout-cleaning/",
+    "/service-areas/west-odessa-tx/upholstery-cleaning/",
     "/service-areas/andrews-tx/",
     "/service-areas/big-lake-tx/",
     "/service-areas/big-spring-tx/"
@@ -781,6 +807,7 @@
     "/service-areas/garden-city-tx/junk-debris-removal/",
     "/service-areas/garden-city-tx/carpet-cleaning/",
     "/service-areas/garden-city-tx/tile-grout-cleaning/",
+    "/service-areas/garden-city-tx/upholstery-cleaning/",
     "/service-areas/andrews-tx/",
     "/service-areas/big-lake-tx/",
     "/service-areas/big-spring-tx/"
@@ -812,6 +839,7 @@
     "/service-areas/crane-tx/junk-debris-removal/",
     "/service-areas/crane-tx/carpet-cleaning/",
     "/service-areas/crane-tx/tile-grout-cleaning/",
+    "/service-areas/crane-tx/upholstery-cleaning/",
     "/service-areas/andrews-tx/",
     "/service-areas/big-lake-tx/",
     "/service-areas/big-spring-tx/"
@@ -843,6 +871,7 @@
     "/service-areas/monahans-tx/junk-debris-removal/",
     "/service-areas/monahans-tx/carpet-cleaning/",
     "/service-areas/monahans-tx/tile-grout-cleaning/",
+    "/service-areas/monahans-tx/upholstery-cleaning/",
     "/service-areas/andrews-tx/",
     "/service-areas/big-lake-tx/",
     "/service-areas/big-spring-tx/"
@@ -874,6 +903,7 @@
     "/service-areas/mccamey-tx/junk-debris-removal/",
     "/service-areas/mccamey-tx/carpet-cleaning/",
     "/service-areas/mccamey-tx/tile-grout-cleaning/",
+    "/service-areas/mccamey-tx/upholstery-cleaning/",
     "/service-areas/andrews-tx/",
     "/service-areas/big-lake-tx/",
     "/service-areas/big-spring-tx/"
@@ -905,6 +935,7 @@
     "/service-areas/southwest-sandhill-tx/junk-debris-removal/",
     "/service-areas/southwest-sandhill-tx/carpet-cleaning/",
     "/service-areas/southwest-sandhill-tx/tile-grout-cleaning/",
+    "/service-areas/southwest-sandhill-tx/upholstery-cleaning/",
     "/service-areas/andrews-tx/",
     "/service-areas/big-lake-tx/",
     "/service-areas/big-spring-tx/"
@@ -936,6 +967,7 @@
     "/service-areas/big-lake-tx/junk-debris-removal/",
     "/service-areas/big-lake-tx/carpet-cleaning/",
     "/service-areas/big-lake-tx/tile-grout-cleaning/",
+    "/service-areas/big-lake-tx/upholstery-cleaning/",
     "/service-areas/andrews-tx/",
     "/service-areas/big-spring-tx/",
     "/service-areas/crane-tx/"
@@ -967,6 +999,7 @@
     "/service-areas/imperial-tx/junk-debris-removal/",
     "/service-areas/imperial-tx/carpet-cleaning/",
     "/service-areas/imperial-tx/tile-grout-cleaning/",
+    "/service-areas/imperial-tx/upholstery-cleaning/",
     "/service-areas/andrews-tx/",
     "/service-areas/big-lake-tx/",
     "/service-areas/big-spring-tx/"
@@ -1041,6 +1074,15 @@
     "/service-areas/odessa-tx/mold-remediation/",
     "/service-areas/andrews-tx/water-damage-restoration/",
     "/service-areas/big-lake-tx/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/odessa-tx/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/odessa-tx/",
+    "/service-areas/odessa-tx/fire-damage-restoration/",
+    "/service-areas/odessa-tx/mold-remediation/",
+    "/service-areas/andrews-tx/upholstery-cleaning/",
+    "/service-areas/big-lake-tx/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/odessa-tx/flood-damage-restoration/": [
@@ -1259,6 +1301,15 @@
     "/service-areas/big-lake-tx/water-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/big-spring-tx/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/big-spring-tx/",
+    "/service-areas/big-spring-tx/fire-damage-restoration/",
+    "/service-areas/big-spring-tx/mold-remediation/",
+    "/service-areas/andrews-tx/upholstery-cleaning/",
+    "/service-areas/big-lake-tx/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/big-spring-tx/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/big-spring-tx/",
@@ -1473,6 +1524,15 @@
     "/service-areas/stanton-tx/mold-remediation/",
     "/service-areas/andrews-tx/water-damage-restoration/",
     "/service-areas/big-lake-tx/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/stanton-tx/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/stanton-tx/",
+    "/service-areas/stanton-tx/fire-damage-restoration/",
+    "/service-areas/stanton-tx/mold-remediation/",
+    "/service-areas/andrews-tx/upholstery-cleaning/",
+    "/service-areas/big-lake-tx/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/stanton-tx/flood-damage-restoration/": [
@@ -1691,6 +1751,15 @@
     "/service-areas/big-spring-tx/water-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/andrews-tx/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/andrews-tx/",
+    "/service-areas/andrews-tx/fire-damage-restoration/",
+    "/service-areas/andrews-tx/mold-remediation/",
+    "/service-areas/big-lake-tx/upholstery-cleaning/",
+    "/service-areas/big-spring-tx/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/andrews-tx/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/andrews-tx/",
@@ -1905,6 +1974,15 @@
     "/service-areas/gardendale-tx/mold-remediation/",
     "/service-areas/andrews-tx/water-damage-restoration/",
     "/service-areas/big-lake-tx/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/gardendale-tx/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/gardendale-tx/",
+    "/service-areas/gardendale-tx/fire-damage-restoration/",
+    "/service-areas/gardendale-tx/mold-remediation/",
+    "/service-areas/andrews-tx/upholstery-cleaning/",
+    "/service-areas/big-lake-tx/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/gardendale-tx/flood-damage-restoration/": [
@@ -2123,6 +2201,15 @@
     "/service-areas/big-lake-tx/water-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/greenwood-tx/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/greenwood-tx/",
+    "/service-areas/greenwood-tx/fire-damage-restoration/",
+    "/service-areas/greenwood-tx/mold-remediation/",
+    "/service-areas/andrews-tx/upholstery-cleaning/",
+    "/service-areas/big-lake-tx/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/greenwood-tx/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/greenwood-tx/",
@@ -2337,6 +2424,15 @@
     "/service-areas/goldsmith-tx/mold-remediation/",
     "/service-areas/andrews-tx/water-damage-restoration/",
     "/service-areas/big-lake-tx/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/goldsmith-tx/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/goldsmith-tx/",
+    "/service-areas/goldsmith-tx/fire-damage-restoration/",
+    "/service-areas/goldsmith-tx/mold-remediation/",
+    "/service-areas/andrews-tx/upholstery-cleaning/",
+    "/service-areas/big-lake-tx/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/goldsmith-tx/flood-damage-restoration/": [
@@ -2555,6 +2651,15 @@
     "/service-areas/big-lake-tx/water-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/west-odessa-tx/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/west-odessa-tx/",
+    "/service-areas/west-odessa-tx/fire-damage-restoration/",
+    "/service-areas/west-odessa-tx/mold-remediation/",
+    "/service-areas/andrews-tx/upholstery-cleaning/",
+    "/service-areas/big-lake-tx/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/west-odessa-tx/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/west-odessa-tx/",
@@ -2769,6 +2874,15 @@
     "/service-areas/garden-city-tx/mold-remediation/",
     "/service-areas/andrews-tx/water-damage-restoration/",
     "/service-areas/big-lake-tx/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/garden-city-tx/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/garden-city-tx/",
+    "/service-areas/garden-city-tx/fire-damage-restoration/",
+    "/service-areas/garden-city-tx/mold-remediation/",
+    "/service-areas/andrews-tx/upholstery-cleaning/",
+    "/service-areas/big-lake-tx/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/garden-city-tx/flood-damage-restoration/": [
@@ -2987,6 +3101,15 @@
     "/service-areas/big-lake-tx/water-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/crane-tx/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/crane-tx/",
+    "/service-areas/crane-tx/fire-damage-restoration/",
+    "/service-areas/crane-tx/mold-remediation/",
+    "/service-areas/andrews-tx/upholstery-cleaning/",
+    "/service-areas/big-lake-tx/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/crane-tx/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/crane-tx/",
@@ -3201,6 +3324,15 @@
     "/service-areas/monahans-tx/mold-remediation/",
     "/service-areas/andrews-tx/water-damage-restoration/",
     "/service-areas/big-lake-tx/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/monahans-tx/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/monahans-tx/",
+    "/service-areas/monahans-tx/fire-damage-restoration/",
+    "/service-areas/monahans-tx/mold-remediation/",
+    "/service-areas/andrews-tx/upholstery-cleaning/",
+    "/service-areas/big-lake-tx/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/monahans-tx/flood-damage-restoration/": [
@@ -3419,6 +3551,15 @@
     "/service-areas/big-lake-tx/water-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/mccamey-tx/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/mccamey-tx/",
+    "/service-areas/mccamey-tx/fire-damage-restoration/",
+    "/service-areas/mccamey-tx/mold-remediation/",
+    "/service-areas/andrews-tx/upholstery-cleaning/",
+    "/service-areas/big-lake-tx/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/mccamey-tx/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/mccamey-tx/",
@@ -3633,6 +3774,15 @@
     "/service-areas/southwest-sandhill-tx/mold-remediation/",
     "/service-areas/andrews-tx/water-damage-restoration/",
     "/service-areas/big-lake-tx/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/southwest-sandhill-tx/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/southwest-sandhill-tx/",
+    "/service-areas/southwest-sandhill-tx/fire-damage-restoration/",
+    "/service-areas/southwest-sandhill-tx/mold-remediation/",
+    "/service-areas/andrews-tx/upholstery-cleaning/",
+    "/service-areas/big-lake-tx/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/southwest-sandhill-tx/flood-damage-restoration/": [
@@ -3851,6 +4001,15 @@
     "/service-areas/big-spring-tx/water-damage-restoration/",
     "/contact/"
   ],
+  "/service-areas/big-lake-tx/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/big-lake-tx/",
+    "/service-areas/big-lake-tx/fire-damage-restoration/",
+    "/service-areas/big-lake-tx/mold-remediation/",
+    "/service-areas/andrews-tx/upholstery-cleaning/",
+    "/service-areas/big-spring-tx/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/big-lake-tx/flood-damage-restoration/": [
     "/services/flood-damage-restoration/",
     "/service-areas/big-lake-tx/",
@@ -4065,6 +4224,15 @@
     "/service-areas/imperial-tx/mold-remediation/",
     "/service-areas/andrews-tx/water-damage-restoration/",
     "/service-areas/big-lake-tx/water-damage-restoration/",
+    "/contact/"
+  ],
+  "/service-areas/imperial-tx/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/imperial-tx/",
+    "/service-areas/imperial-tx/fire-damage-restoration/",
+    "/service-areas/imperial-tx/mold-remediation/",
+    "/service-areas/andrews-tx/upholstery-cleaning/",
+    "/service-areas/big-lake-tx/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/imperial-tx/flood-damage-restoration/": [

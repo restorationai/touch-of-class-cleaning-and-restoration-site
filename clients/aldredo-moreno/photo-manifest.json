@@ -714,7 +714,8 @@
         "services": 60
       },
       "service_slugs": [
-        "carpet-cleaning"
+        "carpet-cleaning",
+        "upholstery-cleaning"
       ],
       "flags": [],
       "reason": "Effective before/after result; portrait crop rules out hero slot.",
@@ -1703,6 +1704,16 @@
       "triage_model": "claude-sonnet-4-6"
     }
   },
-  "slots": {},
+  "slots": {
+    "service:upholstery-cleaning": {
+      "asset": "gbp:gbp-AF1QipNWQOw7Ta4l_sZxdy9yRlV7TY54GYUYz5JqbU-_",
+      "source": "gbp",
+      "category": "before_after",
+      "subject": "Chair cushion before and after upholstery cleaning side by side",
+      "file": "/images/services/upholstery-cleaning.webp",
+      "installed_at": "2026-09-30T21:43:52Z",
+      "note": "client's own GBP before/after (stacked) re-laid side by side, before | after (09-30)"
+    }
+  },
   "triaged_at": "2026-09-30T19:34:00Z"
 }

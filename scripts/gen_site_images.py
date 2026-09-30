@@ -250,6 +250,7 @@ SERVICE_SCENES = {
     "blood-cleanup": _SENSITIVE_SCENE,
     "carpet-water-extraction": "a technician driving a weighted stand-on extraction tool across soaked wall-to-wall carpet, water visibly pulled up into the hose",
     "carpet-upholstery-cleaning": "a technician cleaning a fabric sofa cushion with a handheld upholstery extraction tool, a clean stripe visible on the fabric",
+    "upholstery-cleaning": "a technician kneeling beside a fabric sofa in a bright living room, running a small handheld upholstery extraction tool across a seat cushion, a visibly cleaner stripe on the fabric, portable extractor unit on the floor",
     "air-duct-hvac-cleaning": "a technician inspecting the inside of an opened HVAC air handler cabinet with a flashlight, a HEPA negative-air machine hose attached to the trunk line",
     "air-duct-cleaning-service": "a technician feeding a rotary brush line into an open ceiling duct register, HEPA vacuum unit on the floor below",
     "emergency-board-up": "a technician screwing a plywood sheet over a broken sliding glass door at dusk, a drill in hand and glass swept into a pile",
@@ -300,7 +301,8 @@ def generate_service_images(*, slug: str, geo: str, guide: str,
                             equip: str = "", redo: set | None = None,
                             real: dict | None = None,
                             scene_overrides: dict | None = None,
-                            request: str = "", requested_by: str = "") -> int:
+                            request: str = "", requested_by: str = "",
+                            only: set | None = None) -> int:
     """One image per src/content/services/*.md page, named {service_slug}.webp
     so serviceImage() resolves it. Existing base images are never overwritten
     (missing variants + manifest entries are still backfilled) — EXCEPT the
@@ -331,6 +333,8 @@ def generate_service_images(*, slug: str, geo: str, guide: str,
         svc_slug = _fm_field(text, "service_slug") or md.stem
         display = _fm_field(text, "service_display") or md.stem.replace("-", " ").title()
         out = out_dir / f"{svc_slug}.webp"
+        if only and svc_slug not in only:
+            continue    # --only: touch just the named service cards
 
         rp = real.get(f"service:{svc_slug}")
         if rp:
@@ -658,6 +662,9 @@ def main() -> int:
                          "are never replaced without one (image_guard.py).")
     ap.add_argument("--requested-by", default="",
                     help="REQUIRED with --redo/--force: who asked and when")
+    ap.add_argument("--only", default="",
+                    help="with --services: comma-separated service_slugs to generate "
+                         "(e.g. a new page's card) without touching any other card")
     ap.add_argument("--no-harvest", action="store_true",
                     help="skip the real-photo harvest that otherwise runs "
                          "before the first generation for a client")
@@ -882,7 +889,8 @@ def main() -> int:
             logo_rule=logo_rule, img_dir=img_dir, crew=crew, mood=mood,
             equip=equip, real=real, scene_overrides=scene_overrides,
             redo={s.strip() for s in args.redo.split(",") if s.strip()},
-            request=args.request, requested_by=args.requested_by)
+            request=args.request, requested_by=args.requested_by,
+            only={s.strip() for s in args.only.split(",") if s.strip()} or None)
 
     SHOTS = {
         "hero-bg.webp": (

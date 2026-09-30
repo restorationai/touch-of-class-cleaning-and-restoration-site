@@ -1700,6 +1700,9 @@ def cmd_render(args) -> int:
         pages = [p for p in pages if p["archetype"] == args.archetype]
     if args.url:
         pages = [p for p in pages if p["url_path"] == args.url]
+    if getattr(args, "service", None):
+        # one service's page + its city variants (e.g. a new upholstery page)
+        pages = [p for p in pages if p["url_path"].rstrip("/").endswith("/" + args.service)]
     # Order by priority desc so high-value pages render first (best output if interrupted)
     pages.sort(key=lambda p: -p.get("priority", 0))
 
@@ -3268,6 +3271,7 @@ def build_parser() -> argparse.ArgumentParser:
     pr.add_argument("--slug", required=True)
     pr.add_argument("--archetype", help="Filter to one archetype (e.g., service-area-service)")
     pr.add_argument("--url", help="Filter to one URL path (e.g., /services/water-damage-restoration/)")
+    pr.add_argument("--service", help="Filter to one service slug: /services/{x}/ + every city variant")
     pr.add_argument("--limit", type=int, help="Render at most N pages")
     pr.add_argument("--model", default=ANTHROPIC_DEFAULT_MODEL,
                     help=f"Anthropic model (default: {ANTHROPIC_DEFAULT_MODEL})")

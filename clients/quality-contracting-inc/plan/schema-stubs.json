@@ -238,6 +238,16 @@
     ],
     "missing_stubs": []
   },
+  "/services/upholstery-cleaning/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/services/emergency-water-removal/": {
     "archetype": "service-landing",
     "stubs": [
@@ -781,6 +791,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/worcester-ma/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/worcester-ma/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1072,6 +1092,16 @@
     "missing_stubs": []
   },
   "/service-areas/shrewsbury-ma/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/shrewsbury-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1381,6 +1411,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/westborough-ma/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/westborough-ma/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1672,6 +1712,16 @@
     "missing_stubs": []
   },
   "/service-areas/southborough-ma/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/southborough-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1981,6 +2031,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/hopkinton-ma/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/hopkinton-ma/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2272,6 +2332,16 @@
     "missing_stubs": []
   },
   "/service-areas/framingham-ma/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/framingham-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2581,6 +2651,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/natick-ma/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/natick-ma/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2872,6 +2952,16 @@
     "missing_stubs": []
   },
   "/service-areas/wellesley-ma/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/wellesley-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3181,6 +3271,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/needham-ma/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/needham-ma/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3472,6 +3572,16 @@
     "missing_stubs": []
   },
   "/service-areas/newton-ma/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/newton-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3781,6 +3891,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/weston-ma/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/weston-ma/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4072,6 +4192,16 @@
     "missing_stubs": []
   },
   "/service-areas/oxford-ma/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/oxford-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4381,6 +4511,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/whitinsville-ma/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/whitinsville-ma/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4672,6 +4812,16 @@
     "missing_stubs": []
   },
   "/service-areas/east-douglas-ma/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/east-douglas-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4981,6 +5131,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/northborough-ma/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/northborough-ma/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5272,6 +5432,16 @@
     "missing_stubs": []
   },
   "/service-areas/southbridge-town-ma/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/southbridge-town-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5581,6 +5751,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/sturbridge-ma/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/sturbridge-ma/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5872,6 +6052,16 @@
     "missing_stubs": []
   },
   "/service-areas/fiskdale-ma/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/fiskdale-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6181,6 +6371,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/milford-ma/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/milford-ma/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6472,6 +6672,16 @@
     "missing_stubs": []
   },
   "/service-areas/marlborough-ma/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/marlborough-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6781,6 +6991,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/hudson-ma/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/hudson-ma/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7072,6 +7292,16 @@
     "missing_stubs": []
   },
   "/service-areas/bellingham-ma/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/bellingham-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7381,6 +7611,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/ware-ma/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/ware-ma/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7672,6 +7912,16 @@
     "missing_stubs": []
   },
   "/service-areas/leominster-ma/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/leominster-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7981,6 +8231,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/franklin-town-ma/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/franklin-town-ma/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8281,6 +8541,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/palmer-town-ma/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/palmer-town-ma/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8572,6 +8842,16 @@
     "missing_stubs": []
   },
   "/service-areas/maynard-ma/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/maynard-ma/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

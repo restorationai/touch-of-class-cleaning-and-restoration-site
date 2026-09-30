@@ -138,6 +138,16 @@
     ],
     "missing_stubs": []
   },
+  "/services/upholstery-cleaning/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/services/flood-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
@@ -513,6 +523,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/odessa-tx/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/odessa-tx/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -744,6 +764,16 @@
     "missing_stubs": []
   },
   "/service-areas/big-spring-tx/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/big-spring-tx/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -993,6 +1023,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/stanton-tx/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/stanton-tx/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1224,6 +1264,16 @@
     "missing_stubs": []
   },
   "/service-areas/andrews-tx/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/andrews-tx/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1473,6 +1523,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/gardendale-tx/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/gardendale-tx/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1704,6 +1764,16 @@
     "missing_stubs": []
   },
   "/service-areas/greenwood-tx/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/greenwood-tx/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1953,6 +2023,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/goldsmith-tx/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/goldsmith-tx/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2184,6 +2264,16 @@
     "missing_stubs": []
   },
   "/service-areas/west-odessa-tx/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/west-odessa-tx/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2433,6 +2523,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/garden-city-tx/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/garden-city-tx/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2664,6 +2764,16 @@
     "missing_stubs": []
   },
   "/service-areas/crane-tx/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/crane-tx/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2913,6 +3023,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/monahans-tx/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/monahans-tx/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3144,6 +3264,16 @@
     "missing_stubs": []
   },
   "/service-areas/mccamey-tx/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/mccamey-tx/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3393,6 +3523,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/southwest-sandhill-tx/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/southwest-sandhill-tx/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3633,6 +3773,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/big-lake-tx/upholstery-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/big-lake-tx/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3864,6 +4014,16 @@
     "missing_stubs": []
   },
   "/service-areas/imperial-tx/water-damage-restoration/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/imperial-tx/upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

@@ -33,6 +33,7 @@
     "/services/crawl-space-encapsulation/",
     "/services/carpet-cleaning/",
     "/services/post-construction-cleaning/",
+    "/services/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/",
@@ -111,7 +112,8 @@
     "/services/contents-restoration/",
     "/services/crawl-space-encapsulation/",
     "/services/carpet-cleaning/",
-    "/services/post-construction-cleaning/"
+    "/services/post-construction-cleaning/",
+    "/services/upholstery-cleaning/"
   ],
   "/service-areas/": [
     "/",
@@ -449,6 +451,22 @@
     "/service-areas/escatawpa-ms/water-leak-detection/",
     "/service-areas/gautier-ms/water-leak-detection/"
   ],
+  "/services/upholstery-cleaning/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
+    "/service-areas/benndale-ms/upholstery-cleaning/",
+    "/service-areas/big-point-ms/upholstery-cleaning/",
+    "/service-areas/biloxi-ms/upholstery-cleaning/",
+    "/service-areas/d-iberville-ms/upholstery-cleaning/",
+    "/service-areas/delisle-ms/upholstery-cleaning/",
+    "/service-areas/diamondhead-ms/upholstery-cleaning/",
+    "/service-areas/eastabuchie-ms/upholstery-cleaning/",
+    "/service-areas/ellisville-ms/upholstery-cleaning/",
+    "/service-areas/escatawpa-ms/upholstery-cleaning/",
+    "/service-areas/gautier-ms/upholstery-cleaning/"
+  ],
   "/services/emergency-water-removal/": [
     "/services/",
     "/contact/",
@@ -692,6 +710,7 @@
     "/service-areas/eastabuchie-ms/crawl-space-encapsulation/",
     "/service-areas/eastabuchie-ms/carpet-cleaning/",
     "/service-areas/eastabuchie-ms/post-construction-cleaning/",
+    "/service-areas/eastabuchie-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -728,6 +747,7 @@
     "/service-areas/hattiesburg-ms/crawl-space-encapsulation/",
     "/service-areas/hattiesburg-ms/carpet-cleaning/",
     "/service-areas/hattiesburg-ms/post-construction-cleaning/",
+    "/service-areas/hattiesburg-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -764,6 +784,7 @@
     "/service-areas/petal-ms/crawl-space-encapsulation/",
     "/service-areas/petal-ms/carpet-cleaning/",
     "/service-areas/petal-ms/post-construction-cleaning/",
+    "/service-areas/petal-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -800,6 +821,7 @@
     "/service-areas/rawls-springs-ms/crawl-space-encapsulation/",
     "/service-areas/rawls-springs-ms/carpet-cleaning/",
     "/service-areas/rawls-springs-ms/post-construction-cleaning/",
+    "/service-areas/rawls-springs-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -836,6 +858,7 @@
     "/service-areas/leakesville-ms/crawl-space-encapsulation/",
     "/service-areas/leakesville-ms/carpet-cleaning/",
     "/service-areas/leakesville-ms/post-construction-cleaning/",
+    "/service-areas/leakesville-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -872,6 +895,7 @@
     "/service-areas/mclain-ms/crawl-space-encapsulation/",
     "/service-areas/mclain-ms/carpet-cleaning/",
     "/service-areas/mclain-ms/post-construction-cleaning/",
+    "/service-areas/mclain-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -908,6 +932,7 @@
     "/service-areas/state-line-ms/crawl-space-encapsulation/",
     "/service-areas/state-line-ms/carpet-cleaning/",
     "/service-areas/state-line-ms/post-construction-cleaning/",
+    "/service-areas/state-line-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -944,6 +969,7 @@
     "/service-areas/biloxi-ms/crawl-space-encapsulation/",
     "/service-areas/biloxi-ms/carpet-cleaning/",
     "/service-areas/biloxi-ms/post-construction-cleaning/",
+    "/service-areas/biloxi-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -980,6 +1006,7 @@
     "/service-areas/d-iberville-ms/crawl-space-encapsulation/",
     "/service-areas/d-iberville-ms/carpet-cleaning/",
     "/service-areas/d-iberville-ms/post-construction-cleaning/",
+    "/service-areas/d-iberville-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -1016,6 +1043,7 @@
     "/service-areas/delisle-ms/crawl-space-encapsulation/",
     "/service-areas/delisle-ms/carpet-cleaning/",
     "/service-areas/delisle-ms/post-construction-cleaning/",
+    "/service-areas/delisle-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -1052,6 +1080,7 @@
     "/service-areas/diamondhead-ms/crawl-space-encapsulation/",
     "/service-areas/diamondhead-ms/carpet-cleaning/",
     "/service-areas/diamondhead-ms/post-construction-cleaning/",
+    "/service-areas/diamondhead-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -1088,6 +1117,7 @@
     "/service-areas/henderson-point-ms/crawl-space-encapsulation/",
     "/service-areas/henderson-point-ms/carpet-cleaning/",
     "/service-areas/henderson-point-ms/post-construction-cleaning/",
+    "/service-areas/henderson-point-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -1124,6 +1154,7 @@
     "/service-areas/latimer-ms/crawl-space-encapsulation/",
     "/service-areas/latimer-ms/carpet-cleaning/",
     "/service-areas/latimer-ms/post-construction-cleaning/",
+    "/service-areas/latimer-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -1160,6 +1191,7 @@
     "/service-areas/long-beach-ms/crawl-space-encapsulation/",
     "/service-areas/long-beach-ms/carpet-cleaning/",
     "/service-areas/long-beach-ms/post-construction-cleaning/",
+    "/service-areas/long-beach-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -1196,6 +1228,7 @@
     "/service-areas/lyman-ms/crawl-space-encapsulation/",
     "/service-areas/lyman-ms/carpet-cleaning/",
     "/service-areas/lyman-ms/post-construction-cleaning/",
+    "/service-areas/lyman-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -1232,6 +1265,7 @@
     "/service-areas/pass-christian-ms/crawl-space-encapsulation/",
     "/service-areas/pass-christian-ms/carpet-cleaning/",
     "/service-areas/pass-christian-ms/post-construction-cleaning/",
+    "/service-areas/pass-christian-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -1268,6 +1302,7 @@
     "/service-areas/saucier-ms/crawl-space-encapsulation/",
     "/service-areas/saucier-ms/carpet-cleaning/",
     "/service-areas/saucier-ms/post-construction-cleaning/",
+    "/service-areas/saucier-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -1304,6 +1339,7 @@
     "/service-areas/st-martin-ms/crawl-space-encapsulation/",
     "/service-areas/st-martin-ms/carpet-cleaning/",
     "/service-areas/st-martin-ms/post-construction-cleaning/",
+    "/service-areas/st-martin-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -1340,6 +1376,7 @@
     "/service-areas/bay-st-louis-ms/crawl-space-encapsulation/",
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/service-areas/bay-st-louis-ms/post-construction-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/benndale-ms/",
     "/service-areas/big-point-ms/"
@@ -1376,6 +1413,7 @@
     "/service-areas/kiln-ms/crawl-space-encapsulation/",
     "/service-areas/kiln-ms/carpet-cleaning/",
     "/service-areas/kiln-ms/post-construction-cleaning/",
+    "/service-areas/kiln-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -1412,6 +1450,7 @@
     "/service-areas/pearlington-ms/crawl-space-encapsulation/",
     "/service-areas/pearlington-ms/carpet-cleaning/",
     "/service-areas/pearlington-ms/post-construction-cleaning/",
+    "/service-areas/pearlington-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -1448,6 +1487,7 @@
     "/service-areas/picayune-ms/crawl-space-encapsulation/",
     "/service-areas/picayune-ms/carpet-cleaning/",
     "/service-areas/picayune-ms/post-construction-cleaning/",
+    "/service-areas/picayune-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -1484,6 +1524,7 @@
     "/service-areas/waveland-ms/crawl-space-encapsulation/",
     "/service-areas/waveland-ms/carpet-cleaning/",
     "/service-areas/waveland-ms/post-construction-cleaning/",
+    "/service-areas/waveland-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -1520,6 +1561,7 @@
     "/service-areas/wiggins-ms/crawl-space-encapsulation/",
     "/service-areas/wiggins-ms/carpet-cleaning/",
     "/service-areas/wiggins-ms/post-construction-cleaning/",
+    "/service-areas/wiggins-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -1556,6 +1598,7 @@
     "/service-areas/hide-a-way-lake-ms/crawl-space-encapsulation/",
     "/service-areas/hide-a-way-lake-ms/carpet-cleaning/",
     "/service-areas/hide-a-way-lake-ms/post-construction-cleaning/",
+    "/service-areas/hide-a-way-lake-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -1592,6 +1635,7 @@
     "/service-areas/lumberton-ms/crawl-space-encapsulation/",
     "/service-areas/lumberton-ms/carpet-cleaning/",
     "/service-areas/lumberton-ms/post-construction-cleaning/",
+    "/service-areas/lumberton-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -1628,6 +1672,7 @@
     "/service-areas/poplarville-ms/crawl-space-encapsulation/",
     "/service-areas/poplarville-ms/carpet-cleaning/",
     "/service-areas/poplarville-ms/post-construction-cleaning/",
+    "/service-areas/poplarville-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -1664,6 +1709,7 @@
     "/service-areas/big-point-ms/crawl-space-encapsulation/",
     "/service-areas/big-point-ms/carpet-cleaning/",
     "/service-areas/big-point-ms/post-construction-cleaning/",
+    "/service-areas/big-point-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -1700,6 +1746,7 @@
     "/service-areas/escatawpa-ms/crawl-space-encapsulation/",
     "/service-areas/escatawpa-ms/carpet-cleaning/",
     "/service-areas/escatawpa-ms/post-construction-cleaning/",
+    "/service-areas/escatawpa-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -1736,6 +1783,7 @@
     "/service-areas/gautier-ms/crawl-space-encapsulation/",
     "/service-areas/gautier-ms/carpet-cleaning/",
     "/service-areas/gautier-ms/post-construction-cleaning/",
+    "/service-areas/gautier-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -1772,6 +1820,7 @@
     "/service-areas/gulf-hills-ms/crawl-space-encapsulation/",
     "/service-areas/gulf-hills-ms/carpet-cleaning/",
     "/service-areas/gulf-hills-ms/post-construction-cleaning/",
+    "/service-areas/gulf-hills-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -1808,6 +1857,7 @@
     "/service-areas/gulf-park-estates-ms/crawl-space-encapsulation/",
     "/service-areas/gulf-park-estates-ms/carpet-cleaning/",
     "/service-areas/gulf-park-estates-ms/post-construction-cleaning/",
+    "/service-areas/gulf-park-estates-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -1844,6 +1894,7 @@
     "/service-areas/helena-ms/crawl-space-encapsulation/",
     "/service-areas/helena-ms/carpet-cleaning/",
     "/service-areas/helena-ms/post-construction-cleaning/",
+    "/service-areas/helena-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -1880,6 +1931,7 @@
     "/service-areas/hurley-ms/crawl-space-encapsulation/",
     "/service-areas/hurley-ms/carpet-cleaning/",
     "/service-areas/hurley-ms/post-construction-cleaning/",
+    "/service-areas/hurley-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -1916,6 +1968,7 @@
     "/service-areas/moss-point-ms/crawl-space-encapsulation/",
     "/service-areas/moss-point-ms/carpet-cleaning/",
     "/service-areas/moss-point-ms/post-construction-cleaning/",
+    "/service-areas/moss-point-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -1952,6 +2005,7 @@
     "/service-areas/ocean-springs-ms/crawl-space-encapsulation/",
     "/service-areas/ocean-springs-ms/carpet-cleaning/",
     "/service-areas/ocean-springs-ms/post-construction-cleaning/",
+    "/service-areas/ocean-springs-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -1988,6 +2042,7 @@
     "/service-areas/pascagoula-ms/crawl-space-encapsulation/",
     "/service-areas/pascagoula-ms/carpet-cleaning/",
     "/service-areas/pascagoula-ms/post-construction-cleaning/",
+    "/service-areas/pascagoula-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -2024,6 +2079,7 @@
     "/service-areas/vancleave-ms/crawl-space-encapsulation/",
     "/service-areas/vancleave-ms/carpet-cleaning/",
     "/service-areas/vancleave-ms/post-construction-cleaning/",
+    "/service-areas/vancleave-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -2060,6 +2116,7 @@
     "/service-areas/wade-ms/crawl-space-encapsulation/",
     "/service-areas/wade-ms/carpet-cleaning/",
     "/service-areas/wade-ms/post-construction-cleaning/",
+    "/service-areas/wade-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -2096,6 +2153,7 @@
     "/service-areas/agricola-ms/crawl-space-encapsulation/",
     "/service-areas/agricola-ms/carpet-cleaning/",
     "/service-areas/agricola-ms/post-construction-cleaning/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/",
     "/service-areas/big-point-ms/"
@@ -2132,6 +2190,7 @@
     "/service-areas/benndale-ms/crawl-space-encapsulation/",
     "/service-areas/benndale-ms/carpet-cleaning/",
     "/service-areas/benndale-ms/post-construction-cleaning/",
+    "/service-areas/benndale-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/big-point-ms/"
@@ -2168,6 +2227,7 @@
     "/service-areas/lucedale-ms/crawl-space-encapsulation/",
     "/service-areas/lucedale-ms/carpet-cleaning/",
     "/service-areas/lucedale-ms/post-construction-cleaning/",
+    "/service-areas/lucedale-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -2204,6 +2264,7 @@
     "/service-areas/ellisville-ms/crawl-space-encapsulation/",
     "/service-areas/ellisville-ms/carpet-cleaning/",
     "/service-areas/ellisville-ms/post-construction-cleaning/",
+    "/service-areas/ellisville-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -2240,6 +2301,7 @@
     "/service-areas/laurel-ms/crawl-space-encapsulation/",
     "/service-areas/laurel-ms/carpet-cleaning/",
     "/service-areas/laurel-ms/post-construction-cleaning/",
+    "/service-areas/laurel-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -2276,6 +2338,7 @@
     "/service-areas/moselle-ms/crawl-space-encapsulation/",
     "/service-areas/moselle-ms/carpet-cleaning/",
     "/service-areas/moselle-ms/post-construction-cleaning/",
+    "/service-areas/moselle-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -2312,6 +2375,7 @@
     "/service-areas/ovett-ms/crawl-space-encapsulation/",
     "/service-areas/ovett-ms/carpet-cleaning/",
     "/service-areas/ovett-ms/post-construction-cleaning/",
+    "/service-areas/ovett-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -2348,6 +2412,7 @@
     "/service-areas/sandersville-ms/crawl-space-encapsulation/",
     "/service-areas/sandersville-ms/carpet-cleaning/",
     "/service-areas/sandersville-ms/post-construction-cleaning/",
+    "/service-areas/sandersville-ms/upholstery-cleaning/",
     "/service-areas/agricola-ms/",
     "/service-areas/bay-st-louis-ms/",
     "/service-areas/benndale-ms/"
@@ -2494,6 +2559,15 @@
     "/service-areas/eastabuchie-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/eastabuchie-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/eastabuchie-ms/",
+    "/service-areas/eastabuchie-ms/fire-damage-restoration/",
+    "/service-areas/eastabuchie-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/eastabuchie-ms/emergency-water-removal/": [
@@ -2757,6 +2831,15 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/hattiesburg-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/hattiesburg-ms/",
+    "/service-areas/hattiesburg-ms/fire-damage-restoration/",
+    "/service-areas/hattiesburg-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/hattiesburg-ms/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/hattiesburg-ms/",
@@ -3016,6 +3099,15 @@
     "/service-areas/petal-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/petal-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/petal-ms/",
+    "/service-areas/petal-ms/fire-damage-restoration/",
+    "/service-areas/petal-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/petal-ms/emergency-water-removal/": [
@@ -3279,6 +3371,15 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/rawls-springs-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/rawls-springs-ms/",
+    "/service-areas/rawls-springs-ms/fire-damage-restoration/",
+    "/service-areas/rawls-springs-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/rawls-springs-ms/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/rawls-springs-ms/",
@@ -3538,6 +3639,15 @@
     "/service-areas/leakesville-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/leakesville-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/leakesville-ms/",
+    "/service-areas/leakesville-ms/fire-damage-restoration/",
+    "/service-areas/leakesville-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/leakesville-ms/emergency-water-removal/": [
@@ -3801,6 +3911,15 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/mclain-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/mclain-ms/",
+    "/service-areas/mclain-ms/fire-damage-restoration/",
+    "/service-areas/mclain-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/mclain-ms/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/mclain-ms/",
@@ -4060,6 +4179,15 @@
     "/service-areas/state-line-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/state-line-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/state-line-ms/",
+    "/service-areas/state-line-ms/fire-damage-restoration/",
+    "/service-areas/state-line-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/state-line-ms/emergency-water-removal/": [
@@ -4323,6 +4451,15 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/biloxi-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/biloxi-ms/",
+    "/service-areas/biloxi-ms/fire-damage-restoration/",
+    "/service-areas/biloxi-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/biloxi-ms/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/biloxi-ms/",
@@ -4582,6 +4719,15 @@
     "/service-areas/d-iberville-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/d-iberville-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/d-iberville-ms/",
+    "/service-areas/d-iberville-ms/fire-damage-restoration/",
+    "/service-areas/d-iberville-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/d-iberville-ms/emergency-water-removal/": [
@@ -4845,6 +4991,15 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/delisle-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/delisle-ms/",
+    "/service-areas/delisle-ms/fire-damage-restoration/",
+    "/service-areas/delisle-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/delisle-ms/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/delisle-ms/",
@@ -5104,6 +5259,15 @@
     "/service-areas/diamondhead-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/diamondhead-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/diamondhead-ms/",
+    "/service-areas/diamondhead-ms/fire-damage-restoration/",
+    "/service-areas/diamondhead-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/diamondhead-ms/emergency-water-removal/": [
@@ -5367,6 +5531,15 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/henderson-point-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/henderson-point-ms/",
+    "/service-areas/henderson-point-ms/fire-damage-restoration/",
+    "/service-areas/henderson-point-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/henderson-point-ms/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/henderson-point-ms/",
@@ -5626,6 +5799,15 @@
     "/service-areas/latimer-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/latimer-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/latimer-ms/",
+    "/service-areas/latimer-ms/fire-damage-restoration/",
+    "/service-areas/latimer-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/latimer-ms/emergency-water-removal/": [
@@ -5889,6 +6071,15 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/long-beach-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/long-beach-ms/",
+    "/service-areas/long-beach-ms/fire-damage-restoration/",
+    "/service-areas/long-beach-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/long-beach-ms/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/long-beach-ms/",
@@ -6148,6 +6339,15 @@
     "/service-areas/lyman-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/lyman-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/lyman-ms/",
+    "/service-areas/lyman-ms/fire-damage-restoration/",
+    "/service-areas/lyman-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/lyman-ms/emergency-water-removal/": [
@@ -6411,6 +6611,15 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/pass-christian-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/pass-christian-ms/",
+    "/service-areas/pass-christian-ms/fire-damage-restoration/",
+    "/service-areas/pass-christian-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/pass-christian-ms/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/pass-christian-ms/",
@@ -6670,6 +6879,15 @@
     "/service-areas/saucier-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/saucier-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/saucier-ms/",
+    "/service-areas/saucier-ms/fire-damage-restoration/",
+    "/service-areas/saucier-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/saucier-ms/emergency-water-removal/": [
@@ -6933,6 +7151,15 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/st-martin-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/st-martin-ms/",
+    "/service-areas/st-martin-ms/fire-damage-restoration/",
+    "/service-areas/st-martin-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/st-martin-ms/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/st-martin-ms/",
@@ -7192,6 +7419,15 @@
     "/service-areas/bay-st-louis-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/benndale-ms/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/bay-st-louis-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/",
+    "/service-areas/bay-st-louis-ms/fire-damage-restoration/",
+    "/service-areas/bay-st-louis-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/benndale-ms/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/bay-st-louis-ms/emergency-water-removal/": [
@@ -7455,6 +7691,15 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/kiln-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/kiln-ms/",
+    "/service-areas/kiln-ms/fire-damage-restoration/",
+    "/service-areas/kiln-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/kiln-ms/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/kiln-ms/",
@@ -7714,6 +7959,15 @@
     "/service-areas/pearlington-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/pearlington-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/pearlington-ms/",
+    "/service-areas/pearlington-ms/fire-damage-restoration/",
+    "/service-areas/pearlington-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/pearlington-ms/emergency-water-removal/": [
@@ -7977,6 +8231,15 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/picayune-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/picayune-ms/",
+    "/service-areas/picayune-ms/fire-damage-restoration/",
+    "/service-areas/picayune-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/picayune-ms/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/picayune-ms/",
@@ -8236,6 +8499,15 @@
     "/service-areas/waveland-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/waveland-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/waveland-ms/",
+    "/service-areas/waveland-ms/fire-damage-restoration/",
+    "/service-areas/waveland-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/waveland-ms/emergency-water-removal/": [
@@ -8499,6 +8771,15 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/wiggins-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/wiggins-ms/",
+    "/service-areas/wiggins-ms/fire-damage-restoration/",
+    "/service-areas/wiggins-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/wiggins-ms/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/wiggins-ms/",
@@ -8758,6 +9039,15 @@
     "/service-areas/hide-a-way-lake-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/hide-a-way-lake-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/hide-a-way-lake-ms/",
+    "/service-areas/hide-a-way-lake-ms/fire-damage-restoration/",
+    "/service-areas/hide-a-way-lake-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/hide-a-way-lake-ms/emergency-water-removal/": [
@@ -9021,6 +9311,15 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/lumberton-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/lumberton-ms/",
+    "/service-areas/lumberton-ms/fire-damage-restoration/",
+    "/service-areas/lumberton-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/lumberton-ms/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/lumberton-ms/",
@@ -9280,6 +9579,15 @@
     "/service-areas/poplarville-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/poplarville-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/poplarville-ms/",
+    "/service-areas/poplarville-ms/fire-damage-restoration/",
+    "/service-areas/poplarville-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/poplarville-ms/emergency-water-removal/": [
@@ -9543,6 +9851,15 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/big-point-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/big-point-ms/",
+    "/service-areas/big-point-ms/fire-damage-restoration/",
+    "/service-areas/big-point-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/big-point-ms/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/big-point-ms/",
@@ -9802,6 +10119,15 @@
     "/service-areas/escatawpa-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/escatawpa-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/escatawpa-ms/",
+    "/service-areas/escatawpa-ms/fire-damage-restoration/",
+    "/service-areas/escatawpa-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/escatawpa-ms/emergency-water-removal/": [
@@ -10065,6 +10391,15 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/gautier-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/gautier-ms/",
+    "/service-areas/gautier-ms/fire-damage-restoration/",
+    "/service-areas/gautier-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/gautier-ms/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/gautier-ms/",
@@ -10324,6 +10659,15 @@
     "/service-areas/gulf-hills-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/gulf-hills-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/gulf-hills-ms/",
+    "/service-areas/gulf-hills-ms/fire-damage-restoration/",
+    "/service-areas/gulf-hills-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/gulf-hills-ms/emergency-water-removal/": [
@@ -10587,6 +10931,15 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/gulf-park-estates-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/gulf-park-estates-ms/",
+    "/service-areas/gulf-park-estates-ms/fire-damage-restoration/",
+    "/service-areas/gulf-park-estates-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/gulf-park-estates-ms/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/gulf-park-estates-ms/",
@@ -10846,6 +11199,15 @@
     "/service-areas/helena-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/helena-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/helena-ms/",
+    "/service-areas/helena-ms/fire-damage-restoration/",
+    "/service-areas/helena-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/helena-ms/emergency-water-removal/": [
@@ -11109,6 +11471,15 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/hurley-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/hurley-ms/",
+    "/service-areas/hurley-ms/fire-damage-restoration/",
+    "/service-areas/hurley-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/hurley-ms/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/hurley-ms/",
@@ -11368,6 +11739,15 @@
     "/service-areas/moss-point-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/moss-point-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/moss-point-ms/",
+    "/service-areas/moss-point-ms/fire-damage-restoration/",
+    "/service-areas/moss-point-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/moss-point-ms/emergency-water-removal/": [
@@ -11631,6 +12011,15 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/ocean-springs-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/ocean-springs-ms/",
+    "/service-areas/ocean-springs-ms/fire-damage-restoration/",
+    "/service-areas/ocean-springs-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/ocean-springs-ms/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/ocean-springs-ms/",
@@ -11890,6 +12279,15 @@
     "/service-areas/pascagoula-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/pascagoula-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/pascagoula-ms/",
+    "/service-areas/pascagoula-ms/fire-damage-restoration/",
+    "/service-areas/pascagoula-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/pascagoula-ms/emergency-water-removal/": [
@@ -12153,6 +12551,15 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/vancleave-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/vancleave-ms/",
+    "/service-areas/vancleave-ms/fire-damage-restoration/",
+    "/service-areas/vancleave-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/vancleave-ms/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/vancleave-ms/",
@@ -12412,6 +12819,15 @@
     "/service-areas/wade-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/wade-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/wade-ms/",
+    "/service-areas/wade-ms/fire-damage-restoration/",
+    "/service-areas/wade-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/wade-ms/emergency-water-removal/": [
@@ -12675,6 +13091,15 @@
     "/service-areas/benndale-ms/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/agricola-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/agricola-ms/",
+    "/service-areas/agricola-ms/fire-damage-restoration/",
+    "/service-areas/agricola-ms/mold-remediation/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
+    "/service-areas/benndale-ms/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/agricola-ms/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/agricola-ms/",
@@ -12934,6 +13359,15 @@
     "/service-areas/benndale-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/benndale-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/benndale-ms/",
+    "/service-areas/benndale-ms/fire-damage-restoration/",
+    "/service-areas/benndale-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/benndale-ms/emergency-water-removal/": [
@@ -13197,6 +13631,15 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/lucedale-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/lucedale-ms/",
+    "/service-areas/lucedale-ms/fire-damage-restoration/",
+    "/service-areas/lucedale-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/lucedale-ms/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/lucedale-ms/",
@@ -13456,6 +13899,15 @@
     "/service-areas/ellisville-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/ellisville-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/ellisville-ms/",
+    "/service-areas/ellisville-ms/fire-damage-restoration/",
+    "/service-areas/ellisville-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/ellisville-ms/emergency-water-removal/": [
@@ -13719,6 +14171,15 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/laurel-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/laurel-ms/",
+    "/service-areas/laurel-ms/fire-damage-restoration/",
+    "/service-areas/laurel-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/laurel-ms/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/laurel-ms/",
@@ -13978,6 +14439,15 @@
     "/service-areas/moselle-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/moselle-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/moselle-ms/",
+    "/service-areas/moselle-ms/fire-damage-restoration/",
+    "/service-areas/moselle-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/moselle-ms/emergency-water-removal/": [
@@ -14241,6 +14711,15 @@
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/ovett-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/ovett-ms/",
+    "/service-areas/ovett-ms/fire-damage-restoration/",
+    "/service-areas/ovett-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
+    "/contact/"
+  ],
   "/service-areas/ovett-ms/emergency-water-removal/": [
     "/services/emergency-water-removal/",
     "/service-areas/ovett-ms/",
@@ -14500,6 +14979,15 @@
     "/service-areas/sandersville-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/sandersville-ms/upholstery-cleaning/": [
+    "/services/upholstery-cleaning/",
+    "/service-areas/sandersville-ms/",
+    "/service-areas/sandersville-ms/fire-damage-restoration/",
+    "/service-areas/sandersville-ms/mold-remediation/",
+    "/service-areas/agricola-ms/upholstery-cleaning/",
+    "/service-areas/bay-st-louis-ms/upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/sandersville-ms/emergency-water-removal/": [

@@ -1,20 +1,20 @@
 # Site Plan Report — Go Green Restoration of NC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T19:28:38.249236+00:00
+- Generated: 2026-09-30T21:36:57.918345+00:00
 - Domain: `gogreenrestorationofnc.com`
-- Services selected: 26 of 91 catalog entries
+- Services selected: 27 of 91 catalog entries
 - Service areas: 23
 - Cross-product enabled: True
-- Total URLs: **637**
-- Total internal links: 5221 (avg 8.2 per page)
+- Total URLs: **660**
+- Total internal links: 5413 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 572 |
-| `service-landing` | 26 |
+| `service-area-service` | 594 |
+| `service-landing` | 27 |
 | `service-area` | 22 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -52,6 +52,7 @@
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
+- `upholstery-cleaning` — Upholstery Cleaning (adjacent, priority 4)
 - `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
 
 ## Service areas

@@ -10,10 +10,10 @@
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 637,
-    "generated_at": "2026-09-30T19:28:38.249812+00:00"
+    "url_count": 660,
+    "generated_at": "2026-09-30T21:36:57.919014+00:00"
   },
-  "updated_at": "2026-09-30T19:28:38.249818+00:00",
+  "updated_at": "2026-09-30T21:36:57.919018+00:00",
   "build": {
     "scaffolded_at": "2026-07-28T14:43:39.456791+00:00",
     "github_repo": "restorationai/go-green-restoration-of-nc-site",
@@ -21,11 +21,11 @@
     "starter_version": "0.1.0",
     "url_count": 52,
     "pages_status": "created",
-    "last_rendered_at": "2026-08-10T10:38:50.285717+00:00",
+    "last_rendered_at": "2026-09-30T22:01:27.617244+00:00",
     "last_pushed_staging_at": "2026-08-19T03:17:50.268750+00:00",
     "last_pushed_main_at": "2026-09-30T14:16:26.102257+00:00"
   },
-  "build_status": "pushed_main",
+  "build_status": "content_rendered",
   "indexnow_key": "0d9ae4ea880949d1a41785e0da098e5a",
   "cut_over_at": "2026-08-09T00:00:00+00:00",
   "cut_over_note": "522 cleared + verified live 08-09",
