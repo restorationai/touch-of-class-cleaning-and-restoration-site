@@ -21,6 +21,9 @@ service_display: "Biohazard and Trauma Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Tacoma? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 When something traumatic happens at a Tacoma property, the hours immediately after matter enormously, not just emotionally, but practically. Biohazardous materials left in place can penetrate porous surfaces, migrate through subflooring, and create secondary health risks within a short window. National Restoration Construction responds to biohazard and trauma cleanup calls across Tacoma 24 hours a day, seven days a week, with a team that is trained, certified, and practiced at handling these situations with complete discretion.
 
 ## What Our Biohazard and Trauma Cleanup Process Looks Like in Tacoma

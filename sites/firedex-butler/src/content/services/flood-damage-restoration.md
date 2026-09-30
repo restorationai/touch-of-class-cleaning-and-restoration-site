@@ -17,6 +17,9 @@ service_slug: "flood-damage-restoration"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Cranberry Township? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 ## What happens in the first 24 hours matters more than most homeowners realize
 
 Floodwater doesn't just wet surfaces, it migrates. Within hours of a basement flooding or a storm surge pushing through a foundation wall, water wicks into drywall, travels along floor joists, and saturates insulation that will hold moisture for weeks if left alone. The visible puddle on the floor is rarely the whole story. What's hiding inside wall cavities, beneath hardwood, and under slab-on-grade flooring is what determines whether a home dries out cleanly or develops a secondary mold problem that costs more to fix than the flood itself.

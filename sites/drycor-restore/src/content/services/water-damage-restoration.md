@@ -17,6 +17,9 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Thonotosassa? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Standing water gives you a narrow window. Within the first 24 hours, porous materials, drywall, insulation, hardwood subfloor, begin absorbing moisture faster than they'll ever release it on their own. By 48 to 72 hours, conditions are right for mold colonization, and what started as a burst pipe or appliance leak has quietly become a structural problem. Water damage restoration is the work of reversing that clock: extracting standing water, drying the materials behind the walls and under the floors, and confirming with instruments, not guesswork, that the structure is genuinely dry before anything gets rebuilt.
 
 ## What Water Damage Restoration actually involves

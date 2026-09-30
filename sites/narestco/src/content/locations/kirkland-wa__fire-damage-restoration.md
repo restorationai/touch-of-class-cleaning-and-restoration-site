@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Kirkland? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 A house fire leaves behind more than charred walls. There's the acrid smell that soaks into drywall and insulation, the soot that has already begun etching surfaces within hours, and the water damage layered on top from suppression efforts. If you're in Kirkland right now, whether you're standing in your driveway watching the smoke clear or sitting in a hotel room trying to figure out what comes next, the decisions you make in the next 24 hours matter more than most people realize. National Restoration Construction has been handling fire and smoke restoration across the greater Seattle area since 2004, and we respond to Kirkland emergencies around the clock.
 
 ## What Our Fire Damage Restoration Process Looks Like in Kirkland

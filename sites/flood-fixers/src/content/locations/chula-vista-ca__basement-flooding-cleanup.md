@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Chula Vista? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 Chula Vista sits in a coastal basin where the marine layer pushes moisture inland nearly year-round, and when a storm drain backs up or a water heater line lets go in a finished basement, that ambient humidity makes everything worse, fast. Wet carpet in a Bonita-adjacent home on a Tuesday morning can show visible mold colonization by Thursday if extraction and drying don't start within the first 24 hours. Flood Fixers dispatches from San Diego and can typically have a crew at your door within 60–90 minutes of your call to (855) 204-1124.
 
 ## Why Chula Vista Basements Flood the Way They Do

@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Heber City? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Snowmelt season in Heber Valley hits fast. When the temperatures swing in late March and April, the ground around Heber City, still frozen a few inches down, can't absorb runoff quickly enough, and that water finds the path of least resistance: your crawl space, your basement slab, the gap where your foundation wall meets the footer. Add a burst pipe from a hard January freeze or a water heater failure in a home that's been sitting vacant through ski season, and you have the kind of damage that doubles in scope every 24 hours if no one acts.
 
 ## Why Heber City Properties See Elevated Water Damage Risk

@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Escondido? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 Escondido sits in a inland valley where winter rain events can drop two or three inches in a matter of hours, and when that water has nowhere to go, it finds the lowest point in your home, your basement. The city's mix of hillside lots, older ranch-style homes, and clay-heavy soils means hydrostatic pressure builds fast against foundation walls, and by the time you notice standing water on the floor, the clock on mold colonization has already started. Flood Fixers responds to basement flooding calls across Escondido 24 hours a day, with crews dispatched directly from our San Diego base.
 
 ## Why Escondido Basements Flood the Way They Do

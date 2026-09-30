@@ -18,6 +18,9 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in San Diego? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 You notice it first by feel, a soft give in the floor where there wasn't one yesterday, or a baseboard that's warm to the touch despite the AC running. By the time standing water is visible, the clock has already been ticking for hours. Drywall begins absorbing moisture within minutes of contact. Hardwood starts cupping in the first 24 hours. Mold can colonize wet framing in as little as 48 to 72 hours under San Diego's mild, humid coastal conditions. Water damage restoration is a race against those timelines, and every hour of delay narrows your options.
 
 ## What water damage restoration actually involves

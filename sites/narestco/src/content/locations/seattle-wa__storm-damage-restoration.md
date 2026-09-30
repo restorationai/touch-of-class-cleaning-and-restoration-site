@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Seattle? We answer 24/7.** Call now and our crew heads out to secure the property and stop further damage.
+
 A fallen cedar through your roof. Standing water in your basement after an overnight deluge. Siding peeled back by a wind gust that rattled windows across the whole block. If any of that sounds like your last 24 hours, you're in the right place. National Restoration Construction has been responding to storm damage across the Puget Sound region since 2004, and our Federal Way headquarters puts us within 60–90 minutes of virtually every Seattle neighborhood, often closer when crews are already staged in the area.
 
 ## Why Seattle Properties See Storm Damage So Often

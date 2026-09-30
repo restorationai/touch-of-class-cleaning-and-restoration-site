@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in National City? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 National City sits at the southern edge of San Diego Bay, and when a storm system stalls over the South Bay or a municipal water main fails beneath one of the city's older residential blocks, water moves fast and finds every crack. The combination of a dense urban grid, aging infrastructure, and clay-heavy soils that shed water instead of absorbing it means flood damage here can escalate from a wet floor to a structurally compromised home in under 24 hours. If you're dealing with standing water right now, call Flood Fixers at (855) 204-1124, technicians dispatched from San Diego can reach most addresses in National City within 45 to 60 minutes.
 
 ## Why National City Properties Are Especially Vulnerable to Flood Damage

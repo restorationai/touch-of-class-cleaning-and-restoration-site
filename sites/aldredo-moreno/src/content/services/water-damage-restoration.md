@@ -17,6 +17,9 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Midland? Call now for emergency service.** Our crew responds fast to stop the water and start drying your property.
+
 Standing water moves fast. Within the first hour, it wicks into drywall, saturates insulation, and begins softening the wood subfloor beneath your feet. By 24 hours, what started as a burst supply line or an overflowing appliance can leave structural materials holding enough moisture to stay wet for weeks, even after the visible water is gone. Water damage restoration is the process of stopping that clock: extracting standing water, drying the structure down to safe moisture levels, and documenting every step so your insurance claim holds up.
 
 ## What water damage restoration actually involves

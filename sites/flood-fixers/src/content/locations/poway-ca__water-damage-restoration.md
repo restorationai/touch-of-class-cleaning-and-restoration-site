@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Poway? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Poway sits in a inland valley where summer heat bakes the soil hard as ceramic tile, and when a water heater fails, a supply line bursts, or a rare but intense winter storm pushes water under a slab, that compacted clay has nowhere to send the moisture except straight into your foundation and subfloor. Flood Fixers responds to water damage calls throughout Poway 24 hours a day, seven days a week, because standing water doesn't wait for business hours and neither do we. Call **(855) 204-1124** the moment you find water where it shouldn't be.
 
 ## Why Poway Properties See Water Damage Differently Than Coastal Communities

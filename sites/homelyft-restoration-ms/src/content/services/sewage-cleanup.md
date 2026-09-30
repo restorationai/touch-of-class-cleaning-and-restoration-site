@@ -17,6 +17,9 @@ service_slug: "sewage-cleanup"
 service_display: "Sewage Cleanup and Sanitization"
 rendered: true
 ---
+<!-- emergency-open -->
+**Sewage backup in Gulfport? We answer 24/7.** Call now and our crew heads out to contain the contamination and start the cleanup.
+
 The smell hits before anything else, a thick, sulfurous odor that tells you something has gone badly wrong before you even see the water on the floor. A sewer line backup or septic overflow doesn't just leave standing water; it deposits fecal coliform bacteria, viruses, and parasites on every surface it touches. Within 24 hours, those pathogens begin migrating into drywall, subfloor, and insulation. Within 48, you're looking at secondary mold colonization on top of an already serious contamination event. Sewage cleanup is not a mop-and-bleach job, it's a Category 3 biohazard response.
 
 ## What sewage cleanup and sanitization actually involves

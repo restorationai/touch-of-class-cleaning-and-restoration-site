@@ -17,6 +17,9 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Gulfport? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 You notice it first as a smell, that damp, mineral edge rising from the carpet, or maybe as a soft give underfoot where the subfloor has started to swell. By the time water damage is visible, it has usually been working on your home for hours. Within 24 hours, drywall begins to wick moisture upward. Within 48 to 72 hours, mold can colonize wet cellulose materials. The clock on a water loss starts the moment water contacts your structure, not the moment you call for help.
 
 ## What Water Damage Restoration Actually Involves

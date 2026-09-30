@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Taft? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Taft sits at the dry edge of the San Joaquin Valley, where summer heat bakes the soil into a near-impermeable crust and the older housing stock in Ford City and South Taft was built for oil-field workers who never expected a burst galvanized supply line to dump 40 gallons an hour under a hardwood floor. When that happens, or when a rare winter storm backs up an undersized drain, the damage moves fast and the window to prevent secondary mold growth is short. ProRestoration Services responds to flood losses in Taft 24 hours a day, seven days a week, dispatching from Bakersfield the moment you call (661) 393-9306.
 
 ## Why Taft Properties See Flood Damage More Than You'd Expect

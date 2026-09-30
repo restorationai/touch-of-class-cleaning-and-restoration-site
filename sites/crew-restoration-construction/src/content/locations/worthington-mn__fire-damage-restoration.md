@@ -20,6 +20,9 @@ state: "MN"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Worthington? Call now for emergency service.** Our crew responds fast to secure the property and start the recovery.
+
 A house fire in Worthington hits differently than in a larger metro. When smoke settles into a home near Lake Okabena on a cold January night, the combination of subzero temperatures, older housing stock, and a small-town supply chain means restoration decisions made in the first 24 hours carry more weight than anywhere else. Crew Restoration & Construction responds to fire and smoke damage throughout the 56187 area, bringing the equipment and process discipline that a loss of this scale demands, without the runaround that comes from calling a distant call center.
 
 ## Why Worthington Properties See Distinct Fire Damage Challenges

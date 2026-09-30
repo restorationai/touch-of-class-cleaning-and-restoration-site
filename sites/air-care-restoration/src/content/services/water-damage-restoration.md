@@ -17,6 +17,9 @@ service_slug: "water-damage-restoration"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Abilene? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Standing water moves fast. Within the first hour, it seeps under baseboards and wicks into drywall. By 24 hours, wood subfloors begin to swell and the conditions for mold growth are already forming. By 72 hours, structural materials that looked fine on the surface can be saturated several inches deep, and a moisture meter will tell a very different story than your eyes. Water damage restoration is a race against that clock, and the goal isn't just removing visible water. It's pulling moisture out of the materials that absorbed it before the damage compounds.
 
 ## What Water Damage Restoration actually involves

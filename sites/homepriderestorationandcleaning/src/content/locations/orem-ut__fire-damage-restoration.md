@@ -20,6 +20,9 @@ state: "UT"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Orem? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 When a fire tears through a home near Utah Lake's eastern bench, the damage rarely stops at the charred walls. Orem's dry, high-desert air accelerates smoke penetration into porous surfaces, the same stucco and brick veneer that defines so much of the city's mid-century ranch housing along State Street and into the neighborhoods east of I-15. Soot particles travel farther and faster in low-humidity conditions, and by the time firefighters clear the scene, odor molecules have already bonded to insulation, HVAC ducts, and the wood framing behind drywall. Acting within the first 24 hours isn't a sales pitch, it's the difference between restoring a home and rebuilding one.
 
 ## Why Orem Properties Face Distinct Fire Damage Challenges

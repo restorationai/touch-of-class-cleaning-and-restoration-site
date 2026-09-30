@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Water Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Water damage emergency in Auburn? We answer 24/7.** Call now and our crew heads out to stop the water and start drying your property.
+
 Water is already moving. Right now, if you've got a burst pipe, an overflowing appliance, or a roof leak that finally gave way, moisture is wicking into your subfloor, your drywall, and your insulation faster than it looks. National Restoration Construction answers water damage calls in Auburn 24 hours a day, seven days a week, and because our team is based in Federal Way, we're typically on your property within 60 to 90 minutes of your call.
 
 ## Why Auburn Properties See Water Damage So Often

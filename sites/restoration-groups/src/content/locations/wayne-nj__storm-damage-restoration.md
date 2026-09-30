@@ -20,6 +20,9 @@ state: "NJ"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Wayne? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to secure the property and stop further damage.
+
 When a nor'easter or a fast-moving thunderstorm rolls through Passaic County, Wayne absorbs it differently than most towns its size. The Pompton River backs up into the Mountain View and Hoffman Grove sections with almost no warning, mature oaks and red maples along the Packanack Lake shoreline drop limbs onto 1960s split-level roofs, and the same aging sump systems that kept finished basements dry through a dozen ordinary rain events suddenly can't keep pace. The Restoration Group responds to storm damage calls in Wayne 24 hours a day, and the work here requires knowing which neighborhoods flood first and which housing stock hides the most surprises.
 
 ## Why Wayne Properties Take Storm Damage Hard

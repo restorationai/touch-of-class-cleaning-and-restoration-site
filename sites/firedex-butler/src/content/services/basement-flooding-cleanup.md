@@ -17,6 +17,9 @@ service_slug: "basement-flooding-cleanup"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Cranberry Township? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 ## What happens in the first 24 hours matters more than most homeowners realize
 
 You walk downstairs and your feet are wet before you reach the bottom step. Standing water in a basement isn't just inconvenient, it's a clock. Mold can begin colonizing porous materials like drywall, insulation, and wood framing within 24 to 48 hours of saturation. The water you can see is rarely the whole problem; it's the water wicked into concrete block walls, trapped under a slab, or absorbed into the bottom plates of finished walls that causes the long-term structural damage and air quality issues that show up months later.

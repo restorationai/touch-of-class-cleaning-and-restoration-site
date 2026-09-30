@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Escondido? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 Escondido sits in a valley ringed by hills, and when the Santa Ana winds give way to a winter atmospheric river, that geography turns against homeowners fast. Runoff funnels from the surrounding ridgelines straight into neighborhoods near Grape Day Park and down toward the older residential streets east of Centre City Parkway, and once water finds its way into a structure, the clock starts immediately. Flood Fixers responds to flood damage calls across Escondido 24 hours a day, dispatching from San Diego so technicians can reach most addresses within 60 to 90 minutes of your call.
 
 ## Why Escondido Properties Are Vulnerable to Flood Damage

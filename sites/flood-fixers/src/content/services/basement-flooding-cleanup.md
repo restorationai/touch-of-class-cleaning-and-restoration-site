@@ -18,6 +18,9 @@ service_slug: "basement-flooding-cleanup"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in San Diego? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 You walked downstairs and felt it before you saw it, that cold, wet give under your feet, the smell of disturbed earth and standing water, maybe the low hum of a sump pump that ran out of time. Basement flooding moves fast: within 24 hours, drywall wicks moisture up the wall, wood subfloor panels begin to swell and separate, and the conditions for mold colonization are already in place. The clock on a flooded basement cleanup starts the moment the water stops rising, not when it's convenient.
 
 ## What basement flooding cleanup actually involves

@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Fire Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Fire damage emergency in Bremerton? We answer 24/7.** Call now and our crew heads out to secure the property and start the recovery.
+
 A house fire in Bremerton doesn't end when the flames go out. The real damage clock starts the moment smoke cools and begins bonding to every porous surface, and in the wartime-era bungalows that line Charleston and Manette, those surfaces include original fir framing, horsehair plaster walls, and decades of accumulated paint layers that absorb soot like a sponge. National Restoration Construction responds to fire damage calls in Bremerton 24 hours a day, seven days a week, with IICRC-certified technicians and the equipment to stop secondary damage before it compounds the loss.
 
 ## Why Bremerton's Older Housing Stock Complicates Fire Damage

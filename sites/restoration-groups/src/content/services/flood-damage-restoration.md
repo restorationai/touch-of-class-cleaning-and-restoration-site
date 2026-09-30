@@ -17,6 +17,9 @@ service_slug: "flood-damage-restoration"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in Kenilworth? We answer 24/7.** Call now and our crew can be on-site within 60 minutes to pump out the water and stop the damage from spreading.
+
 ## What happens in the first 24 hours matters more than anything else
 
 Floodwater doesn't wait. Whether a storm drain backed up into your finished basement, a river crested and pushed water through your crawl space, or a municipal main broke and sent Category 3 water across your first floor, the clock starts the moment the water stops rising. Within 24 to 48 hours, wet drywall begins to wick moisture upward, subfloor panels start to delaminate, and the humidity trapped under cabinets creates the exact conditions mold needs to colonize. Flood damage restoration is the race against that timeline, and the difference between a contained repair and a gut renovation often comes down to how fast and how thoroughly the response begins.

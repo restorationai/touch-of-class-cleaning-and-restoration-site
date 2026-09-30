@@ -96,7 +96,6 @@ URGENT_SLUGS: dict[str, str] = {
 PLUMBING_ONLY = {"plumbing"}
 
 _LEAD_RE = re.compile(r"^(?:(?:24\s*/\s*7|24[- ]hours?|emergency)\s+)+", re.I)
-_EMERG_OPEN_RE = re.compile(r"24\s*/\s*7|24[- ]hour|around[- ]the[- ]clock|emergenc|day or night", re.I)
 
 
 # --------------------------------------------------------------------------- #
@@ -252,11 +251,15 @@ def opening_line(fam: str, city: str, tr: dict) -> str:
 
 
 def needs_opening(body: str) -> bool:
+    """True unless the opening paragraph already carries an availability /
+    emergency line. Uses the claims_lint 24/7 family (which ignores durations
+    like "by 24 hours the subfloor swells") plus the word emergency."""
+    from claims_lint import F247_RE
     if MARK in body:
         return False
     paras = [p for p in re.split(r"\n\s*\n", body.strip()) if p.strip() and not p.lstrip().startswith("<!--")]
-    first = paras[0] if paras else ""
-    return not _EMERG_OPEN_RE.search(first[:600])
+    first = (paras[0] if paras else "")[:600]
+    return not (F247_RE.search(first) or re.search(r"\bemergenc", first, re.I))
 
 
 def with_opening(body: str, fam: str, city: str, tr: dict) -> str:

@@ -18,6 +18,9 @@ service_slug: "flood-damage-restoration"
 service_display: "Flood Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooding emergency in San Diego? We answer 24/7.** Call now and our crew heads out to pump out the water and stop the damage from spreading.
+
 ## What happens in the first 24 hours matters more than anything else
 
 Floodwater doesn't wait. Whether a storm drain backed up into your garage, a creek jumped its banks into your living room, or a city main broke and pushed Category 3 water through your foundation wall, the clock starts the moment water touches your subfloor. Within 24 to 48 hours, wet drywall begins to delaminate, wood framing absorbs enough moisture to warp, and the conditions for mold colonization are already in place. Flood damage restoration is the race against that timeline, and winning it requires more than shop vacs and box fans.

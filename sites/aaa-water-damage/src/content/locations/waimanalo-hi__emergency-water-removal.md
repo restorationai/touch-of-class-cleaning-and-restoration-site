@@ -20,6 +20,9 @@ state: "HI"
 service_display: "Emergency Water Removal & Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Standing water emergency in Waimanalo? We answer 24/7.** Call now and our crew heads out to extract the water and start drying.
+
 Waimanalo sits on Oahu's windward coast, where trade winds push warm, moisture-laden air against the Ko'olau Range and wring out rain that can arrive fast and leave standing water just as fast. When a pipe fails, a roof seam gives way during a squall, or a washing machine floods a laundry room, the humidity that makes Waimanalo beautiful works directly against you: wet materials stay wet, and mold colonization in tropical conditions can begin in under 24 hours. Getting water out completely, not just visibly, is the only thing that stops the clock.
 
 ## Why Waimanalo Properties Face Distinct Water Damage Risks

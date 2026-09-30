@@ -20,6 +20,9 @@ state: "WA"
 service_display: "Basement Flooding Cleanup"
 rendered: true
 ---
+<!-- emergency-open -->
+**Flooded basement in Auburn? We answer 24/7.** Call now and our crew heads out to pump out the water and start drying.
+
 Water in your basement moves fast, soaking into drywall, wicking up wood framing, and starting the clock on mold growth within 24 to 48 hours. If you're standing in a wet basement in Auburn right now, the most important thing you can do is get extraction equipment on-site before that damage compounds. National Restoration Construction dispatches from Federal Way, which puts us roughly 15–20 minutes from most Auburn addresses. We pick up 24 hours a day, every day of the year.
 
 ## Why Auburn Basements Flood

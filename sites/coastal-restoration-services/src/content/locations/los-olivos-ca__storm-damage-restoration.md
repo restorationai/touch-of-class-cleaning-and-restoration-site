@@ -20,6 +20,9 @@ state: "CA"
 service_display: "Storm Damage Restoration"
 rendered: true
 ---
+<!-- emergency-open -->
+**Storm damage emergency in Los Olivos? Call now for emergency service.** Our crew responds fast to secure the property and stop further damage.
+
 Los Olivos sits in the Santa Ynez Valley where the convergence of marine air pushing through the Gaviota Pass and dry downslope winds off the San Rafael Mountains creates weather patterns that can shift from calm to destructive in a matter of hours. When a late-season storm rolls through Santa Barbara County and drops two inches of rain in an afternoon, or when a Sundowner wind event sends debris crashing through a roof, the damage can escalate fast, saturated soil, downed oak limbs, and compromised rooflines all compound within the first 24 hours. Coastal Restoration Services Inc responds to storm damage calls throughout Los Olivos and the surrounding Santa Ynez Valley, helping property owners stabilize and recover before secondary damage takes hold.
 
 ## Why Los Olivos Properties Are Vulnerable to Storm Damage

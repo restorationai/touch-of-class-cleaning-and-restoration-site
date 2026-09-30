@@ -21,6 +21,9 @@ service_display: "Biohazard Cleanup"
 content_guardrails: "sensitive"
 rendered: true
 ---
+<!-- emergency-open -->
+**Need biohazard or trauma cleanup in Potosi? We answer 24/7.** Call now and our crew heads out to handle the cleanup with discretion and care.
+
 Potosi sits in the rolling ranch country west of Abilene, where summer heat climbs fast and older rural properties often lack the ventilation and climate control that slow biological contamination. When a biohazard situation arises at a home or property in this part of Taylor County, the combination of heat, limited nearby resources, and the deeply private nature of rural life makes a fast, discreet response more important than ever. Air Care Restoration handles biohazard cleanup in Potosi with the same clinical care and confidentiality we bring to every call, 24 hours a day.
 
 ## Why Potosi Properties Present Unique Biohazard Challenges
