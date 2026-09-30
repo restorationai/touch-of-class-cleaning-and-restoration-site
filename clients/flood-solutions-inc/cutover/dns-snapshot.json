@@ -1,6 +1,6 @@
 {
  "domain": "floodsolutionsinc.com",
- "captured_at": "2026-09-30T16:25:44+00:00",
+ "captured_at": "2026-09-30T16:58:46+00:00",
  "authoritative": {
   "ns": [
    "ns39.domaincontrol.com",
@@ -13,19 +13,16 @@
    }
   ],
   "apex_txt": [
-   "google-site-verification=xM7nya8ynDr6FOm66TqOiMoQKWjTJBEoehamca8ufKg",
-   "google-site-verification=fJQDiAlkCS7a0Ylium_ReY2uLaLHV0OKcPt--YvZ1l0",
-   "v=verifydomain MS=7464486",
    "wpe-verification=floodfire",
+   "google-site-verification=xM7nya8ynDr6FOm66TqOiMoQKWjTJBEoehamca8ufKg",
    "google-site-verification=LHAA_w1jFhhjHk9WKChnCm4YX1ClEhY3zGTciG7QDcw",
-   "google-site-verification=fbwzCq2IPL5tfASbZ0iFr-HwwalbVCeSCKBQMMoLRQ0"
+   "v=verifydomain MS=7464486",
+   "google-site-verification=fbwzCq2IPL5tfASbZ0iFr-HwwalbVCeSCKBQMMoLRQ0",
+   "google-site-verification=fJQDiAlkCS7a0Ylium_ReY2uLaLHV0OKcPt--YvZ1l0"
   ],
   "dmarc_txt": [],
   "dkim": {},
-  "apex_a": [
-   "141.193.213.10",
-   "141.193.213.11"
-  ],
+  "apex_a": [],
   "apex_cname": [],
   "www_cname": [
    "wp.wpenginepowered.com"
@@ -37,6 +34,63 @@
    "amos.ns.cloudflare.com",
    "anastasia.ns.cloudflare.com"
   ],
-  "records": []
+  "records": [
+   {
+    "id": "572e7ddd45ee7725270e0c8cacc05cd5",
+    "type": "MX",
+    "name": "floodsolutionsinc.com",
+    "content": "floodsolutionsinc.com",
+    "priority": 0,
+    "proxied": false
+   },
+   {
+    "id": "3d821ea106147d4ee4e051aa92528058",
+    "type": "TXT",
+    "name": "floodsolutionsinc.com",
+    "content": "google-site-verification=fbwzCq2IPL5tfASbZ0iFr-HwwalbVCeSCKBQMMoLRQ0",
+    "priority": null,
+    "proxied": false
+   },
+   {
+    "id": "943ab3b4d0670f4bd4106c6f9a0dfb98",
+    "type": "TXT",
+    "name": "floodsolutionsinc.com",
+    "content": "google-site-verification=LHAA_w1jFhhjHk9WKChnCm4YX1ClEhY3zGTciG7QDcw",
+    "priority": null,
+    "proxied": false
+   },
+   {
+    "id": "8ebe507e76afbabe3ab2344dd9393f30",
+    "type": "TXT",
+    "name": "floodsolutionsinc.com",
+    "content": "wpe-verification=floodfire",
+    "priority": null,
+    "proxied": false
+   },
+   {
+    "id": "562e716f2fc311224c36821feaf26fe8",
+    "type": "TXT",
+    "name": "floodsolutionsinc.com",
+    "content": "v=verifydomain MS=7464486",
+    "priority": null,
+    "proxied": false
+   },
+   {
+    "id": "f2973ec2248ff6c7d665af1c84c96230",
+    "type": "TXT",
+    "name": "floodsolutionsinc.com",
+    "content": "google-site-verification=fJQDiAlkCS7a0Ylium_ReY2uLaLHV0OKcPt--YvZ1l0",
+    "priority": null,
+    "proxied": false
+   },
+   {
+    "id": "067e8116ea48c370f54276f418cb5d52",
+    "type": "TXT",
+    "name": "floodsolutionsinc.com",
+    "content": "google-site-verification=xM7nya8ynDr6FOm66TqOiMoQKWjTJBEoehamca8ufKg",
+    "priority": null,
+    "proxied": false
+   }
+  ]
  }
 }
