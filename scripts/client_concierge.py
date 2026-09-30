@@ -4939,7 +4939,8 @@ def send_message(contact: dict, channel: str, body: str,
                  company: dict | None = None,
                  reply_to: str | None = None,
                  human_hold_exempt: bool = False,
-                 email_msg_id: str | None = None) -> dict:
+                 email_msg_id: str | None = None,
+                 cc: list[str] | None = None) -> dict:
     """Deliver via GHL POST /conversations/messages. CANARY GATE lives HERE.
 
     The recipient (contact phone for SMS, contact email for Email) must be on
@@ -5116,6 +5117,8 @@ def send_message(contact: dict, channel: str, body: str,
     else:
         payload["subject"] = subject or f"Your {BRAND_NAME} setup"
         payload["html"] = body.replace("\n", "<br>")
+        if cc:  # CC-owner law (09-17): copy the people already on the thread
+            payload["emailCc"] = list(cc)
         # IN-THREAD EMAIL (2026-08-20, evolution 2d): when we know which
         # email we're answering, ask GHL to send it as a reply in that
         # thread. Unsupported/rejected combos fall back to a plain email

@@ -42,6 +42,8 @@ def main() -> int:
     ap.add_argument("--subject")
     ap.add_argument("--reply-to-email", metavar="GHL_MSG_ID",
                     help="GHL id of the client's email to answer IN its thread")
+    ap.add_argument("--cc", action="append", default=[],
+                    help="email CC address (repeatable)")
     ap.add_argument("--send", action="store_true")
     a = ap.parse_args()
     cc.load_env()
@@ -68,7 +70,7 @@ def main() -> int:
     # Monica's reply path debounces 100s, so the note still lands first.
     r = cc.send_message(contact, a.channel, a.body, subject=a.subject,
                         company=comp, human_hold_exempt=True,
-                        email_msg_id=a.reply_to_email)
+                        email_msg_id=a.reply_to_email, cc=a.cc or None)
     state = cc.load_state()
     cc.record_sent_message(state, r)
     cc.save_state(state, dry_run=False)
