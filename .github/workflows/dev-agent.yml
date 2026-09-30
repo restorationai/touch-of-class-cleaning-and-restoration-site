@@ -96,7 +96,10 @@ jobs:
           CLOUDFLARE_API_TOKEN:         ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_PAGES_API_TOKEN:   ${{ secrets.CLOUDFLARE_PAGES_API_TOKEN }}
         run: |
+          # Pinned to Opus 5.5 (Santino 2026-09-30): client change requests
+          # are implemented by the strongest model, never the CLI default.
           claude -p "$(cat scripts/dev_agent.md)" \
+            --model claude-opus-5-5 \
             --dangerously-skip-permissions \
             --output-format text \
             --max-turns 180
