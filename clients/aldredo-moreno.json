@@ -1,7 +1,7 @@
 {
   "slug": "aldredo-moreno",
   "display_name": "ACS Enterprise ",
-  "domain": "theacs-enterprises.com",
+  "domain": "theacsenterprises.com",
   "tier": "standard",
   "vertical": "restoration",
   "contact": "elcabimero1971@gmail.com",
@@ -27,7 +27,7 @@
   },
   "build_status": "pushed_main",
   "cutover_prep": {
-    "domain": "theacs-enterprises.com",
+    "domain": "theacsenterprises.com",
     "harvested_at": "2026-09-18T18:27:46+00:00",
     "url_count": 1,
     "backlinked_count": 1,

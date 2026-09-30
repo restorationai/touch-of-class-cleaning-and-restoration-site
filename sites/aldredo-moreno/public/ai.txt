@@ -30,8 +30,8 @@ User-agent: Bytespider
 Disallow: /
 
 # AI training data summary
-# Site: https://theacs-enterprises.com/
+# Site: https://theacsenterprises.com/
 # Maintainer: ACS Enterprise 
 # Contact: elcabimero1971@gmail.com
-# Sitemap: https://theacs-enterprises.com/sitemap-index.xml
-# LLM index: https://theacs-enterprises.com/llms.txt
+# Sitemap: https://theacsenterprises.com/sitemap-index.xml
+# LLM index: https://theacsenterprises.com/llms.txt

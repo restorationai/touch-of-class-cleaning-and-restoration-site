@@ -13,8 +13,8 @@ export const brand = {
   // declares it as the business name, so Google/BrightLocal find the new
   // name corroborated on the site before and during the GBP rename.
   dbaName: "",
-  domain: "theacs-enterprises.com",
-  canonicalUrl: "https://theacs-enterprises.com",
+  domain: "theacsenterprises.com",
+  canonicalUrl: "https://theacsenterprises.com",
   phone: "(432) 847-4704",
   phoneRaw: "+14328474704",
   // Sitewide call-tracking number (2026-08-24). When BOTH fields are set,
@@ -43,7 +43,7 @@ export const brand = {
   lng: "-102.0103767",
   placeId: "ChIJ_8rF3eff-4YRWkbhWgvgu_8",
   googleCid: "18427568639690491482",
-  imagesBase: "https://images.theacs-enterprises.com",
+  imagesBase: "https://images.theacsenterprises.com",
   googleMapsApiKey: "",
   // Analytics — set post-scaffold (scripts/analytics_set.py / create_ga4.py); no-op if empty
   ga4MeasurementId: "",
