@@ -1555,7 +1555,7 @@
     },
     {
       "id": "2026-09-24-what-damage-can-a-flood-cause",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-24T16:30:00Z",
       "written_at": null,
       "post_url": null,
@@ -1589,8 +1589,7 @@
       "external_authority_candidates": [
         "https://www.fema.gov/pdf/rebuild/recover/fema_mold_brochure_english.pdf"
       ],
-      "notes": "Walk through structure, crawl space, insulation, subfloor, HVAC ducts, electrical, and mold. Strong cross-link to the client's crawl space and insulation services (wizard goals).",
-      "banked_at": "2026-09-28T22:24:24.204021+00:00"
+      "notes": "Walk through structure, crawl space, insulation, subfloor, HVAC ducts, electrical, and mold. Strong cross-link to the client's crawl space and insulation services (wizard goals)."
     },
     {
       "id": "2026-09-24-cleaning-a-flooded-house",

@@ -246,7 +246,7 @@
     },
     {
       "id": "2026-09-03-mold-air-test",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-03T19:32:00Z",
       "written_at": null,
       "post_url": null,
@@ -280,8 +280,7 @@
       ],
       "notes": "Lead with the EPA and CDPH position that sampling is not automatically necessary when mold is already visible and the moisture source is known: that honesty is the trust hook for an inspection-only firm. Brand holds the NIOSH 582 microscopist credential, so the lab-analysis section can go deeper than competitors. Explain spore counts, indoor-versus-outdoor control samples, and why a report without a moisture finding is incomplete.",
       "source": "keyword-researcher",
-      "seed": "mold inspection",
-      "banked_at": "2026-09-21T22:24:17.175447+00:00"
+      "seed": "mold inspection"
     },
     {
       "id": "2026-09-03-how-to-get-a-free-mold-inspection",
