@@ -1,40 +1,4 @@
 {
-  "/images/services/fire-damage-restoration.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/sewage-cleanup.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/water-cleanup.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
-  "/images/services/water-damage-restoration.webp": {
-    "width": 1376,
-    "height": 768,
-    "variants": [
-      480,
-      768,
-      1200
-    ]
-  },
   "/images/services/basement-flooding-cleanup.webp": {
     "width": 1376,
     "height": 764,
@@ -71,6 +35,24 @@
       1200
     ]
   },
+  "/images/services/content-recovery.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/emergency-board-up.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/emergency-water-removal.webp": {
     "width": 1376,
     "height": 764,
@@ -80,9 +62,36 @@
       1200
     ]
   },
+  "/images/services/environmental-consultants.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/fire-damage-restoration.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/flood-damage-restoration.webp": {
     "width": 1376,
     "height": 764,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/ice-dams.webp": {
+    "width": 1376,
+    "height": 768,
     "variants": [
       480,
       768,
@@ -125,6 +134,15 @@
       1200
     ]
   },
+  "/images/services/sewage-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/smoke-damage-restoration.webp": {
     "width": 1376,
     "height": 764,
@@ -137,6 +155,24 @@
   "/images/services/storm-damage-restoration.webp": {
     "width": 1376,
     "height": 764,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/water-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/water-damage-restoration.webp": {
+    "width": 1376,
+    "height": 768,
     "variants": [
       480,
       768,

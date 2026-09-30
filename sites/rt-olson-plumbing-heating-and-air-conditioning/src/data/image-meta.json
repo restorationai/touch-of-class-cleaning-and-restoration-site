@@ -26,7 +26,25 @@
       1200
     ]
   },
+  "/images/services/air-duct-cleaning-service.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/air-duct-cleaning.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/all-plumbing-services.webp": {
     "width": 1376,
     "height": 768,
     "variants": [
@@ -44,7 +62,34 @@
       1200
     ]
   },
+  "/images/services/camera-inspections-of-drain-and-sewer-line.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/common-plumbing-emergencies.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/drain-cleaning.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/drain-sewer-repairs.webp": {
     "width": 1376,
     "height": 768,
     "variants": [
@@ -80,6 +125,15 @@
       1200
     ]
   },
+  "/images/services/gas-line-inspections.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/hvac-installation.webp": {
     "width": 1376,
     "height": 768,
@@ -98,6 +152,24 @@
       1200
     ]
   },
+  "/images/services/instant-hot-water-system.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/kitchen-bathroom-remodeling.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/leak-detection.webp": {
     "width": 1376,
     "height": 768,
@@ -108,6 +180,33 @@
     ]
   },
   "/images/services/repiping.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/reverse-osmosis.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/sewer-camera-inspection.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/slab-leak-and-pipe-repair.webp": {
     "width": 1376,
     "height": 768,
     "variants": [

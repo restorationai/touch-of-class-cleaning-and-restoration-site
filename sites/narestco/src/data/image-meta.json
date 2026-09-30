@@ -98,6 +98,24 @@
       1200
     ]
   },
+  "/images/services/basement-sewage-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/basement-water-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/biohazard-cleanup.webp": {
     "width": 1024,
     "height": 1024,
@@ -107,6 +125,24 @@
     ]
   },
   "/images/services/burst-pipe-repair.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/ceiling-water-damage-repair.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/commercial-restoration.webp": {
     "width": 1376,
     "height": 768,
     "variants": [
@@ -151,6 +187,24 @@
       1200
     ]
   },
+  "/images/services/emergency-plumbing.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/emergency-water-removal.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/fire-damage-restoration.webp": {
     "width": 1024,
     "height": 1024,
@@ -186,6 +240,24 @@
     ]
   },
   "/images/services/hoarding-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/industrial-restoration.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/large-loss-response.webp": {
     "width": 1376,
     "height": 768,
     "variants": [
@@ -351,6 +423,15 @@
     "variants": [
       480,
       768
+    ]
+  },
+  "/images/services/water-heater-flood-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
     ]
   },
   "/images/services/water-leak-detection.webp": {

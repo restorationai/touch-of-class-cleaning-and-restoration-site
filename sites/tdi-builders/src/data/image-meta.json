@@ -13,7 +13,52 @@
     "height": 589,
     "variants": []
   },
+  "/images/services/24-7-emergency-water-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/basement-sewage-cleanup.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/bathroom-remodeler.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
   "/images/services/bathroom-remodeling.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/carpet-upholstery-cleaning.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      480,
+      768,
+      1200
+    ]
+  },
+  "/images/services/carpet-water-extraction.webp": {
     "width": 1376,
     "height": 768,
     "variants": [
@@ -27,8 +72,7 @@
     "height": 896,
     "variants": [
       480,
-      768,
-      1200
+      768
     ]
   },
   "/images/services/fire-smoke-rebuilding.webp": {
@@ -36,8 +80,7 @@
     "height": 896,
     "variants": [
       480,
-      768,
-      1200
+      768
     ]
   },
   "/images/services/garage-construction.webp": {
@@ -45,13 +88,20 @@
     "height": 896,
     "variants": [
       480,
-      768,
-      1200
+      768
     ]
   },
   "/images/services/general-contracting.webp": {
     "width": 1200,
     "height": 896,
+    "variants": [
+      480,
+      768
+    ]
+  },
+  "/images/services/general-contractor.webp": {
+    "width": 1376,
+    "height": 768,
     "variants": [
       480,
       768,
@@ -81,13 +131,20 @@
     "height": 896,
     "variants": [
       480,
-      768,
-      1200
+      768
     ]
   },
   "/images/services/new-construction.webp": {
     "width": 1200,
     "height": 896,
+    "variants": [
+      480,
+      768
+    ]
+  },
+  "/images/services/post-construction-specialty-cleaning.webp": {
+    "width": 1376,
+    "height": 768,
     "variants": [
       480,
       768,
@@ -99,8 +156,7 @@
     "height": 896,
     "variants": [
       480,
-      768,
-      1200
+      768
     ]
   },
   "/images/services/storm-damage-restoration.webp": {
@@ -108,8 +164,7 @@
     "height": 896,
     "variants": [
       480,
-      768,
-      1200
+      768
     ]
   },
   "/images/services/water-damage-restoration.webp": {
@@ -117,8 +172,7 @@
     "height": 896,
     "variants": [
       480,
-      768,
-      1200
+      768
     ]
   },
   "/images/team.webp": {
