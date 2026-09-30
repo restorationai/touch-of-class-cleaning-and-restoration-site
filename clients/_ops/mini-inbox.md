@@ -1,5 +1,18 @@
 # Mini inbox — current assignments (newest at top)
 
+- [ ] **HOMEGUIDE WRONG-DATA FIXES (Santino approved 2026-09-30: "yes we definitely want to fix this"; run unattended, daytime, one report):** the pre-fix sweep listed these with tracking numbers / old names. Edit each existing HomeGuide listing (creds in ~/.rankai/portal-creds.json homeguide.<slug>):
+  - rachelle-elliston (Desert Valley): phone (702) 633-5033; name "Desert Valley Restoration-24/7 Emergency Plumbing, Water and Fire Damage Restoration" (settled; if HomeGuide caps the length, park a Need with the cap).
+  - dry-bros-water-fire-restoration: name "Dry Bros - 24/7 Emergency Water Damage Restoration & Mold Remediation" (phone (877) 379-2767 is already right).
+  - flood-solutions-inc: phone (586) 580-0197 ONLY. Name stays as is: its rename is not final (DBA not filed).
+  - aldredo-moreno (ACS): phone (432) 847-4704 ONLY. Name stays: rename not final.
+  Ledger + record_listing on each; one report with before/after.
+
+- [ ] **BBB DESERT VALLEY — finish the claim (unattended OK, daytime):** BBB Southern Nevada emailed setup@restorationai.io on 09-28 "Your BBB Business Account is ready"; the 24h set-password link expired. At BBB.org/account use Forgot Password for setup@restorationai.io (read the reset email via Gmail helper), set a strong password and save it to ~/.rankai/portal-creds.json key bbb.rachelle-elliston BEFORE continuing. Then edit the profile to the settled NAP: "Desert Valley Restoration-24/7 Emergency Plumbing, Water and Fire Damage Restoration", 3808 N Octagon Rd, North Las Vegas, NV 89030, (702) 633-5033. Request removal of the alternate name "Servpro of Downtown Las Vegas" if the editor offers it, otherwise park a Need. No accreditation, no payment.
+
+- [ ] **CHAMBER DESERT VALLEY — claim 2001319165 (MacBook decision 09-30):** support (Jamie Cole, 09-28) says the active listing is https://www.chamberofcommerce.com/business-directory/nevada/north-las-vegas/construction-company/2001319165-desert-valley-contracting and to use its red Claim button. Claim it with the agency account, set the settled NAP above (dismiss the premium pop-up; never pay). Then reply in the same support thread asking them to merge 37998255 (and 2034512140 if still live) INTO 2001319165. Its phone 725-228-5575 is a Desert Valley tracking number: replace with (702) 633-5033.
+
+- [ ] **BING SESSION CHECK (read-only, unattended):** Santino signed into Bing Places on 09-30. Confirm the sweep profile is signed in (bing.com/forbusiness loads the account, no SSO bounce); report yes/no in a one-line report. No edits.
+
 - [ ] **ALL-DAY DIRECTORY BLITZ — 2026-09-27 (Santino: "run tests all day on
   every directory until exhausted"):** AFTER the Apple Podcasts test, work
   every "we handle" directory lane across all active clients until each
