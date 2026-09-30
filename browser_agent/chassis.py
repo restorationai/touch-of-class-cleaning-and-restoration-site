@@ -97,6 +97,18 @@ class Session:
         PROFILE_DIR.mkdir(parents=True, exist_ok=True)
         AUDIT_DIR.mkdir(parents=True, exist_ok=True)
         self._pw = sync_playwright().start()
+        if not cdp_url and not os.environ.get("RANKAI_OWN_PROFILE"):
+            # REAL signed-in Chrome (Santino 2026-09-30: logins kept vanishing
+            # from the Playwright-launched profile). Once agent_chrome setup
+            # has run on this machine, every session attaches to that Chrome
+            # and works in its own tab; RANKAI_OWN_PROFILE=1 forces the old
+            # persistent-profile path.
+            try:
+                from . import agent_chrome
+                if agent_chrome.configured() and agent_chrome.start():
+                    cdp_url = agent_chrome.CDP_URL
+            except Exception as e:  # noqa: BLE001
+                print(f"  [chassis] agent Chrome unavailable ({str(e)[:80]}); own profile")
         if cdp_url:
             # Attach to an ALREADY-LOGGED-IN human Chrome (authorized session
             # reuse, e.g. apple_maps 2026-08-16). Surgical contract: work in
