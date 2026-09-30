@@ -79,3 +79,19 @@ jobs:
           SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: python3 scripts/rename_pipeline.py || echo "rename mirror failed (non-fatal)"
+
+      - name: Rename approval evidence (2026-09-30)
+        # Where did the client say yes to the chosen name? Filed DBA, Fathom
+        # call, GHL phone call (transcribed once, cached) or message. Only
+        # clients with a chosen name and no evidence; cheap once found.
+        timeout-minutes: 15
+        env:
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          ANTHROPIC_API_KEY:         ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY:            ${{ secrets.OPENAI_API_KEY }}
+          GHL_API_KEY:               ${{ secrets.GHL_API_KEY }}
+          GHL_LOCATION_ID:           ${{ secrets.GHL_LOCATION_ID }}
+          FATHOM_API_KEY:            ${{ secrets.FATHOM_API_KEY }}
+          FATHOM_SALES_API_KEYS:     ${{ secrets.FATHOM_SALES_API_KEYS }}
+        run: python3 scripts/rename_evidence.py || echo "rename evidence failed (non-fatal)"
