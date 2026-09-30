@@ -67,7 +67,7 @@
     },
     {
       "id": "2026-09-24-water-damage-restoration-cost-il",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-24T15:28:56Z",
       "priority": 1,
       "prioritized": true,
@@ -92,7 +92,29 @@
         "water cleanup IL",
         "water removal IL"
       ],
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-30T01:26:06Z",
+      "post_url": "https://drybros.com/blog/water-damage-restoration-cost-il/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-il.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "**Category and class of water.** The [IICRC](https://iicrc.org) classifies water lo",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost-il.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "to confirm materials are drying to the IICRC S500 standard rather than just \"looking",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        }
+      ]
     },
     {
       "id": "2026-09-10-best-water-damage-restoration-in-chicago-il",
