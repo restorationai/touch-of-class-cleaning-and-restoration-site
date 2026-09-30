@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "4628f1e22b8f531b"
-generated_at: "2026-09-29T23:13:49.714406+00:00"
+generated_at: "2026-09-30T19:29:03.505690+00:00"
 manual_override: false
 internal_links: ["/services/carpet-upholstery-cleaning/", "/service-areas/lincoln-ca/", "/service-areas/lincoln-ca/home-remodeling/", "/service-areas/lincoln-ca/bathroom-remodeling/", "/service-areas/antelope-ca/carpet-upholstery-cleaning/", "/service-areas/arden-arcade-ca/carpet-upholstery-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lincoln", "url": "/service-areas/lincoln-ca/"}, {"name": "Carpet & Upholstery Cleaning"}]

@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "b6d6fe8bf54821d1"
-generated_at: "2026-09-29T23:13:49.713197+00:00"
+generated_at: "2026-09-30T19:29:03.504338+00:00"
 manual_override: false
 internal_links: ["/services/carpet-water-extraction/", "/service-areas/west-sacramento-ca/", "/service-areas/west-sacramento-ca/home-remodeling/", "/service-areas/west-sacramento-ca/bathroom-remodeling/", "/service-areas/antelope-ca/carpet-water-extraction/", "/service-areas/arden-arcade-ca/carpet-water-extraction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "West Sacramento", "url": "/service-areas/west-sacramento-ca/"}, {"name": "Carpet Water Extraction"}]

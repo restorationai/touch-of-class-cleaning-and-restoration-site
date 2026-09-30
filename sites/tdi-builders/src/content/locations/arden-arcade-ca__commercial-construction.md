@@ -7,8 +7,8 @@ primary_keyword: "commercial construction and tenant improvements arden-arcade"
 secondary_keywords: ["commercial general contractor", "tenant improvement contractor", "commercial buildout", "office renovation", "retail construction"]
 search_intent: "local_b2b"
 priority: 4.9
-plan_hash: "947f339f7a4a881e"
-generated_at: "2026-09-20T14:13:49.564968+00:00"
+plan_hash: "b76abd33c17cd986"
+generated_at: "2026-09-30T19:29:03.534723+00:00"
 manual_override: false
 internal_links: ["/services/commercial-construction/", "/service-areas/arden-arcade-ca/", "/service-areas/arden-arcade-ca/home-remodeling/", "/service-areas/arden-arcade-ca/bathroom-remodeling/", "/service-areas/antelope-ca/commercial-construction/", "/service-areas/carmichael-ca/commercial-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Arden-Arcade", "url": "/service-areas/arden-arcade-ca/"}, {"name": "Commercial Construction and Tenant Improvements"}]

@@ -7,8 +7,8 @@ primary_keyword: "home remodeling woodland"
 secondary_keywords: ["home renovation", "whole home remodel", "interior remodeling contractor", "house renovation contractor", "remodeling company"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "a0aee689f1553624"
-generated_at: "2026-09-20T20:42:26.318169+00:00"
+plan_hash: "c9092b434197f838"
+generated_at: "2026-09-30T19:29:03.570923+00:00"
 manual_override: false
 internal_links: ["/services/home-remodeling/", "/service-areas/woodland-ca/", "/service-areas/woodland-ca/bathroom-remodeling/", "/service-areas/woodland-ca/kitchen-remodeling/", "/service-areas/antelope-ca/home-remodeling/", "/service-areas/arden-arcade-ca/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woodland", "url": "/service-areas/woodland-ca/"}, {"name": "Home Remodeling"}]

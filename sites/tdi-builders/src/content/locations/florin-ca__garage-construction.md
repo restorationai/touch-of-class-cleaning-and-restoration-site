@@ -7,8 +7,8 @@ primary_keyword: "garage construction florin"
 secondary_keywords: ["garage builder", "detached garage construction", "attached garage addition", "garage conversion", "custom garage contractor"]
 search_intent: "local_commercial"
 priority: 4.2
-plan_hash: "75cc14d04a2d29b7"
-generated_at: "2026-09-20T19:37:26.797749+00:00"
+plan_hash: "4498e8d0dc4108fb"
+generated_at: "2026-09-30T19:29:03.565417+00:00"
 manual_override: false
 internal_links: ["/services/garage-construction/", "/service-areas/florin-ca/", "/service-areas/florin-ca/home-remodeling/", "/service-areas/florin-ca/bathroom-remodeling/", "/service-areas/antelope-ca/garage-construction/", "/service-areas/arden-arcade-ca/garage-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Florin", "url": "/service-areas/florin-ca/"}, {"name": "Garage Construction"}]

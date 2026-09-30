@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration davis"
 secondary_keywords: ["water damage repair", "water damage rebuild", "drywall water damage repair", "ceiling water damage repair", "post-leak renovation"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "cbbe97ca89f6419f"
-generated_at: "2026-09-21T19:19:28.698989+00:00"
+plan_hash: "c7ec0d0b9d8323ee"
+generated_at: "2026-09-30T19:29:03.583269+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/davis-ca/", "/service-areas/davis-ca/home-remodeling/", "/service-areas/davis-ca/bathroom-remodeling/", "/service-areas/antelope-ca/water-damage-restoration/", "/service-areas/arden-arcade-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Davis", "url": "/service-areas/davis-ca/"}, {"name": "Water Damage Restoration"}]

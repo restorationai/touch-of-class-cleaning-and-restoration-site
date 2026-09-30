@@ -7,8 +7,8 @@ primary_keyword: "commercial construction and tenant improvements davis"
 secondary_keywords: ["commercial general contractor", "tenant improvement contractor", "commercial buildout", "office renovation", "retail construction"]
 search_intent: "local_b2b"
 priority: 4.9
-plan_hash: "7c4d02cb4dc8a114"
-generated_at: "2026-09-21T19:19:28.698518+00:00"
+plan_hash: "6cbe8a1b83b234f5"
+generated_at: "2026-09-30T19:29:03.579905+00:00"
 manual_override: false
 internal_links: ["/services/commercial-construction/", "/service-areas/davis-ca/", "/service-areas/davis-ca/home-remodeling/", "/service-areas/davis-ca/bathroom-remodeling/", "/service-areas/antelope-ca/commercial-construction/", "/service-areas/arden-arcade-ca/commercial-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Davis", "url": "/service-areas/davis-ca/"}, {"name": "Commercial Construction and Tenant Improvements"}]

@@ -7,8 +7,8 @@ primary_keyword: "mold remediation elverta"
 secondary_keywords: ["mold removal", "mold remediation contractor", "mold repair and rebuild", "mold-safe renovation", "post-remediation reconstruction"]
 search_intent: "local_health"
 priority: 4.9
-plan_hash: "edb25d04cc0796bb"
-generated_at: "2026-09-20T14:13:49.561914+00:00"
+plan_hash: "f3b8b3496d8e6060"
+generated_at: "2026-09-30T19:29:03.526382+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/elverta-ca/", "/service-areas/elverta-ca/home-remodeling/", "/service-areas/elverta-ca/bathroom-remodeling/", "/service-areas/antelope-ca/mold-remediation/", "/service-areas/arden-arcade-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elverta", "url": "/service-areas/elverta-ca/"}, {"name": "Mold Remediation"}]

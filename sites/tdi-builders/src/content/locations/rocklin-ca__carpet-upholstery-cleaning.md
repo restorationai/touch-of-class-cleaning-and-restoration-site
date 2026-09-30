@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "630e7528ddddd109"
-generated_at: "2026-09-29T23:13:49.706471+00:00"
+generated_at: "2026-09-30T19:29:03.495107+00:00"
 manual_override: false
 internal_links: ["/services/carpet-upholstery-cleaning/", "/service-areas/rocklin-ca/", "/service-areas/rocklin-ca/home-remodeling/", "/service-areas/rocklin-ca/bathroom-remodeling/", "/service-areas/antelope-ca/carpet-upholstery-cleaning/", "/service-areas/arden-arcade-ca/carpet-upholstery-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rocklin", "url": "/service-areas/rocklin-ca/"}, {"name": "Carpet & Upholstery Cleaning"}]

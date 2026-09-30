@@ -7,8 +7,8 @@ primary_keyword: "renovations, remodels and general contracting elverta"
 secondary_keywords: ["general contractor", "licensed general contractor", "home improvement contractor", "residential general contracting", "design-build contractor"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "29994da75e98873d"
-generated_at: "2026-09-20T14:13:49.561074+00:00"
+plan_hash: "1275da8206028199"
+generated_at: "2026-09-30T19:29:03.525447+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/elverta-ca/", "/service-areas/elverta-ca/home-remodeling/", "/service-areas/elverta-ca/bathroom-remodeling/", "/service-areas/antelope-ca/general-contracting/", "/service-areas/arden-arcade-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elverta", "url": "/service-areas/elverta-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]

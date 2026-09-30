@@ -7,8 +7,8 @@ primary_keyword: "garage construction arden-arcade"
 secondary_keywords: ["garage builder", "detached garage construction", "attached garage addition", "garage conversion", "custom garage contractor"]
 search_intent: "local_commercial"
 priority: 4.2
-plan_hash: "dc0afbf361e660e7"
-generated_at: "2026-09-20T14:13:49.566636+00:00"
+plan_hash: "f7008e28890ea460"
+generated_at: "2026-09-30T19:29:03.535333+00:00"
 manual_override: false
 internal_links: ["/services/garage-construction/", "/service-areas/arden-arcade-ca/", "/service-areas/arden-arcade-ca/home-remodeling/", "/service-areas/arden-arcade-ca/bathroom-remodeling/", "/service-areas/antelope-ca/garage-construction/", "/service-areas/carmichael-ca/garage-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Arden-Arcade", "url": "/service-areas/arden-arcade-ca/"}, {"name": "Garage Construction"}]

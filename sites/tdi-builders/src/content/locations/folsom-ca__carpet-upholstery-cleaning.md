@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "38cbf84f6228e87c"
-generated_at: "2026-09-29T23:13:49.703736+00:00"
+generated_at: "2026-09-30T19:29:03.491715+00:00"
 manual_override: false
 internal_links: ["/services/carpet-upholstery-cleaning/", "/service-areas/folsom-ca/", "/service-areas/folsom-ca/home-remodeling/", "/service-areas/folsom-ca/bathroom-remodeling/", "/service-areas/antelope-ca/carpet-upholstery-cleaning/", "/service-areas/arden-arcade-ca/carpet-upholstery-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Folsom", "url": "/service-areas/folsom-ca/"}, {"name": "Carpet & Upholstery Cleaning"}]

@@ -7,8 +7,8 @@ primary_keyword: "fire and smoke damage rebuilding mather"
 secondary_keywords: ["fire damage rebuild", "fire damage repair contractor", "smoke damage repair", "fire restoration contractor", "rebuild after fire"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "538ba195b26230f0"
-generated_at: "2026-09-21T14:13:51.732383+00:00"
+plan_hash: "b0ec8125f4939e37"
+generated_at: "2026-09-30T19:29:03.575379+00:00"
 manual_override: false
 internal_links: ["/services/fire-smoke-rebuilding/", "/service-areas/mather-ca/", "/service-areas/mather-ca/home-remodeling/", "/service-areas/mather-ca/bathroom-remodeling/", "/service-areas/antelope-ca/fire-smoke-rebuilding/", "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mather", "url": "/service-areas/mather-ca/"}, {"name": "Fire and Smoke Damage Rebuilding"}]

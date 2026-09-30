@@ -7,8 +7,8 @@ primary_keyword: "bathroom remodeling davis"
 secondary_keywords: ["bathroom remodel contractor", "bathroom renovation", "shower remodel", "tub to shower conversion", "master bath remodel"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "f8c1f076c13e80f1"
-generated_at: "2026-09-21T19:19:28.699415+00:00"
+plan_hash: "fffb730a8d1521d1"
+generated_at: "2026-09-30T19:29:03.579050+00:00"
 manual_override: false
 internal_links: ["/services/bathroom-remodeling/", "/service-areas/davis-ca/", "/service-areas/davis-ca/home-remodeling/", "/service-areas/davis-ca/kitchen-remodeling/", "/service-areas/antelope-ca/bathroom-remodeling/", "/service-areas/arden-arcade-ca/bathroom-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Davis", "url": "/service-areas/davis-ca/"}, {"name": "Bathroom Remodeling"}]

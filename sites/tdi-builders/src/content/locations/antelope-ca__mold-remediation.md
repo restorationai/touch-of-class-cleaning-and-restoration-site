@@ -7,8 +7,8 @@ primary_keyword: "mold remediation antelope"
 secondary_keywords: ["mold removal", "mold remediation contractor", "mold repair and rebuild", "mold-safe renovation", "post-remediation reconstruction"]
 search_intent: "local_health"
 priority: 4.9
-plan_hash: "5568426cff01e54d"
-generated_at: "2026-09-20T14:13:49.570111+00:00"
+plan_hash: "ea98bca5f33f21a3"
+generated_at: "2026-09-30T19:29:03.546815+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/antelope-ca/", "/service-areas/antelope-ca/home-remodeling/", "/service-areas/antelope-ca/bathroom-remodeling/", "/service-areas/arden-arcade-ca/mold-remediation/", "/service-areas/carmichael-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Antelope", "url": "/service-areas/antelope-ca/"}, {"name": "Mold Remediation"}]

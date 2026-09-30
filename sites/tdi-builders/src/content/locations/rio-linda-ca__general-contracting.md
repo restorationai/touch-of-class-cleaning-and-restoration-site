@@ -7,8 +7,8 @@ primary_keyword: "renovations, remodels and general contracting rio linda"
 secondary_keywords: ["general contractor", "licensed general contractor", "home improvement contractor", "residential general contracting", "design-build contractor"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "0deb0727152c8140"
-generated_at: "2026-09-20T14:13:49.558949+00:00"
+plan_hash: "b411c89ed64f5e19"
+generated_at: "2026-09-30T19:29:03.517463+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/rio-linda-ca/", "/service-areas/rio-linda-ca/home-remodeling/", "/service-areas/rio-linda-ca/bathroom-remodeling/", "/service-areas/antelope-ca/general-contracting/", "/service-areas/arden-arcade-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rio Linda", "url": "/service-areas/rio-linda-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]

@@ -7,8 +7,8 @@ primary_keyword: "renovations, remodels and general contracting mather"
 secondary_keywords: ["general contractor", "licensed general contractor", "home improvement contractor", "residential general contracting", "design-build contractor"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "73fdcd52b8864b33"
-generated_at: "2026-09-21T14:13:51.732011+00:00"
+plan_hash: "6e1eae29417524b7"
+generated_at: "2026-09-30T19:29:03.575990+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/mather-ca/", "/service-areas/mather-ca/home-remodeling/", "/service-areas/mather-ca/bathroom-remodeling/", "/service-areas/antelope-ca/general-contracting/", "/service-areas/arden-arcade-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mather", "url": "/service-areas/mather-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]

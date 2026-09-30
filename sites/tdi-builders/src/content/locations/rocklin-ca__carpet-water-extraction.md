@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "ee67b82d1b0ca9f0"
-generated_at: "2026-09-29T23:13:49.706617+00:00"
+generated_at: "2026-09-30T19:29:03.495458+00:00"
 manual_override: false
 internal_links: ["/services/carpet-water-extraction/", "/service-areas/rocklin-ca/", "/service-areas/rocklin-ca/home-remodeling/", "/service-areas/rocklin-ca/bathroom-remodeling/", "/service-areas/antelope-ca/carpet-water-extraction/", "/service-areas/arden-arcade-ca/carpet-water-extraction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rocklin", "url": "/service-areas/rocklin-ca/"}, {"name": "Carpet Water Extraction"}]

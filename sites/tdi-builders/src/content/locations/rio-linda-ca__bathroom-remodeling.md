@@ -7,8 +7,8 @@ primary_keyword: "bathroom remodeling rio linda"
 secondary_keywords: ["bathroom remodel contractor", "bathroom renovation", "shower remodel", "tub to shower conversion", "master bath remodel"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "5d8c385b5ab30659"
-generated_at: "2026-09-20T14:13:49.560377+00:00"
+plan_hash: "4f593e38ec666dcd"
+generated_at: "2026-09-30T19:29:03.515608+00:00"
 manual_override: false
 internal_links: ["/services/bathroom-remodeling/", "/service-areas/rio-linda-ca/", "/service-areas/rio-linda-ca/home-remodeling/", "/service-areas/rio-linda-ca/kitchen-remodeling/", "/service-areas/antelope-ca/bathroom-remodeling/", "/service-areas/arden-arcade-ca/bathroom-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rio Linda", "url": "/service-areas/rio-linda-ca/"}, {"name": "Bathroom Remodeling"}]

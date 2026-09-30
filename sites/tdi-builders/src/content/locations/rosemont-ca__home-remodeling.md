@@ -7,8 +7,8 @@ primary_keyword: "home remodeling rosemont"
 secondary_keywords: ["home renovation", "whole home remodel", "interior remodeling contractor", "house renovation contractor", "remodeling company"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "6856895bb4a6d198"
-generated_at: "2026-09-20T19:17:53.765133+00:00"
+plan_hash: "23d27e185b758d76"
+generated_at: "2026-09-30T19:29:03.561259+00:00"
 manual_override: false
 internal_links: ["/services/home-remodeling/", "/service-areas/rosemont-ca/", "/service-areas/rosemont-ca/bathroom-remodeling/", "/service-areas/rosemont-ca/kitchen-remodeling/", "/service-areas/antelope-ca/home-remodeling/", "/service-areas/arden-arcade-ca/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rosemont", "url": "/service-areas/rosemont-ca/"}, {"name": "Home Remodeling"}]

@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "d38d8bf0af2aed33"
-generated_at: "2026-09-29T23:13:49.731934+00:00"
+generated_at: "2026-09-30T19:29:03.549551+00:00"
 manual_override: false
 internal_links: ["/services/carpet-water-extraction/", "/service-areas/foothill-farms-ca/", "/service-areas/foothill-farms-ca/home-remodeling/", "/service-areas/foothill-farms-ca/bathroom-remodeling/", "/service-areas/antelope-ca/carpet-water-extraction/", "/service-areas/arden-arcade-ca/carpet-water-extraction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Foothill Farms", "url": "/service-areas/foothill-farms-ca/"}, {"name": "Carpet Water Extraction"}]

@@ -7,8 +7,8 @@ primary_keyword: "storm damage restoration north highlands"
 secondary_keywords: ["storm damage repair", "roof storm damage repair", "siding storm damage repair", "wind damage repair contractor", "storm damage rebuild"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "6ea99c3bcf4f4423"
-generated_at: "2026-09-20T14:13:49.567895+00:00"
+plan_hash: "a42dbdc99731af49"
+generated_at: "2026-09-30T19:29:03.542913+00:00"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/service-areas/north-highlands-ca/", "/service-areas/north-highlands-ca/home-remodeling/", "/service-areas/north-highlands-ca/bathroom-remodeling/", "/service-areas/antelope-ca/storm-damage-restoration/", "/service-areas/arden-arcade-ca/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Highlands", "url": "/service-areas/north-highlands-ca/"}, {"name": "Storm Damage Restoration"}]

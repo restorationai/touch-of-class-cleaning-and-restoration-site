@@ -7,8 +7,8 @@ primary_keyword: "storm damage restoration davis"
 secondary_keywords: ["storm damage repair", "roof storm damage repair", "siding storm damage repair", "wind damage repair contractor", "storm damage rebuild"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "a7e7ad2332a3e468"
-generated_at: "2026-09-21T19:19:28.699076+00:00"
+plan_hash: "96d710be3c072b91"
+generated_at: "2026-09-30T19:29:03.582957+00:00"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/service-areas/davis-ca/", "/service-areas/davis-ca/home-remodeling/", "/service-areas/davis-ca/bathroom-remodeling/", "/service-areas/antelope-ca/storm-damage-restoration/", "/service-areas/arden-arcade-ca/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Davis", "url": "/service-areas/davis-ca/"}, {"name": "Storm Damage Restoration"}]

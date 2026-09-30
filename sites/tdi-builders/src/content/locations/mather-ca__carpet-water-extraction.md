@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "850643c40b34ee5f"
-generated_at: "2026-09-29T23:13:49.737493+00:00"
+generated_at: "2026-09-30T19:29:03.574743+00:00"
 manual_override: false
 internal_links: ["/services/carpet-water-extraction/", "/service-areas/mather-ca/", "/service-areas/mather-ca/home-remodeling/", "/service-areas/mather-ca/bathroom-remodeling/", "/service-areas/antelope-ca/carpet-water-extraction/", "/service-areas/arden-arcade-ca/carpet-water-extraction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mather", "url": "/service-areas/mather-ca/"}, {"name": "Carpet Water Extraction"}]

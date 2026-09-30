@@ -7,8 +7,8 @@ primary_keyword: "bathroom remodeling foothill farms"
 secondary_keywords: ["bathroom remodel contractor", "bathroom renovation", "shower remodel", "tub to shower conversion", "master bath remodel"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "7d79e4bfd7366d63"
-generated_at: "2026-09-20T17:30:08.764112+00:00"
+plan_hash: "186855d8013365a3"
+generated_at: "2026-09-30T19:29:03.548980+00:00"
 manual_override: false
 internal_links: ["/services/bathroom-remodeling/", "/service-areas/foothill-farms-ca/", "/service-areas/foothill-farms-ca/home-remodeling/", "/service-areas/foothill-farms-ca/kitchen-remodeling/", "/service-areas/antelope-ca/bathroom-remodeling/", "/service-areas/arden-arcade-ca/bathroom-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Foothill Farms", "url": "/service-areas/foothill-farms-ca/"}, {"name": "Bathroom Remodeling"}]

@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "06c591647d179098"
-generated_at: "2026-09-29T23:13:49.721709+00:00"
+generated_at: "2026-09-30T19:29:03.513251+00:00"
 manual_override: false
 internal_links: ["/services/post-construction-specialty-cleaning/", "/service-areas/manteca-ca/", "/service-areas/manteca-ca/home-remodeling/", "/service-areas/manteca-ca/bathroom-remodeling/", "/service-areas/antelope-ca/post-construction-specialty-cleaning/", "/service-areas/arden-arcade-ca/post-construction-specialty-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Manteca", "url": "/service-areas/manteca-ca/"}, {"name": "Post-Construction & Specialty Cleaning"}]

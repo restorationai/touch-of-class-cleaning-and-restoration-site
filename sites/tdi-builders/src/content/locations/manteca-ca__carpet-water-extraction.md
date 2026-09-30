@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "02f00e90e7f3f20d"
-generated_at: "2026-09-29T23:13:49.721311+00:00"
+generated_at: "2026-09-30T19:29:03.512651+00:00"
 manual_override: false
 internal_links: ["/services/carpet-water-extraction/", "/service-areas/manteca-ca/", "/service-areas/manteca-ca/home-remodeling/", "/service-areas/manteca-ca/bathroom-remodeling/", "/service-areas/antelope-ca/carpet-water-extraction/", "/service-areas/arden-arcade-ca/carpet-water-extraction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Manteca", "url": "/service-areas/manteca-ca/"}, {"name": "Carpet Water Extraction"}]

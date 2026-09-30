@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "efce679a6cc7976d"
-generated_at: "2026-09-29T23:13:49.716996+00:00"
+generated_at: "2026-09-30T19:29:03.508267+00:00"
 manual_override: false
 internal_links: ["/services/post-construction-specialty-cleaning/", "/service-areas/granite-bay-ca/", "/service-areas/granite-bay-ca/home-remodeling/", "/service-areas/granite-bay-ca/bathroom-remodeling/", "/service-areas/antelope-ca/post-construction-specialty-cleaning/", "/service-areas/arden-arcade-ca/post-construction-specialty-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Granite Bay", "url": "/service-areas/granite-bay-ca/"}, {"name": "Post-Construction & Specialty Cleaning"}]

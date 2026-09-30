@@ -7,8 +7,8 @@ primary_keyword: "home remodeling mather"
 secondary_keywords: ["home renovation", "whole home remodel", "interior remodeling contractor", "house renovation contractor", "remodeling company"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "d315e9410b4857c8"
-generated_at: "2026-09-21T14:13:51.733136+00:00"
+plan_hash: "db0519b10f386b18"
+generated_at: "2026-09-30T19:29:03.576327+00:00"
 manual_override: false
 internal_links: ["/services/home-remodeling/", "/service-areas/mather-ca/", "/service-areas/mather-ca/bathroom-remodeling/", "/service-areas/mather-ca/kitchen-remodeling/", "/service-areas/antelope-ca/home-remodeling/", "/service-areas/arden-arcade-ca/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mather", "url": "/service-areas/mather-ca/"}, {"name": "Home Remodeling"}]

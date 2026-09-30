@@ -7,8 +7,8 @@ primary_keyword: "bathroom remodeling north highlands"
 secondary_keywords: ["bathroom remodel contractor", "bathroom renovation", "shower remodel", "tub to shower conversion", "master bath remodel"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "d201df707223d245"
-generated_at: "2026-09-20T14:13:49.568564+00:00"
+plan_hash: "dbbf768531c8d0ea"
+generated_at: "2026-09-30T19:29:03.539018+00:00"
 manual_override: false
 internal_links: ["/services/bathroom-remodeling/", "/service-areas/north-highlands-ca/", "/service-areas/north-highlands-ca/home-remodeling/", "/service-areas/north-highlands-ca/kitchen-remodeling/", "/service-areas/antelope-ca/bathroom-remodeling/", "/service-areas/arden-arcade-ca/bathroom-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Highlands", "url": "/service-areas/north-highlands-ca/"}, {"name": "Bathroom Remodeling"}]

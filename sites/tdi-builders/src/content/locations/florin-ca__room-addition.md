@@ -7,8 +7,8 @@ primary_keyword: "room additions and home additions florin"
 secondary_keywords: ["home addition contractor", "room addition", "add a room to house", "house addition", "bump out addition"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "ddd4ac4874ddd096"
-generated_at: "2026-09-20T19:37:26.797855+00:00"
+plan_hash: "033564a684bda363"
+generated_at: "2026-09-30T19:29:03.567441+00:00"
 manual_override: false
 internal_links: ["/services/room-addition/", "/service-areas/florin-ca/", "/service-areas/florin-ca/home-remodeling/", "/service-areas/florin-ca/bathroom-remodeling/", "/service-areas/antelope-ca/room-addition/", "/service-areas/arden-arcade-ca/room-addition/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Florin", "url": "/service-areas/florin-ca/"}, {"name": "Room Additions and Home Additions"}]

@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "2d0acbc5ac8ce749"
-generated_at: "2026-09-29T23:13:49.713041+00:00"
+generated_at: "2026-09-30T19:29:03.503992+00:00"
 manual_override: false
 internal_links: ["/services/carpet-upholstery-cleaning/", "/service-areas/west-sacramento-ca/", "/service-areas/west-sacramento-ca/home-remodeling/", "/service-areas/west-sacramento-ca/bathroom-remodeling/", "/service-areas/antelope-ca/carpet-upholstery-cleaning/", "/service-areas/arden-arcade-ca/carpet-upholstery-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "West Sacramento", "url": "/service-areas/west-sacramento-ca/"}, {"name": "Carpet & Upholstery Cleaning"}]

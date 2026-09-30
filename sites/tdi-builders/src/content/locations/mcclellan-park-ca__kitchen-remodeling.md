@@ -7,8 +7,8 @@ primary_keyword: "kitchen remodeling mcclellan park"
 secondary_keywords: ["kitchen remodel contractor", "kitchen renovation", "custom kitchen remodel", "kitchen cabinet installation", "kitchen makeover"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "90f7b8e533c5cf9f"
-generated_at: "2026-09-20T14:13:49.564290+00:00"
+plan_hash: "46cac557ca37f218"
+generated_at: "2026-09-30T19:29:03.531340+00:00"
 manual_override: false
 internal_links: ["/services/kitchen-remodeling/", "/service-areas/mcclellan-park-ca/", "/service-areas/mcclellan-park-ca/home-remodeling/", "/service-areas/mcclellan-park-ca/bathroom-remodeling/", "/service-areas/antelope-ca/kitchen-remodeling/", "/service-areas/arden-arcade-ca/kitchen-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McClellan Park", "url": "/service-areas/mcclellan-park-ca/"}, {"name": "Kitchen Remodeling"}]

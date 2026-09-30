@@ -7,8 +7,8 @@ primary_keyword: "home remodeling florin"
 secondary_keywords: ["home renovation", "whole home remodel", "interior remodeling contractor", "house renovation contractor", "remodeling company"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "c6dd7274468f712a"
-generated_at: "2026-09-20T19:37:26.797415+00:00"
+plan_hash: "f122af685973c2e8"
+generated_at: "2026-09-30T19:29:03.566039+00:00"
 manual_override: false
 internal_links: ["/services/home-remodeling/", "/service-areas/florin-ca/", "/service-areas/florin-ca/bathroom-remodeling/", "/service-areas/florin-ca/kitchen-remodeling/", "/service-areas/antelope-ca/home-remodeling/", "/service-areas/arden-arcade-ca/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Florin", "url": "/service-areas/florin-ca/"}, {"name": "Home Remodeling"}]

@@ -7,8 +7,8 @@ primary_keyword: "new home construction elverta"
 secondary_keywords: ["custom home builder", "new home builder", "build a house", "residential construction", "ground-up construction"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "0dbe4bf39f2a5c8d"
-generated_at: "2026-09-20T14:13:49.561236+00:00"
+plan_hash: "b7c6e11b27390308"
+generated_at: "2026-09-30T19:29:03.526735+00:00"
 manual_override: false
 internal_links: ["/services/new-construction/", "/service-areas/elverta-ca/", "/service-areas/elverta-ca/home-remodeling/", "/service-areas/elverta-ca/bathroom-remodeling/", "/service-areas/antelope-ca/new-construction/", "/service-areas/arden-arcade-ca/new-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elverta", "url": "/service-areas/elverta-ca/"}, {"name": "New Home Construction"}]

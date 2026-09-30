@@ -7,8 +7,8 @@ primary_keyword: "garage construction mcclellan park"
 secondary_keywords: ["garage builder", "detached garage construction", "attached garage addition", "garage conversion", "custom garage contractor"]
 search_intent: "local_commercial"
 priority: 4.2
-plan_hash: "1bda24a9dccf3b1f"
-generated_at: "2026-09-20T14:13:49.564616+00:00"
+plan_hash: "0ded2267892fbadb"
+generated_at: "2026-09-30T19:29:03.530398+00:00"
 manual_override: false
 internal_links: ["/services/garage-construction/", "/service-areas/mcclellan-park-ca/", "/service-areas/mcclellan-park-ca/home-remodeling/", "/service-areas/mcclellan-park-ca/bathroom-remodeling/", "/service-areas/antelope-ca/garage-construction/", "/service-areas/arden-arcade-ca/garage-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McClellan Park", "url": "/service-areas/mcclellan-park-ca/"}, {"name": "Garage Construction"}]

@@ -7,8 +7,8 @@ primary_keyword: "new home construction antelope"
 secondary_keywords: ["custom home builder", "new home builder", "build a house", "residential construction", "ground-up construction"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "854216b1f0318c3a"
-generated_at: "2026-09-20T14:13:49.569419+00:00"
+plan_hash: "eee9a57915d8d035"
+generated_at: "2026-09-30T19:29:03.547122+00:00"
 manual_override: false
 internal_links: ["/services/new-construction/", "/service-areas/antelope-ca/", "/service-areas/antelope-ca/home-remodeling/", "/service-areas/antelope-ca/bathroom-remodeling/", "/service-areas/arden-arcade-ca/new-construction/", "/service-areas/carmichael-ca/new-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Antelope", "url": "/service-areas/antelope-ca/"}, {"name": "New Home Construction"}]

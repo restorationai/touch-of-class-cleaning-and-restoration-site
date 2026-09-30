@@ -7,8 +7,8 @@ primary_keyword: "garage construction davis"
 secondary_keywords: ["garage builder", "detached garage construction", "attached garage addition", "garage conversion", "custom garage contractor"]
 search_intent: "local_commercial"
 priority: 4.2
-plan_hash: "ba380f0d8dd3515f"
-generated_at: "2026-09-21T19:19:28.699503+00:00"
+plan_hash: "68a52aeaf0907c1d"
+generated_at: "2026-09-30T19:29:03.580572+00:00"
 manual_override: false
 internal_links: ["/services/garage-construction/", "/service-areas/davis-ca/", "/service-areas/davis-ca/home-remodeling/", "/service-areas/davis-ca/bathroom-remodeling/", "/service-areas/antelope-ca/garage-construction/", "/service-areas/arden-arcade-ca/garage-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Davis", "url": "/service-areas/davis-ca/"}, {"name": "Garage Construction"}]

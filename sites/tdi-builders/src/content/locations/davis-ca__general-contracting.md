@@ -7,8 +7,8 @@ primary_keyword: "renovations, remodels and general contracting davis"
 secondary_keywords: ["general contractor", "licensed general contractor", "home improvement contractor", "residential general contracting", "design-build contractor"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "5a337c79b69443a6"
-generated_at: "2026-09-21T19:19:28.698708+00:00"
+plan_hash: "985bf28a34241187"
+generated_at: "2026-09-30T19:29:03.580830+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/davis-ca/", "/service-areas/davis-ca/home-remodeling/", "/service-areas/davis-ca/bathroom-remodeling/", "/service-areas/antelope-ca/general-contracting/", "/service-areas/arden-arcade-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Davis", "url": "/service-areas/davis-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]

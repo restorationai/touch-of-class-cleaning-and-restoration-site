@@ -7,8 +7,8 @@ primary_keyword: "room additions and home additions mcclellan park"
 secondary_keywords: ["home addition contractor", "room addition", "add a room to house", "house addition", "bump out addition"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "bfde20c3aa672474"
-generated_at: "2026-09-20T14:13:49.564803+00:00"
+plan_hash: "010bcbe6b98abf14"
+generated_at: "2026-09-30T19:29:03.532584+00:00"
 manual_override: false
 internal_links: ["/services/room-addition/", "/service-areas/mcclellan-park-ca/", "/service-areas/mcclellan-park-ca/home-remodeling/", "/service-areas/mcclellan-park-ca/bathroom-remodeling/", "/service-areas/antelope-ca/room-addition/", "/service-areas/arden-arcade-ca/room-addition/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McClellan Park", "url": "/service-areas/mcclellan-park-ca/"}, {"name": "Room Additions and Home Additions"}]

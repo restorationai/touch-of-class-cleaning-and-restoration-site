@@ -7,8 +7,8 @@ primary_keyword: "mold remediation mather"
 secondary_keywords: ["mold removal", "mold remediation contractor", "mold repair and rebuild", "mold-safe renovation", "post-remediation reconstruction"]
 search_intent: "local_health"
 priority: 4.9
-plan_hash: "06eb7e2643e8740c"
-generated_at: "2026-09-21T14:13:51.732954+00:00"
+plan_hash: "fbebf9dbdefbadc1"
+generated_at: "2026-09-30T19:29:03.576949+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/mather-ca/", "/service-areas/mather-ca/home-remodeling/", "/service-areas/mather-ca/bathroom-remodeling/", "/service-areas/antelope-ca/mold-remediation/", "/service-areas/arden-arcade-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mather", "url": "/service-areas/mather-ca/"}, {"name": "Mold Remediation"}]

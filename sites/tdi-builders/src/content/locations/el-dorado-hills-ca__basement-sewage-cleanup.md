@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "3ef8522d697409c7"
-generated_at: "2026-09-29T23:13:49.717686+00:00"
+generated_at: "2026-09-30T19:29:03.508690+00:00"
 manual_override: false
 internal_links: ["/services/basement-sewage-cleanup/", "/service-areas/el-dorado-hills-ca/", "/service-areas/el-dorado-hills-ca/home-remodeling/", "/service-areas/el-dorado-hills-ca/bathroom-remodeling/", "/service-areas/antelope-ca/basement-sewage-cleanup/", "/service-areas/arden-arcade-ca/basement-sewage-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "El Dorado Hills", "url": "/service-areas/el-dorado-hills-ca/"}, {"name": "Basement Sewage Cleanup"}]

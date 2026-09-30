@@ -7,8 +7,8 @@ primary_keyword: "new home construction davis"
 secondary_keywords: ["custom home builder", "new home builder", "build a house", "residential construction", "ground-up construction"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "009520a595022a0e"
-generated_at: "2026-09-21T19:19:28.698809+00:00"
+plan_hash: "280e992f94d2896b"
+generated_at: "2026-09-30T19:29:03.582019+00:00"
 manual_override: false
 internal_links: ["/services/new-construction/", "/service-areas/davis-ca/", "/service-areas/davis-ca/home-remodeling/", "/service-areas/davis-ca/bathroom-remodeling/", "/service-areas/antelope-ca/new-construction/", "/service-areas/arden-arcade-ca/new-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Davis", "url": "/service-areas/davis-ca/"}, {"name": "New Home Construction"}]

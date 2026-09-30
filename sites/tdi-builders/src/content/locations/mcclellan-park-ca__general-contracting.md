@@ -7,8 +7,8 @@ primary_keyword: "renovations, remodels and general contracting mcclellan park"
 secondary_keywords: ["general contractor", "licensed general contractor", "home improvement contractor", "residential general contracting", "design-build contractor"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "1d29f43be1afe7f1"
-generated_at: "2026-09-20T14:13:49.563096+00:00"
+plan_hash: "440bc7dc06431e06"
+generated_at: "2026-09-30T19:29:03.530728+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/mcclellan-park-ca/", "/service-areas/mcclellan-park-ca/home-remodeling/", "/service-areas/mcclellan-park-ca/bathroom-remodeling/", "/service-areas/antelope-ca/general-contracting/", "/service-areas/arden-arcade-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McClellan Park", "url": "/service-areas/mcclellan-park-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]

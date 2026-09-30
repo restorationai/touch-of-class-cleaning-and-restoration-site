@@ -1,0 +1,23 @@
+---
+/* Insurance compatibility as a PROMINENT full-width banner, not fine print
+   (Santino 2026-09-22, refined same day: shield icon + deep brand tone,
+   distinct from the navy trust strip above it). Lives directly under the
+   trust strip on the homepage; the old one-line hero mention is retired. */
+import { ShieldCheck } from '@lucide/astro';
+---
+
+<div class="bg-gradient-to-r from-primary-900 via-primary-800 to-primary-900 border-y border-white/10 py-6 px-4">
+  <div class="max-w-3xl mx-auto flex flex-col items-center gap-3 text-center">
+    <span class="rounded-full bg-white/10 p-2.5 text-white">
+      <ShieldCheck size={28} />
+    </span>
+    <div>
+      <p class="text-lg sm:text-xl font-extrabold tracking-tight text-white uppercase">
+        We work with all insurance carriers
+      </p>
+      <p class="mt-1 text-sm font-medium text-white/75">
+        Direct insurance billing &middot; We handle the claim paperwork with your carrier from start to finish
+      </p>
+    </div>
+  </div>
+</div>

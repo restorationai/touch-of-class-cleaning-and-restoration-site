@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 4.5
 plan_hash: "4112b207dc8fa5e9"
-generated_at: "2026-09-29T23:13:49.699489+00:00"
+generated_at: "2026-09-30T19:29:03.482142+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/antelope-ca/carpet-water-extraction/", "/service-areas/arden-arcade-ca/carpet-water-extraction/", "/service-areas/carmichael-ca/carpet-water-extraction/", "/service-areas/citrus-heights-ca/carpet-water-extraction/", "/service-areas/davis-ca/carpet-water-extraction/", "/service-areas/el-dorado-hills-ca/carpet-water-extraction/", "/service-areas/elk-grove-ca/carpet-water-extraction/", "/service-areas/elverta-ca/carpet-water-extraction/", "/service-areas/fair-oaks-ca/carpet-water-extraction/", "/service-areas/florin-ca/carpet-water-extraction/", "/service-areas/folsom-ca/carpet-water-extraction/", "/service-areas/foothill-farms-ca/carpet-water-extraction/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Carpet Water Extraction"}]

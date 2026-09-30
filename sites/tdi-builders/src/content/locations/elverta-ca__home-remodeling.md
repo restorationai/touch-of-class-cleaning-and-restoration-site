@@ -7,8 +7,8 @@ primary_keyword: "home remodeling elverta"
 secondary_keywords: ["home renovation", "whole home remodel", "interior remodeling contractor", "house renovation contractor", "remodeling company"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "a8d1818305e5c96f"
-generated_at: "2026-09-20T14:13:49.562078+00:00"
+plan_hash: "c3c1120bd2b509c9"
+generated_at: "2026-09-30T19:29:03.525757+00:00"
 manual_override: false
 internal_links: ["/services/home-remodeling/", "/service-areas/elverta-ca/", "/service-areas/elverta-ca/bathroom-remodeling/", "/service-areas/elverta-ca/kitchen-remodeling/", "/service-areas/antelope-ca/home-remodeling/", "/service-areas/arden-arcade-ca/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elverta", "url": "/service-areas/elverta-ca/"}, {"name": "Home Remodeling"}]

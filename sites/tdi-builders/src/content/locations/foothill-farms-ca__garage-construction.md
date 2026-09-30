@@ -7,8 +7,8 @@ primary_keyword: "garage construction foothill farms"
 secondary_keywords: ["garage builder", "detached garage construction", "attached garage addition", "garage conversion", "custom garage contractor"]
 search_intent: "local_commercial"
 priority: 4.2
-plan_hash: "6c8140aa2c1bce25"
-generated_at: "2026-09-20T17:30:08.764286+00:00"
+plan_hash: "5763426fbedac8cc"
+generated_at: "2026-09-30T19:29:03.550450+00:00"
 manual_override: false
 internal_links: ["/services/garage-construction/", "/service-areas/foothill-farms-ca/", "/service-areas/foothill-farms-ca/home-remodeling/", "/service-areas/foothill-farms-ca/bathroom-remodeling/", "/service-areas/antelope-ca/garage-construction/", "/service-areas/arden-arcade-ca/garage-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Foothill Farms", "url": "/service-areas/foothill-farms-ca/"}, {"name": "Garage Construction"}]

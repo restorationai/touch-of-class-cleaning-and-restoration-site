@@ -7,10 +7,10 @@ primary_keyword: "construction services foothill farms"
 secondary_keywords: ["foothill farms construction company", "general contractor foothill farms", "foothill farms remodeling contractor"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "cb149d036fc0d723"
-generated_at: "2026-09-20T17:30:08.758778+00:00"
+plan_hash: "31201eb18f0498a8"
+generated_at: "2026-09-30T19:29:03.485772+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/foothill-farms-ca/home-remodeling/", "/service-areas/foothill-farms-ca/bathroom-remodeling/", "/service-areas/foothill-farms-ca/kitchen-remodeling/", "/service-areas/foothill-farms-ca/new-construction/", "/service-areas/foothill-farms-ca/general-contracting/", "/service-areas/foothill-farms-ca/room-addition/", "/service-areas/foothill-farms-ca/commercial-construction/", "/service-areas/foothill-farms-ca/fire-smoke-rebuilding/", "/service-areas/foothill-farms-ca/mold-remediation/", "/service-areas/foothill-farms-ca/storm-damage-restoration/", "/service-areas/foothill-farms-ca/water-damage-restoration/", "/service-areas/foothill-farms-ca/garage-construction/", "/service-areas/antelope-ca/", "/service-areas/arden-arcade-ca/", "/service-areas/carmichael-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/foothill-farms-ca/home-remodeling/", "/service-areas/foothill-farms-ca/bathroom-remodeling/", "/service-areas/foothill-farms-ca/kitchen-remodeling/", "/service-areas/foothill-farms-ca/new-construction/", "/service-areas/foothill-farms-ca/general-contracting/", "/service-areas/foothill-farms-ca/room-addition/", "/service-areas/foothill-farms-ca/commercial-construction/", "/service-areas/foothill-farms-ca/fire-smoke-rebuilding/", "/service-areas/foothill-farms-ca/mold-remediation/", "/service-areas/foothill-farms-ca/storm-damage-restoration/", "/service-areas/foothill-farms-ca/water-damage-restoration/", "/service-areas/foothill-farms-ca/garage-construction/", "/service-areas/foothill-farms-ca/basement-sewage-cleanup/", "/service-areas/foothill-farms-ca/carpet-upholstery-cleaning/", "/service-areas/foothill-farms-ca/carpet-water-extraction/", "/service-areas/foothill-farms-ca/post-construction-specialty-cleaning/", "/service-areas/antelope-ca/", "/service-areas/arden-arcade-ca/", "/service-areas/carmichael-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Foothill Farms"}]
 faq: []
 area_slug: "foothill-farms-ca"

@@ -7,10 +7,10 @@ primary_keyword: "construction services davis"
 secondary_keywords: ["davis construction company", "general contractor davis", "davis remodeling contractor"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "e1e75118b9fd8e87"
-generated_at: "2026-09-21T19:19:28.695320+00:00"
+plan_hash: "0f0645ecb750ad52"
+generated_at: "2026-09-30T19:29:03.487532+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/davis-ca/home-remodeling/", "/service-areas/davis-ca/bathroom-remodeling/", "/service-areas/davis-ca/kitchen-remodeling/", "/service-areas/davis-ca/new-construction/", "/service-areas/davis-ca/general-contracting/", "/service-areas/davis-ca/room-addition/", "/service-areas/davis-ca/commercial-construction/", "/service-areas/davis-ca/fire-smoke-rebuilding/", "/service-areas/davis-ca/mold-remediation/", "/service-areas/davis-ca/storm-damage-restoration/", "/service-areas/davis-ca/water-damage-restoration/", "/service-areas/davis-ca/garage-construction/", "/service-areas/antelope-ca/", "/service-areas/arden-arcade-ca/", "/service-areas/carmichael-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/davis-ca/home-remodeling/", "/service-areas/davis-ca/bathroom-remodeling/", "/service-areas/davis-ca/kitchen-remodeling/", "/service-areas/davis-ca/new-construction/", "/service-areas/davis-ca/general-contracting/", "/service-areas/davis-ca/room-addition/", "/service-areas/davis-ca/commercial-construction/", "/service-areas/davis-ca/fire-smoke-rebuilding/", "/service-areas/davis-ca/mold-remediation/", "/service-areas/davis-ca/storm-damage-restoration/", "/service-areas/davis-ca/water-damage-restoration/", "/service-areas/davis-ca/garage-construction/", "/service-areas/davis-ca/basement-sewage-cleanup/", "/service-areas/davis-ca/carpet-upholstery-cleaning/", "/service-areas/davis-ca/carpet-water-extraction/", "/service-areas/davis-ca/post-construction-specialty-cleaning/", "/service-areas/antelope-ca/", "/service-areas/arden-arcade-ca/", "/service-areas/carmichael-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Davis"}]
 faq: []
 area_slug: "davis-ca"
