@@ -2573,5 +2573,9 @@
       "note": "client-correction override (Michael 2026-08-31): real branded van; below auto hero gate on GBP resolution only"
     }
   },
+<<<<<<< Updated upstream
   "triaged_at": "2026-09-30T22:10:50Z"
+=======
+  "triaged_at": "2026-09-30T22:44:44Z"
+>>>>>>> Stashed changes
 }

@@ -760,7 +760,23 @@
       "height": 2560,
       "bytes": 527937,
       "sha1": "f1120a16b6570c53",
-      "exif": {}
+      "exif": {},
+      "category": "equipment",
+      "subject": "Air movers and dehumidifier set up in residential room",
+      "quality": 70,
+      "slots": {
+        "hero": 40,
+        "team": 0,
+        "services": 80
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "emergency-water-removal"
+      ],
+      "flags": [],
+      "reason": "Clear equipment-in-use shot, good for services slot, no people or text.",
+      "triaged_at": "2026-09-30T22:43:47Z",
+      "triage_model": "claude-sonnet-5"
     },
     "gbp:gbp-AF1QipMQUlHxvzV4vjluq5KzED2rBB4pEgxDEOHB49Mm": {
       "source": "gbp",
@@ -7292,5 +7308,9 @@
     }
   },
   "slots": {},
+<<<<<<< Updated upstream
   "triaged_at": "2026-09-30T22:09:49Z"
+=======
+  "triaged_at": "2026-09-30T22:43:47Z"
+>>>>>>> Stashed changes
 }
