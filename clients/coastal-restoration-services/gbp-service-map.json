@@ -130,9 +130,9 @@
     },
     "Crawl Space Mold Removal": {
       "verdict": "mapped",
-      "page": "crawl-space-encapsulation",
-      "source": "claude",
-      "reason": "Location-specific match to crawl space page",
+      "page": "mold-remediation",
+      "source": "alias",
+      "reason": "house alias (review fix 09-30, was crawl-space-encapsulation)",
       "at": "2026-09-30"
     },
     "Crawl Space Water Removal": {

@@ -144,9 +144,9 @@
     },
     "Carpet Water Damage": {
       "verdict": "mapped",
-      "page": "carpet-cleaning",
-      "source": "claude",
-      "reason": "Carpet cleaning variant",
+      "page": "water-damage-restoration",
+      "source": "alias",
+      "reason": "house alias (review fix 09-30, was carpet-cleaning)",
       "at": "2026-09-30"
     },
     "Carpet Water Extraction": {
@@ -833,9 +833,9 @@
     },
     "Wet Carpet Drying": {
       "verdict": "mapped",
-      "page": "carpet-cleaning",
-      "source": "claude",
-      "reason": "Carpet cleaning task",
+      "page": "water-damage-restoration",
+      "source": "alias",
+      "reason": "house alias (review fix 09-30, was carpet-cleaning)",
       "at": "2026-09-30"
     },
     "Wet Drywall Repair": {

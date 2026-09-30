@@ -200,10 +200,16 @@ PLACEHOLDER_MARK = "Page body not yet generated"
 # House mappings for common GBP phrasings (Santino's examples, 2026-09-30):
 # checked before any fuzzy/Claude step. First candidate page present wins.
 GBP_ALIASES: list[tuple[str, list[str]]] = [
-    (r"\b(emergency )?water (removal|extraction)\b|\bwater mitigation\b",
+    (r"^(24 7 )?(emergency )?water (removal|extraction)$|^water mitigation$",
      ["water-damage-restoration"]),
     (r"\bboard[- ]?ups?\b|\btarping\b",
      ["emergency-board-up-tarping", "emergency-board-up"]),
+    # review fixes 09-30: wet carpet is water damage, not carpet cleaning;
+    # mold removal anywhere (crawl space, attic, "mold and odor") is remediation
+    (r"\bwet carpet\b|\bcarpet water damage\b",
+     ["water-damage-restoration"]),
+    (r"\bmold (removal|remediation|cleanup|cleaning|mitigation)\b|\bmold and odor\b",
+     ["mold-remediation"]),
 ]
 
 

@@ -590,9 +590,9 @@
     },
     "Mold And Odor Removal": {
       "verdict": "mapped",
-      "page": "odor-removal",
-      "reason": "name containment",
-      "source": "containment",
+      "page": "mold-remediation",
+      "reason": "house alias (review fix 09-30, was odor-removal)",
+      "source": "alias",
       "at": "2026-09-30"
     },
     "Mold Cleaning": {

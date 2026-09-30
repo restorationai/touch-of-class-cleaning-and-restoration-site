@@ -167,23 +167,28 @@ def dedupe_internal_links(site: Path, apply: bool, only: set[Path] | None = None
 
 def append_redirects(site: Path, src: str, dst: str, cities: list[str],
                      dst_cities: set[str], apply: bool) -> int:
-    """Static rule for the service page; city children use ONE placeholder
-    rule (Cloudflare Pages: 2,000 static / 100 dynamic), with static
-    overrides first for any city that has no canonical child page."""
+    """STATIC per-URL rules only (Cloudflare Pages caps _redirects at 2,000
+    static and 100 dynamic rules and silently ignores the overflow, so no
+    :placeholder rules here). Each city child goes to its canonical twin,
+    or to the canonical service page when that city has no twin."""
     red = site / "public" / "_redirects"
     existing = red.read_text() if red.exists() else ""
     pairs = [(f"/services/{src}", f"/services/{dst}/")]
     for c in cities:
-        if c not in dst_cities:
-            pairs.append((f"/service-areas/{c}/{src}", f"/services/{dst}/"))
-    if cities:
-        pairs.append((f"/service-areas/:city/{src}", f"/service-areas/:city/{dst}/"))
+        pairs.append((f"/service-areas/{c}/{src}",
+                      f"/service-areas/{c}/{dst}/" if c in dst_cities else f"/services/{dst}/"))
     lines = []
     for a, b in pairs:
         for variant in (a, a + "/"):
             line = f"{variant} {b} 301"
             if line not in existing:
                 lines.append(line)
+    static_now = sum(1 for l in existing.splitlines()
+                     if l.strip() and not l.startswith("#") and ":" not in l.split(" ")[0]
+                     and "*" not in l.split(" ")[0])
+    if static_now + len(lines) > 1900:
+        raise RuntimeError(f"{site.name}: _redirects would hold {static_now + len(lines)} static "
+                           "rules (Cloudflare cap 2,000) -- merge refused; use a Pages Function")
     if lines and apply:
         block = (("" if existing.endswith("\n") or not existing else "\n")
                  + f"# {STAMP}: /services/{src}/ folded into /services/{dst}/ "
