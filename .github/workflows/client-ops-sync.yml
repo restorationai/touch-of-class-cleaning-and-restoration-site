@@ -266,18 +266,22 @@ jobs:
             timeout 240 python3 scripts/gbp_site_media.py run --slug "$s" --apply || echo "gbp_site_media $s failed (non-fatal)"
           done
           # GBP COVER FROM SITE HERO (2026-09-29, Santino: "the RX hero as
-          # the cover looks great, do it for every client"): per client (one
-          # process + timeout each, LAW 09-19), after the site-assets mirror
-          # above is fresh: smart-crop the site hero to exact 16:9
-          # (1920x1080, else 1280x720) and set it as the GBP COVER when there
-          # is no cover, the cover is ours, or the owner's cover is a graphic.
-          # Owner-uploaded real photos, app-picked covers and AI heroes with
-          # invented branding are reported, never replaced; unverified
-          # profiles wait for verification. A new hero sha1 re-applies;
-          # ledger ops_kv gbp-cover-sync/{cid}. Writes need repo variable
-          # GBP_COVER_SYNC_WRITE=1 (--apply alone never writes).
+          # the cover looks great, do it for every client"; 09-30 rework:
+          # "crop it to make sure the vans are fitting within the image"):
+          # per client (one process + timeout each, LAW 09-19), after the
+          # site-assets mirror above is fresh. Source = a registered cover-only
+          # variant, else the site hero (unless its AI lettering is garbled),
+          # else the best real branded photo; the 16:9 crop (1920x1080, else
+          # 1280x720) must contain every vehicle / logo / lettering box a
+          # vision pass detects (padded, never cut), and the final image must
+          # pass a vision QA (nothing cut, no garbled text, no wrong phone,
+          # right brand) or it is HELD. Every cover is replaced except Crew's;
+          # unverified / no-access profiles get a prepared cover that goes up
+          # at verification. A new hero sha1 re-applies; ledger ops_kv
+          # gbp-cover-sync/{cid}; change log actor cover-sync. Writes need
+          # repo variable GBP_COVER_SYNC_WRITE=1 (--apply alone never writes).
           for s in $(python3 scripts/gbp_cover_sync.py list-due | python3 -c "import json,sys; print(' '.join(json.load(sys.stdin)))"); do
-            ANTHROPIC_API_KEY="$GBP_COVER_ANTHROPIC_KEY" timeout 240 python3 scripts/gbp_cover_sync.py run --slug "$s" --apply || echo "gbp_cover_sync $s failed (non-fatal)"
+            ANTHROPIC_API_KEY="$GBP_COVER_ANTHROPIC_KEY" timeout 300 python3 scripts/gbp_cover_sync.py run --slug "$s" --apply || echo "gbp_cover_sync $s failed (non-fatal)"
           done
           # GBP PROFILE PLANNER TICK (2026-09-28): per applied plan, refresh
           # verification status (records verified_at, pushes queued photos on
