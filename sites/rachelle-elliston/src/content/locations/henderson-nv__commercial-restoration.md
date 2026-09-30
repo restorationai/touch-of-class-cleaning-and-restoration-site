@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "a83f38d9f932ab65"
-generated_at: "2026-09-28T20:50:26.580546+00:00"
+generated_at: "2026-09-30T18:41:56.083740+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/henderson-nv/", "/service-areas/henderson-nv/fire-damage-restoration/", "/service-areas/henderson-nv/mold-remediation/", "/service-areas/blue-diamond-nv/commercial-restoration/", "/service-areas/boulder-city-nv/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Henderson", "url": "/service-areas/henderson-nv/"}, {"name": "commercial-restoration"}]

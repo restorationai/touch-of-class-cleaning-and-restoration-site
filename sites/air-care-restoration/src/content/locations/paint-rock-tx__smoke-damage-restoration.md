@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "3519aa80a9aed91a"
-generated_at: "2026-09-30T14:12:01.779219+00:00"
+generated_at: "2026-09-30T18:41:08.987553+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/paint-rock-tx/", "/service-areas/paint-rock-tx/fire-damage-restoration/", "/service-areas/paint-rock-tx/mold-remediation/", "/service-areas/albany-tx/smoke-damage-restoration/", "/service-areas/anson-tx/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Paint Rock", "url": "/service-areas/paint-rock-tx/"}, {"name": "smoke-damage-restoration"}]

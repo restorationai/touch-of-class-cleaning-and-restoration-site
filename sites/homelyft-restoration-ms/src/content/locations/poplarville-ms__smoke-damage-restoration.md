@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "d679d9ace2c7715a"
-generated_at: "2026-09-30T14:12:12.945844+00:00"
+generated_at: "2026-09-30T18:41:37.714477+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/poplarville-ms/", "/service-areas/poplarville-ms/fire-damage-restoration/", "/service-areas/poplarville-ms/mold-remediation/", "/service-areas/agricola-ms/smoke-damage-restoration/", "/service-areas/bay-st-louis-ms/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Poplarville", "url": "/service-areas/poplarville-ms/"}, {"name": "smoke-damage-restoration"}]

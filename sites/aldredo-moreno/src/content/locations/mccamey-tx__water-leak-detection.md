@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "b9b5605145d58287"
-generated_at: "2026-09-30T14:12:02.658482+00:00"
+generated_at: "2026-09-30T18:41:10.064786+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/mccamey-tx/", "/service-areas/mccamey-tx/fire-damage-restoration/", "/service-areas/mccamey-tx/mold-remediation/", "/service-areas/andrews-tx/water-leak-detection/", "/service-areas/big-lake-tx/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McCamey", "url": "/service-areas/mccamey-tx/"}, {"name": "water-leak-detection"}]

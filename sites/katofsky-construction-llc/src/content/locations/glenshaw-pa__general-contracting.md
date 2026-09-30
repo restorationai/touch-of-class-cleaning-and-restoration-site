@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "0c4127b0d0b8359d"
-generated_at: "2026-09-30T14:12:19.444955+00:00"
+generated_at: "2026-09-30T18:41:44.209068+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/glenshaw-pa/", "/service-areas/glenshaw-pa/fire-damage-restoration/", "/service-areas/glenshaw-pa/roofing/", "/service-areas/allison-park-pa/general-contracting/", "/service-areas/baldwin-pa/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Glenshaw", "url": "/service-areas/glenshaw-pa/"}, {"name": "Renovations, Remodels and General Contracting"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "f0477853d8915f2e"
-generated_at: "2026-09-30T14:12:23.019998+00:00"
+generated_at: "2026-09-30T18:41:52.055691+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/east-niles-ca/", "/service-areas/east-niles-ca/fire-damage-restoration/", "/service-areas/east-niles-ca/home-remodeling/", "/service-areas/arvin-ca/ceiling-water-damage-repair/", "/service-areas/bear-valley-springs-ca/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "East Niles", "url": "/service-areas/east-niles-ca/"}, {"name": "ceiling-water-damage-repair"}]

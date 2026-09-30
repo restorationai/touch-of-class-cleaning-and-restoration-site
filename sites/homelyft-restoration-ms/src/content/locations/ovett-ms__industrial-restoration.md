@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "eed19975417e7350"
-generated_at: "2026-09-30T14:12:13.036209+00:00"
+generated_at: "2026-09-30T18:41:37.825528+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/ovett-ms/", "/service-areas/ovett-ms/fire-damage-restoration/", "/service-areas/ovett-ms/mold-remediation/", "/service-areas/agricola-ms/industrial-restoration/", "/service-areas/bay-st-louis-ms/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ovett", "url": "/service-areas/ovett-ms/"}, {"name": "industrial-restoration"}]

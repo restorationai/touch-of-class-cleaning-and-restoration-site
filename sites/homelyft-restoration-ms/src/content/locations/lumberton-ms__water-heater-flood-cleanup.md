@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "4a27aee677944f40"
-generated_at: "2026-09-30T14:12:12.942084+00:00"
+generated_at: "2026-09-30T18:41:37.710779+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/lumberton-ms/", "/service-areas/lumberton-ms/fire-damage-restoration/", "/service-areas/lumberton-ms/mold-remediation/", "/service-areas/agricola-ms/water-heater-flood-cleanup/", "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lumberton", "url": "/service-areas/lumberton-ms/"}, {"name": "water-heater-flood-cleanup"}]

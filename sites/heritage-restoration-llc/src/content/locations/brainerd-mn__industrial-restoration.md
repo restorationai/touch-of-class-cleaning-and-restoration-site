@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "7eac5cd725fdc5b5"
-generated_at: "2026-09-29T23:13:48.858968+00:00"
+generated_at: "2026-09-30T18:41:35.480422+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/brainerd-mn/", "/service-areas/brainerd-mn/fire-damage-restoration/", "/service-areas/brainerd-mn/mold-remediation/", "/service-areas/albany-mn/industrial-restoration/", "/service-areas/avon-mn/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Brainerd", "url": "/service-areas/brainerd-mn/"}, {"name": "Industrial Restoration"}]

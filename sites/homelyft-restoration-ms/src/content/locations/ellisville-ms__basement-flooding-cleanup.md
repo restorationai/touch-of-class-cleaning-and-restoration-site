@@ -8,7 +8,7 @@ secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet 
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "31cdc5f976de9ef4"
-generated_at: "2026-09-30T14:12:13.021716+00:00"
+generated_at: "2026-09-30T18:41:37.806978+00:00"
 manual_override: false
 internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/ellisville-ms/", "/service-areas/ellisville-ms/fire-damage-restoration/", "/service-areas/ellisville-ms/mold-remediation/", "/service-areas/agricola-ms/basement-flooding-cleanup/", "/service-areas/bay-st-louis-ms/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ellisville", "url": "/service-areas/ellisville-ms/"}, {"name": "basement-flooding-cleanup"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "0ae69019703488b9"
-generated_at: "2026-09-30T14:12:22.944001+00:00"
+generated_at: "2026-09-30T18:41:51.988329+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/oildale-ca/", "/service-areas/oildale-ca/fire-damage-restoration/", "/service-areas/oildale-ca/home-remodeling/", "/service-areas/arvin-ca/emergency-board-up-tarping/", "/service-areas/bear-valley-springs-ca/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oildale", "url": "/service-areas/oildale-ca/"}, {"name": "Emergency Board-Up and Tarping"}]

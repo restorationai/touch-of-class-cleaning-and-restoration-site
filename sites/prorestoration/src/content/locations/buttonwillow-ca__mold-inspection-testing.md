@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "0f3a9a7ac2a0b780"
-generated_at: "2026-09-30T14:12:23.047662+00:00"
+generated_at: "2026-09-30T18:41:52.080490+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/fire-damage-restoration/", "/service-areas/buttonwillow-ca/home-remodeling/", "/service-areas/arvin-ca/mold-inspection-testing/", "/service-areas/bear-valley-springs-ca/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "Mold Inspection and Testing"}]

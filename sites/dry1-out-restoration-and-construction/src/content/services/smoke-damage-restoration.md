@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 8.1
 plan_hash: "389998d388337e9a"
-generated_at: "2026-09-29T14:31:48.305679+00:00"
+generated_at: "2026-09-30T18:41:22.639389+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/smoke-damage-restoration/", "/service-areas/carlsbad-ca/smoke-damage-restoration/", "/service-areas/chula-vista-ca/smoke-damage-restoration/", "/service-areas/concord-ca/smoke-damage-restoration/", "/service-areas/el-cajon-ca/smoke-damage-restoration/", "/service-areas/encinitas-ca/smoke-damage-restoration/", "/service-areas/escondido-ca/smoke-damage-restoration/", "/service-areas/fremont-ca/smoke-damage-restoration/", "/service-areas/hayward-ca/smoke-damage-restoration/", "/service-areas/oakland-ca/smoke-damage-restoration/", "/service-areas/oceanside-ca/smoke-damage-restoration/", "/service-areas/san-diego-ca/smoke-damage-restoration/", "/blog/fire-damage-restoration-process/", "/blog/smoke-odor-removal-techniques/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "smoke-damage-restoration"}]

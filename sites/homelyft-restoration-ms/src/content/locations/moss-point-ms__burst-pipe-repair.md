@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "fff85e533e824e54"
-generated_at: "2026-09-30T14:12:12.984140+00:00"
+generated_at: "2026-09-30T18:41:37.760599+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/moss-point-ms/", "/service-areas/moss-point-ms/fire-damage-restoration/", "/service-areas/moss-point-ms/mold-remediation/", "/service-areas/agricola-ms/burst-pipe-repair/", "/service-areas/bay-st-louis-ms/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Moss Point", "url": "/service-areas/moss-point-ms/"}, {"name": "burst-pipe-repair"}]

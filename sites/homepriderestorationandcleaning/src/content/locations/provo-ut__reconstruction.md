@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "84df2056be0a48f7"
-generated_at: "2026-09-30T14:12:14.556512+00:00"
+generated_at: "2026-09-30T18:41:40.227094+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/provo-ut/", "/service-areas/provo-ut/fire-damage-restoration/", "/service-areas/provo-ut/mold-remediation/", "/service-areas/alpine-ut/reconstruction/", "/service-areas/american-fork-ut/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Provo", "url": "/service-areas/provo-ut/"}, {"name": "reconstruction"}]

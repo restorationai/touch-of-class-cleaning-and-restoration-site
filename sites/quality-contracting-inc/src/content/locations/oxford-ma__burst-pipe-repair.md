@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "ac648352b5da2902"
-generated_at: "2026-09-30T14:12:25.985397+00:00"
+generated_at: "2026-09-30T18:41:54.691346+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/oxford-ma/", "/service-areas/oxford-ma/fire-damage-restoration/", "/service-areas/oxford-ma/mold-remediation/", "/service-areas/bellingham-ma/burst-pipe-repair/", "/service-areas/east-douglas-ma/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oxford", "url": "/service-areas/oxford-ma/"}, {"name": "burst-pipe-repair"}]

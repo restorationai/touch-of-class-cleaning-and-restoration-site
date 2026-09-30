@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "0244a03e1890bd1a"
-generated_at: "2026-09-30T14:12:12.823001+00:00"
+generated_at: "2026-09-30T18:41:37.561423+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/eastabuchie-ms/", "/service-areas/eastabuchie-ms/fire-damage-restoration/", "/service-areas/eastabuchie-ms/mold-remediation/", "/service-areas/agricola-ms/water-leak-detection/", "/service-areas/bay-st-louis-ms/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Eastabuchie", "url": "/service-areas/eastabuchie-ms/"}, {"name": "Water Leak Detection"}]

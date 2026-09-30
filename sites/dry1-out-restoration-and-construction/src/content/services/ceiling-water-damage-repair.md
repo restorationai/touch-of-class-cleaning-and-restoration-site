@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 7.2
 plan_hash: "ae05a1bc9d6c5446"
-generated_at: "2026-09-29T14:31:48.307337+00:00"
+generated_at: "2026-09-30T18:41:22.640892+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/ceiling-water-damage-repair/", "/service-areas/carlsbad-ca/ceiling-water-damage-repair/", "/service-areas/chula-vista-ca/ceiling-water-damage-repair/", "/service-areas/concord-ca/ceiling-water-damage-repair/", "/service-areas/el-cajon-ca/ceiling-water-damage-repair/", "/service-areas/encinitas-ca/ceiling-water-damage-repair/", "/service-areas/escondido-ca/ceiling-water-damage-repair/", "/service-areas/fremont-ca/ceiling-water-damage-repair/", "/service-areas/hayward-ca/ceiling-water-damage-repair/", "/service-areas/oakland-ca/ceiling-water-damage-repair/", "/service-areas/oceanside-ca/ceiling-water-damage-repair/", "/service-areas/san-diego-ca/ceiling-water-damage-repair/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "ceiling-water-damage-repair"}]

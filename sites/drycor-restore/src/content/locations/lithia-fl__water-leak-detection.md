@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "b8ebaa8ba36b5162"
-generated_at: "2026-09-29T23:28:29.590150+00:00"
+generated_at: "2026-09-30T18:41:26.388345+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/lithia-fl/", "/service-areas/lithia-fl/fire-damage-restoration/", "/service-areas/lithia-fl/mold-remediation/", "/service-areas/anna-maria-fl/water-leak-detection/", "/service-areas/apollo-beach-fl/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lithia", "url": "/service-areas/lithia-fl/"}, {"name": "Water Leak Detection"}]

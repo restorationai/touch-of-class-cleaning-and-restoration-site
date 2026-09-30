@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "b19f2c65659702ab"
-generated_at: "2026-09-29T23:28:29.584533+00:00"
+generated_at: "2026-09-30T18:41:26.382197+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/lakewood-ranch-fl/", "/service-areas/lakewood-ranch-fl/fire-damage-restoration/", "/service-areas/lakewood-ranch-fl/mold-remediation/", "/service-areas/anna-maria-fl/mold-inspection-testing/", "/service-areas/apollo-beach-fl/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lakewood Ranch", "url": "/service-areas/lakewood-ranch-fl/"}, {"name": "Mold Inspection and Testing"}]

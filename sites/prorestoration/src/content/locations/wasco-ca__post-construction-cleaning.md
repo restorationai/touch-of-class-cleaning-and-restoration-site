@@ -8,7 +8,7 @@ secondary_keywords: ["post construction cleanup", "construction debris cleaning"
 search_intent: "local_service"
 priority: 2.8
 plan_hash: "28de3788dcd4ef9f"
-generated_at: "2026-09-30T14:12:22.972068+00:00"
+generated_at: "2026-09-30T18:41:52.013329+00:00"
 manual_override: false
 internal_links: ["/services/post-construction-cleaning/", "/service-areas/wasco-ca/", "/service-areas/wasco-ca/fire-damage-restoration/", "/service-areas/wasco-ca/home-remodeling/", "/service-areas/arvin-ca/post-construction-cleaning/", "/service-areas/bear-valley-springs-ca/post-construction-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wasco", "url": "/service-areas/wasco-ca/"}, {"name": "Post-Construction and Specialty Cleaning"}]

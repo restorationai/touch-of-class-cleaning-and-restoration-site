@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "f80c7ba8566bf3a0"
-generated_at: "2026-09-29T23:13:49.301059+00:00"
+generated_at: "2026-09-30T18:41:33.311300+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/lake-royale-nc/", "/service-areas/lake-royale-nc/fire-damage-restoration/", "/service-areas/lake-royale-nc/mold-remediation/", "/service-areas/archer-lodge-nc/water-heater-flood-cleanup/", "/service-areas/clayton-nc/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Royale", "url": "/service-areas/lake-royale-nc/"}, {"name": "Water Heater Flood Cleanup"}]

@@ -1,7 +1,35 @@
 {
   "slug": "go-green-restoration-of-nc",
   "policy": "scripts/site_structure.py (Santino 2026-09-30)",
-  "gbp_services": {},
+  "gbp_services": {
+    "Air Duct & HVAC Cleaning": {
+      "verdict": "mapped",
+      "page": "air-duct-cleaning",
+      "reason": "air-duct-hvac-cleaning was merged into air-duct-cleaning",
+      "source": "merged",
+      "at": "2026-09-30"
+    },
+    "Biohazard & Trauma Cleanup": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
+      "at": "2026-09-30"
+    },
+    "Carpet & Upholstery Cleaning": {
+      "verdict": "mapped",
+      "page": "carpet-cleaning",
+      "reason": "carpet-upholstery-cleaning was merged into carpet-cleaning",
+      "source": "merged",
+      "at": "2026-09-30"
+    },
+    "Odor Control & Deodorization": {
+      "verdict": "mapped",
+      "page": "odor-removal",
+      "reason": "same-service cluster as odor-removal",
+      "source": "cluster",
+      "at": "2026-09-30"
+    }
+  },
   "merged": {
     "air-duct-hvac-cleaning": {
       "into": "air-duct-cleaning",

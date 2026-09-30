@@ -8,7 +8,7 @@ secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet 
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "3d1c76b7d53e1032"
-generated_at: "2026-09-29T23:13:48.892372+00:00"
+generated_at: "2026-09-30T18:41:35.537619+00:00"
 manual_override: false
 internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/swanville-mn/", "/service-areas/swanville-mn/fire-damage-restoration/", "/service-areas/swanville-mn/mold-remediation/", "/service-areas/albany-mn/basement-flooding-cleanup/", "/service-areas/avon-mn/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Swanville", "url": "/service-areas/swanville-mn/"}, {"name": "Basement Flooding Cleanup"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "45cdd809ffb38343"
-generated_at: "2026-09-29T23:13:49.333615+00:00"
+generated_at: "2026-09-30T18:41:33.376724+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/elm-city-nc/", "/service-areas/elm-city-nc/fire-damage-restoration/", "/service-areas/elm-city-nc/mold-remediation/", "/service-areas/archer-lodge-nc/ceiling-water-damage-repair/", "/service-areas/clayton-nc/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elm City", "url": "/service-areas/elm-city-nc/"}, {"name": "Ceiling Water Damage Repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "9d99611ca8fb1096"
-generated_at: "2026-09-30T14:12:19.450857+00:00"
+generated_at: "2026-09-30T18:41:44.214524+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/wilkinsburg-pa/", "/service-areas/wilkinsburg-pa/fire-damage-restoration/", "/service-areas/wilkinsburg-pa/roofing/", "/service-areas/allison-park-pa/asbestos-abatement/", "/service-areas/baldwin-pa/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wilkinsburg", "url": "/service-areas/wilkinsburg-pa/"}, {"name": "Asbestos Abatement"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "7904fb9168a78731"
-generated_at: "2026-09-30T14:12:22.936401+00:00"
+generated_at: "2026-09-30T18:41:51.981513+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/arvin-ca/industrial-restoration/", "/service-areas/bear-valley-springs-ca/industrial-restoration/", "/service-areas/buttonwillow-ca/industrial-restoration/", "/service-areas/delano-ca/industrial-restoration/", "/service-areas/dustin-acres-ca/industrial-restoration/", "/service-areas/east-niles-ca/industrial-restoration/", "/service-areas/keene-ca/industrial-restoration/", "/service-areas/lake-isabella-ca/industrial-restoration/", "/service-areas/lamont-ca/industrial-restoration/", "/service-areas/maricopa-ca/industrial-restoration/", "/service-areas/mcfarland-ca/industrial-restoration/", "/service-areas/oildale-ca/industrial-restoration/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "industrial-restoration"}]

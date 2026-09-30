@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "47d67c009061e8b0"
-generated_at: "2026-09-28T20:50:26.591318+00:00"
+generated_at: "2026-09-30T18:41:56.104255+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/enterprise-nv/", "/service-areas/enterprise-nv/fire-damage-restoration/", "/service-areas/enterprise-nv/mold-remediation/", "/service-areas/blue-diamond-nv/ceiling-water-damage-repair/", "/service-areas/boulder-city-nv/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Enterprise", "url": "/service-areas/enterprise-nv/"}, {"name": "ceiling-water-damage-repair"}]

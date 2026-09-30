@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "ebf08bc2664ee7ee"
-generated_at: "2026-09-29T14:31:48.339787+00:00"
+generated_at: "2026-09-30T18:41:22.676979+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/oakland-ca/", "/service-areas/oakland-ca/fire-damage-restoration/", "/service-areas/oakland-ca/mold-remediation/", "/service-areas/berkeley-ca/mold-inspection-testing/", "/service-areas/carlsbad-ca/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oakland", "url": "/service-areas/oakland-ca/"}, {"name": "Mold Inspection and Testing"}]

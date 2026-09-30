@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "2a5a0a42e127fe15"
-generated_at: "2026-09-30T14:12:12.976141+00:00"
+generated_at: "2026-09-30T18:41:37.752138+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/helena-ms/", "/service-areas/helena-ms/fire-damage-restoration/", "/service-areas/helena-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-plumbing/", "/service-areas/bay-st-louis-ms/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Helena", "url": "/service-areas/helena-ms/"}, {"name": "emergency-plumbing"}]

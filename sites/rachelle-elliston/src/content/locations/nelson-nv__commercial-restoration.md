@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "539894f758ffa957"
-generated_at: "2026-09-28T20:50:26.613481+00:00"
+generated_at: "2026-09-30T18:41:56.161591+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/nelson-nv/", "/service-areas/nelson-nv/fire-damage-restoration/", "/service-areas/nelson-nv/mold-remediation/", "/service-areas/blue-diamond-nv/commercial-restoration/", "/service-areas/boulder-city-nv/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Nelson", "url": "/service-areas/nelson-nv/"}, {"name": "commercial-restoration"}]

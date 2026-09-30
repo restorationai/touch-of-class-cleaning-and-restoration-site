@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "ce831a7ca9e2b2ce"
-generated_at: "2026-09-29T14:31:48.431790+00:00"
+generated_at: "2026-09-30T18:41:22.778976+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/el-cajon-ca/", "/service-areas/el-cajon-ca/fire-damage-restoration/", "/service-areas/el-cajon-ca/mold-remediation/", "/service-areas/berkeley-ca/ceiling-water-damage-repair/", "/service-areas/carlsbad-ca/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "El Cajon", "url": "/service-areas/el-cajon-ca/"}, {"name": "ceiling-water-damage-repair"}]

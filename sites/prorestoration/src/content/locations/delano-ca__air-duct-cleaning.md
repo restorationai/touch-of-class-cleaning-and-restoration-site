@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "4a9a190b920c23f6"
-generated_at: "2026-09-30T14:12:22.955593+00:00"
+generated_at: "2026-09-30T18:41:51.998408+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/delano-ca/", "/service-areas/delano-ca/fire-damage-restoration/", "/service-areas/delano-ca/home-remodeling/", "/service-areas/arvin-ca/air-duct-cleaning/", "/service-areas/bear-valley-springs-ca/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Delano", "url": "/service-areas/delano-ca/"}, {"name": "Air Duct Cleaning"}]

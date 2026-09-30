@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "01d43af0c6f11da8"
-generated_at: "2026-09-28T20:50:26.619401+00:00"
+generated_at: "2026-09-30T18:41:56.177194+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/moapa-town-nv/", "/service-areas/moapa-town-nv/fire-damage-restoration/", "/service-areas/moapa-town-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-heater-flood-cleanup/", "/service-areas/boulder-city-nv/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Moapa Town", "url": "/service-areas/moapa-town-nv/"}, {"name": "water-heater-flood-cleanup"}]

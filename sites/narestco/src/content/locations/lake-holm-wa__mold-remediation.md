@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "36e1aad9c5327c3f"
-generated_at: "2026-09-30T14:12:21.587431+00:00"
+generated_at: "2026-09-30T18:41:50.554762+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/lake-holm-wa/", "/service-areas/lake-holm-wa/fire-damage-restoration/", "/service-areas/lake-holm-wa/roofing/", "/service-areas/algona-wa/mold-remediation/", "/service-areas/auburn-wa/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Holm", "url": "/service-areas/lake-holm-wa/"}, {"name": "Mold Remediation"}]

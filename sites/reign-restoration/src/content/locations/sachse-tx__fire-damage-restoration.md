@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "51a26b055395c007"
-generated_at: "2026-09-23T14:12:04.487708+00:00"
+generated_at: "2026-09-30T18:41:58.713256+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/sachse-tx/", "/service-areas/sachse-tx/mold-remediation/", "/service-areas/sachse-tx/roofing/", "/service-areas/allen-tx/fire-damage-restoration/", "/service-areas/caddo-mills-tx/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sachse", "url": "/service-areas/sachse-tx/"}, {"name": "Fire Damage Restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "c4b656601820cc65"
-generated_at: "2026-09-30T14:12:25.978264+00:00"
+generated_at: "2026-09-30T18:41:54.683760+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/weston-ma/", "/service-areas/weston-ma/fire-damage-restoration/", "/service-areas/weston-ma/mold-remediation/", "/service-areas/bellingham-ma/smoke-damage-restoration/", "/service-areas/east-douglas-ma/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Weston", "url": "/service-areas/weston-ma/"}, {"name": "smoke-damage-restoration"}]

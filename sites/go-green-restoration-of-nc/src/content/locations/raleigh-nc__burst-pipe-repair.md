@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "ccd5b6dd4d5a0beb"
-generated_at: "2026-09-29T23:13:49.268347+00:00"
+generated_at: "2026-09-30T18:41:33.244723+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/raleigh-nc/", "/service-areas/raleigh-nc/fire-damage-restoration/", "/service-areas/raleigh-nc/mold-remediation/", "/service-areas/archer-lodge-nc/burst-pipe-repair/", "/service-areas/clayton-nc/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Raleigh", "url": "/service-areas/raleigh-nc/"}, {"name": "Burst Pipe Cleanup and Repair"}]

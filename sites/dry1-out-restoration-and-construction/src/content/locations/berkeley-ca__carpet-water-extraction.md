@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "68c36390d3cbce74"
-generated_at: "2026-09-29T23:31:28.394188+00:00"
+generated_at: "2026-09-30T18:41:22.789555+00:00"
 manual_override: false
 internal_links: ["/services/carpet-water-extraction/", "/service-areas/berkeley-ca/", "/service-areas/berkeley-ca/fire-damage-restoration/", "/service-areas/berkeley-ca/mold-remediation/", "/service-areas/carlsbad-ca/carpet-water-extraction/", "/service-areas/chula-vista-ca/carpet-water-extraction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Berkeley", "url": "/service-areas/berkeley-ca/"}, {"name": "Carpet Water Extraction"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "27ca13e53b96d747"
-generated_at: "2026-09-30T14:12:14.557589+00:00"
+generated_at: "2026-09-30T18:41:40.228764+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/herriman-ut/", "/service-areas/herriman-ut/fire-damage-restoration/", "/service-areas/herriman-ut/mold-remediation/", "/service-areas/alpine-ut/biohazard-cleanup/", "/service-areas/american-fork-ut/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Herriman", "url": "/service-areas/herriman-ut/"}, {"name": "Biohazard Cleanup"}]

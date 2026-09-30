@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "fe666867c161c42b"
-generated_at: "2026-09-29T23:13:48.905382+00:00"
+generated_at: "2026-09-30T18:41:35.551519+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/rice-mn/", "/service-areas/rice-mn/fire-damage-restoration/", "/service-areas/rice-mn/mold-remediation/", "/service-areas/albany-mn/industrial-restoration/", "/service-areas/avon-mn/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rice", "url": "/service-areas/rice-mn/"}, {"name": "Industrial Restoration"}]

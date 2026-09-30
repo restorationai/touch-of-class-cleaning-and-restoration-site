@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "0bb11cf5e59eaf7d"
-generated_at: "2026-09-30T14:12:23.109502+00:00"
+generated_at: "2026-09-30T18:41:52.135532+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/keene-ca/", "/service-areas/keene-ca/home-remodeling/", "/service-areas/keene-ca/mold-remediation/", "/service-areas/arvin-ca/fire-damage-restoration/", "/service-areas/bear-valley-springs-ca/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Keene", "url": "/service-areas/keene-ca/"}, {"name": "Fire Damage Restoration"}]

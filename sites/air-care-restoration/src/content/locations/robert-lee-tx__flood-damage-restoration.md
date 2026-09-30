@@ -8,7 +8,7 @@ secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restorati
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "2de73d856b4337ec"
-generated_at: "2026-09-30T14:12:01.769996+00:00"
+generated_at: "2026-09-30T18:41:08.971892+00:00"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/service-areas/robert-lee-tx/", "/service-areas/robert-lee-tx/fire-damage-restoration/", "/service-areas/robert-lee-tx/mold-remediation/", "/service-areas/albany-tx/flood-damage-restoration/", "/service-areas/anson-tx/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Robert Lee", "url": "/service-areas/robert-lee-tx/"}, {"name": "flood-damage-restoration"}]

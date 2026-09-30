@@ -8,7 +8,7 @@ secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "2126895e4a20bf22"
-generated_at: "2026-09-29T14:31:48.405527+00:00"
+generated_at: "2026-09-30T18:41:22.748738+00:00"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/service-areas/hayward-ca/", "/service-areas/hayward-ca/fire-damage-restoration/", "/service-areas/hayward-ca/mold-remediation/", "/service-areas/berkeley-ca/storm-damage-restoration/", "/service-areas/carlsbad-ca/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hayward", "url": "/service-areas/hayward-ca/"}, {"name": "Storm Damage Restoration"}]

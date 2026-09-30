@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "388307ed807c0006"
-generated_at: "2026-09-30T14:12:07.136682+00:00"
+generated_at: "2026-09-30T18:41:19.841916+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/mineral-ridge-oh/", "/service-areas/mineral-ridge-oh/fire-damage-restoration/", "/service-areas/mineral-ridge-oh/mold-remediation/", "/service-areas/austintown-oh/reconstruction/", "/service-areas/boardman-oh/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mineral Ridge", "url": "/service-areas/mineral-ridge-oh/"}, {"name": "reconstruction"}]

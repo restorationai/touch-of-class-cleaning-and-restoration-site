@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "056f4ddc41a226b8"
-generated_at: "2026-09-29T14:31:48.425449+00:00"
+generated_at: "2026-09-30T18:41:22.770510+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/santa-clara-ca/", "/service-areas/santa-clara-ca/fire-damage-restoration/", "/service-areas/santa-clara-ca/mold-remediation/", "/service-areas/berkeley-ca/emergency-plumbing/", "/service-areas/carlsbad-ca/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Santa Clara", "url": "/service-areas/santa-clara-ca/"}, {"name": "emergency-plumbing"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "d88af36ec71b8181"
-generated_at: "2026-09-30T14:12:23.032865+00:00"
+generated_at: "2026-09-30T18:41:52.065864+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/weedpatch-ca/", "/service-areas/weedpatch-ca/fire-damage-restoration/", "/service-areas/weedpatch-ca/home-remodeling/", "/service-areas/arvin-ca/air-duct-cleaning/", "/service-areas/bear-valley-springs-ca/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Weedpatch", "url": "/service-areas/weedpatch-ca/"}, {"name": "Air Duct Cleaning"}]

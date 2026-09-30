@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "b444fc3353643353"
-generated_at: "2026-09-30T14:12:01.794558+00:00"
+generated_at: "2026-09-30T18:41:09.013102+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/haskell-tx/", "/service-areas/haskell-tx/fire-damage-restoration/", "/service-areas/haskell-tx/mold-remediation/", "/service-areas/albany-tx/reconstruction/", "/service-areas/anson-tx/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Haskell", "url": "/service-areas/haskell-tx/"}, {"name": "reconstruction"}]

@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "c879d13800bf5655"
-generated_at: "2026-09-29T23:13:48.906883+00:00"
+generated_at: "2026-09-30T18:41:35.553644+00:00"
 manual_override: false
 internal_links: ["/services/remodeler/", "/service-areas/rice-mn/", "/service-areas/rice-mn/fire-damage-restoration/", "/service-areas/rice-mn/mold-remediation/", "/service-areas/albany-mn/remodeler/", "/service-areas/avon-mn/remodeler/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rice", "url": "/service-areas/rice-mn/"}, {"name": "Remodeler"}]

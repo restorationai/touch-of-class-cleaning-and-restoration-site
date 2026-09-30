@@ -8,7 +8,7 @@ secondary_keywords: ["hoarder cleanup", "hoarding cleaning services", "hoarding 
 search_intent: "local_sensitive"
 priority: 4.2
 plan_hash: "cb2692e6b56c3546"
-generated_at: "2026-09-30T14:12:14.674910+00:00"
+generated_at: "2026-09-30T18:41:40.359331+00:00"
 manual_override: false
 internal_links: ["/services/hoarding-cleanup/", "/service-areas/benjamin-ut/", "/service-areas/benjamin-ut/fire-damage-restoration/", "/service-areas/benjamin-ut/mold-remediation/", "/service-areas/alpine-ut/hoarding-cleanup/", "/service-areas/american-fork-ut/hoarding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Benjamin", "url": "/service-areas/benjamin-ut/"}, {"name": "Hoarding Cleanup"}]

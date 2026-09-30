@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "ac75afe8c758c968"
-generated_at: "2026-09-30T14:12:21.382346+00:00"
+generated_at: "2026-09-30T18:41:50.385337+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/renton-wa/", "/service-areas/renton-wa/fire-damage-restoration/", "/service-areas/renton-wa/mold-remediation/", "/service-areas/algona-wa/industrial-restoration/", "/service-areas/auburn-wa/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Renton", "url": "/service-areas/renton-wa/"}, {"name": "Industrial Restoration"}]

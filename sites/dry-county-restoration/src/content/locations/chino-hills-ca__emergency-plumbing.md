@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "c7974cfd7c4d0ab2"
-generated_at: "2026-09-30T14:12:09.665516+00:00"
+generated_at: "2026-09-30T18:41:21.529856+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/chino-hills-ca/", "/service-areas/chino-hills-ca/fire-damage-restoration/", "/service-areas/chino-hills-ca/mold-remediation/", "/service-areas/anaheim-ca/emergency-plumbing/", "/service-areas/chino-ca/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Chino Hills", "url": "/service-areas/chino-hills-ca/"}, {"name": "Emergency Plumbing"}]

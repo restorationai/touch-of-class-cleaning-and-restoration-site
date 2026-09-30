@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "b029700957a78571"
-generated_at: "2026-09-30T14:12:14.653618+00:00"
+generated_at: "2026-09-30T18:41:40.336128+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/alpine-ut/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/emergency-plumbing/", "/service-areas/benjamin-ut/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Alpine", "url": "/service-areas/alpine-ut/"}, {"name": "emergency-plumbing"}]

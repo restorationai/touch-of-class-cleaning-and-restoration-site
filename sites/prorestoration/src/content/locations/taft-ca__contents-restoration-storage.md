@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "20a8f6ce5c259252"
-generated_at: "2026-09-30T14:12:22.977537+00:00"
+generated_at: "2026-09-30T18:41:52.017343+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration-storage/", "/service-areas/taft-ca/", "/service-areas/taft-ca/fire-damage-restoration/", "/service-areas/taft-ca/home-remodeling/", "/service-areas/arvin-ca/contents-restoration-storage/", "/service-areas/bear-valley-springs-ca/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Taft", "url": "/service-areas/taft-ca/"}, {"name": "Contents Restoration & Storage"}]

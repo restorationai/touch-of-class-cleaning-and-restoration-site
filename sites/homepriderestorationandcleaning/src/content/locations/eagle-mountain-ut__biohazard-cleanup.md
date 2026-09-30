@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "6a5d8599a0649759"
-generated_at: "2026-09-30T14:12:14.534050+00:00"
+generated_at: "2026-09-30T18:41:40.200424+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/eagle-mountain-ut/", "/service-areas/eagle-mountain-ut/fire-damage-restoration/", "/service-areas/eagle-mountain-ut/mold-remediation/", "/service-areas/alpine-ut/biohazard-cleanup/", "/service-areas/american-fork-ut/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Eagle Mountain", "url": "/service-areas/eagle-mountain-ut/"}, {"name": "Biohazard Cleanup"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "0fadf1294d5d0425"
-generated_at: "2026-09-30T14:12:22.973477+00:00"
+generated_at: "2026-09-30T18:41:52.014344+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/wasco-ca/", "/service-areas/wasco-ca/fire-damage-restoration/", "/service-areas/wasco-ca/home-remodeling/", "/service-areas/arvin-ca/water-leak-detection/", "/service-areas/bear-valley-springs-ca/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wasco", "url": "/service-areas/wasco-ca/"}, {"name": "Water Leak Detection"}]

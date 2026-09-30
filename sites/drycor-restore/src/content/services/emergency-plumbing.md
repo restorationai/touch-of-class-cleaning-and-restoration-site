@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 8.1
 plan_hash: "2daedc861bc7b45d"
-generated_at: "2026-09-23T14:11:38.244160+00:00"
+generated_at: "2026-09-30T18:41:26.143079+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/anna-maria-fl/emergency-plumbing/", "/service-areas/apollo-beach-fl/emergency-plumbing/", "/service-areas/auburndale-fl/emergency-plumbing/", "/service-areas/bartow-fl/emergency-plumbing/", "/service-areas/bradenton-fl/emergency-plumbing/", "/service-areas/brandon-fl/emergency-plumbing/", "/service-areas/clearwater-beach-fl/emergency-plumbing/", "/service-areas/clearwater-fl/emergency-plumbing/", "/service-areas/crystal-springs-fl/emergency-plumbing/", "/service-areas/dade-city-fl/emergency-plumbing/", "/service-areas/davenport-fl/emergency-plumbing/", "/service-areas/dover-fl/emergency-plumbing/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Emergency Plumbing"}]

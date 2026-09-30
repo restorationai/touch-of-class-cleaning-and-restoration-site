@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "490567e6647f7397"
-generated_at: "2026-09-30T14:12:09.693027+00:00"
+generated_at: "2026-09-30T18:41:21.554692+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/jurupa-valley-ca/", "/service-areas/jurupa-valley-ca/mold-remediation/", "/service-areas/jurupa-valley-ca/roofing/", "/service-areas/anaheim-ca/fire-damage-restoration/", "/service-areas/chino-ca/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Jurupa Valley", "url": "/service-areas/jurupa-valley-ca/"}, {"name": "Fire Damage Restoration"}]

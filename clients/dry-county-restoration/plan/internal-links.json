@@ -10,6 +10,7 @@
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
     "/services/emergency-plumbing/",
+    "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
     "/services/sewage-cleanup/",
@@ -61,6 +62,7 @@
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
     "/services/emergency-plumbing/",
+    "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
     "/services/sewage-cleanup/",
@@ -534,6 +536,7 @@
     "/service-areas/norco-ca/water-damage-restoration/",
     "/service-areas/north-tustin-ca/water-damage-restoration/",
     "/service-areas/ontario-ca/water-damage-restoration/",
+    "/services/emergency-water-removal/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
@@ -570,6 +573,23 @@
     "/service-areas/north-tustin-ca/water-leak-detection/",
     "/service-areas/ontario-ca/water-leak-detection/"
   ],
+  "/services/emergency-water-removal/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/anaheim-ca/emergency-water-removal/",
+    "/service-areas/chino-ca/emergency-water-removal/",
+    "/service-areas/chino-hills-ca/emergency-water-removal/",
+    "/service-areas/eastvale-ca/emergency-water-removal/",
+    "/service-areas/fontana-ca/emergency-water-removal/",
+    "/service-areas/fullerton-ca/emergency-water-removal/",
+    "/service-areas/jurupa-valley-ca/emergency-water-removal/",
+    "/service-areas/lake-mathews-ca/emergency-water-removal/",
+    "/service-areas/montclair-ca/emergency-water-removal/",
+    "/service-areas/norco-ca/emergency-water-removal/",
+    "/service-areas/north-tustin-ca/emergency-water-removal/",
+    "/service-areas/ontario-ca/emergency-water-removal/",
+    "/services/water-damage-restoration/"
+  ],
   "/service-areas/riverside-ca/": [
     "/service-areas/",
     "/contact/",
@@ -579,6 +599,7 @@
     "/service-areas/riverside-ca/water-damage-restoration/",
     "/service-areas/riverside-ca/commercial-restoration/",
     "/service-areas/riverside-ca/emergency-plumbing/",
+    "/service-areas/riverside-ca/emergency-water-removal/",
     "/service-areas/riverside-ca/flood-damage-restoration/",
     "/service-areas/riverside-ca/reconstruction/",
     "/service-areas/riverside-ca/sewage-cleanup/",
@@ -613,6 +634,7 @@
     "/service-areas/anaheim-ca/water-damage-restoration/",
     "/service-areas/anaheim-ca/commercial-restoration/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
+    "/service-areas/anaheim-ca/emergency-water-removal/",
     "/service-areas/anaheim-ca/flood-damage-restoration/",
     "/service-areas/anaheim-ca/reconstruction/",
     "/service-areas/anaheim-ca/sewage-cleanup/",
@@ -647,6 +669,7 @@
     "/service-areas/santa-ana-ca/water-damage-restoration/",
     "/service-areas/santa-ana-ca/commercial-restoration/",
     "/service-areas/santa-ana-ca/emergency-plumbing/",
+    "/service-areas/santa-ana-ca/emergency-water-removal/",
     "/service-areas/santa-ana-ca/flood-damage-restoration/",
     "/service-areas/santa-ana-ca/reconstruction/",
     "/service-areas/santa-ana-ca/sewage-cleanup/",
@@ -681,6 +704,7 @@
     "/service-areas/ontario-ca/water-damage-restoration/",
     "/service-areas/ontario-ca/commercial-restoration/",
     "/service-areas/ontario-ca/emergency-plumbing/",
+    "/service-areas/ontario-ca/emergency-water-removal/",
     "/service-areas/ontario-ca/flood-damage-restoration/",
     "/service-areas/ontario-ca/reconstruction/",
     "/service-areas/ontario-ca/sewage-cleanup/",
@@ -715,6 +739,7 @@
     "/service-areas/fullerton-ca/water-damage-restoration/",
     "/service-areas/fullerton-ca/commercial-restoration/",
     "/service-areas/fullerton-ca/emergency-plumbing/",
+    "/service-areas/fullerton-ca/emergency-water-removal/",
     "/service-areas/fullerton-ca/flood-damage-restoration/",
     "/service-areas/fullerton-ca/reconstruction/",
     "/service-areas/fullerton-ca/sewage-cleanup/",
@@ -749,6 +774,7 @@
     "/service-areas/norco-ca/water-damage-restoration/",
     "/service-areas/norco-ca/commercial-restoration/",
     "/service-areas/norco-ca/emergency-plumbing/",
+    "/service-areas/norco-ca/emergency-water-removal/",
     "/service-areas/norco-ca/flood-damage-restoration/",
     "/service-areas/norco-ca/reconstruction/",
     "/service-areas/norco-ca/sewage-cleanup/",
@@ -783,6 +809,7 @@
     "/service-areas/chino-ca/water-damage-restoration/",
     "/service-areas/chino-ca/commercial-restoration/",
     "/service-areas/chino-ca/emergency-plumbing/",
+    "/service-areas/chino-ca/emergency-water-removal/",
     "/service-areas/chino-ca/flood-damage-restoration/",
     "/service-areas/chino-ca/reconstruction/",
     "/service-areas/chino-ca/sewage-cleanup/",
@@ -817,6 +844,7 @@
     "/service-areas/chino-hills-ca/water-damage-restoration/",
     "/service-areas/chino-hills-ca/commercial-restoration/",
     "/service-areas/chino-hills-ca/emergency-plumbing/",
+    "/service-areas/chino-hills-ca/emergency-water-removal/",
     "/service-areas/chino-hills-ca/flood-damage-restoration/",
     "/service-areas/chino-hills-ca/reconstruction/",
     "/service-areas/chino-hills-ca/sewage-cleanup/",
@@ -851,6 +879,7 @@
     "/service-areas/eastvale-ca/water-damage-restoration/",
     "/service-areas/eastvale-ca/commercial-restoration/",
     "/service-areas/eastvale-ca/emergency-plumbing/",
+    "/service-areas/eastvale-ca/emergency-water-removal/",
     "/service-areas/eastvale-ca/flood-damage-restoration/",
     "/service-areas/eastvale-ca/reconstruction/",
     "/service-areas/eastvale-ca/sewage-cleanup/",
@@ -885,6 +914,7 @@
     "/service-areas/silverado-ca/water-damage-restoration/",
     "/service-areas/silverado-ca/commercial-restoration/",
     "/service-areas/silverado-ca/emergency-plumbing/",
+    "/service-areas/silverado-ca/emergency-water-removal/",
     "/service-areas/silverado-ca/flood-damage-restoration/",
     "/service-areas/silverado-ca/reconstruction/",
     "/service-areas/silverado-ca/sewage-cleanup/",
@@ -919,6 +949,7 @@
     "/service-areas/jurupa-valley-ca/water-damage-restoration/",
     "/service-areas/jurupa-valley-ca/commercial-restoration/",
     "/service-areas/jurupa-valley-ca/emergency-plumbing/",
+    "/service-areas/jurupa-valley-ca/emergency-water-removal/",
     "/service-areas/jurupa-valley-ca/flood-damage-restoration/",
     "/service-areas/jurupa-valley-ca/reconstruction/",
     "/service-areas/jurupa-valley-ca/sewage-cleanup/",
@@ -953,6 +984,7 @@
     "/service-areas/temescal-valley-ca/water-damage-restoration/",
     "/service-areas/temescal-valley-ca/commercial-restoration/",
     "/service-areas/temescal-valley-ca/emergency-plumbing/",
+    "/service-areas/temescal-valley-ca/emergency-water-removal/",
     "/service-areas/temescal-valley-ca/flood-damage-restoration/",
     "/service-areas/temescal-valley-ca/reconstruction/",
     "/service-areas/temescal-valley-ca/sewage-cleanup/",
@@ -987,6 +1019,7 @@
     "/service-areas/yorba-linda-ca/water-damage-restoration/",
     "/service-areas/yorba-linda-ca/commercial-restoration/",
     "/service-areas/yorba-linda-ca/emergency-plumbing/",
+    "/service-areas/yorba-linda-ca/emergency-water-removal/",
     "/service-areas/yorba-linda-ca/flood-damage-restoration/",
     "/service-areas/yorba-linda-ca/reconstruction/",
     "/service-areas/yorba-linda-ca/sewage-cleanup/",
@@ -1021,6 +1054,7 @@
     "/service-areas/lake-mathews-ca/water-damage-restoration/",
     "/service-areas/lake-mathews-ca/commercial-restoration/",
     "/service-areas/lake-mathews-ca/emergency-plumbing/",
+    "/service-areas/lake-mathews-ca/emergency-water-removal/",
     "/service-areas/lake-mathews-ca/flood-damage-restoration/",
     "/service-areas/lake-mathews-ca/reconstruction/",
     "/service-areas/lake-mathews-ca/sewage-cleanup/",
@@ -1055,6 +1089,7 @@
     "/service-areas/woodcrest-ca/water-damage-restoration/",
     "/service-areas/woodcrest-ca/commercial-restoration/",
     "/service-areas/woodcrest-ca/emergency-plumbing/",
+    "/service-areas/woodcrest-ca/emergency-water-removal/",
     "/service-areas/woodcrest-ca/flood-damage-restoration/",
     "/service-areas/woodcrest-ca/reconstruction/",
     "/service-areas/woodcrest-ca/sewage-cleanup/",
@@ -1089,6 +1124,7 @@
     "/service-areas/trabuco-canyon-ca/water-damage-restoration/",
     "/service-areas/trabuco-canyon-ca/commercial-restoration/",
     "/service-areas/trabuco-canyon-ca/emergency-plumbing/",
+    "/service-areas/trabuco-canyon-ca/emergency-water-removal/",
     "/service-areas/trabuco-canyon-ca/flood-damage-restoration/",
     "/service-areas/trabuco-canyon-ca/reconstruction/",
     "/service-areas/trabuco-canyon-ca/sewage-cleanup/",
@@ -1123,6 +1159,7 @@
     "/service-areas/north-tustin-ca/water-damage-restoration/",
     "/service-areas/north-tustin-ca/commercial-restoration/",
     "/service-areas/north-tustin-ca/emergency-plumbing/",
+    "/service-areas/north-tustin-ca/emergency-water-removal/",
     "/service-areas/north-tustin-ca/flood-damage-restoration/",
     "/service-areas/north-tustin-ca/reconstruction/",
     "/service-areas/north-tustin-ca/sewage-cleanup/",
@@ -1157,6 +1194,7 @@
     "/service-areas/montclair-ca/water-damage-restoration/",
     "/service-areas/montclair-ca/commercial-restoration/",
     "/service-areas/montclair-ca/emergency-plumbing/",
+    "/service-areas/montclair-ca/emergency-water-removal/",
     "/service-areas/montclair-ca/flood-damage-restoration/",
     "/service-areas/montclair-ca/reconstruction/",
     "/service-areas/montclair-ca/sewage-cleanup/",
@@ -1191,6 +1229,7 @@
     "/service-areas/villa-park-ca/water-damage-restoration/",
     "/service-areas/villa-park-ca/commercial-restoration/",
     "/service-areas/villa-park-ca/emergency-plumbing/",
+    "/service-areas/villa-park-ca/emergency-water-removal/",
     "/service-areas/villa-park-ca/flood-damage-restoration/",
     "/service-areas/villa-park-ca/reconstruction/",
     "/service-areas/villa-park-ca/sewage-cleanup/",
@@ -1225,6 +1264,7 @@
     "/service-areas/fontana-ca/water-damage-restoration/",
     "/service-areas/fontana-ca/commercial-restoration/",
     "/service-areas/fontana-ca/emergency-plumbing/",
+    "/service-areas/fontana-ca/emergency-water-removal/",
     "/service-areas/fontana-ca/flood-damage-restoration/",
     "/service-areas/fontana-ca/reconstruction/",
     "/service-areas/fontana-ca/sewage-cleanup/",
@@ -1259,6 +1299,7 @@
     "/service-areas/pomona-ca/water-damage-restoration/",
     "/service-areas/pomona-ca/commercial-restoration/",
     "/service-areas/pomona-ca/emergency-plumbing/",
+    "/service-areas/pomona-ca/emergency-water-removal/",
     "/service-areas/pomona-ca/flood-damage-restoration/",
     "/service-areas/pomona-ca/reconstruction/",
     "/service-areas/pomona-ca/sewage-cleanup/",
@@ -1527,6 +1568,15 @@
     "/service-areas/chino-ca/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/riverside-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/riverside-ca/",
+    "/service-areas/riverside-ca/fire-damage-restoration/",
+    "/service-areas/riverside-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/emergency-water-removal/",
+    "/service-areas/chino-ca/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/anaheim-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/anaheim-ca/",
@@ -1768,6 +1818,15 @@
     "/service-areas/anaheim-ca/mold-remediation/",
     "/service-areas/chino-ca/water-leak-detection/",
     "/service-areas/chino-hills-ca/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/anaheim-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/anaheim-ca/",
+    "/service-areas/anaheim-ca/fire-damage-restoration/",
+    "/service-areas/anaheim-ca/mold-remediation/",
+    "/service-areas/chino-ca/emergency-water-removal/",
+    "/service-areas/chino-hills-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/santa-ana-ca/air-duct-cleaning/": [
@@ -2013,6 +2072,15 @@
     "/service-areas/chino-ca/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/santa-ana-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/santa-ana-ca/",
+    "/service-areas/santa-ana-ca/fire-damage-restoration/",
+    "/service-areas/santa-ana-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/emergency-water-removal/",
+    "/service-areas/chino-ca/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/ontario-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/ontario-ca/",
@@ -2254,6 +2322,15 @@
     "/service-areas/ontario-ca/mold-remediation/",
     "/service-areas/anaheim-ca/water-leak-detection/",
     "/service-areas/chino-ca/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/ontario-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/ontario-ca/",
+    "/service-areas/ontario-ca/fire-damage-restoration/",
+    "/service-areas/ontario-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/emergency-water-removal/",
+    "/service-areas/chino-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/fullerton-ca/air-duct-cleaning/": [
@@ -2499,6 +2576,15 @@
     "/service-areas/chino-ca/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/fullerton-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/fullerton-ca/",
+    "/service-areas/fullerton-ca/fire-damage-restoration/",
+    "/service-areas/fullerton-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/emergency-water-removal/",
+    "/service-areas/chino-ca/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/norco-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/norco-ca/",
@@ -2740,6 +2826,15 @@
     "/service-areas/norco-ca/mold-remediation/",
     "/service-areas/anaheim-ca/water-leak-detection/",
     "/service-areas/chino-ca/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/norco-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/norco-ca/",
+    "/service-areas/norco-ca/fire-damage-restoration/",
+    "/service-areas/norco-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/emergency-water-removal/",
+    "/service-areas/chino-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/chino-ca/air-duct-cleaning/": [
@@ -2985,6 +3080,15 @@
     "/service-areas/chino-hills-ca/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/chino-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/chino-ca/",
+    "/service-areas/chino-ca/fire-damage-restoration/",
+    "/service-areas/chino-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/emergency-water-removal/",
+    "/service-areas/chino-hills-ca/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/chino-hills-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/chino-hills-ca/",
@@ -3226,6 +3330,15 @@
     "/service-areas/chino-hills-ca/mold-remediation/",
     "/service-areas/anaheim-ca/water-leak-detection/",
     "/service-areas/chino-ca/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/chino-hills-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/chino-hills-ca/",
+    "/service-areas/chino-hills-ca/fire-damage-restoration/",
+    "/service-areas/chino-hills-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/emergency-water-removal/",
+    "/service-areas/chino-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/eastvale-ca/air-duct-cleaning/": [
@@ -3471,6 +3584,15 @@
     "/service-areas/chino-ca/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/eastvale-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/eastvale-ca/",
+    "/service-areas/eastvale-ca/fire-damage-restoration/",
+    "/service-areas/eastvale-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/emergency-water-removal/",
+    "/service-areas/chino-ca/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/silverado-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/silverado-ca/",
@@ -3712,6 +3834,15 @@
     "/service-areas/silverado-ca/mold-remediation/",
     "/service-areas/anaheim-ca/water-leak-detection/",
     "/service-areas/chino-ca/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/silverado-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/silverado-ca/",
+    "/service-areas/silverado-ca/fire-damage-restoration/",
+    "/service-areas/silverado-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/emergency-water-removal/",
+    "/service-areas/chino-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/jurupa-valley-ca/air-duct-cleaning/": [
@@ -3957,6 +4088,15 @@
     "/service-areas/chino-ca/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/jurupa-valley-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/jurupa-valley-ca/",
+    "/service-areas/jurupa-valley-ca/fire-damage-restoration/",
+    "/service-areas/jurupa-valley-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/emergency-water-removal/",
+    "/service-areas/chino-ca/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/temescal-valley-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/temescal-valley-ca/",
@@ -4198,6 +4338,15 @@
     "/service-areas/temescal-valley-ca/mold-remediation/",
     "/service-areas/anaheim-ca/water-leak-detection/",
     "/service-areas/chino-ca/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/temescal-valley-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/temescal-valley-ca/",
+    "/service-areas/temescal-valley-ca/fire-damage-restoration/",
+    "/service-areas/temescal-valley-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/emergency-water-removal/",
+    "/service-areas/chino-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/yorba-linda-ca/air-duct-cleaning/": [
@@ -4443,6 +4592,15 @@
     "/service-areas/chino-ca/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/yorba-linda-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/yorba-linda-ca/",
+    "/service-areas/yorba-linda-ca/fire-damage-restoration/",
+    "/service-areas/yorba-linda-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/emergency-water-removal/",
+    "/service-areas/chino-ca/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/lake-mathews-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/lake-mathews-ca/",
@@ -4684,6 +4842,15 @@
     "/service-areas/lake-mathews-ca/mold-remediation/",
     "/service-areas/anaheim-ca/water-leak-detection/",
     "/service-areas/chino-ca/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/lake-mathews-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/lake-mathews-ca/",
+    "/service-areas/lake-mathews-ca/fire-damage-restoration/",
+    "/service-areas/lake-mathews-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/emergency-water-removal/",
+    "/service-areas/chino-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/woodcrest-ca/air-duct-cleaning/": [
@@ -4929,6 +5096,15 @@
     "/service-areas/chino-ca/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/woodcrest-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/woodcrest-ca/",
+    "/service-areas/woodcrest-ca/fire-damage-restoration/",
+    "/service-areas/woodcrest-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/emergency-water-removal/",
+    "/service-areas/chino-ca/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/trabuco-canyon-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/trabuco-canyon-ca/",
@@ -5170,6 +5346,15 @@
     "/service-areas/trabuco-canyon-ca/mold-remediation/",
     "/service-areas/anaheim-ca/water-leak-detection/",
     "/service-areas/chino-ca/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/trabuco-canyon-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/trabuco-canyon-ca/",
+    "/service-areas/trabuco-canyon-ca/fire-damage-restoration/",
+    "/service-areas/trabuco-canyon-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/emergency-water-removal/",
+    "/service-areas/chino-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/north-tustin-ca/air-duct-cleaning/": [
@@ -5415,6 +5600,15 @@
     "/service-areas/chino-ca/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/north-tustin-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/north-tustin-ca/",
+    "/service-areas/north-tustin-ca/fire-damage-restoration/",
+    "/service-areas/north-tustin-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/emergency-water-removal/",
+    "/service-areas/chino-ca/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/montclair-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/montclair-ca/",
@@ -5656,6 +5850,15 @@
     "/service-areas/montclair-ca/mold-remediation/",
     "/service-areas/anaheim-ca/water-leak-detection/",
     "/service-areas/chino-ca/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/montclair-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/montclair-ca/",
+    "/service-areas/montclair-ca/fire-damage-restoration/",
+    "/service-areas/montclair-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/emergency-water-removal/",
+    "/service-areas/chino-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/villa-park-ca/air-duct-cleaning/": [
@@ -5901,6 +6104,15 @@
     "/service-areas/chino-ca/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/villa-park-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/villa-park-ca/",
+    "/service-areas/villa-park-ca/fire-damage-restoration/",
+    "/service-areas/villa-park-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/emergency-water-removal/",
+    "/service-areas/chino-ca/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/fontana-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/fontana-ca/",
@@ -6144,6 +6356,15 @@
     "/service-areas/chino-ca/water-leak-detection/",
     "/contact/"
   ],
+  "/service-areas/fontana-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/fontana-ca/",
+    "/service-areas/fontana-ca/fire-damage-restoration/",
+    "/service-areas/fontana-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/emergency-water-removal/",
+    "/service-areas/chino-ca/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/pomona-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/pomona-ca/",
@@ -6385,6 +6606,15 @@
     "/service-areas/pomona-ca/mold-remediation/",
     "/service-areas/anaheim-ca/water-leak-detection/",
     "/service-areas/chino-ca/water-leak-detection/",
+    "/contact/"
+  ],
+  "/service-areas/pomona-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/pomona-ca/",
+    "/service-areas/pomona-ca/fire-damage-restoration/",
+    "/service-areas/pomona-ca/mold-remediation/",
+    "/service-areas/anaheim-ca/emergency-water-removal/",
+    "/service-areas/chino-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [

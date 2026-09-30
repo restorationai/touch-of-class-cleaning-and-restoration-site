@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "6af0466eb7447dd9"
-generated_at: "2026-09-29T23:13:48.920668+00:00"
+generated_at: "2026-09-30T18:41:35.574081+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/albany-mn/", "/service-areas/albany-mn/fire-damage-restoration/", "/service-areas/albany-mn/mold-remediation/", "/service-areas/avon-mn/commercial-restoration/", "/service-areas/baxter-mn/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Albany", "url": "/service-areas/albany-mn/"}, {"name": "Commercial Restoration"}]

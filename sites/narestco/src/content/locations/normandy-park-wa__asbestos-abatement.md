@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "a1cddd5587982d35"
-generated_at: "2026-09-30T14:12:21.543334+00:00"
+generated_at: "2026-09-30T18:41:50.516652+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/normandy-park-wa/", "/service-areas/normandy-park-wa/fire-damage-restoration/", "/service-areas/normandy-park-wa/mold-remediation/", "/service-areas/algona-wa/asbestos-abatement/", "/service-areas/auburn-wa/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Normandy Park", "url": "/service-areas/normandy-park-wa/"}, {"name": "Asbestos Abatement"}]

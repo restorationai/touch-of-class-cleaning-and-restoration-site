@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "de411e81aea86730"
-generated_at: "2026-09-30T14:12:12.828752+00:00"
+generated_at: "2026-09-30T18:41:37.569237+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/hattiesburg-ms/", "/service-areas/hattiesburg-ms/fire-damage-restoration/", "/service-areas/hattiesburg-ms/mold-remediation/", "/service-areas/agricola-ms/mold-inspection-testing/", "/service-areas/bay-st-louis-ms/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hattiesburg", "url": "/service-areas/hattiesburg-ms/"}, {"name": "mold-inspection-testing"}]

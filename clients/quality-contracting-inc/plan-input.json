@@ -21,10 +21,13 @@
   },
   "services": [
     "air-duct-cleaning",
+    "air-duct-hvac-cleaning",
     "asbestos-abatement",
     "biohazard-cleanup",
     "carpet-cleaning",
+    "carpet-upholstery-cleaning",
     "contents-restoration",
+    "contents-restoration-storage",
     "crawl-space-encapsulation",
     "emergency-board-up-tarping",
     "emergency-plumbing",

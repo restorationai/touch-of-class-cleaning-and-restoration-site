@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "c1a0cf5a6fdb7b58"
-generated_at: "2026-09-29T23:32:21.942138+00:00"
+generated_at: "2026-09-30T18:41:27.185249+00:00"
 manual_override: false
 internal_links: ["/services/ice-dams/", "/service-areas/warren-mi/", "/service-areas/warren-mi/fire-damage-restoration/", "/service-areas/warren-mi/mold-remediation/", "/service-areas/chesterfield-mi/ice-dams/", "/service-areas/clinton-township-mi/ice-dams/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Warren", "url": "/service-areas/warren-mi/"}, {"name": "Ice Dams"}]

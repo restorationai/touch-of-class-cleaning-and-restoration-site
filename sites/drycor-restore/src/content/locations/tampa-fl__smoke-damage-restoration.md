@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "9c8cb8efaabb0658"
-generated_at: "2026-09-29T23:28:29.465277+00:00"
+generated_at: "2026-09-30T18:41:26.155485+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/tampa-fl/", "/service-areas/tampa-fl/fire-damage-restoration/", "/service-areas/tampa-fl/mold-remediation/", "/service-areas/anna-maria-fl/smoke-damage-restoration/", "/service-areas/apollo-beach-fl/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tampa", "url": "/service-areas/tampa-fl/"}, {"name": "Smoke Damage Restoration"}]

@@ -185,7 +185,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Air Duct Cleaning, Air Duct & HVAC Cleaning, Asbestos Abatement, Biohazard Cleanup, Carpet Cleaning, Carpet & Upholstery Cleaning, Contents Restoration & Storage, Emergency Board-Up and Tarping, Fire Damage Restoration, Renovations, Remodels and General Contracting, Lead Paint Abatement, Roofing Installation and Replacement, Sewage Cleanup and Sanitization, Upholstery Cleaning)
+- [ ] (continue for each of Air Duct Cleaning, Asbestos Abatement, Biohazard Cleanup, Carpet Cleaning, Contents Restoration & Storage, Emergency Board-Up and Tarping, Fire Damage Restoration, Renovations, Remodels and General Contracting, Lead Paint Abatement, Roofing Installation and Replacement, Sewage Cleanup and Sanitization, Upholstery Cleaning)
 
 ### Service area pages (one image per city served)
 - [ ] Pittsburgh hero — exterior shot, regional housing stock, evocative of the city

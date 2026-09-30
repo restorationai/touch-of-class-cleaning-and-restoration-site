@@ -8,7 +8,7 @@ secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodoriz
 search_intent: "local_specialty"
 priority: 4.9
 plan_hash: "89967448f1f0f225"
-generated_at: "2026-09-29T14:31:48.458299+00:00"
+generated_at: "2026-09-30T18:41:22.809705+00:00"
 manual_override: false
 internal_links: ["/services/odor-removal/", "/service-areas/santa-cruz-ca/", "/service-areas/santa-cruz-ca/fire-damage-restoration/", "/service-areas/santa-cruz-ca/mold-remediation/", "/service-areas/berkeley-ca/odor-removal/", "/service-areas/carlsbad-ca/odor-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Santa Cruz", "url": "/service-areas/santa-cruz-ca/"}, {"name": "Odor Removal and Deodorization"}]

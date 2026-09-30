@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "f12f66d4b71f7098"
-generated_at: "2026-09-29T23:13:49.326532+00:00"
+generated_at: "2026-09-30T18:41:33.361878+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/selma-nc/", "/service-areas/selma-nc/fire-damage-restoration/", "/service-areas/selma-nc/mold-remediation/", "/service-areas/archer-lodge-nc/emergency-plumbing/", "/service-areas/clayton-nc/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Selma", "url": "/service-areas/selma-nc/"}, {"name": "Emergency Plumbing"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "5b21af766e5544d8"
-generated_at: "2026-09-30T14:12:22.997484+00:00"
+generated_at: "2026-09-30T18:41:52.034971+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/lamont-ca/", "/service-areas/lamont-ca/fire-damage-restoration/", "/service-areas/lamont-ca/home-remodeling/", "/service-areas/arvin-ca/asbestos-abatement/", "/service-areas/bear-valley-springs-ca/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lamont", "url": "/service-areas/lamont-ca/"}, {"name": "Asbestos Abatement"}]

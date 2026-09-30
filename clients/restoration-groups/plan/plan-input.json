@@ -17,8 +17,10 @@
     "burst-pipe-repair",
     "commercial-restoration",
     "contents-restoration-pack-out",
+    "contents-restoration-storage",
     "crawl-space-encapsulation",
     "emergency-board-up-tarping",
+    "emergency-water-removal",
     "fire-damage-restoration",
     "flood-damage-restoration",
     "mold-inspection-testing",
@@ -1484,10 +1486,26 @@
     "primary_dark": "#0c5d83",
     "primary_light": "#bae4f7",
     "accent_color": "#09435d",
-    "ga4_measurement_id": "G-E4FC6VR918"
+    "ga4_measurement_id": "G-E4FC6VR918",
+    "home_about_blurb": "The Restoration Group has been restoring New Jersey homes and businesses since 2021, with crews across northern and central New Jersey, the New York City metro and eastern Pennsylvania. We specialize in rapid-response water, fire, storm and mold damage restoration through full reconstruction, and as an IICRC Certified Firm we answer the phone 24/7. When disaster strikes, our team returns your property to its pre-loss condition quickly and safely.",
+    "theme": "light"
   },
   "service_radius_description": "Union County NJ home base (Kenilworth) with statewide New Jersey focus plus the Brooklyn and Manhattan NY metro",
   "cross_product": true,
   "keyword_strategy": "conservative",
-  "blog_seed_count": 12
+  "blog_seed_count": 12,
+  "homepage_services": [
+    "fire-damage-restoration",
+    "mold-remediation",
+    "water-damage-restoration",
+    "commercial-restoration",
+    "flood-damage-restoration",
+    "sewage-cleanup"
+  ],
+  "merged_services": {
+    "basement-flood-cleanup": "basement-flooding-cleanup",
+    "contents-restoration-storage": "contents-restoration-pack-out",
+    "vandalism-cleanup": "vandalism-graffiti-removal",
+    "water-cleanup": "emergency-water-removal"
+  }
 }

@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "9ccb3532aa17d816"
-generated_at: "2026-09-29T23:31:28.384039+00:00"
+generated_at: "2026-09-30T18:41:22.754148+00:00"
 manual_override: false
 internal_links: ["/services/carpet-water-extraction/", "/service-areas/sunnyvale-ca/", "/service-areas/sunnyvale-ca/fire-damage-restoration/", "/service-areas/sunnyvale-ca/mold-remediation/", "/service-areas/berkeley-ca/carpet-water-extraction/", "/service-areas/carlsbad-ca/carpet-water-extraction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sunnyvale", "url": "/service-areas/sunnyvale-ca/"}, {"name": "Carpet Water Extraction"}]

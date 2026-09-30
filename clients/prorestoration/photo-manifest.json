@@ -2505,6 +2505,16 @@
       "triaged_at": "2026-08-05T06:15:52Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipNdPD_vZKjKGEQQO-IG8i6MUEiGJZEuDiEHRxGa": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNdPD_vZKjKGEQQO-IG8i6MUEiGJZEuDiEHRxGa.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1779551010975/job-photos/posted/gbp-AF1QipNdPD_vZKjKGEQQO-IG8i6MUEiGJZEuDiEHRxGa.jpg",
+      "width": 2048,
+      "height": 946,
+      "bytes": 361588,
+      "sha1": "6136fbbca931f1be",
+      "exif": {}
+    },
     "gbp:gbp-AF1QipNfjHRO1DcwaPmklbttpUQ90BrAGnI6jYww-OKk": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipNfjHRO1DcwaPmklbttpUQ90BrAGnI6jYww-OKk.jpg",
@@ -6554,7 +6564,7 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-16T20:12:12Z",
+  "triaged_at": "2026-09-30T18:45:23Z",
   "slots_retired": {
     "hero": {
       "asset": "web:8c032e383cb4ec8f",

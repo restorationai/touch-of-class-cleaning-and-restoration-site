@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "6b7931ebadc393d0"
-generated_at: "2026-09-30T14:12:25.932269+00:00"
+generated_at: "2026-09-30T18:41:54.632653+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/westborough-ma/", "/service-areas/westborough-ma/fire-damage-restoration/", "/service-areas/westborough-ma/mold-remediation/", "/service-areas/bellingham-ma/ceiling-water-damage-repair/", "/service-areas/east-douglas-ma/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Westborough", "url": "/service-areas/westborough-ma/"}, {"name": "ceiling-water-damage-repair"}]

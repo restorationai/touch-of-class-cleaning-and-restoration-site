@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "3a05e05e2ab22cd0"
-generated_at: "2026-09-30T14:12:22.967533+00:00"
+generated_at: "2026-09-30T18:41:52.009298+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/shafter-ca/", "/service-areas/shafter-ca/fire-damage-restoration/", "/service-areas/shafter-ca/home-remodeling/", "/service-areas/arvin-ca/industrial-restoration/", "/service-areas/bear-valley-springs-ca/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Shafter", "url": "/service-areas/shafter-ca/"}, {"name": "industrial-restoration"}]

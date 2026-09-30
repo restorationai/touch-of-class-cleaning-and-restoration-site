@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "d6e689822834a652"
-generated_at: "2026-09-30T14:12:13.027341+00:00"
+generated_at: "2026-09-30T18:41:37.814827+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/laurel-ms/", "/service-areas/laurel-ms/fire-damage-restoration/", "/service-areas/laurel-ms/mold-remediation/", "/service-areas/agricola-ms/ceiling-water-damage-repair/", "/service-areas/bay-st-louis-ms/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Laurel", "url": "/service-areas/laurel-ms/"}, {"name": "ceiling-water-damage-repair"}]

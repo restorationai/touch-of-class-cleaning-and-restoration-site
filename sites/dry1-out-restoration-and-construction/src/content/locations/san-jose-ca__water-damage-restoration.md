@@ -8,7 +8,7 @@ secondary_keywords: ["water removal", "water extraction", "water cleanup", "stru
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "84e94fc4ff41b3e2"
-generated_at: "2026-09-29T14:31:48.326620+00:00"
+generated_at: "2026-09-30T18:41:22.661638+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/san-jose-ca/", "/service-areas/san-jose-ca/fire-damage-restoration/", "/service-areas/san-jose-ca/mold-remediation/", "/service-areas/berkeley-ca/water-damage-restoration/", "/service-areas/carlsbad-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Jose", "url": "/service-areas/san-jose-ca/"}, {"name": "Water Damage Restoration"}]

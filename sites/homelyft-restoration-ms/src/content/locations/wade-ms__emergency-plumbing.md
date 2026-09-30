@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "8c3d9ff6cc12a45a"
-generated_at: "2026-09-30T14:12:13.004524+00:00"
+generated_at: "2026-09-30T18:41:37.786462+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/wade-ms/", "/service-areas/wade-ms/fire-damage-restoration/", "/service-areas/wade-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-plumbing/", "/service-areas/bay-st-louis-ms/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wade", "url": "/service-areas/wade-ms/"}, {"name": "emergency-plumbing"}]

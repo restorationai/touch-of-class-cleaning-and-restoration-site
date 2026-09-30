@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "1a539e4d8a87af78"
-generated_at: "2026-09-29T14:31:48.434578+00:00"
+generated_at: "2026-09-30T18:41:22.782602+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/concord-ca/", "/service-areas/concord-ca/fire-damage-restoration/", "/service-areas/concord-ca/mold-remediation/", "/service-areas/berkeley-ca/mold-inspection-testing/", "/service-areas/carlsbad-ca/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Concord", "url": "/service-areas/concord-ca/"}, {"name": "Mold Inspection and Testing"}]

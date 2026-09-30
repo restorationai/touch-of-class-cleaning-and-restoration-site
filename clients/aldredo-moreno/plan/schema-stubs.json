@@ -78,6 +78,16 @@
     ],
     "missing_stubs": []
   },
+  "/services/emergency-water-removal/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/services/junk-debris-removal/": {
     "archetype": "service-landing",
     "stubs": [
@@ -443,6 +453,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/odessa-tx/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/odessa-tx/junk-debris-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -664,6 +684,16 @@
     "missing_stubs": []
   },
   "/service-areas/big-spring-tx/carpet-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/big-spring-tx/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -903,6 +933,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/stanton-tx/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/stanton-tx/junk-debris-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1124,6 +1164,16 @@
     "missing_stubs": []
   },
   "/service-areas/andrews-tx/carpet-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/andrews-tx/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1363,6 +1413,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/gardendale-tx/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/gardendale-tx/junk-debris-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1584,6 +1644,16 @@
     "missing_stubs": []
   },
   "/service-areas/greenwood-tx/carpet-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/greenwood-tx/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1823,6 +1893,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/goldsmith-tx/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/goldsmith-tx/junk-debris-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2044,6 +2124,16 @@
     "missing_stubs": []
   },
   "/service-areas/west-odessa-tx/carpet-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/west-odessa-tx/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2283,6 +2373,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/garden-city-tx/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/garden-city-tx/junk-debris-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2504,6 +2604,16 @@
     "missing_stubs": []
   },
   "/service-areas/crane-tx/carpet-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/crane-tx/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2743,6 +2853,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/monahans-tx/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/monahans-tx/junk-debris-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2964,6 +3084,16 @@
     "missing_stubs": []
   },
   "/service-areas/mccamey-tx/carpet-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/mccamey-tx/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3203,6 +3333,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/southwest-sandhill-tx/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/southwest-sandhill-tx/junk-debris-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3433,6 +3573,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/big-lake-tx/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/big-lake-tx/junk-debris-removal/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3654,6 +3804,16 @@
     "missing_stubs": []
   },
   "/service-areas/imperial-tx/carpet-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/imperial-tx/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

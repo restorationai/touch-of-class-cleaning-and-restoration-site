@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "f067ff119df34131"
-generated_at: "2026-09-30T14:12:01.802832+00:00"
+generated_at: "2026-09-30T18:41:09.026796+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/colorado-city-tx/", "/service-areas/colorado-city-tx/fire-damage-restoration/", "/service-areas/colorado-city-tx/mold-remediation/", "/service-areas/albany-tx/smoke-damage-restoration/", "/service-areas/anson-tx/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Colorado City", "url": "/service-areas/colorado-city-tx/"}, {"name": "smoke-damage-restoration"}]

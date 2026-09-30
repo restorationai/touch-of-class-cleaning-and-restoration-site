@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 4.5
 plan_hash: "ea99d9eb1c1ff92e"
-generated_at: "2026-09-29T23:31:28.353018+00:00"
+generated_at: "2026-09-30T18:41:22.637842+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/vehicle-impact-damage-repair/", "/service-areas/carlsbad-ca/vehicle-impact-damage-repair/", "/service-areas/chula-vista-ca/vehicle-impact-damage-repair/", "/service-areas/concord-ca/vehicle-impact-damage-repair/", "/service-areas/el-cajon-ca/vehicle-impact-damage-repair/", "/service-areas/encinitas-ca/vehicle-impact-damage-repair/", "/service-areas/escondido-ca/vehicle-impact-damage-repair/", "/service-areas/fremont-ca/vehicle-impact-damage-repair/", "/service-areas/hayward-ca/vehicle-impact-damage-repair/", "/service-areas/oakland-ca/vehicle-impact-damage-repair/", "/service-areas/oceanside-ca/vehicle-impact-damage-repair/", "/service-areas/san-diego-ca/vehicle-impact-damage-repair/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Vehicle Impact Damage Repair"}]

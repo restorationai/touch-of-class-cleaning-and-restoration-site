@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "d5797ea93c61815d"
-generated_at: "2026-09-30T14:12:25.943185+00:00"
+generated_at: "2026-09-30T18:41:54.643972+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/hopkinton-ma/", "/service-areas/hopkinton-ma/fire-damage-restoration/", "/service-areas/hopkinton-ma/mold-remediation/", "/service-areas/bellingham-ma/smoke-damage-restoration/", "/service-areas/east-douglas-ma/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hopkinton", "url": "/service-areas/hopkinton-ma/"}, {"name": "smoke-damage-restoration"}]

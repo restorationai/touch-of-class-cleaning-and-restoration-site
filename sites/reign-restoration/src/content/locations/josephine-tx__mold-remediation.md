@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "7a846f151ec0e20e"
-generated_at: "2026-09-23T14:12:04.464935+00:00"
+generated_at: "2026-09-30T18:41:58.681358+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/josephine-tx/", "/service-areas/josephine-tx/fire-damage-restoration/", "/service-areas/josephine-tx/roofing/", "/service-areas/allen-tx/mold-remediation/", "/service-areas/caddo-mills-tx/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Josephine", "url": "/service-areas/josephine-tx/"}, {"name": "Mold Remediation"}]

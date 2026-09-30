@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "7d0d33a9d771cb3f"
-generated_at: "2026-09-29T23:13:48.877547+00:00"
+generated_at: "2026-09-30T18:41:35.514373+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/flensburg-mn/", "/service-areas/flensburg-mn/fire-damage-restoration/", "/service-areas/flensburg-mn/mold-remediation/", "/service-areas/albany-mn/ceiling-water-damage-repair/", "/service-areas/avon-mn/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Flensburg", "url": "/service-areas/flensburg-mn/"}, {"name": "Ceiling Water Damage Repair"}]

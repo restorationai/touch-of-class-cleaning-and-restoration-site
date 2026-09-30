@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "04fee0cb0771856d"
-generated_at: "2026-09-30T14:12:09.781960+00:00"
+generated_at: "2026-09-30T18:41:21.634514+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/fontana-ca/", "/service-areas/fontana-ca/fire-damage-restoration/", "/service-areas/fontana-ca/mold-remediation/", "/service-areas/anaheim-ca/smoke-damage-restoration/", "/service-areas/chino-ca/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fontana", "url": "/service-areas/fontana-ca/"}, {"name": "Smoke Damage Restoration"}]

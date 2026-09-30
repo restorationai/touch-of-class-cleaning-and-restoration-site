@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "cc7183052e54e4cf"
-generated_at: "2026-09-30T14:12:13.031580+00:00"
+generated_at: "2026-09-30T18:41:37.819763+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/moselle-ms/", "/service-areas/moselle-ms/fire-damage-restoration/", "/service-areas/moselle-ms/mold-remediation/", "/service-areas/agricola-ms/industrial-restoration/", "/service-areas/bay-st-louis-ms/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Moselle", "url": "/service-areas/moselle-ms/"}, {"name": "industrial-restoration"}]

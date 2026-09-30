@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "3a69e45b4ffa1802"
-generated_at: "2026-09-29T23:13:48.863796+00:00"
+generated_at: "2026-09-30T18:41:35.489064+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/baxter-mn/", "/service-areas/baxter-mn/fire-damage-restoration/", "/service-areas/baxter-mn/mold-remediation/", "/service-areas/albany-mn/smoke-damage-restoration/", "/service-areas/avon-mn/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Baxter", "url": "/service-areas/baxter-mn/"}, {"name": "Smoke Damage Restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "e3f1736200012a50"
-generated_at: "2026-09-29T14:31:48.394853+00:00"
+generated_at: "2026-09-30T18:41:22.735531+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/san-marcos-ca/", "/service-areas/san-marcos-ca/fire-damage-restoration/", "/service-areas/san-marcos-ca/mold-remediation/", "/service-areas/berkeley-ca/emergency-plumbing/", "/service-areas/carlsbad-ca/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Marcos", "url": "/service-areas/san-marcos-ca/"}, {"name": "emergency-plumbing"}]

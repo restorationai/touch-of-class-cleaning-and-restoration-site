@@ -8,7 +8,7 @@ secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet 
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "9dc26908fffc16bd"
-generated_at: "2026-09-30T14:12:07.200841+00:00"
+generated_at: "2026-09-30T18:41:19.918782+00:00"
 manual_override: false
 internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/new-castle-pa/", "/service-areas/new-castle-pa/fire-damage-restoration/", "/service-areas/new-castle-pa/mold-remediation/", "/service-areas/austintown-oh/basement-flooding-cleanup/", "/service-areas/boardman-oh/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "New Castle", "url": "/service-areas/new-castle-pa/"}, {"name": "basement-flooding-cleanup"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "55b095e33f7c6af5"
-generated_at: "2026-09-28T20:50:26.584406+00:00"
+generated_at: "2026-09-30T18:41:56.090660+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/paradise-nv/", "/service-areas/paradise-nv/fire-damage-restoration/", "/service-areas/paradise-nv/mold-remediation/", "/service-areas/blue-diamond-nv/emergency-plumbing/", "/service-areas/boulder-city-nv/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Paradise", "url": "/service-areas/paradise-nv/"}, {"name": "emergency-plumbing"}]

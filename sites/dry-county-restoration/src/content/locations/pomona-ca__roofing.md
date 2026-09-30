@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "2c6c0cd58afcc5f0"
-generated_at: "2026-09-30T14:12:09.790651+00:00"
+generated_at: "2026-09-30T18:41:21.642440+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/pomona-ca/", "/service-areas/pomona-ca/fire-damage-restoration/", "/service-areas/pomona-ca/mold-remediation/", "/service-areas/anaheim-ca/roofing/", "/service-areas/chino-ca/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pomona", "url": "/service-areas/pomona-ca/"}, {"name": "Roofing Installation and Replacement"}]

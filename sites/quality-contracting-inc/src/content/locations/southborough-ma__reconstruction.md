@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "1b9e66a8eb09535c"
-generated_at: "2026-09-30T14:12:25.937959+00:00"
+generated_at: "2026-09-30T18:41:54.638605+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/southborough-ma/", "/service-areas/southborough-ma/fire-damage-restoration/", "/service-areas/southborough-ma/mold-remediation/", "/service-areas/bellingham-ma/reconstruction/", "/service-areas/east-douglas-ma/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Southborough", "url": "/service-areas/southborough-ma/"}, {"name": "reconstruction"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "d0854c1c775ef57b"
-generated_at: "2026-09-30T14:12:01.771190+00:00"
+generated_at: "2026-09-30T18:41:08.974705+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/robert-lee-tx/", "/service-areas/robert-lee-tx/fire-damage-restoration/", "/service-areas/robert-lee-tx/mold-remediation/", "/service-areas/albany-tx/ceiling-water-damage-repair/", "/service-areas/anson-tx/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Robert Lee", "url": "/service-areas/robert-lee-tx/"}, {"name": "ceiling-water-damage-repair"}]

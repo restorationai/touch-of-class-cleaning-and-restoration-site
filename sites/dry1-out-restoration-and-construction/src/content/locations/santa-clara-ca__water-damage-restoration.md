@@ -8,7 +8,7 @@ secondary_keywords: ["water removal", "water extraction", "water cleanup", "stru
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "31cc1514df58093b"
-generated_at: "2026-09-29T14:31:48.421259+00:00"
+generated_at: "2026-09-30T18:41:22.767210+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/santa-clara-ca/", "/service-areas/santa-clara-ca/fire-damage-restoration/", "/service-areas/santa-clara-ca/mold-remediation/", "/service-areas/berkeley-ca/water-damage-restoration/", "/service-areas/carlsbad-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Santa Clara", "url": "/service-areas/santa-clara-ca/"}, {"name": "Water Damage Restoration"}]

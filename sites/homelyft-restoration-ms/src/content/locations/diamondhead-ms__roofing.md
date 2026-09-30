@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "9d156606fe8f4d75"
-generated_at: "2026-09-30T14:12:12.868709+00:00"
+generated_at: "2026-09-30T18:41:37.619260+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/diamondhead-ms/", "/service-areas/diamondhead-ms/fire-damage-restoration/", "/service-areas/diamondhead-ms/mold-remediation/", "/service-areas/agricola-ms/roofing/", "/service-areas/bay-st-louis-ms/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Diamondhead", "url": "/service-areas/diamondhead-ms/"}, {"name": "Roofing Installation and Replacement"}]

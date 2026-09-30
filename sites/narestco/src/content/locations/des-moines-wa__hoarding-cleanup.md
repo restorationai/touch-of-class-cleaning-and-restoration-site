@@ -8,7 +8,7 @@ secondary_keywords: ["hoarder cleanup", "hoarding cleaning services", "hoarding 
 search_intent: "local_sensitive"
 priority: 4.2
 plan_hash: "dc656530dfa22c1a"
-generated_at: "2026-09-30T14:12:21.454254+00:00"
+generated_at: "2026-09-30T18:41:50.441387+00:00"
 manual_override: false
 internal_links: ["/services/hoarding-cleanup/", "/service-areas/des-moines-wa/", "/service-areas/des-moines-wa/fire-damage-restoration/", "/service-areas/des-moines-wa/mold-remediation/", "/service-areas/algona-wa/hoarding-cleanup/", "/service-areas/auburn-wa/hoarding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Des Moines", "url": "/service-areas/des-moines-wa/"}, {"name": "Hoarding Cleanup"}]

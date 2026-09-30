@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "01a0d3401e246367"
-generated_at: "2026-09-29T23:13:49.335135+00:00"
+generated_at: "2026-09-30T18:41:33.379713+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/elm-city-nc/", "/service-areas/elm-city-nc/fire-damage-restoration/", "/service-areas/elm-city-nc/mold-remediation/", "/service-areas/archer-lodge-nc/mold-inspection-testing/", "/service-areas/clayton-nc/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elm City", "url": "/service-areas/elm-city-nc/"}, {"name": "Mold Inspection and Testing"}]

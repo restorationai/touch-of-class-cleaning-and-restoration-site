@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "f3283110cdef8519"
-generated_at: "2026-09-30T14:12:02.634674+00:00"
+generated_at: "2026-09-30T18:41:10.020608+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/andrews-tx/", "/service-areas/andrews-tx/fire-damage-restoration/", "/service-areas/andrews-tx/mold-remediation/", "/service-areas/big-lake-tx/emergency-plumbing/", "/service-areas/big-spring-tx/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Andrews", "url": "/service-areas/andrews-tx/"}, {"name": "emergency-plumbing"}]

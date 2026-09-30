@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "7763e46d39f4384c"
-generated_at: "2026-09-30T14:12:12.899110+00:00"
+generated_at: "2026-09-30T18:41:37.656624+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/saucier-ms/", "/service-areas/saucier-ms/fire-damage-restoration/", "/service-areas/saucier-ms/mold-remediation/", "/service-areas/agricola-ms/industrial-restoration/", "/service-areas/bay-st-louis-ms/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Saucier", "url": "/service-areas/saucier-ms/"}, {"name": "industrial-restoration"}]

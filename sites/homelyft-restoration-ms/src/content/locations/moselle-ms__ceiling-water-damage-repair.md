@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "91b37f1030e85fa1"
-generated_at: "2026-09-30T14:12:13.031975+00:00"
+generated_at: "2026-09-30T18:41:37.820695+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/moselle-ms/", "/service-areas/moselle-ms/fire-damage-restoration/", "/service-areas/moselle-ms/mold-remediation/", "/service-areas/agricola-ms/ceiling-water-damage-repair/", "/service-areas/bay-st-louis-ms/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Moselle", "url": "/service-areas/moselle-ms/"}, {"name": "ceiling-water-damage-repair"}]

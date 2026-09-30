@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "4cdee07e683e146a"
-generated_at: "2026-09-30T14:12:26.094278+00:00"
+generated_at: "2026-09-30T18:41:54.808472+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/palmer-town-ma/", "/service-areas/palmer-town-ma/fire-damage-restoration/", "/service-areas/palmer-town-ma/mold-remediation/", "/service-areas/bellingham-ma/emergency-plumbing/", "/service-areas/east-douglas-ma/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Palmer Town", "url": "/service-areas/palmer-town-ma/"}, {"name": "Emergency Plumbing"}]

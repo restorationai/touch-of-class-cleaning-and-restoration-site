@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 7.2
 plan_hash: "e7b090513c14bacb"
-generated_at: "2026-09-29T23:28:29.461058+00:00"
+generated_at: "2026-09-30T18:41:26.142268+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/anna-maria-fl/ceiling-water-damage-repair/", "/service-areas/apollo-beach-fl/ceiling-water-damage-repair/", "/service-areas/auburndale-fl/ceiling-water-damage-repair/", "/service-areas/bartow-fl/ceiling-water-damage-repair/", "/service-areas/bradenton-fl/ceiling-water-damage-repair/", "/service-areas/brandon-fl/ceiling-water-damage-repair/", "/service-areas/clearwater-beach-fl/ceiling-water-damage-repair/", "/service-areas/clearwater-fl/ceiling-water-damage-repair/", "/service-areas/crystal-springs-fl/ceiling-water-damage-repair/", "/service-areas/dade-city-fl/ceiling-water-damage-repair/", "/service-areas/davenport-fl/ceiling-water-damage-repair/", "/service-areas/dover-fl/ceiling-water-damage-repair/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Ceiling Water Damage Repair"}]

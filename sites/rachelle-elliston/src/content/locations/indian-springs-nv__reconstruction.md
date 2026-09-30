@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "ea0019d6f5442312"
-generated_at: "2026-09-28T20:50:26.616396+00:00"
+generated_at: "2026-09-30T18:41:56.169354+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/indian-springs-nv/", "/service-areas/indian-springs-nv/fire-damage-restoration/", "/service-areas/indian-springs-nv/mold-remediation/", "/service-areas/blue-diamond-nv/reconstruction/", "/service-areas/boulder-city-nv/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Indian Springs", "url": "/service-areas/indian-springs-nv/"}, {"name": "reconstruction"}]

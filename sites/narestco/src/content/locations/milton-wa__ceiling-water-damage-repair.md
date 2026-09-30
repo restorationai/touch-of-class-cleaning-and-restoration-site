@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "af4c0b6951503dbd"
-generated_at: "2026-09-30T14:12:21.486261+00:00"
+generated_at: "2026-09-30T18:41:50.467414+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/milton-wa/", "/service-areas/milton-wa/fire-damage-restoration/", "/service-areas/milton-wa/mold-remediation/", "/service-areas/algona-wa/ceiling-water-damage-repair/", "/service-areas/auburn-wa/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Milton", "url": "/service-areas/milton-wa/"}, {"name": "Ceiling Water Damage Repair"}]

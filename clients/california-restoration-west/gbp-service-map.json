@@ -65,6 +65,12 @@
       "reason": "not a real service: different trade, not restoration service",
       "at": "2026-09-30"
     },
+    "Carpet cleaning service": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
+      "at": "2026-09-30"
+    },
     "Carpet Steam Cleaning": {
       "verdict": "declined",
       "page": null,
@@ -405,6 +411,12 @@
       "page": null,
       "source": "claude",
       "reason": "not a real service: different trade, not restoration service",
+      "at": "2026-09-30"
+    },
+    "Upholstery cleaning service": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
       "at": "2026-09-30"
     },
     "Water Cleanup": {

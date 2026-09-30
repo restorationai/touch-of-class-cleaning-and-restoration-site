@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "f50b85fe267ce830"
-generated_at: "2026-09-29T23:13:48.900052+00:00"
+generated_at: "2026-09-30T18:41:35.542901+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/swanville-mn/", "/service-areas/swanville-mn/fire-damage-restoration/", "/service-areas/swanville-mn/mold-remediation/", "/service-areas/albany-mn/water-heater-flood-cleanup/", "/service-areas/avon-mn/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Swanville", "url": "/service-areas/swanville-mn/"}, {"name": "Water Heater Flood Cleanup"}]

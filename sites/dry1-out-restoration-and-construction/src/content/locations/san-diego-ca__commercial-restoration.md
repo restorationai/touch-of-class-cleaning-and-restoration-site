@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "818378b52600c8c2"
-generated_at: "2026-09-29T14:31:48.320273+00:00"
+generated_at: "2026-09-30T18:41:22.654405+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/san-diego-ca/", "/service-areas/san-diego-ca/fire-damage-restoration/", "/service-areas/san-diego-ca/mold-remediation/", "/service-areas/berkeley-ca/commercial-restoration/", "/service-areas/carlsbad-ca/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Diego", "url": "/service-areas/san-diego-ca/"}, {"name": "commercial-restoration"}]

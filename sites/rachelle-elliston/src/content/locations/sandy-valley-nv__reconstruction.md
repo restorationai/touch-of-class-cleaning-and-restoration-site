@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "9ecdfe96ec6d1b83"
-generated_at: "2026-09-28T20:50:26.611302+00:00"
+generated_at: "2026-09-30T18:41:56.155231+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/sandy-valley-nv/", "/service-areas/sandy-valley-nv/fire-damage-restoration/", "/service-areas/sandy-valley-nv/mold-remediation/", "/service-areas/blue-diamond-nv/reconstruction/", "/service-areas/boulder-city-nv/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sandy Valley", "url": "/service-areas/sandy-valley-nv/"}, {"name": "reconstruction"}]

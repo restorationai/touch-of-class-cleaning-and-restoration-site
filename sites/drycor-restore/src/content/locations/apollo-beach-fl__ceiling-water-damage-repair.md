@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "ef6c6bb54c38d53d"
-generated_at: "2026-09-29T23:28:29.514265+00:00"
+generated_at: "2026-09-30T18:41:26.244473+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/apollo-beach-fl/", "/service-areas/apollo-beach-fl/fire-damage-restoration/", "/service-areas/apollo-beach-fl/mold-remediation/", "/service-areas/anna-maria-fl/ceiling-water-damage-repair/", "/service-areas/auburndale-fl/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Apollo Beach", "url": "/service-areas/apollo-beach-fl/"}, {"name": "Ceiling Water Damage Repair"}]

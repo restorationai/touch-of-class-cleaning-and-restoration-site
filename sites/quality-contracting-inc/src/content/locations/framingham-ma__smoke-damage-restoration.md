@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "3cee715bd10b38cb"
-generated_at: "2026-09-30T14:12:25.949075+00:00"
+generated_at: "2026-09-30T18:41:54.650533+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/framingham-ma/", "/service-areas/framingham-ma/fire-damage-restoration/", "/service-areas/framingham-ma/mold-remediation/", "/service-areas/bellingham-ma/smoke-damage-restoration/", "/service-areas/east-douglas-ma/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Framingham", "url": "/service-areas/framingham-ma/"}, {"name": "smoke-damage-restoration"}]

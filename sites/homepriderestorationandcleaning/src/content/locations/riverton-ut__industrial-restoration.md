@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "71168798f2304c4f"
-generated_at: "2026-09-30T14:12:14.570592+00:00"
+generated_at: "2026-09-30T18:41:40.243989+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/riverton-ut/", "/service-areas/riverton-ut/fire-damage-restoration/", "/service-areas/riverton-ut/mold-remediation/", "/service-areas/alpine-ut/industrial-restoration/", "/service-areas/american-fork-ut/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Riverton", "url": "/service-areas/riverton-ut/"}, {"name": "industrial-restoration"}]

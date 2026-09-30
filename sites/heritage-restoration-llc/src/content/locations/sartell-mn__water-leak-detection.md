@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "c803b2ed5c759c7d"
-generated_at: "2026-09-29T23:13:48.853050+00:00"
+generated_at: "2026-09-30T18:41:35.471823+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/sartell-mn/", "/service-areas/sartell-mn/fire-damage-restoration/", "/service-areas/sartell-mn/mold-remediation/", "/service-areas/albany-mn/water-leak-detection/", "/service-areas/avon-mn/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sartell", "url": "/service-areas/sartell-mn/"}, {"name": "Water Leak Detection"}]

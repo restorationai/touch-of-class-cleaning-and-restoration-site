@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "b7ae29fcafac1162"
-generated_at: "2026-09-29T14:31:48.403852+00:00"
+generated_at: "2026-09-30T18:41:22.746906+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/hayward-ca/", "/service-areas/hayward-ca/fire-damage-restoration/", "/service-areas/hayward-ca/mold-remediation/", "/service-areas/berkeley-ca/general-contracting/", "/service-areas/carlsbad-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hayward", "url": "/service-areas/hayward-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "c118f3a60240c883"
-generated_at: "2026-09-30T14:12:01.783028+00:00"
+generated_at: "2026-09-30T18:41:08.994546+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/san-angelo-tx/", "/service-areas/san-angelo-tx/fire-damage-restoration/", "/service-areas/san-angelo-tx/mold-remediation/", "/service-areas/albany-tx/water-heater-flood-cleanup/", "/service-areas/anson-tx/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Angelo", "url": "/service-areas/san-angelo-tx/"}, {"name": "water-heater-flood-cleanup"}]

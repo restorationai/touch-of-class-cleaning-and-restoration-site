@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "99ea16ad6b52cdb3"
-generated_at: "2026-09-29T23:13:48.860689+00:00"
+generated_at: "2026-09-30T18:41:35.483648+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/brainerd-mn/", "/service-areas/brainerd-mn/fire-damage-restoration/", "/service-areas/brainerd-mn/mold-remediation/", "/service-areas/albany-mn/water-heater-flood-cleanup/", "/service-areas/avon-mn/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Brainerd", "url": "/service-areas/brainerd-mn/"}, {"name": "Water Heater Flood Cleanup"}]

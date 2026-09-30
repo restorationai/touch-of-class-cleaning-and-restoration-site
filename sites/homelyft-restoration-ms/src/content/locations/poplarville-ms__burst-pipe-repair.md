@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "322c0a118893f320"
-generated_at: "2026-09-30T14:12:12.945576+00:00"
+generated_at: "2026-09-30T18:41:37.713859+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/poplarville-ms/", "/service-areas/poplarville-ms/fire-damage-restoration/", "/service-areas/poplarville-ms/mold-remediation/", "/service-areas/agricola-ms/burst-pipe-repair/", "/service-areas/bay-st-louis-ms/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Poplarville", "url": "/service-areas/poplarville-ms/"}, {"name": "burst-pipe-repair"}]

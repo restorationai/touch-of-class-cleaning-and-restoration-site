@@ -8,7 +8,7 @@ secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restorati
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "0e7b0ebdba5000bb"
-generated_at: "2026-09-29T23:13:48.868576+00:00"
+generated_at: "2026-09-30T18:41:35.497791+00:00"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/service-areas/royalton-mn/", "/service-areas/royalton-mn/fire-damage-restoration/", "/service-areas/royalton-mn/mold-remediation/", "/service-areas/albany-mn/flood-damage-restoration/", "/service-areas/avon-mn/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Royalton", "url": "/service-areas/royalton-mn/"}, {"name": "Flood Damage Restoration"}]

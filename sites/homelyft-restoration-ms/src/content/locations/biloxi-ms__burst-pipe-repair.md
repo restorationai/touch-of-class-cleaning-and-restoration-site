@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "2466cb1512e81209"
-generated_at: "2026-09-30T14:12:12.856259+00:00"
+generated_at: "2026-09-30T18:41:37.603514+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/biloxi-ms/", "/service-areas/biloxi-ms/fire-damage-restoration/", "/service-areas/biloxi-ms/mold-remediation/", "/service-areas/agricola-ms/burst-pipe-repair/", "/service-areas/bay-st-louis-ms/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Biloxi", "url": "/service-areas/biloxi-ms/"}, {"name": "burst-pipe-repair"}]

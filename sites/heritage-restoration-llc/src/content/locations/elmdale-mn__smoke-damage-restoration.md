@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "8282225830c23461"
-generated_at: "2026-09-29T23:13:48.887846+00:00"
+generated_at: "2026-09-30T18:41:35.530635+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/elmdale-mn/", "/service-areas/elmdale-mn/fire-damage-restoration/", "/service-areas/elmdale-mn/mold-remediation/", "/service-areas/albany-mn/smoke-damage-restoration/", "/service-areas/avon-mn/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elmdale", "url": "/service-areas/elmdale-mn/"}, {"name": "Smoke Damage Restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "a5ebc2e91ec0fc5b"
-generated_at: "2026-09-29T23:31:28.397834+00:00"
+generated_at: "2026-09-30T18:41:22.802361+00:00"
 manual_override: false
 internal_links: ["/services/vehicle-impact-damage-repair/", "/service-areas/encinitas-ca/", "/service-areas/encinitas-ca/fire-damage-restoration/", "/service-areas/encinitas-ca/mold-remediation/", "/service-areas/berkeley-ca/vehicle-impact-damage-repair/", "/service-areas/carlsbad-ca/vehicle-impact-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Encinitas", "url": "/service-areas/encinitas-ca/"}, {"name": "Vehicle Impact Damage Repair"}]

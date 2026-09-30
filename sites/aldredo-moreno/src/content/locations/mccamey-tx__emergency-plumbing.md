@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "40b67db71cf3150b"
-generated_at: "2026-09-30T14:12:02.658740+00:00"
+generated_at: "2026-09-30T18:41:10.065096+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/mccamey-tx/", "/service-areas/mccamey-tx/fire-damage-restoration/", "/service-areas/mccamey-tx/mold-remediation/", "/service-areas/andrews-tx/emergency-plumbing/", "/service-areas/big-lake-tx/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McCamey", "url": "/service-areas/mccamey-tx/"}, {"name": "emergency-plumbing"}]

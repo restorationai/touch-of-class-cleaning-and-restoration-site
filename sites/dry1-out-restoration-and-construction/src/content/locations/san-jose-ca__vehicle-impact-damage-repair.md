@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "57fc5591b89a939a"
-generated_at: "2026-09-29T23:31:28.358226+00:00"
+generated_at: "2026-09-30T18:41:22.661335+00:00"
 manual_override: false
 internal_links: ["/services/vehicle-impact-damage-repair/", "/service-areas/san-jose-ca/", "/service-areas/san-jose-ca/fire-damage-restoration/", "/service-areas/san-jose-ca/mold-remediation/", "/service-areas/berkeley-ca/vehicle-impact-damage-repair/", "/service-areas/carlsbad-ca/vehicle-impact-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Jose", "url": "/service-areas/san-jose-ca/"}, {"name": "Vehicle Impact Damage Repair"}]

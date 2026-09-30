@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "7727f3894d263175"
-generated_at: "2026-09-30T14:12:07.120146+00:00"
+generated_at: "2026-09-30T18:41:19.820209+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/canfield-oh/", "/service-areas/canfield-oh/fire-damage-restoration/", "/service-areas/canfield-oh/mold-remediation/", "/service-areas/austintown-oh/burst-pipe-repair/", "/service-areas/boardman-oh/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Canfield", "url": "/service-areas/canfield-oh/"}, {"name": "burst-pipe-repair"}]

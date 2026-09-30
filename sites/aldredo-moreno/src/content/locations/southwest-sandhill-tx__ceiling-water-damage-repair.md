@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "bec08b7e2c63b293"
-generated_at: "2026-09-30T14:12:02.661267+00:00"
+generated_at: "2026-09-30T18:41:10.069613+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/southwest-sandhill-tx/", "/service-areas/southwest-sandhill-tx/fire-damage-restoration/", "/service-areas/southwest-sandhill-tx/mold-remediation/", "/service-areas/andrews-tx/ceiling-water-damage-repair/", "/service-areas/big-lake-tx/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Southwest Sandhill", "url": "/service-areas/southwest-sandhill-tx/"}, {"name": "ceiling-water-damage-repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "af2e4a922ce03be8"
-generated_at: "2026-09-30T14:12:01.794868+00:00"
+generated_at: "2026-09-30T18:41:09.013693+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/haskell-tx/", "/service-areas/haskell-tx/fire-damage-restoration/", "/service-areas/haskell-tx/mold-remediation/", "/service-areas/albany-tx/ceiling-water-damage-repair/", "/service-areas/anson-tx/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Haskell", "url": "/service-areas/haskell-tx/"}, {"name": "ceiling-water-damage-repair"}]

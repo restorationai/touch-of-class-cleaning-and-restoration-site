@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "a0544502a21ef4aa"
-generated_at: "2026-09-30T14:12:02.637655+00:00"
+generated_at: "2026-09-30T18:41:10.026090+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/gardendale-tx/", "/service-areas/gardendale-tx/fire-damage-restoration/", "/service-areas/gardendale-tx/mold-remediation/", "/service-areas/andrews-tx/emergency-plumbing/", "/service-areas/big-lake-tx/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gardendale", "url": "/service-areas/gardendale-tx/"}, {"name": "emergency-plumbing"}]

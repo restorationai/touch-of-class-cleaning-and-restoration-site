@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "ccaa38cb05c931b1"
-generated_at: "2026-09-29T14:31:48.437854+00:00"
+generated_at: "2026-09-30T18:41:22.786218+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/concord-ca/", "/service-areas/concord-ca/fire-damage-restoration/", "/service-areas/concord-ca/mold-remediation/", "/service-areas/berkeley-ca/smoke-damage-restoration/", "/service-areas/carlsbad-ca/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Concord", "url": "/service-areas/concord-ca/"}, {"name": "smoke-damage-restoration"}]

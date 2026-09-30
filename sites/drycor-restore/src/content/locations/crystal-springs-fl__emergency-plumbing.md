@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "8528e652dbde23c0"
-generated_at: "2026-09-23T14:11:38.317247+00:00"
+generated_at: "2026-09-30T18:41:26.519307+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/crystal-springs-fl/", "/service-areas/crystal-springs-fl/fire-damage-restoration/", "/service-areas/crystal-springs-fl/mold-remediation/", "/service-areas/anna-maria-fl/emergency-plumbing/", "/service-areas/apollo-beach-fl/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Crystal Springs", "url": "/service-areas/crystal-springs-fl/"}, {"name": "Emergency Plumbing"}]

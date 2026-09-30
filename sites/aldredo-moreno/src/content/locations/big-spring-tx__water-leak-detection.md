@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "63fd94eaf7f95535"
-generated_at: "2026-09-30T14:12:02.628500+00:00"
+generated_at: "2026-09-30T18:41:10.009461+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/big-spring-tx/", "/service-areas/big-spring-tx/fire-damage-restoration/", "/service-areas/big-spring-tx/mold-remediation/", "/service-areas/andrews-tx/water-leak-detection/", "/service-areas/big-lake-tx/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Big Spring", "url": "/service-areas/big-spring-tx/"}, {"name": "water-leak-detection"}]

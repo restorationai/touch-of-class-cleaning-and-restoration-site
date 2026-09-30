@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "3b3ad20ab94b588a"
-generated_at: "2026-09-30T14:12:13.015386+00:00"
+generated_at: "2026-09-30T18:41:37.799131+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/lucedale-ms/", "/service-areas/lucedale-ms/fire-damage-restoration/", "/service-areas/lucedale-ms/mold-remediation/", "/service-areas/agricola-ms/roofing/", "/service-areas/bay-st-louis-ms/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lucedale", "url": "/service-areas/lucedale-ms/"}, {"name": "Roofing Installation and Replacement"}]

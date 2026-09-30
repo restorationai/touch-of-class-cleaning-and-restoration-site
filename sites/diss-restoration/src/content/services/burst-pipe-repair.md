@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 7.2
 plan_hash: "56446af85b8f1fbb"
-generated_at: "2026-09-30T14:12:07.089506+00:00"
+generated_at: "2026-09-30T18:41:19.779505+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/austintown-oh/burst-pipe-repair/", "/service-areas/boardman-oh/burst-pipe-repair/", "/service-areas/campbell-oh/burst-pipe-repair/", "/service-areas/canfield-oh/burst-pipe-repair/", "/service-areas/farrell-pa/burst-pipe-repair/", "/service-areas/girard-oh/burst-pipe-repair/", "/service-areas/greenville-pa/burst-pipe-repair/", "/service-areas/grove-city-pa/burst-pipe-repair/", "/service-areas/hermitage-pa/burst-pipe-repair/", "/service-areas/hubbard-oh/burst-pipe-repair/", "/service-areas/mercer-pa/burst-pipe-repair/", "/service-areas/mineral-ridge-oh/burst-pipe-repair/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "burst-pipe-repair"}]

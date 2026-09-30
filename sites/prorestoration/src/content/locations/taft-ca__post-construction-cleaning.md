@@ -8,7 +8,7 @@ secondary_keywords: ["post construction cleanup", "construction debris cleaning"
 search_intent: "local_service"
 priority: 2.8
 plan_hash: "36a40ca98821ae6d"
-generated_at: "2026-09-30T14:12:22.979279+00:00"
+generated_at: "2026-09-30T18:41:52.019395+00:00"
 manual_override: false
 internal_links: ["/services/post-construction-cleaning/", "/service-areas/taft-ca/", "/service-areas/taft-ca/fire-damage-restoration/", "/service-areas/taft-ca/home-remodeling/", "/service-areas/arvin-ca/post-construction-cleaning/", "/service-areas/bear-valley-springs-ca/post-construction-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Taft", "url": "/service-areas/taft-ca/"}, {"name": "Post-Construction and Specialty Cleaning"}]

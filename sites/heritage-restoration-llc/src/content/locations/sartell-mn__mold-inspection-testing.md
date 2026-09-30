@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "fd289db04750bc83"
-generated_at: "2026-09-29T23:13:48.851811+00:00"
+generated_at: "2026-09-30T18:41:35.469492+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/sartell-mn/", "/service-areas/sartell-mn/fire-damage-restoration/", "/service-areas/sartell-mn/mold-remediation/", "/service-areas/albany-mn/mold-inspection-testing/", "/service-areas/avon-mn/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sartell", "url": "/service-areas/sartell-mn/"}, {"name": "Mold Inspection and Testing"}]

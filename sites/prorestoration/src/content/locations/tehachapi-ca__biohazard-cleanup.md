@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "e4d4adcf3b2f47d4"
-generated_at: "2026-09-30T14:12:22.983971+00:00"
+generated_at: "2026-09-30T18:41:52.022921+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/tehachapi-ca/", "/service-areas/tehachapi-ca/fire-damage-restoration/", "/service-areas/tehachapi-ca/home-remodeling/", "/service-areas/arvin-ca/biohazard-cleanup/", "/service-areas/bear-valley-springs-ca/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tehachapi", "url": "/service-areas/tehachapi-ca/"}, {"name": "Biohazard Cleanup"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "ce68acc8d6adf1f2"
-generated_at: "2026-09-30T14:12:07.182191+00:00"
+generated_at: "2026-09-30T18:41:19.896636+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/greenville-pa/", "/service-areas/greenville-pa/fire-damage-restoration/", "/service-areas/greenville-pa/mold-remediation/", "/service-areas/austintown-oh/industrial-restoration/", "/service-areas/boardman-oh/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Greenville", "url": "/service-areas/greenville-pa/"}, {"name": "industrial-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "42699b910cf32e3a"
-generated_at: "2026-09-29T23:13:49.344445+00:00"
+generated_at: "2026-09-30T18:41:33.400096+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/youngsville-nc/", "/service-areas/youngsville-nc/fire-damage-restoration/", "/service-areas/youngsville-nc/mold-remediation/", "/service-areas/archer-lodge-nc/burst-pipe-repair/", "/service-areas/clayton-nc/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Youngsville", "url": "/service-areas/youngsville-nc/"}, {"name": "Burst Pipe Cleanup and Repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "9e873573a0fa2176"
-generated_at: "2026-09-29T14:31:48.439344+00:00"
+generated_at: "2026-09-30T18:41:22.787705+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/concord-ca/", "/service-areas/concord-ca/fire-damage-restoration/", "/service-areas/concord-ca/mold-remediation/", "/service-areas/berkeley-ca/ceiling-water-damage-repair/", "/service-areas/carlsbad-ca/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Concord", "url": "/service-areas/concord-ca/"}, {"name": "ceiling-water-damage-repair"}]

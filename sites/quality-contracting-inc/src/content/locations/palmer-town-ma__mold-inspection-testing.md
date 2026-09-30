@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "ba06d2716b13dd1e"
-generated_at: "2026-09-30T14:12:26.098673+00:00"
+generated_at: "2026-09-30T18:41:54.813242+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/palmer-town-ma/", "/service-areas/palmer-town-ma/fire-damage-restoration/", "/service-areas/palmer-town-ma/mold-remediation/", "/service-areas/bellingham-ma/mold-inspection-testing/", "/service-areas/east-douglas-ma/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Palmer Town", "url": "/service-areas/palmer-town-ma/"}, {"name": "mold-inspection-testing"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "e85a88f55c251f06"
-generated_at: "2026-09-29T14:31:48.414889+00:00"
+generated_at: "2026-09-30T18:41:22.759620+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/sunnyvale-ca/", "/service-areas/sunnyvale-ca/fire-damage-restoration/", "/service-areas/sunnyvale-ca/mold-remediation/", "/service-areas/berkeley-ca/smoke-damage-restoration/", "/service-areas/carlsbad-ca/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sunnyvale", "url": "/service-areas/sunnyvale-ca/"}, {"name": "smoke-damage-restoration"}]

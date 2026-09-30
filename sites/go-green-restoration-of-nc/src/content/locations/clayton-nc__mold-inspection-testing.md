@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "8bc3f454075354de"
-generated_at: "2026-09-29T23:13:49.311749+00:00"
+generated_at: "2026-09-30T18:41:33.332455+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/clayton-nc/", "/service-areas/clayton-nc/fire-damage-restoration/", "/service-areas/clayton-nc/mold-remediation/", "/service-areas/archer-lodge-nc/mold-inspection-testing/", "/service-areas/durham-nc/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Clayton", "url": "/service-areas/clayton-nc/"}, {"name": "Mold Inspection and Testing"}]

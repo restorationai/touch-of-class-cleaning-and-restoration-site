@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "7847d7b18552ea63"
-generated_at: "2026-09-30T14:12:02.663924+00:00"
+generated_at: "2026-09-30T18:41:10.074096+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/big-lake-tx/", "/service-areas/big-lake-tx/fire-damage-restoration/", "/service-areas/big-lake-tx/mold-remediation/", "/service-areas/andrews-tx/reconstruction/", "/service-areas/big-spring-tx/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Big Lake", "url": "/service-areas/big-lake-tx/"}, {"name": "reconstruction"}]

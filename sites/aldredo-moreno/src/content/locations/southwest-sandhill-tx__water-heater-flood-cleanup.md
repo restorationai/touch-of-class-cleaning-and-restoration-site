@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "135ef63f337ee05b"
-generated_at: "2026-09-30T14:12:02.661442+00:00"
+generated_at: "2026-09-30T18:41:10.069905+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/southwest-sandhill-tx/", "/service-areas/southwest-sandhill-tx/fire-damage-restoration/", "/service-areas/southwest-sandhill-tx/mold-remediation/", "/service-areas/andrews-tx/water-heater-flood-cleanup/", "/service-areas/big-lake-tx/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Southwest Sandhill", "url": "/service-areas/southwest-sandhill-tx/"}, {"name": "water-heater-flood-cleanup"}]

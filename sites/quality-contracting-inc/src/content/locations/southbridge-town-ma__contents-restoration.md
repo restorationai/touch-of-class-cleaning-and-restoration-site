@@ -8,7 +8,7 @@ secondary_keywords: ["contents pack-out", "contents cleaning", "belongings resto
 search_intent: "local_service"
 priority: 3.5
 plan_hash: "4a934f67ce6b1967"
-generated_at: "2026-09-30T14:12:26.012025+00:00"
+generated_at: "2026-09-30T18:41:54.719972+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration/", "/service-areas/southbridge-town-ma/", "/service-areas/southbridge-town-ma/fire-damage-restoration/", "/service-areas/southbridge-town-ma/mold-remediation/", "/service-areas/bellingham-ma/contents-restoration/", "/service-areas/east-douglas-ma/contents-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Southbridge Town", "url": "/service-areas/southbridge-town-ma/"}, {"name": "Contents Restoration and Storage"}]

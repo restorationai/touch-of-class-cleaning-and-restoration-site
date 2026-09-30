@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "7b0451494c878d7d"
-generated_at: "2026-09-30T14:12:14.537787+00:00"
+generated_at: "2026-09-30T18:41:40.204662+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/eagle-mountain-ut/", "/service-areas/eagle-mountain-ut/fire-damage-restoration/", "/service-areas/eagle-mountain-ut/mold-remediation/", "/service-areas/alpine-ut/general-contracting/", "/service-areas/american-fork-ut/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Eagle Mountain", "url": "/service-areas/eagle-mountain-ut/"}, {"name": "general-contracting"}]

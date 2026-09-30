@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "2036d23aab5f16cc"
-generated_at: "2026-09-29T23:31:28.379981+00:00"
+generated_at: "2026-09-30T18:41:22.737354+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up/", "/service-areas/temecula-ca/", "/service-areas/temecula-ca/fire-damage-restoration/", "/service-areas/temecula-ca/mold-remediation/", "/service-areas/berkeley-ca/emergency-board-up/", "/service-areas/carlsbad-ca/emergency-board-up/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Temecula", "url": "/service-areas/temecula-ca/"}, {"name": "Emergency Board Up"}]

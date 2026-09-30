@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "60a8e21963e064a1"
-generated_at: "2026-09-30T14:12:09.781362+00:00"
+generated_at: "2026-09-30T18:41:21.633901+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/fontana-ca/", "/service-areas/fontana-ca/fire-damage-restoration/", "/service-areas/fontana-ca/mold-remediation/", "/service-areas/anaheim-ca/roofing/", "/service-areas/chino-ca/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fontana", "url": "/service-areas/fontana-ca/"}, {"name": "Roofing Installation and Replacement"}]

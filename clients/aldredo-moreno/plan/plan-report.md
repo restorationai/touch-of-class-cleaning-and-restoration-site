@@ -1,20 +1,20 @@
 # Site Plan Report — ACS Enterprise 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T14:12:02.179503+00:00
-- Domain: `theacs-enterprises.com`
-- Services selected: 27 of 91 catalog entries
+- Generated: 2026-09-30T18:41:09.457168+00:00
+- Domain: `theacsenterprises.com`
+- Services selected: 24 of 91 catalog entries
 - Service areas: 16
 - Cross-product enabled: True
-- Total URLs: **464**
-- Total internal links: 3852 (avg 8.3 per page)
+- Total URLs: **416**
+- Total internal links: 3444 (avg 8.3 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 405 |
-| `service-landing` | 27 |
+| `service-area-service` | 360 |
+| `service-landing` | 24 |
 | `service-area` | 15 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -28,14 +28,12 @@
 ## Selected services
 
 - `air-duct-cleaning` — Air Duct Cleaning (adjacent, priority 5)
-- `air-duct-hvac-cleaning` — Air Duct & HVAC Cleaning (adjacent, priority 5)
 - `carpet-cleaning` — Carpet Cleaning (adjacent, priority 4)
-- `carpet-upholstery-cleaning` — Carpet & Upholstery Cleaning (adjacent, priority 5)
+- `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
 - `junk-debris-removal` — Junk & Debris Removal (adjacent, priority 5)
 - `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `tile-grout-cleaning` — Tile & Grout Cleaning (adjacent, priority 4)
-- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
 - `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
@@ -52,7 +50,6 @@
 - `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
 - `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
-- `emergency-water-removal` — 24/7 Emergency Water Removal (core, priority 9)
 - `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 
 ## Service areas
@@ -83,7 +80,7 @@
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration midland |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration midland |
 | `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing midland |
-| `/services/emergency-water-removal/` | `service-landing` | 8.1 | 24/7 emergency water removal midland |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup midland |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration midland |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services midland |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization midland |

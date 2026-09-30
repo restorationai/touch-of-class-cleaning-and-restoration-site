@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "855b05a24a49ef3a"
-generated_at: "2026-09-23T14:11:38.272202+00:00"
+generated_at: "2026-09-30T18:41:26.296392+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/bartow-fl/", "/service-areas/bartow-fl/fire-damage-restoration/", "/service-areas/bartow-fl/mold-remediation/", "/service-areas/anna-maria-fl/emergency-plumbing/", "/service-areas/apollo-beach-fl/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bartow", "url": "/service-areas/bartow-fl/"}, {"name": "Emergency Plumbing"}]

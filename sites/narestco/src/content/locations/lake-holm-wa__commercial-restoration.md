@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "64c28349fc61b4ef"
-generated_at: "2026-09-30T14:12:21.582978+00:00"
+generated_at: "2026-09-30T18:41:50.550173+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/lake-holm-wa/", "/service-areas/lake-holm-wa/fire-damage-restoration/", "/service-areas/lake-holm-wa/mold-remediation/", "/service-areas/algona-wa/commercial-restoration/", "/service-areas/auburn-wa/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Holm", "url": "/service-areas/lake-holm-wa/"}, {"name": "Commercial Restoration"}]

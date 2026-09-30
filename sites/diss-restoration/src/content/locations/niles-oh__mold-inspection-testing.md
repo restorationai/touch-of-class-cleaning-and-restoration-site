@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "0f9da2b7ecdedf1d"
-generated_at: "2026-09-30T14:12:07.109246+00:00"
+generated_at: "2026-09-30T18:41:19.805672+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/niles-oh/", "/service-areas/niles-oh/fire-damage-restoration/", "/service-areas/niles-oh/mold-remediation/", "/service-areas/austintown-oh/mold-inspection-testing/", "/service-areas/boardman-oh/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Niles", "url": "/service-areas/niles-oh/"}, {"name": "mold-inspection-testing"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "1d47b1a76de864e9"
-generated_at: "2026-09-30T14:12:01.764440+00:00"
+generated_at: "2026-09-30T18:41:08.963382+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/roby-tx/", "/service-areas/roby-tx/fire-damage-restoration/", "/service-areas/roby-tx/mold-remediation/", "/service-areas/albany-tx/mold-inspection-testing/", "/service-areas/anson-tx/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Roby", "url": "/service-areas/roby-tx/"}, {"name": "mold-inspection-testing"}]

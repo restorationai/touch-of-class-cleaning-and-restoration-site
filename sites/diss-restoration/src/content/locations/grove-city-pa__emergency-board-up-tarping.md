@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "de4c327fe493d0fe"
-generated_at: "2026-09-30T14:12:07.185370+00:00"
+generated_at: "2026-09-30T18:41:19.900236+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/grove-city-pa/", "/service-areas/grove-city-pa/fire-damage-restoration/", "/service-areas/grove-city-pa/mold-remediation/", "/service-areas/austintown-oh/emergency-board-up-tarping/", "/service-areas/boardman-oh/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Grove City", "url": "/service-areas/grove-city-pa/"}, {"name": "Emergency Board-Up and Tarping"}]

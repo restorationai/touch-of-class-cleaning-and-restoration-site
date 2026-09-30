@@ -8,7 +8,7 @@ secondary_keywords: ["lead paint removal", "lead paint testing", "lead-safe reno
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "7a9d9453c1c77f5a"
-generated_at: "2026-09-30T14:12:19.445252+00:00"
+generated_at: "2026-09-30T18:41:44.209365+00:00"
 manual_override: false
 internal_links: ["/services/lead-paint-abatement/", "/service-areas/glenshaw-pa/", "/service-areas/glenshaw-pa/fire-damage-restoration/", "/service-areas/glenshaw-pa/roofing/", "/service-areas/allison-park-pa/lead-paint-abatement/", "/service-areas/baldwin-pa/lead-paint-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Glenshaw", "url": "/service-areas/glenshaw-pa/"}, {"name": "Lead Paint Abatement"}]

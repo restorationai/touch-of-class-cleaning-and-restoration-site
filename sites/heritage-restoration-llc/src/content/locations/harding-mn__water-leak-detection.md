@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "26f96183ad100a34"
-generated_at: "2026-09-29T23:13:48.911374+00:00"
+generated_at: "2026-09-30T18:41:35.561014+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/harding-mn/", "/service-areas/harding-mn/fire-damage-restoration/", "/service-areas/harding-mn/mold-remediation/", "/service-areas/albany-mn/water-leak-detection/", "/service-areas/avon-mn/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Harding", "url": "/service-areas/harding-mn/"}, {"name": "Water Leak Detection"}]

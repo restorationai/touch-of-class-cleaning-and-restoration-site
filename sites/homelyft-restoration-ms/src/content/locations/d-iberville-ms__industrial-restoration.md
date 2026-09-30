@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "c35464bca24f952c"
-generated_at: "2026-09-30T14:12:12.861624+00:00"
+generated_at: "2026-09-30T18:41:37.610730+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/d-iberville-ms/", "/service-areas/d-iberville-ms/fire-damage-restoration/", "/service-areas/d-iberville-ms/mold-remediation/", "/service-areas/agricola-ms/industrial-restoration/", "/service-areas/bay-st-louis-ms/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "D'Iberville", "url": "/service-areas/d-iberville-ms/"}, {"name": "industrial-restoration"}]

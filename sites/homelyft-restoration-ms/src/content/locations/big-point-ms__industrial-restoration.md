@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "98332c812e266b8b"
-generated_at: "2026-09-30T14:12:12.951051+00:00"
+generated_at: "2026-09-30T18:41:37.721461+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/big-point-ms/", "/service-areas/big-point-ms/fire-damage-restoration/", "/service-areas/big-point-ms/mold-remediation/", "/service-areas/agricola-ms/industrial-restoration/", "/service-areas/bay-st-louis-ms/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Big Point", "url": "/service-areas/big-point-ms/"}, {"name": "industrial-restoration"}]

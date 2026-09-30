@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "4ee3975d20e803ed"
-generated_at: "2026-09-30T14:12:02.652425+00:00"
+generated_at: "2026-09-30T18:41:10.053089+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/crane-tx/", "/service-areas/crane-tx/fire-damage-restoration/", "/service-areas/crane-tx/mold-remediation/", "/service-areas/andrews-tx/water-leak-detection/", "/service-areas/big-lake-tx/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Crane", "url": "/service-areas/crane-tx/"}, {"name": "water-leak-detection"}]

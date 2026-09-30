@@ -8,7 +8,7 @@ secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restorati
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "e6fd493d660b2b9b"
-generated_at: "2026-09-30T14:12:14.532479+00:00"
+generated_at: "2026-09-30T18:41:40.197780+00:00"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/service-areas/lehi-ut/", "/service-areas/lehi-ut/fire-damage-restoration/", "/service-areas/lehi-ut/mold-remediation/", "/service-areas/alpine-ut/flood-damage-restoration/", "/service-areas/american-fork-ut/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lehi", "url": "/service-areas/lehi-ut/"}, {"name": "flood-damage-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "8ee162de1d3ae963"
-generated_at: "2026-09-29T23:13:49.311151+00:00"
+generated_at: "2026-09-30T18:41:33.331558+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/clayton-nc/", "/service-areas/clayton-nc/fire-damage-restoration/", "/service-areas/clayton-nc/mold-remediation/", "/service-areas/archer-lodge-nc/industrial-restoration/", "/service-areas/durham-nc/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Clayton", "url": "/service-areas/clayton-nc/"}, {"name": "Industrial Restoration"}]

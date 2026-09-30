@@ -11,17 +11,23 @@
     "state": "ca",
     "postal_code": "93454",
     "theme": "light",
-    "primary_color": "#e6ac1a",
-    "certifications": "IICRC Certified Firm; WRT (Water Damage Restoration Technician); ASD (Applied Structural Drying)",
+    "primary_color": "#14144a",
+    "certifications": [
+      "IICRC Certified Firm",
+      "WRT (Water Damage Restoration Technician)",
+      "ASD (Applied Structural Drying)"
+    ],
     "license_numbers": [
       "11245226"
     ],
     "ga4_measurement_id": "G-VHZE6NYBPE",
-    "domain": "callcrs.com"
+    "domain": "callcrs.com",
+    "home_about_blurb": "Coastal Restoration Services Inc serves Santa Maria and the surrounding CA area with full-service damage restoration. From emergency water extraction, structural drying, and mold remediation to fire and smoke cleanup, sewage removal, and crawl space encapsulation, our technicians handle it all, and we answer the phone 24/7, so help is on the way the moment something goes wrong."
   },
   "services": [
     "biohazard-cleanup",
     "contents-restoration",
+    "contents-restoration-storage",
     "crawl-space-encapsulation",
     "emergency-board-up-tarping",
     "fire-damage-restoration",
@@ -192,5 +198,18 @@
     }
   ],
   "template": "restoration",
-  "blog_seed_count": 8
+  "blog_seed_count": 8,
+  "homepage_services": [
+    "fire-damage-restoration",
+    "mold-remediation",
+    "water-damage-restoration",
+    "sewage-cleanup",
+    "storm-damage-restoration",
+    "biohazard-cleanup"
+  ],
+  "merged_services": {
+    "contents-restoration-storage": "contents-restoration",
+    "vandalism-graffiti-removal": "vandalism-cleanup",
+    "water-cleanup": "emergency-water-removal"
+  }
 }

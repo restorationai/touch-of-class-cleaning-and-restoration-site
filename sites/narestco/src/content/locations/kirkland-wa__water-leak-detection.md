@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "4f238a649b04f0d8"
-generated_at: "2026-09-30T14:12:21.399709+00:00"
+generated_at: "2026-09-30T18:41:50.398176+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/kirkland-wa/", "/service-areas/kirkland-wa/fire-damage-restoration/", "/service-areas/kirkland-wa/mold-remediation/", "/service-areas/algona-wa/water-leak-detection/", "/service-areas/auburn-wa/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Kirkland", "url": "/service-areas/kirkland-wa/"}, {"name": "Water Leak Detection"}]

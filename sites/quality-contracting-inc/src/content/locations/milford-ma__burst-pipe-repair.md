@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "253c574a714d4ceb"
-generated_at: "2026-09-30T14:12:26.039195+00:00"
+generated_at: "2026-09-30T18:41:54.748825+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/milford-ma/", "/service-areas/milford-ma/fire-damage-restoration/", "/service-areas/milford-ma/mold-remediation/", "/service-areas/bellingham-ma/burst-pipe-repair/", "/service-areas/east-douglas-ma/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Milford", "url": "/service-areas/milford-ma/"}, {"name": "burst-pipe-repair"}]

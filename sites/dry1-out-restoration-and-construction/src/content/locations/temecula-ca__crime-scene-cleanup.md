@@ -8,7 +8,7 @@ secondary_keywords: ["crime scene cleaning", "forensic cleanup", "post-crime cle
 search_intent: "local_sensitive"
 priority: 4.2
 plan_hash: "d87ded566b4e0d8e"
-generated_at: "2026-09-29T14:31:48.395483+00:00"
+generated_at: "2026-09-30T18:41:22.737036+00:00"
 manual_override: false
 internal_links: ["/services/crime-scene-cleanup/", "/service-areas/temecula-ca/", "/service-areas/temecula-ca/fire-damage-restoration/", "/service-areas/temecula-ca/mold-remediation/", "/service-areas/berkeley-ca/crime-scene-cleanup/", "/service-areas/carlsbad-ca/crime-scene-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Temecula", "url": "/service-areas/temecula-ca/"}, {"name": "Crime Scene Cleanup"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "3f94f388318fcf29"
-generated_at: "2026-09-29T14:31:48.440853+00:00"
+generated_at: "2026-09-30T18:41:22.788965+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/berkeley-ca/", "/service-areas/berkeley-ca/fire-damage-restoration/", "/service-areas/berkeley-ca/mold-remediation/", "/service-areas/carlsbad-ca/biohazard-cleanup/", "/service-areas/chula-vista-ca/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Berkeley", "url": "/service-areas/berkeley-ca/"}, {"name": "Biohazard Cleanup"}]

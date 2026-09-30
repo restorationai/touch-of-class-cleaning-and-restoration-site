@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "a5966728a8f35c97"
-generated_at: "2026-09-30T14:12:01.793780+00:00"
+generated_at: "2026-09-30T18:41:09.011262+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/haskell-tx/", "/service-areas/haskell-tx/fire-damage-restoration/", "/service-areas/haskell-tx/mold-remediation/", "/service-areas/albany-tx/burst-pipe-repair/", "/service-areas/anson-tx/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Haskell", "url": "/service-areas/haskell-tx/"}, {"name": "burst-pipe-repair"}]

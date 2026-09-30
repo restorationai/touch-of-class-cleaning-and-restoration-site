@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "edc799af2db4a4ad"
-generated_at: "2026-09-29T23:13:49.341172+00:00"
+generated_at: "2026-09-30T18:41:33.393699+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/louisburg-nc/", "/service-areas/louisburg-nc/fire-damage-restoration/", "/service-areas/louisburg-nc/mold-remediation/", "/service-areas/archer-lodge-nc/emergency-plumbing/", "/service-areas/clayton-nc/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Louisburg", "url": "/service-areas/louisburg-nc/"}, {"name": "Emergency Plumbing"}]

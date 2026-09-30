@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "fd8fe1d26753759e"
-generated_at: "2026-09-30T14:12:02.645872+00:00"
+generated_at: "2026-09-30T18:41:10.040843+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/west-odessa-tx/", "/service-areas/west-odessa-tx/fire-damage-restoration/", "/service-areas/west-odessa-tx/mold-remediation/", "/service-areas/andrews-tx/general-contracting/", "/service-areas/big-lake-tx/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "West Odessa", "url": "/service-areas/west-odessa-tx/"}, {"name": "general-contracting"}]

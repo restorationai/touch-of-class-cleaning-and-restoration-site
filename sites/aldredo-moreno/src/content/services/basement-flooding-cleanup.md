@@ -8,7 +8,7 @@ secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet 
 search_intent: "local_emergency"
 priority: 7.2
 plan_hash: "f7062fc095f0e93f"
-generated_at: "2026-09-30T14:12:02.619845+00:00"
+generated_at: "2026-09-30T18:41:09.993896+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/basement-flooding-cleanup/", "/service-areas/big-lake-tx/basement-flooding-cleanup/", "/service-areas/big-spring-tx/basement-flooding-cleanup/", "/service-areas/crane-tx/basement-flooding-cleanup/", "/service-areas/garden-city-tx/basement-flooding-cleanup/", "/service-areas/gardendale-tx/basement-flooding-cleanup/", "/service-areas/goldsmith-tx/basement-flooding-cleanup/", "/service-areas/greenwood-tx/basement-flooding-cleanup/", "/service-areas/imperial-tx/basement-flooding-cleanup/", "/service-areas/mccamey-tx/basement-flooding-cleanup/", "/service-areas/monahans-tx/basement-flooding-cleanup/", "/service-areas/odessa-tx/basement-flooding-cleanup/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "basement-flooding-cleanup"}]

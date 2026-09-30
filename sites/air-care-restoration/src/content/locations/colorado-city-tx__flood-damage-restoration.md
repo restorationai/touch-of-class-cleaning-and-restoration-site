@@ -8,7 +8,7 @@ secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restorati
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "46eab3504f7f2c2f"
-generated_at: "2026-09-30T14:12:01.802424+00:00"
+generated_at: "2026-09-30T18:41:09.025854+00:00"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/service-areas/colorado-city-tx/", "/service-areas/colorado-city-tx/fire-damage-restoration/", "/service-areas/colorado-city-tx/mold-remediation/", "/service-areas/albany-tx/flood-damage-restoration/", "/service-areas/anson-tx/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Colorado City", "url": "/service-areas/colorado-city-tx/"}, {"name": "flood-damage-restoration"}]

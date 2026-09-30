@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "261108b006037d75"
-generated_at: "2026-09-29T23:13:48.874712+00:00"
+generated_at: "2026-09-30T18:41:35.509115+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/sobieski-mn/", "/service-areas/sobieski-mn/fire-damage-restoration/", "/service-areas/sobieski-mn/mold-remediation/", "/service-areas/albany-mn/emergency-plumbing/", "/service-areas/avon-mn/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sobieski", "url": "/service-areas/sobieski-mn/"}, {"name": "Emergency Plumbing"}]

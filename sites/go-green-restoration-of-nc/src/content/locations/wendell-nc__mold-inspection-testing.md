@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "f09ef1969cc6cc7b"
-generated_at: "2026-09-29T23:13:49.293628+00:00"
+generated_at: "2026-09-30T18:41:33.293238+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/wendell-nc/", "/service-areas/wendell-nc/fire-damage-restoration/", "/service-areas/wendell-nc/mold-remediation/", "/service-areas/archer-lodge-nc/mold-inspection-testing/", "/service-areas/clayton-nc/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wendell", "url": "/service-areas/wendell-nc/"}, {"name": "Mold Inspection and Testing"}]

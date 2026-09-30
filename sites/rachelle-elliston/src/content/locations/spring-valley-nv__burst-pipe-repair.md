@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "c571128fe74ee000"
-generated_at: "2026-09-28T20:50:26.584884+00:00"
+generated_at: "2026-09-30T18:41:56.092183+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/spring-valley-nv/", "/service-areas/spring-valley-nv/fire-damage-restoration/", "/service-areas/spring-valley-nv/mold-remediation/", "/service-areas/blue-diamond-nv/burst-pipe-repair/", "/service-areas/boulder-city-nv/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Spring Valley", "url": "/service-areas/spring-valley-nv/"}, {"name": "burst-pipe-repair"}]

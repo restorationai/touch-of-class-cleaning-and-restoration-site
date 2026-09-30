@@ -78,6 +78,16 @@
     ],
     "missing_stubs": []
   },
+  "/services/emergency-water-removal/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/services/fire-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
@@ -478,6 +488,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/las-vegas-nv/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/las-vegas-nv/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -689,6 +709,16 @@
     "missing_stubs": []
   },
   "/service-areas/henderson-nv/contents-restoration-storage/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/henderson-nv/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -918,6 +948,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/paradise-nv/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/paradise-nv/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1129,6 +1169,16 @@
     "missing_stubs": []
   },
   "/service-areas/spring-valley-nv/contents-restoration-storage/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/spring-valley-nv/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1358,6 +1408,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/sunrise-manor-nv/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/sunrise-manor-nv/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1569,6 +1629,16 @@
     "missing_stubs": []
   },
   "/service-areas/enterprise-nv/contents-restoration-storage/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/enterprise-nv/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1798,6 +1868,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/summerlin-nv/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/summerlin-nv/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2009,6 +2089,16 @@
     "missing_stubs": []
   },
   "/service-areas/boulder-city-nv/contents-restoration-storage/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/boulder-city-nv/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2238,6 +2328,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/winchester-nv/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/winchester-nv/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2449,6 +2549,16 @@
     "missing_stubs": []
   },
   "/service-areas/whitney-nv/contents-restoration-storage/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/whitney-nv/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2678,6 +2788,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/summerlin-south-nv/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/summerlin-south-nv/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2889,6 +3009,16 @@
     "missing_stubs": []
   },
   "/service-areas/blue-diamond-nv/contents-restoration-storage/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/blue-diamond-nv/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3118,6 +3248,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/mount-charleston-nv/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/mount-charleston-nv/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3329,6 +3469,16 @@
     "missing_stubs": []
   },
   "/service-areas/sandy-valley-nv/contents-restoration-storage/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sandy-valley-nv/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3558,6 +3708,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/nelson-nv/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/nelson-nv/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3769,6 +3929,16 @@
     "missing_stubs": []
   },
   "/service-areas/indian-springs-nv/contents-restoration-storage/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/indian-springs-nv/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3998,6 +4168,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/moapa-town-nv/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/moapa-town-nv/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4209,6 +4389,16 @@
     "missing_stubs": []
   },
   "/service-areas/moapa-valley-nv/contents-restoration-storage/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/moapa-valley-nv/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4438,6 +4628,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/searchlight-nv/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/searchlight-nv/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4649,6 +4849,16 @@
     "missing_stubs": []
   },
   "/service-areas/pahrump-nv/contents-restoration-storage/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/pahrump-nv/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

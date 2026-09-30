@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "30e36fbc082171ab"
-generated_at: "2026-09-29T23:28:29.580989+00:00"
+generated_at: "2026-09-30T18:41:26.376949+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/lake-wales-fl/", "/service-areas/lake-wales-fl/fire-damage-restoration/", "/service-areas/lake-wales-fl/mold-remediation/", "/service-areas/anna-maria-fl/industrial-restoration/", "/service-areas/apollo-beach-fl/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Wales", "url": "/service-areas/lake-wales-fl/"}, {"name": "Industrial Restoration"}]

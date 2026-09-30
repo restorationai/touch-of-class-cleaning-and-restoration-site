@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "788ce0235969756e"
-generated_at: "2026-09-30T14:12:26.018523+00:00"
+generated_at: "2026-09-30T18:41:54.727400+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/sturbridge-ma/", "/service-areas/sturbridge-ma/fire-damage-restoration/", "/service-areas/sturbridge-ma/mold-remediation/", "/service-areas/bellingham-ma/asbestos-abatement/", "/service-areas/east-douglas-ma/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sturbridge", "url": "/service-areas/sturbridge-ma/"}, {"name": "Asbestos Abatement"}]

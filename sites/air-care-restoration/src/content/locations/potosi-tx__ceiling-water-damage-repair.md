@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "02a04c13483289c9"
-generated_at: "2026-09-30T14:12:01.809600+00:00"
+generated_at: "2026-09-30T18:41:09.038201+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/potosi-tx/", "/service-areas/potosi-tx/fire-damage-restoration/", "/service-areas/potosi-tx/mold-remediation/", "/service-areas/albany-tx/ceiling-water-damage-repair/", "/service-areas/anson-tx/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Potosi", "url": "/service-areas/potosi-tx/"}, {"name": "ceiling-water-damage-repair"}]

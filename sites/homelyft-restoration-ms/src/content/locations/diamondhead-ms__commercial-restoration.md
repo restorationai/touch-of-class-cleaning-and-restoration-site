@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "6c74413eaf235013"
-generated_at: "2026-09-30T14:12:12.871042+00:00"
+generated_at: "2026-09-30T18:41:37.621963+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/diamondhead-ms/", "/service-areas/diamondhead-ms/fire-damage-restoration/", "/service-areas/diamondhead-ms/mold-remediation/", "/service-areas/agricola-ms/commercial-restoration/", "/service-areas/bay-st-louis-ms/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Diamondhead", "url": "/service-areas/diamondhead-ms/"}, {"name": "commercial-restoration"}]

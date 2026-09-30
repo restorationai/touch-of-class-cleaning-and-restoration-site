@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "3aaab3ea66753a26"
-generated_at: "2026-09-30T14:12:02.653702+00:00"
+generated_at: "2026-09-30T18:41:10.054520+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/monahans-tx/", "/service-areas/monahans-tx/fire-damage-restoration/", "/service-areas/monahans-tx/mold-remediation/", "/service-areas/andrews-tx/burst-pipe-repair/", "/service-areas/big-lake-tx/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Monahans", "url": "/service-areas/monahans-tx/"}, {"name": "burst-pipe-repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "8feb1cb25697b8a2"
-generated_at: "2026-09-30T14:12:07.112910+00:00"
+generated_at: "2026-09-30T18:41:19.810730+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/girard-oh/", "/service-areas/girard-oh/fire-damage-restoration/", "/service-areas/girard-oh/mold-remediation/", "/service-areas/austintown-oh/mold-inspection-testing/", "/service-areas/boardman-oh/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Girard", "url": "/service-areas/girard-oh/"}, {"name": "mold-inspection-testing"}]

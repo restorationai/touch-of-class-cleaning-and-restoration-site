@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "2f45eef7794d044f"
-generated_at: "2026-09-30T14:12:26.090827+00:00"
+generated_at: "2026-09-30T18:41:54.805122+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/franklin-town-ma/", "/service-areas/franklin-town-ma/fire-damage-restoration/", "/service-areas/franklin-town-ma/mold-remediation/", "/service-areas/bellingham-ma/reconstruction/", "/service-areas/east-douglas-ma/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Franklin Town", "url": "/service-areas/franklin-town-ma/"}, {"name": "reconstruction"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "357cb2d6f7dd7866"
-generated_at: "2026-09-30T14:12:25.995340+00:00"
+generated_at: "2026-09-30T18:41:54.703099+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/east-douglas-ma/", "/service-areas/east-douglas-ma/fire-damage-restoration/", "/service-areas/east-douglas-ma/mold-remediation/", "/service-areas/bellingham-ma/biohazard-cleanup/", "/service-areas/fiskdale-ma/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "East Douglas", "url": "/service-areas/east-douglas-ma/"}, {"name": "Biohazard Cleanup"}]

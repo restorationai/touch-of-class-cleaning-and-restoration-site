@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "944a9574110f54f0"
-generated_at: "2026-09-30T14:12:01.767136+00:00"
+generated_at: "2026-09-30T18:41:08.967318+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/rotan-tx/", "/service-areas/rotan-tx/fire-damage-restoration/", "/service-areas/rotan-tx/mold-remediation/", "/service-areas/albany-tx/burst-pipe-repair/", "/service-areas/anson-tx/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rotan", "url": "/service-areas/rotan-tx/"}, {"name": "burst-pipe-repair"}]

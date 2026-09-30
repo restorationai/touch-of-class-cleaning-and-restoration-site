@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "66e1bc08eaa8d840"
-generated_at: "2026-09-29T23:31:28.377834+00:00"
+generated_at: "2026-09-30T18:41:22.728582+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up/", "/service-areas/san-marcos-ca/", "/service-areas/san-marcos-ca/fire-damage-restoration/", "/service-areas/san-marcos-ca/mold-remediation/", "/service-areas/berkeley-ca/emergency-board-up/", "/service-areas/carlsbad-ca/emergency-board-up/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Marcos", "url": "/service-areas/san-marcos-ca/"}, {"name": "Emergency Board Up"}]

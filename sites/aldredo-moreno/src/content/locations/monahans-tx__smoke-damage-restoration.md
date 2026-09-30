@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "4546f59f5430d552"
-generated_at: "2026-09-30T14:12:02.654116+00:00"
+generated_at: "2026-09-30T18:41:10.055438+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/monahans-tx/", "/service-areas/monahans-tx/fire-damage-restoration/", "/service-areas/monahans-tx/mold-remediation/", "/service-areas/andrews-tx/smoke-damage-restoration/", "/service-areas/big-lake-tx/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Monahans", "url": "/service-areas/monahans-tx/"}, {"name": "smoke-damage-restoration"}]

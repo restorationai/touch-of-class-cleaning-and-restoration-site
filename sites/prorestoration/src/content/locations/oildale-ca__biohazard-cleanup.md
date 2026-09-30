@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "1d665a3935215b82"
-generated_at: "2026-09-30T14:12:22.942925+00:00"
+generated_at: "2026-09-30T18:41:51.987231+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/oildale-ca/", "/service-areas/oildale-ca/fire-damage-restoration/", "/service-areas/oildale-ca/home-remodeling/", "/service-areas/arvin-ca/biohazard-cleanup/", "/service-areas/bear-valley-springs-ca/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oildale", "url": "/service-areas/oildale-ca/"}, {"name": "Biohazard Cleanup"}]

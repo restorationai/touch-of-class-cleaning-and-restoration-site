@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "0721aa4affde605e"
-generated_at: "2026-09-30T14:12:25.949337+00:00"
+generated_at: "2026-09-30T18:41:54.651145+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/framingham-ma/", "/service-areas/framingham-ma/fire-damage-restoration/", "/service-areas/framingham-ma/mold-remediation/", "/service-areas/bellingham-ma/commercial-restoration/", "/service-areas/east-douglas-ma/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Framingham", "url": "/service-areas/framingham-ma/"}, {"name": "commercial-restoration"}]

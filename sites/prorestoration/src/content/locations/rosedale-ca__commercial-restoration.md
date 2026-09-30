@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "9f4ca321d5794747"
-generated_at: "2026-09-30T14:12:22.953787+00:00"
+generated_at: "2026-09-30T18:41:51.997207+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/rosedale-ca/", "/service-areas/rosedale-ca/fire-damage-restoration/", "/service-areas/rosedale-ca/home-remodeling/", "/service-areas/arvin-ca/commercial-restoration/", "/service-areas/bear-valley-springs-ca/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rosedale", "url": "/service-areas/rosedale-ca/"}, {"name": "commercial-restoration"}]

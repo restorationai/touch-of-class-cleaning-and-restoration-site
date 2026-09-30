@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "2188ae8cdbb9c29d"
-generated_at: "2026-09-30T14:12:07.162096+00:00"
+generated_at: "2026-09-30T18:41:19.872311+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/sharpsville-pa/", "/service-areas/sharpsville-pa/fire-damage-restoration/", "/service-areas/sharpsville-pa/mold-remediation/", "/service-areas/austintown-oh/mold-inspection-testing/", "/service-areas/boardman-oh/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sharpsville", "url": "/service-areas/sharpsville-pa/"}, {"name": "mold-inspection-testing"}]

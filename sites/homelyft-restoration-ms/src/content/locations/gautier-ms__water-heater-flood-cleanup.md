@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "b7c45e9c3f1de227"
-generated_at: "2026-09-30T14:12:12.960904+00:00"
+generated_at: "2026-09-30T18:41:37.734459+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/gautier-ms/", "/service-areas/gautier-ms/fire-damage-restoration/", "/service-areas/gautier-ms/mold-remediation/", "/service-areas/agricola-ms/water-heater-flood-cleanup/", "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gautier", "url": "/service-areas/gautier-ms/"}, {"name": "water-heater-flood-cleanup"}]

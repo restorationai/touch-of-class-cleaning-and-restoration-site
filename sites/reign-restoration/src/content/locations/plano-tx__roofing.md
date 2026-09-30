@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "63357613829a7c50"
-generated_at: "2026-09-23T14:12:04.448577+00:00"
+generated_at: "2026-09-30T18:41:58.645739+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/plano-tx/", "/service-areas/plano-tx/fire-damage-restoration/", "/service-areas/plano-tx/mold-remediation/", "/service-areas/allen-tx/roofing/", "/service-areas/caddo-mills-tx/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Plano", "url": "/service-areas/plano-tx/"}, {"name": "Roofing Installation and Replacement"}]

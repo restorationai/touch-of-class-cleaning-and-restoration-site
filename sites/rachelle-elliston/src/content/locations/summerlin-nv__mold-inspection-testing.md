@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "fa54aebdf606a33c"
-generated_at: "2026-09-28T20:50:26.592992+00:00"
+generated_at: "2026-09-30T18:41:56.107548+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/summerlin-nv/", "/service-areas/summerlin-nv/fire-damage-restoration/", "/service-areas/summerlin-nv/mold-remediation/", "/service-areas/blue-diamond-nv/mold-inspection-testing/", "/service-areas/boulder-city-nv/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Summerlin", "url": "/service-areas/summerlin-nv/"}, {"name": "mold-inspection-testing"}]

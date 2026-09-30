@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "7768588aa52ffada"
-generated_at: "2026-09-30T14:12:02.648589+00:00"
+generated_at: "2026-09-30T18:41:10.045416+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/garden-city-tx/", "/service-areas/garden-city-tx/fire-damage-restoration/", "/service-areas/garden-city-tx/mold-remediation/", "/service-areas/andrews-tx/commercial-restoration/", "/service-areas/big-lake-tx/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Garden City", "url": "/service-areas/garden-city-tx/"}, {"name": "commercial-restoration"}]

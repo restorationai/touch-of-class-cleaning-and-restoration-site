@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "ebf1b2f9bfdaba49"
-generated_at: "2026-09-29T23:28:29.637829+00:00"
+generated_at: "2026-09-30T18:41:26.459127+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/sun-city-center-fl/", "/service-areas/sun-city-center-fl/fire-damage-restoration/", "/service-areas/sun-city-center-fl/mold-remediation/", "/service-areas/anna-maria-fl/ceiling-water-damage-repair/", "/service-areas/apollo-beach-fl/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sun City Center", "url": "/service-areas/sun-city-center-fl/"}, {"name": "Ceiling Water Damage Repair"}]

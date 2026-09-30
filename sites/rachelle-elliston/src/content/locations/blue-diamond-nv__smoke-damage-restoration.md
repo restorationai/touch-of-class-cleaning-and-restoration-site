@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "b784be29d28b3282"
-generated_at: "2026-09-28T20:50:26.605603+00:00"
+generated_at: "2026-09-30T18:41:56.140164+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/blue-diamond-nv/fire-damage-restoration/", "/service-areas/blue-diamond-nv/mold-remediation/", "/service-areas/boulder-city-nv/smoke-damage-restoration/", "/service-areas/enterprise-nv/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Blue Diamond", "url": "/service-areas/blue-diamond-nv/"}, {"name": "smoke-damage-restoration"}]

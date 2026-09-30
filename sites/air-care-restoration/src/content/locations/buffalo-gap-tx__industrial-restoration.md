@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "41afa104913912df"
-generated_at: "2026-09-30T14:12:01.755853+00:00"
+generated_at: "2026-09-30T18:41:08.949791+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/buffalo-gap-tx/", "/service-areas/buffalo-gap-tx/fire-damage-restoration/", "/service-areas/buffalo-gap-tx/mold-remediation/", "/service-areas/albany-tx/industrial-restoration/", "/service-areas/anson-tx/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buffalo Gap", "url": "/service-areas/buffalo-gap-tx/"}, {"name": "industrial-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "52516d13f376ce7d"
-generated_at: "2026-09-30T14:12:23.041808+00:00"
+generated_at: "2026-09-30T18:41:52.074877+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/weedpatch-ca/", "/service-areas/weedpatch-ca/fire-damage-restoration/", "/service-areas/weedpatch-ca/home-remodeling/", "/service-areas/arvin-ca/industrial-restoration/", "/service-areas/bear-valley-springs-ca/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Weedpatch", "url": "/service-areas/weedpatch-ca/"}, {"name": "industrial-restoration"}]

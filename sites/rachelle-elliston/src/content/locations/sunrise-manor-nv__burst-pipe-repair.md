@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "10a19b3cd8889160"
-generated_at: "2026-09-28T20:50:26.587421+00:00"
+generated_at: "2026-09-30T18:41:56.097093+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/sunrise-manor-nv/", "/service-areas/sunrise-manor-nv/fire-damage-restoration/", "/service-areas/sunrise-manor-nv/mold-remediation/", "/service-areas/blue-diamond-nv/burst-pipe-repair/", "/service-areas/boulder-city-nv/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sunrise Manor", "url": "/service-areas/sunrise-manor-nv/"}, {"name": "burst-pipe-repair"}]

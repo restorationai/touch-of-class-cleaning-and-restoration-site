@@ -7,6 +7,7 @@
   "template": "restoration",
   "services": [
     "air-duct-cleaning",
+    "air-duct-hvac-cleaning",
     "appliance-leak-cleanup",
     "asbestos-abatement",
     "basement-flooding-cleanup",
@@ -19,6 +20,7 @@
     "crime-scene-cleanup",
     "emergency-board-up-tarping",
     "emergency-plumbing",
+    "emergency-water-removal",
     "fire-damage-restoration",
     "flood-damage-restoration",
     "frozen-pipe-restoration",
@@ -38,6 +40,7 @@
     "storm-damage-restoration",
     "trauma-scene-cleanup",
     "unattended-death-cleanup",
+    "water-cleanup",
     "water-damage-restoration",
     "water-leak-detection"
   ],
@@ -531,5 +534,22 @@
   },
   "cross_product": true,
   "keyword_strategy": "conservative",
-  "blog_seed_count": 12
+  "blog_seed_count": 12,
+  "homepage_services": [
+    "water-damage-restoration",
+    "fire-damage-restoration",
+    "mold-remediation",
+    "biohazard-cleanup",
+    "storm-damage-restoration",
+    "general-contracting"
+  ],
+  "merged_services": {
+    "air-duct-hvac-cleaning": "air-duct-cleaning",
+    "basement-sewage-cleanup": "sewage-cleanup",
+    "basement-water-cleanup": "basement-flooding-cleanup",
+    "soot-removal": "smoke-damage-restoration",
+    "vandalism-cleanup": "vandalism-graffiti-removal",
+    "water-cleanup": "emergency-water-removal",
+    "water-heater-flood-cleanup": "appliance-leak-cleanup"
+  }
 }

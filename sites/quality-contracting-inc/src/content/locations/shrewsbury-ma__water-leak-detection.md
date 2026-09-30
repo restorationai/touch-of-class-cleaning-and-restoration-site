@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "eeed92ad6e8bfb81"
-generated_at: "2026-09-30T14:12:25.924629+00:00"
+generated_at: "2026-09-30T18:41:54.622832+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/shrewsbury-ma/", "/service-areas/shrewsbury-ma/fire-damage-restoration/", "/service-areas/shrewsbury-ma/mold-remediation/", "/service-areas/bellingham-ma/water-leak-detection/", "/service-areas/east-douglas-ma/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Shrewsbury", "url": "/service-areas/shrewsbury-ma/"}, {"name": "Water Leak Detection"}]

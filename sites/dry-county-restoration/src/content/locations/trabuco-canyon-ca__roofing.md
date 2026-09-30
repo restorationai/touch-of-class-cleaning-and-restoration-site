@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "6808e1bf5292640b"
-generated_at: "2026-09-30T14:12:09.743127+00:00"
+generated_at: "2026-09-30T18:41:21.600010+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/trabuco-canyon-ca/", "/service-areas/trabuco-canyon-ca/fire-damage-restoration/", "/service-areas/trabuco-canyon-ca/mold-remediation/", "/service-areas/anaheim-ca/roofing/", "/service-areas/chino-ca/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Trabuco Canyon", "url": "/service-areas/trabuco-canyon-ca/"}, {"name": "Roofing Installation and Replacement"}]

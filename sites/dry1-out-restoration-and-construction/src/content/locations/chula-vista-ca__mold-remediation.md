@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "49750a2b0709677a"
-generated_at: "2026-09-29T14:31:48.347863+00:00"
+generated_at: "2026-09-30T18:41:22.686017+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/chula-vista-ca/", "/service-areas/chula-vista-ca/fire-damage-restoration/", "/service-areas/chula-vista-ca/water-damage-restoration/", "/service-areas/berkeley-ca/mold-remediation/", "/service-areas/carlsbad-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Chula Vista", "url": "/service-areas/chula-vista-ca/"}, {"name": "Mold Remediation"}]

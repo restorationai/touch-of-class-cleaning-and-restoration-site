@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "e37e85d79229a9b4"
-generated_at: "2026-09-30T14:12:01.753860+00:00"
+generated_at: "2026-09-30T18:41:08.947176+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/tye-tx/", "/service-areas/tye-tx/fire-damage-restoration/", "/service-areas/tye-tx/mold-remediation/", "/service-areas/albany-tx/emergency-plumbing/", "/service-areas/anson-tx/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tye", "url": "/service-areas/tye-tx/"}, {"name": "emergency-plumbing"}]

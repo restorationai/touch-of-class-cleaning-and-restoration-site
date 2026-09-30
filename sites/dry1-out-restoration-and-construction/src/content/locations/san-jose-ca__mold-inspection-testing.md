@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "e617411410c76d7c"
-generated_at: "2026-09-29T14:31:48.324534+00:00"
+generated_at: "2026-09-30T18:41:22.659235+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/san-jose-ca/", "/service-areas/san-jose-ca/fire-damage-restoration/", "/service-areas/san-jose-ca/mold-remediation/", "/service-areas/berkeley-ca/mold-inspection-testing/", "/service-areas/carlsbad-ca/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Jose", "url": "/service-areas/san-jose-ca/"}, {"name": "Mold Inspection and Testing"}]

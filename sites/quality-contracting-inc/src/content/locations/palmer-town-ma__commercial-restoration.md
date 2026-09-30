@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "17139e1909fc2500"
-generated_at: "2026-09-30T14:12:26.098800+00:00"
+generated_at: "2026-09-30T18:41:54.813548+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/palmer-town-ma/", "/service-areas/palmer-town-ma/fire-damage-restoration/", "/service-areas/palmer-town-ma/mold-remediation/", "/service-areas/bellingham-ma/commercial-restoration/", "/service-areas/east-douglas-ma/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Palmer Town", "url": "/service-areas/palmer-town-ma/"}, {"name": "commercial-restoration"}]

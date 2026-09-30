@@ -1,21 +1,21 @@
 # Site Plan Report — Reign Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-23T14:12:02.538915+00:00
+- Generated: 2026-09-30T18:41:56.447954+00:00
 - Domain: `reign-restoration.com`
-- Services selected: 10 of 65 catalog entries
+- Services selected: 23 of 91 catalog entries
 - Service areas: 29
 - Cross-product enabled: True
-- Total URLs: **335**
-- Total internal links: 2667 (avg 8.0 per page)
+- Total URLs: **712**
+- Total internal links: 5791 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 280 |
+| `service-area-service` | 644 |
 | `service-area` | 28 |
-| `service-landing` | 10 |
+| `service-landing` | 23 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -28,7 +28,6 @@
 ## Selected services
 
 - `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
-- `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
 - `mold-remediation` — Mold Remediation (core, priority 10)
@@ -36,7 +35,21 @@
 - `roofing` — Roofing Installation and Replacement (construction, priority 10)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
-- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
+- `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
+- `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
+- `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
+- `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
+- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
+- `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
+- `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
+- `commercial-restoration` — Commercial Restoration (core, priority 9)
+- `industrial-restoration` — Industrial Restoration (core, priority 7)
+- `reconstruction` — Reconstruction Services (core, priority 9)
+- `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
+- `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
+- `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
+- `water-leak-detection` — Water Leak Detection (core, priority 7)
+- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 
 ## Service areas
 
@@ -78,12 +91,12 @@
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation royse city |
 | `/services/roofing/` | `service-landing` | 9.0 | roofing installation and replacement royse city |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration royse city |
-| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration royse city |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup royse city |
-| `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting royse city |
-| `/service-areas/allen-tx/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration allen |
-| `/service-areas/allen-tx/mold-remediation/` | `service-area-service` | 7.0 | mold remediation allen |
-| `/service-areas/allen-tx/roofing/` | `service-area-service` | 7.0 | roofing installation and replacement allen |
+| `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration royse city |
+| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing royse city |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup royse city |
+| `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration royse city |
+| `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services royse city |
+| `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization royse city |
 
 ## Validation
 

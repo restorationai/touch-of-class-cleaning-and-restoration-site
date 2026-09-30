@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "cddf0a09730c4ceb"
-generated_at: "2026-09-30T14:12:09.765229+00:00"
+generated_at: "2026-09-30T18:41:21.620156+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/villa-park-ca/", "/service-areas/villa-park-ca/fire-damage-restoration/", "/service-areas/villa-park-ca/mold-remediation/", "/service-areas/anaheim-ca/burst-pipe-repair/", "/service-areas/chino-ca/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Villa Park", "url": "/service-areas/villa-park-ca/"}, {"name": "Burst Pipe Cleanup and Repair"}]

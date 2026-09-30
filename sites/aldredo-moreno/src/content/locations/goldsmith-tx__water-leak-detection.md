@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "ca8a1c0d7729e427"
-generated_at: "2026-09-30T14:12:02.643395+00:00"
+generated_at: "2026-09-30T18:41:10.036644+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/goldsmith-tx/", "/service-areas/goldsmith-tx/fire-damage-restoration/", "/service-areas/goldsmith-tx/mold-remediation/", "/service-areas/andrews-tx/water-leak-detection/", "/service-areas/big-lake-tx/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Goldsmith", "url": "/service-areas/goldsmith-tx/"}, {"name": "water-leak-detection"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "0ffaa7e00dcabd59"
-generated_at: "2026-09-29T23:13:49.285526+00:00"
+generated_at: "2026-09-30T18:41:33.277187+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/wake-forest-nc/", "/service-areas/wake-forest-nc/fire-damage-restoration/", "/service-areas/wake-forest-nc/mold-remediation/", "/service-areas/archer-lodge-nc/commercial-restoration/", "/service-areas/clayton-nc/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wake Forest", "url": "/service-areas/wake-forest-nc/"}, {"name": "Commercial Restoration"}]

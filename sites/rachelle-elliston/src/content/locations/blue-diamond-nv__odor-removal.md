@@ -8,7 +8,7 @@ secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodoriz
 search_intent: "local_specialty"
 priority: 4.9
 plan_hash: "44a3b3beee3ced43"
-generated_at: "2026-09-23T14:12:02.377742+00:00"
+generated_at: "2026-09-30T18:41:56.138088+00:00"
 manual_override: false
 internal_links: ["/services/odor-removal/", "/service-areas/blue-diamond-nv/", "/service-areas/blue-diamond-nv/fire-damage-restoration/", "/service-areas/blue-diamond-nv/mold-remediation/", "/service-areas/boulder-city-nv/odor-removal/", "/service-areas/enterprise-nv/odor-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Blue Diamond", "url": "/service-areas/blue-diamond-nv/"}, {"name": "Odor Removal and Deodorization"}]

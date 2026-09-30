@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "111f5ba57b43f322"
-generated_at: "2026-09-30T14:12:09.736891+00:00"
+generated_at: "2026-09-30T18:41:21.594601+00:00"
 manual_override: false
 internal_links: ["/services/basement-remodeling/", "/service-areas/trabuco-canyon-ca/", "/service-areas/trabuco-canyon-ca/fire-damage-restoration/", "/service-areas/trabuco-canyon-ca/mold-remediation/", "/service-areas/anaheim-ca/basement-remodeling/", "/service-areas/chino-ca/basement-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Trabuco Canyon", "url": "/service-areas/trabuco-canyon-ca/"}, {"name": "Basement Remodeling"}]

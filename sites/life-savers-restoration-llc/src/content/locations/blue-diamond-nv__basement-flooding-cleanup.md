@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Basement Flooding Cleanup in Blue Diamond, NV | Life Savers Restoration LLC"
+h1: "Basement Flooding Cleanup in Blue Diamond"
+meta_description: "24/7 basement flooding cleanup in Blue Diamond, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325."
+primary_keyword: "basement flooding cleanup blue diamond"
+secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
+search_intent: "local_emergency"
+priority: 5.6
+plan_hash: "3900312be8803822"
+generated_at: "2026-09-30T18:41:48.469901+00:00"
+manual_override: false
+internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/blue-diamond-nv/", "/service-areas/blue-diamond-nv/fire-damage-restoration/", "/service-areas/blue-diamond-nv/mold-remediation/", "/service-areas/boulder-city-nv/basement-flooding-cleanup/", "/service-areas/cal-nev-ari-nv/basement-flooding-cleanup/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Blue Diamond", "url": "/service-areas/blue-diamond-nv/"}, {"name": "basement-flooding-cleanup"}]
+faq: []
+area_slug: "blue-diamond-nv"
+service_slug: "basement-flooding-cleanup"
+city: "Blue Diamond"
+state: "NV"
+service_display: "basement-flooding-cleanup"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug life-savers-restoration-llc` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Basement Flooding Cleanup in Blue Diamond.

@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "89f364e854f6831a"
-generated_at: "2026-09-29T23:13:49.271515+00:00"
+generated_at: "2026-09-30T18:41:33.251424+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/durham-nc/", "/service-areas/durham-nc/fire-damage-restoration/", "/service-areas/durham-nc/mold-remediation/", "/service-areas/archer-lodge-nc/ceiling-water-damage-repair/", "/service-areas/clayton-nc/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Durham", "url": "/service-areas/durham-nc/"}, {"name": "Ceiling Water Damage Repair"}]

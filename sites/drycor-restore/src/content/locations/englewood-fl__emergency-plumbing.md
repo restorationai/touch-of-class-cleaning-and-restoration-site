@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "9eb95474e8e2e7a0"
-generated_at: "2026-09-23T14:11:38.276734+00:00"
+generated_at: "2026-09-30T18:41:26.335128+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/englewood-fl/", "/service-areas/englewood-fl/fire-damage-restoration/", "/service-areas/englewood-fl/mold-remediation/", "/service-areas/anna-maria-fl/emergency-plumbing/", "/service-areas/apollo-beach-fl/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Englewood", "url": "/service-areas/englewood-fl/"}, {"name": "Emergency Plumbing"}]

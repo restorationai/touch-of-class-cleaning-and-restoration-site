@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "f93f1ef5f74b24db"
-generated_at: "2026-09-29T23:13:49.330052+00:00"
+generated_at: "2026-09-30T18:41:33.368885+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/nashville-nc/", "/service-areas/nashville-nc/fire-damage-restoration/", "/service-areas/nashville-nc/mold-remediation/", "/service-areas/archer-lodge-nc/ceiling-water-damage-repair/", "/service-areas/clayton-nc/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Nashville", "url": "/service-areas/nashville-nc/"}, {"name": "Ceiling Water Damage Repair"}]

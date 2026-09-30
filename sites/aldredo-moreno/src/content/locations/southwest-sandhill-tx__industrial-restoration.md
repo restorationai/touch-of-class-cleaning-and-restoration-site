@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "e67e87824b90bbe7"
-generated_at: "2026-09-30T14:12:02.660673+00:00"
+generated_at: "2026-09-30T18:41:10.068396+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/southwest-sandhill-tx/", "/service-areas/southwest-sandhill-tx/fire-damage-restoration/", "/service-areas/southwest-sandhill-tx/mold-remediation/", "/service-areas/andrews-tx/industrial-restoration/", "/service-areas/big-lake-tx/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Southwest Sandhill", "url": "/service-areas/southwest-sandhill-tx/"}, {"name": "industrial-restoration"}]

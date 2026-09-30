@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "c48562b2b8601ee1"
-generated_at: "2026-09-30T14:12:01.789497+00:00"
+generated_at: "2026-09-30T18:41:09.004898+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/coleman-tx/", "/service-areas/coleman-tx/fire-damage-restoration/", "/service-areas/coleman-tx/mold-remediation/", "/service-areas/albany-tx/emergency-plumbing/", "/service-areas/anson-tx/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Coleman", "url": "/service-areas/coleman-tx/"}, {"name": "emergency-plumbing"}]

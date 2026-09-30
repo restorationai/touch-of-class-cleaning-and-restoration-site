@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "790795b12abbaed2"
-generated_at: "2026-09-30T14:12:14.575291+00:00"
+generated_at: "2026-09-30T18:41:40.249636+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/heber-city-ut/", "/service-areas/heber-city-ut/fire-damage-restoration/", "/service-areas/heber-city-ut/mold-remediation/", "/service-areas/alpine-ut/industrial-restoration/", "/service-areas/american-fork-ut/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Heber City", "url": "/service-areas/heber-city-ut/"}, {"name": "industrial-restoration"}]

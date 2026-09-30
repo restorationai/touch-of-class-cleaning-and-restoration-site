@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "560edad196353646"
-generated_at: "2026-09-30T14:12:01.767781+00:00"
+generated_at: "2026-09-30T18:41:08.968830+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/rotan-tx/", "/service-areas/rotan-tx/fire-damage-restoration/", "/service-areas/rotan-tx/mold-remediation/", "/service-areas/albany-tx/industrial-restoration/", "/service-areas/anson-tx/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rotan", "url": "/service-areas/rotan-tx/"}, {"name": "industrial-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 7.2
 plan_hash: "e839a77233db4d1d"
-generated_at: "2026-09-30T14:12:02.619710+00:00"
+generated_at: "2026-09-30T18:41:09.993562+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/burst-pipe-repair/", "/service-areas/big-lake-tx/burst-pipe-repair/", "/service-areas/big-spring-tx/burst-pipe-repair/", "/service-areas/crane-tx/burst-pipe-repair/", "/service-areas/garden-city-tx/burst-pipe-repair/", "/service-areas/gardendale-tx/burst-pipe-repair/", "/service-areas/goldsmith-tx/burst-pipe-repair/", "/service-areas/greenwood-tx/burst-pipe-repair/", "/service-areas/imperial-tx/burst-pipe-repair/", "/service-areas/mccamey-tx/burst-pipe-repair/", "/service-areas/monahans-tx/burst-pipe-repair/", "/service-areas/odessa-tx/burst-pipe-repair/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "burst-pipe-repair"}]

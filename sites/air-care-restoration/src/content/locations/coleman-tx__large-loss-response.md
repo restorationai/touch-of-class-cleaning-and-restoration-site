@@ -8,7 +8,7 @@ secondary_keywords: ["large loss restoration", "catastrophic loss response", "co
 search_intent: "local_b2b"
 priority: 5.6
 plan_hash: "29b174ab15e7de0e"
-generated_at: "2026-09-30T14:12:01.788845+00:00"
+generated_at: "2026-09-30T18:41:09.003685+00:00"
 manual_override: false
 internal_links: ["/services/large-loss-response/", "/service-areas/coleman-tx/", "/service-areas/coleman-tx/fire-damage-restoration/", "/service-areas/coleman-tx/mold-remediation/", "/service-areas/albany-tx/large-loss-response/", "/service-areas/anson-tx/large-loss-response/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Coleman", "url": "/service-areas/coleman-tx/"}, {"name": "large-loss-response"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "00c640f4ba3b94db"
-generated_at: "2026-09-29T14:31:48.392902+00:00"
+generated_at: "2026-09-30T18:41:22.734328+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/san-marcos-ca/", "/service-areas/san-marcos-ca/fire-damage-restoration/", "/service-areas/san-marcos-ca/mold-remediation/", "/service-areas/berkeley-ca/reconstruction/", "/service-areas/carlsbad-ca/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Marcos", "url": "/service-areas/san-marcos-ca/"}, {"name": "reconstruction"}]

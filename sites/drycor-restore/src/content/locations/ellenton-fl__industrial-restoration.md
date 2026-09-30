@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "13f122eb13de8832"
-generated_at: "2026-09-29T23:28:29.562250+00:00"
+generated_at: "2026-09-30T18:41:26.331480+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/ellenton-fl/", "/service-areas/ellenton-fl/fire-damage-restoration/", "/service-areas/ellenton-fl/mold-remediation/", "/service-areas/anna-maria-fl/industrial-restoration/", "/service-areas/apollo-beach-fl/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ellenton", "url": "/service-areas/ellenton-fl/"}, {"name": "Industrial Restoration"}]

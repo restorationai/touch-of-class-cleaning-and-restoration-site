@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "28274b69338b07cc"
-generated_at: "2026-09-28T20:50:26.603608+00:00"
+generated_at: "2026-09-30T18:41:56.134144+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/summerlin-south-nv/", "/service-areas/summerlin-south-nv/fire-damage-restoration/", "/service-areas/summerlin-south-nv/mold-remediation/", "/service-areas/blue-diamond-nv/industrial-restoration/", "/service-areas/boulder-city-nv/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Summerlin South", "url": "/service-areas/summerlin-south-nv/"}, {"name": "industrial-restoration"}]

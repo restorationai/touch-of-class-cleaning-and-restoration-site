@@ -8,7 +8,7 @@ secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "ca
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "35711b0733d2e966"
-generated_at: "2026-09-30T14:12:14.645995+00:00"
+generated_at: "2026-09-30T18:41:40.327738+00:00"
 manual_override: false
 internal_links: ["/services/carpet-cleaning/", "/service-areas/alpine-ut/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/carpet-cleaning/", "/service-areas/benjamin-ut/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Alpine", "url": "/service-areas/alpine-ut/"}, {"name": "Carpet Cleaning"}]

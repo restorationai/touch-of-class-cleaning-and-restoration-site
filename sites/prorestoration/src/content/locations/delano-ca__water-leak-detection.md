@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "d47afec0fb21ca1e"
-generated_at: "2026-09-30T14:12:22.959960+00:00"
+generated_at: "2026-09-30T18:41:52.002471+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/delano-ca/", "/service-areas/delano-ca/fire-damage-restoration/", "/service-areas/delano-ca/home-remodeling/", "/service-areas/arvin-ca/water-leak-detection/", "/service-areas/bear-valley-springs-ca/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Delano", "url": "/service-areas/delano-ca/"}, {"name": "Water Leak Detection"}]

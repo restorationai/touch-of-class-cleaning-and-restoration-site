@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "da98afb68224ce59"
-generated_at: "2026-09-30T14:12:09.777501+00:00"
+generated_at: "2026-09-30T18:41:21.630547+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/fontana-ca/", "/service-areas/fontana-ca/fire-damage-restoration/", "/service-areas/fontana-ca/mold-remediation/", "/service-areas/anaheim-ca/emergency-plumbing/", "/service-areas/chino-ca/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fontana", "url": "/service-areas/fontana-ca/"}, {"name": "Emergency Plumbing"}]

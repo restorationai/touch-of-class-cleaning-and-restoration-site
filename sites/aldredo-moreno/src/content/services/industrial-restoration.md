@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "25ab60fd1ef434ae"
-generated_at: "2026-09-30T14:12:02.620657+00:00"
+generated_at: "2026-09-30T18:41:09.995838+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/industrial-restoration/", "/service-areas/big-lake-tx/industrial-restoration/", "/service-areas/big-spring-tx/industrial-restoration/", "/service-areas/crane-tx/industrial-restoration/", "/service-areas/garden-city-tx/industrial-restoration/", "/service-areas/gardendale-tx/industrial-restoration/", "/service-areas/goldsmith-tx/industrial-restoration/", "/service-areas/greenwood-tx/industrial-restoration/", "/service-areas/imperial-tx/industrial-restoration/", "/service-areas/mccamey-tx/industrial-restoration/", "/service-areas/monahans-tx/industrial-restoration/", "/service-areas/odessa-tx/industrial-restoration/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "industrial-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "2e343e845778d855"
-generated_at: "2026-09-30T14:12:01.776193+00:00"
+generated_at: "2026-09-30T18:41:08.982629+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/eden-tx/", "/service-areas/eden-tx/fire-damage-restoration/", "/service-areas/eden-tx/mold-remediation/", "/service-areas/albany-tx/smoke-damage-restoration/", "/service-areas/anson-tx/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Eden", "url": "/service-areas/eden-tx/"}, {"name": "smoke-damage-restoration"}]

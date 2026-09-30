@@ -1,21 +1,21 @@
 # Site Plan Report — Coastal Restoration Services Inc
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-23T14:11:28.681363+00:00
+- Generated: 2026-09-30T18:41:13.821869+00:00
 - Domain: `callcrs.com`
-- Services selected: 14 of 65 catalog entries
+- Services selected: 27 of 91 catalog entries
 - Service areas: 31
 - Cross-product enabled: True
-- Total URLs: **481**
-- Total internal links: 3865 (avg 8.0 per page)
+- Total URLs: **884**
+- Total internal links: 7197 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 420 |
+| `service-area-service` | 810 |
 | `service-area` | 30 |
-| `service-landing` | 14 |
+| `service-landing` | 27 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -29,7 +29,6 @@
 
 - `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
 - `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
-- `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
 - `crawl-space-encapsulation` — Crawl Space Encapsulation (adjacent, priority 5)
 - `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
@@ -40,7 +39,21 @@
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `vandalism-cleanup` — Vandalism Cleanup (specialty, priority 5)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
-- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
+- `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
+- `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
+- `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
+- `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
+- `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
+- `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
+- `commercial-restoration` — Commercial Restoration (core, priority 9)
+- `industrial-restoration` — Industrial Restoration (core, priority 7)
+- `reconstruction` — Reconstruction Services (core, priority 9)
+- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
+- `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
+- `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
+- `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
+- `water-leak-detection` — Water Leak Detection (core, priority 7)
+- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 
 ## Service areas
 
@@ -83,13 +96,13 @@
 | `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration santa maria |
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation santa maria |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration santa maria |
+| `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration santa maria |
+| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing santa maria |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup santa maria |
+| `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration santa maria |
+| `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services santa maria |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization santa maria |
-| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration santa maria |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup santa maria |
-| `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup santa maria |
-| `/service-areas/arroyo-grande-ca/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration arroyo grande |
-| `/service-areas/arroyo-grande-ca/mold-remediation/` | `service-area-service` | 7.0 | mold remediation arroyo grande |
-| `/service-areas/arroyo-grande-ca/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration arroyo grande |
+| `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration santa maria |
 
 ## Validation
 

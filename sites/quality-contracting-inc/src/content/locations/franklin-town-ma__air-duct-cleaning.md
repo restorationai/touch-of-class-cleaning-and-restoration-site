@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "9320a65c0499f7e4"
-generated_at: "2026-09-30T14:12:26.083208+00:00"
+generated_at: "2026-09-30T18:41:54.797118+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/franklin-town-ma/", "/service-areas/franklin-town-ma/fire-damage-restoration/", "/service-areas/franklin-town-ma/mold-remediation/", "/service-areas/bellingham-ma/air-duct-cleaning/", "/service-areas/east-douglas-ma/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Franklin Town", "url": "/service-areas/franklin-town-ma/"}, {"name": "Air Duct Cleaning"}]

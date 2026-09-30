@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "25ca9d1bf58a273b"
-generated_at: "2026-09-30T14:12:07.136308+00:00"
+generated_at: "2026-09-30T18:41:19.841027+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/mineral-ridge-oh/", "/service-areas/mineral-ridge-oh/fire-damage-restoration/", "/service-areas/mineral-ridge-oh/mold-remediation/", "/service-areas/austintown-oh/mold-inspection-testing/", "/service-areas/boardman-oh/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mineral Ridge", "url": "/service-areas/mineral-ridge-oh/"}, {"name": "mold-inspection-testing"}]

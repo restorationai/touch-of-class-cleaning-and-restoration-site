@@ -8,7 +8,7 @@ secondary_keywords: ["hoarder cleanup", "hoarding cleaning services", "hoarding 
 search_intent: "local_sensitive"
 priority: 4.2
 plan_hash: "2bbbdcdb99ed343c"
-generated_at: "2026-09-30T14:12:14.544774+00:00"
+generated_at: "2026-09-30T18:41:40.212679+00:00"
 manual_override: false
 internal_links: ["/services/hoarding-cleanup/", "/service-areas/pleasant-grove-ut/", "/service-areas/pleasant-grove-ut/fire-damage-restoration/", "/service-areas/pleasant-grove-ut/mold-remediation/", "/service-areas/alpine-ut/hoarding-cleanup/", "/service-areas/american-fork-ut/hoarding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pleasant Grove", "url": "/service-areas/pleasant-grove-ut/"}, {"name": "Hoarding Cleanup"}]

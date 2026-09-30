@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 7.2
 plan_hash: "8b75ca3529ca44d5"
-generated_at: "2026-09-28T20:50:26.574787+00:00"
+generated_at: "2026-09-30T18:41:56.069231+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/mold-inspection-testing/", "/service-areas/boulder-city-nv/mold-inspection-testing/", "/service-areas/enterprise-nv/mold-inspection-testing/", "/service-areas/henderson-nv/mold-inspection-testing/", "/service-areas/indian-springs-nv/mold-inspection-testing/", "/service-areas/las-vegas-nv/mold-inspection-testing/", "/service-areas/moapa-town-nv/mold-inspection-testing/", "/service-areas/moapa-valley-nv/mold-inspection-testing/", "/service-areas/mount-charleston-nv/mold-inspection-testing/", "/service-areas/nelson-nv/mold-inspection-testing/", "/service-areas/pahrump-nv/mold-inspection-testing/", "/service-areas/paradise-nv/mold-inspection-testing/", "/blog/how-to-test-for-mold/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "mold-inspection-testing"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "b5e91dd36b263816"
-generated_at: "2026-09-30T14:12:07.124133+00:00"
+generated_at: "2026-09-30T18:41:19.826093+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/hubbard-oh/", "/service-areas/hubbard-oh/fire-damage-restoration/", "/service-areas/hubbard-oh/mold-remediation/", "/service-areas/austintown-oh/smoke-damage-restoration/", "/service-areas/boardman-oh/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hubbard", "url": "/service-areas/hubbard-oh/"}, {"name": "smoke-damage-restoration"}]

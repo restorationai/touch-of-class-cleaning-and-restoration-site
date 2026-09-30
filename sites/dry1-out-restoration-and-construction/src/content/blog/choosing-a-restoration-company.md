@@ -8,12 +8,12 @@ secondary_keywords: ["water damage restoration", "fire damage restoration", "mol
 search_intent: "commercial_decision"
 priority: 5.4
 plan_hash: "0cb75dafabbc7aaa"
-generated_at: "2026-09-29T14:31:48.466273+00:00"
+generated_at: "2026-09-30T18:41:22.817028+00:00"
 manual_override: false
 internal_links: ["/blog/", "/services/fire-damage-restoration/", "/services/mold-remediation/", "/services/water-damage-restoration/", "/blog/burst-pipe-emergency-checklist/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/does-homeowners-insurance-cover-water-damage/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Blog", "url": "/blog/"}, {"name": "How To Choose a Restoration Company in  (Without Getting Burned)"}]
 faq: []
-published_at: "2026-09-21"
+published_at: "2026-09-22"
 services: ["water-damage-restoration", "fire-damage-restoration", "mold-remediation"]
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug dry1-out-restoration-and-construction` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->

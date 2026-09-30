@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 8.1
 plan_hash: "4b5662d40f39b41d"
-generated_at: "2026-09-29T23:13:48.844440+00:00"
+generated_at: "2026-09-30T18:41:35.456860+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/reconstruction/", "/service-areas/avon-mn/reconstruction/", "/service-areas/baxter-mn/reconstruction/", "/service-areas/brainerd-mn/reconstruction/", "/service-areas/elmdale-mn/reconstruction/", "/service-areas/flensburg-mn/reconstruction/", "/service-areas/foley-mn/reconstruction/", "/service-areas/fort-ripley-mn/reconstruction/", "/service-areas/harding-mn/reconstruction/", "/service-areas/long-prairie-mn/reconstruction/", "/service-areas/pierz-mn/reconstruction/", "/service-areas/randall-mn/reconstruction/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Reconstruction Services"}]

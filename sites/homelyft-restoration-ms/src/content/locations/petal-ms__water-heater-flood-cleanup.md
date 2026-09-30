@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "8613104bd9628957"
-generated_at: "2026-09-30T14:12:12.834220+00:00"
+generated_at: "2026-09-30T18:41:37.576741+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/petal-ms/", "/service-areas/petal-ms/fire-damage-restoration/", "/service-areas/petal-ms/mold-remediation/", "/service-areas/agricola-ms/water-heater-flood-cleanup/", "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Petal", "url": "/service-areas/petal-ms/"}, {"name": "water-heater-flood-cleanup"}]

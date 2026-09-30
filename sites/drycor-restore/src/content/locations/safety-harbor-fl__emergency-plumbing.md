@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "cb08ddc63f8a0d9a"
-generated_at: "2026-09-23T14:11:38.291212+00:00"
+generated_at: "2026-09-30T18:41:26.436732+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/safety-harbor-fl/", "/service-areas/safety-harbor-fl/fire-damage-restoration/", "/service-areas/safety-harbor-fl/mold-remediation/", "/service-areas/anna-maria-fl/emergency-plumbing/", "/service-areas/apollo-beach-fl/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Safety Harbor", "url": "/service-areas/safety-harbor-fl/"}, {"name": "Emergency Plumbing"}]

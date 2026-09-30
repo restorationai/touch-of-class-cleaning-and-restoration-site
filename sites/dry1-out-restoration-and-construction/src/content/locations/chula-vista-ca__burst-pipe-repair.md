@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "f754286c50b3fee9"
-generated_at: "2026-09-29T14:31:48.350285+00:00"
+generated_at: "2026-09-30T18:41:22.688699+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/chula-vista-ca/", "/service-areas/chula-vista-ca/fire-damage-restoration/", "/service-areas/chula-vista-ca/mold-remediation/", "/service-areas/berkeley-ca/burst-pipe-repair/", "/service-areas/carlsbad-ca/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Chula Vista", "url": "/service-areas/chula-vista-ca/"}, {"name": "burst-pipe-repair"}]

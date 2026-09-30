@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "96407aae6919c0d5"
-generated_at: "2026-09-29T23:13:48.881582+00:00"
+generated_at: "2026-09-30T18:41:35.520931+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/randall-mn/", "/service-areas/randall-mn/fire-damage-restoration/", "/service-areas/randall-mn/mold-remediation/", "/service-areas/albany-mn/emergency-plumbing/", "/service-areas/avon-mn/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Randall", "url": "/service-areas/randall-mn/"}, {"name": "Emergency Plumbing"}]

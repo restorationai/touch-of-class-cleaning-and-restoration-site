@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "9daa2fb8423fa7ef"
-generated_at: "2026-09-30T14:12:02.630665+00:00"
+generated_at: "2026-09-30T18:41:10.013004+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/stanton-tx/", "/service-areas/stanton-tx/fire-damage-restoration/", "/service-areas/stanton-tx/mold-remediation/", "/service-areas/andrews-tx/industrial-restoration/", "/service-areas/big-lake-tx/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Stanton", "url": "/service-areas/stanton-tx/"}, {"name": "industrial-restoration"}]

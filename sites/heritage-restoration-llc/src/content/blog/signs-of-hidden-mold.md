@@ -8,12 +8,12 @@ secondary_keywords: ["mold remediation"]
 search_intent: "informational_health"
 priority: 5.4
 plan_hash: "4e59dc3b84db50af"
-generated_at: "2026-09-29T23:13:48.932597+00:00"
+generated_at: "2026-09-30T18:41:35.591415+00:00"
 manual_override: false
 internal_links: ["/blog/", "/services/mold-remediation/", "/blog/choosing-a-restoration-company/", "/blog/how-to-test-for-mold/", "/blog/black-mold-vs-regular-mold/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Blog", "url": "/blog/"}, {"name": "7 Signs You Have Hidden Mold (and What To Do Next)"}]
 faq: []
-published_at: "2026-09-16"
+published_at: "2026-09-17"
 services: ["mold-remediation"]
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug heritage-restoration-llc` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->

@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "15ef81c1449e385a"
-generated_at: "2026-09-29T14:31:48.331877+00:00"
+generated_at: "2026-09-30T18:41:22.667976+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/san-francisco-ca/", "/service-areas/san-francisco-ca/fire-damage-restoration/", "/service-areas/san-francisco-ca/mold-remediation/", "/service-areas/berkeley-ca/general-contracting/", "/service-areas/carlsbad-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Francisco", "url": "/service-areas/san-francisco-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]

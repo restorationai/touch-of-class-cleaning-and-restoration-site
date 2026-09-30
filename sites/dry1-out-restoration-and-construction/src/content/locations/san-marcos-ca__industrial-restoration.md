@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "ce6652667e873adc"
-generated_at: "2026-09-29T14:31:48.392616+00:00"
+generated_at: "2026-09-30T18:41:22.734009+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/san-marcos-ca/", "/service-areas/san-marcos-ca/fire-damage-restoration/", "/service-areas/san-marcos-ca/mold-remediation/", "/service-areas/berkeley-ca/industrial-restoration/", "/service-areas/carlsbad-ca/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Marcos", "url": "/service-areas/san-marcos-ca/"}, {"name": "industrial-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "f75c86d0f827f742"
-generated_at: "2026-09-30T14:12:12.932028+00:00"
+generated_at: "2026-09-30T18:41:37.697768+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/wiggins-ms/", "/service-areas/wiggins-ms/fire-damage-restoration/", "/service-areas/wiggins-ms/mold-remediation/", "/service-areas/agricola-ms/industrial-restoration/", "/service-areas/bay-st-louis-ms/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wiggins", "url": "/service-areas/wiggins-ms/"}, {"name": "industrial-restoration"}]

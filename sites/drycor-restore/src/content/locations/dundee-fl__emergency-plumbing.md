@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "7cfd2b8a84ccaabb"
-generated_at: "2026-09-23T14:11:38.275224+00:00"
+generated_at: "2026-09-30T18:41:26.314886+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/dundee-fl/", "/service-areas/dundee-fl/fire-damage-restoration/", "/service-areas/dundee-fl/mold-remediation/", "/service-areas/anna-maria-fl/emergency-plumbing/", "/service-areas/apollo-beach-fl/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Dundee", "url": "/service-areas/dundee-fl/"}, {"name": "Emergency Plumbing"}]

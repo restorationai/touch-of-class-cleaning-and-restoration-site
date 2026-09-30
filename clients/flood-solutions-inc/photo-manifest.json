@@ -27,6 +27,34 @@
       "triaged_at": "2026-09-15T15:33:14Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipOS3fjd6wyEQM5liKs96AMjKNMvrrawT7FUUdIA": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOS3fjd6wyEQM5liKs96AMjKNMvrrawT7FUUdIA.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1789143868981/job-photos/posted/gbp-AF1QipOS3fjd6wyEQM5liKs96AMjKNMvrrawT7FUUdIA.jpg",
+      "width": 853,
+      "height": 640,
+      "bytes": 369165,
+      "sha1": "c28869867db920bb",
+      "exif": {},
+      "category": "crew",
+      "subject": "Team posing with vans and stacked air movers in warehouse",
+      "quality": 72,
+      "slots": {
+        "hero": 45,
+        "team": 85,
+        "services": 60
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "emergency-water-removal"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Group crew photo with fleet and equipment, real company branding visible",
+      "triaged_at": "2026-09-30T18:48:53Z",
+      "triage_model": "claude-sonnet-5"
+    },
     "gbp:gbp-AF1QipPUI8HRPjawYd8U9Yfs2FPN4iGUZsLyi02iK6ly": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPUI8HRPjawYd8U9Yfs2FPN4iGUZsLyi02iK6ly.jpg",
@@ -998,5 +1026,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-18T21:40:41Z"
+  "triaged_at": "2026-09-30T18:48:53Z"
 }

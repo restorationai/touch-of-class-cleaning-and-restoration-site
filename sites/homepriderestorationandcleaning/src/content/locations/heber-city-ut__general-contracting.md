@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "ac740f3066f1c072"
-generated_at: "2026-09-30T14:12:14.575559+00:00"
+generated_at: "2026-09-30T18:41:40.250238+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/heber-city-ut/", "/service-areas/heber-city-ut/fire-damage-restoration/", "/service-areas/heber-city-ut/mold-remediation/", "/service-areas/alpine-ut/general-contracting/", "/service-areas/american-fork-ut/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Heber City", "url": "/service-areas/heber-city-ut/"}, {"name": "general-contracting"}]

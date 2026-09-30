@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "299735eba0f05404"
-generated_at: "2026-09-30T14:12:02.666351+00:00"
+generated_at: "2026-09-30T18:41:10.078351+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/imperial-tx/", "/service-areas/imperial-tx/fire-damage-restoration/", "/service-areas/imperial-tx/water-damage-restoration/", "/service-areas/andrews-tx/mold-remediation/", "/service-areas/big-lake-tx/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Imperial", "url": "/service-areas/imperial-tx/"}, {"name": "mold-remediation"}]

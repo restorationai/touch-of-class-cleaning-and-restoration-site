@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "1875027cb0b5d19d"
-generated_at: "2026-09-30T14:12:12.828623+00:00"
+generated_at: "2026-09-30T18:41:37.568901+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/hattiesburg-ms/", "/service-areas/hattiesburg-ms/fire-damage-restoration/", "/service-areas/hattiesburg-ms/mold-remediation/", "/service-areas/agricola-ms/smoke-damage-restoration/", "/service-areas/bay-st-louis-ms/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hattiesburg", "url": "/service-areas/hattiesburg-ms/"}, {"name": "smoke-damage-restoration"}]

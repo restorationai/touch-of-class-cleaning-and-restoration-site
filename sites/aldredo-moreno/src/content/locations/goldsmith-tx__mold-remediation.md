@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "9aaf48dfb1001c53"
-generated_at: "2026-09-30T14:12:02.642080+00:00"
+generated_at: "2026-09-30T18:41:10.033895+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/goldsmith-tx/", "/service-areas/goldsmith-tx/fire-damage-restoration/", "/service-areas/goldsmith-tx/water-damage-restoration/", "/service-areas/andrews-tx/mold-remediation/", "/service-areas/big-lake-tx/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Goldsmith", "url": "/service-areas/goldsmith-tx/"}, {"name": "mold-remediation"}]

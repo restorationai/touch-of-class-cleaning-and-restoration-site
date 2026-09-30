@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "07220951152ed143"
-generated_at: "2026-09-29T23:28:29.554023+00:00"
+generated_at: "2026-09-30T18:41:26.304664+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/dade-city-fl/", "/service-areas/dade-city-fl/fire-damage-restoration/", "/service-areas/dade-city-fl/mold-remediation/", "/service-areas/anna-maria-fl/burst-pipe-repair/", "/service-areas/apollo-beach-fl/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Dade City", "url": "/service-areas/dade-city-fl/"}, {"name": "Burst Pipe Cleanup and Repair"}]

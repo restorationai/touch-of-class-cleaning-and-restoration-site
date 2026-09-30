@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "70b69913be0341e4"
-generated_at: "2026-09-28T20:50:26.622423+00:00"
+generated_at: "2026-09-30T18:41:56.184724+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/moapa-valley-nv/", "/service-areas/moapa-valley-nv/fire-damage-restoration/", "/service-areas/moapa-valley-nv/mold-remediation/", "/service-areas/blue-diamond-nv/emergency-plumbing/", "/service-areas/boulder-city-nv/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Moapa Valley", "url": "/service-areas/moapa-valley-nv/"}, {"name": "emergency-plumbing"}]

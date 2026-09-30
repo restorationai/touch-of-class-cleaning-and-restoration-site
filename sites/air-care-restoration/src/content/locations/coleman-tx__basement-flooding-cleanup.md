@@ -8,7 +8,7 @@ secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet 
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "1bc9a22278877a59"
-generated_at: "2026-09-30T14:12:01.788081+00:00"
+generated_at: "2026-09-30T18:41:09.001845+00:00"
 manual_override: false
 internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/coleman-tx/", "/service-areas/coleman-tx/fire-damage-restoration/", "/service-areas/coleman-tx/mold-remediation/", "/service-areas/albany-tx/basement-flooding-cleanup/", "/service-areas/anson-tx/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Coleman", "url": "/service-areas/coleman-tx/"}, {"name": "basement-flooding-cleanup"}]

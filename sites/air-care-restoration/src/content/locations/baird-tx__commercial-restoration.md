@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "727f90c270eaf1ae"
-generated_at: "2026-09-30T14:12:01.814863+00:00"
+generated_at: "2026-09-30T18:41:09.046637+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/baird-tx/", "/service-areas/baird-tx/fire-damage-restoration/", "/service-areas/baird-tx/mold-remediation/", "/service-areas/albany-tx/commercial-restoration/", "/service-areas/anson-tx/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Baird", "url": "/service-areas/baird-tx/"}, {"name": "commercial-restoration"}]

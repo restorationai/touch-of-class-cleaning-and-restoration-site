@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "02d05328ddfb81fa"
-generated_at: "2026-09-30T14:12:02.627721+00:00"
+generated_at: "2026-09-30T18:41:10.007631+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/big-spring-tx/", "/service-areas/big-spring-tx/fire-damage-restoration/", "/service-areas/big-spring-tx/mold-remediation/", "/service-areas/andrews-tx/industrial-restoration/", "/service-areas/big-lake-tx/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Big Spring", "url": "/service-areas/big-spring-tx/"}, {"name": "industrial-restoration"}]

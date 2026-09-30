@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "4d305146009f7e2e"
-generated_at: "2026-09-29T14:31:48.456373+00:00"
+generated_at: "2026-09-30T18:41:22.806693+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/santa-cruz-ca/", "/service-areas/santa-cruz-ca/fire-damage-restoration/", "/service-areas/santa-cruz-ca/mold-remediation/", "/service-areas/berkeley-ca/biohazard-cleanup/", "/service-areas/carlsbad-ca/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Santa Cruz", "url": "/service-areas/santa-cruz-ca/"}, {"name": "Biohazard Cleanup"}]

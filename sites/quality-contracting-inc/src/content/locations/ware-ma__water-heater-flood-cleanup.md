@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "4eb2290fb94be2af"
-generated_at: "2026-09-30T14:12:26.074652+00:00"
+generated_at: "2026-09-30T18:41:54.787692+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/ware-ma/", "/service-areas/ware-ma/fire-damage-restoration/", "/service-areas/ware-ma/mold-remediation/", "/service-areas/bellingham-ma/water-heater-flood-cleanup/", "/service-areas/east-douglas-ma/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ware", "url": "/service-areas/ware-ma/"}, {"name": "water-heater-flood-cleanup"}]

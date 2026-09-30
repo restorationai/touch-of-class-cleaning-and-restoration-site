@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "43407341ff52c3b7"
-generated_at: "2026-09-30T14:12:26.086260+00:00"
+generated_at: "2026-09-30T18:41:54.799618+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/franklin-town-ma/", "/service-areas/franklin-town-ma/mold-remediation/", "/service-areas/franklin-town-ma/roofing/", "/service-areas/bellingham-ma/fire-damage-restoration/", "/service-areas/east-douglas-ma/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Franklin Town", "url": "/service-areas/franklin-town-ma/"}, {"name": "Fire Damage Restoration"}]

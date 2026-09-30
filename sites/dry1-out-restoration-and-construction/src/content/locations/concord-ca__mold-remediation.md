@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "8ce4536a3f9f04cd"
-generated_at: "2026-09-29T14:31:48.434896+00:00"
+generated_at: "2026-09-30T18:41:22.782898+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/concord-ca/", "/service-areas/concord-ca/fire-damage-restoration/", "/service-areas/concord-ca/water-damage-restoration/", "/service-areas/berkeley-ca/mold-remediation/", "/service-areas/carlsbad-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Concord", "url": "/service-areas/concord-ca/"}, {"name": "Mold Remediation"}]

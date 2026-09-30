@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 7.2
 plan_hash: "d3a1152bb02c311e"
-generated_at: "2026-09-30T14:12:12.816528+00:00"
+generated_at: "2026-09-30T18:41:37.553932+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/agricola-ms/burst-pipe-repair/", "/service-areas/bay-st-louis-ms/burst-pipe-repair/", "/service-areas/benndale-ms/burst-pipe-repair/", "/service-areas/big-point-ms/burst-pipe-repair/", "/service-areas/biloxi-ms/burst-pipe-repair/", "/service-areas/d-iberville-ms/burst-pipe-repair/", "/service-areas/delisle-ms/burst-pipe-repair/", "/service-areas/diamondhead-ms/burst-pipe-repair/", "/service-areas/eastabuchie-ms/burst-pipe-repair/", "/service-areas/ellisville-ms/burst-pipe-repair/", "/service-areas/escatawpa-ms/burst-pipe-repair/", "/service-areas/gautier-ms/burst-pipe-repair/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "burst-pipe-repair"}]

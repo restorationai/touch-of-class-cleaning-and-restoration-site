@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "a58b7ad21fb6fda8"
-generated_at: "2026-09-30T14:12:01.806382+00:00"
+generated_at: "2026-09-30T18:41:09.032813+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/comanche-tx/", "/service-areas/comanche-tx/fire-damage-restoration/", "/service-areas/comanche-tx/mold-remediation/", "/service-areas/albany-tx/reconstruction/", "/service-areas/anson-tx/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Comanche", "url": "/service-areas/comanche-tx/"}, {"name": "reconstruction"}]

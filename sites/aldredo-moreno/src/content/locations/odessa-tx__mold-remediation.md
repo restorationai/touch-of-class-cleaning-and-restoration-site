@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "0a272fd5c322121d"
-generated_at: "2026-09-30T14:12:02.624340+00:00"
+generated_at: "2026-09-30T18:41:10.001232+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/odessa-tx/", "/service-areas/odessa-tx/fire-damage-restoration/", "/service-areas/odessa-tx/water-damage-restoration/", "/service-areas/andrews-tx/mold-remediation/", "/service-areas/big-lake-tx/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Odessa", "url": "/service-areas/odessa-tx/"}, {"name": "mold-remediation"}]

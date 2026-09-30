@@ -8,7 +8,7 @@ secondary_keywords: ["frozen pipe damage", "winter pipe burst cleanup", "thawed 
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "076dd3deb4316e66"
-generated_at: "2026-09-30T14:12:21.500916+00:00"
+generated_at: "2026-09-30T18:41:50.480363+00:00"
 manual_override: false
 internal_links: ["/services/frozen-pipe-restoration/", "/service-areas/pacific-wa/", "/service-areas/pacific-wa/fire-damage-restoration/", "/service-areas/pacific-wa/mold-remediation/", "/service-areas/algona-wa/frozen-pipe-restoration/", "/service-areas/auburn-wa/frozen-pipe-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pacific", "url": "/service-areas/pacific-wa/"}, {"name": "Frozen Pipe Restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "5d219747ac0ffc0f"
-generated_at: "2026-09-30T14:12:01.743913+00:00"
+generated_at: "2026-09-30T18:41:08.934007+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/merkel-tx/", "/service-areas/merkel-tx/fire-damage-restoration/", "/service-areas/merkel-tx/mold-remediation/", "/service-areas/albany-tx/mold-inspection-testing/", "/service-areas/anson-tx/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Merkel", "url": "/service-areas/merkel-tx/"}, {"name": "mold-inspection-testing"}]

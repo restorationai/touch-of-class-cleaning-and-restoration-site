@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Commercial Restoration in Seattle, WA | Frontline Fire & Flood"
+h1: "Commercial Restoration in Seattle"
+meta_description: "24/7 commercial restoration in Seattle, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+primary_keyword: "commercial restoration seattle"
+secondary_keywords: ["commercial water damage", "commercial fire damage", "business restoration", "office restoration", "retail restoration"]
+search_intent: "local_b2b"
+priority: 6.3
+plan_hash: "0b4779a2c530fed2"
+generated_at: "2026-09-30T18:41:30.017724+00:00"
+manual_override: false
+internal_links: ["/services/commercial-restoration/", "/service-areas/seattle-wa/", "/service-areas/seattle-wa/fire-damage-restoration/", "/service-areas/seattle-wa/mold-remediation/", "/service-areas/anderson-island-wa/commercial-restoration/", "/service-areas/auburn-wa/commercial-restoration/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Seattle", "url": "/service-areas/seattle-wa/"}, {"name": "commercial-restoration"}]
+faq: []
+area_slug: "seattle-wa"
+service_slug: "commercial-restoration"
+city: "Seattle"
+state: "WA"
+service_display: "commercial-restoration"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug frontline-fire-flood` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Commercial Restoration in Seattle.

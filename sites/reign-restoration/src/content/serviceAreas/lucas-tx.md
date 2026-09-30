@@ -7,10 +7,10 @@ primary_keyword: "restoration services lucas"
 secondary_keywords: ["lucas restoration company", "damage restoration lucas", "lucas disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "7edbb8b89514599f"
-generated_at: "2026-09-23T14:12:04.437000+00:00"
+plan_hash: "acd6665902e3fe1c"
+generated_at: "2026-09-30T18:41:58.618468+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/lucas-tx/fire-damage-restoration/", "/service-areas/lucas-tx/mold-remediation/", "/service-areas/lucas-tx/roofing/", "/service-areas/lucas-tx/water-damage-restoration/", "/service-areas/lucas-tx/storm-damage-restoration/", "/service-areas/lucas-tx/emergency-water-removal/", "/service-areas/lucas-tx/general-contracting/", "/service-areas/lucas-tx/odor-removal/", "/service-areas/lucas-tx/contents-restoration/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/lucas-tx/fire-damage-restoration/", "/service-areas/lucas-tx/mold-remediation/", "/service-areas/lucas-tx/roofing/", "/service-areas/lucas-tx/water-damage-restoration/", "/service-areas/lucas-tx/commercial-restoration/", "/service-areas/lucas-tx/emergency-plumbing/", "/service-areas/lucas-tx/emergency-water-removal/", "/service-areas/lucas-tx/flood-damage-restoration/", "/service-areas/lucas-tx/reconstruction/", "/service-areas/lucas-tx/sewage-cleanup/", "/service-areas/lucas-tx/smoke-damage-restoration/", "/service-areas/lucas-tx/storm-damage-restoration/", "/service-areas/lucas-tx/basement-flooding-cleanup/", "/service-areas/lucas-tx/burst-pipe-repair/", "/service-areas/lucas-tx/ceiling-water-damage-repair/", "/service-areas/lucas-tx/general-contracting/", "/service-areas/lucas-tx/large-loss-response/", "/service-areas/lucas-tx/mold-inspection-testing/", "/service-areas/lucas-tx/industrial-restoration/", "/service-areas/lucas-tx/odor-removal/", "/service-areas/lucas-tx/water-heater-flood-cleanup/", "/service-areas/lucas-tx/water-leak-detection/", "/service-areas/lucas-tx/contents-restoration/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lucas"}]
 faq: []
 area_slug: "lucas-tx"

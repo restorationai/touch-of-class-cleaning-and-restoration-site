@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "1fac21b2f1a7eb0b"
-generated_at: "2026-09-30T14:12:01.756261+00:00"
+generated_at: "2026-09-30T18:41:08.950485+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/buffalo-gap-tx/", "/service-areas/buffalo-gap-tx/fire-damage-restoration/", "/service-areas/buffalo-gap-tx/mold-remediation/", "/service-areas/albany-tx/ceiling-water-damage-repair/", "/service-areas/anson-tx/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buffalo Gap", "url": "/service-areas/buffalo-gap-tx/"}, {"name": "ceiling-water-damage-repair"}]

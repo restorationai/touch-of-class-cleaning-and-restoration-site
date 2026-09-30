@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "436a0afabedb9945"
-generated_at: "2026-09-29T23:13:48.856918+00:00"
+generated_at: "2026-09-30T18:41:35.476919+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/sauk-rapids-mn/", "/service-areas/sauk-rapids-mn/fire-damage-restoration/", "/service-areas/sauk-rapids-mn/mold-remediation/", "/service-areas/albany-mn/smoke-damage-restoration/", "/service-areas/avon-mn/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sauk Rapids", "url": "/service-areas/sauk-rapids-mn/"}, {"name": "Smoke Damage Restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "bd17cd9f1a839e34"
-generated_at: "2026-09-30T14:12:01.758524+00:00"
+generated_at: "2026-09-30T18:41:08.953186+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/brownwood-tx/", "/service-areas/brownwood-tx/fire-damage-restoration/", "/service-areas/brownwood-tx/mold-remediation/", "/service-areas/albany-tx/mold-inspection-testing/", "/service-areas/anson-tx/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Brownwood", "url": "/service-areas/brownwood-tx/"}, {"name": "mold-inspection-testing"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "0647548076b91a1f"
-generated_at: "2026-09-29T23:13:49.276389+00:00"
+generated_at: "2026-09-30T18:41:33.260057+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/rocky-mount-nc/", "/service-areas/rocky-mount-nc/fire-damage-restoration/", "/service-areas/rocky-mount-nc/mold-remediation/", "/service-areas/archer-lodge-nc/mold-inspection-testing/", "/service-areas/clayton-nc/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rocky Mount", "url": "/service-areas/rocky-mount-nc/"}, {"name": "Mold Inspection and Testing"}]

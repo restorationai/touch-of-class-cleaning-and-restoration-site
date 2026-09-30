@@ -8,7 +8,7 @@ secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restorati
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "32d8c96f8d73b74e"
-generated_at: "2026-09-30T14:12:01.755075+00:00"
+generated_at: "2026-09-30T18:41:08.948379+00:00"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/service-areas/buffalo-gap-tx/", "/service-areas/buffalo-gap-tx/fire-damage-restoration/", "/service-areas/buffalo-gap-tx/mold-remediation/", "/service-areas/albany-tx/flood-damage-restoration/", "/service-areas/anson-tx/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buffalo Gap", "url": "/service-areas/buffalo-gap-tx/"}, {"name": "flood-damage-restoration"}]

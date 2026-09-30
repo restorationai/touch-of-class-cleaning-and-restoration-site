@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "0ae8c6eedadaa075"
-generated_at: "2026-09-30T14:12:12.959647+00:00"
+generated_at: "2026-09-30T18:41:37.731535+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/gautier-ms/", "/service-areas/gautier-ms/fire-damage-restoration/", "/service-areas/gautier-ms/mold-remediation/", "/service-areas/agricola-ms/burst-pipe-repair/", "/service-areas/bay-st-louis-ms/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gautier", "url": "/service-areas/gautier-ms/"}, {"name": "burst-pipe-repair"}]

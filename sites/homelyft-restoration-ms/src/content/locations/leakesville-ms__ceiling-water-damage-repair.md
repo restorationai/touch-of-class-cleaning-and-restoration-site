@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "f162b6fd955b6474"
-generated_at: "2026-09-30T14:12:12.843353+00:00"
+generated_at: "2026-09-30T18:41:37.588406+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/leakesville-ms/", "/service-areas/leakesville-ms/fire-damage-restoration/", "/service-areas/leakesville-ms/mold-remediation/", "/service-areas/agricola-ms/ceiling-water-damage-repair/", "/service-areas/bay-st-louis-ms/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Leakesville", "url": "/service-areas/leakesville-ms/"}, {"name": "ceiling-water-damage-repair"}]

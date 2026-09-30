@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "5c7ef0e71cabe580"
-generated_at: "2026-09-30T14:12:07.125177+00:00"
+generated_at: "2026-09-30T18:41:19.828538+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/hubbard-oh/", "/service-areas/hubbard-oh/fire-damage-restoration/", "/service-areas/hubbard-oh/mold-remediation/", "/service-areas/austintown-oh/water-leak-detection/", "/service-areas/boardman-oh/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hubbard", "url": "/service-areas/hubbard-oh/"}, {"name": "water-leak-detection"}]

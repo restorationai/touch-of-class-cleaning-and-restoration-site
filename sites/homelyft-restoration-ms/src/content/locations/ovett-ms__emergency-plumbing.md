@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "a48cc1e6054f1af7"
-generated_at: "2026-09-30T14:12:13.036987+00:00"
+generated_at: "2026-09-30T18:41:37.827083+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/ovett-ms/", "/service-areas/ovett-ms/fire-damage-restoration/", "/service-areas/ovett-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-plumbing/", "/service-areas/bay-st-louis-ms/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ovett", "url": "/service-areas/ovett-ms/"}, {"name": "emergency-plumbing"}]

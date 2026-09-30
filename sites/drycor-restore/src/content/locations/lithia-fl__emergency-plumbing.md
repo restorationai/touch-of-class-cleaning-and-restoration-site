@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "37e4ca64fd1ac93e"
-generated_at: "2026-09-23T14:11:38.282323+00:00"
+generated_at: "2026-09-30T18:41:26.385365+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/lithia-fl/", "/service-areas/lithia-fl/fire-damage-restoration/", "/service-areas/lithia-fl/mold-remediation/", "/service-areas/anna-maria-fl/emergency-plumbing/", "/service-areas/apollo-beach-fl/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lithia", "url": "/service-areas/lithia-fl/"}, {"name": "Emergency Plumbing"}]

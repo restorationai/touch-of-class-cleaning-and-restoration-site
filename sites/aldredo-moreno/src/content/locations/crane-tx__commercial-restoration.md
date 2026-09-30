@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "791bcd1899bfc2f9"
-generated_at: "2026-09-30T14:12:02.651535+00:00"
+generated_at: "2026-09-30T18:41:10.050909+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/crane-tx/", "/service-areas/crane-tx/fire-damage-restoration/", "/service-areas/crane-tx/mold-remediation/", "/service-areas/andrews-tx/commercial-restoration/", "/service-areas/big-lake-tx/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Crane", "url": "/service-areas/crane-tx/"}, {"name": "commercial-restoration"}]

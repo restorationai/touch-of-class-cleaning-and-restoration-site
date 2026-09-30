@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "727f477cdea6bd03"
-generated_at: "2026-09-23T14:12:04.452368+00:00"
+generated_at: "2026-09-30T18:41:58.655465+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/frisco-tx/", "/service-areas/frisco-tx/fire-damage-restoration/", "/service-areas/frisco-tx/mold-remediation/", "/service-areas/allen-tx/roofing/", "/service-areas/caddo-mills-tx/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Frisco", "url": "/service-areas/frisco-tx/"}, {"name": "Roofing Installation and Replacement"}]

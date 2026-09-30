@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "329736901db263f1"
-generated_at: "2026-09-29T14:31:48.342323+00:00"
+generated_at: "2026-09-30T18:41:22.680093+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/oakland-ca/", "/service-areas/oakland-ca/fire-damage-restoration/", "/service-areas/oakland-ca/mold-remediation/", "/service-areas/berkeley-ca/burst-pipe-repair/", "/service-areas/carlsbad-ca/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oakland", "url": "/service-areas/oakland-ca/"}, {"name": "burst-pipe-repair"}]

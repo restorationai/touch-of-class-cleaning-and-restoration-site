@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "cf252f06abdd86a0"
-generated_at: "2026-09-30T14:12:25.961130+00:00"
+generated_at: "2026-09-30T18:41:54.664404+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/wellesley-ma/", "/service-areas/wellesley-ma/fire-damage-restoration/", "/service-areas/wellesley-ma/mold-remediation/", "/service-areas/bellingham-ma/commercial-restoration/", "/service-areas/east-douglas-ma/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wellesley", "url": "/service-areas/wellesley-ma/"}, {"name": "commercial-restoration"}]

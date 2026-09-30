@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "4c498ee76878a764"
-generated_at: "2026-09-29T23:13:48.846057+00:00"
+generated_at: "2026-09-30T18:41:35.460478+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/st-cloud-mn/", "/service-areas/st-cloud-mn/fire-damage-restoration/", "/service-areas/st-cloud-mn/mold-remediation/", "/service-areas/albany-mn/burst-pipe-repair/", "/service-areas/avon-mn/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "St. Cloud", "url": "/service-areas/st-cloud-mn/"}, {"name": "Burst Pipe Cleanup and Repair"}]

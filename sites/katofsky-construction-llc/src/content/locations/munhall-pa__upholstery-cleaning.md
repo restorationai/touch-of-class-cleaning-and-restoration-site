@@ -8,7 +8,7 @@ secondary_keywords: ["sofa cleaning", "couch cleaning", "furniture steam cleanin
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "7609526ca15e77d8"
-generated_at: "2026-09-30T14:12:19.442194+00:00"
+generated_at: "2026-09-30T18:41:44.206083+00:00"
 manual_override: false
 internal_links: ["/services/upholstery-cleaning/", "/service-areas/munhall-pa/", "/service-areas/munhall-pa/fire-damage-restoration/", "/service-areas/munhall-pa/roofing/", "/service-areas/allison-park-pa/upholstery-cleaning/", "/service-areas/baldwin-pa/upholstery-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Munhall", "url": "/service-areas/munhall-pa/"}, {"name": "Upholstery Cleaning"}]

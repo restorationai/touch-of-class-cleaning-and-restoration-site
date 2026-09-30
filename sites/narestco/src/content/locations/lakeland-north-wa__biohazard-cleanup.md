@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "4f8f4b7e0d020570"
-generated_at: "2026-09-30T14:12:21.438474+00:00"
+generated_at: "2026-09-30T18:41:50.427505+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/lakeland-north-wa/", "/service-areas/lakeland-north-wa/fire-damage-restoration/", "/service-areas/lakeland-north-wa/mold-remediation/", "/service-areas/algona-wa/biohazard-cleanup/", "/service-areas/auburn-wa/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lakeland North", "url": "/service-areas/lakeland-north-wa/"}, {"name": "Biohazard Cleanup"}]

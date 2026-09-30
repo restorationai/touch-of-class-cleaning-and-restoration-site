@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "3f7688757a265cc3"
-generated_at: "2026-09-29T23:13:48.883309+00:00"
+generated_at: "2026-09-30T18:41:35.522933+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/randall-mn/", "/service-areas/randall-mn/fire-damage-restoration/", "/service-areas/randall-mn/mold-remediation/", "/service-areas/albany-mn/mold-inspection-testing/", "/service-areas/avon-mn/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Randall", "url": "/service-areas/randall-mn/"}, {"name": "Mold Inspection and Testing"}]

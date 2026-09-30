@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "77bac2e45963c47f"
-generated_at: "2026-09-30T14:12:14.634894+00:00"
+generated_at: "2026-09-30T18:41:40.315346+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-fort-ut/fire-damage-restoration/", "/service-areas/cedar-fort-ut/mold-remediation/", "/service-areas/alpine-ut/reconstruction/", "/service-areas/american-fork-ut/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Cedar Fort", "url": "/service-areas/cedar-fort-ut/"}, {"name": "reconstruction"}]

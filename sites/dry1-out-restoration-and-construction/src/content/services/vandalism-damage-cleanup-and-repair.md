@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 4.5
 plan_hash: "841e7e8756deeb87"
-generated_at: "2026-09-29T23:31:28.352845+00:00"
+generated_at: "2026-09-30T18:41:22.637546+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/vandalism-damage-cleanup-and-repair/", "/service-areas/carlsbad-ca/vandalism-damage-cleanup-and-repair/", "/service-areas/chula-vista-ca/vandalism-damage-cleanup-and-repair/", "/service-areas/concord-ca/vandalism-damage-cleanup-and-repair/", "/service-areas/el-cajon-ca/vandalism-damage-cleanup-and-repair/", "/service-areas/encinitas-ca/vandalism-damage-cleanup-and-repair/", "/service-areas/escondido-ca/vandalism-damage-cleanup-and-repair/", "/service-areas/fremont-ca/vandalism-damage-cleanup-and-repair/", "/service-areas/hayward-ca/vandalism-damage-cleanup-and-repair/", "/service-areas/oakland-ca/vandalism-damage-cleanup-and-repair/", "/service-areas/oceanside-ca/vandalism-damage-cleanup-and-repair/", "/service-areas/san-diego-ca/vandalism-damage-cleanup-and-repair/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Vandalism Damage Cleanup and Repair"}]

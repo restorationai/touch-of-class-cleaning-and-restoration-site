@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "1d2428d5055db986"
-generated_at: "2026-09-29T23:13:49.273778+00:00"
+generated_at: "2026-09-30T18:41:33.255735+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/durham-nc/", "/service-areas/durham-nc/fire-damage-restoration/", "/service-areas/durham-nc/mold-remediation/", "/service-areas/archer-lodge-nc/water-heater-flood-cleanup/", "/service-areas/clayton-nc/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Durham", "url": "/service-areas/durham-nc/"}, {"name": "Water Heater Flood Cleanup"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "8f2f5e1eb1c6f081"
-generated_at: "2026-09-30T14:12:07.130544+00:00"
+generated_at: "2026-09-30T18:41:19.834244+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/campbell-oh/", "/service-areas/campbell-oh/fire-damage-restoration/", "/service-areas/campbell-oh/mold-remediation/", "/service-areas/austintown-oh/industrial-restoration/", "/service-areas/boardman-oh/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Campbell", "url": "/service-areas/campbell-oh/"}, {"name": "industrial-restoration"}]

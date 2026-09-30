@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "2e7905273cc13291"
-generated_at: "2026-09-30T14:12:07.103124+00:00"
+generated_at: "2026-09-30T18:41:19.797765+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/boardman-oh/", "/service-areas/boardman-oh/fire-damage-restoration/", "/service-areas/boardman-oh/mold-remediation/", "/service-areas/austintown-oh/emergency-plumbing/", "/service-areas/campbell-oh/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Boardman", "url": "/service-areas/boardman-oh/"}, {"name": "emergency-plumbing"}]

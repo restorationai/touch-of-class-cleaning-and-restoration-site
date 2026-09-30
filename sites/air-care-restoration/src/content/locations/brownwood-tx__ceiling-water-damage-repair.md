@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "033c5970f47a21a8"
-generated_at: "2026-09-30T14:12:01.759242+00:00"
+generated_at: "2026-09-30T18:41:08.954729+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/brownwood-tx/", "/service-areas/brownwood-tx/fire-damage-restoration/", "/service-areas/brownwood-tx/mold-remediation/", "/service-areas/albany-tx/ceiling-water-damage-repair/", "/service-areas/anson-tx/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Brownwood", "url": "/service-areas/brownwood-tx/"}, {"name": "ceiling-water-damage-repair"}]

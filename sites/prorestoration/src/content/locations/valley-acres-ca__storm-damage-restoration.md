@@ -8,7 +8,7 @@ secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "9d30a734c49a8380"
-generated_at: "2026-09-30T14:12:23.081995+00:00"
+generated_at: "2026-09-30T18:41:52.111096+00:00"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/service-areas/valley-acres-ca/", "/service-areas/valley-acres-ca/fire-damage-restoration/", "/service-areas/valley-acres-ca/home-remodeling/", "/service-areas/arvin-ca/storm-damage-restoration/", "/service-areas/bear-valley-springs-ca/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Valley Acres", "url": "/service-areas/valley-acres-ca/"}, {"name": "Storm Damage Restoration"}]

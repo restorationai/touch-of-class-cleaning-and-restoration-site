@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "3e4b35e48dc9f16b"
-generated_at: "2026-09-29T23:13:48.915535+00:00"
+generated_at: "2026-09-30T18:41:35.566925+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/st-stephen-mn/", "/service-areas/st-stephen-mn/fire-damage-restoration/", "/service-areas/st-stephen-mn/mold-remediation/", "/service-areas/albany-mn/water-leak-detection/", "/service-areas/avon-mn/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "St. Stephen", "url": "/service-areas/st-stephen-mn/"}, {"name": "Water Leak Detection"}]

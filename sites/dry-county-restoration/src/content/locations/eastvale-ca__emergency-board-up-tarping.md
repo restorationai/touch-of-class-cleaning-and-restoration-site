@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "c8cb80182a95c325"
-generated_at: "2026-09-30T14:12:09.673483+00:00"
+generated_at: "2026-09-30T18:41:21.536735+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/eastvale-ca/", "/service-areas/eastvale-ca/fire-damage-restoration/", "/service-areas/eastvale-ca/mold-remediation/", "/service-areas/anaheim-ca/emergency-board-up-tarping/", "/service-areas/chino-ca/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Eastvale", "url": "/service-areas/eastvale-ca/"}, {"name": "Emergency Board-Up and Tarping"}]

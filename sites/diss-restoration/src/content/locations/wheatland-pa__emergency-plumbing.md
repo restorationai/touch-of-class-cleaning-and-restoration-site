@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "8eb273b4509b21c5"
-generated_at: "2026-09-30T14:12:07.170102+00:00"
+generated_at: "2026-09-30T18:41:19.882614+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/wheatland-pa/", "/service-areas/wheatland-pa/fire-damage-restoration/", "/service-areas/wheatland-pa/mold-remediation/", "/service-areas/austintown-oh/emergency-plumbing/", "/service-areas/boardman-oh/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wheatland", "url": "/service-areas/wheatland-pa/"}, {"name": "emergency-plumbing"}]

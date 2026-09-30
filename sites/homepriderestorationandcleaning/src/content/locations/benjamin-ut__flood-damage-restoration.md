@@ -8,7 +8,7 @@ secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restorati
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "d659e65fc1b48152"
-generated_at: "2026-09-30T14:12:14.679365+00:00"
+generated_at: "2026-09-30T18:41:40.363827+00:00"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/service-areas/benjamin-ut/", "/service-areas/benjamin-ut/fire-damage-restoration/", "/service-areas/benjamin-ut/mold-remediation/", "/service-areas/alpine-ut/flood-damage-restoration/", "/service-areas/american-fork-ut/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Benjamin", "url": "/service-areas/benjamin-ut/"}, {"name": "flood-damage-restoration"}]

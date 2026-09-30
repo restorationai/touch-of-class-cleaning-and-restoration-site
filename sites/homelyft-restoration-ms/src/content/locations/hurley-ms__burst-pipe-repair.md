@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "69d69c2c4697ff02"
-generated_at: "2026-09-30T14:12:12.979346+00:00"
+generated_at: "2026-09-30T18:41:37.754825+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/hurley-ms/", "/service-areas/hurley-ms/fire-damage-restoration/", "/service-areas/hurley-ms/mold-remediation/", "/service-areas/agricola-ms/burst-pipe-repair/", "/service-areas/bay-st-louis-ms/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hurley", "url": "/service-areas/hurley-ms/"}, {"name": "burst-pipe-repair"}]

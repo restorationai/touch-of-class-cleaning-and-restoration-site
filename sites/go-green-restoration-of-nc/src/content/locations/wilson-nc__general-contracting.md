@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "fb503dad959ed218"
-generated_at: "2026-09-29T23:13:49.279459+00:00"
+generated_at: "2026-09-30T18:41:33.265456+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/wilson-nc/", "/service-areas/wilson-nc/fire-damage-restoration/", "/service-areas/wilson-nc/mold-remediation/", "/service-areas/archer-lodge-nc/general-contracting/", "/service-areas/clayton-nc/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wilson", "url": "/service-areas/wilson-nc/"}, {"name": "Renovations, Remodels and General Contracting"}]

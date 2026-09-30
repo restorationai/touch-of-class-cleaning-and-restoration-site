@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "8af98ae090d03950"
-generated_at: "2026-09-29T23:13:48.931142+00:00"
+generated_at: "2026-09-30T18:41:35.588140+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/st-joseph-mn/", "/service-areas/st-joseph-mn/fire-damage-restoration/", "/service-areas/st-joseph-mn/mold-remediation/", "/service-areas/albany-mn/mold-inspection-testing/", "/service-areas/avon-mn/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "St. Joseph", "url": "/service-areas/st-joseph-mn/"}, {"name": "Mold Inspection and Testing"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "7d5c2632a001d17c"
-generated_at: "2026-09-28T20:50:26.617892+00:00"
+generated_at: "2026-09-30T18:41:56.174400+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/moapa-town-nv/", "/service-areas/moapa-town-nv/fire-damage-restoration/", "/service-areas/moapa-town-nv/mold-remediation/", "/service-areas/blue-diamond-nv/burst-pipe-repair/", "/service-areas/boulder-city-nv/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Moapa Town", "url": "/service-areas/moapa-town-nv/"}, {"name": "burst-pipe-repair"}]

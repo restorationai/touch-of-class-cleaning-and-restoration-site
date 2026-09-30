@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "fd813abcc54123db"
-generated_at: "2026-09-29T14:31:48.336015+00:00"
+generated_at: "2026-09-30T18:41:22.672499+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/san-francisco-ca/", "/service-areas/san-francisco-ca/fire-damage-restoration/", "/service-areas/san-francisco-ca/mold-remediation/", "/service-areas/berkeley-ca/industrial-restoration/", "/service-areas/carlsbad-ca/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Francisco", "url": "/service-areas/san-francisco-ca/"}, {"name": "industrial-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "2695961796efab69"
-generated_at: "2026-09-29T23:13:48.853919+00:00"
+generated_at: "2026-09-30T18:41:35.473036+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/sauk-rapids-mn/", "/service-areas/sauk-rapids-mn/fire-damage-restoration/", "/service-areas/sauk-rapids-mn/mold-remediation/", "/service-areas/albany-mn/commercial-restoration/", "/service-areas/avon-mn/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sauk Rapids", "url": "/service-areas/sauk-rapids-mn/"}, {"name": "Commercial Restoration"}]

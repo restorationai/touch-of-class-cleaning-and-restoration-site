@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "5384ad25214d305f"
-generated_at: "2026-09-23T14:11:42.585364+00:00"
+generated_at: "2026-09-30T18:41:30.033989+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/burien-wa/", "/service-areas/burien-wa/fire-damage-restoration/", "/service-areas/burien-wa/mold-remediation/", "/service-areas/anderson-island-wa/emergency-plumbing/", "/service-areas/auburn-wa/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Burien", "url": "/service-areas/burien-wa/"}, {"name": "Emergency Plumbing"}]

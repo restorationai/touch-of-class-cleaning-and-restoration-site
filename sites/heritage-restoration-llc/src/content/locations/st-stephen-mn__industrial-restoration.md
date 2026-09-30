@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "3b0f36f0623d2bf1"
-generated_at: "2026-09-29T23:13:48.913023+00:00"
+generated_at: "2026-09-30T18:41:35.563338+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/st-stephen-mn/", "/service-areas/st-stephen-mn/fire-damage-restoration/", "/service-areas/st-stephen-mn/mold-remediation/", "/service-areas/albany-mn/industrial-restoration/", "/service-areas/avon-mn/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "St. Stephen", "url": "/service-areas/st-stephen-mn/"}, {"name": "Industrial Restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "dea26ded680a7f0d"
-generated_at: "2026-09-30T14:12:09.615521+00:00"
+generated_at: "2026-09-30T18:41:21.484694+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/riverside-ca/", "/service-areas/riverside-ca/fire-damage-restoration/", "/service-areas/riverside-ca/mold-remediation/", "/service-areas/anaheim-ca/ceiling-water-damage-repair/", "/service-areas/chino-ca/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Riverside", "url": "/service-areas/riverside-ca/"}, {"name": "Ceiling Water Damage Repair"}]

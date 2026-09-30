@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "cc7f8674f300a867"
-generated_at: "2026-09-30T14:12:01.771693+00:00"
+generated_at: "2026-09-30T18:41:08.975621+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/robert-lee-tx/", "/service-areas/robert-lee-tx/fire-damage-restoration/", "/service-areas/robert-lee-tx/mold-remediation/", "/service-areas/albany-tx/emergency-plumbing/", "/service-areas/anson-tx/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Robert Lee", "url": "/service-areas/robert-lee-tx/"}, {"name": "emergency-plumbing"}]

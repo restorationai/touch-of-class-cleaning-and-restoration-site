@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "46e07515dac6fd5c"
-generated_at: "2026-09-29T23:13:49.309169+00:00"
+generated_at: "2026-09-30T18:41:33.327324+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/kenly-nc/", "/service-areas/kenly-nc/fire-damage-restoration/", "/service-areas/kenly-nc/mold-remediation/", "/service-areas/archer-lodge-nc/water-leak-detection/", "/service-areas/clayton-nc/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Kenly", "url": "/service-areas/kenly-nc/"}, {"name": "Water Leak Detection"}]

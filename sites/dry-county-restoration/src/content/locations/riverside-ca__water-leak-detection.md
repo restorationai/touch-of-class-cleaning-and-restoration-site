@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "5237c641c0bdfecd"
-generated_at: "2026-09-30T14:12:09.620548+00:00"
+generated_at: "2026-09-30T18:41:21.489070+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/riverside-ca/", "/service-areas/riverside-ca/fire-damage-restoration/", "/service-areas/riverside-ca/mold-remediation/", "/service-areas/anaheim-ca/water-leak-detection/", "/service-areas/chino-ca/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Riverside", "url": "/service-areas/riverside-ca/"}, {"name": "Water Leak Detection"}]

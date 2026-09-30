@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "f331805bd7a744d5"
-generated_at: "2026-09-30T14:12:25.938827+00:00"
+generated_at: "2026-09-30T18:41:54.639871+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/hopkinton-ma/", "/service-areas/hopkinton-ma/fire-damage-restoration/", "/service-areas/hopkinton-ma/mold-remediation/", "/service-areas/bellingham-ma/asbestos-abatement/", "/service-areas/east-douglas-ma/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hopkinton", "url": "/service-areas/hopkinton-ma/"}, {"name": "Asbestos Abatement"}]

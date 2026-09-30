@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "0d3ff302a0f95bd6"
-generated_at: "2026-09-30T14:12:07.169684+00:00"
+generated_at: "2026-09-30T18:41:19.881992+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/wheatland-pa/", "/service-areas/wheatland-pa/fire-damage-restoration/", "/service-areas/wheatland-pa/mold-remediation/", "/service-areas/austintown-oh/water-heater-flood-cleanup/", "/service-areas/boardman-oh/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wheatland", "url": "/service-areas/wheatland-pa/"}, {"name": "water-heater-flood-cleanup"}]

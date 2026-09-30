@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "0eced8fe4e9a7732"
-generated_at: "2026-09-30T14:12:21.630505+00:00"
+generated_at: "2026-09-30T18:41:50.590525+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/north-puyallup-wa/", "/service-areas/north-puyallup-wa/fire-damage-restoration/", "/service-areas/north-puyallup-wa/mold-remediation/", "/service-areas/algona-wa/water-leak-detection/", "/service-areas/auburn-wa/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Puyallup", "url": "/service-areas/north-puyallup-wa/"}, {"name": "Water Leak Detection"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "1a8c2a7d88562f62"
-generated_at: "2026-09-28T20:50:26.602248+00:00"
+generated_at: "2026-09-30T18:41:56.128976+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/whitney-nv/", "/service-areas/whitney-nv/fire-damage-restoration/", "/service-areas/whitney-nv/mold-remediation/", "/service-areas/blue-diamond-nv/emergency-plumbing/", "/service-areas/boulder-city-nv/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Whitney", "url": "/service-areas/whitney-nv/"}, {"name": "emergency-plumbing"}]

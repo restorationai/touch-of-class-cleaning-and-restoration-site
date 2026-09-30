@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "ee56a07cf9a4fc25"
-generated_at: "2026-09-29T23:13:48.916712+00:00"
+generated_at: "2026-09-30T18:41:35.568471+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/long-prairie-mn/", "/service-areas/long-prairie-mn/fire-damage-restoration/", "/service-areas/long-prairie-mn/mold-remediation/", "/service-areas/albany-mn/emergency-plumbing/", "/service-areas/avon-mn/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Long Prairie", "url": "/service-areas/long-prairie-mn/"}, {"name": "Emergency Plumbing"}]

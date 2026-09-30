@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "a6f4e3035c197a43"
-generated_at: "2026-09-30T14:12:02.657420+00:00"
+generated_at: "2026-09-30T18:41:10.061484+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/mccamey-tx/", "/service-areas/mccamey-tx/fire-damage-restoration/", "/service-areas/mccamey-tx/mold-remediation/", "/service-areas/andrews-tx/mold-inspection-testing/", "/service-areas/big-lake-tx/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McCamey", "url": "/service-areas/mccamey-tx/"}, {"name": "mold-inspection-testing"}]

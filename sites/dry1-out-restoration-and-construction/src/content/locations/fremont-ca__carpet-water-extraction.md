@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "094430b4b1d16318"
-generated_at: "2026-09-29T23:31:28.367373+00:00"
+generated_at: "2026-09-30T18:41:22.692609+00:00"
 manual_override: false
 internal_links: ["/services/carpet-water-extraction/", "/service-areas/fremont-ca/", "/service-areas/fremont-ca/fire-damage-restoration/", "/service-areas/fremont-ca/mold-remediation/", "/service-areas/berkeley-ca/carpet-water-extraction/", "/service-areas/carlsbad-ca/carpet-water-extraction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fremont", "url": "/service-areas/fremont-ca/"}, {"name": "Carpet Water Extraction"}]

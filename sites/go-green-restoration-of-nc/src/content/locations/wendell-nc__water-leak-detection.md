@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "d38126a9db251b0a"
-generated_at: "2026-09-29T23:13:49.294597+00:00"
+generated_at: "2026-09-30T18:41:33.295937+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/wendell-nc/", "/service-areas/wendell-nc/fire-damage-restoration/", "/service-areas/wendell-nc/mold-remediation/", "/service-areas/archer-lodge-nc/water-leak-detection/", "/service-areas/clayton-nc/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wendell", "url": "/service-areas/wendell-nc/"}, {"name": "Water Leak Detection"}]

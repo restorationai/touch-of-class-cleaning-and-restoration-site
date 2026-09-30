@@ -8,7 +8,7 @@ secondary_keywords: ["fire damage restoration", "smoke damage restoration"]
 search_intent: "informational_emergency"
 priority: 5.4
 plan_hash: "5a5e35ef855d1b19"
-generated_at: "2026-09-30T14:12:02.668542+00:00"
+generated_at: "2026-09-30T18:41:10.082578+00:00"
 manual_override: false
 internal_links: ["/blog/", "/services/fire-damage-restoration/", "/services/smoke-damage-restoration/", "/blog/choosing-a-restoration-company/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Blog", "url": "/blog/"}, {"name": "The Fire Damage Restoration Process, Explained"}]

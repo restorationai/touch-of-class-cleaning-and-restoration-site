@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "7c0f6a13fe73ee07"
-generated_at: "2026-09-30T14:12:07.149457+00:00"
+generated_at: "2026-09-30T18:41:19.857533+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/sharon-pa/", "/service-areas/sharon-pa/fire-damage-restoration/", "/service-areas/sharon-pa/mold-remediation/", "/service-areas/austintown-oh/reconstruction/", "/service-areas/boardman-oh/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sharon", "url": "/service-areas/sharon-pa/"}, {"name": "reconstruction"}]

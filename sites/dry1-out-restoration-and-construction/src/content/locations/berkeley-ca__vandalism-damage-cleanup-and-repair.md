@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "fe5cce61a326c8c4"
-generated_at: "2026-09-29T23:31:28.394896+00:00"
+generated_at: "2026-09-30T18:41:22.793218+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-damage-cleanup-and-repair/", "/service-areas/berkeley-ca/", "/service-areas/berkeley-ca/fire-damage-restoration/", "/service-areas/berkeley-ca/mold-remediation/", "/service-areas/carlsbad-ca/vandalism-damage-cleanup-and-repair/", "/service-areas/chula-vista-ca/vandalism-damage-cleanup-and-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Berkeley", "url": "/service-areas/berkeley-ca/"}, {"name": "Vandalism Damage Cleanup and Repair"}]

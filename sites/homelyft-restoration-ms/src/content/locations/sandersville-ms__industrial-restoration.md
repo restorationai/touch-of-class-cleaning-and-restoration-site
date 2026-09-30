@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "a9e53e1e5d2db59a"
-generated_at: "2026-09-30T14:12:13.040794+00:00"
+generated_at: "2026-09-30T18:41:37.831239+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/sandersville-ms/", "/service-areas/sandersville-ms/fire-damage-restoration/", "/service-areas/sandersville-ms/mold-remediation/", "/service-areas/agricola-ms/industrial-restoration/", "/service-areas/bay-st-louis-ms/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sandersville", "url": "/service-areas/sandersville-ms/"}, {"name": "industrial-restoration"}]

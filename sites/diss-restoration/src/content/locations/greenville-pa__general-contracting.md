@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "ffebc62368d37afb"
-generated_at: "2026-09-30T14:12:07.179308+00:00"
+generated_at: "2026-09-30T18:41:19.892876+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/greenville-pa/", "/service-areas/greenville-pa/fire-damage-restoration/", "/service-areas/greenville-pa/mold-remediation/", "/service-areas/austintown-oh/general-contracting/", "/service-areas/boardman-oh/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Greenville", "url": "/service-areas/greenville-pa/"}, {"name": "Renovations, Remodels and General Contracting"}]

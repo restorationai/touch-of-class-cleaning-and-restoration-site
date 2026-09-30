@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "d540e9e073e8d763"
-generated_at: "2026-09-30T14:12:14.645683+00:00"
+generated_at: "2026-09-30T18:41:40.327443+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/alpine-ut/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/burst-pipe-repair/", "/service-areas/benjamin-ut/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Alpine", "url": "/service-areas/alpine-ut/"}, {"name": "Burst Pipe Cleanup and Repair"}]

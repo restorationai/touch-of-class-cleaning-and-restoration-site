@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "f1e6d5b4a2add27a"
-generated_at: "2026-09-30T14:12:07.113301+00:00"
+generated_at: "2026-09-30T18:41:19.811630+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/girard-oh/", "/service-areas/girard-oh/fire-damage-restoration/", "/service-areas/girard-oh/mold-remediation/", "/service-areas/austintown-oh/reconstruction/", "/service-areas/boardman-oh/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Girard", "url": "/service-areas/girard-oh/"}, {"name": "reconstruction"}]

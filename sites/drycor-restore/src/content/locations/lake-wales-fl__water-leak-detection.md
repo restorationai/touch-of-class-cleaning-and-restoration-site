@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "ae3a4b1df0a7cd53"
-generated_at: "2026-09-29T23:28:29.582302+00:00"
+generated_at: "2026-09-30T18:41:26.379088+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/lake-wales-fl/", "/service-areas/lake-wales-fl/fire-damage-restoration/", "/service-areas/lake-wales-fl/mold-remediation/", "/service-areas/anna-maria-fl/water-leak-detection/", "/service-areas/apollo-beach-fl/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Wales", "url": "/service-areas/lake-wales-fl/"}, {"name": "Water Leak Detection"}]

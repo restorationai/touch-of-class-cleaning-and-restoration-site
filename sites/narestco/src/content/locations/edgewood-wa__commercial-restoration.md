@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "599bdba73a76512c"
-generated_at: "2026-09-30T14:12:21.521982+00:00"
+generated_at: "2026-09-30T18:41:50.498021+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/edgewood-wa/", "/service-areas/edgewood-wa/fire-damage-restoration/", "/service-areas/edgewood-wa/mold-remediation/", "/service-areas/algona-wa/commercial-restoration/", "/service-areas/auburn-wa/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Edgewood", "url": "/service-areas/edgewood-wa/"}, {"name": "Commercial Restoration"}]

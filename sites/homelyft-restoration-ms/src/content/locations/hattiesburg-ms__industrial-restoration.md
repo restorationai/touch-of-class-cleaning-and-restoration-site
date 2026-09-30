@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "668c8a348951c279"
-generated_at: "2026-09-30T14:12:12.829049+00:00"
+generated_at: "2026-09-30T18:41:37.569844+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/hattiesburg-ms/", "/service-areas/hattiesburg-ms/fire-damage-restoration/", "/service-areas/hattiesburg-ms/mold-remediation/", "/service-areas/agricola-ms/industrial-restoration/", "/service-areas/bay-st-louis-ms/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hattiesburg", "url": "/service-areas/hattiesburg-ms/"}, {"name": "industrial-restoration"}]

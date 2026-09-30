@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "b71d9b9c2c3bedf8"
-generated_at: "2026-09-30T14:12:14.661918+00:00"
+generated_at: "2026-09-30T18:41:40.345069+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/draper-ut/", "/service-areas/draper-ut/fire-damage-restoration/", "/service-areas/draper-ut/mold-remediation/", "/service-areas/alpine-ut/general-contracting/", "/service-areas/american-fork-ut/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Draper", "url": "/service-areas/draper-ut/"}, {"name": "general-contracting"}]

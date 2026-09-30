@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "19098de3a9288d71"
-generated_at: "2026-09-29T23:13:49.311988+00:00"
+generated_at: "2026-09-30T18:41:33.333369+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/clayton-nc/", "/service-areas/clayton-nc/fire-damage-restoration/", "/service-areas/clayton-nc/mold-remediation/", "/service-areas/archer-lodge-nc/reconstruction/", "/service-areas/durham-nc/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Clayton", "url": "/service-areas/clayton-nc/"}, {"name": "Reconstruction Services"}]

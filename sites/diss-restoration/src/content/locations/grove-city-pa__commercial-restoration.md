@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "99505163abd49a33"
-generated_at: "2026-09-30T14:12:07.188422+00:00"
+generated_at: "2026-09-30T18:41:19.904113+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/grove-city-pa/", "/service-areas/grove-city-pa/fire-damage-restoration/", "/service-areas/grove-city-pa/mold-remediation/", "/service-areas/austintown-oh/commercial-restoration/", "/service-areas/boardman-oh/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Grove City", "url": "/service-areas/grove-city-pa/"}, {"name": "commercial-restoration"}]

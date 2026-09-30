@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "af99974fe76aa296"
-generated_at: "2026-09-29T23:13:48.866829+00:00"
+generated_at: "2026-09-30T18:41:35.494340+00:00"
 manual_override: false
 internal_links: ["/services/remodeler/", "/service-areas/foley-mn/", "/service-areas/foley-mn/fire-damage-restoration/", "/service-areas/foley-mn/mold-remediation/", "/service-areas/albany-mn/remodeler/", "/service-areas/avon-mn/remodeler/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Foley", "url": "/service-areas/foley-mn/"}, {"name": "Remodeler"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "19106a6f0dfcb1d0"
-generated_at: "2026-09-30T14:12:14.576242+00:00"
+generated_at: "2026-09-30T18:41:40.251145+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/heber-city-ut/", "/service-areas/heber-city-ut/fire-damage-restoration/", "/service-areas/heber-city-ut/mold-remediation/", "/service-areas/alpine-ut/emergency-plumbing/", "/service-areas/american-fork-ut/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Heber City", "url": "/service-areas/heber-city-ut/"}, {"name": "emergency-plumbing"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "a23c860a35a077a6"
-generated_at: "2026-09-30T14:12:02.636522+00:00"
+generated_at: "2026-09-30T18:41:10.023584+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/gardendale-tx/", "/service-areas/gardendale-tx/fire-damage-restoration/", "/service-areas/gardendale-tx/mold-remediation/", "/service-areas/andrews-tx/commercial-restoration/", "/service-areas/big-lake-tx/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gardendale", "url": "/service-areas/gardendale-tx/"}, {"name": "commercial-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "216d6a8de43c185a"
-generated_at: "2026-09-30T14:12:25.986533+00:00"
+generated_at: "2026-09-30T18:41:54.693722+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/oxford-ma/", "/service-areas/oxford-ma/fire-damage-restoration/", "/service-areas/oxford-ma/mold-remediation/", "/service-areas/bellingham-ma/ceiling-water-damage-repair/", "/service-areas/east-douglas-ma/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oxford", "url": "/service-areas/oxford-ma/"}, {"name": "ceiling-water-damage-repair"}]

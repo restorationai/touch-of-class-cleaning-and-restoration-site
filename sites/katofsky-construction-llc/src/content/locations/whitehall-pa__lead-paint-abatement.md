@@ -8,7 +8,7 @@ secondary_keywords: ["lead paint removal", "lead paint testing", "lead-safe reno
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "c2399564d046041d"
-generated_at: "2026-09-30T14:12:19.437347+00:00"
+generated_at: "2026-09-30T18:41:44.201547+00:00"
 manual_override: false
 internal_links: ["/services/lead-paint-abatement/", "/service-areas/whitehall-pa/", "/service-areas/whitehall-pa/fire-damage-restoration/", "/service-areas/whitehall-pa/roofing/", "/service-areas/allison-park-pa/lead-paint-abatement/", "/service-areas/baldwin-pa/lead-paint-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Whitehall", "url": "/service-areas/whitehall-pa/"}, {"name": "Lead Paint Abatement"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "a52ff16368f9e756"
-generated_at: "2026-09-29T23:13:49.306368+00:00"
+generated_at: "2026-09-30T18:41:33.320921+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/kenly-nc/", "/service-areas/kenly-nc/fire-damage-restoration/", "/service-areas/kenly-nc/mold-remediation/", "/service-areas/archer-lodge-nc/burst-pipe-repair/", "/service-areas/clayton-nc/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Kenly", "url": "/service-areas/kenly-nc/"}, {"name": "Burst Pipe Cleanup and Repair"}]

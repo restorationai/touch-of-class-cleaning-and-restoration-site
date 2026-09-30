@@ -2,13 +2,13 @@
 archetype: "service-area-service"
 title: "Emergency Water Removal & Cleanup in Hermitage, PA | DISS Restoration"
 h1: "Emergency Water Removal & Cleanup in Hermitage"
-meta_description: "24/7 emergency water removal and cleanup in Hermitage, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
-primary_keyword: "emergency water removal hermitage"
-secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
+meta_description: "24/7 emergency water removal & cleanup in Hermitage, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+primary_keyword: "emergency water removal & cleanup hermitage"
+secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "c874ea6c8dd5387d"
-generated_at: "2026-09-30T14:12:07.154496+00:00"
+plan_hash: "75cc73dc5f651095"
+generated_at: "2026-09-30T18:41:19.861159+00:00"
 manual_override: false
 internal_links: ["/services/emergency-water-removal/", "/service-areas/hermitage-pa/", "/service-areas/hermitage-pa/fire-damage-restoration/", "/service-areas/hermitage-pa/mold-remediation/", "/service-areas/austintown-oh/emergency-water-removal/", "/service-areas/boardman-oh/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hermitage", "url": "/service-areas/hermitage-pa/"}, {"name": "Emergency Water Removal & Cleanup"}]

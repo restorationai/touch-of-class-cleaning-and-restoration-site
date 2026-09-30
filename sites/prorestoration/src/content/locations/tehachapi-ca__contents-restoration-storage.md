@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "51fb856bf40e2e18"
-generated_at: "2026-09-30T14:12:22.984405+00:00"
+generated_at: "2026-09-30T18:41:52.023377+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration-storage/", "/service-areas/tehachapi-ca/", "/service-areas/tehachapi-ca/fire-damage-restoration/", "/service-areas/tehachapi-ca/home-remodeling/", "/service-areas/arvin-ca/contents-restoration-storage/", "/service-areas/bear-valley-springs-ca/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tehachapi", "url": "/service-areas/tehachapi-ca/"}, {"name": "Contents Restoration & Storage"}]

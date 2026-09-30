@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "3bf7b8b059d6769e"
-generated_at: "2026-09-30T14:12:26.064831+00:00"
+generated_at: "2026-09-30T18:41:54.777151+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/bellingham-ma/", "/service-areas/bellingham-ma/fire-damage-restoration/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/reconstruction/", "/service-areas/fiskdale-ma/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bellingham", "url": "/service-areas/bellingham-ma/"}, {"name": "reconstruction"}]

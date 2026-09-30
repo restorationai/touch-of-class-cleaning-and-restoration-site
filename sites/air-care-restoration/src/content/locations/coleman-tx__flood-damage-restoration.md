@@ -8,7 +8,7 @@ secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restorati
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "0137eaf1f27e4f99"
-generated_at: "2026-09-30T14:12:01.787784+00:00"
+generated_at: "2026-09-30T18:41:09.001235+00:00"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/service-areas/coleman-tx/", "/service-areas/coleman-tx/fire-damage-restoration/", "/service-areas/coleman-tx/mold-remediation/", "/service-areas/albany-tx/flood-damage-restoration/", "/service-areas/anson-tx/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Coleman", "url": "/service-areas/coleman-tx/"}, {"name": "flood-damage-restoration"}]

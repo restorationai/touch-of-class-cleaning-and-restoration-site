@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "9f11bd6086b0bdb1"
-generated_at: "2026-09-29T23:13:48.917454+00:00"
+generated_at: "2026-09-30T18:41:35.569307+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/long-prairie-mn/", "/service-areas/long-prairie-mn/fire-damage-restoration/", "/service-areas/long-prairie-mn/mold-remediation/", "/service-areas/albany-mn/industrial-restoration/", "/service-areas/avon-mn/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Long Prairie", "url": "/service-areas/long-prairie-mn/"}, {"name": "Industrial Restoration"}]

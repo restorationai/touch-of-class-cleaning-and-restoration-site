@@ -8,7 +8,7 @@ secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restorati
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "2d0c7aee53b103a5"
-generated_at: "2026-09-29T14:31:48.406421+00:00"
+generated_at: "2026-09-30T18:41:22.749931+00:00"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/service-areas/hayward-ca/", "/service-areas/hayward-ca/fire-damage-restoration/", "/service-areas/hayward-ca/mold-remediation/", "/service-areas/berkeley-ca/flood-damage-restoration/", "/service-areas/carlsbad-ca/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hayward", "url": "/service-areas/hayward-ca/"}, {"name": "flood-damage-restoration"}]

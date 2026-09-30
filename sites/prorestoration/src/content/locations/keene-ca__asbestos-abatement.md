@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "b18d100364104a72"
-generated_at: "2026-09-30T14:12:23.107115+00:00"
+generated_at: "2026-09-30T18:41:52.132810+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/keene-ca/", "/service-areas/keene-ca/fire-damage-restoration/", "/service-areas/keene-ca/home-remodeling/", "/service-areas/arvin-ca/asbestos-abatement/", "/service-areas/bear-valley-springs-ca/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Keene", "url": "/service-areas/keene-ca/"}, {"name": "Asbestos Abatement"}]

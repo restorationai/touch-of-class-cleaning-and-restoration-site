@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "fea79824c9d23cb2"
-generated_at: "2026-09-29T23:13:49.345390+00:00"
+generated_at: "2026-09-30T18:41:33.401640+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/youngsville-nc/", "/service-areas/youngsville-nc/fire-damage-restoration/", "/service-areas/youngsville-nc/mold-remediation/", "/service-areas/archer-lodge-nc/emergency-plumbing/", "/service-areas/clayton-nc/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Youngsville", "url": "/service-areas/youngsville-nc/"}, {"name": "Emergency Plumbing"}]

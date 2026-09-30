@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "a43fb23ded66e580"
-generated_at: "2026-09-30T14:12:07.149211+00:00"
+generated_at: "2026-09-30T18:41:19.856942+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/sharon-pa/", "/service-areas/sharon-pa/fire-damage-restoration/", "/service-areas/sharon-pa/mold-remediation/", "/service-areas/austintown-oh/commercial-restoration/", "/service-areas/boardman-oh/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sharon", "url": "/service-areas/sharon-pa/"}, {"name": "commercial-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "abdeaf1d9fb91f14"
-generated_at: "2026-09-30T14:12:07.101883+00:00"
+generated_at: "2026-09-30T18:41:19.795355+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/boardman-oh/", "/service-areas/boardman-oh/fire-damage-restoration/", "/service-areas/boardman-oh/mold-remediation/", "/service-areas/austintown-oh/mold-inspection-testing/", "/service-areas/campbell-oh/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Boardman", "url": "/service-areas/boardman-oh/"}, {"name": "mold-inspection-testing"}]

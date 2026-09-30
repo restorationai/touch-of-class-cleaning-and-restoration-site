@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "a70ccd3a3ce8adbb"
-generated_at: "2026-09-23T14:11:38.263756+00:00"
+generated_at: "2026-09-30T18:41:26.245270+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/apollo-beach-fl/", "/service-areas/apollo-beach-fl/fire-damage-restoration/", "/service-areas/apollo-beach-fl/mold-remediation/", "/service-areas/anna-maria-fl/emergency-plumbing/", "/service-areas/auburndale-fl/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Apollo Beach", "url": "/service-areas/apollo-beach-fl/"}, {"name": "Emergency Plumbing"}]

@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "d0ed2bbeb1db6aac"
-generated_at: "2026-09-29T23:31:28.389418+00:00"
+generated_at: "2026-09-30T18:41:22.772537+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up/", "/service-areas/el-cajon-ca/", "/service-areas/el-cajon-ca/fire-damage-restoration/", "/service-areas/el-cajon-ca/mold-remediation/", "/service-areas/berkeley-ca/emergency-board-up/", "/service-areas/carlsbad-ca/emergency-board-up/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "El Cajon", "url": "/service-areas/el-cajon-ca/"}, {"name": "Emergency Board Up"}]

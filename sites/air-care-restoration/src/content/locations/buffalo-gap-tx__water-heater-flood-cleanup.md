@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "086481b53c8b1303"
-generated_at: "2026-09-30T14:12:01.756387+00:00"
+generated_at: "2026-09-30T18:41:08.950801+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/buffalo-gap-tx/", "/service-areas/buffalo-gap-tx/fire-damage-restoration/", "/service-areas/buffalo-gap-tx/mold-remediation/", "/service-areas/albany-tx/water-heater-flood-cleanup/", "/service-areas/anson-tx/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buffalo Gap", "url": "/service-areas/buffalo-gap-tx/"}, {"name": "water-heater-flood-cleanup"}]

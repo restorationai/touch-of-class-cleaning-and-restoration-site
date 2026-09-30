@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Basement Flooding Cleanup in Eagle Mountain, UT | FIX Restoration"
+h1: "Basement Flooding Cleanup in Eagle Mountain"
+meta_description: "Basement flooding cleanup in Eagle Mountain, UT. Insurance billing accepted. Call (801) 930-9750."
+primary_keyword: "basement flooding cleanup eagle mountain"
+secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet basement restoration", "basement water damage", "basement drying"]
+search_intent: "local_emergency"
+priority: 5.6
+plan_hash: "fd8b3447fbca842b"
+generated_at: "2026-09-30T18:41:10.905261+00:00"
+manual_override: false
+internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/eagle-mountain-ut/", "/service-areas/eagle-mountain-ut/fire-damage-restoration/", "/service-areas/eagle-mountain-ut/mold-remediation/", "/service-areas/alpine-ut/basement-flooding-cleanup/", "/service-areas/bluffdale-ut/basement-flooding-cleanup/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Eagle Mountain", "url": "/service-areas/eagle-mountain-ut/"}, {"name": "basement-flooding-cleanup"}]
+faq: []
+area_slug: "eagle-mountain-ut"
+service_slug: "basement-flooding-cleanup"
+city: "Eagle Mountain"
+state: "UT"
+service_display: "basement-flooding-cleanup"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug bcp-flood-pros-allison-harris` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Basement Flooding Cleanup in Eagle Mountain.

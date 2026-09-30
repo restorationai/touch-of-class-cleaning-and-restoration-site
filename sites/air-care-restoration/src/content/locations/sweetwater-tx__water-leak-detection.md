@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "8a3c742dbeec4477"
-generated_at: "2026-09-30T14:12:01.739040+00:00"
+generated_at: "2026-09-30T18:41:08.928254+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/sweetwater-tx/", "/service-areas/sweetwater-tx/fire-damage-restoration/", "/service-areas/sweetwater-tx/mold-remediation/", "/service-areas/albany-tx/water-leak-detection/", "/service-areas/anson-tx/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sweetwater", "url": "/service-areas/sweetwater-tx/"}, {"name": "water-leak-detection"}]

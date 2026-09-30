@@ -7,10 +7,10 @@ primary_keyword: "restoration services farmersville"
 secondary_keywords: ["farmersville restoration company", "damage restoration farmersville", "farmersville disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "a9ead651903e9424"
-generated_at: "2026-09-23T14:12:04.436336+00:00"
+plan_hash: "4f5614ad3ef895b9"
+generated_at: "2026-09-30T18:41:58.617827+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/farmersville-tx/fire-damage-restoration/", "/service-areas/farmersville-tx/mold-remediation/", "/service-areas/farmersville-tx/roofing/", "/service-areas/farmersville-tx/water-damage-restoration/", "/service-areas/farmersville-tx/storm-damage-restoration/", "/service-areas/farmersville-tx/emergency-water-removal/", "/service-areas/farmersville-tx/general-contracting/", "/service-areas/farmersville-tx/odor-removal/", "/service-areas/farmersville-tx/contents-restoration/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/farmersville-tx/fire-damage-restoration/", "/service-areas/farmersville-tx/mold-remediation/", "/service-areas/farmersville-tx/roofing/", "/service-areas/farmersville-tx/water-damage-restoration/", "/service-areas/farmersville-tx/commercial-restoration/", "/service-areas/farmersville-tx/emergency-plumbing/", "/service-areas/farmersville-tx/emergency-water-removal/", "/service-areas/farmersville-tx/flood-damage-restoration/", "/service-areas/farmersville-tx/reconstruction/", "/service-areas/farmersville-tx/sewage-cleanup/", "/service-areas/farmersville-tx/smoke-damage-restoration/", "/service-areas/farmersville-tx/storm-damage-restoration/", "/service-areas/farmersville-tx/basement-flooding-cleanup/", "/service-areas/farmersville-tx/burst-pipe-repair/", "/service-areas/farmersville-tx/ceiling-water-damage-repair/", "/service-areas/farmersville-tx/general-contracting/", "/service-areas/farmersville-tx/large-loss-response/", "/service-areas/farmersville-tx/mold-inspection-testing/", "/service-areas/farmersville-tx/industrial-restoration/", "/service-areas/farmersville-tx/odor-removal/", "/service-areas/farmersville-tx/water-heater-flood-cleanup/", "/service-areas/farmersville-tx/water-leak-detection/", "/service-areas/farmersville-tx/contents-restoration/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Farmersville"}]
 faq: []
 area_slug: "farmersville-tx"

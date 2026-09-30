@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "97e97f3eabb19541"
-generated_at: "2026-09-30T14:12:01.753483+00:00"
+generated_at: "2026-09-30T18:41:08.946550+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/tye-tx/", "/service-areas/tye-tx/fire-damage-restoration/", "/service-areas/tye-tx/mold-remediation/", "/service-areas/albany-tx/water-heater-flood-cleanup/", "/service-areas/anson-tx/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tye", "url": "/service-areas/tye-tx/"}, {"name": "water-heater-flood-cleanup"}]

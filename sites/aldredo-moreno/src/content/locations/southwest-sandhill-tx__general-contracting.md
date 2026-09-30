@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "6f098175a977b728"
-generated_at: "2026-09-30T14:12:02.660973+00:00"
+generated_at: "2026-09-30T18:41:10.068986+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/southwest-sandhill-tx/", "/service-areas/southwest-sandhill-tx/fire-damage-restoration/", "/service-areas/southwest-sandhill-tx/mold-remediation/", "/service-areas/andrews-tx/general-contracting/", "/service-areas/big-lake-tx/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Southwest Sandhill", "url": "/service-areas/southwest-sandhill-tx/"}, {"name": "general-contracting"}]

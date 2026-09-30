@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "7ca6b5184257300c"
-generated_at: "2026-09-29T23:31:28.381396+00:00"
+generated_at: "2026-09-30T18:41:22.745117+00:00"
 manual_override: false
 internal_links: ["/services/blood-cleanup/", "/service-areas/hayward-ca/", "/service-areas/hayward-ca/fire-damage-restoration/", "/service-areas/hayward-ca/mold-remediation/", "/service-areas/berkeley-ca/blood-cleanup/", "/service-areas/carlsbad-ca/blood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hayward", "url": "/service-areas/hayward-ca/"}, {"name": "Blood Cleanup"}]

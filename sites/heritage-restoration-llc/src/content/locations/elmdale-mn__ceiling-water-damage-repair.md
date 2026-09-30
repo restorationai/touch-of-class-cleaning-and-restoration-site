@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "127db3a46ddf3356"
-generated_at: "2026-09-29T23:13:48.885086+00:00"
+generated_at: "2026-09-30T18:41:35.526366+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/elmdale-mn/", "/service-areas/elmdale-mn/fire-damage-restoration/", "/service-areas/elmdale-mn/mold-remediation/", "/service-areas/albany-mn/ceiling-water-damage-repair/", "/service-areas/avon-mn/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elmdale", "url": "/service-areas/elmdale-mn/"}, {"name": "Ceiling Water Damage Repair"}]

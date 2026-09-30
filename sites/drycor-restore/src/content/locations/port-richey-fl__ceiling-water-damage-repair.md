@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "6ea9ee6944cbd58f"
-generated_at: "2026-09-29T23:28:29.620369+00:00"
+generated_at: "2026-09-30T18:41:26.431395+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/port-richey-fl/", "/service-areas/port-richey-fl/fire-damage-restoration/", "/service-areas/port-richey-fl/mold-remediation/", "/service-areas/anna-maria-fl/ceiling-water-damage-repair/", "/service-areas/apollo-beach-fl/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Port Richey", "url": "/service-areas/port-richey-fl/"}, {"name": "Ceiling Water Damage Repair"}]

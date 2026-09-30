@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "19c802ff62339275"
-generated_at: "2026-09-29T23:31:28.395058+00:00"
+generated_at: "2026-09-30T18:41:22.793516+00:00"
 manual_override: false
 internal_links: ["/services/vehicle-impact-damage-repair/", "/service-areas/berkeley-ca/", "/service-areas/berkeley-ca/fire-damage-restoration/", "/service-areas/berkeley-ca/mold-remediation/", "/service-areas/carlsbad-ca/vehicle-impact-damage-repair/", "/service-areas/chula-vista-ca/vehicle-impact-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Berkeley", "url": "/service-areas/berkeley-ca/"}, {"name": "Vehicle Impact Damage Repair"}]

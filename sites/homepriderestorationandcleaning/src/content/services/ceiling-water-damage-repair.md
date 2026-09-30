@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 7.2
 plan_hash: "0ee5daaff356f655"
-generated_at: "2026-09-30T14:12:14.524469+00:00"
+generated_at: "2026-09-30T18:41:40.189744+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/ceiling-water-damage-repair/", "/service-areas/american-fork-ut/ceiling-water-damage-repair/", "/service-areas/benjamin-ut/ceiling-water-damage-repair/", "/service-areas/bluffdale-ut/ceiling-water-damage-repair/", "/service-areas/cedar-fort-ut/ceiling-water-damage-repair/", "/service-areas/cedar-hills-ut/ceiling-water-damage-repair/", "/service-areas/draper-ut/ceiling-water-damage-repair/", "/service-areas/eagle-mountain-ut/ceiling-water-damage-repair/", "/service-areas/fairfield-ut/ceiling-water-damage-repair/", "/service-areas/heber-city-ut/ceiling-water-damage-repair/", "/service-areas/herriman-ut/ceiling-water-damage-repair/", "/service-areas/highland-ut/ceiling-water-damage-repair/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "ceiling-water-damage-repair"}]

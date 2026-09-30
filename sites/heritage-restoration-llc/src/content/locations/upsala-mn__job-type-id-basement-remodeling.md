@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "6eb36ead2fcdadb3"
-generated_at: "2026-09-29T23:13:48.901982+00:00"
+generated_at: "2026-09-30T18:41:35.545880+00:00"
 manual_override: false
 internal_links: ["/services/job-type-id-basement-remodeling/", "/service-areas/upsala-mn/", "/service-areas/upsala-mn/fire-damage-restoration/", "/service-areas/upsala-mn/mold-remediation/", "/service-areas/albany-mn/job-type-id-basement-remodeling/", "/service-areas/avon-mn/job-type-id-basement-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Upsala", "url": "/service-areas/upsala-mn/"}, {"name": "Basement Remodeling"}]

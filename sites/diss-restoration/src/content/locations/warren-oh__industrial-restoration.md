@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "241bcd5dc3f28018"
-generated_at: "2026-09-30T14:12:07.098442+00:00"
+generated_at: "2026-09-30T18:41:19.790791+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/warren-oh/", "/service-areas/warren-oh/fire-damage-restoration/", "/service-areas/warren-oh/mold-remediation/", "/service-areas/austintown-oh/industrial-restoration/", "/service-areas/boardman-oh/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Warren", "url": "/service-areas/warren-oh/"}, {"name": "industrial-restoration"}]

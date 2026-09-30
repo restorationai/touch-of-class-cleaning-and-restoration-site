@@ -8,7 +8,7 @@ secondary_keywords: ["junk removal", "debris removal", "house cleanout", "garage
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "335e751c7320a188"
-generated_at: "2026-09-30T14:12:14.630373+00:00"
+generated_at: "2026-09-30T18:41:40.310283+00:00"
 manual_override: false
 internal_links: ["/services/junk-debris-removal/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-fort-ut/fire-damage-restoration/", "/service-areas/cedar-fort-ut/mold-remediation/", "/service-areas/alpine-ut/junk-debris-removal/", "/service-areas/american-fork-ut/junk-debris-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Cedar Fort", "url": "/service-areas/cedar-fort-ut/"}, {"name": "Junk & Debris Removal"}]

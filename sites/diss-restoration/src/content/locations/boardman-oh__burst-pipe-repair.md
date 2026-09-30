@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "b2671c2ab7a7bc0e"
-generated_at: "2026-09-30T14:12:07.101505+00:00"
+generated_at: "2026-09-30T18:41:19.794450+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/boardman-oh/", "/service-areas/boardman-oh/fire-damage-restoration/", "/service-areas/boardman-oh/mold-remediation/", "/service-areas/austintown-oh/burst-pipe-repair/", "/service-areas/campbell-oh/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Boardman", "url": "/service-areas/boardman-oh/"}, {"name": "burst-pipe-repair"}]

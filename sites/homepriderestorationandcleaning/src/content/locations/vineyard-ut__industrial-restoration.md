@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "e04e65f6c4458b9f"
-generated_at: "2026-09-30T14:12:14.589172+00:00"
+generated_at: "2026-09-30T18:41:40.265468+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/vineyard-ut/", "/service-areas/vineyard-ut/fire-damage-restoration/", "/service-areas/vineyard-ut/mold-remediation/", "/service-areas/alpine-ut/industrial-restoration/", "/service-areas/american-fork-ut/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vineyard", "url": "/service-areas/vineyard-ut/"}, {"name": "industrial-restoration"}]

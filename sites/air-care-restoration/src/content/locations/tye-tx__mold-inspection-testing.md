@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "0cfec641fd2fe263"
-generated_at: "2026-09-30T14:12:01.752708+00:00"
+generated_at: "2026-09-30T18:41:08.945182+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/tye-tx/", "/service-areas/tye-tx/fire-damage-restoration/", "/service-areas/tye-tx/mold-remediation/", "/service-areas/albany-tx/mold-inspection-testing/", "/service-areas/anson-tx/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tye", "url": "/service-areas/tye-tx/"}, {"name": "mold-inspection-testing"}]

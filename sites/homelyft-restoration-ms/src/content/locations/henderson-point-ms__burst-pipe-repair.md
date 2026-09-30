@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "27a2e2a0d574a74c"
-generated_at: "2026-09-30T14:12:12.875234+00:00"
+generated_at: "2026-09-30T18:41:37.626506+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/henderson-point-ms/", "/service-areas/henderson-point-ms/fire-damage-restoration/", "/service-areas/henderson-point-ms/mold-remediation/", "/service-areas/agricola-ms/burst-pipe-repair/", "/service-areas/bay-st-louis-ms/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Henderson Point", "url": "/service-areas/henderson-point-ms/"}, {"name": "burst-pipe-repair"}]

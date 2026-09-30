@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "2dbd8b327b17b134"
-generated_at: "2026-09-29T23:13:48.864793+00:00"
+generated_at: "2026-09-30T18:41:35.491052+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/foley-mn/", "/service-areas/foley-mn/fire-damage-restoration/", "/service-areas/foley-mn/mold-remediation/", "/service-areas/albany-mn/commercial-restoration/", "/service-areas/avon-mn/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Foley", "url": "/service-areas/foley-mn/"}, {"name": "Commercial Restoration"}]

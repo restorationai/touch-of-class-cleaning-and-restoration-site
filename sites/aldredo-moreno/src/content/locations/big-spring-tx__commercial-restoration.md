@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "01f4c451e7b890d1"
-generated_at: "2026-09-30T14:12:02.627585+00:00"
+generated_at: "2026-09-30T18:41:10.007334+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/big-spring-tx/", "/service-areas/big-spring-tx/fire-damage-restoration/", "/service-areas/big-spring-tx/mold-remediation/", "/service-areas/andrews-tx/commercial-restoration/", "/service-areas/big-lake-tx/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Big Spring", "url": "/service-areas/big-spring-tx/"}, {"name": "commercial-restoration"}]

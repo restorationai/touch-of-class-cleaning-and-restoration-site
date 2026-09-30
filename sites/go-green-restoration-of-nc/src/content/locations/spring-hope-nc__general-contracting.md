@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "4aae2003b42fee56"
-generated_at: "2026-09-29T23:13:49.303562+00:00"
+generated_at: "2026-09-30T18:41:33.315543+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/spring-hope-nc/", "/service-areas/spring-hope-nc/fire-damage-restoration/", "/service-areas/spring-hope-nc/mold-remediation/", "/service-areas/archer-lodge-nc/general-contracting/", "/service-areas/clayton-nc/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Spring Hope", "url": "/service-areas/spring-hope-nc/"}, {"name": "Renovations, Remodels and General Contracting"}]

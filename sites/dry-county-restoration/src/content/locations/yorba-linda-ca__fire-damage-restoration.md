@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "b60f71140cfc67e0"
-generated_at: "2026-09-30T14:12:09.711905+00:00"
+generated_at: "2026-09-30T18:41:21.571631+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/yorba-linda-ca/", "/service-areas/yorba-linda-ca/mold-remediation/", "/service-areas/yorba-linda-ca/roofing/", "/service-areas/anaheim-ca/fire-damage-restoration/", "/service-areas/chino-ca/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Yorba Linda", "url": "/service-areas/yorba-linda-ca/"}, {"name": "Fire Damage Restoration"}]

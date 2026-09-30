@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "d204011b5d4146d2"
-generated_at: "2026-09-23T14:11:42.588182+00:00"
+generated_at: "2026-09-30T18:41:30.043034+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/south-hill-wa/", "/service-areas/south-hill-wa/fire-damage-restoration/", "/service-areas/south-hill-wa/mold-remediation/", "/service-areas/anderson-island-wa/emergency-plumbing/", "/service-areas/auburn-wa/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "South Hill", "url": "/service-areas/south-hill-wa/"}, {"name": "Emergency Plumbing"}]

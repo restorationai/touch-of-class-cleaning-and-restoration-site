@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "b0739fc34aff9729"
-generated_at: "2026-09-30T14:12:02.639539+00:00"
+generated_at: "2026-09-30T18:41:10.029386+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/greenwood-tx/", "/service-areas/greenwood-tx/fire-damage-restoration/", "/service-areas/greenwood-tx/mold-remediation/", "/service-areas/andrews-tx/industrial-restoration/", "/service-areas/big-lake-tx/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Greenwood", "url": "/service-areas/greenwood-tx/"}, {"name": "industrial-restoration"}]

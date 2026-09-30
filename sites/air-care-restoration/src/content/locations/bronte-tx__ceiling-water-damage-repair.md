@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "7f803a1582fe3adc"
-generated_at: "2026-09-30T14:12:01.774092+00:00"
+generated_at: "2026-09-30T18:41:08.979588+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/bronte-tx/", "/service-areas/bronte-tx/fire-damage-restoration/", "/service-areas/bronte-tx/mold-remediation/", "/service-areas/albany-tx/ceiling-water-damage-repair/", "/service-areas/anson-tx/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bronte", "url": "/service-areas/bronte-tx/"}, {"name": "ceiling-water-damage-repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "68dfab5122f2184c"
-generated_at: "2026-09-30T14:12:14.544195+00:00"
+generated_at: "2026-09-30T18:41:40.212111+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/pleasant-grove-ut/", "/service-areas/pleasant-grove-ut/fire-damage-restoration/", "/service-areas/pleasant-grove-ut/mold-remediation/", "/service-areas/alpine-ut/emergency-board-up-tarping/", "/service-areas/american-fork-ut/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pleasant Grove", "url": "/service-areas/pleasant-grove-ut/"}, {"name": "Emergency Board-Up and Tarping"}]

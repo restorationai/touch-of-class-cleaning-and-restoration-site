@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "c576bc0738bc413b"
-generated_at: "2026-09-28T20:50:26.575829+00:00"
+generated_at: "2026-09-30T18:41:56.071108+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/water-heater-flood-cleanup/", "/service-areas/boulder-city-nv/water-heater-flood-cleanup/", "/service-areas/enterprise-nv/water-heater-flood-cleanup/", "/service-areas/henderson-nv/water-heater-flood-cleanup/", "/service-areas/indian-springs-nv/water-heater-flood-cleanup/", "/service-areas/las-vegas-nv/water-heater-flood-cleanup/", "/service-areas/moapa-town-nv/water-heater-flood-cleanup/", "/service-areas/moapa-valley-nv/water-heater-flood-cleanup/", "/service-areas/mount-charleston-nv/water-heater-flood-cleanup/", "/service-areas/nelson-nv/water-heater-flood-cleanup/", "/service-areas/pahrump-nv/water-heater-flood-cleanup/", "/service-areas/paradise-nv/water-heater-flood-cleanup/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "water-heater-flood-cleanup"}]

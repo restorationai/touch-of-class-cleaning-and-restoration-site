@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "4fd5442df04b79bb"
-generated_at: "2026-09-30T14:12:25.972130+00:00"
+generated_at: "2026-09-30T18:41:54.676592+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/newton-ma/", "/service-areas/newton-ma/fire-damage-restoration/", "/service-areas/newton-ma/mold-remediation/", "/service-areas/bellingham-ma/burst-pipe-repair/", "/service-areas/east-douglas-ma/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Newton", "url": "/service-areas/newton-ma/"}, {"name": "burst-pipe-repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "6065a85f7b8a57ac"
-generated_at: "2026-09-30T14:12:07.105465+00:00"
+generated_at: "2026-09-30T18:41:19.800249+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/austintown-oh/", "/service-areas/austintown-oh/fire-damage-restoration/", "/service-areas/austintown-oh/mold-remediation/", "/service-areas/boardman-oh/smoke-damage-restoration/", "/service-areas/campbell-oh/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Austintown", "url": "/service-areas/austintown-oh/"}, {"name": "smoke-damage-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "d83a8ae4ac54f7ee"
-generated_at: "2026-09-30T14:12:07.109924+00:00"
+generated_at: "2026-09-30T18:41:19.807165+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/niles-oh/", "/service-areas/niles-oh/fire-damage-restoration/", "/service-areas/niles-oh/mold-remediation/", "/service-areas/austintown-oh/ceiling-water-damage-repair/", "/service-areas/boardman-oh/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Niles", "url": "/service-areas/niles-oh/"}, {"name": "ceiling-water-damage-repair"}]

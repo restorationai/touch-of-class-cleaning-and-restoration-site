@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "2c5c9b02a548eb7b"
-generated_at: "2026-09-29T23:13:48.843053+00:00"
+generated_at: "2026-09-30T18:41:35.454997+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/industrial-restoration/", "/service-areas/avon-mn/industrial-restoration/", "/service-areas/baxter-mn/industrial-restoration/", "/service-areas/brainerd-mn/industrial-restoration/", "/service-areas/elmdale-mn/industrial-restoration/", "/service-areas/flensburg-mn/industrial-restoration/", "/service-areas/foley-mn/industrial-restoration/", "/service-areas/fort-ripley-mn/industrial-restoration/", "/service-areas/harding-mn/industrial-restoration/", "/service-areas/long-prairie-mn/industrial-restoration/", "/service-areas/pierz-mn/industrial-restoration/", "/service-areas/randall-mn/industrial-restoration/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Industrial Restoration"}]

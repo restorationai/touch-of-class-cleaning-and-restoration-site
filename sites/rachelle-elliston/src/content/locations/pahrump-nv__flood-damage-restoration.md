@@ -8,7 +8,7 @@ secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restorati
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "d3b213fea5b2123d"
-generated_at: "2026-09-28T20:50:26.626789+00:00"
+generated_at: "2026-09-30T18:41:56.194927+00:00"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/service-areas/pahrump-nv/", "/service-areas/pahrump-nv/fire-damage-restoration/", "/service-areas/pahrump-nv/mold-remediation/", "/service-areas/blue-diamond-nv/flood-damage-restoration/", "/service-areas/boulder-city-nv/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pahrump", "url": "/service-areas/pahrump-nv/"}, {"name": "flood-damage-restoration"}]

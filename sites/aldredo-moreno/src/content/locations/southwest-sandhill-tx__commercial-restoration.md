@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "de8ff0ea5b671ff6"
-generated_at: "2026-09-30T14:12:02.660545+00:00"
+generated_at: "2026-09-30T18:41:10.068100+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/southwest-sandhill-tx/", "/service-areas/southwest-sandhill-tx/fire-damage-restoration/", "/service-areas/southwest-sandhill-tx/mold-remediation/", "/service-areas/andrews-tx/commercial-restoration/", "/service-areas/big-lake-tx/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Southwest Sandhill", "url": "/service-areas/southwest-sandhill-tx/"}, {"name": "commercial-restoration"}]

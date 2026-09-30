@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "21dc77553c511cda"
-generated_at: "2026-09-30T14:12:14.551832+00:00"
+generated_at: "2026-09-30T18:41:40.221235+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/orem-ut/", "/service-areas/orem-ut/fire-damage-restoration/", "/service-areas/orem-ut/mold-remediation/", "/service-areas/alpine-ut/reconstruction/", "/service-areas/american-fork-ut/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Orem", "url": "/service-areas/orem-ut/"}, {"name": "reconstruction"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "067a06451c938617"
-generated_at: "2026-09-30T14:12:07.189443+00:00"
+generated_at: "2026-09-30T18:41:19.906225+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/grove-city-pa/", "/service-areas/grove-city-pa/fire-damage-restoration/", "/service-areas/grove-city-pa/mold-remediation/", "/service-areas/austintown-oh/emergency-plumbing/", "/service-areas/boardman-oh/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Grove City", "url": "/service-areas/grove-city-pa/"}, {"name": "emergency-plumbing"}]

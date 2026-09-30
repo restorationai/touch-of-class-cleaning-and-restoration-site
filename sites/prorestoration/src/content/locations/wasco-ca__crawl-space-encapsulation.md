@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "1c9184fbe9cfab3d"
-generated_at: "2026-09-30T14:12:22.970616+00:00"
+generated_at: "2026-09-30T18:41:52.011667+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/wasco-ca/", "/service-areas/wasco-ca/fire-damage-restoration/", "/service-areas/wasco-ca/home-remodeling/", "/service-areas/arvin-ca/crawl-space-encapsulation/", "/service-areas/bear-valley-springs-ca/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wasco", "url": "/service-areas/wasco-ca/"}, {"name": "Crawl Space Encapsulation"}]

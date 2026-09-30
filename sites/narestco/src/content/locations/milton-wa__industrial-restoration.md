@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "1e4ee654216afc67"
-generated_at: "2026-09-30T14:12:21.490287+00:00"
+generated_at: "2026-09-30T18:41:50.471215+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/milton-wa/", "/service-areas/milton-wa/fire-damage-restoration/", "/service-areas/milton-wa/mold-remediation/", "/service-areas/algona-wa/industrial-restoration/", "/service-areas/auburn-wa/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Milton", "url": "/service-areas/milton-wa/"}, {"name": "Industrial Restoration"}]

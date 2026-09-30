@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "0893691d5a3086b4"
-generated_at: "2026-09-29T23:13:49.283395+00:00"
+generated_at: "2026-09-30T18:41:33.272921+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/smithfield-nc/", "/service-areas/smithfield-nc/fire-damage-restoration/", "/service-areas/smithfield-nc/mold-remediation/", "/service-areas/archer-lodge-nc/mold-inspection-testing/", "/service-areas/clayton-nc/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Smithfield", "url": "/service-areas/smithfield-nc/"}, {"name": "Mold Inspection and Testing"}]

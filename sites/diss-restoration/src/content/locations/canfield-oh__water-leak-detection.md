@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "7ef7ed5a7896fdcc"
-generated_at: "2026-09-30T14:12:07.121489+00:00"
+generated_at: "2026-09-30T18:41:19.823296+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/canfield-oh/", "/service-areas/canfield-oh/fire-damage-restoration/", "/service-areas/canfield-oh/mold-remediation/", "/service-areas/austintown-oh/water-leak-detection/", "/service-areas/boardman-oh/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Canfield", "url": "/service-areas/canfield-oh/"}, {"name": "water-leak-detection"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restorati
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "80dce388690d3037"
-generated_at: "2026-09-30T14:12:07.200509+00:00"
+generated_at: "2026-09-30T18:41:19.918188+00:00"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/service-areas/new-castle-pa/", "/service-areas/new-castle-pa/fire-damage-restoration/", "/service-areas/new-castle-pa/mold-remediation/", "/service-areas/austintown-oh/flood-damage-restoration/", "/service-areas/boardman-oh/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "New Castle", "url": "/service-areas/new-castle-pa/"}, {"name": "flood-damage-restoration"}]

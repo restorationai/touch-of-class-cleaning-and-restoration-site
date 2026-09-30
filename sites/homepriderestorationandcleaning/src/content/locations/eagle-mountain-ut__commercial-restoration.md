@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "19bbb241e98bfad4"
-generated_at: "2026-09-30T14:12:14.537397+00:00"
+generated_at: "2026-09-30T18:41:40.203725+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/eagle-mountain-ut/", "/service-areas/eagle-mountain-ut/fire-damage-restoration/", "/service-areas/eagle-mountain-ut/mold-remediation/", "/service-areas/alpine-ut/commercial-restoration/", "/service-areas/american-fork-ut/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Eagle Mountain", "url": "/service-areas/eagle-mountain-ut/"}, {"name": "commercial-restoration"}]

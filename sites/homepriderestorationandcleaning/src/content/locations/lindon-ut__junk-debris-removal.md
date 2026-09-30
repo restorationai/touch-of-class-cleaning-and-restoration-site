@@ -8,7 +8,7 @@ secondary_keywords: ["junk removal", "debris removal", "house cleanout", "garage
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "54a9a1cde27c525b"
-generated_at: "2026-09-30T14:12:14.602772+00:00"
+generated_at: "2026-09-30T18:41:40.280533+00:00"
 manual_override: false
 internal_links: ["/services/junk-debris-removal/", "/service-areas/lindon-ut/", "/service-areas/lindon-ut/fire-damage-restoration/", "/service-areas/lindon-ut/mold-remediation/", "/service-areas/alpine-ut/junk-debris-removal/", "/service-areas/american-fork-ut/junk-debris-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lindon", "url": "/service-areas/lindon-ut/"}, {"name": "Junk & Debris Removal"}]

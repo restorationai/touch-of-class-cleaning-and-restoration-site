@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "0c7f334b15153d6a"
-generated_at: "2026-09-29T23:31:28.382633+00:00"
+generated_at: "2026-09-30T18:41:22.749344+00:00"
 manual_override: false
 internal_links: ["/services/vehicle-impact-damage-repair/", "/service-areas/hayward-ca/", "/service-areas/hayward-ca/fire-damage-restoration/", "/service-areas/hayward-ca/mold-remediation/", "/service-areas/berkeley-ca/vehicle-impact-damage-repair/", "/service-areas/carlsbad-ca/vehicle-impact-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hayward", "url": "/service-areas/hayward-ca/"}, {"name": "Vehicle Impact Damage Repair"}]

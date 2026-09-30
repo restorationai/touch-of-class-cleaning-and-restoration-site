@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "efbf56335bb73742"
-generated_at: "2026-09-30T14:12:25.978393+00:00"
+generated_at: "2026-09-30T18:41:54.684076+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/weston-ma/", "/service-areas/weston-ma/fire-damage-restoration/", "/service-areas/weston-ma/mold-remediation/", "/service-areas/bellingham-ma/mold-inspection-testing/", "/service-areas/east-douglas-ma/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Weston", "url": "/service-areas/weston-ma/"}, {"name": "mold-inspection-testing"}]

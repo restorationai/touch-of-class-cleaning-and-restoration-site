@@ -8,7 +8,7 @@ secondary_keywords: ["large loss restoration", "catastrophic loss response", "co
 search_intent: "local_b2b"
 priority: 5.6
 plan_hash: "d586c2387d80bc1b"
-generated_at: "2026-09-29T23:13:48.862924+00:00"
+generated_at: "2026-09-30T18:41:35.487172+00:00"
 manual_override: false
 internal_links: ["/services/large-loss-response/", "/service-areas/baxter-mn/", "/service-areas/baxter-mn/fire-damage-restoration/", "/service-areas/baxter-mn/mold-remediation/", "/service-areas/albany-mn/large-loss-response/", "/service-areas/avon-mn/large-loss-response/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Baxter", "url": "/service-areas/baxter-mn/"}, {"name": "Large Loss and Catastrophic Response"}]

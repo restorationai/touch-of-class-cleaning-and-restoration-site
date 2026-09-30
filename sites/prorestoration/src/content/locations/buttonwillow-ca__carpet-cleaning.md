@@ -8,7 +8,7 @@ secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "ca
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "d046810df4645943"
-generated_at: "2026-09-30T14:12:23.044992+00:00"
+generated_at: "2026-09-30T18:41:52.077409+00:00"
 manual_override: false
 internal_links: ["/services/carpet-cleaning/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/fire-damage-restoration/", "/service-areas/buttonwillow-ca/home-remodeling/", "/service-areas/arvin-ca/carpet-cleaning/", "/service-areas/bear-valley-springs-ca/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "Carpet Cleaning"}]

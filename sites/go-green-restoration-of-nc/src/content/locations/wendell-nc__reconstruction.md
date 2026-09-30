@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "a110daa99462ffb4"
-generated_at: "2026-09-29T23:13:49.293786+00:00"
+generated_at: "2026-09-30T18:41:33.294146+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/wendell-nc/", "/service-areas/wendell-nc/fire-damage-restoration/", "/service-areas/wendell-nc/mold-remediation/", "/service-areas/archer-lodge-nc/reconstruction/", "/service-areas/clayton-nc/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wendell", "url": "/service-areas/wendell-nc/"}, {"name": "Reconstruction Services"}]

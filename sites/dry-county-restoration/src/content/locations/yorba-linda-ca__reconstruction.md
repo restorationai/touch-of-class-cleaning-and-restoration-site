@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "13eb8d4c099efc03"
-generated_at: "2026-09-30T14:12:09.714629+00:00"
+generated_at: "2026-09-30T18:41:21.574343+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/yorba-linda-ca/", "/service-areas/yorba-linda-ca/fire-damage-restoration/", "/service-areas/yorba-linda-ca/mold-remediation/", "/service-areas/anaheim-ca/reconstruction/", "/service-areas/chino-ca/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Yorba Linda", "url": "/service-areas/yorba-linda-ca/"}, {"name": "Reconstruction Services"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodoriz
 search_intent: "local_specialty"
 priority: 4.9
 plan_hash: "3ee3bb7b30d0e362"
-generated_at: "2026-09-23T14:11:42.597427+00:00"
+generated_at: "2026-09-30T18:41:30.069434+00:00"
 manual_override: false
 internal_links: ["/services/odor-removal/", "/service-areas/mcchord-afb-wa/", "/service-areas/mcchord-afb-wa/fire-damage-restoration/", "/service-areas/mcchord-afb-wa/mold-remediation/", "/service-areas/anderson-island-wa/odor-removal/", "/service-areas/auburn-wa/odor-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McChord AFB", "url": "/service-areas/mcchord-afb-wa/"}, {"name": "Odor Removal and Deodorization"}]

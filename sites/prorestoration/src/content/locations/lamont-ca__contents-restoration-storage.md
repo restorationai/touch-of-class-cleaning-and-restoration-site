@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "8abb3d524b7cc569"
-generated_at: "2026-09-30T14:12:22.998253+00:00"
+generated_at: "2026-09-30T18:41:52.035744+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration-storage/", "/service-areas/lamont-ca/", "/service-areas/lamont-ca/fire-damage-restoration/", "/service-areas/lamont-ca/home-remodeling/", "/service-areas/arvin-ca/contents-restoration-storage/", "/service-areas/bear-valley-springs-ca/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lamont", "url": "/service-areas/lamont-ca/"}, {"name": "Contents Restoration & Storage"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "4d543d4911b907d8"
-generated_at: "2026-09-23T14:12:04.468177+00:00"
+generated_at: "2026-09-30T18:41:58.686594+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/lavon-tx/", "/service-areas/lavon-tx/fire-damage-restoration/", "/service-areas/lavon-tx/mold-remediation/", "/service-areas/allen-tx/roofing/", "/service-areas/caddo-mills-tx/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lavon", "url": "/service-areas/lavon-tx/"}, {"name": "Roofing Installation and Replacement"}]

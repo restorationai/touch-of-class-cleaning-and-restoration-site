@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "e320a1c42de9239b"
-generated_at: "2026-09-30T14:12:22.995387+00:00"
+generated_at: "2026-09-30T18:41:52.033237+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/arvin-ca/", "/service-areas/arvin-ca/fire-damage-restoration/", "/service-areas/arvin-ca/home-remodeling/", "/service-areas/bear-valley-springs-ca/industrial-restoration/", "/service-areas/buttonwillow-ca/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Arvin", "url": "/service-areas/arvin-ca/"}, {"name": "industrial-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "601497a7cd6d8130"
-generated_at: "2026-09-30T14:12:22.957220+00:00"
+generated_at: "2026-09-30T18:41:51.999868+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/delano-ca/", "/service-areas/delano-ca/fire-damage-restoration/", "/service-areas/delano-ca/home-remodeling/", "/service-areas/arvin-ca/crawl-space-encapsulation/", "/service-areas/bear-valley-springs-ca/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Delano", "url": "/service-areas/delano-ca/"}, {"name": "Crawl Space Encapsulation"}]

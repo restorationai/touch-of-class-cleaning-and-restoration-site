@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "834a932ea23d8cdd"
-generated_at: "2026-09-30T14:12:26.070171+00:00"
+generated_at: "2026-09-30T18:41:54.782329+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/ware-ma/", "/service-areas/ware-ma/fire-damage-restoration/", "/service-areas/ware-ma/mold-remediation/", "/service-areas/bellingham-ma/roofing/", "/service-areas/east-douglas-ma/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ware", "url": "/service-areas/ware-ma/"}, {"name": "Roofing Installation and Replacement"}]

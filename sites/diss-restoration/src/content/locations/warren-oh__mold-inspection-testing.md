@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "ef36ddba08ea19a1"
-generated_at: "2026-09-30T14:12:07.098194+00:00"
+generated_at: "2026-09-30T18:41:19.790178+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/warren-oh/", "/service-areas/warren-oh/fire-damage-restoration/", "/service-areas/warren-oh/mold-remediation/", "/service-areas/austintown-oh/mold-inspection-testing/", "/service-areas/boardman-oh/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Warren", "url": "/service-areas/warren-oh/"}, {"name": "mold-inspection-testing"}]

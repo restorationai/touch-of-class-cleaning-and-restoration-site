@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "fd20f3b6f8599ee0"
-generated_at: "2026-09-29T14:31:48.388820+00:00"
+generated_at: "2026-09-30T18:41:22.730107+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/san-marcos-ca/", "/service-areas/san-marcos-ca/fire-damage-restoration/", "/service-areas/san-marcos-ca/water-damage-restoration/", "/service-areas/berkeley-ca/mold-remediation/", "/service-areas/carlsbad-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Marcos", "url": "/service-areas/san-marcos-ca/"}, {"name": "Mold Remediation"}]

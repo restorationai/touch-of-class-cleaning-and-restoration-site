@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "68fb57cc9e838771"
-generated_at: "2026-09-29T14:31:48.306356+00:00"
+generated_at: "2026-09-30T18:41:22.639976+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/industrial-restoration/", "/service-areas/carlsbad-ca/industrial-restoration/", "/service-areas/chula-vista-ca/industrial-restoration/", "/service-areas/concord-ca/industrial-restoration/", "/service-areas/el-cajon-ca/industrial-restoration/", "/service-areas/encinitas-ca/industrial-restoration/", "/service-areas/escondido-ca/industrial-restoration/", "/service-areas/fremont-ca/industrial-restoration/", "/service-areas/hayward-ca/industrial-restoration/", "/service-areas/oakland-ca/industrial-restoration/", "/service-areas/oceanside-ca/industrial-restoration/", "/service-areas/san-diego-ca/industrial-restoration/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "industrial-restoration"}]

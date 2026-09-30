@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "8255f516ba9481d1"
-generated_at: "2026-09-30T14:12:22.963206+00:00"
+generated_at: "2026-09-30T18:41:52.004979+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/shafter-ca/", "/service-areas/shafter-ca/fire-damage-restoration/", "/service-areas/shafter-ca/home-remodeling/", "/service-areas/arvin-ca/biohazard-cleanup/", "/service-areas/bear-valley-springs-ca/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Shafter", "url": "/service-areas/shafter-ca/"}, {"name": "Biohazard Cleanup"}]

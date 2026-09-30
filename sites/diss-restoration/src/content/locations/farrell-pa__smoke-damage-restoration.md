@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "cdb9b88816b981b7"
-generated_at: "2026-09-30T14:12:07.142503+00:00"
+generated_at: "2026-09-30T18:41:19.848518+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/farrell-pa/", "/service-areas/farrell-pa/fire-damage-restoration/", "/service-areas/farrell-pa/mold-remediation/", "/service-areas/austintown-oh/smoke-damage-restoration/", "/service-areas/boardman-oh/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Farrell", "url": "/service-areas/farrell-pa/"}, {"name": "smoke-damage-restoration"}]

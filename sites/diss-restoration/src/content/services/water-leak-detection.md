@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "987f7c24ef2cbb6c"
-generated_at: "2026-09-30T14:12:07.090823+00:00"
+generated_at: "2026-09-30T18:41:19.782622+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/austintown-oh/water-leak-detection/", "/service-areas/boardman-oh/water-leak-detection/", "/service-areas/campbell-oh/water-leak-detection/", "/service-areas/canfield-oh/water-leak-detection/", "/service-areas/farrell-pa/water-leak-detection/", "/service-areas/girard-oh/water-leak-detection/", "/service-areas/greenville-pa/water-leak-detection/", "/service-areas/grove-city-pa/water-leak-detection/", "/service-areas/hermitage-pa/water-leak-detection/", "/service-areas/hubbard-oh/water-leak-detection/", "/service-areas/mercer-pa/water-leak-detection/", "/service-areas/mineral-ridge-oh/water-leak-detection/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "water-leak-detection"}]

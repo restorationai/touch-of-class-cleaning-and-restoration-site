@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "ac14f906aa8d8dc6"
-generated_at: "2026-09-28T20:50:26.583738+00:00"
+generated_at: "2026-09-30T18:41:56.089758+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/paradise-nv/", "/service-areas/paradise-nv/fire-damage-restoration/", "/service-areas/paradise-nv/mold-remediation/", "/service-areas/blue-diamond-nv/ceiling-water-damage-repair/", "/service-areas/boulder-city-nv/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Paradise", "url": "/service-areas/paradise-nv/"}, {"name": "ceiling-water-damage-repair"}]

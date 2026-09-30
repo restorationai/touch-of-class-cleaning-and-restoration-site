@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "b5cbe28897172e93"
-generated_at: "2026-09-30T14:12:02.631320+00:00"
+generated_at: "2026-09-30T18:41:10.014537+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/stanton-tx/", "/service-areas/stanton-tx/fire-damage-restoration/", "/service-areas/stanton-tx/mold-remediation/", "/service-areas/andrews-tx/water-heater-flood-cleanup/", "/service-areas/big-lake-tx/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Stanton", "url": "/service-areas/stanton-tx/"}, {"name": "water-heater-flood-cleanup"}]

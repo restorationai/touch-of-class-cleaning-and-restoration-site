@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "56a0b4025018951d"
-generated_at: "2026-09-29T23:13:49.284281+00:00"
+generated_at: "2026-09-30T18:41:33.275225+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/smithfield-nc/", "/service-areas/smithfield-nc/fire-damage-restoration/", "/service-areas/smithfield-nc/mold-remediation/", "/service-areas/archer-lodge-nc/water-leak-detection/", "/service-areas/clayton-nc/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Smithfield", "url": "/service-areas/smithfield-nc/"}, {"name": "Water Leak Detection"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "41bea920915a0a40"
-generated_at: "2026-09-30T14:12:02.658234+00:00"
+generated_at: "2026-09-30T18:41:10.064143+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/mccamey-tx/", "/service-areas/mccamey-tx/fire-damage-restoration/", "/service-areas/mccamey-tx/mold-remediation/", "/service-areas/andrews-tx/ceiling-water-damage-repair/", "/service-areas/big-lake-tx/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McCamey", "url": "/service-areas/mccamey-tx/"}, {"name": "ceiling-water-damage-repair"}]

@@ -58,6 +58,12 @@
       "source": "exact",
       "at": "2026-09-30"
     },
+    "Asbestos testing service": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
+      "at": "2026-09-30"
+    },
     "Attic Mold Removal": {
       "verdict": "mapped",
       "page": "mold-remediation",
@@ -191,6 +197,12 @@
       "reason": "Sub-case of biohazard cleanup",
       "at": "2026-09-30"
     },
+    "Debris removal service": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
+      "at": "2026-09-30"
+    },
     "Dehumidification services": {
       "verdict": "mapped",
       "page": "water-damage-restoration",
@@ -315,6 +327,13 @@
       "page": "general-contracting",
       "reason": "name containment",
       "source": "containment",
+      "at": "2026-09-30"
+    },
+    "General contractor": {
+      "verdict": "mapped",
+      "page": "general-contracting",
+      "reason": "same-service cluster as general-contracting",
+      "source": "cluster",
       "at": "2026-09-30"
     },
     "Hardwood Floor Water Damage": {

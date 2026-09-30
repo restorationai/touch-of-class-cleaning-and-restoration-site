@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "b36d6f70d4302b8a"
-generated_at: "2026-09-30T14:12:12.866290+00:00"
+generated_at: "2026-09-30T18:41:37.616486+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/delisle-ms/", "/service-areas/delisle-ms/fire-damage-restoration/", "/service-areas/delisle-ms/mold-remediation/", "/service-areas/agricola-ms/industrial-restoration/", "/service-areas/bay-st-louis-ms/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "DeLisle", "url": "/service-areas/delisle-ms/"}, {"name": "industrial-restoration"}]

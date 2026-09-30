@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 8.1
 plan_hash: "b0fc9b0a80fe5d22"
-generated_at: "2026-09-30T14:12:22.936102+00:00"
+generated_at: "2026-09-30T18:41:51.981215+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/arvin-ca/commercial-restoration/", "/service-areas/bear-valley-springs-ca/commercial-restoration/", "/service-areas/buttonwillow-ca/commercial-restoration/", "/service-areas/delano-ca/commercial-restoration/", "/service-areas/dustin-acres-ca/commercial-restoration/", "/service-areas/east-niles-ca/commercial-restoration/", "/service-areas/keene-ca/commercial-restoration/", "/service-areas/lake-isabella-ca/commercial-restoration/", "/service-areas/lamont-ca/commercial-restoration/", "/service-areas/maricopa-ca/commercial-restoration/", "/service-areas/mcfarland-ca/commercial-restoration/", "/service-areas/oildale-ca/commercial-restoration/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "commercial-restoration"}]

@@ -862,6 +862,33 @@
       "triaged_at": "2026-09-01T17:50:58Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipOfGTit1uIrTLKs-FPKYo9NU7IlwR4hDWmiSzX0": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOfGTit1uIrTLKs-FPKYo9NU7IlwR4hDWmiSzX0.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788205391336/job-photos/posted/gbp-AF1QipOfGTit1uIrTLKs-FPKYo9NU7IlwR4hDWmiSzX0.jpg",
+      "width": 1596,
+      "height": 591,
+      "bytes": 951633,
+      "sha1": "8e11d025aa77a3e9",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Marketing banner collage with logo, truck, crew photos and text",
+      "quality": 40,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay",
+        "logo_card",
+        "phone_number"
+      ],
+      "reason": "Designed marketing banner with overlaid text, phone number and logo lockup.",
+      "triaged_at": "2026-09-30T18:47:49Z",
+      "triage_model": "claude-sonnet-5"
+    },
     "gbp:gbp-AF1QipP-DnegsBmSp2-E024yCUemWrMJtqNmRAj6liiF": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipP-DnegsBmSp2-E024yCUemWrMJtqNmRAj6liiF.jpg",
@@ -1626,5 +1653,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-07T03:51:56Z"
+  "triaged_at": "2026-09-30T18:47:49Z"
 }

@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "70180e71bd2a8330"
-generated_at: "2026-09-30T14:12:14.580329+00:00"
+generated_at: "2026-09-30T18:41:40.255973+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/park-city-ut/", "/service-areas/park-city-ut/fire-damage-restoration/", "/service-areas/park-city-ut/mold-remediation/", "/service-areas/alpine-ut/general-contracting/", "/service-areas/american-fork-ut/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Park City", "url": "/service-areas/park-city-ut/"}, {"name": "general-contracting"}]

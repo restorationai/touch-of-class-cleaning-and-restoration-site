@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "c6cdc09f70358028"
-generated_at: "2026-09-30T14:12:01.794187+00:00"
+generated_at: "2026-09-30T18:41:09.012187+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/haskell-tx/", "/service-areas/haskell-tx/fire-damage-restoration/", "/service-areas/haskell-tx/mold-remediation/", "/service-areas/albany-tx/mold-inspection-testing/", "/service-areas/anson-tx/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Haskell", "url": "/service-areas/haskell-tx/"}, {"name": "mold-inspection-testing"}]

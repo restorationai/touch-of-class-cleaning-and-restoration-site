@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "81cd6d4449589810"
-generated_at: "2026-09-30T14:12:22.962888+00:00"
+generated_at: "2026-09-30T18:41:52.004676+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/shafter-ca/", "/service-areas/shafter-ca/fire-damage-restoration/", "/service-areas/shafter-ca/home-remodeling/", "/service-areas/arvin-ca/asbestos-abatement/", "/service-areas/bear-valley-springs-ca/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Shafter", "url": "/service-areas/shafter-ca/"}, {"name": "Asbestos Abatement"}]

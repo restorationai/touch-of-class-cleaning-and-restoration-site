@@ -8,7 +8,7 @@ secondary_keywords: ["home renovation", "kitchen remodel", "bathroom remodel", "
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "84f9dedefeaa4257"
-generated_at: "2026-09-30T14:12:23.079018+00:00"
+generated_at: "2026-09-30T18:41:52.108239+00:00"
 manual_override: false
 internal_links: ["/services/home-remodeling/", "/service-areas/valley-acres-ca/", "/service-areas/valley-acres-ca/fire-damage-restoration/", "/service-areas/valley-acres-ca/mold-remediation/", "/service-areas/arvin-ca/home-remodeling/", "/service-areas/bear-valley-springs-ca/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Valley Acres", "url": "/service-areas/valley-acres-ca/"}, {"name": "Home Remodeling"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "b368259ae8d58454"
-generated_at: "2026-09-29T23:13:48.927564+00:00"
+generated_at: "2026-09-30T18:41:35.584557+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/avon-mn/", "/service-areas/avon-mn/fire-damage-restoration/", "/service-areas/avon-mn/mold-remediation/", "/service-areas/albany-mn/water-leak-detection/", "/service-areas/baxter-mn/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Avon", "url": "/service-areas/avon-mn/"}, {"name": "Water Leak Detection"}]

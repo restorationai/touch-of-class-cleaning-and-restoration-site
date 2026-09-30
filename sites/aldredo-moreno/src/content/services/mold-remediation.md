@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 9.0
 plan_hash: "d4b2e5db2aaef457"
-generated_at: "2026-09-30T14:12:02.620278+00:00"
+generated_at: "2026-09-30T18:41:09.994884+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/mold-remediation/", "/service-areas/big-lake-tx/mold-remediation/", "/service-areas/big-spring-tx/mold-remediation/", "/service-areas/crane-tx/mold-remediation/", "/service-areas/garden-city-tx/mold-remediation/", "/service-areas/gardendale-tx/mold-remediation/", "/service-areas/goldsmith-tx/mold-remediation/", "/service-areas/greenwood-tx/mold-remediation/", "/service-areas/imperial-tx/mold-remediation/", "/service-areas/mccamey-tx/mold-remediation/", "/service-areas/monahans-tx/mold-remediation/", "/service-areas/odessa-tx/mold-remediation/", "/blog/choosing-a-restoration-company/", "/blog/how-to-test-for-mold/", "/blog/signs-of-hidden-mold/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "mold-remediation"}]

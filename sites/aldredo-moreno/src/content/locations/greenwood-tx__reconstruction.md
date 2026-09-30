@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "70515df2d96ee980"
-generated_at: "2026-09-30T14:12:02.639661+00:00"
+generated_at: "2026-09-30T18:41:10.029684+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/greenwood-tx/", "/service-areas/greenwood-tx/fire-damage-restoration/", "/service-areas/greenwood-tx/mold-remediation/", "/service-areas/andrews-tx/reconstruction/", "/service-areas/big-lake-tx/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Greenwood", "url": "/service-areas/greenwood-tx/"}, {"name": "reconstruction"}]

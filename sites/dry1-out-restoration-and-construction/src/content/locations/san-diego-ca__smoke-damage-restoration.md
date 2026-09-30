@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "1afd1d29f2e15ae5"
-generated_at: "2026-09-29T14:31:48.319932+00:00"
+generated_at: "2026-09-30T18:41:22.654109+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/san-diego-ca/", "/service-areas/san-diego-ca/fire-damage-restoration/", "/service-areas/san-diego-ca/mold-remediation/", "/service-areas/berkeley-ca/smoke-damage-restoration/", "/service-areas/carlsbad-ca/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Diego", "url": "/service-areas/san-diego-ca/"}, {"name": "smoke-damage-restoration"}]

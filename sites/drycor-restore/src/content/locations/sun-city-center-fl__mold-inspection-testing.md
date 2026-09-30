@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "8b8353b2e393b46a"
-generated_at: "2026-09-29T23:28:29.639413+00:00"
+generated_at: "2026-09-30T18:41:26.461308+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/sun-city-center-fl/", "/service-areas/sun-city-center-fl/fire-damage-restoration/", "/service-areas/sun-city-center-fl/mold-remediation/", "/service-areas/anna-maria-fl/mold-inspection-testing/", "/service-areas/apollo-beach-fl/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sun City Center", "url": "/service-areas/sun-city-center-fl/"}, {"name": "Mold Inspection and Testing"}]

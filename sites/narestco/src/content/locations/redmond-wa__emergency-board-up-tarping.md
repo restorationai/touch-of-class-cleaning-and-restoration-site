@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "40cc09ff1072ffe3"
-generated_at: "2026-09-30T14:12:21.403000+00:00"
+generated_at: "2026-09-30T18:41:50.400721+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/redmond-wa/", "/service-areas/redmond-wa/fire-damage-restoration/", "/service-areas/redmond-wa/mold-remediation/", "/service-areas/algona-wa/emergency-board-up-tarping/", "/service-areas/auburn-wa/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Redmond", "url": "/service-areas/redmond-wa/"}, {"name": "Emergency Board-Up and Tarping"}]

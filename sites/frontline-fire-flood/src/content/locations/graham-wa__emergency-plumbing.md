@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "dc8860b3309e0a7d"
-generated_at: "2026-09-23T14:11:42.589195+00:00"
+generated_at: "2026-09-30T18:41:30.046080+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/graham-wa/", "/service-areas/graham-wa/fire-damage-restoration/", "/service-areas/graham-wa/mold-remediation/", "/service-areas/anderson-island-wa/emergency-plumbing/", "/service-areas/auburn-wa/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Graham", "url": "/service-areas/graham-wa/"}, {"name": "Emergency Plumbing"}]

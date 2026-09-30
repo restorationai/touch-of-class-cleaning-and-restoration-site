@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "5a1db92e52d0aad8"
-generated_at: "2026-09-30T14:12:09.756612+00:00"
+generated_at: "2026-09-30T18:41:21.612344+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/montclair-ca/", "/service-areas/montclair-ca/fire-damage-restoration/", "/service-areas/montclair-ca/mold-remediation/", "/service-areas/anaheim-ca/ceiling-water-damage-repair/", "/service-areas/chino-ca/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Montclair", "url": "/service-areas/montclair-ca/"}, {"name": "Ceiling Water Damage Repair"}]

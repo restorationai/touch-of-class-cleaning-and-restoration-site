@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "b4701fed7c6aeb30"
-generated_at: "2026-09-30T14:12:07.142232+00:00"
+generated_at: "2026-09-30T18:41:19.847912+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/farrell-pa/", "/service-areas/farrell-pa/fire-damage-restoration/", "/service-areas/farrell-pa/mold-remediation/", "/service-areas/austintown-oh/burst-pipe-repair/", "/service-areas/boardman-oh/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Farrell", "url": "/service-areas/farrell-pa/"}, {"name": "burst-pipe-repair"}]

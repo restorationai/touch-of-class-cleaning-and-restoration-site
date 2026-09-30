@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 7.2
 plan_hash: "600e56f53e1d47da"
-generated_at: "2026-09-30T14:12:25.907691+00:00"
+generated_at: "2026-09-30T18:41:54.604787+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/burst-pipe-repair/", "/service-areas/east-douglas-ma/burst-pipe-repair/", "/service-areas/fiskdale-ma/burst-pipe-repair/", "/service-areas/framingham-ma/burst-pipe-repair/", "/service-areas/franklin-town-ma/burst-pipe-repair/", "/service-areas/hopkinton-ma/burst-pipe-repair/", "/service-areas/hudson-ma/burst-pipe-repair/", "/service-areas/leominster-ma/burst-pipe-repair/", "/service-areas/marlborough-ma/burst-pipe-repair/", "/service-areas/maynard-ma/burst-pipe-repair/", "/service-areas/milford-ma/burst-pipe-repair/", "/service-areas/natick-ma/burst-pipe-repair/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "burst-pipe-repair"}]

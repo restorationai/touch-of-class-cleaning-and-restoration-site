@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "1ec3b4d458f2f440"
-generated_at: "2026-09-30T14:12:02.627078+00:00"
+generated_at: "2026-09-30T18:41:10.006096+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/big-spring-tx/", "/service-areas/big-spring-tx/mold-remediation/", "/service-areas/big-spring-tx/water-damage-restoration/", "/service-areas/andrews-tx/fire-damage-restoration/", "/service-areas/big-lake-tx/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Big Spring", "url": "/service-areas/big-spring-tx/"}, {"name": "fire-damage-restoration"}]

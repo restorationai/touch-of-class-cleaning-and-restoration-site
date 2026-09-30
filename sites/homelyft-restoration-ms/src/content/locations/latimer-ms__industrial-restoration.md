@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "8e6e165d8ce59a82"
-generated_at: "2026-09-30T14:12:12.880568+00:00"
+generated_at: "2026-09-30T18:41:37.633713+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/latimer-ms/", "/service-areas/latimer-ms/fire-damage-restoration/", "/service-areas/latimer-ms/mold-remediation/", "/service-areas/agricola-ms/industrial-restoration/", "/service-areas/bay-st-louis-ms/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Latimer", "url": "/service-areas/latimer-ms/"}, {"name": "industrial-restoration"}]

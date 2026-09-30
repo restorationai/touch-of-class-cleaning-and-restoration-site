@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "45156209347daa74"
-generated_at: "2026-09-29T23:13:48.858369+00:00"
+generated_at: "2026-09-30T18:41:35.479592+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/brainerd-mn/", "/service-areas/brainerd-mn/fire-damage-restoration/", "/service-areas/brainerd-mn/mold-remediation/", "/service-areas/albany-mn/emergency-plumbing/", "/service-areas/avon-mn/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Brainerd", "url": "/service-areas/brainerd-mn/"}, {"name": "Emergency Plumbing"}]

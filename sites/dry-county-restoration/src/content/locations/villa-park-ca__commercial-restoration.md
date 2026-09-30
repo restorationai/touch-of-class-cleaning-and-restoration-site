@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "50ac50a6ebbbcf06"
-generated_at: "2026-09-30T14:12:09.766308+00:00"
+generated_at: "2026-09-30T18:41:21.621074+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/villa-park-ca/", "/service-areas/villa-park-ca/fire-damage-restoration/", "/service-areas/villa-park-ca/mold-remediation/", "/service-areas/anaheim-ca/commercial-restoration/", "/service-areas/chino-ca/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Villa Park", "url": "/service-areas/villa-park-ca/"}, {"name": "Commercial Restoration"}]

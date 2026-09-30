@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "56e5be9cbf500550"
-generated_at: "2026-09-29T14:31:48.431092+00:00"
+generated_at: "2026-09-30T18:41:22.778381+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/el-cajon-ca/", "/service-areas/el-cajon-ca/fire-damage-restoration/", "/service-areas/el-cajon-ca/mold-remediation/", "/service-areas/berkeley-ca/reconstruction/", "/service-areas/carlsbad-ca/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "El Cajon", "url": "/service-areas/el-cajon-ca/"}, {"name": "reconstruction"}]

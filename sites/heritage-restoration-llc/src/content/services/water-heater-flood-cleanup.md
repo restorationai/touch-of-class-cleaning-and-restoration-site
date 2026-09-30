@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "379f7cac808130cc"
-generated_at: "2026-09-29T23:13:48.845171+00:00"
+generated_at: "2026-09-30T18:41:35.458328+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/water-heater-flood-cleanup/", "/service-areas/avon-mn/water-heater-flood-cleanup/", "/service-areas/baxter-mn/water-heater-flood-cleanup/", "/service-areas/brainerd-mn/water-heater-flood-cleanup/", "/service-areas/elmdale-mn/water-heater-flood-cleanup/", "/service-areas/flensburg-mn/water-heater-flood-cleanup/", "/service-areas/foley-mn/water-heater-flood-cleanup/", "/service-areas/fort-ripley-mn/water-heater-flood-cleanup/", "/service-areas/harding-mn/water-heater-flood-cleanup/", "/service-areas/long-prairie-mn/water-heater-flood-cleanup/", "/service-areas/pierz-mn/water-heater-flood-cleanup/", "/service-areas/randall-mn/water-heater-flood-cleanup/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Water Heater Flood Cleanup"}]

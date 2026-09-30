@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "0a8541cb67259abd"
-generated_at: "2026-09-29T23:28:29.556753+00:00"
+generated_at: "2026-09-30T18:41:26.310117+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/davenport-fl/", "/service-areas/davenport-fl/fire-damage-restoration/", "/service-areas/davenport-fl/mold-remediation/", "/service-areas/anna-maria-fl/commercial-restoration/", "/service-areas/apollo-beach-fl/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Davenport", "url": "/service-areas/davenport-fl/"}, {"name": "Commercial Restoration"}]

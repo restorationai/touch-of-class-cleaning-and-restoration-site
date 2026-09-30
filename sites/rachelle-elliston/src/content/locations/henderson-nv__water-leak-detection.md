@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "f70595a6be2e37b0"
-generated_at: "2026-09-28T20:50:26.581577+00:00"
+generated_at: "2026-09-30T18:41:56.085555+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/henderson-nv/", "/service-areas/henderson-nv/fire-damage-restoration/", "/service-areas/henderson-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-leak-detection/", "/service-areas/boulder-city-nv/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Henderson", "url": "/service-areas/henderson-nv/"}, {"name": "water-leak-detection"}]

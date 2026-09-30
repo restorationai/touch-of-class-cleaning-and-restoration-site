@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "acb5c056ddb393da"
-generated_at: "2026-09-29T23:13:48.866696+00:00"
+generated_at: "2026-09-30T18:41:35.494002+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/foley-mn/", "/service-areas/foley-mn/fire-damage-restoration/", "/service-areas/foley-mn/mold-remediation/", "/service-areas/albany-mn/reconstruction/", "/service-areas/avon-mn/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Foley", "url": "/service-areas/foley-mn/"}, {"name": "Reconstruction Services"}]

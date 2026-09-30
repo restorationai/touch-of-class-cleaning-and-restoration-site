@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "05bbb7622168829d"
-generated_at: "2026-09-29T23:13:48.928371+00:00"
+generated_at: "2026-09-30T18:41:35.585181+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/st-joseph-mn/", "/service-areas/st-joseph-mn/fire-damage-restoration/", "/service-areas/st-joseph-mn/mold-remediation/", "/service-areas/albany-mn/burst-pipe-repair/", "/service-areas/avon-mn/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "St. Joseph", "url": "/service-areas/st-joseph-mn/"}, {"name": "Burst Pipe Cleanup and Repair"}]

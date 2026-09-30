@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "c7b04f3387cbf40d"
-generated_at: "2026-09-30T14:12:22.950170+00:00"
+generated_at: "2026-09-30T18:41:51.993638+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration-storage/", "/service-areas/rosedale-ca/", "/service-areas/rosedale-ca/fire-damage-restoration/", "/service-areas/rosedale-ca/home-remodeling/", "/service-areas/arvin-ca/contents-restoration-storage/", "/service-areas/bear-valley-springs-ca/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rosedale", "url": "/service-areas/rosedale-ca/"}, {"name": "Contents Restoration & Storage"}]

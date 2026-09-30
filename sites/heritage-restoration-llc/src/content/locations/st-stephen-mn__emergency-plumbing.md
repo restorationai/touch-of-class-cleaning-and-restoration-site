@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "904ffa25f016be21"
-generated_at: "2026-09-29T23:13:48.912319+00:00"
+generated_at: "2026-09-30T18:41:35.562534+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/st-stephen-mn/", "/service-areas/st-stephen-mn/fire-damage-restoration/", "/service-areas/st-stephen-mn/mold-remediation/", "/service-areas/albany-mn/emergency-plumbing/", "/service-areas/avon-mn/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "St. Stephen", "url": "/service-areas/st-stephen-mn/"}, {"name": "Emergency Plumbing"}]

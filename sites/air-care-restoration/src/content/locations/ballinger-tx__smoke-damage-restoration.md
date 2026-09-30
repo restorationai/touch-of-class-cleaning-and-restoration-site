@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "ea22af0bd100a834"
-generated_at: "2026-09-30T14:12:01.791097+00:00"
+generated_at: "2026-09-30T18:41:09.007010+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/ballinger-tx/", "/service-areas/ballinger-tx/fire-damage-restoration/", "/service-areas/ballinger-tx/mold-remediation/", "/service-areas/albany-tx/smoke-damage-restoration/", "/service-areas/anson-tx/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ballinger", "url": "/service-areas/ballinger-tx/"}, {"name": "smoke-damage-restoration"}]

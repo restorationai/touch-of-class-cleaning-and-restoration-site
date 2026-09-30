@@ -8,7 +8,7 @@ secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restorati
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "29cfe4f0448cb370"
-generated_at: "2026-09-30T14:12:07.116142+00:00"
+generated_at: "2026-09-30T18:41:19.814668+00:00"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/service-areas/struthers-oh/", "/service-areas/struthers-oh/fire-damage-restoration/", "/service-areas/struthers-oh/mold-remediation/", "/service-areas/austintown-oh/flood-damage-restoration/", "/service-areas/boardman-oh/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Struthers", "url": "/service-areas/struthers-oh/"}, {"name": "flood-damage-restoration"}]

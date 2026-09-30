@@ -8,7 +8,7 @@ secondary_keywords: ["crime scene cleaning", "forensic cleanup", "post-crime cle
 search_intent: "local_sensitive"
 priority: 4.2
 plan_hash: "2a615fddbe24d78b"
-generated_at: "2026-09-29T14:31:48.362245+00:00"
+generated_at: "2026-09-30T18:41:22.701715+00:00"
 manual_override: false
 internal_links: ["/services/crime-scene-cleanup/", "/service-areas/oceanside-ca/", "/service-areas/oceanside-ca/fire-damage-restoration/", "/service-areas/oceanside-ca/mold-remediation/", "/service-areas/berkeley-ca/crime-scene-cleanup/", "/service-areas/carlsbad-ca/crime-scene-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oceanside", "url": "/service-areas/oceanside-ca/"}, {"name": "Crime Scene Cleanup"}]

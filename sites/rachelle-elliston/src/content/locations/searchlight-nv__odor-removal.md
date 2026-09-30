@@ -8,7 +8,7 @@ secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodoriz
 search_intent: "local_specialty"
 priority: 4.9
 plan_hash: "112a8bc902ff311e"
-generated_at: "2026-09-23T14:12:02.401073+00:00"
+generated_at: "2026-09-30T18:41:56.186799+00:00"
 manual_override: false
 internal_links: ["/services/odor-removal/", "/service-areas/searchlight-nv/", "/service-areas/searchlight-nv/fire-damage-restoration/", "/service-areas/searchlight-nv/mold-remediation/", "/service-areas/blue-diamond-nv/odor-removal/", "/service-areas/boulder-city-nv/odor-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Searchlight", "url": "/service-areas/searchlight-nv/"}, {"name": "Odor Removal and Deodorization"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "46d07f58ad8da5e5"
-generated_at: "2026-09-29T14:31:48.355192+00:00"
+generated_at: "2026-09-30T18:41:22.694169+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/fremont-ca/", "/service-areas/fremont-ca/fire-damage-restoration/", "/service-areas/fremont-ca/mold-remediation/", "/service-areas/berkeley-ca/general-contracting/", "/service-areas/carlsbad-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fremont", "url": "/service-areas/fremont-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]

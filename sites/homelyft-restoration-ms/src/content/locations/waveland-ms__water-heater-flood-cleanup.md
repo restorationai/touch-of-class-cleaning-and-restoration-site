@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "2d3c237b5d9e723b"
-generated_at: "2026-09-30T14:12:12.927912+00:00"
+generated_at: "2026-09-30T18:41:37.693099+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/waveland-ms/", "/service-areas/waveland-ms/fire-damage-restoration/", "/service-areas/waveland-ms/mold-remediation/", "/service-areas/agricola-ms/water-heater-flood-cleanup/", "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Waveland", "url": "/service-areas/waveland-ms/"}, {"name": "water-heater-flood-cleanup"}]

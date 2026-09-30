@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "6c5610e52bbeca88"
-generated_at: "2026-09-30T14:12:23.030514+00:00"
+generated_at: "2026-09-30T18:41:52.063724+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/tarina-ca/", "/service-areas/tarina-ca/fire-damage-restoration/", "/service-areas/tarina-ca/home-remodeling/", "/service-areas/arvin-ca/water-leak-detection/", "/service-areas/bear-valley-springs-ca/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tarina", "url": "/service-areas/tarina-ca/"}, {"name": "Water Leak Detection"}]

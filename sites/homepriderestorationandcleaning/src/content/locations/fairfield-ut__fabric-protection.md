@@ -8,7 +8,7 @@ secondary_keywords: ["carpet protection", "upholstery protection", "stain guard"
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "a4e647d1c780db1f"
-generated_at: "2026-09-30T14:12:14.610702+00:00"
+generated_at: "2026-09-30T18:41:40.289238+00:00"
 manual_override: false
 internal_links: ["/services/fabric-protection/", "/service-areas/fairfield-ut/", "/service-areas/fairfield-ut/fire-damage-restoration/", "/service-areas/fairfield-ut/mold-remediation/", "/service-areas/alpine-ut/fabric-protection/", "/service-areas/american-fork-ut/fabric-protection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fairfield", "url": "/service-areas/fairfield-ut/"}, {"name": "Fabric Protection"}]

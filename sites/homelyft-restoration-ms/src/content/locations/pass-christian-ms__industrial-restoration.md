@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "ebb36cd3398879f8"
-generated_at: "2026-09-30T14:12:12.894480+00:00"
+generated_at: "2026-09-30T18:41:37.650867+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/pass-christian-ms/", "/service-areas/pass-christian-ms/fire-damage-restoration/", "/service-areas/pass-christian-ms/mold-remediation/", "/service-areas/agricola-ms/industrial-restoration/", "/service-areas/bay-st-louis-ms/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pass Christian", "url": "/service-areas/pass-christian-ms/"}, {"name": "industrial-restoration"}]

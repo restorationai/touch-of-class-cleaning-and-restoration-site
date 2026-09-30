@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "981c469148a30446"
-generated_at: "2026-09-30T14:12:12.898412+00:00"
+generated_at: "2026-09-30T18:41:37.655134+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/saucier-ms/", "/service-areas/saucier-ms/fire-damage-restoration/", "/service-areas/saucier-ms/mold-remediation/", "/service-areas/agricola-ms/burst-pipe-repair/", "/service-areas/bay-st-louis-ms/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Saucier", "url": "/service-areas/saucier-ms/"}, {"name": "burst-pipe-repair"}]

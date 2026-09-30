@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "baf6588f413aa472"
-generated_at: "2026-09-29T23:13:49.334726+00:00"
+generated_at: "2026-09-30T18:41:33.378814+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/elm-city-nc/", "/service-areas/elm-city-nc/fire-damage-restoration/", "/service-areas/elm-city-nc/mold-remediation/", "/service-areas/archer-lodge-nc/industrial-restoration/", "/service-areas/clayton-nc/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elm City", "url": "/service-areas/elm-city-nc/"}, {"name": "Industrial Restoration"}]

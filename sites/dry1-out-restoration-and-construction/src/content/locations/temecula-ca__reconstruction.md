@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "ace8a0011181d064"
-generated_at: "2026-09-29T14:31:48.400590+00:00"
+generated_at: "2026-09-30T18:41:22.743005+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/temecula-ca/", "/service-areas/temecula-ca/fire-damage-restoration/", "/service-areas/temecula-ca/mold-remediation/", "/service-areas/berkeley-ca/reconstruction/", "/service-areas/carlsbad-ca/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Temecula", "url": "/service-areas/temecula-ca/"}, {"name": "reconstruction"}]

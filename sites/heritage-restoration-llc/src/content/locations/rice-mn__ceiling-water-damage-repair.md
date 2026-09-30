@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "7f06db0de07bc502"
-generated_at: "2026-09-29T23:13:48.904364+00:00"
+generated_at: "2026-09-30T18:41:35.550061+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/rice-mn/", "/service-areas/rice-mn/fire-damage-restoration/", "/service-areas/rice-mn/mold-remediation/", "/service-areas/albany-mn/ceiling-water-damage-repair/", "/service-areas/avon-mn/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rice", "url": "/service-areas/rice-mn/"}, {"name": "Ceiling Water Damage Repair"}]

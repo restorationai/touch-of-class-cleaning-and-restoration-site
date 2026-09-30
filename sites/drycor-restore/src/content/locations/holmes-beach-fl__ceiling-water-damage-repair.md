@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "ede6387b6d88b10f"
-generated_at: "2026-09-29T23:28:29.576012+00:00"
+generated_at: "2026-09-30T18:41:26.370791+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/holmes-beach-fl/", "/service-areas/holmes-beach-fl/fire-damage-restoration/", "/service-areas/holmes-beach-fl/mold-remediation/", "/service-areas/anna-maria-fl/ceiling-water-damage-repair/", "/service-areas/apollo-beach-fl/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Holmes Beach", "url": "/service-areas/holmes-beach-fl/"}, {"name": "Ceiling Water Damage Repair"}]

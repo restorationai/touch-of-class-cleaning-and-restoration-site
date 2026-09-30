@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "ece193b6cfa9d55c"
-generated_at: "2026-09-29T23:28:29.577884+00:00"
+generated_at: "2026-09-30T18:41:26.372923+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/holmes-beach-fl/", "/service-areas/holmes-beach-fl/fire-damage-restoration/", "/service-areas/holmes-beach-fl/mold-remediation/", "/service-areas/anna-maria-fl/mold-inspection-testing/", "/service-areas/apollo-beach-fl/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Holmes Beach", "url": "/service-areas/holmes-beach-fl/"}, {"name": "Mold Inspection and Testing"}]

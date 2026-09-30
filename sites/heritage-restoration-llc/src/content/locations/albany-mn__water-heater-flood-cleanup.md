@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "da53ef89b5c85adc"
-generated_at: "2026-09-29T23:13:48.923440+00:00"
+generated_at: "2026-09-30T18:41:35.578404+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/albany-mn/", "/service-areas/albany-mn/fire-damage-restoration/", "/service-areas/albany-mn/mold-remediation/", "/service-areas/avon-mn/water-heater-flood-cleanup/", "/service-areas/baxter-mn/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Albany", "url": "/service-areas/albany-mn/"}, {"name": "Water Heater Flood Cleanup"}]

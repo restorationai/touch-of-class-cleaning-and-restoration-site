@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "6e59e6d7e6796e10"
-generated_at: "2026-09-30T14:12:13.021580+00:00"
+generated_at: "2026-09-30T18:41:37.806683+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/ellisville-ms/", "/service-areas/ellisville-ms/fire-damage-restoration/", "/service-areas/ellisville-ms/mold-remediation/", "/service-areas/agricola-ms/burst-pipe-repair/", "/service-areas/bay-st-louis-ms/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ellisville", "url": "/service-areas/ellisville-ms/"}, {"name": "burst-pipe-repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "47cd29ee82bd49c6"
-generated_at: "2026-09-29T14:31:48.408323+00:00"
+generated_at: "2026-09-30T18:41:22.751704+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/hayward-ca/", "/service-areas/hayward-ca/fire-damage-restoration/", "/service-areas/hayward-ca/mold-remediation/", "/service-areas/berkeley-ca/reconstruction/", "/service-areas/carlsbad-ca/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hayward", "url": "/service-areas/hayward-ca/"}, {"name": "reconstruction"}]

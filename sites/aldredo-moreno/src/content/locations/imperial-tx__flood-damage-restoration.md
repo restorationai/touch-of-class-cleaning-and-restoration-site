@@ -8,7 +8,7 @@ secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restorati
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "1806a21bf12aa6cf"
-generated_at: "2026-09-30T14:12:02.665698+00:00"
+generated_at: "2026-09-30T18:41:10.076698+00:00"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/service-areas/imperial-tx/", "/service-areas/imperial-tx/fire-damage-restoration/", "/service-areas/imperial-tx/mold-remediation/", "/service-areas/andrews-tx/flood-damage-restoration/", "/service-areas/big-lake-tx/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Imperial", "url": "/service-areas/imperial-tx/"}, {"name": "flood-damage-restoration"}]

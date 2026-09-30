@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "ee488e7c30df8d31"
-generated_at: "2026-09-30T14:12:21.381393+00:00"
+generated_at: "2026-09-30T18:41:50.384410+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/renton-wa/", "/service-areas/renton-wa/fire-damage-restoration/", "/service-areas/renton-wa/mold-remediation/", "/service-areas/algona-wa/emergency-plumbing/", "/service-areas/auburn-wa/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Renton", "url": "/service-areas/renton-wa/"}, {"name": "Emergency Plumbing"}]

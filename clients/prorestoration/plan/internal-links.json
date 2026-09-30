@@ -11,6 +11,7 @@
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
     "/services/emergency-plumbing/",
+    "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
     "/services/sewage-cleanup/",
@@ -65,6 +66,7 @@
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
     "/services/emergency-plumbing/",
+    "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
     "/services/sewage-cleanup/",
@@ -298,6 +300,23 @@
     "/service-areas/maricopa-ca/emergency-plumbing/",
     "/service-areas/mcfarland-ca/emergency-plumbing/",
     "/service-areas/oildale-ca/emergency-plumbing/"
+  ],
+  "/services/emergency-water-removal/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/arvin-ca/emergency-water-removal/",
+    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
+    "/service-areas/buttonwillow-ca/emergency-water-removal/",
+    "/service-areas/delano-ca/emergency-water-removal/",
+    "/service-areas/dustin-acres-ca/emergency-water-removal/",
+    "/service-areas/east-niles-ca/emergency-water-removal/",
+    "/service-areas/keene-ca/emergency-water-removal/",
+    "/service-areas/lake-isabella-ca/emergency-water-removal/",
+    "/service-areas/lamont-ca/emergency-water-removal/",
+    "/service-areas/maricopa-ca/emergency-water-removal/",
+    "/service-areas/mcfarland-ca/emergency-water-removal/",
+    "/service-areas/oildale-ca/emergency-water-removal/",
+    "/services/water-damage-restoration/"
   ],
   "/services/fire-damage-restoration/": [
     "/services/",
@@ -534,6 +553,7 @@
     "/service-areas/maricopa-ca/water-damage-restoration/",
     "/service-areas/mcfarland-ca/water-damage-restoration/",
     "/service-areas/oildale-ca/water-damage-restoration/",
+    "/services/emergency-water-removal/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
@@ -644,6 +664,7 @@
     "/service-areas/oildale-ca/water-damage-restoration/",
     "/service-areas/oildale-ca/commercial-restoration/",
     "/service-areas/oildale-ca/emergency-plumbing/",
+    "/service-areas/oildale-ca/emergency-water-removal/",
     "/service-areas/oildale-ca/flood-damage-restoration/",
     "/service-areas/oildale-ca/reconstruction/",
     "/service-areas/oildale-ca/sewage-cleanup/",
@@ -681,6 +702,7 @@
     "/service-areas/rosedale-ca/water-damage-restoration/",
     "/service-areas/rosedale-ca/commercial-restoration/",
     "/service-areas/rosedale-ca/emergency-plumbing/",
+    "/service-areas/rosedale-ca/emergency-water-removal/",
     "/service-areas/rosedale-ca/flood-damage-restoration/",
     "/service-areas/rosedale-ca/reconstruction/",
     "/service-areas/rosedale-ca/sewage-cleanup/",
@@ -718,6 +740,7 @@
     "/service-areas/delano-ca/water-damage-restoration/",
     "/service-areas/delano-ca/commercial-restoration/",
     "/service-areas/delano-ca/emergency-plumbing/",
+    "/service-areas/delano-ca/emergency-water-removal/",
     "/service-areas/delano-ca/flood-damage-restoration/",
     "/service-areas/delano-ca/reconstruction/",
     "/service-areas/delano-ca/sewage-cleanup/",
@@ -755,6 +778,7 @@
     "/service-areas/shafter-ca/water-damage-restoration/",
     "/service-areas/shafter-ca/commercial-restoration/",
     "/service-areas/shafter-ca/emergency-plumbing/",
+    "/service-areas/shafter-ca/emergency-water-removal/",
     "/service-areas/shafter-ca/flood-damage-restoration/",
     "/service-areas/shafter-ca/reconstruction/",
     "/service-areas/shafter-ca/sewage-cleanup/",
@@ -792,6 +816,7 @@
     "/service-areas/wasco-ca/water-damage-restoration/",
     "/service-areas/wasco-ca/commercial-restoration/",
     "/service-areas/wasco-ca/emergency-plumbing/",
+    "/service-areas/wasco-ca/emergency-water-removal/",
     "/service-areas/wasco-ca/flood-damage-restoration/",
     "/service-areas/wasco-ca/reconstruction/",
     "/service-areas/wasco-ca/sewage-cleanup/",
@@ -829,6 +854,7 @@
     "/service-areas/taft-ca/water-damage-restoration/",
     "/service-areas/taft-ca/commercial-restoration/",
     "/service-areas/taft-ca/emergency-plumbing/",
+    "/service-areas/taft-ca/emergency-water-removal/",
     "/service-areas/taft-ca/flood-damage-restoration/",
     "/service-areas/taft-ca/reconstruction/",
     "/service-areas/taft-ca/sewage-cleanup/",
@@ -866,6 +892,7 @@
     "/service-areas/tehachapi-ca/water-damage-restoration/",
     "/service-areas/tehachapi-ca/commercial-restoration/",
     "/service-areas/tehachapi-ca/emergency-plumbing/",
+    "/service-areas/tehachapi-ca/emergency-water-removal/",
     "/service-areas/tehachapi-ca/flood-damage-restoration/",
     "/service-areas/tehachapi-ca/reconstruction/",
     "/service-areas/tehachapi-ca/sewage-cleanup/",
@@ -903,6 +930,7 @@
     "/service-areas/arvin-ca/water-damage-restoration/",
     "/service-areas/arvin-ca/commercial-restoration/",
     "/service-areas/arvin-ca/emergency-plumbing/",
+    "/service-areas/arvin-ca/emergency-water-removal/",
     "/service-areas/arvin-ca/flood-damage-restoration/",
     "/service-areas/arvin-ca/reconstruction/",
     "/service-areas/arvin-ca/sewage-cleanup/",
@@ -940,6 +968,7 @@
     "/service-areas/lamont-ca/water-damage-restoration/",
     "/service-areas/lamont-ca/commercial-restoration/",
     "/service-areas/lamont-ca/emergency-plumbing/",
+    "/service-areas/lamont-ca/emergency-water-removal/",
     "/service-areas/lamont-ca/flood-damage-restoration/",
     "/service-areas/lamont-ca/reconstruction/",
     "/service-areas/lamont-ca/sewage-cleanup/",
@@ -977,6 +1006,7 @@
     "/service-areas/lake-isabella-ca/water-damage-restoration/",
     "/service-areas/lake-isabella-ca/commercial-restoration/",
     "/service-areas/lake-isabella-ca/emergency-plumbing/",
+    "/service-areas/lake-isabella-ca/emergency-water-removal/",
     "/service-areas/lake-isabella-ca/flood-damage-restoration/",
     "/service-areas/lake-isabella-ca/reconstruction/",
     "/service-areas/lake-isabella-ca/sewage-cleanup/",
@@ -1014,6 +1044,7 @@
     "/service-areas/east-niles-ca/water-damage-restoration/",
     "/service-areas/east-niles-ca/commercial-restoration/",
     "/service-areas/east-niles-ca/emergency-plumbing/",
+    "/service-areas/east-niles-ca/emergency-water-removal/",
     "/service-areas/east-niles-ca/flood-damage-restoration/",
     "/service-areas/east-niles-ca/reconstruction/",
     "/service-areas/east-niles-ca/sewage-cleanup/",
@@ -1051,6 +1082,7 @@
     "/service-areas/tarina-ca/water-damage-restoration/",
     "/service-areas/tarina-ca/commercial-restoration/",
     "/service-areas/tarina-ca/emergency-plumbing/",
+    "/service-areas/tarina-ca/emergency-water-removal/",
     "/service-areas/tarina-ca/flood-damage-restoration/",
     "/service-areas/tarina-ca/reconstruction/",
     "/service-areas/tarina-ca/sewage-cleanup/",
@@ -1088,6 +1120,7 @@
     "/service-areas/weedpatch-ca/water-damage-restoration/",
     "/service-areas/weedpatch-ca/commercial-restoration/",
     "/service-areas/weedpatch-ca/emergency-plumbing/",
+    "/service-areas/weedpatch-ca/emergency-water-removal/",
     "/service-areas/weedpatch-ca/flood-damage-restoration/",
     "/service-areas/weedpatch-ca/reconstruction/",
     "/service-areas/weedpatch-ca/sewage-cleanup/",
@@ -1125,6 +1158,7 @@
     "/service-areas/buttonwillow-ca/water-damage-restoration/",
     "/service-areas/buttonwillow-ca/commercial-restoration/",
     "/service-areas/buttonwillow-ca/emergency-plumbing/",
+    "/service-areas/buttonwillow-ca/emergency-water-removal/",
     "/service-areas/buttonwillow-ca/flood-damage-restoration/",
     "/service-areas/buttonwillow-ca/reconstruction/",
     "/service-areas/buttonwillow-ca/sewage-cleanup/",
@@ -1162,6 +1196,7 @@
     "/service-areas/dustin-acres-ca/water-damage-restoration/",
     "/service-areas/dustin-acres-ca/commercial-restoration/",
     "/service-areas/dustin-acres-ca/emergency-plumbing/",
+    "/service-areas/dustin-acres-ca/emergency-water-removal/",
     "/service-areas/dustin-acres-ca/flood-damage-restoration/",
     "/service-areas/dustin-acres-ca/reconstruction/",
     "/service-areas/dustin-acres-ca/sewage-cleanup/",
@@ -1199,6 +1234,7 @@
     "/service-areas/mcfarland-ca/water-damage-restoration/",
     "/service-areas/mcfarland-ca/commercial-restoration/",
     "/service-areas/mcfarland-ca/emergency-plumbing/",
+    "/service-areas/mcfarland-ca/emergency-water-removal/",
     "/service-areas/mcfarland-ca/flood-damage-restoration/",
     "/service-areas/mcfarland-ca/reconstruction/",
     "/service-areas/mcfarland-ca/sewage-cleanup/",
@@ -1236,6 +1272,7 @@
     "/service-areas/valley-acres-ca/water-damage-restoration/",
     "/service-areas/valley-acres-ca/commercial-restoration/",
     "/service-areas/valley-acres-ca/emergency-plumbing/",
+    "/service-areas/valley-acres-ca/emergency-water-removal/",
     "/service-areas/valley-acres-ca/flood-damage-restoration/",
     "/service-areas/valley-acres-ca/reconstruction/",
     "/service-areas/valley-acres-ca/sewage-cleanup/",
@@ -1273,6 +1310,7 @@
     "/service-areas/woody-ca/water-damage-restoration/",
     "/service-areas/woody-ca/commercial-restoration/",
     "/service-areas/woody-ca/emergency-plumbing/",
+    "/service-areas/woody-ca/emergency-water-removal/",
     "/service-areas/woody-ca/flood-damage-restoration/",
     "/service-areas/woody-ca/reconstruction/",
     "/service-areas/woody-ca/sewage-cleanup/",
@@ -1310,6 +1348,7 @@
     "/service-areas/bear-valley-springs-ca/water-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/commercial-restoration/",
     "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
+    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
     "/service-areas/bear-valley-springs-ca/flood-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/reconstruction/",
     "/service-areas/bear-valley-springs-ca/sewage-cleanup/",
@@ -1347,6 +1386,7 @@
     "/service-areas/keene-ca/water-damage-restoration/",
     "/service-areas/keene-ca/commercial-restoration/",
     "/service-areas/keene-ca/emergency-plumbing/",
+    "/service-areas/keene-ca/emergency-water-removal/",
     "/service-areas/keene-ca/flood-damage-restoration/",
     "/service-areas/keene-ca/reconstruction/",
     "/service-areas/keene-ca/sewage-cleanup/",
@@ -1384,6 +1424,7 @@
     "/service-areas/maricopa-ca/water-damage-restoration/",
     "/service-areas/maricopa-ca/commercial-restoration/",
     "/service-areas/maricopa-ca/emergency-plumbing/",
+    "/service-areas/maricopa-ca/emergency-water-removal/",
     "/service-areas/maricopa-ca/flood-damage-restoration/",
     "/service-areas/maricopa-ca/reconstruction/",
     "/service-areas/maricopa-ca/sewage-cleanup/",
@@ -1499,6 +1540,15 @@
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/emergency-plumbing/",
     "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/oildale-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/oildale-ca/",
+    "/service-areas/oildale-ca/fire-damage-restoration/",
+    "/service-areas/oildale-ca/home-remodeling/",
+    "/service-areas/arvin-ca/emergency-water-removal/",
+    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/fire-damage-restoration/": [
@@ -1771,6 +1821,15 @@
     "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
     "/contact/"
   ],
+  "/service-areas/rosedale-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/rosedale-ca/",
+    "/service-areas/rosedale-ca/fire-damage-restoration/",
+    "/service-areas/rosedale-ca/home-remodeling/",
+    "/service-areas/arvin-ca/emergency-water-removal/",
+    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/rosedale-ca/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/rosedale-ca/",
@@ -2039,6 +2098,15 @@
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/emergency-plumbing/",
     "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/delano-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/delano-ca/",
+    "/service-areas/delano-ca/fire-damage-restoration/",
+    "/service-areas/delano-ca/home-remodeling/",
+    "/service-areas/arvin-ca/emergency-water-removal/",
+    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/delano-ca/fire-damage-restoration/": [
@@ -2311,6 +2379,15 @@
     "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
     "/contact/"
   ],
+  "/service-areas/shafter-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/shafter-ca/",
+    "/service-areas/shafter-ca/fire-damage-restoration/",
+    "/service-areas/shafter-ca/home-remodeling/",
+    "/service-areas/arvin-ca/emergency-water-removal/",
+    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/shafter-ca/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/shafter-ca/",
@@ -2579,6 +2656,15 @@
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/emergency-plumbing/",
     "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/wasco-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/wasco-ca/",
+    "/service-areas/wasco-ca/fire-damage-restoration/",
+    "/service-areas/wasco-ca/home-remodeling/",
+    "/service-areas/arvin-ca/emergency-water-removal/",
+    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/fire-damage-restoration/": [
@@ -2851,6 +2937,15 @@
     "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
     "/contact/"
   ],
+  "/service-areas/taft-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/taft-ca/",
+    "/service-areas/taft-ca/fire-damage-restoration/",
+    "/service-areas/taft-ca/home-remodeling/",
+    "/service-areas/arvin-ca/emergency-water-removal/",
+    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/taft-ca/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/taft-ca/",
@@ -3119,6 +3214,15 @@
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/emergency-plumbing/",
     "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/tehachapi-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/tehachapi-ca/",
+    "/service-areas/tehachapi-ca/fire-damage-restoration/",
+    "/service-areas/tehachapi-ca/home-remodeling/",
+    "/service-areas/arvin-ca/emergency-water-removal/",
+    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/fire-damage-restoration/": [
@@ -3391,6 +3495,15 @@
     "/service-areas/buttonwillow-ca/emergency-plumbing/",
     "/contact/"
   ],
+  "/service-areas/arvin-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/arvin-ca/",
+    "/service-areas/arvin-ca/fire-damage-restoration/",
+    "/service-areas/arvin-ca/home-remodeling/",
+    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
+    "/service-areas/buttonwillow-ca/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/arvin-ca/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/arvin-ca/",
@@ -3659,6 +3772,15 @@
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/emergency-plumbing/",
     "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/lamont-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/lamont-ca/",
+    "/service-areas/lamont-ca/fire-damage-restoration/",
+    "/service-areas/lamont-ca/home-remodeling/",
+    "/service-areas/arvin-ca/emergency-water-removal/",
+    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/fire-damage-restoration/": [
@@ -3931,6 +4053,15 @@
     "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
     "/contact/"
   ],
+  "/service-areas/lake-isabella-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/lake-isabella-ca/",
+    "/service-areas/lake-isabella-ca/fire-damage-restoration/",
+    "/service-areas/lake-isabella-ca/home-remodeling/",
+    "/service-areas/arvin-ca/emergency-water-removal/",
+    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/lake-isabella-ca/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/lake-isabella-ca/",
@@ -4199,6 +4330,15 @@
     "/service-areas/east-niles-ca/home-remodeling/",
     "/service-areas/arvin-ca/emergency-plumbing/",
     "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/east-niles-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/east-niles-ca/",
+    "/service-areas/east-niles-ca/fire-damage-restoration/",
+    "/service-areas/east-niles-ca/home-remodeling/",
+    "/service-areas/arvin-ca/emergency-water-removal/",
+    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/east-niles-ca/fire-damage-restoration/": [
@@ -4471,6 +4611,15 @@
     "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
     "/contact/"
   ],
+  "/service-areas/tarina-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/tarina-ca/",
+    "/service-areas/tarina-ca/fire-damage-restoration/",
+    "/service-areas/tarina-ca/home-remodeling/",
+    "/service-areas/arvin-ca/emergency-water-removal/",
+    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/tarina-ca/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/tarina-ca/",
@@ -4739,6 +4888,15 @@
     "/service-areas/weedpatch-ca/home-remodeling/",
     "/service-areas/arvin-ca/emergency-plumbing/",
     "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/weedpatch-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/weedpatch-ca/",
+    "/service-areas/weedpatch-ca/fire-damage-restoration/",
+    "/service-areas/weedpatch-ca/home-remodeling/",
+    "/service-areas/arvin-ca/emergency-water-removal/",
+    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/weedpatch-ca/fire-damage-restoration/": [
@@ -5011,6 +5169,15 @@
     "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
     "/contact/"
   ],
+  "/service-areas/buttonwillow-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/buttonwillow-ca/",
+    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
+    "/service-areas/buttonwillow-ca/home-remodeling/",
+    "/service-areas/arvin-ca/emergency-water-removal/",
+    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/buttonwillow-ca/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/buttonwillow-ca/",
@@ -5279,6 +5446,15 @@
     "/service-areas/dustin-acres-ca/home-remodeling/",
     "/service-areas/arvin-ca/emergency-plumbing/",
     "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/dustin-acres-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/dustin-acres-ca/",
+    "/service-areas/dustin-acres-ca/fire-damage-restoration/",
+    "/service-areas/dustin-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/emergency-water-removal/",
+    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/dustin-acres-ca/fire-damage-restoration/": [
@@ -5551,6 +5727,15 @@
     "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
     "/contact/"
   ],
+  "/service-areas/mcfarland-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/mcfarland-ca/",
+    "/service-areas/mcfarland-ca/fire-damage-restoration/",
+    "/service-areas/mcfarland-ca/home-remodeling/",
+    "/service-areas/arvin-ca/emergency-water-removal/",
+    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/mcfarland-ca/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/mcfarland-ca/",
@@ -5819,6 +6004,15 @@
     "/service-areas/valley-acres-ca/home-remodeling/",
     "/service-areas/arvin-ca/emergency-plumbing/",
     "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/valley-acres-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/valley-acres-ca/",
+    "/service-areas/valley-acres-ca/fire-damage-restoration/",
+    "/service-areas/valley-acres-ca/home-remodeling/",
+    "/service-areas/arvin-ca/emergency-water-removal/",
+    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/valley-acres-ca/fire-damage-restoration/": [
@@ -6091,6 +6285,15 @@
     "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
     "/contact/"
   ],
+  "/service-areas/woody-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/woody-ca/",
+    "/service-areas/woody-ca/fire-damage-restoration/",
+    "/service-areas/woody-ca/home-remodeling/",
+    "/service-areas/arvin-ca/emergency-water-removal/",
+    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/woody-ca/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/woody-ca/",
@@ -6359,6 +6562,15 @@
     "/service-areas/bear-valley-springs-ca/home-remodeling/",
     "/service-areas/arvin-ca/emergency-plumbing/",
     "/service-areas/buttonwillow-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/bear-valley-springs-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/bear-valley-springs-ca/",
+    "/service-areas/bear-valley-springs-ca/fire-damage-restoration/",
+    "/service-areas/bear-valley-springs-ca/home-remodeling/",
+    "/service-areas/arvin-ca/emergency-water-removal/",
+    "/service-areas/buttonwillow-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/bear-valley-springs-ca/fire-damage-restoration/": [
@@ -6631,6 +6843,15 @@
     "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
     "/contact/"
   ],
+  "/service-areas/keene-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/keene-ca/",
+    "/service-areas/keene-ca/fire-damage-restoration/",
+    "/service-areas/keene-ca/home-remodeling/",
+    "/service-areas/arvin-ca/emergency-water-removal/",
+    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/keene-ca/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/keene-ca/",
@@ -6899,6 +7120,15 @@
     "/service-areas/maricopa-ca/home-remodeling/",
     "/service-areas/arvin-ca/emergency-plumbing/",
     "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/maricopa-ca/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/maricopa-ca/",
+    "/service-areas/maricopa-ca/fire-damage-restoration/",
+    "/service-areas/maricopa-ca/home-remodeling/",
+    "/service-areas/arvin-ca/emergency-water-removal/",
+    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/maricopa-ca/fire-damage-restoration/": [

@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "b8f594719cc0ea4c"
-generated_at: "2026-09-23T14:12:04.493207+00:00"
+generated_at: "2026-09-30T18:41:58.722558+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/murphy-tx/", "/service-areas/murphy-tx/mold-remediation/", "/service-areas/murphy-tx/roofing/", "/service-areas/allen-tx/fire-damage-restoration/", "/service-areas/caddo-mills-tx/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Murphy", "url": "/service-areas/murphy-tx/"}, {"name": "Fire Damage Restoration"}]

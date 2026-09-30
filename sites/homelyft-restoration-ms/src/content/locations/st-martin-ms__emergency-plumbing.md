@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "c55b34c6e9f7c497"
-generated_at: "2026-09-30T14:12:12.904636+00:00"
+generated_at: "2026-09-30T18:41:37.663915+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/st-martin-ms/", "/service-areas/st-martin-ms/fire-damage-restoration/", "/service-areas/st-martin-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-plumbing/", "/service-areas/bay-st-louis-ms/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "St. Martin", "url": "/service-areas/st-martin-ms/"}, {"name": "emergency-plumbing"}]

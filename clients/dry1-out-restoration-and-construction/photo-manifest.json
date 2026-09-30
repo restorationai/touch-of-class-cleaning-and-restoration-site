@@ -1267,6 +1267,32 @@
       "triaged_at": "2026-09-29T14:53:22Z",
       "triage_model": "claude-sonnet-5"
     },
+    "gbp:gbp-AF1QipPDq9UZdvJUWG414o2RFG_jNkFrquw6g5aDHAkQ": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPDq9UZdvJUWG414o2RFG_jNkFrquw6g5aDHAkQ.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1766829460317/job-photos/posted/gbp-AF1QipPDq9UZdvJUWG414o2RFG_jNkFrquw6g5aDHAkQ.jpg",
+      "width": 1024,
+      "height": 576,
+      "bytes": 87663,
+      "sha1": "369a4d34753b939d",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Company logo lockup with flame icon and tagline",
+      "quality": 90,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "logo_card",
+        "text_overlay"
+      ],
+      "reason": "Designed logo graphic, not a photograph of work or crew.",
+      "triaged_at": "2026-09-30T18:49:09Z",
+      "triage_model": "claude-sonnet-5"
+    },
     "gbp:gbp-AF1QipPILpt6GXaA3SYnToh1GtUS8isQUhkh5cBHDiE_": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPILpt6GXaA3SYnToh1GtUS8isQUhkh5cBHDiE_.jpg",
@@ -2510,5 +2536,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-29T14:54:55Z"
+  "triaged_at": "2026-09-30T18:49:09Z"
 }

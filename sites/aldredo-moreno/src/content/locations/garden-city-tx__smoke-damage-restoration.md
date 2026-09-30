@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "8a48b52b773989dd"
-generated_at: "2026-09-30T14:12:02.648212+00:00"
+generated_at: "2026-09-30T18:41:10.044497+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/garden-city-tx/", "/service-areas/garden-city-tx/fire-damage-restoration/", "/service-areas/garden-city-tx/mold-remediation/", "/service-areas/andrews-tx/smoke-damage-restoration/", "/service-areas/big-lake-tx/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Garden City", "url": "/service-areas/garden-city-tx/"}, {"name": "smoke-damage-restoration"}]

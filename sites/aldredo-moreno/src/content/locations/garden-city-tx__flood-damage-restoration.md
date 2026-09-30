@@ -8,7 +8,7 @@ secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restorati
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "fd7dbbdd6690ec4d"
-generated_at: "2026-09-30T14:12:02.647646+00:00"
+generated_at: "2026-09-30T18:41:10.043262+00:00"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/service-areas/garden-city-tx/", "/service-areas/garden-city-tx/fire-damage-restoration/", "/service-areas/garden-city-tx/mold-remediation/", "/service-areas/andrews-tx/flood-damage-restoration/", "/service-areas/big-lake-tx/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Garden City", "url": "/service-areas/garden-city-tx/"}, {"name": "flood-damage-restoration"}]

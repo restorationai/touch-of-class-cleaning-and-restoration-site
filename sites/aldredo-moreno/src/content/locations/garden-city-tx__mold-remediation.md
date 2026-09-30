@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "ccdf158ade6e66c3"
-generated_at: "2026-09-30T14:12:02.648337+00:00"
+generated_at: "2026-09-30T18:41:10.044805+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/garden-city-tx/", "/service-areas/garden-city-tx/fire-damage-restoration/", "/service-areas/garden-city-tx/water-damage-restoration/", "/service-areas/andrews-tx/mold-remediation/", "/service-areas/big-lake-tx/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Garden City", "url": "/service-areas/garden-city-tx/"}, {"name": "mold-remediation"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 8.1
 plan_hash: "a1fbfcef4446bfa5"
-generated_at: "2026-09-30T14:12:01.734051+00:00"
+generated_at: "2026-09-30T18:41:08.922825+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/albany-tx/reconstruction/", "/service-areas/anson-tx/reconstruction/", "/service-areas/baird-tx/reconstruction/", "/service-areas/ballinger-tx/reconstruction/", "/service-areas/bronte-tx/reconstruction/", "/service-areas/brownwood-tx/reconstruction/", "/service-areas/buffalo-gap-tx/reconstruction/", "/service-areas/clyde-tx/reconstruction/", "/service-areas/coleman-tx/reconstruction/", "/service-areas/colorado-city-tx/reconstruction/", "/service-areas/comanche-tx/reconstruction/", "/service-areas/early-tx/reconstruction/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "reconstruction"}]

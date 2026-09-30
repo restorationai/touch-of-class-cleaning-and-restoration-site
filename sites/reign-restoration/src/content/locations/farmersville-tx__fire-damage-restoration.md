@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "32bb51d5c3b05bac"
-generated_at: "2026-09-23T14:12:04.484977+00:00"
+generated_at: "2026-09-30T18:41:58.708561+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/farmersville-tx/", "/service-areas/farmersville-tx/mold-remediation/", "/service-areas/farmersville-tx/roofing/", "/service-areas/allen-tx/fire-damage-restoration/", "/service-areas/caddo-mills-tx/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Farmersville", "url": "/service-areas/farmersville-tx/"}, {"name": "Fire Damage Restoration"}]

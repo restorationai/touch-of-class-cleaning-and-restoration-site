@@ -1,9 +1,9 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-30T14:12:02.151463+00:00",
+  "generated_at": "2026-09-30T18:41:09.432303+00:00",
   "input_summary": {
-    "service_count": 27,
+    "service_count": 24,
     "service_area_count": 16,
     "cross_product": true,
     "blog_seed_count": 8
@@ -53,7 +53,6 @@
         "/services/sewage-cleanup/",
         "/services/smoke-damage-restoration/",
         "/services/storm-damage-restoration/",
-        "/services/water-cleanup/",
         "/services/basement-flooding-cleanup/",
         "/services/burst-pipe-repair/",
         "/services/ceiling-water-damage-repair/",
@@ -64,8 +63,6 @@
         "/services/water-heater-flood-cleanup/",
         "/services/water-leak-detection/",
         "/services/air-duct-cleaning/",
-        "/services/air-duct-hvac-cleaning/",
-        "/services/carpet-upholstery-cleaning/",
         "/services/junk-debris-removal/",
         "/services/carpet-cleaning/",
         "/services/tile-grout-cleaning/",
@@ -127,7 +124,6 @@
         "/services/sewage-cleanup/",
         "/services/smoke-damage-restoration/",
         "/services/storm-damage-restoration/",
-        "/services/water-cleanup/",
         "/services/basement-flooding-cleanup/",
         "/services/burst-pipe-repair/",
         "/services/ceiling-water-damage-repair/",
@@ -138,8 +134,6 @@
         "/services/water-heater-flood-cleanup/",
         "/services/water-leak-detection/",
         "/services/air-duct-cleaning/",
-        "/services/air-duct-hvac-cleaning/",
-        "/services/carpet-upholstery-cleaning/",
         "/services/junk-debris-removal/",
         "/services/carpet-cleaning/",
         "/services/tile-grout-cleaning/"
@@ -395,6 +389,56 @@
       ]
     },
     {
+      "url_path": "/services/emergency-water-removal/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Removal & Cleanup in Midland | ACS Enterprise",
+      "h1": "Water Removal & Cleanup in Midland",
+      "meta_description": "Water removal & cleanup in Midland and surrounding areas. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "emergency water removal & cleanup midland",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/andrews-tx/emergency-water-removal/",
+        "/service-areas/big-lake-tx/emergency-water-removal/",
+        "/service-areas/big-spring-tx/emergency-water-removal/",
+        "/service-areas/crane-tx/emergency-water-removal/",
+        "/service-areas/garden-city-tx/emergency-water-removal/",
+        "/service-areas/gardendale-tx/emergency-water-removal/",
+        "/service-areas/goldsmith-tx/emergency-water-removal/",
+        "/service-areas/greenwood-tx/emergency-water-removal/",
+        "/service-areas/imperial-tx/emergency-water-removal/",
+        "/service-areas/mccamey-tx/emergency-water-removal/",
+        "/service-areas/monahans-tx/emergency-water-removal/",
+        "/service-areas/odessa-tx/emergency-water-removal/",
+        "/services/water-damage-restoration/"
+      ]
+    },
+    {
       "url_path": "/services/junk-debris-removal/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -642,7 +686,7 @@
         "/service-areas/mccamey-tx/water-damage-restoration/",
         "/service-areas/monahans-tx/water-damage-restoration/",
         "/service-areas/odessa-tx/water-damage-restoration/",
-        "/services/water-cleanup/",
+        "/services/emergency-water-removal/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
         "/blog/choosing-a-restoration-company/"
@@ -1493,7 +1537,6 @@
         "/service-areas/odessa-tx/sewage-cleanup/",
         "/service-areas/odessa-tx/smoke-damage-restoration/",
         "/service-areas/odessa-tx/storm-damage-restoration/",
-        "/service-areas/odessa-tx/water-cleanup/",
         "/service-areas/odessa-tx/basement-flooding-cleanup/",
         "/service-areas/odessa-tx/burst-pipe-repair/",
         "/service-areas/odessa-tx/ceiling-water-damage-repair/",
@@ -1504,8 +1547,6 @@
         "/service-areas/odessa-tx/water-heater-flood-cleanup/",
         "/service-areas/odessa-tx/water-leak-detection/",
         "/service-areas/odessa-tx/air-duct-cleaning/",
-        "/service-areas/odessa-tx/air-duct-hvac-cleaning/",
-        "/service-areas/odessa-tx/carpet-upholstery-cleaning/",
         "/service-areas/odessa-tx/junk-debris-removal/",
         "/service-areas/odessa-tx/carpet-cleaning/",
         "/service-areas/odessa-tx/tile-grout-cleaning/",
@@ -1557,7 +1598,6 @@
         "/service-areas/big-spring-tx/sewage-cleanup/",
         "/service-areas/big-spring-tx/smoke-damage-restoration/",
         "/service-areas/big-spring-tx/storm-damage-restoration/",
-        "/service-areas/big-spring-tx/water-cleanup/",
         "/service-areas/big-spring-tx/basement-flooding-cleanup/",
         "/service-areas/big-spring-tx/burst-pipe-repair/",
         "/service-areas/big-spring-tx/ceiling-water-damage-repair/",
@@ -1568,8 +1608,6 @@
         "/service-areas/big-spring-tx/water-heater-flood-cleanup/",
         "/service-areas/big-spring-tx/water-leak-detection/",
         "/service-areas/big-spring-tx/air-duct-cleaning/",
-        "/service-areas/big-spring-tx/air-duct-hvac-cleaning/",
-        "/service-areas/big-spring-tx/carpet-upholstery-cleaning/",
         "/service-areas/big-spring-tx/junk-debris-removal/",
         "/service-areas/big-spring-tx/carpet-cleaning/",
         "/service-areas/big-spring-tx/tile-grout-cleaning/",
@@ -1621,7 +1659,6 @@
         "/service-areas/stanton-tx/sewage-cleanup/",
         "/service-areas/stanton-tx/smoke-damage-restoration/",
         "/service-areas/stanton-tx/storm-damage-restoration/",
-        "/service-areas/stanton-tx/water-cleanup/",
         "/service-areas/stanton-tx/basement-flooding-cleanup/",
         "/service-areas/stanton-tx/burst-pipe-repair/",
         "/service-areas/stanton-tx/ceiling-water-damage-repair/",
@@ -1632,8 +1669,6 @@
         "/service-areas/stanton-tx/water-heater-flood-cleanup/",
         "/service-areas/stanton-tx/water-leak-detection/",
         "/service-areas/stanton-tx/air-duct-cleaning/",
-        "/service-areas/stanton-tx/air-duct-hvac-cleaning/",
-        "/service-areas/stanton-tx/carpet-upholstery-cleaning/",
         "/service-areas/stanton-tx/junk-debris-removal/",
         "/service-areas/stanton-tx/carpet-cleaning/",
         "/service-areas/stanton-tx/tile-grout-cleaning/",
@@ -1685,7 +1720,6 @@
         "/service-areas/andrews-tx/sewage-cleanup/",
         "/service-areas/andrews-tx/smoke-damage-restoration/",
         "/service-areas/andrews-tx/storm-damage-restoration/",
-        "/service-areas/andrews-tx/water-cleanup/",
         "/service-areas/andrews-tx/basement-flooding-cleanup/",
         "/service-areas/andrews-tx/burst-pipe-repair/",
         "/service-areas/andrews-tx/ceiling-water-damage-repair/",
@@ -1696,8 +1730,6 @@
         "/service-areas/andrews-tx/water-heater-flood-cleanup/",
         "/service-areas/andrews-tx/water-leak-detection/",
         "/service-areas/andrews-tx/air-duct-cleaning/",
-        "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-        "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
         "/service-areas/andrews-tx/junk-debris-removal/",
         "/service-areas/andrews-tx/carpet-cleaning/",
         "/service-areas/andrews-tx/tile-grout-cleaning/",
@@ -1749,7 +1781,6 @@
         "/service-areas/gardendale-tx/sewage-cleanup/",
         "/service-areas/gardendale-tx/smoke-damage-restoration/",
         "/service-areas/gardendale-tx/storm-damage-restoration/",
-        "/service-areas/gardendale-tx/water-cleanup/",
         "/service-areas/gardendale-tx/basement-flooding-cleanup/",
         "/service-areas/gardendale-tx/burst-pipe-repair/",
         "/service-areas/gardendale-tx/ceiling-water-damage-repair/",
@@ -1760,8 +1791,6 @@
         "/service-areas/gardendale-tx/water-heater-flood-cleanup/",
         "/service-areas/gardendale-tx/water-leak-detection/",
         "/service-areas/gardendale-tx/air-duct-cleaning/",
-        "/service-areas/gardendale-tx/air-duct-hvac-cleaning/",
-        "/service-areas/gardendale-tx/carpet-upholstery-cleaning/",
         "/service-areas/gardendale-tx/junk-debris-removal/",
         "/service-areas/gardendale-tx/carpet-cleaning/",
         "/service-areas/gardendale-tx/tile-grout-cleaning/",
@@ -1813,7 +1842,6 @@
         "/service-areas/greenwood-tx/sewage-cleanup/",
         "/service-areas/greenwood-tx/smoke-damage-restoration/",
         "/service-areas/greenwood-tx/storm-damage-restoration/",
-        "/service-areas/greenwood-tx/water-cleanup/",
         "/service-areas/greenwood-tx/basement-flooding-cleanup/",
         "/service-areas/greenwood-tx/burst-pipe-repair/",
         "/service-areas/greenwood-tx/ceiling-water-damage-repair/",
@@ -1824,8 +1852,6 @@
         "/service-areas/greenwood-tx/water-heater-flood-cleanup/",
         "/service-areas/greenwood-tx/water-leak-detection/",
         "/service-areas/greenwood-tx/air-duct-cleaning/",
-        "/service-areas/greenwood-tx/air-duct-hvac-cleaning/",
-        "/service-areas/greenwood-tx/carpet-upholstery-cleaning/",
         "/service-areas/greenwood-tx/junk-debris-removal/",
         "/service-areas/greenwood-tx/carpet-cleaning/",
         "/service-areas/greenwood-tx/tile-grout-cleaning/",
@@ -1877,7 +1903,6 @@
         "/service-areas/goldsmith-tx/sewage-cleanup/",
         "/service-areas/goldsmith-tx/smoke-damage-restoration/",
         "/service-areas/goldsmith-tx/storm-damage-restoration/",
-        "/service-areas/goldsmith-tx/water-cleanup/",
         "/service-areas/goldsmith-tx/basement-flooding-cleanup/",
         "/service-areas/goldsmith-tx/burst-pipe-repair/",
         "/service-areas/goldsmith-tx/ceiling-water-damage-repair/",
@@ -1888,8 +1913,6 @@
         "/service-areas/goldsmith-tx/water-heater-flood-cleanup/",
         "/service-areas/goldsmith-tx/water-leak-detection/",
         "/service-areas/goldsmith-tx/air-duct-cleaning/",
-        "/service-areas/goldsmith-tx/air-duct-hvac-cleaning/",
-        "/service-areas/goldsmith-tx/carpet-upholstery-cleaning/",
         "/service-areas/goldsmith-tx/junk-debris-removal/",
         "/service-areas/goldsmith-tx/carpet-cleaning/",
         "/service-areas/goldsmith-tx/tile-grout-cleaning/",
@@ -1941,7 +1964,6 @@
         "/service-areas/west-odessa-tx/sewage-cleanup/",
         "/service-areas/west-odessa-tx/smoke-damage-restoration/",
         "/service-areas/west-odessa-tx/storm-damage-restoration/",
-        "/service-areas/west-odessa-tx/water-cleanup/",
         "/service-areas/west-odessa-tx/basement-flooding-cleanup/",
         "/service-areas/west-odessa-tx/burst-pipe-repair/",
         "/service-areas/west-odessa-tx/ceiling-water-damage-repair/",
@@ -1952,8 +1974,6 @@
         "/service-areas/west-odessa-tx/water-heater-flood-cleanup/",
         "/service-areas/west-odessa-tx/water-leak-detection/",
         "/service-areas/west-odessa-tx/air-duct-cleaning/",
-        "/service-areas/west-odessa-tx/air-duct-hvac-cleaning/",
-        "/service-areas/west-odessa-tx/carpet-upholstery-cleaning/",
         "/service-areas/west-odessa-tx/junk-debris-removal/",
         "/service-areas/west-odessa-tx/carpet-cleaning/",
         "/service-areas/west-odessa-tx/tile-grout-cleaning/",
@@ -2005,7 +2025,6 @@
         "/service-areas/garden-city-tx/sewage-cleanup/",
         "/service-areas/garden-city-tx/smoke-damage-restoration/",
         "/service-areas/garden-city-tx/storm-damage-restoration/",
-        "/service-areas/garden-city-tx/water-cleanup/",
         "/service-areas/garden-city-tx/basement-flooding-cleanup/",
         "/service-areas/garden-city-tx/burst-pipe-repair/",
         "/service-areas/garden-city-tx/ceiling-water-damage-repair/",
@@ -2016,8 +2035,6 @@
         "/service-areas/garden-city-tx/water-heater-flood-cleanup/",
         "/service-areas/garden-city-tx/water-leak-detection/",
         "/service-areas/garden-city-tx/air-duct-cleaning/",
-        "/service-areas/garden-city-tx/air-duct-hvac-cleaning/",
-        "/service-areas/garden-city-tx/carpet-upholstery-cleaning/",
         "/service-areas/garden-city-tx/junk-debris-removal/",
         "/service-areas/garden-city-tx/carpet-cleaning/",
         "/service-areas/garden-city-tx/tile-grout-cleaning/",
@@ -2069,7 +2086,6 @@
         "/service-areas/crane-tx/sewage-cleanup/",
         "/service-areas/crane-tx/smoke-damage-restoration/",
         "/service-areas/crane-tx/storm-damage-restoration/",
-        "/service-areas/crane-tx/water-cleanup/",
         "/service-areas/crane-tx/basement-flooding-cleanup/",
         "/service-areas/crane-tx/burst-pipe-repair/",
         "/service-areas/crane-tx/ceiling-water-damage-repair/",
@@ -2080,8 +2096,6 @@
         "/service-areas/crane-tx/water-heater-flood-cleanup/",
         "/service-areas/crane-tx/water-leak-detection/",
         "/service-areas/crane-tx/air-duct-cleaning/",
-        "/service-areas/crane-tx/air-duct-hvac-cleaning/",
-        "/service-areas/crane-tx/carpet-upholstery-cleaning/",
         "/service-areas/crane-tx/junk-debris-removal/",
         "/service-areas/crane-tx/carpet-cleaning/",
         "/service-areas/crane-tx/tile-grout-cleaning/",
@@ -2133,7 +2147,6 @@
         "/service-areas/monahans-tx/sewage-cleanup/",
         "/service-areas/monahans-tx/smoke-damage-restoration/",
         "/service-areas/monahans-tx/storm-damage-restoration/",
-        "/service-areas/monahans-tx/water-cleanup/",
         "/service-areas/monahans-tx/basement-flooding-cleanup/",
         "/service-areas/monahans-tx/burst-pipe-repair/",
         "/service-areas/monahans-tx/ceiling-water-damage-repair/",
@@ -2144,8 +2157,6 @@
         "/service-areas/monahans-tx/water-heater-flood-cleanup/",
         "/service-areas/monahans-tx/water-leak-detection/",
         "/service-areas/monahans-tx/air-duct-cleaning/",
-        "/service-areas/monahans-tx/air-duct-hvac-cleaning/",
-        "/service-areas/monahans-tx/carpet-upholstery-cleaning/",
         "/service-areas/monahans-tx/junk-debris-removal/",
         "/service-areas/monahans-tx/carpet-cleaning/",
         "/service-areas/monahans-tx/tile-grout-cleaning/",
@@ -2197,7 +2208,6 @@
         "/service-areas/mccamey-tx/sewage-cleanup/",
         "/service-areas/mccamey-tx/smoke-damage-restoration/",
         "/service-areas/mccamey-tx/storm-damage-restoration/",
-        "/service-areas/mccamey-tx/water-cleanup/",
         "/service-areas/mccamey-tx/basement-flooding-cleanup/",
         "/service-areas/mccamey-tx/burst-pipe-repair/",
         "/service-areas/mccamey-tx/ceiling-water-damage-repair/",
@@ -2208,8 +2218,6 @@
         "/service-areas/mccamey-tx/water-heater-flood-cleanup/",
         "/service-areas/mccamey-tx/water-leak-detection/",
         "/service-areas/mccamey-tx/air-duct-cleaning/",
-        "/service-areas/mccamey-tx/air-duct-hvac-cleaning/",
-        "/service-areas/mccamey-tx/carpet-upholstery-cleaning/",
         "/service-areas/mccamey-tx/junk-debris-removal/",
         "/service-areas/mccamey-tx/carpet-cleaning/",
         "/service-areas/mccamey-tx/tile-grout-cleaning/",
@@ -2261,7 +2269,6 @@
         "/service-areas/southwest-sandhill-tx/sewage-cleanup/",
         "/service-areas/southwest-sandhill-tx/smoke-damage-restoration/",
         "/service-areas/southwest-sandhill-tx/storm-damage-restoration/",
-        "/service-areas/southwest-sandhill-tx/water-cleanup/",
         "/service-areas/southwest-sandhill-tx/basement-flooding-cleanup/",
         "/service-areas/southwest-sandhill-tx/burst-pipe-repair/",
         "/service-areas/southwest-sandhill-tx/ceiling-water-damage-repair/",
@@ -2272,8 +2279,6 @@
         "/service-areas/southwest-sandhill-tx/water-heater-flood-cleanup/",
         "/service-areas/southwest-sandhill-tx/water-leak-detection/",
         "/service-areas/southwest-sandhill-tx/air-duct-cleaning/",
-        "/service-areas/southwest-sandhill-tx/air-duct-hvac-cleaning/",
-        "/service-areas/southwest-sandhill-tx/carpet-upholstery-cleaning/",
         "/service-areas/southwest-sandhill-tx/junk-debris-removal/",
         "/service-areas/southwest-sandhill-tx/carpet-cleaning/",
         "/service-areas/southwest-sandhill-tx/tile-grout-cleaning/",
@@ -2325,7 +2330,6 @@
         "/service-areas/big-lake-tx/sewage-cleanup/",
         "/service-areas/big-lake-tx/smoke-damage-restoration/",
         "/service-areas/big-lake-tx/storm-damage-restoration/",
-        "/service-areas/big-lake-tx/water-cleanup/",
         "/service-areas/big-lake-tx/basement-flooding-cleanup/",
         "/service-areas/big-lake-tx/burst-pipe-repair/",
         "/service-areas/big-lake-tx/ceiling-water-damage-repair/",
@@ -2336,8 +2340,6 @@
         "/service-areas/big-lake-tx/water-heater-flood-cleanup/",
         "/service-areas/big-lake-tx/water-leak-detection/",
         "/service-areas/big-lake-tx/air-duct-cleaning/",
-        "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-        "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
         "/service-areas/big-lake-tx/junk-debris-removal/",
         "/service-areas/big-lake-tx/carpet-cleaning/",
         "/service-areas/big-lake-tx/tile-grout-cleaning/",
@@ -2389,7 +2391,6 @@
         "/service-areas/imperial-tx/sewage-cleanup/",
         "/service-areas/imperial-tx/smoke-damage-restoration/",
         "/service-areas/imperial-tx/storm-damage-restoration/",
-        "/service-areas/imperial-tx/water-cleanup/",
         "/service-areas/imperial-tx/basement-flooding-cleanup/",
         "/service-areas/imperial-tx/burst-pipe-repair/",
         "/service-areas/imperial-tx/ceiling-water-damage-repair/",
@@ -2400,8 +2401,6 @@
         "/service-areas/imperial-tx/water-heater-flood-cleanup/",
         "/service-areas/imperial-tx/water-leak-detection/",
         "/service-areas/imperial-tx/air-duct-cleaning/",
-        "/service-areas/imperial-tx/air-duct-hvac-cleaning/",
-        "/service-areas/imperial-tx/carpet-upholstery-cleaning/",
         "/service-areas/imperial-tx/junk-debris-removal/",
         "/service-areas/imperial-tx/carpet-cleaning/",
         "/service-areas/imperial-tx/tile-grout-cleaning/",
@@ -2495,6 +2494,49 @@
         "/service-areas/odessa-tx/mold-remediation/",
         "/service-areas/andrews-tx/carpet-cleaning/",
         "/service-areas/big-lake-tx/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/odessa-tx/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Removal & Cleanup in Odessa, TX | ACS Enterprise",
+      "h1": "Water Removal & Cleanup in Odessa",
+      "meta_description": "Water removal & cleanup in Odessa, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "emergency water removal & cleanup odessa",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/odessa-tx/",
+        "/service-areas/odessa-tx/fire-damage-restoration/",
+        "/service-areas/odessa-tx/mold-remediation/",
+        "/service-areas/andrews-tx/emergency-water-removal/",
+        "/service-areas/big-lake-tx/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -3506,6 +3548,49 @@
       ]
     },
     {
+      "url_path": "/service-areas/big-spring-tx/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Removal & Cleanup in Big Spring, TX | ACS Enterprise",
+      "h1": "Water Removal & Cleanup in Big Spring",
+      "meta_description": "Water removal & cleanup in Big Spring, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "emergency water removal & cleanup big spring",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/big-spring-tx/",
+        "/service-areas/big-spring-tx/fire-damage-restoration/",
+        "/service-areas/big-spring-tx/mold-remediation/",
+        "/service-areas/andrews-tx/emergency-water-removal/",
+        "/service-areas/big-lake-tx/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/big-spring-tx/junk-debris-removal/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4509,6 +4594,49 @@
         "/service-areas/stanton-tx/mold-remediation/",
         "/service-areas/andrews-tx/carpet-cleaning/",
         "/service-areas/big-lake-tx/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/stanton-tx/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Removal & Cleanup in Stanton, TX | ACS Enterprise",
+      "h1": "Water Removal & Cleanup in Stanton",
+      "meta_description": "Water removal & cleanup in Stanton, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "emergency water removal & cleanup stanton",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/stanton-tx/",
+        "/service-areas/stanton-tx/fire-damage-restoration/",
+        "/service-areas/stanton-tx/mold-remediation/",
+        "/service-areas/andrews-tx/emergency-water-removal/",
+        "/service-areas/big-lake-tx/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -5520,6 +5648,49 @@
       ]
     },
     {
+      "url_path": "/service-areas/andrews-tx/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Removal & Cleanup in Andrews, TX | ACS Enterprise",
+      "h1": "Water Removal & Cleanup in Andrews",
+      "meta_description": "Water removal & cleanup in Andrews, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "emergency water removal & cleanup andrews",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/andrews-tx/",
+        "/service-areas/andrews-tx/fire-damage-restoration/",
+        "/service-areas/andrews-tx/mold-remediation/",
+        "/service-areas/big-lake-tx/emergency-water-removal/",
+        "/service-areas/big-spring-tx/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/andrews-tx/junk-debris-removal/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6523,6 +6694,49 @@
         "/service-areas/gardendale-tx/mold-remediation/",
         "/service-areas/andrews-tx/carpet-cleaning/",
         "/service-areas/big-lake-tx/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gardendale-tx/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Removal & Cleanup in Gardendale, TX | ACS Enterprise",
+      "h1": "Water Removal & Cleanup in Gardendale",
+      "meta_description": "Water removal & cleanup in Gardendale, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "emergency water removal & cleanup gardendale",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/gardendale-tx/",
+        "/service-areas/gardendale-tx/fire-damage-restoration/",
+        "/service-areas/gardendale-tx/mold-remediation/",
+        "/service-areas/andrews-tx/emergency-water-removal/",
+        "/service-areas/big-lake-tx/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -7534,6 +7748,49 @@
       ]
     },
     {
+      "url_path": "/service-areas/greenwood-tx/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Removal & Cleanup in Greenwood, TX | ACS Enterprise",
+      "h1": "Water Removal & Cleanup in Greenwood",
+      "meta_description": "Water removal & cleanup in Greenwood, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "emergency water removal & cleanup greenwood",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/greenwood-tx/",
+        "/service-areas/greenwood-tx/fire-damage-restoration/",
+        "/service-areas/greenwood-tx/mold-remediation/",
+        "/service-areas/andrews-tx/emergency-water-removal/",
+        "/service-areas/big-lake-tx/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/greenwood-tx/junk-debris-removal/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8537,6 +8794,49 @@
         "/service-areas/goldsmith-tx/mold-remediation/",
         "/service-areas/andrews-tx/carpet-cleaning/",
         "/service-areas/big-lake-tx/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/goldsmith-tx/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Removal & Cleanup in Goldsmith, TX | ACS Enterprise",
+      "h1": "Water Removal & Cleanup in Goldsmith",
+      "meta_description": "Water removal & cleanup in Goldsmith, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "emergency water removal & cleanup goldsmith",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/goldsmith-tx/",
+        "/service-areas/goldsmith-tx/fire-damage-restoration/",
+        "/service-areas/goldsmith-tx/mold-remediation/",
+        "/service-areas/andrews-tx/emergency-water-removal/",
+        "/service-areas/big-lake-tx/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -9548,6 +9848,49 @@
       ]
     },
     {
+      "url_path": "/service-areas/west-odessa-tx/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Removal & Cleanup in West Odessa, TX | ACS Enterprise",
+      "h1": "Water Removal & Cleanup in West Odessa",
+      "meta_description": "Water removal & cleanup in West Odessa, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "emergency water removal & cleanup west odessa",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/west-odessa-tx/",
+        "/service-areas/west-odessa-tx/fire-damage-restoration/",
+        "/service-areas/west-odessa-tx/mold-remediation/",
+        "/service-areas/andrews-tx/emergency-water-removal/",
+        "/service-areas/big-lake-tx/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/west-odessa-tx/junk-debris-removal/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10551,6 +10894,49 @@
         "/service-areas/garden-city-tx/mold-remediation/",
         "/service-areas/andrews-tx/carpet-cleaning/",
         "/service-areas/big-lake-tx/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/garden-city-tx/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Removal & Cleanup in Garden City, TX | ACS Enterprise",
+      "h1": "Water Removal & Cleanup in Garden City",
+      "meta_description": "Water removal & cleanup in Garden City, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "emergency water removal & cleanup garden city",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/garden-city-tx/",
+        "/service-areas/garden-city-tx/fire-damage-restoration/",
+        "/service-areas/garden-city-tx/mold-remediation/",
+        "/service-areas/andrews-tx/emergency-water-removal/",
+        "/service-areas/big-lake-tx/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -11562,6 +11948,49 @@
       ]
     },
     {
+      "url_path": "/service-areas/crane-tx/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Removal & Cleanup in Crane, TX | ACS Enterprise",
+      "h1": "Water Removal & Cleanup in Crane",
+      "meta_description": "Water removal & cleanup in Crane, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "emergency water removal & cleanup crane",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/crane-tx/",
+        "/service-areas/crane-tx/fire-damage-restoration/",
+        "/service-areas/crane-tx/mold-remediation/",
+        "/service-areas/andrews-tx/emergency-water-removal/",
+        "/service-areas/big-lake-tx/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/crane-tx/junk-debris-removal/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12565,6 +12994,49 @@
         "/service-areas/monahans-tx/mold-remediation/",
         "/service-areas/andrews-tx/carpet-cleaning/",
         "/service-areas/big-lake-tx/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/monahans-tx/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Removal & Cleanup in Monahans, TX | ACS Enterprise",
+      "h1": "Water Removal & Cleanup in Monahans",
+      "meta_description": "Water removal & cleanup in Monahans, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "emergency water removal & cleanup monahans",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/monahans-tx/",
+        "/service-areas/monahans-tx/fire-damage-restoration/",
+        "/service-areas/monahans-tx/mold-remediation/",
+        "/service-areas/andrews-tx/emergency-water-removal/",
+        "/service-areas/big-lake-tx/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -13576,6 +14048,49 @@
       ]
     },
     {
+      "url_path": "/service-areas/mccamey-tx/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Removal & Cleanup in McCamey, TX | ACS Enterprise",
+      "h1": "Water Removal & Cleanup in McCamey",
+      "meta_description": "Water removal & cleanup in McCamey, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "emergency water removal & cleanup mccamey",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/mccamey-tx/",
+        "/service-areas/mccamey-tx/fire-damage-restoration/",
+        "/service-areas/mccamey-tx/mold-remediation/",
+        "/service-areas/andrews-tx/emergency-water-removal/",
+        "/service-areas/big-lake-tx/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/mccamey-tx/junk-debris-removal/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14579,6 +15094,49 @@
         "/service-areas/southwest-sandhill-tx/mold-remediation/",
         "/service-areas/andrews-tx/carpet-cleaning/",
         "/service-areas/big-lake-tx/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/southwest-sandhill-tx/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Removal & Cleanup in Southwest Sandhill, TX | ACS Enterprise",
+      "h1": "Water Removal & Cleanup in Southwest Sandhill",
+      "meta_description": "Water removal & cleanup in Southwest Sandhill, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "emergency water removal & cleanup southwest sandhill",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/southwest-sandhill-tx/",
+        "/service-areas/southwest-sandhill-tx/fire-damage-restoration/",
+        "/service-areas/southwest-sandhill-tx/mold-remediation/",
+        "/service-areas/andrews-tx/emergency-water-removal/",
+        "/service-areas/big-lake-tx/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -15590,6 +16148,49 @@
       ]
     },
     {
+      "url_path": "/service-areas/big-lake-tx/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Removal & Cleanup in Big Lake, TX | ACS Enterprise",
+      "h1": "Water Removal & Cleanup in Big Lake",
+      "meta_description": "Water removal & cleanup in Big Lake, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "emergency water removal & cleanup big lake",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/big-lake-tx/",
+        "/service-areas/big-lake-tx/fire-damage-restoration/",
+        "/service-areas/big-lake-tx/mold-remediation/",
+        "/service-areas/andrews-tx/emergency-water-removal/",
+        "/service-areas/big-spring-tx/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/big-lake-tx/junk-debris-removal/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -16593,6 +17194,49 @@
         "/service-areas/imperial-tx/mold-remediation/",
         "/service-areas/andrews-tx/carpet-cleaning/",
         "/service-areas/big-lake-tx/carpet-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/imperial-tx/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Removal & Cleanup in Imperial, TX | ACS Enterprise",
+      "h1": "Water Removal & Cleanup in Imperial",
+      "meta_description": "Water removal & cleanup in Imperial, TX. Insurance billing accepted. Call (432) 847-4704.",
+      "primary_keyword": "emergency water removal & cleanup imperial",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/imperial-tx/",
+        "/service-areas/imperial-tx/fire-damage-restoration/",
+        "/service-areas/imperial-tx/mold-remediation/",
+        "/service-areas/andrews-tx/emergency-water-removal/",
+        "/service-areas/big-lake-tx/emergency-water-removal/",
         "/contact/"
       ]
     },

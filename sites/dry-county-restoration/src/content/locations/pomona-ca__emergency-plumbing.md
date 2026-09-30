@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "0c077fe970a91eb6"
-generated_at: "2026-09-30T14:12:09.787137+00:00"
+generated_at: "2026-09-30T18:41:21.639104+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/pomona-ca/", "/service-areas/pomona-ca/fire-damage-restoration/", "/service-areas/pomona-ca/mold-remediation/", "/service-areas/anaheim-ca/emergency-plumbing/", "/service-areas/chino-ca/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pomona", "url": "/service-areas/pomona-ca/"}, {"name": "Emergency Plumbing"}]

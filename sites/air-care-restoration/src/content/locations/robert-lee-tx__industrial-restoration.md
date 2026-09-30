@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "e4dee0c6f78250b7"
-generated_at: "2026-09-30T14:12:01.770783+00:00"
+generated_at: "2026-09-30T18:41:08.973794+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/robert-lee-tx/", "/service-areas/robert-lee-tx/fire-damage-restoration/", "/service-areas/robert-lee-tx/mold-remediation/", "/service-areas/albany-tx/industrial-restoration/", "/service-areas/anson-tx/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Robert Lee", "url": "/service-areas/robert-lee-tx/"}, {"name": "industrial-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "88d7429360981305"
-generated_at: "2026-09-30T14:12:01.815140+00:00"
+generated_at: "2026-09-30T18:41:09.047233+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/baird-tx/", "/service-areas/baird-tx/fire-damage-restoration/", "/service-areas/baird-tx/mold-remediation/", "/service-areas/albany-tx/reconstruction/", "/service-areas/anson-tx/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Baird", "url": "/service-areas/baird-tx/"}, {"name": "reconstruction"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "28fbe276a8a365c5"
-generated_at: "2026-09-30T14:12:07.162865+00:00"
+generated_at: "2026-09-30T18:41:19.874104+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/sharpsville-pa/", "/service-areas/sharpsville-pa/fire-damage-restoration/", "/service-areas/sharpsville-pa/mold-remediation/", "/service-areas/austintown-oh/water-heater-flood-cleanup/", "/service-areas/boardman-oh/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sharpsville", "url": "/service-areas/sharpsville-pa/"}, {"name": "water-heater-flood-cleanup"}]

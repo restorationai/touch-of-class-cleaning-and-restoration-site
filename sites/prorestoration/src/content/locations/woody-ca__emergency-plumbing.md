@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "28f6ab3e22af61a7"
-generated_at: "2026-09-30T14:12:23.088343+00:00"
+generated_at: "2026-09-30T18:41:52.116251+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/woody-ca/", "/service-areas/woody-ca/fire-damage-restoration/", "/service-areas/woody-ca/home-remodeling/", "/service-areas/arvin-ca/emergency-plumbing/", "/service-areas/bear-valley-springs-ca/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woody", "url": "/service-areas/woody-ca/"}, {"name": "Emergency Plumbing"}]

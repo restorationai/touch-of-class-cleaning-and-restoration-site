@@ -1,6 +1,31 @@
 {
   "slug": "arch-enviornmental-group-llc",
   "assets": {
+    "gbp:gbp-AF1QipMaoLUWkMueci2hfb4iIhcPPR3CS4j8Apj1a4BN": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMaoLUWkMueci2hfb4iIhcPPR3CS4j8Apj1a4BN.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788198240333/job-photos/posted/gbp-AF1QipMaoLUWkMueci2hfb4iIhcPPR3CS4j8Apj1a4BN.jpg",
+      "width": 1280,
+      "height": 720,
+      "bytes": 48729,
+      "sha1": "bd7ef1fb07c43528",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Company logo lockup with arch graphic and text",
+      "quality": 60,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "logo_card"
+      ],
+      "reason": "Pure logo graphic, not a photograph, unusable for job slots.",
+      "triaged_at": "2026-09-30T18:47:39Z",
+      "triage_model": "claude-sonnet-5"
+    },
     "gbp:gbp-AF1QipP_oOaq_QKclHVY_CyyHUCdSM40YaPiLMwkcI2L": {
       "source": "gbp",
       "storage": "job-photos/posted/r1788980393_gbp-AF1QipP_oOaq_QKclHVY_CyyHUCdSM40YaPiLMwkcI2L.jpg",
@@ -560,5 +585,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-24T16:07:12Z"
+  "triaged_at": "2026-09-30T18:47:39Z"
 }

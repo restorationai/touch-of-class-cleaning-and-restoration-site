@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "1928a1e77e63a96c"
-generated_at: "2026-09-30T14:12:13.001467+00:00"
+generated_at: "2026-09-30T18:41:37.781993+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/wade-ms/", "/service-areas/wade-ms/fire-damage-restoration/", "/service-areas/wade-ms/mold-remediation/", "/service-areas/agricola-ms/roofing/", "/service-areas/bay-st-louis-ms/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wade", "url": "/service-areas/wade-ms/"}, {"name": "Roofing Installation and Replacement"}]

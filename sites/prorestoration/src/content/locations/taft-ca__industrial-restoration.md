@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "43ad39e9220a5d7e"
-generated_at: "2026-09-30T14:12:22.981564+00:00"
+generated_at: "2026-09-30T18:41:52.021297+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/taft-ca/", "/service-areas/taft-ca/fire-damage-restoration/", "/service-areas/taft-ca/home-remodeling/", "/service-areas/arvin-ca/industrial-restoration/", "/service-areas/bear-valley-springs-ca/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Taft", "url": "/service-areas/taft-ca/"}, {"name": "industrial-restoration"}]

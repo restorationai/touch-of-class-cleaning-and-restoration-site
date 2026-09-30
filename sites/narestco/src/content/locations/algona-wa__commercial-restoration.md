@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "c7fde34800bf8774"
-generated_at: "2026-09-30T14:12:21.474880+00:00"
+generated_at: "2026-09-30T18:41:50.457921+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/algona-wa/", "/service-areas/algona-wa/fire-damage-restoration/", "/service-areas/algona-wa/mold-remediation/", "/service-areas/auburn-wa/commercial-restoration/", "/service-areas/bellevue-wa/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Algona", "url": "/service-areas/algona-wa/"}, {"name": "Commercial Restoration"}]

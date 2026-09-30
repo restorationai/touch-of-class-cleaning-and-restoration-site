@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "702a81cc7c4549d6"
-generated_at: "2026-09-30T14:12:14.542769+00:00"
+generated_at: "2026-09-30T18:41:40.210834+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/american-fork-ut/", "/service-areas/american-fork-ut/fire-damage-restoration/", "/service-areas/american-fork-ut/mold-remediation/", "/service-areas/alpine-ut/ceiling-water-damage-repair/", "/service-areas/benjamin-ut/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "American Fork", "url": "/service-areas/american-fork-ut/"}, {"name": "ceiling-water-damage-repair"}]

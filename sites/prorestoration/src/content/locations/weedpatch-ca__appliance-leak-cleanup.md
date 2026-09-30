@@ -8,7 +8,7 @@ secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrig
 search_intent: "local_emergency"
 priority: 4.2
 plan_hash: "d4a061877b78c912"
-generated_at: "2026-09-30T14:12:23.033362+00:00"
+generated_at: "2026-09-30T18:41:52.066197+00:00"
 manual_override: false
 internal_links: ["/services/appliance-leak-cleanup/", "/service-areas/weedpatch-ca/", "/service-areas/weedpatch-ca/fire-damage-restoration/", "/service-areas/weedpatch-ca/home-remodeling/", "/service-areas/arvin-ca/appliance-leak-cleanup/", "/service-areas/bear-valley-springs-ca/appliance-leak-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Weedpatch", "url": "/service-areas/weedpatch-ca/"}, {"name": "Appliance Leak Cleanup"}]

@@ -158,6 +158,16 @@
     ],
     "missing_stubs": []
   },
+  "/services/emergency-water-removal/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/services/fire-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
@@ -647,6 +657,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/oildale-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/oildale-ca/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -938,6 +958,16 @@
     "missing_stubs": []
   },
   "/service-areas/rosedale-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rosedale-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1247,6 +1277,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/delano-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/delano-ca/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1538,6 +1578,16 @@
     "missing_stubs": []
   },
   "/service-areas/shafter-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/shafter-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1847,6 +1897,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/wasco-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/wasco-ca/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2138,6 +2198,16 @@
     "missing_stubs": []
   },
   "/service-areas/taft-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/taft-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2447,6 +2517,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/tehachapi-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/tehachapi-ca/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2738,6 +2818,16 @@
     "missing_stubs": []
   },
   "/service-areas/arvin-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/arvin-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3047,6 +3137,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/lamont-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/lamont-ca/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3338,6 +3438,16 @@
     "missing_stubs": []
   },
   "/service-areas/lake-isabella-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/lake-isabella-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3647,6 +3757,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/east-niles-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/east-niles-ca/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3938,6 +4058,16 @@
     "missing_stubs": []
   },
   "/service-areas/tarina-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/tarina-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4247,6 +4377,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/weedpatch-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/weedpatch-ca/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4538,6 +4678,16 @@
     "missing_stubs": []
   },
   "/service-areas/buttonwillow-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/buttonwillow-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4847,6 +4997,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/dustin-acres-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/dustin-acres-ca/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5138,6 +5298,16 @@
     "missing_stubs": []
   },
   "/service-areas/mcfarland-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/mcfarland-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5447,6 +5617,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/valley-acres-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/valley-acres-ca/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5738,6 +5918,16 @@
     "missing_stubs": []
   },
   "/service-areas/woody-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/woody-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6047,6 +6237,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/bear-valley-springs-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/bear-valley-springs-ca/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6347,6 +6547,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/keene-ca/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/keene-ca/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6638,6 +6848,16 @@
     "missing_stubs": []
   },
   "/service-areas/maricopa-ca/emergency-plumbing/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/maricopa-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "e0c4fccdfb98ef19"
-generated_at: "2026-09-30T14:12:14.563061+00:00"
+generated_at: "2026-09-30T18:41:40.234896+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/south-jordan-ut/", "/service-areas/south-jordan-ut/fire-damage-restoration/", "/service-areas/south-jordan-ut/mold-remediation/", "/service-areas/alpine-ut/emergency-board-up-tarping/", "/service-areas/american-fork-ut/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "South Jordan", "url": "/service-areas/south-jordan-ut/"}, {"name": "Emergency Board-Up and Tarping"}]

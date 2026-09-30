@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "43737c707a7516dc"
-generated_at: "2026-09-29T14:31:48.358678+00:00"
+generated_at: "2026-09-30T18:41:22.698142+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/fremont-ca/", "/service-areas/fremont-ca/fire-damage-restoration/", "/service-areas/fremont-ca/mold-remediation/", "/service-areas/berkeley-ca/smoke-damage-restoration/", "/service-areas/carlsbad-ca/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fremont", "url": "/service-areas/fremont-ca/"}, {"name": "smoke-damage-restoration"}]

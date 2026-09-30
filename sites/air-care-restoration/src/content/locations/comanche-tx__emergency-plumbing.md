@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "f27f9a8e8203b45d"
-generated_at: "2026-09-30T14:12:01.807227+00:00"
+generated_at: "2026-09-30T18:41:09.034352+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/comanche-tx/", "/service-areas/comanche-tx/fire-damage-restoration/", "/service-areas/comanche-tx/mold-remediation/", "/service-areas/albany-tx/emergency-plumbing/", "/service-areas/anson-tx/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Comanche", "url": "/service-areas/comanche-tx/"}, {"name": "emergency-plumbing"}]

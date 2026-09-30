@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "d7a21b858c0d6be2"
-generated_at: "2026-09-30T14:12:02.648982+00:00"
+generated_at: "2026-09-30T18:41:10.046387+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/garden-city-tx/", "/service-areas/garden-city-tx/fire-damage-restoration/", "/service-areas/garden-city-tx/mold-remediation/", "/service-areas/andrews-tx/general-contracting/", "/service-areas/big-lake-tx/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Garden City", "url": "/service-areas/garden-city-tx/"}, {"name": "general-contracting"}]

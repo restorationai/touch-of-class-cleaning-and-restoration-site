@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "e3a66ba4db7eae39"
-generated_at: "2026-09-30T14:12:12.956416+00:00"
+generated_at: "2026-09-30T18:41:37.728789+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/escatawpa-ms/", "/service-areas/escatawpa-ms/fire-damage-restoration/", "/service-areas/escatawpa-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-plumbing/", "/service-areas/bay-st-louis-ms/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Escatawpa", "url": "/service-areas/escatawpa-ms/"}, {"name": "emergency-plumbing"}]

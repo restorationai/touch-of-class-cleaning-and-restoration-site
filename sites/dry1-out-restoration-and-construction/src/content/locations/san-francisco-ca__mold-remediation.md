@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "ff10cfb903e43fda"
-generated_at: "2026-09-29T14:31:48.332514+00:00"
+generated_at: "2026-09-30T18:41:22.668579+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/san-francisco-ca/", "/service-areas/san-francisco-ca/fire-damage-restoration/", "/service-areas/san-francisco-ca/water-damage-restoration/", "/service-areas/berkeley-ca/mold-remediation/", "/service-areas/carlsbad-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Francisco", "url": "/service-areas/san-francisco-ca/"}, {"name": "Mold Remediation"}]

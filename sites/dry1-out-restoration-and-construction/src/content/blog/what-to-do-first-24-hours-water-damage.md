@@ -8,12 +8,12 @@ secondary_keywords: ["water damage restoration"]
 search_intent: "informational_emergency"
 priority: 6.0
 plan_hash: "d7733d880b96dfb0"
-generated_at: "2026-09-29T14:31:48.464122+00:00"
+generated_at: "2026-09-30T18:41:22.815155+00:00"
 manual_override: false
 internal_links: ["/blog/", "/services/water-damage-restoration/", "/blog/burst-pipe-emergency-checklist/", "/blog/choosing-a-restoration-company/", "/blog/does-homeowners-insurance-cover-water-damage/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Blog", "url": "/blog/"}, {"name": "What To Do in the First 24 Hours After Water Damage"}]
 faq: []
-published_at: "2026-09-26"
+published_at: "2026-09-27"
 services: ["water-damage-restoration"]
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug dry1-out-restoration-and-construction` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->

@@ -1,21 +1,21 @@
 # Site Plan Report — Life Savers Restoration LLC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-23T14:11:50.304634+00:00
+- Generated: 2026-09-30T18:41:45.454364+00:00
 - Domain: `lifesaversrestorationvegas.com`
-- Services selected: 10 of 65 catalog entries
+- Services selected: 23 of 91 catalog entries
 - Service areas: 20
 - Cross-product enabled: True
-- Total URLs: **236**
-- Total internal links: 1884 (avg 8.0 per page)
+- Total URLs: **496**
+- Total internal links: 4072 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 190 |
+| `service-area-service` | 437 |
+| `service-landing` | 23 |
 | `service-area` | 19 |
-| `service-landing` | 10 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -29,14 +29,27 @@
 
 - `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
 - `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
-- `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `mold-remediation` — Mold Remediation (core, priority 10)
 - `odor-removal` — Odor Removal and Deodorization (specialty, priority 7)
 - `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
-- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
+- `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
+- `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
+- `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
+- `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
+- `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
+- `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
+- `commercial-restoration` — Commercial Restoration (core, priority 9)
+- `industrial-restoration` — Industrial Restoration (core, priority 7)
+- `reconstruction` — Reconstruction Services (core, priority 9)
+- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
+- `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
+- `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
+- `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
+- `water-leak-detection` — Water Leak Detection (core, priority 7)
+- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 
 ## Service areas
 
@@ -68,13 +81,13 @@
 | `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration henderson |
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation henderson |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration henderson |
+| `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration henderson |
+| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing henderson |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup henderson |
+| `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration henderson |
+| `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services henderson |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization henderson |
-| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration henderson |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup henderson |
-| `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup henderson |
-| `/service-areas/blue-diamond-nv/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration blue diamond |
-| `/service-areas/blue-diamond-nv/mold-remediation/` | `service-area-service` | 7.0 | mold remediation blue diamond |
-| `/service-areas/blue-diamond-nv/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration blue diamond |
+| `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration henderson |
 
 ## Validation
 

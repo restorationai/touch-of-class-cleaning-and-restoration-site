@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "8bc91536fa5b81ab"
-generated_at: "2026-09-30T14:12:01.806958+00:00"
+generated_at: "2026-09-30T18:41:09.034063+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/comanche-tx/", "/service-areas/comanche-tx/fire-damage-restoration/", "/service-areas/comanche-tx/mold-remediation/", "/service-areas/albany-tx/water-leak-detection/", "/service-areas/anson-tx/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Comanche", "url": "/service-areas/comanche-tx/"}, {"name": "water-leak-detection"}]

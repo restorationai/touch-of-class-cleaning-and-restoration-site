@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "86f2df83302a665a"
-generated_at: "2026-09-30T14:12:21.410315+00:00"
+generated_at: "2026-09-30T18:41:50.406320+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/gig-harbor-wa/", "/service-areas/gig-harbor-wa/fire-damage-restoration/", "/service-areas/gig-harbor-wa/mold-remediation/", "/service-areas/algona-wa/emergency-board-up-tarping/", "/service-areas/auburn-wa/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gig Harbor", "url": "/service-areas/gig-harbor-wa/"}, {"name": "Emergency Board-Up and Tarping"}]

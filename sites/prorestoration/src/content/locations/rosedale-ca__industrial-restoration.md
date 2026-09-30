@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "7de6674a83c6d197"
-generated_at: "2026-09-30T14:12:22.954101+00:00"
+generated_at: "2026-09-30T18:41:51.997504+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/rosedale-ca/", "/service-areas/rosedale-ca/fire-damage-restoration/", "/service-areas/rosedale-ca/home-remodeling/", "/service-areas/arvin-ca/industrial-restoration/", "/service-areas/bear-valley-springs-ca/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rosedale", "url": "/service-areas/rosedale-ca/"}, {"name": "industrial-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "853534a0d3b2a56b"
-generated_at: "2026-09-30T14:12:25.955142+00:00"
+generated_at: "2026-09-30T18:41:54.657467+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/natick-ma/", "/service-areas/natick-ma/fire-damage-restoration/", "/service-areas/natick-ma/mold-remediation/", "/service-areas/bellingham-ma/mold-inspection-testing/", "/service-areas/east-douglas-ma/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Natick", "url": "/service-areas/natick-ma/"}, {"name": "mold-inspection-testing"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "7680e74efbcf8dc3"
-generated_at: "2026-09-30T14:12:01.791609+00:00"
+generated_at: "2026-09-30T18:41:09.008246+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/ballinger-tx/", "/service-areas/ballinger-tx/fire-damage-restoration/", "/service-areas/ballinger-tx/mold-remediation/", "/service-areas/albany-tx/reconstruction/", "/service-areas/anson-tx/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ballinger", "url": "/service-areas/ballinger-tx/"}, {"name": "reconstruction"}]

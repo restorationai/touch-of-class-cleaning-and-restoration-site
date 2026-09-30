@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "859eb9f7da6a63a7"
-generated_at: "2026-09-28T20:50:26.598352+00:00"
+generated_at: "2026-09-30T18:41:56.119836+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/winchester-nv/", "/service-areas/winchester-nv/fire-damage-restoration/", "/service-areas/winchester-nv/mold-remediation/", "/service-areas/blue-diamond-nv/commercial-restoration/", "/service-areas/boulder-city-nv/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Winchester", "url": "/service-areas/winchester-nv/"}, {"name": "commercial-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "17dab81df310db55"
-generated_at: "2026-09-30T14:12:19.436733+00:00"
+generated_at: "2026-09-30T18:41:44.200930+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/whitehall-pa/", "/service-areas/whitehall-pa/roofing/", "/service-areas/whitehall-pa/sewage-cleanup/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/service-areas/baldwin-pa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Whitehall", "url": "/service-areas/whitehall-pa/"}, {"name": "Fire Damage Restoration"}]

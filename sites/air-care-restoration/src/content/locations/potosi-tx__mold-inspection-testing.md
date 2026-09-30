@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "7da766ab0f72c62c"
-generated_at: "2026-09-30T14:12:01.808955+00:00"
+generated_at: "2026-09-30T18:41:09.036705+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/potosi-tx/", "/service-areas/potosi-tx/fire-damage-restoration/", "/service-areas/potosi-tx/mold-remediation/", "/service-areas/albany-tx/mold-inspection-testing/", "/service-areas/anson-tx/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Potosi", "url": "/service-areas/potosi-tx/"}, {"name": "mold-inspection-testing"}]

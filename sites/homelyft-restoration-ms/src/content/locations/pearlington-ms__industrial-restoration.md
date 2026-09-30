@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "517f12f835f8c360"
-generated_at: "2026-09-30T14:12:12.917991+00:00"
+generated_at: "2026-09-30T18:41:37.679840+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/pearlington-ms/", "/service-areas/pearlington-ms/fire-damage-restoration/", "/service-areas/pearlington-ms/mold-remediation/", "/service-areas/agricola-ms/industrial-restoration/", "/service-areas/bay-st-louis-ms/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pearlington", "url": "/service-areas/pearlington-ms/"}, {"name": "industrial-restoration"}]

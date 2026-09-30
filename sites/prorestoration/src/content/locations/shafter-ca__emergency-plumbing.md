@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "7e3d41df8369dea5"
-generated_at: "2026-09-30T14:12:22.964536+00:00"
+generated_at: "2026-09-30T18:41:52.006371+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/shafter-ca/", "/service-areas/shafter-ca/fire-damage-restoration/", "/service-areas/shafter-ca/home-remodeling/", "/service-areas/arvin-ca/emergency-plumbing/", "/service-areas/bear-valley-springs-ca/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Shafter", "url": "/service-areas/shafter-ca/"}, {"name": "Emergency Plumbing"}]

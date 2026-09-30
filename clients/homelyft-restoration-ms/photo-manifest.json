@@ -752,6 +752,32 @@
       "triaged_at": "2026-08-05T06:58:42Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMQLEeUH4doqiSovU4X3zI9Z0IPXocMtG9rjsHm": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMQLEeUH4doqiSovU4X3zI9Z0IPXocMtG9rjsHm.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785514205030/job-photos/posted/gbp-AF1QipMQLEeUH4doqiSovU4X3zI9Z0IPXocMtG9rjsHm.jpg",
+      "width": 1920,
+      "height": 2560,
+      "bytes": 527937,
+      "sha1": "f1120a16b6570c53",
+      "exif": {},
+      "category": "equipment",
+      "subject": "Air movers and dehumidifier set up in home interior",
+      "quality": 70,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 75
+      },
+      "service_slugs": [
+        "water-damage-restoration",
+        "emergency-water-removal"
+      ],
+      "flags": [],
+      "reason": "Clear photo of drying equipment deployed in a residential room.",
+      "triaged_at": "2026-09-30T18:44:18Z",
+      "triage_model": "claude-sonnet-5"
+    },
     "gbp:gbp-AF1QipMQUlHxvzV4vjluq5KzED2rBB4pEgxDEOHB49Mm": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMQUlHxvzV4vjluq5KzED2rBB4pEgxDEOHB49Mm.jpg",
@@ -2190,7 +2216,8 @@
       "flags": [],
       "reason": "Clean equipment shot in tidy room; good services card, weak hero crop.",
       "triaged_at": "2026-08-05T06:59:14Z",
-      "triage_model": "claude-sonnet-4-6"
+      "triage_model": "claude-sonnet-4-6",
+      "duplicate_of": "gbp:gbp-AF1QipMQLEeUH4doqiSovU4X3zI9Z0IPXocMtG9rjsHm"
     },
     "gbp:gbp-AF1QipN7jKEeWUsvSzNuv5KaI99MtO0W1O_c9MWDtzjn": {
       "source": "gbp",
@@ -7281,5 +7308,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-24T17:24:35Z"
+  "triaged_at": "2026-09-30T18:44:18Z"
 }

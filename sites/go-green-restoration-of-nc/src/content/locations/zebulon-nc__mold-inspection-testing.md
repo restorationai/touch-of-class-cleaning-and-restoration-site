@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "cf4498f62b35c1b6"
-generated_at: "2026-09-29T23:13:49.290350+00:00"
+generated_at: "2026-09-30T18:41:33.285832+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/zebulon-nc/", "/service-areas/zebulon-nc/fire-damage-restoration/", "/service-areas/zebulon-nc/mold-remediation/", "/service-areas/archer-lodge-nc/mold-inspection-testing/", "/service-areas/clayton-nc/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Zebulon", "url": "/service-areas/zebulon-nc/"}, {"name": "Mold Inspection and Testing"}]

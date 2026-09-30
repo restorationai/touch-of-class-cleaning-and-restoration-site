@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "1b34ae24f9436108"
-generated_at: "2026-09-29T23:13:48.921700+00:00"
+generated_at: "2026-09-30T18:41:35.575493+00:00"
 manual_override: false
 internal_links: ["/services/job-type-id-basement-remodeling/", "/service-areas/albany-mn/", "/service-areas/albany-mn/fire-damage-restoration/", "/service-areas/albany-mn/mold-remediation/", "/service-areas/avon-mn/job-type-id-basement-remodeling/", "/service-areas/baxter-mn/job-type-id-basement-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Albany", "url": "/service-areas/albany-mn/"}, {"name": "Basement Remodeling"}]

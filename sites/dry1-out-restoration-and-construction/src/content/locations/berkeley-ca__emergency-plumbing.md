@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "4f897b76cab0e1f5"
-generated_at: "2026-09-29T14:31:48.448318+00:00"
+generated_at: "2026-09-30T18:41:22.797148+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/berkeley-ca/", "/service-areas/berkeley-ca/fire-damage-restoration/", "/service-areas/berkeley-ca/mold-remediation/", "/service-areas/carlsbad-ca/emergency-plumbing/", "/service-areas/chula-vista-ca/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Berkeley", "url": "/service-areas/berkeley-ca/"}, {"name": "emergency-plumbing"}]

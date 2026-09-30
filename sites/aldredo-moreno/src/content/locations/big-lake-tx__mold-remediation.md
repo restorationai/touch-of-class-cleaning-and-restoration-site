@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "e27b9e3b8e7dd89f"
-generated_at: "2026-09-30T14:12:02.663436+00:00"
+generated_at: "2026-09-30T18:41:10.072868+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/big-lake-tx/", "/service-areas/big-lake-tx/fire-damage-restoration/", "/service-areas/big-lake-tx/water-damage-restoration/", "/service-areas/andrews-tx/mold-remediation/", "/service-areas/big-spring-tx/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Big Lake", "url": "/service-areas/big-lake-tx/"}, {"name": "mold-remediation"}]

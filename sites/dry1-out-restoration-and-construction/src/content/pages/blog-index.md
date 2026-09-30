@@ -8,7 +8,7 @@ secondary_keywords: ["restoration guides", "damage restoration tips", "restorati
 search_intent: "informational_browse"
 priority: 3.0
 plan_hash: "e7e6d509dfcf3c71"
-generated_at: "2026-09-29T14:31:48.300120+00:00"
+generated_at: "2026-09-30T18:41:22.632248+00:00"
 manual_override: false
 internal_links: ["/", "/blog/burst-pipe-emergency-checklist/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/choosing-a-restoration-company/", "/blog/does-homeowners-insurance-cover-water-damage/", "/blog/fire-damage-restoration-process/", "/blog/how-to-test-for-mold/", "/blog/signs-of-hidden-mold/", "/blog/black-mold-vs-regular-mold/", "/blog/how-long-does-water-damage-restoration-take/", "/blog/mold-after-water-damage/", "/blog/storm-damage-insurance-claim-checklist/", "/blog/smoke-odor-removal-techniques/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Blog"}]

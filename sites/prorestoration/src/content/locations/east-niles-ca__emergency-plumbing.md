@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "dcb57ab47643afc2"
-generated_at: "2026-09-30T14:12:23.013411+00:00"
+generated_at: "2026-09-30T18:41:52.049223+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/east-niles-ca/", "/service-areas/east-niles-ca/fire-damage-restoration/", "/service-areas/east-niles-ca/home-remodeling/", "/service-areas/arvin-ca/emergency-plumbing/", "/service-areas/bear-valley-springs-ca/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "East Niles", "url": "/service-areas/east-niles-ca/"}, {"name": "Emergency Plumbing"}]

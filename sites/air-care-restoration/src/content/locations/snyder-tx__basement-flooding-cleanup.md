@@ -8,7 +8,7 @@ secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet 
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "94b2ca83bb0d7b78"
-generated_at: "2026-09-30T14:12:01.784954+00:00"
+generated_at: "2026-09-30T18:41:08.996992+00:00"
 manual_override: false
 internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/snyder-tx/", "/service-areas/snyder-tx/fire-damage-restoration/", "/service-areas/snyder-tx/mold-remediation/", "/service-areas/albany-tx/basement-flooding-cleanup/", "/service-areas/anson-tx/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Snyder", "url": "/service-areas/snyder-tx/"}, {"name": "basement-flooding-cleanup"}]

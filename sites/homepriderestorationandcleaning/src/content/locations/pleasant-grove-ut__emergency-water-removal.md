@@ -2,22 +2,22 @@
 archetype: "service-area-service"
 title: "Emergency Water Removal & Cleanup in Pleasant Grove, UT | Home Pride Restoration and Cleaning"
 h1: "Emergency Water Removal & Cleanup in Pleasant Grove"
-meta_description: "24/7 emergency water removal and cleanup in Pleasant Grove, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
-primary_keyword: "emergency water removal pleasant grove"
-secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
+meta_description: "24/7 emergency water removal & cleanup in Pleasant Grove, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+primary_keyword: "emergency water removal & cleanup pleasant grove"
+secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "db1bed1697cc9aad"
-generated_at: "2026-09-30T14:12:14.546380+00:00"
+plan_hash: "e7181ce89e57377f"
+generated_at: "2026-09-30T18:41:40.214324+00:00"
 manual_override: false
 internal_links: ["/services/emergency-water-removal/", "/service-areas/pleasant-grove-ut/", "/service-areas/pleasant-grove-ut/fire-damage-restoration/", "/service-areas/pleasant-grove-ut/mold-remediation/", "/service-areas/alpine-ut/emergency-water-removal/", "/service-areas/american-fork-ut/emergency-water-removal/", "/contact/"]
-breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pleasant Grove", "url": "/service-areas/pleasant-grove-ut/"}, {"name": "Emergency Water Removal & Cleanup"}]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pleasant Grove", "url": "/service-areas/pleasant-grove-ut/"}, {"name": "emergency-water-removal"}]
 faq: []
 area_slug: "pleasant-grove-ut"
 service_slug: "emergency-water-removal"
 city: "Pleasant Grove"
 state: "UT"
-service_display: "Emergency Water Removal & Cleanup"
+service_display: "emergency-water-removal"
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug homepriderestorationandcleaning` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
 

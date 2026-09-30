@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "f4e2ed2b597ef4bb"
-generated_at: "2026-09-30T14:12:02.628377+00:00"
+generated_at: "2026-09-30T18:41:10.009148+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/big-spring-tx/", "/service-areas/big-spring-tx/fire-damage-restoration/", "/service-areas/big-spring-tx/mold-remediation/", "/service-areas/andrews-tx/water-heater-flood-cleanup/", "/service-areas/big-lake-tx/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Big Spring", "url": "/service-areas/big-spring-tx/"}, {"name": "water-heater-flood-cleanup"}]

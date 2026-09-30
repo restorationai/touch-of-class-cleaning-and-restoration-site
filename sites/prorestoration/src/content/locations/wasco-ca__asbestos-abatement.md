@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "58d1c8b95d1f69a7"
-generated_at: "2026-09-30T14:12:22.969551+00:00"
+generated_at: "2026-09-30T18:41:52.010633+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/wasco-ca/", "/service-areas/wasco-ca/fire-damage-restoration/", "/service-areas/wasco-ca/home-remodeling/", "/service-areas/arvin-ca/asbestos-abatement/", "/service-areas/bear-valley-springs-ca/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wasco", "url": "/service-areas/wasco-ca/"}, {"name": "Asbestos Abatement"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "8ab7df9f519a6e40"
-generated_at: "2026-09-29T14:31:48.457643+00:00"
+generated_at: "2026-09-30T18:41:22.809099+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/santa-cruz-ca/", "/service-areas/santa-cruz-ca/fire-damage-restoration/", "/service-areas/santa-cruz-ca/mold-remediation/", "/service-areas/berkeley-ca/mold-inspection-testing/", "/service-areas/carlsbad-ca/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Santa Cruz", "url": "/service-areas/santa-cruz-ca/"}, {"name": "Mold Inspection and Testing"}]

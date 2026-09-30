@@ -8,7 +8,7 @@ secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet 
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "eef1ebcb7c9a8305"
-generated_at: "2026-09-29T14:31:48.366378+00:00"
+generated_at: "2026-09-30T18:41:22.706586+00:00"
 manual_override: false
 internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/oceanside-ca/", "/service-areas/oceanside-ca/fire-damage-restoration/", "/service-areas/oceanside-ca/mold-remediation/", "/service-areas/berkeley-ca/basement-flooding-cleanup/", "/service-areas/carlsbad-ca/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oceanside", "url": "/service-areas/oceanside-ca/"}, {"name": "basement-flooding-cleanup"}]

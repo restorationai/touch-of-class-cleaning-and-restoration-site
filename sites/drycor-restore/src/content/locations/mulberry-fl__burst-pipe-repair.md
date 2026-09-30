@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "c7032dcb74cd393c"
-generated_at: "2026-09-29T23:28:29.594100+00:00"
+generated_at: "2026-09-30T18:41:26.393614+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/mulberry-fl/", "/service-areas/mulberry-fl/fire-damage-restoration/", "/service-areas/mulberry-fl/mold-remediation/", "/service-areas/anna-maria-fl/burst-pipe-repair/", "/service-areas/apollo-beach-fl/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mulberry", "url": "/service-areas/mulberry-fl/"}, {"name": "Burst Pipe Cleanup and Repair"}]

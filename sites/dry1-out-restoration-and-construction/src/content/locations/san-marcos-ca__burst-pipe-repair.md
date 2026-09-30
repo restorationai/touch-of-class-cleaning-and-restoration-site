@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "9a6026909787d7fc"
-generated_at: "2026-09-29T14:31:48.391011+00:00"
+generated_at: "2026-09-30T18:41:22.732821+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/san-marcos-ca/", "/service-areas/san-marcos-ca/fire-damage-restoration/", "/service-areas/san-marcos-ca/mold-remediation/", "/service-areas/berkeley-ca/burst-pipe-repair/", "/service-areas/carlsbad-ca/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Marcos", "url": "/service-areas/san-marcos-ca/"}, {"name": "burst-pipe-repair"}]

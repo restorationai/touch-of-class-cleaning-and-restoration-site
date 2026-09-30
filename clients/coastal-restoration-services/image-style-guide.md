@@ -79,7 +79,7 @@ Per-client brand colors take priority. The values below are substituted from `pl
 
 | Role | Source | Value for this client |
 |------|--------|----------------------|
-| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#e6ac1a` | **#e6ac1a** |
+| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#14144a` | **#14144a** |
 | Accent (emergency markings, CTAs that appear in promo shots) | `#f97316` | **#f97316** |
 | Logo color (if a worker's uniform back is visible) | derived from brand logo | match Coastal Restoration Services Inc's logo |
 | Skin / texture / restoration materials | natural and neutral | warm wood tones for housing stock, cool concrete grays, real surface textures |
@@ -108,7 +108,7 @@ Per-client brand colors take priority. The values below are substituted from `pl
 Every image that depicts a person must show a worker in branded company uniform. This is non-negotiable for visual consistency and trust signaling.
 
 ### Uniform specifications
-- **Top**: Polo or work shirt in the client's primary brand color (`#e6ac1a`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
+- **Top**: Polo or work shirt in the client's primary brand color (`#14144a`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
 - **Bottom**: Neutral work pants (charcoal, dark navy, or khaki). Subordinate to the top.
 - **Branding**: Coastal Restoration Services Inc or Coastal Restoration Services Inc embroidered on chest or back. IICRC certification badge visible on sleeve or chest where it makes sense.
 - **PPE**: Match the service context (see service-specific notes below) — gloves always, respirators / face shields / Tyvek suits when the service warrants it.
@@ -195,7 +195,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Biohazard Cleanup, Contents Restoration and Storage, Contents Restoration & Storage, Crawl Space Encapsulation, Emergency Board-Up and Tarping, Fire Damage Restoration, Mold Remediation, Odor Removal and Deodorization, Post-Construction and Specialty Cleaning, Sewage Cleanup and Sanitization, Storm Damage Restoration, Vandalism Cleanup, Water Damage Restoration, Emergency Water Cleanup)
+- [ ] (continue for each of Biohazard Cleanup, Contents Restoration and Storage, Crawl Space Encapsulation, Emergency Board-Up and Tarping, Fire Damage Restoration, Mold Remediation, Odor Removal and Deodorization, Post-Construction and Specialty Cleaning, Sewage Cleanup and Sanitization, Storm Damage Restoration, Vandalism Cleanup, Water Damage Restoration, Emergency Water Removal & Cleanup, Flood Damage Restoration, Burst Pipe Cleanup and Repair, Basement Flooding Cleanup, Smoke Damage Restoration, Mold Inspection and Testing, Commercial Restoration, Industrial Restoration, Reconstruction Services, Renovations, Remodels and General Contracting, Large Loss and Catastrophic Response, Ceiling Water Damage Repair, Water Heater Flood Cleanup, Water Leak Detection, Emergency Plumbing)
 
 ### Service area pages (one image per city served)
 - [ ] Santa Maria hero — exterior shot, regional housing stock, evocative of the city

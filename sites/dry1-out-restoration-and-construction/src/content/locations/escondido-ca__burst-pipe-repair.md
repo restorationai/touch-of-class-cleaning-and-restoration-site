@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "02c93d82fe376d59"
-generated_at: "2026-09-29T14:31:48.373639+00:00"
+generated_at: "2026-09-30T18:41:22.715320+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/escondido-ca/", "/service-areas/escondido-ca/fire-damage-restoration/", "/service-areas/escondido-ca/mold-remediation/", "/service-areas/berkeley-ca/burst-pipe-repair/", "/service-areas/carlsbad-ca/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Escondido", "url": "/service-areas/escondido-ca/"}, {"name": "burst-pipe-repair"}]

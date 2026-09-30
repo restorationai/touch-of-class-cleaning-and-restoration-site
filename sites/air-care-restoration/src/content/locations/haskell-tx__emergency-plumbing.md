@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "5f43dcf8c6806bfd"
-generated_at: "2026-09-30T14:12:01.795390+00:00"
+generated_at: "2026-09-30T18:41:09.014642+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/haskell-tx/", "/service-areas/haskell-tx/fire-damage-restoration/", "/service-areas/haskell-tx/mold-remediation/", "/service-areas/albany-tx/emergency-plumbing/", "/service-areas/anson-tx/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Haskell", "url": "/service-areas/haskell-tx/"}, {"name": "emergency-plumbing"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "96ab8d4f8f381936"
-generated_at: "2026-09-30T14:12:07.152879+00:00"
+generated_at: "2026-09-30T18:41:19.861556+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/hermitage-pa/", "/service-areas/hermitage-pa/fire-damage-restoration/", "/service-areas/hermitage-pa/mold-remediation/", "/service-areas/austintown-oh/general-contracting/", "/service-areas/boardman-oh/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hermitage", "url": "/service-areas/hermitage-pa/"}, {"name": "Renovations, Remodels and General Contracting"}]

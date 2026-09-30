@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "1fad3c00bf683126"
-generated_at: "2026-09-30T14:12:01.780140+00:00"
+generated_at: "2026-09-30T18:41:08.989667+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/paint-rock-tx/", "/service-areas/paint-rock-tx/fire-damage-restoration/", "/service-areas/paint-rock-tx/mold-remediation/", "/service-areas/albany-tx/water-heater-flood-cleanup/", "/service-areas/anson-tx/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Paint Rock", "url": "/service-areas/paint-rock-tx/"}, {"name": "water-heater-flood-cleanup"}]

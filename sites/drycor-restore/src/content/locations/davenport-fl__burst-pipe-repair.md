@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "18e94f3e2256a045"
-generated_at: "2026-09-29T23:28:29.556474+00:00"
+generated_at: "2026-09-30T18:41:26.309514+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/davenport-fl/", "/service-areas/davenport-fl/fire-damage-restoration/", "/service-areas/davenport-fl/mold-remediation/", "/service-areas/anna-maria-fl/burst-pipe-repair/", "/service-areas/apollo-beach-fl/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Davenport", "url": "/service-areas/davenport-fl/"}, {"name": "Burst Pipe Cleanup and Repair"}]

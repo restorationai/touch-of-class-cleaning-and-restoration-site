@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "25ee3d42847f19ec"
-generated_at: "2026-09-23T14:12:04.465447+00:00"
+generated_at: "2026-09-30T18:41:58.681948+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/josephine-tx/", "/service-areas/josephine-tx/fire-damage-restoration/", "/service-areas/josephine-tx/mold-remediation/", "/service-areas/allen-tx/roofing/", "/service-areas/caddo-mills-tx/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Josephine", "url": "/service-areas/josephine-tx/"}, {"name": "Roofing Installation and Replacement"}]

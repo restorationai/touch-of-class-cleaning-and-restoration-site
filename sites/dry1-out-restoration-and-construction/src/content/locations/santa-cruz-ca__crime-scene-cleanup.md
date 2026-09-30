@@ -8,7 +8,7 @@ secondary_keywords: ["crime scene cleaning", "forensic cleanup", "post-crime cle
 search_intent: "local_sensitive"
 priority: 4.2
 plan_hash: "f9376cdc85b9b582"
-generated_at: "2026-09-29T14:31:48.456707+00:00"
+generated_at: "2026-09-30T18:41:22.807579+00:00"
 manual_override: false
 internal_links: ["/services/crime-scene-cleanup/", "/service-areas/santa-cruz-ca/", "/service-areas/santa-cruz-ca/fire-damage-restoration/", "/service-areas/santa-cruz-ca/mold-remediation/", "/service-areas/berkeley-ca/crime-scene-cleanup/", "/service-areas/carlsbad-ca/crime-scene-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Santa Cruz", "url": "/service-areas/santa-cruz-ca/"}, {"name": "Crime Scene Cleanup"}]

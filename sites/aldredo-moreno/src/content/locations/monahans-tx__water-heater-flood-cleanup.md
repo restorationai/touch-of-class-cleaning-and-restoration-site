@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "6dd3d1a6d331acee"
-generated_at: "2026-09-30T14:12:02.655368+00:00"
+generated_at: "2026-09-30T18:41:10.058215+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/monahans-tx/", "/service-areas/monahans-tx/fire-damage-restoration/", "/service-areas/monahans-tx/mold-remediation/", "/service-areas/andrews-tx/water-heater-flood-cleanup/", "/service-areas/big-lake-tx/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Monahans", "url": "/service-areas/monahans-tx/"}, {"name": "water-heater-flood-cleanup"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "be40c071a4cb10e7"
-generated_at: "2026-09-30T14:12:14.553613+00:00"
+generated_at: "2026-09-30T18:41:40.223621+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/provo-ut/", "/service-areas/provo-ut/fire-damage-restoration/", "/service-areas/provo-ut/mold-remediation/", "/service-areas/alpine-ut/emergency-board-up-tarping/", "/service-areas/american-fork-ut/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Provo", "url": "/service-areas/provo-ut/"}, {"name": "Emergency Board-Up and Tarping"}]

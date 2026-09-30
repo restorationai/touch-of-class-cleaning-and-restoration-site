@@ -7,10 +7,10 @@ primary_keyword: "restoration services forest hills"
 secondary_keywords: ["forest hills restoration company", "damage restoration forest hills", "forest hills disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "bd9ecfc857f0d626"
-generated_at: "2026-09-30T14:12:19.407652+00:00"
+plan_hash: "044ff44e3428d2b2"
+generated_at: "2026-09-30T18:41:44.179462+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/forest-hills-pa/fire-damage-restoration/", "/service-areas/forest-hills-pa/roofing/", "/service-areas/forest-hills-pa/sewage-cleanup/", "/service-areas/forest-hills-pa/biohazard-cleanup/", "/service-areas/forest-hills-pa/general-contracting/", "/service-areas/forest-hills-pa/emergency-board-up-tarping/", "/service-areas/forest-hills-pa/asbestos-abatement/", "/service-areas/forest-hills-pa/air-duct-cleaning/", "/service-areas/forest-hills-pa/carpet-cleaning/", "/service-areas/forest-hills-pa/contents-restoration-storage/", "/service-areas/forest-hills-pa/lead-paint-abatement/", "/service-areas/forest-hills-pa/upholstery-cleaning/", "/service-areas/allison-park-pa/", "/service-areas/baldwin-pa/", "/service-areas/bethel-park-pa/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/forest-hills-pa/fire-damage-restoration/", "/service-areas/forest-hills-pa/roofing/", "/service-areas/forest-hills-pa/sewage-cleanup/", "/service-areas/forest-hills-pa/biohazard-cleanup/", "/service-areas/forest-hills-pa/general-contracting/", "/service-areas/forest-hills-pa/emergency-board-up-tarping/", "/service-areas/forest-hills-pa/asbestos-abatement/", "/service-areas/forest-hills-pa/air-duct-cleaning/", "/service-areas/forest-hills-pa/contents-restoration-storage/", "/service-areas/forest-hills-pa/lead-paint-abatement/", "/service-areas/forest-hills-pa/carpet-cleaning/", "/service-areas/forest-hills-pa/upholstery-cleaning/", "/service-areas/allison-park-pa/", "/service-areas/baldwin-pa/", "/service-areas/bethel-park-pa/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Forest Hills"}]
 faq: []
 area_slug: "forest-hills-pa"

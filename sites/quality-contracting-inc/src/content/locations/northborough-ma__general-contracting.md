@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "705a9480b300ad72"
-generated_at: "2026-09-30T14:12:26.005188+00:00"
+generated_at: "2026-09-30T18:41:54.713107+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/northborough-ma/", "/service-areas/northborough-ma/fire-damage-restoration/", "/service-areas/northborough-ma/mold-remediation/", "/service-areas/bellingham-ma/general-contracting/", "/service-areas/east-douglas-ma/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Northborough", "url": "/service-areas/northborough-ma/"}, {"name": "Renovations, Remodels and General Contracting"}]

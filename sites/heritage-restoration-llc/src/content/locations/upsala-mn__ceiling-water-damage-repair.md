@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "7265adeed7b73b5f"
-generated_at: "2026-09-29T23:13:48.900803+00:00"
+generated_at: "2026-09-30T18:41:35.544135+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/upsala-mn/", "/service-areas/upsala-mn/fire-damage-restoration/", "/service-areas/upsala-mn/mold-remediation/", "/service-areas/albany-mn/ceiling-water-damage-repair/", "/service-areas/avon-mn/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Upsala", "url": "/service-areas/upsala-mn/"}, {"name": "Ceiling Water Damage Repair"}]

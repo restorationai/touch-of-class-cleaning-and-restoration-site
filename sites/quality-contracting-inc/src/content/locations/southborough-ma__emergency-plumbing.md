@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "6eb36b2c2613a386"
-generated_at: "2026-09-30T14:12:25.934406+00:00"
+generated_at: "2026-09-30T18:41:54.634232+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/southborough-ma/", "/service-areas/southborough-ma/fire-damage-restoration/", "/service-areas/southborough-ma/mold-remediation/", "/service-areas/bellingham-ma/emergency-plumbing/", "/service-areas/east-douglas-ma/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Southborough", "url": "/service-areas/southborough-ma/"}, {"name": "Emergency Plumbing"}]

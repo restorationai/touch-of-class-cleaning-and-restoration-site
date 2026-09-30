@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "3a0e60f7abe6c610"
-generated_at: "2026-09-29T23:31:28.357357+00:00"
+generated_at: "2026-09-30T18:41:22.657400+00:00"
 manual_override: false
 internal_links: ["/services/carpet-water-extraction/", "/service-areas/san-jose-ca/", "/service-areas/san-jose-ca/fire-damage-restoration/", "/service-areas/san-jose-ca/mold-remediation/", "/service-areas/berkeley-ca/carpet-water-extraction/", "/service-areas/carlsbad-ca/carpet-water-extraction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Jose", "url": "/service-areas/san-jose-ca/"}, {"name": "Carpet Water Extraction"}]

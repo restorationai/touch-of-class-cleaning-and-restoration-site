@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "b4fc336d438e658a"
-generated_at: "2026-09-30T14:12:25.968081+00:00"
+generated_at: "2026-09-30T18:41:54.673170+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/newton-ma/", "/service-areas/newton-ma/fire-damage-restoration/", "/service-areas/newton-ma/mold-remediation/", "/service-areas/bellingham-ma/asbestos-abatement/", "/service-areas/east-douglas-ma/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Newton", "url": "/service-areas/newton-ma/"}, {"name": "Asbestos Abatement"}]

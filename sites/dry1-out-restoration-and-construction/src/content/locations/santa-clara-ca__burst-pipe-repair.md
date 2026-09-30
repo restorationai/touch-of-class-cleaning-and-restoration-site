@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "e8eab94ab01fbc72"
-generated_at: "2026-09-29T14:31:48.421853+00:00"
+generated_at: "2026-09-30T18:41:22.767803+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/santa-clara-ca/", "/service-areas/santa-clara-ca/fire-damage-restoration/", "/service-areas/santa-clara-ca/mold-remediation/", "/service-areas/berkeley-ca/burst-pipe-repair/", "/service-areas/carlsbad-ca/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Santa Clara", "url": "/service-areas/santa-clara-ca/"}, {"name": "burst-pipe-repair"}]

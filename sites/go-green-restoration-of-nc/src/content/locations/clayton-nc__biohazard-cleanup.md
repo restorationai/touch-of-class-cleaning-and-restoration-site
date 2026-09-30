@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "bb6f6ef3a2ed1fe0"
-generated_at: "2026-09-23T14:11:44.838817+00:00"
+generated_at: "2026-09-30T18:41:33.328523+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/clayton-nc/", "/service-areas/clayton-nc/fire-damage-restoration/", "/service-areas/clayton-nc/mold-remediation/", "/service-areas/archer-lodge-nc/biohazard-cleanup/", "/service-areas/durham-nc/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Clayton", "url": "/service-areas/clayton-nc/"}, {"name": "Biohazard Cleanup"}]

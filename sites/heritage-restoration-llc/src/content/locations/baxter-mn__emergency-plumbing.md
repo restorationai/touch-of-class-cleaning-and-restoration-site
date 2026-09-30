@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "1cc8655a57b1be2e"
-generated_at: "2026-09-29T23:13:48.861725+00:00"
+generated_at: "2026-09-30T18:41:35.485447+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/baxter-mn/", "/service-areas/baxter-mn/fire-damage-restoration/", "/service-areas/baxter-mn/mold-remediation/", "/service-areas/albany-mn/emergency-plumbing/", "/service-areas/avon-mn/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Baxter", "url": "/service-areas/baxter-mn/"}, {"name": "Emergency Plumbing"}]

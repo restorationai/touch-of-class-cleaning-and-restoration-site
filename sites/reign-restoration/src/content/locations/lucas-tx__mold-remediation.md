@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "59f9559318342565"
-generated_at: "2026-09-23T14:12:04.491088+00:00"
+generated_at: "2026-09-30T18:41:58.718500+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/lucas-tx/", "/service-areas/lucas-tx/fire-damage-restoration/", "/service-areas/lucas-tx/roofing/", "/service-areas/allen-tx/mold-remediation/", "/service-areas/caddo-mills-tx/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lucas", "url": "/service-areas/lucas-tx/"}, {"name": "Mold Remediation"}]

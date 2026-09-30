@@ -8,7 +8,7 @@ secondary_keywords: ["decomposition cleanup", "after death cleaning", "deceased 
 search_intent: "local_sensitive"
 priority: 4.2
 plan_hash: "9a10aed5c0b9f8c6"
-generated_at: "2026-09-30T14:12:21.446610+00:00"
+generated_at: "2026-09-30T18:41:50.435315+00:00"
 manual_override: false
 internal_links: ["/services/unattended-death-cleanup/", "/service-areas/lakeland-north-wa/", "/service-areas/lakeland-north-wa/fire-damage-restoration/", "/service-areas/lakeland-north-wa/mold-remediation/", "/service-areas/algona-wa/unattended-death-cleanup/", "/service-areas/auburn-wa/unattended-death-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lakeland North", "url": "/service-areas/lakeland-north-wa/"}, {"name": "Unattended Death Cleanup"}]

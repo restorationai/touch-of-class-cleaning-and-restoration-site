@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "8833a61a0adfb0dc"
-generated_at: "2026-09-29T23:13:48.907966+00:00"
+generated_at: "2026-09-30T18:41:35.555705+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/harding-mn/", "/service-areas/harding-mn/fire-damage-restoration/", "/service-areas/harding-mn/mold-remediation/", "/service-areas/albany-mn/burst-pipe-repair/", "/service-areas/avon-mn/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Harding", "url": "/service-areas/harding-mn/"}, {"name": "Burst Pipe Cleanup and Repair"}]

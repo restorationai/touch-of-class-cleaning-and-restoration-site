@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "6972b996bfce3689"
-generated_at: "2026-09-30T14:12:01.780517+00:00"
+generated_at: "2026-09-30T18:41:08.990305+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/paint-rock-tx/", "/service-areas/paint-rock-tx/fire-damage-restoration/", "/service-areas/paint-rock-tx/mold-remediation/", "/service-areas/albany-tx/emergency-plumbing/", "/service-areas/anson-tx/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Paint Rock", "url": "/service-areas/paint-rock-tx/"}, {"name": "emergency-plumbing"}]

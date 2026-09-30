@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "985ba45184ac0776"
-generated_at: "2026-09-30T14:12:02.666989+00:00"
+generated_at: "2026-09-30T18:41:10.079861+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/imperial-tx/", "/service-areas/imperial-tx/fire-damage-restoration/", "/service-areas/imperial-tx/mold-remediation/", "/service-areas/andrews-tx/general-contracting/", "/service-areas/big-lake-tx/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Imperial", "url": "/service-areas/imperial-tx/"}, {"name": "general-contracting"}]

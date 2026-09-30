@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "dd7c00de81cd00b0"
-generated_at: "2026-09-29T23:13:48.920327+00:00"
+generated_at: "2026-09-30T18:41:35.573476+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/albany-mn/", "/service-areas/albany-mn/fire-damage-restoration/", "/service-areas/albany-mn/mold-remediation/", "/service-areas/avon-mn/burst-pipe-repair/", "/service-areas/baxter-mn/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Albany", "url": "/service-areas/albany-mn/"}, {"name": "Burst Pipe Cleanup and Repair"}]

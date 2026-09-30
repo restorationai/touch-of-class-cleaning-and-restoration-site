@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "30a92eb8ec54e76f"
-generated_at: "2026-09-30T14:12:14.556902+00:00"
+generated_at: "2026-09-30T18:41:40.227994+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/provo-ut/", "/service-areas/provo-ut/fire-damage-restoration/", "/service-areas/provo-ut/mold-remediation/", "/service-areas/alpine-ut/ceiling-water-damage-repair/", "/service-areas/american-fork-ut/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Provo", "url": "/service-areas/provo-ut/"}, {"name": "ceiling-water-damage-repair"}]

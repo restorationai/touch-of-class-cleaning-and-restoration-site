@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "06d80f00c3956a69"
-generated_at: "2026-09-29T14:31:48.445592+00:00"
+generated_at: "2026-09-30T18:41:22.795338+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/berkeley-ca/", "/service-areas/berkeley-ca/fire-damage-restoration/", "/service-areas/berkeley-ca/mold-remediation/", "/service-areas/carlsbad-ca/commercial-restoration/", "/service-areas/chula-vista-ca/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Berkeley", "url": "/service-areas/berkeley-ca/"}, {"name": "commercial-restoration"}]

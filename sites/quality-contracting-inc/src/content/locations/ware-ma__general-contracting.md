@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "2ba78940692fd542"
-generated_at: "2026-09-30T14:12:26.068870+00:00"
+generated_at: "2026-09-30T18:41:54.781126+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/ware-ma/", "/service-areas/ware-ma/fire-damage-restoration/", "/service-areas/ware-ma/mold-remediation/", "/service-areas/bellingham-ma/general-contracting/", "/service-areas/east-douglas-ma/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ware", "url": "/service-areas/ware-ma/"}, {"name": "Renovations, Remodels and General Contracting"}]

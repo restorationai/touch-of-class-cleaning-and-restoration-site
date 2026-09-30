@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "507da3d9fa2c734c"
-generated_at: "2026-09-30T14:12:26.073724+00:00"
+generated_at: "2026-09-30T18:41:54.785823+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/ware-ma/", "/service-areas/ware-ma/fire-damage-restoration/", "/service-areas/ware-ma/mold-remediation/", "/service-areas/bellingham-ma/mold-inspection-testing/", "/service-areas/east-douglas-ma/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ware", "url": "/service-areas/ware-ma/"}, {"name": "mold-inspection-testing"}]

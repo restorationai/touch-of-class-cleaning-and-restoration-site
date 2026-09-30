@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "3b8a013ea522e00b"
-generated_at: "2026-09-30T14:12:22.993442+00:00"
+generated_at: "2026-09-30T18:41:52.031716+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/arvin-ca/", "/service-areas/arvin-ca/fire-damage-restoration/", "/service-areas/arvin-ca/home-remodeling/", "/service-areas/bear-valley-springs-ca/roofing/", "/service-areas/buttonwillow-ca/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Arvin", "url": "/service-areas/arvin-ca/"}, {"name": "Roofing Installation and Replacement"}]

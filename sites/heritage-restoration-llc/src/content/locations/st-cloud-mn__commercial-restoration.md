@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "dabef632ac538ba3"
-generated_at: "2026-09-29T23:13:48.846420+00:00"
+generated_at: "2026-09-30T18:41:35.461103+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/st-cloud-mn/", "/service-areas/st-cloud-mn/fire-damage-restoration/", "/service-areas/st-cloud-mn/mold-remediation/", "/service-areas/albany-mn/commercial-restoration/", "/service-areas/avon-mn/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "St. Cloud", "url": "/service-areas/st-cloud-mn/"}, {"name": "Commercial Restoration"}]

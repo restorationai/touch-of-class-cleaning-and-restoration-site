@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "75b8d93f92a0884a"
-generated_at: "2026-09-23T14:12:04.473642+00:00"
+generated_at: "2026-09-30T18:41:58.695819+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/caddo-mills-tx/", "/service-areas/caddo-mills-tx/fire-damage-restoration/", "/service-areas/caddo-mills-tx/mold-remediation/", "/service-areas/allen-tx/roofing/", "/service-areas/dallas-tx/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Caddo Mills", "url": "/service-areas/caddo-mills-tx/"}, {"name": "Roofing Installation and Replacement"}]

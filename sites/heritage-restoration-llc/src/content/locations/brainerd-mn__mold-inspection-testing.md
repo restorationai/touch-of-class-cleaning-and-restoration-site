@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "9fbe44385326f78a"
-generated_at: "2026-09-29T23:13:48.859774+00:00"
+generated_at: "2026-09-30T18:41:35.481666+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/brainerd-mn/", "/service-areas/brainerd-mn/fire-damage-restoration/", "/service-areas/brainerd-mn/mold-remediation/", "/service-areas/albany-mn/mold-inspection-testing/", "/service-areas/avon-mn/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Brainerd", "url": "/service-areas/brainerd-mn/"}, {"name": "Mold Inspection and Testing"}]

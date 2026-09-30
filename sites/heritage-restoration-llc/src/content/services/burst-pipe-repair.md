@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 7.2
 plan_hash: "74bd5c5737fcd3ae"
-generated_at: "2026-09-29T23:13:48.841910+00:00"
+generated_at: "2026-09-30T18:41:35.453154+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/burst-pipe-repair/", "/service-areas/avon-mn/burst-pipe-repair/", "/service-areas/baxter-mn/burst-pipe-repair/", "/service-areas/brainerd-mn/burst-pipe-repair/", "/service-areas/elmdale-mn/burst-pipe-repair/", "/service-areas/flensburg-mn/burst-pipe-repair/", "/service-areas/foley-mn/burst-pipe-repair/", "/service-areas/fort-ripley-mn/burst-pipe-repair/", "/service-areas/harding-mn/burst-pipe-repair/", "/service-areas/long-prairie-mn/burst-pipe-repair/", "/service-areas/pierz-mn/burst-pipe-repair/", "/service-areas/randall-mn/burst-pipe-repair/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Burst Pipe Cleanup and Repair"}]

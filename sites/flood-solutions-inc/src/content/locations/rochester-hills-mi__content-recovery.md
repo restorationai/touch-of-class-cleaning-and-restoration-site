@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "cad2b2a4c24bf3f0"
-generated_at: "2026-09-29T23:32:21.944212+00:00"
+generated_at: "2026-09-30T18:41:27.188953+00:00"
 manual_override: false
 internal_links: ["/services/content-recovery/", "/service-areas/rochester-hills-mi/", "/service-areas/rochester-hills-mi/fire-damage-restoration/", "/service-areas/rochester-hills-mi/mold-remediation/", "/service-areas/chesterfield-mi/content-recovery/", "/service-areas/clinton-township-mi/content-recovery/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rochester Hills", "url": "/service-areas/rochester-hills-mi/"}, {"name": "Content Recovery"}]

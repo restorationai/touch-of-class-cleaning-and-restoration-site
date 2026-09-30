@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "ad61cb9befe4e798"
-generated_at: "2026-09-30T14:12:21.417919+00:00"
+generated_at: "2026-09-30T18:41:50.412105+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/bremerton-wa/", "/service-areas/bremerton-wa/fire-damage-restoration/", "/service-areas/bremerton-wa/mold-remediation/", "/service-areas/algona-wa/emergency-plumbing/", "/service-areas/auburn-wa/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bremerton", "url": "/service-areas/bremerton-wa/"}, {"name": "Emergency Plumbing"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "0cab4451c161a5ff"
-generated_at: "2026-09-29T23:13:49.286693+00:00"
+generated_at: "2026-09-30T18:41:33.278547+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/wake-forest-nc/", "/service-areas/wake-forest-nc/fire-damage-restoration/", "/service-areas/wake-forest-nc/mold-remediation/", "/service-areas/archer-lodge-nc/industrial-restoration/", "/service-areas/clayton-nc/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wake Forest", "url": "/service-areas/wake-forest-nc/"}, {"name": "Industrial Restoration"}]

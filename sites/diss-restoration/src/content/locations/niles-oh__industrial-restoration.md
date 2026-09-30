@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "17bf8549497f5431"
-generated_at: "2026-09-30T14:12:07.109557+00:00"
+generated_at: "2026-09-30T18:41:19.806258+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/niles-oh/", "/service-areas/niles-oh/fire-damage-restoration/", "/service-areas/niles-oh/mold-remediation/", "/service-areas/austintown-oh/industrial-restoration/", "/service-areas/boardman-oh/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Niles", "url": "/service-areas/niles-oh/"}, {"name": "industrial-restoration"}]

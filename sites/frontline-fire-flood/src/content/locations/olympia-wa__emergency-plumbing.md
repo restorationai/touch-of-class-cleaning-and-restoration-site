@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "a6804087cd08e6fe"
-generated_at: "2026-09-23T14:11:42.575651+00:00"
+generated_at: "2026-09-30T18:41:30.004004+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/olympia-wa/", "/service-areas/olympia-wa/fire-damage-restoration/", "/service-areas/olympia-wa/mold-remediation/", "/service-areas/anderson-island-wa/emergency-plumbing/", "/service-areas/auburn-wa/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Olympia", "url": "/service-areas/olympia-wa/"}, {"name": "Emergency Plumbing"}]

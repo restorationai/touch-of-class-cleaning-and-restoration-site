@@ -10,6 +10,7 @@
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
     "/services/emergency-plumbing/",
+    "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
     "/services/sewage-cleanup/",
@@ -76,6 +77,7 @@
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
     "/services/emergency-plumbing/",
+    "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
     "/services/sewage-cleanup/",
@@ -370,6 +372,23 @@
     "/service-areas/gig-harbor-wa/emergency-plumbing/",
     "/service-areas/kent-wa/emergency-plumbing/",
     "/service-areas/kirkland-wa/emergency-plumbing/"
+  ],
+  "/services/emergency-water-removal/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
+    "/service-areas/bellevue-wa/emergency-water-removal/",
+    "/service-areas/bremerton-wa/emergency-water-removal/",
+    "/service-areas/burien-wa/emergency-water-removal/",
+    "/service-areas/des-moines-wa/emergency-water-removal/",
+    "/service-areas/edgewood-wa/emergency-water-removal/",
+    "/service-areas/everett-wa/emergency-water-removal/",
+    "/service-areas/fife-wa/emergency-water-removal/",
+    "/service-areas/gig-harbor-wa/emergency-water-removal/",
+    "/service-areas/kent-wa/emergency-water-removal/",
+    "/service-areas/kirkland-wa/emergency-water-removal/",
+    "/services/water-damage-restoration/"
   ],
   "/services/fire-damage-restoration/": [
     "/services/",
@@ -700,6 +719,7 @@
     "/service-areas/gig-harbor-wa/water-damage-restoration/",
     "/service-areas/kent-wa/water-damage-restoration/",
     "/service-areas/kirkland-wa/water-damage-restoration/",
+    "/services/emergency-water-removal/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
@@ -729,6 +749,7 @@
     "/service-areas/seattle-wa/water-damage-restoration/",
     "/service-areas/seattle-wa/commercial-restoration/",
     "/service-areas/seattle-wa/emergency-plumbing/",
+    "/service-areas/seattle-wa/emergency-water-removal/",
     "/service-areas/seattle-wa/flood-damage-restoration/",
     "/service-areas/seattle-wa/reconstruction/",
     "/service-areas/seattle-wa/sewage-cleanup/",
@@ -770,6 +791,7 @@
     "/service-areas/bellevue-wa/water-damage-restoration/",
     "/service-areas/bellevue-wa/commercial-restoration/",
     "/service-areas/bellevue-wa/emergency-plumbing/",
+    "/service-areas/bellevue-wa/emergency-water-removal/",
     "/service-areas/bellevue-wa/flood-damage-restoration/",
     "/service-areas/bellevue-wa/reconstruction/",
     "/service-areas/bellevue-wa/sewage-cleanup/",
@@ -811,6 +833,7 @@
     "/service-areas/tacoma-wa/water-damage-restoration/",
     "/service-areas/tacoma-wa/commercial-restoration/",
     "/service-areas/tacoma-wa/emergency-plumbing/",
+    "/service-areas/tacoma-wa/emergency-water-removal/",
     "/service-areas/tacoma-wa/flood-damage-restoration/",
     "/service-areas/tacoma-wa/reconstruction/",
     "/service-areas/tacoma-wa/sewage-cleanup/",
@@ -852,6 +875,7 @@
     "/service-areas/everett-wa/water-damage-restoration/",
     "/service-areas/everett-wa/commercial-restoration/",
     "/service-areas/everett-wa/emergency-plumbing/",
+    "/service-areas/everett-wa/emergency-water-removal/",
     "/service-areas/everett-wa/flood-damage-restoration/",
     "/service-areas/everett-wa/reconstruction/",
     "/service-areas/everett-wa/sewage-cleanup/",
@@ -893,6 +917,7 @@
     "/service-areas/kent-wa/water-damage-restoration/",
     "/service-areas/kent-wa/commercial-restoration/",
     "/service-areas/kent-wa/emergency-plumbing/",
+    "/service-areas/kent-wa/emergency-water-removal/",
     "/service-areas/kent-wa/flood-damage-restoration/",
     "/service-areas/kent-wa/reconstruction/",
     "/service-areas/kent-wa/sewage-cleanup/",
@@ -934,6 +959,7 @@
     "/service-areas/renton-wa/water-damage-restoration/",
     "/service-areas/renton-wa/commercial-restoration/",
     "/service-areas/renton-wa/emergency-plumbing/",
+    "/service-areas/renton-wa/emergency-water-removal/",
     "/service-areas/renton-wa/flood-damage-restoration/",
     "/service-areas/renton-wa/reconstruction/",
     "/service-areas/renton-wa/sewage-cleanup/",
@@ -975,6 +1001,7 @@
     "/service-areas/auburn-wa/water-damage-restoration/",
     "/service-areas/auburn-wa/commercial-restoration/",
     "/service-areas/auburn-wa/emergency-plumbing/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
     "/service-areas/auburn-wa/flood-damage-restoration/",
     "/service-areas/auburn-wa/reconstruction/",
     "/service-areas/auburn-wa/sewage-cleanup/",
@@ -1016,6 +1043,7 @@
     "/service-areas/kirkland-wa/water-damage-restoration/",
     "/service-areas/kirkland-wa/commercial-restoration/",
     "/service-areas/kirkland-wa/emergency-plumbing/",
+    "/service-areas/kirkland-wa/emergency-water-removal/",
     "/service-areas/kirkland-wa/flood-damage-restoration/",
     "/service-areas/kirkland-wa/reconstruction/",
     "/service-areas/kirkland-wa/sewage-cleanup/",
@@ -1057,6 +1085,7 @@
     "/service-areas/redmond-wa/water-damage-restoration/",
     "/service-areas/redmond-wa/commercial-restoration/",
     "/service-areas/redmond-wa/emergency-plumbing/",
+    "/service-areas/redmond-wa/emergency-water-removal/",
     "/service-areas/redmond-wa/flood-damage-restoration/",
     "/service-areas/redmond-wa/reconstruction/",
     "/service-areas/redmond-wa/sewage-cleanup/",
@@ -1098,6 +1127,7 @@
     "/service-areas/gig-harbor-wa/water-damage-restoration/",
     "/service-areas/gig-harbor-wa/commercial-restoration/",
     "/service-areas/gig-harbor-wa/emergency-plumbing/",
+    "/service-areas/gig-harbor-wa/emergency-water-removal/",
     "/service-areas/gig-harbor-wa/flood-damage-restoration/",
     "/service-areas/gig-harbor-wa/reconstruction/",
     "/service-areas/gig-harbor-wa/sewage-cleanup/",
@@ -1139,6 +1169,7 @@
     "/service-areas/bremerton-wa/water-damage-restoration/",
     "/service-areas/bremerton-wa/commercial-restoration/",
     "/service-areas/bremerton-wa/emergency-plumbing/",
+    "/service-areas/bremerton-wa/emergency-water-removal/",
     "/service-areas/bremerton-wa/flood-damage-restoration/",
     "/service-areas/bremerton-wa/reconstruction/",
     "/service-areas/bremerton-wa/sewage-cleanup/",
@@ -1180,6 +1211,7 @@
     "/service-areas/port-orchard-wa/water-damage-restoration/",
     "/service-areas/port-orchard-wa/commercial-restoration/",
     "/service-areas/port-orchard-wa/emergency-plumbing/",
+    "/service-areas/port-orchard-wa/emergency-water-removal/",
     "/service-areas/port-orchard-wa/flood-damage-restoration/",
     "/service-areas/port-orchard-wa/reconstruction/",
     "/service-areas/port-orchard-wa/sewage-cleanup/",
@@ -1221,6 +1253,7 @@
     "/service-areas/university-place-wa/water-damage-restoration/",
     "/service-areas/university-place-wa/commercial-restoration/",
     "/service-areas/university-place-wa/emergency-plumbing/",
+    "/service-areas/university-place-wa/emergency-water-removal/",
     "/service-areas/university-place-wa/flood-damage-restoration/",
     "/service-areas/university-place-wa/reconstruction/",
     "/service-areas/university-place-wa/sewage-cleanup/",
@@ -1262,6 +1295,7 @@
     "/service-areas/lakeland-north-wa/water-damage-restoration/",
     "/service-areas/lakeland-north-wa/commercial-restoration/",
     "/service-areas/lakeland-north-wa/emergency-plumbing/",
+    "/service-areas/lakeland-north-wa/emergency-water-removal/",
     "/service-areas/lakeland-north-wa/flood-damage-restoration/",
     "/service-areas/lakeland-north-wa/reconstruction/",
     "/service-areas/lakeland-north-wa/sewage-cleanup/",
@@ -1303,6 +1337,7 @@
     "/service-areas/des-moines-wa/water-damage-restoration/",
     "/service-areas/des-moines-wa/commercial-restoration/",
     "/service-areas/des-moines-wa/emergency-plumbing/",
+    "/service-areas/des-moines-wa/emergency-water-removal/",
     "/service-areas/des-moines-wa/flood-damage-restoration/",
     "/service-areas/des-moines-wa/reconstruction/",
     "/service-areas/des-moines-wa/sewage-cleanup/",
@@ -1344,6 +1379,7 @@
     "/service-areas/lakeland-south-wa/water-damage-restoration/",
     "/service-areas/lakeland-south-wa/commercial-restoration/",
     "/service-areas/lakeland-south-wa/emergency-plumbing/",
+    "/service-areas/lakeland-south-wa/emergency-water-removal/",
     "/service-areas/lakeland-south-wa/flood-damage-restoration/",
     "/service-areas/lakeland-south-wa/reconstruction/",
     "/service-areas/lakeland-south-wa/sewage-cleanup/",
@@ -1385,6 +1421,7 @@
     "/service-areas/algona-wa/water-damage-restoration/",
     "/service-areas/algona-wa/commercial-restoration/",
     "/service-areas/algona-wa/emergency-plumbing/",
+    "/service-areas/algona-wa/emergency-water-removal/",
     "/service-areas/algona-wa/flood-damage-restoration/",
     "/service-areas/algona-wa/reconstruction/",
     "/service-areas/algona-wa/sewage-cleanup/",
@@ -1426,6 +1463,7 @@
     "/service-areas/milton-wa/water-damage-restoration/",
     "/service-areas/milton-wa/commercial-restoration/",
     "/service-areas/milton-wa/emergency-plumbing/",
+    "/service-areas/milton-wa/emergency-water-removal/",
     "/service-areas/milton-wa/flood-damage-restoration/",
     "/service-areas/milton-wa/reconstruction/",
     "/service-areas/milton-wa/sewage-cleanup/",
@@ -1467,6 +1505,7 @@
     "/service-areas/pacific-wa/water-damage-restoration/",
     "/service-areas/pacific-wa/commercial-restoration/",
     "/service-areas/pacific-wa/emergency-plumbing/",
+    "/service-areas/pacific-wa/emergency-water-removal/",
     "/service-areas/pacific-wa/flood-damage-restoration/",
     "/service-areas/pacific-wa/reconstruction/",
     "/service-areas/pacific-wa/sewage-cleanup/",
@@ -1508,6 +1547,7 @@
     "/service-areas/seatac-wa/water-damage-restoration/",
     "/service-areas/seatac-wa/commercial-restoration/",
     "/service-areas/seatac-wa/emergency-plumbing/",
+    "/service-areas/seatac-wa/emergency-water-removal/",
     "/service-areas/seatac-wa/flood-damage-restoration/",
     "/service-areas/seatac-wa/reconstruction/",
     "/service-areas/seatac-wa/sewage-cleanup/",
@@ -1549,6 +1589,7 @@
     "/service-areas/edgewood-wa/water-damage-restoration/",
     "/service-areas/edgewood-wa/commercial-restoration/",
     "/service-areas/edgewood-wa/emergency-plumbing/",
+    "/service-areas/edgewood-wa/emergency-water-removal/",
     "/service-areas/edgewood-wa/flood-damage-restoration/",
     "/service-areas/edgewood-wa/reconstruction/",
     "/service-areas/edgewood-wa/sewage-cleanup/",
@@ -1590,6 +1631,7 @@
     "/service-areas/fife-wa/water-damage-restoration/",
     "/service-areas/fife-wa/commercial-restoration/",
     "/service-areas/fife-wa/emergency-plumbing/",
+    "/service-areas/fife-wa/emergency-water-removal/",
     "/service-areas/fife-wa/flood-damage-restoration/",
     "/service-areas/fife-wa/reconstruction/",
     "/service-areas/fife-wa/sewage-cleanup/",
@@ -1631,6 +1673,7 @@
     "/service-areas/normandy-park-wa/water-damage-restoration/",
     "/service-areas/normandy-park-wa/commercial-restoration/",
     "/service-areas/normandy-park-wa/emergency-plumbing/",
+    "/service-areas/normandy-park-wa/emergency-water-removal/",
     "/service-areas/normandy-park-wa/flood-damage-restoration/",
     "/service-areas/normandy-park-wa/reconstruction/",
     "/service-areas/normandy-park-wa/sewage-cleanup/",
@@ -1672,6 +1715,7 @@
     "/service-areas/vashon-wa/water-damage-restoration/",
     "/service-areas/vashon-wa/commercial-restoration/",
     "/service-areas/vashon-wa/emergency-plumbing/",
+    "/service-areas/vashon-wa/emergency-water-removal/",
     "/service-areas/vashon-wa/flood-damage-restoration/",
     "/service-areas/vashon-wa/reconstruction/",
     "/service-areas/vashon-wa/sewage-cleanup/",
@@ -1713,6 +1757,7 @@
     "/service-areas/burien-wa/water-damage-restoration/",
     "/service-areas/burien-wa/commercial-restoration/",
     "/service-areas/burien-wa/emergency-plumbing/",
+    "/service-areas/burien-wa/emergency-water-removal/",
     "/service-areas/burien-wa/flood-damage-restoration/",
     "/service-areas/burien-wa/reconstruction/",
     "/service-areas/burien-wa/sewage-cleanup/",
@@ -1754,6 +1799,7 @@
     "/service-areas/lake-holm-wa/water-damage-restoration/",
     "/service-areas/lake-holm-wa/commercial-restoration/",
     "/service-areas/lake-holm-wa/emergency-plumbing/",
+    "/service-areas/lake-holm-wa/emergency-water-removal/",
     "/service-areas/lake-holm-wa/flood-damage-restoration/",
     "/service-areas/lake-holm-wa/reconstruction/",
     "/service-areas/lake-holm-wa/sewage-cleanup/",
@@ -1795,6 +1841,7 @@
     "/service-areas/waller-wa/water-damage-restoration/",
     "/service-areas/waller-wa/commercial-restoration/",
     "/service-areas/waller-wa/emergency-plumbing/",
+    "/service-areas/waller-wa/emergency-water-removal/",
     "/service-areas/waller-wa/flood-damage-restoration/",
     "/service-areas/waller-wa/reconstruction/",
     "/service-areas/waller-wa/sewage-cleanup/",
@@ -1836,6 +1883,7 @@
     "/service-areas/sumner-wa/water-damage-restoration/",
     "/service-areas/sumner-wa/commercial-restoration/",
     "/service-areas/sumner-wa/emergency-plumbing/",
+    "/service-areas/sumner-wa/emergency-water-removal/",
     "/service-areas/sumner-wa/flood-damage-restoration/",
     "/service-areas/sumner-wa/reconstruction/",
     "/service-areas/sumner-wa/sewage-cleanup/",
@@ -1877,6 +1925,7 @@
     "/service-areas/north-puyallup-wa/water-damage-restoration/",
     "/service-areas/north-puyallup-wa/commercial-restoration/",
     "/service-areas/north-puyallup-wa/emergency-plumbing/",
+    "/service-areas/north-puyallup-wa/emergency-water-removal/",
     "/service-areas/north-puyallup-wa/flood-damage-restoration/",
     "/service-areas/north-puyallup-wa/reconstruction/",
     "/service-areas/north-puyallup-wa/sewage-cleanup/",
@@ -2024,6 +2073,15 @@
     "/service-areas/seattle-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/seattle-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/seattle-wa/",
+    "/service-areas/seattle-wa/fire-damage-restoration/",
+    "/service-areas/seattle-wa/mold-remediation/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/seattle-wa/fire-damage-restoration/": [
@@ -2332,6 +2390,15 @@
     "/service-areas/auburn-wa/emergency-plumbing/",
     "/contact/"
   ],
+  "/service-areas/bellevue-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/bellevue-wa/",
+    "/service-areas/bellevue-wa/fire-damage-restoration/",
+    "/service-areas/bellevue-wa/mold-remediation/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/bellevue-wa/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/bellevue-wa/",
@@ -2636,6 +2703,15 @@
     "/service-areas/tacoma-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/tacoma-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/tacoma-wa/",
+    "/service-areas/tacoma-wa/fire-damage-restoration/",
+    "/service-areas/tacoma-wa/mold-remediation/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/tacoma-wa/fire-damage-restoration/": [
@@ -2944,6 +3020,15 @@
     "/service-areas/auburn-wa/emergency-plumbing/",
     "/contact/"
   ],
+  "/service-areas/everett-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/everett-wa/",
+    "/service-areas/everett-wa/fire-damage-restoration/",
+    "/service-areas/everett-wa/mold-remediation/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/everett-wa/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/everett-wa/",
@@ -3248,6 +3333,15 @@
     "/service-areas/kent-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/kent-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/kent-wa/",
+    "/service-areas/kent-wa/fire-damage-restoration/",
+    "/service-areas/kent-wa/mold-remediation/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/kent-wa/fire-damage-restoration/": [
@@ -3556,6 +3650,15 @@
     "/service-areas/auburn-wa/emergency-plumbing/",
     "/contact/"
   ],
+  "/service-areas/renton-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/renton-wa/",
+    "/service-areas/renton-wa/fire-damage-restoration/",
+    "/service-areas/renton-wa/mold-remediation/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/renton-wa/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/renton-wa/",
@@ -3860,6 +3963,15 @@
     "/service-areas/auburn-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/bellevue-wa/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/auburn-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/auburn-wa/",
+    "/service-areas/auburn-wa/fire-damage-restoration/",
+    "/service-areas/auburn-wa/mold-remediation/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/bellevue-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/auburn-wa/fire-damage-restoration/": [
@@ -4168,6 +4280,15 @@
     "/service-areas/auburn-wa/emergency-plumbing/",
     "/contact/"
   ],
+  "/service-areas/kirkland-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/kirkland-wa/",
+    "/service-areas/kirkland-wa/fire-damage-restoration/",
+    "/service-areas/kirkland-wa/mold-remediation/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/kirkland-wa/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/kirkland-wa/",
@@ -4472,6 +4593,15 @@
     "/service-areas/redmond-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/redmond-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/redmond-wa/",
+    "/service-areas/redmond-wa/fire-damage-restoration/",
+    "/service-areas/redmond-wa/mold-remediation/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/redmond-wa/fire-damage-restoration/": [
@@ -4780,6 +4910,15 @@
     "/service-areas/auburn-wa/emergency-plumbing/",
     "/contact/"
   ],
+  "/service-areas/gig-harbor-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/gig-harbor-wa/",
+    "/service-areas/gig-harbor-wa/fire-damage-restoration/",
+    "/service-areas/gig-harbor-wa/mold-remediation/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/gig-harbor-wa/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/gig-harbor-wa/",
@@ -5084,6 +5223,15 @@
     "/service-areas/bremerton-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/bremerton-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/bremerton-wa/",
+    "/service-areas/bremerton-wa/fire-damage-restoration/",
+    "/service-areas/bremerton-wa/mold-remediation/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/bremerton-wa/fire-damage-restoration/": [
@@ -5392,6 +5540,15 @@
     "/service-areas/auburn-wa/emergency-plumbing/",
     "/contact/"
   ],
+  "/service-areas/port-orchard-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/port-orchard-wa/",
+    "/service-areas/port-orchard-wa/fire-damage-restoration/",
+    "/service-areas/port-orchard-wa/mold-remediation/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/port-orchard-wa/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/port-orchard-wa/",
@@ -5696,6 +5853,15 @@
     "/service-areas/university-place-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/university-place-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/university-place-wa/",
+    "/service-areas/university-place-wa/fire-damage-restoration/",
+    "/service-areas/university-place-wa/mold-remediation/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/university-place-wa/fire-damage-restoration/": [
@@ -6004,6 +6170,15 @@
     "/service-areas/auburn-wa/emergency-plumbing/",
     "/contact/"
   ],
+  "/service-areas/lakeland-north-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/lakeland-north-wa/",
+    "/service-areas/lakeland-north-wa/fire-damage-restoration/",
+    "/service-areas/lakeland-north-wa/mold-remediation/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/lakeland-north-wa/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/lakeland-north-wa/",
@@ -6308,6 +6483,15 @@
     "/service-areas/des-moines-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/des-moines-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/des-moines-wa/",
+    "/service-areas/des-moines-wa/fire-damage-restoration/",
+    "/service-areas/des-moines-wa/mold-remediation/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/des-moines-wa/fire-damage-restoration/": [
@@ -6616,6 +6800,15 @@
     "/service-areas/auburn-wa/emergency-plumbing/",
     "/contact/"
   ],
+  "/service-areas/lakeland-south-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/lakeland-south-wa/",
+    "/service-areas/lakeland-south-wa/fire-damage-restoration/",
+    "/service-areas/lakeland-south-wa/mold-remediation/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/lakeland-south-wa/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/lakeland-south-wa/",
@@ -6920,6 +7113,15 @@
     "/service-areas/algona-wa/mold-remediation/",
     "/service-areas/auburn-wa/emergency-plumbing/",
     "/service-areas/bellevue-wa/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/algona-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/algona-wa/",
+    "/service-areas/algona-wa/fire-damage-restoration/",
+    "/service-areas/algona-wa/mold-remediation/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
+    "/service-areas/bellevue-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/algona-wa/fire-damage-restoration/": [
@@ -7228,6 +7430,15 @@
     "/service-areas/auburn-wa/emergency-plumbing/",
     "/contact/"
   ],
+  "/service-areas/milton-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/milton-wa/",
+    "/service-areas/milton-wa/fire-damage-restoration/",
+    "/service-areas/milton-wa/mold-remediation/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/milton-wa/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/milton-wa/",
@@ -7532,6 +7743,15 @@
     "/service-areas/pacific-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/pacific-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/pacific-wa/",
+    "/service-areas/pacific-wa/fire-damage-restoration/",
+    "/service-areas/pacific-wa/mold-remediation/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/pacific-wa/fire-damage-restoration/": [
@@ -7840,6 +8060,15 @@
     "/service-areas/auburn-wa/emergency-plumbing/",
     "/contact/"
   ],
+  "/service-areas/seatac-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/seatac-wa/",
+    "/service-areas/seatac-wa/fire-damage-restoration/",
+    "/service-areas/seatac-wa/mold-remediation/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/seatac-wa/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/seatac-wa/",
@@ -8144,6 +8373,15 @@
     "/service-areas/edgewood-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/edgewood-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/edgewood-wa/",
+    "/service-areas/edgewood-wa/fire-damage-restoration/",
+    "/service-areas/edgewood-wa/mold-remediation/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/edgewood-wa/fire-damage-restoration/": [
@@ -8452,6 +8690,15 @@
     "/service-areas/auburn-wa/emergency-plumbing/",
     "/contact/"
   ],
+  "/service-areas/fife-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/fife-wa/",
+    "/service-areas/fife-wa/fire-damage-restoration/",
+    "/service-areas/fife-wa/mold-remediation/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/fife-wa/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/fife-wa/",
@@ -8756,6 +9003,15 @@
     "/service-areas/normandy-park-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/normandy-park-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/normandy-park-wa/",
+    "/service-areas/normandy-park-wa/fire-damage-restoration/",
+    "/service-areas/normandy-park-wa/mold-remediation/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/normandy-park-wa/fire-damage-restoration/": [
@@ -9064,6 +9320,15 @@
     "/service-areas/auburn-wa/emergency-plumbing/",
     "/contact/"
   ],
+  "/service-areas/vashon-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/vashon-wa/",
+    "/service-areas/vashon-wa/fire-damage-restoration/",
+    "/service-areas/vashon-wa/mold-remediation/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/vashon-wa/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/vashon-wa/",
@@ -9368,6 +9633,15 @@
     "/service-areas/burien-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/burien-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/burien-wa/",
+    "/service-areas/burien-wa/fire-damage-restoration/",
+    "/service-areas/burien-wa/mold-remediation/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/burien-wa/fire-damage-restoration/": [
@@ -9676,6 +9950,15 @@
     "/service-areas/auburn-wa/emergency-plumbing/",
     "/contact/"
   ],
+  "/service-areas/lake-holm-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/lake-holm-wa/",
+    "/service-areas/lake-holm-wa/fire-damage-restoration/",
+    "/service-areas/lake-holm-wa/mold-remediation/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/lake-holm-wa/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/lake-holm-wa/",
@@ -9980,6 +10263,15 @@
     "/service-areas/waller-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/waller-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/waller-wa/",
+    "/service-areas/waller-wa/fire-damage-restoration/",
+    "/service-areas/waller-wa/mold-remediation/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/waller-wa/fire-damage-restoration/": [
@@ -10288,6 +10580,15 @@
     "/service-areas/auburn-wa/emergency-plumbing/",
     "/contact/"
   ],
+  "/service-areas/sumner-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/sumner-wa/",
+    "/service-areas/sumner-wa/fire-damage-restoration/",
+    "/service-areas/sumner-wa/mold-remediation/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/sumner-wa/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/sumner-wa/",
@@ -10592,6 +10893,15 @@
     "/service-areas/north-puyallup-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
+    "/contact/"
+  ],
+  "/service-areas/north-puyallup-wa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/north-puyallup-wa/",
+    "/service-areas/north-puyallup-wa/fire-damage-restoration/",
+    "/service-areas/north-puyallup-wa/mold-remediation/",
+    "/service-areas/algona-wa/emergency-water-removal/",
+    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/north-puyallup-wa/fire-damage-restoration/": [

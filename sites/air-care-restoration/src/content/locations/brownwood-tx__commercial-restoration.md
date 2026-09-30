@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "1b8f349b14ca1c74"
-generated_at: "2026-09-30T14:12:01.758656+00:00"
+generated_at: "2026-09-30T18:41:08.953498+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/brownwood-tx/", "/service-areas/brownwood-tx/fire-damage-restoration/", "/service-areas/brownwood-tx/mold-remediation/", "/service-areas/albany-tx/commercial-restoration/", "/service-areas/anson-tx/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Brownwood", "url": "/service-areas/brownwood-tx/"}, {"name": "commercial-restoration"}]

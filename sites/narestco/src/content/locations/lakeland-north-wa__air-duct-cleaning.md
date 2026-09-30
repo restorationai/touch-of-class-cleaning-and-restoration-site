@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "6ea60ed2a4a30fbb"
-generated_at: "2026-09-30T14:12:21.436443+00:00"
+generated_at: "2026-09-30T18:41:50.426235+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/lakeland-north-wa/", "/service-areas/lakeland-north-wa/fire-damage-restoration/", "/service-areas/lakeland-north-wa/mold-remediation/", "/service-areas/algona-wa/air-duct-cleaning/", "/service-areas/auburn-wa/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lakeland North", "url": "/service-areas/lakeland-north-wa/"}, {"name": "Air Duct Cleaning"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["post construction cleanup", "construction debris cleaning"
 search_intent: "local_service"
 priority: 2.8
 plan_hash: "12b7add4a9a6839a"
-generated_at: "2026-09-30T14:12:22.945065+00:00"
+generated_at: "2026-09-30T18:41:51.989702+00:00"
 manual_override: false
 internal_links: ["/services/post-construction-cleaning/", "/service-areas/oildale-ca/", "/service-areas/oildale-ca/fire-damage-restoration/", "/service-areas/oildale-ca/home-remodeling/", "/service-areas/arvin-ca/post-construction-cleaning/", "/service-areas/bear-valley-springs-ca/post-construction-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oildale", "url": "/service-areas/oildale-ca/"}, {"name": "Post-Construction and Specialty Cleaning"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "604f58d11fa4ed0c"
-generated_at: "2026-09-29T14:31:48.353838+00:00"
+generated_at: "2026-09-30T18:41:22.691415+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/chula-vista-ca/", "/service-areas/chula-vista-ca/fire-damage-restoration/", "/service-areas/chula-vista-ca/mold-remediation/", "/service-areas/berkeley-ca/emergency-plumbing/", "/service-areas/carlsbad-ca/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Chula Vista", "url": "/service-areas/chula-vista-ca/"}, {"name": "emergency-plumbing"}]

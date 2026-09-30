@@ -8,12 +8,12 @@ secondary_keywords: ["water damage restoration"]
 search_intent: "informational_insurance"
 priority: 5.4
 plan_hash: "dff3fea33c65f11b"
-generated_at: "2026-09-29T14:31:48.464932+00:00"
+generated_at: "2026-09-30T18:41:22.815795+00:00"
 manual_override: false
 internal_links: ["/blog/", "/services/water-damage-restoration/", "/blog/burst-pipe-emergency-checklist/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/choosing-a-restoration-company/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Blog", "url": "/blog/"}, {"name": "Does Homeowners Insurance Cover Water Damage? A Plain-English Guide"}]
 faq: []
-published_at: "2026-09-12"
+published_at: "2026-09-13"
 services: ["water-damage-restoration"]
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug dry1-out-restoration-and-construction` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->

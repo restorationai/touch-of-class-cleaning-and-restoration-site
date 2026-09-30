@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "908dacb718d7f78d"
-generated_at: "2026-09-30T14:12:07.181746+00:00"
+generated_at: "2026-09-30T18:41:19.895720+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/greenville-pa/", "/service-areas/greenville-pa/fire-damage-restoration/", "/service-areas/greenville-pa/mold-remediation/", "/service-areas/austintown-oh/smoke-damage-restoration/", "/service-areas/boardman-oh/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Greenville", "url": "/service-areas/greenville-pa/"}, {"name": "smoke-damage-restoration"}]

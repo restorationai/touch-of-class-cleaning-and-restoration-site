@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "4e3805d749af9b65"
-generated_at: "2026-09-29T23:31:28.370203+00:00"
+generated_at: "2026-09-30T18:41:22.705080+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-damage-cleanup-and-repair/", "/service-areas/oceanside-ca/", "/service-areas/oceanside-ca/fire-damage-restoration/", "/service-areas/oceanside-ca/mold-remediation/", "/service-areas/berkeley-ca/vandalism-damage-cleanup-and-repair/", "/service-areas/carlsbad-ca/vandalism-damage-cleanup-and-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oceanside", "url": "/service-areas/oceanside-ca/"}, {"name": "Vandalism Damage Cleanup and Repair"}]

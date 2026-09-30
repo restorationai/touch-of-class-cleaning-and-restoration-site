@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "7d7c57d0ca53d50e"
-generated_at: "2026-09-30T14:12:07.201020+00:00"
+generated_at: "2026-09-30T18:41:19.919087+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/new-castle-pa/", "/service-areas/new-castle-pa/fire-damage-restoration/", "/service-areas/new-castle-pa/mold-remediation/", "/service-areas/austintown-oh/smoke-damage-restoration/", "/service-areas/boardman-oh/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "New Castle", "url": "/service-areas/new-castle-pa/"}, {"name": "smoke-damage-restoration"}]

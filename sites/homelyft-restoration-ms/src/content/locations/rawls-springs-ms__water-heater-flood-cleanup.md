@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "0c83f10205c3372f"
-generated_at: "2026-09-30T14:12:12.838835+00:00"
+generated_at: "2026-09-30T18:41:37.582894+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/rawls-springs-ms/", "/service-areas/rawls-springs-ms/fire-damage-restoration/", "/service-areas/rawls-springs-ms/mold-remediation/", "/service-areas/agricola-ms/water-heater-flood-cleanup/", "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rawls Springs", "url": "/service-areas/rawls-springs-ms/"}, {"name": "water-heater-flood-cleanup"}]

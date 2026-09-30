@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 4.5
 plan_hash: "3b2fe9869f14f6b1"
-generated_at: "2026-09-30T14:12:22.930524+00:00"
+generated_at: "2026-09-30T18:41:51.976163+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/arvin-ca/air-duct-cleaning/", "/service-areas/bear-valley-springs-ca/air-duct-cleaning/", "/service-areas/buttonwillow-ca/air-duct-cleaning/", "/service-areas/delano-ca/air-duct-cleaning/", "/service-areas/dustin-acres-ca/air-duct-cleaning/", "/service-areas/east-niles-ca/air-duct-cleaning/", "/service-areas/keene-ca/air-duct-cleaning/", "/service-areas/lake-isabella-ca/air-duct-cleaning/", "/service-areas/lamont-ca/air-duct-cleaning/", "/service-areas/maricopa-ca/air-duct-cleaning/", "/service-areas/mcfarland-ca/air-duct-cleaning/", "/service-areas/oildale-ca/air-duct-cleaning/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Air Duct Cleaning"}]

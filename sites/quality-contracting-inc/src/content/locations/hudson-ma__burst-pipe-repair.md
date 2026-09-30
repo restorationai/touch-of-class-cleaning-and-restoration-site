@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "fc8eecbbed95530a"
-generated_at: "2026-09-30T14:12:26.055572+00:00"
+generated_at: "2026-09-30T18:41:54.766229+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/hudson-ma/", "/service-areas/hudson-ma/fire-damage-restoration/", "/service-areas/hudson-ma/mold-remediation/", "/service-areas/bellingham-ma/burst-pipe-repair/", "/service-areas/east-douglas-ma/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hudson", "url": "/service-areas/hudson-ma/"}, {"name": "burst-pipe-repair"}]

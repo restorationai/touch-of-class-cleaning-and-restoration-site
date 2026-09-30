@@ -55,13 +55,14 @@
   "services": [
     "biohazard-cleanup",
     "contents-restoration-storage",
+    "emergency-water-removal",
     "fire-damage-restoration",
     "general-contracting",
     "mold-remediation",
     "odor-removal",
     "sewage-cleanup",
     "storm-damage-restoration",
-    "emergency-water-removal",
+    "water-cleanup",
     "water-damage-restoration"
   ],
   "service_areas": [

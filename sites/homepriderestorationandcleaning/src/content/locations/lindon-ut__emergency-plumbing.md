@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "56c4c8d68a709b27"
-generated_at: "2026-09-30T14:12:14.608196+00:00"
+generated_at: "2026-09-30T18:41:40.286822+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/lindon-ut/", "/service-areas/lindon-ut/fire-damage-restoration/", "/service-areas/lindon-ut/mold-remediation/", "/service-areas/alpine-ut/emergency-plumbing/", "/service-areas/american-fork-ut/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lindon", "url": "/service-areas/lindon-ut/"}, {"name": "emergency-plumbing"}]

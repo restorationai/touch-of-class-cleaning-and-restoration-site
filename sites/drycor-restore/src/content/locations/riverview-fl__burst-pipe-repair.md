@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "9625cb087310080b"
-generated_at: "2026-09-29T23:28:29.504987+00:00"
+generated_at: "2026-09-30T18:41:26.234795+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/riverview-fl/", "/service-areas/riverview-fl/fire-damage-restoration/", "/service-areas/riverview-fl/mold-remediation/", "/service-areas/anna-maria-fl/burst-pipe-repair/", "/service-areas/apollo-beach-fl/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Riverview", "url": "/service-areas/riverview-fl/"}, {"name": "Burst Pipe Cleanup and Repair"}]

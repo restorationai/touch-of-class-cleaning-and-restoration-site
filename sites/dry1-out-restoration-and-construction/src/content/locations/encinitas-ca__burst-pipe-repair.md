@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "3c816d10dce6c0e0"
-generated_at: "2026-09-29T14:31:48.452515+00:00"
+generated_at: "2026-09-30T18:41:22.803265+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/encinitas-ca/", "/service-areas/encinitas-ca/fire-damage-restoration/", "/service-areas/encinitas-ca/mold-remediation/", "/service-areas/berkeley-ca/burst-pipe-repair/", "/service-areas/carlsbad-ca/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Encinitas", "url": "/service-areas/encinitas-ca/"}, {"name": "burst-pipe-repair"}]

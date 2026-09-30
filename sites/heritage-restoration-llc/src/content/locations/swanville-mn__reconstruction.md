@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "810bdfa07a5e41fe"
-generated_at: "2026-09-29T23:13:48.899329+00:00"
+generated_at: "2026-09-30T18:41:35.541483+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/swanville-mn/", "/service-areas/swanville-mn/fire-damage-restoration/", "/service-areas/swanville-mn/mold-remediation/", "/service-areas/albany-mn/reconstruction/", "/service-areas/avon-mn/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Swanville", "url": "/service-areas/swanville-mn/"}, {"name": "Reconstruction Services"}]

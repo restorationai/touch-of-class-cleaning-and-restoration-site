@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "f99b3ba19c7541cc"
-generated_at: "2026-09-30T14:12:14.564902+00:00"
+generated_at: "2026-09-30T18:41:40.237201+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/south-jordan-ut/", "/service-areas/south-jordan-ut/fire-damage-restoration/", "/service-areas/south-jordan-ut/mold-remediation/", "/service-areas/alpine-ut/water-leak-detection/", "/service-areas/american-fork-ut/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "South Jordan", "url": "/service-areas/south-jordan-ut/"}, {"name": "Water Leak Detection"}]

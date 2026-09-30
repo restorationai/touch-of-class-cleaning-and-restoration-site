@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "07ea302927ed2241"
-generated_at: "2026-09-30T14:12:09.608527+00:00"
+generated_at: "2026-09-30T18:41:21.478035+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/water-heater-flood-cleanup/", "/service-areas/chino-ca/water-heater-flood-cleanup/", "/service-areas/chino-hills-ca/water-heater-flood-cleanup/", "/service-areas/eastvale-ca/water-heater-flood-cleanup/", "/service-areas/fontana-ca/water-heater-flood-cleanup/", "/service-areas/fullerton-ca/water-heater-flood-cleanup/", "/service-areas/jurupa-valley-ca/water-heater-flood-cleanup/", "/service-areas/lake-mathews-ca/water-heater-flood-cleanup/", "/service-areas/montclair-ca/water-heater-flood-cleanup/", "/service-areas/norco-ca/water-heater-flood-cleanup/", "/service-areas/north-tustin-ca/water-heater-flood-cleanup/", "/service-areas/ontario-ca/water-heater-flood-cleanup/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Water Heater Flood Cleanup"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "f872549e9c5464b7"
-generated_at: "2026-09-29T23:28:29.473996+00:00"
+generated_at: "2026-09-30T18:41:26.187803+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/lakeland-fl/", "/service-areas/lakeland-fl/fire-damage-restoration/", "/service-areas/lakeland-fl/mold-remediation/", "/service-areas/anna-maria-fl/burst-pipe-repair/", "/service-areas/apollo-beach-fl/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lakeland", "url": "/service-areas/lakeland-fl/"}, {"name": "Burst Pipe Cleanup and Repair"}]

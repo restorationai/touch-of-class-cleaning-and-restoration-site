@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "2e70001dbe0e97b7"
-generated_at: "2026-09-30T14:12:21.432501+00:00"
+generated_at: "2026-09-30T18:41:50.423108+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/university-place-wa/", "/service-areas/university-place-wa/fire-damage-restoration/", "/service-areas/university-place-wa/mold-remediation/", "/service-areas/algona-wa/emergency-plumbing/", "/service-areas/auburn-wa/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "University Place", "url": "/service-areas/university-place-wa/"}, {"name": "Emergency Plumbing"}]

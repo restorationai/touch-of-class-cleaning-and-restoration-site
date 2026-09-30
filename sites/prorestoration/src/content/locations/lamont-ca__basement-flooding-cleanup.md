@@ -8,7 +8,7 @@ secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet 
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "f40060c1aa76d330"
-generated_at: "2026-09-30T14:12:23.001500+00:00"
+generated_at: "2026-09-30T18:41:52.039015+00:00"
 manual_override: false
 internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/lamont-ca/", "/service-areas/lamont-ca/fire-damage-restoration/", "/service-areas/lamont-ca/home-remodeling/", "/service-areas/arvin-ca/basement-flooding-cleanup/", "/service-areas/bear-valley-springs-ca/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lamont", "url": "/service-areas/lamont-ca/"}, {"name": "basement-flooding-cleanup"}]

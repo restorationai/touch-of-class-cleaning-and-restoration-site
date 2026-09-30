@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "0c99a99906b68265"
-generated_at: "2026-09-23T14:11:38.269855+00:00"
+generated_at: "2026-09-30T18:41:26.282399+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/winter-haven-fl/", "/service-areas/winter-haven-fl/fire-damage-restoration/", "/service-areas/winter-haven-fl/mold-remediation/", "/service-areas/anna-maria-fl/emergency-plumbing/", "/service-areas/apollo-beach-fl/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Winter Haven", "url": "/service-areas/winter-haven-fl/"}, {"name": "Emergency Plumbing"}]

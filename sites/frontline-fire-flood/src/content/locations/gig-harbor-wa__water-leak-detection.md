@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Water Leak Detection in Gig Harbor, WA | Frontline Fire & Flood"
+h1: "Water Leak Detection in Gig Harbor"
+meta_description: "24/7 water leak detection in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (253) 200-0503."
+primary_keyword: "water leak detection gig harbor"
+secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection", "water leak in wall", "leak detection service"]
+search_intent: "local_emergency"
+priority: 4.9
+plan_hash: "e44425f596358446"
+generated_at: "2026-09-30T18:41:30.042696+00:00"
+manual_override: false
+internal_links: ["/services/water-leak-detection/", "/service-areas/gig-harbor-wa/", "/service-areas/gig-harbor-wa/fire-damage-restoration/", "/service-areas/gig-harbor-wa/mold-remediation/", "/service-areas/anderson-island-wa/water-leak-detection/", "/service-areas/auburn-wa/water-leak-detection/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gig Harbor", "url": "/service-areas/gig-harbor-wa/"}, {"name": "water-leak-detection"}]
+faq: []
+area_slug: "gig-harbor-wa"
+service_slug: "water-leak-detection"
+city: "Gig Harbor"
+state: "WA"
+service_display: "water-leak-detection"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug frontline-fire-flood` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Water Leak Detection in Gig Harbor.

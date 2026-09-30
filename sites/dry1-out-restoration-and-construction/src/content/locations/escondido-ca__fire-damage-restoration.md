@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "cf01b62cc8bf9e56"
-generated_at: "2026-09-29T14:31:48.370418+00:00"
+generated_at: "2026-09-30T18:41:22.711449+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/escondido-ca/", "/service-areas/escondido-ca/mold-remediation/", "/service-areas/escondido-ca/water-damage-restoration/", "/service-areas/berkeley-ca/fire-damage-restoration/", "/service-areas/carlsbad-ca/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Escondido", "url": "/service-areas/escondido-ca/"}, {"name": "Fire Damage Restoration"}]

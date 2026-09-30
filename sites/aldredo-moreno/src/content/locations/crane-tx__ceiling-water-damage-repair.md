@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "660d34546a433036"
-generated_at: "2026-09-30T14:12:02.652180+00:00"
+generated_at: "2026-09-30T18:41:10.052459+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/crane-tx/", "/service-areas/crane-tx/fire-damage-restoration/", "/service-areas/crane-tx/mold-remediation/", "/service-areas/andrews-tx/ceiling-water-damage-repair/", "/service-areas/big-lake-tx/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Crane", "url": "/service-areas/crane-tx/"}, {"name": "ceiling-water-damage-repair"}]

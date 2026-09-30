@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "b8612036fd2e8a56"
-generated_at: "2026-09-30T14:12:01.759496+00:00"
+generated_at: "2026-09-30T18:41:08.955685+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/brownwood-tx/", "/service-areas/brownwood-tx/fire-damage-restoration/", "/service-areas/brownwood-tx/mold-remediation/", "/service-areas/albany-tx/water-leak-detection/", "/service-areas/anson-tx/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Brownwood", "url": "/service-areas/brownwood-tx/"}, {"name": "water-leak-detection"}]

@@ -7,10 +7,10 @@ primary_keyword: "restoration services sandy valley"
 secondary_keywords: ["sandy valley restoration company", "damage restoration sandy valley", "sandy valley disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "f2b2f148a026eded"
-generated_at: "2026-09-23T14:11:52.229901+00:00"
+plan_hash: "b08558b375422ff3"
+generated_at: "2026-09-30T18:41:48.427202+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/sandy-valley-nv/fire-damage-restoration/", "/service-areas/sandy-valley-nv/mold-remediation/", "/service-areas/sandy-valley-nv/water-damage-restoration/", "/service-areas/sandy-valley-nv/sewage-cleanup/", "/service-areas/sandy-valley-nv/storm-damage-restoration/", "/service-areas/sandy-valley-nv/emergency-water-removal/", "/service-areas/sandy-valley-nv/biohazard-cleanup/", "/service-areas/sandy-valley-nv/odor-removal/", "/service-areas/sandy-valley-nv/contents-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/cal-nev-ari-nv/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/sandy-valley-nv/fire-damage-restoration/", "/service-areas/sandy-valley-nv/mold-remediation/", "/service-areas/sandy-valley-nv/water-damage-restoration/", "/service-areas/sandy-valley-nv/commercial-restoration/", "/service-areas/sandy-valley-nv/emergency-plumbing/", "/service-areas/sandy-valley-nv/emergency-water-removal/", "/service-areas/sandy-valley-nv/flood-damage-restoration/", "/service-areas/sandy-valley-nv/reconstruction/", "/service-areas/sandy-valley-nv/sewage-cleanup/", "/service-areas/sandy-valley-nv/smoke-damage-restoration/", "/service-areas/sandy-valley-nv/storm-damage-restoration/", "/service-areas/sandy-valley-nv/basement-flooding-cleanup/", "/service-areas/sandy-valley-nv/biohazard-cleanup/", "/service-areas/sandy-valley-nv/burst-pipe-repair/", "/service-areas/sandy-valley-nv/ceiling-water-damage-repair/", "/service-areas/sandy-valley-nv/general-contracting/", "/service-areas/sandy-valley-nv/large-loss-response/", "/service-areas/sandy-valley-nv/mold-inspection-testing/", "/service-areas/sandy-valley-nv/industrial-restoration/", "/service-areas/sandy-valley-nv/odor-removal/", "/service-areas/sandy-valley-nv/water-heater-flood-cleanup/", "/service-areas/sandy-valley-nv/water-leak-detection/", "/service-areas/sandy-valley-nv/contents-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/cal-nev-ari-nv/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sandy Valley"}]
 faq: []
 area_slug: "sandy-valley-nv"

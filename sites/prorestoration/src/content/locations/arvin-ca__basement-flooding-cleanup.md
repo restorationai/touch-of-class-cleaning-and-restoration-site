@@ -8,7 +8,7 @@ secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet 
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "7087dd82763d3801"
-generated_at: "2026-09-30T14:12:22.994749+00:00"
+generated_at: "2026-09-30T18:41:52.032608+00:00"
 manual_override: false
 internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/arvin-ca/", "/service-areas/arvin-ca/fire-damage-restoration/", "/service-areas/arvin-ca/home-remodeling/", "/service-areas/bear-valley-springs-ca/basement-flooding-cleanup/", "/service-areas/buttonwillow-ca/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Arvin", "url": "/service-areas/arvin-ca/"}, {"name": "basement-flooding-cleanup"}]

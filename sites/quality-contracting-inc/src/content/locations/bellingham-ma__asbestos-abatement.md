@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "a57d3a0c04a31f0c"
-generated_at: "2026-09-30T14:12:26.057586+00:00"
+generated_at: "2026-09-30T18:41:54.769549+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/bellingham-ma/", "/service-areas/bellingham-ma/fire-damage-restoration/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/asbestos-abatement/", "/service-areas/fiskdale-ma/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bellingham", "url": "/service-areas/bellingham-ma/"}, {"name": "Asbestos Abatement"}]

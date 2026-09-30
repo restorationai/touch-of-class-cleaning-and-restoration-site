@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "0cd59b4a1c7101d2"
-generated_at: "2026-09-23T14:11:38.267575+00:00"
+generated_at: "2026-09-30T18:41:26.268531+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/new-port-richey-fl/", "/service-areas/new-port-richey-fl/fire-damage-restoration/", "/service-areas/new-port-richey-fl/mold-remediation/", "/service-areas/anna-maria-fl/emergency-plumbing/", "/service-areas/apollo-beach-fl/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "New Port Richey", "url": "/service-areas/new-port-richey-fl/"}, {"name": "Emergency Plumbing"}]

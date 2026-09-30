@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "9f0c1e427d4b7bd2"
-generated_at: "2026-09-30T14:12:12.837647+00:00"
+generated_at: "2026-09-30T18:41:37.579776+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/rawls-springs-ms/", "/service-areas/rawls-springs-ms/fire-damage-restoration/", "/service-areas/rawls-springs-ms/mold-remediation/", "/service-areas/agricola-ms/burst-pipe-repair/", "/service-areas/bay-st-louis-ms/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rawls Springs", "url": "/service-areas/rawls-springs-ms/"}, {"name": "burst-pipe-repair"}]

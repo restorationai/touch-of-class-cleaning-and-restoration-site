@@ -8,7 +8,7 @@ secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrig
 search_intent: "local_emergency"
 priority: 4.2
 plan_hash: "3aeefb68231204ef"
-generated_at: "2026-09-29T23:31:28.371428+00:00"
+generated_at: "2026-09-30T18:41:22.709310+00:00"
 manual_override: false
 internal_links: ["/services/appliance-leak-cleanup/", "/service-areas/escondido-ca/", "/service-areas/escondido-ca/fire-damage-restoration/", "/service-areas/escondido-ca/mold-remediation/", "/service-areas/berkeley-ca/appliance-leak-cleanup/", "/service-areas/carlsbad-ca/appliance-leak-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Escondido", "url": "/service-areas/escondido-ca/"}, {"name": "Appliance Leak Cleanup"}]

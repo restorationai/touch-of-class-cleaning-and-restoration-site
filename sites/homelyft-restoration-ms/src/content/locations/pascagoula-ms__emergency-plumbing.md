@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "ff11adf44c9a9c8f"
-generated_at: "2026-09-30T14:12:12.995174+00:00"
+generated_at: "2026-09-30T18:41:37.775068+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/pascagoula-ms/", "/service-areas/pascagoula-ms/fire-damage-restoration/", "/service-areas/pascagoula-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-plumbing/", "/service-areas/bay-st-louis-ms/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pascagoula", "url": "/service-areas/pascagoula-ms/"}, {"name": "emergency-plumbing"}]

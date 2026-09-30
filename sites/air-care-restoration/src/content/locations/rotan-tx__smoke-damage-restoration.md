@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "1cad041e5d0de0a3"
-generated_at: "2026-09-30T14:12:01.767398+00:00"
+generated_at: "2026-09-30T18:41:08.967914+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/rotan-tx/", "/service-areas/rotan-tx/fire-damage-restoration/", "/service-areas/rotan-tx/mold-remediation/", "/service-areas/albany-tx/smoke-damage-restoration/", "/service-areas/anson-tx/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rotan", "url": "/service-areas/rotan-tx/"}, {"name": "smoke-damage-restoration"}]

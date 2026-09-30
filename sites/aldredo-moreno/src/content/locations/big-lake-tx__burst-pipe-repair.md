@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "42720a8acdda5648"
-generated_at: "2026-09-30T14:12:02.662905+00:00"
+generated_at: "2026-09-30T18:41:10.071657+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/big-lake-tx/", "/service-areas/big-lake-tx/fire-damage-restoration/", "/service-areas/big-lake-tx/mold-remediation/", "/service-areas/andrews-tx/burst-pipe-repair/", "/service-areas/big-spring-tx/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Big Lake", "url": "/service-areas/big-lake-tx/"}, {"name": "burst-pipe-repair"}]

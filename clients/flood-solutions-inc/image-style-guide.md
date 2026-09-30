@@ -213,7 +213,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Sewage Cleanup and Sanitization, Emergency Water Cleanup, Fire Damage Restoration, Content Recovery, Emergency Board Up, Environmental Consultants, Ice Dams, Flood Damage Restoration, Burst Pipe Cleanup and Repair, Basement Flooding Cleanup, Smoke Damage Restoration, Mold Remediation, Mold Inspection and Testing, Storm Damage Restoration, Commercial Restoration, Industrial Restoration, Large Loss and Catastrophic Response, Ceiling Water Damage Repair, Water Heater Flood Cleanup, Water Leak Detection, 24/7 Emergency Water Removal)
+- [ ] (continue for each of Content Recovery, Emergency Board Up, Emergency Water Removal & Cleanup, Environmental Consultants, Fire Damage Restoration, Ice Dams, Sewage Cleanup and Sanitization, Water Damage Restoration, Flood Damage Restoration, Burst Pipe Cleanup and Repair, Basement Flooding Cleanup, Smoke Damage Restoration, Mold Remediation, Mold Inspection and Testing, Storm Damage Restoration, Commercial Restoration, Industrial Restoration, Large Loss and Catastrophic Response, Ceiling Water Damage Repair, Water Heater Flood Cleanup, Water Leak Detection)
 
 ### Service area pages (one image per city served)
 - [ ] Macomb hero — exterior shot, regional housing stock, evocative of the city

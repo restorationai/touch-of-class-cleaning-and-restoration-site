@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "ce6ef3e920f1387a"
-generated_at: "2026-09-29T23:31:28.394588+00:00"
+generated_at: "2026-09-30T18:41:22.790189+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up/", "/service-areas/berkeley-ca/", "/service-areas/berkeley-ca/fire-damage-restoration/", "/service-areas/berkeley-ca/mold-remediation/", "/service-areas/carlsbad-ca/emergency-board-up/", "/service-areas/chula-vista-ca/emergency-board-up/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Berkeley", "url": "/service-areas/berkeley-ca/"}, {"name": "Emergency Board Up"}]

@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "7e68eb79eea63bc4"
-generated_at: "2026-09-30T14:12:22.970323+00:00"
+generated_at: "2026-09-30T18:41:52.011365+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration-storage/", "/service-areas/wasco-ca/", "/service-areas/wasco-ca/fire-damage-restoration/", "/service-areas/wasco-ca/home-remodeling/", "/service-areas/arvin-ca/contents-restoration-storage/", "/service-areas/bear-valley-springs-ca/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wasco", "url": "/service-areas/wasco-ca/"}, {"name": "Contents Restoration & Storage"}]

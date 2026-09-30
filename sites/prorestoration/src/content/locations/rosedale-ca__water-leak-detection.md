@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "1b31999d12c5cc15"
-generated_at: "2026-09-30T14:12:22.953188+00:00"
+generated_at: "2026-09-30T18:41:51.996576+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/rosedale-ca/", "/service-areas/rosedale-ca/fire-damage-restoration/", "/service-areas/rosedale-ca/home-remodeling/", "/service-areas/arvin-ca/water-leak-detection/", "/service-areas/bear-valley-springs-ca/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rosedale", "url": "/service-areas/rosedale-ca/"}, {"name": "Water Leak Detection"}]

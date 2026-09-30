@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "6440dd210766266f"
-generated_at: "2026-09-30T14:12:09.721244+00:00"
+generated_at: "2026-09-30T18:41:21.579994+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/lake-mathews-ca/", "/service-areas/lake-mathews-ca/mold-remediation/", "/service-areas/lake-mathews-ca/roofing/", "/service-areas/anaheim-ca/fire-damage-restoration/", "/service-areas/chino-ca/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Mathews", "url": "/service-areas/lake-mathews-ca/"}, {"name": "Fire Damage Restoration"}]

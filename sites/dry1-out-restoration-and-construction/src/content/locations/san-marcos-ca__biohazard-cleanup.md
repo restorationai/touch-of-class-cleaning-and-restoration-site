@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "267a24a8f6c7bf8a"
-generated_at: "2026-09-29T14:31:48.387258+00:00"
+generated_at: "2026-09-30T18:41:22.727375+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/san-marcos-ca/", "/service-areas/san-marcos-ca/fire-damage-restoration/", "/service-areas/san-marcos-ca/mold-remediation/", "/service-areas/berkeley-ca/biohazard-cleanup/", "/service-areas/carlsbad-ca/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Marcos", "url": "/service-areas/san-marcos-ca/"}, {"name": "Biohazard Cleanup"}]

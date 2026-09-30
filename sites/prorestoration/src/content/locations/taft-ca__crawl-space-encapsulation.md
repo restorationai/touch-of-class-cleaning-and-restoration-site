@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "e00ce3c924701851"
-generated_at: "2026-09-30T14:12:22.977852+00:00"
+generated_at: "2026-09-30T18:41:52.017645+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/taft-ca/", "/service-areas/taft-ca/fire-damage-restoration/", "/service-areas/taft-ca/home-remodeling/", "/service-areas/arvin-ca/crawl-space-encapsulation/", "/service-areas/bear-valley-springs-ca/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Taft", "url": "/service-areas/taft-ca/"}, {"name": "Crawl Space Encapsulation"}]

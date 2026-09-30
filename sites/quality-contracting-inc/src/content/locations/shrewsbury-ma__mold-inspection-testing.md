@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "82fde902d5d58c19"
-generated_at: "2026-09-30T14:12:25.925811+00:00"
+generated_at: "2026-09-30T18:41:54.624681+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/shrewsbury-ma/", "/service-areas/shrewsbury-ma/fire-damage-restoration/", "/service-areas/shrewsbury-ma/mold-remediation/", "/service-areas/bellingham-ma/mold-inspection-testing/", "/service-areas/east-douglas-ma/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Shrewsbury", "url": "/service-areas/shrewsbury-ma/"}, {"name": "mold-inspection-testing"}]

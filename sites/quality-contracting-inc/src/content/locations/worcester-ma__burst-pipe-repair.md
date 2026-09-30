@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "40c98a0628cc0bfa"
-generated_at: "2026-09-30T14:12:25.919406+00:00"
+generated_at: "2026-09-30T18:41:54.617264+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/worcester-ma/", "/service-areas/worcester-ma/fire-damage-restoration/", "/service-areas/worcester-ma/mold-remediation/", "/service-areas/bellingham-ma/burst-pipe-repair/", "/service-areas/east-douglas-ma/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Worcester", "url": "/service-areas/worcester-ma/"}, {"name": "burst-pipe-repair"}]

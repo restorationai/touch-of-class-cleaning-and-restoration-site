@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "c30fd0e6bb1c42d5"
-generated_at: "2026-09-28T20:50:26.623891+00:00"
+generated_at: "2026-09-30T18:41:56.190109+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/searchlight-nv/", "/service-areas/searchlight-nv/fire-damage-restoration/", "/service-areas/searchlight-nv/mold-remediation/", "/service-areas/blue-diamond-nv/reconstruction/", "/service-areas/boulder-city-nv/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Searchlight", "url": "/service-areas/searchlight-nv/"}, {"name": "reconstruction"}]

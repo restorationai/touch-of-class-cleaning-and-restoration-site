@@ -8,7 +8,7 @@ secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet 
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "90d111d32eea0466"
-generated_at: "2026-09-30T14:12:01.790961+00:00"
+generated_at: "2026-09-30T18:41:09.006714+00:00"
 manual_override: false
 internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/ballinger-tx/", "/service-areas/ballinger-tx/fire-damage-restoration/", "/service-areas/ballinger-tx/mold-remediation/", "/service-areas/albany-tx/basement-flooding-cleanup/", "/service-areas/anson-tx/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ballinger", "url": "/service-areas/ballinger-tx/"}, {"name": "basement-flooding-cleanup"}]

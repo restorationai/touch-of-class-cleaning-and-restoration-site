@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "71766a35adddf588"
-generated_at: "2026-09-23T14:11:38.262152+00:00"
+generated_at: "2026-09-30T18:41:26.235841+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/riverview-fl/", "/service-areas/riverview-fl/fire-damage-restoration/", "/service-areas/riverview-fl/mold-remediation/", "/service-areas/anna-maria-fl/emergency-plumbing/", "/service-areas/apollo-beach-fl/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Riverview", "url": "/service-areas/riverview-fl/"}, {"name": "Emergency Plumbing"}]

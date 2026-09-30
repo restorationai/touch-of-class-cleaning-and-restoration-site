@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "a1ca6fb7633b886d"
-generated_at: "2026-09-29T23:13:48.916504+00:00"
+generated_at: "2026-09-30T18:41:35.568171+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/long-prairie-mn/", "/service-areas/long-prairie-mn/fire-damage-restoration/", "/service-areas/long-prairie-mn/mold-remediation/", "/service-areas/albany-mn/commercial-restoration/", "/service-areas/avon-mn/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Long Prairie", "url": "/service-areas/long-prairie-mn/"}, {"name": "Commercial Restoration"}]

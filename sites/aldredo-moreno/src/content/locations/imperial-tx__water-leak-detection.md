@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "d8a699adfcb6b927"
-generated_at: "2026-09-30T14:12:02.667484+00:00"
+generated_at: "2026-09-30T18:41:10.081105+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/imperial-tx/", "/service-areas/imperial-tx/fire-damage-restoration/", "/service-areas/imperial-tx/mold-remediation/", "/service-areas/andrews-tx/water-leak-detection/", "/service-areas/big-lake-tx/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Imperial", "url": "/service-areas/imperial-tx/"}, {"name": "water-leak-detection"}]

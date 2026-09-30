@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "d2ab3c5bb3204fe1"
-generated_at: "2026-09-30T14:12:09.719450+00:00"
+generated_at: "2026-09-30T18:41:21.578816+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/lake-mathews-ca/", "/service-areas/lake-mathews-ca/fire-damage-restoration/", "/service-areas/lake-mathews-ca/mold-remediation/", "/service-areas/anaheim-ca/commercial-restoration/", "/service-areas/chino-ca/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Mathews", "url": "/service-areas/lake-mathews-ca/"}, {"name": "Commercial Restoration"}]

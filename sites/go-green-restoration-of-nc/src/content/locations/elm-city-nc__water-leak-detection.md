@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "8f406438da2ff2fb"
-generated_at: "2026-09-29T23:13:49.336177+00:00"
+generated_at: "2026-09-30T18:41:33.382416+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/elm-city-nc/", "/service-areas/elm-city-nc/fire-damage-restoration/", "/service-areas/elm-city-nc/mold-remediation/", "/service-areas/archer-lodge-nc/water-leak-detection/", "/service-areas/clayton-nc/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elm City", "url": "/service-areas/elm-city-nc/"}, {"name": "Water Leak Detection"}]

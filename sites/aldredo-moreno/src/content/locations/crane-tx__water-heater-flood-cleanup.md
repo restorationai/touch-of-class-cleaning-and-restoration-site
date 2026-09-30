@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "4f7160c8786a2d92"
-generated_at: "2026-09-30T14:12:02.652302+00:00"
+generated_at: "2026-09-30T18:41:10.052762+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/crane-tx/", "/service-areas/crane-tx/fire-damage-restoration/", "/service-areas/crane-tx/mold-remediation/", "/service-areas/andrews-tx/water-heater-flood-cleanup/", "/service-areas/big-lake-tx/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Crane", "url": "/service-areas/crane-tx/"}, {"name": "water-heater-flood-cleanup"}]

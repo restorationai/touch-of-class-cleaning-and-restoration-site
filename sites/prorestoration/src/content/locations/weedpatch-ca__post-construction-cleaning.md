@@ -8,7 +8,7 @@ secondary_keywords: ["post construction cleanup", "construction debris cleaning"
 search_intent: "local_service"
 priority: 2.8
 plan_hash: "189198a660c12c7b"
-generated_at: "2026-09-30T14:12:23.038269+00:00"
+generated_at: "2026-09-30T18:41:52.071730+00:00"
 manual_override: false
 internal_links: ["/services/post-construction-cleaning/", "/service-areas/weedpatch-ca/", "/service-areas/weedpatch-ca/fire-damage-restoration/", "/service-areas/weedpatch-ca/home-remodeling/", "/service-areas/arvin-ca/post-construction-cleaning/", "/service-areas/bear-valley-springs-ca/post-construction-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Weedpatch", "url": "/service-areas/weedpatch-ca/"}, {"name": "Post-Construction and Specialty Cleaning"}]

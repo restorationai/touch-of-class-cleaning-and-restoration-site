@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "61efa9181d744b9a"
-generated_at: "2026-09-30T14:12:25.940182+00:00"
+generated_at: "2026-09-30T18:41:54.640816+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/hopkinton-ma/", "/service-areas/hopkinton-ma/fire-damage-restoration/", "/service-areas/hopkinton-ma/mold-remediation/", "/service-areas/bellingham-ma/emergency-plumbing/", "/service-areas/east-douglas-ma/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hopkinton", "url": "/service-areas/hopkinton-ma/"}, {"name": "Emergency Plumbing"}]

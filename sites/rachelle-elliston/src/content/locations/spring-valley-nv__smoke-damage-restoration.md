@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "9da113c6cf3b244b"
-generated_at: "2026-09-28T20:50:26.585211+00:00"
+generated_at: "2026-09-30T18:41:56.092779+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/spring-valley-nv/", "/service-areas/spring-valley-nv/fire-damage-restoration/", "/service-areas/spring-valley-nv/mold-remediation/", "/service-areas/blue-diamond-nv/smoke-damage-restoration/", "/service-areas/boulder-city-nv/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Spring Valley", "url": "/service-areas/spring-valley-nv/"}, {"name": "smoke-damage-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 8.1
 plan_hash: "ab267104f679045a"
-generated_at: "2026-09-29T14:31:48.308629+00:00"
+generated_at: "2026-09-30T18:41:22.641510+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/emergency-plumbing/", "/service-areas/carlsbad-ca/emergency-plumbing/", "/service-areas/chula-vista-ca/emergency-plumbing/", "/service-areas/concord-ca/emergency-plumbing/", "/service-areas/el-cajon-ca/emergency-plumbing/", "/service-areas/encinitas-ca/emergency-plumbing/", "/service-areas/escondido-ca/emergency-plumbing/", "/service-areas/fremont-ca/emergency-plumbing/", "/service-areas/hayward-ca/emergency-plumbing/", "/service-areas/oakland-ca/emergency-plumbing/", "/service-areas/oceanside-ca/emergency-plumbing/", "/service-areas/san-diego-ca/emergency-plumbing/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "emergency-plumbing"}]

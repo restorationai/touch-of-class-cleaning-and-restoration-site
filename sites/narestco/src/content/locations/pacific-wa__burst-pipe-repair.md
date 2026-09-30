@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "b1e0725f27a1c654"
-generated_at: "2026-09-30T14:12:21.497884+00:00"
+generated_at: "2026-09-30T18:41:50.477132+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/pacific-wa/", "/service-areas/pacific-wa/fire-damage-restoration/", "/service-areas/pacific-wa/mold-remediation/", "/service-areas/algona-wa/burst-pipe-repair/", "/service-areas/auburn-wa/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pacific", "url": "/service-areas/pacific-wa/"}, {"name": "Burst Pipe Cleanup and Repair"}]

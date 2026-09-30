@@ -8,7 +8,7 @@ secondary_keywords: ["lead paint removal", "lead paint testing", "lead-safe reno
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "0b0b030115c247ba"
-generated_at: "2026-09-30T14:12:19.465412+00:00"
+generated_at: "2026-09-30T18:41:44.227537+00:00"
 manual_override: false
 internal_links: ["/services/lead-paint-abatement/", "/service-areas/fox-chapel-pa/", "/service-areas/fox-chapel-pa/fire-damage-restoration/", "/service-areas/fox-chapel-pa/roofing/", "/service-areas/allison-park-pa/lead-paint-abatement/", "/service-areas/baldwin-pa/lead-paint-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fox Chapel", "url": "/service-areas/fox-chapel-pa/"}, {"name": "Lead Paint Abatement"}]

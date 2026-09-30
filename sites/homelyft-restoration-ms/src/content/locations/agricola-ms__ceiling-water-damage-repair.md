@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "13dada5c6d4809aa"
-generated_at: "2026-09-30T14:12:13.008713+00:00"
+generated_at: "2026-09-30T18:41:37.791616+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/agricola-ms/", "/service-areas/agricola-ms/fire-damage-restoration/", "/service-areas/agricola-ms/mold-remediation/", "/service-areas/bay-st-louis-ms/ceiling-water-damage-repair/", "/service-areas/benndale-ms/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Agricola", "url": "/service-areas/agricola-ms/"}, {"name": "ceiling-water-damage-repair"}]

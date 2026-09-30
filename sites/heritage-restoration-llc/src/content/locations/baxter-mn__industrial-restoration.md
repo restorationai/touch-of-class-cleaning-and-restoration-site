@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "c19f9fba3fbc10f7"
-generated_at: "2026-09-29T23:13:48.862303+00:00"
+generated_at: "2026-09-30T18:41:35.486265+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/baxter-mn/", "/service-areas/baxter-mn/fire-damage-restoration/", "/service-areas/baxter-mn/mold-remediation/", "/service-areas/albany-mn/industrial-restoration/", "/service-areas/avon-mn/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Baxter", "url": "/service-areas/baxter-mn/"}, {"name": "Industrial Restoration"}]

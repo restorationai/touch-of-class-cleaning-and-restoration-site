@@ -8,7 +8,7 @@ secondary_keywords: ["junk removal", "debris removal", "house cleanout", "garage
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "9beeebde000bef88"
-generated_at: "2026-09-30T14:12:14.648276+00:00"
+generated_at: "2026-09-30T18:41:40.329837+00:00"
 manual_override: false
 internal_links: ["/services/junk-debris-removal/", "/service-areas/alpine-ut/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/junk-debris-removal/", "/service-areas/benjamin-ut/junk-debris-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Alpine", "url": "/service-areas/alpine-ut/"}, {"name": "Junk & Debris Removal"}]

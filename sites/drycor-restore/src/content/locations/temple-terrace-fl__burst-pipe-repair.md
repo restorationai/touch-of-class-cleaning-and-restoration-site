@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "91d90930909a543d"
-generated_at: "2026-09-29T23:28:29.471163+00:00"
+generated_at: "2026-09-30T18:41:26.183154+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/temple-terrace-fl/", "/service-areas/temple-terrace-fl/fire-damage-restoration/", "/service-areas/temple-terrace-fl/mold-remediation/", "/service-areas/anna-maria-fl/burst-pipe-repair/", "/service-areas/apollo-beach-fl/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Temple Terrace", "url": "/service-areas/temple-terrace-fl/"}, {"name": "Burst Pipe Cleanup and Repair"}]

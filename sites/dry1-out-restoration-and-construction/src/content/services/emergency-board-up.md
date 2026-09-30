@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 4.5
 plan_hash: "8c0a65708e3852fd"
-generated_at: "2026-09-29T23:31:28.352550+00:00"
+generated_at: "2026-09-30T18:41:22.634718+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/emergency-board-up/", "/service-areas/carlsbad-ca/emergency-board-up/", "/service-areas/chula-vista-ca/emergency-board-up/", "/service-areas/concord-ca/emergency-board-up/", "/service-areas/el-cajon-ca/emergency-board-up/", "/service-areas/encinitas-ca/emergency-board-up/", "/service-areas/escondido-ca/emergency-board-up/", "/service-areas/fremont-ca/emergency-board-up/", "/service-areas/hayward-ca/emergency-board-up/", "/service-areas/oakland-ca/emergency-board-up/", "/service-areas/oceanside-ca/emergency-board-up/", "/service-areas/san-diego-ca/emergency-board-up/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Emergency Board Up"}]

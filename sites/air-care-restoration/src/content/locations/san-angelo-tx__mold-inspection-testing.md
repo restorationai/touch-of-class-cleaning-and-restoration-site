@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "66f8be83fc222a91"
-generated_at: "2026-09-30T14:12:01.782249+00:00"
+generated_at: "2026-09-30T18:41:08.992719+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/san-angelo-tx/", "/service-areas/san-angelo-tx/fire-damage-restoration/", "/service-areas/san-angelo-tx/mold-remediation/", "/service-areas/albany-tx/mold-inspection-testing/", "/service-areas/anson-tx/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Angelo", "url": "/service-areas/san-angelo-tx/"}, {"name": "mold-inspection-testing"}]

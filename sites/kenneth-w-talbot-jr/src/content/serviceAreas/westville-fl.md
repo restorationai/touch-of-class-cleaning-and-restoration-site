@@ -7,10 +7,10 @@ primary_keyword: "restoration services westville"
 secondary_keywords: ["westville restoration company", "damage restoration westville", "westville disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "0793aba8480436ea"
-generated_at: "2026-09-20T14:13:20.063603+00:00"
+plan_hash: "cc4470f22f0ff2b4"
+generated_at: "2026-09-30T18:41:45.048574+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/westville-fl/fire-damage-restoration/", "/service-areas/westville-fl/mold-remediation/", "/service-areas/westville-fl/water-damage-restoration/", "/service-areas/westville-fl/storm-damage-restoration/", "/service-areas/westville-fl/emergency-water-removal/", "/service-areas/crestview-fl/", "/service-areas/defuniak-springs-fl/", "/service-areas/destin-fl/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/westville-fl/fire-damage-restoration/", "/service-areas/westville-fl/mold-remediation/", "/service-areas/westville-fl/water-damage-restoration/", "/service-areas/westville-fl/commercial-restoration/", "/service-areas/westville-fl/emergency-plumbing/", "/service-areas/westville-fl/emergency-water-removal/", "/service-areas/westville-fl/flood-damage-restoration/", "/service-areas/westville-fl/reconstruction/", "/service-areas/westville-fl/sewage-cleanup/", "/service-areas/westville-fl/smoke-damage-restoration/", "/service-areas/westville-fl/storm-damage-restoration/", "/service-areas/westville-fl/basement-flooding-cleanup/", "/service-areas/westville-fl/burst-pipe-repair/", "/service-areas/westville-fl/ceiling-water-damage-repair/", "/service-areas/westville-fl/general-contracting/", "/service-areas/westville-fl/large-loss-response/", "/service-areas/westville-fl/mold-inspection-testing/", "/service-areas/westville-fl/industrial-restoration/", "/service-areas/westville-fl/water-heater-flood-cleanup/", "/service-areas/westville-fl/water-leak-detection/", "/service-areas/crestview-fl/", "/service-areas/defuniak-springs-fl/", "/service-areas/destin-fl/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Westville"}]
 faq: []
 area_slug: "westville-fl"

@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "efc14601df049a00"
-generated_at: "2026-09-30T14:12:01.737664+00:00"
+generated_at: "2026-09-30T18:41:08.925783+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/sweetwater-tx/", "/service-areas/sweetwater-tx/fire-damage-restoration/", "/service-areas/sweetwater-tx/mold-remediation/", "/service-areas/albany-tx/burst-pipe-repair/", "/service-areas/anson-tx/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sweetwater", "url": "/service-areas/sweetwater-tx/"}, {"name": "burst-pipe-repair"}]

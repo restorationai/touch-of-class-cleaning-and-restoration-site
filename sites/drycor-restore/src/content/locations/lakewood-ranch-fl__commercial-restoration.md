@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "da2a49e88a587217"
-generated_at: "2026-09-29T23:28:29.583342+00:00"
+generated_at: "2026-09-30T18:41:26.380304+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/lakewood-ranch-fl/", "/service-areas/lakewood-ranch-fl/fire-damage-restoration/", "/service-areas/lakewood-ranch-fl/mold-remediation/", "/service-areas/anna-maria-fl/commercial-restoration/", "/service-areas/apollo-beach-fl/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lakewood Ranch", "url": "/service-areas/lakewood-ranch-fl/"}, {"name": "Commercial Restoration"}]

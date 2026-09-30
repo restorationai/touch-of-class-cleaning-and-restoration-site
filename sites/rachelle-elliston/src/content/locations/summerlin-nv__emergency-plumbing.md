@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "2a116364b10f32ff"
-generated_at: "2026-09-28T20:50:26.594592+00:00"
+generated_at: "2026-09-30T18:41:56.109969+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/summerlin-nv/", "/service-areas/summerlin-nv/fire-damage-restoration/", "/service-areas/summerlin-nv/mold-remediation/", "/service-areas/blue-diamond-nv/emergency-plumbing/", "/service-areas/boulder-city-nv/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Summerlin", "url": "/service-areas/summerlin-nv/"}, {"name": "emergency-plumbing"}]

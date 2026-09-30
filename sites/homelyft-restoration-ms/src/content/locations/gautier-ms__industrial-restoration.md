@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "13e99b16e85f53dc"
-generated_at: "2026-09-30T14:12:12.960345+00:00"
+generated_at: "2026-09-30T18:41:37.733067+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/gautier-ms/", "/service-areas/gautier-ms/fire-damage-restoration/", "/service-areas/gautier-ms/mold-remediation/", "/service-areas/agricola-ms/industrial-restoration/", "/service-areas/bay-st-louis-ms/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gautier", "url": "/service-areas/gautier-ms/"}, {"name": "industrial-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "445076b5000f3a48"
-generated_at: "2026-09-28T20:50:26.613646+00:00"
+generated_at: "2026-09-30T18:41:56.161961+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/nelson-nv/", "/service-areas/nelson-nv/fire-damage-restoration/", "/service-areas/nelson-nv/mold-remediation/", "/service-areas/blue-diamond-nv/industrial-restoration/", "/service-areas/boulder-city-nv/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Nelson", "url": "/service-areas/nelson-nv/"}, {"name": "industrial-restoration"}]

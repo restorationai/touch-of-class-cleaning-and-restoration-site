@@ -8,7 +8,7 @@ secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet 
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "9c58ae2330af9aa9"
-generated_at: "2026-09-30T14:12:01.758269+00:00"
+generated_at: "2026-09-30T18:41:08.952792+00:00"
 manual_override: false
 internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/brownwood-tx/", "/service-areas/brownwood-tx/fire-damage-restoration/", "/service-areas/brownwood-tx/mold-remediation/", "/service-areas/albany-tx/basement-flooding-cleanup/", "/service-areas/anson-tx/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Brownwood", "url": "/service-areas/brownwood-tx/"}, {"name": "basement-flooding-cleanup"}]

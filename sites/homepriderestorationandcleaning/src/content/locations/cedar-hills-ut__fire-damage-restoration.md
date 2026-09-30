@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "57fe791eb571d368"
-generated_at: "2026-09-30T14:12:14.620097+00:00"
+generated_at: "2026-09-30T18:41:40.299499+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/cedar-hills-ut/", "/service-areas/cedar-hills-ut/mold-remediation/", "/service-areas/cedar-hills-ut/water-damage-restoration/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/american-fork-ut/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Cedar Hills", "url": "/service-areas/cedar-hills-ut/"}, {"name": "Fire Damage Restoration"}]

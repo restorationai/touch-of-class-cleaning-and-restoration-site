@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "37c086aa0c0ce9db"
-generated_at: "2026-09-30T14:12:21.510331+00:00"
+generated_at: "2026-09-30T18:41:50.487833+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/seatac-wa/", "/service-areas/seatac-wa/fire-damage-restoration/", "/service-areas/seatac-wa/mold-remediation/", "/service-areas/algona-wa/commercial-restoration/", "/service-areas/auburn-wa/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "SeaTac", "url": "/service-areas/seatac-wa/"}, {"name": "Commercial Restoration"}]

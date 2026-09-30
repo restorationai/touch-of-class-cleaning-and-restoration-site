@@ -26,6 +26,31 @@
       "triaged_at": "2026-09-15T14:08:41Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipN_5qM749Eb-OB9XH9DnDlugo5iPV9JRecP4foq": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipN_5qM749Eb-OB9XH9DnDlugo5iPV9JRecP4foq.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1789170047342/job-photos/posted/gbp-AF1QipN_5qM749Eb-OB9XH9DnDlugo5iPV9JRecP4foq.jpg",
+      "width": 1024,
+      "height": 576,
+      "bytes": 125086,
+      "sha1": "d29a8ceac57fe8d2",
+      "exif": {},
+      "category": "unusable",
+      "subject": "miniature figurines on blueprints with model house frame",
+      "quality": 30,
+      "slots": {
+        "hero": 5,
+        "team": 0,
+        "services": 5
+      },
+      "service_slugs": [],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Generic stock/render image of toy construction scene, not real jobsite.",
+      "triaged_at": "2026-09-30T18:49:00Z",
+      "triage_model": "claude-sonnet-5"
+    },
     "gbp:gbp-AF1QipP9-r4LvgHuB-EyrfD2wgmOkLHGGpO7aAVoS-V0": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipP9-r4LvgHuB-EyrfD2wgmOkLHGGpO7aAVoS-V0.jpg",
@@ -597,5 +622,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-15T14:09:22Z"
+  "triaged_at": "2026-09-30T18:49:00Z"
 }

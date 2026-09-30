@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "f8db93b78ba27569"
-generated_at: "2026-09-30T14:12:07.176297+00:00"
+generated_at: "2026-09-30T18:41:19.890083+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/west-middlesex-pa/", "/service-areas/west-middlesex-pa/fire-damage-restoration/", "/service-areas/west-middlesex-pa/mold-remediation/", "/service-areas/austintown-oh/water-leak-detection/", "/service-areas/boardman-oh/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "West Middlesex", "url": "/service-areas/west-middlesex-pa/"}, {"name": "water-leak-detection"}]

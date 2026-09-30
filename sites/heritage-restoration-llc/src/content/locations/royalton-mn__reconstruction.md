@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "a8f7e5ffad57b22b"
-generated_at: "2026-09-29T23:13:48.869906+00:00"
+generated_at: "2026-09-30T18:41:35.499978+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/royalton-mn/", "/service-areas/royalton-mn/fire-damage-restoration/", "/service-areas/royalton-mn/mold-remediation/", "/service-areas/albany-mn/reconstruction/", "/service-areas/avon-mn/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Royalton", "url": "/service-areas/royalton-mn/"}, {"name": "Reconstruction Services"}]

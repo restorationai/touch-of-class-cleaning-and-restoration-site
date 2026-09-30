@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "ddfc16f8ca9e0ad1"
-generated_at: "2026-09-30T14:12:14.597323+00:00"
+generated_at: "2026-09-30T18:41:40.274236+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/highland-ut/", "/service-areas/highland-ut/fire-damage-restoration/", "/service-areas/highland-ut/mold-remediation/", "/service-areas/alpine-ut/water-leak-detection/", "/service-areas/american-fork-ut/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Highland", "url": "/service-areas/highland-ut/"}, {"name": "Water Leak Detection"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "883f5ec8b17d3a1c"
-generated_at: "2026-09-28T20:50:26.595051+00:00"
+generated_at: "2026-09-30T18:41:56.111576+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/boulder-city-nv/", "/service-areas/boulder-city-nv/fire-damage-restoration/", "/service-areas/boulder-city-nv/mold-remediation/", "/service-areas/blue-diamond-nv/burst-pipe-repair/", "/service-areas/enterprise-nv/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Boulder City", "url": "/service-areas/boulder-city-nv/"}, {"name": "burst-pipe-repair"}]

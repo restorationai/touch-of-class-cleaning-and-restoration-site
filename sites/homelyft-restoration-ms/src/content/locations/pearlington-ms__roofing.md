@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "f54d743569584444"
-generated_at: "2026-09-30T14:12:12.915690+00:00"
+generated_at: "2026-09-30T18:41:37.676888+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/pearlington-ms/", "/service-areas/pearlington-ms/fire-damage-restoration/", "/service-areas/pearlington-ms/mold-remediation/", "/service-areas/agricola-ms/roofing/", "/service-areas/bay-st-louis-ms/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pearlington", "url": "/service-areas/pearlington-ms/"}, {"name": "Roofing Installation and Replacement"}]

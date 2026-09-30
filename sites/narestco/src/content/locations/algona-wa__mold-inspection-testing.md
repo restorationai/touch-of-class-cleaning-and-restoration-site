@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "526c88dba1e8a89d"
-generated_at: "2026-09-30T14:12:21.478859+00:00"
+generated_at: "2026-09-30T18:41:50.461966+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/algona-wa/", "/service-areas/algona-wa/fire-damage-restoration/", "/service-areas/algona-wa/mold-remediation/", "/service-areas/auburn-wa/mold-inspection-testing/", "/service-areas/bellevue-wa/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Algona", "url": "/service-areas/algona-wa/"}, {"name": "Mold Inspection and Testing"}]

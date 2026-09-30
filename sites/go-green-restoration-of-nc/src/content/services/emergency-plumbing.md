@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 8.1
 plan_hash: "2a502d183e7fdecf"
-generated_at: "2026-09-29T23:13:49.265433+00:00"
+generated_at: "2026-09-30T18:41:33.234195+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/archer-lodge-nc/emergency-plumbing/", "/service-areas/clayton-nc/emergency-plumbing/", "/service-areas/durham-nc/emergency-plumbing/", "/service-areas/elm-city-nc/emergency-plumbing/", "/service-areas/kenly-nc/emergency-plumbing/", "/service-areas/knightdale-nc/emergency-plumbing/", "/service-areas/lake-royale-nc/emergency-plumbing/", "/service-areas/louisburg-nc/emergency-plumbing/", "/service-areas/nashville-nc/emergency-plumbing/", "/service-areas/pine-level-nc/emergency-plumbing/", "/service-areas/raleigh-nc/emergency-plumbing/", "/service-areas/rocky-mount-nc/emergency-plumbing/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Emergency Plumbing"}]

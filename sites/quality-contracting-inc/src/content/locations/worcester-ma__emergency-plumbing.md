@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "877bf664f385e6bd"
-generated_at: "2026-09-30T14:12:25.916678+00:00"
+generated_at: "2026-09-30T18:41:54.614647+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/worcester-ma/", "/service-areas/worcester-ma/fire-damage-restoration/", "/service-areas/worcester-ma/mold-remediation/", "/service-areas/bellingham-ma/emergency-plumbing/", "/service-areas/east-douglas-ma/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Worcester", "url": "/service-areas/worcester-ma/"}, {"name": "Emergency Plumbing"}]

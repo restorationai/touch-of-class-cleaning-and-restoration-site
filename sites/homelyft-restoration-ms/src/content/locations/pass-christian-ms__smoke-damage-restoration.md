@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "8b5de6c49aba6c7c"
-generated_at: "2026-09-30T14:12:12.894075+00:00"
+generated_at: "2026-09-30T18:41:37.649977+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/pass-christian-ms/", "/service-areas/pass-christian-ms/fire-damage-restoration/", "/service-areas/pass-christian-ms/mold-remediation/", "/service-areas/agricola-ms/smoke-damage-restoration/", "/service-areas/bay-st-louis-ms/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pass Christian", "url": "/service-areas/pass-christian-ms/"}, {"name": "smoke-damage-restoration"}]

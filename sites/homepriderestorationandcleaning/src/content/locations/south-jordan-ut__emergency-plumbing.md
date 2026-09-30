@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "77f40b07b17c3a9f"
-generated_at: "2026-09-30T14:12:14.566828+00:00"
+generated_at: "2026-09-30T18:41:40.239944+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/south-jordan-ut/", "/service-areas/south-jordan-ut/fire-damage-restoration/", "/service-areas/south-jordan-ut/mold-remediation/", "/service-areas/alpine-ut/emergency-plumbing/", "/service-areas/american-fork-ut/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "South Jordan", "url": "/service-areas/south-jordan-ut/"}, {"name": "emergency-plumbing"}]

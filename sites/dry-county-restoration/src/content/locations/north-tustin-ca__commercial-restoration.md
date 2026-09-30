@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "57bb72ef7b73a1d0"
-generated_at: "2026-09-30T14:12:09.747615+00:00"
+generated_at: "2026-09-30T18:41:21.604230+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/north-tustin-ca/", "/service-areas/north-tustin-ca/fire-damage-restoration/", "/service-areas/north-tustin-ca/mold-remediation/", "/service-areas/anaheim-ca/commercial-restoration/", "/service-areas/chino-ca/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Tustin", "url": "/service-areas/north-tustin-ca/"}, {"name": "Commercial Restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "b6b8e0fac95b0f6e"
-generated_at: "2026-09-30T14:12:13.022689+00:00"
+generated_at: "2026-09-30T18:41:37.809100+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/ellisville-ms/", "/service-areas/ellisville-ms/fire-damage-restoration/", "/service-areas/ellisville-ms/mold-remediation/", "/service-areas/agricola-ms/ceiling-water-damage-repair/", "/service-areas/bay-st-louis-ms/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ellisville", "url": "/service-areas/ellisville-ms/"}, {"name": "ceiling-water-damage-repair"}]

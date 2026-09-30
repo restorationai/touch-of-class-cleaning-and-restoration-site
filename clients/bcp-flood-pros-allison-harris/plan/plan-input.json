@@ -25,6 +25,7 @@
     "biohazard-cleanup",
     "contents-restoration-storage",
     "emergency-board-up-tarping",
+    "emergency-water-removal",
     "fire-damage-restoration",
     "flood-equipment-rental",
     "general-contracting",
@@ -33,6 +34,7 @@
     "roofing",
     "sewage-cleanup",
     "storm-damage-restoration",
+    "water-cleanup",
     "water-damage-restoration"
   ],
   "service_areas": [
@@ -149,5 +151,16 @@
     }
   ],
   "template": "restoration",
-  "blog_seed_count": 8
+  "blog_seed_count": 8,
+  "homepage_services": [
+    "fire-damage-restoration",
+    "mold-remediation",
+    "water-damage-restoration",
+    "sewage-cleanup",
+    "storm-damage-restoration",
+    "general-contracting"
+  ],
+  "merged_services": {
+    "water-cleanup": "emergency-water-removal"
+  }
 }

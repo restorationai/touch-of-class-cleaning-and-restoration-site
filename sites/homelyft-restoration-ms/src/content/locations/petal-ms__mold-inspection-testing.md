@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "d58b4b6eee1b6bbb"
-generated_at: "2026-09-30T14:12:12.833449+00:00"
+generated_at: "2026-09-30T18:41:37.574940+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/petal-ms/", "/service-areas/petal-ms/fire-damage-restoration/", "/service-areas/petal-ms/mold-remediation/", "/service-areas/agricola-ms/mold-inspection-testing/", "/service-areas/bay-st-louis-ms/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Petal", "url": "/service-areas/petal-ms/"}, {"name": "mold-inspection-testing"}]

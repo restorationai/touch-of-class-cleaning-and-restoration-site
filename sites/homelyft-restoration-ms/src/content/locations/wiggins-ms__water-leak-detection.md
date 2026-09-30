@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "b638b4bf1509411e"
-generated_at: "2026-09-30T14:12:12.930566+00:00"
+generated_at: "2026-09-30T18:41:37.695292+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/wiggins-ms/", "/service-areas/wiggins-ms/fire-damage-restoration/", "/service-areas/wiggins-ms/mold-remediation/", "/service-areas/agricola-ms/water-leak-detection/", "/service-areas/bay-st-louis-ms/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wiggins", "url": "/service-areas/wiggins-ms/"}, {"name": "Water Leak Detection"}]

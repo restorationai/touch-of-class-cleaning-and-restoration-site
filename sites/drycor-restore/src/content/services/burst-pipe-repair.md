@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 7.2
 plan_hash: "a42688d7d9a85224"
-generated_at: "2026-09-29T23:28:29.460817+00:00"
+generated_at: "2026-09-30T18:41:26.141924+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/anna-maria-fl/burst-pipe-repair/", "/service-areas/apollo-beach-fl/burst-pipe-repair/", "/service-areas/auburndale-fl/burst-pipe-repair/", "/service-areas/bartow-fl/burst-pipe-repair/", "/service-areas/bradenton-fl/burst-pipe-repair/", "/service-areas/brandon-fl/burst-pipe-repair/", "/service-areas/clearwater-beach-fl/burst-pipe-repair/", "/service-areas/clearwater-fl/burst-pipe-repair/", "/service-areas/crystal-springs-fl/burst-pipe-repair/", "/service-areas/dade-city-fl/burst-pipe-repair/", "/service-areas/davenport-fl/burst-pipe-repair/", "/service-areas/dover-fl/burst-pipe-repair/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Burst Pipe Cleanup and Repair"}]

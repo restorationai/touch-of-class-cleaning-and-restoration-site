@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "5129321eaed17694"
-generated_at: "2026-09-30T14:12:02.630152+00:00"
+generated_at: "2026-09-30T18:41:10.011761+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/stanton-tx/", "/service-areas/stanton-tx/fire-damage-restoration/", "/service-areas/stanton-tx/mold-remediation/", "/service-areas/andrews-tx/smoke-damage-restoration/", "/service-areas/big-lake-tx/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Stanton", "url": "/service-areas/stanton-tx/"}, {"name": "smoke-damage-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "f3942b420deb8558"
-generated_at: "2026-09-28T20:50:26.583901+00:00"
+generated_at: "2026-09-30T18:41:56.090075+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/paradise-nv/", "/service-areas/paradise-nv/fire-damage-restoration/", "/service-areas/paradise-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-heater-flood-cleanup/", "/service-areas/boulder-city-nv/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Paradise", "url": "/service-areas/paradise-nv/"}, {"name": "water-heater-flood-cleanup"}]

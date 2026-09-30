@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "5bbb0f5bf94596b8"
-generated_at: "2026-09-30T14:12:21.369517+00:00"
+generated_at: "2026-09-30T18:41:50.376492+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/kent-wa/", "/service-areas/kent-wa/fire-damage-restoration/", "/service-areas/kent-wa/mold-remediation/", "/service-areas/algona-wa/air-duct-cleaning/", "/service-areas/auburn-wa/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Kent", "url": "/service-areas/kent-wa/"}, {"name": "Air Duct Cleaning"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "20cfa998dca651d6"
-generated_at: "2026-09-29T23:13:49.308141+00:00"
+generated_at: "2026-09-30T18:41:33.324579+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/kenly-nc/", "/service-areas/kenly-nc/fire-damage-restoration/", "/service-areas/kenly-nc/mold-remediation/", "/service-areas/archer-lodge-nc/mold-inspection-testing/", "/service-areas/clayton-nc/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Kenly", "url": "/service-areas/kenly-nc/"}, {"name": "Mold Inspection and Testing"}]

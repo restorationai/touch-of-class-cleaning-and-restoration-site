@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "0cdb3ce30c915161"
-generated_at: "2026-09-29T14:31:48.457336+00:00"
+generated_at: "2026-09-30T18:41:22.808791+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/santa-cruz-ca/", "/service-areas/santa-cruz-ca/fire-damage-restoration/", "/service-areas/santa-cruz-ca/mold-remediation/", "/service-areas/berkeley-ca/general-contracting/", "/service-areas/carlsbad-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Santa Cruz", "url": "/service-areas/santa-cruz-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "266f373b0cf7fcf5"
-generated_at: "2026-09-30T14:12:14.542100+00:00"
+generated_at: "2026-09-30T18:41:40.209341+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/american-fork-ut/", "/service-areas/american-fork-ut/fire-damage-restoration/", "/service-areas/american-fork-ut/mold-remediation/", "/service-areas/alpine-ut/commercial-restoration/", "/service-areas/benjamin-ut/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "American Fork", "url": "/service-areas/american-fork-ut/"}, {"name": "commercial-restoration"}]

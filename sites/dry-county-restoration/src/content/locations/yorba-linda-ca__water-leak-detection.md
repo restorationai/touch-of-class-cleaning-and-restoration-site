@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "29cd5605d9dc947d"
-generated_at: "2026-09-30T14:12:09.716694+00:00"
+generated_at: "2026-09-30T18:41:21.576457+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/yorba-linda-ca/", "/service-areas/yorba-linda-ca/fire-damage-restoration/", "/service-areas/yorba-linda-ca/mold-remediation/", "/service-areas/anaheim-ca/water-leak-detection/", "/service-areas/chino-ca/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Yorba Linda", "url": "/service-areas/yorba-linda-ca/"}, {"name": "Water Leak Detection"}]

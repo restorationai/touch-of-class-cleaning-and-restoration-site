@@ -8,7 +8,7 @@ secondary_keywords: ["roof leak cleanup", "ceiling water damage", "attic water d
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "773d0c7324dd4c88"
-generated_at: "2026-09-30T14:12:21.588641+00:00"
+generated_at: "2026-09-30T18:41:50.555953+00:00"
 manual_override: false
 internal_links: ["/services/roof-leak-repair/", "/service-areas/lake-holm-wa/", "/service-areas/lake-holm-wa/fire-damage-restoration/", "/service-areas/lake-holm-wa/mold-remediation/", "/service-areas/algona-wa/roof-leak-repair/", "/service-areas/auburn-wa/roof-leak-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Holm", "url": "/service-areas/lake-holm-wa/"}, {"name": "Roof Leak Cleanup and Repair"}]

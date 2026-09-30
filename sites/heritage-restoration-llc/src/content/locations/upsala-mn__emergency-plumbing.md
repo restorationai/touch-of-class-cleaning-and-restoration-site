@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "544690236d6ff42c"
-generated_at: "2026-09-29T23:13:48.901147+00:00"
+generated_at: "2026-09-30T18:41:35.544732+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/upsala-mn/", "/service-areas/upsala-mn/fire-damage-restoration/", "/service-areas/upsala-mn/mold-remediation/", "/service-areas/albany-mn/emergency-plumbing/", "/service-areas/avon-mn/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Upsala", "url": "/service-areas/upsala-mn/"}, {"name": "Emergency Plumbing"}]

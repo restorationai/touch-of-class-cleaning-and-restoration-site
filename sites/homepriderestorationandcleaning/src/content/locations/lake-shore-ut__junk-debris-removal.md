@@ -8,7 +8,7 @@ secondary_keywords: ["junk removal", "debris removal", "house cleanout", "garage
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "16f7dc11637b53b9"
-generated_at: "2026-09-30T14:12:14.666266+00:00"
+generated_at: "2026-09-30T18:41:40.349799+00:00"
 manual_override: false
 internal_links: ["/services/junk-debris-removal/", "/service-areas/lake-shore-ut/", "/service-areas/lake-shore-ut/fire-damage-restoration/", "/service-areas/lake-shore-ut/mold-remediation/", "/service-areas/alpine-ut/junk-debris-removal/", "/service-areas/american-fork-ut/junk-debris-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Shore", "url": "/service-areas/lake-shore-ut/"}, {"name": "Junk & Debris Removal"}]

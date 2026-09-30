@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "d8caa571c89162dd"
-generated_at: "2026-09-30T14:12:01.776446+00:00"
+generated_at: "2026-09-30T18:41:08.983260+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/eden-tx/", "/service-areas/eden-tx/fire-damage-restoration/", "/service-areas/eden-tx/mold-remediation/", "/service-areas/albany-tx/commercial-restoration/", "/service-areas/anson-tx/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Eden", "url": "/service-areas/eden-tx/"}, {"name": "commercial-restoration"}]

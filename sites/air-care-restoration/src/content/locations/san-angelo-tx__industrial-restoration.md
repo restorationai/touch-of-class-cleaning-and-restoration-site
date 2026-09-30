@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "0b5f5585e5906f3f"
-generated_at: "2026-09-30T14:12:01.782511+00:00"
+generated_at: "2026-09-30T18:41:08.993344+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/san-angelo-tx/", "/service-areas/san-angelo-tx/fire-damage-restoration/", "/service-areas/san-angelo-tx/mold-remediation/", "/service-areas/albany-tx/industrial-restoration/", "/service-areas/anson-tx/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Angelo", "url": "/service-areas/san-angelo-tx/"}, {"name": "industrial-restoration"}]

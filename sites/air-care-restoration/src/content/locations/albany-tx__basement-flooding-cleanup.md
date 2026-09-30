@@ -8,7 +8,7 @@ secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet 
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "57e632d46b9f0727"
-generated_at: "2026-09-30T14:12:01.796844+00:00"
+generated_at: "2026-09-30T18:41:09.016467+00:00"
 manual_override: false
 internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/albany-tx/", "/service-areas/albany-tx/fire-damage-restoration/", "/service-areas/albany-tx/mold-remediation/", "/service-areas/anson-tx/basement-flooding-cleanup/", "/service-areas/baird-tx/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Albany", "url": "/service-areas/albany-tx/"}, {"name": "basement-flooding-cleanup"}]

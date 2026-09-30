@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "e39495a16f26724d"
-generated_at: "2026-09-29T23:13:49.323052+00:00"
+generated_at: "2026-09-30T18:41:33.354832+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/rolesville-nc/", "/service-areas/rolesville-nc/fire-damage-restoration/", "/service-areas/rolesville-nc/mold-remediation/", "/service-areas/archer-lodge-nc/general-contracting/", "/service-areas/clayton-nc/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rolesville", "url": "/service-areas/rolesville-nc/"}, {"name": "Renovations, Remodels and General Contracting"}]

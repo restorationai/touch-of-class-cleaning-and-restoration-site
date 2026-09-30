@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "eb8a4e914187a37a"
-generated_at: "2026-09-30T14:12:13.006071+00:00"
+generated_at: "2026-09-30T18:41:37.787729+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/agricola-ms/", "/service-areas/agricola-ms/fire-damage-restoration/", "/service-areas/agricola-ms/mold-remediation/", "/service-areas/bay-st-louis-ms/roofing/", "/service-areas/benndale-ms/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Agricola", "url": "/service-areas/agricola-ms/"}, {"name": "Roofing Installation and Replacement"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "4e7c8fee1b8b4552"
-generated_at: "2026-09-30T14:12:01.790809+00:00"
+generated_at: "2026-09-30T18:41:09.006414+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/ballinger-tx/", "/service-areas/ballinger-tx/fire-damage-restoration/", "/service-areas/ballinger-tx/mold-remediation/", "/service-areas/albany-tx/burst-pipe-repair/", "/service-areas/anson-tx/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ballinger", "url": "/service-areas/ballinger-tx/"}, {"name": "burst-pipe-repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "55f89326aa7613e2"
-generated_at: "2026-09-30T14:12:14.542380+00:00"
+generated_at: "2026-09-30T18:41:40.209939+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/american-fork-ut/", "/service-areas/american-fork-ut/fire-damage-restoration/", "/service-areas/american-fork-ut/mold-remediation/", "/service-areas/alpine-ut/reconstruction/", "/service-areas/benjamin-ut/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "American Fork", "url": "/service-areas/american-fork-ut/"}, {"name": "reconstruction"}]

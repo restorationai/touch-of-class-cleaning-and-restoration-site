@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "b4498524bb2308f7"
-generated_at: "2026-09-29T23:13:48.898254+00:00"
+generated_at: "2026-09-30T18:41:35.539936+00:00"
 manual_override: false
 internal_links: ["/services/job-type-id-basement-remodeling/", "/service-areas/swanville-mn/", "/service-areas/swanville-mn/fire-damage-restoration/", "/service-areas/swanville-mn/mold-remediation/", "/service-areas/albany-mn/job-type-id-basement-remodeling/", "/service-areas/avon-mn/job-type-id-basement-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Swanville", "url": "/service-areas/swanville-mn/"}, {"name": "Basement Remodeling"}]

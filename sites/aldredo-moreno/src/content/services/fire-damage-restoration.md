@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 9.0
 plan_hash: "e664cbc3cab4dde6"
-generated_at: "2026-09-30T14:12:02.619999+00:00"
+generated_at: "2026-09-30T18:41:09.994246+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/fire-damage-restoration/", "/service-areas/big-lake-tx/fire-damage-restoration/", "/service-areas/big-spring-tx/fire-damage-restoration/", "/service-areas/crane-tx/fire-damage-restoration/", "/service-areas/garden-city-tx/fire-damage-restoration/", "/service-areas/gardendale-tx/fire-damage-restoration/", "/service-areas/goldsmith-tx/fire-damage-restoration/", "/service-areas/greenwood-tx/fire-damage-restoration/", "/service-areas/imperial-tx/fire-damage-restoration/", "/service-areas/mccamey-tx/fire-damage-restoration/", "/service-areas/monahans-tx/fire-damage-restoration/", "/service-areas/odessa-tx/fire-damage-restoration/", "/blog/choosing-a-restoration-company/", "/blog/fire-damage-restoration-process/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "fire-damage-restoration"}]

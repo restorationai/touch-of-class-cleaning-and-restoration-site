@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "81e9cd986ca11276"
-generated_at: "2026-09-30T14:12:14.616158+00:00"
+generated_at: "2026-09-30T18:41:40.294926+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/fairfield-ut/", "/service-areas/fairfield-ut/fire-damage-restoration/", "/service-areas/fairfield-ut/mold-remediation/", "/service-areas/alpine-ut/commercial-restoration/", "/service-areas/american-fork-ut/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fairfield", "url": "/service-areas/fairfield-ut/"}, {"name": "commercial-restoration"}]

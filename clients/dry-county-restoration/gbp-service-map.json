@@ -86,6 +86,12 @@
       "reason": "Room-specific mold remediation",
       "at": "2026-09-30"
     },
+    "Bathroom remodeler": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
+      "at": "2026-09-30"
+    },
     "Bathroom Remodeling": {
       "verdict": "mapped",
       "page": "general-contracting",
@@ -736,6 +742,12 @@
       "reason": "not a real service: Generic non-specific term",
       "at": "2026-09-30"
     },
+    "Remodeler": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
+      "at": "2026-09-30"
+    },
     "Removal And Drying": {
       "verdict": "mapped",
       "page": "water-damage-restoration",
@@ -832,6 +844,12 @@
       "page": "emergency-board-up-tarping",
       "source": "claude",
       "reason": "Tarping service match",
+      "at": "2026-09-30"
+    },
+    "Roofing contractor": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
       "at": "2026-09-30"
     },
     "Roofing Services": {

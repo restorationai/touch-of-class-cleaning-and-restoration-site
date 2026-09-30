@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "16cd4340cd464c53"
-generated_at: "2026-09-30T14:12:02.631502+00:00"
+generated_at: "2026-09-30T18:41:10.014879+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/stanton-tx/", "/service-areas/stanton-tx/fire-damage-restoration/", "/service-areas/stanton-tx/mold-remediation/", "/service-areas/andrews-tx/water-leak-detection/", "/service-areas/big-lake-tx/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Stanton", "url": "/service-areas/stanton-tx/"}, {"name": "water-leak-detection"}]

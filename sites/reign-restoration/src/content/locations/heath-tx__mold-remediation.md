@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "2129164c639dd81a"
-generated_at: "2026-09-23T14:12:04.482855+00:00"
+generated_at: "2026-09-30T18:41:58.704522+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/heath-tx/", "/service-areas/heath-tx/fire-damage-restoration/", "/service-areas/heath-tx/roofing/", "/service-areas/allen-tx/mold-remediation/", "/service-areas/caddo-mills-tx/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Heath", "url": "/service-areas/heath-tx/"}, {"name": "Mold Remediation"}]

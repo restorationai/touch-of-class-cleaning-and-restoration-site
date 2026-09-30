@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "ce1f070b7a4d35fc"
-generated_at: "2026-09-30T14:12:01.767656+00:00"
+generated_at: "2026-09-30T18:41:08.968538+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/rotan-tx/", "/service-areas/rotan-tx/fire-damage-restoration/", "/service-areas/rotan-tx/mold-remediation/", "/service-areas/albany-tx/commercial-restoration/", "/service-areas/anson-tx/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rotan", "url": "/service-areas/rotan-tx/"}, {"name": "commercial-restoration"}]

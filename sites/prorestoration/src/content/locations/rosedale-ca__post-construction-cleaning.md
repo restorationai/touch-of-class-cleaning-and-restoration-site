@@ -8,7 +8,7 @@ secondary_keywords: ["post construction cleanup", "construction debris cleaning"
 search_intent: "local_service"
 priority: 2.8
 plan_hash: "a5d5d6af1416afa3"
-generated_at: "2026-09-30T14:12:22.951816+00:00"
+generated_at: "2026-09-30T18:41:51.995592+00:00"
 manual_override: false
 internal_links: ["/services/post-construction-cleaning/", "/service-areas/rosedale-ca/", "/service-areas/rosedale-ca/fire-damage-restoration/", "/service-areas/rosedale-ca/home-remodeling/", "/service-areas/arvin-ca/post-construction-cleaning/", "/service-areas/bear-valley-springs-ca/post-construction-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rosedale", "url": "/service-areas/rosedale-ca/"}, {"name": "Post-Construction and Specialty Cleaning"}]

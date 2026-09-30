@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "3be0f51b8e3896b6"
-generated_at: "2026-09-29T14:31:48.455311+00:00"
+generated_at: "2026-09-30T18:41:22.805778+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/encinitas-ca/", "/service-areas/encinitas-ca/fire-damage-restoration/", "/service-areas/encinitas-ca/mold-remediation/", "/service-areas/berkeley-ca/water-leak-detection/", "/service-areas/carlsbad-ca/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Encinitas", "url": "/service-areas/encinitas-ca/"}, {"name": "water-leak-detection"}]

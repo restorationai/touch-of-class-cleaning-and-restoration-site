@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "26aea12b3ff0e7b8"
-generated_at: "2026-09-28T20:50:26.580195+00:00"
+generated_at: "2026-09-30T18:41:56.083141+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/henderson-nv/", "/service-areas/henderson-nv/fire-damage-restoration/", "/service-areas/henderson-nv/mold-remediation/", "/service-areas/blue-diamond-nv/smoke-damage-restoration/", "/service-areas/boulder-city-nv/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Henderson", "url": "/service-areas/henderson-nv/"}, {"name": "smoke-damage-restoration"}]

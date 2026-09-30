@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "4056290b56292e2c"
-generated_at: "2026-09-30T14:12:01.761912+00:00"
+generated_at: "2026-09-30T18:41:08.959432+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/early-tx/", "/service-areas/early-tx/fire-damage-restoration/", "/service-areas/early-tx/mold-remediation/", "/service-areas/albany-tx/reconstruction/", "/service-areas/anson-tx/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Early", "url": "/service-areas/early-tx/"}, {"name": "reconstruction"}]

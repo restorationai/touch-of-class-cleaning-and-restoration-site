@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "44c757f683ab49c2"
-generated_at: "2026-09-23T14:11:42.618446+00:00"
+generated_at: "2026-09-30T18:41:30.099776+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/anderson-island-wa/", "/service-areas/anderson-island-wa/fire-damage-restoration/", "/service-areas/anderson-island-wa/mold-remediation/", "/service-areas/auburn-wa/emergency-plumbing/", "/service-areas/bellevue-wa/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Anderson Island", "url": "/service-areas/anderson-island-wa/"}, {"name": "Emergency Plumbing"}]

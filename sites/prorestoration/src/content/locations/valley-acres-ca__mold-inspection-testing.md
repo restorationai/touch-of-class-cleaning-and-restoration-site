@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "2bd0fd053ff176c9"
-generated_at: "2026-09-30T14:12:23.079312+00:00"
+generated_at: "2026-09-30T18:41:52.108582+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/valley-acres-ca/", "/service-areas/valley-acres-ca/fire-damage-restoration/", "/service-areas/valley-acres-ca/home-remodeling/", "/service-areas/arvin-ca/mold-inspection-testing/", "/service-areas/bear-valley-springs-ca/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Valley Acres", "url": "/service-areas/valley-acres-ca/"}, {"name": "Mold Inspection and Testing"}]

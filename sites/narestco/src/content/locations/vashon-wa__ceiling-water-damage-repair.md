@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "d749ee244bfd9bfc"
-generated_at: "2026-09-30T14:12:21.557734+00:00"
+generated_at: "2026-09-30T18:41:50.528607+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/vashon-wa/", "/service-areas/vashon-wa/fire-damage-restoration/", "/service-areas/vashon-wa/mold-remediation/", "/service-areas/algona-wa/ceiling-water-damage-repair/", "/service-areas/auburn-wa/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vashon", "url": "/service-areas/vashon-wa/"}, {"name": "Ceiling Water Damage Repair"}]

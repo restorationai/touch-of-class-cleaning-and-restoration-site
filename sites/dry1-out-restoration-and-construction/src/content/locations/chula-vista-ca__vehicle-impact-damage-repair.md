@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "81a7de9aeb61af78"
-generated_at: "2026-09-29T23:31:28.365432+00:00"
+generated_at: "2026-09-30T18:41:22.687809+00:00"
 manual_override: false
 internal_links: ["/services/vehicle-impact-damage-repair/", "/service-areas/chula-vista-ca/", "/service-areas/chula-vista-ca/fire-damage-restoration/", "/service-areas/chula-vista-ca/mold-remediation/", "/service-areas/berkeley-ca/vehicle-impact-damage-repair/", "/service-areas/carlsbad-ca/vehicle-impact-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Chula Vista", "url": "/service-areas/chula-vista-ca/"}, {"name": "Vehicle Impact Damage Repair"}]

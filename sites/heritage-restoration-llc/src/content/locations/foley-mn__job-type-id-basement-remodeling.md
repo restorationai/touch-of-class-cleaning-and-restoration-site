@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "edfa2cea8ab52edf"
-generated_at: "2026-09-29T23:13:48.865756+00:00"
+generated_at: "2026-09-30T18:41:35.492484+00:00"
 manual_override: false
 internal_links: ["/services/job-type-id-basement-remodeling/", "/service-areas/foley-mn/", "/service-areas/foley-mn/fire-damage-restoration/", "/service-areas/foley-mn/mold-remediation/", "/service-areas/albany-mn/job-type-id-basement-remodeling/", "/service-areas/avon-mn/job-type-id-basement-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Foley", "url": "/service-areas/foley-mn/"}, {"name": "Basement Remodeling"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "066ffe9c305691d2"
-generated_at: "2026-09-30T14:12:23.001210+00:00"
+generated_at: "2026-09-30T18:41:52.038707+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/lamont-ca/", "/service-areas/lamont-ca/fire-damage-restoration/", "/service-areas/lamont-ca/home-remodeling/", "/service-areas/arvin-ca/water-leak-detection/", "/service-areas/bear-valley-springs-ca/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lamont", "url": "/service-areas/lamont-ca/"}, {"name": "Water Leak Detection"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "7777512db93fc764"
-generated_at: "2026-09-30T14:12:19.446895+00:00"
+generated_at: "2026-09-30T18:41:44.210831+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/pleasant-hills-pa/", "/service-areas/pleasant-hills-pa/fire-damage-restoration/", "/service-areas/pleasant-hills-pa/roofing/", "/service-areas/allison-park-pa/asbestos-abatement/", "/service-areas/baldwin-pa/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pleasant Hills", "url": "/service-areas/pleasant-hills-pa/"}, {"name": "Asbestos Abatement"}]

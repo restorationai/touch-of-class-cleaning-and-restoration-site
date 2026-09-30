@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "8b8222e2ae52e8d7"
-generated_at: "2026-09-30T14:12:13.008337+00:00"
+generated_at: "2026-09-30T18:41:37.790702+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/agricola-ms/", "/service-areas/agricola-ms/fire-damage-restoration/", "/service-areas/agricola-ms/mold-remediation/", "/service-areas/bay-st-louis-ms/industrial-restoration/", "/service-areas/benndale-ms/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Agricola", "url": "/service-areas/agricola-ms/"}, {"name": "industrial-restoration"}]

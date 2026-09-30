@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "a745173cbad136f9"
-generated_at: "2026-09-30T14:12:07.106239+00:00"
+generated_at: "2026-09-30T18:41:19.802098+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/austintown-oh/", "/service-areas/austintown-oh/fire-damage-restoration/", "/service-areas/austintown-oh/mold-remediation/", "/service-areas/boardman-oh/ceiling-water-damage-repair/", "/service-areas/campbell-oh/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Austintown", "url": "/service-areas/austintown-oh/"}, {"name": "ceiling-water-damage-repair"}]

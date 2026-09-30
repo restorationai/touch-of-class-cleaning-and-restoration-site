@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "967ae622d24063ec"
-generated_at: "2026-09-30T14:12:12.833039+00:00"
+generated_at: "2026-09-30T18:41:37.574075+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/petal-ms/", "/service-areas/petal-ms/fire-damage-restoration/", "/service-areas/petal-ms/mold-remediation/", "/service-areas/agricola-ms/burst-pipe-repair/", "/service-areas/bay-st-louis-ms/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Petal", "url": "/service-areas/petal-ms/"}, {"name": "burst-pipe-repair"}]

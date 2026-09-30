@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "2b43b7b1d5b2ce97"
-generated_at: "2026-09-29T23:13:48.891917+00:00"
+generated_at: "2026-09-30T18:41:35.536999+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/fort-ripley-mn/", "/service-areas/fort-ripley-mn/fire-damage-restoration/", "/service-areas/fort-ripley-mn/mold-remediation/", "/service-areas/albany-mn/water-heater-flood-cleanup/", "/service-areas/avon-mn/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fort Ripley", "url": "/service-areas/fort-ripley-mn/"}, {"name": "Water Heater Flood Cleanup"}]

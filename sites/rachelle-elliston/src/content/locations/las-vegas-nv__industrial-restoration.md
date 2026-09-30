@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "ea2ba701c40bc6f1"
-generated_at: "2026-09-28T20:50:26.578158+00:00"
+generated_at: "2026-09-30T18:41:56.079119+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/las-vegas-nv/", "/service-areas/las-vegas-nv/fire-damage-restoration/", "/service-areas/las-vegas-nv/mold-remediation/", "/service-areas/blue-diamond-nv/industrial-restoration/", "/service-areas/boulder-city-nv/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Las Vegas", "url": "/service-areas/las-vegas-nv/"}, {"name": "industrial-restoration"}]

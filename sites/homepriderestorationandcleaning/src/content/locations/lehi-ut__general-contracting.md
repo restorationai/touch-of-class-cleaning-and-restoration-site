@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "149be6d6acbba758"
-generated_at: "2026-09-30T14:12:14.533090+00:00"
+generated_at: "2026-09-30T18:41:40.199012+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/lehi-ut/", "/service-areas/lehi-ut/fire-damage-restoration/", "/service-areas/lehi-ut/mold-remediation/", "/service-areas/alpine-ut/general-contracting/", "/service-areas/american-fork-ut/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lehi", "url": "/service-areas/lehi-ut/"}, {"name": "general-contracting"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "ea8ae9814bbbe085"
-generated_at: "2026-09-30T14:12:12.951184+00:00"
+generated_at: "2026-09-30T18:41:37.721768+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/big-point-ms/", "/service-areas/big-point-ms/fire-damage-restoration/", "/service-areas/big-point-ms/mold-remediation/", "/service-areas/agricola-ms/reconstruction/", "/service-areas/bay-st-louis-ms/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Big Point", "url": "/service-areas/big-point-ms/"}, {"name": "reconstruction"}]

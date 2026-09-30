@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "c8db4ea8ddb8c47e"
-generated_at: "2026-09-29T23:13:48.881397+00:00"
+generated_at: "2026-09-30T18:41:35.520639+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/randall-mn/", "/service-areas/randall-mn/fire-damage-restoration/", "/service-areas/randall-mn/mold-remediation/", "/service-areas/albany-mn/commercial-restoration/", "/service-areas/avon-mn/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Randall", "url": "/service-areas/randall-mn/"}, {"name": "Commercial Restoration"}]

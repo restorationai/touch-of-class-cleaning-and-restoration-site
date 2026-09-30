@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "32b61c533b1169b9"
-generated_at: "2026-09-30T14:12:01.746506+00:00"
+generated_at: "2026-09-30T18:41:08.937003+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/anson-tx/", "/service-areas/anson-tx/fire-damage-restoration/", "/service-areas/anson-tx/mold-remediation/", "/service-areas/albany-tx/burst-pipe-repair/", "/service-areas/baird-tx/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Anson", "url": "/service-areas/anson-tx/"}, {"name": "burst-pipe-repair"}]

@@ -7,6 +7,7 @@
   "template": "restoration",
   "services": [
     "air-duct-cleaning",
+    "air-duct-hvac-cleaning",
     "appliance-leak-cleanup",
     "asbestos-abatement",
     "basement-flooding-cleanup",
@@ -19,6 +20,7 @@
     "crime-scene-cleanup",
     "emergency-board-up-tarping",
     "emergency-plumbing",
+    "emergency-water-removal",
     "fire-damage-restoration",
     "flood-damage-restoration",
     "frozen-pipe-restoration",
@@ -38,7 +40,7 @@
     "storm-damage-restoration",
     "trauma-scene-cleanup",
     "unattended-death-cleanup",
-    "emergency-water-removal",
+    "water-cleanup",
     "water-damage-restoration",
     "water-leak-detection"
   ],

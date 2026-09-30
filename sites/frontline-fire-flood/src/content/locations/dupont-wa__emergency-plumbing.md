@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "9b8e916e3ae71c68"
-generated_at: "2026-09-23T14:11:42.578662+00:00"
+generated_at: "2026-09-30T18:41:30.012965+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/dupont-wa/", "/service-areas/dupont-wa/fire-damage-restoration/", "/service-areas/dupont-wa/mold-remediation/", "/service-areas/anderson-island-wa/emergency-plumbing/", "/service-areas/auburn-wa/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "DuPont", "url": "/service-areas/dupont-wa/"}, {"name": "Emergency Plumbing"}]

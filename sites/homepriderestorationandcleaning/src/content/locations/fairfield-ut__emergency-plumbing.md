@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "ec4052f90cb453ad"
-generated_at: "2026-09-30T14:12:14.617305+00:00"
+generated_at: "2026-09-30T18:41:40.296703+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/fairfield-ut/", "/service-areas/fairfield-ut/fire-damage-restoration/", "/service-areas/fairfield-ut/mold-remediation/", "/service-areas/alpine-ut/emergency-plumbing/", "/service-areas/american-fork-ut/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fairfield", "url": "/service-areas/fairfield-ut/"}, {"name": "emergency-plumbing"}]

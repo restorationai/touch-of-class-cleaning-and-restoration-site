@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "5dd65aebba4fd091"
-generated_at: "2026-09-29T23:13:49.272286+00:00"
+generated_at: "2026-09-30T18:41:33.252771+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/durham-nc/", "/service-areas/durham-nc/fire-damage-restoration/", "/service-areas/durham-nc/mold-remediation/", "/service-areas/archer-lodge-nc/general-contracting/", "/service-areas/clayton-nc/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Durham", "url": "/service-areas/durham-nc/"}, {"name": "Renovations, Remodels and General Contracting"}]

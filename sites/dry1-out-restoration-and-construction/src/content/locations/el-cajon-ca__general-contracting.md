@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "5295fdbc41d6e824"
-generated_at: "2026-09-29T14:31:48.426751+00:00"
+generated_at: "2026-09-30T18:41:22.773514+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/el-cajon-ca/", "/service-areas/el-cajon-ca/fire-damage-restoration/", "/service-areas/el-cajon-ca/mold-remediation/", "/service-areas/berkeley-ca/general-contracting/", "/service-areas/carlsbad-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "El Cajon", "url": "/service-areas/el-cajon-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]

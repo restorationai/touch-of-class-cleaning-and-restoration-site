@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 8.1
 plan_hash: "3bfa021f164d9eda"
-generated_at: "2026-09-30T14:12:09.604853+00:00"
+generated_at: "2026-09-30T18:41:21.474663+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/emergency-plumbing/", "/service-areas/chino-ca/emergency-plumbing/", "/service-areas/chino-hills-ca/emergency-plumbing/", "/service-areas/eastvale-ca/emergency-plumbing/", "/service-areas/fontana-ca/emergency-plumbing/", "/service-areas/fullerton-ca/emergency-plumbing/", "/service-areas/jurupa-valley-ca/emergency-plumbing/", "/service-areas/lake-mathews-ca/emergency-plumbing/", "/service-areas/montclair-ca/emergency-plumbing/", "/service-areas/norco-ca/emergency-plumbing/", "/service-areas/north-tustin-ca/emergency-plumbing/", "/service-areas/ontario-ca/emergency-plumbing/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Emergency Plumbing"}]

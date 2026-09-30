@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "94a4f49f1fd3c3e8"
-generated_at: "2026-09-29T23:13:48.876011+00:00"
+generated_at: "2026-09-30T18:41:35.511144+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/sobieski-mn/", "/service-areas/sobieski-mn/fire-damage-restoration/", "/service-areas/sobieski-mn/mold-remediation/", "/service-areas/albany-mn/mold-inspection-testing/", "/service-areas/avon-mn/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sobieski", "url": "/service-areas/sobieski-mn/"}, {"name": "Mold Inspection and Testing"}]

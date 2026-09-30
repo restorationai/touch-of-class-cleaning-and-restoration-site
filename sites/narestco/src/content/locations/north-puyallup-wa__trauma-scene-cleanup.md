@@ -8,7 +8,7 @@ secondary_keywords: ["trauma cleanup services", "trauma scene cleaning", "accide
 search_intent: "local_sensitive"
 priority: 4.9
 plan_hash: "6f46fac5fb2cb748"
-generated_at: "2026-09-30T14:12:21.628666+00:00"
+generated_at: "2026-09-30T18:41:50.589649+00:00"
 manual_override: false
 internal_links: ["/services/trauma-scene-cleanup/", "/service-areas/north-puyallup-wa/", "/service-areas/north-puyallup-wa/fire-damage-restoration/", "/service-areas/north-puyallup-wa/mold-remediation/", "/service-areas/algona-wa/trauma-scene-cleanup/", "/service-areas/auburn-wa/trauma-scene-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Puyallup", "url": "/service-areas/north-puyallup-wa/"}, {"name": "Trauma Scene Cleanup"}]

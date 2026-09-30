@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "683b1588d9615076"
-generated_at: "2026-09-30T14:12:09.670435+00:00"
+generated_at: "2026-09-30T18:41:21.534246+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/eastvale-ca/", "/service-areas/eastvale-ca/fire-damage-restoration/", "/service-areas/eastvale-ca/mold-remediation/", "/service-areas/anaheim-ca/air-duct-cleaning/", "/service-areas/chino-ca/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Eastvale", "url": "/service-areas/eastvale-ca/"}, {"name": "Air Duct Cleaning"}]

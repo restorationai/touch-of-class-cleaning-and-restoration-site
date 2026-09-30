@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "0d0fee444661bdc7"
-generated_at: "2026-09-29T23:28:29.581451+00:00"
+generated_at: "2026-09-30T18:41:26.377572+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/lake-wales-fl/", "/service-areas/lake-wales-fl/fire-damage-restoration/", "/service-areas/lake-wales-fl/mold-remediation/", "/service-areas/anna-maria-fl/mold-inspection-testing/", "/service-areas/apollo-beach-fl/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Wales", "url": "/service-areas/lake-wales-fl/"}, {"name": "Mold Inspection and Testing"}]

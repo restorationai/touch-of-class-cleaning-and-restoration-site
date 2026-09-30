@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "dc1848aaae1d119c"
-generated_at: "2026-09-29T23:31:28.397618+00:00"
+generated_at: "2026-09-30T18:41:22.802036+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-damage-cleanup-and-repair/", "/service-areas/encinitas-ca/", "/service-areas/encinitas-ca/fire-damage-restoration/", "/service-areas/encinitas-ca/mold-remediation/", "/service-areas/berkeley-ca/vandalism-damage-cleanup-and-repair/", "/service-areas/carlsbad-ca/vandalism-damage-cleanup-and-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Encinitas", "url": "/service-areas/encinitas-ca/"}, {"name": "Vandalism Damage Cleanup and Repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "e1e302a374c2d540"
-generated_at: "2026-09-29T23:28:29.592744+00:00"
+generated_at: "2026-09-30T18:41:26.391480+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/longboat-key-fl/", "/service-areas/longboat-key-fl/fire-damage-restoration/", "/service-areas/longboat-key-fl/mold-remediation/", "/service-areas/anna-maria-fl/mold-inspection-testing/", "/service-areas/apollo-beach-fl/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Longboat Key", "url": "/service-areas/longboat-key-fl/"}, {"name": "Mold Inspection and Testing"}]

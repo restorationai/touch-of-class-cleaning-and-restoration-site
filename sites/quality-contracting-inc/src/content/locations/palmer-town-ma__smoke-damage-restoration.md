@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "e8de427444e2a563"
-generated_at: "2026-09-30T14:12:26.098543+00:00"
+generated_at: "2026-09-30T18:41:54.812948+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/palmer-town-ma/", "/service-areas/palmer-town-ma/fire-damage-restoration/", "/service-areas/palmer-town-ma/mold-remediation/", "/service-areas/bellingham-ma/smoke-damage-restoration/", "/service-areas/east-douglas-ma/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Palmer Town", "url": "/service-areas/palmer-town-ma/"}, {"name": "smoke-damage-restoration"}]

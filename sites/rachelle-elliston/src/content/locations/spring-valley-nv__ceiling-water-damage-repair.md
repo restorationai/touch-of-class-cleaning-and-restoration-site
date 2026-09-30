@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "e6b78ca6abfc89fe"
-generated_at: "2026-09-28T20:50:26.586263+00:00"
+generated_at: "2026-09-30T18:41:56.094611+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/spring-valley-nv/", "/service-areas/spring-valley-nv/fire-damage-restoration/", "/service-areas/spring-valley-nv/mold-remediation/", "/service-areas/blue-diamond-nv/ceiling-water-damage-repair/", "/service-areas/boulder-city-nv/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Spring Valley", "url": "/service-areas/spring-valley-nv/"}, {"name": "ceiling-water-damage-repair"}]

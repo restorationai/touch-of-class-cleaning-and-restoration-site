@@ -2,13 +2,13 @@
 archetype: "service-area-service"
 title: "Emergency Water Removal & Cleanup in Blue Diamond, NV | Desert Valley Contracting Inc "
 h1: "Emergency Water Removal & Cleanup in Blue Diamond"
-meta_description: "24/7 emergency water removal and cleanup in Blue Diamond, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
-primary_keyword: "emergency water removal blue diamond"
-secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
+meta_description: "24/7 emergency water removal & cleanup in Blue Diamond, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
+primary_keyword: "emergency water removal & cleanup blue diamond"
+secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "c3379dd7d482dbbf"
-generated_at: "2026-09-23T14:12:02.378597+00:00"
+plan_hash: "159963c594a259c1"
+generated_at: "2026-09-30T18:41:56.136854+00:00"
 manual_override: false
 internal_links: ["/services/emergency-water-removal/", "/service-areas/blue-diamond-nv/", "/service-areas/blue-diamond-nv/fire-damage-restoration/", "/service-areas/blue-diamond-nv/mold-remediation/", "/service-areas/boulder-city-nv/emergency-water-removal/", "/service-areas/enterprise-nv/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Blue Diamond", "url": "/service-areas/blue-diamond-nv/"}, {"name": "Emergency Water Removal & Cleanup"}]

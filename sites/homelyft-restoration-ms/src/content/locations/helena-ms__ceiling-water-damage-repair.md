@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "5dbfaf3aafc4fb46"
-generated_at: "2026-09-30T14:12:12.975748+00:00"
+generated_at: "2026-09-30T18:41:37.751529+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/helena-ms/", "/service-areas/helena-ms/fire-damage-restoration/", "/service-areas/helena-ms/mold-remediation/", "/service-areas/agricola-ms/ceiling-water-damage-repair/", "/service-areas/bay-st-louis-ms/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Helena", "url": "/service-areas/helena-ms/"}, {"name": "ceiling-water-damage-repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "4b8a9a813c7b9194"
-generated_at: "2026-09-30T14:12:01.773318+00:00"
+generated_at: "2026-09-30T18:41:08.977745+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/bronte-tx/", "/service-areas/bronte-tx/fire-damage-restoration/", "/service-areas/bronte-tx/mold-remediation/", "/service-areas/albany-tx/smoke-damage-restoration/", "/service-areas/anson-tx/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bronte", "url": "/service-areas/bronte-tx/"}, {"name": "smoke-damage-restoration"}]

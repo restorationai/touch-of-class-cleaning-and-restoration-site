@@ -8,7 +8,7 @@ secondary_keywords: ["decomposition cleanup", "after death cleaning", "deceased 
 search_intent: "local_sensitive"
 priority: 4.2
 plan_hash: "dfa3ba837a6de6bf"
-generated_at: "2026-09-30T14:12:21.540767+00:00"
+generated_at: "2026-09-30T18:41:50.515141+00:00"
 manual_override: false
 internal_links: ["/services/unattended-death-cleanup/", "/service-areas/fife-wa/", "/service-areas/fife-wa/fire-damage-restoration/", "/service-areas/fife-wa/mold-remediation/", "/service-areas/algona-wa/unattended-death-cleanup/", "/service-areas/auburn-wa/unattended-death-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fife", "url": "/service-areas/fife-wa/"}, {"name": "Unattended Death Cleanup"}]

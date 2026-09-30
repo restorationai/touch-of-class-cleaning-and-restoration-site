@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "851d26f984d29208"
-generated_at: "2026-09-29T23:13:48.882305+00:00"
+generated_at: "2026-09-30T18:41:35.521736+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/randall-mn/", "/service-areas/randall-mn/fire-damage-restoration/", "/service-areas/randall-mn/mold-remediation/", "/service-areas/albany-mn/industrial-restoration/", "/service-areas/avon-mn/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Randall", "url": "/service-areas/randall-mn/"}, {"name": "Industrial Restoration"}]

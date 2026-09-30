@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "4f52d42449b2794a"
-generated_at: "2026-09-30T14:12:07.174963+00:00"
+generated_at: "2026-09-30T18:41:19.887094+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/west-middlesex-pa/", "/service-areas/west-middlesex-pa/fire-damage-restoration/", "/service-areas/west-middlesex-pa/mold-remediation/", "/service-areas/austintown-oh/burst-pipe-repair/", "/service-areas/boardman-oh/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "West Middlesex", "url": "/service-areas/west-middlesex-pa/"}, {"name": "burst-pipe-repair"}]

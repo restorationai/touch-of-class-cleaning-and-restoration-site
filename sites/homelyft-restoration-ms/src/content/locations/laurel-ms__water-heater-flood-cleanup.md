@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "9341518f69b91e9c"
-generated_at: "2026-09-30T14:12:13.027472+00:00"
+generated_at: "2026-09-30T18:41:37.815148+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/laurel-ms/", "/service-areas/laurel-ms/fire-damage-restoration/", "/service-areas/laurel-ms/mold-remediation/", "/service-areas/agricola-ms/water-heater-flood-cleanup/", "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Laurel", "url": "/service-areas/laurel-ms/"}, {"name": "water-heater-flood-cleanup"}]

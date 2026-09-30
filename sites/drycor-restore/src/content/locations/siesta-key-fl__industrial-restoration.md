@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "54f8ec08ab78b9fc"
-generated_at: "2026-09-29T23:28:29.632960+00:00"
+generated_at: "2026-09-30T18:41:26.451457+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/siesta-key-fl/", "/service-areas/siesta-key-fl/fire-damage-restoration/", "/service-areas/siesta-key-fl/mold-remediation/", "/service-areas/anna-maria-fl/industrial-restoration/", "/service-areas/apollo-beach-fl/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Siesta Key", "url": "/service-areas/siesta-key-fl/"}, {"name": "Industrial Restoration"}]

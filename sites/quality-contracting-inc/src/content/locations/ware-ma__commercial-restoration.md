@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "79686e21dc3843c0"
-generated_at: "2026-09-30T14:12:26.073909+00:00"
+generated_at: "2026-09-30T18:41:54.786137+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/ware-ma/", "/service-areas/ware-ma/fire-damage-restoration/", "/service-areas/ware-ma/mold-remediation/", "/service-areas/bellingham-ma/commercial-restoration/", "/service-areas/east-douglas-ma/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ware", "url": "/service-areas/ware-ma/"}, {"name": "commercial-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["large loss restoration", "catastrophic loss response", "co
 search_intent: "local_b2b"
 priority: 5.6
 plan_hash: "58bc381f5f3858e5"
-generated_at: "2026-09-30T14:12:07.117277+00:00"
+generated_at: "2026-09-30T18:41:19.817197+00:00"
 manual_override: false
 internal_links: ["/services/large-loss-response/", "/service-areas/struthers-oh/", "/service-areas/struthers-oh/fire-damage-restoration/", "/service-areas/struthers-oh/mold-remediation/", "/service-areas/austintown-oh/large-loss-response/", "/service-areas/boardman-oh/large-loss-response/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Struthers", "url": "/service-areas/struthers-oh/"}, {"name": "large-loss-response"}]

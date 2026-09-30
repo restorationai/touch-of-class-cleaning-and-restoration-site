@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "ca029d7b016e6ec4"
-generated_at: "2026-09-29T23:13:48.870339+00:00"
+generated_at: "2026-09-30T18:41:35.500972+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/royalton-mn/", "/service-areas/royalton-mn/fire-damage-restoration/", "/service-areas/royalton-mn/mold-remediation/", "/service-areas/albany-mn/smoke-damage-restoration/", "/service-areas/avon-mn/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Royalton", "url": "/service-areas/royalton-mn/"}, {"name": "Smoke Damage Restoration"}]

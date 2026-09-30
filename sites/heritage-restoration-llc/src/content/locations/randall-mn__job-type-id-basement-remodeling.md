@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "069c83542d1d2fde"
-generated_at: "2026-09-29T23:13:48.882493+00:00"
+generated_at: "2026-09-30T18:41:35.522033+00:00"
 manual_override: false
 internal_links: ["/services/job-type-id-basement-remodeling/", "/service-areas/randall-mn/", "/service-areas/randall-mn/fire-damage-restoration/", "/service-areas/randall-mn/mold-remediation/", "/service-areas/albany-mn/job-type-id-basement-remodeling/", "/service-areas/avon-mn/job-type-id-basement-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Randall", "url": "/service-areas/randall-mn/"}, {"name": "Basement Remodeling"}]

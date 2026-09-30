@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "a5052ffa6625346b"
-generated_at: "2026-09-30T14:12:23.101490+00:00"
+generated_at: "2026-09-30T18:41:52.128561+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/bear-valley-springs-ca/", "/service-areas/bear-valley-springs-ca/fire-damage-restoration/", "/service-areas/bear-valley-springs-ca/home-remodeling/", "/service-areas/arvin-ca/reconstruction/", "/service-areas/buttonwillow-ca/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bear Valley Springs", "url": "/service-areas/bear-valley-springs-ca/"}, {"name": "Reconstruction Services"}]

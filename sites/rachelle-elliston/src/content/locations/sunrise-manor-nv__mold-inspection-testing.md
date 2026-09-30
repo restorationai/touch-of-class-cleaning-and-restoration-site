@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "a227e5d55604afe4"
-generated_at: "2026-09-28T20:50:26.587916+00:00"
+generated_at: "2026-09-30T18:41:56.098001+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/sunrise-manor-nv/", "/service-areas/sunrise-manor-nv/fire-damage-restoration/", "/service-areas/sunrise-manor-nv/mold-remediation/", "/service-areas/blue-diamond-nv/mold-inspection-testing/", "/service-areas/boulder-city-nv/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sunrise Manor", "url": "/service-areas/sunrise-manor-nv/"}, {"name": "mold-inspection-testing"}]

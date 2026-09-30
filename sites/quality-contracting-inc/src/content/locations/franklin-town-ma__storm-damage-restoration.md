@@ -8,7 +8,7 @@ secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "4ad6db1d266092a5"
-generated_at: "2026-09-30T14:12:26.088344+00:00"
+generated_at: "2026-09-30T18:41:54.801762+00:00"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/service-areas/franklin-town-ma/", "/service-areas/franklin-town-ma/fire-damage-restoration/", "/service-areas/franklin-town-ma/mold-remediation/", "/service-areas/bellingham-ma/storm-damage-restoration/", "/service-areas/east-douglas-ma/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Franklin Town", "url": "/service-areas/franklin-town-ma/"}, {"name": "Storm Damage Restoration"}]

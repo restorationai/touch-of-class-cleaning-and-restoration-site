@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "0b5386d32d0904f3"
-generated_at: "2026-09-29T14:31:48.453448+00:00"
+generated_at: "2026-09-30T18:41:22.804238+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/encinitas-ca/", "/service-areas/encinitas-ca/fire-damage-restoration/", "/service-areas/encinitas-ca/mold-remediation/", "/service-areas/berkeley-ca/commercial-restoration/", "/service-areas/carlsbad-ca/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Encinitas", "url": "/service-areas/encinitas-ca/"}, {"name": "commercial-restoration"}]

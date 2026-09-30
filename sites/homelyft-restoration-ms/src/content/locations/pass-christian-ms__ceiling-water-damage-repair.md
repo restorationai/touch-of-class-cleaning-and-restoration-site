@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "2d4a822ba6362c49"
-generated_at: "2026-09-30T14:12:12.894867+00:00"
+generated_at: "2026-09-30T18:41:37.651796+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/pass-christian-ms/", "/service-areas/pass-christian-ms/fire-damage-restoration/", "/service-areas/pass-christian-ms/mold-remediation/", "/service-areas/agricola-ms/ceiling-water-damage-repair/", "/service-areas/bay-st-louis-ms/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pass Christian", "url": "/service-areas/pass-christian-ms/"}, {"name": "ceiling-water-damage-repair"}]

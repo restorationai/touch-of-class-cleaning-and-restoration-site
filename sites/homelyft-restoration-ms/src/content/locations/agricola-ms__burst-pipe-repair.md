@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "b0ccd554e1bd7c25"
-generated_at: "2026-09-30T14:12:13.007630+00:00"
+generated_at: "2026-09-30T18:41:37.789188+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/agricola-ms/", "/service-areas/agricola-ms/fire-damage-restoration/", "/service-areas/agricola-ms/mold-remediation/", "/service-areas/bay-st-louis-ms/burst-pipe-repair/", "/service-areas/benndale-ms/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Agricola", "url": "/service-areas/agricola-ms/"}, {"name": "burst-pipe-repair"}]

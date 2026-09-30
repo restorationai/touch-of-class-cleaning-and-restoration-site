@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "fc915422fd300d5d"
-generated_at: "2026-09-29T23:13:49.335639+00:00"
+generated_at: "2026-09-30T18:41:33.381220+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/elm-city-nc/", "/service-areas/elm-city-nc/fire-damage-restoration/", "/service-areas/elm-city-nc/mold-remediation/", "/service-areas/archer-lodge-nc/smoke-damage-restoration/", "/service-areas/clayton-nc/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elm City", "url": "/service-areas/elm-city-nc/"}, {"name": "Smoke Damage Restoration"}]

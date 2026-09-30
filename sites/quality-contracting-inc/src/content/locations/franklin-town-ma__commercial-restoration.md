@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "338f2426dd9c6b11"
-generated_at: "2026-09-30T14:12:26.090573+00:00"
+generated_at: "2026-09-30T18:41:54.804526+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/franklin-town-ma/", "/service-areas/franklin-town-ma/fire-damage-restoration/", "/service-areas/franklin-town-ma/mold-remediation/", "/service-areas/bellingham-ma/commercial-restoration/", "/service-areas/east-douglas-ma/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Franklin Town", "url": "/service-areas/franklin-town-ma/"}, {"name": "commercial-restoration"}]

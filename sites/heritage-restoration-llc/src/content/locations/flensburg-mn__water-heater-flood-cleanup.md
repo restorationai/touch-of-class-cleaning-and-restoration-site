@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "f75a2ea2b73d6658"
-generated_at: "2026-09-29T23:13:48.880342+00:00"
+generated_at: "2026-09-30T18:41:35.519127+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/flensburg-mn/", "/service-areas/flensburg-mn/fire-damage-restoration/", "/service-areas/flensburg-mn/mold-remediation/", "/service-areas/albany-mn/water-heater-flood-cleanup/", "/service-areas/avon-mn/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Flensburg", "url": "/service-areas/flensburg-mn/"}, {"name": "Water Heater Flood Cleanup"}]

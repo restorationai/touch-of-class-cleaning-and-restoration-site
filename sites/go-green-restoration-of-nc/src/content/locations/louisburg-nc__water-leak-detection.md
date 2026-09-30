@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "74b5fd1f01cab41b"
-generated_at: "2026-09-29T23:13:49.343803+00:00"
+generated_at: "2026-09-30T18:41:33.398547+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/louisburg-nc/", "/service-areas/louisburg-nc/fire-damage-restoration/", "/service-areas/louisburg-nc/mold-remediation/", "/service-areas/archer-lodge-nc/water-leak-detection/", "/service-areas/clayton-nc/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Louisburg", "url": "/service-areas/louisburg-nc/"}, {"name": "Water Leak Detection"}]

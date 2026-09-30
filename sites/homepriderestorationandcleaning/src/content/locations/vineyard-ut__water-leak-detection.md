@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "090ed9101efe3d02"
-generated_at: "2026-09-30T14:12:14.588265+00:00"
+generated_at: "2026-09-30T18:41:40.264276+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/vineyard-ut/", "/service-areas/vineyard-ut/fire-damage-restoration/", "/service-areas/vineyard-ut/mold-remediation/", "/service-areas/alpine-ut/water-leak-detection/", "/service-areas/american-fork-ut/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vineyard", "url": "/service-areas/vineyard-ut/"}, {"name": "Water Leak Detection"}]

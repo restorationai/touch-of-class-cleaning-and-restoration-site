@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "1440da8a7af44d56"
-generated_at: "2026-09-30T14:12:14.536626+00:00"
+generated_at: "2026-09-30T18:41:40.202803+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/eagle-mountain-ut/", "/service-areas/eagle-mountain-ut/fire-damage-restoration/", "/service-areas/eagle-mountain-ut/mold-remediation/", "/service-areas/alpine-ut/water-leak-detection/", "/service-areas/american-fork-ut/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Eagle Mountain", "url": "/service-areas/eagle-mountain-ut/"}, {"name": "Water Leak Detection"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "1080405d439ec6e2"
-generated_at: "2026-09-30T14:12:01.787927+00:00"
+generated_at: "2026-09-30T18:41:09.001547+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/coleman-tx/", "/service-areas/coleman-tx/fire-damage-restoration/", "/service-areas/coleman-tx/mold-remediation/", "/service-areas/albany-tx/burst-pipe-repair/", "/service-areas/anson-tx/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Coleman", "url": "/service-areas/coleman-tx/"}, {"name": "burst-pipe-repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "4304822a132e61d6"
-generated_at: "2026-09-29T23:13:48.870049+00:00"
+generated_at: "2026-09-30T18:41:35.500295+00:00"
 manual_override: false
 internal_links: ["/services/remodeler/", "/service-areas/royalton-mn/", "/service-areas/royalton-mn/fire-damage-restoration/", "/service-areas/royalton-mn/mold-remediation/", "/service-areas/albany-mn/remodeler/", "/service-areas/avon-mn/remodeler/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Royalton", "url": "/service-areas/royalton-mn/"}, {"name": "Remodeler"}]

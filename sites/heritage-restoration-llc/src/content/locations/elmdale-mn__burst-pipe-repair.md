@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "022f93a9be4cd68b"
-generated_at: "2026-09-29T23:13:48.884897+00:00"
+generated_at: "2026-09-30T18:41:35.526070+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/elmdale-mn/", "/service-areas/elmdale-mn/fire-damage-restoration/", "/service-areas/elmdale-mn/mold-remediation/", "/service-areas/albany-mn/burst-pipe-repair/", "/service-areas/avon-mn/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elmdale", "url": "/service-areas/elmdale-mn/"}, {"name": "Burst Pipe Cleanup and Repair"}]

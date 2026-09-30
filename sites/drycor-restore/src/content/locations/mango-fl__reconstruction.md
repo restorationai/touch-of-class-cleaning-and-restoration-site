@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "fb779407543c902e"
-generated_at: "2026-09-29T23:28:29.652122+00:00"
+generated_at: "2026-09-30T18:41:26.481655+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/mango-fl/", "/service-areas/mango-fl/fire-damage-restoration/", "/service-areas/mango-fl/mold-remediation/", "/service-areas/anna-maria-fl/reconstruction/", "/service-areas/apollo-beach-fl/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mango", "url": "/service-areas/mango-fl/"}, {"name": "Reconstruction Services"}]

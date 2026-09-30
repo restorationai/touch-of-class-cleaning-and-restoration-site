@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "e23882e98f6b7d4d"
-generated_at: "2026-09-29T23:31:28.372971+00:00"
+generated_at: "2026-09-30T18:41:22.714077+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-damage-cleanup-and-repair/", "/service-areas/escondido-ca/", "/service-areas/escondido-ca/fire-damage-restoration/", "/service-areas/escondido-ca/mold-remediation/", "/service-areas/berkeley-ca/vandalism-damage-cleanup-and-repair/", "/service-areas/carlsbad-ca/vandalism-damage-cleanup-and-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Escondido", "url": "/service-areas/escondido-ca/"}, {"name": "Vandalism Damage Cleanup and Repair"}]

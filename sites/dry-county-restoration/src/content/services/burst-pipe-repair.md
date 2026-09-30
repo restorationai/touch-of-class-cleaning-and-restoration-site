@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 7.2
 plan_hash: "fa300b10244e0023"
-generated_at: "2026-09-30T14:12:09.603142+00:00"
+generated_at: "2026-09-30T18:41:21.473456+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/burst-pipe-repair/", "/service-areas/chino-ca/burst-pipe-repair/", "/service-areas/chino-hills-ca/burst-pipe-repair/", "/service-areas/eastvale-ca/burst-pipe-repair/", "/service-areas/fontana-ca/burst-pipe-repair/", "/service-areas/fullerton-ca/burst-pipe-repair/", "/service-areas/jurupa-valley-ca/burst-pipe-repair/", "/service-areas/lake-mathews-ca/burst-pipe-repair/", "/service-areas/montclair-ca/burst-pipe-repair/", "/service-areas/norco-ca/burst-pipe-repair/", "/service-areas/north-tustin-ca/burst-pipe-repair/", "/service-areas/ontario-ca/burst-pipe-repair/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Burst Pipe Cleanup and Repair"}]

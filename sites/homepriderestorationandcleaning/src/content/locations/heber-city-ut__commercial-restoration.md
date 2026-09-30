@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "f499bdf6f8404c1d"
-generated_at: "2026-09-30T14:12:14.575145+00:00"
+generated_at: "2026-09-30T18:41:40.249329+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/heber-city-ut/", "/service-areas/heber-city-ut/fire-damage-restoration/", "/service-areas/heber-city-ut/mold-remediation/", "/service-areas/alpine-ut/commercial-restoration/", "/service-areas/american-fork-ut/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Heber City", "url": "/service-areas/heber-city-ut/"}, {"name": "commercial-restoration"}]

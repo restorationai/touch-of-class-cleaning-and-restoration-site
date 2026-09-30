@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "d4e822c0db8623a6"
-generated_at: "2026-09-30T14:12:09.681949+00:00"
+generated_at: "2026-09-30T18:41:21.544681+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/silverado-ca/", "/service-areas/silverado-ca/fire-damage-restoration/", "/service-areas/silverado-ca/mold-remediation/", "/service-areas/anaheim-ca/commercial-restoration/", "/service-areas/chino-ca/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Silverado", "url": "/service-areas/silverado-ca/"}, {"name": "Commercial Restoration"}]

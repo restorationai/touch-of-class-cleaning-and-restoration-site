@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "fb15c41bc6ce5ba7"
-generated_at: "2026-09-29T23:13:49.305383+00:00"
+generated_at: "2026-09-30T18:41:33.319125+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/spring-hope-nc/", "/service-areas/spring-hope-nc/fire-damage-restoration/", "/service-areas/spring-hope-nc/mold-remediation/", "/service-areas/archer-lodge-nc/water-heater-flood-cleanup/", "/service-areas/clayton-nc/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Spring Hope", "url": "/service-areas/spring-hope-nc/"}, {"name": "Water Heater Flood Cleanup"}]

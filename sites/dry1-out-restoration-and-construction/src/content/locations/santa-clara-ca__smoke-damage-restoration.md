@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "3e3202e88c0303cd"
-generated_at: "2026-09-29T14:31:48.422461+00:00"
+generated_at: "2026-09-30T18:41:22.768393+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/santa-clara-ca/", "/service-areas/santa-clara-ca/fire-damage-restoration/", "/service-areas/santa-clara-ca/mold-remediation/", "/service-areas/berkeley-ca/smoke-damage-restoration/", "/service-areas/carlsbad-ca/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Santa Clara", "url": "/service-areas/santa-clara-ca/"}, {"name": "smoke-damage-restoration"}]

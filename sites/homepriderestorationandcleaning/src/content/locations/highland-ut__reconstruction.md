@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "db8dc7ae85b0c709"
-generated_at: "2026-09-30T14:12:14.598360+00:00"
+generated_at: "2026-09-30T18:41:40.275718+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/highland-ut/", "/service-areas/highland-ut/fire-damage-restoration/", "/service-areas/highland-ut/mold-remediation/", "/service-areas/alpine-ut/reconstruction/", "/service-areas/american-fork-ut/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Highland", "url": "/service-areas/highland-ut/"}, {"name": "reconstruction"}]

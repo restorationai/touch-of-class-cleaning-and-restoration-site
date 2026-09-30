@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "5ae81a7b93271799"
-generated_at: "2026-09-30T14:12:14.579863+00:00"
+generated_at: "2026-09-30T18:41:40.255062+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/park-city-ut/", "/service-areas/park-city-ut/fire-damage-restoration/", "/service-areas/park-city-ut/mold-remediation/", "/service-areas/alpine-ut/commercial-restoration/", "/service-areas/american-fork-ut/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Park City", "url": "/service-areas/park-city-ut/"}, {"name": "commercial-restoration"}]

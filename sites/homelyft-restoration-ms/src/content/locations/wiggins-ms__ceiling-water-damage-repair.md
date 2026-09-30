@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "0f01f6703339ad9e"
-generated_at: "2026-09-30T14:12:12.932421+00:00"
+generated_at: "2026-09-30T18:41:37.698834+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/wiggins-ms/", "/service-areas/wiggins-ms/fire-damage-restoration/", "/service-areas/wiggins-ms/mold-remediation/", "/service-areas/agricola-ms/ceiling-water-damage-repair/", "/service-areas/bay-st-louis-ms/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wiggins", "url": "/service-areas/wiggins-ms/"}, {"name": "ceiling-water-damage-repair"}]

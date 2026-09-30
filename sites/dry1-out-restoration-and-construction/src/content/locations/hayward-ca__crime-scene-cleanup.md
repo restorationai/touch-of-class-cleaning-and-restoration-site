@@ -8,7 +8,7 @@ secondary_keywords: ["crime scene cleaning", "forensic cleanup", "post-crime cle
 search_intent: "local_sensitive"
 priority: 4.2
 plan_hash: "c73ec3cf9dc68896"
-generated_at: "2026-09-29T14:31:48.403251+00:00"
+generated_at: "2026-09-30T18:41:22.745705+00:00"
 manual_override: false
 internal_links: ["/services/crime-scene-cleanup/", "/service-areas/hayward-ca/", "/service-areas/hayward-ca/fire-damage-restoration/", "/service-areas/hayward-ca/mold-remediation/", "/service-areas/berkeley-ca/crime-scene-cleanup/", "/service-areas/carlsbad-ca/crime-scene-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hayward", "url": "/service-areas/hayward-ca/"}, {"name": "Crime Scene Cleanup"}]

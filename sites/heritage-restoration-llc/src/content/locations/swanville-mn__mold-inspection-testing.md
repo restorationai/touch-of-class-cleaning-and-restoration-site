@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "c02c79963229ae21"
-generated_at: "2026-09-29T23:13:48.899013+00:00"
+generated_at: "2026-09-30T18:41:35.540824+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/swanville-mn/", "/service-areas/swanville-mn/fire-damage-restoration/", "/service-areas/swanville-mn/mold-remediation/", "/service-areas/albany-mn/mold-inspection-testing/", "/service-areas/avon-mn/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Swanville", "url": "/service-areas/swanville-mn/"}, {"name": "Mold Inspection and Testing"}]

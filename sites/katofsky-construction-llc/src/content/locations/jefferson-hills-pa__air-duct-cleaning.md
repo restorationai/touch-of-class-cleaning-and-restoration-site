@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "6d52a35f8fce59c6"
-generated_at: "2026-09-30T14:12:19.474593+00:00"
+generated_at: "2026-09-30T18:41:44.236032+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/jefferson-hills-pa/", "/service-areas/jefferson-hills-pa/fire-damage-restoration/", "/service-areas/jefferson-hills-pa/roofing/", "/service-areas/allison-park-pa/air-duct-cleaning/", "/service-areas/baldwin-pa/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Jefferson Hills", "url": "/service-areas/jefferson-hills-pa/"}, {"name": "Air Duct Cleaning"}]

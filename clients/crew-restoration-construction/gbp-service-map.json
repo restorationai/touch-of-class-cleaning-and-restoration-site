@@ -488,6 +488,12 @@
       "reason": "Foundation installation task",
       "at": "2026-09-30"
     },
+    "Construction company": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
+      "at": "2026-09-30"
+    },
     "Construction Management": {
       "verdict": "declined",
       "page": null,
@@ -535,6 +541,12 @@
       "page": "post-construction-cleaning",
       "source": "claude",
       "reason": "Specialty cleaning task",
+      "at": "2026-09-30"
+    },
+    "Debris removal service": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
       "at": "2026-09-30"
     },
     "Deck Construction": {
@@ -1455,6 +1467,12 @@
       "page": "ceiling-water-damage-repair",
       "source": "claude",
       "reason": "Matches ceiling water damage repair",
+      "at": "2026-09-30"
+    },
+    "Roofing contractor": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
       "at": "2026-09-30"
     },
     "Roofing Services": {

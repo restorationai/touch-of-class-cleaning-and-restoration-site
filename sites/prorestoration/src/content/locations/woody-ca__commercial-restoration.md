@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "848947433222953b"
-generated_at: "2026-09-30T14:12:23.094085+00:00"
+generated_at: "2026-09-30T18:41:52.121613+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/woody-ca/", "/service-areas/woody-ca/fire-damage-restoration/", "/service-areas/woody-ca/home-remodeling/", "/service-areas/arvin-ca/commercial-restoration/", "/service-areas/bear-valley-springs-ca/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woody", "url": "/service-areas/woody-ca/"}, {"name": "commercial-restoration"}]

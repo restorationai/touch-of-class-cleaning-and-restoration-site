@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "55ec5789fb3f93a8"
-generated_at: "2026-09-30T14:12:09.744862+00:00"
+generated_at: "2026-09-30T18:41:21.601819+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/trabuco-canyon-ca/", "/service-areas/trabuco-canyon-ca/fire-damage-restoration/", "/service-areas/trabuco-canyon-ca/mold-remediation/", "/service-areas/anaheim-ca/water-leak-detection/", "/service-areas/chino-ca/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Trabuco Canyon", "url": "/service-areas/trabuco-canyon-ca/"}, {"name": "Water Leak Detection"}]

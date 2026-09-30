@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "5a934f17b14a3cf6"
-generated_at: "2026-09-23T14:11:38.285873+00:00"
+generated_at: "2026-09-30T18:41:26.404037+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/north-port-fl/", "/service-areas/north-port-fl/fire-damage-restoration/", "/service-areas/north-port-fl/mold-remediation/", "/service-areas/anna-maria-fl/emergency-plumbing/", "/service-areas/apollo-beach-fl/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Port", "url": "/service-areas/north-port-fl/"}, {"name": "Emergency Plumbing"}]

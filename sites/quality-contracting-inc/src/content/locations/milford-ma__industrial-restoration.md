@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "d0aa4ae56cd71400"
-generated_at: "2026-09-30T14:12:26.039915+00:00"
+generated_at: "2026-09-30T18:41:54.750316+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/milford-ma/", "/service-areas/milford-ma/fire-damage-restoration/", "/service-areas/milford-ma/mold-remediation/", "/service-areas/bellingham-ma/industrial-restoration/", "/service-areas/east-douglas-ma/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Milford", "url": "/service-areas/milford-ma/"}, {"name": "industrial-restoration"}]

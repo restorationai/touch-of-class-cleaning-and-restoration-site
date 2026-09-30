@@ -1,21 +1,21 @@
 # Site Plan Report — The Restoration Group
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-24T23:21:59.277074+00:00
+- Generated: 2026-09-30T18:41:59.653376+00:00
 - Domain: `therestorationgroup.com`
-- Services selected: 21 of 65 catalog entries
+- Services selected: 26 of 91 catalog entries
 - Service areas: 61
 - Cross-product enabled: True
-- Total URLs: **1362**
-- Total internal links: 10936 (avg 8.0 per page)
+- Total URLs: **1667**
+- Total internal links: 13416 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 1260 |
+| `service-area-service` | 1560 |
 | `service-area` | 60 |
-| `service-landing` | 21 |
+| `service-landing` | 26 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -28,15 +28,14 @@
 ## Selected services
 
 - `appliance-leak-cleanup` — Appliance Leak Cleanup (specialty, priority 6)
-- `basement-flood-cleanup` — Basement Flood Cleanup (adjacent, priority 5)
 - `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
 - `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
 - `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
 - `commercial-restoration` — Commercial Restoration (core, priority 9)
 - `contents-restoration-pack-out` — Contents Restoration & Pack-Out (adjacent, priority 5)
-- `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
 - `crawl-space-encapsulation` — Crawl Space Encapsulation (adjacent, priority 5)
 - `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
+- `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
 - `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
@@ -45,9 +44,15 @@
 - `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
-- `vandalism-cleanup` — Vandalism Cleanup (specialty, priority 5)
-- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
+- `industrial-restoration` — Industrial Restoration (core, priority 7)
+- `reconstruction` — Reconstruction Services (core, priority 9)
+- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
+- `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
+- `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
+- `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
+- `water-leak-detection` — Water Leak Detection (core, priority 7)
+- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 
 ## Service areas
 
@@ -121,12 +126,12 @@
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation kenilworth |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration kenilworth |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration kenilworth |
+| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing kenilworth |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup kenilworth |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration kenilworth |
+| `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services kenilworth |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization kenilworth |
 | `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration kenilworth |
-| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration kenilworth |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup kenilworth |
-| `/services/basement-flooding-cleanup/` | `service-landing` | 7.2 | basement flooding cleanup kenilworth |
 
 ## Validation
 

@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "8e8a3ba794d128fd"
-generated_at: "2026-09-30T14:12:14.656345+00:00"
+generated_at: "2026-09-30T18:41:40.338822+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/draper-ut/", "/service-areas/draper-ut/mold-remediation/", "/service-areas/draper-ut/water-damage-restoration/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/american-fork-ut/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Draper", "url": "/service-areas/draper-ut/"}, {"name": "Fire Damage Restoration"}]

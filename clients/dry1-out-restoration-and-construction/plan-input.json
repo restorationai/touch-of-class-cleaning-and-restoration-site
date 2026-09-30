@@ -34,8 +34,13 @@
   },
   "template": "restoration",
   "services": [
+    "appliance-leak-cleanup",
     "biohazard-cleanup",
+    "blood-cleanup",
+    "carpet-water-extraction",
     "crime-scene-cleanup",
+    "emergency-board-up",
+    "emergency-water-removal",
     "fire-damage-restoration",
     "general-contracting",
     "mold-inspection-testing",
@@ -44,14 +49,10 @@
     "post-construction-cleaning",
     "sewage-cleanup",
     "storm-damage-restoration",
-    "emergency-water-removal",
-    "water-damage-restoration",
-    "appliance-leak-cleanup",
-    "blood-cleanup",
-    "carpet-water-extraction",
-    "emergency-board-up",
     "vandalism-damage-cleanup-and-repair",
-    "vehicle-impact-damage-repair"
+    "vehicle-impact-damage-repair",
+    "water-cleanup",
+    "water-damage-restoration"
   ],
   "blog_seed_count": 12,
   "service_areas": [

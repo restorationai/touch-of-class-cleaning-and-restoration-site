@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "0af831874b6dbf18"
-generated_at: "2026-09-30T14:12:25.994262+00:00"
+generated_at: "2026-09-30T18:41:54.702177+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/whitinsville-ma/", "/service-areas/whitinsville-ma/fire-damage-restoration/", "/service-areas/whitinsville-ma/mold-remediation/", "/service-areas/bellingham-ma/water-heater-flood-cleanup/", "/service-areas/east-douglas-ma/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Whitinsville", "url": "/service-areas/whitinsville-ma/"}, {"name": "water-heater-flood-cleanup"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "aa3df486f4598e1d"
-generated_at: "2026-09-30T14:12:07.155743+00:00"
+generated_at: "2026-09-30T18:41:19.865091+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/hermitage-pa/", "/service-areas/hermitage-pa/fire-damage-restoration/", "/service-areas/hermitage-pa/mold-remediation/", "/service-areas/austintown-oh/industrial-restoration/", "/service-areas/boardman-oh/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hermitage", "url": "/service-areas/hermitage-pa/"}, {"name": "industrial-restoration"}]

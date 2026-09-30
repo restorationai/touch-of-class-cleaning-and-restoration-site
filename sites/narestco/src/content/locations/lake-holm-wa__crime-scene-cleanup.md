@@ -8,7 +8,7 @@ secondary_keywords: ["crime scene cleaning", "forensic cleanup", "post-crime cle
 search_intent: "local_sensitive"
 priority: 4.2
 plan_hash: "409ebb85b9a0dcce"
-generated_at: "2026-09-30T14:12:21.583849+00:00"
+generated_at: "2026-09-30T18:41:50.551127+00:00"
 manual_override: false
 internal_links: ["/services/crime-scene-cleanup/", "/service-areas/lake-holm-wa/", "/service-areas/lake-holm-wa/fire-damage-restoration/", "/service-areas/lake-holm-wa/mold-remediation/", "/service-areas/algona-wa/crime-scene-cleanup/", "/service-areas/auburn-wa/crime-scene-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Holm", "url": "/service-areas/lake-holm-wa/"}, {"name": "Crime Scene Cleanup"}]

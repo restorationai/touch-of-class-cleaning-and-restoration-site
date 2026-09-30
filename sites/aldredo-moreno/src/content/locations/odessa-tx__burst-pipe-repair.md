@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "5f6e357a0f8f85dd"
-generated_at: "2026-09-30T14:12:02.623799+00:00"
+generated_at: "2026-09-30T18:41:09.999979+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/odessa-tx/", "/service-areas/odessa-tx/fire-damage-restoration/", "/service-areas/odessa-tx/mold-remediation/", "/service-areas/andrews-tx/burst-pipe-repair/", "/service-areas/big-lake-tx/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Odessa", "url": "/service-areas/odessa-tx/"}, {"name": "burst-pipe-repair"}]

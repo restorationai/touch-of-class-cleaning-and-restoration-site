@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "af1c39ba1c1d2e8c"
-generated_at: "2026-09-30T14:12:21.425129+00:00"
+generated_at: "2026-09-30T18:41:50.417571+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/port-orchard-wa/", "/service-areas/port-orchard-wa/fire-damage-restoration/", "/service-areas/port-orchard-wa/mold-remediation/", "/service-areas/algona-wa/emergency-plumbing/", "/service-areas/auburn-wa/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Port Orchard", "url": "/service-areas/port-orchard-wa/"}, {"name": "Emergency Plumbing"}]

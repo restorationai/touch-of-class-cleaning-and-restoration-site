@@ -185,7 +185,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] roofing
 - [ ] decks-pergolas-fences
 - [ ] new-construction
-- [ ] (continue for each of Commercial Construction and Tenant Improvements, Renovations, Remodels and General Contracting, New Home Construction, Fire and Smoke Damage Rebuilding, Water Damage Restoration, Storm Damage Restoration, Mold Remediation, Home Remodeling, Kitchen Remodeling, Bathroom Remodeling, Garage Construction, Room Additions and Home Additions, 24/7 Emergency Water Cleanup, Basement Sewage Cleanup, Bathroom Remodeler, Carpet & Upholstery Cleaning, Carpet Water Extraction, General Contractor, Post-Construction & Specialty Cleaning)
+- [ ] (continue for each of Basement Sewage Cleanup, Bathroom Remodeling, Carpet & Upholstery Cleaning, Carpet Water Extraction, Commercial Construction and Tenant Improvements, Fire and Smoke Damage Rebuilding, Garage Construction, Renovations, Remodels and General Contracting, Home Remodeling, Kitchen Remodeling, Mold Remediation, New Home Construction, Post-Construction & Specialty Cleaning, Room Additions and Home Additions, Storm Damage Restoration, Water Damage Restoration)
 
 ### Service area pages (one image per city served)
 - [ ] Sacramento hero — exterior shot, regional housing stock, evocative of the city

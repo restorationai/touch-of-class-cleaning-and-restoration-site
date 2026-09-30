@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "407a20e2e35944c5"
-generated_at: "2026-09-30T14:12:19.473054+00:00"
+generated_at: "2026-09-30T18:41:44.234533+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/duquesne-pa/", "/service-areas/duquesne-pa/fire-damage-restoration/", "/service-areas/duquesne-pa/roofing/", "/service-areas/allison-park-pa/general-contracting/", "/service-areas/baldwin-pa/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Duquesne", "url": "/service-areas/duquesne-pa/"}, {"name": "Renovations, Remodels and General Contracting"}]

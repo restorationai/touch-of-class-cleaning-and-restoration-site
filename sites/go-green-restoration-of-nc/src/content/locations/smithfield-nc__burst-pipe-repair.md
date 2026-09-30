@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "2ab1445bfc12ffb6"
-generated_at: "2026-09-29T23:13:49.281878+00:00"
+generated_at: "2026-09-30T18:41:33.270184+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/smithfield-nc/", "/service-areas/smithfield-nc/fire-damage-restoration/", "/service-areas/smithfield-nc/mold-remediation/", "/service-areas/archer-lodge-nc/burst-pipe-repair/", "/service-areas/clayton-nc/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Smithfield", "url": "/service-areas/smithfield-nc/"}, {"name": "Burst Pipe Cleanup and Repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "473f9e122b4c4fd3"
-generated_at: "2026-09-23T14:12:04.438285+00:00"
+generated_at: "2026-09-30T18:41:58.619660+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/rockwall-tx/", "/service-areas/rockwall-tx/fire-damage-restoration/", "/service-areas/rockwall-tx/mold-remediation/", "/service-areas/allen-tx/roofing/", "/service-areas/caddo-mills-tx/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rockwall", "url": "/service-areas/rockwall-tx/"}, {"name": "Roofing Installation and Replacement"}]

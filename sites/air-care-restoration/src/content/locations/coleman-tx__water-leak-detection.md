@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "8b15c9e95c78faff"
-generated_at: "2026-09-30T14:12:01.789248+00:00"
+generated_at: "2026-09-30T18:41:09.004604+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/coleman-tx/", "/service-areas/coleman-tx/fire-damage-restoration/", "/service-areas/coleman-tx/mold-remediation/", "/service-areas/albany-tx/water-leak-detection/", "/service-areas/anson-tx/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Coleman", "url": "/service-areas/coleman-tx/"}, {"name": "water-leak-detection"}]

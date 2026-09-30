@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "18539f9a0396b54d"
-generated_at: "2026-09-29T23:13:48.926286+00:00"
+generated_at: "2026-09-30T18:41:35.582534+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/avon-mn/", "/service-areas/avon-mn/fire-damage-restoration/", "/service-areas/avon-mn/roofing/", "/service-areas/albany-mn/mold-remediation/", "/service-areas/baxter-mn/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Avon", "url": "/service-areas/avon-mn/"}, {"name": "Mold Remediation"}]

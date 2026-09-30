@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "be8e84b10a689570"
-generated_at: "2026-09-30T14:12:09.626987+00:00"
+generated_at: "2026-09-30T18:41:21.494430+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/anaheim-ca/", "/service-areas/anaheim-ca/fire-damage-restoration/", "/service-areas/anaheim-ca/mold-remediation/", "/service-areas/chino-ca/smoke-damage-restoration/", "/service-areas/chino-hills-ca/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Anaheim", "url": "/service-areas/anaheim-ca/"}, {"name": "Smoke Damage Restoration"}]

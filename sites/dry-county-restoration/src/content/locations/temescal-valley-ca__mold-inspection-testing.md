@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "fb9d140cc5f3484e"
-generated_at: "2026-09-30T14:12:09.703924+00:00"
+generated_at: "2026-09-30T18:41:21.564622+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/temescal-valley-ca/", "/service-areas/temescal-valley-ca/fire-damage-restoration/", "/service-areas/temescal-valley-ca/mold-remediation/", "/service-areas/anaheim-ca/mold-inspection-testing/", "/service-areas/chino-ca/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Temescal Valley", "url": "/service-areas/temescal-valley-ca/"}, {"name": "Mold Inspection and Testing"}]

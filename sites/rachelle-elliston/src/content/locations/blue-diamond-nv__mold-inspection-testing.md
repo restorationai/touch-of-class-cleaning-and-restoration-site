@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "c4917f92132cdc18"
-generated_at: "2026-09-28T20:50:26.605765+00:00"
+generated_at: "2026-09-30T18:41:56.140461+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/blue-diamond-nv/", "/service-areas/blue-diamond-nv/fire-damage-restoration/", "/service-areas/blue-diamond-nv/mold-remediation/", "/service-areas/boulder-city-nv/mold-inspection-testing/", "/service-areas/enterprise-nv/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Blue Diamond", "url": "/service-areas/blue-diamond-nv/"}, {"name": "mold-inspection-testing"}]

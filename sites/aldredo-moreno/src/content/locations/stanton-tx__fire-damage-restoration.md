@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "d083f4c31f3ffc4b"
-generated_at: "2026-09-30T14:12:02.630025+00:00"
+generated_at: "2026-09-30T18:41:10.011478+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/stanton-tx/", "/service-areas/stanton-tx/mold-remediation/", "/service-areas/stanton-tx/water-damage-restoration/", "/service-areas/andrews-tx/fire-damage-restoration/", "/service-areas/big-lake-tx/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Stanton", "url": "/service-areas/stanton-tx/"}, {"name": "fire-damage-restoration"}]

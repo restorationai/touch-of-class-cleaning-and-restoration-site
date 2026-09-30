@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "c854f8daca8767aa"
-generated_at: "2026-09-30T14:12:26.009976+00:00"
+generated_at: "2026-09-30T18:41:54.718137+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/northborough-ma/", "/service-areas/northborough-ma/fire-damage-restoration/", "/service-areas/northborough-ma/mold-remediation/", "/service-areas/bellingham-ma/ceiling-water-damage-repair/", "/service-areas/east-douglas-ma/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Northborough", "url": "/service-areas/northborough-ma/"}, {"name": "ceiling-water-damage-repair"}]

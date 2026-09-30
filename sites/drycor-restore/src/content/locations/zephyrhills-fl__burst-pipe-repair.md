@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "c1831b1640dc3b20"
-generated_at: "2026-09-29T23:28:29.480918+00:00"
+generated_at: "2026-09-30T18:41:26.197408+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/zephyrhills-fl/", "/service-areas/zephyrhills-fl/fire-damage-restoration/", "/service-areas/zephyrhills-fl/mold-remediation/", "/service-areas/anna-maria-fl/burst-pipe-repair/", "/service-areas/apollo-beach-fl/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Zephyrhills", "url": "/service-areas/zephyrhills-fl/"}, {"name": "Burst Pipe Cleanup and Repair"}]

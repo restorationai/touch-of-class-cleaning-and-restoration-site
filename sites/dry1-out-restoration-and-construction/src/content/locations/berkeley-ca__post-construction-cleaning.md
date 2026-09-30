@@ -8,7 +8,7 @@ secondary_keywords: ["post construction cleanup", "construction debris cleaning"
 search_intent: "local_service"
 priority: 2.8
 plan_hash: "790601951f22f5ec"
-generated_at: "2026-09-29T14:31:48.442915+00:00"
+generated_at: "2026-09-30T18:41:22.792319+00:00"
 manual_override: false
 internal_links: ["/services/post-construction-cleaning/", "/service-areas/berkeley-ca/", "/service-areas/berkeley-ca/fire-damage-restoration/", "/service-areas/berkeley-ca/mold-remediation/", "/service-areas/carlsbad-ca/post-construction-cleaning/", "/service-areas/chula-vista-ca/post-construction-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Berkeley", "url": "/service-areas/berkeley-ca/"}, {"name": "Post-Construction and Specialty Cleaning"}]

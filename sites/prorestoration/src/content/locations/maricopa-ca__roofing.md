@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "c8cb0f4f6b9e6f66"
-generated_at: "2026-09-30T14:12:23.122535+00:00"
+generated_at: "2026-09-30T18:41:52.147874+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/maricopa-ca/", "/service-areas/maricopa-ca/fire-damage-restoration/", "/service-areas/maricopa-ca/home-remodeling/", "/service-areas/arvin-ca/roofing/", "/service-areas/bear-valley-springs-ca/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Maricopa", "url": "/service-areas/maricopa-ca/"}, {"name": "Roofing Installation and Replacement"}]

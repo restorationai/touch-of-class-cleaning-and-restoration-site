@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "06f4b3ae8e0c1cb9"
-generated_at: "2026-09-30T14:12:12.980621+00:00"
+generated_at: "2026-09-30T18:41:37.757618+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/hurley-ms/", "/service-areas/hurley-ms/fire-damage-restoration/", "/service-areas/hurley-ms/mold-remediation/", "/service-areas/agricola-ms/water-heater-flood-cleanup/", "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hurley", "url": "/service-areas/hurley-ms/"}, {"name": "water-heater-flood-cleanup"}]

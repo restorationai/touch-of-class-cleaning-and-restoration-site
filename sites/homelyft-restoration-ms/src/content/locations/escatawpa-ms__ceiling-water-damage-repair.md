@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "fb0c25bbb0d4062e"
-generated_at: "2026-09-30T14:12:12.956034+00:00"
+generated_at: "2026-09-30T18:41:37.728191+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/escatawpa-ms/", "/service-areas/escatawpa-ms/fire-damage-restoration/", "/service-areas/escatawpa-ms/mold-remediation/", "/service-areas/agricola-ms/ceiling-water-damage-repair/", "/service-areas/bay-st-louis-ms/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Escatawpa", "url": "/service-areas/escatawpa-ms/"}, {"name": "ceiling-water-damage-repair"}]

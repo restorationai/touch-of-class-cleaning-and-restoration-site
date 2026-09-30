@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "567140d982bc1963"
-generated_at: "2026-09-30T14:12:12.932815+00:00"
+generated_at: "2026-09-30T18:41:37.699479+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/wiggins-ms/", "/service-areas/wiggins-ms/fire-damage-restoration/", "/service-areas/wiggins-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-plumbing/", "/service-areas/bay-st-louis-ms/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wiggins", "url": "/service-areas/wiggins-ms/"}, {"name": "emergency-plumbing"}]

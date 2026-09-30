@@ -2,13 +2,13 @@
 archetype: "service-area-service"
 title: "Emergency Water Removal & Cleanup in Shafter, CA | ProRestoration Services"
 h1: "Emergency Water Removal & Cleanup in Shafter"
-meta_description: "24/7 emergency water removal and cleanup in Shafter, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
-primary_keyword: "emergency water removal shafter"
-secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
+meta_description: "24/7 emergency water removal & cleanup in Shafter, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+primary_keyword: "emergency water removal & cleanup shafter"
+secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "2d09ba33d2ff4430"
-generated_at: "2026-09-30T14:12:22.966243+00:00"
+plan_hash: "e78e3c11f76d34fe"
+generated_at: "2026-09-30T18:41:52.006666+00:00"
 manual_override: false
 internal_links: ["/services/emergency-water-removal/", "/service-areas/shafter-ca/", "/service-areas/shafter-ca/fire-damage-restoration/", "/service-areas/shafter-ca/home-remodeling/", "/service-areas/arvin-ca/emergency-water-removal/", "/service-areas/bear-valley-springs-ca/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Shafter", "url": "/service-areas/shafter-ca/"}, {"name": "Emergency Water Removal & Cleanup"}]

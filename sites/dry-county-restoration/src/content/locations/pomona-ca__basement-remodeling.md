@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "e6beac939100b9b7"
-generated_at: "2026-09-30T14:12:09.784503+00:00"
+generated_at: "2026-09-30T18:41:21.636959+00:00"
 manual_override: false
 internal_links: ["/services/basement-remodeling/", "/service-areas/pomona-ca/", "/service-areas/pomona-ca/fire-damage-restoration/", "/service-areas/pomona-ca/mold-remediation/", "/service-areas/anaheim-ca/basement-remodeling/", "/service-areas/chino-ca/basement-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pomona", "url": "/service-areas/pomona-ca/"}, {"name": "Basement Remodeling"}]

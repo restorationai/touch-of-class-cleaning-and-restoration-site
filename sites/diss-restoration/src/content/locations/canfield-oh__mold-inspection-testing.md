@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "9a3c6b82175875b6"
-generated_at: "2026-09-30T14:12:07.120530+00:00"
+generated_at: "2026-09-30T18:41:19.821159+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/canfield-oh/", "/service-areas/canfield-oh/fire-damage-restoration/", "/service-areas/canfield-oh/mold-remediation/", "/service-areas/austintown-oh/mold-inspection-testing/", "/service-areas/boardman-oh/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Canfield", "url": "/service-areas/canfield-oh/"}, {"name": "mold-inspection-testing"}]

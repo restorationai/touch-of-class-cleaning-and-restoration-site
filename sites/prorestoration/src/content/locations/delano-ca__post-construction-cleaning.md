@@ -8,7 +8,7 @@ secondary_keywords: ["post construction cleanup", "construction debris cleaning"
 search_intent: "local_service"
 priority: 2.8
 plan_hash: "e3ff33f63dce4895"
-generated_at: "2026-09-30T14:12:22.958566+00:00"
+generated_at: "2026-09-30T18:41:52.001530+00:00"
 manual_override: false
 internal_links: ["/services/post-construction-cleaning/", "/service-areas/delano-ca/", "/service-areas/delano-ca/fire-damage-restoration/", "/service-areas/delano-ca/home-remodeling/", "/service-areas/arvin-ca/post-construction-cleaning/", "/service-areas/bear-valley-springs-ca/post-construction-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Delano", "url": "/service-areas/delano-ca/"}, {"name": "Post-Construction and Specialty Cleaning"}]

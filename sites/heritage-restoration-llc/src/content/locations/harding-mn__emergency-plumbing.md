@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "9a5f82af2cab3745"
-generated_at: "2026-09-29T23:13:48.908452+00:00"
+generated_at: "2026-09-30T18:41:35.556638+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/harding-mn/", "/service-areas/harding-mn/fire-damage-restoration/", "/service-areas/harding-mn/mold-remediation/", "/service-areas/albany-mn/emergency-plumbing/", "/service-areas/avon-mn/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Harding", "url": "/service-areas/harding-mn/"}, {"name": "Emergency Plumbing"}]

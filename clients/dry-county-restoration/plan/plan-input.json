@@ -34,13 +34,16 @@
   },
   "services": [
     "air-duct-cleaning",
+    "air-duct-hvac-cleaning",
     "basement-flooding-cleanup",
     "basement-remodeling",
     "burst-pipe-repair",
     "carpet-cleaning",
+    "carpet-upholstery-cleaning",
     "ceiling-water-damage-repair",
     "commercial-restoration",
     "contents-restoration",
+    "contents-restoration-storage",
     "emergency-board-up-tarping",
     "emergency-plumbing",
     "fire-damage-restoration",
@@ -175,5 +178,19 @@
     }
   ],
   "template": "restoration",
-  "blog_seed_count": 8
+  "blog_seed_count": 8,
+  "homepage_services": [
+    "water-damage-restoration",
+    "mold-remediation",
+    "fire-damage-restoration",
+    "sewage-cleanup",
+    "storm-damage-restoration",
+    "general-contracting"
+  ],
+  "merged_services": {
+    "air-duct-hvac-cleaning": "air-duct-cleaning",
+    "carpet-upholstery-cleaning": "carpet-cleaning",
+    "contents-restoration-storage": "contents-restoration",
+    "water-cleanup": "emergency-water-removal"
+  }
 }

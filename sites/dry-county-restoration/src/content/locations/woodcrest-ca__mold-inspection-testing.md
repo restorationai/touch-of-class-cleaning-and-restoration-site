@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "3fc7a217181dfd83"
-generated_at: "2026-09-30T14:12:09.732132+00:00"
+generated_at: "2026-09-30T18:41:21.590066+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/woodcrest-ca/", "/service-areas/woodcrest-ca/fire-damage-restoration/", "/service-areas/woodcrest-ca/mold-remediation/", "/service-areas/anaheim-ca/mold-inspection-testing/", "/service-areas/chino-ca/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woodcrest", "url": "/service-areas/woodcrest-ca/"}, {"name": "Mold Inspection and Testing"}]

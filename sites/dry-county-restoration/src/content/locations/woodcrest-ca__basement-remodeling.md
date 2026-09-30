@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "0176293b357cf2d7"
-generated_at: "2026-09-30T14:12:09.727353+00:00"
+generated_at: "2026-09-30T18:41:21.586069+00:00"
 manual_override: false
 internal_links: ["/services/basement-remodeling/", "/service-areas/woodcrest-ca/", "/service-areas/woodcrest-ca/fire-damage-restoration/", "/service-areas/woodcrest-ca/mold-remediation/", "/service-areas/anaheim-ca/basement-remodeling/", "/service-areas/chino-ca/basement-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woodcrest", "url": "/service-areas/woodcrest-ca/"}, {"name": "Basement Remodeling"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "505f775ae49275cd"
-generated_at: "2026-09-23T14:11:42.583472+00:00"
+generated_at: "2026-09-30T18:41:30.028033+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/federal-way-wa/", "/service-areas/federal-way-wa/fire-damage-restoration/", "/service-areas/federal-way-wa/mold-remediation/", "/service-areas/anderson-island-wa/emergency-plumbing/", "/service-areas/auburn-wa/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Federal Way", "url": "/service-areas/federal-way-wa/"}, {"name": "Emergency Plumbing"}]

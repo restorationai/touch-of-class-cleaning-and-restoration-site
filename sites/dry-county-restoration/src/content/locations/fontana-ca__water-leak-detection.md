@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "5cd78b9e15dc8e4e"
-generated_at: "2026-09-30T14:12:09.783136+00:00"
+generated_at: "2026-09-30T18:41:21.635745+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/fontana-ca/", "/service-areas/fontana-ca/fire-damage-restoration/", "/service-areas/fontana-ca/mold-remediation/", "/service-areas/anaheim-ca/water-leak-detection/", "/service-areas/chino-ca/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fontana", "url": "/service-areas/fontana-ca/"}, {"name": "Water Leak Detection"}]

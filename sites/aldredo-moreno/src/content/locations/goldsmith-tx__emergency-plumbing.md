@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "0feae0b369f44631"
-generated_at: "2026-09-30T14:12:02.643640+00:00"
+generated_at: "2026-09-30T18:41:10.036953+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/goldsmith-tx/", "/service-areas/goldsmith-tx/fire-damage-restoration/", "/service-areas/goldsmith-tx/mold-remediation/", "/service-areas/andrews-tx/emergency-plumbing/", "/service-areas/big-lake-tx/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Goldsmith", "url": "/service-areas/goldsmith-tx/"}, {"name": "emergency-plumbing"}]

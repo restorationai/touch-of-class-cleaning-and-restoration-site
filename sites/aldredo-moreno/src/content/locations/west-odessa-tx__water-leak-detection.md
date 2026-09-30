@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "80df5c6645e70e29"
-generated_at: "2026-09-30T14:12:02.646400+00:00"
+generated_at: "2026-09-30T18:41:10.042089+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/west-odessa-tx/", "/service-areas/west-odessa-tx/fire-damage-restoration/", "/service-areas/west-odessa-tx/mold-remediation/", "/service-areas/andrews-tx/water-leak-detection/", "/service-areas/big-lake-tx/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "West Odessa", "url": "/service-areas/west-odessa-tx/"}, {"name": "water-leak-detection"}]

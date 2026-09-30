@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "85894dc05187c715"
-generated_at: "2026-09-30T14:12:09.758705+00:00"
+generated_at: "2026-09-30T18:41:21.613832+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/montclair-ca/", "/service-areas/montclair-ca/mold-remediation/", "/service-areas/montclair-ca/roofing/", "/service-areas/anaheim-ca/fire-damage-restoration/", "/service-areas/chino-ca/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Montclair", "url": "/service-areas/montclair-ca/"}, {"name": "Fire Damage Restoration"}]

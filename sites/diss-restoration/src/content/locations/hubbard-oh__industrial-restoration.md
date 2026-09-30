@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "c6f5d99d9561680e"
-generated_at: "2026-09-30T14:12:07.124507+00:00"
+generated_at: "2026-09-30T18:41:19.827005+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/hubbard-oh/", "/service-areas/hubbard-oh/fire-damage-restoration/", "/service-areas/hubbard-oh/mold-remediation/", "/service-areas/austintown-oh/industrial-restoration/", "/service-areas/boardman-oh/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hubbard", "url": "/service-areas/hubbard-oh/"}, {"name": "industrial-restoration"}]

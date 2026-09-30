@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "d4203be8f619a006"
-generated_at: "2026-09-23T14:12:04.451079+00:00"
+generated_at: "2026-09-30T18:41:58.652189+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/mckinney-tx/", "/service-areas/mckinney-tx/fire-damage-restoration/", "/service-areas/mckinney-tx/mold-remediation/", "/service-areas/allen-tx/roofing/", "/service-areas/caddo-mills-tx/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McKinney", "url": "/service-areas/mckinney-tx/"}, {"name": "Roofing Installation and Replacement"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 9.0
 plan_hash: "4f0d659d34958449"
-generated_at: "2026-09-30T14:12:09.607672+00:00"
+generated_at: "2026-09-30T18:41:21.477213+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/roofing/", "/service-areas/chino-ca/roofing/", "/service-areas/chino-hills-ca/roofing/", "/service-areas/eastvale-ca/roofing/", "/service-areas/fontana-ca/roofing/", "/service-areas/fullerton-ca/roofing/", "/service-areas/jurupa-valley-ca/roofing/", "/service-areas/lake-mathews-ca/roofing/", "/service-areas/montclair-ca/roofing/", "/service-areas/norco-ca/roofing/", "/service-areas/north-tustin-ca/roofing/", "/service-areas/ontario-ca/roofing/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Roofing Installation and Replacement"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "411b8cc28c78f384"
-generated_at: "2026-09-29T14:31:48.392326+00:00"
+generated_at: "2026-09-30T18:41:22.733717+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/san-marcos-ca/", "/service-areas/san-marcos-ca/fire-damage-restoration/", "/service-areas/san-marcos-ca/mold-remediation/", "/service-areas/berkeley-ca/commercial-restoration/", "/service-areas/carlsbad-ca/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Marcos", "url": "/service-areas/san-marcos-ca/"}, {"name": "commercial-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "c978422d0898ee49"
-generated_at: "2026-09-30T14:12:21.576460+00:00"
+generated_at: "2026-09-30T18:41:50.545644+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/burien-wa/", "/service-areas/burien-wa/fire-damage-restoration/", "/service-areas/burien-wa/mold-remediation/", "/service-areas/algona-wa/roofing/", "/service-areas/auburn-wa/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Burien", "url": "/service-areas/burien-wa/"}, {"name": "Roofing Installation and Replacement"}]

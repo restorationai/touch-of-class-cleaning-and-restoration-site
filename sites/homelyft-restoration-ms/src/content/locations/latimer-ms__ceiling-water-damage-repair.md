@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "47ea3cd563fdaf61"
-generated_at: "2026-09-30T14:12:12.880972+00:00"
+generated_at: "2026-09-30T18:41:37.634617+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/latimer-ms/", "/service-areas/latimer-ms/fire-damage-restoration/", "/service-areas/latimer-ms/mold-remediation/", "/service-areas/agricola-ms/ceiling-water-damage-repair/", "/service-areas/bay-st-louis-ms/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Latimer", "url": "/service-areas/latimer-ms/"}, {"name": "ceiling-water-damage-repair"}]

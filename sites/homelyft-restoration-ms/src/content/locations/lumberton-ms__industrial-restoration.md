@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "62ccef93f3e90f69"
-generated_at: "2026-09-30T14:12:12.941523+00:00"
+generated_at: "2026-09-30T18:41:37.709580+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/lumberton-ms/", "/service-areas/lumberton-ms/fire-damage-restoration/", "/service-areas/lumberton-ms/mold-remediation/", "/service-areas/agricola-ms/industrial-restoration/", "/service-areas/bay-st-louis-ms/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lumberton", "url": "/service-areas/lumberton-ms/"}, {"name": "industrial-restoration"}]

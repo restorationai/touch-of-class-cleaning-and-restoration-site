@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 7.2
 plan_hash: "a8757eeb658ad7fb"
-generated_at: "2026-09-30T14:12:01.733204+00:00"
+generated_at: "2026-09-30T18:41:08.921562+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/albany-tx/burst-pipe-repair/", "/service-areas/anson-tx/burst-pipe-repair/", "/service-areas/baird-tx/burst-pipe-repair/", "/service-areas/ballinger-tx/burst-pipe-repair/", "/service-areas/bronte-tx/burst-pipe-repair/", "/service-areas/brownwood-tx/burst-pipe-repair/", "/service-areas/buffalo-gap-tx/burst-pipe-repair/", "/service-areas/clyde-tx/burst-pipe-repair/", "/service-areas/coleman-tx/burst-pipe-repair/", "/service-areas/colorado-city-tx/burst-pipe-repair/", "/service-areas/comanche-tx/burst-pipe-repair/", "/service-areas/early-tx/burst-pipe-repair/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "burst-pipe-repair"}]

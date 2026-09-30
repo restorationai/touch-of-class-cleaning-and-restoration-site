@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "c43cba48758911e3"
-generated_at: "2026-09-28T20:50:26.589095+00:00"
+generated_at: "2026-09-30T18:41:56.100126+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/sunrise-manor-nv/", "/service-areas/sunrise-manor-nv/fire-damage-restoration/", "/service-areas/sunrise-manor-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-leak-detection/", "/service-areas/boulder-city-nv/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sunrise Manor", "url": "/service-areas/sunrise-manor-nv/"}, {"name": "water-leak-detection"}]

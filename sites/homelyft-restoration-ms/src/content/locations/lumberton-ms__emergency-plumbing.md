@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "6aa9c10dcd3a8b6b"
-generated_at: "2026-09-30T14:12:12.942339+00:00"
+generated_at: "2026-09-30T18:41:37.711093+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/lumberton-ms/", "/service-areas/lumberton-ms/fire-damage-restoration/", "/service-areas/lumberton-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-plumbing/", "/service-areas/bay-st-louis-ms/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lumberton", "url": "/service-areas/lumberton-ms/"}, {"name": "emergency-plumbing"}]

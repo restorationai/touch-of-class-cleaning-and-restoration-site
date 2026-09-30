@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "c122cf4ec0ed36a8"
-generated_at: "2026-09-23T14:11:38.288938+00:00"
+generated_at: "2026-09-30T18:41:26.422822+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/parrish-fl/", "/service-areas/parrish-fl/fire-damage-restoration/", "/service-areas/parrish-fl/mold-remediation/", "/service-areas/anna-maria-fl/emergency-plumbing/", "/service-areas/apollo-beach-fl/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Parrish", "url": "/service-areas/parrish-fl/"}, {"name": "Emergency Plumbing"}]

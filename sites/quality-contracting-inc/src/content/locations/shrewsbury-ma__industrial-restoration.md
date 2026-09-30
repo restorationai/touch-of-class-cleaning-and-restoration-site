@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "04c1bc390a07bf94"
-generated_at: "2026-09-30T14:12:25.926111+00:00"
+generated_at: "2026-09-30T18:41:54.625295+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/shrewsbury-ma/", "/service-areas/shrewsbury-ma/fire-damage-restoration/", "/service-areas/shrewsbury-ma/mold-remediation/", "/service-areas/bellingham-ma/industrial-restoration/", "/service-areas/east-douglas-ma/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Shrewsbury", "url": "/service-areas/shrewsbury-ma/"}, {"name": "industrial-restoration"}]

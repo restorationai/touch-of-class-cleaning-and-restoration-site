@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "276aa85d77e7c029"
-generated_at: "2026-09-30T14:12:07.105588+00:00"
+generated_at: "2026-09-30T18:41:19.800563+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/austintown-oh/", "/service-areas/austintown-oh/fire-damage-restoration/", "/service-areas/austintown-oh/mold-remediation/", "/service-areas/boardman-oh/mold-inspection-testing/", "/service-areas/campbell-oh/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Austintown", "url": "/service-areas/austintown-oh/"}, {"name": "mold-inspection-testing"}]

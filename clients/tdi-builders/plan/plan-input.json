@@ -65,22 +65,23 @@
     "postal_code": "95354"
   },
   "services": [
-    "commercial-construction",
-    "general-contracting",
-    "new-construction",
-    "fire-smoke-rebuilding",
-    "water-damage-restoration",
-    "storm-damage-restoration",
-    "mold-remediation",
-    "home-remodeling",
-    "kitchen-remodeling",
-    "bathroom-remodeling",
-    "garage-construction",
-    "room-addition",
+    "24-7-emergency-water-cleanup",
     "basement-sewage-cleanup",
+    "bathroom-remodeling",
     "carpet-upholstery-cleaning",
     "carpet-water-extraction",
-    "post-construction-specialty-cleaning"
+    "commercial-construction",
+    "fire-smoke-rebuilding",
+    "garage-construction",
+    "general-contracting",
+    "home-remodeling",
+    "kitchen-remodeling",
+    "mold-remediation",
+    "new-construction",
+    "post-construction-specialty-cleaning",
+    "room-addition",
+    "storm-damage-restoration",
+    "water-damage-restoration"
   ],
   "service_areas": [
     {
@@ -260,5 +261,18 @@
     }
   ],
   "template": "construction",
-  "blog_seed_count": 8
+  "blog_seed_count": 8,
+  "homepage_services": [
+    "home-remodeling",
+    "bathroom-remodeling",
+    "kitchen-remodeling",
+    "new-construction",
+    "general-contracting",
+    "room-addition"
+  ],
+  "merged_services": {
+    "24-7-emergency-water-cleanup": "water-damage-restoration",
+    "bathroom-remodeler": "bathroom-remodeling",
+    "general-contractor": "general-contracting"
+  }
 }

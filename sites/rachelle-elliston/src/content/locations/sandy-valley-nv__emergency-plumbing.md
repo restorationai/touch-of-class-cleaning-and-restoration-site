@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "bfdd57a6f938abd3"
-generated_at: "2026-09-28T20:50:26.612303+00:00"
+generated_at: "2026-09-30T18:41:56.156726+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/sandy-valley-nv/", "/service-areas/sandy-valley-nv/fire-damage-restoration/", "/service-areas/sandy-valley-nv/mold-remediation/", "/service-areas/blue-diamond-nv/emergency-plumbing/", "/service-areas/boulder-city-nv/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sandy Valley", "url": "/service-areas/sandy-valley-nv/"}, {"name": "emergency-plumbing"}]

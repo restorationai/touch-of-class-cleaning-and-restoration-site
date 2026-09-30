@@ -8,7 +8,7 @@ secondary_keywords: ["hoarder cleanup", "hoarding cleaning services", "hoarding 
 search_intent: "local_sensitive"
 priority: 4.2
 plan_hash: "baa79167a8254d64"
-generated_at: "2026-09-30T14:12:14.593406+00:00"
+generated_at: "2026-09-30T18:41:40.270318+00:00"
 manual_override: false
 internal_links: ["/services/hoarding-cleanup/", "/service-areas/highland-ut/", "/service-areas/highland-ut/fire-damage-restoration/", "/service-areas/highland-ut/mold-remediation/", "/service-areas/alpine-ut/hoarding-cleanup/", "/service-areas/american-fork-ut/hoarding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Highland", "url": "/service-areas/highland-ut/"}, {"name": "Hoarding Cleanup"}]

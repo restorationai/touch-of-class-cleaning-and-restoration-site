@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "519932a668ef8450"
-generated_at: "2026-09-30T14:12:12.989542+00:00"
+generated_at: "2026-09-30T18:41:37.767839+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/ocean-springs-ms/", "/service-areas/ocean-springs-ms/fire-damage-restoration/", "/service-areas/ocean-springs-ms/mold-remediation/", "/service-areas/agricola-ms/industrial-restoration/", "/service-areas/bay-st-louis-ms/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ocean Springs", "url": "/service-areas/ocean-springs-ms/"}, {"name": "industrial-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "9571d49877ca153d"
-generated_at: "2026-09-30T14:12:21.579714+00:00"
+generated_at: "2026-09-30T18:41:50.547735+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/burien-wa/", "/service-areas/burien-wa/fire-damage-restoration/", "/service-areas/burien-wa/mold-remediation/", "/service-areas/algona-wa/water-leak-detection/", "/service-areas/auburn-wa/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Burien", "url": "/service-areas/burien-wa/"}, {"name": "Water Leak Detection"}]

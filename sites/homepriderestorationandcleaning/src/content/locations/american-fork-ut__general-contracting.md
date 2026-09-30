@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "eba8dd398194610c"
-generated_at: "2026-09-30T14:12:14.542516+00:00"
+generated_at: "2026-09-30T18:41:40.210246+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/american-fork-ut/", "/service-areas/american-fork-ut/fire-damage-restoration/", "/service-areas/american-fork-ut/mold-remediation/", "/service-areas/alpine-ut/general-contracting/", "/service-areas/benjamin-ut/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "American Fork", "url": "/service-areas/american-fork-ut/"}, {"name": "general-contracting"}]

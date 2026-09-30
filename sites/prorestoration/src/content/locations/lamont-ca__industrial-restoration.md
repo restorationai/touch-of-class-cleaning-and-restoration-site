@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "7ad83cb3bdc6b235"
-generated_at: "2026-09-30T14:12:23.002119+00:00"
+generated_at: "2026-09-30T18:41:52.039639+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/lamont-ca/", "/service-areas/lamont-ca/fire-damage-restoration/", "/service-areas/lamont-ca/home-remodeling/", "/service-areas/arvin-ca/industrial-restoration/", "/service-areas/bear-valley-springs-ca/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lamont", "url": "/service-areas/lamont-ca/"}, {"name": "industrial-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "fe922880bde1536b"
-generated_at: "2026-09-29T23:28:29.662769+00:00"
+generated_at: "2026-09-30T18:41:26.504251+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/palm-river-clair-mel-fl/", "/service-areas/palm-river-clair-mel-fl/fire-damage-restoration/", "/service-areas/palm-river-clair-mel-fl/mold-remediation/", "/service-areas/anna-maria-fl/burst-pipe-repair/", "/service-areas/apollo-beach-fl/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Palm River-Clair Mel", "url": "/service-areas/palm-river-clair-mel-fl/"}, {"name": "Burst Pipe Cleanup and Repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "4766f0f4fbee6df3"
-generated_at: "2026-09-30T14:12:13.016972+00:00"
+generated_at: "2026-09-30T18:41:37.800549+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/lucedale-ms/", "/service-areas/lucedale-ms/fire-damage-restoration/", "/service-areas/lucedale-ms/mold-remediation/", "/service-areas/agricola-ms/burst-pipe-repair/", "/service-areas/bay-st-louis-ms/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lucedale", "url": "/service-areas/lucedale-ms/"}, {"name": "burst-pipe-repair"}]

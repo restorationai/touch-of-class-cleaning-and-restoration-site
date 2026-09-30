@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "df1e867505f2e94b"
-generated_at: "2026-09-30T14:12:12.973054+00:00"
+generated_at: "2026-09-30T18:41:37.747663+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/helena-ms/", "/service-areas/helena-ms/fire-damage-restoration/", "/service-areas/helena-ms/mold-remediation/", "/service-areas/agricola-ms/roofing/", "/service-areas/bay-st-louis-ms/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Helena", "url": "/service-areas/helena-ms/"}, {"name": "Roofing Installation and Replacement"}]

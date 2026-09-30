@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "c0b9a8589e5f7bc5"
-generated_at: "2026-09-30T14:12:02.639783+00:00"
+generated_at: "2026-09-30T18:41:10.029979+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/greenwood-tx/", "/service-areas/greenwood-tx/fire-damage-restoration/", "/service-areas/greenwood-tx/mold-remediation/", "/service-areas/andrews-tx/general-contracting/", "/service-areas/big-lake-tx/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Greenwood", "url": "/service-areas/greenwood-tx/"}, {"name": "general-contracting"}]

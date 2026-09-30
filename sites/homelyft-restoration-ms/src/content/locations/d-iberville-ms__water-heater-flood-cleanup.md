@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "7b5e3b13b6d682eb"
-generated_at: "2026-09-30T14:12:12.862151+00:00"
+generated_at: "2026-09-30T18:41:37.611948+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/d-iberville-ms/", "/service-areas/d-iberville-ms/fire-damage-restoration/", "/service-areas/d-iberville-ms/mold-remediation/", "/service-areas/agricola-ms/water-heater-flood-cleanup/", "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "D'Iberville", "url": "/service-areas/d-iberville-ms/"}, {"name": "water-heater-flood-cleanup"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "5e95b8343da2c889"
-generated_at: "2026-09-29T23:28:29.513582+00:00"
+generated_at: "2026-09-30T18:41:26.244174+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/apollo-beach-fl/", "/service-areas/apollo-beach-fl/fire-damage-restoration/", "/service-areas/apollo-beach-fl/mold-remediation/", "/service-areas/anna-maria-fl/burst-pipe-repair/", "/service-areas/auburndale-fl/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Apollo Beach", "url": "/service-areas/apollo-beach-fl/"}, {"name": "Burst Pipe Cleanup and Repair"}]

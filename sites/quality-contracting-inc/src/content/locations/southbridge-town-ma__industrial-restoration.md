@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "24aed7b622e88043"
-generated_at: "2026-09-30T14:12:26.017191+00:00"
+generated_at: "2026-09-30T18:41:54.725573+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/southbridge-town-ma/", "/service-areas/southbridge-town-ma/fire-damage-restoration/", "/service-areas/southbridge-town-ma/mold-remediation/", "/service-areas/bellingham-ma/industrial-restoration/", "/service-areas/east-douglas-ma/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Southbridge Town", "url": "/service-areas/southbridge-town-ma/"}, {"name": "industrial-restoration"}]

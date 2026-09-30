@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "5325d7f69147ddf4"
-generated_at: "2026-09-30T14:12:23.098749+00:00"
+generated_at: "2026-09-30T18:41:52.125503+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/bear-valley-springs-ca/", "/service-areas/bear-valley-springs-ca/fire-damage-restoration/", "/service-areas/bear-valley-springs-ca/home-remodeling/", "/service-areas/arvin-ca/emergency-plumbing/", "/service-areas/buttonwillow-ca/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bear Valley Springs", "url": "/service-areas/bear-valley-springs-ca/"}, {"name": "Emergency Plumbing"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "f2dfd2d82ee30573"
-generated_at: "2026-09-29T23:13:48.858219+00:00"
+generated_at: "2026-09-30T18:41:35.479299+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/brainerd-mn/", "/service-areas/brainerd-mn/fire-damage-restoration/", "/service-areas/brainerd-mn/mold-remediation/", "/service-areas/albany-mn/commercial-restoration/", "/service-areas/avon-mn/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Brainerd", "url": "/service-areas/brainerd-mn/"}, {"name": "Commercial Restoration"}]

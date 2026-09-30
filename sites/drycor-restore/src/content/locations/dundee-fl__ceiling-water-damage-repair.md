@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "1fa8e50ca471e7c5"
-generated_at: "2026-09-29T23:28:29.558953+00:00"
+generated_at: "2026-09-30T18:41:26.314203+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/dundee-fl/", "/service-areas/dundee-fl/fire-damage-restoration/", "/service-areas/dundee-fl/mold-remediation/", "/service-areas/anna-maria-fl/ceiling-water-damage-repair/", "/service-areas/apollo-beach-fl/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Dundee", "url": "/service-areas/dundee-fl/"}, {"name": "Ceiling Water Damage Repair"}]

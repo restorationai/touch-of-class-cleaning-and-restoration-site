@@ -8,7 +8,7 @@ secondary_keywords: ["post construction cleanup", "construction debris cleaning"
 search_intent: "local_service"
 priority: 2.8
 plan_hash: "f6f0536b9928fc9e"
-generated_at: "2026-09-29T14:31:48.325484+00:00"
+generated_at: "2026-09-30T18:41:22.660120+00:00"
 manual_override: false
 internal_links: ["/services/post-construction-cleaning/", "/service-areas/san-jose-ca/", "/service-areas/san-jose-ca/fire-damage-restoration/", "/service-areas/san-jose-ca/mold-remediation/", "/service-areas/berkeley-ca/post-construction-cleaning/", "/service-areas/carlsbad-ca/post-construction-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Jose", "url": "/service-areas/san-jose-ca/"}, {"name": "Post-Construction and Specialty Cleaning"}]

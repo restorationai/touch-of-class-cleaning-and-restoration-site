@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "16dcfd2902d9073c"
-generated_at: "2026-09-30T14:12:19.451202+00:00"
+generated_at: "2026-09-30T18:41:44.214816+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/wilkinsburg-pa/", "/service-areas/wilkinsburg-pa/fire-damage-restoration/", "/service-areas/wilkinsburg-pa/roofing/", "/service-areas/allison-park-pa/biohazard-cleanup/", "/service-areas/baldwin-pa/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wilkinsburg", "url": "/service-areas/wilkinsburg-pa/"}, {"name": "Biohazard Cleanup"}]

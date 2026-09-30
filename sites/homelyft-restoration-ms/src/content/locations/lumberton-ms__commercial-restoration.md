@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "36b8b280abf8e095"
-generated_at: "2026-09-30T14:12:12.941395+00:00"
+generated_at: "2026-09-30T18:41:37.709255+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/lumberton-ms/", "/service-areas/lumberton-ms/fire-damage-restoration/", "/service-areas/lumberton-ms/mold-remediation/", "/service-areas/agricola-ms/commercial-restoration/", "/service-areas/bay-st-louis-ms/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lumberton", "url": "/service-areas/lumberton-ms/"}, {"name": "commercial-restoration"}]

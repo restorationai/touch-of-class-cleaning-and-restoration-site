@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "e3fa1ade3cc9bced"
-generated_at: "2026-09-30T14:12:25.940556+00:00"
+generated_at: "2026-09-30T18:41:54.641218+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/hopkinton-ma/", "/service-areas/hopkinton-ma/fire-damage-restoration/", "/service-areas/hopkinton-ma/mold-remediation/", "/service-areas/bellingham-ma/general-contracting/", "/service-areas/east-douglas-ma/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hopkinton", "url": "/service-areas/hopkinton-ma/"}, {"name": "Renovations, Remodels and General Contracting"}]

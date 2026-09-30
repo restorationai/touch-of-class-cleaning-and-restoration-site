@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "e422ea8e7145ce6c"
-generated_at: "2026-09-30T14:12:25.953901+00:00"
+generated_at: "2026-09-30T18:41:54.655622+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/natick-ma/", "/service-areas/natick-ma/fire-damage-restoration/", "/service-areas/natick-ma/mold-remediation/", "/service-areas/bellingham-ma/water-leak-detection/", "/service-areas/east-douglas-ma/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Natick", "url": "/service-areas/natick-ma/"}, {"name": "Water Leak Detection"}]

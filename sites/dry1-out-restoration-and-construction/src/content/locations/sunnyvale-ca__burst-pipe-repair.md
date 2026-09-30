@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "a2ef9d663fc29a1e"
-generated_at: "2026-09-29T14:31:48.414228+00:00"
+generated_at: "2026-09-30T18:41:22.759005+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/sunnyvale-ca/", "/service-areas/sunnyvale-ca/fire-damage-restoration/", "/service-areas/sunnyvale-ca/mold-remediation/", "/service-areas/berkeley-ca/burst-pipe-repair/", "/service-areas/carlsbad-ca/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sunnyvale", "url": "/service-areas/sunnyvale-ca/"}, {"name": "burst-pipe-repair"}]

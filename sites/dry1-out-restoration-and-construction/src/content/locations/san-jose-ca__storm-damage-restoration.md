@@ -8,7 +8,7 @@ secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "6592ab537e1a1b38"
-generated_at: "2026-09-29T14:31:48.325963+00:00"
+generated_at: "2026-09-30T18:41:22.660711+00:00"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/service-areas/san-jose-ca/", "/service-areas/san-jose-ca/fire-damage-restoration/", "/service-areas/san-jose-ca/mold-remediation/", "/service-areas/berkeley-ca/storm-damage-restoration/", "/service-areas/carlsbad-ca/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Jose", "url": "/service-areas/san-jose-ca/"}, {"name": "Storm Damage Restoration"}]

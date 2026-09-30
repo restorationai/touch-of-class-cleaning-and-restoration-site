@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "d54144db3929ab04"
-generated_at: "2026-09-30T14:12:07.120651+00:00"
+generated_at: "2026-09-30T18:41:19.821480+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/canfield-oh/", "/service-areas/canfield-oh/fire-damage-restoration/", "/service-areas/canfield-oh/mold-remediation/", "/service-areas/austintown-oh/commercial-restoration/", "/service-areas/boardman-oh/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Canfield", "url": "/service-areas/canfield-oh/"}, {"name": "commercial-restoration"}]

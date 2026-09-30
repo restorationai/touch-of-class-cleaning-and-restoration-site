@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "07575312ac049e6d"
-generated_at: "2026-09-28T20:50:26.625424+00:00"
+generated_at: "2026-09-30T18:41:56.192767+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/pahrump-nv/", "/service-areas/pahrump-nv/mold-remediation/", "/service-areas/pahrump-nv/water-damage-restoration/", "/service-areas/blue-diamond-nv/fire-damage-restoration/", "/service-areas/boulder-city-nv/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pahrump", "url": "/service-areas/pahrump-nv/"}, {"name": "Fire Damage Restoration"}]

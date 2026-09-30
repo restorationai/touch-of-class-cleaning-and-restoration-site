@@ -8,7 +8,7 @@ secondary_keywords: ["large loss restoration", "catastrophic loss response", "co
 search_intent: "local_b2b"
 priority: 5.6
 plan_hash: "53e12ae5901201e4"
-generated_at: "2026-09-30T14:12:01.803494+00:00"
+generated_at: "2026-09-30T18:41:09.028320+00:00"
 manual_override: false
 internal_links: ["/services/large-loss-response/", "/service-areas/colorado-city-tx/", "/service-areas/colorado-city-tx/fire-damage-restoration/", "/service-areas/colorado-city-tx/mold-remediation/", "/service-areas/albany-tx/large-loss-response/", "/service-areas/anson-tx/large-loss-response/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Colorado City", "url": "/service-areas/colorado-city-tx/"}, {"name": "large-loss-response"}]

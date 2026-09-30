@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "87be5909e0435875"
-generated_at: "2026-09-30T14:12:01.738890+00:00"
+generated_at: "2026-09-30T18:41:08.927916+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/sweetwater-tx/", "/service-areas/sweetwater-tx/fire-damage-restoration/", "/service-areas/sweetwater-tx/mold-remediation/", "/service-areas/albany-tx/water-heater-flood-cleanup/", "/service-areas/anson-tx/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sweetwater", "url": "/service-areas/sweetwater-tx/"}, {"name": "water-heater-flood-cleanup"}]

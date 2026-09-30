@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "80a820b292b96e24"
-generated_at: "2026-09-29T23:28:29.565301+00:00"
+generated_at: "2026-09-30T18:41:26.335907+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/englewood-fl/", "/service-areas/englewood-fl/fire-damage-restoration/", "/service-areas/englewood-fl/mold-remediation/", "/service-areas/anna-maria-fl/industrial-restoration/", "/service-areas/apollo-beach-fl/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Englewood", "url": "/service-areas/englewood-fl/"}, {"name": "Industrial Restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "572843d688440d65"
-generated_at: "2026-09-29T23:31:28.368179+00:00"
+generated_at: "2026-09-30T18:41:22.696285+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-damage-cleanup-and-repair/", "/service-areas/fremont-ca/", "/service-areas/fremont-ca/fire-damage-restoration/", "/service-areas/fremont-ca/mold-remediation/", "/service-areas/berkeley-ca/vandalism-damage-cleanup-and-repair/", "/service-areas/carlsbad-ca/vandalism-damage-cleanup-and-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fremont", "url": "/service-areas/fremont-ca/"}, {"name": "Vandalism Damage Cleanup and Repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "fe30ad5bd477aaf4"
-generated_at: "2026-09-30T14:12:12.927010+00:00"
+generated_at: "2026-09-30T18:41:37.690728+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/waveland-ms/", "/service-areas/waveland-ms/fire-damage-restoration/", "/service-areas/waveland-ms/mold-remediation/", "/service-areas/agricola-ms/smoke-damage-restoration/", "/service-areas/bay-st-louis-ms/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Waveland", "url": "/service-areas/waveland-ms/"}, {"name": "smoke-damage-restoration"}]

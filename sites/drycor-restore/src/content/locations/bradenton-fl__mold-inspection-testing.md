@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "559ac8c8185db330"
-generated_at: "2026-09-29T23:28:29.535205+00:00"
+generated_at: "2026-09-30T18:41:26.274647+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/bradenton-fl/", "/service-areas/bradenton-fl/fire-damage-restoration/", "/service-areas/bradenton-fl/mold-remediation/", "/service-areas/anna-maria-fl/mold-inspection-testing/", "/service-areas/apollo-beach-fl/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bradenton", "url": "/service-areas/bradenton-fl/"}, {"name": "Mold Inspection and Testing"}]

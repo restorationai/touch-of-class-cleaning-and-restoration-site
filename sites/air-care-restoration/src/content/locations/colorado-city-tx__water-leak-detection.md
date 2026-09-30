@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "cde024351455ca6a"
-generated_at: "2026-09-30T14:12:01.803869+00:00"
+generated_at: "2026-09-30T18:41:09.029224+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/colorado-city-tx/", "/service-areas/colorado-city-tx/fire-damage-restoration/", "/service-areas/colorado-city-tx/mold-remediation/", "/service-areas/albany-tx/water-leak-detection/", "/service-areas/anson-tx/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Colorado City", "url": "/service-areas/colorado-city-tx/"}, {"name": "water-leak-detection"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "6908365c90ef1e59"
-generated_at: "2026-09-30T14:12:09.636065+00:00"
+generated_at: "2026-09-30T18:41:21.502628+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/ontario-ca/", "/service-areas/ontario-ca/fire-damage-restoration/", "/service-areas/ontario-ca/mold-remediation/", "/service-areas/anaheim-ca/burst-pipe-repair/", "/service-areas/chino-ca/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ontario", "url": "/service-areas/ontario-ca/"}, {"name": "Burst Pipe Cleanup and Repair"}]

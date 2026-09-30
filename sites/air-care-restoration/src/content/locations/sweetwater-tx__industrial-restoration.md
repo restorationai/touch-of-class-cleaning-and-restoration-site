@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "3077f3245498ad98"
-generated_at: "2026-09-30T14:12:01.738380+00:00"
+generated_at: "2026-09-30T18:41:08.926943+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/sweetwater-tx/", "/service-areas/sweetwater-tx/fire-damage-restoration/", "/service-areas/sweetwater-tx/mold-remediation/", "/service-areas/albany-tx/industrial-restoration/", "/service-areas/anson-tx/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sweetwater", "url": "/service-areas/sweetwater-tx/"}, {"name": "industrial-restoration"}]

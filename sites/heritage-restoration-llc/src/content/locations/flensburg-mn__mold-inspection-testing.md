@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "f6949894f6cbe145"
-generated_at: "2026-09-29T23:13:48.879287+00:00"
+generated_at: "2026-09-30T18:41:35.517097+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/flensburg-mn/", "/service-areas/flensburg-mn/fire-damage-restoration/", "/service-areas/flensburg-mn/mold-remediation/", "/service-areas/albany-mn/mold-inspection-testing/", "/service-areas/avon-mn/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Flensburg", "url": "/service-areas/flensburg-mn/"}, {"name": "Mold Inspection and Testing"}]

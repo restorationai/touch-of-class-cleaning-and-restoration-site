@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "ec32d20e9f1bf0e9"
-generated_at: "2026-09-29T23:13:49.304148+00:00"
+generated_at: "2026-09-30T18:41:33.316746+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/spring-hope-nc/", "/service-areas/spring-hope-nc/fire-damage-restoration/", "/service-areas/spring-hope-nc/mold-remediation/", "/service-areas/archer-lodge-nc/mold-inspection-testing/", "/service-areas/clayton-nc/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Spring Hope", "url": "/service-areas/spring-hope-nc/"}, {"name": "Mold Inspection and Testing"}]

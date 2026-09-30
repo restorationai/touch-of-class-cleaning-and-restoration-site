@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "7e2d6bc25775ad8c"
-generated_at: "2026-09-30T14:12:12.978593+00:00"
+generated_at: "2026-09-30T18:41:37.753900+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/hurley-ms/", "/service-areas/hurley-ms/fire-damage-restoration/", "/service-areas/hurley-ms/mold-remediation/", "/service-areas/agricola-ms/water-leak-detection/", "/service-areas/bay-st-louis-ms/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hurley", "url": "/service-areas/hurley-ms/"}, {"name": "Water Leak Detection"}]

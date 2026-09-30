@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "67f04d72586b338d"
-generated_at: "2026-09-30T14:12:09.686733+00:00"
+generated_at: "2026-09-30T18:41:21.548939+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/silverado-ca/", "/service-areas/silverado-ca/fire-damage-restoration/", "/service-areas/silverado-ca/mold-remediation/", "/service-areas/anaheim-ca/roofing/", "/service-areas/chino-ca/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Silverado", "url": "/service-areas/silverado-ca/"}, {"name": "Roofing Installation and Replacement"}]

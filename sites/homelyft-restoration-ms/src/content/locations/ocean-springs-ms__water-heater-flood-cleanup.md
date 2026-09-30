@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "50d9b5b1b14fae3c"
-generated_at: "2026-09-30T14:12:12.990152+00:00"
+generated_at: "2026-09-30T18:41:37.769036+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/ocean-springs-ms/", "/service-areas/ocean-springs-ms/fire-damage-restoration/", "/service-areas/ocean-springs-ms/mold-remediation/", "/service-areas/agricola-ms/water-heater-flood-cleanup/", "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ocean Springs", "url": "/service-areas/ocean-springs-ms/"}, {"name": "water-heater-flood-cleanup"}]

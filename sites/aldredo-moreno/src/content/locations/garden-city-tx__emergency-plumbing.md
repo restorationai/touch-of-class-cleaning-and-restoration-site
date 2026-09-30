@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "11124fb95a130684"
-generated_at: "2026-09-30T14:12:02.649731+00:00"
+generated_at: "2026-09-30T18:41:10.047929+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/garden-city-tx/", "/service-areas/garden-city-tx/fire-damage-restoration/", "/service-areas/garden-city-tx/mold-remediation/", "/service-areas/andrews-tx/emergency-plumbing/", "/service-areas/big-lake-tx/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Garden City", "url": "/service-areas/garden-city-tx/"}, {"name": "emergency-plumbing"}]

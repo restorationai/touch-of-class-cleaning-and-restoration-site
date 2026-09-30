@@ -558,6 +558,31 @@
       "triaged_at": "2026-08-16T14:20:23Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipNHYcO1lEI6Gb8eglNduImaWlMFrt-GB5RdG0HJ": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipNHYcO1lEI6Gb8eglNduImaWlMFrt-GB5RdG0HJ.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786411719310/job-photos/posted/gbp-AF1QipNHYcO1lEI6Gb8eglNduImaWlMFrt-GB5RdG0HJ.jpg",
+      "width": 640,
+      "height": 480,
+      "bytes": 137982,
+      "sha1": "a31cc05290512e10",
+      "exif": {},
+      "category": "fleet",
+      "subject": "White pickup truck towing enclosed cargo trailer on gravel",
+      "quality": 62,
+      "slots": {
+        "hero": 55,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [
+        "large-loss-response"
+      ],
+      "flags": [],
+      "reason": "Company truck and trailer on site, decent wide composition, slightly dull sky.",
+      "triaged_at": "2026-09-30T18:42:15Z",
+      "triage_model": "claude-sonnet-5"
+    },
     "gbp:gbp-AF1QipNK3seSDDi1TAxDqpgVBp9Yibqbtx4lEMYySt1T": {
       "source": "gbp",
       "storage": "job-photos/posted/r1790634728_gbp-AF1QipNK3seSDDi1TAxDqpgVBp9Yibqbtx4lEMYySt1T.jpg",
@@ -670,5 +695,5 @@
       "file": "/images/team.webp"
     }
   },
-  "triaged_at": "2026-09-02T17:43:37Z"
+  "triaged_at": "2026-09-30T18:42:15Z"
 }

@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "3aa564d7b70e89f5"
-generated_at: "2026-09-23T14:11:38.277491+00:00"
+generated_at: "2026-09-30T18:41:26.339557+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/gibsonton-fl/", "/service-areas/gibsonton-fl/fire-damage-restoration/", "/service-areas/gibsonton-fl/mold-remediation/", "/service-areas/anna-maria-fl/emergency-plumbing/", "/service-areas/apollo-beach-fl/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gibsonton", "url": "/service-areas/gibsonton-fl/"}, {"name": "Emergency Plumbing"}]

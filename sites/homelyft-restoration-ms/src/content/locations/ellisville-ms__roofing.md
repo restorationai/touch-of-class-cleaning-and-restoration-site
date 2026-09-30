@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "ab018eef25265a3e"
-generated_at: "2026-09-30T14:12:13.020022+00:00"
+generated_at: "2026-09-30T18:41:37.805276+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/ellisville-ms/", "/service-areas/ellisville-ms/fire-damage-restoration/", "/service-areas/ellisville-ms/mold-remediation/", "/service-areas/agricola-ms/roofing/", "/service-areas/bay-st-louis-ms/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ellisville", "url": "/service-areas/ellisville-ms/"}, {"name": "Roofing Installation and Replacement"}]

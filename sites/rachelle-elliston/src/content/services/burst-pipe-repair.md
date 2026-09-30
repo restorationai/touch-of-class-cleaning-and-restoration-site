@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 7.2
 plan_hash: "a26de9f8cd0105ab"
-generated_at: "2026-09-28T20:50:26.574218+00:00"
+generated_at: "2026-09-30T18:41:56.068256+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/burst-pipe-repair/", "/service-areas/boulder-city-nv/burst-pipe-repair/", "/service-areas/enterprise-nv/burst-pipe-repair/", "/service-areas/henderson-nv/burst-pipe-repair/", "/service-areas/indian-springs-nv/burst-pipe-repair/", "/service-areas/las-vegas-nv/burst-pipe-repair/", "/service-areas/moapa-town-nv/burst-pipe-repair/", "/service-areas/moapa-valley-nv/burst-pipe-repair/", "/service-areas/mount-charleston-nv/burst-pipe-repair/", "/service-areas/nelson-nv/burst-pipe-repair/", "/service-areas/pahrump-nv/burst-pipe-repair/", "/service-areas/paradise-nv/burst-pipe-repair/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "burst-pipe-repair"}]

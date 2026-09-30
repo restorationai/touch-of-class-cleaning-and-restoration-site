@@ -8,7 +8,7 @@ secondary_keywords: ["crime scene cleaning", "forensic cleanup", "post-crime cle
 search_intent: "local_sensitive"
 priority: 4.2
 plan_hash: "a36a7f6bb83e7e68"
-generated_at: "2026-09-29T14:31:48.387556+00:00"
+generated_at: "2026-09-30T18:41:22.728290+00:00"
 manual_override: false
 internal_links: ["/services/crime-scene-cleanup/", "/service-areas/san-marcos-ca/", "/service-areas/san-marcos-ca/fire-damage-restoration/", "/service-areas/san-marcos-ca/mold-remediation/", "/service-areas/berkeley-ca/crime-scene-cleanup/", "/service-areas/carlsbad-ca/crime-scene-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Marcos", "url": "/service-areas/san-marcos-ca/"}, {"name": "Crime Scene Cleanup"}]

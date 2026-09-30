@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "f81c427124a3471b"
-generated_at: "2026-09-30T14:12:21.522568+00:00"
+generated_at: "2026-09-30T18:41:50.498643+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/edgewood-wa/", "/service-areas/edgewood-wa/fire-damage-restoration/", "/service-areas/edgewood-wa/mold-remediation/", "/service-areas/algona-wa/crawl-space-encapsulation/", "/service-areas/auburn-wa/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Edgewood", "url": "/service-areas/edgewood-wa/"}, {"name": "Crawl Space Encapsulation"}]

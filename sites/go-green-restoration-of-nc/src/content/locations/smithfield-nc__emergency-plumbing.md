@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "f92100c3714fa105"
-generated_at: "2026-09-29T23:13:49.282554+00:00"
+generated_at: "2026-09-30T18:41:33.271260+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/smithfield-nc/", "/service-areas/smithfield-nc/fire-damage-restoration/", "/service-areas/smithfield-nc/mold-remediation/", "/service-areas/archer-lodge-nc/emergency-plumbing/", "/service-areas/clayton-nc/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Smithfield", "url": "/service-areas/smithfield-nc/"}, {"name": "Emergency Plumbing"}]

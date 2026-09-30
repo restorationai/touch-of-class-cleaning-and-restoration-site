@@ -2465,6 +2465,16 @@
       "exif": {},
       "duplicate_of": "gbp:gbp-AF1QipOzVaZGOK0b-5zBigZZ-sNv4wSBGhEwLo4TDwgy"
     },
+    "gbp:gbp-AF1QipPc6Q0CRsARJya6sO3SfIfokGlI_jDxo8ZQk9ND": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPc6Q0CRsARJya6sO3SfIfokGlI_jDxo8ZQk9ND.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1783527517866/job-photos/posted/gbp-AF1QipPc6Q0CRsARJya6sO3SfIfokGlI_jDxo8ZQk9ND.jpg",
+      "width": 1024,
+      "height": 575,
+      "bytes": 114047,
+      "sha1": "7f8b8db45f34b382",
+      "exif": {}
+    },
     "gbp:gbp-AF1QipPwMieEq7QjviJHlm_VqAHOsvivGrhoB4PmAHtV": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPwMieEq7QjviJHlm_VqAHOsvivGrhoB4PmAHtV.jpg",
@@ -2563,5 +2573,5 @@
       "note": "client-correction override (Michael 2026-08-31): real branded van; below auto hero gate on GBP resolution only"
     }
   },
-  "triaged_at": "2026-09-24T21:57:38Z"
+  "triaged_at": "2026-09-30T18:46:37Z"
 }

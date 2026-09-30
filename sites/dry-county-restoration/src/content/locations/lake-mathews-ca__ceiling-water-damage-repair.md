@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "0288ed272d911d9c"
-generated_at: "2026-09-30T14:12:09.719157+00:00"
+generated_at: "2026-09-30T18:41:21.578529+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/lake-mathews-ca/", "/service-areas/lake-mathews-ca/fire-damage-restoration/", "/service-areas/lake-mathews-ca/mold-remediation/", "/service-areas/anaheim-ca/ceiling-water-damage-repair/", "/service-areas/chino-ca/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Mathews", "url": "/service-areas/lake-mathews-ca/"}, {"name": "Ceiling Water Damage Repair"}]

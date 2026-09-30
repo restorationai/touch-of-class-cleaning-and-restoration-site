@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "48a2554682b27d5c"
-generated_at: "2026-09-30T14:12:22.956163+00:00"
+generated_at: "2026-09-30T18:41:51.998789+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/delano-ca/", "/service-areas/delano-ca/fire-damage-restoration/", "/service-areas/delano-ca/home-remodeling/", "/service-areas/arvin-ca/asbestos-abatement/", "/service-areas/bear-valley-springs-ca/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Delano", "url": "/service-areas/delano-ca/"}, {"name": "Asbestos Abatement"}]

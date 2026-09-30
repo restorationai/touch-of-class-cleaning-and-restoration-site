@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "1e4758813b341681"
-generated_at: "2026-09-30T14:12:01.792436+00:00"
+generated_at: "2026-09-30T18:41:09.009743+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/ballinger-tx/", "/service-areas/ballinger-tx/fire-damage-restoration/", "/service-areas/ballinger-tx/mold-remediation/", "/service-areas/albany-tx/emergency-plumbing/", "/service-areas/anson-tx/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ballinger", "url": "/service-areas/ballinger-tx/"}, {"name": "emergency-plumbing"}]

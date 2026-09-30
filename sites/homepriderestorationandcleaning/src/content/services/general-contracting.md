@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 7.2
 plan_hash: "537ab70e8b3c789d"
-generated_at: "2026-09-30T14:12:14.524213+00:00"
+generated_at: "2026-09-30T18:41:40.189115+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/general-contracting/", "/service-areas/american-fork-ut/general-contracting/", "/service-areas/benjamin-ut/general-contracting/", "/service-areas/bluffdale-ut/general-contracting/", "/service-areas/cedar-fort-ut/general-contracting/", "/service-areas/cedar-hills-ut/general-contracting/", "/service-areas/draper-ut/general-contracting/", "/service-areas/eagle-mountain-ut/general-contracting/", "/service-areas/fairfield-ut/general-contracting/", "/service-areas/heber-city-ut/general-contracting/", "/service-areas/herriman-ut/general-contracting/", "/service-areas/highland-ut/general-contracting/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "general-contracting"}]

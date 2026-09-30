@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "a9fa80b548449ac3"
-generated_at: "2026-09-30T14:12:12.918754+00:00"
+generated_at: "2026-09-30T18:41:37.681400+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/pearlington-ms/", "/service-areas/pearlington-ms/fire-damage-restoration/", "/service-areas/pearlington-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-plumbing/", "/service-areas/bay-st-louis-ms/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pearlington", "url": "/service-areas/pearlington-ms/"}, {"name": "emergency-plumbing"}]

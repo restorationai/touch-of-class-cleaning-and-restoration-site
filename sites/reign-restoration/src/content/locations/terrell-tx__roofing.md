@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "f5d4f4e82fcd75d2"
-generated_at: "2026-09-23T14:12:04.457628+00:00"
+generated_at: "2026-09-30T18:41:58.668437+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/terrell-tx/", "/service-areas/terrell-tx/fire-damage-restoration/", "/service-areas/terrell-tx/mold-remediation/", "/service-areas/allen-tx/roofing/", "/service-areas/caddo-mills-tx/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Terrell", "url": "/service-areas/terrell-tx/"}, {"name": "Roofing Installation and Replacement"}]

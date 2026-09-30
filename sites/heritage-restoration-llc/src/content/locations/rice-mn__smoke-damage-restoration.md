@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "845a22faca1dc29d"
-generated_at: "2026-09-29T23:13:48.907239+00:00"
+generated_at: "2026-09-30T18:41:35.554342+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/rice-mn/", "/service-areas/rice-mn/fire-damage-restoration/", "/service-areas/rice-mn/mold-remediation/", "/service-areas/albany-mn/smoke-damage-restoration/", "/service-areas/avon-mn/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rice", "url": "/service-areas/rice-mn/"}, {"name": "Smoke Damage Restoration"}]

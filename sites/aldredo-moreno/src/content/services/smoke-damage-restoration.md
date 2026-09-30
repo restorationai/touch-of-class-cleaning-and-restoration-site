@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 8.1
 plan_hash: "6feeba5772f2e89b"
-generated_at: "2026-09-30T14:12:02.620137+00:00"
+generated_at: "2026-09-30T18:41:09.994550+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/smoke-damage-restoration/", "/service-areas/big-lake-tx/smoke-damage-restoration/", "/service-areas/big-spring-tx/smoke-damage-restoration/", "/service-areas/crane-tx/smoke-damage-restoration/", "/service-areas/garden-city-tx/smoke-damage-restoration/", "/service-areas/gardendale-tx/smoke-damage-restoration/", "/service-areas/goldsmith-tx/smoke-damage-restoration/", "/service-areas/greenwood-tx/smoke-damage-restoration/", "/service-areas/imperial-tx/smoke-damage-restoration/", "/service-areas/mccamey-tx/smoke-damage-restoration/", "/service-areas/monahans-tx/smoke-damage-restoration/", "/service-areas/odessa-tx/smoke-damage-restoration/", "/blog/fire-damage-restoration-process/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "smoke-damage-restoration"}]
