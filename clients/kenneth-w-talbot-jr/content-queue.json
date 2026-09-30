@@ -276,10 +276,10 @@
     },
     {
       "id": "2026-09-24-water-damage-restoration-cost",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-24T16:55:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-30T10:28:35Z",
+      "post_url": "https://veteransremediation.com/blog/water-damage-restoration-cost/",
       "primary_keyword": "water damage restoration cost",
       "intent": "commercial",
       "volume": 720,
@@ -309,7 +309,27 @@
         "https://www.iicrc.org/page/IICRCS500",
         "https://floir.com/"
       ],
-      "notes": "Commercial-intent cost guide, CPC $43+. No commercial URL targets cost. Explain pricing drivers (water category, class of drying, square footage, days of equipment) rather than inventing specific dollar figures; mirror the structure of the mold-remediation-cost-fl post."
+      "notes": "Commercial-intent cost guide, CPC $43+. No commercial URL targets cost. Explain pricing drivers (water category, class of drying, square footage, days of equipment) rather than inventing specific dollar figures; mirror the structure of the mold-remediation-cost-fl post.",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-damage-restoration-cost.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "the water source looks identical. The [IICRC S500 standard](https://www.iicrc.org/pa",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration-cost.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "Class of drying** (1 through 4, per the IICRC scale) describes how much moisture is i",
+          "reason": "names a certification not present in brand.certifications"
+        }
+      ]
     },
     {
       "id": "2026-09-24-how-to-fix-water-damage-on-ceiling",
