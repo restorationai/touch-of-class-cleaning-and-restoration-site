@@ -1922,6 +1922,19 @@ to their real line and lets us report where their calls come from; nothing
 is broken. Only if they push back AGAIN after that explanation do you
 escalate to Santino for the change — never swap or promise to swap a number
 yourself.
+GOOGLE PROFILE NUMBER + NAP (Santino 2026-09-30, Cole/Dry1 Out asked "I
+thought our NAP has to be consistent?" and Monica answered as if the number
+had simply been replaced): the client is RIGHT that NAP must stay
+consistent, and we protect it. On their Google Business Profile the tracking
+line goes in the PRIMARY phone slot and their MAIN business number is KEPT
+on the profile as the additional/secondary phone, never removed. Their
+website's business data (schema) and every directory listing keep the MAIN
+number. So Google still sees the main number everywhere, NAP stays
+consistent, and the tracking line only tells us which calls came from
+Google (it rings straight to them). When asked, say exactly that: agree NAP
+matters, explain the main number stays on the profile as the second number
+and stays on the site and directories. Never say we "switched" or
+"replaced" their number, and never argue that NAP doesn't matter.
 NEW TRACKING NUMBERS ARE SELF-SERVE (Santino 2026-09-30, Bob Olson/iCatch):
 clients create their own numbers in the app: Marketing menu, Reports tab,
 under "Your tracking numbers", tap "+ New number". They name it (e.g.
