@@ -2600,6 +2600,22 @@ def load_meeting_intel(company: dict) -> str | None:
                          + tl)
     except Exception as e:  # noqa: BLE001 — knowledge is best-effort
         print(f"  [intel] tracking numbers skipped: {e}", file=sys.stderr)
+    # WHERE WEBSITE LEADS GO (Santino 2026-09-30, Amin/Dry Bros asked "leads
+    # go to which email?" and Monica said "I'm not sure yet"). Same resolution
+    # order the site's estimate function uses at runtime.
+    try:
+        row = (_sb("GET", f"/rest/v1/companies?id=eq.{company.get('id')}"
+                   "&select=email,transfer_primary_email,"
+                   "integration_settings->lead_notify_emails") or [{}])[0]
+        to = (row.get("email") or row.get("transfer_primary_email") or "").strip()
+        extra = [e for e in (row.get("lead_notify_emails") or []) if e]
+        if to or extra:
+            parts.append("[WEBSITE LEADS — the site's quote/estimate form emails each "
+                         f"lead to {', '.join([to] + extra) if to else ', '.join(extra)} "
+                         "the moment it is submitted (and it lands in their app). Answer "
+                         "\"where do leads go?\" from this; they can change it in the app.]")
+    except Exception as e:  # noqa: BLE001
+        print(f"  [intel] lead email skipped: {e}", file=sys.stderr)
     return "\n\n".join(parts) or None
 
 
