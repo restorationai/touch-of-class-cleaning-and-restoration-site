@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "19a23858352b992f"
-generated_at: "2026-09-29T23:13:49.730249+00:00"
+generated_at: "2026-09-30T18:42:02.201523+00:00"
 manual_override: false
 internal_links: ["/services/basement-sewage-cleanup/", "/service-areas/antelope-ca/", "/service-areas/antelope-ca/home-remodeling/", "/service-areas/antelope-ca/bathroom-remodeling/", "/service-areas/arden-arcade-ca/basement-sewage-cleanup/", "/service-areas/carmichael-ca/basement-sewage-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Antelope", "url": "/service-areas/antelope-ca/"}, {"name": "Basement Sewage Cleanup"}]

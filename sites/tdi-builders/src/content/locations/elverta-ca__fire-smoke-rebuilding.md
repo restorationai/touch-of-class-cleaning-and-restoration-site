@@ -7,8 +7,8 @@ primary_keyword: "fire and smoke damage rebuilding elverta"
 secondary_keywords: ["fire damage rebuild", "fire damage repair contractor", "smoke damage repair", "fire restoration contractor", "rebuild after fire"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "d5321bc34a7431f7"
-generated_at: "2026-09-20T14:13:49.561401+00:00"
+plan_hash: "e02b632edecad568"
+generated_at: "2026-09-30T18:42:02.183727+00:00"
 manual_override: false
 internal_links: ["/services/fire-smoke-rebuilding/", "/service-areas/elverta-ca/", "/service-areas/elverta-ca/home-remodeling/", "/service-areas/elverta-ca/bathroom-remodeling/", "/service-areas/antelope-ca/fire-smoke-rebuilding/", "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elverta", "url": "/service-areas/elverta-ca/"}, {"name": "Fire and Smoke Damage Rebuilding"}]

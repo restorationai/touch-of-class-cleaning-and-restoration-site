@@ -7,8 +7,8 @@ primary_keyword: "garage construction north highlands"
 secondary_keywords: ["garage builder", "detached garage construction", "attached garage addition", "garage conversion", "custom garage contractor"]
 search_intent: "local_commercial"
 priority: 4.2
-plan_hash: "c881e8d84537bb7e"
-generated_at: "2026-09-20T14:13:49.568754+00:00"
+plan_hash: "81f500e71b6032dd"
+generated_at: "2026-09-30T18:42:02.198507+00:00"
 manual_override: false
 internal_links: ["/services/garage-construction/", "/service-areas/north-highlands-ca/", "/service-areas/north-highlands-ca/home-remodeling/", "/service-areas/north-highlands-ca/bathroom-remodeling/", "/service-areas/antelope-ca/garage-construction/", "/service-areas/arden-arcade-ca/garage-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Highlands", "url": "/service-areas/north-highlands-ca/"}, {"name": "Garage Construction"}]

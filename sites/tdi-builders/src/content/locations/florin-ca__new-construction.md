@@ -7,8 +7,8 @@ primary_keyword: "new home construction florin"
 secondary_keywords: ["custom home builder", "new home builder", "build a house", "residential construction", "ground-up construction"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "80ecca16a0d33bc2"
-generated_at: "2026-09-20T19:37:26.796752+00:00"
+plan_hash: "98919172f006fe29"
+generated_at: "2026-09-30T18:42:02.219217+00:00"
 manual_override: false
 internal_links: ["/services/new-construction/", "/service-areas/florin-ca/", "/service-areas/florin-ca/home-remodeling/", "/service-areas/florin-ca/bathroom-remodeling/", "/service-areas/antelope-ca/new-construction/", "/service-areas/arden-arcade-ca/new-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Florin", "url": "/service-areas/florin-ca/"}, {"name": "New Home Construction"}]

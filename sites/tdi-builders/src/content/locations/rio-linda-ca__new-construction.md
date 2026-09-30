@@ -7,8 +7,8 @@ primary_keyword: "new home construction rio linda"
 secondary_keywords: ["custom home builder", "new home builder", "build a house", "residential construction", "ground-up construction"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "14ec79e7efafd6fb"
-generated_at: "2026-09-20T14:13:49.559133+00:00"
+plan_hash: "b3024c0770e65e6b"
+generated_at: "2026-09-30T18:42:02.180724+00:00"
 manual_override: false
 internal_links: ["/services/new-construction/", "/service-areas/rio-linda-ca/", "/service-areas/rio-linda-ca/home-remodeling/", "/service-areas/rio-linda-ca/bathroom-remodeling/", "/service-areas/antelope-ca/new-construction/", "/service-areas/arden-arcade-ca/new-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rio Linda", "url": "/service-areas/rio-linda-ca/"}, {"name": "New Home Construction"}]

@@ -7,8 +7,8 @@ primary_keyword: "renovations, remodels and general contracting north highlands"
 secondary_keywords: ["general contractor", "licensed general contractor", "home improvement contractor", "residential general contracting", "design-build contractor"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "29ee72d0ffbe123c"
-generated_at: "2026-09-20T14:13:49.567161+00:00"
+plan_hash: "399bd05d146a9925"
+generated_at: "2026-09-30T18:42:02.198799+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/north-highlands-ca/", "/service-areas/north-highlands-ca/home-remodeling/", "/service-areas/north-highlands-ca/bathroom-remodeling/", "/service-areas/antelope-ca/general-contracting/", "/service-areas/arden-arcade-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Highlands", "url": "/service-areas/north-highlands-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]

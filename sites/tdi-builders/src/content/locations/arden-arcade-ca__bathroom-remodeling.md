@@ -7,8 +7,8 @@ primary_keyword: "bathroom remodeling arden-arcade"
 secondary_keywords: ["bathroom remodel contractor", "bathroom renovation", "shower remodel", "tub to shower conversion", "master bath remodel"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "34e3b4faa1599e63"
-generated_at: "2026-09-20T14:13:49.566468+00:00"
+plan_hash: "f417e2bdc9669fe8"
+generated_at: "2026-09-30T18:42:02.192186+00:00"
 manual_override: false
 internal_links: ["/services/bathroom-remodeling/", "/service-areas/arden-arcade-ca/", "/service-areas/arden-arcade-ca/home-remodeling/", "/service-areas/arden-arcade-ca/kitchen-remodeling/", "/service-areas/antelope-ca/bathroom-remodeling/", "/service-areas/carmichael-ca/bathroom-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Arden-Arcade", "url": "/service-areas/arden-arcade-ca/"}, {"name": "Bathroom Remodeling"}]

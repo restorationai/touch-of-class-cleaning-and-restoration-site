@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "cb6f49dad5e96f3f"
-generated_at: "2026-09-29T23:13:49.729302+00:00"
+generated_at: "2026-09-30T18:42:02.197318+00:00"
 manual_override: false
 internal_links: ["/services/carpet-upholstery-cleaning/", "/service-areas/north-highlands-ca/", "/service-areas/north-highlands-ca/home-remodeling/", "/service-areas/north-highlands-ca/bathroom-remodeling/", "/service-areas/antelope-ca/carpet-upholstery-cleaning/", "/service-areas/arden-arcade-ca/carpet-upholstery-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Highlands", "url": "/service-areas/north-highlands-ca/"}, {"name": "Carpet & Upholstery Cleaning"}]

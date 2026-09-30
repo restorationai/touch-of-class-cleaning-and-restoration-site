@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "7c5fca5b6d8a14da"
-generated_at: "2026-09-29T23:13:49.712060+00:00"
+generated_at: "2026-09-30T18:42:02.161593+00:00"
 manual_override: false
 internal_links: ["/services/carpet-water-extraction/", "/service-areas/carmichael-ca/", "/service-areas/carmichael-ca/home-remodeling/", "/service-areas/carmichael-ca/bathroom-remodeling/", "/service-areas/antelope-ca/carpet-water-extraction/", "/service-areas/arden-arcade-ca/carpet-water-extraction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Carmichael", "url": "/service-areas/carmichael-ca/"}, {"name": "Carpet Water Extraction"}]

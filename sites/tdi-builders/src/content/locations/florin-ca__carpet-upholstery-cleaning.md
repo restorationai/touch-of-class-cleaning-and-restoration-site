@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "118540e98a3db21e"
-generated_at: "2026-09-29T23:13:49.734322+00:00"
+generated_at: "2026-09-30T18:42:02.216523+00:00"
 manual_override: false
 internal_links: ["/services/carpet-upholstery-cleaning/", "/service-areas/florin-ca/", "/service-areas/florin-ca/home-remodeling/", "/service-areas/florin-ca/bathroom-remodeling/", "/service-areas/antelope-ca/carpet-upholstery-cleaning/", "/service-areas/arden-arcade-ca/carpet-upholstery-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Florin", "url": "/service-areas/florin-ca/"}, {"name": "Carpet & Upholstery Cleaning"}]

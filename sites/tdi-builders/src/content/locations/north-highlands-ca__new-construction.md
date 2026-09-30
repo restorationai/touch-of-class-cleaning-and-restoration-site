@@ -7,8 +7,8 @@ primary_keyword: "new home construction north highlands"
 secondary_keywords: ["custom home builder", "new home builder", "build a house", "residential construction", "ground-up construction"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "3172f02f3ba97398"
-generated_at: "2026-09-20T14:13:49.567329+00:00"
+plan_hash: "f6ef21c90fd0a203"
+generated_at: "2026-09-30T18:42:02.199995+00:00"
 manual_override: false
 internal_links: ["/services/new-construction/", "/service-areas/north-highlands-ca/", "/service-areas/north-highlands-ca/home-remodeling/", "/service-areas/north-highlands-ca/bathroom-remodeling/", "/service-areas/antelope-ca/new-construction/", "/service-areas/arden-arcade-ca/new-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Highlands", "url": "/service-areas/north-highlands-ca/"}, {"name": "New Home Construction"}]

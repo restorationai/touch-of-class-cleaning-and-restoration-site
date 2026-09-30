@@ -7,8 +7,8 @@ primary_keyword: "mold remediation north highlands"
 secondary_keywords: ["mold removal", "mold remediation contractor", "mold repair and rebuild", "mold-safe renovation", "post-remediation reconstruction"]
 search_intent: "local_health"
 priority: 4.9
-plan_hash: "adf3acd766bebc31"
-generated_at: "2026-09-20T14:13:49.568069+00:00"
+plan_hash: "8e75d4a806d27b74"
+generated_at: "2026-09-30T18:42:02.199706+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/north-highlands-ca/", "/service-areas/north-highlands-ca/home-remodeling/", "/service-areas/north-highlands-ca/bathroom-remodeling/", "/service-areas/antelope-ca/mold-remediation/", "/service-areas/arden-arcade-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Highlands", "url": "/service-areas/north-highlands-ca/"}, {"name": "Mold Remediation"}]

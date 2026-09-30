@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "9a8d715a1faa9144"
-generated_at: "2026-09-29T23:13:49.724115+00:00"
+generated_at: "2026-09-30T18:42:02.177822+00:00"
 manual_override: false
 internal_links: ["/services/carpet-upholstery-cleaning/", "/service-areas/rio-linda-ca/", "/service-areas/rio-linda-ca/home-remodeling/", "/service-areas/rio-linda-ca/bathroom-remodeling/", "/service-areas/antelope-ca/carpet-upholstery-cleaning/", "/service-areas/arden-arcade-ca/carpet-upholstery-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rio Linda", "url": "/service-areas/rio-linda-ca/"}, {"name": "Carpet & Upholstery Cleaning"}]

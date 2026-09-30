@@ -7,8 +7,8 @@ primary_keyword: "fire and smoke damage rebuilding rio linda"
 secondary_keywords: ["fire damage rebuild", "fire damage repair contractor", "smoke damage repair", "fire restoration contractor", "rebuild after fire"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "7ae4f20c61c79b4b"
-generated_at: "2026-09-20T14:13:49.559304+00:00"
+plan_hash: "7da1a8fa7868ba62"
+generated_at: "2026-09-30T18:42:02.178730+00:00"
 manual_override: false
 internal_links: ["/services/fire-smoke-rebuilding/", "/service-areas/rio-linda-ca/", "/service-areas/rio-linda-ca/home-remodeling/", "/service-areas/rio-linda-ca/bathroom-remodeling/", "/service-areas/antelope-ca/fire-smoke-rebuilding/", "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rio Linda", "url": "/service-areas/rio-linda-ca/"}, {"name": "Fire and Smoke Damage Rebuilding"}]

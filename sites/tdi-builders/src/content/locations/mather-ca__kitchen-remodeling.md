@@ -7,8 +7,8 @@ primary_keyword: "kitchen remodeling mather"
 secondary_keywords: ["kitchen remodel contractor", "kitchen renovation", "custom kitchen remodel", "kitchen cabinet installation", "kitchen makeover"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "a8f832cc4f0624fd"
-generated_at: "2026-09-21T14:13:51.733359+00:00"
+plan_hash: "701bc3f2b073703a"
+generated_at: "2026-09-30T18:42:02.228408+00:00"
 manual_override: false
 internal_links: ["/services/kitchen-remodeling/", "/service-areas/mather-ca/", "/service-areas/mather-ca/home-remodeling/", "/service-areas/mather-ca/bathroom-remodeling/", "/service-areas/antelope-ca/kitchen-remodeling/", "/service-areas/arden-arcade-ca/kitchen-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mather", "url": "/service-areas/mather-ca/"}, {"name": "Kitchen Remodeling"}]

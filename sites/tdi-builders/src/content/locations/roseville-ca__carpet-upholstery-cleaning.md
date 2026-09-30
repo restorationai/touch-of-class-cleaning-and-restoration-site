@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "7787130957e31f4c"
-generated_at: "2026-09-29T23:13:49.700880+00:00"
+generated_at: "2026-09-30T18:42:02.145124+00:00"
 manual_override: false
 internal_links: ["/services/carpet-upholstery-cleaning/", "/service-areas/roseville-ca/", "/service-areas/roseville-ca/home-remodeling/", "/service-areas/roseville-ca/bathroom-remodeling/", "/service-areas/antelope-ca/carpet-upholstery-cleaning/", "/service-areas/arden-arcade-ca/carpet-upholstery-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Roseville", "url": "/service-areas/roseville-ca/"}, {"name": "Carpet & Upholstery Cleaning"}]

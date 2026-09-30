@@ -7,8 +7,8 @@ primary_keyword: "kitchen remodeling davis"
 secondary_keywords: ["kitchen remodel contractor", "kitchen renovation", "custom kitchen remodel", "kitchen cabinet installation", "kitchen makeover"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "8b49fd751c878d27"
-generated_at: "2026-09-21T19:19:28.699335+00:00"
+plan_hash: "dbff3e2c4f91886a"
+generated_at: "2026-09-30T18:42:02.233257+00:00"
 manual_override: false
 internal_links: ["/services/kitchen-remodeling/", "/service-areas/davis-ca/", "/service-areas/davis-ca/home-remodeling/", "/service-areas/davis-ca/bathroom-remodeling/", "/service-areas/antelope-ca/kitchen-remodeling/", "/service-areas/arden-arcade-ca/kitchen-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Davis", "url": "/service-areas/davis-ca/"}, {"name": "Kitchen Remodeling"}]

@@ -7,10 +7,10 @@ primary_keyword: "construction services woodland"
 secondary_keywords: ["woodland construction company", "general contractor woodland", "woodland remodeling contractor"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "f156d1a0291ca8bc"
-generated_at: "2026-09-20T20:42:26.312433+00:00"
+plan_hash: "83af948e70ab820e"
+generated_at: "2026-09-30T18:42:02.143788+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/woodland-ca/home-remodeling/", "/service-areas/woodland-ca/bathroom-remodeling/", "/service-areas/woodland-ca/kitchen-remodeling/", "/service-areas/woodland-ca/new-construction/", "/service-areas/woodland-ca/general-contracting/", "/service-areas/woodland-ca/room-addition/", "/service-areas/woodland-ca/commercial-construction/", "/service-areas/woodland-ca/fire-smoke-rebuilding/", "/service-areas/woodland-ca/mold-remediation/", "/service-areas/woodland-ca/storm-damage-restoration/", "/service-areas/woodland-ca/water-damage-restoration/", "/service-areas/woodland-ca/garage-construction/", "/service-areas/antelope-ca/", "/service-areas/arden-arcade-ca/", "/service-areas/carmichael-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/woodland-ca/home-remodeling/", "/service-areas/woodland-ca/bathroom-remodeling/", "/service-areas/woodland-ca/kitchen-remodeling/", "/service-areas/woodland-ca/new-construction/", "/service-areas/woodland-ca/general-contracting/", "/service-areas/woodland-ca/room-addition/", "/service-areas/woodland-ca/commercial-construction/", "/service-areas/woodland-ca/fire-smoke-rebuilding/", "/service-areas/woodland-ca/mold-remediation/", "/service-areas/woodland-ca/storm-damage-restoration/", "/service-areas/woodland-ca/water-damage-restoration/", "/service-areas/woodland-ca/garage-construction/", "/service-areas/woodland-ca/basement-sewage-cleanup/", "/service-areas/woodland-ca/carpet-upholstery-cleaning/", "/service-areas/woodland-ca/carpet-water-extraction/", "/service-areas/woodland-ca/post-construction-specialty-cleaning/", "/service-areas/antelope-ca/", "/service-areas/arden-arcade-ca/", "/service-areas/carmichael-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woodland"}]
 faq: []
 area_slug: "woodland-ca"

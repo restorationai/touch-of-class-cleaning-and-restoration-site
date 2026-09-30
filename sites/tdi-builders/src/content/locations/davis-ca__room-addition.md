@@ -7,8 +7,8 @@ primary_keyword: "room additions and home additions davis"
 secondary_keywords: ["home addition contractor", "room addition", "add a room to house", "house addition", "bump out addition"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "f703d6365e0fe3fd"
-generated_at: "2026-09-21T19:19:28.699594+00:00"
+plan_hash: "24c44bb5385458de"
+generated_at: "2026-09-30T18:42:02.234476+00:00"
 manual_override: false
 internal_links: ["/services/room-addition/", "/service-areas/davis-ca/", "/service-areas/davis-ca/home-remodeling/", "/service-areas/davis-ca/bathroom-remodeling/", "/service-areas/antelope-ca/room-addition/", "/service-areas/arden-arcade-ca/room-addition/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Davis", "url": "/service-areas/davis-ca/"}, {"name": "Room Additions and Home Additions"}]

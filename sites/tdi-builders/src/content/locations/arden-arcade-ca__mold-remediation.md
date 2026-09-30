@@ -7,8 +7,8 @@ primary_keyword: "mold remediation arden-arcade"
 secondary_keywords: ["mold removal", "mold remediation contractor", "mold repair and rebuild", "mold-safe renovation", "post-remediation reconstruction"]
 search_intent: "local_health"
 priority: 4.9
-plan_hash: "0ad8cdbee027d51c"
-generated_at: "2026-09-20T14:13:49.565980+00:00"
+plan_hash: "e62110139f2c2ff7"
+generated_at: "2026-09-30T18:42:02.194883+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/arden-arcade-ca/", "/service-areas/arden-arcade-ca/home-remodeling/", "/service-areas/arden-arcade-ca/bathroom-remodeling/", "/service-areas/antelope-ca/mold-remediation/", "/service-areas/carmichael-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Arden-Arcade", "url": "/service-areas/arden-arcade-ca/"}, {"name": "Mold Remediation"}]

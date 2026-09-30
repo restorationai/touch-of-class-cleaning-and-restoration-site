@@ -7,8 +7,8 @@ primary_keyword: "new home construction mcclellan park"
 secondary_keywords: ["custom home builder", "new home builder", "build a house", "residential construction", "ground-up construction"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "2aead1575cc419b1"
-generated_at: "2026-09-20T14:13:49.563259+00:00"
+plan_hash: "09c082a764e22f2a"
+generated_at: "2026-09-30T18:42:02.190369+00:00"
 manual_override: false
 internal_links: ["/services/new-construction/", "/service-areas/mcclellan-park-ca/", "/service-areas/mcclellan-park-ca/home-remodeling/", "/service-areas/mcclellan-park-ca/bathroom-remodeling/", "/service-areas/antelope-ca/new-construction/", "/service-areas/arden-arcade-ca/new-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McClellan Park", "url": "/service-areas/mcclellan-park-ca/"}, {"name": "New Home Construction"}]

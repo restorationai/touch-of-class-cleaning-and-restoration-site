@@ -7,8 +7,8 @@ primary_keyword: "renovations, remodels and general contracting rosemont"
 secondary_keywords: ["general contractor", "licensed general contractor", "home improvement contractor", "residential general contracting", "design-build contractor"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "e3a66945af4225ae"
-generated_at: "2026-09-20T19:17:53.764577+00:00"
+plan_hash: "c0cd8c00f1d52ed2"
+generated_at: "2026-09-30T18:42:02.213239+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/rosemont-ca/", "/service-areas/rosemont-ca/home-remodeling/", "/service-areas/rosemont-ca/bathroom-remodeling/", "/service-areas/antelope-ca/general-contracting/", "/service-areas/arden-arcade-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rosemont", "url": "/service-areas/rosemont-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]

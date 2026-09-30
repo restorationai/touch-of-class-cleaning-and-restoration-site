@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "66201b791a0d5998"
-generated_at: "2026-09-29T23:13:49.718304+00:00"
+generated_at: "2026-09-30T18:42:02.169901+00:00"
 manual_override: false
 internal_links: ["/services/carpet-water-extraction/", "/service-areas/el-dorado-hills-ca/", "/service-areas/el-dorado-hills-ca/home-remodeling/", "/service-areas/el-dorado-hills-ca/bathroom-remodeling/", "/service-areas/antelope-ca/carpet-water-extraction/", "/service-areas/arden-arcade-ca/carpet-water-extraction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "El Dorado Hills", "url": "/service-areas/el-dorado-hills-ca/"}, {"name": "Carpet Water Extraction"}]

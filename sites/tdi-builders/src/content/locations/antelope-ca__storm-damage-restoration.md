@@ -7,8 +7,8 @@ primary_keyword: "storm damage restoration antelope"
 secondary_keywords: ["storm damage repair", "roof storm damage repair", "siding storm damage repair", "wind damage repair contractor", "storm damage rebuild"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "5d109d597c2e5788"
-generated_at: "2026-09-20T14:13:49.569943+00:00"
+plan_hash: "809864249733a2f8"
+generated_at: "2026-09-30T18:42:02.205741+00:00"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/service-areas/antelope-ca/", "/service-areas/antelope-ca/home-remodeling/", "/service-areas/antelope-ca/bathroom-remodeling/", "/service-areas/arden-arcade-ca/storm-damage-restoration/", "/service-areas/carmichael-ca/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Antelope", "url": "/service-areas/antelope-ca/"}, {"name": "Storm Damage Restoration"}]

@@ -7,8 +7,8 @@ primary_keyword: "home remodeling arden-arcade"
 secondary_keywords: ["home renovation", "whole home remodel", "interior remodeling contractor", "house renovation contractor", "remodeling company"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "fb75cc5f0d16a1be"
-generated_at: "2026-09-20T14:13:49.566146+00:00"
+plan_hash: "98dd6b6073648959"
+generated_at: "2026-09-30T18:42:02.194296+00:00"
 manual_override: false
 internal_links: ["/services/home-remodeling/", "/service-areas/arden-arcade-ca/", "/service-areas/arden-arcade-ca/bathroom-remodeling/", "/service-areas/arden-arcade-ca/kitchen-remodeling/", "/service-areas/antelope-ca/home-remodeling/", "/service-areas/carmichael-ca/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Arden-Arcade", "url": "/service-areas/arden-arcade-ca/"}, {"name": "Home Remodeling"}]

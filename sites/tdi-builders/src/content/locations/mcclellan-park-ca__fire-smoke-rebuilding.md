@@ -7,8 +7,8 @@ primary_keyword: "fire and smoke damage rebuilding mcclellan park"
 secondary_keywords: ["fire damage rebuild", "fire damage repair contractor", "smoke damage repair", "fire restoration contractor", "rebuild after fire"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "8e79162355e078fb"
-generated_at: "2026-09-20T14:13:49.563421+00:00"
+plan_hash: "38ec89b547e29b79"
+generated_at: "2026-09-30T18:42:02.188526+00:00"
 manual_override: false
 internal_links: ["/services/fire-smoke-rebuilding/", "/service-areas/mcclellan-park-ca/", "/service-areas/mcclellan-park-ca/home-remodeling/", "/service-areas/mcclellan-park-ca/bathroom-remodeling/", "/service-areas/antelope-ca/fire-smoke-rebuilding/", "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McClellan Park", "url": "/service-areas/mcclellan-park-ca/"}, {"name": "Fire and Smoke Damage Rebuilding"}]

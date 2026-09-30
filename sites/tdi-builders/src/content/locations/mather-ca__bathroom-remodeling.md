@@ -7,8 +7,8 @@ primary_keyword: "bathroom remodeling mather"
 secondary_keywords: ["bathroom remodel contractor", "bathroom renovation", "shower remodel", "tub to shower conversion", "master bath remodel"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "159d909eb8a97bae"
-generated_at: "2026-09-21T14:13:51.733526+00:00"
+plan_hash: "22d8a618bc11987c"
+generated_at: "2026-09-30T18:42:02.225913+00:00"
 manual_override: false
 internal_links: ["/services/bathroom-remodeling/", "/service-areas/mather-ca/", "/service-areas/mather-ca/home-remodeling/", "/service-areas/mather-ca/kitchen-remodeling/", "/service-areas/antelope-ca/bathroom-remodeling/", "/service-areas/arden-arcade-ca/bathroom-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mather", "url": "/service-areas/mather-ca/"}, {"name": "Bathroom Remodeling"}]

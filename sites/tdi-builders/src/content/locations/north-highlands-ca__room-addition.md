@@ -7,8 +7,8 @@ primary_keyword: "room additions and home additions north highlands"
 secondary_keywords: ["home addition contractor", "room addition", "add a room to house", "house addition", "bump out addition"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "d9c25e05a0b348e0"
-generated_at: "2026-09-20T14:13:49.568923+00:00"
+plan_hash: "64ba5b8a49f9f8de"
+generated_at: "2026-09-30T18:42:02.200618+00:00"
 manual_override: false
 internal_links: ["/services/room-addition/", "/service-areas/north-highlands-ca/", "/service-areas/north-highlands-ca/home-remodeling/", "/service-areas/north-highlands-ca/bathroom-remodeling/", "/service-areas/antelope-ca/room-addition/", "/service-areas/arden-arcade-ca/room-addition/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Highlands", "url": "/service-areas/north-highlands-ca/"}, {"name": "Room Additions and Home Additions"}]

@@ -7,8 +7,8 @@ primary_keyword: "kitchen remodeling foothill farms"
 secondary_keywords: ["kitchen remodel contractor", "kitchen renovation", "custom kitchen remodel", "kitchen cabinet installation", "kitchen makeover"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "a608072a7a0abddd"
-generated_at: "2026-09-20T17:30:08.763947+00:00"
+plan_hash: "74a506cb0c8776b6"
+generated_at: "2026-09-30T18:42:02.209012+00:00"
 manual_override: false
 internal_links: ["/services/kitchen-remodeling/", "/service-areas/foothill-farms-ca/", "/service-areas/foothill-farms-ca/home-remodeling/", "/service-areas/foothill-farms-ca/bathroom-remodeling/", "/service-areas/antelope-ca/kitchen-remodeling/", "/service-areas/arden-arcade-ca/kitchen-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Foothill Farms", "url": "/service-areas/foothill-farms-ca/"}, {"name": "Kitchen Remodeling"}]

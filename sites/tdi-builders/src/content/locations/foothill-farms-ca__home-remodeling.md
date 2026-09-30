@@ -7,8 +7,8 @@ primary_keyword: "home remodeling foothill farms"
 secondary_keywords: ["home renovation", "whole home remodel", "interior remodeling contractor", "house renovation contractor", "remodeling company"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "499207c863e0569a"
-generated_at: "2026-09-20T17:30:08.763781+00:00"
+plan_hash: "eac87379ca3111e1"
+generated_at: "2026-09-30T18:42:02.208720+00:00"
 manual_override: false
 internal_links: ["/services/home-remodeling/", "/service-areas/foothill-farms-ca/", "/service-areas/foothill-farms-ca/bathroom-remodeling/", "/service-areas/foothill-farms-ca/kitchen-remodeling/", "/service-areas/antelope-ca/home-remodeling/", "/service-areas/arden-arcade-ca/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Foothill Farms", "url": "/service-areas/foothill-farms-ca/"}, {"name": "Home Remodeling"}]

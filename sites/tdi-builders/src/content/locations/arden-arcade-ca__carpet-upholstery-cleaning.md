@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "40dbd728f652632a"
-generated_at: "2026-09-29T23:13:49.728097+00:00"
+generated_at: "2026-09-30T18:42:02.192480+00:00"
 manual_override: false
 internal_links: ["/services/carpet-upholstery-cleaning/", "/service-areas/arden-arcade-ca/", "/service-areas/arden-arcade-ca/home-remodeling/", "/service-areas/arden-arcade-ca/bathroom-remodeling/", "/service-areas/antelope-ca/carpet-upholstery-cleaning/", "/service-areas/carmichael-ca/carpet-upholstery-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Arden-Arcade", "url": "/service-areas/arden-arcade-ca/"}, {"name": "Carpet & Upholstery Cleaning"}]

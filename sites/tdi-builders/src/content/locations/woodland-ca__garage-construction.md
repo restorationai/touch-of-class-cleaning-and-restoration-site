@@ -7,8 +7,8 @@ primary_keyword: "garage construction woodland"
 secondary_keywords: ["garage builder", "detached garage construction", "attached garage addition", "garage conversion", "custom garage contractor"]
 search_intent: "local_commercial"
 priority: 4.2
-plan_hash: "93344ef4adb1ea72"
-generated_at: "2026-09-20T20:42:26.318712+00:00"
+plan_hash: "f61db1e6336809dc"
+generated_at: "2026-09-30T18:42:02.222518+00:00"
 manual_override: false
 internal_links: ["/services/garage-construction/", "/service-areas/woodland-ca/", "/service-areas/woodland-ca/home-remodeling/", "/service-areas/woodland-ca/bathroom-remodeling/", "/service-areas/antelope-ca/garage-construction/", "/service-areas/arden-arcade-ca/garage-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woodland", "url": "/service-areas/woodland-ca/"}, {"name": "Garage Construction"}]

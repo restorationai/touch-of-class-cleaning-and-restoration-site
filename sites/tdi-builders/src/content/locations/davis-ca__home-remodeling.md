@@ -7,8 +7,8 @@ primary_keyword: "home remodeling davis"
 secondary_keywords: ["home renovation", "whole home remodel", "interior remodeling contractor", "house renovation contractor", "remodeling company"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "6a30758233ee445f"
-generated_at: "2026-09-21T19:19:28.699249+00:00"
+plan_hash: "749a57317af2b327"
+generated_at: "2026-09-30T18:42:02.232951+00:00"
 manual_override: false
 internal_links: ["/services/home-remodeling/", "/service-areas/davis-ca/", "/service-areas/davis-ca/bathroom-remodeling/", "/service-areas/davis-ca/kitchen-remodeling/", "/service-areas/antelope-ca/home-remodeling/", "/service-areas/arden-arcade-ca/home-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Davis", "url": "/service-areas/davis-ca/"}, {"name": "Home Remodeling"}]

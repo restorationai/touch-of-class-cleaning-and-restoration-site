@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "17042a67a57082e7"
-generated_at: "2026-09-29T23:13:49.731417+00:00"
+generated_at: "2026-09-30T18:42:02.206346+00:00"
 manual_override: false
 internal_links: ["/services/basement-sewage-cleanup/", "/service-areas/foothill-farms-ca/", "/service-areas/foothill-farms-ca/home-remodeling/", "/service-areas/foothill-farms-ca/bathroom-remodeling/", "/service-areas/antelope-ca/basement-sewage-cleanup/", "/service-areas/arden-arcade-ca/basement-sewage-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Foothill Farms", "url": "/service-areas/foothill-farms-ca/"}, {"name": "Basement Sewage Cleanup"}]

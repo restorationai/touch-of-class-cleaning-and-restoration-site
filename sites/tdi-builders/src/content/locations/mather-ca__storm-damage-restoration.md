@@ -7,8 +7,8 @@ primary_keyword: "storm damage restoration mather"
 secondary_keywords: ["storm damage repair", "roof storm damage repair", "siding storm damage repair", "wind damage repair contractor", "storm damage rebuild"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "6017e05ae75289ff"
-generated_at: "2026-09-21T14:13:51.732770+00:00"
+plan_hash: "98d0cbe8731c6f4a"
+generated_at: "2026-09-30T18:42:02.229927+00:00"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/service-areas/mather-ca/", "/service-areas/mather-ca/home-remodeling/", "/service-areas/mather-ca/bathroom-remodeling/", "/service-areas/antelope-ca/storm-damage-restoration/", "/service-areas/arden-arcade-ca/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mather", "url": "/service-areas/mather-ca/"}, {"name": "Storm Damage Restoration"}]

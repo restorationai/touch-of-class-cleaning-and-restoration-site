@@ -7,8 +7,8 @@ primary_keyword: "kitchen remodeling woodland"
 secondary_keywords: ["kitchen remodel contractor", "kitchen renovation", "custom kitchen remodel", "kitchen cabinet installation", "kitchen makeover"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "3c4ce6ee5d3b3486"
-generated_at: "2026-09-20T20:42:26.318341+00:00"
+plan_hash: "efcfa3da65a9784e"
+generated_at: "2026-09-30T18:42:02.223406+00:00"
 manual_override: false
 internal_links: ["/services/kitchen-remodeling/", "/service-areas/woodland-ca/", "/service-areas/woodland-ca/home-remodeling/", "/service-areas/woodland-ca/bathroom-remodeling/", "/service-areas/antelope-ca/kitchen-remodeling/", "/service-areas/arden-arcade-ca/kitchen-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woodland", "url": "/service-areas/woodland-ca/"}, {"name": "Kitchen Remodeling"}]

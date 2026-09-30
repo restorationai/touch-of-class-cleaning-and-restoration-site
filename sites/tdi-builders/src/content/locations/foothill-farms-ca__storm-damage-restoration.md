@@ -7,8 +7,8 @@ primary_keyword: "storm damage restoration foothill farms"
 secondary_keywords: ["storm damage repair", "roof storm damage repair", "siding storm damage repair", "wind damage repair contractor", "storm damage rebuild"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "1bb55fbb3f179121"
-generated_at: "2026-09-20T17:30:08.763429+00:00"
+plan_hash: "4a3e2815b225acbe"
+generated_at: "2026-09-30T18:42:02.210516+00:00"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/service-areas/foothill-farms-ca/", "/service-areas/foothill-farms-ca/home-remodeling/", "/service-areas/foothill-farms-ca/bathroom-remodeling/", "/service-areas/antelope-ca/storm-damage-restoration/", "/service-areas/arden-arcade-ca/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Foothill Farms", "url": "/service-areas/foothill-farms-ca/"}, {"name": "Storm Damage Restoration"}]

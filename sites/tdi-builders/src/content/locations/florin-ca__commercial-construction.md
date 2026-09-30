@@ -7,8 +7,8 @@ primary_keyword: "commercial construction and tenant improvements florin"
 secondary_keywords: ["commercial general contractor", "tenant improvement contractor", "commercial buildout", "office renovation", "retail construction"]
 search_intent: "local_b2b"
 priority: 4.9
-plan_hash: "45352a11260d909e"
-generated_at: "2026-09-20T19:37:26.796479+00:00"
+plan_hash: "8639307af8c78b7c"
+generated_at: "2026-09-30T18:42:02.217116+00:00"
 manual_override: false
 internal_links: ["/services/commercial-construction/", "/service-areas/florin-ca/", "/service-areas/florin-ca/home-remodeling/", "/service-areas/florin-ca/bathroom-remodeling/", "/service-areas/antelope-ca/commercial-construction/", "/service-areas/arden-arcade-ca/commercial-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Florin", "url": "/service-areas/florin-ca/"}, {"name": "Commercial Construction and Tenant Improvements"}]

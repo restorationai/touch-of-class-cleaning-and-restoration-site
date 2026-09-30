@@ -7,8 +7,8 @@ primary_keyword: "fire and smoke damage rebuilding north highlands"
 secondary_keywords: ["fire damage rebuild", "fire damage repair contractor", "smoke damage repair", "fire restoration contractor", "rebuild after fire"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "1010fed61fff8e0f"
-generated_at: "2026-09-20T14:13:49.567495+00:00"
+plan_hash: "3665f1f2fe2f53ab"
+generated_at: "2026-09-30T18:42:02.198215+00:00"
 manual_override: false
 internal_links: ["/services/fire-smoke-rebuilding/", "/service-areas/north-highlands-ca/", "/service-areas/north-highlands-ca/home-remodeling/", "/service-areas/north-highlands-ca/bathroom-remodeling/", "/service-areas/antelope-ca/fire-smoke-rebuilding/", "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Highlands", "url": "/service-areas/north-highlands-ca/"}, {"name": "Fire and Smoke Damage Rebuilding"}]

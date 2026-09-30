@@ -7,8 +7,8 @@ primary_keyword: "kitchen remodeling antelope"
 secondary_keywords: ["kitchen remodel contractor", "kitchen renovation", "custom kitchen remodel", "kitchen cabinet installation", "kitchen makeover"]
 search_intent: "local_commercial"
 priority: 6.3
-plan_hash: "689b798120c0943a"
-generated_at: "2026-09-20T14:13:49.570436+00:00"
+plan_hash: "04b5ec1548774f96"
+generated_at: "2026-09-30T18:42:02.204226+00:00"
 manual_override: false
 internal_links: ["/services/kitchen-remodeling/", "/service-areas/antelope-ca/", "/service-areas/antelope-ca/home-remodeling/", "/service-areas/antelope-ca/bathroom-remodeling/", "/service-areas/arden-arcade-ca/kitchen-remodeling/", "/service-areas/carmichael-ca/kitchen-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Antelope", "url": "/service-areas/antelope-ca/"}, {"name": "Kitchen Remodeling"}]

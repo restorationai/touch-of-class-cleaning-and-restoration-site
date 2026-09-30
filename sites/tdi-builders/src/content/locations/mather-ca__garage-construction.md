@@ -7,8 +7,8 @@ primary_keyword: "garage construction mather"
 secondary_keywords: ["garage builder", "detached garage construction", "attached garage addition", "garage conversion", "custom garage contractor"]
 search_intent: "local_commercial"
 priority: 4.2
-plan_hash: "7e1fb71ce731bdcc"
-generated_at: "2026-09-21T14:13:51.733727+00:00"
+plan_hash: "8ee84de25d5dde56"
+generated_at: "2026-09-30T18:42:02.227476+00:00"
 manual_override: false
 internal_links: ["/services/garage-construction/", "/service-areas/mather-ca/", "/service-areas/mather-ca/home-remodeling/", "/service-areas/mather-ca/bathroom-remodeling/", "/service-areas/antelope-ca/garage-construction/", "/service-areas/arden-arcade-ca/garage-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mather", "url": "/service-areas/mather-ca/"}, {"name": "Garage Construction"}]

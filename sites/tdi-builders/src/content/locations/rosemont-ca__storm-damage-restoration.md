@@ -7,8 +7,8 @@ primary_keyword: "storm damage restoration rosemont"
 secondary_keywords: ["storm damage repair", "roof storm damage repair", "siding storm damage repair", "wind damage repair contractor", "storm damage rebuild"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "adea2e3cbb0c4c8f"
-generated_at: "2026-09-20T19:17:53.764962+00:00"
+plan_hash: "499c2eb6d1c4e3db"
+generated_at: "2026-09-30T18:42:02.215341+00:00"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/service-areas/rosemont-ca/", "/service-areas/rosemont-ca/home-remodeling/", "/service-areas/rosemont-ca/bathroom-remodeling/", "/service-areas/antelope-ca/storm-damage-restoration/", "/service-areas/arden-arcade-ca/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rosemont", "url": "/service-areas/rosemont-ca/"}, {"name": "Storm Damage Restoration"}]

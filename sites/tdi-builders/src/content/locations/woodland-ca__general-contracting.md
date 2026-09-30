@@ -7,8 +7,8 @@ primary_keyword: "renovations, remodels and general contracting woodland"
 secondary_keywords: ["general contractor", "licensed general contractor", "home improvement contractor", "residential general contracting", "design-build contractor"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "e7ccc7f99de68ef0"
-generated_at: "2026-09-20T20:42:26.317002+00:00"
+plan_hash: "00ff02e15cdbee2c"
+generated_at: "2026-09-30T18:42:02.222809+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/woodland-ca/", "/service-areas/woodland-ca/home-remodeling/", "/service-areas/woodland-ca/bathroom-remodeling/", "/service-areas/antelope-ca/general-contracting/", "/service-areas/arden-arcade-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woodland", "url": "/service-areas/woodland-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]

@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration elverta"
 secondary_keywords: ["water damage repair", "water damage rebuild", "drywall water damage repair", "ceiling water damage repair", "post-leak renovation"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "24a301afe59b6568"
-generated_at: "2026-09-20T14:13:49.561562+00:00"
+plan_hash: "0216ac99e80603d5"
+generated_at: "2026-09-30T18:42:02.186739+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/elverta-ca/", "/service-areas/elverta-ca/home-remodeling/", "/service-areas/elverta-ca/bathroom-remodeling/", "/service-areas/antelope-ca/water-damage-restoration/", "/service-areas/arden-arcade-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elverta", "url": "/service-areas/elverta-ca/"}, {"name": "Water Damage Restoration"}]

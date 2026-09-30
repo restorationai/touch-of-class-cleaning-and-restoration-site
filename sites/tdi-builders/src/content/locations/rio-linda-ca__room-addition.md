@@ -7,8 +7,8 @@ primary_keyword: "room additions and home additions rio linda"
 secondary_keywords: ["home addition contractor", "room addition", "add a room to house", "house addition", "bump out addition"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "0a4588c65d32c6d6"
-generated_at: "2026-09-20T14:13:49.560733+00:00"
+plan_hash: "f1ce52fe4b30068e"
+generated_at: "2026-09-30T18:42:02.181339+00:00"
 manual_override: false
 internal_links: ["/services/room-addition/", "/service-areas/rio-linda-ca/", "/service-areas/rio-linda-ca/home-remodeling/", "/service-areas/rio-linda-ca/bathroom-remodeling/", "/service-areas/antelope-ca/room-addition/", "/service-areas/arden-arcade-ca/room-addition/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rio Linda", "url": "/service-areas/rio-linda-ca/"}, {"name": "Room Additions and Home Additions"}]

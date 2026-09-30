@@ -7,8 +7,8 @@ primary_keyword: "mold remediation davis"
 secondary_keywords: ["mold removal", "mold remediation contractor", "mold repair and rebuild", "mold-safe renovation", "post-remediation reconstruction"]
 search_intent: "local_health"
 priority: 4.9
-plan_hash: "4a6900e74df00b65"
-generated_at: "2026-09-21T19:19:28.699162+00:00"
+plan_hash: "8b4e94d4edebd0b7"
+generated_at: "2026-09-30T18:42:02.233547+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/davis-ca/", "/service-areas/davis-ca/home-remodeling/", "/service-areas/davis-ca/bathroom-remodeling/", "/service-areas/antelope-ca/mold-remediation/", "/service-areas/arden-arcade-ca/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Davis", "url": "/service-areas/davis-ca/"}, {"name": "Mold Remediation"}]

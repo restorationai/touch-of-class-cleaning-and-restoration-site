@@ -7,8 +7,8 @@ primary_keyword: "commercial construction and tenant improvements antelope"
 secondary_keywords: ["commercial general contractor", "tenant improvement contractor", "commercial buildout", "office renovation", "retail construction"]
 search_intent: "local_b2b"
 priority: 4.9
-plan_hash: "b484763ab5f82b52"
-generated_at: "2026-09-20T14:13:49.569090+00:00"
+plan_hash: "4472b5466377a0a8"
+generated_at: "2026-09-30T18:42:02.202710+00:00"
 manual_override: false
 internal_links: ["/services/commercial-construction/", "/service-areas/antelope-ca/", "/service-areas/antelope-ca/home-remodeling/", "/service-areas/antelope-ca/bathroom-remodeling/", "/service-areas/arden-arcade-ca/commercial-construction/", "/service-areas/carmichael-ca/commercial-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Antelope", "url": "/service-areas/antelope-ca/"}, {"name": "Commercial Construction and Tenant Improvements"}]

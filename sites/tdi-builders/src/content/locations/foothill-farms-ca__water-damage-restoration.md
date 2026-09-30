@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration foothill farms"
 secondary_keywords: ["water damage repair", "water damage rebuild", "drywall water damage repair", "ceiling water damage repair", "post-leak renovation"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "9ed7353874e09932"
-generated_at: "2026-09-20T17:30:08.763232+00:00"
+plan_hash: "91abd04f9936bd90"
+generated_at: "2026-09-30T18:42:02.210814+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/foothill-farms-ca/", "/service-areas/foothill-farms-ca/home-remodeling/", "/service-areas/foothill-farms-ca/bathroom-remodeling/", "/service-areas/antelope-ca/water-damage-restoration/", "/service-areas/arden-arcade-ca/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Foothill Farms", "url": "/service-areas/foothill-farms-ca/"}, {"name": "Water Damage Restoration"}]

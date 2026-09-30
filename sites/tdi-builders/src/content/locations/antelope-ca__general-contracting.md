@@ -7,8 +7,8 @@ primary_keyword: "renovations, remodels and general contracting antelope"
 secondary_keywords: ["general contractor", "licensed general contractor", "home improvement contractor", "residential general contracting", "design-build contractor"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "dc1e43ff74426c76"
-generated_at: "2026-09-20T14:13:49.569256+00:00"
+plan_hash: "0f317a7f191b4ad9"
+generated_at: "2026-09-30T18:42:02.203623+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/antelope-ca/", "/service-areas/antelope-ca/home-remodeling/", "/service-areas/antelope-ca/bathroom-remodeling/", "/service-areas/arden-arcade-ca/general-contracting/", "/service-areas/carmichael-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Antelope", "url": "/service-areas/antelope-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]

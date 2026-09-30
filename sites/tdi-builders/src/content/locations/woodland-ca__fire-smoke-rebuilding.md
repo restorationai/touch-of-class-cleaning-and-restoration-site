@@ -7,8 +7,8 @@ primary_keyword: "fire and smoke damage rebuilding woodland"
 secondary_keywords: ["fire damage rebuild", "fire damage repair contractor", "smoke damage repair", "fire restoration contractor", "rebuild after fire"]
 search_intent: "local_commercial"
 priority: 4.9
-plan_hash: "be69be60aca31898"
-generated_at: "2026-09-20T20:42:26.317362+00:00"
+plan_hash: "d4050351fc3887af"
+generated_at: "2026-09-30T18:42:02.222225+00:00"
 manual_override: false
 internal_links: ["/services/fire-smoke-rebuilding/", "/service-areas/woodland-ca/", "/service-areas/woodland-ca/home-remodeling/", "/service-areas/woodland-ca/bathroom-remodeling/", "/service-areas/antelope-ca/fire-smoke-rebuilding/", "/service-areas/arden-arcade-ca/fire-smoke-rebuilding/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woodland", "url": "/service-areas/woodland-ca/"}, {"name": "Fire and Smoke Damage Rebuilding"}]

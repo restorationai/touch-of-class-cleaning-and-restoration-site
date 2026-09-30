@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "b0ddf49b3dd40b08"
-generated_at: "2026-09-29T23:13:49.716277+00:00"
+generated_at: "2026-09-30T18:42:02.167479+00:00"
 manual_override: false
 internal_links: ["/services/carpet-upholstery-cleaning/", "/service-areas/granite-bay-ca/", "/service-areas/granite-bay-ca/home-remodeling/", "/service-areas/granite-bay-ca/bathroom-remodeling/", "/service-areas/antelope-ca/carpet-upholstery-cleaning/", "/service-areas/arden-arcade-ca/carpet-upholstery-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Granite Bay", "url": "/service-areas/granite-bay-ca/"}, {"name": "Carpet & Upholstery Cleaning"}]

@@ -7,10 +7,10 @@ primary_keyword: "construction services mcclellan park"
 secondary_keywords: ["mcclellan park construction company", "general contractor mcclellan park", "mcclellan park remodeling contractor"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "08b690d7c28fa1ce"
-generated_at: "2026-09-20T14:13:49.555436+00:00"
+plan_hash: "65d3752996a9a09a"
+generated_at: "2026-09-30T18:42:02.141574+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/mcclellan-park-ca/home-remodeling/", "/service-areas/mcclellan-park-ca/bathroom-remodeling/", "/service-areas/mcclellan-park-ca/kitchen-remodeling/", "/service-areas/mcclellan-park-ca/new-construction/", "/service-areas/mcclellan-park-ca/general-contracting/", "/service-areas/mcclellan-park-ca/room-addition/", "/service-areas/mcclellan-park-ca/commercial-construction/", "/service-areas/mcclellan-park-ca/fire-smoke-rebuilding/", "/service-areas/mcclellan-park-ca/mold-remediation/", "/service-areas/mcclellan-park-ca/storm-damage-restoration/", "/service-areas/mcclellan-park-ca/water-damage-restoration/", "/service-areas/mcclellan-park-ca/garage-construction/", "/service-areas/antelope-ca/", "/service-areas/arden-arcade-ca/", "/service-areas/carmichael-ca/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/mcclellan-park-ca/home-remodeling/", "/service-areas/mcclellan-park-ca/bathroom-remodeling/", "/service-areas/mcclellan-park-ca/kitchen-remodeling/", "/service-areas/mcclellan-park-ca/new-construction/", "/service-areas/mcclellan-park-ca/general-contracting/", "/service-areas/mcclellan-park-ca/room-addition/", "/service-areas/mcclellan-park-ca/commercial-construction/", "/service-areas/mcclellan-park-ca/fire-smoke-rebuilding/", "/service-areas/mcclellan-park-ca/mold-remediation/", "/service-areas/mcclellan-park-ca/storm-damage-restoration/", "/service-areas/mcclellan-park-ca/water-damage-restoration/", "/service-areas/mcclellan-park-ca/garage-construction/", "/service-areas/mcclellan-park-ca/basement-sewage-cleanup/", "/service-areas/mcclellan-park-ca/carpet-upholstery-cleaning/", "/service-areas/mcclellan-park-ca/carpet-water-extraction/", "/service-areas/mcclellan-park-ca/post-construction-specialty-cleaning/", "/service-areas/antelope-ca/", "/service-areas/arden-arcade-ca/", "/service-areas/carmichael-ca/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McClellan Park"}]
 faq: []
 area_slug: "mcclellan-park-ca"
