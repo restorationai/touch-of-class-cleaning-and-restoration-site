@@ -338,6 +338,49 @@ def _gbp_primary(cid: str, slug: str) -> tuple[str | None, str | None, str]:
     return None, None, "companies_row"  # caller falls back to companies.phone
 
 
+def _real_phone(slug: str, co: dict) -> tuple[str | None, str]:
+    """Canonical (non-tracking) phone: brand.ts `phone` (schema-grade), then
+    companies.phone. Refuses any number that is one of the client's own
+    tracking lines."""
+    import brightlocal as _bl
+    tracked = set()
+    try:
+        from client_ops_sync import _sb
+        row = (_sb("GET", f"/rest/v1/companies?id=eq.{co.get('id')}"
+                   "&select=integration_settings->call_tracking",
+                   prefer="return=representation") or [{}])[0]
+        for v in (row.get("call_tracking") or {}).values():
+            if isinstance(v, dict) and v.get("number"):
+                tracked.add(re.sub(r"\D", "", v["number"])[-10:])
+    except Exception:  # noqa: BLE001
+        pass
+    for src, raw in (("brand_ts", _bl._brand_ts(slug).get("phone")),
+                     ("companies_row", co.get("phone"))):
+        ph = re.sub(r"\D", "", raw or "")[-10:]
+        if len(ph) == 10 and ph not in tracked:
+            return ph, src
+    return None, "none"
+
+
+def _settled_name(slug: str, co: dict) -> tuple[str | None, str]:
+    """(name, why): the chosen rename when the gate clears on it, else the
+    canonical display name; None when the gate is not clear."""
+    import brightlocal as _bl
+    ok, why = _bl.rename_gate(slug)
+    if not ok:
+        return None, why
+    try:
+        from client_ops_sync import _sb
+        rows = _sb("GET", f"/rest/v1/marketing_gbp_suggestions?company_id=eq."
+                   f"{co.get('id')}&item_type=eq.name&status=eq.chosen&select=item",
+                   prefer="return=representation") or []
+        if rows:
+            return rows[0]["item"], why
+    except Exception:  # noqa: BLE001
+        pass
+    return (_bl._brand_ts(slug).get("displayName") or co.get("name")), why
+
+
 def _gen_password() -> str:
     """Guarantee lower+upper+digit+symbol (Houzz lesson 2026-08-01: the
     generator MUST cover every class or portal validators reject it)."""
@@ -472,15 +515,26 @@ def select_creation_queue() -> tuple[list[dict], list[str], list[str]]:
             notes.append(f"{slug}: eligible but over the {PORTAL_NIGHTLY_CAP}/night "
                          "velocity cap — next night")
             continue
-        phone, gbp_street, src = _gbp_primary(cid, slug)
+        # NAME: citations carry the FINAL name only (rename gate, same rule
+        # as BrightLocal orders). 09-27..29 the sweep listed Dry Bros and
+        # Desert Valley under their old names.
+        name, why = _settled_name(slug, co)
+        if not name:
+            notes.append(f"{slug}: rename gate not clear — {why}")
+            continue
+        # PHONE: the client's REAL line (canonical NAP: brand.ts phone, then
+        # the companies row), NEVER the GBP primary — GBP primaries are
+        # tracking numbers wherever call tracking is live (policy corrected
+        # 09-26; the sweep listed DV, Flood Solutions and ACS on trackers
+        # 09-28/29). The GBP street line is still used for the address.
+        _gph, gbp_street, _src = _gbp_primary(cid, slug)
+        phone, src = _real_phone(slug, co)
         if not phone:
-            phone = re.sub(r"\D", "", co.get("phone") or "")[-10:]
-        if not phone:
-            notes.append(f"{slug}: NAP incomplete (no GBP-primary or companies phone)")
+            notes.append(f"{slug}: NAP incomplete (no canonical phone)")
             continue
         picks.append({"slug": slug, "cid": cid, "phone": phone,
                       "phone_source": src, "gbp_street": gbp_street,
-                      "zip": zipc, "name": co.get("name"),
+                      "zip": zipc, "name": name,
                       "created_at": co.get("created_at")})
     return picks, houzz_pending, notes
 
@@ -494,7 +548,7 @@ def run_homeguide_queue(picks: list[dict]) -> None:
                    detail=str(why)[:200])
             break
         _ensure_homeguide_creds(p["slug"])
-        overrides = {"phone": p["phone"]}
+        overrides = {"phone": p["phone"], "name": p["name"]}
         if p.get("gbp_street") and p.get("phone_source") == "gbp_api":
             overrides["address"] = p["gbp_street"]  # the clean GBP street line
         print(f"\n== homeguide create {i + 1}/{len(picks)}: {p['slug']} "
