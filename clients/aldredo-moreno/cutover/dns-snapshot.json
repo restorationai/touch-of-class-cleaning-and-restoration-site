@@ -1,20 +1,22 @@
 {
  "domain": "theacsenterprises.com",
- "captured_at": "2026-09-30T14:47:20+00:00",
+ "captured_at": "2026-09-30T14:55:49+00:00",
  "authoritative": {
   "ns": [
-   "ns35.domaincontrol.com",
-   "ns36.domaincontrol.com"
+   "amos.ns.cloudflare.com",
+   "anastasia.ns.cloudflare.com"
   ],
   "mx": [],
-  "apex_txt": [],
+  "apex_txt": [
+   "google-site-verification=NNd0gC25O0wGmm_YWy83leF5AW_Rbu_z6fsOZF2SywE"
+  ],
   "dmarc_txt": [
    "v=DMARC1; p=quarantine; adkim=r; aspf=r; rua=mailto:dmarc_rua@onsecureserver.net;"
   ],
   "dkim": {},
   "apex_a": [
-   "15.197.148.33",
-   "3.33.130.190"
+   "104.21.26.19",
+   "172.67.135.39"
   ],
   "apex_cname": [],
   "www_cname": []
@@ -27,10 +29,34 @@
   ],
   "records": [
    {
+    "id": "7c74d80b9549f50903a722c9ebafd846",
+    "type": "CNAME",
+    "name": "theacsenterprises.com",
+    "content": "rankai-aldredo-moreno.pages.dev",
+    "priority": null,
+    "proxied": true
+   },
+   {
+    "id": "a47e4001f0e74f6c8f1dedc34e77afaa",
+    "type": "CNAME",
+    "name": "www.theacsenterprises.com",
+    "content": "rankai-aldredo-moreno.pages.dev",
+    "priority": null,
+    "proxied": true
+   },
+   {
     "id": "9b618d3107755619e4cdc4e54f48ff77",
     "type": "TXT",
     "name": "_dmarc.theacsenterprises.com",
     "content": "v=DMARC1; p=quarantine; adkim=r; aspf=r; rua=mailto:dmarc_rua@onsecureserver.net;",
+    "priority": null,
+    "proxied": false
+   },
+   {
+    "id": "eadc414d7e176dcfc12adb77a0a4fbd3",
+    "type": "TXT",
+    "name": "theacsenterprises.com",
+    "content": "google-site-verification=NNd0gC25O0wGmm_YWy83leF5AW_Rbu_z6fsOZF2SywE",
     "priority": null,
     "proxied": false
    }

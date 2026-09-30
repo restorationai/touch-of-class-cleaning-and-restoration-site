@@ -13,7 +13,7 @@
     "url_count": 464,
     "generated_at": "2026-09-30T14:12:02.180038+00:00"
   },
-  "updated_at": "2026-09-30T14:47:22+00:00",
+  "updated_at": "2026-09-30T14:55:50+00:00",
   "indexnow_key": "93078ed3113c4f9cb49adcf2d6649af1",
   "build": {
     "scaffolded_at": "2026-09-09T01:36:42.898954+00:00",
@@ -49,6 +49,6 @@
     ]
   },
   "apex_cutover": {
-    "legacy_origin": "15.197.148.33"
+    "legacy_origin": "104.21.26.19"
   }
 }
