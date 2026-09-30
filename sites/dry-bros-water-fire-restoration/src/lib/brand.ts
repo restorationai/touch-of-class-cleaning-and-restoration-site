@@ -65,7 +65,7 @@ export const brand = {
   certifications: [] as string[],
   trustBadges: ["Licensed & Insured", "Locally Owned & Operated"] as string[],
   jobPhotos: [] as string[],
-  sameAsUrls: ["https://drybros.com/", "https://nextdoor.com/pages/dry-bros-247-emergency-water-damage-restoration-mold-remediation-chicago-il/", "https://homeguide.com/il/oak-lawn/water-damage-restoration/dry-bros-water---fire-restoration-eI85o0Jum"] as string[],
+  sameAsUrls: ["https://drybros.com/", "https://nextdoor.com/pages/dry-bros-247-emergency-water-damage-restoration-mold-remediation-chicago-il/", "https://www.houzz.com/pro/webuser-990446310", "https://homeguide.com/il/oak-lawn/water-damage-restoration/dry-bros-water---fire-restoration-eI85o0Jum"] as string[],
   // GBP rating fields — synced from the live Google Business Profile by
   // scripts/sync_brand_reviews.py; never hand-edited (real ratings only).
   gbpRatingValue: "",
