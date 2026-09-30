@@ -6,7 +6,7 @@ export const brand = {
   slug: "kenneth-w-talbot-jr",
   displayName: "Veterans Remediation & Restoration ",
   // Registered DBA / trade name (backfilled by rename_site_sync.py on old scaffolds).
-  dbaName: "Veterans Remediation & Restoration - 24/7 Mold, Water & Fire Damage Restoration",
+  dbaName: "Veterans Remediation & Restoration - 24/7 Mold Remediation, Water and Fire Damage Restoration",
   shortName: "Veterans Remediation & Restoration ",
   legalName: "Veterans Remediation & Restoration",
   domain: "veteransremediation.com",
