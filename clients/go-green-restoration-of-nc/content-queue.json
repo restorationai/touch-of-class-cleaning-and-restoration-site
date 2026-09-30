@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "2026-09-28-best-mold-remediation-in-raleigh-nc",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-28T18:17:12Z",
       "priority": 1,
       "prioritized": true,
@@ -48,7 +48,83 @@
         "mold treatment Raleigh",
         "black mold removal Raleigh"
       ],
-      "source": "best-of-seeder"
+      "source": "best-of-seeder",
+      "written_at": "2026-09-30T10:29:01Z",
+      "post_url": "https://gogreenrestorationofnc.com/blog/best-mold-remediation-company-in-raleigh-nc/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-raleigh-nc.md",
+          "part": "frontmatter",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "30 Google reviews",
+          "context": "lude Glover Environmental Mold Removal (30 Google reviews, 5.0 rating) and Raleigh Mold Inspectio",
+          "reason": "claims 30 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-raleigh-nc.md",
+          "part": "frontmatter",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "87 reviews",
+          "context": "aleigh Mold Inspection and Remediation (87 reviews, 4.7 rating).\"}, {\"question\": \"How much",
+          "reason": "claims 87 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-raleigh-nc.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "error",
+          "matched": "IICRC",
+          "context": "gle Rating | Reviews | 24/7 Emergency | IICRC Certified | |---|---|---|---|---| | Go",
+          "reason": "names a certification not present in brand.certifications"
+        },
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-raleigh-nc.md",
+          "part": "body",
+          "family": "certification",
+          "severity": "review",
+          "matched": "IICRC",
+          "context": "re calling the job done, following the [IICRC](https://www.iicrc.org) S520 mold remed",
+          "reason": "IICRC standard reference on an uncertified brand \u2014 verify it reads as an industry standard, not a credential claim"
+        },
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-raleigh-nc.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "15 Google reviews",
+          "context": "diation holds a 5.0 average rating from 15 Google reviews at the time of writing. It's a smaller,",
+          "reason": "claims 15 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-raleigh-nc.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "30 Google reviews",
+          "context": "old Removal carries a 5.0 rating across 30 Google reviews, giving it one of the larger review bas",
+          "reason": "claims 30 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-raleigh-nc.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "3 Google reviews",
+          "context": "and Remediation shows a 5.0 rating from 3 Google reviews. The perfect score is worth noting, but",
+          "reason": "claims 3 reviews but no synced gbpReviewCount exists for this site"
+        },
+        {
+          "file": "src/content/blog/best-mold-remediation-company-in-raleigh-nc.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "error",
+          "matched": "87 Google reviews",
+          "context": "deepest review history on this list at 87 Google reviews, with a 4.7 average rating. That volume",
+          "reason": "claims 87 reviews but no synced gbpReviewCount exists for this site"
+        }
+      ]
     },
     {
       "id": "2026-09-10-who-to-call-for-water-damage-restoration-in-middlesex-nc",
