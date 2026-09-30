@@ -95,7 +95,7 @@ def fulfill(ntype: str, f: dict) -> tuple[str, str]:
         ints = _company(cid).get("integration_settings") or {}
         ri = ints.get("rename_intent") or {}
         if not (ri.get("dba_filed") and ri.get("dba_name")):
-            return "~", "DBA not filed/verified yet — routed to Santino"
+            return "~", "DBA not filed/verified yet — routed to Claude"
         chosen = _sb("GET", "/rest/v1/marketing_gbp_suggestions?company_id=eq."
                      f"{cid}&item_type=eq.name&status=eq.chosen&select=item") or []
         name = chosen[0]["item"] if chosen else ri["dba_name"]
@@ -107,31 +107,21 @@ def fulfill(ntype: str, f: dict) -> tuple[str, str]:
         return "x", (f"{c.get('name')} | {c.get('address')}, {c.get('city')}, "
                      f"{c.get('state')} {c.get('postal_code')} | REAL phone "
                      f"{c.get('phone')} | {c.get('website')}")
-    return "~", "routed to Santino (judgment call)"
+    return "~", "routed to Claude (judgment call)"
 
 
 def _route_human(need_id: str, f: dict) -> None:
     body = (f"MINI NEED {need_id} ({f.get('client', '?')}): "
             f"{f.get('question') or f.get('for') or 'see mini-needs.md'} "
-            "— answer in clients/_ops/mini-needs.md or tell Claude.")
+            "— routed to the Claude mini-needs agent first.")
     _sb("POST", "/rest/v1/marketing_ops_notes",
         {"company_id": None, "author": "mini-responder", "status": "open",
          "body": body[:900]}, prefer="return=minimal")
-    # TEXT SANTINO (2026-09-30): routed needs used to land ONLY as a
-    # company-less ops note, which the daily digest never shows, so the
-    # Mini's "URGENT before 11:30" sweep question sat unanswered two days
-    # while the sweep put tracking numbers on live listings. One SMS per
-    # routed need; a failed text never breaks the responder.
-    q = re.sub(r"\s+", " ", f.get("question") or f.get("for") or "")
-    sms = (f"MINI NEEDS YOU ({f.get('client', '?')}): {q[:420]}"
-           + (" ..." if len(q) > 420 else "")
-           + " Reply to Claude or answer in mini-needs.md.")
-    try:
-        from client_concierge import send_message, OPS_PING_CONTACT_ID, OPS_PING_CELL
-        send_message({"id": OPS_PING_CONTACT_ID, "phone": OPS_PING_CELL}, "sms", sms[:640])
-        print(f"  {need_id}: texted Santino")
-    except Exception as e:  # noqa: BLE001
-        print(f"  {need_id}: SMS failed: {str(e)[:100]}")
+    # CLAUDE FIRST (Santino 2026-09-30: "you try to answer. If not, you
+    # forward the question to me, then I respond to you, and you give it
+    # back to the Mini"). Routed needs are answered by the headless
+    # mini-needs agent (scripts/mini_needs_agent.md, next workflow step);
+    # only IT texts Santino (scripts/ask_santino.py), never the Mini path.
 
 
 def main() -> int:

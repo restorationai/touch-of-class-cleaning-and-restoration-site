@@ -21,7 +21,7 @@ jobs:
     # never re-fire on our own answer commit
     if: "!contains(github.event.head_commit.message, '[mini-responder]')"
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
@@ -34,11 +34,44 @@ jobs:
         env:
           SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-          # routed (judgment) needs text Santino via the ops-ping path
+        run: python3 scripts/mini_responder.py
+      - name: Claude-first queue (needs routed to Claude, not yet answered)
+        id: claudeq
+        run: |
+          N=$(python3 - <<'PY'
+          import re
+          t=open("clients/_ops/mini-needs.md").read().split("\n")
+          n=0
+          for i,l in enumerate(t):
+              if l.startswith("- [~] NEED-") and "routed to Claude" in l:
+                  nxt=t[i+1] if i+1 < len(t) else ""
+                  if not re.match(r"\s+- (ANSWER|ASKED SANTINO)", nxt): n+=1
+          print(n)
+          PY
+          )
+          echo "count=$N" >> "$GITHUB_OUTPUT"; echo "needs for Claude: $N"
+      - name: Install Claude Code
+        if: steps.claudeq.outputs.count != '0'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Mini-needs agent (Claude answers; escalates to Santino only when it must)
+        if: steps.claudeq.outputs.count != '0'
+        env:
+          ANTHROPIC_API_KEY:         ${{ secrets.ANTHROPIC_API_KEY }}
+          SUPABASE_URL:              ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           GHL_API_KEY:               ${{ secrets.GHL_API_KEY }}
           GHL_LOCATION_ID:           ${{ secrets.GHL_LOCATION_ID }}
           CONCIERGE_ALLOWLIST:       ${{ secrets.CONCIERGE_ALLOWLIST }}
-        run: python3 scripts/mini_responder.py
+          GH_PAT:                    ${{ secrets.GH_PAT }}
+        run: |
+          npm install -g @anthropic-ai/claude-code
+          git config user.name "Rank AI Bot"
+          git config user.email "ops@restorationai.io"
+          claude -p "$(cat scripts/mini_needs_agent.md)" \
+            --model claude-opus-5-5 --dangerously-skip-permissions \
+            --output-format text --max-turns 60
       - name: Commit answers + fire Mini trigger
         run: |
           git config user.name "Rank AI Bot"
