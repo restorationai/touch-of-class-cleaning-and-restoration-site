@@ -1,0 +1,17 @@
+{
+  "_about": "Client-requested states verified LIVE on 2026-09-30. scripts/site_regression_watch.py checks every pin nightly and after every deploy lane; a broken pin files a 'client request reverted' card. Retire a pin only when the client asks for something different.",
+  "pins": [
+    {
+      "id": "address-farrell",
+      "request": "Addi 09-21/09-24: address is 712 Spearman Avenue, Farrell, PA 16121",
+      "url": "/",
+      "require": [
+        "712 Spearman Avenue",
+        "Farrell, PA 16121"
+      ],
+      "forbid": [
+        "Youngstown, OH 16121"
+      ]
+    }
+  ]
+}

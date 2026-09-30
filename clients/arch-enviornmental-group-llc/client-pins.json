@@ -1,0 +1,105 @@
+{
+  "_about": "Client-requested states verified LIVE on 2026-09-30. scripts/site_regression_watch.py checks every pin nightly and after every deploy lane; a broken pin files a 'client request reverted' card. Retire a pin only when the client asks for something different.",
+  "pins": [
+    {
+      "id": "process-free-consult-phone",
+      "request": "Mike 09-29: free consult happens over the phone, no home visits",
+      "url": "/",
+      "require": [
+        "answer every question over the phone"
+      ]
+    },
+    {
+      "id": "process-no-completion",
+      "request": "Mike 09-29: there is no Completion step in Our Process",
+      "url": "/",
+      "html_forbid": [
+        ">\\s*Completion\\s*<"
+      ]
+    },
+    {
+      "id": "process-work-fast-weekends",
+      "request": "Mike 09-29: work done fast, same day or next day, weekends at no extra charge",
+      "url": "/",
+      "require": [
+        "same day or next day",
+        "weekends at no extra charge"
+      ]
+    },
+    {
+      "id": "process-final-inspection-clearance",
+      "request": "Mike 09-29: final inspections only on clearance jobs",
+      "url": "/",
+      "require": [
+        "On clearance jobs, a final inspection"
+      ]
+    },
+    {
+      "id": "san-joaquin-sentence",
+      "request": "Mike 09-29: paragraph opens 'The San Joaquin Valley has a substantial...'",
+      "url": "/",
+      "require": [
+        "The San Joaquin Valley has a substantial"
+      ],
+      "forbid": [
+        "Kingsburg and the surrounding San Joaquin Valley have a substantial"
+      ]
+    },
+    {
+      "id": "service-area-sentence",
+      "request": "Mike 09-29: 'That includes Fresno, Visalia, Bakersfield and the smaller agricultural towns in between.'",
+      "url": "/",
+      "require": [
+        "That includes Fresno, Visalia, Bakersfield and the smaller agricultural towns in between."
+      ],
+      "forbid": [
+        "Fresno, Selma, Hanford, Visalia"
+      ]
+    },
+    {
+      "id": "centerville-removed",
+      "request": "Mike 09-29: remove Centerville, CA and replace it with Visalia, CA",
+      "url": "/",
+      "forbid": [
+        "Centerville"
+      ],
+      "require": [
+        "Visalia"
+      ]
+    },
+    {
+      "id": "centerville-redirect",
+      "request": "Mike 09-29: Centerville page forwards to Visalia",
+      "url": "/service-areas/centerville-ca/",
+      "status": 301,
+      "location": "/service-areas/visalia-ca/"
+    },
+    {
+      "id": "visalia-page",
+      "request": "Mike 09-29: Visalia (home base) has its area page",
+      "url": "/service-areas/visalia-ca/",
+      "require": [
+        "Visalia"
+      ]
+    },
+    {
+      "id": "header-logo-fits",
+      "request": "Mike 09-29: shrink the header logo so it fits the banner",
+      "url": "/",
+      "html_require": [
+        "<img src=\"/images/logo\\.png\"[^>]*class=\"h-12 md:h-14"
+      ]
+    },
+    {
+      "id": "hero-phone-smaller",
+      "request": "Mike 09-29: shrink the hero phone number so it fits the banner",
+      "url": "/",
+      "html_require": [
+        "md:text-2xl font-black tracking-tight whitespace-nowrap flex items-center gap-2 text-white"
+      ],
+      "html_forbid": [
+        "md:text-4xl font-black tracking-tight whitespace-nowrap flex items-center gap-2 text-white"
+      ]
+    }
+  ]
+}

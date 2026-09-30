@@ -31,7 +31,6 @@
     "/service-areas/buttonwillow-ca/",
     "/service-areas/delano-ca/",
     "/service-areas/dustin-acres-ca/",
-    "/service-areas/east-niles-ca/",
     "/service-areas/keene-ca/",
     "/service-areas/lamont-ca/",
     "/service-areas/mcfarland-ca/",
@@ -77,7 +76,6 @@
     "/service-areas/buttonwillow-ca/",
     "/service-areas/delano-ca/",
     "/service-areas/dustin-acres-ca/",
-    "/service-areas/east-niles-ca/",
     "/service-areas/keene-ca/",
     "/service-areas/lamont-ca/",
     "/service-areas/mcfarland-ca/",
@@ -124,13 +122,13 @@
     "/service-areas/buttonwillow-ca/emergency-plumbing/",
     "/service-areas/delano-ca/emergency-plumbing/",
     "/service-areas/dustin-acres-ca/emergency-plumbing/",
-    "/service-areas/east-niles-ca/emergency-plumbing/",
     "/service-areas/keene-ca/emergency-plumbing/",
     "/service-areas/lamont-ca/emergency-plumbing/",
     "/service-areas/mcfarland-ca/emergency-plumbing/",
     "/service-areas/oildale-ca/emergency-plumbing/",
     "/service-areas/rosedale-ca/emergency-plumbing/",
     "/service-areas/shafter-ca/emergency-plumbing/",
+    "/service-areas/stallion-springs-ca/emergency-plumbing/",
     "/blog/what-to-do-burst-pipe/"
   ],
   "/services/burst-pipe-repair/": [
@@ -141,13 +139,13 @@
     "/service-areas/buttonwillow-ca/burst-pipe-repair/",
     "/service-areas/delano-ca/burst-pipe-repair/",
     "/service-areas/dustin-acres-ca/burst-pipe-repair/",
-    "/service-areas/east-niles-ca/burst-pipe-repair/",
     "/service-areas/keene-ca/burst-pipe-repair/",
     "/service-areas/lamont-ca/burst-pipe-repair/",
     "/service-areas/mcfarland-ca/burst-pipe-repair/",
     "/service-areas/oildale-ca/burst-pipe-repair/",
     "/service-areas/rosedale-ca/burst-pipe-repair/",
     "/service-areas/shafter-ca/burst-pipe-repair/",
+    "/service-areas/stallion-springs-ca/burst-pipe-repair/",
     "/blog/what-to-do-burst-pipe/"
   ],
   "/services/drain-cleaning/": [
@@ -158,13 +156,13 @@
     "/service-areas/buttonwillow-ca/drain-cleaning/",
     "/service-areas/delano-ca/drain-cleaning/",
     "/service-areas/dustin-acres-ca/drain-cleaning/",
-    "/service-areas/east-niles-ca/drain-cleaning/",
     "/service-areas/keene-ca/drain-cleaning/",
     "/service-areas/lamont-ca/drain-cleaning/",
     "/service-areas/mcfarland-ca/drain-cleaning/",
     "/service-areas/oildale-ca/drain-cleaning/",
     "/service-areas/rosedale-ca/drain-cleaning/",
     "/service-areas/shafter-ca/drain-cleaning/",
+    "/service-areas/stallion-springs-ca/drain-cleaning/",
     "/blog/drain-cleaning-diy-vs-pro/",
     "/blog/hydro-jetting-vs-snaking/"
   ],
@@ -176,13 +174,13 @@
     "/service-areas/buttonwillow-ca/sewer-line-repair/",
     "/service-areas/delano-ca/sewer-line-repair/",
     "/service-areas/dustin-acres-ca/sewer-line-repair/",
-    "/service-areas/east-niles-ca/sewer-line-repair/",
     "/service-areas/keene-ca/sewer-line-repair/",
     "/service-areas/lamont-ca/sewer-line-repair/",
     "/service-areas/mcfarland-ca/sewer-line-repair/",
     "/service-areas/oildale-ca/sewer-line-repair/",
     "/service-areas/rosedale-ca/sewer-line-repair/",
     "/service-areas/shafter-ca/sewer-line-repair/",
+    "/service-areas/stallion-springs-ca/sewer-line-repair/",
     "/blog/hydro-jetting-vs-snaking/",
     "/blog/trenchless-sewer-repair-explained/"
   ],
@@ -194,13 +192,13 @@
     "/service-areas/buttonwillow-ca/water-heater-repair/",
     "/service-areas/delano-ca/water-heater-repair/",
     "/service-areas/dustin-acres-ca/water-heater-repair/",
-    "/service-areas/east-niles-ca/water-heater-repair/",
     "/service-areas/keene-ca/water-heater-repair/",
     "/service-areas/lamont-ca/water-heater-repair/",
     "/service-areas/mcfarland-ca/water-heater-repair/",
     "/service-areas/oildale-ca/water-heater-repair/",
     "/service-areas/rosedale-ca/water-heater-repair/",
     "/service-areas/shafter-ca/water-heater-repair/",
+    "/service-areas/stallion-springs-ca/water-heater-repair/",
     "/blog/water-heater-lifespan-repair-or-replace/"
   ],
   "/services/water-heater-installation/": [
@@ -211,13 +209,13 @@
     "/service-areas/buttonwillow-ca/water-heater-installation/",
     "/service-areas/delano-ca/water-heater-installation/",
     "/service-areas/dustin-acres-ca/water-heater-installation/",
-    "/service-areas/east-niles-ca/water-heater-installation/",
     "/service-areas/keene-ca/water-heater-installation/",
     "/service-areas/lamont-ca/water-heater-installation/",
     "/service-areas/mcfarland-ca/water-heater-installation/",
     "/service-areas/oildale-ca/water-heater-installation/",
     "/service-areas/rosedale-ca/water-heater-installation/",
     "/service-areas/shafter-ca/water-heater-installation/",
+    "/service-areas/stallion-springs-ca/water-heater-installation/",
     "/blog/tankless-vs-tank-water-heater/",
     "/blog/water-heater-lifespan-repair-or-replace/"
   ],
@@ -229,13 +227,13 @@
     "/service-areas/buttonwillow-ca/leak-detection/",
     "/service-areas/delano-ca/leak-detection/",
     "/service-areas/dustin-acres-ca/leak-detection/",
-    "/service-areas/east-niles-ca/leak-detection/",
     "/service-areas/keene-ca/leak-detection/",
     "/service-areas/lamont-ca/leak-detection/",
     "/service-areas/mcfarland-ca/leak-detection/",
     "/service-areas/oildale-ca/leak-detection/",
     "/service-areas/rosedale-ca/leak-detection/",
     "/service-areas/shafter-ca/leak-detection/",
+    "/service-areas/stallion-springs-ca/leak-detection/",
     "/blog/low-water-pressure-causes/",
     "/blog/signs-of-a-slab-leak/"
   ],
@@ -247,13 +245,13 @@
     "/service-areas/buttonwillow-ca/slab-leak-repair/",
     "/service-areas/delano-ca/slab-leak-repair/",
     "/service-areas/dustin-acres-ca/slab-leak-repair/",
-    "/service-areas/east-niles-ca/slab-leak-repair/",
     "/service-areas/keene-ca/slab-leak-repair/",
     "/service-areas/lamont-ca/slab-leak-repair/",
     "/service-areas/mcfarland-ca/slab-leak-repair/",
     "/service-areas/oildale-ca/slab-leak-repair/",
     "/service-areas/rosedale-ca/slab-leak-repair/",
     "/service-areas/shafter-ca/slab-leak-repair/",
+    "/service-areas/stallion-springs-ca/slab-leak-repair/",
     "/blog/signs-of-a-slab-leak/"
   ],
   "/services/repiping/": [
@@ -264,13 +262,13 @@
     "/service-areas/buttonwillow-ca/repiping/",
     "/service-areas/delano-ca/repiping/",
     "/service-areas/dustin-acres-ca/repiping/",
-    "/service-areas/east-niles-ca/repiping/",
     "/service-areas/keene-ca/repiping/",
     "/service-areas/lamont-ca/repiping/",
     "/service-areas/mcfarland-ca/repiping/",
     "/service-areas/oildale-ca/repiping/",
     "/service-areas/rosedale-ca/repiping/",
     "/service-areas/shafter-ca/repiping/",
+    "/service-areas/stallion-springs-ca/repiping/",
     "/blog/low-water-pressure-causes/"
   ],
   "/services/gas-line-services/": [
@@ -281,13 +279,13 @@
     "/service-areas/buttonwillow-ca/gas-line-services/",
     "/service-areas/delano-ca/gas-line-services/",
     "/service-areas/dustin-acres-ca/gas-line-services/",
-    "/service-areas/east-niles-ca/gas-line-services/",
     "/service-areas/keene-ca/gas-line-services/",
     "/service-areas/lamont-ca/gas-line-services/",
     "/service-areas/mcfarland-ca/gas-line-services/",
     "/service-areas/oildale-ca/gas-line-services/",
     "/service-areas/rosedale-ca/gas-line-services/",
     "/service-areas/shafter-ca/gas-line-services/",
+    "/service-areas/stallion-springs-ca/gas-line-services/",
     "/blog/gas-leak-what-to-do/"
   ],
   "/services/sump-pumps/": [
@@ -298,13 +296,13 @@
     "/service-areas/buttonwillow-ca/sump-pumps/",
     "/service-areas/delano-ca/sump-pumps/",
     "/service-areas/dustin-acres-ca/sump-pumps/",
-    "/service-areas/east-niles-ca/sump-pumps/",
     "/service-areas/keene-ca/sump-pumps/",
     "/service-areas/lamont-ca/sump-pumps/",
     "/service-areas/mcfarland-ca/sump-pumps/",
     "/service-areas/oildale-ca/sump-pumps/",
     "/service-areas/rosedale-ca/sump-pumps/",
-    "/service-areas/shafter-ca/sump-pumps/"
+    "/service-areas/shafter-ca/sump-pumps/",
+    "/service-areas/stallion-springs-ca/sump-pumps/"
   ],
   "/services/water-softeners-filtration/": [
     "/services/",
@@ -314,13 +312,13 @@
     "/service-areas/buttonwillow-ca/water-softeners-filtration/",
     "/service-areas/delano-ca/water-softeners-filtration/",
     "/service-areas/dustin-acres-ca/water-softeners-filtration/",
-    "/service-areas/east-niles-ca/water-softeners-filtration/",
     "/service-areas/keene-ca/water-softeners-filtration/",
     "/service-areas/lamont-ca/water-softeners-filtration/",
     "/service-areas/mcfarland-ca/water-softeners-filtration/",
     "/service-areas/oildale-ca/water-softeners-filtration/",
     "/service-areas/rosedale-ca/water-softeners-filtration/",
-    "/service-areas/shafter-ca/water-softeners-filtration/"
+    "/service-areas/shafter-ca/water-softeners-filtration/",
+    "/service-areas/stallion-springs-ca/water-softeners-filtration/"
   ],
   "/services/toilet-faucet-repair/": [
     "/services/",
@@ -330,13 +328,13 @@
     "/service-areas/buttonwillow-ca/toilet-faucet-repair/",
     "/service-areas/delano-ca/toilet-faucet-repair/",
     "/service-areas/dustin-acres-ca/toilet-faucet-repair/",
-    "/service-areas/east-niles-ca/toilet-faucet-repair/",
     "/service-areas/keene-ca/toilet-faucet-repair/",
     "/service-areas/lamont-ca/toilet-faucet-repair/",
     "/service-areas/mcfarland-ca/toilet-faucet-repair/",
     "/service-areas/oildale-ca/toilet-faucet-repair/",
     "/service-areas/rosedale-ca/toilet-faucet-repair/",
-    "/service-areas/shafter-ca/toilet-faucet-repair/"
+    "/service-areas/shafter-ca/toilet-faucet-repair/",
+    "/service-areas/stallion-springs-ca/toilet-faucet-repair/"
   ],
   "/services/garbage-disposal/": [
     "/services/",
@@ -346,13 +344,13 @@
     "/service-areas/buttonwillow-ca/garbage-disposal/",
     "/service-areas/delano-ca/garbage-disposal/",
     "/service-areas/dustin-acres-ca/garbage-disposal/",
-    "/service-areas/east-niles-ca/garbage-disposal/",
     "/service-areas/keene-ca/garbage-disposal/",
     "/service-areas/lamont-ca/garbage-disposal/",
     "/service-areas/mcfarland-ca/garbage-disposal/",
     "/service-areas/oildale-ca/garbage-disposal/",
     "/service-areas/rosedale-ca/garbage-disposal/",
-    "/service-areas/shafter-ca/garbage-disposal/"
+    "/service-areas/shafter-ca/garbage-disposal/",
+    "/service-areas/stallion-springs-ca/garbage-disposal/"
   ],
   "/services/furnace-repair/": [
     "/services/",
@@ -362,13 +360,13 @@
     "/service-areas/buttonwillow-ca/furnace-repair/",
     "/service-areas/delano-ca/furnace-repair/",
     "/service-areas/dustin-acres-ca/furnace-repair/",
-    "/service-areas/east-niles-ca/furnace-repair/",
     "/service-areas/keene-ca/furnace-repair/",
     "/service-areas/lamont-ca/furnace-repair/",
     "/service-areas/mcfarland-ca/furnace-repair/",
     "/service-areas/oildale-ca/furnace-repair/",
     "/service-areas/rosedale-ca/furnace-repair/",
     "/service-areas/shafter-ca/furnace-repair/",
+    "/service-areas/stallion-springs-ca/furnace-repair/",
     "/blog/furnace-repair-or-replace/"
   ],
   "/services/furnace-installation/": [
@@ -379,13 +377,13 @@
     "/service-areas/buttonwillow-ca/furnace-installation/",
     "/service-areas/delano-ca/furnace-installation/",
     "/service-areas/dustin-acres-ca/furnace-installation/",
-    "/service-areas/east-niles-ca/furnace-installation/",
     "/service-areas/keene-ca/furnace-installation/",
     "/service-areas/lamont-ca/furnace-installation/",
     "/service-areas/mcfarland-ca/furnace-installation/",
     "/service-areas/oildale-ca/furnace-installation/",
     "/service-areas/rosedale-ca/furnace-installation/",
     "/service-areas/shafter-ca/furnace-installation/",
+    "/service-areas/stallion-springs-ca/furnace-installation/",
     "/blog/furnace-repair-or-replace/",
     "/blog/heat-pump-vs-furnace/"
   ],
@@ -397,13 +395,13 @@
     "/service-areas/buttonwillow-ca/heat-pump-services/",
     "/service-areas/delano-ca/heat-pump-services/",
     "/service-areas/dustin-acres-ca/heat-pump-services/",
-    "/service-areas/east-niles-ca/heat-pump-services/",
     "/service-areas/keene-ca/heat-pump-services/",
     "/service-areas/lamont-ca/heat-pump-services/",
     "/service-areas/mcfarland-ca/heat-pump-services/",
     "/service-areas/oildale-ca/heat-pump-services/",
     "/service-areas/rosedale-ca/heat-pump-services/",
     "/service-areas/shafter-ca/heat-pump-services/",
+    "/service-areas/stallion-springs-ca/heat-pump-services/",
     "/blog/heat-pump-vs-furnace/"
   ],
   "/services/ac-repair/": [
@@ -414,13 +412,13 @@
     "/service-areas/buttonwillow-ca/ac-repair/",
     "/service-areas/delano-ca/ac-repair/",
     "/service-areas/dustin-acres-ca/ac-repair/",
-    "/service-areas/east-niles-ca/ac-repair/",
     "/service-areas/keene-ca/ac-repair/",
     "/service-areas/lamont-ca/ac-repair/",
     "/service-areas/mcfarland-ca/ac-repair/",
     "/service-areas/oildale-ca/ac-repair/",
     "/service-areas/rosedale-ca/ac-repair/",
-    "/service-areas/shafter-ca/ac-repair/"
+    "/service-areas/shafter-ca/ac-repair/",
+    "/service-areas/stallion-springs-ca/ac-repair/"
   ],
   "/services/ac-installation/": [
     "/services/",
@@ -430,13 +428,13 @@
     "/service-areas/buttonwillow-ca/ac-installation/",
     "/service-areas/delano-ca/ac-installation/",
     "/service-areas/dustin-acres-ca/ac-installation/",
-    "/service-areas/east-niles-ca/ac-installation/",
     "/service-areas/keene-ca/ac-installation/",
     "/service-areas/lamont-ca/ac-installation/",
     "/service-areas/mcfarland-ca/ac-installation/",
     "/service-areas/oildale-ca/ac-installation/",
     "/service-areas/rosedale-ca/ac-installation/",
     "/service-areas/shafter-ca/ac-installation/",
+    "/service-areas/stallion-springs-ca/ac-installation/",
     "/blog/how-much-does-a-new-ac-cost/"
   ],
   "/services/ductless-mini-splits/": [
@@ -447,13 +445,13 @@
     "/service-areas/buttonwillow-ca/ductless-mini-splits/",
     "/service-areas/delano-ca/ductless-mini-splits/",
     "/service-areas/dustin-acres-ca/ductless-mini-splits/",
-    "/service-areas/east-niles-ca/ductless-mini-splits/",
     "/service-areas/keene-ca/ductless-mini-splits/",
     "/service-areas/lamont-ca/ductless-mini-splits/",
     "/service-areas/mcfarland-ca/ductless-mini-splits/",
     "/service-areas/oildale-ca/ductless-mini-splits/",
     "/service-areas/rosedale-ca/ductless-mini-splits/",
-    "/service-areas/shafter-ca/ductless-mini-splits/"
+    "/service-areas/shafter-ca/ductless-mini-splits/",
+    "/service-areas/stallion-springs-ca/ductless-mini-splits/"
   ],
   "/services/ductwork/": [
     "/services/",
@@ -463,13 +461,13 @@
     "/service-areas/buttonwillow-ca/ductwork/",
     "/service-areas/delano-ca/ductwork/",
     "/service-areas/dustin-acres-ca/ductwork/",
-    "/service-areas/east-niles-ca/ductwork/",
     "/service-areas/keene-ca/ductwork/",
     "/service-areas/lamont-ca/ductwork/",
     "/service-areas/mcfarland-ca/ductwork/",
     "/service-areas/oildale-ca/ductwork/",
     "/service-areas/rosedale-ca/ductwork/",
-    "/service-areas/shafter-ca/ductwork/"
+    "/service-areas/shafter-ca/ductwork/",
+    "/service-areas/stallion-springs-ca/ductwork/"
   ],
   "/services/indoor-air-quality/": [
     "/services/",
@@ -479,13 +477,13 @@
     "/service-areas/buttonwillow-ca/indoor-air-quality/",
     "/service-areas/delano-ca/indoor-air-quality/",
     "/service-areas/dustin-acres-ca/indoor-air-quality/",
-    "/service-areas/east-niles-ca/indoor-air-quality/",
     "/service-areas/keene-ca/indoor-air-quality/",
     "/service-areas/lamont-ca/indoor-air-quality/",
     "/service-areas/mcfarland-ca/indoor-air-quality/",
     "/service-areas/oildale-ca/indoor-air-quality/",
     "/service-areas/rosedale-ca/indoor-air-quality/",
-    "/service-areas/shafter-ca/indoor-air-quality/"
+    "/service-areas/shafter-ca/indoor-air-quality/",
+    "/service-areas/stallion-springs-ca/indoor-air-quality/"
   ],
   "/service-areas/oildale-ca/": [
     "/service-areas/",
@@ -976,35 +974,6 @@
     "/service-areas/stallion-springs-ca/sump-pumps/",
     "/service-areas/stallion-springs-ca/water-softeners-filtration/",
     "/service-areas/stallion-springs-ca/garbage-disposal/",
-    "/service-areas/arvin-ca/",
-    "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/buttonwillow-ca/"
-  ],
-  "/service-areas/east-niles-ca/": [
-    "/service-areas/",
-    "/contact/",
-    "/service-areas/east-niles-ca/ac-repair/",
-    "/service-areas/east-niles-ca/drain-cleaning/",
-    "/service-areas/east-niles-ca/emergency-plumbing/",
-    "/service-areas/east-niles-ca/water-heater-repair/",
-    "/service-areas/east-niles-ca/ac-installation/",
-    "/service-areas/east-niles-ca/burst-pipe-repair/",
-    "/service-areas/east-niles-ca/furnace-repair/",
-    "/service-areas/east-niles-ca/sewer-line-repair/",
-    "/service-areas/east-niles-ca/water-heater-installation/",
-    "/service-areas/east-niles-ca/furnace-installation/",
-    "/service-areas/east-niles-ca/gas-line-services/",
-    "/service-areas/east-niles-ca/ductless-mini-splits/",
-    "/service-areas/east-niles-ca/heat-pump-services/",
-    "/service-areas/east-niles-ca/leak-detection/",
-    "/service-areas/east-niles-ca/repiping/",
-    "/service-areas/east-niles-ca/slab-leak-repair/",
-    "/service-areas/east-niles-ca/toilet-faucet-repair/",
-    "/service-areas/east-niles-ca/ductwork/",
-    "/service-areas/east-niles-ca/indoor-air-quality/",
-    "/service-areas/east-niles-ca/sump-pumps/",
-    "/service-areas/east-niles-ca/water-softeners-filtration/",
-    "/service-areas/east-niles-ca/garbage-disposal/",
     "/service-areas/arvin-ca/",
     "/service-areas/bear-valley-springs-ca/",
     "/service-areas/buttonwillow-ca/"
@@ -4371,204 +4340,6 @@
     "/service-areas/stallion-springs-ca/",
     "/service-areas/stallion-springs-ca/ac-repair/",
     "/service-areas/stallion-springs-ca/drain-cleaning/",
-    "/service-areas/arvin-ca/indoor-air-quality/",
-    "/service-areas/bear-valley-springs-ca/indoor-air-quality/",
-    "/contact/"
-  ],
-  "/service-areas/east-niles-ca/emergency-plumbing/": [
-    "/services/emergency-plumbing/",
-    "/service-areas/east-niles-ca/",
-    "/service-areas/east-niles-ca/ac-repair/",
-    "/service-areas/east-niles-ca/drain-cleaning/",
-    "/service-areas/arvin-ca/emergency-plumbing/",
-    "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/east-niles-ca/burst-pipe-repair/": [
-    "/services/burst-pipe-repair/",
-    "/service-areas/east-niles-ca/",
-    "/service-areas/east-niles-ca/ac-repair/",
-    "/service-areas/east-niles-ca/drain-cleaning/",
-    "/service-areas/arvin-ca/burst-pipe-repair/",
-    "/service-areas/bear-valley-springs-ca/burst-pipe-repair/",
-    "/contact/"
-  ],
-  "/service-areas/east-niles-ca/drain-cleaning/": [
-    "/services/drain-cleaning/",
-    "/service-areas/east-niles-ca/",
-    "/service-areas/east-niles-ca/ac-repair/",
-    "/service-areas/east-niles-ca/emergency-plumbing/",
-    "/service-areas/arvin-ca/drain-cleaning/",
-    "/service-areas/bear-valley-springs-ca/drain-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/east-niles-ca/sewer-line-repair/": [
-    "/services/sewer-line-repair/",
-    "/service-areas/east-niles-ca/",
-    "/service-areas/east-niles-ca/ac-repair/",
-    "/service-areas/east-niles-ca/drain-cleaning/",
-    "/service-areas/arvin-ca/sewer-line-repair/",
-    "/service-areas/bear-valley-springs-ca/sewer-line-repair/",
-    "/contact/"
-  ],
-  "/service-areas/east-niles-ca/water-heater-repair/": [
-    "/services/water-heater-repair/",
-    "/service-areas/east-niles-ca/",
-    "/service-areas/east-niles-ca/ac-repair/",
-    "/service-areas/east-niles-ca/drain-cleaning/",
-    "/service-areas/arvin-ca/water-heater-repair/",
-    "/service-areas/bear-valley-springs-ca/water-heater-repair/",
-    "/contact/"
-  ],
-  "/service-areas/east-niles-ca/water-heater-installation/": [
-    "/services/water-heater-installation/",
-    "/service-areas/east-niles-ca/",
-    "/service-areas/east-niles-ca/ac-repair/",
-    "/service-areas/east-niles-ca/drain-cleaning/",
-    "/service-areas/arvin-ca/water-heater-installation/",
-    "/service-areas/bear-valley-springs-ca/water-heater-installation/",
-    "/contact/"
-  ],
-  "/service-areas/east-niles-ca/leak-detection/": [
-    "/services/leak-detection/",
-    "/service-areas/east-niles-ca/",
-    "/service-areas/east-niles-ca/ac-repair/",
-    "/service-areas/east-niles-ca/drain-cleaning/",
-    "/service-areas/arvin-ca/leak-detection/",
-    "/service-areas/bear-valley-springs-ca/leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/east-niles-ca/slab-leak-repair/": [
-    "/services/slab-leak-repair/",
-    "/service-areas/east-niles-ca/",
-    "/service-areas/east-niles-ca/ac-repair/",
-    "/service-areas/east-niles-ca/drain-cleaning/",
-    "/service-areas/arvin-ca/slab-leak-repair/",
-    "/service-areas/bear-valley-springs-ca/slab-leak-repair/",
-    "/contact/"
-  ],
-  "/service-areas/east-niles-ca/repiping/": [
-    "/services/repiping/",
-    "/service-areas/east-niles-ca/",
-    "/service-areas/east-niles-ca/ac-repair/",
-    "/service-areas/east-niles-ca/drain-cleaning/",
-    "/service-areas/arvin-ca/repiping/",
-    "/service-areas/bear-valley-springs-ca/repiping/",
-    "/contact/"
-  ],
-  "/service-areas/east-niles-ca/gas-line-services/": [
-    "/services/gas-line-services/",
-    "/service-areas/east-niles-ca/",
-    "/service-areas/east-niles-ca/ac-repair/",
-    "/service-areas/east-niles-ca/drain-cleaning/",
-    "/service-areas/arvin-ca/gas-line-services/",
-    "/service-areas/bear-valley-springs-ca/gas-line-services/",
-    "/contact/"
-  ],
-  "/service-areas/east-niles-ca/sump-pumps/": [
-    "/services/sump-pumps/",
-    "/service-areas/east-niles-ca/",
-    "/service-areas/east-niles-ca/ac-repair/",
-    "/service-areas/east-niles-ca/drain-cleaning/",
-    "/service-areas/arvin-ca/sump-pumps/",
-    "/service-areas/bear-valley-springs-ca/sump-pumps/",
-    "/contact/"
-  ],
-  "/service-areas/east-niles-ca/water-softeners-filtration/": [
-    "/services/water-softeners-filtration/",
-    "/service-areas/east-niles-ca/",
-    "/service-areas/east-niles-ca/ac-repair/",
-    "/service-areas/east-niles-ca/drain-cleaning/",
-    "/service-areas/arvin-ca/water-softeners-filtration/",
-    "/service-areas/bear-valley-springs-ca/water-softeners-filtration/",
-    "/contact/"
-  ],
-  "/service-areas/east-niles-ca/toilet-faucet-repair/": [
-    "/services/toilet-faucet-repair/",
-    "/service-areas/east-niles-ca/",
-    "/service-areas/east-niles-ca/ac-repair/",
-    "/service-areas/east-niles-ca/drain-cleaning/",
-    "/service-areas/arvin-ca/toilet-faucet-repair/",
-    "/service-areas/bear-valley-springs-ca/toilet-faucet-repair/",
-    "/contact/"
-  ],
-  "/service-areas/east-niles-ca/garbage-disposal/": [
-    "/services/garbage-disposal/",
-    "/service-areas/east-niles-ca/",
-    "/service-areas/east-niles-ca/ac-repair/",
-    "/service-areas/east-niles-ca/drain-cleaning/",
-    "/service-areas/arvin-ca/garbage-disposal/",
-    "/service-areas/bear-valley-springs-ca/garbage-disposal/",
-    "/contact/"
-  ],
-  "/service-areas/east-niles-ca/furnace-repair/": [
-    "/services/furnace-repair/",
-    "/service-areas/east-niles-ca/",
-    "/service-areas/east-niles-ca/ac-repair/",
-    "/service-areas/east-niles-ca/drain-cleaning/",
-    "/service-areas/arvin-ca/furnace-repair/",
-    "/service-areas/bear-valley-springs-ca/furnace-repair/",
-    "/contact/"
-  ],
-  "/service-areas/east-niles-ca/furnace-installation/": [
-    "/services/furnace-installation/",
-    "/service-areas/east-niles-ca/",
-    "/service-areas/east-niles-ca/ac-repair/",
-    "/service-areas/east-niles-ca/drain-cleaning/",
-    "/service-areas/arvin-ca/furnace-installation/",
-    "/service-areas/bear-valley-springs-ca/furnace-installation/",
-    "/contact/"
-  ],
-  "/service-areas/east-niles-ca/heat-pump-services/": [
-    "/services/heat-pump-services/",
-    "/service-areas/east-niles-ca/",
-    "/service-areas/east-niles-ca/ac-repair/",
-    "/service-areas/east-niles-ca/drain-cleaning/",
-    "/service-areas/arvin-ca/heat-pump-services/",
-    "/service-areas/bear-valley-springs-ca/heat-pump-services/",
-    "/contact/"
-  ],
-  "/service-areas/east-niles-ca/ac-repair/": [
-    "/services/ac-repair/",
-    "/service-areas/east-niles-ca/",
-    "/service-areas/east-niles-ca/drain-cleaning/",
-    "/service-areas/east-niles-ca/emergency-plumbing/",
-    "/service-areas/arvin-ca/ac-repair/",
-    "/service-areas/bear-valley-springs-ca/ac-repair/",
-    "/contact/"
-  ],
-  "/service-areas/east-niles-ca/ac-installation/": [
-    "/services/ac-installation/",
-    "/service-areas/east-niles-ca/",
-    "/service-areas/east-niles-ca/ac-repair/",
-    "/service-areas/east-niles-ca/drain-cleaning/",
-    "/service-areas/arvin-ca/ac-installation/",
-    "/service-areas/bear-valley-springs-ca/ac-installation/",
-    "/contact/"
-  ],
-  "/service-areas/east-niles-ca/ductless-mini-splits/": [
-    "/services/ductless-mini-splits/",
-    "/service-areas/east-niles-ca/",
-    "/service-areas/east-niles-ca/ac-repair/",
-    "/service-areas/east-niles-ca/drain-cleaning/",
-    "/service-areas/arvin-ca/ductless-mini-splits/",
-    "/service-areas/bear-valley-springs-ca/ductless-mini-splits/",
-    "/contact/"
-  ],
-  "/service-areas/east-niles-ca/ductwork/": [
-    "/services/ductwork/",
-    "/service-areas/east-niles-ca/",
-    "/service-areas/east-niles-ca/ac-repair/",
-    "/service-areas/east-niles-ca/drain-cleaning/",
-    "/service-areas/arvin-ca/ductwork/",
-    "/service-areas/bear-valley-springs-ca/ductwork/",
-    "/contact/"
-  ],
-  "/service-areas/east-niles-ca/indoor-air-quality/": [
-    "/services/indoor-air-quality/",
-    "/service-areas/east-niles-ca/",
-    "/service-areas/east-niles-ca/ac-repair/",
-    "/service-areas/east-niles-ca/drain-cleaning/",
     "/service-areas/arvin-ca/indoor-air-quality/",
     "/service-areas/bear-valley-springs-ca/indoor-air-quality/",
     "/contact/"

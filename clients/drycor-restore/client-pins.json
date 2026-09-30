@@ -1,0 +1,21 @@
+{
+  "_about": "Client-requested states verified LIVE on 2026-09-30. scripts/site_regression_watch.py checks every pin nightly and after every deploy lane; a broken pin files a 'client request reverted' card. Retire a pin only when the client asks for something different.",
+  "pins": [
+    {
+      "id": "no-review-count-home",
+      "request": "Robert 09-28: hide the review count, keep the 5.0 rating and stars",
+      "url": "/",
+      "forbid_re": [
+        "\\b\\d+\\s+(google\\s+)?reviews\\b"
+      ]
+    },
+    {
+      "id": "no-review-count-reviews",
+      "request": "Robert 09-28: hide the review count",
+      "url": "/reviews/",
+      "forbid_re": [
+        "\\b\\d+\\s+(google\\s+)?reviews\\b"
+      ]
+    }
+  ]
+}

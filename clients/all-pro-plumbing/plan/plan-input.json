@@ -269,11 +269,6 @@
       "city": "Stallion Springs",
       "state": "CA",
       "slug": "stallion-springs-ca"
-    },
-    {
-      "city": "East Niles",
-      "state": "CA",
-      "slug": "east-niles-ca"
     }
   ],
   "brand": {
@@ -301,5 +296,31 @@
   },
   "cross_product": true,
   "keyword_strategy": "conservative",
-  "blog_seed_count": 12
+  "blog_seed_count": 12,
+  "client_removed_areas": [
+    {
+      "city": "East Niles",
+      "state": "CA",
+      "slug": "east-niles-ca",
+      "removed_at": "2026-09-29",
+      "requested_by": "Angie",
+      "why": "a Bakersfield neighborhood, not a separate area (client asked to remove it)"
+    },
+    {
+      "city": "Woody",
+      "state": "CA",
+      "slug": "woody-ca",
+      "removed_at": "2026-09-29",
+      "requested_by": "Angie",
+      "why": "client asked to remove it"
+    },
+    {
+      "city": "Tarina",
+      "state": "CA",
+      "slug": "tarina-ca",
+      "removed_at": "2026-09-29",
+      "requested_by": "Angie",
+      "why": "client asked to remove it (misspelled city built as tarina-ca)"
+    }
+  ]
 }

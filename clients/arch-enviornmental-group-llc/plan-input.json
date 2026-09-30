@@ -148,13 +148,18 @@
       "city": "Squaw Valley",
       "state": "CA",
       "slug": "squaw-valley-ca"
-    },
-    {
-      "city": "Centerville",
-      "state": "CA",
-      "slug": "centerville-ca"
     }
   ],
   "template": "environmental",
-  "blog_seed_count": 8
+  "blog_seed_count": 8,
+  "client_removed_areas": [
+    {
+      "city": "Centerville",
+      "state": "CA",
+      "slug": "centerville-ca",
+      "removed_at": "2026-09-29",
+      "requested_by": "Mike",
+      "why": "client asked to replace Centerville with Visalia (their home base)"
+    }
+  ]
 }

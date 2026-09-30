@@ -32,17 +32,45 @@ Each run diffs against the baseline:
 Accepting a deliberate change: resolve the card in the app (the next run
 adopts the current page as the baseline) or run --accept SLUG.
 
+CLIENT PINS (Santino 2026-09-30: client-requested changes must be
+"implemented ... and maintained"). The fingerprint above only knows what the
+site looked like yesterday; it cannot know that Angie asked for East Niles to
+go or that Kenny's About text is his exact words. clients/{slug}/client-pins.json
+records each VERIFIED client-requested state as an absolute assertion:
+
+  {"pins": [{"id": "east-niles-removed",
+             "request": "Angie 09-29: take East Niles off the service areas",
+             "url": "/service-areas/",
+             "forbid": ["East Niles"],          # visible text must NOT contain
+             "forbid_re": ["\\d+ Google reviews"], # visible-text regexes that must not match
+             "require": ["Bakersfield"],        # visible text MUST contain
+             "order": ["Bakersfield", "Arvin"], # first occurrences in this order
+             "html_require": ["h-32 md:h-40"],  # raw-HTML regexes that must match
+             "html_forbid": [...],              # raw-HTML regexes that must not
+             "status": 301,                     # exact HTTP status (no redirect follow)
+             "location": "/service-areas/",     # Location header must contain
+             "sha256": "..."}]}                 # exact bytes (image/asset URLs)
+
+Every pin is checked on every run (nightly + after every deploy lane). A
+broken pin is a REGRESSION like any other (same card, same SMS) and is never
+absorbed into a baseline: resolving the card does not silence it. To retire a
+pin (the client asked for something new), edit or delete it in the file.
+Sites with a pins file are watched even when clients/{slug}.json has no
+cut_over_at (Arch, Veterans, TDI and DryCor serve their own domains without it).
+
 CLI:
   --list              JSON slug list for the workflow matrix
   --slug S            watch one site (the per-client matrix job)
   --all               every site, serially (local convenience)
   --seed              store the current fingerprint as the baseline
   --accept S          adopt the current fingerprint for S, close its card
+  --pins [S]          check client pins only (all pinned sites, or S), no writes
   --dry-run           fingerprint + diff, no writes
 """
 from __future__ import annotations
 
 import argparse
+import hashlib
 import html as htmllib
 import json
 import os
@@ -132,13 +160,106 @@ def targets() -> list[tuple[str, str]]:
         if slug == "company_map" or slug in DEAD_SLUGS:
             continue
         d = _record(slug)
-        if not d.get("domain") or not d.get("cut_over_at"):
+        if not d.get("domain") or not (d.get("cut_over_at") or load_pins(slug)):
             continue
         if not (ROOT / "sites" / slug).exists():
             continue
         if active is not None and slug not in active:
             continue
         out.append((slug, d["domain"].strip().lower()))
+    return out
+
+
+# ---------------------------------------------------------------- client pins
+def load_pins(slug: str) -> list[dict]:
+    p = ROOT / "clients" / slug / "client-pins.json"
+    try:
+        return [x for x in (json.loads(p.read_text()).get("pins") or [])
+                if isinstance(x, dict) and x.get("url")]
+    except (OSError, json.JSONDecodeError, AttributeError):
+        return []
+
+
+_QUOTES = str.maketrans({"‘": "'", "’": "'", "“": '"', "”": '"',
+                         "–": "-", "—": "-", " ": " "})
+
+
+def visible_text(html: str) -> str:
+    """What a visitor reads: tags, scripts, styles and JSON-LD stripped,
+    entities decoded, quotes/dashes/whitespace normalised."""
+    t = re.sub(r"<(script|style|noscript|template)\b.*?</\1>", " ", html, flags=re.S | re.I)
+    t = re.sub(r"<!--.*?-->", " ", t, flags=re.S)
+    t = re.sub(r"<[^>]+>", " ", t)
+    return re.sub(r"\s+", " ", htmllib.unescape(t).translate(_QUOTES)).strip()
+
+
+def _norm(s: str) -> str:
+    return re.sub(r"\s+", " ", s.translate(_QUOTES)).strip()
+
+
+def check_pin(origin: str, pin: dict, cache: dict) -> str | None:
+    """None when the client-requested state holds, else a short failure."""
+    url = urljoin(origin + "/", pin["url"].lstrip("/")) if not pin["url"].startswith("http") else pin["url"]
+    want_status = pin.get("status")
+    key = (url, bool(want_status and want_status != 200))
+    if key not in cache:
+        try:
+            r = requests.get(url, headers={"User-Agent": UA}, timeout=30,
+                             allow_redirects=not key[1])
+            cache[key] = (r.status_code, r.content, r.headers.get("location", ""))
+        except requests.RequestException as e:
+            cache[key] = (0, b"", str(e)[:60])
+    st, raw, loc = cache[key]
+    if st == 0:
+        return None          # unreachable is the homepage check's job, not a pin break
+    if want_status and st != want_status:
+        return f"{pin['url']} HTTP {st} (want {want_status})"
+    if not want_status and st != 200:
+        return f"{pin['url']} HTTP {st}"
+    if pin.get("location") and pin["location"] not in loc:
+        return f"{pin['url']} redirects to '{loc}' (want '{pin['location']}')"
+    if pin.get("sha256"):
+        got = hashlib.sha256(raw).hexdigest()
+        if got != pin["sha256"]:
+            return f"{pin['url']} content changed (sha256 {got[:12]}, want {pin['sha256'][:12]})"
+    html = raw.decode("utf-8", "replace")
+    if any(k in pin for k in ("require", "forbid", "forbid_re", "order")):
+        text = visible_text(html)
+        low = text.lower()
+        miss = [s for s in pin.get("require") or [] if _norm(s).lower() not in low]
+        if miss:
+            return f"{pin['url']} lost required text: " + "; ".join(f"'{m[:70]}'" for m in miss[:3])
+        bad = [s for s in pin.get("forbid") or [] if _norm(s).lower() in low]
+        bad += [m.group(0) for rx in pin.get("forbid_re") or []
+                for m in [re.search(rx, text, re.I)] if m]
+        if bad:
+            return f"{pin['url']} shows forbidden text again: " + "; ".join(f"'{b[:70]}'" for b in bad[:3])
+        order = [_norm(s).lower() for s in pin.get("order") or []]
+        if order:
+            idx = [low.find(s) for s in order]
+            if -1 in idx or idx != sorted(idx):
+                return f"{pin['url']} order broken (want {' < '.join(pin['order'])})"
+    for rx in pin.get("html_require") or []:
+        if not re.search(rx, html, re.I | re.S):
+            return f"{pin['url']} lost markup /{rx[:60]}/"
+    for rx in pin.get("html_forbid") or []:
+        if re.search(rx, html, re.I | re.S):
+            return f"{pin['url']} has forbidden markup /{rx[:60]}/ again"
+    return None
+
+
+def check_pins(slug: str, domain: str) -> list[str]:
+    pins = load_pins(slug)
+    if not pins:
+        return []
+    origin = f"https://{domain}"
+    cache: dict = {}
+    out = []
+    for pin in pins:
+        why = check_pin(origin, pin, cache)
+        if why:
+            out.append(f"client pin '{pin.get('id', '?')}' ({pin.get('request', '')[:90]}) "
+                       f"broken: {why}")
     return out
 
 
@@ -395,12 +516,56 @@ def _reconcile(slug: str, issue: str | None) -> None:
 
 
 # ---------------------------------------------------------------- run
+def _pin_key(slug: str) -> str:
+    from pipeline_watchdog import alert_key
+    return alert_key(f"client request reverted: {slug} — x")
+
+
+def run_pins(slug: str, domain: str, *, dry: bool = False) -> list[str]:
+    """Check clients/{slug}/client-pins.json against the live site. Its own
+    card (separate from the fingerprint card), so accepting a design change
+    never silences a reverted client request."""
+    pins = load_pins(slug)
+    if not pins:
+        return []
+    broken = check_pins(slug, domain)
+    for b in broken:
+        print(f"  {slug}: PIN BROKEN {b}")
+    if not broken:
+        print(f"  {slug}: {len(pins)} client pin(s) hold")
+    if dry:
+        return broken
+    issue = None
+    try:
+        prev = kv_get(f"site-pins/{slug}")
+    except Exception:  # noqa: BLE001
+        prev = {}
+    ok_at = NOW.isoformat() if not broken else (prev.get("ok_at") or "")
+    if broken:
+        since = {"at": (prev.get("ok_at") or NOW.isoformat())[:19]}
+        issue = (f"client request reverted: {slug} — live {domain} no longer shows "
+                 f"{len(broken)} change(s) the client asked for and we told them were done: "
+                 + " | ".join(broken)
+                 + f". {suspect_deploys(slug, since)}. Re-apply it "
+                 f"(the request + URL are in clients/{slug}/client-pins.json) and redeploy; "
+                 "only edit the pin if the client has since asked for something different.")
+    try:
+        kv_put(f"site-pins/{slug}", {"at": NOW.isoformat(), "ok_at": ok_at,
+                                     "pins": len(pins), "broken": broken})
+        from pipeline_watchdog import reconcile_notes, text_santino
+        text_santino(reconcile_notes([issue] if issue else [], scope=_pin_key(slug)))
+    except Exception as e:  # noqa: BLE001 — alerting must not kill the fingerprint run
+        print(f"  {slug}: pin alert not filed ({str(e)[:120]})")
+    return broken
+
+
 def run_slug(slug: str, domain: str, *, seed: bool = False, accept: bool = False,
              dry: bool = False) -> str:
     key = f"site-fingerprint/{slug}"
+    pin_broken = run_pins(slug, domain, dry=dry)
     cur = fingerprint(slug, domain)
     if cur is None:
-        return "unreachable"
+        return "pins-broken" if pin_broken else "unreachable"
     rec = {} if dry and seed else kv_get(key)
     summary = (f"nav={len(cur['nav'])} sections={len(cur['sections'])} "
                f"videos={len(cur['videos'])} logo={'y' if cur['logo'] else 'n'} "
@@ -455,8 +620,19 @@ def main() -> int:
     ap.add_argument("--all", action="store_true")
     ap.add_argument("--seed", action="store_true")
     ap.add_argument("--accept", metavar="SLUG")
+    ap.add_argument("--pins", nargs="?", const="*", metavar="SLUG")
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
+    if a.pins:
+        slugs = ([a.pins] if a.pins != "*" else
+                 sorted(p.parent.name for p in (ROOT / "clients").glob("*/client-pins.json")))
+        bad = 0
+        for s in slugs:
+            dom = (_record(s).get("domain") or "").strip().lower()
+            if dom:
+                bad += len(run_pins(s, dom, dry=True))
+        print(f"client pins: {bad} broken across {len(slugs)} site(s)")
+        return 1 if bad else 0
     tg = targets()
     if a.list:
         print(json.dumps([s for s, _ in tg]))

@@ -1,0 +1,13 @@
+{
+  "_about": "Client-requested states verified LIVE on 2026-09-30. scripts/site_regression_watch.py checks every pin nightly and after every deploy lane; a broken pin files a 'client request reverted' card. Retire a pin only when the client asks for something different.",
+  "pins": [
+    {
+      "id": "water-damage-referral",
+      "request": "Bobby 09-23: the ranked water-damage URL must not 404; it refers to sister company Dry County Restoration",
+      "url": "/services/water-damage-restoration/",
+      "require": [
+        "Dry County Restoration"
+      ]
+    }
+  ]
+}

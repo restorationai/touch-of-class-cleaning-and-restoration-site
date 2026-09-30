@@ -308,6 +308,13 @@ def location_plan(slug: str, cid: str) -> dict | None:
                   for c in target}
     gbp_set = {_city_key(a) for a in gbp_areas}
     site_set = {_city_key(c) for c, _ in site_cities}
+    # CLIENT-REMOVED AREAS (Santino 2026-09-30): a city the client asked us to
+    # take off the site (Angie/All Pro: East Niles, Woody, Tarina; Mike/Arch:
+    # Centerville) is recorded in plan-input client_removed_areas and is never
+    # "missing" — the 09-30 ops sync re-appended East Niles + Centerville from
+    # the GBP list and add-pages rebuilt their 40 stubs a day after we told
+    # both clients they were gone.
+    removed = {_city_key(r.get("city", "")) for r in pi.get("client_removed_areas") or []}
     return {
         "target": target,
         "gbp_areas": gbp_areas,
@@ -315,6 +322,7 @@ def location_plan(slug: str, cid: str) -> dict | None:
         "to_drop": [a for a in gbp_areas if _city_key(a) not in target_set],
         "site_missing": [c for c in target
                          if _city_key(c["city"]) not in site_set
+                         and _city_key(c["city"]) not in removed
                          and not c["city"].endswith(" County")],
     }
 

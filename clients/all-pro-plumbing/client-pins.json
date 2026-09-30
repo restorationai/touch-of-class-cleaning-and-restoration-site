@@ -1,0 +1,75 @@
+{
+  "_about": "Client-requested states verified LIVE on 2026-09-30. scripts/site_regression_watch.py checks every pin nightly and after every deploy lane; a broken pin files a 'client request reverted' card. Retire a pin only when the client asks for something different.",
+  "pins": [
+    {
+      "id": "east-niles-removed",
+      "request": "Angie 09-29: take East Niles off the service areas (a Bakersfield neighborhood)",
+      "url": "/service-areas/",
+      "forbid": [
+        "East Niles"
+      ]
+    },
+    {
+      "id": "east-niles-redirect",
+      "request": "Angie 09-29: East Niles page forwards to the service areas page",
+      "url": "/service-areas/east-niles-ca/",
+      "status": 301,
+      "location": "/service-areas/"
+    },
+    {
+      "id": "woody-tarina-removed",
+      "request": "Angie 09-29: Woody and Tarina removed from the service areas",
+      "url": "/service-areas/",
+      "forbid": [
+        "Woody",
+        "Tarina"
+      ]
+    },
+    {
+      "id": "woody-redirect",
+      "request": "Angie 09-29: Woody page forwards to the service areas page",
+      "url": "/service-areas/woody-ca/",
+      "status": 301,
+      "location": "/service-areas/"
+    },
+    {
+      "id": "tarina-redirect",
+      "request": "Angie 09-29: Tarina page forwards to the service areas page",
+      "url": "/service-areas/tarina-ca/",
+      "status": 301,
+      "location": "/service-areas/"
+    },
+    {
+      "id": "bakersfield-first",
+      "request": "Angie 09-29: Bakersfield is the hometown and must be listed number one",
+      "url": "/service-areas/",
+      "html_require": [
+        "Proudly Serving[^<]*</h2>\\s*<div[^>]*>\\s*<a\\b[^>]*>(?:(?!</a>).){0,1500}?Bakersfield, CA</span>"
+      ]
+    },
+    {
+      "id": "no-removed-areas-home",
+      "request": "Angie 09-29: removed areas stay off the homepage too",
+      "url": "/",
+      "forbid": [
+        "East Niles",
+        "Woody, CA",
+        "Tarina"
+      ]
+    },
+    {
+      "id": "hero-vans-small-logos",
+      "request": "Angie 09-26: smaller logos on the vans, vans clear of the emergency button (hero regenerated 09-17, confirmed to her 09-29)",
+      "url": "/images/hero-bg.webp",
+      "sha256": "24885f1c481d463c5afc393c7d449f585deb43ffe64ddde66b1af6fed7236e78"
+    },
+    {
+      "id": "header-logo-bigger",
+      "request": "Angie 09-26: 'the logo is bigger, which is great' (keep the enlarged header logo)",
+      "url": "/",
+      "html_require": [
+        "<img src=\"/images/logo\\.webp\"[^>]*class=\"h-32 md:h-40"
+      ]
+    }
+  ]
+}

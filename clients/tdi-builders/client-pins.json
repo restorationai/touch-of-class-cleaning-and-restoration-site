@@ -1,0 +1,64 @@
+{
+  "_about": "Client-requested states verified LIVE on 2026-09-30. scripts/site_regression_watch.py checks every pin nightly and after every deploy lane; a broken pin files a 'client request reverted' card. Retire a pin only when the client asks for something different.",
+  "pins": [
+    {
+      "id": "name-tdi-builders",
+      "request": "Robert 09-27: business name is TDI Builders everywhere, not TDI USA",
+      "url": "/",
+      "forbid": [
+        "TDI USA"
+      ],
+      "require": [
+        "TDI Builders"
+      ]
+    },
+    {
+      "id": "name-tdi-builders-contact",
+      "request": "Robert 09-27: TDI Builders, not TDI USA",
+      "url": "/contact/",
+      "forbid": [
+        "TDI USA"
+      ]
+    },
+    {
+      "id": "footer-three-offices",
+      "request": "Robert 09-27: footer shows all three offices with the new suites",
+      "url": "/",
+      "require": [
+        "701 Del Paso Road Suite 200",
+        "1086 Bessemer Ave Suite B",
+        "1015 12th Street"
+      ]
+    },
+    {
+      "id": "footer-office-phones",
+      "request": "Robert 09-27/09-28: plain office phone under each footer address (Sacramento (916) 884-6899)",
+      "url": "/",
+      "require": [
+        "(916) 884-6899",
+        "209-255-6690",
+        "209-843-6831"
+      ],
+      "forbid": [
+        "314-8955"
+      ]
+    },
+    {
+      "id": "modesto-no-dispatch-origin",
+      "request": "Robert 09-27: Modesto pages name no dispatch location",
+      "url": "/service-areas/modesto-ca/",
+      "forbid": [
+        "dispatched from",
+        "Sacramento, CA headquarters"
+      ]
+    },
+    {
+      "id": "home-not-sacramento-only",
+      "request": "Robert 09-22: no 'Sacramento' in the homepage headline/banner (multiple cities)",
+      "url": "/",
+      "html_forbid": [
+        "<h1[^>]*>[^<]*Sacramento[^<]*</h1>"
+      ]
+    }
+  ]
+}

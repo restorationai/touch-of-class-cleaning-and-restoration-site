@@ -1,0 +1,94 @@
+{
+  "_about": "Client-requested states verified LIVE on 2026-09-30. scripts/site_regression_watch.py checks every pin nightly and after every deploy lane; a broken pin files a 'client request reverted' card. Retire a pin only when the client asks for something different.",
+  "pins": [
+    {
+      "id": "no-renovation-home",
+      "request": "Kenny 09-26/09-28: remove renovation, they do demo as part of remediation only",
+      "url": "/",
+      "forbid": [
+        "renovation"
+      ]
+    },
+    {
+      "id": "no-renovation-services",
+      "request": "Kenny 09-26/09-28: remove renovation",
+      "url": "/services/",
+      "forbid": [
+        "renovation"
+      ]
+    },
+    {
+      "id": "no-renovation-about",
+      "request": "Kenny 09-26/09-28: remove renovation",
+      "url": "/about/",
+      "forbid": [
+        "renovation"
+      ]
+    },
+    {
+      "id": "30a-primary",
+      "request": "Kenny 09-26/09-28: Santa Rosa Beach and 30A are the primary service area, Freeport secondary",
+      "url": "/",
+      "require": [
+        "30A & Santa Rosa Beach",
+        "The primary service area is Santa Rosa Beach and the 30A corridor"
+      ]
+    },
+    {
+      "id": "fl-mold-licenses-home",
+      "request": "Kenny 09-28: show his Florida Mold Assessor and Mold Remediator licenses prominently",
+      "url": "/",
+      "require": [
+        "Licensed Mold Assessor",
+        "Licensed Mold Remediator"
+      ]
+    },
+    {
+      "id": "fl-mold-licenses-certs",
+      "request": "Kenny 09-28: Florida Mold Assessor + Mold Remediator licenses",
+      "url": "/certifications/",
+      "require": [
+        "Florida Licensed Mold Assessor & Mold Remediator"
+      ]
+    },
+    {
+      "id": "about-verbatim",
+      "request": "Kenny 09-29: his About Us copy word for word",
+      "url": "/about/",
+      "require": [
+        "Veterans Remediation is built on more than 25 years of experience in occupational safety and health, industrial hygiene, and emergency response.",
+        "He later received a commission in the United States Coast Guard, serving as a Marine Safety Officer, Industrial Hygienist, and Counterterrorism Officer.",
+        "That experience informs the work we do today",
+        "Family is at the heart of who we are. My wife and I have been together for 32 years and married for 29."
+      ]
+    },
+    {
+      "id": "home-read-more",
+      "request": "Kenny 09-28: veteran About teaser on the homepage with a Read more link",
+      "url": "/",
+      "require": [
+        "Read more about us"
+      ]
+    },
+    {
+      "id": "mold-inspection-page",
+      "request": "Kenny 09-28: Mold Inspection & Assessment page (licensed assessor, third-party assessors/labs as best practice)",
+      "url": "/services/mold-inspection-assessment/",
+      "require": [
+        "Licensed Florida Mold Assessor",
+        "third-party assessor"
+      ]
+    },
+    {
+      "id": "tracking-850",
+      "request": "Kenny 09-26/09-29: tracking numbers on 850 (local), not 337",
+      "url": "/",
+      "html_require": [
+        "const tp = \"\\(850\\)"
+      ],
+      "html_forbid": [
+        "const tp = \"\\(337\\)"
+      ]
+    }
+  ]
+}
