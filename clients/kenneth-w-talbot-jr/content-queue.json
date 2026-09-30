@@ -276,7 +276,7 @@
     },
     {
       "id": "2026-09-24-water-damage-restoration-cost",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-24T16:55:00Z",
       "written_at": "2026-09-30T10:28:35Z",
       "post_url": "https://veteransremediation.com/blog/water-damage-restoration-cost/",
@@ -329,7 +329,8 @@
           "context": "Class of drying** (1 through 4, per the IICRC scale) describes how much moisture is i",
           "reason": "names a certification not present in brand.certifications"
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-30T10:30:23Z"
     },
     {
       "id": "2026-09-24-how-to-fix-water-damage-on-ceiling",
