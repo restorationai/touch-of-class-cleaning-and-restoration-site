@@ -332,9 +332,10 @@
       "at": "2026-09-30"
     },
     "Contractor": {
-      "verdict": "held",
-      "page": null,
-      "reason": "not classified yet",
+      "verdict": "mapped",
+      "page": "general-contracting",
+      "reason": "GBP category = general contracting (truth table)",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Crawl Space Mold Removal": {

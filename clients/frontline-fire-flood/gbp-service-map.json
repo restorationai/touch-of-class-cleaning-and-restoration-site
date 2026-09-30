@@ -136,15 +136,10 @@
       "at": "2026-09-30"
     },
     "Basement Waterproofing": {
-      "verdict": "new_page",
+      "verdict": "declined",
       "page": null,
-      "source": "claude",
-      "head_term": "basement waterproofing",
-      "volume": {
-        "metro": 40500,
-        "metro_label": "United States (national)"
-      },
-      "reason": "Prevention service, no existing page covers it",
+      "reason": "waterproofing is a different trade, not in the truth table",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Bathroom Mold Removal": {
@@ -820,15 +815,10 @@
       "at": "2026-09-30"
     },
     "Sump Pump": {
-      "verdict": "new_page",
-      "page": null,
-      "source": "claude",
-      "head_term": "sump pump installation",
-      "volume": {
-        "metro": 18100,
-        "metro_label": "United States (national)"
-      },
-      "reason": "Equipment install/repair, distinct from cleanup pages",
+      "verdict": "mapped",
+      "page": "emergency-plumbing",
+      "reason": "sump pump work rides Plumbing Services (truth table) on the plumbing page",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Toxic Mold Remediation": {

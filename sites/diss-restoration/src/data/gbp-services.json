@@ -1,0 +1,106 @@
+{
+  "air-duct-cleaning": [
+    "Air Duct & HVAC Cleaning"
+  ],
+  "asbestos-abatement": [
+    "Asbestos & Lead Abatement",
+    "Lead Abatement"
+  ],
+  "biohazard-cleanup": [
+    "Biohazard & Trauma Cleanup",
+    "Hazardous Materials",
+    "Trauma Cleanup"
+  ],
+  "carpet-cleaning": [
+    "Carpet & Upholstery Cleaning"
+  ],
+  "ceiling-water-damage-repair": [
+    "Roof Leak Water Damage"
+  ],
+  "emergency-board-up-tarping": [
+    "Board Up Residential",
+    "Boarding Up and Tarping",
+    "Emergency Tarping"
+  ],
+  "emergency-water-removal": [
+    "24/7 Emergency Water Cleanup",
+    "Standing Water Removal"
+  ],
+  "fire-damage-restoration": [
+    "Fire & Smoke Restoration",
+    "Fire and Smoke Damage Cleanup",
+    "Fire Damage Cleanup",
+    "Fire Damage Cleanup Repair",
+    "Fire Damage Repair",
+    "Fire, Smoke, and Soot Damage"
+  ],
+  "flood-damage-restoration": [
+    "Flooding Damage"
+  ],
+  "general-contracting": [
+    "General Contracting (Reconstruction & Renovation)",
+    "New Construction"
+  ],
+  "industrial-restoration": [
+    "Industrial Cleaning"
+  ],
+  "mold-inspection-testing": [
+    "Mold Inspection",
+    "Mold Testing",
+    "Water Damage Mold Inspection"
+  ],
+  "mold-remediation": [
+    "Attic Mold Removal",
+    "Basement Mold Removal",
+    "Bathroom Mold Removal",
+    "Black Mold Removal",
+    "Crawl Space Mold Removal",
+    "Emergency Mold Removal",
+    "Mold Removal Behind Walls",
+    "Water Damage Mold Removal"
+  ],
+  "odor-removal": [
+    "Odor Control & Deodorization",
+    "Smoke Odor Removal"
+  ],
+  "reconstruction": [
+    "Water Damage Remodeling"
+  ],
+  "sewage-cleanup": [
+    "Basement Sewage Cleanup",
+    "Category 3 Water Cleanup",
+    "Cleaning & Sanitizing",
+    "Sewage Backup Cleanup",
+    "Sewage Backups",
+    "Sewage Cleanup & Remediation",
+    "Sewage Damage",
+    "Water Damage Sewage Cleanup"
+  ],
+  "smoke-damage-restoration": [
+    "Smoke & Soot Removal",
+    "Soot Removal"
+  ],
+  "storm-damage-restoration": [
+    "Emergency Storm Damage Repair",
+    "Hurricane Damage Restoration",
+    "Storm & Wind Damage Restoration",
+    "Wind Damage Repair",
+    "Wind Damage Restoration"
+  ],
+  "water-damage-restoration": [
+    "Carpet Water Damage",
+    "Carpet Water Extraction",
+    "Fire and Water Damage Restoration",
+    "Hardwood Floor Water Damage",
+    "Laminate Floor Water Damage",
+    "Water Damage Cleanup Repair",
+    "Water Damage Flooring",
+    "Water Damage Repair",
+    "Water Damage Under Flooring",
+    "Water Mitigation",
+    "Water Removal Drying",
+    "Wet Carpet Drying",
+    "Wet Drywall Repair",
+    "Wood Floor Water Damage Repair"
+  ]
+}

@@ -10,9 +10,10 @@
       "at": "2026-09-30"
     },
     "Biohazard & Trauma Cleanup": {
-      "verdict": "held",
-      "page": null,
-      "reason": "not classified yet",
+      "verdict": "mapped",
+      "page": "biohazard-cleanup",
+      "reason": "same service",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Carpet & Upholstery Cleaning": {

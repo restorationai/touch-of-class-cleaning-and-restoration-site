@@ -14,6 +14,8 @@ export type PageSchemaContext = {
   faq?: { question: string; answer: string }[];
   breadcrumb?: { name: string; url?: string }[];
   service_display?: string;
+  // GBP services mapped onto this page (Service.hasOfferCatalog)
+  service_offers?: string[];
   city?: string;
   state?: string;
   post_published_at?: string;
@@ -143,6 +145,19 @@ function service(ctx: PageSchemaContext) {
       : { "@type": "AdministrativeArea", name: brand.primaryState },
     url: `${brand.canonicalUrl}${ctx.url}`,
     description: ctx.meta_description,
+    // GBP <-> site parity (Santino 2026-09-30): the GBP services this page covers
+    ...(ctx.service_offers && ctx.service_offers.length
+      ? {
+          hasOfferCatalog: {
+            "@type": "OfferCatalog",
+            name: `${ctx.service_display} services`,
+            itemListElement: ctx.service_offers.map((n) => ({
+              "@type": "Offer",
+              itemOffered: { "@type": "Service", name: n },
+            })),
+          },
+        }
+      : {}),
   };
 }
 

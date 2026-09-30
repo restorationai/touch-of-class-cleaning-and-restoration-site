@@ -38,9 +38,10 @@
       "at": "2026-09-30"
     },
     "Deck Construction": {
-      "verdict": "held",
-      "page": null,
-      "reason": "not classified yet",
+      "verdict": "mapped",
+      "page": "general-contracting",
+      "reason": "construction work rides General Contracting (truth table)",
+      "source": "review",
       "at": "2026-09-30"
     },
     "General contractor": {
@@ -51,39 +52,45 @@
       "at": "2026-09-30"
     },
     "Handyman Remodeling": {
-      "verdict": "held",
-      "page": null,
-      "reason": "not classified yet",
+      "verdict": "mapped",
+      "page": "remodeler",
+      "reason": "remodel work -> the remodeler page",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Home Addition Construction": {
-      "verdict": "held",
-      "page": null,
-      "reason": "not classified yet",
+      "verdict": "mapped",
+      "page": "general-contracting",
+      "reason": "construction work rides General Contracting (truth table)",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Home Renovation": {
-      "verdict": "held",
-      "page": null,
-      "reason": "not classified yet",
+      "verdict": "mapped",
+      "page": "remodeler",
+      "reason": "renovation -> the remodeler page",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Kitchen Remodeling": {
-      "verdict": "held",
-      "page": null,
-      "reason": "not classified yet",
+      "verdict": "mapped",
+      "page": "remodeler",
+      "reason": "remodel work -> the remodeler page",
+      "source": "review",
       "at": "2026-09-30"
     },
     "New Building Construction": {
-      "verdict": "held",
-      "page": null,
-      "reason": "not classified yet",
+      "verdict": "mapped",
+      "page": "general-contracting",
+      "reason": "construction work rides General Contracting (truth table)",
+      "source": "review",
       "at": "2026-09-30"
     },
     "New Home Construction": {
-      "verdict": "held",
-      "page": null,
-      "reason": "not classified yet",
+      "verdict": "mapped",
+      "page": "general-contracting",
+      "reason": "construction work rides General Contracting (truth table)",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Remodeler": {
@@ -94,9 +101,10 @@
       "at": "2026-09-30"
     },
     "Roof Repair": {
-      "verdict": "held",
-      "page": null,
-      "reason": "not classified yet",
+      "verdict": "mapped",
+      "page": "roofing",
+      "reason": "roof repair -> the roofing page (truth: Roofing Services)",
+      "source": "review",
       "at": "2026-09-30"
     }
   },

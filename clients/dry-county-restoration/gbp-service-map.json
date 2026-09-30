@@ -87,9 +87,10 @@
       "at": "2026-09-30"
     },
     "Bathroom remodeler": {
-      "verdict": "held",
-      "page": null,
-      "reason": "not classified yet",
+      "verdict": "mapped",
+      "page": "general-contracting",
+      "reason": "remodel work rides General Contracting (Reconstruction & Renovation)",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Bathroom Remodeling": {
@@ -743,9 +744,10 @@
       "at": "2026-09-30"
     },
     "Remodeler": {
-      "verdict": "held",
-      "page": null,
-      "reason": "not classified yet",
+      "verdict": "mapped",
+      "page": "general-contracting",
+      "reason": "remodel work rides General Contracting (Reconstruction & Renovation)",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Removal And Drying": {
@@ -847,9 +849,10 @@
       "at": "2026-09-30"
     },
     "Roofing contractor": {
-      "verdict": "held",
-      "page": null,
-      "reason": "not classified yet",
+      "verdict": "mapped",
+      "page": "roofing",
+      "reason": "GBP category = the roofing page (truth: Roofing Services)",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Roofing Services": {
@@ -966,9 +969,9 @@
     },
     "Upholstery Cleaning": {
       "verdict": "mapped",
-      "page": "carpet-cleaning",
-      "source": "claude",
-      "reason": "Similar cleaning service",
+      "page": "upholstery-cleaning",
+      "source": "alias",
+      "reason": "upholstery -> dedicated upholstery cleaning page (Santino 09-30)",
       "at": "2026-09-30"
     },
     "Water Cleanup": {

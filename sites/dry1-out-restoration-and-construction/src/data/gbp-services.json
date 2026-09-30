@@ -1,0 +1,94 @@
+{
+  "biohazard-cleanup": [
+    "Biohazard & Specialty Cleaning",
+    "Biohazard & Trauma Cleanup",
+    "Trauma Cleanup",
+    "Unattended Death Cleanup"
+  ],
+  "burst-pipe-repair": [
+    "Burst Pipe Water Damage Cleanup"
+  ],
+  "carpet-water-extraction": [
+    "Carpet Water Damage",
+    "Wet Carpet Drying"
+  ],
+  "ceiling-water-damage-repair": [
+    "Roof Leak Water Damage",
+    "Roof Leak Water Damage Repair"
+  ],
+  "emergency-board-up": [
+    "Emergency Board Ups",
+    "Emergency Roof Tarping",
+    "Emergency Tarping"
+  ],
+  "emergency-water-removal": [
+    "24/7 Emergency Water Cleanup",
+    "Emergency Water Extraction",
+    "Standing Water Removal"
+  ],
+  "fire-damage-restoration": [
+    "Fire & Smoke Restoration",
+    "Fire and Smoke Damage Cleanup",
+    "Fire Damage Cleanup",
+    "Fire Damage Cleanup and Repair"
+  ],
+  "flood-damage-restoration": [
+    "Flood Cleanup",
+    "Flood Restoration"
+  ],
+  "general-contracting": [
+    "General Contracting (Reconstruction & Renovation)"
+  ],
+  "mold-inspection-testing": [
+    "Mold Inspection",
+    "Mold Inspection & Assessment",
+    "Mold Testing",
+    "Water Damage Mold Inspection"
+  ],
+  "mold-remediation": [
+    "Attic Mold Removal",
+    "Basement Mold Removal",
+    "Bathroom Mold Removal",
+    "Black Mold Removal",
+    "Crawl Space Mold Removal",
+    "Emergency Mold Removal",
+    "Microbial Remediation (Mold Removal)",
+    "Mold Cleaning",
+    "Mold Damage Restoration",
+    "Mold Removal Behind Walls"
+  ],
+  "odor-removal": [
+    "Fire and Smoke Odor Removal",
+    "Odor Control & Deodorization",
+    "Smoke Odor Removal"
+  ],
+  "sewage-cleanup": [
+    "Basement Sewage Cleanup",
+    "Category 3 Water Cleanup",
+    "Sewage Backup Cleanup",
+    "Sewage Cleanup & Remediation"
+  ],
+  "smoke-damage-restoration": [
+    "Smoke Damage Cleanup",
+    "Soot Removal"
+  ],
+  "storm-damage-restoration": [
+    "Emergency Storm Damage Repair",
+    "Hurricane Damage Restoration",
+    "Storm & Wind Damage Restoration",
+    "Wind Damage Repair"
+  ],
+  "water-damage-restoration": [
+    "Drywall Water Damage Repair",
+    "Hardwood Floor Water Damage",
+    "Laminate Floor Water Damage",
+    "Plumbing Leak Water Damage Repair",
+    "Structural Drying",
+    "Water Damage Cleanup and Repair",
+    "Water Damage Repair",
+    "Water Damage Under Flooring",
+    "Water Mitigation",
+    "Wet Drywall Repair",
+    "Wood Floor Water Damage Repair"
+  ]
+}

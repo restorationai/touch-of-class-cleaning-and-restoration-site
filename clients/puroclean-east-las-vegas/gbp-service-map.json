@@ -374,9 +374,10 @@
       "at": "2026-09-30"
     },
     "Sewage disposal service": {
-      "verdict": "held",
-      "page": null,
-      "reason": "not classified yet",
+      "verdict": "mapped",
+      "page": "sewage-cleanup",
+      "reason": "GBP category -> sewage cleanup (truth table)",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Smoke Damage Restoration": {

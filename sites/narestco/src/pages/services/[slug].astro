@@ -7,6 +7,8 @@ import InternalLinks from "~/components/InternalLinks.astro";
 import Hero from "~/components/ui/Hero.astro";
 import { brand } from "~/lib/brand";
 import { serviceImage } from "~/lib/images";
+import ServicesWeHandle from "~/components/ServicesWeHandle.astro";
+import { gbpServicesFor } from "~/lib/gbp-services";
 
 export async function getStaticPaths() {
   const services = await getCollection("services");
@@ -42,6 +44,8 @@ const bestCompanyAnswer = [
     : `Call ${brand.phone} during business hours (${brand.hours}) for a free estimate.`,
 ].filter(Boolean).join(" ");
 const isSensitive = data.content_guardrails === "sensitive";
+// GBP <-> site parity list + Service schema offers (Santino 2026-09-30)
+const serviceOffers = gbpServicesFor(data.service_slug);
 ---
 
 <BaseLayout
@@ -50,6 +54,7 @@ const isSensitive = data.content_guardrails === "sensitive";
   hero_image_url={heroImage}
   schema_stubs={["service", "local-business", "faq", "breadcrumb-list"]}
   schema_ctx={{
+    service_offers: serviceOffers,
     archetype: "service-landing",
     service_display: data.service_display,
   }}
@@ -63,6 +68,7 @@ const isSensitive = data.content_guardrails === "sensitive";
     <div class="container-wide">
       <div class="prose-body">
         <Content />
+        <ServicesWeHandle items={serviceOffers} />
       </div>
     </div>
   </section>

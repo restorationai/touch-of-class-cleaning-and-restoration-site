@@ -227,6 +227,14 @@ GBP_ALIASES: list[tuple[str, list[str]]] = [
      ["water-damage-restoration"]),
     (r"\bmold (removal|remediation|cleanup|cleaning|mitigation)\b|\bmold and odor\b",
      ["mold-remediation"]),
+    # Santino 09-30: upholstery cleaning keeps its own page where the client
+    # offers it; a pure upholstery / furniture phrasing maps there (combined
+    # "carpet & upholstery" labels stay on carpet cleaning).
+    (r"^(?!.*\bcarpets?\b).*\b(upholstery|upholstered|sofa|couch|furniture cleaning)\b",
+     ["upholstery-cleaning"]),
+    # Santino 09-30: graffiti removal is the canonical vandalism page
+    (r"\bgraffiti\b|\bvandalism\b",
+     ["vandalism-graffiti-removal", "vandalism-cleanup", "vandalism-damage-cleanup-and-repair"]),
 ]
 
 
@@ -338,6 +346,102 @@ def save_map(slug: str, d: dict) -> None:
     p.parent.mkdir(parents=True, exist_ok=True)
     d["gbp_services"] = dict(sorted(d.get("gbp_services", {}).items(), key=lambda kv: kv[0].lower()))
     p.write_text(json.dumps(d, indent=2) + "\n")
+    try:  # parity list rides every map save (nightly map refresh included)
+        write_page_services(slug)
+    except Exception as e:  # noqa: BLE001 -- the map save never fails over the mirror
+        print(f"  {slug}: services-we-handle mirror skipped ({str(e)[:100]})")
+
+
+# --------------------------------------------------------------------------- #
+# rule 6: GBP <-> site parity ON the page (Santino 2026-09-30)
+# --------------------------------------------------------------------------- #
+# "Every GBP service that maps onto an existing page must be visibly named on
+# that page, so a customer or Google checking the site finds it." The map
+# above is canonical; sites/{slug}/src/data/gbp-services.json is a derived
+# mirror {page_slug: [customer-language names]} that the service template
+# renders as a "Services We Handle" list and emits in the page's Service
+# schema (hasOfferCatalog). Declined / held / new_page labels never list.
+_LIST_STOP = {"service", "services", "company", "companies", "24", "7", "hour", "hours",
+              "emergency", "near", "me", "residential", "commercial", "and", "professional",
+              "local", "the", "for", "of", "expert", "experts", "specialist", "specialists"}
+_SMALL = {"and", "or", "of", "for", "the", "a", "an", "in", "on", "to", "with", "by"}
+
+
+def _list_key(s: str) -> str:
+    toks = [t[:-1] if len(t) > 3 and t.endswith("s") else t for t in norm(s).split()]
+    return " ".join(sorted(t for t in toks if t not in _LIST_STOP))
+
+
+def _customer_label(label: str, truth: dict) -> str:
+    from claims_lint import sanitize_claims_text
+    s = re.sub(r"^job_type_id:", "", label.strip(), flags=re.I).replace("_", " ")
+    s = re.sub(r"\s+", " ", s).strip(" -,.")
+    s = re.sub(r"\s+(services?|company)$", "", s, flags=re.I)
+    if not truth.get("is_247") and not (truth.get("hours") or "").strip():
+        # hours unknown: "Emergency" may stay (emergency naming rule, 09-30),
+        # a 24/7 claim may not; credential/licence rules still apply below
+        s = re.sub(r"\b24\s*/\s*7\s*|\b24[- ]hours?\s*|around[- ]the[- ]clock\s*", "", s, flags=re.I)
+        truth = {**truth, "is_247": True}
+    s = sanitize_claims_text(s, truth).strip(" -,.")
+    s = re.sub(r"\s+", " ", s)
+    s = re.sub(r"\bclean[- ]up\b", "cleanup", s, flags=re.I)
+    s = re.sub(r"\s+-\s+", ", ", s).replace("@", "at").replace("?", "").replace("!", "").strip(" ,")
+
+    def _cap(p: str) -> str:
+        m = re.search(r"[A-Za-z]", p)
+        return p if not m else p[:m.start()] + p[m.start()].upper() + p[m.start() + 1:].lower()
+    # consistent Title Case (GBP labels arrive in every casing); acronyms and
+    # tokens that are already upper-case (HVAC, IICRC, 24/7) are kept
+    words = s.split(" ")
+    out = []
+    for i, w in enumerate(words):
+        if len(w) > 1 and w.isupper():
+            out.append(w)
+        elif i and w.lower() in _SMALL:
+            out.append(w.lower())
+        else:
+            out.append("/".join(_cap(p) for p in w.split("/")))
+    s = " ".join(out)
+    return re.sub(r"\b(Hvac|Iicrc|Ac)\b", lambda m: m.group(1).upper(), s)
+
+
+def page_services(slug: str) -> dict[str, list[str]]:
+    """{page_slug: [names]} for every page that has mapped GBP services."""
+    from claims_lint import truth_from_plan_input
+    truth = truth_from_plan_input(load_plan_input(slug))
+    pages = service_pages(slug)
+    out: dict[str, list[str]] = {}
+    seen: dict[str, set] = {}
+    for label, e in load_map(slug).get("gbp_services", {}).items():
+        page = e.get("page")
+        if e.get("verdict") != "mapped" or page not in pages:
+            continue
+        name = _customer_label(label, truth)
+        key = _list_key(name)
+        if not name or not key:
+            continue
+        own = {_list_key(pages[page]["display"]), _list_key(page.replace("-", " "))}
+        if key in own:
+            continue   # the page's own name is already its H1
+        if key in seen.setdefault(page, set()):
+            continue
+        seen[page].add(key)
+        out.setdefault(page, []).append(name)
+    return {k: sorted(v, key=str.lower) for k, v in sorted(out.items())}
+
+
+def write_page_services(slug: str) -> Path | None:
+    site = SITES / slug
+    # only sites whose service template is wired for the list
+    # (scripts/services_we_handle_rollout.py); tdi-builders is not
+    if not (site / "src" / "lib" / "gbp-services.ts").exists() or slug in DEAD_CLIENTS:
+        return None
+    out = site / "src" / "data" / "gbp-services.json"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    body = json.dumps(page_services(slug), indent=2, ensure_ascii=False) + "\n"
+    if not out.exists() or out.read_text() != body:
+        out.write_text(body)
+    return out
 
 
 def norm(s: str) -> str:

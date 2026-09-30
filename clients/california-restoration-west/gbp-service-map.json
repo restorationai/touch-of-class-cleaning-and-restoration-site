@@ -66,9 +66,10 @@
       "at": "2026-09-30"
     },
     "Carpet cleaning service": {
-      "verdict": "held",
+      "verdict": "declined",
       "page": null,
-      "reason": "not classified yet",
+      "reason": "not in the truth table (companies.services); no carpet page",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Carpet Steam Cleaning": {
@@ -414,9 +415,10 @@
       "at": "2026-09-30"
     },
     "Upholstery cleaning service": {
-      "verdict": "held",
+      "verdict": "declined",
       "page": null,
-      "reason": "not classified yet",
+      "reason": "not in the truth table (companies.services); no upholstery page",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Water Cleanup": {

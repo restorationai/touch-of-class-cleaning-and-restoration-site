@@ -584,9 +584,10 @@
       "at": "2026-09-30"
     },
     "Roofing contractor": {
-      "verdict": "held",
-      "page": null,
-      "reason": "not classified yet",
+      "verdict": "mapped",
+      "page": "roofing",
+      "reason": "GBP category = the roofing page (truth: Roofing Services)",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Roofing Services": {
@@ -675,9 +676,9 @@
     },
     "Upholstery Cleaning": {
       "verdict": "mapped",
-      "page": "carpet-cleaning",
-      "source": "claude",
-      "reason": "Sub-case of cleaning services",
+      "page": "upholstery-cleaning",
+      "source": "alias",
+      "reason": "upholstery -> dedicated upholstery cleaning page (Santino 09-30)",
       "at": "2026-09-30"
     },
     "Vandalism & Graffiti Removal": {

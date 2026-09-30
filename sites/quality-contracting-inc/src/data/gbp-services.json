@@ -1,0 +1,122 @@
+{
+  "air-duct-cleaning": [
+    "Air Duct & HVAC Cleaning",
+    "HVAC Cleaning"
+  ],
+  "asbestos-abatement": [
+    "Asbestos & Lead Abatement",
+    "Lead Abatement"
+  ],
+  "basement-flooding-cleanup": [
+    "Basement Flood Cleanup",
+    "Sump Pump Failure Cleanup"
+  ],
+  "biohazard-cleanup": [
+    "Biohazard & Trauma Cleanup",
+    "Trauma Cleanup"
+  ],
+  "burst-pipe-repair": [
+    "Burst Pipe Cleanup"
+  ],
+  "carpet-cleaning": [
+    "Carpet & Upholstery Cleaning"
+  ],
+  "ceiling-water-damage-repair": [
+    "Roof Leak Water Damage"
+  ],
+  "emergency-board-up-tarping": [
+    "Emergency Board Up",
+    "Emergency Tarping"
+  ],
+  "emergency-plumbing": [
+    "Plumbing Repair"
+  ],
+  "emergency-water-removal": [
+    "Emergency Water Cleanup",
+    "Flood Water Removal",
+    "Standing Water Removal",
+    "Water Extraction"
+  ],
+  "fire-damage-restoration": [
+    "Fire & Smoke Restoration",
+    "Fire and Smoke Damage Cleanup",
+    "Fire Damage Cleanup",
+    "Lightning Strike"
+  ],
+  "flood-damage-restoration": [
+    "Emergency Flood Cleanup",
+    "Emergency Flood Damage",
+    "Flood Restoration"
+  ],
+  "general-contracting": [
+    "Building Contractors",
+    "Commercial Renovations",
+    "Full-service Construction",
+    "General Contracting (Reconstruction & Renovation)",
+    "General Contractor",
+    "Handyman Remodeling",
+    "Historical Renovation",
+    "Major Renovation",
+    "Residential Remodeling"
+  ],
+  "large-loss-response": [
+    "Insurance Loss Repair",
+    "Insurance Restoration"
+  ],
+  "mold-inspection-testing": [
+    "Mold Inspection",
+    "Mold Testing"
+  ],
+  "mold-remediation": [
+    "Attic Mold Removal",
+    "Basement Mold Removal",
+    "Bathroom Mold Removal",
+    "Black Mold Removal",
+    "Crawl Space Mold Removal",
+    "Emergency Mold Removal",
+    "Mold Removal Behind Walls"
+  ],
+  "odor-removal": [
+    "Odor Control & Deodorization",
+    "Smoke Odor Removal"
+  ],
+  "roofing": [
+    "Roof Repair",
+    "Roof Replacement",
+    "Roofing Contractor"
+  ],
+  "sewage-cleanup": [
+    "Basement Sewage Cleanup",
+    "Category 3 Water Cleanup",
+    "Sewage Backup Cleanup",
+    "Sewage Cleanup & Remediation"
+  ],
+  "smoke-damage-restoration": [
+    "Soot Removal"
+  ],
+  "storm-damage-restoration": [
+    "Emergency Storm Damage Repair",
+    "Hurricane Damage Restoration",
+    "Storm & Wind Damage Restoration",
+    "Wind Damage Repair"
+  ],
+  "vandalism-graffiti-removal": [
+    "Graffiti Removal"
+  ],
+  "water-damage-restoration": [
+    "Carpet Water Damage",
+    "Carpet Water Extraction",
+    "Hardwood Floor Water Damage",
+    "Laminate Floor Water Damage",
+    "Mitigation",
+    "Water Damage Repair",
+    "Water Damage Under Flooring",
+    "Water Mitigation",
+    "Wet Carpet Drying",
+    "Wet Drywall Repair",
+    "Wood Floor Water Damage Repair"
+  ],
+  "water-leak-detection": [
+    "Leak Detection"
+  ]
+}

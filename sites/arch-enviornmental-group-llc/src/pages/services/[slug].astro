@@ -6,6 +6,8 @@ import FAQSection from "~/components/FAQSection.astro";
 import InternalLinks from "~/components/InternalLinks.astro";
 import { brand } from "~/lib/brand";
 import { serviceImage } from "~/lib/images";
+import ServicesWeHandle from "~/components/ServicesWeHandle.astro";
+import { gbpServicesFor } from "~/lib/gbp-services";
 
 export async function getStaticPaths() {
   const services = await getCollection("services");
@@ -40,6 +42,8 @@ const bestCompanyAnswer = [
     ? `We answer calls 24/7 — call ${brand.phone} for immediate help.`
     : `Call ${brand.phone} to schedule ${serviceLower} or request a free estimate.`,
 ].filter(Boolean).join(" ");
+// GBP <-> site parity list + Service schema offers (Santino 2026-09-30)
+const serviceOffers = gbpServicesFor(data.service_slug);
 ---
 
 <BaseLayout
@@ -48,6 +52,7 @@ const bestCompanyAnswer = [
   hero_image_url={heroImage}
   schema_stubs={["service", "local-business", "faq", "breadcrumb-list"]}
   schema_ctx={{
+    service_offers: serviceOffers,
     archetype: "service-landing",
     service_display: data.service_display,
   }}
@@ -78,6 +83,7 @@ const bestCompanyAnswer = [
     <div class="container-wide">
       <div class="prose-body">
         <Content />
+        <ServicesWeHandle items={serviceOffers} />
       </div>
     </div>
   </section>

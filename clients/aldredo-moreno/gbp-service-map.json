@@ -312,9 +312,9 @@
     },
     "Upholstery Cleaning": {
       "verdict": "mapped",
-      "page": "carpet-cleaning",
-      "source": "claude",
-      "reason": "Common add-on to carpet cleaning.",
+      "page": "upholstery-cleaning",
+      "source": "alias",
+      "reason": "upholstery -> dedicated upholstery cleaning page (Santino 09-30)",
       "at": "2026-09-30"
     },
     "Water Damage Repair": {

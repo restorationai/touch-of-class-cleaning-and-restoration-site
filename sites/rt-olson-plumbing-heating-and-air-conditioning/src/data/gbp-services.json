@@ -1,0 +1,155 @@
+{
+  "ac-repair": [
+    "AC Maintenance",
+    "Air Conditioner Repair",
+    "HVAC System Repair",
+    "Repair HVAC",
+    "Repair Thermostat"
+  ],
+  "air-duct-cleaning": [
+    "Clean Ducts Vents",
+    "Cleaning",
+    "Dryer Vent Cleaning",
+    "Repair Ducts Vents",
+    "Vent Cleaning"
+  ],
+  "all-plumbing-services": [
+    "High and Low Water Pressure Repair",
+    "Plumber",
+    "Plumbing",
+    "Plumbing Inspection"
+  ],
+  "attic-insulation": [
+    "HVAC, Duct Cleaning, Attic Insulation, Heating and Cooling"
+  ],
+  "drain-cleaning": [
+    "Drain & Rooter",
+    "Rooter",
+    "Toilet Clogs",
+    "Unclog Drain"
+  ],
+  "drain-sewer-repairs": [
+    "Repair Sewer",
+    "Sewer Cleaning",
+    "Sewer Line Repair",
+    "Sewer Pipe Repair",
+    "Trenchless Sewer",
+    "Trenchless Sewer Line Replacement"
+  ],
+  "emergency-plumbing": [
+    "Common Plumbing Emergencies",
+    "Emergency Leak"
+  ],
+  "furnace-repair": [
+    "Heating Maintenance",
+    "Repair Heating System"
+  ],
+  "garbage-disposal": [
+    "Garbage Disposal Repair",
+    "Install Garbage Disposal"
+  ],
+  "gas-line-inspections": [
+    "Gas Line Repair & Installation",
+    "Gas Line Replacement"
+  ],
+  "hvac-installation": [
+    "Ductless Heating and AC",
+    "HVAC Maintenance",
+    "Install AC",
+    "Install Ducts Vents",
+    "Install Heating System",
+    "Install Thermostat",
+    "Thermostat Installation"
+  ],
+  "instant-hot-water-system": [
+    "Hot Water System",
+    "Instant Hot Water At Shower"
+  ],
+  "kitchen-bathroom-remodeling": [
+    "Install Shower"
+  ],
+  "leak-detection": [
+    "Find & Repair Leak",
+    "Find Leak",
+    "Fix Leaks",
+    "FREE Leak Detection",
+    "Free Water Leak Detection (No Pools)",
+    "Leak Detection Corona",
+    "Natural Gas Leak Detection",
+    "Plumbing Leak Repair",
+    "Plumbing Leaks",
+    "Sewer Leak Detection",
+    "Slab Leak Detection and Repair",
+    "Slab Leak Detection Corona",
+    "Underground and Slab Leak Detection",
+    "Water Damage Leak Detection",
+    "Water Leak Detection Corona",
+    "Water Leak Repair",
+    "Water Line Leaks"
+  ],
+  "repiping": [
+    "Re Pipe with Pex or Copper Pipe",
+    "Repipe Your Home with Copper Pipe",
+    "Repipe Your Home's Water Lines with PEX",
+    "Repiping Your Home",
+    "Whole-house Repiping"
+  ],
+  "reverse-osmosis": [
+    "Reverse Osmosis System",
+    "Reverse Osmosis Water"
+  ],
+  "sewer-camera-inspection": [
+    "Camera Inspections of Drain and Sewer Line"
+  ],
+  "slab-leak-and-pipe-repair": [
+    "Repair Pipe",
+    "Water Main Line Repair"
+  ],
+  "toilet-faucet-repair": [
+    "Bar Faucet Repair",
+    "Bathroom Faucets",
+    "Bathtub Faucet Repair",
+    "Faucet Repair & Installation",
+    "Install Faucet",
+    "Install Toilet",
+    "Kitchen Faucet Repair",
+    "Kitchen Sink Faucet Replacement",
+    "Leaking Hose Bib Repair",
+    "Leaky Faucet Repairs",
+    "Leaky Faucets",
+    "New Sink",
+    "Outdoor Faucet Repair",
+    "Repair Faucet",
+    "Repair Shower",
+    "Repair Toilet",
+    "Shower Faucet Repair",
+    "Sink Faucet Repair",
+    "Sink, Tub, and Shower Repairs",
+    "Toilet Repair & Installation"
+  ],
+  "water-heater-installation": [
+    "50 Gallon Hot Water Heater Installation",
+    "Hot Water Heaters",
+    "Install Water Heater",
+    "Installation",
+    "Tankless Hot Water Heaters",
+    "Tankless Water Heaters",
+    "Water Tank Installation"
+  ],
+  "water-heater-repair": [
+    "Water Heater Repair & Installation",
+    "Water Tank Repair"
+  ],
+  "water-softeners-filtration": [
+    "Filter Replacement",
+    "Free Water Test",
+    "Water Conditioners",
+    "Water Filter Systems",
+    "Water Filtration Systems",
+    "Water Testing",
+    "Whole House Water Filter",
+    "Whole House Water Filter Systems",
+    "Whole House Water Filtration",
+    "Whole House Water Filtration System"
+  ]
+}

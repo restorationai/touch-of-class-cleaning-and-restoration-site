@@ -59,9 +59,10 @@
       "at": "2026-09-30"
     },
     "Asbestos testing service": {
-      "verdict": "held",
-      "page": null,
-      "reason": "not classified yet",
+      "verdict": "mapped",
+      "page": "asbestos-abatement",
+      "reason": "testing is part of the asbestos & lead abatement line (truth table)",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Attic Mold Removal": {
@@ -198,9 +199,10 @@
       "at": "2026-09-30"
     },
     "Debris removal service": {
-      "verdict": "held",
-      "page": null,
-      "reason": "not classified yet",
+      "verdict": "mapped",
+      "page": "post-construction-cleaning",
+      "reason": "debris removal rides post-construction & specialty cleaning (truth table)",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Dehumidification services": {

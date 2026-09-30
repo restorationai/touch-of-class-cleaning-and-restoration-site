@@ -87,15 +87,10 @@
       "at": "2026-09-30"
     },
     "Carpet Cleaning": {
-      "verdict": "new_page",
+      "verdict": "declined",
       "page": null,
-      "source": "claude",
-      "head_term": "carpet cleaning",
-      "volume": {
-        "metro": 140,
-        "metro_label": "Davie, Florida"
-      },
-      "reason": "Separate cleaning service not covered by existing pages",
+      "reason": "not in the truth table (4 services); no page built",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Carpet Water Damage": {

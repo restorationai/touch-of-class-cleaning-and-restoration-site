@@ -1,0 +1,18 @@
+---
+// "Services We Handle" (Santino 2026-09-30, GBP <-> site parity): every GBP
+// service mapped onto this page, named visibly so a customer or Google
+// checking the site finds it. Rendered inside the body prose so it inherits
+// the site theme. Data: ~/lib/gbp-services (never hand-edited).
+interface Props {
+  items: string[];
+}
+const { items = [] } = Astro.props;
+---
+{items.length > 0 && (
+  <div class="services-we-handle" data-parity="gbp-services">
+    <h2>Services We Handle</h2>
+    <ul>
+      {items.map((name) => <li>{name}</li>)}
+    </ul>
+  </div>
+)}

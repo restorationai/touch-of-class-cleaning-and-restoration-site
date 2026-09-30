@@ -388,9 +388,10 @@
       "at": "2026-09-30"
     },
     "Contractor": {
-      "verdict": "held",
-      "page": null,
-      "reason": "not classified yet",
+      "verdict": "mapped",
+      "page": "general-contracting",
+      "reason": "GBP category = general contracting (truth table)",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Covid - 19 Disinfection": {
@@ -982,9 +983,10 @@
       "at": "2026-09-30"
     },
     "Remodeler": {
-      "verdict": "held",
-      "page": null,
-      "reason": "not classified yet",
+      "verdict": "mapped",
+      "page": "general-contracting",
+      "reason": "remodel work rides General Contracting (Reconstruction & Renovation)",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Renovations, Remodels and General Contracting": {

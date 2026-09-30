@@ -122,9 +122,10 @@
       "at": "2026-09-30"
     },
     "Bathroom remodeler": {
-      "verdict": "held",
-      "page": null,
-      "reason": "not classified yet",
+      "verdict": "mapped",
+      "page": "general-contracting",
+      "reason": "remodel work rides General Contracting (Reconstruction & Renovation)",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Bathroom Remodeling": {
@@ -226,9 +227,10 @@
       "at": "2026-09-30"
     },
     "Construction company": {
-      "verdict": "held",
-      "page": null,
-      "reason": "not classified yet",
+      "verdict": "mapped",
+      "page": "general-contracting",
+      "reason": "GBP category = general contracting (truth table)",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Contents Restoration & Storage": {
@@ -505,9 +507,10 @@
       "at": "2026-09-30"
     },
     "Interior construction contractor": {
-      "verdict": "held",
-      "page": null,
-      "reason": "not classified yet",
+      "verdict": "mapped",
+      "page": "general-contracting",
+      "reason": "GBP category = general contracting (truth table)",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Interior Structural Repairs": {
@@ -518,9 +521,10 @@
       "at": "2026-09-30"
     },
     "Kitchen remodeler": {
-      "verdict": "held",
-      "page": null,
-      "reason": "not classified yet",
+      "verdict": "mapped",
+      "page": "general-contracting",
+      "reason": "remodel work rides General Contracting (Reconstruction & Renovation)",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Kitchen Remodeling": {

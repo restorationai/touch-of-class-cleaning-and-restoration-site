@@ -1,0 +1,123 @@
+{
+  "asbestos-abatement": [
+    "Asbestos & Lead Abatement",
+    "Lead Abatement"
+  ],
+  "basement-flooding-cleanup": [
+    "Sump Pump Failure Cleanup"
+  ],
+  "biohazard-cleanup": [
+    "Biohazard & Trauma Cleanup",
+    "Trauma Cleanup"
+  ],
+  "burst-pipe-repair": [
+    "Burst Pipe Cleanup"
+  ],
+  "carpet-cleaning": [
+    "Carpet & Upholstery Cleaning"
+  ],
+  "ceiling-water-damage-repair": [
+    "Roof Leak Water Damage"
+  ],
+  "emergency-board-up-tarping": [
+    "Emergency Board-up",
+    "Emergency Tarping",
+    "Roof Tarping"
+  ],
+  "emergency-water-removal": [
+    "24/7 Emergency Water Cleanup",
+    "Emergency Water Extraction",
+    "Standing Water Removal"
+  ],
+  "fire-damage-restoration": [
+    "Fire & Smoke Restoration",
+    "Fire and Smoke Damage Cleanup",
+    "Fire Damage Cleanup",
+    "Fire Damage Cleanup Repair",
+    "Fire Damage Repair"
+  ],
+  "flood-damage-restoration": [
+    "Flood Restoration"
+  ],
+  "general-contracting": [
+    "General Contracting (Reconstruction & Renovation)",
+    "General Contractor"
+  ],
+  "mold-inspection-testing": [
+    "Mold Inspection",
+    "Mold Testing",
+    "Water Damage Mold Inspection"
+  ],
+  "mold-remediation": [
+    "Attic Mold Removal",
+    "Basement Mold Removal",
+    "Bathroom Mold Removal",
+    "Black Mold Removal",
+    "Crawl Space Mold Removal",
+    "Emergency Mold Removal",
+    "Mold Cleaning",
+    "Mold Damage Restoration",
+    "Mold Mitigation",
+    "Mold Removal Behind Walls",
+    "Water Damage Mold Removal"
+  ],
+  "odor-removal": [
+    "Odor Control",
+    "Odor Control & Deodorization",
+    "Smoke Odor Removal"
+  ],
+  "reconstruction": [
+    "Drywall Repair",
+    "Interior Rebuild",
+    "Water Damage Remodeling"
+  ],
+  "roofing": [
+    "Roofing Contractor",
+    "Water Damage Roofing"
+  ],
+  "sewage-cleanup": [
+    "Basement Sewage Cleanup",
+    "Category 3 Water Cleanup",
+    "Sewage Backup Cleanup",
+    "Sewage Cleanup & Remediation",
+    "Water Damage Sewage Cleanup"
+  ],
+  "smoke-damage-restoration": [
+    "Smoke Damage Cleanup",
+    "Soot Removal"
+  ],
+  "storm-damage-restoration": [
+    "Emergency Storm Damage Repair",
+    "Hurricane Damage Restoration",
+    "Storm & Wind Damage Restoration",
+    "Storm Damage Cleanup",
+    "Wind Damage Repair",
+    "Wind Damage Restoration"
+  ],
+  "vandalism-graffiti-removal": [
+    "Graffiti Removal",
+    "Vandalism Cleanup"
+  ],
+  "water-damage-restoration": [
+    "Carpet Water Damage",
+    "Carpet Water Extraction",
+    "Hardwood Floor Water Damage",
+    "Laminate Floor Water Damage",
+    "Structural Drying",
+    "Water Damage Cleanup Repair",
+    "Water Damage Flooring",
+    "Water Damage Repair",
+    "Water Damage Under Flooring",
+    "Water Mitigation",
+    "Wet Carpet Drying",
+    "Wet Drywall Repair",
+    "Wood Floor Water Damage Repair"
+  ],
+  "water-heater-flood-cleanup": [
+    "Flood Cleanup"
+  ],
+  "water-leak-detection": [
+    "Leak Detection",
+    "Moisture Mapping"
+  ]
+}

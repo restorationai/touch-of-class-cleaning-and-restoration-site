@@ -1,0 +1,271 @@
+{
+  "asbestos-abatement": [
+    "Asbestos & Lead Abatement",
+    "Asbestos Cleaning",
+    "Asbestos Removal",
+    "Batt Waste Cleanup",
+    "Insulation Removal",
+    "Lead Abatement",
+    "Lead Paint Abatement",
+    "Remove Insulation in Attic"
+  ],
+  "basement-flooding-cleanup": [
+    "Basement Flood Cleanup",
+    "Basement Water Cleanup",
+    "Basement Waterproofing",
+    "Flooded Basement",
+    "Flooding Cleanup",
+    "Sump Pit",
+    "Sump Pump",
+    "Sump Pump Cleanup",
+    "Sump Pump Failure"
+  ],
+  "biohazard-cleanup": [
+    "Bio Hazard",
+    "Biohazard & Trauma Cleanup",
+    "Hoarding Cleanup",
+    "Trauma and Biohazard",
+    "Trauma Cleanup"
+  ],
+  "burst-pipe-repair": [
+    "Broken Pipe",
+    "Burst and Frozen Pipe Cleanup",
+    "Burst Pipe Damage Cleanup",
+    "Burst Pipe Water Damage",
+    "Burst Pipes",
+    "Freezing Pipes",
+    "Frozen Outside Faucet",
+    "Frozen Pipes",
+    "Water Pipe Break Cleanup"
+  ],
+  "ceiling-water-damage-repair": [
+    "Roof Leak Water Damage",
+    "Roof Water Damage Cleanup",
+    "Wall & Ceiling Repair"
+  ],
+  "commercial-restoration": [
+    "Business Water Damage",
+    "Commercial Disaster Cleanup",
+    "Commercial Sanitization",
+    "Commercial Water Damage"
+  ],
+  "contents-restoration": [
+    "Content Cleaning",
+    "Contents Pack-out",
+    "Pack Outs",
+    "Upholstery & Fabric Cleaning"
+  ],
+  "emergency-board-up-tarping": [
+    "Board-up",
+    "Emergency Tarping",
+    "Window Damage"
+  ],
+  "emergency-plumbing": [
+    "Repair Water Fixtures",
+    "Water Damage Plumbing"
+  ],
+  "emergency-water-removal": [
+    "Carpet Water Damage",
+    "Ceiling Water Cleanup",
+    "Clogged Drain Overflow Cleanup",
+    "Dishwasher Overflow",
+    "Drain and Sink Overflow Cleanup",
+    "Emergency Water Restoration",
+    "Kitchen Sink Overflow Cleanup",
+    "Plumbing Overflow",
+    "Plumbing Overflow Cleanup",
+    "Refrigerator Leak Cleanup",
+    "Remove Water",
+    "Shower and Tub Overflow Cleanup",
+    "Sink Overflow Cleanup",
+    "Sink Overflow Restoration",
+    "Standing Water Removal",
+    "Washing Machine Leak Cleanup",
+    "Water Cleanup",
+    "Water Emergencies",
+    "Water Extraction",
+    "Wet Carpet",
+    "Wet Carpet Drying",
+    "Wet Carpet Dryout"
+  ],
+  "fire-damage-restoration": [
+    "Fire & Smoke Damage",
+    "Fire & Smoke Restoration",
+    "Fire and Smoke Damage Cleanup",
+    "Fire Damage Cleanup",
+    "Fire Damage Cleanup Repair",
+    "Fire Restoration"
+  ],
+  "flood-damage-restoration": [
+    "Flood Damage",
+    "Flood Damage Cleaning",
+    "Flood Restoration",
+    "House Flood Emergency"
+  ],
+  "foundation-installation": [
+    "Concrete Construction",
+    "Concrete Pouring",
+    "Concrete Work",
+    "Foundation Drainage",
+    "Foundation Pouring",
+    "Slab Foundation Construction"
+  ],
+  "general-contracting": [
+    "Bathroom Remodeling",
+    "Building Construction",
+    "Construction",
+    "General Contracting (Reconstruction & Renovation)",
+    "General Repair and Maintenance",
+    "Home Remodeling",
+    "Home Renovation",
+    "Home Repairs",
+    "Home Restoration and Construction",
+    "Install Drywall",
+    "Install Flooring",
+    "Install Tile Work",
+    "Kitchen Remodeling",
+    "New Building Construction",
+    "Paint Outdoors",
+    "Repair Drywall",
+    "Repair Flooring",
+    "Replace Insulation in Attic",
+    "Replace Tile Work",
+    "Residential Remodeling",
+    "Water Damage Painting",
+    "Water Damage Remodeling"
+  ],
+  "mold-inspection-testing": [
+    "Environmental Testing and Hazard Control",
+    "Mold Inspection",
+    "Mold Testing",
+    "Water Damage Mold Inspection"
+  ],
+  "mold-remediation": [
+    "Attic Mold Removal",
+    "Basement Mold Removal",
+    "Bathroom Mold Removal",
+    "Black Mold Removal",
+    "Crawl Space Mold Removal",
+    "Emergency Mold Removal",
+    "Mold Cleaning",
+    "Mold Damage",
+    "Mold Damage Restoration",
+    "Mold Mitigation",
+    "Mold Removal Behind Walls",
+    "Mold Removal Restoration",
+    "Water Damage Mold Removal"
+  ],
+  "post-construction-cleaning": [
+    "Air Duct Cleaning",
+    "Appliance & Equipment Sanitization",
+    "Carpet Cleaning",
+    "Carpet Cleaning & Restoration",
+    "Crawlspace & Attic Sanitation",
+    "Debris Removal",
+    "Deep Clean",
+    "Hard Surface Cleaning",
+    "HVAC Air Duct Cleaning",
+    "Odor Removal & Neutralization",
+    "Pressure Washing",
+    "Steam Cleaned",
+    "Tile Cleaning",
+    "Vent Cleaning"
+  ],
+  "reconstruction": [
+    "Demolition",
+    "Exterior Structural Repairs",
+    "Interior Structural Repairs",
+    "Post-damage Rebuild and Renovation",
+    "Rebuild",
+    "Structural Damages"
+  ],
+  "roofing": [
+    "Asphalt Shingles",
+    "Ice Damming Cleanup",
+    "Re-roofing",
+    "Roof Installation",
+    "Roof Repair",
+    "Roofing Contractor",
+    "Shingles",
+    "Tear Off and Replace Shingles",
+    "Water Damage Roofing"
+  ],
+  "sewage-cleanup": [
+    "Basement Sewage Cleanup",
+    "Category 3 Water Cleanup",
+    "Emergency Sewer Backup",
+    "Sewage Backup Cleanup",
+    "Sewage Cleanup & Remediation",
+    "Sewage Damage Restoration",
+    "Sewage Removal and Cleanup",
+    "Toilet Overflow",
+    "Water Damage Sewage Cleanup"
+  ],
+  "siding-gutters": [
+    "Facia Damage",
+    "Siding and Exterior",
+    "Siding Repair",
+    "Soffit Damage"
+  ],
+  "smoke-damage-restoration": [
+    "Fire Smoke Cleanup",
+    "Smoke Damage",
+    "Soot Removal"
+  ],
+  "storm-damage-restoration": [
+    "Emergency Storm Damage Repair",
+    "Exterior Damage",
+    "Hail Damage",
+    "Hail Damage Repair",
+    "Hail Damage Restoration",
+    "Hurricane Damage Restoration",
+    "Roof Hail Damage",
+    "Storm & Wind Damage Restoration",
+    "Storm Restoration",
+    "Wind Damage",
+    "Wind Damage Repair",
+    "Wind Damage Restoration"
+  ],
+  "water-damage-restoration": [
+    "Attic Water Damage Cleanup",
+    "Carpet Water Extraction",
+    "Dry Out",
+    "Drying Water Damaged Property",
+    "Drywall Water Damage Cleanup",
+    "Emergency Water Damage Cleanup",
+    "Emergency Water Mitigation",
+    "Hardwood Floor Water Damage",
+    "Home Water Damage",
+    "House Water Damage",
+    "Laminate Floor Water Damage",
+    "Structural and Moisture Mitigation",
+    "Structural Drying",
+    "Vapor Barrier",
+    "Water and Moisture Control",
+    "Water Damage",
+    "Water Damage Cleanup Repair",
+    "Water Damage Drying",
+    "Water Damage Flooring",
+    "Water Damage Repair",
+    "Water Damage Repairs and Restoration",
+    "Water Damage Under Flooring",
+    "Water Removal",
+    "Wet Drywall Repair",
+    "Winter Water Damage",
+    "Wood Floor Water Damage Repair"
+  ],
+  "water-heater-flood-cleanup": [
+    "Appliance Leak Cleanup",
+    "Appliance Leak Restoration",
+    "Busted Hot Water Heater",
+    "Flood Cleanup",
+    "Water Heater Leak Cleanup",
+    "Water Heater Spill Cleanup"
+  ],
+  "water-leak-detection": [
+    "A/C Unit Drain Overflow",
+    "A/C Unit Overflow",
+    "Air Conditioner Condenser Leak",
+    "Moisture Readings"
+  ]
+}

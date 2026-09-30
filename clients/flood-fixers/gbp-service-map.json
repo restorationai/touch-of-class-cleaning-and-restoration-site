@@ -59,15 +59,10 @@
       "at": "2026-09-30"
     },
     "Biohazard Cleanup": {
-      "verdict": "new_page",
+      "verdict": "declined",
       "page": null,
-      "source": "claude",
-      "head_term": "biohazard cleanup",
-      "volume": {
-        "metro": 30,
-        "metro_label": "San Diego, California"
-      },
-      "reason": "Different hazard cleanup service, no existing page covers it",
+      "reason": "not in the truth table (water damage + GC only); no page built without client confirmation",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Burst Pipe Cleanup and Repair": {

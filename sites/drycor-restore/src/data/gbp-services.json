@@ -1,0 +1,132 @@
+{
+  "burst-pipe-repair": [
+    "Burst Pipe Water Damage Cleanup",
+    "Toilet & Pipe Leak Cleanup"
+  ],
+  "ceiling-water-damage-repair": [
+    "Ceiling Collapse Repairs",
+    "Roof Leak Water Damage",
+    "Roof Leak Water Damage Cleanup"
+  ],
+  "commercial-restoration": [
+    "Commercial & Multifamily Disaster Recovery"
+  ],
+  "contents-restoration-storage": [
+    "Contents Packing & Storage"
+  ],
+  "emergency-board-up-tarping": [
+    "Emergency Board Up",
+    "Emergency Board-up & Stabilization",
+    "Emergency Tarping"
+  ],
+  "emergency-water-removal": [
+    "24/7 Emergency Water Cleanup",
+    "Appliance Leak Water Damage Cleanup",
+    "Dishwasher Leak Water Damage Cleanup",
+    "Standing Water Removal",
+    "Washing Machine Leak Cleanup",
+    "Water Extraction"
+  ],
+  "fire-damage-restoration": [
+    "Fire & Smoke Restoration",
+    "Fire and Smoke Damage Cleanup",
+    "Fire Damage Cleanup",
+    "Fire Damage Cleanup & Restoration",
+    "Structural Cleaning After Fire"
+  ],
+  "flood-damage-restoration": [
+    "Flood Restoration"
+  ],
+  "general-contracting": [
+    "General Contracting (Reconstruction & Renovation)",
+    "Painting",
+    "Remodeling"
+  ],
+  "large-loss-response": [
+    "Disaster Recovery"
+  ],
+  "mold-inspection-testing": [
+    "Mold & Moisture Assessments",
+    "Mold Inspection",
+    "Mold Testing"
+  ],
+  "mold-remediation": [
+    "Antimicrobial Treatment",
+    "Attic Mold Removal",
+    "Basement Mold Removal",
+    "Bathroom Mold Removal",
+    "Black Mold Removal",
+    "Crawl Space Mold Removal",
+    "Emergency Mold Removal",
+    "HEPA Air Filtration",
+    "Mold Cleaning",
+    "Mold Cleaning & Treatment",
+    "Mold Containment",
+    "Mold Damage Restoration",
+    "Mold Mitigation",
+    "Mold Removal Behind Walls"
+  ],
+  "reconstruction": [
+    "Drywall Repair & Replacement",
+    "Fire Damage Reconstruction",
+    "Flooring Repair & Replacement",
+    "Post-loss Reconstruction",
+    "Roofing Repairs and Replacement",
+    "Structural Cleaning and Restoration",
+    "Structural Repairs",
+    "Water Damage Reconstruction",
+    "Window and Door Replacement"
+  ],
+  "sewage-cleanup": [
+    "Basement Sewage Cleanup",
+    "Category 3 Water Cleanup",
+    "Deodorization & Sanitizing",
+    "Environmental Disinfection",
+    "Sewage Backup Cleanup",
+    "Sewage Cleanup & Remediation",
+    "Toilet Leak & Overflow Cleanup"
+  ],
+  "smoke-damage-restoration": [
+    "Odor Removal",
+    "Smoke Damage Cleanup",
+    "Smoke Odor Removal",
+    "Soot Removal",
+    "Soot Removal & Cleaning"
+  ],
+  "storm-damage-restoration": [
+    "Emergency Storm Damage Repair",
+    "Hurricane Damage Restoration",
+    "Storm & Catastrophe Recovery",
+    "Storm & Wind Damage Restoration",
+    "Storm Damage Cleanup and Restoration",
+    "Wind Damage Repair"
+  ],
+  "water-damage-restoration": [
+    "Applied Structural Drying",
+    "Carpet Water Damage",
+    "Carpet Water Extraction",
+    "Damage Assessment",
+    "Drying & Dehumidification",
+    "Hardwood Floor Water Damage",
+    "Laminate Floor Water Damage",
+    "Storm Water Damage Restoration",
+    "Water Damage Cleanup & Restoration",
+    "Water Damage Repair",
+    "Water Damage Under Flooring",
+    "Water Loss",
+    "Water Mitigation",
+    "Wet Carpet & Flooring Drying",
+    "Wet Carpet Drying",
+    "Wet Drywall Repair",
+    "Wood Floor Water Damage Repair"
+  ],
+  "water-heater-flood-cleanup": [
+    "Flood Cleanup",
+    "Water Heater Leaks"
+  ],
+  "water-leak-detection": [
+    "Roof Leak Detection",
+    "Water Leaking",
+    "Window & Door Leaks"
+  ]
+}

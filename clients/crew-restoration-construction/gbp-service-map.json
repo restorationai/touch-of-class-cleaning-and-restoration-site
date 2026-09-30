@@ -489,9 +489,10 @@
       "at": "2026-09-30"
     },
     "Construction company": {
-      "verdict": "held",
-      "page": null,
-      "reason": "not classified yet",
+      "verdict": "mapped",
+      "page": "general-contracting",
+      "reason": "GBP category = general contracting (truth table)",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Construction Management": {
@@ -544,9 +545,10 @@
       "at": "2026-09-30"
     },
     "Debris removal service": {
-      "verdict": "held",
-      "page": null,
-      "reason": "not classified yet",
+      "verdict": "mapped",
+      "page": "post-construction-cleaning",
+      "reason": "debris removal rides post-construction & specialty cleaning (truth table)",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Deck Construction": {
@@ -1470,9 +1472,10 @@
       "at": "2026-09-30"
     },
     "Roofing contractor": {
-      "verdict": "held",
-      "page": null,
-      "reason": "not classified yet",
+      "verdict": "mapped",
+      "page": "roofing",
+      "reason": "GBP category = the roofing page (truth: Roofing Services)",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Roofing Services": {
@@ -2025,10 +2028,10 @@
       "at": "2026-09-30"
     },
     "Window & Glass Cleaning": {
-      "verdict": "mapped",
-      "page": "post-construction-cleaning",
-      "source": "claude",
-      "reason": "Specialty cleaning task",
+      "verdict": "declined",
+      "page": null,
+      "reason": "audit 09-30: window washing is not a Crew service (truth table); was mis-mapped to post-construction cleaning",
+      "source": "review",
       "at": "2026-09-30"
     },
     "window damage": {

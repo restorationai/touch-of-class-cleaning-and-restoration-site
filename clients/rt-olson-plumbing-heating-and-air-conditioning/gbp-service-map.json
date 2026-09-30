@@ -143,9 +143,10 @@
       "at": "2026-09-30"
     },
     "Dryer vent cleaning service": {
-      "verdict": "held",
-      "page": null,
-      "reason": "not classified yet",
+      "verdict": "mapped",
+      "page": "air-duct-cleaning",
+      "reason": "rides the HVAC duct cleaning line (truth table)",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Ductless Heating And Ac Services": {
@@ -499,9 +500,10 @@
       "at": "2026-09-30"
     },
     "Plumber": {
-      "verdict": "held",
-      "page": null,
-      "reason": "not classified yet",
+      "verdict": "mapped",
+      "page": "all-plumbing-services",
+      "reason": "GBP category = the all plumbing services page",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Plumbing": {
@@ -964,9 +966,9 @@
     },
     "Water Main Line Repair": {
       "verdict": "mapped",
-      "page": "drain-sewer-repairs",
-      "source": "claude",
-      "reason": "Main line repair variant",
+      "page": "slab-leak-and-pipe-repair",
+      "reason": "audit 09-30: a water main is a supply pipe, not a drain/sewer; pipe repair page",
+      "source": "review",
       "at": "2026-09-30"
     },
     "Water Softeners and Filtration Systems": {
