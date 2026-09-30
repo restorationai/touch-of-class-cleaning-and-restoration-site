@@ -9,7 +9,7 @@ companies.integration_settings.call_tracking.
 
 The canonical number policy: the REAL number stays on all citations and as
 the GBP additional phone; tracking numbers go on the website and as the GBP
-primary only (gbp.py set-phone does that swap separately, human-triggered).
+primary only (gbp.py set-phone does that swap separately; it KEEPS the listing's existing number as the secondary phone, 2026-09-30).
 
 Usage:
   python3 scripts/call_tracking.py provision --slug restorationxpress --source gbp

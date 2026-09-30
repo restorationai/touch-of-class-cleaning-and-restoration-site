@@ -593,8 +593,11 @@ def cmd_reviews(args) -> int:
 
 def set_phone(slug: str) -> str:
     """Call-tracking phone swap (Santino 2026-07-28): tracking number becomes
-    the GBP PRIMARY phone, the real number moves to additionalPhones — the
-    Google-supported attribution pattern; citations keep the real number.
+    the GBP PRIMARY phone. PROTOCOL (Santino 2026-09-30, Dry1 Out): the number
+    the Google listing ALREADY shows is kept on the profile as the additional
+    (secondary) phone, always; companies.phone is never written over it, and a
+    mismatch between the two is flagged to Santino, never silently resolved.
+    That keeps NAP consistent; citations and the site keep the real number.
     Reads the number from integration_settings.call_tracking.gbp (set by
     scripts/call_tracking.py). Run ONLY after a human test call confirms
     forwarding works."""
@@ -635,6 +638,18 @@ def set_phone(slug: str) -> str:
         log_change(cid, "phone_mismatch",
                    f"Google listed {listed} but our records say {real}; kept {listed} "
                    "on the profile. Confirm the business line with the client.")
+        _sb_post_note = {"company_id": cid, "author": "gbp-set-phone", "status": "open",
+                         "body": (f"[TODO-SANTINO] PHONE MISMATCH at the tracking swap for {slug}: "
+                                  f"the Google listing's own number is {listed}, our records say "
+                                  f"{real}. Kept {listed} on the profile as the second number. "
+                                  "Confirm the real business line with the client and fix "
+                                  "companies.phone (it drives call forwarding, the site and citations).")}
+        try:
+            requests.post(f"{SB_URL}/rest/v1/marketing_ops_notes", json=_sb_post_note, timeout=30,
+                          headers={"apikey": SB_KEY, "Authorization": f"Bearer {SB_KEY}",
+                                   "Content-Type": "application/json", "Prefer": "return=minimal"})
+        except Exception:  # noqa: BLE001
+            pass
     body = {"phoneNumbers": {"primaryPhone": tracking, "additionalPhones": keep}}
     r = requests.patch(f"{INFO_API}/{loc['name']}?updateMask=phoneNumbers",
                        headers={"Authorization": f"Bearer {token}",
