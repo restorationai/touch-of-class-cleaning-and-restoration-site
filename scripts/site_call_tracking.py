@@ -144,7 +144,9 @@ def patch_site(slug: str, number: str, dry_run: bool,
         changed.append("brand.ts (fields added)")
 
     layout = layout_path.read_text()
-    if DNI_MARKER not in layout:
+    # Since c46991020 the swap lives in components/DniSwap.astro; a layout
+    # that renders <DniSwap /> is already wired.
+    if DNI_MARKER not in layout and "<DniSwap" not in layout:
         if "</body>" not in layout:
             print(f"  !! {slug}: </body> not found in BaseLayout — SKIP")
             return False
