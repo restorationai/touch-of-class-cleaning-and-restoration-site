@@ -291,10 +291,10 @@
     },
     {
       "id": "2026-09-18-water-damage-behind-walls-little-falls-mn",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-18T23:20:00Z",
-      "written_at": null,
-      "post_url": null,
+      "written_at": "2026-09-30T01:27:24Z",
+      "post_url": "https://heritagermn.com/blog/water-damage-behind-walls-little-falls-mn/",
       "priority": 1,
       "primary_keyword": "how do i know if there is water damage behind my walls",
       "intent": "informational",
