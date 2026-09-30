@@ -8,7 +8,7 @@ secondary_keywords: ["vandalism cleanup", "graffiti removal", "post-vandalism re
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "58687faf8f01d8bb"
-generated_at: "2026-09-24T23:27:17.506695+00:00"
+generated_at: "2026-09-30T14:12:21.591093+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-cleanup/", "/service-areas/lake-holm-wa/", "/service-areas/lake-holm-wa/fire-damage-restoration/", "/service-areas/lake-holm-wa/mold-remediation/", "/service-areas/algona-wa/vandalism-cleanup/", "/service-areas/auburn-wa/vandalism-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Holm", "url": "/service-areas/lake-holm-wa/"}, {"name": "Vandalism Cleanup"}]

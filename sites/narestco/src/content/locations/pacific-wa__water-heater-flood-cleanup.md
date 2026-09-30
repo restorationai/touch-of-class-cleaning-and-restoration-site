@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "133142b50b27ac4c"
-generated_at: "2026-09-29T23:29:54.951198+00:00"
+generated_at: "2026-09-30T14:12:21.506752+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/pacific-wa/", "/service-areas/pacific-wa/fire-damage-restoration/", "/service-areas/pacific-wa/mold-remediation/", "/service-areas/algona-wa/water-heater-flood-cleanup/", "/service-areas/auburn-wa/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pacific", "url": "/service-areas/pacific-wa/"}, {"name": "Water Heater Flood Cleanup"}]

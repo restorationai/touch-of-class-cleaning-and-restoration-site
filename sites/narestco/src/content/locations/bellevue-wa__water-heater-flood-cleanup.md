@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "4386b3ba77e2d511"
-generated_at: "2026-09-29T23:29:54.883017+00:00"
+generated_at: "2026-09-30T14:12:21.354201+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/bellevue-wa/", "/service-areas/bellevue-wa/fire-damage-restoration/", "/service-areas/bellevue-wa/mold-remediation/", "/service-areas/algona-wa/water-heater-flood-cleanup/", "/service-areas/auburn-wa/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bellevue", "url": "/service-areas/bellevue-wa/"}, {"name": "Water Heater Flood Cleanup"}]

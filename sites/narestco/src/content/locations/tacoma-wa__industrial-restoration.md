@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "f5dabbbf570b0114"
-generated_at: "2026-09-29T23:29:54.891679+00:00"
+generated_at: "2026-09-30T14:12:21.359101+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/tacoma-wa/", "/service-areas/tacoma-wa/fire-damage-restoration/", "/service-areas/tacoma-wa/mold-remediation/", "/service-areas/algona-wa/industrial-restoration/", "/service-areas/auburn-wa/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tacoma", "url": "/service-areas/tacoma-wa/"}, {"name": "Industrial Restoration"}]

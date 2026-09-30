@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "a53ae009f3795e8c"
-generated_at: "2026-09-29T23:29:54.927236+00:00"
+generated_at: "2026-09-30T14:12:21.406653+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/redmond-wa/", "/service-areas/redmond-wa/fire-damage-restoration/", "/service-areas/redmond-wa/mold-remediation/", "/service-areas/algona-wa/water-heater-flood-cleanup/", "/service-areas/auburn-wa/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Redmond", "url": "/service-areas/redmond-wa/"}, {"name": "Water Heater Flood Cleanup"}]

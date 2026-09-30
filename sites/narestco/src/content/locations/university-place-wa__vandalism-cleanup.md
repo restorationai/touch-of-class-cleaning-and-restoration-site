@@ -8,7 +8,7 @@ secondary_keywords: ["vandalism cleanup", "graffiti removal", "post-vandalism re
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "0e096e6ff3264766"
-generated_at: "2026-09-24T23:27:17.385816+00:00"
+generated_at: "2026-09-30T14:12:21.435168+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-cleanup/", "/service-areas/university-place-wa/", "/service-areas/university-place-wa/fire-damage-restoration/", "/service-areas/university-place-wa/mold-remediation/", "/service-areas/algona-wa/vandalism-cleanup/", "/service-areas/auburn-wa/vandalism-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "University Place", "url": "/service-areas/university-place-wa/"}, {"name": "Vandalism Cleanup"}]

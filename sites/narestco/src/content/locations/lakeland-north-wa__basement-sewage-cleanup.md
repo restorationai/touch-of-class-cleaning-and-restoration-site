@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "f8b4bfc157efb558"
-generated_at: "2026-09-29T23:29:54.938154+00:00"
+generated_at: "2026-09-30T14:12:21.437869+00:00"
 manual_override: false
 internal_links: ["/services/basement-sewage-cleanup/", "/service-areas/lakeland-north-wa/", "/service-areas/lakeland-north-wa/fire-damage-restoration/", "/service-areas/lakeland-north-wa/mold-remediation/", "/service-areas/algona-wa/basement-sewage-cleanup/", "/service-areas/auburn-wa/basement-sewage-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lakeland North", "url": "/service-areas/lakeland-north-wa/"}, {"name": "Basement Sewage Cleanup"}]

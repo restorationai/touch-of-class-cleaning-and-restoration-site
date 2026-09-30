@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "fc2e43a5c41e3bb6"
-generated_at: "2026-09-29T23:29:54.941352+00:00"
+generated_at: "2026-09-30T14:12:21.454561+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/des-moines-wa/", "/service-areas/des-moines-wa/fire-damage-restoration/", "/service-areas/des-moines-wa/mold-remediation/", "/service-areas/algona-wa/industrial-restoration/", "/service-areas/auburn-wa/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Des Moines", "url": "/service-areas/des-moines-wa/"}, {"name": "Industrial Restoration"}]

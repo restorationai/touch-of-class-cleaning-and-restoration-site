@@ -8,7 +8,7 @@ secondary_keywords: ["vandalism cleanup", "graffiti removal", "post-vandalism re
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "d68e7389758756aa"
-generated_at: "2026-09-24T23:27:17.332876+00:00"
+generated_at: "2026-09-30T14:12:21.346272+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-cleanup/", "/service-areas/seattle-wa/", "/service-areas/seattle-wa/fire-damage-restoration/", "/service-areas/seattle-wa/mold-remediation/", "/service-areas/algona-wa/vandalism-cleanup/", "/service-areas/auburn-wa/vandalism-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Seattle", "url": "/service-areas/seattle-wa/"}, {"name": "Vandalism Cleanup"}]

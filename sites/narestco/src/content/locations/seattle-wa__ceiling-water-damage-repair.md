@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "7f364980b390d579"
-generated_at: "2026-09-29T23:29:54.879811+00:00"
+generated_at: "2026-09-30T14:12:21.342077+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/seattle-wa/", "/service-areas/seattle-wa/fire-damage-restoration/", "/service-areas/seattle-wa/mold-remediation/", "/service-areas/algona-wa/ceiling-water-damage-repair/", "/service-areas/auburn-wa/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Seattle", "url": "/service-areas/seattle-wa/"}, {"name": "Ceiling Water Damage Repair"}]

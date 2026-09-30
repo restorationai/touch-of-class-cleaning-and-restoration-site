@@ -8,7 +8,7 @@ secondary_keywords: ["vandalism cleanup", "graffiti removal", "post-vandalism re
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "a7ae012dd0b731a7"
-generated_at: "2026-09-24T23:27:17.354814+00:00"
+generated_at: "2026-09-30T14:12:21.384077+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-cleanup/", "/service-areas/renton-wa/", "/service-areas/renton-wa/fire-damage-restoration/", "/service-areas/renton-wa/mold-remediation/", "/service-areas/algona-wa/vandalism-cleanup/", "/service-areas/auburn-wa/vandalism-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Renton", "url": "/service-areas/renton-wa/"}, {"name": "Vandalism Cleanup"}]

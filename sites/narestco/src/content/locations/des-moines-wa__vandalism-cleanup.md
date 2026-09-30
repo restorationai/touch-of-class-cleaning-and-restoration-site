@@ -8,7 +8,7 @@ secondary_keywords: ["vandalism cleanup", "graffiti removal", "post-vandalism re
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "de1f17e0dd1145ea"
-generated_at: "2026-09-24T23:27:17.404121+00:00"
+generated_at: "2026-09-30T14:12:21.458881+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-cleanup/", "/service-areas/des-moines-wa/", "/service-areas/des-moines-wa/fire-damage-restoration/", "/service-areas/des-moines-wa/mold-remediation/", "/service-areas/algona-wa/vandalism-cleanup/", "/service-areas/auburn-wa/vandalism-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Des Moines", "url": "/service-areas/des-moines-wa/"}, {"name": "Vandalism Cleanup"}]

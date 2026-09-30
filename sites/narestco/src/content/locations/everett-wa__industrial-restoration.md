@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "1a62f8d51eca95e7"
-generated_at: "2026-09-29T23:29:54.898913+00:00"
+generated_at: "2026-09-30T14:12:21.366534+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/everett-wa/", "/service-areas/everett-wa/fire-damage-restoration/", "/service-areas/everett-wa/mold-remediation/", "/service-areas/algona-wa/industrial-restoration/", "/service-areas/auburn-wa/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Everett", "url": "/service-areas/everett-wa/"}, {"name": "Industrial Restoration"}]

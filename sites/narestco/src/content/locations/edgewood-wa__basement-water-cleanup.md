@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "8d7fb3a84016418f"
-generated_at: "2026-09-29T23:29:54.954445+00:00"
+generated_at: "2026-09-30T14:12:21.520764+00:00"
 manual_override: false
 internal_links: ["/services/basement-water-cleanup/", "/service-areas/edgewood-wa/", "/service-areas/edgewood-wa/fire-damage-restoration/", "/service-areas/edgewood-wa/mold-remediation/", "/service-areas/algona-wa/basement-water-cleanup/", "/service-areas/auburn-wa/basement-water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Edgewood", "url": "/service-areas/edgewood-wa/"}, {"name": "Basement Water Cleanup"}]

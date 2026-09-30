@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "78f332136f40d780"
-generated_at: "2026-09-29T23:29:54.924353+00:00"
+generated_at: "2026-09-30T14:12:21.394711+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/kirkland-wa/", "/service-areas/kirkland-wa/fire-damage-restoration/", "/service-areas/kirkland-wa/mold-remediation/", "/service-areas/algona-wa/commercial-restoration/", "/service-areas/auburn-wa/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Kirkland", "url": "/service-areas/kirkland-wa/"}, {"name": "Commercial Restoration"}]

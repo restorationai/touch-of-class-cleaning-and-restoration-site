@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "642d6add33b6b640"
-generated_at: "2026-09-29T23:29:54.918217+00:00"
+generated_at: "2026-09-30T14:12:21.371524+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/kent-wa/", "/service-areas/kent-wa/fire-damage-restoration/", "/service-areas/kent-wa/mold-remediation/", "/service-areas/algona-wa/commercial-restoration/", "/service-areas/auburn-wa/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Kent", "url": "/service-areas/kent-wa/"}, {"name": "Commercial Restoration"}]

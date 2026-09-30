@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "fbf5b8f2ddf786ae"
-generated_at: "2026-09-29T23:29:54.899263+00:00"
+generated_at: "2026-09-30T14:12:21.368890+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/everett-wa/", "/service-areas/everett-wa/fire-damage-restoration/", "/service-areas/everett-wa/mold-remediation/", "/service-areas/algona-wa/water-heater-flood-cleanup/", "/service-areas/auburn-wa/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Everett", "url": "/service-areas/everett-wa/"}, {"name": "Water Heater Flood Cleanup"}]

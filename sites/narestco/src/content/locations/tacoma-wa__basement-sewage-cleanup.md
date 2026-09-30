@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "51a8167c1f3c87ed"
-generated_at: "2026-09-29T23:29:54.883553+00:00"
+generated_at: "2026-09-30T14:12:21.355757+00:00"
 manual_override: false
 internal_links: ["/services/basement-sewage-cleanup/", "/service-areas/tacoma-wa/", "/service-areas/tacoma-wa/fire-damage-restoration/", "/service-areas/tacoma-wa/mold-remediation/", "/service-areas/algona-wa/basement-sewage-cleanup/", "/service-areas/auburn-wa/basement-sewage-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tacoma", "url": "/service-areas/tacoma-wa/"}, {"name": "Basement Sewage Cleanup"}]

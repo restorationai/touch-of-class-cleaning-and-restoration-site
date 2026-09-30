@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "c40194ce068f22cf"
-generated_at: "2026-09-29T23:29:54.926932+00:00"
+generated_at: "2026-09-30T14:12:21.404244+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/redmond-wa/", "/service-areas/redmond-wa/fire-damage-restoration/", "/service-areas/redmond-wa/mold-remediation/", "/service-areas/algona-wa/industrial-restoration/", "/service-areas/auburn-wa/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Redmond", "url": "/service-areas/redmond-wa/"}, {"name": "Industrial Restoration"}]

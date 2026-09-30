@@ -8,7 +8,7 @@ secondary_keywords: ["vandalism cleanup", "graffiti removal", "post-vandalism re
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "5e0de3abece3843e"
-generated_at: "2026-09-24T23:27:17.341775+00:00"
+generated_at: "2026-09-30T14:12:21.360856+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-cleanup/", "/service-areas/tacoma-wa/", "/service-areas/tacoma-wa/fire-damage-restoration/", "/service-areas/tacoma-wa/mold-remediation/", "/service-areas/algona-wa/vandalism-cleanup/", "/service-areas/auburn-wa/vandalism-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tacoma", "url": "/service-areas/tacoma-wa/"}, {"name": "Vandalism Cleanup"}]

@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "fb09a18a87d04453"
-generated_at: "2026-09-29T23:29:54.974155+00:00"
+generated_at: "2026-09-30T14:12:21.620004+00:00"
 manual_override: false
 internal_links: ["/services/basement-water-cleanup/", "/service-areas/north-puyallup-wa/", "/service-areas/north-puyallup-wa/fire-damage-restoration/", "/service-areas/north-puyallup-wa/mold-remediation/", "/service-areas/algona-wa/basement-water-cleanup/", "/service-areas/auburn-wa/basement-water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Puyallup", "url": "/service-areas/north-puyallup-wa/"}, {"name": "Basement Water Cleanup"}]

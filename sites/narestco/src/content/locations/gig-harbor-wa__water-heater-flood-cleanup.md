@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "9f0a090a6ab95dfb"
-generated_at: "2026-09-29T23:29:54.930073+00:00"
+generated_at: "2026-09-30T14:12:21.414022+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/gig-harbor-wa/", "/service-areas/gig-harbor-wa/fire-damage-restoration/", "/service-areas/gig-harbor-wa/mold-remediation/", "/service-areas/algona-wa/water-heater-flood-cleanup/", "/service-areas/auburn-wa/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gig Harbor", "url": "/service-areas/gig-harbor-wa/"}, {"name": "Water Heater Flood Cleanup"}]

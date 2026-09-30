@@ -8,7 +8,7 @@ secondary_keywords: ["vandalism cleanup", "graffiti removal", "post-vandalism re
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "382198236beb5ec8"
-generated_at: "2026-09-24T23:27:17.350482+00:00"
+generated_at: "2026-09-30T14:12:21.375432+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-cleanup/", "/service-areas/kent-wa/", "/service-areas/kent-wa/fire-damage-restoration/", "/service-areas/kent-wa/mold-remediation/", "/service-areas/algona-wa/vandalism-cleanup/", "/service-areas/auburn-wa/vandalism-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Kent", "url": "/service-areas/kent-wa/"}, {"name": "Vandalism Cleanup"}]

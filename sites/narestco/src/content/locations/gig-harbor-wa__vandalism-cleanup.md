@@ -8,7 +8,7 @@ secondary_keywords: ["vandalism cleanup", "graffiti removal", "post-vandalism re
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "42731290f2d3c957"
-generated_at: "2026-09-24T23:27:17.372598+00:00"
+generated_at: "2026-09-30T14:12:21.413295+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-cleanup/", "/service-areas/gig-harbor-wa/", "/service-areas/gig-harbor-wa/fire-damage-restoration/", "/service-areas/gig-harbor-wa/mold-remediation/", "/service-areas/algona-wa/vandalism-cleanup/", "/service-areas/auburn-wa/vandalism-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gig Harbor", "url": "/service-areas/gig-harbor-wa/"}, {"name": "Vandalism Cleanup"}]

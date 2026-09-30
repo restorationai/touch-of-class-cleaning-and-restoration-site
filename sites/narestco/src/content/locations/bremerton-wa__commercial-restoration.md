@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "123f3ac1254f7134"
-generated_at: "2026-09-29T23:29:54.931307+00:00"
+generated_at: "2026-09-30T14:12:21.416645+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/bremerton-wa/", "/service-areas/bremerton-wa/fire-damage-restoration/", "/service-areas/bremerton-wa/mold-remediation/", "/service-areas/algona-wa/commercial-restoration/", "/service-areas/auburn-wa/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bremerton", "url": "/service-areas/bremerton-wa/"}, {"name": "Commercial Restoration"}]

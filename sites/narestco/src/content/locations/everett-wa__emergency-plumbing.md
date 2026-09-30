@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "6987fd5f02a1f070"
-generated_at: "2026-09-29T23:29:54.898524+00:00"
+generated_at: "2026-09-30T14:12:21.365609+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/everett-wa/", "/service-areas/everett-wa/fire-damage-restoration/", "/service-areas/everett-wa/mold-remediation/", "/service-areas/algona-wa/emergency-plumbing/", "/service-areas/auburn-wa/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Everett", "url": "/service-areas/everett-wa/"}, {"name": "Emergency Plumbing"}]

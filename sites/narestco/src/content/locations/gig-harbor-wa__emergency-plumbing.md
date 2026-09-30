@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "272440c08a1ef37c"
-generated_at: "2026-09-29T23:29:54.929120+00:00"
+generated_at: "2026-09-30T14:12:21.410619+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/gig-harbor-wa/", "/service-areas/gig-harbor-wa/fire-damage-restoration/", "/service-areas/gig-harbor-wa/mold-remediation/", "/service-areas/algona-wa/emergency-plumbing/", "/service-areas/auburn-wa/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gig Harbor", "url": "/service-areas/gig-harbor-wa/"}, {"name": "Emergency Plumbing"}]

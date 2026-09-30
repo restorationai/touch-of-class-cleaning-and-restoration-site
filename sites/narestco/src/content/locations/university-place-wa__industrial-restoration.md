@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "6604b70fc2850999"
-generated_at: "2026-09-29T23:29:54.936879+00:00"
+generated_at: "2026-09-30T14:12:21.433441+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/university-place-wa/", "/service-areas/university-place-wa/fire-damage-restoration/", "/service-areas/university-place-wa/mold-remediation/", "/service-areas/algona-wa/industrial-restoration/", "/service-areas/auburn-wa/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "University Place", "url": "/service-areas/university-place-wa/"}, {"name": "Industrial Restoration"}]

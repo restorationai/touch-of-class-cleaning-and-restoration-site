@@ -8,7 +8,7 @@ secondary_keywords: ["vandalism cleanup", "graffiti removal", "post-vandalism re
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "310e5fb9f6d9bafc"
-generated_at: "2026-09-24T23:27:17.432024+00:00"
+generated_at: "2026-09-30T14:12:21.494322+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-cleanup/", "/service-areas/milton-wa/", "/service-areas/milton-wa/fire-damage-restoration/", "/service-areas/milton-wa/mold-remediation/", "/service-areas/algona-wa/vandalism-cleanup/", "/service-areas/auburn-wa/vandalism-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Milton", "url": "/service-areas/milton-wa/"}, {"name": "Vandalism Cleanup"}]
