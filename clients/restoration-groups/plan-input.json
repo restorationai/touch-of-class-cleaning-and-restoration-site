@@ -1,6 +1,6 @@
 {
-  "_source": "Built 2026-07-10 from clients/restoration-groups/intel/audit-2026-07-09.md + the 2026-07-08 onboarding call (call facts OVERRIDE the audit where they conflict — audit covered the old 'Elite Restoration Group' identity). Preview promised 7/13, review call 7/15.",
-  "_claims_policy": "CLAIMABLE: founded 2021 / 'since 2021' (owner-stated; matches domain registration 2021-12); IICRC Certified Firm #210213 (owner stated on recorded call); 24/7 (GBP open 24h); 60-minute emergency response (owner attested — template default kept ON, response_minutes=60); 'NJ Licensed Home Improvement Contractor' TEXT ONLY. WITHHELD: the specific NJ HIC number (digits unverified — never print until DCA-verified); BBB accreditation (audit: NO BBB profile exists — old site's badge was unsupported, do NOT carry it over); '20+ years' / '13 years' tenure claims (contradictory, replaced by 'since 2021'); star ratings in copy (GBP fields sync-only via sync_brand_reviews.py).",
+  "_source": "Built 2026-07-10 from clients/restoration-groups/intel/audit-2026-07-09.md + the 2026-07-08 onboarding call (call facts OVERRIDE the audit where they conflict \u2014 audit covered the old 'Elite Restoration Group' identity). Preview promised 7/13, review call 7/15.",
+  "_claims_policy": "CLAIMABLE: founded 2021 / 'since 2021' (owner-stated; matches domain registration 2021-12); IICRC Certified Firm #210213 (owner stated on recorded call); 24/7 (GBP open 24h); 60-minute emergency response (owner attested \u2014 template default kept ON, response_minutes=60); 'NJ Licensed Home Improvement Contractor' TEXT ONLY. WITHHELD: the specific NJ HIC number (digits unverified \u2014 never print until DCA-verified); BBB accreditation (audit: NO BBB profile exists \u2014 old site's badge was unsupported, do NOT carry it over); '20+ years' / '13 years' tenure claims (contradictory, replaced by 'since 2021'); star ratings in copy (GBP fields sync-only via sync_brand_reviews.py).",
   "_intake_pending": [
     "NJ HIC number verification (13VH... digits) -> license_numbers",
     "legal entity suffix (Schwarz Enterprises LLC/Inc?)",
@@ -17,8 +17,10 @@
     "burst-pipe-repair",
     "commercial-restoration",
     "contents-restoration-pack-out",
+    "contents-restoration-storage",
     "crawl-space-encapsulation",
     "emergency-board-up-tarping",
+    "emergency-water-removal",
     "fire-damage-restoration",
     "flood-damage-restoration",
     "mold-inspection-testing",
@@ -27,7 +29,6 @@
     "sewage-cleanup",
     "smoke-damage-restoration",
     "storm-damage-restoration",
-    "emergency-water-removal",
     "water-damage-restoration"
   ],
   "service_areas": [
@@ -54,7 +55,7 @@
       "zip_codes": [
         "07033"
       ],
-      "local_notes": "Home base — our headquarters is on S 31st Street, so Kenilworth emergencies get the fastest truck roll we can offer anywhere. This square-mile Union County borough is 1920s-1950s capes and colonials on full basements: sump-pump failures, water-heater lets-go and laundry-line bursts are the everyday losses. Black Brook and its storm drains back up in cloudbursts — Ida (September 2021) put water in basements across the borough — and the Monroe Avenue/Market Street industrial corridor plus the redeveloping Merck campus add commercial water and fire work. Older galvanized supply lines and clay sewer laterals in the prewar housing stock drive burst-pipe and sewage-backup calls year-round."
+      "local_notes": "Home base \u2014 our headquarters is on S 31st Street, so Kenilworth emergencies get the fastest truck roll we can offer anywhere. This square-mile Union County borough is 1920s-1950s capes and colonials on full basements: sump-pump failures, water-heater lets-go and laundry-line bursts are the everyday losses. Black Brook and its storm drains back up in cloudbursts \u2014 Ida (September 2021) put water in basements across the borough \u2014 and the Monroe Avenue/Market Street industrial corridor plus the redeveloping Merck campus add commercial water and fire work. Older galvanized supply lines and clay sewer laterals in the prewar housing stock drive burst-pipe and sewage-backup calls year-round."
     },
     {
       "city": "Union",
@@ -80,7 +81,7 @@
         "07083",
         "07088"
       ],
-      "local_notes": "Union Township borders Kenilworth directly — crews are minutes away. Dense postwar housing (1940s-60s capes, split-levels and colonials) means original supply plumbing and cast-iron drains failing on schedule, nearly all on finished or semi-finished basements. The Elizabeth River and Rahway River tributaries thread through town and jumped their banks during Ida; low spots off Morris Avenue and Vauxhall flood in hard summer storms. The Route 22 corridor's big-box retail and restaurants generate sprinkler-discharge, roof-leak and overnight commercial losses, and Kean University adds student-housing water events."
+      "local_notes": "Union Township borders Kenilworth directly \u2014 crews are minutes away. Dense postwar housing (1940s-60s capes, split-levels and colonials) means original supply plumbing and cast-iron drains failing on schedule, nearly all on finished or semi-finished basements. The Elizabeth River and Rahway River tributaries thread through town and jumped their banks during Ida; low spots off Morris Avenue and Vauxhall flood in hard summer storms. The Route 22 corridor's big-box retail and restaurants generate sprinkler-discharge, roof-leak and overnight commercial losses, and Kean University adds student-housing water events."
     },
     {
       "city": "Elizabeth",
@@ -109,7 +110,7 @@
         "07206",
         "07208"
       ],
-      "local_notes": "New Jersey's fourth-largest city and a ten-minute run from our Kenilworth shop. Housing skews to early-1900s multifamily — two- and three-family frame homes packed tight, where one burst riser or kitchen fire affects multiple households and landlords need fast, documented mitigation. The Elizabeth River flooded catastrophically during Ida, and low-lying Elizabethport and Bayway see tidal and storm-surge exposure. Combined-sewer backups make sewage cleanup a constant here. The port, airport corridor and Jersey Gardens retail add large commercial and industrial loss potential."
+      "local_notes": "New Jersey's fourth-largest city and a ten-minute run from our Kenilworth shop. Housing skews to early-1900s multifamily \u2014 two- and three-family frame homes packed tight, where one burst riser or kitchen fire affects multiple households and landlords need fast, documented mitigation. The Elizabeth River flooded catastrophically during Ida, and low-lying Elizabethport and Bayway see tidal and storm-surge exposure. Combined-sewer backups make sewage cleanup a constant here. The port, airport corridor and Jersey Gardens retail add large commercial and industrial loss potential."
     },
     {
       "city": "Westfield",
@@ -133,7 +134,7 @@
       "zip_codes": [
         "07090"
       ],
-      "local_notes": "Affluent Union County town of Victorian, Tudor and center-hall colonial homes dating to the 1890s-1930s — original clay sewer laterals, aging cast-iron stacks and knob-era renovations hiding slow leaks inside plaster walls. Finished basements are near-universal and expensive: home theaters, gyms and offices that turn a failed sump into a five-figure claim. The Rahway River's Robinson's Branch and heavy old-growth tree canopy make storm damage — wind-thrown limbs through roofs, water intrusion behind slate and cedar — a recurring loss type. Owners here expect meticulous protection of floors and finishes and full reconstruction to matching quality."
+      "local_notes": "Affluent Union County town of Victorian, Tudor and center-hall colonial homes dating to the 1890s-1930s \u2014 original clay sewer laterals, aging cast-iron stacks and knob-era renovations hiding slow leaks inside plaster walls. Finished basements are near-universal and expensive: home theaters, gyms and offices that turn a failed sump into a five-figure claim. The Rahway River's Robinson's Branch and heavy old-growth tree canopy make storm damage \u2014 wind-thrown limbs through roofs, water intrusion behind slate and cedar \u2014 a recurring loss type. Owners here expect meticulous protection of floors and finishes and full reconstruction to matching quality."
     },
     {
       "city": "Cranford",
@@ -157,7 +158,7 @@
       "zip_codes": [
         "07016"
       ],
-      "local_notes": "Cranford is the 'Venice of New Jersey' — the Rahway River winds directly through town, and that charm comes with the most serious repeat-flood history in Union County: Floyd (1999), Irene (2011) and Ida (2021) each put whole neighborhoods underwater. Riverside blocks flood from the river itself; the rest of town floods from overwhelmed storm sewers. Flood cleanup, basement pump-outs, structural drying and mold prevention are the signature services here, and many owners have been through it before — they value a crew that documents everything for the NFIP or their carrier. Housing is 1900s-1940s colonials and capes on full basements, one town over from our Kenilworth headquarters."
+      "local_notes": "Cranford is the 'Venice of New Jersey' \u2014 the Rahway River winds directly through town, and that charm comes with the most serious repeat-flood history in Union County: Floyd (1999), Irene (2011) and Ida (2021) each put whole neighborhoods underwater. Riverside blocks flood from the river itself; the rest of town floods from overwhelmed storm sewers. Flood cleanup, basement pump-outs, structural drying and mold prevention are the signature services here, and many owners have been through it before \u2014 they value a crew that documents everything for the NFIP or their carrier. Housing is 1900s-1940s colonials and capes on full basements, one town over from our Kenilworth headquarters."
     },
     {
       "city": "Springfield",
@@ -179,7 +180,7 @@
       "zip_codes": [
         "07081"
       ],
-      "local_notes": "Springfield Township sits where the Rahway River's west branch comes off the Watchung ridges — Ida turned Route 22 here into a river and flooded homes and businesses across the township's low spots. Housing is a mix of 1920s-50s colonials and capes plus newer townhome complexes toward the Millburn line, most with finished basements that take on water in every major storm cycle. The Route 22 and Morris Avenue commercial corridors add restaurant, retail and office losses. Minutes from our Kenilworth base via Route 22 or the Parkway."
+      "local_notes": "Springfield Township sits where the Rahway River's west branch comes off the Watchung ridges \u2014 Ida turned Route 22 here into a river and flooded homes and businesses across the township's low spots. Housing is a mix of 1920s-50s colonials and capes plus newer townhome complexes toward the Millburn line, most with finished basements that take on water in every major storm cycle. The Route 22 and Morris Avenue commercial corridors add restaurant, retail and office losses. Minutes from our Kenilworth base via Route 22 or the Parkway."
     },
     {
       "city": "Summit",
@@ -202,7 +203,7 @@
       "zip_codes": [
         "07901"
       ],
-      "local_notes": "Hilltop city of large 1890s-1930s homes — slate roofs, copper gutters, plaster walls and deep finished basements, owned by families who expect white-glove treatment of hardwood, millwork and furnishings during mitigation. Elevation spares Summit the river flooding its neighbors get, but steep lots channel stormwater into lower levels, aging original plumbing fails inside walls, and clay sewer laterals under century-old street trees back up regularly. Freeze events burst uninsulated radiator and supply lines in older wings. High-value contents handling, moisture mapping and reconstruction to period-correct finish quality matter more here than anywhere else we serve."
+      "local_notes": "Hilltop city of large 1890s-1930s homes \u2014 slate roofs, copper gutters, plaster walls and deep finished basements, owned by families who expect white-glove treatment of hardwood, millwork and furnishings during mitigation. Elevation spares Summit the river flooding its neighbors get, but steep lots channel stormwater into lower levels, aging original plumbing fails inside walls, and clay sewer laterals under century-old street trees back up regularly. Freeze events burst uninsulated radiator and supply lines in older wings. High-value contents handling, moisture mapping and reconstruction to period-correct finish quality matter more here than anywhere else we serve."
     },
     {
       "city": "Newark",
@@ -234,7 +235,7 @@
         "07108",
         "07112"
       ],
-      "local_notes": "New Jersey's largest city, fifteen minutes up McCarter Highway from our shop. The Ironbound sits low along the Passaic River and flooded hard during Ida; combined sewers back up into basements citywide in heavy rain, making sewage cleanup a core Newark service. Housing is dense pre-war stock — brick multifamily, frame two- and three-families, and Forest Hill's grand colonials — where fires spread between close-set buildings and one riser failure soaks three floors. Landlords, property managers and institutions (universities, hospitals, the arena district) need documented, insurance-ready mitigation with fast board-up response."
+      "local_notes": "New Jersey's largest city, fifteen minutes up McCarter Highway from our shop. The Ironbound sits low along the Passaic River and flooded hard during Ida; combined sewers back up into basements citywide in heavy rain, making sewage cleanup a core Newark service. Housing is dense pre-war stock \u2014 brick multifamily, frame two- and three-families, and Forest Hill's grand colonials \u2014 where fires spread between close-set buildings and one riser failure soaks three floors. Landlords, property managers and institutions (universities, hospitals, the arena district) need documented, insurance-ready mitigation with fast board-up response."
     },
     {
       "city": "Jersey City",
@@ -264,7 +265,7 @@
         "07307",
         "07310"
       ],
-      "local_notes": "Two building worlds share one city: waterfront high-rise condos and rentals at Newport and Exchange Place, where a single supply-line or riser failure cascades through stacked units and building management needs unit-by-unit moisture documentation for the association's insurer — and 1890s-1920s brownstones and frame rowhouses in the Heights, Bergen-Lafayette and Greenville, where cellar flooding and combined-sewer backups are chronic. Sandy's surge showed how exposed Jersey City's low-lying blocks are, and Ida flooded basements citywide. Dense multifamily ownership means landlords and condo boards value fast response and clean paperwork."
+      "local_notes": "Two building worlds share one city: waterfront high-rise condos and rentals at Newport and Exchange Place, where a single supply-line or riser failure cascades through stacked units and building management needs unit-by-unit moisture documentation for the association's insurer \u2014 and 1890s-1920s brownstones and frame rowhouses in the Heights, Bergen-Lafayette and Greenville, where cellar flooding and combined-sewer backups are chronic. Sandy's surge showed how exposed Jersey City's low-lying blocks are, and Ida flooded basements citywide. Dense multifamily ownership means landlords and condo boards value fast response and clean paperwork."
     },
     {
       "city": "Brooklyn",
@@ -295,7 +296,7 @@
         "11226",
         "11235"
       ],
-      "local_notes": "Our NY-metro coverage runs across the Hudson: Brooklyn's brownstone belt (Park Slope, Brooklyn Heights, Bed-Stuy fringe) is 1880s-1920s masonry rowhouses with garden-level and cellar apartments that flood first — Ida's record rain made Brooklyn basement flooding a citywide emergency. Coastal neighborhoods from Red Hook to Canarsie and Coney Island carry real storm-surge exposure remembered from Sandy. Co-op and condo boards, brownstone owners and commercial landlords need mitigation crews that respect plaster, original woodwork and party-wall neighbors, with documentation their insurer and management company will accept."
+      "local_notes": "Our NY-metro coverage runs across the Hudson: Brooklyn's brownstone belt (Park Slope, Brooklyn Heights, Bed-Stuy fringe) is 1880s-1920s masonry rowhouses with garden-level and cellar apartments that flood first \u2014 Ida's record rain made Brooklyn basement flooding a citywide emergency. Coastal neighborhoods from Red Hook to Canarsie and Coney Island carry real storm-surge exposure remembered from Sandy. Co-op and condo boards, brownstone owners and commercial landlords need mitigation crews that respect plaster, original woodwork and party-wall neighbors, with documentation their insurer and management company will accept."
     },
     {
       "city": "Manhattan",
@@ -326,7 +327,7 @@
         "10025",
         "10038"
       ],
-      "local_notes": "Manhattan losses are vertical: in pre-war co-ops and modern condo towers alike, a failed riser, radiator valve or washing-machine hose on the 14th floor means soaked ceilings on thirteen. Buildings run on process — resident managers, boards and managing agents expect certificates of insurance, unit-by-unit moisture logs and after-hours freight-elevator coordination, and we work inside those rules. Sandy's surge flooded the Financial District and Lower East Side; Ida overwhelmed drains from Harlem to Chelsea. Retail, restaurant and office interiors add overnight commercial mitigation where every closed day is lost revenue."
+      "local_notes": "Manhattan losses are vertical: in pre-war co-ops and modern condo towers alike, a failed riser, radiator valve or washing-machine hose on the 14th floor means soaked ceilings on thirteen. Buildings run on process \u2014 resident managers, boards and managing agents expect certificates of insurance, unit-by-unit moisture logs and after-hours freight-elevator coordination, and we work inside those rules. Sandy's surge flooded the Financial District and Lower East Side; Ida overwhelmed drains from Harlem to Chelsea. Retail, restaurant and office interiors add overnight commercial mitigation where every closed day is lost revenue."
     },
     {
       "city": "Fair Lawn",
@@ -375,7 +376,7 @@
       "zip_codes": [
         "08904"
       ],
-      "local_notes": "Highland Park is one of our office locations, so response times are minimal. The Raritan River runs the length of the southern border and flooded catastrophically during Ida in 2021, with Donaldson Park and River Road low spots inundated. The borough's dense pre-war and early-postwar housing — 1910s-1940s colonials, bungalows and two-families — carries original supply plumbing and cast-iron drains prone to failure over finished basements. The Raritan Avenue corridor's restaurants and shops generate commercial water and sprinkler losses, and proximity to Rutgers adds student-rental and multi-unit water events."
+      "local_notes": "Highland Park is one of our office locations, so response times are minimal. The Raritan River runs the length of the southern border and flooded catastrophically during Ida in 2021, with Donaldson Park and River Road low spots inundated. The borough's dense pre-war and early-postwar housing \u2014 1910s-1940s colonials, bungalows and two-families \u2014 carries original supply plumbing and cast-iron drains prone to failure over finished basements. The Raritan Avenue corridor's restaurants and shops generate commercial water and sprinkler losses, and proximity to Rutgers adds student-rental and multi-unit water events."
     },
     {
       "city": "Staten Island",
@@ -404,7 +405,7 @@
         "10312",
         "10314"
       ],
-      "local_notes": "Staten Island is one of our office locations, giving crews a borough base. The East Shore — South Beach, Midland Beach, Oakwood Beach — was devastated by Hurricane Sandy in 2012 and remains flood-prone, and Ida in 2021 brought inland flash flooding to low-lying South Shore streets. Housing spans early-1900s frame homes, dense postwar Cape Cods and split-levels, and newer townhome developments, with basements and crawlspaces common. Aging cast-iron drains and supply lines drive pipe-break losses, while the Hylan Boulevard and Forest Avenue retail corridors add commercial roof-leak and sprinkler-discharge claims."
+      "local_notes": "Staten Island is one of our office locations, giving crews a borough base. The East Shore \u2014 South Beach, Midland Beach, Oakwood Beach \u2014 was devastated by Hurricane Sandy in 2012 and remains flood-prone, and Ida in 2021 brought inland flash flooding to low-lying South Shore streets. Housing spans early-1900s frame homes, dense postwar Cape Cods and split-levels, and newer townhome developments, with basements and crawlspaces common. Aging cast-iron drains and supply lines drive pipe-break losses, while the Hylan Boulevard and Forest Avenue retail corridors add commercial roof-leak and sprinkler-discharge claims."
     },
     {
       "city": "Linden",
@@ -429,7 +430,7 @@
       "zip_codes": [
         "07036"
       ],
-      "local_notes": "Linden sits minutes from our Kenilworth HQ. The Rahway River and Morses Creek run through the city and jumped their banks during Ida in 2021, flooding low-lying Tremley Point and areas near the Arthur Kill. Housing stock is heavily postwar — 1940s-60s capes, colonials and split-levels — with finished basements where original supply plumbing and cast-iron drains fail on schedule. The Route 1 & 9 industrial belt, refinery zone and Wood Avenue commercial district generate large sprinkler-discharge, pipe-break and overnight commercial water losses alongside the residential base."
+      "local_notes": "Linden sits minutes from our Kenilworth HQ. The Rahway River and Morses Creek run through the city and jumped their banks during Ida in 2021, flooding low-lying Tremley Point and areas near the Arthur Kill. Housing stock is heavily postwar \u2014 1940s-60s capes, colonials and split-levels \u2014 with finished basements where original supply plumbing and cast-iron drains fail on schedule. The Route 1 & 9 industrial belt, refinery zone and Wood Avenue commercial district generate large sprinkler-discharge, pipe-break and overnight commercial water losses alongside the residential base."
     },
     {
       "city": "Rahway",
@@ -481,7 +482,7 @@
         "07062",
         "07063"
       ],
-      "local_notes": "Plainfield is a straightforward run from our Kenilworth HQ. Cedar Brook and the Green Brook thread the city's low areas, and Plainfield saw severe flooding and fatalities during Ida in 2021, with the East Front Street and brook-adjacent neighborhoods hardest hit. The city's celebrated Victorian and Queen Anne housing stock — plus dense early-1900s and postwar homes — carries original plumbing, knob-and-tube-era systems and cast-iron drains prone to failure. Deep, often finished basements amplify water losses, and the Front Street and Park Avenue commercial corridors add sprinkler and roof-leak claims."
+      "local_notes": "Plainfield is a straightforward run from our Kenilworth HQ. Cedar Brook and the Green Brook thread the city's low areas, and Plainfield saw severe flooding and fatalities during Ida in 2021, with the East Front Street and brook-adjacent neighborhoods hardest hit. The city's celebrated Victorian and Queen Anne housing stock \u2014 plus dense early-1900s and postwar homes \u2014 carries original plumbing, knob-and-tube-era systems and cast-iron drains prone to failure. Deep, often finished basements amplify water losses, and the Front Street and Park Avenue commercial corridors add sprinkler and roof-leak claims."
     },
     {
       "city": "Scotch Plains",
@@ -506,7 +507,7 @@
       "zip_codes": [
         "07076"
       ],
-      "local_notes": "Scotch Plains is a quick drive from our Kenilworth HQ. The Green Brook and Cedar Brook run along the southern edge and flooded during Ida in 2021, with low spots near the Plainfield and Fanwood borders taking on water. Housing is largely mid-century — 1950s-60s split-levels, ranches and colonials — alongside older homes near downtown, most with finished basements over aging cast-iron drains and original supply lines that fail on schedule. The Park Avenue and Route 22 corridors add commercial roof-leak, pipe-break and sprinkler-discharge losses to the residential base."
+      "local_notes": "Scotch Plains is a quick drive from our Kenilworth HQ. The Green Brook and Cedar Brook run along the southern edge and flooded during Ida in 2021, with low spots near the Plainfield and Fanwood borders taking on water. Housing is largely mid-century \u2014 1950s-60s split-levels, ranches and colonials \u2014 alongside older homes near downtown, most with finished basements over aging cast-iron drains and original supply lines that fail on schedule. The Park Avenue and Route 22 corridors add commercial roof-leak, pipe-break and sprinkler-discharge losses to the residential base."
     },
     {
       "city": "Clark",
@@ -554,7 +555,7 @@
       "zip_codes": [
         "07203"
       ],
-      "local_notes": "Roselle is dense with early-1900s through 1950s housing — Victorians, colonials and postwar capes on tight lots, many with finished basements and original galvanized supply and cast-iron waste lines failing on schedule. The Elizabeth River runs along the eastern edge by Warinanco Park and floods low blocks during heavy rain; Ida in 2021 pushed water and sewer backups into basements across town. Sump-pump overload during summer storms is the common loss. The Chestnut Street and St. Georges Avenue corridors generate small commercial, roof-leak and overnight retail water events."
+      "local_notes": "Roselle is dense with early-1900s through 1950s housing \u2014 Victorians, colonials and postwar capes on tight lots, many with finished basements and original galvanized supply and cast-iron waste lines failing on schedule. The Elizabeth River runs along the eastern edge by Warinanco Park and floods low blocks during heavy rain; Ida in 2021 pushed water and sewer backups into basements across town. Sump-pump overload during summer storms is the common loss. The Chestnut Street and St. Georges Avenue corridors generate small commercial, roof-leak and overnight retail water events."
     },
     {
       "city": "Hillside",
@@ -604,7 +605,7 @@
         "07018",
         "07019"
       ],
-      "local_notes": "East Orange is dense with early-1900s through 1930s brick apartment buildings, three-story walk-ups, Victorians and two-families, plus postwar infill — aging galvanized risers, cast-iron stacks and flat roofs drive repeated water losses across multiple units. Basement mechanical rooms and finished cellars flood during heavy rain, and sewer backups are routine in low areas. The Second River and nearby Elizabeth River tributaries flooded low ground during Ida in 2021. The Central Avenue and Main Street commercial corridors and hospital campus add sprinkler, roof-leak and overnight multi-family losses."
+      "local_notes": "East Orange is dense with early-1900s through 1930s brick apartment buildings, three-story walk-ups, Victorians and two-families, plus postwar infill \u2014 aging galvanized risers, cast-iron stacks and flat roofs drive repeated water losses across multiple units. Basement mechanical rooms and finished cellars flood during heavy rain, and sewer backups are routine in low areas. The Second River and nearby Elizabeth River tributaries flooded low ground during Ida in 2021. The Central Avenue and Main Street commercial corridors and hospital campus add sprinkler, roof-leak and overnight multi-family losses."
     },
     {
       "city": "West Orange",
@@ -628,7 +629,7 @@
       "zip_codes": [
         "07052"
       ],
-      "local_notes": "West Orange climbs the Watchung ridge with a wide mix — grand Victorians in Llewellyn Park, 1920s Tudors and colonials, and postwar splits and ranches in Pleasantdale, most on finished basements. Hillside grading sends stormwater downslope, overwhelming sump pumps and flooding basements during heavy rain. The Rahway River headwaters and streams draining South Mountain Reservation swell in storms, and Ida in 2021 drove flash flooding and sewer backups across low pockets. The Northfield Avenue and Prospect Avenue commercial corridors plus Essex Green retail add roof-leak, sprinkler and overnight commercial losses."
+      "local_notes": "West Orange climbs the Watchung ridge with a wide mix \u2014 grand Victorians in Llewellyn Park, 1920s Tudors and colonials, and postwar splits and ranches in Pleasantdale, most on finished basements. Hillside grading sends stormwater downslope, overwhelming sump pumps and flooding basements during heavy rain. The Rahway River headwaters and streams draining South Mountain Reservation swell in storms, and Ida in 2021 drove flash flooding and sewer backups across low pockets. The Northfield Avenue and Prospect Avenue commercial corridors plus Essex Green retail add roof-leak, sprinkler and overnight commercial losses."
     },
     {
       "city": "Montclair",
@@ -824,7 +825,7 @@
         "07652",
         "07653"
       ],
-      "local_notes": "Paramus is largely 1950s-60s ranches, split-levels and colonials on slab or finished basements, with sprawling retail dominating the town. The Saddle River runs through Van Saun Park and low-lying areas along it flood during heavy rain, and Ida in 2021 drove basement flooding across Bergen County. Aging postwar supply plumbing and cast-iron drains fail routinely. Paramus's Route 4 and Route 17 corridors — anchored by Garden State Plaza and Paramus Park — generate heavy sprinkler-discharge, roof-leak and overnight commercial water losses at big-box and mall properties."
+      "local_notes": "Paramus is largely 1950s-60s ranches, split-levels and colonials on slab or finished basements, with sprawling retail dominating the town. The Saddle River runs through Van Saun Park and low-lying areas along it flood during heavy rain, and Ida in 2021 drove basement flooding across Bergen County. Aging postwar supply plumbing and cast-iron drains fail routinely. Paramus's Route 4 and Route 17 corridors \u2014 anchored by Garden State Plaza and Paramus Park \u2014 generate heavy sprinkler-discharge, roof-leak and overnight commercial water losses at big-box and mall properties."
     },
     {
       "city": "Fort Lee",
@@ -1062,7 +1063,7 @@
         "08861",
         "08862"
       ],
-      "local_notes": "Perth Amboy sits where the Raritan River meets Raritan Bay, and its low waterfront blocks took serious tidal surge and flooding during Sandy in 2012, with lingering coastal-storm exposure. Housing stock is old and dense — late-1800s and early-1900s frame two- and three-families, brick rowhomes and multifamily conversions with aging galvanized supply lines and cast-iron drains prone to failure. The downtown Smith Street commercial corridor and waterfront restaurants generate storefront and roof-leak losses. Older basements flood during nor'easters and hard summer storms, and multifamily buildings drive tenant-to-tenant water damage claims."
+      "local_notes": "Perth Amboy sits where the Raritan River meets Raritan Bay, and its low waterfront blocks took serious tidal surge and flooding during Sandy in 2012, with lingering coastal-storm exposure. Housing stock is old and dense \u2014 late-1800s and early-1900s frame two- and three-families, brick rowhomes and multifamily conversions with aging galvanized supply lines and cast-iron drains prone to failure. The downtown Smith Street commercial corridor and waterfront restaurants generate storefront and roof-leak losses. Older basements flood during nor'easters and hard summer storms, and multifamily buildings drive tenant-to-tenant water damage claims."
     },
     {
       "city": "East Brunswick",
@@ -1251,7 +1252,7 @@
         "07522",
         "07524"
       ],
-      "local_notes": "Paterson sits directly on the Passaic River, and the low-lying blocks below the Great Falls flood repeatedly — the river crested catastrophically during Hurricane Irene in 2011 and again during Ida in 2021, submerging homes near the Riverside and downtown sections. Housing skews old: dense 19th-century mill-worker rowhomes, brick multi-family walkups and aging two- and three-family frame houses with knob-and-tube remnants and cast-iron drains. Silk-era industrial buildings converted to apartments generate sprinkler and standpipe losses. Overcrowded rental stock drives frequent tenant water damage, backups and mold in unventilated basements and bathrooms."
+      "local_notes": "Paterson sits directly on the Passaic River, and the low-lying blocks below the Great Falls flood repeatedly \u2014 the river crested catastrophically during Hurricane Irene in 2011 and again during Ida in 2021, submerging homes near the Riverside and downtown sections. Housing skews old: dense 19th-century mill-worker rowhomes, brick multi-family walkups and aging two- and three-family frame houses with knob-and-tube remnants and cast-iron drains. Silk-era industrial buildings converted to apartments generate sprinkler and standpipe losses. Overcrowded rental stock drives frequent tenant water damage, backups and mold in unventilated basements and bathrooms."
     },
     {
       "city": "Clifton",
@@ -1279,7 +1280,7 @@
         "07013",
         "07014"
       ],
-      "local_notes": "Clifton's Passaic River and Weasel Brook borders flood the Lakeview and Delawanna sections; the Passaic overran its banks here during Irene and Ida, pushing water into low-lying homes and industrial lots near Route 21. Housing is heavily postwar — 1940s-60s capes, colonials and split-levels on finished basements with original supply lines and cast-iron drains reaching end of life. Botany Village retains older brick multi-family stock. The Route 3 and Route 46 retail corridors and Styertowne generate sprinkler-discharge, roof-leak and overnight commercial losses, and dense two-family rentals produce frequent tenant water events."
+      "local_notes": "Clifton's Passaic River and Weasel Brook borders flood the Lakeview and Delawanna sections; the Passaic overran its banks here during Irene and Ida, pushing water into low-lying homes and industrial lots near Route 21. Housing is heavily postwar \u2014 1940s-60s capes, colonials and split-levels on finished basements with original supply lines and cast-iron drains reaching end of life. Botany Village retains older brick multi-family stock. The Route 3 and Route 46 retail corridors and Styertowne generate sprinkler-discharge, roof-leak and overnight commercial losses, and dense two-family rentals produce frequent tenant water events."
     },
     {
       "city": "Wayne",
@@ -1305,7 +1306,7 @@
         "07470",
         "07474"
       ],
-      "local_notes": "Wayne is notorious for Passaic River and Pompton River flooding — the Hoffman Grove and Mountain View sections flood chronically, and the town was hit hard by Irene in 2011 and again during Ida in 2021, with repeated evacuations along the river. Several lake communities — Packanack, Pines and Lionshead — feature midcentury ranches and split-levels near water on finished basements. Broader housing is 1950s-70s colonials and capes with aging plumbing and sump-dependent basements. Willowbrook Mall and the Route 23/46 retail corridors drive commercial sprinkler, roof-leak and pipe-burst losses, while William Paterson adds student-housing events."
+      "local_notes": "Wayne is notorious for Passaic River and Pompton River flooding \u2014 the Hoffman Grove and Mountain View sections flood chronically, and the town was hit hard by Irene in 2011 and again during Ida in 2021, with repeated evacuations along the river. Several lake communities \u2014 Packanack, Pines and Lionshead \u2014 feature midcentury ranches and split-levels near water on finished basements. Broader housing is 1950s-70s colonials and capes with aging plumbing and sump-dependent basements. Willowbrook Mall and the Route 23/46 retail corridors drive commercial sprinkler, roof-leak and pipe-burst losses, while William Paterson adds student-housing events."
     },
     {
       "city": "Passaic",
@@ -1329,7 +1330,7 @@
       "zip_codes": [
         "07055"
       ],
-      "local_notes": "Passaic sits on the Passaic River, and the city flooded severely during Irene in 2011 and again during Ida in 2021, with riverfront blocks and low spots inundated. It's one of New Jersey's densest small cities — packed with early 20th-century brick multi-family walkups, two- and three-family frame houses and older rowhomes with knob-and-tube remnants and failing cast-iron drains. Overcrowded rental stock drives constant tenant water damage, sewer backups and mold in unventilated basements. The Main Avenue commercial corridor and mixed-use storefronts generate sprinkler-discharge, roof-leak and overnight retail losses."
+      "local_notes": "Passaic sits on the Passaic River, and the city flooded severely during Irene in 2011 and again during Ida in 2021, with riverfront blocks and low spots inundated. It's one of New Jersey's densest small cities \u2014 packed with early 20th-century brick multi-family walkups, two- and three-family frame houses and older rowhomes with knob-and-tube remnants and failing cast-iron drains. Overcrowded rental stock drives constant tenant water damage, sewer backups and mold in unventilated basements. The Main Avenue commercial corridor and mixed-use storefronts generate sprinkler-discharge, roof-leak and overnight retail losses."
     },
     {
       "city": "Hoboken",
@@ -1354,7 +1355,7 @@
       "zip_codes": [
         "07030"
       ],
-      "local_notes": "Hoboken is a low-lying former tidal marsh on the Hudson and floods routinely — Superstorm Sandy in 2012 submerged much of the city, and heavy rain and Ida in 2021 overwhelmed the combined sewer system, backing water into basements and garden units citywide. Housing is dominated by dense 19th-century brownstones and brick rowhomes with below-grade units, plus newer waterfront high-rises. Aging plumbing and shared party-wall stacks drive frequent pipe bursts and multi-unit water losses. The Washington Street corridor and Stevens Institute add commercial sprinkler, roof-leak and student-housing water events."
+      "local_notes": "Hoboken is a low-lying former tidal marsh on the Hudson and floods routinely \u2014 Superstorm Sandy in 2012 submerged much of the city, and heavy rain and Ida in 2021 overwhelmed the combined sewer system, backing water into basements and garden units citywide. Housing is dominated by dense 19th-century brownstones and brick rowhomes with below-grade units, plus newer waterfront high-rises. Aging plumbing and shared party-wall stacks drive frequent pipe bursts and multi-unit water losses. The Washington Street corridor and Stevens Institute add commercial sprinkler, roof-leak and student-housing water events."
     },
     {
       "city": "Bayonne",
@@ -1378,7 +1379,7 @@
       "zip_codes": [
         "07002"
       ],
-      "local_notes": "Bayonne is a narrow peninsula between Newark Bay and the Kill Van Kull, and its waterfront and Constable Hook areas are storm-surge exposed — Sandy in 2012 flooded low-lying industrial and residential blocks. Housing is dense and older: early 20th-century two- and three-family frame homes, brick rowhomes and postwar capes on finished basements with cast-iron drains and original supply plumbing failing on schedule. Tight rental stock produces frequent tenant water losses and basement mold. The Bayonne Crossing retail center and Route 440 corridor drive commercial sprinkler, roof-leak and overnight losses."
+      "local_notes": "Bayonne is a narrow peninsula between Newark Bay and the Kill Van Kull, and its waterfront and Constable Hook areas are storm-surge exposed \u2014 Sandy in 2012 flooded low-lying industrial and residential blocks. Housing is dense and older: early 20th-century two- and three-family frame homes, brick rowhomes and postwar capes on finished basements with cast-iron drains and original supply plumbing failing on schedule. Tight rental stock produces frequent tenant water losses and basement mold. The Bayonne Crossing retail center and Route 440 corridor drive commercial sprinkler, roof-leak and overnight losses."
     },
     {
       "city": "North Bergen",
@@ -1402,7 +1403,7 @@
       "zip_codes": [
         "07047"
       ],
-      "local_notes": "North Bergen straddles the Palisades ridge above the Hudson, and its low-lying western flats near the Meadowlands and Tonnelle Avenue are flood-prone — heavy rain and Ida in 2021 overwhelmed storm drains, backing water into basements. It's one of the state's densest towns: packed with early 20th-century multi-family walkups, brick and frame two- and three-family homes on hillside lots, and older rental stock with aging plumbing and cast-iron drains. Overcrowded units drive frequent tenant water damage and basement mold. The Bergenline and Tonnelle corridors generate commercial sprinkler, roof-leak and retail losses."
+      "local_notes": "North Bergen straddles the Palisades ridge above the Hudson, and its low-lying western flats near the Meadowlands and Tonnelle Avenue are flood-prone \u2014 heavy rain and Ida in 2021 overwhelmed storm drains, backing water into basements. It's one of the state's densest towns: packed with early 20th-century multi-family walkups, brick and frame two- and three-family homes on hillside lots, and older rental stock with aging plumbing and cast-iron drains. Overcrowded units drive frequent tenant water damage and basement mold. The Bergenline and Tonnelle corridors generate commercial sprinkler, roof-leak and retail losses."
     },
     {
       "city": "Mountainside",
@@ -1471,7 +1472,7 @@
     ],
     "google_maps_api_key": "AIzaSyDrYnSuDu-hFvKHEcQCjwb-zsMebInPneU",
     "licensed_insured_attested": true,
-    "_license_note": "NJ HIC number captured on the 7/8 call but digits UNVERIFIED — license_numbers stays EMPTY until DCA-verified. Footer/badges print 'NJ Licensed Home Improvement Contractor' text only. licensed_insured_attested=true per owner attestation on the recorded call.",
+    "_license_note": "NJ HIC number captured on the 7/8 call but digits UNVERIFIED \u2014 license_numbers stays EMPTY until DCA-verified. Footer/badges print 'NJ Licensed Home Improvement Contractor' text only. licensed_insured_attested=true per owner attestation on the recorded call.",
     "trust_badges": [
       "IICRC Certified Firm #210213",
       "NJ Licensed Home Improvement Contractor",

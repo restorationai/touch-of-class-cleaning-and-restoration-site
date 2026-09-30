@@ -1,0 +1,21 @@
+---
+archetype: "service-landing"
+title: "Water Leak Detection in Kenilworth | The Restoration Group"
+h1: "Water Leak Detection in Kenilworth"
+meta_description: "24/7 water leak detection in Kenilworth and surrounding areas. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+primary_keyword: "water leak detection kenilworth"
+secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection", "water leak in wall", "leak detection service"]
+search_intent: "local_emergency"
+priority: 6.3
+plan_hash: "6a3448b3a3a0772e"
+generated_at: "2026-09-30T18:42:00.817814+00:00"
+manual_override: false
+internal_links: ["/services/", "/contact/", "/service-areas/avenel-nj/water-leak-detection/", "/service-areas/bayonne-nj/water-leak-detection/", "/service-areas/bloomfield-nj/water-leak-detection/", "/service-areas/bridgewater-nj/water-leak-detection/", "/service-areas/brooklyn-ny/water-leak-detection/", "/service-areas/carteret-nj/water-leak-detection/", "/service-areas/chatham-nj/water-leak-detection/", "/service-areas/clark-nj/water-leak-detection/", "/service-areas/clifton-nj/water-leak-detection/", "/service-areas/colonia-nj/water-leak-detection/", "/service-areas/cranford-nj/water-leak-detection/", "/service-areas/east-brunswick-nj/water-leak-detection/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "water-leak-detection"}]
+faq: []
+service_slug: "water-leak-detection"
+service_display: "water-leak-detection"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug restoration-groups` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Water Leak Detection in Kenilworth.

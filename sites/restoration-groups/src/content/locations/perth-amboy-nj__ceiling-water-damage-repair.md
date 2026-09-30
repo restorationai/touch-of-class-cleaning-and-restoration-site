@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Ceiling Water Damage Repair in Perth Amboy, NJ | The Restoration Group"
+h1: "Ceiling Water Damage Repair in Perth Amboy"
+meta_description: "24/7 ceiling water damage repair in Perth Amboy, NJ. IICRC-certified, insurance billing accepted. Call (855) 650-7422."
+primary_keyword: "ceiling water damage repair perth amboy"
+secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
+search_intent: "local_emergency"
+priority: 5.6
+plan_hash: "e63fee1340365e87"
+generated_at: "2026-09-30T18:42:00.920471+00:00"
+manual_override: false
+internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/perth-amboy-nj/", "/service-areas/perth-amboy-nj/fire-damage-restoration/", "/service-areas/perth-amboy-nj/mold-remediation/", "/service-areas/avenel-nj/ceiling-water-damage-repair/", "/service-areas/bayonne-nj/ceiling-water-damage-repair/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Perth Amboy", "url": "/service-areas/perth-amboy-nj/"}, {"name": "ceiling-water-damage-repair"}]
+faq: []
+area_slug: "perth-amboy-nj"
+service_slug: "ceiling-water-damage-repair"
+city: "Perth Amboy"
+state: "NJ"
+service_display: "ceiling-water-damage-repair"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug restoration-groups` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Ceiling Water Damage Repair in Perth Amboy.
