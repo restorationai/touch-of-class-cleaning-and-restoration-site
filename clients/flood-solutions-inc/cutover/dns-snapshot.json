@@ -1,0 +1,42 @@
+{
+ "domain": "floodsolutionsinc.com",
+ "captured_at": "2026-09-30T16:25:44+00:00",
+ "authoritative": {
+  "ns": [
+   "ns39.domaincontrol.com",
+   "ns40.domaincontrol.com"
+  ],
+  "mx": [
+   {
+    "priority": 0,
+    "exchange": "floodsolutionsinc.com"
+   }
+  ],
+  "apex_txt": [
+   "google-site-verification=xM7nya8ynDr6FOm66TqOiMoQKWjTJBEoehamca8ufKg",
+   "google-site-verification=fJQDiAlkCS7a0Ylium_ReY2uLaLHV0OKcPt--YvZ1l0",
+   "v=verifydomain MS=7464486",
+   "wpe-verification=floodfire",
+   "google-site-verification=LHAA_w1jFhhjHk9WKChnCm4YX1ClEhY3zGTciG7QDcw",
+   "google-site-verification=fbwzCq2IPL5tfASbZ0iFr-HwwalbVCeSCKBQMMoLRQ0"
+  ],
+  "dmarc_txt": [],
+  "dkim": {},
+  "apex_a": [
+   "141.193.213.10",
+   "141.193.213.11"
+  ],
+  "apex_cname": [],
+  "www_cname": [
+   "wp.wpenginepowered.com"
+  ]
+ },
+ "cf_zone": {
+  "zone_id": "838bb8585e40d8d3f8b910971bb1c221",
+  "name_servers": [
+   "amos.ns.cloudflare.com",
+   "anastasia.ns.cloudflare.com"
+  ],
+  "records": []
+ }
+}
