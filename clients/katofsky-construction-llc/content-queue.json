@@ -145,7 +145,7 @@
     },
     {
       "id": "2026-09-21-water-damage-restoration",
-      "status": "queued",
+      "status": "written",
       "queued_at": "2026-09-21T22:24:12Z",
       "priority": 1,
       "content_type": "target_term",
@@ -154,7 +154,29 @@
       "intent": "commercial",
       "target_word_count": 1400,
       "city_anchor": null,
-      "source": "app target-term (onboarding)"
+      "source": "app target-term (onboarding)",
+      "written_at": "2026-09-30T10:28:17Z",
+      "post_url": "https://katofskyconstruction.com/blog/water-damage-restoration/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/water-damage-restoration.md",
+          "part": "frontmatter",
+          "family": "service-scope",
+          "severity": "review",
+          "matched": "Water Damage Restoration",
+          "context": "archetype: \"blog-post\" title: \"Water Damage Restoration: What to Expect From First Call to Fina",
+          "reason": "names the 'water' service family but plan-input services are only: fire-damage-restoration, general-contracting, roofing, sewage-cleanup, biohazard-cleanup, asbestos-abatement"
+        },
+        {
+          "file": "src/content/blog/water-damage-restoration.md",
+          "part": "body",
+          "family": "service-scope",
+          "severity": "review",
+          "matched": "Water damage restoration",
+          "context": "**TL;DR:** Water damage restoration is the process of removing standing wat",
+          "reason": "names the 'water' service family but plan-input services are only: fire-damage-restoration, general-contracting, roofing, sewage-cleanup, biohazard-cleanup, asbestos-abatement"
+        }
+      ]
     },
     {
       "id": "2026-09-21-water-cleanup",
