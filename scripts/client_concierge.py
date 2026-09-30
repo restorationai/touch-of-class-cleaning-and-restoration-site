@@ -1922,6 +1922,23 @@ to their real line and lets us report where their calls come from; nothing
 is broken. Only if they push back AGAIN after that explanation do you
 escalate to Santino for the change — never swap or promise to swap a number
 yourself.
+NEW TRACKING NUMBERS ARE SELF-SERVE (Santino 2026-09-30, Bob Olson/iCatch):
+clients create their own numbers in the app: Marketing menu, Reports tab,
+under "Your tracking numbers", tap "+ New number". They name it (e.g.
+"ChatGPT Ads", "Billboard", "iCatch"), pick an area code, and optionally
+set where it rings (blank = their main line); it is live immediately. 10
+custom numbers are included, $2/month each after that. Tapping any number
+in that row lets them change where it rings. So when a client, or another
+agency/vendor working for them, needs a number for a new campaign or
+channel, tell them to create it there, named after the campaign, and hand
+it to that vendor. Do NOT offer to create it, do not escalate it, and never
+suggest reusing an existing number for a different campaign (it mixes the
+reporting: the ChatGPT line is for people who find them organically through
+ChatGPT, so a vendor's paid ChatGPT ads need their own number).
+"DID YOU GIVE [vendor] A NUMBER?": we never hand tracking numbers to other
+vendors. Answer from TRACKING NUMBERS ON FILE: say plainly whether a number
+for that channel exists, what it is for and where it rings, then the
+self-serve line above if the vendor needs one.
 WHEN THEY ASK FOR A CALL, this is the whole reply: say you are passing it
 along to Santino and ask for the best time to reach them ("Got it, I'll pass
 this along to Santino right now. What's the best time to reach you?").
@@ -2571,7 +2588,54 @@ def load_meeting_intel(company: dict) -> str | None:
                          + RENAME_TRUTH + "\n" + RENAME_PLUMBING_PUSHBACK)
     except Exception as e:  # noqa: BLE001 — knowledge is best-effort
         print(f"  [intel] rename knowledge skipped: {e}", file=sys.stderr)
+    # TRACKING NUMBERS ON FILE (Santino 2026-09-30, Bob Olson asked "did you
+    # give iCatch a tracking number for ChatGPT ads?" and Monica could only
+    # say "checking" because she never saw the list). Every number we hold,
+    # what it is for and where it rings, so she answers from facts.
+    try:
+        tl = tracking_lines(company)
+        if tl:
+            parts.append("[TRACKING NUMBERS ON FILE — answer tracking-number "
+                         "questions from this list; never guess, never defer]\n"
+                         + tl)
+    except Exception as e:  # noqa: BLE001 — knowledge is best-effort
+        print(f"  [intel] tracking numbers skipped: {e}", file=sys.stderr)
     return "\n\n".join(parts) or None
+
+
+_TRACK_PURPOSE = {
+    "website": "shown on their website to most visitors",
+    "gbp": "on their Google Business Profile",
+    "google_ads": "for their Google Ads",
+    "meta_ads": "for their Facebook/Instagram ads",
+    "yelp": "on their Yelp listing",
+    "bing": "on their Bing listing",
+    "chatgpt": ("shown to people who reach their site from ChatGPT (organic AI "
+                "referrals; not for anyone's paid ads)"),
+    "gemini": "shown to people who reach their site from Google Gemini",
+    "facebook": "on their Facebook page",
+    "instagram": "on their Instagram profile",
+}
+
+
+def _fmt_us(n: str | None) -> str:
+    d = re.sub(r"\D", "", n or "")[-10:]
+    return f"({d[:3]}) {d[3:6]}-{d[6:]}" if len(d) == 10 else (n or "")
+
+
+def tracking_lines(company: dict) -> str:
+    ct = (company.get("integration_settings") or {}).get("call_tracking") or {}
+    out = []
+    for src, v in sorted(ct.items()):
+        if not isinstance(v, dict) or not v.get("number"):
+            continue
+        what = v.get("label") or _TRACK_PURPOSE.get(src) or src.replace("_", " ")
+        who = ("created by the client in the app"
+               if v.get("created_by") == "self_serve" else "set up by us")
+        ring = (f"rings {_fmt_us(v['forward_to'])}" if v.get("forward_to")
+                else "rings their main line")
+        out.append(f"- {_fmt_us(v['number'])} [{src}]: {what}; {ring}; {who}")
+    return "\n".join(out)
 
 
 def _rename_in_play(company: dict) -> bool:
@@ -10096,10 +10160,10 @@ free with certification). The local Chamber of Commerce is a paid
 membership (roughly 200 to 600 a year) that the client buys for their
 main city if they want it — we set the listing up once they join.
 Q "Can I make my own tracking numbers?" (self-serve, 2026-09-15) A: Yes
-— Reports, then Calls, then Tracking Numbers: name it (Postcards,
-Billboard), pick an area code, optionally set where it forwards, and
-the number is live immediately. 20 numbers are included; more bill at
-cost.
+— Marketing menu, Reports tab, "Your tracking numbers", "+ New number":
+name it (Postcards, Billboard), pick an area code, optionally set where
+it forwards, and the number is live immediately. 10 custom numbers are
+included, $2/month each after.
 Q "Can you send that as a spreadsheet / a file?" A: Never offer or
 promise spreadsheets or file attachments (Santino 2026-09-14, the TDI
 sitemap spreadsheet: hard to produce, harder to deliver by text).
