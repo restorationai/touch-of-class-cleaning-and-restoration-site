@@ -24,7 +24,7 @@
   },
   "status": "active",
   "created_at": "2026-06-15T16:36:28.124334+00:00",
-  "updated_at": "2026-09-30T19:28:44.047715+00:00",
+  "updated_at": "2026-09-30T22:55:15.210596+00:00",
   "plan_status": "planned",
   "plan": {
     "template": "restoration",
@@ -40,10 +40,10 @@
     "url_count": 267,
     "pages_status": "created",
     "last_rendered_at": "2026-09-30T22:00:49.940813+00:00",
-    "last_pushed_main_at": "2026-09-29T23:51:50.352211+00:00",
+    "last_pushed_main_at": "2026-09-30T22:55:15.210552+00:00",
     "last_pushed_staging_at": "2026-08-19T03:21:17.176068+00:00"
   },
-  "build_status": "content_rendered",
+  "build_status": "pushed_main",
   "cloudflare": {
     "zone_id": "a7d27c3777b9f9b9571e4c0c4dc290f0"
   },
