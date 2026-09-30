@@ -15,6 +15,18 @@ LIVERY-REFERENCE: harvested/real-van-2026-09-15.jpg
 VAN-OVERRIDE: a fleet of exactly THREE matching Ram ProMaster high-roof cargo vans (rounded modern Euro-style cargo body, NOT a boxy Ford Transit), each wrapped IDENTICALLY in the livery of the reference photo, which is Frontline's ACTUAL van. The wrap is PREDOMINANTLY VIVID ORANGE across the whole body (cab, doors, roof, most of the cargo side all orange), with DEEP BLUE appearing only as a dynamic lower SWOOSH/WAVE that sweeps along the bottom of the body and curves upward toward the rear — it is an accent band, NOT half the van. On the mid/front side panel (over the front and sliding doors) sits the "FRONTLINE FIRE & FLOOD" wordmark set inside a WHITE rounded speech-bubble/callout shape, with the stylized blue-and-orange "F" speech-bubble shield mark directly beside it, and a small "VETERAN OWNED & OPERATED" arc above the wordmark, exactly as shown in the reference. Every van faces the SAME direction and is shot from the same side so the wrap reads identically across all three. The ONLY lettering allowed is the "FRONTLINE FIRE & FLOOD" wordmark and the F shield — NO readable phone numbers, NO website URL, NO license number anywhere on the wrap (these garble; leave them off entirely).
 
 **AUTOMATIC REJECT:** white vans, a thin accent stripe on a white body, a Ford-Transit-style boxy body, an orange-front-to-blue-rear split (the van is orange-DOMINANT with only a lower blue swoosh, not two halves), a wordmark that is not inside its white callout, or any wrap that does not match the real reference photo. The old orange-front/blue-rear hero was a stylized approximation, not his real van.
+Jared, 2026-09-30, verbatim: *"there's a few pictures in there that show our van and the wrap on the van in those pictures is incorrect- let's make our branding uniform throughout the website."* Also AUTOMATIC REJECT: a Ford Transit body, an orange van with a navy NOSE and no white callout, or a white van. Every vehicle in every image must match LIVERY-REFERENCE.
+
+**2. Every service card gets its OWN photo of THAT service. (Jared, 2026-09-30)**
+Client said, verbatim: *"there's one photo of the floor drying mats being used for many or our services. This photo should probably only be used once and I feel like it would be better to have a different photo for each service and hopefully something that represents that particular service."*
+No two services share an image, and the floor drying-mats photo (images/services.webp) appears on at most one card. AUTOMATIC REJECT: a service image that does not visibly show that service, or one that repeats another card's scene.
+
+**3. Emergency Plumbing shows a burst pipe spraying water. (Jared, 2026-09-30)**
+Client said, verbatim: *"Floor drying mats have nothing to do with emergency plumbing... The emergency plumbing should have a picture of a water pipe spraying out water or something similar."*
+
+SCENE-OVERRIDE[emergency-plumbing]: a burst copper supply pipe inside an opened drywall section of a home, water visibly SPRAYING out of the split in a hard jet and splashing onto the floor, a plumber in the everyday company uniform reaching in with a pipe wrench to shut it off, no vehicle in frame
+
+AUTOMATIC REJECT for emergency-plumbing: no water spraying from a pipe, or drying mats / drying equipment as the subject.
 <!-- ========================== END CLIENT DIRECTION ========================== -->
 
 This guide is consulted by every image-generation call (Skill 3 launch images, Skill 4 blog hero images, future image regenerations). The goal: a viewer scrolling through the site should feel like one professional photographer documented one company on one continuous job. No stylistic drift from page to page.

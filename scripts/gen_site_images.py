@@ -299,6 +299,7 @@ def generate_service_images(*, slug: str, geo: str, guide: str,
                             crew: str = "", mood: str = "",
                             equip: str = "", redo: set | None = None,
                             real: dict | None = None,
+                            scene_overrides: dict | None = None,
                             request: str = "", requested_by: str = "") -> int:
     """One image per src/content/services/*.md page, named {service_slug}.webp
     so serviceImage() resolves it. Existing base images are never overwritten
@@ -347,7 +348,7 @@ def generate_service_images(*, slug: str, geo: str, guide: str,
                 print(f"  services/{out.name}: REDO requested — regenerating")
                 for w in VARIANT_WIDTHS:
                     variant_path(out, w).unlink(missing_ok=True)
-            scene = SERVICE_SCENES.get(
+            scene = (scene_overrides or {}).get(svc_slug) or SERVICE_SCENES.get(
                 svc_slug,
                 f"a uniformed restoration technician performing {display} work "
                 f"with professional equipment at a job site").format(van=van)
@@ -821,6 +822,14 @@ def main() -> int:
     # what the crew is HOLDING needed its own line.
     m = re.search(r"EQUIPMENT-OVERRIDE:\s*(.+)", guide_full)
     equip = (m.group(1).strip().rstrip(".") + ". ") if m else ""
+    # SCENE-OVERRIDE[service_slug] (2026-09-30, Frontline): Jared — "The
+    # emergency plumbing should have a picture of a water pipe spraying out
+    # water". The SERVICE_SCENES table is fleet-wide, so a client's own idea
+    # of what a service card shows had nowhere to live; a --redo just drew
+    # the table's scene again. One line per service, --services mode only.
+    scene_overrides = {
+        m_sc.group(1): m_sc.group(2).strip().rstrip(".")
+        for m_sc in re.finditer(r"SCENE-OVERRIDE\[([\w-]+)\]:\s*(.+)", guide_full)}
 
     # NO-VEHICLES (2026-08-05 round 3, Reign): the escape hatch for a client
     # whose wrap the generator cannot be trusted with. Jerrott Gray flagged
@@ -871,7 +880,7 @@ def main() -> int:
         return generate_service_images(
             slug=slug, geo=geo, guide=guide, refs=refs, van=van,
             logo_rule=logo_rule, img_dir=img_dir, crew=crew, mood=mood,
-            equip=equip, real=real,
+            equip=equip, real=real, scene_overrides=scene_overrides,
             redo={s.strip() for s in args.redo.split(",") if s.strip()},
             request=args.request, requested_by=args.requested_by)
 
