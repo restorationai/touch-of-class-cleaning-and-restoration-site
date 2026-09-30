@@ -13,7 +13,7 @@
     "url_count": 760,
     "generated_at": "2026-09-29T23:31:28.212058+00:00"
   },
-  "updated_at": "2026-09-29T23:31:28.212061+00:00",
+  "updated_at": "2026-09-30T00:42:08.895947+00:00",
   "indexnow_key": "2eb1eb31473749648b3686a6667044f6",
   "build": {
     "scaffolded_at": "2026-09-29T14:28:39.950220+00:00",
@@ -23,9 +23,10 @@
     "url_count": 500,
     "pages_status": "created",
     "last_rendered_at": "2026-09-29T20:21:04.158973+00:00",
-    "last_pushed_staging_at": "2026-09-29T20:22:12.913368+00:00"
+    "last_pushed_staging_at": "2026-09-29T20:22:12.913368+00:00",
+    "last_pushed_main_at": "2026-09-30T00:42:08.895908+00:00"
   },
-  "build_status": "pushed_staging",
+  "build_status": "pushed_main",
   "cutover_prep": {
     "domain": "dry1out.com",
     "harvested_at": "2026-09-29T14:48:26+00:00",
