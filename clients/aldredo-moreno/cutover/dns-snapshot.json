@@ -1,25 +1,28 @@
 {
- "domain": "theacs-enterprises.com",
- "captured_at": "2026-09-23T15:01:02+00:00",
+ "domain": "theacsenterprises.com",
+ "captured_at": "2026-09-30T14:32:32+00:00",
  "authoritative": {
   "ns": [
-   "braden.ns.cloudflare.com",
-   "love.ns.cloudflare.com"
+   "ns35.domaincontrol.com",
+   "ns36.domaincontrol.com"
   ],
   "mx": [],
   "apex_txt": [],
-  "dmarc_txt": [],
+  "dmarc_txt": [
+   "v=DMARC1; p=quarantine; adkim=r; aspf=r; rua=mailto:dmarc_rua@onsecureserver.net;"
+  ],
   "dkim": {},
   "apex_a": [
-   "75.2.60.5"
+   "3.33.130.190",
+   "15.197.148.33"
   ],
   "apex_cname": [],
   "www_cname": [
-   "theacs-enterprises.netlify.app"
+   "theacsenterprises.com"
   ]
  },
  "cf_zone": {
-  "zone_id": "9f59be1a7867afc84569254dfdb5b08d",
+  "zone_id": "ab549aa7d61e5b97db8546d00ca3fde4",
   "name_servers": [
    "amos.ns.cloudflare.com",
    "anastasia.ns.cloudflare.com"
