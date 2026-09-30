@@ -617,8 +617,25 @@ def set_phone(slug: str) -> str:
     loc = find_location(token, place)
     if not loc:
         return f"{slug}: no GBP location"
-    body = {"phoneNumbers": {"primaryPhone": tracking,
-                             "additionalPhones": [real] if real else []}}
+    # KEEP THE LISTING'S OWN NUMBER (Dry1 Out 2026-09-30: the swap wrote
+    # companies.phone, which was the owner's personal cell, into
+    # additionalPhones and DROPPED the business's real listed number
+    # (888) 379-1688). The pre-swap primary is the number the public and
+    # Google already associate with the business: it always stays on the
+    # profile. companies.phone is added only when it is the same number;
+    # a mismatch is flagged, never written.
+    digits = lambda x: re.sub(r"\D", "", x or "")[-10:]  # noqa: E731
+    pn = loc.get("phoneNumbers") or {}
+    listed = pn.get("primaryPhone") or ""
+    if digits(listed) == digits(tracking):          # already swapped: keep extras
+        keep = pn.get("additionalPhones") or []
+    else:
+        keep = [listed] if listed else ([real] if real else [])
+    if real and listed and digits(real) != digits(listed) and digits(listed) != digits(tracking):
+        log_change(cid, "phone_mismatch",
+                   f"Google listed {listed} but our records say {real}; kept {listed} "
+                   "on the profile. Confirm the business line with the client.")
+    body = {"phoneNumbers": {"primaryPhone": tracking, "additionalPhones": keep}}
     r = requests.patch(f"{INFO_API}/{loc['name']}?updateMask=phoneNumbers",
                        headers={"Authorization": f"Bearer {token}",
                                 "Content-Type": "application/json"},
