@@ -39,5 +39,18 @@
     "last_audit_at": "2026-09-24T20:45:31Z",
     "last_audit_verdict": "amber",
     "last_audit_report_path": "audit-runs/2026-09-24-onsite-audit.md"
+  },
+  "zone": {
+    "id": "838bb8585e40d8d3f8b910971bb1c221",
+    "name": "floodsolutionsinc.com",
+    "status": "active",
+    "name_servers": [
+      "amos.ns.cloudflare.com",
+      "anastasia.ns.cloudflare.com"
+    ]
+  },
+  "cut_over_at": "2026-09-30T19:01:39+00:00",
+  "apex_cutover": {
+    "completed_at": "2026-09-30T19:01:39+00:00"
   }
 }
