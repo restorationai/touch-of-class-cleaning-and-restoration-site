@@ -1,240 +1,271 @@
 {
- "items": [
-  {
-   "id": "2026-09-29-best-water-damage-restoration-in-vista-ca",
-   "status": "queued",
-   "queued_at": "2026-09-29T02:07:36Z",
-   "priority": 1,
-   "prioritized": true,
-   "content_type": "best_of_comparison",
-   "combo_key": "best-water-damage-restoration-in-vista-ca",
-   "primary_keyword": "best water damage restoration company in Vista, CA",
-   "intent": "commercial",
-   "target_word_count": 1600,
-   "city_anchor": "vista-ca",
-   "best_of": {
-    "service": "water-damage-restoration",
-    "service_pretty": "Water Damage Restoration",
-    "city": "Vista",
-    "state": "CA",
-    "competitors": [
-     {
-      "name": "Coast to Coast Restoration, Inc.",
-      "google_rating": 4.9,
-      "review_count": 50
-     },
-     {
-      "name": "All City Cleaning",
-      "google_rating": 4.6,
-      "review_count": 73
-     },
-     {
-      "name": "American Response Team",
-      "google_rating": 5,
-      "review_count": 263
-     },
-     {
-      "name": "Steampro Clean Up & Drying Services",
-      "google_rating": 5,
-      "review_count": 21
-     }
-    ]
-   },
-   "fan_out_cluster": [
-    "best water damage restoration companies Vista",
-    "top rated water damage restoration Vista CA",
-    "who is the best water damage restoration company in Vista",
-    "water damage cleanup Vista",
-    "water cleanup Vista",
-    "water removal Vista"
-   ],
-   "source": "best-of-seeder"
-  },
-  {
-   "id": "2026-09-29-does-homeowners-insurance-cover-water-damage",
-   "status": "queued",
-   "queued_at": "2026-09-29T15:05:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "does homeowners insurance cover water damage",
-   "intent": "informational",
-   "volume": 1900,
-   "kd": 16,
-   "fan_out_cluster": [
-    "will homeowners insurance cover water damage",
-    "does insurance cover water damage from a leaking pipe",
-    "homeowners insurance water damage coverage",
-    "water damage covered by homeowners insurance",
-    "category 3 water damage",
-    "what to do after water damage in your house"
-   ],
-   "suggested_slug": "does-homeowners-insurance-cover-water-damage",
-   "suggested_title": "Does Homeowners Insurance Cover Water Damage? Sudden Leaks vs Slow Seepage Explained",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/burst-pipe-repair/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "burst-pipe-repair"
-   ],
-   "city_anchor": null,
-   "external_authority_candidates": [
-    "https://www.iii.org/article/homeowners-insurance-basics",
-    "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/"
-   ],
-   "notes": "National insurance explainer, left un-anchored per the city_anchor exception. Lead with the sudden-and-accidental vs gradual-leak distinction, then the photo and documentation steps from the ChatGPT answer. Can link the California Department of Insurance consumer guide for CA readers. Do not promise coverage outcomes or claim to be an insurance advisor. Internal link targets are conventional paths: url-plan.json does not exist yet, so confirm them before publishing.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-09-29-how-to-fix-water-damage-on-ceiling",
-   "status": "queued",
-   "queued_at": "2026-09-29T15:05:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "how to fix water damage on ceiling",
-   "intent": "informational",
-   "volume": 1000,
-   "kd": 0,
-   "fan_out_cluster": [
-    "ceiling water damage repair",
-    "signs of water damage in walls",
-    "water damage in ceiling",
-    "how to tell if water damage is old or new",
-    "water damage restoration process"
-   ],
-   "suggested_slug": "how-to-fix-water-damage-on-ceiling",
-   "suggested_title": "How to Fix Water Damage on Ceiling Drywall: A Vista Homeowner's Guide",
-   "target_word_count": 1500,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/general-contracting/",
-    "/service-areas/vista-ca/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "general-contracting"
-   ],
-   "city_anchor": "vista-ca",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Plays to the restoration-plus-construction positioning: find and stop the source, dry the cavity, then patch or replace drywall. Explain when a stain is cosmetic vs a sign of wet insulation that needs a pro. KD 0 on the primary and cluster head needs re-verification (possible no-data sentinel). Internal link targets are conventional paths: url-plan.json does not exist yet, so confirm them before publishing.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-09-29-water-damage-restoration-cost-san-diego",
-   "status": "queued",
-   "queued_at": "2026-09-29T15:05:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "water damage restoration cost",
-   "intent": "commercial",
-   "volume": 720,
-   "kd": 0,
-   "fan_out_cluster": [
-    "how much does water damage restoration cost",
-    "water damage restoration cost per square foot",
-    "water damage house repair costs",
-    "how long does water damage restoration take",
-    "water damage restoration cost calculator"
-   ],
-   "suggested_slug": "water-damage-restoration-cost-san-diego",
-   "suggested_title": "Water Damage Restoration Cost in San Diego County: What Homeowners Pay in 2026",
-   "target_word_count": 1600,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/general-contracting/",
-    "/service-areas/san-diego-ca/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "general-contracting"
-   ],
-   "city_anchor": "san-diego-ca",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Cost guide anchored to San Diego County (city-modified cost query had no measurable volume, so the national head term carries it). Break cost into mitigation vs rebuild and explain what drives price (water category, square footage, materials). Use ranges only if sourced; never invent a Dry1 Out price. High CPC (43.02) confirms buyer intent. Internal link targets are conventional paths: url-plan.json does not exist yet, so confirm them before publishing.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-09-29-water-damage-to-hardwood-floors",
-   "status": "queued",
-   "queued_at": "2026-09-29T15:05:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "water damage to hardwood floors",
-   "intent": "informational",
-   "volume": 1600,
-   "kd": 0,
-   "fan_out_cluster": [
-    "water damage on wood floors",
-    "water damage to wood flooring",
-    "how long does it take to dry out water damage",
-    "dehumidifier for water damage",
-    "signs of water damage in walls"
-   ],
-   "suggested_slug": "water-damage-to-hardwood-floors",
-   "suggested_title": "Water Damage to Hardwood Floors: Can They Be Saved? (Carlsbad and North County Guide)",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/general-contracting/",
-    "/service-areas/carlsbad-ca/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "general-contracting"
-   ],
-   "city_anchor": "carlsbad-ca",
-   "external_authority_candidates": [
-    "https://www.iicrc.org/page/IICRCS500"
-   ],
-   "notes": "Cupping vs crowning vs buckling, moisture readings, and when drying beats replacement. Coastal Carlsbad Village and La Costa homes from local_notes. KD 0 needs re-verification. Internal link targets are conventional paths: url-plan.json does not exist yet, so confirm them before publishing.",
-   "source": "keyword-researcher"
-  },
-  {
-   "id": "2026-09-29-how-fast-does-mold-grow-after-water-damage",
-   "status": "queued",
-   "queued_at": "2026-09-29T15:05:00Z",
-   "written_at": null,
-   "post_url": null,
-   "priority": 1,
-   "primary_keyword": "how fast does mold grow after water damage",
-   "intent": "informational",
-   "volume": 110,
-   "kd": 1,
-   "fan_out_cluster": [
-    "can water damage cause mold",
-    "what to do after water damage in your house",
-    "how long does it take to dry out water damage",
-    "category 3 water damage"
-   ],
-   "suggested_slug": "how-fast-does-mold-grow-after-water-damage",
-   "suggested_title": "How Fast Does Mold Grow After Water Damage? The 24 to 48 Hour Window in Vista Homes",
-   "target_word_count": 1400,
-   "internal_link_targets": [
-    "/services/water-damage-restoration/",
-    "/services/mold-remediation/",
-    "/service-areas/vista-ca/"
-   ],
-   "service_tags": [
-    "water-damage-restoration",
-    "mold-remediation"
-   ],
-   "city_anchor": "vista-ca",
-   "external_authority_candidates": [
-    "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
-    "https://www.iicrc.org/page/IICRCS520"
-   ],
-   "notes": "Question surfaced in the ChatGPT scraper answer (drying to prevent mold, 24 to 48 hours). Bridges the water and mold service lines. Cite EPA for the 24 to 48 hour guidance rather than stating it unsourced. Internal link targets are conventional paths: url-plan.json does not exist yet, so confirm them before publishing.",
-   "source": "keyword-researcher"
-  }
- ]
+  "items": [
+    {
+      "id": "2026-09-29-best-water-damage-restoration-in-vista-ca",
+      "status": "written",
+      "queued_at": "2026-09-29T02:07:36Z",
+      "priority": 1,
+      "prioritized": true,
+      "content_type": "best_of_comparison",
+      "combo_key": "best-water-damage-restoration-in-vista-ca",
+      "primary_keyword": "best water damage restoration company in Vista, CA",
+      "intent": "commercial",
+      "target_word_count": 1600,
+      "city_anchor": "vista-ca",
+      "best_of": {
+        "service": "water-damage-restoration",
+        "service_pretty": "Water Damage Restoration",
+        "city": "Vista",
+        "state": "CA",
+        "competitors": [
+          {
+            "name": "Coast to Coast Restoration, Inc.",
+            "google_rating": 4.9,
+            "review_count": 50
+          },
+          {
+            "name": "All City Cleaning",
+            "google_rating": 4.6,
+            "review_count": 73
+          },
+          {
+            "name": "American Response Team",
+            "google_rating": 5,
+            "review_count": 263
+          },
+          {
+            "name": "Steampro Clean Up & Drying Services",
+            "google_rating": 5,
+            "review_count": 21
+          }
+        ]
+      },
+      "fan_out_cluster": [
+        "best water damage restoration companies Vista",
+        "top rated water damage restoration Vista CA",
+        "who is the best water damage restoration company in Vista",
+        "water damage cleanup Vista",
+        "water cleanup Vista",
+        "water removal Vista"
+      ],
+      "source": "best-of-seeder",
+      "written_at": "2026-09-30T01:28:03Z",
+      "post_url": "https://dry1out.com/blog/best-water-damage-restoration-company-in-vista-ca/",
+      "claims_flags": [
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-vista-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "263 reviews",
+          "context": "est review volume in this comparison at 263 reviews and a 5.0 average rating, which signals",
+          "reason": "listicle review-count 263 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-vista-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "50 reviews",
+          "context": "ation, Inc.** holds a 4.9 rating across 50 reviews, an established local restoration compa",
+          "reason": "listicle review-count 50 (competitor stat \u2014 verify it is not presented as ours)"
+        },
+        {
+          "file": "src/content/blog/best-water-damage-restoration-company-in-vista-ca.md",
+          "part": "body",
+          "family": "reviews",
+          "severity": "review",
+          "matched": "73 reviews",
+          "context": "ty Cleaning** shows a 4.6 rating across 73 reviews. A rating in this range still reflects",
+          "reason": "listicle review-count 73 (competitor stat \u2014 verify it is not presented as ours)"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-29-does-homeowners-insurance-cover-water-damage",
+      "status": "queued",
+      "queued_at": "2026-09-29T15:05:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "does homeowners insurance cover water damage",
+      "intent": "informational",
+      "volume": 1900,
+      "kd": 16,
+      "fan_out_cluster": [
+        "will homeowners insurance cover water damage",
+        "does insurance cover water damage from a leaking pipe",
+        "homeowners insurance water damage coverage",
+        "water damage covered by homeowners insurance",
+        "category 3 water damage",
+        "what to do after water damage in your house"
+      ],
+      "suggested_slug": "does-homeowners-insurance-cover-water-damage",
+      "suggested_title": "Does Homeowners Insurance Cover Water Damage? Sudden Leaks vs Slow Seepage Explained",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/burst-pipe-repair/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "burst-pipe-repair"
+      ],
+      "city_anchor": null,
+      "external_authority_candidates": [
+        "https://www.iii.org/article/homeowners-insurance-basics",
+        "https://www.insurance.ca.gov/01-consumers/105-type/95-guides/03-res/"
+      ],
+      "notes": "National insurance explainer, left un-anchored per the city_anchor exception. Lead with the sudden-and-accidental vs gradual-leak distinction, then the photo and documentation steps from the ChatGPT answer. Can link the California Department of Insurance consumer guide for CA readers. Do not promise coverage outcomes or claim to be an insurance advisor. Internal link targets are conventional paths: url-plan.json does not exist yet, so confirm them before publishing.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-09-29-how-to-fix-water-damage-on-ceiling",
+      "status": "queued",
+      "queued_at": "2026-09-29T15:05:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "how to fix water damage on ceiling",
+      "intent": "informational",
+      "volume": 1000,
+      "kd": 0,
+      "fan_out_cluster": [
+        "ceiling water damage repair",
+        "signs of water damage in walls",
+        "water damage in ceiling",
+        "how to tell if water damage is old or new",
+        "water damage restoration process"
+      ],
+      "suggested_slug": "how-to-fix-water-damage-on-ceiling",
+      "suggested_title": "How to Fix Water Damage on Ceiling Drywall: A Vista Homeowner's Guide",
+      "target_word_count": 1500,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/general-contracting/",
+        "/service-areas/vista-ca/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "general-contracting"
+      ],
+      "city_anchor": "vista-ca",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Plays to the restoration-plus-construction positioning: find and stop the source, dry the cavity, then patch or replace drywall. Explain when a stain is cosmetic vs a sign of wet insulation that needs a pro. KD 0 on the primary and cluster head needs re-verification (possible no-data sentinel). Internal link targets are conventional paths: url-plan.json does not exist yet, so confirm them before publishing.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-09-29-water-damage-restoration-cost-san-diego",
+      "status": "queued",
+      "queued_at": "2026-09-29T15:05:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "water damage restoration cost",
+      "intent": "commercial",
+      "volume": 720,
+      "kd": 0,
+      "fan_out_cluster": [
+        "how much does water damage restoration cost",
+        "water damage restoration cost per square foot",
+        "water damage house repair costs",
+        "how long does water damage restoration take",
+        "water damage restoration cost calculator"
+      ],
+      "suggested_slug": "water-damage-restoration-cost-san-diego",
+      "suggested_title": "Water Damage Restoration Cost in San Diego County: What Homeowners Pay in 2026",
+      "target_word_count": 1600,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/general-contracting/",
+        "/service-areas/san-diego-ca/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "general-contracting"
+      ],
+      "city_anchor": "san-diego-ca",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Cost guide anchored to San Diego County (city-modified cost query had no measurable volume, so the national head term carries it). Break cost into mitigation vs rebuild and explain what drives price (water category, square footage, materials). Use ranges only if sourced; never invent a Dry1 Out price. High CPC (43.02) confirms buyer intent. Internal link targets are conventional paths: url-plan.json does not exist yet, so confirm them before publishing.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-09-29-water-damage-to-hardwood-floors",
+      "status": "queued",
+      "queued_at": "2026-09-29T15:05:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "water damage to hardwood floors",
+      "intent": "informational",
+      "volume": 1600,
+      "kd": 0,
+      "fan_out_cluster": [
+        "water damage on wood floors",
+        "water damage to wood flooring",
+        "how long does it take to dry out water damage",
+        "dehumidifier for water damage",
+        "signs of water damage in walls"
+      ],
+      "suggested_slug": "water-damage-to-hardwood-floors",
+      "suggested_title": "Water Damage to Hardwood Floors: Can They Be Saved? (Carlsbad and North County Guide)",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/general-contracting/",
+        "/service-areas/carlsbad-ca/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "general-contracting"
+      ],
+      "city_anchor": "carlsbad-ca",
+      "external_authority_candidates": [
+        "https://www.iicrc.org/page/IICRCS500"
+      ],
+      "notes": "Cupping vs crowning vs buckling, moisture readings, and when drying beats replacement. Coastal Carlsbad Village and La Costa homes from local_notes. KD 0 needs re-verification. Internal link targets are conventional paths: url-plan.json does not exist yet, so confirm them before publishing.",
+      "source": "keyword-researcher"
+    },
+    {
+      "id": "2026-09-29-how-fast-does-mold-grow-after-water-damage",
+      "status": "queued",
+      "queued_at": "2026-09-29T15:05:00Z",
+      "written_at": null,
+      "post_url": null,
+      "priority": 1,
+      "primary_keyword": "how fast does mold grow after water damage",
+      "intent": "informational",
+      "volume": 110,
+      "kd": 1,
+      "fan_out_cluster": [
+        "can water damage cause mold",
+        "what to do after water damage in your house",
+        "how long does it take to dry out water damage",
+        "category 3 water damage"
+      ],
+      "suggested_slug": "how-fast-does-mold-grow-after-water-damage",
+      "suggested_title": "How Fast Does Mold Grow After Water Damage? The 24 to 48 Hour Window in Vista Homes",
+      "target_word_count": 1400,
+      "internal_link_targets": [
+        "/services/water-damage-restoration/",
+        "/services/mold-remediation/",
+        "/service-areas/vista-ca/"
+      ],
+      "service_tags": [
+        "water-damage-restoration",
+        "mold-remediation"
+      ],
+      "city_anchor": "vista-ca",
+      "external_authority_candidates": [
+        "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+        "https://www.iicrc.org/page/IICRCS520"
+      ],
+      "notes": "Question surfaced in the ChatGPT scraper answer (drying to prevent mold, 24 to 48 hours). Bridges the water and mold service lines. Cite EPA for the 24 to 48 hour guidance rather than stating it unsourced. Internal link targets are conventional paths: url-plan.json does not exist yet, so confirm them before publishing.",
+      "source": "keyword-researcher"
+    }
+  ]
 }
