@@ -160,5 +160,9 @@
   "merged_services": {
     "mold-inspection-testing": "mold-inspection-assessment",
     "water-cleanup": "emergency-water-removal"
-  }
+  },
+  "excluded_services": [
+    "general-contracting",
+    "reconstruction"
+  ]
 }

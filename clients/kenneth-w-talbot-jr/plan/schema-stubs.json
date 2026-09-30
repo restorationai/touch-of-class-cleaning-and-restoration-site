@@ -178,26 +178,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/reconstruction/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/general-contracting/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/large-loss-response/": {
     "archetype": "service-landing",
     "stubs": [
@@ -548,26 +528,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/destin-fl/reconstruction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/destin-fl/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/destin-fl/large-loss-response/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -729,26 +689,6 @@
     "missing_stubs": []
   },
   "/service-areas/miramar-beach-fl/industrial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/miramar-beach-fl/reconstruction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/miramar-beach-fl/general-contracting/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -928,26 +868,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/santa-rosa-beach-fl/reconstruction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/santa-rosa-beach-fl/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/santa-rosa-beach-fl/large-loss-response/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1109,26 +1029,6 @@
     "missing_stubs": []
   },
   "/service-areas/niceville-fl/industrial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/niceville-fl/reconstruction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/niceville-fl/general-contracting/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1308,26 +1208,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fort-walton-beach-fl/reconstruction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fort-walton-beach-fl/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fort-walton-beach-fl/large-loss-response/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1489,26 +1369,6 @@
     "missing_stubs": []
   },
   "/service-areas/panama-city-beach-fl/industrial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/panama-city-beach-fl/reconstruction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/panama-city-beach-fl/general-contracting/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1688,26 +1548,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/crestview-fl/reconstruction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/crestview-fl/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/crestview-fl/large-loss-response/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1869,26 +1709,6 @@
     "missing_stubs": []
   },
   "/service-areas/defuniak-springs-fl/industrial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/defuniak-springs-fl/reconstruction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/defuniak-springs-fl/general-contracting/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2068,26 +1888,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/valparaiso-fl/reconstruction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/valparaiso-fl/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/valparaiso-fl/large-loss-response/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2249,26 +2049,6 @@
     "missing_stubs": []
   },
   "/service-areas/ebro-fl/industrial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ebro-fl/reconstruction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ebro-fl/general-contracting/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2448,26 +2228,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ponce-de-leon-fl/reconstruction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ponce-de-leon-fl/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ponce-de-leon-fl/large-loss-response/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2629,26 +2389,6 @@
     "missing_stubs": []
   },
   "/service-areas/westville-fl/industrial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/westville-fl/reconstruction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/westville-fl/general-contracting/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2828,26 +2568,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/eglin-afb-fl/reconstruction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/eglin-afb-fl/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/eglin-afb-fl/large-loss-response/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3009,26 +2729,6 @@
     "missing_stubs": []
   },
   "/service-areas/vernon-fl/industrial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/vernon-fl/reconstruction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/vernon-fl/general-contracting/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3208,26 +2908,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/wright-fl/reconstruction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wright-fl/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/wright-fl/large-loss-response/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3389,26 +3069,6 @@
     "missing_stubs": []
   },
   "/service-areas/hurlburt-field-fl/industrial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hurlburt-field-fl/reconstruction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hurlburt-field-fl/general-contracting/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3588,26 +3248,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/paxton-fl/reconstruction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/paxton-fl/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/paxton-fl/large-loss-response/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3769,26 +3409,6 @@
     "missing_stubs": []
   },
   "/service-areas/laurel-hill-fl/industrial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/laurel-hill-fl/reconstruction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/laurel-hill-fl/general-contracting/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3968,26 +3588,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/harold-fl/reconstruction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/harold-fl/general-contracting/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/harold-fl/large-loss-response/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4149,26 +3749,6 @@
     "missing_stubs": []
   },
   "/service-areas/navarre-fl/industrial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/navarre-fl/reconstruction/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/navarre-fl/general-contracting/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

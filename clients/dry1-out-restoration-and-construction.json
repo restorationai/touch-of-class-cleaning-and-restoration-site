@@ -13,7 +13,7 @@
     "url_count": 620,
     "generated_at": "2026-09-30T19:28:33.221290+00:00"
   },
-  "updated_at": "2026-09-30T19:58:57.514407+00:00",
+  "updated_at": "2026-09-30T22:40:38.230988+00:00",
   "indexnow_key": "2eb1eb31473749648b3686a6667044f6",
   "build": {
     "scaffolded_at": "2026-09-29T14:28:39.950220+00:00",
@@ -24,7 +24,7 @@
     "pages_status": "created",
     "last_rendered_at": "2026-09-29T20:21:04.158973+00:00",
     "last_pushed_staging_at": "2026-09-29T20:22:12.913368+00:00",
-    "last_pushed_main_at": "2026-09-30T19:58:57.514377+00:00"
+    "last_pushed_main_at": "2026-09-30T22:40:38.230954+00:00"
   },
   "build_status": "pushed_main",
   "cutover_prep": {
