@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "44f4352d071f0fb9"
-generated_at: "2026-09-26T17:45:52.538630+00:00"
+generated_at: "2026-09-30T14:12:22.972463+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/wasco-ca/", "/service-areas/wasco-ca/fire-damage-restoration/", "/service-areas/wasco-ca/home-remodeling/", "/service-areas/arvin-ca/roofing/", "/service-areas/bear-valley-springs-ca/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wasco", "url": "/service-areas/wasco-ca/"}, {"name": "Roofing Installation and Replacement"}]

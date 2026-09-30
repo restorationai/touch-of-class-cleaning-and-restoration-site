@@ -8,7 +8,7 @@ secondary_keywords: ["window replacement", "window installation contractor", "ex
 search_intent: "local_commercial"
 priority: 4.9
 plan_hash: "3bc745b6eacd6e38"
-generated_at: "2026-09-23T14:11:32.833188+00:00"
+generated_at: "2026-09-30T14:12:04.059011+00:00"
 manual_override: false
 internal_links: ["/services/windows-doors/", "/service-areas/redstone-arsenal-al/", "/service-areas/redstone-arsenal-al/home-remodeling/", "/service-areas/redstone-arsenal-al/roofing/", "/service-areas/arab-al/windows-doors/", "/service-areas/ardmore-al/windows-doors/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Redstone Arsenal", "url": "/service-areas/redstone-arsenal-al/"}, {"name": "Window and Door Installation"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "37ec1b59634d6a42"
-generated_at: "2026-09-26T17:45:52.545146+00:00"
+generated_at: "2026-09-30T14:12:22.989319+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/tehachapi-ca/", "/service-areas/tehachapi-ca/fire-damage-restoration/", "/service-areas/tehachapi-ca/home-remodeling/", "/service-areas/arvin-ca/water-heater-flood-cleanup/", "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tehachapi", "url": "/service-areas/tehachapi-ca/"}, {"name": "water-heater-flood-cleanup"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "17d80f44ba74f5c4"
-generated_at: "2026-09-29T23:24:34.724178+00:00"
+generated_at: "2026-09-30T14:12:09.731518+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/woodcrest-ca/", "/service-areas/woodcrest-ca/fire-damage-restoration/", "/service-areas/woodcrest-ca/mold-remediation/", "/service-areas/anaheim-ca/industrial-restoration/", "/service-areas/chino-ca/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woodcrest", "url": "/service-areas/woodcrest-ca/"}, {"name": "Industrial Restoration"}]

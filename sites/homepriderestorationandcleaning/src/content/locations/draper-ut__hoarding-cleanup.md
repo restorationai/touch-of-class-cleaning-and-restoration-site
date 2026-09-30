@@ -8,7 +8,7 @@ secondary_keywords: ["hoarder cleanup", "hoarding cleaning services", "hoarding 
 search_intent: "local_sensitive"
 priority: 4.2
 plan_hash: "26ca65c612b7979f"
-generated_at: "2026-09-23T14:11:49.791154+00:00"
+generated_at: "2026-09-30T14:12:14.656961+00:00"
 manual_override: false
 internal_links: ["/services/hoarding-cleanup/", "/service-areas/draper-ut/", "/service-areas/draper-ut/fire-damage-restoration/", "/service-areas/draper-ut/mold-remediation/", "/service-areas/alpine-ut/hoarding-cleanup/", "/service-areas/american-fork-ut/hoarding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Draper", "url": "/service-areas/draper-ut/"}, {"name": "Hoarding Cleanup"}]

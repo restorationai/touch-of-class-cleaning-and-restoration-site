@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "fe6f5bfbcbbcdf1b"
-generated_at: "2026-09-29T23:24:34.693126+00:00"
+generated_at: "2026-09-30T14:12:09.638711+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/ontario-ca/", "/service-areas/ontario-ca/fire-damage-restoration/", "/service-areas/ontario-ca/mold-remediation/", "/service-areas/anaheim-ca/industrial-restoration/", "/service-areas/chino-ca/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ontario", "url": "/service-areas/ontario-ca/"}, {"name": "Industrial Restoration"}]

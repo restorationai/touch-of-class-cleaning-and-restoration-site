@@ -8,7 +8,7 @@ secondary_keywords: ["emergency water removal", "emergency water damage", "24 ho
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "f518f19e908ff4d9"
-generated_at: "2026-09-26T17:45:52.577258+00:00"
+generated_at: "2026-09-30T14:12:23.053530+00:00"
 manual_override: false
 internal_links: ["/services/emergency-water-removal/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/fire-damage-restoration/", "/service-areas/buttonwillow-ca/home-remodeling/", "/service-areas/arvin-ca/emergency-water-removal/", "/service-areas/bear-valley-springs-ca/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "emergency-water-removal"}]

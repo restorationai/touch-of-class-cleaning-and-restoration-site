@@ -8,7 +8,7 @@ secondary_keywords: ["window replacement", "window installation contractor", "ex
 search_intent: "local_commercial"
 priority: 4.9
 plan_hash: "4ed6393c7f2d1869"
-generated_at: "2026-09-23T14:11:32.857444+00:00"
+generated_at: "2026-09-30T14:12:04.080006+00:00"
 manual_override: false
 internal_links: ["/services/windows-doors/", "/service-areas/triana-al/", "/service-areas/triana-al/home-remodeling/", "/service-areas/triana-al/roofing/", "/service-areas/arab-al/windows-doors/", "/service-areas/ardmore-al/windows-doors/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Triana", "url": "/service-areas/triana-al/"}, {"name": "Window and Door Installation"}]

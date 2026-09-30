@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "cab0d559658b3a87"
-generated_at: "2026-09-29T23:24:34.711600+00:00"
+generated_at: "2026-09-30T14:12:09.684649+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/silverado-ca/", "/service-areas/silverado-ca/fire-damage-restoration/", "/service-areas/silverado-ca/mold-remediation/", "/service-areas/anaheim-ca/industrial-restoration/", "/service-areas/chino-ca/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Silverado", "url": "/service-areas/silverado-ca/"}, {"name": "Industrial Restoration"}]

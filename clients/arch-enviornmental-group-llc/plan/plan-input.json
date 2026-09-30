@@ -148,6 +148,11 @@
       "city": "Squaw Valley",
       "state": "CA",
       "slug": "squaw-valley-ca"
+    },
+    {
+      "city": "Centerville",
+      "state": "CA",
+      "slug": "centerville-ca"
     }
   ],
   "template": "environmental",

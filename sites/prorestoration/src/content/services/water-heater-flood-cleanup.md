@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "f08ddabdcd44543f"
-generated_at: "2026-09-26T17:45:52.522339+00:00"
+generated_at: "2026-09-30T14:12:22.937297+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/arvin-ca/water-heater-flood-cleanup/", "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/", "/service-areas/buttonwillow-ca/water-heater-flood-cleanup/", "/service-areas/delano-ca/water-heater-flood-cleanup/", "/service-areas/dustin-acres-ca/water-heater-flood-cleanup/", "/service-areas/east-niles-ca/water-heater-flood-cleanup/", "/service-areas/keene-ca/water-heater-flood-cleanup/", "/service-areas/lake-isabella-ca/water-heater-flood-cleanup/", "/service-areas/lamont-ca/water-heater-flood-cleanup/", "/service-areas/maricopa-ca/water-heater-flood-cleanup/", "/service-areas/mcfarland-ca/water-heater-flood-cleanup/", "/service-areas/oildale-ca/water-heater-flood-cleanup/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "water-heater-flood-cleanup"}]

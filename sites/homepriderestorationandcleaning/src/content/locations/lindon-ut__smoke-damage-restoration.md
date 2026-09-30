@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "9258dab9d8bb63ba"
-generated_at: "2026-09-23T14:11:49.748834+00:00"
+generated_at: "2026-09-30T14:12:14.604827+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/lindon-ut/", "/service-areas/lindon-ut/fire-damage-restoration/", "/service-areas/lindon-ut/mold-remediation/", "/service-areas/alpine-ut/smoke-damage-restoration/", "/service-areas/american-fork-ut/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lindon", "url": "/service-areas/lindon-ut/"}, {"name": "Smoke Damage Restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "5e2fb7a3521bc70c"
-generated_at: "2026-09-26T17:45:52.521732+00:00"
+generated_at: "2026-09-30T14:12:22.935467+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/arvin-ca/water-leak-detection/", "/service-areas/bear-valley-springs-ca/water-leak-detection/", "/service-areas/buttonwillow-ca/water-leak-detection/", "/service-areas/delano-ca/water-leak-detection/", "/service-areas/dustin-acres-ca/water-leak-detection/", "/service-areas/east-niles-ca/water-leak-detection/", "/service-areas/keene-ca/water-leak-detection/", "/service-areas/lake-isabella-ca/water-leak-detection/", "/service-areas/lamont-ca/water-leak-detection/", "/service-areas/maricopa-ca/water-leak-detection/", "/service-areas/mcfarland-ca/water-leak-detection/", "/service-areas/oildale-ca/water-leak-detection/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Water Leak Detection"}]

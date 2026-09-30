@@ -8,7 +8,7 @@ secondary_keywords: ["custom home builder", "new home builder", "build a house",
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "f4f82e0a2825e4d2"
-generated_at: "2026-09-23T14:11:32.871907+00:00"
+generated_at: "2026-09-30T14:12:04.094781+00:00"
 manual_override: false
 internal_links: ["/services/new-construction/", "/service-areas/elkmont-al/", "/service-areas/elkmont-al/home-remodeling/", "/service-areas/elkmont-al/roofing/", "/service-areas/arab-al/new-construction/", "/service-areas/ardmore-al/new-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elkmont", "url": "/service-areas/elkmont-al/"}, {"name": "New Home Construction"}]

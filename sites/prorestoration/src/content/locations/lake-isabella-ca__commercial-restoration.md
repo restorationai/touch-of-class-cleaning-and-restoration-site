@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "b20c8c1c5dd13144"
-generated_at: "2026-09-26T17:45:52.552921+00:00"
+generated_at: "2026-09-30T14:12:23.008666+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/lake-isabella-ca/", "/service-areas/lake-isabella-ca/fire-damage-restoration/", "/service-areas/lake-isabella-ca/home-remodeling/", "/service-areas/arvin-ca/commercial-restoration/", "/service-areas/bear-valley-springs-ca/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Isabella", "url": "/service-areas/lake-isabella-ca/"}, {"name": "commercial-restoration"}]

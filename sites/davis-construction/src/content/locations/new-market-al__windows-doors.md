@@ -8,7 +8,7 @@ secondary_keywords: ["window replacement", "window installation contractor", "ex
 search_intent: "local_commercial"
 priority: 4.9
 plan_hash: "1cc9150c7a659ba3"
-generated_at: "2026-09-23T14:11:32.843362+00:00"
+generated_at: "2026-09-30T14:12:04.067542+00:00"
 manual_override: false
 internal_links: ["/services/windows-doors/", "/service-areas/new-market-al/", "/service-areas/new-market-al/home-remodeling/", "/service-areas/new-market-al/roofing/", "/service-areas/arab-al/windows-doors/", "/service-areas/ardmore-al/windows-doors/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "New Market", "url": "/service-areas/new-market-al/"}, {"name": "Window and Door Installation"}]

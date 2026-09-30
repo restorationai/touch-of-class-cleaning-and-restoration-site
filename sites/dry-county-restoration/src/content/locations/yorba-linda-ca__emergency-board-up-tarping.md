@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "82d095a6807b2ac2"
-generated_at: "2026-09-23T14:11:36.198596+00:00"
+generated_at: "2026-09-30T14:12:09.711021+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/yorba-linda-ca/", "/service-areas/yorba-linda-ca/fire-damage-restoration/", "/service-areas/yorba-linda-ca/mold-remediation/", "/service-areas/anaheim-ca/emergency-board-up-tarping/", "/service-areas/chino-ca/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Yorba Linda", "url": "/service-areas/yorba-linda-ca/"}, {"name": "Emergency Board-Up and Tarping"}]

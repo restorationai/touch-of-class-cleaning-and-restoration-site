@@ -1,9 +1,9 @@
 {
   "template": "construction",
   "template_version": "0.1.0",
-  "generated_at": "2026-09-23T14:11:31.723591+00:00",
+  "generated_at": "2026-09-30T14:12:03.267192+00:00",
   "input_summary": {
-    "service_count": 11,
+    "service_count": 14,
     "service_area_count": 20,
     "cross_product": true,
     "blog_seed_count": 12
@@ -55,6 +55,9 @@
         "/services/storm-damage-restoration/",
         "/services/water-damage-restoration/",
         "/services/windows-doors/",
+        "/services/basement-sewage-cleanup/",
+        "/services/carpet-upholstery-cleaning/",
+        "/services/post-construction-specialty-cleaning/",
         "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/",
@@ -116,7 +119,10 @@
         "/services/painting-trim/",
         "/services/storm-damage-restoration/",
         "/services/water-damage-restoration/",
-        "/services/windows-doors/"
+        "/services/windows-doors/",
+        "/services/basement-sewage-cleanup/",
+        "/services/carpet-upholstery-cleaning/",
+        "/services/post-construction-specialty-cleaning/"
       ]
     },
     {
@@ -276,6 +282,94 @@
         "/",
         "/services/",
         "/service-areas/"
+      ]
+    },
+    {
+      "url_path": "/services/basement-sewage-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Basement Sewage Cleanup in Madison | Davis Construction Contractors",
+      "h1": "Basement Sewage Cleanup in Madison",
+      "meta_description": "Trusted basement sewage cleanup in Madison and surrounding areas. Licensed general contractor, free estimates, on-time and on-budget. Call (256) 771-0326.",
+      "primary_keyword": "basement sewage cleanup madison",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/arab-al/basement-sewage-cleanup/",
+        "/service-areas/ardmore-al/basement-sewage-cleanup/",
+        "/service-areas/athens-al/basement-sewage-cleanup/",
+        "/service-areas/decatur-al/basement-sewage-cleanup/",
+        "/service-areas/elkmont-al/basement-sewage-cleanup/",
+        "/service-areas/gurley-al/basement-sewage-cleanup/",
+        "/service-areas/hartselle-al/basement-sewage-cleanup/",
+        "/service-areas/harvest-al/basement-sewage-cleanup/",
+        "/service-areas/hazel-green-al/basement-sewage-cleanup/",
+        "/service-areas/huntsville-al/basement-sewage-cleanup/",
+        "/service-areas/meridianville-al/basement-sewage-cleanup/",
+        "/service-areas/moores-mill-al/basement-sewage-cleanup/"
+      ]
+    },
+    {
+      "url_path": "/services/carpet-upholstery-cleaning/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Carpet & Upholstery Cleaning in Madison | Davis Construction Contractors",
+      "h1": "Carpet & Upholstery Cleaning in Madison",
+      "meta_description": "Trusted carpet & upholstery cleaning in Madison and surrounding areas. Licensed general contractor, free estimates, on-time and on-budget. Call (256) 771-0326.",
+      "primary_keyword": "carpet & upholstery cleaning madison",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/arab-al/carpet-upholstery-cleaning/",
+        "/service-areas/ardmore-al/carpet-upholstery-cleaning/",
+        "/service-areas/athens-al/carpet-upholstery-cleaning/",
+        "/service-areas/decatur-al/carpet-upholstery-cleaning/",
+        "/service-areas/elkmont-al/carpet-upholstery-cleaning/",
+        "/service-areas/gurley-al/carpet-upholstery-cleaning/",
+        "/service-areas/hartselle-al/carpet-upholstery-cleaning/",
+        "/service-areas/harvest-al/carpet-upholstery-cleaning/",
+        "/service-areas/hazel-green-al/carpet-upholstery-cleaning/",
+        "/service-areas/huntsville-al/carpet-upholstery-cleaning/",
+        "/service-areas/meridianville-al/carpet-upholstery-cleaning/",
+        "/service-areas/moores-mill-al/carpet-upholstery-cleaning/"
       ]
     },
     {
@@ -586,6 +680,50 @@
       ]
     },
     {
+      "url_path": "/services/post-construction-specialty-cleaning/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Post-Construction & Specialty Cleaning in Madison | Davis Construction Contractors",
+      "h1": "Post-Construction & Specialty Cleaning in Madison",
+      "meta_description": "Trusted post-construction & specialty cleaning in Madison and surrounding areas. Licensed general contractor, free estimates, on-time and on-budget. Call (256) 771-0326.",
+      "primary_keyword": "post-construction & specialty cleaning madison",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 4.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/arab-al/post-construction-specialty-cleaning/",
+        "/service-areas/ardmore-al/post-construction-specialty-cleaning/",
+        "/service-areas/athens-al/post-construction-specialty-cleaning/",
+        "/service-areas/decatur-al/post-construction-specialty-cleaning/",
+        "/service-areas/elkmont-al/post-construction-specialty-cleaning/",
+        "/service-areas/gurley-al/post-construction-specialty-cleaning/",
+        "/service-areas/hartselle-al/post-construction-specialty-cleaning/",
+        "/service-areas/harvest-al/post-construction-specialty-cleaning/",
+        "/service-areas/hazel-green-al/post-construction-specialty-cleaning/",
+        "/service-areas/huntsville-al/post-construction-specialty-cleaning/",
+        "/service-areas/meridianville-al/post-construction-specialty-cleaning/",
+        "/service-areas/moores-mill-al/post-construction-specialty-cleaning/"
+      ]
+    },
+    {
       "url_path": "/services/roofing/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -884,6 +1022,9 @@
         "/service-areas/huntsville-al/storm-damage-restoration/",
         "/service-areas/huntsville-al/water-damage-restoration/",
         "/service-areas/huntsville-al/windows-doors/",
+        "/service-areas/huntsville-al/basement-sewage-cleanup/",
+        "/service-areas/huntsville-al/carpet-upholstery-cleaning/",
+        "/service-areas/huntsville-al/post-construction-specialty-cleaning/",
         "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/"
@@ -932,6 +1073,9 @@
         "/service-areas/athens-al/storm-damage-restoration/",
         "/service-areas/athens-al/water-damage-restoration/",
         "/service-areas/athens-al/windows-doors/",
+        "/service-areas/athens-al/basement-sewage-cleanup/",
+        "/service-areas/athens-al/carpet-upholstery-cleaning/",
+        "/service-areas/athens-al/post-construction-specialty-cleaning/",
         "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
         "/service-areas/decatur-al/"
@@ -980,6 +1124,9 @@
         "/service-areas/moores-mill-al/storm-damage-restoration/",
         "/service-areas/moores-mill-al/water-damage-restoration/",
         "/service-areas/moores-mill-al/windows-doors/",
+        "/service-areas/moores-mill-al/basement-sewage-cleanup/",
+        "/service-areas/moores-mill-al/carpet-upholstery-cleaning/",
+        "/service-areas/moores-mill-al/post-construction-specialty-cleaning/",
         "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/"
@@ -1028,6 +1175,9 @@
         "/service-areas/redstone-arsenal-al/storm-damage-restoration/",
         "/service-areas/redstone-arsenal-al/water-damage-restoration/",
         "/service-areas/redstone-arsenal-al/windows-doors/",
+        "/service-areas/redstone-arsenal-al/basement-sewage-cleanup/",
+        "/service-areas/redstone-arsenal-al/carpet-upholstery-cleaning/",
+        "/service-areas/redstone-arsenal-al/post-construction-specialty-cleaning/",
         "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/"
@@ -1076,6 +1226,9 @@
         "/service-areas/meridianville-al/storm-damage-restoration/",
         "/service-areas/meridianville-al/water-damage-restoration/",
         "/service-areas/meridianville-al/windows-doors/",
+        "/service-areas/meridianville-al/basement-sewage-cleanup/",
+        "/service-areas/meridianville-al/carpet-upholstery-cleaning/",
+        "/service-areas/meridianville-al/post-construction-specialty-cleaning/",
         "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/"
@@ -1124,6 +1277,9 @@
         "/service-areas/hazel-green-al/storm-damage-restoration/",
         "/service-areas/hazel-green-al/water-damage-restoration/",
         "/service-areas/hazel-green-al/windows-doors/",
+        "/service-areas/hazel-green-al/basement-sewage-cleanup/",
+        "/service-areas/hazel-green-al/carpet-upholstery-cleaning/",
+        "/service-areas/hazel-green-al/post-construction-specialty-cleaning/",
         "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/"
@@ -1172,6 +1328,9 @@
         "/service-areas/new-market-al/storm-damage-restoration/",
         "/service-areas/new-market-al/water-damage-restoration/",
         "/service-areas/new-market-al/windows-doors/",
+        "/service-areas/new-market-al/basement-sewage-cleanup/",
+        "/service-areas/new-market-al/carpet-upholstery-cleaning/",
+        "/service-areas/new-market-al/post-construction-specialty-cleaning/",
         "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/"
@@ -1220,6 +1379,9 @@
         "/service-areas/harvest-al/storm-damage-restoration/",
         "/service-areas/harvest-al/water-damage-restoration/",
         "/service-areas/harvest-al/windows-doors/",
+        "/service-areas/harvest-al/basement-sewage-cleanup/",
+        "/service-areas/harvest-al/carpet-upholstery-cleaning/",
+        "/service-areas/harvest-al/post-construction-specialty-cleaning/",
         "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/"
@@ -1268,6 +1430,9 @@
         "/service-areas/gurley-al/storm-damage-restoration/",
         "/service-areas/gurley-al/water-damage-restoration/",
         "/service-areas/gurley-al/windows-doors/",
+        "/service-areas/gurley-al/basement-sewage-cleanup/",
+        "/service-areas/gurley-al/carpet-upholstery-cleaning/",
+        "/service-areas/gurley-al/post-construction-specialty-cleaning/",
         "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/"
@@ -1316,6 +1481,9 @@
         "/service-areas/owens-cross-roads-al/storm-damage-restoration/",
         "/service-areas/owens-cross-roads-al/water-damage-restoration/",
         "/service-areas/owens-cross-roads-al/windows-doors/",
+        "/service-areas/owens-cross-roads-al/basement-sewage-cleanup/",
+        "/service-areas/owens-cross-roads-al/carpet-upholstery-cleaning/",
+        "/service-areas/owens-cross-roads-al/post-construction-specialty-cleaning/",
         "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/"
@@ -1364,6 +1532,9 @@
         "/service-areas/triana-al/storm-damage-restoration/",
         "/service-areas/triana-al/water-damage-restoration/",
         "/service-areas/triana-al/windows-doors/",
+        "/service-areas/triana-al/basement-sewage-cleanup/",
+        "/service-areas/triana-al/carpet-upholstery-cleaning/",
+        "/service-areas/triana-al/post-construction-specialty-cleaning/",
         "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/"
@@ -1412,6 +1583,9 @@
         "/service-areas/new-hope-al/storm-damage-restoration/",
         "/service-areas/new-hope-al/water-damage-restoration/",
         "/service-areas/new-hope-al/windows-doors/",
+        "/service-areas/new-hope-al/basement-sewage-cleanup/",
+        "/service-areas/new-hope-al/carpet-upholstery-cleaning/",
+        "/service-areas/new-hope-al/post-construction-specialty-cleaning/",
         "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/"
@@ -1460,6 +1634,9 @@
         "/service-areas/ardmore-al/storm-damage-restoration/",
         "/service-areas/ardmore-al/water-damage-restoration/",
         "/service-areas/ardmore-al/windows-doors/",
+        "/service-areas/ardmore-al/basement-sewage-cleanup/",
+        "/service-areas/ardmore-al/carpet-upholstery-cleaning/",
+        "/service-areas/ardmore-al/post-construction-specialty-cleaning/",
         "/service-areas/arab-al/",
         "/service-areas/athens-al/",
         "/service-areas/decatur-al/"
@@ -1508,6 +1685,9 @@
         "/service-areas/priceville-al/storm-damage-restoration/",
         "/service-areas/priceville-al/water-damage-restoration/",
         "/service-areas/priceville-al/windows-doors/",
+        "/service-areas/priceville-al/basement-sewage-cleanup/",
+        "/service-areas/priceville-al/carpet-upholstery-cleaning/",
+        "/service-areas/priceville-al/post-construction-specialty-cleaning/",
         "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/"
@@ -1556,6 +1736,9 @@
         "/service-areas/somerville-al/storm-damage-restoration/",
         "/service-areas/somerville-al/water-damage-restoration/",
         "/service-areas/somerville-al/windows-doors/",
+        "/service-areas/somerville-al/basement-sewage-cleanup/",
+        "/service-areas/somerville-al/carpet-upholstery-cleaning/",
+        "/service-areas/somerville-al/post-construction-specialty-cleaning/",
         "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/"
@@ -1604,6 +1787,9 @@
         "/service-areas/elkmont-al/storm-damage-restoration/",
         "/service-areas/elkmont-al/water-damage-restoration/",
         "/service-areas/elkmont-al/windows-doors/",
+        "/service-areas/elkmont-al/basement-sewage-cleanup/",
+        "/service-areas/elkmont-al/carpet-upholstery-cleaning/",
+        "/service-areas/elkmont-al/post-construction-specialty-cleaning/",
         "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/"
@@ -1652,6 +1838,9 @@
         "/service-areas/decatur-al/storm-damage-restoration/",
         "/service-areas/decatur-al/water-damage-restoration/",
         "/service-areas/decatur-al/windows-doors/",
+        "/service-areas/decatur-al/basement-sewage-cleanup/",
+        "/service-areas/decatur-al/carpet-upholstery-cleaning/",
+        "/service-areas/decatur-al/post-construction-specialty-cleaning/",
         "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/"
@@ -1700,6 +1889,9 @@
         "/service-areas/arab-al/storm-damage-restoration/",
         "/service-areas/arab-al/water-damage-restoration/",
         "/service-areas/arab-al/windows-doors/",
+        "/service-areas/arab-al/basement-sewage-cleanup/",
+        "/service-areas/arab-al/carpet-upholstery-cleaning/",
+        "/service-areas/arab-al/post-construction-specialty-cleaning/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/",
         "/service-areas/decatur-al/"
@@ -1748,9 +1940,88 @@
         "/service-areas/hartselle-al/storm-damage-restoration/",
         "/service-areas/hartselle-al/water-damage-restoration/",
         "/service-areas/hartselle-al/windows-doors/",
+        "/service-areas/hartselle-al/basement-sewage-cleanup/",
+        "/service-areas/hartselle-al/carpet-upholstery-cleaning/",
+        "/service-areas/hartselle-al/post-construction-specialty-cleaning/",
         "/service-areas/arab-al/",
         "/service-areas/ardmore-al/",
         "/service-areas/athens-al/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/huntsville-al/basement-sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Sewage Cleanup in Huntsville, AL | Davis Construction Contractors",
+      "h1": "Basement Sewage Cleanup in Huntsville",
+      "meta_description": "Trusted basement sewage cleanup in Huntsville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "basement sewage cleanup huntsville",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-sewage-cleanup/",
+        "/service-areas/huntsville-al/",
+        "/service-areas/huntsville-al/home-remodeling/",
+        "/service-areas/huntsville-al/roofing/",
+        "/service-areas/arab-al/basement-sewage-cleanup/",
+        "/service-areas/ardmore-al/basement-sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/huntsville-al/carpet-upholstery-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet & Upholstery Cleaning in Huntsville, AL | Davis Construction Contractors",
+      "h1": "Carpet & Upholstery Cleaning in Huntsville",
+      "meta_description": "Trusted carpet & upholstery cleaning in Huntsville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "carpet & upholstery cleaning huntsville",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-upholstery-cleaning/",
+        "/service-areas/huntsville-al/",
+        "/service-areas/huntsville-al/home-remodeling/",
+        "/service-areas/huntsville-al/roofing/",
+        "/service-areas/arab-al/carpet-upholstery-cleaning/",
+        "/service-areas/ardmore-al/carpet-upholstery-cleaning/",
+        "/contact/"
       ]
     },
     {
@@ -2018,6 +2289,44 @@
       ]
     },
     {
+      "url_path": "/service-areas/huntsville-al/post-construction-specialty-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction & Specialty Cleaning in Huntsville, AL | Davis Construction Contractors",
+      "h1": "Post-Construction & Specialty Cleaning in Huntsville",
+      "meta_description": "Trusted post-construction & specialty cleaning in Huntsville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "post-construction & specialty cleaning huntsville",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-specialty-cleaning/",
+        "/service-areas/huntsville-al/",
+        "/service-areas/huntsville-al/home-remodeling/",
+        "/service-areas/huntsville-al/roofing/",
+        "/service-areas/arab-al/post-construction-specialty-cleaning/",
+        "/service-areas/ardmore-al/post-construction-specialty-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/huntsville-al/roofing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2234,6 +2543,82 @@
         "/service-areas/huntsville-al/roofing/",
         "/service-areas/arab-al/windows-doors/",
         "/service-areas/ardmore-al/windows-doors/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/athens-al/basement-sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Sewage Cleanup in Athens, AL | Davis Construction Contractors",
+      "h1": "Basement Sewage Cleanup in Athens",
+      "meta_description": "Trusted basement sewage cleanup in Athens, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "basement sewage cleanup athens",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-sewage-cleanup/",
+        "/service-areas/athens-al/",
+        "/service-areas/athens-al/home-remodeling/",
+        "/service-areas/athens-al/roofing/",
+        "/service-areas/arab-al/basement-sewage-cleanup/",
+        "/service-areas/ardmore-al/basement-sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/athens-al/carpet-upholstery-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet & Upholstery Cleaning in Athens, AL | Davis Construction Contractors",
+      "h1": "Carpet & Upholstery Cleaning in Athens",
+      "meta_description": "Trusted carpet & upholstery cleaning in Athens, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "carpet & upholstery cleaning athens",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-upholstery-cleaning/",
+        "/service-areas/athens-al/",
+        "/service-areas/athens-al/home-remodeling/",
+        "/service-areas/athens-al/roofing/",
+        "/service-areas/arab-al/carpet-upholstery-cleaning/",
+        "/service-areas/ardmore-al/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -2502,6 +2887,44 @@
       ]
     },
     {
+      "url_path": "/service-areas/athens-al/post-construction-specialty-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction & Specialty Cleaning in Athens, AL | Davis Construction Contractors",
+      "h1": "Post-Construction & Specialty Cleaning in Athens",
+      "meta_description": "Trusted post-construction & specialty cleaning in Athens, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "post-construction & specialty cleaning athens",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-specialty-cleaning/",
+        "/service-areas/athens-al/",
+        "/service-areas/athens-al/home-remodeling/",
+        "/service-areas/athens-al/roofing/",
+        "/service-areas/arab-al/post-construction-specialty-cleaning/",
+        "/service-areas/ardmore-al/post-construction-specialty-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/athens-al/roofing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2718,6 +3141,82 @@
         "/service-areas/athens-al/roofing/",
         "/service-areas/arab-al/windows-doors/",
         "/service-areas/ardmore-al/windows-doors/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/moores-mill-al/basement-sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Sewage Cleanup in Moores Mill, AL | Davis Construction Contractors",
+      "h1": "Basement Sewage Cleanup in Moores Mill",
+      "meta_description": "Trusted basement sewage cleanup in Moores Mill, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "basement sewage cleanup moores mill",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-sewage-cleanup/",
+        "/service-areas/moores-mill-al/",
+        "/service-areas/moores-mill-al/home-remodeling/",
+        "/service-areas/moores-mill-al/roofing/",
+        "/service-areas/arab-al/basement-sewage-cleanup/",
+        "/service-areas/ardmore-al/basement-sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/moores-mill-al/carpet-upholstery-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet & Upholstery Cleaning in Moores Mill, AL | Davis Construction Contractors",
+      "h1": "Carpet & Upholstery Cleaning in Moores Mill",
+      "meta_description": "Trusted carpet & upholstery cleaning in Moores Mill, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "carpet & upholstery cleaning moores mill",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-upholstery-cleaning/",
+        "/service-areas/moores-mill-al/",
+        "/service-areas/moores-mill-al/home-remodeling/",
+        "/service-areas/moores-mill-al/roofing/",
+        "/service-areas/arab-al/carpet-upholstery-cleaning/",
+        "/service-areas/ardmore-al/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -2986,6 +3485,44 @@
       ]
     },
     {
+      "url_path": "/service-areas/moores-mill-al/post-construction-specialty-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction & Specialty Cleaning in Moores Mill, AL | Davis Construction Contractors",
+      "h1": "Post-Construction & Specialty Cleaning in Moores Mill",
+      "meta_description": "Trusted post-construction & specialty cleaning in Moores Mill, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "post-construction & specialty cleaning moores mill",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-specialty-cleaning/",
+        "/service-areas/moores-mill-al/",
+        "/service-areas/moores-mill-al/home-remodeling/",
+        "/service-areas/moores-mill-al/roofing/",
+        "/service-areas/arab-al/post-construction-specialty-cleaning/",
+        "/service-areas/ardmore-al/post-construction-specialty-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/moores-mill-al/roofing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3202,6 +3739,82 @@
         "/service-areas/moores-mill-al/roofing/",
         "/service-areas/arab-al/windows-doors/",
         "/service-areas/ardmore-al/windows-doors/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/redstone-arsenal-al/basement-sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Sewage Cleanup in Redstone Arsenal, AL | Davis Construction Contractors",
+      "h1": "Basement Sewage Cleanup in Redstone Arsenal",
+      "meta_description": "Trusted basement sewage cleanup in Redstone Arsenal, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "basement sewage cleanup redstone arsenal",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-sewage-cleanup/",
+        "/service-areas/redstone-arsenal-al/",
+        "/service-areas/redstone-arsenal-al/home-remodeling/",
+        "/service-areas/redstone-arsenal-al/roofing/",
+        "/service-areas/arab-al/basement-sewage-cleanup/",
+        "/service-areas/ardmore-al/basement-sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/redstone-arsenal-al/carpet-upholstery-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet & Upholstery Cleaning in Redstone Arsenal, AL | Davis Construction Contractors",
+      "h1": "Carpet & Upholstery Cleaning in Redstone Arsenal",
+      "meta_description": "Trusted carpet & upholstery cleaning in Redstone Arsenal, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "carpet & upholstery cleaning redstone arsenal",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-upholstery-cleaning/",
+        "/service-areas/redstone-arsenal-al/",
+        "/service-areas/redstone-arsenal-al/home-remodeling/",
+        "/service-areas/redstone-arsenal-al/roofing/",
+        "/service-areas/arab-al/carpet-upholstery-cleaning/",
+        "/service-areas/ardmore-al/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -3470,6 +4083,44 @@
       ]
     },
     {
+      "url_path": "/service-areas/redstone-arsenal-al/post-construction-specialty-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction & Specialty Cleaning in Redstone Arsenal, AL | Davis Construction Contractors",
+      "h1": "Post-Construction & Specialty Cleaning in Redstone Arsenal",
+      "meta_description": "Trusted post-construction & specialty cleaning in Redstone Arsenal, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "post-construction & specialty cleaning redstone arsenal",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-specialty-cleaning/",
+        "/service-areas/redstone-arsenal-al/",
+        "/service-areas/redstone-arsenal-al/home-remodeling/",
+        "/service-areas/redstone-arsenal-al/roofing/",
+        "/service-areas/arab-al/post-construction-specialty-cleaning/",
+        "/service-areas/ardmore-al/post-construction-specialty-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/redstone-arsenal-al/roofing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3686,6 +4337,82 @@
         "/service-areas/redstone-arsenal-al/roofing/",
         "/service-areas/arab-al/windows-doors/",
         "/service-areas/ardmore-al/windows-doors/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/meridianville-al/basement-sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Sewage Cleanup in Meridianville, AL | Davis Construction Contractors",
+      "h1": "Basement Sewage Cleanup in Meridianville",
+      "meta_description": "Trusted basement sewage cleanup in Meridianville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "basement sewage cleanup meridianville",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-sewage-cleanup/",
+        "/service-areas/meridianville-al/",
+        "/service-areas/meridianville-al/home-remodeling/",
+        "/service-areas/meridianville-al/roofing/",
+        "/service-areas/arab-al/basement-sewage-cleanup/",
+        "/service-areas/ardmore-al/basement-sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/meridianville-al/carpet-upholstery-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet & Upholstery Cleaning in Meridianville, AL | Davis Construction Contractors",
+      "h1": "Carpet & Upholstery Cleaning in Meridianville",
+      "meta_description": "Trusted carpet & upholstery cleaning in Meridianville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "carpet & upholstery cleaning meridianville",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-upholstery-cleaning/",
+        "/service-areas/meridianville-al/",
+        "/service-areas/meridianville-al/home-remodeling/",
+        "/service-areas/meridianville-al/roofing/",
+        "/service-areas/arab-al/carpet-upholstery-cleaning/",
+        "/service-areas/ardmore-al/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -3954,6 +4681,44 @@
       ]
     },
     {
+      "url_path": "/service-areas/meridianville-al/post-construction-specialty-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction & Specialty Cleaning in Meridianville, AL | Davis Construction Contractors",
+      "h1": "Post-Construction & Specialty Cleaning in Meridianville",
+      "meta_description": "Trusted post-construction & specialty cleaning in Meridianville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "post-construction & specialty cleaning meridianville",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-specialty-cleaning/",
+        "/service-areas/meridianville-al/",
+        "/service-areas/meridianville-al/home-remodeling/",
+        "/service-areas/meridianville-al/roofing/",
+        "/service-areas/arab-al/post-construction-specialty-cleaning/",
+        "/service-areas/ardmore-al/post-construction-specialty-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/meridianville-al/roofing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4170,6 +4935,82 @@
         "/service-areas/meridianville-al/roofing/",
         "/service-areas/arab-al/windows-doors/",
         "/service-areas/ardmore-al/windows-doors/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hazel-green-al/basement-sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Sewage Cleanup in Hazel Green, AL | Davis Construction Contractors",
+      "h1": "Basement Sewage Cleanup in Hazel Green",
+      "meta_description": "Trusted basement sewage cleanup in Hazel Green, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "basement sewage cleanup hazel green",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-sewage-cleanup/",
+        "/service-areas/hazel-green-al/",
+        "/service-areas/hazel-green-al/home-remodeling/",
+        "/service-areas/hazel-green-al/roofing/",
+        "/service-areas/arab-al/basement-sewage-cleanup/",
+        "/service-areas/ardmore-al/basement-sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hazel-green-al/carpet-upholstery-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet & Upholstery Cleaning in Hazel Green, AL | Davis Construction Contractors",
+      "h1": "Carpet & Upholstery Cleaning in Hazel Green",
+      "meta_description": "Trusted carpet & upholstery cleaning in Hazel Green, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "carpet & upholstery cleaning hazel green",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-upholstery-cleaning/",
+        "/service-areas/hazel-green-al/",
+        "/service-areas/hazel-green-al/home-remodeling/",
+        "/service-areas/hazel-green-al/roofing/",
+        "/service-areas/arab-al/carpet-upholstery-cleaning/",
+        "/service-areas/ardmore-al/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -4438,6 +5279,44 @@
       ]
     },
     {
+      "url_path": "/service-areas/hazel-green-al/post-construction-specialty-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction & Specialty Cleaning in Hazel Green, AL | Davis Construction Contractors",
+      "h1": "Post-Construction & Specialty Cleaning in Hazel Green",
+      "meta_description": "Trusted post-construction & specialty cleaning in Hazel Green, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "post-construction & specialty cleaning hazel green",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-specialty-cleaning/",
+        "/service-areas/hazel-green-al/",
+        "/service-areas/hazel-green-al/home-remodeling/",
+        "/service-areas/hazel-green-al/roofing/",
+        "/service-areas/arab-al/post-construction-specialty-cleaning/",
+        "/service-areas/ardmore-al/post-construction-specialty-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/hazel-green-al/roofing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4654,6 +5533,82 @@
         "/service-areas/hazel-green-al/roofing/",
         "/service-areas/arab-al/windows-doors/",
         "/service-areas/ardmore-al/windows-doors/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/new-market-al/basement-sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Sewage Cleanup in New Market, AL | Davis Construction Contractors",
+      "h1": "Basement Sewage Cleanup in New Market",
+      "meta_description": "Trusted basement sewage cleanup in New Market, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "basement sewage cleanup new market",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-sewage-cleanup/",
+        "/service-areas/new-market-al/",
+        "/service-areas/new-market-al/home-remodeling/",
+        "/service-areas/new-market-al/roofing/",
+        "/service-areas/arab-al/basement-sewage-cleanup/",
+        "/service-areas/ardmore-al/basement-sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/new-market-al/carpet-upholstery-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet & Upholstery Cleaning in New Market, AL | Davis Construction Contractors",
+      "h1": "Carpet & Upholstery Cleaning in New Market",
+      "meta_description": "Trusted carpet & upholstery cleaning in New Market, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "carpet & upholstery cleaning new market",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-upholstery-cleaning/",
+        "/service-areas/new-market-al/",
+        "/service-areas/new-market-al/home-remodeling/",
+        "/service-areas/new-market-al/roofing/",
+        "/service-areas/arab-al/carpet-upholstery-cleaning/",
+        "/service-areas/ardmore-al/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -4922,6 +5877,44 @@
       ]
     },
     {
+      "url_path": "/service-areas/new-market-al/post-construction-specialty-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction & Specialty Cleaning in New Market, AL | Davis Construction Contractors",
+      "h1": "Post-Construction & Specialty Cleaning in New Market",
+      "meta_description": "Trusted post-construction & specialty cleaning in New Market, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "post-construction & specialty cleaning new market",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-specialty-cleaning/",
+        "/service-areas/new-market-al/",
+        "/service-areas/new-market-al/home-remodeling/",
+        "/service-areas/new-market-al/roofing/",
+        "/service-areas/arab-al/post-construction-specialty-cleaning/",
+        "/service-areas/ardmore-al/post-construction-specialty-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/new-market-al/roofing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5138,6 +6131,82 @@
         "/service-areas/new-market-al/roofing/",
         "/service-areas/arab-al/windows-doors/",
         "/service-areas/ardmore-al/windows-doors/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/harvest-al/basement-sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Sewage Cleanup in Harvest, AL | Davis Construction Contractors",
+      "h1": "Basement Sewage Cleanup in Harvest",
+      "meta_description": "Trusted basement sewage cleanup in Harvest, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "basement sewage cleanup harvest",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-sewage-cleanup/",
+        "/service-areas/harvest-al/",
+        "/service-areas/harvest-al/home-remodeling/",
+        "/service-areas/harvest-al/roofing/",
+        "/service-areas/arab-al/basement-sewage-cleanup/",
+        "/service-areas/ardmore-al/basement-sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/harvest-al/carpet-upholstery-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet & Upholstery Cleaning in Harvest, AL | Davis Construction Contractors",
+      "h1": "Carpet & Upholstery Cleaning in Harvest",
+      "meta_description": "Trusted carpet & upholstery cleaning in Harvest, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "carpet & upholstery cleaning harvest",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-upholstery-cleaning/",
+        "/service-areas/harvest-al/",
+        "/service-areas/harvest-al/home-remodeling/",
+        "/service-areas/harvest-al/roofing/",
+        "/service-areas/arab-al/carpet-upholstery-cleaning/",
+        "/service-areas/ardmore-al/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -5406,6 +6475,44 @@
       ]
     },
     {
+      "url_path": "/service-areas/harvest-al/post-construction-specialty-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction & Specialty Cleaning in Harvest, AL | Davis Construction Contractors",
+      "h1": "Post-Construction & Specialty Cleaning in Harvest",
+      "meta_description": "Trusted post-construction & specialty cleaning in Harvest, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "post-construction & specialty cleaning harvest",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-specialty-cleaning/",
+        "/service-areas/harvest-al/",
+        "/service-areas/harvest-al/home-remodeling/",
+        "/service-areas/harvest-al/roofing/",
+        "/service-areas/arab-al/post-construction-specialty-cleaning/",
+        "/service-areas/ardmore-al/post-construction-specialty-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/harvest-al/roofing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5622,6 +6729,82 @@
         "/service-areas/harvest-al/roofing/",
         "/service-areas/arab-al/windows-doors/",
         "/service-areas/ardmore-al/windows-doors/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gurley-al/basement-sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Sewage Cleanup in Gurley, AL | Davis Construction Contractors",
+      "h1": "Basement Sewage Cleanup in Gurley",
+      "meta_description": "Trusted basement sewage cleanup in Gurley, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "basement sewage cleanup gurley",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-sewage-cleanup/",
+        "/service-areas/gurley-al/",
+        "/service-areas/gurley-al/home-remodeling/",
+        "/service-areas/gurley-al/roofing/",
+        "/service-areas/arab-al/basement-sewage-cleanup/",
+        "/service-areas/ardmore-al/basement-sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gurley-al/carpet-upholstery-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet & Upholstery Cleaning in Gurley, AL | Davis Construction Contractors",
+      "h1": "Carpet & Upholstery Cleaning in Gurley",
+      "meta_description": "Trusted carpet & upholstery cleaning in Gurley, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "carpet & upholstery cleaning gurley",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-upholstery-cleaning/",
+        "/service-areas/gurley-al/",
+        "/service-areas/gurley-al/home-remodeling/",
+        "/service-areas/gurley-al/roofing/",
+        "/service-areas/arab-al/carpet-upholstery-cleaning/",
+        "/service-areas/ardmore-al/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -5890,6 +7073,44 @@
       ]
     },
     {
+      "url_path": "/service-areas/gurley-al/post-construction-specialty-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction & Specialty Cleaning in Gurley, AL | Davis Construction Contractors",
+      "h1": "Post-Construction & Specialty Cleaning in Gurley",
+      "meta_description": "Trusted post-construction & specialty cleaning in Gurley, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "post-construction & specialty cleaning gurley",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-specialty-cleaning/",
+        "/service-areas/gurley-al/",
+        "/service-areas/gurley-al/home-remodeling/",
+        "/service-areas/gurley-al/roofing/",
+        "/service-areas/arab-al/post-construction-specialty-cleaning/",
+        "/service-areas/ardmore-al/post-construction-specialty-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/gurley-al/roofing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6106,6 +7327,82 @@
         "/service-areas/gurley-al/roofing/",
         "/service-areas/arab-al/windows-doors/",
         "/service-areas/ardmore-al/windows-doors/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/owens-cross-roads-al/basement-sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Sewage Cleanup in Owens Cross Roads, AL | Davis Construction Contractors",
+      "h1": "Basement Sewage Cleanup in Owens Cross Roads",
+      "meta_description": "Trusted basement sewage cleanup in Owens Cross Roads, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "basement sewage cleanup owens cross roads",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-sewage-cleanup/",
+        "/service-areas/owens-cross-roads-al/",
+        "/service-areas/owens-cross-roads-al/home-remodeling/",
+        "/service-areas/owens-cross-roads-al/roofing/",
+        "/service-areas/arab-al/basement-sewage-cleanup/",
+        "/service-areas/ardmore-al/basement-sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/owens-cross-roads-al/carpet-upholstery-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet & Upholstery Cleaning in Owens Cross Roads, AL | Davis Construction Contractors",
+      "h1": "Carpet & Upholstery Cleaning in Owens Cross Roads",
+      "meta_description": "Trusted carpet & upholstery cleaning in Owens Cross Roads, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "carpet & upholstery cleaning owens cross roads",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-upholstery-cleaning/",
+        "/service-areas/owens-cross-roads-al/",
+        "/service-areas/owens-cross-roads-al/home-remodeling/",
+        "/service-areas/owens-cross-roads-al/roofing/",
+        "/service-areas/arab-al/carpet-upholstery-cleaning/",
+        "/service-areas/ardmore-al/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -6374,6 +7671,44 @@
       ]
     },
     {
+      "url_path": "/service-areas/owens-cross-roads-al/post-construction-specialty-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction & Specialty Cleaning in Owens Cross Roads, AL | Davis Construction Contractors",
+      "h1": "Post-Construction & Specialty Cleaning in Owens Cross Roads",
+      "meta_description": "Trusted post-construction & specialty cleaning in Owens Cross Roads, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "post-construction & specialty cleaning owens cross roads",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-specialty-cleaning/",
+        "/service-areas/owens-cross-roads-al/",
+        "/service-areas/owens-cross-roads-al/home-remodeling/",
+        "/service-areas/owens-cross-roads-al/roofing/",
+        "/service-areas/arab-al/post-construction-specialty-cleaning/",
+        "/service-areas/ardmore-al/post-construction-specialty-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/owens-cross-roads-al/roofing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6590,6 +7925,82 @@
         "/service-areas/owens-cross-roads-al/roofing/",
         "/service-areas/arab-al/windows-doors/",
         "/service-areas/ardmore-al/windows-doors/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/triana-al/basement-sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Sewage Cleanup in Triana, AL | Davis Construction Contractors",
+      "h1": "Basement Sewage Cleanup in Triana",
+      "meta_description": "Trusted basement sewage cleanup in Triana, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "basement sewage cleanup triana",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-sewage-cleanup/",
+        "/service-areas/triana-al/",
+        "/service-areas/triana-al/home-remodeling/",
+        "/service-areas/triana-al/roofing/",
+        "/service-areas/arab-al/basement-sewage-cleanup/",
+        "/service-areas/ardmore-al/basement-sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/triana-al/carpet-upholstery-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet & Upholstery Cleaning in Triana, AL | Davis Construction Contractors",
+      "h1": "Carpet & Upholstery Cleaning in Triana",
+      "meta_description": "Trusted carpet & upholstery cleaning in Triana, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "carpet & upholstery cleaning triana",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-upholstery-cleaning/",
+        "/service-areas/triana-al/",
+        "/service-areas/triana-al/home-remodeling/",
+        "/service-areas/triana-al/roofing/",
+        "/service-areas/arab-al/carpet-upholstery-cleaning/",
+        "/service-areas/ardmore-al/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -6858,6 +8269,44 @@
       ]
     },
     {
+      "url_path": "/service-areas/triana-al/post-construction-specialty-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction & Specialty Cleaning in Triana, AL | Davis Construction Contractors",
+      "h1": "Post-Construction & Specialty Cleaning in Triana",
+      "meta_description": "Trusted post-construction & specialty cleaning in Triana, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "post-construction & specialty cleaning triana",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-specialty-cleaning/",
+        "/service-areas/triana-al/",
+        "/service-areas/triana-al/home-remodeling/",
+        "/service-areas/triana-al/roofing/",
+        "/service-areas/arab-al/post-construction-specialty-cleaning/",
+        "/service-areas/ardmore-al/post-construction-specialty-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/triana-al/roofing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7074,6 +8523,82 @@
         "/service-areas/triana-al/roofing/",
         "/service-areas/arab-al/windows-doors/",
         "/service-areas/ardmore-al/windows-doors/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/new-hope-al/basement-sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Sewage Cleanup in New Hope, AL | Davis Construction Contractors",
+      "h1": "Basement Sewage Cleanup in New Hope",
+      "meta_description": "Trusted basement sewage cleanup in New Hope, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "basement sewage cleanup new hope",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-sewage-cleanup/",
+        "/service-areas/new-hope-al/",
+        "/service-areas/new-hope-al/home-remodeling/",
+        "/service-areas/new-hope-al/roofing/",
+        "/service-areas/arab-al/basement-sewage-cleanup/",
+        "/service-areas/ardmore-al/basement-sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/new-hope-al/carpet-upholstery-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet & Upholstery Cleaning in New Hope, AL | Davis Construction Contractors",
+      "h1": "Carpet & Upholstery Cleaning in New Hope",
+      "meta_description": "Trusted carpet & upholstery cleaning in New Hope, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "carpet & upholstery cleaning new hope",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-upholstery-cleaning/",
+        "/service-areas/new-hope-al/",
+        "/service-areas/new-hope-al/home-remodeling/",
+        "/service-areas/new-hope-al/roofing/",
+        "/service-areas/arab-al/carpet-upholstery-cleaning/",
+        "/service-areas/ardmore-al/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -7342,6 +8867,44 @@
       ]
     },
     {
+      "url_path": "/service-areas/new-hope-al/post-construction-specialty-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction & Specialty Cleaning in New Hope, AL | Davis Construction Contractors",
+      "h1": "Post-Construction & Specialty Cleaning in New Hope",
+      "meta_description": "Trusted post-construction & specialty cleaning in New Hope, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "post-construction & specialty cleaning new hope",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-specialty-cleaning/",
+        "/service-areas/new-hope-al/",
+        "/service-areas/new-hope-al/home-remodeling/",
+        "/service-areas/new-hope-al/roofing/",
+        "/service-areas/arab-al/post-construction-specialty-cleaning/",
+        "/service-areas/ardmore-al/post-construction-specialty-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/new-hope-al/roofing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7558,6 +9121,82 @@
         "/service-areas/new-hope-al/roofing/",
         "/service-areas/arab-al/windows-doors/",
         "/service-areas/ardmore-al/windows-doors/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ardmore-al/basement-sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Sewage Cleanup in Ardmore, AL | Davis Construction Contractors",
+      "h1": "Basement Sewage Cleanup in Ardmore",
+      "meta_description": "Trusted basement sewage cleanup in Ardmore, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "basement sewage cleanup ardmore",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-sewage-cleanup/",
+        "/service-areas/ardmore-al/",
+        "/service-areas/ardmore-al/home-remodeling/",
+        "/service-areas/ardmore-al/roofing/",
+        "/service-areas/arab-al/basement-sewage-cleanup/",
+        "/service-areas/athens-al/basement-sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ardmore-al/carpet-upholstery-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet & Upholstery Cleaning in Ardmore, AL | Davis Construction Contractors",
+      "h1": "Carpet & Upholstery Cleaning in Ardmore",
+      "meta_description": "Trusted carpet & upholstery cleaning in Ardmore, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "carpet & upholstery cleaning ardmore",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-upholstery-cleaning/",
+        "/service-areas/ardmore-al/",
+        "/service-areas/ardmore-al/home-remodeling/",
+        "/service-areas/ardmore-al/roofing/",
+        "/service-areas/arab-al/carpet-upholstery-cleaning/",
+        "/service-areas/athens-al/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -7826,6 +9465,44 @@
       ]
     },
     {
+      "url_path": "/service-areas/ardmore-al/post-construction-specialty-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction & Specialty Cleaning in Ardmore, AL | Davis Construction Contractors",
+      "h1": "Post-Construction & Specialty Cleaning in Ardmore",
+      "meta_description": "Trusted post-construction & specialty cleaning in Ardmore, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "post-construction & specialty cleaning ardmore",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-specialty-cleaning/",
+        "/service-areas/ardmore-al/",
+        "/service-areas/ardmore-al/home-remodeling/",
+        "/service-areas/ardmore-al/roofing/",
+        "/service-areas/arab-al/post-construction-specialty-cleaning/",
+        "/service-areas/athens-al/post-construction-specialty-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/ardmore-al/roofing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8042,6 +9719,82 @@
         "/service-areas/ardmore-al/roofing/",
         "/service-areas/arab-al/windows-doors/",
         "/service-areas/athens-al/windows-doors/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/priceville-al/basement-sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Sewage Cleanup in Priceville, AL | Davis Construction Contractors",
+      "h1": "Basement Sewage Cleanup in Priceville",
+      "meta_description": "Trusted basement sewage cleanup in Priceville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "basement sewage cleanup priceville",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-sewage-cleanup/",
+        "/service-areas/priceville-al/",
+        "/service-areas/priceville-al/home-remodeling/",
+        "/service-areas/priceville-al/roofing/",
+        "/service-areas/arab-al/basement-sewage-cleanup/",
+        "/service-areas/ardmore-al/basement-sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/priceville-al/carpet-upholstery-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet & Upholstery Cleaning in Priceville, AL | Davis Construction Contractors",
+      "h1": "Carpet & Upholstery Cleaning in Priceville",
+      "meta_description": "Trusted carpet & upholstery cleaning in Priceville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "carpet & upholstery cleaning priceville",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-upholstery-cleaning/",
+        "/service-areas/priceville-al/",
+        "/service-areas/priceville-al/home-remodeling/",
+        "/service-areas/priceville-al/roofing/",
+        "/service-areas/arab-al/carpet-upholstery-cleaning/",
+        "/service-areas/ardmore-al/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -8310,6 +10063,44 @@
       ]
     },
     {
+      "url_path": "/service-areas/priceville-al/post-construction-specialty-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction & Specialty Cleaning in Priceville, AL | Davis Construction Contractors",
+      "h1": "Post-Construction & Specialty Cleaning in Priceville",
+      "meta_description": "Trusted post-construction & specialty cleaning in Priceville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "post-construction & specialty cleaning priceville",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-specialty-cleaning/",
+        "/service-areas/priceville-al/",
+        "/service-areas/priceville-al/home-remodeling/",
+        "/service-areas/priceville-al/roofing/",
+        "/service-areas/arab-al/post-construction-specialty-cleaning/",
+        "/service-areas/ardmore-al/post-construction-specialty-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/priceville-al/roofing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8526,6 +10317,82 @@
         "/service-areas/priceville-al/roofing/",
         "/service-areas/arab-al/windows-doors/",
         "/service-areas/ardmore-al/windows-doors/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/somerville-al/basement-sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Sewage Cleanup in Somerville, AL | Davis Construction Contractors",
+      "h1": "Basement Sewage Cleanup in Somerville",
+      "meta_description": "Trusted basement sewage cleanup in Somerville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "basement sewage cleanup somerville",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-sewage-cleanup/",
+        "/service-areas/somerville-al/",
+        "/service-areas/somerville-al/home-remodeling/",
+        "/service-areas/somerville-al/roofing/",
+        "/service-areas/arab-al/basement-sewage-cleanup/",
+        "/service-areas/ardmore-al/basement-sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/somerville-al/carpet-upholstery-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet & Upholstery Cleaning in Somerville, AL | Davis Construction Contractors",
+      "h1": "Carpet & Upholstery Cleaning in Somerville",
+      "meta_description": "Trusted carpet & upholstery cleaning in Somerville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "carpet & upholstery cleaning somerville",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-upholstery-cleaning/",
+        "/service-areas/somerville-al/",
+        "/service-areas/somerville-al/home-remodeling/",
+        "/service-areas/somerville-al/roofing/",
+        "/service-areas/arab-al/carpet-upholstery-cleaning/",
+        "/service-areas/ardmore-al/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -8794,6 +10661,44 @@
       ]
     },
     {
+      "url_path": "/service-areas/somerville-al/post-construction-specialty-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction & Specialty Cleaning in Somerville, AL | Davis Construction Contractors",
+      "h1": "Post-Construction & Specialty Cleaning in Somerville",
+      "meta_description": "Trusted post-construction & specialty cleaning in Somerville, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "post-construction & specialty cleaning somerville",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-specialty-cleaning/",
+        "/service-areas/somerville-al/",
+        "/service-areas/somerville-al/home-remodeling/",
+        "/service-areas/somerville-al/roofing/",
+        "/service-areas/arab-al/post-construction-specialty-cleaning/",
+        "/service-areas/ardmore-al/post-construction-specialty-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/somerville-al/roofing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9010,6 +10915,82 @@
         "/service-areas/somerville-al/roofing/",
         "/service-areas/arab-al/windows-doors/",
         "/service-areas/ardmore-al/windows-doors/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/elkmont-al/basement-sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Sewage Cleanup in Elkmont, AL | Davis Construction Contractors",
+      "h1": "Basement Sewage Cleanup in Elkmont",
+      "meta_description": "Trusted basement sewage cleanup in Elkmont, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "basement sewage cleanup elkmont",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-sewage-cleanup/",
+        "/service-areas/elkmont-al/",
+        "/service-areas/elkmont-al/home-remodeling/",
+        "/service-areas/elkmont-al/roofing/",
+        "/service-areas/arab-al/basement-sewage-cleanup/",
+        "/service-areas/ardmore-al/basement-sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/elkmont-al/carpet-upholstery-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet & Upholstery Cleaning in Elkmont, AL | Davis Construction Contractors",
+      "h1": "Carpet & Upholstery Cleaning in Elkmont",
+      "meta_description": "Trusted carpet & upholstery cleaning in Elkmont, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "carpet & upholstery cleaning elkmont",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-upholstery-cleaning/",
+        "/service-areas/elkmont-al/",
+        "/service-areas/elkmont-al/home-remodeling/",
+        "/service-areas/elkmont-al/roofing/",
+        "/service-areas/arab-al/carpet-upholstery-cleaning/",
+        "/service-areas/ardmore-al/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -9278,6 +11259,44 @@
       ]
     },
     {
+      "url_path": "/service-areas/elkmont-al/post-construction-specialty-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction & Specialty Cleaning in Elkmont, AL | Davis Construction Contractors",
+      "h1": "Post-Construction & Specialty Cleaning in Elkmont",
+      "meta_description": "Trusted post-construction & specialty cleaning in Elkmont, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "post-construction & specialty cleaning elkmont",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-specialty-cleaning/",
+        "/service-areas/elkmont-al/",
+        "/service-areas/elkmont-al/home-remodeling/",
+        "/service-areas/elkmont-al/roofing/",
+        "/service-areas/arab-al/post-construction-specialty-cleaning/",
+        "/service-areas/ardmore-al/post-construction-specialty-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/elkmont-al/roofing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9494,6 +11513,82 @@
         "/service-areas/elkmont-al/roofing/",
         "/service-areas/arab-al/windows-doors/",
         "/service-areas/ardmore-al/windows-doors/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/decatur-al/basement-sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Sewage Cleanup in Decatur, AL | Davis Construction Contractors",
+      "h1": "Basement Sewage Cleanup in Decatur",
+      "meta_description": "Trusted basement sewage cleanup in Decatur, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "basement sewage cleanup decatur",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-sewage-cleanup/",
+        "/service-areas/decatur-al/",
+        "/service-areas/decatur-al/home-remodeling/",
+        "/service-areas/decatur-al/roofing/",
+        "/service-areas/arab-al/basement-sewage-cleanup/",
+        "/service-areas/ardmore-al/basement-sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/decatur-al/carpet-upholstery-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet & Upholstery Cleaning in Decatur, AL | Davis Construction Contractors",
+      "h1": "Carpet & Upholstery Cleaning in Decatur",
+      "meta_description": "Trusted carpet & upholstery cleaning in Decatur, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "carpet & upholstery cleaning decatur",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-upholstery-cleaning/",
+        "/service-areas/decatur-al/",
+        "/service-areas/decatur-al/home-remodeling/",
+        "/service-areas/decatur-al/roofing/",
+        "/service-areas/arab-al/carpet-upholstery-cleaning/",
+        "/service-areas/ardmore-al/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -9762,6 +11857,44 @@
       ]
     },
     {
+      "url_path": "/service-areas/decatur-al/post-construction-specialty-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction & Specialty Cleaning in Decatur, AL | Davis Construction Contractors",
+      "h1": "Post-Construction & Specialty Cleaning in Decatur",
+      "meta_description": "Trusted post-construction & specialty cleaning in Decatur, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "post-construction & specialty cleaning decatur",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-specialty-cleaning/",
+        "/service-areas/decatur-al/",
+        "/service-areas/decatur-al/home-remodeling/",
+        "/service-areas/decatur-al/roofing/",
+        "/service-areas/arab-al/post-construction-specialty-cleaning/",
+        "/service-areas/ardmore-al/post-construction-specialty-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/decatur-al/roofing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9978,6 +12111,82 @@
         "/service-areas/decatur-al/roofing/",
         "/service-areas/arab-al/windows-doors/",
         "/service-areas/ardmore-al/windows-doors/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/arab-al/basement-sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Sewage Cleanup in Arab, AL | Davis Construction Contractors",
+      "h1": "Basement Sewage Cleanup in Arab",
+      "meta_description": "Trusted basement sewage cleanup in Arab, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "basement sewage cleanup arab",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-sewage-cleanup/",
+        "/service-areas/arab-al/",
+        "/service-areas/arab-al/home-remodeling/",
+        "/service-areas/arab-al/roofing/",
+        "/service-areas/ardmore-al/basement-sewage-cleanup/",
+        "/service-areas/athens-al/basement-sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/arab-al/carpet-upholstery-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet & Upholstery Cleaning in Arab, AL | Davis Construction Contractors",
+      "h1": "Carpet & Upholstery Cleaning in Arab",
+      "meta_description": "Trusted carpet & upholstery cleaning in Arab, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "carpet & upholstery cleaning arab",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-upholstery-cleaning/",
+        "/service-areas/arab-al/",
+        "/service-areas/arab-al/home-remodeling/",
+        "/service-areas/arab-al/roofing/",
+        "/service-areas/ardmore-al/carpet-upholstery-cleaning/",
+        "/service-areas/athens-al/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -10246,6 +12455,44 @@
       ]
     },
     {
+      "url_path": "/service-areas/arab-al/post-construction-specialty-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction & Specialty Cleaning in Arab, AL | Davis Construction Contractors",
+      "h1": "Post-Construction & Specialty Cleaning in Arab",
+      "meta_description": "Trusted post-construction & specialty cleaning in Arab, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "post-construction & specialty cleaning arab",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-specialty-cleaning/",
+        "/service-areas/arab-al/",
+        "/service-areas/arab-al/home-remodeling/",
+        "/service-areas/arab-al/roofing/",
+        "/service-areas/ardmore-al/post-construction-specialty-cleaning/",
+        "/service-areas/athens-al/post-construction-specialty-cleaning/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/arab-al/roofing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10462,6 +12709,82 @@
         "/service-areas/arab-al/roofing/",
         "/service-areas/ardmore-al/windows-doors/",
         "/service-areas/athens-al/windows-doors/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hartselle-al/basement-sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Basement Sewage Cleanup in Hartselle, AL | Davis Construction Contractors",
+      "h1": "Basement Sewage Cleanup in Hartselle",
+      "meta_description": "Trusted basement sewage cleanup in Hartselle, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "basement sewage cleanup hartselle",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/basement-sewage-cleanup/",
+        "/service-areas/hartselle-al/",
+        "/service-areas/hartselle-al/home-remodeling/",
+        "/service-areas/hartselle-al/roofing/",
+        "/service-areas/arab-al/basement-sewage-cleanup/",
+        "/service-areas/ardmore-al/basement-sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hartselle-al/carpet-upholstery-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Carpet & Upholstery Cleaning in Hartselle, AL | Davis Construction Contractors",
+      "h1": "Carpet & Upholstery Cleaning in Hartselle",
+      "meta_description": "Trusted carpet & upholstery cleaning in Hartselle, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "carpet & upholstery cleaning hartselle",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/carpet-upholstery-cleaning/",
+        "/service-areas/hartselle-al/",
+        "/service-areas/hartselle-al/home-remodeling/",
+        "/service-areas/hartselle-al/roofing/",
+        "/service-areas/arab-al/carpet-upholstery-cleaning/",
+        "/service-areas/ardmore-al/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -10726,6 +13049,44 @@
         "/service-areas/hartselle-al/roofing/",
         "/service-areas/arab-al/painting-trim/",
         "/service-areas/ardmore-al/painting-trim/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hartselle-al/post-construction-specialty-cleaning/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Post-Construction & Specialty Cleaning in Hartselle, AL | Davis Construction Contractors",
+      "h1": "Post-Construction & Specialty Cleaning in Hartselle",
+      "meta_description": "Trusted post-construction & specialty cleaning in Hartselle, AL. Licensed general contractor, free estimates, quality craftsmanship. Call (256) 771-0326.",
+      "primary_keyword": "post-construction & specialty cleaning hartselle",
+      "secondary_keywords": [],
+      "search_intent": "local_specialty",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 3.5,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/post-construction-specialty-cleaning/",
+        "/service-areas/hartselle-al/",
+        "/service-areas/hartselle-al/home-remodeling/",
+        "/service-areas/hartselle-al/roofing/",
+        "/service-areas/arab-al/post-construction-specialty-cleaning/",
+        "/service-areas/ardmore-al/post-construction-specialty-cleaning/",
         "/contact/"
       ]
     },

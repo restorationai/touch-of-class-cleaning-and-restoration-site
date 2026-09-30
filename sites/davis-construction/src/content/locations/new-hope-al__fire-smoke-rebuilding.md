@@ -8,7 +8,7 @@ secondary_keywords: ["fire damage rebuild", "fire damage repair contractor", "sm
 search_intent: "local_commercial"
 priority: 4.9
 plan_hash: "83f68cd5466d9550"
-generated_at: "2026-09-23T14:11:32.857933+00:00"
+generated_at: "2026-09-30T14:12:04.080879+00:00"
 manual_override: false
 internal_links: ["/services/fire-smoke-rebuilding/", "/service-areas/new-hope-al/", "/service-areas/new-hope-al/home-remodeling/", "/service-areas/new-hope-al/roofing/", "/service-areas/arab-al/fire-smoke-rebuilding/", "/service-areas/ardmore-al/fire-smoke-rebuilding/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "New Hope", "url": "/service-areas/new-hope-al/"}, {"name": "Fire and Smoke Damage Rebuilding"}]

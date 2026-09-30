@@ -8,7 +8,7 @@ secondary_keywords: ["painting contractor", "interior painting", "exterior paint
 search_intent: "local_commercial"
 priority: 4.9
 plan_hash: "72bd14ee909ef1a8"
-generated_at: "2026-09-23T14:11:32.831583+00:00"
+generated_at: "2026-09-30T14:12:04.057579+00:00"
 manual_override: false
 internal_links: ["/services/painting-trim/", "/service-areas/redstone-arsenal-al/", "/service-areas/redstone-arsenal-al/home-remodeling/", "/service-areas/redstone-arsenal-al/roofing/", "/service-areas/arab-al/painting-trim/", "/service-areas/ardmore-al/painting-trim/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Redstone Arsenal", "url": "/service-areas/redstone-arsenal-al/"}, {"name": "Painting and Trim"}]

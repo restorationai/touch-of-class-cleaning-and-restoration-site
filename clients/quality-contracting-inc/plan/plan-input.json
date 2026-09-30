@@ -16,13 +16,16 @@
     "same_as_urls": [
       "https://www.facebook.com/qualcon534/",
       "https://www.linkedin.com/company/quality-contracting-inc-"
-    ]
+    ],
+    "home_about_blurb": "Quality Contracting, Inc. serves Central Massachusetts and Greater Worcester from its Auburn, MA headquarters. We specialize in rapid-response disaster restoration, handling everything from water and fire damage to biohazard cleanup and full reconstruction. When disaster strikes, our certified professionals are standing by 24/7 to return your property to its pre-loss condition quickly and safely."
   },
   "services": [
     "air-duct-cleaning",
+    "air-duct-hvac-cleaning",
     "asbestos-abatement",
     "biohazard-cleanup",
     "carpet-cleaning",
+    "carpet-upholstery-cleaning",
     "contents-restoration",
     "contents-restoration-storage",
     "crawl-space-encapsulation",

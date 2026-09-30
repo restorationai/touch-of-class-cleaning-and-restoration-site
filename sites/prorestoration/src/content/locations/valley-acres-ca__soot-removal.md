@@ -8,7 +8,7 @@ secondary_keywords: ["soot cleaning", "soot residue removal", "post-fire soot cl
 search_intent: "local_specialty"
 priority: 4.9
 plan_hash: "3bb73dcfa26eecc4"
-generated_at: "2026-09-26T17:45:52.593401+00:00"
+generated_at: "2026-09-30T14:12:23.081688+00:00"
 manual_override: false
 internal_links: ["/services/soot-removal/", "/service-areas/valley-acres-ca/", "/service-areas/valley-acres-ca/fire-damage-restoration/", "/service-areas/valley-acres-ca/home-remodeling/", "/service-areas/arvin-ca/soot-removal/", "/service-areas/bear-valley-springs-ca/soot-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Valley Acres", "url": "/service-areas/valley-acres-ca/"}, {"name": "Soot Removal"}]

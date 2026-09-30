@@ -8,7 +8,7 @@ secondary_keywords: ["post construction cleanup", "construction debris cleaning"
 search_intent: "local_service"
 priority: 2.8
 plan_hash: "b06cfc41bbf2122f"
-generated_at: "2026-09-26T17:45:52.543895+00:00"
+generated_at: "2026-09-30T14:12:22.986090+00:00"
 manual_override: false
 internal_links: ["/services/post-construction-cleaning/", "/service-areas/tehachapi-ca/", "/service-areas/tehachapi-ca/fire-damage-restoration/", "/service-areas/tehachapi-ca/home-remodeling/", "/service-areas/arvin-ca/post-construction-cleaning/", "/service-areas/bear-valley-springs-ca/post-construction-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tehachapi", "url": "/service-areas/tehachapi-ca/"}, {"name": "Post-Construction and Specialty Cleaning"}]

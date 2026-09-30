@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "60bf516dcc09b8b8"
-generated_at: "2026-09-23T14:11:36.174844+00:00"
+generated_at: "2026-09-30T14:12:09.661275+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/chino-ca/", "/service-areas/chino-ca/fire-damage-restoration/", "/service-areas/chino-ca/mold-remediation/", "/service-areas/anaheim-ca/roofing/", "/service-areas/chino-hills-ca/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Chino", "url": "/service-areas/chino-ca/"}, {"name": "Roofing Installation and Replacement"}]

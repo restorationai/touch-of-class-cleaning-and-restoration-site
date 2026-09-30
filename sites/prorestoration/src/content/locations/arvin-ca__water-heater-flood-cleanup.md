@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "4a70e00d648fece7"
-generated_at: "2026-09-26T17:45:52.547868+00:00"
+generated_at: "2026-09-30T14:12:22.996311+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/arvin-ca/", "/service-areas/arvin-ca/fire-damage-restoration/", "/service-areas/arvin-ca/home-remodeling/", "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/", "/service-areas/buttonwillow-ca/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Arvin", "url": "/service-areas/arvin-ca/"}, {"name": "water-heater-flood-cleanup"}]

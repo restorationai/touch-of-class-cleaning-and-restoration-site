@@ -8,7 +8,7 @@ secondary_keywords: ["window replacement", "window installation contractor", "ex
 search_intent: "local_commercial"
 priority: 4.9
 plan_hash: "915075675dd13777"
-generated_at: "2026-09-23T14:11:32.877123+00:00"
+generated_at: "2026-09-30T14:12:04.099921+00:00"
 manual_override: false
 internal_links: ["/services/windows-doors/", "/service-areas/decatur-al/", "/service-areas/decatur-al/home-remodeling/", "/service-areas/decatur-al/roofing/", "/service-areas/arab-al/windows-doors/", "/service-areas/ardmore-al/windows-doors/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Decatur", "url": "/service-areas/decatur-al/"}, {"name": "Window and Door Installation"}]

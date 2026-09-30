@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 7.2
 plan_hash: "93971265ec888394"
-generated_at: "2026-09-29T23:24:34.680990+00:00"
+generated_at: "2026-09-30T14:12:09.603708+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/ceiling-water-damage-repair/", "/service-areas/chino-ca/ceiling-water-damage-repair/", "/service-areas/chino-hills-ca/ceiling-water-damage-repair/", "/service-areas/eastvale-ca/ceiling-water-damage-repair/", "/service-areas/fontana-ca/ceiling-water-damage-repair/", "/service-areas/fullerton-ca/ceiling-water-damage-repair/", "/service-areas/jurupa-valley-ca/ceiling-water-damage-repair/", "/service-areas/lake-mathews-ca/ceiling-water-damage-repair/", "/service-areas/montclair-ca/ceiling-water-damage-repair/", "/service-areas/norco-ca/ceiling-water-damage-repair/", "/service-areas/north-tustin-ca/ceiling-water-damage-repair/", "/service-areas/ontario-ca/ceiling-water-damage-repair/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Ceiling Water Damage Repair"}]

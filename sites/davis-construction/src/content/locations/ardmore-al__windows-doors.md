@@ -8,7 +8,7 @@ secondary_keywords: ["window replacement", "window installation contractor", "ex
 search_intent: "local_commercial"
 priority: 4.9
 plan_hash: "1765b9b6e77a2003"
-generated_at: "2026-09-23T14:11:32.863909+00:00"
+generated_at: "2026-09-30T14:12:04.086570+00:00"
 manual_override: false
 internal_links: ["/services/windows-doors/", "/service-areas/ardmore-al/", "/service-areas/ardmore-al/home-remodeling/", "/service-areas/ardmore-al/roofing/", "/service-areas/arab-al/windows-doors/", "/service-areas/athens-al/windows-doors/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ardmore", "url": "/service-areas/ardmore-al/"}, {"name": "Window and Door Installation"}]

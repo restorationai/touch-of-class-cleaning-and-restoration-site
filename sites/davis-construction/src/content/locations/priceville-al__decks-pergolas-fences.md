@@ -8,7 +8,7 @@ secondary_keywords: ["deck builder", "deck installation", "pergola builder", "fe
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "e3800d66d56299d4"
-generated_at: "2026-09-23T14:11:32.864118+00:00"
+generated_at: "2026-09-30T14:12:04.087194+00:00"
 manual_override: false
 internal_links: ["/services/decks-pergolas-fences/", "/service-areas/priceville-al/", "/service-areas/priceville-al/home-remodeling/", "/service-areas/priceville-al/roofing/", "/service-areas/arab-al/decks-pergolas-fences/", "/service-areas/ardmore-al/decks-pergolas-fences/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Priceville", "url": "/service-areas/priceville-al/"}, {"name": "Decks, Pergolas and Fences"}]

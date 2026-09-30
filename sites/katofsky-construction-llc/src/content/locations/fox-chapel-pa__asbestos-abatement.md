@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "a18839d2aa993e6d"
-generated_at: "2026-09-24T17:27:04.119990+00:00"
+generated_at: "2026-09-30T14:12:19.463116+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/fox-chapel-pa/", "/service-areas/fox-chapel-pa/fire-damage-restoration/", "/service-areas/fox-chapel-pa/roofing/", "/service-areas/allison-park-pa/asbestos-abatement/", "/service-areas/baldwin-pa/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fox Chapel", "url": "/service-areas/fox-chapel-pa/"}, {"name": "Asbestos Abatement"}]

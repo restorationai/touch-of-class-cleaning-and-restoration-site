@@ -1,21 +1,21 @@
 # Site Plan Report — All Pro Plumbing Heating and Air
 
 - Template: `plumbing` v0.1.0
-- Generated: 2026-09-29T22:23:57.411314+00:00
+- Generated: 2026-09-30T14:19:30.178334+00:00
 - Domain: `allproplumbingheatingandair.com`
-- Services selected: 22 of 22 catalog entries
-- Service areas: 18
+- Services selected: 22 of 34 catalog entries
+- Service areas: 19
 - Cross-product enabled: True
-- Total URLs: **434**
-- Total internal links: 3548 (avg 8.2 per page)
+- Total URLs: **457**
+- Total internal links: 3731 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 374 |
+| `service-area-service` | 396 |
 | `service-landing` | 22 |
-| `service-area` | 17 |
+| `service-area` | 18 |
 | `blog-post` | 12 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -70,6 +70,7 @@
 - `wasco-ca` — Wasco, CA
 - `valley-acres-ca` — Valley Acres, CA
 - `stallion-springs-ca` — Stallion Springs, CA
+- `east-niles-ca` — East Niles, CA
 
 ## Top 10 priority pages
 

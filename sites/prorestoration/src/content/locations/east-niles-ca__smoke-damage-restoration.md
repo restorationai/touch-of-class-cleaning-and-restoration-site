@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "844bb17c36f956bd"
-generated_at: "2026-09-26T17:45:52.557664+00:00"
+generated_at: "2026-09-30T14:12:23.017011+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/east-niles-ca/", "/service-areas/east-niles-ca/fire-damage-restoration/", "/service-areas/east-niles-ca/home-remodeling/", "/service-areas/arvin-ca/smoke-damage-restoration/", "/service-areas/bear-valley-springs-ca/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "East Niles", "url": "/service-areas/east-niles-ca/"}, {"name": "Smoke Damage Restoration"}]

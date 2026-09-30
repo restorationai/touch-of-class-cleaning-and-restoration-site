@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Emergency Plumbing in Robert Lee, TX | Air Care Restoration"
+h1: "Emergency Plumbing in Robert Lee"
+meta_description: "24/7 emergency plumbing in Robert Lee, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723."
+primary_keyword: "emergency plumbing robert lee"
+secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber", "emergency plumbing repair", "24/7 plumbing"]
+search_intent: "local_emergency"
+priority: 6.3
+plan_hash: "cc7f8674f300a867"
+generated_at: "2026-09-30T14:12:01.771693+00:00"
+manual_override: false
+internal_links: ["/services/emergency-plumbing/", "/service-areas/robert-lee-tx/", "/service-areas/robert-lee-tx/fire-damage-restoration/", "/service-areas/robert-lee-tx/mold-remediation/", "/service-areas/albany-tx/emergency-plumbing/", "/service-areas/anson-tx/emergency-plumbing/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Robert Lee", "url": "/service-areas/robert-lee-tx/"}, {"name": "emergency-plumbing"}]
+faq: []
+area_slug: "robert-lee-tx"
+service_slug: "emergency-plumbing"
+city: "Robert Lee"
+state: "TX"
+service_display: "emergency-plumbing"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug air-care-restoration` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Emergency Plumbing in Robert Lee.

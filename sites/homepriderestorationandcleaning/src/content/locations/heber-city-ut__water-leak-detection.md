@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "7cf9d31e36df84cf"
-generated_at: "2026-09-23T14:11:49.725793+00:00"
+generated_at: "2026-09-30T14:12:14.574388+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/heber-city-ut/", "/service-areas/heber-city-ut/fire-damage-restoration/", "/service-areas/heber-city-ut/mold-remediation/", "/service-areas/alpine-ut/water-leak-detection/", "/service-areas/american-fork-ut/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Heber City", "url": "/service-areas/heber-city-ut/"}, {"name": "Water Leak Detection"}]

@@ -7,10 +7,10 @@ primary_keyword: "roofing installation and replacement sewickley hills"
 secondary_keywords: ["roofing contractor", "roof replacement", "new roof installation", "residential roofing", "roof repair"]
 search_intent: "local_commercial"
 priority: 7.0
-plan_hash: "c82f1a993cb9381e"
-generated_at: "2026-09-25T16:20:23.689387+00:00"
+plan_hash: "60db8dcb57461a4a"
+generated_at: "2026-09-30T14:12:19.481730+00:00"
 manual_override: false
-internal_links: ["/services/roofing/", "/service-areas/sewickley-hills-pa/", "/service-areas/sewickley-hills-pa/fire-damage-restoration/", "/service-areas/sewickley-hills-pa/mold-remediation/", "/service-areas/allison-park-pa/roofing/", "/service-areas/baldwin-pa/roofing/", "/contact/"]
+internal_links: ["/services/roofing/", "/service-areas/sewickley-hills-pa/", "/service-areas/sewickley-hills-pa/fire-damage-restoration/", "/service-areas/sewickley-hills-pa/sewage-cleanup/", "/service-areas/allison-park-pa/roofing/", "/service-areas/baldwin-pa/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sewickley Hills", "url": "/service-areas/sewickley-hills-pa/"}, {"name": "Roofing Installation and Replacement"}]
 faq: []
 area_slug: "sewickley-hills-pa"

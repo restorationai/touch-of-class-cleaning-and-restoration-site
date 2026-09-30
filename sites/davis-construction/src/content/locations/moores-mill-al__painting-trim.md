@@ -8,7 +8,7 @@ secondary_keywords: ["painting contractor", "interior painting", "exterior paint
 search_intent: "local_commercial"
 priority: 4.9
 plan_hash: "7dd3617157c25d12"
-generated_at: "2026-09-23T14:11:32.828235+00:00"
+generated_at: "2026-09-30T14:12:04.054524+00:00"
 manual_override: false
 internal_links: ["/services/painting-trim/", "/service-areas/moores-mill-al/", "/service-areas/moores-mill-al/home-remodeling/", "/service-areas/moores-mill-al/roofing/", "/service-areas/arab-al/painting-trim/", "/service-areas/ardmore-al/painting-trim/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Moores Mill", "url": "/service-areas/moores-mill-al/"}, {"name": "Painting and Trim"}]

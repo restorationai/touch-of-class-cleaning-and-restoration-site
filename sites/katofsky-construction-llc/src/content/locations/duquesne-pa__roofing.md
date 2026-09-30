@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "c2b4f0f8a228c8a5"
-generated_at: "2026-09-24T21:59:37.099421+00:00"
+generated_at: "2026-09-30T14:12:19.473685+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/duquesne-pa/", "/service-areas/duquesne-pa/fire-damage-restoration/", "/service-areas/duquesne-pa/sewage-cleanup/", "/service-areas/allison-park-pa/roofing/", "/service-areas/baldwin-pa/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Duquesne", "url": "/service-areas/duquesne-pa/"}, {"name": "Roofing Installation and Replacement"}]

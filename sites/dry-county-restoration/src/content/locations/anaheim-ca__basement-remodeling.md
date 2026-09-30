@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "893e9b2cd62918a0"
-generated_at: "2026-09-29T23:24:34.686892+00:00"
+generated_at: "2026-09-30T14:12:09.621686+00:00"
 manual_override: false
 internal_links: ["/services/basement-remodeling/", "/service-areas/anaheim-ca/", "/service-areas/anaheim-ca/fire-damage-restoration/", "/service-areas/anaheim-ca/mold-remediation/", "/service-areas/chino-ca/basement-remodeling/", "/service-areas/chino-hills-ca/basement-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Anaheim", "url": "/service-areas/anaheim-ca/"}, {"name": "Basement Remodeling"}]

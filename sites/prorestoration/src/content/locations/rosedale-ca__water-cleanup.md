@@ -8,7 +8,7 @@ secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "63a5cc1df81e0e8b"
-generated_at: "2026-09-26T17:45:52.530672+00:00"
+generated_at: "2026-09-30T14:12:22.952792+00:00"
 manual_override: false
 internal_links: ["/services/water-cleanup/", "/service-areas/rosedale-ca/", "/service-areas/rosedale-ca/fire-damage-restoration/", "/service-areas/rosedale-ca/home-remodeling/", "/service-areas/arvin-ca/water-cleanup/", "/service-areas/bear-valley-springs-ca/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rosedale", "url": "/service-areas/rosedale-ca/"}, {"name": "Emergency Water Cleanup"}]

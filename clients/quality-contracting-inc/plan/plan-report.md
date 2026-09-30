@@ -1,21 +1,21 @@
 # Site Plan Report — Quality Contracting, Inc.
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-24T23:31:30.671503+00:00
+- Generated: 2026-09-30T14:12:23.754979+00:00
 - Domain: `qualitycontracting.us`
-- Services selected: 21 of 65 catalog entries
+- Services selected: 35 of 91 catalog entries
 - Service areas: 28
 - Cross-product enabled: True
-- Total URLs: **632**
-- Total internal links: 5132 (avg 8.1 per page)
+- Total URLs: **1024**
+- Total internal links: 8384 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 567 |
+| `service-area-service` | 945 |
+| `service-landing` | 35 |
 | `service-area` | 27 |
-| `service-landing` | 21 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -28,9 +28,11 @@
 ## Selected services
 
 - `air-duct-cleaning` — Air Duct Cleaning (adjacent, priority 5)
+- `air-duct-hvac-cleaning` — Air Duct & HVAC Cleaning (adjacent, priority 5)
 - `asbestos-abatement` — Asbestos Abatement (specialty, priority 6)
 - `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
 - `carpet-cleaning` — Carpet Cleaning (adjacent, priority 4)
+- `carpet-upholstery-cleaning` — Carpet & Upholstery Cleaning (adjacent, priority 5)
 - `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
 - `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
 - `crawl-space-encapsulation` — Crawl Space Encapsulation (adjacent, priority 5)
@@ -48,6 +50,18 @@
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
+- `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
+- `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
+- `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
+- `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
+- `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
+- `commercial-restoration` — Commercial Restoration (core, priority 9)
+- `industrial-restoration` — Industrial Restoration (core, priority 7)
+- `reconstruction` — Reconstruction Services (core, priority 9)
+- `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
+- `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
+- `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
+- `emergency-water-removal` — 24/7 Emergency Water Removal (core, priority 9)
 
 ## Service areas
 
@@ -88,12 +102,12 @@
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation auburn |
 | `/services/roofing/` | `service-landing` | 9.0 | roofing installation and replacement auburn |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration auburn |
+| `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration auburn |
 | `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing auburn |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | 24/7 emergency water removal auburn |
+| `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration auburn |
+| `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services auburn |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization auburn |
-| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration auburn |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup auburn |
-| `/services/biohazard-cleanup/` | `service-landing` | 7.2 | biohazard cleanup auburn |
-| `/services/general-contracting/` | `service-landing` | 7.2 | renovations, remodels and general contracting auburn |
 
 ## Validation
 

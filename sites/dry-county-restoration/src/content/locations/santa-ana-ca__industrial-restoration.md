@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "100d8e3a1ef0a7f1"
-generated_at: "2026-09-29T23:24:34.690724+00:00"
+generated_at: "2026-09-30T14:12:09.631807+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/santa-ana-ca/", "/service-areas/santa-ana-ca/fire-damage-restoration/", "/service-areas/santa-ana-ca/mold-remediation/", "/service-areas/anaheim-ca/industrial-restoration/", "/service-areas/chino-ca/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Santa Ana", "url": "/service-areas/santa-ana-ca/"}, {"name": "Industrial Restoration"}]

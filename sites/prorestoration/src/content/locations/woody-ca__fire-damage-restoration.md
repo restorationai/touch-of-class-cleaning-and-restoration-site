@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "fba48310a9cafd69"
-generated_at: "2026-09-26T17:45:52.596706+00:00"
+generated_at: "2026-09-30T14:12:23.088644+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/woody-ca/", "/service-areas/woody-ca/home-remodeling/", "/service-areas/woody-ca/mold-remediation/", "/service-areas/arvin-ca/fire-damage-restoration/", "/service-areas/bear-valley-springs-ca/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woody", "url": "/service-areas/woody-ca/"}, {"name": "Fire Damage Restoration"}]

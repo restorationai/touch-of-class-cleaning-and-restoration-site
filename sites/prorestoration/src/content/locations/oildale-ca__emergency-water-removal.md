@@ -8,7 +8,7 @@ secondary_keywords: ["emergency water removal", "emergency water damage", "24 ho
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "62bd12aacff7b3df"
-generated_at: "2026-09-26T17:45:52.528796+00:00"
+generated_at: "2026-09-30T14:12:22.948562+00:00"
 manual_override: false
 internal_links: ["/services/emergency-water-removal/", "/service-areas/oildale-ca/", "/service-areas/oildale-ca/fire-damage-restoration/", "/service-areas/oildale-ca/home-remodeling/", "/service-areas/arvin-ca/emergency-water-removal/", "/service-areas/bear-valley-springs-ca/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oildale", "url": "/service-areas/oildale-ca/"}, {"name": "emergency-water-removal"}]

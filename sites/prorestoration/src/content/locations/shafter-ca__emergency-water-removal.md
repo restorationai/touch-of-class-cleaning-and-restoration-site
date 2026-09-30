@@ -8,7 +8,7 @@ secondary_keywords: ["emergency water removal", "emergency water damage", "24 ho
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "808e848dccd1d0fc"
-generated_at: "2026-09-26T17:45:52.537036+00:00"
+generated_at: "2026-09-30T14:12:22.968693+00:00"
 manual_override: false
 internal_links: ["/services/emergency-water-removal/", "/service-areas/shafter-ca/", "/service-areas/shafter-ca/fire-damage-restoration/", "/service-areas/shafter-ca/home-remodeling/", "/service-areas/arvin-ca/emergency-water-removal/", "/service-areas/bear-valley-springs-ca/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Shafter", "url": "/service-areas/shafter-ca/"}, {"name": "emergency-water-removal"}]

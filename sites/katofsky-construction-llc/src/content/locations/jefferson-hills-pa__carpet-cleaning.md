@@ -7,10 +7,10 @@ primary_keyword: "carpet cleaning jefferson hills"
 secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "carpet stain removal", "commercial carpet cleaning", "carpet sanitization"]
 search_intent: "local_specialty"
 priority: 2.8
-plan_hash: "734d36149dc33979"
-generated_at: "2026-09-25T14:14:32.699821+00:00"
+plan_hash: "2ca35c97888f29d0"
+generated_at: "2026-09-30T14:12:19.475678+00:00"
 manual_override: false
-internal_links: ["/services/carpet-cleaning/", "/service-areas/jefferson-hills-pa/", "/service-areas/jefferson-hills-pa/fire-damage-restoration/", "/service-areas/jefferson-hills-pa/mold-remediation/", "/service-areas/allison-park-pa/carpet-cleaning/", "/service-areas/baldwin-pa/carpet-cleaning/", "/contact/"]
+internal_links: ["/services/carpet-cleaning/", "/service-areas/jefferson-hills-pa/", "/service-areas/jefferson-hills-pa/fire-damage-restoration/", "/service-areas/jefferson-hills-pa/roofing/", "/service-areas/allison-park-pa/carpet-cleaning/", "/service-areas/baldwin-pa/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Jefferson Hills", "url": "/service-areas/jefferson-hills-pa/"}, {"name": "Carpet Cleaning"}]
 faq: []
 area_slug: "jefferson-hills-pa"

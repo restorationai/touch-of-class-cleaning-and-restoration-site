@@ -8,7 +8,7 @@ secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "ca
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "87a062709a44eaa7"
-generated_at: "2026-09-23T14:11:36.192819+00:00"
+generated_at: "2026-09-30T14:12:09.699810+00:00"
 manual_override: false
 internal_links: ["/services/carpet-cleaning/", "/service-areas/temescal-valley-ca/", "/service-areas/temescal-valley-ca/fire-damage-restoration/", "/service-areas/temescal-valley-ca/mold-remediation/", "/service-areas/anaheim-ca/carpet-cleaning/", "/service-areas/chino-ca/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Temescal Valley", "url": "/service-areas/temescal-valley-ca/"}, {"name": "Carpet Cleaning"}]

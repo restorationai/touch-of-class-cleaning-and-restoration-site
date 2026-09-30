@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "3600da5b1d869e06"
-generated_at: "2026-09-23T14:11:49.756134+00:00"
+generated_at: "2026-09-30T14:12:14.613956+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/fairfield-ut/", "/service-areas/fairfield-ut/fire-damage-restoration/", "/service-areas/fairfield-ut/mold-remediation/", "/service-areas/alpine-ut/smoke-damage-restoration/", "/service-areas/american-fork-ut/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fairfield", "url": "/service-areas/fairfield-ut/"}, {"name": "Smoke Damage Restoration"}]

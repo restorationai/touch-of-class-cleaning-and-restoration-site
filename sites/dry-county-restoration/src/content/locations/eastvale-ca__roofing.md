@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "212289fa69e3ecc1"
-generated_at: "2026-09-23T14:11:36.181014+00:00"
+generated_at: "2026-09-30T14:12:09.677408+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/eastvale-ca/", "/service-areas/eastvale-ca/fire-damage-restoration/", "/service-areas/eastvale-ca/mold-remediation/", "/service-areas/anaheim-ca/roofing/", "/service-areas/chino-ca/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Eastvale", "url": "/service-areas/eastvale-ca/"}, {"name": "Roofing Installation and Replacement"}]

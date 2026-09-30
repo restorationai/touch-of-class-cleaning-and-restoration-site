@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "b81187572e232a75"
-generated_at: "2026-09-24T17:23:44.557058+00:00"
+generated_at: "2026-09-30T14:12:19.444645+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/glenshaw-pa/", "/service-areas/glenshaw-pa/roofing/", "/service-areas/glenshaw-pa/sewage-cleanup/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/service-areas/baldwin-pa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Glenshaw", "url": "/service-areas/glenshaw-pa/"}, {"name": "Fire Damage Restoration"}]

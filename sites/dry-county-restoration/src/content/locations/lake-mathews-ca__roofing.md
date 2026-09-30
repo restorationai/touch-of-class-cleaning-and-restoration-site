@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "d129615d22de163a"
-generated_at: "2026-09-23T14:11:36.206088+00:00"
+generated_at: "2026-09-30T14:12:09.724190+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/lake-mathews-ca/", "/service-areas/lake-mathews-ca/fire-damage-restoration/", "/service-areas/lake-mathews-ca/mold-remediation/", "/service-areas/anaheim-ca/roofing/", "/service-areas/chino-ca/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Mathews", "url": "/service-areas/lake-mathews-ca/"}, {"name": "Roofing Installation and Replacement"}]

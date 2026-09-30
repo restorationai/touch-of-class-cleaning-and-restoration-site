@@ -8,7 +8,7 @@ secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic over
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "1ac53da60b3fcf53"
-generated_at: "2026-09-24T17:23:44.559716+00:00"
+generated_at: "2026-09-30T14:12:19.449803+00:00"
 manual_override: false
 internal_links: ["/services/sewage-cleanup/", "/service-areas/pleasant-hills-pa/", "/service-areas/pleasant-hills-pa/fire-damage-restoration/", "/service-areas/pleasant-hills-pa/roofing/", "/service-areas/allison-park-pa/sewage-cleanup/", "/service-areas/baldwin-pa/sewage-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pleasant Hills", "url": "/service-areas/pleasant-hills-pa/"}, {"name": "Sewage Cleanup and Sanitization"}]

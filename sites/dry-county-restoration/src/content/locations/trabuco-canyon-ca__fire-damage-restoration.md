@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "77dd943c9869481f"
-generated_at: "2026-09-23T14:11:36.214199+00:00"
+generated_at: "2026-09-30T14:12:09.740104+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/trabuco-canyon-ca/", "/service-areas/trabuco-canyon-ca/mold-remediation/", "/service-areas/trabuco-canyon-ca/roofing/", "/service-areas/anaheim-ca/fire-damage-restoration/", "/service-areas/chino-ca/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Trabuco Canyon", "url": "/service-areas/trabuco-canyon-ca/"}, {"name": "Fire Damage Restoration"}]

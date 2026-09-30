@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "d9d665f7b1fb7b02"
-generated_at: "2026-09-29T23:24:34.730170+00:00"
+generated_at: "2026-09-30T14:12:09.746570+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/north-tustin-ca/", "/service-areas/north-tustin-ca/fire-damage-restoration/", "/service-areas/north-tustin-ca/mold-remediation/", "/service-areas/anaheim-ca/burst-pipe-repair/", "/service-areas/chino-ca/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "North Tustin", "url": "/service-areas/north-tustin-ca/"}, {"name": "Burst Pipe Cleanup and Repair"}]

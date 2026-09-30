@@ -8,7 +8,7 @@ secondary_keywords: ["window replacement", "window installation contractor", "ex
 search_intent: "local_commercial"
 priority: 4.9
 plan_hash: "6f9aab342dfac6d0"
-generated_at: "2026-09-23T14:11:32.846857+00:00"
+generated_at: "2026-09-30T14:12:04.070431+00:00"
 manual_override: false
 internal_links: ["/services/windows-doors/", "/service-areas/harvest-al/", "/service-areas/harvest-al/home-remodeling/", "/service-areas/harvest-al/roofing/", "/service-areas/arab-al/windows-doors/", "/service-areas/ardmore-al/windows-doors/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Harvest", "url": "/service-areas/harvest-al/"}, {"name": "Window and Door Installation"}]

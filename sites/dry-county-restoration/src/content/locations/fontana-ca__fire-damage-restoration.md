@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "723e0fe2ec845243"
-generated_at: "2026-09-23T14:11:36.233452+00:00"
+generated_at: "2026-09-30T14:12:09.778120+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/fontana-ca/", "/service-areas/fontana-ca/mold-remediation/", "/service-areas/fontana-ca/roofing/", "/service-areas/anaheim-ca/fire-damage-restoration/", "/service-areas/chino-ca/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fontana", "url": "/service-areas/fontana-ca/"}, {"name": "Fire Damage Restoration"}]

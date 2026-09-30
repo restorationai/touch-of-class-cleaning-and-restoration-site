@@ -42,12 +42,13 @@
     "cta_hover": "#c02b1e",
     "accent_color": "#1f3b63",
     "accent_fg": "#ffffff",
-    "sms_consent_entity": "MULTIGLOBAL SERVICES LLC"
+    "sms_consent_entity": "Homelyft Restoration LLC"
   },
   "services": [
     "asbestos-abatement",
     "biohazard-cleanup",
     "carpet-cleaning",
+    "carpet-upholstery-cleaning",
     "contents-restoration",
     "contents-restoration-storage",
     "crawl-space-encapsulation",

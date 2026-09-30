@@ -69,7 +69,7 @@ Per-client brand colors take priority. The values below are substituted from `pl
 
 | Role | Source | Value for this client |
 |------|--------|----------------------|
-| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#0d1b3e` | **#0d1b3e** |
+| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#c2410c` | **#c2410c** |
 | Accent (emergency markings, CTAs that appear in promo shots) | `#f97316` | **#f97316** |
 | Logo color (if a worker's uniform back is visible) | derived from brand logo | match Home Pride Restoration and Cleaning's logo |
 | Skin / texture / restoration materials | natural and neutral | warm wood tones for housing stock, cool concrete grays, real surface textures |
@@ -98,7 +98,7 @@ Per-client brand colors take priority. The values below are substituted from `pl
 Every image that depicts a person must show a worker in branded company uniform. This is non-negotiable for visual consistency and trust signaling.
 
 ### Uniform specifications
-- **Top**: Polo or work shirt in the client's primary brand color (`#0d1b3e`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
+- **Top**: Polo or work shirt in the client's primary brand color (`#c2410c`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal uniform with the brand color visible as logo embroidery, accent stripe, or branded hat.
 - **Bottom**: Neutral work pants (charcoal, dark navy, or khaki). Subordinate to the top.
 - **Branding**: Home Pride Restoration and Cleaning or Home Pride Restoration and Cleaning embroidered on chest or back. IICRC certification badge visible on sleeve or chest where it makes sense.
 - **PPE**: Match the service context (see service-specific notes below) — gloves always, respirators / face shields / Tyvek suits when the service warrants it.
@@ -185,7 +185,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Appliance Leak Cleanup, Basement Flooding Cleanup, Biohazard Cleanup, Burst Pipe Cleanup and Repair, Carpet Cleaning, Crawl Space Encapsulation, Emergency Board-Up and Tarping, Fabric Protection, Fire Damage Restoration, Frozen Pipe Restoration, Hoarding Cleanup, Junk & Debris Removal, Mold Inspection and Testing, Mold Remediation, Odor Removal and Deodorization, Post-Construction and Specialty Cleaning, Roof Leak Cleanup and Repair, Sewage Cleanup and Sanitization, Smoke Damage Restoration, Storm Damage Restoration, Tile & Grout Cleaning, Upholstery Cleaning, Water Damage Restoration, Water Leak Detection, Emergency Water Cleanup)
+- [ ] (continue for each of Appliance Leak Cleanup, Basement Flooding Cleanup, Biohazard Cleanup, Burst Pipe Cleanup and Repair, Carpet Cleaning, Carpet & Upholstery Cleaning, Crawl Space Encapsulation, Emergency Board-Up and Tarping, Fabric Protection, Fire Damage Restoration, Frozen Pipe Restoration, Hoarding Cleanup, Junk & Debris Removal, Mold Inspection and Testing, Mold Remediation, Odor Removal and Deodorization, Post-Construction and Specialty Cleaning, Roof Leak Cleanup and Repair, Sewage Cleanup and Sanitization, Smoke Damage Restoration, Storm Damage Restoration, Tile & Grout Cleaning, Upholstery Cleaning, Water Damage Restoration, Water Leak Detection, Emergency Water Cleanup, Flood Damage Restoration, Commercial Restoration, Industrial Restoration, Reconstruction Services, Renovations, Remodels and General Contracting, Large Loss and Catastrophic Response, Ceiling Water Damage Repair, Water Heater Flood Cleanup, 24/7 Emergency Water Removal, Emergency Plumbing)
 
 ### Service area pages (one image per city served)
 - [ ] Saratoga Springs hero — exterior shot, regional housing stock, evocative of the city

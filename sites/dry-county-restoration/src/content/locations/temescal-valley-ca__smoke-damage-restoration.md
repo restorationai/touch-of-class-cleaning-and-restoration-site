@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "fbb87bef0d729769"
-generated_at: "2026-09-29T23:24:34.717109+00:00"
+generated_at: "2026-09-30T14:12:09.706111+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/temescal-valley-ca/", "/service-areas/temescal-valley-ca/fire-damage-restoration/", "/service-areas/temescal-valley-ca/mold-remediation/", "/service-areas/anaheim-ca/smoke-damage-restoration/", "/service-areas/chino-ca/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Temescal Valley", "url": "/service-areas/temescal-valley-ca/"}, {"name": "Smoke Damage Restoration"}]

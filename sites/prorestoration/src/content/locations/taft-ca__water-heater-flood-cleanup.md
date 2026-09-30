@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "9aa45a2073097271"
-generated_at: "2026-09-26T17:45:52.542456+00:00"
+generated_at: "2026-09-30T14:12:22.982476+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/taft-ca/", "/service-areas/taft-ca/fire-damage-restoration/", "/service-areas/taft-ca/home-remodeling/", "/service-areas/arvin-ca/water-heater-flood-cleanup/", "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Taft", "url": "/service-areas/taft-ca/"}, {"name": "water-heater-flood-cleanup"}]

@@ -1,20 +1,20 @@
 # Site Plan Report — National Restoration Construction
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-29T23:29:54.710906+00:00
+- Generated: 2026-09-30T14:12:20.309467+00:00
 - Domain: `narestco.com`
-- Services selected: 41 of 79 catalog entries
+- Services selected: 42 of 91 catalog entries
 - Service areas: 30
 - Cross-product enabled: True
-- Total URLs: **1280**
-- Total internal links: 10474 (avg 8.2 per page)
+- Total URLs: **1310**
+- Total internal links: 10722 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 1189 |
-| `service-landing` | 41 |
+| `service-area-service` | 1218 |
+| `service-landing` | 42 |
 | `service-area` | 29 |
 | `blog-post` | 12 |
 | `legal` | 3 |
@@ -28,20 +28,29 @@
 ## Selected services
 
 - `air-duct-cleaning` — Air Duct Cleaning (adjacent, priority 5)
+- `air-duct-hvac-cleaning` — Air Duct & HVAC Cleaning (adjacent, priority 5)
 - `appliance-leak-cleanup` — Appliance Leak Cleanup (specialty, priority 6)
 - `asbestos-abatement` — Asbestos Abatement (specialty, priority 6)
 - `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
+- `basement-sewage-cleanup` — Basement Sewage Cleanup (adjacent, priority 5)
+- `basement-water-cleanup` — Basement Water Cleanup (adjacent, priority 5)
 - `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
 - `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
+- `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
+- `commercial-restoration` — Commercial Restoration (core, priority 9)
 - `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
 - `crawl-space-encapsulation` — Crawl Space Encapsulation (adjacent, priority 5)
 - `crime-scene-cleanup` — Crime Scene Cleanup (specialty, priority 6)
 - `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
+- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
+- `emergency-water-removal` — 24/7 Emergency Water Removal (core, priority 9)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
 - `frozen-pipe-restoration` — Frozen Pipe Restoration (specialty, priority 7)
 - `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
 - `hoarding-cleanup` — Hoarding Cleanup (specialty, priority 6)
+- `industrial-restoration` — Industrial Restoration (core, priority 7)
+- `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
 - `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
 - `mold-remediation` — Mold Remediation (core, priority 10)
 - `odor-removal` — Odor Removal and Deodorization (specialty, priority 7)
@@ -58,16 +67,8 @@
 - `vandalism-cleanup` — Vandalism Cleanup (specialty, priority 5)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
-- `water-leak-detection` — Water Leak Detection (core, priority 7)
-- `basement-sewage-cleanup` — Basement Sewage Cleanup (adjacent, priority 5)
-- `basement-water-cleanup` — Basement Water Cleanup (adjacent, priority 5)
-- `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
-- `commercial-restoration` — Commercial Restoration (core, priority 9)
-- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
-- `emergency-water-removal` — 24/7 Emergency Water Removal (core, priority 9)
-- `industrial-restoration` — Industrial Restoration (core, priority 7)
-- `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
 - `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
+- `water-leak-detection` — Water Leak Detection (core, priority 7)
 
 ## Service areas
 

@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "487d6654b6a883bb"
-generated_at: "2026-09-26T17:45:52.600980+00:00"
+generated_at: "2026-09-30T14:12:23.095880+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/bear-valley-springs-ca/", "/service-areas/bear-valley-springs-ca/fire-damage-restoration/", "/service-areas/bear-valley-springs-ca/home-remodeling/", "/service-areas/arvin-ca/air-duct-cleaning/", "/service-areas/buttonwillow-ca/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bear Valley Springs", "url": "/service-areas/bear-valley-springs-ca/"}, {"name": "Air Duct Cleaning"}]

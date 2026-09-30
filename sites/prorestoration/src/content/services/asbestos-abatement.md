@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 5.4
 plan_hash: "e214265f2c75b218"
-generated_at: "2026-09-26T17:45:52.519857+00:00"
+generated_at: "2026-09-30T14:12:22.931509+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/arvin-ca/asbestos-abatement/", "/service-areas/bear-valley-springs-ca/asbestos-abatement/", "/service-areas/buttonwillow-ca/asbestos-abatement/", "/service-areas/delano-ca/asbestos-abatement/", "/service-areas/dustin-acres-ca/asbestos-abatement/", "/service-areas/east-niles-ca/asbestos-abatement/", "/service-areas/keene-ca/asbestos-abatement/", "/service-areas/lake-isabella-ca/asbestos-abatement/", "/service-areas/lamont-ca/asbestos-abatement/", "/service-areas/maricopa-ca/asbestos-abatement/", "/service-areas/mcfarland-ca/asbestos-abatement/", "/service-areas/oildale-ca/asbestos-abatement/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Asbestos Abatement"}]

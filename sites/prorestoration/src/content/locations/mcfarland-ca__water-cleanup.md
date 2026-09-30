@@ -8,7 +8,7 @@ secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "cddac193cbed4f13"
-generated_at: "2026-09-26T17:45:52.587831+00:00"
+generated_at: "2026-09-30T14:12:23.071914+00:00"
 manual_override: false
 internal_links: ["/services/water-cleanup/", "/service-areas/mcfarland-ca/", "/service-areas/mcfarland-ca/fire-damage-restoration/", "/service-areas/mcfarland-ca/home-remodeling/", "/service-areas/arvin-ca/water-cleanup/", "/service-areas/bear-valley-springs-ca/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McFarland", "url": "/service-areas/mcfarland-ca/"}, {"name": "Emergency Water Cleanup"}]

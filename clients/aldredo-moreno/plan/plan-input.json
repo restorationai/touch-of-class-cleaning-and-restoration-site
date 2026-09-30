@@ -33,14 +33,16 @@
     }
   },
   "services": [
-    "water-damage-restoration",
+    "air-duct-cleaning",
+    "air-duct-hvac-cleaning",
+    "carpet-cleaning",
+    "carpet-upholstery-cleaning",
+    "junk-debris-removal",
     "sewage-cleanup",
     "storm-damage-restoration",
-    "air-duct-cleaning",
+    "tile-grout-cleaning",
     "water-cleanup",
-    "carpet-cleaning",
-    "junk-debris-removal",
-    "tile-grout-cleaning"
+    "water-damage-restoration"
   ],
   "service_areas": [
     {

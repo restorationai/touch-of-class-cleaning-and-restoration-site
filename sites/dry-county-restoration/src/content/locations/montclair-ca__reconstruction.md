@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "4ec914018048617d"
-generated_at: "2026-09-29T23:24:34.735615+00:00"
+generated_at: "2026-09-30T14:12:09.761439+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/montclair-ca/", "/service-areas/montclair-ca/fire-damage-restoration/", "/service-areas/montclair-ca/mold-remediation/", "/service-areas/anaheim-ca/reconstruction/", "/service-areas/chino-ca/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Montclair", "url": "/service-areas/montclair-ca/"}, {"name": "Reconstruction Services"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "d1572537d9194797"
-generated_at: "2026-09-23T14:11:36.242005+00:00"
+generated_at: "2026-09-30T14:12:09.792470+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/pomona-ca/", "/service-areas/pomona-ca/fire-damage-restoration/", "/service-areas/pomona-ca/mold-remediation/", "/service-areas/anaheim-ca/water-leak-detection/", "/service-areas/chino-ca/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pomona", "url": "/service-areas/pomona-ca/"}, {"name": "Water Leak Detection"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "a907d7f95c19987b"
-generated_at: "2026-09-24T17:23:44.552330+00:00"
+generated_at: "2026-09-30T14:12:19.430977+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/castle-shannon-pa/", "/service-areas/castle-shannon-pa/fire-damage-restoration/", "/service-areas/castle-shannon-pa/roofing/", "/service-areas/allison-park-pa/asbestos-abatement/", "/service-areas/baldwin-pa/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Castle Shannon", "url": "/service-areas/castle-shannon-pa/"}, {"name": "Asbestos Abatement"}]

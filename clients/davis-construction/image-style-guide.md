@@ -69,7 +69,7 @@ Per-client brand colors take priority. The values below are substituted from `pl
 
 | Role | Source | Value for this client |
 |------|--------|----------------------|
-| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#0d1b3e` | **#0d1b3e** |
+| Primary brand color (uniforms, vehicle, signage glimpsed in shots) | `#dc2626` | **#dc2626** |
 | Accent (jobsite signage, CTAs that appear in promo shots) | `#f97316` | **#f97316** |
 | Logo color (if a crew member's shirt back is visible) | derived from brand logo | match Davis Construction Contractors's logo |
 | Materials / texture | natural and neutral | warm lumber tones, cool concrete grays, real drywall whites, natural stone and tile textures |
@@ -98,7 +98,7 @@ Per-client brand colors take priority. The values below are substituted from `pl
 Every image that depicts a person must show a crew member in branded company workwear. This is non-negotiable for visual consistency and trust signaling.
 
 ### Uniform specifications
-- **Top**: Work shirt or polo in the client's primary brand color (`#0d1b3e`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal work shirt with the brand color visible as logo embroidery, accent stripe, or branded hat.
+- **Top**: Work shirt or polo in the client's primary brand color (`#dc2626`). For darker brand colors (navy, deep red, charcoal), use that color directly. For lighter brand colors, render as a darker navy or charcoal work shirt with the brand color visible as logo embroidery, accent stripe, or branded hat.
 - **Bottom**: Neutral work pants (charcoal, dark navy, or khaki). Subordinate to the top.
 - **Branding**: Davis Construction Contractors or Davis Construction Contractors embroidered on chest or back.
 - **PPE**: Hard hat on active framing/roofing/demolition scenes, safety glasses when cutting, gloves for material handling, ear protection near loud tools. Finish-work scenes (painting, trim, cabinet install) can be hard-hat-free.
@@ -185,7 +185,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] roofing
 - [ ] decks-pergolas-fences
 - [ ] new-construction
-- [ ] (continue for each of Decks, Pergolas and Fences, Fire and Smoke Damage Rebuilding, Home Remodeling, Mold Remediation, New Home Construction, Painting and Trim, Roofing Installation and Replacement, Siding and Gutters, Storm Damage Restoration, Water Damage Restoration, Window and Door Installation)
+- [ ] (continue for each of Basement Sewage Cleanup, Carpet & Upholstery Cleaning, Decks, Pergolas and Fences, Fire and Smoke Damage Rebuilding, Home Remodeling, Mold Remediation, New Home Construction, Painting and Trim, Post-Construction & Specialty Cleaning, Roofing Installation and Replacement, Siding and Gutters, Storm Damage Restoration, Water Damage Restoration, Window and Door Installation)
 
 ### Service area pages (one image per city served)
 - [ ] Madison hero — exterior shot, regional housing stock, evocative of the city

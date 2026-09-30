@@ -8,7 +8,7 @@ secondary_keywords: ["grout cleaning", "tile cleaning", "grout sealing", "grout 
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "723e133a44b158fb"
-generated_at: "2026-09-23T14:11:49.772048+00:00"
+generated_at: "2026-09-30T14:12:14.633005+00:00"
 manual_override: false
 internal_links: ["/services/tile-grout-cleaning/", "/service-areas/cedar-fort-ut/", "/service-areas/cedar-fort-ut/fire-damage-restoration/", "/service-areas/cedar-fort-ut/mold-remediation/", "/service-areas/alpine-ut/tile-grout-cleaning/", "/service-areas/american-fork-ut/tile-grout-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Cedar Fort", "url": "/service-areas/cedar-fort-ut/"}, {"name": "Tile & Grout Cleaning"}]

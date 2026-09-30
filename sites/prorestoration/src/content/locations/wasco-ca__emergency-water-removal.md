@@ -8,7 +8,7 @@ secondary_keywords: ["emergency water removal", "emergency water damage", "24 ho
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "b3ec7085337edbc9"
-generated_at: "2026-09-26T17:45:52.539827+00:00"
+generated_at: "2026-09-30T14:12:22.975807+00:00"
 manual_override: false
 internal_links: ["/services/emergency-water-removal/", "/service-areas/wasco-ca/", "/service-areas/wasco-ca/fire-damage-restoration/", "/service-areas/wasco-ca/home-remodeling/", "/service-areas/arvin-ca/emergency-water-removal/", "/service-areas/bear-valley-springs-ca/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wasco", "url": "/service-areas/wasco-ca/"}, {"name": "emergency-water-removal"}]

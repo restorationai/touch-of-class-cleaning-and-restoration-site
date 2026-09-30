@@ -8,7 +8,7 @@ secondary_keywords: ["water cleanup", "water damage cleanup", "water clean up", 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "c345211d1a8e593c"
-generated_at: "2026-09-23T14:11:49.707930+00:00"
+generated_at: "2026-09-30T14:12:14.541637+00:00"
 manual_override: false
 internal_links: ["/services/water-cleanup/", "/service-areas/american-fork-ut/", "/service-areas/american-fork-ut/fire-damage-restoration/", "/service-areas/american-fork-ut/mold-remediation/", "/service-areas/alpine-ut/water-cleanup/", "/service-areas/benjamin-ut/water-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "American Fork", "url": "/service-areas/american-fork-ut/"}, {"name": "water-cleanup"}]

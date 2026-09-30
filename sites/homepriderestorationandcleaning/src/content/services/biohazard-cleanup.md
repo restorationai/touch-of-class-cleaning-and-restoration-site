@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 7.2
 plan_hash: "05c0fe8819c037b9"
-generated_at: "2026-09-23T14:11:49.693331+00:00"
+generated_at: "2026-09-30T14:12:14.520059+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/biohazard-cleanup/", "/service-areas/american-fork-ut/biohazard-cleanup/", "/service-areas/benjamin-ut/biohazard-cleanup/", "/service-areas/bluffdale-ut/biohazard-cleanup/", "/service-areas/cedar-fort-ut/biohazard-cleanup/", "/service-areas/cedar-hills-ut/biohazard-cleanup/", "/service-areas/draper-ut/biohazard-cleanup/", "/service-areas/eagle-mountain-ut/biohazard-cleanup/", "/service-areas/fairfield-ut/biohazard-cleanup/", "/service-areas/heber-city-ut/biohazard-cleanup/", "/service-areas/herriman-ut/biohazard-cleanup/", "/service-areas/highland-ut/biohazard-cleanup/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Biohazard Cleanup"}]

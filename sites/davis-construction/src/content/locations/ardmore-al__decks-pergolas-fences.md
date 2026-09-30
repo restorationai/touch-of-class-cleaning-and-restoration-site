@@ -8,7 +8,7 @@ secondary_keywords: ["deck builder", "deck installation", "pergola builder", "fe
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "cf8c86f86ba9c40f"
-generated_at: "2026-09-23T14:11:32.860900+00:00"
+generated_at: "2026-09-30T14:12:04.083848+00:00"
 manual_override: false
 internal_links: ["/services/decks-pergolas-fences/", "/service-areas/ardmore-al/", "/service-areas/ardmore-al/home-remodeling/", "/service-areas/ardmore-al/roofing/", "/service-areas/arab-al/decks-pergolas-fences/", "/service-areas/athens-al/decks-pergolas-fences/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ardmore", "url": "/service-areas/ardmore-al/"}, {"name": "Decks, Pergolas and Fences"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["custom home builder", "new home builder", "build a house",
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "8dcc74691e15a3d5"
-generated_at: "2026-09-23T14:11:32.862042+00:00"
+generated_at: "2026-09-30T14:12:04.084831+00:00"
 manual_override: false
 internal_links: ["/services/new-construction/", "/service-areas/ardmore-al/", "/service-areas/ardmore-al/home-remodeling/", "/service-areas/ardmore-al/roofing/", "/service-areas/arab-al/new-construction/", "/service-areas/athens-al/new-construction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ardmore", "url": "/service-areas/ardmore-al/"}, {"name": "New Home Construction"}]

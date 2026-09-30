@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "90941051a6040880"
-generated_at: "2026-09-24T17:23:44.561175+00:00"
+generated_at: "2026-09-30T14:12:19.452633+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/wilkinsburg-pa/", "/service-areas/wilkinsburg-pa/roofing/", "/service-areas/wilkinsburg-pa/sewage-cleanup/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/service-areas/baldwin-pa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wilkinsburg", "url": "/service-areas/wilkinsburg-pa/"}, {"name": "Fire Damage Restoration"}]

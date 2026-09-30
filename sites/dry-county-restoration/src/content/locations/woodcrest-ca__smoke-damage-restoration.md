@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "856a45b16b38b21b"
-generated_at: "2026-09-29T23:24:34.724830+00:00"
+generated_at: "2026-09-30T14:12:09.734253+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/woodcrest-ca/", "/service-areas/woodcrest-ca/fire-damage-restoration/", "/service-areas/woodcrest-ca/mold-remediation/", "/service-areas/anaheim-ca/smoke-damage-restoration/", "/service-areas/chino-ca/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Woodcrest", "url": "/service-areas/woodcrest-ca/"}, {"name": "Smoke Damage Restoration"}]

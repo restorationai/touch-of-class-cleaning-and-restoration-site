@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "c55d25506ba998eb"
-generated_at: "2026-09-23T14:11:36.168718+00:00"
+generated_at: "2026-09-30T14:12:09.640363+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/ontario-ca/", "/service-areas/ontario-ca/fire-damage-restoration/", "/service-areas/ontario-ca/mold-remediation/", "/service-areas/anaheim-ca/roofing/", "/service-areas/chino-ca/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ontario", "url": "/service-areas/ontario-ca/"}, {"name": "Roofing Installation and Replacement"}]

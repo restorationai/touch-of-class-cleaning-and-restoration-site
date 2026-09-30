@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "1134a20ff510c401"
-generated_at: "2026-09-23T14:11:36.166751+00:00"
+generated_at: "2026-09-30T14:12:09.633459+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/santa-ana-ca/", "/service-areas/santa-ana-ca/fire-damage-restoration/", "/service-areas/santa-ana-ca/mold-remediation/", "/service-areas/anaheim-ca/roofing/", "/service-areas/chino-ca/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Santa Ana", "url": "/service-areas/santa-ana-ca/"}, {"name": "Roofing Installation and Replacement"}]

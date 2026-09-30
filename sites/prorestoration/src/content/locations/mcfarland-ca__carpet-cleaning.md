@@ -8,7 +8,7 @@ secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "ca
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "2d38f83fabc57289"
-generated_at: "2026-09-26T17:45:52.584013+00:00"
+generated_at: "2026-09-30T14:12:23.066137+00:00"
 manual_override: false
 internal_links: ["/services/carpet-cleaning/", "/service-areas/mcfarland-ca/", "/service-areas/mcfarland-ca/fire-damage-restoration/", "/service-areas/mcfarland-ca/home-remodeling/", "/service-areas/arvin-ca/carpet-cleaning/", "/service-areas/bear-valley-springs-ca/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McFarland", "url": "/service-areas/mcfarland-ca/"}, {"name": "Carpet Cleaning"}]

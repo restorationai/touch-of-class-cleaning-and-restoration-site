@@ -7,10 +7,10 @@ primary_keyword: "sewage cleanup and sanitization jefferson hills"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "a6b08c19b7681c66"
-generated_at: "2026-09-25T14:14:32.699006+00:00"
+plan_hash: "9cc674e7eb72dddf"
+generated_at: "2026-09-30T14:12:19.477991+00:00"
 manual_override: false
-internal_links: ["/services/sewage-cleanup/", "/service-areas/jefferson-hills-pa/", "/service-areas/jefferson-hills-pa/fire-damage-restoration/", "/service-areas/jefferson-hills-pa/mold-remediation/", "/service-areas/allison-park-pa/sewage-cleanup/", "/service-areas/baldwin-pa/sewage-cleanup/", "/contact/"]
+internal_links: ["/services/sewage-cleanup/", "/service-areas/jefferson-hills-pa/", "/service-areas/jefferson-hills-pa/fire-damage-restoration/", "/service-areas/jefferson-hills-pa/roofing/", "/service-areas/allison-park-pa/sewage-cleanup/", "/service-areas/baldwin-pa/sewage-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Jefferson Hills", "url": "/service-areas/jefferson-hills-pa/"}, {"name": "Sewage Cleanup and Sanitization"}]
 faq: []
 area_slug: "jefferson-hills-pa"

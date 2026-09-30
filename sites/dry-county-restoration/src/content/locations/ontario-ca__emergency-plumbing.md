@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "2457e2982dd5de62"
-generated_at: "2026-09-23T14:11:36.168076+00:00"
+generated_at: "2026-09-30T14:12:09.637643+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/ontario-ca/", "/service-areas/ontario-ca/fire-damage-restoration/", "/service-areas/ontario-ca/mold-remediation/", "/service-areas/anaheim-ca/emergency-plumbing/", "/service-areas/chino-ca/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ontario", "url": "/service-areas/ontario-ca/"}, {"name": "Emergency Plumbing"}]

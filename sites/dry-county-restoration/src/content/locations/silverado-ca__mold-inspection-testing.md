@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "600d83f05e5b1a29"
-generated_at: "2026-09-29T23:24:34.711924+00:00"
+generated_at: "2026-09-30T14:12:09.685266+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/silverado-ca/", "/service-areas/silverado-ca/fire-damage-restoration/", "/service-areas/silverado-ca/mold-remediation/", "/service-areas/anaheim-ca/mold-inspection-testing/", "/service-areas/chino-ca/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Silverado", "url": "/service-areas/silverado-ca/"}, {"name": "Mold Inspection and Testing"}]

@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "9899a3689f811fb6"
-generated_at: "2026-09-26T17:45:52.543240+00:00"
+generated_at: "2026-09-30T14:12:22.984710+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/tehachapi-ca/", "/service-areas/tehachapi-ca/fire-damage-restoration/", "/service-areas/tehachapi-ca/home-remodeling/", "/service-areas/arvin-ca/crawl-space-encapsulation/", "/service-areas/bear-valley-springs-ca/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tehachapi", "url": "/service-areas/tehachapi-ca/"}, {"name": "Crawl Space Encapsulation"}]

@@ -7,10 +7,10 @@ primary_keyword: "asbestos abatement jefferson hills"
 secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediation", "popcorn ceiling asbestos removal", "asbestos inspection"]
 search_intent: "local_specialty"
 priority: 4.2
-plan_hash: "adb6c3f22e7639de"
-generated_at: "2026-09-25T14:14:32.699242+00:00"
+plan_hash: "6d34691b90b462e4"
+generated_at: "2026-09-30T14:12:19.475087+00:00"
 manual_override: false
-internal_links: ["/services/asbestos-abatement/", "/service-areas/jefferson-hills-pa/", "/service-areas/jefferson-hills-pa/fire-damage-restoration/", "/service-areas/jefferson-hills-pa/mold-remediation/", "/service-areas/allison-park-pa/asbestos-abatement/", "/service-areas/baldwin-pa/asbestos-abatement/", "/contact/"]
+internal_links: ["/services/asbestos-abatement/", "/service-areas/jefferson-hills-pa/", "/service-areas/jefferson-hills-pa/fire-damage-restoration/", "/service-areas/jefferson-hills-pa/roofing/", "/service-areas/allison-park-pa/asbestos-abatement/", "/service-areas/baldwin-pa/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Jefferson Hills", "url": "/service-areas/jefferson-hills-pa/"}, {"name": "Asbestos Abatement"}]
 faq: []
 area_slug: "jefferson-hills-pa"

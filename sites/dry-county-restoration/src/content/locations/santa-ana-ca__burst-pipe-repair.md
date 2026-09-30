@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "91a93b0456366a80"
-generated_at: "2026-09-29T23:24:34.689875+00:00"
+generated_at: "2026-09-30T14:12:09.629151+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/santa-ana-ca/", "/service-areas/santa-ana-ca/fire-damage-restoration/", "/service-areas/santa-ana-ca/mold-remediation/", "/service-areas/anaheim-ca/burst-pipe-repair/", "/service-areas/chino-ca/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Santa Ana", "url": "/service-areas/santa-ana-ca/"}, {"name": "Burst Pipe Cleanup and Repair"}]

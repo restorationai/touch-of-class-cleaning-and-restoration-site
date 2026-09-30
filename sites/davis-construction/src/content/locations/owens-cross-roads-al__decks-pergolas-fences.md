@@ -8,7 +8,7 @@ secondary_keywords: ["deck builder", "deck installation", "pergola builder", "fe
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "e1e48acb8ad32581"
-generated_at: "2026-09-23T14:11:32.851089+00:00"
+generated_at: "2026-09-30T14:12:04.073957+00:00"
 manual_override: false
 internal_links: ["/services/decks-pergolas-fences/", "/service-areas/owens-cross-roads-al/", "/service-areas/owens-cross-roads-al/home-remodeling/", "/service-areas/owens-cross-roads-al/roofing/", "/service-areas/arab-al/decks-pergolas-fences/", "/service-areas/ardmore-al/decks-pergolas-fences/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Owens Cross Roads", "url": "/service-areas/owens-cross-roads-al/"}, {"name": "Decks, Pergolas and Fences"}]

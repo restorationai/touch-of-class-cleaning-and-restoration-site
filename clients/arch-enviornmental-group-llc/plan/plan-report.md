@@ -1,20 +1,20 @@
 # Site Plan Report — Arch Enviornmental Group LLC
 
 - Template: `environmental` v0.1.0
-- Generated: 2026-09-29T22:13:11.889540+00:00
+- Generated: 2026-09-30T14:19:31.885501+00:00
 - Domain: `archenviroservice.com`
 - Services selected: 16 of 16 catalog entries
-- Service areas: 21
+- Service areas: 22
 - Cross-product enabled: True
-- Total URLs: **373**
-- Total internal links: 3020 (avg 8.1 per page)
+- Total URLs: **390**
+- Total internal links: 3155 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 320 |
-| `service-area` | 20 |
+| `service-area-service` | 336 |
+| `service-area` | 21 |
 | `service-landing` | 16 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -67,6 +67,7 @@
 - `riverdale-ca` — Riverdale, CA
 - `ivanhoe-ca` — Ivanhoe, CA
 - `squaw-valley-ca` — Squaw Valley, CA
+- `centerville-ca` — Centerville, CA
 
 ## Top 10 priority pages
 
@@ -81,7 +82,7 @@
 | `/services/water-quality-testing/` | `service-landing` | 7.2 | water quality testing kingsburg |
 | `/service-areas/bakersfield-ca/indoor-air-quality-testing/` | `service-area-service` | 7.0 | indoor air quality testing bakersfield |
 | `/service-areas/bakersfield-ca/mold-inspection-testing/` | `service-area-service` | 7.0 | mold inspection and testing bakersfield |
-| `/service-areas/clovis-ca/indoor-air-quality-testing/` | `service-area-service` | 7.0 | indoor air quality testing clovis |
+| `/service-areas/centerville-ca/indoor-air-quality-testing/` | `service-area-service` | 7.0 | indoor air quality testing centerville |
 
 ## Validation
 

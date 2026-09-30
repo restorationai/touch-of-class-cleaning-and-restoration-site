@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 7.2
 plan_hash: "6f939f6b9ffeaf13"
-generated_at: "2026-09-26T17:45:52.522240+00:00"
+generated_at: "2026-09-30T14:12:22.937000+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/arvin-ca/ceiling-water-damage-repair/", "/service-areas/bear-valley-springs-ca/ceiling-water-damage-repair/", "/service-areas/buttonwillow-ca/ceiling-water-damage-repair/", "/service-areas/delano-ca/ceiling-water-damage-repair/", "/service-areas/dustin-acres-ca/ceiling-water-damage-repair/", "/service-areas/east-niles-ca/ceiling-water-damage-repair/", "/service-areas/keene-ca/ceiling-water-damage-repair/", "/service-areas/lake-isabella-ca/ceiling-water-damage-repair/", "/service-areas/lamont-ca/ceiling-water-damage-repair/", "/service-areas/maricopa-ca/ceiling-water-damage-repair/", "/service-areas/mcfarland-ca/ceiling-water-damage-repair/", "/service-areas/oildale-ca/ceiling-water-damage-repair/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "ceiling-water-damage-repair"}]

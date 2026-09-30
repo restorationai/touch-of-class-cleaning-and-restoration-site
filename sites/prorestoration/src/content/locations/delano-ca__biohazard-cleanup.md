@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "1f888900122a5ea6"
-generated_at: "2026-09-26T17:45:52.531918+00:00"
+generated_at: "2026-09-30T14:12:22.956466+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/delano-ca/", "/service-areas/delano-ca/fire-damage-restoration/", "/service-areas/delano-ca/home-remodeling/", "/service-areas/arvin-ca/biohazard-cleanup/", "/service-areas/bear-valley-springs-ca/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Delano", "url": "/service-areas/delano-ca/"}, {"name": "Biohazard Cleanup"}]

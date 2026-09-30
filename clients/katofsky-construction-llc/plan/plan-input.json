@@ -28,17 +28,19 @@
     ]
   },
   "services": [
+    "air-duct-cleaning",
+    "air-duct-hvac-cleaning",
+    "asbestos-abatement",
+    "biohazard-cleanup",
+    "carpet-cleaning",
+    "carpet-upholstery-cleaning",
+    "contents-restoration-storage",
+    "emergency-board-up-tarping",
     "fire-damage-restoration",
     "general-contracting",
+    "lead-paint-abatement",
     "roofing",
     "sewage-cleanup",
-    "biohazard-cleanup",
-    "asbestos-abatement",
-    "lead-paint-abatement",
-    "emergency-board-up-tarping",
-    "contents-restoration-storage",
-    "air-duct-cleaning",
-    "carpet-cleaning",
     "upholstery-cleaning"
   ],
   "service_areas": [
@@ -220,5 +222,25 @@
     }
   ],
   "template": "restoration",
-  "blog_seed_count": 8
+  "blog_seed_count": 8,
+  "excluded_services": [
+    "basement-flooding-cleanup",
+    "burst-pipe-repair",
+    "ceiling-water-damage-repair",
+    "commercial-restoration",
+    "emergency-plumbing",
+    "emergency-water-removal",
+    "flood-damage-restoration",
+    "industrial-restoration",
+    "large-loss-response",
+    "mold-inspection-testing",
+    "mold-remediation",
+    "reconstruction",
+    "smoke-damage-restoration",
+    "storm-damage-restoration",
+    "water-cleanup",
+    "water-damage-restoration",
+    "water-heater-flood-cleanup",
+    "water-leak-detection"
+  ]
 }

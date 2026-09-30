@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "ac783755d8ddca0c"
-generated_at: "2026-09-26T17:45:52.551096+00:00"
+generated_at: "2026-09-30T14:12:23.004496+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/lake-isabella-ca/", "/service-areas/lake-isabella-ca/fire-damage-restoration/", "/service-areas/lake-isabella-ca/home-remodeling/", "/service-areas/arvin-ca/biohazard-cleanup/", "/service-areas/bear-valley-springs-ca/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Isabella", "url": "/service-areas/lake-isabella-ca/"}, {"name": "Biohazard Cleanup"}]

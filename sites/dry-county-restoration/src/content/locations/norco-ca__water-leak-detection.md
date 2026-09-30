@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "e3f723a71d30f803"
-generated_at: "2026-09-23T14:11:36.173163+00:00"
+generated_at: "2026-09-30T14:12:09.655337+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/norco-ca/", "/service-areas/norco-ca/fire-damage-restoration/", "/service-areas/norco-ca/mold-remediation/", "/service-areas/anaheim-ca/water-leak-detection/", "/service-areas/chino-ca/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Norco", "url": "/service-areas/norco-ca/"}, {"name": "Water Leak Detection"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic over
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "51dbd2d5ac33b54f"
-generated_at: "2026-09-24T17:23:44.551822+00:00"
+generated_at: "2026-09-30T14:12:19.433971+00:00"
 manual_override: false
 internal_links: ["/services/sewage-cleanup/", "/service-areas/castle-shannon-pa/", "/service-areas/castle-shannon-pa/fire-damage-restoration/", "/service-areas/castle-shannon-pa/roofing/", "/service-areas/allison-park-pa/sewage-cleanup/", "/service-areas/baldwin-pa/sewage-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Castle Shannon", "url": "/service-areas/castle-shannon-pa/"}, {"name": "Sewage Cleanup and Sanitization"}]

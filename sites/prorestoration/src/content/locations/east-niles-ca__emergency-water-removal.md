@@ -8,7 +8,7 @@ secondary_keywords: ["emergency water removal", "emergency water damage", "24 ho
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "343ad8d2a24a377c"
-generated_at: "2026-09-26T17:45:52.559497+00:00"
+generated_at: "2026-09-30T14:12:23.020593+00:00"
 manual_override: false
 internal_links: ["/services/emergency-water-removal/", "/service-areas/east-niles-ca/", "/service-areas/east-niles-ca/fire-damage-restoration/", "/service-areas/east-niles-ca/home-remodeling/", "/service-areas/arvin-ca/emergency-water-removal/", "/service-areas/bear-valley-springs-ca/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "East Niles", "url": "/service-areas/east-niles-ca/"}, {"name": "emergency-water-removal"}]

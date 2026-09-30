@@ -8,7 +8,7 @@ secondary_keywords: ["hoarder cleanup", "hoarding cleaning services", "hoarding 
 search_intent: "local_sensitive"
 priority: 4.2
 plan_hash: "46e6dfb98797c939"
-generated_at: "2026-09-23T14:11:49.761277+00:00"
+generated_at: "2026-09-30T14:12:14.620665+00:00"
 manual_override: false
 internal_links: ["/services/hoarding-cleanup/", "/service-areas/cedar-hills-ut/", "/service-areas/cedar-hills-ut/fire-damage-restoration/", "/service-areas/cedar-hills-ut/mold-remediation/", "/service-areas/alpine-ut/hoarding-cleanup/", "/service-areas/american-fork-ut/hoarding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Cedar Hills", "url": "/service-areas/cedar-hills-ut/"}, {"name": "Hoarding Cleanup"}]

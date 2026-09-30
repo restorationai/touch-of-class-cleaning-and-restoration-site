@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "c8a3e0f9c272e732"
-generated_at: "2026-09-29T23:24:34.746799+00:00"
+generated_at: "2026-09-30T14:12:09.789188+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/pomona-ca/", "/service-areas/pomona-ca/fire-damage-restoration/", "/service-areas/pomona-ca/mold-remediation/", "/service-areas/anaheim-ca/mold-inspection-testing/", "/service-areas/chino-ca/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pomona", "url": "/service-areas/pomona-ca/"}, {"name": "Mold Inspection and Testing"}]

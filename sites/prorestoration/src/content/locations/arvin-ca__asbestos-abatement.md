@@ -8,7 +8,7 @@ secondary_keywords: ["asbestos removal", "asbestos testing", "asbestos remediati
 search_intent: "local_specialty"
 priority: 4.2
 plan_hash: "05db2b8a155fd444"
-generated_at: "2026-09-26T17:45:52.545507+00:00"
+generated_at: "2026-09-30T14:12:22.990549+00:00"
 manual_override: false
 internal_links: ["/services/asbestos-abatement/", "/service-areas/arvin-ca/", "/service-areas/arvin-ca/fire-damage-restoration/", "/service-areas/arvin-ca/home-remodeling/", "/service-areas/bear-valley-springs-ca/asbestos-abatement/", "/service-areas/buttonwillow-ca/asbestos-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Arvin", "url": "/service-areas/arvin-ca/"}, {"name": "Asbestos Abatement"}]

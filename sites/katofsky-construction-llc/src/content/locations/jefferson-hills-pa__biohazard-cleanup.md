@@ -7,10 +7,10 @@ primary_keyword: "biohazard cleanup jefferson hills"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
 priority: 5.6
-plan_hash: "23729ae53e1faa3f"
-generated_at: "2026-09-25T14:14:32.699120+00:00"
+plan_hash: "a1f21d28c2f8949f"
+generated_at: "2026-09-30T14:12:19.475389+00:00"
 manual_override: false
-internal_links: ["/services/biohazard-cleanup/", "/service-areas/jefferson-hills-pa/", "/service-areas/jefferson-hills-pa/fire-damage-restoration/", "/service-areas/jefferson-hills-pa/mold-remediation/", "/service-areas/allison-park-pa/biohazard-cleanup/", "/service-areas/baldwin-pa/biohazard-cleanup/", "/contact/"]
+internal_links: ["/services/biohazard-cleanup/", "/service-areas/jefferson-hills-pa/", "/service-areas/jefferson-hills-pa/fire-damage-restoration/", "/service-areas/jefferson-hills-pa/roofing/", "/service-areas/allison-park-pa/biohazard-cleanup/", "/service-areas/baldwin-pa/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Jefferson Hills", "url": "/service-areas/jefferson-hills-pa/"}, {"name": "Biohazard Cleanup"}]
 faq: []
 area_slug: "jefferson-hills-pa"

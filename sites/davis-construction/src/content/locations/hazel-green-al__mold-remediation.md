@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "mold remediation contractor", "mold repair
 search_intent: "local_health"
 priority: 4.9
 plan_hash: "a4ddd20c0b73d50c"
-generated_at: "2026-09-23T14:11:32.837564+00:00"
+generated_at: "2026-09-30T14:12:04.062877+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/hazel-green-al/", "/service-areas/hazel-green-al/home-remodeling/", "/service-areas/hazel-green-al/roofing/", "/service-areas/arab-al/mold-remediation/", "/service-areas/ardmore-al/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hazel Green", "url": "/service-areas/hazel-green-al/"}, {"name": "Mold Remediation"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "3dca19bb8dc49c04"
-generated_at: "2026-09-29T23:24:34.687418+00:00"
+generated_at: "2026-09-30T14:12:09.623065+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/anaheim-ca/", "/service-areas/anaheim-ca/fire-damage-restoration/", "/service-areas/anaheim-ca/mold-remediation/", "/service-areas/chino-ca/commercial-restoration/", "/service-areas/chino-hills-ca/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Anaheim", "url": "/service-areas/anaheim-ca/"}, {"name": "Commercial Restoration"}]

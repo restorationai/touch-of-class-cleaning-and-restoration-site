@@ -269,6 +269,11 @@
       "city": "Stallion Springs",
       "state": "CA",
       "slug": "stallion-springs-ca"
+    },
+    {
+      "city": "East Niles",
+      "state": "CA",
+      "slug": "east-niles-ca"
     }
   ],
   "brand": {

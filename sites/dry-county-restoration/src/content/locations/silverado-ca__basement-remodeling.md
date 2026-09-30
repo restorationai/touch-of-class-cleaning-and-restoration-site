@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "8f0940cbed054e6b"
-generated_at: "2026-09-29T23:24:34.710510+00:00"
+generated_at: "2026-09-30T14:12:09.680577+00:00"
 manual_override: false
 internal_links: ["/services/basement-remodeling/", "/service-areas/silverado-ca/", "/service-areas/silverado-ca/fire-damage-restoration/", "/service-areas/silverado-ca/mold-remediation/", "/service-areas/anaheim-ca/basement-remodeling/", "/service-areas/chino-ca/basement-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Silverado", "url": "/service-areas/silverado-ca/"}, {"name": "Basement Remodeling"}]

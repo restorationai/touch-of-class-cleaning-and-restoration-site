@@ -7,10 +7,10 @@ primary_keyword: "biohazard cleanup sewickley hills"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"
 priority: 5.6
-plan_hash: "56341693d4c9bfcd"
-generated_at: "2026-09-25T16:20:23.689691+00:00"
+plan_hash: "806777e9e088a727"
+generated_at: "2026-09-30T14:12:19.479390+00:00"
 manual_override: false
-internal_links: ["/services/biohazard-cleanup/", "/service-areas/sewickley-hills-pa/", "/service-areas/sewickley-hills-pa/fire-damage-restoration/", "/service-areas/sewickley-hills-pa/mold-remediation/", "/service-areas/allison-park-pa/biohazard-cleanup/", "/service-areas/baldwin-pa/biohazard-cleanup/", "/contact/"]
+internal_links: ["/services/biohazard-cleanup/", "/service-areas/sewickley-hills-pa/", "/service-areas/sewickley-hills-pa/fire-damage-restoration/", "/service-areas/sewickley-hills-pa/roofing/", "/service-areas/allison-park-pa/biohazard-cleanup/", "/service-areas/baldwin-pa/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sewickley Hills", "url": "/service-areas/sewickley-hills-pa/"}, {"name": "Biohazard Cleanup"}]
 faq: []
 area_slug: "sewickley-hills-pa"

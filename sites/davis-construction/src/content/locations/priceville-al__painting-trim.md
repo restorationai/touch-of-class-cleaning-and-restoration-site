@@ -8,7 +8,7 @@ secondary_keywords: ["painting contractor", "interior painting", "exterior paint
 search_intent: "local_commercial"
 priority: 4.9
 plan_hash: "84f045a8dfdd9123"
-generated_at: "2026-09-23T14:11:32.865613+00:00"
+generated_at: "2026-09-30T14:12:04.088469+00:00"
 manual_override: false
 internal_links: ["/services/painting-trim/", "/service-areas/priceville-al/", "/service-areas/priceville-al/home-remodeling/", "/service-areas/priceville-al/roofing/", "/service-areas/arab-al/painting-trim/", "/service-areas/ardmore-al/painting-trim/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Priceville", "url": "/service-areas/priceville-al/"}, {"name": "Painting and Trim"}]

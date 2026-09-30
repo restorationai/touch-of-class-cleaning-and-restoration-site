@@ -1,0 +1,21 @@
+---
+archetype: "service-landing"
+title: "Fire Damage Restoration in Midland | ACS Enterprise "
+h1: "Fire Damage Restoration in Midland"
+meta_description: "Fire damage restoration in Midland and surrounding areas. Insurance billing accepted. Call (432) 847-4704."
+primary_keyword: "fire damage restoration midland"
+secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
+search_intent: "local_emergency"
+priority: 9.0
+plan_hash: "e664cbc3cab4dde6"
+generated_at: "2026-09-30T14:12:02.619999+00:00"
+manual_override: false
+internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/fire-damage-restoration/", "/service-areas/big-lake-tx/fire-damage-restoration/", "/service-areas/big-spring-tx/fire-damage-restoration/", "/service-areas/crane-tx/fire-damage-restoration/", "/service-areas/garden-city-tx/fire-damage-restoration/", "/service-areas/gardendale-tx/fire-damage-restoration/", "/service-areas/goldsmith-tx/fire-damage-restoration/", "/service-areas/greenwood-tx/fire-damage-restoration/", "/service-areas/imperial-tx/fire-damage-restoration/", "/service-areas/mccamey-tx/fire-damage-restoration/", "/service-areas/monahans-tx/fire-damage-restoration/", "/service-areas/odessa-tx/fire-damage-restoration/", "/blog/choosing-a-restoration-company/", "/blog/fire-damage-restoration-process/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "fire-damage-restoration"}]
+faq: []
+service_slug: "fire-damage-restoration"
+service_display: "fire-damage-restoration"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug aldredo-moreno` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Fire Damage Restoration in Midland.

@@ -8,7 +8,7 @@ secondary_keywords: ["water damage repair", "water damage rebuild", "drywall wat
 search_intent: "local_commercial"
 priority: 4.9
 plan_hash: "668d2ba64bb3e5ff"
-generated_at: "2026-09-23T14:11:32.860368+00:00"
+generated_at: "2026-09-30T14:12:04.082980+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/new-hope-al/", "/service-areas/new-hope-al/home-remodeling/", "/service-areas/new-hope-al/roofing/", "/service-areas/arab-al/water-damage-restoration/", "/service-areas/ardmore-al/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "New Hope", "url": "/service-areas/new-hope-al/"}, {"name": "Water Damage Restoration"}]

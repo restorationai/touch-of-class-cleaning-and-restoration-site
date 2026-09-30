@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "210b29a5733f99b9"
-generated_at: "2026-09-26T17:45:52.594466+00:00"
+generated_at: "2026-09-30T14:12:23.083552+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/valley-acres-ca/", "/service-areas/valley-acres-ca/fire-damage-restoration/", "/service-areas/valley-acres-ca/home-remodeling/", "/service-areas/arvin-ca/commercial-restoration/", "/service-areas/bear-valley-springs-ca/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Valley Acres", "url": "/service-areas/valley-acres-ca/"}, {"name": "commercial-restoration"}]

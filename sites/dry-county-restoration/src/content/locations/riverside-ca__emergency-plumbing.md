@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "5d1fec034c79aa9e"
-generated_at: "2026-09-23T14:11:36.162105+00:00"
+generated_at: "2026-09-30T14:12:09.616593+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/riverside-ca/", "/service-areas/riverside-ca/fire-damage-restoration/", "/service-areas/riverside-ca/mold-remediation/", "/service-areas/anaheim-ca/emergency-plumbing/", "/service-areas/chino-ca/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Riverside", "url": "/service-areas/riverside-ca/"}, {"name": "Emergency Plumbing"}]

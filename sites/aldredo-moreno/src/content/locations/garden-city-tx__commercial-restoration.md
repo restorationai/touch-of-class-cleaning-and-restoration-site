@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Commercial Restoration in Garden City, TX | ACS Enterprise "
+h1: "Commercial Restoration in Garden City"
+meta_description: "Commercial restoration in Garden City, TX. Insurance billing accepted. Call (432) 847-4704."
+primary_keyword: "commercial restoration garden city"
+secondary_keywords: ["commercial water damage", "commercial fire damage", "business restoration", "office restoration", "retail restoration"]
+search_intent: "local_b2b"
+priority: 6.3
+plan_hash: "7768588aa52ffada"
+generated_at: "2026-09-30T14:12:02.648589+00:00"
+manual_override: false
+internal_links: ["/services/commercial-restoration/", "/service-areas/garden-city-tx/", "/service-areas/garden-city-tx/fire-damage-restoration/", "/service-areas/garden-city-tx/mold-remediation/", "/service-areas/andrews-tx/commercial-restoration/", "/service-areas/big-lake-tx/commercial-restoration/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Garden City", "url": "/service-areas/garden-city-tx/"}, {"name": "commercial-restoration"}]
+faq: []
+area_slug: "garden-city-tx"
+service_slug: "commercial-restoration"
+city: "Garden City"
+state: "TX"
+service_display: "commercial-restoration"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug aldredo-moreno` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Commercial Restoration in Garden City.

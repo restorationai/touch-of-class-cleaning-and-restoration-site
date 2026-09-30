@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "48ca64752116e76c"
-generated_at: "2026-09-29T23:24:34.727081+00:00"
+generated_at: "2026-09-30T14:12:09.741012+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/trabuco-canyon-ca/", "/service-areas/trabuco-canyon-ca/fire-damage-restoration/", "/service-areas/trabuco-canyon-ca/mold-remediation/", "/service-areas/anaheim-ca/industrial-restoration/", "/service-areas/chino-ca/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Trabuco Canyon", "url": "/service-areas/trabuco-canyon-ca/"}, {"name": "Industrial Restoration"}]

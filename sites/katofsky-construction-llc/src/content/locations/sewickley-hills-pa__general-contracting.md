@@ -7,10 +7,10 @@ primary_keyword: "renovations, remodels and general contracting sewickley hills"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "6559b6ddab11dd39"
-generated_at: "2026-09-25T16:20:23.689198+00:00"
+plan_hash: "d68b0d54e4bed0a6"
+generated_at: "2026-09-30T14:12:19.481128+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/sewickley-hills-pa/", "/service-areas/sewickley-hills-pa/fire-damage-restoration/", "/service-areas/sewickley-hills-pa/mold-remediation/", "/service-areas/allison-park-pa/general-contracting/", "/service-areas/baldwin-pa/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/sewickley-hills-pa/", "/service-areas/sewickley-hills-pa/fire-damage-restoration/", "/service-areas/sewickley-hills-pa/roofing/", "/service-areas/allison-park-pa/general-contracting/", "/service-areas/baldwin-pa/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sewickley Hills", "url": "/service-areas/sewickley-hills-pa/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "sewickley-hills-pa"

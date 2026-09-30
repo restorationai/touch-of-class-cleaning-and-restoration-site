@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "cb2d652b28e56225"
-generated_at: "2026-09-26T17:45:52.606083+00:00"
+generated_at: "2026-09-30T14:12:23.103920+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/bear-valley-springs-ca/", "/service-areas/bear-valley-springs-ca/fire-damage-restoration/", "/service-areas/bear-valley-springs-ca/home-remodeling/", "/service-areas/arvin-ca/water-leak-detection/", "/service-areas/buttonwillow-ca/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bear Valley Springs", "url": "/service-areas/bear-valley-springs-ca/"}, {"name": "Water Leak Detection"}]

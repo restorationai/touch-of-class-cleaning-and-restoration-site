@@ -12,6 +12,7 @@
   "template": "restoration",
   "services": [
     "air-duct-cleaning",
+    "air-duct-hvac-cleaning",
     "appliance-leak-cleanup",
     "asbestos-abatement",
     "biohazard-cleanup",

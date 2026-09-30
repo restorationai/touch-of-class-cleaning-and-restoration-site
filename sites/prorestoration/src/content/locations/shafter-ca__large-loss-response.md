@@ -8,7 +8,7 @@ secondary_keywords: ["large loss restoration", "catastrophic loss response", "co
 search_intent: "local_b2b"
 priority: 5.6
 plan_hash: "d8eba2c3c56a4e66"
-generated_at: "2026-09-26T17:45:52.536731+00:00"
+generated_at: "2026-09-30T14:12:22.967827+00:00"
 manual_override: false
 internal_links: ["/services/large-loss-response/", "/service-areas/shafter-ca/", "/service-areas/shafter-ca/fire-damage-restoration/", "/service-areas/shafter-ca/home-remodeling/", "/service-areas/arvin-ca/large-loss-response/", "/service-areas/bear-valley-springs-ca/large-loss-response/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Shafter", "url": "/service-areas/shafter-ca/"}, {"name": "large-loss-response"}]

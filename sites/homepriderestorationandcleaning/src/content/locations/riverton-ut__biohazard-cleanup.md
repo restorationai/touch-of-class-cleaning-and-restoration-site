@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "4523b4858de47e51"
-generated_at: "2026-09-23T14:11:49.721174+00:00"
+generated_at: "2026-09-30T14:12:14.567134+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/riverton-ut/", "/service-areas/riverton-ut/fire-damage-restoration/", "/service-areas/riverton-ut/mold-remediation/", "/service-areas/alpine-ut/biohazard-cleanup/", "/service-areas/american-fork-ut/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Riverton", "url": "/service-areas/riverton-ut/"}, {"name": "Biohazard Cleanup"}]

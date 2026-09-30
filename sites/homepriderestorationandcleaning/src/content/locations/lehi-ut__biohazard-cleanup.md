@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "b79e74a8c1ce9568"
-generated_at: "2026-09-23T14:11:49.700707+00:00"
+generated_at: "2026-09-30T14:12:14.529282+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/lehi-ut/", "/service-areas/lehi-ut/fire-damage-restoration/", "/service-areas/lehi-ut/mold-remediation/", "/service-areas/alpine-ut/biohazard-cleanup/", "/service-areas/american-fork-ut/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lehi", "url": "/service-areas/lehi-ut/"}, {"name": "Biohazard Cleanup"}]

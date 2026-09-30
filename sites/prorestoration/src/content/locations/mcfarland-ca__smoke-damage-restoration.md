@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "ed466815e4c9c5ca"
-generated_at: "2026-09-26T17:45:52.587141+00:00"
+generated_at: "2026-09-30T14:12:23.071033+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/mcfarland-ca/", "/service-areas/mcfarland-ca/fire-damage-restoration/", "/service-areas/mcfarland-ca/home-remodeling/", "/service-areas/arvin-ca/smoke-damage-restoration/", "/service-areas/bear-valley-springs-ca/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McFarland", "url": "/service-areas/mcfarland-ca/"}, {"name": "Smoke Damage Restoration"}]

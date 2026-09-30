@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration jefferson hills"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "6cfc7ead0f592c4f"
-generated_at: "2026-09-25T14:14:32.698663+00:00"
+plan_hash: "ebff3a46d6a1e98c"
+generated_at: "2026-09-30T14:12:19.476763+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/jefferson-hills-pa/", "/service-areas/jefferson-hills-pa/mold-remediation/", "/service-areas/jefferson-hills-pa/roofing/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/service-areas/baldwin-pa/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/jefferson-hills-pa/", "/service-areas/jefferson-hills-pa/roofing/", "/service-areas/jefferson-hills-pa/sewage-cleanup/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/service-areas/baldwin-pa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Jefferson Hills", "url": "/service-areas/jefferson-hills-pa/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "jefferson-hills-pa"

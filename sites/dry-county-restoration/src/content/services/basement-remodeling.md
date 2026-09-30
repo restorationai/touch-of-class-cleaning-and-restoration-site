@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 4.5
 plan_hash: "13ec93c5c600cf99"
-generated_at: "2026-09-29T23:24:34.680391+00:00"
+generated_at: "2026-09-30T14:12:09.602767+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/basement-remodeling/", "/service-areas/chino-ca/basement-remodeling/", "/service-areas/chino-hills-ca/basement-remodeling/", "/service-areas/eastvale-ca/basement-remodeling/", "/service-areas/fontana-ca/basement-remodeling/", "/service-areas/fullerton-ca/basement-remodeling/", "/service-areas/jurupa-valley-ca/basement-remodeling/", "/service-areas/lake-mathews-ca/basement-remodeling/", "/service-areas/montclair-ca/basement-remodeling/", "/service-areas/norco-ca/basement-remodeling/", "/service-areas/north-tustin-ca/basement-remodeling/", "/service-areas/ontario-ca/basement-remodeling/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Basement Remodeling"}]

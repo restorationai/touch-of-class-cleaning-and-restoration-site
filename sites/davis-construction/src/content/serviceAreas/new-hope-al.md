@@ -7,10 +7,10 @@ primary_keyword: "construction services new hope"
 secondary_keywords: ["new hope construction company", "general contractor new hope", "new hope remodeling contractor"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "fecc7adee2bfb7f0"
-generated_at: "2026-09-23T14:11:32.822047+00:00"
+plan_hash: "7502660391d7a4f9"
+generated_at: "2026-09-30T14:12:04.047437+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/new-hope-al/home-remodeling/", "/service-areas/new-hope-al/roofing/", "/service-areas/new-hope-al/decks-pergolas-fences/", "/service-areas/new-hope-al/new-construction/", "/service-areas/new-hope-al/siding-gutters/", "/service-areas/new-hope-al/fire-smoke-rebuilding/", "/service-areas/new-hope-al/mold-remediation/", "/service-areas/new-hope-al/painting-trim/", "/service-areas/new-hope-al/storm-damage-restoration/", "/service-areas/new-hope-al/water-damage-restoration/", "/service-areas/new-hope-al/windows-doors/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/service-areas/athens-al/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/new-hope-al/home-remodeling/", "/service-areas/new-hope-al/roofing/", "/service-areas/new-hope-al/decks-pergolas-fences/", "/service-areas/new-hope-al/new-construction/", "/service-areas/new-hope-al/siding-gutters/", "/service-areas/new-hope-al/fire-smoke-rebuilding/", "/service-areas/new-hope-al/mold-remediation/", "/service-areas/new-hope-al/painting-trim/", "/service-areas/new-hope-al/storm-damage-restoration/", "/service-areas/new-hope-al/water-damage-restoration/", "/service-areas/new-hope-al/windows-doors/", "/service-areas/new-hope-al/basement-sewage-cleanup/", "/service-areas/new-hope-al/carpet-upholstery-cleaning/", "/service-areas/new-hope-al/post-construction-specialty-cleaning/", "/service-areas/arab-al/", "/service-areas/ardmore-al/", "/service-areas/athens-al/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "New Hope"}]
 faq: []
 area_slug: "new-hope-al"

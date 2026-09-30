@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "2c1a4b6b5bf13a95"
-generated_at: "2026-09-24T17:23:44.556471+00:00"
+generated_at: "2026-09-30T14:12:19.440086+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration-storage/", "/service-areas/munhall-pa/", "/service-areas/munhall-pa/fire-damage-restoration/", "/service-areas/munhall-pa/roofing/", "/service-areas/allison-park-pa/contents-restoration-storage/", "/service-areas/baldwin-pa/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Munhall", "url": "/service-areas/munhall-pa/"}, {"name": "Contents Restoration & Storage"}]

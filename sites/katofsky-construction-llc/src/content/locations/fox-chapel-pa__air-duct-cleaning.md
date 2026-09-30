@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "0852b72357aaff3c"
-generated_at: "2026-09-24T17:27:04.120455+00:00"
+generated_at: "2026-09-30T14:12:19.462620+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/fox-chapel-pa/", "/service-areas/fox-chapel-pa/fire-damage-restoration/", "/service-areas/fox-chapel-pa/roofing/", "/service-areas/allison-park-pa/air-duct-cleaning/", "/service-areas/baldwin-pa/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fox Chapel", "url": "/service-areas/fox-chapel-pa/"}, {"name": "Air Duct Cleaning"}]

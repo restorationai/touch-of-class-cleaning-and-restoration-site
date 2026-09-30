@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "ac6b3d9571f64666"
-generated_at: "2026-09-24T18:31:14.550905+00:00"
+generated_at: "2026-09-30T14:12:19.466647+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/churchill-pa/", "/service-areas/churchill-pa/fire-damage-restoration/", "/service-areas/churchill-pa/roofing/", "/service-areas/allison-park-pa/air-duct-cleaning/", "/service-areas/baldwin-pa/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Churchill", "url": "/service-areas/churchill-pa/"}, {"name": "Air Duct Cleaning"}]

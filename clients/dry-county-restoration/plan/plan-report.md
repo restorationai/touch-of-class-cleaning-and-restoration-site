@@ -1,20 +1,20 @@
 # Site Plan Report — Dry County Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-29T23:24:34.516750+00:00
+- Generated: 2026-09-30T14:12:07.464280+00:00
 - Domain: `drycountyrestoration.com`
-- Services selected: 30 of 76 catalog entries
+- Services selected: 32 of 91 catalog entries
 - Service areas: 22
 - Cross-product enabled: True
-- Total URLs: **698**
-- Total internal links: 5742 (avg 8.2 per page)
+- Total URLs: **742**
+- Total internal links: 6110 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 630 |
-| `service-landing` | 30 |
+| `service-area-service` | 672 |
+| `service-landing` | 32 |
 | `service-area` | 21 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -28,34 +28,36 @@
 ## Selected services
 
 - `air-duct-cleaning` — Air Duct Cleaning (adjacent, priority 5)
+- `air-duct-hvac-cleaning` — Air Duct & HVAC Cleaning (adjacent, priority 5)
+- `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
+- `basement-remodeling` — Basement Remodeling (adjacent, priority 5)
+- `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
 - `carpet-cleaning` — Carpet Cleaning (adjacent, priority 4)
+- `carpet-upholstery-cleaning` — Carpet & Upholstery Cleaning (adjacent, priority 5)
+- `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
+- `commercial-restoration` — Commercial Restoration (core, priority 9)
 - `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
 - `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
 - `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
 - `emergency-plumbing` — Emergency Plumbing (core, priority 9)
-- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
-- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
-- `mold-remediation` — Mold Remediation (core, priority 10)
-- `odor-removal` — Odor Removal and Deodorization (specialty, priority 7)
-- `post-construction-cleaning` — Post-Construction and Specialty Cleaning (supporting, priority 4)
-- `roofing` — Roofing Installation and Replacement (construction, priority 10)
-- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
-- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
-- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
-- `water-leak-detection` — Water Leak Detection (core, priority 7)
-- `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
-- `basement-remodeling` — Basement Remodeling (adjacent, priority 5)
-- `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
-- `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
-- `commercial-restoration` — Commercial Restoration (core, priority 9)
 - `emergency-water-removal` — 24/7 Emergency Water Removal (core, priority 9)
+- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
+- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
 - `industrial-restoration` — Industrial Restoration (core, priority 7)
 - `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
 - `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
+- `mold-remediation` — Mold Remediation (core, priority 10)
+- `odor-removal` — Odor Removal and Deodorization (specialty, priority 7)
+- `post-construction-cleaning` — Post-Construction and Specialty Cleaning (supporting, priority 4)
 - `reconstruction` — Reconstruction Services (core, priority 9)
+- `roofing` — Roofing Installation and Replacement (construction, priority 10)
+- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
+- `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
+- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
+- `water-leak-detection` — Water Leak Detection (core, priority 7)
 - `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 
 ## Service areas

@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "83b42c0dad60e49a"
-generated_at: "2026-09-26T17:45:52.569160+00:00"
+generated_at: "2026-09-30T14:12:23.038849+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/weedpatch-ca/", "/service-areas/weedpatch-ca/fire-damage-restoration/", "/service-areas/weedpatch-ca/home-remodeling/", "/service-areas/arvin-ca/roofing/", "/service-areas/bear-valley-springs-ca/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Weedpatch", "url": "/service-areas/weedpatch-ca/"}, {"name": "Roofing Installation and Replacement"}]

@@ -7,10 +7,10 @@ primary_keyword: "contents restoration & storage jefferson hills"
 secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
-plan_hash: "4160ba7ff1bf0e2b"
-generated_at: "2026-09-25T14:14:32.699599+00:00"
+plan_hash: "6d732f0d5bd4ba92"
+generated_at: "2026-09-30T14:12:19.476156+00:00"
 manual_override: false
-internal_links: ["/services/contents-restoration-storage/", "/service-areas/jefferson-hills-pa/", "/service-areas/jefferson-hills-pa/fire-damage-restoration/", "/service-areas/jefferson-hills-pa/mold-remediation/", "/service-areas/allison-park-pa/contents-restoration-storage/", "/service-areas/baldwin-pa/contents-restoration-storage/", "/contact/"]
+internal_links: ["/services/contents-restoration-storage/", "/service-areas/jefferson-hills-pa/", "/service-areas/jefferson-hills-pa/fire-damage-restoration/", "/service-areas/jefferson-hills-pa/roofing/", "/service-areas/allison-park-pa/contents-restoration-storage/", "/service-areas/baldwin-pa/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Jefferson Hills", "url": "/service-areas/jefferson-hills-pa/"}, {"name": "Contents Restoration & Storage"}]
 faq: []
 area_slug: "jefferson-hills-pa"

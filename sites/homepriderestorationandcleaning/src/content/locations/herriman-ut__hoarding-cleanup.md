@@ -8,7 +8,7 @@ secondary_keywords: ["hoarder cleanup", "hoarding cleaning services", "hoarding 
 search_intent: "local_sensitive"
 priority: 4.2
 plan_hash: "477a26607b002601"
-generated_at: "2026-09-23T14:11:49.716932+00:00"
+generated_at: "2026-09-30T14:12:14.558786+00:00"
 manual_override: false
 internal_links: ["/services/hoarding-cleanup/", "/service-areas/herriman-ut/", "/service-areas/herriman-ut/fire-damage-restoration/", "/service-areas/herriman-ut/mold-remediation/", "/service-areas/alpine-ut/hoarding-cleanup/", "/service-areas/american-fork-ut/hoarding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Herriman", "url": "/service-areas/herriman-ut/"}, {"name": "Hoarding Cleanup"}]

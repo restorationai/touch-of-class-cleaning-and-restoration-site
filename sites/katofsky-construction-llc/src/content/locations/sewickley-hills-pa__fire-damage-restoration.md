@@ -7,10 +7,10 @@ primary_keyword: "fire damage restoration sewickley hills"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"
 priority: 7.0
-plan_hash: "9580fd58bbfeaada"
-generated_at: "2026-09-25T16:20:23.688990+00:00"
+plan_hash: "b4bd53d3c94202d3"
+generated_at: "2026-09-30T14:12:19.480789+00:00"
 manual_override: false
-internal_links: ["/services/fire-damage-restoration/", "/service-areas/sewickley-hills-pa/", "/service-areas/sewickley-hills-pa/mold-remediation/", "/service-areas/sewickley-hills-pa/roofing/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/service-areas/baldwin-pa/fire-damage-restoration/", "/contact/"]
+internal_links: ["/services/fire-damage-restoration/", "/service-areas/sewickley-hills-pa/", "/service-areas/sewickley-hills-pa/roofing/", "/service-areas/sewickley-hills-pa/sewage-cleanup/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/service-areas/baldwin-pa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sewickley Hills", "url": "/service-areas/sewickley-hills-pa/"}, {"name": "Fire Damage Restoration"}]
 faq: []
 area_slug: "sewickley-hills-pa"

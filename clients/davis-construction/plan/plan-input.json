@@ -1,12 +1,15 @@
 {
   "template": "construction",
   "services": [
+    "basement-sewage-cleanup",
+    "carpet-upholstery-cleaning",
     "decks-pergolas-fences",
     "fire-smoke-rebuilding",
     "home-remodeling",
     "mold-remediation",
     "new-construction",
     "painting-trim",
+    "post-construction-specialty-cleaning",
     "roofing",
     "siding-gutters",
     "storm-damage-restoration",
@@ -193,7 +196,10 @@
     "ga4_measurement_id": "G-BRL1Q2KTGV",
     "clarity_project_id": "xdoje59wr1",
     "family_owned": true,
-    "licensed_insured_attested": true
+    "licensed_insured_attested": true,
+    "primary_color": "#dc2626",
+    "logo_url": "/images/logo.webp",
+    "home_about_blurb": "Davis Construction Contractors has been serving Madison and North Alabama since 2008. We handle new construction, remodeling, decks, roofing, siding, and painting, and when storms or water damage strike, our restoration team responds fast to get your property back to normal. One call covers it all."
   },
   "cross_product": true,
   "keyword_strategy": "conservative",

@@ -68,6 +68,16 @@
     ],
     "missing_stubs": []
   },
+  "/services/air-duct-hvac-cleaning/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/services/appliance-leak-cleanup/": {
     "archetype": "service-landing",
     "stubs": [
@@ -597,6 +607,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/oildale-ca/air-duct-hvac-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/oildale-ca/appliance-leak-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -928,6 +948,16 @@
     "missing_stubs": []
   },
   "/service-areas/rosedale-ca/air-duct-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/rosedale-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1277,6 +1307,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/delano-ca/air-duct-hvac-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/delano-ca/appliance-leak-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1608,6 +1648,16 @@
     "missing_stubs": []
   },
   "/service-areas/shafter-ca/air-duct-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/shafter-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1957,6 +2007,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/wasco-ca/air-duct-hvac-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/wasco-ca/appliance-leak-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2288,6 +2348,16 @@
     "missing_stubs": []
   },
   "/service-areas/taft-ca/air-duct-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/taft-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2637,6 +2707,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/tehachapi-ca/air-duct-hvac-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/tehachapi-ca/appliance-leak-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2968,6 +3048,16 @@
     "missing_stubs": []
   },
   "/service-areas/arvin-ca/air-duct-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/arvin-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3317,6 +3407,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/lamont-ca/air-duct-hvac-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/lamont-ca/appliance-leak-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3648,6 +3748,16 @@
     "missing_stubs": []
   },
   "/service-areas/lake-isabella-ca/air-duct-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/lake-isabella-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3997,6 +4107,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/east-niles-ca/air-duct-hvac-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/east-niles-ca/appliance-leak-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4328,6 +4448,16 @@
     "missing_stubs": []
   },
   "/service-areas/tarina-ca/air-duct-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/tarina-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4677,6 +4807,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/weedpatch-ca/air-duct-hvac-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/weedpatch-ca/appliance-leak-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5008,6 +5148,16 @@
     "missing_stubs": []
   },
   "/service-areas/buttonwillow-ca/air-duct-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/buttonwillow-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5357,6 +5507,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/dustin-acres-ca/air-duct-hvac-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/dustin-acres-ca/appliance-leak-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5688,6 +5848,16 @@
     "missing_stubs": []
   },
   "/service-areas/mcfarland-ca/air-duct-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/mcfarland-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6037,6 +6207,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/valley-acres-ca/air-duct-hvac-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/valley-acres-ca/appliance-leak-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6368,6 +6548,16 @@
     "missing_stubs": []
   },
   "/service-areas/woody-ca/air-duct-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/woody-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6717,6 +6907,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/bear-valley-springs-ca/appliance-leak-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7057,6 +7257,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/keene-ca/air-duct-hvac-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/keene-ca/appliance-leak-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7388,6 +7598,16 @@
     "missing_stubs": []
   },
   "/service-areas/maricopa-ca/air-duct-cleaning/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/maricopa-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

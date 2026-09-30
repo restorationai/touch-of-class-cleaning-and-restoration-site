@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "5edd964217233f61"
-generated_at: "2026-09-26T17:45:52.614256+00:00"
+generated_at: "2026-09-30T14:12:23.119552+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/maricopa-ca/", "/service-areas/maricopa-ca/fire-damage-restoration/", "/service-areas/maricopa-ca/home-remodeling/", "/service-areas/arvin-ca/emergency-plumbing/", "/service-areas/bear-valley-springs-ca/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Maricopa", "url": "/service-areas/maricopa-ca/"}, {"name": "Emergency Plumbing"}]

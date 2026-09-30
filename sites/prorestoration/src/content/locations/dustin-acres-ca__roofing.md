@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "5d81de51ad9e8b69"
-generated_at: "2026-09-26T17:45:52.580891+00:00"
+generated_at: "2026-09-30T14:12:23.059895+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/dustin-acres-ca/", "/service-areas/dustin-acres-ca/fire-damage-restoration/", "/service-areas/dustin-acres-ca/home-remodeling/", "/service-areas/arvin-ca/roofing/", "/service-areas/bear-valley-springs-ca/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Dustin Acres", "url": "/service-areas/dustin-acres-ca/"}, {"name": "Roofing Installation and Replacement"}]

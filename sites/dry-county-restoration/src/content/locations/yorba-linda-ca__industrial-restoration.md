@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "86b8a0f7bd4d8466"
-generated_at: "2026-09-29T23:24:34.718926+00:00"
+generated_at: "2026-09-30T14:12:09.712809+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/yorba-linda-ca/", "/service-areas/yorba-linda-ca/fire-damage-restoration/", "/service-areas/yorba-linda-ca/mold-remediation/", "/service-areas/anaheim-ca/industrial-restoration/", "/service-areas/chino-ca/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Yorba Linda", "url": "/service-areas/yorba-linda-ca/"}, {"name": "Industrial Restoration"}]

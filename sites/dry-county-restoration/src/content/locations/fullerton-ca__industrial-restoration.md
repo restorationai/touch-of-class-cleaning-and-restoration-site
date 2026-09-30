@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "9fc4b5159d24019d"
-generated_at: "2026-09-29T23:24:34.695867+00:00"
+generated_at: "2026-09-30T14:12:09.645592+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/fullerton-ca/", "/service-areas/fullerton-ca/fire-damage-restoration/", "/service-areas/fullerton-ca/mold-remediation/", "/service-areas/anaheim-ca/industrial-restoration/", "/service-areas/chino-ca/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fullerton", "url": "/service-areas/fullerton-ca/"}, {"name": "Industrial Restoration"}]

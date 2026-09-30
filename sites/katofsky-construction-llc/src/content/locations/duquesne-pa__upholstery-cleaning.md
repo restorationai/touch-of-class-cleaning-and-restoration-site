@@ -8,7 +8,7 @@ secondary_keywords: ["sofa cleaning", "couch cleaning", "furniture steam cleanin
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "b5ef4e0d4c74d540"
-generated_at: "2026-09-24T21:59:37.100476+00:00"
+generated_at: "2026-09-30T14:12:19.474297+00:00"
 manual_override: false
 internal_links: ["/services/upholstery-cleaning/", "/service-areas/duquesne-pa/", "/service-areas/duquesne-pa/fire-damage-restoration/", "/service-areas/duquesne-pa/roofing/", "/service-areas/allison-park-pa/upholstery-cleaning/", "/service-areas/baldwin-pa/upholstery-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Duquesne", "url": "/service-areas/duquesne-pa/"}, {"name": "Upholstery Cleaning"}]

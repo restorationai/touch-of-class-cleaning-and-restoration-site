@@ -28,17 +28,19 @@
     ]
   },
   "services": [
+    "air-duct-cleaning",
+    "air-duct-hvac-cleaning",
+    "asbestos-abatement",
+    "biohazard-cleanup",
+    "carpet-cleaning",
+    "carpet-upholstery-cleaning",
+    "contents-restoration-storage",
+    "emergency-board-up-tarping",
     "fire-damage-restoration",
     "general-contracting",
+    "lead-paint-abatement",
     "roofing",
     "sewage-cleanup",
-    "biohazard-cleanup",
-    "asbestos-abatement",
-    "lead-paint-abatement",
-    "emergency-board-up-tarping",
-    "contents-restoration-storage",
-    "air-duct-cleaning",
-    "carpet-cleaning",
     "upholstery-cleaning"
   ],
   "service_areas": [

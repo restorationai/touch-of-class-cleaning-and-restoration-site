@@ -1,21 +1,21 @@
 # Site Plan Report — ACS Enterprise 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-22T18:09:48.940371+00:00
+- Generated: 2026-09-30T14:12:02.179503+00:00
 - Domain: `theacs-enterprises.com`
-- Services selected: 8 of 65 catalog entries
+- Services selected: 27 of 91 catalog entries
 - Service areas: 16
 - Cross-product enabled: True
-- Total URLs: **160**
-- Total internal links: 1255 (avg 7.8 per page)
+- Total URLs: **464**
+- Total internal links: 3852 (avg 8.3 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 120 |
+| `service-area-service` | 405 |
+| `service-landing` | 27 |
 | `service-area` | 15 |
-| `service-landing` | 8 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -27,14 +27,33 @@
 
 ## Selected services
 
-- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
+- `air-duct-cleaning` — Air Duct Cleaning (adjacent, priority 5)
+- `air-duct-hvac-cleaning` — Air Duct & HVAC Cleaning (adjacent, priority 5)
+- `carpet-cleaning` — Carpet Cleaning (adjacent, priority 4)
+- `carpet-upholstery-cleaning` — Carpet & Upholstery Cleaning (adjacent, priority 5)
+- `junk-debris-removal` — Junk & Debris Removal (adjacent, priority 5)
 - `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
-- `air-duct-cleaning` — Air Duct Cleaning (adjacent, priority 5)
-- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
-- `carpet-cleaning` — Carpet Cleaning (adjacent, priority 4)
-- `junk-debris-removal` — Junk & Debris Removal (adjacent, priority 5)
 - `tile-grout-cleaning` — Tile & Grout Cleaning (adjacent, priority 4)
+- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
+- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
+- `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
+- `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
+- `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
+- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
+- `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
+- `mold-remediation` — Mold Remediation (core, priority 10)
+- `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
+- `commercial-restoration` — Commercial Restoration (core, priority 9)
+- `industrial-restoration` — Industrial Restoration (core, priority 7)
+- `reconstruction` — Reconstruction Services (core, priority 9)
+- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
+- `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
+- `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
+- `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
+- `water-leak-detection` — Water Leak Detection (core, priority 7)
+- `emergency-water-removal` — 24/7 Emergency Water Removal (core, priority 9)
+- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 
 ## Service areas
 
@@ -59,16 +78,16 @@
 
 | URL | Archetype | Priority | Primary keyword |
 | --- | --- | --- | --- |
+| `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration midland |
+| `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation midland |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration midland |
+| `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration midland |
+| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing midland |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | 24/7 emergency water removal midland |
+| `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration midland |
+| `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services midland |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization midland |
-| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration midland |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup midland |
-| `/service-areas/andrews-tx/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration andrews |
-| `/service-areas/big-lake-tx/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration big lake |
-| `/service-areas/big-spring-tx/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration big spring |
-| `/service-areas/crane-tx/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration crane |
-| `/service-areas/garden-city-tx/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration garden city |
-| `/service-areas/gardendale-tx/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration gardendale |
+| `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration midland |
 
 ## Validation
 

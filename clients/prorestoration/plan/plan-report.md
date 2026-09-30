@@ -1,20 +1,20 @@
 # Site Plan Report — ProRestoration Services
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-26T17:45:51.526371+00:00
+- Generated: 2026-09-30T14:12:22.038104+00:00
 - Domain: `prorestorationca.com`
-- Services selected: 34 of 65 catalog entries
+- Services selected: 35 of 91 catalog entries
 - Service areas: 22
 - Cross-product enabled: True
-- Total URLs: **790**
-- Total internal links: 6508 (avg 8.2 per page)
+- Total URLs: **812**
+- Total internal links: 6692 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 714 |
-| `service-landing` | 34 |
+| `service-area-service` | 735 |
+| `service-landing` | 35 |
 | `service-area` | 21 |
 | `blog-post` | 12 |
 | `legal` | 3 |
@@ -28,6 +28,7 @@
 ## Selected services
 
 - `air-duct-cleaning` — Air Duct Cleaning (adjacent, priority 5)
+- `air-duct-hvac-cleaning` — Air Duct & HVAC Cleaning (adjacent, priority 5)
 - `appliance-leak-cleanup` — Appliance Leak Cleanup (specialty, priority 6)
 - `asbestos-abatement` — Asbestos Abatement (specialty, priority 6)
 - `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)

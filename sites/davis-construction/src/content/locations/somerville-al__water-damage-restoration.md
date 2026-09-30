@@ -8,7 +8,7 @@ secondary_keywords: ["water damage repair", "water damage rebuild", "drywall wat
 search_intent: "local_commercial"
 priority: 4.9
 plan_hash: "79f30a885044fa97"
-generated_at: "2026-09-23T14:11:32.870187+00:00"
+generated_at: "2026-09-30T14:12:04.092927+00:00"
 manual_override: false
 internal_links: ["/services/water-damage-restoration/", "/service-areas/somerville-al/", "/service-areas/somerville-al/home-remodeling/", "/service-areas/somerville-al/roofing/", "/service-areas/arab-al/water-damage-restoration/", "/service-areas/ardmore-al/water-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Somerville", "url": "/service-areas/somerville-al/"}, {"name": "Water Damage Restoration"}]

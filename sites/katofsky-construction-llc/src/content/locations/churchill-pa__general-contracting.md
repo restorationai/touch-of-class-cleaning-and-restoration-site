@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "e8c8946bad02a0ab"
-generated_at: "2026-09-24T18:31:14.549606+00:00"
+generated_at: "2026-09-30T14:12:19.469112+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/churchill-pa/", "/service-areas/churchill-pa/fire-damage-restoration/", "/service-areas/churchill-pa/roofing/", "/service-areas/allison-park-pa/general-contracting/", "/service-areas/baldwin-pa/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Churchill", "url": "/service-areas/churchill-pa/"}, {"name": "Renovations, Remodels and General Contracting"}]

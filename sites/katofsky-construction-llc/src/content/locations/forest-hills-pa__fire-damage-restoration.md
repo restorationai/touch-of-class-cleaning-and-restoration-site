@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "d2f33733a4e9bba4"
-generated_at: "2026-09-24T17:23:44.562706+00:00"
+generated_at: "2026-09-30T14:12:19.456752+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/forest-hills-pa/", "/service-areas/forest-hills-pa/roofing/", "/service-areas/forest-hills-pa/sewage-cleanup/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/service-areas/baldwin-pa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Forest Hills", "url": "/service-areas/forest-hills-pa/"}, {"name": "Fire Damage Restoration"}]

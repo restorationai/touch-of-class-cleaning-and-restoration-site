@@ -7,10 +7,10 @@ primary_keyword: "renovations, remodels and general contracting jefferson hills"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"
 priority: 5.6
-plan_hash: "a93226da88ee43c5"
-generated_at: "2026-09-25T14:14:32.698779+00:00"
+plan_hash: "c2c4dcb16208c733"
+generated_at: "2026-09-30T14:12:19.477083+00:00"
 manual_override: false
-internal_links: ["/services/general-contracting/", "/service-areas/jefferson-hills-pa/", "/service-areas/jefferson-hills-pa/fire-damage-restoration/", "/service-areas/jefferson-hills-pa/mold-remediation/", "/service-areas/allison-park-pa/general-contracting/", "/service-areas/baldwin-pa/general-contracting/", "/contact/"]
+internal_links: ["/services/general-contracting/", "/service-areas/jefferson-hills-pa/", "/service-areas/jefferson-hills-pa/fire-damage-restoration/", "/service-areas/jefferson-hills-pa/roofing/", "/service-areas/allison-park-pa/general-contracting/", "/service-areas/baldwin-pa/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Jefferson Hills", "url": "/service-areas/jefferson-hills-pa/"}, {"name": "Renovations, Remodels and General Contracting"}]
 faq: []
 area_slug: "jefferson-hills-pa"

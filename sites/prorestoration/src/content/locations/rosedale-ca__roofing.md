@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "dea0acf3a924f205"
-generated_at: "2026-09-26T17:45:52.530348+00:00"
+generated_at: "2026-09-30T14:12:22.952214+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/rosedale-ca/", "/service-areas/rosedale-ca/fire-damage-restoration/", "/service-areas/rosedale-ca/home-remodeling/", "/service-areas/arvin-ca/roofing/", "/service-areas/bear-valley-springs-ca/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rosedale", "url": "/service-areas/rosedale-ca/"}, {"name": "Roofing Installation and Replacement"}]

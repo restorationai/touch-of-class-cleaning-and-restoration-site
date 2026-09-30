@@ -1,0 +1,24 @@
+---
+archetype: "service-area-service"
+title: "Burst Pipe Cleanup and Repair in Sandersville, MS | HomeLyft Restoration MS"
+h1: "Burst Pipe Cleanup and Repair in Sandersville"
+meta_description: "24/7 burst pipe cleanup and repair in Sandersville, MS. IICRC-certified, insurance billing accepted. Call +12282845200."
+primary_keyword: "burst pipe cleanup and repair sandersville"
+secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
+search_intent: "local_emergency"
+priority: 5.6
+plan_hash: "b09459b846ad68ee"
+generated_at: "2026-09-30T14:12:13.040136+00:00"
+manual_override: false
+internal_links: ["/services/burst-pipe-repair/", "/service-areas/sandersville-ms/", "/service-areas/sandersville-ms/fire-damage-restoration/", "/service-areas/sandersville-ms/mold-remediation/", "/service-areas/agricola-ms/burst-pipe-repair/", "/service-areas/bay-st-louis-ms/burst-pipe-repair/", "/contact/"]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sandersville", "url": "/service-areas/sandersville-ms/"}, {"name": "burst-pipe-repair"}]
+faq: []
+area_slug: "sandersville-ms"
+service_slug: "burst-pipe-repair"
+city: "Sandersville"
+state: "MS"
+service_display: "burst-pipe-repair"
+---
+<!-- Page body not yet generated. Run `build_site.py render --slug homelyft-restoration-ms` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
+
+Placeholder content for Burst Pipe Cleanup and Repair in Sandersville.

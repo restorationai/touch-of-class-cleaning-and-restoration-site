@@ -8,7 +8,7 @@ secondary_keywords: ["storm damage repair", "roof storm damage repair", "siding 
 search_intent: "local_commercial"
 priority: 4.9
 plan_hash: "87f11cf01c3ebb88"
-generated_at: "2026-09-23T14:11:32.863316+00:00"
+generated_at: "2026-09-30T14:12:04.085984+00:00"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/service-areas/ardmore-al/", "/service-areas/ardmore-al/home-remodeling/", "/service-areas/ardmore-al/roofing/", "/service-areas/arab-al/storm-damage-restoration/", "/service-areas/athens-al/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ardmore", "url": "/service-areas/ardmore-al/"}, {"name": "Storm Damage Restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["grout cleaning", "tile cleaning", "grout sealing", "grout 
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "d851aa4e4ccabbc3"
-generated_at: "2026-09-23T14:11:49.779369+00:00"
+generated_at: "2026-09-30T14:12:14.641944+00:00"
 manual_override: false
 internal_links: ["/services/tile-grout-cleaning/", "/service-areas/bluffdale-ut/", "/service-areas/bluffdale-ut/fire-damage-restoration/", "/service-areas/bluffdale-ut/mold-remediation/", "/service-areas/alpine-ut/tile-grout-cleaning/", "/service-areas/american-fork-ut/tile-grout-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bluffdale", "url": "/service-areas/bluffdale-ut/"}, {"name": "Tile & Grout Cleaning"}]

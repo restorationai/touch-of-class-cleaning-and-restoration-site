@@ -8,7 +8,7 @@ secondary_keywords: ["siding contractor", "siding installation", "siding replace
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "969feec3e5ad8721"
-generated_at: "2026-09-23T14:11:32.876182+00:00"
+generated_at: "2026-09-30T14:12:04.098925+00:00"
 manual_override: false
 internal_links: ["/services/siding-gutters/", "/service-areas/decatur-al/", "/service-areas/decatur-al/home-remodeling/", "/service-areas/decatur-al/roofing/", "/service-areas/arab-al/siding-gutters/", "/service-areas/ardmore-al/siding-gutters/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Decatur", "url": "/service-areas/decatur-al/"}, {"name": "Siding and Gutters"}]

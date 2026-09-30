@@ -185,7 +185,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Sewage Cleanup and Sanitization, Storm Damage Restoration, Air Duct Cleaning, Emergency Water Cleanup, Carpet Cleaning, Junk & Debris Removal, Tile & Grout Cleaning)
+- [ ] (continue for each of Air Duct Cleaning, Air Duct & HVAC Cleaning, Carpet Cleaning, Carpet & Upholstery Cleaning, Junk & Debris Removal, Sewage Cleanup and Sanitization, Storm Damage Restoration, Tile & Grout Cleaning, Emergency Water Cleanup, Water Damage Restoration, Flood Damage Restoration, Burst Pipe Cleanup and Repair, Basement Flooding Cleanup, Fire Damage Restoration, Smoke Damage Restoration, Mold Remediation, Mold Inspection and Testing, Commercial Restoration, Industrial Restoration, Reconstruction Services, Renovations, Remodels and General Contracting, Large Loss and Catastrophic Response, Ceiling Water Damage Repair, Water Heater Flood Cleanup, Water Leak Detection, 24/7 Emergency Water Removal, Emergency Plumbing)
 
 ### Service area pages (one image per city served)
 - [ ] Midland hero — exterior shot, regional housing stock, evocative of the city

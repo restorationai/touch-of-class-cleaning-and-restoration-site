@@ -185,7 +185,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Air Duct Cleaning, Asbestos Abatement, Biohazard Cleanup, Carpet Cleaning, Contents Restoration and Storage, Contents Restoration & Storage, Emergency Board-Up and Tarping, Fire Damage Restoration, Renovations, Remodels and General Contracting, Mold Remediation, Odor Removal and Deodorization, Post-Construction and Specialty Cleaning, Sewage Cleanup and Sanitization, Storm Damage Restoration, Emergency Water Cleanup, Water Damage Restoration)
+- [ ] (continue for each of Air Duct Cleaning, Air Duct & HVAC Cleaning, Asbestos Abatement, Biohazard Cleanup, Carpet Cleaning, Carpet & Upholstery Cleaning, Contents Restoration and Storage, Contents Restoration & Storage, Emergency Board-Up and Tarping, Fire Damage Restoration, Renovations, Remodels and General Contracting, Mold Remediation, Odor Removal and Deodorization, Post-Construction and Specialty Cleaning, Sewage Cleanup and Sanitization, Storm Damage Restoration, Emergency Water Cleanup, Water Damage Restoration, Flood Damage Restoration, Burst Pipe Cleanup and Repair, Basement Flooding Cleanup, Smoke Damage Restoration, Mold Inspection and Testing, Commercial Restoration, Industrial Restoration, Reconstruction Services, Large Loss and Catastrophic Response, Ceiling Water Damage Repair, Water Heater Flood Cleanup, Water Leak Detection, 24/7 Emergency Water Removal, Emergency Plumbing)
 
 ### Service area pages (one image per city served)
 - [ ] Youngstown hero — exterior shot, regional housing stock, evocative of the city

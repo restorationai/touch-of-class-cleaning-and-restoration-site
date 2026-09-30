@@ -1,22 +1,22 @@
 # Site Plan Report — Davis Construction Contractors
 
 - Template: `construction` v0.1.0
-- Generated: 2026-09-23T14:11:31.739156+00:00
+- Generated: 2026-09-30T14:12:03.287175+00:00
 - Domain: `davisconstructioncontractors.com`
-- Services selected: 11 of 23 catalog entries
+- Services selected: 14 of 30 catalog entries
 - Service areas: 20
 - Cross-product enabled: True
-- Total URLs: **260**
-- Total internal links: 2070 (avg 8.0 per page)
+- Total URLs: **320**
+- Total internal links: 2574 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 209 |
+| `service-area-service` | 266 |
 | `service-area` | 19 |
+| `service-landing` | 14 |
 | `blog-post` | 12 |
-| `service-landing` | 11 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -27,12 +27,15 @@
 
 ## Selected services
 
+- `basement-sewage-cleanup` — Basement Sewage Cleanup (adjacent, priority 5)
+- `carpet-upholstery-cleaning` — Carpet & Upholstery Cleaning (adjacent, priority 5)
 - `decks-pergolas-fences` — Decks, Pergolas and Fences (core, priority 9)
 - `fire-smoke-rebuilding` — Fire and Smoke Damage Rebuilding (restoration, priority 7)
 - `home-remodeling` — Home Remodeling (core, priority 10)
 - `mold-remediation` — Mold Remediation (restoration, priority 7)
 - `new-construction` — New Home Construction (core, priority 9)
 - `painting-trim` — Painting and Trim (core, priority 7)
+- `post-construction-specialty-cleaning` — Post-Construction & Specialty Cleaning (adjacent, priority 5)
 - `roofing` — Roofing Installation and Replacement (core, priority 10)
 - `siding-gutters` — Siding and Gutters (core, priority 8)
 - `storm-damage-restoration` — Storm Damage Restoration (restoration, priority 7)

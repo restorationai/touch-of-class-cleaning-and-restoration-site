@@ -8,7 +8,7 @@ secondary_keywords: ["siding contractor", "siding installation", "siding replace
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "f658b73f24fdeb95"
-generated_at: "2026-09-23T14:11:32.863001+00:00"
+generated_at: "2026-09-30T14:12:04.085670+00:00"
 manual_override: false
 internal_links: ["/services/siding-gutters/", "/service-areas/ardmore-al/", "/service-areas/ardmore-al/home-remodeling/", "/service-areas/ardmore-al/roofing/", "/service-areas/arab-al/siding-gutters/", "/service-areas/athens-al/siding-gutters/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ardmore", "url": "/service-areas/ardmore-al/"}, {"name": "Siding and Gutters"}]
