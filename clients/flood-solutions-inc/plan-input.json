@@ -32,14 +32,15 @@
     "canvas_law": "off"
   },
   "services": [
-    "water-damage-restoration",
-    "sewage-cleanup",
-    "emergency-water-removal",
-    "fire-damage-restoration",
     "content-recovery",
     "emergency-board-up",
+    "emergency-water-removal",
     "environmental-consultants",
-    "ice-dams"
+    "fire-damage-restoration",
+    "ice-dams",
+    "sewage-cleanup",
+    "water-cleanup",
+    "water-damage-restoration"
   ],
   "service_areas": [
     {

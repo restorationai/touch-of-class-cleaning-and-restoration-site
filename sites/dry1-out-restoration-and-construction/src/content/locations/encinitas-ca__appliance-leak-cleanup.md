@@ -8,7 +8,7 @@ secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrig
 search_intent: "local_emergency"
 priority: 4.2
 plan_hash: "11b9b5cf6f1ab38b"
-generated_at: "2026-09-29T23:31:28.395889+00:00"
+generated_at: "2026-09-30T19:28:33.856248+00:00"
 manual_override: false
 internal_links: ["/services/appliance-leak-cleanup/", "/service-areas/encinitas-ca/", "/service-areas/encinitas-ca/fire-damage-restoration/", "/service-areas/encinitas-ca/mold-remediation/", "/service-areas/berkeley-ca/appliance-leak-cleanup/", "/service-areas/carlsbad-ca/appliance-leak-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Encinitas", "url": "/service-areas/encinitas-ca/"}, {"name": "Appliance Leak Cleanup"}]

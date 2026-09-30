@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "c4d085523ff21e59"
-generated_at: "2026-09-30T14:12:14.570455+00:00"
+generated_at: "2026-09-30T19:28:45.193598+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/riverton-ut/", "/service-areas/riverton-ut/fire-damage-restoration/", "/service-areas/riverton-ut/mold-remediation/", "/service-areas/alpine-ut/commercial-restoration/", "/service-areas/american-fork-ut/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Riverton", "url": "/service-areas/riverton-ut/"}, {"name": "commercial-restoration"}]

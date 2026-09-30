@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "ea92cb0145c0674a"
-generated_at: "2026-09-30T14:12:26.064578+00:00"
+generated_at: "2026-09-30T19:28:57.258873+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/bellingham-ma/", "/service-areas/bellingham-ma/fire-damage-restoration/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/commercial-restoration/", "/service-areas/fiskdale-ma/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bellingham", "url": "/service-areas/bellingham-ma/"}, {"name": "commercial-restoration"}]

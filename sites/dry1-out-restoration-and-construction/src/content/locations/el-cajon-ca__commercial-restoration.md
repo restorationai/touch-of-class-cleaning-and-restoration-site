@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "58f3291ae957126b"
-generated_at: "2026-09-29T14:31:48.430494+00:00"
+generated_at: "2026-09-30T19:28:33.834176+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/el-cajon-ca/", "/service-areas/el-cajon-ca/fire-damage-restoration/", "/service-areas/el-cajon-ca/mold-remediation/", "/service-areas/berkeley-ca/commercial-restoration/", "/service-areas/carlsbad-ca/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "El Cajon", "url": "/service-areas/el-cajon-ca/"}, {"name": "commercial-restoration"}]

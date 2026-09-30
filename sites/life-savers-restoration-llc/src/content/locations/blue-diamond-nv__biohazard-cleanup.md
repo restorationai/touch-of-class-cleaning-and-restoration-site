@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "af093ff23c2acdb6"
-generated_at: "2026-09-23T14:11:52.250257+00:00"
+generated_at: "2026-09-30T19:28:50.970373+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/blue-diamond-nv/", "/service-areas/blue-diamond-nv/fire-damage-restoration/", "/service-areas/blue-diamond-nv/mold-remediation/", "/service-areas/boulder-city-nv/biohazard-cleanup/", "/service-areas/cal-nev-ari-nv/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Blue Diamond", "url": "/service-areas/blue-diamond-nv/"}, {"name": "Biohazard Cleanup"}]

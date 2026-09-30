@@ -2,13 +2,13 @@
 archetype: "service-area-service"
 title: "Emergency Water Removal & Cleanup in Farrell, PA | DISS Restoration"
 h1: "Emergency Water Removal & Cleanup in Farrell"
-meta_description: "24/7 emergency water removal and cleanup in Farrell, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
-primary_keyword: "emergency water removal farrell"
-secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
+meta_description: "24/7 emergency water removal & cleanup in Farrell, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+primary_keyword: "emergency water removal & cleanup farrell"
+secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "2ba469ba0f75d32a"
-generated_at: "2026-09-30T14:12:07.141718+00:00"
+plan_hash: "51bc519526dad95c"
+generated_at: "2026-09-30T19:28:30.112166+00:00"
 manual_override: false
 internal_links: ["/services/emergency-water-removal/", "/service-areas/farrell-pa/", "/service-areas/farrell-pa/fire-damage-restoration/", "/service-areas/farrell-pa/mold-remediation/", "/service-areas/austintown-oh/emergency-water-removal/", "/service-areas/boardman-oh/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Farrell", "url": "/service-areas/farrell-pa/"}, {"name": "Emergency Water Removal & Cleanup"}]

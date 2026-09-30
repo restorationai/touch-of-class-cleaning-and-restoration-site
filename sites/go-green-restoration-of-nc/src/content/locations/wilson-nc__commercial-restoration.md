@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "ce3929e67c0e049c"
-generated_at: "2026-09-29T23:13:49.278817+00:00"
+generated_at: "2026-09-30T19:28:39.605894+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/wilson-nc/", "/service-areas/wilson-nc/fire-damage-restoration/", "/service-areas/wilson-nc/mold-remediation/", "/service-areas/archer-lodge-nc/commercial-restoration/", "/service-areas/clayton-nc/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wilson", "url": "/service-areas/wilson-nc/"}, {"name": "Commercial Restoration"}]

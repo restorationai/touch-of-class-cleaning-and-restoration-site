@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "c983496bd16e7d33"
-generated_at: "2026-09-29T23:13:49.318296+00:00"
+generated_at: "2026-09-30T19:28:39.711137+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/knightdale-nc/", "/service-areas/knightdale-nc/fire-damage-restoration/", "/service-areas/knightdale-nc/mold-remediation/", "/service-areas/archer-lodge-nc/water-leak-detection/", "/service-areas/clayton-nc/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Knightdale", "url": "/service-areas/knightdale-nc/"}, {"name": "Water Leak Detection"}]

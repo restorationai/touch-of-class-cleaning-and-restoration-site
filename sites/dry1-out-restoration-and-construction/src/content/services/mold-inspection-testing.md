@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 7.2
 plan_hash: "e43c60123dd314f8"
-generated_at: "2026-09-29T14:31:48.302416+00:00"
+generated_at: "2026-09-30T19:28:33.680809+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/mold-inspection-testing/", "/service-areas/carlsbad-ca/mold-inspection-testing/", "/service-areas/chula-vista-ca/mold-inspection-testing/", "/service-areas/concord-ca/mold-inspection-testing/", "/service-areas/el-cajon-ca/mold-inspection-testing/", "/service-areas/encinitas-ca/mold-inspection-testing/", "/service-areas/escondido-ca/mold-inspection-testing/", "/service-areas/fremont-ca/mold-inspection-testing/", "/service-areas/hayward-ca/mold-inspection-testing/", "/service-areas/oakland-ca/mold-inspection-testing/", "/service-areas/oceanside-ca/mold-inspection-testing/", "/service-areas/san-diego-ca/mold-inspection-testing/", "/blog/how-to-test-for-mold/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Mold Inspection and Testing"}]

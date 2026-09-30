@@ -2,13 +2,13 @@
 archetype: "service-area-service"
 title: "Emergency Water Removal & Cleanup in Oildale, CA | ProRestoration Services"
 h1: "Emergency Water Removal & Cleanup in Oildale"
-meta_description: "24/7 emergency water removal and cleanup in Oildale, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
-primary_keyword: "emergency water removal oildale"
-secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
+meta_description: "24/7 emergency water removal & cleanup in Oildale, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306."
+primary_keyword: "emergency water removal & cleanup oildale"
+secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "450f50cc454d66e2"
-generated_at: "2026-09-30T14:12:22.946033+00:00"
+plan_hash: "8920fce46b3f9076"
+generated_at: "2026-09-30T19:28:54.528989+00:00"
 manual_override: false
 internal_links: ["/services/emergency-water-removal/", "/service-areas/oildale-ca/", "/service-areas/oildale-ca/fire-damage-restoration/", "/service-areas/oildale-ca/home-remodeling/", "/service-areas/arvin-ca/emergency-water-removal/", "/service-areas/bear-valley-springs-ca/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oildale", "url": "/service-areas/oildale-ca/"}, {"name": "Emergency Water Removal & Cleanup"}]

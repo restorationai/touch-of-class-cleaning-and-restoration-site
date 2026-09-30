@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "8472cbc9573e6027"
-generated_at: "2026-09-30T14:12:14.562029+00:00"
+generated_at: "2026-09-30T19:28:45.099263+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/herriman-ut/", "/service-areas/herriman-ut/fire-damage-restoration/", "/service-areas/herriman-ut/mold-remediation/", "/service-areas/alpine-ut/emergency-plumbing/", "/service-areas/american-fork-ut/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Herriman", "url": "/service-areas/herriman-ut/"}, {"name": "emergency-plumbing"}]

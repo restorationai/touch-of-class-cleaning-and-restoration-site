@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "fbd76a02ec623eb7"
-generated_at: "2026-09-29T23:13:48.866545+00:00"
+generated_at: "2026-09-30T19:28:41.637502+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/foley-mn/", "/service-areas/foley-mn/fire-damage-restoration/", "/service-areas/foley-mn/roofing/", "/service-areas/albany-mn/mold-remediation/", "/service-areas/avon-mn/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Foley", "url": "/service-areas/foley-mn/"}, {"name": "Mold Remediation"}]

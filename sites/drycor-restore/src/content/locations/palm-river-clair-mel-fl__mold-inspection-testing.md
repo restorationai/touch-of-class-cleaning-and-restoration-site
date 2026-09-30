@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "5032d9ac48d2a798"
-generated_at: "2026-09-29T23:28:29.665315+00:00"
+generated_at: "2026-09-30T19:28:35.983202+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/palm-river-clair-mel-fl/", "/service-areas/palm-river-clair-mel-fl/fire-damage-restoration/", "/service-areas/palm-river-clair-mel-fl/mold-remediation/", "/service-areas/anna-maria-fl/mold-inspection-testing/", "/service-areas/apollo-beach-fl/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Palm River-Clair Mel", "url": "/service-areas/palm-river-clair-mel-fl/"}, {"name": "Mold Inspection and Testing"}]

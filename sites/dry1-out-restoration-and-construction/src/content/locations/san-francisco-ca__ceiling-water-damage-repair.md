@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "2d76299f12ee3ffe"
-generated_at: "2026-09-29T14:31:48.336912+00:00"
+generated_at: "2026-09-30T19:28:33.718392+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/san-francisco-ca/", "/service-areas/san-francisco-ca/fire-damage-restoration/", "/service-areas/san-francisco-ca/mold-remediation/", "/service-areas/berkeley-ca/ceiling-water-damage-repair/", "/service-areas/carlsbad-ca/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Francisco", "url": "/service-areas/san-francisco-ca/"}, {"name": "ceiling-water-damage-repair"}]

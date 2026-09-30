@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "4b22351d0ad36e0c"
-generated_at: "2026-09-30T14:12:12.842267+00:00"
+generated_at: "2026-09-30T19:28:43.360097+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/leakesville-ms/", "/service-areas/leakesville-ms/fire-damage-restoration/", "/service-areas/leakesville-ms/mold-remediation/", "/service-areas/agricola-ms/burst-pipe-repair/", "/service-areas/bay-st-louis-ms/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Leakesville", "url": "/service-areas/leakesville-ms/"}, {"name": "burst-pipe-repair"}]

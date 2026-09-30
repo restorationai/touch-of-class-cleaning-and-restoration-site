@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "0eca39dcc61f214f"
-generated_at: "2026-09-29T14:31:48.415546+00:00"
+generated_at: "2026-09-30T19:28:33.812140+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/sunnyvale-ca/", "/service-areas/sunnyvale-ca/fire-damage-restoration/", "/service-areas/sunnyvale-ca/mold-remediation/", "/service-areas/berkeley-ca/industrial-restoration/", "/service-areas/carlsbad-ca/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sunnyvale", "url": "/service-areas/sunnyvale-ca/"}, {"name": "industrial-restoration"}]

@@ -10,10 +10,10 @@
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 335,
-    "generated_at": "2026-09-23T14:12:02.539324+00:00"
+    "url_count": 712,
+    "generated_at": "2026-09-30T19:28:58.785842+00:00"
   },
-  "updated_at": "2026-09-30T00:04:05.109215+00:00",
+  "updated_at": "2026-09-30T19:28:58.785849+00:00",
   "build": {
     "scaffolded_at": "2026-08-03T16:27:31.440951+00:00",
     "github_repo": "restorationai/reign-restoration-site",

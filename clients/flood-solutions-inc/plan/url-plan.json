@@ -1,9 +1,9 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-29T23:32:21.796783+00:00",
+  "generated_at": "2026-09-30T19:28:36.087790+00:00",
   "input_summary": {
-    "service_count": 22,
+    "service_count": 21,
     "service_area_count": 9,
     "cross_product": true,
     "blog_seed_count": 8
@@ -51,7 +51,6 @@
         "/services/sewage-cleanup/",
         "/services/smoke-damage-restoration/",
         "/services/storm-damage-restoration/",
-        "/services/water-cleanup/",
         "/services/basement-flooding-cleanup/",
         "/services/burst-pipe-repair/",
         "/services/ceiling-water-damage-repair/",
@@ -113,7 +112,6 @@
         "/services/sewage-cleanup/",
         "/services/smoke-damage-restoration/",
         "/services/storm-damage-restoration/",
-        "/services/water-cleanup/",
         "/services/basement-flooding-cleanup/",
         "/services/burst-pipe-repair/",
         "/services/ceiling-water-damage-repair/",
@@ -271,150 +269,6 @@
       ]
     },
     {
-      "url_path": "/services/water-damage-restoration/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Water Damage Restoration in Macomb | Flood Solutions inc",
-      "h1": "Water Damage Restoration in Macomb",
-      "meta_description": "Water damage restoration in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "water damage restoration macomb",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 9.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/chesterfield-mi/water-damage-restoration/",
-        "/service-areas/clinton-township-mi/water-damage-restoration/",
-        "/service-areas/rochester-hills-mi/water-damage-restoration/",
-        "/service-areas/shelby-township-mi/water-damage-restoration/",
-        "/service-areas/sterling-heights-mi/water-damage-restoration/",
-        "/service-areas/troy-mi/water-damage-restoration/",
-        "/service-areas/utica-mi/water-damage-restoration/",
-        "/service-areas/warren-mi/water-damage-restoration/",
-        "/services/water-cleanup/",
-        "/blog/burst-pipe-emergency-checklist/",
-        "/blog/what-to-do-first-24-hours-water-damage/",
-        "/blog/choosing-a-restoration-company/"
-      ]
-    },
-    {
-      "url_path": "/services/sewage-cleanup/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Sewage Cleanup and Sanitization in Macomb | Flood Solutions inc",
-      "h1": "Sewage Cleanup and Sanitization in Macomb",
-      "meta_description": "Sewage cleanup and sanitization in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "sewage cleanup and sanitization macomb",
-      "secondary_keywords": [
-        "sewage backup cleanup",
-        "raw sewage removal",
-        "septic overflow cleanup",
-        "sewer line backup",
-        "sanitization services"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/chesterfield-mi/sewage-cleanup/",
-        "/service-areas/clinton-township-mi/sewage-cleanup/",
-        "/service-areas/rochester-hills-mi/sewage-cleanup/",
-        "/service-areas/shelby-township-mi/sewage-cleanup/",
-        "/service-areas/sterling-heights-mi/sewage-cleanup/",
-        "/service-areas/troy-mi/sewage-cleanup/",
-        "/service-areas/utica-mi/sewage-cleanup/",
-        "/service-areas/warren-mi/sewage-cleanup/"
-      ]
-    },
-    {
-      "url_path": "/services/fire-damage-restoration/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Fire Damage Restoration in Macomb | Flood Solutions inc",
-      "h1": "Fire Damage Restoration in Macomb",
-      "meta_description": "Fire damage restoration in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "fire damage restoration macomb",
-      "secondary_keywords": [
-        "fire cleanup",
-        "fire and smoke restoration",
-        "structural fire damage",
-        "post-fire restoration",
-        "fire damage repair"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 9.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/chesterfield-mi/fire-damage-restoration/",
-        "/service-areas/clinton-township-mi/fire-damage-restoration/",
-        "/service-areas/rochester-hills-mi/fire-damage-restoration/",
-        "/service-areas/shelby-township-mi/fire-damage-restoration/",
-        "/service-areas/sterling-heights-mi/fire-damage-restoration/",
-        "/service-areas/troy-mi/fire-damage-restoration/",
-        "/service-areas/utica-mi/fire-damage-restoration/",
-        "/service-areas/warren-mi/fire-damage-restoration/",
-        "/blog/choosing-a-restoration-company/",
-        "/blog/fire-damage-restoration-process/"
-      ]
-    },
-    {
       "url_path": "/services/content-recovery/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -495,6 +349,52 @@
       ]
     },
     {
+      "url_path": "/services/emergency-water-removal/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Removal & Cleanup in Macomb | Flood Solutions inc",
+      "h1": "Water Removal & Cleanup in Macomb",
+      "meta_description": "Water removal & cleanup in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "emergency water removal & cleanup macomb",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/chesterfield-mi/emergency-water-removal/",
+        "/service-areas/clinton-township-mi/emergency-water-removal/",
+        "/service-areas/rochester-hills-mi/emergency-water-removal/",
+        "/service-areas/shelby-township-mi/emergency-water-removal/",
+        "/service-areas/sterling-heights-mi/emergency-water-removal/",
+        "/service-areas/troy-mi/emergency-water-removal/",
+        "/service-areas/utica-mi/emergency-water-removal/",
+        "/service-areas/warren-mi/emergency-water-removal/",
+        "/services/water-damage-restoration/"
+      ]
+    },
+    {
       "url_path": "/services/environmental-consultants/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -535,6 +435,54 @@
       ]
     },
     {
+      "url_path": "/services/fire-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Macomb | Flood Solutions inc",
+      "h1": "Fire Damage Restoration in Macomb",
+      "meta_description": "Fire damage restoration in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "fire damage restoration macomb",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/chesterfield-mi/fire-damage-restoration/",
+        "/service-areas/clinton-township-mi/fire-damage-restoration/",
+        "/service-areas/rochester-hills-mi/fire-damage-restoration/",
+        "/service-areas/shelby-township-mi/fire-damage-restoration/",
+        "/service-areas/sterling-heights-mi/fire-damage-restoration/",
+        "/service-areas/troy-mi/fire-damage-restoration/",
+        "/service-areas/utica-mi/fire-damage-restoration/",
+        "/service-areas/warren-mi/fire-damage-restoration/",
+        "/blog/choosing-a-restoration-company/",
+        "/blog/fire-damage-restoration-process/"
+      ]
+    },
+    {
       "url_path": "/services/ice-dams/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -572,6 +520,102 @@
         "/service-areas/troy-mi/ice-dams/",
         "/service-areas/utica-mi/ice-dams/",
         "/service-areas/warren-mi/ice-dams/"
+      ]
+    },
+    {
+      "url_path": "/services/sewage-cleanup/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Macomb | Flood Solutions inc",
+      "h1": "Sewage Cleanup and Sanitization in Macomb",
+      "meta_description": "Sewage cleanup and sanitization in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "sewage cleanup and sanitization macomb",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/chesterfield-mi/sewage-cleanup/",
+        "/service-areas/clinton-township-mi/sewage-cleanup/",
+        "/service-areas/rochester-hills-mi/sewage-cleanup/",
+        "/service-areas/shelby-township-mi/sewage-cleanup/",
+        "/service-areas/sterling-heights-mi/sewage-cleanup/",
+        "/service-areas/troy-mi/sewage-cleanup/",
+        "/service-areas/utica-mi/sewage-cleanup/",
+        "/service-areas/warren-mi/sewage-cleanup/"
+      ]
+    },
+    {
+      "url_path": "/services/water-damage-restoration/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Water Damage Restoration in Macomb | Flood Solutions inc",
+      "h1": "Water Damage Restoration in Macomb",
+      "meta_description": "Water damage restoration in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "water damage restoration macomb",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 9.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/chesterfield-mi/water-damage-restoration/",
+        "/service-areas/clinton-township-mi/water-damage-restoration/",
+        "/service-areas/rochester-hills-mi/water-damage-restoration/",
+        "/service-areas/shelby-township-mi/water-damage-restoration/",
+        "/service-areas/sterling-heights-mi/water-damage-restoration/",
+        "/service-areas/troy-mi/water-damage-restoration/",
+        "/service-areas/utica-mi/water-damage-restoration/",
+        "/service-areas/warren-mi/water-damage-restoration/",
+        "/services/emergency-water-removal/",
+        "/blog/burst-pipe-emergency-checklist/",
+        "/blog/what-to-do-first-24-hours-water-damage/",
+        "/blog/choosing-a-restoration-company/"
       ]
     },
     {
@@ -1215,7 +1259,6 @@
         "/service-areas/sterling-heights-mi/sewage-cleanup/",
         "/service-areas/sterling-heights-mi/smoke-damage-restoration/",
         "/service-areas/sterling-heights-mi/storm-damage-restoration/",
-        "/service-areas/sterling-heights-mi/water-cleanup/",
         "/service-areas/sterling-heights-mi/basement-flooding-cleanup/",
         "/service-areas/sterling-heights-mi/burst-pipe-repair/",
         "/service-areas/sterling-heights-mi/ceiling-water-damage-repair/",
@@ -1274,7 +1317,6 @@
         "/service-areas/warren-mi/sewage-cleanup/",
         "/service-areas/warren-mi/smoke-damage-restoration/",
         "/service-areas/warren-mi/storm-damage-restoration/",
-        "/service-areas/warren-mi/water-cleanup/",
         "/service-areas/warren-mi/basement-flooding-cleanup/",
         "/service-areas/warren-mi/burst-pipe-repair/",
         "/service-areas/warren-mi/ceiling-water-damage-repair/",
@@ -1333,7 +1375,6 @@
         "/service-areas/clinton-township-mi/sewage-cleanup/",
         "/service-areas/clinton-township-mi/smoke-damage-restoration/",
         "/service-areas/clinton-township-mi/storm-damage-restoration/",
-        "/service-areas/clinton-township-mi/water-cleanup/",
         "/service-areas/clinton-township-mi/basement-flooding-cleanup/",
         "/service-areas/clinton-township-mi/burst-pipe-repair/",
         "/service-areas/clinton-township-mi/ceiling-water-damage-repair/",
@@ -1392,7 +1433,6 @@
         "/service-areas/troy-mi/sewage-cleanup/",
         "/service-areas/troy-mi/smoke-damage-restoration/",
         "/service-areas/troy-mi/storm-damage-restoration/",
-        "/service-areas/troy-mi/water-cleanup/",
         "/service-areas/troy-mi/basement-flooding-cleanup/",
         "/service-areas/troy-mi/burst-pipe-repair/",
         "/service-areas/troy-mi/ceiling-water-damage-repair/",
@@ -1451,7 +1491,6 @@
         "/service-areas/rochester-hills-mi/sewage-cleanup/",
         "/service-areas/rochester-hills-mi/smoke-damage-restoration/",
         "/service-areas/rochester-hills-mi/storm-damage-restoration/",
-        "/service-areas/rochester-hills-mi/water-cleanup/",
         "/service-areas/rochester-hills-mi/basement-flooding-cleanup/",
         "/service-areas/rochester-hills-mi/burst-pipe-repair/",
         "/service-areas/rochester-hills-mi/ceiling-water-damage-repair/",
@@ -1510,7 +1549,6 @@
         "/service-areas/shelby-township-mi/sewage-cleanup/",
         "/service-areas/shelby-township-mi/smoke-damage-restoration/",
         "/service-areas/shelby-township-mi/storm-damage-restoration/",
-        "/service-areas/shelby-township-mi/water-cleanup/",
         "/service-areas/shelby-township-mi/basement-flooding-cleanup/",
         "/service-areas/shelby-township-mi/burst-pipe-repair/",
         "/service-areas/shelby-township-mi/ceiling-water-damage-repair/",
@@ -1569,7 +1607,6 @@
         "/service-areas/utica-mi/sewage-cleanup/",
         "/service-areas/utica-mi/smoke-damage-restoration/",
         "/service-areas/utica-mi/storm-damage-restoration/",
-        "/service-areas/utica-mi/water-cleanup/",
         "/service-areas/utica-mi/basement-flooding-cleanup/",
         "/service-areas/utica-mi/burst-pipe-repair/",
         "/service-areas/utica-mi/ceiling-water-damage-repair/",
@@ -1628,7 +1665,6 @@
         "/service-areas/chesterfield-mi/sewage-cleanup/",
         "/service-areas/chesterfield-mi/smoke-damage-restoration/",
         "/service-areas/chesterfield-mi/storm-damage-restoration/",
-        "/service-areas/chesterfield-mi/water-cleanup/",
         "/service-areas/chesterfield-mi/basement-flooding-cleanup/",
         "/service-areas/chesterfield-mi/burst-pipe-repair/",
         "/service-areas/chesterfield-mi/ceiling-water-damage-repair/",
@@ -1644,138 +1680,6 @@
         "/service-areas/clinton-township-mi/",
         "/service-areas/rochester-hills-mi/",
         "/service-areas/shelby-township-mi/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sterling-heights-mi/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Damage Restoration in Sterling Heights, MI | Flood Solutions inc",
-      "h1": "Water Damage Restoration in Sterling Heights",
-      "meta_description": "Water damage restoration in Sterling Heights, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "water damage restoration sterling heights",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/sterling-heights-mi/",
-        "/service-areas/sterling-heights-mi/fire-damage-restoration/",
-        "/service-areas/sterling-heights-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/water-damage-restoration/",
-        "/service-areas/clinton-township-mi/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sterling-heights-mi/sewage-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Sewage Cleanup and Sanitization in Sterling Heights, MI | Flood Solutions inc",
-      "h1": "Sewage Cleanup and Sanitization in Sterling Heights",
-      "meta_description": "Sewage cleanup and sanitization in Sterling Heights, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "sewage cleanup and sanitization sterling heights",
-      "secondary_keywords": [
-        "sewage backup cleanup",
-        "raw sewage removal",
-        "septic overflow cleanup",
-        "sewer line backup",
-        "sanitization services"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/sewage-cleanup/",
-        "/service-areas/sterling-heights-mi/",
-        "/service-areas/sterling-heights-mi/fire-damage-restoration/",
-        "/service-areas/sterling-heights-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/sewage-cleanup/",
-        "/service-areas/clinton-township-mi/sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sterling-heights-mi/fire-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Fire Damage Restoration in Sterling Heights, MI | Flood Solutions inc",
-      "h1": "Fire Damage Restoration in Sterling Heights",
-      "meta_description": "Fire damage restoration in Sterling Heights, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "fire damage restoration sterling heights",
-      "secondary_keywords": [
-        "fire cleanup",
-        "fire and smoke restoration",
-        "structural fire damage",
-        "post-fire restoration",
-        "fire damage repair"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/fire-damage-restoration/",
-        "/service-areas/sterling-heights-mi/",
-        "/service-areas/sterling-heights-mi/mold-remediation/",
-        "/service-areas/sterling-heights-mi/water-damage-restoration/",
-        "/service-areas/chesterfield-mi/fire-damage-restoration/",
-        "/service-areas/clinton-township-mi/fire-damage-restoration/",
-        "/contact/"
       ]
     },
     {
@@ -1855,6 +1759,49 @@
       ]
     },
     {
+      "url_path": "/service-areas/sterling-heights-mi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Removal & Cleanup in Sterling Heights, MI | Flood Solutions inc",
+      "h1": "Water Removal & Cleanup in Sterling Heights",
+      "meta_description": "Water removal & cleanup in Sterling Heights, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "emergency water removal & cleanup sterling heights",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/sterling-heights-mi/",
+        "/service-areas/sterling-heights-mi/fire-damage-restoration/",
+        "/service-areas/sterling-heights-mi/mold-remediation/",
+        "/service-areas/chesterfield-mi/emergency-water-removal/",
+        "/service-areas/clinton-township-mi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/sterling-heights-mi/environmental-consultants/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -1893,6 +1840,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/sterling-heights-mi/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Sterling Heights, MI | Flood Solutions inc",
+      "h1": "Fire Damage Restoration in Sterling Heights",
+      "meta_description": "Fire damage restoration in Sterling Heights, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "fire damage restoration sterling heights",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/sterling-heights-mi/",
+        "/service-areas/sterling-heights-mi/mold-remediation/",
+        "/service-areas/sterling-heights-mi/water-damage-restoration/",
+        "/service-areas/chesterfield-mi/fire-damage-restoration/",
+        "/service-areas/clinton-township-mi/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/sterling-heights-mi/ice-dams/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -1927,6 +1918,94 @@
         "/service-areas/sterling-heights-mi/mold-remediation/",
         "/service-areas/chesterfield-mi/ice-dams/",
         "/service-areas/clinton-township-mi/ice-dams/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sterling-heights-mi/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Sterling Heights, MI | Flood Solutions inc",
+      "h1": "Sewage Cleanup and Sanitization in Sterling Heights",
+      "meta_description": "Sewage cleanup and sanitization in Sterling Heights, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "sewage cleanup and sanitization sterling heights",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/sterling-heights-mi/",
+        "/service-areas/sterling-heights-mi/fire-damage-restoration/",
+        "/service-areas/sterling-heights-mi/mold-remediation/",
+        "/service-areas/chesterfield-mi/sewage-cleanup/",
+        "/service-areas/clinton-township-mi/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sterling-heights-mi/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Sterling Heights, MI | Flood Solutions inc",
+      "h1": "Water Damage Restoration in Sterling Heights",
+      "meta_description": "Water damage restoration in Sterling Heights, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "water damage restoration sterling heights",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/sterling-heights-mi/",
+        "/service-areas/sterling-heights-mi/fire-damage-restoration/",
+        "/service-areas/sterling-heights-mi/mold-remediation/",
+        "/service-areas/chesterfield-mi/water-damage-restoration/",
+        "/service-areas/clinton-township-mi/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -2500,138 +2579,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/warren-mi/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Damage Restoration in Warren, MI | Flood Solutions inc",
-      "h1": "Water Damage Restoration in Warren",
-      "meta_description": "Water damage restoration in Warren, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "water damage restoration warren",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/warren-mi/",
-        "/service-areas/warren-mi/fire-damage-restoration/",
-        "/service-areas/warren-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/water-damage-restoration/",
-        "/service-areas/clinton-township-mi/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/warren-mi/sewage-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Sewage Cleanup and Sanitization in Warren, MI | Flood Solutions inc",
-      "h1": "Sewage Cleanup and Sanitization in Warren",
-      "meta_description": "Sewage cleanup and sanitization in Warren, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "sewage cleanup and sanitization warren",
-      "secondary_keywords": [
-        "sewage backup cleanup",
-        "raw sewage removal",
-        "septic overflow cleanup",
-        "sewer line backup",
-        "sanitization services"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/sewage-cleanup/",
-        "/service-areas/warren-mi/",
-        "/service-areas/warren-mi/fire-damage-restoration/",
-        "/service-areas/warren-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/sewage-cleanup/",
-        "/service-areas/clinton-township-mi/sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/warren-mi/fire-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Fire Damage Restoration in Warren, MI | Flood Solutions inc",
-      "h1": "Fire Damage Restoration in Warren",
-      "meta_description": "Fire damage restoration in Warren, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "fire damage restoration warren",
-      "secondary_keywords": [
-        "fire cleanup",
-        "fire and smoke restoration",
-        "structural fire damage",
-        "post-fire restoration",
-        "fire damage repair"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/fire-damage-restoration/",
-        "/service-areas/warren-mi/",
-        "/service-areas/warren-mi/mold-remediation/",
-        "/service-areas/warren-mi/water-damage-restoration/",
-        "/service-areas/chesterfield-mi/fire-damage-restoration/",
-        "/service-areas/clinton-township-mi/fire-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/warren-mi/content-recovery/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2708,6 +2655,49 @@
       ]
     },
     {
+      "url_path": "/service-areas/warren-mi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Removal & Cleanup in Warren, MI | Flood Solutions inc",
+      "h1": "Water Removal & Cleanup in Warren",
+      "meta_description": "Water removal & cleanup in Warren, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "emergency water removal & cleanup warren",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/warren-mi/",
+        "/service-areas/warren-mi/fire-damage-restoration/",
+        "/service-areas/warren-mi/mold-remediation/",
+        "/service-areas/chesterfield-mi/emergency-water-removal/",
+        "/service-areas/clinton-township-mi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/warren-mi/environmental-consultants/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2746,6 +2736,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/warren-mi/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Warren, MI | Flood Solutions inc",
+      "h1": "Fire Damage Restoration in Warren",
+      "meta_description": "Fire damage restoration in Warren, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "fire damage restoration warren",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/warren-mi/",
+        "/service-areas/warren-mi/mold-remediation/",
+        "/service-areas/warren-mi/water-damage-restoration/",
+        "/service-areas/chesterfield-mi/fire-damage-restoration/",
+        "/service-areas/clinton-township-mi/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/warren-mi/ice-dams/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2780,6 +2814,94 @@
         "/service-areas/warren-mi/mold-remediation/",
         "/service-areas/chesterfield-mi/ice-dams/",
         "/service-areas/clinton-township-mi/ice-dams/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/warren-mi/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Warren, MI | Flood Solutions inc",
+      "h1": "Sewage Cleanup and Sanitization in Warren",
+      "meta_description": "Sewage cleanup and sanitization in Warren, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "sewage cleanup and sanitization warren",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/warren-mi/",
+        "/service-areas/warren-mi/fire-damage-restoration/",
+        "/service-areas/warren-mi/mold-remediation/",
+        "/service-areas/chesterfield-mi/sewage-cleanup/",
+        "/service-areas/clinton-township-mi/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/warren-mi/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Warren, MI | Flood Solutions inc",
+      "h1": "Water Damage Restoration in Warren",
+      "meta_description": "Water damage restoration in Warren, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "water damage restoration warren",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/warren-mi/",
+        "/service-areas/warren-mi/fire-damage-restoration/",
+        "/service-areas/warren-mi/mold-remediation/",
+        "/service-areas/chesterfield-mi/water-damage-restoration/",
+        "/service-areas/clinton-township-mi/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -3353,138 +3475,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/clinton-township-mi/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Damage Restoration in Clinton Township, MI | Flood Solutions inc",
-      "h1": "Water Damage Restoration in Clinton Township",
-      "meta_description": "Water damage restoration in Clinton Township, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "water damage restoration clinton township",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/clinton-township-mi/",
-        "/service-areas/clinton-township-mi/fire-damage-restoration/",
-        "/service-areas/clinton-township-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/water-damage-restoration/",
-        "/service-areas/rochester-hills-mi/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/clinton-township-mi/sewage-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Sewage Cleanup and Sanitization in Clinton Township, MI | Flood Solutions inc",
-      "h1": "Sewage Cleanup and Sanitization in Clinton Township",
-      "meta_description": "Sewage cleanup and sanitization in Clinton Township, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "sewage cleanup and sanitization clinton township",
-      "secondary_keywords": [
-        "sewage backup cleanup",
-        "raw sewage removal",
-        "septic overflow cleanup",
-        "sewer line backup",
-        "sanitization services"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/sewage-cleanup/",
-        "/service-areas/clinton-township-mi/",
-        "/service-areas/clinton-township-mi/fire-damage-restoration/",
-        "/service-areas/clinton-township-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/sewage-cleanup/",
-        "/service-areas/rochester-hills-mi/sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/clinton-township-mi/fire-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Fire Damage Restoration in Clinton Township, MI | Flood Solutions inc",
-      "h1": "Fire Damage Restoration in Clinton Township",
-      "meta_description": "Fire damage restoration in Clinton Township, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "fire damage restoration clinton township",
-      "secondary_keywords": [
-        "fire cleanup",
-        "fire and smoke restoration",
-        "structural fire damage",
-        "post-fire restoration",
-        "fire damage repair"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/fire-damage-restoration/",
-        "/service-areas/clinton-township-mi/",
-        "/service-areas/clinton-township-mi/mold-remediation/",
-        "/service-areas/clinton-township-mi/water-damage-restoration/",
-        "/service-areas/chesterfield-mi/fire-damage-restoration/",
-        "/service-areas/rochester-hills-mi/fire-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/clinton-township-mi/content-recovery/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3561,6 +3551,49 @@
       ]
     },
     {
+      "url_path": "/service-areas/clinton-township-mi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Removal & Cleanup in Clinton Township, MI | Flood Solutions inc",
+      "h1": "Water Removal & Cleanup in Clinton Township",
+      "meta_description": "Water removal & cleanup in Clinton Township, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "emergency water removal & cleanup clinton township",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/clinton-township-mi/",
+        "/service-areas/clinton-township-mi/fire-damage-restoration/",
+        "/service-areas/clinton-township-mi/mold-remediation/",
+        "/service-areas/chesterfield-mi/emergency-water-removal/",
+        "/service-areas/rochester-hills-mi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/clinton-township-mi/environmental-consultants/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3599,6 +3632,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/clinton-township-mi/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Clinton Township, MI | Flood Solutions inc",
+      "h1": "Fire Damage Restoration in Clinton Township",
+      "meta_description": "Fire damage restoration in Clinton Township, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "fire damage restoration clinton township",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/clinton-township-mi/",
+        "/service-areas/clinton-township-mi/mold-remediation/",
+        "/service-areas/clinton-township-mi/water-damage-restoration/",
+        "/service-areas/chesterfield-mi/fire-damage-restoration/",
+        "/service-areas/rochester-hills-mi/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/clinton-township-mi/ice-dams/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3633,6 +3710,94 @@
         "/service-areas/clinton-township-mi/mold-remediation/",
         "/service-areas/chesterfield-mi/ice-dams/",
         "/service-areas/rochester-hills-mi/ice-dams/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/clinton-township-mi/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Clinton Township, MI | Flood Solutions inc",
+      "h1": "Sewage Cleanup and Sanitization in Clinton Township",
+      "meta_description": "Sewage cleanup and sanitization in Clinton Township, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "sewage cleanup and sanitization clinton township",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/clinton-township-mi/",
+        "/service-areas/clinton-township-mi/fire-damage-restoration/",
+        "/service-areas/clinton-township-mi/mold-remediation/",
+        "/service-areas/chesterfield-mi/sewage-cleanup/",
+        "/service-areas/rochester-hills-mi/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/clinton-township-mi/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Clinton Township, MI | Flood Solutions inc",
+      "h1": "Water Damage Restoration in Clinton Township",
+      "meta_description": "Water damage restoration in Clinton Township, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "water damage restoration clinton township",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/clinton-township-mi/",
+        "/service-areas/clinton-township-mi/fire-damage-restoration/",
+        "/service-areas/clinton-township-mi/mold-remediation/",
+        "/service-areas/chesterfield-mi/water-damage-restoration/",
+        "/service-areas/rochester-hills-mi/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -4206,138 +4371,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/troy-mi/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Damage Restoration in Troy, MI | Flood Solutions inc",
-      "h1": "Water Damage Restoration in Troy",
-      "meta_description": "Water damage restoration in Troy, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "water damage restoration troy",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/troy-mi/",
-        "/service-areas/troy-mi/fire-damage-restoration/",
-        "/service-areas/troy-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/water-damage-restoration/",
-        "/service-areas/clinton-township-mi/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/troy-mi/sewage-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Sewage Cleanup and Sanitization in Troy, MI | Flood Solutions inc",
-      "h1": "Sewage Cleanup and Sanitization in Troy",
-      "meta_description": "Sewage cleanup and sanitization in Troy, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "sewage cleanup and sanitization troy",
-      "secondary_keywords": [
-        "sewage backup cleanup",
-        "raw sewage removal",
-        "septic overflow cleanup",
-        "sewer line backup",
-        "sanitization services"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/sewage-cleanup/",
-        "/service-areas/troy-mi/",
-        "/service-areas/troy-mi/fire-damage-restoration/",
-        "/service-areas/troy-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/sewage-cleanup/",
-        "/service-areas/clinton-township-mi/sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/troy-mi/fire-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Fire Damage Restoration in Troy, MI | Flood Solutions inc",
-      "h1": "Fire Damage Restoration in Troy",
-      "meta_description": "Fire damage restoration in Troy, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "fire damage restoration troy",
-      "secondary_keywords": [
-        "fire cleanup",
-        "fire and smoke restoration",
-        "structural fire damage",
-        "post-fire restoration",
-        "fire damage repair"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/fire-damage-restoration/",
-        "/service-areas/troy-mi/",
-        "/service-areas/troy-mi/mold-remediation/",
-        "/service-areas/troy-mi/water-damage-restoration/",
-        "/service-areas/chesterfield-mi/fire-damage-restoration/",
-        "/service-areas/clinton-township-mi/fire-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/troy-mi/content-recovery/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4414,6 +4447,49 @@
       ]
     },
     {
+      "url_path": "/service-areas/troy-mi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Removal & Cleanup in Troy, MI | Flood Solutions inc",
+      "h1": "Water Removal & Cleanup in Troy",
+      "meta_description": "Water removal & cleanup in Troy, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "emergency water removal & cleanup troy",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/troy-mi/",
+        "/service-areas/troy-mi/fire-damage-restoration/",
+        "/service-areas/troy-mi/mold-remediation/",
+        "/service-areas/chesterfield-mi/emergency-water-removal/",
+        "/service-areas/clinton-township-mi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/troy-mi/environmental-consultants/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4452,6 +4528,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/troy-mi/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Troy, MI | Flood Solutions inc",
+      "h1": "Fire Damage Restoration in Troy",
+      "meta_description": "Fire damage restoration in Troy, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "fire damage restoration troy",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/troy-mi/",
+        "/service-areas/troy-mi/mold-remediation/",
+        "/service-areas/troy-mi/water-damage-restoration/",
+        "/service-areas/chesterfield-mi/fire-damage-restoration/",
+        "/service-areas/clinton-township-mi/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/troy-mi/ice-dams/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4486,6 +4606,94 @@
         "/service-areas/troy-mi/mold-remediation/",
         "/service-areas/chesterfield-mi/ice-dams/",
         "/service-areas/clinton-township-mi/ice-dams/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/troy-mi/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Troy, MI | Flood Solutions inc",
+      "h1": "Sewage Cleanup and Sanitization in Troy",
+      "meta_description": "Sewage cleanup and sanitization in Troy, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "sewage cleanup and sanitization troy",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/troy-mi/",
+        "/service-areas/troy-mi/fire-damage-restoration/",
+        "/service-areas/troy-mi/mold-remediation/",
+        "/service-areas/chesterfield-mi/sewage-cleanup/",
+        "/service-areas/clinton-township-mi/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/troy-mi/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Troy, MI | Flood Solutions inc",
+      "h1": "Water Damage Restoration in Troy",
+      "meta_description": "Water damage restoration in Troy, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "water damage restoration troy",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/troy-mi/",
+        "/service-areas/troy-mi/fire-damage-restoration/",
+        "/service-areas/troy-mi/mold-remediation/",
+        "/service-areas/chesterfield-mi/water-damage-restoration/",
+        "/service-areas/clinton-township-mi/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5059,138 +5267,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/rochester-hills-mi/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Damage Restoration in Rochester Hills, MI | Flood Solutions inc",
-      "h1": "Water Damage Restoration in Rochester Hills",
-      "meta_description": "Water damage restoration in Rochester Hills, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "water damage restoration rochester hills",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/rochester-hills-mi/",
-        "/service-areas/rochester-hills-mi/fire-damage-restoration/",
-        "/service-areas/rochester-hills-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/water-damage-restoration/",
-        "/service-areas/clinton-township-mi/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/rochester-hills-mi/sewage-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Sewage Cleanup and Sanitization in Rochester Hills, MI | Flood Solutions inc",
-      "h1": "Sewage Cleanup and Sanitization in Rochester Hills",
-      "meta_description": "Sewage cleanup and sanitization in Rochester Hills, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "sewage cleanup and sanitization rochester hills",
-      "secondary_keywords": [
-        "sewage backup cleanup",
-        "raw sewage removal",
-        "septic overflow cleanup",
-        "sewer line backup",
-        "sanitization services"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/sewage-cleanup/",
-        "/service-areas/rochester-hills-mi/",
-        "/service-areas/rochester-hills-mi/fire-damage-restoration/",
-        "/service-areas/rochester-hills-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/sewage-cleanup/",
-        "/service-areas/clinton-township-mi/sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/rochester-hills-mi/fire-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Fire Damage Restoration in Rochester Hills, MI | Flood Solutions inc",
-      "h1": "Fire Damage Restoration in Rochester Hills",
-      "meta_description": "Fire damage restoration in Rochester Hills, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "fire damage restoration rochester hills",
-      "secondary_keywords": [
-        "fire cleanup",
-        "fire and smoke restoration",
-        "structural fire damage",
-        "post-fire restoration",
-        "fire damage repair"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/fire-damage-restoration/",
-        "/service-areas/rochester-hills-mi/",
-        "/service-areas/rochester-hills-mi/mold-remediation/",
-        "/service-areas/rochester-hills-mi/water-damage-restoration/",
-        "/service-areas/chesterfield-mi/fire-damage-restoration/",
-        "/service-areas/clinton-township-mi/fire-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/rochester-hills-mi/content-recovery/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5267,6 +5343,49 @@
       ]
     },
     {
+      "url_path": "/service-areas/rochester-hills-mi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Removal & Cleanup in Rochester Hills, MI | Flood Solutions inc",
+      "h1": "Water Removal & Cleanup in Rochester Hills",
+      "meta_description": "Water removal & cleanup in Rochester Hills, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "emergency water removal & cleanup rochester hills",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/rochester-hills-mi/",
+        "/service-areas/rochester-hills-mi/fire-damage-restoration/",
+        "/service-areas/rochester-hills-mi/mold-remediation/",
+        "/service-areas/chesterfield-mi/emergency-water-removal/",
+        "/service-areas/clinton-township-mi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/rochester-hills-mi/environmental-consultants/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5305,6 +5424,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/rochester-hills-mi/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Rochester Hills, MI | Flood Solutions inc",
+      "h1": "Fire Damage Restoration in Rochester Hills",
+      "meta_description": "Fire damage restoration in Rochester Hills, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "fire damage restoration rochester hills",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/rochester-hills-mi/",
+        "/service-areas/rochester-hills-mi/mold-remediation/",
+        "/service-areas/rochester-hills-mi/water-damage-restoration/",
+        "/service-areas/chesterfield-mi/fire-damage-restoration/",
+        "/service-areas/clinton-township-mi/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/rochester-hills-mi/ice-dams/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5339,6 +5502,94 @@
         "/service-areas/rochester-hills-mi/mold-remediation/",
         "/service-areas/chesterfield-mi/ice-dams/",
         "/service-areas/clinton-township-mi/ice-dams/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rochester-hills-mi/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Rochester Hills, MI | Flood Solutions inc",
+      "h1": "Sewage Cleanup and Sanitization in Rochester Hills",
+      "meta_description": "Sewage cleanup and sanitization in Rochester Hills, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "sewage cleanup and sanitization rochester hills",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/rochester-hills-mi/",
+        "/service-areas/rochester-hills-mi/fire-damage-restoration/",
+        "/service-areas/rochester-hills-mi/mold-remediation/",
+        "/service-areas/chesterfield-mi/sewage-cleanup/",
+        "/service-areas/clinton-township-mi/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/rochester-hills-mi/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Rochester Hills, MI | Flood Solutions inc",
+      "h1": "Water Damage Restoration in Rochester Hills",
+      "meta_description": "Water damage restoration in Rochester Hills, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "water damage restoration rochester hills",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/rochester-hills-mi/",
+        "/service-areas/rochester-hills-mi/fire-damage-restoration/",
+        "/service-areas/rochester-hills-mi/mold-remediation/",
+        "/service-areas/chesterfield-mi/water-damage-restoration/",
+        "/service-areas/clinton-township-mi/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -5912,138 +6163,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/shelby-township-mi/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Damage Restoration in Shelby Township, MI | Flood Solutions inc",
-      "h1": "Water Damage Restoration in Shelby Township",
-      "meta_description": "Water damage restoration in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "water damage restoration shelby township",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/shelby-township-mi/",
-        "/service-areas/shelby-township-mi/fire-damage-restoration/",
-        "/service-areas/shelby-township-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/water-damage-restoration/",
-        "/service-areas/clinton-township-mi/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/shelby-township-mi/sewage-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Sewage Cleanup and Sanitization in Shelby Township, MI | Flood Solutions inc",
-      "h1": "Sewage Cleanup and Sanitization in Shelby Township",
-      "meta_description": "Sewage cleanup and sanitization in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "sewage cleanup and sanitization shelby township",
-      "secondary_keywords": [
-        "sewage backup cleanup",
-        "raw sewage removal",
-        "septic overflow cleanup",
-        "sewer line backup",
-        "sanitization services"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/sewage-cleanup/",
-        "/service-areas/shelby-township-mi/",
-        "/service-areas/shelby-township-mi/fire-damage-restoration/",
-        "/service-areas/shelby-township-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/sewage-cleanup/",
-        "/service-areas/clinton-township-mi/sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/shelby-township-mi/fire-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Fire Damage Restoration in Shelby Township, MI | Flood Solutions inc",
-      "h1": "Fire Damage Restoration in Shelby Township",
-      "meta_description": "Fire damage restoration in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "fire damage restoration shelby township",
-      "secondary_keywords": [
-        "fire cleanup",
-        "fire and smoke restoration",
-        "structural fire damage",
-        "post-fire restoration",
-        "fire damage repair"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/fire-damage-restoration/",
-        "/service-areas/shelby-township-mi/",
-        "/service-areas/shelby-township-mi/mold-remediation/",
-        "/service-areas/shelby-township-mi/water-damage-restoration/",
-        "/service-areas/chesterfield-mi/fire-damage-restoration/",
-        "/service-areas/clinton-township-mi/fire-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/shelby-township-mi/content-recovery/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6120,6 +6239,49 @@
       ]
     },
     {
+      "url_path": "/service-areas/shelby-township-mi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Removal & Cleanup in Shelby Township, MI | Flood Solutions inc",
+      "h1": "Water Removal & Cleanup in Shelby Township",
+      "meta_description": "Water removal & cleanup in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "emergency water removal & cleanup shelby township",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/shelby-township-mi/",
+        "/service-areas/shelby-township-mi/fire-damage-restoration/",
+        "/service-areas/shelby-township-mi/mold-remediation/",
+        "/service-areas/chesterfield-mi/emergency-water-removal/",
+        "/service-areas/clinton-township-mi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/shelby-township-mi/environmental-consultants/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6158,6 +6320,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/shelby-township-mi/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Shelby Township, MI | Flood Solutions inc",
+      "h1": "Fire Damage Restoration in Shelby Township",
+      "meta_description": "Fire damage restoration in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "fire damage restoration shelby township",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/shelby-township-mi/",
+        "/service-areas/shelby-township-mi/mold-remediation/",
+        "/service-areas/shelby-township-mi/water-damage-restoration/",
+        "/service-areas/chesterfield-mi/fire-damage-restoration/",
+        "/service-areas/clinton-township-mi/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/shelby-township-mi/ice-dams/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6192,6 +6398,94 @@
         "/service-areas/shelby-township-mi/mold-remediation/",
         "/service-areas/chesterfield-mi/ice-dams/",
         "/service-areas/clinton-township-mi/ice-dams/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/shelby-township-mi/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Shelby Township, MI | Flood Solutions inc",
+      "h1": "Sewage Cleanup and Sanitization in Shelby Township",
+      "meta_description": "Sewage cleanup and sanitization in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "sewage cleanup and sanitization shelby township",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/shelby-township-mi/",
+        "/service-areas/shelby-township-mi/fire-damage-restoration/",
+        "/service-areas/shelby-township-mi/mold-remediation/",
+        "/service-areas/chesterfield-mi/sewage-cleanup/",
+        "/service-areas/clinton-township-mi/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/shelby-township-mi/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Shelby Township, MI | Flood Solutions inc",
+      "h1": "Water Damage Restoration in Shelby Township",
+      "meta_description": "Water damage restoration in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "water damage restoration shelby township",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/shelby-township-mi/",
+        "/service-areas/shelby-township-mi/fire-damage-restoration/",
+        "/service-areas/shelby-township-mi/mold-remediation/",
+        "/service-areas/chesterfield-mi/water-damage-restoration/",
+        "/service-areas/clinton-township-mi/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -6765,138 +7059,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/utica-mi/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Damage Restoration in Utica, MI | Flood Solutions inc",
-      "h1": "Water Damage Restoration in Utica",
-      "meta_description": "Water damage restoration in Utica, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "water damage restoration utica",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/utica-mi/",
-        "/service-areas/utica-mi/fire-damage-restoration/",
-        "/service-areas/utica-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/water-damage-restoration/",
-        "/service-areas/clinton-township-mi/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/utica-mi/sewage-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Sewage Cleanup and Sanitization in Utica, MI | Flood Solutions inc",
-      "h1": "Sewage Cleanup and Sanitization in Utica",
-      "meta_description": "Sewage cleanup and sanitization in Utica, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "sewage cleanup and sanitization utica",
-      "secondary_keywords": [
-        "sewage backup cleanup",
-        "raw sewage removal",
-        "septic overflow cleanup",
-        "sewer line backup",
-        "sanitization services"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/sewage-cleanup/",
-        "/service-areas/utica-mi/",
-        "/service-areas/utica-mi/fire-damage-restoration/",
-        "/service-areas/utica-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/sewage-cleanup/",
-        "/service-areas/clinton-township-mi/sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/utica-mi/fire-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Fire Damage Restoration in Utica, MI | Flood Solutions inc",
-      "h1": "Fire Damage Restoration in Utica",
-      "meta_description": "Fire damage restoration in Utica, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "fire damage restoration utica",
-      "secondary_keywords": [
-        "fire cleanup",
-        "fire and smoke restoration",
-        "structural fire damage",
-        "post-fire restoration",
-        "fire damage repair"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/fire-damage-restoration/",
-        "/service-areas/utica-mi/",
-        "/service-areas/utica-mi/mold-remediation/",
-        "/service-areas/utica-mi/water-damage-restoration/",
-        "/service-areas/chesterfield-mi/fire-damage-restoration/",
-        "/service-areas/clinton-township-mi/fire-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/utica-mi/content-recovery/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6973,6 +7135,49 @@
       ]
     },
     {
+      "url_path": "/service-areas/utica-mi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Removal & Cleanup in Utica, MI | Flood Solutions inc",
+      "h1": "Water Removal & Cleanup in Utica",
+      "meta_description": "Water removal & cleanup in Utica, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "emergency water removal & cleanup utica",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/utica-mi/",
+        "/service-areas/utica-mi/fire-damage-restoration/",
+        "/service-areas/utica-mi/mold-remediation/",
+        "/service-areas/chesterfield-mi/emergency-water-removal/",
+        "/service-areas/clinton-township-mi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/utica-mi/environmental-consultants/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7011,6 +7216,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/utica-mi/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Utica, MI | Flood Solutions inc",
+      "h1": "Fire Damage Restoration in Utica",
+      "meta_description": "Fire damage restoration in Utica, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "fire damage restoration utica",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/utica-mi/",
+        "/service-areas/utica-mi/mold-remediation/",
+        "/service-areas/utica-mi/water-damage-restoration/",
+        "/service-areas/chesterfield-mi/fire-damage-restoration/",
+        "/service-areas/clinton-township-mi/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/utica-mi/ice-dams/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7045,6 +7294,94 @@
         "/service-areas/utica-mi/mold-remediation/",
         "/service-areas/chesterfield-mi/ice-dams/",
         "/service-areas/clinton-township-mi/ice-dams/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/utica-mi/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Utica, MI | Flood Solutions inc",
+      "h1": "Sewage Cleanup and Sanitization in Utica",
+      "meta_description": "Sewage cleanup and sanitization in Utica, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "sewage cleanup and sanitization utica",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/utica-mi/",
+        "/service-areas/utica-mi/fire-damage-restoration/",
+        "/service-areas/utica-mi/mold-remediation/",
+        "/service-areas/chesterfield-mi/sewage-cleanup/",
+        "/service-areas/clinton-township-mi/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/utica-mi/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Utica, MI | Flood Solutions inc",
+      "h1": "Water Damage Restoration in Utica",
+      "meta_description": "Water damage restoration in Utica, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "water damage restoration utica",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/utica-mi/",
+        "/service-areas/utica-mi/fire-damage-restoration/",
+        "/service-areas/utica-mi/mold-remediation/",
+        "/service-areas/chesterfield-mi/water-damage-restoration/",
+        "/service-areas/clinton-township-mi/water-damage-restoration/",
         "/contact/"
       ]
     },
@@ -7618,138 +7955,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/chesterfield-mi/water-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Damage Restoration in Chesterfield, MI | Flood Solutions inc",
-      "h1": "Water Damage Restoration in Chesterfield",
-      "meta_description": "Water damage restoration in Chesterfield, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "water damage restoration chesterfield",
-      "secondary_keywords": [
-        "water removal",
-        "water extraction",
-        "water cleanup",
-        "structural drying",
-        "water mitigation"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-damage-restoration/",
-        "/service-areas/chesterfield-mi/",
-        "/service-areas/chesterfield-mi/fire-damage-restoration/",
-        "/service-areas/chesterfield-mi/mold-remediation/",
-        "/service-areas/clinton-township-mi/water-damage-restoration/",
-        "/service-areas/rochester-hills-mi/water-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/chesterfield-mi/sewage-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Sewage Cleanup and Sanitization in Chesterfield, MI | Flood Solutions inc",
-      "h1": "Sewage Cleanup and Sanitization in Chesterfield",
-      "meta_description": "Sewage cleanup and sanitization in Chesterfield, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "sewage cleanup and sanitization chesterfield",
-      "secondary_keywords": [
-        "sewage backup cleanup",
-        "raw sewage removal",
-        "septic overflow cleanup",
-        "sewer line backup",
-        "sanitization services"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/sewage-cleanup/",
-        "/service-areas/chesterfield-mi/",
-        "/service-areas/chesterfield-mi/fire-damage-restoration/",
-        "/service-areas/chesterfield-mi/mold-remediation/",
-        "/service-areas/clinton-township-mi/sewage-cleanup/",
-        "/service-areas/rochester-hills-mi/sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/chesterfield-mi/fire-damage-restoration/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Fire Damage Restoration in Chesterfield, MI | Flood Solutions inc",
-      "h1": "Fire Damage Restoration in Chesterfield",
-      "meta_description": "Fire damage restoration in Chesterfield, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "fire damage restoration chesterfield",
-      "secondary_keywords": [
-        "fire cleanup",
-        "fire and smoke restoration",
-        "structural fire damage",
-        "post-fire restoration",
-        "fire damage repair"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 7.0,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/fire-damage-restoration/",
-        "/service-areas/chesterfield-mi/",
-        "/service-areas/chesterfield-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/water-damage-restoration/",
-        "/service-areas/clinton-township-mi/fire-damage-restoration/",
-        "/service-areas/rochester-hills-mi/fire-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/chesterfield-mi/content-recovery/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7826,6 +8031,49 @@
       ]
     },
     {
+      "url_path": "/service-areas/chesterfield-mi/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Removal & Cleanup in Chesterfield, MI | Flood Solutions inc",
+      "h1": "Water Removal & Cleanup in Chesterfield",
+      "meta_description": "Water removal & cleanup in Chesterfield, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "emergency water removal & cleanup chesterfield",
+      "secondary_keywords": [
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/chesterfield-mi/",
+        "/service-areas/chesterfield-mi/fire-damage-restoration/",
+        "/service-areas/chesterfield-mi/mold-remediation/",
+        "/service-areas/clinton-township-mi/emergency-water-removal/",
+        "/service-areas/rochester-hills-mi/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/chesterfield-mi/environmental-consultants/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7864,6 +8112,50 @@
       ]
     },
     {
+      "url_path": "/service-areas/chesterfield-mi/fire-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Fire Damage Restoration in Chesterfield, MI | Flood Solutions inc",
+      "h1": "Fire Damage Restoration in Chesterfield",
+      "meta_description": "Fire damage restoration in Chesterfield, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "fire damage restoration chesterfield",
+      "secondary_keywords": [
+        "fire cleanup",
+        "fire and smoke restoration",
+        "structural fire damage",
+        "post-fire restoration",
+        "fire damage repair"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/fire-damage-restoration/",
+        "/service-areas/chesterfield-mi/",
+        "/service-areas/chesterfield-mi/mold-remediation/",
+        "/service-areas/chesterfield-mi/water-damage-restoration/",
+        "/service-areas/clinton-township-mi/fire-damage-restoration/",
+        "/service-areas/rochester-hills-mi/fire-damage-restoration/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/chesterfield-mi/ice-dams/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7898,6 +8190,94 @@
         "/service-areas/chesterfield-mi/mold-remediation/",
         "/service-areas/clinton-township-mi/ice-dams/",
         "/service-areas/rochester-hills-mi/ice-dams/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/chesterfield-mi/sewage-cleanup/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Sewage Cleanup and Sanitization in Chesterfield, MI | Flood Solutions inc",
+      "h1": "Sewage Cleanup and Sanitization in Chesterfield",
+      "meta_description": "Sewage cleanup and sanitization in Chesterfield, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "sewage cleanup and sanitization chesterfield",
+      "secondary_keywords": [
+        "sewage backup cleanup",
+        "raw sewage removal",
+        "septic overflow cleanup",
+        "sewer line backup",
+        "sanitization services"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/sewage-cleanup/",
+        "/service-areas/chesterfield-mi/",
+        "/service-areas/chesterfield-mi/fire-damage-restoration/",
+        "/service-areas/chesterfield-mi/mold-remediation/",
+        "/service-areas/clinton-township-mi/sewage-cleanup/",
+        "/service-areas/rochester-hills-mi/sewage-cleanup/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/chesterfield-mi/water-damage-restoration/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Water Damage Restoration in Chesterfield, MI | Flood Solutions inc",
+      "h1": "Water Damage Restoration in Chesterfield",
+      "meta_description": "Water damage restoration in Chesterfield, MI. Insurance billing accepted. Call (586) 580-0197.",
+      "primary_keyword": "water damage restoration chesterfield",
+      "secondary_keywords": [
+        "water removal",
+        "water extraction",
+        "water cleanup",
+        "structural drying",
+        "water mitigation"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 7.0,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/water-damage-restoration/",
+        "/service-areas/chesterfield-mi/",
+        "/service-areas/chesterfield-mi/fire-damage-restoration/",
+        "/service-areas/chesterfield-mi/mold-remediation/",
+        "/service-areas/clinton-township-mi/water-damage-restoration/",
+        "/service-areas/rochester-hills-mi/water-damage-restoration/",
         "/contact/"
       ]
     },

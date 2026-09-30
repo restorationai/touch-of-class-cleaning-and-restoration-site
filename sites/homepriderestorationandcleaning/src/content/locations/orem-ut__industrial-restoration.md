@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "aba9af958ec00ec9"
-generated_at: "2026-09-30T14:12:14.551696+00:00"
+generated_at: "2026-09-30T19:28:45.083748+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/orem-ut/", "/service-areas/orem-ut/fire-damage-restoration/", "/service-areas/orem-ut/mold-remediation/", "/service-areas/alpine-ut/industrial-restoration/", "/service-areas/american-fork-ut/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Orem", "url": "/service-areas/orem-ut/"}, {"name": "industrial-restoration"}]

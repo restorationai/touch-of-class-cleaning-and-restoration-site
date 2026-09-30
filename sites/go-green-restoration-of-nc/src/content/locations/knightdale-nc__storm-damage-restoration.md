@@ -8,7 +8,7 @@ secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "20accc1aa260d8a8"
-generated_at: "2026-09-29T23:13:49.317940+00:00"
+generated_at: "2026-09-30T19:28:39.710160+00:00"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/service-areas/knightdale-nc/", "/service-areas/knightdale-nc/fire-damage-restoration/", "/service-areas/knightdale-nc/mold-remediation/", "/service-areas/archer-lodge-nc/storm-damage-restoration/", "/service-areas/clayton-nc/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Knightdale", "url": "/service-areas/knightdale-nc/"}, {"name": "Storm Damage Restoration"}]

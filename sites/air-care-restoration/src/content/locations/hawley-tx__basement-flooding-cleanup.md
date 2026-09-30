@@ -8,7 +8,7 @@ secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet 
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "0ff8d2b0efcb8315"
-generated_at: "2026-09-30T14:12:01.811598+00:00"
+generated_at: "2026-09-30T19:28:20.053775+00:00"
 manual_override: false
 internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/hawley-tx/", "/service-areas/hawley-tx/fire-damage-restoration/", "/service-areas/hawley-tx/mold-remediation/", "/service-areas/albany-tx/basement-flooding-cleanup/", "/service-areas/anson-tx/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hawley", "url": "/service-areas/hawley-tx/"}, {"name": "basement-flooding-cleanup"}]

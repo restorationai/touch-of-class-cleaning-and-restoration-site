@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "28c0c15c3ea9ba69"
-generated_at: "2026-09-29T23:13:49.321915+00:00"
+generated_at: "2026-09-30T19:28:39.721871+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/rolesville-nc/", "/service-areas/rolesville-nc/fire-damage-restoration/", "/service-areas/rolesville-nc/mold-remediation/", "/service-areas/archer-lodge-nc/burst-pipe-repair/", "/service-areas/clayton-nc/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rolesville", "url": "/service-areas/rolesville-nc/"}, {"name": "Burst Pipe Cleanup and Repair"}]

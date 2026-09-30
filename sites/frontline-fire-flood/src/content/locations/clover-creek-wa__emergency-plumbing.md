@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "c19eaa96e062ca25"
-generated_at: "2026-09-23T14:11:42.624976+00:00"
+generated_at: "2026-09-30T19:28:38.052038+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/clover-creek-wa/", "/service-areas/clover-creek-wa/fire-damage-restoration/", "/service-areas/clover-creek-wa/mold-remediation/", "/service-areas/anderson-island-wa/emergency-plumbing/", "/service-areas/auburn-wa/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Clover Creek", "url": "/service-areas/clover-creek-wa/"}, {"name": "Emergency Plumbing"}]

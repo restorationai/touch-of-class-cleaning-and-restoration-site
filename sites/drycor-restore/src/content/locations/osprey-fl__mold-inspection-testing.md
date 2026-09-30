@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "d4db17f1dd2977d3"
-generated_at: "2026-09-29T23:28:29.611115+00:00"
+generated_at: "2026-09-30T19:28:35.897054+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/osprey-fl/", "/service-areas/osprey-fl/fire-damage-restoration/", "/service-areas/osprey-fl/mold-remediation/", "/service-areas/anna-maria-fl/mold-inspection-testing/", "/service-areas/apollo-beach-fl/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Osprey", "url": "/service-areas/osprey-fl/"}, {"name": "Mold Inspection and Testing"}]

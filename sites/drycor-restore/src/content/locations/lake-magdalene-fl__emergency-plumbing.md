@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "d0bd60f525e0dc57"
-generated_at: "2026-09-23T14:11:38.314137+00:00"
+generated_at: "2026-09-30T19:28:35.988408+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/lake-magdalene-fl/", "/service-areas/lake-magdalene-fl/fire-damage-restoration/", "/service-areas/lake-magdalene-fl/mold-remediation/", "/service-areas/anna-maria-fl/emergency-plumbing/", "/service-areas/apollo-beach-fl/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Magdalene", "url": "/service-areas/lake-magdalene-fl/"}, {"name": "Emergency Plumbing"}]

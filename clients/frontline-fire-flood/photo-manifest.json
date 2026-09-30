@@ -1821,6 +1821,31 @@
       "triaged_at": "2026-09-01T23:16:11Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipOcuqmMZoWvJA_2VUFQ4dQUsGG2JfjfYPYJgm0o": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOcuqmMZoWvJA_2VUFQ4dQUsGG2JfjfYPYJgm0o.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1788302143673/job-photos/posted/gbp-AF1QipOcuqmMZoWvJA_2VUFQ4dQUsGG2JfjfYPYJgm0o.jpg",
+      "width": 2560,
+      "height": 450,
+      "bytes": 196671,
+      "sha1": "5044030d44baf639",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Frontline Fire & Flood company logo on black background",
+      "quality": 80,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "logo_card"
+      ],
+      "reason": "Company logo lockup, not a photograph, unusable for hero or team slots.",
+      "triaged_at": "2026-09-30T19:33:24Z",
+      "triage_model": "claude-sonnet-5"
+    },
     "gbp:gbp-AF1QipOifyjPoBT5YHUWg4p91qeMHTIdOkxKAv39WHQZ": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipOifyjPoBT5YHUWg4p91qeMHTIdOkxKAv39WHQZ.jpg",
@@ -2161,5 +2186,5 @@
       "file": "/images/services.webp"
     }
   },
-  "triaged_at": "2026-09-28T20:30:47Z"
+  "triaged_at": "2026-09-30T19:33:24Z"
 }

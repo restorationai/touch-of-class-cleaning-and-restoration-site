@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "c31cc1bbe5d0522b"
-generated_at: "2026-09-29T23:31:28.380469+00:00"
+generated_at: "2026-09-30T19:28:33.786956+00:00"
 manual_override: false
 internal_links: ["/services/vehicle-impact-damage-repair/", "/service-areas/temecula-ca/", "/service-areas/temecula-ca/fire-damage-restoration/", "/service-areas/temecula-ca/mold-remediation/", "/service-areas/berkeley-ca/vehicle-impact-damage-repair/", "/service-areas/carlsbad-ca/vehicle-impact-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Temecula", "url": "/service-areas/temecula-ca/"}, {"name": "Vehicle Impact Damage Repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "bdd4b9ec08ed37bb"
-generated_at: "2026-09-29T23:13:48.900630+00:00"
+generated_at: "2026-09-30T19:28:41.685519+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/upsala-mn/", "/service-areas/upsala-mn/fire-damage-restoration/", "/service-areas/upsala-mn/mold-remediation/", "/service-areas/albany-mn/burst-pipe-repair/", "/service-areas/avon-mn/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Upsala", "url": "/service-areas/upsala-mn/"}, {"name": "Burst Pipe Cleanup and Repair"}]

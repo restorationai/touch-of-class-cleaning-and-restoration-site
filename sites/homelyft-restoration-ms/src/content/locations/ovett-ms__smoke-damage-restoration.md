@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "aec503fdab2787fd"
-generated_at: "2026-09-30T14:12:13.035752+00:00"
+generated_at: "2026-09-30T19:28:43.599422+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/ovett-ms/", "/service-areas/ovett-ms/fire-damage-restoration/", "/service-areas/ovett-ms/mold-remediation/", "/service-areas/agricola-ms/smoke-damage-restoration/", "/service-areas/bay-st-louis-ms/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ovett", "url": "/service-areas/ovett-ms/"}, {"name": "smoke-damage-restoration"}]

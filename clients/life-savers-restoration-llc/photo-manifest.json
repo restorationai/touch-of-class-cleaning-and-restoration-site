@@ -19430,6 +19430,33 @@
       "triaged_at": "2026-08-16T14:18:42Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipOqiD0NPNK4eui3E5RyudTxRQZvYjXgm44heko4": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOqiD0NPNK4eui3E5RyudTxRQZvYjXgm44heko4.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785953272818/job-photos/posted/gbp-AF1QipOqiD0NPNK4eui3E5RyudTxRQZvYjXgm44heko4.jpg",
+      "width": 1972,
+      "height": 2560,
+      "bytes": 697495,
+      "sha1": "ecebdf73c6fdd3a4",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Award badge marketing flyer with logo and phone number",
+      "quality": 30,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "text_overlay",
+        "phone_number",
+        "logo_card"
+      ],
+      "reason": "Designed promotional flyer with awards, text, logo, and phone number overlay.",
+      "triaged_at": "2026-09-30T19:31:46Z",
+      "triage_model": "claude-sonnet-5"
+    },
     "gbp:gbp-AF1QipOqk7fScfk0AJbQbCbagJ3cHJikoJq0QqWDthFF": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipOqk7fScfk0AJbQbCbagJ3cHJikoJq0QqWDthFF.jpg",
@@ -26357,7 +26384,7 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-24T14:13:10Z",
+  "triaged_at": "2026-09-30T19:31:46Z",
   "slots_retired_2026-08-10": {
     "note": "AI-FIRST doctrine (Santino 2026-08-10, scripts/dev_agent.md Imagery doctrine): slot pins cleared so gen_site_images generates the polished AI look for every launch slot. The real photos archived below remain harvested assets and serve as livery/PPE/equipment REFERENCES only (see image-style-guide.md CLIENT DIRECTION). Do not re-pin via photo_harvest apply without a new decision. Santino specifically rejected the team.webp pick (two guys pressure washing does not read as a team).",
     "slots": {

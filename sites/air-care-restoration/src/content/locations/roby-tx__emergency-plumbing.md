@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "804327c6449b3931"
-generated_at: "2026-09-30T14:12:01.765680+00:00"
+generated_at: "2026-09-30T19:28:19.982215+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/roby-tx/", "/service-areas/roby-tx/fire-damage-restoration/", "/service-areas/roby-tx/mold-remediation/", "/service-areas/albany-tx/emergency-plumbing/", "/service-areas/anson-tx/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Roby", "url": "/service-areas/roby-tx/"}, {"name": "emergency-plumbing"}]

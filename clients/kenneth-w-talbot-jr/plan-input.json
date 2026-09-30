@@ -17,7 +17,7 @@
     "licensed_insured_attested": true,
     "license_type": "Florida Licensed Mold Assessor & Mold Remediator",
     "license_authority": "Florida Department of Business & Professional Regulation (DBPR)",
-    "license_note": "Client-attested on the 2026-09-28 call (Kenny). License numbers not yet on file — add them to license_numbers to enable the state-verification link.",
+    "license_note": "Client-attested on the 2026-09-28 call (Kenny). License numbers not yet on file \u2014 add them to license_numbers to enable the state-verification link.",
     "founded_year": "2020",
     "trust_badges": [
       "Veteran Owned & Operated",
@@ -34,11 +34,12 @@
     "palette_source": "hand-tuned black+gold site; dark neutralized 2026-09-27 (Santino flagged blue strip)"
   },
   "services": [
-    "water-damage-restoration",
+    "emergency-water-removal",
     "fire-damage-restoration",
     "mold-remediation",
     "storm-damage-restoration",
-    "emergency-water-removal"
+    "water-cleanup",
+    "water-damage-restoration"
   ],
   "service_areas": [
     {

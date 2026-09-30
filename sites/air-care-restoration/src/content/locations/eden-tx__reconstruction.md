@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "01871576ec07260d"
-generated_at: "2026-09-30T14:12:01.776761+00:00"
+generated_at: "2026-09-30T19:28:19.998842+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/eden-tx/", "/service-areas/eden-tx/fire-damage-restoration/", "/service-areas/eden-tx/mold-remediation/", "/service-areas/albany-tx/reconstruction/", "/service-areas/anson-tx/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Eden", "url": "/service-areas/eden-tx/"}, {"name": "reconstruction"}]

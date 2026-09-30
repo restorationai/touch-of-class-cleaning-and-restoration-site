@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "1f1942be1f9086ef"
-generated_at: "2026-09-30T14:12:09.702411+00:00"
+generated_at: "2026-09-30T19:28:32.765743+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/temescal-valley-ca/", "/service-areas/temescal-valley-ca/mold-remediation/", "/service-areas/temescal-valley-ca/roofing/", "/service-areas/anaheim-ca/fire-damage-restoration/", "/service-areas/chino-ca/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Temescal Valley", "url": "/service-areas/temescal-valley-ca/"}, {"name": "Fire Damage Restoration"}]

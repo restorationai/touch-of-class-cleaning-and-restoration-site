@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "11972c70f68b6248"
-generated_at: "2026-09-30T14:12:13.012562+00:00"
+generated_at: "2026-09-30T19:28:43.566359+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/benndale-ms/", "/service-areas/benndale-ms/fire-damage-restoration/", "/service-areas/benndale-ms/mold-remediation/", "/service-areas/agricola-ms/smoke-damage-restoration/", "/service-areas/bay-st-louis-ms/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Benndale", "url": "/service-areas/benndale-ms/"}, {"name": "smoke-damage-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "ad4e3bb78c6a2a82"
-generated_at: "2026-09-30T14:12:01.765092+00:00"
+generated_at: "2026-09-30T19:28:19.981291+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/roby-tx/", "/service-areas/roby-tx/fire-damage-restoration/", "/service-areas/roby-tx/mold-remediation/", "/service-areas/albany-tx/ceiling-water-damage-repair/", "/service-areas/anson-tx/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Roby", "url": "/service-areas/roby-tx/"}, {"name": "ceiling-water-damage-repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "95df449fc8cb27e8"
-generated_at: "2026-09-30T14:12:14.583780+00:00"
+generated_at: "2026-09-30T19:28:45.229126+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/vineyard-ut/", "/service-areas/vineyard-ut/mold-remediation/", "/service-areas/vineyard-ut/water-damage-restoration/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/american-fork-ut/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vineyard", "url": "/service-areas/vineyard-ut/"}, {"name": "Fire Damage Restoration"}]

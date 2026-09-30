@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "7d831ae645b3490a"
-generated_at: "2026-09-29T23:13:49.317789+00:00"
+generated_at: "2026-09-30T19:28:39.709837+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/knightdale-nc/", "/service-areas/knightdale-nc/fire-damage-restoration/", "/service-areas/knightdale-nc/mold-remediation/", "/service-areas/archer-lodge-nc/smoke-damage-restoration/", "/service-areas/clayton-nc/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Knightdale", "url": "/service-areas/knightdale-nc/"}, {"name": "Smoke Damage Restoration"}]

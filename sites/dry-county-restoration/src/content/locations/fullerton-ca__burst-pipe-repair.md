@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "71fb14455d071c98"
-generated_at: "2026-09-30T14:12:09.642919+00:00"
+generated_at: "2026-09-30T19:28:32.713922+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/fullerton-ca/", "/service-areas/fullerton-ca/fire-damage-restoration/", "/service-areas/fullerton-ca/mold-remediation/", "/service-areas/anaheim-ca/burst-pipe-repair/", "/service-areas/chino-ca/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fullerton", "url": "/service-areas/fullerton-ca/"}, {"name": "Burst Pipe Cleanup and Repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "eaa8d0c0846a9241"
-generated_at: "2026-09-30T14:12:12.834091+00:00"
+generated_at: "2026-09-30T19:28:43.351302+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/petal-ms/", "/service-areas/petal-ms/fire-damage-restoration/", "/service-areas/petal-ms/mold-remediation/", "/service-areas/agricola-ms/ceiling-water-damage-repair/", "/service-areas/bay-st-louis-ms/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Petal", "url": "/service-areas/petal-ms/"}, {"name": "ceiling-water-damage-repair"}]

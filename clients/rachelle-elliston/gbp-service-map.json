@@ -331,6 +331,12 @@
       "source": "exact",
       "at": "2026-09-30"
     },
+    "Contractor": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
+      "at": "2026-09-30"
+    },
     "Crawl Space Mold Removal": {
       "verdict": "mapped",
       "page": "mold-remediation",
@@ -574,6 +580,13 @@
       "page": "general-contracting",
       "reason": "name containment",
       "source": "containment",
+      "at": "2026-09-30"
+    },
+    "General contractor": {
+      "verdict": "mapped",
+      "page": "general-contracting",
+      "reason": "same-service cluster as general-contracting",
+      "source": "cluster",
       "at": "2026-09-30"
     },
     "General Repairs": {

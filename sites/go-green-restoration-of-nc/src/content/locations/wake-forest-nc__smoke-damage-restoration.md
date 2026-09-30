@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "a1d977622271650f"
-generated_at: "2026-09-29T23:13:49.287462+00:00"
+generated_at: "2026-09-30T19:28:39.627569+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/wake-forest-nc/", "/service-areas/wake-forest-nc/fire-damage-restoration/", "/service-areas/wake-forest-nc/mold-remediation/", "/service-areas/archer-lodge-nc/smoke-damage-restoration/", "/service-areas/clayton-nc/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wake Forest", "url": "/service-areas/wake-forest-nc/"}, {"name": "Smoke Damage Restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "19ac172b435225f9"
-generated_at: "2026-09-30T14:12:02.641947+00:00"
+generated_at: "2026-09-30T19:28:20.864009+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/goldsmith-tx/", "/service-areas/goldsmith-tx/fire-damage-restoration/", "/service-areas/goldsmith-tx/mold-remediation/", "/service-areas/andrews-tx/smoke-damage-restoration/", "/service-areas/big-lake-tx/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Goldsmith", "url": "/service-areas/goldsmith-tx/"}, {"name": "smoke-damage-restoration"}]

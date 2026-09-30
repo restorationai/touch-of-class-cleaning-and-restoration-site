@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "6415ab6584387888"
-generated_at: "2026-09-29T23:13:49.294092+00:00"
+generated_at: "2026-09-30T19:28:39.645268+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/wendell-nc/", "/service-areas/wendell-nc/fire-damage-restoration/", "/service-areas/wendell-nc/mold-remediation/", "/service-areas/archer-lodge-nc/smoke-damage-restoration/", "/service-areas/clayton-nc/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wendell", "url": "/service-areas/wendell-nc/"}, {"name": "Smoke Damage Restoration"}]

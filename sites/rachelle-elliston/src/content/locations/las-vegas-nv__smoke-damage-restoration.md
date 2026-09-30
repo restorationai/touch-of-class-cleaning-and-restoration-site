@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "c635cbb7964d731d"
-generated_at: "2026-09-28T20:50:26.577656+00:00"
+generated_at: "2026-09-30T19:28:58.492613+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/las-vegas-nv/", "/service-areas/las-vegas-nv/fire-damage-restoration/", "/service-areas/las-vegas-nv/mold-remediation/", "/service-areas/blue-diamond-nv/smoke-damage-restoration/", "/service-areas/boulder-city-nv/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Las Vegas", "url": "/service-areas/las-vegas-nv/"}, {"name": "smoke-damage-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "72ab1be638bbd51f"
-generated_at: "2026-09-30T14:12:26.077678+00:00"
+generated_at: "2026-09-30T19:28:57.272511+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/leominster-ma/", "/service-areas/leominster-ma/fire-damage-restoration/", "/service-areas/leominster-ma/mold-remediation/", "/service-areas/bellingham-ma/emergency-plumbing/", "/service-areas/east-douglas-ma/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Leominster", "url": "/service-areas/leominster-ma/"}, {"name": "Emergency Plumbing"}]

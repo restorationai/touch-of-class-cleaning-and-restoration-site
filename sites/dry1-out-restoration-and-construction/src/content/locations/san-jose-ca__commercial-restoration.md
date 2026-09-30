@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "105a5910f095708b"
-generated_at: "2026-09-29T14:31:48.328209+00:00"
+generated_at: "2026-09-30T19:28:33.708612+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/san-jose-ca/", "/service-areas/san-jose-ca/fire-damage-restoration/", "/service-areas/san-jose-ca/mold-remediation/", "/service-areas/berkeley-ca/commercial-restoration/", "/service-areas/carlsbad-ca/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Jose", "url": "/service-areas/san-jose-ca/"}, {"name": "commercial-restoration"}]

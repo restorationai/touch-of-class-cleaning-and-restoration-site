@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "94e5b7f5e731ab65"
-generated_at: "2026-09-23T14:11:38.283849+00:00"
+generated_at: "2026-09-30T19:28:35.873434+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/mulberry-fl/", "/service-areas/mulberry-fl/fire-damage-restoration/", "/service-areas/mulberry-fl/mold-remediation/", "/service-areas/anna-maria-fl/emergency-plumbing/", "/service-areas/apollo-beach-fl/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mulberry", "url": "/service-areas/mulberry-fl/"}, {"name": "Emergency Plumbing"}]

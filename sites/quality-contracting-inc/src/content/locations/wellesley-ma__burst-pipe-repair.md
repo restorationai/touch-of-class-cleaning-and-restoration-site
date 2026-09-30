@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "ce02f4c00a71340f"
-generated_at: "2026-09-30T14:12:25.960562+00:00"
+generated_at: "2026-09-30T19:28:57.122723+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/wellesley-ma/", "/service-areas/wellesley-ma/fire-damage-restoration/", "/service-areas/wellesley-ma/mold-remediation/", "/service-areas/bellingham-ma/burst-pipe-repair/", "/service-areas/east-douglas-ma/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wellesley", "url": "/service-areas/wellesley-ma/"}, {"name": "burst-pipe-repair"}]

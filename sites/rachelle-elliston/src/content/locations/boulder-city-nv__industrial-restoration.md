@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "976efb0a0f6541f0"
-generated_at: "2026-09-28T20:50:26.595913+00:00"
+generated_at: "2026-09-30T19:28:58.526354+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/boulder-city-nv/", "/service-areas/boulder-city-nv/fire-damage-restoration/", "/service-areas/boulder-city-nv/mold-remediation/", "/service-areas/blue-diamond-nv/industrial-restoration/", "/service-areas/enterprise-nv/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Boulder City", "url": "/service-areas/boulder-city-nv/"}, {"name": "industrial-restoration"}]

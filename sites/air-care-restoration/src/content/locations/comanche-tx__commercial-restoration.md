@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "f864614d587e4b50"
-generated_at: "2026-09-30T14:12:01.806129+00:00"
+generated_at: "2026-09-30T19:28:20.045199+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/comanche-tx/", "/service-areas/comanche-tx/fire-damage-restoration/", "/service-areas/comanche-tx/mold-remediation/", "/service-areas/albany-tx/commercial-restoration/", "/service-areas/anson-tx/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Comanche", "url": "/service-areas/comanche-tx/"}, {"name": "commercial-restoration"}]

@@ -1,20 +1,20 @@
 # Site Plan Report — National Restoration Construction
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T14:12:20.309467+00:00
+- Generated: 2026-09-30T19:28:51.436158+00:00
 - Domain: `narestco.com`
-- Services selected: 42 of 91 catalog entries
+- Services selected: 35 of 91 catalog entries
 - Service areas: 30
 - Cross-product enabled: True
-- Total URLs: **1310**
-- Total internal links: 10722 (avg 8.2 per page)
+- Total URLs: **1100**
+- Total internal links: 8986 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 1218 |
-| `service-landing` | 42 |
+| `service-area-service` | 1015 |
+| `service-landing` | 35 |
 | `service-area` | 29 |
 | `blog-post` | 12 |
 | `legal` | 3 |
@@ -28,12 +28,9 @@
 ## Selected services
 
 - `air-duct-cleaning` — Air Duct Cleaning (adjacent, priority 5)
-- `air-duct-hvac-cleaning` — Air Duct & HVAC Cleaning (adjacent, priority 5)
 - `appliance-leak-cleanup` — Appliance Leak Cleanup (specialty, priority 6)
 - `asbestos-abatement` — Asbestos Abatement (specialty, priority 6)
 - `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
-- `basement-sewage-cleanup` — Basement Sewage Cleanup (adjacent, priority 5)
-- `basement-water-cleanup` — Basement Water Cleanup (adjacent, priority 5)
 - `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
 - `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
 - `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
@@ -43,7 +40,7 @@
 - `crime-scene-cleanup` — Crime Scene Cleanup (specialty, priority 6)
 - `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
 - `emergency-plumbing` — Emergency Plumbing (core, priority 9)
-- `emergency-water-removal` — 24/7 Emergency Water Removal (core, priority 9)
+- `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
 - `frozen-pipe-restoration` — Frozen Pipe Restoration (specialty, priority 7)
@@ -60,14 +57,10 @@
 - `roofing` — Roofing Installation and Replacement (construction, priority 10)
 - `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
-- `soot-removal` — Soot Removal (specialty, priority 7)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
 - `trauma-scene-cleanup` — Trauma Scene Cleanup (specialty, priority 7)
 - `unattended-death-cleanup` — Unattended Death Cleanup (specialty, priority 6)
-- `vandalism-cleanup` — Vandalism Cleanup (specialty, priority 5)
-- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
-- `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
 
 ## Service areas
@@ -113,7 +106,7 @@
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration federal way |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration federal way |
 | `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing federal way |
-| `/services/emergency-water-removal/` | `service-landing` | 8.1 | 24/7 emergency water removal federal way |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup federal way |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration federal way |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services federal way |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization federal way |

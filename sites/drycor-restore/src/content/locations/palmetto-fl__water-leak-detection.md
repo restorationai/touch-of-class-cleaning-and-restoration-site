@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "c9a942de4fc49a11"
-generated_at: "2026-09-29T23:28:29.538291+00:00"
+generated_at: "2026-09-30T19:28:35.785527+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/palmetto-fl/", "/service-areas/palmetto-fl/fire-damage-restoration/", "/service-areas/palmetto-fl/mold-remediation/", "/service-areas/anna-maria-fl/water-leak-detection/", "/service-areas/apollo-beach-fl/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Palmetto", "url": "/service-areas/palmetto-fl/"}, {"name": "Water Leak Detection"}]

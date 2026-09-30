@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "5ecc6e5e910729a8"
-generated_at: "2026-09-28T20:50:26.588433+00:00"
+generated_at: "2026-09-30T19:28:58.512863+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/sunrise-manor-nv/", "/service-areas/sunrise-manor-nv/fire-damage-restoration/", "/service-areas/sunrise-manor-nv/mold-remediation/", "/service-areas/blue-diamond-nv/reconstruction/", "/service-areas/boulder-city-nv/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sunrise Manor", "url": "/service-areas/sunrise-manor-nv/"}, {"name": "reconstruction"}]

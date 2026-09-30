@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 8.1
 plan_hash: "5de2be1aa9163fcc"
-generated_at: "2026-09-30T14:12:14.524839+00:00"
+generated_at: "2026-09-30T19:28:45.050896+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/emergency-plumbing/", "/service-areas/american-fork-ut/emergency-plumbing/", "/service-areas/benjamin-ut/emergency-plumbing/", "/service-areas/bluffdale-ut/emergency-plumbing/", "/service-areas/cedar-fort-ut/emergency-plumbing/", "/service-areas/cedar-hills-ut/emergency-plumbing/", "/service-areas/draper-ut/emergency-plumbing/", "/service-areas/eagle-mountain-ut/emergency-plumbing/", "/service-areas/fairfield-ut/emergency-plumbing/", "/service-areas/heber-city-ut/emergency-plumbing/", "/service-areas/herriman-ut/emergency-plumbing/", "/service-areas/highland-ut/emergency-plumbing/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "emergency-plumbing"}]

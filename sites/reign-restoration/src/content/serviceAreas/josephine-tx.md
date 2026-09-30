@@ -7,10 +7,10 @@ primary_keyword: "restoration services josephine"
 secondary_keywords: ["josephine restoration company", "damage restoration josephine", "josephine disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "c9abc7393d46c126"
-generated_at: "2026-09-23T14:12:04.434374+00:00"
+plan_hash: "a5892f19889672da"
+generated_at: "2026-09-30T19:29:00.301602+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/josephine-tx/fire-damage-restoration/", "/service-areas/josephine-tx/mold-remediation/", "/service-areas/josephine-tx/roofing/", "/service-areas/josephine-tx/water-damage-restoration/", "/service-areas/josephine-tx/storm-damage-restoration/", "/service-areas/josephine-tx/emergency-water-removal/", "/service-areas/josephine-tx/general-contracting/", "/service-areas/josephine-tx/odor-removal/", "/service-areas/josephine-tx/contents-restoration/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/josephine-tx/fire-damage-restoration/", "/service-areas/josephine-tx/mold-remediation/", "/service-areas/josephine-tx/roofing/", "/service-areas/josephine-tx/water-damage-restoration/", "/service-areas/josephine-tx/commercial-restoration/", "/service-areas/josephine-tx/emergency-plumbing/", "/service-areas/josephine-tx/emergency-water-removal/", "/service-areas/josephine-tx/flood-damage-restoration/", "/service-areas/josephine-tx/reconstruction/", "/service-areas/josephine-tx/sewage-cleanup/", "/service-areas/josephine-tx/smoke-damage-restoration/", "/service-areas/josephine-tx/storm-damage-restoration/", "/service-areas/josephine-tx/basement-flooding-cleanup/", "/service-areas/josephine-tx/burst-pipe-repair/", "/service-areas/josephine-tx/ceiling-water-damage-repair/", "/service-areas/josephine-tx/general-contracting/", "/service-areas/josephine-tx/large-loss-response/", "/service-areas/josephine-tx/mold-inspection-testing/", "/service-areas/josephine-tx/industrial-restoration/", "/service-areas/josephine-tx/odor-removal/", "/service-areas/josephine-tx/water-heater-flood-cleanup/", "/service-areas/josephine-tx/water-leak-detection/", "/service-areas/josephine-tx/contents-restoration/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Josephine"}]
 faq: []
 area_slug: "josephine-tx"

@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "f5e468111a14ece3"
-generated_at: "2026-09-30T14:12:19.468494+00:00"
+generated_at: "2026-09-30T19:28:48.310677+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/churchill-pa/", "/service-areas/churchill-pa/fire-damage-restoration/", "/service-areas/churchill-pa/roofing/", "/service-areas/allison-park-pa/emergency-board-up-tarping/", "/service-areas/baldwin-pa/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Churchill", "url": "/service-areas/churchill-pa/"}, {"name": "Emergency Board-Up and Tarping"}]

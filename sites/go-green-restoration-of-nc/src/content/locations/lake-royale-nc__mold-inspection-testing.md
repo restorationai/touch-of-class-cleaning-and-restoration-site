@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "897211a8af54615f"
-generated_at: "2026-09-29T23:13:49.299960+00:00"
+generated_at: "2026-09-30T19:28:39.670596+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/lake-royale-nc/", "/service-areas/lake-royale-nc/fire-damage-restoration/", "/service-areas/lake-royale-nc/mold-remediation/", "/service-areas/archer-lodge-nc/mold-inspection-testing/", "/service-areas/clayton-nc/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Royale", "url": "/service-areas/lake-royale-nc/"}, {"name": "Mold Inspection and Testing"}]

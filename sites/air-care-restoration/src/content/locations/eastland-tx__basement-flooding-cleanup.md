@@ -8,7 +8,7 @@ secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet 
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "9fd4e9779b2f7f85"
-generated_at: "2026-09-30T14:12:01.799741+00:00"
+generated_at: "2026-09-30T19:28:20.035002+00:00"
 manual_override: false
 internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/eastland-tx/", "/service-areas/eastland-tx/fire-damage-restoration/", "/service-areas/eastland-tx/mold-remediation/", "/service-areas/albany-tx/basement-flooding-cleanup/", "/service-areas/anson-tx/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Eastland", "url": "/service-areas/eastland-tx/"}, {"name": "basement-flooding-cleanup"}]

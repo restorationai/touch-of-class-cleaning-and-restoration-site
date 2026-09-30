@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "186290de9eb88aba"
-generated_at: "2026-09-30T14:12:25.949584+00:00"
+generated_at: "2026-09-30T19:28:57.111634+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/framingham-ma/", "/service-areas/framingham-ma/fire-damage-restoration/", "/service-areas/framingham-ma/mold-remediation/", "/service-areas/bellingham-ma/reconstruction/", "/service-areas/east-douglas-ma/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Framingham", "url": "/service-areas/framingham-ma/"}, {"name": "reconstruction"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["post construction cleanup", "construction debris cleaning"
 search_intent: "local_service"
 priority: 2.8
 plan_hash: "3c231014524092ea"
-generated_at: "2026-09-29T14:31:48.420094+00:00"
+generated_at: "2026-09-30T19:28:33.819361+00:00"
 manual_override: false
 internal_links: ["/services/post-construction-cleaning/", "/service-areas/santa-clara-ca/", "/service-areas/santa-clara-ca/fire-damage-restoration/", "/service-areas/santa-clara-ca/mold-remediation/", "/service-areas/berkeley-ca/post-construction-cleaning/", "/service-areas/carlsbad-ca/post-construction-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Santa Clara", "url": "/service-areas/santa-clara-ca/"}, {"name": "Post-Construction and Specialty Cleaning"}]

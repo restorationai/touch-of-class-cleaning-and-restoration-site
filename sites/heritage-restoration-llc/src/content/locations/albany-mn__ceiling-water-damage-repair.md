@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "c4d72c7781749174"
-generated_at: "2026-09-29T23:13:48.920499+00:00"
+generated_at: "2026-09-30T19:28:41.719121+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/albany-mn/", "/service-areas/albany-mn/fire-damage-restoration/", "/service-areas/albany-mn/mold-remediation/", "/service-areas/avon-mn/ceiling-water-damage-repair/", "/service-areas/baxter-mn/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Albany", "url": "/service-areas/albany-mn/"}, {"name": "Ceiling Water Damage Repair"}]

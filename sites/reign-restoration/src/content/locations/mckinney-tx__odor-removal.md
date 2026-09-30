@@ -8,7 +8,7 @@ secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodoriz
 search_intent: "local_specialty"
 priority: 4.9
 plan_hash: "6540709790165039"
-generated_at: "2026-09-23T14:12:04.450924+00:00"
+generated_at: "2026-09-30T19:29:00.326039+00:00"
 manual_override: false
 internal_links: ["/services/odor-removal/", "/service-areas/mckinney-tx/", "/service-areas/mckinney-tx/fire-damage-restoration/", "/service-areas/mckinney-tx/mold-remediation/", "/service-areas/allen-tx/odor-removal/", "/service-areas/caddo-mills-tx/odor-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McKinney", "url": "/service-areas/mckinney-tx/"}, {"name": "Odor Removal and Deodorization"}]

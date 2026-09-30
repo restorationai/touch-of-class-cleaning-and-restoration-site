@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "5925bebc88c878ca"
-generated_at: "2026-09-30T14:12:02.651907+00:00"
+generated_at: "2026-09-30T19:28:20.881953+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/crane-tx/", "/service-areas/crane-tx/fire-damage-restoration/", "/service-areas/crane-tx/mold-remediation/", "/service-areas/andrews-tx/general-contracting/", "/service-areas/big-lake-tx/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Crane", "url": "/service-areas/crane-tx/"}, {"name": "general-contracting"}]

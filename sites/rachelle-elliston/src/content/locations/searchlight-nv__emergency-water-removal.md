@@ -2,13 +2,13 @@
 archetype: "service-area-service"
 title: "Emergency Water Removal & Cleanup in Searchlight, NV | Desert Valley Contracting Inc "
 h1: "Emergency Water Removal & Cleanup in Searchlight"
-meta_description: "24/7 emergency water removal and cleanup in Searchlight, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
-primary_keyword: "emergency water removal searchlight"
-secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
+meta_description: "24/7 emergency water removal & cleanup in Searchlight, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
+primary_keyword: "emergency water removal & cleanup searchlight"
+secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "0d6d60a122be3e2d"
-generated_at: "2026-09-23T14:12:02.401946+00:00"
+plan_hash: "ef6d4aa493a45cb6"
+generated_at: "2026-09-30T19:28:58.605565+00:00"
 manual_override: false
 internal_links: ["/services/emergency-water-removal/", "/service-areas/searchlight-nv/", "/service-areas/searchlight-nv/fire-damage-restoration/", "/service-areas/searchlight-nv/mold-remediation/", "/service-areas/blue-diamond-nv/emergency-water-removal/", "/service-areas/boulder-city-nv/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Searchlight", "url": "/service-areas/searchlight-nv/"}, {"name": "Emergency Water Removal & Cleanup"}]

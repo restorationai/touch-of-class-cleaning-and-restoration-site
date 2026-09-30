@@ -8,7 +8,7 @@ secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "ca
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "088538de9ac28f48"
-generated_at: "2026-09-30T14:12:23.034571+00:00"
+generated_at: "2026-09-30T19:28:54.603995+00:00"
 manual_override: false
 internal_links: ["/services/carpet-cleaning/", "/service-areas/weedpatch-ca/", "/service-areas/weedpatch-ca/fire-damage-restoration/", "/service-areas/weedpatch-ca/home-remodeling/", "/service-areas/arvin-ca/carpet-cleaning/", "/service-areas/bear-valley-springs-ca/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Weedpatch", "url": "/service-areas/weedpatch-ca/"}, {"name": "Carpet Cleaning"}]

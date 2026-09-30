@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "9cfb657f0fb6e6c3"
-generated_at: "2026-09-29T23:13:48.905708+00:00"
+generated_at: "2026-09-30T19:28:41.693132+00:00"
 manual_override: false
 internal_links: ["/services/job-type-id-bathroom-remodeling/", "/service-areas/rice-mn/", "/service-areas/rice-mn/fire-damage-restoration/", "/service-areas/rice-mn/mold-remediation/", "/service-areas/albany-mn/job-type-id-bathroom-remodeling/", "/service-areas/avon-mn/job-type-id-bathroom-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rice", "url": "/service-areas/rice-mn/"}, {"name": "Bathroom Remodeling"}]

@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "2e7c98363c9ed9f0"
-generated_at: "2026-09-29T23:13:48.917634+00:00"
+generated_at: "2026-09-30T19:28:41.714987+00:00"
 manual_override: false
 internal_links: ["/services/job-type-id-basement-remodeling/", "/service-areas/long-prairie-mn/", "/service-areas/long-prairie-mn/fire-damage-restoration/", "/service-areas/long-prairie-mn/mold-remediation/", "/service-areas/albany-mn/job-type-id-basement-remodeling/", "/service-areas/avon-mn/job-type-id-basement-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Long Prairie", "url": "/service-areas/long-prairie-mn/"}, {"name": "Basement Remodeling"}]

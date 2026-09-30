@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "8d3a92823665ecd0"
-generated_at: "2026-09-30T14:12:12.893769+00:00"
+generated_at: "2026-09-30T19:28:43.426376+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/pass-christian-ms/", "/service-areas/pass-christian-ms/fire-damage-restoration/", "/service-areas/pass-christian-ms/mold-remediation/", "/service-areas/agricola-ms/burst-pipe-repair/", "/service-areas/bay-st-louis-ms/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pass Christian", "url": "/service-areas/pass-christian-ms/"}, {"name": "burst-pipe-repair"}]

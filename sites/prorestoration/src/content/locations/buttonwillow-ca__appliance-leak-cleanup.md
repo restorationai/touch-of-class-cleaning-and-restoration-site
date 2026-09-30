@@ -8,7 +8,7 @@ secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrig
 search_intent: "local_emergency"
 priority: 4.2
 plan_hash: "cf81a5b66ebbbb39"
-generated_at: "2026-09-30T14:12:23.043779+00:00"
+generated_at: "2026-09-30T19:28:54.612139+00:00"
 manual_override: false
 internal_links: ["/services/appliance-leak-cleanup/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/fire-damage-restoration/", "/service-areas/buttonwillow-ca/home-remodeling/", "/service-areas/arvin-ca/appliance-leak-cleanup/", "/service-areas/bear-valley-springs-ca/appliance-leak-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "Appliance Leak Cleanup"}]

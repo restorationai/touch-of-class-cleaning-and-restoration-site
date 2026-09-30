@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "e4b3555a4b8b1dc2"
-generated_at: "2026-09-29T23:28:29.576198+00:00"
+generated_at: "2026-09-30T19:28:35.851169+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/holmes-beach-fl/", "/service-areas/holmes-beach-fl/fire-damage-restoration/", "/service-areas/holmes-beach-fl/mold-remediation/", "/service-areas/anna-maria-fl/commercial-restoration/", "/service-areas/apollo-beach-fl/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Holmes Beach", "url": "/service-areas/holmes-beach-fl/"}, {"name": "Commercial Restoration"}]

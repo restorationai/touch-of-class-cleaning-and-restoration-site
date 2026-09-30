@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "e48c2a2ec37014b3"
-generated_at: "2026-09-23T14:12:04.442172+00:00"
+generated_at: "2026-09-30T19:29:00.311854+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/wylie-tx/", "/service-areas/wylie-tx/fire-damage-restoration/", "/service-areas/wylie-tx/mold-remediation/", "/service-areas/allen-tx/roofing/", "/service-areas/caddo-mills-tx/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wylie", "url": "/service-areas/wylie-tx/"}, {"name": "Roofing Installation and Replacement"}]

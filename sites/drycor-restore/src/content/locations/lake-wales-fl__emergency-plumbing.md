@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "dd0e6cc6292e5f29"
-generated_at: "2026-09-23T14:11:38.280820+00:00"
+generated_at: "2026-09-30T19:28:35.855992+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/lake-wales-fl/", "/service-areas/lake-wales-fl/fire-damage-restoration/", "/service-areas/lake-wales-fl/mold-remediation/", "/service-areas/anna-maria-fl/emergency-plumbing/", "/service-areas/apollo-beach-fl/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Wales", "url": "/service-areas/lake-wales-fl/"}, {"name": "Emergency Plumbing"}]

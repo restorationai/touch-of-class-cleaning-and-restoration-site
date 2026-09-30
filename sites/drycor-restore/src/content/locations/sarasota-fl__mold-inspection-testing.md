@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "f1daedefa6995033"
-generated_at: "2026-09-29T23:28:29.627046+00:00"
+generated_at: "2026-09-30T19:28:35.919526+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/sarasota-fl/", "/service-areas/sarasota-fl/fire-damage-restoration/", "/service-areas/sarasota-fl/mold-remediation/", "/service-areas/anna-maria-fl/mold-inspection-testing/", "/service-areas/apollo-beach-fl/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sarasota", "url": "/service-areas/sarasota-fl/"}, {"name": "Mold Inspection and Testing"}]

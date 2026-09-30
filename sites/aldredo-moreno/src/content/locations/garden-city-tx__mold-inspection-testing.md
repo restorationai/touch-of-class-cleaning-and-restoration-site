@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "a4d3fb0ce6b376cc"
-generated_at: "2026-09-30T14:12:02.648460+00:00"
+generated_at: "2026-09-30T19:28:20.875364+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/garden-city-tx/", "/service-areas/garden-city-tx/fire-damage-restoration/", "/service-areas/garden-city-tx/mold-remediation/", "/service-areas/andrews-tx/mold-inspection-testing/", "/service-areas/big-lake-tx/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Garden City", "url": "/service-areas/garden-city-tx/"}, {"name": "mold-inspection-testing"}]

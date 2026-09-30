@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "f8d0b00731869178"
-generated_at: "2026-09-29T14:31:48.367620+00:00"
+generated_at: "2026-09-30T19:28:33.752759+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/oceanside-ca/", "/service-areas/oceanside-ca/fire-damage-restoration/", "/service-areas/oceanside-ca/mold-remediation/", "/service-areas/berkeley-ca/reconstruction/", "/service-areas/carlsbad-ca/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oceanside", "url": "/service-areas/oceanside-ca/"}, {"name": "reconstruction"}]

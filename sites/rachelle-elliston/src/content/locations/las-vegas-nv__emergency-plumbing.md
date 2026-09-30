@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "8d4a68cf58d0a1ef"
-generated_at: "2026-09-28T20:50:26.579352+00:00"
+generated_at: "2026-09-30T19:28:58.495574+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/las-vegas-nv/", "/service-areas/las-vegas-nv/fire-damage-restoration/", "/service-areas/las-vegas-nv/mold-remediation/", "/service-areas/blue-diamond-nv/emergency-plumbing/", "/service-areas/boulder-city-nv/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Las Vegas", "url": "/service-areas/las-vegas-nv/"}, {"name": "emergency-plumbing"}]

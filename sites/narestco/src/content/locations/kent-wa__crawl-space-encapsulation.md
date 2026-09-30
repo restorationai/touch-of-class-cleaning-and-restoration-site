@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "275b594a89a3c610"
-generated_at: "2026-09-30T14:12:21.372132+00:00"
+generated_at: "2026-09-30T19:28:52.950651+00:00"
 manual_override: false
 internal_links: ["/services/crawl-space-encapsulation/", "/service-areas/kent-wa/", "/service-areas/kent-wa/fire-damage-restoration/", "/service-areas/kent-wa/mold-remediation/", "/service-areas/algona-wa/crawl-space-encapsulation/", "/service-areas/auburn-wa/crawl-space-encapsulation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Kent", "url": "/service-areas/kent-wa/"}, {"name": "Crawl Space Encapsulation"}]

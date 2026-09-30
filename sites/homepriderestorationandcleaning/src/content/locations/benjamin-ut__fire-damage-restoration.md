@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "5b049650b024a050"
-generated_at: "2026-09-30T14:12:14.674326+00:00"
+generated_at: "2026-09-30T19:28:45.345520+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/benjamin-ut/", "/service-areas/benjamin-ut/mold-remediation/", "/service-areas/benjamin-ut/water-damage-restoration/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/american-fork-ut/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Benjamin", "url": "/service-areas/benjamin-ut/"}, {"name": "Fire Damage Restoration"}]

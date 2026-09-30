@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "e3538accde161096"
-generated_at: "2026-09-30T14:12:12.856920+00:00"
+generated_at: "2026-09-30T19:28:43.383779+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/biloxi-ms/", "/service-areas/biloxi-ms/fire-damage-restoration/", "/service-areas/biloxi-ms/mold-remediation/", "/service-areas/agricola-ms/industrial-restoration/", "/service-areas/bay-st-louis-ms/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Biloxi", "url": "/service-areas/biloxi-ms/"}, {"name": "industrial-restoration"}]

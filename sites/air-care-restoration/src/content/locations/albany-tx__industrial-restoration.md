@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "bb9ef5bda50f264b"
-generated_at: "2026-09-30T14:12:01.797370+00:00"
+generated_at: "2026-09-30T19:28:20.031494+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/albany-tx/", "/service-areas/albany-tx/fire-damage-restoration/", "/service-areas/albany-tx/mold-remediation/", "/service-areas/anson-tx/industrial-restoration/", "/service-areas/baird-tx/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Albany", "url": "/service-areas/albany-tx/"}, {"name": "industrial-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "7b0c136eef31ea0b"
-generated_at: "2026-09-30T14:12:01.749424+00:00"
+generated_at: "2026-09-30T19:28:19.959623+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/tuscola-tx/", "/service-areas/tuscola-tx/fire-damage-restoration/", "/service-areas/tuscola-tx/mold-remediation/", "/service-areas/albany-tx/burst-pipe-repair/", "/service-areas/anson-tx/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tuscola", "url": "/service-areas/tuscola-tx/"}, {"name": "burst-pipe-repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "000a99ad7faf5b6c"
-generated_at: "2026-09-30T14:12:13.018185+00:00"
+generated_at: "2026-09-30T19:28:43.574304+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/lucedale-ms/", "/service-areas/lucedale-ms/fire-damage-restoration/", "/service-areas/lucedale-ms/mold-remediation/", "/service-areas/agricola-ms/water-heater-flood-cleanup/", "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lucedale", "url": "/service-areas/lucedale-ms/"}, {"name": "water-heater-flood-cleanup"}]

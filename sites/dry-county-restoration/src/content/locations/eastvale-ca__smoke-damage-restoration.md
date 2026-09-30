@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "14bbae15e9741a2f"
-generated_at: "2026-09-30T14:12:09.678018+00:00"
+generated_at: "2026-09-30T19:28:32.743333+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/eastvale-ca/", "/service-areas/eastvale-ca/fire-damage-restoration/", "/service-areas/eastvale-ca/mold-remediation/", "/service-areas/anaheim-ca/smoke-damage-restoration/", "/service-areas/chino-ca/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Eastvale", "url": "/service-areas/eastvale-ca/"}, {"name": "Smoke Damage Restoration"}]

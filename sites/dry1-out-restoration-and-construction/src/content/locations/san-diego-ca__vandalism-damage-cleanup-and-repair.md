@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "34ae56cf622ae6e9"
-generated_at: "2026-09-29T23:31:28.355547+00:00"
+generated_at: "2026-09-30T19:28:33.697658+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-damage-cleanup-and-repair/", "/service-areas/san-diego-ca/", "/service-areas/san-diego-ca/fire-damage-restoration/", "/service-areas/san-diego-ca/mold-remediation/", "/service-areas/berkeley-ca/vandalism-damage-cleanup-and-repair/", "/service-areas/carlsbad-ca/vandalism-damage-cleanup-and-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Diego", "url": "/service-areas/san-diego-ca/"}, {"name": "Vandalism Damage Cleanup and Repair"}]

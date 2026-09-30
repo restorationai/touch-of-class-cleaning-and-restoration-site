@@ -6,6 +6,7 @@
     "biohazard-cleanup",
     "burst-pipe-repair",
     "carpet-cleaning",
+    "carpet-upholstery-cleaning",
     "crawl-space-encapsulation",
     "emergency-board-up-tarping",
     "fabric-protection",
@@ -181,5 +182,18 @@
   },
   "cross_product": true,
   "keyword_strategy": "conservative",
-  "blog_seed_count": 12
+  "blog_seed_count": 12,
+  "homepage_services": [
+    "fire-damage-restoration",
+    "mold-remediation",
+    "water-damage-restoration",
+    "sewage-cleanup",
+    "smoke-damage-restoration",
+    "storm-damage-restoration"
+  ],
+  "merged_services": {
+    "carpet-upholstery-cleaning": "carpet-cleaning",
+    "water-cleanup": "emergency-water-removal",
+    "water-heater-flood-cleanup": "appliance-leak-cleanup"
+  }
 }

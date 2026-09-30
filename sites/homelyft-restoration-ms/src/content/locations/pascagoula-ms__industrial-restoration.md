@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "887a2ee6a4f87969"
-generated_at: "2026-09-30T14:12:12.994397+00:00"
+generated_at: "2026-09-30T19:28:43.545481+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/pascagoula-ms/", "/service-areas/pascagoula-ms/fire-damage-restoration/", "/service-areas/pascagoula-ms/mold-remediation/", "/service-areas/agricola-ms/industrial-restoration/", "/service-areas/bay-st-louis-ms/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pascagoula", "url": "/service-areas/pascagoula-ms/"}, {"name": "industrial-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "1a2497912adbda36"
-generated_at: "2026-09-30T14:12:12.890274+00:00"
+generated_at: "2026-09-30T19:28:43.423369+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/lyman-ms/", "/service-areas/lyman-ms/fire-damage-restoration/", "/service-areas/lyman-ms/mold-remediation/", "/service-areas/agricola-ms/ceiling-water-damage-repair/", "/service-areas/bay-st-louis-ms/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lyman", "url": "/service-areas/lyman-ms/"}, {"name": "ceiling-water-damage-repair"}]

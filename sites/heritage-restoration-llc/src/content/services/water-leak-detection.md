@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "5d68ba55e704d6f7"
-generated_at: "2026-09-29T23:13:48.845304+00:00"
+generated_at: "2026-09-30T19:28:41.599097+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/water-leak-detection/", "/service-areas/avon-mn/water-leak-detection/", "/service-areas/baxter-mn/water-leak-detection/", "/service-areas/brainerd-mn/water-leak-detection/", "/service-areas/elmdale-mn/water-leak-detection/", "/service-areas/flensburg-mn/water-leak-detection/", "/service-areas/foley-mn/water-leak-detection/", "/service-areas/fort-ripley-mn/water-leak-detection/", "/service-areas/harding-mn/water-leak-detection/", "/service-areas/long-prairie-mn/water-leak-detection/", "/service-areas/pierz-mn/water-leak-detection/", "/service-areas/randall-mn/water-leak-detection/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Water Leak Detection"}]

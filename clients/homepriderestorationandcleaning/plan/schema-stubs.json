@@ -298,6 +298,16 @@
     ],
     "missing_stubs": []
   },
+  "/services/emergency-water-removal/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/services/flood-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
@@ -816,6 +826,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/lehi-ut/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/lehi-ut/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1127,6 +1147,16 @@
     "missing_stubs": []
   },
   "/service-areas/eagle-mountain-ut/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/eagle-mountain-ut/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1456,6 +1486,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/american-fork-ut/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/american-fork-ut/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1767,6 +1807,16 @@
     "missing_stubs": []
   },
   "/service-areas/pleasant-grove-ut/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/pleasant-grove-ut/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2096,6 +2146,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/orem-ut/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/orem-ut/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2407,6 +2467,16 @@
     "missing_stubs": []
   },
   "/service-areas/provo-ut/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/provo-ut/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2736,6 +2806,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/herriman-ut/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/herriman-ut/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3047,6 +3127,16 @@
     "missing_stubs": []
   },
   "/service-areas/south-jordan-ut/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/south-jordan-ut/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3376,6 +3466,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/riverton-ut/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/riverton-ut/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3687,6 +3787,16 @@
     "missing_stubs": []
   },
   "/service-areas/heber-city-ut/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/heber-city-ut/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4016,6 +4126,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/park-city-ut/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/park-city-ut/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4327,6 +4447,16 @@
     "missing_stubs": []
   },
   "/service-areas/vineyard-ut/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/vineyard-ut/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4656,6 +4786,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/highland-ut/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/highland-ut/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4967,6 +5107,16 @@
     "missing_stubs": []
   },
   "/service-areas/lindon-ut/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/lindon-ut/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5296,6 +5446,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/fairfield-ut/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/fairfield-ut/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5607,6 +5767,16 @@
     "missing_stubs": []
   },
   "/service-areas/cedar-hills-ut/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/cedar-hills-ut/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5936,6 +6106,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/cedar-fort-ut/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/cedar-fort-ut/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6247,6 +6427,16 @@
     "missing_stubs": []
   },
   "/service-areas/bluffdale-ut/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/bluffdale-ut/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6576,6 +6766,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/alpine-ut/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/alpine-ut/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6887,6 +7087,16 @@
     "missing_stubs": []
   },
   "/service-areas/draper-ut/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/draper-ut/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7216,6 +7426,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/lake-shore-ut/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/lake-shore-ut/flood-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7527,6 +7747,16 @@
     "missing_stubs": []
   },
   "/service-areas/benjamin-ut/water-leak-detection/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/benjamin-ut/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

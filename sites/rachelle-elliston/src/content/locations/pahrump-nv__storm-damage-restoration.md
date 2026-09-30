@@ -8,7 +8,7 @@ secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "d42b78f3ceff33c9"
-generated_at: "2026-09-28T20:50:26.626241+00:00"
+generated_at: "2026-09-30T19:28:58.614776+00:00"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/service-areas/pahrump-nv/", "/service-areas/pahrump-nv/fire-damage-restoration/", "/service-areas/pahrump-nv/mold-remediation/", "/service-areas/blue-diamond-nv/storm-damage-restoration/", "/service-areas/boulder-city-nv/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pahrump", "url": "/service-areas/pahrump-nv/"}, {"name": "Storm Damage Restoration"}]

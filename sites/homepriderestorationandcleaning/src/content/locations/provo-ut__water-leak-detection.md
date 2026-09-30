@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "b5b326324ad2acf7"
-generated_at: "2026-09-30T14:12:14.555457+00:00"
+generated_at: "2026-09-30T19:28:45.088924+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/provo-ut/", "/service-areas/provo-ut/fire-damage-restoration/", "/service-areas/provo-ut/mold-remediation/", "/service-areas/alpine-ut/water-leak-detection/", "/service-areas/american-fork-ut/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Provo", "url": "/service-areas/provo-ut/"}, {"name": "Water Leak Detection"}]

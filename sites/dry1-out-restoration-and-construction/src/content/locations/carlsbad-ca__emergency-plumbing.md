@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "4f63feebb5fdd341"
-generated_at: "2026-09-29T14:31:48.386925+00:00"
+generated_at: "2026-09-30T19:28:33.771068+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/carlsbad-ca/", "/service-areas/carlsbad-ca/fire-damage-restoration/", "/service-areas/carlsbad-ca/mold-remediation/", "/service-areas/berkeley-ca/emergency-plumbing/", "/service-areas/chula-vista-ca/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Carlsbad", "url": "/service-areas/carlsbad-ca/"}, {"name": "emergency-plumbing"}]

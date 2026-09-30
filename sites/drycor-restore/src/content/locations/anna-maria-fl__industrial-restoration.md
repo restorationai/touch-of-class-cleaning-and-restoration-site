@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "c5320878203edfaa"
-generated_at: "2026-09-29T23:28:29.545349+00:00"
+generated_at: "2026-09-30T19:28:35.797291+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/anna-maria-fl/", "/service-areas/anna-maria-fl/fire-damage-restoration/", "/service-areas/anna-maria-fl/mold-remediation/", "/service-areas/apollo-beach-fl/industrial-restoration/", "/service-areas/auburndale-fl/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Anna Maria", "url": "/service-areas/anna-maria-fl/"}, {"name": "Industrial Restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "1b03c49d23d738d2"
-generated_at: "2026-09-30T14:12:07.116292+00:00"
+generated_at: "2026-09-30T19:28:30.079635+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/struthers-oh/", "/service-areas/struthers-oh/fire-damage-restoration/", "/service-areas/struthers-oh/mold-remediation/", "/service-areas/austintown-oh/burst-pipe-repair/", "/service-areas/boardman-oh/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Struthers", "url": "/service-areas/struthers-oh/"}, {"name": "burst-pipe-repair"}]

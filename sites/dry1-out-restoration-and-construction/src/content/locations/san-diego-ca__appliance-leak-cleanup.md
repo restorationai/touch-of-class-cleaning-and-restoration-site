@@ -8,7 +8,7 @@ secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrig
 search_intent: "local_emergency"
 priority: 4.2
 plan_hash: "ffb3e19cd0145c35"
-generated_at: "2026-09-29T23:31:28.354146+00:00"
+generated_at: "2026-09-30T19:28:33.693007+00:00"
 manual_override: false
 internal_links: ["/services/appliance-leak-cleanup/", "/service-areas/san-diego-ca/", "/service-areas/san-diego-ca/fire-damage-restoration/", "/service-areas/san-diego-ca/mold-remediation/", "/service-areas/berkeley-ca/appliance-leak-cleanup/", "/service-areas/carlsbad-ca/appliance-leak-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Diego", "url": "/service-areas/san-diego-ca/"}, {"name": "Appliance Leak Cleanup"}]

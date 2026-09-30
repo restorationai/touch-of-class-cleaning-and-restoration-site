@@ -7,10 +7,10 @@ primary_keyword: "restoration services sachse"
 secondary_keywords: ["sachse restoration company", "damage restoration sachse", "sachse disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "2b572321d04945a8"
-generated_at: "2026-09-23T14:12:04.436672+00:00"
+plan_hash: "4afa0a2db82a147a"
+generated_at: "2026-09-30T19:29:00.303922+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/sachse-tx/fire-damage-restoration/", "/service-areas/sachse-tx/mold-remediation/", "/service-areas/sachse-tx/roofing/", "/service-areas/sachse-tx/water-damage-restoration/", "/service-areas/sachse-tx/storm-damage-restoration/", "/service-areas/sachse-tx/emergency-water-removal/", "/service-areas/sachse-tx/general-contracting/", "/service-areas/sachse-tx/odor-removal/", "/service-areas/sachse-tx/contents-restoration/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/sachse-tx/fire-damage-restoration/", "/service-areas/sachse-tx/mold-remediation/", "/service-areas/sachse-tx/roofing/", "/service-areas/sachse-tx/water-damage-restoration/", "/service-areas/sachse-tx/commercial-restoration/", "/service-areas/sachse-tx/emergency-plumbing/", "/service-areas/sachse-tx/emergency-water-removal/", "/service-areas/sachse-tx/flood-damage-restoration/", "/service-areas/sachse-tx/reconstruction/", "/service-areas/sachse-tx/sewage-cleanup/", "/service-areas/sachse-tx/smoke-damage-restoration/", "/service-areas/sachse-tx/storm-damage-restoration/", "/service-areas/sachse-tx/basement-flooding-cleanup/", "/service-areas/sachse-tx/burst-pipe-repair/", "/service-areas/sachse-tx/ceiling-water-damage-repair/", "/service-areas/sachse-tx/general-contracting/", "/service-areas/sachse-tx/large-loss-response/", "/service-areas/sachse-tx/mold-inspection-testing/", "/service-areas/sachse-tx/industrial-restoration/", "/service-areas/sachse-tx/odor-removal/", "/service-areas/sachse-tx/water-heater-flood-cleanup/", "/service-areas/sachse-tx/water-leak-detection/", "/service-areas/sachse-tx/contents-restoration/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sachse"}]
 faq: []
 area_slug: "sachse-tx"

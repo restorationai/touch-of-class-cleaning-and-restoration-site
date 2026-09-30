@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "3a4faabe22656af0"
-generated_at: "2026-09-30T14:12:12.928199+00:00"
+generated_at: "2026-09-30T19:28:43.469074+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/waveland-ms/", "/service-areas/waveland-ms/fire-damage-restoration/", "/service-areas/waveland-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-plumbing/", "/service-areas/bay-st-louis-ms/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Waveland", "url": "/service-areas/waveland-ms/"}, {"name": "emergency-plumbing"}]

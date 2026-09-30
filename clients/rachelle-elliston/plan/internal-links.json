@@ -9,6 +9,7 @@
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
     "/services/emergency-plumbing/",
+    "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
     "/services/sewage-cleanup/",
@@ -54,6 +55,7 @@
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
     "/services/emergency-plumbing/",
+    "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
     "/services/sewage-cleanup/",
@@ -147,6 +149,23 @@
     "/service-areas/nelson-nv/contents-restoration-storage/",
     "/service-areas/pahrump-nv/contents-restoration-storage/",
     "/service-areas/paradise-nv/contents-restoration-storage/"
+  ],
+  "/services/emergency-water-removal/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/blue-diamond-nv/emergency-water-removal/",
+    "/service-areas/boulder-city-nv/emergency-water-removal/",
+    "/service-areas/enterprise-nv/emergency-water-removal/",
+    "/service-areas/henderson-nv/emergency-water-removal/",
+    "/service-areas/indian-springs-nv/emergency-water-removal/",
+    "/service-areas/las-vegas-nv/emergency-water-removal/",
+    "/service-areas/moapa-town-nv/emergency-water-removal/",
+    "/service-areas/moapa-valley-nv/emergency-water-removal/",
+    "/service-areas/mount-charleston-nv/emergency-water-removal/",
+    "/service-areas/nelson-nv/emergency-water-removal/",
+    "/service-areas/pahrump-nv/emergency-water-removal/",
+    "/service-areas/paradise-nv/emergency-water-removal/",
+    "/services/water-damage-restoration/"
   ],
   "/services/fire-damage-restoration/": [
     "/services/",
@@ -264,6 +283,7 @@
     "/service-areas/nelson-nv/water-damage-restoration/",
     "/service-areas/pahrump-nv/water-damage-restoration/",
     "/service-areas/paradise-nv/water-damage-restoration/",
+    "/services/emergency-water-removal/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
@@ -486,6 +506,7 @@
     "/service-areas/las-vegas-nv/water-damage-restoration/",
     "/service-areas/las-vegas-nv/commercial-restoration/",
     "/service-areas/las-vegas-nv/emergency-plumbing/",
+    "/service-areas/las-vegas-nv/emergency-water-removal/",
     "/service-areas/las-vegas-nv/flood-damage-restoration/",
     "/service-areas/las-vegas-nv/reconstruction/",
     "/service-areas/las-vegas-nv/sewage-cleanup/",
@@ -515,6 +536,7 @@
     "/service-areas/henderson-nv/water-damage-restoration/",
     "/service-areas/henderson-nv/commercial-restoration/",
     "/service-areas/henderson-nv/emergency-plumbing/",
+    "/service-areas/henderson-nv/emergency-water-removal/",
     "/service-areas/henderson-nv/flood-damage-restoration/",
     "/service-areas/henderson-nv/reconstruction/",
     "/service-areas/henderson-nv/sewage-cleanup/",
@@ -544,6 +566,7 @@
     "/service-areas/paradise-nv/water-damage-restoration/",
     "/service-areas/paradise-nv/commercial-restoration/",
     "/service-areas/paradise-nv/emergency-plumbing/",
+    "/service-areas/paradise-nv/emergency-water-removal/",
     "/service-areas/paradise-nv/flood-damage-restoration/",
     "/service-areas/paradise-nv/reconstruction/",
     "/service-areas/paradise-nv/sewage-cleanup/",
@@ -573,6 +596,7 @@
     "/service-areas/spring-valley-nv/water-damage-restoration/",
     "/service-areas/spring-valley-nv/commercial-restoration/",
     "/service-areas/spring-valley-nv/emergency-plumbing/",
+    "/service-areas/spring-valley-nv/emergency-water-removal/",
     "/service-areas/spring-valley-nv/flood-damage-restoration/",
     "/service-areas/spring-valley-nv/reconstruction/",
     "/service-areas/spring-valley-nv/sewage-cleanup/",
@@ -602,6 +626,7 @@
     "/service-areas/sunrise-manor-nv/water-damage-restoration/",
     "/service-areas/sunrise-manor-nv/commercial-restoration/",
     "/service-areas/sunrise-manor-nv/emergency-plumbing/",
+    "/service-areas/sunrise-manor-nv/emergency-water-removal/",
     "/service-areas/sunrise-manor-nv/flood-damage-restoration/",
     "/service-areas/sunrise-manor-nv/reconstruction/",
     "/service-areas/sunrise-manor-nv/sewage-cleanup/",
@@ -631,6 +656,7 @@
     "/service-areas/enterprise-nv/water-damage-restoration/",
     "/service-areas/enterprise-nv/commercial-restoration/",
     "/service-areas/enterprise-nv/emergency-plumbing/",
+    "/service-areas/enterprise-nv/emergency-water-removal/",
     "/service-areas/enterprise-nv/flood-damage-restoration/",
     "/service-areas/enterprise-nv/reconstruction/",
     "/service-areas/enterprise-nv/sewage-cleanup/",
@@ -660,6 +686,7 @@
     "/service-areas/summerlin-nv/water-damage-restoration/",
     "/service-areas/summerlin-nv/commercial-restoration/",
     "/service-areas/summerlin-nv/emergency-plumbing/",
+    "/service-areas/summerlin-nv/emergency-water-removal/",
     "/service-areas/summerlin-nv/flood-damage-restoration/",
     "/service-areas/summerlin-nv/reconstruction/",
     "/service-areas/summerlin-nv/sewage-cleanup/",
@@ -689,6 +716,7 @@
     "/service-areas/boulder-city-nv/water-damage-restoration/",
     "/service-areas/boulder-city-nv/commercial-restoration/",
     "/service-areas/boulder-city-nv/emergency-plumbing/",
+    "/service-areas/boulder-city-nv/emergency-water-removal/",
     "/service-areas/boulder-city-nv/flood-damage-restoration/",
     "/service-areas/boulder-city-nv/reconstruction/",
     "/service-areas/boulder-city-nv/sewage-cleanup/",
@@ -718,6 +746,7 @@
     "/service-areas/winchester-nv/water-damage-restoration/",
     "/service-areas/winchester-nv/commercial-restoration/",
     "/service-areas/winchester-nv/emergency-plumbing/",
+    "/service-areas/winchester-nv/emergency-water-removal/",
     "/service-areas/winchester-nv/flood-damage-restoration/",
     "/service-areas/winchester-nv/reconstruction/",
     "/service-areas/winchester-nv/sewage-cleanup/",
@@ -747,6 +776,7 @@
     "/service-areas/whitney-nv/water-damage-restoration/",
     "/service-areas/whitney-nv/commercial-restoration/",
     "/service-areas/whitney-nv/emergency-plumbing/",
+    "/service-areas/whitney-nv/emergency-water-removal/",
     "/service-areas/whitney-nv/flood-damage-restoration/",
     "/service-areas/whitney-nv/reconstruction/",
     "/service-areas/whitney-nv/sewage-cleanup/",
@@ -776,6 +806,7 @@
     "/service-areas/summerlin-south-nv/water-damage-restoration/",
     "/service-areas/summerlin-south-nv/commercial-restoration/",
     "/service-areas/summerlin-south-nv/emergency-plumbing/",
+    "/service-areas/summerlin-south-nv/emergency-water-removal/",
     "/service-areas/summerlin-south-nv/flood-damage-restoration/",
     "/service-areas/summerlin-south-nv/reconstruction/",
     "/service-areas/summerlin-south-nv/sewage-cleanup/",
@@ -805,6 +836,7 @@
     "/service-areas/blue-diamond-nv/water-damage-restoration/",
     "/service-areas/blue-diamond-nv/commercial-restoration/",
     "/service-areas/blue-diamond-nv/emergency-plumbing/",
+    "/service-areas/blue-diamond-nv/emergency-water-removal/",
     "/service-areas/blue-diamond-nv/flood-damage-restoration/",
     "/service-areas/blue-diamond-nv/reconstruction/",
     "/service-areas/blue-diamond-nv/sewage-cleanup/",
@@ -834,6 +866,7 @@
     "/service-areas/mount-charleston-nv/water-damage-restoration/",
     "/service-areas/mount-charleston-nv/commercial-restoration/",
     "/service-areas/mount-charleston-nv/emergency-plumbing/",
+    "/service-areas/mount-charleston-nv/emergency-water-removal/",
     "/service-areas/mount-charleston-nv/flood-damage-restoration/",
     "/service-areas/mount-charleston-nv/reconstruction/",
     "/service-areas/mount-charleston-nv/sewage-cleanup/",
@@ -863,6 +896,7 @@
     "/service-areas/sandy-valley-nv/water-damage-restoration/",
     "/service-areas/sandy-valley-nv/commercial-restoration/",
     "/service-areas/sandy-valley-nv/emergency-plumbing/",
+    "/service-areas/sandy-valley-nv/emergency-water-removal/",
     "/service-areas/sandy-valley-nv/flood-damage-restoration/",
     "/service-areas/sandy-valley-nv/reconstruction/",
     "/service-areas/sandy-valley-nv/sewage-cleanup/",
@@ -892,6 +926,7 @@
     "/service-areas/nelson-nv/water-damage-restoration/",
     "/service-areas/nelson-nv/commercial-restoration/",
     "/service-areas/nelson-nv/emergency-plumbing/",
+    "/service-areas/nelson-nv/emergency-water-removal/",
     "/service-areas/nelson-nv/flood-damage-restoration/",
     "/service-areas/nelson-nv/reconstruction/",
     "/service-areas/nelson-nv/sewage-cleanup/",
@@ -921,6 +956,7 @@
     "/service-areas/indian-springs-nv/water-damage-restoration/",
     "/service-areas/indian-springs-nv/commercial-restoration/",
     "/service-areas/indian-springs-nv/emergency-plumbing/",
+    "/service-areas/indian-springs-nv/emergency-water-removal/",
     "/service-areas/indian-springs-nv/flood-damage-restoration/",
     "/service-areas/indian-springs-nv/reconstruction/",
     "/service-areas/indian-springs-nv/sewage-cleanup/",
@@ -950,6 +986,7 @@
     "/service-areas/moapa-town-nv/water-damage-restoration/",
     "/service-areas/moapa-town-nv/commercial-restoration/",
     "/service-areas/moapa-town-nv/emergency-plumbing/",
+    "/service-areas/moapa-town-nv/emergency-water-removal/",
     "/service-areas/moapa-town-nv/flood-damage-restoration/",
     "/service-areas/moapa-town-nv/reconstruction/",
     "/service-areas/moapa-town-nv/sewage-cleanup/",
@@ -979,6 +1016,7 @@
     "/service-areas/moapa-valley-nv/water-damage-restoration/",
     "/service-areas/moapa-valley-nv/commercial-restoration/",
     "/service-areas/moapa-valley-nv/emergency-plumbing/",
+    "/service-areas/moapa-valley-nv/emergency-water-removal/",
     "/service-areas/moapa-valley-nv/flood-damage-restoration/",
     "/service-areas/moapa-valley-nv/reconstruction/",
     "/service-areas/moapa-valley-nv/sewage-cleanup/",
@@ -1008,6 +1046,7 @@
     "/service-areas/searchlight-nv/water-damage-restoration/",
     "/service-areas/searchlight-nv/commercial-restoration/",
     "/service-areas/searchlight-nv/emergency-plumbing/",
+    "/service-areas/searchlight-nv/emergency-water-removal/",
     "/service-areas/searchlight-nv/flood-damage-restoration/",
     "/service-areas/searchlight-nv/reconstruction/",
     "/service-areas/searchlight-nv/sewage-cleanup/",
@@ -1037,6 +1076,7 @@
     "/service-areas/pahrump-nv/water-damage-restoration/",
     "/service-areas/pahrump-nv/commercial-restoration/",
     "/service-areas/pahrump-nv/emergency-plumbing/",
+    "/service-areas/pahrump-nv/emergency-water-removal/",
     "/service-areas/pahrump-nv/flood-damage-restoration/",
     "/service-areas/pahrump-nv/reconstruction/",
     "/service-areas/pahrump-nv/sewage-cleanup/",
@@ -1074,6 +1114,15 @@
     "/service-areas/las-vegas-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/contents-restoration-storage/",
     "/service-areas/boulder-city-nv/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/las-vegas-nv/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/las-vegas-nv/",
+    "/service-areas/las-vegas-nv/fire-damage-restoration/",
+    "/service-areas/las-vegas-nv/mold-remediation/",
+    "/service-areas/blue-diamond-nv/emergency-water-removal/",
+    "/service-areas/boulder-city-nv/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/las-vegas-nv/fire-damage-restoration/": [
@@ -1274,6 +1323,15 @@
     "/service-areas/boulder-city-nv/contents-restoration-storage/",
     "/contact/"
   ],
+  "/service-areas/henderson-nv/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/henderson-nv/",
+    "/service-areas/henderson-nv/fire-damage-restoration/",
+    "/service-areas/henderson-nv/mold-remediation/",
+    "/service-areas/blue-diamond-nv/emergency-water-removal/",
+    "/service-areas/boulder-city-nv/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/henderson-nv/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/henderson-nv/",
@@ -1470,6 +1528,15 @@
     "/service-areas/paradise-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/contents-restoration-storage/",
     "/service-areas/boulder-city-nv/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/paradise-nv/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/paradise-nv/",
+    "/service-areas/paradise-nv/fire-damage-restoration/",
+    "/service-areas/paradise-nv/mold-remediation/",
+    "/service-areas/blue-diamond-nv/emergency-water-removal/",
+    "/service-areas/boulder-city-nv/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/paradise-nv/fire-damage-restoration/": [
@@ -1670,6 +1737,15 @@
     "/service-areas/boulder-city-nv/contents-restoration-storage/",
     "/contact/"
   ],
+  "/service-areas/spring-valley-nv/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/spring-valley-nv/",
+    "/service-areas/spring-valley-nv/fire-damage-restoration/",
+    "/service-areas/spring-valley-nv/mold-remediation/",
+    "/service-areas/blue-diamond-nv/emergency-water-removal/",
+    "/service-areas/boulder-city-nv/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/spring-valley-nv/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/spring-valley-nv/",
@@ -1866,6 +1942,15 @@
     "/service-areas/sunrise-manor-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/contents-restoration-storage/",
     "/service-areas/boulder-city-nv/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/sunrise-manor-nv/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/sunrise-manor-nv/",
+    "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
+    "/service-areas/sunrise-manor-nv/mold-remediation/",
+    "/service-areas/blue-diamond-nv/emergency-water-removal/",
+    "/service-areas/boulder-city-nv/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/sunrise-manor-nv/fire-damage-restoration/": [
@@ -2066,6 +2151,15 @@
     "/service-areas/boulder-city-nv/contents-restoration-storage/",
     "/contact/"
   ],
+  "/service-areas/enterprise-nv/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/enterprise-nv/",
+    "/service-areas/enterprise-nv/fire-damage-restoration/",
+    "/service-areas/enterprise-nv/mold-remediation/",
+    "/service-areas/blue-diamond-nv/emergency-water-removal/",
+    "/service-areas/boulder-city-nv/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/enterprise-nv/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/enterprise-nv/",
@@ -2262,6 +2356,15 @@
     "/service-areas/summerlin-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/contents-restoration-storage/",
     "/service-areas/boulder-city-nv/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/summerlin-nv/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/summerlin-nv/",
+    "/service-areas/summerlin-nv/fire-damage-restoration/",
+    "/service-areas/summerlin-nv/mold-remediation/",
+    "/service-areas/blue-diamond-nv/emergency-water-removal/",
+    "/service-areas/boulder-city-nv/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/summerlin-nv/fire-damage-restoration/": [
@@ -2462,6 +2565,15 @@
     "/service-areas/enterprise-nv/contents-restoration-storage/",
     "/contact/"
   ],
+  "/service-areas/boulder-city-nv/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/boulder-city-nv/",
+    "/service-areas/boulder-city-nv/fire-damage-restoration/",
+    "/service-areas/boulder-city-nv/mold-remediation/",
+    "/service-areas/blue-diamond-nv/emergency-water-removal/",
+    "/service-areas/enterprise-nv/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/boulder-city-nv/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/boulder-city-nv/",
@@ -2658,6 +2770,15 @@
     "/service-areas/winchester-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/contents-restoration-storage/",
     "/service-areas/boulder-city-nv/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/winchester-nv/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/winchester-nv/",
+    "/service-areas/winchester-nv/fire-damage-restoration/",
+    "/service-areas/winchester-nv/mold-remediation/",
+    "/service-areas/blue-diamond-nv/emergency-water-removal/",
+    "/service-areas/boulder-city-nv/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/winchester-nv/fire-damage-restoration/": [
@@ -2858,6 +2979,15 @@
     "/service-areas/boulder-city-nv/contents-restoration-storage/",
     "/contact/"
   ],
+  "/service-areas/whitney-nv/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/whitney-nv/",
+    "/service-areas/whitney-nv/fire-damage-restoration/",
+    "/service-areas/whitney-nv/mold-remediation/",
+    "/service-areas/blue-diamond-nv/emergency-water-removal/",
+    "/service-areas/boulder-city-nv/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/whitney-nv/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/whitney-nv/",
@@ -3054,6 +3184,15 @@
     "/service-areas/summerlin-south-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/contents-restoration-storage/",
     "/service-areas/boulder-city-nv/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/summerlin-south-nv/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/summerlin-south-nv/",
+    "/service-areas/summerlin-south-nv/fire-damage-restoration/",
+    "/service-areas/summerlin-south-nv/mold-remediation/",
+    "/service-areas/blue-diamond-nv/emergency-water-removal/",
+    "/service-areas/boulder-city-nv/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/summerlin-south-nv/fire-damage-restoration/": [
@@ -3254,6 +3393,15 @@
     "/service-areas/enterprise-nv/contents-restoration-storage/",
     "/contact/"
   ],
+  "/service-areas/blue-diamond-nv/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/blue-diamond-nv/",
+    "/service-areas/blue-diamond-nv/fire-damage-restoration/",
+    "/service-areas/blue-diamond-nv/mold-remediation/",
+    "/service-areas/boulder-city-nv/emergency-water-removal/",
+    "/service-areas/enterprise-nv/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/blue-diamond-nv/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/blue-diamond-nv/",
@@ -3450,6 +3598,15 @@
     "/service-areas/mount-charleston-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/contents-restoration-storage/",
     "/service-areas/boulder-city-nv/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/mount-charleston-nv/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/mount-charleston-nv/",
+    "/service-areas/mount-charleston-nv/fire-damage-restoration/",
+    "/service-areas/mount-charleston-nv/mold-remediation/",
+    "/service-areas/blue-diamond-nv/emergency-water-removal/",
+    "/service-areas/boulder-city-nv/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/mount-charleston-nv/fire-damage-restoration/": [
@@ -3650,6 +3807,15 @@
     "/service-areas/boulder-city-nv/contents-restoration-storage/",
     "/contact/"
   ],
+  "/service-areas/sandy-valley-nv/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/sandy-valley-nv/",
+    "/service-areas/sandy-valley-nv/fire-damage-restoration/",
+    "/service-areas/sandy-valley-nv/mold-remediation/",
+    "/service-areas/blue-diamond-nv/emergency-water-removal/",
+    "/service-areas/boulder-city-nv/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/sandy-valley-nv/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/sandy-valley-nv/",
@@ -3846,6 +4012,15 @@
     "/service-areas/nelson-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/contents-restoration-storage/",
     "/service-areas/boulder-city-nv/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/nelson-nv/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/nelson-nv/",
+    "/service-areas/nelson-nv/fire-damage-restoration/",
+    "/service-areas/nelson-nv/mold-remediation/",
+    "/service-areas/blue-diamond-nv/emergency-water-removal/",
+    "/service-areas/boulder-city-nv/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/nelson-nv/fire-damage-restoration/": [
@@ -4046,6 +4221,15 @@
     "/service-areas/boulder-city-nv/contents-restoration-storage/",
     "/contact/"
   ],
+  "/service-areas/indian-springs-nv/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/indian-springs-nv/",
+    "/service-areas/indian-springs-nv/fire-damage-restoration/",
+    "/service-areas/indian-springs-nv/mold-remediation/",
+    "/service-areas/blue-diamond-nv/emergency-water-removal/",
+    "/service-areas/boulder-city-nv/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/indian-springs-nv/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/indian-springs-nv/",
@@ -4242,6 +4426,15 @@
     "/service-areas/moapa-town-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/contents-restoration-storage/",
     "/service-areas/boulder-city-nv/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/moapa-town-nv/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/moapa-town-nv/",
+    "/service-areas/moapa-town-nv/fire-damage-restoration/",
+    "/service-areas/moapa-town-nv/mold-remediation/",
+    "/service-areas/blue-diamond-nv/emergency-water-removal/",
+    "/service-areas/boulder-city-nv/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/moapa-town-nv/fire-damage-restoration/": [
@@ -4442,6 +4635,15 @@
     "/service-areas/boulder-city-nv/contents-restoration-storage/",
     "/contact/"
   ],
+  "/service-areas/moapa-valley-nv/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/moapa-valley-nv/",
+    "/service-areas/moapa-valley-nv/fire-damage-restoration/",
+    "/service-areas/moapa-valley-nv/mold-remediation/",
+    "/service-areas/blue-diamond-nv/emergency-water-removal/",
+    "/service-areas/boulder-city-nv/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/moapa-valley-nv/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/moapa-valley-nv/",
@@ -4640,6 +4842,15 @@
     "/service-areas/boulder-city-nv/contents-restoration-storage/",
     "/contact/"
   ],
+  "/service-areas/searchlight-nv/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/searchlight-nv/",
+    "/service-areas/searchlight-nv/fire-damage-restoration/",
+    "/service-areas/searchlight-nv/mold-remediation/",
+    "/service-areas/blue-diamond-nv/emergency-water-removal/",
+    "/service-areas/boulder-city-nv/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/searchlight-nv/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/searchlight-nv/",
@@ -4836,6 +5047,15 @@
     "/service-areas/pahrump-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/contents-restoration-storage/",
     "/service-areas/boulder-city-nv/contents-restoration-storage/",
+    "/contact/"
+  ],
+  "/service-areas/pahrump-nv/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/pahrump-nv/",
+    "/service-areas/pahrump-nv/fire-damage-restoration/",
+    "/service-areas/pahrump-nv/mold-remediation/",
+    "/service-areas/blue-diamond-nv/emergency-water-removal/",
+    "/service-areas/boulder-city-nv/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/pahrump-nv/fire-damage-restoration/": [

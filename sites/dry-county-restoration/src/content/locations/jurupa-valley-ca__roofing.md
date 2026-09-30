@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "3c0fd6a4a7923649"
-generated_at: "2026-09-30T14:12:09.696041+00:00"
+generated_at: "2026-09-30T19:28:32.760336+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/jurupa-valley-ca/", "/service-areas/jurupa-valley-ca/fire-damage-restoration/", "/service-areas/jurupa-valley-ca/mold-remediation/", "/service-areas/anaheim-ca/roofing/", "/service-areas/chino-ca/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Jurupa Valley", "url": "/service-areas/jurupa-valley-ca/"}, {"name": "Roofing Installation and Replacement"}]

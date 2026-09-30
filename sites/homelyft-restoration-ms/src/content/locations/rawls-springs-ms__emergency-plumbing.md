@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "a51e72408b4cd61e"
-generated_at: "2026-09-30T14:12:12.839117+00:00"
+generated_at: "2026-09-30T19:28:43.357706+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/rawls-springs-ms/", "/service-areas/rawls-springs-ms/fire-damage-restoration/", "/service-areas/rawls-springs-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-plumbing/", "/service-areas/bay-st-louis-ms/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rawls Springs", "url": "/service-areas/rawls-springs-ms/"}, {"name": "emergency-plumbing"}]

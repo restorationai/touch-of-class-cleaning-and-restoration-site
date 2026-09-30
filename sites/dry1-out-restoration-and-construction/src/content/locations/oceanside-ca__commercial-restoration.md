@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "8f0b93bf1eca0ec4"
-generated_at: "2026-09-29T14:31:48.366977+00:00"
+generated_at: "2026-09-30T19:28:33.752156+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/oceanside-ca/", "/service-areas/oceanside-ca/fire-damage-restoration/", "/service-areas/oceanside-ca/mold-remediation/", "/service-areas/berkeley-ca/commercial-restoration/", "/service-areas/carlsbad-ca/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oceanside", "url": "/service-areas/oceanside-ca/"}, {"name": "commercial-restoration"}]

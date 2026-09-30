@@ -8,7 +8,7 @@ secondary_keywords: ["post construction cleanup", "construction debris cleaning"
 search_intent: "local_service"
 priority: 2.8
 plan_hash: "0d94615301f1de0c"
-generated_at: "2026-09-30T14:12:14.540566+00:00"
+generated_at: "2026-09-30T19:28:45.068794+00:00"
 manual_override: false
 internal_links: ["/services/post-construction-cleaning/", "/service-areas/american-fork-ut/", "/service-areas/american-fork-ut/fire-damage-restoration/", "/service-areas/american-fork-ut/mold-remediation/", "/service-areas/alpine-ut/post-construction-cleaning/", "/service-areas/benjamin-ut/post-construction-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "American Fork", "url": "/service-areas/american-fork-ut/"}, {"name": "Post-Construction and Specialty Cleaning"}]

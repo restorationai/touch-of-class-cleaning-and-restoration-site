@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "119de837bb316ed7"
-generated_at: "2026-09-30T14:12:26.001180+00:00"
+generated_at: "2026-09-30T19:28:57.182772+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/east-douglas-ma/", "/service-areas/east-douglas-ma/fire-damage-restoration/", "/service-areas/east-douglas-ma/mold-remediation/", "/service-areas/bellingham-ma/industrial-restoration/", "/service-areas/fiskdale-ma/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "East Douglas", "url": "/service-areas/east-douglas-ma/"}, {"name": "industrial-restoration"}]

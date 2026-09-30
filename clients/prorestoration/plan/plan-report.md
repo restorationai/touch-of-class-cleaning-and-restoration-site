@@ -1,20 +1,20 @@
 # Site Plan Report — ProRestoration Services
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T14:12:22.038104+00:00
+- Generated: 2026-09-30T19:28:53.509546+00:00
 - Domain: `prorestorationca.com`
-- Services selected: 35 of 91 catalog entries
+- Services selected: 31 of 91 catalog entries
 - Service areas: 22
 - Cross-product enabled: True
-- Total URLs: **812**
-- Total internal links: 6692 (avg 8.2 per page)
+- Total URLs: **724**
+- Total internal links: 5956 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 735 |
-| `service-landing` | 35 |
+| `service-area-service` | 651 |
+| `service-landing` | 31 |
 | `service-area` | 21 |
 | `blog-post` | 12 |
 | `legal` | 3 |
@@ -28,7 +28,6 @@
 ## Selected services
 
 - `air-duct-cleaning` — Air Duct Cleaning (adjacent, priority 5)
-- `air-duct-hvac-cleaning` — Air Duct & HVAC Cleaning (adjacent, priority 5)
 - `appliance-leak-cleanup` — Appliance Leak Cleanup (specialty, priority 6)
 - `asbestos-abatement` — Asbestos Abatement (specialty, priority 6)
 - `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
@@ -38,6 +37,7 @@
 - `crawl-space-encapsulation` — Crawl Space Encapsulation (adjacent, priority 5)
 - `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
 - `emergency-plumbing` — Emergency Plumbing (core, priority 9)
+- `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
 - `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
@@ -50,9 +50,7 @@
 - `roofing` — Roofing Installation and Replacement (construction, priority 10)
 - `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
-- `soot-removal` — Soot Removal (specialty, priority 7)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
-- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
 - `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
@@ -60,8 +58,6 @@
 - `industrial-restoration` — Industrial Restoration (core, priority 7)
 - `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
 - `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
-- `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
-- `emergency-water-removal` — 24/7 Emergency Water Removal (core, priority 9)
 
 ## Service areas
 
@@ -99,7 +95,7 @@
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration bakersfield |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration bakersfield |
 | `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing bakersfield |
-| `/services/emergency-water-removal/` | `service-landing` | 8.1 | 24/7 emergency water removal bakersfield |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup bakersfield |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration bakersfield |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services bakersfield |
 

@@ -8,7 +8,7 @@ secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodoriz
 search_intent: "local_specialty"
 priority: 4.9
 plan_hash: "45dc07b1db493a22"
-generated_at: "2026-09-23T14:12:04.470704+00:00"
+generated_at: "2026-09-30T19:29:00.362618+00:00"
 manual_override: false
 internal_links: ["/services/odor-removal/", "/service-areas/mclendon-chisholm-tx/", "/service-areas/mclendon-chisholm-tx/fire-damage-restoration/", "/service-areas/mclendon-chisholm-tx/mold-remediation/", "/service-areas/allen-tx/odor-removal/", "/service-areas/caddo-mills-tx/odor-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McLendon-Chisholm", "url": "/service-areas/mclendon-chisholm-tx/"}, {"name": "Odor Removal and Deodorization"}]

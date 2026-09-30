@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "eb54445c2b728b11"
-generated_at: "2026-09-29T23:13:49.321332+00:00"
+generated_at: "2026-09-30T19:28:39.720148+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/wilson-s-mills-nc/", "/service-areas/wilson-s-mills-nc/fire-damage-restoration/", "/service-areas/wilson-s-mills-nc/mold-remediation/", "/service-areas/archer-lodge-nc/water-leak-detection/", "/service-areas/clayton-nc/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wilson's Mills", "url": "/service-areas/wilson-s-mills-nc/"}, {"name": "Water Leak Detection"}]

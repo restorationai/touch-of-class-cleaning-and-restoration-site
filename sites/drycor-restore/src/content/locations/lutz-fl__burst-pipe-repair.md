@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "89ef1ce0bc8f5e0a"
-generated_at: "2026-09-29T23:28:29.522714+00:00"
+generated_at: "2026-09-30T19:28:35.759455+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/lutz-fl/", "/service-areas/lutz-fl/fire-damage-restoration/", "/service-areas/lutz-fl/mold-remediation/", "/service-areas/anna-maria-fl/burst-pipe-repair/", "/service-areas/apollo-beach-fl/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lutz", "url": "/service-areas/lutz-fl/"}, {"name": "Burst Pipe Cleanup and Repair"}]

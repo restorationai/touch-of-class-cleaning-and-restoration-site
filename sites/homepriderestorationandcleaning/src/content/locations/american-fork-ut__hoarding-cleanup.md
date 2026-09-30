@@ -8,7 +8,7 @@ secondary_keywords: ["hoarder cleanup", "hoarding cleaning services", "hoarding 
 search_intent: "local_sensitive"
 priority: 4.2
 plan_hash: "07adb27798fdef1a"
-generated_at: "2026-09-30T14:12:14.539991+00:00"
+generated_at: "2026-09-30T19:28:45.068105+00:00"
 manual_override: false
 internal_links: ["/services/hoarding-cleanup/", "/service-areas/american-fork-ut/", "/service-areas/american-fork-ut/fire-damage-restoration/", "/service-areas/american-fork-ut/mold-remediation/", "/service-areas/alpine-ut/hoarding-cleanup/", "/service-areas/benjamin-ut/hoarding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "American Fork", "url": "/service-areas/american-fork-ut/"}, {"name": "Hoarding Cleanup"}]

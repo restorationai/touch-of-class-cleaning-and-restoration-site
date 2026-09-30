@@ -34,8 +34,13 @@
   },
   "template": "restoration",
   "services": [
+    "appliance-leak-cleanup",
     "biohazard-cleanup",
+    "blood-cleanup",
+    "carpet-water-extraction",
     "crime-scene-cleanup",
+    "emergency-board-up",
+    "emergency-water-removal",
     "fire-damage-restoration",
     "general-contracting",
     "mold-inspection-testing",
@@ -44,13 +49,10 @@
     "post-construction-cleaning",
     "sewage-cleanup",
     "storm-damage-restoration",
-    "water-damage-restoration",
-    "appliance-leak-cleanup",
-    "blood-cleanup",
-    "carpet-water-extraction",
-    "emergency-board-up",
     "vandalism-damage-cleanup-and-repair",
-    "vehicle-impact-damage-repair"
+    "vehicle-impact-damage-repair",
+    "water-cleanup",
+    "water-damage-restoration"
   ],
   "blog_seed_count": 12,
   "service_areas": [
@@ -587,5 +589,22 @@
     "hayward_bay_area": "Construction-first",
     "sequence": "Start with Vista (San Diego) as restoration-first, then position Hayward (Bay Area) as construction-first.",
     "source": "Cole call 2026-09-28"
+  },
+  "homepage_services": [
+    "water-damage-restoration",
+    "fire-damage-restoration",
+    "mold-remediation",
+    "sewage-cleanup",
+    "storm-damage-restoration",
+    "general-contracting"
+  ],
+  "merged_services": {
+    "24-7-emergency-water-damage-restoration": "water-damage-restoration",
+    "basement-sewage-cleanup": "sewage-cleanup",
+    "burst-pipe-water-damage-cleanup": "burst-pipe-repair",
+    "category-3-water-cleanup": "sewage-cleanup",
+    "emergency-board-ups": "emergency-board-up",
+    "water-cleanup": "emergency-water-removal",
+    "water-heater-flood-cleanup": "appliance-leak-cleanup"
   }
 }

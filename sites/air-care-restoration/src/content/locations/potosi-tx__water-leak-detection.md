@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "f422258f52f62afb"
-generated_at: "2026-09-30T14:12:01.809856+00:00"
+generated_at: "2026-09-30T19:28:20.052070+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/potosi-tx/", "/service-areas/potosi-tx/fire-damage-restoration/", "/service-areas/potosi-tx/mold-remediation/", "/service-areas/albany-tx/water-leak-detection/", "/service-areas/anson-tx/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Potosi", "url": "/service-areas/potosi-tx/"}, {"name": "water-leak-detection"}]

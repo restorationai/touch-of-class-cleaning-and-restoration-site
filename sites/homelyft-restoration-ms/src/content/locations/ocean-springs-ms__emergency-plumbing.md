@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "042e18b0269be73c"
-generated_at: "2026-09-30T14:12:12.990475+00:00"
+generated_at: "2026-09-30T19:28:43.541539+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/ocean-springs-ms/", "/service-areas/ocean-springs-ms/fire-damage-restoration/", "/service-areas/ocean-springs-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-plumbing/", "/service-areas/bay-st-louis-ms/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ocean Springs", "url": "/service-areas/ocean-springs-ms/"}, {"name": "emergency-plumbing"}]

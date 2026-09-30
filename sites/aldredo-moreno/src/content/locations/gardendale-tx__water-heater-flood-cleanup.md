@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "7a38a432da197ac8"
-generated_at: "2026-09-30T14:12:02.637285+00:00"
+generated_at: "2026-09-30T19:28:20.855892+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/gardendale-tx/", "/service-areas/gardendale-tx/fire-damage-restoration/", "/service-areas/gardendale-tx/mold-remediation/", "/service-areas/andrews-tx/water-heater-flood-cleanup/", "/service-areas/big-lake-tx/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gardendale", "url": "/service-areas/gardendale-tx/"}, {"name": "water-heater-flood-cleanup"}]

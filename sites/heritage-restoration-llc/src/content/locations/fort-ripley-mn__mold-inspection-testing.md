@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "5d9ae5e7ec7381fb"
-generated_at: "2026-09-29T23:13:48.890814+00:00"
+generated_at: "2026-09-30T19:28:41.676984+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/fort-ripley-mn/", "/service-areas/fort-ripley-mn/fire-damage-restoration/", "/service-areas/fort-ripley-mn/mold-remediation/", "/service-areas/albany-mn/mold-inspection-testing/", "/service-areas/avon-mn/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fort Ripley", "url": "/service-areas/fort-ripley-mn/"}, {"name": "Mold Inspection and Testing"}]

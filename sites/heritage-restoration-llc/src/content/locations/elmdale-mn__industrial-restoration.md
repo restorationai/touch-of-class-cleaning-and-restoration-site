@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "5e8e4b7fd0cfe305"
-generated_at: "2026-09-29T23:13:48.886177+00:00"
+generated_at: "2026-09-30T19:28:41.670030+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/elmdale-mn/", "/service-areas/elmdale-mn/fire-damage-restoration/", "/service-areas/elmdale-mn/mold-remediation/", "/service-areas/albany-mn/industrial-restoration/", "/service-areas/avon-mn/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elmdale", "url": "/service-areas/elmdale-mn/"}, {"name": "Industrial Restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "6583fbdd88332499"
-generated_at: "2026-09-23T14:11:38.275980+00:00"
+generated_at: "2026-09-30T19:28:35.829054+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/ellenton-fl/", "/service-areas/ellenton-fl/fire-damage-restoration/", "/service-areas/ellenton-fl/mold-remediation/", "/service-areas/anna-maria-fl/emergency-plumbing/", "/service-areas/apollo-beach-fl/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ellenton", "url": "/service-areas/ellenton-fl/"}, {"name": "Emergency Plumbing"}]

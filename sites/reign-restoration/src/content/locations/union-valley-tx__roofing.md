@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "8904c1424fb320b7"
-generated_at: "2026-09-23T14:12:04.462663+00:00"
+generated_at: "2026-09-30T19:29:00.349037+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/union-valley-tx/", "/service-areas/union-valley-tx/fire-damage-restoration/", "/service-areas/union-valley-tx/mold-remediation/", "/service-areas/allen-tx/roofing/", "/service-areas/caddo-mills-tx/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Union Valley", "url": "/service-areas/union-valley-tx/"}, {"name": "Roofing Installation and Replacement"}]

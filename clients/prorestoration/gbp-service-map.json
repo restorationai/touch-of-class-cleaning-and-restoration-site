@@ -121,6 +121,12 @@
       "reason": "Location variant of mold removal",
       "at": "2026-09-30"
     },
+    "Bathroom remodeler": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
+      "at": "2026-09-30"
+    },
     "Bathroom Remodeling": {
       "verdict": "mapped",
       "page": "home-remodeling",
@@ -217,6 +223,12 @@
       "page": "carpet-cleaning",
       "source": "claude",
       "reason": "Related fabric cleaning service",
+      "at": "2026-09-30"
+    },
+    "Construction company": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
       "at": "2026-09-30"
     },
     "Contents Restoration & Storage": {
@@ -429,6 +441,13 @@
       "source": "containment",
       "at": "2026-09-30"
     },
+    "General contractor": {
+      "verdict": "mapped",
+      "page": "general-contracting",
+      "reason": "same-service cluster as general-contracting",
+      "source": "cluster",
+      "at": "2026-09-30"
+    },
     "General Repair And Maintenance": {
       "verdict": "mapped",
       "page": "general-contracting",
@@ -485,11 +504,23 @@
       "reason": "Minor contracting task",
       "at": "2026-09-30"
     },
+    "Interior construction contractor": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
+      "at": "2026-09-30"
+    },
     "Interior Structural Repairs": {
       "verdict": "mapped",
       "page": "reconstruction",
       "source": "claude",
       "reason": "Reconstruction sub-case",
+      "at": "2026-09-30"
+    },
+    "Kitchen remodeler": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
       "at": "2026-09-30"
     },
     "Kitchen Remodeling": {
@@ -602,6 +633,13 @@
       "page": "home-remodeling",
       "source": "claude",
       "reason": "Synonym for remodeling",
+      "at": "2026-09-30"
+    },
+    "Remodeler": {
+      "verdict": "mapped",
+      "page": "home-remodeling",
+      "reason": "same-service cluster as home-remodeling",
+      "source": "cluster",
       "at": "2026-09-30"
     },
     "Remove Pet Stains And Odors": {

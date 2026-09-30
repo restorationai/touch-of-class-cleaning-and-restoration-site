@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "699e3bc4d6b2db92"
-generated_at: "2026-09-30T14:12:02.631761+00:00"
+generated_at: "2026-09-30T19:28:20.846243+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/stanton-tx/", "/service-areas/stanton-tx/fire-damage-restoration/", "/service-areas/stanton-tx/mold-remediation/", "/service-areas/andrews-tx/emergency-plumbing/", "/service-areas/big-lake-tx/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Stanton", "url": "/service-areas/stanton-tx/"}, {"name": "emergency-plumbing"}]

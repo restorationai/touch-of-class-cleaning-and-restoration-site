@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "e7a7c1450d3c04a4"
-generated_at: "2026-09-29T23:28:29.505359+00:00"
+generated_at: "2026-09-30T19:28:35.741324+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/riverview-fl/", "/service-areas/riverview-fl/fire-damage-restoration/", "/service-areas/riverview-fl/mold-remediation/", "/service-areas/anna-maria-fl/commercial-restoration/", "/service-areas/apollo-beach-fl/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Riverview", "url": "/service-areas/riverview-fl/"}, {"name": "Commercial Restoration"}]

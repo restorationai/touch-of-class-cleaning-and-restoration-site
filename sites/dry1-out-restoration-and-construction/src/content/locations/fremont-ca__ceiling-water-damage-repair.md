@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "f56e46f511e5eaf6"
-generated_at: "2026-09-29T14:31:48.360348+00:00"
+generated_at: "2026-09-30T19:28:33.744438+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/fremont-ca/", "/service-areas/fremont-ca/fire-damage-restoration/", "/service-areas/fremont-ca/mold-remediation/", "/service-areas/berkeley-ca/ceiling-water-damage-repair/", "/service-areas/carlsbad-ca/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fremont", "url": "/service-areas/fremont-ca/"}, {"name": "ceiling-water-damage-repair"}]

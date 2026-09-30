@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 9.0
 plan_hash: "6d2dd799c0712f5b"
-generated_at: "2026-09-23T14:12:04.431923+00:00"
+generated_at: "2026-09-30T19:29:00.298506+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/allen-tx/roofing/", "/service-areas/caddo-mills-tx/roofing/", "/service-areas/dallas-tx/roofing/", "/service-areas/farmersville-tx/roofing/", "/service-areas/fate-tx/roofing/", "/service-areas/frisco-tx/roofing/", "/service-areas/garland-tx/roofing/", "/service-areas/greenville-tx/roofing/", "/service-areas/heath-tx/roofing/", "/service-areas/highland-park-tx/roofing/", "/service-areas/josephine-tx/roofing/", "/service-areas/lavon-tx/roofing/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Roofing Installation and Replacement"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "ee15b7121a465e15"
-generated_at: "2026-09-30T14:12:07.142756+00:00"
+generated_at: "2026-09-30T19:28:30.116043+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/farrell-pa/", "/service-areas/farrell-pa/fire-damage-restoration/", "/service-areas/farrell-pa/mold-remediation/", "/service-areas/austintown-oh/commercial-restoration/", "/service-areas/boardman-oh/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Farrell", "url": "/service-areas/farrell-pa/"}, {"name": "commercial-restoration"}]

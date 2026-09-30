@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "0ba5e715d611cea6"
-generated_at: "2026-09-30T14:12:12.966356+00:00"
+generated_at: "2026-09-30T19:28:43.513250+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/gulf-hills-ms/", "/service-areas/gulf-hills-ms/fire-damage-restoration/", "/service-areas/gulf-hills-ms/mold-remediation/", "/service-areas/agricola-ms/water-heater-flood-cleanup/", "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gulf Hills", "url": "/service-areas/gulf-hills-ms/"}, {"name": "water-heater-flood-cleanup"}]

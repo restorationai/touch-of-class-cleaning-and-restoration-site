@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "53d92ba93ed5a355"
-generated_at: "2026-09-29T23:13:48.873856+00:00"
+generated_at: "2026-09-30T19:28:41.650709+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/pierz-mn/", "/service-areas/pierz-mn/fire-damage-restoration/", "/service-areas/pierz-mn/mold-remediation/", "/service-areas/albany-mn/water-leak-detection/", "/service-areas/avon-mn/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pierz", "url": "/service-areas/pierz-mn/"}, {"name": "Water Leak Detection"}]

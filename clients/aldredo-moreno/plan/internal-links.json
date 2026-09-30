@@ -9,6 +9,7 @@
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
     "/services/emergency-plumbing/",
+    "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
     "/services/sewage-cleanup/",
@@ -50,6 +51,7 @@
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
     "/services/emergency-plumbing/",
+    "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
     "/services/sewage-cleanup/",
@@ -140,6 +142,23 @@
     "/service-areas/monahans-tx/carpet-cleaning/",
     "/service-areas/odessa-tx/carpet-cleaning/"
   ],
+  "/services/emergency-water-removal/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/andrews-tx/emergency-water-removal/",
+    "/service-areas/big-lake-tx/emergency-water-removal/",
+    "/service-areas/big-spring-tx/emergency-water-removal/",
+    "/service-areas/crane-tx/emergency-water-removal/",
+    "/service-areas/garden-city-tx/emergency-water-removal/",
+    "/service-areas/gardendale-tx/emergency-water-removal/",
+    "/service-areas/goldsmith-tx/emergency-water-removal/",
+    "/service-areas/greenwood-tx/emergency-water-removal/",
+    "/service-areas/imperial-tx/emergency-water-removal/",
+    "/service-areas/mccamey-tx/emergency-water-removal/",
+    "/service-areas/monahans-tx/emergency-water-removal/",
+    "/service-areas/odessa-tx/emergency-water-removal/",
+    "/services/water-damage-restoration/"
+  ],
   "/services/junk-debris-removal/": [
     "/services/",
     "/contact/",
@@ -219,6 +238,7 @@
     "/service-areas/mccamey-tx/water-damage-restoration/",
     "/service-areas/monahans-tx/water-damage-restoration/",
     "/service-areas/odessa-tx/water-damage-restoration/",
+    "/services/emergency-water-removal/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
@@ -494,6 +514,7 @@
     "/service-areas/odessa-tx/water-damage-restoration/",
     "/service-areas/odessa-tx/commercial-restoration/",
     "/service-areas/odessa-tx/emergency-plumbing/",
+    "/service-areas/odessa-tx/emergency-water-removal/",
     "/service-areas/odessa-tx/flood-damage-restoration/",
     "/service-areas/odessa-tx/reconstruction/",
     "/service-areas/odessa-tx/sewage-cleanup/",
@@ -524,6 +545,7 @@
     "/service-areas/big-spring-tx/water-damage-restoration/",
     "/service-areas/big-spring-tx/commercial-restoration/",
     "/service-areas/big-spring-tx/emergency-plumbing/",
+    "/service-areas/big-spring-tx/emergency-water-removal/",
     "/service-areas/big-spring-tx/flood-damage-restoration/",
     "/service-areas/big-spring-tx/reconstruction/",
     "/service-areas/big-spring-tx/sewage-cleanup/",
@@ -554,6 +576,7 @@
     "/service-areas/stanton-tx/water-damage-restoration/",
     "/service-areas/stanton-tx/commercial-restoration/",
     "/service-areas/stanton-tx/emergency-plumbing/",
+    "/service-areas/stanton-tx/emergency-water-removal/",
     "/service-areas/stanton-tx/flood-damage-restoration/",
     "/service-areas/stanton-tx/reconstruction/",
     "/service-areas/stanton-tx/sewage-cleanup/",
@@ -584,6 +607,7 @@
     "/service-areas/andrews-tx/water-damage-restoration/",
     "/service-areas/andrews-tx/commercial-restoration/",
     "/service-areas/andrews-tx/emergency-plumbing/",
+    "/service-areas/andrews-tx/emergency-water-removal/",
     "/service-areas/andrews-tx/flood-damage-restoration/",
     "/service-areas/andrews-tx/reconstruction/",
     "/service-areas/andrews-tx/sewage-cleanup/",
@@ -614,6 +638,7 @@
     "/service-areas/gardendale-tx/water-damage-restoration/",
     "/service-areas/gardendale-tx/commercial-restoration/",
     "/service-areas/gardendale-tx/emergency-plumbing/",
+    "/service-areas/gardendale-tx/emergency-water-removal/",
     "/service-areas/gardendale-tx/flood-damage-restoration/",
     "/service-areas/gardendale-tx/reconstruction/",
     "/service-areas/gardendale-tx/sewage-cleanup/",
@@ -644,6 +669,7 @@
     "/service-areas/greenwood-tx/water-damage-restoration/",
     "/service-areas/greenwood-tx/commercial-restoration/",
     "/service-areas/greenwood-tx/emergency-plumbing/",
+    "/service-areas/greenwood-tx/emergency-water-removal/",
     "/service-areas/greenwood-tx/flood-damage-restoration/",
     "/service-areas/greenwood-tx/reconstruction/",
     "/service-areas/greenwood-tx/sewage-cleanup/",
@@ -674,6 +700,7 @@
     "/service-areas/goldsmith-tx/water-damage-restoration/",
     "/service-areas/goldsmith-tx/commercial-restoration/",
     "/service-areas/goldsmith-tx/emergency-plumbing/",
+    "/service-areas/goldsmith-tx/emergency-water-removal/",
     "/service-areas/goldsmith-tx/flood-damage-restoration/",
     "/service-areas/goldsmith-tx/reconstruction/",
     "/service-areas/goldsmith-tx/sewage-cleanup/",
@@ -704,6 +731,7 @@
     "/service-areas/west-odessa-tx/water-damage-restoration/",
     "/service-areas/west-odessa-tx/commercial-restoration/",
     "/service-areas/west-odessa-tx/emergency-plumbing/",
+    "/service-areas/west-odessa-tx/emergency-water-removal/",
     "/service-areas/west-odessa-tx/flood-damage-restoration/",
     "/service-areas/west-odessa-tx/reconstruction/",
     "/service-areas/west-odessa-tx/sewage-cleanup/",
@@ -734,6 +762,7 @@
     "/service-areas/garden-city-tx/water-damage-restoration/",
     "/service-areas/garden-city-tx/commercial-restoration/",
     "/service-areas/garden-city-tx/emergency-plumbing/",
+    "/service-areas/garden-city-tx/emergency-water-removal/",
     "/service-areas/garden-city-tx/flood-damage-restoration/",
     "/service-areas/garden-city-tx/reconstruction/",
     "/service-areas/garden-city-tx/sewage-cleanup/",
@@ -764,6 +793,7 @@
     "/service-areas/crane-tx/water-damage-restoration/",
     "/service-areas/crane-tx/commercial-restoration/",
     "/service-areas/crane-tx/emergency-plumbing/",
+    "/service-areas/crane-tx/emergency-water-removal/",
     "/service-areas/crane-tx/flood-damage-restoration/",
     "/service-areas/crane-tx/reconstruction/",
     "/service-areas/crane-tx/sewage-cleanup/",
@@ -794,6 +824,7 @@
     "/service-areas/monahans-tx/water-damage-restoration/",
     "/service-areas/monahans-tx/commercial-restoration/",
     "/service-areas/monahans-tx/emergency-plumbing/",
+    "/service-areas/monahans-tx/emergency-water-removal/",
     "/service-areas/monahans-tx/flood-damage-restoration/",
     "/service-areas/monahans-tx/reconstruction/",
     "/service-areas/monahans-tx/sewage-cleanup/",
@@ -824,6 +855,7 @@
     "/service-areas/mccamey-tx/water-damage-restoration/",
     "/service-areas/mccamey-tx/commercial-restoration/",
     "/service-areas/mccamey-tx/emergency-plumbing/",
+    "/service-areas/mccamey-tx/emergency-water-removal/",
     "/service-areas/mccamey-tx/flood-damage-restoration/",
     "/service-areas/mccamey-tx/reconstruction/",
     "/service-areas/mccamey-tx/sewage-cleanup/",
@@ -854,6 +886,7 @@
     "/service-areas/southwest-sandhill-tx/water-damage-restoration/",
     "/service-areas/southwest-sandhill-tx/commercial-restoration/",
     "/service-areas/southwest-sandhill-tx/emergency-plumbing/",
+    "/service-areas/southwest-sandhill-tx/emergency-water-removal/",
     "/service-areas/southwest-sandhill-tx/flood-damage-restoration/",
     "/service-areas/southwest-sandhill-tx/reconstruction/",
     "/service-areas/southwest-sandhill-tx/sewage-cleanup/",
@@ -884,6 +917,7 @@
     "/service-areas/big-lake-tx/water-damage-restoration/",
     "/service-areas/big-lake-tx/commercial-restoration/",
     "/service-areas/big-lake-tx/emergency-plumbing/",
+    "/service-areas/big-lake-tx/emergency-water-removal/",
     "/service-areas/big-lake-tx/flood-damage-restoration/",
     "/service-areas/big-lake-tx/reconstruction/",
     "/service-areas/big-lake-tx/sewage-cleanup/",
@@ -914,6 +948,7 @@
     "/service-areas/imperial-tx/water-damage-restoration/",
     "/service-areas/imperial-tx/commercial-restoration/",
     "/service-areas/imperial-tx/emergency-plumbing/",
+    "/service-areas/imperial-tx/emergency-water-removal/",
     "/service-areas/imperial-tx/flood-damage-restoration/",
     "/service-areas/imperial-tx/reconstruction/",
     "/service-areas/imperial-tx/sewage-cleanup/",
@@ -952,6 +987,15 @@
     "/service-areas/odessa-tx/mold-remediation/",
     "/service-areas/andrews-tx/carpet-cleaning/",
     "/service-areas/big-lake-tx/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/odessa-tx/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/odessa-tx/",
+    "/service-areas/odessa-tx/fire-damage-restoration/",
+    "/service-areas/odessa-tx/mold-remediation/",
+    "/service-areas/andrews-tx/emergency-water-removal/",
+    "/service-areas/big-lake-tx/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/odessa-tx/junk-debris-removal/": [
@@ -1161,6 +1205,15 @@
     "/service-areas/big-lake-tx/carpet-cleaning/",
     "/contact/"
   ],
+  "/service-areas/big-spring-tx/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/big-spring-tx/",
+    "/service-areas/big-spring-tx/fire-damage-restoration/",
+    "/service-areas/big-spring-tx/mold-remediation/",
+    "/service-areas/andrews-tx/emergency-water-removal/",
+    "/service-areas/big-lake-tx/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/big-spring-tx/junk-debris-removal/": [
     "/services/junk-debris-removal/",
     "/service-areas/big-spring-tx/",
@@ -1366,6 +1419,15 @@
     "/service-areas/stanton-tx/mold-remediation/",
     "/service-areas/andrews-tx/carpet-cleaning/",
     "/service-areas/big-lake-tx/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/stanton-tx/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/stanton-tx/",
+    "/service-areas/stanton-tx/fire-damage-restoration/",
+    "/service-areas/stanton-tx/mold-remediation/",
+    "/service-areas/andrews-tx/emergency-water-removal/",
+    "/service-areas/big-lake-tx/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/stanton-tx/junk-debris-removal/": [
@@ -1575,6 +1637,15 @@
     "/service-areas/big-spring-tx/carpet-cleaning/",
     "/contact/"
   ],
+  "/service-areas/andrews-tx/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/andrews-tx/",
+    "/service-areas/andrews-tx/fire-damage-restoration/",
+    "/service-areas/andrews-tx/mold-remediation/",
+    "/service-areas/big-lake-tx/emergency-water-removal/",
+    "/service-areas/big-spring-tx/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/andrews-tx/junk-debris-removal/": [
     "/services/junk-debris-removal/",
     "/service-areas/andrews-tx/",
@@ -1780,6 +1851,15 @@
     "/service-areas/gardendale-tx/mold-remediation/",
     "/service-areas/andrews-tx/carpet-cleaning/",
     "/service-areas/big-lake-tx/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/gardendale-tx/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/gardendale-tx/",
+    "/service-areas/gardendale-tx/fire-damage-restoration/",
+    "/service-areas/gardendale-tx/mold-remediation/",
+    "/service-areas/andrews-tx/emergency-water-removal/",
+    "/service-areas/big-lake-tx/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/gardendale-tx/junk-debris-removal/": [
@@ -1989,6 +2069,15 @@
     "/service-areas/big-lake-tx/carpet-cleaning/",
     "/contact/"
   ],
+  "/service-areas/greenwood-tx/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/greenwood-tx/",
+    "/service-areas/greenwood-tx/fire-damage-restoration/",
+    "/service-areas/greenwood-tx/mold-remediation/",
+    "/service-areas/andrews-tx/emergency-water-removal/",
+    "/service-areas/big-lake-tx/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/greenwood-tx/junk-debris-removal/": [
     "/services/junk-debris-removal/",
     "/service-areas/greenwood-tx/",
@@ -2194,6 +2283,15 @@
     "/service-areas/goldsmith-tx/mold-remediation/",
     "/service-areas/andrews-tx/carpet-cleaning/",
     "/service-areas/big-lake-tx/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/goldsmith-tx/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/goldsmith-tx/",
+    "/service-areas/goldsmith-tx/fire-damage-restoration/",
+    "/service-areas/goldsmith-tx/mold-remediation/",
+    "/service-areas/andrews-tx/emergency-water-removal/",
+    "/service-areas/big-lake-tx/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/goldsmith-tx/junk-debris-removal/": [
@@ -2403,6 +2501,15 @@
     "/service-areas/big-lake-tx/carpet-cleaning/",
     "/contact/"
   ],
+  "/service-areas/west-odessa-tx/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/west-odessa-tx/",
+    "/service-areas/west-odessa-tx/fire-damage-restoration/",
+    "/service-areas/west-odessa-tx/mold-remediation/",
+    "/service-areas/andrews-tx/emergency-water-removal/",
+    "/service-areas/big-lake-tx/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/west-odessa-tx/junk-debris-removal/": [
     "/services/junk-debris-removal/",
     "/service-areas/west-odessa-tx/",
@@ -2608,6 +2715,15 @@
     "/service-areas/garden-city-tx/mold-remediation/",
     "/service-areas/andrews-tx/carpet-cleaning/",
     "/service-areas/big-lake-tx/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/garden-city-tx/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/garden-city-tx/",
+    "/service-areas/garden-city-tx/fire-damage-restoration/",
+    "/service-areas/garden-city-tx/mold-remediation/",
+    "/service-areas/andrews-tx/emergency-water-removal/",
+    "/service-areas/big-lake-tx/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/garden-city-tx/junk-debris-removal/": [
@@ -2817,6 +2933,15 @@
     "/service-areas/big-lake-tx/carpet-cleaning/",
     "/contact/"
   ],
+  "/service-areas/crane-tx/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/crane-tx/",
+    "/service-areas/crane-tx/fire-damage-restoration/",
+    "/service-areas/crane-tx/mold-remediation/",
+    "/service-areas/andrews-tx/emergency-water-removal/",
+    "/service-areas/big-lake-tx/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/crane-tx/junk-debris-removal/": [
     "/services/junk-debris-removal/",
     "/service-areas/crane-tx/",
@@ -3022,6 +3147,15 @@
     "/service-areas/monahans-tx/mold-remediation/",
     "/service-areas/andrews-tx/carpet-cleaning/",
     "/service-areas/big-lake-tx/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/monahans-tx/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/monahans-tx/",
+    "/service-areas/monahans-tx/fire-damage-restoration/",
+    "/service-areas/monahans-tx/mold-remediation/",
+    "/service-areas/andrews-tx/emergency-water-removal/",
+    "/service-areas/big-lake-tx/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/monahans-tx/junk-debris-removal/": [
@@ -3231,6 +3365,15 @@
     "/service-areas/big-lake-tx/carpet-cleaning/",
     "/contact/"
   ],
+  "/service-areas/mccamey-tx/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/mccamey-tx/",
+    "/service-areas/mccamey-tx/fire-damage-restoration/",
+    "/service-areas/mccamey-tx/mold-remediation/",
+    "/service-areas/andrews-tx/emergency-water-removal/",
+    "/service-areas/big-lake-tx/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/mccamey-tx/junk-debris-removal/": [
     "/services/junk-debris-removal/",
     "/service-areas/mccamey-tx/",
@@ -3436,6 +3579,15 @@
     "/service-areas/southwest-sandhill-tx/mold-remediation/",
     "/service-areas/andrews-tx/carpet-cleaning/",
     "/service-areas/big-lake-tx/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/southwest-sandhill-tx/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/southwest-sandhill-tx/",
+    "/service-areas/southwest-sandhill-tx/fire-damage-restoration/",
+    "/service-areas/southwest-sandhill-tx/mold-remediation/",
+    "/service-areas/andrews-tx/emergency-water-removal/",
+    "/service-areas/big-lake-tx/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/southwest-sandhill-tx/junk-debris-removal/": [
@@ -3645,6 +3797,15 @@
     "/service-areas/big-spring-tx/carpet-cleaning/",
     "/contact/"
   ],
+  "/service-areas/big-lake-tx/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/big-lake-tx/",
+    "/service-areas/big-lake-tx/fire-damage-restoration/",
+    "/service-areas/big-lake-tx/mold-remediation/",
+    "/service-areas/andrews-tx/emergency-water-removal/",
+    "/service-areas/big-spring-tx/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/big-lake-tx/junk-debris-removal/": [
     "/services/junk-debris-removal/",
     "/service-areas/big-lake-tx/",
@@ -3850,6 +4011,15 @@
     "/service-areas/imperial-tx/mold-remediation/",
     "/service-areas/andrews-tx/carpet-cleaning/",
     "/service-areas/big-lake-tx/carpet-cleaning/",
+    "/contact/"
+  ],
+  "/service-areas/imperial-tx/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/imperial-tx/",
+    "/service-areas/imperial-tx/fire-damage-restoration/",
+    "/service-areas/imperial-tx/mold-remediation/",
+    "/service-areas/andrews-tx/emergency-water-removal/",
+    "/service-areas/big-lake-tx/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/imperial-tx/junk-debris-removal/": [

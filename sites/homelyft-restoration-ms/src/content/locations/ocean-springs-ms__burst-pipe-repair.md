@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "383f9801cf8eeed2"
-generated_at: "2026-09-30T14:12:12.988850+00:00"
+generated_at: "2026-09-30T19:28:43.538466+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/ocean-springs-ms/", "/service-areas/ocean-springs-ms/fire-damage-restoration/", "/service-areas/ocean-springs-ms/mold-remediation/", "/service-areas/agricola-ms/burst-pipe-repair/", "/service-areas/bay-st-louis-ms/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ocean Springs", "url": "/service-areas/ocean-springs-ms/"}, {"name": "burst-pipe-repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "5f574d759c0894e1"
-generated_at: "2026-09-23T14:11:38.288126+00:00"
+generated_at: "2026-09-30T19:28:35.895708+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/osprey-fl/", "/service-areas/osprey-fl/fire-damage-restoration/", "/service-areas/osprey-fl/mold-remediation/", "/service-areas/anna-maria-fl/emergency-plumbing/", "/service-areas/apollo-beach-fl/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Osprey", "url": "/service-areas/osprey-fl/"}, {"name": "Emergency Plumbing"}]

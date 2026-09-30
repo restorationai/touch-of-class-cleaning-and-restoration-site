@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "fa0660d3dffdbd1f"
-generated_at: "2026-09-28T20:50:26.610268+00:00"
+generated_at: "2026-09-30T19:28:58.567456+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/sandy-valley-nv/", "/service-areas/sandy-valley-nv/fire-damage-restoration/", "/service-areas/sandy-valley-nv/mold-remediation/", "/service-areas/blue-diamond-nv/burst-pipe-repair/", "/service-areas/boulder-city-nv/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sandy Valley", "url": "/service-areas/sandy-valley-nv/"}, {"name": "burst-pipe-repair"}]

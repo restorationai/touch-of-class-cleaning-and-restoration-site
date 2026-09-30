@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "5c4d467687d5e8ee"
-generated_at: "2026-09-30T14:12:01.755601+00:00"
+generated_at: "2026-09-30T19:28:19.967297+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/buffalo-gap-tx/", "/service-areas/buffalo-gap-tx/fire-damage-restoration/", "/service-areas/buffalo-gap-tx/mold-remediation/", "/service-areas/albany-tx/mold-inspection-testing/", "/service-areas/anson-tx/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buffalo Gap", "url": "/service-areas/buffalo-gap-tx/"}, {"name": "mold-inspection-testing"}]

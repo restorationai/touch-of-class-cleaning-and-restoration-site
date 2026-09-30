@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "acfb49bfee8ca97d"
-generated_at: "2026-09-30T14:12:07.105722+00:00"
+generated_at: "2026-09-30T19:28:30.065843+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/austintown-oh/", "/service-areas/austintown-oh/fire-damage-restoration/", "/service-areas/austintown-oh/mold-remediation/", "/service-areas/boardman-oh/commercial-restoration/", "/service-areas/campbell-oh/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Austintown", "url": "/service-areas/austintown-oh/"}, {"name": "commercial-restoration"}]

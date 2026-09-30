@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "6fc7279aced433b8"
-generated_at: "2026-09-30T14:12:21.459874+00:00"
+generated_at: "2026-09-30T19:28:53.021341+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/des-moines-wa/", "/service-areas/des-moines-wa/fire-damage-restoration/", "/service-areas/des-moines-wa/mold-remediation/", "/service-areas/algona-wa/water-leak-detection/", "/service-areas/auburn-wa/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Des Moines", "url": "/service-areas/des-moines-wa/"}, {"name": "Water Leak Detection"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "b7a45cdecee269d1"
-generated_at: "2026-09-30T14:12:13.010667+00:00"
+generated_at: "2026-09-30T19:28:43.564440+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/benndale-ms/", "/service-areas/benndale-ms/fire-damage-restoration/", "/service-areas/benndale-ms/mold-remediation/", "/service-areas/agricola-ms/roofing/", "/service-areas/bay-st-louis-ms/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Benndale", "url": "/service-areas/benndale-ms/"}, {"name": "Roofing Installation and Replacement"}]

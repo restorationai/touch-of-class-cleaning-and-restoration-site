@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "23a400ba63db8f18"
-generated_at: "2026-09-30T14:12:14.569693+00:00"
+generated_at: "2026-09-30T19:28:45.192344+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/riverton-ut/", "/service-areas/riverton-ut/fire-damage-restoration/", "/service-areas/riverton-ut/mold-remediation/", "/service-areas/alpine-ut/water-leak-detection/", "/service-areas/american-fork-ut/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Riverton", "url": "/service-areas/riverton-ut/"}, {"name": "Water Leak Detection"}]

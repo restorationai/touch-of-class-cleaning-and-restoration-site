@@ -8,7 +8,7 @@ secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restorati
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "f4b818340d21aa67"
-generated_at: "2026-09-29T23:13:48.865305+00:00"
+generated_at: "2026-09-30T19:28:41.635667+00:00"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/service-areas/foley-mn/", "/service-areas/foley-mn/fire-damage-restoration/", "/service-areas/foley-mn/mold-remediation/", "/service-areas/albany-mn/flood-damage-restoration/", "/service-areas/avon-mn/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Foley", "url": "/service-areas/foley-mn/"}, {"name": "Flood Damage Restoration"}]

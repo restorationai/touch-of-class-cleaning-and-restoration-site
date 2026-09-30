@@ -10,10 +10,10 @@
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 1505,
-    "generated_at": "2026-09-29T22:44:27.881383+00:00"
+    "url_count": 1415,
+    "generated_at": "2026-09-30T19:28:25.907711+00:00"
   },
-  "updated_at": "2026-09-30T14:15:53.521573+00:00",
+  "updated_at": "2026-09-30T19:28:25.907720+00:00",
   "build": {
     "scaffolded_at": "2026-07-26T06:51:44.253391+00:00",
     "github_repo": "restorationai/crew-restoration-construction-site",

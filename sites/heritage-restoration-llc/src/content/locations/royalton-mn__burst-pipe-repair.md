@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "4e01d457347ce4ec"
-generated_at: "2026-09-29T23:13:48.867807+00:00"
+generated_at: "2026-09-30T19:28:41.640030+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/royalton-mn/", "/service-areas/royalton-mn/fire-damage-restoration/", "/service-areas/royalton-mn/mold-remediation/", "/service-areas/albany-mn/burst-pipe-repair/", "/service-areas/avon-mn/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Royalton", "url": "/service-areas/royalton-mn/"}, {"name": "Burst Pipe Cleanup and Repair"}]

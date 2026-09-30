@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "d65128290191ca7a"
-generated_at: "2026-09-30T14:12:12.999862+00:00"
+generated_at: "2026-09-30T19:28:43.552510+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/vancleave-ms/", "/service-areas/vancleave-ms/fire-damage-restoration/", "/service-areas/vancleave-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-plumbing/", "/service-areas/bay-st-louis-ms/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vancleave", "url": "/service-areas/vancleave-ms/"}, {"name": "emergency-plumbing"}]

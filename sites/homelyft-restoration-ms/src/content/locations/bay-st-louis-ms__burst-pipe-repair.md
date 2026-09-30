@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "60eec354e090fa72"
-generated_at: "2026-09-30T14:12:12.907885+00:00"
+generated_at: "2026-09-30T19:28:43.443258+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/bay-st-louis-ms/", "/service-areas/bay-st-louis-ms/fire-damage-restoration/", "/service-areas/bay-st-louis-ms/mold-remediation/", "/service-areas/agricola-ms/burst-pipe-repair/", "/service-areas/benndale-ms/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bay St. Louis", "url": "/service-areas/bay-st-louis-ms/"}, {"name": "burst-pipe-repair"}]

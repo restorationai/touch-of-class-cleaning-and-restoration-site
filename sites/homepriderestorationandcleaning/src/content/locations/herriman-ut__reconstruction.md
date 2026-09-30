@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "f5031d60f285c35b"
-generated_at: "2026-09-30T14:12:14.561176+00:00"
+generated_at: "2026-09-30T19:28:45.097830+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/herriman-ut/", "/service-areas/herriman-ut/fire-damage-restoration/", "/service-areas/herriman-ut/mold-remediation/", "/service-areas/alpine-ut/reconstruction/", "/service-areas/american-fork-ut/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Herriman", "url": "/service-areas/herriman-ut/"}, {"name": "reconstruction"}]

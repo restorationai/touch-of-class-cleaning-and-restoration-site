@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "d2c557427fdf61dc"
-generated_at: "2026-09-30T14:12:12.824451+00:00"
+generated_at: "2026-09-30T19:28:43.338836+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/eastabuchie-ms/", "/service-areas/eastabuchie-ms/fire-damage-restoration/", "/service-areas/eastabuchie-ms/mold-remediation/", "/service-areas/agricola-ms/industrial-restoration/", "/service-areas/bay-st-louis-ms/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Eastabuchie", "url": "/service-areas/eastabuchie-ms/"}, {"name": "industrial-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "0c58ab7e7d02c56c"
-generated_at: "2026-09-30T14:12:02.646657+00:00"
+generated_at: "2026-09-30T19:28:20.872623+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/west-odessa-tx/", "/service-areas/west-odessa-tx/fire-damage-restoration/", "/service-areas/west-odessa-tx/mold-remediation/", "/service-areas/andrews-tx/emergency-plumbing/", "/service-areas/big-lake-tx/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "West Odessa", "url": "/service-areas/west-odessa-tx/"}, {"name": "emergency-plumbing"}]

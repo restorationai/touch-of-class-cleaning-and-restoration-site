@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "023aeb62288a1946"
-generated_at: "2026-09-30T14:12:21.485660+00:00"
+generated_at: "2026-09-30T19:28:53.043522+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/milton-wa/", "/service-areas/milton-wa/fire-damage-restoration/", "/service-areas/milton-wa/mold-remediation/", "/service-areas/algona-wa/biohazard-cleanup/", "/service-areas/auburn-wa/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Milton", "url": "/service-areas/milton-wa/"}, {"name": "Biohazard Cleanup"}]

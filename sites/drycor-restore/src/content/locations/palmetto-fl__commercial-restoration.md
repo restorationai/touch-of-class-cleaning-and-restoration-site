@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "c05fe2c9dce51677"
-generated_at: "2026-09-29T23:28:29.536602+00:00"
+generated_at: "2026-09-30T19:28:35.782453+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/palmetto-fl/", "/service-areas/palmetto-fl/fire-damage-restoration/", "/service-areas/palmetto-fl/mold-remediation/", "/service-areas/anna-maria-fl/commercial-restoration/", "/service-areas/apollo-beach-fl/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Palmetto", "url": "/service-areas/palmetto-fl/"}, {"name": "Commercial Restoration"}]

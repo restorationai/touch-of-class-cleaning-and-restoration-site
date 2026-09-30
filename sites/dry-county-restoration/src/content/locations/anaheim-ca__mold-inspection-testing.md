@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "269bd7cfe38a82bf"
-generated_at: "2026-09-30T14:12:09.625529+00:00"
+generated_at: "2026-09-30T19:28:32.698363+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/anaheim-ca/", "/service-areas/anaheim-ca/fire-damage-restoration/", "/service-areas/anaheim-ca/mold-remediation/", "/service-areas/chino-ca/mold-inspection-testing/", "/service-areas/chino-hills-ca/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Anaheim", "url": "/service-areas/anaheim-ca/"}, {"name": "Mold Inspection and Testing"}]

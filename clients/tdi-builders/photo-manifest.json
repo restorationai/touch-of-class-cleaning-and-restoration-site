@@ -57,6 +57,33 @@
       "triaged_at": "2026-09-08T14:16:43Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMS1wMOk--lXtjQnRSi43WwD5mCUVo-xGM6y-Gr": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMS1wMOk--lXtjQnRSi43WwD5mCUVo-xGM6y-Gr.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787586121477/job-photos/posted/gbp-AF1QipMS1wMOk--lXtjQnRSi43WwD5mCUVo-xGM6y-Gr.jpg",
+      "width": 1778,
+      "height": 1000,
+      "bytes": 158430,
+      "sha1": "41ae2de46c621082",
+      "exif": {},
+      "category": "unusable",
+      "subject": "Modern staged living room with staircase and fireplace",
+      "quality": 90,
+      "slots": {
+        "hero": 30,
+        "team": 0,
+        "services": 20
+      },
+      "service_slugs": [
+        "home-remodeling"
+      ],
+      "flags": [
+        "stock_photo"
+      ],
+      "reason": "Overly polished interior design photo, not a job site or contractor work",
+      "triaged_at": "2026-09-30T19:33:07Z",
+      "triage_model": "claude-sonnet-5"
+    },
     "gbp:gbp-AF1QipMgUNTSVzwYsXfXIiQPYoPpTM7NKVrfMkfi1Jiq": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMgUNTSVzwYsXfXIiQPYoPpTM7NKVrfMkfi1Jiq.jpg",
@@ -931,5 +958,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-09-24T19:09:04Z"
+  "triaged_at": "2026-09-30T19:33:07Z"
 }

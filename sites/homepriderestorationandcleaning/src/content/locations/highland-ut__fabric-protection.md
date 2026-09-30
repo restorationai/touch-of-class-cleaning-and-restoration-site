@@ -8,7 +8,7 @@ secondary_keywords: ["carpet protection", "upholstery protection", "stain guard"
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "1b3c9c30c6c6adc1"
-generated_at: "2026-09-30T14:12:14.592511+00:00"
+generated_at: "2026-09-30T19:28:45.240388+00:00"
 manual_override: false
 internal_links: ["/services/fabric-protection/", "/service-areas/highland-ut/", "/service-areas/highland-ut/fire-damage-restoration/", "/service-areas/highland-ut/mold-remediation/", "/service-areas/alpine-ut/fabric-protection/", "/service-areas/american-fork-ut/fabric-protection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Highland", "url": "/service-areas/highland-ut/"}, {"name": "Fabric Protection"}]

@@ -1,21 +1,21 @@
 # Site Plan Report — Katofsky Construction LLC
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T14:12:14.875447+00:00
+- Generated: 2026-09-30T19:28:45.479031+00:00
 - Domain: `katofskyconstruction.com`
-- Services selected: 14 of 91 catalog entries
+- Services selected: 12 of 91 catalog entries
 - Service areas: 35
 - Cross-product enabled: True
-- Total URLs: **538**
-- Total internal links: 4314 (avg 8.0 per page)
+- Total URLs: **468**
+- Total internal links: 3738 (avg 8.0 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 476 |
+| `service-area-service` | 408 |
 | `service-area` | 34 |
-| `service-landing` | 14 |
+| `service-landing` | 12 |
 | `blog-post` | 5 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -28,11 +28,9 @@
 ## Selected services
 
 - `air-duct-cleaning` — Air Duct Cleaning (adjacent, priority 5)
-- `air-duct-hvac-cleaning` — Air Duct & HVAC Cleaning (adjacent, priority 5)
 - `asbestos-abatement` — Asbestos Abatement (specialty, priority 6)
 - `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
 - `carpet-cleaning` — Carpet Cleaning (adjacent, priority 4)
-- `carpet-upholstery-cleaning` — Carpet & Upholstery Cleaning (adjacent, priority 5)
 - `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
 - `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)

@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "dcca546a745ba45f"
-generated_at: "2026-09-30T14:12:07.098816+00:00"
+generated_at: "2026-09-30T19:28:30.056903+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/warren-oh/", "/service-areas/warren-oh/fire-damage-restoration/", "/service-areas/warren-oh/mold-remediation/", "/service-areas/austintown-oh/ceiling-water-damage-repair/", "/service-areas/boardman-oh/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Warren", "url": "/service-areas/warren-oh/"}, {"name": "ceiling-water-damage-repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "4010d7d84deae88c"
-generated_at: "2026-09-30T14:12:12.876700+00:00"
+generated_at: "2026-09-30T19:28:43.407517+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/henderson-point-ms/", "/service-areas/henderson-point-ms/fire-damage-restoration/", "/service-areas/henderson-point-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-plumbing/", "/service-areas/bay-st-louis-ms/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Henderson Point", "url": "/service-areas/henderson-point-ms/"}, {"name": "emergency-plumbing"}]

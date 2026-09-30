@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "ff289d731be556c9"
-generated_at: "2026-09-29T23:28:29.486687+00:00"
+generated_at: "2026-09-30T19:28:35.713642+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/st-petersburg-fl/", "/service-areas/st-petersburg-fl/fire-damage-restoration/", "/service-areas/st-petersburg-fl/mold-remediation/", "/service-areas/anna-maria-fl/ceiling-water-damage-repair/", "/service-areas/apollo-beach-fl/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "St. Petersburg", "url": "/service-areas/st-petersburg-fl/"}, {"name": "Ceiling Water Damage Repair"}]

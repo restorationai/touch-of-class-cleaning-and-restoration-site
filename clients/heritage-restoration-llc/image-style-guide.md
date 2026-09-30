@@ -185,7 +185,7 @@ This list drives the image generation plan. Skill 3 (initial scaffold) generates
 - [ ] flood-damage-restoration
 - [ ] burst-pipe-repair
 - [ ] basement-flooding-cleanup
-- [ ] (continue for each of Water Damage Restoration, Storm Damage Restoration, Renovations, Remodels and General Contracting, Emergency Water Cleanup, Fire Damage Restoration, Roofing Installation and Replacement, Basement Flooding Cleanup, Burst Pipe Cleanup and Repair, Ceiling Water Damage Repair, Commercial Restoration, Emergency Plumbing, 24/7 Emergency Water Removal, Flood Damage Restoration, General Contractor, Industrial Restoration, Basement Remodeling, Bathroom Remodeling, Construction, Large Loss and Catastrophic Response, Mold Inspection and Testing, Mold Remediation, Reconstruction Services, Remodeler, Sewage Cleanup and Sanitization, Smoke Damage Restoration, Water Heater Flood Cleanup, Water Leak Detection)
+- [ ] (continue for each of Basement Flooding Cleanup, Burst Pipe Cleanup and Repair, Ceiling Water Damage Repair, Commercial Restoration, Emergency Plumbing, Emergency Water Removal & Cleanup, Fire Damage Restoration, Flood Damage Restoration, Renovations, Remodels and General Contracting, Industrial Restoration, Basement Remodeling, Bathroom Remodeling, Large Loss and Catastrophic Response, Mold Inspection and Testing, Mold Remediation, Reconstruction Services, Remodeler, Roofing Installation and Replacement, Sewage Cleanup and Sanitization, Smoke Damage Restoration, Storm Damage Restoration, Water Damage Restoration, Water Heater Flood Cleanup, Water Leak Detection)
 
 ### Service area pages (one image per city served)
 - [ ] Little Falls hero — exterior shot, regional housing stock, evocative of the city

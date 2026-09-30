@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "ea5bc64608e0be3d"
-generated_at: "2026-09-30T14:12:07.102821+00:00"
+generated_at: "2026-09-30T19:28:30.062709+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/boardman-oh/", "/service-areas/boardman-oh/fire-damage-restoration/", "/service-areas/boardman-oh/mold-remediation/", "/service-areas/austintown-oh/water-leak-detection/", "/service-areas/campbell-oh/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Boardman", "url": "/service-areas/boardman-oh/"}, {"name": "water-leak-detection"}]

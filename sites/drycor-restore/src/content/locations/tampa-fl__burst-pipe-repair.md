@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "b15c21b3dc0bf2d3"
-generated_at: "2026-09-29T23:28:29.463823+00:00"
+generated_at: "2026-09-30T19:28:35.676439+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/tampa-fl/", "/service-areas/tampa-fl/fire-damage-restoration/", "/service-areas/tampa-fl/mold-remediation/", "/service-areas/anna-maria-fl/burst-pipe-repair/", "/service-areas/apollo-beach-fl/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tampa", "url": "/service-areas/tampa-fl/"}, {"name": "Burst Pipe Cleanup and Repair"}]

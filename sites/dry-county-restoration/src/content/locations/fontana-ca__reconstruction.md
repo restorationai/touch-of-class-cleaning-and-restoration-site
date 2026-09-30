@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "074027f377558951"
-generated_at: "2026-09-30T14:12:09.781064+00:00"
+generated_at: "2026-09-30T19:28:32.846012+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/fontana-ca/", "/service-areas/fontana-ca/fire-damage-restoration/", "/service-areas/fontana-ca/mold-remediation/", "/service-areas/anaheim-ca/reconstruction/", "/service-areas/chino-ca/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fontana", "url": "/service-areas/fontana-ca/"}, {"name": "Reconstruction Services"}]

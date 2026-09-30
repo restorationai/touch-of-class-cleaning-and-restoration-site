@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "978c3dc91715fcd5"
-generated_at: "2026-09-28T20:50:26.617080+00:00"
+generated_at: "2026-09-30T19:28:58.589765+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/indian-springs-nv/", "/service-areas/indian-springs-nv/fire-damage-restoration/", "/service-areas/indian-springs-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-leak-detection/", "/service-areas/boulder-city-nv/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Indian Springs", "url": "/service-areas/indian-springs-nv/"}, {"name": "water-leak-detection"}]

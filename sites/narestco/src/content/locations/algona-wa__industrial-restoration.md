@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "90425655a0b16e18"
-generated_at: "2026-09-30T14:12:21.478275+00:00"
+generated_at: "2026-09-30T19:28:53.038021+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/algona-wa/", "/service-areas/algona-wa/fire-damage-restoration/", "/service-areas/algona-wa/mold-remediation/", "/service-areas/auburn-wa/industrial-restoration/", "/service-areas/bellevue-wa/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Algona", "url": "/service-areas/algona-wa/"}, {"name": "Industrial Restoration"}]

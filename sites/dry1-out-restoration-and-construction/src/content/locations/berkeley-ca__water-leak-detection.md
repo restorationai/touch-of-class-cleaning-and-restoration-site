@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "7bd73b1d926ccb02"
-generated_at: "2026-09-29T14:31:48.447593+00:00"
+generated_at: "2026-09-30T19:28:33.855659+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/berkeley-ca/", "/service-areas/berkeley-ca/fire-damage-restoration/", "/service-areas/berkeley-ca/mold-remediation/", "/service-areas/carlsbad-ca/water-leak-detection/", "/service-areas/chula-vista-ca/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Berkeley", "url": "/service-areas/berkeley-ca/"}, {"name": "water-leak-detection"}]

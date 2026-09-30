@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "3cdfa60b6b20e24f"
-generated_at: "2026-09-30T14:12:01.797888+00:00"
+generated_at: "2026-09-30T19:28:20.032743+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/albany-tx/", "/service-areas/albany-tx/fire-damage-restoration/", "/service-areas/albany-tx/mold-remediation/", "/service-areas/anson-tx/water-heater-flood-cleanup/", "/service-areas/baird-tx/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Albany", "url": "/service-areas/albany-tx/"}, {"name": "water-heater-flood-cleanup"}]

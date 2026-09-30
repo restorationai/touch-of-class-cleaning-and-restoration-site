@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "e9a2e1826f2efe39"
-generated_at: "2026-09-30T14:12:01.740652+00:00"
+generated_at: "2026-09-30T19:28:19.949914+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/clyde-tx/", "/service-areas/clyde-tx/fire-damage-restoration/", "/service-areas/clyde-tx/mold-remediation/", "/service-areas/albany-tx/burst-pipe-repair/", "/service-areas/anson-tx/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Clyde", "url": "/service-areas/clyde-tx/"}, {"name": "burst-pipe-repair"}]

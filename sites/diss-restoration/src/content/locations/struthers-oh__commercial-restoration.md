@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "46ef426e6cb21de8"
-generated_at: "2026-09-30T14:12:07.116807+00:00"
+generated_at: "2026-09-30T19:28:30.080942+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/struthers-oh/", "/service-areas/struthers-oh/fire-damage-restoration/", "/service-areas/struthers-oh/mold-remediation/", "/service-areas/austintown-oh/commercial-restoration/", "/service-areas/boardman-oh/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Struthers", "url": "/service-areas/struthers-oh/"}, {"name": "commercial-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "ad41dfa4da942840"
-generated_at: "2026-09-29T14:31:48.374915+00:00"
+generated_at: "2026-09-30T19:28:33.760867+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/escondido-ca/", "/service-areas/escondido-ca/fire-damage-restoration/", "/service-areas/escondido-ca/mold-remediation/", "/service-areas/berkeley-ca/industrial-restoration/", "/service-areas/carlsbad-ca/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Escondido", "url": "/service-areas/escondido-ca/"}, {"name": "industrial-restoration"}]

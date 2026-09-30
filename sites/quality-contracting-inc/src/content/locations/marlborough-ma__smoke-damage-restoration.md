@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "5391b4133138747c"
-generated_at: "2026-09-30T14:12:26.047289+00:00"
+generated_at: "2026-09-30T19:28:57.237767+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/marlborough-ma/", "/service-areas/marlborough-ma/fire-damage-restoration/", "/service-areas/marlborough-ma/mold-remediation/", "/service-areas/bellingham-ma/smoke-damage-restoration/", "/service-areas/east-douglas-ma/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Marlborough", "url": "/service-areas/marlborough-ma/"}, {"name": "smoke-damage-restoration"}]

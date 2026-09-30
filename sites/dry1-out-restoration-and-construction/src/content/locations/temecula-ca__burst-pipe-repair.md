@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "5da8ec03b6cf7de5"
-generated_at: "2026-09-29T14:31:48.398985+00:00"
+generated_at: "2026-09-30T19:28:33.788123+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/temecula-ca/", "/service-areas/temecula-ca/fire-damage-restoration/", "/service-areas/temecula-ca/mold-remediation/", "/service-areas/berkeley-ca/burst-pipe-repair/", "/service-areas/carlsbad-ca/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Temecula", "url": "/service-areas/temecula-ca/"}, {"name": "burst-pipe-repair"}]

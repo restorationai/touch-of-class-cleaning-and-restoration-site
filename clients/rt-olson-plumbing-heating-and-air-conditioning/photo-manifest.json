@@ -5229,6 +5229,33 @@
       "exif": {},
       "duplicate_of": "gbp:gbp-AF1QipN8rLcsh1tF03WRuCHo2BE_JklxP23U6Ec4-AbC"
     },
+    "gbp:gbp-AF1QipPSeGZDVzDVfmXmVKCXvxatLFGubHhXU5fzHPWu": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipPSeGZDVzDVfmXmVKCXvxatLFGubHhXU5fzHPWu.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786206263495/job-photos/posted/gbp-AF1QipPSeGZDVzDVfmXmVKCXvxatLFGubHhXU5fzHPWu.jpg",
+      "width": 2119,
+      "height": 1192,
+      "bytes": 3499238,
+      "sha1": "750e821d9305f481",
+      "exif": {},
+      "category": "crew",
+      "subject": "Seven uniformed crew members posed in front of company van",
+      "quality": 85,
+      "slots": {
+        "hero": 55,
+        "team": 95,
+        "services": 30
+      },
+      "service_slugs": [
+        "all-plumbing-services"
+      ],
+      "flags": [
+        "people_faces"
+      ],
+      "reason": "Sharp group photo of uniformed team with branded van, real signage present.",
+      "triaged_at": "2026-09-30T19:32:52Z",
+      "triage_model": "claude-sonnet-5"
+    },
     "gbp:gbp-AF1QipPTXBFL5e4ZmAhinV1a4euAcG-omL-ri0eM89Gl": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPTXBFL5e4ZmAhinV1a4euAcG-omL-ri0eM89Gl.jpg",
@@ -6216,5 +6243,5 @@
       "file": "/images/services.webp"
     }
   },
-  "triaged_at": "2026-09-02T19:01:27Z"
+  "triaged_at": "2026-09-30T19:32:52Z"
 }

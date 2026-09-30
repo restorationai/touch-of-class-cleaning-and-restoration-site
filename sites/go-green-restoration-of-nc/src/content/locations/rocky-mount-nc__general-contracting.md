@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "28611708327286b0"
-generated_at: "2026-09-29T23:13:49.275923+00:00"
+generated_at: "2026-09-30T19:28:39.600805+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/rocky-mount-nc/", "/service-areas/rocky-mount-nc/fire-damage-restoration/", "/service-areas/rocky-mount-nc/mold-remediation/", "/service-areas/archer-lodge-nc/general-contracting/", "/service-areas/clayton-nc/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rocky Mount", "url": "/service-areas/rocky-mount-nc/"}, {"name": "Renovations, Remodels and General Contracting"}]

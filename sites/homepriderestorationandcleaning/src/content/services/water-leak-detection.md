@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "fe3442d6e93a8ad5"
-generated_at: "2026-09-30T14:12:14.522978+00:00"
+generated_at: "2026-09-30T19:28:45.047117+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/water-leak-detection/", "/service-areas/american-fork-ut/water-leak-detection/", "/service-areas/benjamin-ut/water-leak-detection/", "/service-areas/bluffdale-ut/water-leak-detection/", "/service-areas/cedar-fort-ut/water-leak-detection/", "/service-areas/cedar-hills-ut/water-leak-detection/", "/service-areas/draper-ut/water-leak-detection/", "/service-areas/eagle-mountain-ut/water-leak-detection/", "/service-areas/fairfield-ut/water-leak-detection/", "/service-areas/heber-city-ut/water-leak-detection/", "/service-areas/herriman-ut/water-leak-detection/", "/service-areas/highland-ut/water-leak-detection/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Water Leak Detection"}]

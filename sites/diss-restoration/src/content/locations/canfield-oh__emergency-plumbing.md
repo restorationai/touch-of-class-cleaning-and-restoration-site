@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "ce591c60fb948f84"
-generated_at: "2026-09-30T14:12:07.121734+00:00"
+generated_at: "2026-09-30T19:28:30.089729+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/canfield-oh/", "/service-areas/canfield-oh/fire-damage-restoration/", "/service-areas/canfield-oh/mold-remediation/", "/service-areas/austintown-oh/emergency-plumbing/", "/service-areas/boardman-oh/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Canfield", "url": "/service-areas/canfield-oh/"}, {"name": "emergency-plumbing"}]

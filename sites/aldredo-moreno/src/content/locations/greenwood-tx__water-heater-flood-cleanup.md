@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "da84384b9ca93649"
-generated_at: "2026-09-30T14:12:02.640183+00:00"
+generated_at: "2026-09-30T19:28:20.861703+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/greenwood-tx/", "/service-areas/greenwood-tx/fire-damage-restoration/", "/service-areas/greenwood-tx/mold-remediation/", "/service-areas/andrews-tx/water-heater-flood-cleanup/", "/service-areas/big-lake-tx/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Greenwood", "url": "/service-areas/greenwood-tx/"}, {"name": "water-heater-flood-cleanup"}]

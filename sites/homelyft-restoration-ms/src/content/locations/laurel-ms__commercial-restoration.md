@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "afde6c72273f26a9"
-generated_at: "2026-09-30T14:12:13.026803+00:00"
+generated_at: "2026-09-30T19:28:43.583438+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/laurel-ms/", "/service-areas/laurel-ms/fire-damage-restoration/", "/service-areas/laurel-ms/mold-remediation/", "/service-areas/agricola-ms/commercial-restoration/", "/service-areas/bay-st-louis-ms/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Laurel", "url": "/service-areas/laurel-ms/"}, {"name": "commercial-restoration"}]

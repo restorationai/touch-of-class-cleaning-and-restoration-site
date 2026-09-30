@@ -9,6 +9,7 @@
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
     "/services/emergency-plumbing/",
+    "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
     "/services/sewage-cleanup/",
@@ -59,6 +60,7 @@
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
     "/services/emergency-plumbing/",
+    "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
     "/services/sewage-cleanup/",
@@ -222,6 +224,23 @@
     "/service-areas/mercer-pa/emergency-board-up-tarping/",
     "/service-areas/mineral-ridge-oh/emergency-board-up-tarping/"
   ],
+  "/services/emergency-water-removal/": [
+    "/services/",
+    "/contact/",
+    "/service-areas/austintown-oh/emergency-water-removal/",
+    "/service-areas/boardman-oh/emergency-water-removal/",
+    "/service-areas/campbell-oh/emergency-water-removal/",
+    "/service-areas/canfield-oh/emergency-water-removal/",
+    "/service-areas/farrell-pa/emergency-water-removal/",
+    "/service-areas/girard-oh/emergency-water-removal/",
+    "/service-areas/greenville-pa/emergency-water-removal/",
+    "/service-areas/grove-city-pa/emergency-water-removal/",
+    "/service-areas/hermitage-pa/emergency-water-removal/",
+    "/service-areas/hubbard-oh/emergency-water-removal/",
+    "/service-areas/mercer-pa/emergency-water-removal/",
+    "/service-areas/mineral-ridge-oh/emergency-water-removal/",
+    "/services/water-damage-restoration/"
+  ],
   "/services/fire-damage-restoration/": [
     "/services/",
     "/contact/",
@@ -354,6 +373,7 @@
     "/service-areas/hubbard-oh/water-damage-restoration/",
     "/service-areas/mercer-pa/water-damage-restoration/",
     "/service-areas/mineral-ridge-oh/water-damage-restoration/",
+    "/services/emergency-water-removal/",
     "/blog/burst-pipe-emergency-checklist/",
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
@@ -576,6 +596,7 @@
     "/service-areas/warren-oh/water-damage-restoration/",
     "/service-areas/warren-oh/commercial-restoration/",
     "/service-areas/warren-oh/emergency-plumbing/",
+    "/service-areas/warren-oh/emergency-water-removal/",
     "/service-areas/warren-oh/flood-damage-restoration/",
     "/service-areas/warren-oh/reconstruction/",
     "/service-areas/warren-oh/sewage-cleanup/",
@@ -610,6 +631,7 @@
     "/service-areas/boardman-oh/water-damage-restoration/",
     "/service-areas/boardman-oh/commercial-restoration/",
     "/service-areas/boardman-oh/emergency-plumbing/",
+    "/service-areas/boardman-oh/emergency-water-removal/",
     "/service-areas/boardman-oh/flood-damage-restoration/",
     "/service-areas/boardman-oh/reconstruction/",
     "/service-areas/boardman-oh/sewage-cleanup/",
@@ -644,6 +666,7 @@
     "/service-areas/austintown-oh/water-damage-restoration/",
     "/service-areas/austintown-oh/commercial-restoration/",
     "/service-areas/austintown-oh/emergency-plumbing/",
+    "/service-areas/austintown-oh/emergency-water-removal/",
     "/service-areas/austintown-oh/flood-damage-restoration/",
     "/service-areas/austintown-oh/reconstruction/",
     "/service-areas/austintown-oh/sewage-cleanup/",
@@ -678,6 +701,7 @@
     "/service-areas/niles-oh/water-damage-restoration/",
     "/service-areas/niles-oh/commercial-restoration/",
     "/service-areas/niles-oh/emergency-plumbing/",
+    "/service-areas/niles-oh/emergency-water-removal/",
     "/service-areas/niles-oh/flood-damage-restoration/",
     "/service-areas/niles-oh/reconstruction/",
     "/service-areas/niles-oh/sewage-cleanup/",
@@ -712,6 +736,7 @@
     "/service-areas/girard-oh/water-damage-restoration/",
     "/service-areas/girard-oh/commercial-restoration/",
     "/service-areas/girard-oh/emergency-plumbing/",
+    "/service-areas/girard-oh/emergency-water-removal/",
     "/service-areas/girard-oh/flood-damage-restoration/",
     "/service-areas/girard-oh/reconstruction/",
     "/service-areas/girard-oh/sewage-cleanup/",
@@ -746,6 +771,7 @@
     "/service-areas/struthers-oh/water-damage-restoration/",
     "/service-areas/struthers-oh/commercial-restoration/",
     "/service-areas/struthers-oh/emergency-plumbing/",
+    "/service-areas/struthers-oh/emergency-water-removal/",
     "/service-areas/struthers-oh/flood-damage-restoration/",
     "/service-areas/struthers-oh/reconstruction/",
     "/service-areas/struthers-oh/sewage-cleanup/",
@@ -780,6 +806,7 @@
     "/service-areas/canfield-oh/water-damage-restoration/",
     "/service-areas/canfield-oh/commercial-restoration/",
     "/service-areas/canfield-oh/emergency-plumbing/",
+    "/service-areas/canfield-oh/emergency-water-removal/",
     "/service-areas/canfield-oh/flood-damage-restoration/",
     "/service-areas/canfield-oh/reconstruction/",
     "/service-areas/canfield-oh/sewage-cleanup/",
@@ -814,6 +841,7 @@
     "/service-areas/hubbard-oh/water-damage-restoration/",
     "/service-areas/hubbard-oh/commercial-restoration/",
     "/service-areas/hubbard-oh/emergency-plumbing/",
+    "/service-areas/hubbard-oh/emergency-water-removal/",
     "/service-areas/hubbard-oh/flood-damage-restoration/",
     "/service-areas/hubbard-oh/reconstruction/",
     "/service-areas/hubbard-oh/sewage-cleanup/",
@@ -848,6 +876,7 @@
     "/service-areas/campbell-oh/water-damage-restoration/",
     "/service-areas/campbell-oh/commercial-restoration/",
     "/service-areas/campbell-oh/emergency-plumbing/",
+    "/service-areas/campbell-oh/emergency-water-removal/",
     "/service-areas/campbell-oh/flood-damage-restoration/",
     "/service-areas/campbell-oh/reconstruction/",
     "/service-areas/campbell-oh/sewage-cleanup/",
@@ -882,6 +911,7 @@
     "/service-areas/mineral-ridge-oh/water-damage-restoration/",
     "/service-areas/mineral-ridge-oh/commercial-restoration/",
     "/service-areas/mineral-ridge-oh/emergency-plumbing/",
+    "/service-areas/mineral-ridge-oh/emergency-water-removal/",
     "/service-areas/mineral-ridge-oh/flood-damage-restoration/",
     "/service-areas/mineral-ridge-oh/reconstruction/",
     "/service-areas/mineral-ridge-oh/sewage-cleanup/",
@@ -916,6 +946,7 @@
     "/service-areas/farrell-pa/water-damage-restoration/",
     "/service-areas/farrell-pa/commercial-restoration/",
     "/service-areas/farrell-pa/emergency-plumbing/",
+    "/service-areas/farrell-pa/emergency-water-removal/",
     "/service-areas/farrell-pa/flood-damage-restoration/",
     "/service-areas/farrell-pa/reconstruction/",
     "/service-areas/farrell-pa/sewage-cleanup/",
@@ -950,6 +981,7 @@
     "/service-areas/sharon-pa/water-damage-restoration/",
     "/service-areas/sharon-pa/commercial-restoration/",
     "/service-areas/sharon-pa/emergency-plumbing/",
+    "/service-areas/sharon-pa/emergency-water-removal/",
     "/service-areas/sharon-pa/flood-damage-restoration/",
     "/service-areas/sharon-pa/reconstruction/",
     "/service-areas/sharon-pa/sewage-cleanup/",
@@ -984,6 +1016,7 @@
     "/service-areas/hermitage-pa/water-damage-restoration/",
     "/service-areas/hermitage-pa/commercial-restoration/",
     "/service-areas/hermitage-pa/emergency-plumbing/",
+    "/service-areas/hermitage-pa/emergency-water-removal/",
     "/service-areas/hermitage-pa/flood-damage-restoration/",
     "/service-areas/hermitage-pa/reconstruction/",
     "/service-areas/hermitage-pa/sewage-cleanup/",
@@ -1018,6 +1051,7 @@
     "/service-areas/sharpsville-pa/water-damage-restoration/",
     "/service-areas/sharpsville-pa/commercial-restoration/",
     "/service-areas/sharpsville-pa/emergency-plumbing/",
+    "/service-areas/sharpsville-pa/emergency-water-removal/",
     "/service-areas/sharpsville-pa/flood-damage-restoration/",
     "/service-areas/sharpsville-pa/reconstruction/",
     "/service-areas/sharpsville-pa/sewage-cleanup/",
@@ -1052,6 +1086,7 @@
     "/service-areas/wheatland-pa/water-damage-restoration/",
     "/service-areas/wheatland-pa/commercial-restoration/",
     "/service-areas/wheatland-pa/emergency-plumbing/",
+    "/service-areas/wheatland-pa/emergency-water-removal/",
     "/service-areas/wheatland-pa/flood-damage-restoration/",
     "/service-areas/wheatland-pa/reconstruction/",
     "/service-areas/wheatland-pa/sewage-cleanup/",
@@ -1086,6 +1121,7 @@
     "/service-areas/west-middlesex-pa/water-damage-restoration/",
     "/service-areas/west-middlesex-pa/commercial-restoration/",
     "/service-areas/west-middlesex-pa/emergency-plumbing/",
+    "/service-areas/west-middlesex-pa/emergency-water-removal/",
     "/service-areas/west-middlesex-pa/flood-damage-restoration/",
     "/service-areas/west-middlesex-pa/reconstruction/",
     "/service-areas/west-middlesex-pa/sewage-cleanup/",
@@ -1120,6 +1156,7 @@
     "/service-areas/greenville-pa/water-damage-restoration/",
     "/service-areas/greenville-pa/commercial-restoration/",
     "/service-areas/greenville-pa/emergency-plumbing/",
+    "/service-areas/greenville-pa/emergency-water-removal/",
     "/service-areas/greenville-pa/flood-damage-restoration/",
     "/service-areas/greenville-pa/reconstruction/",
     "/service-areas/greenville-pa/sewage-cleanup/",
@@ -1154,6 +1191,7 @@
     "/service-areas/grove-city-pa/water-damage-restoration/",
     "/service-areas/grove-city-pa/commercial-restoration/",
     "/service-areas/grove-city-pa/emergency-plumbing/",
+    "/service-areas/grove-city-pa/emergency-water-removal/",
     "/service-areas/grove-city-pa/flood-damage-restoration/",
     "/service-areas/grove-city-pa/reconstruction/",
     "/service-areas/grove-city-pa/sewage-cleanup/",
@@ -1188,6 +1226,7 @@
     "/service-areas/mercer-pa/water-damage-restoration/",
     "/service-areas/mercer-pa/commercial-restoration/",
     "/service-areas/mercer-pa/emergency-plumbing/",
+    "/service-areas/mercer-pa/emergency-water-removal/",
     "/service-areas/mercer-pa/flood-damage-restoration/",
     "/service-areas/mercer-pa/reconstruction/",
     "/service-areas/mercer-pa/sewage-cleanup/",
@@ -1222,6 +1261,7 @@
     "/service-areas/new-castle-pa/water-damage-restoration/",
     "/service-areas/new-castle-pa/commercial-restoration/",
     "/service-areas/new-castle-pa/emergency-plumbing/",
+    "/service-areas/new-castle-pa/emergency-water-removal/",
     "/service-areas/new-castle-pa/flood-damage-restoration/",
     "/service-areas/new-castle-pa/reconstruction/",
     "/service-areas/new-castle-pa/sewage-cleanup/",
@@ -1300,6 +1340,15 @@
     "/service-areas/warren-oh/mold-remediation/",
     "/service-areas/austintown-oh/emergency-board-up-tarping/",
     "/service-areas/boardman-oh/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/warren-oh/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/warren-oh/",
+    "/service-areas/warren-oh/fire-damage-restoration/",
+    "/service-areas/warren-oh/mold-remediation/",
+    "/service-areas/austintown-oh/emergency-water-removal/",
+    "/service-areas/boardman-oh/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/warren-oh/fire-damage-restoration/": [
@@ -1545,6 +1594,15 @@
     "/service-areas/campbell-oh/emergency-board-up-tarping/",
     "/contact/"
   ],
+  "/service-areas/boardman-oh/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/boardman-oh/",
+    "/service-areas/boardman-oh/fire-damage-restoration/",
+    "/service-areas/boardman-oh/mold-remediation/",
+    "/service-areas/austintown-oh/emergency-water-removal/",
+    "/service-areas/campbell-oh/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/boardman-oh/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/boardman-oh/",
@@ -1786,6 +1844,15 @@
     "/service-areas/austintown-oh/mold-remediation/",
     "/service-areas/boardman-oh/emergency-board-up-tarping/",
     "/service-areas/campbell-oh/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/austintown-oh/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/austintown-oh/",
+    "/service-areas/austintown-oh/fire-damage-restoration/",
+    "/service-areas/austintown-oh/mold-remediation/",
+    "/service-areas/boardman-oh/emergency-water-removal/",
+    "/service-areas/campbell-oh/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/austintown-oh/fire-damage-restoration/": [
@@ -2031,6 +2098,15 @@
     "/service-areas/boardman-oh/emergency-board-up-tarping/",
     "/contact/"
   ],
+  "/service-areas/niles-oh/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/niles-oh/",
+    "/service-areas/niles-oh/fire-damage-restoration/",
+    "/service-areas/niles-oh/mold-remediation/",
+    "/service-areas/austintown-oh/emergency-water-removal/",
+    "/service-areas/boardman-oh/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/niles-oh/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/niles-oh/",
@@ -2272,6 +2348,15 @@
     "/service-areas/girard-oh/mold-remediation/",
     "/service-areas/austintown-oh/emergency-board-up-tarping/",
     "/service-areas/boardman-oh/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/girard-oh/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/girard-oh/",
+    "/service-areas/girard-oh/fire-damage-restoration/",
+    "/service-areas/girard-oh/mold-remediation/",
+    "/service-areas/austintown-oh/emergency-water-removal/",
+    "/service-areas/boardman-oh/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/girard-oh/fire-damage-restoration/": [
@@ -2517,6 +2602,15 @@
     "/service-areas/boardman-oh/emergency-board-up-tarping/",
     "/contact/"
   ],
+  "/service-areas/struthers-oh/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/struthers-oh/",
+    "/service-areas/struthers-oh/fire-damage-restoration/",
+    "/service-areas/struthers-oh/mold-remediation/",
+    "/service-areas/austintown-oh/emergency-water-removal/",
+    "/service-areas/boardman-oh/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/struthers-oh/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/struthers-oh/",
@@ -2758,6 +2852,15 @@
     "/service-areas/canfield-oh/mold-remediation/",
     "/service-areas/austintown-oh/emergency-board-up-tarping/",
     "/service-areas/boardman-oh/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/canfield-oh/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/canfield-oh/",
+    "/service-areas/canfield-oh/fire-damage-restoration/",
+    "/service-areas/canfield-oh/mold-remediation/",
+    "/service-areas/austintown-oh/emergency-water-removal/",
+    "/service-areas/boardman-oh/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/canfield-oh/fire-damage-restoration/": [
@@ -3003,6 +3106,15 @@
     "/service-areas/boardman-oh/emergency-board-up-tarping/",
     "/contact/"
   ],
+  "/service-areas/hubbard-oh/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/hubbard-oh/",
+    "/service-areas/hubbard-oh/fire-damage-restoration/",
+    "/service-areas/hubbard-oh/mold-remediation/",
+    "/service-areas/austintown-oh/emergency-water-removal/",
+    "/service-areas/boardman-oh/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/hubbard-oh/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/hubbard-oh/",
@@ -3244,6 +3356,15 @@
     "/service-areas/campbell-oh/mold-remediation/",
     "/service-areas/austintown-oh/emergency-board-up-tarping/",
     "/service-areas/boardman-oh/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/campbell-oh/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/campbell-oh/",
+    "/service-areas/campbell-oh/fire-damage-restoration/",
+    "/service-areas/campbell-oh/mold-remediation/",
+    "/service-areas/austintown-oh/emergency-water-removal/",
+    "/service-areas/boardman-oh/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/campbell-oh/fire-damage-restoration/": [
@@ -3489,6 +3610,15 @@
     "/service-areas/boardman-oh/emergency-board-up-tarping/",
     "/contact/"
   ],
+  "/service-areas/mineral-ridge-oh/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/mineral-ridge-oh/",
+    "/service-areas/mineral-ridge-oh/fire-damage-restoration/",
+    "/service-areas/mineral-ridge-oh/mold-remediation/",
+    "/service-areas/austintown-oh/emergency-water-removal/",
+    "/service-areas/boardman-oh/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/mineral-ridge-oh/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/mineral-ridge-oh/",
@@ -3730,6 +3860,15 @@
     "/service-areas/farrell-pa/mold-remediation/",
     "/service-areas/austintown-oh/emergency-board-up-tarping/",
     "/service-areas/boardman-oh/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/farrell-pa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/farrell-pa/",
+    "/service-areas/farrell-pa/fire-damage-restoration/",
+    "/service-areas/farrell-pa/mold-remediation/",
+    "/service-areas/austintown-oh/emergency-water-removal/",
+    "/service-areas/boardman-oh/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/farrell-pa/fire-damage-restoration/": [
@@ -3975,6 +4114,15 @@
     "/service-areas/boardman-oh/emergency-board-up-tarping/",
     "/contact/"
   ],
+  "/service-areas/sharon-pa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/sharon-pa/",
+    "/service-areas/sharon-pa/fire-damage-restoration/",
+    "/service-areas/sharon-pa/mold-remediation/",
+    "/service-areas/austintown-oh/emergency-water-removal/",
+    "/service-areas/boardman-oh/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/sharon-pa/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/sharon-pa/",
@@ -4216,6 +4364,15 @@
     "/service-areas/hermitage-pa/mold-remediation/",
     "/service-areas/austintown-oh/emergency-board-up-tarping/",
     "/service-areas/boardman-oh/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/hermitage-pa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/hermitage-pa/",
+    "/service-areas/hermitage-pa/fire-damage-restoration/",
+    "/service-areas/hermitage-pa/mold-remediation/",
+    "/service-areas/austintown-oh/emergency-water-removal/",
+    "/service-areas/boardman-oh/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/hermitage-pa/fire-damage-restoration/": [
@@ -4461,6 +4618,15 @@
     "/service-areas/boardman-oh/emergency-board-up-tarping/",
     "/contact/"
   ],
+  "/service-areas/sharpsville-pa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/sharpsville-pa/",
+    "/service-areas/sharpsville-pa/fire-damage-restoration/",
+    "/service-areas/sharpsville-pa/mold-remediation/",
+    "/service-areas/austintown-oh/emergency-water-removal/",
+    "/service-areas/boardman-oh/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/sharpsville-pa/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/sharpsville-pa/",
@@ -4702,6 +4868,15 @@
     "/service-areas/wheatland-pa/mold-remediation/",
     "/service-areas/austintown-oh/emergency-board-up-tarping/",
     "/service-areas/boardman-oh/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/wheatland-pa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/wheatland-pa/",
+    "/service-areas/wheatland-pa/fire-damage-restoration/",
+    "/service-areas/wheatland-pa/mold-remediation/",
+    "/service-areas/austintown-oh/emergency-water-removal/",
+    "/service-areas/boardman-oh/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/wheatland-pa/fire-damage-restoration/": [
@@ -4947,6 +5122,15 @@
     "/service-areas/boardman-oh/emergency-board-up-tarping/",
     "/contact/"
   ],
+  "/service-areas/west-middlesex-pa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/west-middlesex-pa/",
+    "/service-areas/west-middlesex-pa/fire-damage-restoration/",
+    "/service-areas/west-middlesex-pa/mold-remediation/",
+    "/service-areas/austintown-oh/emergency-water-removal/",
+    "/service-areas/boardman-oh/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/west-middlesex-pa/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/west-middlesex-pa/",
@@ -5188,6 +5372,15 @@
     "/service-areas/greenville-pa/mold-remediation/",
     "/service-areas/austintown-oh/emergency-board-up-tarping/",
     "/service-areas/boardman-oh/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/greenville-pa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/greenville-pa/",
+    "/service-areas/greenville-pa/fire-damage-restoration/",
+    "/service-areas/greenville-pa/mold-remediation/",
+    "/service-areas/austintown-oh/emergency-water-removal/",
+    "/service-areas/boardman-oh/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/greenville-pa/fire-damage-restoration/": [
@@ -5433,6 +5626,15 @@
     "/service-areas/boardman-oh/emergency-board-up-tarping/",
     "/contact/"
   ],
+  "/service-areas/grove-city-pa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/grove-city-pa/",
+    "/service-areas/grove-city-pa/fire-damage-restoration/",
+    "/service-areas/grove-city-pa/mold-remediation/",
+    "/service-areas/austintown-oh/emergency-water-removal/",
+    "/service-areas/boardman-oh/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/grove-city-pa/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/grove-city-pa/",
@@ -5676,6 +5878,15 @@
     "/service-areas/boardman-oh/emergency-board-up-tarping/",
     "/contact/"
   ],
+  "/service-areas/mercer-pa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/mercer-pa/",
+    "/service-areas/mercer-pa/fire-damage-restoration/",
+    "/service-areas/mercer-pa/mold-remediation/",
+    "/service-areas/austintown-oh/emergency-water-removal/",
+    "/service-areas/boardman-oh/emergency-water-removal/",
+    "/contact/"
+  ],
   "/service-areas/mercer-pa/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/mercer-pa/",
@@ -5917,6 +6128,15 @@
     "/service-areas/new-castle-pa/mold-remediation/",
     "/service-areas/austintown-oh/emergency-board-up-tarping/",
     "/service-areas/boardman-oh/emergency-board-up-tarping/",
+    "/contact/"
+  ],
+  "/service-areas/new-castle-pa/emergency-water-removal/": [
+    "/services/emergency-water-removal/",
+    "/service-areas/new-castle-pa/",
+    "/service-areas/new-castle-pa/fire-damage-restoration/",
+    "/service-areas/new-castle-pa/mold-remediation/",
+    "/service-areas/austintown-oh/emergency-water-removal/",
+    "/service-areas/boardman-oh/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/new-castle-pa/fire-damage-restoration/": [

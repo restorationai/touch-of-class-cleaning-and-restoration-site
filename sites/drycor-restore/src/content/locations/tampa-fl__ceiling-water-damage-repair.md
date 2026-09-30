@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "e5d7d7d315cfa6a2"
-generated_at: "2026-09-29T23:28:29.463998+00:00"
+generated_at: "2026-09-30T19:28:35.676786+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/tampa-fl/", "/service-areas/tampa-fl/fire-damage-restoration/", "/service-areas/tampa-fl/mold-remediation/", "/service-areas/anna-maria-fl/ceiling-water-damage-repair/", "/service-areas/apollo-beach-fl/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tampa", "url": "/service-areas/tampa-fl/"}, {"name": "Ceiling Water Damage Repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "6258aec264073051"
-generated_at: "2026-09-30T14:12:07.156638+00:00"
+generated_at: "2026-09-30T19:28:30.137467+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/hermitage-pa/", "/service-areas/hermitage-pa/fire-damage-restoration/", "/service-areas/hermitage-pa/mold-remediation/", "/service-areas/austintown-oh/emergency-plumbing/", "/service-areas/boardman-oh/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hermitage", "url": "/service-areas/hermitage-pa/"}, {"name": "emergency-plumbing"}]

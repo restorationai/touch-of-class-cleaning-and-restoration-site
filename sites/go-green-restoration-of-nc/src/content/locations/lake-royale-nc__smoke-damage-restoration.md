@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "8e08147b99843801"
-generated_at: "2026-09-29T23:13:49.300642+00:00"
+generated_at: "2026-09-30T19:28:39.672237+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/lake-royale-nc/", "/service-areas/lake-royale-nc/fire-damage-restoration/", "/service-areas/lake-royale-nc/mold-remediation/", "/service-areas/archer-lodge-nc/smoke-damage-restoration/", "/service-areas/clayton-nc/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Royale", "url": "/service-areas/lake-royale-nc/"}, {"name": "Smoke Damage Restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "52b7a0ada68876ac"
-generated_at: "2026-09-30T14:12:02.657543+00:00"
+generated_at: "2026-09-30T19:28:20.890956+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/mccamey-tx/", "/service-areas/mccamey-tx/fire-damage-restoration/", "/service-areas/mccamey-tx/mold-remediation/", "/service-areas/andrews-tx/commercial-restoration/", "/service-areas/big-lake-tx/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "McCamey", "url": "/service-areas/mccamey-tx/"}, {"name": "commercial-restoration"}]

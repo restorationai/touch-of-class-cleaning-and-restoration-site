@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "c62c14c86859a447"
-generated_at: "2026-09-30T14:12:01.762440+00:00"
+generated_at: "2026-09-30T19:28:19.977291+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/early-tx/", "/service-areas/early-tx/fire-damage-restoration/", "/service-areas/early-tx/mold-remediation/", "/service-areas/albany-tx/water-leak-detection/", "/service-areas/anson-tx/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Early", "url": "/service-areas/early-tx/"}, {"name": "water-leak-detection"}]

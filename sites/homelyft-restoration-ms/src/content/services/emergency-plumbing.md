@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 8.1
 plan_hash: "66bb131c591a18fc"
-generated_at: "2026-09-30T14:12:12.817955+00:00"
+generated_at: "2026-09-30T19:28:43.333303+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/agricola-ms/emergency-plumbing/", "/service-areas/bay-st-louis-ms/emergency-plumbing/", "/service-areas/benndale-ms/emergency-plumbing/", "/service-areas/big-point-ms/emergency-plumbing/", "/service-areas/biloxi-ms/emergency-plumbing/", "/service-areas/d-iberville-ms/emergency-plumbing/", "/service-areas/delisle-ms/emergency-plumbing/", "/service-areas/diamondhead-ms/emergency-plumbing/", "/service-areas/eastabuchie-ms/emergency-plumbing/", "/service-areas/ellisville-ms/emergency-plumbing/", "/service-areas/escatawpa-ms/emergency-plumbing/", "/service-areas/gautier-ms/emergency-plumbing/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "emergency-plumbing"}]

@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "3805c1408725fd1c"
-generated_at: "2026-09-29T23:31:28.386557+00:00"
+generated_at: "2026-09-30T19:28:33.815494+00:00"
 manual_override: false
 internal_links: ["/services/blood-cleanup/", "/service-areas/santa-clara-ca/", "/service-areas/santa-clara-ca/fire-damage-restoration/", "/service-areas/santa-clara-ca/mold-remediation/", "/service-areas/berkeley-ca/blood-cleanup/", "/service-areas/carlsbad-ca/blood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Santa Clara", "url": "/service-areas/santa-clara-ca/"}, {"name": "Blood Cleanup"}]

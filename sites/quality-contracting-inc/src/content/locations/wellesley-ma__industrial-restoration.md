@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "d1dada0706a183bf"
-generated_at: "2026-09-30T14:12:25.961260+00:00"
+generated_at: "2026-09-30T19:28:57.124421+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/wellesley-ma/", "/service-areas/wellesley-ma/fire-damage-restoration/", "/service-areas/wellesley-ma/mold-remediation/", "/service-areas/bellingham-ma/industrial-restoration/", "/service-areas/east-douglas-ma/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wellesley", "url": "/service-areas/wellesley-ma/"}, {"name": "industrial-restoration"}]

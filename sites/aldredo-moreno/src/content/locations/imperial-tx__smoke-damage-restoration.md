@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "39f117463bcdac7d"
-generated_at: "2026-09-30T14:12:02.666230+00:00"
+generated_at: "2026-09-30T19:28:20.905789+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/imperial-tx/", "/service-areas/imperial-tx/fire-damage-restoration/", "/service-areas/imperial-tx/mold-remediation/", "/service-areas/andrews-tx/smoke-damage-restoration/", "/service-areas/big-lake-tx/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Imperial", "url": "/service-areas/imperial-tx/"}, {"name": "smoke-damage-restoration"}]

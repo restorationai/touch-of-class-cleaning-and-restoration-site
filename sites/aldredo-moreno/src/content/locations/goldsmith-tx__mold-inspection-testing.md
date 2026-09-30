@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "496f4de14ff7611b"
-generated_at: "2026-09-30T14:12:02.642214+00:00"
+generated_at: "2026-09-30T19:28:20.864654+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/goldsmith-tx/", "/service-areas/goldsmith-tx/fire-damage-restoration/", "/service-areas/goldsmith-tx/mold-remediation/", "/service-areas/andrews-tx/mold-inspection-testing/", "/service-areas/big-lake-tx/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Goldsmith", "url": "/service-areas/goldsmith-tx/"}, {"name": "mold-inspection-testing"}]

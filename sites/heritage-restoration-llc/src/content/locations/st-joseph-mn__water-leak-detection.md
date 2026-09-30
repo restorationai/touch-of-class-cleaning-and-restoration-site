@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "e1d6f29e28aa44fd"
-generated_at: "2026-09-29T23:13:48.932332+00:00"
+generated_at: "2026-09-30T19:28:41.736299+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/st-joseph-mn/", "/service-areas/st-joseph-mn/fire-damage-restoration/", "/service-areas/st-joseph-mn/mold-remediation/", "/service-areas/albany-mn/water-leak-detection/", "/service-areas/avon-mn/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "St. Joseph", "url": "/service-areas/st-joseph-mn/"}, {"name": "Water Leak Detection"}]

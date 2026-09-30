@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "ccb6f4a22007c63d"
-generated_at: "2026-09-30T14:12:02.640545+00:00"
+generated_at: "2026-09-30T19:28:20.862292+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/greenwood-tx/", "/service-areas/greenwood-tx/fire-damage-restoration/", "/service-areas/greenwood-tx/mold-remediation/", "/service-areas/andrews-tx/emergency-plumbing/", "/service-areas/big-lake-tx/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Greenwood", "url": "/service-areas/greenwood-tx/"}, {"name": "emergency-plumbing"}]

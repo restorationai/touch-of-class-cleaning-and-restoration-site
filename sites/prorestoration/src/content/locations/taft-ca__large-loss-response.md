@@ -8,7 +8,7 @@ secondary_keywords: ["large loss restoration", "catastrophic loss response", "co
 search_intent: "local_b2b"
 priority: 5.6
 plan_hash: "2a18d9e3e4acf736"
-generated_at: "2026-09-30T14:12:22.981831+00:00"
+generated_at: "2026-09-30T19:28:54.559480+00:00"
 manual_override: false
 internal_links: ["/services/large-loss-response/", "/service-areas/taft-ca/", "/service-areas/taft-ca/fire-damage-restoration/", "/service-areas/taft-ca/home-remodeling/", "/service-areas/arvin-ca/large-loss-response/", "/service-areas/bear-valley-springs-ca/large-loss-response/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Taft", "url": "/service-areas/taft-ca/"}, {"name": "large-loss-response"}]

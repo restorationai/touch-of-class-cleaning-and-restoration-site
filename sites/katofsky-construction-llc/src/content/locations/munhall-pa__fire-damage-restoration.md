@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "d01990330d8a66e1"
-generated_at: "2026-09-30T14:12:19.440692+00:00"
+generated_at: "2026-09-30T19:28:48.283328+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/munhall-pa/", "/service-areas/munhall-pa/roofing/", "/service-areas/munhall-pa/sewage-cleanup/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/service-areas/baldwin-pa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Munhall", "url": "/service-areas/munhall-pa/"}, {"name": "Fire Damage Restoration"}]

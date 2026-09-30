@@ -8,7 +8,7 @@ secondary_keywords: ["carpet protection", "upholstery protection", "stain guard"
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "7e4f5aecfb1e50b4"
-generated_at: "2026-09-30T14:12:14.601594+00:00"
+generated_at: "2026-09-30T19:28:45.251789+00:00"
 manual_override: false
 internal_links: ["/services/fabric-protection/", "/service-areas/lindon-ut/", "/service-areas/lindon-ut/fire-damage-restoration/", "/service-areas/lindon-ut/mold-remediation/", "/service-areas/alpine-ut/fabric-protection/", "/service-areas/american-fork-ut/fabric-protection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lindon", "url": "/service-areas/lindon-ut/"}, {"name": "Fabric Protection"}]

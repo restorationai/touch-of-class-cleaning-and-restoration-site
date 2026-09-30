@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "78bcf6d5c63da71e"
-generated_at: "2026-09-29T23:28:29.618493+00:00"
+generated_at: "2026-09-30T19:28:35.905880+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/polk-city-fl/", "/service-areas/polk-city-fl/fire-damage-restoration/", "/service-areas/polk-city-fl/mold-remediation/", "/service-areas/anna-maria-fl/mold-inspection-testing/", "/service-areas/apollo-beach-fl/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Polk City", "url": "/service-areas/polk-city-fl/"}, {"name": "Mold Inspection and Testing"}]

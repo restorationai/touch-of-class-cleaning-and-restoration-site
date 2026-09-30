@@ -8,7 +8,7 @@ secondary_keywords: ["grout cleaning", "tile cleaning", "grout sealing", "grout 
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "cd7d34b702001e29"
-generated_at: "2026-09-30T14:12:14.605444+00:00"
+generated_at: "2026-09-30T19:28:45.255968+00:00"
 manual_override: false
 internal_links: ["/services/tile-grout-cleaning/", "/service-areas/lindon-ut/", "/service-areas/lindon-ut/fire-damage-restoration/", "/service-areas/lindon-ut/mold-remediation/", "/service-areas/alpine-ut/tile-grout-cleaning/", "/service-areas/american-fork-ut/tile-grout-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lindon", "url": "/service-areas/lindon-ut/"}, {"name": "Tile & Grout Cleaning"}]

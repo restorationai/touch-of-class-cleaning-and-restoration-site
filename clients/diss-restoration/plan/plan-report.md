@@ -1,20 +1,20 @@
 # Site Plan Report — DISS Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T14:12:04.344430+00:00
+- Generated: 2026-09-30T19:28:27.012151+00:00
 - Domain: `dissrestoration.com`
-- Services selected: 32 of 91 catalog entries
+- Services selected: 28 of 91 catalog entries
 - Service areas: 21
 - Cross-product enabled: True
-- Total URLs: **709**
-- Total internal links: 5847 (avg 8.2 per page)
+- Total URLs: **625**
+- Total internal links: 5143 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 640 |
-| `service-landing` | 32 |
+| `service-area-service` | 560 |
+| `service-landing` | 28 |
 | `service-area` | 20 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -28,14 +28,12 @@
 ## Selected services
 
 - `air-duct-cleaning` — Air Duct Cleaning (adjacent, priority 5)
-- `air-duct-hvac-cleaning` — Air Duct & HVAC Cleaning (adjacent, priority 5)
 - `asbestos-abatement` — Asbestos Abatement (specialty, priority 6)
 - `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
 - `carpet-cleaning` — Carpet Cleaning (adjacent, priority 4)
-- `carpet-upholstery-cleaning` — Carpet & Upholstery Cleaning (adjacent, priority 5)
 - `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
-- `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
 - `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
+- `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
 - `mold-remediation` — Mold Remediation (core, priority 10)
@@ -43,7 +41,6 @@
 - `post-construction-cleaning` — Post-Construction and Specialty Cleaning (supporting, priority 4)
 - `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
-- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
 - `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
@@ -57,7 +54,6 @@
 - `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
 - `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
-- `emergency-water-removal` — 24/7 Emergency Water Removal (core, priority 9)
 - `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 
 ## Service areas
@@ -93,7 +89,7 @@
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration youngstown |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration youngstown |
 | `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing youngstown |
-| `/services/emergency-water-removal/` | `service-landing` | 8.1 | 24/7 emergency water removal youngstown |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup youngstown |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration youngstown |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services youngstown |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization youngstown |

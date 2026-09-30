@@ -1,20 +1,20 @@
 # Site Plan Report — Dry1 Out Restoration and Construction
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-29T23:31:28.211553+00:00
+- Generated: 2026-09-30T19:28:33.220649+00:00
 - Domain: `dry1out.com`
-- Services selected: 36 of 88 catalog entries
+- Services selected: 29 of 91 catalog entries
 - Service areas: 20
 - Cross-product enabled: True
-- Total URLs: **760**
-- Total internal links: 6284 (avg 8.3 per page)
+- Total URLs: **620**
+- Total internal links: 5108 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 684 |
-| `service-landing` | 36 |
+| `service-area-service` | 551 |
+| `service-landing` | 29 |
 | `service-area` | 19 |
 | `blog-post` | 12 |
 | `legal` | 3 |
@@ -27,8 +27,13 @@
 
 ## Selected services
 
+- `appliance-leak-cleanup` — Appliance Leak Cleanup (specialty, priority 6)
 - `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
+- `blood-cleanup` — Blood Cleanup (adjacent, priority 5)
+- `carpet-water-extraction` — Carpet Water Extraction (adjacent, priority 5)
 - `crime-scene-cleanup` — Crime Scene Cleanup (specialty, priority 6)
+- `emergency-board-up` — Emergency Board Up (adjacent, priority 5)
+- `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
 - `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
@@ -37,19 +42,9 @@
 - `post-construction-cleaning` — Post-Construction and Specialty Cleaning (supporting, priority 4)
 - `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
-- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
-- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
-- `24-7-emergency-water-damage-restoration` — 24/7 Emergency Water Damage Restoration (adjacent, priority 5)
-- `appliance-leak-cleanup` — Appliance Leak Cleanup (specialty, priority 6)
-- `basement-sewage-cleanup` — Basement Sewage Cleanup (adjacent, priority 5)
-- `blood-cleanup` — Blood Cleanup (adjacent, priority 5)
-- `burst-pipe-water-damage-cleanup` — Burst Pipe Water Damage Cleanup (adjacent, priority 5)
-- `carpet-water-extraction` — Carpet Water Extraction (adjacent, priority 5)
-- `category-3-water-cleanup` — Category 3 Water Cleanup (adjacent, priority 5)
-- `emergency-board-up` — Emergency Board Up (adjacent, priority 5)
-- `emergency-board-ups` — Emergency Board Ups (adjacent, priority 5)
 - `vandalism-damage-cleanup-and-repair` — Vandalism Damage Cleanup and Repair (adjacent, priority 5)
 - `vehicle-impact-damage-repair` — Vehicle Impact Damage Repair (adjacent, priority 5)
+- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
 - `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
 - `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
@@ -59,9 +54,7 @@
 - `reconstruction` — Reconstruction Services (core, priority 9)
 - `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
 - `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
-- `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
-- `emergency-water-removal` — 24/7 Emergency Water Removal (core, priority 9)
 - `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 
 ## Service areas
@@ -96,7 +89,7 @@
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration vista |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration vista |
 | `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing vista |
-| `/services/emergency-water-removal/` | `service-landing` | 8.1 | 24/7 emergency water removal vista |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup vista |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration vista |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services vista |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization vista |

@@ -1,9 +1,9 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-30T14:12:04.301928+00:00",
+  "generated_at": "2026-09-30T19:28:26.984582+00:00",
   "input_summary": {
-    "service_count": 32,
+    "service_count": 28,
     "service_area_count": 21,
     "cross_product": true,
     "blog_seed_count": 8
@@ -55,7 +55,6 @@
         "/services/sewage-cleanup/",
         "/services/smoke-damage-restoration/",
         "/services/storm-damage-restoration/",
-        "/services/water-cleanup/",
         "/services/basement-flooding-cleanup/",
         "/services/biohazard-cleanup/",
         "/services/burst-pipe-repair/",
@@ -70,9 +69,6 @@
         "/services/water-leak-detection/",
         "/services/asbestos-abatement/",
         "/services/air-duct-cleaning/",
-        "/services/air-duct-hvac-cleaning/",
-        "/services/carpet-upholstery-cleaning/",
-        "/services/contents-restoration-storage/",
         "/services/contents-restoration/",
         "/services/carpet-cleaning/",
         "/services/post-construction-cleaning/",
@@ -139,7 +135,6 @@
         "/services/sewage-cleanup/",
         "/services/smoke-damage-restoration/",
         "/services/storm-damage-restoration/",
-        "/services/water-cleanup/",
         "/services/basement-flooding-cleanup/",
         "/services/biohazard-cleanup/",
         "/services/burst-pipe-repair/",
@@ -154,9 +149,6 @@
         "/services/water-leak-detection/",
         "/services/asbestos-abatement/",
         "/services/air-duct-cleaning/",
-        "/services/air-duct-hvac-cleaning/",
-        "/services/carpet-upholstery-cleaning/",
-        "/services/contents-restoration-storage/",
         "/services/contents-restoration/",
         "/services/carpet-cleaning/",
         "/services/post-construction-cleaning/"
@@ -619,6 +611,58 @@
       ]
     },
     {
+      "url_path": "/services/emergency-water-removal/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Youngstown | DISS Restoration",
+      "h1": "Emergency Water Removal & Cleanup in Youngstown",
+      "meta_description": "24/7 emergency water removal & cleanup in Youngstown and surrounding areas. IICRC-certified, insurance billing accepted. Call (724) 981-1441.",
+      "primary_keyword": "emergency water removal & cleanup youngstown",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/austintown-oh/emergency-water-removal/",
+        "/service-areas/boardman-oh/emergency-water-removal/",
+        "/service-areas/campbell-oh/emergency-water-removal/",
+        "/service-areas/canfield-oh/emergency-water-removal/",
+        "/service-areas/farrell-pa/emergency-water-removal/",
+        "/service-areas/girard-oh/emergency-water-removal/",
+        "/service-areas/greenville-pa/emergency-water-removal/",
+        "/service-areas/grove-city-pa/emergency-water-removal/",
+        "/service-areas/hermitage-pa/emergency-water-removal/",
+        "/service-areas/hubbard-oh/emergency-water-removal/",
+        "/service-areas/mercer-pa/emergency-water-removal/",
+        "/service-areas/mineral-ridge-oh/emergency-water-removal/",
+        "/services/water-damage-restoration/"
+      ]
+    },
+    {
       "url_path": "/services/fire-damage-restoration/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -1021,7 +1065,7 @@
         "/service-areas/hubbard-oh/water-damage-restoration/",
         "/service-areas/mercer-pa/water-damage-restoration/",
         "/service-areas/mineral-ridge-oh/water-damage-restoration/",
-        "/services/water-cleanup/",
+        "/services/emergency-water-removal/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
         "/blog/choosing-a-restoration-company/"
@@ -1721,7 +1765,6 @@
         "/service-areas/warren-oh/sewage-cleanup/",
         "/service-areas/warren-oh/smoke-damage-restoration/",
         "/service-areas/warren-oh/storm-damage-restoration/",
-        "/service-areas/warren-oh/water-cleanup/",
         "/service-areas/warren-oh/basement-flooding-cleanup/",
         "/service-areas/warren-oh/biohazard-cleanup/",
         "/service-areas/warren-oh/burst-pipe-repair/",
@@ -1736,9 +1779,6 @@
         "/service-areas/warren-oh/water-leak-detection/",
         "/service-areas/warren-oh/asbestos-abatement/",
         "/service-areas/warren-oh/air-duct-cleaning/",
-        "/service-areas/warren-oh/air-duct-hvac-cleaning/",
-        "/service-areas/warren-oh/carpet-upholstery-cleaning/",
-        "/service-areas/warren-oh/contents-restoration-storage/",
         "/service-areas/warren-oh/contents-restoration/",
         "/service-areas/warren-oh/carpet-cleaning/",
         "/service-areas/warren-oh/post-construction-cleaning/",
@@ -1790,7 +1830,6 @@
         "/service-areas/boardman-oh/sewage-cleanup/",
         "/service-areas/boardman-oh/smoke-damage-restoration/",
         "/service-areas/boardman-oh/storm-damage-restoration/",
-        "/service-areas/boardman-oh/water-cleanup/",
         "/service-areas/boardman-oh/basement-flooding-cleanup/",
         "/service-areas/boardman-oh/biohazard-cleanup/",
         "/service-areas/boardman-oh/burst-pipe-repair/",
@@ -1805,9 +1844,6 @@
         "/service-areas/boardman-oh/water-leak-detection/",
         "/service-areas/boardman-oh/asbestos-abatement/",
         "/service-areas/boardman-oh/air-duct-cleaning/",
-        "/service-areas/boardman-oh/air-duct-hvac-cleaning/",
-        "/service-areas/boardman-oh/carpet-upholstery-cleaning/",
-        "/service-areas/boardman-oh/contents-restoration-storage/",
         "/service-areas/boardman-oh/contents-restoration/",
         "/service-areas/boardman-oh/carpet-cleaning/",
         "/service-areas/boardman-oh/post-construction-cleaning/",
@@ -1859,7 +1895,6 @@
         "/service-areas/austintown-oh/sewage-cleanup/",
         "/service-areas/austintown-oh/smoke-damage-restoration/",
         "/service-areas/austintown-oh/storm-damage-restoration/",
-        "/service-areas/austintown-oh/water-cleanup/",
         "/service-areas/austintown-oh/basement-flooding-cleanup/",
         "/service-areas/austintown-oh/biohazard-cleanup/",
         "/service-areas/austintown-oh/burst-pipe-repair/",
@@ -1874,9 +1909,6 @@
         "/service-areas/austintown-oh/water-leak-detection/",
         "/service-areas/austintown-oh/asbestos-abatement/",
         "/service-areas/austintown-oh/air-duct-cleaning/",
-        "/service-areas/austintown-oh/air-duct-hvac-cleaning/",
-        "/service-areas/austintown-oh/carpet-upholstery-cleaning/",
-        "/service-areas/austintown-oh/contents-restoration-storage/",
         "/service-areas/austintown-oh/contents-restoration/",
         "/service-areas/austintown-oh/carpet-cleaning/",
         "/service-areas/austintown-oh/post-construction-cleaning/",
@@ -1928,7 +1960,6 @@
         "/service-areas/niles-oh/sewage-cleanup/",
         "/service-areas/niles-oh/smoke-damage-restoration/",
         "/service-areas/niles-oh/storm-damage-restoration/",
-        "/service-areas/niles-oh/water-cleanup/",
         "/service-areas/niles-oh/basement-flooding-cleanup/",
         "/service-areas/niles-oh/biohazard-cleanup/",
         "/service-areas/niles-oh/burst-pipe-repair/",
@@ -1943,9 +1974,6 @@
         "/service-areas/niles-oh/water-leak-detection/",
         "/service-areas/niles-oh/asbestos-abatement/",
         "/service-areas/niles-oh/air-duct-cleaning/",
-        "/service-areas/niles-oh/air-duct-hvac-cleaning/",
-        "/service-areas/niles-oh/carpet-upholstery-cleaning/",
-        "/service-areas/niles-oh/contents-restoration-storage/",
         "/service-areas/niles-oh/contents-restoration/",
         "/service-areas/niles-oh/carpet-cleaning/",
         "/service-areas/niles-oh/post-construction-cleaning/",
@@ -1997,7 +2025,6 @@
         "/service-areas/girard-oh/sewage-cleanup/",
         "/service-areas/girard-oh/smoke-damage-restoration/",
         "/service-areas/girard-oh/storm-damage-restoration/",
-        "/service-areas/girard-oh/water-cleanup/",
         "/service-areas/girard-oh/basement-flooding-cleanup/",
         "/service-areas/girard-oh/biohazard-cleanup/",
         "/service-areas/girard-oh/burst-pipe-repair/",
@@ -2012,9 +2039,6 @@
         "/service-areas/girard-oh/water-leak-detection/",
         "/service-areas/girard-oh/asbestos-abatement/",
         "/service-areas/girard-oh/air-duct-cleaning/",
-        "/service-areas/girard-oh/air-duct-hvac-cleaning/",
-        "/service-areas/girard-oh/carpet-upholstery-cleaning/",
-        "/service-areas/girard-oh/contents-restoration-storage/",
         "/service-areas/girard-oh/contents-restoration/",
         "/service-areas/girard-oh/carpet-cleaning/",
         "/service-areas/girard-oh/post-construction-cleaning/",
@@ -2066,7 +2090,6 @@
         "/service-areas/struthers-oh/sewage-cleanup/",
         "/service-areas/struthers-oh/smoke-damage-restoration/",
         "/service-areas/struthers-oh/storm-damage-restoration/",
-        "/service-areas/struthers-oh/water-cleanup/",
         "/service-areas/struthers-oh/basement-flooding-cleanup/",
         "/service-areas/struthers-oh/biohazard-cleanup/",
         "/service-areas/struthers-oh/burst-pipe-repair/",
@@ -2081,9 +2104,6 @@
         "/service-areas/struthers-oh/water-leak-detection/",
         "/service-areas/struthers-oh/asbestos-abatement/",
         "/service-areas/struthers-oh/air-duct-cleaning/",
-        "/service-areas/struthers-oh/air-duct-hvac-cleaning/",
-        "/service-areas/struthers-oh/carpet-upholstery-cleaning/",
-        "/service-areas/struthers-oh/contents-restoration-storage/",
         "/service-areas/struthers-oh/contents-restoration/",
         "/service-areas/struthers-oh/carpet-cleaning/",
         "/service-areas/struthers-oh/post-construction-cleaning/",
@@ -2135,7 +2155,6 @@
         "/service-areas/canfield-oh/sewage-cleanup/",
         "/service-areas/canfield-oh/smoke-damage-restoration/",
         "/service-areas/canfield-oh/storm-damage-restoration/",
-        "/service-areas/canfield-oh/water-cleanup/",
         "/service-areas/canfield-oh/basement-flooding-cleanup/",
         "/service-areas/canfield-oh/biohazard-cleanup/",
         "/service-areas/canfield-oh/burst-pipe-repair/",
@@ -2150,9 +2169,6 @@
         "/service-areas/canfield-oh/water-leak-detection/",
         "/service-areas/canfield-oh/asbestos-abatement/",
         "/service-areas/canfield-oh/air-duct-cleaning/",
-        "/service-areas/canfield-oh/air-duct-hvac-cleaning/",
-        "/service-areas/canfield-oh/carpet-upholstery-cleaning/",
-        "/service-areas/canfield-oh/contents-restoration-storage/",
         "/service-areas/canfield-oh/contents-restoration/",
         "/service-areas/canfield-oh/carpet-cleaning/",
         "/service-areas/canfield-oh/post-construction-cleaning/",
@@ -2204,7 +2220,6 @@
         "/service-areas/hubbard-oh/sewage-cleanup/",
         "/service-areas/hubbard-oh/smoke-damage-restoration/",
         "/service-areas/hubbard-oh/storm-damage-restoration/",
-        "/service-areas/hubbard-oh/water-cleanup/",
         "/service-areas/hubbard-oh/basement-flooding-cleanup/",
         "/service-areas/hubbard-oh/biohazard-cleanup/",
         "/service-areas/hubbard-oh/burst-pipe-repair/",
@@ -2219,9 +2234,6 @@
         "/service-areas/hubbard-oh/water-leak-detection/",
         "/service-areas/hubbard-oh/asbestos-abatement/",
         "/service-areas/hubbard-oh/air-duct-cleaning/",
-        "/service-areas/hubbard-oh/air-duct-hvac-cleaning/",
-        "/service-areas/hubbard-oh/carpet-upholstery-cleaning/",
-        "/service-areas/hubbard-oh/contents-restoration-storage/",
         "/service-areas/hubbard-oh/contents-restoration/",
         "/service-areas/hubbard-oh/carpet-cleaning/",
         "/service-areas/hubbard-oh/post-construction-cleaning/",
@@ -2273,7 +2285,6 @@
         "/service-areas/campbell-oh/sewage-cleanup/",
         "/service-areas/campbell-oh/smoke-damage-restoration/",
         "/service-areas/campbell-oh/storm-damage-restoration/",
-        "/service-areas/campbell-oh/water-cleanup/",
         "/service-areas/campbell-oh/basement-flooding-cleanup/",
         "/service-areas/campbell-oh/biohazard-cleanup/",
         "/service-areas/campbell-oh/burst-pipe-repair/",
@@ -2288,9 +2299,6 @@
         "/service-areas/campbell-oh/water-leak-detection/",
         "/service-areas/campbell-oh/asbestos-abatement/",
         "/service-areas/campbell-oh/air-duct-cleaning/",
-        "/service-areas/campbell-oh/air-duct-hvac-cleaning/",
-        "/service-areas/campbell-oh/carpet-upholstery-cleaning/",
-        "/service-areas/campbell-oh/contents-restoration-storage/",
         "/service-areas/campbell-oh/contents-restoration/",
         "/service-areas/campbell-oh/carpet-cleaning/",
         "/service-areas/campbell-oh/post-construction-cleaning/",
@@ -2342,7 +2350,6 @@
         "/service-areas/mineral-ridge-oh/sewage-cleanup/",
         "/service-areas/mineral-ridge-oh/smoke-damage-restoration/",
         "/service-areas/mineral-ridge-oh/storm-damage-restoration/",
-        "/service-areas/mineral-ridge-oh/water-cleanup/",
         "/service-areas/mineral-ridge-oh/basement-flooding-cleanup/",
         "/service-areas/mineral-ridge-oh/biohazard-cleanup/",
         "/service-areas/mineral-ridge-oh/burst-pipe-repair/",
@@ -2357,9 +2364,6 @@
         "/service-areas/mineral-ridge-oh/water-leak-detection/",
         "/service-areas/mineral-ridge-oh/asbestos-abatement/",
         "/service-areas/mineral-ridge-oh/air-duct-cleaning/",
-        "/service-areas/mineral-ridge-oh/air-duct-hvac-cleaning/",
-        "/service-areas/mineral-ridge-oh/carpet-upholstery-cleaning/",
-        "/service-areas/mineral-ridge-oh/contents-restoration-storage/",
         "/service-areas/mineral-ridge-oh/contents-restoration/",
         "/service-areas/mineral-ridge-oh/carpet-cleaning/",
         "/service-areas/mineral-ridge-oh/post-construction-cleaning/",
@@ -2411,7 +2415,6 @@
         "/service-areas/farrell-pa/sewage-cleanup/",
         "/service-areas/farrell-pa/smoke-damage-restoration/",
         "/service-areas/farrell-pa/storm-damage-restoration/",
-        "/service-areas/farrell-pa/water-cleanup/",
         "/service-areas/farrell-pa/basement-flooding-cleanup/",
         "/service-areas/farrell-pa/biohazard-cleanup/",
         "/service-areas/farrell-pa/burst-pipe-repair/",
@@ -2426,9 +2429,6 @@
         "/service-areas/farrell-pa/water-leak-detection/",
         "/service-areas/farrell-pa/asbestos-abatement/",
         "/service-areas/farrell-pa/air-duct-cleaning/",
-        "/service-areas/farrell-pa/air-duct-hvac-cleaning/",
-        "/service-areas/farrell-pa/carpet-upholstery-cleaning/",
-        "/service-areas/farrell-pa/contents-restoration-storage/",
         "/service-areas/farrell-pa/contents-restoration/",
         "/service-areas/farrell-pa/carpet-cleaning/",
         "/service-areas/farrell-pa/post-construction-cleaning/",
@@ -2480,7 +2480,6 @@
         "/service-areas/sharon-pa/sewage-cleanup/",
         "/service-areas/sharon-pa/smoke-damage-restoration/",
         "/service-areas/sharon-pa/storm-damage-restoration/",
-        "/service-areas/sharon-pa/water-cleanup/",
         "/service-areas/sharon-pa/basement-flooding-cleanup/",
         "/service-areas/sharon-pa/biohazard-cleanup/",
         "/service-areas/sharon-pa/burst-pipe-repair/",
@@ -2495,9 +2494,6 @@
         "/service-areas/sharon-pa/water-leak-detection/",
         "/service-areas/sharon-pa/asbestos-abatement/",
         "/service-areas/sharon-pa/air-duct-cleaning/",
-        "/service-areas/sharon-pa/air-duct-hvac-cleaning/",
-        "/service-areas/sharon-pa/carpet-upholstery-cleaning/",
-        "/service-areas/sharon-pa/contents-restoration-storage/",
         "/service-areas/sharon-pa/contents-restoration/",
         "/service-areas/sharon-pa/carpet-cleaning/",
         "/service-areas/sharon-pa/post-construction-cleaning/",
@@ -2549,7 +2545,6 @@
         "/service-areas/hermitage-pa/sewage-cleanup/",
         "/service-areas/hermitage-pa/smoke-damage-restoration/",
         "/service-areas/hermitage-pa/storm-damage-restoration/",
-        "/service-areas/hermitage-pa/water-cleanup/",
         "/service-areas/hermitage-pa/basement-flooding-cleanup/",
         "/service-areas/hermitage-pa/biohazard-cleanup/",
         "/service-areas/hermitage-pa/burst-pipe-repair/",
@@ -2564,9 +2559,6 @@
         "/service-areas/hermitage-pa/water-leak-detection/",
         "/service-areas/hermitage-pa/asbestos-abatement/",
         "/service-areas/hermitage-pa/air-duct-cleaning/",
-        "/service-areas/hermitage-pa/air-duct-hvac-cleaning/",
-        "/service-areas/hermitage-pa/carpet-upholstery-cleaning/",
-        "/service-areas/hermitage-pa/contents-restoration-storage/",
         "/service-areas/hermitage-pa/contents-restoration/",
         "/service-areas/hermitage-pa/carpet-cleaning/",
         "/service-areas/hermitage-pa/post-construction-cleaning/",
@@ -2618,7 +2610,6 @@
         "/service-areas/sharpsville-pa/sewage-cleanup/",
         "/service-areas/sharpsville-pa/smoke-damage-restoration/",
         "/service-areas/sharpsville-pa/storm-damage-restoration/",
-        "/service-areas/sharpsville-pa/water-cleanup/",
         "/service-areas/sharpsville-pa/basement-flooding-cleanup/",
         "/service-areas/sharpsville-pa/biohazard-cleanup/",
         "/service-areas/sharpsville-pa/burst-pipe-repair/",
@@ -2633,9 +2624,6 @@
         "/service-areas/sharpsville-pa/water-leak-detection/",
         "/service-areas/sharpsville-pa/asbestos-abatement/",
         "/service-areas/sharpsville-pa/air-duct-cleaning/",
-        "/service-areas/sharpsville-pa/air-duct-hvac-cleaning/",
-        "/service-areas/sharpsville-pa/carpet-upholstery-cleaning/",
-        "/service-areas/sharpsville-pa/contents-restoration-storage/",
         "/service-areas/sharpsville-pa/contents-restoration/",
         "/service-areas/sharpsville-pa/carpet-cleaning/",
         "/service-areas/sharpsville-pa/post-construction-cleaning/",
@@ -2687,7 +2675,6 @@
         "/service-areas/wheatland-pa/sewage-cleanup/",
         "/service-areas/wheatland-pa/smoke-damage-restoration/",
         "/service-areas/wheatland-pa/storm-damage-restoration/",
-        "/service-areas/wheatland-pa/water-cleanup/",
         "/service-areas/wheatland-pa/basement-flooding-cleanup/",
         "/service-areas/wheatland-pa/biohazard-cleanup/",
         "/service-areas/wheatland-pa/burst-pipe-repair/",
@@ -2702,9 +2689,6 @@
         "/service-areas/wheatland-pa/water-leak-detection/",
         "/service-areas/wheatland-pa/asbestos-abatement/",
         "/service-areas/wheatland-pa/air-duct-cleaning/",
-        "/service-areas/wheatland-pa/air-duct-hvac-cleaning/",
-        "/service-areas/wheatland-pa/carpet-upholstery-cleaning/",
-        "/service-areas/wheatland-pa/contents-restoration-storage/",
         "/service-areas/wheatland-pa/contents-restoration/",
         "/service-areas/wheatland-pa/carpet-cleaning/",
         "/service-areas/wheatland-pa/post-construction-cleaning/",
@@ -2756,7 +2740,6 @@
         "/service-areas/west-middlesex-pa/sewage-cleanup/",
         "/service-areas/west-middlesex-pa/smoke-damage-restoration/",
         "/service-areas/west-middlesex-pa/storm-damage-restoration/",
-        "/service-areas/west-middlesex-pa/water-cleanup/",
         "/service-areas/west-middlesex-pa/basement-flooding-cleanup/",
         "/service-areas/west-middlesex-pa/biohazard-cleanup/",
         "/service-areas/west-middlesex-pa/burst-pipe-repair/",
@@ -2771,9 +2754,6 @@
         "/service-areas/west-middlesex-pa/water-leak-detection/",
         "/service-areas/west-middlesex-pa/asbestos-abatement/",
         "/service-areas/west-middlesex-pa/air-duct-cleaning/",
-        "/service-areas/west-middlesex-pa/air-duct-hvac-cleaning/",
-        "/service-areas/west-middlesex-pa/carpet-upholstery-cleaning/",
-        "/service-areas/west-middlesex-pa/contents-restoration-storage/",
         "/service-areas/west-middlesex-pa/contents-restoration/",
         "/service-areas/west-middlesex-pa/carpet-cleaning/",
         "/service-areas/west-middlesex-pa/post-construction-cleaning/",
@@ -2825,7 +2805,6 @@
         "/service-areas/greenville-pa/sewage-cleanup/",
         "/service-areas/greenville-pa/smoke-damage-restoration/",
         "/service-areas/greenville-pa/storm-damage-restoration/",
-        "/service-areas/greenville-pa/water-cleanup/",
         "/service-areas/greenville-pa/basement-flooding-cleanup/",
         "/service-areas/greenville-pa/biohazard-cleanup/",
         "/service-areas/greenville-pa/burst-pipe-repair/",
@@ -2840,9 +2819,6 @@
         "/service-areas/greenville-pa/water-leak-detection/",
         "/service-areas/greenville-pa/asbestos-abatement/",
         "/service-areas/greenville-pa/air-duct-cleaning/",
-        "/service-areas/greenville-pa/air-duct-hvac-cleaning/",
-        "/service-areas/greenville-pa/carpet-upholstery-cleaning/",
-        "/service-areas/greenville-pa/contents-restoration-storage/",
         "/service-areas/greenville-pa/contents-restoration/",
         "/service-areas/greenville-pa/carpet-cleaning/",
         "/service-areas/greenville-pa/post-construction-cleaning/",
@@ -2894,7 +2870,6 @@
         "/service-areas/grove-city-pa/sewage-cleanup/",
         "/service-areas/grove-city-pa/smoke-damage-restoration/",
         "/service-areas/grove-city-pa/storm-damage-restoration/",
-        "/service-areas/grove-city-pa/water-cleanup/",
         "/service-areas/grove-city-pa/basement-flooding-cleanup/",
         "/service-areas/grove-city-pa/biohazard-cleanup/",
         "/service-areas/grove-city-pa/burst-pipe-repair/",
@@ -2909,9 +2884,6 @@
         "/service-areas/grove-city-pa/water-leak-detection/",
         "/service-areas/grove-city-pa/asbestos-abatement/",
         "/service-areas/grove-city-pa/air-duct-cleaning/",
-        "/service-areas/grove-city-pa/air-duct-hvac-cleaning/",
-        "/service-areas/grove-city-pa/carpet-upholstery-cleaning/",
-        "/service-areas/grove-city-pa/contents-restoration-storage/",
         "/service-areas/grove-city-pa/contents-restoration/",
         "/service-areas/grove-city-pa/carpet-cleaning/",
         "/service-areas/grove-city-pa/post-construction-cleaning/",
@@ -2963,7 +2935,6 @@
         "/service-areas/mercer-pa/sewage-cleanup/",
         "/service-areas/mercer-pa/smoke-damage-restoration/",
         "/service-areas/mercer-pa/storm-damage-restoration/",
-        "/service-areas/mercer-pa/water-cleanup/",
         "/service-areas/mercer-pa/basement-flooding-cleanup/",
         "/service-areas/mercer-pa/biohazard-cleanup/",
         "/service-areas/mercer-pa/burst-pipe-repair/",
@@ -2978,9 +2949,6 @@
         "/service-areas/mercer-pa/water-leak-detection/",
         "/service-areas/mercer-pa/asbestos-abatement/",
         "/service-areas/mercer-pa/air-duct-cleaning/",
-        "/service-areas/mercer-pa/air-duct-hvac-cleaning/",
-        "/service-areas/mercer-pa/carpet-upholstery-cleaning/",
-        "/service-areas/mercer-pa/contents-restoration-storage/",
         "/service-areas/mercer-pa/contents-restoration/",
         "/service-areas/mercer-pa/carpet-cleaning/",
         "/service-areas/mercer-pa/post-construction-cleaning/",
@@ -3032,7 +3000,6 @@
         "/service-areas/new-castle-pa/sewage-cleanup/",
         "/service-areas/new-castle-pa/smoke-damage-restoration/",
         "/service-areas/new-castle-pa/storm-damage-restoration/",
-        "/service-areas/new-castle-pa/water-cleanup/",
         "/service-areas/new-castle-pa/basement-flooding-cleanup/",
         "/service-areas/new-castle-pa/biohazard-cleanup/",
         "/service-areas/new-castle-pa/burst-pipe-repair/",
@@ -3047,9 +3014,6 @@
         "/service-areas/new-castle-pa/water-leak-detection/",
         "/service-areas/new-castle-pa/asbestos-abatement/",
         "/service-areas/new-castle-pa/air-duct-cleaning/",
-        "/service-areas/new-castle-pa/air-duct-hvac-cleaning/",
-        "/service-areas/new-castle-pa/carpet-upholstery-cleaning/",
-        "/service-areas/new-castle-pa/contents-restoration-storage/",
         "/service-areas/new-castle-pa/contents-restoration/",
         "/service-areas/new-castle-pa/carpet-cleaning/",
         "/service-areas/new-castle-pa/post-construction-cleaning/",
@@ -3319,6 +3283,51 @@
         "/service-areas/warren-oh/mold-remediation/",
         "/service-areas/austintown-oh/emergency-board-up-tarping/",
         "/service-areas/boardman-oh/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/warren-oh/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Warren, OH | DISS Restoration",
+      "h1": "Emergency Water Removal & Cleanup in Warren",
+      "meta_description": "24/7 emergency water removal & cleanup in Warren, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441.",
+      "primary_keyword": "emergency water removal & cleanup warren",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/warren-oh/",
+        "/service-areas/warren-oh/fire-damage-restoration/",
+        "/service-areas/warren-oh/mold-remediation/",
+        "/service-areas/austintown-oh/emergency-water-removal/",
+        "/service-areas/boardman-oh/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -4510,6 +4519,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/boardman-oh/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Boardman, OH | DISS Restoration",
+      "h1": "Emergency Water Removal & Cleanup in Boardman",
+      "meta_description": "24/7 emergency water removal & cleanup in Boardman, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441.",
+      "primary_keyword": "emergency water removal & cleanup boardman",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/boardman-oh/",
+        "/service-areas/boardman-oh/fire-damage-restoration/",
+        "/service-areas/boardman-oh/mold-remediation/",
+        "/service-areas/austintown-oh/emergency-water-removal/",
+        "/service-areas/campbell-oh/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/boardman-oh/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5693,6 +5747,51 @@
         "/service-areas/austintown-oh/mold-remediation/",
         "/service-areas/boardman-oh/emergency-board-up-tarping/",
         "/service-areas/campbell-oh/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/austintown-oh/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Austintown, OH | DISS Restoration",
+      "h1": "Emergency Water Removal & Cleanup in Austintown",
+      "meta_description": "24/7 emergency water removal & cleanup in Austintown, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441.",
+      "primary_keyword": "emergency water removal & cleanup austintown",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/austintown-oh/",
+        "/service-areas/austintown-oh/fire-damage-restoration/",
+        "/service-areas/austintown-oh/mold-remediation/",
+        "/service-areas/boardman-oh/emergency-water-removal/",
+        "/service-areas/campbell-oh/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -6884,6 +6983,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/niles-oh/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Niles, OH | DISS Restoration",
+      "h1": "Emergency Water Removal & Cleanup in Niles",
+      "meta_description": "24/7 emergency water removal & cleanup in Niles, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441.",
+      "primary_keyword": "emergency water removal & cleanup niles",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/niles-oh/",
+        "/service-areas/niles-oh/fire-damage-restoration/",
+        "/service-areas/niles-oh/mold-remediation/",
+        "/service-areas/austintown-oh/emergency-water-removal/",
+        "/service-areas/boardman-oh/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/niles-oh/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8067,6 +8211,51 @@
         "/service-areas/girard-oh/mold-remediation/",
         "/service-areas/austintown-oh/emergency-board-up-tarping/",
         "/service-areas/boardman-oh/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/girard-oh/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Girard, OH | DISS Restoration",
+      "h1": "Emergency Water Removal & Cleanup in Girard",
+      "meta_description": "24/7 emergency water removal & cleanup in Girard, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441.",
+      "primary_keyword": "emergency water removal & cleanup girard",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/girard-oh/",
+        "/service-areas/girard-oh/fire-damage-restoration/",
+        "/service-areas/girard-oh/mold-remediation/",
+        "/service-areas/austintown-oh/emergency-water-removal/",
+        "/service-areas/boardman-oh/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -9258,6 +9447,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/struthers-oh/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Struthers, OH | DISS Restoration",
+      "h1": "Emergency Water Removal & Cleanup in Struthers",
+      "meta_description": "24/7 emergency water removal & cleanup in Struthers, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441.",
+      "primary_keyword": "emergency water removal & cleanup struthers",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/struthers-oh/",
+        "/service-areas/struthers-oh/fire-damage-restoration/",
+        "/service-areas/struthers-oh/mold-remediation/",
+        "/service-areas/austintown-oh/emergency-water-removal/",
+        "/service-areas/boardman-oh/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/struthers-oh/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10441,6 +10675,51 @@
         "/service-areas/canfield-oh/mold-remediation/",
         "/service-areas/austintown-oh/emergency-board-up-tarping/",
         "/service-areas/boardman-oh/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/canfield-oh/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Canfield, OH | DISS Restoration",
+      "h1": "Emergency Water Removal & Cleanup in Canfield",
+      "meta_description": "24/7 emergency water removal & cleanup in Canfield, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441.",
+      "primary_keyword": "emergency water removal & cleanup canfield",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/canfield-oh/",
+        "/service-areas/canfield-oh/fire-damage-restoration/",
+        "/service-areas/canfield-oh/mold-remediation/",
+        "/service-areas/austintown-oh/emergency-water-removal/",
+        "/service-areas/boardman-oh/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -11632,6 +11911,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/hubbard-oh/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Hubbard, OH | DISS Restoration",
+      "h1": "Emergency Water Removal & Cleanup in Hubbard",
+      "meta_description": "24/7 emergency water removal & cleanup in Hubbard, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441.",
+      "primary_keyword": "emergency water removal & cleanup hubbard",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/hubbard-oh/",
+        "/service-areas/hubbard-oh/fire-damage-restoration/",
+        "/service-areas/hubbard-oh/mold-remediation/",
+        "/service-areas/austintown-oh/emergency-water-removal/",
+        "/service-areas/boardman-oh/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/hubbard-oh/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12815,6 +13139,51 @@
         "/service-areas/campbell-oh/mold-remediation/",
         "/service-areas/austintown-oh/emergency-board-up-tarping/",
         "/service-areas/boardman-oh/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/campbell-oh/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Campbell, OH | DISS Restoration",
+      "h1": "Emergency Water Removal & Cleanup in Campbell",
+      "meta_description": "24/7 emergency water removal & cleanup in Campbell, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441.",
+      "primary_keyword": "emergency water removal & cleanup campbell",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/campbell-oh/",
+        "/service-areas/campbell-oh/fire-damage-restoration/",
+        "/service-areas/campbell-oh/mold-remediation/",
+        "/service-areas/austintown-oh/emergency-water-removal/",
+        "/service-areas/boardman-oh/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -14006,6 +14375,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/mineral-ridge-oh/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Mineral Ridge, OH | DISS Restoration",
+      "h1": "Emergency Water Removal & Cleanup in Mineral Ridge",
+      "meta_description": "24/7 emergency water removal & cleanup in Mineral Ridge, OH. IICRC-certified, insurance billing accepted. Call (724) 981-1441.",
+      "primary_keyword": "emergency water removal & cleanup mineral ridge",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/mineral-ridge-oh/",
+        "/service-areas/mineral-ridge-oh/fire-damage-restoration/",
+        "/service-areas/mineral-ridge-oh/mold-remediation/",
+        "/service-areas/austintown-oh/emergency-water-removal/",
+        "/service-areas/boardman-oh/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/mineral-ridge-oh/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -15189,6 +15603,51 @@
         "/service-areas/farrell-pa/mold-remediation/",
         "/service-areas/austintown-oh/emergency-board-up-tarping/",
         "/service-areas/boardman-oh/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/farrell-pa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Farrell, PA | DISS Restoration",
+      "h1": "Emergency Water Removal & Cleanup in Farrell",
+      "meta_description": "24/7 emergency water removal & cleanup in Farrell, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441.",
+      "primary_keyword": "emergency water removal & cleanup farrell",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/farrell-pa/",
+        "/service-areas/farrell-pa/fire-damage-restoration/",
+        "/service-areas/farrell-pa/mold-remediation/",
+        "/service-areas/austintown-oh/emergency-water-removal/",
+        "/service-areas/boardman-oh/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -16380,6 +16839,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/sharon-pa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Sharon, PA | DISS Restoration",
+      "h1": "Emergency Water Removal & Cleanup in Sharon",
+      "meta_description": "24/7 emergency water removal & cleanup in Sharon, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441.",
+      "primary_keyword": "emergency water removal & cleanup sharon",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/sharon-pa/",
+        "/service-areas/sharon-pa/fire-damage-restoration/",
+        "/service-areas/sharon-pa/mold-remediation/",
+        "/service-areas/austintown-oh/emergency-water-removal/",
+        "/service-areas/boardman-oh/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/sharon-pa/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17563,6 +18067,51 @@
         "/service-areas/hermitage-pa/mold-remediation/",
         "/service-areas/austintown-oh/emergency-board-up-tarping/",
         "/service-areas/boardman-oh/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hermitage-pa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Hermitage, PA | DISS Restoration",
+      "h1": "Emergency Water Removal & Cleanup in Hermitage",
+      "meta_description": "24/7 emergency water removal & cleanup in Hermitage, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441.",
+      "primary_keyword": "emergency water removal & cleanup hermitage",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/hermitage-pa/",
+        "/service-areas/hermitage-pa/fire-damage-restoration/",
+        "/service-areas/hermitage-pa/mold-remediation/",
+        "/service-areas/austintown-oh/emergency-water-removal/",
+        "/service-areas/boardman-oh/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -18754,6 +19303,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/sharpsville-pa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Sharpsville, PA | DISS Restoration",
+      "h1": "Emergency Water Removal & Cleanup in Sharpsville",
+      "meta_description": "24/7 emergency water removal & cleanup in Sharpsville, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441.",
+      "primary_keyword": "emergency water removal & cleanup sharpsville",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/sharpsville-pa/",
+        "/service-areas/sharpsville-pa/fire-damage-restoration/",
+        "/service-areas/sharpsville-pa/mold-remediation/",
+        "/service-areas/austintown-oh/emergency-water-removal/",
+        "/service-areas/boardman-oh/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/sharpsville-pa/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -19937,6 +20531,51 @@
         "/service-areas/wheatland-pa/mold-remediation/",
         "/service-areas/austintown-oh/emergency-board-up-tarping/",
         "/service-areas/boardman-oh/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/wheatland-pa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Wheatland, PA | DISS Restoration",
+      "h1": "Emergency Water Removal & Cleanup in Wheatland",
+      "meta_description": "24/7 emergency water removal & cleanup in Wheatland, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441.",
+      "primary_keyword": "emergency water removal & cleanup wheatland",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/wheatland-pa/",
+        "/service-areas/wheatland-pa/fire-damage-restoration/",
+        "/service-areas/wheatland-pa/mold-remediation/",
+        "/service-areas/austintown-oh/emergency-water-removal/",
+        "/service-areas/boardman-oh/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -21128,6 +21767,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/west-middlesex-pa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in West Middlesex, PA | DISS Restoration",
+      "h1": "Emergency Water Removal & Cleanup in West Middlesex",
+      "meta_description": "24/7 emergency water removal & cleanup in West Middlesex, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441.",
+      "primary_keyword": "emergency water removal & cleanup west middlesex",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/west-middlesex-pa/",
+        "/service-areas/west-middlesex-pa/fire-damage-restoration/",
+        "/service-areas/west-middlesex-pa/mold-remediation/",
+        "/service-areas/austintown-oh/emergency-water-removal/",
+        "/service-areas/boardman-oh/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/west-middlesex-pa/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -22311,6 +22995,51 @@
         "/service-areas/greenville-pa/mold-remediation/",
         "/service-areas/austintown-oh/emergency-board-up-tarping/",
         "/service-areas/boardman-oh/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/greenville-pa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Greenville, PA | DISS Restoration",
+      "h1": "Emergency Water Removal & Cleanup in Greenville",
+      "meta_description": "24/7 emergency water removal & cleanup in Greenville, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441.",
+      "primary_keyword": "emergency water removal & cleanup greenville",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/greenville-pa/",
+        "/service-areas/greenville-pa/fire-damage-restoration/",
+        "/service-areas/greenville-pa/mold-remediation/",
+        "/service-areas/austintown-oh/emergency-water-removal/",
+        "/service-areas/boardman-oh/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -23502,6 +24231,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/grove-city-pa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Grove City, PA | DISS Restoration",
+      "h1": "Emergency Water Removal & Cleanup in Grove City",
+      "meta_description": "24/7 emergency water removal & cleanup in Grove City, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441.",
+      "primary_keyword": "emergency water removal & cleanup grove city",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/grove-city-pa/",
+        "/service-areas/grove-city-pa/fire-damage-restoration/",
+        "/service-areas/grove-city-pa/mold-remediation/",
+        "/service-areas/austintown-oh/emergency-water-removal/",
+        "/service-areas/boardman-oh/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/grove-city-pa/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -24689,6 +25463,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/mercer-pa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Mercer, PA | DISS Restoration",
+      "h1": "Emergency Water Removal & Cleanup in Mercer",
+      "meta_description": "24/7 emergency water removal & cleanup in Mercer, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441.",
+      "primary_keyword": "emergency water removal & cleanup mercer",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/mercer-pa/",
+        "/service-areas/mercer-pa/fire-damage-restoration/",
+        "/service-areas/mercer-pa/mold-remediation/",
+        "/service-areas/austintown-oh/emergency-water-removal/",
+        "/service-areas/boardman-oh/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/mercer-pa/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -25872,6 +26691,51 @@
         "/service-areas/new-castle-pa/mold-remediation/",
         "/service-areas/austintown-oh/emergency-board-up-tarping/",
         "/service-areas/boardman-oh/emergency-board-up-tarping/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/new-castle-pa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in New Castle, PA | DISS Restoration",
+      "h1": "Emergency Water Removal & Cleanup in New Castle",
+      "meta_description": "24/7 emergency water removal & cleanup in New Castle, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441.",
+      "primary_keyword": "emergency water removal & cleanup new castle",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/new-castle-pa/",
+        "/service-areas/new-castle-pa/fire-damage-restoration/",
+        "/service-areas/new-castle-pa/mold-remediation/",
+        "/service-areas/austintown-oh/emergency-water-removal/",
+        "/service-areas/boardman-oh/emergency-water-removal/",
         "/contact/"
       ]
     },

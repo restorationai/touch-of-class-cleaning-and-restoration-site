@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "61c7d243dcfbf5fc"
-generated_at: "2026-09-23T14:11:38.256822+00:00"
+generated_at: "2026-09-30T19:28:35.710030+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/dover-fl/", "/service-areas/dover-fl/fire-damage-restoration/", "/service-areas/dover-fl/mold-remediation/", "/service-areas/anna-maria-fl/emergency-plumbing/", "/service-areas/apollo-beach-fl/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Dover", "url": "/service-areas/dover-fl/"}, {"name": "Emergency Plumbing"}]

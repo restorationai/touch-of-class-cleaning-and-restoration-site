@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "c6003c527181f059"
-generated_at: "2026-09-23T14:12:04.472527+00:00"
+generated_at: "2026-09-30T19:29:00.365579+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/caddo-mills-tx/", "/service-areas/caddo-mills-tx/mold-remediation/", "/service-areas/caddo-mills-tx/roofing/", "/service-areas/allen-tx/fire-damage-restoration/", "/service-areas/dallas-tx/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Caddo Mills", "url": "/service-areas/caddo-mills-tx/"}, {"name": "Fire Damage Restoration"}]

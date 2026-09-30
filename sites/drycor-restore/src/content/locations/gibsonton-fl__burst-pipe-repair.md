@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "091019e1e4911e05"
-generated_at: "2026-09-29T23:28:29.567169+00:00"
+generated_at: "2026-09-30T19:28:35.837061+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/gibsonton-fl/", "/service-areas/gibsonton-fl/fire-damage-restoration/", "/service-areas/gibsonton-fl/mold-remediation/", "/service-areas/anna-maria-fl/burst-pipe-repair/", "/service-areas/apollo-beach-fl/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gibsonton", "url": "/service-areas/gibsonton-fl/"}, {"name": "Burst Pipe Cleanup and Repair"}]

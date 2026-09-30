@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "faa1d7dd57771215"
-generated_at: "2026-09-28T20:50:26.579026+00:00"
+generated_at: "2026-09-30T19:28:58.495299+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/las-vegas-nv/", "/service-areas/las-vegas-nv/fire-damage-restoration/", "/service-areas/las-vegas-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-leak-detection/", "/service-areas/boulder-city-nv/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Las Vegas", "url": "/service-areas/las-vegas-nv/"}, {"name": "water-leak-detection"}]

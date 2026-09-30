@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "df7f5ef9d40a1fc1"
-generated_at: "2026-09-30T14:12:09.644552+00:00"
+generated_at: "2026-09-30T19:28:32.715134+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/fullerton-ca/", "/service-areas/fullerton-ca/fire-damage-restoration/", "/service-areas/fullerton-ca/mold-remediation/", "/service-areas/anaheim-ca/emergency-plumbing/", "/service-areas/chino-ca/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fullerton", "url": "/service-areas/fullerton-ca/"}, {"name": "Emergency Plumbing"}]

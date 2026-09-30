@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "34a8ca9f7bca8f5b"
-generated_at: "2026-09-29T23:28:29.574046+00:00"
+generated_at: "2026-09-30T19:28:35.847802+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/holiday-fl/", "/service-areas/holiday-fl/fire-damage-restoration/", "/service-areas/holiday-fl/mold-remediation/", "/service-areas/anna-maria-fl/industrial-restoration/", "/service-areas/apollo-beach-fl/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Holiday", "url": "/service-areas/holiday-fl/"}, {"name": "Industrial Restoration"}]

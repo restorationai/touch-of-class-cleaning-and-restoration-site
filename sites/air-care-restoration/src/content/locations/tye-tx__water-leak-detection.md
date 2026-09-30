@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "d17e2463c4453602"
-generated_at: "2026-09-30T14:12:01.753613+00:00"
+generated_at: "2026-09-30T19:28:19.965208+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/tye-tx/", "/service-areas/tye-tx/fire-damage-restoration/", "/service-areas/tye-tx/mold-remediation/", "/service-areas/albany-tx/water-leak-detection/", "/service-areas/anson-tx/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tye", "url": "/service-areas/tye-tx/"}, {"name": "water-leak-detection"}]

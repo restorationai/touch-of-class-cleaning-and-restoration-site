@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "92f62bb441b914ad"
-generated_at: "2026-09-29T23:13:49.325623+00:00"
+generated_at: "2026-09-30T19:28:39.732202+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/selma-nc/", "/service-areas/selma-nc/fire-damage-restoration/", "/service-areas/selma-nc/mold-remediation/", "/service-areas/archer-lodge-nc/burst-pipe-repair/", "/service-areas/clayton-nc/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Selma", "url": "/service-areas/selma-nc/"}, {"name": "Burst Pipe Cleanup and Repair"}]

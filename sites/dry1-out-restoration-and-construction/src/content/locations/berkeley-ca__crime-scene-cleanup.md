@@ -8,7 +8,7 @@ secondary_keywords: ["crime scene cleaning", "forensic cleanup", "post-crime cle
 search_intent: "local_sensitive"
 priority: 4.2
 plan_hash: "03b11789b3a06519"
-generated_at: "2026-09-29T14:31:48.441189+00:00"
+generated_at: "2026-09-30T19:28:33.848183+00:00"
 manual_override: false
 internal_links: ["/services/crime-scene-cleanup/", "/service-areas/berkeley-ca/", "/service-areas/berkeley-ca/fire-damage-restoration/", "/service-areas/berkeley-ca/mold-remediation/", "/service-areas/carlsbad-ca/crime-scene-cleanup/", "/service-areas/chula-vista-ca/crime-scene-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Berkeley", "url": "/service-areas/berkeley-ca/"}, {"name": "Crime Scene Cleanup"}]

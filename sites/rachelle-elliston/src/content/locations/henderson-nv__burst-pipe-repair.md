@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "7982fe181c48ea73"
-generated_at: "2026-09-28T20:50:26.579866+00:00"
+generated_at: "2026-09-30T19:28:58.496855+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/henderson-nv/", "/service-areas/henderson-nv/fire-damage-restoration/", "/service-areas/henderson-nv/mold-remediation/", "/service-areas/blue-diamond-nv/burst-pipe-repair/", "/service-areas/boulder-city-nv/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Henderson", "url": "/service-areas/henderson-nv/"}, {"name": "burst-pipe-repair"}]

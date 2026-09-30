@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "ebb013f09f7d15df"
-generated_at: "2026-09-30T14:12:12.886041+00:00"
+generated_at: "2026-09-30T19:28:43.418520+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/long-beach-ms/", "/service-areas/long-beach-ms/fire-damage-restoration/", "/service-areas/long-beach-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-plumbing/", "/service-areas/bay-st-louis-ms/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Long Beach", "url": "/service-areas/long-beach-ms/"}, {"name": "emergency-plumbing"}]

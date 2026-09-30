@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "e54e5e03b94ac8e0"
-generated_at: "2026-09-30T14:12:01.744185+00:00"
+generated_at: "2026-09-30T19:28:19.954173+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/merkel-tx/", "/service-areas/merkel-tx/fire-damage-restoration/", "/service-areas/merkel-tx/mold-remediation/", "/service-areas/albany-tx/industrial-restoration/", "/service-areas/anson-tx/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Merkel", "url": "/service-areas/merkel-tx/"}, {"name": "industrial-restoration"}]

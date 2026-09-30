@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "8bd8225aed406f36"
-generated_at: "2026-09-30T14:12:01.797113+00:00"
+generated_at: "2026-09-30T19:28:20.030606+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/albany-tx/", "/service-areas/albany-tx/fire-damage-restoration/", "/service-areas/albany-tx/mold-remediation/", "/service-areas/anson-tx/mold-inspection-testing/", "/service-areas/baird-tx/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Albany", "url": "/service-areas/albany-tx/"}, {"name": "mold-inspection-testing"}]

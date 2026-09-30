@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "dff3a4ba210b4837"
-generated_at: "2026-09-29T14:31:48.379621+00:00"
+generated_at: "2026-09-30T19:28:33.764670+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/carlsbad-ca/", "/service-areas/carlsbad-ca/mold-remediation/", "/service-areas/carlsbad-ca/water-damage-restoration/", "/service-areas/berkeley-ca/fire-damage-restoration/", "/service-areas/chula-vista-ca/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Carlsbad", "url": "/service-areas/carlsbad-ca/"}, {"name": "Fire Damage Restoration"}]

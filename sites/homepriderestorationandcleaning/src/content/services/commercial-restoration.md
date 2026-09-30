@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 8.1
 plan_hash: "dee9eb99af968d5f"
-generated_at: "2026-09-30T14:12:14.523761+00:00"
+generated_at: "2026-09-30T19:28:45.049037+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/commercial-restoration/", "/service-areas/american-fork-ut/commercial-restoration/", "/service-areas/benjamin-ut/commercial-restoration/", "/service-areas/bluffdale-ut/commercial-restoration/", "/service-areas/cedar-fort-ut/commercial-restoration/", "/service-areas/cedar-hills-ut/commercial-restoration/", "/service-areas/draper-ut/commercial-restoration/", "/service-areas/eagle-mountain-ut/commercial-restoration/", "/service-areas/fairfield-ut/commercial-restoration/", "/service-areas/heber-city-ut/commercial-restoration/", "/service-areas/herriman-ut/commercial-restoration/", "/service-areas/highland-ut/commercial-restoration/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "commercial-restoration"}]

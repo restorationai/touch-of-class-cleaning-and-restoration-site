@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "3f72554704e22d0a"
-generated_at: "2026-09-29T23:13:49.277579+00:00"
+generated_at: "2026-09-30T19:28:39.603964+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/rocky-mount-nc/", "/service-areas/rocky-mount-nc/fire-damage-restoration/", "/service-areas/rocky-mount-nc/mold-remediation/", "/service-areas/archer-lodge-nc/water-leak-detection/", "/service-areas/clayton-nc/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rocky Mount", "url": "/service-areas/rocky-mount-nc/"}, {"name": "Water Leak Detection"}]

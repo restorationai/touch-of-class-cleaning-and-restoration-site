@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "f4e0aaf68d5cb1e1"
-generated_at: "2026-09-30T14:12:12.852299+00:00"
+generated_at: "2026-09-30T19:28:43.378043+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/state-line-ms/", "/service-areas/state-line-ms/fire-damage-restoration/", "/service-areas/state-line-ms/mold-remediation/", "/service-areas/agricola-ms/industrial-restoration/", "/service-areas/bay-st-louis-ms/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "State Line", "url": "/service-areas/state-line-ms/"}, {"name": "industrial-restoration"}]

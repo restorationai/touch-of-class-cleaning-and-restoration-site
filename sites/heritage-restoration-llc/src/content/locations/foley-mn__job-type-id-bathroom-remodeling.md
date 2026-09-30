@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "cf0895da956b242e"
-generated_at: "2026-09-29T23:13:48.865898+00:00"
+generated_at: "2026-09-30T19:28:41.636591+00:00"
 manual_override: false
 internal_links: ["/services/job-type-id-bathroom-remodeling/", "/service-areas/foley-mn/", "/service-areas/foley-mn/fire-damage-restoration/", "/service-areas/foley-mn/mold-remediation/", "/service-areas/albany-mn/job-type-id-bathroom-remodeling/", "/service-areas/avon-mn/job-type-id-bathroom-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Foley", "url": "/service-areas/foley-mn/"}, {"name": "Bathroom Remodeling"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "5634c9c08d1c3380"
-generated_at: "2026-09-29T23:13:48.857322+00:00"
+generated_at: "2026-09-30T19:28:41.622502+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/sauk-rapids-mn/", "/service-areas/sauk-rapids-mn/fire-damage-restoration/", "/service-areas/sauk-rapids-mn/mold-remediation/", "/service-areas/albany-mn/water-leak-detection/", "/service-areas/avon-mn/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sauk Rapids", "url": "/service-areas/sauk-rapids-mn/"}, {"name": "Water Leak Detection"}]

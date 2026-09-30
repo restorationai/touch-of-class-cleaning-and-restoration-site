@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "1dc674cc6ddea2e0"
-generated_at: "2026-09-30T14:12:14.565682+00:00"
+generated_at: "2026-09-30T19:28:45.102986+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/south-jordan-ut/", "/service-areas/south-jordan-ut/fire-damage-restoration/", "/service-areas/south-jordan-ut/mold-remediation/", "/service-areas/alpine-ut/commercial-restoration/", "/service-areas/american-fork-ut/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "South Jordan", "url": "/service-areas/south-jordan-ut/"}, {"name": "commercial-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "a348c25b461c433d"
-generated_at: "2026-09-30T14:12:14.547009+00:00"
+generated_at: "2026-09-30T19:28:45.076721+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/pleasant-grove-ut/", "/service-areas/pleasant-grove-ut/fire-damage-restoration/", "/service-areas/pleasant-grove-ut/mold-remediation/", "/service-areas/alpine-ut/industrial-restoration/", "/service-areas/american-fork-ut/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pleasant Grove", "url": "/service-areas/pleasant-grove-ut/"}, {"name": "industrial-restoration"}]

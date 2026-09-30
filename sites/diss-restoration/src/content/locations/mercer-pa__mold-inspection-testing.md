@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "dd837b93b5de2a75"
-generated_at: "2026-09-30T14:12:07.194726+00:00"
+generated_at: "2026-09-30T19:28:30.187714+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/mercer-pa/", "/service-areas/mercer-pa/fire-damage-restoration/", "/service-areas/mercer-pa/mold-remediation/", "/service-areas/austintown-oh/mold-inspection-testing/", "/service-areas/boardman-oh/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mercer", "url": "/service-areas/mercer-pa/"}, {"name": "mold-inspection-testing"}]

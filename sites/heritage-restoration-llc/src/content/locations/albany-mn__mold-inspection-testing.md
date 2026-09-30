@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "9d22f078c8dbb46f"
-generated_at: "2026-09-29T23:13:48.922415+00:00"
+generated_at: "2026-09-30T19:28:41.721700+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/albany-mn/", "/service-areas/albany-mn/fire-damage-restoration/", "/service-areas/albany-mn/mold-remediation/", "/service-areas/avon-mn/mold-inspection-testing/", "/service-areas/baxter-mn/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Albany", "url": "/service-areas/albany-mn/"}, {"name": "Mold Inspection and Testing"}]

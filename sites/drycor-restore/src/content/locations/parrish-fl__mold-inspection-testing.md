@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "6930eeb3e0a44aa6"
-generated_at: "2026-09-29T23:28:29.614727+00:00"
+generated_at: "2026-09-30T19:28:35.901456+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/parrish-fl/", "/service-areas/parrish-fl/fire-damage-restoration/", "/service-areas/parrish-fl/mold-remediation/", "/service-areas/anna-maria-fl/mold-inspection-testing/", "/service-areas/apollo-beach-fl/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Parrish", "url": "/service-areas/parrish-fl/"}, {"name": "Mold Inspection and Testing"}]

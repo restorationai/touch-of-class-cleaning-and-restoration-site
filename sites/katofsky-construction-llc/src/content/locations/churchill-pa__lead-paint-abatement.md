@@ -8,7 +8,7 @@ secondary_keywords: ["lead paint removal", "lead paint testing", "lead-safe reno
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "52b3f9aa813d6366"
-generated_at: "2026-09-30T14:12:19.469403+00:00"
+generated_at: "2026-09-30T19:28:48.311721+00:00"
 manual_override: false
 internal_links: ["/services/lead-paint-abatement/", "/service-areas/churchill-pa/", "/service-areas/churchill-pa/fire-damage-restoration/", "/service-areas/churchill-pa/roofing/", "/service-areas/allison-park-pa/lead-paint-abatement/", "/service-areas/baldwin-pa/lead-paint-abatement/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Churchill", "url": "/service-areas/churchill-pa/"}, {"name": "Lead Paint Abatement"}]

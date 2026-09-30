@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "87af4afb32f07e96"
-generated_at: "2026-09-29T23:13:48.869766+00:00"
+generated_at: "2026-09-30T19:28:41.643140+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/royalton-mn/", "/service-areas/royalton-mn/fire-damage-restoration/", "/service-areas/royalton-mn/roofing/", "/service-areas/albany-mn/mold-remediation/", "/service-areas/avon-mn/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Royalton", "url": "/service-areas/royalton-mn/"}, {"name": "Mold Remediation"}]

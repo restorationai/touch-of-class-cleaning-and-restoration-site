@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "1ec4928a956501a5"
-generated_at: "2026-09-29T23:13:48.875266+00:00"
+generated_at: "2026-09-30T19:28:41.653030+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/sobieski-mn/", "/service-areas/sobieski-mn/fire-damage-restoration/", "/service-areas/sobieski-mn/mold-remediation/", "/service-areas/albany-mn/industrial-restoration/", "/service-areas/avon-mn/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sobieski", "url": "/service-areas/sobieski-mn/"}, {"name": "Industrial Restoration"}]

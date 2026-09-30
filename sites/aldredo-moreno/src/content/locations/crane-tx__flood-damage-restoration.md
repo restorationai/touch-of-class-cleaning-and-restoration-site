@@ -8,7 +8,7 @@ secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restorati
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "640202a0cd674b09"
-generated_at: "2026-09-30T14:12:02.650614+00:00"
+generated_at: "2026-09-30T19:28:20.878857+00:00"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/service-areas/crane-tx/", "/service-areas/crane-tx/fire-damage-restoration/", "/service-areas/crane-tx/mold-remediation/", "/service-areas/andrews-tx/flood-damage-restoration/", "/service-areas/big-lake-tx/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Crane", "url": "/service-areas/crane-tx/"}, {"name": "flood-damage-restoration"}]

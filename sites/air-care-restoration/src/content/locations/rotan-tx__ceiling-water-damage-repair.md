@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "84d0fe7baf103090"
-generated_at: "2026-09-30T14:12:01.768186+00:00"
+generated_at: "2026-09-30T19:28:19.985864+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/rotan-tx/", "/service-areas/rotan-tx/fire-damage-restoration/", "/service-areas/rotan-tx/mold-remediation/", "/service-areas/albany-tx/ceiling-water-damage-repair/", "/service-areas/anson-tx/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rotan", "url": "/service-areas/rotan-tx/"}, {"name": "ceiling-water-damage-repair"}]

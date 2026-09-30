@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "394e3c7013b09f28"
-generated_at: "2026-09-30T14:12:12.889219+00:00"
+generated_at: "2026-09-30T19:28:43.420901+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/lyman-ms/", "/service-areas/lyman-ms/fire-damage-restoration/", "/service-areas/lyman-ms/mold-remediation/", "/service-areas/agricola-ms/burst-pipe-repair/", "/service-areas/bay-st-louis-ms/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lyman", "url": "/service-areas/lyman-ms/"}, {"name": "burst-pipe-repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "26ac2025b3ee8c5f"
-generated_at: "2026-09-30T14:12:13.041195+00:00"
+generated_at: "2026-09-30T19:28:43.607106+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/sandersville-ms/", "/service-areas/sandersville-ms/fire-damage-restoration/", "/service-areas/sandersville-ms/mold-remediation/", "/service-areas/agricola-ms/ceiling-water-damage-repair/", "/service-areas/bay-st-louis-ms/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sandersville", "url": "/service-areas/sandersville-ms/"}, {"name": "ceiling-water-damage-repair"}]

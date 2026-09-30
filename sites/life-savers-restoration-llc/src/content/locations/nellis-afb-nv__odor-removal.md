@@ -8,7 +8,7 @@ secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodoriz
 search_intent: "local_specialty"
 priority: 4.9
 plan_hash: "1bc5b19e0b38402e"
-generated_at: "2026-09-23T14:11:52.245826+00:00"
+generated_at: "2026-09-30T19:28:50.964447+00:00"
 manual_override: false
 internal_links: ["/services/odor-removal/", "/service-areas/nellis-afb-nv/", "/service-areas/nellis-afb-nv/fire-damage-restoration/", "/service-areas/nellis-afb-nv/mold-remediation/", "/service-areas/blue-diamond-nv/odor-removal/", "/service-areas/boulder-city-nv/odor-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Nellis AFB", "url": "/service-areas/nellis-afb-nv/"}, {"name": "Odor Removal and Deodorization"}]

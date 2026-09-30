@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "c359429b439627f7"
-generated_at: "2026-09-30T14:12:12.941263+00:00"
+generated_at: "2026-09-30T19:28:43.483626+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/lumberton-ms/", "/service-areas/lumberton-ms/fire-damage-restoration/", "/service-areas/lumberton-ms/mold-remediation/", "/service-areas/agricola-ms/mold-inspection-testing/", "/service-areas/bay-st-louis-ms/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lumberton", "url": "/service-areas/lumberton-ms/"}, {"name": "mold-inspection-testing"}]

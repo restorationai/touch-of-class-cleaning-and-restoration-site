@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "7144c26483963da8"
-generated_at: "2026-09-30T14:12:12.912842+00:00"
+generated_at: "2026-09-30T19:28:43.449690+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/kiln-ms/", "/service-areas/kiln-ms/fire-damage-restoration/", "/service-areas/kiln-ms/mold-remediation/", "/service-areas/agricola-ms/smoke-damage-restoration/", "/service-areas/bay-st-louis-ms/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Kiln", "url": "/service-areas/kiln-ms/"}, {"name": "smoke-damage-restoration"}]

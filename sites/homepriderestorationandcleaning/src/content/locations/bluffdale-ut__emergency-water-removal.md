@@ -2,22 +2,22 @@
 archetype: "service-area-service"
 title: "Emergency Water Removal & Cleanup in Bluffdale, UT | Home Pride Restoration and Cleaning"
 h1: "Emergency Water Removal & Cleanup in Bluffdale"
-meta_description: "24/7 emergency water removal and cleanup in Bluffdale, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
-primary_keyword: "emergency water removal bluffdale"
-secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
+meta_description: "24/7 emergency water removal & cleanup in Bluffdale, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437."
+primary_keyword: "emergency water removal & cleanup bluffdale"
+secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "68905a8fb8564a92"
-generated_at: "2026-09-30T14:12:14.643122+00:00"
+plan_hash: "e6ec73fa02622a52"
+generated_at: "2026-09-30T19:28:45.304128+00:00"
 manual_override: false
 internal_links: ["/services/emergency-water-removal/", "/service-areas/bluffdale-ut/", "/service-areas/bluffdale-ut/fire-damage-restoration/", "/service-areas/bluffdale-ut/mold-remediation/", "/service-areas/alpine-ut/emergency-water-removal/", "/service-areas/american-fork-ut/emergency-water-removal/", "/contact/"]
-breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bluffdale", "url": "/service-areas/bluffdale-ut/"}, {"name": "Emergency Water Removal & Cleanup"}]
+breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bluffdale", "url": "/service-areas/bluffdale-ut/"}, {"name": "emergency-water-removal"}]
 faq: []
 area_slug: "bluffdale-ut"
 service_slug: "emergency-water-removal"
 city: "Bluffdale"
 state: "UT"
-service_display: "Emergency Water Removal & Cleanup"
+service_display: "emergency-water-removal"
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug homepriderestorationandcleaning` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->
 

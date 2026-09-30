@@ -8,7 +8,7 @@ secondary_keywords: ["professional carpet cleaning", "deep carpet cleaning", "ca
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "1e1c4244debcf3e5"
-generated_at: "2026-09-30T14:12:07.197117+00:00"
+generated_at: "2026-09-30T19:28:30.191350+00:00"
 manual_override: false
 internal_links: ["/services/carpet-cleaning/", "/service-areas/new-castle-pa/", "/service-areas/new-castle-pa/fire-damage-restoration/", "/service-areas/new-castle-pa/mold-remediation/", "/service-areas/austintown-oh/carpet-cleaning/", "/service-areas/boardman-oh/carpet-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "New Castle", "url": "/service-areas/new-castle-pa/"}, {"name": "Carpet Cleaning"}]

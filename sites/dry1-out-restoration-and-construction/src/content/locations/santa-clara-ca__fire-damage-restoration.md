@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "d68d5a84baff890d"
-generated_at: "2026-09-29T14:31:48.418613+00:00"
+generated_at: "2026-09-30T19:28:33.817502+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/santa-clara-ca/", "/service-areas/santa-clara-ca/mold-remediation/", "/service-areas/santa-clara-ca/water-damage-restoration/", "/service-areas/berkeley-ca/fire-damage-restoration/", "/service-areas/carlsbad-ca/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Santa Clara", "url": "/service-areas/santa-clara-ca/"}, {"name": "Fire Damage Restoration"}]

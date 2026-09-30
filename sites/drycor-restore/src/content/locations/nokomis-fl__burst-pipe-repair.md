@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "a30a3728ccd76aa0"
-generated_at: "2026-09-29T23:28:29.596872+00:00"
+generated_at: "2026-09-30T19:28:35.876977+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/nokomis-fl/", "/service-areas/nokomis-fl/fire-damage-restoration/", "/service-areas/nokomis-fl/mold-remediation/", "/service-areas/anna-maria-fl/burst-pipe-repair/", "/service-areas/apollo-beach-fl/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Nokomis", "url": "/service-areas/nokomis-fl/"}, {"name": "Burst Pipe Cleanup and Repair"}]

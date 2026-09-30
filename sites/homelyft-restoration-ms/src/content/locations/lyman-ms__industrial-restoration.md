@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "2024bd793f32381b"
-generated_at: "2026-09-30T14:12:12.889867+00:00"
+generated_at: "2026-09-30T19:28:43.422428+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/lyman-ms/", "/service-areas/lyman-ms/fire-damage-restoration/", "/service-areas/lyman-ms/mold-remediation/", "/service-areas/agricola-ms/industrial-restoration/", "/service-areas/bay-st-louis-ms/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lyman", "url": "/service-areas/lyman-ms/"}, {"name": "industrial-restoration"}]

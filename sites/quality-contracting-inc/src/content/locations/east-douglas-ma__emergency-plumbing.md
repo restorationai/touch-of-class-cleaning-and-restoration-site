@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "1e322769965c5ed2"
-generated_at: "2026-09-30T14:12:25.997296+00:00"
+generated_at: "2026-09-30T19:28:57.178109+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/east-douglas-ma/", "/service-areas/east-douglas-ma/fire-damage-restoration/", "/service-areas/east-douglas-ma/mold-remediation/", "/service-areas/bellingham-ma/emergency-plumbing/", "/service-areas/fiskdale-ma/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "East Douglas", "url": "/service-areas/east-douglas-ma/"}, {"name": "Emergency Plumbing"}]

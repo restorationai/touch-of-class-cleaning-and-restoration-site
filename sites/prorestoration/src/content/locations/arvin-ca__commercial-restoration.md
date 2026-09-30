@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "4979bd49998cb6f5"
-generated_at: "2026-09-30T14:12:22.995073+00:00"
+generated_at: "2026-09-30T19:28:54.569722+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/arvin-ca/", "/service-areas/arvin-ca/fire-damage-restoration/", "/service-areas/arvin-ca/home-remodeling/", "/service-areas/bear-valley-springs-ca/commercial-restoration/", "/service-areas/buttonwillow-ca/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Arvin", "url": "/service-areas/arvin-ca/"}, {"name": "commercial-restoration"}]

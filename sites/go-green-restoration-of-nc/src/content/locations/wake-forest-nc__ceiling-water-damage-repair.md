@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "b05bd1ec5b338c47"
-generated_at: "2026-09-29T23:13:49.285369+00:00"
+generated_at: "2026-09-30T19:28:39.620887+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/wake-forest-nc/", "/service-areas/wake-forest-nc/fire-damage-restoration/", "/service-areas/wake-forest-nc/mold-remediation/", "/service-areas/archer-lodge-nc/ceiling-water-damage-repair/", "/service-areas/clayton-nc/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wake Forest", "url": "/service-areas/wake-forest-nc/"}, {"name": "Ceiling Water Damage Repair"}]

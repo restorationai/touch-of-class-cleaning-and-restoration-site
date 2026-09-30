@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "bbda886a1ca5d004"
-generated_at: "2026-09-30T14:12:01.750078+00:00"
+generated_at: "2026-09-30T19:28:19.960804+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/tuscola-tx/", "/service-areas/tuscola-tx/fire-damage-restoration/", "/service-areas/tuscola-tx/mold-remediation/", "/service-areas/albany-tx/industrial-restoration/", "/service-areas/anson-tx/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tuscola", "url": "/service-areas/tuscola-tx/"}, {"name": "industrial-restoration"}]

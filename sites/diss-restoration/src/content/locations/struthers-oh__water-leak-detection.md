@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "3cf861bd7c5e5ef9"
-generated_at: "2026-09-30T14:12:07.117658+00:00"
+generated_at: "2026-09-30T19:28:30.082922+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/struthers-oh/", "/service-areas/struthers-oh/fire-damage-restoration/", "/service-areas/struthers-oh/mold-remediation/", "/service-areas/austintown-oh/water-leak-detection/", "/service-areas/boardman-oh/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Struthers", "url": "/service-areas/struthers-oh/"}, {"name": "water-leak-detection"}]

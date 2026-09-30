@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "56511d953d52b419"
-generated_at: "2026-09-30T14:12:13.013496+00:00"
+generated_at: "2026-09-30T19:28:43.568653+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/benndale-ms/", "/service-areas/benndale-ms/fire-damage-restoration/", "/service-areas/benndale-ms/mold-remediation/", "/service-areas/agricola-ms/water-heater-flood-cleanup/", "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Benndale", "url": "/service-areas/benndale-ms/"}, {"name": "water-heater-flood-cleanup"}]

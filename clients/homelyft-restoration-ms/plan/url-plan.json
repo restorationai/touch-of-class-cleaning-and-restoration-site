@@ -1,9 +1,9 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-30T14:12:10.881909+00:00",
+  "generated_at": "2026-09-30T19:28:42.302449+00:00",
   "input_summary": {
-    "service_count": 33,
+    "service_count": 29,
     "service_area_count": 48,
     "cross_product": true,
     "blog_seed_count": 8
@@ -56,7 +56,6 @@
         "/services/sewage-cleanup/",
         "/services/smoke-damage-restoration/",
         "/services/storm-damage-restoration/",
-        "/services/water-cleanup/",
         "/services/basement-flooding-cleanup/",
         "/services/biohazard-cleanup/",
         "/services/burst-pipe-repair/",
@@ -70,11 +69,8 @@
         "/services/water-heater-flood-cleanup/",
         "/services/water-leak-detection/",
         "/services/asbestos-abatement/",
-        "/services/carpet-upholstery-cleaning/",
-        "/services/contents-restoration-storage/",
         "/services/contents-restoration/",
         "/services/crawl-space-encapsulation/",
-        "/services/vandalism-cleanup/",
         "/services/carpet-cleaning/",
         "/services/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -168,7 +164,6 @@
         "/services/sewage-cleanup/",
         "/services/smoke-damage-restoration/",
         "/services/storm-damage-restoration/",
-        "/services/water-cleanup/",
         "/services/basement-flooding-cleanup/",
         "/services/biohazard-cleanup/",
         "/services/burst-pipe-repair/",
@@ -182,11 +177,8 @@
         "/services/water-heater-flood-cleanup/",
         "/services/water-leak-detection/",
         "/services/asbestos-abatement/",
-        "/services/carpet-upholstery-cleaning/",
-        "/services/contents-restoration-storage/",
         "/services/contents-restoration/",
         "/services/crawl-space-encapsulation/",
-        "/services/vandalism-cleanup/",
         "/services/carpet-cleaning/",
         "/services/post-construction-cleaning/"
       ]
@@ -1121,7 +1113,7 @@
         "/service-areas/ellisville-ms/water-damage-restoration/",
         "/service-areas/escatawpa-ms/water-damage-restoration/",
         "/service-areas/gautier-ms/water-damage-restoration/",
-        "/services/water-cleanup/",
+        "/services/emergency-water-removal/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
         "/blog/choosing-a-restoration-company/"
@@ -1175,6 +1167,58 @@
         "/service-areas/ellisville-ms/water-leak-detection/",
         "/service-areas/escatawpa-ms/water-leak-detection/",
         "/service-areas/gautier-ms/water-leak-detection/"
+      ]
+    },
+    {
+      "url_path": "/services/emergency-water-removal/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Gulfport | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Gulfport",
+      "meta_description": "24/7 emergency water removal & cleanup in Gulfport and surrounding areas. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup gulfport",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
+        "/service-areas/benndale-ms/emergency-water-removal/",
+        "/service-areas/big-point-ms/emergency-water-removal/",
+        "/service-areas/biloxi-ms/emergency-water-removal/",
+        "/service-areas/d-iberville-ms/emergency-water-removal/",
+        "/service-areas/delisle-ms/emergency-water-removal/",
+        "/service-areas/diamondhead-ms/emergency-water-removal/",
+        "/service-areas/eastabuchie-ms/emergency-water-removal/",
+        "/service-areas/ellisville-ms/emergency-water-removal/",
+        "/service-areas/escatawpa-ms/emergency-water-removal/",
+        "/service-areas/gautier-ms/emergency-water-removal/",
+        "/services/water-damage-restoration/"
       ]
     },
     {
@@ -1822,7 +1866,6 @@
         "/service-areas/eastabuchie-ms/sewage-cleanup/",
         "/service-areas/eastabuchie-ms/smoke-damage-restoration/",
         "/service-areas/eastabuchie-ms/storm-damage-restoration/",
-        "/service-areas/eastabuchie-ms/water-cleanup/",
         "/service-areas/eastabuchie-ms/basement-flooding-cleanup/",
         "/service-areas/eastabuchie-ms/biohazard-cleanup/",
         "/service-areas/eastabuchie-ms/burst-pipe-repair/",
@@ -1836,11 +1879,8 @@
         "/service-areas/eastabuchie-ms/water-heater-flood-cleanup/",
         "/service-areas/eastabuchie-ms/water-leak-detection/",
         "/service-areas/eastabuchie-ms/asbestos-abatement/",
-        "/service-areas/eastabuchie-ms/carpet-upholstery-cleaning/",
-        "/service-areas/eastabuchie-ms/contents-restoration-storage/",
         "/service-areas/eastabuchie-ms/contents-restoration/",
         "/service-areas/eastabuchie-ms/crawl-space-encapsulation/",
-        "/service-areas/eastabuchie-ms/vandalism-cleanup/",
         "/service-areas/eastabuchie-ms/carpet-cleaning/",
         "/service-areas/eastabuchie-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -1892,7 +1932,6 @@
         "/service-areas/hattiesburg-ms/sewage-cleanup/",
         "/service-areas/hattiesburg-ms/smoke-damage-restoration/",
         "/service-areas/hattiesburg-ms/storm-damage-restoration/",
-        "/service-areas/hattiesburg-ms/water-cleanup/",
         "/service-areas/hattiesburg-ms/basement-flooding-cleanup/",
         "/service-areas/hattiesburg-ms/biohazard-cleanup/",
         "/service-areas/hattiesburg-ms/burst-pipe-repair/",
@@ -1906,11 +1945,8 @@
         "/service-areas/hattiesburg-ms/water-heater-flood-cleanup/",
         "/service-areas/hattiesburg-ms/water-leak-detection/",
         "/service-areas/hattiesburg-ms/asbestos-abatement/",
-        "/service-areas/hattiesburg-ms/carpet-upholstery-cleaning/",
-        "/service-areas/hattiesburg-ms/contents-restoration-storage/",
         "/service-areas/hattiesburg-ms/contents-restoration/",
         "/service-areas/hattiesburg-ms/crawl-space-encapsulation/",
-        "/service-areas/hattiesburg-ms/vandalism-cleanup/",
         "/service-areas/hattiesburg-ms/carpet-cleaning/",
         "/service-areas/hattiesburg-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -1962,7 +1998,6 @@
         "/service-areas/petal-ms/sewage-cleanup/",
         "/service-areas/petal-ms/smoke-damage-restoration/",
         "/service-areas/petal-ms/storm-damage-restoration/",
-        "/service-areas/petal-ms/water-cleanup/",
         "/service-areas/petal-ms/basement-flooding-cleanup/",
         "/service-areas/petal-ms/biohazard-cleanup/",
         "/service-areas/petal-ms/burst-pipe-repair/",
@@ -1976,11 +2011,8 @@
         "/service-areas/petal-ms/water-heater-flood-cleanup/",
         "/service-areas/petal-ms/water-leak-detection/",
         "/service-areas/petal-ms/asbestos-abatement/",
-        "/service-areas/petal-ms/carpet-upholstery-cleaning/",
-        "/service-areas/petal-ms/contents-restoration-storage/",
         "/service-areas/petal-ms/contents-restoration/",
         "/service-areas/petal-ms/crawl-space-encapsulation/",
-        "/service-areas/petal-ms/vandalism-cleanup/",
         "/service-areas/petal-ms/carpet-cleaning/",
         "/service-areas/petal-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -2032,7 +2064,6 @@
         "/service-areas/rawls-springs-ms/sewage-cleanup/",
         "/service-areas/rawls-springs-ms/smoke-damage-restoration/",
         "/service-areas/rawls-springs-ms/storm-damage-restoration/",
-        "/service-areas/rawls-springs-ms/water-cleanup/",
         "/service-areas/rawls-springs-ms/basement-flooding-cleanup/",
         "/service-areas/rawls-springs-ms/biohazard-cleanup/",
         "/service-areas/rawls-springs-ms/burst-pipe-repair/",
@@ -2046,11 +2077,8 @@
         "/service-areas/rawls-springs-ms/water-heater-flood-cleanup/",
         "/service-areas/rawls-springs-ms/water-leak-detection/",
         "/service-areas/rawls-springs-ms/asbestos-abatement/",
-        "/service-areas/rawls-springs-ms/carpet-upholstery-cleaning/",
-        "/service-areas/rawls-springs-ms/contents-restoration-storage/",
         "/service-areas/rawls-springs-ms/contents-restoration/",
         "/service-areas/rawls-springs-ms/crawl-space-encapsulation/",
-        "/service-areas/rawls-springs-ms/vandalism-cleanup/",
         "/service-areas/rawls-springs-ms/carpet-cleaning/",
         "/service-areas/rawls-springs-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -2102,7 +2130,6 @@
         "/service-areas/leakesville-ms/sewage-cleanup/",
         "/service-areas/leakesville-ms/smoke-damage-restoration/",
         "/service-areas/leakesville-ms/storm-damage-restoration/",
-        "/service-areas/leakesville-ms/water-cleanup/",
         "/service-areas/leakesville-ms/basement-flooding-cleanup/",
         "/service-areas/leakesville-ms/biohazard-cleanup/",
         "/service-areas/leakesville-ms/burst-pipe-repair/",
@@ -2116,11 +2143,8 @@
         "/service-areas/leakesville-ms/water-heater-flood-cleanup/",
         "/service-areas/leakesville-ms/water-leak-detection/",
         "/service-areas/leakesville-ms/asbestos-abatement/",
-        "/service-areas/leakesville-ms/carpet-upholstery-cleaning/",
-        "/service-areas/leakesville-ms/contents-restoration-storage/",
         "/service-areas/leakesville-ms/contents-restoration/",
         "/service-areas/leakesville-ms/crawl-space-encapsulation/",
-        "/service-areas/leakesville-ms/vandalism-cleanup/",
         "/service-areas/leakesville-ms/carpet-cleaning/",
         "/service-areas/leakesville-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -2172,7 +2196,6 @@
         "/service-areas/mclain-ms/sewage-cleanup/",
         "/service-areas/mclain-ms/smoke-damage-restoration/",
         "/service-areas/mclain-ms/storm-damage-restoration/",
-        "/service-areas/mclain-ms/water-cleanup/",
         "/service-areas/mclain-ms/basement-flooding-cleanup/",
         "/service-areas/mclain-ms/biohazard-cleanup/",
         "/service-areas/mclain-ms/burst-pipe-repair/",
@@ -2186,11 +2209,8 @@
         "/service-areas/mclain-ms/water-heater-flood-cleanup/",
         "/service-areas/mclain-ms/water-leak-detection/",
         "/service-areas/mclain-ms/asbestos-abatement/",
-        "/service-areas/mclain-ms/carpet-upholstery-cleaning/",
-        "/service-areas/mclain-ms/contents-restoration-storage/",
         "/service-areas/mclain-ms/contents-restoration/",
         "/service-areas/mclain-ms/crawl-space-encapsulation/",
-        "/service-areas/mclain-ms/vandalism-cleanup/",
         "/service-areas/mclain-ms/carpet-cleaning/",
         "/service-areas/mclain-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -2242,7 +2262,6 @@
         "/service-areas/state-line-ms/sewage-cleanup/",
         "/service-areas/state-line-ms/smoke-damage-restoration/",
         "/service-areas/state-line-ms/storm-damage-restoration/",
-        "/service-areas/state-line-ms/water-cleanup/",
         "/service-areas/state-line-ms/basement-flooding-cleanup/",
         "/service-areas/state-line-ms/biohazard-cleanup/",
         "/service-areas/state-line-ms/burst-pipe-repair/",
@@ -2256,11 +2275,8 @@
         "/service-areas/state-line-ms/water-heater-flood-cleanup/",
         "/service-areas/state-line-ms/water-leak-detection/",
         "/service-areas/state-line-ms/asbestos-abatement/",
-        "/service-areas/state-line-ms/carpet-upholstery-cleaning/",
-        "/service-areas/state-line-ms/contents-restoration-storage/",
         "/service-areas/state-line-ms/contents-restoration/",
         "/service-areas/state-line-ms/crawl-space-encapsulation/",
-        "/service-areas/state-line-ms/vandalism-cleanup/",
         "/service-areas/state-line-ms/carpet-cleaning/",
         "/service-areas/state-line-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -2312,7 +2328,6 @@
         "/service-areas/biloxi-ms/sewage-cleanup/",
         "/service-areas/biloxi-ms/smoke-damage-restoration/",
         "/service-areas/biloxi-ms/storm-damage-restoration/",
-        "/service-areas/biloxi-ms/water-cleanup/",
         "/service-areas/biloxi-ms/basement-flooding-cleanup/",
         "/service-areas/biloxi-ms/biohazard-cleanup/",
         "/service-areas/biloxi-ms/burst-pipe-repair/",
@@ -2326,11 +2341,8 @@
         "/service-areas/biloxi-ms/water-heater-flood-cleanup/",
         "/service-areas/biloxi-ms/water-leak-detection/",
         "/service-areas/biloxi-ms/asbestos-abatement/",
-        "/service-areas/biloxi-ms/carpet-upholstery-cleaning/",
-        "/service-areas/biloxi-ms/contents-restoration-storage/",
         "/service-areas/biloxi-ms/contents-restoration/",
         "/service-areas/biloxi-ms/crawl-space-encapsulation/",
-        "/service-areas/biloxi-ms/vandalism-cleanup/",
         "/service-areas/biloxi-ms/carpet-cleaning/",
         "/service-areas/biloxi-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -2382,7 +2394,6 @@
         "/service-areas/d-iberville-ms/sewage-cleanup/",
         "/service-areas/d-iberville-ms/smoke-damage-restoration/",
         "/service-areas/d-iberville-ms/storm-damage-restoration/",
-        "/service-areas/d-iberville-ms/water-cleanup/",
         "/service-areas/d-iberville-ms/basement-flooding-cleanup/",
         "/service-areas/d-iberville-ms/biohazard-cleanup/",
         "/service-areas/d-iberville-ms/burst-pipe-repair/",
@@ -2396,11 +2407,8 @@
         "/service-areas/d-iberville-ms/water-heater-flood-cleanup/",
         "/service-areas/d-iberville-ms/water-leak-detection/",
         "/service-areas/d-iberville-ms/asbestos-abatement/",
-        "/service-areas/d-iberville-ms/carpet-upholstery-cleaning/",
-        "/service-areas/d-iberville-ms/contents-restoration-storage/",
         "/service-areas/d-iberville-ms/contents-restoration/",
         "/service-areas/d-iberville-ms/crawl-space-encapsulation/",
-        "/service-areas/d-iberville-ms/vandalism-cleanup/",
         "/service-areas/d-iberville-ms/carpet-cleaning/",
         "/service-areas/d-iberville-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -2452,7 +2460,6 @@
         "/service-areas/delisle-ms/sewage-cleanup/",
         "/service-areas/delisle-ms/smoke-damage-restoration/",
         "/service-areas/delisle-ms/storm-damage-restoration/",
-        "/service-areas/delisle-ms/water-cleanup/",
         "/service-areas/delisle-ms/basement-flooding-cleanup/",
         "/service-areas/delisle-ms/biohazard-cleanup/",
         "/service-areas/delisle-ms/burst-pipe-repair/",
@@ -2466,11 +2473,8 @@
         "/service-areas/delisle-ms/water-heater-flood-cleanup/",
         "/service-areas/delisle-ms/water-leak-detection/",
         "/service-areas/delisle-ms/asbestos-abatement/",
-        "/service-areas/delisle-ms/carpet-upholstery-cleaning/",
-        "/service-areas/delisle-ms/contents-restoration-storage/",
         "/service-areas/delisle-ms/contents-restoration/",
         "/service-areas/delisle-ms/crawl-space-encapsulation/",
-        "/service-areas/delisle-ms/vandalism-cleanup/",
         "/service-areas/delisle-ms/carpet-cleaning/",
         "/service-areas/delisle-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -2522,7 +2526,6 @@
         "/service-areas/diamondhead-ms/sewage-cleanup/",
         "/service-areas/diamondhead-ms/smoke-damage-restoration/",
         "/service-areas/diamondhead-ms/storm-damage-restoration/",
-        "/service-areas/diamondhead-ms/water-cleanup/",
         "/service-areas/diamondhead-ms/basement-flooding-cleanup/",
         "/service-areas/diamondhead-ms/biohazard-cleanup/",
         "/service-areas/diamondhead-ms/burst-pipe-repair/",
@@ -2536,11 +2539,8 @@
         "/service-areas/diamondhead-ms/water-heater-flood-cleanup/",
         "/service-areas/diamondhead-ms/water-leak-detection/",
         "/service-areas/diamondhead-ms/asbestos-abatement/",
-        "/service-areas/diamondhead-ms/carpet-upholstery-cleaning/",
-        "/service-areas/diamondhead-ms/contents-restoration-storage/",
         "/service-areas/diamondhead-ms/contents-restoration/",
         "/service-areas/diamondhead-ms/crawl-space-encapsulation/",
-        "/service-areas/diamondhead-ms/vandalism-cleanup/",
         "/service-areas/diamondhead-ms/carpet-cleaning/",
         "/service-areas/diamondhead-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -2592,7 +2592,6 @@
         "/service-areas/henderson-point-ms/sewage-cleanup/",
         "/service-areas/henderson-point-ms/smoke-damage-restoration/",
         "/service-areas/henderson-point-ms/storm-damage-restoration/",
-        "/service-areas/henderson-point-ms/water-cleanup/",
         "/service-areas/henderson-point-ms/basement-flooding-cleanup/",
         "/service-areas/henderson-point-ms/biohazard-cleanup/",
         "/service-areas/henderson-point-ms/burst-pipe-repair/",
@@ -2606,11 +2605,8 @@
         "/service-areas/henderson-point-ms/water-heater-flood-cleanup/",
         "/service-areas/henderson-point-ms/water-leak-detection/",
         "/service-areas/henderson-point-ms/asbestos-abatement/",
-        "/service-areas/henderson-point-ms/carpet-upholstery-cleaning/",
-        "/service-areas/henderson-point-ms/contents-restoration-storage/",
         "/service-areas/henderson-point-ms/contents-restoration/",
         "/service-areas/henderson-point-ms/crawl-space-encapsulation/",
-        "/service-areas/henderson-point-ms/vandalism-cleanup/",
         "/service-areas/henderson-point-ms/carpet-cleaning/",
         "/service-areas/henderson-point-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -2662,7 +2658,6 @@
         "/service-areas/latimer-ms/sewage-cleanup/",
         "/service-areas/latimer-ms/smoke-damage-restoration/",
         "/service-areas/latimer-ms/storm-damage-restoration/",
-        "/service-areas/latimer-ms/water-cleanup/",
         "/service-areas/latimer-ms/basement-flooding-cleanup/",
         "/service-areas/latimer-ms/biohazard-cleanup/",
         "/service-areas/latimer-ms/burst-pipe-repair/",
@@ -2676,11 +2671,8 @@
         "/service-areas/latimer-ms/water-heater-flood-cleanup/",
         "/service-areas/latimer-ms/water-leak-detection/",
         "/service-areas/latimer-ms/asbestos-abatement/",
-        "/service-areas/latimer-ms/carpet-upholstery-cleaning/",
-        "/service-areas/latimer-ms/contents-restoration-storage/",
         "/service-areas/latimer-ms/contents-restoration/",
         "/service-areas/latimer-ms/crawl-space-encapsulation/",
-        "/service-areas/latimer-ms/vandalism-cleanup/",
         "/service-areas/latimer-ms/carpet-cleaning/",
         "/service-areas/latimer-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -2732,7 +2724,6 @@
         "/service-areas/long-beach-ms/sewage-cleanup/",
         "/service-areas/long-beach-ms/smoke-damage-restoration/",
         "/service-areas/long-beach-ms/storm-damage-restoration/",
-        "/service-areas/long-beach-ms/water-cleanup/",
         "/service-areas/long-beach-ms/basement-flooding-cleanup/",
         "/service-areas/long-beach-ms/biohazard-cleanup/",
         "/service-areas/long-beach-ms/burst-pipe-repair/",
@@ -2746,11 +2737,8 @@
         "/service-areas/long-beach-ms/water-heater-flood-cleanup/",
         "/service-areas/long-beach-ms/water-leak-detection/",
         "/service-areas/long-beach-ms/asbestos-abatement/",
-        "/service-areas/long-beach-ms/carpet-upholstery-cleaning/",
-        "/service-areas/long-beach-ms/contents-restoration-storage/",
         "/service-areas/long-beach-ms/contents-restoration/",
         "/service-areas/long-beach-ms/crawl-space-encapsulation/",
-        "/service-areas/long-beach-ms/vandalism-cleanup/",
         "/service-areas/long-beach-ms/carpet-cleaning/",
         "/service-areas/long-beach-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -2802,7 +2790,6 @@
         "/service-areas/lyman-ms/sewage-cleanup/",
         "/service-areas/lyman-ms/smoke-damage-restoration/",
         "/service-areas/lyman-ms/storm-damage-restoration/",
-        "/service-areas/lyman-ms/water-cleanup/",
         "/service-areas/lyman-ms/basement-flooding-cleanup/",
         "/service-areas/lyman-ms/biohazard-cleanup/",
         "/service-areas/lyman-ms/burst-pipe-repair/",
@@ -2816,11 +2803,8 @@
         "/service-areas/lyman-ms/water-heater-flood-cleanup/",
         "/service-areas/lyman-ms/water-leak-detection/",
         "/service-areas/lyman-ms/asbestos-abatement/",
-        "/service-areas/lyman-ms/carpet-upholstery-cleaning/",
-        "/service-areas/lyman-ms/contents-restoration-storage/",
         "/service-areas/lyman-ms/contents-restoration/",
         "/service-areas/lyman-ms/crawl-space-encapsulation/",
-        "/service-areas/lyman-ms/vandalism-cleanup/",
         "/service-areas/lyman-ms/carpet-cleaning/",
         "/service-areas/lyman-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -2872,7 +2856,6 @@
         "/service-areas/pass-christian-ms/sewage-cleanup/",
         "/service-areas/pass-christian-ms/smoke-damage-restoration/",
         "/service-areas/pass-christian-ms/storm-damage-restoration/",
-        "/service-areas/pass-christian-ms/water-cleanup/",
         "/service-areas/pass-christian-ms/basement-flooding-cleanup/",
         "/service-areas/pass-christian-ms/biohazard-cleanup/",
         "/service-areas/pass-christian-ms/burst-pipe-repair/",
@@ -2886,11 +2869,8 @@
         "/service-areas/pass-christian-ms/water-heater-flood-cleanup/",
         "/service-areas/pass-christian-ms/water-leak-detection/",
         "/service-areas/pass-christian-ms/asbestos-abatement/",
-        "/service-areas/pass-christian-ms/carpet-upholstery-cleaning/",
-        "/service-areas/pass-christian-ms/contents-restoration-storage/",
         "/service-areas/pass-christian-ms/contents-restoration/",
         "/service-areas/pass-christian-ms/crawl-space-encapsulation/",
-        "/service-areas/pass-christian-ms/vandalism-cleanup/",
         "/service-areas/pass-christian-ms/carpet-cleaning/",
         "/service-areas/pass-christian-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -2942,7 +2922,6 @@
         "/service-areas/saucier-ms/sewage-cleanup/",
         "/service-areas/saucier-ms/smoke-damage-restoration/",
         "/service-areas/saucier-ms/storm-damage-restoration/",
-        "/service-areas/saucier-ms/water-cleanup/",
         "/service-areas/saucier-ms/basement-flooding-cleanup/",
         "/service-areas/saucier-ms/biohazard-cleanup/",
         "/service-areas/saucier-ms/burst-pipe-repair/",
@@ -2956,11 +2935,8 @@
         "/service-areas/saucier-ms/water-heater-flood-cleanup/",
         "/service-areas/saucier-ms/water-leak-detection/",
         "/service-areas/saucier-ms/asbestos-abatement/",
-        "/service-areas/saucier-ms/carpet-upholstery-cleaning/",
-        "/service-areas/saucier-ms/contents-restoration-storage/",
         "/service-areas/saucier-ms/contents-restoration/",
         "/service-areas/saucier-ms/crawl-space-encapsulation/",
-        "/service-areas/saucier-ms/vandalism-cleanup/",
         "/service-areas/saucier-ms/carpet-cleaning/",
         "/service-areas/saucier-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -3012,7 +2988,6 @@
         "/service-areas/st-martin-ms/sewage-cleanup/",
         "/service-areas/st-martin-ms/smoke-damage-restoration/",
         "/service-areas/st-martin-ms/storm-damage-restoration/",
-        "/service-areas/st-martin-ms/water-cleanup/",
         "/service-areas/st-martin-ms/basement-flooding-cleanup/",
         "/service-areas/st-martin-ms/biohazard-cleanup/",
         "/service-areas/st-martin-ms/burst-pipe-repair/",
@@ -3026,11 +3001,8 @@
         "/service-areas/st-martin-ms/water-heater-flood-cleanup/",
         "/service-areas/st-martin-ms/water-leak-detection/",
         "/service-areas/st-martin-ms/asbestos-abatement/",
-        "/service-areas/st-martin-ms/carpet-upholstery-cleaning/",
-        "/service-areas/st-martin-ms/contents-restoration-storage/",
         "/service-areas/st-martin-ms/contents-restoration/",
         "/service-areas/st-martin-ms/crawl-space-encapsulation/",
-        "/service-areas/st-martin-ms/vandalism-cleanup/",
         "/service-areas/st-martin-ms/carpet-cleaning/",
         "/service-areas/st-martin-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -3082,7 +3054,6 @@
         "/service-areas/bay-st-louis-ms/sewage-cleanup/",
         "/service-areas/bay-st-louis-ms/smoke-damage-restoration/",
         "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-        "/service-areas/bay-st-louis-ms/water-cleanup/",
         "/service-areas/bay-st-louis-ms/basement-flooding-cleanup/",
         "/service-areas/bay-st-louis-ms/biohazard-cleanup/",
         "/service-areas/bay-st-louis-ms/burst-pipe-repair/",
@@ -3096,11 +3067,8 @@
         "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/asbestos-abatement/",
-        "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-        "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
         "/service-areas/bay-st-louis-ms/contents-restoration/",
         "/service-areas/bay-st-louis-ms/crawl-space-encapsulation/",
-        "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
         "/service-areas/bay-st-louis-ms/carpet-cleaning/",
         "/service-areas/bay-st-louis-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -3152,7 +3120,6 @@
         "/service-areas/kiln-ms/sewage-cleanup/",
         "/service-areas/kiln-ms/smoke-damage-restoration/",
         "/service-areas/kiln-ms/storm-damage-restoration/",
-        "/service-areas/kiln-ms/water-cleanup/",
         "/service-areas/kiln-ms/basement-flooding-cleanup/",
         "/service-areas/kiln-ms/biohazard-cleanup/",
         "/service-areas/kiln-ms/burst-pipe-repair/",
@@ -3166,11 +3133,8 @@
         "/service-areas/kiln-ms/water-heater-flood-cleanup/",
         "/service-areas/kiln-ms/water-leak-detection/",
         "/service-areas/kiln-ms/asbestos-abatement/",
-        "/service-areas/kiln-ms/carpet-upholstery-cleaning/",
-        "/service-areas/kiln-ms/contents-restoration-storage/",
         "/service-areas/kiln-ms/contents-restoration/",
         "/service-areas/kiln-ms/crawl-space-encapsulation/",
-        "/service-areas/kiln-ms/vandalism-cleanup/",
         "/service-areas/kiln-ms/carpet-cleaning/",
         "/service-areas/kiln-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -3222,7 +3186,6 @@
         "/service-areas/pearlington-ms/sewage-cleanup/",
         "/service-areas/pearlington-ms/smoke-damage-restoration/",
         "/service-areas/pearlington-ms/storm-damage-restoration/",
-        "/service-areas/pearlington-ms/water-cleanup/",
         "/service-areas/pearlington-ms/basement-flooding-cleanup/",
         "/service-areas/pearlington-ms/biohazard-cleanup/",
         "/service-areas/pearlington-ms/burst-pipe-repair/",
@@ -3236,11 +3199,8 @@
         "/service-areas/pearlington-ms/water-heater-flood-cleanup/",
         "/service-areas/pearlington-ms/water-leak-detection/",
         "/service-areas/pearlington-ms/asbestos-abatement/",
-        "/service-areas/pearlington-ms/carpet-upholstery-cleaning/",
-        "/service-areas/pearlington-ms/contents-restoration-storage/",
         "/service-areas/pearlington-ms/contents-restoration/",
         "/service-areas/pearlington-ms/crawl-space-encapsulation/",
-        "/service-areas/pearlington-ms/vandalism-cleanup/",
         "/service-areas/pearlington-ms/carpet-cleaning/",
         "/service-areas/pearlington-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -3292,7 +3252,6 @@
         "/service-areas/picayune-ms/sewage-cleanup/",
         "/service-areas/picayune-ms/smoke-damage-restoration/",
         "/service-areas/picayune-ms/storm-damage-restoration/",
-        "/service-areas/picayune-ms/water-cleanup/",
         "/service-areas/picayune-ms/basement-flooding-cleanup/",
         "/service-areas/picayune-ms/biohazard-cleanup/",
         "/service-areas/picayune-ms/burst-pipe-repair/",
@@ -3306,11 +3265,8 @@
         "/service-areas/picayune-ms/water-heater-flood-cleanup/",
         "/service-areas/picayune-ms/water-leak-detection/",
         "/service-areas/picayune-ms/asbestos-abatement/",
-        "/service-areas/picayune-ms/carpet-upholstery-cleaning/",
-        "/service-areas/picayune-ms/contents-restoration-storage/",
         "/service-areas/picayune-ms/contents-restoration/",
         "/service-areas/picayune-ms/crawl-space-encapsulation/",
-        "/service-areas/picayune-ms/vandalism-cleanup/",
         "/service-areas/picayune-ms/carpet-cleaning/",
         "/service-areas/picayune-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -3362,7 +3318,6 @@
         "/service-areas/waveland-ms/sewage-cleanup/",
         "/service-areas/waveland-ms/smoke-damage-restoration/",
         "/service-areas/waveland-ms/storm-damage-restoration/",
-        "/service-areas/waveland-ms/water-cleanup/",
         "/service-areas/waveland-ms/basement-flooding-cleanup/",
         "/service-areas/waveland-ms/biohazard-cleanup/",
         "/service-areas/waveland-ms/burst-pipe-repair/",
@@ -3376,11 +3331,8 @@
         "/service-areas/waveland-ms/water-heater-flood-cleanup/",
         "/service-areas/waveland-ms/water-leak-detection/",
         "/service-areas/waveland-ms/asbestos-abatement/",
-        "/service-areas/waveland-ms/carpet-upholstery-cleaning/",
-        "/service-areas/waveland-ms/contents-restoration-storage/",
         "/service-areas/waveland-ms/contents-restoration/",
         "/service-areas/waveland-ms/crawl-space-encapsulation/",
-        "/service-areas/waveland-ms/vandalism-cleanup/",
         "/service-areas/waveland-ms/carpet-cleaning/",
         "/service-areas/waveland-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -3432,7 +3384,6 @@
         "/service-areas/wiggins-ms/sewage-cleanup/",
         "/service-areas/wiggins-ms/smoke-damage-restoration/",
         "/service-areas/wiggins-ms/storm-damage-restoration/",
-        "/service-areas/wiggins-ms/water-cleanup/",
         "/service-areas/wiggins-ms/basement-flooding-cleanup/",
         "/service-areas/wiggins-ms/biohazard-cleanup/",
         "/service-areas/wiggins-ms/burst-pipe-repair/",
@@ -3446,11 +3397,8 @@
         "/service-areas/wiggins-ms/water-heater-flood-cleanup/",
         "/service-areas/wiggins-ms/water-leak-detection/",
         "/service-areas/wiggins-ms/asbestos-abatement/",
-        "/service-areas/wiggins-ms/carpet-upholstery-cleaning/",
-        "/service-areas/wiggins-ms/contents-restoration-storage/",
         "/service-areas/wiggins-ms/contents-restoration/",
         "/service-areas/wiggins-ms/crawl-space-encapsulation/",
-        "/service-areas/wiggins-ms/vandalism-cleanup/",
         "/service-areas/wiggins-ms/carpet-cleaning/",
         "/service-areas/wiggins-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -3502,7 +3450,6 @@
         "/service-areas/hide-a-way-lake-ms/sewage-cleanup/",
         "/service-areas/hide-a-way-lake-ms/smoke-damage-restoration/",
         "/service-areas/hide-a-way-lake-ms/storm-damage-restoration/",
-        "/service-areas/hide-a-way-lake-ms/water-cleanup/",
         "/service-areas/hide-a-way-lake-ms/basement-flooding-cleanup/",
         "/service-areas/hide-a-way-lake-ms/biohazard-cleanup/",
         "/service-areas/hide-a-way-lake-ms/burst-pipe-repair/",
@@ -3516,11 +3463,8 @@
         "/service-areas/hide-a-way-lake-ms/water-heater-flood-cleanup/",
         "/service-areas/hide-a-way-lake-ms/water-leak-detection/",
         "/service-areas/hide-a-way-lake-ms/asbestos-abatement/",
-        "/service-areas/hide-a-way-lake-ms/carpet-upholstery-cleaning/",
-        "/service-areas/hide-a-way-lake-ms/contents-restoration-storage/",
         "/service-areas/hide-a-way-lake-ms/contents-restoration/",
         "/service-areas/hide-a-way-lake-ms/crawl-space-encapsulation/",
-        "/service-areas/hide-a-way-lake-ms/vandalism-cleanup/",
         "/service-areas/hide-a-way-lake-ms/carpet-cleaning/",
         "/service-areas/hide-a-way-lake-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -3572,7 +3516,6 @@
         "/service-areas/lumberton-ms/sewage-cleanup/",
         "/service-areas/lumberton-ms/smoke-damage-restoration/",
         "/service-areas/lumberton-ms/storm-damage-restoration/",
-        "/service-areas/lumberton-ms/water-cleanup/",
         "/service-areas/lumberton-ms/basement-flooding-cleanup/",
         "/service-areas/lumberton-ms/biohazard-cleanup/",
         "/service-areas/lumberton-ms/burst-pipe-repair/",
@@ -3586,11 +3529,8 @@
         "/service-areas/lumberton-ms/water-heater-flood-cleanup/",
         "/service-areas/lumberton-ms/water-leak-detection/",
         "/service-areas/lumberton-ms/asbestos-abatement/",
-        "/service-areas/lumberton-ms/carpet-upholstery-cleaning/",
-        "/service-areas/lumberton-ms/contents-restoration-storage/",
         "/service-areas/lumberton-ms/contents-restoration/",
         "/service-areas/lumberton-ms/crawl-space-encapsulation/",
-        "/service-areas/lumberton-ms/vandalism-cleanup/",
         "/service-areas/lumberton-ms/carpet-cleaning/",
         "/service-areas/lumberton-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -3642,7 +3582,6 @@
         "/service-areas/poplarville-ms/sewage-cleanup/",
         "/service-areas/poplarville-ms/smoke-damage-restoration/",
         "/service-areas/poplarville-ms/storm-damage-restoration/",
-        "/service-areas/poplarville-ms/water-cleanup/",
         "/service-areas/poplarville-ms/basement-flooding-cleanup/",
         "/service-areas/poplarville-ms/biohazard-cleanup/",
         "/service-areas/poplarville-ms/burst-pipe-repair/",
@@ -3656,11 +3595,8 @@
         "/service-areas/poplarville-ms/water-heater-flood-cleanup/",
         "/service-areas/poplarville-ms/water-leak-detection/",
         "/service-areas/poplarville-ms/asbestos-abatement/",
-        "/service-areas/poplarville-ms/carpet-upholstery-cleaning/",
-        "/service-areas/poplarville-ms/contents-restoration-storage/",
         "/service-areas/poplarville-ms/contents-restoration/",
         "/service-areas/poplarville-ms/crawl-space-encapsulation/",
-        "/service-areas/poplarville-ms/vandalism-cleanup/",
         "/service-areas/poplarville-ms/carpet-cleaning/",
         "/service-areas/poplarville-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -3712,7 +3648,6 @@
         "/service-areas/big-point-ms/sewage-cleanup/",
         "/service-areas/big-point-ms/smoke-damage-restoration/",
         "/service-areas/big-point-ms/storm-damage-restoration/",
-        "/service-areas/big-point-ms/water-cleanup/",
         "/service-areas/big-point-ms/basement-flooding-cleanup/",
         "/service-areas/big-point-ms/biohazard-cleanup/",
         "/service-areas/big-point-ms/burst-pipe-repair/",
@@ -3726,11 +3661,8 @@
         "/service-areas/big-point-ms/water-heater-flood-cleanup/",
         "/service-areas/big-point-ms/water-leak-detection/",
         "/service-areas/big-point-ms/asbestos-abatement/",
-        "/service-areas/big-point-ms/carpet-upholstery-cleaning/",
-        "/service-areas/big-point-ms/contents-restoration-storage/",
         "/service-areas/big-point-ms/contents-restoration/",
         "/service-areas/big-point-ms/crawl-space-encapsulation/",
-        "/service-areas/big-point-ms/vandalism-cleanup/",
         "/service-areas/big-point-ms/carpet-cleaning/",
         "/service-areas/big-point-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -3782,7 +3714,6 @@
         "/service-areas/escatawpa-ms/sewage-cleanup/",
         "/service-areas/escatawpa-ms/smoke-damage-restoration/",
         "/service-areas/escatawpa-ms/storm-damage-restoration/",
-        "/service-areas/escatawpa-ms/water-cleanup/",
         "/service-areas/escatawpa-ms/basement-flooding-cleanup/",
         "/service-areas/escatawpa-ms/biohazard-cleanup/",
         "/service-areas/escatawpa-ms/burst-pipe-repair/",
@@ -3796,11 +3727,8 @@
         "/service-areas/escatawpa-ms/water-heater-flood-cleanup/",
         "/service-areas/escatawpa-ms/water-leak-detection/",
         "/service-areas/escatawpa-ms/asbestos-abatement/",
-        "/service-areas/escatawpa-ms/carpet-upholstery-cleaning/",
-        "/service-areas/escatawpa-ms/contents-restoration-storage/",
         "/service-areas/escatawpa-ms/contents-restoration/",
         "/service-areas/escatawpa-ms/crawl-space-encapsulation/",
-        "/service-areas/escatawpa-ms/vandalism-cleanup/",
         "/service-areas/escatawpa-ms/carpet-cleaning/",
         "/service-areas/escatawpa-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -3852,7 +3780,6 @@
         "/service-areas/gautier-ms/sewage-cleanup/",
         "/service-areas/gautier-ms/smoke-damage-restoration/",
         "/service-areas/gautier-ms/storm-damage-restoration/",
-        "/service-areas/gautier-ms/water-cleanup/",
         "/service-areas/gautier-ms/basement-flooding-cleanup/",
         "/service-areas/gautier-ms/biohazard-cleanup/",
         "/service-areas/gautier-ms/burst-pipe-repair/",
@@ -3866,11 +3793,8 @@
         "/service-areas/gautier-ms/water-heater-flood-cleanup/",
         "/service-areas/gautier-ms/water-leak-detection/",
         "/service-areas/gautier-ms/asbestos-abatement/",
-        "/service-areas/gautier-ms/carpet-upholstery-cleaning/",
-        "/service-areas/gautier-ms/contents-restoration-storage/",
         "/service-areas/gautier-ms/contents-restoration/",
         "/service-areas/gautier-ms/crawl-space-encapsulation/",
-        "/service-areas/gautier-ms/vandalism-cleanup/",
         "/service-areas/gautier-ms/carpet-cleaning/",
         "/service-areas/gautier-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -3922,7 +3846,6 @@
         "/service-areas/gulf-hills-ms/sewage-cleanup/",
         "/service-areas/gulf-hills-ms/smoke-damage-restoration/",
         "/service-areas/gulf-hills-ms/storm-damage-restoration/",
-        "/service-areas/gulf-hills-ms/water-cleanup/",
         "/service-areas/gulf-hills-ms/basement-flooding-cleanup/",
         "/service-areas/gulf-hills-ms/biohazard-cleanup/",
         "/service-areas/gulf-hills-ms/burst-pipe-repair/",
@@ -3936,11 +3859,8 @@
         "/service-areas/gulf-hills-ms/water-heater-flood-cleanup/",
         "/service-areas/gulf-hills-ms/water-leak-detection/",
         "/service-areas/gulf-hills-ms/asbestos-abatement/",
-        "/service-areas/gulf-hills-ms/carpet-upholstery-cleaning/",
-        "/service-areas/gulf-hills-ms/contents-restoration-storage/",
         "/service-areas/gulf-hills-ms/contents-restoration/",
         "/service-areas/gulf-hills-ms/crawl-space-encapsulation/",
-        "/service-areas/gulf-hills-ms/vandalism-cleanup/",
         "/service-areas/gulf-hills-ms/carpet-cleaning/",
         "/service-areas/gulf-hills-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -3992,7 +3912,6 @@
         "/service-areas/gulf-park-estates-ms/sewage-cleanup/",
         "/service-areas/gulf-park-estates-ms/smoke-damage-restoration/",
         "/service-areas/gulf-park-estates-ms/storm-damage-restoration/",
-        "/service-areas/gulf-park-estates-ms/water-cleanup/",
         "/service-areas/gulf-park-estates-ms/basement-flooding-cleanup/",
         "/service-areas/gulf-park-estates-ms/biohazard-cleanup/",
         "/service-areas/gulf-park-estates-ms/burst-pipe-repair/",
@@ -4006,11 +3925,8 @@
         "/service-areas/gulf-park-estates-ms/water-heater-flood-cleanup/",
         "/service-areas/gulf-park-estates-ms/water-leak-detection/",
         "/service-areas/gulf-park-estates-ms/asbestos-abatement/",
-        "/service-areas/gulf-park-estates-ms/carpet-upholstery-cleaning/",
-        "/service-areas/gulf-park-estates-ms/contents-restoration-storage/",
         "/service-areas/gulf-park-estates-ms/contents-restoration/",
         "/service-areas/gulf-park-estates-ms/crawl-space-encapsulation/",
-        "/service-areas/gulf-park-estates-ms/vandalism-cleanup/",
         "/service-areas/gulf-park-estates-ms/carpet-cleaning/",
         "/service-areas/gulf-park-estates-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -4062,7 +3978,6 @@
         "/service-areas/helena-ms/sewage-cleanup/",
         "/service-areas/helena-ms/smoke-damage-restoration/",
         "/service-areas/helena-ms/storm-damage-restoration/",
-        "/service-areas/helena-ms/water-cleanup/",
         "/service-areas/helena-ms/basement-flooding-cleanup/",
         "/service-areas/helena-ms/biohazard-cleanup/",
         "/service-areas/helena-ms/burst-pipe-repair/",
@@ -4076,11 +3991,8 @@
         "/service-areas/helena-ms/water-heater-flood-cleanup/",
         "/service-areas/helena-ms/water-leak-detection/",
         "/service-areas/helena-ms/asbestos-abatement/",
-        "/service-areas/helena-ms/carpet-upholstery-cleaning/",
-        "/service-areas/helena-ms/contents-restoration-storage/",
         "/service-areas/helena-ms/contents-restoration/",
         "/service-areas/helena-ms/crawl-space-encapsulation/",
-        "/service-areas/helena-ms/vandalism-cleanup/",
         "/service-areas/helena-ms/carpet-cleaning/",
         "/service-areas/helena-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -4132,7 +4044,6 @@
         "/service-areas/hurley-ms/sewage-cleanup/",
         "/service-areas/hurley-ms/smoke-damage-restoration/",
         "/service-areas/hurley-ms/storm-damage-restoration/",
-        "/service-areas/hurley-ms/water-cleanup/",
         "/service-areas/hurley-ms/basement-flooding-cleanup/",
         "/service-areas/hurley-ms/biohazard-cleanup/",
         "/service-areas/hurley-ms/burst-pipe-repair/",
@@ -4146,11 +4057,8 @@
         "/service-areas/hurley-ms/water-heater-flood-cleanup/",
         "/service-areas/hurley-ms/water-leak-detection/",
         "/service-areas/hurley-ms/asbestos-abatement/",
-        "/service-areas/hurley-ms/carpet-upholstery-cleaning/",
-        "/service-areas/hurley-ms/contents-restoration-storage/",
         "/service-areas/hurley-ms/contents-restoration/",
         "/service-areas/hurley-ms/crawl-space-encapsulation/",
-        "/service-areas/hurley-ms/vandalism-cleanup/",
         "/service-areas/hurley-ms/carpet-cleaning/",
         "/service-areas/hurley-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -4202,7 +4110,6 @@
         "/service-areas/moss-point-ms/sewage-cleanup/",
         "/service-areas/moss-point-ms/smoke-damage-restoration/",
         "/service-areas/moss-point-ms/storm-damage-restoration/",
-        "/service-areas/moss-point-ms/water-cleanup/",
         "/service-areas/moss-point-ms/basement-flooding-cleanup/",
         "/service-areas/moss-point-ms/biohazard-cleanup/",
         "/service-areas/moss-point-ms/burst-pipe-repair/",
@@ -4216,11 +4123,8 @@
         "/service-areas/moss-point-ms/water-heater-flood-cleanup/",
         "/service-areas/moss-point-ms/water-leak-detection/",
         "/service-areas/moss-point-ms/asbestos-abatement/",
-        "/service-areas/moss-point-ms/carpet-upholstery-cleaning/",
-        "/service-areas/moss-point-ms/contents-restoration-storage/",
         "/service-areas/moss-point-ms/contents-restoration/",
         "/service-areas/moss-point-ms/crawl-space-encapsulation/",
-        "/service-areas/moss-point-ms/vandalism-cleanup/",
         "/service-areas/moss-point-ms/carpet-cleaning/",
         "/service-areas/moss-point-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -4272,7 +4176,6 @@
         "/service-areas/ocean-springs-ms/sewage-cleanup/",
         "/service-areas/ocean-springs-ms/smoke-damage-restoration/",
         "/service-areas/ocean-springs-ms/storm-damage-restoration/",
-        "/service-areas/ocean-springs-ms/water-cleanup/",
         "/service-areas/ocean-springs-ms/basement-flooding-cleanup/",
         "/service-areas/ocean-springs-ms/biohazard-cleanup/",
         "/service-areas/ocean-springs-ms/burst-pipe-repair/",
@@ -4286,11 +4189,8 @@
         "/service-areas/ocean-springs-ms/water-heater-flood-cleanup/",
         "/service-areas/ocean-springs-ms/water-leak-detection/",
         "/service-areas/ocean-springs-ms/asbestos-abatement/",
-        "/service-areas/ocean-springs-ms/carpet-upholstery-cleaning/",
-        "/service-areas/ocean-springs-ms/contents-restoration-storage/",
         "/service-areas/ocean-springs-ms/contents-restoration/",
         "/service-areas/ocean-springs-ms/crawl-space-encapsulation/",
-        "/service-areas/ocean-springs-ms/vandalism-cleanup/",
         "/service-areas/ocean-springs-ms/carpet-cleaning/",
         "/service-areas/ocean-springs-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -4342,7 +4242,6 @@
         "/service-areas/pascagoula-ms/sewage-cleanup/",
         "/service-areas/pascagoula-ms/smoke-damage-restoration/",
         "/service-areas/pascagoula-ms/storm-damage-restoration/",
-        "/service-areas/pascagoula-ms/water-cleanup/",
         "/service-areas/pascagoula-ms/basement-flooding-cleanup/",
         "/service-areas/pascagoula-ms/biohazard-cleanup/",
         "/service-areas/pascagoula-ms/burst-pipe-repair/",
@@ -4356,11 +4255,8 @@
         "/service-areas/pascagoula-ms/water-heater-flood-cleanup/",
         "/service-areas/pascagoula-ms/water-leak-detection/",
         "/service-areas/pascagoula-ms/asbestos-abatement/",
-        "/service-areas/pascagoula-ms/carpet-upholstery-cleaning/",
-        "/service-areas/pascagoula-ms/contents-restoration-storage/",
         "/service-areas/pascagoula-ms/contents-restoration/",
         "/service-areas/pascagoula-ms/crawl-space-encapsulation/",
-        "/service-areas/pascagoula-ms/vandalism-cleanup/",
         "/service-areas/pascagoula-ms/carpet-cleaning/",
         "/service-areas/pascagoula-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -4412,7 +4308,6 @@
         "/service-areas/vancleave-ms/sewage-cleanup/",
         "/service-areas/vancleave-ms/smoke-damage-restoration/",
         "/service-areas/vancleave-ms/storm-damage-restoration/",
-        "/service-areas/vancleave-ms/water-cleanup/",
         "/service-areas/vancleave-ms/basement-flooding-cleanup/",
         "/service-areas/vancleave-ms/biohazard-cleanup/",
         "/service-areas/vancleave-ms/burst-pipe-repair/",
@@ -4426,11 +4321,8 @@
         "/service-areas/vancleave-ms/water-heater-flood-cleanup/",
         "/service-areas/vancleave-ms/water-leak-detection/",
         "/service-areas/vancleave-ms/asbestos-abatement/",
-        "/service-areas/vancleave-ms/carpet-upholstery-cleaning/",
-        "/service-areas/vancleave-ms/contents-restoration-storage/",
         "/service-areas/vancleave-ms/contents-restoration/",
         "/service-areas/vancleave-ms/crawl-space-encapsulation/",
-        "/service-areas/vancleave-ms/vandalism-cleanup/",
         "/service-areas/vancleave-ms/carpet-cleaning/",
         "/service-areas/vancleave-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -4482,7 +4374,6 @@
         "/service-areas/wade-ms/sewage-cleanup/",
         "/service-areas/wade-ms/smoke-damage-restoration/",
         "/service-areas/wade-ms/storm-damage-restoration/",
-        "/service-areas/wade-ms/water-cleanup/",
         "/service-areas/wade-ms/basement-flooding-cleanup/",
         "/service-areas/wade-ms/biohazard-cleanup/",
         "/service-areas/wade-ms/burst-pipe-repair/",
@@ -4496,11 +4387,8 @@
         "/service-areas/wade-ms/water-heater-flood-cleanup/",
         "/service-areas/wade-ms/water-leak-detection/",
         "/service-areas/wade-ms/asbestos-abatement/",
-        "/service-areas/wade-ms/carpet-upholstery-cleaning/",
-        "/service-areas/wade-ms/contents-restoration-storage/",
         "/service-areas/wade-ms/contents-restoration/",
         "/service-areas/wade-ms/crawl-space-encapsulation/",
-        "/service-areas/wade-ms/vandalism-cleanup/",
         "/service-areas/wade-ms/carpet-cleaning/",
         "/service-areas/wade-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -4552,7 +4440,6 @@
         "/service-areas/agricola-ms/sewage-cleanup/",
         "/service-areas/agricola-ms/smoke-damage-restoration/",
         "/service-areas/agricola-ms/storm-damage-restoration/",
-        "/service-areas/agricola-ms/water-cleanup/",
         "/service-areas/agricola-ms/basement-flooding-cleanup/",
         "/service-areas/agricola-ms/biohazard-cleanup/",
         "/service-areas/agricola-ms/burst-pipe-repair/",
@@ -4566,11 +4453,8 @@
         "/service-areas/agricola-ms/water-heater-flood-cleanup/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/agricola-ms/asbestos-abatement/",
-        "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-        "/service-areas/agricola-ms/contents-restoration-storage/",
         "/service-areas/agricola-ms/contents-restoration/",
         "/service-areas/agricola-ms/crawl-space-encapsulation/",
-        "/service-areas/agricola-ms/vandalism-cleanup/",
         "/service-areas/agricola-ms/carpet-cleaning/",
         "/service-areas/agricola-ms/post-construction-cleaning/",
         "/service-areas/bay-st-louis-ms/",
@@ -4622,7 +4506,6 @@
         "/service-areas/benndale-ms/sewage-cleanup/",
         "/service-areas/benndale-ms/smoke-damage-restoration/",
         "/service-areas/benndale-ms/storm-damage-restoration/",
-        "/service-areas/benndale-ms/water-cleanup/",
         "/service-areas/benndale-ms/basement-flooding-cleanup/",
         "/service-areas/benndale-ms/biohazard-cleanup/",
         "/service-areas/benndale-ms/burst-pipe-repair/",
@@ -4636,11 +4519,8 @@
         "/service-areas/benndale-ms/water-heater-flood-cleanup/",
         "/service-areas/benndale-ms/water-leak-detection/",
         "/service-areas/benndale-ms/asbestos-abatement/",
-        "/service-areas/benndale-ms/carpet-upholstery-cleaning/",
-        "/service-areas/benndale-ms/contents-restoration-storage/",
         "/service-areas/benndale-ms/contents-restoration/",
         "/service-areas/benndale-ms/crawl-space-encapsulation/",
-        "/service-areas/benndale-ms/vandalism-cleanup/",
         "/service-areas/benndale-ms/carpet-cleaning/",
         "/service-areas/benndale-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -4692,7 +4572,6 @@
         "/service-areas/lucedale-ms/sewage-cleanup/",
         "/service-areas/lucedale-ms/smoke-damage-restoration/",
         "/service-areas/lucedale-ms/storm-damage-restoration/",
-        "/service-areas/lucedale-ms/water-cleanup/",
         "/service-areas/lucedale-ms/basement-flooding-cleanup/",
         "/service-areas/lucedale-ms/biohazard-cleanup/",
         "/service-areas/lucedale-ms/burst-pipe-repair/",
@@ -4706,11 +4585,8 @@
         "/service-areas/lucedale-ms/water-heater-flood-cleanup/",
         "/service-areas/lucedale-ms/water-leak-detection/",
         "/service-areas/lucedale-ms/asbestos-abatement/",
-        "/service-areas/lucedale-ms/carpet-upholstery-cleaning/",
-        "/service-areas/lucedale-ms/contents-restoration-storage/",
         "/service-areas/lucedale-ms/contents-restoration/",
         "/service-areas/lucedale-ms/crawl-space-encapsulation/",
-        "/service-areas/lucedale-ms/vandalism-cleanup/",
         "/service-areas/lucedale-ms/carpet-cleaning/",
         "/service-areas/lucedale-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -4762,7 +4638,6 @@
         "/service-areas/ellisville-ms/sewage-cleanup/",
         "/service-areas/ellisville-ms/smoke-damage-restoration/",
         "/service-areas/ellisville-ms/storm-damage-restoration/",
-        "/service-areas/ellisville-ms/water-cleanup/",
         "/service-areas/ellisville-ms/basement-flooding-cleanup/",
         "/service-areas/ellisville-ms/biohazard-cleanup/",
         "/service-areas/ellisville-ms/burst-pipe-repair/",
@@ -4776,11 +4651,8 @@
         "/service-areas/ellisville-ms/water-heater-flood-cleanup/",
         "/service-areas/ellisville-ms/water-leak-detection/",
         "/service-areas/ellisville-ms/asbestos-abatement/",
-        "/service-areas/ellisville-ms/carpet-upholstery-cleaning/",
-        "/service-areas/ellisville-ms/contents-restoration-storage/",
         "/service-areas/ellisville-ms/contents-restoration/",
         "/service-areas/ellisville-ms/crawl-space-encapsulation/",
-        "/service-areas/ellisville-ms/vandalism-cleanup/",
         "/service-areas/ellisville-ms/carpet-cleaning/",
         "/service-areas/ellisville-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -4832,7 +4704,6 @@
         "/service-areas/laurel-ms/sewage-cleanup/",
         "/service-areas/laurel-ms/smoke-damage-restoration/",
         "/service-areas/laurel-ms/storm-damage-restoration/",
-        "/service-areas/laurel-ms/water-cleanup/",
         "/service-areas/laurel-ms/basement-flooding-cleanup/",
         "/service-areas/laurel-ms/biohazard-cleanup/",
         "/service-areas/laurel-ms/burst-pipe-repair/",
@@ -4846,11 +4717,8 @@
         "/service-areas/laurel-ms/water-heater-flood-cleanup/",
         "/service-areas/laurel-ms/water-leak-detection/",
         "/service-areas/laurel-ms/asbestos-abatement/",
-        "/service-areas/laurel-ms/carpet-upholstery-cleaning/",
-        "/service-areas/laurel-ms/contents-restoration-storage/",
         "/service-areas/laurel-ms/contents-restoration/",
         "/service-areas/laurel-ms/crawl-space-encapsulation/",
-        "/service-areas/laurel-ms/vandalism-cleanup/",
         "/service-areas/laurel-ms/carpet-cleaning/",
         "/service-areas/laurel-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -4902,7 +4770,6 @@
         "/service-areas/moselle-ms/sewage-cleanup/",
         "/service-areas/moselle-ms/smoke-damage-restoration/",
         "/service-areas/moselle-ms/storm-damage-restoration/",
-        "/service-areas/moselle-ms/water-cleanup/",
         "/service-areas/moselle-ms/basement-flooding-cleanup/",
         "/service-areas/moselle-ms/biohazard-cleanup/",
         "/service-areas/moselle-ms/burst-pipe-repair/",
@@ -4916,11 +4783,8 @@
         "/service-areas/moselle-ms/water-heater-flood-cleanup/",
         "/service-areas/moselle-ms/water-leak-detection/",
         "/service-areas/moselle-ms/asbestos-abatement/",
-        "/service-areas/moselle-ms/carpet-upholstery-cleaning/",
-        "/service-areas/moselle-ms/contents-restoration-storage/",
         "/service-areas/moselle-ms/contents-restoration/",
         "/service-areas/moselle-ms/crawl-space-encapsulation/",
-        "/service-areas/moselle-ms/vandalism-cleanup/",
         "/service-areas/moselle-ms/carpet-cleaning/",
         "/service-areas/moselle-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -4972,7 +4836,6 @@
         "/service-areas/ovett-ms/sewage-cleanup/",
         "/service-areas/ovett-ms/smoke-damage-restoration/",
         "/service-areas/ovett-ms/storm-damage-restoration/",
-        "/service-areas/ovett-ms/water-cleanup/",
         "/service-areas/ovett-ms/basement-flooding-cleanup/",
         "/service-areas/ovett-ms/biohazard-cleanup/",
         "/service-areas/ovett-ms/burst-pipe-repair/",
@@ -4986,11 +4849,8 @@
         "/service-areas/ovett-ms/water-heater-flood-cleanup/",
         "/service-areas/ovett-ms/water-leak-detection/",
         "/service-areas/ovett-ms/asbestos-abatement/",
-        "/service-areas/ovett-ms/carpet-upholstery-cleaning/",
-        "/service-areas/ovett-ms/contents-restoration-storage/",
         "/service-areas/ovett-ms/contents-restoration/",
         "/service-areas/ovett-ms/crawl-space-encapsulation/",
-        "/service-areas/ovett-ms/vandalism-cleanup/",
         "/service-areas/ovett-ms/carpet-cleaning/",
         "/service-areas/ovett-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -5042,7 +4902,6 @@
         "/service-areas/sandersville-ms/sewage-cleanup/",
         "/service-areas/sandersville-ms/smoke-damage-restoration/",
         "/service-areas/sandersville-ms/storm-damage-restoration/",
-        "/service-areas/sandersville-ms/water-cleanup/",
         "/service-areas/sandersville-ms/basement-flooding-cleanup/",
         "/service-areas/sandersville-ms/biohazard-cleanup/",
         "/service-areas/sandersville-ms/burst-pipe-repair/",
@@ -5056,11 +4915,8 @@
         "/service-areas/sandersville-ms/water-heater-flood-cleanup/",
         "/service-areas/sandersville-ms/water-leak-detection/",
         "/service-areas/sandersville-ms/asbestos-abatement/",
-        "/service-areas/sandersville-ms/carpet-upholstery-cleaning/",
-        "/service-areas/sandersville-ms/contents-restoration-storage/",
         "/service-areas/sandersville-ms/contents-restoration/",
         "/service-areas/sandersville-ms/crawl-space-encapsulation/",
-        "/service-areas/sandersville-ms/vandalism-cleanup/",
         "/service-areas/sandersville-ms/carpet-cleaning/",
         "/service-areas/sandersville-ms/post-construction-cleaning/",
         "/service-areas/agricola-ms/",
@@ -5763,6 +5619,51 @@
         "/service-areas/eastabuchie-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/eastabuchie-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Eastabuchie, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Eastabuchie",
+      "meta_description": "24/7 emergency water removal & cleanup in Eastabuchie, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup eastabuchie",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/eastabuchie-ms/",
+        "/service-areas/eastabuchie-ms/fire-damage-restoration/",
+        "/service-areas/eastabuchie-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -6992,6 +6893,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/hattiesburg-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Hattiesburg, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Hattiesburg",
+      "meta_description": "24/7 emergency water removal & cleanup in Hattiesburg, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup hattiesburg",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/hattiesburg-ms/",
+        "/service-areas/hattiesburg-ms/fire-damage-restoration/",
+        "/service-areas/hattiesburg-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/hattiesburg-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8213,6 +8159,51 @@
         "/service-areas/petal-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/petal-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Petal, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Petal",
+      "meta_description": "24/7 emergency water removal & cleanup in Petal, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup petal",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/petal-ms/",
+        "/service-areas/petal-ms/fire-damage-restoration/",
+        "/service-areas/petal-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -9442,6 +9433,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/rawls-springs-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Rawls Springs, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Rawls Springs",
+      "meta_description": "24/7 emergency water removal & cleanup in Rawls Springs, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup rawls springs",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/rawls-springs-ms/",
+        "/service-areas/rawls-springs-ms/fire-damage-restoration/",
+        "/service-areas/rawls-springs-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/rawls-springs-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10663,6 +10699,51 @@
         "/service-areas/leakesville-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/leakesville-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Leakesville, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Leakesville",
+      "meta_description": "24/7 emergency water removal & cleanup in Leakesville, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup leakesville",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/leakesville-ms/",
+        "/service-areas/leakesville-ms/fire-damage-restoration/",
+        "/service-areas/leakesville-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -11892,6 +11973,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/mclain-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in McLain, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in McLain",
+      "meta_description": "24/7 emergency water removal & cleanup in McLain, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup mclain",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/mclain-ms/",
+        "/service-areas/mclain-ms/fire-damage-restoration/",
+        "/service-areas/mclain-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/mclain-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13113,6 +13239,51 @@
         "/service-areas/state-line-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/state-line-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in State Line, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in State Line",
+      "meta_description": "24/7 emergency water removal & cleanup in State Line, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup state line",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/state-line-ms/",
+        "/service-areas/state-line-ms/fire-damage-restoration/",
+        "/service-areas/state-line-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -14342,6 +14513,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/biloxi-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Biloxi, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Biloxi",
+      "meta_description": "24/7 emergency water removal & cleanup in Biloxi, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup biloxi",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/biloxi-ms/",
+        "/service-areas/biloxi-ms/fire-damage-restoration/",
+        "/service-areas/biloxi-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/biloxi-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -15563,6 +15779,51 @@
         "/service-areas/d-iberville-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/d-iberville-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in D'Iberville, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in D'Iberville",
+      "meta_description": "24/7 emergency water removal & cleanup in D'Iberville, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup d'iberville",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/d-iberville-ms/",
+        "/service-areas/d-iberville-ms/fire-damage-restoration/",
+        "/service-areas/d-iberville-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -16792,6 +17053,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/delisle-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in DeLisle, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in DeLisle",
+      "meta_description": "24/7 emergency water removal & cleanup in DeLisle, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup delisle",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/delisle-ms/",
+        "/service-areas/delisle-ms/fire-damage-restoration/",
+        "/service-areas/delisle-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/delisle-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -18013,6 +18319,51 @@
         "/service-areas/diamondhead-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/diamondhead-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Diamondhead, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Diamondhead",
+      "meta_description": "24/7 emergency water removal & cleanup in Diamondhead, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup diamondhead",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/diamondhead-ms/",
+        "/service-areas/diamondhead-ms/fire-damage-restoration/",
+        "/service-areas/diamondhead-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -19242,6 +19593,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/henderson-point-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Henderson Point, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Henderson Point",
+      "meta_description": "24/7 emergency water removal & cleanup in Henderson Point, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup henderson point",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/henderson-point-ms/",
+        "/service-areas/henderson-point-ms/fire-damage-restoration/",
+        "/service-areas/henderson-point-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/henderson-point-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -20463,6 +20859,51 @@
         "/service-areas/latimer-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/latimer-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Latimer, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Latimer",
+      "meta_description": "24/7 emergency water removal & cleanup in Latimer, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup latimer",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/latimer-ms/",
+        "/service-areas/latimer-ms/fire-damage-restoration/",
+        "/service-areas/latimer-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -21692,6 +22133,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/long-beach-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Long Beach, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Long Beach",
+      "meta_description": "24/7 emergency water removal & cleanup in Long Beach, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup long beach",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/long-beach-ms/",
+        "/service-areas/long-beach-ms/fire-damage-restoration/",
+        "/service-areas/long-beach-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/long-beach-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -22913,6 +23399,51 @@
         "/service-areas/lyman-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/lyman-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Lyman, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Lyman",
+      "meta_description": "24/7 emergency water removal & cleanup in Lyman, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup lyman",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/lyman-ms/",
+        "/service-areas/lyman-ms/fire-damage-restoration/",
+        "/service-areas/lyman-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -24142,6 +24673,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/pass-christian-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Pass Christian, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Pass Christian",
+      "meta_description": "24/7 emergency water removal & cleanup in Pass Christian, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup pass christian",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/pass-christian-ms/",
+        "/service-areas/pass-christian-ms/fire-damage-restoration/",
+        "/service-areas/pass-christian-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/pass-christian-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -25363,6 +25939,51 @@
         "/service-areas/saucier-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/saucier-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Saucier, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Saucier",
+      "meta_description": "24/7 emergency water removal & cleanup in Saucier, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup saucier",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/saucier-ms/",
+        "/service-areas/saucier-ms/fire-damage-restoration/",
+        "/service-areas/saucier-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -26592,6 +27213,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/st-martin-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in St. Martin, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in St. Martin",
+      "meta_description": "24/7 emergency water removal & cleanup in St. Martin, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup st. martin",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/st-martin-ms/",
+        "/service-areas/st-martin-ms/fire-damage-restoration/",
+        "/service-areas/st-martin-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/st-martin-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -27813,6 +28479,51 @@
         "/service-areas/bay-st-louis-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/benndale-ms/water-leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bay-st-louis-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Bay St. Louis, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Bay St. Louis",
+      "meta_description": "24/7 emergency water removal & cleanup in Bay St. Louis, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup bay st. louis",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/",
+        "/service-areas/bay-st-louis-ms/fire-damage-restoration/",
+        "/service-areas/bay-st-louis-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/benndale-ms/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -29042,6 +29753,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/kiln-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Kiln, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Kiln",
+      "meta_description": "24/7 emergency water removal & cleanup in Kiln, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup kiln",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/kiln-ms/",
+        "/service-areas/kiln-ms/fire-damage-restoration/",
+        "/service-areas/kiln-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/kiln-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -30263,6 +31019,51 @@
         "/service-areas/pearlington-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pearlington-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Pearlington, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Pearlington",
+      "meta_description": "24/7 emergency water removal & cleanup in Pearlington, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup pearlington",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/pearlington-ms/",
+        "/service-areas/pearlington-ms/fire-damage-restoration/",
+        "/service-areas/pearlington-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -31492,6 +32293,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/picayune-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Picayune, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Picayune",
+      "meta_description": "24/7 emergency water removal & cleanup in Picayune, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup picayune",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/picayune-ms/",
+        "/service-areas/picayune-ms/fire-damage-restoration/",
+        "/service-areas/picayune-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/picayune-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -32713,6 +33559,51 @@
         "/service-areas/waveland-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/waveland-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Waveland, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Waveland",
+      "meta_description": "24/7 emergency water removal & cleanup in Waveland, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup waveland",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/waveland-ms/",
+        "/service-areas/waveland-ms/fire-damage-restoration/",
+        "/service-areas/waveland-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -33942,6 +34833,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/wiggins-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Wiggins, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Wiggins",
+      "meta_description": "24/7 emergency water removal & cleanup in Wiggins, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup wiggins",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/wiggins-ms/",
+        "/service-areas/wiggins-ms/fire-damage-restoration/",
+        "/service-areas/wiggins-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/wiggins-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -35163,6 +36099,51 @@
         "/service-areas/hide-a-way-lake-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/hide-a-way-lake-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Hide-A-Way Lake, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Hide-A-Way Lake",
+      "meta_description": "24/7 emergency water removal & cleanup in Hide-A-Way Lake, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup hide-a-way lake",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/hide-a-way-lake-ms/",
+        "/service-areas/hide-a-way-lake-ms/fire-damage-restoration/",
+        "/service-areas/hide-a-way-lake-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -36392,6 +37373,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/lumberton-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Lumberton, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Lumberton",
+      "meta_description": "24/7 emergency water removal & cleanup in Lumberton, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup lumberton",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/lumberton-ms/",
+        "/service-areas/lumberton-ms/fire-damage-restoration/",
+        "/service-areas/lumberton-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/lumberton-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -37613,6 +38639,51 @@
         "/service-areas/poplarville-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/poplarville-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Poplarville, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Poplarville",
+      "meta_description": "24/7 emergency water removal & cleanup in Poplarville, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup poplarville",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/poplarville-ms/",
+        "/service-areas/poplarville-ms/fire-damage-restoration/",
+        "/service-areas/poplarville-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -38842,6 +39913,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/big-point-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Big Point, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Big Point",
+      "meta_description": "24/7 emergency water removal & cleanup in Big Point, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup big point",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/big-point-ms/",
+        "/service-areas/big-point-ms/fire-damage-restoration/",
+        "/service-areas/big-point-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/big-point-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -40063,6 +41179,51 @@
         "/service-areas/escatawpa-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/escatawpa-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Escatawpa, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Escatawpa",
+      "meta_description": "24/7 emergency water removal & cleanup in Escatawpa, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup escatawpa",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/escatawpa-ms/",
+        "/service-areas/escatawpa-ms/fire-damage-restoration/",
+        "/service-areas/escatawpa-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -41292,6 +42453,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/gautier-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Gautier, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Gautier",
+      "meta_description": "24/7 emergency water removal & cleanup in Gautier, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup gautier",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/gautier-ms/",
+        "/service-areas/gautier-ms/fire-damage-restoration/",
+        "/service-areas/gautier-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/gautier-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -42513,6 +43719,51 @@
         "/service-areas/gulf-hills-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/gulf-hills-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Gulf Hills, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Gulf Hills",
+      "meta_description": "24/7 emergency water removal & cleanup in Gulf Hills, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup gulf hills",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/gulf-hills-ms/",
+        "/service-areas/gulf-hills-ms/fire-damage-restoration/",
+        "/service-areas/gulf-hills-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -43742,6 +44993,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/gulf-park-estates-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Gulf Park Estates, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Gulf Park Estates",
+      "meta_description": "24/7 emergency water removal & cleanup in Gulf Park Estates, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup gulf park estates",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/gulf-park-estates-ms/",
+        "/service-areas/gulf-park-estates-ms/fire-damage-restoration/",
+        "/service-areas/gulf-park-estates-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/gulf-park-estates-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -44963,6 +46259,51 @@
         "/service-areas/helena-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/helena-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Helena, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Helena",
+      "meta_description": "24/7 emergency water removal & cleanup in Helena, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup helena",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/helena-ms/",
+        "/service-areas/helena-ms/fire-damage-restoration/",
+        "/service-areas/helena-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -46192,6 +47533,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/hurley-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Hurley, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Hurley",
+      "meta_description": "24/7 emergency water removal & cleanup in Hurley, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup hurley",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/hurley-ms/",
+        "/service-areas/hurley-ms/fire-damage-restoration/",
+        "/service-areas/hurley-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/hurley-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -47413,6 +48799,51 @@
         "/service-areas/moss-point-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/moss-point-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Moss Point, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Moss Point",
+      "meta_description": "24/7 emergency water removal & cleanup in Moss Point, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup moss point",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/moss-point-ms/",
+        "/service-areas/moss-point-ms/fire-damage-restoration/",
+        "/service-areas/moss-point-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -48642,6 +50073,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/ocean-springs-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Ocean Springs, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Ocean Springs",
+      "meta_description": "24/7 emergency water removal & cleanup in Ocean Springs, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup ocean springs",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/ocean-springs-ms/",
+        "/service-areas/ocean-springs-ms/fire-damage-restoration/",
+        "/service-areas/ocean-springs-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/ocean-springs-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -49863,6 +51339,51 @@
         "/service-areas/pascagoula-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pascagoula-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Pascagoula, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Pascagoula",
+      "meta_description": "24/7 emergency water removal & cleanup in Pascagoula, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup pascagoula",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/pascagoula-ms/",
+        "/service-areas/pascagoula-ms/fire-damage-restoration/",
+        "/service-areas/pascagoula-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -51092,6 +52613,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/vancleave-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Vancleave, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Vancleave",
+      "meta_description": "24/7 emergency water removal & cleanup in Vancleave, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup vancleave",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/vancleave-ms/",
+        "/service-areas/vancleave-ms/fire-damage-restoration/",
+        "/service-areas/vancleave-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/vancleave-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -52313,6 +53879,51 @@
         "/service-areas/wade-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/wade-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Wade, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Wade",
+      "meta_description": "24/7 emergency water removal & cleanup in Wade, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup wade",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/wade-ms/",
+        "/service-areas/wade-ms/fire-damage-restoration/",
+        "/service-areas/wade-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -53542,6 +55153,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/agricola-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Agricola, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Agricola",
+      "meta_description": "24/7 emergency water removal & cleanup in Agricola, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup agricola",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/agricola-ms/",
+        "/service-areas/agricola-ms/fire-damage-restoration/",
+        "/service-areas/agricola-ms/mold-remediation/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
+        "/service-areas/benndale-ms/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/agricola-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -54763,6 +56419,51 @@
         "/service-areas/benndale-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/benndale-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Benndale, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Benndale",
+      "meta_description": "24/7 emergency water removal & cleanup in Benndale, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup benndale",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/benndale-ms/",
+        "/service-areas/benndale-ms/fire-damage-restoration/",
+        "/service-areas/benndale-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -55992,6 +57693,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/lucedale-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Lucedale, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Lucedale",
+      "meta_description": "24/7 emergency water removal & cleanup in Lucedale, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup lucedale",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/lucedale-ms/",
+        "/service-areas/lucedale-ms/fire-damage-restoration/",
+        "/service-areas/lucedale-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/lucedale-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -57213,6 +58959,51 @@
         "/service-areas/ellisville-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/ellisville-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Ellisville, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Ellisville",
+      "meta_description": "24/7 emergency water removal & cleanup in Ellisville, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup ellisville",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/ellisville-ms/",
+        "/service-areas/ellisville-ms/fire-damage-restoration/",
+        "/service-areas/ellisville-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -58442,6 +60233,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/laurel-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Laurel, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Laurel",
+      "meta_description": "24/7 emergency water removal & cleanup in Laurel, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup laurel",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/laurel-ms/",
+        "/service-areas/laurel-ms/fire-damage-restoration/",
+        "/service-areas/laurel-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/laurel-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -59663,6 +61499,51 @@
         "/service-areas/moselle-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/moselle-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Moselle, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Moselle",
+      "meta_description": "24/7 emergency water removal & cleanup in Moselle, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup moselle",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/moselle-ms/",
+        "/service-areas/moselle-ms/fire-damage-restoration/",
+        "/service-areas/moselle-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -60892,6 +62773,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/ovett-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Ovett, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Ovett",
+      "meta_description": "24/7 emergency water removal & cleanup in Ovett, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup ovett",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/ovett-ms/",
+        "/service-areas/ovett-ms/fire-damage-restoration/",
+        "/service-areas/ovett-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/ovett-ms/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -62113,6 +64039,51 @@
         "/service-areas/sandersville-ms/mold-remediation/",
         "/service-areas/agricola-ms/water-leak-detection/",
         "/service-areas/bay-st-louis-ms/water-leak-detection/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/sandersville-ms/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Sandersville, MS | HomeLyft Restoration MS",
+      "h1": "Emergency Water Removal & Cleanup in Sandersville",
+      "meta_description": "24/7 emergency water removal & cleanup in Sandersville, MS. IICRC-certified, insurance billing accepted. Call +12282845200.",
+      "primary_keyword": "emergency water removal & cleanup sandersville",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/sandersville-ms/",
+        "/service-areas/sandersville-ms/fire-damage-restoration/",
+        "/service-areas/sandersville-ms/mold-remediation/",
+        "/service-areas/agricola-ms/emergency-water-removal/",
+        "/service-areas/bay-st-louis-ms/emergency-water-removal/",
         "/contact/"
       ]
     },

@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 8.1
 plan_hash: "3322c45fbc13b0cd"
-generated_at: "2026-09-30T14:12:02.621740+00:00"
+generated_at: "2026-09-30T19:28:20.830306+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/emergency-plumbing/", "/service-areas/big-lake-tx/emergency-plumbing/", "/service-areas/big-spring-tx/emergency-plumbing/", "/service-areas/crane-tx/emergency-plumbing/", "/service-areas/garden-city-tx/emergency-plumbing/", "/service-areas/gardendale-tx/emergency-plumbing/", "/service-areas/goldsmith-tx/emergency-plumbing/", "/service-areas/greenwood-tx/emergency-plumbing/", "/service-areas/imperial-tx/emergency-plumbing/", "/service-areas/mccamey-tx/emergency-plumbing/", "/service-areas/monahans-tx/emergency-plumbing/", "/service-areas/odessa-tx/emergency-plumbing/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "emergency-plumbing"}]

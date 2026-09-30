@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "814c6a42bebb07cf"
-generated_at: "2026-09-23T14:12:04.459891+00:00"
+generated_at: "2026-09-30T19:29:00.342146+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/nevada-tx/", "/service-areas/nevada-tx/fire-damage-restoration/", "/service-areas/nevada-tx/mold-remediation/", "/service-areas/allen-tx/roofing/", "/service-areas/caddo-mills-tx/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Nevada", "url": "/service-areas/nevada-tx/"}, {"name": "Roofing Installation and Replacement"}]

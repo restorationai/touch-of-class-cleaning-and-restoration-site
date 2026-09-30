@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "830802a4ae4d4a43"
-generated_at: "2026-09-23T14:11:42.636861+00:00"
+generated_at: "2026-09-30T19:28:38.065089+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/summit-view-wa/", "/service-areas/summit-view-wa/fire-damage-restoration/", "/service-areas/summit-view-wa/mold-remediation/", "/service-areas/anderson-island-wa/emergency-plumbing/", "/service-areas/auburn-wa/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Summit View", "url": "/service-areas/summit-view-wa/"}, {"name": "Emergency Plumbing"}]

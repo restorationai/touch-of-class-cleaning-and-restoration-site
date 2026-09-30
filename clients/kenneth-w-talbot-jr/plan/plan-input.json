@@ -15,18 +15,31 @@
     ],
     "hours": "24/7",
     "licensed_insured_attested": true,
+    "license_type": "Florida Licensed Mold Assessor & Mold Remediator",
+    "license_authority": "Florida Department of Business & Professional Regulation (DBPR)",
+    "license_note": "Client-attested on the 2026-09-28 call (Kenny). License numbers not yet on file \u2014 add them to license_numbers to enable the state-verification link.",
     "founded_year": "2020",
     "trust_badges": [
-      "Licensed & Insured",
       "Veteran Owned & Operated",
+      "Licensed Mold Assessor",
+      "Licensed Mold Remediator",
+      "Licensed & Insured",
       "Locally Owned & Operated"
-    ]
+    ],
+    "cta_fill": "#fbbf24",
+    "cta_fg": "#171717",
+    "cta_hover": "#f59e0b",
+    "dark_color": "#161718",
+    "logo_url": "/images/logo.png",
+    "palette_source": "hand-tuned black+gold site; dark neutralized 2026-09-27 (Santino flagged blue strip)"
   },
   "services": [
-    "water-damage-restoration",
+    "emergency-water-removal",
     "fire-damage-restoration",
     "mold-remediation",
-    "storm-damage-restoration"
+    "storm-damage-restoration",
+    "water-cleanup",
+    "water-damage-restoration"
   ],
   "service_areas": [
     {
@@ -137,5 +150,14 @@
     }
   ],
   "template": "restoration",
-  "blog_seed_count": 8
+  "blog_seed_count": 8,
+  "homepage_services": [
+    "fire-damage-restoration",
+    "mold-remediation",
+    "water-damage-restoration",
+    "storm-damage-restoration"
+  ],
+  "merged_services": {
+    "water-cleanup": "emergency-water-removal"
+  }
 }

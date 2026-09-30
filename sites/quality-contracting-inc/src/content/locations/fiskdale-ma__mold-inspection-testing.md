@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "237fe216ba97ade4"
-generated_at: "2026-09-30T14:12:26.031996+00:00"
+generated_at: "2026-09-30T19:28:57.216626+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/fiskdale-ma/", "/service-areas/fiskdale-ma/fire-damage-restoration/", "/service-areas/fiskdale-ma/mold-remediation/", "/service-areas/bellingham-ma/mold-inspection-testing/", "/service-areas/east-douglas-ma/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fiskdale", "url": "/service-areas/fiskdale-ma/"}, {"name": "mold-inspection-testing"}]

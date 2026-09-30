@@ -42,11 +42,13 @@
     "contents-restoration-storage",
     "emergency-board-up-tarping",
     "emergency-plumbing",
+    "emergency-water-removal",
     "fire-damage-restoration",
     "mold-remediation",
     "odor-removal",
     "sewage-cleanup",
     "storm-damage-restoration",
+    "water-cleanup",
     "water-damage-restoration"
   ],
   "service_areas": [
@@ -248,5 +250,15 @@
     }
   ],
   "template": "restoration",
-  "blog_seed_count": 8
+  "blog_seed_count": 8,
+  "homepage_services": [
+    "fire-damage-restoration",
+    "mold-remediation",
+    "water-damage-restoration",
+    "sewage-cleanup",
+    "storm-damage-restoration"
+  ],
+  "merged_services": {
+    "water-cleanup": "emergency-water-removal"
+  }
 }

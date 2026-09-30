@@ -1,21 +1,21 @@
 # Site Plan Report — TDI Builders
 
 - Template: `construction` v0.1.0
-- Generated: 2026-09-29T23:13:49.533016+00:00
+- Generated: 2026-09-30T19:29:03.006444+00:00
 - Domain: `tdiusa.com`
-- Services selected: 19 of 30 catalog entries
+- Services selected: 16 of 30 catalog entries
 - Service areas: 29
 - Cross-product enabled: True
-- Total URLs: **596**
-- Total internal links: 4832 (avg 8.1 per page)
+- Total URLs: **509**
+- Total internal links: 4112 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 532 |
+| `service-area-service` | 448 |
 | `service-area` | 28 |
-| `service-landing` | 19 |
+| `service-landing` | 16 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -27,25 +27,22 @@
 
 ## Selected services
 
-- `commercial-construction` — Commercial Construction and Tenant Improvements (specialty, priority 7)
-- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
-- `new-construction` — New Home Construction (core, priority 9)
-- `fire-smoke-rebuilding` — Fire and Smoke Damage Rebuilding (restoration, priority 7)
-- `water-damage-restoration` — Water Damage Restoration (restoration, priority 7)
-- `storm-damage-restoration` — Storm Damage Restoration (restoration, priority 7)
-- `mold-remediation` — Mold Remediation (restoration, priority 7)
-- `home-remodeling` — Home Remodeling (core, priority 10)
-- `kitchen-remodeling` — Kitchen Remodeling (core, priority 9)
-- `bathroom-remodeling` — Bathroom Remodeling (core, priority 9)
-- `garage-construction` — Garage Construction (specialty, priority 6)
-- `room-addition` — Room Additions and Home Additions (core, priority 8)
-- `24-7-emergency-water-cleanup` — 24/7 Emergency Water Cleanup (adjacent, priority 5)
 - `basement-sewage-cleanup` — Basement Sewage Cleanup (adjacent, priority 5)
-- `bathroom-remodeler` — Bathroom Remodeler (adjacent, priority 5)
+- `bathroom-remodeling` — Bathroom Remodeling (core, priority 9)
 - `carpet-upholstery-cleaning` — Carpet & Upholstery Cleaning (adjacent, priority 5)
 - `carpet-water-extraction` — Carpet Water Extraction (adjacent, priority 5)
-- `general-contractor` — General Contractor (adjacent, priority 5)
+- `commercial-construction` — Commercial Construction and Tenant Improvements (specialty, priority 7)
+- `fire-smoke-rebuilding` — Fire and Smoke Damage Rebuilding (restoration, priority 7)
+- `garage-construction` — Garage Construction (specialty, priority 6)
+- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
+- `home-remodeling` — Home Remodeling (core, priority 10)
+- `kitchen-remodeling` — Kitchen Remodeling (core, priority 9)
+- `mold-remediation` — Mold Remediation (restoration, priority 7)
+- `new-construction` — New Home Construction (core, priority 9)
 - `post-construction-specialty-cleaning` — Post-Construction & Specialty Cleaning (adjacent, priority 5)
+- `room-addition` — Room Additions and Home Additions (core, priority 8)
+- `storm-damage-restoration` — Storm Damage Restoration (restoration, priority 7)
+- `water-damage-restoration` — Water Damage Restoration (restoration, priority 7)
 
 ## Service areas
 

@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "e4a892b898bd3e58"
-generated_at: "2026-09-29T23:28:29.569204+00:00"
+generated_at: "2026-09-30T19:28:35.840822+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/gibsonton-fl/", "/service-areas/gibsonton-fl/fire-damage-restoration/", "/service-areas/gibsonton-fl/mold-remediation/", "/service-areas/anna-maria-fl/water-leak-detection/", "/service-areas/apollo-beach-fl/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gibsonton", "url": "/service-areas/gibsonton-fl/"}, {"name": "Water Leak Detection"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "f0e73a316e3d94ee"
-generated_at: "2026-09-29T23:13:49.288984+00:00"
+generated_at: "2026-09-30T19:28:39.631101+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/zebulon-nc/", "/service-areas/zebulon-nc/fire-damage-restoration/", "/service-areas/zebulon-nc/mold-remediation/", "/service-areas/archer-lodge-nc/ceiling-water-damage-repair/", "/service-areas/clayton-nc/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Zebulon", "url": "/service-areas/zebulon-nc/"}, {"name": "Ceiling Water Damage Repair"}]

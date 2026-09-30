@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "403aaae167347d2d"
-generated_at: "2026-09-29T23:13:49.319476+00:00"
+generated_at: "2026-09-30T19:28:39.714067+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/wilson-s-mills-nc/", "/service-areas/wilson-s-mills-nc/fire-damage-restoration/", "/service-areas/wilson-s-mills-nc/mold-remediation/", "/service-areas/archer-lodge-nc/emergency-plumbing/", "/service-areas/clayton-nc/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wilson's Mills", "url": "/service-areas/wilson-s-mills-nc/"}, {"name": "Emergency Plumbing"}]

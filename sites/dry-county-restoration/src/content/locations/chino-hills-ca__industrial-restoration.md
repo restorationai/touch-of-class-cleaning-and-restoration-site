@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "b41f58d489d1c49a"
-generated_at: "2026-09-30T14:12:09.667048+00:00"
+generated_at: "2026-09-30T19:28:32.732895+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/chino-hills-ca/", "/service-areas/chino-hills-ca/fire-damage-restoration/", "/service-areas/chino-hills-ca/mold-remediation/", "/service-areas/anaheim-ca/industrial-restoration/", "/service-areas/chino-ca/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Chino Hills", "url": "/service-areas/chino-hills-ca/"}, {"name": "Industrial Restoration"}]

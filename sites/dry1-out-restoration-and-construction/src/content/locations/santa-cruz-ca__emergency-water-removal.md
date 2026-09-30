@@ -2,13 +2,13 @@
 archetype: "service-area-service"
 title: "Emergency Water Removal & Cleanup in Santa Cruz, CA | Dry1 Out Restoration and Construction"
 h1: "Emergency Water Removal & Cleanup in Santa Cruz"
-meta_description: "24/7 emergency water removal and cleanup in Santa Cruz, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
-primary_keyword: "emergency water removal santa cruz"
-secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
+meta_description: "24/7 emergency water removal & cleanup in Santa Cruz, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+primary_keyword: "emergency water removal & cleanup santa cruz"
+secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "4ea44f4924d65953"
-generated_at: "2026-09-29T14:31:48.459286+00:00"
+plan_hash: "ea1af60257fcb524"
+generated_at: "2026-09-30T19:28:33.872272+00:00"
 manual_override: false
 internal_links: ["/services/emergency-water-removal/", "/service-areas/santa-cruz-ca/", "/service-areas/santa-cruz-ca/fire-damage-restoration/", "/service-areas/santa-cruz-ca/mold-remediation/", "/service-areas/berkeley-ca/emergency-water-removal/", "/service-areas/carlsbad-ca/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Santa Cruz", "url": "/service-areas/santa-cruz-ca/"}, {"name": "Emergency Water Removal & Cleanup"}]

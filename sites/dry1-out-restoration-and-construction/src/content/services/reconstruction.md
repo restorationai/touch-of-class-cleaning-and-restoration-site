@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 8.1
 plan_hash: "48a73072a882a020"
-generated_at: "2026-09-29T14:31:48.306673+00:00"
+generated_at: "2026-09-30T19:28:33.685197+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/reconstruction/", "/service-areas/carlsbad-ca/reconstruction/", "/service-areas/chula-vista-ca/reconstruction/", "/service-areas/concord-ca/reconstruction/", "/service-areas/el-cajon-ca/reconstruction/", "/service-areas/encinitas-ca/reconstruction/", "/service-areas/escondido-ca/reconstruction/", "/service-areas/fremont-ca/reconstruction/", "/service-areas/hayward-ca/reconstruction/", "/service-areas/oakland-ca/reconstruction/", "/service-areas/oceanside-ca/reconstruction/", "/service-areas/san-diego-ca/reconstruction/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "reconstruction"}]

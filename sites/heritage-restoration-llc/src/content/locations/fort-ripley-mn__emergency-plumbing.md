@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "ee1b3c36abe625cf"
-generated_at: "2026-09-29T23:13:48.889159+00:00"
+generated_at: "2026-09-30T19:28:41.675053+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/fort-ripley-mn/", "/service-areas/fort-ripley-mn/fire-damage-restoration/", "/service-areas/fort-ripley-mn/mold-remediation/", "/service-areas/albany-mn/emergency-plumbing/", "/service-areas/avon-mn/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fort Ripley", "url": "/service-areas/fort-ripley-mn/"}, {"name": "Emergency Plumbing"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restorati
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "4479d3873d2dcc41"
-generated_at: "2026-09-30T14:12:02.629625+00:00"
+generated_at: "2026-09-30T19:28:20.841820+00:00"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/service-areas/stanton-tx/", "/service-areas/stanton-tx/fire-damage-restoration/", "/service-areas/stanton-tx/mold-remediation/", "/service-areas/andrews-tx/flood-damage-restoration/", "/service-areas/big-lake-tx/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Stanton", "url": "/service-areas/stanton-tx/"}, {"name": "flood-damage-restoration"}]

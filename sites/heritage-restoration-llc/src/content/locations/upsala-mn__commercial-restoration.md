@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "bf822f53c569c01b"
-generated_at: "2026-09-29T23:13:48.900981+00:00"
+generated_at: "2026-09-30T19:28:41.686070+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/upsala-mn/", "/service-areas/upsala-mn/fire-damage-restoration/", "/service-areas/upsala-mn/mold-remediation/", "/service-areas/albany-mn/commercial-restoration/", "/service-areas/avon-mn/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Upsala", "url": "/service-areas/upsala-mn/"}, {"name": "Commercial Restoration"}]

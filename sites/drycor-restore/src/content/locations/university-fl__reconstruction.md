@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "13563a1dedc4d23e"
-generated_at: "2026-09-29T23:28:29.661689+00:00"
+generated_at: "2026-09-30T19:28:35.977105+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/university-fl/", "/service-areas/university-fl/fire-damage-restoration/", "/service-areas/university-fl/mold-remediation/", "/service-areas/anna-maria-fl/reconstruction/", "/service-areas/apollo-beach-fl/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "University", "url": "/service-areas/university-fl/"}, {"name": "Reconstruction Services"}]

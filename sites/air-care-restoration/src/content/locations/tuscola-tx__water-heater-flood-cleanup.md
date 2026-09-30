@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "38f6e2b0acac9bc3"
-generated_at: "2026-09-30T14:12:01.750583+00:00"
+generated_at: "2026-09-30T19:28:19.961752+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/tuscola-tx/", "/service-areas/tuscola-tx/fire-damage-restoration/", "/service-areas/tuscola-tx/mold-remediation/", "/service-areas/albany-tx/water-heater-flood-cleanup/", "/service-areas/anson-tx/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tuscola", "url": "/service-areas/tuscola-tx/"}, {"name": "water-heater-flood-cleanup"}]

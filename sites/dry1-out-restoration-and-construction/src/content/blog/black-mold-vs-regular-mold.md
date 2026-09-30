@@ -8,12 +8,12 @@ secondary_keywords: ["mold remediation"]
 search_intent: "informational_health"
 priority: 4.8
 plan_hash: "133089535bacb44c"
-generated_at: "2026-09-29T14:31:48.466597+00:00"
+generated_at: "2026-09-30T19:28:33.882059+00:00"
 manual_override: false
 internal_links: ["/blog/", "/services/mold-remediation/", "/blog/choosing-a-restoration-company/", "/blog/how-to-test-for-mold/", "/blog/signs-of-hidden-mold/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Blog", "url": "/blog/"}, {"name": "Black Mold vs Regular Mold: How To Tell the Difference"}]
 faq: []
-published_at: "2026-09-16"
+published_at: "2026-09-17"
 services: ["mold-remediation"]
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug dry1-out-restoration-and-construction` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->

@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "588aac925149f905"
-generated_at: "2026-09-30T14:12:02.624470+00:00"
+generated_at: "2026-09-30T19:28:20.833513+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/odessa-tx/", "/service-areas/odessa-tx/fire-damage-restoration/", "/service-areas/odessa-tx/mold-remediation/", "/service-areas/andrews-tx/mold-inspection-testing/", "/service-areas/big-lake-tx/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Odessa", "url": "/service-areas/odessa-tx/"}, {"name": "mold-inspection-testing"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "769a47aeb3c35f60"
-generated_at: "2026-09-30T14:12:12.825221+00:00"
+generated_at: "2026-09-30T19:28:43.340423+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/eastabuchie-ms/", "/service-areas/eastabuchie-ms/fire-damage-restoration/", "/service-areas/eastabuchie-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-plumbing/", "/service-areas/bay-st-louis-ms/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Eastabuchie", "url": "/service-areas/eastabuchie-ms/"}, {"name": "emergency-plumbing"}]

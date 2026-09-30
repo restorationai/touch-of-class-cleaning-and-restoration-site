@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "d205fe7be9a8dcef"
-generated_at: "2026-09-30T14:12:01.813014+00:00"
+generated_at: "2026-09-30T19:28:20.056967+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/hawley-tx/", "/service-areas/hawley-tx/fire-damage-restoration/", "/service-areas/hawley-tx/mold-remediation/", "/service-areas/albany-tx/emergency-plumbing/", "/service-areas/anson-tx/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hawley", "url": "/service-areas/hawley-tx/"}, {"name": "emergency-plumbing"}]

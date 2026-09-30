@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "b35aa1172ca0e082"
-generated_at: "2026-09-23T14:11:38.281585+00:00"
+generated_at: "2026-09-30T19:28:35.860424+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/lakewood-ranch-fl/", "/service-areas/lakewood-ranch-fl/fire-damage-restoration/", "/service-areas/lakewood-ranch-fl/mold-remediation/", "/service-areas/anna-maria-fl/emergency-plumbing/", "/service-areas/apollo-beach-fl/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lakewood Ranch", "url": "/service-areas/lakewood-ranch-fl/"}, {"name": "Emergency Plumbing"}]

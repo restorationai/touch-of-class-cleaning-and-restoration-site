@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "685835562bea53ad"
-generated_at: "2026-09-30T14:12:21.350874+00:00"
+generated_at: "2026-09-30T19:28:52.936000+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/bellevue-wa/", "/service-areas/bellevue-wa/fire-damage-restoration/", "/service-areas/bellevue-wa/mold-remediation/", "/service-areas/algona-wa/emergency-plumbing/", "/service-areas/auburn-wa/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bellevue", "url": "/service-areas/bellevue-wa/"}, {"name": "Emergency Plumbing"}]

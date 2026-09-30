@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "51063c93d761925c"
-generated_at: "2026-09-30T14:12:12.931732+00:00"
+generated_at: "2026-09-30T19:28:43.472358+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/wiggins-ms/", "/service-areas/wiggins-ms/fire-damage-restoration/", "/service-areas/wiggins-ms/mold-remediation/", "/service-areas/agricola-ms/mold-inspection-testing/", "/service-areas/bay-st-louis-ms/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wiggins", "url": "/service-areas/wiggins-ms/"}, {"name": "mold-inspection-testing"}]

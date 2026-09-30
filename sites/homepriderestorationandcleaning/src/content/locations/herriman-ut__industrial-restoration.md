@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "206f58d331377bdf"
-generated_at: "2026-09-30T14:12:14.561036+00:00"
+generated_at: "2026-09-30T19:28:45.097463+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/herriman-ut/", "/service-areas/herriman-ut/fire-damage-restoration/", "/service-areas/herriman-ut/mold-remediation/", "/service-areas/alpine-ut/industrial-restoration/", "/service-areas/american-fork-ut/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Herriman", "url": "/service-areas/herriman-ut/"}, {"name": "industrial-restoration"}]

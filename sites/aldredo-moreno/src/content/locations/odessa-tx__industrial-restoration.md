@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "0daaf39d217a1dce"
-generated_at: "2026-09-30T14:12:02.624723+00:00"
+generated_at: "2026-09-30T19:28:20.834131+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/odessa-tx/", "/service-areas/odessa-tx/fire-damage-restoration/", "/service-areas/odessa-tx/mold-remediation/", "/service-areas/andrews-tx/industrial-restoration/", "/service-areas/big-lake-tx/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Odessa", "url": "/service-areas/odessa-tx/"}, {"name": "industrial-restoration"}]

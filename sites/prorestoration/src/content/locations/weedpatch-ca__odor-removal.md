@@ -8,7 +8,7 @@ secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodoriz
 search_intent: "local_specialty"
 priority: 4.9
 plan_hash: "5bbd9de56f7d81bf"
-generated_at: "2026-09-30T14:12:23.037971+00:00"
+generated_at: "2026-09-30T19:28:54.607507+00:00"
 manual_override: false
 internal_links: ["/services/odor-removal/", "/service-areas/weedpatch-ca/", "/service-areas/weedpatch-ca/fire-damage-restoration/", "/service-areas/weedpatch-ca/home-remodeling/", "/service-areas/arvin-ca/odor-removal/", "/service-areas/bear-valley-springs-ca/odor-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Weedpatch", "url": "/service-areas/weedpatch-ca/"}, {"name": "Odor Removal and Deodorization"}]

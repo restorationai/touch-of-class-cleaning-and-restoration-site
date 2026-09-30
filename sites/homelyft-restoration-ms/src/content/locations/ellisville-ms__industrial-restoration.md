@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "99fbf71ee39a7986"
-generated_at: "2026-09-30T14:12:13.022301+00:00"
+generated_at: "2026-09-30T19:28:43.578402+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/ellisville-ms/", "/service-areas/ellisville-ms/fire-damage-restoration/", "/service-areas/ellisville-ms/mold-remediation/", "/service-areas/agricola-ms/industrial-restoration/", "/service-areas/bay-st-louis-ms/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ellisville", "url": "/service-areas/ellisville-ms/"}, {"name": "industrial-restoration"}]

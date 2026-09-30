@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "ca725bb32efcac07"
-generated_at: "2026-09-30T14:12:01.783396+00:00"
+generated_at: "2026-09-30T19:28:20.009766+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/san-angelo-tx/", "/service-areas/san-angelo-tx/fire-damage-restoration/", "/service-areas/san-angelo-tx/mold-remediation/", "/service-areas/albany-tx/emergency-plumbing/", "/service-areas/anson-tx/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Angelo", "url": "/service-areas/san-angelo-tx/"}, {"name": "emergency-plumbing"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "42c0a9e9a1508a86"
-generated_at: "2026-09-29T23:28:29.484086+00:00"
+generated_at: "2026-09-30T19:28:35.709353+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/dover-fl/", "/service-areas/dover-fl/fire-damage-restoration/", "/service-areas/dover-fl/mold-remediation/", "/service-areas/anna-maria-fl/ceiling-water-damage-repair/", "/service-areas/apollo-beach-fl/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Dover", "url": "/service-areas/dover-fl/"}, {"name": "Ceiling Water Damage Repair"}]

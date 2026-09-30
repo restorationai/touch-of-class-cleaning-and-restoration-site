@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "0021c3f76a0d05e4"
-generated_at: "2026-09-29T23:28:29.592333+00:00"
+generated_at: "2026-09-30T19:28:35.869834+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/longboat-key-fl/", "/service-areas/longboat-key-fl/fire-damage-restoration/", "/service-areas/longboat-key-fl/mold-remediation/", "/service-areas/anna-maria-fl/industrial-restoration/", "/service-areas/apollo-beach-fl/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Longboat Key", "url": "/service-areas/longboat-key-fl/"}, {"name": "Industrial Restoration"}]

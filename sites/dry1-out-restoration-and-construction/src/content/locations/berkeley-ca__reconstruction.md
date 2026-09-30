@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "d1a95b0fd91ebf2c"
-generated_at: "2026-09-29T14:31:48.446262+00:00"
+generated_at: "2026-09-30T19:28:33.854661+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/berkeley-ca/", "/service-areas/berkeley-ca/fire-damage-restoration/", "/service-areas/berkeley-ca/mold-remediation/", "/service-areas/carlsbad-ca/reconstruction/", "/service-areas/chula-vista-ca/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Berkeley", "url": "/service-areas/berkeley-ca/"}, {"name": "reconstruction"}]

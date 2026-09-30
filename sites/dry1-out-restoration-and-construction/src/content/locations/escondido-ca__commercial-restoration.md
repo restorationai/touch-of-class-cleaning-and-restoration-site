@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "942a7ceddd76ba6a"
-generated_at: "2026-09-29T14:31:48.374632+00:00"
+generated_at: "2026-09-30T19:28:33.760583+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/escondido-ca/", "/service-areas/escondido-ca/fire-damage-restoration/", "/service-areas/escondido-ca/mold-remediation/", "/service-areas/berkeley-ca/commercial-restoration/", "/service-areas/carlsbad-ca/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Escondido", "url": "/service-areas/escondido-ca/"}, {"name": "commercial-restoration"}]

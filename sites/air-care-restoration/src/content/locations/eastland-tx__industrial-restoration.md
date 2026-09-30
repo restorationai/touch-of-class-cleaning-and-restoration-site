@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "fe57b749435fb6d0"
-generated_at: "2026-09-30T14:12:01.800262+00:00"
+generated_at: "2026-09-30T19:28:20.036270+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/eastland-tx/", "/service-areas/eastland-tx/fire-damage-restoration/", "/service-areas/eastland-tx/mold-remediation/", "/service-areas/albany-tx/industrial-restoration/", "/service-areas/anson-tx/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Eastland", "url": "/service-areas/eastland-tx/"}, {"name": "industrial-restoration"}]

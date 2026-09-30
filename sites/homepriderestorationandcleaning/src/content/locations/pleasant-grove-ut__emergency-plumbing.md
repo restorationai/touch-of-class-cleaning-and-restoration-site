@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "f0fac296f1fbeb92"
-generated_at: "2026-09-30T14:12:14.547927+00:00"
+generated_at: "2026-09-30T19:28:45.079532+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/pleasant-grove-ut/", "/service-areas/pleasant-grove-ut/fire-damage-restoration/", "/service-areas/pleasant-grove-ut/mold-remediation/", "/service-areas/alpine-ut/emergency-plumbing/", "/service-areas/american-fork-ut/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pleasant Grove", "url": "/service-areas/pleasant-grove-ut/"}, {"name": "emergency-plumbing"}]

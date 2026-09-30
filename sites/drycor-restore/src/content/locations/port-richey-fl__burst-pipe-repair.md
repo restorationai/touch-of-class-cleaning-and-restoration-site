@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "c600330ece4696e0"
-generated_at: "2026-09-29T23:28:29.620180+00:00"
+generated_at: "2026-09-30T19:28:35.907969+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/port-richey-fl/", "/service-areas/port-richey-fl/fire-damage-restoration/", "/service-areas/port-richey-fl/mold-remediation/", "/service-areas/anna-maria-fl/burst-pipe-repair/", "/service-areas/apollo-beach-fl/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Port Richey", "url": "/service-areas/port-richey-fl/"}, {"name": "Burst Pipe Cleanup and Repair"}]

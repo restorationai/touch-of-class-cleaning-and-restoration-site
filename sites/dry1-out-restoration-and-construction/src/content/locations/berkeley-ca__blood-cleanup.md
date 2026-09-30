@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "10aa3f70a8569346"
-generated_at: "2026-09-29T23:31:28.393742+00:00"
+generated_at: "2026-09-30T19:28:33.847556+00:00"
 manual_override: false
 internal_links: ["/services/blood-cleanup/", "/service-areas/berkeley-ca/", "/service-areas/berkeley-ca/fire-damage-restoration/", "/service-areas/berkeley-ca/mold-remediation/", "/service-areas/carlsbad-ca/blood-cleanup/", "/service-areas/chula-vista-ca/blood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Berkeley", "url": "/service-areas/berkeley-ca/"}, {"name": "Blood Cleanup"}]

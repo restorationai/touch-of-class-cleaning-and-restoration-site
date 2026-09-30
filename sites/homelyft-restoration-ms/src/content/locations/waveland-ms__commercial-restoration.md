@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "5811e140504f1f91"
-generated_at: "2026-09-30T14:12:12.927279+00:00"
+generated_at: "2026-09-30T19:28:43.467182+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/waveland-ms/", "/service-areas/waveland-ms/fire-damage-restoration/", "/service-areas/waveland-ms/mold-remediation/", "/service-areas/agricola-ms/commercial-restoration/", "/service-areas/bay-st-louis-ms/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Waveland", "url": "/service-areas/waveland-ms/"}, {"name": "commercial-restoration"}]

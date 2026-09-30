@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe break water damage", "water lin
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "279e32cebe0e540c"
-generated_at: "2026-09-29T23:13:48.874282+00:00"
+generated_at: "2026-09-30T19:28:41.651282+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/sobieski-mn/", "/service-areas/sobieski-mn/fire-damage-restoration/", "/service-areas/sobieski-mn/mold-remediation/", "/service-areas/albany-mn/burst-pipe-repair/", "/service-areas/avon-mn/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sobieski", "url": "/service-areas/sobieski-mn/"}, {"name": "Burst Pipe Cleanup and Repair"}]

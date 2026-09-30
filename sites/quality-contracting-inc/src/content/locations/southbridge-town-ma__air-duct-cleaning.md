@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "7c0248bfd8e5f377"
-generated_at: "2026-09-30T14:12:26.010390+00:00"
+generated_at: "2026-09-30T19:28:57.193314+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/southbridge-town-ma/", "/service-areas/southbridge-town-ma/fire-damage-restoration/", "/service-areas/southbridge-town-ma/mold-remediation/", "/service-areas/bellingham-ma/air-duct-cleaning/", "/service-areas/east-douglas-ma/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Southbridge Town", "url": "/service-areas/southbridge-town-ma/"}, {"name": "Air Duct Cleaning"}]

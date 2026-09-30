@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "4a0ccf8f0920cddc"
-generated_at: "2026-09-29T23:13:48.910118+00:00"
+generated_at: "2026-09-30T19:28:41.699554+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/harding-mn/", "/service-areas/harding-mn/fire-damage-restoration/", "/service-areas/harding-mn/mold-remediation/", "/service-areas/albany-mn/mold-inspection-testing/", "/service-areas/avon-mn/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Harding", "url": "/service-areas/harding-mn/"}, {"name": "Mold Inspection and Testing"}]

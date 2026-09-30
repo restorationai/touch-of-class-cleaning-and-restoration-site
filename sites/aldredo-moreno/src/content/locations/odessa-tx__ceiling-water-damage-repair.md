@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "f399176e68853713"
-generated_at: "2026-09-30T14:12:02.625258+00:00"
+generated_at: "2026-09-30T19:28:20.835367+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/odessa-tx/", "/service-areas/odessa-tx/fire-damage-restoration/", "/service-areas/odessa-tx/mold-remediation/", "/service-areas/andrews-tx/ceiling-water-damage-repair/", "/service-areas/big-lake-tx/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Odessa", "url": "/service-areas/odessa-tx/"}, {"name": "ceiling-water-damage-repair"}]

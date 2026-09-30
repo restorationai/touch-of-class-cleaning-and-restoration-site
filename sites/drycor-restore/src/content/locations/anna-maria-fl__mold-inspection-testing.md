@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "a2a82264bb1f7179"
-generated_at: "2026-09-29T23:28:29.545756+00:00"
+generated_at: "2026-09-30T19:28:35.797845+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/anna-maria-fl/", "/service-areas/anna-maria-fl/fire-damage-restoration/", "/service-areas/anna-maria-fl/mold-remediation/", "/service-areas/apollo-beach-fl/mold-inspection-testing/", "/service-areas/auburndale-fl/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Anna Maria", "url": "/service-areas/anna-maria-fl/"}, {"name": "Mold Inspection and Testing"}]

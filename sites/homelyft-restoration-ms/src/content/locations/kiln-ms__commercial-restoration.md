@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "adbc3a626c7c918c"
-generated_at: "2026-09-30T14:12:12.913147+00:00"
+generated_at: "2026-09-30T19:28:43.450301+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/kiln-ms/", "/service-areas/kiln-ms/fire-damage-restoration/", "/service-areas/kiln-ms/mold-remediation/", "/service-areas/agricola-ms/commercial-restoration/", "/service-areas/bay-st-louis-ms/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Kiln", "url": "/service-areas/kiln-ms/"}, {"name": "commercial-restoration"}]

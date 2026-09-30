@@ -1,22 +1,22 @@
 # Site Plan Report — Veterans Remediation & Restoration 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-21T14:13:30.554986+00:00
+- Generated: 2026-09-30T19:28:48.454334+00:00
 - Domain: `veteransremediation.com`
-- Services selected: 5 of 65 catalog entries
+- Services selected: 20 of 91 catalog entries
 - Service areas: 21
 - Cross-product enabled: True
-- Total URLs: **142**
-- Total internal links: 1091 (avg 7.7 per page)
+- Total URLs: **457**
+- Total internal links: 3735 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 100 |
+| `service-area-service` | 400 |
+| `service-landing` | 20 |
 | `service-area` | 20 |
 | `blog-post` | 8 |
-| `service-landing` | 5 |
 | `legal` | 3 |
 | `home` | 1 |
 | `services-hub` | 1 |
@@ -27,11 +27,26 @@
 
 ## Selected services
 
-- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
+- `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `mold-remediation` — Mold Remediation (core, priority 10)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
-- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
+- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
+- `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
+- `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
+- `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
+- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
+- `smoke-damage-restoration` — Smoke Damage Restoration (core, priority 9)
+- `mold-inspection-testing` — Mold Inspection and Testing (core, priority 8)
+- `commercial-restoration` — Commercial Restoration (core, priority 9)
+- `industrial-restoration` — Industrial Restoration (core, priority 7)
+- `reconstruction` — Reconstruction Services (core, priority 9)
+- `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
+- `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
+- `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
+- `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
+- `water-leak-detection` — Water Leak Detection (core, priority 7)
+- `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 
 ## Service areas
 
@@ -64,13 +79,13 @@
 | `/services/fire-damage-restoration/` | `service-landing` | 9.0 | fire damage restoration freeport |
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation freeport |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration freeport |
-| `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration freeport |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup freeport |
-| `/service-areas/crestview-fl/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration crestview |
-| `/service-areas/crestview-fl/mold-remediation/` | `service-area-service` | 7.0 | mold remediation crestview |
-| `/service-areas/crestview-fl/water-damage-restoration/` | `service-area-service` | 7.0 | water damage restoration crestview |
-| `/service-areas/defuniak-springs-fl/fire-damage-restoration/` | `service-area-service` | 7.0 | fire damage restoration defuniak springs |
-| `/service-areas/defuniak-springs-fl/mold-remediation/` | `service-area-service` | 7.0 | mold remediation defuniak springs |
+| `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration freeport |
+| `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing freeport |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup freeport |
+| `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration freeport |
+| `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services freeport |
+| `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization freeport |
+| `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration freeport |
 
 ## Validation
 

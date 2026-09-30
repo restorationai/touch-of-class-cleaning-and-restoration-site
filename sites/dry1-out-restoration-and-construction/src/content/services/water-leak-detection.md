@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "aef758b7a839cbe1"
-generated_at: "2026-09-29T14:31:48.307974+00:00"
+generated_at: "2026-09-30T19:28:33.686066+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/water-leak-detection/", "/service-areas/carlsbad-ca/water-leak-detection/", "/service-areas/chula-vista-ca/water-leak-detection/", "/service-areas/concord-ca/water-leak-detection/", "/service-areas/el-cajon-ca/water-leak-detection/", "/service-areas/encinitas-ca/water-leak-detection/", "/service-areas/escondido-ca/water-leak-detection/", "/service-areas/fremont-ca/water-leak-detection/", "/service-areas/hayward-ca/water-leak-detection/", "/service-areas/oakland-ca/water-leak-detection/", "/service-areas/oceanside-ca/water-leak-detection/", "/service-areas/san-diego-ca/water-leak-detection/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "water-leak-detection"}]

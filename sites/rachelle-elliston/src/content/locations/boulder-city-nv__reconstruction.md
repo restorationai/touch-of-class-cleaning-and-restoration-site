@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "9104c8056c0ff60d"
-generated_at: "2026-09-28T20:50:26.596078+00:00"
+generated_at: "2026-09-30T19:28:58.526628+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/boulder-city-nv/", "/service-areas/boulder-city-nv/fire-damage-restoration/", "/service-areas/boulder-city-nv/mold-remediation/", "/service-areas/blue-diamond-nv/reconstruction/", "/service-areas/enterprise-nv/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Boulder City", "url": "/service-areas/boulder-city-nv/"}, {"name": "reconstruction"}]

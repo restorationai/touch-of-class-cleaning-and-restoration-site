@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "915126744e40dfbf"
-generated_at: "2026-09-30T14:12:14.556640+00:00"
+generated_at: "2026-09-30T19:28:45.090918+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/provo-ut/", "/service-areas/provo-ut/fire-damage-restoration/", "/service-areas/provo-ut/mold-remediation/", "/service-areas/alpine-ut/general-contracting/", "/service-areas/american-fork-ut/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Provo", "url": "/service-areas/provo-ut/"}, {"name": "general-contracting"}]

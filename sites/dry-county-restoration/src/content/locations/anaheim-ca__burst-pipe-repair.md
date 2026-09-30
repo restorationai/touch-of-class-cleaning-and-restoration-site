@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "e273eef9f059be6d"
-generated_at: "2026-09-30T14:12:09.622032+00:00"
+generated_at: "2026-09-30T19:28:32.695972+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/anaheim-ca/", "/service-areas/anaheim-ca/fire-damage-restoration/", "/service-areas/anaheim-ca/mold-remediation/", "/service-areas/chino-ca/burst-pipe-repair/", "/service-areas/chino-hills-ca/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Anaheim", "url": "/service-areas/anaheim-ca/"}, {"name": "Burst Pipe Cleanup and Repair"}]

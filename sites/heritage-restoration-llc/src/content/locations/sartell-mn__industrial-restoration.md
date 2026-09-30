@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "d5b8cdcf97f2fe79"
-generated_at: "2026-09-29T23:13:48.850644+00:00"
+generated_at: "2026-09-30T19:28:41.608059+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/sartell-mn/", "/service-areas/sartell-mn/fire-damage-restoration/", "/service-areas/sartell-mn/mold-remediation/", "/service-areas/albany-mn/industrial-restoration/", "/service-areas/avon-mn/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sartell", "url": "/service-areas/sartell-mn/"}, {"name": "Industrial Restoration"}]

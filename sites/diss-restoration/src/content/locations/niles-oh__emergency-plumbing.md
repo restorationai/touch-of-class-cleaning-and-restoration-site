@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "23b650e064443c77"
-generated_at: "2026-09-30T14:12:07.110434+00:00"
+generated_at: "2026-09-30T19:28:30.073075+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/niles-oh/", "/service-areas/niles-oh/fire-damage-restoration/", "/service-areas/niles-oh/mold-remediation/", "/service-areas/austintown-oh/emergency-plumbing/", "/service-areas/boardman-oh/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Niles", "url": "/service-areas/niles-oh/"}, {"name": "emergency-plumbing"}]

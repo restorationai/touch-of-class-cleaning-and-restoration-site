@@ -303,6 +303,13 @@
       "source": "containment",
       "at": "2026-09-30"
     },
+    "General contractor": {
+      "verdict": "mapped",
+      "page": "general-contracting",
+      "reason": "same-service cluster as general-contracting",
+      "source": "cluster",
+      "at": "2026-09-30"
+    },
     "Graffiti Removal": {
       "verdict": "mapped",
       "page": "vandalism-graffiti-removal",
@@ -476,6 +483,12 @@
       "page": "emergency-board-up-tarping",
       "reason": "house alias",
       "source": "alias",
+      "at": "2026-09-30"
+    },
+    "Roofing contractor": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
       "at": "2026-09-30"
     },
     "Roofing Services": {

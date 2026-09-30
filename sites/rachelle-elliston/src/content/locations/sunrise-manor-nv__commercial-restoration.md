@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "c4c2ae5e9e6f6052"
-generated_at: "2026-09-28T20:50:26.588079+00:00"
+generated_at: "2026-09-30T19:28:58.512225+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/sunrise-manor-nv/", "/service-areas/sunrise-manor-nv/fire-damage-restoration/", "/service-areas/sunrise-manor-nv/mold-remediation/", "/service-areas/blue-diamond-nv/commercial-restoration/", "/service-areas/boulder-city-nv/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sunrise Manor", "url": "/service-areas/sunrise-manor-nv/"}, {"name": "commercial-restoration"}]

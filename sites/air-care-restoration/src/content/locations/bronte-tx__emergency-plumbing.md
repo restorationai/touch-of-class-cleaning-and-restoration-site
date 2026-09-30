@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "f6db08e58ed53061"
-generated_at: "2026-09-30T14:12:01.774590+00:00"
+generated_at: "2026-09-30T19:28:19.995809+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/bronte-tx/", "/service-areas/bronte-tx/fire-damage-restoration/", "/service-areas/bronte-tx/mold-remediation/", "/service-areas/albany-tx/emergency-plumbing/", "/service-areas/anson-tx/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bronte", "url": "/service-areas/bronte-tx/"}, {"name": "emergency-plumbing"}]

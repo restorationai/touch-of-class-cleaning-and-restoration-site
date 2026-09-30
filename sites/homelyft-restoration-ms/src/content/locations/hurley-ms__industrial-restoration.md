@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "0e812cf63a241c63"
-generated_at: "2026-09-30T14:12:12.980048+00:00"
+generated_at: "2026-09-30T19:28:43.528726+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/hurley-ms/", "/service-areas/hurley-ms/fire-damage-restoration/", "/service-areas/hurley-ms/mold-remediation/", "/service-areas/agricola-ms/industrial-restoration/", "/service-areas/bay-st-louis-ms/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hurley", "url": "/service-areas/hurley-ms/"}, {"name": "industrial-restoration"}]

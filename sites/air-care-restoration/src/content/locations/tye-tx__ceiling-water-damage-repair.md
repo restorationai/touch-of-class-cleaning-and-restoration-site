@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "1ef82c4a54a80057"
-generated_at: "2026-09-30T14:12:01.753358+00:00"
+generated_at: "2026-09-30T19:28:19.964553+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/tye-tx/", "/service-areas/tye-tx/fire-damage-restoration/", "/service-areas/tye-tx/mold-remediation/", "/service-areas/albany-tx/ceiling-water-damage-repair/", "/service-areas/anson-tx/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tye", "url": "/service-areas/tye-tx/"}, {"name": "ceiling-water-damage-repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "6c33984124606dc4"
-generated_at: "2026-09-30T14:12:09.617666+00:00"
+generated_at: "2026-09-30T19:28:32.691559+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/riverside-ca/", "/service-areas/riverside-ca/fire-damage-restoration/", "/service-areas/riverside-ca/mold-remediation/", "/service-areas/anaheim-ca/industrial-restoration/", "/service-areas/chino-ca/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Riverside", "url": "/service-areas/riverside-ca/"}, {"name": "Industrial Restoration"}]

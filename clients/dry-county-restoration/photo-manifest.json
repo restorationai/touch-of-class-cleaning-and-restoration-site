@@ -1343,6 +1343,17 @@
       "triaged_at": "2026-08-09T14:10:48Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipOVybX69P504gk0mYrE5NiZILNvHnW1r2alLB_l": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOVybX69P504gk0mYrE5NiZILNvHnW1r2alLB_l.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1786204636937/job-photos/posted/gbp-AF1QipOVybX69P504gk0mYrE5NiZILNvHnW1r2alLB_l.jpg",
+      "width": 1151,
+      "height": 860,
+      "bytes": 160746,
+      "sha1": "8c821d38dde38d75",
+      "exif": {},
+      "duplicate_of": "gbp:gbp-AF1QipOSbYGhp39BdDiQU-xdZPbBbnqpJqlG_C8aX1Jh"
+    },
     "gbp:gbp-AF1QipOWtQ-0D5pBPMWqFB23_pG8Urqtm_34OvqN4LJw": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipOWtQ-0D5pBPMWqFB23_pG8Urqtm_34OvqN4LJw.jpg",

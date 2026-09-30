@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "6e3ec0b58b56c409"
-generated_at: "2026-09-23T14:11:38.287374+00:00"
+generated_at: "2026-09-30T19:28:35.891325+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/oldsmar-fl/", "/service-areas/oldsmar-fl/fire-damage-restoration/", "/service-areas/oldsmar-fl/mold-remediation/", "/service-areas/anna-maria-fl/emergency-plumbing/", "/service-areas/apollo-beach-fl/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oldsmar", "url": "/service-areas/oldsmar-fl/"}, {"name": "Emergency Plumbing"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "af86c606f209c77f"
-generated_at: "2026-09-30T14:12:07.090211+00:00"
+generated_at: "2026-09-30T19:28:30.046246+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/austintown-oh/industrial-restoration/", "/service-areas/boardman-oh/industrial-restoration/", "/service-areas/campbell-oh/industrial-restoration/", "/service-areas/canfield-oh/industrial-restoration/", "/service-areas/farrell-pa/industrial-restoration/", "/service-areas/girard-oh/industrial-restoration/", "/service-areas/greenville-pa/industrial-restoration/", "/service-areas/grove-city-pa/industrial-restoration/", "/service-areas/hermitage-pa/industrial-restoration/", "/service-areas/hubbard-oh/industrial-restoration/", "/service-areas/mercer-pa/industrial-restoration/", "/service-areas/mineral-ridge-oh/industrial-restoration/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "industrial-restoration"}]

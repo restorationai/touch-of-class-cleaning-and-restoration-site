@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "566b50c1e13121f1"
-generated_at: "2026-09-30T14:12:01.784807+00:00"
+generated_at: "2026-09-30T19:28:20.010874+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/snyder-tx/", "/service-areas/snyder-tx/fire-damage-restoration/", "/service-areas/snyder-tx/mold-remediation/", "/service-areas/albany-tx/burst-pipe-repair/", "/service-areas/anson-tx/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Snyder", "url": "/service-areas/snyder-tx/"}, {"name": "burst-pipe-repair"}]

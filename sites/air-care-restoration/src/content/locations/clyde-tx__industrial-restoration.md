@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "ea7b1824a961a3b7"
-generated_at: "2026-09-30T14:12:01.741318+00:00"
+generated_at: "2026-09-30T19:28:19.950939+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/clyde-tx/", "/service-areas/clyde-tx/fire-damage-restoration/", "/service-areas/clyde-tx/mold-remediation/", "/service-areas/albany-tx/industrial-restoration/", "/service-areas/anson-tx/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Clyde", "url": "/service-areas/clyde-tx/"}, {"name": "industrial-restoration"}]

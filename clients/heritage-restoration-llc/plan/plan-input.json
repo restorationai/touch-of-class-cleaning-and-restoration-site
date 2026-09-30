@@ -33,17 +33,15 @@
     "hide_mobile_header_call": "true"
   },
   "services": [
-    "water-damage-restoration",
-    "storm-damage-restoration",
-    "general-contracting",
-    "fire-damage-restoration",
-    "roofing",
     "basement-flooding-cleanup",
     "burst-pipe-repair",
     "ceiling-water-damage-repair",
     "commercial-restoration",
     "emergency-plumbing",
+    "emergency-water-removal",
+    "fire-damage-restoration",
     "flood-damage-restoration",
+    "general-contracting",
     "industrial-restoration",
     "job-type-id-basement-remodeling",
     "job-type-id-bathroom-remodeling",
@@ -52,8 +50,12 @@
     "mold-remediation",
     "reconstruction",
     "remodeler",
+    "roofing",
     "sewage-cleanup",
     "smoke-damage-restoration",
+    "storm-damage-restoration",
+    "water-cleanup",
+    "water-damage-restoration",
     "water-heater-flood-cleanup",
     "water-leak-detection"
   ],
@@ -176,5 +178,18 @@
     }
   ],
   "template": "restoration",
-  "blog_seed_count": 8
+  "blog_seed_count": 8,
+  "homepage_services": [
+    "water-damage-restoration",
+    "fire-damage-restoration",
+    "storm-damage-restoration",
+    "roofing",
+    "general-contracting",
+    "basement-flooding-cleanup"
+  ],
+  "merged_services": {
+    "general-contractor": "general-contracting",
+    "job-type-id-construction": "general-contracting",
+    "water-cleanup": "emergency-water-removal"
+  }
 }

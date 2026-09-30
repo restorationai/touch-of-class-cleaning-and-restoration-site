@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "af75dedc8c85feb5"
-generated_at: "2026-09-23T14:11:42.633598+00:00"
+generated_at: "2026-09-30T19:28:38.060709+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/summit-wa/", "/service-areas/summit-wa/fire-damage-restoration/", "/service-areas/summit-wa/mold-remediation/", "/service-areas/anderson-island-wa/emergency-plumbing/", "/service-areas/auburn-wa/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Summit", "url": "/service-areas/summit-wa/"}, {"name": "Emergency Plumbing"}]

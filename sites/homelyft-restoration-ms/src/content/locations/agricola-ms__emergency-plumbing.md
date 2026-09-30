@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "144f5696cfd6b31b"
-generated_at: "2026-09-30T14:12:13.009111+00:00"
+generated_at: "2026-09-30T19:28:43.563446+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/agricola-ms/", "/service-areas/agricola-ms/fire-damage-restoration/", "/service-areas/agricola-ms/mold-remediation/", "/service-areas/bay-st-louis-ms/emergency-plumbing/", "/service-areas/benndale-ms/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Agricola", "url": "/service-areas/agricola-ms/"}, {"name": "emergency-plumbing"}]

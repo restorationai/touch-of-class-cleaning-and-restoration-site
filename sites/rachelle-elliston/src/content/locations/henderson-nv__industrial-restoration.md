@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "2ec0d732d2032e4c"
-generated_at: "2026-09-28T20:50:26.580708+00:00"
+generated_at: "2026-09-30T19:28:58.498541+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/henderson-nv/", "/service-areas/henderson-nv/fire-damage-restoration/", "/service-areas/henderson-nv/mold-remediation/", "/service-areas/blue-diamond-nv/industrial-restoration/", "/service-areas/boulder-city-nv/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Henderson", "url": "/service-areas/henderson-nv/"}, {"name": "industrial-restoration"}]

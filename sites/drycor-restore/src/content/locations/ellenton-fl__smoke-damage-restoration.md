@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "a1cb6e30b2b70034"
-generated_at: "2026-09-29T23:28:29.562979+00:00"
+generated_at: "2026-09-30T19:28:35.831135+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/ellenton-fl/", "/service-areas/ellenton-fl/fire-damage-restoration/", "/service-areas/ellenton-fl/mold-remediation/", "/service-areas/anna-maria-fl/smoke-damage-restoration/", "/service-areas/apollo-beach-fl/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Ellenton", "url": "/service-areas/ellenton-fl/"}, {"name": "Smoke Damage Restoration"}]

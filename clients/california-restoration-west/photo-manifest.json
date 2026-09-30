@@ -3577,6 +3577,31 @@
       "triaged_at": "2026-09-09T21:35:13Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipOxN4tHnnsFRRR03cJPd1MOtUn7mM5v7bXGbzJg": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipOxN4tHnnsFRRR03cJPd1MOtUn7mM5v7bXGbzJg.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1787707972245/job-photos/posted/gbp-AF1QipOxN4tHnnsFRRR03cJPd1MOtUn7mM5v7bXGbzJg.jpg",
+      "width": 2560,
+      "height": 2560,
+      "bytes": 459481,
+      "sha1": "60d0575023b11efd",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Company logo with crossed hammers and house shield emblem",
+      "quality": 80,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "logo_card"
+      ],
+      "reason": "Designed logo lockup, not a photograph of work or crew.",
+      "triaged_at": "2026-09-30T19:30:07Z",
+      "triage_model": "claude-sonnet-5"
+    },
     "gbp:gbp-AF1QipPBxRH2p0n6-j43aXIYiFM5bOrKs4q_-gJcEWk_": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipPBxRH2p0n6-j43aXIYiFM5bOrKs4q_-gJcEWk_.jpg",
@@ -3919,5 +3944,5 @@
       "file": "/images/services.webp"
     }
   },
-  "triaged_at": "2026-09-09T21:35:13Z"
+  "triaged_at": "2026-09-30T19:30:07Z"
 }

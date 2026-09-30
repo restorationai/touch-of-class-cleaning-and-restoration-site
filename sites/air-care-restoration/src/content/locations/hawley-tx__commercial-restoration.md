@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "0185b624be8459c8"
-generated_at: "2026-09-30T14:12:01.811992+00:00"
+generated_at: "2026-09-30T19:28:20.054691+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/hawley-tx/", "/service-areas/hawley-tx/fire-damage-restoration/", "/service-areas/hawley-tx/mold-remediation/", "/service-areas/albany-tx/commercial-restoration/", "/service-areas/anson-tx/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hawley", "url": "/service-areas/hawley-tx/"}, {"name": "commercial-restoration"}]

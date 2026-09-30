@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 8.1
 plan_hash: "de926e3dac14fa86"
-generated_at: "2026-09-29T23:13:48.842296+00:00"
+generated_at: "2026-09-30T19:28:41.594365+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/albany-mn/commercial-restoration/", "/service-areas/avon-mn/commercial-restoration/", "/service-areas/baxter-mn/commercial-restoration/", "/service-areas/brainerd-mn/commercial-restoration/", "/service-areas/elmdale-mn/commercial-restoration/", "/service-areas/flensburg-mn/commercial-restoration/", "/service-areas/foley-mn/commercial-restoration/", "/service-areas/fort-ripley-mn/commercial-restoration/", "/service-areas/harding-mn/commercial-restoration/", "/service-areas/long-prairie-mn/commercial-restoration/", "/service-areas/pierz-mn/commercial-restoration/", "/service-areas/randall-mn/commercial-restoration/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Commercial Restoration"}]

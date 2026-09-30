@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "6c11e67d98e1446a"
-generated_at: "2026-09-29T23:13:48.856374+00:00"
+generated_at: "2026-09-30T19:28:41.620823+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/sauk-rapids-mn/", "/service-areas/sauk-rapids-mn/fire-damage-restoration/", "/service-areas/sauk-rapids-mn/mold-remediation/", "/service-areas/albany-mn/reconstruction/", "/service-areas/avon-mn/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sauk Rapids", "url": "/service-areas/sauk-rapids-mn/"}, {"name": "Reconstruction Services"}]

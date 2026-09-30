@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "8b698d0496cb89c6"
-generated_at: "2026-09-30T14:12:09.647613+00:00"
+generated_at: "2026-09-30T19:28:32.717664+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/fullerton-ca/", "/service-areas/fullerton-ca/fire-damage-restoration/", "/service-areas/fullerton-ca/mold-remediation/", "/service-areas/anaheim-ca/smoke-damage-restoration/", "/service-areas/chino-ca/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fullerton", "url": "/service-areas/fullerton-ca/"}, {"name": "Smoke Damage Restoration"}]

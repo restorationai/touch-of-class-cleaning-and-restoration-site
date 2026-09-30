@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "43e0a516f589be22"
-generated_at: "2026-09-30T14:12:12.884542+00:00"
+generated_at: "2026-09-30T19:28:43.415370+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/long-beach-ms/", "/service-areas/long-beach-ms/fire-damage-restoration/", "/service-areas/long-beach-ms/mold-remediation/", "/service-areas/agricola-ms/burst-pipe-repair/", "/service-areas/bay-st-louis-ms/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Long Beach", "url": "/service-areas/long-beach-ms/"}, {"name": "burst-pipe-repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "e62c242568169759"
-generated_at: "2026-09-29T23:28:29.586141+00:00"
+generated_at: "2026-09-30T19:28:35.863789+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/lithia-fl/", "/service-areas/lithia-fl/fire-damage-restoration/", "/service-areas/lithia-fl/mold-remediation/", "/service-areas/anna-maria-fl/burst-pipe-repair/", "/service-areas/apollo-beach-fl/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lithia", "url": "/service-areas/lithia-fl/"}, {"name": "Burst Pipe Cleanup and Repair"}]

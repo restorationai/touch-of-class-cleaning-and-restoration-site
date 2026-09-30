@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "d2c7abe15fc024b3"
-generated_at: "2026-09-30T14:12:01.750706+00:00"
+generated_at: "2026-09-30T19:28:19.962066+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/tuscola-tx/", "/service-areas/tuscola-tx/fire-damage-restoration/", "/service-areas/tuscola-tx/mold-remediation/", "/service-areas/albany-tx/water-leak-detection/", "/service-areas/anson-tx/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tuscola", "url": "/service-areas/tuscola-tx/"}, {"name": "water-leak-detection"}]

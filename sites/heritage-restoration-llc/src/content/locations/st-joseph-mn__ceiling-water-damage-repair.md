@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "f8d95545e876fc8e"
-generated_at: "2026-09-29T23:13:48.928651+00:00"
+generated_at: "2026-09-30T19:28:41.731082+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/st-joseph-mn/", "/service-areas/st-joseph-mn/fire-damage-restoration/", "/service-areas/st-joseph-mn/mold-remediation/", "/service-areas/albany-mn/ceiling-water-damage-repair/", "/service-areas/avon-mn/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "St. Joseph", "url": "/service-areas/st-joseph-mn/"}, {"name": "Ceiling Water Damage Repair"}]

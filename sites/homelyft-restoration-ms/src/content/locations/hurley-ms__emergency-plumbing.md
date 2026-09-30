@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "12a13196ee64ad48"
-generated_at: "2026-09-30T14:12:12.980869+00:00"
+generated_at: "2026-09-30T19:28:43.530281+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/hurley-ms/", "/service-areas/hurley-ms/fire-damage-restoration/", "/service-areas/hurley-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-plumbing/", "/service-areas/bay-st-louis-ms/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hurley", "url": "/service-areas/hurley-ms/"}, {"name": "emergency-plumbing"}]

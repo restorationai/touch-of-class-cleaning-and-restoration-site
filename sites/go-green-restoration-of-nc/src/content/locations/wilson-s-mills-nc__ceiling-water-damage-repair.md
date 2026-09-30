@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "ef1c2eec6793eb09"
-generated_at: "2026-09-29T23:13:49.319169+00:00"
+generated_at: "2026-09-30T19:28:39.713270+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/wilson-s-mills-nc/", "/service-areas/wilson-s-mills-nc/fire-damage-restoration/", "/service-areas/wilson-s-mills-nc/mold-remediation/", "/service-areas/archer-lodge-nc/ceiling-water-damage-repair/", "/service-areas/clayton-nc/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wilson's Mills", "url": "/service-areas/wilson-s-mills-nc/"}, {"name": "Ceiling Water Damage Repair"}]

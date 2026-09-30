@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "6cd9d4611df2b40c"
-generated_at: "2026-09-30T14:12:14.652660+00:00"
+generated_at: "2026-09-30T19:28:45.316254+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/alpine-ut/", "/service-areas/alpine-ut/fire-damage-restoration/", "/service-areas/alpine-ut/mold-remediation/", "/service-areas/american-fork-ut/industrial-restoration/", "/service-areas/benjamin-ut/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Alpine", "url": "/service-areas/alpine-ut/"}, {"name": "industrial-restoration"}]

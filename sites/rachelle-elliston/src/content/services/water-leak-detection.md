@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "cd4d9a73b584ed6d"
-generated_at: "2026-09-28T20:50:26.575993+00:00"
+generated_at: "2026-09-30T19:28:58.485110+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/blue-diamond-nv/water-leak-detection/", "/service-areas/boulder-city-nv/water-leak-detection/", "/service-areas/enterprise-nv/water-leak-detection/", "/service-areas/henderson-nv/water-leak-detection/", "/service-areas/indian-springs-nv/water-leak-detection/", "/service-areas/las-vegas-nv/water-leak-detection/", "/service-areas/moapa-town-nv/water-leak-detection/", "/service-areas/moapa-valley-nv/water-leak-detection/", "/service-areas/mount-charleston-nv/water-leak-detection/", "/service-areas/nelson-nv/water-leak-detection/", "/service-areas/pahrump-nv/water-leak-detection/", "/service-areas/paradise-nv/water-leak-detection/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "water-leak-detection"}]

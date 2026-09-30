@@ -8,7 +8,7 @@ secondary_keywords: ["large loss restoration", "catastrophic loss response", "co
 search_intent: "local_b2b"
 priority: 5.6
 plan_hash: "a30c155214d31b3a"
-generated_at: "2026-09-30T14:12:14.680105+00:00"
+generated_at: "2026-09-30T19:28:45.355255+00:00"
 manual_override: false
 internal_links: ["/services/large-loss-response/", "/service-areas/benjamin-ut/", "/service-areas/benjamin-ut/fire-damage-restoration/", "/service-areas/benjamin-ut/mold-remediation/", "/service-areas/alpine-ut/large-loss-response/", "/service-areas/american-fork-ut/large-loss-response/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Benjamin", "url": "/service-areas/benjamin-ut/"}, {"name": "large-loss-response"}]

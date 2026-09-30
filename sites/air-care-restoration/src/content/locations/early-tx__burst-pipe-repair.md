@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "28aebdafe2b08376"
-generated_at: "2026-09-30T14:12:01.761155+00:00"
+generated_at: "2026-09-30T19:28:19.974035+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/early-tx/", "/service-areas/early-tx/fire-damage-restoration/", "/service-areas/early-tx/mold-remediation/", "/service-areas/albany-tx/burst-pipe-repair/", "/service-areas/anson-tx/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Early", "url": "/service-areas/early-tx/"}, {"name": "burst-pipe-repair"}]

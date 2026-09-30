@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "9fe9598c73f37738"
-generated_at: "2026-09-23T14:11:44.856497+00:00"
+generated_at: "2026-09-30T19:28:39.749921+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/elm-city-nc/", "/service-areas/elm-city-nc/fire-damage-restoration/", "/service-areas/elm-city-nc/mold-remediation/", "/service-areas/archer-lodge-nc/biohazard-cleanup/", "/service-areas/clayton-nc/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Elm City", "url": "/service-areas/elm-city-nc/"}, {"name": "Biohazard Cleanup"}]

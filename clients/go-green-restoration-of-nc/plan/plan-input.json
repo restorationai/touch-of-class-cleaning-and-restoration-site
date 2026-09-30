@@ -19,28 +19,30 @@
   },
   "services": [
     "air-duct-cleaning",
-    "biohazard-cleanup",
-    "carpet-cleaning",
-    "crawl-space-encapsulation",
-    "fire-damage-restoration",
-    "insulation-removal-installation",
-    "mold-remediation",
-    "odor-removal",
-    "water-damage-restoration",
+    "air-duct-hvac-cleaning",
     "basement-flooding-cleanup",
+    "biohazard-cleanup",
     "burst-pipe-repair",
+    "carpet-cleaning",
+    "carpet-upholstery-cleaning",
     "ceiling-water-damage-repair",
     "commercial-restoration",
+    "crawl-space-encapsulation",
     "emergency-plumbing",
+    "fire-damage-restoration",
     "flood-damage-restoration",
     "general-contracting",
     "industrial-restoration",
+    "insulation-removal-installation",
     "large-loss-response",
     "mold-inspection-testing",
+    "mold-remediation",
+    "odor-removal",
     "reconstruction",
     "sewage-cleanup",
     "smoke-damage-restoration",
     "storm-damage-restoration",
+    "water-damage-restoration",
     "water-heater-flood-cleanup",
     "water-leak-detection"
   ],
@@ -286,5 +288,18 @@
     }
   ],
   "template": "restoration",
-  "blog_seed_count": 8
+  "blog_seed_count": 8,
+  "homepage_services": [
+    "fire-damage-restoration",
+    "mold-remediation",
+    "water-damage-restoration",
+    "air-duct-cleaning",
+    "crawl-space-encapsulation",
+    "insulation-removal-installation"
+  ],
+  "merged_services": {
+    "air-duct-hvac-cleaning": "air-duct-cleaning",
+    "carpet-upholstery-cleaning": "carpet-cleaning",
+    "water-cleanup": "emergency-water-removal"
+  }
 }

@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "9ffd2939a242d83c"
-generated_at: "2026-09-29T23:13:48.849762+00:00"
+generated_at: "2026-09-30T19:28:41.606649+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/sartell-mn/", "/service-areas/sartell-mn/fire-damage-restoration/", "/service-areas/sartell-mn/mold-remediation/", "/service-areas/albany-mn/ceiling-water-damage-repair/", "/service-areas/avon-mn/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sartell", "url": "/service-areas/sartell-mn/"}, {"name": "Ceiling Water Damage Repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["post construction cleanup", "construction debris cleaning"
 search_intent: "local_service"
 priority: 2.8
 plan_hash: "790130c8886bd7cf"
-generated_at: "2026-09-30T14:12:14.559357+00:00"
+generated_at: "2026-09-30T19:28:45.094773+00:00"
 manual_override: false
 internal_links: ["/services/post-construction-cleaning/", "/service-areas/herriman-ut/", "/service-areas/herriman-ut/fire-damage-restoration/", "/service-areas/herriman-ut/mold-remediation/", "/service-areas/alpine-ut/post-construction-cleaning/", "/service-areas/american-fork-ut/post-construction-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Herriman", "url": "/service-areas/herriman-ut/"}, {"name": "Post-Construction and Specialty Cleaning"}]

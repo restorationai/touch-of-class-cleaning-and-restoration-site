@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "ce9cfbcfccf220ca"
-generated_at: "2026-09-29T14:31:48.403552+00:00"
+generated_at: "2026-09-30T19:28:33.794559+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/hayward-ca/", "/service-areas/hayward-ca/mold-remediation/", "/service-areas/hayward-ca/water-damage-restoration/", "/service-areas/berkeley-ca/fire-damage-restoration/", "/service-areas/carlsbad-ca/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hayward", "url": "/service-areas/hayward-ca/"}, {"name": "Fire Damage Restoration"}]

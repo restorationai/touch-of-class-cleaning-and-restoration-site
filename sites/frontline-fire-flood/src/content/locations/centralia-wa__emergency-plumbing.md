@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "cbd2fb77dabb5748"
-generated_at: "2026-09-23T14:11:42.594825+00:00"
+generated_at: "2026-09-30T19:28:37.991185+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/centralia-wa/", "/service-areas/centralia-wa/fire-damage-restoration/", "/service-areas/centralia-wa/mold-remediation/", "/service-areas/anderson-island-wa/emergency-plumbing/", "/service-areas/auburn-wa/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Centralia", "url": "/service-areas/centralia-wa/"}, {"name": "Emergency Plumbing"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["sofa cleaning", "couch cleaning", "furniture steam cleanin
 search_intent: "local_specialty"
 priority: 2.8
 plan_hash: "ab2d5c76c95237fc"
-generated_at: "2026-09-30T14:12:19.466353+00:00"
+generated_at: "2026-09-30T19:28:48.308788+00:00"
 manual_override: false
 internal_links: ["/services/upholstery-cleaning/", "/service-areas/fox-chapel-pa/", "/service-areas/fox-chapel-pa/fire-damage-restoration/", "/service-areas/fox-chapel-pa/roofing/", "/service-areas/allison-park-pa/upholstery-cleaning/", "/service-areas/baldwin-pa/upholstery-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fox Chapel", "url": "/service-areas/fox-chapel-pa/"}, {"name": "Upholstery Cleaning"}]

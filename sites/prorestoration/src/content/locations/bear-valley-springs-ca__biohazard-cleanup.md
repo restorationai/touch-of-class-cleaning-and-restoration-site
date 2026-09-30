@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "31aa2cf2f692db0b"
-generated_at: "2026-09-30T14:12:23.096991+00:00"
+generated_at: "2026-09-30T19:28:54.666037+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/bear-valley-springs-ca/", "/service-areas/bear-valley-springs-ca/fire-damage-restoration/", "/service-areas/bear-valley-springs-ca/home-remodeling/", "/service-areas/arvin-ca/biohazard-cleanup/", "/service-areas/buttonwillow-ca/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bear Valley Springs", "url": "/service-areas/bear-valley-springs-ca/"}, {"name": "Biohazard Cleanup"}]

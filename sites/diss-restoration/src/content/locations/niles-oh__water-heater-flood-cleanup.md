@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "7cb323fdc0b2abbd"
-generated_at: "2026-09-30T14:12:07.110070+00:00"
+generated_at: "2026-09-30T19:28:30.072445+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/niles-oh/", "/service-areas/niles-oh/fire-damage-restoration/", "/service-areas/niles-oh/mold-remediation/", "/service-areas/austintown-oh/water-heater-flood-cleanup/", "/service-areas/boardman-oh/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Niles", "url": "/service-areas/niles-oh/"}, {"name": "water-heater-flood-cleanup"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "ce929ed77a677bc9"
-generated_at: "2026-09-30T14:12:02.651033+00:00"
+generated_at: "2026-09-30T19:28:20.879810+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/crane-tx/", "/service-areas/crane-tx/mold-remediation/", "/service-areas/crane-tx/water-damage-restoration/", "/service-areas/andrews-tx/fire-damage-restoration/", "/service-areas/big-lake-tx/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Crane", "url": "/service-areas/crane-tx/"}, {"name": "fire-damage-restoration"}]

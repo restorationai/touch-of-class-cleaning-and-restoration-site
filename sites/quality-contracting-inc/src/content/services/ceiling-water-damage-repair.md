@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 7.2
 plan_hash: "aea9a9419218199b"
-generated_at: "2026-09-30T14:12:25.908762+00:00"
+generated_at: "2026-09-30T19:28:56.909829+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/ceiling-water-damage-repair/", "/service-areas/east-douglas-ma/ceiling-water-damage-repair/", "/service-areas/fiskdale-ma/ceiling-water-damage-repair/", "/service-areas/framingham-ma/ceiling-water-damage-repair/", "/service-areas/franklin-town-ma/ceiling-water-damage-repair/", "/service-areas/hopkinton-ma/ceiling-water-damage-repair/", "/service-areas/hudson-ma/ceiling-water-damage-repair/", "/service-areas/leominster-ma/ceiling-water-damage-repair/", "/service-areas/marlborough-ma/ceiling-water-damage-repair/", "/service-areas/maynard-ma/ceiling-water-damage-repair/", "/service-areas/milford-ma/ceiling-water-damage-repair/", "/service-areas/natick-ma/ceiling-water-damage-repair/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "ceiling-water-damage-repair"}]

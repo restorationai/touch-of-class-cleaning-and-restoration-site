@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "ff3462a7d39d9a55"
-generated_at: "2026-09-30T14:12:19.464493+00:00"
+generated_at: "2026-09-30T19:28:48.306763+00:00"
 manual_override: false
 internal_links: ["/services/emergency-board-up-tarping/", "/service-areas/fox-chapel-pa/", "/service-areas/fox-chapel-pa/fire-damage-restoration/", "/service-areas/fox-chapel-pa/roofing/", "/service-areas/allison-park-pa/emergency-board-up-tarping/", "/service-areas/baldwin-pa/emergency-board-up-tarping/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fox Chapel", "url": "/service-areas/fox-chapel-pa/"}, {"name": "Emergency Board-Up and Tarping"}]

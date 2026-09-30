@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "87fc81615438d4a1"
-generated_at: "2026-09-23T14:11:38.252885+00:00"
+generated_at: "2026-09-30T19:28:35.687296+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/plant-city-fl/", "/service-areas/plant-city-fl/fire-damage-restoration/", "/service-areas/plant-city-fl/mold-remediation/", "/service-areas/anna-maria-fl/emergency-plumbing/", "/service-areas/apollo-beach-fl/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Plant City", "url": "/service-areas/plant-city-fl/"}, {"name": "Emergency Plumbing"}]

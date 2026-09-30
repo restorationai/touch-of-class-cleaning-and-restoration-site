@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "0220ef4c7cf53c38"
-generated_at: "2026-09-29T23:13:49.317016+00:00"
+generated_at: "2026-09-30T19:28:39.707258+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/knightdale-nc/", "/service-areas/knightdale-nc/fire-damage-restoration/", "/service-areas/knightdale-nc/mold-remediation/", "/service-areas/archer-lodge-nc/industrial-restoration/", "/service-areas/clayton-nc/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Knightdale", "url": "/service-areas/knightdale-nc/"}, {"name": "Industrial Restoration"}]

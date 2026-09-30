@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "3da84fcad143bd08"
-generated_at: "2026-09-30T14:12:09.707926+00:00"
+generated_at: "2026-09-30T19:28:32.771206+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/yorba-linda-ca/", "/service-areas/yorba-linda-ca/fire-damage-restoration/", "/service-areas/yorba-linda-ca/mold-remediation/", "/service-areas/anaheim-ca/air-duct-cleaning/", "/service-areas/chino-ca/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Yorba Linda", "url": "/service-areas/yorba-linda-ca/"}, {"name": "Air Duct Cleaning"}]

@@ -32,13 +32,15 @@
     "canvas_law": "off"
   },
   "services": [
-    "water-damage-restoration",
-    "sewage-cleanup",
-    "fire-damage-restoration",
     "content-recovery",
     "emergency-board-up",
+    "emergency-water-removal",
     "environmental-consultants",
-    "ice-dams"
+    "fire-damage-restoration",
+    "ice-dams",
+    "sewage-cleanup",
+    "water-cleanup",
+    "water-damage-restoration"
   ],
   "service_areas": [
     {
@@ -94,5 +96,16 @@
     "reconstruction",
     "general-contracting",
     "emergency-plumbing"
-  ]
+  ],
+  "homepage_services": [
+    "water-damage-restoration",
+    "fire-damage-restoration",
+    "sewage-cleanup",
+    "emergency-board-up",
+    "content-recovery",
+    "ice-dams"
+  ],
+  "merged_services": {
+    "water-cleanup": "emergency-water-removal"
+  }
 }

@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "4b7378b12e7be550"
-generated_at: "2026-09-29T23:28:29.505176+00:00"
+generated_at: "2026-09-30T19:28:35.740971+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/riverview-fl/", "/service-areas/riverview-fl/fire-damage-restoration/", "/service-areas/riverview-fl/mold-remediation/", "/service-areas/anna-maria-fl/ceiling-water-damage-repair/", "/service-areas/apollo-beach-fl/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Riverview", "url": "/service-areas/riverview-fl/"}, {"name": "Ceiling Water Damage Repair"}]

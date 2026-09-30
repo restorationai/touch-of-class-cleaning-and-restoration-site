@@ -51,6 +51,13 @@
       "reason": "Room-specific mold remediation variant",
       "at": "2026-09-30"
     },
+    "Bathroom remodeler": {
+      "verdict": "mapped",
+      "page": "bathroom-remodeling",
+      "reason": "bathroom-remodeler was merged into bathroom-remodeling",
+      "source": "merged",
+      "at": "2026-09-30"
+    },
     "Bathroom Remodeling": {
       "verdict": "mapped",
       "page": "bathroom-remodeling",
@@ -227,6 +234,12 @@
       "source": "exact",
       "at": "2026-09-30"
     },
+    "Fire damage restoration service": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
+      "at": "2026-09-30"
+    },
     "Garage Construction": {
       "verdict": "mapped",
       "page": "garage-construction",
@@ -239,6 +252,13 @@
       "page": "general-contracting",
       "reason": "name containment",
       "source": "containment",
+      "at": "2026-09-30"
+    },
+    "General contractor": {
+      "verdict": "mapped",
+      "page": "general-contracting",
+      "reason": "general-contractor was merged into general-contracting",
+      "source": "merged",
       "at": "2026-09-30"
     },
     "Hardwood Floor Water Damage": {
@@ -260,6 +280,12 @@
       "page": "storm-damage-restoration",
       "reason": "same-service cluster as storm-damage-restoration",
       "source": "cluster",
+      "at": "2026-09-30"
+    },
+    "Kitchen remodeler": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
       "at": "2026-09-30"
     },
     "Kitchen Remodeling": {
@@ -330,6 +356,13 @@
       "page": "post-construction-specialty-cleaning",
       "reason": "same name",
       "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Remodeler": {
+      "verdict": "mapped",
+      "page": "home-remodeling",
+      "reason": "same-service cluster as home-remodeling",
+      "source": "cluster",
       "at": "2026-09-30"
     },
     "Renovations, Remodels and General Contracting": {

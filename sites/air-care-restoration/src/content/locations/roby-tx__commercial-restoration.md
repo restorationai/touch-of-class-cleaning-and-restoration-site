@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "330c4d7522af502e"
-generated_at: "2026-09-30T14:12:01.764567+00:00"
+generated_at: "2026-09-30T19:28:19.979955+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/roby-tx/", "/service-areas/roby-tx/fire-damage-restoration/", "/service-areas/roby-tx/mold-remediation/", "/service-areas/albany-tx/commercial-restoration/", "/service-areas/anson-tx/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Roby", "url": "/service-areas/roby-tx/"}, {"name": "commercial-restoration"}]

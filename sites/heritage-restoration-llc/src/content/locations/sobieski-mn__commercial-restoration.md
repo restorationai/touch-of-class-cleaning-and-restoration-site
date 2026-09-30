@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "410554d3dce83678"
-generated_at: "2026-09-29T23:13:48.874571+00:00"
+generated_at: "2026-09-30T19:28:41.651972+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/sobieski-mn/", "/service-areas/sobieski-mn/fire-damage-restoration/", "/service-areas/sobieski-mn/mold-remediation/", "/service-areas/albany-mn/commercial-restoration/", "/service-areas/avon-mn/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sobieski", "url": "/service-areas/sobieski-mn/"}, {"name": "Commercial Restoration"}]

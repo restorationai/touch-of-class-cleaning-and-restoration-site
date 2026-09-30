@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "fd5ec0da07d5f803"
-generated_at: "2026-09-30T14:12:12.881376+00:00"
+generated_at: "2026-09-30T19:28:43.412993+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/latimer-ms/", "/service-areas/latimer-ms/fire-damage-restoration/", "/service-areas/latimer-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-plumbing/", "/service-areas/bay-st-louis-ms/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Latimer", "url": "/service-areas/latimer-ms/"}, {"name": "emergency-plumbing"}]

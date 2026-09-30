@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "105ba33627ebb731"
-generated_at: "2026-09-29T23:13:48.919444+00:00"
+generated_at: "2026-09-30T19:28:41.717424+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/long-prairie-mn/", "/service-areas/long-prairie-mn/fire-damage-restoration/", "/service-areas/long-prairie-mn/mold-remediation/", "/service-areas/albany-mn/smoke-damage-restoration/", "/service-areas/avon-mn/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Long Prairie", "url": "/service-areas/long-prairie-mn/"}, {"name": "Smoke Damage Restoration"}]

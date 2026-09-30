@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "b4baeb0317f42e11"
-generated_at: "2026-09-30T14:12:02.666107+00:00"
+generated_at: "2026-09-30T19:28:20.905452+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/imperial-tx/", "/service-areas/imperial-tx/mold-remediation/", "/service-areas/imperial-tx/water-damage-restoration/", "/service-areas/andrews-tx/fire-damage-restoration/", "/service-areas/big-lake-tx/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Imperial", "url": "/service-areas/imperial-tx/"}, {"name": "fire-damage-restoration"}]

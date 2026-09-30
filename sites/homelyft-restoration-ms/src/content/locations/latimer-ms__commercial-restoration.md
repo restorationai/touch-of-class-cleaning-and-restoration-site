@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "f98f884d213b1a3c"
-generated_at: "2026-09-30T14:12:12.880440+00:00"
+generated_at: "2026-09-30T19:28:43.411047+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/latimer-ms/", "/service-areas/latimer-ms/fire-damage-restoration/", "/service-areas/latimer-ms/mold-remediation/", "/service-areas/agricola-ms/commercial-restoration/", "/service-areas/bay-st-louis-ms/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Latimer", "url": "/service-areas/latimer-ms/"}, {"name": "commercial-restoration"}]

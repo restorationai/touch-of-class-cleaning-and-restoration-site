@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "5c1fb3c5e0d5da30"
-generated_at: "2026-09-30T14:12:25.997662+00:00"
+generated_at: "2026-09-30T19:28:57.178473+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/east-douglas-ma/", "/service-areas/east-douglas-ma/fire-damage-restoration/", "/service-areas/east-douglas-ma/mold-remediation/", "/service-areas/bellingham-ma/general-contracting/", "/service-areas/fiskdale-ma/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "East Douglas", "url": "/service-areas/east-douglas-ma/"}, {"name": "Renovations, Remodels and General Contracting"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "f9cd069a4021ab07"
-generated_at: "2026-09-29T14:31:48.445318+00:00"
+generated_at: "2026-09-30T19:28:33.853629+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/berkeley-ca/", "/service-areas/berkeley-ca/fire-damage-restoration/", "/service-areas/berkeley-ca/mold-remediation/", "/service-areas/carlsbad-ca/smoke-damage-restoration/", "/service-areas/chula-vista-ca/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Berkeley", "url": "/service-areas/berkeley-ca/"}, {"name": "smoke-damage-restoration"}]

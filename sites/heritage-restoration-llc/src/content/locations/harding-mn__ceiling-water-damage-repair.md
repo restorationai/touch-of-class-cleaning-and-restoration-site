@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "08b533fa2fe9c3f6"
-generated_at: "2026-09-29T23:13:48.908126+00:00"
+generated_at: "2026-09-30T19:28:41.696982+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/harding-mn/", "/service-areas/harding-mn/fire-damage-restoration/", "/service-areas/harding-mn/mold-remediation/", "/service-areas/albany-mn/ceiling-water-damage-repair/", "/service-areas/avon-mn/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Harding", "url": "/service-areas/harding-mn/"}, {"name": "Ceiling Water Damage Repair"}]

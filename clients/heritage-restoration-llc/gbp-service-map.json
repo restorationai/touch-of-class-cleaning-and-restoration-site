@@ -9,11 +9,94 @@
       "reason": "not a real service: Different trade, not restoration or remodeling service",
       "at": "2026-09-30"
     },
+    "Basement Remodeling": {
+      "verdict": "mapped",
+      "page": "job-type-id-basement-remodeling",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Bathroom Remodeling": {
+      "verdict": "mapped",
+      "page": "job-type-id-bathroom-remodeling",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Construction": {
+      "verdict": "mapped",
+      "page": "general-contracting",
+      "reason": "job-type-id-construction was merged into general-contracting",
+      "source": "merged",
+      "at": "2026-09-30"
+    },
     "Construction company": {
       "verdict": "mapped",
       "page": "general-contracting",
       "source": "claude",
       "reason": "General contracting/construction category label",
+      "at": "2026-09-30"
+    },
+    "Deck Construction": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
+      "at": "2026-09-30"
+    },
+    "General contractor": {
+      "verdict": "mapped",
+      "page": "general-contracting",
+      "reason": "general-contractor was merged into general-contracting",
+      "source": "merged",
+      "at": "2026-09-30"
+    },
+    "Handyman Remodeling": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
+      "at": "2026-09-30"
+    },
+    "Home Addition Construction": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
+      "at": "2026-09-30"
+    },
+    "Home Renovation": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
+      "at": "2026-09-30"
+    },
+    "Kitchen Remodeling": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
+      "at": "2026-09-30"
+    },
+    "New Building Construction": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
+      "at": "2026-09-30"
+    },
+    "New Home Construction": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
+      "at": "2026-09-30"
+    },
+    "Remodeler": {
+      "verdict": "mapped",
+      "page": "remodeler",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Roof Repair": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
       "at": "2026-09-30"
     }
   },

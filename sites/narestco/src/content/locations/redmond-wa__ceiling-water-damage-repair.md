@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "e99928de2b734e6a"
-generated_at: "2026-09-30T14:12:21.401701+00:00"
+generated_at: "2026-09-30T19:28:52.970981+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/redmond-wa/", "/service-areas/redmond-wa/fire-damage-restoration/", "/service-areas/redmond-wa/mold-remediation/", "/service-areas/algona-wa/ceiling-water-damage-repair/", "/service-areas/auburn-wa/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Redmond", "url": "/service-areas/redmond-wa/"}, {"name": "Ceiling Water Damage Repair"}]

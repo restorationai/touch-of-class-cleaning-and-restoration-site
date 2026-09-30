@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "a4f5dec0bc34cc5a"
-generated_at: "2026-09-23T14:12:04.453781+00:00"
+generated_at: "2026-09-30T19:29:00.330515+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/highland-park-tx/", "/service-areas/highland-park-tx/fire-damage-restoration/", "/service-areas/highland-park-tx/mold-remediation/", "/service-areas/allen-tx/roofing/", "/service-areas/caddo-mills-tx/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Highland Park", "url": "/service-areas/highland-park-tx/"}, {"name": "Roofing Installation and Replacement"}]

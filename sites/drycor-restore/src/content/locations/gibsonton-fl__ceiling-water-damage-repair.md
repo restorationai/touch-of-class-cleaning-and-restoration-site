@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "c6b43c9797871bc9"
-generated_at: "2026-09-29T23:28:29.567371+00:00"
+generated_at: "2026-09-30T19:28:35.837338+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/gibsonton-fl/", "/service-areas/gibsonton-fl/fire-damage-restoration/", "/service-areas/gibsonton-fl/mold-remediation/", "/service-areas/anna-maria-fl/ceiling-water-damage-repair/", "/service-areas/apollo-beach-fl/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gibsonton", "url": "/service-areas/gibsonton-fl/"}, {"name": "Ceiling Water Damage Repair"}]

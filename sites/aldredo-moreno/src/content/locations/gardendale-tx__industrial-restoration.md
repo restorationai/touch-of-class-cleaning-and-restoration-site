@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "9509084eda87b599"
-generated_at: "2026-09-30T14:12:02.636648+00:00"
+generated_at: "2026-09-30T19:28:20.854272+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/gardendale-tx/", "/service-areas/gardendale-tx/fire-damage-restoration/", "/service-areas/gardendale-tx/mold-remediation/", "/service-areas/andrews-tx/industrial-restoration/", "/service-areas/big-lake-tx/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gardendale", "url": "/service-areas/gardendale-tx/"}, {"name": "industrial-restoration"}]

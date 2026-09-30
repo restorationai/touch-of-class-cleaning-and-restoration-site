@@ -8,7 +8,7 @@ secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "066af0352dfb2203"
-generated_at: "2026-09-30T14:12:02.655747+00:00"
+generated_at: "2026-09-30T19:28:20.888268+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/monahans-tx/", "/service-areas/monahans-tx/fire-damage-restoration/", "/service-areas/monahans-tx/mold-remediation/", "/service-areas/andrews-tx/emergency-plumbing/", "/service-areas/big-lake-tx/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Monahans", "url": "/service-areas/monahans-tx/"}, {"name": "emergency-plumbing"}]

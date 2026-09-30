@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "db8893be20f13e53"
-generated_at: "2026-09-30T14:12:01.782387+00:00"
+generated_at: "2026-09-30T19:28:20.007456+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/san-angelo-tx/", "/service-areas/san-angelo-tx/fire-damage-restoration/", "/service-areas/san-angelo-tx/mold-remediation/", "/service-areas/albany-tx/commercial-restoration/", "/service-areas/anson-tx/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "San Angelo", "url": "/service-areas/san-angelo-tx/"}, {"name": "commercial-restoration"}]

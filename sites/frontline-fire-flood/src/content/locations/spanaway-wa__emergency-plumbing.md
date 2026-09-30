@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "9564231d97530340"
-generated_at: "2026-09-23T14:11:42.576716+00:00"
+generated_at: "2026-09-30T19:28:37.951736+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/spanaway-wa/", "/service-areas/spanaway-wa/fire-damage-restoration/", "/service-areas/spanaway-wa/mold-remediation/", "/service-areas/anderson-island-wa/emergency-plumbing/", "/service-areas/auburn-wa/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Spanaway", "url": "/service-areas/spanaway-wa/"}, {"name": "Emergency Plumbing"}]

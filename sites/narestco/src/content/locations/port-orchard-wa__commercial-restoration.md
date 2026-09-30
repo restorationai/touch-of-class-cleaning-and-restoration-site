@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "9765884a0d461a05"
-generated_at: "2026-09-30T14:12:21.423827+00:00"
+generated_at: "2026-09-30T19:28:52.986855+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/port-orchard-wa/", "/service-areas/port-orchard-wa/fire-damage-restoration/", "/service-areas/port-orchard-wa/mold-remediation/", "/service-areas/algona-wa/commercial-restoration/", "/service-areas/auburn-wa/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Port Orchard", "url": "/service-areas/port-orchard-wa/"}, {"name": "Commercial Restoration"}]

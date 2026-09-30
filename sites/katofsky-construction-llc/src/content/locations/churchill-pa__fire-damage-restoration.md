@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "47a8e7f5375ed314"
-generated_at: "2026-09-30T14:12:19.468800+00:00"
+generated_at: "2026-09-30T19:28:48.311008+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/churchill-pa/", "/service-areas/churchill-pa/roofing/", "/service-areas/churchill-pa/sewage-cleanup/", "/service-areas/allison-park-pa/fire-damage-restoration/", "/service-areas/baldwin-pa/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Churchill", "url": "/service-areas/churchill-pa/"}, {"name": "Fire Damage Restoration"}]

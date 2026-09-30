@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "4b086f71f8970958"
-generated_at: "2026-09-30T14:12:02.654243+00:00"
+generated_at: "2026-09-30T19:28:20.885406+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/monahans-tx/", "/service-areas/monahans-tx/fire-damage-restoration/", "/service-areas/monahans-tx/water-damage-restoration/", "/service-areas/andrews-tx/mold-remediation/", "/service-areas/big-lake-tx/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Monahans", "url": "/service-areas/monahans-tx/"}, {"name": "mold-remediation"}]

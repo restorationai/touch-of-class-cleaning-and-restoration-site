@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "e5ea2764976d7c7b"
-generated_at: "2026-09-29T23:31:28.366944+00:00"
+generated_at: "2026-09-30T19:28:33.737379+00:00"
 manual_override: false
 internal_links: ["/services/blood-cleanup/", "/service-areas/fremont-ca/", "/service-areas/fremont-ca/fire-damage-restoration/", "/service-areas/fremont-ca/mold-remediation/", "/service-areas/berkeley-ca/blood-cleanup/", "/service-areas/carlsbad-ca/blood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fremont", "url": "/service-areas/fremont-ca/"}, {"name": "Blood Cleanup"}]

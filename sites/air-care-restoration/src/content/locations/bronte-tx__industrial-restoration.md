@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "b2a91f4be0239a05"
-generated_at: "2026-09-30T14:12:01.773689+00:00"
+generated_at: "2026-09-30T19:28:19.993993+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/bronte-tx/", "/service-areas/bronte-tx/fire-damage-restoration/", "/service-areas/bronte-tx/mold-remediation/", "/service-areas/albany-tx/industrial-restoration/", "/service-areas/anson-tx/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bronte", "url": "/service-areas/bronte-tx/"}, {"name": "industrial-restoration"}]

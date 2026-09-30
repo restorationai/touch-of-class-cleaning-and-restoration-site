@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "3885dc68f09722a0"
-generated_at: "2026-09-30T14:12:12.823740+00:00"
+generated_at: "2026-09-30T19:28:43.337107+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/eastabuchie-ms/", "/service-areas/eastabuchie-ms/fire-damage-restoration/", "/service-areas/eastabuchie-ms/mold-remediation/", "/service-areas/agricola-ms/burst-pipe-repair/", "/service-areas/bay-st-louis-ms/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Eastabuchie", "url": "/service-areas/eastabuchie-ms/"}, {"name": "burst-pipe-repair"}]

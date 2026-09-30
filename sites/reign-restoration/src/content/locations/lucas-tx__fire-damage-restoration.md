@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "dc9156bdc936ab19"
-generated_at: "2026-09-23T14:12:04.490469+00:00"
+generated_at: "2026-09-30T19:29:00.383237+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/lucas-tx/", "/service-areas/lucas-tx/mold-remediation/", "/service-areas/lucas-tx/roofing/", "/service-areas/allen-tx/fire-damage-restoration/", "/service-areas/caddo-mills-tx/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lucas", "url": "/service-areas/lucas-tx/"}, {"name": "Fire Damage Restoration"}]

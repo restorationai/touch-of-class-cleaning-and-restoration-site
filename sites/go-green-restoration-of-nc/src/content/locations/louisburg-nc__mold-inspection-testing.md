@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "6db606b5f6e442a3"
-generated_at: "2026-09-29T23:13:49.342438+00:00"
+generated_at: "2026-09-30T19:28:39.775667+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/louisburg-nc/", "/service-areas/louisburg-nc/fire-damage-restoration/", "/service-areas/louisburg-nc/mold-remediation/", "/service-areas/archer-lodge-nc/mold-inspection-testing/", "/service-areas/clayton-nc/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Louisburg", "url": "/service-areas/louisburg-nc/"}, {"name": "Mold Inspection and Testing"}]

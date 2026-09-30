@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 7.2
 plan_hash: "ca179f38ddaca22f"
-generated_at: "2026-09-29T14:31:48.302092+00:00"
+generated_at: "2026-09-30T19:28:33.680494+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/general-contracting/", "/service-areas/carlsbad-ca/general-contracting/", "/service-areas/chula-vista-ca/general-contracting/", "/service-areas/concord-ca/general-contracting/", "/service-areas/el-cajon-ca/general-contracting/", "/service-areas/encinitas-ca/general-contracting/", "/service-areas/escondido-ca/general-contracting/", "/service-areas/fremont-ca/general-contracting/", "/service-areas/hayward-ca/general-contracting/", "/service-areas/oakland-ca/general-contracting/", "/service-areas/oceanside-ca/general-contracting/", "/service-areas/san-diego-ca/general-contracting/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Renovations, Remodels and General Contracting"}]

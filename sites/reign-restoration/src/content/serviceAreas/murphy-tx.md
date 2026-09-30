@@ -7,10 +7,10 @@ primary_keyword: "restoration services murphy"
 secondary_keywords: ["murphy restoration company", "damage restoration murphy", "murphy disaster restoration"]
 search_intent: "local_commercial"
 priority: 4.8
-plan_hash: "65da7b158f739c4e"
-generated_at: "2026-09-23T14:12:04.437310+00:00"
+plan_hash: "84453e91ee9e1ca8"
+generated_at: "2026-09-30T19:29:00.304609+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/murphy-tx/fire-damage-restoration/", "/service-areas/murphy-tx/mold-remediation/", "/service-areas/murphy-tx/roofing/", "/service-areas/murphy-tx/water-damage-restoration/", "/service-areas/murphy-tx/storm-damage-restoration/", "/service-areas/murphy-tx/emergency-water-removal/", "/service-areas/murphy-tx/general-contracting/", "/service-areas/murphy-tx/odor-removal/", "/service-areas/murphy-tx/contents-restoration/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/murphy-tx/fire-damage-restoration/", "/service-areas/murphy-tx/mold-remediation/", "/service-areas/murphy-tx/roofing/", "/service-areas/murphy-tx/water-damage-restoration/", "/service-areas/murphy-tx/commercial-restoration/", "/service-areas/murphy-tx/emergency-plumbing/", "/service-areas/murphy-tx/emergency-water-removal/", "/service-areas/murphy-tx/flood-damage-restoration/", "/service-areas/murphy-tx/reconstruction/", "/service-areas/murphy-tx/sewage-cleanup/", "/service-areas/murphy-tx/smoke-damage-restoration/", "/service-areas/murphy-tx/storm-damage-restoration/", "/service-areas/murphy-tx/basement-flooding-cleanup/", "/service-areas/murphy-tx/burst-pipe-repair/", "/service-areas/murphy-tx/ceiling-water-damage-repair/", "/service-areas/murphy-tx/general-contracting/", "/service-areas/murphy-tx/large-loss-response/", "/service-areas/murphy-tx/mold-inspection-testing/", "/service-areas/murphy-tx/industrial-restoration/", "/service-areas/murphy-tx/odor-removal/", "/service-areas/murphy-tx/water-heater-flood-cleanup/", "/service-areas/murphy-tx/water-leak-detection/", "/service-areas/murphy-tx/contents-restoration/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Murphy"}]
 faq: []
 area_slug: "murphy-tx"

@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "6a580af86d7a3d70"
-generated_at: "2026-09-30T14:12:09.677115+00:00"
+generated_at: "2026-09-30T19:28:32.742316+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/eastvale-ca/", "/service-areas/eastvale-ca/fire-damage-restoration/", "/service-areas/eastvale-ca/mold-remediation/", "/service-areas/anaheim-ca/reconstruction/", "/service-areas/chino-ca/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Eastvale", "url": "/service-areas/eastvale-ca/"}, {"name": "Reconstruction Services"}]

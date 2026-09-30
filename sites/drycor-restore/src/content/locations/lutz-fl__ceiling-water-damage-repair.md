@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "118fae7506ec0984"
-generated_at: "2026-09-29T23:28:29.522899+00:00"
+generated_at: "2026-09-30T19:28:35.759780+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/lutz-fl/", "/service-areas/lutz-fl/fire-damage-restoration/", "/service-areas/lutz-fl/mold-remediation/", "/service-areas/anna-maria-fl/ceiling-water-damage-repair/", "/service-areas/apollo-beach-fl/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lutz", "url": "/service-areas/lutz-fl/"}, {"name": "Ceiling Water Damage Repair"}]

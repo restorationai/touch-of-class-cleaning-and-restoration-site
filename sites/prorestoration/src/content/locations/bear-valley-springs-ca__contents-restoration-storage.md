@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "b1392674ee86ef96"
-generated_at: "2026-09-30T14:12:23.097865+00:00"
+generated_at: "2026-09-30T19:28:54.666999+00:00"
 manual_override: false
 internal_links: ["/services/contents-restoration-storage/", "/service-areas/bear-valley-springs-ca/", "/service-areas/bear-valley-springs-ca/fire-damage-restoration/", "/service-areas/bear-valley-springs-ca/home-remodeling/", "/service-areas/arvin-ca/contents-restoration-storage/", "/service-areas/buttonwillow-ca/contents-restoration-storage/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bear Valley Springs", "url": "/service-areas/bear-valley-springs-ca/"}, {"name": "Contents Restoration & Storage"}]

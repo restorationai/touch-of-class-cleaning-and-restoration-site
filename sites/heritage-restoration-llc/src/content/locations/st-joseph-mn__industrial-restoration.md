@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "f13ea8f42b043e7d"
-generated_at: "2026-09-29T23:13:48.930164+00:00"
+generated_at: "2026-09-30T19:28:41.732747+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/st-joseph-mn/", "/service-areas/st-joseph-mn/fire-damage-restoration/", "/service-areas/st-joseph-mn/mold-remediation/", "/service-areas/albany-mn/industrial-restoration/", "/service-areas/avon-mn/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "St. Joseph", "url": "/service-areas/st-joseph-mn/"}, {"name": "Industrial Restoration"}]

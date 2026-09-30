@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "d9fd7cb82935ca09"
-generated_at: "2026-09-29T23:28:29.539051+00:00"
+generated_at: "2026-09-30T19:28:35.786405+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/winter-haven-fl/", "/service-areas/winter-haven-fl/fire-damage-restoration/", "/service-areas/winter-haven-fl/mold-remediation/", "/service-areas/anna-maria-fl/ceiling-water-damage-repair/", "/service-areas/apollo-beach-fl/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Winter Haven", "url": "/service-areas/winter-haven-fl/"}, {"name": "Ceiling Water Damage Repair"}]

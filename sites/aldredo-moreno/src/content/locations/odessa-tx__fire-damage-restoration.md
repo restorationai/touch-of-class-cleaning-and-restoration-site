@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "dcb03da61bdd3476"
-generated_at: "2026-09-30T14:12:02.624087+00:00"
+generated_at: "2026-09-30T19:28:20.832374+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/odessa-tx/", "/service-areas/odessa-tx/mold-remediation/", "/service-areas/odessa-tx/water-damage-restoration/", "/service-areas/andrews-tx/fire-damage-restoration/", "/service-areas/big-lake-tx/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Odessa", "url": "/service-areas/odessa-tx/"}, {"name": "fire-damage-restoration"}]

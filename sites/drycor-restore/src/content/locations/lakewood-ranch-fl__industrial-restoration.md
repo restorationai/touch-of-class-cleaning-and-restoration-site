@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "28428e4577a4df1f"
-generated_at: "2026-09-29T23:28:29.584164+00:00"
+generated_at: "2026-09-30T19:28:35.861159+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/lakewood-ranch-fl/", "/service-areas/lakewood-ranch-fl/fire-damage-restoration/", "/service-areas/lakewood-ranch-fl/mold-remediation/", "/service-areas/anna-maria-fl/industrial-restoration/", "/service-areas/apollo-beach-fl/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lakewood Ranch", "url": "/service-areas/lakewood-ranch-fl/"}, {"name": "Industrial Restoration"}]

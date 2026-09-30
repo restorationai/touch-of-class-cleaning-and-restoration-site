@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "571dd2f7ddfc9f82"
-generated_at: "2026-09-28T20:50:26.611140+00:00"
+generated_at: "2026-09-30T19:28:58.569056+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/sandy-valley-nv/", "/service-areas/sandy-valley-nv/fire-damage-restoration/", "/service-areas/sandy-valley-nv/mold-remediation/", "/service-areas/blue-diamond-nv/industrial-restoration/", "/service-areas/boulder-city-nv/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sandy Valley", "url": "/service-areas/sandy-valley-nv/"}, {"name": "industrial-restoration"}]

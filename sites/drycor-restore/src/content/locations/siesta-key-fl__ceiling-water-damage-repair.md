@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "87f47ee4d4a51d1a"
-generated_at: "2026-09-29T23:28:29.632200+00:00"
+generated_at: "2026-09-30T19:28:35.926051+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/siesta-key-fl/", "/service-areas/siesta-key-fl/fire-damage-restoration/", "/service-areas/siesta-key-fl/mold-remediation/", "/service-areas/anna-maria-fl/ceiling-water-damage-repair/", "/service-areas/apollo-beach-fl/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Siesta Key", "url": "/service-areas/siesta-key-fl/"}, {"name": "Ceiling Water Damage Repair"}]

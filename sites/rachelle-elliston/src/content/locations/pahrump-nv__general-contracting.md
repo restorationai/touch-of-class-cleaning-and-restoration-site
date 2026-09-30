@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "79196be83bfeac5c"
-generated_at: "2026-09-28T20:50:26.625590+00:00"
+generated_at: "2026-09-30T19:28:58.613519+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/pahrump-nv/", "/service-areas/pahrump-nv/fire-damage-restoration/", "/service-areas/pahrump-nv/mold-remediation/", "/service-areas/blue-diamond-nv/general-contracting/", "/service-areas/boulder-city-nv/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pahrump", "url": "/service-areas/pahrump-nv/"}, {"name": "Renovations, Remodels and General Contracting"}]

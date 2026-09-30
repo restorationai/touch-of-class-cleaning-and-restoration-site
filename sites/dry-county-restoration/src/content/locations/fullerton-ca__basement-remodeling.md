@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "b2f3c0bbbb0feccb"
-generated_at: "2026-09-30T14:12:09.642627+00:00"
+generated_at: "2026-09-30T19:28:32.713531+00:00"
 manual_override: false
 internal_links: ["/services/basement-remodeling/", "/service-areas/fullerton-ca/", "/service-areas/fullerton-ca/fire-damage-restoration/", "/service-areas/fullerton-ca/mold-remediation/", "/service-areas/anaheim-ca/basement-remodeling/", "/service-areas/chino-ca/basement-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fullerton", "url": "/service-areas/fullerton-ca/"}, {"name": "Basement Remodeling"}]

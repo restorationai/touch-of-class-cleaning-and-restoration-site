@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "083baeefbf1cb65e"
-generated_at: "2026-09-30T14:12:02.645746+00:00"
+generated_at: "2026-09-30T19:28:20.870771+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/west-odessa-tx/", "/service-areas/west-odessa-tx/fire-damage-restoration/", "/service-areas/west-odessa-tx/mold-remediation/", "/service-areas/andrews-tx/reconstruction/", "/service-areas/big-lake-tx/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "West Odessa", "url": "/service-areas/west-odessa-tx/"}, {"name": "reconstruction"}]

@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "c6b3b25e356f0adb"
-generated_at: "2026-09-29T23:13:48.872266+00:00"
+generated_at: "2026-09-30T19:28:41.647625+00:00"
 manual_override: false
 internal_links: ["/services/job-type-id-basement-remodeling/", "/service-areas/pierz-mn/", "/service-areas/pierz-mn/fire-damage-restoration/", "/service-areas/pierz-mn/mold-remediation/", "/service-areas/albany-mn/job-type-id-basement-remodeling/", "/service-areas/avon-mn/job-type-id-basement-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pierz", "url": "/service-areas/pierz-mn/"}, {"name": "Basement Remodeling"}]

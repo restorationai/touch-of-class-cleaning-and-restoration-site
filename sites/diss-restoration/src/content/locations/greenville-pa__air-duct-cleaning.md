@@ -8,7 +8,7 @@ secondary_keywords: ["duct cleaning", "HVAC duct cleaning", "air duct sanitizati
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "d7ad6227fbee14f7"
-generated_at: "2026-09-30T14:12:07.176691+00:00"
+generated_at: "2026-09-30T19:28:30.166923+00:00"
 manual_override: false
 internal_links: ["/services/air-duct-cleaning/", "/service-areas/greenville-pa/", "/service-areas/greenville-pa/fire-damage-restoration/", "/service-areas/greenville-pa/mold-remediation/", "/service-areas/austintown-oh/air-duct-cleaning/", "/service-areas/boardman-oh/air-duct-cleaning/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Greenville", "url": "/service-areas/greenville-pa/"}, {"name": "Air Duct Cleaning"}]

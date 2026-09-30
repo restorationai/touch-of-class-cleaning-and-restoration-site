@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "6fbf67203851b17a"
-generated_at: "2026-09-30T14:12:09.768717+00:00"
+generated_at: "2026-09-30T19:28:32.834774+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/villa-park-ca/", "/service-areas/villa-park-ca/fire-damage-restoration/", "/service-areas/villa-park-ca/mold-remediation/", "/service-areas/anaheim-ca/general-contracting/", "/service-areas/chino-ca/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Villa Park", "url": "/service-areas/villa-park-ca/"}, {"name": "Renovations, Remodels and General Contracting"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "cdf4231178321222"
-generated_at: "2026-09-29T23:13:49.306940+00:00"
+generated_at: "2026-09-30T19:28:39.683877+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/kenly-nc/", "/service-areas/kenly-nc/fire-damage-restoration/", "/service-areas/kenly-nc/mold-remediation/", "/service-areas/archer-lodge-nc/commercial-restoration/", "/service-areas/clayton-nc/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Kenly", "url": "/service-areas/kenly-nc/"}, {"name": "Commercial Restoration"}]

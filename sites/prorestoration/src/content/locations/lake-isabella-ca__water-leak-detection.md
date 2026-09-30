@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "4caae75f43939804"
-generated_at: "2026-09-30T14:12:23.008049+00:00"
+generated_at: "2026-09-30T19:28:54.580626+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/lake-isabella-ca/", "/service-areas/lake-isabella-ca/fire-damage-restoration/", "/service-areas/lake-isabella-ca/home-remodeling/", "/service-areas/arvin-ca/water-leak-detection/", "/service-areas/bear-valley-springs-ca/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Isabella", "url": "/service-areas/lake-isabella-ca/"}, {"name": "Water Leak Detection"}]

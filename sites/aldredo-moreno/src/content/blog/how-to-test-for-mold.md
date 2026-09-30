@@ -8,7 +8,7 @@ secondary_keywords: ["mold remediation", "mold inspection and testing"]
 search_intent: "informational_health"
 priority: 5.4
 plan_hash: "39aa50346175f2e4"
-generated_at: "2026-09-30T14:12:02.668317+00:00"
+generated_at: "2026-09-30T19:28:20.910136+00:00"
 manual_override: false
 internal_links: ["/blog/", "/services/mold-remediation/", "/services/mold-inspection-testing/", "/blog/choosing-a-restoration-company/", "/blog/signs-of-hidden-mold/", "/blog/black-mold-vs-regular-mold/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Blog", "url": "/blog/"}, {"name": "How To Test for Mold in Your Home (DIY Kits vs a Pro Inspection)"}]

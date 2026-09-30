@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 8.1
 plan_hash: "aa889f77fad5a907"
-generated_at: "2026-09-30T14:12:25.908007+00:00"
+generated_at: "2026-09-30T19:28:56.907658+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/smoke-damage-restoration/", "/service-areas/east-douglas-ma/smoke-damage-restoration/", "/service-areas/fiskdale-ma/smoke-damage-restoration/", "/service-areas/framingham-ma/smoke-damage-restoration/", "/service-areas/franklin-town-ma/smoke-damage-restoration/", "/service-areas/hopkinton-ma/smoke-damage-restoration/", "/service-areas/hudson-ma/smoke-damage-restoration/", "/service-areas/leominster-ma/smoke-damage-restoration/", "/service-areas/marlborough-ma/smoke-damage-restoration/", "/service-areas/maynard-ma/smoke-damage-restoration/", "/service-areas/milford-ma/smoke-damage-restoration/", "/service-areas/natick-ma/smoke-damage-restoration/", "/blog/fire-damage-restoration-process/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "smoke-damage-restoration"}]

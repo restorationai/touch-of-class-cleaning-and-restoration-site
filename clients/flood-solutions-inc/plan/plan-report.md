@@ -1,20 +1,20 @@
 # Site Plan Report — Flood Solutions inc
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-29T23:32:21.803686+00:00
+- Generated: 2026-09-30T19:28:36.097371+00:00
 - Domain: `floodsolutionsinc.com`
-- Services selected: 22 of 91 catalog entries
+- Services selected: 21 of 91 catalog entries
 - Service areas: 9
 - Cross-product enabled: True
-- Total URLs: **223**
-- Total internal links: 1803 (avg 8.1 per page)
+- Total URLs: **214**
+- Total internal links: 1727 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 176 |
-| `service-landing` | 22 |
+| `service-area-service` | 168 |
+| `service-landing` | 21 |
 | `service-area` | 8 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -27,14 +27,14 @@
 
 ## Selected services
 
-- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
-- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
-- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
-- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `content-recovery` — Content Recovery (adjacent, priority 5)
 - `emergency-board-up` — Emergency Board Up (adjacent, priority 5)
+- `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
 - `environmental-consultants` — Environmental Consultants (adjacent, priority 5)
+- `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `ice-dams` — Ice Dams (adjacent, priority 5)
+- `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
+- `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
 - `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
 - `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
@@ -48,7 +48,6 @@
 - `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
 - `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
-- `emergency-water-removal` — 24/7 Emergency Water Removal (core, priority 9)
 
 ## Service areas
 
@@ -70,12 +69,12 @@
 | `/services/mold-remediation/` | `service-landing` | 9.0 | mold remediation macomb |
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration macomb |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration macomb |
-| `/services/emergency-water-removal/` | `service-landing` | 8.1 | 24/7 emergency water removal macomb |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup macomb |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration macomb |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization macomb |
 | `/services/smoke-damage-restoration/` | `service-landing` | 8.1 | smoke damage restoration macomb |
 | `/services/storm-damage-restoration/` | `service-landing` | 8.1 | storm damage restoration macomb |
-| `/services/water-cleanup/` | `service-landing` | 8.1 | emergency water cleanup macomb |
+| `/services/basement-flooding-cleanup/` | `service-landing` | 7.2 | basement flooding cleanup macomb |
 
 ## Validation
 

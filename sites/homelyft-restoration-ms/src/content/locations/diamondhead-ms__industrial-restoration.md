@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "4068ff6182c8276a"
-generated_at: "2026-09-30T14:12:12.871181+00:00"
+generated_at: "2026-09-30T19:28:43.400281+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/diamondhead-ms/", "/service-areas/diamondhead-ms/fire-damage-restoration/", "/service-areas/diamondhead-ms/mold-remediation/", "/service-areas/agricola-ms/industrial-restoration/", "/service-areas/bay-st-louis-ms/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Diamondhead", "url": "/service-areas/diamondhead-ms/"}, {"name": "industrial-restoration"}]

@@ -1,9 +1,9 @@
 {
   "template": "restoration",
   "template_version": "0.3.0",
-  "generated_at": "2026-09-30T14:12:20.229753+00:00",
+  "generated_at": "2026-09-30T19:28:51.392023+00:00",
   "input_summary": {
-    "service_count": 42,
+    "service_count": 35,
     "service_area_count": 30,
     "cross_product": true,
     "blog_seed_count": 12
@@ -56,7 +56,6 @@
         "/services/sewage-cleanup/",
         "/services/smoke-damage-restoration/",
         "/services/storm-damage-restoration/",
-        "/services/water-cleanup/",
         "/services/basement-flooding-cleanup/",
         "/services/biohazard-cleanup/",
         "/services/burst-pipe-repair/",
@@ -69,9 +68,7 @@
         "/services/industrial-restoration/",
         "/services/odor-removal/",
         "/services/roof-leak-repair/",
-        "/services/soot-removal/",
         "/services/trauma-scene-cleanup/",
-        "/services/water-heater-flood-cleanup/",
         "/services/water-leak-detection/",
         "/services/appliance-leak-cleanup/",
         "/services/asbestos-abatement/",
@@ -79,12 +76,8 @@
         "/services/hoarding-cleanup/",
         "/services/unattended-death-cleanup/",
         "/services/air-duct-cleaning/",
-        "/services/air-duct-hvac-cleaning/",
-        "/services/basement-sewage-cleanup/",
-        "/services/basement-water-cleanup/",
         "/services/contents-restoration-storage/",
         "/services/crawl-space-encapsulation/",
-        "/services/vandalism-cleanup/",
         "/services/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
@@ -159,7 +152,6 @@
         "/services/sewage-cleanup/",
         "/services/smoke-damage-restoration/",
         "/services/storm-damage-restoration/",
-        "/services/water-cleanup/",
         "/services/basement-flooding-cleanup/",
         "/services/biohazard-cleanup/",
         "/services/burst-pipe-repair/",
@@ -172,9 +164,7 @@
         "/services/industrial-restoration/",
         "/services/odor-removal/",
         "/services/roof-leak-repair/",
-        "/services/soot-removal/",
         "/services/trauma-scene-cleanup/",
-        "/services/water-heater-flood-cleanup/",
         "/services/water-leak-detection/",
         "/services/appliance-leak-cleanup/",
         "/services/asbestos-abatement/",
@@ -182,12 +172,8 @@
         "/services/hoarding-cleanup/",
         "/services/unattended-death-cleanup/",
         "/services/air-duct-cleaning/",
-        "/services/air-duct-hvac-cleaning/",
-        "/services/basement-sewage-cleanup/",
-        "/services/basement-water-cleanup/",
         "/services/contents-restoration-storage/",
         "/services/crawl-space-encapsulation/",
-        "/services/vandalism-cleanup/",
         "/services/post-construction-cleaning/"
       ]
     },
@@ -997,6 +983,58 @@
         "/service-areas/gig-harbor-wa/emergency-plumbing/",
         "/service-areas/kent-wa/emergency-plumbing/",
         "/service-areas/kirkland-wa/emergency-plumbing/"
+      ]
+    },
+    {
+      "url_path": "/services/emergency-water-removal/",
+      "archetype": "service-landing",
+      "vars_keys": [
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Federal Way | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in Federal Way",
+      "meta_description": "24/7 emergency water removal & cleanup in Federal Way and surrounding areas. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup federal way",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 1100,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 8.1,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/",
+        "/contact/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
+        "/service-areas/bellevue-wa/emergency-water-removal/",
+        "/service-areas/bremerton-wa/emergency-water-removal/",
+        "/service-areas/burien-wa/emergency-water-removal/",
+        "/service-areas/des-moines-wa/emergency-water-removal/",
+        "/service-areas/edgewood-wa/emergency-water-removal/",
+        "/service-areas/everett-wa/emergency-water-removal/",
+        "/service-areas/fife-wa/emergency-water-removal/",
+        "/service-areas/gig-harbor-wa/emergency-water-removal/",
+        "/service-areas/kent-wa/emergency-water-removal/",
+        "/service-areas/kirkland-wa/emergency-water-removal/",
+        "/services/water-damage-restoration/"
       ]
     },
     {
@@ -2007,7 +2045,7 @@
         "/service-areas/gig-harbor-wa/water-damage-restoration/",
         "/service-areas/kent-wa/water-damage-restoration/",
         "/service-areas/kirkland-wa/water-damage-restoration/",
-        "/services/water-cleanup/",
+        "/services/emergency-water-removal/",
         "/blog/burst-pipe-emergency-checklist/",
         "/blog/what-to-do-first-24-hours-water-damage/",
         "/blog/choosing-a-restoration-company/"
@@ -2107,7 +2145,6 @@
         "/service-areas/seattle-wa/sewage-cleanup/",
         "/service-areas/seattle-wa/smoke-damage-restoration/",
         "/service-areas/seattle-wa/storm-damage-restoration/",
-        "/service-areas/seattle-wa/water-cleanup/",
         "/service-areas/seattle-wa/basement-flooding-cleanup/",
         "/service-areas/seattle-wa/biohazard-cleanup/",
         "/service-areas/seattle-wa/burst-pipe-repair/",
@@ -2120,9 +2157,7 @@
         "/service-areas/seattle-wa/industrial-restoration/",
         "/service-areas/seattle-wa/odor-removal/",
         "/service-areas/seattle-wa/roof-leak-repair/",
-        "/service-areas/seattle-wa/soot-removal/",
         "/service-areas/seattle-wa/trauma-scene-cleanup/",
-        "/service-areas/seattle-wa/water-heater-flood-cleanup/",
         "/service-areas/seattle-wa/water-leak-detection/",
         "/service-areas/seattle-wa/appliance-leak-cleanup/",
         "/service-areas/seattle-wa/asbestos-abatement/",
@@ -2130,12 +2165,8 @@
         "/service-areas/seattle-wa/hoarding-cleanup/",
         "/service-areas/seattle-wa/unattended-death-cleanup/",
         "/service-areas/seattle-wa/air-duct-cleaning/",
-        "/service-areas/seattle-wa/air-duct-hvac-cleaning/",
-        "/service-areas/seattle-wa/basement-sewage-cleanup/",
-        "/service-areas/seattle-wa/basement-water-cleanup/",
         "/service-areas/seattle-wa/contents-restoration-storage/",
         "/service-areas/seattle-wa/crawl-space-encapsulation/",
-        "/service-areas/seattle-wa/vandalism-cleanup/",
         "/service-areas/seattle-wa/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
@@ -2186,7 +2217,6 @@
         "/service-areas/bellevue-wa/sewage-cleanup/",
         "/service-areas/bellevue-wa/smoke-damage-restoration/",
         "/service-areas/bellevue-wa/storm-damage-restoration/",
-        "/service-areas/bellevue-wa/water-cleanup/",
         "/service-areas/bellevue-wa/basement-flooding-cleanup/",
         "/service-areas/bellevue-wa/biohazard-cleanup/",
         "/service-areas/bellevue-wa/burst-pipe-repair/",
@@ -2199,9 +2229,7 @@
         "/service-areas/bellevue-wa/industrial-restoration/",
         "/service-areas/bellevue-wa/odor-removal/",
         "/service-areas/bellevue-wa/roof-leak-repair/",
-        "/service-areas/bellevue-wa/soot-removal/",
         "/service-areas/bellevue-wa/trauma-scene-cleanup/",
-        "/service-areas/bellevue-wa/water-heater-flood-cleanup/",
         "/service-areas/bellevue-wa/water-leak-detection/",
         "/service-areas/bellevue-wa/appliance-leak-cleanup/",
         "/service-areas/bellevue-wa/asbestos-abatement/",
@@ -2209,12 +2237,8 @@
         "/service-areas/bellevue-wa/hoarding-cleanup/",
         "/service-areas/bellevue-wa/unattended-death-cleanup/",
         "/service-areas/bellevue-wa/air-duct-cleaning/",
-        "/service-areas/bellevue-wa/air-duct-hvac-cleaning/",
-        "/service-areas/bellevue-wa/basement-sewage-cleanup/",
-        "/service-areas/bellevue-wa/basement-water-cleanup/",
         "/service-areas/bellevue-wa/contents-restoration-storage/",
         "/service-areas/bellevue-wa/crawl-space-encapsulation/",
-        "/service-areas/bellevue-wa/vandalism-cleanup/",
         "/service-areas/bellevue-wa/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
@@ -2265,7 +2289,6 @@
         "/service-areas/tacoma-wa/sewage-cleanup/",
         "/service-areas/tacoma-wa/smoke-damage-restoration/",
         "/service-areas/tacoma-wa/storm-damage-restoration/",
-        "/service-areas/tacoma-wa/water-cleanup/",
         "/service-areas/tacoma-wa/basement-flooding-cleanup/",
         "/service-areas/tacoma-wa/biohazard-cleanup/",
         "/service-areas/tacoma-wa/burst-pipe-repair/",
@@ -2278,9 +2301,7 @@
         "/service-areas/tacoma-wa/industrial-restoration/",
         "/service-areas/tacoma-wa/odor-removal/",
         "/service-areas/tacoma-wa/roof-leak-repair/",
-        "/service-areas/tacoma-wa/soot-removal/",
         "/service-areas/tacoma-wa/trauma-scene-cleanup/",
-        "/service-areas/tacoma-wa/water-heater-flood-cleanup/",
         "/service-areas/tacoma-wa/water-leak-detection/",
         "/service-areas/tacoma-wa/appliance-leak-cleanup/",
         "/service-areas/tacoma-wa/asbestos-abatement/",
@@ -2288,12 +2309,8 @@
         "/service-areas/tacoma-wa/hoarding-cleanup/",
         "/service-areas/tacoma-wa/unattended-death-cleanup/",
         "/service-areas/tacoma-wa/air-duct-cleaning/",
-        "/service-areas/tacoma-wa/air-duct-hvac-cleaning/",
-        "/service-areas/tacoma-wa/basement-sewage-cleanup/",
-        "/service-areas/tacoma-wa/basement-water-cleanup/",
         "/service-areas/tacoma-wa/contents-restoration-storage/",
         "/service-areas/tacoma-wa/crawl-space-encapsulation/",
-        "/service-areas/tacoma-wa/vandalism-cleanup/",
         "/service-areas/tacoma-wa/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
@@ -2344,7 +2361,6 @@
         "/service-areas/everett-wa/sewage-cleanup/",
         "/service-areas/everett-wa/smoke-damage-restoration/",
         "/service-areas/everett-wa/storm-damage-restoration/",
-        "/service-areas/everett-wa/water-cleanup/",
         "/service-areas/everett-wa/basement-flooding-cleanup/",
         "/service-areas/everett-wa/biohazard-cleanup/",
         "/service-areas/everett-wa/burst-pipe-repair/",
@@ -2357,9 +2373,7 @@
         "/service-areas/everett-wa/industrial-restoration/",
         "/service-areas/everett-wa/odor-removal/",
         "/service-areas/everett-wa/roof-leak-repair/",
-        "/service-areas/everett-wa/soot-removal/",
         "/service-areas/everett-wa/trauma-scene-cleanup/",
-        "/service-areas/everett-wa/water-heater-flood-cleanup/",
         "/service-areas/everett-wa/water-leak-detection/",
         "/service-areas/everett-wa/appliance-leak-cleanup/",
         "/service-areas/everett-wa/asbestos-abatement/",
@@ -2367,12 +2381,8 @@
         "/service-areas/everett-wa/hoarding-cleanup/",
         "/service-areas/everett-wa/unattended-death-cleanup/",
         "/service-areas/everett-wa/air-duct-cleaning/",
-        "/service-areas/everett-wa/air-duct-hvac-cleaning/",
-        "/service-areas/everett-wa/basement-sewage-cleanup/",
-        "/service-areas/everett-wa/basement-water-cleanup/",
         "/service-areas/everett-wa/contents-restoration-storage/",
         "/service-areas/everett-wa/crawl-space-encapsulation/",
-        "/service-areas/everett-wa/vandalism-cleanup/",
         "/service-areas/everett-wa/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
@@ -2423,7 +2433,6 @@
         "/service-areas/kent-wa/sewage-cleanup/",
         "/service-areas/kent-wa/smoke-damage-restoration/",
         "/service-areas/kent-wa/storm-damage-restoration/",
-        "/service-areas/kent-wa/water-cleanup/",
         "/service-areas/kent-wa/basement-flooding-cleanup/",
         "/service-areas/kent-wa/biohazard-cleanup/",
         "/service-areas/kent-wa/burst-pipe-repair/",
@@ -2436,9 +2445,7 @@
         "/service-areas/kent-wa/industrial-restoration/",
         "/service-areas/kent-wa/odor-removal/",
         "/service-areas/kent-wa/roof-leak-repair/",
-        "/service-areas/kent-wa/soot-removal/",
         "/service-areas/kent-wa/trauma-scene-cleanup/",
-        "/service-areas/kent-wa/water-heater-flood-cleanup/",
         "/service-areas/kent-wa/water-leak-detection/",
         "/service-areas/kent-wa/appliance-leak-cleanup/",
         "/service-areas/kent-wa/asbestos-abatement/",
@@ -2446,12 +2453,8 @@
         "/service-areas/kent-wa/hoarding-cleanup/",
         "/service-areas/kent-wa/unattended-death-cleanup/",
         "/service-areas/kent-wa/air-duct-cleaning/",
-        "/service-areas/kent-wa/air-duct-hvac-cleaning/",
-        "/service-areas/kent-wa/basement-sewage-cleanup/",
-        "/service-areas/kent-wa/basement-water-cleanup/",
         "/service-areas/kent-wa/contents-restoration-storage/",
         "/service-areas/kent-wa/crawl-space-encapsulation/",
-        "/service-areas/kent-wa/vandalism-cleanup/",
         "/service-areas/kent-wa/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
@@ -2502,7 +2505,6 @@
         "/service-areas/renton-wa/sewage-cleanup/",
         "/service-areas/renton-wa/smoke-damage-restoration/",
         "/service-areas/renton-wa/storm-damage-restoration/",
-        "/service-areas/renton-wa/water-cleanup/",
         "/service-areas/renton-wa/basement-flooding-cleanup/",
         "/service-areas/renton-wa/biohazard-cleanup/",
         "/service-areas/renton-wa/burst-pipe-repair/",
@@ -2515,9 +2517,7 @@
         "/service-areas/renton-wa/industrial-restoration/",
         "/service-areas/renton-wa/odor-removal/",
         "/service-areas/renton-wa/roof-leak-repair/",
-        "/service-areas/renton-wa/soot-removal/",
         "/service-areas/renton-wa/trauma-scene-cleanup/",
-        "/service-areas/renton-wa/water-heater-flood-cleanup/",
         "/service-areas/renton-wa/water-leak-detection/",
         "/service-areas/renton-wa/appliance-leak-cleanup/",
         "/service-areas/renton-wa/asbestos-abatement/",
@@ -2525,12 +2525,8 @@
         "/service-areas/renton-wa/hoarding-cleanup/",
         "/service-areas/renton-wa/unattended-death-cleanup/",
         "/service-areas/renton-wa/air-duct-cleaning/",
-        "/service-areas/renton-wa/air-duct-hvac-cleaning/",
-        "/service-areas/renton-wa/basement-sewage-cleanup/",
-        "/service-areas/renton-wa/basement-water-cleanup/",
         "/service-areas/renton-wa/contents-restoration-storage/",
         "/service-areas/renton-wa/crawl-space-encapsulation/",
-        "/service-areas/renton-wa/vandalism-cleanup/",
         "/service-areas/renton-wa/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
@@ -2581,7 +2577,6 @@
         "/service-areas/auburn-wa/sewage-cleanup/",
         "/service-areas/auburn-wa/smoke-damage-restoration/",
         "/service-areas/auburn-wa/storm-damage-restoration/",
-        "/service-areas/auburn-wa/water-cleanup/",
         "/service-areas/auburn-wa/basement-flooding-cleanup/",
         "/service-areas/auburn-wa/biohazard-cleanup/",
         "/service-areas/auburn-wa/burst-pipe-repair/",
@@ -2594,9 +2589,7 @@
         "/service-areas/auburn-wa/industrial-restoration/",
         "/service-areas/auburn-wa/odor-removal/",
         "/service-areas/auburn-wa/roof-leak-repair/",
-        "/service-areas/auburn-wa/soot-removal/",
         "/service-areas/auburn-wa/trauma-scene-cleanup/",
-        "/service-areas/auburn-wa/water-heater-flood-cleanup/",
         "/service-areas/auburn-wa/water-leak-detection/",
         "/service-areas/auburn-wa/appliance-leak-cleanup/",
         "/service-areas/auburn-wa/asbestos-abatement/",
@@ -2604,12 +2597,8 @@
         "/service-areas/auburn-wa/hoarding-cleanup/",
         "/service-areas/auburn-wa/unattended-death-cleanup/",
         "/service-areas/auburn-wa/air-duct-cleaning/",
-        "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
-        "/service-areas/auburn-wa/basement-sewage-cleanup/",
-        "/service-areas/auburn-wa/basement-water-cleanup/",
         "/service-areas/auburn-wa/contents-restoration-storage/",
         "/service-areas/auburn-wa/crawl-space-encapsulation/",
-        "/service-areas/auburn-wa/vandalism-cleanup/",
         "/service-areas/auburn-wa/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/bellevue-wa/",
@@ -2660,7 +2649,6 @@
         "/service-areas/kirkland-wa/sewage-cleanup/",
         "/service-areas/kirkland-wa/smoke-damage-restoration/",
         "/service-areas/kirkland-wa/storm-damage-restoration/",
-        "/service-areas/kirkland-wa/water-cleanup/",
         "/service-areas/kirkland-wa/basement-flooding-cleanup/",
         "/service-areas/kirkland-wa/biohazard-cleanup/",
         "/service-areas/kirkland-wa/burst-pipe-repair/",
@@ -2673,9 +2661,7 @@
         "/service-areas/kirkland-wa/industrial-restoration/",
         "/service-areas/kirkland-wa/odor-removal/",
         "/service-areas/kirkland-wa/roof-leak-repair/",
-        "/service-areas/kirkland-wa/soot-removal/",
         "/service-areas/kirkland-wa/trauma-scene-cleanup/",
-        "/service-areas/kirkland-wa/water-heater-flood-cleanup/",
         "/service-areas/kirkland-wa/water-leak-detection/",
         "/service-areas/kirkland-wa/appliance-leak-cleanup/",
         "/service-areas/kirkland-wa/asbestos-abatement/",
@@ -2683,12 +2669,8 @@
         "/service-areas/kirkland-wa/hoarding-cleanup/",
         "/service-areas/kirkland-wa/unattended-death-cleanup/",
         "/service-areas/kirkland-wa/air-duct-cleaning/",
-        "/service-areas/kirkland-wa/air-duct-hvac-cleaning/",
-        "/service-areas/kirkland-wa/basement-sewage-cleanup/",
-        "/service-areas/kirkland-wa/basement-water-cleanup/",
         "/service-areas/kirkland-wa/contents-restoration-storage/",
         "/service-areas/kirkland-wa/crawl-space-encapsulation/",
-        "/service-areas/kirkland-wa/vandalism-cleanup/",
         "/service-areas/kirkland-wa/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
@@ -2739,7 +2721,6 @@
         "/service-areas/redmond-wa/sewage-cleanup/",
         "/service-areas/redmond-wa/smoke-damage-restoration/",
         "/service-areas/redmond-wa/storm-damage-restoration/",
-        "/service-areas/redmond-wa/water-cleanup/",
         "/service-areas/redmond-wa/basement-flooding-cleanup/",
         "/service-areas/redmond-wa/biohazard-cleanup/",
         "/service-areas/redmond-wa/burst-pipe-repair/",
@@ -2752,9 +2733,7 @@
         "/service-areas/redmond-wa/industrial-restoration/",
         "/service-areas/redmond-wa/odor-removal/",
         "/service-areas/redmond-wa/roof-leak-repair/",
-        "/service-areas/redmond-wa/soot-removal/",
         "/service-areas/redmond-wa/trauma-scene-cleanup/",
-        "/service-areas/redmond-wa/water-heater-flood-cleanup/",
         "/service-areas/redmond-wa/water-leak-detection/",
         "/service-areas/redmond-wa/appliance-leak-cleanup/",
         "/service-areas/redmond-wa/asbestos-abatement/",
@@ -2762,12 +2741,8 @@
         "/service-areas/redmond-wa/hoarding-cleanup/",
         "/service-areas/redmond-wa/unattended-death-cleanup/",
         "/service-areas/redmond-wa/air-duct-cleaning/",
-        "/service-areas/redmond-wa/air-duct-hvac-cleaning/",
-        "/service-areas/redmond-wa/basement-sewage-cleanup/",
-        "/service-areas/redmond-wa/basement-water-cleanup/",
         "/service-areas/redmond-wa/contents-restoration-storage/",
         "/service-areas/redmond-wa/crawl-space-encapsulation/",
-        "/service-areas/redmond-wa/vandalism-cleanup/",
         "/service-areas/redmond-wa/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
@@ -2818,7 +2793,6 @@
         "/service-areas/gig-harbor-wa/sewage-cleanup/",
         "/service-areas/gig-harbor-wa/smoke-damage-restoration/",
         "/service-areas/gig-harbor-wa/storm-damage-restoration/",
-        "/service-areas/gig-harbor-wa/water-cleanup/",
         "/service-areas/gig-harbor-wa/basement-flooding-cleanup/",
         "/service-areas/gig-harbor-wa/biohazard-cleanup/",
         "/service-areas/gig-harbor-wa/burst-pipe-repair/",
@@ -2831,9 +2805,7 @@
         "/service-areas/gig-harbor-wa/industrial-restoration/",
         "/service-areas/gig-harbor-wa/odor-removal/",
         "/service-areas/gig-harbor-wa/roof-leak-repair/",
-        "/service-areas/gig-harbor-wa/soot-removal/",
         "/service-areas/gig-harbor-wa/trauma-scene-cleanup/",
-        "/service-areas/gig-harbor-wa/water-heater-flood-cleanup/",
         "/service-areas/gig-harbor-wa/water-leak-detection/",
         "/service-areas/gig-harbor-wa/appliance-leak-cleanup/",
         "/service-areas/gig-harbor-wa/asbestos-abatement/",
@@ -2841,12 +2813,8 @@
         "/service-areas/gig-harbor-wa/hoarding-cleanup/",
         "/service-areas/gig-harbor-wa/unattended-death-cleanup/",
         "/service-areas/gig-harbor-wa/air-duct-cleaning/",
-        "/service-areas/gig-harbor-wa/air-duct-hvac-cleaning/",
-        "/service-areas/gig-harbor-wa/basement-sewage-cleanup/",
-        "/service-areas/gig-harbor-wa/basement-water-cleanup/",
         "/service-areas/gig-harbor-wa/contents-restoration-storage/",
         "/service-areas/gig-harbor-wa/crawl-space-encapsulation/",
-        "/service-areas/gig-harbor-wa/vandalism-cleanup/",
         "/service-areas/gig-harbor-wa/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
@@ -2897,7 +2865,6 @@
         "/service-areas/bremerton-wa/sewage-cleanup/",
         "/service-areas/bremerton-wa/smoke-damage-restoration/",
         "/service-areas/bremerton-wa/storm-damage-restoration/",
-        "/service-areas/bremerton-wa/water-cleanup/",
         "/service-areas/bremerton-wa/basement-flooding-cleanup/",
         "/service-areas/bremerton-wa/biohazard-cleanup/",
         "/service-areas/bremerton-wa/burst-pipe-repair/",
@@ -2910,9 +2877,7 @@
         "/service-areas/bremerton-wa/industrial-restoration/",
         "/service-areas/bremerton-wa/odor-removal/",
         "/service-areas/bremerton-wa/roof-leak-repair/",
-        "/service-areas/bremerton-wa/soot-removal/",
         "/service-areas/bremerton-wa/trauma-scene-cleanup/",
-        "/service-areas/bremerton-wa/water-heater-flood-cleanup/",
         "/service-areas/bremerton-wa/water-leak-detection/",
         "/service-areas/bremerton-wa/appliance-leak-cleanup/",
         "/service-areas/bremerton-wa/asbestos-abatement/",
@@ -2920,12 +2885,8 @@
         "/service-areas/bremerton-wa/hoarding-cleanup/",
         "/service-areas/bremerton-wa/unattended-death-cleanup/",
         "/service-areas/bremerton-wa/air-duct-cleaning/",
-        "/service-areas/bremerton-wa/air-duct-hvac-cleaning/",
-        "/service-areas/bremerton-wa/basement-sewage-cleanup/",
-        "/service-areas/bremerton-wa/basement-water-cleanup/",
         "/service-areas/bremerton-wa/contents-restoration-storage/",
         "/service-areas/bremerton-wa/crawl-space-encapsulation/",
-        "/service-areas/bremerton-wa/vandalism-cleanup/",
         "/service-areas/bremerton-wa/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
@@ -2976,7 +2937,6 @@
         "/service-areas/port-orchard-wa/sewage-cleanup/",
         "/service-areas/port-orchard-wa/smoke-damage-restoration/",
         "/service-areas/port-orchard-wa/storm-damage-restoration/",
-        "/service-areas/port-orchard-wa/water-cleanup/",
         "/service-areas/port-orchard-wa/basement-flooding-cleanup/",
         "/service-areas/port-orchard-wa/biohazard-cleanup/",
         "/service-areas/port-orchard-wa/burst-pipe-repair/",
@@ -2989,9 +2949,7 @@
         "/service-areas/port-orchard-wa/industrial-restoration/",
         "/service-areas/port-orchard-wa/odor-removal/",
         "/service-areas/port-orchard-wa/roof-leak-repair/",
-        "/service-areas/port-orchard-wa/soot-removal/",
         "/service-areas/port-orchard-wa/trauma-scene-cleanup/",
-        "/service-areas/port-orchard-wa/water-heater-flood-cleanup/",
         "/service-areas/port-orchard-wa/water-leak-detection/",
         "/service-areas/port-orchard-wa/appliance-leak-cleanup/",
         "/service-areas/port-orchard-wa/asbestos-abatement/",
@@ -2999,12 +2957,8 @@
         "/service-areas/port-orchard-wa/hoarding-cleanup/",
         "/service-areas/port-orchard-wa/unattended-death-cleanup/",
         "/service-areas/port-orchard-wa/air-duct-cleaning/",
-        "/service-areas/port-orchard-wa/air-duct-hvac-cleaning/",
-        "/service-areas/port-orchard-wa/basement-sewage-cleanup/",
-        "/service-areas/port-orchard-wa/basement-water-cleanup/",
         "/service-areas/port-orchard-wa/contents-restoration-storage/",
         "/service-areas/port-orchard-wa/crawl-space-encapsulation/",
-        "/service-areas/port-orchard-wa/vandalism-cleanup/",
         "/service-areas/port-orchard-wa/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
@@ -3055,7 +3009,6 @@
         "/service-areas/university-place-wa/sewage-cleanup/",
         "/service-areas/university-place-wa/smoke-damage-restoration/",
         "/service-areas/university-place-wa/storm-damage-restoration/",
-        "/service-areas/university-place-wa/water-cleanup/",
         "/service-areas/university-place-wa/basement-flooding-cleanup/",
         "/service-areas/university-place-wa/biohazard-cleanup/",
         "/service-areas/university-place-wa/burst-pipe-repair/",
@@ -3068,9 +3021,7 @@
         "/service-areas/university-place-wa/industrial-restoration/",
         "/service-areas/university-place-wa/odor-removal/",
         "/service-areas/university-place-wa/roof-leak-repair/",
-        "/service-areas/university-place-wa/soot-removal/",
         "/service-areas/university-place-wa/trauma-scene-cleanup/",
-        "/service-areas/university-place-wa/water-heater-flood-cleanup/",
         "/service-areas/university-place-wa/water-leak-detection/",
         "/service-areas/university-place-wa/appliance-leak-cleanup/",
         "/service-areas/university-place-wa/asbestos-abatement/",
@@ -3078,12 +3029,8 @@
         "/service-areas/university-place-wa/hoarding-cleanup/",
         "/service-areas/university-place-wa/unattended-death-cleanup/",
         "/service-areas/university-place-wa/air-duct-cleaning/",
-        "/service-areas/university-place-wa/air-duct-hvac-cleaning/",
-        "/service-areas/university-place-wa/basement-sewage-cleanup/",
-        "/service-areas/university-place-wa/basement-water-cleanup/",
         "/service-areas/university-place-wa/contents-restoration-storage/",
         "/service-areas/university-place-wa/crawl-space-encapsulation/",
-        "/service-areas/university-place-wa/vandalism-cleanup/",
         "/service-areas/university-place-wa/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
@@ -3134,7 +3081,6 @@
         "/service-areas/lakeland-north-wa/sewage-cleanup/",
         "/service-areas/lakeland-north-wa/smoke-damage-restoration/",
         "/service-areas/lakeland-north-wa/storm-damage-restoration/",
-        "/service-areas/lakeland-north-wa/water-cleanup/",
         "/service-areas/lakeland-north-wa/basement-flooding-cleanup/",
         "/service-areas/lakeland-north-wa/biohazard-cleanup/",
         "/service-areas/lakeland-north-wa/burst-pipe-repair/",
@@ -3147,9 +3093,7 @@
         "/service-areas/lakeland-north-wa/industrial-restoration/",
         "/service-areas/lakeland-north-wa/odor-removal/",
         "/service-areas/lakeland-north-wa/roof-leak-repair/",
-        "/service-areas/lakeland-north-wa/soot-removal/",
         "/service-areas/lakeland-north-wa/trauma-scene-cleanup/",
-        "/service-areas/lakeland-north-wa/water-heater-flood-cleanup/",
         "/service-areas/lakeland-north-wa/water-leak-detection/",
         "/service-areas/lakeland-north-wa/appliance-leak-cleanup/",
         "/service-areas/lakeland-north-wa/asbestos-abatement/",
@@ -3157,12 +3101,8 @@
         "/service-areas/lakeland-north-wa/hoarding-cleanup/",
         "/service-areas/lakeland-north-wa/unattended-death-cleanup/",
         "/service-areas/lakeland-north-wa/air-duct-cleaning/",
-        "/service-areas/lakeland-north-wa/air-duct-hvac-cleaning/",
-        "/service-areas/lakeland-north-wa/basement-sewage-cleanup/",
-        "/service-areas/lakeland-north-wa/basement-water-cleanup/",
         "/service-areas/lakeland-north-wa/contents-restoration-storage/",
         "/service-areas/lakeland-north-wa/crawl-space-encapsulation/",
-        "/service-areas/lakeland-north-wa/vandalism-cleanup/",
         "/service-areas/lakeland-north-wa/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
@@ -3213,7 +3153,6 @@
         "/service-areas/des-moines-wa/sewage-cleanup/",
         "/service-areas/des-moines-wa/smoke-damage-restoration/",
         "/service-areas/des-moines-wa/storm-damage-restoration/",
-        "/service-areas/des-moines-wa/water-cleanup/",
         "/service-areas/des-moines-wa/basement-flooding-cleanup/",
         "/service-areas/des-moines-wa/biohazard-cleanup/",
         "/service-areas/des-moines-wa/burst-pipe-repair/",
@@ -3226,9 +3165,7 @@
         "/service-areas/des-moines-wa/industrial-restoration/",
         "/service-areas/des-moines-wa/odor-removal/",
         "/service-areas/des-moines-wa/roof-leak-repair/",
-        "/service-areas/des-moines-wa/soot-removal/",
         "/service-areas/des-moines-wa/trauma-scene-cleanup/",
-        "/service-areas/des-moines-wa/water-heater-flood-cleanup/",
         "/service-areas/des-moines-wa/water-leak-detection/",
         "/service-areas/des-moines-wa/appliance-leak-cleanup/",
         "/service-areas/des-moines-wa/asbestos-abatement/",
@@ -3236,12 +3173,8 @@
         "/service-areas/des-moines-wa/hoarding-cleanup/",
         "/service-areas/des-moines-wa/unattended-death-cleanup/",
         "/service-areas/des-moines-wa/air-duct-cleaning/",
-        "/service-areas/des-moines-wa/air-duct-hvac-cleaning/",
-        "/service-areas/des-moines-wa/basement-sewage-cleanup/",
-        "/service-areas/des-moines-wa/basement-water-cleanup/",
         "/service-areas/des-moines-wa/contents-restoration-storage/",
         "/service-areas/des-moines-wa/crawl-space-encapsulation/",
-        "/service-areas/des-moines-wa/vandalism-cleanup/",
         "/service-areas/des-moines-wa/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
@@ -3292,7 +3225,6 @@
         "/service-areas/lakeland-south-wa/sewage-cleanup/",
         "/service-areas/lakeland-south-wa/smoke-damage-restoration/",
         "/service-areas/lakeland-south-wa/storm-damage-restoration/",
-        "/service-areas/lakeland-south-wa/water-cleanup/",
         "/service-areas/lakeland-south-wa/basement-flooding-cleanup/",
         "/service-areas/lakeland-south-wa/biohazard-cleanup/",
         "/service-areas/lakeland-south-wa/burst-pipe-repair/",
@@ -3305,9 +3237,7 @@
         "/service-areas/lakeland-south-wa/industrial-restoration/",
         "/service-areas/lakeland-south-wa/odor-removal/",
         "/service-areas/lakeland-south-wa/roof-leak-repair/",
-        "/service-areas/lakeland-south-wa/soot-removal/",
         "/service-areas/lakeland-south-wa/trauma-scene-cleanup/",
-        "/service-areas/lakeland-south-wa/water-heater-flood-cleanup/",
         "/service-areas/lakeland-south-wa/water-leak-detection/",
         "/service-areas/lakeland-south-wa/appliance-leak-cleanup/",
         "/service-areas/lakeland-south-wa/asbestos-abatement/",
@@ -3315,12 +3245,8 @@
         "/service-areas/lakeland-south-wa/hoarding-cleanup/",
         "/service-areas/lakeland-south-wa/unattended-death-cleanup/",
         "/service-areas/lakeland-south-wa/air-duct-cleaning/",
-        "/service-areas/lakeland-south-wa/air-duct-hvac-cleaning/",
-        "/service-areas/lakeland-south-wa/basement-sewage-cleanup/",
-        "/service-areas/lakeland-south-wa/basement-water-cleanup/",
         "/service-areas/lakeland-south-wa/contents-restoration-storage/",
         "/service-areas/lakeland-south-wa/crawl-space-encapsulation/",
-        "/service-areas/lakeland-south-wa/vandalism-cleanup/",
         "/service-areas/lakeland-south-wa/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
@@ -3371,7 +3297,6 @@
         "/service-areas/algona-wa/sewage-cleanup/",
         "/service-areas/algona-wa/smoke-damage-restoration/",
         "/service-areas/algona-wa/storm-damage-restoration/",
-        "/service-areas/algona-wa/water-cleanup/",
         "/service-areas/algona-wa/basement-flooding-cleanup/",
         "/service-areas/algona-wa/biohazard-cleanup/",
         "/service-areas/algona-wa/burst-pipe-repair/",
@@ -3384,9 +3309,7 @@
         "/service-areas/algona-wa/industrial-restoration/",
         "/service-areas/algona-wa/odor-removal/",
         "/service-areas/algona-wa/roof-leak-repair/",
-        "/service-areas/algona-wa/soot-removal/",
         "/service-areas/algona-wa/trauma-scene-cleanup/",
-        "/service-areas/algona-wa/water-heater-flood-cleanup/",
         "/service-areas/algona-wa/water-leak-detection/",
         "/service-areas/algona-wa/appliance-leak-cleanup/",
         "/service-areas/algona-wa/asbestos-abatement/",
@@ -3394,12 +3317,8 @@
         "/service-areas/algona-wa/hoarding-cleanup/",
         "/service-areas/algona-wa/unattended-death-cleanup/",
         "/service-areas/algona-wa/air-duct-cleaning/",
-        "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-        "/service-areas/algona-wa/basement-sewage-cleanup/",
-        "/service-areas/algona-wa/basement-water-cleanup/",
         "/service-areas/algona-wa/contents-restoration-storage/",
         "/service-areas/algona-wa/crawl-space-encapsulation/",
-        "/service-areas/algona-wa/vandalism-cleanup/",
         "/service-areas/algona-wa/post-construction-cleaning/",
         "/service-areas/auburn-wa/",
         "/service-areas/bellevue-wa/",
@@ -3450,7 +3369,6 @@
         "/service-areas/milton-wa/sewage-cleanup/",
         "/service-areas/milton-wa/smoke-damage-restoration/",
         "/service-areas/milton-wa/storm-damage-restoration/",
-        "/service-areas/milton-wa/water-cleanup/",
         "/service-areas/milton-wa/basement-flooding-cleanup/",
         "/service-areas/milton-wa/biohazard-cleanup/",
         "/service-areas/milton-wa/burst-pipe-repair/",
@@ -3463,9 +3381,7 @@
         "/service-areas/milton-wa/industrial-restoration/",
         "/service-areas/milton-wa/odor-removal/",
         "/service-areas/milton-wa/roof-leak-repair/",
-        "/service-areas/milton-wa/soot-removal/",
         "/service-areas/milton-wa/trauma-scene-cleanup/",
-        "/service-areas/milton-wa/water-heater-flood-cleanup/",
         "/service-areas/milton-wa/water-leak-detection/",
         "/service-areas/milton-wa/appliance-leak-cleanup/",
         "/service-areas/milton-wa/asbestos-abatement/",
@@ -3473,12 +3389,8 @@
         "/service-areas/milton-wa/hoarding-cleanup/",
         "/service-areas/milton-wa/unattended-death-cleanup/",
         "/service-areas/milton-wa/air-duct-cleaning/",
-        "/service-areas/milton-wa/air-duct-hvac-cleaning/",
-        "/service-areas/milton-wa/basement-sewage-cleanup/",
-        "/service-areas/milton-wa/basement-water-cleanup/",
         "/service-areas/milton-wa/contents-restoration-storage/",
         "/service-areas/milton-wa/crawl-space-encapsulation/",
-        "/service-areas/milton-wa/vandalism-cleanup/",
         "/service-areas/milton-wa/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
@@ -3529,7 +3441,6 @@
         "/service-areas/pacific-wa/sewage-cleanup/",
         "/service-areas/pacific-wa/smoke-damage-restoration/",
         "/service-areas/pacific-wa/storm-damage-restoration/",
-        "/service-areas/pacific-wa/water-cleanup/",
         "/service-areas/pacific-wa/basement-flooding-cleanup/",
         "/service-areas/pacific-wa/biohazard-cleanup/",
         "/service-areas/pacific-wa/burst-pipe-repair/",
@@ -3542,9 +3453,7 @@
         "/service-areas/pacific-wa/industrial-restoration/",
         "/service-areas/pacific-wa/odor-removal/",
         "/service-areas/pacific-wa/roof-leak-repair/",
-        "/service-areas/pacific-wa/soot-removal/",
         "/service-areas/pacific-wa/trauma-scene-cleanup/",
-        "/service-areas/pacific-wa/water-heater-flood-cleanup/",
         "/service-areas/pacific-wa/water-leak-detection/",
         "/service-areas/pacific-wa/appliance-leak-cleanup/",
         "/service-areas/pacific-wa/asbestos-abatement/",
@@ -3552,12 +3461,8 @@
         "/service-areas/pacific-wa/hoarding-cleanup/",
         "/service-areas/pacific-wa/unattended-death-cleanup/",
         "/service-areas/pacific-wa/air-duct-cleaning/",
-        "/service-areas/pacific-wa/air-duct-hvac-cleaning/",
-        "/service-areas/pacific-wa/basement-sewage-cleanup/",
-        "/service-areas/pacific-wa/basement-water-cleanup/",
         "/service-areas/pacific-wa/contents-restoration-storage/",
         "/service-areas/pacific-wa/crawl-space-encapsulation/",
-        "/service-areas/pacific-wa/vandalism-cleanup/",
         "/service-areas/pacific-wa/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
@@ -3608,7 +3513,6 @@
         "/service-areas/seatac-wa/sewage-cleanup/",
         "/service-areas/seatac-wa/smoke-damage-restoration/",
         "/service-areas/seatac-wa/storm-damage-restoration/",
-        "/service-areas/seatac-wa/water-cleanup/",
         "/service-areas/seatac-wa/basement-flooding-cleanup/",
         "/service-areas/seatac-wa/biohazard-cleanup/",
         "/service-areas/seatac-wa/burst-pipe-repair/",
@@ -3621,9 +3525,7 @@
         "/service-areas/seatac-wa/industrial-restoration/",
         "/service-areas/seatac-wa/odor-removal/",
         "/service-areas/seatac-wa/roof-leak-repair/",
-        "/service-areas/seatac-wa/soot-removal/",
         "/service-areas/seatac-wa/trauma-scene-cleanup/",
-        "/service-areas/seatac-wa/water-heater-flood-cleanup/",
         "/service-areas/seatac-wa/water-leak-detection/",
         "/service-areas/seatac-wa/appliance-leak-cleanup/",
         "/service-areas/seatac-wa/asbestos-abatement/",
@@ -3631,12 +3533,8 @@
         "/service-areas/seatac-wa/hoarding-cleanup/",
         "/service-areas/seatac-wa/unattended-death-cleanup/",
         "/service-areas/seatac-wa/air-duct-cleaning/",
-        "/service-areas/seatac-wa/air-duct-hvac-cleaning/",
-        "/service-areas/seatac-wa/basement-sewage-cleanup/",
-        "/service-areas/seatac-wa/basement-water-cleanup/",
         "/service-areas/seatac-wa/contents-restoration-storage/",
         "/service-areas/seatac-wa/crawl-space-encapsulation/",
-        "/service-areas/seatac-wa/vandalism-cleanup/",
         "/service-areas/seatac-wa/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
@@ -3687,7 +3585,6 @@
         "/service-areas/edgewood-wa/sewage-cleanup/",
         "/service-areas/edgewood-wa/smoke-damage-restoration/",
         "/service-areas/edgewood-wa/storm-damage-restoration/",
-        "/service-areas/edgewood-wa/water-cleanup/",
         "/service-areas/edgewood-wa/basement-flooding-cleanup/",
         "/service-areas/edgewood-wa/biohazard-cleanup/",
         "/service-areas/edgewood-wa/burst-pipe-repair/",
@@ -3700,9 +3597,7 @@
         "/service-areas/edgewood-wa/industrial-restoration/",
         "/service-areas/edgewood-wa/odor-removal/",
         "/service-areas/edgewood-wa/roof-leak-repair/",
-        "/service-areas/edgewood-wa/soot-removal/",
         "/service-areas/edgewood-wa/trauma-scene-cleanup/",
-        "/service-areas/edgewood-wa/water-heater-flood-cleanup/",
         "/service-areas/edgewood-wa/water-leak-detection/",
         "/service-areas/edgewood-wa/appliance-leak-cleanup/",
         "/service-areas/edgewood-wa/asbestos-abatement/",
@@ -3710,12 +3605,8 @@
         "/service-areas/edgewood-wa/hoarding-cleanup/",
         "/service-areas/edgewood-wa/unattended-death-cleanup/",
         "/service-areas/edgewood-wa/air-duct-cleaning/",
-        "/service-areas/edgewood-wa/air-duct-hvac-cleaning/",
-        "/service-areas/edgewood-wa/basement-sewage-cleanup/",
-        "/service-areas/edgewood-wa/basement-water-cleanup/",
         "/service-areas/edgewood-wa/contents-restoration-storage/",
         "/service-areas/edgewood-wa/crawl-space-encapsulation/",
-        "/service-areas/edgewood-wa/vandalism-cleanup/",
         "/service-areas/edgewood-wa/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
@@ -3766,7 +3657,6 @@
         "/service-areas/fife-wa/sewage-cleanup/",
         "/service-areas/fife-wa/smoke-damage-restoration/",
         "/service-areas/fife-wa/storm-damage-restoration/",
-        "/service-areas/fife-wa/water-cleanup/",
         "/service-areas/fife-wa/basement-flooding-cleanup/",
         "/service-areas/fife-wa/biohazard-cleanup/",
         "/service-areas/fife-wa/burst-pipe-repair/",
@@ -3779,9 +3669,7 @@
         "/service-areas/fife-wa/industrial-restoration/",
         "/service-areas/fife-wa/odor-removal/",
         "/service-areas/fife-wa/roof-leak-repair/",
-        "/service-areas/fife-wa/soot-removal/",
         "/service-areas/fife-wa/trauma-scene-cleanup/",
-        "/service-areas/fife-wa/water-heater-flood-cleanup/",
         "/service-areas/fife-wa/water-leak-detection/",
         "/service-areas/fife-wa/appliance-leak-cleanup/",
         "/service-areas/fife-wa/asbestos-abatement/",
@@ -3789,12 +3677,8 @@
         "/service-areas/fife-wa/hoarding-cleanup/",
         "/service-areas/fife-wa/unattended-death-cleanup/",
         "/service-areas/fife-wa/air-duct-cleaning/",
-        "/service-areas/fife-wa/air-duct-hvac-cleaning/",
-        "/service-areas/fife-wa/basement-sewage-cleanup/",
-        "/service-areas/fife-wa/basement-water-cleanup/",
         "/service-areas/fife-wa/contents-restoration-storage/",
         "/service-areas/fife-wa/crawl-space-encapsulation/",
-        "/service-areas/fife-wa/vandalism-cleanup/",
         "/service-areas/fife-wa/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
@@ -3845,7 +3729,6 @@
         "/service-areas/normandy-park-wa/sewage-cleanup/",
         "/service-areas/normandy-park-wa/smoke-damage-restoration/",
         "/service-areas/normandy-park-wa/storm-damage-restoration/",
-        "/service-areas/normandy-park-wa/water-cleanup/",
         "/service-areas/normandy-park-wa/basement-flooding-cleanup/",
         "/service-areas/normandy-park-wa/biohazard-cleanup/",
         "/service-areas/normandy-park-wa/burst-pipe-repair/",
@@ -3858,9 +3741,7 @@
         "/service-areas/normandy-park-wa/industrial-restoration/",
         "/service-areas/normandy-park-wa/odor-removal/",
         "/service-areas/normandy-park-wa/roof-leak-repair/",
-        "/service-areas/normandy-park-wa/soot-removal/",
         "/service-areas/normandy-park-wa/trauma-scene-cleanup/",
-        "/service-areas/normandy-park-wa/water-heater-flood-cleanup/",
         "/service-areas/normandy-park-wa/water-leak-detection/",
         "/service-areas/normandy-park-wa/appliance-leak-cleanup/",
         "/service-areas/normandy-park-wa/asbestos-abatement/",
@@ -3868,12 +3749,8 @@
         "/service-areas/normandy-park-wa/hoarding-cleanup/",
         "/service-areas/normandy-park-wa/unattended-death-cleanup/",
         "/service-areas/normandy-park-wa/air-duct-cleaning/",
-        "/service-areas/normandy-park-wa/air-duct-hvac-cleaning/",
-        "/service-areas/normandy-park-wa/basement-sewage-cleanup/",
-        "/service-areas/normandy-park-wa/basement-water-cleanup/",
         "/service-areas/normandy-park-wa/contents-restoration-storage/",
         "/service-areas/normandy-park-wa/crawl-space-encapsulation/",
-        "/service-areas/normandy-park-wa/vandalism-cleanup/",
         "/service-areas/normandy-park-wa/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
@@ -3924,7 +3801,6 @@
         "/service-areas/vashon-wa/sewage-cleanup/",
         "/service-areas/vashon-wa/smoke-damage-restoration/",
         "/service-areas/vashon-wa/storm-damage-restoration/",
-        "/service-areas/vashon-wa/water-cleanup/",
         "/service-areas/vashon-wa/basement-flooding-cleanup/",
         "/service-areas/vashon-wa/biohazard-cleanup/",
         "/service-areas/vashon-wa/burst-pipe-repair/",
@@ -3937,9 +3813,7 @@
         "/service-areas/vashon-wa/industrial-restoration/",
         "/service-areas/vashon-wa/odor-removal/",
         "/service-areas/vashon-wa/roof-leak-repair/",
-        "/service-areas/vashon-wa/soot-removal/",
         "/service-areas/vashon-wa/trauma-scene-cleanup/",
-        "/service-areas/vashon-wa/water-heater-flood-cleanup/",
         "/service-areas/vashon-wa/water-leak-detection/",
         "/service-areas/vashon-wa/appliance-leak-cleanup/",
         "/service-areas/vashon-wa/asbestos-abatement/",
@@ -3947,12 +3821,8 @@
         "/service-areas/vashon-wa/hoarding-cleanup/",
         "/service-areas/vashon-wa/unattended-death-cleanup/",
         "/service-areas/vashon-wa/air-duct-cleaning/",
-        "/service-areas/vashon-wa/air-duct-hvac-cleaning/",
-        "/service-areas/vashon-wa/basement-sewage-cleanup/",
-        "/service-areas/vashon-wa/basement-water-cleanup/",
         "/service-areas/vashon-wa/contents-restoration-storage/",
         "/service-areas/vashon-wa/crawl-space-encapsulation/",
-        "/service-areas/vashon-wa/vandalism-cleanup/",
         "/service-areas/vashon-wa/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
@@ -4003,7 +3873,6 @@
         "/service-areas/burien-wa/sewage-cleanup/",
         "/service-areas/burien-wa/smoke-damage-restoration/",
         "/service-areas/burien-wa/storm-damage-restoration/",
-        "/service-areas/burien-wa/water-cleanup/",
         "/service-areas/burien-wa/basement-flooding-cleanup/",
         "/service-areas/burien-wa/biohazard-cleanup/",
         "/service-areas/burien-wa/burst-pipe-repair/",
@@ -4016,9 +3885,7 @@
         "/service-areas/burien-wa/industrial-restoration/",
         "/service-areas/burien-wa/odor-removal/",
         "/service-areas/burien-wa/roof-leak-repair/",
-        "/service-areas/burien-wa/soot-removal/",
         "/service-areas/burien-wa/trauma-scene-cleanup/",
-        "/service-areas/burien-wa/water-heater-flood-cleanup/",
         "/service-areas/burien-wa/water-leak-detection/",
         "/service-areas/burien-wa/appliance-leak-cleanup/",
         "/service-areas/burien-wa/asbestos-abatement/",
@@ -4026,12 +3893,8 @@
         "/service-areas/burien-wa/hoarding-cleanup/",
         "/service-areas/burien-wa/unattended-death-cleanup/",
         "/service-areas/burien-wa/air-duct-cleaning/",
-        "/service-areas/burien-wa/air-duct-hvac-cleaning/",
-        "/service-areas/burien-wa/basement-sewage-cleanup/",
-        "/service-areas/burien-wa/basement-water-cleanup/",
         "/service-areas/burien-wa/contents-restoration-storage/",
         "/service-areas/burien-wa/crawl-space-encapsulation/",
-        "/service-areas/burien-wa/vandalism-cleanup/",
         "/service-areas/burien-wa/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
@@ -4082,7 +3945,6 @@
         "/service-areas/lake-holm-wa/sewage-cleanup/",
         "/service-areas/lake-holm-wa/smoke-damage-restoration/",
         "/service-areas/lake-holm-wa/storm-damage-restoration/",
-        "/service-areas/lake-holm-wa/water-cleanup/",
         "/service-areas/lake-holm-wa/basement-flooding-cleanup/",
         "/service-areas/lake-holm-wa/biohazard-cleanup/",
         "/service-areas/lake-holm-wa/burst-pipe-repair/",
@@ -4095,9 +3957,7 @@
         "/service-areas/lake-holm-wa/industrial-restoration/",
         "/service-areas/lake-holm-wa/odor-removal/",
         "/service-areas/lake-holm-wa/roof-leak-repair/",
-        "/service-areas/lake-holm-wa/soot-removal/",
         "/service-areas/lake-holm-wa/trauma-scene-cleanup/",
-        "/service-areas/lake-holm-wa/water-heater-flood-cleanup/",
         "/service-areas/lake-holm-wa/water-leak-detection/",
         "/service-areas/lake-holm-wa/appliance-leak-cleanup/",
         "/service-areas/lake-holm-wa/asbestos-abatement/",
@@ -4105,12 +3965,8 @@
         "/service-areas/lake-holm-wa/hoarding-cleanup/",
         "/service-areas/lake-holm-wa/unattended-death-cleanup/",
         "/service-areas/lake-holm-wa/air-duct-cleaning/",
-        "/service-areas/lake-holm-wa/air-duct-hvac-cleaning/",
-        "/service-areas/lake-holm-wa/basement-sewage-cleanup/",
-        "/service-areas/lake-holm-wa/basement-water-cleanup/",
         "/service-areas/lake-holm-wa/contents-restoration-storage/",
         "/service-areas/lake-holm-wa/crawl-space-encapsulation/",
-        "/service-areas/lake-holm-wa/vandalism-cleanup/",
         "/service-areas/lake-holm-wa/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
@@ -4161,7 +4017,6 @@
         "/service-areas/waller-wa/sewage-cleanup/",
         "/service-areas/waller-wa/smoke-damage-restoration/",
         "/service-areas/waller-wa/storm-damage-restoration/",
-        "/service-areas/waller-wa/water-cleanup/",
         "/service-areas/waller-wa/basement-flooding-cleanup/",
         "/service-areas/waller-wa/biohazard-cleanup/",
         "/service-areas/waller-wa/burst-pipe-repair/",
@@ -4174,9 +4029,7 @@
         "/service-areas/waller-wa/industrial-restoration/",
         "/service-areas/waller-wa/odor-removal/",
         "/service-areas/waller-wa/roof-leak-repair/",
-        "/service-areas/waller-wa/soot-removal/",
         "/service-areas/waller-wa/trauma-scene-cleanup/",
-        "/service-areas/waller-wa/water-heater-flood-cleanup/",
         "/service-areas/waller-wa/water-leak-detection/",
         "/service-areas/waller-wa/appliance-leak-cleanup/",
         "/service-areas/waller-wa/asbestos-abatement/",
@@ -4184,12 +4037,8 @@
         "/service-areas/waller-wa/hoarding-cleanup/",
         "/service-areas/waller-wa/unattended-death-cleanup/",
         "/service-areas/waller-wa/air-duct-cleaning/",
-        "/service-areas/waller-wa/air-duct-hvac-cleaning/",
-        "/service-areas/waller-wa/basement-sewage-cleanup/",
-        "/service-areas/waller-wa/basement-water-cleanup/",
         "/service-areas/waller-wa/contents-restoration-storage/",
         "/service-areas/waller-wa/crawl-space-encapsulation/",
-        "/service-areas/waller-wa/vandalism-cleanup/",
         "/service-areas/waller-wa/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
@@ -4240,7 +4089,6 @@
         "/service-areas/sumner-wa/sewage-cleanup/",
         "/service-areas/sumner-wa/smoke-damage-restoration/",
         "/service-areas/sumner-wa/storm-damage-restoration/",
-        "/service-areas/sumner-wa/water-cleanup/",
         "/service-areas/sumner-wa/basement-flooding-cleanup/",
         "/service-areas/sumner-wa/biohazard-cleanup/",
         "/service-areas/sumner-wa/burst-pipe-repair/",
@@ -4253,9 +4101,7 @@
         "/service-areas/sumner-wa/industrial-restoration/",
         "/service-areas/sumner-wa/odor-removal/",
         "/service-areas/sumner-wa/roof-leak-repair/",
-        "/service-areas/sumner-wa/soot-removal/",
         "/service-areas/sumner-wa/trauma-scene-cleanup/",
-        "/service-areas/sumner-wa/water-heater-flood-cleanup/",
         "/service-areas/sumner-wa/water-leak-detection/",
         "/service-areas/sumner-wa/appliance-leak-cleanup/",
         "/service-areas/sumner-wa/asbestos-abatement/",
@@ -4263,12 +4109,8 @@
         "/service-areas/sumner-wa/hoarding-cleanup/",
         "/service-areas/sumner-wa/unattended-death-cleanup/",
         "/service-areas/sumner-wa/air-duct-cleaning/",
-        "/service-areas/sumner-wa/air-duct-hvac-cleaning/",
-        "/service-areas/sumner-wa/basement-sewage-cleanup/",
-        "/service-areas/sumner-wa/basement-water-cleanup/",
         "/service-areas/sumner-wa/contents-restoration-storage/",
         "/service-areas/sumner-wa/crawl-space-encapsulation/",
-        "/service-areas/sumner-wa/vandalism-cleanup/",
         "/service-areas/sumner-wa/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
@@ -4319,7 +4161,6 @@
         "/service-areas/north-puyallup-wa/sewage-cleanup/",
         "/service-areas/north-puyallup-wa/smoke-damage-restoration/",
         "/service-areas/north-puyallup-wa/storm-damage-restoration/",
-        "/service-areas/north-puyallup-wa/water-cleanup/",
         "/service-areas/north-puyallup-wa/basement-flooding-cleanup/",
         "/service-areas/north-puyallup-wa/biohazard-cleanup/",
         "/service-areas/north-puyallup-wa/burst-pipe-repair/",
@@ -4332,9 +4173,7 @@
         "/service-areas/north-puyallup-wa/industrial-restoration/",
         "/service-areas/north-puyallup-wa/odor-removal/",
         "/service-areas/north-puyallup-wa/roof-leak-repair/",
-        "/service-areas/north-puyallup-wa/soot-removal/",
         "/service-areas/north-puyallup-wa/trauma-scene-cleanup/",
-        "/service-areas/north-puyallup-wa/water-heater-flood-cleanup/",
         "/service-areas/north-puyallup-wa/water-leak-detection/",
         "/service-areas/north-puyallup-wa/appliance-leak-cleanup/",
         "/service-areas/north-puyallup-wa/asbestos-abatement/",
@@ -4342,12 +4181,8 @@
         "/service-areas/north-puyallup-wa/hoarding-cleanup/",
         "/service-areas/north-puyallup-wa/unattended-death-cleanup/",
         "/service-areas/north-puyallup-wa/air-duct-cleaning/",
-        "/service-areas/north-puyallup-wa/air-duct-hvac-cleaning/",
-        "/service-areas/north-puyallup-wa/basement-sewage-cleanup/",
-        "/service-areas/north-puyallup-wa/basement-water-cleanup/",
         "/service-areas/north-puyallup-wa/contents-restoration-storage/",
         "/service-areas/north-puyallup-wa/crawl-space-encapsulation/",
-        "/service-areas/north-puyallup-wa/vandalism-cleanup/",
         "/service-areas/north-puyallup-wa/post-construction-cleaning/",
         "/service-areas/algona-wa/",
         "/service-areas/auburn-wa/",
@@ -4911,6 +4746,51 @@
         "/service-areas/seattle-wa/mold-remediation/",
         "/service-areas/algona-wa/emergency-plumbing/",
         "/service-areas/auburn-wa/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/seattle-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Seattle, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in Seattle",
+      "meta_description": "24/7 emergency water removal & cleanup in Seattle, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup seattle",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/seattle-wa/",
+        "/service-areas/seattle-wa/fire-damage-restoration/",
+        "/service-areas/seattle-wa/mold-remediation/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -6399,6 +6279,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/bellevue-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Bellevue, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in Bellevue",
+      "meta_description": "24/7 emergency water removal & cleanup in Bellevue, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup bellevue",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/bellevue-wa/",
+        "/service-areas/bellevue-wa/fire-damage-restoration/",
+        "/service-areas/bellevue-wa/mold-remediation/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/bellevue-wa/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7879,6 +7804,51 @@
         "/service-areas/tacoma-wa/mold-remediation/",
         "/service-areas/algona-wa/emergency-plumbing/",
         "/service-areas/auburn-wa/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/tacoma-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Tacoma, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in Tacoma",
+      "meta_description": "24/7 emergency water removal & cleanup in Tacoma, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup tacoma",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/tacoma-wa/",
+        "/service-areas/tacoma-wa/fire-damage-restoration/",
+        "/service-areas/tacoma-wa/mold-remediation/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -9367,6 +9337,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/everett-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Everett, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in Everett",
+      "meta_description": "24/7 emergency water removal & cleanup in Everett, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup everett",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/everett-wa/",
+        "/service-areas/everett-wa/fire-damage-restoration/",
+        "/service-areas/everett-wa/mold-remediation/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/everett-wa/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10847,6 +10862,51 @@
         "/service-areas/kent-wa/mold-remediation/",
         "/service-areas/algona-wa/emergency-plumbing/",
         "/service-areas/auburn-wa/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/kent-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Kent, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in Kent",
+      "meta_description": "24/7 emergency water removal & cleanup in Kent, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup kent",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/kent-wa/",
+        "/service-areas/kent-wa/fire-damage-restoration/",
+        "/service-areas/kent-wa/mold-remediation/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -12335,6 +12395,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/renton-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Renton, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in Renton",
+      "meta_description": "24/7 emergency water removal & cleanup in Renton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup renton",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/renton-wa/",
+        "/service-areas/renton-wa/fire-damage-restoration/",
+        "/service-areas/renton-wa/mold-remediation/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/renton-wa/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13815,6 +13920,51 @@
         "/service-areas/auburn-wa/mold-remediation/",
         "/service-areas/algona-wa/emergency-plumbing/",
         "/service-areas/bellevue-wa/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/auburn-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Auburn, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in Auburn",
+      "meta_description": "24/7 emergency water removal & cleanup in Auburn, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup auburn",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/auburn-wa/",
+        "/service-areas/auburn-wa/fire-damage-restoration/",
+        "/service-areas/auburn-wa/mold-remediation/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/bellevue-wa/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -15303,6 +15453,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/kirkland-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Kirkland, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in Kirkland",
+      "meta_description": "24/7 emergency water removal & cleanup in Kirkland, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup kirkland",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/kirkland-wa/",
+        "/service-areas/kirkland-wa/fire-damage-restoration/",
+        "/service-areas/kirkland-wa/mold-remediation/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/kirkland-wa/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -16783,6 +16978,51 @@
         "/service-areas/redmond-wa/mold-remediation/",
         "/service-areas/algona-wa/emergency-plumbing/",
         "/service-areas/auburn-wa/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/redmond-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Redmond, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in Redmond",
+      "meta_description": "24/7 emergency water removal & cleanup in Redmond, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup redmond",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/redmond-wa/",
+        "/service-areas/redmond-wa/fire-damage-restoration/",
+        "/service-areas/redmond-wa/mold-remediation/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -18271,6 +18511,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/gig-harbor-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Gig Harbor, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in Gig Harbor",
+      "meta_description": "24/7 emergency water removal & cleanup in Gig Harbor, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup gig harbor",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/gig-harbor-wa/",
+        "/service-areas/gig-harbor-wa/fire-damage-restoration/",
+        "/service-areas/gig-harbor-wa/mold-remediation/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/gig-harbor-wa/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -19751,6 +20036,51 @@
         "/service-areas/bremerton-wa/mold-remediation/",
         "/service-areas/algona-wa/emergency-plumbing/",
         "/service-areas/auburn-wa/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/bremerton-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Bremerton, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in Bremerton",
+      "meta_description": "24/7 emergency water removal & cleanup in Bremerton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup bremerton",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/bremerton-wa/",
+        "/service-areas/bremerton-wa/fire-damage-restoration/",
+        "/service-areas/bremerton-wa/mold-remediation/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -21239,6 +21569,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/port-orchard-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Port Orchard, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in Port Orchard",
+      "meta_description": "24/7 emergency water removal & cleanup in Port Orchard, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup port orchard",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/port-orchard-wa/",
+        "/service-areas/port-orchard-wa/fire-damage-restoration/",
+        "/service-areas/port-orchard-wa/mold-remediation/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/port-orchard-wa/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -22719,6 +23094,51 @@
         "/service-areas/university-place-wa/mold-remediation/",
         "/service-areas/algona-wa/emergency-plumbing/",
         "/service-areas/auburn-wa/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/university-place-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in University Place, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in University Place",
+      "meta_description": "24/7 emergency water removal & cleanup in University Place, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup university place",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/university-place-wa/",
+        "/service-areas/university-place-wa/fire-damage-restoration/",
+        "/service-areas/university-place-wa/mold-remediation/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -24207,6 +24627,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/lakeland-north-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Lakeland North, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in Lakeland North",
+      "meta_description": "24/7 emergency water removal & cleanup in Lakeland North, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup lakeland north",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/lakeland-north-wa/",
+        "/service-areas/lakeland-north-wa/fire-damage-restoration/",
+        "/service-areas/lakeland-north-wa/mold-remediation/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/lakeland-north-wa/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -25687,6 +26152,51 @@
         "/service-areas/des-moines-wa/mold-remediation/",
         "/service-areas/algona-wa/emergency-plumbing/",
         "/service-areas/auburn-wa/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/des-moines-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Des Moines, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in Des Moines",
+      "meta_description": "24/7 emergency water removal & cleanup in Des Moines, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup des moines",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/des-moines-wa/",
+        "/service-areas/des-moines-wa/fire-damage-restoration/",
+        "/service-areas/des-moines-wa/mold-remediation/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -27175,6 +27685,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/lakeland-south-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Lakeland South, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in Lakeland South",
+      "meta_description": "24/7 emergency water removal & cleanup in Lakeland South, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup lakeland south",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/lakeland-south-wa/",
+        "/service-areas/lakeland-south-wa/fire-damage-restoration/",
+        "/service-areas/lakeland-south-wa/mold-remediation/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/lakeland-south-wa/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -28655,6 +29210,51 @@
         "/service-areas/algona-wa/mold-remediation/",
         "/service-areas/auburn-wa/emergency-plumbing/",
         "/service-areas/bellevue-wa/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/algona-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Algona, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in Algona",
+      "meta_description": "24/7 emergency water removal & cleanup in Algona, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup algona",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/algona-wa/",
+        "/service-areas/algona-wa/fire-damage-restoration/",
+        "/service-areas/algona-wa/mold-remediation/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
+        "/service-areas/bellevue-wa/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -30143,6 +30743,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/milton-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Milton, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in Milton",
+      "meta_description": "24/7 emergency water removal & cleanup in Milton, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup milton",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/milton-wa/",
+        "/service-areas/milton-wa/fire-damage-restoration/",
+        "/service-areas/milton-wa/mold-remediation/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/milton-wa/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -31623,6 +32268,51 @@
         "/service-areas/pacific-wa/mold-remediation/",
         "/service-areas/algona-wa/emergency-plumbing/",
         "/service-areas/auburn-wa/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/pacific-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Pacific, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in Pacific",
+      "meta_description": "24/7 emergency water removal & cleanup in Pacific, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup pacific",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/pacific-wa/",
+        "/service-areas/pacific-wa/fire-damage-restoration/",
+        "/service-areas/pacific-wa/mold-remediation/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -33111,6 +33801,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/seatac-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in SeaTac, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in SeaTac",
+      "meta_description": "24/7 emergency water removal & cleanup in SeaTac, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup seatac",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/seatac-wa/",
+        "/service-areas/seatac-wa/fire-damage-restoration/",
+        "/service-areas/seatac-wa/mold-remediation/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/seatac-wa/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -34591,6 +35326,51 @@
         "/service-areas/edgewood-wa/mold-remediation/",
         "/service-areas/algona-wa/emergency-plumbing/",
         "/service-areas/auburn-wa/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/edgewood-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Edgewood, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in Edgewood",
+      "meta_description": "24/7 emergency water removal & cleanup in Edgewood, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup edgewood",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/edgewood-wa/",
+        "/service-areas/edgewood-wa/fire-damage-restoration/",
+        "/service-areas/edgewood-wa/mold-remediation/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -36079,6 +36859,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/fife-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Fife, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in Fife",
+      "meta_description": "24/7 emergency water removal & cleanup in Fife, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup fife",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/fife-wa/",
+        "/service-areas/fife-wa/fire-damage-restoration/",
+        "/service-areas/fife-wa/mold-remediation/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/fife-wa/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -37559,6 +38384,51 @@
         "/service-areas/normandy-park-wa/mold-remediation/",
         "/service-areas/algona-wa/emergency-plumbing/",
         "/service-areas/auburn-wa/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/normandy-park-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Normandy Park, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in Normandy Park",
+      "meta_description": "24/7 emergency water removal & cleanup in Normandy Park, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup normandy park",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/normandy-park-wa/",
+        "/service-areas/normandy-park-wa/fire-damage-restoration/",
+        "/service-areas/normandy-park-wa/mold-remediation/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -39047,6 +39917,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/vashon-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Vashon, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in Vashon",
+      "meta_description": "24/7 emergency water removal & cleanup in Vashon, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup vashon",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/vashon-wa/",
+        "/service-areas/vashon-wa/fire-damage-restoration/",
+        "/service-areas/vashon-wa/mold-remediation/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/vashon-wa/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -40527,6 +41442,51 @@
         "/service-areas/burien-wa/mold-remediation/",
         "/service-areas/algona-wa/emergency-plumbing/",
         "/service-areas/auburn-wa/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/burien-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Burien, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in Burien",
+      "meta_description": "24/7 emergency water removal & cleanup in Burien, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup burien",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/burien-wa/",
+        "/service-areas/burien-wa/fire-damage-restoration/",
+        "/service-areas/burien-wa/mold-remediation/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -42015,6 +42975,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/lake-holm-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Lake Holm, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in Lake Holm",
+      "meta_description": "24/7 emergency water removal & cleanup in Lake Holm, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup lake holm",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/lake-holm-wa/",
+        "/service-areas/lake-holm-wa/fire-damage-restoration/",
+        "/service-areas/lake-holm-wa/mold-remediation/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/lake-holm-wa/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -43495,6 +44500,51 @@
         "/service-areas/waller-wa/mold-remediation/",
         "/service-areas/algona-wa/emergency-plumbing/",
         "/service-areas/auburn-wa/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/waller-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Waller, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in Waller",
+      "meta_description": "24/7 emergency water removal & cleanup in Waller, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup waller",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/waller-wa/",
+        "/service-areas/waller-wa/fire-damage-restoration/",
+        "/service-areas/waller-wa/mold-remediation/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -44983,6 +46033,51 @@
       ]
     },
     {
+      "url_path": "/service-areas/sumner-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in Sumner, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in Sumner",
+      "meta_description": "24/7 emergency water removal & cleanup in Sumner, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup sumner",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/sumner-wa/",
+        "/service-areas/sumner-wa/fire-damage-restoration/",
+        "/service-areas/sumner-wa/mold-remediation/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
+        "/contact/"
+      ]
+    },
+    {
       "url_path": "/service-areas/sumner-wa/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -46463,6 +47558,51 @@
         "/service-areas/north-puyallup-wa/mold-remediation/",
         "/service-areas/algona-wa/emergency-plumbing/",
         "/service-areas/auburn-wa/emergency-plumbing/",
+        "/contact/"
+      ]
+    },
+    {
+      "url_path": "/service-areas/north-puyallup-wa/emergency-water-removal/",
+      "archetype": "service-area-service",
+      "vars_keys": [
+        "area",
+        "service"
+      ],
+      "title": "Emergency Water Removal & Cleanup in North Puyallup, WA | National Restoration Construction",
+      "h1": "Emergency Water Removal & Cleanup in North Puyallup",
+      "meta_description": "24/7 emergency water removal & cleanup in North Puyallup, WA. IICRC-certified, insurance billing accepted. Call (206) 883-0333.",
+      "primary_keyword": "emergency water removal & cleanup north puyallup",
+      "secondary_keywords": [
+        "emergency water removal",
+        "water extraction",
+        "water removal",
+        "water cleanup",
+        "emergency water cleanup",
+        "standing water removal"
+      ],
+      "search_intent": "local_emergency",
+      "target_word_count": 900,
+      "image_roles": [
+        "hero",
+        "og",
+        "inline-1",
+        "inline-2"
+      ],
+      "schema_stubs": [
+        "service",
+        "local-business",
+        "faq",
+        "breadcrumb-list"
+      ],
+      "priority": 6.3,
+      "status": "planned",
+      "internal_links_out": [
+        "/services/emergency-water-removal/",
+        "/service-areas/north-puyallup-wa/",
+        "/service-areas/north-puyallup-wa/fire-damage-restoration/",
+        "/service-areas/north-puyallup-wa/mold-remediation/",
+        "/service-areas/algona-wa/emergency-water-removal/",
+        "/service-areas/auburn-wa/emergency-water-removal/",
         "/contact/"
       ]
     },

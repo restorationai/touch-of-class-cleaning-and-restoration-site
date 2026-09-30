@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "da81f7fbb82b03f4"
-generated_at: "2026-09-30T14:12:07.090700+00:00"
+generated_at: "2026-09-30T19:28:30.047601+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/austintown-oh/water-heater-flood-cleanup/", "/service-areas/boardman-oh/water-heater-flood-cleanup/", "/service-areas/campbell-oh/water-heater-flood-cleanup/", "/service-areas/canfield-oh/water-heater-flood-cleanup/", "/service-areas/farrell-pa/water-heater-flood-cleanup/", "/service-areas/girard-oh/water-heater-flood-cleanup/", "/service-areas/greenville-pa/water-heater-flood-cleanup/", "/service-areas/grove-city-pa/water-heater-flood-cleanup/", "/service-areas/hermitage-pa/water-heater-flood-cleanup/", "/service-areas/hubbard-oh/water-heater-flood-cleanup/", "/service-areas/mercer-pa/water-heater-flood-cleanup/", "/service-areas/mineral-ridge-oh/water-heater-flood-cleanup/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "water-heater-flood-cleanup"}]

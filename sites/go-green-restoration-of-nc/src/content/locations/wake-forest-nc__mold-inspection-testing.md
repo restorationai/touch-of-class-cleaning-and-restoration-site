@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "b795f2dbdbbb160d"
-generated_at: "2026-09-29T23:13:49.287054+00:00"
+generated_at: "2026-09-30T19:28:39.625645+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/wake-forest-nc/", "/service-areas/wake-forest-nc/fire-damage-restoration/", "/service-areas/wake-forest-nc/mold-remediation/", "/service-areas/archer-lodge-nc/mold-inspection-testing/", "/service-areas/clayton-nc/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wake Forest", "url": "/service-areas/wake-forest-nc/"}, {"name": "Mold Inspection and Testing"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "fba00e01b7691c6d"
-generated_at: "2026-09-29T23:28:29.667322+00:00"
+generated_at: "2026-09-30T19:28:35.986179+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/lake-magdalene-fl/", "/service-areas/lake-magdalene-fl/fire-damage-restoration/", "/service-areas/lake-magdalene-fl/mold-remediation/", "/service-areas/anna-maria-fl/burst-pipe-repair/", "/service-areas/apollo-beach-fl/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Magdalene", "url": "/service-areas/lake-magdalene-fl/"}, {"name": "Burst Pipe Cleanup and Repair"}]

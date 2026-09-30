@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "8b73089e5aaf4ab7"
-generated_at: "2026-09-28T20:50:26.591508+00:00"
+generated_at: "2026-09-30T19:28:58.518447+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/enterprise-nv/", "/service-areas/enterprise-nv/fire-damage-restoration/", "/service-areas/enterprise-nv/mold-remediation/", "/service-areas/blue-diamond-nv/water-heater-flood-cleanup/", "/service-areas/boulder-city-nv/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Enterprise", "url": "/service-areas/enterprise-nv/"}, {"name": "water-heater-flood-cleanup"}]

@@ -1,6 +1,31 @@
 {
   "slug": "reign-restoration",
   "assets": {
+    "gbp:gbp-AF1QipMGRYi4v1_xnuh2DFsqZiwHJ3bQe1D2mqTdq3an": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMGRYi4v1_xnuh2DFsqZiwHJ3bQe1D2mqTdq3an.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1785771354136/job-photos/posted/gbp-AF1QipMGRYi4v1_xnuh2DFsqZiwHJ3bQe1D2mqTdq3an.jpg",
+      "width": 2164,
+      "height": 2539,
+      "bytes": 136048,
+      "sha1": "f4e941fd2870d875",
+      "exif": {},
+      "category": "graphic",
+      "subject": "Reign Restoration shield logo with crown",
+      "quality": 80,
+      "slots": {
+        "hero": 0,
+        "team": 0,
+        "services": 0
+      },
+      "service_slugs": [],
+      "flags": [
+        "logo_card"
+      ],
+      "reason": "Company logo graphic, not a photograph of work or crew.",
+      "triaged_at": "2026-09-30T19:32:10Z",
+      "triage_model": "claude-sonnet-5"
+    },
     "gbp:gbp-AF1QipM_RfouGkvIPOzCu2jMNk0oAhbUoYMpUV0QGQGO": {
       "source": "gbp",
       "storage": "job-photos/posted/r1785782959_gbp-AF1QipM_RfouGkvIPOzCu2jMNk0oAhbUoYMpUV0QGQGO.jpg",
@@ -876,7 +901,7 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-05T07:07:17Z",
+  "triaged_at": "2026-09-30T19:32:10Z",
   "retired_slots": {
     "hero": {
       "asset": "web:81fc5fc5de08a19f",

@@ -10,10 +10,10 @@
   "plan": {
     "template": "restoration",
     "template_version": "0.3.0",
-    "url_count": 1648,
-    "generated_at": "2026-09-30T14:12:10.980854+00:00"
+    "url_count": 1456,
+    "generated_at": "2026-09-30T19:28:42.365042+00:00"
   },
-  "updated_at": "2026-09-30T14:12:10.980879+00:00",
+  "updated_at": "2026-09-30T19:28:42.365051+00:00",
   "build": {
     "scaffolded_at": "2026-08-01T20:18:36.299156+00:00",
     "github_repo": "restorationai/homelyft-restoration-ms-site",

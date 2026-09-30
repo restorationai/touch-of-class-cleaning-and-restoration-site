@@ -33,6 +33,7 @@
   },
   "services": [
     "contents-restoration",
+    "contents-restoration-storage",
     "fire-damage-restoration",
     "general-contracting",
     "mold-remediation",

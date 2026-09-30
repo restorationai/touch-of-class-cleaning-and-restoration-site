@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "3c8be1ebf5418ae4"
-generated_at: "2026-09-29T23:13:48.849040+00:00"
+generated_at: "2026-09-30T19:28:41.605343+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/st-cloud-mn/", "/service-areas/st-cloud-mn/fire-damage-restoration/", "/service-areas/st-cloud-mn/mold-remediation/", "/service-areas/albany-mn/water-heater-flood-cleanup/", "/service-areas/avon-mn/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "St. Cloud", "url": "/service-areas/st-cloud-mn/"}, {"name": "Water Heater Flood Cleanup"}]

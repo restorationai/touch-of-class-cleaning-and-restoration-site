@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "00ad98e3403580b1"
-generated_at: "2026-09-23T14:12:04.456307+00:00"
+generated_at: "2026-09-30T19:29:00.334466+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/greenville-tx/", "/service-areas/greenville-tx/fire-damage-restoration/", "/service-areas/greenville-tx/mold-remediation/", "/service-areas/allen-tx/roofing/", "/service-areas/caddo-mills-tx/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Greenville", "url": "/service-areas/greenville-tx/"}, {"name": "Roofing Installation and Replacement"}]

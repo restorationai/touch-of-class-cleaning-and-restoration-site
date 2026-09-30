@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "e52f8ea1ea32f636"
-generated_at: "2026-09-29T23:13:49.274970+00:00"
+generated_at: "2026-09-30T19:28:39.599506+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/rocky-mount-nc/", "/service-areas/rocky-mount-nc/fire-damage-restoration/", "/service-areas/rocky-mount-nc/mold-remediation/", "/service-areas/archer-lodge-nc/ceiling-water-damage-repair/", "/service-areas/clayton-nc/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rocky Mount", "url": "/service-areas/rocky-mount-nc/"}, {"name": "Ceiling Water Damage Repair"}]

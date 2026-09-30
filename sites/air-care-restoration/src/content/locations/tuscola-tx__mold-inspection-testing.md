@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "78bd9a78333b5b42"
-generated_at: "2026-09-30T14:12:01.749805+00:00"
+generated_at: "2026-09-30T19:28:19.960446+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/tuscola-tx/", "/service-areas/tuscola-tx/fire-damage-restoration/", "/service-areas/tuscola-tx/mold-remediation/", "/service-areas/albany-tx/mold-inspection-testing/", "/service-areas/anson-tx/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tuscola", "url": "/service-areas/tuscola-tx/"}, {"name": "mold-inspection-testing"}]

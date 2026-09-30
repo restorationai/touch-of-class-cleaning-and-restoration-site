@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "fff66848f2c1376f"
-generated_at: "2026-09-23T14:11:42.628313+00:00"
+generated_at: "2026-09-30T19:28:38.056405+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/wollochet-wa/", "/service-areas/wollochet-wa/fire-damage-restoration/", "/service-areas/wollochet-wa/mold-remediation/", "/service-areas/anderson-island-wa/emergency-plumbing/", "/service-areas/auburn-wa/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wollochet", "url": "/service-areas/wollochet-wa/"}, {"name": "Emergency Plumbing"}]

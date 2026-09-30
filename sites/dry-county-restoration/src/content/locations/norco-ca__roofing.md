@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "2ef0185e2b1f416d"
-generated_at: "2026-09-30T14:12:09.654193+00:00"
+generated_at: "2026-09-30T19:28:32.723072+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/norco-ca/", "/service-areas/norco-ca/fire-damage-restoration/", "/service-areas/norco-ca/mold-remediation/", "/service-areas/anaheim-ca/roofing/", "/service-areas/chino-ca/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Norco", "url": "/service-areas/norco-ca/"}, {"name": "Roofing Installation and Replacement"}]

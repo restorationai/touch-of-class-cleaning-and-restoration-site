@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "dae1fb36fc7fc3de"
-generated_at: "2026-09-23T14:11:42.640164+00:00"
+generated_at: "2026-09-30T19:28:38.069425+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/frederickson-wa/", "/service-areas/frederickson-wa/fire-damage-restoration/", "/service-areas/frederickson-wa/mold-remediation/", "/service-areas/anderson-island-wa/emergency-plumbing/", "/service-areas/auburn-wa/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Frederickson", "url": "/service-areas/frederickson-wa/"}, {"name": "Emergency Plumbing"}]

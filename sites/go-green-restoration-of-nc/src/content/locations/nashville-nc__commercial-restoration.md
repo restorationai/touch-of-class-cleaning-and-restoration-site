@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "f2ae4da91eb6eaa3"
-generated_at: "2026-09-29T23:13:49.330223+00:00"
+generated_at: "2026-09-30T19:28:39.742851+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/nashville-nc/", "/service-areas/nashville-nc/fire-damage-restoration/", "/service-areas/nashville-nc/mold-remediation/", "/service-areas/archer-lodge-nc/commercial-restoration/", "/service-areas/clayton-nc/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Nashville", "url": "/service-areas/nashville-nc/"}, {"name": "Commercial Restoration"}]

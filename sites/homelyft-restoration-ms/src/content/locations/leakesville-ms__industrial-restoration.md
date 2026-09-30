@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "3bef0468c3832cfd"
-generated_at: "2026-09-30T14:12:12.842926+00:00"
+generated_at: "2026-09-30T19:28:43.361735+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/leakesville-ms/", "/service-areas/leakesville-ms/fire-damage-restoration/", "/service-areas/leakesville-ms/mold-remediation/", "/service-areas/agricola-ms/industrial-restoration/", "/service-areas/bay-st-louis-ms/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Leakesville", "url": "/service-areas/leakesville-ms/"}, {"name": "industrial-restoration"}]

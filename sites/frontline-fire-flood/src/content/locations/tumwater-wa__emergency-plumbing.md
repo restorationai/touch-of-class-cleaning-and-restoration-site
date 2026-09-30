@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "cd08f767ef3aebb7"
-generated_at: "2026-09-23T14:11:42.591099+00:00"
+generated_at: "2026-09-30T19:28:37.979974+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/tumwater-wa/", "/service-areas/tumwater-wa/fire-damage-restoration/", "/service-areas/tumwater-wa/mold-remediation/", "/service-areas/anderson-island-wa/emergency-plumbing/", "/service-areas/auburn-wa/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Tumwater", "url": "/service-areas/tumwater-wa/"}, {"name": "Emergency Plumbing"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "fdc85f35fa0c1c7f"
-generated_at: "2026-09-30T14:12:07.113665+00:00"
+generated_at: "2026-09-30T19:28:30.077365+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/girard-oh/", "/service-areas/girard-oh/fire-damage-restoration/", "/service-areas/girard-oh/mold-remediation/", "/service-areas/austintown-oh/water-heater-flood-cleanup/", "/service-areas/boardman-oh/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Girard", "url": "/service-areas/girard-oh/"}, {"name": "water-heater-flood-cleanup"}]

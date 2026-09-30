@@ -8,7 +8,7 @@ secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restorati
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "2d42f14ed27d919c"
-generated_at: "2026-09-30T14:12:14.643411+00:00"
+generated_at: "2026-09-30T19:28:45.304519+00:00"
 manual_override: false
 internal_links: ["/services/flood-damage-restoration/", "/service-areas/bluffdale-ut/", "/service-areas/bluffdale-ut/fire-damage-restoration/", "/service-areas/bluffdale-ut/mold-remediation/", "/service-areas/alpine-ut/flood-damage-restoration/", "/service-areas/american-fork-ut/flood-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bluffdale", "url": "/service-areas/bluffdale-ut/"}, {"name": "flood-damage-restoration"}]

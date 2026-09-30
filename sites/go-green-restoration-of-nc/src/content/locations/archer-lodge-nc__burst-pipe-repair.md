@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "0ea2bcc9685f36a7"
-generated_at: "2026-09-29T23:13:49.295209+00:00"
+generated_at: "2026-09-30T19:28:39.648847+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/archer-lodge-nc/", "/service-areas/archer-lodge-nc/fire-damage-restoration/", "/service-areas/archer-lodge-nc/mold-remediation/", "/service-areas/clayton-nc/burst-pipe-repair/", "/service-areas/durham-nc/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Archer Lodge", "url": "/service-areas/archer-lodge-nc/"}, {"name": "Burst Pipe Cleanup and Repair"}]

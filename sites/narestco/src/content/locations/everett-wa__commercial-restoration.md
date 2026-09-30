@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 6.3
 plan_hash: "ddb2656f863dda57"
-generated_at: "2026-09-30T14:12:21.364341+00:00"
+generated_at: "2026-09-30T19:28:52.944755+00:00"
 manual_override: false
 internal_links: ["/services/commercial-restoration/", "/service-areas/everett-wa/", "/service-areas/everett-wa/fire-damage-restoration/", "/service-areas/everett-wa/mold-remediation/", "/service-areas/algona-wa/commercial-restoration/", "/service-areas/auburn-wa/commercial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Everett", "url": "/service-areas/everett-wa/"}, {"name": "Commercial Restoration"}]

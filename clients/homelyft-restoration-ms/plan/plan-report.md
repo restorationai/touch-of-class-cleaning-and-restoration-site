@@ -1,21 +1,21 @@
 # Site Plan Report — HomeLyft Restoration MS
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T14:12:10.979719+00:00
+- Generated: 2026-09-30T19:28:42.364178+00:00
 - Domain: `homelyft.net`
-- Services selected: 33 of 91 catalog entries
+- Services selected: 29 of 91 catalog entries
 - Service areas: 48
 - Cross-product enabled: True
-- Total URLs: **1648**
-- Total internal links: 13340 (avg 8.1 per page)
+- Total URLs: **1456**
+- Total internal links: 11772 (avg 8.1 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 1551 |
+| `service-area-service` | 1363 |
 | `service-area` | 47 |
-| `service-landing` | 33 |
+| `service-landing` | 29 |
 | `blog-post` | 8 |
 | `legal` | 3 |
 | `home` | 1 |
@@ -30,9 +30,7 @@
 - `asbestos-abatement` — Asbestos Abatement (specialty, priority 6)
 - `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
 - `carpet-cleaning` — Carpet Cleaning (adjacent, priority 4)
-- `carpet-upholstery-cleaning` — Carpet & Upholstery Cleaning (adjacent, priority 5)
 - `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
-- `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
 - `crawl-space-encapsulation` — Crawl Space Encapsulation (adjacent, priority 5)
 - `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
@@ -43,10 +41,9 @@
 - `roofing` — Roofing Installation and Replacement (construction, priority 10)
 - `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
-- `vandalism-cleanup` — Vandalism Cleanup (specialty, priority 5)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
-- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
+- `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
 - `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
 - `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
 - `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
@@ -58,7 +55,6 @@
 - `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
 - `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
 - `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
-- `emergency-water-removal` — 24/7 Emergency Water Removal (core, priority 9)
 - `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 
 ## Service areas
@@ -122,7 +118,7 @@
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration gulfport |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration gulfport |
 | `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing gulfport |
-| `/services/emergency-water-removal/` | `service-landing` | 8.1 | 24/7 emergency water removal gulfport |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup gulfport |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration gulfport |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services gulfport |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization gulfport |

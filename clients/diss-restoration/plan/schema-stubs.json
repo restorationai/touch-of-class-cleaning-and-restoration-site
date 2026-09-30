@@ -118,6 +118,16 @@
     ],
     "missing_stubs": []
   },
+  "/services/emergency-water-removal/": {
+    "archetype": "service-landing",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/services/fire-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
@@ -568,6 +578,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/warren-oh/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/warren-oh/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -829,6 +849,16 @@
     "missing_stubs": []
   },
   "/service-areas/boardman-oh/emergency-board-up-tarping/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/boardman-oh/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1108,6 +1138,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/austintown-oh/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/austintown-oh/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1369,6 +1409,16 @@
     "missing_stubs": []
   },
   "/service-areas/niles-oh/emergency-board-up-tarping/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/niles-oh/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1648,6 +1698,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/girard-oh/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/girard-oh/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1909,6 +1969,16 @@
     "missing_stubs": []
   },
   "/service-areas/struthers-oh/emergency-board-up-tarping/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/struthers-oh/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2188,6 +2258,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/canfield-oh/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/canfield-oh/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2449,6 +2529,16 @@
     "missing_stubs": []
   },
   "/service-areas/hubbard-oh/emergency-board-up-tarping/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/hubbard-oh/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2728,6 +2818,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/campbell-oh/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/campbell-oh/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2989,6 +3089,16 @@
     "missing_stubs": []
   },
   "/service-areas/mineral-ridge-oh/emergency-board-up-tarping/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/mineral-ridge-oh/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3268,6 +3378,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/farrell-pa/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/farrell-pa/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3529,6 +3649,16 @@
     "missing_stubs": []
   },
   "/service-areas/sharon-pa/emergency-board-up-tarping/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sharon-pa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3808,6 +3938,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/hermitage-pa/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/hermitage-pa/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4069,6 +4209,16 @@
     "missing_stubs": []
   },
   "/service-areas/sharpsville-pa/emergency-board-up-tarping/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/sharpsville-pa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4348,6 +4498,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/wheatland-pa/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/wheatland-pa/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4609,6 +4769,16 @@
     "missing_stubs": []
   },
   "/service-areas/west-middlesex-pa/emergency-board-up-tarping/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/west-middlesex-pa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4888,6 +5058,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/greenville-pa/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/greenville-pa/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5149,6 +5329,16 @@
     "missing_stubs": []
   },
   "/service-areas/grove-city-pa/emergency-board-up-tarping/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/grove-city-pa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5428,6 +5618,16 @@
     ],
     "missing_stubs": []
   },
+  "/service-areas/mercer-pa/emergency-water-removal/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
   "/service-areas/mercer-pa/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5689,6 +5889,16 @@
     "missing_stubs": []
   },
   "/service-areas/new-castle-pa/emergency-board-up-tarping/": {
+    "archetype": "service-area-service",
+    "stubs": [
+      "service",
+      "local-business",
+      "faq",
+      "breadcrumb-list"
+    ],
+    "missing_stubs": []
+  },
+  "/service-areas/new-castle-pa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

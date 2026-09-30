@@ -8,7 +8,7 @@ secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "92c687e48d6b604d"
-generated_at: "2026-09-29T14:31:48.356835+00:00"
+generated_at: "2026-09-30T19:28:33.740943+00:00"
 manual_override: false
 internal_links: ["/services/storm-damage-restoration/", "/service-areas/fremont-ca/", "/service-areas/fremont-ca/fire-damage-restoration/", "/service-areas/fremont-ca/mold-remediation/", "/service-areas/berkeley-ca/storm-damage-restoration/", "/service-areas/carlsbad-ca/storm-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Fremont", "url": "/service-areas/fremont-ca/"}, {"name": "Storm Damage Restoration"}]

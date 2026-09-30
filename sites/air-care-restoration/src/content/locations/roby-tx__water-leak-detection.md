@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "d10387659919e7cc"
-generated_at: "2026-09-30T14:12:01.765346+00:00"
+generated_at: "2026-09-30T19:28:19.981922+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/roby-tx/", "/service-areas/roby-tx/fire-damage-restoration/", "/service-areas/roby-tx/mold-remediation/", "/service-areas/albany-tx/water-leak-detection/", "/service-areas/anson-tx/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Roby", "url": "/service-areas/roby-tx/"}, {"name": "water-leak-detection"}]

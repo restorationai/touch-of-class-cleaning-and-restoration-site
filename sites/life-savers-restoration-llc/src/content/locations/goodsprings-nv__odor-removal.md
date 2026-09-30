@@ -8,7 +8,7 @@ secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodoriz
 search_intent: "local_specialty"
 priority: 4.9
 plan_hash: "105f5a18ad2b569e"
-generated_at: "2026-09-23T14:11:52.257572+00:00"
+generated_at: "2026-09-30T19:28:50.979252+00:00"
 manual_override: false
 internal_links: ["/services/odor-removal/", "/service-areas/goodsprings-nv/", "/service-areas/goodsprings-nv/fire-damage-restoration/", "/service-areas/goodsprings-nv/mold-remediation/", "/service-areas/blue-diamond-nv/odor-removal/", "/service-areas/boulder-city-nv/odor-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Goodsprings", "url": "/service-areas/goodsprings-nv/"}, {"name": "Odor Removal and Deodorization"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "38625af32ba9da5a"
-generated_at: "2026-09-29T23:28:29.569988+00:00"
+generated_at: "2026-09-30T19:28:35.841724+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/haines-city-fl/", "/service-areas/haines-city-fl/fire-damage-restoration/", "/service-areas/haines-city-fl/mold-remediation/", "/service-areas/anna-maria-fl/ceiling-water-damage-repair/", "/service-areas/apollo-beach-fl/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Haines City", "url": "/service-areas/haines-city-fl/"}, {"name": "Ceiling Water Damage Repair"}]

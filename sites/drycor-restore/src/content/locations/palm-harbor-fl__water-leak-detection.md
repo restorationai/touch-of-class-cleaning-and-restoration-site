@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "3fc8aacd21b27f86"
-generated_at: "2026-09-29T23:28:29.500985+00:00"
+generated_at: "2026-09-30T19:28:35.735506+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/palm-harbor-fl/", "/service-areas/palm-harbor-fl/fire-damage-restoration/", "/service-areas/palm-harbor-fl/mold-remediation/", "/service-areas/anna-maria-fl/water-leak-detection/", "/service-areas/apollo-beach-fl/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Palm Harbor", "url": "/service-areas/palm-harbor-fl/"}, {"name": "Water Leak Detection"}]

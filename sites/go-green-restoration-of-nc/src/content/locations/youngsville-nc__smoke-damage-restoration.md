@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "f293ae155dfa5734"
-generated_at: "2026-09-29T23:13:49.347527+00:00"
+generated_at: "2026-09-30T19:28:39.786879+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/youngsville-nc/", "/service-areas/youngsville-nc/fire-damage-restoration/", "/service-areas/youngsville-nc/mold-remediation/", "/service-areas/archer-lodge-nc/smoke-damage-restoration/", "/service-areas/clayton-nc/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Youngsville", "url": "/service-areas/youngsville-nc/"}, {"name": "Smoke Damage Restoration"}]

@@ -387,6 +387,12 @@
       "source": "exact",
       "at": "2026-09-30"
     },
+    "Contractor": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
+      "at": "2026-09-30"
+    },
     "Covid - 19 Disinfection": {
       "verdict": "mapped",
       "page": "biohazard-cleanup",
@@ -973,6 +979,12 @@
       "page": "reconstruction",
       "reason": "same name",
       "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Remodeler": {
+      "verdict": "held",
+      "page": null,
+      "reason": "not classified yet",
       "at": "2026-09-30"
     },
     "Renovations, Remodels and General Contracting": {

@@ -34,12 +34,15 @@
   },
   "services": [
     "air-duct-cleaning",
+    "air-duct-hvac-cleaning",
     "carpet-cleaning",
+    "carpet-upholstery-cleaning",
+    "emergency-water-removal",
     "junk-debris-removal",
     "sewage-cleanup",
     "storm-damage-restoration",
     "tile-grout-cleaning",
-    "emergency-water-removal",
+    "water-cleanup",
     "water-damage-restoration"
   ],
   "service_areas": [

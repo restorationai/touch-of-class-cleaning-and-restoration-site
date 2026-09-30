@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "b14f3d4361d641f5"
-generated_at: "2026-09-29T23:13:48.878459+00:00"
+generated_at: "2026-09-30T19:28:41.658704+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/flensburg-mn/", "/service-areas/flensburg-mn/fire-damage-restoration/", "/service-areas/flensburg-mn/mold-remediation/", "/service-areas/albany-mn/industrial-restoration/", "/service-areas/avon-mn/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Flensburg", "url": "/service-areas/flensburg-mn/"}, {"name": "Industrial Restoration"}]

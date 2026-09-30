@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 8.1
 plan_hash: "1e4c7fc4bfafacfe"
-generated_at: "2026-09-30T14:12:21.330759+00:00"
+generated_at: "2026-09-30T19:28:52.908082+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/algona-wa/emergency-plumbing/", "/service-areas/auburn-wa/emergency-plumbing/", "/service-areas/bellevue-wa/emergency-plumbing/", "/service-areas/bremerton-wa/emergency-plumbing/", "/service-areas/burien-wa/emergency-plumbing/", "/service-areas/des-moines-wa/emergency-plumbing/", "/service-areas/edgewood-wa/emergency-plumbing/", "/service-areas/everett-wa/emergency-plumbing/", "/service-areas/fife-wa/emergency-plumbing/", "/service-areas/gig-harbor-wa/emergency-plumbing/", "/service-areas/kent-wa/emergency-plumbing/", "/service-areas/kirkland-wa/emergency-plumbing/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Emergency Plumbing"}]

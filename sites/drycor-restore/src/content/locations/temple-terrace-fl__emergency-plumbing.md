@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "78090bed3778aa77"
-generated_at: "2026-09-23T14:11:38.253675+00:00"
+generated_at: "2026-09-30T19:28:35.692069+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/temple-terrace-fl/", "/service-areas/temple-terrace-fl/fire-damage-restoration/", "/service-areas/temple-terrace-fl/mold-remediation/", "/service-areas/anna-maria-fl/emergency-plumbing/", "/service-areas/apollo-beach-fl/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Temple Terrace", "url": "/service-areas/temple-terrace-fl/"}, {"name": "Emergency Plumbing"}]

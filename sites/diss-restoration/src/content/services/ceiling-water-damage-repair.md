@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 7.2
 plan_hash: "a9ddf09a490e13bc"
-generated_at: "2026-09-30T14:12:07.090581+00:00"
+generated_at: "2026-09-30T19:28:30.047262+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/austintown-oh/ceiling-water-damage-repair/", "/service-areas/boardman-oh/ceiling-water-damage-repair/", "/service-areas/campbell-oh/ceiling-water-damage-repair/", "/service-areas/canfield-oh/ceiling-water-damage-repair/", "/service-areas/farrell-pa/ceiling-water-damage-repair/", "/service-areas/girard-oh/ceiling-water-damage-repair/", "/service-areas/greenville-pa/ceiling-water-damage-repair/", "/service-areas/grove-city-pa/ceiling-water-damage-repair/", "/service-areas/hermitage-pa/ceiling-water-damage-repair/", "/service-areas/hubbard-oh/ceiling-water-damage-repair/", "/service-areas/mercer-pa/ceiling-water-damage-repair/", "/service-areas/mineral-ridge-oh/ceiling-water-damage-repair/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "ceiling-water-damage-repair"}]

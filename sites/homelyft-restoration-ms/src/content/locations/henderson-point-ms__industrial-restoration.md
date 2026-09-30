@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "83b258863827cdf6"
-generated_at: "2026-09-30T14:12:12.875901+00:00"
+generated_at: "2026-09-30T19:28:43.405993+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/henderson-point-ms/", "/service-areas/henderson-point-ms/fire-damage-restoration/", "/service-areas/henderson-point-ms/mold-remediation/", "/service-areas/agricola-ms/industrial-restoration/", "/service-areas/bay-st-louis-ms/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Henderson Point", "url": "/service-areas/henderson-point-ms/"}, {"name": "industrial-restoration"}]

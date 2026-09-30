@@ -8,7 +8,7 @@ secondary_keywords: ["flooded basement cleanup", "basement water removal", "wet 
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "679e92b35ca9d872"
-generated_at: "2026-09-30T14:12:12.837781+00:00"
+generated_at: "2026-09-30T19:28:43.354887+00:00"
 manual_override: false
 internal_links: ["/services/basement-flooding-cleanup/", "/service-areas/rawls-springs-ms/", "/service-areas/rawls-springs-ms/fire-damage-restoration/", "/service-areas/rawls-springs-ms/mold-remediation/", "/service-areas/agricola-ms/basement-flooding-cleanup/", "/service-areas/bay-st-louis-ms/basement-flooding-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rawls Springs", "url": "/service-areas/rawls-springs-ms/"}, {"name": "basement-flooding-cleanup"}]

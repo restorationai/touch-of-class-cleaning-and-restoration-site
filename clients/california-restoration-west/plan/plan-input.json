@@ -27,14 +27,18 @@
       "Locally Owned & Operated"
     ],
     "ga4_measurement_id": "G-5DKZE0DK8C",
-    "place_id": "ChIJx7cmNM8b-ioRFlPXDWY8C-A"
+    "place_id": "ChIJx7cmNM8b-ioRFlPXDWY8C-A",
+    "primary_color": "#dc2626"
   },
   "services": [
     "contents-restoration",
+    "contents-restoration-storage",
     "crawl-space-encapsulation",
+    "emergency-water-removal",
     "mold-remediation",
     "odor-removal",
     "storm-damage-restoration",
+    "water-cleanup",
     "water-damage-restoration"
   ],
   "service_areas": [
@@ -146,5 +150,16 @@
     }
   ],
   "template": "restoration",
-  "blog_seed_count": 8
+  "blog_seed_count": 8,
+  "homepage_services": [
+    "mold-remediation",
+    "water-damage-restoration",
+    "storm-damage-restoration",
+    "contents-restoration",
+    "crawl-space-encapsulation"
+  ],
+  "merged_services": {
+    "contents-restoration-storage": "contents-restoration",
+    "water-cleanup": "emergency-water-removal"
+  }
 }

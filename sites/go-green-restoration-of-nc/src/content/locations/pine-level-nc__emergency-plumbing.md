@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "71b94634783be62c"
-generated_at: "2026-09-29T23:13:49.337529+00:00"
+generated_at: "2026-09-30T19:28:39.763772+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/pine-level-nc/", "/service-areas/pine-level-nc/fire-damage-restoration/", "/service-areas/pine-level-nc/mold-remediation/", "/service-areas/archer-lodge-nc/emergency-plumbing/", "/service-areas/clayton-nc/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pine Level", "url": "/service-areas/pine-level-nc/"}, {"name": "Emergency Plumbing"}]

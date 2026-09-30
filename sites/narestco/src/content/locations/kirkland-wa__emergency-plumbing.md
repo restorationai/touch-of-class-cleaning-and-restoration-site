@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "5c19523916721a69"
-generated_at: "2026-09-30T14:12:21.396015+00:00"
+generated_at: "2026-09-30T19:28:52.967467+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/kirkland-wa/", "/service-areas/kirkland-wa/fire-damage-restoration/", "/service-areas/kirkland-wa/mold-remediation/", "/service-areas/algona-wa/emergency-plumbing/", "/service-areas/auburn-wa/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Kirkland", "url": "/service-areas/kirkland-wa/"}, {"name": "Emergency Plumbing"}]

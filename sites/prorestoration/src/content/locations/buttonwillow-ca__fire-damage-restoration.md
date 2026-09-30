@@ -8,7 +8,7 @@ secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural f
 search_intent: "local_emergency"
 priority: 7.0
 plan_hash: "5a47235617a60e3f"
-generated_at: "2026-09-30T14:12:23.046462+00:00"
+generated_at: "2026-09-30T19:28:54.616726+00:00"
 manual_override: false
 internal_links: ["/services/fire-damage-restoration/", "/service-areas/buttonwillow-ca/", "/service-areas/buttonwillow-ca/home-remodeling/", "/service-areas/buttonwillow-ca/mold-remediation/", "/service-areas/arvin-ca/fire-damage-restoration/", "/service-areas/bear-valley-springs-ca/fire-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Buttonwillow", "url": "/service-areas/buttonwillow-ca/"}, {"name": "Fire Damage Restoration"}]

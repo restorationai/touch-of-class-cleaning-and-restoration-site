@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "c57e6f8be1450406"
-generated_at: "2026-09-29T23:28:29.659373+00:00"
+generated_at: "2026-09-30T19:28:35.972860+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/university-fl/", "/service-areas/university-fl/fire-damage-restoration/", "/service-areas/university-fl/mold-remediation/", "/service-areas/anna-maria-fl/burst-pipe-repair/", "/service-areas/apollo-beach-fl/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "University", "url": "/service-areas/university-fl/"}, {"name": "Burst Pipe Cleanup and Repair"}]

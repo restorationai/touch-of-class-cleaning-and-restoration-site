@@ -1,20 +1,20 @@
 # Site Plan Report — Home Pride Restoration and Cleaning
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T14:12:13.513417+00:00
+- Generated: 2026-09-30T19:28:44.046994+00:00
 - Domain: `homepriderestorationandcleaning.com`
-- Services selected: 36 of 91 catalog entries
+- Services selected: 33 of 91 catalog entries
 - Service areas: 23
 - Cross-product enabled: True
-- Total URLs: **871**
-- Total internal links: 7169 (avg 8.2 per page)
+- Total URLs: **802**
+- Total internal links: 6593 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 792 |
-| `service-landing` | 36 |
+| `service-area-service` | 726 |
+| `service-landing` | 33 |
 | `service-area` | 22 |
 | `blog-post` | 12 |
 | `legal` | 3 |
@@ -32,7 +32,6 @@
 - `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
 - `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
 - `carpet-cleaning` — Carpet Cleaning (adjacent, priority 4)
-- `carpet-upholstery-cleaning` — Carpet & Upholstery Cleaning (adjacent, priority 5)
 - `crawl-space-encapsulation` — Crawl Space Encapsulation (adjacent, priority 5)
 - `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
 - `fabric-protection` — Fabric Protection (adjacent, priority 5)
@@ -52,7 +51,7 @@
 - `upholstery-cleaning` — Upholstery Cleaning (adjacent, priority 4)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
-- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
+- `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
 - `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
 - `commercial-restoration` — Commercial Restoration (core, priority 9)
 - `industrial-restoration` — Industrial Restoration (core, priority 7)
@@ -60,8 +59,6 @@
 - `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
 - `large-loss-response` — Large Loss and Catastrophic Response (core, priority 8)
 - `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
-- `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
-- `emergency-water-removal` — 24/7 Emergency Water Removal (core, priority 9)
 - `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 
 ## Service areas
@@ -99,7 +96,7 @@
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration saratoga springs |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration saratoga springs |
 | `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing saratoga springs |
-| `/services/emergency-water-removal/` | `service-landing` | 8.1 | 24/7 emergency water removal saratoga springs |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup saratoga springs |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration saratoga springs |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services saratoga springs |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization saratoga springs |

@@ -8,7 +8,7 @@ secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire 
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "0c8776854b2983a2"
-generated_at: "2026-09-30T14:12:02.636148+00:00"
+generated_at: "2026-09-30T19:28:20.853095+00:00"
 manual_override: false
 internal_links: ["/services/smoke-damage-restoration/", "/service-areas/gardendale-tx/", "/service-areas/gardendale-tx/fire-damage-restoration/", "/service-areas/gardendale-tx/mold-remediation/", "/service-areas/andrews-tx/smoke-damage-restoration/", "/service-areas/big-lake-tx/smoke-damage-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gardendale", "url": "/service-areas/gardendale-tx/"}, {"name": "smoke-damage-restoration"}]

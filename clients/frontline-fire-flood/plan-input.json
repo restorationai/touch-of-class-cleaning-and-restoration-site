@@ -42,12 +42,13 @@
     "contents-restoration-storage",
     "emergency-board-up-tarping",
     "emergency-plumbing",
+    "emergency-water-removal",
     "fire-damage-restoration",
     "mold-remediation",
     "odor-removal",
     "sewage-cleanup",
     "storm-damage-restoration",
-    "emergency-water-removal",
+    "water-cleanup",
     "water-damage-restoration"
   ],
   "service_areas": [

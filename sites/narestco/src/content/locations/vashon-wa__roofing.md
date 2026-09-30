@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "28c6f0f160deafec"
-generated_at: "2026-09-30T14:12:21.564084+00:00"
+generated_at: "2026-09-30T19:28:53.114634+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/vashon-wa/", "/service-areas/vashon-wa/fire-damage-restoration/", "/service-areas/vashon-wa/mold-remediation/", "/service-areas/algona-wa/roofing/", "/service-areas/auburn-wa/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vashon", "url": "/service-areas/vashon-wa/"}, {"name": "Roofing Installation and Replacement"}]

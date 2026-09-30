@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "4cd739072540b0c7"
-generated_at: "2026-09-29T23:13:49.282962+00:00"
+generated_at: "2026-09-30T19:28:39.614257+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/smithfield-nc/", "/service-areas/smithfield-nc/fire-damage-restoration/", "/service-areas/smithfield-nc/mold-remediation/", "/service-areas/archer-lodge-nc/general-contracting/", "/service-areas/clayton-nc/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Smithfield", "url": "/service-areas/smithfield-nc/"}, {"name": "Renovations, Remodels and General Contracting"}]

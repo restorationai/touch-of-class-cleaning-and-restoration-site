@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "059924b0a6a051fe"
-generated_at: "2026-09-29T14:31:48.338476+00:00"
+generated_at: "2026-09-30T19:28:33.719634+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/oakland-ca/", "/service-areas/oakland-ca/fire-damage-restoration/", "/service-areas/oakland-ca/mold-remediation/", "/service-areas/berkeley-ca/biohazard-cleanup/", "/service-areas/carlsbad-ca/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Oakland", "url": "/service-areas/oakland-ca/"}, {"name": "Biohazard Cleanup"}]

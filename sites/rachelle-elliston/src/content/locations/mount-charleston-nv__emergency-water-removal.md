@@ -2,13 +2,13 @@
 archetype: "service-area-service"
 title: "Emergency Water Removal & Cleanup in Mount Charleston, NV | Desert Valley Contracting Inc "
 h1: "Emergency Water Removal & Cleanup in Mount Charleston"
-meta_description: "24/7 emergency water removal and cleanup in Mount Charleston, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
-primary_keyword: "emergency water removal mount charleston"
-secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
+meta_description: "24/7 emergency water removal & cleanup in Mount Charleston, NV. IICRC-certified, insurance billing accepted. Call (702) 633-5033."
+primary_keyword: "emergency water removal & cleanup mount charleston"
+secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "142371d7eb532a7b"
-generated_at: "2026-09-23T14:12:02.383441+00:00"
+plan_hash: "03666969b354490b"
+generated_at: "2026-09-30T19:28:58.557275+00:00"
 manual_override: false
 internal_links: ["/services/emergency-water-removal/", "/service-areas/mount-charleston-nv/", "/service-areas/mount-charleston-nv/fire-damage-restoration/", "/service-areas/mount-charleston-nv/mold-remediation/", "/service-areas/blue-diamond-nv/emergency-water-removal/", "/service-areas/boulder-city-nv/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mount Charleston", "url": "/service-areas/mount-charleston-nv/"}, {"name": "Emergency Water Removal & Cleanup"}]

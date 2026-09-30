@@ -8,7 +8,7 @@ secondary_keywords: ["mold inspection", "mold testing", "indoor air quality test
 search_intent: "local_health"
 priority: 5.6
 plan_hash: "4dcd6ca162c004f2"
-generated_at: "2026-09-30T14:12:01.738116+00:00"
+generated_at: "2026-09-30T19:28:19.947523+00:00"
 manual_override: false
 internal_links: ["/services/mold-inspection-testing/", "/service-areas/sweetwater-tx/", "/service-areas/sweetwater-tx/fire-damage-restoration/", "/service-areas/sweetwater-tx/mold-remediation/", "/service-areas/albany-tx/mold-inspection-testing/", "/service-areas/anson-tx/mold-inspection-testing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sweetwater", "url": "/service-areas/sweetwater-tx/"}, {"name": "mold-inspection-testing"}]

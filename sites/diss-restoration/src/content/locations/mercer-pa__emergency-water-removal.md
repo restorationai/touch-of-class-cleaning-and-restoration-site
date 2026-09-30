@@ -2,13 +2,13 @@
 archetype: "service-area-service"
 title: "Emergency Water Removal & Cleanup in Mercer, PA | DISS Restoration"
 h1: "Emergency Water Removal & Cleanup in Mercer"
-meta_description: "24/7 emergency water removal and cleanup in Mercer, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
-primary_keyword: "emergency water removal mercer"
-secondary_keywords: ["water removal", "water extraction", "emergency water cleanup", "water cleanup", "standing water removal", "flood water removal"]
+meta_description: "24/7 emergency water removal & cleanup in Mercer, PA. IICRC-certified, insurance billing accepted. Call (724) 981-1441."
+primary_keyword: "emergency water removal & cleanup mercer"
+secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "9fb9475ed1c5e04f"
-generated_at: "2026-09-30T14:12:07.193802+00:00"
+plan_hash: "afc03f1b1a440a1a"
+generated_at: "2026-09-30T19:28:30.184415+00:00"
 manual_override: false
 internal_links: ["/services/emergency-water-removal/", "/service-areas/mercer-pa/", "/service-areas/mercer-pa/fire-damage-restoration/", "/service-areas/mercer-pa/mold-remediation/", "/service-areas/austintown-oh/emergency-water-removal/", "/service-areas/boardman-oh/emergency-water-removal/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Mercer", "url": "/service-areas/mercer-pa/"}, {"name": "Emergency Water Removal & Cleanup"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "19034c0ec4cff729"
-generated_at: "2026-09-29T23:13:48.880539+00:00"
+generated_at: "2026-09-30T19:28:41.662064+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/flensburg-mn/", "/service-areas/flensburg-mn/fire-damage-restoration/", "/service-areas/flensburg-mn/mold-remediation/", "/service-areas/albany-mn/water-leak-detection/", "/service-areas/avon-mn/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Flensburg", "url": "/service-areas/flensburg-mn/"}, {"name": "Water Leak Detection"}]

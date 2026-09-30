@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "2bd19446d2fa11ed"
-generated_at: "2026-09-30T14:12:02.651784+00:00"
+generated_at: "2026-09-30T19:28:20.881655+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/crane-tx/", "/service-areas/crane-tx/fire-damage-restoration/", "/service-areas/crane-tx/mold-remediation/", "/service-areas/andrews-tx/reconstruction/", "/service-areas/big-lake-tx/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Crane", "url": "/service-areas/crane-tx/"}, {"name": "reconstruction"}]

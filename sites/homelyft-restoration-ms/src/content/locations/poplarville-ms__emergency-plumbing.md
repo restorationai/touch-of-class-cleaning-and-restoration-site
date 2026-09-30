@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "84118ae95353fc89"
-generated_at: "2026-09-30T14:12:12.947161+00:00"
+generated_at: "2026-09-30T19:28:43.491688+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/poplarville-ms/", "/service-areas/poplarville-ms/fire-damage-restoration/", "/service-areas/poplarville-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-plumbing/", "/service-areas/bay-st-louis-ms/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Poplarville", "url": "/service-areas/poplarville-ms/"}, {"name": "emergency-plumbing"}]

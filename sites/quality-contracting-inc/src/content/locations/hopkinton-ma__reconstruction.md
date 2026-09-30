@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "79c1e90dd4eca0ab"
-generated_at: "2026-09-30T14:12:25.943711+00:00"
+generated_at: "2026-09-30T19:28:56.968531+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/hopkinton-ma/", "/service-areas/hopkinton-ma/fire-damage-restoration/", "/service-areas/hopkinton-ma/mold-remediation/", "/service-areas/bellingham-ma/reconstruction/", "/service-areas/east-douglas-ma/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Hopkinton", "url": "/service-areas/hopkinton-ma/"}, {"name": "reconstruction"}]

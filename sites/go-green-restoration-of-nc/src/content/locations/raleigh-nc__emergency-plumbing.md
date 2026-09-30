@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "8acbd6ed8f92696b"
-generated_at: "2026-09-29T23:13:49.268992+00:00"
+generated_at: "2026-09-30T19:28:39.587822+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/raleigh-nc/", "/service-areas/raleigh-nc/fire-damage-restoration/", "/service-areas/raleigh-nc/mold-remediation/", "/service-areas/archer-lodge-nc/emergency-plumbing/", "/service-areas/clayton-nc/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Raleigh", "url": "/service-areas/raleigh-nc/"}, {"name": "Emergency Plumbing"}]

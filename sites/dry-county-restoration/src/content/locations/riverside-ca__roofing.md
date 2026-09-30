@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "ecae5ba7f0fafee6"
-generated_at: "2026-09-30T14:12:09.619362+00:00"
+generated_at: "2026-09-30T19:28:32.693444+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/riverside-ca/", "/service-areas/riverside-ca/fire-damage-restoration/", "/service-areas/riverside-ca/mold-remediation/", "/service-areas/anaheim-ca/roofing/", "/service-areas/chino-ca/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Riverside", "url": "/service-areas/riverside-ca/"}, {"name": "Roofing Installation and Replacement"}]

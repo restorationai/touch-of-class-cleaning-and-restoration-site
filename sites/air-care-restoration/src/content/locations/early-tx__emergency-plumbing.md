@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "c09020b6a9d3cb58"
-generated_at: "2026-09-30T14:12:01.762690+00:00"
+generated_at: "2026-09-30T19:28:19.977610+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/early-tx/", "/service-areas/early-tx/fire-damage-restoration/", "/service-areas/early-tx/mold-remediation/", "/service-areas/albany-tx/emergency-plumbing/", "/service-areas/anson-tx/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Early", "url": "/service-areas/early-tx/"}, {"name": "emergency-plumbing"}]

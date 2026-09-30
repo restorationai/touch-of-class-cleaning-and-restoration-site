@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "3ea71f269889a2c7"
-generated_at: "2026-09-30T14:12:21.453870+00:00"
+generated_at: "2026-09-30T19:28:53.016636+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/des-moines-wa/", "/service-areas/des-moines-wa/fire-damage-restoration/", "/service-areas/des-moines-wa/mold-remediation/", "/service-areas/algona-wa/general-contracting/", "/service-areas/auburn-wa/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Des Moines", "url": "/service-areas/des-moines-wa/"}, {"name": "Renovations, Remodels and General Contracting"}]

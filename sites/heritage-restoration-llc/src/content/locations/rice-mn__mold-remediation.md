@@ -8,7 +8,7 @@ secondary_keywords: ["mold removal", "black mold remediation", "mold abatement",
 search_intent: "local_health"
 priority: 7.0
 plan_hash: "37558bff6bf9b245"
-generated_at: "2026-09-29T23:13:48.906341+00:00"
+generated_at: "2026-09-30T19:28:41.694031+00:00"
 manual_override: false
 internal_links: ["/services/mold-remediation/", "/service-areas/rice-mn/", "/service-areas/rice-mn/fire-damage-restoration/", "/service-areas/rice-mn/roofing/", "/service-areas/albany-mn/mold-remediation/", "/service-areas/avon-mn/mold-remediation/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Rice", "url": "/service-areas/rice-mn/"}, {"name": "Mold Remediation"}]

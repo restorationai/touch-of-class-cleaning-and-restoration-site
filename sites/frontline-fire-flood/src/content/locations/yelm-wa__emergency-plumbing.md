@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "f184be493473cb36"
-generated_at: "2026-09-23T14:11:42.592044+00:00"
+generated_at: "2026-09-30T19:28:37.981783+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/yelm-wa/", "/service-areas/yelm-wa/fire-damage-restoration/", "/service-areas/yelm-wa/mold-remediation/", "/service-areas/anderson-island-wa/emergency-plumbing/", "/service-areas/auburn-wa/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Yelm", "url": "/service-areas/yelm-wa/"}, {"name": "Emergency Plumbing"}]

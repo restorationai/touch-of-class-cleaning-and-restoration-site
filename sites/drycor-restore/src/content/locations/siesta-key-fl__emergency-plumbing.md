@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "6a93867a5f07ae01"
-generated_at: "2026-09-23T14:11:38.293483+00:00"
+generated_at: "2026-09-30T19:28:35.926717+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/siesta-key-fl/", "/service-areas/siesta-key-fl/fire-damage-restoration/", "/service-areas/siesta-key-fl/mold-remediation/", "/service-areas/anna-maria-fl/emergency-plumbing/", "/service-areas/apollo-beach-fl/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Siesta Key", "url": "/service-areas/siesta-key-fl/"}, {"name": "Emergency Plumbing"}]

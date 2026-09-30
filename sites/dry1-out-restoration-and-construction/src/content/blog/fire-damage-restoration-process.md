@@ -8,12 +8,12 @@ secondary_keywords: ["fire damage restoration", "smoke damage restoration"]
 search_intent: "informational_emergency"
 priority: 5.4
 plan_hash: "235742622f997214"
-generated_at: "2026-09-29T14:31:48.465925+00:00"
+generated_at: "2026-09-30T19:28:33.881417+00:00"
 manual_override: false
 internal_links: ["/blog/", "/services/fire-damage-restoration/", "/services/smoke-damage-restoration/", "/blog/choosing-a-restoration-company/", "/blog/smoke-odor-removal-techniques/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Blog", "url": "/blog/"}, {"name": "The Fire Damage Restoration Process, Explained"}]
 faq: []
-published_at: "2026-09-23"
+published_at: "2026-09-24"
 services: ["fire-damage-restoration", "smoke-damage-restoration"]
 ---
 <!-- Page body not yet generated. Run `build_site.py render --slug dry1-out-restoration-and-construction` to populate. The frontmatter above is the source-of-truth metadata from the plan. -->

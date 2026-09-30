@@ -8,7 +8,7 @@ secondary_keywords: ["emergency board up", "roof tarping", "emergency tarping se
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "b52ddabf36b00953"
-generated_at: "2026-09-30T14:12:14.521023+00:00"
+generated_at: "2026-09-30T19:28:45.045326+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/alpine-ut/emergency-board-up-tarping/", "/service-areas/american-fork-ut/emergency-board-up-tarping/", "/service-areas/benjamin-ut/emergency-board-up-tarping/", "/service-areas/bluffdale-ut/emergency-board-up-tarping/", "/service-areas/cedar-fort-ut/emergency-board-up-tarping/", "/service-areas/cedar-hills-ut/emergency-board-up-tarping/", "/service-areas/draper-ut/emergency-board-up-tarping/", "/service-areas/eagle-mountain-ut/emergency-board-up-tarping/", "/service-areas/fairfield-ut/emergency-board-up-tarping/", "/service-areas/heber-city-ut/emergency-board-up-tarping/", "/service-areas/herriman-ut/emergency-board-up-tarping/", "/service-areas/highland-ut/emergency-board-up-tarping/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Emergency Board-Up and Tarping"}]

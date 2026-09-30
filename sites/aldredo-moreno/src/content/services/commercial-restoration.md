@@ -8,7 +8,7 @@ secondary_keywords: ["commercial water damage", "commercial fire damage", "busin
 search_intent: "local_b2b"
 priority: 8.1
 plan_hash: "140b804ee638e447"
-generated_at: "2026-09-30T14:12:02.620536+00:00"
+generated_at: "2026-09-30T19:28:20.827752+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/andrews-tx/commercial-restoration/", "/service-areas/big-lake-tx/commercial-restoration/", "/service-areas/big-spring-tx/commercial-restoration/", "/service-areas/crane-tx/commercial-restoration/", "/service-areas/garden-city-tx/commercial-restoration/", "/service-areas/gardendale-tx/commercial-restoration/", "/service-areas/goldsmith-tx/commercial-restoration/", "/service-areas/greenwood-tx/commercial-restoration/", "/service-areas/imperial-tx/commercial-restoration/", "/service-areas/mccamey-tx/commercial-restoration/", "/service-areas/monahans-tx/commercial-restoration/", "/service-areas/odessa-tx/commercial-restoration/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "commercial-restoration"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "acf4cfc3620fc7cb"
-generated_at: "2026-09-30T14:12:07.113785+00:00"
+generated_at: "2026-09-30T19:28:30.077751+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/girard-oh/", "/service-areas/girard-oh/fire-damage-restoration/", "/service-areas/girard-oh/mold-remediation/", "/service-areas/austintown-oh/water-leak-detection/", "/service-areas/boardman-oh/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Girard", "url": "/service-areas/girard-oh/"}, {"name": "water-leak-detection"}]

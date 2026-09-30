@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "096f4a97b0369dad"
-generated_at: "2026-09-29T14:31:48.433396+00:00"
+generated_at: "2026-09-30T19:28:33.837186+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/concord-ca/", "/service-areas/concord-ca/fire-damage-restoration/", "/service-areas/concord-ca/mold-remediation/", "/service-areas/berkeley-ca/biohazard-cleanup/", "/service-areas/carlsbad-ca/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Concord", "url": "/service-areas/concord-ca/"}, {"name": "Biohazard Cleanup"}]

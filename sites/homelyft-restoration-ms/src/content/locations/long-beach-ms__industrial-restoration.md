@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "7cb6ea79cb21e2f7"
-generated_at: "2026-09-30T14:12:12.885247+00:00"
+generated_at: "2026-09-30T19:28:43.416925+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/long-beach-ms/", "/service-areas/long-beach-ms/fire-damage-restoration/", "/service-areas/long-beach-ms/mold-remediation/", "/service-areas/agricola-ms/industrial-restoration/", "/service-areas/bay-st-louis-ms/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Long Beach", "url": "/service-areas/long-beach-ms/"}, {"name": "industrial-restoration"}]

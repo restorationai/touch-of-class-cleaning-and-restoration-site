@@ -8,7 +8,7 @@ secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cle
 search_intent: "local_sensitive"
 priority: 5.6
 plan_hash: "7e87a994e5741586"
-generated_at: "2026-09-23T14:11:44.835860+00:00"
+generated_at: "2026-09-30T19:28:39.682569+00:00"
 manual_override: false
 internal_links: ["/services/biohazard-cleanup/", "/service-areas/kenly-nc/", "/service-areas/kenly-nc/fire-damage-restoration/", "/service-areas/kenly-nc/mold-remediation/", "/service-areas/archer-lodge-nc/biohazard-cleanup/", "/service-areas/clayton-nc/biohazard-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Kenly", "url": "/service-areas/kenly-nc/"}, {"name": "Biohazard Cleanup"}]

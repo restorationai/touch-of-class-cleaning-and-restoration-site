@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "ab069278b68d9cf0"
-generated_at: "2026-09-29T23:13:48.850787+00:00"
+generated_at: "2026-09-30T19:28:41.608386+00:00"
 manual_override: false
 internal_links: ["/services/job-type-id-basement-remodeling/", "/service-areas/sartell-mn/", "/service-areas/sartell-mn/fire-damage-restoration/", "/service-areas/sartell-mn/mold-remediation/", "/service-areas/albany-mn/job-type-id-basement-remodeling/", "/service-areas/avon-mn/job-type-id-basement-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Sartell", "url": "/service-areas/sartell-mn/"}, {"name": "Basement Remodeling"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "d4b5643f7f6756d2"
-generated_at: "2026-09-29T23:28:29.586426+00:00"
+generated_at: "2026-09-30T19:28:35.864162+00:00"
 manual_override: false
 internal_links: ["/services/ceiling-water-damage-repair/", "/service-areas/lithia-fl/", "/service-areas/lithia-fl/fire-damage-restoration/", "/service-areas/lithia-fl/mold-remediation/", "/service-areas/anna-maria-fl/ceiling-water-damage-repair/", "/service-areas/apollo-beach-fl/ceiling-water-damage-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lithia", "url": "/service-areas/lithia-fl/"}, {"name": "Ceiling Water Damage Repair"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 8.1
 plan_hash: "e108258f6753b8f1"
-generated_at: "2026-09-30T14:12:09.607376+00:00"
+generated_at: "2026-09-30T19:28:32.682269+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/anaheim-ca/reconstruction/", "/service-areas/chino-ca/reconstruction/", "/service-areas/chino-hills-ca/reconstruction/", "/service-areas/eastvale-ca/reconstruction/", "/service-areas/fontana-ca/reconstruction/", "/service-areas/fullerton-ca/reconstruction/", "/service-areas/jurupa-valley-ca/reconstruction/", "/service-areas/lake-mathews-ca/reconstruction/", "/service-areas/montclair-ca/reconstruction/", "/service-areas/norco-ca/reconstruction/", "/service-areas/north-tustin-ca/reconstruction/", "/service-areas/ontario-ca/reconstruction/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Reconstruction Services"}]

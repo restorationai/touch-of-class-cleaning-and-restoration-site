@@ -8,7 +8,7 @@ secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber
 search_intent: "local_emergency"
 priority: 6.3
 plan_hash: "3df3e9f7d262bbdc"
-generated_at: "2026-09-30T14:12:12.966602+00:00"
+generated_at: "2026-09-30T19:28:43.513539+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/gulf-hills-ms/", "/service-areas/gulf-hills-ms/fire-damage-restoration/", "/service-areas/gulf-hills-ms/mold-remediation/", "/service-areas/agricola-ms/emergency-plumbing/", "/service-areas/bay-st-louis-ms/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Gulf Hills", "url": "/service-areas/gulf-hills-ms/"}, {"name": "emergency-plumbing"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["water heater leaking", "water heater burst", "flooded wate
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "4b852044956c11e4"
-generated_at: "2026-09-30T14:12:12.999614+00:00"
+generated_at: "2026-09-30T19:28:43.552134+00:00"
 manual_override: false
 internal_links: ["/services/water-heater-flood-cleanup/", "/service-areas/vancleave-ms/", "/service-areas/vancleave-ms/fire-damage-restoration/", "/service-areas/vancleave-ms/mold-remediation/", "/service-areas/agricola-ms/water-heater-flood-cleanup/", "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Vancleave", "url": "/service-areas/vancleave-ms/"}, {"name": "water-heater-flood-cleanup"}]

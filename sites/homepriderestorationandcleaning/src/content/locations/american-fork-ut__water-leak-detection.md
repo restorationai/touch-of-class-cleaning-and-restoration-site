@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "6e6ad9a7cdaef885"
-generated_at: "2026-09-30T14:12:14.541326+00:00"
+generated_at: "2026-09-30T19:28:45.069442+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/american-fork-ut/", "/service-areas/american-fork-ut/fire-damage-restoration/", "/service-areas/american-fork-ut/mold-remediation/", "/service-areas/alpine-ut/water-leak-detection/", "/service-areas/benjamin-ut/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "American Fork", "url": "/service-areas/american-fork-ut/"}, {"name": "Water Leak Detection"}]

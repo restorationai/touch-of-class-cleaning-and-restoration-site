@@ -8,7 +8,7 @@ secondary_keywords: []
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "12e981778f3028f5"
-generated_at: "2026-09-29T23:13:48.925624+00:00"
+generated_at: "2026-09-30T19:28:41.727126+00:00"
 manual_override: false
 internal_links: ["/services/job-type-id-bathroom-remodeling/", "/service-areas/avon-mn/", "/service-areas/avon-mn/fire-damage-restoration/", "/service-areas/avon-mn/mold-remediation/", "/service-areas/albany-mn/job-type-id-bathroom-remodeling/", "/service-areas/baxter-mn/job-type-id-bathroom-remodeling/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Avon", "url": "/service-areas/avon-mn/"}, {"name": "Bathroom Remodeling"}]

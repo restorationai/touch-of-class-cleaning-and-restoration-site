@@ -8,7 +8,7 @@ secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection
 search_intent: "local_emergency"
 priority: 4.9
 plan_hash: "3f9b8f24d0ecd30e"
-generated_at: "2026-09-29T23:13:49.339664+00:00"
+generated_at: "2026-09-30T19:28:39.769883+00:00"
 manual_override: false
 internal_links: ["/services/water-leak-detection/", "/service-areas/pine-level-nc/", "/service-areas/pine-level-nc/fire-damage-restoration/", "/service-areas/pine-level-nc/mold-remediation/", "/service-areas/archer-lodge-nc/water-leak-detection/", "/service-areas/clayton-nc/water-leak-detection/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Pine Level", "url": "/service-areas/pine-level-nc/"}, {"name": "Water Leak Detection"}]

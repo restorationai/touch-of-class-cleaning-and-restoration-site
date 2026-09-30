@@ -8,7 +8,7 @@ secondary_keywords: ["general contractor", "home renovation services", "home rem
 search_intent: "local_commercial"
 priority: 5.6
 plan_hash: "f62dc639d4ce67cc"
-generated_at: "2026-09-30T14:12:26.060567+00:00"
+generated_at: "2026-09-30T19:28:57.253991+00:00"
 manual_override: false
 internal_links: ["/services/general-contracting/", "/service-areas/bellingham-ma/", "/service-areas/bellingham-ma/fire-damage-restoration/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/general-contracting/", "/service-areas/fiskdale-ma/general-contracting/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bellingham", "url": "/service-areas/bellingham-ma/"}, {"name": "Renovations, Remodels and General Contracting"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["industrial water damage", "warehouse restoration", "manufa
 search_intent: "local_b2b"
 priority: 4.9
 plan_hash: "ff6cf8411e9e8b23"
-generated_at: "2026-09-30T14:12:12.908583+00:00"
+generated_at: "2026-09-30T19:28:43.445000+00:00"
 manual_override: false
 internal_links: ["/services/industrial-restoration/", "/service-areas/bay-st-louis-ms/", "/service-areas/bay-st-louis-ms/fire-damage-restoration/", "/service-areas/bay-st-louis-ms/mold-remediation/", "/service-areas/agricola-ms/industrial-restoration/", "/service-areas/benndale-ms/industrial-restoration/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bay St. Louis", "url": "/service-areas/bay-st-louis-ms/"}, {"name": "industrial-restoration"}]

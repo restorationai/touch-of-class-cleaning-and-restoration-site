@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "80061c961c7a6220"
-generated_at: "2026-09-30T14:12:01.743530+00:00"
+generated_at: "2026-09-30T19:28:19.953112+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/merkel-tx/", "/service-areas/merkel-tx/fire-damage-restoration/", "/service-areas/merkel-tx/mold-remediation/", "/service-areas/albany-tx/burst-pipe-repair/", "/service-areas/anson-tx/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Merkel", "url": "/service-areas/merkel-tx/"}, {"name": "burst-pipe-repair"}]

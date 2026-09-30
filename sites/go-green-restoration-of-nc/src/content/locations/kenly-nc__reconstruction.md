@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "70d04857ad73e6e4"
-generated_at: "2026-09-29T23:13:49.308283+00:00"
+generated_at: "2026-09-30T19:28:39.687852+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/kenly-nc/", "/service-areas/kenly-nc/fire-damage-restoration/", "/service-areas/kenly-nc/mold-remediation/", "/service-areas/archer-lodge-nc/reconstruction/", "/service-areas/clayton-nc/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Kenly", "url": "/service-areas/kenly-nc/"}, {"name": "Reconstruction Services"}]

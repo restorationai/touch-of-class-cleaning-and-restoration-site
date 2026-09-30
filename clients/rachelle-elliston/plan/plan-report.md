@@ -1,20 +1,20 @@
 # Site Plan Report — Desert Valley Contracting Inc 
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-28T20:50:26.429203+00:00
+- Generated: 2026-09-30T19:28:57.613469+00:00
 - Domain: `desertvalleycontracting.net`
-- Services selected: 24 of 65 catalog entries
+- Services selected: 23 of 91 catalog entries
 - Service areas: 21
 - Cross-product enabled: True
-- Total URLs: **541**
-- Total internal links: 4439 (avg 8.2 per page)
+- Total URLs: **520**
+- Total internal links: 4263 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 480 |
-| `service-landing` | 24 |
+| `service-area-service` | 460 |
+| `service-landing` | 23 |
 | `service-area` | 20 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -29,13 +29,13 @@
 
 - `biohazard-cleanup` — Biohazard Cleanup (specialty, priority 8)
 - `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
+- `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
 - `mold-remediation` — Mold Remediation (core, priority 10)
 - `odor-removal` — Odor Removal and Deodorization (specialty, priority 7)
 - `sewage-cleanup` — Sewage Cleanup and Sanitization (core, priority 9)
 - `storm-damage-restoration` — Storm Damage Restoration (core, priority 9)
-- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
 - `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
@@ -49,7 +49,6 @@
 - `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
 - `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
-- `emergency-water-removal` — 24/7 Emergency Water Removal (core, priority 9)
 - `emergency-plumbing` — Emergency Plumbing (core, priority 9)
 
 ## Service areas
@@ -85,7 +84,7 @@
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration north las vegas |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration north las vegas |
 | `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing north las vegas |
-| `/services/emergency-water-removal/` | `service-landing` | 8.1 | 24/7 emergency water removal north las vegas |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup north las vegas |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration north las vegas |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services north las vegas |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization north las vegas |

@@ -63,10 +63,13 @@
   },
   "services": [
     "air-duct-cleaning",
+    "air-duct-hvac-cleaning",
     "asbestos-abatement",
     "biohazard-cleanup",
     "contents-restoration",
+    "contents-restoration-storage",
     "emergency-board-up-tarping",
+    "emergency-water-removal",
     "fire-damage-restoration",
     "general-contracting",
     "mold-remediation",
@@ -75,7 +78,7 @@
     "sewage-cleanup",
     "storm-damage-restoration",
     "vandalism-cleanup",
-    "emergency-water-removal",
+    "water-cleanup",
     "water-damage-restoration"
   ],
   "service_areas": [

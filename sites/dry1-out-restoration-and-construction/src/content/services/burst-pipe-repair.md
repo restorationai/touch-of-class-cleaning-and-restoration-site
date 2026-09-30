@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 7.2
 plan_hash: "23cf0a140e2b6a4e"
-generated_at: "2026-09-29T14:31:48.305057+00:00"
+generated_at: "2026-09-30T19:28:33.683748+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/burst-pipe-repair/", "/service-areas/carlsbad-ca/burst-pipe-repair/", "/service-areas/chula-vista-ca/burst-pipe-repair/", "/service-areas/concord-ca/burst-pipe-repair/", "/service-areas/el-cajon-ca/burst-pipe-repair/", "/service-areas/encinitas-ca/burst-pipe-repair/", "/service-areas/escondido-ca/burst-pipe-repair/", "/service-areas/fremont-ca/burst-pipe-repair/", "/service-areas/hayward-ca/burst-pipe-repair/", "/service-areas/oakland-ca/burst-pipe-repair/", "/service-areas/oceanside-ca/burst-pipe-repair/", "/service-areas/san-diego-ca/burst-pipe-repair/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "burst-pipe-repair"}]

@@ -277,6 +277,32 @@
       "triaged_at": "2026-08-05T06:26:46Z",
       "triage_model": "claude-sonnet-4-6"
     },
+    "gbp:gbp-AF1QipMKUFAx5TmZf2atwu0hbgOlpiv5cRH9nuEeoSQf": {
+      "source": "gbp",
+      "storage": "job-photos/posted/gbp-AF1QipMKUFAx5TmZf2atwu0hbgOlpiv5cRH9nuEeoSQf.jpg",
+      "url": "https://nyscciinkhlutvqkgyvq.supabase.co/storage/v1/object/public/branding/CO-1784745317157/job-photos/posted/gbp-AF1QipMKUFAx5TmZf2atwu0hbgOlpiv5cRH9nuEeoSQf.jpg",
+      "width": 2560,
+      "height": 1499,
+      "bytes": 4893524,
+      "sha1": "d2e6c491837cdb78",
+      "exif": {},
+      "category": "crew",
+      "subject": "Company team lined up outdoors with equipment and branded tent",
+      "quality": 75,
+      "slots": {
+        "hero": 40,
+        "team": 90,
+        "services": 30
+      },
+      "service_slugs": [],
+      "flags": [
+        "people_faces",
+        "logo_card"
+      ],
+      "reason": "Posed group photo with branded tent, logo mats, and equipment lineup.",
+      "triaged_at": "2026-09-30T19:32:47Z",
+      "triage_model": "claude-sonnet-5"
+    },
     "gbp:gbp-AF1QipMNjvGoOVP4SaVDKl4pBXX-rnbsLFgtXL63MbtR": {
       "source": "gbp",
       "storage": "job-photos/posted/gbp-AF1QipMNjvGoOVP4SaVDKl4pBXX-rnbsLFgtXL63MbtR.jpg",
@@ -2845,5 +2871,5 @@
     }
   },
   "slots": {},
-  "triaged_at": "2026-08-05T06:31:15Z"
+  "triaged_at": "2026-09-30T19:32:47Z"
 }

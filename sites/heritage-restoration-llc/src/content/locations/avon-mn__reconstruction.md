@@ -8,7 +8,7 @@ secondary_keywords: ["post-damage reconstruction", "rebuild services", "structur
 search_intent: "local_commercial"
 priority: 6.3
 plan_hash: "c846847d0220efd6"
-generated_at: "2026-09-29T23:13:48.926481+00:00"
+generated_at: "2026-09-30T19:28:41.728472+00:00"
 manual_override: false
 internal_links: ["/services/reconstruction/", "/service-areas/avon-mn/", "/service-areas/avon-mn/fire-damage-restoration/", "/service-areas/avon-mn/mold-remediation/", "/service-areas/albany-mn/reconstruction/", "/service-areas/baxter-mn/reconstruction/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Avon", "url": "/service-areas/avon-mn/"}, {"name": "Reconstruction Services"}]

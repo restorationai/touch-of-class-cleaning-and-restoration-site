@@ -8,7 +8,7 @@ secondary_keywords: ["roofing contractor", "roof replacement", "new roof install
 search_intent: "local_commercial"
 priority: 7.0
 plan_hash: "0627a98389f7feba"
-generated_at: "2026-09-30T14:12:21.588971+00:00"
+generated_at: "2026-09-30T19:28:53.135825+00:00"
 manual_override: false
 internal_links: ["/services/roofing/", "/service-areas/lake-holm-wa/", "/service-areas/lake-holm-wa/fire-damage-restoration/", "/service-areas/lake-holm-wa/mold-remediation/", "/service-areas/algona-wa/roofing/", "/service-areas/auburn-wa/roofing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Lake Holm", "url": "/service-areas/lake-holm-wa/"}, {"name": "Roofing Installation and Replacement"}]

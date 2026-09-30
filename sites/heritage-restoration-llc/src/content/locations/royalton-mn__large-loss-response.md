@@ -8,7 +8,7 @@ secondary_keywords: ["large loss restoration", "catastrophic loss response", "co
 search_intent: "local_b2b"
 priority: 5.6
 plan_hash: "f054690b37a4628f"
-generated_at: "2026-09-29T23:13:48.869471+00:00"
+generated_at: "2026-09-30T19:28:41.642552+00:00"
 manual_override: false
 internal_links: ["/services/large-loss-response/", "/service-areas/royalton-mn/", "/service-areas/royalton-mn/fire-damage-restoration/", "/service-areas/royalton-mn/mold-remediation/", "/service-areas/albany-mn/large-loss-response/", "/service-areas/avon-mn/large-loss-response/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Royalton", "url": "/service-areas/royalton-mn/"}, {"name": "Large Loss and Catastrophic Response"}]

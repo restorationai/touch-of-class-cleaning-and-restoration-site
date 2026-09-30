@@ -1,20 +1,20 @@
 # Site Plan Report — Dry County Restoration
 
 - Template: `restoration` v0.3.0
-- Generated: 2026-09-30T14:12:07.464280+00:00
+- Generated: 2026-09-30T19:28:30.355046+00:00
 - Domain: `drycountyrestoration.com`
-- Services selected: 32 of 91 catalog entries
+- Services selected: 28 of 91 catalog entries
 - Service areas: 22
 - Cross-product enabled: True
-- Total URLs: **742**
-- Total internal links: 6110 (avg 8.2 per page)
+- Total URLs: **654**
+- Total internal links: 5374 (avg 8.2 per page)
 
 ## URLs by archetype
 
 | Archetype | Count |
 | --- | --- |
-| `service-area-service` | 672 |
-| `service-landing` | 32 |
+| `service-area-service` | 588 |
+| `service-landing` | 28 |
 | `service-area` | 21 |
 | `blog-post` | 8 |
 | `legal` | 3 |
@@ -28,19 +28,15 @@
 ## Selected services
 
 - `air-duct-cleaning` — Air Duct Cleaning (adjacent, priority 5)
-- `air-duct-hvac-cleaning` — Air Duct & HVAC Cleaning (adjacent, priority 5)
 - `basement-flooding-cleanup` — Basement Flooding Cleanup (core, priority 8)
 - `basement-remodeling` — Basement Remodeling (adjacent, priority 5)
 - `burst-pipe-repair` — Burst Pipe Cleanup and Repair (core, priority 8)
 - `carpet-cleaning` — Carpet Cleaning (adjacent, priority 4)
-- `carpet-upholstery-cleaning` — Carpet & Upholstery Cleaning (adjacent, priority 5)
 - `ceiling-water-damage-repair` — Ceiling Water Damage Repair (core, priority 8)
 - `commercial-restoration` — Commercial Restoration (core, priority 9)
 - `contents-restoration` — Contents Restoration and Storage (supporting, priority 5)
-- `contents-restoration-storage` — Contents Restoration & Storage (adjacent, priority 5)
 - `emergency-board-up-tarping` — Emergency Board-Up and Tarping (specialty, priority 7)
 - `emergency-plumbing` — Emergency Plumbing (core, priority 9)
-- `emergency-water-removal` — 24/7 Emergency Water Removal (core, priority 9)
 - `fire-damage-restoration` — Fire Damage Restoration (core, priority 10)
 - `flood-damage-restoration` — Flood Damage Restoration (core, priority 9)
 - `general-contracting` — Renovations, Remodels and General Contracting (core, priority 8)
@@ -58,7 +54,7 @@
 - `water-damage-restoration` — Water Damage Restoration (core, priority 10)
 - `water-heater-flood-cleanup` — Water Heater Flood Cleanup (core, priority 7)
 - `water-leak-detection` — Water Leak Detection (core, priority 7)
-- `water-cleanup` — Emergency Water Cleanup (core, priority 9)
+- `emergency-water-removal` — Emergency Water Removal & Cleanup (core, priority 9)
 
 ## Service areas
 
@@ -95,7 +91,7 @@
 | `/services/water-damage-restoration/` | `service-landing` | 9.0 | water damage restoration corona |
 | `/services/commercial-restoration/` | `service-landing` | 8.1 | commercial restoration corona |
 | `/services/emergency-plumbing/` | `service-landing` | 8.1 | emergency plumbing corona |
-| `/services/emergency-water-removal/` | `service-landing` | 8.1 | 24/7 emergency water removal corona |
+| `/services/emergency-water-removal/` | `service-landing` | 8.1 | emergency water removal & cleanup corona |
 | `/services/flood-damage-restoration/` | `service-landing` | 8.1 | flood damage restoration corona |
 | `/services/reconstruction/` | `service-landing` | 8.1 | reconstruction services corona |
 | `/services/sewage-cleanup/` | `service-landing` | 8.1 | sewage cleanup and sanitization corona |

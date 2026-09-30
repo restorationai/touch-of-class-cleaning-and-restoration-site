@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "f9bf49baacbd1b4d"
-generated_at: "2026-09-29T23:28:29.486495+00:00"
+generated_at: "2026-09-30T19:28:35.713349+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/st-petersburg-fl/", "/service-areas/st-petersburg-fl/fire-damage-restoration/", "/service-areas/st-petersburg-fl/mold-remediation/", "/service-areas/anna-maria-fl/burst-pipe-repair/", "/service-areas/apollo-beach-fl/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "St. Petersburg", "url": "/service-areas/st-petersburg-fl/"}, {"name": "Burst Pipe Cleanup and Repair"}]

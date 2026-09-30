@@ -8,7 +8,7 @@ secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break w
 search_intent: "local_emergency"
 priority: 5.6
 plan_hash: "05aa0113525c4e98"
-generated_at: "2026-09-29T23:13:49.288669+00:00"
+generated_at: "2026-09-30T19:28:39.630272+00:00"
 manual_override: false
 internal_links: ["/services/burst-pipe-repair/", "/service-areas/zebulon-nc/", "/service-areas/zebulon-nc/fire-damage-restoration/", "/service-areas/zebulon-nc/mold-remediation/", "/service-areas/archer-lodge-nc/burst-pipe-repair/", "/service-areas/clayton-nc/burst-pipe-repair/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Zebulon", "url": "/service-areas/zebulon-nc/"}, {"name": "Burst Pipe Cleanup and Repair"}]

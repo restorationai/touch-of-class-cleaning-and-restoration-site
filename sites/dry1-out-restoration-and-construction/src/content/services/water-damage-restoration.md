@@ -7,8 +7,8 @@ primary_keyword: "water damage restoration vista"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"
 priority: 9.0
-plan_hash: "9fe28d3f92be0afa"
-generated_at: "2026-09-29T14:31:48.304422+00:00"
+plan_hash: "cbfcb74ca522b4be"
+generated_at: "2026-09-30T19:28:33.683124+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/berkeley-ca/water-damage-restoration/", "/service-areas/carlsbad-ca/water-damage-restoration/", "/service-areas/chula-vista-ca/water-damage-restoration/", "/service-areas/concord-ca/water-damage-restoration/", "/service-areas/el-cajon-ca/water-damage-restoration/", "/service-areas/encinitas-ca/water-damage-restoration/", "/service-areas/escondido-ca/water-damage-restoration/", "/service-areas/fremont-ca/water-damage-restoration/", "/service-areas/hayward-ca/water-damage-restoration/", "/service-areas/oakland-ca/water-damage-restoration/", "/service-areas/oceanside-ca/water-damage-restoration/", "/service-areas/san-diego-ca/water-damage-restoration/", "/services/emergency-water-removal/", "/blog/burst-pipe-emergency-checklist/", "/blog/what-to-do-first-24-hours-water-damage/", "/blog/choosing-a-restoration-company/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Water Damage Restoration"}]
