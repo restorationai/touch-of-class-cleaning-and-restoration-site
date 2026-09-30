@@ -12,7 +12,7 @@ export const brand = {
   // the footer carries the "[legal] doing business as [DBA]" line and schema
   // declares it as the business name, so Google/BrightLocal find the new
   // name corroborated on the site before and during the GBP rename.
-  dbaName: "",
+  dbaName: "Crew Restoration & Construction - Roofing, Water, Mold & Fire Damage Restoration",
   domain: "crew3r.com",
   canonicalUrl: "https://crew3r.com",
   phone: "(605) 965-2727",
