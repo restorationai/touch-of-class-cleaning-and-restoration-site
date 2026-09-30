@@ -8,7 +8,7 @@ secondary_keywords: ["vandalism cleanup", "graffiti removal", "post-vandalism re
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "91a4c355fd242922"
-generated_at: "2026-09-24T23:31:33.101981+00:00"
+generated_at: "2026-09-30T14:12:26.045629+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-cleanup/", "/service-areas/marlborough-ma/", "/service-areas/marlborough-ma/fire-damage-restoration/", "/service-areas/marlborough-ma/mold-remediation/", "/service-areas/bellingham-ma/vandalism-cleanup/", "/service-areas/east-douglas-ma/vandalism-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Marlborough", "url": "/service-areas/marlborough-ma/"}, {"name": "Vandalism Cleanup"}]

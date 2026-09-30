@@ -4,11 +4,11 @@ title: "Plumbing in Milford, MA | Quality Contracting, Inc."
 h1: "Plumbing in Milford"
 meta_description: "Plumbing in Milford, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "emergency plumbing milford"
-secondary_keywords: ["burst pipe plumber"]
+secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "70ad2eef29faff15"
-generated_at: "2026-09-24T23:31:33.093139+00:00"
+plan_hash: "358a193cb5e3184d"
+generated_at: "2026-09-30T14:12:26.035771+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/milford-ma/", "/service-areas/milford-ma/fire-damage-restoration/", "/service-areas/milford-ma/mold-remediation/", "/service-areas/bellingham-ma/emergency-plumbing/", "/service-areas/east-douglas-ma/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Milford", "url": "/service-areas/milford-ma/"}, {"name": "Emergency Plumbing"}]

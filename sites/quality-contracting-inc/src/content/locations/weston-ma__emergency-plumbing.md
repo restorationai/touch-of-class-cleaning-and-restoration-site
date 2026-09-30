@@ -4,11 +4,11 @@ title: "Plumbing in Weston, MA | Quality Contracting, Inc."
 h1: "Plumbing in Weston"
 meta_description: "Plumbing in Weston, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "emergency plumbing weston"
-secondary_keywords: ["burst pipe plumber"]
+secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "41ac3ab0dcc0bb99"
-generated_at: "2026-09-24T23:31:33.044272+00:00"
+plan_hash: "64b4d8da26582310"
+generated_at: "2026-09-30T14:12:25.975211+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/weston-ma/", "/service-areas/weston-ma/fire-damage-restoration/", "/service-areas/weston-ma/mold-remediation/", "/service-areas/bellingham-ma/emergency-plumbing/", "/service-areas/east-douglas-ma/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Weston", "url": "/service-areas/weston-ma/"}, {"name": "Emergency Plumbing"}]

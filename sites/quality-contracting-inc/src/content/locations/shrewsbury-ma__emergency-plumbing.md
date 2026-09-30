@@ -4,11 +4,11 @@ title: "Plumbing in Shrewsbury, MA | Quality Contracting, Inc."
 h1: "Plumbing in Shrewsbury"
 meta_description: "Plumbing in Shrewsbury, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "emergency plumbing shrewsbury"
-secondary_keywords: ["burst pipe plumber"]
+secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "e3c0e3ed9b131272"
-generated_at: "2026-09-24T23:31:33.009045+00:00"
+plan_hash: "80d1ee949dd1f27a"
+generated_at: "2026-09-30T14:12:25.922534+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/shrewsbury-ma/", "/service-areas/shrewsbury-ma/fire-damage-restoration/", "/service-areas/shrewsbury-ma/mold-remediation/", "/service-areas/bellingham-ma/emergency-plumbing/", "/service-areas/east-douglas-ma/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Shrewsbury", "url": "/service-areas/shrewsbury-ma/"}, {"name": "Emergency Plumbing"}]

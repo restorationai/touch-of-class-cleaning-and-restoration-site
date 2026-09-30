@@ -8,7 +8,7 @@ secondary_keywords: ["vandalism cleanup", "graffiti removal", "post-vandalism re
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "17043245da90fdc7"
-generated_at: "2026-09-24T23:31:33.076294+00:00"
+generated_at: "2026-09-30T14:12:26.015284+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-cleanup/", "/service-areas/southbridge-town-ma/", "/service-areas/southbridge-town-ma/fire-damage-restoration/", "/service-areas/southbridge-town-ma/mold-remediation/", "/service-areas/bellingham-ma/vandalism-cleanup/", "/service-areas/east-douglas-ma/vandalism-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Southbridge Town", "url": "/service-areas/southbridge-town-ma/"}, {"name": "Vandalism Cleanup"}]

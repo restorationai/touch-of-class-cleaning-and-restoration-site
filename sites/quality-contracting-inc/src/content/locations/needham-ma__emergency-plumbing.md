@@ -4,11 +4,11 @@ title: "Plumbing in Needham, MA | Quality Contracting, Inc."
 h1: "Plumbing in Needham"
 meta_description: "Plumbing in Needham, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "emergency plumbing needham"
-secondary_keywords: ["burst pipe plumber"]
+secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "7be7de7f41a288af"
-generated_at: "2026-09-24T23:31:33.036488+00:00"
+plan_hash: "fc5e133a40a4c2e8"
+generated_at: "2026-09-30T14:12:25.963652+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/needham-ma/", "/service-areas/needham-ma/fire-damage-restoration/", "/service-areas/needham-ma/mold-remediation/", "/service-areas/bellingham-ma/emergency-plumbing/", "/service-areas/east-douglas-ma/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Needham", "url": "/service-areas/needham-ma/"}, {"name": "Emergency Plumbing"}]

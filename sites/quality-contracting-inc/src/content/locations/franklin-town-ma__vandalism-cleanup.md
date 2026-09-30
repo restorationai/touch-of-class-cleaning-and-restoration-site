@@ -8,7 +8,7 @@ secondary_keywords: ["vandalism cleanup", "graffiti removal", "post-vandalism re
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "e07fc3fc4beb807e"
-generated_at: "2026-09-24T23:31:33.133156+00:00"
+generated_at: "2026-09-30T14:12:26.088637+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-cleanup/", "/service-areas/franklin-town-ma/", "/service-areas/franklin-town-ma/fire-damage-restoration/", "/service-areas/franklin-town-ma/mold-remediation/", "/service-areas/bellingham-ma/vandalism-cleanup/", "/service-areas/east-douglas-ma/vandalism-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Franklin Town", "url": "/service-areas/franklin-town-ma/"}, {"name": "Vandalism Cleanup"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["vandalism cleanup", "graffiti removal", "post-vandalism re
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "b8a2b4278908d52b"
-generated_at: "2026-09-24T23:31:33.006920+00:00"
+generated_at: "2026-09-30T14:12:25.918283+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-cleanup/", "/service-areas/worcester-ma/", "/service-areas/worcester-ma/fire-damage-restoration/", "/service-areas/worcester-ma/mold-remediation/", "/service-areas/bellingham-ma/vandalism-cleanup/", "/service-areas/east-douglas-ma/vandalism-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Worcester", "url": "/service-areas/worcester-ma/"}, {"name": "Vandalism Cleanup"}]

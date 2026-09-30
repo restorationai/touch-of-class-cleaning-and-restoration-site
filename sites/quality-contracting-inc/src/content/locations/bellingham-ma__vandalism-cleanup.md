@@ -8,7 +8,7 @@ secondary_keywords: ["vandalism cleanup", "graffiti removal", "post-vandalism re
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "7f55751d687f7ead"
-generated_at: "2026-09-24T23:31:33.114620+00:00"
+generated_at: "2026-09-30T14:12:26.062666+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-cleanup/", "/service-areas/bellingham-ma/", "/service-areas/bellingham-ma/fire-damage-restoration/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/vandalism-cleanup/", "/service-areas/fiskdale-ma/vandalism-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bellingham", "url": "/service-areas/bellingham-ma/"}, {"name": "Vandalism Cleanup"}]

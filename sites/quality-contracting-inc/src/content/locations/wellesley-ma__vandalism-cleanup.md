@@ -8,7 +8,7 @@ secondary_keywords: ["vandalism cleanup", "graffiti removal", "post-vandalism re
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "4e5ec1c68d7513a2"
-generated_at: "2026-09-24T23:31:33.034354+00:00"
+generated_at: "2026-09-30T14:12:25.959374+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-cleanup/", "/service-areas/wellesley-ma/", "/service-areas/wellesley-ma/fire-damage-restoration/", "/service-areas/wellesley-ma/mold-remediation/", "/service-areas/bellingham-ma/vandalism-cleanup/", "/service-areas/east-douglas-ma/vandalism-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Wellesley", "url": "/service-areas/wellesley-ma/"}, {"name": "Vandalism Cleanup"}]

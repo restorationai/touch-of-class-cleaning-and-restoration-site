@@ -4,11 +4,11 @@ title: "Plumbing in Bellingham, MA | Quality Contracting, Inc."
 h1: "Plumbing in Bellingham"
 meta_description: "Plumbing in Bellingham, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "emergency plumbing bellingham"
-secondary_keywords: ["burst pipe plumber"]
+secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "cec68a8366516e94"
-generated_at: "2026-09-24T23:31:33.111982+00:00"
+plan_hash: "e3805902357ab392"
+generated_at: "2026-09-30T14:12:26.059947+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/bellingham-ma/", "/service-areas/bellingham-ma/fire-damage-restoration/", "/service-areas/bellingham-ma/mold-remediation/", "/service-areas/east-douglas-ma/emergency-plumbing/", "/service-areas/fiskdale-ma/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Bellingham", "url": "/service-areas/bellingham-ma/"}, {"name": "Emergency Plumbing"}]

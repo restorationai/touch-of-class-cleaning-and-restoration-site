@@ -8,7 +8,7 @@ secondary_keywords: ["vandalism cleanup", "graffiti removal", "post-vandalism re
 search_intent: "local_specialty"
 priority: 4.5
 plan_hash: "a47981acefcdd114"
-generated_at: "2026-09-24T23:31:32.997409+00:00"
+generated_at: "2026-09-30T14:12:25.906760+00:00"
 manual_override: false
 internal_links: ["/services/", "/contact/", "/service-areas/bellingham-ma/vandalism-cleanup/", "/service-areas/east-douglas-ma/vandalism-cleanup/", "/service-areas/fiskdale-ma/vandalism-cleanup/", "/service-areas/framingham-ma/vandalism-cleanup/", "/service-areas/franklin-town-ma/vandalism-cleanup/", "/service-areas/hopkinton-ma/vandalism-cleanup/", "/service-areas/hudson-ma/vandalism-cleanup/", "/service-areas/leominster-ma/vandalism-cleanup/", "/service-areas/marlborough-ma/vandalism-cleanup/", "/service-areas/maynard-ma/vandalism-cleanup/", "/service-areas/milford-ma/vandalism-cleanup/", "/service-areas/natick-ma/vandalism-cleanup/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Services", "url": "/services/"}, {"name": "Vandalism Cleanup"}]

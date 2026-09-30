@@ -4,11 +4,11 @@ title: "Plumbing in Franklin Town, MA | Quality Contracting, Inc."
 h1: "Plumbing in Franklin Town"
 meta_description: "Plumbing in Franklin Town, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "emergency plumbing franklin town"
-secondary_keywords: ["burst pipe plumber"]
+secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "efbfe19afdd970da"
-generated_at: "2026-09-24T23:31:33.130571+00:00"
+plan_hash: "b0311da5846a1498"
+generated_at: "2026-09-30T14:12:26.085961+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/franklin-town-ma/", "/service-areas/franklin-town-ma/fire-damage-restoration/", "/service-areas/franklin-town-ma/mold-remediation/", "/service-areas/bellingham-ma/emergency-plumbing/", "/service-areas/east-douglas-ma/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Franklin Town", "url": "/service-areas/franklin-town-ma/"}, {"name": "Emergency Plumbing"}]

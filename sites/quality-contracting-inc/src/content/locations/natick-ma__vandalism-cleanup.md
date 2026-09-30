@@ -8,7 +8,7 @@ secondary_keywords: ["vandalism cleanup", "graffiti removal", "post-vandalism re
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "ec92667a9971f515"
-generated_at: "2026-09-24T23:31:33.030463+00:00"
+generated_at: "2026-09-30T14:12:25.953527+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-cleanup/", "/service-areas/natick-ma/", "/service-areas/natick-ma/fire-damage-restoration/", "/service-areas/natick-ma/mold-remediation/", "/service-areas/bellingham-ma/vandalism-cleanup/", "/service-areas/east-douglas-ma/vandalism-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Natick", "url": "/service-areas/natick-ma/"}, {"name": "Vandalism Cleanup"}]

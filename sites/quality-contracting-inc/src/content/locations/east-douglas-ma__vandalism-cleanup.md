@@ -8,7 +8,7 @@ secondary_keywords: ["vandalism cleanup", "graffiti removal", "post-vandalism re
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "407e494895f67820"
-generated_at: "2026-09-24T23:31:33.064132+00:00"
+generated_at: "2026-09-30T14:12:25.999335+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-cleanup/", "/service-areas/east-douglas-ma/", "/service-areas/east-douglas-ma/fire-damage-restoration/", "/service-areas/east-douglas-ma/mold-remediation/", "/service-areas/bellingham-ma/vandalism-cleanup/", "/service-areas/fiskdale-ma/vandalism-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "East Douglas", "url": "/service-areas/east-douglas-ma/"}, {"name": "Vandalism Cleanup"}]

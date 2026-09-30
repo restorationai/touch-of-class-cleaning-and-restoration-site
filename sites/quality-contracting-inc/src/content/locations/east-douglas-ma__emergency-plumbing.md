@@ -4,11 +4,11 @@ title: "Plumbing in East Douglas, MA | Quality Contracting, Inc."
 h1: "Plumbing in East Douglas"
 meta_description: "Plumbing in East Douglas, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "emergency plumbing east douglas"
-secondary_keywords: ["burst pipe plumber"]
+secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "b34b3333bf290fe8"
-generated_at: "2026-09-24T23:31:33.061507+00:00"
+plan_hash: "1e322769965c5ed2"
+generated_at: "2026-09-30T14:12:25.997296+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/east-douglas-ma/", "/service-areas/east-douglas-ma/fire-damage-restoration/", "/service-areas/east-douglas-ma/mold-remediation/", "/service-areas/bellingham-ma/emergency-plumbing/", "/service-areas/fiskdale-ma/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "East Douglas", "url": "/service-areas/east-douglas-ma/"}, {"name": "Emergency Plumbing"}]

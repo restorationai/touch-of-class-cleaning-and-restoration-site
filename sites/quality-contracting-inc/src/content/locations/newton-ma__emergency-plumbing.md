@@ -4,11 +4,11 @@ title: "Plumbing in Newton, MA | Quality Contracting, Inc."
 h1: "Plumbing in Newton"
 meta_description: "Plumbing in Newton, MA. Insurance billing accepted. Call (508) 756-8800."
 primary_keyword: "emergency plumbing newton"
-secondary_keywords: ["burst pipe plumber"]
+secondary_keywords: ["24 hour plumber", "burst pipe plumber"]
 search_intent: "local_emergency"
 priority: 6.3
-plan_hash: "f214797952b5cbe2"
-generated_at: "2026-09-24T23:31:33.040384+00:00"
+plan_hash: "13179f7b2123115d"
+generated_at: "2026-09-30T14:12:25.969440+00:00"
 manual_override: false
 internal_links: ["/services/emergency-plumbing/", "/service-areas/newton-ma/", "/service-areas/newton-ma/fire-damage-restoration/", "/service-areas/newton-ma/mold-remediation/", "/service-areas/bellingham-ma/emergency-plumbing/", "/service-areas/east-douglas-ma/emergency-plumbing/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Newton", "url": "/service-areas/newton-ma/"}, {"name": "Emergency Plumbing"}]

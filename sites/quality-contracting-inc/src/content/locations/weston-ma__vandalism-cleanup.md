@@ -8,7 +8,7 @@ secondary_keywords: ["vandalism cleanup", "graffiti removal", "post-vandalism re
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "c91413af8f1043b1"
-generated_at: "2026-09-24T23:31:33.046048+00:00"
+generated_at: "2026-09-30T14:12:25.976796+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-cleanup/", "/service-areas/weston-ma/", "/service-areas/weston-ma/fire-damage-restoration/", "/service-areas/weston-ma/mold-remediation/", "/service-areas/bellingham-ma/vandalism-cleanup/", "/service-areas/east-douglas-ma/vandalism-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Weston", "url": "/service-areas/weston-ma/"}, {"name": "Vandalism Cleanup"}]

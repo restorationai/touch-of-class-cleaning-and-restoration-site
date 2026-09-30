@@ -8,7 +8,7 @@ secondary_keywords: ["vandalism cleanup", "graffiti removal", "post-vandalism re
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "17026b5edd6aa3ee"
-generated_at: "2026-09-24T23:31:33.070182+00:00"
+generated_at: "2026-09-30T14:12:26.007655+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-cleanup/", "/service-areas/northborough-ma/", "/service-areas/northborough-ma/fire-damage-restoration/", "/service-areas/northborough-ma/mold-remediation/", "/service-areas/bellingham-ma/vandalism-cleanup/", "/service-areas/east-douglas-ma/vandalism-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Northborough", "url": "/service-areas/northborough-ma/"}, {"name": "Vandalism Cleanup"}]

@@ -8,7 +8,7 @@ secondary_keywords: ["vandalism cleanup", "graffiti removal", "post-vandalism re
 search_intent: "local_specialty"
 priority: 3.5
 plan_hash: "e23865bdd3329f01"
-generated_at: "2026-09-24T23:31:33.014811+00:00"
+generated_at: "2026-09-30T14:12:25.930124+00:00"
 manual_override: false
 internal_links: ["/services/vandalism-cleanup/", "/service-areas/westborough-ma/", "/service-areas/westborough-ma/fire-damage-restoration/", "/service-areas/westborough-ma/mold-remediation/", "/service-areas/bellingham-ma/vandalism-cleanup/", "/service-areas/east-douglas-ma/vandalism-cleanup/", "/contact/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Westborough", "url": "/service-areas/westborough-ma/"}, {"name": "Vandalism Cleanup"}]
