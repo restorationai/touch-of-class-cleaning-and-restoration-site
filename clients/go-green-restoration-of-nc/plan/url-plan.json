@@ -768,50 +768,6 @@
       ]
     },
     {
-      "url_path": "/services/air-duct-hvac-cleaning/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Middlesex | Go Green Restoration of NC",
-      "h1": "Air Duct & HVAC Cleaning in Middlesex",
-      "meta_description": "24/7 air duct & hvac cleaning in Middlesex and surrounding areas. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "air duct & hvac cleaning middlesex",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/archer-lodge-nc/air-duct-hvac-cleaning/",
-        "/service-areas/clayton-nc/air-duct-hvac-cleaning/",
-        "/service-areas/durham-nc/air-duct-hvac-cleaning/",
-        "/service-areas/elm-city-nc/air-duct-hvac-cleaning/",
-        "/service-areas/kenly-nc/air-duct-hvac-cleaning/",
-        "/service-areas/knightdale-nc/air-duct-hvac-cleaning/",
-        "/service-areas/lake-royale-nc/air-duct-hvac-cleaning/",
-        "/service-areas/louisburg-nc/air-duct-hvac-cleaning/",
-        "/service-areas/nashville-nc/air-duct-hvac-cleaning/",
-        "/service-areas/pine-level-nc/air-duct-hvac-cleaning/",
-        "/service-areas/raleigh-nc/air-duct-hvac-cleaning/",
-        "/service-areas/rocky-mount-nc/air-duct-hvac-cleaning/"
-      ]
-    },
-    {
       "url_path": "/services/basement-flooding-cleanup/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -909,50 +865,6 @@
         "/service-areas/pine-level-nc/burst-pipe-repair/",
         "/service-areas/raleigh-nc/burst-pipe-repair/",
         "/service-areas/rocky-mount-nc/burst-pipe-repair/"
-      ]
-    },
-    {
-      "url_path": "/services/carpet-upholstery-cleaning/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Middlesex | Go Green Restoration of NC",
-      "h1": "Carpet & Upholstery Cleaning in Middlesex",
-      "meta_description": "24/7 carpet & upholstery cleaning in Middlesex and surrounding areas. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "carpet & upholstery cleaning middlesex",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/archer-lodge-nc/carpet-upholstery-cleaning/",
-        "/service-areas/clayton-nc/carpet-upholstery-cleaning/",
-        "/service-areas/durham-nc/carpet-upholstery-cleaning/",
-        "/service-areas/elm-city-nc/carpet-upholstery-cleaning/",
-        "/service-areas/kenly-nc/carpet-upholstery-cleaning/",
-        "/service-areas/knightdale-nc/carpet-upholstery-cleaning/",
-        "/service-areas/lake-royale-nc/carpet-upholstery-cleaning/",
-        "/service-areas/louisburg-nc/carpet-upholstery-cleaning/",
-        "/service-areas/nashville-nc/carpet-upholstery-cleaning/",
-        "/service-areas/pine-level-nc/carpet-upholstery-cleaning/",
-        "/service-areas/raleigh-nc/carpet-upholstery-cleaning/",
-        "/service-areas/rocky-mount-nc/carpet-upholstery-cleaning/"
       ]
     },
     {
@@ -1103,56 +1015,6 @@
         "/service-areas/pine-level-nc/emergency-plumbing/",
         "/service-areas/raleigh-nc/emergency-plumbing/",
         "/service-areas/rocky-mount-nc/emergency-plumbing/"
-      ]
-    },
-    {
-      "url_path": "/services/emergency-water-removal/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Middlesex | Go Green Restoration of NC",
-      "h1": "24/7 Emergency Water Removal in Middlesex",
-      "meta_description": "24/7 24/7 emergency water removal in Middlesex and surrounding areas. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "24/7 emergency water removal middlesex",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/archer-lodge-nc/emergency-water-removal/",
-        "/service-areas/clayton-nc/emergency-water-removal/",
-        "/service-areas/durham-nc/emergency-water-removal/",
-        "/service-areas/elm-city-nc/emergency-water-removal/",
-        "/service-areas/kenly-nc/emergency-water-removal/",
-        "/service-areas/knightdale-nc/emergency-water-removal/",
-        "/service-areas/lake-royale-nc/emergency-water-removal/",
-        "/service-areas/louisburg-nc/emergency-water-removal/",
-        "/service-areas/nashville-nc/emergency-water-removal/",
-        "/service-areas/pine-level-nc/emergency-water-removal/",
-        "/service-areas/raleigh-nc/emergency-water-removal/",
-        "/service-areas/rocky-mount-nc/emergency-water-removal/"
       ]
     },
     {
@@ -3600,44 +3462,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/raleigh-nc/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Raleigh, NC | Go Green Restoration of NC",
-      "h1": "Air Duct & HVAC Cleaning in Raleigh",
-      "meta_description": "24/7 air duct & hvac cleaning in Raleigh, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "air duct & hvac cleaning raleigh",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/raleigh-nc/",
-        "/service-areas/raleigh-nc/fire-damage-restoration/",
-        "/service-areas/raleigh-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/air-duct-hvac-cleaning/",
-        "/service-areas/clayton-nc/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/raleigh-nc/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3722,44 +3546,6 @@
         "/service-areas/raleigh-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/burst-pipe-repair/",
         "/service-areas/clayton-nc/burst-pipe-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/raleigh-nc/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Raleigh, NC | Go Green Restoration of NC",
-      "h1": "Carpet & Upholstery Cleaning in Raleigh",
-      "meta_description": "24/7 carpet & upholstery cleaning in Raleigh, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "carpet & upholstery cleaning raleigh",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/raleigh-nc/",
-        "/service-areas/raleigh-nc/fire-damage-restoration/",
-        "/service-areas/raleigh-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/carpet-upholstery-cleaning/",
-        "/service-areas/clayton-nc/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -3892,50 +3678,6 @@
         "/service-areas/raleigh-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/emergency-plumbing/",
         "/service-areas/clayton-nc/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/raleigh-nc/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Raleigh, NC | Go Green Restoration of NC",
-      "h1": "24/7 Emergency Water Removal in Raleigh",
-      "meta_description": "24/7 24/7 emergency water removal in Raleigh, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "24/7 emergency water removal raleigh",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/raleigh-nc/",
-        "/service-areas/raleigh-nc/fire-damage-restoration/",
-        "/service-areas/raleigh-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/emergency-water-removal/",
-        "/service-areas/clayton-nc/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -4857,44 +4599,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/durham-nc/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Durham, NC | Go Green Restoration of NC",
-      "h1": "Air Duct & HVAC Cleaning in Durham",
-      "meta_description": "24/7 air duct & hvac cleaning in Durham, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "air duct & hvac cleaning durham",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/durham-nc/",
-        "/service-areas/durham-nc/fire-damage-restoration/",
-        "/service-areas/durham-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/air-duct-hvac-cleaning/",
-        "/service-areas/clayton-nc/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/durham-nc/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4979,44 +4683,6 @@
         "/service-areas/durham-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/burst-pipe-repair/",
         "/service-areas/clayton-nc/burst-pipe-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/durham-nc/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Durham, NC | Go Green Restoration of NC",
-      "h1": "Carpet & Upholstery Cleaning in Durham",
-      "meta_description": "24/7 carpet & upholstery cleaning in Durham, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "carpet & upholstery cleaning durham",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/durham-nc/",
-        "/service-areas/durham-nc/fire-damage-restoration/",
-        "/service-areas/durham-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/carpet-upholstery-cleaning/",
-        "/service-areas/clayton-nc/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -5149,50 +4815,6 @@
         "/service-areas/durham-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/emergency-plumbing/",
         "/service-areas/clayton-nc/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/durham-nc/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Durham, NC | Go Green Restoration of NC",
-      "h1": "24/7 Emergency Water Removal in Durham",
-      "meta_description": "24/7 24/7 emergency water removal in Durham, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "24/7 emergency water removal durham",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/durham-nc/",
-        "/service-areas/durham-nc/fire-damage-restoration/",
-        "/service-areas/durham-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/emergency-water-removal/",
-        "/service-areas/clayton-nc/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -6114,44 +5736,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/rocky-mount-nc/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Rocky Mount, NC | Go Green Restoration of NC",
-      "h1": "Air Duct & HVAC Cleaning in Rocky Mount",
-      "meta_description": "24/7 air duct & hvac cleaning in Rocky Mount, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "air duct & hvac cleaning rocky mount",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/rocky-mount-nc/",
-        "/service-areas/rocky-mount-nc/fire-damage-restoration/",
-        "/service-areas/rocky-mount-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/air-duct-hvac-cleaning/",
-        "/service-areas/clayton-nc/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/rocky-mount-nc/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6236,44 +5820,6 @@
         "/service-areas/rocky-mount-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/burst-pipe-repair/",
         "/service-areas/clayton-nc/burst-pipe-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/rocky-mount-nc/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Rocky Mount, NC | Go Green Restoration of NC",
-      "h1": "Carpet & Upholstery Cleaning in Rocky Mount",
-      "meta_description": "24/7 carpet & upholstery cleaning in Rocky Mount, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "carpet & upholstery cleaning rocky mount",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/rocky-mount-nc/",
-        "/service-areas/rocky-mount-nc/fire-damage-restoration/",
-        "/service-areas/rocky-mount-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/carpet-upholstery-cleaning/",
-        "/service-areas/clayton-nc/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -6406,50 +5952,6 @@
         "/service-areas/rocky-mount-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/emergency-plumbing/",
         "/service-areas/clayton-nc/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/rocky-mount-nc/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Rocky Mount, NC | Go Green Restoration of NC",
-      "h1": "24/7 Emergency Water Removal in Rocky Mount",
-      "meta_description": "24/7 24/7 emergency water removal in Rocky Mount, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "24/7 emergency water removal rocky mount",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/rocky-mount-nc/",
-        "/service-areas/rocky-mount-nc/fire-damage-restoration/",
-        "/service-areas/rocky-mount-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/emergency-water-removal/",
-        "/service-areas/clayton-nc/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -7371,44 +6873,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/wilson-nc/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Wilson, NC | Go Green Restoration of NC",
-      "h1": "Air Duct & HVAC Cleaning in Wilson",
-      "meta_description": "24/7 air duct & hvac cleaning in Wilson, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "air duct & hvac cleaning wilson",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/wilson-nc/",
-        "/service-areas/wilson-nc/fire-damage-restoration/",
-        "/service-areas/wilson-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/air-duct-hvac-cleaning/",
-        "/service-areas/clayton-nc/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/wilson-nc/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7493,44 +6957,6 @@
         "/service-areas/wilson-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/burst-pipe-repair/",
         "/service-areas/clayton-nc/burst-pipe-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/wilson-nc/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Wilson, NC | Go Green Restoration of NC",
-      "h1": "Carpet & Upholstery Cleaning in Wilson",
-      "meta_description": "24/7 carpet & upholstery cleaning in Wilson, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "carpet & upholstery cleaning wilson",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/wilson-nc/",
-        "/service-areas/wilson-nc/fire-damage-restoration/",
-        "/service-areas/wilson-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/carpet-upholstery-cleaning/",
-        "/service-areas/clayton-nc/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -7663,50 +7089,6 @@
         "/service-areas/wilson-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/emergency-plumbing/",
         "/service-areas/clayton-nc/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/wilson-nc/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Wilson, NC | Go Green Restoration of NC",
-      "h1": "24/7 Emergency Water Removal in Wilson",
-      "meta_description": "24/7 24/7 emergency water removal in Wilson, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "24/7 emergency water removal wilson",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/wilson-nc/",
-        "/service-areas/wilson-nc/fire-damage-restoration/",
-        "/service-areas/wilson-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/emergency-water-removal/",
-        "/service-areas/clayton-nc/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -8628,44 +8010,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/smithfield-nc/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Smithfield, NC | Go Green Restoration of NC",
-      "h1": "Air Duct & HVAC Cleaning in Smithfield",
-      "meta_description": "24/7 air duct & hvac cleaning in Smithfield, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "air duct & hvac cleaning smithfield",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/smithfield-nc/",
-        "/service-areas/smithfield-nc/fire-damage-restoration/",
-        "/service-areas/smithfield-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/air-duct-hvac-cleaning/",
-        "/service-areas/clayton-nc/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/smithfield-nc/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8750,44 +8094,6 @@
         "/service-areas/smithfield-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/burst-pipe-repair/",
         "/service-areas/clayton-nc/burst-pipe-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/smithfield-nc/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Smithfield, NC | Go Green Restoration of NC",
-      "h1": "Carpet & Upholstery Cleaning in Smithfield",
-      "meta_description": "24/7 carpet & upholstery cleaning in Smithfield, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "carpet & upholstery cleaning smithfield",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/smithfield-nc/",
-        "/service-areas/smithfield-nc/fire-damage-restoration/",
-        "/service-areas/smithfield-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/carpet-upholstery-cleaning/",
-        "/service-areas/clayton-nc/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -8920,50 +8226,6 @@
         "/service-areas/smithfield-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/emergency-plumbing/",
         "/service-areas/clayton-nc/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/smithfield-nc/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Smithfield, NC | Go Green Restoration of NC",
-      "h1": "24/7 Emergency Water Removal in Smithfield",
-      "meta_description": "24/7 24/7 emergency water removal in Smithfield, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "24/7 emergency water removal smithfield",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/smithfield-nc/",
-        "/service-areas/smithfield-nc/fire-damage-restoration/",
-        "/service-areas/smithfield-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/emergency-water-removal/",
-        "/service-areas/clayton-nc/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -9885,44 +9147,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/wake-forest-nc/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Wake Forest, NC | Go Green Restoration of NC",
-      "h1": "Air Duct & HVAC Cleaning in Wake Forest",
-      "meta_description": "24/7 air duct & hvac cleaning in Wake Forest, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "air duct & hvac cleaning wake forest",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/wake-forest-nc/",
-        "/service-areas/wake-forest-nc/fire-damage-restoration/",
-        "/service-areas/wake-forest-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/air-duct-hvac-cleaning/",
-        "/service-areas/clayton-nc/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/wake-forest-nc/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10007,44 +9231,6 @@
         "/service-areas/wake-forest-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/burst-pipe-repair/",
         "/service-areas/clayton-nc/burst-pipe-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/wake-forest-nc/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Wake Forest, NC | Go Green Restoration of NC",
-      "h1": "Carpet & Upholstery Cleaning in Wake Forest",
-      "meta_description": "24/7 carpet & upholstery cleaning in Wake Forest, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "carpet & upholstery cleaning wake forest",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/wake-forest-nc/",
-        "/service-areas/wake-forest-nc/fire-damage-restoration/",
-        "/service-areas/wake-forest-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/carpet-upholstery-cleaning/",
-        "/service-areas/clayton-nc/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -10177,50 +9363,6 @@
         "/service-areas/wake-forest-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/emergency-plumbing/",
         "/service-areas/clayton-nc/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/wake-forest-nc/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Wake Forest, NC | Go Green Restoration of NC",
-      "h1": "24/7 Emergency Water Removal in Wake Forest",
-      "meta_description": "24/7 24/7 emergency water removal in Wake Forest, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "24/7 emergency water removal wake forest",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/wake-forest-nc/",
-        "/service-areas/wake-forest-nc/fire-damage-restoration/",
-        "/service-areas/wake-forest-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/emergency-water-removal/",
-        "/service-areas/clayton-nc/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -11142,44 +10284,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/zebulon-nc/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Zebulon, NC | Go Green Restoration of NC",
-      "h1": "Air Duct & HVAC Cleaning in Zebulon",
-      "meta_description": "24/7 air duct & hvac cleaning in Zebulon, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "air duct & hvac cleaning zebulon",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/zebulon-nc/",
-        "/service-areas/zebulon-nc/fire-damage-restoration/",
-        "/service-areas/zebulon-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/air-duct-hvac-cleaning/",
-        "/service-areas/clayton-nc/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/zebulon-nc/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -11264,44 +10368,6 @@
         "/service-areas/zebulon-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/burst-pipe-repair/",
         "/service-areas/clayton-nc/burst-pipe-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/zebulon-nc/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Zebulon, NC | Go Green Restoration of NC",
-      "h1": "Carpet & Upholstery Cleaning in Zebulon",
-      "meta_description": "24/7 carpet & upholstery cleaning in Zebulon, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "carpet & upholstery cleaning zebulon",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/zebulon-nc/",
-        "/service-areas/zebulon-nc/fire-damage-restoration/",
-        "/service-areas/zebulon-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/carpet-upholstery-cleaning/",
-        "/service-areas/clayton-nc/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -11434,50 +10500,6 @@
         "/service-areas/zebulon-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/emergency-plumbing/",
         "/service-areas/clayton-nc/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/zebulon-nc/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Zebulon, NC | Go Green Restoration of NC",
-      "h1": "24/7 Emergency Water Removal in Zebulon",
-      "meta_description": "24/7 24/7 emergency water removal in Zebulon, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "24/7 emergency water removal zebulon",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/zebulon-nc/",
-        "/service-areas/zebulon-nc/fire-damage-restoration/",
-        "/service-areas/zebulon-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/emergency-water-removal/",
-        "/service-areas/clayton-nc/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -12399,44 +11421,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/wendell-nc/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Wendell, NC | Go Green Restoration of NC",
-      "h1": "Air Duct & HVAC Cleaning in Wendell",
-      "meta_description": "24/7 air duct & hvac cleaning in Wendell, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "air duct & hvac cleaning wendell",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/wendell-nc/",
-        "/service-areas/wendell-nc/fire-damage-restoration/",
-        "/service-areas/wendell-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/air-duct-hvac-cleaning/",
-        "/service-areas/clayton-nc/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/wendell-nc/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12521,44 +11505,6 @@
         "/service-areas/wendell-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/burst-pipe-repair/",
         "/service-areas/clayton-nc/burst-pipe-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/wendell-nc/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Wendell, NC | Go Green Restoration of NC",
-      "h1": "Carpet & Upholstery Cleaning in Wendell",
-      "meta_description": "24/7 carpet & upholstery cleaning in Wendell, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "carpet & upholstery cleaning wendell",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/wendell-nc/",
-        "/service-areas/wendell-nc/fire-damage-restoration/",
-        "/service-areas/wendell-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/carpet-upholstery-cleaning/",
-        "/service-areas/clayton-nc/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -12691,50 +11637,6 @@
         "/service-areas/wendell-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/emergency-plumbing/",
         "/service-areas/clayton-nc/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/wendell-nc/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Wendell, NC | Go Green Restoration of NC",
-      "h1": "24/7 Emergency Water Removal in Wendell",
-      "meta_description": "24/7 24/7 emergency water removal in Wendell, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "24/7 emergency water removal wendell",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/wendell-nc/",
-        "/service-areas/wendell-nc/fire-damage-restoration/",
-        "/service-areas/wendell-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/emergency-water-removal/",
-        "/service-areas/clayton-nc/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -13656,44 +12558,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/archer-lodge-nc/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Archer Lodge, NC | Go Green Restoration of NC",
-      "h1": "Air Duct & HVAC Cleaning in Archer Lodge",
-      "meta_description": "24/7 air duct & hvac cleaning in Archer Lodge, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "air duct & hvac cleaning archer lodge",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/archer-lodge-nc/",
-        "/service-areas/archer-lodge-nc/fire-damage-restoration/",
-        "/service-areas/archer-lodge-nc/mold-remediation/",
-        "/service-areas/clayton-nc/air-duct-hvac-cleaning/",
-        "/service-areas/durham-nc/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/archer-lodge-nc/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13778,44 +12642,6 @@
         "/service-areas/archer-lodge-nc/mold-remediation/",
         "/service-areas/clayton-nc/burst-pipe-repair/",
         "/service-areas/durham-nc/burst-pipe-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/archer-lodge-nc/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Archer Lodge, NC | Go Green Restoration of NC",
-      "h1": "Carpet & Upholstery Cleaning in Archer Lodge",
-      "meta_description": "24/7 carpet & upholstery cleaning in Archer Lodge, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "carpet & upholstery cleaning archer lodge",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/archer-lodge-nc/",
-        "/service-areas/archer-lodge-nc/fire-damage-restoration/",
-        "/service-areas/archer-lodge-nc/mold-remediation/",
-        "/service-areas/clayton-nc/carpet-upholstery-cleaning/",
-        "/service-areas/durham-nc/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -13948,50 +12774,6 @@
         "/service-areas/archer-lodge-nc/mold-remediation/",
         "/service-areas/clayton-nc/emergency-plumbing/",
         "/service-areas/durham-nc/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/archer-lodge-nc/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Archer Lodge, NC | Go Green Restoration of NC",
-      "h1": "24/7 Emergency Water Removal in Archer Lodge",
-      "meta_description": "24/7 24/7 emergency water removal in Archer Lodge, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "24/7 emergency water removal archer lodge",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/archer-lodge-nc/",
-        "/service-areas/archer-lodge-nc/fire-damage-restoration/",
-        "/service-areas/archer-lodge-nc/mold-remediation/",
-        "/service-areas/clayton-nc/emergency-water-removal/",
-        "/service-areas/durham-nc/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -14913,44 +13695,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lake-royale-nc/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Lake Royale, NC | Go Green Restoration of NC",
-      "h1": "Air Duct & HVAC Cleaning in Lake Royale",
-      "meta_description": "24/7 air duct & hvac cleaning in Lake Royale, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "air duct & hvac cleaning lake royale",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/lake-royale-nc/",
-        "/service-areas/lake-royale-nc/fire-damage-restoration/",
-        "/service-areas/lake-royale-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/air-duct-hvac-cleaning/",
-        "/service-areas/clayton-nc/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lake-royale-nc/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -15035,44 +13779,6 @@
         "/service-areas/lake-royale-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/burst-pipe-repair/",
         "/service-areas/clayton-nc/burst-pipe-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lake-royale-nc/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Lake Royale, NC | Go Green Restoration of NC",
-      "h1": "Carpet & Upholstery Cleaning in Lake Royale",
-      "meta_description": "24/7 carpet & upholstery cleaning in Lake Royale, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "carpet & upholstery cleaning lake royale",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/lake-royale-nc/",
-        "/service-areas/lake-royale-nc/fire-damage-restoration/",
-        "/service-areas/lake-royale-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/carpet-upholstery-cleaning/",
-        "/service-areas/clayton-nc/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -15205,50 +13911,6 @@
         "/service-areas/lake-royale-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/emergency-plumbing/",
         "/service-areas/clayton-nc/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lake-royale-nc/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Lake Royale, NC | Go Green Restoration of NC",
-      "h1": "24/7 Emergency Water Removal in Lake Royale",
-      "meta_description": "24/7 24/7 emergency water removal in Lake Royale, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "24/7 emergency water removal lake royale",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/lake-royale-nc/",
-        "/service-areas/lake-royale-nc/fire-damage-restoration/",
-        "/service-areas/lake-royale-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/emergency-water-removal/",
-        "/service-areas/clayton-nc/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -16170,44 +14832,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/spring-hope-nc/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Spring Hope, NC | Go Green Restoration of NC",
-      "h1": "Air Duct & HVAC Cleaning in Spring Hope",
-      "meta_description": "24/7 air duct & hvac cleaning in Spring Hope, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "air duct & hvac cleaning spring hope",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/spring-hope-nc/",
-        "/service-areas/spring-hope-nc/fire-damage-restoration/",
-        "/service-areas/spring-hope-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/air-duct-hvac-cleaning/",
-        "/service-areas/clayton-nc/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/spring-hope-nc/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -16292,44 +14916,6 @@
         "/service-areas/spring-hope-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/burst-pipe-repair/",
         "/service-areas/clayton-nc/burst-pipe-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/spring-hope-nc/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Spring Hope, NC | Go Green Restoration of NC",
-      "h1": "Carpet & Upholstery Cleaning in Spring Hope",
-      "meta_description": "24/7 carpet & upholstery cleaning in Spring Hope, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "carpet & upholstery cleaning spring hope",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/spring-hope-nc/",
-        "/service-areas/spring-hope-nc/fire-damage-restoration/",
-        "/service-areas/spring-hope-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/carpet-upholstery-cleaning/",
-        "/service-areas/clayton-nc/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -16462,50 +15048,6 @@
         "/service-areas/spring-hope-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/emergency-plumbing/",
         "/service-areas/clayton-nc/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/spring-hope-nc/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Spring Hope, NC | Go Green Restoration of NC",
-      "h1": "24/7 Emergency Water Removal in Spring Hope",
-      "meta_description": "24/7 24/7 emergency water removal in Spring Hope, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "24/7 emergency water removal spring hope",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/spring-hope-nc/",
-        "/service-areas/spring-hope-nc/fire-damage-restoration/",
-        "/service-areas/spring-hope-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/emergency-water-removal/",
-        "/service-areas/clayton-nc/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -17427,44 +15969,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/kenly-nc/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Kenly, NC | Go Green Restoration of NC",
-      "h1": "Air Duct & HVAC Cleaning in Kenly",
-      "meta_description": "24/7 air duct & hvac cleaning in Kenly, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "air duct & hvac cleaning kenly",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/kenly-nc/",
-        "/service-areas/kenly-nc/fire-damage-restoration/",
-        "/service-areas/kenly-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/air-duct-hvac-cleaning/",
-        "/service-areas/clayton-nc/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/kenly-nc/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17549,44 +16053,6 @@
         "/service-areas/kenly-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/burst-pipe-repair/",
         "/service-areas/clayton-nc/burst-pipe-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/kenly-nc/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Kenly, NC | Go Green Restoration of NC",
-      "h1": "Carpet & Upholstery Cleaning in Kenly",
-      "meta_description": "24/7 carpet & upholstery cleaning in Kenly, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "carpet & upholstery cleaning kenly",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/kenly-nc/",
-        "/service-areas/kenly-nc/fire-damage-restoration/",
-        "/service-areas/kenly-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/carpet-upholstery-cleaning/",
-        "/service-areas/clayton-nc/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -17719,50 +16185,6 @@
         "/service-areas/kenly-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/emergency-plumbing/",
         "/service-areas/clayton-nc/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/kenly-nc/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Kenly, NC | Go Green Restoration of NC",
-      "h1": "24/7 Emergency Water Removal in Kenly",
-      "meta_description": "24/7 24/7 emergency water removal in Kenly, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "24/7 emergency water removal kenly",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/kenly-nc/",
-        "/service-areas/kenly-nc/fire-damage-restoration/",
-        "/service-areas/kenly-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/emergency-water-removal/",
-        "/service-areas/clayton-nc/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -18684,44 +17106,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/clayton-nc/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Clayton, NC | Go Green Restoration of NC",
-      "h1": "Air Duct & HVAC Cleaning in Clayton",
-      "meta_description": "24/7 air duct & hvac cleaning in Clayton, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "air duct & hvac cleaning clayton",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/clayton-nc/",
-        "/service-areas/clayton-nc/fire-damage-restoration/",
-        "/service-areas/clayton-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/air-duct-hvac-cleaning/",
-        "/service-areas/durham-nc/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/clayton-nc/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -18806,44 +17190,6 @@
         "/service-areas/clayton-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/burst-pipe-repair/",
         "/service-areas/durham-nc/burst-pipe-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/clayton-nc/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Clayton, NC | Go Green Restoration of NC",
-      "h1": "Carpet & Upholstery Cleaning in Clayton",
-      "meta_description": "24/7 carpet & upholstery cleaning in Clayton, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "carpet & upholstery cleaning clayton",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/clayton-nc/",
-        "/service-areas/clayton-nc/fire-damage-restoration/",
-        "/service-areas/clayton-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/carpet-upholstery-cleaning/",
-        "/service-areas/durham-nc/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -18976,50 +17322,6 @@
         "/service-areas/clayton-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/emergency-plumbing/",
         "/service-areas/durham-nc/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/clayton-nc/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Clayton, NC | Go Green Restoration of NC",
-      "h1": "24/7 Emergency Water Removal in Clayton",
-      "meta_description": "24/7 24/7 emergency water removal in Clayton, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "24/7 emergency water removal clayton",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/clayton-nc/",
-        "/service-areas/clayton-nc/fire-damage-restoration/",
-        "/service-areas/clayton-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/emergency-water-removal/",
-        "/service-areas/durham-nc/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -19941,44 +18243,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/knightdale-nc/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Knightdale, NC | Go Green Restoration of NC",
-      "h1": "Air Duct & HVAC Cleaning in Knightdale",
-      "meta_description": "24/7 air duct & hvac cleaning in Knightdale, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "air duct & hvac cleaning knightdale",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/knightdale-nc/",
-        "/service-areas/knightdale-nc/fire-damage-restoration/",
-        "/service-areas/knightdale-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/air-duct-hvac-cleaning/",
-        "/service-areas/clayton-nc/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/knightdale-nc/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -20063,44 +18327,6 @@
         "/service-areas/knightdale-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/burst-pipe-repair/",
         "/service-areas/clayton-nc/burst-pipe-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/knightdale-nc/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Knightdale, NC | Go Green Restoration of NC",
-      "h1": "Carpet & Upholstery Cleaning in Knightdale",
-      "meta_description": "24/7 carpet & upholstery cleaning in Knightdale, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "carpet & upholstery cleaning knightdale",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/knightdale-nc/",
-        "/service-areas/knightdale-nc/fire-damage-restoration/",
-        "/service-areas/knightdale-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/carpet-upholstery-cleaning/",
-        "/service-areas/clayton-nc/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -20233,50 +18459,6 @@
         "/service-areas/knightdale-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/emergency-plumbing/",
         "/service-areas/clayton-nc/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/knightdale-nc/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Knightdale, NC | Go Green Restoration of NC",
-      "h1": "24/7 Emergency Water Removal in Knightdale",
-      "meta_description": "24/7 24/7 emergency water removal in Knightdale, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "24/7 emergency water removal knightdale",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/knightdale-nc/",
-        "/service-areas/knightdale-nc/fire-damage-restoration/",
-        "/service-areas/knightdale-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/emergency-water-removal/",
-        "/service-areas/clayton-nc/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -21198,44 +19380,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/wilson-s-mills-nc/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Wilson's Mills, NC | Go Green Restoration of NC",
-      "h1": "Air Duct & HVAC Cleaning in Wilson's Mills",
-      "meta_description": "24/7 air duct & hvac cleaning in Wilson's Mills, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "air duct & hvac cleaning wilson's mills",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/wilson-s-mills-nc/",
-        "/service-areas/wilson-s-mills-nc/fire-damage-restoration/",
-        "/service-areas/wilson-s-mills-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/air-duct-hvac-cleaning/",
-        "/service-areas/clayton-nc/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/wilson-s-mills-nc/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -21320,44 +19464,6 @@
         "/service-areas/wilson-s-mills-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/burst-pipe-repair/",
         "/service-areas/clayton-nc/burst-pipe-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/wilson-s-mills-nc/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Wilson's Mills, NC | Go Green Restoration of NC",
-      "h1": "Carpet & Upholstery Cleaning in Wilson's Mills",
-      "meta_description": "24/7 carpet & upholstery cleaning in Wilson's Mills, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "carpet & upholstery cleaning wilson's mills",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/wilson-s-mills-nc/",
-        "/service-areas/wilson-s-mills-nc/fire-damage-restoration/",
-        "/service-areas/wilson-s-mills-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/carpet-upholstery-cleaning/",
-        "/service-areas/clayton-nc/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -21490,50 +19596,6 @@
         "/service-areas/wilson-s-mills-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/emergency-plumbing/",
         "/service-areas/clayton-nc/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/wilson-s-mills-nc/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Wilson's Mills, NC | Go Green Restoration of NC",
-      "h1": "24/7 Emergency Water Removal in Wilson's Mills",
-      "meta_description": "24/7 24/7 emergency water removal in Wilson's Mills, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "24/7 emergency water removal wilson's mills",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/wilson-s-mills-nc/",
-        "/service-areas/wilson-s-mills-nc/fire-damage-restoration/",
-        "/service-areas/wilson-s-mills-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/emergency-water-removal/",
-        "/service-areas/clayton-nc/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -22455,44 +20517,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/rolesville-nc/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Rolesville, NC | Go Green Restoration of NC",
-      "h1": "Air Duct & HVAC Cleaning in Rolesville",
-      "meta_description": "24/7 air duct & hvac cleaning in Rolesville, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "air duct & hvac cleaning rolesville",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/rolesville-nc/",
-        "/service-areas/rolesville-nc/fire-damage-restoration/",
-        "/service-areas/rolesville-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/air-duct-hvac-cleaning/",
-        "/service-areas/clayton-nc/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/rolesville-nc/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -22577,44 +20601,6 @@
         "/service-areas/rolesville-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/burst-pipe-repair/",
         "/service-areas/clayton-nc/burst-pipe-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/rolesville-nc/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Rolesville, NC | Go Green Restoration of NC",
-      "h1": "Carpet & Upholstery Cleaning in Rolesville",
-      "meta_description": "24/7 carpet & upholstery cleaning in Rolesville, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "carpet & upholstery cleaning rolesville",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/rolesville-nc/",
-        "/service-areas/rolesville-nc/fire-damage-restoration/",
-        "/service-areas/rolesville-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/carpet-upholstery-cleaning/",
-        "/service-areas/clayton-nc/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -22747,50 +20733,6 @@
         "/service-areas/rolesville-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/emergency-plumbing/",
         "/service-areas/clayton-nc/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/rolesville-nc/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Rolesville, NC | Go Green Restoration of NC",
-      "h1": "24/7 Emergency Water Removal in Rolesville",
-      "meta_description": "24/7 24/7 emergency water removal in Rolesville, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "24/7 emergency water removal rolesville",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/rolesville-nc/",
-        "/service-areas/rolesville-nc/fire-damage-restoration/",
-        "/service-areas/rolesville-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/emergency-water-removal/",
-        "/service-areas/clayton-nc/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -23712,44 +21654,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/selma-nc/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Selma, NC | Go Green Restoration of NC",
-      "h1": "Air Duct & HVAC Cleaning in Selma",
-      "meta_description": "24/7 air duct & hvac cleaning in Selma, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "air duct & hvac cleaning selma",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/selma-nc/",
-        "/service-areas/selma-nc/fire-damage-restoration/",
-        "/service-areas/selma-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/air-duct-hvac-cleaning/",
-        "/service-areas/clayton-nc/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/selma-nc/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -23834,44 +21738,6 @@
         "/service-areas/selma-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/burst-pipe-repair/",
         "/service-areas/clayton-nc/burst-pipe-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/selma-nc/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Selma, NC | Go Green Restoration of NC",
-      "h1": "Carpet & Upholstery Cleaning in Selma",
-      "meta_description": "24/7 carpet & upholstery cleaning in Selma, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "carpet & upholstery cleaning selma",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/selma-nc/",
-        "/service-areas/selma-nc/fire-damage-restoration/",
-        "/service-areas/selma-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/carpet-upholstery-cleaning/",
-        "/service-areas/clayton-nc/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -24004,50 +21870,6 @@
         "/service-areas/selma-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/emergency-plumbing/",
         "/service-areas/clayton-nc/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/selma-nc/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Selma, NC | Go Green Restoration of NC",
-      "h1": "24/7 Emergency Water Removal in Selma",
-      "meta_description": "24/7 24/7 emergency water removal in Selma, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "24/7 emergency water removal selma",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/selma-nc/",
-        "/service-areas/selma-nc/fire-damage-restoration/",
-        "/service-areas/selma-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/emergency-water-removal/",
-        "/service-areas/clayton-nc/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -24969,44 +22791,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/nashville-nc/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Nashville, NC | Go Green Restoration of NC",
-      "h1": "Air Duct & HVAC Cleaning in Nashville",
-      "meta_description": "24/7 air duct & hvac cleaning in Nashville, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "air duct & hvac cleaning nashville",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/nashville-nc/",
-        "/service-areas/nashville-nc/fire-damage-restoration/",
-        "/service-areas/nashville-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/air-duct-hvac-cleaning/",
-        "/service-areas/clayton-nc/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/nashville-nc/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -25091,44 +22875,6 @@
         "/service-areas/nashville-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/burst-pipe-repair/",
         "/service-areas/clayton-nc/burst-pipe-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/nashville-nc/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Nashville, NC | Go Green Restoration of NC",
-      "h1": "Carpet & Upholstery Cleaning in Nashville",
-      "meta_description": "24/7 carpet & upholstery cleaning in Nashville, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "carpet & upholstery cleaning nashville",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/nashville-nc/",
-        "/service-areas/nashville-nc/fire-damage-restoration/",
-        "/service-areas/nashville-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/carpet-upholstery-cleaning/",
-        "/service-areas/clayton-nc/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -25261,50 +23007,6 @@
         "/service-areas/nashville-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/emergency-plumbing/",
         "/service-areas/clayton-nc/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/nashville-nc/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Nashville, NC | Go Green Restoration of NC",
-      "h1": "24/7 Emergency Water Removal in Nashville",
-      "meta_description": "24/7 24/7 emergency water removal in Nashville, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "24/7 emergency water removal nashville",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/nashville-nc/",
-        "/service-areas/nashville-nc/fire-damage-restoration/",
-        "/service-areas/nashville-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/emergency-water-removal/",
-        "/service-areas/clayton-nc/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -26226,44 +23928,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/elm-city-nc/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Elm City, NC | Go Green Restoration of NC",
-      "h1": "Air Duct & HVAC Cleaning in Elm City",
-      "meta_description": "24/7 air duct & hvac cleaning in Elm City, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "air duct & hvac cleaning elm city",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/elm-city-nc/",
-        "/service-areas/elm-city-nc/fire-damage-restoration/",
-        "/service-areas/elm-city-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/air-duct-hvac-cleaning/",
-        "/service-areas/clayton-nc/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/elm-city-nc/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -26348,44 +24012,6 @@
         "/service-areas/elm-city-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/burst-pipe-repair/",
         "/service-areas/clayton-nc/burst-pipe-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/elm-city-nc/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Elm City, NC | Go Green Restoration of NC",
-      "h1": "Carpet & Upholstery Cleaning in Elm City",
-      "meta_description": "24/7 carpet & upholstery cleaning in Elm City, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "carpet & upholstery cleaning elm city",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/elm-city-nc/",
-        "/service-areas/elm-city-nc/fire-damage-restoration/",
-        "/service-areas/elm-city-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/carpet-upholstery-cleaning/",
-        "/service-areas/clayton-nc/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -26518,50 +24144,6 @@
         "/service-areas/elm-city-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/emergency-plumbing/",
         "/service-areas/clayton-nc/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/elm-city-nc/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Elm City, NC | Go Green Restoration of NC",
-      "h1": "24/7 Emergency Water Removal in Elm City",
-      "meta_description": "24/7 24/7 emergency water removal in Elm City, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "24/7 emergency water removal elm city",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/elm-city-nc/",
-        "/service-areas/elm-city-nc/fire-damage-restoration/",
-        "/service-areas/elm-city-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/emergency-water-removal/",
-        "/service-areas/clayton-nc/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -27483,44 +25065,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/pine-level-nc/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Pine Level, NC | Go Green Restoration of NC",
-      "h1": "Air Duct & HVAC Cleaning in Pine Level",
-      "meta_description": "24/7 air duct & hvac cleaning in Pine Level, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "air duct & hvac cleaning pine level",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/pine-level-nc/",
-        "/service-areas/pine-level-nc/fire-damage-restoration/",
-        "/service-areas/pine-level-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/air-duct-hvac-cleaning/",
-        "/service-areas/clayton-nc/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/pine-level-nc/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -27605,44 +25149,6 @@
         "/service-areas/pine-level-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/burst-pipe-repair/",
         "/service-areas/clayton-nc/burst-pipe-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/pine-level-nc/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Pine Level, NC | Go Green Restoration of NC",
-      "h1": "Carpet & Upholstery Cleaning in Pine Level",
-      "meta_description": "24/7 carpet & upholstery cleaning in Pine Level, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "carpet & upholstery cleaning pine level",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/pine-level-nc/",
-        "/service-areas/pine-level-nc/fire-damage-restoration/",
-        "/service-areas/pine-level-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/carpet-upholstery-cleaning/",
-        "/service-areas/clayton-nc/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -27775,50 +25281,6 @@
         "/service-areas/pine-level-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/emergency-plumbing/",
         "/service-areas/clayton-nc/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/pine-level-nc/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Pine Level, NC | Go Green Restoration of NC",
-      "h1": "24/7 Emergency Water Removal in Pine Level",
-      "meta_description": "24/7 24/7 emergency water removal in Pine Level, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "24/7 emergency water removal pine level",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/pine-level-nc/",
-        "/service-areas/pine-level-nc/fire-damage-restoration/",
-        "/service-areas/pine-level-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/emergency-water-removal/",
-        "/service-areas/clayton-nc/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -28740,44 +26202,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/louisburg-nc/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Louisburg, NC | Go Green Restoration of NC",
-      "h1": "Air Duct & HVAC Cleaning in Louisburg",
-      "meta_description": "24/7 air duct & hvac cleaning in Louisburg, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "air duct & hvac cleaning louisburg",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/louisburg-nc/",
-        "/service-areas/louisburg-nc/fire-damage-restoration/",
-        "/service-areas/louisburg-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/air-duct-hvac-cleaning/",
-        "/service-areas/clayton-nc/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/louisburg-nc/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -28862,44 +26286,6 @@
         "/service-areas/louisburg-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/burst-pipe-repair/",
         "/service-areas/clayton-nc/burst-pipe-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/louisburg-nc/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Louisburg, NC | Go Green Restoration of NC",
-      "h1": "Carpet & Upholstery Cleaning in Louisburg",
-      "meta_description": "24/7 carpet & upholstery cleaning in Louisburg, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "carpet & upholstery cleaning louisburg",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/louisburg-nc/",
-        "/service-areas/louisburg-nc/fire-damage-restoration/",
-        "/service-areas/louisburg-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/carpet-upholstery-cleaning/",
-        "/service-areas/clayton-nc/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -29032,50 +26418,6 @@
         "/service-areas/louisburg-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/emergency-plumbing/",
         "/service-areas/clayton-nc/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/louisburg-nc/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Louisburg, NC | Go Green Restoration of NC",
-      "h1": "24/7 Emergency Water Removal in Louisburg",
-      "meta_description": "24/7 24/7 emergency water removal in Louisburg, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "24/7 emergency water removal louisburg",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/louisburg-nc/",
-        "/service-areas/louisburg-nc/fire-damage-restoration/",
-        "/service-areas/louisburg-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/emergency-water-removal/",
-        "/service-areas/clayton-nc/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -29997,44 +27339,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/youngsville-nc/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Youngsville, NC | Go Green Restoration of NC",
-      "h1": "Air Duct & HVAC Cleaning in Youngsville",
-      "meta_description": "24/7 air duct & hvac cleaning in Youngsville, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "air duct & hvac cleaning youngsville",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/youngsville-nc/",
-        "/service-areas/youngsville-nc/fire-damage-restoration/",
-        "/service-areas/youngsville-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/air-duct-hvac-cleaning/",
-        "/service-areas/clayton-nc/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/youngsville-nc/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -30119,44 +27423,6 @@
         "/service-areas/youngsville-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/burst-pipe-repair/",
         "/service-areas/clayton-nc/burst-pipe-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/youngsville-nc/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Youngsville, NC | Go Green Restoration of NC",
-      "h1": "Carpet & Upholstery Cleaning in Youngsville",
-      "meta_description": "24/7 carpet & upholstery cleaning in Youngsville, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "carpet & upholstery cleaning youngsville",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/youngsville-nc/",
-        "/service-areas/youngsville-nc/fire-damage-restoration/",
-        "/service-areas/youngsville-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/carpet-upholstery-cleaning/",
-        "/service-areas/clayton-nc/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -30289,50 +27555,6 @@
         "/service-areas/youngsville-nc/mold-remediation/",
         "/service-areas/archer-lodge-nc/emergency-plumbing/",
         "/service-areas/clayton-nc/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/youngsville-nc/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Youngsville, NC | Go Green Restoration of NC",
-      "h1": "24/7 Emergency Water Removal in Youngsville",
-      "meta_description": "24/7 24/7 emergency water removal in Youngsville, NC. Insurance billing accepted. Call (919) 906-5473.",
-      "primary_keyword": "24/7 emergency water removal youngsville",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/youngsville-nc/",
-        "/service-areas/youngsville-nc/fire-damage-restoration/",
-        "/service-areas/youngsville-nc/mold-remediation/",
-        "/service-areas/archer-lodge-nc/emergency-water-removal/",
-        "/service-areas/clayton-nc/emergency-water-removal/",
         "/contact/"
       ]
     },

@@ -77,12 +77,9 @@
     "bathroom-remodeling",
     "garage-construction",
     "room-addition",
-    "24-7-emergency-water-cleanup",
     "basement-sewage-cleanup",
-    "bathroom-remodeler",
     "carpet-upholstery-cleaning",
     "carpet-water-extraction",
-    "general-contractor",
     "post-construction-specialty-cleaning"
   ],
   "service_areas": [
@@ -263,5 +260,18 @@
     }
   ],
   "template": "construction",
-  "blog_seed_count": 8
+  "blog_seed_count": 8,
+  "homepage_services": [
+    "home-remodeling",
+    "bathroom-remodeling",
+    "kitchen-remodeling",
+    "new-construction",
+    "general-contracting",
+    "room-addition"
+  ],
+  "merged_services": {
+    "24-7-emergency-water-cleanup": "water-damage-restoration",
+    "bathroom-remodeler": "bathroom-remodeling",
+    "general-contractor": "general-contracting"
+  }
 }

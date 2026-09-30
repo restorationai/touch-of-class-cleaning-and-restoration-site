@@ -108,16 +108,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/carpet-upholstery-cleaning/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/crawl-space-encapsulation/": {
     "archetype": "service-landing",
     "stubs": [
@@ -388,26 +378,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/water-heater-flood-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/emergency-water-removal/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/emergency-plumbing/": {
     "archetype": "service-landing",
     "stubs": [
@@ -657,16 +627,6 @@
     "missing_stubs": []
   },
   "/service-areas/lehi-ut/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lehi-ut/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -946,26 +906,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lehi-ut/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lehi-ut/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lehi-ut/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1017,16 +957,6 @@
     "missing_stubs": []
   },
   "/service-areas/eagle-mountain-ut/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/eagle-mountain-ut/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1306,26 +1236,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/eagle-mountain-ut/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/eagle-mountain-ut/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/eagle-mountain-ut/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1377,16 +1287,6 @@
     "missing_stubs": []
   },
   "/service-areas/american-fork-ut/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/american-fork-ut/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1666,26 +1566,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/american-fork-ut/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/american-fork-ut/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/american-fork-ut/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1737,16 +1617,6 @@
     "missing_stubs": []
   },
   "/service-areas/pleasant-grove-ut/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pleasant-grove-ut/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2026,26 +1896,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/pleasant-grove-ut/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pleasant-grove-ut/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/pleasant-grove-ut/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2097,16 +1947,6 @@
     "missing_stubs": []
   },
   "/service-areas/orem-ut/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/orem-ut/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2386,26 +2226,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/orem-ut/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/orem-ut/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/orem-ut/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2457,16 +2277,6 @@
     "missing_stubs": []
   },
   "/service-areas/provo-ut/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/provo-ut/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2746,26 +2556,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/provo-ut/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/provo-ut/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/provo-ut/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2817,16 +2607,6 @@
     "missing_stubs": []
   },
   "/service-areas/herriman-ut/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/herriman-ut/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3106,26 +2886,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/herriman-ut/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/herriman-ut/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/herriman-ut/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3177,16 +2937,6 @@
     "missing_stubs": []
   },
   "/service-areas/south-jordan-ut/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/south-jordan-ut/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3466,26 +3216,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/south-jordan-ut/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/south-jordan-ut/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/south-jordan-ut/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3537,16 +3267,6 @@
     "missing_stubs": []
   },
   "/service-areas/riverton-ut/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/riverton-ut/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3826,26 +3546,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/riverton-ut/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/riverton-ut/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/riverton-ut/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3897,16 +3597,6 @@
     "missing_stubs": []
   },
   "/service-areas/heber-city-ut/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/heber-city-ut/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4186,26 +3876,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/heber-city-ut/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/heber-city-ut/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/heber-city-ut/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4257,16 +3927,6 @@
     "missing_stubs": []
   },
   "/service-areas/park-city-ut/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/park-city-ut/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4546,26 +4206,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/park-city-ut/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/park-city-ut/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/park-city-ut/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4617,16 +4257,6 @@
     "missing_stubs": []
   },
   "/service-areas/vineyard-ut/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/vineyard-ut/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4906,26 +4536,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/vineyard-ut/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/vineyard-ut/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/vineyard-ut/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4977,16 +4587,6 @@
     "missing_stubs": []
   },
   "/service-areas/highland-ut/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/highland-ut/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5266,26 +4866,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/highland-ut/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/highland-ut/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/highland-ut/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5337,16 +4917,6 @@
     "missing_stubs": []
   },
   "/service-areas/lindon-ut/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lindon-ut/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5626,26 +5196,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lindon-ut/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lindon-ut/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lindon-ut/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5697,16 +5247,6 @@
     "missing_stubs": []
   },
   "/service-areas/fairfield-ut/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fairfield-ut/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5986,26 +5526,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fairfield-ut/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fairfield-ut/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fairfield-ut/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6057,16 +5577,6 @@
     "missing_stubs": []
   },
   "/service-areas/cedar-hills-ut/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/cedar-hills-ut/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6346,26 +5856,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/cedar-hills-ut/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/cedar-hills-ut/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/cedar-hills-ut/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6417,16 +5907,6 @@
     "missing_stubs": []
   },
   "/service-areas/cedar-fort-ut/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/cedar-fort-ut/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6706,26 +6186,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/cedar-fort-ut/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/cedar-fort-ut/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/cedar-fort-ut/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6777,16 +6237,6 @@
     "missing_stubs": []
   },
   "/service-areas/bluffdale-ut/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bluffdale-ut/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7066,26 +6516,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bluffdale-ut/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bluffdale-ut/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bluffdale-ut/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7137,16 +6567,6 @@
     "missing_stubs": []
   },
   "/service-areas/alpine-ut/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/alpine-ut/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7426,26 +6846,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/alpine-ut/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/alpine-ut/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/alpine-ut/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7497,16 +6897,6 @@
     "missing_stubs": []
   },
   "/service-areas/draper-ut/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/draper-ut/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7786,26 +7176,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/draper-ut/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/draper-ut/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/draper-ut/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7857,16 +7227,6 @@
     "missing_stubs": []
   },
   "/service-areas/lake-shore-ut/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lake-shore-ut/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8146,26 +7506,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lake-shore-ut/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lake-shore-ut/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lake-shore-ut/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8217,16 +7557,6 @@
     "missing_stubs": []
   },
   "/service-areas/benjamin-ut/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/benjamin-ut/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8497,26 +7827,6 @@
     "missing_stubs": []
   },
   "/service-areas/benjamin-ut/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/benjamin-ut/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/benjamin-ut/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

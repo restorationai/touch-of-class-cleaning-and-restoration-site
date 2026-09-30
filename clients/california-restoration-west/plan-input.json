@@ -32,7 +32,6 @@
   },
   "services": [
     "contents-restoration",
-    "contents-restoration-storage",
     "crawl-space-encapsulation",
     "mold-remediation",
     "odor-removal",
@@ -149,5 +148,15 @@
     }
   ],
   "template": "restoration",
-  "blog_seed_count": 8
+  "blog_seed_count": 8,
+  "homepage_services": [
+    "mold-remediation",
+    "water-damage-restoration",
+    "storm-damage-restoration",
+    "contents-restoration",
+    "crawl-space-encapsulation"
+  ],
+  "merged_services": {
+    "contents-restoration-storage": "contents-restoration"
+  }
 }

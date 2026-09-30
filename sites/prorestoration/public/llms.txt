@@ -73,7 +73,7 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Roofing Installation and Replacement](https://prorestorationca.com/services/roofing/)
 - [Sewage Cleanup and Sanitization](https://prorestorationca.com/services/sewage-cleanup/)
 - [Smoke Damage Restoration](https://prorestorationca.com/services/smoke-damage-restoration/)
-- [Soot Removal](https://prorestorationca.com/services/soot-removal/)
+- [Soot Removal](https://prorestorationca.com/services/smoke-damage-restoration/)
 - [Storm Damage Restoration](https://prorestorationca.com/services/storm-damage-restoration/)
 - [Emergency Water Cleanup](https://prorestorationca.com/services/water-cleanup/)
 - [Water Damage Restoration](https://prorestorationca.com/services/water-damage-restoration/)

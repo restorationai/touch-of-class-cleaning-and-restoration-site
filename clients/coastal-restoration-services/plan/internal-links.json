@@ -13,7 +13,6 @@
     "/services/biohazard-cleanup/",
     "/services/emergency-board-up-tarping/",
     "/services/odor-removal/",
-    "/services/contents-restoration-storage/",
     "/services/contents-restoration/",
     "/services/crawl-space-encapsulation/",
     "/services/vandalism-cleanup/",
@@ -60,7 +59,6 @@
     "/services/biohazard-cleanup/",
     "/services/emergency-board-up-tarping/",
     "/services/odor-removal/",
-    "/services/contents-restoration-storage/",
     "/services/contents-restoration/",
     "/services/crawl-space-encapsulation/",
     "/services/vandalism-cleanup/",
@@ -151,22 +149,6 @@
     "/service-areas/el-paso-de-robles-ca/contents-restoration/",
     "/service-areas/grover-beach-ca/contents-restoration/",
     "/service-areas/guadalupe-ca/contents-restoration/"
-  ],
-  "/services/contents-restoration-storage/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
-    "/service-areas/avila-beach-ca/contents-restoration-storage/",
-    "/service-areas/ballard-ca/contents-restoration-storage/",
-    "/service-areas/blacklake-ca/contents-restoration-storage/",
-    "/service-areas/buellton-ca/contents-restoration-storage/",
-    "/service-areas/callender-ca/contents-restoration-storage/",
-    "/service-areas/cambria-ca/contents-restoration-storage/",
-    "/service-areas/edna-ca/contents-restoration-storage/",
-    "/service-areas/el-paso-de-robles-ca/contents-restoration-storage/",
-    "/service-areas/grover-beach-ca/contents-restoration-storage/",
-    "/service-areas/guadalupe-ca/contents-restoration-storage/"
   ],
   "/services/crawl-space-encapsulation/": [
     "/services/",
@@ -366,7 +348,6 @@
     "/service-areas/vandenberg-village-ca/biohazard-cleanup/",
     "/service-areas/vandenberg-village-ca/emergency-board-up-tarping/",
     "/service-areas/vandenberg-village-ca/odor-removal/",
-    "/service-areas/vandenberg-village-ca/contents-restoration-storage/",
     "/service-areas/vandenberg-village-ca/contents-restoration/",
     "/service-areas/vandenberg-village-ca/crawl-space-encapsulation/",
     "/service-areas/vandenberg-village-ca/vandalism-cleanup/",
@@ -387,7 +368,6 @@
     "/service-areas/orcutt-ca/biohazard-cleanup/",
     "/service-areas/orcutt-ca/emergency-board-up-tarping/",
     "/service-areas/orcutt-ca/odor-removal/",
-    "/service-areas/orcutt-ca/contents-restoration-storage/",
     "/service-areas/orcutt-ca/contents-restoration/",
     "/service-areas/orcutt-ca/crawl-space-encapsulation/",
     "/service-areas/orcutt-ca/vandalism-cleanup/",
@@ -408,7 +388,6 @@
     "/service-areas/los-alamos-ca/biohazard-cleanup/",
     "/service-areas/los-alamos-ca/emergency-board-up-tarping/",
     "/service-areas/los-alamos-ca/odor-removal/",
-    "/service-areas/los-alamos-ca/contents-restoration-storage/",
     "/service-areas/los-alamos-ca/contents-restoration/",
     "/service-areas/los-alamos-ca/crawl-space-encapsulation/",
     "/service-areas/los-alamos-ca/vandalism-cleanup/",
@@ -429,7 +408,6 @@
     "/service-areas/lompoc-ca/biohazard-cleanup/",
     "/service-areas/lompoc-ca/emergency-board-up-tarping/",
     "/service-areas/lompoc-ca/odor-removal/",
-    "/service-areas/lompoc-ca/contents-restoration-storage/",
     "/service-areas/lompoc-ca/contents-restoration/",
     "/service-areas/lompoc-ca/crawl-space-encapsulation/",
     "/service-areas/lompoc-ca/vandalism-cleanup/",
@@ -450,7 +428,6 @@
     "/service-areas/los-olivos-ca/biohazard-cleanup/",
     "/service-areas/los-olivos-ca/emergency-board-up-tarping/",
     "/service-areas/los-olivos-ca/odor-removal/",
-    "/service-areas/los-olivos-ca/contents-restoration-storage/",
     "/service-areas/los-olivos-ca/contents-restoration/",
     "/service-areas/los-olivos-ca/crawl-space-encapsulation/",
     "/service-areas/los-olivos-ca/vandalism-cleanup/",
@@ -471,7 +448,6 @@
     "/service-areas/mission-hills-ca/biohazard-cleanup/",
     "/service-areas/mission-hills-ca/emergency-board-up-tarping/",
     "/service-areas/mission-hills-ca/odor-removal/",
-    "/service-areas/mission-hills-ca/contents-restoration-storage/",
     "/service-areas/mission-hills-ca/contents-restoration/",
     "/service-areas/mission-hills-ca/crawl-space-encapsulation/",
     "/service-areas/mission-hills-ca/vandalism-cleanup/",
@@ -492,7 +468,6 @@
     "/service-areas/santa-ynez-ca/biohazard-cleanup/",
     "/service-areas/santa-ynez-ca/emergency-board-up-tarping/",
     "/service-areas/santa-ynez-ca/odor-removal/",
-    "/service-areas/santa-ynez-ca/contents-restoration-storage/",
     "/service-areas/santa-ynez-ca/contents-restoration/",
     "/service-areas/santa-ynez-ca/crawl-space-encapsulation/",
     "/service-areas/santa-ynez-ca/vandalism-cleanup/",
@@ -513,7 +488,6 @@
     "/service-areas/solvang-ca/biohazard-cleanup/",
     "/service-areas/solvang-ca/emergency-board-up-tarping/",
     "/service-areas/solvang-ca/odor-removal/",
-    "/service-areas/solvang-ca/contents-restoration-storage/",
     "/service-areas/solvang-ca/contents-restoration/",
     "/service-areas/solvang-ca/crawl-space-encapsulation/",
     "/service-areas/solvang-ca/vandalism-cleanup/",
@@ -534,7 +508,6 @@
     "/service-areas/vandenberg-afb-ca/biohazard-cleanup/",
     "/service-areas/vandenberg-afb-ca/emergency-board-up-tarping/",
     "/service-areas/vandenberg-afb-ca/odor-removal/",
-    "/service-areas/vandenberg-afb-ca/contents-restoration-storage/",
     "/service-areas/vandenberg-afb-ca/contents-restoration/",
     "/service-areas/vandenberg-afb-ca/crawl-space-encapsulation/",
     "/service-areas/vandenberg-afb-ca/vandalism-cleanup/",
@@ -555,7 +528,6 @@
     "/service-areas/guadalupe-ca/biohazard-cleanup/",
     "/service-areas/guadalupe-ca/emergency-board-up-tarping/",
     "/service-areas/guadalupe-ca/odor-removal/",
-    "/service-areas/guadalupe-ca/contents-restoration-storage/",
     "/service-areas/guadalupe-ca/contents-restoration/",
     "/service-areas/guadalupe-ca/crawl-space-encapsulation/",
     "/service-areas/guadalupe-ca/vandalism-cleanup/",
@@ -576,7 +548,6 @@
     "/service-areas/buellton-ca/biohazard-cleanup/",
     "/service-areas/buellton-ca/emergency-board-up-tarping/",
     "/service-areas/buellton-ca/odor-removal/",
-    "/service-areas/buellton-ca/contents-restoration-storage/",
     "/service-areas/buellton-ca/contents-restoration/",
     "/service-areas/buellton-ca/crawl-space-encapsulation/",
     "/service-areas/buellton-ca/vandalism-cleanup/",
@@ -597,7 +568,6 @@
     "/service-areas/ballard-ca/biohazard-cleanup/",
     "/service-areas/ballard-ca/emergency-board-up-tarping/",
     "/service-areas/ballard-ca/odor-removal/",
-    "/service-areas/ballard-ca/contents-restoration-storage/",
     "/service-areas/ballard-ca/contents-restoration/",
     "/service-areas/ballard-ca/crawl-space-encapsulation/",
     "/service-areas/ballard-ca/vandalism-cleanup/",
@@ -618,7 +588,6 @@
     "/service-areas/arroyo-grande-ca/biohazard-cleanup/",
     "/service-areas/arroyo-grande-ca/emergency-board-up-tarping/",
     "/service-areas/arroyo-grande-ca/odor-removal/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
     "/service-areas/arroyo-grande-ca/contents-restoration/",
     "/service-areas/arroyo-grande-ca/crawl-space-encapsulation/",
     "/service-areas/arroyo-grande-ca/vandalism-cleanup/",
@@ -639,7 +608,6 @@
     "/service-areas/avila-beach-ca/biohazard-cleanup/",
     "/service-areas/avila-beach-ca/emergency-board-up-tarping/",
     "/service-areas/avila-beach-ca/odor-removal/",
-    "/service-areas/avila-beach-ca/contents-restoration-storage/",
     "/service-areas/avila-beach-ca/contents-restoration/",
     "/service-areas/avila-beach-ca/crawl-space-encapsulation/",
     "/service-areas/avila-beach-ca/vandalism-cleanup/",
@@ -660,7 +628,6 @@
     "/service-areas/cambria-ca/biohazard-cleanup/",
     "/service-areas/cambria-ca/emergency-board-up-tarping/",
     "/service-areas/cambria-ca/odor-removal/",
-    "/service-areas/cambria-ca/contents-restoration-storage/",
     "/service-areas/cambria-ca/contents-restoration/",
     "/service-areas/cambria-ca/crawl-space-encapsulation/",
     "/service-areas/cambria-ca/vandalism-cleanup/",
@@ -681,7 +648,6 @@
     "/service-areas/el-paso-de-robles-ca/biohazard-cleanup/",
     "/service-areas/el-paso-de-robles-ca/emergency-board-up-tarping/",
     "/service-areas/el-paso-de-robles-ca/odor-removal/",
-    "/service-areas/el-paso-de-robles-ca/contents-restoration-storage/",
     "/service-areas/el-paso-de-robles-ca/contents-restoration/",
     "/service-areas/el-paso-de-robles-ca/crawl-space-encapsulation/",
     "/service-areas/el-paso-de-robles-ca/vandalism-cleanup/",
@@ -702,7 +668,6 @@
     "/service-areas/grover-beach-ca/biohazard-cleanup/",
     "/service-areas/grover-beach-ca/emergency-board-up-tarping/",
     "/service-areas/grover-beach-ca/odor-removal/",
-    "/service-areas/grover-beach-ca/contents-restoration-storage/",
     "/service-areas/grover-beach-ca/contents-restoration/",
     "/service-areas/grover-beach-ca/crawl-space-encapsulation/",
     "/service-areas/grover-beach-ca/vandalism-cleanup/",
@@ -723,7 +688,6 @@
     "/service-areas/los-berros-ca/biohazard-cleanup/",
     "/service-areas/los-berros-ca/emergency-board-up-tarping/",
     "/service-areas/los-berros-ca/odor-removal/",
-    "/service-areas/los-berros-ca/contents-restoration-storage/",
     "/service-areas/los-berros-ca/contents-restoration/",
     "/service-areas/los-berros-ca/crawl-space-encapsulation/",
     "/service-areas/los-berros-ca/vandalism-cleanup/",
@@ -744,7 +708,6 @@
     "/service-areas/nipomo-ca/biohazard-cleanup/",
     "/service-areas/nipomo-ca/emergency-board-up-tarping/",
     "/service-areas/nipomo-ca/odor-removal/",
-    "/service-areas/nipomo-ca/contents-restoration-storage/",
     "/service-areas/nipomo-ca/contents-restoration/",
     "/service-areas/nipomo-ca/crawl-space-encapsulation/",
     "/service-areas/nipomo-ca/vandalism-cleanup/",
@@ -765,7 +728,6 @@
     "/service-areas/oceano-ca/biohazard-cleanup/",
     "/service-areas/oceano-ca/emergency-board-up-tarping/",
     "/service-areas/oceano-ca/odor-removal/",
-    "/service-areas/oceano-ca/contents-restoration-storage/",
     "/service-areas/oceano-ca/contents-restoration/",
     "/service-areas/oceano-ca/crawl-space-encapsulation/",
     "/service-areas/oceano-ca/vandalism-cleanup/",
@@ -786,7 +748,6 @@
     "/service-areas/san-luis-obispo-ca/biohazard-cleanup/",
     "/service-areas/san-luis-obispo-ca/emergency-board-up-tarping/",
     "/service-areas/san-luis-obispo-ca/odor-removal/",
-    "/service-areas/san-luis-obispo-ca/contents-restoration-storage/",
     "/service-areas/san-luis-obispo-ca/contents-restoration/",
     "/service-areas/san-luis-obispo-ca/crawl-space-encapsulation/",
     "/service-areas/san-luis-obispo-ca/vandalism-cleanup/",
@@ -807,7 +768,6 @@
     "/service-areas/templeton-ca/biohazard-cleanup/",
     "/service-areas/templeton-ca/emergency-board-up-tarping/",
     "/service-areas/templeton-ca/odor-removal/",
-    "/service-areas/templeton-ca/contents-restoration-storage/",
     "/service-areas/templeton-ca/contents-restoration/",
     "/service-areas/templeton-ca/crawl-space-encapsulation/",
     "/service-areas/templeton-ca/vandalism-cleanup/",
@@ -828,7 +788,6 @@
     "/service-areas/santa-margarita-ca/biohazard-cleanup/",
     "/service-areas/santa-margarita-ca/emergency-board-up-tarping/",
     "/service-areas/santa-margarita-ca/odor-removal/",
-    "/service-areas/santa-margarita-ca/contents-restoration-storage/",
     "/service-areas/santa-margarita-ca/contents-restoration/",
     "/service-areas/santa-margarita-ca/crawl-space-encapsulation/",
     "/service-areas/santa-margarita-ca/vandalism-cleanup/",
@@ -849,7 +808,6 @@
     "/service-areas/pismo-beach-ca/biohazard-cleanup/",
     "/service-areas/pismo-beach-ca/emergency-board-up-tarping/",
     "/service-areas/pismo-beach-ca/odor-removal/",
-    "/service-areas/pismo-beach-ca/contents-restoration-storage/",
     "/service-areas/pismo-beach-ca/contents-restoration/",
     "/service-areas/pismo-beach-ca/crawl-space-encapsulation/",
     "/service-areas/pismo-beach-ca/vandalism-cleanup/",
@@ -870,7 +828,6 @@
     "/service-areas/morro-bay-ca/biohazard-cleanup/",
     "/service-areas/morro-bay-ca/emergency-board-up-tarping/",
     "/service-areas/morro-bay-ca/odor-removal/",
-    "/service-areas/morro-bay-ca/contents-restoration-storage/",
     "/service-areas/morro-bay-ca/contents-restoration/",
     "/service-areas/morro-bay-ca/crawl-space-encapsulation/",
     "/service-areas/morro-bay-ca/vandalism-cleanup/",
@@ -891,7 +848,6 @@
     "/service-areas/los-osos-ca/biohazard-cleanup/",
     "/service-areas/los-osos-ca/emergency-board-up-tarping/",
     "/service-areas/los-osos-ca/odor-removal/",
-    "/service-areas/los-osos-ca/contents-restoration-storage/",
     "/service-areas/los-osos-ca/contents-restoration/",
     "/service-areas/los-osos-ca/crawl-space-encapsulation/",
     "/service-areas/los-osos-ca/vandalism-cleanup/",
@@ -912,7 +868,6 @@
     "/service-areas/edna-ca/biohazard-cleanup/",
     "/service-areas/edna-ca/emergency-board-up-tarping/",
     "/service-areas/edna-ca/odor-removal/",
-    "/service-areas/edna-ca/contents-restoration-storage/",
     "/service-areas/edna-ca/contents-restoration/",
     "/service-areas/edna-ca/crawl-space-encapsulation/",
     "/service-areas/edna-ca/vandalism-cleanup/",
@@ -933,7 +888,6 @@
     "/service-areas/callender-ca/biohazard-cleanup/",
     "/service-areas/callender-ca/emergency-board-up-tarping/",
     "/service-areas/callender-ca/odor-removal/",
-    "/service-areas/callender-ca/contents-restoration-storage/",
     "/service-areas/callender-ca/contents-restoration/",
     "/service-areas/callender-ca/crawl-space-encapsulation/",
     "/service-areas/callender-ca/vandalism-cleanup/",
@@ -954,7 +908,6 @@
     "/service-areas/blacklake-ca/biohazard-cleanup/",
     "/service-areas/blacklake-ca/emergency-board-up-tarping/",
     "/service-areas/blacklake-ca/odor-removal/",
-    "/service-areas/blacklake-ca/contents-restoration-storage/",
     "/service-areas/blacklake-ca/contents-restoration/",
     "/service-areas/blacklake-ca/crawl-space-encapsulation/",
     "/service-areas/blacklake-ca/vandalism-cleanup/",
@@ -975,7 +928,6 @@
     "/service-areas/atascadero-ca/biohazard-cleanup/",
     "/service-areas/atascadero-ca/emergency-board-up-tarping/",
     "/service-areas/atascadero-ca/odor-removal/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
     "/service-areas/atascadero-ca/contents-restoration/",
     "/service-areas/atascadero-ca/crawl-space-encapsulation/",
     "/service-areas/atascadero-ca/vandalism-cleanup/",
@@ -1000,15 +952,6 @@
     "/service-areas/vandenberg-village-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/contents-restoration/",
     "/service-areas/atascadero-ca/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/vandenberg-village-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/vandenberg-village-ca/",
-    "/service-areas/vandenberg-village-ca/fire-damage-restoration/",
-    "/service-areas/vandenberg-village-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/vandenberg-village-ca/crawl-space-encapsulation/": [
@@ -1128,15 +1071,6 @@
     "/service-areas/atascadero-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/orcutt-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/orcutt-ca/",
-    "/service-areas/orcutt-ca/fire-damage-restoration/",
-    "/service-areas/orcutt-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/orcutt-ca/crawl-space-encapsulation/": [
     "/services/crawl-space-encapsulation/",
     "/service-areas/orcutt-ca/",
@@ -1252,15 +1186,6 @@
     "/service-areas/los-alamos-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/contents-restoration/",
     "/service-areas/atascadero-ca/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/los-alamos-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/los-alamos-ca/",
-    "/service-areas/los-alamos-ca/fire-damage-restoration/",
-    "/service-areas/los-alamos-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/los-alamos-ca/crawl-space-encapsulation/": [
@@ -1380,15 +1305,6 @@
     "/service-areas/atascadero-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/lompoc-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/lompoc-ca/",
-    "/service-areas/lompoc-ca/fire-damage-restoration/",
-    "/service-areas/lompoc-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/lompoc-ca/crawl-space-encapsulation/": [
     "/services/crawl-space-encapsulation/",
     "/service-areas/lompoc-ca/",
@@ -1504,15 +1420,6 @@
     "/service-areas/los-olivos-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/contents-restoration/",
     "/service-areas/atascadero-ca/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/los-olivos-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/los-olivos-ca/",
-    "/service-areas/los-olivos-ca/fire-damage-restoration/",
-    "/service-areas/los-olivos-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/los-olivos-ca/crawl-space-encapsulation/": [
@@ -1632,15 +1539,6 @@
     "/service-areas/atascadero-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/mission-hills-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/mission-hills-ca/",
-    "/service-areas/mission-hills-ca/fire-damage-restoration/",
-    "/service-areas/mission-hills-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/mission-hills-ca/crawl-space-encapsulation/": [
     "/services/crawl-space-encapsulation/",
     "/service-areas/mission-hills-ca/",
@@ -1756,15 +1654,6 @@
     "/service-areas/santa-ynez-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/contents-restoration/",
     "/service-areas/atascadero-ca/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/santa-ynez-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/santa-ynez-ca/",
-    "/service-areas/santa-ynez-ca/fire-damage-restoration/",
-    "/service-areas/santa-ynez-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/santa-ynez-ca/crawl-space-encapsulation/": [
@@ -1884,15 +1773,6 @@
     "/service-areas/atascadero-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/solvang-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/solvang-ca/",
-    "/service-areas/solvang-ca/fire-damage-restoration/",
-    "/service-areas/solvang-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/solvang-ca/crawl-space-encapsulation/": [
     "/services/crawl-space-encapsulation/",
     "/service-areas/solvang-ca/",
@@ -2008,15 +1888,6 @@
     "/service-areas/vandenberg-afb-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/contents-restoration/",
     "/service-areas/atascadero-ca/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/vandenberg-afb-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/vandenberg-afb-ca/",
-    "/service-areas/vandenberg-afb-ca/fire-damage-restoration/",
-    "/service-areas/vandenberg-afb-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/vandenberg-afb-ca/crawl-space-encapsulation/": [
@@ -2136,15 +2007,6 @@
     "/service-areas/atascadero-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/guadalupe-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/guadalupe-ca/",
-    "/service-areas/guadalupe-ca/fire-damage-restoration/",
-    "/service-areas/guadalupe-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/guadalupe-ca/crawl-space-encapsulation/": [
     "/services/crawl-space-encapsulation/",
     "/service-areas/guadalupe-ca/",
@@ -2260,15 +2122,6 @@
     "/service-areas/buellton-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/contents-restoration/",
     "/service-areas/atascadero-ca/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/buellton-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/buellton-ca/",
-    "/service-areas/buellton-ca/fire-damage-restoration/",
-    "/service-areas/buellton-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/buellton-ca/crawl-space-encapsulation/": [
@@ -2388,15 +2241,6 @@
     "/service-areas/atascadero-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/ballard-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/ballard-ca/",
-    "/service-areas/ballard-ca/fire-damage-restoration/",
-    "/service-areas/ballard-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/ballard-ca/crawl-space-encapsulation/": [
     "/services/crawl-space-encapsulation/",
     "/service-areas/ballard-ca/",
@@ -2512,15 +2356,6 @@
     "/service-areas/arroyo-grande-ca/mold-remediation/",
     "/service-areas/atascadero-ca/contents-restoration/",
     "/service-areas/avila-beach-ca/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/arroyo-grande-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/arroyo-grande-ca/",
-    "/service-areas/arroyo-grande-ca/fire-damage-restoration/",
-    "/service-areas/arroyo-grande-ca/mold-remediation/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
-    "/service-areas/avila-beach-ca/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/arroyo-grande-ca/crawl-space-encapsulation/": [
@@ -2640,15 +2475,6 @@
     "/service-areas/atascadero-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/avila-beach-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/avila-beach-ca/",
-    "/service-areas/avila-beach-ca/fire-damage-restoration/",
-    "/service-areas/avila-beach-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/avila-beach-ca/crawl-space-encapsulation/": [
     "/services/crawl-space-encapsulation/",
     "/service-areas/avila-beach-ca/",
@@ -2764,15 +2590,6 @@
     "/service-areas/cambria-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/contents-restoration/",
     "/service-areas/atascadero-ca/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/cambria-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/cambria-ca/",
-    "/service-areas/cambria-ca/fire-damage-restoration/",
-    "/service-areas/cambria-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/cambria-ca/crawl-space-encapsulation/": [
@@ -2892,15 +2709,6 @@
     "/service-areas/atascadero-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/el-paso-de-robles-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/el-paso-de-robles-ca/",
-    "/service-areas/el-paso-de-robles-ca/fire-damage-restoration/",
-    "/service-areas/el-paso-de-robles-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/el-paso-de-robles-ca/crawl-space-encapsulation/": [
     "/services/crawl-space-encapsulation/",
     "/service-areas/el-paso-de-robles-ca/",
@@ -3016,15 +2824,6 @@
     "/service-areas/grover-beach-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/contents-restoration/",
     "/service-areas/atascadero-ca/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/grover-beach-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/grover-beach-ca/",
-    "/service-areas/grover-beach-ca/fire-damage-restoration/",
-    "/service-areas/grover-beach-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/grover-beach-ca/crawl-space-encapsulation/": [
@@ -3144,15 +2943,6 @@
     "/service-areas/atascadero-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/los-berros-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/los-berros-ca/",
-    "/service-areas/los-berros-ca/fire-damage-restoration/",
-    "/service-areas/los-berros-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/los-berros-ca/crawl-space-encapsulation/": [
     "/services/crawl-space-encapsulation/",
     "/service-areas/los-berros-ca/",
@@ -3268,15 +3058,6 @@
     "/service-areas/nipomo-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/contents-restoration/",
     "/service-areas/atascadero-ca/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/nipomo-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/nipomo-ca/",
-    "/service-areas/nipomo-ca/fire-damage-restoration/",
-    "/service-areas/nipomo-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/nipomo-ca/crawl-space-encapsulation/": [
@@ -3396,15 +3177,6 @@
     "/service-areas/atascadero-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/oceano-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/oceano-ca/",
-    "/service-areas/oceano-ca/fire-damage-restoration/",
-    "/service-areas/oceano-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/oceano-ca/crawl-space-encapsulation/": [
     "/services/crawl-space-encapsulation/",
     "/service-areas/oceano-ca/",
@@ -3520,15 +3292,6 @@
     "/service-areas/san-luis-obispo-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/contents-restoration/",
     "/service-areas/atascadero-ca/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/san-luis-obispo-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/san-luis-obispo-ca/",
-    "/service-areas/san-luis-obispo-ca/fire-damage-restoration/",
-    "/service-areas/san-luis-obispo-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/san-luis-obispo-ca/crawl-space-encapsulation/": [
@@ -3648,15 +3411,6 @@
     "/service-areas/atascadero-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/templeton-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/templeton-ca/",
-    "/service-areas/templeton-ca/fire-damage-restoration/",
-    "/service-areas/templeton-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/templeton-ca/crawl-space-encapsulation/": [
     "/services/crawl-space-encapsulation/",
     "/service-areas/templeton-ca/",
@@ -3772,15 +3526,6 @@
     "/service-areas/santa-margarita-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/contents-restoration/",
     "/service-areas/atascadero-ca/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/santa-margarita-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/santa-margarita-ca/",
-    "/service-areas/santa-margarita-ca/fire-damage-restoration/",
-    "/service-areas/santa-margarita-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/santa-margarita-ca/crawl-space-encapsulation/": [
@@ -3900,15 +3645,6 @@
     "/service-areas/atascadero-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/pismo-beach-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/pismo-beach-ca/",
-    "/service-areas/pismo-beach-ca/fire-damage-restoration/",
-    "/service-areas/pismo-beach-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/pismo-beach-ca/crawl-space-encapsulation/": [
     "/services/crawl-space-encapsulation/",
     "/service-areas/pismo-beach-ca/",
@@ -4024,15 +3760,6 @@
     "/service-areas/morro-bay-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/contents-restoration/",
     "/service-areas/atascadero-ca/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/morro-bay-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/morro-bay-ca/",
-    "/service-areas/morro-bay-ca/fire-damage-restoration/",
-    "/service-areas/morro-bay-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/morro-bay-ca/crawl-space-encapsulation/": [
@@ -4152,15 +3879,6 @@
     "/service-areas/atascadero-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/los-osos-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/los-osos-ca/",
-    "/service-areas/los-osos-ca/fire-damage-restoration/",
-    "/service-areas/los-osos-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/los-osos-ca/crawl-space-encapsulation/": [
     "/services/crawl-space-encapsulation/",
     "/service-areas/los-osos-ca/",
@@ -4276,15 +3994,6 @@
     "/service-areas/edna-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/contents-restoration/",
     "/service-areas/atascadero-ca/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/edna-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/edna-ca/",
-    "/service-areas/edna-ca/fire-damage-restoration/",
-    "/service-areas/edna-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/edna-ca/crawl-space-encapsulation/": [
@@ -4404,15 +4113,6 @@
     "/service-areas/atascadero-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/callender-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/callender-ca/",
-    "/service-areas/callender-ca/fire-damage-restoration/",
-    "/service-areas/callender-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/callender-ca/crawl-space-encapsulation/": [
     "/services/crawl-space-encapsulation/",
     "/service-areas/callender-ca/",
@@ -4530,15 +4230,6 @@
     "/service-areas/atascadero-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/blacklake-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/blacklake-ca/",
-    "/service-areas/blacklake-ca/fire-damage-restoration/",
-    "/service-areas/blacklake-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/blacklake-ca/crawl-space-encapsulation/": [
     "/services/crawl-space-encapsulation/",
     "/service-areas/blacklake-ca/",
@@ -4654,15 +4345,6 @@
     "/service-areas/atascadero-ca/mold-remediation/",
     "/service-areas/arroyo-grande-ca/contents-restoration/",
     "/service-areas/avila-beach-ca/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/atascadero-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/atascadero-ca/",
-    "/service-areas/atascadero-ca/fire-damage-restoration/",
-    "/service-areas/atascadero-ca/mold-remediation/",
-    "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-    "/service-areas/avila-beach-ca/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/atascadero-ca/crawl-space-encapsulation/": [

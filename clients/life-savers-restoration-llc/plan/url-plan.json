@@ -373,50 +373,6 @@
       ]
     },
     {
-      "url_path": "/services/contents-restoration-storage/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Henderson | Life Savers Restoration LLC",
-      "h1": "Contents Restoration & Storage in Henderson",
-      "meta_description": "24/7 contents restoration & storage in Henderson and surrounding areas. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
-      "primary_keyword": "contents restoration & storage henderson",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-        "/service-areas/boulder-city-nv/contents-restoration-storage/",
-        "/service-areas/cal-nev-ari-nv/contents-restoration-storage/",
-        "/service-areas/enterprise-nv/contents-restoration-storage/",
-        "/service-areas/goodsprings-nv/contents-restoration-storage/",
-        "/service-areas/indian-springs-nv/contents-restoration-storage/",
-        "/service-areas/las-vegas-nv/contents-restoration-storage/",
-        "/service-areas/laughlin-nv/contents-restoration-storage/",
-        "/service-areas/nellis-afb-nv/contents-restoration-storage/",
-        "/service-areas/nelson-nv/contents-restoration-storage/",
-        "/service-areas/north-las-vegas-nv/contents-restoration-storage/",
-        "/service-areas/paradise-nv/contents-restoration-storage/"
-      ]
-    },
-    {
       "url_path": "/services/fire-damage-restoration/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -1759,44 +1715,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/las-vegas-nv/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Las Vegas, NV | Life Savers Restoration LLC",
-      "h1": "Contents Restoration & Storage in Las Vegas",
-      "meta_description": "24/7 contents restoration & storage in Las Vegas, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
-      "primary_keyword": "contents restoration & storage las vegas",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/las-vegas-nv/",
-        "/service-areas/las-vegas-nv/fire-damage-restoration/",
-        "/service-areas/las-vegas-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-        "/service-areas/boulder-city-nv/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/las-vegas-nv/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2190,44 +2108,6 @@
         "/service-areas/north-las-vegas-nv/mold-remediation/",
         "/service-areas/blue-diamond-nv/contents-restoration/",
         "/service-areas/boulder-city-nv/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/north-las-vegas-nv/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in North Las Vegas, NV | Life Savers Restoration LLC",
-      "h1": "Contents Restoration & Storage in North Las Vegas",
-      "meta_description": "24/7 contents restoration & storage in North Las Vegas, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
-      "primary_keyword": "contents restoration & storage north las vegas",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/north-las-vegas-nv/",
-        "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
-        "/service-areas/north-las-vegas-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-        "/service-areas/boulder-city-nv/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -2629,44 +2509,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/paradise-nv/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Paradise, NV | Life Savers Restoration LLC",
-      "h1": "Contents Restoration & Storage in Paradise",
-      "meta_description": "24/7 contents restoration & storage in Paradise, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
-      "primary_keyword": "contents restoration & storage paradise",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/paradise-nv/",
-        "/service-areas/paradise-nv/fire-damage-restoration/",
-        "/service-areas/paradise-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-        "/service-areas/boulder-city-nv/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/paradise-nv/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3060,44 +2902,6 @@
         "/service-areas/spring-valley-nv/mold-remediation/",
         "/service-areas/blue-diamond-nv/contents-restoration/",
         "/service-areas/boulder-city-nv/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/spring-valley-nv/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Spring Valley, NV | Life Savers Restoration LLC",
-      "h1": "Contents Restoration & Storage in Spring Valley",
-      "meta_description": "24/7 contents restoration & storage in Spring Valley, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
-      "primary_keyword": "contents restoration & storage spring valley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/spring-valley-nv/",
-        "/service-areas/spring-valley-nv/fire-damage-restoration/",
-        "/service-areas/spring-valley-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-        "/service-areas/boulder-city-nv/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -3499,44 +3303,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/enterprise-nv/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Enterprise, NV | Life Savers Restoration LLC",
-      "h1": "Contents Restoration & Storage in Enterprise",
-      "meta_description": "24/7 contents restoration & storage in Enterprise, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
-      "primary_keyword": "contents restoration & storage enterprise",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/enterprise-nv/",
-        "/service-areas/enterprise-nv/fire-damage-restoration/",
-        "/service-areas/enterprise-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-        "/service-areas/boulder-city-nv/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/enterprise-nv/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3930,44 +3696,6 @@
         "/service-areas/sunrise-manor-nv/mold-remediation/",
         "/service-areas/blue-diamond-nv/contents-restoration/",
         "/service-areas/boulder-city-nv/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sunrise-manor-nv/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Sunrise Manor, NV | Life Savers Restoration LLC",
-      "h1": "Contents Restoration & Storage in Sunrise Manor",
-      "meta_description": "24/7 contents restoration & storage in Sunrise Manor, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
-      "primary_keyword": "contents restoration & storage sunrise manor",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/sunrise-manor-nv/",
-        "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
-        "/service-areas/sunrise-manor-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-        "/service-areas/boulder-city-nv/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -4369,44 +4097,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/boulder-city-nv/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Boulder City, NV | Life Savers Restoration LLC",
-      "h1": "Contents Restoration & Storage in Boulder City",
-      "meta_description": "24/7 contents restoration & storage in Boulder City, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
-      "primary_keyword": "contents restoration & storage boulder city",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/boulder-city-nv/",
-        "/service-areas/boulder-city-nv/fire-damage-restoration/",
-        "/service-areas/boulder-city-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-        "/service-areas/cal-nev-ari-nv/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/boulder-city-nv/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4800,44 +4490,6 @@
         "/service-areas/whitney-nv/mold-remediation/",
         "/service-areas/blue-diamond-nv/contents-restoration/",
         "/service-areas/boulder-city-nv/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/whitney-nv/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Whitney, NV | Life Savers Restoration LLC",
-      "h1": "Contents Restoration & Storage in Whitney",
-      "meta_description": "24/7 contents restoration & storage in Whitney, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
-      "primary_keyword": "contents restoration & storage whitney",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/whitney-nv/",
-        "/service-areas/whitney-nv/fire-damage-restoration/",
-        "/service-areas/whitney-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-        "/service-areas/boulder-city-nv/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -5239,44 +4891,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/winchester-nv/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Winchester, NV | Life Savers Restoration LLC",
-      "h1": "Contents Restoration & Storage in Winchester",
-      "meta_description": "24/7 contents restoration & storage in Winchester, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
-      "primary_keyword": "contents restoration & storage winchester",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/winchester-nv/",
-        "/service-areas/winchester-nv/fire-damage-restoration/",
-        "/service-areas/winchester-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-        "/service-areas/boulder-city-nv/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/winchester-nv/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5670,44 +5284,6 @@
         "/service-areas/nellis-afb-nv/mold-remediation/",
         "/service-areas/blue-diamond-nv/contents-restoration/",
         "/service-areas/boulder-city-nv/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/nellis-afb-nv/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Nellis AFB, NV | Life Savers Restoration LLC",
-      "h1": "Contents Restoration & Storage in Nellis AFB",
-      "meta_description": "24/7 contents restoration & storage in Nellis AFB, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
-      "primary_keyword": "contents restoration & storage nellis afb",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/nellis-afb-nv/",
-        "/service-areas/nellis-afb-nv/fire-damage-restoration/",
-        "/service-areas/nellis-afb-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-        "/service-areas/boulder-city-nv/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -6109,44 +5685,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/summerlin-south-nv/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Summerlin South, NV | Life Savers Restoration LLC",
-      "h1": "Contents Restoration & Storage in Summerlin South",
-      "meta_description": "24/7 contents restoration & storage in Summerlin South, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
-      "primary_keyword": "contents restoration & storage summerlin south",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/summerlin-south-nv/",
-        "/service-areas/summerlin-south-nv/fire-damage-restoration/",
-        "/service-areas/summerlin-south-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-        "/service-areas/boulder-city-nv/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/summerlin-south-nv/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6540,44 +6078,6 @@
         "/service-areas/blue-diamond-nv/mold-remediation/",
         "/service-areas/boulder-city-nv/contents-restoration/",
         "/service-areas/cal-nev-ari-nv/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Blue Diamond, NV | Life Savers Restoration LLC",
-      "h1": "Contents Restoration & Storage in Blue Diamond",
-      "meta_description": "24/7 contents restoration & storage in Blue Diamond, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
-      "primary_keyword": "contents restoration & storage blue diamond",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/blue-diamond-nv/",
-        "/service-areas/blue-diamond-nv/fire-damage-restoration/",
-        "/service-areas/blue-diamond-nv/mold-remediation/",
-        "/service-areas/boulder-city-nv/contents-restoration-storage/",
-        "/service-areas/cal-nev-ari-nv/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -6979,44 +6479,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/nelson-nv/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Nelson, NV | Life Savers Restoration LLC",
-      "h1": "Contents Restoration & Storage in Nelson",
-      "meta_description": "24/7 contents restoration & storage in Nelson, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
-      "primary_keyword": "contents restoration & storage nelson",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/nelson-nv/",
-        "/service-areas/nelson-nv/fire-damage-restoration/",
-        "/service-areas/nelson-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-        "/service-areas/boulder-city-nv/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/nelson-nv/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7410,44 +6872,6 @@
         "/service-areas/goodsprings-nv/mold-remediation/",
         "/service-areas/blue-diamond-nv/contents-restoration/",
         "/service-areas/boulder-city-nv/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/goodsprings-nv/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Goodsprings, NV | Life Savers Restoration LLC",
-      "h1": "Contents Restoration & Storage in Goodsprings",
-      "meta_description": "24/7 contents restoration & storage in Goodsprings, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
-      "primary_keyword": "contents restoration & storage goodsprings",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/goodsprings-nv/",
-        "/service-areas/goodsprings-nv/fire-damage-restoration/",
-        "/service-areas/goodsprings-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-        "/service-areas/boulder-city-nv/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -7849,44 +7273,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/sandy-valley-nv/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Sandy Valley, NV | Life Savers Restoration LLC",
-      "h1": "Contents Restoration & Storage in Sandy Valley",
-      "meta_description": "24/7 contents restoration & storage in Sandy Valley, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
-      "primary_keyword": "contents restoration & storage sandy valley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/sandy-valley-nv/",
-        "/service-areas/sandy-valley-nv/fire-damage-restoration/",
-        "/service-areas/sandy-valley-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-        "/service-areas/boulder-city-nv/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/sandy-valley-nv/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8280,44 +7666,6 @@
         "/service-areas/searchlight-nv/mold-remediation/",
         "/service-areas/blue-diamond-nv/contents-restoration/",
         "/service-areas/boulder-city-nv/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/searchlight-nv/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Searchlight, NV | Life Savers Restoration LLC",
-      "h1": "Contents Restoration & Storage in Searchlight",
-      "meta_description": "24/7 contents restoration & storage in Searchlight, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
-      "primary_keyword": "contents restoration & storage searchlight",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/searchlight-nv/",
-        "/service-areas/searchlight-nv/fire-damage-restoration/",
-        "/service-areas/searchlight-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-        "/service-areas/boulder-city-nv/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -8719,44 +8067,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/cal-nev-ari-nv/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Cal-Nev-Ari, NV | Life Savers Restoration LLC",
-      "h1": "Contents Restoration & Storage in Cal-Nev-Ari",
-      "meta_description": "24/7 contents restoration & storage in Cal-Nev-Ari, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
-      "primary_keyword": "contents restoration & storage cal-nev-ari",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/cal-nev-ari-nv/",
-        "/service-areas/cal-nev-ari-nv/fire-damage-restoration/",
-        "/service-areas/cal-nev-ari-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-        "/service-areas/boulder-city-nv/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/cal-nev-ari-nv/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9154,44 +8464,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/indian-springs-nv/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Indian Springs, NV | Life Savers Restoration LLC",
-      "h1": "Contents Restoration & Storage in Indian Springs",
-      "meta_description": "24/7 contents restoration & storage in Indian Springs, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
-      "primary_keyword": "contents restoration & storage indian springs",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/indian-springs-nv/",
-        "/service-areas/indian-springs-nv/fire-damage-restoration/",
-        "/service-areas/indian-springs-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-        "/service-areas/boulder-city-nv/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/indian-springs-nv/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9585,44 +8857,6 @@
         "/service-areas/laughlin-nv/mold-remediation/",
         "/service-areas/blue-diamond-nv/contents-restoration/",
         "/service-areas/boulder-city-nv/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/laughlin-nv/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Laughlin, NV | Life Savers Restoration LLC",
-      "h1": "Contents Restoration & Storage in Laughlin",
-      "meta_description": "24/7 contents restoration & storage in Laughlin, NV. IICRC-certified, insurance billing accepted. Call (702) 845-1325.",
-      "primary_keyword": "contents restoration & storage laughlin",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/laughlin-nv/",
-        "/service-areas/laughlin-nv/fire-damage-restoration/",
-        "/service-areas/laughlin-nv/mold-remediation/",
-        "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-        "/service-areas/boulder-city-nv/contents-restoration-storage/",
         "/contact/"
       ]
     },

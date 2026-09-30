@@ -68,16 +68,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/air-duct-hvac-cleaning/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/asbestos-abatement/": {
     "archetype": "service-landing",
     "stubs": [
@@ -99,16 +89,6 @@
     "missing_stubs": []
   },
   "/services/carpet-cleaning/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/carpet-upholstery-cleaning/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -514,16 +494,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/penn-hills-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/penn-hills-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -545,16 +515,6 @@
     "missing_stubs": []
   },
   "/service-areas/penn-hills-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/penn-hills-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -654,16 +614,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/mccandless-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/mccandless-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -685,16 +635,6 @@
     "missing_stubs": []
   },
   "/service-areas/mccandless-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/mccandless-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -794,16 +734,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bethel-park-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bethel-park-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -825,16 +755,6 @@
     "missing_stubs": []
   },
   "/service-areas/bethel-park-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bethel-park-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -934,16 +854,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/mount-lebanon-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/mount-lebanon-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -965,16 +875,6 @@
     "missing_stubs": []
   },
   "/service-areas/mount-lebanon-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/mount-lebanon-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1074,16 +974,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ross-township-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ross-township-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1105,16 +995,6 @@
     "missing_stubs": []
   },
   "/service-areas/ross-township-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ross-township-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1214,16 +1094,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/monroeville-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/monroeville-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1245,16 +1115,6 @@
     "missing_stubs": []
   },
   "/service-areas/monroeville-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/monroeville-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1354,16 +1214,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/shaler-township-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/shaler-township-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1385,16 +1235,6 @@
     "missing_stubs": []
   },
   "/service-areas/shaler-township-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/shaler-township-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1494,16 +1334,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/plum-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/plum-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1525,16 +1355,6 @@
     "missing_stubs": []
   },
   "/service-areas/plum-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/plum-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1634,16 +1454,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/west-mifflin-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/west-mifflin-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1665,16 +1475,6 @@
     "missing_stubs": []
   },
   "/service-areas/west-mifflin-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/west-mifflin-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1774,16 +1574,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/mckeesport-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/mckeesport-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1805,16 +1595,6 @@
     "missing_stubs": []
   },
   "/service-areas/mckeesport-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/mckeesport-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1914,16 +1694,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/baldwin-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/baldwin-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1945,16 +1715,6 @@
     "missing_stubs": []
   },
   "/service-areas/baldwin-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/baldwin-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2054,16 +1814,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/greensburg-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/greensburg-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2085,16 +1835,6 @@
     "missing_stubs": []
   },
   "/service-areas/greensburg-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/greensburg-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2194,16 +1934,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hempfield-township-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hempfield-township-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2225,16 +1955,6 @@
     "missing_stubs": []
   },
   "/service-areas/hempfield-township-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hempfield-township-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2334,16 +2054,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/north-huntingdon-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/north-huntingdon-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2365,16 +2075,6 @@
     "missing_stubs": []
   },
   "/service-areas/north-huntingdon-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/north-huntingdon-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2474,16 +2174,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/new-kensington-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/new-kensington-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2505,16 +2195,6 @@
     "missing_stubs": []
   },
   "/service-areas/new-kensington-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-kensington-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2614,16 +2294,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/murrysville-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/murrysville-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2645,16 +2315,6 @@
     "missing_stubs": []
   },
   "/service-areas/murrysville-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/murrysville-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2754,16 +2414,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/latrobe-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/latrobe-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2785,16 +2435,6 @@
     "missing_stubs": []
   },
   "/service-areas/latrobe-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/latrobe-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2894,16 +2534,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lower-burrell-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lower-burrell-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2925,16 +2555,6 @@
     "missing_stubs": []
   },
   "/service-areas/lower-burrell-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lower-burrell-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3034,16 +2654,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/jeannette-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/jeannette-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3065,16 +2675,6 @@
     "missing_stubs": []
   },
   "/service-areas/jeannette-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/jeannette-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3174,16 +2774,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/green-tree-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/green-tree-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3205,16 +2795,6 @@
     "missing_stubs": []
   },
   "/service-areas/green-tree-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/green-tree-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3314,16 +2894,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/carnegie-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/carnegie-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3345,16 +2915,6 @@
     "missing_stubs": []
   },
   "/service-areas/carnegie-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/carnegie-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3454,16 +3014,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/castle-shannon-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/castle-shannon-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3485,16 +3035,6 @@
     "missing_stubs": []
   },
   "/service-areas/castle-shannon-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/castle-shannon-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3594,16 +3134,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/whitehall-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/whitehall-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3625,16 +3155,6 @@
     "missing_stubs": []
   },
   "/service-areas/whitehall-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/whitehall-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3734,16 +3254,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/munhall-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/munhall-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3765,16 +3275,6 @@
     "missing_stubs": []
   },
   "/service-areas/munhall-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/munhall-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3874,16 +3374,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/glenshaw-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/glenshaw-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3905,16 +3395,6 @@
     "missing_stubs": []
   },
   "/service-areas/glenshaw-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/glenshaw-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4014,16 +3494,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/pleasant-hills-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/pleasant-hills-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4045,16 +3515,6 @@
     "missing_stubs": []
   },
   "/service-areas/pleasant-hills-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pleasant-hills-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4154,16 +3614,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/wilkinsburg-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/wilkinsburg-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4185,16 +3635,6 @@
     "missing_stubs": []
   },
   "/service-areas/wilkinsburg-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wilkinsburg-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4294,16 +3734,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/forest-hills-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/forest-hills-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4325,16 +3755,6 @@
     "missing_stubs": []
   },
   "/service-areas/forest-hills-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/forest-hills-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4434,16 +3854,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/allison-park-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/allison-park-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4465,16 +3875,6 @@
     "missing_stubs": []
   },
   "/service-areas/allison-park-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/allison-park-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4574,16 +3974,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fox-chapel-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fox-chapel-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4605,16 +3995,6 @@
     "missing_stubs": []
   },
   "/service-areas/fox-chapel-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fox-chapel-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4714,16 +4094,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/churchill-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/churchill-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4745,16 +4115,6 @@
     "missing_stubs": []
   },
   "/service-areas/churchill-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/churchill-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4854,16 +4214,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/duquesne-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/duquesne-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4885,16 +4235,6 @@
     "missing_stubs": []
   },
   "/service-areas/duquesne-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/duquesne-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4994,16 +4334,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/jefferson-hills-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/jefferson-hills-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5025,16 +4355,6 @@
     "missing_stubs": []
   },
   "/service-areas/jefferson-hills-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/jefferson-hills-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5134,16 +4454,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sewickley-hills-pa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sewickley-hills-pa/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5165,16 +4475,6 @@
     "missing_stubs": []
   },
   "/service-areas/sewickley-hills-pa/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sewickley-hills-pa/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

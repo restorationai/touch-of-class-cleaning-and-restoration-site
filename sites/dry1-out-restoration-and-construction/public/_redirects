@@ -39,3 +39,38 @@
 /coming-soon/ / 301
 /thank-you / 301
 /thank-you/ / 301
+# duplicate service merge 2026-09-30: /services/emergency-water-removal/ folded into /services/water-damage-restoration/ (scripts/service_merge.py)
+/services/emergency-water-removal /services/water-damage-restoration/ 301
+/services/emergency-water-removal/ /services/water-damage-restoration/ 301
+/service-areas/:city/emergency-water-removal /service-areas/:city/water-damage-restoration/ 301
+/service-areas/:city/emergency-water-removal/ /service-areas/:city/water-damage-restoration/ 301
+# duplicate service merge 2026-09-30: /services/24-7-emergency-water-damage-restoration/ folded into /services/water-damage-restoration/ (scripts/service_merge.py)
+/services/24-7-emergency-water-damage-restoration /services/water-damage-restoration/ 301
+/services/24-7-emergency-water-damage-restoration/ /services/water-damage-restoration/ 301
+/service-areas/:city/24-7-emergency-water-damage-restoration /service-areas/:city/water-damage-restoration/ 301
+/service-areas/:city/24-7-emergency-water-damage-restoration/ /service-areas/:city/water-damage-restoration/ 301
+# duplicate service merge 2026-09-30: /services/basement-sewage-cleanup/ folded into /services/sewage-cleanup/ (scripts/service_merge.py)
+/services/basement-sewage-cleanup /services/sewage-cleanup/ 301
+/services/basement-sewage-cleanup/ /services/sewage-cleanup/ 301
+/service-areas/:city/basement-sewage-cleanup /service-areas/:city/sewage-cleanup/ 301
+/service-areas/:city/basement-sewage-cleanup/ /service-areas/:city/sewage-cleanup/ 301
+# duplicate service merge 2026-09-30: /services/category-3-water-cleanup/ folded into /services/sewage-cleanup/ (scripts/service_merge.py)
+/services/category-3-water-cleanup /services/sewage-cleanup/ 301
+/services/category-3-water-cleanup/ /services/sewage-cleanup/ 301
+/service-areas/:city/category-3-water-cleanup /service-areas/:city/sewage-cleanup/ 301
+/service-areas/:city/category-3-water-cleanup/ /service-areas/:city/sewage-cleanup/ 301
+# duplicate service merge 2026-09-30: /services/burst-pipe-water-damage-cleanup/ folded into /services/burst-pipe-repair/ (scripts/service_merge.py)
+/services/burst-pipe-water-damage-cleanup /services/burst-pipe-repair/ 301
+/services/burst-pipe-water-damage-cleanup/ /services/burst-pipe-repair/ 301
+/service-areas/:city/burst-pipe-water-damage-cleanup /service-areas/:city/burst-pipe-repair/ 301
+/service-areas/:city/burst-pipe-water-damage-cleanup/ /service-areas/:city/burst-pipe-repair/ 301
+# duplicate service merge 2026-09-30: /services/emergency-board-ups/ folded into /services/emergency-board-up/ (scripts/service_merge.py)
+/services/emergency-board-ups /services/emergency-board-up/ 301
+/services/emergency-board-ups/ /services/emergency-board-up/ 301
+/service-areas/:city/emergency-board-ups /service-areas/:city/emergency-board-up/ 301
+/service-areas/:city/emergency-board-ups/ /service-areas/:city/emergency-board-up/ 301
+# duplicate service merge 2026-09-30: /services/water-heater-flood-cleanup/ folded into /services/appliance-leak-cleanup/ (scripts/service_merge.py)
+/services/water-heater-flood-cleanup /services/appliance-leak-cleanup/ 301
+/services/water-heater-flood-cleanup/ /services/appliance-leak-cleanup/ 301
+/service-areas/:city/water-heater-flood-cleanup /service-areas/:city/appliance-leak-cleanup/ 301
+/service-areas/:city/water-heater-flood-cleanup/ /service-areas/:city/appliance-leak-cleanup/ 301

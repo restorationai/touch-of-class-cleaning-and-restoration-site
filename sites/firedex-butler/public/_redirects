@@ -80,3 +80,8 @@
 /service-areas/cranberry-township-pa/storm-damage-restoration/ /services/storm-damage-restoration/ 301
 /service-areas/cranberry-township-pa/water-damage-restoration /services/water-damage-restoration/ 301
 /service-areas/cranberry-township-pa/water-damage-restoration/ /services/water-damage-restoration/ 301
+# duplicate service merge 2026-09-30: /services/soot-removal/ folded into /services/smoke-damage-restoration/ (scripts/service_merge.py)
+/services/soot-removal /services/smoke-damage-restoration/ 301
+/services/soot-removal/ /services/smoke-damage-restoration/ 301
+/service-areas/:city/soot-removal /service-areas/:city/smoke-damage-restoration/ 301
+/service-areas/:city/soot-removal/ /service-areas/:city/smoke-damage-restoration/ 301

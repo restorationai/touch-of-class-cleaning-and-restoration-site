@@ -21,13 +21,10 @@
   },
   "services": [
     "air-duct-cleaning",
-    "air-duct-hvac-cleaning",
     "asbestos-abatement",
     "biohazard-cleanup",
     "carpet-cleaning",
-    "carpet-upholstery-cleaning",
     "contents-restoration",
-    "contents-restoration-storage",
     "crawl-space-encapsulation",
     "emergency-board-up-tarping",
     "emergency-plumbing",
@@ -39,7 +36,6 @@
     "roofing",
     "sewage-cleanup",
     "storm-damage-restoration",
-    "vandalism-cleanup",
     "water-damage-restoration",
     "water-leak-detection"
   ],
@@ -188,5 +184,20 @@
       "slug": "maynard-ma"
     }
   ],
-  "service_radius_description": "Southern New England, with crews responding across a 50 mile radius of Auburn"
+  "service_radius_description": "Southern New England, with crews responding across a 50 mile radius of Auburn",
+  "homepage_services": [
+    "fire-damage-restoration",
+    "mold-remediation",
+    "water-damage-restoration",
+    "sewage-cleanup",
+    "storm-damage-restoration",
+    "biohazard-cleanup"
+  ],
+  "merged_services": {
+    "air-duct-hvac-cleaning": "air-duct-cleaning",
+    "carpet-upholstery-cleaning": "carpet-cleaning",
+    "contents-restoration-storage": "contents-restoration",
+    "emergency-water-removal": "water-damage-restoration",
+    "vandalism-cleanup": "vandalism-graffiti-removal"
+  }
 }

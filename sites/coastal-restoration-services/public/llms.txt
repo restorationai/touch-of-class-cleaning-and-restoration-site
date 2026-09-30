@@ -53,7 +53,7 @@ This file is intended for AI assistants and language models to efficiently inges
 ### Core service pages
 - [Biohazard Cleanup](https://callcrs.com/services/biohazard-cleanup/)
 - [Contents Restoration and Storage](https://callcrs.com/services/contents-restoration/)
-- [Contents Restoration & Storage](https://callcrs.com/services/contents-restoration-storage/)
+- [Contents Restoration & Storage](https://callcrs.com/services/contents-restoration/)
 - [Crawl Space Encapsulation](https://callcrs.com/services/crawl-space-encapsulation/)
 - [Emergency Board-Up and Tarping](https://callcrs.com/services/emergency-board-up-tarping/)
 - [Fire Damage Restoration](https://callcrs.com/services/fire-damage-restoration/)

@@ -78,16 +78,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/contents-restoration-storage/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/fire-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
@@ -349,16 +339,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/las-vegas-nv/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/las-vegas-nv/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -440,16 +420,6 @@
     "missing_stubs": []
   },
   "/service-areas/north-las-vegas-nv/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/north-las-vegas-nv/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -549,16 +519,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/paradise-nv/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/paradise-nv/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -640,16 +600,6 @@
     "missing_stubs": []
   },
   "/service-areas/spring-valley-nv/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/spring-valley-nv/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -749,16 +699,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/enterprise-nv/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/enterprise-nv/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -840,16 +780,6 @@
     "missing_stubs": []
   },
   "/service-areas/sunrise-manor-nv/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sunrise-manor-nv/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -949,16 +879,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/boulder-city-nv/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/boulder-city-nv/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1040,16 +960,6 @@
     "missing_stubs": []
   },
   "/service-areas/whitney-nv/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/whitney-nv/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1149,16 +1059,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/winchester-nv/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/winchester-nv/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1240,16 +1140,6 @@
     "missing_stubs": []
   },
   "/service-areas/nellis-afb-nv/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/nellis-afb-nv/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1349,16 +1239,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/summerlin-south-nv/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/summerlin-south-nv/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1440,16 +1320,6 @@
     "missing_stubs": []
   },
   "/service-areas/blue-diamond-nv/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/blue-diamond-nv/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1549,16 +1419,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/nelson-nv/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/nelson-nv/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1640,16 +1500,6 @@
     "missing_stubs": []
   },
   "/service-areas/goodsprings-nv/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/goodsprings-nv/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1749,16 +1599,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sandy-valley-nv/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sandy-valley-nv/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1840,16 +1680,6 @@
     "missing_stubs": []
   },
   "/service-areas/searchlight-nv/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/searchlight-nv/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1949,16 +1779,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/cal-nev-ari-nv/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/cal-nev-ari-nv/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2049,16 +1869,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/indian-springs-nv/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/indian-springs-nv/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2140,16 +1950,6 @@
     "missing_stubs": []
   },
   "/service-areas/laughlin-nv/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/laughlin-nv/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

@@ -345,50 +345,6 @@
       ]
     },
     {
-      "url_path": "/services/air-duct-hvac-cleaning/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Midland | ACS Enterprise ",
-      "h1": "Air Duct & HVAC Cleaning in Midland",
-      "meta_description": "Air duct & hvac cleaning in Midland and surrounding areas. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "air duct & hvac cleaning midland",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-        "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-        "/service-areas/big-spring-tx/air-duct-hvac-cleaning/",
-        "/service-areas/crane-tx/air-duct-hvac-cleaning/",
-        "/service-areas/garden-city-tx/air-duct-hvac-cleaning/",
-        "/service-areas/gardendale-tx/air-duct-hvac-cleaning/",
-        "/service-areas/goldsmith-tx/air-duct-hvac-cleaning/",
-        "/service-areas/greenwood-tx/air-duct-hvac-cleaning/",
-        "/service-areas/imperial-tx/air-duct-hvac-cleaning/",
-        "/service-areas/mccamey-tx/air-duct-hvac-cleaning/",
-        "/service-areas/monahans-tx/air-duct-hvac-cleaning/",
-        "/service-areas/odessa-tx/air-duct-hvac-cleaning/"
-      ]
-    },
-    {
       "url_path": "/services/carpet-cleaning/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -436,50 +392,6 @@
         "/service-areas/mccamey-tx/carpet-cleaning/",
         "/service-areas/monahans-tx/carpet-cleaning/",
         "/service-areas/odessa-tx/carpet-cleaning/"
-      ]
-    },
-    {
-      "url_path": "/services/carpet-upholstery-cleaning/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Midland | ACS Enterprise ",
-      "h1": "Carpet & Upholstery Cleaning in Midland",
-      "meta_description": "Carpet & upholstery cleaning in Midland and surrounding areas. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "carpet & upholstery cleaning midland",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-        "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
-        "/service-areas/big-spring-tx/carpet-upholstery-cleaning/",
-        "/service-areas/crane-tx/carpet-upholstery-cleaning/",
-        "/service-areas/garden-city-tx/carpet-upholstery-cleaning/",
-        "/service-areas/gardendale-tx/carpet-upholstery-cleaning/",
-        "/service-areas/goldsmith-tx/carpet-upholstery-cleaning/",
-        "/service-areas/greenwood-tx/carpet-upholstery-cleaning/",
-        "/service-areas/imperial-tx/carpet-upholstery-cleaning/",
-        "/service-areas/mccamey-tx/carpet-upholstery-cleaning/",
-        "/service-areas/monahans-tx/carpet-upholstery-cleaning/",
-        "/service-areas/odessa-tx/carpet-upholstery-cleaning/"
       ]
     },
     {
@@ -1543,52 +1455,6 @@
       ]
     },
     {
-      "url_path": "/services/emergency-water-removal/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Water Removal in Midland | ACS Enterprise",
-      "h1": "Water Removal in Midland",
-      "meta_description": "Water removal in Midland and surrounding areas. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "24/7 emergency water removal midland",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/andrews-tx/emergency-water-removal/",
-        "/service-areas/big-lake-tx/emergency-water-removal/",
-        "/service-areas/big-spring-tx/emergency-water-removal/",
-        "/service-areas/crane-tx/emergency-water-removal/",
-        "/service-areas/garden-city-tx/emergency-water-removal/",
-        "/service-areas/gardendale-tx/emergency-water-removal/",
-        "/service-areas/goldsmith-tx/emergency-water-removal/",
-        "/service-areas/greenwood-tx/emergency-water-removal/",
-        "/service-areas/imperial-tx/emergency-water-removal/",
-        "/service-areas/mccamey-tx/emergency-water-removal/",
-        "/service-areas/monahans-tx/emergency-water-removal/",
-        "/service-areas/odessa-tx/emergency-water-removal/"
-      ]
-    },
-    {
       "url_path": "/services/emergency-plumbing/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -2640,44 +2506,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/odessa-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Odessa, TX | ACS Enterprise ",
-      "h1": "Air Duct & HVAC Cleaning in Odessa",
-      "meta_description": "Air duct & hvac cleaning in Odessa, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "air duct & hvac cleaning odessa",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/odessa-tx/",
-        "/service-areas/odessa-tx/fire-damage-restoration/",
-        "/service-areas/odessa-tx/mold-remediation/",
-        "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-        "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/odessa-tx/carpet-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2718,44 +2546,6 @@
         "/service-areas/odessa-tx/mold-remediation/",
         "/service-areas/andrews-tx/carpet-cleaning/",
         "/service-areas/big-lake-tx/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/odessa-tx/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Odessa, TX | ACS Enterprise ",
-      "h1": "Carpet & Upholstery Cleaning in Odessa",
-      "meta_description": "Carpet & upholstery cleaning in Odessa, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "carpet & upholstery cleaning odessa",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/odessa-tx/",
-        "/service-areas/odessa-tx/fire-damage-restoration/",
-        "/service-areas/odessa-tx/mold-remediation/",
-        "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-        "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -3682,46 +3472,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/odessa-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Odessa, TX | ACS Enterprise",
-      "h1": "Water Removal in Odessa",
-      "meta_description": "Water removal in Odessa, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "24/7 emergency water removal odessa",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/odessa-tx/",
-        "/service-areas/odessa-tx/fire-damage-restoration/",
-        "/service-areas/odessa-tx/mold-remediation/",
-        "/service-areas/andrews-tx/emergency-water-removal/",
-        "/service-areas/big-lake-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/odessa-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3807,44 +3557,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/big-spring-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Big Spring, TX | ACS Enterprise ",
-      "h1": "Air Duct & HVAC Cleaning in Big Spring",
-      "meta_description": "Air duct & hvac cleaning in Big Spring, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "air duct & hvac cleaning big spring",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/big-spring-tx/",
-        "/service-areas/big-spring-tx/fire-damage-restoration/",
-        "/service-areas/big-spring-tx/mold-remediation/",
-        "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-        "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/big-spring-tx/carpet-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3885,44 +3597,6 @@
         "/service-areas/big-spring-tx/mold-remediation/",
         "/service-areas/andrews-tx/carpet-cleaning/",
         "/service-areas/big-lake-tx/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/big-spring-tx/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Big Spring, TX | ACS Enterprise ",
-      "h1": "Carpet & Upholstery Cleaning in Big Spring",
-      "meta_description": "Carpet & upholstery cleaning in Big Spring, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "carpet & upholstery cleaning big spring",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/big-spring-tx/",
-        "/service-areas/big-spring-tx/fire-damage-restoration/",
-        "/service-areas/big-spring-tx/mold-remediation/",
-        "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-        "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -4849,46 +4523,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/big-spring-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Big Spring, TX | ACS Enterprise",
-      "h1": "Water Removal in Big Spring",
-      "meta_description": "Water removal in Big Spring, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "24/7 emergency water removal big spring",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/big-spring-tx/",
-        "/service-areas/big-spring-tx/fire-damage-restoration/",
-        "/service-areas/big-spring-tx/mold-remediation/",
-        "/service-areas/andrews-tx/emergency-water-removal/",
-        "/service-areas/big-lake-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/big-spring-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4974,44 +4608,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/stanton-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Stanton, TX | ACS Enterprise ",
-      "h1": "Air Duct & HVAC Cleaning in Stanton",
-      "meta_description": "Air duct & hvac cleaning in Stanton, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "air duct & hvac cleaning stanton",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/stanton-tx/",
-        "/service-areas/stanton-tx/fire-damage-restoration/",
-        "/service-areas/stanton-tx/mold-remediation/",
-        "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-        "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/stanton-tx/carpet-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5052,44 +4648,6 @@
         "/service-areas/stanton-tx/mold-remediation/",
         "/service-areas/andrews-tx/carpet-cleaning/",
         "/service-areas/big-lake-tx/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/stanton-tx/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Stanton, TX | ACS Enterprise ",
-      "h1": "Carpet & Upholstery Cleaning in Stanton",
-      "meta_description": "Carpet & upholstery cleaning in Stanton, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "carpet & upholstery cleaning stanton",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/stanton-tx/",
-        "/service-areas/stanton-tx/fire-damage-restoration/",
-        "/service-areas/stanton-tx/mold-remediation/",
-        "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-        "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -6016,46 +5574,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/stanton-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Stanton, TX | ACS Enterprise",
-      "h1": "Water Removal in Stanton",
-      "meta_description": "Water removal in Stanton, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "24/7 emergency water removal stanton",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/stanton-tx/",
-        "/service-areas/stanton-tx/fire-damage-restoration/",
-        "/service-areas/stanton-tx/mold-remediation/",
-        "/service-areas/andrews-tx/emergency-water-removal/",
-        "/service-areas/big-lake-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/stanton-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6141,44 +5659,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Andrews, TX | ACS Enterprise ",
-      "h1": "Air Duct & HVAC Cleaning in Andrews",
-      "meta_description": "Air duct & hvac cleaning in Andrews, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "air duct & hvac cleaning andrews",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/andrews-tx/",
-        "/service-areas/andrews-tx/fire-damage-restoration/",
-        "/service-areas/andrews-tx/mold-remediation/",
-        "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-        "/service-areas/big-spring-tx/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/andrews-tx/carpet-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6219,44 +5699,6 @@
         "/service-areas/andrews-tx/mold-remediation/",
         "/service-areas/big-lake-tx/carpet-cleaning/",
         "/service-areas/big-spring-tx/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Andrews, TX | ACS Enterprise ",
-      "h1": "Carpet & Upholstery Cleaning in Andrews",
-      "meta_description": "Carpet & upholstery cleaning in Andrews, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "carpet & upholstery cleaning andrews",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/andrews-tx/",
-        "/service-areas/andrews-tx/fire-damage-restoration/",
-        "/service-areas/andrews-tx/mold-remediation/",
-        "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
-        "/service-areas/big-spring-tx/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -7183,46 +6625,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/andrews-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Andrews, TX | ACS Enterprise",
-      "h1": "Water Removal in Andrews",
-      "meta_description": "Water removal in Andrews, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "24/7 emergency water removal andrews",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/andrews-tx/",
-        "/service-areas/andrews-tx/fire-damage-restoration/",
-        "/service-areas/andrews-tx/mold-remediation/",
-        "/service-areas/big-lake-tx/emergency-water-removal/",
-        "/service-areas/big-spring-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/andrews-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7308,44 +6710,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/gardendale-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Gardendale, TX | ACS Enterprise ",
-      "h1": "Air Duct & HVAC Cleaning in Gardendale",
-      "meta_description": "Air duct & hvac cleaning in Gardendale, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "air duct & hvac cleaning gardendale",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/gardendale-tx/",
-        "/service-areas/gardendale-tx/fire-damage-restoration/",
-        "/service-areas/gardendale-tx/mold-remediation/",
-        "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-        "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/gardendale-tx/carpet-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7386,44 +6750,6 @@
         "/service-areas/gardendale-tx/mold-remediation/",
         "/service-areas/andrews-tx/carpet-cleaning/",
         "/service-areas/big-lake-tx/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/gardendale-tx/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Gardendale, TX | ACS Enterprise ",
-      "h1": "Carpet & Upholstery Cleaning in Gardendale",
-      "meta_description": "Carpet & upholstery cleaning in Gardendale, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "carpet & upholstery cleaning gardendale",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/gardendale-tx/",
-        "/service-areas/gardendale-tx/fire-damage-restoration/",
-        "/service-areas/gardendale-tx/mold-remediation/",
-        "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-        "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -8350,46 +7676,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/gardendale-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Gardendale, TX | ACS Enterprise",
-      "h1": "Water Removal in Gardendale",
-      "meta_description": "Water removal in Gardendale, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "24/7 emergency water removal gardendale",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/gardendale-tx/",
-        "/service-areas/gardendale-tx/fire-damage-restoration/",
-        "/service-areas/gardendale-tx/mold-remediation/",
-        "/service-areas/andrews-tx/emergency-water-removal/",
-        "/service-areas/big-lake-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/gardendale-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8475,44 +7761,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/greenwood-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Greenwood, TX | ACS Enterprise ",
-      "h1": "Air Duct & HVAC Cleaning in Greenwood",
-      "meta_description": "Air duct & hvac cleaning in Greenwood, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "air duct & hvac cleaning greenwood",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/greenwood-tx/",
-        "/service-areas/greenwood-tx/fire-damage-restoration/",
-        "/service-areas/greenwood-tx/mold-remediation/",
-        "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-        "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/greenwood-tx/carpet-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8553,44 +7801,6 @@
         "/service-areas/greenwood-tx/mold-remediation/",
         "/service-areas/andrews-tx/carpet-cleaning/",
         "/service-areas/big-lake-tx/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/greenwood-tx/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Greenwood, TX | ACS Enterprise ",
-      "h1": "Carpet & Upholstery Cleaning in Greenwood",
-      "meta_description": "Carpet & upholstery cleaning in Greenwood, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "carpet & upholstery cleaning greenwood",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/greenwood-tx/",
-        "/service-areas/greenwood-tx/fire-damage-restoration/",
-        "/service-areas/greenwood-tx/mold-remediation/",
-        "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-        "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -9517,46 +8727,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/greenwood-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Greenwood, TX | ACS Enterprise",
-      "h1": "Water Removal in Greenwood",
-      "meta_description": "Water removal in Greenwood, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "24/7 emergency water removal greenwood",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/greenwood-tx/",
-        "/service-areas/greenwood-tx/fire-damage-restoration/",
-        "/service-areas/greenwood-tx/mold-remediation/",
-        "/service-areas/andrews-tx/emergency-water-removal/",
-        "/service-areas/big-lake-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/greenwood-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9642,44 +8812,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/goldsmith-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Goldsmith, TX | ACS Enterprise ",
-      "h1": "Air Duct & HVAC Cleaning in Goldsmith",
-      "meta_description": "Air duct & hvac cleaning in Goldsmith, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "air duct & hvac cleaning goldsmith",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/goldsmith-tx/",
-        "/service-areas/goldsmith-tx/fire-damage-restoration/",
-        "/service-areas/goldsmith-tx/mold-remediation/",
-        "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-        "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/goldsmith-tx/carpet-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9720,44 +8852,6 @@
         "/service-areas/goldsmith-tx/mold-remediation/",
         "/service-areas/andrews-tx/carpet-cleaning/",
         "/service-areas/big-lake-tx/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/goldsmith-tx/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Goldsmith, TX | ACS Enterprise ",
-      "h1": "Carpet & Upholstery Cleaning in Goldsmith",
-      "meta_description": "Carpet & upholstery cleaning in Goldsmith, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "carpet & upholstery cleaning goldsmith",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/goldsmith-tx/",
-        "/service-areas/goldsmith-tx/fire-damage-restoration/",
-        "/service-areas/goldsmith-tx/mold-remediation/",
-        "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-        "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -10684,46 +9778,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/goldsmith-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Goldsmith, TX | ACS Enterprise",
-      "h1": "Water Removal in Goldsmith",
-      "meta_description": "Water removal in Goldsmith, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "24/7 emergency water removal goldsmith",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/goldsmith-tx/",
-        "/service-areas/goldsmith-tx/fire-damage-restoration/",
-        "/service-areas/goldsmith-tx/mold-remediation/",
-        "/service-areas/andrews-tx/emergency-water-removal/",
-        "/service-areas/big-lake-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/goldsmith-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10809,44 +9863,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/west-odessa-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in West Odessa, TX | ACS Enterprise ",
-      "h1": "Air Duct & HVAC Cleaning in West Odessa",
-      "meta_description": "Air duct & hvac cleaning in West Odessa, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "air duct & hvac cleaning west odessa",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/west-odessa-tx/",
-        "/service-areas/west-odessa-tx/fire-damage-restoration/",
-        "/service-areas/west-odessa-tx/mold-remediation/",
-        "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-        "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/west-odessa-tx/carpet-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10887,44 +9903,6 @@
         "/service-areas/west-odessa-tx/mold-remediation/",
         "/service-areas/andrews-tx/carpet-cleaning/",
         "/service-areas/big-lake-tx/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/west-odessa-tx/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in West Odessa, TX | ACS Enterprise ",
-      "h1": "Carpet & Upholstery Cleaning in West Odessa",
-      "meta_description": "Carpet & upholstery cleaning in West Odessa, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "carpet & upholstery cleaning west odessa",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/west-odessa-tx/",
-        "/service-areas/west-odessa-tx/fire-damage-restoration/",
-        "/service-areas/west-odessa-tx/mold-remediation/",
-        "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-        "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -11851,46 +10829,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/west-odessa-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in West Odessa, TX | ACS Enterprise",
-      "h1": "Water Removal in West Odessa",
-      "meta_description": "Water removal in West Odessa, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "24/7 emergency water removal west odessa",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/west-odessa-tx/",
-        "/service-areas/west-odessa-tx/fire-damage-restoration/",
-        "/service-areas/west-odessa-tx/mold-remediation/",
-        "/service-areas/andrews-tx/emergency-water-removal/",
-        "/service-areas/big-lake-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/west-odessa-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -11976,44 +10914,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/garden-city-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Garden City, TX | ACS Enterprise ",
-      "h1": "Air Duct & HVAC Cleaning in Garden City",
-      "meta_description": "Air duct & hvac cleaning in Garden City, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "air duct & hvac cleaning garden city",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/garden-city-tx/",
-        "/service-areas/garden-city-tx/fire-damage-restoration/",
-        "/service-areas/garden-city-tx/mold-remediation/",
-        "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-        "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/garden-city-tx/carpet-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12054,44 +10954,6 @@
         "/service-areas/garden-city-tx/mold-remediation/",
         "/service-areas/andrews-tx/carpet-cleaning/",
         "/service-areas/big-lake-tx/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/garden-city-tx/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Garden City, TX | ACS Enterprise ",
-      "h1": "Carpet & Upholstery Cleaning in Garden City",
-      "meta_description": "Carpet & upholstery cleaning in Garden City, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "carpet & upholstery cleaning garden city",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/garden-city-tx/",
-        "/service-areas/garden-city-tx/fire-damage-restoration/",
-        "/service-areas/garden-city-tx/mold-remediation/",
-        "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-        "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -13018,46 +11880,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/garden-city-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Garden City, TX | ACS Enterprise",
-      "h1": "Water Removal in Garden City",
-      "meta_description": "Water removal in Garden City, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "24/7 emergency water removal garden city",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/garden-city-tx/",
-        "/service-areas/garden-city-tx/fire-damage-restoration/",
-        "/service-areas/garden-city-tx/mold-remediation/",
-        "/service-areas/andrews-tx/emergency-water-removal/",
-        "/service-areas/big-lake-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/garden-city-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13143,44 +11965,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/crane-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Crane, TX | ACS Enterprise ",
-      "h1": "Air Duct & HVAC Cleaning in Crane",
-      "meta_description": "Air duct & hvac cleaning in Crane, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "air duct & hvac cleaning crane",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/crane-tx/",
-        "/service-areas/crane-tx/fire-damage-restoration/",
-        "/service-areas/crane-tx/mold-remediation/",
-        "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-        "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/crane-tx/carpet-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13221,44 +12005,6 @@
         "/service-areas/crane-tx/mold-remediation/",
         "/service-areas/andrews-tx/carpet-cleaning/",
         "/service-areas/big-lake-tx/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/crane-tx/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Crane, TX | ACS Enterprise ",
-      "h1": "Carpet & Upholstery Cleaning in Crane",
-      "meta_description": "Carpet & upholstery cleaning in Crane, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "carpet & upholstery cleaning crane",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/crane-tx/",
-        "/service-areas/crane-tx/fire-damage-restoration/",
-        "/service-areas/crane-tx/mold-remediation/",
-        "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-        "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -14185,46 +12931,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/crane-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Crane, TX | ACS Enterprise",
-      "h1": "Water Removal in Crane",
-      "meta_description": "Water removal in Crane, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "24/7 emergency water removal crane",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/crane-tx/",
-        "/service-areas/crane-tx/fire-damage-restoration/",
-        "/service-areas/crane-tx/mold-remediation/",
-        "/service-areas/andrews-tx/emergency-water-removal/",
-        "/service-areas/big-lake-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/crane-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14310,44 +13016,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/monahans-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Monahans, TX | ACS Enterprise ",
-      "h1": "Air Duct & HVAC Cleaning in Monahans",
-      "meta_description": "Air duct & hvac cleaning in Monahans, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "air duct & hvac cleaning monahans",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/monahans-tx/",
-        "/service-areas/monahans-tx/fire-damage-restoration/",
-        "/service-areas/monahans-tx/mold-remediation/",
-        "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-        "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/monahans-tx/carpet-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14388,44 +13056,6 @@
         "/service-areas/monahans-tx/mold-remediation/",
         "/service-areas/andrews-tx/carpet-cleaning/",
         "/service-areas/big-lake-tx/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/monahans-tx/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Monahans, TX | ACS Enterprise ",
-      "h1": "Carpet & Upholstery Cleaning in Monahans",
-      "meta_description": "Carpet & upholstery cleaning in Monahans, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "carpet & upholstery cleaning monahans",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/monahans-tx/",
-        "/service-areas/monahans-tx/fire-damage-restoration/",
-        "/service-areas/monahans-tx/mold-remediation/",
-        "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-        "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -15352,46 +13982,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/monahans-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Monahans, TX | ACS Enterprise",
-      "h1": "Water Removal in Monahans",
-      "meta_description": "Water removal in Monahans, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "24/7 emergency water removal monahans",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/monahans-tx/",
-        "/service-areas/monahans-tx/fire-damage-restoration/",
-        "/service-areas/monahans-tx/mold-remediation/",
-        "/service-areas/andrews-tx/emergency-water-removal/",
-        "/service-areas/big-lake-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/monahans-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -15477,44 +14067,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/mccamey-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in McCamey, TX | ACS Enterprise ",
-      "h1": "Air Duct & HVAC Cleaning in McCamey",
-      "meta_description": "Air duct & hvac cleaning in McCamey, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "air duct & hvac cleaning mccamey",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/mccamey-tx/",
-        "/service-areas/mccamey-tx/fire-damage-restoration/",
-        "/service-areas/mccamey-tx/mold-remediation/",
-        "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-        "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/mccamey-tx/carpet-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -15555,44 +14107,6 @@
         "/service-areas/mccamey-tx/mold-remediation/",
         "/service-areas/andrews-tx/carpet-cleaning/",
         "/service-areas/big-lake-tx/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/mccamey-tx/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in McCamey, TX | ACS Enterprise ",
-      "h1": "Carpet & Upholstery Cleaning in McCamey",
-      "meta_description": "Carpet & upholstery cleaning in McCamey, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "carpet & upholstery cleaning mccamey",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/mccamey-tx/",
-        "/service-areas/mccamey-tx/fire-damage-restoration/",
-        "/service-areas/mccamey-tx/mold-remediation/",
-        "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-        "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -16519,46 +15033,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/mccamey-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in McCamey, TX | ACS Enterprise",
-      "h1": "Water Removal in McCamey",
-      "meta_description": "Water removal in McCamey, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "24/7 emergency water removal mccamey",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/mccamey-tx/",
-        "/service-areas/mccamey-tx/fire-damage-restoration/",
-        "/service-areas/mccamey-tx/mold-remediation/",
-        "/service-areas/andrews-tx/emergency-water-removal/",
-        "/service-areas/big-lake-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/mccamey-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -16644,44 +15118,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/southwest-sandhill-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Southwest Sandhill, TX | ACS Enterprise ",
-      "h1": "Air Duct & HVAC Cleaning in Southwest Sandhill",
-      "meta_description": "Air duct & hvac cleaning in Southwest Sandhill, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "air duct & hvac cleaning southwest sandhill",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/southwest-sandhill-tx/",
-        "/service-areas/southwest-sandhill-tx/fire-damage-restoration/",
-        "/service-areas/southwest-sandhill-tx/mold-remediation/",
-        "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-        "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/southwest-sandhill-tx/carpet-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -16722,44 +15158,6 @@
         "/service-areas/southwest-sandhill-tx/mold-remediation/",
         "/service-areas/andrews-tx/carpet-cleaning/",
         "/service-areas/big-lake-tx/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/southwest-sandhill-tx/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Southwest Sandhill, TX | ACS Enterprise ",
-      "h1": "Carpet & Upholstery Cleaning in Southwest Sandhill",
-      "meta_description": "Carpet & upholstery cleaning in Southwest Sandhill, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "carpet & upholstery cleaning southwest sandhill",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/southwest-sandhill-tx/",
-        "/service-areas/southwest-sandhill-tx/fire-damage-restoration/",
-        "/service-areas/southwest-sandhill-tx/mold-remediation/",
-        "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-        "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -17686,46 +16084,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/southwest-sandhill-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Southwest Sandhill, TX | ACS Enterprise",
-      "h1": "Water Removal in Southwest Sandhill",
-      "meta_description": "Water removal in Southwest Sandhill, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "24/7 emergency water removal southwest sandhill",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/southwest-sandhill-tx/",
-        "/service-areas/southwest-sandhill-tx/fire-damage-restoration/",
-        "/service-areas/southwest-sandhill-tx/mold-remediation/",
-        "/service-areas/andrews-tx/emergency-water-removal/",
-        "/service-areas/big-lake-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/southwest-sandhill-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17811,44 +16169,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Big Lake, TX | ACS Enterprise ",
-      "h1": "Air Duct & HVAC Cleaning in Big Lake",
-      "meta_description": "Air duct & hvac cleaning in Big Lake, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "air duct & hvac cleaning big lake",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/big-lake-tx/",
-        "/service-areas/big-lake-tx/fire-damage-restoration/",
-        "/service-areas/big-lake-tx/mold-remediation/",
-        "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-        "/service-areas/big-spring-tx/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/big-lake-tx/carpet-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17889,44 +16209,6 @@
         "/service-areas/big-lake-tx/mold-remediation/",
         "/service-areas/andrews-tx/carpet-cleaning/",
         "/service-areas/big-spring-tx/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Big Lake, TX | ACS Enterprise ",
-      "h1": "Carpet & Upholstery Cleaning in Big Lake",
-      "meta_description": "Carpet & upholstery cleaning in Big Lake, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "carpet & upholstery cleaning big lake",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/big-lake-tx/",
-        "/service-areas/big-lake-tx/fire-damage-restoration/",
-        "/service-areas/big-lake-tx/mold-remediation/",
-        "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-        "/service-areas/big-spring-tx/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -18853,46 +17135,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/big-lake-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Big Lake, TX | ACS Enterprise",
-      "h1": "Water Removal in Big Lake",
-      "meta_description": "Water removal in Big Lake, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "24/7 emergency water removal big lake",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/big-lake-tx/",
-        "/service-areas/big-lake-tx/fire-damage-restoration/",
-        "/service-areas/big-lake-tx/mold-remediation/",
-        "/service-areas/andrews-tx/emergency-water-removal/",
-        "/service-areas/big-spring-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/big-lake-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -18978,44 +17220,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/imperial-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Imperial, TX | ACS Enterprise ",
-      "h1": "Air Duct & HVAC Cleaning in Imperial",
-      "meta_description": "Air duct & hvac cleaning in Imperial, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "air duct & hvac cleaning imperial",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/imperial-tx/",
-        "/service-areas/imperial-tx/fire-damage-restoration/",
-        "/service-areas/imperial-tx/mold-remediation/",
-        "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-        "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/imperial-tx/carpet-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -19056,44 +17260,6 @@
         "/service-areas/imperial-tx/mold-remediation/",
         "/service-areas/andrews-tx/carpet-cleaning/",
         "/service-areas/big-lake-tx/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/imperial-tx/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Imperial, TX | ACS Enterprise ",
-      "h1": "Carpet & Upholstery Cleaning in Imperial",
-      "meta_description": "Carpet & upholstery cleaning in Imperial, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "carpet & upholstery cleaning imperial",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/imperial-tx/",
-        "/service-areas/imperial-tx/fire-damage-restoration/",
-        "/service-areas/imperial-tx/mold-remediation/",
-        "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-        "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -20016,46 +18182,6 @@
         "/service-areas/imperial-tx/mold-remediation/",
         "/service-areas/andrews-tx/water-leak-detection/",
         "/service-areas/big-lake-tx/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/imperial-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Imperial, TX | ACS Enterprise",
-      "h1": "Water Removal in Imperial",
-      "meta_description": "Water removal in Imperial, TX. Insurance billing accepted. Call (432) 847-4704.",
-      "primary_keyword": "24/7 emergency water removal imperial",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/imperial-tx/",
-        "/service-areas/imperial-tx/fire-damage-restoration/",
-        "/service-areas/imperial-tx/mold-remediation/",
-        "/service-areas/andrews-tx/emergency-water-removal/",
-        "/service-areas/big-lake-tx/emergency-water-removal/",
         "/contact/"
       ]
     },

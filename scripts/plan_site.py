@@ -275,6 +275,14 @@ def expand_inputs(template: Template, plan_input: dict, client: dict) -> dict:
     # FFS: no rebuild, no plumbing). Specialty-tier services (biohazard,
     # trauma, abatement) stay opt-IN, never defaulted.
     excluded = set(plan_input.get("excluded_services") or [])
+    # MERGED DUPLICATES (Santino 2026-09-30, site_structure.py rule 4): a
+    # service page folded into its canonical twin by service_merge.py is
+    # listed in plan-input `merged_services` {merged: canonical}. It must
+    # never come back through the core floor, the water-cleanup default, or
+    # a stale services entry.
+    merged = set((plan_input.get("merged_services") or {}).keys())
+    excluded |= merged
+    selected_slugs = [s for s in selected_slugs if s not in merged]
     # GATE (Katofsky 2026-09-26): the floor only applies to companies that
     # actually DO water restoration — evidenced by a water lane already in
     # their selected services. Katofsky (construction/abatement/cleaning on

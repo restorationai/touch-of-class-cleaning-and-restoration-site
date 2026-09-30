@@ -10,7 +10,6 @@
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
     "/services/emergency-plumbing/",
-    "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
     "/services/sewage-cleanup/",
@@ -29,10 +28,7 @@
     "/services/water-heater-flood-cleanup/",
     "/services/water-leak-detection/",
     "/services/air-duct-cleaning/",
-    "/services/air-duct-hvac-cleaning/",
     "/services/basement-remodeling/",
-    "/services/carpet-upholstery-cleaning/",
-    "/services/contents-restoration-storage/",
     "/services/contents-restoration/",
     "/services/carpet-cleaning/",
     "/services/post-construction-cleaning/",
@@ -66,7 +62,6 @@
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
     "/services/emergency-plumbing/",
-    "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
     "/services/sewage-cleanup/",
@@ -85,10 +80,7 @@
     "/services/water-heater-flood-cleanup/",
     "/services/water-leak-detection/",
     "/services/air-duct-cleaning/",
-    "/services/air-duct-hvac-cleaning/",
     "/services/basement-remodeling/",
-    "/services/carpet-upholstery-cleaning/",
-    "/services/contents-restoration-storage/",
     "/services/contents-restoration/",
     "/services/carpet-cleaning/",
     "/services/post-construction-cleaning/"
@@ -154,22 +146,6 @@
     "/service-areas/north-tustin-ca/air-duct-cleaning/",
     "/service-areas/ontario-ca/air-duct-cleaning/"
   ],
-  "/services/air-duct-hvac-cleaning/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-    "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-    "/service-areas/chino-hills-ca/air-duct-hvac-cleaning/",
-    "/service-areas/eastvale-ca/air-duct-hvac-cleaning/",
-    "/service-areas/fontana-ca/air-duct-hvac-cleaning/",
-    "/service-areas/fullerton-ca/air-duct-hvac-cleaning/",
-    "/service-areas/jurupa-valley-ca/air-duct-hvac-cleaning/",
-    "/service-areas/lake-mathews-ca/air-duct-hvac-cleaning/",
-    "/service-areas/montclair-ca/air-duct-hvac-cleaning/",
-    "/service-areas/norco-ca/air-duct-hvac-cleaning/",
-    "/service-areas/north-tustin-ca/air-duct-hvac-cleaning/",
-    "/service-areas/ontario-ca/air-duct-hvac-cleaning/"
-  ],
   "/services/basement-flooding-cleanup/": [
     "/services/",
     "/contact/",
@@ -234,22 +210,6 @@
     "/service-areas/north-tustin-ca/carpet-cleaning/",
     "/service-areas/ontario-ca/carpet-cleaning/"
   ],
-  "/services/carpet-upholstery-cleaning/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-    "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-    "/service-areas/chino-hills-ca/carpet-upholstery-cleaning/",
-    "/service-areas/eastvale-ca/carpet-upholstery-cleaning/",
-    "/service-areas/fontana-ca/carpet-upholstery-cleaning/",
-    "/service-areas/fullerton-ca/carpet-upholstery-cleaning/",
-    "/service-areas/jurupa-valley-ca/carpet-upholstery-cleaning/",
-    "/service-areas/lake-mathews-ca/carpet-upholstery-cleaning/",
-    "/service-areas/montclair-ca/carpet-upholstery-cleaning/",
-    "/service-areas/norco-ca/carpet-upholstery-cleaning/",
-    "/service-areas/north-tustin-ca/carpet-upholstery-cleaning/",
-    "/service-areas/ontario-ca/carpet-upholstery-cleaning/"
-  ],
   "/services/ceiling-water-damage-repair/": [
     "/services/",
     "/contact/",
@@ -298,22 +258,6 @@
     "/service-areas/north-tustin-ca/contents-restoration/",
     "/service-areas/ontario-ca/contents-restoration/"
   ],
-  "/services/contents-restoration-storage/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/anaheim-ca/contents-restoration-storage/",
-    "/service-areas/chino-ca/contents-restoration-storage/",
-    "/service-areas/chino-hills-ca/contents-restoration-storage/",
-    "/service-areas/eastvale-ca/contents-restoration-storage/",
-    "/service-areas/fontana-ca/contents-restoration-storage/",
-    "/service-areas/fullerton-ca/contents-restoration-storage/",
-    "/service-areas/jurupa-valley-ca/contents-restoration-storage/",
-    "/service-areas/lake-mathews-ca/contents-restoration-storage/",
-    "/service-areas/montclair-ca/contents-restoration-storage/",
-    "/service-areas/norco-ca/contents-restoration-storage/",
-    "/service-areas/north-tustin-ca/contents-restoration-storage/",
-    "/service-areas/ontario-ca/contents-restoration-storage/"
-  ],
   "/services/emergency-board-up-tarping/": [
     "/services/",
     "/contact/",
@@ -345,22 +289,6 @@
     "/service-areas/norco-ca/emergency-plumbing/",
     "/service-areas/north-tustin-ca/emergency-plumbing/",
     "/service-areas/ontario-ca/emergency-plumbing/"
-  ],
-  "/services/emergency-water-removal/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/anaheim-ca/emergency-water-removal/",
-    "/service-areas/chino-ca/emergency-water-removal/",
-    "/service-areas/chino-hills-ca/emergency-water-removal/",
-    "/service-areas/eastvale-ca/emergency-water-removal/",
-    "/service-areas/fontana-ca/emergency-water-removal/",
-    "/service-areas/fullerton-ca/emergency-water-removal/",
-    "/service-areas/jurupa-valley-ca/emergency-water-removal/",
-    "/service-areas/lake-mathews-ca/emergency-water-removal/",
-    "/service-areas/montclair-ca/emergency-water-removal/",
-    "/service-areas/norco-ca/emergency-water-removal/",
-    "/service-areas/north-tustin-ca/emergency-water-removal/",
-    "/service-areas/ontario-ca/emergency-water-removal/"
   ],
   "/services/fire-damage-restoration/": [
     "/services/",
@@ -671,7 +599,6 @@
     "/service-areas/riverside-ca/water-damage-restoration/",
     "/service-areas/riverside-ca/commercial-restoration/",
     "/service-areas/riverside-ca/emergency-plumbing/",
-    "/service-areas/riverside-ca/emergency-water-removal/",
     "/service-areas/riverside-ca/flood-damage-restoration/",
     "/service-areas/riverside-ca/reconstruction/",
     "/service-areas/riverside-ca/sewage-cleanup/",
@@ -690,10 +617,7 @@
     "/service-areas/riverside-ca/water-heater-flood-cleanup/",
     "/service-areas/riverside-ca/water-leak-detection/",
     "/service-areas/riverside-ca/air-duct-cleaning/",
-    "/service-areas/riverside-ca/air-duct-hvac-cleaning/",
     "/service-areas/riverside-ca/basement-remodeling/",
-    "/service-areas/riverside-ca/carpet-upholstery-cleaning/",
-    "/service-areas/riverside-ca/contents-restoration-storage/",
     "/service-areas/riverside-ca/contents-restoration/",
     "/service-areas/riverside-ca/carpet-cleaning/",
     "/service-areas/riverside-ca/post-construction-cleaning/",
@@ -710,7 +634,6 @@
     "/service-areas/anaheim-ca/water-damage-restoration/",
     "/service-areas/anaheim-ca/commercial-restoration/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
-    "/service-areas/anaheim-ca/emergency-water-removal/",
     "/service-areas/anaheim-ca/flood-damage-restoration/",
     "/service-areas/anaheim-ca/reconstruction/",
     "/service-areas/anaheim-ca/sewage-cleanup/",
@@ -729,10 +652,7 @@
     "/service-areas/anaheim-ca/water-heater-flood-cleanup/",
     "/service-areas/anaheim-ca/water-leak-detection/",
     "/service-areas/anaheim-ca/air-duct-cleaning/",
-    "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
     "/service-areas/anaheim-ca/basement-remodeling/",
-    "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-    "/service-areas/anaheim-ca/contents-restoration-storage/",
     "/service-areas/anaheim-ca/contents-restoration/",
     "/service-areas/anaheim-ca/carpet-cleaning/",
     "/service-areas/anaheim-ca/post-construction-cleaning/",
@@ -749,7 +669,6 @@
     "/service-areas/santa-ana-ca/water-damage-restoration/",
     "/service-areas/santa-ana-ca/commercial-restoration/",
     "/service-areas/santa-ana-ca/emergency-plumbing/",
-    "/service-areas/santa-ana-ca/emergency-water-removal/",
     "/service-areas/santa-ana-ca/flood-damage-restoration/",
     "/service-areas/santa-ana-ca/reconstruction/",
     "/service-areas/santa-ana-ca/sewage-cleanup/",
@@ -768,10 +687,7 @@
     "/service-areas/santa-ana-ca/water-heater-flood-cleanup/",
     "/service-areas/santa-ana-ca/water-leak-detection/",
     "/service-areas/santa-ana-ca/air-duct-cleaning/",
-    "/service-areas/santa-ana-ca/air-duct-hvac-cleaning/",
     "/service-areas/santa-ana-ca/basement-remodeling/",
-    "/service-areas/santa-ana-ca/carpet-upholstery-cleaning/",
-    "/service-areas/santa-ana-ca/contents-restoration-storage/",
     "/service-areas/santa-ana-ca/contents-restoration/",
     "/service-areas/santa-ana-ca/carpet-cleaning/",
     "/service-areas/santa-ana-ca/post-construction-cleaning/",
@@ -788,7 +704,6 @@
     "/service-areas/ontario-ca/water-damage-restoration/",
     "/service-areas/ontario-ca/commercial-restoration/",
     "/service-areas/ontario-ca/emergency-plumbing/",
-    "/service-areas/ontario-ca/emergency-water-removal/",
     "/service-areas/ontario-ca/flood-damage-restoration/",
     "/service-areas/ontario-ca/reconstruction/",
     "/service-areas/ontario-ca/sewage-cleanup/",
@@ -807,10 +722,7 @@
     "/service-areas/ontario-ca/water-heater-flood-cleanup/",
     "/service-areas/ontario-ca/water-leak-detection/",
     "/service-areas/ontario-ca/air-duct-cleaning/",
-    "/service-areas/ontario-ca/air-duct-hvac-cleaning/",
     "/service-areas/ontario-ca/basement-remodeling/",
-    "/service-areas/ontario-ca/carpet-upholstery-cleaning/",
-    "/service-areas/ontario-ca/contents-restoration-storage/",
     "/service-areas/ontario-ca/contents-restoration/",
     "/service-areas/ontario-ca/carpet-cleaning/",
     "/service-areas/ontario-ca/post-construction-cleaning/",
@@ -827,7 +739,6 @@
     "/service-areas/fullerton-ca/water-damage-restoration/",
     "/service-areas/fullerton-ca/commercial-restoration/",
     "/service-areas/fullerton-ca/emergency-plumbing/",
-    "/service-areas/fullerton-ca/emergency-water-removal/",
     "/service-areas/fullerton-ca/flood-damage-restoration/",
     "/service-areas/fullerton-ca/reconstruction/",
     "/service-areas/fullerton-ca/sewage-cleanup/",
@@ -846,10 +757,7 @@
     "/service-areas/fullerton-ca/water-heater-flood-cleanup/",
     "/service-areas/fullerton-ca/water-leak-detection/",
     "/service-areas/fullerton-ca/air-duct-cleaning/",
-    "/service-areas/fullerton-ca/air-duct-hvac-cleaning/",
     "/service-areas/fullerton-ca/basement-remodeling/",
-    "/service-areas/fullerton-ca/carpet-upholstery-cleaning/",
-    "/service-areas/fullerton-ca/contents-restoration-storage/",
     "/service-areas/fullerton-ca/contents-restoration/",
     "/service-areas/fullerton-ca/carpet-cleaning/",
     "/service-areas/fullerton-ca/post-construction-cleaning/",
@@ -866,7 +774,6 @@
     "/service-areas/norco-ca/water-damage-restoration/",
     "/service-areas/norco-ca/commercial-restoration/",
     "/service-areas/norco-ca/emergency-plumbing/",
-    "/service-areas/norco-ca/emergency-water-removal/",
     "/service-areas/norco-ca/flood-damage-restoration/",
     "/service-areas/norco-ca/reconstruction/",
     "/service-areas/norco-ca/sewage-cleanup/",
@@ -885,10 +792,7 @@
     "/service-areas/norco-ca/water-heater-flood-cleanup/",
     "/service-areas/norco-ca/water-leak-detection/",
     "/service-areas/norco-ca/air-duct-cleaning/",
-    "/service-areas/norco-ca/air-duct-hvac-cleaning/",
     "/service-areas/norco-ca/basement-remodeling/",
-    "/service-areas/norco-ca/carpet-upholstery-cleaning/",
-    "/service-areas/norco-ca/contents-restoration-storage/",
     "/service-areas/norco-ca/contents-restoration/",
     "/service-areas/norco-ca/carpet-cleaning/",
     "/service-areas/norco-ca/post-construction-cleaning/",
@@ -905,7 +809,6 @@
     "/service-areas/chino-ca/water-damage-restoration/",
     "/service-areas/chino-ca/commercial-restoration/",
     "/service-areas/chino-ca/emergency-plumbing/",
-    "/service-areas/chino-ca/emergency-water-removal/",
     "/service-areas/chino-ca/flood-damage-restoration/",
     "/service-areas/chino-ca/reconstruction/",
     "/service-areas/chino-ca/sewage-cleanup/",
@@ -924,10 +827,7 @@
     "/service-areas/chino-ca/water-heater-flood-cleanup/",
     "/service-areas/chino-ca/water-leak-detection/",
     "/service-areas/chino-ca/air-duct-cleaning/",
-    "/service-areas/chino-ca/air-duct-hvac-cleaning/",
     "/service-areas/chino-ca/basement-remodeling/",
-    "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-    "/service-areas/chino-ca/contents-restoration-storage/",
     "/service-areas/chino-ca/contents-restoration/",
     "/service-areas/chino-ca/carpet-cleaning/",
     "/service-areas/chino-ca/post-construction-cleaning/",
@@ -944,7 +844,6 @@
     "/service-areas/chino-hills-ca/water-damage-restoration/",
     "/service-areas/chino-hills-ca/commercial-restoration/",
     "/service-areas/chino-hills-ca/emergency-plumbing/",
-    "/service-areas/chino-hills-ca/emergency-water-removal/",
     "/service-areas/chino-hills-ca/flood-damage-restoration/",
     "/service-areas/chino-hills-ca/reconstruction/",
     "/service-areas/chino-hills-ca/sewage-cleanup/",
@@ -963,10 +862,7 @@
     "/service-areas/chino-hills-ca/water-heater-flood-cleanup/",
     "/service-areas/chino-hills-ca/water-leak-detection/",
     "/service-areas/chino-hills-ca/air-duct-cleaning/",
-    "/service-areas/chino-hills-ca/air-duct-hvac-cleaning/",
     "/service-areas/chino-hills-ca/basement-remodeling/",
-    "/service-areas/chino-hills-ca/carpet-upholstery-cleaning/",
-    "/service-areas/chino-hills-ca/contents-restoration-storage/",
     "/service-areas/chino-hills-ca/contents-restoration/",
     "/service-areas/chino-hills-ca/carpet-cleaning/",
     "/service-areas/chino-hills-ca/post-construction-cleaning/",
@@ -983,7 +879,6 @@
     "/service-areas/eastvale-ca/water-damage-restoration/",
     "/service-areas/eastvale-ca/commercial-restoration/",
     "/service-areas/eastvale-ca/emergency-plumbing/",
-    "/service-areas/eastvale-ca/emergency-water-removal/",
     "/service-areas/eastvale-ca/flood-damage-restoration/",
     "/service-areas/eastvale-ca/reconstruction/",
     "/service-areas/eastvale-ca/sewage-cleanup/",
@@ -1002,10 +897,7 @@
     "/service-areas/eastvale-ca/water-heater-flood-cleanup/",
     "/service-areas/eastvale-ca/water-leak-detection/",
     "/service-areas/eastvale-ca/air-duct-cleaning/",
-    "/service-areas/eastvale-ca/air-duct-hvac-cleaning/",
     "/service-areas/eastvale-ca/basement-remodeling/",
-    "/service-areas/eastvale-ca/carpet-upholstery-cleaning/",
-    "/service-areas/eastvale-ca/contents-restoration-storage/",
     "/service-areas/eastvale-ca/contents-restoration/",
     "/service-areas/eastvale-ca/carpet-cleaning/",
     "/service-areas/eastvale-ca/post-construction-cleaning/",
@@ -1022,7 +914,6 @@
     "/service-areas/silverado-ca/water-damage-restoration/",
     "/service-areas/silverado-ca/commercial-restoration/",
     "/service-areas/silverado-ca/emergency-plumbing/",
-    "/service-areas/silverado-ca/emergency-water-removal/",
     "/service-areas/silverado-ca/flood-damage-restoration/",
     "/service-areas/silverado-ca/reconstruction/",
     "/service-areas/silverado-ca/sewage-cleanup/",
@@ -1041,10 +932,7 @@
     "/service-areas/silverado-ca/water-heater-flood-cleanup/",
     "/service-areas/silverado-ca/water-leak-detection/",
     "/service-areas/silverado-ca/air-duct-cleaning/",
-    "/service-areas/silverado-ca/air-duct-hvac-cleaning/",
     "/service-areas/silverado-ca/basement-remodeling/",
-    "/service-areas/silverado-ca/carpet-upholstery-cleaning/",
-    "/service-areas/silverado-ca/contents-restoration-storage/",
     "/service-areas/silverado-ca/contents-restoration/",
     "/service-areas/silverado-ca/carpet-cleaning/",
     "/service-areas/silverado-ca/post-construction-cleaning/",
@@ -1061,7 +949,6 @@
     "/service-areas/jurupa-valley-ca/water-damage-restoration/",
     "/service-areas/jurupa-valley-ca/commercial-restoration/",
     "/service-areas/jurupa-valley-ca/emergency-plumbing/",
-    "/service-areas/jurupa-valley-ca/emergency-water-removal/",
     "/service-areas/jurupa-valley-ca/flood-damage-restoration/",
     "/service-areas/jurupa-valley-ca/reconstruction/",
     "/service-areas/jurupa-valley-ca/sewage-cleanup/",
@@ -1080,10 +967,7 @@
     "/service-areas/jurupa-valley-ca/water-heater-flood-cleanup/",
     "/service-areas/jurupa-valley-ca/water-leak-detection/",
     "/service-areas/jurupa-valley-ca/air-duct-cleaning/",
-    "/service-areas/jurupa-valley-ca/air-duct-hvac-cleaning/",
     "/service-areas/jurupa-valley-ca/basement-remodeling/",
-    "/service-areas/jurupa-valley-ca/carpet-upholstery-cleaning/",
-    "/service-areas/jurupa-valley-ca/contents-restoration-storage/",
     "/service-areas/jurupa-valley-ca/contents-restoration/",
     "/service-areas/jurupa-valley-ca/carpet-cleaning/",
     "/service-areas/jurupa-valley-ca/post-construction-cleaning/",
@@ -1100,7 +984,6 @@
     "/service-areas/temescal-valley-ca/water-damage-restoration/",
     "/service-areas/temescal-valley-ca/commercial-restoration/",
     "/service-areas/temescal-valley-ca/emergency-plumbing/",
-    "/service-areas/temescal-valley-ca/emergency-water-removal/",
     "/service-areas/temescal-valley-ca/flood-damage-restoration/",
     "/service-areas/temescal-valley-ca/reconstruction/",
     "/service-areas/temescal-valley-ca/sewage-cleanup/",
@@ -1119,10 +1002,7 @@
     "/service-areas/temescal-valley-ca/water-heater-flood-cleanup/",
     "/service-areas/temescal-valley-ca/water-leak-detection/",
     "/service-areas/temescal-valley-ca/air-duct-cleaning/",
-    "/service-areas/temescal-valley-ca/air-duct-hvac-cleaning/",
     "/service-areas/temescal-valley-ca/basement-remodeling/",
-    "/service-areas/temescal-valley-ca/carpet-upholstery-cleaning/",
-    "/service-areas/temescal-valley-ca/contents-restoration-storage/",
     "/service-areas/temescal-valley-ca/contents-restoration/",
     "/service-areas/temescal-valley-ca/carpet-cleaning/",
     "/service-areas/temescal-valley-ca/post-construction-cleaning/",
@@ -1139,7 +1019,6 @@
     "/service-areas/yorba-linda-ca/water-damage-restoration/",
     "/service-areas/yorba-linda-ca/commercial-restoration/",
     "/service-areas/yorba-linda-ca/emergency-plumbing/",
-    "/service-areas/yorba-linda-ca/emergency-water-removal/",
     "/service-areas/yorba-linda-ca/flood-damage-restoration/",
     "/service-areas/yorba-linda-ca/reconstruction/",
     "/service-areas/yorba-linda-ca/sewage-cleanup/",
@@ -1158,10 +1037,7 @@
     "/service-areas/yorba-linda-ca/water-heater-flood-cleanup/",
     "/service-areas/yorba-linda-ca/water-leak-detection/",
     "/service-areas/yorba-linda-ca/air-duct-cleaning/",
-    "/service-areas/yorba-linda-ca/air-duct-hvac-cleaning/",
     "/service-areas/yorba-linda-ca/basement-remodeling/",
-    "/service-areas/yorba-linda-ca/carpet-upholstery-cleaning/",
-    "/service-areas/yorba-linda-ca/contents-restoration-storage/",
     "/service-areas/yorba-linda-ca/contents-restoration/",
     "/service-areas/yorba-linda-ca/carpet-cleaning/",
     "/service-areas/yorba-linda-ca/post-construction-cleaning/",
@@ -1178,7 +1054,6 @@
     "/service-areas/lake-mathews-ca/water-damage-restoration/",
     "/service-areas/lake-mathews-ca/commercial-restoration/",
     "/service-areas/lake-mathews-ca/emergency-plumbing/",
-    "/service-areas/lake-mathews-ca/emergency-water-removal/",
     "/service-areas/lake-mathews-ca/flood-damage-restoration/",
     "/service-areas/lake-mathews-ca/reconstruction/",
     "/service-areas/lake-mathews-ca/sewage-cleanup/",
@@ -1197,10 +1072,7 @@
     "/service-areas/lake-mathews-ca/water-heater-flood-cleanup/",
     "/service-areas/lake-mathews-ca/water-leak-detection/",
     "/service-areas/lake-mathews-ca/air-duct-cleaning/",
-    "/service-areas/lake-mathews-ca/air-duct-hvac-cleaning/",
     "/service-areas/lake-mathews-ca/basement-remodeling/",
-    "/service-areas/lake-mathews-ca/carpet-upholstery-cleaning/",
-    "/service-areas/lake-mathews-ca/contents-restoration-storage/",
     "/service-areas/lake-mathews-ca/contents-restoration/",
     "/service-areas/lake-mathews-ca/carpet-cleaning/",
     "/service-areas/lake-mathews-ca/post-construction-cleaning/",
@@ -1217,7 +1089,6 @@
     "/service-areas/woodcrest-ca/water-damage-restoration/",
     "/service-areas/woodcrest-ca/commercial-restoration/",
     "/service-areas/woodcrest-ca/emergency-plumbing/",
-    "/service-areas/woodcrest-ca/emergency-water-removal/",
     "/service-areas/woodcrest-ca/flood-damage-restoration/",
     "/service-areas/woodcrest-ca/reconstruction/",
     "/service-areas/woodcrest-ca/sewage-cleanup/",
@@ -1236,10 +1107,7 @@
     "/service-areas/woodcrest-ca/water-heater-flood-cleanup/",
     "/service-areas/woodcrest-ca/water-leak-detection/",
     "/service-areas/woodcrest-ca/air-duct-cleaning/",
-    "/service-areas/woodcrest-ca/air-duct-hvac-cleaning/",
     "/service-areas/woodcrest-ca/basement-remodeling/",
-    "/service-areas/woodcrest-ca/carpet-upholstery-cleaning/",
-    "/service-areas/woodcrest-ca/contents-restoration-storage/",
     "/service-areas/woodcrest-ca/contents-restoration/",
     "/service-areas/woodcrest-ca/carpet-cleaning/",
     "/service-areas/woodcrest-ca/post-construction-cleaning/",
@@ -1256,7 +1124,6 @@
     "/service-areas/trabuco-canyon-ca/water-damage-restoration/",
     "/service-areas/trabuco-canyon-ca/commercial-restoration/",
     "/service-areas/trabuco-canyon-ca/emergency-plumbing/",
-    "/service-areas/trabuco-canyon-ca/emergency-water-removal/",
     "/service-areas/trabuco-canyon-ca/flood-damage-restoration/",
     "/service-areas/trabuco-canyon-ca/reconstruction/",
     "/service-areas/trabuco-canyon-ca/sewage-cleanup/",
@@ -1275,10 +1142,7 @@
     "/service-areas/trabuco-canyon-ca/water-heater-flood-cleanup/",
     "/service-areas/trabuco-canyon-ca/water-leak-detection/",
     "/service-areas/trabuco-canyon-ca/air-duct-cleaning/",
-    "/service-areas/trabuco-canyon-ca/air-duct-hvac-cleaning/",
     "/service-areas/trabuco-canyon-ca/basement-remodeling/",
-    "/service-areas/trabuco-canyon-ca/carpet-upholstery-cleaning/",
-    "/service-areas/trabuco-canyon-ca/contents-restoration-storage/",
     "/service-areas/trabuco-canyon-ca/contents-restoration/",
     "/service-areas/trabuco-canyon-ca/carpet-cleaning/",
     "/service-areas/trabuco-canyon-ca/post-construction-cleaning/",
@@ -1295,7 +1159,6 @@
     "/service-areas/north-tustin-ca/water-damage-restoration/",
     "/service-areas/north-tustin-ca/commercial-restoration/",
     "/service-areas/north-tustin-ca/emergency-plumbing/",
-    "/service-areas/north-tustin-ca/emergency-water-removal/",
     "/service-areas/north-tustin-ca/flood-damage-restoration/",
     "/service-areas/north-tustin-ca/reconstruction/",
     "/service-areas/north-tustin-ca/sewage-cleanup/",
@@ -1314,10 +1177,7 @@
     "/service-areas/north-tustin-ca/water-heater-flood-cleanup/",
     "/service-areas/north-tustin-ca/water-leak-detection/",
     "/service-areas/north-tustin-ca/air-duct-cleaning/",
-    "/service-areas/north-tustin-ca/air-duct-hvac-cleaning/",
     "/service-areas/north-tustin-ca/basement-remodeling/",
-    "/service-areas/north-tustin-ca/carpet-upholstery-cleaning/",
-    "/service-areas/north-tustin-ca/contents-restoration-storage/",
     "/service-areas/north-tustin-ca/contents-restoration/",
     "/service-areas/north-tustin-ca/carpet-cleaning/",
     "/service-areas/north-tustin-ca/post-construction-cleaning/",
@@ -1334,7 +1194,6 @@
     "/service-areas/montclair-ca/water-damage-restoration/",
     "/service-areas/montclair-ca/commercial-restoration/",
     "/service-areas/montclair-ca/emergency-plumbing/",
-    "/service-areas/montclair-ca/emergency-water-removal/",
     "/service-areas/montclair-ca/flood-damage-restoration/",
     "/service-areas/montclair-ca/reconstruction/",
     "/service-areas/montclair-ca/sewage-cleanup/",
@@ -1353,10 +1212,7 @@
     "/service-areas/montclair-ca/water-heater-flood-cleanup/",
     "/service-areas/montclair-ca/water-leak-detection/",
     "/service-areas/montclair-ca/air-duct-cleaning/",
-    "/service-areas/montclair-ca/air-duct-hvac-cleaning/",
     "/service-areas/montclair-ca/basement-remodeling/",
-    "/service-areas/montclair-ca/carpet-upholstery-cleaning/",
-    "/service-areas/montclair-ca/contents-restoration-storage/",
     "/service-areas/montclair-ca/contents-restoration/",
     "/service-areas/montclair-ca/carpet-cleaning/",
     "/service-areas/montclair-ca/post-construction-cleaning/",
@@ -1373,7 +1229,6 @@
     "/service-areas/villa-park-ca/water-damage-restoration/",
     "/service-areas/villa-park-ca/commercial-restoration/",
     "/service-areas/villa-park-ca/emergency-plumbing/",
-    "/service-areas/villa-park-ca/emergency-water-removal/",
     "/service-areas/villa-park-ca/flood-damage-restoration/",
     "/service-areas/villa-park-ca/reconstruction/",
     "/service-areas/villa-park-ca/sewage-cleanup/",
@@ -1392,10 +1247,7 @@
     "/service-areas/villa-park-ca/water-heater-flood-cleanup/",
     "/service-areas/villa-park-ca/water-leak-detection/",
     "/service-areas/villa-park-ca/air-duct-cleaning/",
-    "/service-areas/villa-park-ca/air-duct-hvac-cleaning/",
     "/service-areas/villa-park-ca/basement-remodeling/",
-    "/service-areas/villa-park-ca/carpet-upholstery-cleaning/",
-    "/service-areas/villa-park-ca/contents-restoration-storage/",
     "/service-areas/villa-park-ca/contents-restoration/",
     "/service-areas/villa-park-ca/carpet-cleaning/",
     "/service-areas/villa-park-ca/post-construction-cleaning/",
@@ -1412,7 +1264,6 @@
     "/service-areas/fontana-ca/water-damage-restoration/",
     "/service-areas/fontana-ca/commercial-restoration/",
     "/service-areas/fontana-ca/emergency-plumbing/",
-    "/service-areas/fontana-ca/emergency-water-removal/",
     "/service-areas/fontana-ca/flood-damage-restoration/",
     "/service-areas/fontana-ca/reconstruction/",
     "/service-areas/fontana-ca/sewage-cleanup/",
@@ -1431,10 +1282,7 @@
     "/service-areas/fontana-ca/water-heater-flood-cleanup/",
     "/service-areas/fontana-ca/water-leak-detection/",
     "/service-areas/fontana-ca/air-duct-cleaning/",
-    "/service-areas/fontana-ca/air-duct-hvac-cleaning/",
     "/service-areas/fontana-ca/basement-remodeling/",
-    "/service-areas/fontana-ca/carpet-upholstery-cleaning/",
-    "/service-areas/fontana-ca/contents-restoration-storage/",
     "/service-areas/fontana-ca/contents-restoration/",
     "/service-areas/fontana-ca/carpet-cleaning/",
     "/service-areas/fontana-ca/post-construction-cleaning/",
@@ -1451,7 +1299,6 @@
     "/service-areas/pomona-ca/water-damage-restoration/",
     "/service-areas/pomona-ca/commercial-restoration/",
     "/service-areas/pomona-ca/emergency-plumbing/",
-    "/service-areas/pomona-ca/emergency-water-removal/",
     "/service-areas/pomona-ca/flood-damage-restoration/",
     "/service-areas/pomona-ca/reconstruction/",
     "/service-areas/pomona-ca/sewage-cleanup/",
@@ -1470,10 +1317,7 @@
     "/service-areas/pomona-ca/water-heater-flood-cleanup/",
     "/service-areas/pomona-ca/water-leak-detection/",
     "/service-areas/pomona-ca/air-duct-cleaning/",
-    "/service-areas/pomona-ca/air-duct-hvac-cleaning/",
     "/service-areas/pomona-ca/basement-remodeling/",
-    "/service-areas/pomona-ca/carpet-upholstery-cleaning/",
-    "/service-areas/pomona-ca/contents-restoration-storage/",
     "/service-areas/pomona-ca/contents-restoration/",
     "/service-areas/pomona-ca/carpet-cleaning/",
     "/service-areas/pomona-ca/post-construction-cleaning/",
@@ -1488,15 +1332,6 @@
     "/service-areas/riverside-ca/mold-remediation/",
     "/service-areas/anaheim-ca/air-duct-cleaning/",
     "/service-areas/chino-ca/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/riverside-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/riverside-ca/",
-    "/service-areas/riverside-ca/fire-damage-restoration/",
-    "/service-areas/riverside-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-    "/service-areas/chino-ca/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/riverside-ca/basement-flooding-cleanup/": [
@@ -1535,15 +1370,6 @@
     "/service-areas/chino-ca/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/riverside-ca/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/riverside-ca/",
-    "/service-areas/riverside-ca/fire-damage-restoration/",
-    "/service-areas/riverside-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-    "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/riverside-ca/ceiling-water-damage-repair/": [
     "/services/ceiling-water-damage-repair/",
     "/service-areas/riverside-ca/",
@@ -1571,15 +1397,6 @@
     "/service-areas/chino-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/riverside-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/riverside-ca/",
-    "/service-areas/riverside-ca/fire-damage-restoration/",
-    "/service-areas/riverside-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/contents-restoration-storage/",
-    "/service-areas/chino-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/riverside-ca/emergency-board-up-tarping/": [
     "/services/emergency-board-up-tarping/",
     "/service-areas/riverside-ca/",
@@ -1596,15 +1413,6 @@
     "/service-areas/riverside-ca/mold-remediation/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/chino-ca/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/riverside-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/riverside-ca/",
-    "/service-areas/riverside-ca/fire-damage-restoration/",
-    "/service-areas/riverside-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/emergency-water-removal/",
-    "/service-areas/chino-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/riverside-ca/fire-damage-restoration/": [
@@ -1778,15 +1586,6 @@
     "/service-areas/chino-hills-ca/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/anaheim-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/anaheim-ca/",
-    "/service-areas/anaheim-ca/fire-damage-restoration/",
-    "/service-areas/anaheim-ca/mold-remediation/",
-    "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-    "/service-areas/chino-hills-ca/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/anaheim-ca/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/anaheim-ca/",
@@ -1823,15 +1622,6 @@
     "/service-areas/chino-hills-ca/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/anaheim-ca/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/anaheim-ca/",
-    "/service-areas/anaheim-ca/fire-damage-restoration/",
-    "/service-areas/anaheim-ca/mold-remediation/",
-    "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-    "/service-areas/chino-hills-ca/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/anaheim-ca/ceiling-water-damage-repair/": [
     "/services/ceiling-water-damage-repair/",
     "/service-areas/anaheim-ca/",
@@ -1859,15 +1649,6 @@
     "/service-areas/chino-hills-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/anaheim-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/anaheim-ca/",
-    "/service-areas/anaheim-ca/fire-damage-restoration/",
-    "/service-areas/anaheim-ca/mold-remediation/",
-    "/service-areas/chino-ca/contents-restoration-storage/",
-    "/service-areas/chino-hills-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/anaheim-ca/emergency-board-up-tarping/": [
     "/services/emergency-board-up-tarping/",
     "/service-areas/anaheim-ca/",
@@ -1884,15 +1665,6 @@
     "/service-areas/anaheim-ca/mold-remediation/",
     "/service-areas/chino-ca/emergency-plumbing/",
     "/service-areas/chino-hills-ca/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/anaheim-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/anaheim-ca/",
-    "/service-areas/anaheim-ca/fire-damage-restoration/",
-    "/service-areas/anaheim-ca/mold-remediation/",
-    "/service-areas/chino-ca/emergency-water-removal/",
-    "/service-areas/chino-hills-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/anaheim-ca/fire-damage-restoration/": [
@@ -2066,15 +1838,6 @@
     "/service-areas/chino-ca/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/santa-ana-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/santa-ana-ca/",
-    "/service-areas/santa-ana-ca/fire-damage-restoration/",
-    "/service-areas/santa-ana-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-    "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/santa-ana-ca/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/santa-ana-ca/",
@@ -2111,15 +1874,6 @@
     "/service-areas/chino-ca/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/santa-ana-ca/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/santa-ana-ca/",
-    "/service-areas/santa-ana-ca/fire-damage-restoration/",
-    "/service-areas/santa-ana-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-    "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/santa-ana-ca/ceiling-water-damage-repair/": [
     "/services/ceiling-water-damage-repair/",
     "/service-areas/santa-ana-ca/",
@@ -2147,15 +1901,6 @@
     "/service-areas/chino-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/santa-ana-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/santa-ana-ca/",
-    "/service-areas/santa-ana-ca/fire-damage-restoration/",
-    "/service-areas/santa-ana-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/contents-restoration-storage/",
-    "/service-areas/chino-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/santa-ana-ca/emergency-board-up-tarping/": [
     "/services/emergency-board-up-tarping/",
     "/service-areas/santa-ana-ca/",
@@ -2172,15 +1917,6 @@
     "/service-areas/santa-ana-ca/mold-remediation/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/chino-ca/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/santa-ana-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/santa-ana-ca/",
-    "/service-areas/santa-ana-ca/fire-damage-restoration/",
-    "/service-areas/santa-ana-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/emergency-water-removal/",
-    "/service-areas/chino-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/santa-ana-ca/fire-damage-restoration/": [
@@ -2354,15 +2090,6 @@
     "/service-areas/chino-ca/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/ontario-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/ontario-ca/",
-    "/service-areas/ontario-ca/fire-damage-restoration/",
-    "/service-areas/ontario-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-    "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/ontario-ca/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/ontario-ca/",
@@ -2399,15 +2126,6 @@
     "/service-areas/chino-ca/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/ontario-ca/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/ontario-ca/",
-    "/service-areas/ontario-ca/fire-damage-restoration/",
-    "/service-areas/ontario-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-    "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/ontario-ca/ceiling-water-damage-repair/": [
     "/services/ceiling-water-damage-repair/",
     "/service-areas/ontario-ca/",
@@ -2435,15 +2153,6 @@
     "/service-areas/chino-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/ontario-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/ontario-ca/",
-    "/service-areas/ontario-ca/fire-damage-restoration/",
-    "/service-areas/ontario-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/contents-restoration-storage/",
-    "/service-areas/chino-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/ontario-ca/emergency-board-up-tarping/": [
     "/services/emergency-board-up-tarping/",
     "/service-areas/ontario-ca/",
@@ -2460,15 +2169,6 @@
     "/service-areas/ontario-ca/mold-remediation/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/chino-ca/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/ontario-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/ontario-ca/",
-    "/service-areas/ontario-ca/fire-damage-restoration/",
-    "/service-areas/ontario-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/emergency-water-removal/",
-    "/service-areas/chino-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/ontario-ca/fire-damage-restoration/": [
@@ -2642,15 +2342,6 @@
     "/service-areas/chino-ca/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/fullerton-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/fullerton-ca/",
-    "/service-areas/fullerton-ca/fire-damage-restoration/",
-    "/service-areas/fullerton-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-    "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/fullerton-ca/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/fullerton-ca/",
@@ -2687,15 +2378,6 @@
     "/service-areas/chino-ca/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/fullerton-ca/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/fullerton-ca/",
-    "/service-areas/fullerton-ca/fire-damage-restoration/",
-    "/service-areas/fullerton-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-    "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/fullerton-ca/ceiling-water-damage-repair/": [
     "/services/ceiling-water-damage-repair/",
     "/service-areas/fullerton-ca/",
@@ -2723,15 +2405,6 @@
     "/service-areas/chino-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/fullerton-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/fullerton-ca/",
-    "/service-areas/fullerton-ca/fire-damage-restoration/",
-    "/service-areas/fullerton-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/contents-restoration-storage/",
-    "/service-areas/chino-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/fullerton-ca/emergency-board-up-tarping/": [
     "/services/emergency-board-up-tarping/",
     "/service-areas/fullerton-ca/",
@@ -2748,15 +2421,6 @@
     "/service-areas/fullerton-ca/mold-remediation/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/chino-ca/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/fullerton-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/fullerton-ca/",
-    "/service-areas/fullerton-ca/fire-damage-restoration/",
-    "/service-areas/fullerton-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/emergency-water-removal/",
-    "/service-areas/chino-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/fullerton-ca/fire-damage-restoration/": [
@@ -2930,15 +2594,6 @@
     "/service-areas/chino-ca/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/norco-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/norco-ca/",
-    "/service-areas/norco-ca/fire-damage-restoration/",
-    "/service-areas/norco-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-    "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/norco-ca/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/norco-ca/",
@@ -2975,15 +2630,6 @@
     "/service-areas/chino-ca/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/norco-ca/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/norco-ca/",
-    "/service-areas/norco-ca/fire-damage-restoration/",
-    "/service-areas/norco-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-    "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/norco-ca/ceiling-water-damage-repair/": [
     "/services/ceiling-water-damage-repair/",
     "/service-areas/norco-ca/",
@@ -3011,15 +2657,6 @@
     "/service-areas/chino-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/norco-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/norco-ca/",
-    "/service-areas/norco-ca/fire-damage-restoration/",
-    "/service-areas/norco-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/contents-restoration-storage/",
-    "/service-areas/chino-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/norco-ca/emergency-board-up-tarping/": [
     "/services/emergency-board-up-tarping/",
     "/service-areas/norco-ca/",
@@ -3036,15 +2673,6 @@
     "/service-areas/norco-ca/mold-remediation/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/chino-ca/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/norco-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/norco-ca/",
-    "/service-areas/norco-ca/fire-damage-restoration/",
-    "/service-areas/norco-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/emergency-water-removal/",
-    "/service-areas/chino-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/norco-ca/fire-damage-restoration/": [
@@ -3218,15 +2846,6 @@
     "/service-areas/chino-hills-ca/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/chino-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/chino-ca/",
-    "/service-areas/chino-ca/fire-damage-restoration/",
-    "/service-areas/chino-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-    "/service-areas/chino-hills-ca/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/chino-ca/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/chino-ca/",
@@ -3263,15 +2882,6 @@
     "/service-areas/chino-hills-ca/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/chino-ca/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/chino-ca/",
-    "/service-areas/chino-ca/fire-damage-restoration/",
-    "/service-areas/chino-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-    "/service-areas/chino-hills-ca/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/chino-ca/ceiling-water-damage-repair/": [
     "/services/ceiling-water-damage-repair/",
     "/service-areas/chino-ca/",
@@ -3299,15 +2909,6 @@
     "/service-areas/chino-hills-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/chino-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/chino-ca/",
-    "/service-areas/chino-ca/fire-damage-restoration/",
-    "/service-areas/chino-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/contents-restoration-storage/",
-    "/service-areas/chino-hills-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/chino-ca/emergency-board-up-tarping/": [
     "/services/emergency-board-up-tarping/",
     "/service-areas/chino-ca/",
@@ -3324,15 +2925,6 @@
     "/service-areas/chino-ca/mold-remediation/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/chino-hills-ca/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/chino-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/chino-ca/",
-    "/service-areas/chino-ca/fire-damage-restoration/",
-    "/service-areas/chino-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/emergency-water-removal/",
-    "/service-areas/chino-hills-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/chino-ca/fire-damage-restoration/": [
@@ -3506,15 +3098,6 @@
     "/service-areas/chino-ca/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/chino-hills-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/chino-hills-ca/",
-    "/service-areas/chino-hills-ca/fire-damage-restoration/",
-    "/service-areas/chino-hills-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-    "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/chino-hills-ca/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/chino-hills-ca/",
@@ -3551,15 +3134,6 @@
     "/service-areas/chino-ca/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/chino-hills-ca/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/chino-hills-ca/",
-    "/service-areas/chino-hills-ca/fire-damage-restoration/",
-    "/service-areas/chino-hills-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-    "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/chino-hills-ca/ceiling-water-damage-repair/": [
     "/services/ceiling-water-damage-repair/",
     "/service-areas/chino-hills-ca/",
@@ -3587,15 +3161,6 @@
     "/service-areas/chino-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/chino-hills-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/chino-hills-ca/",
-    "/service-areas/chino-hills-ca/fire-damage-restoration/",
-    "/service-areas/chino-hills-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/contents-restoration-storage/",
-    "/service-areas/chino-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/chino-hills-ca/emergency-board-up-tarping/": [
     "/services/emergency-board-up-tarping/",
     "/service-areas/chino-hills-ca/",
@@ -3612,15 +3177,6 @@
     "/service-areas/chino-hills-ca/mold-remediation/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/chino-ca/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/chino-hills-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/chino-hills-ca/",
-    "/service-areas/chino-hills-ca/fire-damage-restoration/",
-    "/service-areas/chino-hills-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/emergency-water-removal/",
-    "/service-areas/chino-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/chino-hills-ca/fire-damage-restoration/": [
@@ -3794,15 +3350,6 @@
     "/service-areas/chino-ca/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/eastvale-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/eastvale-ca/",
-    "/service-areas/eastvale-ca/fire-damage-restoration/",
-    "/service-areas/eastvale-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-    "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/eastvale-ca/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/eastvale-ca/",
@@ -3839,15 +3386,6 @@
     "/service-areas/chino-ca/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/eastvale-ca/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/eastvale-ca/",
-    "/service-areas/eastvale-ca/fire-damage-restoration/",
-    "/service-areas/eastvale-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-    "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/eastvale-ca/ceiling-water-damage-repair/": [
     "/services/ceiling-water-damage-repair/",
     "/service-areas/eastvale-ca/",
@@ -3875,15 +3413,6 @@
     "/service-areas/chino-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/eastvale-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/eastvale-ca/",
-    "/service-areas/eastvale-ca/fire-damage-restoration/",
-    "/service-areas/eastvale-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/contents-restoration-storage/",
-    "/service-areas/chino-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/eastvale-ca/emergency-board-up-tarping/": [
     "/services/emergency-board-up-tarping/",
     "/service-areas/eastvale-ca/",
@@ -3900,15 +3429,6 @@
     "/service-areas/eastvale-ca/mold-remediation/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/chino-ca/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/eastvale-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/eastvale-ca/",
-    "/service-areas/eastvale-ca/fire-damage-restoration/",
-    "/service-areas/eastvale-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/emergency-water-removal/",
-    "/service-areas/chino-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/eastvale-ca/fire-damage-restoration/": [
@@ -4082,15 +3602,6 @@
     "/service-areas/chino-ca/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/silverado-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/silverado-ca/",
-    "/service-areas/silverado-ca/fire-damage-restoration/",
-    "/service-areas/silverado-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-    "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/silverado-ca/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/silverado-ca/",
@@ -4127,15 +3638,6 @@
     "/service-areas/chino-ca/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/silverado-ca/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/silverado-ca/",
-    "/service-areas/silverado-ca/fire-damage-restoration/",
-    "/service-areas/silverado-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-    "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/silverado-ca/ceiling-water-damage-repair/": [
     "/services/ceiling-water-damage-repair/",
     "/service-areas/silverado-ca/",
@@ -4163,15 +3665,6 @@
     "/service-areas/chino-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/silverado-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/silverado-ca/",
-    "/service-areas/silverado-ca/fire-damage-restoration/",
-    "/service-areas/silverado-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/contents-restoration-storage/",
-    "/service-areas/chino-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/silverado-ca/emergency-board-up-tarping/": [
     "/services/emergency-board-up-tarping/",
     "/service-areas/silverado-ca/",
@@ -4188,15 +3681,6 @@
     "/service-areas/silverado-ca/mold-remediation/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/chino-ca/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/silverado-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/silverado-ca/",
-    "/service-areas/silverado-ca/fire-damage-restoration/",
-    "/service-areas/silverado-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/emergency-water-removal/",
-    "/service-areas/chino-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/silverado-ca/fire-damage-restoration/": [
@@ -4370,15 +3854,6 @@
     "/service-areas/chino-ca/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/jurupa-valley-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/jurupa-valley-ca/",
-    "/service-areas/jurupa-valley-ca/fire-damage-restoration/",
-    "/service-areas/jurupa-valley-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-    "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/jurupa-valley-ca/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/jurupa-valley-ca/",
@@ -4415,15 +3890,6 @@
     "/service-areas/chino-ca/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/jurupa-valley-ca/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/jurupa-valley-ca/",
-    "/service-areas/jurupa-valley-ca/fire-damage-restoration/",
-    "/service-areas/jurupa-valley-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-    "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/jurupa-valley-ca/ceiling-water-damage-repair/": [
     "/services/ceiling-water-damage-repair/",
     "/service-areas/jurupa-valley-ca/",
@@ -4451,15 +3917,6 @@
     "/service-areas/chino-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/jurupa-valley-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/jurupa-valley-ca/",
-    "/service-areas/jurupa-valley-ca/fire-damage-restoration/",
-    "/service-areas/jurupa-valley-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/contents-restoration-storage/",
-    "/service-areas/chino-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/jurupa-valley-ca/emergency-board-up-tarping/": [
     "/services/emergency-board-up-tarping/",
     "/service-areas/jurupa-valley-ca/",
@@ -4476,15 +3933,6 @@
     "/service-areas/jurupa-valley-ca/mold-remediation/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/chino-ca/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/jurupa-valley-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/jurupa-valley-ca/",
-    "/service-areas/jurupa-valley-ca/fire-damage-restoration/",
-    "/service-areas/jurupa-valley-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/emergency-water-removal/",
-    "/service-areas/chino-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/jurupa-valley-ca/fire-damage-restoration/": [
@@ -4658,15 +4106,6 @@
     "/service-areas/chino-ca/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/temescal-valley-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/temescal-valley-ca/",
-    "/service-areas/temescal-valley-ca/fire-damage-restoration/",
-    "/service-areas/temescal-valley-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-    "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/temescal-valley-ca/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/temescal-valley-ca/",
@@ -4703,15 +4142,6 @@
     "/service-areas/chino-ca/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/temescal-valley-ca/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/temescal-valley-ca/",
-    "/service-areas/temescal-valley-ca/fire-damage-restoration/",
-    "/service-areas/temescal-valley-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-    "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/temescal-valley-ca/ceiling-water-damage-repair/": [
     "/services/ceiling-water-damage-repair/",
     "/service-areas/temescal-valley-ca/",
@@ -4739,15 +4169,6 @@
     "/service-areas/chino-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/temescal-valley-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/temescal-valley-ca/",
-    "/service-areas/temescal-valley-ca/fire-damage-restoration/",
-    "/service-areas/temescal-valley-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/contents-restoration-storage/",
-    "/service-areas/chino-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/temescal-valley-ca/emergency-board-up-tarping/": [
     "/services/emergency-board-up-tarping/",
     "/service-areas/temescal-valley-ca/",
@@ -4764,15 +4185,6 @@
     "/service-areas/temescal-valley-ca/mold-remediation/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/chino-ca/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/temescal-valley-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/temescal-valley-ca/",
-    "/service-areas/temescal-valley-ca/fire-damage-restoration/",
-    "/service-areas/temescal-valley-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/emergency-water-removal/",
-    "/service-areas/chino-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/temescal-valley-ca/fire-damage-restoration/": [
@@ -4946,15 +4358,6 @@
     "/service-areas/chino-ca/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/yorba-linda-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/yorba-linda-ca/",
-    "/service-areas/yorba-linda-ca/fire-damage-restoration/",
-    "/service-areas/yorba-linda-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-    "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/yorba-linda-ca/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/yorba-linda-ca/",
@@ -4991,15 +4394,6 @@
     "/service-areas/chino-ca/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/yorba-linda-ca/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/yorba-linda-ca/",
-    "/service-areas/yorba-linda-ca/fire-damage-restoration/",
-    "/service-areas/yorba-linda-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-    "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/yorba-linda-ca/ceiling-water-damage-repair/": [
     "/services/ceiling-water-damage-repair/",
     "/service-areas/yorba-linda-ca/",
@@ -5027,15 +4421,6 @@
     "/service-areas/chino-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/yorba-linda-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/yorba-linda-ca/",
-    "/service-areas/yorba-linda-ca/fire-damage-restoration/",
-    "/service-areas/yorba-linda-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/contents-restoration-storage/",
-    "/service-areas/chino-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/yorba-linda-ca/emergency-board-up-tarping/": [
     "/services/emergency-board-up-tarping/",
     "/service-areas/yorba-linda-ca/",
@@ -5052,15 +4437,6 @@
     "/service-areas/yorba-linda-ca/mold-remediation/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/chino-ca/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/yorba-linda-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/yorba-linda-ca/",
-    "/service-areas/yorba-linda-ca/fire-damage-restoration/",
-    "/service-areas/yorba-linda-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/emergency-water-removal/",
-    "/service-areas/chino-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/yorba-linda-ca/fire-damage-restoration/": [
@@ -5234,15 +4610,6 @@
     "/service-areas/chino-ca/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/lake-mathews-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/lake-mathews-ca/",
-    "/service-areas/lake-mathews-ca/fire-damage-restoration/",
-    "/service-areas/lake-mathews-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-    "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/lake-mathews-ca/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/lake-mathews-ca/",
@@ -5279,15 +4646,6 @@
     "/service-areas/chino-ca/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/lake-mathews-ca/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/lake-mathews-ca/",
-    "/service-areas/lake-mathews-ca/fire-damage-restoration/",
-    "/service-areas/lake-mathews-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-    "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/lake-mathews-ca/ceiling-water-damage-repair/": [
     "/services/ceiling-water-damage-repair/",
     "/service-areas/lake-mathews-ca/",
@@ -5315,15 +4673,6 @@
     "/service-areas/chino-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/lake-mathews-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/lake-mathews-ca/",
-    "/service-areas/lake-mathews-ca/fire-damage-restoration/",
-    "/service-areas/lake-mathews-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/contents-restoration-storage/",
-    "/service-areas/chino-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/lake-mathews-ca/emergency-board-up-tarping/": [
     "/services/emergency-board-up-tarping/",
     "/service-areas/lake-mathews-ca/",
@@ -5340,15 +4689,6 @@
     "/service-areas/lake-mathews-ca/mold-remediation/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/chino-ca/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/lake-mathews-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/lake-mathews-ca/",
-    "/service-areas/lake-mathews-ca/fire-damage-restoration/",
-    "/service-areas/lake-mathews-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/emergency-water-removal/",
-    "/service-areas/chino-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/lake-mathews-ca/fire-damage-restoration/": [
@@ -5522,15 +4862,6 @@
     "/service-areas/chino-ca/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/woodcrest-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/woodcrest-ca/",
-    "/service-areas/woodcrest-ca/fire-damage-restoration/",
-    "/service-areas/woodcrest-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-    "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/woodcrest-ca/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/woodcrest-ca/",
@@ -5567,15 +4898,6 @@
     "/service-areas/chino-ca/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/woodcrest-ca/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/woodcrest-ca/",
-    "/service-areas/woodcrest-ca/fire-damage-restoration/",
-    "/service-areas/woodcrest-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-    "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/woodcrest-ca/ceiling-water-damage-repair/": [
     "/services/ceiling-water-damage-repair/",
     "/service-areas/woodcrest-ca/",
@@ -5603,15 +4925,6 @@
     "/service-areas/chino-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/woodcrest-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/woodcrest-ca/",
-    "/service-areas/woodcrest-ca/fire-damage-restoration/",
-    "/service-areas/woodcrest-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/contents-restoration-storage/",
-    "/service-areas/chino-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/woodcrest-ca/emergency-board-up-tarping/": [
     "/services/emergency-board-up-tarping/",
     "/service-areas/woodcrest-ca/",
@@ -5628,15 +4941,6 @@
     "/service-areas/woodcrest-ca/mold-remediation/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/chino-ca/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/woodcrest-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/woodcrest-ca/",
-    "/service-areas/woodcrest-ca/fire-damage-restoration/",
-    "/service-areas/woodcrest-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/emergency-water-removal/",
-    "/service-areas/chino-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/woodcrest-ca/fire-damage-restoration/": [
@@ -5810,15 +5114,6 @@
     "/service-areas/chino-ca/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/trabuco-canyon-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/trabuco-canyon-ca/",
-    "/service-areas/trabuco-canyon-ca/fire-damage-restoration/",
-    "/service-areas/trabuco-canyon-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-    "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/trabuco-canyon-ca/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/trabuco-canyon-ca/",
@@ -5855,15 +5150,6 @@
     "/service-areas/chino-ca/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/trabuco-canyon-ca/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/trabuco-canyon-ca/",
-    "/service-areas/trabuco-canyon-ca/fire-damage-restoration/",
-    "/service-areas/trabuco-canyon-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-    "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/trabuco-canyon-ca/ceiling-water-damage-repair/": [
     "/services/ceiling-water-damage-repair/",
     "/service-areas/trabuco-canyon-ca/",
@@ -5891,15 +5177,6 @@
     "/service-areas/chino-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/trabuco-canyon-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/trabuco-canyon-ca/",
-    "/service-areas/trabuco-canyon-ca/fire-damage-restoration/",
-    "/service-areas/trabuco-canyon-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/contents-restoration-storage/",
-    "/service-areas/chino-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/trabuco-canyon-ca/emergency-board-up-tarping/": [
     "/services/emergency-board-up-tarping/",
     "/service-areas/trabuco-canyon-ca/",
@@ -5916,15 +5193,6 @@
     "/service-areas/trabuco-canyon-ca/mold-remediation/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/chino-ca/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/trabuco-canyon-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/trabuco-canyon-ca/",
-    "/service-areas/trabuco-canyon-ca/fire-damage-restoration/",
-    "/service-areas/trabuco-canyon-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/emergency-water-removal/",
-    "/service-areas/chino-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/trabuco-canyon-ca/fire-damage-restoration/": [
@@ -6098,15 +5366,6 @@
     "/service-areas/chino-ca/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/north-tustin-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/north-tustin-ca/",
-    "/service-areas/north-tustin-ca/fire-damage-restoration/",
-    "/service-areas/north-tustin-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-    "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/north-tustin-ca/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/north-tustin-ca/",
@@ -6143,15 +5402,6 @@
     "/service-areas/chino-ca/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/north-tustin-ca/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/north-tustin-ca/",
-    "/service-areas/north-tustin-ca/fire-damage-restoration/",
-    "/service-areas/north-tustin-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-    "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/north-tustin-ca/ceiling-water-damage-repair/": [
     "/services/ceiling-water-damage-repair/",
     "/service-areas/north-tustin-ca/",
@@ -6179,15 +5429,6 @@
     "/service-areas/chino-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/north-tustin-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/north-tustin-ca/",
-    "/service-areas/north-tustin-ca/fire-damage-restoration/",
-    "/service-areas/north-tustin-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/contents-restoration-storage/",
-    "/service-areas/chino-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/north-tustin-ca/emergency-board-up-tarping/": [
     "/services/emergency-board-up-tarping/",
     "/service-areas/north-tustin-ca/",
@@ -6204,15 +5445,6 @@
     "/service-areas/north-tustin-ca/mold-remediation/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/chino-ca/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/north-tustin-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/north-tustin-ca/",
-    "/service-areas/north-tustin-ca/fire-damage-restoration/",
-    "/service-areas/north-tustin-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/emergency-water-removal/",
-    "/service-areas/chino-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/north-tustin-ca/fire-damage-restoration/": [
@@ -6386,15 +5618,6 @@
     "/service-areas/chino-ca/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/montclair-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/montclair-ca/",
-    "/service-areas/montclair-ca/fire-damage-restoration/",
-    "/service-areas/montclair-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-    "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/montclair-ca/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/montclair-ca/",
@@ -6431,15 +5654,6 @@
     "/service-areas/chino-ca/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/montclair-ca/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/montclair-ca/",
-    "/service-areas/montclair-ca/fire-damage-restoration/",
-    "/service-areas/montclair-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-    "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/montclair-ca/ceiling-water-damage-repair/": [
     "/services/ceiling-water-damage-repair/",
     "/service-areas/montclair-ca/",
@@ -6467,15 +5681,6 @@
     "/service-areas/chino-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/montclair-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/montclair-ca/",
-    "/service-areas/montclair-ca/fire-damage-restoration/",
-    "/service-areas/montclair-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/contents-restoration-storage/",
-    "/service-areas/chino-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/montclair-ca/emergency-board-up-tarping/": [
     "/services/emergency-board-up-tarping/",
     "/service-areas/montclair-ca/",
@@ -6492,15 +5697,6 @@
     "/service-areas/montclair-ca/mold-remediation/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/chino-ca/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/montclair-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/montclair-ca/",
-    "/service-areas/montclair-ca/fire-damage-restoration/",
-    "/service-areas/montclair-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/emergency-water-removal/",
-    "/service-areas/chino-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/montclair-ca/fire-damage-restoration/": [
@@ -6674,15 +5870,6 @@
     "/service-areas/chino-ca/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/villa-park-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/villa-park-ca/",
-    "/service-areas/villa-park-ca/fire-damage-restoration/",
-    "/service-areas/villa-park-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-    "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/villa-park-ca/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/villa-park-ca/",
@@ -6719,15 +5906,6 @@
     "/service-areas/chino-ca/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/villa-park-ca/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/villa-park-ca/",
-    "/service-areas/villa-park-ca/fire-damage-restoration/",
-    "/service-areas/villa-park-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-    "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/villa-park-ca/ceiling-water-damage-repair/": [
     "/services/ceiling-water-damage-repair/",
     "/service-areas/villa-park-ca/",
@@ -6755,15 +5933,6 @@
     "/service-areas/chino-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/villa-park-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/villa-park-ca/",
-    "/service-areas/villa-park-ca/fire-damage-restoration/",
-    "/service-areas/villa-park-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/contents-restoration-storage/",
-    "/service-areas/chino-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/villa-park-ca/emergency-board-up-tarping/": [
     "/services/emergency-board-up-tarping/",
     "/service-areas/villa-park-ca/",
@@ -6780,15 +5949,6 @@
     "/service-areas/villa-park-ca/mold-remediation/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/chino-ca/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/villa-park-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/villa-park-ca/",
-    "/service-areas/villa-park-ca/fire-damage-restoration/",
-    "/service-areas/villa-park-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/emergency-water-removal/",
-    "/service-areas/chino-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/villa-park-ca/fire-damage-restoration/": [
@@ -6962,15 +6122,6 @@
     "/service-areas/chino-ca/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/fontana-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/fontana-ca/",
-    "/service-areas/fontana-ca/fire-damage-restoration/",
-    "/service-areas/fontana-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-    "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/fontana-ca/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/fontana-ca/",
@@ -7007,15 +6158,6 @@
     "/service-areas/chino-ca/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/fontana-ca/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/fontana-ca/",
-    "/service-areas/fontana-ca/fire-damage-restoration/",
-    "/service-areas/fontana-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-    "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/fontana-ca/ceiling-water-damage-repair/": [
     "/services/ceiling-water-damage-repair/",
     "/service-areas/fontana-ca/",
@@ -7043,15 +6185,6 @@
     "/service-areas/chino-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/fontana-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/fontana-ca/",
-    "/service-areas/fontana-ca/fire-damage-restoration/",
-    "/service-areas/fontana-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/contents-restoration-storage/",
-    "/service-areas/chino-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/fontana-ca/emergency-board-up-tarping/": [
     "/services/emergency-board-up-tarping/",
     "/service-areas/fontana-ca/",
@@ -7068,15 +6201,6 @@
     "/service-areas/fontana-ca/mold-remediation/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/chino-ca/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/fontana-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/fontana-ca/",
-    "/service-areas/fontana-ca/fire-damage-restoration/",
-    "/service-areas/fontana-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/emergency-water-removal/",
-    "/service-areas/chino-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/fontana-ca/fire-damage-restoration/": [
@@ -7250,15 +6374,6 @@
     "/service-areas/chino-ca/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/pomona-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/pomona-ca/",
-    "/service-areas/pomona-ca/fire-damage-restoration/",
-    "/service-areas/pomona-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-    "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/pomona-ca/basement-flooding-cleanup/": [
     "/services/basement-flooding-cleanup/",
     "/service-areas/pomona-ca/",
@@ -7295,15 +6410,6 @@
     "/service-areas/chino-ca/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/pomona-ca/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/pomona-ca/",
-    "/service-areas/pomona-ca/fire-damage-restoration/",
-    "/service-areas/pomona-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-    "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/pomona-ca/ceiling-water-damage-repair/": [
     "/services/ceiling-water-damage-repair/",
     "/service-areas/pomona-ca/",
@@ -7331,15 +6437,6 @@
     "/service-areas/chino-ca/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/pomona-ca/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/pomona-ca/",
-    "/service-areas/pomona-ca/fire-damage-restoration/",
-    "/service-areas/pomona-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/contents-restoration-storage/",
-    "/service-areas/chino-ca/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/pomona-ca/emergency-board-up-tarping/": [
     "/services/emergency-board-up-tarping/",
     "/service-areas/pomona-ca/",
@@ -7356,15 +6453,6 @@
     "/service-areas/pomona-ca/mold-remediation/",
     "/service-areas/anaheim-ca/emergency-plumbing/",
     "/service-areas/chino-ca/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/pomona-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/pomona-ca/",
-    "/service-areas/pomona-ca/fire-damage-restoration/",
-    "/service-areas/pomona-ca/mold-remediation/",
-    "/service-areas/anaheim-ca/emergency-water-removal/",
-    "/service-areas/chino-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/pomona-ca/fire-damage-restoration/": [

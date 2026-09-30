@@ -381,50 +381,6 @@
       ]
     },
     {
-      "url_path": "/services/air-duct-hvac-cleaning/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Bakersfield | ProRestoration Services",
-      "h1": "Air Duct & HVAC Cleaning in Bakersfield",
-      "meta_description": "24/7 air duct & hvac cleaning in Bakersfield and surrounding areas. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "air duct & hvac cleaning bakersfield",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-        "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
-        "/service-areas/buttonwillow-ca/air-duct-hvac-cleaning/",
-        "/service-areas/delano-ca/air-duct-hvac-cleaning/",
-        "/service-areas/dustin-acres-ca/air-duct-hvac-cleaning/",
-        "/service-areas/east-niles-ca/air-duct-hvac-cleaning/",
-        "/service-areas/keene-ca/air-duct-hvac-cleaning/",
-        "/service-areas/lake-isabella-ca/air-duct-hvac-cleaning/",
-        "/service-areas/lamont-ca/air-duct-hvac-cleaning/",
-        "/service-areas/maricopa-ca/air-duct-hvac-cleaning/",
-        "/service-areas/mcfarland-ca/air-duct-hvac-cleaning/",
-        "/service-areas/oildale-ca/air-duct-hvac-cleaning/"
-      ]
-    },
-    {
       "url_path": "/services/appliance-leak-cleanup/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -1475,56 +1431,6 @@
       ]
     },
     {
-      "url_path": "/services/soot-removal/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Soot Removal in Bakersfield | ProRestoration Services",
-      "h1": "Soot Removal in Bakersfield",
-      "meta_description": "24/7 soot removal in Bakersfield and surrounding areas. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "soot removal bakersfield",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/arvin-ca/soot-removal/",
-        "/service-areas/bear-valley-springs-ca/soot-removal/",
-        "/service-areas/buttonwillow-ca/soot-removal/",
-        "/service-areas/delano-ca/soot-removal/",
-        "/service-areas/dustin-acres-ca/soot-removal/",
-        "/service-areas/east-niles-ca/soot-removal/",
-        "/service-areas/keene-ca/soot-removal/",
-        "/service-areas/lake-isabella-ca/soot-removal/",
-        "/service-areas/lamont-ca/soot-removal/",
-        "/service-areas/maricopa-ca/soot-removal/",
-        "/service-areas/mcfarland-ca/soot-removal/",
-        "/service-areas/oildale-ca/soot-removal/"
-      ]
-    },
-    {
       "url_path": "/services/storm-damage-restoration/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -1979,105 +1885,6 @@
         "/service-areas/maricopa-ca/ceiling-water-damage-repair/",
         "/service-areas/mcfarland-ca/ceiling-water-damage-repair/",
         "/service-areas/oildale-ca/ceiling-water-damage-repair/"
-      ]
-    },
-    {
-      "url_path": "/services/water-heater-flood-cleanup/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Bakersfield | ProRestoration Services",
-      "h1": "Water Heater Flood Cleanup in Bakersfield",
-      "meta_description": "24/7 water heater flood cleanup in Bakersfield and surrounding areas. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "water heater flood cleanup bakersfield",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-        "/service-areas/buttonwillow-ca/water-heater-flood-cleanup/",
-        "/service-areas/delano-ca/water-heater-flood-cleanup/",
-        "/service-areas/dustin-acres-ca/water-heater-flood-cleanup/",
-        "/service-areas/east-niles-ca/water-heater-flood-cleanup/",
-        "/service-areas/keene-ca/water-heater-flood-cleanup/",
-        "/service-areas/lake-isabella-ca/water-heater-flood-cleanup/",
-        "/service-areas/lamont-ca/water-heater-flood-cleanup/",
-        "/service-areas/maricopa-ca/water-heater-flood-cleanup/",
-        "/service-areas/mcfarland-ca/water-heater-flood-cleanup/",
-        "/service-areas/oildale-ca/water-heater-flood-cleanup/"
-      ]
-    },
-    {
-      "url_path": "/services/emergency-water-removal/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Bakersfield | ProRestoration Services",
-      "h1": "24/7 Emergency Water Removal in Bakersfield",
-      "meta_description": "24/7 24/7 emergency water removal in Bakersfield and surrounding areas. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "24/7 emergency water removal bakersfield",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/arvin-ca/emergency-water-removal/",
-        "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-        "/service-areas/buttonwillow-ca/emergency-water-removal/",
-        "/service-areas/delano-ca/emergency-water-removal/",
-        "/service-areas/dustin-acres-ca/emergency-water-removal/",
-        "/service-areas/east-niles-ca/emergency-water-removal/",
-        "/service-areas/keene-ca/emergency-water-removal/",
-        "/service-areas/lake-isabella-ca/emergency-water-removal/",
-        "/service-areas/lamont-ca/emergency-water-removal/",
-        "/service-areas/maricopa-ca/emergency-water-removal/",
-        "/service-areas/mcfarland-ca/emergency-water-removal/",
-        "/service-areas/oildale-ca/emergency-water-removal/"
       ]
     },
     {
@@ -3637,44 +3444,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/oildale-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Oildale, CA | ProRestoration Services",
-      "h1": "Air Duct & HVAC Cleaning in Oildale",
-      "meta_description": "24/7 air duct & hvac cleaning in Oildale, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "air duct & hvac cleaning oildale",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/oildale-ca/",
-        "/service-areas/oildale-ca/fire-damage-restoration/",
-        "/service-areas/oildale-ca/home-remodeling/",
-        "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-        "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/oildale-ca/appliance-leak-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4587,50 +4356,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/oildale-ca/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Oildale, CA | ProRestoration Services",
-      "h1": "Soot Removal in Oildale",
-      "meta_description": "24/7 soot removal in Oildale, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "soot removal oildale",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/oildale-ca/",
-        "/service-areas/oildale-ca/fire-damage-restoration/",
-        "/service-areas/oildale-ca/home-remodeling/",
-        "/service-areas/arvin-ca/soot-removal/",
-        "/service-areas/bear-valley-springs-ca/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/oildale-ca/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5028,93 +4753,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/oildale-ca/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Oildale, CA | ProRestoration Services",
-      "h1": "Water Heater Flood Cleanup in Oildale",
-      "meta_description": "24/7 water heater flood cleanup in Oildale, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "water heater flood cleanup oildale",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/oildale-ca/",
-        "/service-areas/oildale-ca/fire-damage-restoration/",
-        "/service-areas/oildale-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/oildale-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Oildale, CA | ProRestoration Services",
-      "h1": "24/7 Emergency Water Removal in Oildale",
-      "meta_description": "24/7 24/7 emergency water removal in Oildale, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "24/7 emergency water removal oildale",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/oildale-ca/",
-        "/service-areas/oildale-ca/fire-damage-restoration/",
-        "/service-areas/oildale-ca/home-remodeling/",
-        "/service-areas/arvin-ca/emergency-water-removal/",
-        "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/rosedale-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5155,44 +4793,6 @@
         "/service-areas/rosedale-ca/home-remodeling/",
         "/service-areas/arvin-ca/air-duct-cleaning/",
         "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/rosedale-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Rosedale, CA | ProRestoration Services",
-      "h1": "Air Duct & HVAC Cleaning in Rosedale",
-      "meta_description": "24/7 air duct & hvac cleaning in Rosedale, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "air duct & hvac cleaning rosedale",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/rosedale-ca/",
-        "/service-areas/rosedale-ca/fire-damage-restoration/",
-        "/service-areas/rosedale-ca/home-remodeling/",
-        "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-        "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -6109,50 +5709,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/rosedale-ca/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Rosedale, CA | ProRestoration Services",
-      "h1": "Soot Removal in Rosedale",
-      "meta_description": "24/7 soot removal in Rosedale, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "soot removal rosedale",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/rosedale-ca/",
-        "/service-areas/rosedale-ca/fire-damage-restoration/",
-        "/service-areas/rosedale-ca/home-remodeling/",
-        "/service-areas/arvin-ca/soot-removal/",
-        "/service-areas/bear-valley-springs-ca/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/rosedale-ca/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6550,93 +6106,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/rosedale-ca/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Rosedale, CA | ProRestoration Services",
-      "h1": "Water Heater Flood Cleanup in Rosedale",
-      "meta_description": "24/7 water heater flood cleanup in Rosedale, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "water heater flood cleanup rosedale",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/rosedale-ca/",
-        "/service-areas/rosedale-ca/fire-damage-restoration/",
-        "/service-areas/rosedale-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/rosedale-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Rosedale, CA | ProRestoration Services",
-      "h1": "24/7 Emergency Water Removal in Rosedale",
-      "meta_description": "24/7 24/7 emergency water removal in Rosedale, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "24/7 emergency water removal rosedale",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/rosedale-ca/",
-        "/service-areas/rosedale-ca/fire-damage-restoration/",
-        "/service-areas/rosedale-ca/home-remodeling/",
-        "/service-areas/arvin-ca/emergency-water-removal/",
-        "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/delano-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6677,44 +6146,6 @@
         "/service-areas/delano-ca/home-remodeling/",
         "/service-areas/arvin-ca/air-duct-cleaning/",
         "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/delano-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Delano, CA | ProRestoration Services",
-      "h1": "Air Duct & HVAC Cleaning in Delano",
-      "meta_description": "24/7 air duct & hvac cleaning in Delano, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "air duct & hvac cleaning delano",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/delano-ca/",
-        "/service-areas/delano-ca/fire-damage-restoration/",
-        "/service-areas/delano-ca/home-remodeling/",
-        "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-        "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -7631,50 +7062,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/delano-ca/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Delano, CA | ProRestoration Services",
-      "h1": "Soot Removal in Delano",
-      "meta_description": "24/7 soot removal in Delano, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "soot removal delano",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/delano-ca/",
-        "/service-areas/delano-ca/fire-damage-restoration/",
-        "/service-areas/delano-ca/home-remodeling/",
-        "/service-areas/arvin-ca/soot-removal/",
-        "/service-areas/bear-valley-springs-ca/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/delano-ca/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8072,93 +7459,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/delano-ca/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Delano, CA | ProRestoration Services",
-      "h1": "Water Heater Flood Cleanup in Delano",
-      "meta_description": "24/7 water heater flood cleanup in Delano, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "water heater flood cleanup delano",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/delano-ca/",
-        "/service-areas/delano-ca/fire-damage-restoration/",
-        "/service-areas/delano-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/delano-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Delano, CA | ProRestoration Services",
-      "h1": "24/7 Emergency Water Removal in Delano",
-      "meta_description": "24/7 24/7 emergency water removal in Delano, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "24/7 emergency water removal delano",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/delano-ca/",
-        "/service-areas/delano-ca/fire-damage-restoration/",
-        "/service-areas/delano-ca/home-remodeling/",
-        "/service-areas/arvin-ca/emergency-water-removal/",
-        "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/shafter-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8199,44 +7499,6 @@
         "/service-areas/shafter-ca/home-remodeling/",
         "/service-areas/arvin-ca/air-duct-cleaning/",
         "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/shafter-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Shafter, CA | ProRestoration Services",
-      "h1": "Air Duct & HVAC Cleaning in Shafter",
-      "meta_description": "24/7 air duct & hvac cleaning in Shafter, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "air duct & hvac cleaning shafter",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/shafter-ca/",
-        "/service-areas/shafter-ca/fire-damage-restoration/",
-        "/service-areas/shafter-ca/home-remodeling/",
-        "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-        "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -9153,50 +8415,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/shafter-ca/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Shafter, CA | ProRestoration Services",
-      "h1": "Soot Removal in Shafter",
-      "meta_description": "24/7 soot removal in Shafter, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "soot removal shafter",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/shafter-ca/",
-        "/service-areas/shafter-ca/fire-damage-restoration/",
-        "/service-areas/shafter-ca/home-remodeling/",
-        "/service-areas/arvin-ca/soot-removal/",
-        "/service-areas/bear-valley-springs-ca/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/shafter-ca/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9594,93 +8812,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/shafter-ca/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Shafter, CA | ProRestoration Services",
-      "h1": "Water Heater Flood Cleanup in Shafter",
-      "meta_description": "24/7 water heater flood cleanup in Shafter, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "water heater flood cleanup shafter",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/shafter-ca/",
-        "/service-areas/shafter-ca/fire-damage-restoration/",
-        "/service-areas/shafter-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/shafter-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Shafter, CA | ProRestoration Services",
-      "h1": "24/7 Emergency Water Removal in Shafter",
-      "meta_description": "24/7 24/7 emergency water removal in Shafter, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "24/7 emergency water removal shafter",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/shafter-ca/",
-        "/service-areas/shafter-ca/fire-damage-restoration/",
-        "/service-areas/shafter-ca/home-remodeling/",
-        "/service-areas/arvin-ca/emergency-water-removal/",
-        "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/wasco-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9721,44 +8852,6 @@
         "/service-areas/wasco-ca/home-remodeling/",
         "/service-areas/arvin-ca/air-duct-cleaning/",
         "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/wasco-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Wasco, CA | ProRestoration Services",
-      "h1": "Air Duct & HVAC Cleaning in Wasco",
-      "meta_description": "24/7 air duct & hvac cleaning in Wasco, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "air duct & hvac cleaning wasco",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/wasco-ca/",
-        "/service-areas/wasco-ca/fire-damage-restoration/",
-        "/service-areas/wasco-ca/home-remodeling/",
-        "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-        "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -10675,50 +9768,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/wasco-ca/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Wasco, CA | ProRestoration Services",
-      "h1": "Soot Removal in Wasco",
-      "meta_description": "24/7 soot removal in Wasco, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "soot removal wasco",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/wasco-ca/",
-        "/service-areas/wasco-ca/fire-damage-restoration/",
-        "/service-areas/wasco-ca/home-remodeling/",
-        "/service-areas/arvin-ca/soot-removal/",
-        "/service-areas/bear-valley-springs-ca/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/wasco-ca/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -11116,93 +10165,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/wasco-ca/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Wasco, CA | ProRestoration Services",
-      "h1": "Water Heater Flood Cleanup in Wasco",
-      "meta_description": "24/7 water heater flood cleanup in Wasco, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "water heater flood cleanup wasco",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/wasco-ca/",
-        "/service-areas/wasco-ca/fire-damage-restoration/",
-        "/service-areas/wasco-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/wasco-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Wasco, CA | ProRestoration Services",
-      "h1": "24/7 Emergency Water Removal in Wasco",
-      "meta_description": "24/7 24/7 emergency water removal in Wasco, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "24/7 emergency water removal wasco",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/wasco-ca/",
-        "/service-areas/wasco-ca/fire-damage-restoration/",
-        "/service-areas/wasco-ca/home-remodeling/",
-        "/service-areas/arvin-ca/emergency-water-removal/",
-        "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/taft-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -11243,44 +10205,6 @@
         "/service-areas/taft-ca/home-remodeling/",
         "/service-areas/arvin-ca/air-duct-cleaning/",
         "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/taft-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Taft, CA | ProRestoration Services",
-      "h1": "Air Duct & HVAC Cleaning in Taft",
-      "meta_description": "24/7 air duct & hvac cleaning in Taft, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "air duct & hvac cleaning taft",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/taft-ca/",
-        "/service-areas/taft-ca/fire-damage-restoration/",
-        "/service-areas/taft-ca/home-remodeling/",
-        "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-        "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -12197,50 +11121,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/taft-ca/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Taft, CA | ProRestoration Services",
-      "h1": "Soot Removal in Taft",
-      "meta_description": "24/7 soot removal in Taft, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "soot removal taft",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/taft-ca/",
-        "/service-areas/taft-ca/fire-damage-restoration/",
-        "/service-areas/taft-ca/home-remodeling/",
-        "/service-areas/arvin-ca/soot-removal/",
-        "/service-areas/bear-valley-springs-ca/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/taft-ca/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12638,93 +11518,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/taft-ca/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Taft, CA | ProRestoration Services",
-      "h1": "Water Heater Flood Cleanup in Taft",
-      "meta_description": "24/7 water heater flood cleanup in Taft, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "water heater flood cleanup taft",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/taft-ca/",
-        "/service-areas/taft-ca/fire-damage-restoration/",
-        "/service-areas/taft-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/taft-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Taft, CA | ProRestoration Services",
-      "h1": "24/7 Emergency Water Removal in Taft",
-      "meta_description": "24/7 24/7 emergency water removal in Taft, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "24/7 emergency water removal taft",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/taft-ca/",
-        "/service-areas/taft-ca/fire-damage-restoration/",
-        "/service-areas/taft-ca/home-remodeling/",
-        "/service-areas/arvin-ca/emergency-water-removal/",
-        "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/tehachapi-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12765,44 +11558,6 @@
         "/service-areas/tehachapi-ca/home-remodeling/",
         "/service-areas/arvin-ca/air-duct-cleaning/",
         "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/tehachapi-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Tehachapi, CA | ProRestoration Services",
-      "h1": "Air Duct & HVAC Cleaning in Tehachapi",
-      "meta_description": "24/7 air duct & hvac cleaning in Tehachapi, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "air duct & hvac cleaning tehachapi",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/tehachapi-ca/",
-        "/service-areas/tehachapi-ca/fire-damage-restoration/",
-        "/service-areas/tehachapi-ca/home-remodeling/",
-        "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-        "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -13719,50 +12474,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/tehachapi-ca/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Tehachapi, CA | ProRestoration Services",
-      "h1": "Soot Removal in Tehachapi",
-      "meta_description": "24/7 soot removal in Tehachapi, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "soot removal tehachapi",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/tehachapi-ca/",
-        "/service-areas/tehachapi-ca/fire-damage-restoration/",
-        "/service-areas/tehachapi-ca/home-remodeling/",
-        "/service-areas/arvin-ca/soot-removal/",
-        "/service-areas/bear-valley-springs-ca/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/tehachapi-ca/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14160,93 +12871,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/tehachapi-ca/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Tehachapi, CA | ProRestoration Services",
-      "h1": "Water Heater Flood Cleanup in Tehachapi",
-      "meta_description": "24/7 water heater flood cleanup in Tehachapi, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "water heater flood cleanup tehachapi",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/tehachapi-ca/",
-        "/service-areas/tehachapi-ca/fire-damage-restoration/",
-        "/service-areas/tehachapi-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/tehachapi-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Tehachapi, CA | ProRestoration Services",
-      "h1": "24/7 Emergency Water Removal in Tehachapi",
-      "meta_description": "24/7 24/7 emergency water removal in Tehachapi, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "24/7 emergency water removal tehachapi",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/tehachapi-ca/",
-        "/service-areas/tehachapi-ca/fire-damage-restoration/",
-        "/service-areas/tehachapi-ca/home-remodeling/",
-        "/service-areas/arvin-ca/emergency-water-removal/",
-        "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/arvin-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14287,44 +12911,6 @@
         "/service-areas/arvin-ca/home-remodeling/",
         "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
         "/service-areas/buttonwillow-ca/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Arvin, CA | ProRestoration Services",
-      "h1": "Air Duct & HVAC Cleaning in Arvin",
-      "meta_description": "24/7 air duct & hvac cleaning in Arvin, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "air duct & hvac cleaning arvin",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/arvin-ca/",
-        "/service-areas/arvin-ca/fire-damage-restoration/",
-        "/service-areas/arvin-ca/home-remodeling/",
-        "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
-        "/service-areas/buttonwillow-ca/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -15241,50 +13827,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/arvin-ca/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Arvin, CA | ProRestoration Services",
-      "h1": "Soot Removal in Arvin",
-      "meta_description": "24/7 soot removal in Arvin, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "soot removal arvin",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/arvin-ca/",
-        "/service-areas/arvin-ca/fire-damage-restoration/",
-        "/service-areas/arvin-ca/home-remodeling/",
-        "/service-areas/bear-valley-springs-ca/soot-removal/",
-        "/service-areas/buttonwillow-ca/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/arvin-ca/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -15682,93 +14224,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Arvin, CA | ProRestoration Services",
-      "h1": "Water Heater Flood Cleanup in Arvin",
-      "meta_description": "24/7 water heater flood cleanup in Arvin, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "water heater flood cleanup arvin",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/arvin-ca/",
-        "/service-areas/arvin-ca/fire-damage-restoration/",
-        "/service-areas/arvin-ca/home-remodeling/",
-        "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-        "/service-areas/buttonwillow-ca/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/arvin-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Arvin, CA | ProRestoration Services",
-      "h1": "24/7 Emergency Water Removal in Arvin",
-      "meta_description": "24/7 24/7 emergency water removal in Arvin, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "24/7 emergency water removal arvin",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/arvin-ca/",
-        "/service-areas/arvin-ca/fire-damage-restoration/",
-        "/service-areas/arvin-ca/home-remodeling/",
-        "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-        "/service-areas/buttonwillow-ca/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lamont-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -15809,44 +14264,6 @@
         "/service-areas/lamont-ca/home-remodeling/",
         "/service-areas/arvin-ca/air-duct-cleaning/",
         "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lamont-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Lamont, CA | ProRestoration Services",
-      "h1": "Air Duct & HVAC Cleaning in Lamont",
-      "meta_description": "24/7 air duct & hvac cleaning in Lamont, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "air duct & hvac cleaning lamont",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/lamont-ca/",
-        "/service-areas/lamont-ca/fire-damage-restoration/",
-        "/service-areas/lamont-ca/home-remodeling/",
-        "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-        "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -16763,50 +15180,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lamont-ca/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Lamont, CA | ProRestoration Services",
-      "h1": "Soot Removal in Lamont",
-      "meta_description": "24/7 soot removal in Lamont, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "soot removal lamont",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/lamont-ca/",
-        "/service-areas/lamont-ca/fire-damage-restoration/",
-        "/service-areas/lamont-ca/home-remodeling/",
-        "/service-areas/arvin-ca/soot-removal/",
-        "/service-areas/bear-valley-springs-ca/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lamont-ca/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17204,93 +15577,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lamont-ca/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Lamont, CA | ProRestoration Services",
-      "h1": "Water Heater Flood Cleanup in Lamont",
-      "meta_description": "24/7 water heater flood cleanup in Lamont, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "water heater flood cleanup lamont",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/lamont-ca/",
-        "/service-areas/lamont-ca/fire-damage-restoration/",
-        "/service-areas/lamont-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lamont-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Lamont, CA | ProRestoration Services",
-      "h1": "24/7 Emergency Water Removal in Lamont",
-      "meta_description": "24/7 24/7 emergency water removal in Lamont, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "24/7 emergency water removal lamont",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/lamont-ca/",
-        "/service-areas/lamont-ca/fire-damage-restoration/",
-        "/service-areas/lamont-ca/home-remodeling/",
-        "/service-areas/arvin-ca/emergency-water-removal/",
-        "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lake-isabella-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17331,44 +15617,6 @@
         "/service-areas/lake-isabella-ca/home-remodeling/",
         "/service-areas/arvin-ca/air-duct-cleaning/",
         "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lake-isabella-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Lake Isabella, CA | ProRestoration Services",
-      "h1": "Air Duct & HVAC Cleaning in Lake Isabella",
-      "meta_description": "24/7 air duct & hvac cleaning in Lake Isabella, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "air duct & hvac cleaning lake isabella",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/lake-isabella-ca/",
-        "/service-areas/lake-isabella-ca/fire-damage-restoration/",
-        "/service-areas/lake-isabella-ca/home-remodeling/",
-        "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-        "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -18285,50 +16533,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lake-isabella-ca/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Lake Isabella, CA | ProRestoration Services",
-      "h1": "Soot Removal in Lake Isabella",
-      "meta_description": "24/7 soot removal in Lake Isabella, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "soot removal lake isabella",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/lake-isabella-ca/",
-        "/service-areas/lake-isabella-ca/fire-damage-restoration/",
-        "/service-areas/lake-isabella-ca/home-remodeling/",
-        "/service-areas/arvin-ca/soot-removal/",
-        "/service-areas/bear-valley-springs-ca/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lake-isabella-ca/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -18726,93 +16930,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lake-isabella-ca/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Lake Isabella, CA | ProRestoration Services",
-      "h1": "Water Heater Flood Cleanup in Lake Isabella",
-      "meta_description": "24/7 water heater flood cleanup in Lake Isabella, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "water heater flood cleanup lake isabella",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/lake-isabella-ca/",
-        "/service-areas/lake-isabella-ca/fire-damage-restoration/",
-        "/service-areas/lake-isabella-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lake-isabella-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Lake Isabella, CA | ProRestoration Services",
-      "h1": "24/7 Emergency Water Removal in Lake Isabella",
-      "meta_description": "24/7 24/7 emergency water removal in Lake Isabella, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "24/7 emergency water removal lake isabella",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/lake-isabella-ca/",
-        "/service-areas/lake-isabella-ca/fire-damage-restoration/",
-        "/service-areas/lake-isabella-ca/home-remodeling/",
-        "/service-areas/arvin-ca/emergency-water-removal/",
-        "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/east-niles-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -18853,44 +16970,6 @@
         "/service-areas/east-niles-ca/home-remodeling/",
         "/service-areas/arvin-ca/air-duct-cleaning/",
         "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/east-niles-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in East Niles, CA | ProRestoration Services",
-      "h1": "Air Duct & HVAC Cleaning in East Niles",
-      "meta_description": "24/7 air duct & hvac cleaning in East Niles, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "air duct & hvac cleaning east niles",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/east-niles-ca/",
-        "/service-areas/east-niles-ca/fire-damage-restoration/",
-        "/service-areas/east-niles-ca/home-remodeling/",
-        "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-        "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -19807,50 +17886,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/east-niles-ca/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in East Niles, CA | ProRestoration Services",
-      "h1": "Soot Removal in East Niles",
-      "meta_description": "24/7 soot removal in East Niles, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "soot removal east niles",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/east-niles-ca/",
-        "/service-areas/east-niles-ca/fire-damage-restoration/",
-        "/service-areas/east-niles-ca/home-remodeling/",
-        "/service-areas/arvin-ca/soot-removal/",
-        "/service-areas/bear-valley-springs-ca/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/east-niles-ca/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -20248,93 +18283,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/east-niles-ca/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in East Niles, CA | ProRestoration Services",
-      "h1": "Water Heater Flood Cleanup in East Niles",
-      "meta_description": "24/7 water heater flood cleanup in East Niles, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "water heater flood cleanup east niles",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/east-niles-ca/",
-        "/service-areas/east-niles-ca/fire-damage-restoration/",
-        "/service-areas/east-niles-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/east-niles-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in East Niles, CA | ProRestoration Services",
-      "h1": "24/7 Emergency Water Removal in East Niles",
-      "meta_description": "24/7 24/7 emergency water removal in East Niles, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "24/7 emergency water removal east niles",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/east-niles-ca/",
-        "/service-areas/east-niles-ca/fire-damage-restoration/",
-        "/service-areas/east-niles-ca/home-remodeling/",
-        "/service-areas/arvin-ca/emergency-water-removal/",
-        "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/tarina-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -20375,44 +18323,6 @@
         "/service-areas/tarina-ca/home-remodeling/",
         "/service-areas/arvin-ca/air-duct-cleaning/",
         "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/tarina-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Tarina, CA | ProRestoration Services",
-      "h1": "Air Duct & HVAC Cleaning in Tarina",
-      "meta_description": "24/7 air duct & hvac cleaning in Tarina, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "air duct & hvac cleaning tarina",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/tarina-ca/",
-        "/service-areas/tarina-ca/fire-damage-restoration/",
-        "/service-areas/tarina-ca/home-remodeling/",
-        "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-        "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -21329,50 +19239,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/tarina-ca/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Tarina, CA | ProRestoration Services",
-      "h1": "Soot Removal in Tarina",
-      "meta_description": "24/7 soot removal in Tarina, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "soot removal tarina",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/tarina-ca/",
-        "/service-areas/tarina-ca/fire-damage-restoration/",
-        "/service-areas/tarina-ca/home-remodeling/",
-        "/service-areas/arvin-ca/soot-removal/",
-        "/service-areas/bear-valley-springs-ca/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/tarina-ca/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -21770,93 +19636,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/tarina-ca/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Tarina, CA | ProRestoration Services",
-      "h1": "Water Heater Flood Cleanup in Tarina",
-      "meta_description": "24/7 water heater flood cleanup in Tarina, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "water heater flood cleanup tarina",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/tarina-ca/",
-        "/service-areas/tarina-ca/fire-damage-restoration/",
-        "/service-areas/tarina-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/tarina-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Tarina, CA | ProRestoration Services",
-      "h1": "24/7 Emergency Water Removal in Tarina",
-      "meta_description": "24/7 24/7 emergency water removal in Tarina, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "24/7 emergency water removal tarina",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/tarina-ca/",
-        "/service-areas/tarina-ca/fire-damage-restoration/",
-        "/service-areas/tarina-ca/home-remodeling/",
-        "/service-areas/arvin-ca/emergency-water-removal/",
-        "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/weedpatch-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -21897,44 +19676,6 @@
         "/service-areas/weedpatch-ca/home-remodeling/",
         "/service-areas/arvin-ca/air-duct-cleaning/",
         "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/weedpatch-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Weedpatch, CA | ProRestoration Services",
-      "h1": "Air Duct & HVAC Cleaning in Weedpatch",
-      "meta_description": "24/7 air duct & hvac cleaning in Weedpatch, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "air duct & hvac cleaning weedpatch",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/weedpatch-ca/",
-        "/service-areas/weedpatch-ca/fire-damage-restoration/",
-        "/service-areas/weedpatch-ca/home-remodeling/",
-        "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-        "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -22851,50 +20592,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/weedpatch-ca/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Weedpatch, CA | ProRestoration Services",
-      "h1": "Soot Removal in Weedpatch",
-      "meta_description": "24/7 soot removal in Weedpatch, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "soot removal weedpatch",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/weedpatch-ca/",
-        "/service-areas/weedpatch-ca/fire-damage-restoration/",
-        "/service-areas/weedpatch-ca/home-remodeling/",
-        "/service-areas/arvin-ca/soot-removal/",
-        "/service-areas/bear-valley-springs-ca/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/weedpatch-ca/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -23292,93 +20989,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/weedpatch-ca/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Weedpatch, CA | ProRestoration Services",
-      "h1": "Water Heater Flood Cleanup in Weedpatch",
-      "meta_description": "24/7 water heater flood cleanup in Weedpatch, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "water heater flood cleanup weedpatch",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/weedpatch-ca/",
-        "/service-areas/weedpatch-ca/fire-damage-restoration/",
-        "/service-areas/weedpatch-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/weedpatch-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Weedpatch, CA | ProRestoration Services",
-      "h1": "24/7 Emergency Water Removal in Weedpatch",
-      "meta_description": "24/7 24/7 emergency water removal in Weedpatch, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "24/7 emergency water removal weedpatch",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/weedpatch-ca/",
-        "/service-areas/weedpatch-ca/fire-damage-restoration/",
-        "/service-areas/weedpatch-ca/home-remodeling/",
-        "/service-areas/arvin-ca/emergency-water-removal/",
-        "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/buttonwillow-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -23419,44 +21029,6 @@
         "/service-areas/buttonwillow-ca/home-remodeling/",
         "/service-areas/arvin-ca/air-duct-cleaning/",
         "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/buttonwillow-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Buttonwillow, CA | ProRestoration Services",
-      "h1": "Air Duct & HVAC Cleaning in Buttonwillow",
-      "meta_description": "24/7 air duct & hvac cleaning in Buttonwillow, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "air duct & hvac cleaning buttonwillow",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/buttonwillow-ca/",
-        "/service-areas/buttonwillow-ca/fire-damage-restoration/",
-        "/service-areas/buttonwillow-ca/home-remodeling/",
-        "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-        "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -24373,50 +21945,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/buttonwillow-ca/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Buttonwillow, CA | ProRestoration Services",
-      "h1": "Soot Removal in Buttonwillow",
-      "meta_description": "24/7 soot removal in Buttonwillow, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "soot removal buttonwillow",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/buttonwillow-ca/",
-        "/service-areas/buttonwillow-ca/fire-damage-restoration/",
-        "/service-areas/buttonwillow-ca/home-remodeling/",
-        "/service-areas/arvin-ca/soot-removal/",
-        "/service-areas/bear-valley-springs-ca/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/buttonwillow-ca/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -24814,93 +22342,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/buttonwillow-ca/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Buttonwillow, CA | ProRestoration Services",
-      "h1": "Water Heater Flood Cleanup in Buttonwillow",
-      "meta_description": "24/7 water heater flood cleanup in Buttonwillow, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "water heater flood cleanup buttonwillow",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/buttonwillow-ca/",
-        "/service-areas/buttonwillow-ca/fire-damage-restoration/",
-        "/service-areas/buttonwillow-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/buttonwillow-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Buttonwillow, CA | ProRestoration Services",
-      "h1": "24/7 Emergency Water Removal in Buttonwillow",
-      "meta_description": "24/7 24/7 emergency water removal in Buttonwillow, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "24/7 emergency water removal buttonwillow",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/buttonwillow-ca/",
-        "/service-areas/buttonwillow-ca/fire-damage-restoration/",
-        "/service-areas/buttonwillow-ca/home-remodeling/",
-        "/service-areas/arvin-ca/emergency-water-removal/",
-        "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/dustin-acres-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -24941,44 +22382,6 @@
         "/service-areas/dustin-acres-ca/home-remodeling/",
         "/service-areas/arvin-ca/air-duct-cleaning/",
         "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/dustin-acres-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Dustin Acres, CA | ProRestoration Services",
-      "h1": "Air Duct & HVAC Cleaning in Dustin Acres",
-      "meta_description": "24/7 air duct & hvac cleaning in Dustin Acres, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "air duct & hvac cleaning dustin acres",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/dustin-acres-ca/",
-        "/service-areas/dustin-acres-ca/fire-damage-restoration/",
-        "/service-areas/dustin-acres-ca/home-remodeling/",
-        "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-        "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -25895,50 +23298,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/dustin-acres-ca/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Dustin Acres, CA | ProRestoration Services",
-      "h1": "Soot Removal in Dustin Acres",
-      "meta_description": "24/7 soot removal in Dustin Acres, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "soot removal dustin acres",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/dustin-acres-ca/",
-        "/service-areas/dustin-acres-ca/fire-damage-restoration/",
-        "/service-areas/dustin-acres-ca/home-remodeling/",
-        "/service-areas/arvin-ca/soot-removal/",
-        "/service-areas/bear-valley-springs-ca/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/dustin-acres-ca/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -26336,93 +23695,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/dustin-acres-ca/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Dustin Acres, CA | ProRestoration Services",
-      "h1": "Water Heater Flood Cleanup in Dustin Acres",
-      "meta_description": "24/7 water heater flood cleanup in Dustin Acres, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "water heater flood cleanup dustin acres",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/dustin-acres-ca/",
-        "/service-areas/dustin-acres-ca/fire-damage-restoration/",
-        "/service-areas/dustin-acres-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/dustin-acres-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Dustin Acres, CA | ProRestoration Services",
-      "h1": "24/7 Emergency Water Removal in Dustin Acres",
-      "meta_description": "24/7 24/7 emergency water removal in Dustin Acres, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "24/7 emergency water removal dustin acres",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/dustin-acres-ca/",
-        "/service-areas/dustin-acres-ca/fire-damage-restoration/",
-        "/service-areas/dustin-acres-ca/home-remodeling/",
-        "/service-areas/arvin-ca/emergency-water-removal/",
-        "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/mcfarland-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -26463,44 +23735,6 @@
         "/service-areas/mcfarland-ca/home-remodeling/",
         "/service-areas/arvin-ca/air-duct-cleaning/",
         "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/mcfarland-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in McFarland, CA | ProRestoration Services",
-      "h1": "Air Duct & HVAC Cleaning in McFarland",
-      "meta_description": "24/7 air duct & hvac cleaning in McFarland, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "air duct & hvac cleaning mcfarland",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/mcfarland-ca/",
-        "/service-areas/mcfarland-ca/fire-damage-restoration/",
-        "/service-areas/mcfarland-ca/home-remodeling/",
-        "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-        "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -27417,50 +24651,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/mcfarland-ca/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in McFarland, CA | ProRestoration Services",
-      "h1": "Soot Removal in McFarland",
-      "meta_description": "24/7 soot removal in McFarland, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "soot removal mcfarland",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/mcfarland-ca/",
-        "/service-areas/mcfarland-ca/fire-damage-restoration/",
-        "/service-areas/mcfarland-ca/home-remodeling/",
-        "/service-areas/arvin-ca/soot-removal/",
-        "/service-areas/bear-valley-springs-ca/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/mcfarland-ca/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -27858,93 +25048,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/mcfarland-ca/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in McFarland, CA | ProRestoration Services",
-      "h1": "Water Heater Flood Cleanup in McFarland",
-      "meta_description": "24/7 water heater flood cleanup in McFarland, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "water heater flood cleanup mcfarland",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/mcfarland-ca/",
-        "/service-areas/mcfarland-ca/fire-damage-restoration/",
-        "/service-areas/mcfarland-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/mcfarland-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in McFarland, CA | ProRestoration Services",
-      "h1": "24/7 Emergency Water Removal in McFarland",
-      "meta_description": "24/7 24/7 emergency water removal in McFarland, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "24/7 emergency water removal mcfarland",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/mcfarland-ca/",
-        "/service-areas/mcfarland-ca/fire-damage-restoration/",
-        "/service-areas/mcfarland-ca/home-remodeling/",
-        "/service-areas/arvin-ca/emergency-water-removal/",
-        "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/valley-acres-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -27985,44 +25088,6 @@
         "/service-areas/valley-acres-ca/home-remodeling/",
         "/service-areas/arvin-ca/air-duct-cleaning/",
         "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/valley-acres-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Valley Acres, CA | ProRestoration Services",
-      "h1": "Air Duct & HVAC Cleaning in Valley Acres",
-      "meta_description": "24/7 air duct & hvac cleaning in Valley Acres, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "air duct & hvac cleaning valley acres",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/valley-acres-ca/",
-        "/service-areas/valley-acres-ca/fire-damage-restoration/",
-        "/service-areas/valley-acres-ca/home-remodeling/",
-        "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-        "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -28939,50 +26004,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/valley-acres-ca/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Valley Acres, CA | ProRestoration Services",
-      "h1": "Soot Removal in Valley Acres",
-      "meta_description": "24/7 soot removal in Valley Acres, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "soot removal valley acres",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/valley-acres-ca/",
-        "/service-areas/valley-acres-ca/fire-damage-restoration/",
-        "/service-areas/valley-acres-ca/home-remodeling/",
-        "/service-areas/arvin-ca/soot-removal/",
-        "/service-areas/bear-valley-springs-ca/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/valley-acres-ca/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -29380,93 +26401,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/valley-acres-ca/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Valley Acres, CA | ProRestoration Services",
-      "h1": "Water Heater Flood Cleanup in Valley Acres",
-      "meta_description": "24/7 water heater flood cleanup in Valley Acres, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "water heater flood cleanup valley acres",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/valley-acres-ca/",
-        "/service-areas/valley-acres-ca/fire-damage-restoration/",
-        "/service-areas/valley-acres-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/valley-acres-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Valley Acres, CA | ProRestoration Services",
-      "h1": "24/7 Emergency Water Removal in Valley Acres",
-      "meta_description": "24/7 24/7 emergency water removal in Valley Acres, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "24/7 emergency water removal valley acres",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/valley-acres-ca/",
-        "/service-areas/valley-acres-ca/fire-damage-restoration/",
-        "/service-areas/valley-acres-ca/home-remodeling/",
-        "/service-areas/arvin-ca/emergency-water-removal/",
-        "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/woody-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -29507,44 +26441,6 @@
         "/service-areas/woody-ca/home-remodeling/",
         "/service-areas/arvin-ca/air-duct-cleaning/",
         "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/woody-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Woody, CA | ProRestoration Services",
-      "h1": "Air Duct & HVAC Cleaning in Woody",
-      "meta_description": "24/7 air duct & hvac cleaning in Woody, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "air duct & hvac cleaning woody",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/woody-ca/",
-        "/service-areas/woody-ca/fire-damage-restoration/",
-        "/service-areas/woody-ca/home-remodeling/",
-        "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-        "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -30461,50 +27357,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/woody-ca/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Woody, CA | ProRestoration Services",
-      "h1": "Soot Removal in Woody",
-      "meta_description": "24/7 soot removal in Woody, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "soot removal woody",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/woody-ca/",
-        "/service-areas/woody-ca/fire-damage-restoration/",
-        "/service-areas/woody-ca/home-remodeling/",
-        "/service-areas/arvin-ca/soot-removal/",
-        "/service-areas/bear-valley-springs-ca/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/woody-ca/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -30902,93 +27754,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/woody-ca/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Woody, CA | ProRestoration Services",
-      "h1": "Water Heater Flood Cleanup in Woody",
-      "meta_description": "24/7 water heater flood cleanup in Woody, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "water heater flood cleanup woody",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/woody-ca/",
-        "/service-areas/woody-ca/fire-damage-restoration/",
-        "/service-areas/woody-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/woody-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Woody, CA | ProRestoration Services",
-      "h1": "24/7 Emergency Water Removal in Woody",
-      "meta_description": "24/7 24/7 emergency water removal in Woody, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "24/7 emergency water removal woody",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/woody-ca/",
-        "/service-areas/woody-ca/fire-damage-restoration/",
-        "/service-areas/woody-ca/home-remodeling/",
-        "/service-areas/arvin-ca/emergency-water-removal/",
-        "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -31029,44 +27794,6 @@
         "/service-areas/bear-valley-springs-ca/home-remodeling/",
         "/service-areas/arvin-ca/air-duct-cleaning/",
         "/service-areas/buttonwillow-ca/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Bear Valley Springs, CA | ProRestoration Services",
-      "h1": "Air Duct & HVAC Cleaning in Bear Valley Springs",
-      "meta_description": "24/7 air duct & hvac cleaning in Bear Valley Springs, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "air duct & hvac cleaning bear valley springs",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/bear-valley-springs-ca/fire-damage-restoration/",
-        "/service-areas/bear-valley-springs-ca/home-remodeling/",
-        "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-        "/service-areas/buttonwillow-ca/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -31983,50 +28710,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/bear-valley-springs-ca/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Bear Valley Springs, CA | ProRestoration Services",
-      "h1": "Soot Removal in Bear Valley Springs",
-      "meta_description": "24/7 soot removal in Bear Valley Springs, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "soot removal bear valley springs",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/bear-valley-springs-ca/fire-damage-restoration/",
-        "/service-areas/bear-valley-springs-ca/home-remodeling/",
-        "/service-areas/arvin-ca/soot-removal/",
-        "/service-areas/buttonwillow-ca/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/bear-valley-springs-ca/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -32424,93 +29107,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Bear Valley Springs, CA | ProRestoration Services",
-      "h1": "Water Heater Flood Cleanup in Bear Valley Springs",
-      "meta_description": "24/7 water heater flood cleanup in Bear Valley Springs, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "water heater flood cleanup bear valley springs",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/bear-valley-springs-ca/fire-damage-restoration/",
-        "/service-areas/bear-valley-springs-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-        "/service-areas/buttonwillow-ca/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Bear Valley Springs, CA | ProRestoration Services",
-      "h1": "24/7 Emergency Water Removal in Bear Valley Springs",
-      "meta_description": "24/7 24/7 emergency water removal in Bear Valley Springs, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "24/7 emergency water removal bear valley springs",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/bear-valley-springs-ca/",
-        "/service-areas/bear-valley-springs-ca/fire-damage-restoration/",
-        "/service-areas/bear-valley-springs-ca/home-remodeling/",
-        "/service-areas/arvin-ca/emergency-water-removal/",
-        "/service-areas/buttonwillow-ca/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/keene-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -32551,44 +29147,6 @@
         "/service-areas/keene-ca/home-remodeling/",
         "/service-areas/arvin-ca/air-duct-cleaning/",
         "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/keene-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Keene, CA | ProRestoration Services",
-      "h1": "Air Duct & HVAC Cleaning in Keene",
-      "meta_description": "24/7 air duct & hvac cleaning in Keene, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "air duct & hvac cleaning keene",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/keene-ca/",
-        "/service-areas/keene-ca/fire-damage-restoration/",
-        "/service-areas/keene-ca/home-remodeling/",
-        "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-        "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -33505,50 +30063,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/keene-ca/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Keene, CA | ProRestoration Services",
-      "h1": "Soot Removal in Keene",
-      "meta_description": "24/7 soot removal in Keene, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "soot removal keene",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/keene-ca/",
-        "/service-areas/keene-ca/fire-damage-restoration/",
-        "/service-areas/keene-ca/home-remodeling/",
-        "/service-areas/arvin-ca/soot-removal/",
-        "/service-areas/bear-valley-springs-ca/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/keene-ca/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -33946,93 +30460,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/keene-ca/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Keene, CA | ProRestoration Services",
-      "h1": "Water Heater Flood Cleanup in Keene",
-      "meta_description": "24/7 water heater flood cleanup in Keene, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "water heater flood cleanup keene",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/keene-ca/",
-        "/service-areas/keene-ca/fire-damage-restoration/",
-        "/service-areas/keene-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/keene-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Keene, CA | ProRestoration Services",
-      "h1": "24/7 Emergency Water Removal in Keene",
-      "meta_description": "24/7 24/7 emergency water removal in Keene, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "24/7 emergency water removal keene",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/keene-ca/",
-        "/service-areas/keene-ca/fire-damage-restoration/",
-        "/service-areas/keene-ca/home-remodeling/",
-        "/service-areas/arvin-ca/emergency-water-removal/",
-        "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/maricopa-ca/air-duct-cleaning/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -34073,44 +30500,6 @@
         "/service-areas/maricopa-ca/home-remodeling/",
         "/service-areas/arvin-ca/air-duct-cleaning/",
         "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/maricopa-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Maricopa, CA | ProRestoration Services",
-      "h1": "Air Duct & HVAC Cleaning in Maricopa",
-      "meta_description": "24/7 air duct & hvac cleaning in Maricopa, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "air duct & hvac cleaning maricopa",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/maricopa-ca/",
-        "/service-areas/maricopa-ca/fire-damage-restoration/",
-        "/service-areas/maricopa-ca/home-remodeling/",
-        "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-        "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -35027,50 +31416,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/maricopa-ca/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Maricopa, CA | ProRestoration Services",
-      "h1": "Soot Removal in Maricopa",
-      "meta_description": "24/7 soot removal in Maricopa, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "soot removal maricopa",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/maricopa-ca/",
-        "/service-areas/maricopa-ca/fire-damage-restoration/",
-        "/service-areas/maricopa-ca/home-remodeling/",
-        "/service-areas/arvin-ca/soot-removal/",
-        "/service-areas/bear-valley-springs-ca/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/maricopa-ca/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -35464,93 +31809,6 @@
         "/service-areas/maricopa-ca/home-remodeling/",
         "/service-areas/arvin-ca/ceiling-water-damage-repair/",
         "/service-areas/bear-valley-springs-ca/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/maricopa-ca/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Maricopa, CA | ProRestoration Services",
-      "h1": "Water Heater Flood Cleanup in Maricopa",
-      "meta_description": "24/7 water heater flood cleanup in Maricopa, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "water heater flood cleanup maricopa",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/maricopa-ca/",
-        "/service-areas/maricopa-ca/fire-damage-restoration/",
-        "/service-areas/maricopa-ca/home-remodeling/",
-        "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-        "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/maricopa-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Maricopa, CA | ProRestoration Services",
-      "h1": "24/7 Emergency Water Removal in Maricopa",
-      "meta_description": "24/7 24/7 emergency water removal in Maricopa, CA. IICRC-certified, insurance billing accepted. Call (661) 393-9306.",
-      "primary_keyword": "24/7 emergency water removal maricopa",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/maricopa-ca/",
-        "/service-areas/maricopa-ca/fire-damage-restoration/",
-        "/service-areas/maricopa-ca/home-remodeling/",
-        "/service-areas/arvin-ca/emergency-water-removal/",
-        "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
         "/contact/"
       ]
     },

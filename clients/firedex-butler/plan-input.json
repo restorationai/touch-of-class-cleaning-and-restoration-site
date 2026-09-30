@@ -35,7 +35,6 @@
     "reconstruction",
     "sewage-cleanup",
     "smoke-damage-restoration",
-    "soot-removal",
     "storm-damage-restoration",
     "water-damage-restoration"
   ],
@@ -372,5 +371,16 @@
   },
   "cross_product": true,
   "keyword_strategy": "conservative",
-  "blog_seed_count": 12
+  "blog_seed_count": 12,
+  "homepage_services": [
+    "fire-damage-restoration",
+    "mold-remediation",
+    "water-damage-restoration",
+    "commercial-restoration",
+    "flood-damage-restoration",
+    "reconstruction"
+  ],
+  "merged_services": {
+    "soot-removal": "smoke-damage-restoration"
+  }
 }

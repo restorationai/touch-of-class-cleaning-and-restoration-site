@@ -35,13 +35,10 @@
   },
   "services": [
     "air-duct-cleaning",
-    "air-duct-hvac-cleaning",
     "asbestos-abatement",
     "biohazard-cleanup",
     "carpet-cleaning",
-    "carpet-upholstery-cleaning",
     "contents-restoration",
-    "contents-restoration-storage",
     "emergency-board-up-tarping",
     "fire-damage-restoration",
     "general-contracting",
@@ -162,5 +159,19 @@
     }
   ],
   "template": "restoration",
-  "blog_seed_count": 8
+  "blog_seed_count": 8,
+  "homepage_services": [
+    "fire-damage-restoration",
+    "mold-remediation",
+    "water-damage-restoration",
+    "sewage-cleanup",
+    "storm-damage-restoration",
+    "biohazard-cleanup"
+  ],
+  "merged_services": {
+    "air-duct-hvac-cleaning": "air-duct-cleaning",
+    "carpet-upholstery-cleaning": "carpet-cleaning",
+    "contents-restoration-storage": "contents-restoration",
+    "emergency-water-removal": "water-damage-restoration"
+  }
 }

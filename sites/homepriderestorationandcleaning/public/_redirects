@@ -68,3 +68,18 @@
 /service-areas/saratoga-springs-ut/upholstery-cleaning/ /services/upholstery-cleaning/ 301
 /service-areas/saratoga-springs-ut/water-damage-restoration /services/water-damage-restoration/ 301
 /service-areas/saratoga-springs-ut/water-damage-restoration/ /services/water-damage-restoration/ 301
+# duplicate service merge 2026-09-30: /services/emergency-water-removal/ folded into /services/water-damage-restoration/ (scripts/service_merge.py)
+/services/emergency-water-removal /services/water-damage-restoration/ 301
+/services/emergency-water-removal/ /services/water-damage-restoration/ 301
+/service-areas/:city/emergency-water-removal /service-areas/:city/water-damage-restoration/ 301
+/service-areas/:city/emergency-water-removal/ /service-areas/:city/water-damage-restoration/ 301
+# duplicate service merge 2026-09-30: /services/carpet-upholstery-cleaning/ folded into /services/carpet-cleaning/ (scripts/service_merge.py)
+/services/carpet-upholstery-cleaning /services/carpet-cleaning/ 301
+/services/carpet-upholstery-cleaning/ /services/carpet-cleaning/ 301
+/service-areas/:city/carpet-upholstery-cleaning /service-areas/:city/carpet-cleaning/ 301
+/service-areas/:city/carpet-upholstery-cleaning/ /service-areas/:city/carpet-cleaning/ 301
+# duplicate service merge 2026-09-30: /services/water-heater-flood-cleanup/ folded into /services/appliance-leak-cleanup/ (scripts/service_merge.py)
+/services/water-heater-flood-cleanup /services/appliance-leak-cleanup/ 301
+/services/water-heater-flood-cleanup/ /services/appliance-leak-cleanup/ 301
+/service-areas/:city/water-heater-flood-cleanup /service-areas/:city/appliance-leak-cleanup/ 301
+/service-areas/:city/water-heater-flood-cleanup/ /service-areas/:city/appliance-leak-cleanup/ 301

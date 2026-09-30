@@ -99,3 +99,13 @@
 /blog/case-study-water-damage-restoration-in-sioux-falls-sd-3/ /case-studies/water-damage-restoration-in-sioux-falls-sd-3/ 301
 /blog/case-study-water-damage-restoration-in-sioux-falls-sd-4/ /case-studies/water-damage-restoration-in-sioux-falls-sd-4/ 301
 /blog/case-study-water-damage-restoration-in-sioux-falls-sd/ /case-studies/water-damage-restoration-in-sioux-falls-sd/ 301
+# duplicate service merge 2026-09-30: /services/emergency-water-removal/ folded into /services/water-damage-restoration/ (scripts/service_merge.py)
+/services/emergency-water-removal /services/water-damage-restoration/ 301
+/services/emergency-water-removal/ /services/water-damage-restoration/ 301
+/service-areas/:city/emergency-water-removal /service-areas/:city/water-damage-restoration/ 301
+/service-areas/:city/emergency-water-removal/ /service-areas/:city/water-damage-restoration/ 301
+# duplicate service merge 2026-09-30: /services/contents-restoration-storage/ folded into /services/contents-restoration/ (scripts/service_merge.py)
+/services/contents-restoration-storage /services/contents-restoration/ 301
+/services/contents-restoration-storage/ /services/contents-restoration/ 301
+/service-areas/:city/contents-restoration-storage /service-areas/:city/contents-restoration/ 301
+/service-areas/:city/contents-restoration-storage/ /service-areas/:city/contents-restoration/ 301

@@ -1,0 +1,1090 @@
+{
+  "slug": "rt-olson-plumbing-heating-and-air-conditioning",
+  "policy": "scripts/site_structure.py (Santino 2026-09-30)",
+  "gbp_services": {
+    "24-Hour Emergency Plumbing": {
+      "verdict": "mapped",
+      "page": "emergency-plumbing",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "50 gallon hot water heater installation": {
+      "verdict": "mapped",
+      "page": "water-heater-installation",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Ac Maintenance": {
+      "verdict": "mapped",
+      "page": "ac-repair",
+      "source": "claude",
+      "reason": "Maintenance task of AC repair",
+      "at": "2026-09-30"
+    },
+    "Air Conditioner Repair": {
+      "verdict": "mapped",
+      "page": "ac-repair",
+      "source": "claude",
+      "reason": "Direct match",
+      "at": "2026-09-30"
+    },
+    "Air Duct Cleaning Service": {
+      "verdict": "mapped",
+      "page": "air-duct-cleaning",
+      "reason": "air-duct-cleaning-service was merged into air-duct-cleaning",
+      "source": "merged",
+      "at": "2026-09-30"
+    },
+    "All Plumbing Services": {
+      "verdict": "mapped",
+      "page": "all-plumbing-services",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Appliance Repair Service": {
+      "verdict": "declined",
+      "page": null,
+      "source": "claude",
+      "reason": "not a real service: Unrelated trade category",
+      "at": "2026-09-30"
+    },
+    "Attic Insulation": {
+      "verdict": "mapped",
+      "page": "attic-insulation",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Bar Faucet Repair": {
+      "verdict": "mapped",
+      "page": "toilet-faucet-repair",
+      "source": "claude",
+      "reason": "Faucet repair variant",
+      "at": "2026-09-30"
+    },
+    "Bathroom Faucets": {
+      "verdict": "mapped",
+      "page": "toilet-faucet-repair",
+      "source": "claude",
+      "reason": "Faucet fixture service",
+      "at": "2026-09-30"
+    },
+    "Bathtub Faucet Repair": {
+      "verdict": "mapped",
+      "page": "toilet-faucet-repair",
+      "source": "claude",
+      "reason": "Faucet repair variant",
+      "at": "2026-09-30"
+    },
+    "Camera inspections of drain and sewer line": {
+      "verdict": "mapped",
+      "page": "sewer-camera-inspection",
+      "reason": "camera-inspections-of-drain-and-sewer-line was merged into sewer-camera-inspection",
+      "source": "merged",
+      "at": "2026-09-30"
+    },
+    "Clean Ducts Vents": {
+      "verdict": "mapped",
+      "page": "air-duct-cleaning",
+      "source": "claude",
+      "reason": "Direct match",
+      "at": "2026-09-30"
+    },
+    "Cleaning": {
+      "verdict": "mapped",
+      "page": "air-duct-cleaning",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Common Plumbing Emergencies": {
+      "verdict": "mapped",
+      "page": "emergency-plumbing",
+      "reason": "common-plumbing-emergencies was merged into emergency-plumbing",
+      "source": "merged",
+      "at": "2026-09-30"
+    },
+    "Dismantlement": {
+      "verdict": "declined",
+      "page": null,
+      "source": "claude",
+      "reason": "not a real service: Not a customer service term",
+      "at": "2026-09-30"
+    },
+    "Drain & Rooter Service": {
+      "verdict": "mapped",
+      "page": "drain-cleaning",
+      "source": "claude",
+      "reason": "Drain cleaning synonym",
+      "at": "2026-09-30"
+    },
+    "Drain & Sewer Repairs": {
+      "verdict": "mapped",
+      "page": "drain-sewer-repairs",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Drain cleaning": {
+      "verdict": "mapped",
+      "page": "drain-cleaning",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Drain Cleaning Service": {
+      "verdict": "mapped",
+      "page": "drain-cleaning",
+      "reason": "catalog slug match",
+      "source": "catalog",
+      "at": "2026-09-30"
+    },
+    "Ductless Heating And Ac Services": {
+      "verdict": "mapped",
+      "page": "hvac-installation",
+      "source": "claude",
+      "reason": "HVAC install variant",
+      "at": "2026-09-30"
+    },
+    "Emergency Leak": {
+      "verdict": "mapped",
+      "page": "emergency-plumbing",
+      "source": "claude",
+      "reason": "Emergency modifier of leak",
+      "at": "2026-09-30"
+    },
+    "Faucet Repair & Installation": {
+      "verdict": "mapped",
+      "page": "toilet-faucet-repair",
+      "source": "claude",
+      "reason": "Direct match",
+      "at": "2026-09-30"
+    },
+    "Filter Replacement": {
+      "verdict": "mapped",
+      "page": "water-softeners-filtration",
+      "source": "claude",
+      "reason": "Filtration maintenance task",
+      "at": "2026-09-30"
+    },
+    "Find & repair leak": {
+      "verdict": "mapped",
+      "page": "leak-detection",
+      "source": "claude",
+      "reason": "Leak detection service",
+      "at": "2026-09-30"
+    },
+    "Find Leak": {
+      "verdict": "mapped",
+      "page": "leak-detection",
+      "source": "claude",
+      "reason": "Leak finding is leak detection",
+      "at": "2026-09-30"
+    },
+    "Fix Leaks": {
+      "verdict": "mapped",
+      "page": "leak-detection",
+      "source": "claude",
+      "reason": "Leak repair synonym",
+      "at": "2026-09-30"
+    },
+    "FREE Leak Detection": {
+      "verdict": "mapped",
+      "page": "leak-detection",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Free Water Leak Detection (No Pools)": {
+      "verdict": "mapped",
+      "page": "leak-detection",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Free Water Test": {
+      "verdict": "mapped",
+      "page": "water-softeners-filtration",
+      "source": "claude",
+      "reason": "Water quality test",
+      "at": "2026-09-30"
+    },
+    "Furnace Repair": {
+      "verdict": "mapped",
+      "page": "furnace-repair",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Garbage disposal repair service": {
+      "verdict": "mapped",
+      "page": "garbage-disposal",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Gas Line Inspections": {
+      "verdict": "mapped",
+      "page": "gas-line-inspections",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Gas Line Repair & Installation": {
+      "verdict": "mapped",
+      "page": "gas-line-inspections",
+      "source": "claude",
+      "reason": "Gas line service variant",
+      "at": "2026-09-30"
+    },
+    "Gas Line Replacement": {
+      "verdict": "mapped",
+      "page": "gas-line-inspections",
+      "source": "claude",
+      "reason": "Gas line service variant",
+      "at": "2026-09-30"
+    },
+    "Heating Maintenance": {
+      "verdict": "mapped",
+      "page": "furnace-repair",
+      "source": "claude",
+      "reason": "Maintenance for furnace",
+      "at": "2026-09-30"
+    },
+    "High And Low Water Pressure Repair": {
+      "verdict": "mapped",
+      "page": "all-plumbing-services",
+      "source": "claude",
+      "reason": "General plumbing issue",
+      "at": "2026-09-30"
+    },
+    "Hot Water Heaters": {
+      "verdict": "mapped",
+      "page": "water-heater-installation",
+      "source": "claude",
+      "reason": "Water heater synonym",
+      "at": "2026-09-30"
+    },
+    "Hot Water System": {
+      "verdict": "mapped",
+      "page": "instant-hot-water-system",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Hour Emergency Plumbing Service": {
+      "verdict": "mapped",
+      "page": "emergency-plumbing",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "HVAC - Duct cleaning - attic insulation - Heating and Cooling": {
+      "verdict": "mapped",
+      "page": "attic-insulation",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Hvac Maintenance": {
+      "verdict": "mapped",
+      "page": "hvac-installation",
+      "source": "claude",
+      "reason": "HVAC upkeep task",
+      "at": "2026-09-30"
+    },
+    "Hvac System Repair": {
+      "verdict": "mapped",
+      "page": "ac-repair",
+      "source": "claude",
+      "reason": "HVAC repair general",
+      "at": "2026-09-30"
+    },
+    "Indoor Air Quality": {
+      "verdict": "mapped",
+      "page": "indoor-air-quality",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Indoor Air Quality Services": {
+      "verdict": "mapped",
+      "page": "indoor-air-quality",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Install Ac": {
+      "verdict": "mapped",
+      "page": "hvac-installation",
+      "source": "claude",
+      "reason": "Direct match",
+      "at": "2026-09-30"
+    },
+    "Install Ducts Vents": {
+      "verdict": "mapped",
+      "page": "hvac-installation",
+      "source": "claude",
+      "reason": "Duct install fits HVAC install",
+      "at": "2026-09-30"
+    },
+    "Install Faucet": {
+      "verdict": "mapped",
+      "page": "toilet-faucet-repair",
+      "source": "claude",
+      "reason": "Duplicate faucet install",
+      "at": "2026-09-30"
+    },
+    "Install Garbage Disposal": {
+      "verdict": "mapped",
+      "page": "garbage-disposal",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Install Heating System": {
+      "verdict": "mapped",
+      "page": "hvac-installation",
+      "source": "claude",
+      "reason": "Direct match",
+      "at": "2026-09-30"
+    },
+    "Install Shower": {
+      "verdict": "mapped",
+      "page": "kitchen-bathroom-remodeling",
+      "source": "claude",
+      "reason": "Shower install fits remodeling",
+      "at": "2026-09-30"
+    },
+    "Install Thermostat": {
+      "verdict": "mapped",
+      "page": "hvac-installation",
+      "source": "claude",
+      "reason": "Thermostat install task",
+      "at": "2026-09-30"
+    },
+    "Install Toilet": {
+      "verdict": "mapped",
+      "page": "toilet-faucet-repair",
+      "source": "claude",
+      "reason": "Toilet install covered by page",
+      "at": "2026-09-30"
+    },
+    "Install Water Heater": {
+      "verdict": "mapped",
+      "page": "water-heater-installation",
+      "source": "claude",
+      "reason": "Duplicate water heater install",
+      "at": "2026-09-30"
+    },
+    "Installation": {
+      "verdict": "mapped",
+      "page": "water-heater-installation",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Instant Hot Water @ Shower": {
+      "verdict": "mapped",
+      "page": "instant-hot-water-system",
+      "source": "claude",
+      "reason": "Direct match",
+      "at": "2026-09-30"
+    },
+    "Instant Hot Water System": {
+      "verdict": "mapped",
+      "page": "instant-hot-water-system",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Kitchen & Bathroom Remodeling": {
+      "verdict": "mapped",
+      "page": "kitchen-bathroom-remodeling",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Kitchen Faucet Repair": {
+      "verdict": "mapped",
+      "page": "toilet-faucet-repair",
+      "source": "claude",
+      "reason": "Faucet repair variant",
+      "at": "2026-09-30"
+    },
+    "Kitchen sink faucet replacement": {
+      "verdict": "mapped",
+      "page": "toilet-faucet-repair",
+      "source": "claude",
+      "reason": "Faucet replacement variant",
+      "at": "2026-09-30"
+    },
+    "Leak Detection": {
+      "verdict": "mapped",
+      "page": "leak-detection",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Leak Detection Corona": {
+      "verdict": "mapped",
+      "page": "leak-detection",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Leaking Hose Bib Repair": {
+      "verdict": "mapped",
+      "page": "toilet-faucet-repair",
+      "source": "claude",
+      "reason": "Outdoor faucet fixture repair",
+      "at": "2026-09-30"
+    },
+    "Leaky Faucet Repairs": {
+      "verdict": "mapped",
+      "page": "toilet-faucet-repair",
+      "source": "claude",
+      "reason": "Faucet repair variant",
+      "at": "2026-09-30"
+    },
+    "Leaky faucets?": {
+      "verdict": "mapped",
+      "page": "toilet-faucet-repair",
+      "source": "claude",
+      "reason": "Faucet repair phrasing",
+      "at": "2026-09-30"
+    },
+    "Natural Gas Leak Detection": {
+      "verdict": "mapped",
+      "page": "leak-detection",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Need Plumbing Services": {
+      "verdict": "declined",
+      "page": null,
+      "source": "claude",
+      "reason": "not a real service: Generic marketing phrase",
+      "at": "2026-09-30"
+    },
+    "New Sink": {
+      "verdict": "mapped",
+      "page": "toilet-faucet-repair",
+      "source": "claude",
+      "reason": "Sink fixture install",
+      "at": "2026-09-30"
+    },
+    "Our Plumbing Service": {
+      "verdict": "declined",
+      "page": null,
+      "source": "claude",
+      "reason": "not a real service: Marketing catch-all phrase",
+      "at": "2026-09-30"
+    },
+    "Outdoor Faucet Repair": {
+      "verdict": "mapped",
+      "page": "toilet-faucet-repair",
+      "source": "claude",
+      "reason": "Faucet repair variant",
+      "at": "2026-09-30"
+    },
+    "Plumbing": {
+      "verdict": "mapped",
+      "page": "all-plumbing-services",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Plumbing Financing": {
+      "verdict": "declined",
+      "page": null,
+      "source": "claude",
+      "reason": "not a real service: Marketing/financing offer",
+      "at": "2026-09-30"
+    },
+    "Plumbing Inspection": {
+      "verdict": "mapped",
+      "page": "all-plumbing-services",
+      "source": "claude",
+      "reason": "General inspection service",
+      "at": "2026-09-30"
+    },
+    "Plumbing Issue": {
+      "verdict": "declined",
+      "page": null,
+      "source": "claude",
+      "reason": "not a real service: Too vague, not a service",
+      "at": "2026-09-30"
+    },
+    "Plumbing Leak Repair": {
+      "verdict": "mapped",
+      "page": "leak-detection",
+      "source": "claude",
+      "reason": "Leak repair synonym",
+      "at": "2026-09-30"
+    },
+    "Plumbing Leaks": {
+      "verdict": "mapped",
+      "page": "leak-detection",
+      "source": "claude",
+      "reason": "Leak detection service",
+      "at": "2026-09-30"
+    },
+    "Plumbing Needs": {
+      "verdict": "declined",
+      "page": null,
+      "source": "claude",
+      "reason": "not a real service: Vague marketing phrase",
+      "at": "2026-09-30"
+    },
+    "Plumbing Problem": {
+      "verdict": "declined",
+      "page": null,
+      "source": "claude",
+      "reason": "not a real service: Too vague, not a service",
+      "at": "2026-09-30"
+    },
+    "Portable Air Conditioning": {
+      "verdict": "declined",
+      "page": null,
+      "source": "claude",
+      "reason": "not a real service: Product, not a service",
+      "at": "2026-09-30"
+    },
+    "Pressure Washing Service": {
+      "verdict": "declined",
+      "page": null,
+      "source": "claude",
+      "reason": "not a real service: different trade, not plumbing",
+      "at": "2026-09-30"
+    },
+    "Re Pipe With Pex Or Copper Pipe": {
+      "verdict": "mapped",
+      "page": "repiping",
+      "source": "claude",
+      "reason": "Repiping material variant",
+      "at": "2026-09-30"
+    },
+    "Repair Ac": {
+      "verdict": "mapped",
+      "page": "ac-repair",
+      "source": "claude",
+      "reason": "Direct match",
+      "at": "2026-09-30"
+    },
+    "Repair Ducts Vents": {
+      "verdict": "mapped",
+      "page": "air-duct-cleaning",
+      "source": "claude",
+      "reason": "Duct maintenance service",
+      "at": "2026-09-30"
+    },
+    "Repair Faucet": {
+      "verdict": "mapped",
+      "page": "toilet-faucet-repair",
+      "source": "claude",
+      "reason": "Faucet repair matches page",
+      "at": "2026-09-30"
+    },
+    "Repair Garbage Disposal": {
+      "verdict": "mapped",
+      "page": "garbage-disposal",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Repair Heating System": {
+      "verdict": "mapped",
+      "page": "furnace-repair",
+      "source": "claude",
+      "reason": "Furnace repair synonym",
+      "at": "2026-09-30"
+    },
+    "Repair Hvac": {
+      "verdict": "mapped",
+      "page": "ac-repair",
+      "source": "claude",
+      "reason": "HVAC repair general",
+      "at": "2026-09-30"
+    },
+    "Repair Outdoor Systems": {
+      "verdict": "declined",
+      "page": null,
+      "source": "claude",
+      "head_term": "outdoor plumbing repair",
+      "volume": {
+        "metro": 0,
+        "metro_label": "Corona, California",
+        "national": {
+          "head": 170,
+          "near_me": 210,
+          "total": 380
+        }
+      },
+      "reason": "distinct but below the volume bar (outdoor plumbing repair)",
+      "at": "2026-09-30"
+    },
+    "Repair Pipe": {
+      "verdict": "mapped",
+      "page": "slab-leak-and-pipe-repair",
+      "source": "claude",
+      "reason": "General pipe repair",
+      "at": "2026-09-30"
+    },
+    "Repair Sewer": {
+      "verdict": "mapped",
+      "page": "drain-sewer-repairs",
+      "source": "claude",
+      "reason": "Sewer repair direct match",
+      "at": "2026-09-30"
+    },
+    "Repair Shower": {
+      "verdict": "mapped",
+      "page": "toilet-faucet-repair",
+      "source": "claude",
+      "reason": "Fixture repair covered",
+      "at": "2026-09-30"
+    },
+    "Repair Thermostat": {
+      "verdict": "mapped",
+      "page": "ac-repair",
+      "source": "claude",
+      "reason": "Thermostat repair task",
+      "at": "2026-09-30"
+    },
+    "Repair Toilet": {
+      "verdict": "mapped",
+      "page": "toilet-faucet-repair",
+      "source": "claude",
+      "reason": "Toilet repair matches page",
+      "at": "2026-09-30"
+    },
+    "Repair Water Damage": {
+      "verdict": "declined",
+      "page": null,
+      "source": "claude",
+      "reason": "not a real service: restoration trade, not plumbing service",
+      "at": "2026-09-30"
+    },
+    "Repair Water Heater": {
+      "verdict": "mapped",
+      "page": "water-heater-repair",
+      "reason": "catalog slug match",
+      "source": "catalog",
+      "at": "2026-09-30"
+    },
+    "Repipe your home with copper pipe": {
+      "verdict": "mapped",
+      "page": "repiping",
+      "source": "claude",
+      "reason": "Repiping material variant",
+      "at": "2026-09-30"
+    },
+    "Repipe your home's water lines with PEX": {
+      "verdict": "mapped",
+      "page": "repiping",
+      "source": "claude",
+      "reason": "Repiping material variant",
+      "at": "2026-09-30"
+    },
+    "Repiping your home": {
+      "verdict": "mapped",
+      "page": "repiping",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Residential And Commercial Plumbing": {
+      "verdict": "mapped",
+      "page": "all-plumbing-services",
+      "source": "claude",
+      "reason": "Modifier of general plumbing",
+      "at": "2026-09-30"
+    },
+    "Reverse Osmosis": {
+      "verdict": "mapped",
+      "page": "reverse-osmosis",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Reverse Osmosis System": {
+      "verdict": "mapped",
+      "page": "reverse-osmosis",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Reverse Osmosis Water": {
+      "verdict": "mapped",
+      "page": "reverse-osmosis",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Rooter service": {
+      "verdict": "mapped",
+      "page": "drain-cleaning",
+      "source": "claude",
+      "reason": "Drain cleaning synonym",
+      "at": "2026-09-30"
+    },
+    "Sewer Camera Inspection": {
+      "verdict": "mapped",
+      "page": "sewer-camera-inspection",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Sewer Cleaning": {
+      "verdict": "mapped",
+      "page": "drain-sewer-repairs",
+      "source": "claude",
+      "reason": "Sewer service variant",
+      "at": "2026-09-30"
+    },
+    "Sewer Leak Detection": {
+      "verdict": "mapped",
+      "page": "leak-detection",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Sewer Line Repair": {
+      "verdict": "mapped",
+      "page": "drain-sewer-repairs",
+      "source": "claude",
+      "reason": "Direct match",
+      "at": "2026-09-30"
+    },
+    "Sewer pipe repair": {
+      "verdict": "mapped",
+      "page": "drain-sewer-repairs",
+      "source": "claude",
+      "reason": "Direct match",
+      "at": "2026-09-30"
+    },
+    "Shower Faucet Repair": {
+      "verdict": "mapped",
+      "page": "toilet-faucet-repair",
+      "source": "claude",
+      "reason": "Faucet repair variant",
+      "at": "2026-09-30"
+    },
+    "Sink Faucet Repair": {
+      "verdict": "mapped",
+      "page": "toilet-faucet-repair",
+      "source": "claude",
+      "reason": "Faucet repair variant",
+      "at": "2026-09-30"
+    },
+    "Sink, Tub, And Shower Repairs": {
+      "verdict": "mapped",
+      "page": "toilet-faucet-repair",
+      "source": "claude",
+      "reason": "Fixture repair bundle",
+      "at": "2026-09-30"
+    },
+    "Slab Leak and Pipe Repair": {
+      "verdict": "mapped",
+      "page": "slab-leak-and-pipe-repair",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Slab Leak Detection And Repair": {
+      "verdict": "mapped",
+      "page": "leak-detection",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Slab Leak Detection Corona": {
+      "verdict": "mapped",
+      "page": "leak-detection",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Tankless Hot Water Heaters": {
+      "verdict": "mapped",
+      "page": "water-heater-installation",
+      "source": "claude",
+      "reason": "Water heater variant",
+      "at": "2026-09-30"
+    },
+    "Tankless Water Heaters": {
+      "verdict": "mapped",
+      "page": "water-heater-installation",
+      "source": "claude",
+      "reason": "Water heater variant",
+      "at": "2026-09-30"
+    },
+    "Thermostat Installation": {
+      "verdict": "mapped",
+      "page": "hvac-installation",
+      "source": "claude",
+      "reason": "Direct match",
+      "at": "2026-09-30"
+    },
+    "Toilet Clogs": {
+      "verdict": "mapped",
+      "page": "drain-cleaning",
+      "source": "claude",
+      "reason": "Clog removal service",
+      "at": "2026-09-30"
+    },
+    "Toilet Repair & Installation": {
+      "verdict": "mapped",
+      "page": "toilet-faucet-repair",
+      "source": "claude",
+      "reason": "Direct match",
+      "at": "2026-09-30"
+    },
+    "Toilet, Faucet and Fixture Services": {
+      "verdict": "mapped",
+      "page": "toilet-faucet-repair",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Trenchless Sewer": {
+      "verdict": "mapped",
+      "page": "drain-sewer-repairs",
+      "source": "claude",
+      "reason": "Sewer repair method",
+      "at": "2026-09-30"
+    },
+    "Trenchless sewer line replacement": {
+      "verdict": "mapped",
+      "page": "drain-sewer-repairs",
+      "source": "claude",
+      "reason": "Sewer replacement method",
+      "at": "2026-09-30"
+    },
+    "Unclog Drain": {
+      "verdict": "mapped",
+      "page": "drain-cleaning",
+      "source": "claude",
+      "reason": "Clogged drain service",
+      "at": "2026-09-30"
+    },
+    "Underground and Slab Leak Detection": {
+      "verdict": "mapped",
+      "page": "leak-detection",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Vent Cleaning": {
+      "verdict": "mapped",
+      "page": "air-duct-cleaning",
+      "source": "claude",
+      "reason": "Duct/vent cleaning match",
+      "at": "2026-09-30"
+    },
+    "Water Conditioners": {
+      "verdict": "mapped",
+      "page": "water-softeners-filtration",
+      "source": "claude",
+      "reason": "Synonym for softener",
+      "at": "2026-09-30"
+    },
+    "Water Damage Leak Detection": {
+      "verdict": "mapped",
+      "page": "leak-detection",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Water Filter Systems": {
+      "verdict": "mapped",
+      "page": "water-softeners-filtration",
+      "source": "claude",
+      "reason": "Filtration match",
+      "at": "2026-09-30"
+    },
+    "Water Filtration And Softener": {
+      "verdict": "mapped",
+      "page": "water-softeners-filtration",
+      "source": "claude",
+      "reason": "Direct match",
+      "at": "2026-09-30"
+    },
+    "Water Filtration Systems": {
+      "verdict": "mapped",
+      "page": "water-softeners-filtration",
+      "source": "claude",
+      "reason": "Direct match",
+      "at": "2026-09-30"
+    },
+    "Water Heater Repair & Installation": {
+      "verdict": "mapped",
+      "page": "water-heater-repair",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Water Leak Detection Corona": {
+      "verdict": "mapped",
+      "page": "leak-detection",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Water Leak Repair": {
+      "verdict": "mapped",
+      "page": "leak-detection",
+      "source": "claude",
+      "reason": "Leak repair synonym",
+      "at": "2026-09-30"
+    },
+    "Water Line Leaks": {
+      "verdict": "mapped",
+      "page": "leak-detection",
+      "source": "claude",
+      "reason": "Leak detection variant",
+      "at": "2026-09-30"
+    },
+    "Water Main Line Repair": {
+      "verdict": "mapped",
+      "page": "drain-sewer-repairs",
+      "source": "claude",
+      "reason": "Main line repair variant",
+      "at": "2026-09-30"
+    },
+    "Water Softeners and Filtration Systems": {
+      "verdict": "mapped",
+      "page": "water-softeners-filtration",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Water Tank Installation": {
+      "verdict": "mapped",
+      "page": "water-heater-installation",
+      "source": "claude",
+      "reason": "Synonym for water heater",
+      "at": "2026-09-30"
+    },
+    "Water Tank Repair": {
+      "verdict": "mapped",
+      "page": "water-heater-repair",
+      "source": "claude",
+      "reason": "Synonym for water heater repair",
+      "at": "2026-09-30"
+    },
+    "Water Testing": {
+      "verdict": "mapped",
+      "page": "water-softeners-filtration",
+      "source": "claude",
+      "reason": "Water quality test service",
+      "at": "2026-09-30"
+    },
+    "Whole House Water Filter": {
+      "verdict": "mapped",
+      "page": "water-softeners-filtration",
+      "source": "claude",
+      "reason": "Filtration match",
+      "at": "2026-09-30"
+    },
+    "Whole House Water Filter Systems": {
+      "verdict": "mapped",
+      "page": "water-softeners-filtration",
+      "source": "claude",
+      "reason": "Filtration system match",
+      "at": "2026-09-30"
+    },
+    "Whole House Water Filtration": {
+      "verdict": "mapped",
+      "page": "water-softeners-filtration",
+      "source": "claude",
+      "reason": "Filtration match",
+      "at": "2026-09-30"
+    },
+    "Whole House Water Filtration System": {
+      "verdict": "mapped",
+      "page": "water-softeners-filtration",
+      "source": "claude",
+      "reason": "Direct match",
+      "at": "2026-09-30"
+    },
+    "Whole-House Repiping": {
+      "verdict": "mapped",
+      "page": "repiping",
+      "reason": "catalog slug match",
+      "source": "catalog",
+      "at": "2026-09-30"
+    }
+  },
+  "merged": {
+    "air-duct-cleaning-service": {
+      "into": "air-duct-cleaning",
+      "reason": "phrasing variant of the same service",
+      "volumes": {
+        "air-duct-cleaning-service": {
+          "head": 40500,
+          "near_me": 9900,
+          "total": 50400
+        },
+        "air-duct-cleaning": {
+          "head": 90500,
+          "near_me": 90500,
+          "total": 181000
+        },
+        "terms": {
+          "air-duct-cleaning-service": "air duct cleaning service",
+          "air-duct-cleaning": "air duct cleaning"
+        }
+      },
+      "at": "2026-09-30"
+    },
+    "camera-inspections-of-drain-and-sewer-line": {
+      "into": "sewer-camera-inspection",
+      "reason": "phrasing variant of the same service",
+      "volumes": {
+        "camera-inspections-of-drain-and-sewer-line": {
+          "head": 1000,
+          "near_me": 50,
+          "total": 1050
+        },
+        "sewer-camera-inspection": {
+          "head": 8100,
+          "near_me": 1000,
+          "total": 9100
+        },
+        "terms": {
+          "camera-inspections-of-drain-and-sewer-line": "drain camera inspection",
+          "sewer-camera-inspection": "sewer camera inspection"
+        }
+      },
+      "at": "2026-09-30"
+    },
+    "common-plumbing-emergencies": {
+      "into": "emergency-plumbing",
+      "reason": "phrasing variant of the same service",
+      "volumes": {
+        "common-plumbing-emergencies": {
+          "head": 74000,
+          "near_me": 110000,
+          "total": 184000
+        },
+        "emergency-plumbing": {
+          "head": 74000,
+          "near_me": 110000,
+          "total": 184000
+        },
+        "terms": {
+          "common-plumbing-emergencies": "plumbing emergencies",
+          "emergency-plumbing": "emergency plumber"
+        }
+      },
+      "at": "2026-09-30"
+    }
+  },
+  "kept_pairs": []
+}

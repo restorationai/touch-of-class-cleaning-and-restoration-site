@@ -278,16 +278,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/emergency-water-removal/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/emergency-plumbing/": {
     "archetype": "service-landing",
     "stubs": [
@@ -698,16 +688,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/las-vegas-nv/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/las-vegas-nv/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -929,16 +909,6 @@
     "missing_stubs": []
   },
   "/service-areas/henderson-nv/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/henderson-nv/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1178,16 +1148,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/paradise-nv/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/paradise-nv/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1409,16 +1369,6 @@
     "missing_stubs": []
   },
   "/service-areas/spring-valley-nv/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/spring-valley-nv/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1658,16 +1608,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sunrise-manor-nv/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sunrise-manor-nv/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1889,16 +1829,6 @@
     "missing_stubs": []
   },
   "/service-areas/enterprise-nv/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/enterprise-nv/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2138,16 +2068,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/summerlin-nv/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/summerlin-nv/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2369,16 +2289,6 @@
     "missing_stubs": []
   },
   "/service-areas/boulder-city-nv/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/boulder-city-nv/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2618,16 +2528,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/winchester-nv/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/winchester-nv/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2849,16 +2749,6 @@
     "missing_stubs": []
   },
   "/service-areas/whitney-nv/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/whitney-nv/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3098,16 +2988,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/summerlin-south-nv/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/summerlin-south-nv/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3329,16 +3209,6 @@
     "missing_stubs": []
   },
   "/service-areas/blue-diamond-nv/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/blue-diamond-nv/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3578,16 +3448,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/mount-charleston-nv/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/mount-charleston-nv/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3809,16 +3669,6 @@
     "missing_stubs": []
   },
   "/service-areas/sandy-valley-nv/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sandy-valley-nv/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4058,16 +3908,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/nelson-nv/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/nelson-nv/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4289,16 +4129,6 @@
     "missing_stubs": []
   },
   "/service-areas/indian-springs-nv/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/indian-springs-nv/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4538,16 +4368,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/moapa-town-nv/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/moapa-town-nv/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4769,16 +4589,6 @@
     "missing_stubs": []
   },
   "/service-areas/moapa-valley-nv/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/moapa-valley-nv/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5018,16 +4828,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/searchlight-nv/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/searchlight-nv/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5249,16 +5049,6 @@
     "missing_stubs": []
   },
   "/service-areas/pahrump-nv/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pahrump-nv/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

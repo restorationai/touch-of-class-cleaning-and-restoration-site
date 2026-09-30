@@ -68,16 +68,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/basement-flood-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/basement-flooding-cleanup/": {
     "archetype": "service-landing",
     "stubs": [
@@ -119,16 +109,6 @@
     "missing_stubs": []
   },
   "/services/contents-restoration-pack-out/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/contents-restoration-storage/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -229,16 +209,6 @@
     "missing_stubs": []
   },
   "/services/storm-damage-restoration/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/vandalism-cleanup/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -818,16 +788,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/union-nj/basement-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/union-nj/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -869,16 +829,6 @@
     "missing_stubs": []
   },
   "/service-areas/union-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/union-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -988,16 +938,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/union-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/union-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1019,16 +959,6 @@
     "missing_stubs": []
   },
   "/service-areas/elizabeth-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/elizabeth-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1079,16 +1009,6 @@
     "missing_stubs": []
   },
   "/service-areas/elizabeth-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/elizabeth-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1198,16 +1118,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/elizabeth-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/elizabeth-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1229,16 +1139,6 @@
     "missing_stubs": []
   },
   "/service-areas/westfield-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/westfield-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1289,16 +1189,6 @@
     "missing_stubs": []
   },
   "/service-areas/westfield-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/westfield-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1408,16 +1298,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/westfield-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/westfield-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1439,16 +1319,6 @@
     "missing_stubs": []
   },
   "/service-areas/cranford-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/cranford-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1499,16 +1369,6 @@
     "missing_stubs": []
   },
   "/service-areas/cranford-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/cranford-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1618,16 +1478,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/cranford-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/cranford-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1649,16 +1499,6 @@
     "missing_stubs": []
   },
   "/service-areas/springfield-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/springfield-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1709,16 +1549,6 @@
     "missing_stubs": []
   },
   "/service-areas/springfield-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/springfield-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1828,16 +1658,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/springfield-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/springfield-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1859,16 +1679,6 @@
     "missing_stubs": []
   },
   "/service-areas/summit-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/summit-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1919,16 +1729,6 @@
     "missing_stubs": []
   },
   "/service-areas/summit-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/summit-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2038,16 +1838,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/summit-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/summit-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2069,16 +1859,6 @@
     "missing_stubs": []
   },
   "/service-areas/newark-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/newark-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2129,16 +1909,6 @@
     "missing_stubs": []
   },
   "/service-areas/newark-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/newark-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2248,16 +2018,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/newark-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/newark-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2279,16 +2039,6 @@
     "missing_stubs": []
   },
   "/service-areas/jersey-city-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/jersey-city-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2339,16 +2089,6 @@
     "missing_stubs": []
   },
   "/service-areas/jersey-city-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/jersey-city-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2458,16 +2198,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/jersey-city-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/jersey-city-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2489,16 +2219,6 @@
     "missing_stubs": []
   },
   "/service-areas/brooklyn-ny/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/brooklyn-ny/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2549,16 +2269,6 @@
     "missing_stubs": []
   },
   "/service-areas/brooklyn-ny/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/brooklyn-ny/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2668,16 +2378,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/brooklyn-ny/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/brooklyn-ny/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2699,16 +2399,6 @@
     "missing_stubs": []
   },
   "/service-areas/manhattan-ny/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/manhattan-ny/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2759,16 +2449,6 @@
     "missing_stubs": []
   },
   "/service-areas/manhattan-ny/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/manhattan-ny/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2878,16 +2558,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/manhattan-ny/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/manhattan-ny/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2909,16 +2579,6 @@
     "missing_stubs": []
   },
   "/service-areas/fair-lawn-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fair-lawn-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2969,16 +2629,6 @@
     "missing_stubs": []
   },
   "/service-areas/fair-lawn-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fair-lawn-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3088,16 +2738,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fair-lawn-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fair-lawn-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3119,16 +2759,6 @@
     "missing_stubs": []
   },
   "/service-areas/highland-park-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/highland-park-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3179,16 +2809,6 @@
     "missing_stubs": []
   },
   "/service-areas/highland-park-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/highland-park-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3298,16 +2918,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/highland-park-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/highland-park-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3329,16 +2939,6 @@
     "missing_stubs": []
   },
   "/service-areas/staten-island-ny/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/staten-island-ny/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3389,16 +2989,6 @@
     "missing_stubs": []
   },
   "/service-areas/staten-island-ny/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/staten-island-ny/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3508,16 +3098,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/staten-island-ny/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/staten-island-ny/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3539,16 +3119,6 @@
     "missing_stubs": []
   },
   "/service-areas/linden-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/linden-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3599,16 +3169,6 @@
     "missing_stubs": []
   },
   "/service-areas/linden-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/linden-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3718,16 +3278,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/linden-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/linden-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3749,16 +3299,6 @@
     "missing_stubs": []
   },
   "/service-areas/rahway-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/rahway-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3809,16 +3349,6 @@
     "missing_stubs": []
   },
   "/service-areas/rahway-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/rahway-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3928,16 +3458,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/rahway-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/rahway-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3959,16 +3479,6 @@
     "missing_stubs": []
   },
   "/service-areas/plainfield-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/plainfield-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4019,16 +3529,6 @@
     "missing_stubs": []
   },
   "/service-areas/plainfield-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/plainfield-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4138,16 +3638,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/plainfield-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/plainfield-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4169,16 +3659,6 @@
     "missing_stubs": []
   },
   "/service-areas/scotch-plains-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/scotch-plains-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4229,16 +3709,6 @@
     "missing_stubs": []
   },
   "/service-areas/scotch-plains-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/scotch-plains-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4348,16 +3818,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/scotch-plains-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/scotch-plains-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4379,16 +3839,6 @@
     "missing_stubs": []
   },
   "/service-areas/clark-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/clark-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4439,16 +3889,6 @@
     "missing_stubs": []
   },
   "/service-areas/clark-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/clark-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4558,16 +3998,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/clark-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/clark-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4589,16 +4019,6 @@
     "missing_stubs": []
   },
   "/service-areas/roselle-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/roselle-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4649,16 +4069,6 @@
     "missing_stubs": []
   },
   "/service-areas/roselle-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/roselle-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4768,16 +4178,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/roselle-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/roselle-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4799,16 +4199,6 @@
     "missing_stubs": []
   },
   "/service-areas/hillside-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hillside-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4859,16 +4249,6 @@
     "missing_stubs": []
   },
   "/service-areas/hillside-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hillside-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4978,16 +4358,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hillside-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hillside-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5009,16 +4379,6 @@
     "missing_stubs": []
   },
   "/service-areas/east-orange-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/east-orange-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5069,16 +4429,6 @@
     "missing_stubs": []
   },
   "/service-areas/east-orange-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/east-orange-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5188,16 +4538,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/east-orange-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/east-orange-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5219,16 +4559,6 @@
     "missing_stubs": []
   },
   "/service-areas/west-orange-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/west-orange-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5279,16 +4609,6 @@
     "missing_stubs": []
   },
   "/service-areas/west-orange-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/west-orange-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5398,16 +4718,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/west-orange-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/west-orange-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5429,16 +4739,6 @@
     "missing_stubs": []
   },
   "/service-areas/montclair-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/montclair-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5489,16 +4789,6 @@
     "missing_stubs": []
   },
   "/service-areas/montclair-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/montclair-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5608,16 +4898,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/montclair-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/montclair-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5639,16 +4919,6 @@
     "missing_stubs": []
   },
   "/service-areas/bloomfield-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bloomfield-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5699,16 +4969,6 @@
     "missing_stubs": []
   },
   "/service-areas/bloomfield-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bloomfield-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5818,16 +5078,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bloomfield-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bloomfield-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5849,16 +5099,6 @@
     "missing_stubs": []
   },
   "/service-areas/livingston-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/livingston-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5909,16 +5149,6 @@
     "missing_stubs": []
   },
   "/service-areas/livingston-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/livingston-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6028,16 +5258,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/livingston-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/livingston-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6059,16 +5279,6 @@
     "missing_stubs": []
   },
   "/service-areas/irvington-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/irvington-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6119,16 +5329,6 @@
     "missing_stubs": []
   },
   "/service-areas/irvington-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/irvington-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6238,16 +5438,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/irvington-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/irvington-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6269,16 +5459,6 @@
     "missing_stubs": []
   },
   "/service-areas/maplewood-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/maplewood-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6329,16 +5509,6 @@
     "missing_stubs": []
   },
   "/service-areas/maplewood-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/maplewood-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6448,16 +5618,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/maplewood-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/maplewood-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6479,16 +5639,6 @@
     "missing_stubs": []
   },
   "/service-areas/millburn-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/millburn-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6539,16 +5689,6 @@
     "missing_stubs": []
   },
   "/service-areas/millburn-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/millburn-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6658,16 +5798,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/millburn-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/millburn-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6689,16 +5819,6 @@
     "missing_stubs": []
   },
   "/service-areas/hackensack-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hackensack-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6749,16 +5869,6 @@
     "missing_stubs": []
   },
   "/service-areas/hackensack-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hackensack-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6868,16 +5978,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hackensack-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hackensack-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6899,16 +5999,6 @@
     "missing_stubs": []
   },
   "/service-areas/paramus-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/paramus-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6959,16 +6049,6 @@
     "missing_stubs": []
   },
   "/service-areas/paramus-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/paramus-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7078,16 +6158,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/paramus-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/paramus-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7109,16 +6179,6 @@
     "missing_stubs": []
   },
   "/service-areas/fort-lee-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fort-lee-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7169,16 +6229,6 @@
     "missing_stubs": []
   },
   "/service-areas/fort-lee-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fort-lee-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7288,16 +6338,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fort-lee-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fort-lee-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7319,16 +6359,6 @@
     "missing_stubs": []
   },
   "/service-areas/teaneck-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/teaneck-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7379,16 +6409,6 @@
     "missing_stubs": []
   },
   "/service-areas/teaneck-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/teaneck-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7498,16 +6518,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/teaneck-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/teaneck-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7529,16 +6539,6 @@
     "missing_stubs": []
   },
   "/service-areas/ridgewood-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ridgewood-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7589,16 +6589,6 @@
     "missing_stubs": []
   },
   "/service-areas/ridgewood-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ridgewood-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7708,16 +6698,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ridgewood-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ridgewood-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7739,16 +6719,6 @@
     "missing_stubs": []
   },
   "/service-areas/englewood-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/englewood-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7799,16 +6769,6 @@
     "missing_stubs": []
   },
   "/service-areas/englewood-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/englewood-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7918,16 +6878,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/englewood-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/englewood-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7949,16 +6899,6 @@
     "missing_stubs": []
   },
   "/service-areas/garfield-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/garfield-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8009,16 +6949,6 @@
     "missing_stubs": []
   },
   "/service-areas/garfield-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/garfield-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8128,16 +7058,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/garfield-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/garfield-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8159,16 +7079,6 @@
     "missing_stubs": []
   },
   "/service-areas/new-brunswick-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-brunswick-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8219,16 +7129,6 @@
     "missing_stubs": []
   },
   "/service-areas/new-brunswick-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-brunswick-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8338,16 +7238,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/new-brunswick-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/new-brunswick-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8369,16 +7259,6 @@
     "missing_stubs": []
   },
   "/service-areas/edison-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/edison-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8429,16 +7309,6 @@
     "missing_stubs": []
   },
   "/service-areas/edison-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/edison-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8548,16 +7418,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/edison-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/edison-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8579,16 +7439,6 @@
     "missing_stubs": []
   },
   "/service-areas/woodbridge-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/woodbridge-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8639,16 +7489,6 @@
     "missing_stubs": []
   },
   "/service-areas/woodbridge-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/woodbridge-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8758,16 +7598,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/woodbridge-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/woodbridge-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8789,16 +7619,6 @@
     "missing_stubs": []
   },
   "/service-areas/perth-amboy-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/perth-amboy-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8849,16 +7669,6 @@
     "missing_stubs": []
   },
   "/service-areas/perth-amboy-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/perth-amboy-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8968,16 +7778,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/perth-amboy-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/perth-amboy-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8999,16 +7799,6 @@
     "missing_stubs": []
   },
   "/service-areas/east-brunswick-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/east-brunswick-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9059,16 +7849,6 @@
     "missing_stubs": []
   },
   "/service-areas/east-brunswick-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/east-brunswick-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9178,16 +7958,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/east-brunswick-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/east-brunswick-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9209,16 +7979,6 @@
     "missing_stubs": []
   },
   "/service-areas/piscataway-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/piscataway-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9269,16 +8029,6 @@
     "missing_stubs": []
   },
   "/service-areas/piscataway-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/piscataway-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9388,16 +8138,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/piscataway-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/piscataway-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9419,16 +8159,6 @@
     "missing_stubs": []
   },
   "/service-areas/morristown-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/morristown-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9479,16 +8209,6 @@
     "missing_stubs": []
   },
   "/service-areas/morristown-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/morristown-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9598,16 +8318,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/morristown-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/morristown-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9629,16 +8339,6 @@
     "missing_stubs": []
   },
   "/service-areas/parsippany-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/parsippany-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9689,16 +8389,6 @@
     "missing_stubs": []
   },
   "/service-areas/parsippany-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/parsippany-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9808,16 +8498,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/parsippany-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/parsippany-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9839,16 +8519,6 @@
     "missing_stubs": []
   },
   "/service-areas/somerville-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/somerville-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9899,16 +8569,6 @@
     "missing_stubs": []
   },
   "/service-areas/somerville-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/somerville-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10018,16 +8678,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/somerville-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/somerville-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -10049,16 +8699,6 @@
     "missing_stubs": []
   },
   "/service-areas/bridgewater-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bridgewater-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10109,16 +8749,6 @@
     "missing_stubs": []
   },
   "/service-areas/bridgewater-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bridgewater-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10228,16 +8858,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bridgewater-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bridgewater-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -10259,16 +8879,6 @@
     "missing_stubs": []
   },
   "/service-areas/paterson-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/paterson-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10319,16 +8929,6 @@
     "missing_stubs": []
   },
   "/service-areas/paterson-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/paterson-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10438,16 +9038,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/paterson-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/paterson-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -10469,16 +9059,6 @@
     "missing_stubs": []
   },
   "/service-areas/clifton-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/clifton-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10529,16 +9109,6 @@
     "missing_stubs": []
   },
   "/service-areas/clifton-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/clifton-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10648,16 +9218,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/clifton-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/clifton-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -10679,16 +9239,6 @@
     "missing_stubs": []
   },
   "/service-areas/wayne-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wayne-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10739,16 +9289,6 @@
     "missing_stubs": []
   },
   "/service-areas/wayne-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wayne-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10858,16 +9398,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/wayne-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/wayne-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -10889,16 +9419,6 @@
     "missing_stubs": []
   },
   "/service-areas/passaic-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/passaic-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10949,16 +9469,6 @@
     "missing_stubs": []
   },
   "/service-areas/passaic-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/passaic-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11068,16 +9578,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/passaic-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/passaic-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -11099,16 +9599,6 @@
     "missing_stubs": []
   },
   "/service-areas/hoboken-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hoboken-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11159,16 +9649,6 @@
     "missing_stubs": []
   },
   "/service-areas/hoboken-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hoboken-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11278,16 +9758,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hoboken-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hoboken-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -11309,16 +9779,6 @@
     "missing_stubs": []
   },
   "/service-areas/bayonne-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bayonne-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11369,16 +9829,6 @@
     "missing_stubs": []
   },
   "/service-areas/bayonne-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bayonne-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11488,16 +9938,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bayonne-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bayonne-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -11519,16 +9959,6 @@
     "missing_stubs": []
   },
   "/service-areas/north-bergen-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/north-bergen-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11579,16 +10009,6 @@
     "missing_stubs": []
   },
   "/service-areas/north-bergen-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/north-bergen-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11698,16 +10118,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/north-bergen-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/north-bergen-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -11729,16 +10139,6 @@
     "missing_stubs": []
   },
   "/service-areas/mountainside-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/mountainside-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11789,16 +10189,6 @@
     "missing_stubs": []
   },
   "/service-areas/mountainside-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/mountainside-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11908,16 +10298,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/mountainside-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/mountainside-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -11939,16 +10319,6 @@
     "missing_stubs": []
   },
   "/service-areas/short-hills-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/short-hills-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11999,16 +10369,6 @@
     "missing_stubs": []
   },
   "/service-areas/short-hills-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/short-hills-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12118,16 +10478,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/short-hills-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/short-hills-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -12149,16 +10499,6 @@
     "missing_stubs": []
   },
   "/service-areas/colonia-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/colonia-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12209,16 +10549,6 @@
     "missing_stubs": []
   },
   "/service-areas/colonia-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/colonia-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12328,16 +10658,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/colonia-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/colonia-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -12359,16 +10679,6 @@
     "missing_stubs": []
   },
   "/service-areas/new-providence-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-providence-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12419,16 +10729,6 @@
     "missing_stubs": []
   },
   "/service-areas/new-providence-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-providence-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12538,16 +10838,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/new-providence-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/new-providence-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -12569,16 +10859,6 @@
     "missing_stubs": []
   },
   "/service-areas/avenel-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/avenel-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12629,16 +10909,6 @@
     "missing_stubs": []
   },
   "/service-areas/avenel-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/avenel-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12748,16 +11018,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/avenel-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/avenel-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -12779,16 +11039,6 @@
     "missing_stubs": []
   },
   "/service-areas/chatham-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/chatham-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12839,16 +11089,6 @@
     "missing_stubs": []
   },
   "/service-areas/chatham-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/chatham-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12958,16 +11198,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/chatham-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/chatham-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -12989,16 +11219,6 @@
     "missing_stubs": []
   },
   "/service-areas/watchung-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/watchung-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -13049,16 +11269,6 @@
     "missing_stubs": []
   },
   "/service-areas/watchung-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/watchung-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -13168,16 +11378,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/watchung-nj/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/watchung-nj/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -13199,16 +11399,6 @@
     "missing_stubs": []
   },
   "/service-areas/carteret-nj/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/carteret-nj/basement-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -13259,16 +11449,6 @@
     "missing_stubs": []
   },
   "/service-areas/carteret-nj/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/carteret-nj/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -13369,16 +11549,6 @@
     "missing_stubs": []
   },
   "/service-areas/carteret-nj/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/carteret-nj/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

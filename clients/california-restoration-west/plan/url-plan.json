@@ -321,50 +321,6 @@
       ]
     },
     {
-      "url_path": "/services/contents-restoration-storage/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Ventura | California Restoration West ",
-      "h1": "Contents Restoration & Storage in Ventura",
-      "meta_description": "24/7 contents restoration & storage in Ventura and surrounding areas. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "contents restoration & storage ventura",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/camarillo-ca/contents-restoration-storage/",
-        "/service-areas/carpinteria-ca/contents-restoration-storage/",
-        "/service-areas/castaic-ca/contents-restoration-storage/",
-        "/service-areas/fillmore-ca/contents-restoration-storage/",
-        "/service-areas/hasley-canyon-ca/contents-restoration-storage/",
-        "/service-areas/lake-sherwood-ca/contents-restoration-storage/",
-        "/service-areas/mira-monte-ca/contents-restoration-storage/",
-        "/service-areas/moorpark-ca/contents-restoration-storage/",
-        "/service-areas/oak-park-ca/contents-restoration-storage/",
-        "/service-areas/oak-view-ca/contents-restoration-storage/",
-        "/service-areas/ojai-ca/contents-restoration-storage/",
-        "/service-areas/oxnard-ca/contents-restoration-storage/"
-      ]
-    },
-    {
       "url_path": "/services/crawl-space-encapsulation/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -1613,44 +1569,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/oxnard-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Oxnard, CA | California Restoration West ",
-      "h1": "Contents Restoration & Storage in Oxnard",
-      "meta_description": "24/7 contents restoration & storage in Oxnard, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "contents restoration & storage oxnard",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/oxnard-ca/",
-        "/service-areas/oxnard-ca/mold-remediation/",
-        "/service-areas/oxnard-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/contents-restoration-storage/",
-        "/service-areas/carpinteria-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/oxnard-ca/crawl-space-encapsulation/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -1950,44 +1868,6 @@
         "/service-areas/thousand-oaks-ca/water-damage-restoration/",
         "/service-areas/camarillo-ca/contents-restoration/",
         "/service-areas/carpinteria-ca/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/thousand-oaks-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Thousand Oaks, CA | California Restoration West ",
-      "h1": "Contents Restoration & Storage in Thousand Oaks",
-      "meta_description": "24/7 contents restoration & storage in Thousand Oaks, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "contents restoration & storage thousand oaks",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/thousand-oaks-ca/",
-        "/service-areas/thousand-oaks-ca/mold-remediation/",
-        "/service-areas/thousand-oaks-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/contents-restoration-storage/",
-        "/service-areas/carpinteria-ca/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -2295,44 +2175,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/simi-valley-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Simi Valley, CA | California Restoration West ",
-      "h1": "Contents Restoration & Storage in Simi Valley",
-      "meta_description": "24/7 contents restoration & storage in Simi Valley, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "contents restoration & storage simi valley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/simi-valley-ca/",
-        "/service-areas/simi-valley-ca/mold-remediation/",
-        "/service-areas/simi-valley-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/contents-restoration-storage/",
-        "/service-areas/carpinteria-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/simi-valley-ca/crawl-space-encapsulation/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2632,44 +2474,6 @@
         "/service-areas/camarillo-ca/water-damage-restoration/",
         "/service-areas/carpinteria-ca/contents-restoration/",
         "/service-areas/castaic-ca/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/camarillo-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Camarillo, CA | California Restoration West ",
-      "h1": "Contents Restoration & Storage in Camarillo",
-      "meta_description": "24/7 contents restoration & storage in Camarillo, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "contents restoration & storage camarillo",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/camarillo-ca/",
-        "/service-areas/camarillo-ca/mold-remediation/",
-        "/service-areas/camarillo-ca/water-damage-restoration/",
-        "/service-areas/carpinteria-ca/contents-restoration-storage/",
-        "/service-areas/castaic-ca/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -2977,44 +2781,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/santa-paula-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Santa Paula, CA | California Restoration West ",
-      "h1": "Contents Restoration & Storage in Santa Paula",
-      "meta_description": "24/7 contents restoration & storage in Santa Paula, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "contents restoration & storage santa paula",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/santa-paula-ca/",
-        "/service-areas/santa-paula-ca/mold-remediation/",
-        "/service-areas/santa-paula-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/contents-restoration-storage/",
-        "/service-areas/carpinteria-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/santa-paula-ca/crawl-space-encapsulation/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3314,44 +3080,6 @@
         "/service-areas/port-hueneme-ca/water-damage-restoration/",
         "/service-areas/camarillo-ca/contents-restoration/",
         "/service-areas/carpinteria-ca/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/port-hueneme-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Port Hueneme, CA | California Restoration West ",
-      "h1": "Contents Restoration & Storage in Port Hueneme",
-      "meta_description": "24/7 contents restoration & storage in Port Hueneme, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "contents restoration & storage port hueneme",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/port-hueneme-ca/",
-        "/service-areas/port-hueneme-ca/mold-remediation/",
-        "/service-areas/port-hueneme-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/contents-restoration-storage/",
-        "/service-areas/carpinteria-ca/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -3659,44 +3387,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/ojai-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Ojai, CA | California Restoration West ",
-      "h1": "Contents Restoration & Storage in Ojai",
-      "meta_description": "24/7 contents restoration & storage in Ojai, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "contents restoration & storage ojai",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/ojai-ca/",
-        "/service-areas/ojai-ca/mold-remediation/",
-        "/service-areas/ojai-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/contents-restoration-storage/",
-        "/service-areas/carpinteria-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/ojai-ca/crawl-space-encapsulation/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3996,44 +3686,6 @@
         "/service-areas/fillmore-ca/water-damage-restoration/",
         "/service-areas/camarillo-ca/contents-restoration/",
         "/service-areas/carpinteria-ca/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/fillmore-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Fillmore, CA | California Restoration West ",
-      "h1": "Contents Restoration & Storage in Fillmore",
-      "meta_description": "24/7 contents restoration & storage in Fillmore, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "contents restoration & storage fillmore",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/fillmore-ca/",
-        "/service-areas/fillmore-ca/mold-remediation/",
-        "/service-areas/fillmore-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/contents-restoration-storage/",
-        "/service-areas/carpinteria-ca/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -4341,44 +3993,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/mira-monte-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Mira Monte, CA | California Restoration West ",
-      "h1": "Contents Restoration & Storage in Mira Monte",
-      "meta_description": "24/7 contents restoration & storage in Mira Monte, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "contents restoration & storage mira monte",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/mira-monte-ca/",
-        "/service-areas/mira-monte-ca/mold-remediation/",
-        "/service-areas/mira-monte-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/contents-restoration-storage/",
-        "/service-areas/carpinteria-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/mira-monte-ca/crawl-space-encapsulation/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4678,44 +4292,6 @@
         "/service-areas/oak-view-ca/water-damage-restoration/",
         "/service-areas/camarillo-ca/contents-restoration/",
         "/service-areas/carpinteria-ca/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/oak-view-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Oak View, CA | California Restoration West ",
-      "h1": "Contents Restoration & Storage in Oak View",
-      "meta_description": "24/7 contents restoration & storage in Oak View, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "contents restoration & storage oak view",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/oak-view-ca/",
-        "/service-areas/oak-view-ca/mold-remediation/",
-        "/service-areas/oak-view-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/contents-restoration-storage/",
-        "/service-areas/carpinteria-ca/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -5023,44 +4599,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/somis-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Somis, CA | California Restoration West ",
-      "h1": "Contents Restoration & Storage in Somis",
-      "meta_description": "24/7 contents restoration & storage in Somis, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "contents restoration & storage somis",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/somis-ca/",
-        "/service-areas/somis-ca/mold-remediation/",
-        "/service-areas/somis-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/contents-restoration-storage/",
-        "/service-areas/carpinteria-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/somis-ca/crawl-space-encapsulation/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5360,44 +4898,6 @@
         "/service-areas/san-buenaventura-ventura-ca/water-damage-restoration/",
         "/service-areas/camarillo-ca/contents-restoration/",
         "/service-areas/carpinteria-ca/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/san-buenaventura-ventura-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in San Buenaventura (Ventura), CA | California Restoration West ",
-      "h1": "Contents Restoration & Storage in San Buenaventura (Ventura)",
-      "meta_description": "24/7 contents restoration & storage in San Buenaventura (Ventura), CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "contents restoration & storage san buenaventura (ventura)",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/san-buenaventura-ventura-ca/",
-        "/service-areas/san-buenaventura-ventura-ca/mold-remediation/",
-        "/service-areas/san-buenaventura-ventura-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/contents-restoration-storage/",
-        "/service-areas/carpinteria-ca/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -5705,44 +5205,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/moorpark-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Moorpark, CA | California Restoration West ",
-      "h1": "Contents Restoration & Storage in Moorpark",
-      "meta_description": "24/7 contents restoration & storage in Moorpark, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "contents restoration & storage moorpark",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/moorpark-ca/",
-        "/service-areas/moorpark-ca/mold-remediation/",
-        "/service-areas/moorpark-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/contents-restoration-storage/",
-        "/service-areas/carpinteria-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/moorpark-ca/crawl-space-encapsulation/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6042,44 +5504,6 @@
         "/service-areas/santa-rosa-valley-ca/water-damage-restoration/",
         "/service-areas/camarillo-ca/contents-restoration/",
         "/service-areas/carpinteria-ca/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/santa-rosa-valley-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Santa Rosa Valley, CA | California Restoration West ",
-      "h1": "Contents Restoration & Storage in Santa Rosa Valley",
-      "meta_description": "24/7 contents restoration & storage in Santa Rosa Valley, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "contents restoration & storage santa rosa valley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/santa-rosa-valley-ca/",
-        "/service-areas/santa-rosa-valley-ca/mold-remediation/",
-        "/service-areas/santa-rosa-valley-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/contents-restoration-storage/",
-        "/service-areas/carpinteria-ca/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -6387,44 +5811,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/piru-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Piru, CA | California Restoration West ",
-      "h1": "Contents Restoration & Storage in Piru",
-      "meta_description": "24/7 contents restoration & storage in Piru, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "contents restoration & storage piru",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/piru-ca/",
-        "/service-areas/piru-ca/mold-remediation/",
-        "/service-areas/piru-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/contents-restoration-storage/",
-        "/service-areas/carpinteria-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/piru-ca/crawl-space-encapsulation/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6724,44 +6110,6 @@
         "/service-areas/hasley-canyon-ca/water-damage-restoration/",
         "/service-areas/camarillo-ca/contents-restoration/",
         "/service-areas/carpinteria-ca/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/hasley-canyon-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Hasley Canyon, CA | California Restoration West ",
-      "h1": "Contents Restoration & Storage in Hasley Canyon",
-      "meta_description": "24/7 contents restoration & storage in Hasley Canyon, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "contents restoration & storage hasley canyon",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/hasley-canyon-ca/",
-        "/service-areas/hasley-canyon-ca/mold-remediation/",
-        "/service-areas/hasley-canyon-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/contents-restoration-storage/",
-        "/service-areas/carpinteria-ca/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -7069,44 +6417,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lake-sherwood-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Lake Sherwood, CA | California Restoration West ",
-      "h1": "Contents Restoration & Storage in Lake Sherwood",
-      "meta_description": "24/7 contents restoration & storage in Lake Sherwood, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "contents restoration & storage lake sherwood",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/lake-sherwood-ca/",
-        "/service-areas/lake-sherwood-ca/mold-remediation/",
-        "/service-areas/lake-sherwood-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/contents-restoration-storage/",
-        "/service-areas/carpinteria-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lake-sherwood-ca/crawl-space-encapsulation/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7406,44 +6716,6 @@
         "/service-areas/carpinteria-ca/water-damage-restoration/",
         "/service-areas/camarillo-ca/contents-restoration/",
         "/service-areas/castaic-ca/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/carpinteria-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Carpinteria, CA | California Restoration West ",
-      "h1": "Contents Restoration & Storage in Carpinteria",
-      "meta_description": "24/7 contents restoration & storage in Carpinteria, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "contents restoration & storage carpinteria",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/carpinteria-ca/",
-        "/service-areas/carpinteria-ca/mold-remediation/",
-        "/service-areas/carpinteria-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/contents-restoration-storage/",
-        "/service-areas/castaic-ca/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -7751,44 +7023,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/castaic-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Castaic, CA | California Restoration West ",
-      "h1": "Contents Restoration & Storage in Castaic",
-      "meta_description": "24/7 contents restoration & storage in Castaic, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "contents restoration & storage castaic",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/castaic-ca/",
-        "/service-areas/castaic-ca/mold-remediation/",
-        "/service-areas/castaic-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/contents-restoration-storage/",
-        "/service-areas/carpinteria-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/castaic-ca/crawl-space-encapsulation/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8088,44 +7322,6 @@
         "/service-areas/oak-park-ca/water-damage-restoration/",
         "/service-areas/camarillo-ca/contents-restoration/",
         "/service-areas/carpinteria-ca/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/oak-park-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Oak Park, CA | California Restoration West ",
-      "h1": "Contents Restoration & Storage in Oak Park",
-      "meta_description": "24/7 contents restoration & storage in Oak Park, CA. IICRC-certified, insurance billing accepted. Call (805) 290-7292.",
-      "primary_keyword": "contents restoration & storage oak park",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/oak-park-ca/",
-        "/service-areas/oak-park-ca/mold-remediation/",
-        "/service-areas/oak-park-ca/water-damage-restoration/",
-        "/service-areas/camarillo-ca/contents-restoration-storage/",
-        "/service-areas/carpinteria-ca/contents-restoration-storage/",
         "/contact/"
       ]
     },

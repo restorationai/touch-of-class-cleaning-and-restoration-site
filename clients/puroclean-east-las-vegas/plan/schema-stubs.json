@@ -158,16 +158,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/contents-restoration-pack-out/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/mold-inspection-testing/": {
     "archetype": "service-landing",
     "stubs": [
@@ -459,16 +449,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/henderson-nv/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/henderson-nv/mold-inspection-testing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -580,16 +560,6 @@
     "missing_stubs": []
   },
   "/service-areas/north-las-vegas-nv/commercial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/north-las-vegas-nv/contents-restoration-pack-out/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -719,16 +689,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/paradise-nv/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/paradise-nv/mold-inspection-testing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -840,16 +800,6 @@
     "missing_stubs": []
   },
   "/service-areas/spring-valley-nv/commercial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/spring-valley-nv/contents-restoration-pack-out/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -979,16 +929,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sunrise-manor-nv/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sunrise-manor-nv/mold-inspection-testing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1100,16 +1040,6 @@
     "missing_stubs": []
   },
   "/service-areas/whitney-nv/commercial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/whitney-nv/contents-restoration-pack-out/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1239,16 +1169,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/boulder-city-nv/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/boulder-city-nv/mold-inspection-testing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1360,16 +1280,6 @@
     "missing_stubs": []
   },
   "/service-areas/winchester-nv/commercial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/winchester-nv/contents-restoration-pack-out/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1499,16 +1409,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/summerlin-south-nv/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/summerlin-south-nv/mold-inspection-testing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1620,16 +1520,6 @@
     "missing_stubs": []
   },
   "/service-areas/enterprise-nv/commercial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/enterprise-nv/contents-restoration-pack-out/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1759,16 +1649,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/blue-diamond-nv/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/blue-diamond-nv/mold-inspection-testing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1880,16 +1760,6 @@
     "missing_stubs": []
   },
   "/service-areas/mount-charleston-nv/commercial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/mount-charleston-nv/contents-restoration-pack-out/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2019,16 +1889,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/nelson-nv/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/nelson-nv/mold-inspection-testing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2140,16 +2000,6 @@
     "missing_stubs": []
   },
   "/service-areas/sandy-valley-nv/commercial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sandy-valley-nv/contents-restoration-pack-out/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2279,16 +2129,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/moapa-town-nv/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/moapa-town-nv/mold-inspection-testing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2400,16 +2240,6 @@
     "missing_stubs": []
   },
   "/service-areas/indian-springs-nv/commercial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/indian-springs-nv/contents-restoration-pack-out/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2539,16 +2369,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/moapa-valley-nv/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/moapa-valley-nv/mold-inspection-testing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2669,16 +2489,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/pahrump-nv/contents-restoration-pack-out/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/pahrump-nv/mold-inspection-testing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2790,16 +2600,6 @@
     "missing_stubs": []
   },
   "/service-areas/searchlight-nv/commercial-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/searchlight-nv/contents-restoration-pack-out/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

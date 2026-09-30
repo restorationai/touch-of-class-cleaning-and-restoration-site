@@ -62,8 +62,11 @@ from gbp_name_suggest import metro_location, search_volumes  # noqa: E402
 from work_log import work_log  # noqa: E402
 
 PARITY_MODEL = "claude-sonnet-5"
-QUEUE_CAP = 10          # pages per client per run
-MIN_METRO_VOLUME = 10   # searches/mo gate for worth_a_page (unless nationally meaningful)
+# Site-structure policy (Santino 2026-09-30) owns the caps: one source,
+# scripts/site_structure.py. worth_a_page is only a CANDIDATE here; the
+# client's gbp-service-map decides (mapped services never get pages).
+from site_structure import MAX_NEW_PAGES_PER_NIGHT as QUEUE_CAP  # noqa: E402
+from site_structure import NEW_PAGE_METRO_MIN as MIN_METRO_VOLUME  # noqa: E402
 
 
 # --------------------------------------------------------------------------- #
@@ -349,6 +352,15 @@ def check_client(slug: str, meta: dict, apply: bool, skip_queue: bool) -> dict:
     verdicts = classify(slug, meta, pages, unbacked, vols, vol_label)
 
     worth = [(s, vols.get(s, 0)) for s, v in verdicts.items() if v["verdict"] == "worth_a_page"]
+    # the per-client GBP service map has the final word (site_structure.py)
+    try:
+        import gbp_service_map
+        decided = gbp_service_map.resolve(slug, [s for s, _ in worth], apply=apply)
+        worth = [(s, n) for s, n in worth
+                 if (decided.get(gbp_service_map._label(s)) or {}).get("verdict") == "new_page"]
+    except Exception as e:  # noqa: BLE001 -- fail closed
+        print(f"     service map unavailable ({str(e)[:80]}) -- nothing queued")
+        worth = []
     out["fold"] = [(s, v["fold_target"]) for s, v in verdicts.items()
                    if v["verdict"] == "fold_into_existing"]
     out["trim"] = [(s, vols.get(s, 0), verdicts[s]["reason"]) for s, v in verdicts.items()

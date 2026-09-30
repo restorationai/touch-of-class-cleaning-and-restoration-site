@@ -67,7 +67,7 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Reconstruction Services](https://firedex.net/services/reconstruction/)
 - [Sewage Cleanup and Sanitization](https://firedex.net/services/sewage-cleanup/)
 - [Smoke Damage Restoration](https://firedex.net/services/smoke-damage-restoration/)
-- [Soot Removal](https://firedex.net/services/soot-removal/)
+- [Soot Removal](https://firedex.net/services/smoke-damage-restoration/)
 - [Storm Damage Restoration](https://firedex.net/services/storm-damage-restoration/)
 - [Water Damage Restoration](https://firedex.net/services/water-damage-restoration/)
 

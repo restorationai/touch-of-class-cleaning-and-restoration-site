@@ -358,50 +358,6 @@
       ]
     },
     {
-      "url_path": "/services/air-duct-hvac-cleaning/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Pittsburgh | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Pittsburgh",
-      "meta_description": "24/7 air duct & hvac cleaning in Pittsburgh and surrounding areas. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning pittsburgh",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/service-areas/bethel-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/carnegie-pa/air-duct-hvac-cleaning/",
-        "/service-areas/castle-shannon-pa/air-duct-hvac-cleaning/",
-        "/service-areas/churchill-pa/air-duct-hvac-cleaning/",
-        "/service-areas/duquesne-pa/air-duct-hvac-cleaning/",
-        "/service-areas/forest-hills-pa/air-duct-hvac-cleaning/",
-        "/service-areas/fox-chapel-pa/air-duct-hvac-cleaning/",
-        "/service-areas/glenshaw-pa/air-duct-hvac-cleaning/",
-        "/service-areas/green-tree-pa/air-duct-hvac-cleaning/",
-        "/service-areas/greensburg-pa/air-duct-hvac-cleaning/"
-      ]
-    },
-    {
       "url_path": "/services/asbestos-abatement/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -549,50 +505,6 @@
         "/service-areas/glenshaw-pa/carpet-cleaning/",
         "/service-areas/green-tree-pa/carpet-cleaning/",
         "/service-areas/greensburg-pa/carpet-cleaning/"
-      ]
-    },
-    {
-      "url_path": "/services/carpet-upholstery-cleaning/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Pittsburgh | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Pittsburgh",
-      "meta_description": "24/7 carpet & upholstery cleaning in Pittsburgh and surrounding areas. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning pittsburgh",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
-        "/service-areas/bethel-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/carnegie-pa/carpet-upholstery-cleaning/",
-        "/service-areas/castle-shannon-pa/carpet-upholstery-cleaning/",
-        "/service-areas/churchill-pa/carpet-upholstery-cleaning/",
-        "/service-areas/duquesne-pa/carpet-upholstery-cleaning/",
-        "/service-areas/forest-hills-pa/carpet-upholstery-cleaning/",
-        "/service-areas/fox-chapel-pa/carpet-upholstery-cleaning/",
-        "/service-areas/glenshaw-pa/carpet-upholstery-cleaning/",
-        "/service-areas/green-tree-pa/carpet-upholstery-cleaning/",
-        "/service-areas/greensburg-pa/carpet-upholstery-cleaning/"
       ]
     },
     {
@@ -2773,44 +2685,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/penn-hills-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Penn Hills, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Penn Hills",
-      "meta_description": "24/7 air duct & hvac cleaning in Penn Hills, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning penn hills",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/penn-hills-pa/",
-        "/service-areas/penn-hills-pa/fire-damage-restoration/",
-        "/service-areas/penn-hills-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/penn-hills-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2939,44 +2813,6 @@
         "/service-areas/penn-hills-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/penn-hills-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Penn Hills, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Penn Hills",
-      "meta_description": "24/7 carpet & upholstery cleaning in Penn Hills, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning penn hills",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/penn-hills-pa/",
-        "/service-areas/penn-hills-pa/fire-damage-restoration/",
-        "/service-areas/penn-hills-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -3372,44 +3208,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/mccandless-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in McCandless, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in McCandless",
-      "meta_description": "24/7 air duct & hvac cleaning in McCandless, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning mccandless",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/mccandless-pa/",
-        "/service-areas/mccandless-pa/fire-damage-restoration/",
-        "/service-areas/mccandless-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/mccandless-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3538,44 +3336,6 @@
         "/service-areas/mccandless-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/mccandless-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in McCandless, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in McCandless",
-      "meta_description": "24/7 carpet & upholstery cleaning in McCandless, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning mccandless",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/mccandless-pa/",
-        "/service-areas/mccandless-pa/fire-damage-restoration/",
-        "/service-areas/mccandless-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -3971,44 +3731,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/bethel-park-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Bethel Park, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Bethel Park",
-      "meta_description": "24/7 air duct & hvac cleaning in Bethel Park, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning bethel park",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/bethel-park-pa/",
-        "/service-areas/bethel-park-pa/fire-damage-restoration/",
-        "/service-areas/bethel-park-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/bethel-park-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4137,44 +3859,6 @@
         "/service-areas/bethel-park-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/bethel-park-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Bethel Park, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Bethel Park",
-      "meta_description": "24/7 carpet & upholstery cleaning in Bethel Park, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning bethel park",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/bethel-park-pa/",
-        "/service-areas/bethel-park-pa/fire-damage-restoration/",
-        "/service-areas/bethel-park-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -4570,44 +4254,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/mount-lebanon-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Mount Lebanon, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Mount Lebanon",
-      "meta_description": "24/7 air duct & hvac cleaning in Mount Lebanon, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning mount lebanon",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/mount-lebanon-pa/",
-        "/service-areas/mount-lebanon-pa/fire-damage-restoration/",
-        "/service-areas/mount-lebanon-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/mount-lebanon-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4736,44 +4382,6 @@
         "/service-areas/mount-lebanon-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/mount-lebanon-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Mount Lebanon, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Mount Lebanon",
-      "meta_description": "24/7 carpet & upholstery cleaning in Mount Lebanon, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning mount lebanon",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/mount-lebanon-pa/",
-        "/service-areas/mount-lebanon-pa/fire-damage-restoration/",
-        "/service-areas/mount-lebanon-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -5169,44 +4777,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/ross-township-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Ross Township, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Ross Township",
-      "meta_description": "24/7 air duct & hvac cleaning in Ross Township, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning ross township",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/ross-township-pa/",
-        "/service-areas/ross-township-pa/fire-damage-restoration/",
-        "/service-areas/ross-township-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/ross-township-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5335,44 +4905,6 @@
         "/service-areas/ross-township-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/ross-township-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Ross Township, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Ross Township",
-      "meta_description": "24/7 carpet & upholstery cleaning in Ross Township, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning ross township",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/ross-township-pa/",
-        "/service-areas/ross-township-pa/fire-damage-restoration/",
-        "/service-areas/ross-township-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -5768,44 +5300,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/monroeville-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Monroeville, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Monroeville",
-      "meta_description": "24/7 air duct & hvac cleaning in Monroeville, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning monroeville",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/monroeville-pa/",
-        "/service-areas/monroeville-pa/fire-damage-restoration/",
-        "/service-areas/monroeville-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/monroeville-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5934,44 +5428,6 @@
         "/service-areas/monroeville-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/monroeville-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Monroeville, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Monroeville",
-      "meta_description": "24/7 carpet & upholstery cleaning in Monroeville, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning monroeville",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/monroeville-pa/",
-        "/service-areas/monroeville-pa/fire-damage-restoration/",
-        "/service-areas/monroeville-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -6367,44 +5823,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/shaler-township-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Shaler Township, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Shaler Township",
-      "meta_description": "24/7 air duct & hvac cleaning in Shaler Township, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning shaler township",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/shaler-township-pa/",
-        "/service-areas/shaler-township-pa/fire-damage-restoration/",
-        "/service-areas/shaler-township-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/shaler-township-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6533,44 +5951,6 @@
         "/service-areas/shaler-township-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/shaler-township-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Shaler Township, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Shaler Township",
-      "meta_description": "24/7 carpet & upholstery cleaning in Shaler Township, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning shaler township",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/shaler-township-pa/",
-        "/service-areas/shaler-township-pa/fire-damage-restoration/",
-        "/service-areas/shaler-township-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -6966,44 +6346,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/plum-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Plum, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Plum",
-      "meta_description": "24/7 air duct & hvac cleaning in Plum, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning plum",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/plum-pa/",
-        "/service-areas/plum-pa/fire-damage-restoration/",
-        "/service-areas/plum-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/plum-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7132,44 +6474,6 @@
         "/service-areas/plum-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/plum-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Plum, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Plum",
-      "meta_description": "24/7 carpet & upholstery cleaning in Plum, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning plum",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/plum-pa/",
-        "/service-areas/plum-pa/fire-damage-restoration/",
-        "/service-areas/plum-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -7565,44 +6869,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/west-mifflin-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in West Mifflin, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in West Mifflin",
-      "meta_description": "24/7 air duct & hvac cleaning in West Mifflin, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning west mifflin",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/west-mifflin-pa/",
-        "/service-areas/west-mifflin-pa/fire-damage-restoration/",
-        "/service-areas/west-mifflin-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/west-mifflin-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7731,44 +6997,6 @@
         "/service-areas/west-mifflin-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/west-mifflin-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in West Mifflin, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in West Mifflin",
-      "meta_description": "24/7 carpet & upholstery cleaning in West Mifflin, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning west mifflin",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/west-mifflin-pa/",
-        "/service-areas/west-mifflin-pa/fire-damage-restoration/",
-        "/service-areas/west-mifflin-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -8164,44 +7392,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/mckeesport-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in McKeesport, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in McKeesport",
-      "meta_description": "24/7 air duct & hvac cleaning in McKeesport, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning mckeesport",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/mckeesport-pa/",
-        "/service-areas/mckeesport-pa/fire-damage-restoration/",
-        "/service-areas/mckeesport-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/mckeesport-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8330,44 +7520,6 @@
         "/service-areas/mckeesport-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/mckeesport-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in McKeesport, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in McKeesport",
-      "meta_description": "24/7 carpet & upholstery cleaning in McKeesport, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning mckeesport",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/mckeesport-pa/",
-        "/service-areas/mckeesport-pa/fire-damage-restoration/",
-        "/service-areas/mckeesport-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -8763,44 +7915,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Baldwin, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Baldwin",
-      "meta_description": "24/7 air duct & hvac cleaning in Baldwin, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning baldwin",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/",
-        "/service-areas/baldwin-pa/fire-damage-restoration/",
-        "/service-areas/baldwin-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/bethel-park-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/baldwin-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8929,44 +8043,6 @@
         "/service-areas/baldwin-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/bethel-park-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Baldwin, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Baldwin",
-      "meta_description": "24/7 carpet & upholstery cleaning in Baldwin, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning baldwin",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/",
-        "/service-areas/baldwin-pa/fire-damage-restoration/",
-        "/service-areas/baldwin-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/bethel-park-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -9362,44 +8438,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/greensburg-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Greensburg, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Greensburg",
-      "meta_description": "24/7 air duct & hvac cleaning in Greensburg, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning greensburg",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/greensburg-pa/",
-        "/service-areas/greensburg-pa/fire-damage-restoration/",
-        "/service-areas/greensburg-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/greensburg-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9528,44 +8566,6 @@
         "/service-areas/greensburg-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/greensburg-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Greensburg, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Greensburg",
-      "meta_description": "24/7 carpet & upholstery cleaning in Greensburg, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning greensburg",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/greensburg-pa/",
-        "/service-areas/greensburg-pa/fire-damage-restoration/",
-        "/service-areas/greensburg-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -9961,44 +8961,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/hempfield-township-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Hempfield Township, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Hempfield Township",
-      "meta_description": "24/7 air duct & hvac cleaning in Hempfield Township, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning hempfield township",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/hempfield-township-pa/",
-        "/service-areas/hempfield-township-pa/fire-damage-restoration/",
-        "/service-areas/hempfield-township-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/hempfield-township-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10127,44 +9089,6 @@
         "/service-areas/hempfield-township-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/hempfield-township-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Hempfield Township, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Hempfield Township",
-      "meta_description": "24/7 carpet & upholstery cleaning in Hempfield Township, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning hempfield township",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/hempfield-township-pa/",
-        "/service-areas/hempfield-township-pa/fire-damage-restoration/",
-        "/service-areas/hempfield-township-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -10560,44 +9484,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/north-huntingdon-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in North Huntingdon, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in North Huntingdon",
-      "meta_description": "24/7 air duct & hvac cleaning in North Huntingdon, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning north huntingdon",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/north-huntingdon-pa/",
-        "/service-areas/north-huntingdon-pa/fire-damage-restoration/",
-        "/service-areas/north-huntingdon-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/north-huntingdon-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10726,44 +9612,6 @@
         "/service-areas/north-huntingdon-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/north-huntingdon-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in North Huntingdon, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in North Huntingdon",
-      "meta_description": "24/7 carpet & upholstery cleaning in North Huntingdon, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning north huntingdon",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/north-huntingdon-pa/",
-        "/service-areas/north-huntingdon-pa/fire-damage-restoration/",
-        "/service-areas/north-huntingdon-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -11159,44 +10007,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/new-kensington-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in New Kensington, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in New Kensington",
-      "meta_description": "24/7 air duct & hvac cleaning in New Kensington, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning new kensington",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/new-kensington-pa/",
-        "/service-areas/new-kensington-pa/fire-damage-restoration/",
-        "/service-areas/new-kensington-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/new-kensington-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -11325,44 +10135,6 @@
         "/service-areas/new-kensington-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/new-kensington-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in New Kensington, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in New Kensington",
-      "meta_description": "24/7 carpet & upholstery cleaning in New Kensington, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning new kensington",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/new-kensington-pa/",
-        "/service-areas/new-kensington-pa/fire-damage-restoration/",
-        "/service-areas/new-kensington-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -11758,44 +10530,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/murrysville-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Murrysville, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Murrysville",
-      "meta_description": "24/7 air duct & hvac cleaning in Murrysville, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning murrysville",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/murrysville-pa/",
-        "/service-areas/murrysville-pa/fire-damage-restoration/",
-        "/service-areas/murrysville-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/murrysville-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -11924,44 +10658,6 @@
         "/service-areas/murrysville-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/murrysville-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Murrysville, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Murrysville",
-      "meta_description": "24/7 carpet & upholstery cleaning in Murrysville, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning murrysville",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/murrysville-pa/",
-        "/service-areas/murrysville-pa/fire-damage-restoration/",
-        "/service-areas/murrysville-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -12357,44 +11053,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/latrobe-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Latrobe, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Latrobe",
-      "meta_description": "24/7 air duct & hvac cleaning in Latrobe, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning latrobe",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/latrobe-pa/",
-        "/service-areas/latrobe-pa/fire-damage-restoration/",
-        "/service-areas/latrobe-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/latrobe-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12523,44 +11181,6 @@
         "/service-areas/latrobe-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/latrobe-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Latrobe, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Latrobe",
-      "meta_description": "24/7 carpet & upholstery cleaning in Latrobe, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning latrobe",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/latrobe-pa/",
-        "/service-areas/latrobe-pa/fire-damage-restoration/",
-        "/service-areas/latrobe-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -12956,44 +11576,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lower-burrell-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Lower Burrell, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Lower Burrell",
-      "meta_description": "24/7 air duct & hvac cleaning in Lower Burrell, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning lower burrell",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/lower-burrell-pa/",
-        "/service-areas/lower-burrell-pa/fire-damage-restoration/",
-        "/service-areas/lower-burrell-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lower-burrell-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13122,44 +11704,6 @@
         "/service-areas/lower-burrell-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lower-burrell-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Lower Burrell, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Lower Burrell",
-      "meta_description": "24/7 carpet & upholstery cleaning in Lower Burrell, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning lower burrell",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/lower-burrell-pa/",
-        "/service-areas/lower-burrell-pa/fire-damage-restoration/",
-        "/service-areas/lower-burrell-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -13555,44 +12099,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/jeannette-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Jeannette, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Jeannette",
-      "meta_description": "24/7 air duct & hvac cleaning in Jeannette, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning jeannette",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/jeannette-pa/",
-        "/service-areas/jeannette-pa/fire-damage-restoration/",
-        "/service-areas/jeannette-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/jeannette-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13721,44 +12227,6 @@
         "/service-areas/jeannette-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/jeannette-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Jeannette, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Jeannette",
-      "meta_description": "24/7 carpet & upholstery cleaning in Jeannette, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning jeannette",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/jeannette-pa/",
-        "/service-areas/jeannette-pa/fire-damage-restoration/",
-        "/service-areas/jeannette-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -14154,44 +12622,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/green-tree-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Green Tree, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Green Tree",
-      "meta_description": "24/7 air duct & hvac cleaning in Green Tree, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning green tree",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/green-tree-pa/",
-        "/service-areas/green-tree-pa/fire-damage-restoration/",
-        "/service-areas/green-tree-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/green-tree-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14320,44 +12750,6 @@
         "/service-areas/green-tree-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/green-tree-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Green Tree, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Green Tree",
-      "meta_description": "24/7 carpet & upholstery cleaning in Green Tree, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning green tree",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/green-tree-pa/",
-        "/service-areas/green-tree-pa/fire-damage-restoration/",
-        "/service-areas/green-tree-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -14753,44 +13145,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/carnegie-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Carnegie, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Carnegie",
-      "meta_description": "24/7 air duct & hvac cleaning in Carnegie, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning carnegie",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/carnegie-pa/",
-        "/service-areas/carnegie-pa/fire-damage-restoration/",
-        "/service-areas/carnegie-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/carnegie-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14919,44 +13273,6 @@
         "/service-areas/carnegie-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/carnegie-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Carnegie, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Carnegie",
-      "meta_description": "24/7 carpet & upholstery cleaning in Carnegie, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning carnegie",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/carnegie-pa/",
-        "/service-areas/carnegie-pa/fire-damage-restoration/",
-        "/service-areas/carnegie-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -15352,44 +13668,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/castle-shannon-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Castle Shannon, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Castle Shannon",
-      "meta_description": "24/7 air duct & hvac cleaning in Castle Shannon, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning castle shannon",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/castle-shannon-pa/",
-        "/service-areas/castle-shannon-pa/fire-damage-restoration/",
-        "/service-areas/castle-shannon-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/castle-shannon-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -15518,44 +13796,6 @@
         "/service-areas/castle-shannon-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/castle-shannon-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Castle Shannon, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Castle Shannon",
-      "meta_description": "24/7 carpet & upholstery cleaning in Castle Shannon, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning castle shannon",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/castle-shannon-pa/",
-        "/service-areas/castle-shannon-pa/fire-damage-restoration/",
-        "/service-areas/castle-shannon-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -15951,44 +14191,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/whitehall-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Whitehall, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Whitehall",
-      "meta_description": "24/7 air duct & hvac cleaning in Whitehall, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning whitehall",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/whitehall-pa/",
-        "/service-areas/whitehall-pa/fire-damage-restoration/",
-        "/service-areas/whitehall-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/whitehall-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -16117,44 +14319,6 @@
         "/service-areas/whitehall-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/whitehall-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Whitehall, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Whitehall",
-      "meta_description": "24/7 carpet & upholstery cleaning in Whitehall, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning whitehall",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/whitehall-pa/",
-        "/service-areas/whitehall-pa/fire-damage-restoration/",
-        "/service-areas/whitehall-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -16550,44 +14714,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/munhall-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Munhall, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Munhall",
-      "meta_description": "24/7 air duct & hvac cleaning in Munhall, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning munhall",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/munhall-pa/",
-        "/service-areas/munhall-pa/fire-damage-restoration/",
-        "/service-areas/munhall-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/munhall-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -16716,44 +14842,6 @@
         "/service-areas/munhall-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/munhall-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Munhall, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Munhall",
-      "meta_description": "24/7 carpet & upholstery cleaning in Munhall, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning munhall",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/munhall-pa/",
-        "/service-areas/munhall-pa/fire-damage-restoration/",
-        "/service-areas/munhall-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -17149,44 +15237,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/glenshaw-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Glenshaw, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Glenshaw",
-      "meta_description": "24/7 air duct & hvac cleaning in Glenshaw, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning glenshaw",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/glenshaw-pa/",
-        "/service-areas/glenshaw-pa/fire-damage-restoration/",
-        "/service-areas/glenshaw-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/glenshaw-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17315,44 +15365,6 @@
         "/service-areas/glenshaw-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/glenshaw-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Glenshaw, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Glenshaw",
-      "meta_description": "24/7 carpet & upholstery cleaning in Glenshaw, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning glenshaw",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/glenshaw-pa/",
-        "/service-areas/glenshaw-pa/fire-damage-restoration/",
-        "/service-areas/glenshaw-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -17748,44 +15760,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/pleasant-hills-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Pleasant Hills, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Pleasant Hills",
-      "meta_description": "24/7 air duct & hvac cleaning in Pleasant Hills, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning pleasant hills",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/pleasant-hills-pa/",
-        "/service-areas/pleasant-hills-pa/fire-damage-restoration/",
-        "/service-areas/pleasant-hills-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/pleasant-hills-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17914,44 +15888,6 @@
         "/service-areas/pleasant-hills-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/pleasant-hills-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Pleasant Hills, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Pleasant Hills",
-      "meta_description": "24/7 carpet & upholstery cleaning in Pleasant Hills, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning pleasant hills",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/pleasant-hills-pa/",
-        "/service-areas/pleasant-hills-pa/fire-damage-restoration/",
-        "/service-areas/pleasant-hills-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -18347,44 +16283,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/wilkinsburg-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Wilkinsburg, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Wilkinsburg",
-      "meta_description": "24/7 air duct & hvac cleaning in Wilkinsburg, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning wilkinsburg",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/wilkinsburg-pa/",
-        "/service-areas/wilkinsburg-pa/fire-damage-restoration/",
-        "/service-areas/wilkinsburg-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/wilkinsburg-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -18513,44 +16411,6 @@
         "/service-areas/wilkinsburg-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/wilkinsburg-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Wilkinsburg, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Wilkinsburg",
-      "meta_description": "24/7 carpet & upholstery cleaning in Wilkinsburg, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning wilkinsburg",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/wilkinsburg-pa/",
-        "/service-areas/wilkinsburg-pa/fire-damage-restoration/",
-        "/service-areas/wilkinsburg-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -18946,44 +16806,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/forest-hills-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Forest Hills, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Forest Hills",
-      "meta_description": "24/7 air duct & hvac cleaning in Forest Hills, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning forest hills",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/forest-hills-pa/",
-        "/service-areas/forest-hills-pa/fire-damage-restoration/",
-        "/service-areas/forest-hills-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/forest-hills-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -19112,44 +16934,6 @@
         "/service-areas/forest-hills-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/forest-hills-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Forest Hills, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Forest Hills",
-      "meta_description": "24/7 carpet & upholstery cleaning in Forest Hills, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning forest hills",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/forest-hills-pa/",
-        "/service-areas/forest-hills-pa/fire-damage-restoration/",
-        "/service-areas/forest-hills-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -19545,44 +17329,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Allison Park, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Allison Park",
-      "meta_description": "24/7 air duct & hvac cleaning in Allison Park, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning allison park",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/allison-park-pa/",
-        "/service-areas/allison-park-pa/fire-damage-restoration/",
-        "/service-areas/allison-park-pa/roofing/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/service-areas/bethel-park-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/allison-park-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -19711,44 +17457,6 @@
         "/service-areas/allison-park-pa/roofing/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
         "/service-areas/bethel-park-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Allison Park, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Allison Park",
-      "meta_description": "24/7 carpet & upholstery cleaning in Allison Park, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning allison park",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/allison-park-pa/",
-        "/service-areas/allison-park-pa/fire-damage-restoration/",
-        "/service-areas/allison-park-pa/roofing/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
-        "/service-areas/bethel-park-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -20144,44 +17852,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/fox-chapel-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Fox Chapel, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Fox Chapel",
-      "meta_description": "24/7 air duct & hvac cleaning in Fox Chapel, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning fox chapel",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/fox-chapel-pa/",
-        "/service-areas/fox-chapel-pa/fire-damage-restoration/",
-        "/service-areas/fox-chapel-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/fox-chapel-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -20310,44 +17980,6 @@
         "/service-areas/fox-chapel-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/fox-chapel-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Fox Chapel, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Fox Chapel",
-      "meta_description": "24/7 carpet & upholstery cleaning in Fox Chapel, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning fox chapel",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/fox-chapel-pa/",
-        "/service-areas/fox-chapel-pa/fire-damage-restoration/",
-        "/service-areas/fox-chapel-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -20743,44 +18375,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/churchill-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Churchill, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Churchill",
-      "meta_description": "24/7 air duct & hvac cleaning in Churchill, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning churchill",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/churchill-pa/",
-        "/service-areas/churchill-pa/fire-damage-restoration/",
-        "/service-areas/churchill-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/churchill-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -20909,44 +18503,6 @@
         "/service-areas/churchill-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/churchill-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Churchill, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Churchill",
-      "meta_description": "24/7 carpet & upholstery cleaning in Churchill, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning churchill",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/churchill-pa/",
-        "/service-areas/churchill-pa/fire-damage-restoration/",
-        "/service-areas/churchill-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -21342,44 +18898,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/duquesne-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Duquesne, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Duquesne",
-      "meta_description": "24/7 air duct & hvac cleaning in Duquesne, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning duquesne",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/duquesne-pa/",
-        "/service-areas/duquesne-pa/fire-damage-restoration/",
-        "/service-areas/duquesne-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/duquesne-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -21508,44 +19026,6 @@
         "/service-areas/duquesne-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/duquesne-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Duquesne, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Duquesne",
-      "meta_description": "24/7 carpet & upholstery cleaning in Duquesne, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning duquesne",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/duquesne-pa/",
-        "/service-areas/duquesne-pa/fire-damage-restoration/",
-        "/service-areas/duquesne-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -21941,44 +19421,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/jefferson-hills-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Jefferson Hills, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Jefferson Hills",
-      "meta_description": "24/7 air duct & hvac cleaning in Jefferson Hills, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning jefferson hills",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/jefferson-hills-pa/",
-        "/service-areas/jefferson-hills-pa/fire-damage-restoration/",
-        "/service-areas/jefferson-hills-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/jefferson-hills-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -22107,44 +19549,6 @@
         "/service-areas/jefferson-hills-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/jefferson-hills-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Jefferson Hills, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Jefferson Hills",
-      "meta_description": "24/7 carpet & upholstery cleaning in Jefferson Hills, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning jefferson hills",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/jefferson-hills-pa/",
-        "/service-areas/jefferson-hills-pa/fire-damage-restoration/",
-        "/service-areas/jefferson-hills-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -22540,44 +19944,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/sewickley-hills-pa/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Sewickley Hills, PA | Katofsky Construction LLC",
-      "h1": "Air Duct & HVAC Cleaning in Sewickley Hills",
-      "meta_description": "24/7 air duct & hvac cleaning in Sewickley Hills, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "air duct & hvac cleaning sewickley hills",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/sewickley-hills-pa/",
-        "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
-        "/service-areas/sewickley-hills-pa/roofing/",
-        "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-        "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/sewickley-hills-pa/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -22706,44 +20072,6 @@
         "/service-areas/sewickley-hills-pa/roofing/",
         "/service-areas/allison-park-pa/carpet-cleaning/",
         "/service-areas/baldwin-pa/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sewickley-hills-pa/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Sewickley Hills, PA | Katofsky Construction LLC",
-      "h1": "Carpet & Upholstery Cleaning in Sewickley Hills",
-      "meta_description": "24/7 carpet & upholstery cleaning in Sewickley Hills, PA. IICRC-certified, insurance billing accepted. Call (412) 304-9284.",
-      "primary_keyword": "carpet & upholstery cleaning sewickley hills",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/sewickley-hills-pa/",
-        "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
-        "/service-areas/sewickley-hills-pa/roofing/",
-        "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-        "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },

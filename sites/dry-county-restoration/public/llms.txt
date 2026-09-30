@@ -54,7 +54,7 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Air Duct Cleaning](https://drycountyrestoration.com/services/air-duct-cleaning/)
 - [Carpet Cleaning](https://drycountyrestoration.com/services/carpet-cleaning/)
 - [Contents Restoration and Storage](https://drycountyrestoration.com/services/contents-restoration/)
-- [Contents Restoration & Storage](https://drycountyrestoration.com/services/contents-restoration-storage/)
+- [Contents Restoration & Storage](https://drycountyrestoration.com/services/contents-restoration/)
 - [Emergency Board-Up and Tarping](https://drycountyrestoration.com/services/emergency-board-up-tarping/)
 - [Emergency Plumbing](https://drycountyrestoration.com/services/emergency-plumbing/)
 - [Fire Damage Restoration](https://drycountyrestoration.com/services/fire-damage-restoration/)

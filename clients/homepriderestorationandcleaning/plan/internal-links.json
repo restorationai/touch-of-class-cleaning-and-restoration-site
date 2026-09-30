@@ -9,7 +9,6 @@
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
     "/services/emergency-plumbing/",
-    "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
     "/services/sewage-cleanup/",
@@ -28,11 +27,9 @@
     "/services/industrial-restoration/",
     "/services/odor-removal/",
     "/services/roof-leak-repair/",
-    "/services/water-heater-flood-cleanup/",
     "/services/water-leak-detection/",
     "/services/appliance-leak-cleanup/",
     "/services/hoarding-cleanup/",
-    "/services/carpet-upholstery-cleaning/",
     "/services/crawl-space-encapsulation/",
     "/services/fabric-protection/",
     "/services/junk-debris-removal/",
@@ -70,7 +67,6 @@
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
     "/services/emergency-plumbing/",
-    "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
     "/services/sewage-cleanup/",
@@ -89,11 +85,9 @@
     "/services/industrial-restoration/",
     "/services/odor-removal/",
     "/services/roof-leak-repair/",
-    "/services/water-heater-flood-cleanup/",
     "/services/water-leak-detection/",
     "/services/appliance-leak-cleanup/",
     "/services/hoarding-cleanup/",
-    "/services/carpet-upholstery-cleaning/",
     "/services/crawl-space-encapsulation/",
     "/services/fabric-protection/",
     "/services/junk-debris-removal/",
@@ -232,22 +226,6 @@
     "/service-areas/heber-city-ut/carpet-cleaning/",
     "/service-areas/herriman-ut/carpet-cleaning/",
     "/service-areas/highland-ut/carpet-cleaning/"
-  ],
-  "/services/carpet-upholstery-cleaning/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-    "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
-    "/service-areas/benjamin-ut/carpet-upholstery-cleaning/",
-    "/service-areas/bluffdale-ut/carpet-upholstery-cleaning/",
-    "/service-areas/cedar-fort-ut/carpet-upholstery-cleaning/",
-    "/service-areas/cedar-hills-ut/carpet-upholstery-cleaning/",
-    "/service-areas/draper-ut/carpet-upholstery-cleaning/",
-    "/service-areas/eagle-mountain-ut/carpet-upholstery-cleaning/",
-    "/service-areas/fairfield-ut/carpet-upholstery-cleaning/",
-    "/service-areas/heber-city-ut/carpet-upholstery-cleaning/",
-    "/service-areas/herriman-ut/carpet-upholstery-cleaning/",
-    "/service-areas/highland-ut/carpet-upholstery-cleaning/"
   ],
   "/services/crawl-space-encapsulation/": [
     "/services/",
@@ -696,38 +674,6 @@
     "/service-areas/herriman-ut/ceiling-water-damage-repair/",
     "/service-areas/highland-ut/ceiling-water-damage-repair/"
   ],
-  "/services/water-heater-flood-cleanup/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-    "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-    "/service-areas/benjamin-ut/water-heater-flood-cleanup/",
-    "/service-areas/bluffdale-ut/water-heater-flood-cleanup/",
-    "/service-areas/cedar-fort-ut/water-heater-flood-cleanup/",
-    "/service-areas/cedar-hills-ut/water-heater-flood-cleanup/",
-    "/service-areas/draper-ut/water-heater-flood-cleanup/",
-    "/service-areas/eagle-mountain-ut/water-heater-flood-cleanup/",
-    "/service-areas/fairfield-ut/water-heater-flood-cleanup/",
-    "/service-areas/heber-city-ut/water-heater-flood-cleanup/",
-    "/service-areas/herriman-ut/water-heater-flood-cleanup/",
-    "/service-areas/highland-ut/water-heater-flood-cleanup/"
-  ],
-  "/services/emergency-water-removal/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/alpine-ut/emergency-water-removal/",
-    "/service-areas/american-fork-ut/emergency-water-removal/",
-    "/service-areas/benjamin-ut/emergency-water-removal/",
-    "/service-areas/bluffdale-ut/emergency-water-removal/",
-    "/service-areas/cedar-fort-ut/emergency-water-removal/",
-    "/service-areas/cedar-hills-ut/emergency-water-removal/",
-    "/service-areas/draper-ut/emergency-water-removal/",
-    "/service-areas/eagle-mountain-ut/emergency-water-removal/",
-    "/service-areas/fairfield-ut/emergency-water-removal/",
-    "/service-areas/heber-city-ut/emergency-water-removal/",
-    "/service-areas/herriman-ut/emergency-water-removal/",
-    "/service-areas/highland-ut/emergency-water-removal/"
-  ],
   "/services/emergency-plumbing/": [
     "/services/",
     "/contact/",
@@ -752,7 +698,6 @@
     "/service-areas/lehi-ut/water-damage-restoration/",
     "/service-areas/lehi-ut/commercial-restoration/",
     "/service-areas/lehi-ut/emergency-plumbing/",
-    "/service-areas/lehi-ut/emergency-water-removal/",
     "/service-areas/lehi-ut/flood-damage-restoration/",
     "/service-areas/lehi-ut/reconstruction/",
     "/service-areas/lehi-ut/sewage-cleanup/",
@@ -771,11 +716,9 @@
     "/service-areas/lehi-ut/industrial-restoration/",
     "/service-areas/lehi-ut/odor-removal/",
     "/service-areas/lehi-ut/roof-leak-repair/",
-    "/service-areas/lehi-ut/water-heater-flood-cleanup/",
     "/service-areas/lehi-ut/water-leak-detection/",
     "/service-areas/lehi-ut/appliance-leak-cleanup/",
     "/service-areas/lehi-ut/hoarding-cleanup/",
-    "/service-areas/lehi-ut/carpet-upholstery-cleaning/",
     "/service-areas/lehi-ut/crawl-space-encapsulation/",
     "/service-areas/lehi-ut/fabric-protection/",
     "/service-areas/lehi-ut/junk-debris-removal/",
@@ -795,7 +738,6 @@
     "/service-areas/eagle-mountain-ut/water-damage-restoration/",
     "/service-areas/eagle-mountain-ut/commercial-restoration/",
     "/service-areas/eagle-mountain-ut/emergency-plumbing/",
-    "/service-areas/eagle-mountain-ut/emergency-water-removal/",
     "/service-areas/eagle-mountain-ut/flood-damage-restoration/",
     "/service-areas/eagle-mountain-ut/reconstruction/",
     "/service-areas/eagle-mountain-ut/sewage-cleanup/",
@@ -814,11 +756,9 @@
     "/service-areas/eagle-mountain-ut/industrial-restoration/",
     "/service-areas/eagle-mountain-ut/odor-removal/",
     "/service-areas/eagle-mountain-ut/roof-leak-repair/",
-    "/service-areas/eagle-mountain-ut/water-heater-flood-cleanup/",
     "/service-areas/eagle-mountain-ut/water-leak-detection/",
     "/service-areas/eagle-mountain-ut/appliance-leak-cleanup/",
     "/service-areas/eagle-mountain-ut/hoarding-cleanup/",
-    "/service-areas/eagle-mountain-ut/carpet-upholstery-cleaning/",
     "/service-areas/eagle-mountain-ut/crawl-space-encapsulation/",
     "/service-areas/eagle-mountain-ut/fabric-protection/",
     "/service-areas/eagle-mountain-ut/junk-debris-removal/",
@@ -838,7 +778,6 @@
     "/service-areas/american-fork-ut/water-damage-restoration/",
     "/service-areas/american-fork-ut/commercial-restoration/",
     "/service-areas/american-fork-ut/emergency-plumbing/",
-    "/service-areas/american-fork-ut/emergency-water-removal/",
     "/service-areas/american-fork-ut/flood-damage-restoration/",
     "/service-areas/american-fork-ut/reconstruction/",
     "/service-areas/american-fork-ut/sewage-cleanup/",
@@ -857,11 +796,9 @@
     "/service-areas/american-fork-ut/industrial-restoration/",
     "/service-areas/american-fork-ut/odor-removal/",
     "/service-areas/american-fork-ut/roof-leak-repair/",
-    "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
     "/service-areas/american-fork-ut/water-leak-detection/",
     "/service-areas/american-fork-ut/appliance-leak-cleanup/",
     "/service-areas/american-fork-ut/hoarding-cleanup/",
-    "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
     "/service-areas/american-fork-ut/crawl-space-encapsulation/",
     "/service-areas/american-fork-ut/fabric-protection/",
     "/service-areas/american-fork-ut/junk-debris-removal/",
@@ -881,7 +818,6 @@
     "/service-areas/pleasant-grove-ut/water-damage-restoration/",
     "/service-areas/pleasant-grove-ut/commercial-restoration/",
     "/service-areas/pleasant-grove-ut/emergency-plumbing/",
-    "/service-areas/pleasant-grove-ut/emergency-water-removal/",
     "/service-areas/pleasant-grove-ut/flood-damage-restoration/",
     "/service-areas/pleasant-grove-ut/reconstruction/",
     "/service-areas/pleasant-grove-ut/sewage-cleanup/",
@@ -900,11 +836,9 @@
     "/service-areas/pleasant-grove-ut/industrial-restoration/",
     "/service-areas/pleasant-grove-ut/odor-removal/",
     "/service-areas/pleasant-grove-ut/roof-leak-repair/",
-    "/service-areas/pleasant-grove-ut/water-heater-flood-cleanup/",
     "/service-areas/pleasant-grove-ut/water-leak-detection/",
     "/service-areas/pleasant-grove-ut/appliance-leak-cleanup/",
     "/service-areas/pleasant-grove-ut/hoarding-cleanup/",
-    "/service-areas/pleasant-grove-ut/carpet-upholstery-cleaning/",
     "/service-areas/pleasant-grove-ut/crawl-space-encapsulation/",
     "/service-areas/pleasant-grove-ut/fabric-protection/",
     "/service-areas/pleasant-grove-ut/junk-debris-removal/",
@@ -924,7 +858,6 @@
     "/service-areas/orem-ut/water-damage-restoration/",
     "/service-areas/orem-ut/commercial-restoration/",
     "/service-areas/orem-ut/emergency-plumbing/",
-    "/service-areas/orem-ut/emergency-water-removal/",
     "/service-areas/orem-ut/flood-damage-restoration/",
     "/service-areas/orem-ut/reconstruction/",
     "/service-areas/orem-ut/sewage-cleanup/",
@@ -943,11 +876,9 @@
     "/service-areas/orem-ut/industrial-restoration/",
     "/service-areas/orem-ut/odor-removal/",
     "/service-areas/orem-ut/roof-leak-repair/",
-    "/service-areas/orem-ut/water-heater-flood-cleanup/",
     "/service-areas/orem-ut/water-leak-detection/",
     "/service-areas/orem-ut/appliance-leak-cleanup/",
     "/service-areas/orem-ut/hoarding-cleanup/",
-    "/service-areas/orem-ut/carpet-upholstery-cleaning/",
     "/service-areas/orem-ut/crawl-space-encapsulation/",
     "/service-areas/orem-ut/fabric-protection/",
     "/service-areas/orem-ut/junk-debris-removal/",
@@ -967,7 +898,6 @@
     "/service-areas/provo-ut/water-damage-restoration/",
     "/service-areas/provo-ut/commercial-restoration/",
     "/service-areas/provo-ut/emergency-plumbing/",
-    "/service-areas/provo-ut/emergency-water-removal/",
     "/service-areas/provo-ut/flood-damage-restoration/",
     "/service-areas/provo-ut/reconstruction/",
     "/service-areas/provo-ut/sewage-cleanup/",
@@ -986,11 +916,9 @@
     "/service-areas/provo-ut/industrial-restoration/",
     "/service-areas/provo-ut/odor-removal/",
     "/service-areas/provo-ut/roof-leak-repair/",
-    "/service-areas/provo-ut/water-heater-flood-cleanup/",
     "/service-areas/provo-ut/water-leak-detection/",
     "/service-areas/provo-ut/appliance-leak-cleanup/",
     "/service-areas/provo-ut/hoarding-cleanup/",
-    "/service-areas/provo-ut/carpet-upholstery-cleaning/",
     "/service-areas/provo-ut/crawl-space-encapsulation/",
     "/service-areas/provo-ut/fabric-protection/",
     "/service-areas/provo-ut/junk-debris-removal/",
@@ -1010,7 +938,6 @@
     "/service-areas/herriman-ut/water-damage-restoration/",
     "/service-areas/herriman-ut/commercial-restoration/",
     "/service-areas/herriman-ut/emergency-plumbing/",
-    "/service-areas/herriman-ut/emergency-water-removal/",
     "/service-areas/herriman-ut/flood-damage-restoration/",
     "/service-areas/herriman-ut/reconstruction/",
     "/service-areas/herriman-ut/sewage-cleanup/",
@@ -1029,11 +956,9 @@
     "/service-areas/herriman-ut/industrial-restoration/",
     "/service-areas/herriman-ut/odor-removal/",
     "/service-areas/herriman-ut/roof-leak-repair/",
-    "/service-areas/herriman-ut/water-heater-flood-cleanup/",
     "/service-areas/herriman-ut/water-leak-detection/",
     "/service-areas/herriman-ut/appliance-leak-cleanup/",
     "/service-areas/herriman-ut/hoarding-cleanup/",
-    "/service-areas/herriman-ut/carpet-upholstery-cleaning/",
     "/service-areas/herriman-ut/crawl-space-encapsulation/",
     "/service-areas/herriman-ut/fabric-protection/",
     "/service-areas/herriman-ut/junk-debris-removal/",
@@ -1053,7 +978,6 @@
     "/service-areas/south-jordan-ut/water-damage-restoration/",
     "/service-areas/south-jordan-ut/commercial-restoration/",
     "/service-areas/south-jordan-ut/emergency-plumbing/",
-    "/service-areas/south-jordan-ut/emergency-water-removal/",
     "/service-areas/south-jordan-ut/flood-damage-restoration/",
     "/service-areas/south-jordan-ut/reconstruction/",
     "/service-areas/south-jordan-ut/sewage-cleanup/",
@@ -1072,11 +996,9 @@
     "/service-areas/south-jordan-ut/industrial-restoration/",
     "/service-areas/south-jordan-ut/odor-removal/",
     "/service-areas/south-jordan-ut/roof-leak-repair/",
-    "/service-areas/south-jordan-ut/water-heater-flood-cleanup/",
     "/service-areas/south-jordan-ut/water-leak-detection/",
     "/service-areas/south-jordan-ut/appliance-leak-cleanup/",
     "/service-areas/south-jordan-ut/hoarding-cleanup/",
-    "/service-areas/south-jordan-ut/carpet-upholstery-cleaning/",
     "/service-areas/south-jordan-ut/crawl-space-encapsulation/",
     "/service-areas/south-jordan-ut/fabric-protection/",
     "/service-areas/south-jordan-ut/junk-debris-removal/",
@@ -1096,7 +1018,6 @@
     "/service-areas/riverton-ut/water-damage-restoration/",
     "/service-areas/riverton-ut/commercial-restoration/",
     "/service-areas/riverton-ut/emergency-plumbing/",
-    "/service-areas/riverton-ut/emergency-water-removal/",
     "/service-areas/riverton-ut/flood-damage-restoration/",
     "/service-areas/riverton-ut/reconstruction/",
     "/service-areas/riverton-ut/sewage-cleanup/",
@@ -1115,11 +1036,9 @@
     "/service-areas/riverton-ut/industrial-restoration/",
     "/service-areas/riverton-ut/odor-removal/",
     "/service-areas/riverton-ut/roof-leak-repair/",
-    "/service-areas/riverton-ut/water-heater-flood-cleanup/",
     "/service-areas/riverton-ut/water-leak-detection/",
     "/service-areas/riverton-ut/appliance-leak-cleanup/",
     "/service-areas/riverton-ut/hoarding-cleanup/",
-    "/service-areas/riverton-ut/carpet-upholstery-cleaning/",
     "/service-areas/riverton-ut/crawl-space-encapsulation/",
     "/service-areas/riverton-ut/fabric-protection/",
     "/service-areas/riverton-ut/junk-debris-removal/",
@@ -1139,7 +1058,6 @@
     "/service-areas/heber-city-ut/water-damage-restoration/",
     "/service-areas/heber-city-ut/commercial-restoration/",
     "/service-areas/heber-city-ut/emergency-plumbing/",
-    "/service-areas/heber-city-ut/emergency-water-removal/",
     "/service-areas/heber-city-ut/flood-damage-restoration/",
     "/service-areas/heber-city-ut/reconstruction/",
     "/service-areas/heber-city-ut/sewage-cleanup/",
@@ -1158,11 +1076,9 @@
     "/service-areas/heber-city-ut/industrial-restoration/",
     "/service-areas/heber-city-ut/odor-removal/",
     "/service-areas/heber-city-ut/roof-leak-repair/",
-    "/service-areas/heber-city-ut/water-heater-flood-cleanup/",
     "/service-areas/heber-city-ut/water-leak-detection/",
     "/service-areas/heber-city-ut/appliance-leak-cleanup/",
     "/service-areas/heber-city-ut/hoarding-cleanup/",
-    "/service-areas/heber-city-ut/carpet-upholstery-cleaning/",
     "/service-areas/heber-city-ut/crawl-space-encapsulation/",
     "/service-areas/heber-city-ut/fabric-protection/",
     "/service-areas/heber-city-ut/junk-debris-removal/",
@@ -1182,7 +1098,6 @@
     "/service-areas/park-city-ut/water-damage-restoration/",
     "/service-areas/park-city-ut/commercial-restoration/",
     "/service-areas/park-city-ut/emergency-plumbing/",
-    "/service-areas/park-city-ut/emergency-water-removal/",
     "/service-areas/park-city-ut/flood-damage-restoration/",
     "/service-areas/park-city-ut/reconstruction/",
     "/service-areas/park-city-ut/sewage-cleanup/",
@@ -1201,11 +1116,9 @@
     "/service-areas/park-city-ut/industrial-restoration/",
     "/service-areas/park-city-ut/odor-removal/",
     "/service-areas/park-city-ut/roof-leak-repair/",
-    "/service-areas/park-city-ut/water-heater-flood-cleanup/",
     "/service-areas/park-city-ut/water-leak-detection/",
     "/service-areas/park-city-ut/appliance-leak-cleanup/",
     "/service-areas/park-city-ut/hoarding-cleanup/",
-    "/service-areas/park-city-ut/carpet-upholstery-cleaning/",
     "/service-areas/park-city-ut/crawl-space-encapsulation/",
     "/service-areas/park-city-ut/fabric-protection/",
     "/service-areas/park-city-ut/junk-debris-removal/",
@@ -1225,7 +1138,6 @@
     "/service-areas/vineyard-ut/water-damage-restoration/",
     "/service-areas/vineyard-ut/commercial-restoration/",
     "/service-areas/vineyard-ut/emergency-plumbing/",
-    "/service-areas/vineyard-ut/emergency-water-removal/",
     "/service-areas/vineyard-ut/flood-damage-restoration/",
     "/service-areas/vineyard-ut/reconstruction/",
     "/service-areas/vineyard-ut/sewage-cleanup/",
@@ -1244,11 +1156,9 @@
     "/service-areas/vineyard-ut/industrial-restoration/",
     "/service-areas/vineyard-ut/odor-removal/",
     "/service-areas/vineyard-ut/roof-leak-repair/",
-    "/service-areas/vineyard-ut/water-heater-flood-cleanup/",
     "/service-areas/vineyard-ut/water-leak-detection/",
     "/service-areas/vineyard-ut/appliance-leak-cleanup/",
     "/service-areas/vineyard-ut/hoarding-cleanup/",
-    "/service-areas/vineyard-ut/carpet-upholstery-cleaning/",
     "/service-areas/vineyard-ut/crawl-space-encapsulation/",
     "/service-areas/vineyard-ut/fabric-protection/",
     "/service-areas/vineyard-ut/junk-debris-removal/",
@@ -1268,7 +1178,6 @@
     "/service-areas/highland-ut/water-damage-restoration/",
     "/service-areas/highland-ut/commercial-restoration/",
     "/service-areas/highland-ut/emergency-plumbing/",
-    "/service-areas/highland-ut/emergency-water-removal/",
     "/service-areas/highland-ut/flood-damage-restoration/",
     "/service-areas/highland-ut/reconstruction/",
     "/service-areas/highland-ut/sewage-cleanup/",
@@ -1287,11 +1196,9 @@
     "/service-areas/highland-ut/industrial-restoration/",
     "/service-areas/highland-ut/odor-removal/",
     "/service-areas/highland-ut/roof-leak-repair/",
-    "/service-areas/highland-ut/water-heater-flood-cleanup/",
     "/service-areas/highland-ut/water-leak-detection/",
     "/service-areas/highland-ut/appliance-leak-cleanup/",
     "/service-areas/highland-ut/hoarding-cleanup/",
-    "/service-areas/highland-ut/carpet-upholstery-cleaning/",
     "/service-areas/highland-ut/crawl-space-encapsulation/",
     "/service-areas/highland-ut/fabric-protection/",
     "/service-areas/highland-ut/junk-debris-removal/",
@@ -1311,7 +1218,6 @@
     "/service-areas/lindon-ut/water-damage-restoration/",
     "/service-areas/lindon-ut/commercial-restoration/",
     "/service-areas/lindon-ut/emergency-plumbing/",
-    "/service-areas/lindon-ut/emergency-water-removal/",
     "/service-areas/lindon-ut/flood-damage-restoration/",
     "/service-areas/lindon-ut/reconstruction/",
     "/service-areas/lindon-ut/sewage-cleanup/",
@@ -1330,11 +1236,9 @@
     "/service-areas/lindon-ut/industrial-restoration/",
     "/service-areas/lindon-ut/odor-removal/",
     "/service-areas/lindon-ut/roof-leak-repair/",
-    "/service-areas/lindon-ut/water-heater-flood-cleanup/",
     "/service-areas/lindon-ut/water-leak-detection/",
     "/service-areas/lindon-ut/appliance-leak-cleanup/",
     "/service-areas/lindon-ut/hoarding-cleanup/",
-    "/service-areas/lindon-ut/carpet-upholstery-cleaning/",
     "/service-areas/lindon-ut/crawl-space-encapsulation/",
     "/service-areas/lindon-ut/fabric-protection/",
     "/service-areas/lindon-ut/junk-debris-removal/",
@@ -1354,7 +1258,6 @@
     "/service-areas/fairfield-ut/water-damage-restoration/",
     "/service-areas/fairfield-ut/commercial-restoration/",
     "/service-areas/fairfield-ut/emergency-plumbing/",
-    "/service-areas/fairfield-ut/emergency-water-removal/",
     "/service-areas/fairfield-ut/flood-damage-restoration/",
     "/service-areas/fairfield-ut/reconstruction/",
     "/service-areas/fairfield-ut/sewage-cleanup/",
@@ -1373,11 +1276,9 @@
     "/service-areas/fairfield-ut/industrial-restoration/",
     "/service-areas/fairfield-ut/odor-removal/",
     "/service-areas/fairfield-ut/roof-leak-repair/",
-    "/service-areas/fairfield-ut/water-heater-flood-cleanup/",
     "/service-areas/fairfield-ut/water-leak-detection/",
     "/service-areas/fairfield-ut/appliance-leak-cleanup/",
     "/service-areas/fairfield-ut/hoarding-cleanup/",
-    "/service-areas/fairfield-ut/carpet-upholstery-cleaning/",
     "/service-areas/fairfield-ut/crawl-space-encapsulation/",
     "/service-areas/fairfield-ut/fabric-protection/",
     "/service-areas/fairfield-ut/junk-debris-removal/",
@@ -1397,7 +1298,6 @@
     "/service-areas/cedar-hills-ut/water-damage-restoration/",
     "/service-areas/cedar-hills-ut/commercial-restoration/",
     "/service-areas/cedar-hills-ut/emergency-plumbing/",
-    "/service-areas/cedar-hills-ut/emergency-water-removal/",
     "/service-areas/cedar-hills-ut/flood-damage-restoration/",
     "/service-areas/cedar-hills-ut/reconstruction/",
     "/service-areas/cedar-hills-ut/sewage-cleanup/",
@@ -1416,11 +1316,9 @@
     "/service-areas/cedar-hills-ut/industrial-restoration/",
     "/service-areas/cedar-hills-ut/odor-removal/",
     "/service-areas/cedar-hills-ut/roof-leak-repair/",
-    "/service-areas/cedar-hills-ut/water-heater-flood-cleanup/",
     "/service-areas/cedar-hills-ut/water-leak-detection/",
     "/service-areas/cedar-hills-ut/appliance-leak-cleanup/",
     "/service-areas/cedar-hills-ut/hoarding-cleanup/",
-    "/service-areas/cedar-hills-ut/carpet-upholstery-cleaning/",
     "/service-areas/cedar-hills-ut/crawl-space-encapsulation/",
     "/service-areas/cedar-hills-ut/fabric-protection/",
     "/service-areas/cedar-hills-ut/junk-debris-removal/",
@@ -1440,7 +1338,6 @@
     "/service-areas/cedar-fort-ut/water-damage-restoration/",
     "/service-areas/cedar-fort-ut/commercial-restoration/",
     "/service-areas/cedar-fort-ut/emergency-plumbing/",
-    "/service-areas/cedar-fort-ut/emergency-water-removal/",
     "/service-areas/cedar-fort-ut/flood-damage-restoration/",
     "/service-areas/cedar-fort-ut/reconstruction/",
     "/service-areas/cedar-fort-ut/sewage-cleanup/",
@@ -1459,11 +1356,9 @@
     "/service-areas/cedar-fort-ut/industrial-restoration/",
     "/service-areas/cedar-fort-ut/odor-removal/",
     "/service-areas/cedar-fort-ut/roof-leak-repair/",
-    "/service-areas/cedar-fort-ut/water-heater-flood-cleanup/",
     "/service-areas/cedar-fort-ut/water-leak-detection/",
     "/service-areas/cedar-fort-ut/appliance-leak-cleanup/",
     "/service-areas/cedar-fort-ut/hoarding-cleanup/",
-    "/service-areas/cedar-fort-ut/carpet-upholstery-cleaning/",
     "/service-areas/cedar-fort-ut/crawl-space-encapsulation/",
     "/service-areas/cedar-fort-ut/fabric-protection/",
     "/service-areas/cedar-fort-ut/junk-debris-removal/",
@@ -1483,7 +1378,6 @@
     "/service-areas/bluffdale-ut/water-damage-restoration/",
     "/service-areas/bluffdale-ut/commercial-restoration/",
     "/service-areas/bluffdale-ut/emergency-plumbing/",
-    "/service-areas/bluffdale-ut/emergency-water-removal/",
     "/service-areas/bluffdale-ut/flood-damage-restoration/",
     "/service-areas/bluffdale-ut/reconstruction/",
     "/service-areas/bluffdale-ut/sewage-cleanup/",
@@ -1502,11 +1396,9 @@
     "/service-areas/bluffdale-ut/industrial-restoration/",
     "/service-areas/bluffdale-ut/odor-removal/",
     "/service-areas/bluffdale-ut/roof-leak-repair/",
-    "/service-areas/bluffdale-ut/water-heater-flood-cleanup/",
     "/service-areas/bluffdale-ut/water-leak-detection/",
     "/service-areas/bluffdale-ut/appliance-leak-cleanup/",
     "/service-areas/bluffdale-ut/hoarding-cleanup/",
-    "/service-areas/bluffdale-ut/carpet-upholstery-cleaning/",
     "/service-areas/bluffdale-ut/crawl-space-encapsulation/",
     "/service-areas/bluffdale-ut/fabric-protection/",
     "/service-areas/bluffdale-ut/junk-debris-removal/",
@@ -1526,7 +1418,6 @@
     "/service-areas/alpine-ut/water-damage-restoration/",
     "/service-areas/alpine-ut/commercial-restoration/",
     "/service-areas/alpine-ut/emergency-plumbing/",
-    "/service-areas/alpine-ut/emergency-water-removal/",
     "/service-areas/alpine-ut/flood-damage-restoration/",
     "/service-areas/alpine-ut/reconstruction/",
     "/service-areas/alpine-ut/sewage-cleanup/",
@@ -1545,11 +1436,9 @@
     "/service-areas/alpine-ut/industrial-restoration/",
     "/service-areas/alpine-ut/odor-removal/",
     "/service-areas/alpine-ut/roof-leak-repair/",
-    "/service-areas/alpine-ut/water-heater-flood-cleanup/",
     "/service-areas/alpine-ut/water-leak-detection/",
     "/service-areas/alpine-ut/appliance-leak-cleanup/",
     "/service-areas/alpine-ut/hoarding-cleanup/",
-    "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
     "/service-areas/alpine-ut/crawl-space-encapsulation/",
     "/service-areas/alpine-ut/fabric-protection/",
     "/service-areas/alpine-ut/junk-debris-removal/",
@@ -1569,7 +1458,6 @@
     "/service-areas/draper-ut/water-damage-restoration/",
     "/service-areas/draper-ut/commercial-restoration/",
     "/service-areas/draper-ut/emergency-plumbing/",
-    "/service-areas/draper-ut/emergency-water-removal/",
     "/service-areas/draper-ut/flood-damage-restoration/",
     "/service-areas/draper-ut/reconstruction/",
     "/service-areas/draper-ut/sewage-cleanup/",
@@ -1588,11 +1476,9 @@
     "/service-areas/draper-ut/industrial-restoration/",
     "/service-areas/draper-ut/odor-removal/",
     "/service-areas/draper-ut/roof-leak-repair/",
-    "/service-areas/draper-ut/water-heater-flood-cleanup/",
     "/service-areas/draper-ut/water-leak-detection/",
     "/service-areas/draper-ut/appliance-leak-cleanup/",
     "/service-areas/draper-ut/hoarding-cleanup/",
-    "/service-areas/draper-ut/carpet-upholstery-cleaning/",
     "/service-areas/draper-ut/crawl-space-encapsulation/",
     "/service-areas/draper-ut/fabric-protection/",
     "/service-areas/draper-ut/junk-debris-removal/",
@@ -1612,7 +1498,6 @@
     "/service-areas/lake-shore-ut/water-damage-restoration/",
     "/service-areas/lake-shore-ut/commercial-restoration/",
     "/service-areas/lake-shore-ut/emergency-plumbing/",
-    "/service-areas/lake-shore-ut/emergency-water-removal/",
     "/service-areas/lake-shore-ut/flood-damage-restoration/",
     "/service-areas/lake-shore-ut/reconstruction/",
     "/service-areas/lake-shore-ut/sewage-cleanup/",
@@ -1631,11 +1516,9 @@
     "/service-areas/lake-shore-ut/industrial-restoration/",
     "/service-areas/lake-shore-ut/odor-removal/",
     "/service-areas/lake-shore-ut/roof-leak-repair/",
-    "/service-areas/lake-shore-ut/water-heater-flood-cleanup/",
     "/service-areas/lake-shore-ut/water-leak-detection/",
     "/service-areas/lake-shore-ut/appliance-leak-cleanup/",
     "/service-areas/lake-shore-ut/hoarding-cleanup/",
-    "/service-areas/lake-shore-ut/carpet-upholstery-cleaning/",
     "/service-areas/lake-shore-ut/crawl-space-encapsulation/",
     "/service-areas/lake-shore-ut/fabric-protection/",
     "/service-areas/lake-shore-ut/junk-debris-removal/",
@@ -1655,7 +1538,6 @@
     "/service-areas/benjamin-ut/water-damage-restoration/",
     "/service-areas/benjamin-ut/commercial-restoration/",
     "/service-areas/benjamin-ut/emergency-plumbing/",
-    "/service-areas/benjamin-ut/emergency-water-removal/",
     "/service-areas/benjamin-ut/flood-damage-restoration/",
     "/service-areas/benjamin-ut/reconstruction/",
     "/service-areas/benjamin-ut/sewage-cleanup/",
@@ -1674,11 +1556,9 @@
     "/service-areas/benjamin-ut/industrial-restoration/",
     "/service-areas/benjamin-ut/odor-removal/",
     "/service-areas/benjamin-ut/roof-leak-repair/",
-    "/service-areas/benjamin-ut/water-heater-flood-cleanup/",
     "/service-areas/benjamin-ut/water-leak-detection/",
     "/service-areas/benjamin-ut/appliance-leak-cleanup/",
     "/service-areas/benjamin-ut/hoarding-cleanup/",
-    "/service-areas/benjamin-ut/carpet-upholstery-cleaning/",
     "/service-areas/benjamin-ut/crawl-space-encapsulation/",
     "/service-areas/benjamin-ut/fabric-protection/",
     "/service-areas/benjamin-ut/junk-debris-removal/",
@@ -1733,15 +1613,6 @@
     "/service-areas/lehi-ut/mold-remediation/",
     "/service-areas/alpine-ut/carpet-cleaning/",
     "/service-areas/american-fork-ut/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/lehi-ut/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/lehi-ut/",
-    "/service-areas/lehi-ut/fire-damage-restoration/",
-    "/service-areas/lehi-ut/mold-remediation/",
-    "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-    "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/lehi-ut/crawl-space-encapsulation/": [
@@ -1987,24 +1858,6 @@
     "/service-areas/american-fork-ut/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/lehi-ut/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/lehi-ut/",
-    "/service-areas/lehi-ut/fire-damage-restoration/",
-    "/service-areas/lehi-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-    "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/lehi-ut/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/lehi-ut/",
-    "/service-areas/lehi-ut/fire-damage-restoration/",
-    "/service-areas/lehi-ut/mold-remediation/",
-    "/service-areas/alpine-ut/emergency-water-removal/",
-    "/service-areas/american-fork-ut/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/lehi-ut/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/lehi-ut/",
@@ -2057,15 +1910,6 @@
     "/service-areas/eagle-mountain-ut/mold-remediation/",
     "/service-areas/alpine-ut/carpet-cleaning/",
     "/service-areas/american-fork-ut/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/eagle-mountain-ut/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/eagle-mountain-ut/",
-    "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
-    "/service-areas/eagle-mountain-ut/mold-remediation/",
-    "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-    "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/eagle-mountain-ut/crawl-space-encapsulation/": [
@@ -2311,24 +2155,6 @@
     "/service-areas/american-fork-ut/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/eagle-mountain-ut/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/eagle-mountain-ut/",
-    "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
-    "/service-areas/eagle-mountain-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-    "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/eagle-mountain-ut/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/eagle-mountain-ut/",
-    "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
-    "/service-areas/eagle-mountain-ut/mold-remediation/",
-    "/service-areas/alpine-ut/emergency-water-removal/",
-    "/service-areas/american-fork-ut/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/eagle-mountain-ut/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/eagle-mountain-ut/",
@@ -2381,15 +2207,6 @@
     "/service-areas/american-fork-ut/mold-remediation/",
     "/service-areas/alpine-ut/carpet-cleaning/",
     "/service-areas/benjamin-ut/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/american-fork-ut/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/american-fork-ut/",
-    "/service-areas/american-fork-ut/fire-damage-restoration/",
-    "/service-areas/american-fork-ut/mold-remediation/",
-    "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-    "/service-areas/benjamin-ut/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/american-fork-ut/crawl-space-encapsulation/": [
@@ -2635,24 +2452,6 @@
     "/service-areas/benjamin-ut/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/american-fork-ut/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/american-fork-ut/",
-    "/service-areas/american-fork-ut/fire-damage-restoration/",
-    "/service-areas/american-fork-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-    "/service-areas/benjamin-ut/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/american-fork-ut/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/american-fork-ut/",
-    "/service-areas/american-fork-ut/fire-damage-restoration/",
-    "/service-areas/american-fork-ut/mold-remediation/",
-    "/service-areas/alpine-ut/emergency-water-removal/",
-    "/service-areas/benjamin-ut/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/american-fork-ut/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/american-fork-ut/",
@@ -2705,15 +2504,6 @@
     "/service-areas/pleasant-grove-ut/mold-remediation/",
     "/service-areas/alpine-ut/carpet-cleaning/",
     "/service-areas/american-fork-ut/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/pleasant-grove-ut/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/pleasant-grove-ut/",
-    "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
-    "/service-areas/pleasant-grove-ut/mold-remediation/",
-    "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-    "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/pleasant-grove-ut/crawl-space-encapsulation/": [
@@ -2959,24 +2749,6 @@
     "/service-areas/american-fork-ut/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/pleasant-grove-ut/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/pleasant-grove-ut/",
-    "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
-    "/service-areas/pleasant-grove-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-    "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/pleasant-grove-ut/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/pleasant-grove-ut/",
-    "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
-    "/service-areas/pleasant-grove-ut/mold-remediation/",
-    "/service-areas/alpine-ut/emergency-water-removal/",
-    "/service-areas/american-fork-ut/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/pleasant-grove-ut/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/pleasant-grove-ut/",
@@ -3029,15 +2801,6 @@
     "/service-areas/orem-ut/mold-remediation/",
     "/service-areas/alpine-ut/carpet-cleaning/",
     "/service-areas/american-fork-ut/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/orem-ut/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/orem-ut/",
-    "/service-areas/orem-ut/fire-damage-restoration/",
-    "/service-areas/orem-ut/mold-remediation/",
-    "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-    "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/orem-ut/crawl-space-encapsulation/": [
@@ -3283,24 +3046,6 @@
     "/service-areas/american-fork-ut/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/orem-ut/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/orem-ut/",
-    "/service-areas/orem-ut/fire-damage-restoration/",
-    "/service-areas/orem-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-    "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/orem-ut/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/orem-ut/",
-    "/service-areas/orem-ut/fire-damage-restoration/",
-    "/service-areas/orem-ut/mold-remediation/",
-    "/service-areas/alpine-ut/emergency-water-removal/",
-    "/service-areas/american-fork-ut/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/orem-ut/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/orem-ut/",
@@ -3353,15 +3098,6 @@
     "/service-areas/provo-ut/mold-remediation/",
     "/service-areas/alpine-ut/carpet-cleaning/",
     "/service-areas/american-fork-ut/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/provo-ut/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/provo-ut/",
-    "/service-areas/provo-ut/fire-damage-restoration/",
-    "/service-areas/provo-ut/mold-remediation/",
-    "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-    "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/provo-ut/crawl-space-encapsulation/": [
@@ -3607,24 +3343,6 @@
     "/service-areas/american-fork-ut/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/provo-ut/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/provo-ut/",
-    "/service-areas/provo-ut/fire-damage-restoration/",
-    "/service-areas/provo-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-    "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/provo-ut/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/provo-ut/",
-    "/service-areas/provo-ut/fire-damage-restoration/",
-    "/service-areas/provo-ut/mold-remediation/",
-    "/service-areas/alpine-ut/emergency-water-removal/",
-    "/service-areas/american-fork-ut/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/provo-ut/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/provo-ut/",
@@ -3677,15 +3395,6 @@
     "/service-areas/herriman-ut/mold-remediation/",
     "/service-areas/alpine-ut/carpet-cleaning/",
     "/service-areas/american-fork-ut/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/herriman-ut/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/herriman-ut/",
-    "/service-areas/herriman-ut/fire-damage-restoration/",
-    "/service-areas/herriman-ut/mold-remediation/",
-    "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-    "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/herriman-ut/crawl-space-encapsulation/": [
@@ -3931,24 +3640,6 @@
     "/service-areas/american-fork-ut/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/herriman-ut/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/herriman-ut/",
-    "/service-areas/herriman-ut/fire-damage-restoration/",
-    "/service-areas/herriman-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-    "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/herriman-ut/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/herriman-ut/",
-    "/service-areas/herriman-ut/fire-damage-restoration/",
-    "/service-areas/herriman-ut/mold-remediation/",
-    "/service-areas/alpine-ut/emergency-water-removal/",
-    "/service-areas/american-fork-ut/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/herriman-ut/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/herriman-ut/",
@@ -4001,15 +3692,6 @@
     "/service-areas/south-jordan-ut/mold-remediation/",
     "/service-areas/alpine-ut/carpet-cleaning/",
     "/service-areas/american-fork-ut/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/south-jordan-ut/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/south-jordan-ut/",
-    "/service-areas/south-jordan-ut/fire-damage-restoration/",
-    "/service-areas/south-jordan-ut/mold-remediation/",
-    "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-    "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/south-jordan-ut/crawl-space-encapsulation/": [
@@ -4255,24 +3937,6 @@
     "/service-areas/american-fork-ut/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/south-jordan-ut/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/south-jordan-ut/",
-    "/service-areas/south-jordan-ut/fire-damage-restoration/",
-    "/service-areas/south-jordan-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-    "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/south-jordan-ut/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/south-jordan-ut/",
-    "/service-areas/south-jordan-ut/fire-damage-restoration/",
-    "/service-areas/south-jordan-ut/mold-remediation/",
-    "/service-areas/alpine-ut/emergency-water-removal/",
-    "/service-areas/american-fork-ut/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/south-jordan-ut/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/south-jordan-ut/",
@@ -4325,15 +3989,6 @@
     "/service-areas/riverton-ut/mold-remediation/",
     "/service-areas/alpine-ut/carpet-cleaning/",
     "/service-areas/american-fork-ut/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/riverton-ut/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/riverton-ut/",
-    "/service-areas/riverton-ut/fire-damage-restoration/",
-    "/service-areas/riverton-ut/mold-remediation/",
-    "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-    "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/riverton-ut/crawl-space-encapsulation/": [
@@ -4579,24 +4234,6 @@
     "/service-areas/american-fork-ut/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/riverton-ut/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/riverton-ut/",
-    "/service-areas/riverton-ut/fire-damage-restoration/",
-    "/service-areas/riverton-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-    "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/riverton-ut/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/riverton-ut/",
-    "/service-areas/riverton-ut/fire-damage-restoration/",
-    "/service-areas/riverton-ut/mold-remediation/",
-    "/service-areas/alpine-ut/emergency-water-removal/",
-    "/service-areas/american-fork-ut/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/riverton-ut/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/riverton-ut/",
@@ -4649,15 +4286,6 @@
     "/service-areas/heber-city-ut/mold-remediation/",
     "/service-areas/alpine-ut/carpet-cleaning/",
     "/service-areas/american-fork-ut/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/heber-city-ut/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/heber-city-ut/",
-    "/service-areas/heber-city-ut/fire-damage-restoration/",
-    "/service-areas/heber-city-ut/mold-remediation/",
-    "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-    "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/heber-city-ut/crawl-space-encapsulation/": [
@@ -4903,24 +4531,6 @@
     "/service-areas/american-fork-ut/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/heber-city-ut/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/heber-city-ut/",
-    "/service-areas/heber-city-ut/fire-damage-restoration/",
-    "/service-areas/heber-city-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-    "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/heber-city-ut/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/heber-city-ut/",
-    "/service-areas/heber-city-ut/fire-damage-restoration/",
-    "/service-areas/heber-city-ut/mold-remediation/",
-    "/service-areas/alpine-ut/emergency-water-removal/",
-    "/service-areas/american-fork-ut/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/heber-city-ut/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/heber-city-ut/",
@@ -4973,15 +4583,6 @@
     "/service-areas/park-city-ut/mold-remediation/",
     "/service-areas/alpine-ut/carpet-cleaning/",
     "/service-areas/american-fork-ut/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/park-city-ut/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/park-city-ut/",
-    "/service-areas/park-city-ut/fire-damage-restoration/",
-    "/service-areas/park-city-ut/mold-remediation/",
-    "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-    "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/park-city-ut/crawl-space-encapsulation/": [
@@ -5227,24 +4828,6 @@
     "/service-areas/american-fork-ut/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/park-city-ut/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/park-city-ut/",
-    "/service-areas/park-city-ut/fire-damage-restoration/",
-    "/service-areas/park-city-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-    "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/park-city-ut/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/park-city-ut/",
-    "/service-areas/park-city-ut/fire-damage-restoration/",
-    "/service-areas/park-city-ut/mold-remediation/",
-    "/service-areas/alpine-ut/emergency-water-removal/",
-    "/service-areas/american-fork-ut/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/park-city-ut/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/park-city-ut/",
@@ -5297,15 +4880,6 @@
     "/service-areas/vineyard-ut/mold-remediation/",
     "/service-areas/alpine-ut/carpet-cleaning/",
     "/service-areas/american-fork-ut/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/vineyard-ut/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/vineyard-ut/",
-    "/service-areas/vineyard-ut/fire-damage-restoration/",
-    "/service-areas/vineyard-ut/mold-remediation/",
-    "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-    "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/vineyard-ut/crawl-space-encapsulation/": [
@@ -5551,24 +5125,6 @@
     "/service-areas/american-fork-ut/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/vineyard-ut/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/vineyard-ut/",
-    "/service-areas/vineyard-ut/fire-damage-restoration/",
-    "/service-areas/vineyard-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-    "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/vineyard-ut/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/vineyard-ut/",
-    "/service-areas/vineyard-ut/fire-damage-restoration/",
-    "/service-areas/vineyard-ut/mold-remediation/",
-    "/service-areas/alpine-ut/emergency-water-removal/",
-    "/service-areas/american-fork-ut/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/vineyard-ut/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/vineyard-ut/",
@@ -5621,15 +5177,6 @@
     "/service-areas/highland-ut/mold-remediation/",
     "/service-areas/alpine-ut/carpet-cleaning/",
     "/service-areas/american-fork-ut/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/highland-ut/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/highland-ut/",
-    "/service-areas/highland-ut/fire-damage-restoration/",
-    "/service-areas/highland-ut/mold-remediation/",
-    "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-    "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/highland-ut/crawl-space-encapsulation/": [
@@ -5875,24 +5422,6 @@
     "/service-areas/american-fork-ut/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/highland-ut/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/highland-ut/",
-    "/service-areas/highland-ut/fire-damage-restoration/",
-    "/service-areas/highland-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-    "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/highland-ut/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/highland-ut/",
-    "/service-areas/highland-ut/fire-damage-restoration/",
-    "/service-areas/highland-ut/mold-remediation/",
-    "/service-areas/alpine-ut/emergency-water-removal/",
-    "/service-areas/american-fork-ut/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/highland-ut/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/highland-ut/",
@@ -5945,15 +5474,6 @@
     "/service-areas/lindon-ut/mold-remediation/",
     "/service-areas/alpine-ut/carpet-cleaning/",
     "/service-areas/american-fork-ut/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/lindon-ut/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/lindon-ut/",
-    "/service-areas/lindon-ut/fire-damage-restoration/",
-    "/service-areas/lindon-ut/mold-remediation/",
-    "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-    "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/lindon-ut/crawl-space-encapsulation/": [
@@ -6199,24 +5719,6 @@
     "/service-areas/american-fork-ut/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/lindon-ut/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/lindon-ut/",
-    "/service-areas/lindon-ut/fire-damage-restoration/",
-    "/service-areas/lindon-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-    "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/lindon-ut/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/lindon-ut/",
-    "/service-areas/lindon-ut/fire-damage-restoration/",
-    "/service-areas/lindon-ut/mold-remediation/",
-    "/service-areas/alpine-ut/emergency-water-removal/",
-    "/service-areas/american-fork-ut/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/lindon-ut/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/lindon-ut/",
@@ -6269,15 +5771,6 @@
     "/service-areas/fairfield-ut/mold-remediation/",
     "/service-areas/alpine-ut/carpet-cleaning/",
     "/service-areas/american-fork-ut/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/fairfield-ut/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/fairfield-ut/",
-    "/service-areas/fairfield-ut/fire-damage-restoration/",
-    "/service-areas/fairfield-ut/mold-remediation/",
-    "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-    "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/fairfield-ut/crawl-space-encapsulation/": [
@@ -6523,24 +6016,6 @@
     "/service-areas/american-fork-ut/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/fairfield-ut/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/fairfield-ut/",
-    "/service-areas/fairfield-ut/fire-damage-restoration/",
-    "/service-areas/fairfield-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-    "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/fairfield-ut/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/fairfield-ut/",
-    "/service-areas/fairfield-ut/fire-damage-restoration/",
-    "/service-areas/fairfield-ut/mold-remediation/",
-    "/service-areas/alpine-ut/emergency-water-removal/",
-    "/service-areas/american-fork-ut/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/fairfield-ut/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/fairfield-ut/",
@@ -6593,15 +6068,6 @@
     "/service-areas/cedar-hills-ut/mold-remediation/",
     "/service-areas/alpine-ut/carpet-cleaning/",
     "/service-areas/american-fork-ut/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/cedar-hills-ut/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/cedar-hills-ut/",
-    "/service-areas/cedar-hills-ut/fire-damage-restoration/",
-    "/service-areas/cedar-hills-ut/mold-remediation/",
-    "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-    "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/cedar-hills-ut/crawl-space-encapsulation/": [
@@ -6847,24 +6313,6 @@
     "/service-areas/american-fork-ut/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/cedar-hills-ut/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/cedar-hills-ut/",
-    "/service-areas/cedar-hills-ut/fire-damage-restoration/",
-    "/service-areas/cedar-hills-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-    "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/cedar-hills-ut/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/cedar-hills-ut/",
-    "/service-areas/cedar-hills-ut/fire-damage-restoration/",
-    "/service-areas/cedar-hills-ut/mold-remediation/",
-    "/service-areas/alpine-ut/emergency-water-removal/",
-    "/service-areas/american-fork-ut/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/cedar-hills-ut/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/cedar-hills-ut/",
@@ -6917,15 +6365,6 @@
     "/service-areas/cedar-fort-ut/mold-remediation/",
     "/service-areas/alpine-ut/carpet-cleaning/",
     "/service-areas/american-fork-ut/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/cedar-fort-ut/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/cedar-fort-ut/",
-    "/service-areas/cedar-fort-ut/fire-damage-restoration/",
-    "/service-areas/cedar-fort-ut/mold-remediation/",
-    "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-    "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/cedar-fort-ut/crawl-space-encapsulation/": [
@@ -7171,24 +6610,6 @@
     "/service-areas/american-fork-ut/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/cedar-fort-ut/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/cedar-fort-ut/",
-    "/service-areas/cedar-fort-ut/fire-damage-restoration/",
-    "/service-areas/cedar-fort-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-    "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/cedar-fort-ut/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/cedar-fort-ut/",
-    "/service-areas/cedar-fort-ut/fire-damage-restoration/",
-    "/service-areas/cedar-fort-ut/mold-remediation/",
-    "/service-areas/alpine-ut/emergency-water-removal/",
-    "/service-areas/american-fork-ut/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/cedar-fort-ut/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/cedar-fort-ut/",
@@ -7241,15 +6662,6 @@
     "/service-areas/bluffdale-ut/mold-remediation/",
     "/service-areas/alpine-ut/carpet-cleaning/",
     "/service-areas/american-fork-ut/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/bluffdale-ut/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/bluffdale-ut/",
-    "/service-areas/bluffdale-ut/fire-damage-restoration/",
-    "/service-areas/bluffdale-ut/mold-remediation/",
-    "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-    "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/bluffdale-ut/crawl-space-encapsulation/": [
@@ -7495,24 +6907,6 @@
     "/service-areas/american-fork-ut/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/bluffdale-ut/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/bluffdale-ut/",
-    "/service-areas/bluffdale-ut/fire-damage-restoration/",
-    "/service-areas/bluffdale-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-    "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/bluffdale-ut/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/bluffdale-ut/",
-    "/service-areas/bluffdale-ut/fire-damage-restoration/",
-    "/service-areas/bluffdale-ut/mold-remediation/",
-    "/service-areas/alpine-ut/emergency-water-removal/",
-    "/service-areas/american-fork-ut/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/bluffdale-ut/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/bluffdale-ut/",
@@ -7565,15 +6959,6 @@
     "/service-areas/alpine-ut/mold-remediation/",
     "/service-areas/american-fork-ut/carpet-cleaning/",
     "/service-areas/benjamin-ut/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/alpine-ut/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/alpine-ut/",
-    "/service-areas/alpine-ut/fire-damage-restoration/",
-    "/service-areas/alpine-ut/mold-remediation/",
-    "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
-    "/service-areas/benjamin-ut/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/alpine-ut/crawl-space-encapsulation/": [
@@ -7819,24 +7204,6 @@
     "/service-areas/benjamin-ut/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/alpine-ut/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/alpine-ut/",
-    "/service-areas/alpine-ut/fire-damage-restoration/",
-    "/service-areas/alpine-ut/mold-remediation/",
-    "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-    "/service-areas/benjamin-ut/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/alpine-ut/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/alpine-ut/",
-    "/service-areas/alpine-ut/fire-damage-restoration/",
-    "/service-areas/alpine-ut/mold-remediation/",
-    "/service-areas/american-fork-ut/emergency-water-removal/",
-    "/service-areas/benjamin-ut/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/alpine-ut/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/alpine-ut/",
@@ -7889,15 +7256,6 @@
     "/service-areas/draper-ut/mold-remediation/",
     "/service-areas/alpine-ut/carpet-cleaning/",
     "/service-areas/american-fork-ut/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/draper-ut/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/draper-ut/",
-    "/service-areas/draper-ut/fire-damage-restoration/",
-    "/service-areas/draper-ut/mold-remediation/",
-    "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-    "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/draper-ut/crawl-space-encapsulation/": [
@@ -8143,24 +7501,6 @@
     "/service-areas/american-fork-ut/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/draper-ut/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/draper-ut/",
-    "/service-areas/draper-ut/fire-damage-restoration/",
-    "/service-areas/draper-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-    "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/draper-ut/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/draper-ut/",
-    "/service-areas/draper-ut/fire-damage-restoration/",
-    "/service-areas/draper-ut/mold-remediation/",
-    "/service-areas/alpine-ut/emergency-water-removal/",
-    "/service-areas/american-fork-ut/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/draper-ut/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/draper-ut/",
@@ -8213,15 +7553,6 @@
     "/service-areas/lake-shore-ut/mold-remediation/",
     "/service-areas/alpine-ut/carpet-cleaning/",
     "/service-areas/american-fork-ut/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/lake-shore-ut/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/lake-shore-ut/",
-    "/service-areas/lake-shore-ut/fire-damage-restoration/",
-    "/service-areas/lake-shore-ut/mold-remediation/",
-    "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-    "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/lake-shore-ut/crawl-space-encapsulation/": [
@@ -8467,24 +7798,6 @@
     "/service-areas/american-fork-ut/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/lake-shore-ut/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/lake-shore-ut/",
-    "/service-areas/lake-shore-ut/fire-damage-restoration/",
-    "/service-areas/lake-shore-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-    "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/lake-shore-ut/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/lake-shore-ut/",
-    "/service-areas/lake-shore-ut/fire-damage-restoration/",
-    "/service-areas/lake-shore-ut/mold-remediation/",
-    "/service-areas/alpine-ut/emergency-water-removal/",
-    "/service-areas/american-fork-ut/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/lake-shore-ut/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/lake-shore-ut/",
@@ -8537,15 +7850,6 @@
     "/service-areas/benjamin-ut/mold-remediation/",
     "/service-areas/alpine-ut/carpet-cleaning/",
     "/service-areas/american-fork-ut/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/benjamin-ut/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/benjamin-ut/",
-    "/service-areas/benjamin-ut/fire-damage-restoration/",
-    "/service-areas/benjamin-ut/mold-remediation/",
-    "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-    "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/benjamin-ut/crawl-space-encapsulation/": [
@@ -8789,24 +8093,6 @@
     "/service-areas/benjamin-ut/mold-remediation/",
     "/service-areas/alpine-ut/ceiling-water-damage-repair/",
     "/service-areas/american-fork-ut/ceiling-water-damage-repair/",
-    "/contact/"
-  ],
-  "/service-areas/benjamin-ut/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/benjamin-ut/",
-    "/service-areas/benjamin-ut/fire-damage-restoration/",
-    "/service-areas/benjamin-ut/mold-remediation/",
-    "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-    "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/benjamin-ut/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/benjamin-ut/",
-    "/service-areas/benjamin-ut/fire-damage-restoration/",
-    "/service-areas/benjamin-ut/mold-remediation/",
-    "/service-areas/alpine-ut/emergency-water-removal/",
-    "/service-areas/american-fork-ut/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/benjamin-ut/emergency-plumbing/": [

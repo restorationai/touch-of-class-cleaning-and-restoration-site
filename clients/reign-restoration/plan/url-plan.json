@@ -341,50 +341,6 @@
       ]
     },
     {
-      "url_path": "/services/contents-restoration-storage/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Royse City | Reign Restoration",
-      "h1": "Contents Restoration & Storage in Royse City",
-      "meta_description": "24/7 contents restoration & storage in Royse City and surrounding areas. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage royse city",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/allen-tx/contents-restoration-storage/",
-        "/service-areas/caddo-mills-tx/contents-restoration-storage/",
-        "/service-areas/dallas-tx/contents-restoration-storage/",
-        "/service-areas/farmersville-tx/contents-restoration-storage/",
-        "/service-areas/fate-tx/contents-restoration-storage/",
-        "/service-areas/frisco-tx/contents-restoration-storage/",
-        "/service-areas/garland-tx/contents-restoration-storage/",
-        "/service-areas/greenville-tx/contents-restoration-storage/",
-        "/service-areas/heath-tx/contents-restoration-storage/",
-        "/service-areas/highland-park-tx/contents-restoration-storage/",
-        "/service-areas/josephine-tx/contents-restoration-storage/",
-        "/service-areas/lavon-tx/contents-restoration-storage/"
-      ]
-    },
-    {
       "url_path": "/services/fire-damage-restoration/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -2157,44 +2113,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/rockwall-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Rockwall, TX | Reign Restoration",
-      "h1": "Contents Restoration & Storage in Rockwall",
-      "meta_description": "24/7 contents restoration & storage in Rockwall, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage rockwall",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/rockwall-tx/",
-        "/service-areas/rockwall-tx/fire-damage-restoration/",
-        "/service-areas/rockwall-tx/mold-remediation/",
-        "/service-areas/allen-tx/contents-restoration-storage/",
-        "/service-areas/caddo-mills-tx/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/rockwall-tx/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -2589,44 +2507,6 @@
         "/service-areas/fate-tx/mold-remediation/",
         "/service-areas/allen-tx/contents-restoration/",
         "/service-areas/caddo-mills-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/fate-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Fate, TX | Reign Restoration",
-      "h1": "Contents Restoration & Storage in Fate",
-      "meta_description": "24/7 contents restoration & storage in Fate, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage fate",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/fate-tx/",
-        "/service-areas/fate-tx/fire-damage-restoration/",
-        "/service-areas/fate-tx/mold-remediation/",
-        "/service-areas/allen-tx/contents-restoration-storage/",
-        "/service-areas/caddo-mills-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -3029,44 +2909,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/rowlett-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Rowlett, TX | Reign Restoration",
-      "h1": "Contents Restoration & Storage in Rowlett",
-      "meta_description": "24/7 contents restoration & storage in Rowlett, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage rowlett",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/rowlett-tx/",
-        "/service-areas/rowlett-tx/fire-damage-restoration/",
-        "/service-areas/rowlett-tx/mold-remediation/",
-        "/service-areas/allen-tx/contents-restoration-storage/",
-        "/service-areas/caddo-mills-tx/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/rowlett-tx/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3461,44 +3303,6 @@
         "/service-areas/wylie-tx/mold-remediation/",
         "/service-areas/allen-tx/contents-restoration/",
         "/service-areas/caddo-mills-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/wylie-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Wylie, TX | Reign Restoration",
-      "h1": "Contents Restoration & Storage in Wylie",
-      "meta_description": "24/7 contents restoration & storage in Wylie, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage wylie",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/wylie-tx/",
-        "/service-areas/wylie-tx/fire-damage-restoration/",
-        "/service-areas/wylie-tx/mold-remediation/",
-        "/service-areas/allen-tx/contents-restoration-storage/",
-        "/service-areas/caddo-mills-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -3901,44 +3705,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/garland-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Garland, TX | Reign Restoration",
-      "h1": "Contents Restoration & Storage in Garland",
-      "meta_description": "24/7 contents restoration & storage in Garland, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage garland",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/garland-tx/",
-        "/service-areas/garland-tx/fire-damage-restoration/",
-        "/service-areas/garland-tx/mold-remediation/",
-        "/service-areas/allen-tx/contents-restoration-storage/",
-        "/service-areas/caddo-mills-tx/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/garland-tx/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4333,44 +4099,6 @@
         "/service-areas/mesquite-tx/mold-remediation/",
         "/service-areas/allen-tx/contents-restoration/",
         "/service-areas/caddo-mills-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/mesquite-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Mesquite, TX | Reign Restoration",
-      "h1": "Contents Restoration & Storage in Mesquite",
-      "meta_description": "24/7 contents restoration & storage in Mesquite, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage mesquite",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/mesquite-tx/",
-        "/service-areas/mesquite-tx/fire-damage-restoration/",
-        "/service-areas/mesquite-tx/mold-remediation/",
-        "/service-areas/allen-tx/contents-restoration-storage/",
-        "/service-areas/caddo-mills-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -4773,44 +4501,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/dallas-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Dallas, TX | Reign Restoration",
-      "h1": "Contents Restoration & Storage in Dallas",
-      "meta_description": "24/7 contents restoration & storage in Dallas, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage dallas",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/dallas-tx/",
-        "/service-areas/dallas-tx/fire-damage-restoration/",
-        "/service-areas/dallas-tx/mold-remediation/",
-        "/service-areas/allen-tx/contents-restoration-storage/",
-        "/service-areas/caddo-mills-tx/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/dallas-tx/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5205,44 +4895,6 @@
         "/service-areas/richardson-tx/mold-remediation/",
         "/service-areas/allen-tx/contents-restoration/",
         "/service-areas/caddo-mills-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/richardson-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Richardson, TX | Reign Restoration",
-      "h1": "Contents Restoration & Storage in Richardson",
-      "meta_description": "24/7 contents restoration & storage in Richardson, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage richardson",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/richardson-tx/",
-        "/service-areas/richardson-tx/fire-damage-restoration/",
-        "/service-areas/richardson-tx/mold-remediation/",
-        "/service-areas/allen-tx/contents-restoration-storage/",
-        "/service-areas/caddo-mills-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -5645,44 +5297,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/plano-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Plano, TX | Reign Restoration",
-      "h1": "Contents Restoration & Storage in Plano",
-      "meta_description": "24/7 contents restoration & storage in Plano, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage plano",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/plano-tx/",
-        "/service-areas/plano-tx/fire-damage-restoration/",
-        "/service-areas/plano-tx/mold-remediation/",
-        "/service-areas/allen-tx/contents-restoration-storage/",
-        "/service-areas/caddo-mills-tx/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/plano-tx/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6077,44 +5691,6 @@
         "/service-areas/allen-tx/mold-remediation/",
         "/service-areas/caddo-mills-tx/contents-restoration/",
         "/service-areas/dallas-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/allen-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Allen, TX | Reign Restoration",
-      "h1": "Contents Restoration & Storage in Allen",
-      "meta_description": "24/7 contents restoration & storage in Allen, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage allen",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/allen-tx/",
-        "/service-areas/allen-tx/fire-damage-restoration/",
-        "/service-areas/allen-tx/mold-remediation/",
-        "/service-areas/caddo-mills-tx/contents-restoration-storage/",
-        "/service-areas/dallas-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -6517,44 +6093,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/mckinney-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in McKinney, TX | Reign Restoration",
-      "h1": "Contents Restoration & Storage in McKinney",
-      "meta_description": "24/7 contents restoration & storage in McKinney, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage mckinney",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/mckinney-tx/",
-        "/service-areas/mckinney-tx/fire-damage-restoration/",
-        "/service-areas/mckinney-tx/mold-remediation/",
-        "/service-areas/allen-tx/contents-restoration-storage/",
-        "/service-areas/caddo-mills-tx/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/mckinney-tx/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6949,44 +6487,6 @@
         "/service-areas/frisco-tx/mold-remediation/",
         "/service-areas/allen-tx/contents-restoration/",
         "/service-areas/caddo-mills-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/frisco-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Frisco, TX | Reign Restoration",
-      "h1": "Contents Restoration & Storage in Frisco",
-      "meta_description": "24/7 contents restoration & storage in Frisco, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage frisco",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/frisco-tx/",
-        "/service-areas/frisco-tx/fire-damage-restoration/",
-        "/service-areas/frisco-tx/mold-remediation/",
-        "/service-areas/allen-tx/contents-restoration-storage/",
-        "/service-areas/caddo-mills-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -7389,44 +6889,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/highland-park-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Highland Park, TX | Reign Restoration",
-      "h1": "Contents Restoration & Storage in Highland Park",
-      "meta_description": "24/7 contents restoration & storage in Highland Park, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage highland park",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/highland-park-tx/",
-        "/service-areas/highland-park-tx/fire-damage-restoration/",
-        "/service-areas/highland-park-tx/mold-remediation/",
-        "/service-areas/allen-tx/contents-restoration-storage/",
-        "/service-areas/caddo-mills-tx/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/highland-park-tx/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7821,44 +7283,6 @@
         "/service-areas/university-park-tx/mold-remediation/",
         "/service-areas/allen-tx/contents-restoration/",
         "/service-areas/caddo-mills-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/university-park-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in University Park, TX | Reign Restoration",
-      "h1": "Contents Restoration & Storage in University Park",
-      "meta_description": "24/7 contents restoration & storage in University Park, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage university park",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/university-park-tx/",
-        "/service-areas/university-park-tx/fire-damage-restoration/",
-        "/service-areas/university-park-tx/mold-remediation/",
-        "/service-areas/allen-tx/contents-restoration-storage/",
-        "/service-areas/caddo-mills-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -8261,44 +7685,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/greenville-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Greenville, TX | Reign Restoration",
-      "h1": "Contents Restoration & Storage in Greenville",
-      "meta_description": "24/7 contents restoration & storage in Greenville, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage greenville",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/greenville-tx/",
-        "/service-areas/greenville-tx/fire-damage-restoration/",
-        "/service-areas/greenville-tx/mold-remediation/",
-        "/service-areas/allen-tx/contents-restoration-storage/",
-        "/service-areas/caddo-mills-tx/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/greenville-tx/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8693,44 +8079,6 @@
         "/service-areas/terrell-tx/mold-remediation/",
         "/service-areas/allen-tx/contents-restoration/",
         "/service-areas/caddo-mills-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/terrell-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Terrell, TX | Reign Restoration",
-      "h1": "Contents Restoration & Storage in Terrell",
-      "meta_description": "24/7 contents restoration & storage in Terrell, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage terrell",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/terrell-tx/",
-        "/service-areas/terrell-tx/fire-damage-restoration/",
-        "/service-areas/terrell-tx/mold-remediation/",
-        "/service-areas/allen-tx/contents-restoration-storage/",
-        "/service-areas/caddo-mills-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -9133,44 +8481,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/nevada-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Nevada, TX | Reign Restoration",
-      "h1": "Contents Restoration & Storage in Nevada",
-      "meta_description": "24/7 contents restoration & storage in Nevada, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage nevada",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/nevada-tx/",
-        "/service-areas/nevada-tx/fire-damage-restoration/",
-        "/service-areas/nevada-tx/mold-remediation/",
-        "/service-areas/allen-tx/contents-restoration-storage/",
-        "/service-areas/caddo-mills-tx/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/nevada-tx/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9565,44 +8875,6 @@
         "/service-areas/union-valley-tx/mold-remediation/",
         "/service-areas/allen-tx/contents-restoration/",
         "/service-areas/caddo-mills-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/union-valley-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Union Valley, TX | Reign Restoration",
-      "h1": "Contents Restoration & Storage in Union Valley",
-      "meta_description": "24/7 contents restoration & storage in Union Valley, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage union valley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/union-valley-tx/",
-        "/service-areas/union-valley-tx/fire-damage-restoration/",
-        "/service-areas/union-valley-tx/mold-remediation/",
-        "/service-areas/allen-tx/contents-restoration-storage/",
-        "/service-areas/caddo-mills-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -10005,44 +9277,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/josephine-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Josephine, TX | Reign Restoration",
-      "h1": "Contents Restoration & Storage in Josephine",
-      "meta_description": "24/7 contents restoration & storage in Josephine, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage josephine",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/josephine-tx/",
-        "/service-areas/josephine-tx/fire-damage-restoration/",
-        "/service-areas/josephine-tx/mold-remediation/",
-        "/service-areas/allen-tx/contents-restoration-storage/",
-        "/service-areas/caddo-mills-tx/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/josephine-tx/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10437,44 +9671,6 @@
         "/service-areas/lavon-tx/mold-remediation/",
         "/service-areas/allen-tx/contents-restoration/",
         "/service-areas/caddo-mills-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lavon-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Lavon, TX | Reign Restoration",
-      "h1": "Contents Restoration & Storage in Lavon",
-      "meta_description": "24/7 contents restoration & storage in Lavon, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage lavon",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/lavon-tx/",
-        "/service-areas/lavon-tx/fire-damage-restoration/",
-        "/service-areas/lavon-tx/mold-remediation/",
-        "/service-areas/allen-tx/contents-restoration-storage/",
-        "/service-areas/caddo-mills-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -10877,44 +10073,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/mclendon-chisholm-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in McLendon-Chisholm, TX | Reign Restoration",
-      "h1": "Contents Restoration & Storage in McLendon-Chisholm",
-      "meta_description": "24/7 contents restoration & storage in McLendon-Chisholm, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage mclendon-chisholm",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/mclendon-chisholm-tx/",
-        "/service-areas/mclendon-chisholm-tx/fire-damage-restoration/",
-        "/service-areas/mclendon-chisholm-tx/mold-remediation/",
-        "/service-areas/allen-tx/contents-restoration-storage/",
-        "/service-areas/caddo-mills-tx/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/mclendon-chisholm-tx/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -11309,44 +10467,6 @@
         "/service-areas/caddo-mills-tx/mold-remediation/",
         "/service-areas/allen-tx/contents-restoration/",
         "/service-areas/dallas-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/caddo-mills-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Caddo Mills, TX | Reign Restoration",
-      "h1": "Contents Restoration & Storage in Caddo Mills",
-      "meta_description": "24/7 contents restoration & storage in Caddo Mills, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage caddo mills",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/caddo-mills-tx/",
-        "/service-areas/caddo-mills-tx/fire-damage-restoration/",
-        "/service-areas/caddo-mills-tx/mold-remediation/",
-        "/service-areas/allen-tx/contents-restoration-storage/",
-        "/service-areas/dallas-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -11749,44 +10869,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/poetry-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Poetry, TX | Reign Restoration",
-      "h1": "Contents Restoration & Storage in Poetry",
-      "meta_description": "24/7 contents restoration & storage in Poetry, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage poetry",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/poetry-tx/",
-        "/service-areas/poetry-tx/fire-damage-restoration/",
-        "/service-areas/poetry-tx/mold-remediation/",
-        "/service-areas/allen-tx/contents-restoration-storage/",
-        "/service-areas/caddo-mills-tx/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/poetry-tx/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12181,44 +11263,6 @@
         "/service-areas/heath-tx/mold-remediation/",
         "/service-areas/allen-tx/contents-restoration/",
         "/service-areas/caddo-mills-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/heath-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Heath, TX | Reign Restoration",
-      "h1": "Contents Restoration & Storage in Heath",
-      "meta_description": "24/7 contents restoration & storage in Heath, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage heath",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/heath-tx/",
-        "/service-areas/heath-tx/fire-damage-restoration/",
-        "/service-areas/heath-tx/mold-remediation/",
-        "/service-areas/allen-tx/contents-restoration-storage/",
-        "/service-areas/caddo-mills-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -12621,44 +11665,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/farmersville-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Farmersville, TX | Reign Restoration",
-      "h1": "Contents Restoration & Storage in Farmersville",
-      "meta_description": "24/7 contents restoration & storage in Farmersville, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage farmersville",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/farmersville-tx/",
-        "/service-areas/farmersville-tx/fire-damage-restoration/",
-        "/service-areas/farmersville-tx/mold-remediation/",
-        "/service-areas/allen-tx/contents-restoration-storage/",
-        "/service-areas/caddo-mills-tx/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/farmersville-tx/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13053,44 +12059,6 @@
         "/service-areas/sachse-tx/mold-remediation/",
         "/service-areas/allen-tx/contents-restoration/",
         "/service-areas/caddo-mills-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sachse-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Sachse, TX | Reign Restoration",
-      "h1": "Contents Restoration & Storage in Sachse",
-      "meta_description": "24/7 contents restoration & storage in Sachse, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage sachse",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/sachse-tx/",
-        "/service-areas/sachse-tx/fire-damage-restoration/",
-        "/service-areas/sachse-tx/mold-remediation/",
-        "/service-areas/allen-tx/contents-restoration-storage/",
-        "/service-areas/caddo-mills-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -13493,44 +12461,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lucas-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Lucas, TX | Reign Restoration",
-      "h1": "Contents Restoration & Storage in Lucas",
-      "meta_description": "24/7 contents restoration & storage in Lucas, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage lucas",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/lucas-tx/",
-        "/service-areas/lucas-tx/fire-damage-restoration/",
-        "/service-areas/lucas-tx/mold-remediation/",
-        "/service-areas/allen-tx/contents-restoration-storage/",
-        "/service-areas/caddo-mills-tx/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lucas-tx/fire-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13925,44 +12855,6 @@
         "/service-areas/murphy-tx/mold-remediation/",
         "/service-areas/allen-tx/contents-restoration/",
         "/service-areas/caddo-mills-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/murphy-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Murphy, TX | Reign Restoration",
-      "h1": "Contents Restoration & Storage in Murphy",
-      "meta_description": "24/7 contents restoration & storage in Murphy, TX. IICRC-certified, insurance billing accepted. Call (214) 304-0621.",
-      "primary_keyword": "contents restoration & storage murphy",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/murphy-tx/",
-        "/service-areas/murphy-tx/fire-damage-restoration/",
-        "/service-areas/murphy-tx/mold-remediation/",
-        "/service-areas/allen-tx/contents-restoration-storage/",
-        "/service-areas/caddo-mills-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },

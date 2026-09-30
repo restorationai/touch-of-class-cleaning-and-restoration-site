@@ -218,16 +218,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/soot-removal/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/storm-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
@@ -616,16 +606,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/wexford-pa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/wexford-pa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -807,16 +787,6 @@
     "missing_stubs": []
   },
   "/service-areas/mars-pa/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/mars-pa/soot-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1016,16 +986,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/zelienople-pa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/zelienople-pa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1207,16 +1167,6 @@
     "missing_stubs": []
   },
   "/service-areas/evans-city-pa/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/evans-city-pa/soot-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1416,16 +1366,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/seven-fields-pa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/seven-fields-pa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1607,16 +1547,6 @@
     "missing_stubs": []
   },
   "/service-areas/butler-pa/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/butler-pa/soot-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1816,16 +1746,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/gibsonia-pa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/gibsonia-pa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2007,16 +1927,6 @@
     "missing_stubs": []
   },
   "/service-areas/beaver-falls-pa/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/beaver-falls-pa/soot-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2216,16 +2126,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/economy-pa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/economy-pa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2407,16 +2307,6 @@
     "missing_stubs": []
   },
   "/service-areas/franklin-park-pa/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/franklin-park-pa/soot-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2616,16 +2506,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/baden-pa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/baden-pa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2807,16 +2687,6 @@
     "missing_stubs": []
   },
   "/service-areas/bell-acres-pa/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bell-acres-pa/soot-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3016,16 +2886,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/monaca-pa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/monaca-pa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3207,16 +3067,6 @@
     "missing_stubs": []
   },
   "/service-areas/sewickley-heights-pa/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sewickley-heights-pa/soot-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3416,16 +3266,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/aliquippa-pa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/aliquippa-pa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3607,16 +3447,6 @@
     "missing_stubs": []
   },
   "/service-areas/sewickley-hills-pa/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sewickley-hills-pa/soot-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3816,16 +3646,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/allison-park-pa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/allison-park-pa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4007,16 +3827,6 @@
     "missing_stubs": []
   },
   "/service-areas/prospect-pa/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/prospect-pa/soot-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4216,16 +4026,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/oak-hills-pa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/oak-hills-pa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4407,16 +4207,6 @@
     "missing_stubs": []
   },
   "/service-areas/glenshaw-pa/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/glenshaw-pa/soot-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4616,16 +4406,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ellwood-city-pa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ellwood-city-pa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4807,16 +4587,6 @@
     "missing_stubs": []
   },
   "/service-areas/big-beaver-pa/smoke-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/big-beaver-pa/soot-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

@@ -88,27 +88,7 @@
     ],
     "missing_stubs": []
   },
-  "/services/carpet-upholstery-cleaning/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/contents-restoration/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/contents-restoration-storage/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -209,16 +189,6 @@
     "missing_stubs": []
   },
   "/services/storm-damage-restoration/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/vandalism-cleanup/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -359,16 +329,6 @@
     "missing_stubs": []
   },
   "/services/water-heater-flood-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/emergency-water-removal/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -841,27 +801,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/eastabuchie-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/eastabuchie-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/eastabuchie-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -962,16 +902,6 @@
     "missing_stubs": []
   },
   "/service-areas/eastabuchie-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/eastabuchie-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1121,16 +1051,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/eastabuchie-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/eastabuchie-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1171,27 +1091,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hattiesburg-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hattiesburg-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hattiesburg-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1292,16 +1192,6 @@
     "missing_stubs": []
   },
   "/service-areas/hattiesburg-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hattiesburg-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1451,16 +1341,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hattiesburg-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hattiesburg-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1501,27 +1381,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/petal-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/petal-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/petal-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1622,16 +1482,6 @@
     "missing_stubs": []
   },
   "/service-areas/petal-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/petal-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1781,16 +1631,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/petal-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/petal-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1831,27 +1671,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/rawls-springs-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/rawls-springs-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/rawls-springs-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1952,16 +1772,6 @@
     "missing_stubs": []
   },
   "/service-areas/rawls-springs-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/rawls-springs-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2111,16 +1921,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/rawls-springs-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/rawls-springs-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2161,27 +1961,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/leakesville-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/leakesville-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/leakesville-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2282,16 +2062,6 @@
     "missing_stubs": []
   },
   "/service-areas/leakesville-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/leakesville-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2441,16 +2211,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/leakesville-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/leakesville-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2491,27 +2251,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/mclain-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/mclain-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/mclain-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2612,16 +2352,6 @@
     "missing_stubs": []
   },
   "/service-areas/mclain-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/mclain-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2771,16 +2501,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/mclain-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/mclain-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2821,27 +2541,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/state-line-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/state-line-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/state-line-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2942,16 +2642,6 @@
     "missing_stubs": []
   },
   "/service-areas/state-line-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/state-line-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3101,16 +2791,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/state-line-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/state-line-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3151,27 +2831,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/biloxi-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/biloxi-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/biloxi-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3272,16 +2932,6 @@
     "missing_stubs": []
   },
   "/service-areas/biloxi-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/biloxi-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3431,16 +3081,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/biloxi-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/biloxi-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3481,27 +3121,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/d-iberville-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/d-iberville-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/d-iberville-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3602,16 +3222,6 @@
     "missing_stubs": []
   },
   "/service-areas/d-iberville-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/d-iberville-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3761,16 +3371,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/d-iberville-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/d-iberville-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3811,27 +3411,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/delisle-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/delisle-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/delisle-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3932,16 +3512,6 @@
     "missing_stubs": []
   },
   "/service-areas/delisle-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/delisle-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4091,16 +3661,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/delisle-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/delisle-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4141,27 +3701,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/diamondhead-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/diamondhead-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/diamondhead-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4262,16 +3802,6 @@
     "missing_stubs": []
   },
   "/service-areas/diamondhead-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/diamondhead-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4421,16 +3951,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/diamondhead-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/diamondhead-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4471,27 +3991,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/henderson-point-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/henderson-point-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/henderson-point-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4592,16 +4092,6 @@
     "missing_stubs": []
   },
   "/service-areas/henderson-point-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/henderson-point-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4751,16 +4241,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/henderson-point-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/henderson-point-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4801,27 +4281,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/latimer-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/latimer-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/latimer-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4922,16 +4382,6 @@
     "missing_stubs": []
   },
   "/service-areas/latimer-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/latimer-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5081,16 +4531,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/latimer-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/latimer-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5131,27 +4571,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/long-beach-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/long-beach-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/long-beach-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5252,16 +4672,6 @@
     "missing_stubs": []
   },
   "/service-areas/long-beach-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/long-beach-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5411,16 +4821,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/long-beach-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/long-beach-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5461,27 +4861,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lyman-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lyman-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lyman-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5582,16 +4962,6 @@
     "missing_stubs": []
   },
   "/service-areas/lyman-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lyman-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5741,16 +5111,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lyman-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lyman-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5791,27 +5151,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/pass-christian-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/pass-christian-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pass-christian-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5912,16 +5252,6 @@
     "missing_stubs": []
   },
   "/service-areas/pass-christian-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pass-christian-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6071,16 +5401,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/pass-christian-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/pass-christian-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6121,27 +5441,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/saucier-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/saucier-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/saucier-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6242,16 +5542,6 @@
     "missing_stubs": []
   },
   "/service-areas/saucier-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/saucier-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6401,16 +5691,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/saucier-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/saucier-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6451,27 +5731,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/st-martin-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/st-martin-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/st-martin-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6572,16 +5832,6 @@
     "missing_stubs": []
   },
   "/service-areas/st-martin-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/st-martin-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6731,16 +5981,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/st-martin-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/st-martin-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6781,27 +6021,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bay-st-louis-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bay-st-louis-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6902,16 +6122,6 @@
     "missing_stubs": []
   },
   "/service-areas/bay-st-louis-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bay-st-louis-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7061,16 +6271,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bay-st-louis-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bay-st-louis-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7111,27 +6311,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/kiln-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/kiln-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/kiln-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7232,16 +6412,6 @@
     "missing_stubs": []
   },
   "/service-areas/kiln-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/kiln-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7391,16 +6561,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/kiln-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/kiln-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7441,27 +6601,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/pearlington-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/pearlington-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pearlington-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7562,16 +6702,6 @@
     "missing_stubs": []
   },
   "/service-areas/pearlington-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pearlington-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7721,16 +6851,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/pearlington-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/pearlington-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7771,27 +6891,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/picayune-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/picayune-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/picayune-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7892,16 +6992,6 @@
     "missing_stubs": []
   },
   "/service-areas/picayune-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/picayune-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8051,16 +7141,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/picayune-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/picayune-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8101,27 +7181,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/waveland-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/waveland-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/waveland-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8222,16 +7282,6 @@
     "missing_stubs": []
   },
   "/service-areas/waveland-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/waveland-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8381,16 +7431,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/waveland-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/waveland-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8431,27 +7471,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/wiggins-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/wiggins-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wiggins-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8552,16 +7572,6 @@
     "missing_stubs": []
   },
   "/service-areas/wiggins-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wiggins-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8711,16 +7721,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/wiggins-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/wiggins-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8761,27 +7761,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hide-a-way-lake-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hide-a-way-lake-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hide-a-way-lake-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8882,16 +7862,6 @@
     "missing_stubs": []
   },
   "/service-areas/hide-a-way-lake-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hide-a-way-lake-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9041,16 +8011,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hide-a-way-lake-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hide-a-way-lake-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9091,27 +8051,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lumberton-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lumberton-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lumberton-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9212,16 +8152,6 @@
     "missing_stubs": []
   },
   "/service-areas/lumberton-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lumberton-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9371,16 +8301,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lumberton-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lumberton-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9421,27 +8341,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/poplarville-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/poplarville-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/poplarville-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9542,16 +8442,6 @@
     "missing_stubs": []
   },
   "/service-areas/poplarville-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/poplarville-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9701,16 +8591,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/poplarville-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/poplarville-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9751,27 +8631,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/big-point-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/big-point-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/big-point-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9872,16 +8732,6 @@
     "missing_stubs": []
   },
   "/service-areas/big-point-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/big-point-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10031,16 +8881,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/big-point-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/big-point-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -10081,27 +8921,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/escatawpa-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/escatawpa-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/escatawpa-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10202,16 +9022,6 @@
     "missing_stubs": []
   },
   "/service-areas/escatawpa-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/escatawpa-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10361,16 +9171,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/escatawpa-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/escatawpa-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -10411,27 +9211,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/gautier-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/gautier-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/gautier-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10532,16 +9312,6 @@
     "missing_stubs": []
   },
   "/service-areas/gautier-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/gautier-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10691,16 +9461,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/gautier-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/gautier-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -10741,27 +9501,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/gulf-hills-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/gulf-hills-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/gulf-hills-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10862,16 +9602,6 @@
     "missing_stubs": []
   },
   "/service-areas/gulf-hills-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/gulf-hills-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11021,16 +9751,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/gulf-hills-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/gulf-hills-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -11071,27 +9791,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/gulf-park-estates-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/gulf-park-estates-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/gulf-park-estates-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11192,16 +9892,6 @@
     "missing_stubs": []
   },
   "/service-areas/gulf-park-estates-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/gulf-park-estates-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11351,16 +10041,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/gulf-park-estates-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/gulf-park-estates-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -11401,27 +10081,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/helena-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/helena-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/helena-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11522,16 +10182,6 @@
     "missing_stubs": []
   },
   "/service-areas/helena-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/helena-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11681,16 +10331,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/helena-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/helena-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -11731,27 +10371,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hurley-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hurley-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hurley-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11852,16 +10472,6 @@
     "missing_stubs": []
   },
   "/service-areas/hurley-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hurley-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12011,16 +10621,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hurley-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hurley-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -12061,27 +10661,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/moss-point-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/moss-point-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/moss-point-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12182,16 +10762,6 @@
     "missing_stubs": []
   },
   "/service-areas/moss-point-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/moss-point-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12341,16 +10911,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/moss-point-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/moss-point-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -12391,27 +10951,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ocean-springs-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ocean-springs-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ocean-springs-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12512,16 +11052,6 @@
     "missing_stubs": []
   },
   "/service-areas/ocean-springs-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ocean-springs-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12671,16 +11201,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ocean-springs-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ocean-springs-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -12721,27 +11241,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/pascagoula-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/pascagoula-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pascagoula-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12842,16 +11342,6 @@
     "missing_stubs": []
   },
   "/service-areas/pascagoula-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pascagoula-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -13001,16 +11491,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/pascagoula-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/pascagoula-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -13051,27 +11531,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/vancleave-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/vancleave-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/vancleave-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -13172,16 +11632,6 @@
     "missing_stubs": []
   },
   "/service-areas/vancleave-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/vancleave-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -13331,16 +11781,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/vancleave-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/vancleave-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -13381,27 +11821,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/wade-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/wade-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wade-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -13502,16 +11922,6 @@
     "missing_stubs": []
   },
   "/service-areas/wade-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wade-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -13661,16 +12071,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/wade-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/wade-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -13711,27 +12111,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/agricola-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/agricola-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/agricola-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -13832,16 +12212,6 @@
     "missing_stubs": []
   },
   "/service-areas/agricola-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/agricola-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -13991,16 +12361,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/agricola-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/agricola-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -14041,27 +12401,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/benndale-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/benndale-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/benndale-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -14162,16 +12502,6 @@
     "missing_stubs": []
   },
   "/service-areas/benndale-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/benndale-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -14321,16 +12651,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/benndale-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/benndale-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -14371,27 +12691,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lucedale-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lucedale-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lucedale-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -14492,16 +12792,6 @@
     "missing_stubs": []
   },
   "/service-areas/lucedale-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lucedale-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -14651,16 +12941,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lucedale-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lucedale-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -14701,27 +12981,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ellisville-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ellisville-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ellisville-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -14822,16 +13082,6 @@
     "missing_stubs": []
   },
   "/service-areas/ellisville-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ellisville-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -14981,16 +13231,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ellisville-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ellisville-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -15031,27 +13271,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/laurel-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/laurel-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/laurel-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -15152,16 +13372,6 @@
     "missing_stubs": []
   },
   "/service-areas/laurel-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/laurel-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -15311,16 +13521,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/laurel-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/laurel-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -15361,27 +13561,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/moselle-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/moselle-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/moselle-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -15482,16 +13662,6 @@
     "missing_stubs": []
   },
   "/service-areas/moselle-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/moselle-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -15641,16 +13811,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/moselle-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/moselle-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -15691,27 +13851,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ovett-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ovett-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ovett-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -15812,16 +13952,6 @@
     "missing_stubs": []
   },
   "/service-areas/ovett-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ovett-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -15971,16 +14101,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ovett-ms/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ovett-ms/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -16021,27 +14141,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sandersville-ms/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sandersville-ms/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sandersville-ms/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -16142,16 +14242,6 @@
     "missing_stubs": []
   },
   "/service-areas/sandersville-ms/storm-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sandersville-ms/vandalism-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -16292,16 +14382,6 @@
     "missing_stubs": []
   },
   "/service-areas/sandersville-ms/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sandersville-ms/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

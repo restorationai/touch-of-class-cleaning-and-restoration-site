@@ -52,13 +52,13 @@ This file is intended for AI assistants and language models to efficiently inges
 
 ### Core service pages
 - [Appliance Leak Cleanup](https://therestorationgroup.com/services/appliance-leak-cleanup/)
-- [Basement Flood Cleanup](https://therestorationgroup.com/services/basement-flood-cleanup/)
+- [Basement Flood Cleanup](https://therestorationgroup.com/services/basement-flooding-cleanup/)
 - [Basement Flooding Cleanup](https://therestorationgroup.com/services/basement-flooding-cleanup/)
 - [Biohazard Cleanup](https://therestorationgroup.com/services/biohazard-cleanup/)
 - [Burst Pipe Cleanup and Repair](https://therestorationgroup.com/services/burst-pipe-repair/)
 - [Commercial Restoration](https://therestorationgroup.com/services/commercial-restoration/)
 - [Contents Restoration & Pack-Out](https://therestorationgroup.com/services/contents-restoration-pack-out/)
-- [Contents Restoration & Storage](https://therestorationgroup.com/services/contents-restoration-storage/)
+- [Contents Restoration & Storage](https://therestorationgroup.com/services/contents-restoration-pack-out/)
 - [Crawl Space Encapsulation](https://therestorationgroup.com/services/crawl-space-encapsulation/)
 - [Emergency Board-Up and Tarping](https://therestorationgroup.com/services/emergency-board-up-tarping/)
 - [Fire Damage Restoration](https://therestorationgroup.com/services/fire-damage-restoration/)
@@ -69,7 +69,7 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Sewage Cleanup and Sanitization](https://therestorationgroup.com/services/sewage-cleanup/)
 - [Smoke Damage Restoration](https://therestorationgroup.com/services/smoke-damage-restoration/)
 - [Storm Damage Restoration](https://therestorationgroup.com/services/storm-damage-restoration/)
-- [Vandalism Cleanup](https://therestorationgroup.com/services/vandalism-cleanup/)
+- [Vandalism Cleanup](https://therestorationgroup.com/services/vandalism-graffiti-removal/)
 - [Emergency Water Cleanup](https://therestorationgroup.com/services/water-cleanup/)
 - [Water Damage Restoration](https://therestorationgroup.com/services/water-damage-restoration/)
 

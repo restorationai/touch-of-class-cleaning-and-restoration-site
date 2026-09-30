@@ -111,7 +111,6 @@
     "contents-restoration-storage",
     "water-cleanup",
     "commercial-restoration",
-    "contents-restoration-pack-out",
     "mold-inspection-testing",
     "basement-flood-cleanup"
   ],
@@ -393,5 +392,15 @@
       "state": "NV",
       "slug": "searchlight-nv"
     }
-  ]
+  ],
+  "homepage_services": [
+    "fire-damage-restoration",
+    "mold-remediation",
+    "water-damage-restoration",
+    "sewage-cleanup",
+    "biohazard-cleanup"
+  ],
+  "merged_services": {
+    "contents-restoration-pack-out": "contents-restoration-storage"
+  }
 }

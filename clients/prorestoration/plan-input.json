@@ -12,7 +12,6 @@
   "template": "restoration",
   "services": [
     "air-duct-cleaning",
-    "air-duct-hvac-cleaning",
     "appliance-leak-cleanup",
     "asbestos-abatement",
     "biohazard-cleanup",
@@ -34,7 +33,6 @@
     "roofing",
     "sewage-cleanup",
     "smoke-damage-restoration",
-    "soot-removal",
     "storm-damage-restoration",
     "water-cleanup",
     "water-damage-restoration",
@@ -400,5 +398,19 @@
   },
   "cross_product": true,
   "keyword_strategy": "conservative",
-  "blog_seed_count": 12
+  "blog_seed_count": 12,
+  "homepage_services": [
+    "water-damage-restoration",
+    "flood-damage-restoration",
+    "burst-pipe-repair",
+    "appliance-leak-cleanup",
+    "sewage-cleanup",
+    "fire-damage-restoration"
+  ],
+  "merged_services": {
+    "air-duct-hvac-cleaning": "air-duct-cleaning",
+    "emergency-water-removal": "water-damage-restoration",
+    "soot-removal": "smoke-damage-restoration",
+    "water-heater-flood-cleanup": "appliance-leak-cleanup"
+  }
 }

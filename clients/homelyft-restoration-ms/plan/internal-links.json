@@ -10,7 +10,6 @@
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
     "/services/emergency-plumbing/",
-    "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
     "/services/sewage-cleanup/",
@@ -30,11 +29,8 @@
     "/services/water-heater-flood-cleanup/",
     "/services/water-leak-detection/",
     "/services/asbestos-abatement/",
-    "/services/carpet-upholstery-cleaning/",
-    "/services/contents-restoration-storage/",
     "/services/contents-restoration/",
     "/services/crawl-space-encapsulation/",
-    "/services/vandalism-cleanup/",
     "/services/carpet-cleaning/",
     "/services/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -93,7 +89,6 @@
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
     "/services/emergency-plumbing/",
-    "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
     "/services/sewage-cleanup/",
@@ -113,11 +108,8 @@
     "/services/water-heater-flood-cleanup/",
     "/services/water-leak-detection/",
     "/services/asbestos-abatement/",
-    "/services/carpet-upholstery-cleaning/",
-    "/services/contents-restoration-storage/",
     "/services/contents-restoration/",
     "/services/crawl-space-encapsulation/",
-    "/services/vandalism-cleanup/",
     "/services/carpet-cleaning/",
     "/services/post-construction-cleaning/"
   ],
@@ -240,22 +232,6 @@
     "/service-areas/escatawpa-ms/carpet-cleaning/",
     "/service-areas/gautier-ms/carpet-cleaning/"
   ],
-  "/services/carpet-upholstery-cleaning/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/service-areas/benndale-ms/carpet-upholstery-cleaning/",
-    "/service-areas/big-point-ms/carpet-upholstery-cleaning/",
-    "/service-areas/biloxi-ms/carpet-upholstery-cleaning/",
-    "/service-areas/d-iberville-ms/carpet-upholstery-cleaning/",
-    "/service-areas/delisle-ms/carpet-upholstery-cleaning/",
-    "/service-areas/diamondhead-ms/carpet-upholstery-cleaning/",
-    "/service-areas/eastabuchie-ms/carpet-upholstery-cleaning/",
-    "/service-areas/ellisville-ms/carpet-upholstery-cleaning/",
-    "/service-areas/escatawpa-ms/carpet-upholstery-cleaning/",
-    "/service-areas/gautier-ms/carpet-upholstery-cleaning/"
-  ],
   "/services/contents-restoration/": [
     "/services/",
     "/contact/",
@@ -271,22 +247,6 @@
     "/service-areas/ellisville-ms/contents-restoration/",
     "/service-areas/escatawpa-ms/contents-restoration/",
     "/service-areas/gautier-ms/contents-restoration/"
-  ],
-  "/services/contents-restoration-storage/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
-    "/service-areas/benndale-ms/contents-restoration-storage/",
-    "/service-areas/big-point-ms/contents-restoration-storage/",
-    "/service-areas/biloxi-ms/contents-restoration-storage/",
-    "/service-areas/d-iberville-ms/contents-restoration-storage/",
-    "/service-areas/delisle-ms/contents-restoration-storage/",
-    "/service-areas/diamondhead-ms/contents-restoration-storage/",
-    "/service-areas/eastabuchie-ms/contents-restoration-storage/",
-    "/service-areas/ellisville-ms/contents-restoration-storage/",
-    "/service-areas/escatawpa-ms/contents-restoration-storage/",
-    "/service-areas/gautier-ms/contents-restoration-storage/"
   ],
   "/services/crawl-space-encapsulation/": [
     "/services/",
@@ -452,22 +412,6 @@
     "/service-areas/ellisville-ms/storm-damage-restoration/",
     "/service-areas/escatawpa-ms/storm-damage-restoration/",
     "/service-areas/gautier-ms/storm-damage-restoration/"
-  ],
-  "/services/vandalism-cleanup/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
-    "/service-areas/benndale-ms/vandalism-cleanup/",
-    "/service-areas/big-point-ms/vandalism-cleanup/",
-    "/service-areas/biloxi-ms/vandalism-cleanup/",
-    "/service-areas/d-iberville-ms/vandalism-cleanup/",
-    "/service-areas/delisle-ms/vandalism-cleanup/",
-    "/service-areas/diamondhead-ms/vandalism-cleanup/",
-    "/service-areas/eastabuchie-ms/vandalism-cleanup/",
-    "/service-areas/ellisville-ms/vandalism-cleanup/",
-    "/service-areas/escatawpa-ms/vandalism-cleanup/",
-    "/service-areas/gautier-ms/vandalism-cleanup/"
   ],
   "/services/water-damage-restoration/": [
     "/services/",
@@ -700,22 +644,6 @@
     "/service-areas/escatawpa-ms/water-heater-flood-cleanup/",
     "/service-areas/gautier-ms/water-heater-flood-cleanup/"
   ],
-  "/services/emergency-water-removal/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/service-areas/benndale-ms/emergency-water-removal/",
-    "/service-areas/big-point-ms/emergency-water-removal/",
-    "/service-areas/biloxi-ms/emergency-water-removal/",
-    "/service-areas/d-iberville-ms/emergency-water-removal/",
-    "/service-areas/delisle-ms/emergency-water-removal/",
-    "/service-areas/diamondhead-ms/emergency-water-removal/",
-    "/service-areas/eastabuchie-ms/emergency-water-removal/",
-    "/service-areas/ellisville-ms/emergency-water-removal/",
-    "/service-areas/escatawpa-ms/emergency-water-removal/",
-    "/service-areas/gautier-ms/emergency-water-removal/"
-  ],
   "/services/emergency-plumbing/": [
     "/services/",
     "/contact/",
@@ -741,7 +669,6 @@
     "/service-areas/eastabuchie-ms/water-damage-restoration/",
     "/service-areas/eastabuchie-ms/commercial-restoration/",
     "/service-areas/eastabuchie-ms/emergency-plumbing/",
-    "/service-areas/eastabuchie-ms/emergency-water-removal/",
     "/service-areas/eastabuchie-ms/flood-damage-restoration/",
     "/service-areas/eastabuchie-ms/reconstruction/",
     "/service-areas/eastabuchie-ms/sewage-cleanup/",
@@ -761,11 +688,8 @@
     "/service-areas/eastabuchie-ms/water-heater-flood-cleanup/",
     "/service-areas/eastabuchie-ms/water-leak-detection/",
     "/service-areas/eastabuchie-ms/asbestos-abatement/",
-    "/service-areas/eastabuchie-ms/carpet-upholstery-cleaning/",
-    "/service-areas/eastabuchie-ms/contents-restoration-storage/",
     "/service-areas/eastabuchie-ms/contents-restoration/",
     "/service-areas/eastabuchie-ms/crawl-space-encapsulation/",
-    "/service-areas/eastabuchie-ms/vandalism-cleanup/",
     "/service-areas/eastabuchie-ms/carpet-cleaning/",
     "/service-areas/eastabuchie-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -781,7 +705,6 @@
     "/service-areas/hattiesburg-ms/water-damage-restoration/",
     "/service-areas/hattiesburg-ms/commercial-restoration/",
     "/service-areas/hattiesburg-ms/emergency-plumbing/",
-    "/service-areas/hattiesburg-ms/emergency-water-removal/",
     "/service-areas/hattiesburg-ms/flood-damage-restoration/",
     "/service-areas/hattiesburg-ms/reconstruction/",
     "/service-areas/hattiesburg-ms/sewage-cleanup/",
@@ -801,11 +724,8 @@
     "/service-areas/hattiesburg-ms/water-heater-flood-cleanup/",
     "/service-areas/hattiesburg-ms/water-leak-detection/",
     "/service-areas/hattiesburg-ms/asbestos-abatement/",
-    "/service-areas/hattiesburg-ms/carpet-upholstery-cleaning/",
-    "/service-areas/hattiesburg-ms/contents-restoration-storage/",
     "/service-areas/hattiesburg-ms/contents-restoration/",
     "/service-areas/hattiesburg-ms/crawl-space-encapsulation/",
-    "/service-areas/hattiesburg-ms/vandalism-cleanup/",
     "/service-areas/hattiesburg-ms/carpet-cleaning/",
     "/service-areas/hattiesburg-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -821,7 +741,6 @@
     "/service-areas/petal-ms/water-damage-restoration/",
     "/service-areas/petal-ms/commercial-restoration/",
     "/service-areas/petal-ms/emergency-plumbing/",
-    "/service-areas/petal-ms/emergency-water-removal/",
     "/service-areas/petal-ms/flood-damage-restoration/",
     "/service-areas/petal-ms/reconstruction/",
     "/service-areas/petal-ms/sewage-cleanup/",
@@ -841,11 +760,8 @@
     "/service-areas/petal-ms/water-heater-flood-cleanup/",
     "/service-areas/petal-ms/water-leak-detection/",
     "/service-areas/petal-ms/asbestos-abatement/",
-    "/service-areas/petal-ms/carpet-upholstery-cleaning/",
-    "/service-areas/petal-ms/contents-restoration-storage/",
     "/service-areas/petal-ms/contents-restoration/",
     "/service-areas/petal-ms/crawl-space-encapsulation/",
-    "/service-areas/petal-ms/vandalism-cleanup/",
     "/service-areas/petal-ms/carpet-cleaning/",
     "/service-areas/petal-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -861,7 +777,6 @@
     "/service-areas/rawls-springs-ms/water-damage-restoration/",
     "/service-areas/rawls-springs-ms/commercial-restoration/",
     "/service-areas/rawls-springs-ms/emergency-plumbing/",
-    "/service-areas/rawls-springs-ms/emergency-water-removal/",
     "/service-areas/rawls-springs-ms/flood-damage-restoration/",
     "/service-areas/rawls-springs-ms/reconstruction/",
     "/service-areas/rawls-springs-ms/sewage-cleanup/",
@@ -881,11 +796,8 @@
     "/service-areas/rawls-springs-ms/water-heater-flood-cleanup/",
     "/service-areas/rawls-springs-ms/water-leak-detection/",
     "/service-areas/rawls-springs-ms/asbestos-abatement/",
-    "/service-areas/rawls-springs-ms/carpet-upholstery-cleaning/",
-    "/service-areas/rawls-springs-ms/contents-restoration-storage/",
     "/service-areas/rawls-springs-ms/contents-restoration/",
     "/service-areas/rawls-springs-ms/crawl-space-encapsulation/",
-    "/service-areas/rawls-springs-ms/vandalism-cleanup/",
     "/service-areas/rawls-springs-ms/carpet-cleaning/",
     "/service-areas/rawls-springs-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -901,7 +813,6 @@
     "/service-areas/leakesville-ms/water-damage-restoration/",
     "/service-areas/leakesville-ms/commercial-restoration/",
     "/service-areas/leakesville-ms/emergency-plumbing/",
-    "/service-areas/leakesville-ms/emergency-water-removal/",
     "/service-areas/leakesville-ms/flood-damage-restoration/",
     "/service-areas/leakesville-ms/reconstruction/",
     "/service-areas/leakesville-ms/sewage-cleanup/",
@@ -921,11 +832,8 @@
     "/service-areas/leakesville-ms/water-heater-flood-cleanup/",
     "/service-areas/leakesville-ms/water-leak-detection/",
     "/service-areas/leakesville-ms/asbestos-abatement/",
-    "/service-areas/leakesville-ms/carpet-upholstery-cleaning/",
-    "/service-areas/leakesville-ms/contents-restoration-storage/",
     "/service-areas/leakesville-ms/contents-restoration/",
     "/service-areas/leakesville-ms/crawl-space-encapsulation/",
-    "/service-areas/leakesville-ms/vandalism-cleanup/",
     "/service-areas/leakesville-ms/carpet-cleaning/",
     "/service-areas/leakesville-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -941,7 +849,6 @@
     "/service-areas/mclain-ms/water-damage-restoration/",
     "/service-areas/mclain-ms/commercial-restoration/",
     "/service-areas/mclain-ms/emergency-plumbing/",
-    "/service-areas/mclain-ms/emergency-water-removal/",
     "/service-areas/mclain-ms/flood-damage-restoration/",
     "/service-areas/mclain-ms/reconstruction/",
     "/service-areas/mclain-ms/sewage-cleanup/",
@@ -961,11 +868,8 @@
     "/service-areas/mclain-ms/water-heater-flood-cleanup/",
     "/service-areas/mclain-ms/water-leak-detection/",
     "/service-areas/mclain-ms/asbestos-abatement/",
-    "/service-areas/mclain-ms/carpet-upholstery-cleaning/",
-    "/service-areas/mclain-ms/contents-restoration-storage/",
     "/service-areas/mclain-ms/contents-restoration/",
     "/service-areas/mclain-ms/crawl-space-encapsulation/",
-    "/service-areas/mclain-ms/vandalism-cleanup/",
     "/service-areas/mclain-ms/carpet-cleaning/",
     "/service-areas/mclain-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -981,7 +885,6 @@
     "/service-areas/state-line-ms/water-damage-restoration/",
     "/service-areas/state-line-ms/commercial-restoration/",
     "/service-areas/state-line-ms/emergency-plumbing/",
-    "/service-areas/state-line-ms/emergency-water-removal/",
     "/service-areas/state-line-ms/flood-damage-restoration/",
     "/service-areas/state-line-ms/reconstruction/",
     "/service-areas/state-line-ms/sewage-cleanup/",
@@ -1001,11 +904,8 @@
     "/service-areas/state-line-ms/water-heater-flood-cleanup/",
     "/service-areas/state-line-ms/water-leak-detection/",
     "/service-areas/state-line-ms/asbestos-abatement/",
-    "/service-areas/state-line-ms/carpet-upholstery-cleaning/",
-    "/service-areas/state-line-ms/contents-restoration-storage/",
     "/service-areas/state-line-ms/contents-restoration/",
     "/service-areas/state-line-ms/crawl-space-encapsulation/",
-    "/service-areas/state-line-ms/vandalism-cleanup/",
     "/service-areas/state-line-ms/carpet-cleaning/",
     "/service-areas/state-line-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -1021,7 +921,6 @@
     "/service-areas/biloxi-ms/water-damage-restoration/",
     "/service-areas/biloxi-ms/commercial-restoration/",
     "/service-areas/biloxi-ms/emergency-plumbing/",
-    "/service-areas/biloxi-ms/emergency-water-removal/",
     "/service-areas/biloxi-ms/flood-damage-restoration/",
     "/service-areas/biloxi-ms/reconstruction/",
     "/service-areas/biloxi-ms/sewage-cleanup/",
@@ -1041,11 +940,8 @@
     "/service-areas/biloxi-ms/water-heater-flood-cleanup/",
     "/service-areas/biloxi-ms/water-leak-detection/",
     "/service-areas/biloxi-ms/asbestos-abatement/",
-    "/service-areas/biloxi-ms/carpet-upholstery-cleaning/",
-    "/service-areas/biloxi-ms/contents-restoration-storage/",
     "/service-areas/biloxi-ms/contents-restoration/",
     "/service-areas/biloxi-ms/crawl-space-encapsulation/",
-    "/service-areas/biloxi-ms/vandalism-cleanup/",
     "/service-areas/biloxi-ms/carpet-cleaning/",
     "/service-areas/biloxi-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -1061,7 +957,6 @@
     "/service-areas/d-iberville-ms/water-damage-restoration/",
     "/service-areas/d-iberville-ms/commercial-restoration/",
     "/service-areas/d-iberville-ms/emergency-plumbing/",
-    "/service-areas/d-iberville-ms/emergency-water-removal/",
     "/service-areas/d-iberville-ms/flood-damage-restoration/",
     "/service-areas/d-iberville-ms/reconstruction/",
     "/service-areas/d-iberville-ms/sewage-cleanup/",
@@ -1081,11 +976,8 @@
     "/service-areas/d-iberville-ms/water-heater-flood-cleanup/",
     "/service-areas/d-iberville-ms/water-leak-detection/",
     "/service-areas/d-iberville-ms/asbestos-abatement/",
-    "/service-areas/d-iberville-ms/carpet-upholstery-cleaning/",
-    "/service-areas/d-iberville-ms/contents-restoration-storage/",
     "/service-areas/d-iberville-ms/contents-restoration/",
     "/service-areas/d-iberville-ms/crawl-space-encapsulation/",
-    "/service-areas/d-iberville-ms/vandalism-cleanup/",
     "/service-areas/d-iberville-ms/carpet-cleaning/",
     "/service-areas/d-iberville-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -1101,7 +993,6 @@
     "/service-areas/delisle-ms/water-damage-restoration/",
     "/service-areas/delisle-ms/commercial-restoration/",
     "/service-areas/delisle-ms/emergency-plumbing/",
-    "/service-areas/delisle-ms/emergency-water-removal/",
     "/service-areas/delisle-ms/flood-damage-restoration/",
     "/service-areas/delisle-ms/reconstruction/",
     "/service-areas/delisle-ms/sewage-cleanup/",
@@ -1121,11 +1012,8 @@
     "/service-areas/delisle-ms/water-heater-flood-cleanup/",
     "/service-areas/delisle-ms/water-leak-detection/",
     "/service-areas/delisle-ms/asbestos-abatement/",
-    "/service-areas/delisle-ms/carpet-upholstery-cleaning/",
-    "/service-areas/delisle-ms/contents-restoration-storage/",
     "/service-areas/delisle-ms/contents-restoration/",
     "/service-areas/delisle-ms/crawl-space-encapsulation/",
-    "/service-areas/delisle-ms/vandalism-cleanup/",
     "/service-areas/delisle-ms/carpet-cleaning/",
     "/service-areas/delisle-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -1141,7 +1029,6 @@
     "/service-areas/diamondhead-ms/water-damage-restoration/",
     "/service-areas/diamondhead-ms/commercial-restoration/",
     "/service-areas/diamondhead-ms/emergency-plumbing/",
-    "/service-areas/diamondhead-ms/emergency-water-removal/",
     "/service-areas/diamondhead-ms/flood-damage-restoration/",
     "/service-areas/diamondhead-ms/reconstruction/",
     "/service-areas/diamondhead-ms/sewage-cleanup/",
@@ -1161,11 +1048,8 @@
     "/service-areas/diamondhead-ms/water-heater-flood-cleanup/",
     "/service-areas/diamondhead-ms/water-leak-detection/",
     "/service-areas/diamondhead-ms/asbestos-abatement/",
-    "/service-areas/diamondhead-ms/carpet-upholstery-cleaning/",
-    "/service-areas/diamondhead-ms/contents-restoration-storage/",
     "/service-areas/diamondhead-ms/contents-restoration/",
     "/service-areas/diamondhead-ms/crawl-space-encapsulation/",
-    "/service-areas/diamondhead-ms/vandalism-cleanup/",
     "/service-areas/diamondhead-ms/carpet-cleaning/",
     "/service-areas/diamondhead-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -1181,7 +1065,6 @@
     "/service-areas/henderson-point-ms/water-damage-restoration/",
     "/service-areas/henderson-point-ms/commercial-restoration/",
     "/service-areas/henderson-point-ms/emergency-plumbing/",
-    "/service-areas/henderson-point-ms/emergency-water-removal/",
     "/service-areas/henderson-point-ms/flood-damage-restoration/",
     "/service-areas/henderson-point-ms/reconstruction/",
     "/service-areas/henderson-point-ms/sewage-cleanup/",
@@ -1201,11 +1084,8 @@
     "/service-areas/henderson-point-ms/water-heater-flood-cleanup/",
     "/service-areas/henderson-point-ms/water-leak-detection/",
     "/service-areas/henderson-point-ms/asbestos-abatement/",
-    "/service-areas/henderson-point-ms/carpet-upholstery-cleaning/",
-    "/service-areas/henderson-point-ms/contents-restoration-storage/",
     "/service-areas/henderson-point-ms/contents-restoration/",
     "/service-areas/henderson-point-ms/crawl-space-encapsulation/",
-    "/service-areas/henderson-point-ms/vandalism-cleanup/",
     "/service-areas/henderson-point-ms/carpet-cleaning/",
     "/service-areas/henderson-point-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -1221,7 +1101,6 @@
     "/service-areas/latimer-ms/water-damage-restoration/",
     "/service-areas/latimer-ms/commercial-restoration/",
     "/service-areas/latimer-ms/emergency-plumbing/",
-    "/service-areas/latimer-ms/emergency-water-removal/",
     "/service-areas/latimer-ms/flood-damage-restoration/",
     "/service-areas/latimer-ms/reconstruction/",
     "/service-areas/latimer-ms/sewage-cleanup/",
@@ -1241,11 +1120,8 @@
     "/service-areas/latimer-ms/water-heater-flood-cleanup/",
     "/service-areas/latimer-ms/water-leak-detection/",
     "/service-areas/latimer-ms/asbestos-abatement/",
-    "/service-areas/latimer-ms/carpet-upholstery-cleaning/",
-    "/service-areas/latimer-ms/contents-restoration-storage/",
     "/service-areas/latimer-ms/contents-restoration/",
     "/service-areas/latimer-ms/crawl-space-encapsulation/",
-    "/service-areas/latimer-ms/vandalism-cleanup/",
     "/service-areas/latimer-ms/carpet-cleaning/",
     "/service-areas/latimer-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -1261,7 +1137,6 @@
     "/service-areas/long-beach-ms/water-damage-restoration/",
     "/service-areas/long-beach-ms/commercial-restoration/",
     "/service-areas/long-beach-ms/emergency-plumbing/",
-    "/service-areas/long-beach-ms/emergency-water-removal/",
     "/service-areas/long-beach-ms/flood-damage-restoration/",
     "/service-areas/long-beach-ms/reconstruction/",
     "/service-areas/long-beach-ms/sewage-cleanup/",
@@ -1281,11 +1156,8 @@
     "/service-areas/long-beach-ms/water-heater-flood-cleanup/",
     "/service-areas/long-beach-ms/water-leak-detection/",
     "/service-areas/long-beach-ms/asbestos-abatement/",
-    "/service-areas/long-beach-ms/carpet-upholstery-cleaning/",
-    "/service-areas/long-beach-ms/contents-restoration-storage/",
     "/service-areas/long-beach-ms/contents-restoration/",
     "/service-areas/long-beach-ms/crawl-space-encapsulation/",
-    "/service-areas/long-beach-ms/vandalism-cleanup/",
     "/service-areas/long-beach-ms/carpet-cleaning/",
     "/service-areas/long-beach-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -1301,7 +1173,6 @@
     "/service-areas/lyman-ms/water-damage-restoration/",
     "/service-areas/lyman-ms/commercial-restoration/",
     "/service-areas/lyman-ms/emergency-plumbing/",
-    "/service-areas/lyman-ms/emergency-water-removal/",
     "/service-areas/lyman-ms/flood-damage-restoration/",
     "/service-areas/lyman-ms/reconstruction/",
     "/service-areas/lyman-ms/sewage-cleanup/",
@@ -1321,11 +1192,8 @@
     "/service-areas/lyman-ms/water-heater-flood-cleanup/",
     "/service-areas/lyman-ms/water-leak-detection/",
     "/service-areas/lyman-ms/asbestos-abatement/",
-    "/service-areas/lyman-ms/carpet-upholstery-cleaning/",
-    "/service-areas/lyman-ms/contents-restoration-storage/",
     "/service-areas/lyman-ms/contents-restoration/",
     "/service-areas/lyman-ms/crawl-space-encapsulation/",
-    "/service-areas/lyman-ms/vandalism-cleanup/",
     "/service-areas/lyman-ms/carpet-cleaning/",
     "/service-areas/lyman-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -1341,7 +1209,6 @@
     "/service-areas/pass-christian-ms/water-damage-restoration/",
     "/service-areas/pass-christian-ms/commercial-restoration/",
     "/service-areas/pass-christian-ms/emergency-plumbing/",
-    "/service-areas/pass-christian-ms/emergency-water-removal/",
     "/service-areas/pass-christian-ms/flood-damage-restoration/",
     "/service-areas/pass-christian-ms/reconstruction/",
     "/service-areas/pass-christian-ms/sewage-cleanup/",
@@ -1361,11 +1228,8 @@
     "/service-areas/pass-christian-ms/water-heater-flood-cleanup/",
     "/service-areas/pass-christian-ms/water-leak-detection/",
     "/service-areas/pass-christian-ms/asbestos-abatement/",
-    "/service-areas/pass-christian-ms/carpet-upholstery-cleaning/",
-    "/service-areas/pass-christian-ms/contents-restoration-storage/",
     "/service-areas/pass-christian-ms/contents-restoration/",
     "/service-areas/pass-christian-ms/crawl-space-encapsulation/",
-    "/service-areas/pass-christian-ms/vandalism-cleanup/",
     "/service-areas/pass-christian-ms/carpet-cleaning/",
     "/service-areas/pass-christian-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -1381,7 +1245,6 @@
     "/service-areas/saucier-ms/water-damage-restoration/",
     "/service-areas/saucier-ms/commercial-restoration/",
     "/service-areas/saucier-ms/emergency-plumbing/",
-    "/service-areas/saucier-ms/emergency-water-removal/",
     "/service-areas/saucier-ms/flood-damage-restoration/",
     "/service-areas/saucier-ms/reconstruction/",
     "/service-areas/saucier-ms/sewage-cleanup/",
@@ -1401,11 +1264,8 @@
     "/service-areas/saucier-ms/water-heater-flood-cleanup/",
     "/service-areas/saucier-ms/water-leak-detection/",
     "/service-areas/saucier-ms/asbestos-abatement/",
-    "/service-areas/saucier-ms/carpet-upholstery-cleaning/",
-    "/service-areas/saucier-ms/contents-restoration-storage/",
     "/service-areas/saucier-ms/contents-restoration/",
     "/service-areas/saucier-ms/crawl-space-encapsulation/",
-    "/service-areas/saucier-ms/vandalism-cleanup/",
     "/service-areas/saucier-ms/carpet-cleaning/",
     "/service-areas/saucier-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -1421,7 +1281,6 @@
     "/service-areas/st-martin-ms/water-damage-restoration/",
     "/service-areas/st-martin-ms/commercial-restoration/",
     "/service-areas/st-martin-ms/emergency-plumbing/",
-    "/service-areas/st-martin-ms/emergency-water-removal/",
     "/service-areas/st-martin-ms/flood-damage-restoration/",
     "/service-areas/st-martin-ms/reconstruction/",
     "/service-areas/st-martin-ms/sewage-cleanup/",
@@ -1441,11 +1300,8 @@
     "/service-areas/st-martin-ms/water-heater-flood-cleanup/",
     "/service-areas/st-martin-ms/water-leak-detection/",
     "/service-areas/st-martin-ms/asbestos-abatement/",
-    "/service-areas/st-martin-ms/carpet-upholstery-cleaning/",
-    "/service-areas/st-martin-ms/contents-restoration-storage/",
     "/service-areas/st-martin-ms/contents-restoration/",
     "/service-areas/st-martin-ms/crawl-space-encapsulation/",
-    "/service-areas/st-martin-ms/vandalism-cleanup/",
     "/service-areas/st-martin-ms/carpet-cleaning/",
     "/service-areas/st-martin-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -1461,7 +1317,6 @@
     "/service-areas/bay-st-louis-ms/water-damage-restoration/",
     "/service-areas/bay-st-louis-ms/commercial-restoration/",
     "/service-areas/bay-st-louis-ms/emergency-plumbing/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
     "/service-areas/bay-st-louis-ms/flood-damage-restoration/",
     "/service-areas/bay-st-louis-ms/reconstruction/",
     "/service-areas/bay-st-louis-ms/sewage-cleanup/",
@@ -1481,11 +1336,8 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/service-areas/bay-st-louis-ms/water-leak-detection/",
     "/service-areas/bay-st-louis-ms/asbestos-abatement/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/crawl-space-encapsulation/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/service-areas/bay-st-louis-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -1501,7 +1353,6 @@
     "/service-areas/kiln-ms/water-damage-restoration/",
     "/service-areas/kiln-ms/commercial-restoration/",
     "/service-areas/kiln-ms/emergency-plumbing/",
-    "/service-areas/kiln-ms/emergency-water-removal/",
     "/service-areas/kiln-ms/flood-damage-restoration/",
     "/service-areas/kiln-ms/reconstruction/",
     "/service-areas/kiln-ms/sewage-cleanup/",
@@ -1521,11 +1372,8 @@
     "/service-areas/kiln-ms/water-heater-flood-cleanup/",
     "/service-areas/kiln-ms/water-leak-detection/",
     "/service-areas/kiln-ms/asbestos-abatement/",
-    "/service-areas/kiln-ms/carpet-upholstery-cleaning/",
-    "/service-areas/kiln-ms/contents-restoration-storage/",
     "/service-areas/kiln-ms/contents-restoration/",
     "/service-areas/kiln-ms/crawl-space-encapsulation/",
-    "/service-areas/kiln-ms/vandalism-cleanup/",
     "/service-areas/kiln-ms/carpet-cleaning/",
     "/service-areas/kiln-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -1541,7 +1389,6 @@
     "/service-areas/pearlington-ms/water-damage-restoration/",
     "/service-areas/pearlington-ms/commercial-restoration/",
     "/service-areas/pearlington-ms/emergency-plumbing/",
-    "/service-areas/pearlington-ms/emergency-water-removal/",
     "/service-areas/pearlington-ms/flood-damage-restoration/",
     "/service-areas/pearlington-ms/reconstruction/",
     "/service-areas/pearlington-ms/sewage-cleanup/",
@@ -1561,11 +1408,8 @@
     "/service-areas/pearlington-ms/water-heater-flood-cleanup/",
     "/service-areas/pearlington-ms/water-leak-detection/",
     "/service-areas/pearlington-ms/asbestos-abatement/",
-    "/service-areas/pearlington-ms/carpet-upholstery-cleaning/",
-    "/service-areas/pearlington-ms/contents-restoration-storage/",
     "/service-areas/pearlington-ms/contents-restoration/",
     "/service-areas/pearlington-ms/crawl-space-encapsulation/",
-    "/service-areas/pearlington-ms/vandalism-cleanup/",
     "/service-areas/pearlington-ms/carpet-cleaning/",
     "/service-areas/pearlington-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -1581,7 +1425,6 @@
     "/service-areas/picayune-ms/water-damage-restoration/",
     "/service-areas/picayune-ms/commercial-restoration/",
     "/service-areas/picayune-ms/emergency-plumbing/",
-    "/service-areas/picayune-ms/emergency-water-removal/",
     "/service-areas/picayune-ms/flood-damage-restoration/",
     "/service-areas/picayune-ms/reconstruction/",
     "/service-areas/picayune-ms/sewage-cleanup/",
@@ -1601,11 +1444,8 @@
     "/service-areas/picayune-ms/water-heater-flood-cleanup/",
     "/service-areas/picayune-ms/water-leak-detection/",
     "/service-areas/picayune-ms/asbestos-abatement/",
-    "/service-areas/picayune-ms/carpet-upholstery-cleaning/",
-    "/service-areas/picayune-ms/contents-restoration-storage/",
     "/service-areas/picayune-ms/contents-restoration/",
     "/service-areas/picayune-ms/crawl-space-encapsulation/",
-    "/service-areas/picayune-ms/vandalism-cleanup/",
     "/service-areas/picayune-ms/carpet-cleaning/",
     "/service-areas/picayune-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -1621,7 +1461,6 @@
     "/service-areas/waveland-ms/water-damage-restoration/",
     "/service-areas/waveland-ms/commercial-restoration/",
     "/service-areas/waveland-ms/emergency-plumbing/",
-    "/service-areas/waveland-ms/emergency-water-removal/",
     "/service-areas/waveland-ms/flood-damage-restoration/",
     "/service-areas/waveland-ms/reconstruction/",
     "/service-areas/waveland-ms/sewage-cleanup/",
@@ -1641,11 +1480,8 @@
     "/service-areas/waveland-ms/water-heater-flood-cleanup/",
     "/service-areas/waveland-ms/water-leak-detection/",
     "/service-areas/waveland-ms/asbestos-abatement/",
-    "/service-areas/waveland-ms/carpet-upholstery-cleaning/",
-    "/service-areas/waveland-ms/contents-restoration-storage/",
     "/service-areas/waveland-ms/contents-restoration/",
     "/service-areas/waveland-ms/crawl-space-encapsulation/",
-    "/service-areas/waveland-ms/vandalism-cleanup/",
     "/service-areas/waveland-ms/carpet-cleaning/",
     "/service-areas/waveland-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -1661,7 +1497,6 @@
     "/service-areas/wiggins-ms/water-damage-restoration/",
     "/service-areas/wiggins-ms/commercial-restoration/",
     "/service-areas/wiggins-ms/emergency-plumbing/",
-    "/service-areas/wiggins-ms/emergency-water-removal/",
     "/service-areas/wiggins-ms/flood-damage-restoration/",
     "/service-areas/wiggins-ms/reconstruction/",
     "/service-areas/wiggins-ms/sewage-cleanup/",
@@ -1681,11 +1516,8 @@
     "/service-areas/wiggins-ms/water-heater-flood-cleanup/",
     "/service-areas/wiggins-ms/water-leak-detection/",
     "/service-areas/wiggins-ms/asbestos-abatement/",
-    "/service-areas/wiggins-ms/carpet-upholstery-cleaning/",
-    "/service-areas/wiggins-ms/contents-restoration-storage/",
     "/service-areas/wiggins-ms/contents-restoration/",
     "/service-areas/wiggins-ms/crawl-space-encapsulation/",
-    "/service-areas/wiggins-ms/vandalism-cleanup/",
     "/service-areas/wiggins-ms/carpet-cleaning/",
     "/service-areas/wiggins-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -1701,7 +1533,6 @@
     "/service-areas/hide-a-way-lake-ms/water-damage-restoration/",
     "/service-areas/hide-a-way-lake-ms/commercial-restoration/",
     "/service-areas/hide-a-way-lake-ms/emergency-plumbing/",
-    "/service-areas/hide-a-way-lake-ms/emergency-water-removal/",
     "/service-areas/hide-a-way-lake-ms/flood-damage-restoration/",
     "/service-areas/hide-a-way-lake-ms/reconstruction/",
     "/service-areas/hide-a-way-lake-ms/sewage-cleanup/",
@@ -1721,11 +1552,8 @@
     "/service-areas/hide-a-way-lake-ms/water-heater-flood-cleanup/",
     "/service-areas/hide-a-way-lake-ms/water-leak-detection/",
     "/service-areas/hide-a-way-lake-ms/asbestos-abatement/",
-    "/service-areas/hide-a-way-lake-ms/carpet-upholstery-cleaning/",
-    "/service-areas/hide-a-way-lake-ms/contents-restoration-storage/",
     "/service-areas/hide-a-way-lake-ms/contents-restoration/",
     "/service-areas/hide-a-way-lake-ms/crawl-space-encapsulation/",
-    "/service-areas/hide-a-way-lake-ms/vandalism-cleanup/",
     "/service-areas/hide-a-way-lake-ms/carpet-cleaning/",
     "/service-areas/hide-a-way-lake-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -1741,7 +1569,6 @@
     "/service-areas/lumberton-ms/water-damage-restoration/",
     "/service-areas/lumberton-ms/commercial-restoration/",
     "/service-areas/lumberton-ms/emergency-plumbing/",
-    "/service-areas/lumberton-ms/emergency-water-removal/",
     "/service-areas/lumberton-ms/flood-damage-restoration/",
     "/service-areas/lumberton-ms/reconstruction/",
     "/service-areas/lumberton-ms/sewage-cleanup/",
@@ -1761,11 +1588,8 @@
     "/service-areas/lumberton-ms/water-heater-flood-cleanup/",
     "/service-areas/lumberton-ms/water-leak-detection/",
     "/service-areas/lumberton-ms/asbestos-abatement/",
-    "/service-areas/lumberton-ms/carpet-upholstery-cleaning/",
-    "/service-areas/lumberton-ms/contents-restoration-storage/",
     "/service-areas/lumberton-ms/contents-restoration/",
     "/service-areas/lumberton-ms/crawl-space-encapsulation/",
-    "/service-areas/lumberton-ms/vandalism-cleanup/",
     "/service-areas/lumberton-ms/carpet-cleaning/",
     "/service-areas/lumberton-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -1781,7 +1605,6 @@
     "/service-areas/poplarville-ms/water-damage-restoration/",
     "/service-areas/poplarville-ms/commercial-restoration/",
     "/service-areas/poplarville-ms/emergency-plumbing/",
-    "/service-areas/poplarville-ms/emergency-water-removal/",
     "/service-areas/poplarville-ms/flood-damage-restoration/",
     "/service-areas/poplarville-ms/reconstruction/",
     "/service-areas/poplarville-ms/sewage-cleanup/",
@@ -1801,11 +1624,8 @@
     "/service-areas/poplarville-ms/water-heater-flood-cleanup/",
     "/service-areas/poplarville-ms/water-leak-detection/",
     "/service-areas/poplarville-ms/asbestos-abatement/",
-    "/service-areas/poplarville-ms/carpet-upholstery-cleaning/",
-    "/service-areas/poplarville-ms/contents-restoration-storage/",
     "/service-areas/poplarville-ms/contents-restoration/",
     "/service-areas/poplarville-ms/crawl-space-encapsulation/",
-    "/service-areas/poplarville-ms/vandalism-cleanup/",
     "/service-areas/poplarville-ms/carpet-cleaning/",
     "/service-areas/poplarville-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -1821,7 +1641,6 @@
     "/service-areas/big-point-ms/water-damage-restoration/",
     "/service-areas/big-point-ms/commercial-restoration/",
     "/service-areas/big-point-ms/emergency-plumbing/",
-    "/service-areas/big-point-ms/emergency-water-removal/",
     "/service-areas/big-point-ms/flood-damage-restoration/",
     "/service-areas/big-point-ms/reconstruction/",
     "/service-areas/big-point-ms/sewage-cleanup/",
@@ -1841,11 +1660,8 @@
     "/service-areas/big-point-ms/water-heater-flood-cleanup/",
     "/service-areas/big-point-ms/water-leak-detection/",
     "/service-areas/big-point-ms/asbestos-abatement/",
-    "/service-areas/big-point-ms/carpet-upholstery-cleaning/",
-    "/service-areas/big-point-ms/contents-restoration-storage/",
     "/service-areas/big-point-ms/contents-restoration/",
     "/service-areas/big-point-ms/crawl-space-encapsulation/",
-    "/service-areas/big-point-ms/vandalism-cleanup/",
     "/service-areas/big-point-ms/carpet-cleaning/",
     "/service-areas/big-point-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -1861,7 +1677,6 @@
     "/service-areas/escatawpa-ms/water-damage-restoration/",
     "/service-areas/escatawpa-ms/commercial-restoration/",
     "/service-areas/escatawpa-ms/emergency-plumbing/",
-    "/service-areas/escatawpa-ms/emergency-water-removal/",
     "/service-areas/escatawpa-ms/flood-damage-restoration/",
     "/service-areas/escatawpa-ms/reconstruction/",
     "/service-areas/escatawpa-ms/sewage-cleanup/",
@@ -1881,11 +1696,8 @@
     "/service-areas/escatawpa-ms/water-heater-flood-cleanup/",
     "/service-areas/escatawpa-ms/water-leak-detection/",
     "/service-areas/escatawpa-ms/asbestos-abatement/",
-    "/service-areas/escatawpa-ms/carpet-upholstery-cleaning/",
-    "/service-areas/escatawpa-ms/contents-restoration-storage/",
     "/service-areas/escatawpa-ms/contents-restoration/",
     "/service-areas/escatawpa-ms/crawl-space-encapsulation/",
-    "/service-areas/escatawpa-ms/vandalism-cleanup/",
     "/service-areas/escatawpa-ms/carpet-cleaning/",
     "/service-areas/escatawpa-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -1901,7 +1713,6 @@
     "/service-areas/gautier-ms/water-damage-restoration/",
     "/service-areas/gautier-ms/commercial-restoration/",
     "/service-areas/gautier-ms/emergency-plumbing/",
-    "/service-areas/gautier-ms/emergency-water-removal/",
     "/service-areas/gautier-ms/flood-damage-restoration/",
     "/service-areas/gautier-ms/reconstruction/",
     "/service-areas/gautier-ms/sewage-cleanup/",
@@ -1921,11 +1732,8 @@
     "/service-areas/gautier-ms/water-heater-flood-cleanup/",
     "/service-areas/gautier-ms/water-leak-detection/",
     "/service-areas/gautier-ms/asbestos-abatement/",
-    "/service-areas/gautier-ms/carpet-upholstery-cleaning/",
-    "/service-areas/gautier-ms/contents-restoration-storage/",
     "/service-areas/gautier-ms/contents-restoration/",
     "/service-areas/gautier-ms/crawl-space-encapsulation/",
-    "/service-areas/gautier-ms/vandalism-cleanup/",
     "/service-areas/gautier-ms/carpet-cleaning/",
     "/service-areas/gautier-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -1941,7 +1749,6 @@
     "/service-areas/gulf-hills-ms/water-damage-restoration/",
     "/service-areas/gulf-hills-ms/commercial-restoration/",
     "/service-areas/gulf-hills-ms/emergency-plumbing/",
-    "/service-areas/gulf-hills-ms/emergency-water-removal/",
     "/service-areas/gulf-hills-ms/flood-damage-restoration/",
     "/service-areas/gulf-hills-ms/reconstruction/",
     "/service-areas/gulf-hills-ms/sewage-cleanup/",
@@ -1961,11 +1768,8 @@
     "/service-areas/gulf-hills-ms/water-heater-flood-cleanup/",
     "/service-areas/gulf-hills-ms/water-leak-detection/",
     "/service-areas/gulf-hills-ms/asbestos-abatement/",
-    "/service-areas/gulf-hills-ms/carpet-upholstery-cleaning/",
-    "/service-areas/gulf-hills-ms/contents-restoration-storage/",
     "/service-areas/gulf-hills-ms/contents-restoration/",
     "/service-areas/gulf-hills-ms/crawl-space-encapsulation/",
-    "/service-areas/gulf-hills-ms/vandalism-cleanup/",
     "/service-areas/gulf-hills-ms/carpet-cleaning/",
     "/service-areas/gulf-hills-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -1981,7 +1785,6 @@
     "/service-areas/gulf-park-estates-ms/water-damage-restoration/",
     "/service-areas/gulf-park-estates-ms/commercial-restoration/",
     "/service-areas/gulf-park-estates-ms/emergency-plumbing/",
-    "/service-areas/gulf-park-estates-ms/emergency-water-removal/",
     "/service-areas/gulf-park-estates-ms/flood-damage-restoration/",
     "/service-areas/gulf-park-estates-ms/reconstruction/",
     "/service-areas/gulf-park-estates-ms/sewage-cleanup/",
@@ -2001,11 +1804,8 @@
     "/service-areas/gulf-park-estates-ms/water-heater-flood-cleanup/",
     "/service-areas/gulf-park-estates-ms/water-leak-detection/",
     "/service-areas/gulf-park-estates-ms/asbestos-abatement/",
-    "/service-areas/gulf-park-estates-ms/carpet-upholstery-cleaning/",
-    "/service-areas/gulf-park-estates-ms/contents-restoration-storage/",
     "/service-areas/gulf-park-estates-ms/contents-restoration/",
     "/service-areas/gulf-park-estates-ms/crawl-space-encapsulation/",
-    "/service-areas/gulf-park-estates-ms/vandalism-cleanup/",
     "/service-areas/gulf-park-estates-ms/carpet-cleaning/",
     "/service-areas/gulf-park-estates-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -2021,7 +1821,6 @@
     "/service-areas/helena-ms/water-damage-restoration/",
     "/service-areas/helena-ms/commercial-restoration/",
     "/service-areas/helena-ms/emergency-plumbing/",
-    "/service-areas/helena-ms/emergency-water-removal/",
     "/service-areas/helena-ms/flood-damage-restoration/",
     "/service-areas/helena-ms/reconstruction/",
     "/service-areas/helena-ms/sewage-cleanup/",
@@ -2041,11 +1840,8 @@
     "/service-areas/helena-ms/water-heater-flood-cleanup/",
     "/service-areas/helena-ms/water-leak-detection/",
     "/service-areas/helena-ms/asbestos-abatement/",
-    "/service-areas/helena-ms/carpet-upholstery-cleaning/",
-    "/service-areas/helena-ms/contents-restoration-storage/",
     "/service-areas/helena-ms/contents-restoration/",
     "/service-areas/helena-ms/crawl-space-encapsulation/",
-    "/service-areas/helena-ms/vandalism-cleanup/",
     "/service-areas/helena-ms/carpet-cleaning/",
     "/service-areas/helena-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -2061,7 +1857,6 @@
     "/service-areas/hurley-ms/water-damage-restoration/",
     "/service-areas/hurley-ms/commercial-restoration/",
     "/service-areas/hurley-ms/emergency-plumbing/",
-    "/service-areas/hurley-ms/emergency-water-removal/",
     "/service-areas/hurley-ms/flood-damage-restoration/",
     "/service-areas/hurley-ms/reconstruction/",
     "/service-areas/hurley-ms/sewage-cleanup/",
@@ -2081,11 +1876,8 @@
     "/service-areas/hurley-ms/water-heater-flood-cleanup/",
     "/service-areas/hurley-ms/water-leak-detection/",
     "/service-areas/hurley-ms/asbestos-abatement/",
-    "/service-areas/hurley-ms/carpet-upholstery-cleaning/",
-    "/service-areas/hurley-ms/contents-restoration-storage/",
     "/service-areas/hurley-ms/contents-restoration/",
     "/service-areas/hurley-ms/crawl-space-encapsulation/",
-    "/service-areas/hurley-ms/vandalism-cleanup/",
     "/service-areas/hurley-ms/carpet-cleaning/",
     "/service-areas/hurley-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -2101,7 +1893,6 @@
     "/service-areas/moss-point-ms/water-damage-restoration/",
     "/service-areas/moss-point-ms/commercial-restoration/",
     "/service-areas/moss-point-ms/emergency-plumbing/",
-    "/service-areas/moss-point-ms/emergency-water-removal/",
     "/service-areas/moss-point-ms/flood-damage-restoration/",
     "/service-areas/moss-point-ms/reconstruction/",
     "/service-areas/moss-point-ms/sewage-cleanup/",
@@ -2121,11 +1912,8 @@
     "/service-areas/moss-point-ms/water-heater-flood-cleanup/",
     "/service-areas/moss-point-ms/water-leak-detection/",
     "/service-areas/moss-point-ms/asbestos-abatement/",
-    "/service-areas/moss-point-ms/carpet-upholstery-cleaning/",
-    "/service-areas/moss-point-ms/contents-restoration-storage/",
     "/service-areas/moss-point-ms/contents-restoration/",
     "/service-areas/moss-point-ms/crawl-space-encapsulation/",
-    "/service-areas/moss-point-ms/vandalism-cleanup/",
     "/service-areas/moss-point-ms/carpet-cleaning/",
     "/service-areas/moss-point-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -2141,7 +1929,6 @@
     "/service-areas/ocean-springs-ms/water-damage-restoration/",
     "/service-areas/ocean-springs-ms/commercial-restoration/",
     "/service-areas/ocean-springs-ms/emergency-plumbing/",
-    "/service-areas/ocean-springs-ms/emergency-water-removal/",
     "/service-areas/ocean-springs-ms/flood-damage-restoration/",
     "/service-areas/ocean-springs-ms/reconstruction/",
     "/service-areas/ocean-springs-ms/sewage-cleanup/",
@@ -2161,11 +1948,8 @@
     "/service-areas/ocean-springs-ms/water-heater-flood-cleanup/",
     "/service-areas/ocean-springs-ms/water-leak-detection/",
     "/service-areas/ocean-springs-ms/asbestos-abatement/",
-    "/service-areas/ocean-springs-ms/carpet-upholstery-cleaning/",
-    "/service-areas/ocean-springs-ms/contents-restoration-storage/",
     "/service-areas/ocean-springs-ms/contents-restoration/",
     "/service-areas/ocean-springs-ms/crawl-space-encapsulation/",
-    "/service-areas/ocean-springs-ms/vandalism-cleanup/",
     "/service-areas/ocean-springs-ms/carpet-cleaning/",
     "/service-areas/ocean-springs-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -2181,7 +1965,6 @@
     "/service-areas/pascagoula-ms/water-damage-restoration/",
     "/service-areas/pascagoula-ms/commercial-restoration/",
     "/service-areas/pascagoula-ms/emergency-plumbing/",
-    "/service-areas/pascagoula-ms/emergency-water-removal/",
     "/service-areas/pascagoula-ms/flood-damage-restoration/",
     "/service-areas/pascagoula-ms/reconstruction/",
     "/service-areas/pascagoula-ms/sewage-cleanup/",
@@ -2201,11 +1984,8 @@
     "/service-areas/pascagoula-ms/water-heater-flood-cleanup/",
     "/service-areas/pascagoula-ms/water-leak-detection/",
     "/service-areas/pascagoula-ms/asbestos-abatement/",
-    "/service-areas/pascagoula-ms/carpet-upholstery-cleaning/",
-    "/service-areas/pascagoula-ms/contents-restoration-storage/",
     "/service-areas/pascagoula-ms/contents-restoration/",
     "/service-areas/pascagoula-ms/crawl-space-encapsulation/",
-    "/service-areas/pascagoula-ms/vandalism-cleanup/",
     "/service-areas/pascagoula-ms/carpet-cleaning/",
     "/service-areas/pascagoula-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -2221,7 +2001,6 @@
     "/service-areas/vancleave-ms/water-damage-restoration/",
     "/service-areas/vancleave-ms/commercial-restoration/",
     "/service-areas/vancleave-ms/emergency-plumbing/",
-    "/service-areas/vancleave-ms/emergency-water-removal/",
     "/service-areas/vancleave-ms/flood-damage-restoration/",
     "/service-areas/vancleave-ms/reconstruction/",
     "/service-areas/vancleave-ms/sewage-cleanup/",
@@ -2241,11 +2020,8 @@
     "/service-areas/vancleave-ms/water-heater-flood-cleanup/",
     "/service-areas/vancleave-ms/water-leak-detection/",
     "/service-areas/vancleave-ms/asbestos-abatement/",
-    "/service-areas/vancleave-ms/carpet-upholstery-cleaning/",
-    "/service-areas/vancleave-ms/contents-restoration-storage/",
     "/service-areas/vancleave-ms/contents-restoration/",
     "/service-areas/vancleave-ms/crawl-space-encapsulation/",
-    "/service-areas/vancleave-ms/vandalism-cleanup/",
     "/service-areas/vancleave-ms/carpet-cleaning/",
     "/service-areas/vancleave-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -2261,7 +2037,6 @@
     "/service-areas/wade-ms/water-damage-restoration/",
     "/service-areas/wade-ms/commercial-restoration/",
     "/service-areas/wade-ms/emergency-plumbing/",
-    "/service-areas/wade-ms/emergency-water-removal/",
     "/service-areas/wade-ms/flood-damage-restoration/",
     "/service-areas/wade-ms/reconstruction/",
     "/service-areas/wade-ms/sewage-cleanup/",
@@ -2281,11 +2056,8 @@
     "/service-areas/wade-ms/water-heater-flood-cleanup/",
     "/service-areas/wade-ms/water-leak-detection/",
     "/service-areas/wade-ms/asbestos-abatement/",
-    "/service-areas/wade-ms/carpet-upholstery-cleaning/",
-    "/service-areas/wade-ms/contents-restoration-storage/",
     "/service-areas/wade-ms/contents-restoration/",
     "/service-areas/wade-ms/crawl-space-encapsulation/",
-    "/service-areas/wade-ms/vandalism-cleanup/",
     "/service-areas/wade-ms/carpet-cleaning/",
     "/service-areas/wade-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -2301,7 +2073,6 @@
     "/service-areas/agricola-ms/water-damage-restoration/",
     "/service-areas/agricola-ms/commercial-restoration/",
     "/service-areas/agricola-ms/emergency-plumbing/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
     "/service-areas/agricola-ms/flood-damage-restoration/",
     "/service-areas/agricola-ms/reconstruction/",
     "/service-areas/agricola-ms/sewage-cleanup/",
@@ -2321,11 +2092,8 @@
     "/service-areas/agricola-ms/water-heater-flood-cleanup/",
     "/service-areas/agricola-ms/water-leak-detection/",
     "/service-areas/agricola-ms/asbestos-abatement/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/agricola-ms/crawl-space-encapsulation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
     "/service-areas/agricola-ms/carpet-cleaning/",
     "/service-areas/agricola-ms/post-construction-cleaning/",
     "/service-areas/bay-st-louis-ms/",
@@ -2341,7 +2109,6 @@
     "/service-areas/benndale-ms/water-damage-restoration/",
     "/service-areas/benndale-ms/commercial-restoration/",
     "/service-areas/benndale-ms/emergency-plumbing/",
-    "/service-areas/benndale-ms/emergency-water-removal/",
     "/service-areas/benndale-ms/flood-damage-restoration/",
     "/service-areas/benndale-ms/reconstruction/",
     "/service-areas/benndale-ms/sewage-cleanup/",
@@ -2361,11 +2128,8 @@
     "/service-areas/benndale-ms/water-heater-flood-cleanup/",
     "/service-areas/benndale-ms/water-leak-detection/",
     "/service-areas/benndale-ms/asbestos-abatement/",
-    "/service-areas/benndale-ms/carpet-upholstery-cleaning/",
-    "/service-areas/benndale-ms/contents-restoration-storage/",
     "/service-areas/benndale-ms/contents-restoration/",
     "/service-areas/benndale-ms/crawl-space-encapsulation/",
-    "/service-areas/benndale-ms/vandalism-cleanup/",
     "/service-areas/benndale-ms/carpet-cleaning/",
     "/service-areas/benndale-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -2381,7 +2145,6 @@
     "/service-areas/lucedale-ms/water-damage-restoration/",
     "/service-areas/lucedale-ms/commercial-restoration/",
     "/service-areas/lucedale-ms/emergency-plumbing/",
-    "/service-areas/lucedale-ms/emergency-water-removal/",
     "/service-areas/lucedale-ms/flood-damage-restoration/",
     "/service-areas/lucedale-ms/reconstruction/",
     "/service-areas/lucedale-ms/sewage-cleanup/",
@@ -2401,11 +2164,8 @@
     "/service-areas/lucedale-ms/water-heater-flood-cleanup/",
     "/service-areas/lucedale-ms/water-leak-detection/",
     "/service-areas/lucedale-ms/asbestos-abatement/",
-    "/service-areas/lucedale-ms/carpet-upholstery-cleaning/",
-    "/service-areas/lucedale-ms/contents-restoration-storage/",
     "/service-areas/lucedale-ms/contents-restoration/",
     "/service-areas/lucedale-ms/crawl-space-encapsulation/",
-    "/service-areas/lucedale-ms/vandalism-cleanup/",
     "/service-areas/lucedale-ms/carpet-cleaning/",
     "/service-areas/lucedale-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -2421,7 +2181,6 @@
     "/service-areas/ellisville-ms/water-damage-restoration/",
     "/service-areas/ellisville-ms/commercial-restoration/",
     "/service-areas/ellisville-ms/emergency-plumbing/",
-    "/service-areas/ellisville-ms/emergency-water-removal/",
     "/service-areas/ellisville-ms/flood-damage-restoration/",
     "/service-areas/ellisville-ms/reconstruction/",
     "/service-areas/ellisville-ms/sewage-cleanup/",
@@ -2441,11 +2200,8 @@
     "/service-areas/ellisville-ms/water-heater-flood-cleanup/",
     "/service-areas/ellisville-ms/water-leak-detection/",
     "/service-areas/ellisville-ms/asbestos-abatement/",
-    "/service-areas/ellisville-ms/carpet-upholstery-cleaning/",
-    "/service-areas/ellisville-ms/contents-restoration-storage/",
     "/service-areas/ellisville-ms/contents-restoration/",
     "/service-areas/ellisville-ms/crawl-space-encapsulation/",
-    "/service-areas/ellisville-ms/vandalism-cleanup/",
     "/service-areas/ellisville-ms/carpet-cleaning/",
     "/service-areas/ellisville-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -2461,7 +2217,6 @@
     "/service-areas/laurel-ms/water-damage-restoration/",
     "/service-areas/laurel-ms/commercial-restoration/",
     "/service-areas/laurel-ms/emergency-plumbing/",
-    "/service-areas/laurel-ms/emergency-water-removal/",
     "/service-areas/laurel-ms/flood-damage-restoration/",
     "/service-areas/laurel-ms/reconstruction/",
     "/service-areas/laurel-ms/sewage-cleanup/",
@@ -2481,11 +2236,8 @@
     "/service-areas/laurel-ms/water-heater-flood-cleanup/",
     "/service-areas/laurel-ms/water-leak-detection/",
     "/service-areas/laurel-ms/asbestos-abatement/",
-    "/service-areas/laurel-ms/carpet-upholstery-cleaning/",
-    "/service-areas/laurel-ms/contents-restoration-storage/",
     "/service-areas/laurel-ms/contents-restoration/",
     "/service-areas/laurel-ms/crawl-space-encapsulation/",
-    "/service-areas/laurel-ms/vandalism-cleanup/",
     "/service-areas/laurel-ms/carpet-cleaning/",
     "/service-areas/laurel-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -2501,7 +2253,6 @@
     "/service-areas/moselle-ms/water-damage-restoration/",
     "/service-areas/moselle-ms/commercial-restoration/",
     "/service-areas/moselle-ms/emergency-plumbing/",
-    "/service-areas/moselle-ms/emergency-water-removal/",
     "/service-areas/moselle-ms/flood-damage-restoration/",
     "/service-areas/moselle-ms/reconstruction/",
     "/service-areas/moselle-ms/sewage-cleanup/",
@@ -2521,11 +2272,8 @@
     "/service-areas/moselle-ms/water-heater-flood-cleanup/",
     "/service-areas/moselle-ms/water-leak-detection/",
     "/service-areas/moselle-ms/asbestos-abatement/",
-    "/service-areas/moselle-ms/carpet-upholstery-cleaning/",
-    "/service-areas/moselle-ms/contents-restoration-storage/",
     "/service-areas/moselle-ms/contents-restoration/",
     "/service-areas/moselle-ms/crawl-space-encapsulation/",
-    "/service-areas/moselle-ms/vandalism-cleanup/",
     "/service-areas/moselle-ms/carpet-cleaning/",
     "/service-areas/moselle-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -2541,7 +2289,6 @@
     "/service-areas/ovett-ms/water-damage-restoration/",
     "/service-areas/ovett-ms/commercial-restoration/",
     "/service-areas/ovett-ms/emergency-plumbing/",
-    "/service-areas/ovett-ms/emergency-water-removal/",
     "/service-areas/ovett-ms/flood-damage-restoration/",
     "/service-areas/ovett-ms/reconstruction/",
     "/service-areas/ovett-ms/sewage-cleanup/",
@@ -2561,11 +2308,8 @@
     "/service-areas/ovett-ms/water-heater-flood-cleanup/",
     "/service-areas/ovett-ms/water-leak-detection/",
     "/service-areas/ovett-ms/asbestos-abatement/",
-    "/service-areas/ovett-ms/carpet-upholstery-cleaning/",
-    "/service-areas/ovett-ms/contents-restoration-storage/",
     "/service-areas/ovett-ms/contents-restoration/",
     "/service-areas/ovett-ms/crawl-space-encapsulation/",
-    "/service-areas/ovett-ms/vandalism-cleanup/",
     "/service-areas/ovett-ms/carpet-cleaning/",
     "/service-areas/ovett-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -2581,7 +2325,6 @@
     "/service-areas/sandersville-ms/water-damage-restoration/",
     "/service-areas/sandersville-ms/commercial-restoration/",
     "/service-areas/sandersville-ms/emergency-plumbing/",
-    "/service-areas/sandersville-ms/emergency-water-removal/",
     "/service-areas/sandersville-ms/flood-damage-restoration/",
     "/service-areas/sandersville-ms/reconstruction/",
     "/service-areas/sandersville-ms/sewage-cleanup/",
@@ -2601,11 +2344,8 @@
     "/service-areas/sandersville-ms/water-heater-flood-cleanup/",
     "/service-areas/sandersville-ms/water-leak-detection/",
     "/service-areas/sandersville-ms/asbestos-abatement/",
-    "/service-areas/sandersville-ms/carpet-upholstery-cleaning/",
-    "/service-areas/sandersville-ms/contents-restoration-storage/",
     "/service-areas/sandersville-ms/contents-restoration/",
     "/service-areas/sandersville-ms/crawl-space-encapsulation/",
-    "/service-areas/sandersville-ms/vandalism-cleanup/",
     "/service-areas/sandersville-ms/carpet-cleaning/",
     "/service-areas/sandersville-ms/post-construction-cleaning/",
     "/service-areas/agricola-ms/",
@@ -2639,15 +2379,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/eastabuchie-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/eastabuchie-ms/",
-    "/service-areas/eastabuchie-ms/fire-damage-restoration/",
-    "/service-areas/eastabuchie-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/eastabuchie-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/eastabuchie-ms/",
@@ -2655,15 +2386,6 @@
     "/service-areas/eastabuchie-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/eastabuchie-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/eastabuchie-ms/",
-    "/service-areas/eastabuchie-ms/fire-damage-restoration/",
-    "/service-areas/eastabuchie-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/eastabuchie-ms/crawl-space-encapsulation/": [
@@ -2754,15 +2476,6 @@
     "/service-areas/eastabuchie-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/eastabuchie-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/eastabuchie-ms/",
-    "/service-areas/eastabuchie-ms/fire-damage-restoration/",
-    "/service-areas/eastabuchie-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/eastabuchie-ms/water-damage-restoration/": [
@@ -2891,15 +2604,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/eastabuchie-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/eastabuchie-ms/",
-    "/service-areas/eastabuchie-ms/fire-damage-restoration/",
-    "/service-areas/eastabuchie-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/eastabuchie-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/eastabuchie-ms/",
@@ -2936,15 +2640,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/hattiesburg-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/hattiesburg-ms/",
-    "/service-areas/hattiesburg-ms/fire-damage-restoration/",
-    "/service-areas/hattiesburg-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/hattiesburg-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/hattiesburg-ms/",
@@ -2952,15 +2647,6 @@
     "/service-areas/hattiesburg-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/hattiesburg-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/hattiesburg-ms/",
-    "/service-areas/hattiesburg-ms/fire-damage-restoration/",
-    "/service-areas/hattiesburg-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/hattiesburg-ms/crawl-space-encapsulation/": [
@@ -3051,15 +2737,6 @@
     "/service-areas/hattiesburg-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/hattiesburg-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/hattiesburg-ms/",
-    "/service-areas/hattiesburg-ms/fire-damage-restoration/",
-    "/service-areas/hattiesburg-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/hattiesburg-ms/water-damage-restoration/": [
@@ -3188,15 +2865,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/hattiesburg-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/hattiesburg-ms/",
-    "/service-areas/hattiesburg-ms/fire-damage-restoration/",
-    "/service-areas/hattiesburg-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/hattiesburg-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/hattiesburg-ms/",
@@ -3233,15 +2901,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/petal-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/petal-ms/",
-    "/service-areas/petal-ms/fire-damage-restoration/",
-    "/service-areas/petal-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/petal-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/petal-ms/",
@@ -3249,15 +2908,6 @@
     "/service-areas/petal-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/petal-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/petal-ms/",
-    "/service-areas/petal-ms/fire-damage-restoration/",
-    "/service-areas/petal-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/petal-ms/crawl-space-encapsulation/": [
@@ -3348,15 +2998,6 @@
     "/service-areas/petal-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/petal-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/petal-ms/",
-    "/service-areas/petal-ms/fire-damage-restoration/",
-    "/service-areas/petal-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/petal-ms/water-damage-restoration/": [
@@ -3485,15 +3126,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/petal-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/petal-ms/",
-    "/service-areas/petal-ms/fire-damage-restoration/",
-    "/service-areas/petal-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/petal-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/petal-ms/",
@@ -3530,15 +3162,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/rawls-springs-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/rawls-springs-ms/",
-    "/service-areas/rawls-springs-ms/fire-damage-restoration/",
-    "/service-areas/rawls-springs-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/rawls-springs-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/rawls-springs-ms/",
@@ -3546,15 +3169,6 @@
     "/service-areas/rawls-springs-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/rawls-springs-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/rawls-springs-ms/",
-    "/service-areas/rawls-springs-ms/fire-damage-restoration/",
-    "/service-areas/rawls-springs-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/rawls-springs-ms/crawl-space-encapsulation/": [
@@ -3645,15 +3259,6 @@
     "/service-areas/rawls-springs-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/rawls-springs-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/rawls-springs-ms/",
-    "/service-areas/rawls-springs-ms/fire-damage-restoration/",
-    "/service-areas/rawls-springs-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/rawls-springs-ms/water-damage-restoration/": [
@@ -3782,15 +3387,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/rawls-springs-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/rawls-springs-ms/",
-    "/service-areas/rawls-springs-ms/fire-damage-restoration/",
-    "/service-areas/rawls-springs-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/rawls-springs-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/rawls-springs-ms/",
@@ -3827,15 +3423,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/leakesville-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/leakesville-ms/",
-    "/service-areas/leakesville-ms/fire-damage-restoration/",
-    "/service-areas/leakesville-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/leakesville-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/leakesville-ms/",
@@ -3843,15 +3430,6 @@
     "/service-areas/leakesville-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/leakesville-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/leakesville-ms/",
-    "/service-areas/leakesville-ms/fire-damage-restoration/",
-    "/service-areas/leakesville-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/leakesville-ms/crawl-space-encapsulation/": [
@@ -3942,15 +3520,6 @@
     "/service-areas/leakesville-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/leakesville-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/leakesville-ms/",
-    "/service-areas/leakesville-ms/fire-damage-restoration/",
-    "/service-areas/leakesville-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/leakesville-ms/water-damage-restoration/": [
@@ -4079,15 +3648,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/leakesville-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/leakesville-ms/",
-    "/service-areas/leakesville-ms/fire-damage-restoration/",
-    "/service-areas/leakesville-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/leakesville-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/leakesville-ms/",
@@ -4124,15 +3684,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/mclain-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/mclain-ms/",
-    "/service-areas/mclain-ms/fire-damage-restoration/",
-    "/service-areas/mclain-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/mclain-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/mclain-ms/",
@@ -4140,15 +3691,6 @@
     "/service-areas/mclain-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/mclain-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/mclain-ms/",
-    "/service-areas/mclain-ms/fire-damage-restoration/",
-    "/service-areas/mclain-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/mclain-ms/crawl-space-encapsulation/": [
@@ -4239,15 +3781,6 @@
     "/service-areas/mclain-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/mclain-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/mclain-ms/",
-    "/service-areas/mclain-ms/fire-damage-restoration/",
-    "/service-areas/mclain-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/mclain-ms/water-damage-restoration/": [
@@ -4376,15 +3909,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/mclain-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/mclain-ms/",
-    "/service-areas/mclain-ms/fire-damage-restoration/",
-    "/service-areas/mclain-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/mclain-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/mclain-ms/",
@@ -4421,15 +3945,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/state-line-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/state-line-ms/",
-    "/service-areas/state-line-ms/fire-damage-restoration/",
-    "/service-areas/state-line-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/state-line-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/state-line-ms/",
@@ -4437,15 +3952,6 @@
     "/service-areas/state-line-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/state-line-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/state-line-ms/",
-    "/service-areas/state-line-ms/fire-damage-restoration/",
-    "/service-areas/state-line-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/state-line-ms/crawl-space-encapsulation/": [
@@ -4536,15 +4042,6 @@
     "/service-areas/state-line-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/state-line-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/state-line-ms/",
-    "/service-areas/state-line-ms/fire-damage-restoration/",
-    "/service-areas/state-line-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/state-line-ms/water-damage-restoration/": [
@@ -4673,15 +4170,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/state-line-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/state-line-ms/",
-    "/service-areas/state-line-ms/fire-damage-restoration/",
-    "/service-areas/state-line-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/state-line-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/state-line-ms/",
@@ -4718,15 +4206,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/biloxi-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/biloxi-ms/",
-    "/service-areas/biloxi-ms/fire-damage-restoration/",
-    "/service-areas/biloxi-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/biloxi-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/biloxi-ms/",
@@ -4734,15 +4213,6 @@
     "/service-areas/biloxi-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/biloxi-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/biloxi-ms/",
-    "/service-areas/biloxi-ms/fire-damage-restoration/",
-    "/service-areas/biloxi-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/biloxi-ms/crawl-space-encapsulation/": [
@@ -4833,15 +4303,6 @@
     "/service-areas/biloxi-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/biloxi-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/biloxi-ms/",
-    "/service-areas/biloxi-ms/fire-damage-restoration/",
-    "/service-areas/biloxi-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/biloxi-ms/water-damage-restoration/": [
@@ -4970,15 +4431,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/biloxi-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/biloxi-ms/",
-    "/service-areas/biloxi-ms/fire-damage-restoration/",
-    "/service-areas/biloxi-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/biloxi-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/biloxi-ms/",
@@ -5015,15 +4467,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/d-iberville-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/d-iberville-ms/",
-    "/service-areas/d-iberville-ms/fire-damage-restoration/",
-    "/service-areas/d-iberville-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/d-iberville-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/d-iberville-ms/",
@@ -5031,15 +4474,6 @@
     "/service-areas/d-iberville-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/d-iberville-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/d-iberville-ms/",
-    "/service-areas/d-iberville-ms/fire-damage-restoration/",
-    "/service-areas/d-iberville-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/d-iberville-ms/crawl-space-encapsulation/": [
@@ -5130,15 +4564,6 @@
     "/service-areas/d-iberville-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/d-iberville-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/d-iberville-ms/",
-    "/service-areas/d-iberville-ms/fire-damage-restoration/",
-    "/service-areas/d-iberville-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/d-iberville-ms/water-damage-restoration/": [
@@ -5267,15 +4692,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/d-iberville-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/d-iberville-ms/",
-    "/service-areas/d-iberville-ms/fire-damage-restoration/",
-    "/service-areas/d-iberville-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/d-iberville-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/d-iberville-ms/",
@@ -5312,15 +4728,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/delisle-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/delisle-ms/",
-    "/service-areas/delisle-ms/fire-damage-restoration/",
-    "/service-areas/delisle-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/delisle-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/delisle-ms/",
@@ -5328,15 +4735,6 @@
     "/service-areas/delisle-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/delisle-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/delisle-ms/",
-    "/service-areas/delisle-ms/fire-damage-restoration/",
-    "/service-areas/delisle-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/delisle-ms/crawl-space-encapsulation/": [
@@ -5427,15 +4825,6 @@
     "/service-areas/delisle-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/delisle-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/delisle-ms/",
-    "/service-areas/delisle-ms/fire-damage-restoration/",
-    "/service-areas/delisle-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/delisle-ms/water-damage-restoration/": [
@@ -5564,15 +4953,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/delisle-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/delisle-ms/",
-    "/service-areas/delisle-ms/fire-damage-restoration/",
-    "/service-areas/delisle-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/delisle-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/delisle-ms/",
@@ -5609,15 +4989,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/diamondhead-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/diamondhead-ms/",
-    "/service-areas/diamondhead-ms/fire-damage-restoration/",
-    "/service-areas/diamondhead-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/diamondhead-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/diamondhead-ms/",
@@ -5625,15 +4996,6 @@
     "/service-areas/diamondhead-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/diamondhead-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/diamondhead-ms/",
-    "/service-areas/diamondhead-ms/fire-damage-restoration/",
-    "/service-areas/diamondhead-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/diamondhead-ms/crawl-space-encapsulation/": [
@@ -5724,15 +5086,6 @@
     "/service-areas/diamondhead-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/diamondhead-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/diamondhead-ms/",
-    "/service-areas/diamondhead-ms/fire-damage-restoration/",
-    "/service-areas/diamondhead-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/diamondhead-ms/water-damage-restoration/": [
@@ -5861,15 +5214,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/diamondhead-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/diamondhead-ms/",
-    "/service-areas/diamondhead-ms/fire-damage-restoration/",
-    "/service-areas/diamondhead-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/diamondhead-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/diamondhead-ms/",
@@ -5906,15 +5250,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/henderson-point-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/henderson-point-ms/",
-    "/service-areas/henderson-point-ms/fire-damage-restoration/",
-    "/service-areas/henderson-point-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/henderson-point-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/henderson-point-ms/",
@@ -5922,15 +5257,6 @@
     "/service-areas/henderson-point-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/henderson-point-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/henderson-point-ms/",
-    "/service-areas/henderson-point-ms/fire-damage-restoration/",
-    "/service-areas/henderson-point-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/henderson-point-ms/crawl-space-encapsulation/": [
@@ -6021,15 +5347,6 @@
     "/service-areas/henderson-point-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/henderson-point-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/henderson-point-ms/",
-    "/service-areas/henderson-point-ms/fire-damage-restoration/",
-    "/service-areas/henderson-point-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/henderson-point-ms/water-damage-restoration/": [
@@ -6158,15 +5475,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/henderson-point-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/henderson-point-ms/",
-    "/service-areas/henderson-point-ms/fire-damage-restoration/",
-    "/service-areas/henderson-point-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/henderson-point-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/henderson-point-ms/",
@@ -6203,15 +5511,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/latimer-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/latimer-ms/",
-    "/service-areas/latimer-ms/fire-damage-restoration/",
-    "/service-areas/latimer-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/latimer-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/latimer-ms/",
@@ -6219,15 +5518,6 @@
     "/service-areas/latimer-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/latimer-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/latimer-ms/",
-    "/service-areas/latimer-ms/fire-damage-restoration/",
-    "/service-areas/latimer-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/latimer-ms/crawl-space-encapsulation/": [
@@ -6318,15 +5608,6 @@
     "/service-areas/latimer-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/latimer-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/latimer-ms/",
-    "/service-areas/latimer-ms/fire-damage-restoration/",
-    "/service-areas/latimer-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/latimer-ms/water-damage-restoration/": [
@@ -6455,15 +5736,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/latimer-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/latimer-ms/",
-    "/service-areas/latimer-ms/fire-damage-restoration/",
-    "/service-areas/latimer-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/latimer-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/latimer-ms/",
@@ -6500,15 +5772,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/long-beach-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/long-beach-ms/",
-    "/service-areas/long-beach-ms/fire-damage-restoration/",
-    "/service-areas/long-beach-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/long-beach-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/long-beach-ms/",
@@ -6516,15 +5779,6 @@
     "/service-areas/long-beach-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/long-beach-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/long-beach-ms/",
-    "/service-areas/long-beach-ms/fire-damage-restoration/",
-    "/service-areas/long-beach-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/long-beach-ms/crawl-space-encapsulation/": [
@@ -6615,15 +5869,6 @@
     "/service-areas/long-beach-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/long-beach-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/long-beach-ms/",
-    "/service-areas/long-beach-ms/fire-damage-restoration/",
-    "/service-areas/long-beach-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/long-beach-ms/water-damage-restoration/": [
@@ -6752,15 +5997,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/long-beach-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/long-beach-ms/",
-    "/service-areas/long-beach-ms/fire-damage-restoration/",
-    "/service-areas/long-beach-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/long-beach-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/long-beach-ms/",
@@ -6797,15 +6033,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/lyman-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/lyman-ms/",
-    "/service-areas/lyman-ms/fire-damage-restoration/",
-    "/service-areas/lyman-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/lyman-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/lyman-ms/",
@@ -6813,15 +6040,6 @@
     "/service-areas/lyman-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/lyman-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/lyman-ms/",
-    "/service-areas/lyman-ms/fire-damage-restoration/",
-    "/service-areas/lyman-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/lyman-ms/crawl-space-encapsulation/": [
@@ -6912,15 +6130,6 @@
     "/service-areas/lyman-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/lyman-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/lyman-ms/",
-    "/service-areas/lyman-ms/fire-damage-restoration/",
-    "/service-areas/lyman-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/lyman-ms/water-damage-restoration/": [
@@ -7049,15 +6258,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/lyman-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/lyman-ms/",
-    "/service-areas/lyman-ms/fire-damage-restoration/",
-    "/service-areas/lyman-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/lyman-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/lyman-ms/",
@@ -7094,15 +6294,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/pass-christian-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/pass-christian-ms/",
-    "/service-areas/pass-christian-ms/fire-damage-restoration/",
-    "/service-areas/pass-christian-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/pass-christian-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/pass-christian-ms/",
@@ -7110,15 +6301,6 @@
     "/service-areas/pass-christian-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/pass-christian-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/pass-christian-ms/",
-    "/service-areas/pass-christian-ms/fire-damage-restoration/",
-    "/service-areas/pass-christian-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/pass-christian-ms/crawl-space-encapsulation/": [
@@ -7209,15 +6391,6 @@
     "/service-areas/pass-christian-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/pass-christian-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/pass-christian-ms/",
-    "/service-areas/pass-christian-ms/fire-damage-restoration/",
-    "/service-areas/pass-christian-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/pass-christian-ms/water-damage-restoration/": [
@@ -7346,15 +6519,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/pass-christian-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/pass-christian-ms/",
-    "/service-areas/pass-christian-ms/fire-damage-restoration/",
-    "/service-areas/pass-christian-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/pass-christian-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/pass-christian-ms/",
@@ -7391,15 +6555,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/saucier-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/saucier-ms/",
-    "/service-areas/saucier-ms/fire-damage-restoration/",
-    "/service-areas/saucier-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/saucier-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/saucier-ms/",
@@ -7407,15 +6562,6 @@
     "/service-areas/saucier-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/saucier-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/saucier-ms/",
-    "/service-areas/saucier-ms/fire-damage-restoration/",
-    "/service-areas/saucier-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/saucier-ms/crawl-space-encapsulation/": [
@@ -7506,15 +6652,6 @@
     "/service-areas/saucier-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/saucier-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/saucier-ms/",
-    "/service-areas/saucier-ms/fire-damage-restoration/",
-    "/service-areas/saucier-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/saucier-ms/water-damage-restoration/": [
@@ -7643,15 +6780,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/saucier-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/saucier-ms/",
-    "/service-areas/saucier-ms/fire-damage-restoration/",
-    "/service-areas/saucier-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/saucier-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/saucier-ms/",
@@ -7688,15 +6816,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/st-martin-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/st-martin-ms/",
-    "/service-areas/st-martin-ms/fire-damage-restoration/",
-    "/service-areas/st-martin-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/st-martin-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/st-martin-ms/",
@@ -7704,15 +6823,6 @@
     "/service-areas/st-martin-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/st-martin-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/st-martin-ms/",
-    "/service-areas/st-martin-ms/fire-damage-restoration/",
-    "/service-areas/st-martin-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/st-martin-ms/crawl-space-encapsulation/": [
@@ -7803,15 +6913,6 @@
     "/service-areas/st-martin-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/st-martin-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/st-martin-ms/",
-    "/service-areas/st-martin-ms/fire-damage-restoration/",
-    "/service-areas/st-martin-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/st-martin-ms/water-damage-restoration/": [
@@ -7940,15 +7041,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/st-martin-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/st-martin-ms/",
-    "/service-areas/st-martin-ms/fire-damage-restoration/",
-    "/service-areas/st-martin-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/st-martin-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/st-martin-ms/",
@@ -7985,15 +7077,6 @@
     "/service-areas/benndale-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/",
-    "/service-areas/bay-st-louis-ms/fire-damage-restoration/",
-    "/service-areas/bay-st-louis-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/benndale-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/bay-st-louis-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/bay-st-louis-ms/",
@@ -8001,15 +7084,6 @@
     "/service-areas/bay-st-louis-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/benndale-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/bay-st-louis-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/",
-    "/service-areas/bay-st-louis-ms/fire-damage-restoration/",
-    "/service-areas/bay-st-louis-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/benndale-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/bay-st-louis-ms/crawl-space-encapsulation/": [
@@ -8100,15 +7174,6 @@
     "/service-areas/bay-st-louis-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/benndale-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/bay-st-louis-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/",
-    "/service-areas/bay-st-louis-ms/fire-damage-restoration/",
-    "/service-areas/bay-st-louis-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/benndale-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/bay-st-louis-ms/water-damage-restoration/": [
@@ -8237,15 +7302,6 @@
     "/service-areas/benndale-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/bay-st-louis-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/",
-    "/service-areas/bay-st-louis-ms/fire-damage-restoration/",
-    "/service-areas/bay-st-louis-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/benndale-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/bay-st-louis-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/bay-st-louis-ms/",
@@ -8282,15 +7338,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/kiln-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/kiln-ms/",
-    "/service-areas/kiln-ms/fire-damage-restoration/",
-    "/service-areas/kiln-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/kiln-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/kiln-ms/",
@@ -8298,15 +7345,6 @@
     "/service-areas/kiln-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/kiln-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/kiln-ms/",
-    "/service-areas/kiln-ms/fire-damage-restoration/",
-    "/service-areas/kiln-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/kiln-ms/crawl-space-encapsulation/": [
@@ -8397,15 +7435,6 @@
     "/service-areas/kiln-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/kiln-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/kiln-ms/",
-    "/service-areas/kiln-ms/fire-damage-restoration/",
-    "/service-areas/kiln-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/kiln-ms/water-damage-restoration/": [
@@ -8534,15 +7563,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/kiln-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/kiln-ms/",
-    "/service-areas/kiln-ms/fire-damage-restoration/",
-    "/service-areas/kiln-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/kiln-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/kiln-ms/",
@@ -8579,15 +7599,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/pearlington-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/pearlington-ms/",
-    "/service-areas/pearlington-ms/fire-damage-restoration/",
-    "/service-areas/pearlington-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/pearlington-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/pearlington-ms/",
@@ -8595,15 +7606,6 @@
     "/service-areas/pearlington-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/pearlington-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/pearlington-ms/",
-    "/service-areas/pearlington-ms/fire-damage-restoration/",
-    "/service-areas/pearlington-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/pearlington-ms/crawl-space-encapsulation/": [
@@ -8694,15 +7696,6 @@
     "/service-areas/pearlington-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/pearlington-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/pearlington-ms/",
-    "/service-areas/pearlington-ms/fire-damage-restoration/",
-    "/service-areas/pearlington-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/pearlington-ms/water-damage-restoration/": [
@@ -8831,15 +7824,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/pearlington-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/pearlington-ms/",
-    "/service-areas/pearlington-ms/fire-damage-restoration/",
-    "/service-areas/pearlington-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/pearlington-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/pearlington-ms/",
@@ -8876,15 +7860,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/picayune-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/picayune-ms/",
-    "/service-areas/picayune-ms/fire-damage-restoration/",
-    "/service-areas/picayune-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/picayune-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/picayune-ms/",
@@ -8892,15 +7867,6 @@
     "/service-areas/picayune-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/picayune-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/picayune-ms/",
-    "/service-areas/picayune-ms/fire-damage-restoration/",
-    "/service-areas/picayune-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/picayune-ms/crawl-space-encapsulation/": [
@@ -8991,15 +7957,6 @@
     "/service-areas/picayune-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/picayune-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/picayune-ms/",
-    "/service-areas/picayune-ms/fire-damage-restoration/",
-    "/service-areas/picayune-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/picayune-ms/water-damage-restoration/": [
@@ -9128,15 +8085,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/picayune-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/picayune-ms/",
-    "/service-areas/picayune-ms/fire-damage-restoration/",
-    "/service-areas/picayune-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/picayune-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/picayune-ms/",
@@ -9173,15 +8121,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/waveland-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/waveland-ms/",
-    "/service-areas/waveland-ms/fire-damage-restoration/",
-    "/service-areas/waveland-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/waveland-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/waveland-ms/",
@@ -9189,15 +8128,6 @@
     "/service-areas/waveland-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/waveland-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/waveland-ms/",
-    "/service-areas/waveland-ms/fire-damage-restoration/",
-    "/service-areas/waveland-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/waveland-ms/crawl-space-encapsulation/": [
@@ -9288,15 +8218,6 @@
     "/service-areas/waveland-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/waveland-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/waveland-ms/",
-    "/service-areas/waveland-ms/fire-damage-restoration/",
-    "/service-areas/waveland-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/waveland-ms/water-damage-restoration/": [
@@ -9425,15 +8346,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/waveland-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/waveland-ms/",
-    "/service-areas/waveland-ms/fire-damage-restoration/",
-    "/service-areas/waveland-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/waveland-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/waveland-ms/",
@@ -9470,15 +8382,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/wiggins-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/wiggins-ms/",
-    "/service-areas/wiggins-ms/fire-damage-restoration/",
-    "/service-areas/wiggins-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/wiggins-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/wiggins-ms/",
@@ -9486,15 +8389,6 @@
     "/service-areas/wiggins-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/wiggins-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/wiggins-ms/",
-    "/service-areas/wiggins-ms/fire-damage-restoration/",
-    "/service-areas/wiggins-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/wiggins-ms/crawl-space-encapsulation/": [
@@ -9585,15 +8479,6 @@
     "/service-areas/wiggins-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/wiggins-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/wiggins-ms/",
-    "/service-areas/wiggins-ms/fire-damage-restoration/",
-    "/service-areas/wiggins-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/wiggins-ms/water-damage-restoration/": [
@@ -9722,15 +8607,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/wiggins-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/wiggins-ms/",
-    "/service-areas/wiggins-ms/fire-damage-restoration/",
-    "/service-areas/wiggins-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/wiggins-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/wiggins-ms/",
@@ -9767,15 +8643,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/hide-a-way-lake-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/hide-a-way-lake-ms/",
-    "/service-areas/hide-a-way-lake-ms/fire-damage-restoration/",
-    "/service-areas/hide-a-way-lake-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/hide-a-way-lake-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/hide-a-way-lake-ms/",
@@ -9783,15 +8650,6 @@
     "/service-areas/hide-a-way-lake-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/hide-a-way-lake-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/hide-a-way-lake-ms/",
-    "/service-areas/hide-a-way-lake-ms/fire-damage-restoration/",
-    "/service-areas/hide-a-way-lake-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/hide-a-way-lake-ms/crawl-space-encapsulation/": [
@@ -9882,15 +8740,6 @@
     "/service-areas/hide-a-way-lake-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/hide-a-way-lake-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/hide-a-way-lake-ms/",
-    "/service-areas/hide-a-way-lake-ms/fire-damage-restoration/",
-    "/service-areas/hide-a-way-lake-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/hide-a-way-lake-ms/water-damage-restoration/": [
@@ -10019,15 +8868,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/hide-a-way-lake-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/hide-a-way-lake-ms/",
-    "/service-areas/hide-a-way-lake-ms/fire-damage-restoration/",
-    "/service-areas/hide-a-way-lake-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/hide-a-way-lake-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/hide-a-way-lake-ms/",
@@ -10064,15 +8904,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/lumberton-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/lumberton-ms/",
-    "/service-areas/lumberton-ms/fire-damage-restoration/",
-    "/service-areas/lumberton-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/lumberton-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/lumberton-ms/",
@@ -10080,15 +8911,6 @@
     "/service-areas/lumberton-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/lumberton-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/lumberton-ms/",
-    "/service-areas/lumberton-ms/fire-damage-restoration/",
-    "/service-areas/lumberton-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/lumberton-ms/crawl-space-encapsulation/": [
@@ -10179,15 +9001,6 @@
     "/service-areas/lumberton-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/lumberton-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/lumberton-ms/",
-    "/service-areas/lumberton-ms/fire-damage-restoration/",
-    "/service-areas/lumberton-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/lumberton-ms/water-damage-restoration/": [
@@ -10316,15 +9129,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/lumberton-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/lumberton-ms/",
-    "/service-areas/lumberton-ms/fire-damage-restoration/",
-    "/service-areas/lumberton-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/lumberton-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/lumberton-ms/",
@@ -10361,15 +9165,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/poplarville-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/poplarville-ms/",
-    "/service-areas/poplarville-ms/fire-damage-restoration/",
-    "/service-areas/poplarville-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/poplarville-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/poplarville-ms/",
@@ -10377,15 +9172,6 @@
     "/service-areas/poplarville-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/poplarville-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/poplarville-ms/",
-    "/service-areas/poplarville-ms/fire-damage-restoration/",
-    "/service-areas/poplarville-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/poplarville-ms/crawl-space-encapsulation/": [
@@ -10476,15 +9262,6 @@
     "/service-areas/poplarville-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/poplarville-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/poplarville-ms/",
-    "/service-areas/poplarville-ms/fire-damage-restoration/",
-    "/service-areas/poplarville-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/poplarville-ms/water-damage-restoration/": [
@@ -10613,15 +9390,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/poplarville-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/poplarville-ms/",
-    "/service-areas/poplarville-ms/fire-damage-restoration/",
-    "/service-areas/poplarville-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/poplarville-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/poplarville-ms/",
@@ -10658,15 +9426,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/big-point-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/big-point-ms/",
-    "/service-areas/big-point-ms/fire-damage-restoration/",
-    "/service-areas/big-point-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/big-point-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/big-point-ms/",
@@ -10674,15 +9433,6 @@
     "/service-areas/big-point-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/big-point-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/big-point-ms/",
-    "/service-areas/big-point-ms/fire-damage-restoration/",
-    "/service-areas/big-point-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/big-point-ms/crawl-space-encapsulation/": [
@@ -10773,15 +9523,6 @@
     "/service-areas/big-point-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/big-point-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/big-point-ms/",
-    "/service-areas/big-point-ms/fire-damage-restoration/",
-    "/service-areas/big-point-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/big-point-ms/water-damage-restoration/": [
@@ -10910,15 +9651,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/big-point-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/big-point-ms/",
-    "/service-areas/big-point-ms/fire-damage-restoration/",
-    "/service-areas/big-point-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/big-point-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/big-point-ms/",
@@ -10955,15 +9687,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/escatawpa-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/escatawpa-ms/",
-    "/service-areas/escatawpa-ms/fire-damage-restoration/",
-    "/service-areas/escatawpa-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/escatawpa-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/escatawpa-ms/",
@@ -10971,15 +9694,6 @@
     "/service-areas/escatawpa-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/escatawpa-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/escatawpa-ms/",
-    "/service-areas/escatawpa-ms/fire-damage-restoration/",
-    "/service-areas/escatawpa-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/escatawpa-ms/crawl-space-encapsulation/": [
@@ -11070,15 +9784,6 @@
     "/service-areas/escatawpa-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/escatawpa-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/escatawpa-ms/",
-    "/service-areas/escatawpa-ms/fire-damage-restoration/",
-    "/service-areas/escatawpa-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/escatawpa-ms/water-damage-restoration/": [
@@ -11207,15 +9912,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/escatawpa-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/escatawpa-ms/",
-    "/service-areas/escatawpa-ms/fire-damage-restoration/",
-    "/service-areas/escatawpa-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/escatawpa-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/escatawpa-ms/",
@@ -11252,15 +9948,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/gautier-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/gautier-ms/",
-    "/service-areas/gautier-ms/fire-damage-restoration/",
-    "/service-areas/gautier-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/gautier-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/gautier-ms/",
@@ -11268,15 +9955,6 @@
     "/service-areas/gautier-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/gautier-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/gautier-ms/",
-    "/service-areas/gautier-ms/fire-damage-restoration/",
-    "/service-areas/gautier-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/gautier-ms/crawl-space-encapsulation/": [
@@ -11367,15 +10045,6 @@
     "/service-areas/gautier-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/gautier-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/gautier-ms/",
-    "/service-areas/gautier-ms/fire-damage-restoration/",
-    "/service-areas/gautier-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/gautier-ms/water-damage-restoration/": [
@@ -11504,15 +10173,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/gautier-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/gautier-ms/",
-    "/service-areas/gautier-ms/fire-damage-restoration/",
-    "/service-areas/gautier-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/gautier-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/gautier-ms/",
@@ -11549,15 +10209,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/gulf-hills-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/gulf-hills-ms/",
-    "/service-areas/gulf-hills-ms/fire-damage-restoration/",
-    "/service-areas/gulf-hills-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/gulf-hills-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/gulf-hills-ms/",
@@ -11565,15 +10216,6 @@
     "/service-areas/gulf-hills-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/gulf-hills-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/gulf-hills-ms/",
-    "/service-areas/gulf-hills-ms/fire-damage-restoration/",
-    "/service-areas/gulf-hills-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/gulf-hills-ms/crawl-space-encapsulation/": [
@@ -11664,15 +10306,6 @@
     "/service-areas/gulf-hills-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/gulf-hills-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/gulf-hills-ms/",
-    "/service-areas/gulf-hills-ms/fire-damage-restoration/",
-    "/service-areas/gulf-hills-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/gulf-hills-ms/water-damage-restoration/": [
@@ -11801,15 +10434,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/gulf-hills-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/gulf-hills-ms/",
-    "/service-areas/gulf-hills-ms/fire-damage-restoration/",
-    "/service-areas/gulf-hills-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/gulf-hills-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/gulf-hills-ms/",
@@ -11846,15 +10470,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/gulf-park-estates-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/gulf-park-estates-ms/",
-    "/service-areas/gulf-park-estates-ms/fire-damage-restoration/",
-    "/service-areas/gulf-park-estates-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/gulf-park-estates-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/gulf-park-estates-ms/",
@@ -11862,15 +10477,6 @@
     "/service-areas/gulf-park-estates-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/gulf-park-estates-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/gulf-park-estates-ms/",
-    "/service-areas/gulf-park-estates-ms/fire-damage-restoration/",
-    "/service-areas/gulf-park-estates-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/gulf-park-estates-ms/crawl-space-encapsulation/": [
@@ -11961,15 +10567,6 @@
     "/service-areas/gulf-park-estates-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/gulf-park-estates-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/gulf-park-estates-ms/",
-    "/service-areas/gulf-park-estates-ms/fire-damage-restoration/",
-    "/service-areas/gulf-park-estates-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/gulf-park-estates-ms/water-damage-restoration/": [
@@ -12098,15 +10695,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/gulf-park-estates-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/gulf-park-estates-ms/",
-    "/service-areas/gulf-park-estates-ms/fire-damage-restoration/",
-    "/service-areas/gulf-park-estates-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/gulf-park-estates-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/gulf-park-estates-ms/",
@@ -12143,15 +10731,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/helena-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/helena-ms/",
-    "/service-areas/helena-ms/fire-damage-restoration/",
-    "/service-areas/helena-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/helena-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/helena-ms/",
@@ -12159,15 +10738,6 @@
     "/service-areas/helena-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/helena-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/helena-ms/",
-    "/service-areas/helena-ms/fire-damage-restoration/",
-    "/service-areas/helena-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/helena-ms/crawl-space-encapsulation/": [
@@ -12258,15 +10828,6 @@
     "/service-areas/helena-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/helena-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/helena-ms/",
-    "/service-areas/helena-ms/fire-damage-restoration/",
-    "/service-areas/helena-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/helena-ms/water-damage-restoration/": [
@@ -12395,15 +10956,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/helena-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/helena-ms/",
-    "/service-areas/helena-ms/fire-damage-restoration/",
-    "/service-areas/helena-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/helena-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/helena-ms/",
@@ -12440,15 +10992,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/hurley-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/hurley-ms/",
-    "/service-areas/hurley-ms/fire-damage-restoration/",
-    "/service-areas/hurley-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/hurley-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/hurley-ms/",
@@ -12456,15 +10999,6 @@
     "/service-areas/hurley-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/hurley-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/hurley-ms/",
-    "/service-areas/hurley-ms/fire-damage-restoration/",
-    "/service-areas/hurley-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/hurley-ms/crawl-space-encapsulation/": [
@@ -12555,15 +11089,6 @@
     "/service-areas/hurley-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/hurley-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/hurley-ms/",
-    "/service-areas/hurley-ms/fire-damage-restoration/",
-    "/service-areas/hurley-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/hurley-ms/water-damage-restoration/": [
@@ -12692,15 +11217,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/hurley-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/hurley-ms/",
-    "/service-areas/hurley-ms/fire-damage-restoration/",
-    "/service-areas/hurley-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/hurley-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/hurley-ms/",
@@ -12737,15 +11253,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/moss-point-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/moss-point-ms/",
-    "/service-areas/moss-point-ms/fire-damage-restoration/",
-    "/service-areas/moss-point-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/moss-point-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/moss-point-ms/",
@@ -12753,15 +11260,6 @@
     "/service-areas/moss-point-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/moss-point-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/moss-point-ms/",
-    "/service-areas/moss-point-ms/fire-damage-restoration/",
-    "/service-areas/moss-point-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/moss-point-ms/crawl-space-encapsulation/": [
@@ -12852,15 +11350,6 @@
     "/service-areas/moss-point-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/moss-point-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/moss-point-ms/",
-    "/service-areas/moss-point-ms/fire-damage-restoration/",
-    "/service-areas/moss-point-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/moss-point-ms/water-damage-restoration/": [
@@ -12989,15 +11478,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/moss-point-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/moss-point-ms/",
-    "/service-areas/moss-point-ms/fire-damage-restoration/",
-    "/service-areas/moss-point-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/moss-point-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/moss-point-ms/",
@@ -13034,15 +11514,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/ocean-springs-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/ocean-springs-ms/",
-    "/service-areas/ocean-springs-ms/fire-damage-restoration/",
-    "/service-areas/ocean-springs-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/ocean-springs-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/ocean-springs-ms/",
@@ -13050,15 +11521,6 @@
     "/service-areas/ocean-springs-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/ocean-springs-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/ocean-springs-ms/",
-    "/service-areas/ocean-springs-ms/fire-damage-restoration/",
-    "/service-areas/ocean-springs-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/ocean-springs-ms/crawl-space-encapsulation/": [
@@ -13149,15 +11611,6 @@
     "/service-areas/ocean-springs-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/ocean-springs-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/ocean-springs-ms/",
-    "/service-areas/ocean-springs-ms/fire-damage-restoration/",
-    "/service-areas/ocean-springs-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/ocean-springs-ms/water-damage-restoration/": [
@@ -13286,15 +11739,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/ocean-springs-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/ocean-springs-ms/",
-    "/service-areas/ocean-springs-ms/fire-damage-restoration/",
-    "/service-areas/ocean-springs-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/ocean-springs-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/ocean-springs-ms/",
@@ -13331,15 +11775,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/pascagoula-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/pascagoula-ms/",
-    "/service-areas/pascagoula-ms/fire-damage-restoration/",
-    "/service-areas/pascagoula-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/pascagoula-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/pascagoula-ms/",
@@ -13347,15 +11782,6 @@
     "/service-areas/pascagoula-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/pascagoula-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/pascagoula-ms/",
-    "/service-areas/pascagoula-ms/fire-damage-restoration/",
-    "/service-areas/pascagoula-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/pascagoula-ms/crawl-space-encapsulation/": [
@@ -13446,15 +11872,6 @@
     "/service-areas/pascagoula-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/pascagoula-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/pascagoula-ms/",
-    "/service-areas/pascagoula-ms/fire-damage-restoration/",
-    "/service-areas/pascagoula-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/pascagoula-ms/water-damage-restoration/": [
@@ -13583,15 +12000,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/pascagoula-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/pascagoula-ms/",
-    "/service-areas/pascagoula-ms/fire-damage-restoration/",
-    "/service-areas/pascagoula-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/pascagoula-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/pascagoula-ms/",
@@ -13628,15 +12036,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/vancleave-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/vancleave-ms/",
-    "/service-areas/vancleave-ms/fire-damage-restoration/",
-    "/service-areas/vancleave-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/vancleave-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/vancleave-ms/",
@@ -13644,15 +12043,6 @@
     "/service-areas/vancleave-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/vancleave-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/vancleave-ms/",
-    "/service-areas/vancleave-ms/fire-damage-restoration/",
-    "/service-areas/vancleave-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/vancleave-ms/crawl-space-encapsulation/": [
@@ -13743,15 +12133,6 @@
     "/service-areas/vancleave-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/vancleave-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/vancleave-ms/",
-    "/service-areas/vancleave-ms/fire-damage-restoration/",
-    "/service-areas/vancleave-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/vancleave-ms/water-damage-restoration/": [
@@ -13880,15 +12261,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/vancleave-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/vancleave-ms/",
-    "/service-areas/vancleave-ms/fire-damage-restoration/",
-    "/service-areas/vancleave-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/vancleave-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/vancleave-ms/",
@@ -13925,15 +12297,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/wade-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/wade-ms/",
-    "/service-areas/wade-ms/fire-damage-restoration/",
-    "/service-areas/wade-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/wade-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/wade-ms/",
@@ -13941,15 +12304,6 @@
     "/service-areas/wade-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/wade-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/wade-ms/",
-    "/service-areas/wade-ms/fire-damage-restoration/",
-    "/service-areas/wade-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/wade-ms/crawl-space-encapsulation/": [
@@ -14040,15 +12394,6 @@
     "/service-areas/wade-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/wade-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/wade-ms/",
-    "/service-areas/wade-ms/fire-damage-restoration/",
-    "/service-areas/wade-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/wade-ms/water-damage-restoration/": [
@@ -14177,15 +12522,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/wade-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/wade-ms/",
-    "/service-areas/wade-ms/fire-damage-restoration/",
-    "/service-areas/wade-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/wade-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/wade-ms/",
@@ -14222,15 +12558,6 @@
     "/service-areas/benndale-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/agricola-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/agricola-ms/",
-    "/service-areas/agricola-ms/fire-damage-restoration/",
-    "/service-areas/agricola-ms/mold-remediation/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/service-areas/benndale-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/agricola-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/agricola-ms/",
@@ -14238,15 +12565,6 @@
     "/service-areas/agricola-ms/mold-remediation/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
     "/service-areas/benndale-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/agricola-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/agricola-ms/",
-    "/service-areas/agricola-ms/fire-damage-restoration/",
-    "/service-areas/agricola-ms/mold-remediation/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
-    "/service-areas/benndale-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/agricola-ms/crawl-space-encapsulation/": [
@@ -14337,15 +12655,6 @@
     "/service-areas/agricola-ms/mold-remediation/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
     "/service-areas/benndale-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/agricola-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/agricola-ms/",
-    "/service-areas/agricola-ms/fire-damage-restoration/",
-    "/service-areas/agricola-ms/mold-remediation/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
-    "/service-areas/benndale-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/agricola-ms/water-damage-restoration/": [
@@ -14474,15 +12783,6 @@
     "/service-areas/benndale-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/agricola-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/agricola-ms/",
-    "/service-areas/agricola-ms/fire-damage-restoration/",
-    "/service-areas/agricola-ms/mold-remediation/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/service-areas/benndale-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/agricola-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/agricola-ms/",
@@ -14519,15 +12819,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/benndale-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/benndale-ms/",
-    "/service-areas/benndale-ms/fire-damage-restoration/",
-    "/service-areas/benndale-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/benndale-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/benndale-ms/",
@@ -14535,15 +12826,6 @@
     "/service-areas/benndale-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/benndale-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/benndale-ms/",
-    "/service-areas/benndale-ms/fire-damage-restoration/",
-    "/service-areas/benndale-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/benndale-ms/crawl-space-encapsulation/": [
@@ -14634,15 +12916,6 @@
     "/service-areas/benndale-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/benndale-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/benndale-ms/",
-    "/service-areas/benndale-ms/fire-damage-restoration/",
-    "/service-areas/benndale-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/benndale-ms/water-damage-restoration/": [
@@ -14771,15 +13044,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/benndale-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/benndale-ms/",
-    "/service-areas/benndale-ms/fire-damage-restoration/",
-    "/service-areas/benndale-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/benndale-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/benndale-ms/",
@@ -14816,15 +13080,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/lucedale-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/lucedale-ms/",
-    "/service-areas/lucedale-ms/fire-damage-restoration/",
-    "/service-areas/lucedale-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/lucedale-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/lucedale-ms/",
@@ -14832,15 +13087,6 @@
     "/service-areas/lucedale-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/lucedale-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/lucedale-ms/",
-    "/service-areas/lucedale-ms/fire-damage-restoration/",
-    "/service-areas/lucedale-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/lucedale-ms/crawl-space-encapsulation/": [
@@ -14931,15 +13177,6 @@
     "/service-areas/lucedale-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/lucedale-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/lucedale-ms/",
-    "/service-areas/lucedale-ms/fire-damage-restoration/",
-    "/service-areas/lucedale-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/lucedale-ms/water-damage-restoration/": [
@@ -15068,15 +13305,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/lucedale-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/lucedale-ms/",
-    "/service-areas/lucedale-ms/fire-damage-restoration/",
-    "/service-areas/lucedale-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/lucedale-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/lucedale-ms/",
@@ -15113,15 +13341,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/ellisville-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/ellisville-ms/",
-    "/service-areas/ellisville-ms/fire-damage-restoration/",
-    "/service-areas/ellisville-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/ellisville-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/ellisville-ms/",
@@ -15129,15 +13348,6 @@
     "/service-areas/ellisville-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/ellisville-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/ellisville-ms/",
-    "/service-areas/ellisville-ms/fire-damage-restoration/",
-    "/service-areas/ellisville-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/ellisville-ms/crawl-space-encapsulation/": [
@@ -15228,15 +13438,6 @@
     "/service-areas/ellisville-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/ellisville-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/ellisville-ms/",
-    "/service-areas/ellisville-ms/fire-damage-restoration/",
-    "/service-areas/ellisville-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/ellisville-ms/water-damage-restoration/": [
@@ -15365,15 +13566,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/ellisville-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/ellisville-ms/",
-    "/service-areas/ellisville-ms/fire-damage-restoration/",
-    "/service-areas/ellisville-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/ellisville-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/ellisville-ms/",
@@ -15410,15 +13602,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/laurel-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/laurel-ms/",
-    "/service-areas/laurel-ms/fire-damage-restoration/",
-    "/service-areas/laurel-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/laurel-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/laurel-ms/",
@@ -15426,15 +13609,6 @@
     "/service-areas/laurel-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/laurel-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/laurel-ms/",
-    "/service-areas/laurel-ms/fire-damage-restoration/",
-    "/service-areas/laurel-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/laurel-ms/crawl-space-encapsulation/": [
@@ -15525,15 +13699,6 @@
     "/service-areas/laurel-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/laurel-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/laurel-ms/",
-    "/service-areas/laurel-ms/fire-damage-restoration/",
-    "/service-areas/laurel-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/laurel-ms/water-damage-restoration/": [
@@ -15662,15 +13827,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/laurel-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/laurel-ms/",
-    "/service-areas/laurel-ms/fire-damage-restoration/",
-    "/service-areas/laurel-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/laurel-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/laurel-ms/",
@@ -15707,15 +13863,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/moselle-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/moselle-ms/",
-    "/service-areas/moselle-ms/fire-damage-restoration/",
-    "/service-areas/moselle-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/moselle-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/moselle-ms/",
@@ -15723,15 +13870,6 @@
     "/service-areas/moselle-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/moselle-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/moselle-ms/",
-    "/service-areas/moselle-ms/fire-damage-restoration/",
-    "/service-areas/moselle-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/moselle-ms/crawl-space-encapsulation/": [
@@ -15822,15 +13960,6 @@
     "/service-areas/moselle-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/moselle-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/moselle-ms/",
-    "/service-areas/moselle-ms/fire-damage-restoration/",
-    "/service-areas/moselle-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/moselle-ms/water-damage-restoration/": [
@@ -15959,15 +14088,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/moselle-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/moselle-ms/",
-    "/service-areas/moselle-ms/fire-damage-restoration/",
-    "/service-areas/moselle-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/moselle-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/moselle-ms/",
@@ -16004,15 +14124,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/ovett-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/ovett-ms/",
-    "/service-areas/ovett-ms/fire-damage-restoration/",
-    "/service-areas/ovett-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/ovett-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/ovett-ms/",
@@ -16020,15 +14131,6 @@
     "/service-areas/ovett-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/ovett-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/ovett-ms/",
-    "/service-areas/ovett-ms/fire-damage-restoration/",
-    "/service-areas/ovett-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/ovett-ms/crawl-space-encapsulation/": [
@@ -16119,15 +14221,6 @@
     "/service-areas/ovett-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/ovett-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/ovett-ms/",
-    "/service-areas/ovett-ms/fire-damage-restoration/",
-    "/service-areas/ovett-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/ovett-ms/water-damage-restoration/": [
@@ -16256,15 +14349,6 @@
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
     "/contact/"
   ],
-  "/service-areas/ovett-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/ovett-ms/",
-    "/service-areas/ovett-ms/fire-damage-restoration/",
-    "/service-areas/ovett-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/ovett-ms/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/ovett-ms/",
@@ -16301,15 +14385,6 @@
     "/service-areas/bay-st-louis-ms/carpet-cleaning/",
     "/contact/"
   ],
-  "/service-areas/sandersville-ms/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/sandersville-ms/",
-    "/service-areas/sandersville-ms/fire-damage-restoration/",
-    "/service-areas/sandersville-ms/mold-remediation/",
-    "/service-areas/agricola-ms/carpet-upholstery-cleaning/",
-    "/service-areas/bay-st-louis-ms/carpet-upholstery-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/sandersville-ms/contents-restoration/": [
     "/services/contents-restoration/",
     "/service-areas/sandersville-ms/",
@@ -16317,15 +14392,6 @@
     "/service-areas/sandersville-ms/mold-remediation/",
     "/service-areas/agricola-ms/contents-restoration/",
     "/service-areas/bay-st-louis-ms/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/sandersville-ms/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/sandersville-ms/",
-    "/service-areas/sandersville-ms/fire-damage-restoration/",
-    "/service-areas/sandersville-ms/mold-remediation/",
-    "/service-areas/agricola-ms/contents-restoration-storage/",
-    "/service-areas/bay-st-louis-ms/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/sandersville-ms/crawl-space-encapsulation/": [
@@ -16416,15 +14482,6 @@
     "/service-areas/sandersville-ms/mold-remediation/",
     "/service-areas/agricola-ms/storm-damage-restoration/",
     "/service-areas/bay-st-louis-ms/storm-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/sandersville-ms/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/sandersville-ms/",
-    "/service-areas/sandersville-ms/fire-damage-restoration/",
-    "/service-areas/sandersville-ms/mold-remediation/",
-    "/service-areas/agricola-ms/vandalism-cleanup/",
-    "/service-areas/bay-st-louis-ms/vandalism-cleanup/",
     "/contact/"
   ],
   "/service-areas/sandersville-ms/water-damage-restoration/": [
@@ -16551,15 +14608,6 @@
     "/service-areas/sandersville-ms/mold-remediation/",
     "/service-areas/agricola-ms/water-heater-flood-cleanup/",
     "/service-areas/bay-st-louis-ms/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/sandersville-ms/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/sandersville-ms/",
-    "/service-areas/sandersville-ms/fire-damage-restoration/",
-    "/service-areas/sandersville-ms/mold-remediation/",
-    "/service-areas/agricola-ms/emergency-water-removal/",
-    "/service-areas/bay-st-louis-ms/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/sandersville-ms/emergency-plumbing/": [

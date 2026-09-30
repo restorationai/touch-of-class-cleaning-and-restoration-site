@@ -12,7 +12,6 @@
   "template": "restoration",
   "services": [
     "air-duct-cleaning",
-    "air-duct-hvac-cleaning",
     "appliance-leak-cleanup",
     "asbestos-abatement",
     "biohazard-cleanup",
@@ -34,7 +33,6 @@
     "roofing",
     "sewage-cleanup",
     "smoke-damage-restoration",
-    "soot-removal",
     "storm-damage-restoration",
     "water-cleanup",
     "water-damage-restoration",

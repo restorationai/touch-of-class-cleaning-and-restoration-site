@@ -68,16 +68,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/air-duct-hvac-cleaning/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/basement-flooding-cleanup/": {
     "archetype": "service-landing",
     "stubs": [
@@ -118,16 +108,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/carpet-upholstery-cleaning/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/ceiling-water-damage-repair/": {
     "archetype": "service-landing",
     "stubs": [
@@ -158,16 +138,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/contents-restoration-storage/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/emergency-board-up-tarping/": {
     "archetype": "service-landing",
     "stubs": [
@@ -179,16 +149,6 @@
     "missing_stubs": []
   },
   "/services/emergency-plumbing/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/emergency-water-removal/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -577,16 +537,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/riverside-ca/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/riverside-ca/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -627,16 +577,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/riverside-ca/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/riverside-ca/ceiling-water-damage-repair/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -667,16 +607,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/riverside-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/riverside-ca/emergency-board-up-tarping/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -688,16 +618,6 @@
     "missing_stubs": []
   },
   "/service-areas/riverside-ca/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/riverside-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -897,16 +817,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/anaheim-ca/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/anaheim-ca/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -947,16 +857,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/anaheim-ca/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/anaheim-ca/ceiling-water-damage-repair/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -987,16 +887,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/anaheim-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/anaheim-ca/emergency-board-up-tarping/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1008,16 +898,6 @@
     "missing_stubs": []
   },
   "/service-areas/anaheim-ca/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/anaheim-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1217,16 +1097,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/santa-ana-ca/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/santa-ana-ca/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1267,16 +1137,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/santa-ana-ca/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/santa-ana-ca/ceiling-water-damage-repair/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1307,16 +1167,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/santa-ana-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/santa-ana-ca/emergency-board-up-tarping/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1328,16 +1178,6 @@
     "missing_stubs": []
   },
   "/service-areas/santa-ana-ca/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/santa-ana-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1537,16 +1377,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ontario-ca/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ontario-ca/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1587,16 +1417,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ontario-ca/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ontario-ca/ceiling-water-damage-repair/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1627,16 +1447,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ontario-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ontario-ca/emergency-board-up-tarping/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1648,16 +1458,6 @@
     "missing_stubs": []
   },
   "/service-areas/ontario-ca/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ontario-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1857,16 +1657,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fullerton-ca/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fullerton-ca/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1907,16 +1697,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fullerton-ca/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fullerton-ca/ceiling-water-damage-repair/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1947,16 +1727,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fullerton-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fullerton-ca/emergency-board-up-tarping/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1968,16 +1738,6 @@
     "missing_stubs": []
   },
   "/service-areas/fullerton-ca/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fullerton-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2177,16 +1937,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/norco-ca/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/norco-ca/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2227,16 +1977,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/norco-ca/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/norco-ca/ceiling-water-damage-repair/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2267,16 +2007,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/norco-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/norco-ca/emergency-board-up-tarping/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2288,16 +2018,6 @@
     "missing_stubs": []
   },
   "/service-areas/norco-ca/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/norco-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2497,16 +2217,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/chino-ca/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/chino-ca/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2547,16 +2257,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/chino-ca/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/chino-ca/ceiling-water-damage-repair/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2587,16 +2287,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/chino-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/chino-ca/emergency-board-up-tarping/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2608,16 +2298,6 @@
     "missing_stubs": []
   },
   "/service-areas/chino-ca/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/chino-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2817,16 +2497,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/chino-hills-ca/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/chino-hills-ca/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2867,16 +2537,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/chino-hills-ca/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/chino-hills-ca/ceiling-water-damage-repair/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2907,16 +2567,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/chino-hills-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/chino-hills-ca/emergency-board-up-tarping/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2928,16 +2578,6 @@
     "missing_stubs": []
   },
   "/service-areas/chino-hills-ca/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/chino-hills-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3137,16 +2777,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/eastvale-ca/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/eastvale-ca/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3187,16 +2817,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/eastvale-ca/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/eastvale-ca/ceiling-water-damage-repair/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3227,16 +2847,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/eastvale-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/eastvale-ca/emergency-board-up-tarping/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3248,16 +2858,6 @@
     "missing_stubs": []
   },
   "/service-areas/eastvale-ca/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/eastvale-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3457,16 +3057,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/silverado-ca/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/silverado-ca/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3507,16 +3097,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/silverado-ca/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/silverado-ca/ceiling-water-damage-repair/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3547,16 +3127,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/silverado-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/silverado-ca/emergency-board-up-tarping/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3568,16 +3138,6 @@
     "missing_stubs": []
   },
   "/service-areas/silverado-ca/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/silverado-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3777,16 +3337,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/jurupa-valley-ca/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/jurupa-valley-ca/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3827,16 +3377,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/jurupa-valley-ca/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/jurupa-valley-ca/ceiling-water-damage-repair/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3867,16 +3407,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/jurupa-valley-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/jurupa-valley-ca/emergency-board-up-tarping/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3888,16 +3418,6 @@
     "missing_stubs": []
   },
   "/service-areas/jurupa-valley-ca/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/jurupa-valley-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4097,16 +3617,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/temescal-valley-ca/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/temescal-valley-ca/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4147,16 +3657,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/temescal-valley-ca/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/temescal-valley-ca/ceiling-water-damage-repair/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4187,16 +3687,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/temescal-valley-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/temescal-valley-ca/emergency-board-up-tarping/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4208,16 +3698,6 @@
     "missing_stubs": []
   },
   "/service-areas/temescal-valley-ca/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/temescal-valley-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4417,16 +3897,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/yorba-linda-ca/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/yorba-linda-ca/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4467,16 +3937,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/yorba-linda-ca/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/yorba-linda-ca/ceiling-water-damage-repair/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4507,16 +3967,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/yorba-linda-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/yorba-linda-ca/emergency-board-up-tarping/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4528,16 +3978,6 @@
     "missing_stubs": []
   },
   "/service-areas/yorba-linda-ca/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/yorba-linda-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4737,16 +4177,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lake-mathews-ca/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lake-mathews-ca/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4787,16 +4217,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lake-mathews-ca/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lake-mathews-ca/ceiling-water-damage-repair/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4827,16 +4247,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lake-mathews-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lake-mathews-ca/emergency-board-up-tarping/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4848,16 +4258,6 @@
     "missing_stubs": []
   },
   "/service-areas/lake-mathews-ca/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lake-mathews-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5057,16 +4457,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/woodcrest-ca/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/woodcrest-ca/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5107,16 +4497,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/woodcrest-ca/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/woodcrest-ca/ceiling-water-damage-repair/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5147,16 +4527,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/woodcrest-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/woodcrest-ca/emergency-board-up-tarping/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5168,16 +4538,6 @@
     "missing_stubs": []
   },
   "/service-areas/woodcrest-ca/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/woodcrest-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5377,16 +4737,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/trabuco-canyon-ca/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/trabuco-canyon-ca/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5427,16 +4777,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/trabuco-canyon-ca/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/trabuco-canyon-ca/ceiling-water-damage-repair/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5467,16 +4807,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/trabuco-canyon-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/trabuco-canyon-ca/emergency-board-up-tarping/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5488,16 +4818,6 @@
     "missing_stubs": []
   },
   "/service-areas/trabuco-canyon-ca/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/trabuco-canyon-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5697,16 +5017,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/north-tustin-ca/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/north-tustin-ca/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5747,16 +5057,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/north-tustin-ca/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/north-tustin-ca/ceiling-water-damage-repair/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5787,16 +5087,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/north-tustin-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/north-tustin-ca/emergency-board-up-tarping/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5808,16 +5098,6 @@
     "missing_stubs": []
   },
   "/service-areas/north-tustin-ca/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/north-tustin-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6017,16 +5297,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/montclair-ca/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/montclair-ca/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6067,16 +5337,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/montclair-ca/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/montclair-ca/ceiling-water-damage-repair/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6107,16 +5367,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/montclair-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/montclair-ca/emergency-board-up-tarping/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6128,16 +5378,6 @@
     "missing_stubs": []
   },
   "/service-areas/montclair-ca/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/montclair-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6337,16 +5577,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/villa-park-ca/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/villa-park-ca/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6387,16 +5617,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/villa-park-ca/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/villa-park-ca/ceiling-water-damage-repair/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6427,16 +5647,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/villa-park-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/villa-park-ca/emergency-board-up-tarping/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6448,16 +5658,6 @@
     "missing_stubs": []
   },
   "/service-areas/villa-park-ca/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/villa-park-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6657,16 +5857,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fontana-ca/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fontana-ca/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6707,16 +5897,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fontana-ca/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fontana-ca/ceiling-water-damage-repair/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6747,16 +5927,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fontana-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fontana-ca/emergency-board-up-tarping/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6768,16 +5938,6 @@
     "missing_stubs": []
   },
   "/service-areas/fontana-ca/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fontana-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6977,16 +6137,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/pomona-ca/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/pomona-ca/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7027,16 +6177,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/pomona-ca/carpet-upholstery-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/pomona-ca/ceiling-water-damage-repair/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7067,16 +6207,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/pomona-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/pomona-ca/emergency-board-up-tarping/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7088,16 +6218,6 @@
     "missing_stubs": []
   },
   "/service-areas/pomona-ca/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pomona-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

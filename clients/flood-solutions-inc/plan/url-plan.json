@@ -1222,48 +1222,6 @@
       ]
     },
     {
-      "url_path": "/services/emergency-water-removal/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Water Removal in Macomb | Flood Solutions inc",
-      "h1": "Water Removal in Macomb",
-      "meta_description": "Water removal in Macomb and surrounding areas. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "24/7 emergency water removal macomb",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/chesterfield-mi/emergency-water-removal/",
-        "/service-areas/clinton-township-mi/emergency-water-removal/",
-        "/service-areas/rochester-hills-mi/emergency-water-removal/",
-        "/service-areas/shelby-township-mi/emergency-water-removal/",
-        "/service-areas/sterling-heights-mi/emergency-water-removal/",
-        "/service-areas/troy-mi/emergency-water-removal/",
-        "/service-areas/utica-mi/emergency-water-removal/",
-        "/service-areas/warren-mi/emergency-water-removal/"
-      ]
-    },
-    {
       "url_path": "/service-areas/sterling-heights-mi/",
       "archetype": "service-area",
       "vars_keys": [
@@ -2633,46 +2591,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/sterling-heights-mi/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Sterling Heights, MI | Flood Solutions inc",
-      "h1": "Water Removal in Sterling Heights",
-      "meta_description": "Water removal in Sterling Heights, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "24/7 emergency water removal sterling heights",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/sterling-heights-mi/",
-        "/service-areas/sterling-heights-mi/fire-damage-restoration/",
-        "/service-areas/sterling-heights-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/emergency-water-removal/",
-        "/service-areas/clinton-township-mi/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/warren-mi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3566,46 +3484,6 @@
         "/service-areas/warren-mi/mold-remediation/",
         "/service-areas/chesterfield-mi/water-leak-detection/",
         "/service-areas/clinton-township-mi/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/warren-mi/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Warren, MI | Flood Solutions inc",
-      "h1": "Water Removal in Warren",
-      "meta_description": "Water removal in Warren, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "24/7 emergency water removal warren",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/warren-mi/",
-        "/service-areas/warren-mi/fire-damage-restoration/",
-        "/service-areas/warren-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/emergency-water-removal/",
-        "/service-areas/clinton-township-mi/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -4507,46 +4385,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/clinton-township-mi/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Clinton Township, MI | Flood Solutions inc",
-      "h1": "Water Removal in Clinton Township",
-      "meta_description": "Water removal in Clinton Township, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "24/7 emergency water removal clinton township",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/clinton-township-mi/",
-        "/service-areas/clinton-township-mi/fire-damage-restoration/",
-        "/service-areas/clinton-township-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/emergency-water-removal/",
-        "/service-areas/rochester-hills-mi/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/troy-mi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5440,46 +5278,6 @@
         "/service-areas/troy-mi/mold-remediation/",
         "/service-areas/chesterfield-mi/water-leak-detection/",
         "/service-areas/clinton-township-mi/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/troy-mi/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Troy, MI | Flood Solutions inc",
-      "h1": "Water Removal in Troy",
-      "meta_description": "Water removal in Troy, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "24/7 emergency water removal troy",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/troy-mi/",
-        "/service-areas/troy-mi/fire-damage-restoration/",
-        "/service-areas/troy-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/emergency-water-removal/",
-        "/service-areas/clinton-township-mi/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -6381,46 +6179,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/rochester-hills-mi/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Rochester Hills, MI | Flood Solutions inc",
-      "h1": "Water Removal in Rochester Hills",
-      "meta_description": "Water removal in Rochester Hills, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "24/7 emergency water removal rochester hills",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/rochester-hills-mi/",
-        "/service-areas/rochester-hills-mi/fire-damage-restoration/",
-        "/service-areas/rochester-hills-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/emergency-water-removal/",
-        "/service-areas/clinton-township-mi/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/shelby-township-mi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7314,46 +7072,6 @@
         "/service-areas/shelby-township-mi/mold-remediation/",
         "/service-areas/chesterfield-mi/water-leak-detection/",
         "/service-areas/clinton-township-mi/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/shelby-township-mi/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Shelby Township, MI | Flood Solutions inc",
-      "h1": "Water Removal in Shelby Township",
-      "meta_description": "Water removal in Shelby Township, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "24/7 emergency water removal shelby township",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/shelby-township-mi/",
-        "/service-areas/shelby-township-mi/fire-damage-restoration/",
-        "/service-areas/shelby-township-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/emergency-water-removal/",
-        "/service-areas/clinton-township-mi/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -8255,46 +7973,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/utica-mi/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Utica, MI | Flood Solutions inc",
-      "h1": "Water Removal in Utica",
-      "meta_description": "Water removal in Utica, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "24/7 emergency water removal utica",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/utica-mi/",
-        "/service-areas/utica-mi/fire-damage-restoration/",
-        "/service-areas/utica-mi/mold-remediation/",
-        "/service-areas/chesterfield-mi/emergency-water-removal/",
-        "/service-areas/clinton-township-mi/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/chesterfield-mi/water-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9188,46 +8866,6 @@
         "/service-areas/chesterfield-mi/mold-remediation/",
         "/service-areas/clinton-township-mi/water-leak-detection/",
         "/service-areas/rochester-hills-mi/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/chesterfield-mi/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Chesterfield, MI | Flood Solutions inc",
-      "h1": "Water Removal in Chesterfield",
-      "meta_description": "Water removal in Chesterfield, MI. Insurance billing accepted. Call (586) 580-0197.",
-      "primary_keyword": "24/7 emergency water removal chesterfield",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/chesterfield-mi/",
-        "/service-areas/chesterfield-mi/fire-damage-restoration/",
-        "/service-areas/chesterfield-mi/mold-remediation/",
-        "/service-areas/clinton-township-mi/emergency-water-removal/",
-        "/service-areas/rochester-hills-mi/emergency-water-removal/",
         "/contact/"
       ]
     },

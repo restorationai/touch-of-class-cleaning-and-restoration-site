@@ -68,16 +68,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/contents-restoration-storage/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/fire-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
@@ -420,16 +410,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/rockwall-tx/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/rockwall-tx/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -511,16 +491,6 @@
     "missing_stubs": []
   },
   "/service-areas/fate-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fate-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -620,16 +590,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/rowlett-tx/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/rowlett-tx/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -711,16 +671,6 @@
     "missing_stubs": []
   },
   "/service-areas/wylie-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wylie-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -820,16 +770,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/garland-tx/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/garland-tx/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -911,16 +851,6 @@
     "missing_stubs": []
   },
   "/service-areas/mesquite-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/mesquite-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1020,16 +950,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/dallas-tx/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/dallas-tx/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1111,16 +1031,6 @@
     "missing_stubs": []
   },
   "/service-areas/richardson-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/richardson-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1220,16 +1130,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/plano-tx/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/plano-tx/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1311,16 +1211,6 @@
     "missing_stubs": []
   },
   "/service-areas/allen-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/allen-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1420,16 +1310,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/mckinney-tx/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/mckinney-tx/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1511,16 +1391,6 @@
     "missing_stubs": []
   },
   "/service-areas/frisco-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/frisco-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1620,16 +1490,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/highland-park-tx/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/highland-park-tx/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1711,16 +1571,6 @@
     "missing_stubs": []
   },
   "/service-areas/university-park-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/university-park-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1820,16 +1670,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/greenville-tx/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/greenville-tx/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1911,16 +1751,6 @@
     "missing_stubs": []
   },
   "/service-areas/terrell-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/terrell-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2020,16 +1850,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/nevada-tx/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/nevada-tx/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2111,16 +1931,6 @@
     "missing_stubs": []
   },
   "/service-areas/union-valley-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/union-valley-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2220,16 +2030,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/josephine-tx/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/josephine-tx/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2311,16 +2111,6 @@
     "missing_stubs": []
   },
   "/service-areas/lavon-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lavon-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2420,16 +2210,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/mclendon-chisholm-tx/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/mclendon-chisholm-tx/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2511,16 +2291,6 @@
     "missing_stubs": []
   },
   "/service-areas/caddo-mills-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/caddo-mills-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2620,16 +2390,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/poetry-tx/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/poetry-tx/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2711,16 +2471,6 @@
     "missing_stubs": []
   },
   "/service-areas/heath-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/heath-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2820,16 +2570,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/farmersville-tx/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/farmersville-tx/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2911,16 +2651,6 @@
     "missing_stubs": []
   },
   "/service-areas/sachse-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sachse-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3020,16 +2750,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lucas-tx/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lucas-tx/fire-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3111,16 +2831,6 @@
     "missing_stubs": []
   },
   "/service-areas/murphy-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/murphy-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

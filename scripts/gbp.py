@@ -2787,6 +2787,68 @@ def build_client_pages(slug: str) -> tuple:
     return True, "built + deployed (plan -> add-pages -> render -> commit -> sync-deploy main)" + render_note
 
 
+def _structure_gate(slug: str, reqs: list) -> tuple[list, list[str]]:
+    """SITE STRUCTURE GATE (Santino 2026-09-30, scripts/site_structure.py).
+    Every queued page request passes the client's GBP service map before
+    anything is built:
+      * synonym / long-tail of an existing page -> row 'dismissed', mapped
+        to that page in clients/{slug}/gbp-service-map.json (no new page)
+      * junk, or distinct but below the volume bar -> 'dismissed' w/ reason
+        (a client/human request, requested_by set, skips the volume bar)
+      * unclassifiable right now -> stays queued
+      * genuinely distinct + clears the bar -> built, at most
+        MAX_NEW_PAGES_PER_NIGHT per client per 24h; the rest stay queued.
+    Fail-closed: if the gate itself errors, nothing is built for the client."""
+    import datetime as dt
+    try:
+        import gbp_service_map
+        import site_structure
+    except Exception as e:  # noqa: BLE001
+        return [], [f"{slug}: structure gate unavailable ({str(e)[:80]}) -- nothing built"]
+    since = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=20)).isoformat()
+    cid = reqs[0]["company_id"]
+    try:
+        recent = _sb(f"marketing_page_requests?company_id=eq.{cid}&status=eq.built"
+                     f"&built_at=gte.{since}&select=id")
+    except Exception:  # noqa: BLE001
+        recent = []
+    budget = site_structure.MAX_NEW_PAGES_PER_NIGHT - len(recent or [])
+    keep, notes = [], []
+    for r in reqs:
+        try:
+            g = gbp_service_map.gate(slug, r["service"],
+                                     client_request=bool(r.get("requested_by")))
+        except (Exception, SystemExit) as e:  # noqa: BLE001
+            notes.append(f"{slug}: gate error on {r['service']!r} ({str(e)[:80]}) -- left queued")
+            continue
+        if g["action"] == "map":
+            _sb_patch("marketing_page_requests", f"id=eq.{r['id']}",
+                      {"status": "dismissed", "slug": slug, "service_slug": g["page"],
+                       "page_url": f"/services/{g['page']}/",
+                       "error": f"mapped to existing page /services/{g['page']}/ "
+                                f"(gbp-service-map: {str(g.get('reason'))[:80]})"})
+            notes.append(f"{slug}: {r['service']!r} -> mapped to /services/{g['page']}/ (no new page)")
+        elif g["action"] == "decline":
+            _sb_patch("marketing_page_requests", f"id=eq.{r['id']}",
+                      {"status": "dismissed", "slug": slug,
+                       "error": f"no page: {str(g.get('reason'))[:160]}"})
+            notes.append(f"{slug}: {r['service']!r} -> declined ({str(g.get('reason'))[:80]})")
+        elif g["action"] == "hold":
+            notes.append(f"{slug}: {r['service']!r} -> held in queue ({g.get('reason')})")
+        elif budget <= 0:
+            notes.append(f"{slug}: {r['service']!r} -> distinct, waiting (nightly cap "
+                         f"{site_structure.MAX_NEW_PAGES_PER_NIGHT} reached)")
+        else:
+            budget -= 1
+            keep.append(r)
+    # the map is the canonical record of every decision; land it even when
+    # nothing gets built (CI only; build_client_pages commits clients/ too)
+    if os.environ.get("GITHUB_ACTIONS") == "true":
+        _sh(["git", "add", f"clients/{slug}/gbp-service-map.json"])
+        _sh(["git", "commit", "-q", "-m", f"gbp service map: {slug} [automated]"])
+    return keep, notes
+
+
 def create_pages(slug_filter: str | None = None, build: bool = False) -> list[str]:
     """Consume queued page requests: add each service slug to the client's
     plan-input.json (deduped) and mark the request 'building'. With build=True, run the
@@ -2796,7 +2858,8 @@ def create_pages(slug_filter: str | None = None, build: bool = False) -> list[st
     # marks rows 'building' and never returns — without this they'd be
     # orphaned forever, since everything downstream is idempotent anyway
     # (plan-input dedupes, render skips rendered pages).
-    rows = _sb("marketing_page_requests?status=in.(queued,building)&select=id,company_id,service")
+    rows = _sb("marketing_page_requests?status=in.(queued,building)"
+               "&select=id,company_id,service,status,requested_by")
     out = []
     by_slug: dict[str, list] = {}
     for r in rows:
@@ -2811,6 +2874,10 @@ def create_pages(slug_filter: str | None = None, build: bool = False) -> list[st
             # Dead/removed clients (mold-solutionz 2026-09-29 crashed the
             # whole gbp-maintenance run) never block everyone else.
             print(f"  {slug}: no plan-input.json (dead/removed client) — skipped")
+            continue
+        reqs, gate_notes = _structure_gate(slug, reqs)
+        out.extend(gate_notes)
+        if not reqs:
             continue
         pi = json.loads(pi_path.read_text())
         services = pi.get("services", [])

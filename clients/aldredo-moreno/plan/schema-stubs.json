@@ -68,27 +68,7 @@
     ],
     "missing_stubs": []
   },
-  "/services/air-duct-hvac-cleaning/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/carpet-cleaning/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/carpet-upholstery-cleaning/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -308,16 +288,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/emergency-water-removal/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/emergency-plumbing/": {
     "archetype": "service-landing",
     "stubs": [
@@ -473,27 +443,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/odessa-tx/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/odessa-tx/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/odessa-tx/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -713,16 +663,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/odessa-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/odessa-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -743,27 +683,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/big-spring-tx/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/big-spring-tx/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/big-spring-tx/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -983,16 +903,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/big-spring-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/big-spring-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1013,27 +923,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/stanton-tx/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/stanton-tx/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/stanton-tx/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1253,16 +1143,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/stanton-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/stanton-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1283,27 +1163,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/andrews-tx/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/andrews-tx/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/andrews-tx/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1523,16 +1383,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/andrews-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/andrews-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1553,27 +1403,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/gardendale-tx/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/gardendale-tx/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/gardendale-tx/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1793,16 +1623,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/gardendale-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/gardendale-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1823,27 +1643,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/greenwood-tx/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/greenwood-tx/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/greenwood-tx/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2063,16 +1863,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/greenwood-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/greenwood-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2093,27 +1883,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/goldsmith-tx/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/goldsmith-tx/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/goldsmith-tx/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2333,16 +2103,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/goldsmith-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/goldsmith-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2363,27 +2123,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/west-odessa-tx/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/west-odessa-tx/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/west-odessa-tx/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2603,16 +2343,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/west-odessa-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/west-odessa-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2633,27 +2363,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/garden-city-tx/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/garden-city-tx/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/garden-city-tx/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2873,16 +2583,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/garden-city-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/garden-city-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2903,27 +2603,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/crane-tx/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/crane-tx/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/crane-tx/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3143,16 +2823,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/crane-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/crane-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3173,27 +2843,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/monahans-tx/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/monahans-tx/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/monahans-tx/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3413,16 +3063,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/monahans-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/monahans-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3443,27 +3083,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/mccamey-tx/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/mccamey-tx/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/mccamey-tx/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3683,16 +3303,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/mccamey-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/mccamey-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3713,27 +3323,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/southwest-sandhill-tx/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/southwest-sandhill-tx/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/southwest-sandhill-tx/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3953,16 +3543,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/southwest-sandhill-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/southwest-sandhill-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3983,27 +3563,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/big-lake-tx/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/big-lake-tx/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/big-lake-tx/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4223,16 +3783,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/big-lake-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/big-lake-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4253,27 +3803,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/imperial-tx/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/imperial-tx/carpet-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/imperial-tx/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4484,16 +4014,6 @@
     "missing_stubs": []
   },
   "/service-areas/imperial-tx/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/imperial-tx/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

@@ -1,9 +1,17 @@
 ---
 import { brand } from "~/lib/brand";
 import { getCollection } from "astro:content";
+import homepageServices from "~/data/homepage-services.json";
 
 const is247 = /24\s*[\/x-]?\s*7|24 ?hours/i.test(String(brand.hours || ""));
-const services = (await getCollection("services")).sort((a, b) => (b.data.priority || 0) - (a.data.priority || 0));
+// Footer "Services" column = the client's curated core (plan-input
+// homepage_services, Santino 2026-09-30); parity pages stay on /services/.
+const _svcAll = (await getCollection("services")).sort((a, b) => (b.data.priority || 0) - (a.data.priority || 0));
+const _svcPinned = (homepageServices as string[])
+  .map((s) => _svcAll.find((e) => e.data.service_slug === s))
+  .filter(Boolean) as typeof _svcAll;
+const services = _svcAll;
+const footerServices = _svcPinned.length ? _svcPinned : _svcAll.slice(0, 8);
 const areas = (await getCollection("serviceAreas")).sort((a, b) => Number(b.data.primary) - Number(a.data.primary));
 const year = new Date().getFullYear();
 ---
@@ -49,14 +57,14 @@ const year = new Date().getFullYear();
     <div class="lg:col-span-3">
       <div class="text-xs font-black uppercase tracking-widest text-navy-900 mb-4">Services</div>
       <ul class="space-y-2 text-sm list-none pl-0">
-        {services.slice(0, 8).map((s) => (
+        {footerServices.map((s) => (
           <li>
             <a href={`/services/${s.data.service_slug}/`} class="text-navy-900/70 hover:text-primary no-underline transition-colors">
               {s.data.service_display}
             </a>
           </li>
         ))}
-        {services.length > 8 && (
+        {services.length > footerServices.length && (
           <li>
             <a href="/services/" class="text-primary font-semibold no-underline hover:underline">See all services →</a>
           </li>

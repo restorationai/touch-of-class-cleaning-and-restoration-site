@@ -8,7 +8,6 @@
     "/services/mold-remediation/",
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
-    "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/sewage-cleanup/",
     "/services/smoke-damage-restoration/",
@@ -41,7 +40,6 @@
     "/services/mold-remediation/",
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
-    "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/sewage-cleanup/",
     "/services/smoke-damage-restoration/",
@@ -356,18 +354,6 @@
     "/service-areas/utica-mi/water-leak-detection/",
     "/service-areas/warren-mi/water-leak-detection/"
   ],
-  "/services/emergency-water-removal/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/chesterfield-mi/emergency-water-removal/",
-    "/service-areas/clinton-township-mi/emergency-water-removal/",
-    "/service-areas/rochester-hills-mi/emergency-water-removal/",
-    "/service-areas/shelby-township-mi/emergency-water-removal/",
-    "/service-areas/sterling-heights-mi/emergency-water-removal/",
-    "/service-areas/troy-mi/emergency-water-removal/",
-    "/service-areas/utica-mi/emergency-water-removal/",
-    "/service-areas/warren-mi/emergency-water-removal/"
-  ],
   "/service-areas/sterling-heights-mi/": [
     "/service-areas/",
     "/contact/",
@@ -375,7 +361,6 @@
     "/service-areas/sterling-heights-mi/mold-remediation/",
     "/service-areas/sterling-heights-mi/water-damage-restoration/",
     "/service-areas/sterling-heights-mi/commercial-restoration/",
-    "/service-areas/sterling-heights-mi/emergency-water-removal/",
     "/service-areas/sterling-heights-mi/flood-damage-restoration/",
     "/service-areas/sterling-heights-mi/sewage-cleanup/",
     "/service-areas/sterling-heights-mi/smoke-damage-restoration/",
@@ -404,7 +389,6 @@
     "/service-areas/warren-mi/mold-remediation/",
     "/service-areas/warren-mi/water-damage-restoration/",
     "/service-areas/warren-mi/commercial-restoration/",
-    "/service-areas/warren-mi/emergency-water-removal/",
     "/service-areas/warren-mi/flood-damage-restoration/",
     "/service-areas/warren-mi/sewage-cleanup/",
     "/service-areas/warren-mi/smoke-damage-restoration/",
@@ -433,7 +417,6 @@
     "/service-areas/clinton-township-mi/mold-remediation/",
     "/service-areas/clinton-township-mi/water-damage-restoration/",
     "/service-areas/clinton-township-mi/commercial-restoration/",
-    "/service-areas/clinton-township-mi/emergency-water-removal/",
     "/service-areas/clinton-township-mi/flood-damage-restoration/",
     "/service-areas/clinton-township-mi/sewage-cleanup/",
     "/service-areas/clinton-township-mi/smoke-damage-restoration/",
@@ -462,7 +445,6 @@
     "/service-areas/troy-mi/mold-remediation/",
     "/service-areas/troy-mi/water-damage-restoration/",
     "/service-areas/troy-mi/commercial-restoration/",
-    "/service-areas/troy-mi/emergency-water-removal/",
     "/service-areas/troy-mi/flood-damage-restoration/",
     "/service-areas/troy-mi/sewage-cleanup/",
     "/service-areas/troy-mi/smoke-damage-restoration/",
@@ -491,7 +473,6 @@
     "/service-areas/rochester-hills-mi/mold-remediation/",
     "/service-areas/rochester-hills-mi/water-damage-restoration/",
     "/service-areas/rochester-hills-mi/commercial-restoration/",
-    "/service-areas/rochester-hills-mi/emergency-water-removal/",
     "/service-areas/rochester-hills-mi/flood-damage-restoration/",
     "/service-areas/rochester-hills-mi/sewage-cleanup/",
     "/service-areas/rochester-hills-mi/smoke-damage-restoration/",
@@ -520,7 +501,6 @@
     "/service-areas/shelby-township-mi/mold-remediation/",
     "/service-areas/shelby-township-mi/water-damage-restoration/",
     "/service-areas/shelby-township-mi/commercial-restoration/",
-    "/service-areas/shelby-township-mi/emergency-water-removal/",
     "/service-areas/shelby-township-mi/flood-damage-restoration/",
     "/service-areas/shelby-township-mi/sewage-cleanup/",
     "/service-areas/shelby-township-mi/smoke-damage-restoration/",
@@ -549,7 +529,6 @@
     "/service-areas/utica-mi/mold-remediation/",
     "/service-areas/utica-mi/water-damage-restoration/",
     "/service-areas/utica-mi/commercial-restoration/",
-    "/service-areas/utica-mi/emergency-water-removal/",
     "/service-areas/utica-mi/flood-damage-restoration/",
     "/service-areas/utica-mi/sewage-cleanup/",
     "/service-areas/utica-mi/smoke-damage-restoration/",
@@ -578,7 +557,6 @@
     "/service-areas/chesterfield-mi/mold-remediation/",
     "/service-areas/chesterfield-mi/water-damage-restoration/",
     "/service-areas/chesterfield-mi/commercial-restoration/",
-    "/service-areas/chesterfield-mi/emergency-water-removal/",
     "/service-areas/chesterfield-mi/flood-damage-restoration/",
     "/service-areas/chesterfield-mi/sewage-cleanup/",
     "/service-areas/chesterfield-mi/smoke-damage-restoration/",
@@ -789,15 +767,6 @@
     "/service-areas/clinton-township-mi/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/sterling-heights-mi/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/sterling-heights-mi/",
-    "/service-areas/sterling-heights-mi/fire-damage-restoration/",
-    "/service-areas/sterling-heights-mi/mold-remediation/",
-    "/service-areas/chesterfield-mi/emergency-water-removal/",
-    "/service-areas/clinton-township-mi/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/warren-mi/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/warren-mi/",
@@ -985,15 +954,6 @@
     "/service-areas/warren-mi/mold-remediation/",
     "/service-areas/chesterfield-mi/water-leak-detection/",
     "/service-areas/clinton-township-mi/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/warren-mi/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/warren-mi/",
-    "/service-areas/warren-mi/fire-damage-restoration/",
-    "/service-areas/warren-mi/mold-remediation/",
-    "/service-areas/chesterfield-mi/emergency-water-removal/",
-    "/service-areas/clinton-township-mi/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/clinton-township-mi/water-damage-restoration/": [
@@ -1185,15 +1145,6 @@
     "/service-areas/rochester-hills-mi/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/clinton-township-mi/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/clinton-township-mi/",
-    "/service-areas/clinton-township-mi/fire-damage-restoration/",
-    "/service-areas/clinton-township-mi/mold-remediation/",
-    "/service-areas/chesterfield-mi/emergency-water-removal/",
-    "/service-areas/rochester-hills-mi/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/troy-mi/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/troy-mi/",
@@ -1381,15 +1332,6 @@
     "/service-areas/troy-mi/mold-remediation/",
     "/service-areas/chesterfield-mi/water-leak-detection/",
     "/service-areas/clinton-township-mi/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/troy-mi/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/troy-mi/",
-    "/service-areas/troy-mi/fire-damage-restoration/",
-    "/service-areas/troy-mi/mold-remediation/",
-    "/service-areas/chesterfield-mi/emergency-water-removal/",
-    "/service-areas/clinton-township-mi/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/rochester-hills-mi/water-damage-restoration/": [
@@ -1581,15 +1523,6 @@
     "/service-areas/clinton-township-mi/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/rochester-hills-mi/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/rochester-hills-mi/",
-    "/service-areas/rochester-hills-mi/fire-damage-restoration/",
-    "/service-areas/rochester-hills-mi/mold-remediation/",
-    "/service-areas/chesterfield-mi/emergency-water-removal/",
-    "/service-areas/clinton-township-mi/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/shelby-township-mi/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/shelby-township-mi/",
@@ -1777,15 +1710,6 @@
     "/service-areas/shelby-township-mi/mold-remediation/",
     "/service-areas/chesterfield-mi/water-leak-detection/",
     "/service-areas/clinton-township-mi/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/shelby-township-mi/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/shelby-township-mi/",
-    "/service-areas/shelby-township-mi/fire-damage-restoration/",
-    "/service-areas/shelby-township-mi/mold-remediation/",
-    "/service-areas/chesterfield-mi/emergency-water-removal/",
-    "/service-areas/clinton-township-mi/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/utica-mi/water-damage-restoration/": [
@@ -1977,15 +1901,6 @@
     "/service-areas/clinton-township-mi/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/utica-mi/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/utica-mi/",
-    "/service-areas/utica-mi/fire-damage-restoration/",
-    "/service-areas/utica-mi/mold-remediation/",
-    "/service-areas/chesterfield-mi/emergency-water-removal/",
-    "/service-areas/clinton-township-mi/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/chesterfield-mi/water-damage-restoration/": [
     "/services/water-damage-restoration/",
     "/service-areas/chesterfield-mi/",
@@ -2173,15 +2088,6 @@
     "/service-areas/chesterfield-mi/mold-remediation/",
     "/service-areas/clinton-township-mi/water-leak-detection/",
     "/service-areas/rochester-hills-mi/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/chesterfield-mi/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/chesterfield-mi/",
-    "/service-areas/chesterfield-mi/fire-damage-restoration/",
-    "/service-areas/chesterfield-mi/mold-remediation/",
-    "/service-areas/clinton-township-mi/emergency-water-removal/",
-    "/service-areas/rochester-hills-mi/emergency-water-removal/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [

@@ -168,27 +168,7 @@
     ],
     "missing_stubs": []
   },
-  "/services/emergency-water-removal/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/flood-damage-restoration/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/general-contractor/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -219,16 +199,6 @@
     "missing_stubs": []
   },
   "/services/job-type-id-bathroom-remodeling/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/job-type-id-construction/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -636,27 +606,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/st-cloud-mn/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/st-cloud-mn/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/st-cloud-mn/general-contractor/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -687,16 +637,6 @@
     "missing_stubs": []
   },
   "/service-areas/st-cloud-mn/job-type-id-bathroom-remodeling/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/st-cloud-mn/job-type-id-construction/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -906,27 +846,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sartell-mn/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sartell-mn/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sartell-mn/general-contractor/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -957,16 +877,6 @@
     "missing_stubs": []
   },
   "/service-areas/sartell-mn/job-type-id-bathroom-remodeling/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sartell-mn/job-type-id-construction/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1176,27 +1086,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sauk-rapids-mn/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sauk-rapids-mn/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sauk-rapids-mn/general-contractor/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1227,16 +1117,6 @@
     "missing_stubs": []
   },
   "/service-areas/sauk-rapids-mn/job-type-id-bathroom-remodeling/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sauk-rapids-mn/job-type-id-construction/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1446,27 +1326,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/brainerd-mn/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/brainerd-mn/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/brainerd-mn/general-contractor/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1497,16 +1357,6 @@
     "missing_stubs": []
   },
   "/service-areas/brainerd-mn/job-type-id-bathroom-remodeling/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/brainerd-mn/job-type-id-construction/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1716,27 +1566,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/baxter-mn/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/baxter-mn/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/baxter-mn/general-contractor/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1767,16 +1597,6 @@
     "missing_stubs": []
   },
   "/service-areas/baxter-mn/job-type-id-bathroom-remodeling/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/baxter-mn/job-type-id-construction/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1986,27 +1806,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/foley-mn/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/foley-mn/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/foley-mn/general-contractor/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2037,16 +1837,6 @@
     "missing_stubs": []
   },
   "/service-areas/foley-mn/job-type-id-bathroom-remodeling/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/foley-mn/job-type-id-construction/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2256,27 +2046,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/royalton-mn/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/royalton-mn/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/royalton-mn/general-contractor/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2307,16 +2077,6 @@
     "missing_stubs": []
   },
   "/service-areas/royalton-mn/job-type-id-bathroom-remodeling/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/royalton-mn/job-type-id-construction/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2526,27 +2286,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/pierz-mn/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/pierz-mn/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pierz-mn/general-contractor/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2577,16 +2317,6 @@
     "missing_stubs": []
   },
   "/service-areas/pierz-mn/job-type-id-bathroom-remodeling/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pierz-mn/job-type-id-construction/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2796,27 +2526,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sobieski-mn/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sobieski-mn/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sobieski-mn/general-contractor/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2847,16 +2557,6 @@
     "missing_stubs": []
   },
   "/service-areas/sobieski-mn/job-type-id-bathroom-remodeling/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sobieski-mn/job-type-id-construction/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3066,27 +2766,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/flensburg-mn/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/flensburg-mn/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/flensburg-mn/general-contractor/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3117,16 +2797,6 @@
     "missing_stubs": []
   },
   "/service-areas/flensburg-mn/job-type-id-bathroom-remodeling/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/flensburg-mn/job-type-id-construction/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3336,27 +3006,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/randall-mn/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/randall-mn/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/randall-mn/general-contractor/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3387,16 +3037,6 @@
     "missing_stubs": []
   },
   "/service-areas/randall-mn/job-type-id-bathroom-remodeling/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/randall-mn/job-type-id-construction/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3606,27 +3246,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/elmdale-mn/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/elmdale-mn/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/elmdale-mn/general-contractor/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3657,16 +3277,6 @@
     "missing_stubs": []
   },
   "/service-areas/elmdale-mn/job-type-id-bathroom-remodeling/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/elmdale-mn/job-type-id-construction/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3876,27 +3486,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fort-ripley-mn/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fort-ripley-mn/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fort-ripley-mn/general-contractor/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3927,16 +3517,6 @@
     "missing_stubs": []
   },
   "/service-areas/fort-ripley-mn/job-type-id-bathroom-remodeling/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fort-ripley-mn/job-type-id-construction/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4146,27 +3726,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/swanville-mn/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/swanville-mn/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/swanville-mn/general-contractor/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4197,16 +3757,6 @@
     "missing_stubs": []
   },
   "/service-areas/swanville-mn/job-type-id-bathroom-remodeling/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/swanville-mn/job-type-id-construction/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4416,27 +3966,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/upsala-mn/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/upsala-mn/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/upsala-mn/general-contractor/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4467,16 +3997,6 @@
     "missing_stubs": []
   },
   "/service-areas/upsala-mn/job-type-id-bathroom-remodeling/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/upsala-mn/job-type-id-construction/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4686,27 +4206,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/rice-mn/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/rice-mn/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/rice-mn/general-contractor/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4737,16 +4237,6 @@
     "missing_stubs": []
   },
   "/service-areas/rice-mn/job-type-id-bathroom-remodeling/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/rice-mn/job-type-id-construction/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4956,27 +4446,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/harding-mn/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/harding-mn/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/harding-mn/general-contractor/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5007,16 +4477,6 @@
     "missing_stubs": []
   },
   "/service-areas/harding-mn/job-type-id-bathroom-remodeling/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/harding-mn/job-type-id-construction/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5226,27 +4686,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/st-stephen-mn/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/st-stephen-mn/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/st-stephen-mn/general-contractor/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5277,16 +4717,6 @@
     "missing_stubs": []
   },
   "/service-areas/st-stephen-mn/job-type-id-bathroom-remodeling/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/st-stephen-mn/job-type-id-construction/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5496,27 +4926,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/long-prairie-mn/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/long-prairie-mn/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/long-prairie-mn/general-contractor/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5547,16 +4957,6 @@
     "missing_stubs": []
   },
   "/service-areas/long-prairie-mn/job-type-id-bathroom-remodeling/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/long-prairie-mn/job-type-id-construction/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5766,27 +5166,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/albany-mn/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/albany-mn/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/albany-mn/general-contractor/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5817,16 +5197,6 @@
     "missing_stubs": []
   },
   "/service-areas/albany-mn/job-type-id-bathroom-remodeling/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/albany-mn/job-type-id-construction/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6036,27 +5406,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/avon-mn/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/avon-mn/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/avon-mn/general-contractor/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6087,16 +5437,6 @@
     "missing_stubs": []
   },
   "/service-areas/avon-mn/job-type-id-bathroom-remodeling/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/avon-mn/job-type-id-construction/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6306,27 +5646,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/st-joseph-mn/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/st-joseph-mn/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/st-joseph-mn/general-contractor/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6357,16 +5677,6 @@
     "missing_stubs": []
   },
   "/service-areas/st-joseph-mn/job-type-id-bathroom-remodeling/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/st-joseph-mn/job-type-id-construction/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

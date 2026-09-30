@@ -12,13 +12,11 @@
   "template": "restoration",
   "services": [
     "appliance-leak-cleanup",
-    "basement-flood-cleanup",
     "basement-flooding-cleanup",
     "biohazard-cleanup",
     "burst-pipe-repair",
     "commercial-restoration",
     "contents-restoration-pack-out",
-    "contents-restoration-storage",
     "crawl-space-encapsulation",
     "emergency-board-up-tarping",
     "fire-damage-restoration",
@@ -29,7 +27,6 @@
     "sewage-cleanup",
     "smoke-damage-restoration",
     "storm-damage-restoration",
-    "vandalism-cleanup",
     "water-cleanup",
     "water-damage-restoration"
   ],

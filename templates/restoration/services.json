@@ -931,7 +931,7 @@
     "emergency flood service",
     "emergency water extraction"
    ],
-   "tier": "core",
+   "tier": "adjacent",
    "priority": 9
   },
   {

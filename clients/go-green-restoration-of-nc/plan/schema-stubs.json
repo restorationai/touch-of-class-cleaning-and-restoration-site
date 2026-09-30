@@ -148,16 +148,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/air-duct-hvac-cleaning/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/basement-flooding-cleanup/": {
     "archetype": "service-landing",
     "stubs": [
@@ -169,16 +159,6 @@
     "missing_stubs": []
   },
   "/services/burst-pipe-repair/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/carpet-upholstery-cleaning/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -209,16 +189,6 @@
     "missing_stubs": []
   },
   "/services/emergency-plumbing/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/emergency-water-removal/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -636,16 +606,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/raleigh-nc/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/raleigh-nc/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -657,16 +617,6 @@
     "missing_stubs": []
   },
   "/service-areas/raleigh-nc/burst-pipe-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/raleigh-nc/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -697,16 +647,6 @@
     "missing_stubs": []
   },
   "/service-areas/raleigh-nc/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/raleigh-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -926,16 +866,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/durham-nc/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/durham-nc/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -947,16 +877,6 @@
     "missing_stubs": []
   },
   "/service-areas/durham-nc/burst-pipe-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/durham-nc/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -987,16 +907,6 @@
     "missing_stubs": []
   },
   "/service-areas/durham-nc/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/durham-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1216,16 +1126,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/rocky-mount-nc/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/rocky-mount-nc/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1237,16 +1137,6 @@
     "missing_stubs": []
   },
   "/service-areas/rocky-mount-nc/burst-pipe-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/rocky-mount-nc/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1277,16 +1167,6 @@
     "missing_stubs": []
   },
   "/service-areas/rocky-mount-nc/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/rocky-mount-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1506,16 +1386,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/wilson-nc/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/wilson-nc/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1527,16 +1397,6 @@
     "missing_stubs": []
   },
   "/service-areas/wilson-nc/burst-pipe-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wilson-nc/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1567,16 +1427,6 @@
     "missing_stubs": []
   },
   "/service-areas/wilson-nc/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wilson-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1796,16 +1646,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/smithfield-nc/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/smithfield-nc/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1817,16 +1657,6 @@
     "missing_stubs": []
   },
   "/service-areas/smithfield-nc/burst-pipe-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/smithfield-nc/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1857,16 +1687,6 @@
     "missing_stubs": []
   },
   "/service-areas/smithfield-nc/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/smithfield-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2086,16 +1906,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/wake-forest-nc/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/wake-forest-nc/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2107,16 +1917,6 @@
     "missing_stubs": []
   },
   "/service-areas/wake-forest-nc/burst-pipe-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wake-forest-nc/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2147,16 +1947,6 @@
     "missing_stubs": []
   },
   "/service-areas/wake-forest-nc/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wake-forest-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2376,16 +2166,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/zebulon-nc/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/zebulon-nc/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2397,16 +2177,6 @@
     "missing_stubs": []
   },
   "/service-areas/zebulon-nc/burst-pipe-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/zebulon-nc/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2437,16 +2207,6 @@
     "missing_stubs": []
   },
   "/service-areas/zebulon-nc/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/zebulon-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2666,16 +2426,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/wendell-nc/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/wendell-nc/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2687,16 +2437,6 @@
     "missing_stubs": []
   },
   "/service-areas/wendell-nc/burst-pipe-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wendell-nc/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2727,16 +2467,6 @@
     "missing_stubs": []
   },
   "/service-areas/wendell-nc/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wendell-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2956,16 +2686,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/archer-lodge-nc/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/archer-lodge-nc/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2977,16 +2697,6 @@
     "missing_stubs": []
   },
   "/service-areas/archer-lodge-nc/burst-pipe-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/archer-lodge-nc/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3017,16 +2727,6 @@
     "missing_stubs": []
   },
   "/service-areas/archer-lodge-nc/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/archer-lodge-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3246,16 +2946,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lake-royale-nc/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lake-royale-nc/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3267,16 +2957,6 @@
     "missing_stubs": []
   },
   "/service-areas/lake-royale-nc/burst-pipe-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lake-royale-nc/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3307,16 +2987,6 @@
     "missing_stubs": []
   },
   "/service-areas/lake-royale-nc/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lake-royale-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3536,16 +3206,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/spring-hope-nc/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/spring-hope-nc/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3557,16 +3217,6 @@
     "missing_stubs": []
   },
   "/service-areas/spring-hope-nc/burst-pipe-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/spring-hope-nc/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3597,16 +3247,6 @@
     "missing_stubs": []
   },
   "/service-areas/spring-hope-nc/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/spring-hope-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3826,16 +3466,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/kenly-nc/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/kenly-nc/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3847,16 +3477,6 @@
     "missing_stubs": []
   },
   "/service-areas/kenly-nc/burst-pipe-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/kenly-nc/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3887,16 +3507,6 @@
     "missing_stubs": []
   },
   "/service-areas/kenly-nc/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/kenly-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4116,16 +3726,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/clayton-nc/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/clayton-nc/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4137,16 +3737,6 @@
     "missing_stubs": []
   },
   "/service-areas/clayton-nc/burst-pipe-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/clayton-nc/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4177,16 +3767,6 @@
     "missing_stubs": []
   },
   "/service-areas/clayton-nc/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/clayton-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4406,16 +3986,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/knightdale-nc/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/knightdale-nc/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4427,16 +3997,6 @@
     "missing_stubs": []
   },
   "/service-areas/knightdale-nc/burst-pipe-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/knightdale-nc/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4467,16 +4027,6 @@
     "missing_stubs": []
   },
   "/service-areas/knightdale-nc/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/knightdale-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4696,16 +4246,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/wilson-s-mills-nc/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/wilson-s-mills-nc/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4717,16 +4257,6 @@
     "missing_stubs": []
   },
   "/service-areas/wilson-s-mills-nc/burst-pipe-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wilson-s-mills-nc/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4757,16 +4287,6 @@
     "missing_stubs": []
   },
   "/service-areas/wilson-s-mills-nc/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wilson-s-mills-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4986,16 +4506,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/rolesville-nc/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/rolesville-nc/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5007,16 +4517,6 @@
     "missing_stubs": []
   },
   "/service-areas/rolesville-nc/burst-pipe-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/rolesville-nc/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5047,16 +4547,6 @@
     "missing_stubs": []
   },
   "/service-areas/rolesville-nc/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/rolesville-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5276,16 +4766,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/selma-nc/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/selma-nc/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5297,16 +4777,6 @@
     "missing_stubs": []
   },
   "/service-areas/selma-nc/burst-pipe-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/selma-nc/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5337,16 +4807,6 @@
     "missing_stubs": []
   },
   "/service-areas/selma-nc/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/selma-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5566,16 +5026,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/nashville-nc/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/nashville-nc/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5587,16 +5037,6 @@
     "missing_stubs": []
   },
   "/service-areas/nashville-nc/burst-pipe-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/nashville-nc/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5627,16 +5067,6 @@
     "missing_stubs": []
   },
   "/service-areas/nashville-nc/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/nashville-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5856,16 +5286,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/elm-city-nc/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/elm-city-nc/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5877,16 +5297,6 @@
     "missing_stubs": []
   },
   "/service-areas/elm-city-nc/burst-pipe-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/elm-city-nc/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5917,16 +5327,6 @@
     "missing_stubs": []
   },
   "/service-areas/elm-city-nc/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/elm-city-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6146,16 +5546,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/pine-level-nc/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/pine-level-nc/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6167,16 +5557,6 @@
     "missing_stubs": []
   },
   "/service-areas/pine-level-nc/burst-pipe-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pine-level-nc/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6207,16 +5587,6 @@
     "missing_stubs": []
   },
   "/service-areas/pine-level-nc/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pine-level-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6436,16 +5806,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/louisburg-nc/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/louisburg-nc/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6457,16 +5817,6 @@
     "missing_stubs": []
   },
   "/service-areas/louisburg-nc/burst-pipe-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/louisburg-nc/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6497,16 +5847,6 @@
     "missing_stubs": []
   },
   "/service-areas/louisburg-nc/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/louisburg-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6726,16 +6066,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/youngsville-nc/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/youngsville-nc/basement-flooding-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6747,16 +6077,6 @@
     "missing_stubs": []
   },
   "/service-areas/youngsville-nc/burst-pipe-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/youngsville-nc/carpet-upholstery-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6787,16 +6107,6 @@
     "missing_stubs": []
   },
   "/service-areas/youngsville-nc/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/youngsville-nc/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

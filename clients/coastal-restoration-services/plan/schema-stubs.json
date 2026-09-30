@@ -78,16 +78,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/contents-restoration-storage/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/crawl-space-encapsulation/": {
     "archetype": "service-landing",
     "stubs": [
@@ -488,16 +478,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/vandenberg-village-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/vandenberg-village-ca/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -619,16 +599,6 @@
     "missing_stubs": []
   },
   "/service-areas/orcutt-ca/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/orcutt-ca/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -768,16 +738,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/los-alamos-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/los-alamos-ca/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -899,16 +859,6 @@
     "missing_stubs": []
   },
   "/service-areas/lompoc-ca/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lompoc-ca/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1048,16 +998,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/los-olivos-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/los-olivos-ca/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1179,16 +1119,6 @@
     "missing_stubs": []
   },
   "/service-areas/mission-hills-ca/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/mission-hills-ca/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1328,16 +1258,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/santa-ynez-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/santa-ynez-ca/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1459,16 +1379,6 @@
     "missing_stubs": []
   },
   "/service-areas/solvang-ca/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/solvang-ca/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1608,16 +1518,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/vandenberg-afb-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/vandenberg-afb-ca/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1739,16 +1639,6 @@
     "missing_stubs": []
   },
   "/service-areas/guadalupe-ca/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/guadalupe-ca/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1888,16 +1778,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/buellton-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/buellton-ca/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2019,16 +1899,6 @@
     "missing_stubs": []
   },
   "/service-areas/ballard-ca/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ballard-ca/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2168,16 +2038,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/arroyo-grande-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/arroyo-grande-ca/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2299,16 +2159,6 @@
     "missing_stubs": []
   },
   "/service-areas/avila-beach-ca/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/avila-beach-ca/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2448,16 +2298,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/cambria-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/cambria-ca/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2579,16 +2419,6 @@
     "missing_stubs": []
   },
   "/service-areas/el-paso-de-robles-ca/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/el-paso-de-robles-ca/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2728,16 +2558,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/grover-beach-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/grover-beach-ca/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2859,16 +2679,6 @@
     "missing_stubs": []
   },
   "/service-areas/los-berros-ca/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/los-berros-ca/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3008,16 +2818,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/nipomo-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/nipomo-ca/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3139,16 +2939,6 @@
     "missing_stubs": []
   },
   "/service-areas/oceano-ca/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/oceano-ca/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3288,16 +3078,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/san-luis-obispo-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/san-luis-obispo-ca/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3419,16 +3199,6 @@
     "missing_stubs": []
   },
   "/service-areas/templeton-ca/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/templeton-ca/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3568,16 +3338,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/santa-margarita-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/santa-margarita-ca/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3699,16 +3459,6 @@
     "missing_stubs": []
   },
   "/service-areas/pismo-beach-ca/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pismo-beach-ca/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3848,16 +3598,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/morro-bay-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/morro-bay-ca/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3979,16 +3719,6 @@
     "missing_stubs": []
   },
   "/service-areas/los-osos-ca/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/los-osos-ca/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4128,16 +3858,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/edna-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/edna-ca/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4259,16 +3979,6 @@
     "missing_stubs": []
   },
   "/service-areas/callender-ca/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/callender-ca/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4408,16 +4118,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/blacklake-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/blacklake-ca/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4539,16 +4239,6 @@
     "missing_stubs": []
   },
   "/service-areas/atascadero-ca/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/atascadero-ca/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

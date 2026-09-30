@@ -1107,56 +1107,6 @@
       ]
     },
     {
-      "url_path": "/services/soot-removal/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Soot Removal in Cranberry Township | FireDEX Butler",
-      "h1": "Soot Removal in Cranberry Township",
-      "meta_description": "24/7 soot removal in Cranberry Township and surrounding areas. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "soot removal cranberry township",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/aliquippa-pa/soot-removal/",
-        "/service-areas/allison-park-pa/soot-removal/",
-        "/service-areas/baden-pa/soot-removal/",
-        "/service-areas/beaver-falls-pa/soot-removal/",
-        "/service-areas/bell-acres-pa/soot-removal/",
-        "/service-areas/big-beaver-pa/soot-removal/",
-        "/service-areas/butler-pa/soot-removal/",
-        "/service-areas/economy-pa/soot-removal/",
-        "/service-areas/ellwood-city-pa/soot-removal/",
-        "/service-areas/evans-city-pa/soot-removal/",
-        "/service-areas/franklin-park-pa/soot-removal/",
-        "/service-areas/gibsonia-pa/soot-removal/"
-      ]
-    },
-    {
       "url_path": "/services/storm-damage-restoration/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -3267,50 +3217,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/wexford-pa/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Wexford, PA | FireDEX Butler",
-      "h1": "Soot Removal in Wexford",
-      "meta_description": "24/7 soot removal in Wexford, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "soot removal wexford",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/wexford-pa/",
-        "/service-areas/wexford-pa/fire-damage-restoration/",
-        "/service-areas/wexford-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/soot-removal/",
-        "/service-areas/allison-park-pa/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/wexford-pa/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4139,50 +4045,6 @@
         "/service-areas/mars-pa/mold-remediation/",
         "/service-areas/aliquippa-pa/smoke-damage-restoration/",
         "/service-areas/allison-park-pa/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/mars-pa/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Mars, PA | FireDEX Butler",
-      "h1": "Soot Removal in Mars",
-      "meta_description": "24/7 soot removal in Mars, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "soot removal mars",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/mars-pa/",
-        "/service-areas/mars-pa/fire-damage-restoration/",
-        "/service-areas/mars-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/soot-removal/",
-        "/service-areas/allison-park-pa/soot-removal/",
         "/contact/"
       ]
     },
@@ -5019,50 +4881,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/zelienople-pa/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Zelienople, PA | FireDEX Butler",
-      "h1": "Soot Removal in Zelienople",
-      "meta_description": "24/7 soot removal in Zelienople, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "soot removal zelienople",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/zelienople-pa/",
-        "/service-areas/zelienople-pa/fire-damage-restoration/",
-        "/service-areas/zelienople-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/soot-removal/",
-        "/service-areas/allison-park-pa/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/zelienople-pa/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5891,50 +5709,6 @@
         "/service-areas/evans-city-pa/mold-remediation/",
         "/service-areas/aliquippa-pa/smoke-damage-restoration/",
         "/service-areas/allison-park-pa/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/evans-city-pa/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Evans City, PA | FireDEX Butler",
-      "h1": "Soot Removal in Evans City",
-      "meta_description": "24/7 soot removal in Evans City, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "soot removal evans city",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/evans-city-pa/",
-        "/service-areas/evans-city-pa/fire-damage-restoration/",
-        "/service-areas/evans-city-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/soot-removal/",
-        "/service-areas/allison-park-pa/soot-removal/",
         "/contact/"
       ]
     },
@@ -6771,50 +6545,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/seven-fields-pa/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Seven Fields, PA | FireDEX Butler",
-      "h1": "Soot Removal in Seven Fields",
-      "meta_description": "24/7 soot removal in Seven Fields, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "soot removal seven fields",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/seven-fields-pa/",
-        "/service-areas/seven-fields-pa/fire-damage-restoration/",
-        "/service-areas/seven-fields-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/soot-removal/",
-        "/service-areas/allison-park-pa/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/seven-fields-pa/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7643,50 +7373,6 @@
         "/service-areas/butler-pa/mold-remediation/",
         "/service-areas/aliquippa-pa/smoke-damage-restoration/",
         "/service-areas/allison-park-pa/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/butler-pa/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Butler, PA | FireDEX Butler",
-      "h1": "Soot Removal in Butler",
-      "meta_description": "24/7 soot removal in Butler, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "soot removal butler",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/butler-pa/",
-        "/service-areas/butler-pa/fire-damage-restoration/",
-        "/service-areas/butler-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/soot-removal/",
-        "/service-areas/allison-park-pa/soot-removal/",
         "/contact/"
       ]
     },
@@ -8523,50 +8209,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/gibsonia-pa/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Gibsonia, PA | FireDEX Butler",
-      "h1": "Soot Removal in Gibsonia",
-      "meta_description": "24/7 soot removal in Gibsonia, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "soot removal gibsonia",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/gibsonia-pa/",
-        "/service-areas/gibsonia-pa/fire-damage-restoration/",
-        "/service-areas/gibsonia-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/soot-removal/",
-        "/service-areas/allison-park-pa/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/gibsonia-pa/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9395,50 +9037,6 @@
         "/service-areas/beaver-falls-pa/mold-remediation/",
         "/service-areas/aliquippa-pa/smoke-damage-restoration/",
         "/service-areas/allison-park-pa/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/beaver-falls-pa/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Beaver Falls, PA | FireDEX Butler",
-      "h1": "Soot Removal in Beaver Falls",
-      "meta_description": "24/7 soot removal in Beaver Falls, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "soot removal beaver falls",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/beaver-falls-pa/",
-        "/service-areas/beaver-falls-pa/fire-damage-restoration/",
-        "/service-areas/beaver-falls-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/soot-removal/",
-        "/service-areas/allison-park-pa/soot-removal/",
         "/contact/"
       ]
     },
@@ -10275,50 +9873,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/economy-pa/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Economy, PA | FireDEX Butler",
-      "h1": "Soot Removal in Economy",
-      "meta_description": "24/7 soot removal in Economy, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "soot removal economy",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/economy-pa/",
-        "/service-areas/economy-pa/fire-damage-restoration/",
-        "/service-areas/economy-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/soot-removal/",
-        "/service-areas/allison-park-pa/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/economy-pa/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -11147,50 +10701,6 @@
         "/service-areas/franklin-park-pa/mold-remediation/",
         "/service-areas/aliquippa-pa/smoke-damage-restoration/",
         "/service-areas/allison-park-pa/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/franklin-park-pa/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Franklin Park, PA | FireDEX Butler",
-      "h1": "Soot Removal in Franklin Park",
-      "meta_description": "24/7 soot removal in Franklin Park, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "soot removal franklin park",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/franklin-park-pa/",
-        "/service-areas/franklin-park-pa/fire-damage-restoration/",
-        "/service-areas/franklin-park-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/soot-removal/",
-        "/service-areas/allison-park-pa/soot-removal/",
         "/contact/"
       ]
     },
@@ -12027,50 +11537,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/baden-pa/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Baden, PA | FireDEX Butler",
-      "h1": "Soot Removal in Baden",
-      "meta_description": "24/7 soot removal in Baden, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "soot removal baden",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/baden-pa/",
-        "/service-areas/baden-pa/fire-damage-restoration/",
-        "/service-areas/baden-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/soot-removal/",
-        "/service-areas/allison-park-pa/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/baden-pa/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12899,50 +12365,6 @@
         "/service-areas/bell-acres-pa/mold-remediation/",
         "/service-areas/aliquippa-pa/smoke-damage-restoration/",
         "/service-areas/allison-park-pa/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/bell-acres-pa/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Bell Acres, PA | FireDEX Butler",
-      "h1": "Soot Removal in Bell Acres",
-      "meta_description": "24/7 soot removal in Bell Acres, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "soot removal bell acres",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/bell-acres-pa/",
-        "/service-areas/bell-acres-pa/fire-damage-restoration/",
-        "/service-areas/bell-acres-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/soot-removal/",
-        "/service-areas/allison-park-pa/soot-removal/",
         "/contact/"
       ]
     },
@@ -13779,50 +13201,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/monaca-pa/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Monaca, PA | FireDEX Butler",
-      "h1": "Soot Removal in Monaca",
-      "meta_description": "24/7 soot removal in Monaca, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "soot removal monaca",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/monaca-pa/",
-        "/service-areas/monaca-pa/fire-damage-restoration/",
-        "/service-areas/monaca-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/soot-removal/",
-        "/service-areas/allison-park-pa/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/monaca-pa/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14651,50 +14029,6 @@
         "/service-areas/sewickley-heights-pa/mold-remediation/",
         "/service-areas/aliquippa-pa/smoke-damage-restoration/",
         "/service-areas/allison-park-pa/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sewickley-heights-pa/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Sewickley Heights, PA | FireDEX Butler",
-      "h1": "Soot Removal in Sewickley Heights",
-      "meta_description": "24/7 soot removal in Sewickley Heights, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "soot removal sewickley heights",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/sewickley-heights-pa/",
-        "/service-areas/sewickley-heights-pa/fire-damage-restoration/",
-        "/service-areas/sewickley-heights-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/soot-removal/",
-        "/service-areas/allison-park-pa/soot-removal/",
         "/contact/"
       ]
     },
@@ -15531,50 +14865,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/aliquippa-pa/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Aliquippa, PA | FireDEX Butler",
-      "h1": "Soot Removal in Aliquippa",
-      "meta_description": "24/7 soot removal in Aliquippa, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "soot removal aliquippa",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/aliquippa-pa/",
-        "/service-areas/aliquippa-pa/fire-damage-restoration/",
-        "/service-areas/aliquippa-pa/mold-remediation/",
-        "/service-areas/allison-park-pa/soot-removal/",
-        "/service-areas/baden-pa/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/aliquippa-pa/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -16403,50 +15693,6 @@
         "/service-areas/sewickley-hills-pa/mold-remediation/",
         "/service-areas/aliquippa-pa/smoke-damage-restoration/",
         "/service-areas/allison-park-pa/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sewickley-hills-pa/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Sewickley Hills, PA | FireDEX Butler",
-      "h1": "Soot Removal in Sewickley Hills",
-      "meta_description": "24/7 soot removal in Sewickley Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "soot removal sewickley hills",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/sewickley-hills-pa/",
-        "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
-        "/service-areas/sewickley-hills-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/soot-removal/",
-        "/service-areas/allison-park-pa/soot-removal/",
         "/contact/"
       ]
     },
@@ -17283,50 +16529,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/allison-park-pa/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Allison Park, PA | FireDEX Butler",
-      "h1": "Soot Removal in Allison Park",
-      "meta_description": "24/7 soot removal in Allison Park, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "soot removal allison park",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/allison-park-pa/",
-        "/service-areas/allison-park-pa/fire-damage-restoration/",
-        "/service-areas/allison-park-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/soot-removal/",
-        "/service-areas/baden-pa/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/allison-park-pa/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -18155,50 +17357,6 @@
         "/service-areas/prospect-pa/mold-remediation/",
         "/service-areas/aliquippa-pa/smoke-damage-restoration/",
         "/service-areas/allison-park-pa/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/prospect-pa/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Prospect, PA | FireDEX Butler",
-      "h1": "Soot Removal in Prospect",
-      "meta_description": "24/7 soot removal in Prospect, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "soot removal prospect",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/prospect-pa/",
-        "/service-areas/prospect-pa/fire-damage-restoration/",
-        "/service-areas/prospect-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/soot-removal/",
-        "/service-areas/allison-park-pa/soot-removal/",
         "/contact/"
       ]
     },
@@ -19035,50 +18193,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/oak-hills-pa/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Oak Hills, PA | FireDEX Butler",
-      "h1": "Soot Removal in Oak Hills",
-      "meta_description": "24/7 soot removal in Oak Hills, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "soot removal oak hills",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/oak-hills-pa/",
-        "/service-areas/oak-hills-pa/fire-damage-restoration/",
-        "/service-areas/oak-hills-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/soot-removal/",
-        "/service-areas/allison-park-pa/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/oak-hills-pa/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -19907,50 +19021,6 @@
         "/service-areas/glenshaw-pa/mold-remediation/",
         "/service-areas/aliquippa-pa/smoke-damage-restoration/",
         "/service-areas/allison-park-pa/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/glenshaw-pa/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Glenshaw, PA | FireDEX Butler",
-      "h1": "Soot Removal in Glenshaw",
-      "meta_description": "24/7 soot removal in Glenshaw, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "soot removal glenshaw",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/glenshaw-pa/",
-        "/service-areas/glenshaw-pa/fire-damage-restoration/",
-        "/service-areas/glenshaw-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/soot-removal/",
-        "/service-areas/allison-park-pa/soot-removal/",
         "/contact/"
       ]
     },
@@ -20787,50 +19857,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/ellwood-city-pa/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Ellwood City, PA | FireDEX Butler",
-      "h1": "Soot Removal in Ellwood City",
-      "meta_description": "24/7 soot removal in Ellwood City, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "soot removal ellwood city",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/ellwood-city-pa/",
-        "/service-areas/ellwood-city-pa/fire-damage-restoration/",
-        "/service-areas/ellwood-city-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/soot-removal/",
-        "/service-areas/allison-park-pa/soot-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/ellwood-city-pa/storm-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -21659,50 +20685,6 @@
         "/service-areas/big-beaver-pa/mold-remediation/",
         "/service-areas/aliquippa-pa/smoke-damage-restoration/",
         "/service-areas/allison-park-pa/smoke-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/big-beaver-pa/soot-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Soot Removal in Big Beaver, PA | FireDEX Butler",
-      "h1": "Soot Removal in Big Beaver",
-      "meta_description": "24/7 soot removal in Big Beaver, PA. Insurance billing accepted. Call (724) 452-7400.",
-      "primary_keyword": "soot removal big beaver",
-      "secondary_keywords": [
-        "soot cleaning",
-        "soot residue removal",
-        "post-fire soot cleanup",
-        "soot damage cleanup",
-        "soot wall cleaning"
-      ],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/soot-removal/",
-        "/service-areas/big-beaver-pa/",
-        "/service-areas/big-beaver-pa/fire-damage-restoration/",
-        "/service-areas/big-beaver-pa/mold-remediation/",
-        "/service-areas/aliquippa-pa/soot-removal/",
-        "/service-areas/allison-park-pa/soot-removal/",
         "/contact/"
       ]
     },

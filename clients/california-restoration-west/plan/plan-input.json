@@ -31,7 +31,6 @@
   },
   "services": [
     "contents-restoration",
-    "contents-restoration-storage",
     "crawl-space-encapsulation",
     "mold-remediation",
     "odor-removal",

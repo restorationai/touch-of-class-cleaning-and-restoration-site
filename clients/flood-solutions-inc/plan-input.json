@@ -95,5 +95,16 @@
     "reconstruction",
     "general-contracting",
     "emergency-plumbing"
-  ]
+  ],
+  "homepage_services": [
+    "water-damage-restoration",
+    "fire-damage-restoration",
+    "sewage-cleanup",
+    "emergency-board-up",
+    "content-recovery",
+    "ice-dams"
+  ],
+  "merged_services": {
+    "emergency-water-removal": "water-damage-restoration"
+  }
 }

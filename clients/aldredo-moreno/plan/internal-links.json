@@ -9,7 +9,6 @@
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
     "/services/emergency-plumbing/",
-    "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
     "/services/sewage-cleanup/",
@@ -26,8 +25,6 @@
     "/services/water-heater-flood-cleanup/",
     "/services/water-leak-detection/",
     "/services/air-duct-cleaning/",
-    "/services/air-duct-hvac-cleaning/",
-    "/services/carpet-upholstery-cleaning/",
     "/services/junk-debris-removal/",
     "/services/carpet-cleaning/",
     "/services/tile-grout-cleaning/",
@@ -54,7 +51,6 @@
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
     "/services/emergency-plumbing/",
-    "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
     "/services/sewage-cleanup/",
@@ -71,8 +67,6 @@
     "/services/water-heater-flood-cleanup/",
     "/services/water-leak-detection/",
     "/services/air-duct-cleaning/",
-    "/services/air-duct-hvac-cleaning/",
-    "/services/carpet-upholstery-cleaning/",
     "/services/junk-debris-removal/",
     "/services/carpet-cleaning/",
     "/services/tile-grout-cleaning/"
@@ -132,22 +126,6 @@
     "/service-areas/monahans-tx/air-duct-cleaning/",
     "/service-areas/odessa-tx/air-duct-cleaning/"
   ],
-  "/services/air-duct-hvac-cleaning/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-    "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-    "/service-areas/big-spring-tx/air-duct-hvac-cleaning/",
-    "/service-areas/crane-tx/air-duct-hvac-cleaning/",
-    "/service-areas/garden-city-tx/air-duct-hvac-cleaning/",
-    "/service-areas/gardendale-tx/air-duct-hvac-cleaning/",
-    "/service-areas/goldsmith-tx/air-duct-hvac-cleaning/",
-    "/service-areas/greenwood-tx/air-duct-hvac-cleaning/",
-    "/service-areas/imperial-tx/air-duct-hvac-cleaning/",
-    "/service-areas/mccamey-tx/air-duct-hvac-cleaning/",
-    "/service-areas/monahans-tx/air-duct-hvac-cleaning/",
-    "/service-areas/odessa-tx/air-duct-hvac-cleaning/"
-  ],
   "/services/carpet-cleaning/": [
     "/services/",
     "/contact/",
@@ -163,22 +141,6 @@
     "/service-areas/mccamey-tx/carpet-cleaning/",
     "/service-areas/monahans-tx/carpet-cleaning/",
     "/service-areas/odessa-tx/carpet-cleaning/"
-  ],
-  "/services/carpet-upholstery-cleaning/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-    "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
-    "/service-areas/big-spring-tx/carpet-upholstery-cleaning/",
-    "/service-areas/crane-tx/carpet-upholstery-cleaning/",
-    "/service-areas/garden-city-tx/carpet-upholstery-cleaning/",
-    "/service-areas/gardendale-tx/carpet-upholstery-cleaning/",
-    "/service-areas/goldsmith-tx/carpet-upholstery-cleaning/",
-    "/service-areas/greenwood-tx/carpet-upholstery-cleaning/",
-    "/service-areas/imperial-tx/carpet-upholstery-cleaning/",
-    "/service-areas/mccamey-tx/carpet-upholstery-cleaning/",
-    "/service-areas/monahans-tx/carpet-upholstery-cleaning/",
-    "/service-areas/odessa-tx/carpet-upholstery-cleaning/"
   ],
   "/services/junk-debris-removal/": [
     "/services/",
@@ -528,22 +490,6 @@
     "/service-areas/monahans-tx/water-leak-detection/",
     "/service-areas/odessa-tx/water-leak-detection/"
   ],
-  "/services/emergency-water-removal/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/andrews-tx/emergency-water-removal/",
-    "/service-areas/big-lake-tx/emergency-water-removal/",
-    "/service-areas/big-spring-tx/emergency-water-removal/",
-    "/service-areas/crane-tx/emergency-water-removal/",
-    "/service-areas/garden-city-tx/emergency-water-removal/",
-    "/service-areas/gardendale-tx/emergency-water-removal/",
-    "/service-areas/goldsmith-tx/emergency-water-removal/",
-    "/service-areas/greenwood-tx/emergency-water-removal/",
-    "/service-areas/imperial-tx/emergency-water-removal/",
-    "/service-areas/mccamey-tx/emergency-water-removal/",
-    "/service-areas/monahans-tx/emergency-water-removal/",
-    "/service-areas/odessa-tx/emergency-water-removal/"
-  ],
   "/services/emergency-plumbing/": [
     "/services/",
     "/contact/",
@@ -568,7 +514,6 @@
     "/service-areas/odessa-tx/water-damage-restoration/",
     "/service-areas/odessa-tx/commercial-restoration/",
     "/service-areas/odessa-tx/emergency-plumbing/",
-    "/service-areas/odessa-tx/emergency-water-removal/",
     "/service-areas/odessa-tx/flood-damage-restoration/",
     "/service-areas/odessa-tx/reconstruction/",
     "/service-areas/odessa-tx/sewage-cleanup/",
@@ -585,8 +530,6 @@
     "/service-areas/odessa-tx/water-heater-flood-cleanup/",
     "/service-areas/odessa-tx/water-leak-detection/",
     "/service-areas/odessa-tx/air-duct-cleaning/",
-    "/service-areas/odessa-tx/air-duct-hvac-cleaning/",
-    "/service-areas/odessa-tx/carpet-upholstery-cleaning/",
     "/service-areas/odessa-tx/junk-debris-removal/",
     "/service-areas/odessa-tx/carpet-cleaning/",
     "/service-areas/odessa-tx/tile-grout-cleaning/",
@@ -602,7 +545,6 @@
     "/service-areas/big-spring-tx/water-damage-restoration/",
     "/service-areas/big-spring-tx/commercial-restoration/",
     "/service-areas/big-spring-tx/emergency-plumbing/",
-    "/service-areas/big-spring-tx/emergency-water-removal/",
     "/service-areas/big-spring-tx/flood-damage-restoration/",
     "/service-areas/big-spring-tx/reconstruction/",
     "/service-areas/big-spring-tx/sewage-cleanup/",
@@ -619,8 +561,6 @@
     "/service-areas/big-spring-tx/water-heater-flood-cleanup/",
     "/service-areas/big-spring-tx/water-leak-detection/",
     "/service-areas/big-spring-tx/air-duct-cleaning/",
-    "/service-areas/big-spring-tx/air-duct-hvac-cleaning/",
-    "/service-areas/big-spring-tx/carpet-upholstery-cleaning/",
     "/service-areas/big-spring-tx/junk-debris-removal/",
     "/service-areas/big-spring-tx/carpet-cleaning/",
     "/service-areas/big-spring-tx/tile-grout-cleaning/",
@@ -636,7 +576,6 @@
     "/service-areas/stanton-tx/water-damage-restoration/",
     "/service-areas/stanton-tx/commercial-restoration/",
     "/service-areas/stanton-tx/emergency-plumbing/",
-    "/service-areas/stanton-tx/emergency-water-removal/",
     "/service-areas/stanton-tx/flood-damage-restoration/",
     "/service-areas/stanton-tx/reconstruction/",
     "/service-areas/stanton-tx/sewage-cleanup/",
@@ -653,8 +592,6 @@
     "/service-areas/stanton-tx/water-heater-flood-cleanup/",
     "/service-areas/stanton-tx/water-leak-detection/",
     "/service-areas/stanton-tx/air-duct-cleaning/",
-    "/service-areas/stanton-tx/air-duct-hvac-cleaning/",
-    "/service-areas/stanton-tx/carpet-upholstery-cleaning/",
     "/service-areas/stanton-tx/junk-debris-removal/",
     "/service-areas/stanton-tx/carpet-cleaning/",
     "/service-areas/stanton-tx/tile-grout-cleaning/",
@@ -670,7 +607,6 @@
     "/service-areas/andrews-tx/water-damage-restoration/",
     "/service-areas/andrews-tx/commercial-restoration/",
     "/service-areas/andrews-tx/emergency-plumbing/",
-    "/service-areas/andrews-tx/emergency-water-removal/",
     "/service-areas/andrews-tx/flood-damage-restoration/",
     "/service-areas/andrews-tx/reconstruction/",
     "/service-areas/andrews-tx/sewage-cleanup/",
@@ -687,8 +623,6 @@
     "/service-areas/andrews-tx/water-heater-flood-cleanup/",
     "/service-areas/andrews-tx/water-leak-detection/",
     "/service-areas/andrews-tx/air-duct-cleaning/",
-    "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-    "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
     "/service-areas/andrews-tx/junk-debris-removal/",
     "/service-areas/andrews-tx/carpet-cleaning/",
     "/service-areas/andrews-tx/tile-grout-cleaning/",
@@ -704,7 +638,6 @@
     "/service-areas/gardendale-tx/water-damage-restoration/",
     "/service-areas/gardendale-tx/commercial-restoration/",
     "/service-areas/gardendale-tx/emergency-plumbing/",
-    "/service-areas/gardendale-tx/emergency-water-removal/",
     "/service-areas/gardendale-tx/flood-damage-restoration/",
     "/service-areas/gardendale-tx/reconstruction/",
     "/service-areas/gardendale-tx/sewage-cleanup/",
@@ -721,8 +654,6 @@
     "/service-areas/gardendale-tx/water-heater-flood-cleanup/",
     "/service-areas/gardendale-tx/water-leak-detection/",
     "/service-areas/gardendale-tx/air-duct-cleaning/",
-    "/service-areas/gardendale-tx/air-duct-hvac-cleaning/",
-    "/service-areas/gardendale-tx/carpet-upholstery-cleaning/",
     "/service-areas/gardendale-tx/junk-debris-removal/",
     "/service-areas/gardendale-tx/carpet-cleaning/",
     "/service-areas/gardendale-tx/tile-grout-cleaning/",
@@ -738,7 +669,6 @@
     "/service-areas/greenwood-tx/water-damage-restoration/",
     "/service-areas/greenwood-tx/commercial-restoration/",
     "/service-areas/greenwood-tx/emergency-plumbing/",
-    "/service-areas/greenwood-tx/emergency-water-removal/",
     "/service-areas/greenwood-tx/flood-damage-restoration/",
     "/service-areas/greenwood-tx/reconstruction/",
     "/service-areas/greenwood-tx/sewage-cleanup/",
@@ -755,8 +685,6 @@
     "/service-areas/greenwood-tx/water-heater-flood-cleanup/",
     "/service-areas/greenwood-tx/water-leak-detection/",
     "/service-areas/greenwood-tx/air-duct-cleaning/",
-    "/service-areas/greenwood-tx/air-duct-hvac-cleaning/",
-    "/service-areas/greenwood-tx/carpet-upholstery-cleaning/",
     "/service-areas/greenwood-tx/junk-debris-removal/",
     "/service-areas/greenwood-tx/carpet-cleaning/",
     "/service-areas/greenwood-tx/tile-grout-cleaning/",
@@ -772,7 +700,6 @@
     "/service-areas/goldsmith-tx/water-damage-restoration/",
     "/service-areas/goldsmith-tx/commercial-restoration/",
     "/service-areas/goldsmith-tx/emergency-plumbing/",
-    "/service-areas/goldsmith-tx/emergency-water-removal/",
     "/service-areas/goldsmith-tx/flood-damage-restoration/",
     "/service-areas/goldsmith-tx/reconstruction/",
     "/service-areas/goldsmith-tx/sewage-cleanup/",
@@ -789,8 +716,6 @@
     "/service-areas/goldsmith-tx/water-heater-flood-cleanup/",
     "/service-areas/goldsmith-tx/water-leak-detection/",
     "/service-areas/goldsmith-tx/air-duct-cleaning/",
-    "/service-areas/goldsmith-tx/air-duct-hvac-cleaning/",
-    "/service-areas/goldsmith-tx/carpet-upholstery-cleaning/",
     "/service-areas/goldsmith-tx/junk-debris-removal/",
     "/service-areas/goldsmith-tx/carpet-cleaning/",
     "/service-areas/goldsmith-tx/tile-grout-cleaning/",
@@ -806,7 +731,6 @@
     "/service-areas/west-odessa-tx/water-damage-restoration/",
     "/service-areas/west-odessa-tx/commercial-restoration/",
     "/service-areas/west-odessa-tx/emergency-plumbing/",
-    "/service-areas/west-odessa-tx/emergency-water-removal/",
     "/service-areas/west-odessa-tx/flood-damage-restoration/",
     "/service-areas/west-odessa-tx/reconstruction/",
     "/service-areas/west-odessa-tx/sewage-cleanup/",
@@ -823,8 +747,6 @@
     "/service-areas/west-odessa-tx/water-heater-flood-cleanup/",
     "/service-areas/west-odessa-tx/water-leak-detection/",
     "/service-areas/west-odessa-tx/air-duct-cleaning/",
-    "/service-areas/west-odessa-tx/air-duct-hvac-cleaning/",
-    "/service-areas/west-odessa-tx/carpet-upholstery-cleaning/",
     "/service-areas/west-odessa-tx/junk-debris-removal/",
     "/service-areas/west-odessa-tx/carpet-cleaning/",
     "/service-areas/west-odessa-tx/tile-grout-cleaning/",
@@ -840,7 +762,6 @@
     "/service-areas/garden-city-tx/water-damage-restoration/",
     "/service-areas/garden-city-tx/commercial-restoration/",
     "/service-areas/garden-city-tx/emergency-plumbing/",
-    "/service-areas/garden-city-tx/emergency-water-removal/",
     "/service-areas/garden-city-tx/flood-damage-restoration/",
     "/service-areas/garden-city-tx/reconstruction/",
     "/service-areas/garden-city-tx/sewage-cleanup/",
@@ -857,8 +778,6 @@
     "/service-areas/garden-city-tx/water-heater-flood-cleanup/",
     "/service-areas/garden-city-tx/water-leak-detection/",
     "/service-areas/garden-city-tx/air-duct-cleaning/",
-    "/service-areas/garden-city-tx/air-duct-hvac-cleaning/",
-    "/service-areas/garden-city-tx/carpet-upholstery-cleaning/",
     "/service-areas/garden-city-tx/junk-debris-removal/",
     "/service-areas/garden-city-tx/carpet-cleaning/",
     "/service-areas/garden-city-tx/tile-grout-cleaning/",
@@ -874,7 +793,6 @@
     "/service-areas/crane-tx/water-damage-restoration/",
     "/service-areas/crane-tx/commercial-restoration/",
     "/service-areas/crane-tx/emergency-plumbing/",
-    "/service-areas/crane-tx/emergency-water-removal/",
     "/service-areas/crane-tx/flood-damage-restoration/",
     "/service-areas/crane-tx/reconstruction/",
     "/service-areas/crane-tx/sewage-cleanup/",
@@ -891,8 +809,6 @@
     "/service-areas/crane-tx/water-heater-flood-cleanup/",
     "/service-areas/crane-tx/water-leak-detection/",
     "/service-areas/crane-tx/air-duct-cleaning/",
-    "/service-areas/crane-tx/air-duct-hvac-cleaning/",
-    "/service-areas/crane-tx/carpet-upholstery-cleaning/",
     "/service-areas/crane-tx/junk-debris-removal/",
     "/service-areas/crane-tx/carpet-cleaning/",
     "/service-areas/crane-tx/tile-grout-cleaning/",
@@ -908,7 +824,6 @@
     "/service-areas/monahans-tx/water-damage-restoration/",
     "/service-areas/monahans-tx/commercial-restoration/",
     "/service-areas/monahans-tx/emergency-plumbing/",
-    "/service-areas/monahans-tx/emergency-water-removal/",
     "/service-areas/monahans-tx/flood-damage-restoration/",
     "/service-areas/monahans-tx/reconstruction/",
     "/service-areas/monahans-tx/sewage-cleanup/",
@@ -925,8 +840,6 @@
     "/service-areas/monahans-tx/water-heater-flood-cleanup/",
     "/service-areas/monahans-tx/water-leak-detection/",
     "/service-areas/monahans-tx/air-duct-cleaning/",
-    "/service-areas/monahans-tx/air-duct-hvac-cleaning/",
-    "/service-areas/monahans-tx/carpet-upholstery-cleaning/",
     "/service-areas/monahans-tx/junk-debris-removal/",
     "/service-areas/monahans-tx/carpet-cleaning/",
     "/service-areas/monahans-tx/tile-grout-cleaning/",
@@ -942,7 +855,6 @@
     "/service-areas/mccamey-tx/water-damage-restoration/",
     "/service-areas/mccamey-tx/commercial-restoration/",
     "/service-areas/mccamey-tx/emergency-plumbing/",
-    "/service-areas/mccamey-tx/emergency-water-removal/",
     "/service-areas/mccamey-tx/flood-damage-restoration/",
     "/service-areas/mccamey-tx/reconstruction/",
     "/service-areas/mccamey-tx/sewage-cleanup/",
@@ -959,8 +871,6 @@
     "/service-areas/mccamey-tx/water-heater-flood-cleanup/",
     "/service-areas/mccamey-tx/water-leak-detection/",
     "/service-areas/mccamey-tx/air-duct-cleaning/",
-    "/service-areas/mccamey-tx/air-duct-hvac-cleaning/",
-    "/service-areas/mccamey-tx/carpet-upholstery-cleaning/",
     "/service-areas/mccamey-tx/junk-debris-removal/",
     "/service-areas/mccamey-tx/carpet-cleaning/",
     "/service-areas/mccamey-tx/tile-grout-cleaning/",
@@ -976,7 +886,6 @@
     "/service-areas/southwest-sandhill-tx/water-damage-restoration/",
     "/service-areas/southwest-sandhill-tx/commercial-restoration/",
     "/service-areas/southwest-sandhill-tx/emergency-plumbing/",
-    "/service-areas/southwest-sandhill-tx/emergency-water-removal/",
     "/service-areas/southwest-sandhill-tx/flood-damage-restoration/",
     "/service-areas/southwest-sandhill-tx/reconstruction/",
     "/service-areas/southwest-sandhill-tx/sewage-cleanup/",
@@ -993,8 +902,6 @@
     "/service-areas/southwest-sandhill-tx/water-heater-flood-cleanup/",
     "/service-areas/southwest-sandhill-tx/water-leak-detection/",
     "/service-areas/southwest-sandhill-tx/air-duct-cleaning/",
-    "/service-areas/southwest-sandhill-tx/air-duct-hvac-cleaning/",
-    "/service-areas/southwest-sandhill-tx/carpet-upholstery-cleaning/",
     "/service-areas/southwest-sandhill-tx/junk-debris-removal/",
     "/service-areas/southwest-sandhill-tx/carpet-cleaning/",
     "/service-areas/southwest-sandhill-tx/tile-grout-cleaning/",
@@ -1010,7 +917,6 @@
     "/service-areas/big-lake-tx/water-damage-restoration/",
     "/service-areas/big-lake-tx/commercial-restoration/",
     "/service-areas/big-lake-tx/emergency-plumbing/",
-    "/service-areas/big-lake-tx/emergency-water-removal/",
     "/service-areas/big-lake-tx/flood-damage-restoration/",
     "/service-areas/big-lake-tx/reconstruction/",
     "/service-areas/big-lake-tx/sewage-cleanup/",
@@ -1027,8 +933,6 @@
     "/service-areas/big-lake-tx/water-heater-flood-cleanup/",
     "/service-areas/big-lake-tx/water-leak-detection/",
     "/service-areas/big-lake-tx/air-duct-cleaning/",
-    "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-    "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
     "/service-areas/big-lake-tx/junk-debris-removal/",
     "/service-areas/big-lake-tx/carpet-cleaning/",
     "/service-areas/big-lake-tx/tile-grout-cleaning/",
@@ -1044,7 +948,6 @@
     "/service-areas/imperial-tx/water-damage-restoration/",
     "/service-areas/imperial-tx/commercial-restoration/",
     "/service-areas/imperial-tx/emergency-plumbing/",
-    "/service-areas/imperial-tx/emergency-water-removal/",
     "/service-areas/imperial-tx/flood-damage-restoration/",
     "/service-areas/imperial-tx/reconstruction/",
     "/service-areas/imperial-tx/sewage-cleanup/",
@@ -1061,8 +964,6 @@
     "/service-areas/imperial-tx/water-heater-flood-cleanup/",
     "/service-areas/imperial-tx/water-leak-detection/",
     "/service-areas/imperial-tx/air-duct-cleaning/",
-    "/service-areas/imperial-tx/air-duct-hvac-cleaning/",
-    "/service-areas/imperial-tx/carpet-upholstery-cleaning/",
     "/service-areas/imperial-tx/junk-debris-removal/",
     "/service-areas/imperial-tx/carpet-cleaning/",
     "/service-areas/imperial-tx/tile-grout-cleaning/",
@@ -1079,15 +980,6 @@
     "/service-areas/big-lake-tx/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/odessa-tx/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/odessa-tx/",
-    "/service-areas/odessa-tx/fire-damage-restoration/",
-    "/service-areas/odessa-tx/mold-remediation/",
-    "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-    "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/odessa-tx/carpet-cleaning/": [
     "/services/carpet-cleaning/",
     "/service-areas/odessa-tx/",
@@ -1095,15 +987,6 @@
     "/service-areas/odessa-tx/mold-remediation/",
     "/service-areas/andrews-tx/carpet-cleaning/",
     "/service-areas/big-lake-tx/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/odessa-tx/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/odessa-tx/",
-    "/service-areas/odessa-tx/fire-damage-restoration/",
-    "/service-areas/odessa-tx/mold-remediation/",
-    "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-    "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/odessa-tx/junk-debris-removal/": [
@@ -1295,15 +1178,6 @@
     "/service-areas/big-lake-tx/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/odessa-tx/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/odessa-tx/",
-    "/service-areas/odessa-tx/fire-damage-restoration/",
-    "/service-areas/odessa-tx/mold-remediation/",
-    "/service-areas/andrews-tx/emergency-water-removal/",
-    "/service-areas/big-lake-tx/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/odessa-tx/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/odessa-tx/",
@@ -1322,15 +1196,6 @@
     "/service-areas/big-lake-tx/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/big-spring-tx/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/big-spring-tx/",
-    "/service-areas/big-spring-tx/fire-damage-restoration/",
-    "/service-areas/big-spring-tx/mold-remediation/",
-    "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-    "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/big-spring-tx/carpet-cleaning/": [
     "/services/carpet-cleaning/",
     "/service-areas/big-spring-tx/",
@@ -1338,15 +1203,6 @@
     "/service-areas/big-spring-tx/mold-remediation/",
     "/service-areas/andrews-tx/carpet-cleaning/",
     "/service-areas/big-lake-tx/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/big-spring-tx/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/big-spring-tx/",
-    "/service-areas/big-spring-tx/fire-damage-restoration/",
-    "/service-areas/big-spring-tx/mold-remediation/",
-    "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-    "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/big-spring-tx/junk-debris-removal/": [
@@ -1538,15 +1394,6 @@
     "/service-areas/big-lake-tx/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/big-spring-tx/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/big-spring-tx/",
-    "/service-areas/big-spring-tx/fire-damage-restoration/",
-    "/service-areas/big-spring-tx/mold-remediation/",
-    "/service-areas/andrews-tx/emergency-water-removal/",
-    "/service-areas/big-lake-tx/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/big-spring-tx/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/big-spring-tx/",
@@ -1565,15 +1412,6 @@
     "/service-areas/big-lake-tx/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/stanton-tx/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/stanton-tx/",
-    "/service-areas/stanton-tx/fire-damage-restoration/",
-    "/service-areas/stanton-tx/mold-remediation/",
-    "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-    "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/stanton-tx/carpet-cleaning/": [
     "/services/carpet-cleaning/",
     "/service-areas/stanton-tx/",
@@ -1581,15 +1419,6 @@
     "/service-areas/stanton-tx/mold-remediation/",
     "/service-areas/andrews-tx/carpet-cleaning/",
     "/service-areas/big-lake-tx/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/stanton-tx/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/stanton-tx/",
-    "/service-areas/stanton-tx/fire-damage-restoration/",
-    "/service-areas/stanton-tx/mold-remediation/",
-    "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-    "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/stanton-tx/junk-debris-removal/": [
@@ -1781,15 +1610,6 @@
     "/service-areas/big-lake-tx/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/stanton-tx/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/stanton-tx/",
-    "/service-areas/stanton-tx/fire-damage-restoration/",
-    "/service-areas/stanton-tx/mold-remediation/",
-    "/service-areas/andrews-tx/emergency-water-removal/",
-    "/service-areas/big-lake-tx/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/stanton-tx/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/stanton-tx/",
@@ -1808,15 +1628,6 @@
     "/service-areas/big-spring-tx/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/andrews-tx/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/andrews-tx/",
-    "/service-areas/andrews-tx/fire-damage-restoration/",
-    "/service-areas/andrews-tx/mold-remediation/",
-    "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-    "/service-areas/big-spring-tx/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/andrews-tx/carpet-cleaning/": [
     "/services/carpet-cleaning/",
     "/service-areas/andrews-tx/",
@@ -1824,15 +1635,6 @@
     "/service-areas/andrews-tx/mold-remediation/",
     "/service-areas/big-lake-tx/carpet-cleaning/",
     "/service-areas/big-spring-tx/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/andrews-tx/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/andrews-tx/",
-    "/service-areas/andrews-tx/fire-damage-restoration/",
-    "/service-areas/andrews-tx/mold-remediation/",
-    "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
-    "/service-areas/big-spring-tx/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/andrews-tx/junk-debris-removal/": [
@@ -2024,15 +1826,6 @@
     "/service-areas/big-spring-tx/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/andrews-tx/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/andrews-tx/",
-    "/service-areas/andrews-tx/fire-damage-restoration/",
-    "/service-areas/andrews-tx/mold-remediation/",
-    "/service-areas/big-lake-tx/emergency-water-removal/",
-    "/service-areas/big-spring-tx/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/andrews-tx/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/andrews-tx/",
@@ -2051,15 +1844,6 @@
     "/service-areas/big-lake-tx/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/gardendale-tx/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/gardendale-tx/",
-    "/service-areas/gardendale-tx/fire-damage-restoration/",
-    "/service-areas/gardendale-tx/mold-remediation/",
-    "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-    "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/gardendale-tx/carpet-cleaning/": [
     "/services/carpet-cleaning/",
     "/service-areas/gardendale-tx/",
@@ -2067,15 +1851,6 @@
     "/service-areas/gardendale-tx/mold-remediation/",
     "/service-areas/andrews-tx/carpet-cleaning/",
     "/service-areas/big-lake-tx/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/gardendale-tx/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/gardendale-tx/",
-    "/service-areas/gardendale-tx/fire-damage-restoration/",
-    "/service-areas/gardendale-tx/mold-remediation/",
-    "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-    "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/gardendale-tx/junk-debris-removal/": [
@@ -2267,15 +2042,6 @@
     "/service-areas/big-lake-tx/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/gardendale-tx/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/gardendale-tx/",
-    "/service-areas/gardendale-tx/fire-damage-restoration/",
-    "/service-areas/gardendale-tx/mold-remediation/",
-    "/service-areas/andrews-tx/emergency-water-removal/",
-    "/service-areas/big-lake-tx/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/gardendale-tx/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/gardendale-tx/",
@@ -2294,15 +2060,6 @@
     "/service-areas/big-lake-tx/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/greenwood-tx/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/greenwood-tx/",
-    "/service-areas/greenwood-tx/fire-damage-restoration/",
-    "/service-areas/greenwood-tx/mold-remediation/",
-    "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-    "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/greenwood-tx/carpet-cleaning/": [
     "/services/carpet-cleaning/",
     "/service-areas/greenwood-tx/",
@@ -2310,15 +2067,6 @@
     "/service-areas/greenwood-tx/mold-remediation/",
     "/service-areas/andrews-tx/carpet-cleaning/",
     "/service-areas/big-lake-tx/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/greenwood-tx/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/greenwood-tx/",
-    "/service-areas/greenwood-tx/fire-damage-restoration/",
-    "/service-areas/greenwood-tx/mold-remediation/",
-    "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-    "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/greenwood-tx/junk-debris-removal/": [
@@ -2510,15 +2258,6 @@
     "/service-areas/big-lake-tx/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/greenwood-tx/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/greenwood-tx/",
-    "/service-areas/greenwood-tx/fire-damage-restoration/",
-    "/service-areas/greenwood-tx/mold-remediation/",
-    "/service-areas/andrews-tx/emergency-water-removal/",
-    "/service-areas/big-lake-tx/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/greenwood-tx/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/greenwood-tx/",
@@ -2537,15 +2276,6 @@
     "/service-areas/big-lake-tx/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/goldsmith-tx/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/goldsmith-tx/",
-    "/service-areas/goldsmith-tx/fire-damage-restoration/",
-    "/service-areas/goldsmith-tx/mold-remediation/",
-    "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-    "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/goldsmith-tx/carpet-cleaning/": [
     "/services/carpet-cleaning/",
     "/service-areas/goldsmith-tx/",
@@ -2553,15 +2283,6 @@
     "/service-areas/goldsmith-tx/mold-remediation/",
     "/service-areas/andrews-tx/carpet-cleaning/",
     "/service-areas/big-lake-tx/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/goldsmith-tx/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/goldsmith-tx/",
-    "/service-areas/goldsmith-tx/fire-damage-restoration/",
-    "/service-areas/goldsmith-tx/mold-remediation/",
-    "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-    "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/goldsmith-tx/junk-debris-removal/": [
@@ -2753,15 +2474,6 @@
     "/service-areas/big-lake-tx/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/goldsmith-tx/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/goldsmith-tx/",
-    "/service-areas/goldsmith-tx/fire-damage-restoration/",
-    "/service-areas/goldsmith-tx/mold-remediation/",
-    "/service-areas/andrews-tx/emergency-water-removal/",
-    "/service-areas/big-lake-tx/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/goldsmith-tx/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/goldsmith-tx/",
@@ -2780,15 +2492,6 @@
     "/service-areas/big-lake-tx/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/west-odessa-tx/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/west-odessa-tx/",
-    "/service-areas/west-odessa-tx/fire-damage-restoration/",
-    "/service-areas/west-odessa-tx/mold-remediation/",
-    "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-    "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/west-odessa-tx/carpet-cleaning/": [
     "/services/carpet-cleaning/",
     "/service-areas/west-odessa-tx/",
@@ -2796,15 +2499,6 @@
     "/service-areas/west-odessa-tx/mold-remediation/",
     "/service-areas/andrews-tx/carpet-cleaning/",
     "/service-areas/big-lake-tx/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/west-odessa-tx/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/west-odessa-tx/",
-    "/service-areas/west-odessa-tx/fire-damage-restoration/",
-    "/service-areas/west-odessa-tx/mold-remediation/",
-    "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-    "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/west-odessa-tx/junk-debris-removal/": [
@@ -2996,15 +2690,6 @@
     "/service-areas/big-lake-tx/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/west-odessa-tx/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/west-odessa-tx/",
-    "/service-areas/west-odessa-tx/fire-damage-restoration/",
-    "/service-areas/west-odessa-tx/mold-remediation/",
-    "/service-areas/andrews-tx/emergency-water-removal/",
-    "/service-areas/big-lake-tx/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/west-odessa-tx/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/west-odessa-tx/",
@@ -3023,15 +2708,6 @@
     "/service-areas/big-lake-tx/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/garden-city-tx/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/garden-city-tx/",
-    "/service-areas/garden-city-tx/fire-damage-restoration/",
-    "/service-areas/garden-city-tx/mold-remediation/",
-    "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-    "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/garden-city-tx/carpet-cleaning/": [
     "/services/carpet-cleaning/",
     "/service-areas/garden-city-tx/",
@@ -3039,15 +2715,6 @@
     "/service-areas/garden-city-tx/mold-remediation/",
     "/service-areas/andrews-tx/carpet-cleaning/",
     "/service-areas/big-lake-tx/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/garden-city-tx/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/garden-city-tx/",
-    "/service-areas/garden-city-tx/fire-damage-restoration/",
-    "/service-areas/garden-city-tx/mold-remediation/",
-    "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-    "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/garden-city-tx/junk-debris-removal/": [
@@ -3239,15 +2906,6 @@
     "/service-areas/big-lake-tx/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/garden-city-tx/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/garden-city-tx/",
-    "/service-areas/garden-city-tx/fire-damage-restoration/",
-    "/service-areas/garden-city-tx/mold-remediation/",
-    "/service-areas/andrews-tx/emergency-water-removal/",
-    "/service-areas/big-lake-tx/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/garden-city-tx/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/garden-city-tx/",
@@ -3266,15 +2924,6 @@
     "/service-areas/big-lake-tx/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/crane-tx/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/crane-tx/",
-    "/service-areas/crane-tx/fire-damage-restoration/",
-    "/service-areas/crane-tx/mold-remediation/",
-    "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-    "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/crane-tx/carpet-cleaning/": [
     "/services/carpet-cleaning/",
     "/service-areas/crane-tx/",
@@ -3282,15 +2931,6 @@
     "/service-areas/crane-tx/mold-remediation/",
     "/service-areas/andrews-tx/carpet-cleaning/",
     "/service-areas/big-lake-tx/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/crane-tx/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/crane-tx/",
-    "/service-areas/crane-tx/fire-damage-restoration/",
-    "/service-areas/crane-tx/mold-remediation/",
-    "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-    "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/crane-tx/junk-debris-removal/": [
@@ -3482,15 +3122,6 @@
     "/service-areas/big-lake-tx/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/crane-tx/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/crane-tx/",
-    "/service-areas/crane-tx/fire-damage-restoration/",
-    "/service-areas/crane-tx/mold-remediation/",
-    "/service-areas/andrews-tx/emergency-water-removal/",
-    "/service-areas/big-lake-tx/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/crane-tx/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/crane-tx/",
@@ -3509,15 +3140,6 @@
     "/service-areas/big-lake-tx/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/monahans-tx/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/monahans-tx/",
-    "/service-areas/monahans-tx/fire-damage-restoration/",
-    "/service-areas/monahans-tx/mold-remediation/",
-    "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-    "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/monahans-tx/carpet-cleaning/": [
     "/services/carpet-cleaning/",
     "/service-areas/monahans-tx/",
@@ -3525,15 +3147,6 @@
     "/service-areas/monahans-tx/mold-remediation/",
     "/service-areas/andrews-tx/carpet-cleaning/",
     "/service-areas/big-lake-tx/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/monahans-tx/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/monahans-tx/",
-    "/service-areas/monahans-tx/fire-damage-restoration/",
-    "/service-areas/monahans-tx/mold-remediation/",
-    "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-    "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/monahans-tx/junk-debris-removal/": [
@@ -3725,15 +3338,6 @@
     "/service-areas/big-lake-tx/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/monahans-tx/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/monahans-tx/",
-    "/service-areas/monahans-tx/fire-damage-restoration/",
-    "/service-areas/monahans-tx/mold-remediation/",
-    "/service-areas/andrews-tx/emergency-water-removal/",
-    "/service-areas/big-lake-tx/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/monahans-tx/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/monahans-tx/",
@@ -3752,15 +3356,6 @@
     "/service-areas/big-lake-tx/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/mccamey-tx/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/mccamey-tx/",
-    "/service-areas/mccamey-tx/fire-damage-restoration/",
-    "/service-areas/mccamey-tx/mold-remediation/",
-    "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-    "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/mccamey-tx/carpet-cleaning/": [
     "/services/carpet-cleaning/",
     "/service-areas/mccamey-tx/",
@@ -3768,15 +3363,6 @@
     "/service-areas/mccamey-tx/mold-remediation/",
     "/service-areas/andrews-tx/carpet-cleaning/",
     "/service-areas/big-lake-tx/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/mccamey-tx/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/mccamey-tx/",
-    "/service-areas/mccamey-tx/fire-damage-restoration/",
-    "/service-areas/mccamey-tx/mold-remediation/",
-    "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-    "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/mccamey-tx/junk-debris-removal/": [
@@ -3968,15 +3554,6 @@
     "/service-areas/big-lake-tx/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/mccamey-tx/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/mccamey-tx/",
-    "/service-areas/mccamey-tx/fire-damage-restoration/",
-    "/service-areas/mccamey-tx/mold-remediation/",
-    "/service-areas/andrews-tx/emergency-water-removal/",
-    "/service-areas/big-lake-tx/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/mccamey-tx/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/mccamey-tx/",
@@ -3995,15 +3572,6 @@
     "/service-areas/big-lake-tx/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/southwest-sandhill-tx/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/southwest-sandhill-tx/",
-    "/service-areas/southwest-sandhill-tx/fire-damage-restoration/",
-    "/service-areas/southwest-sandhill-tx/mold-remediation/",
-    "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-    "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/southwest-sandhill-tx/carpet-cleaning/": [
     "/services/carpet-cleaning/",
     "/service-areas/southwest-sandhill-tx/",
@@ -4011,15 +3579,6 @@
     "/service-areas/southwest-sandhill-tx/mold-remediation/",
     "/service-areas/andrews-tx/carpet-cleaning/",
     "/service-areas/big-lake-tx/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/southwest-sandhill-tx/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/southwest-sandhill-tx/",
-    "/service-areas/southwest-sandhill-tx/fire-damage-restoration/",
-    "/service-areas/southwest-sandhill-tx/mold-remediation/",
-    "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-    "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/southwest-sandhill-tx/junk-debris-removal/": [
@@ -4211,15 +3770,6 @@
     "/service-areas/big-lake-tx/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/southwest-sandhill-tx/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/southwest-sandhill-tx/",
-    "/service-areas/southwest-sandhill-tx/fire-damage-restoration/",
-    "/service-areas/southwest-sandhill-tx/mold-remediation/",
-    "/service-areas/andrews-tx/emergency-water-removal/",
-    "/service-areas/big-lake-tx/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/southwest-sandhill-tx/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/southwest-sandhill-tx/",
@@ -4238,15 +3788,6 @@
     "/service-areas/big-spring-tx/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/big-lake-tx/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/big-lake-tx/",
-    "/service-areas/big-lake-tx/fire-damage-restoration/",
-    "/service-areas/big-lake-tx/mold-remediation/",
-    "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-    "/service-areas/big-spring-tx/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/big-lake-tx/carpet-cleaning/": [
     "/services/carpet-cleaning/",
     "/service-areas/big-lake-tx/",
@@ -4254,15 +3795,6 @@
     "/service-areas/big-lake-tx/mold-remediation/",
     "/service-areas/andrews-tx/carpet-cleaning/",
     "/service-areas/big-spring-tx/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/big-lake-tx/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/big-lake-tx/",
-    "/service-areas/big-lake-tx/fire-damage-restoration/",
-    "/service-areas/big-lake-tx/mold-remediation/",
-    "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-    "/service-areas/big-spring-tx/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/big-lake-tx/junk-debris-removal/": [
@@ -4454,15 +3986,6 @@
     "/service-areas/big-spring-tx/water-leak-detection/",
     "/contact/"
   ],
-  "/service-areas/big-lake-tx/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/big-lake-tx/",
-    "/service-areas/big-lake-tx/fire-damage-restoration/",
-    "/service-areas/big-lake-tx/mold-remediation/",
-    "/service-areas/andrews-tx/emergency-water-removal/",
-    "/service-areas/big-spring-tx/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/big-lake-tx/emergency-plumbing/": [
     "/services/emergency-plumbing/",
     "/service-areas/big-lake-tx/",
@@ -4481,15 +4004,6 @@
     "/service-areas/big-lake-tx/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/imperial-tx/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/imperial-tx/",
-    "/service-areas/imperial-tx/fire-damage-restoration/",
-    "/service-areas/imperial-tx/mold-remediation/",
-    "/service-areas/andrews-tx/air-duct-hvac-cleaning/",
-    "/service-areas/big-lake-tx/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/imperial-tx/carpet-cleaning/": [
     "/services/carpet-cleaning/",
     "/service-areas/imperial-tx/",
@@ -4497,15 +4011,6 @@
     "/service-areas/imperial-tx/mold-remediation/",
     "/service-areas/andrews-tx/carpet-cleaning/",
     "/service-areas/big-lake-tx/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/imperial-tx/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/imperial-tx/",
-    "/service-areas/imperial-tx/fire-damage-restoration/",
-    "/service-areas/imperial-tx/mold-remediation/",
-    "/service-areas/andrews-tx/carpet-upholstery-cleaning/",
-    "/service-areas/big-lake-tx/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/imperial-tx/junk-debris-removal/": [
@@ -4695,15 +4200,6 @@
     "/service-areas/imperial-tx/mold-remediation/",
     "/service-areas/andrews-tx/water-leak-detection/",
     "/service-areas/big-lake-tx/water-leak-detection/",
-    "/contact/"
-  ],
-  "/service-areas/imperial-tx/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/imperial-tx/",
-    "/service-areas/imperial-tx/fire-damage-restoration/",
-    "/service-areas/imperial-tx/mold-remediation/",
-    "/service-areas/andrews-tx/emergency-water-removal/",
-    "/service-areas/big-lake-tx/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/imperial-tx/emergency-plumbing/": [

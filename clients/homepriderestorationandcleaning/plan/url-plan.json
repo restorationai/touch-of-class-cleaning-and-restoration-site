@@ -586,50 +586,6 @@
       ]
     },
     {
-      "url_path": "/services/carpet-upholstery-cleaning/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Saratoga Springs | Home Pride Restoration and Cleaning",
-      "h1": "Carpet & Upholstery Cleaning in Saratoga Springs",
-      "meta_description": "24/7 carpet & upholstery cleaning in Saratoga Springs and surrounding areas. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "carpet & upholstery cleaning saratoga springs",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-        "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
-        "/service-areas/benjamin-ut/carpet-upholstery-cleaning/",
-        "/service-areas/bluffdale-ut/carpet-upholstery-cleaning/",
-        "/service-areas/cedar-fort-ut/carpet-upholstery-cleaning/",
-        "/service-areas/cedar-hills-ut/carpet-upholstery-cleaning/",
-        "/service-areas/draper-ut/carpet-upholstery-cleaning/",
-        "/service-areas/eagle-mountain-ut/carpet-upholstery-cleaning/",
-        "/service-areas/fairfield-ut/carpet-upholstery-cleaning/",
-        "/service-areas/heber-city-ut/carpet-upholstery-cleaning/",
-        "/service-areas/herriman-ut/carpet-upholstery-cleaning/",
-        "/service-areas/highland-ut/carpet-upholstery-cleaning/"
-      ]
-    },
-    {
       "url_path": "/services/crawl-space-encapsulation/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -1987,105 +1943,6 @@
         "/service-areas/heber-city-ut/ceiling-water-damage-repair/",
         "/service-areas/herriman-ut/ceiling-water-damage-repair/",
         "/service-areas/highland-ut/ceiling-water-damage-repair/"
-      ]
-    },
-    {
-      "url_path": "/services/water-heater-flood-cleanup/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Saratoga Springs | Home Pride Restoration and Cleaning",
-      "h1": "Water Heater Flood Cleanup in Saratoga Springs",
-      "meta_description": "24/7 water heater flood cleanup in Saratoga Springs and surrounding areas. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "water heater flood cleanup saratoga springs",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-        "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-        "/service-areas/benjamin-ut/water-heater-flood-cleanup/",
-        "/service-areas/bluffdale-ut/water-heater-flood-cleanup/",
-        "/service-areas/cedar-fort-ut/water-heater-flood-cleanup/",
-        "/service-areas/cedar-hills-ut/water-heater-flood-cleanup/",
-        "/service-areas/draper-ut/water-heater-flood-cleanup/",
-        "/service-areas/eagle-mountain-ut/water-heater-flood-cleanup/",
-        "/service-areas/fairfield-ut/water-heater-flood-cleanup/",
-        "/service-areas/heber-city-ut/water-heater-flood-cleanup/",
-        "/service-areas/herriman-ut/water-heater-flood-cleanup/",
-        "/service-areas/highland-ut/water-heater-flood-cleanup/"
-      ]
-    },
-    {
-      "url_path": "/services/emergency-water-removal/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Saratoga Springs | Home Pride Restoration and Cleaning",
-      "h1": "24/7 Emergency Water Removal in Saratoga Springs",
-      "meta_description": "24/7 24/7 emergency water removal in Saratoga Springs and surrounding areas. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "24/7 emergency water removal saratoga springs",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/alpine-ut/emergency-water-removal/",
-        "/service-areas/american-fork-ut/emergency-water-removal/",
-        "/service-areas/benjamin-ut/emergency-water-removal/",
-        "/service-areas/bluffdale-ut/emergency-water-removal/",
-        "/service-areas/cedar-fort-ut/emergency-water-removal/",
-        "/service-areas/cedar-hills-ut/emergency-water-removal/",
-        "/service-areas/draper-ut/emergency-water-removal/",
-        "/service-areas/eagle-mountain-ut/emergency-water-removal/",
-        "/service-areas/fairfield-ut/emergency-water-removal/",
-        "/service-areas/heber-city-ut/emergency-water-removal/",
-        "/service-areas/herriman-ut/emergency-water-removal/",
-        "/service-areas/highland-ut/emergency-water-removal/"
       ]
     },
     {
@@ -3965,44 +3822,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lehi-ut/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Lehi, UT | Home Pride Restoration and Cleaning",
-      "h1": "Carpet & Upholstery Cleaning in Lehi",
-      "meta_description": "24/7 carpet & upholstery cleaning in Lehi, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "carpet & upholstery cleaning lehi",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/lehi-ut/",
-        "/service-areas/lehi-ut/fire-damage-restoration/",
-        "/service-areas/lehi-ut/mold-remediation/",
-        "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-        "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lehi-ut/crawl-space-encapsulation/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5186,93 +5005,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lehi-ut/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Lehi, UT | Home Pride Restoration and Cleaning",
-      "h1": "Water Heater Flood Cleanup in Lehi",
-      "meta_description": "24/7 water heater flood cleanup in Lehi, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "water heater flood cleanup lehi",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/lehi-ut/",
-        "/service-areas/lehi-ut/fire-damage-restoration/",
-        "/service-areas/lehi-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-        "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lehi-ut/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Lehi, UT | Home Pride Restoration and Cleaning",
-      "h1": "24/7 Emergency Water Removal in Lehi",
-      "meta_description": "24/7 24/7 emergency water removal in Lehi, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "24/7 emergency water removal lehi",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/lehi-ut/",
-        "/service-areas/lehi-ut/fire-damage-restoration/",
-        "/service-areas/lehi-ut/mold-remediation/",
-        "/service-areas/alpine-ut/emergency-water-removal/",
-        "/service-areas/american-fork-ut/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lehi-ut/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5533,44 +5265,6 @@
         "/service-areas/eagle-mountain-ut/mold-remediation/",
         "/service-areas/alpine-ut/carpet-cleaning/",
         "/service-areas/american-fork-ut/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/eagle-mountain-ut/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Eagle Mountain, UT | Home Pride Restoration and Cleaning",
-      "h1": "Carpet & Upholstery Cleaning in Eagle Mountain",
-      "meta_description": "24/7 carpet & upholstery cleaning in Eagle Mountain, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "carpet & upholstery cleaning eagle mountain",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/eagle-mountain-ut/",
-        "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
-        "/service-areas/eagle-mountain-ut/mold-remediation/",
-        "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-        "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -6758,93 +6452,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/eagle-mountain-ut/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Eagle Mountain, UT | Home Pride Restoration and Cleaning",
-      "h1": "Water Heater Flood Cleanup in Eagle Mountain",
-      "meta_description": "24/7 water heater flood cleanup in Eagle Mountain, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "water heater flood cleanup eagle mountain",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/eagle-mountain-ut/",
-        "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
-        "/service-areas/eagle-mountain-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-        "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/eagle-mountain-ut/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Eagle Mountain, UT | Home Pride Restoration and Cleaning",
-      "h1": "24/7 Emergency Water Removal in Eagle Mountain",
-      "meta_description": "24/7 24/7 emergency water removal in Eagle Mountain, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "24/7 emergency water removal eagle mountain",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/eagle-mountain-ut/",
-        "/service-areas/eagle-mountain-ut/fire-damage-restoration/",
-        "/service-areas/eagle-mountain-ut/mold-remediation/",
-        "/service-areas/alpine-ut/emergency-water-removal/",
-        "/service-areas/american-fork-ut/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/eagle-mountain-ut/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7105,44 +6712,6 @@
         "/service-areas/american-fork-ut/mold-remediation/",
         "/service-areas/alpine-ut/carpet-cleaning/",
         "/service-areas/benjamin-ut/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in American Fork, UT | Home Pride Restoration and Cleaning",
-      "h1": "Carpet & Upholstery Cleaning in American Fork",
-      "meta_description": "24/7 carpet & upholstery cleaning in American Fork, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "carpet & upholstery cleaning american fork",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/american-fork-ut/",
-        "/service-areas/american-fork-ut/fire-damage-restoration/",
-        "/service-areas/american-fork-ut/mold-remediation/",
-        "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-        "/service-areas/benjamin-ut/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -8330,93 +7899,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in American Fork, UT | Home Pride Restoration and Cleaning",
-      "h1": "Water Heater Flood Cleanup in American Fork",
-      "meta_description": "24/7 water heater flood cleanup in American Fork, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "water heater flood cleanup american fork",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/american-fork-ut/",
-        "/service-areas/american-fork-ut/fire-damage-restoration/",
-        "/service-areas/american-fork-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-        "/service-areas/benjamin-ut/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/american-fork-ut/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in American Fork, UT | Home Pride Restoration and Cleaning",
-      "h1": "24/7 Emergency Water Removal in American Fork",
-      "meta_description": "24/7 24/7 emergency water removal in American Fork, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "24/7 emergency water removal american fork",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/american-fork-ut/",
-        "/service-areas/american-fork-ut/fire-damage-restoration/",
-        "/service-areas/american-fork-ut/mold-remediation/",
-        "/service-areas/alpine-ut/emergency-water-removal/",
-        "/service-areas/benjamin-ut/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/american-fork-ut/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8677,44 +8159,6 @@
         "/service-areas/pleasant-grove-ut/mold-remediation/",
         "/service-areas/alpine-ut/carpet-cleaning/",
         "/service-areas/american-fork-ut/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/pleasant-grove-ut/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Pleasant Grove, UT | Home Pride Restoration and Cleaning",
-      "h1": "Carpet & Upholstery Cleaning in Pleasant Grove",
-      "meta_description": "24/7 carpet & upholstery cleaning in Pleasant Grove, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "carpet & upholstery cleaning pleasant grove",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/pleasant-grove-ut/",
-        "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
-        "/service-areas/pleasant-grove-ut/mold-remediation/",
-        "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-        "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -9902,93 +9346,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/pleasant-grove-ut/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Pleasant Grove, UT | Home Pride Restoration and Cleaning",
-      "h1": "Water Heater Flood Cleanup in Pleasant Grove",
-      "meta_description": "24/7 water heater flood cleanup in Pleasant Grove, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "water heater flood cleanup pleasant grove",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/pleasant-grove-ut/",
-        "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
-        "/service-areas/pleasant-grove-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-        "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/pleasant-grove-ut/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Pleasant Grove, UT | Home Pride Restoration and Cleaning",
-      "h1": "24/7 Emergency Water Removal in Pleasant Grove",
-      "meta_description": "24/7 24/7 emergency water removal in Pleasant Grove, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "24/7 emergency water removal pleasant grove",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/pleasant-grove-ut/",
-        "/service-areas/pleasant-grove-ut/fire-damage-restoration/",
-        "/service-areas/pleasant-grove-ut/mold-remediation/",
-        "/service-areas/alpine-ut/emergency-water-removal/",
-        "/service-areas/american-fork-ut/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/pleasant-grove-ut/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10249,44 +9606,6 @@
         "/service-areas/orem-ut/mold-remediation/",
         "/service-areas/alpine-ut/carpet-cleaning/",
         "/service-areas/american-fork-ut/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/orem-ut/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Orem, UT | Home Pride Restoration and Cleaning",
-      "h1": "Carpet & Upholstery Cleaning in Orem",
-      "meta_description": "24/7 carpet & upholstery cleaning in Orem, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "carpet & upholstery cleaning orem",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/orem-ut/",
-        "/service-areas/orem-ut/fire-damage-restoration/",
-        "/service-areas/orem-ut/mold-remediation/",
-        "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-        "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -11474,93 +10793,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/orem-ut/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Orem, UT | Home Pride Restoration and Cleaning",
-      "h1": "Water Heater Flood Cleanup in Orem",
-      "meta_description": "24/7 water heater flood cleanup in Orem, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "water heater flood cleanup orem",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/orem-ut/",
-        "/service-areas/orem-ut/fire-damage-restoration/",
-        "/service-areas/orem-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-        "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/orem-ut/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Orem, UT | Home Pride Restoration and Cleaning",
-      "h1": "24/7 Emergency Water Removal in Orem",
-      "meta_description": "24/7 24/7 emergency water removal in Orem, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "24/7 emergency water removal orem",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/orem-ut/",
-        "/service-areas/orem-ut/fire-damage-restoration/",
-        "/service-areas/orem-ut/mold-remediation/",
-        "/service-areas/alpine-ut/emergency-water-removal/",
-        "/service-areas/american-fork-ut/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/orem-ut/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -11821,44 +11053,6 @@
         "/service-areas/provo-ut/mold-remediation/",
         "/service-areas/alpine-ut/carpet-cleaning/",
         "/service-areas/american-fork-ut/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/provo-ut/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Provo, UT | Home Pride Restoration and Cleaning",
-      "h1": "Carpet & Upholstery Cleaning in Provo",
-      "meta_description": "24/7 carpet & upholstery cleaning in Provo, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "carpet & upholstery cleaning provo",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/provo-ut/",
-        "/service-areas/provo-ut/fire-damage-restoration/",
-        "/service-areas/provo-ut/mold-remediation/",
-        "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-        "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -13046,93 +12240,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/provo-ut/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Provo, UT | Home Pride Restoration and Cleaning",
-      "h1": "Water Heater Flood Cleanup in Provo",
-      "meta_description": "24/7 water heater flood cleanup in Provo, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "water heater flood cleanup provo",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/provo-ut/",
-        "/service-areas/provo-ut/fire-damage-restoration/",
-        "/service-areas/provo-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-        "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/provo-ut/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Provo, UT | Home Pride Restoration and Cleaning",
-      "h1": "24/7 Emergency Water Removal in Provo",
-      "meta_description": "24/7 24/7 emergency water removal in Provo, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "24/7 emergency water removal provo",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/provo-ut/",
-        "/service-areas/provo-ut/fire-damage-restoration/",
-        "/service-areas/provo-ut/mold-remediation/",
-        "/service-areas/alpine-ut/emergency-water-removal/",
-        "/service-areas/american-fork-ut/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/provo-ut/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13393,44 +12500,6 @@
         "/service-areas/herriman-ut/mold-remediation/",
         "/service-areas/alpine-ut/carpet-cleaning/",
         "/service-areas/american-fork-ut/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/herriman-ut/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Herriman, UT | Home Pride Restoration and Cleaning",
-      "h1": "Carpet & Upholstery Cleaning in Herriman",
-      "meta_description": "24/7 carpet & upholstery cleaning in Herriman, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "carpet & upholstery cleaning herriman",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/herriman-ut/",
-        "/service-areas/herriman-ut/fire-damage-restoration/",
-        "/service-areas/herriman-ut/mold-remediation/",
-        "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-        "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -14618,93 +13687,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/herriman-ut/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Herriman, UT | Home Pride Restoration and Cleaning",
-      "h1": "Water Heater Flood Cleanup in Herriman",
-      "meta_description": "24/7 water heater flood cleanup in Herriman, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "water heater flood cleanup herriman",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/herriman-ut/",
-        "/service-areas/herriman-ut/fire-damage-restoration/",
-        "/service-areas/herriman-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-        "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/herriman-ut/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Herriman, UT | Home Pride Restoration and Cleaning",
-      "h1": "24/7 Emergency Water Removal in Herriman",
-      "meta_description": "24/7 24/7 emergency water removal in Herriman, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "24/7 emergency water removal herriman",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/herriman-ut/",
-        "/service-areas/herriman-ut/fire-damage-restoration/",
-        "/service-areas/herriman-ut/mold-remediation/",
-        "/service-areas/alpine-ut/emergency-water-removal/",
-        "/service-areas/american-fork-ut/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/herriman-ut/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14965,44 +13947,6 @@
         "/service-areas/south-jordan-ut/mold-remediation/",
         "/service-areas/alpine-ut/carpet-cleaning/",
         "/service-areas/american-fork-ut/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/south-jordan-ut/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in South Jordan, UT | Home Pride Restoration and Cleaning",
-      "h1": "Carpet & Upholstery Cleaning in South Jordan",
-      "meta_description": "24/7 carpet & upholstery cleaning in South Jordan, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "carpet & upholstery cleaning south jordan",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/south-jordan-ut/",
-        "/service-areas/south-jordan-ut/fire-damage-restoration/",
-        "/service-areas/south-jordan-ut/mold-remediation/",
-        "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-        "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -16190,93 +15134,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/south-jordan-ut/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in South Jordan, UT | Home Pride Restoration and Cleaning",
-      "h1": "Water Heater Flood Cleanup in South Jordan",
-      "meta_description": "24/7 water heater flood cleanup in South Jordan, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "water heater flood cleanup south jordan",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/south-jordan-ut/",
-        "/service-areas/south-jordan-ut/fire-damage-restoration/",
-        "/service-areas/south-jordan-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-        "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/south-jordan-ut/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in South Jordan, UT | Home Pride Restoration and Cleaning",
-      "h1": "24/7 Emergency Water Removal in South Jordan",
-      "meta_description": "24/7 24/7 emergency water removal in South Jordan, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "24/7 emergency water removal south jordan",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/south-jordan-ut/",
-        "/service-areas/south-jordan-ut/fire-damage-restoration/",
-        "/service-areas/south-jordan-ut/mold-remediation/",
-        "/service-areas/alpine-ut/emergency-water-removal/",
-        "/service-areas/american-fork-ut/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/south-jordan-ut/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -16537,44 +15394,6 @@
         "/service-areas/riverton-ut/mold-remediation/",
         "/service-areas/alpine-ut/carpet-cleaning/",
         "/service-areas/american-fork-ut/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/riverton-ut/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Riverton, UT | Home Pride Restoration and Cleaning",
-      "h1": "Carpet & Upholstery Cleaning in Riverton",
-      "meta_description": "24/7 carpet & upholstery cleaning in Riverton, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "carpet & upholstery cleaning riverton",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/riverton-ut/",
-        "/service-areas/riverton-ut/fire-damage-restoration/",
-        "/service-areas/riverton-ut/mold-remediation/",
-        "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-        "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -17762,93 +16581,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/riverton-ut/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Riverton, UT | Home Pride Restoration and Cleaning",
-      "h1": "Water Heater Flood Cleanup in Riverton",
-      "meta_description": "24/7 water heater flood cleanup in Riverton, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "water heater flood cleanup riverton",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/riverton-ut/",
-        "/service-areas/riverton-ut/fire-damage-restoration/",
-        "/service-areas/riverton-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-        "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/riverton-ut/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Riverton, UT | Home Pride Restoration and Cleaning",
-      "h1": "24/7 Emergency Water Removal in Riverton",
-      "meta_description": "24/7 24/7 emergency water removal in Riverton, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "24/7 emergency water removal riverton",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/riverton-ut/",
-        "/service-areas/riverton-ut/fire-damage-restoration/",
-        "/service-areas/riverton-ut/mold-remediation/",
-        "/service-areas/alpine-ut/emergency-water-removal/",
-        "/service-areas/american-fork-ut/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/riverton-ut/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -18109,44 +16841,6 @@
         "/service-areas/heber-city-ut/mold-remediation/",
         "/service-areas/alpine-ut/carpet-cleaning/",
         "/service-areas/american-fork-ut/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/heber-city-ut/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Heber City, UT | Home Pride Restoration and Cleaning",
-      "h1": "Carpet & Upholstery Cleaning in Heber City",
-      "meta_description": "24/7 carpet & upholstery cleaning in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "carpet & upholstery cleaning heber city",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/heber-city-ut/",
-        "/service-areas/heber-city-ut/fire-damage-restoration/",
-        "/service-areas/heber-city-ut/mold-remediation/",
-        "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-        "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -19334,93 +18028,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/heber-city-ut/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Heber City, UT | Home Pride Restoration and Cleaning",
-      "h1": "Water Heater Flood Cleanup in Heber City",
-      "meta_description": "24/7 water heater flood cleanup in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "water heater flood cleanup heber city",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/heber-city-ut/",
-        "/service-areas/heber-city-ut/fire-damage-restoration/",
-        "/service-areas/heber-city-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-        "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/heber-city-ut/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Heber City, UT | Home Pride Restoration and Cleaning",
-      "h1": "24/7 Emergency Water Removal in Heber City",
-      "meta_description": "24/7 24/7 emergency water removal in Heber City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "24/7 emergency water removal heber city",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/heber-city-ut/",
-        "/service-areas/heber-city-ut/fire-damage-restoration/",
-        "/service-areas/heber-city-ut/mold-remediation/",
-        "/service-areas/alpine-ut/emergency-water-removal/",
-        "/service-areas/american-fork-ut/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/heber-city-ut/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -19681,44 +18288,6 @@
         "/service-areas/park-city-ut/mold-remediation/",
         "/service-areas/alpine-ut/carpet-cleaning/",
         "/service-areas/american-fork-ut/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/park-city-ut/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Park City, UT | Home Pride Restoration and Cleaning",
-      "h1": "Carpet & Upholstery Cleaning in Park City",
-      "meta_description": "24/7 carpet & upholstery cleaning in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "carpet & upholstery cleaning park city",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/park-city-ut/",
-        "/service-areas/park-city-ut/fire-damage-restoration/",
-        "/service-areas/park-city-ut/mold-remediation/",
-        "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-        "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -20906,93 +19475,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/park-city-ut/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Park City, UT | Home Pride Restoration and Cleaning",
-      "h1": "Water Heater Flood Cleanup in Park City",
-      "meta_description": "24/7 water heater flood cleanup in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "water heater flood cleanup park city",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/park-city-ut/",
-        "/service-areas/park-city-ut/fire-damage-restoration/",
-        "/service-areas/park-city-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-        "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/park-city-ut/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Park City, UT | Home Pride Restoration and Cleaning",
-      "h1": "24/7 Emergency Water Removal in Park City",
-      "meta_description": "24/7 24/7 emergency water removal in Park City, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "24/7 emergency water removal park city",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/park-city-ut/",
-        "/service-areas/park-city-ut/fire-damage-restoration/",
-        "/service-areas/park-city-ut/mold-remediation/",
-        "/service-areas/alpine-ut/emergency-water-removal/",
-        "/service-areas/american-fork-ut/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/park-city-ut/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -21253,44 +19735,6 @@
         "/service-areas/vineyard-ut/mold-remediation/",
         "/service-areas/alpine-ut/carpet-cleaning/",
         "/service-areas/american-fork-ut/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/vineyard-ut/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Vineyard, UT | Home Pride Restoration and Cleaning",
-      "h1": "Carpet & Upholstery Cleaning in Vineyard",
-      "meta_description": "24/7 carpet & upholstery cleaning in Vineyard, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "carpet & upholstery cleaning vineyard",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/vineyard-ut/",
-        "/service-areas/vineyard-ut/fire-damage-restoration/",
-        "/service-areas/vineyard-ut/mold-remediation/",
-        "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-        "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -22478,93 +20922,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/vineyard-ut/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Vineyard, UT | Home Pride Restoration and Cleaning",
-      "h1": "Water Heater Flood Cleanup in Vineyard",
-      "meta_description": "24/7 water heater flood cleanup in Vineyard, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "water heater flood cleanup vineyard",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/vineyard-ut/",
-        "/service-areas/vineyard-ut/fire-damage-restoration/",
-        "/service-areas/vineyard-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-        "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/vineyard-ut/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Vineyard, UT | Home Pride Restoration and Cleaning",
-      "h1": "24/7 Emergency Water Removal in Vineyard",
-      "meta_description": "24/7 24/7 emergency water removal in Vineyard, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "24/7 emergency water removal vineyard",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/vineyard-ut/",
-        "/service-areas/vineyard-ut/fire-damage-restoration/",
-        "/service-areas/vineyard-ut/mold-remediation/",
-        "/service-areas/alpine-ut/emergency-water-removal/",
-        "/service-areas/american-fork-ut/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/vineyard-ut/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -22825,44 +21182,6 @@
         "/service-areas/highland-ut/mold-remediation/",
         "/service-areas/alpine-ut/carpet-cleaning/",
         "/service-areas/american-fork-ut/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/highland-ut/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Highland, UT | Home Pride Restoration and Cleaning",
-      "h1": "Carpet & Upholstery Cleaning in Highland",
-      "meta_description": "24/7 carpet & upholstery cleaning in Highland, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "carpet & upholstery cleaning highland",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/highland-ut/",
-        "/service-areas/highland-ut/fire-damage-restoration/",
-        "/service-areas/highland-ut/mold-remediation/",
-        "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-        "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -24050,93 +22369,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/highland-ut/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Highland, UT | Home Pride Restoration and Cleaning",
-      "h1": "Water Heater Flood Cleanup in Highland",
-      "meta_description": "24/7 water heater flood cleanup in Highland, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "water heater flood cleanup highland",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/highland-ut/",
-        "/service-areas/highland-ut/fire-damage-restoration/",
-        "/service-areas/highland-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-        "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/highland-ut/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Highland, UT | Home Pride Restoration and Cleaning",
-      "h1": "24/7 Emergency Water Removal in Highland",
-      "meta_description": "24/7 24/7 emergency water removal in Highland, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "24/7 emergency water removal highland",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/highland-ut/",
-        "/service-areas/highland-ut/fire-damage-restoration/",
-        "/service-areas/highland-ut/mold-remediation/",
-        "/service-areas/alpine-ut/emergency-water-removal/",
-        "/service-areas/american-fork-ut/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/highland-ut/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -24397,44 +22629,6 @@
         "/service-areas/lindon-ut/mold-remediation/",
         "/service-areas/alpine-ut/carpet-cleaning/",
         "/service-areas/american-fork-ut/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lindon-ut/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Lindon, UT | Home Pride Restoration and Cleaning",
-      "h1": "Carpet & Upholstery Cleaning in Lindon",
-      "meta_description": "24/7 carpet & upholstery cleaning in Lindon, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "carpet & upholstery cleaning lindon",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/lindon-ut/",
-        "/service-areas/lindon-ut/fire-damage-restoration/",
-        "/service-areas/lindon-ut/mold-remediation/",
-        "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-        "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -25622,93 +23816,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lindon-ut/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Lindon, UT | Home Pride Restoration and Cleaning",
-      "h1": "Water Heater Flood Cleanup in Lindon",
-      "meta_description": "24/7 water heater flood cleanup in Lindon, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "water heater flood cleanup lindon",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/lindon-ut/",
-        "/service-areas/lindon-ut/fire-damage-restoration/",
-        "/service-areas/lindon-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-        "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lindon-ut/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Lindon, UT | Home Pride Restoration and Cleaning",
-      "h1": "24/7 Emergency Water Removal in Lindon",
-      "meta_description": "24/7 24/7 emergency water removal in Lindon, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "24/7 emergency water removal lindon",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/lindon-ut/",
-        "/service-areas/lindon-ut/fire-damage-restoration/",
-        "/service-areas/lindon-ut/mold-remediation/",
-        "/service-areas/alpine-ut/emergency-water-removal/",
-        "/service-areas/american-fork-ut/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lindon-ut/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -25969,44 +24076,6 @@
         "/service-areas/fairfield-ut/mold-remediation/",
         "/service-areas/alpine-ut/carpet-cleaning/",
         "/service-areas/american-fork-ut/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/fairfield-ut/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Fairfield, UT | Home Pride Restoration and Cleaning",
-      "h1": "Carpet & Upholstery Cleaning in Fairfield",
-      "meta_description": "24/7 carpet & upholstery cleaning in Fairfield, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "carpet & upholstery cleaning fairfield",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/fairfield-ut/",
-        "/service-areas/fairfield-ut/fire-damage-restoration/",
-        "/service-areas/fairfield-ut/mold-remediation/",
-        "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-        "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -27194,93 +25263,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/fairfield-ut/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Fairfield, UT | Home Pride Restoration and Cleaning",
-      "h1": "Water Heater Flood Cleanup in Fairfield",
-      "meta_description": "24/7 water heater flood cleanup in Fairfield, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "water heater flood cleanup fairfield",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/fairfield-ut/",
-        "/service-areas/fairfield-ut/fire-damage-restoration/",
-        "/service-areas/fairfield-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-        "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/fairfield-ut/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Fairfield, UT | Home Pride Restoration and Cleaning",
-      "h1": "24/7 Emergency Water Removal in Fairfield",
-      "meta_description": "24/7 24/7 emergency water removal in Fairfield, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "24/7 emergency water removal fairfield",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/fairfield-ut/",
-        "/service-areas/fairfield-ut/fire-damage-restoration/",
-        "/service-areas/fairfield-ut/mold-remediation/",
-        "/service-areas/alpine-ut/emergency-water-removal/",
-        "/service-areas/american-fork-ut/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/fairfield-ut/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -27541,44 +25523,6 @@
         "/service-areas/cedar-hills-ut/mold-remediation/",
         "/service-areas/alpine-ut/carpet-cleaning/",
         "/service-areas/american-fork-ut/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/cedar-hills-ut/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Cedar Hills, UT | Home Pride Restoration and Cleaning",
-      "h1": "Carpet & Upholstery Cleaning in Cedar Hills",
-      "meta_description": "24/7 carpet & upholstery cleaning in Cedar Hills, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "carpet & upholstery cleaning cedar hills",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/cedar-hills-ut/",
-        "/service-areas/cedar-hills-ut/fire-damage-restoration/",
-        "/service-areas/cedar-hills-ut/mold-remediation/",
-        "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-        "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -28766,93 +26710,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/cedar-hills-ut/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Cedar Hills, UT | Home Pride Restoration and Cleaning",
-      "h1": "Water Heater Flood Cleanup in Cedar Hills",
-      "meta_description": "24/7 water heater flood cleanup in Cedar Hills, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "water heater flood cleanup cedar hills",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/cedar-hills-ut/",
-        "/service-areas/cedar-hills-ut/fire-damage-restoration/",
-        "/service-areas/cedar-hills-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-        "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/cedar-hills-ut/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Cedar Hills, UT | Home Pride Restoration and Cleaning",
-      "h1": "24/7 Emergency Water Removal in Cedar Hills",
-      "meta_description": "24/7 24/7 emergency water removal in Cedar Hills, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "24/7 emergency water removal cedar hills",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/cedar-hills-ut/",
-        "/service-areas/cedar-hills-ut/fire-damage-restoration/",
-        "/service-areas/cedar-hills-ut/mold-remediation/",
-        "/service-areas/alpine-ut/emergency-water-removal/",
-        "/service-areas/american-fork-ut/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/cedar-hills-ut/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -29113,44 +26970,6 @@
         "/service-areas/cedar-fort-ut/mold-remediation/",
         "/service-areas/alpine-ut/carpet-cleaning/",
         "/service-areas/american-fork-ut/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/cedar-fort-ut/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Cedar Fort, UT | Home Pride Restoration and Cleaning",
-      "h1": "Carpet & Upholstery Cleaning in Cedar Fort",
-      "meta_description": "24/7 carpet & upholstery cleaning in Cedar Fort, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "carpet & upholstery cleaning cedar fort",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/cedar-fort-ut/",
-        "/service-areas/cedar-fort-ut/fire-damage-restoration/",
-        "/service-areas/cedar-fort-ut/mold-remediation/",
-        "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-        "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -30338,93 +28157,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/cedar-fort-ut/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Cedar Fort, UT | Home Pride Restoration and Cleaning",
-      "h1": "Water Heater Flood Cleanup in Cedar Fort",
-      "meta_description": "24/7 water heater flood cleanup in Cedar Fort, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "water heater flood cleanup cedar fort",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/cedar-fort-ut/",
-        "/service-areas/cedar-fort-ut/fire-damage-restoration/",
-        "/service-areas/cedar-fort-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-        "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/cedar-fort-ut/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Cedar Fort, UT | Home Pride Restoration and Cleaning",
-      "h1": "24/7 Emergency Water Removal in Cedar Fort",
-      "meta_description": "24/7 24/7 emergency water removal in Cedar Fort, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "24/7 emergency water removal cedar fort",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/cedar-fort-ut/",
-        "/service-areas/cedar-fort-ut/fire-damage-restoration/",
-        "/service-areas/cedar-fort-ut/mold-remediation/",
-        "/service-areas/alpine-ut/emergency-water-removal/",
-        "/service-areas/american-fork-ut/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/cedar-fort-ut/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -30685,44 +28417,6 @@
         "/service-areas/bluffdale-ut/mold-remediation/",
         "/service-areas/alpine-ut/carpet-cleaning/",
         "/service-areas/american-fork-ut/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/bluffdale-ut/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Bluffdale, UT | Home Pride Restoration and Cleaning",
-      "h1": "Carpet & Upholstery Cleaning in Bluffdale",
-      "meta_description": "24/7 carpet & upholstery cleaning in Bluffdale, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "carpet & upholstery cleaning bluffdale",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/bluffdale-ut/",
-        "/service-areas/bluffdale-ut/fire-damage-restoration/",
-        "/service-areas/bluffdale-ut/mold-remediation/",
-        "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-        "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -31910,93 +29604,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/bluffdale-ut/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Bluffdale, UT | Home Pride Restoration and Cleaning",
-      "h1": "Water Heater Flood Cleanup in Bluffdale",
-      "meta_description": "24/7 water heater flood cleanup in Bluffdale, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "water heater flood cleanup bluffdale",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/bluffdale-ut/",
-        "/service-areas/bluffdale-ut/fire-damage-restoration/",
-        "/service-areas/bluffdale-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-        "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/bluffdale-ut/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Bluffdale, UT | Home Pride Restoration and Cleaning",
-      "h1": "24/7 Emergency Water Removal in Bluffdale",
-      "meta_description": "24/7 24/7 emergency water removal in Bluffdale, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "24/7 emergency water removal bluffdale",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/bluffdale-ut/",
-        "/service-areas/bluffdale-ut/fire-damage-restoration/",
-        "/service-areas/bluffdale-ut/mold-remediation/",
-        "/service-areas/alpine-ut/emergency-water-removal/",
-        "/service-areas/american-fork-ut/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/bluffdale-ut/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -32257,44 +29864,6 @@
         "/service-areas/alpine-ut/mold-remediation/",
         "/service-areas/american-fork-ut/carpet-cleaning/",
         "/service-areas/benjamin-ut/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Alpine, UT | Home Pride Restoration and Cleaning",
-      "h1": "Carpet & Upholstery Cleaning in Alpine",
-      "meta_description": "24/7 carpet & upholstery cleaning in Alpine, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "carpet & upholstery cleaning alpine",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/alpine-ut/",
-        "/service-areas/alpine-ut/fire-damage-restoration/",
-        "/service-areas/alpine-ut/mold-remediation/",
-        "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
-        "/service-areas/benjamin-ut/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -33482,93 +31051,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Alpine, UT | Home Pride Restoration and Cleaning",
-      "h1": "Water Heater Flood Cleanup in Alpine",
-      "meta_description": "24/7 water heater flood cleanup in Alpine, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "water heater flood cleanup alpine",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/alpine-ut/",
-        "/service-areas/alpine-ut/fire-damage-restoration/",
-        "/service-areas/alpine-ut/mold-remediation/",
-        "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-        "/service-areas/benjamin-ut/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/alpine-ut/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Alpine, UT | Home Pride Restoration and Cleaning",
-      "h1": "24/7 Emergency Water Removal in Alpine",
-      "meta_description": "24/7 24/7 emergency water removal in Alpine, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "24/7 emergency water removal alpine",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/alpine-ut/",
-        "/service-areas/alpine-ut/fire-damage-restoration/",
-        "/service-areas/alpine-ut/mold-remediation/",
-        "/service-areas/american-fork-ut/emergency-water-removal/",
-        "/service-areas/benjamin-ut/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/alpine-ut/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -33829,44 +31311,6 @@
         "/service-areas/draper-ut/mold-remediation/",
         "/service-areas/alpine-ut/carpet-cleaning/",
         "/service-areas/american-fork-ut/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/draper-ut/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Draper, UT | Home Pride Restoration and Cleaning",
-      "h1": "Carpet & Upholstery Cleaning in Draper",
-      "meta_description": "24/7 carpet & upholstery cleaning in Draper, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "carpet & upholstery cleaning draper",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/draper-ut/",
-        "/service-areas/draper-ut/fire-damage-restoration/",
-        "/service-areas/draper-ut/mold-remediation/",
-        "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-        "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -35054,93 +32498,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/draper-ut/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Draper, UT | Home Pride Restoration and Cleaning",
-      "h1": "Water Heater Flood Cleanup in Draper",
-      "meta_description": "24/7 water heater flood cleanup in Draper, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "water heater flood cleanup draper",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/draper-ut/",
-        "/service-areas/draper-ut/fire-damage-restoration/",
-        "/service-areas/draper-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-        "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/draper-ut/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Draper, UT | Home Pride Restoration and Cleaning",
-      "h1": "24/7 Emergency Water Removal in Draper",
-      "meta_description": "24/7 24/7 emergency water removal in Draper, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "24/7 emergency water removal draper",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/draper-ut/",
-        "/service-areas/draper-ut/fire-damage-restoration/",
-        "/service-areas/draper-ut/mold-remediation/",
-        "/service-areas/alpine-ut/emergency-water-removal/",
-        "/service-areas/american-fork-ut/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/draper-ut/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -35401,44 +32758,6 @@
         "/service-areas/lake-shore-ut/mold-remediation/",
         "/service-areas/alpine-ut/carpet-cleaning/",
         "/service-areas/american-fork-ut/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lake-shore-ut/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Lake Shore, UT | Home Pride Restoration and Cleaning",
-      "h1": "Carpet & Upholstery Cleaning in Lake Shore",
-      "meta_description": "24/7 carpet & upholstery cleaning in Lake Shore, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "carpet & upholstery cleaning lake shore",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/lake-shore-ut/",
-        "/service-areas/lake-shore-ut/fire-damage-restoration/",
-        "/service-areas/lake-shore-ut/mold-remediation/",
-        "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-        "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -36626,93 +33945,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lake-shore-ut/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Lake Shore, UT | Home Pride Restoration and Cleaning",
-      "h1": "Water Heater Flood Cleanup in Lake Shore",
-      "meta_description": "24/7 water heater flood cleanup in Lake Shore, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "water heater flood cleanup lake shore",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/lake-shore-ut/",
-        "/service-areas/lake-shore-ut/fire-damage-restoration/",
-        "/service-areas/lake-shore-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-        "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lake-shore-ut/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Lake Shore, UT | Home Pride Restoration and Cleaning",
-      "h1": "24/7 Emergency Water Removal in Lake Shore",
-      "meta_description": "24/7 24/7 emergency water removal in Lake Shore, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "24/7 emergency water removal lake shore",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/lake-shore-ut/",
-        "/service-areas/lake-shore-ut/fire-damage-restoration/",
-        "/service-areas/lake-shore-ut/mold-remediation/",
-        "/service-areas/alpine-ut/emergency-water-removal/",
-        "/service-areas/american-fork-ut/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lake-shore-ut/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -36973,44 +34205,6 @@
         "/service-areas/benjamin-ut/mold-remediation/",
         "/service-areas/alpine-ut/carpet-cleaning/",
         "/service-areas/american-fork-ut/carpet-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/benjamin-ut/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Benjamin, UT | Home Pride Restoration and Cleaning",
-      "h1": "Carpet & Upholstery Cleaning in Benjamin",
-      "meta_description": "24/7 carpet & upholstery cleaning in Benjamin, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "carpet & upholstery cleaning benjamin",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/benjamin-ut/",
-        "/service-areas/benjamin-ut/fire-damage-restoration/",
-        "/service-areas/benjamin-ut/mold-remediation/",
-        "/service-areas/alpine-ut/carpet-upholstery-cleaning/",
-        "/service-areas/american-fork-ut/carpet-upholstery-cleaning/",
         "/contact/"
       ]
     },
@@ -38194,93 +35388,6 @@
         "/service-areas/benjamin-ut/mold-remediation/",
         "/service-areas/alpine-ut/ceiling-water-damage-repair/",
         "/service-areas/american-fork-ut/ceiling-water-damage-repair/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/benjamin-ut/water-heater-flood-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Heater Flood Cleanup in Benjamin, UT | Home Pride Restoration and Cleaning",
-      "h1": "Water Heater Flood Cleanup in Benjamin",
-      "meta_description": "24/7 water heater flood cleanup in Benjamin, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "water heater flood cleanup benjamin",
-      "secondary_keywords": [
-        "water heater leaking",
-        "water heater burst",
-        "flooded water heater",
-        "water heater leak damage"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.9,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/water-heater-flood-cleanup/",
-        "/service-areas/benjamin-ut/",
-        "/service-areas/benjamin-ut/fire-damage-restoration/",
-        "/service-areas/benjamin-ut/mold-remediation/",
-        "/service-areas/alpine-ut/water-heater-flood-cleanup/",
-        "/service-areas/american-fork-ut/water-heater-flood-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/benjamin-ut/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Benjamin, UT | Home Pride Restoration and Cleaning",
-      "h1": "24/7 Emergency Water Removal in Benjamin",
-      "meta_description": "24/7 24/7 emergency water removal in Benjamin, UT. IICRC-certified, insurance billing accepted. Call (801) 995-2437.",
-      "primary_keyword": "24/7 emergency water removal benjamin",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/benjamin-ut/",
-        "/service-areas/benjamin-ut/fire-damage-restoration/",
-        "/service-areas/benjamin-ut/mold-remediation/",
-        "/service-areas/alpine-ut/emergency-water-removal/",
-        "/service-areas/american-fork-ut/emergency-water-removal/",
         "/contact/"
       ]
     },

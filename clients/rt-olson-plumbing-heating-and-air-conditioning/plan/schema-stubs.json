@@ -178,16 +178,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/air-duct-cleaning-service/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/all-plumbing-services/": {
     "archetype": "service-landing",
     "stubs": [
@@ -199,26 +189,6 @@
     "missing_stubs": []
   },
   "/services/attic-insulation/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/common-plumbing-emergencies/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -778,16 +748,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/riverside-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/riverside-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -799,26 +759,6 @@
     "missing_stubs": []
   },
   "/service-areas/riverside-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/riverside-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/riverside-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1018,16 +958,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/anaheim-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/anaheim-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1039,26 +969,6 @@
     "missing_stubs": []
   },
   "/service-areas/anaheim-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/anaheim-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1258,16 +1168,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/santa-ana-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/santa-ana-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1279,26 +1179,6 @@
     "missing_stubs": []
   },
   "/service-areas/santa-ana-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/santa-ana-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/santa-ana-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1498,16 +1378,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fullerton-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fullerton-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1519,26 +1389,6 @@
     "missing_stubs": []
   },
   "/service-areas/fullerton-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fullerton-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fullerton-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1738,16 +1588,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ontario-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ontario-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1759,26 +1599,6 @@
     "missing_stubs": []
   },
   "/service-areas/ontario-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ontario-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ontario-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1978,16 +1798,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/chino-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/chino-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1999,26 +1809,6 @@
     "missing_stubs": []
   },
   "/service-areas/chino-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/chino-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/chino-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2218,16 +2008,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/norco-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/norco-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2239,26 +2019,6 @@
     "missing_stubs": []
   },
   "/service-areas/norco-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/norco-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/norco-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2458,16 +2218,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/yorba-linda-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/yorba-linda-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2479,26 +2229,6 @@
     "missing_stubs": []
   },
   "/service-areas/yorba-linda-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/yorba-linda-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/yorba-linda-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2698,16 +2428,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/eastvale-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/eastvale-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2719,26 +2439,6 @@
     "missing_stubs": []
   },
   "/service-areas/eastvale-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/eastvale-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/eastvale-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2938,16 +2638,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lake-elsinore-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lake-elsinore-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2959,26 +2649,6 @@
     "missing_stubs": []
   },
   "/service-areas/lake-elsinore-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lake-elsinore-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lake-elsinore-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3178,16 +2848,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/jurupa-valley-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/jurupa-valley-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3199,26 +2859,6 @@
     "missing_stubs": []
   },
   "/service-areas/jurupa-valley-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/jurupa-valley-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/jurupa-valley-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3418,16 +3058,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/mira-loma-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/mira-loma-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3439,26 +3069,6 @@
     "missing_stubs": []
   },
   "/service-areas/mira-loma-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/mira-loma-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/mira-loma-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3658,16 +3268,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/wildomar-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/wildomar-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3679,26 +3279,6 @@
     "missing_stubs": []
   },
   "/service-areas/wildomar-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wildomar-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wildomar-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3898,16 +3478,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/temecula-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/temecula-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3919,26 +3489,6 @@
     "missing_stubs": []
   },
   "/service-areas/temecula-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/temecula-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/temecula-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4138,16 +3688,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/murrieta-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/murrieta-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4159,26 +3699,6 @@
     "missing_stubs": []
   },
   "/service-areas/murrieta-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/murrieta-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/murrieta-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4378,16 +3898,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/menifee-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/menifee-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4399,26 +3909,6 @@
     "missing_stubs": []
   },
   "/service-areas/menifee-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/menifee-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/menifee-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4618,16 +4108,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/canyon-lake-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/canyon-lake-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4639,26 +4119,6 @@
     "missing_stubs": []
   },
   "/service-areas/canyon-lake-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/canyon-lake-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/canyon-lake-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4858,16 +4318,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sun-city-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sun-city-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4879,26 +4329,6 @@
     "missing_stubs": []
   },
   "/service-areas/sun-city-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sun-city-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sun-city-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5098,16 +4528,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/french-valley-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/french-valley-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5119,26 +4539,6 @@
     "missing_stubs": []
   },
   "/service-areas/french-valley-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/french-valley-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/french-valley-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5338,16 +4738,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/winchester-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/winchester-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5359,26 +4749,6 @@
     "missing_stubs": []
   },
   "/service-areas/winchester-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/winchester-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/winchester-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5578,16 +4948,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ontario-ranch-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ontario-ranch-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5599,26 +4959,6 @@
     "missing_stubs": []
   },
   "/service-areas/ontario-ranch-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ontario-ranch-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ontario-ranch-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5818,16 +5158,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/chino-hills-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/chino-hills-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5839,26 +5169,6 @@
     "missing_stubs": []
   },
   "/service-areas/chino-hills-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/chino-hills-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/chino-hills-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6058,16 +5368,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fontana-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fontana-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6079,26 +5379,6 @@
     "missing_stubs": []
   },
   "/service-areas/fontana-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fontana-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fontana-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6298,16 +5578,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/upland-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/upland-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6319,26 +5589,6 @@
     "missing_stubs": []
   },
   "/service-areas/upland-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/upland-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/upland-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6538,16 +5788,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/claremont-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/claremont-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6559,26 +5799,6 @@
     "missing_stubs": []
   },
   "/service-areas/claremont-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/claremont-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/claremont-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6778,16 +5998,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/pomona-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/pomona-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6799,26 +6009,6 @@
     "missing_stubs": []
   },
   "/service-areas/pomona-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pomona-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pomona-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7018,16 +6208,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/montclair-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/montclair-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7039,26 +6219,6 @@
     "missing_stubs": []
   },
   "/service-areas/montclair-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/montclair-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/montclair-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7258,16 +6418,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bloomington-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bloomington-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7279,26 +6429,6 @@
     "missing_stubs": []
   },
   "/service-areas/bloomington-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bloomington-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7498,16 +6628,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/rialto-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/rialto-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7519,26 +6639,6 @@
     "missing_stubs": []
   },
   "/service-areas/rialto-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/rialto-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/rialto-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7738,16 +6838,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/diamond-bar-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/diamond-bar-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7759,26 +6849,6 @@
     "missing_stubs": []
   },
   "/service-areas/diamond-bar-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/diamond-bar-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/diamond-bar-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7978,16 +7048,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/san-bernardino-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/san-bernardino-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7999,26 +7059,6 @@
     "missing_stubs": []
   },
   "/service-areas/san-bernardino-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/san-bernardino-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/san-bernardino-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8218,16 +7258,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hemet-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hemet-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8239,26 +7269,6 @@
     "missing_stubs": []
   },
   "/service-areas/hemet-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hemet-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hemet-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8458,16 +7468,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/san-jacinto-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/san-jacinto-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8479,26 +7479,6 @@
     "missing_stubs": []
   },
   "/service-areas/san-jacinto-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/san-jacinto-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/san-jacinto-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8698,16 +7678,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/silverado-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/silverado-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8719,26 +7689,6 @@
     "missing_stubs": []
   },
   "/service-areas/silverado-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/silverado-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/silverado-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8938,16 +7888,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/temescal-valley-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/temescal-valley-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8959,26 +7899,6 @@
     "missing_stubs": []
   },
   "/service-areas/temescal-valley-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/temescal-valley-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/temescal-valley-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9178,16 +8098,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lake-mathews-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lake-mathews-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9199,26 +8109,6 @@
     "missing_stubs": []
   },
   "/service-areas/lake-mathews-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lake-mathews-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lake-mathews-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9418,16 +8308,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/woodcrest-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/woodcrest-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9439,26 +8319,6 @@
     "missing_stubs": []
   },
   "/service-areas/woodcrest-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/woodcrest-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/woodcrest-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9658,16 +8518,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/trabuco-canyon-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/trabuco-canyon-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9679,26 +8529,6 @@
     "missing_stubs": []
   },
   "/service-areas/trabuco-canyon-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/trabuco-canyon-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/trabuco-canyon-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9898,16 +8728,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/north-tustin-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/north-tustin-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9919,26 +8739,6 @@
     "missing_stubs": []
   },
   "/service-areas/north-tustin-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/north-tustin-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/north-tustin-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10138,16 +8938,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/villa-park-ca/air-duct-cleaning-service/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/villa-park-ca/all-plumbing-services/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -10159,26 +8949,6 @@
     "missing_stubs": []
   },
   "/service-areas/villa-park-ca/attic-insulation/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/villa-park-ca/camera-inspections-of-drain-and-sewer-line/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/villa-park-ca/common-plumbing-emergencies/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

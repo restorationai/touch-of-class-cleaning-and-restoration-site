@@ -1,0 +1,15 @@
+# duplicate service merge 2026-09-30: /services/emergency-water-removal/ folded into /services/water-damage-restoration/ (scripts/service_merge.py)
+/services/emergency-water-removal /services/water-damage-restoration/ 301
+/services/emergency-water-removal/ /services/water-damage-restoration/ 301
+/service-areas/:city/emergency-water-removal /service-areas/:city/water-damage-restoration/ 301
+/service-areas/:city/emergency-water-removal/ /service-areas/:city/water-damage-restoration/ 301
+# duplicate service merge 2026-09-30: /services/general-contractor/ folded into /services/general-contracting/ (scripts/service_merge.py)
+/services/general-contractor /services/general-contracting/ 301
+/services/general-contractor/ /services/general-contracting/ 301
+/service-areas/:city/general-contractor /service-areas/:city/general-contracting/ 301
+/service-areas/:city/general-contractor/ /service-areas/:city/general-contracting/ 301
+# duplicate service merge 2026-09-30: /services/job-type-id-construction/ folded into /services/general-contracting/ (scripts/service_merge.py)
+/services/job-type-id-construction /services/general-contracting/ 301
+/services/job-type-id-construction/ /services/general-contracting/ 301
+/service-areas/:city/job-type-id-construction /service-areas/:city/general-contracting/ 301
+/service-areas/:city/job-type-id-construction/ /service-areas/:city/general-contracting/ 301

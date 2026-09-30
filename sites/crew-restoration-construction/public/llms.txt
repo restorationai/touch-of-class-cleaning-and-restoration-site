@@ -54,7 +54,7 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Asbestos Abatement](https://crew3r.com/services/asbestos-abatement/)
 - [Biohazard Cleanup](https://crew3r.com/services/biohazard-cleanup/)
 - [Contents Restoration and Storage](https://crew3r.com/services/contents-restoration/)
-- [Contents Restoration & Storage](https://crew3r.com/services/contents-restoration-storage/)
+- [Contents Restoration & Storage](https://crew3r.com/services/contents-restoration/)
 - [Emergency Board-Up and Tarping](https://crew3r.com/services/emergency-board-up-tarping/)
 - [Fire Damage Restoration](https://crew3r.com/services/fire-damage-restoration/)
 - [Renovations, Remodels and General Contracting](https://crew3r.com/services/general-contracting/)

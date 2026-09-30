@@ -22,7 +22,6 @@
     "/services/emergency-board-up-tarping/",
     "/services/frozen-pipe-restoration/",
     "/services/odor-removal/",
-    "/services/soot-removal/",
     "/services/contents-restoration-storage/",
     "/service-areas/aliquippa-pa/",
     "/service-areas/allison-park-pa/",
@@ -67,7 +66,6 @@
     "/services/emergency-board-up-tarping/",
     "/services/frozen-pipe-restoration/",
     "/services/odor-removal/",
-    "/services/soot-removal/",
     "/services/contents-restoration-storage/"
   ],
   "/service-areas/": [
@@ -385,22 +383,6 @@
     "/blog/fire-damage-restoration-process/",
     "/blog/smoke-odor-removal-techniques/"
   ],
-  "/services/soot-removal/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/aliquippa-pa/soot-removal/",
-    "/service-areas/allison-park-pa/soot-removal/",
-    "/service-areas/baden-pa/soot-removal/",
-    "/service-areas/beaver-falls-pa/soot-removal/",
-    "/service-areas/bell-acres-pa/soot-removal/",
-    "/service-areas/big-beaver-pa/soot-removal/",
-    "/service-areas/butler-pa/soot-removal/",
-    "/service-areas/economy-pa/soot-removal/",
-    "/service-areas/ellwood-city-pa/soot-removal/",
-    "/service-areas/evans-city-pa/soot-removal/",
-    "/service-areas/franklin-park-pa/soot-removal/",
-    "/service-areas/gibsonia-pa/soot-removal/"
-  ],
   "/services/storm-damage-restoration/": [
     "/services/",
     "/contact/",
@@ -476,7 +458,6 @@
     "/service-areas/wexford-pa/emergency-board-up-tarping/",
     "/service-areas/wexford-pa/frozen-pipe-restoration/",
     "/service-areas/wexford-pa/odor-removal/",
-    "/service-areas/wexford-pa/soot-removal/",
     "/service-areas/wexford-pa/contents-restoration-storage/",
     "/service-areas/aliquippa-pa/",
     "/service-areas/allison-park-pa/",
@@ -503,7 +484,6 @@
     "/service-areas/mars-pa/emergency-board-up-tarping/",
     "/service-areas/mars-pa/frozen-pipe-restoration/",
     "/service-areas/mars-pa/odor-removal/",
-    "/service-areas/mars-pa/soot-removal/",
     "/service-areas/mars-pa/contents-restoration-storage/",
     "/service-areas/aliquippa-pa/",
     "/service-areas/allison-park-pa/",
@@ -530,7 +510,6 @@
     "/service-areas/zelienople-pa/emergency-board-up-tarping/",
     "/service-areas/zelienople-pa/frozen-pipe-restoration/",
     "/service-areas/zelienople-pa/odor-removal/",
-    "/service-areas/zelienople-pa/soot-removal/",
     "/service-areas/zelienople-pa/contents-restoration-storage/",
     "/service-areas/aliquippa-pa/",
     "/service-areas/allison-park-pa/",
@@ -557,7 +536,6 @@
     "/service-areas/evans-city-pa/emergency-board-up-tarping/",
     "/service-areas/evans-city-pa/frozen-pipe-restoration/",
     "/service-areas/evans-city-pa/odor-removal/",
-    "/service-areas/evans-city-pa/soot-removal/",
     "/service-areas/evans-city-pa/contents-restoration-storage/",
     "/service-areas/aliquippa-pa/",
     "/service-areas/allison-park-pa/",
@@ -584,7 +562,6 @@
     "/service-areas/seven-fields-pa/emergency-board-up-tarping/",
     "/service-areas/seven-fields-pa/frozen-pipe-restoration/",
     "/service-areas/seven-fields-pa/odor-removal/",
-    "/service-areas/seven-fields-pa/soot-removal/",
     "/service-areas/seven-fields-pa/contents-restoration-storage/",
     "/service-areas/aliquippa-pa/",
     "/service-areas/allison-park-pa/",
@@ -611,7 +588,6 @@
     "/service-areas/butler-pa/emergency-board-up-tarping/",
     "/service-areas/butler-pa/frozen-pipe-restoration/",
     "/service-areas/butler-pa/odor-removal/",
-    "/service-areas/butler-pa/soot-removal/",
     "/service-areas/butler-pa/contents-restoration-storage/",
     "/service-areas/aliquippa-pa/",
     "/service-areas/allison-park-pa/",
@@ -638,7 +614,6 @@
     "/service-areas/gibsonia-pa/emergency-board-up-tarping/",
     "/service-areas/gibsonia-pa/frozen-pipe-restoration/",
     "/service-areas/gibsonia-pa/odor-removal/",
-    "/service-areas/gibsonia-pa/soot-removal/",
     "/service-areas/gibsonia-pa/contents-restoration-storage/",
     "/service-areas/aliquippa-pa/",
     "/service-areas/allison-park-pa/",
@@ -665,7 +640,6 @@
     "/service-areas/beaver-falls-pa/emergency-board-up-tarping/",
     "/service-areas/beaver-falls-pa/frozen-pipe-restoration/",
     "/service-areas/beaver-falls-pa/odor-removal/",
-    "/service-areas/beaver-falls-pa/soot-removal/",
     "/service-areas/beaver-falls-pa/contents-restoration-storage/",
     "/service-areas/aliquippa-pa/",
     "/service-areas/allison-park-pa/",
@@ -692,7 +666,6 @@
     "/service-areas/economy-pa/emergency-board-up-tarping/",
     "/service-areas/economy-pa/frozen-pipe-restoration/",
     "/service-areas/economy-pa/odor-removal/",
-    "/service-areas/economy-pa/soot-removal/",
     "/service-areas/economy-pa/contents-restoration-storage/",
     "/service-areas/aliquippa-pa/",
     "/service-areas/allison-park-pa/",
@@ -719,7 +692,6 @@
     "/service-areas/franklin-park-pa/emergency-board-up-tarping/",
     "/service-areas/franklin-park-pa/frozen-pipe-restoration/",
     "/service-areas/franklin-park-pa/odor-removal/",
-    "/service-areas/franklin-park-pa/soot-removal/",
     "/service-areas/franklin-park-pa/contents-restoration-storage/",
     "/service-areas/aliquippa-pa/",
     "/service-areas/allison-park-pa/",
@@ -746,7 +718,6 @@
     "/service-areas/baden-pa/emergency-board-up-tarping/",
     "/service-areas/baden-pa/frozen-pipe-restoration/",
     "/service-areas/baden-pa/odor-removal/",
-    "/service-areas/baden-pa/soot-removal/",
     "/service-areas/baden-pa/contents-restoration-storage/",
     "/service-areas/aliquippa-pa/",
     "/service-areas/allison-park-pa/",
@@ -773,7 +744,6 @@
     "/service-areas/bell-acres-pa/emergency-board-up-tarping/",
     "/service-areas/bell-acres-pa/frozen-pipe-restoration/",
     "/service-areas/bell-acres-pa/odor-removal/",
-    "/service-areas/bell-acres-pa/soot-removal/",
     "/service-areas/bell-acres-pa/contents-restoration-storage/",
     "/service-areas/aliquippa-pa/",
     "/service-areas/allison-park-pa/",
@@ -800,7 +770,6 @@
     "/service-areas/monaca-pa/emergency-board-up-tarping/",
     "/service-areas/monaca-pa/frozen-pipe-restoration/",
     "/service-areas/monaca-pa/odor-removal/",
-    "/service-areas/monaca-pa/soot-removal/",
     "/service-areas/monaca-pa/contents-restoration-storage/",
     "/service-areas/aliquippa-pa/",
     "/service-areas/allison-park-pa/",
@@ -827,7 +796,6 @@
     "/service-areas/sewickley-heights-pa/emergency-board-up-tarping/",
     "/service-areas/sewickley-heights-pa/frozen-pipe-restoration/",
     "/service-areas/sewickley-heights-pa/odor-removal/",
-    "/service-areas/sewickley-heights-pa/soot-removal/",
     "/service-areas/sewickley-heights-pa/contents-restoration-storage/",
     "/service-areas/aliquippa-pa/",
     "/service-areas/allison-park-pa/",
@@ -854,7 +822,6 @@
     "/service-areas/aliquippa-pa/emergency-board-up-tarping/",
     "/service-areas/aliquippa-pa/frozen-pipe-restoration/",
     "/service-areas/aliquippa-pa/odor-removal/",
-    "/service-areas/aliquippa-pa/soot-removal/",
     "/service-areas/aliquippa-pa/contents-restoration-storage/",
     "/service-areas/allison-park-pa/",
     "/service-areas/baden-pa/",
@@ -881,7 +848,6 @@
     "/service-areas/sewickley-hills-pa/emergency-board-up-tarping/",
     "/service-areas/sewickley-hills-pa/frozen-pipe-restoration/",
     "/service-areas/sewickley-hills-pa/odor-removal/",
-    "/service-areas/sewickley-hills-pa/soot-removal/",
     "/service-areas/sewickley-hills-pa/contents-restoration-storage/",
     "/service-areas/aliquippa-pa/",
     "/service-areas/allison-park-pa/",
@@ -908,7 +874,6 @@
     "/service-areas/allison-park-pa/emergency-board-up-tarping/",
     "/service-areas/allison-park-pa/frozen-pipe-restoration/",
     "/service-areas/allison-park-pa/odor-removal/",
-    "/service-areas/allison-park-pa/soot-removal/",
     "/service-areas/allison-park-pa/contents-restoration-storage/",
     "/service-areas/aliquippa-pa/",
     "/service-areas/baden-pa/",
@@ -935,7 +900,6 @@
     "/service-areas/prospect-pa/emergency-board-up-tarping/",
     "/service-areas/prospect-pa/frozen-pipe-restoration/",
     "/service-areas/prospect-pa/odor-removal/",
-    "/service-areas/prospect-pa/soot-removal/",
     "/service-areas/prospect-pa/contents-restoration-storage/",
     "/service-areas/aliquippa-pa/",
     "/service-areas/allison-park-pa/",
@@ -962,7 +926,6 @@
     "/service-areas/oak-hills-pa/emergency-board-up-tarping/",
     "/service-areas/oak-hills-pa/frozen-pipe-restoration/",
     "/service-areas/oak-hills-pa/odor-removal/",
-    "/service-areas/oak-hills-pa/soot-removal/",
     "/service-areas/oak-hills-pa/contents-restoration-storage/",
     "/service-areas/aliquippa-pa/",
     "/service-areas/allison-park-pa/",
@@ -989,7 +952,6 @@
     "/service-areas/glenshaw-pa/emergency-board-up-tarping/",
     "/service-areas/glenshaw-pa/frozen-pipe-restoration/",
     "/service-areas/glenshaw-pa/odor-removal/",
-    "/service-areas/glenshaw-pa/soot-removal/",
     "/service-areas/glenshaw-pa/contents-restoration-storage/",
     "/service-areas/aliquippa-pa/",
     "/service-areas/allison-park-pa/",
@@ -1016,7 +978,6 @@
     "/service-areas/ellwood-city-pa/emergency-board-up-tarping/",
     "/service-areas/ellwood-city-pa/frozen-pipe-restoration/",
     "/service-areas/ellwood-city-pa/odor-removal/",
-    "/service-areas/ellwood-city-pa/soot-removal/",
     "/service-areas/ellwood-city-pa/contents-restoration-storage/",
     "/service-areas/aliquippa-pa/",
     "/service-areas/allison-park-pa/",
@@ -1043,7 +1004,6 @@
     "/service-areas/big-beaver-pa/emergency-board-up-tarping/",
     "/service-areas/big-beaver-pa/frozen-pipe-restoration/",
     "/service-areas/big-beaver-pa/odor-removal/",
-    "/service-areas/big-beaver-pa/soot-removal/",
     "/service-areas/big-beaver-pa/contents-restoration-storage/",
     "/service-areas/aliquippa-pa/",
     "/service-areas/allison-park-pa/",
@@ -1191,15 +1151,6 @@
     "/service-areas/wexford-pa/mold-remediation/",
     "/service-areas/aliquippa-pa/smoke-damage-restoration/",
     "/service-areas/allison-park-pa/smoke-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/wexford-pa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/wexford-pa/",
-    "/service-areas/wexford-pa/fire-damage-restoration/",
-    "/service-areas/wexford-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/soot-removal/",
-    "/service-areas/allison-park-pa/soot-removal/",
     "/contact/"
   ],
   "/service-areas/wexford-pa/storm-damage-restoration/": [
@@ -1373,15 +1324,6 @@
     "/service-areas/allison-park-pa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/mars-pa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/mars-pa/",
-    "/service-areas/mars-pa/fire-damage-restoration/",
-    "/service-areas/mars-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/soot-removal/",
-    "/service-areas/allison-park-pa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/mars-pa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/mars-pa/",
@@ -1551,15 +1493,6 @@
     "/service-areas/zelienople-pa/mold-remediation/",
     "/service-areas/aliquippa-pa/smoke-damage-restoration/",
     "/service-areas/allison-park-pa/smoke-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/zelienople-pa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/zelienople-pa/",
-    "/service-areas/zelienople-pa/fire-damage-restoration/",
-    "/service-areas/zelienople-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/soot-removal/",
-    "/service-areas/allison-park-pa/soot-removal/",
     "/contact/"
   ],
   "/service-areas/zelienople-pa/storm-damage-restoration/": [
@@ -1733,15 +1666,6 @@
     "/service-areas/allison-park-pa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/evans-city-pa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/evans-city-pa/",
-    "/service-areas/evans-city-pa/fire-damage-restoration/",
-    "/service-areas/evans-city-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/soot-removal/",
-    "/service-areas/allison-park-pa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/evans-city-pa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/evans-city-pa/",
@@ -1911,15 +1835,6 @@
     "/service-areas/seven-fields-pa/mold-remediation/",
     "/service-areas/aliquippa-pa/smoke-damage-restoration/",
     "/service-areas/allison-park-pa/smoke-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/seven-fields-pa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/seven-fields-pa/",
-    "/service-areas/seven-fields-pa/fire-damage-restoration/",
-    "/service-areas/seven-fields-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/soot-removal/",
-    "/service-areas/allison-park-pa/soot-removal/",
     "/contact/"
   ],
   "/service-areas/seven-fields-pa/storm-damage-restoration/": [
@@ -2093,15 +2008,6 @@
     "/service-areas/allison-park-pa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/butler-pa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/butler-pa/",
-    "/service-areas/butler-pa/fire-damage-restoration/",
-    "/service-areas/butler-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/soot-removal/",
-    "/service-areas/allison-park-pa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/butler-pa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/butler-pa/",
@@ -2271,15 +2177,6 @@
     "/service-areas/gibsonia-pa/mold-remediation/",
     "/service-areas/aliquippa-pa/smoke-damage-restoration/",
     "/service-areas/allison-park-pa/smoke-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/gibsonia-pa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/gibsonia-pa/",
-    "/service-areas/gibsonia-pa/fire-damage-restoration/",
-    "/service-areas/gibsonia-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/soot-removal/",
-    "/service-areas/allison-park-pa/soot-removal/",
     "/contact/"
   ],
   "/service-areas/gibsonia-pa/storm-damage-restoration/": [
@@ -2453,15 +2350,6 @@
     "/service-areas/allison-park-pa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/beaver-falls-pa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/beaver-falls-pa/",
-    "/service-areas/beaver-falls-pa/fire-damage-restoration/",
-    "/service-areas/beaver-falls-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/soot-removal/",
-    "/service-areas/allison-park-pa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/beaver-falls-pa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/beaver-falls-pa/",
@@ -2631,15 +2519,6 @@
     "/service-areas/economy-pa/mold-remediation/",
     "/service-areas/aliquippa-pa/smoke-damage-restoration/",
     "/service-areas/allison-park-pa/smoke-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/economy-pa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/economy-pa/",
-    "/service-areas/economy-pa/fire-damage-restoration/",
-    "/service-areas/economy-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/soot-removal/",
-    "/service-areas/allison-park-pa/soot-removal/",
     "/contact/"
   ],
   "/service-areas/economy-pa/storm-damage-restoration/": [
@@ -2813,15 +2692,6 @@
     "/service-areas/allison-park-pa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/franklin-park-pa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/franklin-park-pa/",
-    "/service-areas/franklin-park-pa/fire-damage-restoration/",
-    "/service-areas/franklin-park-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/soot-removal/",
-    "/service-areas/allison-park-pa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/franklin-park-pa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/franklin-park-pa/",
@@ -2991,15 +2861,6 @@
     "/service-areas/baden-pa/mold-remediation/",
     "/service-areas/aliquippa-pa/smoke-damage-restoration/",
     "/service-areas/allison-park-pa/smoke-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/baden-pa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/baden-pa/",
-    "/service-areas/baden-pa/fire-damage-restoration/",
-    "/service-areas/baden-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/soot-removal/",
-    "/service-areas/allison-park-pa/soot-removal/",
     "/contact/"
   ],
   "/service-areas/baden-pa/storm-damage-restoration/": [
@@ -3173,15 +3034,6 @@
     "/service-areas/allison-park-pa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/bell-acres-pa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/bell-acres-pa/",
-    "/service-areas/bell-acres-pa/fire-damage-restoration/",
-    "/service-areas/bell-acres-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/soot-removal/",
-    "/service-areas/allison-park-pa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/bell-acres-pa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/bell-acres-pa/",
@@ -3351,15 +3203,6 @@
     "/service-areas/monaca-pa/mold-remediation/",
     "/service-areas/aliquippa-pa/smoke-damage-restoration/",
     "/service-areas/allison-park-pa/smoke-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/monaca-pa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/monaca-pa/",
-    "/service-areas/monaca-pa/fire-damage-restoration/",
-    "/service-areas/monaca-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/soot-removal/",
-    "/service-areas/allison-park-pa/soot-removal/",
     "/contact/"
   ],
   "/service-areas/monaca-pa/storm-damage-restoration/": [
@@ -3533,15 +3376,6 @@
     "/service-areas/allison-park-pa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/sewickley-heights-pa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/sewickley-heights-pa/",
-    "/service-areas/sewickley-heights-pa/fire-damage-restoration/",
-    "/service-areas/sewickley-heights-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/soot-removal/",
-    "/service-areas/allison-park-pa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/sewickley-heights-pa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/sewickley-heights-pa/",
@@ -3711,15 +3545,6 @@
     "/service-areas/aliquippa-pa/mold-remediation/",
     "/service-areas/allison-park-pa/smoke-damage-restoration/",
     "/service-areas/baden-pa/smoke-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/aliquippa-pa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/aliquippa-pa/",
-    "/service-areas/aliquippa-pa/fire-damage-restoration/",
-    "/service-areas/aliquippa-pa/mold-remediation/",
-    "/service-areas/allison-park-pa/soot-removal/",
-    "/service-areas/baden-pa/soot-removal/",
     "/contact/"
   ],
   "/service-areas/aliquippa-pa/storm-damage-restoration/": [
@@ -3893,15 +3718,6 @@
     "/service-areas/allison-park-pa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/sewickley-hills-pa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/sewickley-hills-pa/",
-    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
-    "/service-areas/sewickley-hills-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/soot-removal/",
-    "/service-areas/allison-park-pa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/sewickley-hills-pa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/sewickley-hills-pa/",
@@ -4071,15 +3887,6 @@
     "/service-areas/allison-park-pa/mold-remediation/",
     "/service-areas/aliquippa-pa/smoke-damage-restoration/",
     "/service-areas/baden-pa/smoke-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/allison-park-pa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/allison-park-pa/",
-    "/service-areas/allison-park-pa/fire-damage-restoration/",
-    "/service-areas/allison-park-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/soot-removal/",
-    "/service-areas/baden-pa/soot-removal/",
     "/contact/"
   ],
   "/service-areas/allison-park-pa/storm-damage-restoration/": [
@@ -4253,15 +4060,6 @@
     "/service-areas/allison-park-pa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/prospect-pa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/prospect-pa/",
-    "/service-areas/prospect-pa/fire-damage-restoration/",
-    "/service-areas/prospect-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/soot-removal/",
-    "/service-areas/allison-park-pa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/prospect-pa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/prospect-pa/",
@@ -4431,15 +4229,6 @@
     "/service-areas/oak-hills-pa/mold-remediation/",
     "/service-areas/aliquippa-pa/smoke-damage-restoration/",
     "/service-areas/allison-park-pa/smoke-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/oak-hills-pa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/oak-hills-pa/",
-    "/service-areas/oak-hills-pa/fire-damage-restoration/",
-    "/service-areas/oak-hills-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/soot-removal/",
-    "/service-areas/allison-park-pa/soot-removal/",
     "/contact/"
   ],
   "/service-areas/oak-hills-pa/storm-damage-restoration/": [
@@ -4613,15 +4402,6 @@
     "/service-areas/allison-park-pa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/glenshaw-pa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/glenshaw-pa/",
-    "/service-areas/glenshaw-pa/fire-damage-restoration/",
-    "/service-areas/glenshaw-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/soot-removal/",
-    "/service-areas/allison-park-pa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/glenshaw-pa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/glenshaw-pa/",
@@ -4793,15 +4573,6 @@
     "/service-areas/allison-park-pa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/ellwood-city-pa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/ellwood-city-pa/",
-    "/service-areas/ellwood-city-pa/fire-damage-restoration/",
-    "/service-areas/ellwood-city-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/soot-removal/",
-    "/service-areas/allison-park-pa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/ellwood-city-pa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/ellwood-city-pa/",
@@ -4971,15 +4742,6 @@
     "/service-areas/big-beaver-pa/mold-remediation/",
     "/service-areas/aliquippa-pa/smoke-damage-restoration/",
     "/service-areas/allison-park-pa/smoke-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/big-beaver-pa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/big-beaver-pa/",
-    "/service-areas/big-beaver-pa/fire-damage-restoration/",
-    "/service-areas/big-beaver-pa/mold-remediation/",
-    "/service-areas/aliquippa-pa/soot-removal/",
-    "/service-areas/allison-park-pa/soot-removal/",
     "/contact/"
   ],
   "/service-areas/big-beaver-pa/storm-damage-restoration/": [

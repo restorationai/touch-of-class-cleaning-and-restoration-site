@@ -68,16 +68,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/air-duct-hvac-cleaning/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/appliance-leak-cleanup/": {
     "archetype": "service-landing",
     "stubs": [
@@ -99,26 +89,6 @@
     "missing_stubs": []
   },
   "/services/basement-flooding-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/basement-sewage-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/basement-water-cleanup/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -209,16 +179,6 @@
     "missing_stubs": []
   },
   "/services/emergency-plumbing/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/emergency-water-removal/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -388,16 +348,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/soot-removal/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/storm-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
@@ -428,16 +378,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/vandalism-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/water-cleanup/": {
     "archetype": "service-landing",
     "stubs": [
@@ -449,16 +389,6 @@
     "missing_stubs": []
   },
   "/services/water-damage-restoration/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/water-heater-flood-cleanup/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -749,16 +679,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/seattle-wa/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/seattle-wa/appliance-leak-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -780,26 +700,6 @@
     "missing_stubs": []
   },
   "/service-areas/seattle-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/seattle-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/seattle-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -890,16 +790,6 @@
     "missing_stubs": []
   },
   "/service-areas/seattle-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/seattle-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1069,16 +959,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/seattle-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/seattle-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1109,16 +989,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/seattle-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/seattle-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1139,16 +1009,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/seattle-wa/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/seattle-wa/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1160,16 +1020,6 @@
     "missing_stubs": []
   },
   "/service-areas/bellevue-wa/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bellevue-wa/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1200,26 +1050,6 @@
     "missing_stubs": []
   },
   "/service-areas/bellevue-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bellevue-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bellevue-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1310,16 +1140,6 @@
     "missing_stubs": []
   },
   "/service-areas/bellevue-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bellevue-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1489,16 +1309,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bellevue-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bellevue-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1529,16 +1339,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bellevue-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bellevue-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1559,16 +1359,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bellevue-wa/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bellevue-wa/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1580,16 +1370,6 @@
     "missing_stubs": []
   },
   "/service-areas/tacoma-wa/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/tacoma-wa/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1620,26 +1400,6 @@
     "missing_stubs": []
   },
   "/service-areas/tacoma-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/tacoma-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/tacoma-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1730,16 +1490,6 @@
     "missing_stubs": []
   },
   "/service-areas/tacoma-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/tacoma-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1909,16 +1659,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/tacoma-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/tacoma-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1949,16 +1689,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/tacoma-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/tacoma-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1979,16 +1709,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/tacoma-wa/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/tacoma-wa/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2000,16 +1720,6 @@
     "missing_stubs": []
   },
   "/service-areas/everett-wa/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/everett-wa/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2040,26 +1750,6 @@
     "missing_stubs": []
   },
   "/service-areas/everett-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/everett-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/everett-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2150,16 +1840,6 @@
     "missing_stubs": []
   },
   "/service-areas/everett-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/everett-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2329,16 +2009,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/everett-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/everett-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2369,16 +2039,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/everett-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/everett-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2399,16 +2059,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/everett-wa/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/everett-wa/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2420,16 +2070,6 @@
     "missing_stubs": []
   },
   "/service-areas/kent-wa/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/kent-wa/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2460,26 +2100,6 @@
     "missing_stubs": []
   },
   "/service-areas/kent-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/kent-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/kent-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2570,16 +2190,6 @@
     "missing_stubs": []
   },
   "/service-areas/kent-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/kent-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2749,16 +2359,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/kent-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/kent-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2789,16 +2389,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/kent-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/kent-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2819,16 +2409,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/kent-wa/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/kent-wa/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2840,16 +2420,6 @@
     "missing_stubs": []
   },
   "/service-areas/renton-wa/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/renton-wa/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2880,26 +2450,6 @@
     "missing_stubs": []
   },
   "/service-areas/renton-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/renton-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/renton-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2990,16 +2540,6 @@
     "missing_stubs": []
   },
   "/service-areas/renton-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/renton-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3169,16 +2709,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/renton-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/renton-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3209,16 +2739,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/renton-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/renton-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3239,16 +2759,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/renton-wa/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/renton-wa/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3260,16 +2770,6 @@
     "missing_stubs": []
   },
   "/service-areas/auburn-wa/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/auburn-wa/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3300,26 +2800,6 @@
     "missing_stubs": []
   },
   "/service-areas/auburn-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/auburn-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/auburn-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3410,16 +2890,6 @@
     "missing_stubs": []
   },
   "/service-areas/auburn-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/auburn-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3589,16 +3059,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/auburn-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/auburn-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3629,16 +3089,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/auburn-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/auburn-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3659,16 +3109,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/auburn-wa/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/auburn-wa/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3680,16 +3120,6 @@
     "missing_stubs": []
   },
   "/service-areas/kirkland-wa/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/kirkland-wa/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3720,26 +3150,6 @@
     "missing_stubs": []
   },
   "/service-areas/kirkland-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/kirkland-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/kirkland-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3830,16 +3240,6 @@
     "missing_stubs": []
   },
   "/service-areas/kirkland-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/kirkland-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4009,16 +3409,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/kirkland-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/kirkland-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4049,16 +3439,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/kirkland-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/kirkland-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4079,16 +3459,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/kirkland-wa/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/kirkland-wa/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4100,16 +3470,6 @@
     "missing_stubs": []
   },
   "/service-areas/redmond-wa/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/redmond-wa/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4140,26 +3500,6 @@
     "missing_stubs": []
   },
   "/service-areas/redmond-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/redmond-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/redmond-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4250,16 +3590,6 @@
     "missing_stubs": []
   },
   "/service-areas/redmond-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/redmond-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4429,16 +3759,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/redmond-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/redmond-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4469,16 +3789,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/redmond-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/redmond-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4499,16 +3809,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/redmond-wa/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/redmond-wa/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4520,16 +3820,6 @@
     "missing_stubs": []
   },
   "/service-areas/gig-harbor-wa/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/gig-harbor-wa/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4560,26 +3850,6 @@
     "missing_stubs": []
   },
   "/service-areas/gig-harbor-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/gig-harbor-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/gig-harbor-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4670,16 +3940,6 @@
     "missing_stubs": []
   },
   "/service-areas/gig-harbor-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/gig-harbor-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4849,16 +4109,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/gig-harbor-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/gig-harbor-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4889,16 +4139,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/gig-harbor-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/gig-harbor-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4919,16 +4159,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/gig-harbor-wa/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/gig-harbor-wa/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4940,16 +4170,6 @@
     "missing_stubs": []
   },
   "/service-areas/bremerton-wa/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bremerton-wa/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4980,26 +4200,6 @@
     "missing_stubs": []
   },
   "/service-areas/bremerton-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bremerton-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bremerton-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5090,16 +4290,6 @@
     "missing_stubs": []
   },
   "/service-areas/bremerton-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bremerton-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5269,16 +4459,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bremerton-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bremerton-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5309,16 +4489,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bremerton-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bremerton-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5339,16 +4509,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bremerton-wa/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bremerton-wa/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5360,16 +4520,6 @@
     "missing_stubs": []
   },
   "/service-areas/port-orchard-wa/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/port-orchard-wa/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5400,26 +4550,6 @@
     "missing_stubs": []
   },
   "/service-areas/port-orchard-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/port-orchard-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/port-orchard-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5510,16 +4640,6 @@
     "missing_stubs": []
   },
   "/service-areas/port-orchard-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/port-orchard-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5689,16 +4809,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/port-orchard-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/port-orchard-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5729,16 +4839,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/port-orchard-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/port-orchard-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5759,16 +4859,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/port-orchard-wa/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/port-orchard-wa/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5780,16 +4870,6 @@
     "missing_stubs": []
   },
   "/service-areas/university-place-wa/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/university-place-wa/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5820,26 +4900,6 @@
     "missing_stubs": []
   },
   "/service-areas/university-place-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/university-place-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/university-place-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5930,16 +4990,6 @@
     "missing_stubs": []
   },
   "/service-areas/university-place-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/university-place-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6109,16 +5159,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/university-place-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/university-place-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6149,16 +5189,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/university-place-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/university-place-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6179,16 +5209,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/university-place-wa/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/university-place-wa/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6200,16 +5220,6 @@
     "missing_stubs": []
   },
   "/service-areas/lakeland-north-wa/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lakeland-north-wa/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6240,26 +5250,6 @@
     "missing_stubs": []
   },
   "/service-areas/lakeland-north-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lakeland-north-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lakeland-north-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6350,16 +5340,6 @@
     "missing_stubs": []
   },
   "/service-areas/lakeland-north-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lakeland-north-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6529,16 +5509,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lakeland-north-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lakeland-north-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6569,16 +5539,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lakeland-north-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lakeland-north-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6599,16 +5559,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lakeland-north-wa/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lakeland-north-wa/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6620,16 +5570,6 @@
     "missing_stubs": []
   },
   "/service-areas/des-moines-wa/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/des-moines-wa/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6660,26 +5600,6 @@
     "missing_stubs": []
   },
   "/service-areas/des-moines-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/des-moines-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/des-moines-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6770,16 +5690,6 @@
     "missing_stubs": []
   },
   "/service-areas/des-moines-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/des-moines-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6949,16 +5859,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/des-moines-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/des-moines-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6989,16 +5889,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/des-moines-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/des-moines-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7019,16 +5909,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/des-moines-wa/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/des-moines-wa/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7040,16 +5920,6 @@
     "missing_stubs": []
   },
   "/service-areas/lakeland-south-wa/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lakeland-south-wa/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7080,26 +5950,6 @@
     "missing_stubs": []
   },
   "/service-areas/lakeland-south-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lakeland-south-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lakeland-south-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7190,16 +6040,6 @@
     "missing_stubs": []
   },
   "/service-areas/lakeland-south-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lakeland-south-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7369,16 +6209,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lakeland-south-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lakeland-south-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7409,16 +6239,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lakeland-south-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lakeland-south-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7439,16 +6259,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lakeland-south-wa/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lakeland-south-wa/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7460,16 +6270,6 @@
     "missing_stubs": []
   },
   "/service-areas/algona-wa/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/algona-wa/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7500,26 +6300,6 @@
     "missing_stubs": []
   },
   "/service-areas/algona-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/algona-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/algona-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7610,16 +6390,6 @@
     "missing_stubs": []
   },
   "/service-areas/algona-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/algona-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7789,16 +6559,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/algona-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/algona-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7829,16 +6589,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/algona-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/algona-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7859,16 +6609,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/algona-wa/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/algona-wa/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7880,16 +6620,6 @@
     "missing_stubs": []
   },
   "/service-areas/milton-wa/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/milton-wa/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7920,26 +6650,6 @@
     "missing_stubs": []
   },
   "/service-areas/milton-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/milton-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/milton-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8030,16 +6740,6 @@
     "missing_stubs": []
   },
   "/service-areas/milton-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/milton-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8209,16 +6909,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/milton-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/milton-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8249,16 +6939,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/milton-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/milton-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8279,16 +6959,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/milton-wa/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/milton-wa/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8300,16 +6970,6 @@
     "missing_stubs": []
   },
   "/service-areas/pacific-wa/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pacific-wa/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8340,26 +7000,6 @@
     "missing_stubs": []
   },
   "/service-areas/pacific-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pacific-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pacific-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8450,16 +7090,6 @@
     "missing_stubs": []
   },
   "/service-areas/pacific-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pacific-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8629,16 +7259,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/pacific-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/pacific-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8669,16 +7289,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/pacific-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/pacific-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8699,16 +7309,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/pacific-wa/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/pacific-wa/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8720,16 +7320,6 @@
     "missing_stubs": []
   },
   "/service-areas/seatac-wa/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/seatac-wa/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8760,26 +7350,6 @@
     "missing_stubs": []
   },
   "/service-areas/seatac-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/seatac-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/seatac-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8870,16 +7440,6 @@
     "missing_stubs": []
   },
   "/service-areas/seatac-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/seatac-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9049,16 +7609,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/seatac-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/seatac-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9089,16 +7639,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/seatac-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/seatac-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9119,16 +7659,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/seatac-wa/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/seatac-wa/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9140,16 +7670,6 @@
     "missing_stubs": []
   },
   "/service-areas/edgewood-wa/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/edgewood-wa/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9180,26 +7700,6 @@
     "missing_stubs": []
   },
   "/service-areas/edgewood-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/edgewood-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/edgewood-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9290,16 +7790,6 @@
     "missing_stubs": []
   },
   "/service-areas/edgewood-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/edgewood-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9469,16 +7959,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/edgewood-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/edgewood-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9509,16 +7989,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/edgewood-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/edgewood-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9539,16 +8009,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/edgewood-wa/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/edgewood-wa/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9560,16 +8020,6 @@
     "missing_stubs": []
   },
   "/service-areas/fife-wa/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fife-wa/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9600,26 +8050,6 @@
     "missing_stubs": []
   },
   "/service-areas/fife-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fife-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fife-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9710,16 +8140,6 @@
     "missing_stubs": []
   },
   "/service-areas/fife-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fife-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9889,16 +8309,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fife-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fife-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9929,16 +8339,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fife-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fife-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9959,16 +8359,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fife-wa/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fife-wa/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -9980,16 +8370,6 @@
     "missing_stubs": []
   },
   "/service-areas/normandy-park-wa/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/normandy-park-wa/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10020,26 +8400,6 @@
     "missing_stubs": []
   },
   "/service-areas/normandy-park-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/normandy-park-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/normandy-park-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10130,16 +8490,6 @@
     "missing_stubs": []
   },
   "/service-areas/normandy-park-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/normandy-park-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10309,16 +8659,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/normandy-park-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/normandy-park-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -10349,16 +8689,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/normandy-park-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/normandy-park-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -10379,16 +8709,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/normandy-park-wa/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/normandy-park-wa/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -10400,16 +8720,6 @@
     "missing_stubs": []
   },
   "/service-areas/vashon-wa/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/vashon-wa/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10440,26 +8750,6 @@
     "missing_stubs": []
   },
   "/service-areas/vashon-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/vashon-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/vashon-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10550,16 +8840,6 @@
     "missing_stubs": []
   },
   "/service-areas/vashon-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/vashon-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10729,16 +9009,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/vashon-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/vashon-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -10769,16 +9039,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/vashon-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/vashon-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -10799,16 +9059,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/vashon-wa/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/vashon-wa/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -10820,16 +9070,6 @@
     "missing_stubs": []
   },
   "/service-areas/burien-wa/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/burien-wa/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10860,26 +9100,6 @@
     "missing_stubs": []
   },
   "/service-areas/burien-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/burien-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/burien-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10970,16 +9190,6 @@
     "missing_stubs": []
   },
   "/service-areas/burien-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/burien-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11149,16 +9359,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/burien-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/burien-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -11189,16 +9389,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/burien-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/burien-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -11219,16 +9409,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/burien-wa/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/burien-wa/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -11240,16 +9420,6 @@
     "missing_stubs": []
   },
   "/service-areas/lake-holm-wa/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lake-holm-wa/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11280,26 +9450,6 @@
     "missing_stubs": []
   },
   "/service-areas/lake-holm-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lake-holm-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lake-holm-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11390,16 +9540,6 @@
     "missing_stubs": []
   },
   "/service-areas/lake-holm-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lake-holm-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11569,16 +9709,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lake-holm-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lake-holm-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -11609,16 +9739,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lake-holm-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lake-holm-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -11639,16 +9759,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lake-holm-wa/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lake-holm-wa/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -11660,16 +9770,6 @@
     "missing_stubs": []
   },
   "/service-areas/waller-wa/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/waller-wa/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11700,26 +9800,6 @@
     "missing_stubs": []
   },
   "/service-areas/waller-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/waller-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/waller-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11810,16 +9890,6 @@
     "missing_stubs": []
   },
   "/service-areas/waller-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/waller-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11989,16 +10059,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/waller-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/waller-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -12029,16 +10089,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/waller-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/waller-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -12059,16 +10109,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/waller-wa/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/waller-wa/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -12080,16 +10120,6 @@
     "missing_stubs": []
   },
   "/service-areas/sumner-wa/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sumner-wa/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12120,26 +10150,6 @@
     "missing_stubs": []
   },
   "/service-areas/sumner-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sumner-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sumner-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12230,16 +10240,6 @@
     "missing_stubs": []
   },
   "/service-areas/sumner-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sumner-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12409,16 +10409,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sumner-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sumner-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -12449,16 +10439,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sumner-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sumner-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -12479,16 +10459,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sumner-wa/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sumner-wa/water-leak-detection/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -12500,16 +10470,6 @@
     "missing_stubs": []
   },
   "/service-areas/north-puyallup-wa/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/north-puyallup-wa/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12540,26 +10500,6 @@
     "missing_stubs": []
   },
   "/service-areas/north-puyallup-wa/basement-flooding-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/north-puyallup-wa/basement-sewage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/north-puyallup-wa/basement-water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12650,16 +10590,6 @@
     "missing_stubs": []
   },
   "/service-areas/north-puyallup-wa/emergency-plumbing/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/north-puyallup-wa/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12829,16 +10759,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/north-puyallup-wa/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/north-puyallup-wa/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -12869,16 +10789,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/north-puyallup-wa/vandalism-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/north-puyallup-wa/water-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -12890,16 +10800,6 @@
     "missing_stubs": []
   },
   "/service-areas/north-puyallup-wa/water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/north-puyallup-wa/water-heater-flood-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

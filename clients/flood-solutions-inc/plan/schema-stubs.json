@@ -268,16 +268,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/emergency-water-removal/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sterling-heights-mi/": {
     "archetype": "service-area",
     "stubs": [
@@ -560,16 +550,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sterling-heights-mi/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/warren-mi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -771,16 +751,6 @@
     "missing_stubs": []
   },
   "/service-areas/warren-mi/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/warren-mi/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1000,16 +970,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/clinton-township-mi/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/troy-mi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1211,16 +1171,6 @@
     "missing_stubs": []
   },
   "/service-areas/troy-mi/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/troy-mi/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1440,16 +1390,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/rochester-hills-mi/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/shelby-township-mi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1651,16 +1591,6 @@
     "missing_stubs": []
   },
   "/service-areas/shelby-township-mi/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/shelby-township-mi/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1880,16 +1810,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/utica-mi/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/chesterfield-mi/water-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2091,16 +2011,6 @@
     "missing_stubs": []
   },
   "/service-areas/chesterfield-mi/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/chesterfield-mi/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

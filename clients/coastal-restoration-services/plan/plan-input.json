@@ -22,7 +22,6 @@
   "services": [
     "biohazard-cleanup",
     "contents-restoration",
-    "contents-restoration-storage",
     "crawl-space-encapsulation",
     "emergency-board-up-tarping",
     "fire-damage-restoration",

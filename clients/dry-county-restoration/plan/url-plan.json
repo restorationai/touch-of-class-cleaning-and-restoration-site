@@ -371,50 +371,6 @@
       ]
     },
     {
-      "url_path": "/services/air-duct-hvac-cleaning/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Corona | Dry County Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Corona",
-      "meta_description": "24/7 air duct & hvac cleaning in Corona and surrounding areas. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "air duct & hvac cleaning corona",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-        "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-        "/service-areas/chino-hills-ca/air-duct-hvac-cleaning/",
-        "/service-areas/eastvale-ca/air-duct-hvac-cleaning/",
-        "/service-areas/fontana-ca/air-duct-hvac-cleaning/",
-        "/service-areas/fullerton-ca/air-duct-hvac-cleaning/",
-        "/service-areas/jurupa-valley-ca/air-duct-hvac-cleaning/",
-        "/service-areas/lake-mathews-ca/air-duct-hvac-cleaning/",
-        "/service-areas/montclair-ca/air-duct-hvac-cleaning/",
-        "/service-areas/norco-ca/air-duct-hvac-cleaning/",
-        "/service-areas/north-tustin-ca/air-duct-hvac-cleaning/",
-        "/service-areas/ontario-ca/air-duct-hvac-cleaning/"
-      ]
-    },
-    {
       "url_path": "/services/basement-flooding-cleanup/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -609,50 +565,6 @@
       ]
     },
     {
-      "url_path": "/services/carpet-upholstery-cleaning/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Corona | Dry County Restoration",
-      "h1": "Carpet & Upholstery Cleaning in Corona",
-      "meta_description": "24/7 carpet & upholstery cleaning in Corona and surrounding areas. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "carpet & upholstery cleaning corona",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-        "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-        "/service-areas/chino-hills-ca/carpet-upholstery-cleaning/",
-        "/service-areas/eastvale-ca/carpet-upholstery-cleaning/",
-        "/service-areas/fontana-ca/carpet-upholstery-cleaning/",
-        "/service-areas/fullerton-ca/carpet-upholstery-cleaning/",
-        "/service-areas/jurupa-valley-ca/carpet-upholstery-cleaning/",
-        "/service-areas/lake-mathews-ca/carpet-upholstery-cleaning/",
-        "/service-areas/montclair-ca/carpet-upholstery-cleaning/",
-        "/service-areas/norco-ca/carpet-upholstery-cleaning/",
-        "/service-areas/north-tustin-ca/carpet-upholstery-cleaning/",
-        "/service-areas/ontario-ca/carpet-upholstery-cleaning/"
-      ]
-    },
-    {
       "url_path": "/services/ceiling-water-damage-repair/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -803,50 +715,6 @@
       ]
     },
     {
-      "url_path": "/services/contents-restoration-storage/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Corona | Dry County Restoration",
-      "h1": "Contents Restoration & Storage in Corona",
-      "meta_description": "24/7 contents restoration & storage in Corona and surrounding areas. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "contents restoration & storage corona",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/anaheim-ca/contents-restoration-storage/",
-        "/service-areas/chino-ca/contents-restoration-storage/",
-        "/service-areas/chino-hills-ca/contents-restoration-storage/",
-        "/service-areas/eastvale-ca/contents-restoration-storage/",
-        "/service-areas/fontana-ca/contents-restoration-storage/",
-        "/service-areas/fullerton-ca/contents-restoration-storage/",
-        "/service-areas/jurupa-valley-ca/contents-restoration-storage/",
-        "/service-areas/lake-mathews-ca/contents-restoration-storage/",
-        "/service-areas/montclair-ca/contents-restoration-storage/",
-        "/service-areas/norco-ca/contents-restoration-storage/",
-        "/service-areas/north-tustin-ca/contents-restoration-storage/",
-        "/service-areas/ontario-ca/contents-restoration-storage/"
-      ]
-    },
-    {
       "url_path": "/services/emergency-board-up-tarping/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -944,56 +812,6 @@
         "/service-areas/norco-ca/emergency-plumbing/",
         "/service-areas/north-tustin-ca/emergency-plumbing/",
         "/service-areas/ontario-ca/emergency-plumbing/"
-      ]
-    },
-    {
-      "url_path": "/services/emergency-water-removal/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Corona | Dry County Restoration",
-      "h1": "24/7 Emergency Water Removal in Corona",
-      "meta_description": "24/7 24/7 emergency water removal in Corona and surrounding areas. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "24/7 emergency water removal corona",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/anaheim-ca/emergency-water-removal/",
-        "/service-areas/chino-ca/emergency-water-removal/",
-        "/service-areas/chino-hills-ca/emergency-water-removal/",
-        "/service-areas/eastvale-ca/emergency-water-removal/",
-        "/service-areas/fontana-ca/emergency-water-removal/",
-        "/service-areas/fullerton-ca/emergency-water-removal/",
-        "/service-areas/jurupa-valley-ca/emergency-water-removal/",
-        "/service-areas/lake-mathews-ca/emergency-water-removal/",
-        "/service-areas/montclair-ca/emergency-water-removal/",
-        "/service-areas/norco-ca/emergency-water-removal/",
-        "/service-areas/north-tustin-ca/emergency-water-removal/",
-        "/service-areas/ontario-ca/emergency-water-removal/"
       ]
     },
     {
@@ -3402,44 +3220,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/riverside-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Riverside, CA | Dry County Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Riverside",
-      "meta_description": "24/7 air duct & hvac cleaning in Riverside, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "air duct & hvac cleaning riverside",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/riverside-ca/",
-        "/service-areas/riverside-ca/fire-damage-restoration/",
-        "/service-areas/riverside-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-        "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/riverside-ca/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3610,44 +3390,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/riverside-ca/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Riverside, CA | Dry County Restoration",
-      "h1": "Carpet & Upholstery Cleaning in Riverside",
-      "meta_description": "24/7 carpet & upholstery cleaning in Riverside, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "carpet & upholstery cleaning riverside",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/riverside-ca/",
-        "/service-areas/riverside-ca/fire-damage-restoration/",
-        "/service-areas/riverside-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-        "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/riverside-ca/ceiling-water-damage-repair/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3780,44 +3522,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/riverside-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Riverside, CA | Dry County Restoration",
-      "h1": "Contents Restoration & Storage in Riverside",
-      "meta_description": "24/7 contents restoration & storage in Riverside, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "contents restoration & storage riverside",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/riverside-ca/",
-        "/service-areas/riverside-ca/fire-damage-restoration/",
-        "/service-areas/riverside-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/contents-restoration-storage/",
-        "/service-areas/chino-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/riverside-ca/emergency-board-up-tarping/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3902,50 +3606,6 @@
         "/service-areas/riverside-ca/mold-remediation/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/chino-ca/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/riverside-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Riverside, CA | Dry County Restoration",
-      "h1": "24/7 Emergency Water Removal in Riverside",
-      "meta_description": "24/7 24/7 emergency water removal in Riverside, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "24/7 emergency water removal riverside",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/riverside-ca/",
-        "/service-areas/riverside-ca/fire-damage-restoration/",
-        "/service-areas/riverside-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/emergency-water-removal/",
-        "/service-areas/chino-ca/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -4786,44 +4446,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Anaheim, CA | Dry County Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Anaheim",
-      "meta_description": "24/7 air duct & hvac cleaning in Anaheim, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "air duct & hvac cleaning anaheim",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/anaheim-ca/",
-        "/service-areas/anaheim-ca/fire-damage-restoration/",
-        "/service-areas/anaheim-ca/mold-remediation/",
-        "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-        "/service-areas/chino-hills-ca/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/anaheim-ca/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4994,44 +4616,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Anaheim, CA | Dry County Restoration",
-      "h1": "Carpet & Upholstery Cleaning in Anaheim",
-      "meta_description": "24/7 carpet & upholstery cleaning in Anaheim, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "carpet & upholstery cleaning anaheim",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/anaheim-ca/",
-        "/service-areas/anaheim-ca/fire-damage-restoration/",
-        "/service-areas/anaheim-ca/mold-remediation/",
-        "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-        "/service-areas/chino-hills-ca/carpet-upholstery-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/anaheim-ca/ceiling-water-damage-repair/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5164,44 +4748,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/anaheim-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Anaheim, CA | Dry County Restoration",
-      "h1": "Contents Restoration & Storage in Anaheim",
-      "meta_description": "24/7 contents restoration & storage in Anaheim, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "contents restoration & storage anaheim",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/anaheim-ca/",
-        "/service-areas/anaheim-ca/fire-damage-restoration/",
-        "/service-areas/anaheim-ca/mold-remediation/",
-        "/service-areas/chino-ca/contents-restoration-storage/",
-        "/service-areas/chino-hills-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/anaheim-ca/emergency-board-up-tarping/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5286,50 +4832,6 @@
         "/service-areas/anaheim-ca/mold-remediation/",
         "/service-areas/chino-ca/emergency-plumbing/",
         "/service-areas/chino-hills-ca/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/anaheim-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Anaheim, CA | Dry County Restoration",
-      "h1": "24/7 Emergency Water Removal in Anaheim",
-      "meta_description": "24/7 24/7 emergency water removal in Anaheim, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "24/7 emergency water removal anaheim",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/anaheim-ca/",
-        "/service-areas/anaheim-ca/fire-damage-restoration/",
-        "/service-areas/anaheim-ca/mold-remediation/",
-        "/service-areas/chino-ca/emergency-water-removal/",
-        "/service-areas/chino-hills-ca/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -6170,44 +5672,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/santa-ana-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Santa Ana, CA | Dry County Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Santa Ana",
-      "meta_description": "24/7 air duct & hvac cleaning in Santa Ana, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "air duct & hvac cleaning santa ana",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/santa-ana-ca/",
-        "/service-areas/santa-ana-ca/fire-damage-restoration/",
-        "/service-areas/santa-ana-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-        "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/santa-ana-ca/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6378,44 +5842,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/santa-ana-ca/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Santa Ana, CA | Dry County Restoration",
-      "h1": "Carpet & Upholstery Cleaning in Santa Ana",
-      "meta_description": "24/7 carpet & upholstery cleaning in Santa Ana, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "carpet & upholstery cleaning santa ana",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/santa-ana-ca/",
-        "/service-areas/santa-ana-ca/fire-damage-restoration/",
-        "/service-areas/santa-ana-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-        "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/santa-ana-ca/ceiling-water-damage-repair/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6548,44 +5974,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/santa-ana-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Santa Ana, CA | Dry County Restoration",
-      "h1": "Contents Restoration & Storage in Santa Ana",
-      "meta_description": "24/7 contents restoration & storage in Santa Ana, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "contents restoration & storage santa ana",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/santa-ana-ca/",
-        "/service-areas/santa-ana-ca/fire-damage-restoration/",
-        "/service-areas/santa-ana-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/contents-restoration-storage/",
-        "/service-areas/chino-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/santa-ana-ca/emergency-board-up-tarping/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6670,50 +6058,6 @@
         "/service-areas/santa-ana-ca/mold-remediation/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/chino-ca/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/santa-ana-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Santa Ana, CA | Dry County Restoration",
-      "h1": "24/7 Emergency Water Removal in Santa Ana",
-      "meta_description": "24/7 24/7 emergency water removal in Santa Ana, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "24/7 emergency water removal santa ana",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/santa-ana-ca/",
-        "/service-areas/santa-ana-ca/fire-damage-restoration/",
-        "/service-areas/santa-ana-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/emergency-water-removal/",
-        "/service-areas/chino-ca/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -7554,44 +6898,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/ontario-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Ontario, CA | Dry County Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Ontario",
-      "meta_description": "24/7 air duct & hvac cleaning in Ontario, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "air duct & hvac cleaning ontario",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/ontario-ca/",
-        "/service-areas/ontario-ca/fire-damage-restoration/",
-        "/service-areas/ontario-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-        "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/ontario-ca/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7762,44 +7068,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/ontario-ca/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Ontario, CA | Dry County Restoration",
-      "h1": "Carpet & Upholstery Cleaning in Ontario",
-      "meta_description": "24/7 carpet & upholstery cleaning in Ontario, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "carpet & upholstery cleaning ontario",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/ontario-ca/",
-        "/service-areas/ontario-ca/fire-damage-restoration/",
-        "/service-areas/ontario-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-        "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/ontario-ca/ceiling-water-damage-repair/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7932,44 +7200,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/ontario-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Ontario, CA | Dry County Restoration",
-      "h1": "Contents Restoration & Storage in Ontario",
-      "meta_description": "24/7 contents restoration & storage in Ontario, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "contents restoration & storage ontario",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/ontario-ca/",
-        "/service-areas/ontario-ca/fire-damage-restoration/",
-        "/service-areas/ontario-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/contents-restoration-storage/",
-        "/service-areas/chino-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/ontario-ca/emergency-board-up-tarping/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8054,50 +7284,6 @@
         "/service-areas/ontario-ca/mold-remediation/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/chino-ca/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/ontario-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Ontario, CA | Dry County Restoration",
-      "h1": "24/7 Emergency Water Removal in Ontario",
-      "meta_description": "24/7 24/7 emergency water removal in Ontario, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "24/7 emergency water removal ontario",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/ontario-ca/",
-        "/service-areas/ontario-ca/fire-damage-restoration/",
-        "/service-areas/ontario-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/emergency-water-removal/",
-        "/service-areas/chino-ca/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -8938,44 +8124,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/fullerton-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Fullerton, CA | Dry County Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Fullerton",
-      "meta_description": "24/7 air duct & hvac cleaning in Fullerton, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "air duct & hvac cleaning fullerton",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/fullerton-ca/",
-        "/service-areas/fullerton-ca/fire-damage-restoration/",
-        "/service-areas/fullerton-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-        "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/fullerton-ca/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9146,44 +8294,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/fullerton-ca/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Fullerton, CA | Dry County Restoration",
-      "h1": "Carpet & Upholstery Cleaning in Fullerton",
-      "meta_description": "24/7 carpet & upholstery cleaning in Fullerton, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "carpet & upholstery cleaning fullerton",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/fullerton-ca/",
-        "/service-areas/fullerton-ca/fire-damage-restoration/",
-        "/service-areas/fullerton-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-        "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/fullerton-ca/ceiling-water-damage-repair/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9316,44 +8426,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/fullerton-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Fullerton, CA | Dry County Restoration",
-      "h1": "Contents Restoration & Storage in Fullerton",
-      "meta_description": "24/7 contents restoration & storage in Fullerton, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "contents restoration & storage fullerton",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/fullerton-ca/",
-        "/service-areas/fullerton-ca/fire-damage-restoration/",
-        "/service-areas/fullerton-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/contents-restoration-storage/",
-        "/service-areas/chino-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/fullerton-ca/emergency-board-up-tarping/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9438,50 +8510,6 @@
         "/service-areas/fullerton-ca/mold-remediation/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/chino-ca/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/fullerton-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Fullerton, CA | Dry County Restoration",
-      "h1": "24/7 Emergency Water Removal in Fullerton",
-      "meta_description": "24/7 24/7 emergency water removal in Fullerton, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "24/7 emergency water removal fullerton",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/fullerton-ca/",
-        "/service-areas/fullerton-ca/fire-damage-restoration/",
-        "/service-areas/fullerton-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/emergency-water-removal/",
-        "/service-areas/chino-ca/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -10322,44 +9350,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/norco-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Norco, CA | Dry County Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Norco",
-      "meta_description": "24/7 air duct & hvac cleaning in Norco, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "air duct & hvac cleaning norco",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/norco-ca/",
-        "/service-areas/norco-ca/fire-damage-restoration/",
-        "/service-areas/norco-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-        "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/norco-ca/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10530,44 +9520,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/norco-ca/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Norco, CA | Dry County Restoration",
-      "h1": "Carpet & Upholstery Cleaning in Norco",
-      "meta_description": "24/7 carpet & upholstery cleaning in Norco, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "carpet & upholstery cleaning norco",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/norco-ca/",
-        "/service-areas/norco-ca/fire-damage-restoration/",
-        "/service-areas/norco-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-        "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/norco-ca/ceiling-water-damage-repair/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10700,44 +9652,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/norco-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Norco, CA | Dry County Restoration",
-      "h1": "Contents Restoration & Storage in Norco",
-      "meta_description": "24/7 contents restoration & storage in Norco, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "contents restoration & storage norco",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/norco-ca/",
-        "/service-areas/norco-ca/fire-damage-restoration/",
-        "/service-areas/norco-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/contents-restoration-storage/",
-        "/service-areas/chino-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/norco-ca/emergency-board-up-tarping/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10822,50 +9736,6 @@
         "/service-areas/norco-ca/mold-remediation/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/chino-ca/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/norco-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Norco, CA | Dry County Restoration",
-      "h1": "24/7 Emergency Water Removal in Norco",
-      "meta_description": "24/7 24/7 emergency water removal in Norco, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "24/7 emergency water removal norco",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/norco-ca/",
-        "/service-areas/norco-ca/fire-damage-restoration/",
-        "/service-areas/norco-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/emergency-water-removal/",
-        "/service-areas/chino-ca/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -11706,44 +10576,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Chino, CA | Dry County Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Chino",
-      "meta_description": "24/7 air duct & hvac cleaning in Chino, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "air duct & hvac cleaning chino",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/chino-ca/",
-        "/service-areas/chino-ca/fire-damage-restoration/",
-        "/service-areas/chino-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-        "/service-areas/chino-hills-ca/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/chino-ca/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -11914,44 +10746,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Chino, CA | Dry County Restoration",
-      "h1": "Carpet & Upholstery Cleaning in Chino",
-      "meta_description": "24/7 carpet & upholstery cleaning in Chino, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "carpet & upholstery cleaning chino",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/chino-ca/",
-        "/service-areas/chino-ca/fire-damage-restoration/",
-        "/service-areas/chino-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-        "/service-areas/chino-hills-ca/carpet-upholstery-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/chino-ca/ceiling-water-damage-repair/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12084,44 +10878,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/chino-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Chino, CA | Dry County Restoration",
-      "h1": "Contents Restoration & Storage in Chino",
-      "meta_description": "24/7 contents restoration & storage in Chino, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "contents restoration & storage chino",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/chino-ca/",
-        "/service-areas/chino-ca/fire-damage-restoration/",
-        "/service-areas/chino-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/contents-restoration-storage/",
-        "/service-areas/chino-hills-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/chino-ca/emergency-board-up-tarping/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12206,50 +10962,6 @@
         "/service-areas/chino-ca/mold-remediation/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/chino-hills-ca/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/chino-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Chino, CA | Dry County Restoration",
-      "h1": "24/7 Emergency Water Removal in Chino",
-      "meta_description": "24/7 24/7 emergency water removal in Chino, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "24/7 emergency water removal chino",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/chino-ca/",
-        "/service-areas/chino-ca/fire-damage-restoration/",
-        "/service-areas/chino-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/emergency-water-removal/",
-        "/service-areas/chino-hills-ca/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -13090,44 +11802,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/chino-hills-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Chino Hills, CA | Dry County Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Chino Hills",
-      "meta_description": "24/7 air duct & hvac cleaning in Chino Hills, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "air duct & hvac cleaning chino hills",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/chino-hills-ca/",
-        "/service-areas/chino-hills-ca/fire-damage-restoration/",
-        "/service-areas/chino-hills-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-        "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/chino-hills-ca/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13298,44 +11972,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/chino-hills-ca/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Chino Hills, CA | Dry County Restoration",
-      "h1": "Carpet & Upholstery Cleaning in Chino Hills",
-      "meta_description": "24/7 carpet & upholstery cleaning in Chino Hills, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "carpet & upholstery cleaning chino hills",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/chino-hills-ca/",
-        "/service-areas/chino-hills-ca/fire-damage-restoration/",
-        "/service-areas/chino-hills-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-        "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/chino-hills-ca/ceiling-water-damage-repair/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13468,44 +12104,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/chino-hills-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Chino Hills, CA | Dry County Restoration",
-      "h1": "Contents Restoration & Storage in Chino Hills",
-      "meta_description": "24/7 contents restoration & storage in Chino Hills, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "contents restoration & storage chino hills",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/chino-hills-ca/",
-        "/service-areas/chino-hills-ca/fire-damage-restoration/",
-        "/service-areas/chino-hills-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/contents-restoration-storage/",
-        "/service-areas/chino-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/chino-hills-ca/emergency-board-up-tarping/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13590,50 +12188,6 @@
         "/service-areas/chino-hills-ca/mold-remediation/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/chino-ca/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/chino-hills-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Chino Hills, CA | Dry County Restoration",
-      "h1": "24/7 Emergency Water Removal in Chino Hills",
-      "meta_description": "24/7 24/7 emergency water removal in Chino Hills, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "24/7 emergency water removal chino hills",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/chino-hills-ca/",
-        "/service-areas/chino-hills-ca/fire-damage-restoration/",
-        "/service-areas/chino-hills-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/emergency-water-removal/",
-        "/service-areas/chino-ca/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -14474,44 +13028,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/eastvale-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Eastvale, CA | Dry County Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Eastvale",
-      "meta_description": "24/7 air duct & hvac cleaning in Eastvale, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "air duct & hvac cleaning eastvale",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/eastvale-ca/",
-        "/service-areas/eastvale-ca/fire-damage-restoration/",
-        "/service-areas/eastvale-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-        "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/eastvale-ca/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14682,44 +13198,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/eastvale-ca/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Eastvale, CA | Dry County Restoration",
-      "h1": "Carpet & Upholstery Cleaning in Eastvale",
-      "meta_description": "24/7 carpet & upholstery cleaning in Eastvale, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "carpet & upholstery cleaning eastvale",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/eastvale-ca/",
-        "/service-areas/eastvale-ca/fire-damage-restoration/",
-        "/service-areas/eastvale-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-        "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/eastvale-ca/ceiling-water-damage-repair/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14852,44 +13330,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/eastvale-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Eastvale, CA | Dry County Restoration",
-      "h1": "Contents Restoration & Storage in Eastvale",
-      "meta_description": "24/7 contents restoration & storage in Eastvale, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "contents restoration & storage eastvale",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/eastvale-ca/",
-        "/service-areas/eastvale-ca/fire-damage-restoration/",
-        "/service-areas/eastvale-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/contents-restoration-storage/",
-        "/service-areas/chino-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/eastvale-ca/emergency-board-up-tarping/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14974,50 +13414,6 @@
         "/service-areas/eastvale-ca/mold-remediation/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/chino-ca/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/eastvale-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Eastvale, CA | Dry County Restoration",
-      "h1": "24/7 Emergency Water Removal in Eastvale",
-      "meta_description": "24/7 24/7 emergency water removal in Eastvale, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "24/7 emergency water removal eastvale",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/eastvale-ca/",
-        "/service-areas/eastvale-ca/fire-damage-restoration/",
-        "/service-areas/eastvale-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/emergency-water-removal/",
-        "/service-areas/chino-ca/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -15858,44 +14254,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/silverado-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Silverado, CA | Dry County Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Silverado",
-      "meta_description": "24/7 air duct & hvac cleaning in Silverado, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "air duct & hvac cleaning silverado",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/silverado-ca/",
-        "/service-areas/silverado-ca/fire-damage-restoration/",
-        "/service-areas/silverado-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-        "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/silverado-ca/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -16066,44 +14424,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/silverado-ca/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Silverado, CA | Dry County Restoration",
-      "h1": "Carpet & Upholstery Cleaning in Silverado",
-      "meta_description": "24/7 carpet & upholstery cleaning in Silverado, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "carpet & upholstery cleaning silverado",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/silverado-ca/",
-        "/service-areas/silverado-ca/fire-damage-restoration/",
-        "/service-areas/silverado-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-        "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/silverado-ca/ceiling-water-damage-repair/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -16236,44 +14556,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/silverado-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Silverado, CA | Dry County Restoration",
-      "h1": "Contents Restoration & Storage in Silverado",
-      "meta_description": "24/7 contents restoration & storage in Silverado, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "contents restoration & storage silverado",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/silverado-ca/",
-        "/service-areas/silverado-ca/fire-damage-restoration/",
-        "/service-areas/silverado-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/contents-restoration-storage/",
-        "/service-areas/chino-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/silverado-ca/emergency-board-up-tarping/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -16358,50 +14640,6 @@
         "/service-areas/silverado-ca/mold-remediation/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/chino-ca/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/silverado-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Silverado, CA | Dry County Restoration",
-      "h1": "24/7 Emergency Water Removal in Silverado",
-      "meta_description": "24/7 24/7 emergency water removal in Silverado, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "24/7 emergency water removal silverado",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/silverado-ca/",
-        "/service-areas/silverado-ca/fire-damage-restoration/",
-        "/service-areas/silverado-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/emergency-water-removal/",
-        "/service-areas/chino-ca/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -17242,44 +15480,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/jurupa-valley-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Jurupa Valley, CA | Dry County Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Jurupa Valley",
-      "meta_description": "24/7 air duct & hvac cleaning in Jurupa Valley, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "air duct & hvac cleaning jurupa valley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/jurupa-valley-ca/",
-        "/service-areas/jurupa-valley-ca/fire-damage-restoration/",
-        "/service-areas/jurupa-valley-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-        "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/jurupa-valley-ca/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17450,44 +15650,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/jurupa-valley-ca/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Jurupa Valley, CA | Dry County Restoration",
-      "h1": "Carpet & Upholstery Cleaning in Jurupa Valley",
-      "meta_description": "24/7 carpet & upholstery cleaning in Jurupa Valley, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "carpet & upholstery cleaning jurupa valley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/jurupa-valley-ca/",
-        "/service-areas/jurupa-valley-ca/fire-damage-restoration/",
-        "/service-areas/jurupa-valley-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-        "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/jurupa-valley-ca/ceiling-water-damage-repair/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17620,44 +15782,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/jurupa-valley-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Jurupa Valley, CA | Dry County Restoration",
-      "h1": "Contents Restoration & Storage in Jurupa Valley",
-      "meta_description": "24/7 contents restoration & storage in Jurupa Valley, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "contents restoration & storage jurupa valley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/jurupa-valley-ca/",
-        "/service-areas/jurupa-valley-ca/fire-damage-restoration/",
-        "/service-areas/jurupa-valley-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/contents-restoration-storage/",
-        "/service-areas/chino-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/jurupa-valley-ca/emergency-board-up-tarping/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17742,50 +15866,6 @@
         "/service-areas/jurupa-valley-ca/mold-remediation/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/chino-ca/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/jurupa-valley-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Jurupa Valley, CA | Dry County Restoration",
-      "h1": "24/7 Emergency Water Removal in Jurupa Valley",
-      "meta_description": "24/7 24/7 emergency water removal in Jurupa Valley, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "24/7 emergency water removal jurupa valley",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/jurupa-valley-ca/",
-        "/service-areas/jurupa-valley-ca/fire-damage-restoration/",
-        "/service-areas/jurupa-valley-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/emergency-water-removal/",
-        "/service-areas/chino-ca/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -18626,44 +16706,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/temescal-valley-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Temescal Valley, CA | Dry County Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Temescal Valley",
-      "meta_description": "24/7 air duct & hvac cleaning in Temescal Valley, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "air duct & hvac cleaning temescal valley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/temescal-valley-ca/",
-        "/service-areas/temescal-valley-ca/fire-damage-restoration/",
-        "/service-areas/temescal-valley-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-        "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/temescal-valley-ca/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -18834,44 +16876,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/temescal-valley-ca/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Temescal Valley, CA | Dry County Restoration",
-      "h1": "Carpet & Upholstery Cleaning in Temescal Valley",
-      "meta_description": "24/7 carpet & upholstery cleaning in Temescal Valley, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "carpet & upholstery cleaning temescal valley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/temescal-valley-ca/",
-        "/service-areas/temescal-valley-ca/fire-damage-restoration/",
-        "/service-areas/temescal-valley-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-        "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/temescal-valley-ca/ceiling-water-damage-repair/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -19004,44 +17008,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/temescal-valley-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Temescal Valley, CA | Dry County Restoration",
-      "h1": "Contents Restoration & Storage in Temescal Valley",
-      "meta_description": "24/7 contents restoration & storage in Temescal Valley, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "contents restoration & storage temescal valley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/temescal-valley-ca/",
-        "/service-areas/temescal-valley-ca/fire-damage-restoration/",
-        "/service-areas/temescal-valley-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/contents-restoration-storage/",
-        "/service-areas/chino-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/temescal-valley-ca/emergency-board-up-tarping/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -19126,50 +17092,6 @@
         "/service-areas/temescal-valley-ca/mold-remediation/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/chino-ca/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/temescal-valley-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Temescal Valley, CA | Dry County Restoration",
-      "h1": "24/7 Emergency Water Removal in Temescal Valley",
-      "meta_description": "24/7 24/7 emergency water removal in Temescal Valley, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "24/7 emergency water removal temescal valley",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/temescal-valley-ca/",
-        "/service-areas/temescal-valley-ca/fire-damage-restoration/",
-        "/service-areas/temescal-valley-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/emergency-water-removal/",
-        "/service-areas/chino-ca/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -20010,44 +17932,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/yorba-linda-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Yorba Linda, CA | Dry County Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Yorba Linda",
-      "meta_description": "24/7 air duct & hvac cleaning in Yorba Linda, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "air duct & hvac cleaning yorba linda",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/yorba-linda-ca/",
-        "/service-areas/yorba-linda-ca/fire-damage-restoration/",
-        "/service-areas/yorba-linda-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-        "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/yorba-linda-ca/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -20218,44 +18102,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/yorba-linda-ca/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Yorba Linda, CA | Dry County Restoration",
-      "h1": "Carpet & Upholstery Cleaning in Yorba Linda",
-      "meta_description": "24/7 carpet & upholstery cleaning in Yorba Linda, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "carpet & upholstery cleaning yorba linda",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/yorba-linda-ca/",
-        "/service-areas/yorba-linda-ca/fire-damage-restoration/",
-        "/service-areas/yorba-linda-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-        "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/yorba-linda-ca/ceiling-water-damage-repair/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -20388,44 +18234,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/yorba-linda-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Yorba Linda, CA | Dry County Restoration",
-      "h1": "Contents Restoration & Storage in Yorba Linda",
-      "meta_description": "24/7 contents restoration & storage in Yorba Linda, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "contents restoration & storage yorba linda",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/yorba-linda-ca/",
-        "/service-areas/yorba-linda-ca/fire-damage-restoration/",
-        "/service-areas/yorba-linda-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/contents-restoration-storage/",
-        "/service-areas/chino-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/yorba-linda-ca/emergency-board-up-tarping/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -20510,50 +18318,6 @@
         "/service-areas/yorba-linda-ca/mold-remediation/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/chino-ca/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/yorba-linda-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Yorba Linda, CA | Dry County Restoration",
-      "h1": "24/7 Emergency Water Removal in Yorba Linda",
-      "meta_description": "24/7 24/7 emergency water removal in Yorba Linda, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "24/7 emergency water removal yorba linda",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/yorba-linda-ca/",
-        "/service-areas/yorba-linda-ca/fire-damage-restoration/",
-        "/service-areas/yorba-linda-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/emergency-water-removal/",
-        "/service-areas/chino-ca/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -21394,44 +19158,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lake-mathews-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Lake Mathews, CA | Dry County Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Lake Mathews",
-      "meta_description": "24/7 air duct & hvac cleaning in Lake Mathews, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "air duct & hvac cleaning lake mathews",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/lake-mathews-ca/",
-        "/service-areas/lake-mathews-ca/fire-damage-restoration/",
-        "/service-areas/lake-mathews-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-        "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lake-mathews-ca/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -21602,44 +19328,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lake-mathews-ca/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Lake Mathews, CA | Dry County Restoration",
-      "h1": "Carpet & Upholstery Cleaning in Lake Mathews",
-      "meta_description": "24/7 carpet & upholstery cleaning in Lake Mathews, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "carpet & upholstery cleaning lake mathews",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/lake-mathews-ca/",
-        "/service-areas/lake-mathews-ca/fire-damage-restoration/",
-        "/service-areas/lake-mathews-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-        "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lake-mathews-ca/ceiling-water-damage-repair/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -21772,44 +19460,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lake-mathews-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Lake Mathews, CA | Dry County Restoration",
-      "h1": "Contents Restoration & Storage in Lake Mathews",
-      "meta_description": "24/7 contents restoration & storage in Lake Mathews, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "contents restoration & storage lake mathews",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/lake-mathews-ca/",
-        "/service-areas/lake-mathews-ca/fire-damage-restoration/",
-        "/service-areas/lake-mathews-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/contents-restoration-storage/",
-        "/service-areas/chino-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lake-mathews-ca/emergency-board-up-tarping/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -21894,50 +19544,6 @@
         "/service-areas/lake-mathews-ca/mold-remediation/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/chino-ca/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lake-mathews-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Lake Mathews, CA | Dry County Restoration",
-      "h1": "24/7 Emergency Water Removal in Lake Mathews",
-      "meta_description": "24/7 24/7 emergency water removal in Lake Mathews, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "24/7 emergency water removal lake mathews",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/lake-mathews-ca/",
-        "/service-areas/lake-mathews-ca/fire-damage-restoration/",
-        "/service-areas/lake-mathews-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/emergency-water-removal/",
-        "/service-areas/chino-ca/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -22778,44 +20384,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/woodcrest-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Woodcrest, CA | Dry County Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Woodcrest",
-      "meta_description": "24/7 air duct & hvac cleaning in Woodcrest, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "air duct & hvac cleaning woodcrest",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/woodcrest-ca/",
-        "/service-areas/woodcrest-ca/fire-damage-restoration/",
-        "/service-areas/woodcrest-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-        "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/woodcrest-ca/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -22986,44 +20554,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/woodcrest-ca/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Woodcrest, CA | Dry County Restoration",
-      "h1": "Carpet & Upholstery Cleaning in Woodcrest",
-      "meta_description": "24/7 carpet & upholstery cleaning in Woodcrest, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "carpet & upholstery cleaning woodcrest",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/woodcrest-ca/",
-        "/service-areas/woodcrest-ca/fire-damage-restoration/",
-        "/service-areas/woodcrest-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-        "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/woodcrest-ca/ceiling-water-damage-repair/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -23156,44 +20686,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/woodcrest-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Woodcrest, CA | Dry County Restoration",
-      "h1": "Contents Restoration & Storage in Woodcrest",
-      "meta_description": "24/7 contents restoration & storage in Woodcrest, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "contents restoration & storage woodcrest",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/woodcrest-ca/",
-        "/service-areas/woodcrest-ca/fire-damage-restoration/",
-        "/service-areas/woodcrest-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/contents-restoration-storage/",
-        "/service-areas/chino-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/woodcrest-ca/emergency-board-up-tarping/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -23278,50 +20770,6 @@
         "/service-areas/woodcrest-ca/mold-remediation/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/chino-ca/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/woodcrest-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Woodcrest, CA | Dry County Restoration",
-      "h1": "24/7 Emergency Water Removal in Woodcrest",
-      "meta_description": "24/7 24/7 emergency water removal in Woodcrest, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "24/7 emergency water removal woodcrest",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/woodcrest-ca/",
-        "/service-areas/woodcrest-ca/fire-damage-restoration/",
-        "/service-areas/woodcrest-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/emergency-water-removal/",
-        "/service-areas/chino-ca/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -24162,44 +21610,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/trabuco-canyon-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Trabuco Canyon, CA | Dry County Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Trabuco Canyon",
-      "meta_description": "24/7 air duct & hvac cleaning in Trabuco Canyon, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "air duct & hvac cleaning trabuco canyon",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/trabuco-canyon-ca/",
-        "/service-areas/trabuco-canyon-ca/fire-damage-restoration/",
-        "/service-areas/trabuco-canyon-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-        "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/trabuco-canyon-ca/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -24370,44 +21780,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/trabuco-canyon-ca/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Trabuco Canyon, CA | Dry County Restoration",
-      "h1": "Carpet & Upholstery Cleaning in Trabuco Canyon",
-      "meta_description": "24/7 carpet & upholstery cleaning in Trabuco Canyon, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "carpet & upholstery cleaning trabuco canyon",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/trabuco-canyon-ca/",
-        "/service-areas/trabuco-canyon-ca/fire-damage-restoration/",
-        "/service-areas/trabuco-canyon-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-        "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/trabuco-canyon-ca/ceiling-water-damage-repair/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -24540,44 +21912,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/trabuco-canyon-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Trabuco Canyon, CA | Dry County Restoration",
-      "h1": "Contents Restoration & Storage in Trabuco Canyon",
-      "meta_description": "24/7 contents restoration & storage in Trabuco Canyon, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "contents restoration & storage trabuco canyon",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/trabuco-canyon-ca/",
-        "/service-areas/trabuco-canyon-ca/fire-damage-restoration/",
-        "/service-areas/trabuco-canyon-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/contents-restoration-storage/",
-        "/service-areas/chino-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/trabuco-canyon-ca/emergency-board-up-tarping/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -24662,50 +21996,6 @@
         "/service-areas/trabuco-canyon-ca/mold-remediation/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/chino-ca/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/trabuco-canyon-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Trabuco Canyon, CA | Dry County Restoration",
-      "h1": "24/7 Emergency Water Removal in Trabuco Canyon",
-      "meta_description": "24/7 24/7 emergency water removal in Trabuco Canyon, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "24/7 emergency water removal trabuco canyon",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/trabuco-canyon-ca/",
-        "/service-areas/trabuco-canyon-ca/fire-damage-restoration/",
-        "/service-areas/trabuco-canyon-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/emergency-water-removal/",
-        "/service-areas/chino-ca/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -25546,44 +22836,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/north-tustin-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in North Tustin, CA | Dry County Restoration",
-      "h1": "Air Duct & HVAC Cleaning in North Tustin",
-      "meta_description": "24/7 air duct & hvac cleaning in North Tustin, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "air duct & hvac cleaning north tustin",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/north-tustin-ca/",
-        "/service-areas/north-tustin-ca/fire-damage-restoration/",
-        "/service-areas/north-tustin-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-        "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/north-tustin-ca/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -25754,44 +23006,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/north-tustin-ca/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in North Tustin, CA | Dry County Restoration",
-      "h1": "Carpet & Upholstery Cleaning in North Tustin",
-      "meta_description": "24/7 carpet & upholstery cleaning in North Tustin, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "carpet & upholstery cleaning north tustin",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/north-tustin-ca/",
-        "/service-areas/north-tustin-ca/fire-damage-restoration/",
-        "/service-areas/north-tustin-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-        "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/north-tustin-ca/ceiling-water-damage-repair/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -25924,44 +23138,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/north-tustin-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in North Tustin, CA | Dry County Restoration",
-      "h1": "Contents Restoration & Storage in North Tustin",
-      "meta_description": "24/7 contents restoration & storage in North Tustin, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "contents restoration & storage north tustin",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/north-tustin-ca/",
-        "/service-areas/north-tustin-ca/fire-damage-restoration/",
-        "/service-areas/north-tustin-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/contents-restoration-storage/",
-        "/service-areas/chino-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/north-tustin-ca/emergency-board-up-tarping/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -26046,50 +23222,6 @@
         "/service-areas/north-tustin-ca/mold-remediation/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/chino-ca/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/north-tustin-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in North Tustin, CA | Dry County Restoration",
-      "h1": "24/7 Emergency Water Removal in North Tustin",
-      "meta_description": "24/7 24/7 emergency water removal in North Tustin, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "24/7 emergency water removal north tustin",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/north-tustin-ca/",
-        "/service-areas/north-tustin-ca/fire-damage-restoration/",
-        "/service-areas/north-tustin-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/emergency-water-removal/",
-        "/service-areas/chino-ca/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -26930,44 +24062,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/montclair-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Montclair, CA | Dry County Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Montclair",
-      "meta_description": "24/7 air duct & hvac cleaning in Montclair, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "air duct & hvac cleaning montclair",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/montclair-ca/",
-        "/service-areas/montclair-ca/fire-damage-restoration/",
-        "/service-areas/montclair-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-        "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/montclair-ca/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -27138,44 +24232,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/montclair-ca/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Montclair, CA | Dry County Restoration",
-      "h1": "Carpet & Upholstery Cleaning in Montclair",
-      "meta_description": "24/7 carpet & upholstery cleaning in Montclair, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "carpet & upholstery cleaning montclair",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/montclair-ca/",
-        "/service-areas/montclair-ca/fire-damage-restoration/",
-        "/service-areas/montclair-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-        "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/montclair-ca/ceiling-water-damage-repair/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -27308,44 +24364,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/montclair-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Montclair, CA | Dry County Restoration",
-      "h1": "Contents Restoration & Storage in Montclair",
-      "meta_description": "24/7 contents restoration & storage in Montclair, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "contents restoration & storage montclair",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/montclair-ca/",
-        "/service-areas/montclair-ca/fire-damage-restoration/",
-        "/service-areas/montclair-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/contents-restoration-storage/",
-        "/service-areas/chino-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/montclair-ca/emergency-board-up-tarping/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -27430,50 +24448,6 @@
         "/service-areas/montclair-ca/mold-remediation/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/chino-ca/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/montclair-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Montclair, CA | Dry County Restoration",
-      "h1": "24/7 Emergency Water Removal in Montclair",
-      "meta_description": "24/7 24/7 emergency water removal in Montclair, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "24/7 emergency water removal montclair",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/montclair-ca/",
-        "/service-areas/montclair-ca/fire-damage-restoration/",
-        "/service-areas/montclair-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/emergency-water-removal/",
-        "/service-areas/chino-ca/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -28314,44 +25288,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/villa-park-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Villa Park, CA | Dry County Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Villa Park",
-      "meta_description": "24/7 air duct & hvac cleaning in Villa Park, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "air duct & hvac cleaning villa park",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/villa-park-ca/",
-        "/service-areas/villa-park-ca/fire-damage-restoration/",
-        "/service-areas/villa-park-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-        "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/villa-park-ca/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -28522,44 +25458,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/villa-park-ca/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Villa Park, CA | Dry County Restoration",
-      "h1": "Carpet & Upholstery Cleaning in Villa Park",
-      "meta_description": "24/7 carpet & upholstery cleaning in Villa Park, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "carpet & upholstery cleaning villa park",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/villa-park-ca/",
-        "/service-areas/villa-park-ca/fire-damage-restoration/",
-        "/service-areas/villa-park-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-        "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/villa-park-ca/ceiling-water-damage-repair/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -28692,44 +25590,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/villa-park-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Villa Park, CA | Dry County Restoration",
-      "h1": "Contents Restoration & Storage in Villa Park",
-      "meta_description": "24/7 contents restoration & storage in Villa Park, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "contents restoration & storage villa park",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/villa-park-ca/",
-        "/service-areas/villa-park-ca/fire-damage-restoration/",
-        "/service-areas/villa-park-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/contents-restoration-storage/",
-        "/service-areas/chino-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/villa-park-ca/emergency-board-up-tarping/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -28814,50 +25674,6 @@
         "/service-areas/villa-park-ca/mold-remediation/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/chino-ca/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/villa-park-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Villa Park, CA | Dry County Restoration",
-      "h1": "24/7 Emergency Water Removal in Villa Park",
-      "meta_description": "24/7 24/7 emergency water removal in Villa Park, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "24/7 emergency water removal villa park",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/villa-park-ca/",
-        "/service-areas/villa-park-ca/fire-damage-restoration/",
-        "/service-areas/villa-park-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/emergency-water-removal/",
-        "/service-areas/chino-ca/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -29698,44 +26514,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/fontana-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Fontana, CA | Dry County Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Fontana",
-      "meta_description": "24/7 air duct & hvac cleaning in Fontana, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "air duct & hvac cleaning fontana",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/fontana-ca/",
-        "/service-areas/fontana-ca/fire-damage-restoration/",
-        "/service-areas/fontana-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-        "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/fontana-ca/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -29906,44 +26684,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/fontana-ca/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Fontana, CA | Dry County Restoration",
-      "h1": "Carpet & Upholstery Cleaning in Fontana",
-      "meta_description": "24/7 carpet & upholstery cleaning in Fontana, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "carpet & upholstery cleaning fontana",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/fontana-ca/",
-        "/service-areas/fontana-ca/fire-damage-restoration/",
-        "/service-areas/fontana-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-        "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/fontana-ca/ceiling-water-damage-repair/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -30076,44 +26816,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/fontana-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Fontana, CA | Dry County Restoration",
-      "h1": "Contents Restoration & Storage in Fontana",
-      "meta_description": "24/7 contents restoration & storage in Fontana, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "contents restoration & storage fontana",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/fontana-ca/",
-        "/service-areas/fontana-ca/fire-damage-restoration/",
-        "/service-areas/fontana-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/contents-restoration-storage/",
-        "/service-areas/chino-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/fontana-ca/emergency-board-up-tarping/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -30198,50 +26900,6 @@
         "/service-areas/fontana-ca/mold-remediation/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/chino-ca/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/fontana-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Fontana, CA | Dry County Restoration",
-      "h1": "24/7 Emergency Water Removal in Fontana",
-      "meta_description": "24/7 24/7 emergency water removal in Fontana, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "24/7 emergency water removal fontana",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/fontana-ca/",
-        "/service-areas/fontana-ca/fire-damage-restoration/",
-        "/service-areas/fontana-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/emergency-water-removal/",
-        "/service-areas/chino-ca/emergency-water-removal/",
         "/contact/"
       ]
     },
@@ -31082,44 +27740,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/pomona-ca/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Pomona, CA | Dry County Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Pomona",
-      "meta_description": "24/7 air duct & hvac cleaning in Pomona, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "air duct & hvac cleaning pomona",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/pomona-ca/",
-        "/service-areas/pomona-ca/fire-damage-restoration/",
-        "/service-areas/pomona-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/air-duct-hvac-cleaning/",
-        "/service-areas/chino-ca/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/pomona-ca/basement-flooding-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -31290,44 +27910,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/pomona-ca/carpet-upholstery-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Carpet & Upholstery Cleaning in Pomona, CA | Dry County Restoration",
-      "h1": "Carpet & Upholstery Cleaning in Pomona",
-      "meta_description": "24/7 carpet & upholstery cleaning in Pomona, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "carpet & upholstery cleaning pomona",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/carpet-upholstery-cleaning/",
-        "/service-areas/pomona-ca/",
-        "/service-areas/pomona-ca/fire-damage-restoration/",
-        "/service-areas/pomona-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/carpet-upholstery-cleaning/",
-        "/service-areas/chino-ca/carpet-upholstery-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/pomona-ca/ceiling-water-damage-repair/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -31460,44 +28042,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/pomona-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Pomona, CA | Dry County Restoration",
-      "h1": "Contents Restoration & Storage in Pomona",
-      "meta_description": "24/7 contents restoration & storage in Pomona, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "contents restoration & storage pomona",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/pomona-ca/",
-        "/service-areas/pomona-ca/fire-damage-restoration/",
-        "/service-areas/pomona-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/contents-restoration-storage/",
-        "/service-areas/chino-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/pomona-ca/emergency-board-up-tarping/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -31582,50 +28126,6 @@
         "/service-areas/pomona-ca/mold-remediation/",
         "/service-areas/anaheim-ca/emergency-plumbing/",
         "/service-areas/chino-ca/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/pomona-ca/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Pomona, CA | Dry County Restoration",
-      "h1": "24/7 Emergency Water Removal in Pomona",
-      "meta_description": "24/7 24/7 emergency water removal in Pomona, CA. IICRC-certified, insurance billing accepted. Call (951) 667-9910.",
-      "primary_keyword": "24/7 emergency water removal pomona",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/pomona-ca/",
-        "/service-areas/pomona-ca/fire-damage-restoration/",
-        "/service-areas/pomona-ca/mold-remediation/",
-        "/service-areas/anaheim-ca/emergency-water-removal/",
-        "/service-areas/chino-ca/emergency-water-removal/",
         "/contact/"
       ]
     },

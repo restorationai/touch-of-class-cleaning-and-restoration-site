@@ -55,7 +55,7 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Biohazard Cleanup](https://homelyft.net/services/biohazard-cleanup/)
 - [Carpet Cleaning](https://homelyft.net/services/carpet-cleaning/)
 - [Contents Restoration and Storage](https://homelyft.net/services/contents-restoration/)
-- [Contents Restoration & Storage](https://homelyft.net/services/contents-restoration-storage/)
+- [Contents Restoration & Storage](https://homelyft.net/services/contents-restoration/)
 - [Crawl Space Encapsulation](https://homelyft.net/services/crawl-space-encapsulation/)
 - [Emergency Board-Up and Tarping](https://homelyft.net/services/emergency-board-up-tarping/)
 - [Fire Damage Restoration](https://homelyft.net/services/fire-damage-restoration/)
@@ -66,7 +66,7 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Roofing Installation and Replacement](https://homelyft.net/services/roofing/)
 - [Sewage Cleanup and Sanitization](https://homelyft.net/services/sewage-cleanup/)
 - [Storm Damage Restoration](https://homelyft.net/services/storm-damage-restoration/)
-- [Vandalism Cleanup](https://homelyft.net/services/vandalism-cleanup/)
+- [Vandalism Cleanup](https://homelyft.net/services/vandalism-graffiti-removal/)
 - [Water Damage Restoration](https://homelyft.net/services/water-damage-restoration/)
 - [Water Leak Detection](https://homelyft.net/services/water-leak-detection/)
 

@@ -12,8 +12,6 @@
     "/services/emergency-board-up-tarping/",
     "/services/asbestos-abatement/",
     "/services/air-duct-cleaning/",
-    "/services/air-duct-hvac-cleaning/",
-    "/services/carpet-upholstery-cleaning/",
     "/services/contents-restoration-storage/",
     "/services/lead-paint-abatement/",
     "/services/carpet-cleaning/",
@@ -63,8 +61,6 @@
     "/services/emergency-board-up-tarping/",
     "/services/asbestos-abatement/",
     "/services/air-duct-cleaning/",
-    "/services/air-duct-hvac-cleaning/",
-    "/services/carpet-upholstery-cleaning/",
     "/services/contents-restoration-storage/",
     "/services/lead-paint-abatement/",
     "/services/carpet-cleaning/",
@@ -141,22 +137,6 @@
     "/service-areas/green-tree-pa/air-duct-cleaning/",
     "/service-areas/greensburg-pa/air-duct-cleaning/"
   ],
-  "/services/air-duct-hvac-cleaning/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/service-areas/bethel-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/carnegie-pa/air-duct-hvac-cleaning/",
-    "/service-areas/castle-shannon-pa/air-duct-hvac-cleaning/",
-    "/service-areas/churchill-pa/air-duct-hvac-cleaning/",
-    "/service-areas/duquesne-pa/air-duct-hvac-cleaning/",
-    "/service-areas/forest-hills-pa/air-duct-hvac-cleaning/",
-    "/service-areas/fox-chapel-pa/air-duct-hvac-cleaning/",
-    "/service-areas/glenshaw-pa/air-duct-hvac-cleaning/",
-    "/service-areas/green-tree-pa/air-duct-hvac-cleaning/",
-    "/service-areas/greensburg-pa/air-duct-hvac-cleaning/"
-  ],
   "/services/asbestos-abatement/": [
     "/services/",
     "/contact/",
@@ -204,22 +184,6 @@
     "/service-areas/glenshaw-pa/carpet-cleaning/",
     "/service-areas/green-tree-pa/carpet-cleaning/",
     "/service-areas/greensburg-pa/carpet-cleaning/"
-  ],
-  "/services/carpet-upholstery-cleaning/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
-    "/service-areas/bethel-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/carnegie-pa/carpet-upholstery-cleaning/",
-    "/service-areas/castle-shannon-pa/carpet-upholstery-cleaning/",
-    "/service-areas/churchill-pa/carpet-upholstery-cleaning/",
-    "/service-areas/duquesne-pa/carpet-upholstery-cleaning/",
-    "/service-areas/forest-hills-pa/carpet-upholstery-cleaning/",
-    "/service-areas/fox-chapel-pa/carpet-upholstery-cleaning/",
-    "/service-areas/glenshaw-pa/carpet-upholstery-cleaning/",
-    "/service-areas/green-tree-pa/carpet-upholstery-cleaning/",
-    "/service-areas/greensburg-pa/carpet-upholstery-cleaning/"
   ],
   "/services/contents-restoration-storage/": [
     "/services/",
@@ -364,8 +328,6 @@
     "/service-areas/penn-hills-pa/emergency-board-up-tarping/",
     "/service-areas/penn-hills-pa/asbestos-abatement/",
     "/service-areas/penn-hills-pa/air-duct-cleaning/",
-    "/service-areas/penn-hills-pa/air-duct-hvac-cleaning/",
-    "/service-areas/penn-hills-pa/carpet-upholstery-cleaning/",
     "/service-areas/penn-hills-pa/contents-restoration-storage/",
     "/service-areas/penn-hills-pa/lead-paint-abatement/",
     "/service-areas/penn-hills-pa/carpet-cleaning/",
@@ -385,8 +347,6 @@
     "/service-areas/mccandless-pa/emergency-board-up-tarping/",
     "/service-areas/mccandless-pa/asbestos-abatement/",
     "/service-areas/mccandless-pa/air-duct-cleaning/",
-    "/service-areas/mccandless-pa/air-duct-hvac-cleaning/",
-    "/service-areas/mccandless-pa/carpet-upholstery-cleaning/",
     "/service-areas/mccandless-pa/contents-restoration-storage/",
     "/service-areas/mccandless-pa/lead-paint-abatement/",
     "/service-areas/mccandless-pa/carpet-cleaning/",
@@ -406,8 +366,6 @@
     "/service-areas/bethel-park-pa/emergency-board-up-tarping/",
     "/service-areas/bethel-park-pa/asbestos-abatement/",
     "/service-areas/bethel-park-pa/air-duct-cleaning/",
-    "/service-areas/bethel-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/bethel-park-pa/carpet-upholstery-cleaning/",
     "/service-areas/bethel-park-pa/contents-restoration-storage/",
     "/service-areas/bethel-park-pa/lead-paint-abatement/",
     "/service-areas/bethel-park-pa/carpet-cleaning/",
@@ -427,8 +385,6 @@
     "/service-areas/mount-lebanon-pa/emergency-board-up-tarping/",
     "/service-areas/mount-lebanon-pa/asbestos-abatement/",
     "/service-areas/mount-lebanon-pa/air-duct-cleaning/",
-    "/service-areas/mount-lebanon-pa/air-duct-hvac-cleaning/",
-    "/service-areas/mount-lebanon-pa/carpet-upholstery-cleaning/",
     "/service-areas/mount-lebanon-pa/contents-restoration-storage/",
     "/service-areas/mount-lebanon-pa/lead-paint-abatement/",
     "/service-areas/mount-lebanon-pa/carpet-cleaning/",
@@ -448,8 +404,6 @@
     "/service-areas/ross-township-pa/emergency-board-up-tarping/",
     "/service-areas/ross-township-pa/asbestos-abatement/",
     "/service-areas/ross-township-pa/air-duct-cleaning/",
-    "/service-areas/ross-township-pa/air-duct-hvac-cleaning/",
-    "/service-areas/ross-township-pa/carpet-upholstery-cleaning/",
     "/service-areas/ross-township-pa/contents-restoration-storage/",
     "/service-areas/ross-township-pa/lead-paint-abatement/",
     "/service-areas/ross-township-pa/carpet-cleaning/",
@@ -469,8 +423,6 @@
     "/service-areas/monroeville-pa/emergency-board-up-tarping/",
     "/service-areas/monroeville-pa/asbestos-abatement/",
     "/service-areas/monroeville-pa/air-duct-cleaning/",
-    "/service-areas/monroeville-pa/air-duct-hvac-cleaning/",
-    "/service-areas/monroeville-pa/carpet-upholstery-cleaning/",
     "/service-areas/monroeville-pa/contents-restoration-storage/",
     "/service-areas/monroeville-pa/lead-paint-abatement/",
     "/service-areas/monroeville-pa/carpet-cleaning/",
@@ -490,8 +442,6 @@
     "/service-areas/shaler-township-pa/emergency-board-up-tarping/",
     "/service-areas/shaler-township-pa/asbestos-abatement/",
     "/service-areas/shaler-township-pa/air-duct-cleaning/",
-    "/service-areas/shaler-township-pa/air-duct-hvac-cleaning/",
-    "/service-areas/shaler-township-pa/carpet-upholstery-cleaning/",
     "/service-areas/shaler-township-pa/contents-restoration-storage/",
     "/service-areas/shaler-township-pa/lead-paint-abatement/",
     "/service-areas/shaler-township-pa/carpet-cleaning/",
@@ -511,8 +461,6 @@
     "/service-areas/plum-pa/emergency-board-up-tarping/",
     "/service-areas/plum-pa/asbestos-abatement/",
     "/service-areas/plum-pa/air-duct-cleaning/",
-    "/service-areas/plum-pa/air-duct-hvac-cleaning/",
-    "/service-areas/plum-pa/carpet-upholstery-cleaning/",
     "/service-areas/plum-pa/contents-restoration-storage/",
     "/service-areas/plum-pa/lead-paint-abatement/",
     "/service-areas/plum-pa/carpet-cleaning/",
@@ -532,8 +480,6 @@
     "/service-areas/west-mifflin-pa/emergency-board-up-tarping/",
     "/service-areas/west-mifflin-pa/asbestos-abatement/",
     "/service-areas/west-mifflin-pa/air-duct-cleaning/",
-    "/service-areas/west-mifflin-pa/air-duct-hvac-cleaning/",
-    "/service-areas/west-mifflin-pa/carpet-upholstery-cleaning/",
     "/service-areas/west-mifflin-pa/contents-restoration-storage/",
     "/service-areas/west-mifflin-pa/lead-paint-abatement/",
     "/service-areas/west-mifflin-pa/carpet-cleaning/",
@@ -553,8 +499,6 @@
     "/service-areas/mckeesport-pa/emergency-board-up-tarping/",
     "/service-areas/mckeesport-pa/asbestos-abatement/",
     "/service-areas/mckeesport-pa/air-duct-cleaning/",
-    "/service-areas/mckeesport-pa/air-duct-hvac-cleaning/",
-    "/service-areas/mckeesport-pa/carpet-upholstery-cleaning/",
     "/service-areas/mckeesport-pa/contents-restoration-storage/",
     "/service-areas/mckeesport-pa/lead-paint-abatement/",
     "/service-areas/mckeesport-pa/carpet-cleaning/",
@@ -574,8 +518,6 @@
     "/service-areas/baldwin-pa/emergency-board-up-tarping/",
     "/service-areas/baldwin-pa/asbestos-abatement/",
     "/service-areas/baldwin-pa/air-duct-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/service-areas/baldwin-pa/contents-restoration-storage/",
     "/service-areas/baldwin-pa/lead-paint-abatement/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
@@ -595,8 +537,6 @@
     "/service-areas/greensburg-pa/emergency-board-up-tarping/",
     "/service-areas/greensburg-pa/asbestos-abatement/",
     "/service-areas/greensburg-pa/air-duct-cleaning/",
-    "/service-areas/greensburg-pa/air-duct-hvac-cleaning/",
-    "/service-areas/greensburg-pa/carpet-upholstery-cleaning/",
     "/service-areas/greensburg-pa/contents-restoration-storage/",
     "/service-areas/greensburg-pa/lead-paint-abatement/",
     "/service-areas/greensburg-pa/carpet-cleaning/",
@@ -616,8 +556,6 @@
     "/service-areas/hempfield-township-pa/emergency-board-up-tarping/",
     "/service-areas/hempfield-township-pa/asbestos-abatement/",
     "/service-areas/hempfield-township-pa/air-duct-cleaning/",
-    "/service-areas/hempfield-township-pa/air-duct-hvac-cleaning/",
-    "/service-areas/hempfield-township-pa/carpet-upholstery-cleaning/",
     "/service-areas/hempfield-township-pa/contents-restoration-storage/",
     "/service-areas/hempfield-township-pa/lead-paint-abatement/",
     "/service-areas/hempfield-township-pa/carpet-cleaning/",
@@ -637,8 +575,6 @@
     "/service-areas/north-huntingdon-pa/emergency-board-up-tarping/",
     "/service-areas/north-huntingdon-pa/asbestos-abatement/",
     "/service-areas/north-huntingdon-pa/air-duct-cleaning/",
-    "/service-areas/north-huntingdon-pa/air-duct-hvac-cleaning/",
-    "/service-areas/north-huntingdon-pa/carpet-upholstery-cleaning/",
     "/service-areas/north-huntingdon-pa/contents-restoration-storage/",
     "/service-areas/north-huntingdon-pa/lead-paint-abatement/",
     "/service-areas/north-huntingdon-pa/carpet-cleaning/",
@@ -658,8 +594,6 @@
     "/service-areas/new-kensington-pa/emergency-board-up-tarping/",
     "/service-areas/new-kensington-pa/asbestos-abatement/",
     "/service-areas/new-kensington-pa/air-duct-cleaning/",
-    "/service-areas/new-kensington-pa/air-duct-hvac-cleaning/",
-    "/service-areas/new-kensington-pa/carpet-upholstery-cleaning/",
     "/service-areas/new-kensington-pa/contents-restoration-storage/",
     "/service-areas/new-kensington-pa/lead-paint-abatement/",
     "/service-areas/new-kensington-pa/carpet-cleaning/",
@@ -679,8 +613,6 @@
     "/service-areas/murrysville-pa/emergency-board-up-tarping/",
     "/service-areas/murrysville-pa/asbestos-abatement/",
     "/service-areas/murrysville-pa/air-duct-cleaning/",
-    "/service-areas/murrysville-pa/air-duct-hvac-cleaning/",
-    "/service-areas/murrysville-pa/carpet-upholstery-cleaning/",
     "/service-areas/murrysville-pa/contents-restoration-storage/",
     "/service-areas/murrysville-pa/lead-paint-abatement/",
     "/service-areas/murrysville-pa/carpet-cleaning/",
@@ -700,8 +632,6 @@
     "/service-areas/latrobe-pa/emergency-board-up-tarping/",
     "/service-areas/latrobe-pa/asbestos-abatement/",
     "/service-areas/latrobe-pa/air-duct-cleaning/",
-    "/service-areas/latrobe-pa/air-duct-hvac-cleaning/",
-    "/service-areas/latrobe-pa/carpet-upholstery-cleaning/",
     "/service-areas/latrobe-pa/contents-restoration-storage/",
     "/service-areas/latrobe-pa/lead-paint-abatement/",
     "/service-areas/latrobe-pa/carpet-cleaning/",
@@ -721,8 +651,6 @@
     "/service-areas/lower-burrell-pa/emergency-board-up-tarping/",
     "/service-areas/lower-burrell-pa/asbestos-abatement/",
     "/service-areas/lower-burrell-pa/air-duct-cleaning/",
-    "/service-areas/lower-burrell-pa/air-duct-hvac-cleaning/",
-    "/service-areas/lower-burrell-pa/carpet-upholstery-cleaning/",
     "/service-areas/lower-burrell-pa/contents-restoration-storage/",
     "/service-areas/lower-burrell-pa/lead-paint-abatement/",
     "/service-areas/lower-burrell-pa/carpet-cleaning/",
@@ -742,8 +670,6 @@
     "/service-areas/jeannette-pa/emergency-board-up-tarping/",
     "/service-areas/jeannette-pa/asbestos-abatement/",
     "/service-areas/jeannette-pa/air-duct-cleaning/",
-    "/service-areas/jeannette-pa/air-duct-hvac-cleaning/",
-    "/service-areas/jeannette-pa/carpet-upholstery-cleaning/",
     "/service-areas/jeannette-pa/contents-restoration-storage/",
     "/service-areas/jeannette-pa/lead-paint-abatement/",
     "/service-areas/jeannette-pa/carpet-cleaning/",
@@ -763,8 +689,6 @@
     "/service-areas/green-tree-pa/emergency-board-up-tarping/",
     "/service-areas/green-tree-pa/asbestos-abatement/",
     "/service-areas/green-tree-pa/air-duct-cleaning/",
-    "/service-areas/green-tree-pa/air-duct-hvac-cleaning/",
-    "/service-areas/green-tree-pa/carpet-upholstery-cleaning/",
     "/service-areas/green-tree-pa/contents-restoration-storage/",
     "/service-areas/green-tree-pa/lead-paint-abatement/",
     "/service-areas/green-tree-pa/carpet-cleaning/",
@@ -784,8 +708,6 @@
     "/service-areas/carnegie-pa/emergency-board-up-tarping/",
     "/service-areas/carnegie-pa/asbestos-abatement/",
     "/service-areas/carnegie-pa/air-duct-cleaning/",
-    "/service-areas/carnegie-pa/air-duct-hvac-cleaning/",
-    "/service-areas/carnegie-pa/carpet-upholstery-cleaning/",
     "/service-areas/carnegie-pa/contents-restoration-storage/",
     "/service-areas/carnegie-pa/lead-paint-abatement/",
     "/service-areas/carnegie-pa/carpet-cleaning/",
@@ -805,8 +727,6 @@
     "/service-areas/castle-shannon-pa/emergency-board-up-tarping/",
     "/service-areas/castle-shannon-pa/asbestos-abatement/",
     "/service-areas/castle-shannon-pa/air-duct-cleaning/",
-    "/service-areas/castle-shannon-pa/air-duct-hvac-cleaning/",
-    "/service-areas/castle-shannon-pa/carpet-upholstery-cleaning/",
     "/service-areas/castle-shannon-pa/contents-restoration-storage/",
     "/service-areas/castle-shannon-pa/lead-paint-abatement/",
     "/service-areas/castle-shannon-pa/carpet-cleaning/",
@@ -826,8 +746,6 @@
     "/service-areas/whitehall-pa/emergency-board-up-tarping/",
     "/service-areas/whitehall-pa/asbestos-abatement/",
     "/service-areas/whitehall-pa/air-duct-cleaning/",
-    "/service-areas/whitehall-pa/air-duct-hvac-cleaning/",
-    "/service-areas/whitehall-pa/carpet-upholstery-cleaning/",
     "/service-areas/whitehall-pa/contents-restoration-storage/",
     "/service-areas/whitehall-pa/lead-paint-abatement/",
     "/service-areas/whitehall-pa/carpet-cleaning/",
@@ -847,8 +765,6 @@
     "/service-areas/munhall-pa/emergency-board-up-tarping/",
     "/service-areas/munhall-pa/asbestos-abatement/",
     "/service-areas/munhall-pa/air-duct-cleaning/",
-    "/service-areas/munhall-pa/air-duct-hvac-cleaning/",
-    "/service-areas/munhall-pa/carpet-upholstery-cleaning/",
     "/service-areas/munhall-pa/contents-restoration-storage/",
     "/service-areas/munhall-pa/lead-paint-abatement/",
     "/service-areas/munhall-pa/carpet-cleaning/",
@@ -868,8 +784,6 @@
     "/service-areas/glenshaw-pa/emergency-board-up-tarping/",
     "/service-areas/glenshaw-pa/asbestos-abatement/",
     "/service-areas/glenshaw-pa/air-duct-cleaning/",
-    "/service-areas/glenshaw-pa/air-duct-hvac-cleaning/",
-    "/service-areas/glenshaw-pa/carpet-upholstery-cleaning/",
     "/service-areas/glenshaw-pa/contents-restoration-storage/",
     "/service-areas/glenshaw-pa/lead-paint-abatement/",
     "/service-areas/glenshaw-pa/carpet-cleaning/",
@@ -889,8 +803,6 @@
     "/service-areas/pleasant-hills-pa/emergency-board-up-tarping/",
     "/service-areas/pleasant-hills-pa/asbestos-abatement/",
     "/service-areas/pleasant-hills-pa/air-duct-cleaning/",
-    "/service-areas/pleasant-hills-pa/air-duct-hvac-cleaning/",
-    "/service-areas/pleasant-hills-pa/carpet-upholstery-cleaning/",
     "/service-areas/pleasant-hills-pa/contents-restoration-storage/",
     "/service-areas/pleasant-hills-pa/lead-paint-abatement/",
     "/service-areas/pleasant-hills-pa/carpet-cleaning/",
@@ -910,8 +822,6 @@
     "/service-areas/wilkinsburg-pa/emergency-board-up-tarping/",
     "/service-areas/wilkinsburg-pa/asbestos-abatement/",
     "/service-areas/wilkinsburg-pa/air-duct-cleaning/",
-    "/service-areas/wilkinsburg-pa/air-duct-hvac-cleaning/",
-    "/service-areas/wilkinsburg-pa/carpet-upholstery-cleaning/",
     "/service-areas/wilkinsburg-pa/contents-restoration-storage/",
     "/service-areas/wilkinsburg-pa/lead-paint-abatement/",
     "/service-areas/wilkinsburg-pa/carpet-cleaning/",
@@ -931,8 +841,6 @@
     "/service-areas/forest-hills-pa/emergency-board-up-tarping/",
     "/service-areas/forest-hills-pa/asbestos-abatement/",
     "/service-areas/forest-hills-pa/air-duct-cleaning/",
-    "/service-areas/forest-hills-pa/air-duct-hvac-cleaning/",
-    "/service-areas/forest-hills-pa/carpet-upholstery-cleaning/",
     "/service-areas/forest-hills-pa/contents-restoration-storage/",
     "/service-areas/forest-hills-pa/lead-paint-abatement/",
     "/service-areas/forest-hills-pa/carpet-cleaning/",
@@ -952,8 +860,6 @@
     "/service-areas/allison-park-pa/emergency-board-up-tarping/",
     "/service-areas/allison-park-pa/asbestos-abatement/",
     "/service-areas/allison-park-pa/air-duct-cleaning/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
     "/service-areas/allison-park-pa/contents-restoration-storage/",
     "/service-areas/allison-park-pa/lead-paint-abatement/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
@@ -973,8 +879,6 @@
     "/service-areas/fox-chapel-pa/emergency-board-up-tarping/",
     "/service-areas/fox-chapel-pa/asbestos-abatement/",
     "/service-areas/fox-chapel-pa/air-duct-cleaning/",
-    "/service-areas/fox-chapel-pa/air-duct-hvac-cleaning/",
-    "/service-areas/fox-chapel-pa/carpet-upholstery-cleaning/",
     "/service-areas/fox-chapel-pa/contents-restoration-storage/",
     "/service-areas/fox-chapel-pa/lead-paint-abatement/",
     "/service-areas/fox-chapel-pa/carpet-cleaning/",
@@ -994,8 +898,6 @@
     "/service-areas/churchill-pa/emergency-board-up-tarping/",
     "/service-areas/churchill-pa/asbestos-abatement/",
     "/service-areas/churchill-pa/air-duct-cleaning/",
-    "/service-areas/churchill-pa/air-duct-hvac-cleaning/",
-    "/service-areas/churchill-pa/carpet-upholstery-cleaning/",
     "/service-areas/churchill-pa/contents-restoration-storage/",
     "/service-areas/churchill-pa/lead-paint-abatement/",
     "/service-areas/churchill-pa/carpet-cleaning/",
@@ -1015,8 +917,6 @@
     "/service-areas/duquesne-pa/emergency-board-up-tarping/",
     "/service-areas/duquesne-pa/asbestos-abatement/",
     "/service-areas/duquesne-pa/air-duct-cleaning/",
-    "/service-areas/duquesne-pa/air-duct-hvac-cleaning/",
-    "/service-areas/duquesne-pa/carpet-upholstery-cleaning/",
     "/service-areas/duquesne-pa/contents-restoration-storage/",
     "/service-areas/duquesne-pa/lead-paint-abatement/",
     "/service-areas/duquesne-pa/carpet-cleaning/",
@@ -1036,8 +936,6 @@
     "/service-areas/jefferson-hills-pa/emergency-board-up-tarping/",
     "/service-areas/jefferson-hills-pa/asbestos-abatement/",
     "/service-areas/jefferson-hills-pa/air-duct-cleaning/",
-    "/service-areas/jefferson-hills-pa/air-duct-hvac-cleaning/",
-    "/service-areas/jefferson-hills-pa/carpet-upholstery-cleaning/",
     "/service-areas/jefferson-hills-pa/contents-restoration-storage/",
     "/service-areas/jefferson-hills-pa/lead-paint-abatement/",
     "/service-areas/jefferson-hills-pa/carpet-cleaning/",
@@ -1057,8 +955,6 @@
     "/service-areas/sewickley-hills-pa/emergency-board-up-tarping/",
     "/service-areas/sewickley-hills-pa/asbestos-abatement/",
     "/service-areas/sewickley-hills-pa/air-duct-cleaning/",
-    "/service-areas/sewickley-hills-pa/air-duct-hvac-cleaning/",
-    "/service-areas/sewickley-hills-pa/carpet-upholstery-cleaning/",
     "/service-areas/sewickley-hills-pa/contents-restoration-storage/",
     "/service-areas/sewickley-hills-pa/lead-paint-abatement/",
     "/service-areas/sewickley-hills-pa/carpet-cleaning/",
@@ -1074,15 +970,6 @@
     "/service-areas/penn-hills-pa/roofing/",
     "/service-areas/allison-park-pa/air-duct-cleaning/",
     "/service-areas/baldwin-pa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/penn-hills-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/penn-hills-pa/",
-    "/service-areas/penn-hills-pa/fire-damage-restoration/",
-    "/service-areas/penn-hills-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/penn-hills-pa/asbestos-abatement/": [
@@ -1110,15 +997,6 @@
     "/service-areas/penn-hills-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/penn-hills-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/penn-hills-pa/",
-    "/service-areas/penn-hills-pa/fire-damage-restoration/",
-    "/service-areas/penn-hills-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/penn-hills-pa/contents-restoration-storage/": [
@@ -1202,15 +1080,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/mccandless-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/mccandless-pa/",
-    "/service-areas/mccandless-pa/fire-damage-restoration/",
-    "/service-areas/mccandless-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/mccandless-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/mccandless-pa/",
@@ -1236,15 +1105,6 @@
     "/service-areas/mccandless-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/mccandless-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/mccandless-pa/",
-    "/service-areas/mccandless-pa/fire-damage-restoration/",
-    "/service-areas/mccandless-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/mccandless-pa/contents-restoration-storage/": [
@@ -1328,15 +1188,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/bethel-park-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/bethel-park-pa/",
-    "/service-areas/bethel-park-pa/fire-damage-restoration/",
-    "/service-areas/bethel-park-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/bethel-park-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/bethel-park-pa/",
@@ -1362,15 +1213,6 @@
     "/service-areas/bethel-park-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/bethel-park-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/bethel-park-pa/",
-    "/service-areas/bethel-park-pa/fire-damage-restoration/",
-    "/service-areas/bethel-park-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/bethel-park-pa/contents-restoration-storage/": [
@@ -1454,15 +1296,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/mount-lebanon-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/mount-lebanon-pa/",
-    "/service-areas/mount-lebanon-pa/fire-damage-restoration/",
-    "/service-areas/mount-lebanon-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/mount-lebanon-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/mount-lebanon-pa/",
@@ -1488,15 +1321,6 @@
     "/service-areas/mount-lebanon-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/mount-lebanon-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/mount-lebanon-pa/",
-    "/service-areas/mount-lebanon-pa/fire-damage-restoration/",
-    "/service-areas/mount-lebanon-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/mount-lebanon-pa/contents-restoration-storage/": [
@@ -1580,15 +1404,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/ross-township-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/ross-township-pa/",
-    "/service-areas/ross-township-pa/fire-damage-restoration/",
-    "/service-areas/ross-township-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/ross-township-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/ross-township-pa/",
@@ -1614,15 +1429,6 @@
     "/service-areas/ross-township-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/ross-township-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/ross-township-pa/",
-    "/service-areas/ross-township-pa/fire-damage-restoration/",
-    "/service-areas/ross-township-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/ross-township-pa/contents-restoration-storage/": [
@@ -1706,15 +1512,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/monroeville-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/monroeville-pa/",
-    "/service-areas/monroeville-pa/fire-damage-restoration/",
-    "/service-areas/monroeville-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/monroeville-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/monroeville-pa/",
@@ -1740,15 +1537,6 @@
     "/service-areas/monroeville-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/monroeville-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/monroeville-pa/",
-    "/service-areas/monroeville-pa/fire-damage-restoration/",
-    "/service-areas/monroeville-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/monroeville-pa/contents-restoration-storage/": [
@@ -1832,15 +1620,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/shaler-township-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/shaler-township-pa/",
-    "/service-areas/shaler-township-pa/fire-damage-restoration/",
-    "/service-areas/shaler-township-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/shaler-township-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/shaler-township-pa/",
@@ -1866,15 +1645,6 @@
     "/service-areas/shaler-township-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/shaler-township-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/shaler-township-pa/",
-    "/service-areas/shaler-township-pa/fire-damage-restoration/",
-    "/service-areas/shaler-township-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/shaler-township-pa/contents-restoration-storage/": [
@@ -1958,15 +1728,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/plum-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/plum-pa/",
-    "/service-areas/plum-pa/fire-damage-restoration/",
-    "/service-areas/plum-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/plum-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/plum-pa/",
@@ -1992,15 +1753,6 @@
     "/service-areas/plum-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/plum-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/plum-pa/",
-    "/service-areas/plum-pa/fire-damage-restoration/",
-    "/service-areas/plum-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/plum-pa/contents-restoration-storage/": [
@@ -2084,15 +1836,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/west-mifflin-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/west-mifflin-pa/",
-    "/service-areas/west-mifflin-pa/fire-damage-restoration/",
-    "/service-areas/west-mifflin-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/west-mifflin-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/west-mifflin-pa/",
@@ -2118,15 +1861,6 @@
     "/service-areas/west-mifflin-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/west-mifflin-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/west-mifflin-pa/",
-    "/service-areas/west-mifflin-pa/fire-damage-restoration/",
-    "/service-areas/west-mifflin-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/west-mifflin-pa/contents-restoration-storage/": [
@@ -2210,15 +1944,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/mckeesport-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/mckeesport-pa/",
-    "/service-areas/mckeesport-pa/fire-damage-restoration/",
-    "/service-areas/mckeesport-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/mckeesport-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/mckeesport-pa/",
@@ -2244,15 +1969,6 @@
     "/service-areas/mckeesport-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/mckeesport-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/mckeesport-pa/",
-    "/service-areas/mckeesport-pa/fire-damage-restoration/",
-    "/service-areas/mckeesport-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/mckeesport-pa/contents-restoration-storage/": [
@@ -2336,15 +2052,6 @@
     "/service-areas/bethel-park-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/baldwin-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/",
-    "/service-areas/baldwin-pa/fire-damage-restoration/",
-    "/service-areas/baldwin-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/bethel-park-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/baldwin-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/baldwin-pa/",
@@ -2370,15 +2077,6 @@
     "/service-areas/baldwin-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/bethel-park-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/baldwin-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/",
-    "/service-areas/baldwin-pa/fire-damage-restoration/",
-    "/service-areas/baldwin-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/bethel-park-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/baldwin-pa/contents-restoration-storage/": [
@@ -2462,15 +2160,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/greensburg-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/greensburg-pa/",
-    "/service-areas/greensburg-pa/fire-damage-restoration/",
-    "/service-areas/greensburg-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/greensburg-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/greensburg-pa/",
@@ -2496,15 +2185,6 @@
     "/service-areas/greensburg-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/greensburg-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/greensburg-pa/",
-    "/service-areas/greensburg-pa/fire-damage-restoration/",
-    "/service-areas/greensburg-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/greensburg-pa/contents-restoration-storage/": [
@@ -2588,15 +2268,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/hempfield-township-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/hempfield-township-pa/",
-    "/service-areas/hempfield-township-pa/fire-damage-restoration/",
-    "/service-areas/hempfield-township-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/hempfield-township-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/hempfield-township-pa/",
@@ -2622,15 +2293,6 @@
     "/service-areas/hempfield-township-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/hempfield-township-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/hempfield-township-pa/",
-    "/service-areas/hempfield-township-pa/fire-damage-restoration/",
-    "/service-areas/hempfield-township-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/hempfield-township-pa/contents-restoration-storage/": [
@@ -2714,15 +2376,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/north-huntingdon-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/north-huntingdon-pa/",
-    "/service-areas/north-huntingdon-pa/fire-damage-restoration/",
-    "/service-areas/north-huntingdon-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/north-huntingdon-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/north-huntingdon-pa/",
@@ -2748,15 +2401,6 @@
     "/service-areas/north-huntingdon-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/north-huntingdon-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/north-huntingdon-pa/",
-    "/service-areas/north-huntingdon-pa/fire-damage-restoration/",
-    "/service-areas/north-huntingdon-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/north-huntingdon-pa/contents-restoration-storage/": [
@@ -2840,15 +2484,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/new-kensington-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/new-kensington-pa/",
-    "/service-areas/new-kensington-pa/fire-damage-restoration/",
-    "/service-areas/new-kensington-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/new-kensington-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/new-kensington-pa/",
@@ -2874,15 +2509,6 @@
     "/service-areas/new-kensington-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/new-kensington-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/new-kensington-pa/",
-    "/service-areas/new-kensington-pa/fire-damage-restoration/",
-    "/service-areas/new-kensington-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/new-kensington-pa/contents-restoration-storage/": [
@@ -2966,15 +2592,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/murrysville-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/murrysville-pa/",
-    "/service-areas/murrysville-pa/fire-damage-restoration/",
-    "/service-areas/murrysville-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/murrysville-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/murrysville-pa/",
@@ -3000,15 +2617,6 @@
     "/service-areas/murrysville-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/murrysville-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/murrysville-pa/",
-    "/service-areas/murrysville-pa/fire-damage-restoration/",
-    "/service-areas/murrysville-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/murrysville-pa/contents-restoration-storage/": [
@@ -3092,15 +2700,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/latrobe-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/latrobe-pa/",
-    "/service-areas/latrobe-pa/fire-damage-restoration/",
-    "/service-areas/latrobe-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/latrobe-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/latrobe-pa/",
@@ -3126,15 +2725,6 @@
     "/service-areas/latrobe-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/latrobe-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/latrobe-pa/",
-    "/service-areas/latrobe-pa/fire-damage-restoration/",
-    "/service-areas/latrobe-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/latrobe-pa/contents-restoration-storage/": [
@@ -3218,15 +2808,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/lower-burrell-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/lower-burrell-pa/",
-    "/service-areas/lower-burrell-pa/fire-damage-restoration/",
-    "/service-areas/lower-burrell-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/lower-burrell-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/lower-burrell-pa/",
@@ -3252,15 +2833,6 @@
     "/service-areas/lower-burrell-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/lower-burrell-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/lower-burrell-pa/",
-    "/service-areas/lower-burrell-pa/fire-damage-restoration/",
-    "/service-areas/lower-burrell-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/lower-burrell-pa/contents-restoration-storage/": [
@@ -3344,15 +2916,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/jeannette-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/jeannette-pa/",
-    "/service-areas/jeannette-pa/fire-damage-restoration/",
-    "/service-areas/jeannette-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/jeannette-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/jeannette-pa/",
@@ -3378,15 +2941,6 @@
     "/service-areas/jeannette-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/jeannette-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/jeannette-pa/",
-    "/service-areas/jeannette-pa/fire-damage-restoration/",
-    "/service-areas/jeannette-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/jeannette-pa/contents-restoration-storage/": [
@@ -3470,15 +3024,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/green-tree-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/green-tree-pa/",
-    "/service-areas/green-tree-pa/fire-damage-restoration/",
-    "/service-areas/green-tree-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/green-tree-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/green-tree-pa/",
@@ -3504,15 +3049,6 @@
     "/service-areas/green-tree-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/green-tree-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/green-tree-pa/",
-    "/service-areas/green-tree-pa/fire-damage-restoration/",
-    "/service-areas/green-tree-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/green-tree-pa/contents-restoration-storage/": [
@@ -3596,15 +3132,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/carnegie-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/carnegie-pa/",
-    "/service-areas/carnegie-pa/fire-damage-restoration/",
-    "/service-areas/carnegie-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/carnegie-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/carnegie-pa/",
@@ -3630,15 +3157,6 @@
     "/service-areas/carnegie-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/carnegie-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/carnegie-pa/",
-    "/service-areas/carnegie-pa/fire-damage-restoration/",
-    "/service-areas/carnegie-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/carnegie-pa/contents-restoration-storage/": [
@@ -3722,15 +3240,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/castle-shannon-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/castle-shannon-pa/",
-    "/service-areas/castle-shannon-pa/fire-damage-restoration/",
-    "/service-areas/castle-shannon-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/castle-shannon-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/castle-shannon-pa/",
@@ -3756,15 +3265,6 @@
     "/service-areas/castle-shannon-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/castle-shannon-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/castle-shannon-pa/",
-    "/service-areas/castle-shannon-pa/fire-damage-restoration/",
-    "/service-areas/castle-shannon-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/castle-shannon-pa/contents-restoration-storage/": [
@@ -3848,15 +3348,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/whitehall-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/whitehall-pa/",
-    "/service-areas/whitehall-pa/fire-damage-restoration/",
-    "/service-areas/whitehall-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/whitehall-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/whitehall-pa/",
@@ -3882,15 +3373,6 @@
     "/service-areas/whitehall-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/whitehall-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/whitehall-pa/",
-    "/service-areas/whitehall-pa/fire-damage-restoration/",
-    "/service-areas/whitehall-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/whitehall-pa/contents-restoration-storage/": [
@@ -3974,15 +3456,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/munhall-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/munhall-pa/",
-    "/service-areas/munhall-pa/fire-damage-restoration/",
-    "/service-areas/munhall-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/munhall-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/munhall-pa/",
@@ -4008,15 +3481,6 @@
     "/service-areas/munhall-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/munhall-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/munhall-pa/",
-    "/service-areas/munhall-pa/fire-damage-restoration/",
-    "/service-areas/munhall-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/munhall-pa/contents-restoration-storage/": [
@@ -4100,15 +3564,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/glenshaw-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/glenshaw-pa/",
-    "/service-areas/glenshaw-pa/fire-damage-restoration/",
-    "/service-areas/glenshaw-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/glenshaw-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/glenshaw-pa/",
@@ -4134,15 +3589,6 @@
     "/service-areas/glenshaw-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/glenshaw-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/glenshaw-pa/",
-    "/service-areas/glenshaw-pa/fire-damage-restoration/",
-    "/service-areas/glenshaw-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/glenshaw-pa/contents-restoration-storage/": [
@@ -4226,15 +3672,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/pleasant-hills-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/pleasant-hills-pa/",
-    "/service-areas/pleasant-hills-pa/fire-damage-restoration/",
-    "/service-areas/pleasant-hills-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/pleasant-hills-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/pleasant-hills-pa/",
@@ -4260,15 +3697,6 @@
     "/service-areas/pleasant-hills-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/pleasant-hills-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/pleasant-hills-pa/",
-    "/service-areas/pleasant-hills-pa/fire-damage-restoration/",
-    "/service-areas/pleasant-hills-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/pleasant-hills-pa/contents-restoration-storage/": [
@@ -4352,15 +3780,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/wilkinsburg-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/wilkinsburg-pa/",
-    "/service-areas/wilkinsburg-pa/fire-damage-restoration/",
-    "/service-areas/wilkinsburg-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/wilkinsburg-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/wilkinsburg-pa/",
@@ -4386,15 +3805,6 @@
     "/service-areas/wilkinsburg-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/wilkinsburg-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/wilkinsburg-pa/",
-    "/service-areas/wilkinsburg-pa/fire-damage-restoration/",
-    "/service-areas/wilkinsburg-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/wilkinsburg-pa/contents-restoration-storage/": [
@@ -4478,15 +3888,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/forest-hills-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/forest-hills-pa/",
-    "/service-areas/forest-hills-pa/fire-damage-restoration/",
-    "/service-areas/forest-hills-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/forest-hills-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/forest-hills-pa/",
@@ -4512,15 +3913,6 @@
     "/service-areas/forest-hills-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/forest-hills-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/forest-hills-pa/",
-    "/service-areas/forest-hills-pa/fire-damage-restoration/",
-    "/service-areas/forest-hills-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/forest-hills-pa/contents-restoration-storage/": [
@@ -4604,15 +3996,6 @@
     "/service-areas/bethel-park-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/allison-park-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/allison-park-pa/",
-    "/service-areas/allison-park-pa/fire-damage-restoration/",
-    "/service-areas/allison-park-pa/roofing/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/service-areas/bethel-park-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/allison-park-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/allison-park-pa/",
@@ -4638,15 +4021,6 @@
     "/service-areas/allison-park-pa/roofing/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
     "/service-areas/bethel-park-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/allison-park-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/allison-park-pa/",
-    "/service-areas/allison-park-pa/fire-damage-restoration/",
-    "/service-areas/allison-park-pa/roofing/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
-    "/service-areas/bethel-park-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/allison-park-pa/contents-restoration-storage/": [
@@ -4730,15 +4104,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/fox-chapel-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/fox-chapel-pa/",
-    "/service-areas/fox-chapel-pa/fire-damage-restoration/",
-    "/service-areas/fox-chapel-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/fox-chapel-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/fox-chapel-pa/",
@@ -4764,15 +4129,6 @@
     "/service-areas/fox-chapel-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/fox-chapel-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/fox-chapel-pa/",
-    "/service-areas/fox-chapel-pa/fire-damage-restoration/",
-    "/service-areas/fox-chapel-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/fox-chapel-pa/contents-restoration-storage/": [
@@ -4856,15 +4212,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/churchill-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/churchill-pa/",
-    "/service-areas/churchill-pa/fire-damage-restoration/",
-    "/service-areas/churchill-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/churchill-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/churchill-pa/",
@@ -4890,15 +4237,6 @@
     "/service-areas/churchill-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/churchill-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/churchill-pa/",
-    "/service-areas/churchill-pa/fire-damage-restoration/",
-    "/service-areas/churchill-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/churchill-pa/contents-restoration-storage/": [
@@ -4982,15 +4320,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/duquesne-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/duquesne-pa/",
-    "/service-areas/duquesne-pa/fire-damage-restoration/",
-    "/service-areas/duquesne-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/duquesne-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/duquesne-pa/",
@@ -5016,15 +4345,6 @@
     "/service-areas/duquesne-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/duquesne-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/duquesne-pa/",
-    "/service-areas/duquesne-pa/fire-damage-restoration/",
-    "/service-areas/duquesne-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/duquesne-pa/contents-restoration-storage/": [
@@ -5108,15 +4428,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/jefferson-hills-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/jefferson-hills-pa/",
-    "/service-areas/jefferson-hills-pa/fire-damage-restoration/",
-    "/service-areas/jefferson-hills-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/jefferson-hills-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/jefferson-hills-pa/",
@@ -5142,15 +4453,6 @@
     "/service-areas/jefferson-hills-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/jefferson-hills-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/jefferson-hills-pa/",
-    "/service-areas/jefferson-hills-pa/fire-damage-restoration/",
-    "/service-areas/jefferson-hills-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/jefferson-hills-pa/contents-restoration-storage/": [
@@ -5234,15 +4536,6 @@
     "/service-areas/baldwin-pa/air-duct-cleaning/",
     "/contact/"
   ],
-  "/service-areas/sewickley-hills-pa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/sewickley-hills-pa/",
-    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
-    "/service-areas/sewickley-hills-pa/roofing/",
-    "/service-areas/allison-park-pa/air-duct-hvac-cleaning/",
-    "/service-areas/baldwin-pa/air-duct-hvac-cleaning/",
-    "/contact/"
-  ],
   "/service-areas/sewickley-hills-pa/asbestos-abatement/": [
     "/services/asbestos-abatement/",
     "/service-areas/sewickley-hills-pa/",
@@ -5268,15 +4561,6 @@
     "/service-areas/sewickley-hills-pa/roofing/",
     "/service-areas/allison-park-pa/carpet-cleaning/",
     "/service-areas/baldwin-pa/carpet-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/sewickley-hills-pa/carpet-upholstery-cleaning/": [
-    "/services/carpet-upholstery-cleaning/",
-    "/service-areas/sewickley-hills-pa/",
-    "/service-areas/sewickley-hills-pa/fire-damage-restoration/",
-    "/service-areas/sewickley-hills-pa/roofing/",
-    "/service-areas/allison-park-pa/carpet-upholstery-cleaning/",
-    "/service-areas/baldwin-pa/carpet-upholstery-cleaning/",
     "/contact/"
   ],
   "/service-areas/sewickley-hills-pa/contents-restoration-storage/": [

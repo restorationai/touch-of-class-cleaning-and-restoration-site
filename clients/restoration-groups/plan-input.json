@@ -12,13 +12,11 @@
   "template": "restoration",
   "services": [
     "appliance-leak-cleanup",
-    "basement-flood-cleanup",
     "basement-flooding-cleanup",
     "biohazard-cleanup",
     "burst-pipe-repair",
     "commercial-restoration",
     "contents-restoration-pack-out",
-    "contents-restoration-storage",
     "crawl-space-encapsulation",
     "emergency-board-up-tarping",
     "fire-damage-restoration",
@@ -29,7 +27,6 @@
     "sewage-cleanup",
     "smoke-damage-restoration",
     "storm-damage-restoration",
-    "vandalism-cleanup",
     "water-cleanup",
     "water-damage-restoration"
   ],
@@ -1495,5 +1492,18 @@
   "service_radius_description": "Union County NJ home base (Kenilworth) with statewide New Jersey focus plus the Brooklyn and Manhattan NY metro",
   "cross_product": true,
   "keyword_strategy": "conservative",
-  "blog_seed_count": 12
+  "blog_seed_count": 12,
+  "homepage_services": [
+    "fire-damage-restoration",
+    "mold-remediation",
+    "water-damage-restoration",
+    "commercial-restoration",
+    "flood-damage-restoration",
+    "sewage-cleanup"
+  ],
+  "merged_services": {
+    "basement-flood-cleanup": "basement-flooding-cleanup",
+    "contents-restoration-storage": "contents-restoration-pack-out",
+    "vandalism-cleanup": "vandalism-graffiti-removal"
+  }
 }

@@ -9,11 +9,25 @@ P1 LEDGER    Per client: services on site / on GBP / missing each way,
              Mirrored to ops_kv 'parity-ledger' (app + digest read it)
              and printed. You cannot keep what you cannot see.
 
-P2 SERVICES  GBP service with no site page  -> page request auto-queued
-             (the existing create-pages drain builds it). Site service
-             with no GBP entry -> ADD suggestion inserted (the A2 nightly
-             batch applies it). Junk phrases never queue pages — only
-             names matching the restoration catalog count as real.
+P2 SERVICES  PARITY WITHOUT BLOAT (Santino 2026-09-30, the policy lives in
+             scripts/site_structure.py): a GBP can carry 100-200 long-tail
+             services; the site keeps one dedicated page per REAL service.
+             (1) Each GBP service first maps onto an EXISTING site service
+             page when it is a synonym or long-tail of it ("Emergency Water
+             Removal" -> water-damage-restoration, "Board Up Services" ->
+             emergency board-up), stored per client in
+             clients/{slug}/gbp-service-map.json (gbp_service_map.py: exact
+             / alias / catalog / cluster / containment, then Claude). A
+             mapped service NEVER queues a page. (2) Only a genuinely
+             distinct service the client offers whose head term clears the
+             DataForSEO volume bar (>= 20/mo in the client's city, or
+             >= 5,000/mo nationally incl. "near me" when the city shows only
+             the floor bucket) queues a page, max 2 per client per night;
+             the create-pages drain re-checks the same gate. (3) Parity
+             pages appear on /services/ and in internal links, NEVER on the
+             homepage strip (plan-input homepage_services is pinned).
+             Site service with no GBP entry -> ADD suggestion inserted (the
+             A2 nightly batch applies it). Junk phrases never queue pages.
 
 P3 LOCATIONS Google caps service areas at 20 per profile. The engine
              maintains the GBP list as the CLOSEST 20 candidate cities,
@@ -459,7 +473,20 @@ def service_parity(slug: str, cid: str, terms: list[str], apply: bool) -> dict:
     # (company_id, service), and a row in a status outside the old filter
     # 409'd the whole client on the first fleet outing (Arch 2026-09-18).
     have = {_norm(r.get("service", "")) for r in existing}
-    for svc in gbp_no_page[:5]:  # cap per night — the drain builds+deploys each
+    # SITE STRUCTURE (Santino 2026-09-30, site_structure.py rules 1-2): a GBP
+    # service that maps onto an existing page never queues a page; only a
+    # distinct service that clears the volume bar does, capped per night.
+    try:
+        import gbp_service_map
+        from site_structure import MAX_NEW_PAGES_PER_NIGHT
+        decided = gbp_service_map.resolve(slug, gbp_no_page, apply=True)
+        gbp_no_page = [s for s in gbp_no_page
+                       if (decided.get(gbp_service_map._label(s)) or {}).get("verdict") == "new_page"]
+        out["mapped_to_existing"] = sum(1 for e in decided.values() if e.get("verdict") == "mapped")
+    except Exception as e:  # noqa: BLE001 -- fail closed: no map, no new pages
+        print(f"    service map unavailable ({str(e)[:80]}) -- no pages queued")
+        gbp_no_page, MAX_NEW_PAGES_PER_NIGHT = [], 0
+    for svc in gbp_no_page[:MAX_NEW_PAGES_PER_NIGHT]:
         if _norm(svc) in have:
             continue
         try:

@@ -399,50 +399,6 @@
       ]
     },
     {
-      "url_path": "/services/contents-restoration-storage/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Santa Maria | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Santa Maria",
-      "meta_description": "Contents restoration & storage in Santa Maria and surrounding areas. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage santa maria",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
-        "/service-areas/avila-beach-ca/contents-restoration-storage/",
-        "/service-areas/ballard-ca/contents-restoration-storage/",
-        "/service-areas/blacklake-ca/contents-restoration-storage/",
-        "/service-areas/buellton-ca/contents-restoration-storage/",
-        "/service-areas/callender-ca/contents-restoration-storage/",
-        "/service-areas/cambria-ca/contents-restoration-storage/",
-        "/service-areas/edna-ca/contents-restoration-storage/",
-        "/service-areas/el-paso-de-robles-ca/contents-restoration-storage/",
-        "/service-areas/grover-beach-ca/contents-restoration-storage/",
-        "/service-areas/guadalupe-ca/contents-restoration-storage/"
-      ]
-    },
-    {
       "url_path": "/services/crawl-space-encapsulation/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -2612,44 +2568,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/vandenberg-village-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Vandenberg Village, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Vandenberg Village",
-      "meta_description": "Contents restoration & storage in Vandenberg Village, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage vandenberg village",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/vandenberg-village-ca/",
-        "/service-areas/vandenberg-village-ca/fire-damage-restoration/",
-        "/service-areas/vandenberg-village-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/vandenberg-village-ca/crawl-space-encapsulation/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3209,44 +3127,6 @@
         "/service-areas/orcutt-ca/mold-remediation/",
         "/service-areas/arroyo-grande-ca/contents-restoration/",
         "/service-areas/atascadero-ca/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/orcutt-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Orcutt, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Orcutt",
-      "meta_description": "Contents restoration & storage in Orcutt, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage orcutt",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/orcutt-ca/",
-        "/service-areas/orcutt-ca/fire-damage-restoration/",
-        "/service-areas/orcutt-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -3814,44 +3694,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/los-alamos-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Los Alamos, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Los Alamos",
-      "meta_description": "Contents restoration & storage in Los Alamos, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage los alamos",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/los-alamos-ca/",
-        "/service-areas/los-alamos-ca/fire-damage-restoration/",
-        "/service-areas/los-alamos-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/los-alamos-ca/crawl-space-encapsulation/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4411,44 +4253,6 @@
         "/service-areas/lompoc-ca/mold-remediation/",
         "/service-areas/arroyo-grande-ca/contents-restoration/",
         "/service-areas/atascadero-ca/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lompoc-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Lompoc, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Lompoc",
-      "meta_description": "Contents restoration & storage in Lompoc, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage lompoc",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/lompoc-ca/",
-        "/service-areas/lompoc-ca/fire-damage-restoration/",
-        "/service-areas/lompoc-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -5016,44 +4820,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/los-olivos-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Los Olivos, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Los Olivos",
-      "meta_description": "Contents restoration & storage in Los Olivos, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage los olivos",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/los-olivos-ca/",
-        "/service-areas/los-olivos-ca/fire-damage-restoration/",
-        "/service-areas/los-olivos-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/los-olivos-ca/crawl-space-encapsulation/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5613,44 +5379,6 @@
         "/service-areas/mission-hills-ca/mold-remediation/",
         "/service-areas/arroyo-grande-ca/contents-restoration/",
         "/service-areas/atascadero-ca/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/mission-hills-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Mission Hills, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Mission Hills",
-      "meta_description": "Contents restoration & storage in Mission Hills, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage mission hills",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/mission-hills-ca/",
-        "/service-areas/mission-hills-ca/fire-damage-restoration/",
-        "/service-areas/mission-hills-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -6218,44 +5946,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/santa-ynez-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Santa Ynez, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Santa Ynez",
-      "meta_description": "Contents restoration & storage in Santa Ynez, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage santa ynez",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/santa-ynez-ca/",
-        "/service-areas/santa-ynez-ca/fire-damage-restoration/",
-        "/service-areas/santa-ynez-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/santa-ynez-ca/crawl-space-encapsulation/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6815,44 +6505,6 @@
         "/service-areas/solvang-ca/mold-remediation/",
         "/service-areas/arroyo-grande-ca/contents-restoration/",
         "/service-areas/atascadero-ca/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/solvang-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Solvang, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Solvang",
-      "meta_description": "Contents restoration & storage in Solvang, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage solvang",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/solvang-ca/",
-        "/service-areas/solvang-ca/fire-damage-restoration/",
-        "/service-areas/solvang-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -7420,44 +7072,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/vandenberg-afb-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Vandenberg AFB, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Vandenberg AFB",
-      "meta_description": "Contents restoration & storage in Vandenberg AFB, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage vandenberg afb",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/vandenberg-afb-ca/",
-        "/service-areas/vandenberg-afb-ca/fire-damage-restoration/",
-        "/service-areas/vandenberg-afb-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/vandenberg-afb-ca/crawl-space-encapsulation/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8017,44 +7631,6 @@
         "/service-areas/guadalupe-ca/mold-remediation/",
         "/service-areas/arroyo-grande-ca/contents-restoration/",
         "/service-areas/atascadero-ca/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/guadalupe-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Guadalupe, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Guadalupe",
-      "meta_description": "Contents restoration & storage in Guadalupe, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage guadalupe",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/guadalupe-ca/",
-        "/service-areas/guadalupe-ca/fire-damage-restoration/",
-        "/service-areas/guadalupe-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -8622,44 +8198,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/buellton-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Buellton, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Buellton",
-      "meta_description": "Contents restoration & storage in Buellton, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage buellton",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/buellton-ca/",
-        "/service-areas/buellton-ca/fire-damage-restoration/",
-        "/service-areas/buellton-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/buellton-ca/crawl-space-encapsulation/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9219,44 +8757,6 @@
         "/service-areas/ballard-ca/mold-remediation/",
         "/service-areas/arroyo-grande-ca/contents-restoration/",
         "/service-areas/atascadero-ca/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/ballard-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Ballard, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Ballard",
-      "meta_description": "Contents restoration & storage in Ballard, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage ballard",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/ballard-ca/",
-        "/service-areas/ballard-ca/fire-damage-restoration/",
-        "/service-areas/ballard-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -9824,44 +9324,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Arroyo Grande, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Arroyo Grande",
-      "meta_description": "Contents restoration & storage in Arroyo Grande, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage arroyo grande",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/arroyo-grande-ca/",
-        "/service-areas/arroyo-grande-ca/fire-damage-restoration/",
-        "/service-areas/arroyo-grande-ca/mold-remediation/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
-        "/service-areas/avila-beach-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/arroyo-grande-ca/crawl-space-encapsulation/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10421,44 +9883,6 @@
         "/service-areas/avila-beach-ca/mold-remediation/",
         "/service-areas/arroyo-grande-ca/contents-restoration/",
         "/service-areas/atascadero-ca/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/avila-beach-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Avila Beach, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Avila Beach",
-      "meta_description": "Contents restoration & storage in Avila Beach, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage avila beach",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/avila-beach-ca/",
-        "/service-areas/avila-beach-ca/fire-damage-restoration/",
-        "/service-areas/avila-beach-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -11026,44 +10450,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/cambria-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Cambria, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Cambria",
-      "meta_description": "Contents restoration & storage in Cambria, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage cambria",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/cambria-ca/",
-        "/service-areas/cambria-ca/fire-damage-restoration/",
-        "/service-areas/cambria-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/cambria-ca/crawl-space-encapsulation/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -11623,44 +11009,6 @@
         "/service-areas/el-paso-de-robles-ca/mold-remediation/",
         "/service-areas/arroyo-grande-ca/contents-restoration/",
         "/service-areas/atascadero-ca/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/el-paso-de-robles-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in El Paso de Robles, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in El Paso de Robles",
-      "meta_description": "Contents restoration & storage in El Paso de Robles, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage el paso de robles",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/el-paso-de-robles-ca/",
-        "/service-areas/el-paso-de-robles-ca/fire-damage-restoration/",
-        "/service-areas/el-paso-de-robles-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -12228,44 +11576,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/grover-beach-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Grover Beach, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Grover Beach",
-      "meta_description": "Contents restoration & storage in Grover Beach, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage grover beach",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/grover-beach-ca/",
-        "/service-areas/grover-beach-ca/fire-damage-restoration/",
-        "/service-areas/grover-beach-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/grover-beach-ca/crawl-space-encapsulation/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12825,44 +12135,6 @@
         "/service-areas/los-berros-ca/mold-remediation/",
         "/service-areas/arroyo-grande-ca/contents-restoration/",
         "/service-areas/atascadero-ca/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/los-berros-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Los Berros, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Los Berros",
-      "meta_description": "Contents restoration & storage in Los Berros, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage los berros",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/los-berros-ca/",
-        "/service-areas/los-berros-ca/fire-damage-restoration/",
-        "/service-areas/los-berros-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -13430,44 +12702,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/nipomo-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Nipomo, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Nipomo",
-      "meta_description": "Contents restoration & storage in Nipomo, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage nipomo",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/nipomo-ca/",
-        "/service-areas/nipomo-ca/fire-damage-restoration/",
-        "/service-areas/nipomo-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/nipomo-ca/crawl-space-encapsulation/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14027,44 +13261,6 @@
         "/service-areas/oceano-ca/mold-remediation/",
         "/service-areas/arroyo-grande-ca/contents-restoration/",
         "/service-areas/atascadero-ca/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/oceano-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Oceano, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Oceano",
-      "meta_description": "Contents restoration & storage in Oceano, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage oceano",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/oceano-ca/",
-        "/service-areas/oceano-ca/fire-damage-restoration/",
-        "/service-areas/oceano-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -14632,44 +13828,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/san-luis-obispo-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in San Luis Obispo, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in San Luis Obispo",
-      "meta_description": "Contents restoration & storage in San Luis Obispo, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage san luis obispo",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/san-luis-obispo-ca/",
-        "/service-areas/san-luis-obispo-ca/fire-damage-restoration/",
-        "/service-areas/san-luis-obispo-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/san-luis-obispo-ca/crawl-space-encapsulation/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -15229,44 +14387,6 @@
         "/service-areas/templeton-ca/mold-remediation/",
         "/service-areas/arroyo-grande-ca/contents-restoration/",
         "/service-areas/atascadero-ca/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/templeton-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Templeton, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Templeton",
-      "meta_description": "Contents restoration & storage in Templeton, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage templeton",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/templeton-ca/",
-        "/service-areas/templeton-ca/fire-damage-restoration/",
-        "/service-areas/templeton-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -15834,44 +14954,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/santa-margarita-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Santa Margarita, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Santa Margarita",
-      "meta_description": "Contents restoration & storage in Santa Margarita, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage santa margarita",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/santa-margarita-ca/",
-        "/service-areas/santa-margarita-ca/fire-damage-restoration/",
-        "/service-areas/santa-margarita-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/santa-margarita-ca/crawl-space-encapsulation/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -16431,44 +15513,6 @@
         "/service-areas/pismo-beach-ca/mold-remediation/",
         "/service-areas/arroyo-grande-ca/contents-restoration/",
         "/service-areas/atascadero-ca/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/pismo-beach-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Pismo Beach, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Pismo Beach",
-      "meta_description": "Contents restoration & storage in Pismo Beach, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage pismo beach",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/pismo-beach-ca/",
-        "/service-areas/pismo-beach-ca/fire-damage-restoration/",
-        "/service-areas/pismo-beach-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -17036,44 +16080,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/morro-bay-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Morro Bay, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Morro Bay",
-      "meta_description": "Contents restoration & storage in Morro Bay, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage morro bay",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/morro-bay-ca/",
-        "/service-areas/morro-bay-ca/fire-damage-restoration/",
-        "/service-areas/morro-bay-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/morro-bay-ca/crawl-space-encapsulation/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17633,44 +16639,6 @@
         "/service-areas/los-osos-ca/mold-remediation/",
         "/service-areas/arroyo-grande-ca/contents-restoration/",
         "/service-areas/atascadero-ca/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/los-osos-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Los Osos, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Los Osos",
-      "meta_description": "Contents restoration & storage in Los Osos, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage los osos",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/los-osos-ca/",
-        "/service-areas/los-osos-ca/fire-damage-restoration/",
-        "/service-areas/los-osos-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -18238,44 +17206,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/edna-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Edna, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Edna",
-      "meta_description": "Contents restoration & storage in Edna, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage edna",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/edna-ca/",
-        "/service-areas/edna-ca/fire-damage-restoration/",
-        "/service-areas/edna-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/edna-ca/crawl-space-encapsulation/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -18835,44 +17765,6 @@
         "/service-areas/callender-ca/mold-remediation/",
         "/service-areas/arroyo-grande-ca/contents-restoration/",
         "/service-areas/atascadero-ca/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/callender-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Callender, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Callender",
-      "meta_description": "Contents restoration & storage in Callender, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage callender",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/callender-ca/",
-        "/service-areas/callender-ca/fire-damage-restoration/",
-        "/service-areas/callender-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -19440,44 +18332,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/blacklake-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Blacklake, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Blacklake",
-      "meta_description": "Contents restoration & storage in Blacklake, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage blacklake",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/blacklake-ca/",
-        "/service-areas/blacklake-ca/fire-damage-restoration/",
-        "/service-areas/blacklake-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/blacklake-ca/crawl-space-encapsulation/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -20037,44 +18891,6 @@
         "/service-areas/atascadero-ca/mold-remediation/",
         "/service-areas/arroyo-grande-ca/contents-restoration/",
         "/service-areas/avila-beach-ca/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/atascadero-ca/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Atascadero, CA | Coastal Restoration Services Inc",
-      "h1": "Contents Restoration & Storage in Atascadero",
-      "meta_description": "Contents restoration & storage in Atascadero, CA. IICRC-certified, insurance billing accepted. Call (805) 345-7440.",
-      "primary_keyword": "contents restoration & storage atascadero",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/atascadero-ca/",
-        "/service-areas/atascadero-ca/fire-damage-restoration/",
-        "/service-areas/atascadero-ca/mold-remediation/",
-        "/service-areas/arroyo-grande-ca/contents-restoration-storage/",
-        "/service-areas/avila-beach-ca/contents-restoration-storage/",
         "/contact/"
       ]
     },

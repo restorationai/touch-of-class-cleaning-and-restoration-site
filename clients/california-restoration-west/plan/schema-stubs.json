@@ -68,16 +68,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/contents-restoration-storage/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/crawl-space-encapsulation/": {
     "archetype": "service-landing",
     "stubs": [
@@ -328,16 +318,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/oxnard-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/oxnard-ca/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -399,16 +379,6 @@
     "missing_stubs": []
   },
   "/service-areas/thousand-oaks-ca/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/thousand-oaks-ca/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -488,16 +458,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/simi-valley-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/simi-valley-ca/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -559,16 +519,6 @@
     "missing_stubs": []
   },
   "/service-areas/camarillo-ca/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/camarillo-ca/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -648,16 +598,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/santa-paula-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/santa-paula-ca/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -719,16 +659,6 @@
     "missing_stubs": []
   },
   "/service-areas/port-hueneme-ca/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/port-hueneme-ca/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -808,16 +738,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ojai-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ojai-ca/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -879,16 +799,6 @@
     "missing_stubs": []
   },
   "/service-areas/fillmore-ca/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fillmore-ca/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -968,16 +878,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/mira-monte-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/mira-monte-ca/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1039,16 +939,6 @@
     "missing_stubs": []
   },
   "/service-areas/oak-view-ca/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/oak-view-ca/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1128,16 +1018,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/somis-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/somis-ca/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1199,16 +1079,6 @@
     "missing_stubs": []
   },
   "/service-areas/san-buenaventura-ventura-ca/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/san-buenaventura-ventura-ca/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1288,16 +1158,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/moorpark-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/moorpark-ca/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1359,16 +1219,6 @@
     "missing_stubs": []
   },
   "/service-areas/santa-rosa-valley-ca/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/santa-rosa-valley-ca/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1448,16 +1298,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/piru-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/piru-ca/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1519,16 +1359,6 @@
     "missing_stubs": []
   },
   "/service-areas/hasley-canyon-ca/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hasley-canyon-ca/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1608,16 +1438,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lake-sherwood-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lake-sherwood-ca/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1679,16 +1499,6 @@
     "missing_stubs": []
   },
   "/service-areas/carpinteria-ca/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/carpinteria-ca/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1768,16 +1578,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/castaic-ca/contents-restoration-storage/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/castaic-ca/crawl-space-encapsulation/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1839,16 +1639,6 @@
     "missing_stubs": []
   },
   "/service-areas/oak-park-ca/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/oak-park-ca/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

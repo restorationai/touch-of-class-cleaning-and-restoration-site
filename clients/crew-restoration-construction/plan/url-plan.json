@@ -517,50 +517,6 @@
       ]
     },
     {
-      "url_path": "/services/contents-restoration-storage/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Sioux Falls | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Sioux Falls",
-      "meta_description": "Contents restoration & storage in Sioux Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage sioux falls",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
-        "/service-areas/alton-ia/contents-restoration-storage/",
-        "/service-areas/baltic-sd/contents-restoration-storage/",
-        "/service-areas/beresford-sd/contents-restoration-storage/",
-        "/service-areas/brandon-sd/contents-restoration-storage/",
-        "/service-areas/brookings-sd/contents-restoration-storage/",
-        "/service-areas/canton-sd/contents-restoration-storage/",
-        "/service-areas/crooks-sd/contents-restoration-storage/",
-        "/service-areas/dakota-dunes-sd/contents-restoration-storage/",
-        "/service-areas/dell-rapids-sd/contents-restoration-storage/",
-        "/service-areas/edgerton-mn/contents-restoration-storage/"
-      ]
-    },
-    {
       "url_path": "/services/emergency-board-up-tarping/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -1356,52 +1312,6 @@
         "/service-areas/dakota-dunes-sd/emergency-plumbing/",
         "/service-areas/dell-rapids-sd/emergency-plumbing/",
         "/service-areas/edgerton-mn/emergency-plumbing/"
-      ]
-    },
-    {
-      "url_path": "/services/emergency-water-removal/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Water Removal in Sioux Falls | Crew Restoration & Construction",
-      "h1": "Water Removal in Sioux Falls",
-      "meta_description": "Water removal in Sioux Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal sioux falls",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/service-areas/alton-ia/emergency-water-removal/",
-        "/service-areas/baltic-sd/emergency-water-removal/",
-        "/service-areas/beresford-sd/emergency-water-removal/",
-        "/service-areas/brandon-sd/emergency-water-removal/",
-        "/service-areas/brookings-sd/emergency-water-removal/",
-        "/service-areas/canton-sd/emergency-water-removal/",
-        "/service-areas/crooks-sd/emergency-water-removal/",
-        "/service-areas/dakota-dunes-sd/emergency-water-removal/",
-        "/service-areas/dell-rapids-sd/emergency-water-removal/",
-        "/service-areas/edgerton-mn/emergency-water-removal/"
       ]
     },
     {
@@ -5114,44 +5024,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/brookings-sd/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Brookings, SD | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Brookings",
-      "meta_description": "Contents restoration & storage in Brookings, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage brookings",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/brookings-sd/",
-        "/service-areas/brookings-sd/fire-damage-restoration/",
-        "/service-areas/brookings-sd/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/brookings-sd/emergency-board-up-tarping/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5843,46 +5715,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/brookings-sd/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Brookings, SD | Crew Restoration & Construction",
-      "h1": "Water Removal in Brookings",
-      "meta_description": "Water removal in Brookings, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal brookings",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/brookings-sd/",
-        "/service-areas/brookings-sd/fire-damage-restoration/",
-        "/service-areas/brookings-sd/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/brookings-sd/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6482,44 +6314,6 @@
         "/service-areas/yankton-sd/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/yankton-sd/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Yankton, SD | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Yankton",
-      "meta_description": "Contents restoration & storage in Yankton, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage yankton",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/yankton-sd/",
-        "/service-areas/yankton-sd/fire-damage-restoration/",
-        "/service-areas/yankton-sd/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -7215,46 +7009,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/yankton-sd/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Yankton, SD | Crew Restoration & Construction",
-      "h1": "Water Removal in Yankton",
-      "meta_description": "Water removal in Yankton, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal yankton",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/yankton-sd/",
-        "/service-areas/yankton-sd/fire-damage-restoration/",
-        "/service-areas/yankton-sd/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/yankton-sd/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7854,44 +7608,6 @@
         "/service-areas/worthington-mn/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/worthington-mn/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Worthington, MN | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Worthington",
-      "meta_description": "Contents restoration & storage in Worthington, MN. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage worthington",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/worthington-mn/",
-        "/service-areas/worthington-mn/fire-damage-restoration/",
-        "/service-areas/worthington-mn/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -8587,46 +8303,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/worthington-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Worthington, MN | Crew Restoration & Construction",
-      "h1": "Water Removal in Worthington",
-      "meta_description": "Water removal in Worthington, MN. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal worthington",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/worthington-mn/",
-        "/service-areas/worthington-mn/fire-damage-restoration/",
-        "/service-areas/worthington-mn/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/worthington-mn/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9226,44 +8902,6 @@
         "/service-areas/brandon-sd/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/brandon-sd/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Brandon, SD | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Brandon",
-      "meta_description": "Contents restoration & storage in Brandon, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage brandon",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/brandon-sd/",
-        "/service-areas/brandon-sd/fire-damage-restoration/",
-        "/service-areas/brandon-sd/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -9959,46 +9597,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/brandon-sd/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Brandon, SD | Crew Restoration & Construction",
-      "h1": "Water Removal in Brandon",
-      "meta_description": "Water removal in Brandon, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal brandon",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/brandon-sd/",
-        "/service-areas/brandon-sd/fire-damage-restoration/",
-        "/service-areas/brandon-sd/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/brandon-sd/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10598,44 +10196,6 @@
         "/service-areas/le-mars-ia/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/le-mars-ia/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Le Mars, IA | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Le Mars",
-      "meta_description": "Contents restoration & storage in Le Mars, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage le mars",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/le-mars-ia/",
-        "/service-areas/le-mars-ia/fire-damage-restoration/",
-        "/service-areas/le-mars-ia/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -11331,46 +10891,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/le-mars-ia/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Le Mars, IA | Crew Restoration & Construction",
-      "h1": "Water Removal in Le Mars",
-      "meta_description": "Water removal in Le Mars, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal le mars",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/le-mars-ia/",
-        "/service-areas/le-mars-ia/fire-damage-restoration/",
-        "/service-areas/le-mars-ia/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/le-mars-ia/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -11970,44 +11490,6 @@
         "/service-areas/sioux-center-ia/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sioux-center-ia/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Sioux Center, IA | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Sioux Center",
-      "meta_description": "Contents restoration & storage in Sioux Center, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage sioux center",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/sioux-center-ia/",
-        "/service-areas/sioux-center-ia/fire-damage-restoration/",
-        "/service-areas/sioux-center-ia/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -12703,46 +12185,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/sioux-center-ia/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Sioux Center, IA | Crew Restoration & Construction",
-      "h1": "Water Removal in Sioux Center",
-      "meta_description": "Water removal in Sioux Center, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal sioux center",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/sioux-center-ia/",
-        "/service-areas/sioux-center-ia/fire-damage-restoration/",
-        "/service-areas/sioux-center-ia/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/sioux-center-ia/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13342,44 +12784,6 @@
         "/service-areas/harrisburg-sd/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/harrisburg-sd/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Harrisburg, SD | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Harrisburg",
-      "meta_description": "Contents restoration & storage in Harrisburg, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage harrisburg",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/harrisburg-sd/",
-        "/service-areas/harrisburg-sd/fire-damage-restoration/",
-        "/service-areas/harrisburg-sd/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -14075,46 +13479,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/harrisburg-sd/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Harrisburg, SD | Crew Restoration & Construction",
-      "h1": "Water Removal in Harrisburg",
-      "meta_description": "Water removal in Harrisburg, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal harrisburg",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/harrisburg-sd/",
-        "/service-areas/harrisburg-sd/fire-damage-restoration/",
-        "/service-areas/harrisburg-sd/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/harrisburg-sd/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14714,44 +14078,6 @@
         "/service-areas/madison-sd/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/madison-sd/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Madison, SD | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Madison",
-      "meta_description": "Contents restoration & storage in Madison, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage madison",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/madison-sd/",
-        "/service-areas/madison-sd/fire-damage-restoration/",
-        "/service-areas/madison-sd/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -15447,46 +14773,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/madison-sd/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Madison, SD | Crew Restoration & Construction",
-      "h1": "Water Removal in Madison",
-      "meta_description": "Water removal in Madison, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal madison",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/madison-sd/",
-        "/service-areas/madison-sd/fire-damage-restoration/",
-        "/service-areas/madison-sd/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/madison-sd/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -16086,44 +15372,6 @@
         "/service-areas/tea-sd/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/tea-sd/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Tea, SD | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Tea",
-      "meta_description": "Contents restoration & storage in Tea, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage tea",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/tea-sd/",
-        "/service-areas/tea-sd/fire-damage-restoration/",
-        "/service-areas/tea-sd/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -16819,46 +16067,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/tea-sd/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Tea, SD | Crew Restoration & Construction",
-      "h1": "Water Removal in Tea",
-      "meta_description": "Water removal in Tea, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal tea",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/tea-sd/",
-        "/service-areas/tea-sd/fire-damage-restoration/",
-        "/service-areas/tea-sd/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/tea-sd/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17458,44 +16666,6 @@
         "/service-areas/orange-city-ia/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/orange-city-ia/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Orange City, IA | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Orange City",
-      "meta_description": "Contents restoration & storage in Orange City, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage orange city",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/orange-city-ia/",
-        "/service-areas/orange-city-ia/fire-damage-restoration/",
-        "/service-areas/orange-city-ia/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -18191,46 +17361,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/orange-city-ia/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Orange City, IA | Crew Restoration & Construction",
-      "h1": "Water Removal in Orange City",
-      "meta_description": "Water removal in Orange City, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal orange city",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/orange-city-ia/",
-        "/service-areas/orange-city-ia/fire-damage-restoration/",
-        "/service-areas/orange-city-ia/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/orange-city-ia/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -18830,44 +17960,6 @@
         "/service-areas/luverne-mn/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/luverne-mn/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Luverne, MN | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Luverne",
-      "meta_description": "Contents restoration & storage in Luverne, MN. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage luverne",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/luverne-mn/",
-        "/service-areas/luverne-mn/fire-damage-restoration/",
-        "/service-areas/luverne-mn/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -19563,46 +18655,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/luverne-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Luverne, MN | Crew Restoration & Construction",
-      "h1": "Water Removal in Luverne",
-      "meta_description": "Water removal in Luverne, MN. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal luverne",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/luverne-mn/",
-        "/service-areas/luverne-mn/fire-damage-restoration/",
-        "/service-areas/luverne-mn/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/luverne-mn/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -20202,44 +19254,6 @@
         "/service-areas/pipestone-mn/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/pipestone-mn/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Pipestone, MN | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Pipestone",
-      "meta_description": "Contents restoration & storage in Pipestone, MN. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage pipestone",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/pipestone-mn/",
-        "/service-areas/pipestone-mn/fire-damage-restoration/",
-        "/service-areas/pipestone-mn/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -20935,46 +19949,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/pipestone-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Pipestone, MN | Crew Restoration & Construction",
-      "h1": "Water Removal in Pipestone",
-      "meta_description": "Water removal in Pipestone, MN. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal pipestone",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/pipestone-mn/",
-        "/service-areas/pipestone-mn/fire-damage-restoration/",
-        "/service-areas/pipestone-mn/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/pipestone-mn/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -21574,44 +20548,6 @@
         "/service-areas/rock-valley-ia/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/rock-valley-ia/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Rock Valley, IA | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Rock Valley",
-      "meta_description": "Contents restoration & storage in Rock Valley, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage rock valley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/rock-valley-ia/",
-        "/service-areas/rock-valley-ia/fire-damage-restoration/",
-        "/service-areas/rock-valley-ia/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -22307,46 +21243,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/rock-valley-ia/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Rock Valley, IA | Crew Restoration & Construction",
-      "h1": "Water Removal in Rock Valley",
-      "meta_description": "Water removal in Rock Valley, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal rock valley",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/rock-valley-ia/",
-        "/service-areas/rock-valley-ia/fire-damage-restoration/",
-        "/service-areas/rock-valley-ia/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/rock-valley-ia/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -22946,44 +21842,6 @@
         "/service-areas/dell-rapids-sd/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/dell-rapids-sd/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Dell Rapids, SD | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Dell Rapids",
-      "meta_description": "Contents restoration & storage in Dell Rapids, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage dell rapids",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/dell-rapids-sd/",
-        "/service-areas/dell-rapids-sd/fire-damage-restoration/",
-        "/service-areas/dell-rapids-sd/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -23679,46 +22537,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/dell-rapids-sd/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Dell Rapids, SD | Crew Restoration & Construction",
-      "h1": "Water Removal in Dell Rapids",
-      "meta_description": "Water removal in Dell Rapids, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal dell rapids",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/dell-rapids-sd/",
-        "/service-areas/dell-rapids-sd/fire-damage-restoration/",
-        "/service-areas/dell-rapids-sd/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/dell-rapids-sd/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -24318,44 +23136,6 @@
         "/service-areas/hartford-sd/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/hartford-sd/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Hartford, SD | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Hartford",
-      "meta_description": "Contents restoration & storage in Hartford, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage hartford",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/hartford-sd/",
-        "/service-areas/hartford-sd/fire-damage-restoration/",
-        "/service-areas/hartford-sd/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -25051,46 +23831,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/hartford-sd/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Hartford, SD | Crew Restoration & Construction",
-      "h1": "Water Removal in Hartford",
-      "meta_description": "Water removal in Hartford, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal hartford",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/hartford-sd/",
-        "/service-areas/hartford-sd/fire-damage-restoration/",
-        "/service-areas/hartford-sd/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/hartford-sd/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -25690,44 +24430,6 @@
         "/service-areas/canton-sd/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/canton-sd/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Canton, SD | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Canton",
-      "meta_description": "Contents restoration & storage in Canton, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage canton",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/canton-sd/",
-        "/service-areas/canton-sd/fire-damage-restoration/",
-        "/service-areas/canton-sd/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -26423,46 +25125,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/canton-sd/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Canton, SD | Crew Restoration & Construction",
-      "h1": "Water Removal in Canton",
-      "meta_description": "Water removal in Canton, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal canton",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/canton-sd/",
-        "/service-areas/canton-sd/fire-damage-restoration/",
-        "/service-areas/canton-sd/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/canton-sd/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -27062,44 +25724,6 @@
         "/service-areas/north-sioux-city-sd/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/north-sioux-city-sd/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in North Sioux City, SD | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in North Sioux City",
-      "meta_description": "Contents restoration & storage in North Sioux City, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage north sioux city",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/north-sioux-city-sd/",
-        "/service-areas/north-sioux-city-sd/fire-damage-restoration/",
-        "/service-areas/north-sioux-city-sd/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -27795,46 +26419,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/north-sioux-city-sd/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in North Sioux City, SD | Crew Restoration & Construction",
-      "h1": "Water Removal in North Sioux City",
-      "meta_description": "Water removal in North Sioux City, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal north sioux city",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/north-sioux-city-sd/",
-        "/service-areas/north-sioux-city-sd/fire-damage-restoration/",
-        "/service-areas/north-sioux-city-sd/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/north-sioux-city-sd/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -28434,44 +27018,6 @@
         "/service-areas/sibley-ia/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sibley-ia/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Sibley, IA | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Sibley",
-      "meta_description": "Contents restoration & storage in Sibley, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage sibley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/sibley-ia/",
-        "/service-areas/sibley-ia/fire-damage-restoration/",
-        "/service-areas/sibley-ia/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -29167,46 +27713,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/sibley-ia/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Sibley, IA | Crew Restoration & Construction",
-      "h1": "Water Removal in Sibley",
-      "meta_description": "Water removal in Sibley, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal sibley",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/sibley-ia/",
-        "/service-areas/sibley-ia/fire-damage-restoration/",
-        "/service-areas/sibley-ia/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/sibley-ia/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -29806,44 +28312,6 @@
         "/service-areas/rock-rapids-ia/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/rock-rapids-ia/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Rock Rapids, IA | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Rock Rapids",
-      "meta_description": "Contents restoration & storage in Rock Rapids, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage rock rapids",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/rock-rapids-ia/",
-        "/service-areas/rock-rapids-ia/fire-damage-restoration/",
-        "/service-areas/rock-rapids-ia/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -30539,46 +29007,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/rock-rapids-ia/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Rock Rapids, IA | Crew Restoration & Construction",
-      "h1": "Water Removal in Rock Rapids",
-      "meta_description": "Water removal in Rock Rapids, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal rock rapids",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/rock-rapids-ia/",
-        "/service-areas/rock-rapids-ia/fire-damage-restoration/",
-        "/service-areas/rock-rapids-ia/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/rock-rapids-ia/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -31178,44 +29606,6 @@
         "/service-areas/lennox-sd/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lennox-sd/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Lennox, SD | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Lennox",
-      "meta_description": "Contents restoration & storage in Lennox, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage lennox",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/lennox-sd/",
-        "/service-areas/lennox-sd/fire-damage-restoration/",
-        "/service-areas/lennox-sd/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -31911,46 +30301,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lennox-sd/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Lennox, SD | Crew Restoration & Construction",
-      "h1": "Water Removal in Lennox",
-      "meta_description": "Water removal in Lennox, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal lennox",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/lennox-sd/",
-        "/service-areas/lennox-sd/fire-damage-restoration/",
-        "/service-areas/lennox-sd/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lennox-sd/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -32550,44 +30900,6 @@
         "/service-areas/flandreau-sd/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/flandreau-sd/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Flandreau, SD | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Flandreau",
-      "meta_description": "Contents restoration & storage in Flandreau, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage flandreau",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/flandreau-sd/",
-        "/service-areas/flandreau-sd/fire-damage-restoration/",
-        "/service-areas/flandreau-sd/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -33283,46 +31595,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/flandreau-sd/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Flandreau, SD | Crew Restoration & Construction",
-      "h1": "Water Removal in Flandreau",
-      "meta_description": "Water removal in Flandreau, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal flandreau",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/flandreau-sd/",
-        "/service-areas/flandreau-sd/fire-damage-restoration/",
-        "/service-areas/flandreau-sd/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/flandreau-sd/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -33922,44 +32194,6 @@
         "/service-areas/parker-sd/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/parker-sd/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Parker, SD | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Parker",
-      "meta_description": "Contents restoration & storage in Parker, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage parker",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/parker-sd/",
-        "/service-areas/parker-sd/fire-damage-restoration/",
-        "/service-areas/parker-sd/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -34655,46 +32889,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/parker-sd/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Parker, SD | Crew Restoration & Construction",
-      "h1": "Water Removal in Parker",
-      "meta_description": "Water removal in Parker, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal parker",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/parker-sd/",
-        "/service-areas/parker-sd/fire-damage-restoration/",
-        "/service-areas/parker-sd/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/parker-sd/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -35294,44 +33488,6 @@
         "/service-areas/salem-sd/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/salem-sd/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Salem, SD | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Salem",
-      "meta_description": "Contents restoration & storage in Salem, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage salem",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/salem-sd/",
-        "/service-areas/salem-sd/fire-damage-restoration/",
-        "/service-areas/salem-sd/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -36027,46 +34183,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/salem-sd/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Salem, SD | Crew Restoration & Construction",
-      "h1": "Water Removal in Salem",
-      "meta_description": "Water removal in Salem, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal salem",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/salem-sd/",
-        "/service-areas/salem-sd/fire-damage-restoration/",
-        "/service-areas/salem-sd/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/salem-sd/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -36666,44 +34782,6 @@
         "/service-areas/slayton-mn/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/slayton-mn/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Slayton, MN | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Slayton",
-      "meta_description": "Contents restoration & storage in Slayton, MN. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage slayton",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/slayton-mn/",
-        "/service-areas/slayton-mn/fire-damage-restoration/",
-        "/service-areas/slayton-mn/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -37399,46 +35477,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/slayton-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Slayton, MN | Crew Restoration & Construction",
-      "h1": "Water Removal in Slayton",
-      "meta_description": "Water removal in Slayton, MN. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal slayton",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/slayton-mn/",
-        "/service-areas/slayton-mn/fire-damage-restoration/",
-        "/service-areas/slayton-mn/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/slayton-mn/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -38038,44 +36076,6 @@
         "/service-areas/crooks-sd/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/crooks-sd/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Crooks, SD | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Crooks",
-      "meta_description": "Contents restoration & storage in Crooks, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage crooks",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/crooks-sd/",
-        "/service-areas/crooks-sd/fire-damage-restoration/",
-        "/service-areas/crooks-sd/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -38771,46 +36771,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/crooks-sd/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Crooks, SD | Crew Restoration & Construction",
-      "h1": "Water Removal in Crooks",
-      "meta_description": "Water removal in Crooks, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal crooks",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/crooks-sd/",
-        "/service-areas/crooks-sd/fire-damage-restoration/",
-        "/service-areas/crooks-sd/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/crooks-sd/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -39410,44 +37370,6 @@
         "/service-areas/baltic-sd/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/baltic-sd/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Baltic, SD | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Baltic",
-      "meta_description": "Contents restoration & storage in Baltic, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage baltic",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/baltic-sd/",
-        "/service-areas/baltic-sd/fire-damage-restoration/",
-        "/service-areas/baltic-sd/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -40143,46 +38065,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/baltic-sd/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Baltic, SD | Crew Restoration & Construction",
-      "h1": "Water Removal in Baltic",
-      "meta_description": "Water removal in Baltic, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal baltic",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/baltic-sd/",
-        "/service-areas/baltic-sd/fire-damage-restoration/",
-        "/service-areas/baltic-sd/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/baltic-sd/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -40782,44 +38664,6 @@
         "/service-areas/garretson-sd/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/garretson-sd/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Garretson, SD | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Garretson",
-      "meta_description": "Contents restoration & storage in Garretson, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage garretson",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/garretson-sd/",
-        "/service-areas/garretson-sd/fire-damage-restoration/",
-        "/service-areas/garretson-sd/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -41515,46 +39359,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/garretson-sd/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Garretson, SD | Crew Restoration & Construction",
-      "h1": "Water Removal in Garretson",
-      "meta_description": "Water removal in Garretson, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal garretson",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/garretson-sd/",
-        "/service-areas/garretson-sd/fire-damage-restoration/",
-        "/service-areas/garretson-sd/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/garretson-sd/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -42154,44 +39958,6 @@
         "/service-areas/worthing-sd/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/worthing-sd/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Worthing, SD | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Worthing",
-      "meta_description": "Contents restoration & storage in Worthing, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage worthing",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/worthing-sd/",
-        "/service-areas/worthing-sd/fire-damage-restoration/",
-        "/service-areas/worthing-sd/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -42887,46 +40653,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/worthing-sd/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Worthing, SD | Crew Restoration & Construction",
-      "h1": "Water Removal in Worthing",
-      "meta_description": "Water removal in Worthing, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal worthing",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/worthing-sd/",
-        "/service-areas/worthing-sd/fire-damage-restoration/",
-        "/service-areas/worthing-sd/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/worthing-sd/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -43526,44 +41252,6 @@
         "/service-areas/volga-sd/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/volga-sd/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Volga, SD | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Volga",
-      "meta_description": "Contents restoration & storage in Volga, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage volga",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/volga-sd/",
-        "/service-areas/volga-sd/fire-damage-restoration/",
-        "/service-areas/volga-sd/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -44259,46 +41947,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/volga-sd/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Volga, SD | Crew Restoration & Construction",
-      "h1": "Water Removal in Volga",
-      "meta_description": "Water removal in Volga, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal volga",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/volga-sd/",
-        "/service-areas/volga-sd/fire-damage-restoration/",
-        "/service-areas/volga-sd/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/volga-sd/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -44898,44 +42546,6 @@
         "/service-areas/beresford-sd/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/beresford-sd/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Beresford, SD | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Beresford",
-      "meta_description": "Contents restoration & storage in Beresford, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage beresford",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/beresford-sd/",
-        "/service-areas/beresford-sd/fire-damage-restoration/",
-        "/service-areas/beresford-sd/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -45631,46 +43241,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/beresford-sd/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Beresford, SD | Crew Restoration & Construction",
-      "h1": "Water Removal in Beresford",
-      "meta_description": "Water removal in Beresford, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal beresford",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/beresford-sd/",
-        "/service-areas/beresford-sd/fire-damage-restoration/",
-        "/service-areas/beresford-sd/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/beresford-sd/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -46270,44 +43840,6 @@
         "/service-areas/dakota-dunes-sd/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/dakota-dunes-sd/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Dakota Dunes, SD | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Dakota Dunes",
-      "meta_description": "Contents restoration & storage in Dakota Dunes, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage dakota dunes",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/dakota-dunes-sd/",
-        "/service-areas/dakota-dunes-sd/fire-damage-restoration/",
-        "/service-areas/dakota-dunes-sd/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -47003,46 +44535,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/dakota-dunes-sd/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Dakota Dunes, SD | Crew Restoration & Construction",
-      "h1": "Water Removal in Dakota Dunes",
-      "meta_description": "Water removal in Dakota Dunes, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal dakota dunes",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/dakota-dunes-sd/",
-        "/service-areas/dakota-dunes-sd/fire-damage-restoration/",
-        "/service-areas/dakota-dunes-sd/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/dakota-dunes-sd/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -47642,44 +45134,6 @@
         "/service-areas/elk-point-sd/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/elk-point-sd/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Elk Point, SD | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Elk Point",
-      "meta_description": "Contents restoration & storage in Elk Point, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage elk point",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/elk-point-sd/",
-        "/service-areas/elk-point-sd/fire-damage-restoration/",
-        "/service-areas/elk-point-sd/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -48375,46 +45829,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/elk-point-sd/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Elk Point, SD | Crew Restoration & Construction",
-      "h1": "Water Removal in Elk Point",
-      "meta_description": "Water removal in Elk Point, SD. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal elk point",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/elk-point-sd/",
-        "/service-areas/elk-point-sd/fire-damage-restoration/",
-        "/service-areas/elk-point-sd/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/elk-point-sd/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -49014,44 +46428,6 @@
         "/service-areas/adrian-mn/mold-remediation/",
         "/service-areas/akron-ia/contents-restoration/",
         "/service-areas/alton-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/adrian-mn/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Adrian, MN | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Adrian",
-      "meta_description": "Contents restoration & storage in Adrian, MN. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage adrian",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/adrian-mn/",
-        "/service-areas/adrian-mn/fire-damage-restoration/",
-        "/service-areas/adrian-mn/mold-remediation/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
-        "/service-areas/alton-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -49747,46 +47123,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/adrian-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Adrian, MN | Crew Restoration & Construction",
-      "h1": "Water Removal in Adrian",
-      "meta_description": "Water removal in Adrian, MN. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal adrian",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/adrian-mn/",
-        "/service-areas/adrian-mn/fire-damage-restoration/",
-        "/service-areas/adrian-mn/mold-remediation/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/service-areas/alton-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/adrian-mn/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -50386,44 +47722,6 @@
         "/service-areas/edgerton-mn/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/edgerton-mn/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Edgerton, MN | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Edgerton",
-      "meta_description": "Contents restoration & storage in Edgerton, MN. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage edgerton",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/edgerton-mn/",
-        "/service-areas/edgerton-mn/fire-damage-restoration/",
-        "/service-areas/edgerton-mn/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -51119,46 +48417,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/edgerton-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Edgerton, MN | Crew Restoration & Construction",
-      "h1": "Water Removal in Edgerton",
-      "meta_description": "Water removal in Edgerton, MN. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal edgerton",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/edgerton-mn/",
-        "/service-areas/edgerton-mn/fire-damage-restoration/",
-        "/service-areas/edgerton-mn/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/edgerton-mn/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -51758,44 +49016,6 @@
         "/service-areas/fulda-mn/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/fulda-mn/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Fulda, MN | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Fulda",
-      "meta_description": "Contents restoration & storage in Fulda, MN. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage fulda",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/fulda-mn/",
-        "/service-areas/fulda-mn/fire-damage-restoration/",
-        "/service-areas/fulda-mn/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -52491,46 +49711,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/fulda-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Fulda, MN | Crew Restoration & Construction",
-      "h1": "Water Removal in Fulda",
-      "meta_description": "Water removal in Fulda, MN. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal fulda",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/fulda-mn/",
-        "/service-areas/fulda-mn/fire-damage-restoration/",
-        "/service-areas/fulda-mn/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/fulda-mn/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -53130,44 +50310,6 @@
         "/service-areas/george-ia/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/george-ia/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in George, IA | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in George",
-      "meta_description": "Contents restoration & storage in George, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage george",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/george-ia/",
-        "/service-areas/george-ia/fire-damage-restoration/",
-        "/service-areas/george-ia/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -53863,46 +51005,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/george-ia/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in George, IA | Crew Restoration & Construction",
-      "h1": "Water Removal in George",
-      "meta_description": "Water removal in George, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal george",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/george-ia/",
-        "/service-areas/george-ia/fire-damage-restoration/",
-        "/service-areas/george-ia/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/george-ia/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -54502,44 +51604,6 @@
         "/service-areas/hawarden-ia/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/hawarden-ia/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Hawarden, IA | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Hawarden",
-      "meta_description": "Contents restoration & storage in Hawarden, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage hawarden",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/hawarden-ia/",
-        "/service-areas/hawarden-ia/fire-damage-restoration/",
-        "/service-areas/hawarden-ia/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -55235,46 +52299,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/hawarden-ia/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Hawarden, IA | Crew Restoration & Construction",
-      "h1": "Water Removal in Hawarden",
-      "meta_description": "Water removal in Hawarden, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal hawarden",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/hawarden-ia/",
-        "/service-areas/hawarden-ia/fire-damage-restoration/",
-        "/service-areas/hawarden-ia/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/hawarden-ia/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -55874,44 +52898,6 @@
         "/service-areas/hull-ia/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/hull-ia/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Hull, IA | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Hull",
-      "meta_description": "Contents restoration & storage in Hull, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage hull",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/hull-ia/",
-        "/service-areas/hull-ia/fire-damage-restoration/",
-        "/service-areas/hull-ia/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -56607,46 +53593,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/hull-ia/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Hull, IA | Crew Restoration & Construction",
-      "h1": "Water Removal in Hull",
-      "meta_description": "Water removal in Hull, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal hull",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/hull-ia/",
-        "/service-areas/hull-ia/fire-damage-restoration/",
-        "/service-areas/hull-ia/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/hull-ia/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -57246,44 +54192,6 @@
         "/service-areas/alton-ia/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/alton-ia/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Alton, IA | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Alton",
-      "meta_description": "Contents restoration & storage in Alton, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage alton",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/alton-ia/",
-        "/service-areas/alton-ia/fire-damage-restoration/",
-        "/service-areas/alton-ia/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -57979,46 +54887,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/alton-ia/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Alton, IA | Crew Restoration & Construction",
-      "h1": "Water Removal in Alton",
-      "meta_description": "Water removal in Alton, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal alton",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/alton-ia/",
-        "/service-areas/alton-ia/fire-damage-restoration/",
-        "/service-areas/alton-ia/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/alton-ia/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -58618,44 +55486,6 @@
         "/service-areas/akron-ia/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/alton-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/akron-ia/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Akron, IA | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Akron",
-      "meta_description": "Contents restoration & storage in Akron, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage akron",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/akron-ia/",
-        "/service-areas/akron-ia/fire-damage-restoration/",
-        "/service-areas/akron-ia/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/alton-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -59351,46 +56181,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/akron-ia/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Akron, IA | Crew Restoration & Construction",
-      "h1": "Water Removal in Akron",
-      "meta_description": "Water removal in Akron, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal akron",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/akron-ia/",
-        "/service-areas/akron-ia/fire-damage-restoration/",
-        "/service-areas/akron-ia/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/alton-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/akron-ia/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -59990,44 +56780,6 @@
         "/service-areas/remsen-ia/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/remsen-ia/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Remsen, IA | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Remsen",
-      "meta_description": "Contents restoration & storage in Remsen, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage remsen",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/remsen-ia/",
-        "/service-areas/remsen-ia/fire-damage-restoration/",
-        "/service-areas/remsen-ia/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -60723,46 +57475,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/remsen-ia/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Remsen, IA | Crew Restoration & Construction",
-      "h1": "Water Removal in Remsen",
-      "meta_description": "Water removal in Remsen, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal remsen",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/remsen-ia/",
-        "/service-areas/remsen-ia/fire-damage-restoration/",
-        "/service-areas/remsen-ia/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/remsen-ia/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -61362,44 +58074,6 @@
         "/service-areas/hinton-ia/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/hinton-ia/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Hinton, IA | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Hinton",
-      "meta_description": "Contents restoration & storage in Hinton, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage hinton",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/hinton-ia/",
-        "/service-areas/hinton-ia/fire-damage-restoration/",
-        "/service-areas/hinton-ia/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -62095,46 +58769,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/hinton-ia/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Hinton, IA | Crew Restoration & Construction",
-      "h1": "Water Removal in Hinton",
-      "meta_description": "Water removal in Hinton, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal hinton",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/hinton-ia/",
-        "/service-areas/hinton-ia/fire-damage-restoration/",
-        "/service-areas/hinton-ia/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/hinton-ia/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -62734,44 +59368,6 @@
         "/service-areas/merrill-ia/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/merrill-ia/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Merrill, IA | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Merrill",
-      "meta_description": "Contents restoration & storage in Merrill, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage merrill",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/merrill-ia/",
-        "/service-areas/merrill-ia/fire-damage-restoration/",
-        "/service-areas/merrill-ia/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -63467,46 +60063,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/merrill-ia/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Merrill, IA | Crew Restoration & Construction",
-      "h1": "Water Removal in Merrill",
-      "meta_description": "Water removal in Merrill, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal merrill",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/merrill-ia/",
-        "/service-areas/merrill-ia/fire-damage-restoration/",
-        "/service-areas/merrill-ia/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/merrill-ia/excavations/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -64106,44 +60662,6 @@
         "/service-areas/kingsley-ia/mold-remediation/",
         "/service-areas/adrian-mn/contents-restoration/",
         "/service-areas/akron-ia/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/kingsley-ia/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Kingsley, IA | Crew Restoration & Construction",
-      "h1": "Contents Restoration & Storage in Kingsley",
-      "meta_description": "Contents restoration & storage in Kingsley, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "contents restoration & storage kingsley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/kingsley-ia/",
-        "/service-areas/kingsley-ia/fire-damage-restoration/",
-        "/service-areas/kingsley-ia/mold-remediation/",
-        "/service-areas/adrian-mn/contents-restoration-storage/",
-        "/service-areas/akron-ia/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -64835,46 +61353,6 @@
         "/service-areas/kingsley-ia/mold-remediation/",
         "/service-areas/adrian-mn/emergency-plumbing/",
         "/service-areas/akron-ia/emergency-plumbing/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/kingsley-ia/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Kingsley, IA | Crew Restoration & Construction",
-      "h1": "Water Removal in Kingsley",
-      "meta_description": "Water removal in Kingsley, IA. IICRC-certified, insurance billing accepted. Call (605) 965-2727.",
-      "primary_keyword": "24/7 emergency water removal kingsley",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/kingsley-ia/",
-        "/service-areas/kingsley-ia/fire-damage-restoration/",
-        "/service-areas/kingsley-ia/mold-remediation/",
-        "/service-areas/adrian-mn/emergency-water-removal/",
-        "/service-areas/akron-ia/emergency-water-removal/",
         "/contact/"
       ]
     },

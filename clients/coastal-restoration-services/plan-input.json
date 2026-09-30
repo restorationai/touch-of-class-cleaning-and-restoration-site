@@ -27,7 +27,6 @@
   "services": [
     "biohazard-cleanup",
     "contents-restoration",
-    "contents-restoration-storage",
     "crawl-space-encapsulation",
     "emergency-board-up-tarping",
     "fire-damage-restoration",
@@ -198,5 +197,17 @@
     }
   ],
   "template": "restoration",
-  "blog_seed_count": 8
+  "blog_seed_count": 8,
+  "homepage_services": [
+    "fire-damage-restoration",
+    "mold-remediation",
+    "water-damage-restoration",
+    "sewage-cleanup",
+    "storm-damage-restoration",
+    "biohazard-cleanup"
+  ],
+  "merged_services": {
+    "contents-restoration-storage": "contents-restoration",
+    "vandalism-graffiti-removal": "vandalism-cleanup"
+  }
 }

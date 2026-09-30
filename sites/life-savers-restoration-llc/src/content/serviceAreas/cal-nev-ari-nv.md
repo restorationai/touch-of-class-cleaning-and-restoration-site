@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "8bcae9df19e7977e"
 generated_at: "2026-09-23T14:11:52.230570+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/cal-nev-ari-nv/fire-damage-restoration/", "/service-areas/cal-nev-ari-nv/mold-remediation/", "/service-areas/cal-nev-ari-nv/water-damage-restoration/", "/service-areas/cal-nev-ari-nv/sewage-cleanup/", "/service-areas/cal-nev-ari-nv/storm-damage-restoration/", "/service-areas/cal-nev-ari-nv/water-cleanup/", "/service-areas/cal-nev-ari-nv/biohazard-cleanup/", "/service-areas/cal-nev-ari-nv/odor-removal/", "/service-areas/cal-nev-ari-nv/contents-restoration-storage/", "/service-areas/cal-nev-ari-nv/contents-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/enterprise-nv/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/cal-nev-ari-nv/fire-damage-restoration/", "/service-areas/cal-nev-ari-nv/mold-remediation/", "/service-areas/cal-nev-ari-nv/water-damage-restoration/", "/service-areas/cal-nev-ari-nv/sewage-cleanup/", "/service-areas/cal-nev-ari-nv/storm-damage-restoration/", "/service-areas/cal-nev-ari-nv/water-cleanup/", "/service-areas/cal-nev-ari-nv/biohazard-cleanup/", "/service-areas/cal-nev-ari-nv/odor-removal/", "/service-areas/cal-nev-ari-nv/contents-restoration/", "/service-areas/blue-diamond-nv/", "/service-areas/boulder-city-nv/", "/service-areas/enterprise-nv/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Cal-Nev-Ari"}]
 faq: []
 area_slug: "cal-nev-ari-nv"

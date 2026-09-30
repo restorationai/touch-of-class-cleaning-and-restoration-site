@@ -178,27 +178,7 @@
     ],
     "missing_stubs": []
   },
-  "/services/24-7-emergency-water-damage-restoration/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/appliance-leak-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/basement-sewage-cleanup/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -218,16 +198,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/burst-pipe-water-damage-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/carpet-water-extraction/": {
     "archetype": "service-landing",
     "stubs": [
@@ -238,27 +208,7 @@
     ],
     "missing_stubs": []
   },
-  "/services/category-3-water-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/emergency-board-up/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/emergency-board-ups/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -378,27 +328,7 @@
     ],
     "missing_stubs": []
   },
-  "/services/water-heater-flood-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/water-leak-detection/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/emergency-water-removal/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -709,27 +639,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/san-diego-ca/24-7-emergency-water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/san-diego-ca/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/san-diego-ca/basement-sewage-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -749,16 +659,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/san-diego-ca/burst-pipe-water-damage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/san-diego-ca/carpet-water-extraction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -769,27 +669,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/san-diego-ca/category-3-water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/san-diego-ca/emergency-board-up/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/san-diego-ca/emergency-board-ups/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -909,27 +789,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/san-diego-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/san-diego-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/san-diego-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1069,27 +929,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/san-jose-ca/24-7-emergency-water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/san-jose-ca/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/san-jose-ca/basement-sewage-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1109,16 +949,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/san-jose-ca/burst-pipe-water-damage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/san-jose-ca/carpet-water-extraction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1129,27 +959,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/san-jose-ca/category-3-water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/san-jose-ca/emergency-board-up/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/san-jose-ca/emergency-board-ups/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1269,27 +1079,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/san-jose-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/san-jose-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/san-jose-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1429,27 +1219,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/san-francisco-ca/24-7-emergency-water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/san-francisco-ca/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/san-francisco-ca/basement-sewage-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1469,16 +1239,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/san-francisco-ca/burst-pipe-water-damage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/san-francisco-ca/carpet-water-extraction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1489,27 +1249,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/san-francisco-ca/category-3-water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/san-francisco-ca/emergency-board-up/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/san-francisco-ca/emergency-board-ups/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1629,27 +1369,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/san-francisco-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/san-francisco-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/san-francisco-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1789,27 +1509,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/oakland-ca/24-7-emergency-water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/oakland-ca/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/oakland-ca/basement-sewage-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1829,16 +1529,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/oakland-ca/burst-pipe-water-damage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/oakland-ca/carpet-water-extraction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1849,27 +1539,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/oakland-ca/category-3-water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/oakland-ca/emergency-board-up/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/oakland-ca/emergency-board-ups/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1989,27 +1659,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/oakland-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/oakland-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/oakland-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2149,27 +1799,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/chula-vista-ca/24-7-emergency-water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/chula-vista-ca/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/chula-vista-ca/basement-sewage-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2189,16 +1819,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/chula-vista-ca/burst-pipe-water-damage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/chula-vista-ca/carpet-water-extraction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2209,27 +1829,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/chula-vista-ca/category-3-water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/chula-vista-ca/emergency-board-up/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/chula-vista-ca/emergency-board-ups/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2349,27 +1949,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/chula-vista-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/chula-vista-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/chula-vista-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2509,27 +2089,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fremont-ca/24-7-emergency-water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fremont-ca/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fremont-ca/basement-sewage-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2549,16 +2109,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fremont-ca/burst-pipe-water-damage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fremont-ca/carpet-water-extraction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2569,27 +2119,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fremont-ca/category-3-water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fremont-ca/emergency-board-up/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fremont-ca/emergency-board-ups/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2709,27 +2239,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/fremont-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/fremont-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/fremont-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2869,27 +2379,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/oceanside-ca/24-7-emergency-water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/oceanside-ca/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/oceanside-ca/basement-sewage-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2909,16 +2399,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/oceanside-ca/burst-pipe-water-damage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/oceanside-ca/carpet-water-extraction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2929,27 +2409,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/oceanside-ca/category-3-water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/oceanside-ca/emergency-board-up/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/oceanside-ca/emergency-board-ups/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3069,27 +2529,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/oceanside-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/oceanside-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/oceanside-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3229,27 +2669,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/escondido-ca/24-7-emergency-water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/escondido-ca/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/escondido-ca/basement-sewage-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3269,16 +2689,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/escondido-ca/burst-pipe-water-damage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/escondido-ca/carpet-water-extraction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3289,27 +2699,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/escondido-ca/category-3-water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/escondido-ca/emergency-board-up/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/escondido-ca/emergency-board-ups/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3429,27 +2819,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/escondido-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/escondido-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/escondido-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3589,27 +2959,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/carlsbad-ca/24-7-emergency-water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/carlsbad-ca/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/carlsbad-ca/basement-sewage-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3629,16 +2979,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/carlsbad-ca/burst-pipe-water-damage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/carlsbad-ca/carpet-water-extraction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3649,27 +2989,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/carlsbad-ca/category-3-water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/carlsbad-ca/emergency-board-up/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/carlsbad-ca/emergency-board-ups/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3789,27 +3109,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/carlsbad-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/carlsbad-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/carlsbad-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3949,27 +3249,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/san-marcos-ca/24-7-emergency-water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/san-marcos-ca/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/san-marcos-ca/basement-sewage-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3989,16 +3269,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/san-marcos-ca/burst-pipe-water-damage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/san-marcos-ca/carpet-water-extraction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4009,27 +3279,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/san-marcos-ca/category-3-water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/san-marcos-ca/emergency-board-up/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/san-marcos-ca/emergency-board-ups/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4149,27 +3399,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/san-marcos-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/san-marcos-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/san-marcos-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4309,27 +3539,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/temecula-ca/24-7-emergency-water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/temecula-ca/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/temecula-ca/basement-sewage-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4349,16 +3559,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/temecula-ca/burst-pipe-water-damage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/temecula-ca/carpet-water-extraction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4369,27 +3569,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/temecula-ca/category-3-water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/temecula-ca/emergency-board-up/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/temecula-ca/emergency-board-ups/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4509,27 +3689,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/temecula-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/temecula-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/temecula-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4669,27 +3829,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hayward-ca/24-7-emergency-water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hayward-ca/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hayward-ca/basement-sewage-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4709,16 +3849,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hayward-ca/burst-pipe-water-damage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hayward-ca/carpet-water-extraction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4729,27 +3859,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hayward-ca/category-3-water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hayward-ca/emergency-board-up/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hayward-ca/emergency-board-ups/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4869,27 +3979,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hayward-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hayward-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hayward-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5029,27 +4119,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sunnyvale-ca/24-7-emergency-water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sunnyvale-ca/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sunnyvale-ca/basement-sewage-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5069,16 +4139,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sunnyvale-ca/burst-pipe-water-damage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sunnyvale-ca/carpet-water-extraction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5089,27 +4149,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sunnyvale-ca/category-3-water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sunnyvale-ca/emergency-board-up/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sunnyvale-ca/emergency-board-ups/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5229,27 +4269,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sunnyvale-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sunnyvale-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sunnyvale-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5389,27 +4409,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/santa-clara-ca/24-7-emergency-water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/santa-clara-ca/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/santa-clara-ca/basement-sewage-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5429,16 +4429,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/santa-clara-ca/burst-pipe-water-damage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/santa-clara-ca/carpet-water-extraction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5449,27 +4439,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/santa-clara-ca/category-3-water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/santa-clara-ca/emergency-board-up/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/santa-clara-ca/emergency-board-ups/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5589,27 +4559,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/santa-clara-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/santa-clara-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/santa-clara-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5749,27 +4699,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/el-cajon-ca/24-7-emergency-water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/el-cajon-ca/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/el-cajon-ca/basement-sewage-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5789,16 +4719,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/el-cajon-ca/burst-pipe-water-damage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/el-cajon-ca/carpet-water-extraction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5809,27 +4729,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/el-cajon-ca/category-3-water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/el-cajon-ca/emergency-board-up/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/el-cajon-ca/emergency-board-ups/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5949,27 +4849,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/el-cajon-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/el-cajon-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/el-cajon-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6109,27 +4989,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/concord-ca/24-7-emergency-water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/concord-ca/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/concord-ca/basement-sewage-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6149,16 +5009,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/concord-ca/burst-pipe-water-damage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/concord-ca/carpet-water-extraction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6169,27 +5019,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/concord-ca/category-3-water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/concord-ca/emergency-board-up/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/concord-ca/emergency-board-ups/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6309,27 +5139,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/concord-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/concord-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/concord-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6469,27 +5279,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/berkeley-ca/24-7-emergency-water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/berkeley-ca/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/berkeley-ca/basement-sewage-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6509,16 +5299,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/berkeley-ca/burst-pipe-water-damage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/berkeley-ca/carpet-water-extraction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6529,27 +5309,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/berkeley-ca/category-3-water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/berkeley-ca/emergency-board-up/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/berkeley-ca/emergency-board-ups/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6669,27 +5429,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/berkeley-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/berkeley-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/berkeley-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6829,27 +5569,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/encinitas-ca/24-7-emergency-water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/encinitas-ca/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/encinitas-ca/basement-sewage-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6869,16 +5589,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/encinitas-ca/burst-pipe-water-damage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/encinitas-ca/carpet-water-extraction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6889,27 +5599,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/encinitas-ca/category-3-water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/encinitas-ca/emergency-board-up/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/encinitas-ca/emergency-board-ups/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7029,27 +5719,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/encinitas-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/encinitas-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/encinitas-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7189,27 +5859,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/santa-cruz-ca/24-7-emergency-water-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/santa-cruz-ca/appliance-leak-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/santa-cruz-ca/basement-sewage-cleanup/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7229,16 +5879,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/santa-cruz-ca/burst-pipe-water-damage-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/santa-cruz-ca/carpet-water-extraction/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7249,27 +5889,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/santa-cruz-ca/category-3-water-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/santa-cruz-ca/emergency-board-up/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/santa-cruz-ca/emergency-board-ups/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7389,27 +6009,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/santa-cruz-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/santa-cruz-ca/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/santa-cruz-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

@@ -56,7 +56,7 @@ This file is intended for AI assistants and language models to efficiently inges
 - [Biohazard Cleanup](https://dissrestoration.com/services/biohazard-cleanup/)
 - [Carpet Cleaning](https://dissrestoration.com/services/carpet-cleaning/)
 - [Contents Restoration and Storage](https://dissrestoration.com/services/contents-restoration/)
-- [Contents Restoration & Storage](https://dissrestoration.com/services/contents-restoration-storage/)
+- [Contents Restoration & Storage](https://dissrestoration.com/services/contents-restoration/)
 - [Emergency Board-Up and Tarping](https://dissrestoration.com/services/emergency-board-up-tarping/)
 - [Fire Damage Restoration](https://dissrestoration.com/services/fire-damage-restoration/)
 - [Renovations, Remodels and General Contracting](https://dissrestoration.com/services/general-contracting/)

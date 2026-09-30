@@ -314,5 +314,13 @@
       "state": "FL",
       "slug": "wilton-manors-fl"
     }
+  ],
+  "homepage_services": [
+    "fire-damage-restoration",
+    "mold-remediation",
+    "water-damage-restoration",
+    "flood-damage-restoration",
+    "smoke-damage-restoration",
+    "storm-damage-restoration"
   ]
 }

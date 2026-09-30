@@ -68,16 +68,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/air-duct-hvac-cleaning/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/appliance-leak-cleanup/": {
     "archetype": "service-landing",
     "stubs": [
@@ -288,16 +278,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/soot-removal/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/storm-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
@@ -379,26 +359,6 @@
     "missing_stubs": []
   },
   "/services/ceiling-water-damage-repair/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/water-heater-flood-cleanup/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/emergency-water-removal/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -598,16 +558,6 @@
     "missing_stubs": []
   },
   "/service-areas/oildale-ca/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/oildale-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -827,16 +777,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/oildale-ca/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/oildale-ca/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -927,37 +867,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/oildale-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/oildale-ca/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/rosedale-ca/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/rosedale-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1177,16 +1087,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/rosedale-ca/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/rosedale-ca/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1277,37 +1177,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/rosedale-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/rosedale-ca/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/delano-ca/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/delano-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1527,16 +1397,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/delano-ca/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/delano-ca/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1627,37 +1487,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/delano-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/delano-ca/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/shafter-ca/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/shafter-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1877,16 +1707,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/shafter-ca/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/shafter-ca/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1977,37 +1797,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/shafter-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/shafter-ca/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/wasco-ca/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wasco-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2227,16 +2017,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/wasco-ca/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/wasco-ca/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2327,37 +2107,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/wasco-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wasco-ca/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/taft-ca/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/taft-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2577,16 +2327,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/taft-ca/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/taft-ca/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2677,37 +2417,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/taft-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/taft-ca/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/tehachapi-ca/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/tehachapi-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2927,16 +2637,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/tehachapi-ca/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/tehachapi-ca/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3027,37 +2727,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/tehachapi-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/tehachapi-ca/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/arvin-ca/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/arvin-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3277,16 +2947,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/arvin-ca/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/arvin-ca/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3377,37 +3037,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/arvin-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/arvin-ca/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lamont-ca/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lamont-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3627,16 +3257,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lamont-ca/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lamont-ca/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3727,37 +3347,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lamont-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lamont-ca/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lake-isabella-ca/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lake-isabella-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3977,16 +3567,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lake-isabella-ca/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lake-isabella-ca/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4077,37 +3657,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lake-isabella-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lake-isabella-ca/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/east-niles-ca/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/east-niles-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4327,16 +3877,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/east-niles-ca/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/east-niles-ca/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4427,37 +3967,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/east-niles-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/east-niles-ca/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/tarina-ca/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/tarina-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4677,16 +4187,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/tarina-ca/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/tarina-ca/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4777,37 +4277,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/tarina-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/tarina-ca/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/weedpatch-ca/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/weedpatch-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5027,16 +4497,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/weedpatch-ca/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/weedpatch-ca/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5127,37 +4587,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/weedpatch-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/weedpatch-ca/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/buttonwillow-ca/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/buttonwillow-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5377,16 +4807,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/buttonwillow-ca/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/buttonwillow-ca/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5477,37 +4897,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/buttonwillow-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/buttonwillow-ca/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/dustin-acres-ca/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/dustin-acres-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5727,16 +5117,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/dustin-acres-ca/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/dustin-acres-ca/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5827,37 +5207,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/dustin-acres-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/dustin-acres-ca/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/mcfarland-ca/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/mcfarland-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6077,16 +5427,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/mcfarland-ca/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/mcfarland-ca/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6177,37 +5517,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/mcfarland-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/mcfarland-ca/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/valley-acres-ca/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/valley-acres-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6427,16 +5737,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/valley-acres-ca/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/valley-acres-ca/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6527,37 +5827,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/valley-acres-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/valley-acres-ca/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/woody-ca/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/woody-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6777,16 +6047,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/woody-ca/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/woody-ca/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6877,37 +6137,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/woody-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/woody-ca/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bear-valley-springs-ca/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7127,16 +6357,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bear-valley-springs-ca/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bear-valley-springs-ca/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7227,37 +6447,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bear-valley-springs-ca/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/keene-ca/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/keene-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7477,16 +6667,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/keene-ca/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/keene-ca/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7577,37 +6757,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/keene-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/keene-ca/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/maricopa-ca/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/maricopa-ca/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7827,16 +6977,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/maricopa-ca/soot-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/maricopa-ca/storm-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7918,26 +7058,6 @@
     "missing_stubs": []
   },
   "/service-areas/maricopa-ca/ceiling-water-damage-repair/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/maricopa-ca/water-heater-flood-cleanup/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/maricopa-ca/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

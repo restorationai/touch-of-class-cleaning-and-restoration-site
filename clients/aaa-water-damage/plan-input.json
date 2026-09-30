@@ -461,5 +461,13 @@
   },
   "cross_product": true,
   "keyword_strategy": "conservative",
-  "blog_seed_count": 12
+  "blog_seed_count": 12,
+  "homepage_services": [
+    "mold-remediation",
+    "water-damage-restoration",
+    "commercial-restoration",
+    "flood-damage-restoration",
+    "sewage-cleanup",
+    "burst-pipe-repair"
+  ]
 }

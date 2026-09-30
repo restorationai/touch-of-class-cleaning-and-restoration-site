@@ -12,10 +12,13 @@ import AboutSection from "~/components/ui/AboutSection.astro";
 import ServicesStrip from "~/components/ui/ServicesStrip.astro";
 import ProcessSection from "~/components/ui/ProcessSection.astro";
 import GallerySection from "~/components/ui/GallerySection.astro";
+import BeforeAfterSection from "~/components/ui/BeforeAfterSection.astro";
 import RecentWork from "~/components/RecentWork.astro";
 import ProudlyServing from "~/components/ui/ProudlyServing.astro";
 import ReviewsSection from "~/components/ui/ReviewsSection.astro";
 import { brand } from "~/lib/brand";
+import { workPairs } from "~/data/work";
+import homepageServices from "~/data/homepage-services.json";
 
 const entry = await getEntry("pages", "home");
 if (!entry) throw new Error("Missing content: pages/home.md — has Skill 3 rendered yet?");
@@ -24,15 +27,14 @@ const data = entry.data;
 
 const heroImage = data.hero || `${brand.imagesBase}/brand/hero.webp`;
 
-// Pull the top 6 services as requested by the client for the home page strip
-const targetSlugs = [
-  "water-damage-restoration",
-  "fire-damage-restoration",
-  "mold-remediation",
-  "biohazard-cleanup",
-  "storm-damage-restoration",
-  "general-contracting"
-];
+// Homepage services = the client's curated core (as NaRestCo requested),
+// pinned in plan-input "homepage_services" and mirrored to
+// src/data/homepage-services.json (site_structure.py). Parity pages never
+// land here.
+const targetSlugs = (homepageServices as string[]).length
+  ? (homepageServices as string[])
+  : ["water-damage-restoration", "fire-damage-restoration", "mold-remediation",
+     "biohazard-cleanup", "storm-damage-restoration", "general-contracting"];
 const allServices = await getCollection("services");
 const services = targetSlugs
   .map(slug => allServices.find(s => s.data.service_slug === slug || s.id.includes(slug)))
@@ -79,6 +81,10 @@ const services = targetSlugs
   {services.length > 0 && <ServicesStrip services={services} />}
 
   <ProcessSection />
+
+  {/* "Our Work" = the before/after sliders (restored 2026-09-30; the 09-29
+      pre-sweep restore had dropped them). Case studies live on /case-studies/. */}
+  <BeforeAfterSection pairs={workPairs} />
 
   {/* NaRestCo's own job-photo gallery (pre-sweep homepage); RecentWork kept. */}
   <GallerySection />

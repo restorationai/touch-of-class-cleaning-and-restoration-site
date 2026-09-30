@@ -68,16 +68,6 @@
     ],
     "missing_stubs": []
   },
-  "/services/air-duct-hvac-cleaning/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/asbestos-abatement/": {
     "archetype": "service-landing",
     "stubs": [
@@ -99,16 +89,6 @@
     "missing_stubs": []
   },
   "/services/contents-restoration/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/contents-restoration-storage/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -339,16 +319,6 @@
     "missing_stubs": []
   },
   "/services/water-leak-detection/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/emergency-water-removal/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -621,16 +591,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sweetwater-tx/air-duct-hvac-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sweetwater-tx/asbestos-abatement/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -652,16 +612,6 @@
     "missing_stubs": []
   },
   "/service-areas/sweetwater-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sweetwater-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -901,16 +851,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sweetwater-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sweetwater-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -922,16 +862,6 @@
     "missing_stubs": []
   },
   "/service-areas/clyde-tx/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/clyde-tx/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -962,16 +892,6 @@
     "missing_stubs": []
   },
   "/service-areas/clyde-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/clyde-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1211,16 +1131,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/clyde-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/clyde-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1232,16 +1142,6 @@
     "missing_stubs": []
   },
   "/service-areas/merkel-tx/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/merkel-tx/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1272,16 +1172,6 @@
     "missing_stubs": []
   },
   "/service-areas/merkel-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/merkel-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1521,16 +1411,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/merkel-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/merkel-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1542,16 +1422,6 @@
     "missing_stubs": []
   },
   "/service-areas/anson-tx/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/anson-tx/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1582,16 +1452,6 @@
     "missing_stubs": []
   },
   "/service-areas/anson-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/anson-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1831,16 +1691,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/anson-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/anson-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -1852,16 +1702,6 @@
     "missing_stubs": []
   },
   "/service-areas/tuscola-tx/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/tuscola-tx/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1892,16 +1732,6 @@
     "missing_stubs": []
   },
   "/service-areas/tuscola-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/tuscola-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2141,16 +1971,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/tuscola-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/tuscola-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2162,16 +1982,6 @@
     "missing_stubs": []
   },
   "/service-areas/tye-tx/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/tye-tx/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2202,16 +2012,6 @@
     "missing_stubs": []
   },
   "/service-areas/tye-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/tye-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2451,16 +2251,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/tye-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/tye-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2472,16 +2262,6 @@
     "missing_stubs": []
   },
   "/service-areas/buffalo-gap-tx/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/buffalo-gap-tx/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2512,16 +2292,6 @@
     "missing_stubs": []
   },
   "/service-areas/buffalo-gap-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/buffalo-gap-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2761,16 +2531,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/buffalo-gap-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/buffalo-gap-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -2782,16 +2542,6 @@
     "missing_stubs": []
   },
   "/service-areas/brownwood-tx/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/brownwood-tx/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2822,16 +2572,6 @@
     "missing_stubs": []
   },
   "/service-areas/brownwood-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/brownwood-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3071,16 +2811,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/brownwood-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/brownwood-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3092,16 +2822,6 @@
     "missing_stubs": []
   },
   "/service-areas/early-tx/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/early-tx/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3132,16 +2852,6 @@
     "missing_stubs": []
   },
   "/service-areas/early-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/early-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3381,16 +3091,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/early-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/early-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3402,16 +3102,6 @@
     "missing_stubs": []
   },
   "/service-areas/roby-tx/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/roby-tx/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3442,16 +3132,6 @@
     "missing_stubs": []
   },
   "/service-areas/roby-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/roby-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3691,16 +3371,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/roby-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/roby-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -3712,16 +3382,6 @@
     "missing_stubs": []
   },
   "/service-areas/rotan-tx/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/rotan-tx/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3752,16 +3412,6 @@
     "missing_stubs": []
   },
   "/service-areas/rotan-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/rotan-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4001,16 +3651,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/rotan-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/rotan-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4022,16 +3662,6 @@
     "missing_stubs": []
   },
   "/service-areas/robert-lee-tx/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/robert-lee-tx/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4062,16 +3692,6 @@
     "missing_stubs": []
   },
   "/service-areas/robert-lee-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/robert-lee-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4311,16 +3931,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/robert-lee-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/robert-lee-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4332,16 +3942,6 @@
     "missing_stubs": []
   },
   "/service-areas/bronte-tx/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bronte-tx/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4372,16 +3972,6 @@
     "missing_stubs": []
   },
   "/service-areas/bronte-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bronte-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4621,16 +4211,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bronte-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bronte-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4642,16 +4222,6 @@
     "missing_stubs": []
   },
   "/service-areas/eden-tx/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/eden-tx/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4682,16 +4252,6 @@
     "missing_stubs": []
   },
   "/service-areas/eden-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/eden-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4931,16 +4491,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/eden-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/eden-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -4952,16 +4502,6 @@
     "missing_stubs": []
   },
   "/service-areas/paint-rock-tx/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/paint-rock-tx/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4992,16 +4532,6 @@
     "missing_stubs": []
   },
   "/service-areas/paint-rock-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/paint-rock-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5241,16 +4771,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/paint-rock-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/paint-rock-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5262,16 +4782,6 @@
     "missing_stubs": []
   },
   "/service-areas/san-angelo-tx/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/san-angelo-tx/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5302,16 +4812,6 @@
     "missing_stubs": []
   },
   "/service-areas/san-angelo-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/san-angelo-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5551,16 +5051,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/san-angelo-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/san-angelo-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5572,16 +5062,6 @@
     "missing_stubs": []
   },
   "/service-areas/snyder-tx/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/snyder-tx/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5612,16 +5092,6 @@
     "missing_stubs": []
   },
   "/service-areas/snyder-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/snyder-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5861,16 +5331,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/snyder-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/snyder-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -5882,16 +5342,6 @@
     "missing_stubs": []
   },
   "/service-areas/coleman-tx/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/coleman-tx/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5922,16 +5372,6 @@
     "missing_stubs": []
   },
   "/service-areas/coleman-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/coleman-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6171,16 +5611,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/coleman-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/coleman-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6192,16 +5622,6 @@
     "missing_stubs": []
   },
   "/service-areas/ballinger-tx/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ballinger-tx/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6232,16 +5652,6 @@
     "missing_stubs": []
   },
   "/service-areas/ballinger-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ballinger-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6481,16 +5891,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ballinger-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ballinger-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6502,16 +5902,6 @@
     "missing_stubs": []
   },
   "/service-areas/haskell-tx/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/haskell-tx/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6542,16 +5932,6 @@
     "missing_stubs": []
   },
   "/service-areas/haskell-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/haskell-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6791,16 +6171,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/haskell-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/haskell-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -6812,16 +6182,6 @@
     "missing_stubs": []
   },
   "/service-areas/albany-tx/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/albany-tx/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6852,16 +6212,6 @@
     "missing_stubs": []
   },
   "/service-areas/albany-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/albany-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7101,16 +6451,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/albany-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/albany-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7122,16 +6462,6 @@
     "missing_stubs": []
   },
   "/service-areas/eastland-tx/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/eastland-tx/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7162,16 +6492,6 @@
     "missing_stubs": []
   },
   "/service-areas/eastland-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/eastland-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7411,16 +6731,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/eastland-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/eastland-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7432,16 +6742,6 @@
     "missing_stubs": []
   },
   "/service-areas/colorado-city-tx/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/colorado-city-tx/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7472,16 +6772,6 @@
     "missing_stubs": []
   },
   "/service-areas/colorado-city-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/colorado-city-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7721,16 +7011,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/colorado-city-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/colorado-city-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -7742,16 +7022,6 @@
     "missing_stubs": []
   },
   "/service-areas/comanche-tx/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/comanche-tx/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7782,16 +7052,6 @@
     "missing_stubs": []
   },
   "/service-areas/comanche-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/comanche-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8031,16 +7291,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/comanche-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/comanche-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8052,16 +7302,6 @@
     "missing_stubs": []
   },
   "/service-areas/potosi-tx/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/potosi-tx/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8092,16 +7332,6 @@
     "missing_stubs": []
   },
   "/service-areas/potosi-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/potosi-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8341,16 +7571,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/potosi-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/potosi-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8362,16 +7582,6 @@
     "missing_stubs": []
   },
   "/service-areas/hawley-tx/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hawley-tx/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8402,16 +7612,6 @@
     "missing_stubs": []
   },
   "/service-areas/hawley-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/hawley-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8651,16 +7851,6 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/hawley-tx/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/hawley-tx/emergency-plumbing/": {
     "archetype": "service-area-service",
     "stubs": [
@@ -8672,16 +7862,6 @@
     "missing_stubs": []
   },
   "/service-areas/baird-tx/air-duct-cleaning/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/baird-tx/air-duct-hvac-cleaning/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8712,16 +7892,6 @@
     "missing_stubs": []
   },
   "/service-areas/baird-tx/contents-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/baird-tx/contents-restoration-storage/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8952,16 +8122,6 @@
     "missing_stubs": []
   },
   "/service-areas/baird-tx/water-leak-detection/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/baird-tx/emergency-water-removal/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

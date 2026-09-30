@@ -207,5 +207,13 @@
   "verticals": [
     "construction",
     "restoration"
+  ],
+  "homepage_services": [
+    "roofing",
+    "home-remodeling",
+    "new-construction",
+    "decks-pergolas-fences",
+    "water-damage-restoration",
+    "mold-remediation"
   ]
 }

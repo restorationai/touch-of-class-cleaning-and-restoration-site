@@ -10,7 +10,6 @@
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
     "/services/emergency-plumbing/",
-    "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
     "/services/sewage-cleanup/",
@@ -30,7 +29,6 @@
     "/services/water-heater-flood-cleanup/",
     "/services/water-leak-detection/",
     "/services/asbestos-abatement/",
-    "/services/contents-restoration-storage/",
     "/services/contents-restoration/",
     "/services/deck-construction/",
     "/services/excavations/",
@@ -89,7 +87,6 @@
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
     "/services/emergency-plumbing/",
-    "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
     "/services/sewage-cleanup/",
@@ -109,7 +106,6 @@
     "/services/water-heater-flood-cleanup/",
     "/services/water-leak-detection/",
     "/services/asbestos-abatement/",
-    "/services/contents-restoration-storage/",
     "/services/contents-restoration/",
     "/services/deck-construction/",
     "/services/excavations/",
@@ -235,22 +231,6 @@
     "/service-areas/dakota-dunes-sd/contents-restoration/",
     "/service-areas/dell-rapids-sd/contents-restoration/",
     "/service-areas/edgerton-mn/contents-restoration/"
-  ],
-  "/services/contents-restoration-storage/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
-    "/service-areas/alton-ia/contents-restoration-storage/",
-    "/service-areas/baltic-sd/contents-restoration-storage/",
-    "/service-areas/beresford-sd/contents-restoration-storage/",
-    "/service-areas/brandon-sd/contents-restoration-storage/",
-    "/service-areas/brookings-sd/contents-restoration-storage/",
-    "/service-areas/canton-sd/contents-restoration-storage/",
-    "/service-areas/crooks-sd/contents-restoration-storage/",
-    "/service-areas/dakota-dunes-sd/contents-restoration-storage/",
-    "/service-areas/dell-rapids-sd/contents-restoration-storage/",
-    "/service-areas/edgerton-mn/contents-restoration-storage/"
   ],
   "/services/emergency-board-up-tarping/": [
     "/services/",
@@ -519,22 +499,6 @@
     "/service-areas/dell-rapids-sd/emergency-plumbing/",
     "/service-areas/edgerton-mn/emergency-plumbing/"
   ],
-  "/services/emergency-water-removal/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/service-areas/alton-ia/emergency-water-removal/",
-    "/service-areas/baltic-sd/emergency-water-removal/",
-    "/service-areas/beresford-sd/emergency-water-removal/",
-    "/service-areas/brandon-sd/emergency-water-removal/",
-    "/service-areas/brookings-sd/emergency-water-removal/",
-    "/service-areas/canton-sd/emergency-water-removal/",
-    "/service-areas/crooks-sd/emergency-water-removal/",
-    "/service-areas/dakota-dunes-sd/emergency-water-removal/",
-    "/service-areas/dell-rapids-sd/emergency-water-removal/",
-    "/service-areas/edgerton-mn/emergency-water-removal/"
-  ],
   "/services/excavations/": [
     "/services/",
     "/contact/",
@@ -724,7 +688,6 @@
     "/service-areas/brookings-sd/water-damage-restoration/",
     "/service-areas/brookings-sd/commercial-restoration/",
     "/service-areas/brookings-sd/emergency-plumbing/",
-    "/service-areas/brookings-sd/emergency-water-removal/",
     "/service-areas/brookings-sd/flood-damage-restoration/",
     "/service-areas/brookings-sd/reconstruction/",
     "/service-areas/brookings-sd/sewage-cleanup/",
@@ -744,7 +707,6 @@
     "/service-areas/brookings-sd/water-heater-flood-cleanup/",
     "/service-areas/brookings-sd/water-leak-detection/",
     "/service-areas/brookings-sd/asbestos-abatement/",
-    "/service-areas/brookings-sd/contents-restoration-storage/",
     "/service-areas/brookings-sd/contents-restoration/",
     "/service-areas/brookings-sd/deck-construction/",
     "/service-areas/brookings-sd/excavations/",
@@ -763,7 +725,6 @@
     "/service-areas/yankton-sd/water-damage-restoration/",
     "/service-areas/yankton-sd/commercial-restoration/",
     "/service-areas/yankton-sd/emergency-plumbing/",
-    "/service-areas/yankton-sd/emergency-water-removal/",
     "/service-areas/yankton-sd/flood-damage-restoration/",
     "/service-areas/yankton-sd/reconstruction/",
     "/service-areas/yankton-sd/sewage-cleanup/",
@@ -783,7 +744,6 @@
     "/service-areas/yankton-sd/water-heater-flood-cleanup/",
     "/service-areas/yankton-sd/water-leak-detection/",
     "/service-areas/yankton-sd/asbestos-abatement/",
-    "/service-areas/yankton-sd/contents-restoration-storage/",
     "/service-areas/yankton-sd/contents-restoration/",
     "/service-areas/yankton-sd/deck-construction/",
     "/service-areas/yankton-sd/excavations/",
@@ -802,7 +762,6 @@
     "/service-areas/worthington-mn/water-damage-restoration/",
     "/service-areas/worthington-mn/commercial-restoration/",
     "/service-areas/worthington-mn/emergency-plumbing/",
-    "/service-areas/worthington-mn/emergency-water-removal/",
     "/service-areas/worthington-mn/flood-damage-restoration/",
     "/service-areas/worthington-mn/reconstruction/",
     "/service-areas/worthington-mn/sewage-cleanup/",
@@ -822,7 +781,6 @@
     "/service-areas/worthington-mn/water-heater-flood-cleanup/",
     "/service-areas/worthington-mn/water-leak-detection/",
     "/service-areas/worthington-mn/asbestos-abatement/",
-    "/service-areas/worthington-mn/contents-restoration-storage/",
     "/service-areas/worthington-mn/contents-restoration/",
     "/service-areas/worthington-mn/deck-construction/",
     "/service-areas/worthington-mn/excavations/",
@@ -841,7 +799,6 @@
     "/service-areas/brandon-sd/water-damage-restoration/",
     "/service-areas/brandon-sd/commercial-restoration/",
     "/service-areas/brandon-sd/emergency-plumbing/",
-    "/service-areas/brandon-sd/emergency-water-removal/",
     "/service-areas/brandon-sd/flood-damage-restoration/",
     "/service-areas/brandon-sd/reconstruction/",
     "/service-areas/brandon-sd/sewage-cleanup/",
@@ -861,7 +818,6 @@
     "/service-areas/brandon-sd/water-heater-flood-cleanup/",
     "/service-areas/brandon-sd/water-leak-detection/",
     "/service-areas/brandon-sd/asbestos-abatement/",
-    "/service-areas/brandon-sd/contents-restoration-storage/",
     "/service-areas/brandon-sd/contents-restoration/",
     "/service-areas/brandon-sd/deck-construction/",
     "/service-areas/brandon-sd/excavations/",
@@ -880,7 +836,6 @@
     "/service-areas/le-mars-ia/water-damage-restoration/",
     "/service-areas/le-mars-ia/commercial-restoration/",
     "/service-areas/le-mars-ia/emergency-plumbing/",
-    "/service-areas/le-mars-ia/emergency-water-removal/",
     "/service-areas/le-mars-ia/flood-damage-restoration/",
     "/service-areas/le-mars-ia/reconstruction/",
     "/service-areas/le-mars-ia/sewage-cleanup/",
@@ -900,7 +855,6 @@
     "/service-areas/le-mars-ia/water-heater-flood-cleanup/",
     "/service-areas/le-mars-ia/water-leak-detection/",
     "/service-areas/le-mars-ia/asbestos-abatement/",
-    "/service-areas/le-mars-ia/contents-restoration-storage/",
     "/service-areas/le-mars-ia/contents-restoration/",
     "/service-areas/le-mars-ia/deck-construction/",
     "/service-areas/le-mars-ia/excavations/",
@@ -919,7 +873,6 @@
     "/service-areas/sioux-center-ia/water-damage-restoration/",
     "/service-areas/sioux-center-ia/commercial-restoration/",
     "/service-areas/sioux-center-ia/emergency-plumbing/",
-    "/service-areas/sioux-center-ia/emergency-water-removal/",
     "/service-areas/sioux-center-ia/flood-damage-restoration/",
     "/service-areas/sioux-center-ia/reconstruction/",
     "/service-areas/sioux-center-ia/sewage-cleanup/",
@@ -939,7 +892,6 @@
     "/service-areas/sioux-center-ia/water-heater-flood-cleanup/",
     "/service-areas/sioux-center-ia/water-leak-detection/",
     "/service-areas/sioux-center-ia/asbestos-abatement/",
-    "/service-areas/sioux-center-ia/contents-restoration-storage/",
     "/service-areas/sioux-center-ia/contents-restoration/",
     "/service-areas/sioux-center-ia/deck-construction/",
     "/service-areas/sioux-center-ia/excavations/",
@@ -958,7 +910,6 @@
     "/service-areas/harrisburg-sd/water-damage-restoration/",
     "/service-areas/harrisburg-sd/commercial-restoration/",
     "/service-areas/harrisburg-sd/emergency-plumbing/",
-    "/service-areas/harrisburg-sd/emergency-water-removal/",
     "/service-areas/harrisburg-sd/flood-damage-restoration/",
     "/service-areas/harrisburg-sd/reconstruction/",
     "/service-areas/harrisburg-sd/sewage-cleanup/",
@@ -978,7 +929,6 @@
     "/service-areas/harrisburg-sd/water-heater-flood-cleanup/",
     "/service-areas/harrisburg-sd/water-leak-detection/",
     "/service-areas/harrisburg-sd/asbestos-abatement/",
-    "/service-areas/harrisburg-sd/contents-restoration-storage/",
     "/service-areas/harrisburg-sd/contents-restoration/",
     "/service-areas/harrisburg-sd/deck-construction/",
     "/service-areas/harrisburg-sd/excavations/",
@@ -997,7 +947,6 @@
     "/service-areas/madison-sd/water-damage-restoration/",
     "/service-areas/madison-sd/commercial-restoration/",
     "/service-areas/madison-sd/emergency-plumbing/",
-    "/service-areas/madison-sd/emergency-water-removal/",
     "/service-areas/madison-sd/flood-damage-restoration/",
     "/service-areas/madison-sd/reconstruction/",
     "/service-areas/madison-sd/sewage-cleanup/",
@@ -1017,7 +966,6 @@
     "/service-areas/madison-sd/water-heater-flood-cleanup/",
     "/service-areas/madison-sd/water-leak-detection/",
     "/service-areas/madison-sd/asbestos-abatement/",
-    "/service-areas/madison-sd/contents-restoration-storage/",
     "/service-areas/madison-sd/contents-restoration/",
     "/service-areas/madison-sd/deck-construction/",
     "/service-areas/madison-sd/excavations/",
@@ -1036,7 +984,6 @@
     "/service-areas/tea-sd/water-damage-restoration/",
     "/service-areas/tea-sd/commercial-restoration/",
     "/service-areas/tea-sd/emergency-plumbing/",
-    "/service-areas/tea-sd/emergency-water-removal/",
     "/service-areas/tea-sd/flood-damage-restoration/",
     "/service-areas/tea-sd/reconstruction/",
     "/service-areas/tea-sd/sewage-cleanup/",
@@ -1056,7 +1003,6 @@
     "/service-areas/tea-sd/water-heater-flood-cleanup/",
     "/service-areas/tea-sd/water-leak-detection/",
     "/service-areas/tea-sd/asbestos-abatement/",
-    "/service-areas/tea-sd/contents-restoration-storage/",
     "/service-areas/tea-sd/contents-restoration/",
     "/service-areas/tea-sd/deck-construction/",
     "/service-areas/tea-sd/excavations/",
@@ -1075,7 +1021,6 @@
     "/service-areas/orange-city-ia/water-damage-restoration/",
     "/service-areas/orange-city-ia/commercial-restoration/",
     "/service-areas/orange-city-ia/emergency-plumbing/",
-    "/service-areas/orange-city-ia/emergency-water-removal/",
     "/service-areas/orange-city-ia/flood-damage-restoration/",
     "/service-areas/orange-city-ia/reconstruction/",
     "/service-areas/orange-city-ia/sewage-cleanup/",
@@ -1095,7 +1040,6 @@
     "/service-areas/orange-city-ia/water-heater-flood-cleanup/",
     "/service-areas/orange-city-ia/water-leak-detection/",
     "/service-areas/orange-city-ia/asbestos-abatement/",
-    "/service-areas/orange-city-ia/contents-restoration-storage/",
     "/service-areas/orange-city-ia/contents-restoration/",
     "/service-areas/orange-city-ia/deck-construction/",
     "/service-areas/orange-city-ia/excavations/",
@@ -1114,7 +1058,6 @@
     "/service-areas/luverne-mn/water-damage-restoration/",
     "/service-areas/luverne-mn/commercial-restoration/",
     "/service-areas/luverne-mn/emergency-plumbing/",
-    "/service-areas/luverne-mn/emergency-water-removal/",
     "/service-areas/luverne-mn/flood-damage-restoration/",
     "/service-areas/luverne-mn/reconstruction/",
     "/service-areas/luverne-mn/sewage-cleanup/",
@@ -1134,7 +1077,6 @@
     "/service-areas/luverne-mn/water-heater-flood-cleanup/",
     "/service-areas/luverne-mn/water-leak-detection/",
     "/service-areas/luverne-mn/asbestos-abatement/",
-    "/service-areas/luverne-mn/contents-restoration-storage/",
     "/service-areas/luverne-mn/contents-restoration/",
     "/service-areas/luverne-mn/deck-construction/",
     "/service-areas/luverne-mn/excavations/",
@@ -1153,7 +1095,6 @@
     "/service-areas/pipestone-mn/water-damage-restoration/",
     "/service-areas/pipestone-mn/commercial-restoration/",
     "/service-areas/pipestone-mn/emergency-plumbing/",
-    "/service-areas/pipestone-mn/emergency-water-removal/",
     "/service-areas/pipestone-mn/flood-damage-restoration/",
     "/service-areas/pipestone-mn/reconstruction/",
     "/service-areas/pipestone-mn/sewage-cleanup/",
@@ -1173,7 +1114,6 @@
     "/service-areas/pipestone-mn/water-heater-flood-cleanup/",
     "/service-areas/pipestone-mn/water-leak-detection/",
     "/service-areas/pipestone-mn/asbestos-abatement/",
-    "/service-areas/pipestone-mn/contents-restoration-storage/",
     "/service-areas/pipestone-mn/contents-restoration/",
     "/service-areas/pipestone-mn/deck-construction/",
     "/service-areas/pipestone-mn/excavations/",
@@ -1192,7 +1132,6 @@
     "/service-areas/rock-valley-ia/water-damage-restoration/",
     "/service-areas/rock-valley-ia/commercial-restoration/",
     "/service-areas/rock-valley-ia/emergency-plumbing/",
-    "/service-areas/rock-valley-ia/emergency-water-removal/",
     "/service-areas/rock-valley-ia/flood-damage-restoration/",
     "/service-areas/rock-valley-ia/reconstruction/",
     "/service-areas/rock-valley-ia/sewage-cleanup/",
@@ -1212,7 +1151,6 @@
     "/service-areas/rock-valley-ia/water-heater-flood-cleanup/",
     "/service-areas/rock-valley-ia/water-leak-detection/",
     "/service-areas/rock-valley-ia/asbestos-abatement/",
-    "/service-areas/rock-valley-ia/contents-restoration-storage/",
     "/service-areas/rock-valley-ia/contents-restoration/",
     "/service-areas/rock-valley-ia/deck-construction/",
     "/service-areas/rock-valley-ia/excavations/",
@@ -1231,7 +1169,6 @@
     "/service-areas/dell-rapids-sd/water-damage-restoration/",
     "/service-areas/dell-rapids-sd/commercial-restoration/",
     "/service-areas/dell-rapids-sd/emergency-plumbing/",
-    "/service-areas/dell-rapids-sd/emergency-water-removal/",
     "/service-areas/dell-rapids-sd/flood-damage-restoration/",
     "/service-areas/dell-rapids-sd/reconstruction/",
     "/service-areas/dell-rapids-sd/sewage-cleanup/",
@@ -1251,7 +1188,6 @@
     "/service-areas/dell-rapids-sd/water-heater-flood-cleanup/",
     "/service-areas/dell-rapids-sd/water-leak-detection/",
     "/service-areas/dell-rapids-sd/asbestos-abatement/",
-    "/service-areas/dell-rapids-sd/contents-restoration-storage/",
     "/service-areas/dell-rapids-sd/contents-restoration/",
     "/service-areas/dell-rapids-sd/deck-construction/",
     "/service-areas/dell-rapids-sd/excavations/",
@@ -1270,7 +1206,6 @@
     "/service-areas/hartford-sd/water-damage-restoration/",
     "/service-areas/hartford-sd/commercial-restoration/",
     "/service-areas/hartford-sd/emergency-plumbing/",
-    "/service-areas/hartford-sd/emergency-water-removal/",
     "/service-areas/hartford-sd/flood-damage-restoration/",
     "/service-areas/hartford-sd/reconstruction/",
     "/service-areas/hartford-sd/sewage-cleanup/",
@@ -1290,7 +1225,6 @@
     "/service-areas/hartford-sd/water-heater-flood-cleanup/",
     "/service-areas/hartford-sd/water-leak-detection/",
     "/service-areas/hartford-sd/asbestos-abatement/",
-    "/service-areas/hartford-sd/contents-restoration-storage/",
     "/service-areas/hartford-sd/contents-restoration/",
     "/service-areas/hartford-sd/deck-construction/",
     "/service-areas/hartford-sd/excavations/",
@@ -1309,7 +1243,6 @@
     "/service-areas/canton-sd/water-damage-restoration/",
     "/service-areas/canton-sd/commercial-restoration/",
     "/service-areas/canton-sd/emergency-plumbing/",
-    "/service-areas/canton-sd/emergency-water-removal/",
     "/service-areas/canton-sd/flood-damage-restoration/",
     "/service-areas/canton-sd/reconstruction/",
     "/service-areas/canton-sd/sewage-cleanup/",
@@ -1329,7 +1262,6 @@
     "/service-areas/canton-sd/water-heater-flood-cleanup/",
     "/service-areas/canton-sd/water-leak-detection/",
     "/service-areas/canton-sd/asbestos-abatement/",
-    "/service-areas/canton-sd/contents-restoration-storage/",
     "/service-areas/canton-sd/contents-restoration/",
     "/service-areas/canton-sd/deck-construction/",
     "/service-areas/canton-sd/excavations/",
@@ -1348,7 +1280,6 @@
     "/service-areas/north-sioux-city-sd/water-damage-restoration/",
     "/service-areas/north-sioux-city-sd/commercial-restoration/",
     "/service-areas/north-sioux-city-sd/emergency-plumbing/",
-    "/service-areas/north-sioux-city-sd/emergency-water-removal/",
     "/service-areas/north-sioux-city-sd/flood-damage-restoration/",
     "/service-areas/north-sioux-city-sd/reconstruction/",
     "/service-areas/north-sioux-city-sd/sewage-cleanup/",
@@ -1368,7 +1299,6 @@
     "/service-areas/north-sioux-city-sd/water-heater-flood-cleanup/",
     "/service-areas/north-sioux-city-sd/water-leak-detection/",
     "/service-areas/north-sioux-city-sd/asbestos-abatement/",
-    "/service-areas/north-sioux-city-sd/contents-restoration-storage/",
     "/service-areas/north-sioux-city-sd/contents-restoration/",
     "/service-areas/north-sioux-city-sd/deck-construction/",
     "/service-areas/north-sioux-city-sd/excavations/",
@@ -1387,7 +1317,6 @@
     "/service-areas/sibley-ia/water-damage-restoration/",
     "/service-areas/sibley-ia/commercial-restoration/",
     "/service-areas/sibley-ia/emergency-plumbing/",
-    "/service-areas/sibley-ia/emergency-water-removal/",
     "/service-areas/sibley-ia/flood-damage-restoration/",
     "/service-areas/sibley-ia/reconstruction/",
     "/service-areas/sibley-ia/sewage-cleanup/",
@@ -1407,7 +1336,6 @@
     "/service-areas/sibley-ia/water-heater-flood-cleanup/",
     "/service-areas/sibley-ia/water-leak-detection/",
     "/service-areas/sibley-ia/asbestos-abatement/",
-    "/service-areas/sibley-ia/contents-restoration-storage/",
     "/service-areas/sibley-ia/contents-restoration/",
     "/service-areas/sibley-ia/deck-construction/",
     "/service-areas/sibley-ia/excavations/",
@@ -1426,7 +1354,6 @@
     "/service-areas/rock-rapids-ia/water-damage-restoration/",
     "/service-areas/rock-rapids-ia/commercial-restoration/",
     "/service-areas/rock-rapids-ia/emergency-plumbing/",
-    "/service-areas/rock-rapids-ia/emergency-water-removal/",
     "/service-areas/rock-rapids-ia/flood-damage-restoration/",
     "/service-areas/rock-rapids-ia/reconstruction/",
     "/service-areas/rock-rapids-ia/sewage-cleanup/",
@@ -1446,7 +1373,6 @@
     "/service-areas/rock-rapids-ia/water-heater-flood-cleanup/",
     "/service-areas/rock-rapids-ia/water-leak-detection/",
     "/service-areas/rock-rapids-ia/asbestos-abatement/",
-    "/service-areas/rock-rapids-ia/contents-restoration-storage/",
     "/service-areas/rock-rapids-ia/contents-restoration/",
     "/service-areas/rock-rapids-ia/deck-construction/",
     "/service-areas/rock-rapids-ia/excavations/",
@@ -1465,7 +1391,6 @@
     "/service-areas/lennox-sd/water-damage-restoration/",
     "/service-areas/lennox-sd/commercial-restoration/",
     "/service-areas/lennox-sd/emergency-plumbing/",
-    "/service-areas/lennox-sd/emergency-water-removal/",
     "/service-areas/lennox-sd/flood-damage-restoration/",
     "/service-areas/lennox-sd/reconstruction/",
     "/service-areas/lennox-sd/sewage-cleanup/",
@@ -1485,7 +1410,6 @@
     "/service-areas/lennox-sd/water-heater-flood-cleanup/",
     "/service-areas/lennox-sd/water-leak-detection/",
     "/service-areas/lennox-sd/asbestos-abatement/",
-    "/service-areas/lennox-sd/contents-restoration-storage/",
     "/service-areas/lennox-sd/contents-restoration/",
     "/service-areas/lennox-sd/deck-construction/",
     "/service-areas/lennox-sd/excavations/",
@@ -1504,7 +1428,6 @@
     "/service-areas/flandreau-sd/water-damage-restoration/",
     "/service-areas/flandreau-sd/commercial-restoration/",
     "/service-areas/flandreau-sd/emergency-plumbing/",
-    "/service-areas/flandreau-sd/emergency-water-removal/",
     "/service-areas/flandreau-sd/flood-damage-restoration/",
     "/service-areas/flandreau-sd/reconstruction/",
     "/service-areas/flandreau-sd/sewage-cleanup/",
@@ -1524,7 +1447,6 @@
     "/service-areas/flandreau-sd/water-heater-flood-cleanup/",
     "/service-areas/flandreau-sd/water-leak-detection/",
     "/service-areas/flandreau-sd/asbestos-abatement/",
-    "/service-areas/flandreau-sd/contents-restoration-storage/",
     "/service-areas/flandreau-sd/contents-restoration/",
     "/service-areas/flandreau-sd/deck-construction/",
     "/service-areas/flandreau-sd/excavations/",
@@ -1543,7 +1465,6 @@
     "/service-areas/parker-sd/water-damage-restoration/",
     "/service-areas/parker-sd/commercial-restoration/",
     "/service-areas/parker-sd/emergency-plumbing/",
-    "/service-areas/parker-sd/emergency-water-removal/",
     "/service-areas/parker-sd/flood-damage-restoration/",
     "/service-areas/parker-sd/reconstruction/",
     "/service-areas/parker-sd/sewage-cleanup/",
@@ -1563,7 +1484,6 @@
     "/service-areas/parker-sd/water-heater-flood-cleanup/",
     "/service-areas/parker-sd/water-leak-detection/",
     "/service-areas/parker-sd/asbestos-abatement/",
-    "/service-areas/parker-sd/contents-restoration-storage/",
     "/service-areas/parker-sd/contents-restoration/",
     "/service-areas/parker-sd/deck-construction/",
     "/service-areas/parker-sd/excavations/",
@@ -1582,7 +1502,6 @@
     "/service-areas/salem-sd/water-damage-restoration/",
     "/service-areas/salem-sd/commercial-restoration/",
     "/service-areas/salem-sd/emergency-plumbing/",
-    "/service-areas/salem-sd/emergency-water-removal/",
     "/service-areas/salem-sd/flood-damage-restoration/",
     "/service-areas/salem-sd/reconstruction/",
     "/service-areas/salem-sd/sewage-cleanup/",
@@ -1602,7 +1521,6 @@
     "/service-areas/salem-sd/water-heater-flood-cleanup/",
     "/service-areas/salem-sd/water-leak-detection/",
     "/service-areas/salem-sd/asbestos-abatement/",
-    "/service-areas/salem-sd/contents-restoration-storage/",
     "/service-areas/salem-sd/contents-restoration/",
     "/service-areas/salem-sd/deck-construction/",
     "/service-areas/salem-sd/excavations/",
@@ -1621,7 +1539,6 @@
     "/service-areas/slayton-mn/water-damage-restoration/",
     "/service-areas/slayton-mn/commercial-restoration/",
     "/service-areas/slayton-mn/emergency-plumbing/",
-    "/service-areas/slayton-mn/emergency-water-removal/",
     "/service-areas/slayton-mn/flood-damage-restoration/",
     "/service-areas/slayton-mn/reconstruction/",
     "/service-areas/slayton-mn/sewage-cleanup/",
@@ -1641,7 +1558,6 @@
     "/service-areas/slayton-mn/water-heater-flood-cleanup/",
     "/service-areas/slayton-mn/water-leak-detection/",
     "/service-areas/slayton-mn/asbestos-abatement/",
-    "/service-areas/slayton-mn/contents-restoration-storage/",
     "/service-areas/slayton-mn/contents-restoration/",
     "/service-areas/slayton-mn/deck-construction/",
     "/service-areas/slayton-mn/excavations/",
@@ -1660,7 +1576,6 @@
     "/service-areas/crooks-sd/water-damage-restoration/",
     "/service-areas/crooks-sd/commercial-restoration/",
     "/service-areas/crooks-sd/emergency-plumbing/",
-    "/service-areas/crooks-sd/emergency-water-removal/",
     "/service-areas/crooks-sd/flood-damage-restoration/",
     "/service-areas/crooks-sd/reconstruction/",
     "/service-areas/crooks-sd/sewage-cleanup/",
@@ -1680,7 +1595,6 @@
     "/service-areas/crooks-sd/water-heater-flood-cleanup/",
     "/service-areas/crooks-sd/water-leak-detection/",
     "/service-areas/crooks-sd/asbestos-abatement/",
-    "/service-areas/crooks-sd/contents-restoration-storage/",
     "/service-areas/crooks-sd/contents-restoration/",
     "/service-areas/crooks-sd/deck-construction/",
     "/service-areas/crooks-sd/excavations/",
@@ -1699,7 +1613,6 @@
     "/service-areas/baltic-sd/water-damage-restoration/",
     "/service-areas/baltic-sd/commercial-restoration/",
     "/service-areas/baltic-sd/emergency-plumbing/",
-    "/service-areas/baltic-sd/emergency-water-removal/",
     "/service-areas/baltic-sd/flood-damage-restoration/",
     "/service-areas/baltic-sd/reconstruction/",
     "/service-areas/baltic-sd/sewage-cleanup/",
@@ -1719,7 +1632,6 @@
     "/service-areas/baltic-sd/water-heater-flood-cleanup/",
     "/service-areas/baltic-sd/water-leak-detection/",
     "/service-areas/baltic-sd/asbestos-abatement/",
-    "/service-areas/baltic-sd/contents-restoration-storage/",
     "/service-areas/baltic-sd/contents-restoration/",
     "/service-areas/baltic-sd/deck-construction/",
     "/service-areas/baltic-sd/excavations/",
@@ -1738,7 +1650,6 @@
     "/service-areas/garretson-sd/water-damage-restoration/",
     "/service-areas/garretson-sd/commercial-restoration/",
     "/service-areas/garretson-sd/emergency-plumbing/",
-    "/service-areas/garretson-sd/emergency-water-removal/",
     "/service-areas/garretson-sd/flood-damage-restoration/",
     "/service-areas/garretson-sd/reconstruction/",
     "/service-areas/garretson-sd/sewage-cleanup/",
@@ -1758,7 +1669,6 @@
     "/service-areas/garretson-sd/water-heater-flood-cleanup/",
     "/service-areas/garretson-sd/water-leak-detection/",
     "/service-areas/garretson-sd/asbestos-abatement/",
-    "/service-areas/garretson-sd/contents-restoration-storage/",
     "/service-areas/garretson-sd/contents-restoration/",
     "/service-areas/garretson-sd/deck-construction/",
     "/service-areas/garretson-sd/excavations/",
@@ -1777,7 +1687,6 @@
     "/service-areas/worthing-sd/water-damage-restoration/",
     "/service-areas/worthing-sd/commercial-restoration/",
     "/service-areas/worthing-sd/emergency-plumbing/",
-    "/service-areas/worthing-sd/emergency-water-removal/",
     "/service-areas/worthing-sd/flood-damage-restoration/",
     "/service-areas/worthing-sd/reconstruction/",
     "/service-areas/worthing-sd/sewage-cleanup/",
@@ -1797,7 +1706,6 @@
     "/service-areas/worthing-sd/water-heater-flood-cleanup/",
     "/service-areas/worthing-sd/water-leak-detection/",
     "/service-areas/worthing-sd/asbestos-abatement/",
-    "/service-areas/worthing-sd/contents-restoration-storage/",
     "/service-areas/worthing-sd/contents-restoration/",
     "/service-areas/worthing-sd/deck-construction/",
     "/service-areas/worthing-sd/excavations/",
@@ -1816,7 +1724,6 @@
     "/service-areas/volga-sd/water-damage-restoration/",
     "/service-areas/volga-sd/commercial-restoration/",
     "/service-areas/volga-sd/emergency-plumbing/",
-    "/service-areas/volga-sd/emergency-water-removal/",
     "/service-areas/volga-sd/flood-damage-restoration/",
     "/service-areas/volga-sd/reconstruction/",
     "/service-areas/volga-sd/sewage-cleanup/",
@@ -1836,7 +1743,6 @@
     "/service-areas/volga-sd/water-heater-flood-cleanup/",
     "/service-areas/volga-sd/water-leak-detection/",
     "/service-areas/volga-sd/asbestos-abatement/",
-    "/service-areas/volga-sd/contents-restoration-storage/",
     "/service-areas/volga-sd/contents-restoration/",
     "/service-areas/volga-sd/deck-construction/",
     "/service-areas/volga-sd/excavations/",
@@ -1855,7 +1761,6 @@
     "/service-areas/beresford-sd/water-damage-restoration/",
     "/service-areas/beresford-sd/commercial-restoration/",
     "/service-areas/beresford-sd/emergency-plumbing/",
-    "/service-areas/beresford-sd/emergency-water-removal/",
     "/service-areas/beresford-sd/flood-damage-restoration/",
     "/service-areas/beresford-sd/reconstruction/",
     "/service-areas/beresford-sd/sewage-cleanup/",
@@ -1875,7 +1780,6 @@
     "/service-areas/beresford-sd/water-heater-flood-cleanup/",
     "/service-areas/beresford-sd/water-leak-detection/",
     "/service-areas/beresford-sd/asbestos-abatement/",
-    "/service-areas/beresford-sd/contents-restoration-storage/",
     "/service-areas/beresford-sd/contents-restoration/",
     "/service-areas/beresford-sd/deck-construction/",
     "/service-areas/beresford-sd/excavations/",
@@ -1894,7 +1798,6 @@
     "/service-areas/dakota-dunes-sd/water-damage-restoration/",
     "/service-areas/dakota-dunes-sd/commercial-restoration/",
     "/service-areas/dakota-dunes-sd/emergency-plumbing/",
-    "/service-areas/dakota-dunes-sd/emergency-water-removal/",
     "/service-areas/dakota-dunes-sd/flood-damage-restoration/",
     "/service-areas/dakota-dunes-sd/reconstruction/",
     "/service-areas/dakota-dunes-sd/sewage-cleanup/",
@@ -1914,7 +1817,6 @@
     "/service-areas/dakota-dunes-sd/water-heater-flood-cleanup/",
     "/service-areas/dakota-dunes-sd/water-leak-detection/",
     "/service-areas/dakota-dunes-sd/asbestos-abatement/",
-    "/service-areas/dakota-dunes-sd/contents-restoration-storage/",
     "/service-areas/dakota-dunes-sd/contents-restoration/",
     "/service-areas/dakota-dunes-sd/deck-construction/",
     "/service-areas/dakota-dunes-sd/excavations/",
@@ -1933,7 +1835,6 @@
     "/service-areas/elk-point-sd/water-damage-restoration/",
     "/service-areas/elk-point-sd/commercial-restoration/",
     "/service-areas/elk-point-sd/emergency-plumbing/",
-    "/service-areas/elk-point-sd/emergency-water-removal/",
     "/service-areas/elk-point-sd/flood-damage-restoration/",
     "/service-areas/elk-point-sd/reconstruction/",
     "/service-areas/elk-point-sd/sewage-cleanup/",
@@ -1953,7 +1854,6 @@
     "/service-areas/elk-point-sd/water-heater-flood-cleanup/",
     "/service-areas/elk-point-sd/water-leak-detection/",
     "/service-areas/elk-point-sd/asbestos-abatement/",
-    "/service-areas/elk-point-sd/contents-restoration-storage/",
     "/service-areas/elk-point-sd/contents-restoration/",
     "/service-areas/elk-point-sd/deck-construction/",
     "/service-areas/elk-point-sd/excavations/",
@@ -1972,7 +1872,6 @@
     "/service-areas/adrian-mn/water-damage-restoration/",
     "/service-areas/adrian-mn/commercial-restoration/",
     "/service-areas/adrian-mn/emergency-plumbing/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
     "/service-areas/adrian-mn/flood-damage-restoration/",
     "/service-areas/adrian-mn/reconstruction/",
     "/service-areas/adrian-mn/sewage-cleanup/",
@@ -1992,7 +1891,6 @@
     "/service-areas/adrian-mn/water-heater-flood-cleanup/",
     "/service-areas/adrian-mn/water-leak-detection/",
     "/service-areas/adrian-mn/asbestos-abatement/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/adrian-mn/deck-construction/",
     "/service-areas/adrian-mn/excavations/",
@@ -2011,7 +1909,6 @@
     "/service-areas/edgerton-mn/water-damage-restoration/",
     "/service-areas/edgerton-mn/commercial-restoration/",
     "/service-areas/edgerton-mn/emergency-plumbing/",
-    "/service-areas/edgerton-mn/emergency-water-removal/",
     "/service-areas/edgerton-mn/flood-damage-restoration/",
     "/service-areas/edgerton-mn/reconstruction/",
     "/service-areas/edgerton-mn/sewage-cleanup/",
@@ -2031,7 +1928,6 @@
     "/service-areas/edgerton-mn/water-heater-flood-cleanup/",
     "/service-areas/edgerton-mn/water-leak-detection/",
     "/service-areas/edgerton-mn/asbestos-abatement/",
-    "/service-areas/edgerton-mn/contents-restoration-storage/",
     "/service-areas/edgerton-mn/contents-restoration/",
     "/service-areas/edgerton-mn/deck-construction/",
     "/service-areas/edgerton-mn/excavations/",
@@ -2050,7 +1946,6 @@
     "/service-areas/fulda-mn/water-damage-restoration/",
     "/service-areas/fulda-mn/commercial-restoration/",
     "/service-areas/fulda-mn/emergency-plumbing/",
-    "/service-areas/fulda-mn/emergency-water-removal/",
     "/service-areas/fulda-mn/flood-damage-restoration/",
     "/service-areas/fulda-mn/reconstruction/",
     "/service-areas/fulda-mn/sewage-cleanup/",
@@ -2070,7 +1965,6 @@
     "/service-areas/fulda-mn/water-heater-flood-cleanup/",
     "/service-areas/fulda-mn/water-leak-detection/",
     "/service-areas/fulda-mn/asbestos-abatement/",
-    "/service-areas/fulda-mn/contents-restoration-storage/",
     "/service-areas/fulda-mn/contents-restoration/",
     "/service-areas/fulda-mn/deck-construction/",
     "/service-areas/fulda-mn/excavations/",
@@ -2089,7 +1983,6 @@
     "/service-areas/george-ia/water-damage-restoration/",
     "/service-areas/george-ia/commercial-restoration/",
     "/service-areas/george-ia/emergency-plumbing/",
-    "/service-areas/george-ia/emergency-water-removal/",
     "/service-areas/george-ia/flood-damage-restoration/",
     "/service-areas/george-ia/reconstruction/",
     "/service-areas/george-ia/sewage-cleanup/",
@@ -2109,7 +2002,6 @@
     "/service-areas/george-ia/water-heater-flood-cleanup/",
     "/service-areas/george-ia/water-leak-detection/",
     "/service-areas/george-ia/asbestos-abatement/",
-    "/service-areas/george-ia/contents-restoration-storage/",
     "/service-areas/george-ia/contents-restoration/",
     "/service-areas/george-ia/deck-construction/",
     "/service-areas/george-ia/excavations/",
@@ -2128,7 +2020,6 @@
     "/service-areas/hawarden-ia/water-damage-restoration/",
     "/service-areas/hawarden-ia/commercial-restoration/",
     "/service-areas/hawarden-ia/emergency-plumbing/",
-    "/service-areas/hawarden-ia/emergency-water-removal/",
     "/service-areas/hawarden-ia/flood-damage-restoration/",
     "/service-areas/hawarden-ia/reconstruction/",
     "/service-areas/hawarden-ia/sewage-cleanup/",
@@ -2148,7 +2039,6 @@
     "/service-areas/hawarden-ia/water-heater-flood-cleanup/",
     "/service-areas/hawarden-ia/water-leak-detection/",
     "/service-areas/hawarden-ia/asbestos-abatement/",
-    "/service-areas/hawarden-ia/contents-restoration-storage/",
     "/service-areas/hawarden-ia/contents-restoration/",
     "/service-areas/hawarden-ia/deck-construction/",
     "/service-areas/hawarden-ia/excavations/",
@@ -2167,7 +2057,6 @@
     "/service-areas/hull-ia/water-damage-restoration/",
     "/service-areas/hull-ia/commercial-restoration/",
     "/service-areas/hull-ia/emergency-plumbing/",
-    "/service-areas/hull-ia/emergency-water-removal/",
     "/service-areas/hull-ia/flood-damage-restoration/",
     "/service-areas/hull-ia/reconstruction/",
     "/service-areas/hull-ia/sewage-cleanup/",
@@ -2187,7 +2076,6 @@
     "/service-areas/hull-ia/water-heater-flood-cleanup/",
     "/service-areas/hull-ia/water-leak-detection/",
     "/service-areas/hull-ia/asbestos-abatement/",
-    "/service-areas/hull-ia/contents-restoration-storage/",
     "/service-areas/hull-ia/contents-restoration/",
     "/service-areas/hull-ia/deck-construction/",
     "/service-areas/hull-ia/excavations/",
@@ -2206,7 +2094,6 @@
     "/service-areas/alton-ia/water-damage-restoration/",
     "/service-areas/alton-ia/commercial-restoration/",
     "/service-areas/alton-ia/emergency-plumbing/",
-    "/service-areas/alton-ia/emergency-water-removal/",
     "/service-areas/alton-ia/flood-damage-restoration/",
     "/service-areas/alton-ia/reconstruction/",
     "/service-areas/alton-ia/sewage-cleanup/",
@@ -2226,7 +2113,6 @@
     "/service-areas/alton-ia/water-heater-flood-cleanup/",
     "/service-areas/alton-ia/water-leak-detection/",
     "/service-areas/alton-ia/asbestos-abatement/",
-    "/service-areas/alton-ia/contents-restoration-storage/",
     "/service-areas/alton-ia/contents-restoration/",
     "/service-areas/alton-ia/deck-construction/",
     "/service-areas/alton-ia/excavations/",
@@ -2245,7 +2131,6 @@
     "/service-areas/akron-ia/water-damage-restoration/",
     "/service-areas/akron-ia/commercial-restoration/",
     "/service-areas/akron-ia/emergency-plumbing/",
-    "/service-areas/akron-ia/emergency-water-removal/",
     "/service-areas/akron-ia/flood-damage-restoration/",
     "/service-areas/akron-ia/reconstruction/",
     "/service-areas/akron-ia/sewage-cleanup/",
@@ -2265,7 +2150,6 @@
     "/service-areas/akron-ia/water-heater-flood-cleanup/",
     "/service-areas/akron-ia/water-leak-detection/",
     "/service-areas/akron-ia/asbestos-abatement/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/service-areas/akron-ia/contents-restoration/",
     "/service-areas/akron-ia/deck-construction/",
     "/service-areas/akron-ia/excavations/",
@@ -2284,7 +2168,6 @@
     "/service-areas/remsen-ia/water-damage-restoration/",
     "/service-areas/remsen-ia/commercial-restoration/",
     "/service-areas/remsen-ia/emergency-plumbing/",
-    "/service-areas/remsen-ia/emergency-water-removal/",
     "/service-areas/remsen-ia/flood-damage-restoration/",
     "/service-areas/remsen-ia/reconstruction/",
     "/service-areas/remsen-ia/sewage-cleanup/",
@@ -2304,7 +2187,6 @@
     "/service-areas/remsen-ia/water-heater-flood-cleanup/",
     "/service-areas/remsen-ia/water-leak-detection/",
     "/service-areas/remsen-ia/asbestos-abatement/",
-    "/service-areas/remsen-ia/contents-restoration-storage/",
     "/service-areas/remsen-ia/contents-restoration/",
     "/service-areas/remsen-ia/deck-construction/",
     "/service-areas/remsen-ia/excavations/",
@@ -2323,7 +2205,6 @@
     "/service-areas/hinton-ia/water-damage-restoration/",
     "/service-areas/hinton-ia/commercial-restoration/",
     "/service-areas/hinton-ia/emergency-plumbing/",
-    "/service-areas/hinton-ia/emergency-water-removal/",
     "/service-areas/hinton-ia/flood-damage-restoration/",
     "/service-areas/hinton-ia/reconstruction/",
     "/service-areas/hinton-ia/sewage-cleanup/",
@@ -2343,7 +2224,6 @@
     "/service-areas/hinton-ia/water-heater-flood-cleanup/",
     "/service-areas/hinton-ia/water-leak-detection/",
     "/service-areas/hinton-ia/asbestos-abatement/",
-    "/service-areas/hinton-ia/contents-restoration-storage/",
     "/service-areas/hinton-ia/contents-restoration/",
     "/service-areas/hinton-ia/deck-construction/",
     "/service-areas/hinton-ia/excavations/",
@@ -2362,7 +2242,6 @@
     "/service-areas/merrill-ia/water-damage-restoration/",
     "/service-areas/merrill-ia/commercial-restoration/",
     "/service-areas/merrill-ia/emergency-plumbing/",
-    "/service-areas/merrill-ia/emergency-water-removal/",
     "/service-areas/merrill-ia/flood-damage-restoration/",
     "/service-areas/merrill-ia/reconstruction/",
     "/service-areas/merrill-ia/sewage-cleanup/",
@@ -2382,7 +2261,6 @@
     "/service-areas/merrill-ia/water-heater-flood-cleanup/",
     "/service-areas/merrill-ia/water-leak-detection/",
     "/service-areas/merrill-ia/asbestos-abatement/",
-    "/service-areas/merrill-ia/contents-restoration-storage/",
     "/service-areas/merrill-ia/contents-restoration/",
     "/service-areas/merrill-ia/deck-construction/",
     "/service-areas/merrill-ia/excavations/",
@@ -2401,7 +2279,6 @@
     "/service-areas/kingsley-ia/water-damage-restoration/",
     "/service-areas/kingsley-ia/commercial-restoration/",
     "/service-areas/kingsley-ia/emergency-plumbing/",
-    "/service-areas/kingsley-ia/emergency-water-removal/",
     "/service-areas/kingsley-ia/flood-damage-restoration/",
     "/service-areas/kingsley-ia/reconstruction/",
     "/service-areas/kingsley-ia/sewage-cleanup/",
@@ -2421,7 +2298,6 @@
     "/service-areas/kingsley-ia/water-heater-flood-cleanup/",
     "/service-areas/kingsley-ia/water-leak-detection/",
     "/service-areas/kingsley-ia/asbestos-abatement/",
-    "/service-areas/kingsley-ia/contents-restoration-storage/",
     "/service-areas/kingsley-ia/contents-restoration/",
     "/service-areas/kingsley-ia/deck-construction/",
     "/service-areas/kingsley-ia/excavations/",
@@ -2456,15 +2332,6 @@
     "/service-areas/brookings-sd/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/brookings-sd/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/brookings-sd/",
-    "/service-areas/brookings-sd/fire-damage-restoration/",
-    "/service-areas/brookings-sd/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/brookings-sd/emergency-board-up-tarping/": [
@@ -2611,15 +2478,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/brookings-sd/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/brookings-sd/",
-    "/service-areas/brookings-sd/fire-damage-restoration/",
-    "/service-areas/brookings-sd/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/brookings-sd/excavations/": [
     "/services/excavations/",
     "/service-areas/brookings-sd/",
@@ -2744,15 +2602,6 @@
     "/service-areas/yankton-sd/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/yankton-sd/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/yankton-sd/",
-    "/service-areas/yankton-sd/fire-damage-restoration/",
-    "/service-areas/yankton-sd/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/yankton-sd/emergency-board-up-tarping/": [
@@ -2899,15 +2748,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/yankton-sd/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/yankton-sd/",
-    "/service-areas/yankton-sd/fire-damage-restoration/",
-    "/service-areas/yankton-sd/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/yankton-sd/excavations/": [
     "/services/excavations/",
     "/service-areas/yankton-sd/",
@@ -3032,15 +2872,6 @@
     "/service-areas/worthington-mn/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/worthington-mn/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/worthington-mn/",
-    "/service-areas/worthington-mn/fire-damage-restoration/",
-    "/service-areas/worthington-mn/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/worthington-mn/emergency-board-up-tarping/": [
@@ -3187,15 +3018,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/worthington-mn/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/worthington-mn/",
-    "/service-areas/worthington-mn/fire-damage-restoration/",
-    "/service-areas/worthington-mn/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/worthington-mn/excavations/": [
     "/services/excavations/",
     "/service-areas/worthington-mn/",
@@ -3320,15 +3142,6 @@
     "/service-areas/brandon-sd/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/brandon-sd/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/brandon-sd/",
-    "/service-areas/brandon-sd/fire-damage-restoration/",
-    "/service-areas/brandon-sd/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/brandon-sd/emergency-board-up-tarping/": [
@@ -3475,15 +3288,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/brandon-sd/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/brandon-sd/",
-    "/service-areas/brandon-sd/fire-damage-restoration/",
-    "/service-areas/brandon-sd/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/brandon-sd/excavations/": [
     "/services/excavations/",
     "/service-areas/brandon-sd/",
@@ -3608,15 +3412,6 @@
     "/service-areas/le-mars-ia/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/le-mars-ia/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/le-mars-ia/",
-    "/service-areas/le-mars-ia/fire-damage-restoration/",
-    "/service-areas/le-mars-ia/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/le-mars-ia/emergency-board-up-tarping/": [
@@ -3763,15 +3558,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/le-mars-ia/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/le-mars-ia/",
-    "/service-areas/le-mars-ia/fire-damage-restoration/",
-    "/service-areas/le-mars-ia/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/le-mars-ia/excavations/": [
     "/services/excavations/",
     "/service-areas/le-mars-ia/",
@@ -3896,15 +3682,6 @@
     "/service-areas/sioux-center-ia/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/sioux-center-ia/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/sioux-center-ia/",
-    "/service-areas/sioux-center-ia/fire-damage-restoration/",
-    "/service-areas/sioux-center-ia/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/sioux-center-ia/emergency-board-up-tarping/": [
@@ -4051,15 +3828,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/sioux-center-ia/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/sioux-center-ia/",
-    "/service-areas/sioux-center-ia/fire-damage-restoration/",
-    "/service-areas/sioux-center-ia/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/sioux-center-ia/excavations/": [
     "/services/excavations/",
     "/service-areas/sioux-center-ia/",
@@ -4184,15 +3952,6 @@
     "/service-areas/harrisburg-sd/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/harrisburg-sd/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/harrisburg-sd/",
-    "/service-areas/harrisburg-sd/fire-damage-restoration/",
-    "/service-areas/harrisburg-sd/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/harrisburg-sd/emergency-board-up-tarping/": [
@@ -4339,15 +4098,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/harrisburg-sd/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/harrisburg-sd/",
-    "/service-areas/harrisburg-sd/fire-damage-restoration/",
-    "/service-areas/harrisburg-sd/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/harrisburg-sd/excavations/": [
     "/services/excavations/",
     "/service-areas/harrisburg-sd/",
@@ -4472,15 +4222,6 @@
     "/service-areas/madison-sd/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/madison-sd/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/madison-sd/",
-    "/service-areas/madison-sd/fire-damage-restoration/",
-    "/service-areas/madison-sd/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/madison-sd/emergency-board-up-tarping/": [
@@ -4627,15 +4368,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/madison-sd/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/madison-sd/",
-    "/service-areas/madison-sd/fire-damage-restoration/",
-    "/service-areas/madison-sd/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/madison-sd/excavations/": [
     "/services/excavations/",
     "/service-areas/madison-sd/",
@@ -4760,15 +4492,6 @@
     "/service-areas/tea-sd/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/tea-sd/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/tea-sd/",
-    "/service-areas/tea-sd/fire-damage-restoration/",
-    "/service-areas/tea-sd/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/tea-sd/emergency-board-up-tarping/": [
@@ -4915,15 +4638,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/tea-sd/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/tea-sd/",
-    "/service-areas/tea-sd/fire-damage-restoration/",
-    "/service-areas/tea-sd/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/tea-sd/excavations/": [
     "/services/excavations/",
     "/service-areas/tea-sd/",
@@ -5048,15 +4762,6 @@
     "/service-areas/orange-city-ia/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/orange-city-ia/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/orange-city-ia/",
-    "/service-areas/orange-city-ia/fire-damage-restoration/",
-    "/service-areas/orange-city-ia/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/orange-city-ia/emergency-board-up-tarping/": [
@@ -5203,15 +4908,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/orange-city-ia/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/orange-city-ia/",
-    "/service-areas/orange-city-ia/fire-damage-restoration/",
-    "/service-areas/orange-city-ia/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/orange-city-ia/excavations/": [
     "/services/excavations/",
     "/service-areas/orange-city-ia/",
@@ -5336,15 +5032,6 @@
     "/service-areas/luverne-mn/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/luverne-mn/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/luverne-mn/",
-    "/service-areas/luverne-mn/fire-damage-restoration/",
-    "/service-areas/luverne-mn/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/luverne-mn/emergency-board-up-tarping/": [
@@ -5491,15 +5178,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/luverne-mn/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/luverne-mn/",
-    "/service-areas/luverne-mn/fire-damage-restoration/",
-    "/service-areas/luverne-mn/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/luverne-mn/excavations/": [
     "/services/excavations/",
     "/service-areas/luverne-mn/",
@@ -5624,15 +5302,6 @@
     "/service-areas/pipestone-mn/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/pipestone-mn/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/pipestone-mn/",
-    "/service-areas/pipestone-mn/fire-damage-restoration/",
-    "/service-areas/pipestone-mn/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/pipestone-mn/emergency-board-up-tarping/": [
@@ -5779,15 +5448,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/pipestone-mn/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/pipestone-mn/",
-    "/service-areas/pipestone-mn/fire-damage-restoration/",
-    "/service-areas/pipestone-mn/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/pipestone-mn/excavations/": [
     "/services/excavations/",
     "/service-areas/pipestone-mn/",
@@ -5912,15 +5572,6 @@
     "/service-areas/rock-valley-ia/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/rock-valley-ia/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/rock-valley-ia/",
-    "/service-areas/rock-valley-ia/fire-damage-restoration/",
-    "/service-areas/rock-valley-ia/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/rock-valley-ia/emergency-board-up-tarping/": [
@@ -6067,15 +5718,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/rock-valley-ia/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/rock-valley-ia/",
-    "/service-areas/rock-valley-ia/fire-damage-restoration/",
-    "/service-areas/rock-valley-ia/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/rock-valley-ia/excavations/": [
     "/services/excavations/",
     "/service-areas/rock-valley-ia/",
@@ -6200,15 +5842,6 @@
     "/service-areas/dell-rapids-sd/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/dell-rapids-sd/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/dell-rapids-sd/",
-    "/service-areas/dell-rapids-sd/fire-damage-restoration/",
-    "/service-areas/dell-rapids-sd/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/dell-rapids-sd/emergency-board-up-tarping/": [
@@ -6355,15 +5988,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/dell-rapids-sd/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/dell-rapids-sd/",
-    "/service-areas/dell-rapids-sd/fire-damage-restoration/",
-    "/service-areas/dell-rapids-sd/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/dell-rapids-sd/excavations/": [
     "/services/excavations/",
     "/service-areas/dell-rapids-sd/",
@@ -6488,15 +6112,6 @@
     "/service-areas/hartford-sd/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/hartford-sd/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/hartford-sd/",
-    "/service-areas/hartford-sd/fire-damage-restoration/",
-    "/service-areas/hartford-sd/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/hartford-sd/emergency-board-up-tarping/": [
@@ -6643,15 +6258,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/hartford-sd/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/hartford-sd/",
-    "/service-areas/hartford-sd/fire-damage-restoration/",
-    "/service-areas/hartford-sd/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/hartford-sd/excavations/": [
     "/services/excavations/",
     "/service-areas/hartford-sd/",
@@ -6776,15 +6382,6 @@
     "/service-areas/canton-sd/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/canton-sd/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/canton-sd/",
-    "/service-areas/canton-sd/fire-damage-restoration/",
-    "/service-areas/canton-sd/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/canton-sd/emergency-board-up-tarping/": [
@@ -6931,15 +6528,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/canton-sd/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/canton-sd/",
-    "/service-areas/canton-sd/fire-damage-restoration/",
-    "/service-areas/canton-sd/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/canton-sd/excavations/": [
     "/services/excavations/",
     "/service-areas/canton-sd/",
@@ -7064,15 +6652,6 @@
     "/service-areas/north-sioux-city-sd/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/north-sioux-city-sd/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/north-sioux-city-sd/",
-    "/service-areas/north-sioux-city-sd/fire-damage-restoration/",
-    "/service-areas/north-sioux-city-sd/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/north-sioux-city-sd/emergency-board-up-tarping/": [
@@ -7219,15 +6798,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/north-sioux-city-sd/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/north-sioux-city-sd/",
-    "/service-areas/north-sioux-city-sd/fire-damage-restoration/",
-    "/service-areas/north-sioux-city-sd/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/north-sioux-city-sd/excavations/": [
     "/services/excavations/",
     "/service-areas/north-sioux-city-sd/",
@@ -7352,15 +6922,6 @@
     "/service-areas/sibley-ia/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/sibley-ia/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/sibley-ia/",
-    "/service-areas/sibley-ia/fire-damage-restoration/",
-    "/service-areas/sibley-ia/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/sibley-ia/emergency-board-up-tarping/": [
@@ -7507,15 +7068,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/sibley-ia/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/sibley-ia/",
-    "/service-areas/sibley-ia/fire-damage-restoration/",
-    "/service-areas/sibley-ia/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/sibley-ia/excavations/": [
     "/services/excavations/",
     "/service-areas/sibley-ia/",
@@ -7640,15 +7192,6 @@
     "/service-areas/rock-rapids-ia/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/rock-rapids-ia/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/rock-rapids-ia/",
-    "/service-areas/rock-rapids-ia/fire-damage-restoration/",
-    "/service-areas/rock-rapids-ia/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/rock-rapids-ia/emergency-board-up-tarping/": [
@@ -7795,15 +7338,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/rock-rapids-ia/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/rock-rapids-ia/",
-    "/service-areas/rock-rapids-ia/fire-damage-restoration/",
-    "/service-areas/rock-rapids-ia/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/rock-rapids-ia/excavations/": [
     "/services/excavations/",
     "/service-areas/rock-rapids-ia/",
@@ -7928,15 +7462,6 @@
     "/service-areas/lennox-sd/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/lennox-sd/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/lennox-sd/",
-    "/service-areas/lennox-sd/fire-damage-restoration/",
-    "/service-areas/lennox-sd/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/lennox-sd/emergency-board-up-tarping/": [
@@ -8083,15 +7608,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/lennox-sd/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/lennox-sd/",
-    "/service-areas/lennox-sd/fire-damage-restoration/",
-    "/service-areas/lennox-sd/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/lennox-sd/excavations/": [
     "/services/excavations/",
     "/service-areas/lennox-sd/",
@@ -8216,15 +7732,6 @@
     "/service-areas/flandreau-sd/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/flandreau-sd/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/flandreau-sd/",
-    "/service-areas/flandreau-sd/fire-damage-restoration/",
-    "/service-areas/flandreau-sd/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/flandreau-sd/emergency-board-up-tarping/": [
@@ -8371,15 +7878,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/flandreau-sd/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/flandreau-sd/",
-    "/service-areas/flandreau-sd/fire-damage-restoration/",
-    "/service-areas/flandreau-sd/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/flandreau-sd/excavations/": [
     "/services/excavations/",
     "/service-areas/flandreau-sd/",
@@ -8504,15 +8002,6 @@
     "/service-areas/parker-sd/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/parker-sd/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/parker-sd/",
-    "/service-areas/parker-sd/fire-damage-restoration/",
-    "/service-areas/parker-sd/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/parker-sd/emergency-board-up-tarping/": [
@@ -8659,15 +8148,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/parker-sd/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/parker-sd/",
-    "/service-areas/parker-sd/fire-damage-restoration/",
-    "/service-areas/parker-sd/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/parker-sd/excavations/": [
     "/services/excavations/",
     "/service-areas/parker-sd/",
@@ -8792,15 +8272,6 @@
     "/service-areas/salem-sd/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/salem-sd/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/salem-sd/",
-    "/service-areas/salem-sd/fire-damage-restoration/",
-    "/service-areas/salem-sd/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/salem-sd/emergency-board-up-tarping/": [
@@ -8947,15 +8418,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/salem-sd/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/salem-sd/",
-    "/service-areas/salem-sd/fire-damage-restoration/",
-    "/service-areas/salem-sd/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/salem-sd/excavations/": [
     "/services/excavations/",
     "/service-areas/salem-sd/",
@@ -9080,15 +8542,6 @@
     "/service-areas/slayton-mn/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/slayton-mn/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/slayton-mn/",
-    "/service-areas/slayton-mn/fire-damage-restoration/",
-    "/service-areas/slayton-mn/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/slayton-mn/emergency-board-up-tarping/": [
@@ -9235,15 +8688,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/slayton-mn/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/slayton-mn/",
-    "/service-areas/slayton-mn/fire-damage-restoration/",
-    "/service-areas/slayton-mn/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/slayton-mn/excavations/": [
     "/services/excavations/",
     "/service-areas/slayton-mn/",
@@ -9368,15 +8812,6 @@
     "/service-areas/crooks-sd/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/crooks-sd/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/crooks-sd/",
-    "/service-areas/crooks-sd/fire-damage-restoration/",
-    "/service-areas/crooks-sd/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/crooks-sd/emergency-board-up-tarping/": [
@@ -9523,15 +8958,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/crooks-sd/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/crooks-sd/",
-    "/service-areas/crooks-sd/fire-damage-restoration/",
-    "/service-areas/crooks-sd/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/crooks-sd/excavations/": [
     "/services/excavations/",
     "/service-areas/crooks-sd/",
@@ -9656,15 +9082,6 @@
     "/service-areas/baltic-sd/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/baltic-sd/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/baltic-sd/",
-    "/service-areas/baltic-sd/fire-damage-restoration/",
-    "/service-areas/baltic-sd/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/baltic-sd/emergency-board-up-tarping/": [
@@ -9811,15 +9228,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/baltic-sd/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/baltic-sd/",
-    "/service-areas/baltic-sd/fire-damage-restoration/",
-    "/service-areas/baltic-sd/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/baltic-sd/excavations/": [
     "/services/excavations/",
     "/service-areas/baltic-sd/",
@@ -9944,15 +9352,6 @@
     "/service-areas/garretson-sd/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/garretson-sd/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/garretson-sd/",
-    "/service-areas/garretson-sd/fire-damage-restoration/",
-    "/service-areas/garretson-sd/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/garretson-sd/emergency-board-up-tarping/": [
@@ -10099,15 +9498,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/garretson-sd/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/garretson-sd/",
-    "/service-areas/garretson-sd/fire-damage-restoration/",
-    "/service-areas/garretson-sd/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/garretson-sd/excavations/": [
     "/services/excavations/",
     "/service-areas/garretson-sd/",
@@ -10232,15 +9622,6 @@
     "/service-areas/worthing-sd/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/worthing-sd/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/worthing-sd/",
-    "/service-areas/worthing-sd/fire-damage-restoration/",
-    "/service-areas/worthing-sd/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/worthing-sd/emergency-board-up-tarping/": [
@@ -10387,15 +9768,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/worthing-sd/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/worthing-sd/",
-    "/service-areas/worthing-sd/fire-damage-restoration/",
-    "/service-areas/worthing-sd/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/worthing-sd/excavations/": [
     "/services/excavations/",
     "/service-areas/worthing-sd/",
@@ -10520,15 +9892,6 @@
     "/service-areas/volga-sd/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/volga-sd/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/volga-sd/",
-    "/service-areas/volga-sd/fire-damage-restoration/",
-    "/service-areas/volga-sd/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/volga-sd/emergency-board-up-tarping/": [
@@ -10675,15 +10038,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/volga-sd/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/volga-sd/",
-    "/service-areas/volga-sd/fire-damage-restoration/",
-    "/service-areas/volga-sd/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/volga-sd/excavations/": [
     "/services/excavations/",
     "/service-areas/volga-sd/",
@@ -10808,15 +10162,6 @@
     "/service-areas/beresford-sd/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/beresford-sd/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/beresford-sd/",
-    "/service-areas/beresford-sd/fire-damage-restoration/",
-    "/service-areas/beresford-sd/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/beresford-sd/emergency-board-up-tarping/": [
@@ -10963,15 +10308,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/beresford-sd/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/beresford-sd/",
-    "/service-areas/beresford-sd/fire-damage-restoration/",
-    "/service-areas/beresford-sd/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/beresford-sd/excavations/": [
     "/services/excavations/",
     "/service-areas/beresford-sd/",
@@ -11096,15 +10432,6 @@
     "/service-areas/dakota-dunes-sd/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/dakota-dunes-sd/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/dakota-dunes-sd/",
-    "/service-areas/dakota-dunes-sd/fire-damage-restoration/",
-    "/service-areas/dakota-dunes-sd/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/dakota-dunes-sd/emergency-board-up-tarping/": [
@@ -11251,15 +10578,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/dakota-dunes-sd/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/dakota-dunes-sd/",
-    "/service-areas/dakota-dunes-sd/fire-damage-restoration/",
-    "/service-areas/dakota-dunes-sd/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/dakota-dunes-sd/excavations/": [
     "/services/excavations/",
     "/service-areas/dakota-dunes-sd/",
@@ -11384,15 +10702,6 @@
     "/service-areas/elk-point-sd/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/elk-point-sd/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/elk-point-sd/",
-    "/service-areas/elk-point-sd/fire-damage-restoration/",
-    "/service-areas/elk-point-sd/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/elk-point-sd/emergency-board-up-tarping/": [
@@ -11539,15 +10848,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/elk-point-sd/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/elk-point-sd/",
-    "/service-areas/elk-point-sd/fire-damage-restoration/",
-    "/service-areas/elk-point-sd/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/elk-point-sd/excavations/": [
     "/services/excavations/",
     "/service-areas/elk-point-sd/",
@@ -11672,15 +10972,6 @@
     "/service-areas/adrian-mn/mold-remediation/",
     "/service-areas/akron-ia/contents-restoration/",
     "/service-areas/alton-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/adrian-mn/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/adrian-mn/",
-    "/service-areas/adrian-mn/fire-damage-restoration/",
-    "/service-areas/adrian-mn/mold-remediation/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
-    "/service-areas/alton-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/adrian-mn/emergency-board-up-tarping/": [
@@ -11827,15 +11118,6 @@
     "/service-areas/alton-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/adrian-mn/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/adrian-mn/",
-    "/service-areas/adrian-mn/fire-damage-restoration/",
-    "/service-areas/adrian-mn/mold-remediation/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/service-areas/alton-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/adrian-mn/excavations/": [
     "/services/excavations/",
     "/service-areas/adrian-mn/",
@@ -11960,15 +11242,6 @@
     "/service-areas/edgerton-mn/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/edgerton-mn/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/edgerton-mn/",
-    "/service-areas/edgerton-mn/fire-damage-restoration/",
-    "/service-areas/edgerton-mn/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/edgerton-mn/emergency-board-up-tarping/": [
@@ -12115,15 +11388,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/edgerton-mn/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/edgerton-mn/",
-    "/service-areas/edgerton-mn/fire-damage-restoration/",
-    "/service-areas/edgerton-mn/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/edgerton-mn/excavations/": [
     "/services/excavations/",
     "/service-areas/edgerton-mn/",
@@ -12248,15 +11512,6 @@
     "/service-areas/fulda-mn/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/fulda-mn/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/fulda-mn/",
-    "/service-areas/fulda-mn/fire-damage-restoration/",
-    "/service-areas/fulda-mn/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/fulda-mn/emergency-board-up-tarping/": [
@@ -12403,15 +11658,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/fulda-mn/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/fulda-mn/",
-    "/service-areas/fulda-mn/fire-damage-restoration/",
-    "/service-areas/fulda-mn/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/fulda-mn/excavations/": [
     "/services/excavations/",
     "/service-areas/fulda-mn/",
@@ -12536,15 +11782,6 @@
     "/service-areas/george-ia/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/george-ia/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/george-ia/",
-    "/service-areas/george-ia/fire-damage-restoration/",
-    "/service-areas/george-ia/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/george-ia/emergency-board-up-tarping/": [
@@ -12691,15 +11928,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/george-ia/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/george-ia/",
-    "/service-areas/george-ia/fire-damage-restoration/",
-    "/service-areas/george-ia/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/george-ia/excavations/": [
     "/services/excavations/",
     "/service-areas/george-ia/",
@@ -12824,15 +12052,6 @@
     "/service-areas/hawarden-ia/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/hawarden-ia/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/hawarden-ia/",
-    "/service-areas/hawarden-ia/fire-damage-restoration/",
-    "/service-areas/hawarden-ia/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/hawarden-ia/emergency-board-up-tarping/": [
@@ -12979,15 +12198,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/hawarden-ia/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/hawarden-ia/",
-    "/service-areas/hawarden-ia/fire-damage-restoration/",
-    "/service-areas/hawarden-ia/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/hawarden-ia/excavations/": [
     "/services/excavations/",
     "/service-areas/hawarden-ia/",
@@ -13112,15 +12322,6 @@
     "/service-areas/hull-ia/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/hull-ia/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/hull-ia/",
-    "/service-areas/hull-ia/fire-damage-restoration/",
-    "/service-areas/hull-ia/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/hull-ia/emergency-board-up-tarping/": [
@@ -13267,15 +12468,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/hull-ia/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/hull-ia/",
-    "/service-areas/hull-ia/fire-damage-restoration/",
-    "/service-areas/hull-ia/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/hull-ia/excavations/": [
     "/services/excavations/",
     "/service-areas/hull-ia/",
@@ -13400,15 +12592,6 @@
     "/service-areas/alton-ia/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/alton-ia/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/alton-ia/",
-    "/service-areas/alton-ia/fire-damage-restoration/",
-    "/service-areas/alton-ia/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/alton-ia/emergency-board-up-tarping/": [
@@ -13555,15 +12738,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/alton-ia/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/alton-ia/",
-    "/service-areas/alton-ia/fire-damage-restoration/",
-    "/service-areas/alton-ia/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/alton-ia/excavations/": [
     "/services/excavations/",
     "/service-areas/alton-ia/",
@@ -13688,15 +12862,6 @@
     "/service-areas/akron-ia/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/alton-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/akron-ia/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/akron-ia/",
-    "/service-areas/akron-ia/fire-damage-restoration/",
-    "/service-areas/akron-ia/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/alton-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/akron-ia/emergency-board-up-tarping/": [
@@ -13843,15 +13008,6 @@
     "/service-areas/alton-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/akron-ia/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/akron-ia/",
-    "/service-areas/akron-ia/fire-damage-restoration/",
-    "/service-areas/akron-ia/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/alton-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/akron-ia/excavations/": [
     "/services/excavations/",
     "/service-areas/akron-ia/",
@@ -13976,15 +13132,6 @@
     "/service-areas/remsen-ia/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/remsen-ia/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/remsen-ia/",
-    "/service-areas/remsen-ia/fire-damage-restoration/",
-    "/service-areas/remsen-ia/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/remsen-ia/emergency-board-up-tarping/": [
@@ -14131,15 +13278,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/remsen-ia/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/remsen-ia/",
-    "/service-areas/remsen-ia/fire-damage-restoration/",
-    "/service-areas/remsen-ia/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/remsen-ia/excavations/": [
     "/services/excavations/",
     "/service-areas/remsen-ia/",
@@ -14264,15 +13402,6 @@
     "/service-areas/hinton-ia/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/hinton-ia/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/hinton-ia/",
-    "/service-areas/hinton-ia/fire-damage-restoration/",
-    "/service-areas/hinton-ia/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/hinton-ia/emergency-board-up-tarping/": [
@@ -14419,15 +13548,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/hinton-ia/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/hinton-ia/",
-    "/service-areas/hinton-ia/fire-damage-restoration/",
-    "/service-areas/hinton-ia/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/hinton-ia/excavations/": [
     "/services/excavations/",
     "/service-areas/hinton-ia/",
@@ -14552,15 +13672,6 @@
     "/service-areas/merrill-ia/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/merrill-ia/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/merrill-ia/",
-    "/service-areas/merrill-ia/fire-damage-restoration/",
-    "/service-areas/merrill-ia/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/merrill-ia/emergency-board-up-tarping/": [
@@ -14707,15 +13818,6 @@
     "/service-areas/akron-ia/emergency-plumbing/",
     "/contact/"
   ],
-  "/service-areas/merrill-ia/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/merrill-ia/",
-    "/service-areas/merrill-ia/fire-damage-restoration/",
-    "/service-areas/merrill-ia/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/merrill-ia/excavations/": [
     "/services/excavations/",
     "/service-areas/merrill-ia/",
@@ -14840,15 +13942,6 @@
     "/service-areas/kingsley-ia/mold-remediation/",
     "/service-areas/adrian-mn/contents-restoration/",
     "/service-areas/akron-ia/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/kingsley-ia/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/kingsley-ia/",
-    "/service-areas/kingsley-ia/fire-damage-restoration/",
-    "/service-areas/kingsley-ia/mold-remediation/",
-    "/service-areas/adrian-mn/contents-restoration-storage/",
-    "/service-areas/akron-ia/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/kingsley-ia/emergency-board-up-tarping/": [
@@ -14993,15 +14086,6 @@
     "/service-areas/kingsley-ia/mold-remediation/",
     "/service-areas/adrian-mn/emergency-plumbing/",
     "/service-areas/akron-ia/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/kingsley-ia/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/kingsley-ia/",
-    "/service-areas/kingsley-ia/fire-damage-restoration/",
-    "/service-areas/kingsley-ia/mold-remediation/",
-    "/service-areas/adrian-mn/emergency-water-removal/",
-    "/service-areas/akron-ia/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/kingsley-ia/excavations/": [

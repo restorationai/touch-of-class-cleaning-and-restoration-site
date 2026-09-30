@@ -862,52 +862,6 @@
       ]
     },
     {
-      "url_path": "/services/emergency-water-removal/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Water Removal in Little Falls | Heritage Restoration LLC",
-      "h1": "Water Removal in Little Falls",
-      "meta_description": "Water removal in Little Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "24/7 emergency water removal little falls",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/albany-mn/emergency-water-removal/",
-        "/service-areas/avon-mn/emergency-water-removal/",
-        "/service-areas/baxter-mn/emergency-water-removal/",
-        "/service-areas/brainerd-mn/emergency-water-removal/",
-        "/service-areas/elmdale-mn/emergency-water-removal/",
-        "/service-areas/flensburg-mn/emergency-water-removal/",
-        "/service-areas/foley-mn/emergency-water-removal/",
-        "/service-areas/fort-ripley-mn/emergency-water-removal/",
-        "/service-areas/harding-mn/emergency-water-removal/",
-        "/service-areas/long-prairie-mn/emergency-water-removal/",
-        "/service-areas/pierz-mn/emergency-water-removal/",
-        "/service-areas/randall-mn/emergency-water-removal/"
-      ]
-    },
-    {
       "url_path": "/services/flood-damage-restoration/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -955,50 +909,6 @@
         "/service-areas/long-prairie-mn/flood-damage-restoration/",
         "/service-areas/pierz-mn/flood-damage-restoration/",
         "/service-areas/randall-mn/flood-damage-restoration/"
-      ]
-    },
-    {
-      "url_path": "/services/general-contractor/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "General Contractor in Little Falls | Heritage Restoration LLC",
-      "h1": "General Contractor in Little Falls",
-      "meta_description": "General contractor in Little Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "general contractor little falls",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/albany-mn/general-contractor/",
-        "/service-areas/avon-mn/general-contractor/",
-        "/service-areas/baxter-mn/general-contractor/",
-        "/service-areas/brainerd-mn/general-contractor/",
-        "/service-areas/elmdale-mn/general-contractor/",
-        "/service-areas/flensburg-mn/general-contractor/",
-        "/service-areas/foley-mn/general-contractor/",
-        "/service-areas/fort-ripley-mn/general-contractor/",
-        "/service-areas/harding-mn/general-contractor/",
-        "/service-areas/long-prairie-mn/general-contractor/",
-        "/service-areas/pierz-mn/general-contractor/",
-        "/service-areas/randall-mn/general-contractor/"
       ]
     },
     {
@@ -1137,50 +1047,6 @@
         "/service-areas/long-prairie-mn/job-type-id-bathroom-remodeling/",
         "/service-areas/pierz-mn/job-type-id-bathroom-remodeling/",
         "/service-areas/randall-mn/job-type-id-bathroom-remodeling/"
-      ]
-    },
-    {
-      "url_path": "/services/job-type-id-construction/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Construction in Little Falls | Heritage Restoration LLC",
-      "h1": "Construction in Little Falls",
-      "meta_description": "Construction in Little Falls and surrounding areas. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "construction little falls",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/albany-mn/job-type-id-construction/",
-        "/service-areas/avon-mn/job-type-id-construction/",
-        "/service-areas/baxter-mn/job-type-id-construction/",
-        "/service-areas/brainerd-mn/job-type-id-construction/",
-        "/service-areas/elmdale-mn/job-type-id-construction/",
-        "/service-areas/flensburg-mn/job-type-id-construction/",
-        "/service-areas/foley-mn/job-type-id-construction/",
-        "/service-areas/fort-ripley-mn/job-type-id-construction/",
-        "/service-areas/harding-mn/job-type-id-construction/",
-        "/service-areas/long-prairie-mn/job-type-id-construction/",
-        "/service-areas/pierz-mn/job-type-id-construction/",
-        "/service-areas/randall-mn/job-type-id-construction/"
       ]
     },
     {
@@ -3520,46 +3386,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/st-cloud-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in St. Cloud, MN | Heritage Restoration LLC",
-      "h1": "Water Removal in St. Cloud",
-      "meta_description": "Water removal in St. Cloud, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "24/7 emergency water removal st. cloud",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/st-cloud-mn/",
-        "/service-areas/st-cloud-mn/fire-damage-restoration/",
-        "/service-areas/st-cloud-mn/mold-remediation/",
-        "/service-areas/albany-mn/emergency-water-removal/",
-        "/service-areas/avon-mn/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/st-cloud-mn/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3600,44 +3426,6 @@
         "/service-areas/st-cloud-mn/mold-remediation/",
         "/service-areas/albany-mn/flood-damage-restoration/",
         "/service-areas/avon-mn/flood-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/st-cloud-mn/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in St. Cloud, MN | Heritage Restoration LLC",
-      "h1": "General Contractor in St. Cloud",
-      "meta_description": "General contractor in St. Cloud, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "general contractor st. cloud",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/st-cloud-mn/",
-        "/service-areas/st-cloud-mn/fire-damage-restoration/",
-        "/service-areas/st-cloud-mn/mold-remediation/",
-        "/service-areas/albany-mn/general-contractor/",
-        "/service-areas/avon-mn/general-contractor/",
         "/contact/"
       ]
     },
@@ -3758,44 +3546,6 @@
         "/service-areas/st-cloud-mn/mold-remediation/",
         "/service-areas/albany-mn/job-type-id-bathroom-remodeling/",
         "/service-areas/avon-mn/job-type-id-bathroom-remodeling/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/st-cloud-mn/job-type-id-construction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Construction in St. Cloud, MN | Heritage Restoration LLC",
-      "h1": "Construction in St. Cloud",
-      "meta_description": "Construction in St. Cloud, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "construction st. cloud",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/job-type-id-construction/",
-        "/service-areas/st-cloud-mn/",
-        "/service-areas/st-cloud-mn/fire-damage-restoration/",
-        "/service-areas/st-cloud-mn/mold-remediation/",
-        "/service-areas/albany-mn/job-type-id-construction/",
-        "/service-areas/avon-mn/job-type-id-construction/",
         "/contact/"
       ]
     },
@@ -4669,46 +4419,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/sartell-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Sartell, MN | Heritage Restoration LLC",
-      "h1": "Water Removal in Sartell",
-      "meta_description": "Water removal in Sartell, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "24/7 emergency water removal sartell",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/sartell-mn/",
-        "/service-areas/sartell-mn/fire-damage-restoration/",
-        "/service-areas/sartell-mn/mold-remediation/",
-        "/service-areas/albany-mn/emergency-water-removal/",
-        "/service-areas/avon-mn/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/sartell-mn/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4749,44 +4459,6 @@
         "/service-areas/sartell-mn/mold-remediation/",
         "/service-areas/albany-mn/flood-damage-restoration/",
         "/service-areas/avon-mn/flood-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sartell-mn/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Sartell, MN | Heritage Restoration LLC",
-      "h1": "General Contractor in Sartell",
-      "meta_description": "General contractor in Sartell, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "general contractor sartell",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/sartell-mn/",
-        "/service-areas/sartell-mn/fire-damage-restoration/",
-        "/service-areas/sartell-mn/mold-remediation/",
-        "/service-areas/albany-mn/general-contractor/",
-        "/service-areas/avon-mn/general-contractor/",
         "/contact/"
       ]
     },
@@ -4907,44 +4579,6 @@
         "/service-areas/sartell-mn/mold-remediation/",
         "/service-areas/albany-mn/job-type-id-bathroom-remodeling/",
         "/service-areas/avon-mn/job-type-id-bathroom-remodeling/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sartell-mn/job-type-id-construction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Construction in Sartell, MN | Heritage Restoration LLC",
-      "h1": "Construction in Sartell",
-      "meta_description": "Construction in Sartell, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "construction sartell",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/job-type-id-construction/",
-        "/service-areas/sartell-mn/",
-        "/service-areas/sartell-mn/fire-damage-restoration/",
-        "/service-areas/sartell-mn/mold-remediation/",
-        "/service-areas/albany-mn/job-type-id-construction/",
-        "/service-areas/avon-mn/job-type-id-construction/",
         "/contact/"
       ]
     },
@@ -5818,46 +5452,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/sauk-rapids-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Sauk Rapids, MN | Heritage Restoration LLC",
-      "h1": "Water Removal in Sauk Rapids",
-      "meta_description": "Water removal in Sauk Rapids, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "24/7 emergency water removal sauk rapids",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/sauk-rapids-mn/",
-        "/service-areas/sauk-rapids-mn/fire-damage-restoration/",
-        "/service-areas/sauk-rapids-mn/mold-remediation/",
-        "/service-areas/albany-mn/emergency-water-removal/",
-        "/service-areas/avon-mn/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/sauk-rapids-mn/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5898,44 +5492,6 @@
         "/service-areas/sauk-rapids-mn/mold-remediation/",
         "/service-areas/albany-mn/flood-damage-restoration/",
         "/service-areas/avon-mn/flood-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sauk-rapids-mn/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Sauk Rapids, MN | Heritage Restoration LLC",
-      "h1": "General Contractor in Sauk Rapids",
-      "meta_description": "General contractor in Sauk Rapids, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "general contractor sauk rapids",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/sauk-rapids-mn/",
-        "/service-areas/sauk-rapids-mn/fire-damage-restoration/",
-        "/service-areas/sauk-rapids-mn/mold-remediation/",
-        "/service-areas/albany-mn/general-contractor/",
-        "/service-areas/avon-mn/general-contractor/",
         "/contact/"
       ]
     },
@@ -6056,44 +5612,6 @@
         "/service-areas/sauk-rapids-mn/mold-remediation/",
         "/service-areas/albany-mn/job-type-id-bathroom-remodeling/",
         "/service-areas/avon-mn/job-type-id-bathroom-remodeling/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sauk-rapids-mn/job-type-id-construction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Construction in Sauk Rapids, MN | Heritage Restoration LLC",
-      "h1": "Construction in Sauk Rapids",
-      "meta_description": "Construction in Sauk Rapids, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "construction sauk rapids",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/job-type-id-construction/",
-        "/service-areas/sauk-rapids-mn/",
-        "/service-areas/sauk-rapids-mn/fire-damage-restoration/",
-        "/service-areas/sauk-rapids-mn/mold-remediation/",
-        "/service-areas/albany-mn/job-type-id-construction/",
-        "/service-areas/avon-mn/job-type-id-construction/",
         "/contact/"
       ]
     },
@@ -6967,46 +6485,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/brainerd-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Brainerd, MN | Heritage Restoration LLC",
-      "h1": "Water Removal in Brainerd",
-      "meta_description": "Water removal in Brainerd, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "24/7 emergency water removal brainerd",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/brainerd-mn/",
-        "/service-areas/brainerd-mn/fire-damage-restoration/",
-        "/service-areas/brainerd-mn/mold-remediation/",
-        "/service-areas/albany-mn/emergency-water-removal/",
-        "/service-areas/avon-mn/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/brainerd-mn/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7047,44 +6525,6 @@
         "/service-areas/brainerd-mn/mold-remediation/",
         "/service-areas/albany-mn/flood-damage-restoration/",
         "/service-areas/avon-mn/flood-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/brainerd-mn/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Brainerd, MN | Heritage Restoration LLC",
-      "h1": "General Contractor in Brainerd",
-      "meta_description": "General contractor in Brainerd, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "general contractor brainerd",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/brainerd-mn/",
-        "/service-areas/brainerd-mn/fire-damage-restoration/",
-        "/service-areas/brainerd-mn/mold-remediation/",
-        "/service-areas/albany-mn/general-contractor/",
-        "/service-areas/avon-mn/general-contractor/",
         "/contact/"
       ]
     },
@@ -7205,44 +6645,6 @@
         "/service-areas/brainerd-mn/mold-remediation/",
         "/service-areas/albany-mn/job-type-id-bathroom-remodeling/",
         "/service-areas/avon-mn/job-type-id-bathroom-remodeling/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/brainerd-mn/job-type-id-construction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Construction in Brainerd, MN | Heritage Restoration LLC",
-      "h1": "Construction in Brainerd",
-      "meta_description": "Construction in Brainerd, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "construction brainerd",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/job-type-id-construction/",
-        "/service-areas/brainerd-mn/",
-        "/service-areas/brainerd-mn/fire-damage-restoration/",
-        "/service-areas/brainerd-mn/mold-remediation/",
-        "/service-areas/albany-mn/job-type-id-construction/",
-        "/service-areas/avon-mn/job-type-id-construction/",
         "/contact/"
       ]
     },
@@ -8116,46 +7518,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/baxter-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Baxter, MN | Heritage Restoration LLC",
-      "h1": "Water Removal in Baxter",
-      "meta_description": "Water removal in Baxter, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "24/7 emergency water removal baxter",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/baxter-mn/",
-        "/service-areas/baxter-mn/fire-damage-restoration/",
-        "/service-areas/baxter-mn/mold-remediation/",
-        "/service-areas/albany-mn/emergency-water-removal/",
-        "/service-areas/avon-mn/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/baxter-mn/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8196,44 +7558,6 @@
         "/service-areas/baxter-mn/mold-remediation/",
         "/service-areas/albany-mn/flood-damage-restoration/",
         "/service-areas/avon-mn/flood-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/baxter-mn/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Baxter, MN | Heritage Restoration LLC",
-      "h1": "General Contractor in Baxter",
-      "meta_description": "General contractor in Baxter, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "general contractor baxter",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/baxter-mn/",
-        "/service-areas/baxter-mn/fire-damage-restoration/",
-        "/service-areas/baxter-mn/mold-remediation/",
-        "/service-areas/albany-mn/general-contractor/",
-        "/service-areas/avon-mn/general-contractor/",
         "/contact/"
       ]
     },
@@ -8354,44 +7678,6 @@
         "/service-areas/baxter-mn/mold-remediation/",
         "/service-areas/albany-mn/job-type-id-bathroom-remodeling/",
         "/service-areas/avon-mn/job-type-id-bathroom-remodeling/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/baxter-mn/job-type-id-construction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Construction in Baxter, MN | Heritage Restoration LLC",
-      "h1": "Construction in Baxter",
-      "meta_description": "Construction in Baxter, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "construction baxter",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/job-type-id-construction/",
-        "/service-areas/baxter-mn/",
-        "/service-areas/baxter-mn/fire-damage-restoration/",
-        "/service-areas/baxter-mn/mold-remediation/",
-        "/service-areas/albany-mn/job-type-id-construction/",
-        "/service-areas/avon-mn/job-type-id-construction/",
         "/contact/"
       ]
     },
@@ -9265,46 +8551,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/foley-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Foley, MN | Heritage Restoration LLC",
-      "h1": "Water Removal in Foley",
-      "meta_description": "Water removal in Foley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "24/7 emergency water removal foley",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/foley-mn/",
-        "/service-areas/foley-mn/fire-damage-restoration/",
-        "/service-areas/foley-mn/mold-remediation/",
-        "/service-areas/albany-mn/emergency-water-removal/",
-        "/service-areas/avon-mn/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/foley-mn/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9345,44 +8591,6 @@
         "/service-areas/foley-mn/mold-remediation/",
         "/service-areas/albany-mn/flood-damage-restoration/",
         "/service-areas/avon-mn/flood-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/foley-mn/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Foley, MN | Heritage Restoration LLC",
-      "h1": "General Contractor in Foley",
-      "meta_description": "General contractor in Foley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "general contractor foley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/foley-mn/",
-        "/service-areas/foley-mn/fire-damage-restoration/",
-        "/service-areas/foley-mn/mold-remediation/",
-        "/service-areas/albany-mn/general-contractor/",
-        "/service-areas/avon-mn/general-contractor/",
         "/contact/"
       ]
     },
@@ -9503,44 +8711,6 @@
         "/service-areas/foley-mn/mold-remediation/",
         "/service-areas/albany-mn/job-type-id-bathroom-remodeling/",
         "/service-areas/avon-mn/job-type-id-bathroom-remodeling/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/foley-mn/job-type-id-construction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Construction in Foley, MN | Heritage Restoration LLC",
-      "h1": "Construction in Foley",
-      "meta_description": "Construction in Foley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "construction foley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/job-type-id-construction/",
-        "/service-areas/foley-mn/",
-        "/service-areas/foley-mn/fire-damage-restoration/",
-        "/service-areas/foley-mn/mold-remediation/",
-        "/service-areas/albany-mn/job-type-id-construction/",
-        "/service-areas/avon-mn/job-type-id-construction/",
         "/contact/"
       ]
     },
@@ -10414,46 +9584,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/royalton-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Royalton, MN | Heritage Restoration LLC",
-      "h1": "Water Removal in Royalton",
-      "meta_description": "Water removal in Royalton, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "24/7 emergency water removal royalton",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/royalton-mn/",
-        "/service-areas/royalton-mn/fire-damage-restoration/",
-        "/service-areas/royalton-mn/mold-remediation/",
-        "/service-areas/albany-mn/emergency-water-removal/",
-        "/service-areas/avon-mn/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/royalton-mn/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10494,44 +9624,6 @@
         "/service-areas/royalton-mn/mold-remediation/",
         "/service-areas/albany-mn/flood-damage-restoration/",
         "/service-areas/avon-mn/flood-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/royalton-mn/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Royalton, MN | Heritage Restoration LLC",
-      "h1": "General Contractor in Royalton",
-      "meta_description": "General contractor in Royalton, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "general contractor royalton",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/royalton-mn/",
-        "/service-areas/royalton-mn/fire-damage-restoration/",
-        "/service-areas/royalton-mn/mold-remediation/",
-        "/service-areas/albany-mn/general-contractor/",
-        "/service-areas/avon-mn/general-contractor/",
         "/contact/"
       ]
     },
@@ -10652,44 +9744,6 @@
         "/service-areas/royalton-mn/mold-remediation/",
         "/service-areas/albany-mn/job-type-id-bathroom-remodeling/",
         "/service-areas/avon-mn/job-type-id-bathroom-remodeling/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/royalton-mn/job-type-id-construction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Construction in Royalton, MN | Heritage Restoration LLC",
-      "h1": "Construction in Royalton",
-      "meta_description": "Construction in Royalton, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "construction royalton",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/job-type-id-construction/",
-        "/service-areas/royalton-mn/",
-        "/service-areas/royalton-mn/fire-damage-restoration/",
-        "/service-areas/royalton-mn/mold-remediation/",
-        "/service-areas/albany-mn/job-type-id-construction/",
-        "/service-areas/avon-mn/job-type-id-construction/",
         "/contact/"
       ]
     },
@@ -11563,46 +10617,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/pierz-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Pierz, MN | Heritage Restoration LLC",
-      "h1": "Water Removal in Pierz",
-      "meta_description": "Water removal in Pierz, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "24/7 emergency water removal pierz",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/pierz-mn/",
-        "/service-areas/pierz-mn/fire-damage-restoration/",
-        "/service-areas/pierz-mn/mold-remediation/",
-        "/service-areas/albany-mn/emergency-water-removal/",
-        "/service-areas/avon-mn/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/pierz-mn/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -11643,44 +10657,6 @@
         "/service-areas/pierz-mn/mold-remediation/",
         "/service-areas/albany-mn/flood-damage-restoration/",
         "/service-areas/avon-mn/flood-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/pierz-mn/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Pierz, MN | Heritage Restoration LLC",
-      "h1": "General Contractor in Pierz",
-      "meta_description": "General contractor in Pierz, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "general contractor pierz",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/pierz-mn/",
-        "/service-areas/pierz-mn/fire-damage-restoration/",
-        "/service-areas/pierz-mn/mold-remediation/",
-        "/service-areas/albany-mn/general-contractor/",
-        "/service-areas/avon-mn/general-contractor/",
         "/contact/"
       ]
     },
@@ -11801,44 +10777,6 @@
         "/service-areas/pierz-mn/mold-remediation/",
         "/service-areas/albany-mn/job-type-id-bathroom-remodeling/",
         "/service-areas/avon-mn/job-type-id-bathroom-remodeling/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/pierz-mn/job-type-id-construction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Construction in Pierz, MN | Heritage Restoration LLC",
-      "h1": "Construction in Pierz",
-      "meta_description": "Construction in Pierz, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "construction pierz",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/job-type-id-construction/",
-        "/service-areas/pierz-mn/",
-        "/service-areas/pierz-mn/fire-damage-restoration/",
-        "/service-areas/pierz-mn/mold-remediation/",
-        "/service-areas/albany-mn/job-type-id-construction/",
-        "/service-areas/avon-mn/job-type-id-construction/",
         "/contact/"
       ]
     },
@@ -12712,46 +11650,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/sobieski-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Sobieski, MN | Heritage Restoration LLC",
-      "h1": "Water Removal in Sobieski",
-      "meta_description": "Water removal in Sobieski, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "24/7 emergency water removal sobieski",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/sobieski-mn/",
-        "/service-areas/sobieski-mn/fire-damage-restoration/",
-        "/service-areas/sobieski-mn/mold-remediation/",
-        "/service-areas/albany-mn/emergency-water-removal/",
-        "/service-areas/avon-mn/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/sobieski-mn/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12792,44 +11690,6 @@
         "/service-areas/sobieski-mn/mold-remediation/",
         "/service-areas/albany-mn/flood-damage-restoration/",
         "/service-areas/avon-mn/flood-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sobieski-mn/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Sobieski, MN | Heritage Restoration LLC",
-      "h1": "General Contractor in Sobieski",
-      "meta_description": "General contractor in Sobieski, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "general contractor sobieski",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/sobieski-mn/",
-        "/service-areas/sobieski-mn/fire-damage-restoration/",
-        "/service-areas/sobieski-mn/mold-remediation/",
-        "/service-areas/albany-mn/general-contractor/",
-        "/service-areas/avon-mn/general-contractor/",
         "/contact/"
       ]
     },
@@ -12950,44 +11810,6 @@
         "/service-areas/sobieski-mn/mold-remediation/",
         "/service-areas/albany-mn/job-type-id-bathroom-remodeling/",
         "/service-areas/avon-mn/job-type-id-bathroom-remodeling/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sobieski-mn/job-type-id-construction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Construction in Sobieski, MN | Heritage Restoration LLC",
-      "h1": "Construction in Sobieski",
-      "meta_description": "Construction in Sobieski, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "construction sobieski",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/job-type-id-construction/",
-        "/service-areas/sobieski-mn/",
-        "/service-areas/sobieski-mn/fire-damage-restoration/",
-        "/service-areas/sobieski-mn/mold-remediation/",
-        "/service-areas/albany-mn/job-type-id-construction/",
-        "/service-areas/avon-mn/job-type-id-construction/",
         "/contact/"
       ]
     },
@@ -13861,46 +12683,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/flensburg-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Flensburg, MN | Heritage Restoration LLC",
-      "h1": "Water Removal in Flensburg",
-      "meta_description": "Water removal in Flensburg, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "24/7 emergency water removal flensburg",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/flensburg-mn/",
-        "/service-areas/flensburg-mn/fire-damage-restoration/",
-        "/service-areas/flensburg-mn/mold-remediation/",
-        "/service-areas/albany-mn/emergency-water-removal/",
-        "/service-areas/avon-mn/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/flensburg-mn/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13941,44 +12723,6 @@
         "/service-areas/flensburg-mn/mold-remediation/",
         "/service-areas/albany-mn/flood-damage-restoration/",
         "/service-areas/avon-mn/flood-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/flensburg-mn/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Flensburg, MN | Heritage Restoration LLC",
-      "h1": "General Contractor in Flensburg",
-      "meta_description": "General contractor in Flensburg, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "general contractor flensburg",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/flensburg-mn/",
-        "/service-areas/flensburg-mn/fire-damage-restoration/",
-        "/service-areas/flensburg-mn/mold-remediation/",
-        "/service-areas/albany-mn/general-contractor/",
-        "/service-areas/avon-mn/general-contractor/",
         "/contact/"
       ]
     },
@@ -14099,44 +12843,6 @@
         "/service-areas/flensburg-mn/mold-remediation/",
         "/service-areas/albany-mn/job-type-id-bathroom-remodeling/",
         "/service-areas/avon-mn/job-type-id-bathroom-remodeling/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/flensburg-mn/job-type-id-construction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Construction in Flensburg, MN | Heritage Restoration LLC",
-      "h1": "Construction in Flensburg",
-      "meta_description": "Construction in Flensburg, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "construction flensburg",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/job-type-id-construction/",
-        "/service-areas/flensburg-mn/",
-        "/service-areas/flensburg-mn/fire-damage-restoration/",
-        "/service-areas/flensburg-mn/mold-remediation/",
-        "/service-areas/albany-mn/job-type-id-construction/",
-        "/service-areas/avon-mn/job-type-id-construction/",
         "/contact/"
       ]
     },
@@ -15010,46 +13716,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/randall-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Randall, MN | Heritage Restoration LLC",
-      "h1": "Water Removal in Randall",
-      "meta_description": "Water removal in Randall, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "24/7 emergency water removal randall",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/randall-mn/",
-        "/service-areas/randall-mn/fire-damage-restoration/",
-        "/service-areas/randall-mn/mold-remediation/",
-        "/service-areas/albany-mn/emergency-water-removal/",
-        "/service-areas/avon-mn/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/randall-mn/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -15090,44 +13756,6 @@
         "/service-areas/randall-mn/mold-remediation/",
         "/service-areas/albany-mn/flood-damage-restoration/",
         "/service-areas/avon-mn/flood-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/randall-mn/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Randall, MN | Heritage Restoration LLC",
-      "h1": "General Contractor in Randall",
-      "meta_description": "General contractor in Randall, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "general contractor randall",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/randall-mn/",
-        "/service-areas/randall-mn/fire-damage-restoration/",
-        "/service-areas/randall-mn/mold-remediation/",
-        "/service-areas/albany-mn/general-contractor/",
-        "/service-areas/avon-mn/general-contractor/",
         "/contact/"
       ]
     },
@@ -15248,44 +13876,6 @@
         "/service-areas/randall-mn/mold-remediation/",
         "/service-areas/albany-mn/job-type-id-bathroom-remodeling/",
         "/service-areas/avon-mn/job-type-id-bathroom-remodeling/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/randall-mn/job-type-id-construction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Construction in Randall, MN | Heritage Restoration LLC",
-      "h1": "Construction in Randall",
-      "meta_description": "Construction in Randall, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "construction randall",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/job-type-id-construction/",
-        "/service-areas/randall-mn/",
-        "/service-areas/randall-mn/fire-damage-restoration/",
-        "/service-areas/randall-mn/mold-remediation/",
-        "/service-areas/albany-mn/job-type-id-construction/",
-        "/service-areas/avon-mn/job-type-id-construction/",
         "/contact/"
       ]
     },
@@ -16159,46 +14749,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/elmdale-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Elmdale, MN | Heritage Restoration LLC",
-      "h1": "Water Removal in Elmdale",
-      "meta_description": "Water removal in Elmdale, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "24/7 emergency water removal elmdale",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/elmdale-mn/",
-        "/service-areas/elmdale-mn/fire-damage-restoration/",
-        "/service-areas/elmdale-mn/mold-remediation/",
-        "/service-areas/albany-mn/emergency-water-removal/",
-        "/service-areas/avon-mn/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/elmdale-mn/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -16239,44 +14789,6 @@
         "/service-areas/elmdale-mn/mold-remediation/",
         "/service-areas/albany-mn/flood-damage-restoration/",
         "/service-areas/avon-mn/flood-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/elmdale-mn/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Elmdale, MN | Heritage Restoration LLC",
-      "h1": "General Contractor in Elmdale",
-      "meta_description": "General contractor in Elmdale, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "general contractor elmdale",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/elmdale-mn/",
-        "/service-areas/elmdale-mn/fire-damage-restoration/",
-        "/service-areas/elmdale-mn/mold-remediation/",
-        "/service-areas/albany-mn/general-contractor/",
-        "/service-areas/avon-mn/general-contractor/",
         "/contact/"
       ]
     },
@@ -16397,44 +14909,6 @@
         "/service-areas/elmdale-mn/mold-remediation/",
         "/service-areas/albany-mn/job-type-id-bathroom-remodeling/",
         "/service-areas/avon-mn/job-type-id-bathroom-remodeling/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/elmdale-mn/job-type-id-construction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Construction in Elmdale, MN | Heritage Restoration LLC",
-      "h1": "Construction in Elmdale",
-      "meta_description": "Construction in Elmdale, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "construction elmdale",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/job-type-id-construction/",
-        "/service-areas/elmdale-mn/",
-        "/service-areas/elmdale-mn/fire-damage-restoration/",
-        "/service-areas/elmdale-mn/mold-remediation/",
-        "/service-areas/albany-mn/job-type-id-construction/",
-        "/service-areas/avon-mn/job-type-id-construction/",
         "/contact/"
       ]
     },
@@ -17308,46 +15782,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/fort-ripley-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Fort Ripley, MN | Heritage Restoration LLC",
-      "h1": "Water Removal in Fort Ripley",
-      "meta_description": "Water removal in Fort Ripley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "24/7 emergency water removal fort ripley",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/fort-ripley-mn/",
-        "/service-areas/fort-ripley-mn/fire-damage-restoration/",
-        "/service-areas/fort-ripley-mn/mold-remediation/",
-        "/service-areas/albany-mn/emergency-water-removal/",
-        "/service-areas/avon-mn/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/fort-ripley-mn/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17388,44 +15822,6 @@
         "/service-areas/fort-ripley-mn/mold-remediation/",
         "/service-areas/albany-mn/flood-damage-restoration/",
         "/service-areas/avon-mn/flood-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/fort-ripley-mn/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Fort Ripley, MN | Heritage Restoration LLC",
-      "h1": "General Contractor in Fort Ripley",
-      "meta_description": "General contractor in Fort Ripley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "general contractor fort ripley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/fort-ripley-mn/",
-        "/service-areas/fort-ripley-mn/fire-damage-restoration/",
-        "/service-areas/fort-ripley-mn/mold-remediation/",
-        "/service-areas/albany-mn/general-contractor/",
-        "/service-areas/avon-mn/general-contractor/",
         "/contact/"
       ]
     },
@@ -17546,44 +15942,6 @@
         "/service-areas/fort-ripley-mn/mold-remediation/",
         "/service-areas/albany-mn/job-type-id-bathroom-remodeling/",
         "/service-areas/avon-mn/job-type-id-bathroom-remodeling/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/fort-ripley-mn/job-type-id-construction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Construction in Fort Ripley, MN | Heritage Restoration LLC",
-      "h1": "Construction in Fort Ripley",
-      "meta_description": "Construction in Fort Ripley, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "construction fort ripley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/job-type-id-construction/",
-        "/service-areas/fort-ripley-mn/",
-        "/service-areas/fort-ripley-mn/fire-damage-restoration/",
-        "/service-areas/fort-ripley-mn/mold-remediation/",
-        "/service-areas/albany-mn/job-type-id-construction/",
-        "/service-areas/avon-mn/job-type-id-construction/",
         "/contact/"
       ]
     },
@@ -18457,46 +16815,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/swanville-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Swanville, MN | Heritage Restoration LLC",
-      "h1": "Water Removal in Swanville",
-      "meta_description": "Water removal in Swanville, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "24/7 emergency water removal swanville",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/swanville-mn/",
-        "/service-areas/swanville-mn/fire-damage-restoration/",
-        "/service-areas/swanville-mn/mold-remediation/",
-        "/service-areas/albany-mn/emergency-water-removal/",
-        "/service-areas/avon-mn/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/swanville-mn/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -18537,44 +16855,6 @@
         "/service-areas/swanville-mn/mold-remediation/",
         "/service-areas/albany-mn/flood-damage-restoration/",
         "/service-areas/avon-mn/flood-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/swanville-mn/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Swanville, MN | Heritage Restoration LLC",
-      "h1": "General Contractor in Swanville",
-      "meta_description": "General contractor in Swanville, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "general contractor swanville",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/swanville-mn/",
-        "/service-areas/swanville-mn/fire-damage-restoration/",
-        "/service-areas/swanville-mn/mold-remediation/",
-        "/service-areas/albany-mn/general-contractor/",
-        "/service-areas/avon-mn/general-contractor/",
         "/contact/"
       ]
     },
@@ -18695,44 +16975,6 @@
         "/service-areas/swanville-mn/mold-remediation/",
         "/service-areas/albany-mn/job-type-id-bathroom-remodeling/",
         "/service-areas/avon-mn/job-type-id-bathroom-remodeling/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/swanville-mn/job-type-id-construction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Construction in Swanville, MN | Heritage Restoration LLC",
-      "h1": "Construction in Swanville",
-      "meta_description": "Construction in Swanville, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "construction swanville",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/job-type-id-construction/",
-        "/service-areas/swanville-mn/",
-        "/service-areas/swanville-mn/fire-damage-restoration/",
-        "/service-areas/swanville-mn/mold-remediation/",
-        "/service-areas/albany-mn/job-type-id-construction/",
-        "/service-areas/avon-mn/job-type-id-construction/",
         "/contact/"
       ]
     },
@@ -19606,46 +17848,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/upsala-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Upsala, MN | Heritage Restoration LLC",
-      "h1": "Water Removal in Upsala",
-      "meta_description": "Water removal in Upsala, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "24/7 emergency water removal upsala",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/upsala-mn/",
-        "/service-areas/upsala-mn/fire-damage-restoration/",
-        "/service-areas/upsala-mn/mold-remediation/",
-        "/service-areas/albany-mn/emergency-water-removal/",
-        "/service-areas/avon-mn/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/upsala-mn/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -19686,44 +17888,6 @@
         "/service-areas/upsala-mn/mold-remediation/",
         "/service-areas/albany-mn/flood-damage-restoration/",
         "/service-areas/avon-mn/flood-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/upsala-mn/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Upsala, MN | Heritage Restoration LLC",
-      "h1": "General Contractor in Upsala",
-      "meta_description": "General contractor in Upsala, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "general contractor upsala",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/upsala-mn/",
-        "/service-areas/upsala-mn/fire-damage-restoration/",
-        "/service-areas/upsala-mn/mold-remediation/",
-        "/service-areas/albany-mn/general-contractor/",
-        "/service-areas/avon-mn/general-contractor/",
         "/contact/"
       ]
     },
@@ -19844,44 +18008,6 @@
         "/service-areas/upsala-mn/mold-remediation/",
         "/service-areas/albany-mn/job-type-id-bathroom-remodeling/",
         "/service-areas/avon-mn/job-type-id-bathroom-remodeling/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/upsala-mn/job-type-id-construction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Construction in Upsala, MN | Heritage Restoration LLC",
-      "h1": "Construction in Upsala",
-      "meta_description": "Construction in Upsala, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "construction upsala",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/job-type-id-construction/",
-        "/service-areas/upsala-mn/",
-        "/service-areas/upsala-mn/fire-damage-restoration/",
-        "/service-areas/upsala-mn/mold-remediation/",
-        "/service-areas/albany-mn/job-type-id-construction/",
-        "/service-areas/avon-mn/job-type-id-construction/",
         "/contact/"
       ]
     },
@@ -20755,46 +18881,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/rice-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Rice, MN | Heritage Restoration LLC",
-      "h1": "Water Removal in Rice",
-      "meta_description": "Water removal in Rice, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "24/7 emergency water removal rice",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/rice-mn/",
-        "/service-areas/rice-mn/fire-damage-restoration/",
-        "/service-areas/rice-mn/mold-remediation/",
-        "/service-areas/albany-mn/emergency-water-removal/",
-        "/service-areas/avon-mn/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/rice-mn/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -20835,44 +18921,6 @@
         "/service-areas/rice-mn/mold-remediation/",
         "/service-areas/albany-mn/flood-damage-restoration/",
         "/service-areas/avon-mn/flood-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/rice-mn/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Rice, MN | Heritage Restoration LLC",
-      "h1": "General Contractor in Rice",
-      "meta_description": "General contractor in Rice, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "general contractor rice",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/rice-mn/",
-        "/service-areas/rice-mn/fire-damage-restoration/",
-        "/service-areas/rice-mn/mold-remediation/",
-        "/service-areas/albany-mn/general-contractor/",
-        "/service-areas/avon-mn/general-contractor/",
         "/contact/"
       ]
     },
@@ -20993,44 +19041,6 @@
         "/service-areas/rice-mn/mold-remediation/",
         "/service-areas/albany-mn/job-type-id-bathroom-remodeling/",
         "/service-areas/avon-mn/job-type-id-bathroom-remodeling/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/rice-mn/job-type-id-construction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Construction in Rice, MN | Heritage Restoration LLC",
-      "h1": "Construction in Rice",
-      "meta_description": "Construction in Rice, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "construction rice",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/job-type-id-construction/",
-        "/service-areas/rice-mn/",
-        "/service-areas/rice-mn/fire-damage-restoration/",
-        "/service-areas/rice-mn/mold-remediation/",
-        "/service-areas/albany-mn/job-type-id-construction/",
-        "/service-areas/avon-mn/job-type-id-construction/",
         "/contact/"
       ]
     },
@@ -21904,46 +19914,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/harding-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Harding, MN | Heritage Restoration LLC",
-      "h1": "Water Removal in Harding",
-      "meta_description": "Water removal in Harding, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "24/7 emergency water removal harding",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/harding-mn/",
-        "/service-areas/harding-mn/fire-damage-restoration/",
-        "/service-areas/harding-mn/mold-remediation/",
-        "/service-areas/albany-mn/emergency-water-removal/",
-        "/service-areas/avon-mn/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/harding-mn/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -21984,44 +19954,6 @@
         "/service-areas/harding-mn/mold-remediation/",
         "/service-areas/albany-mn/flood-damage-restoration/",
         "/service-areas/avon-mn/flood-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/harding-mn/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Harding, MN | Heritage Restoration LLC",
-      "h1": "General Contractor in Harding",
-      "meta_description": "General contractor in Harding, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "general contractor harding",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/harding-mn/",
-        "/service-areas/harding-mn/fire-damage-restoration/",
-        "/service-areas/harding-mn/mold-remediation/",
-        "/service-areas/albany-mn/general-contractor/",
-        "/service-areas/avon-mn/general-contractor/",
         "/contact/"
       ]
     },
@@ -22142,44 +20074,6 @@
         "/service-areas/harding-mn/mold-remediation/",
         "/service-areas/albany-mn/job-type-id-bathroom-remodeling/",
         "/service-areas/avon-mn/job-type-id-bathroom-remodeling/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/harding-mn/job-type-id-construction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Construction in Harding, MN | Heritage Restoration LLC",
-      "h1": "Construction in Harding",
-      "meta_description": "Construction in Harding, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "construction harding",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/job-type-id-construction/",
-        "/service-areas/harding-mn/",
-        "/service-areas/harding-mn/fire-damage-restoration/",
-        "/service-areas/harding-mn/mold-remediation/",
-        "/service-areas/albany-mn/job-type-id-construction/",
-        "/service-areas/avon-mn/job-type-id-construction/",
         "/contact/"
       ]
     },
@@ -23053,46 +20947,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/st-stephen-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in St. Stephen, MN | Heritage Restoration LLC",
-      "h1": "Water Removal in St. Stephen",
-      "meta_description": "Water removal in St. Stephen, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "24/7 emergency water removal st. stephen",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/st-stephen-mn/",
-        "/service-areas/st-stephen-mn/fire-damage-restoration/",
-        "/service-areas/st-stephen-mn/mold-remediation/",
-        "/service-areas/albany-mn/emergency-water-removal/",
-        "/service-areas/avon-mn/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/st-stephen-mn/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -23133,44 +20987,6 @@
         "/service-areas/st-stephen-mn/mold-remediation/",
         "/service-areas/albany-mn/flood-damage-restoration/",
         "/service-areas/avon-mn/flood-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/st-stephen-mn/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in St. Stephen, MN | Heritage Restoration LLC",
-      "h1": "General Contractor in St. Stephen",
-      "meta_description": "General contractor in St. Stephen, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "general contractor st. stephen",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/st-stephen-mn/",
-        "/service-areas/st-stephen-mn/fire-damage-restoration/",
-        "/service-areas/st-stephen-mn/mold-remediation/",
-        "/service-areas/albany-mn/general-contractor/",
-        "/service-areas/avon-mn/general-contractor/",
         "/contact/"
       ]
     },
@@ -23291,44 +21107,6 @@
         "/service-areas/st-stephen-mn/mold-remediation/",
         "/service-areas/albany-mn/job-type-id-bathroom-remodeling/",
         "/service-areas/avon-mn/job-type-id-bathroom-remodeling/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/st-stephen-mn/job-type-id-construction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Construction in St. Stephen, MN | Heritage Restoration LLC",
-      "h1": "Construction in St. Stephen",
-      "meta_description": "Construction in St. Stephen, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "construction st. stephen",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/job-type-id-construction/",
-        "/service-areas/st-stephen-mn/",
-        "/service-areas/st-stephen-mn/fire-damage-restoration/",
-        "/service-areas/st-stephen-mn/mold-remediation/",
-        "/service-areas/albany-mn/job-type-id-construction/",
-        "/service-areas/avon-mn/job-type-id-construction/",
         "/contact/"
       ]
     },
@@ -24202,46 +21980,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/long-prairie-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Long Prairie, MN | Heritage Restoration LLC",
-      "h1": "Water Removal in Long Prairie",
-      "meta_description": "Water removal in Long Prairie, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "24/7 emergency water removal long prairie",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/long-prairie-mn/",
-        "/service-areas/long-prairie-mn/fire-damage-restoration/",
-        "/service-areas/long-prairie-mn/mold-remediation/",
-        "/service-areas/albany-mn/emergency-water-removal/",
-        "/service-areas/avon-mn/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/long-prairie-mn/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -24282,44 +22020,6 @@
         "/service-areas/long-prairie-mn/mold-remediation/",
         "/service-areas/albany-mn/flood-damage-restoration/",
         "/service-areas/avon-mn/flood-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/long-prairie-mn/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Long Prairie, MN | Heritage Restoration LLC",
-      "h1": "General Contractor in Long Prairie",
-      "meta_description": "General contractor in Long Prairie, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "general contractor long prairie",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/long-prairie-mn/",
-        "/service-areas/long-prairie-mn/fire-damage-restoration/",
-        "/service-areas/long-prairie-mn/mold-remediation/",
-        "/service-areas/albany-mn/general-contractor/",
-        "/service-areas/avon-mn/general-contractor/",
         "/contact/"
       ]
     },
@@ -24440,44 +22140,6 @@
         "/service-areas/long-prairie-mn/mold-remediation/",
         "/service-areas/albany-mn/job-type-id-bathroom-remodeling/",
         "/service-areas/avon-mn/job-type-id-bathroom-remodeling/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/long-prairie-mn/job-type-id-construction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Construction in Long Prairie, MN | Heritage Restoration LLC",
-      "h1": "Construction in Long Prairie",
-      "meta_description": "Construction in Long Prairie, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "construction long prairie",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/job-type-id-construction/",
-        "/service-areas/long-prairie-mn/",
-        "/service-areas/long-prairie-mn/fire-damage-restoration/",
-        "/service-areas/long-prairie-mn/mold-remediation/",
-        "/service-areas/albany-mn/job-type-id-construction/",
-        "/service-areas/avon-mn/job-type-id-construction/",
         "/contact/"
       ]
     },
@@ -25351,46 +23013,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/albany-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Albany, MN | Heritage Restoration LLC",
-      "h1": "Water Removal in Albany",
-      "meta_description": "Water removal in Albany, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "24/7 emergency water removal albany",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/albany-mn/",
-        "/service-areas/albany-mn/fire-damage-restoration/",
-        "/service-areas/albany-mn/mold-remediation/",
-        "/service-areas/avon-mn/emergency-water-removal/",
-        "/service-areas/baxter-mn/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/albany-mn/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -25431,44 +23053,6 @@
         "/service-areas/albany-mn/mold-remediation/",
         "/service-areas/avon-mn/flood-damage-restoration/",
         "/service-areas/baxter-mn/flood-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/albany-mn/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Albany, MN | Heritage Restoration LLC",
-      "h1": "General Contractor in Albany",
-      "meta_description": "General contractor in Albany, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "general contractor albany",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/albany-mn/",
-        "/service-areas/albany-mn/fire-damage-restoration/",
-        "/service-areas/albany-mn/mold-remediation/",
-        "/service-areas/avon-mn/general-contractor/",
-        "/service-areas/baxter-mn/general-contractor/",
         "/contact/"
       ]
     },
@@ -25589,44 +23173,6 @@
         "/service-areas/albany-mn/mold-remediation/",
         "/service-areas/avon-mn/job-type-id-bathroom-remodeling/",
         "/service-areas/baxter-mn/job-type-id-bathroom-remodeling/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/albany-mn/job-type-id-construction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Construction in Albany, MN | Heritage Restoration LLC",
-      "h1": "Construction in Albany",
-      "meta_description": "Construction in Albany, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "construction albany",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/job-type-id-construction/",
-        "/service-areas/albany-mn/",
-        "/service-areas/albany-mn/fire-damage-restoration/",
-        "/service-areas/albany-mn/mold-remediation/",
-        "/service-areas/avon-mn/job-type-id-construction/",
-        "/service-areas/baxter-mn/job-type-id-construction/",
         "/contact/"
       ]
     },
@@ -26500,46 +24046,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/avon-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in Avon, MN | Heritage Restoration LLC",
-      "h1": "Water Removal in Avon",
-      "meta_description": "Water removal in Avon, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "24/7 emergency water removal avon",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/avon-mn/",
-        "/service-areas/avon-mn/fire-damage-restoration/",
-        "/service-areas/avon-mn/mold-remediation/",
-        "/service-areas/albany-mn/emergency-water-removal/",
-        "/service-areas/baxter-mn/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/avon-mn/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -26580,44 +24086,6 @@
         "/service-areas/avon-mn/mold-remediation/",
         "/service-areas/albany-mn/flood-damage-restoration/",
         "/service-areas/baxter-mn/flood-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/avon-mn/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Avon, MN | Heritage Restoration LLC",
-      "h1": "General Contractor in Avon",
-      "meta_description": "General contractor in Avon, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "general contractor avon",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/avon-mn/",
-        "/service-areas/avon-mn/fire-damage-restoration/",
-        "/service-areas/avon-mn/mold-remediation/",
-        "/service-areas/albany-mn/general-contractor/",
-        "/service-areas/baxter-mn/general-contractor/",
         "/contact/"
       ]
     },
@@ -26738,44 +24206,6 @@
         "/service-areas/avon-mn/mold-remediation/",
         "/service-areas/albany-mn/job-type-id-bathroom-remodeling/",
         "/service-areas/baxter-mn/job-type-id-bathroom-remodeling/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/avon-mn/job-type-id-construction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Construction in Avon, MN | Heritage Restoration LLC",
-      "h1": "Construction in Avon",
-      "meta_description": "Construction in Avon, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "construction avon",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/job-type-id-construction/",
-        "/service-areas/avon-mn/",
-        "/service-areas/avon-mn/fire-damage-restoration/",
-        "/service-areas/avon-mn/mold-remediation/",
-        "/service-areas/albany-mn/job-type-id-construction/",
-        "/service-areas/baxter-mn/job-type-id-construction/",
         "/contact/"
       ]
     },
@@ -27649,46 +25079,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/st-joseph-mn/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Water Removal in St. Joseph, MN | Heritage Restoration LLC",
-      "h1": "Water Removal in St. Joseph",
-      "meta_description": "Water removal in St. Joseph, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "24/7 emergency water removal st. joseph",
-      "secondary_keywords": [
-        "24 hour water damage restoration"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/st-joseph-mn/",
-        "/service-areas/st-joseph-mn/fire-damage-restoration/",
-        "/service-areas/st-joseph-mn/mold-remediation/",
-        "/service-areas/albany-mn/emergency-water-removal/",
-        "/service-areas/avon-mn/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/st-joseph-mn/flood-damage-restoration/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -27729,44 +25119,6 @@
         "/service-areas/st-joseph-mn/mold-remediation/",
         "/service-areas/albany-mn/flood-damage-restoration/",
         "/service-areas/avon-mn/flood-damage-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/st-joseph-mn/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in St. Joseph, MN | Heritage Restoration LLC",
-      "h1": "General Contractor in St. Joseph",
-      "meta_description": "General contractor in St. Joseph, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "general contractor st. joseph",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/st-joseph-mn/",
-        "/service-areas/st-joseph-mn/fire-damage-restoration/",
-        "/service-areas/st-joseph-mn/mold-remediation/",
-        "/service-areas/albany-mn/general-contractor/",
-        "/service-areas/avon-mn/general-contractor/",
         "/contact/"
       ]
     },
@@ -27887,44 +25239,6 @@
         "/service-areas/st-joseph-mn/mold-remediation/",
         "/service-areas/albany-mn/job-type-id-bathroom-remodeling/",
         "/service-areas/avon-mn/job-type-id-bathroom-remodeling/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/st-joseph-mn/job-type-id-construction/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Construction in St. Joseph, MN | Heritage Restoration LLC",
-      "h1": "Construction in St. Joseph",
-      "meta_description": "Construction in St. Joseph, MN. IICRC-certified, insurance billing accepted. Call (320) 733-8868.",
-      "primary_keyword": "construction st. joseph",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/job-type-id-construction/",
-        "/service-areas/st-joseph-mn/",
-        "/service-areas/st-joseph-mn/fire-damage-restoration/",
-        "/service-areas/st-joseph-mn/mold-remediation/",
-        "/service-areas/albany-mn/job-type-id-construction/",
-        "/service-areas/avon-mn/job-type-id-construction/",
         "/contact/"
       ]
     },

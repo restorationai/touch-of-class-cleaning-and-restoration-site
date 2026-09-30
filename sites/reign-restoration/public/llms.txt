@@ -52,7 +52,7 @@ This file is intended for AI assistants and language models to efficiently inges
 
 ### Core service pages
 - [Contents Restoration and Storage](https://reign-restoration.com/services/contents-restoration/)
-- [Contents Restoration & Storage](https://reign-restoration.com/services/contents-restoration-storage/)
+- [Contents Restoration & Storage](https://reign-restoration.com/services/contents-restoration/)
 - [Fire Damage Restoration](https://reign-restoration.com/services/fire-damage-restoration/)
 - [Renovations, Remodels and General Contracting](https://reign-restoration.com/services/general-contracting/)
 - [Mold Remediation](https://reign-restoration.com/services/mold-remediation/)

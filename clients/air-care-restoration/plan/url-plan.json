@@ -381,50 +381,6 @@
       ]
     },
     {
-      "url_path": "/services/air-duct-hvac-cleaning/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Abilene | Air Care Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Abilene",
-      "meta_description": "24/7 air duct & hvac cleaning in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "air duct & hvac cleaning abilene",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/albany-tx/air-duct-hvac-cleaning/",
-        "/service-areas/anson-tx/air-duct-hvac-cleaning/",
-        "/service-areas/baird-tx/air-duct-hvac-cleaning/",
-        "/service-areas/ballinger-tx/air-duct-hvac-cleaning/",
-        "/service-areas/bronte-tx/air-duct-hvac-cleaning/",
-        "/service-areas/brownwood-tx/air-duct-hvac-cleaning/",
-        "/service-areas/buffalo-gap-tx/air-duct-hvac-cleaning/",
-        "/service-areas/clyde-tx/air-duct-hvac-cleaning/",
-        "/service-areas/coleman-tx/air-duct-hvac-cleaning/",
-        "/service-areas/colorado-city-tx/air-duct-hvac-cleaning/",
-        "/service-areas/comanche-tx/air-duct-hvac-cleaning/",
-        "/service-areas/early-tx/air-duct-hvac-cleaning/"
-      ]
-    },
-    {
       "url_path": "/services/asbestos-abatement/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -572,50 +528,6 @@
         "/service-areas/colorado-city-tx/contents-restoration/",
         "/service-areas/comanche-tx/contents-restoration/",
         "/service-areas/early-tx/contents-restoration/"
-      ]
-    },
-    {
-      "url_path": "/services/contents-restoration-storage/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Abilene | Air Care Restoration",
-      "h1": "Contents Restoration & Storage in Abilene",
-      "meta_description": "24/7 contents restoration & storage in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "contents restoration & storage abilene",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/albany-tx/contents-restoration-storage/",
-        "/service-areas/anson-tx/contents-restoration-storage/",
-        "/service-areas/baird-tx/contents-restoration-storage/",
-        "/service-areas/ballinger-tx/contents-restoration-storage/",
-        "/service-areas/bronte-tx/contents-restoration-storage/",
-        "/service-areas/brownwood-tx/contents-restoration-storage/",
-        "/service-areas/buffalo-gap-tx/contents-restoration-storage/",
-        "/service-areas/clyde-tx/contents-restoration-storage/",
-        "/service-areas/coleman-tx/contents-restoration-storage/",
-        "/service-areas/colorado-city-tx/contents-restoration-storage/",
-        "/service-areas/comanche-tx/contents-restoration-storage/",
-        "/service-areas/early-tx/contents-restoration-storage/"
       ]
     },
     {
@@ -1778,56 +1690,6 @@
         "/service-areas/colorado-city-tx/water-leak-detection/",
         "/service-areas/comanche-tx/water-leak-detection/",
         "/service-areas/early-tx/water-leak-detection/"
-      ]
-    },
-    {
-      "url_path": "/services/emergency-water-removal/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Abilene | Air Care Restoration",
-      "h1": "24/7 Emergency Water Removal in Abilene",
-      "meta_description": "24/7 24/7 emergency water removal in Abilene and surrounding areas. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "24/7 emergency water removal abilene",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 8.1,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/albany-tx/emergency-water-removal/",
-        "/service-areas/anson-tx/emergency-water-removal/",
-        "/service-areas/baird-tx/emergency-water-removal/",
-        "/service-areas/ballinger-tx/emergency-water-removal/",
-        "/service-areas/bronte-tx/emergency-water-removal/",
-        "/service-areas/brownwood-tx/emergency-water-removal/",
-        "/service-areas/buffalo-gap-tx/emergency-water-removal/",
-        "/service-areas/clyde-tx/emergency-water-removal/",
-        "/service-areas/coleman-tx/emergency-water-removal/",
-        "/service-areas/colorado-city-tx/emergency-water-removal/",
-        "/service-areas/comanche-tx/emergency-water-removal/",
-        "/service-areas/early-tx/emergency-water-removal/"
       ]
     },
     {
@@ -3761,44 +3623,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/sweetwater-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Sweetwater, TX | Air Care Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Sweetwater",
-      "meta_description": "24/7 air duct & hvac cleaning in Sweetwater, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "air duct & hvac cleaning sweetwater",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/sweetwater-tx/",
-        "/service-areas/sweetwater-tx/fire-damage-restoration/",
-        "/service-areas/sweetwater-tx/mold-remediation/",
-        "/service-areas/albany-tx/air-duct-hvac-cleaning/",
-        "/service-areas/anson-tx/air-duct-hvac-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/sweetwater-tx/asbestos-abatement/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3927,44 +3751,6 @@
         "/service-areas/sweetwater-tx/mold-remediation/",
         "/service-areas/albany-tx/contents-restoration/",
         "/service-areas/anson-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sweetwater-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Sweetwater, TX | Air Care Restoration",
-      "h1": "Contents Restoration & Storage in Sweetwater",
-      "meta_description": "24/7 contents restoration & storage in Sweetwater, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "contents restoration & storage sweetwater",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/sweetwater-tx/",
-        "/service-areas/sweetwater-tx/fire-damage-restoration/",
-        "/service-areas/sweetwater-tx/mold-remediation/",
-        "/service-areas/albany-tx/contents-restoration-storage/",
-        "/service-areas/anson-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -4981,50 +4767,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/sweetwater-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Sweetwater, TX | Air Care Restoration",
-      "h1": "24/7 Emergency Water Removal in Sweetwater",
-      "meta_description": "24/7 24/7 emergency water removal in Sweetwater, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "24/7 emergency water removal sweetwater",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/sweetwater-tx/",
-        "/service-areas/sweetwater-tx/fire-damage-restoration/",
-        "/service-areas/sweetwater-tx/mold-remediation/",
-        "/service-areas/albany-tx/emergency-water-removal/",
-        "/service-areas/anson-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/sweetwater-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5109,44 +4851,6 @@
         "/service-areas/clyde-tx/mold-remediation/",
         "/service-areas/albany-tx/air-duct-cleaning/",
         "/service-areas/anson-tx/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/clyde-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Clyde, TX | Air Care Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Clyde",
-      "meta_description": "24/7 air duct & hvac cleaning in Clyde, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "air duct & hvac cleaning clyde",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/clyde-tx/",
-        "/service-areas/clyde-tx/fire-damage-restoration/",
-        "/service-areas/clyde-tx/mold-remediation/",
-        "/service-areas/albany-tx/air-duct-hvac-cleaning/",
-        "/service-areas/anson-tx/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -5279,44 +4983,6 @@
         "/service-areas/clyde-tx/mold-remediation/",
         "/service-areas/albany-tx/contents-restoration/",
         "/service-areas/anson-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/clyde-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Clyde, TX | Air Care Restoration",
-      "h1": "Contents Restoration & Storage in Clyde",
-      "meta_description": "24/7 contents restoration & storage in Clyde, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "contents restoration & storage clyde",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/clyde-tx/",
-        "/service-areas/clyde-tx/fire-damage-restoration/",
-        "/service-areas/clyde-tx/mold-remediation/",
-        "/service-areas/albany-tx/contents-restoration-storage/",
-        "/service-areas/anson-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -6333,50 +5999,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/clyde-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Clyde, TX | Air Care Restoration",
-      "h1": "24/7 Emergency Water Removal in Clyde",
-      "meta_description": "24/7 24/7 emergency water removal in Clyde, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "24/7 emergency water removal clyde",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/clyde-tx/",
-        "/service-areas/clyde-tx/fire-damage-restoration/",
-        "/service-areas/clyde-tx/mold-remediation/",
-        "/service-areas/albany-tx/emergency-water-removal/",
-        "/service-areas/anson-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/clyde-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6461,44 +6083,6 @@
         "/service-areas/merkel-tx/mold-remediation/",
         "/service-areas/albany-tx/air-duct-cleaning/",
         "/service-areas/anson-tx/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/merkel-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Merkel, TX | Air Care Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Merkel",
-      "meta_description": "24/7 air duct & hvac cleaning in Merkel, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "air duct & hvac cleaning merkel",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/merkel-tx/",
-        "/service-areas/merkel-tx/fire-damage-restoration/",
-        "/service-areas/merkel-tx/mold-remediation/",
-        "/service-areas/albany-tx/air-duct-hvac-cleaning/",
-        "/service-areas/anson-tx/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -6631,44 +6215,6 @@
         "/service-areas/merkel-tx/mold-remediation/",
         "/service-areas/albany-tx/contents-restoration/",
         "/service-areas/anson-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/merkel-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Merkel, TX | Air Care Restoration",
-      "h1": "Contents Restoration & Storage in Merkel",
-      "meta_description": "24/7 contents restoration & storage in Merkel, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "contents restoration & storage merkel",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/merkel-tx/",
-        "/service-areas/merkel-tx/fire-damage-restoration/",
-        "/service-areas/merkel-tx/mold-remediation/",
-        "/service-areas/albany-tx/contents-restoration-storage/",
-        "/service-areas/anson-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -7685,50 +7231,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/merkel-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Merkel, TX | Air Care Restoration",
-      "h1": "24/7 Emergency Water Removal in Merkel",
-      "meta_description": "24/7 24/7 emergency water removal in Merkel, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "24/7 emergency water removal merkel",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/merkel-tx/",
-        "/service-areas/merkel-tx/fire-damage-restoration/",
-        "/service-areas/merkel-tx/mold-remediation/",
-        "/service-areas/albany-tx/emergency-water-removal/",
-        "/service-areas/anson-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/merkel-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7813,44 +7315,6 @@
         "/service-areas/anson-tx/mold-remediation/",
         "/service-areas/albany-tx/air-duct-cleaning/",
         "/service-areas/baird-tx/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/anson-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Anson, TX | Air Care Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Anson",
-      "meta_description": "24/7 air duct & hvac cleaning in Anson, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "air duct & hvac cleaning anson",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/anson-tx/",
-        "/service-areas/anson-tx/fire-damage-restoration/",
-        "/service-areas/anson-tx/mold-remediation/",
-        "/service-areas/albany-tx/air-duct-hvac-cleaning/",
-        "/service-areas/baird-tx/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -7983,44 +7447,6 @@
         "/service-areas/anson-tx/mold-remediation/",
         "/service-areas/albany-tx/contents-restoration/",
         "/service-areas/baird-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/anson-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Anson, TX | Air Care Restoration",
-      "h1": "Contents Restoration & Storage in Anson",
-      "meta_description": "24/7 contents restoration & storage in Anson, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "contents restoration & storage anson",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/anson-tx/",
-        "/service-areas/anson-tx/fire-damage-restoration/",
-        "/service-areas/anson-tx/mold-remediation/",
-        "/service-areas/albany-tx/contents-restoration-storage/",
-        "/service-areas/baird-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -9037,50 +8463,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/anson-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Anson, TX | Air Care Restoration",
-      "h1": "24/7 Emergency Water Removal in Anson",
-      "meta_description": "24/7 24/7 emergency water removal in Anson, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "24/7 emergency water removal anson",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/anson-tx/",
-        "/service-areas/anson-tx/fire-damage-restoration/",
-        "/service-areas/anson-tx/mold-remediation/",
-        "/service-areas/albany-tx/emergency-water-removal/",
-        "/service-areas/baird-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/anson-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9165,44 +8547,6 @@
         "/service-areas/tuscola-tx/mold-remediation/",
         "/service-areas/albany-tx/air-duct-cleaning/",
         "/service-areas/anson-tx/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/tuscola-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Tuscola, TX | Air Care Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Tuscola",
-      "meta_description": "24/7 air duct & hvac cleaning in Tuscola, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "air duct & hvac cleaning tuscola",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/tuscola-tx/",
-        "/service-areas/tuscola-tx/fire-damage-restoration/",
-        "/service-areas/tuscola-tx/mold-remediation/",
-        "/service-areas/albany-tx/air-duct-hvac-cleaning/",
-        "/service-areas/anson-tx/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -9335,44 +8679,6 @@
         "/service-areas/tuscola-tx/mold-remediation/",
         "/service-areas/albany-tx/contents-restoration/",
         "/service-areas/anson-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/tuscola-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Tuscola, TX | Air Care Restoration",
-      "h1": "Contents Restoration & Storage in Tuscola",
-      "meta_description": "24/7 contents restoration & storage in Tuscola, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "contents restoration & storage tuscola",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/tuscola-tx/",
-        "/service-areas/tuscola-tx/fire-damage-restoration/",
-        "/service-areas/tuscola-tx/mold-remediation/",
-        "/service-areas/albany-tx/contents-restoration-storage/",
-        "/service-areas/anson-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -10389,50 +9695,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/tuscola-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Tuscola, TX | Air Care Restoration",
-      "h1": "24/7 Emergency Water Removal in Tuscola",
-      "meta_description": "24/7 24/7 emergency water removal in Tuscola, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "24/7 emergency water removal tuscola",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/tuscola-tx/",
-        "/service-areas/tuscola-tx/fire-damage-restoration/",
-        "/service-areas/tuscola-tx/mold-remediation/",
-        "/service-areas/albany-tx/emergency-water-removal/",
-        "/service-areas/anson-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/tuscola-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10517,44 +9779,6 @@
         "/service-areas/tye-tx/mold-remediation/",
         "/service-areas/albany-tx/air-duct-cleaning/",
         "/service-areas/anson-tx/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/tye-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Tye, TX | Air Care Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Tye",
-      "meta_description": "24/7 air duct & hvac cleaning in Tye, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "air duct & hvac cleaning tye",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/tye-tx/",
-        "/service-areas/tye-tx/fire-damage-restoration/",
-        "/service-areas/tye-tx/mold-remediation/",
-        "/service-areas/albany-tx/air-duct-hvac-cleaning/",
-        "/service-areas/anson-tx/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -10687,44 +9911,6 @@
         "/service-areas/tye-tx/mold-remediation/",
         "/service-areas/albany-tx/contents-restoration/",
         "/service-areas/anson-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/tye-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Tye, TX | Air Care Restoration",
-      "h1": "Contents Restoration & Storage in Tye",
-      "meta_description": "24/7 contents restoration & storage in Tye, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "contents restoration & storage tye",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/tye-tx/",
-        "/service-areas/tye-tx/fire-damage-restoration/",
-        "/service-areas/tye-tx/mold-remediation/",
-        "/service-areas/albany-tx/contents-restoration-storage/",
-        "/service-areas/anson-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -11741,50 +10927,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/tye-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Tye, TX | Air Care Restoration",
-      "h1": "24/7 Emergency Water Removal in Tye",
-      "meta_description": "24/7 24/7 emergency water removal in Tye, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "24/7 emergency water removal tye",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/tye-tx/",
-        "/service-areas/tye-tx/fire-damage-restoration/",
-        "/service-areas/tye-tx/mold-remediation/",
-        "/service-areas/albany-tx/emergency-water-removal/",
-        "/service-areas/anson-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/tye-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -11869,44 +11011,6 @@
         "/service-areas/buffalo-gap-tx/mold-remediation/",
         "/service-areas/albany-tx/air-duct-cleaning/",
         "/service-areas/anson-tx/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/buffalo-gap-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Buffalo Gap, TX | Air Care Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Buffalo Gap",
-      "meta_description": "24/7 air duct & hvac cleaning in Buffalo Gap, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "air duct & hvac cleaning buffalo gap",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/buffalo-gap-tx/",
-        "/service-areas/buffalo-gap-tx/fire-damage-restoration/",
-        "/service-areas/buffalo-gap-tx/mold-remediation/",
-        "/service-areas/albany-tx/air-duct-hvac-cleaning/",
-        "/service-areas/anson-tx/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -12039,44 +11143,6 @@
         "/service-areas/buffalo-gap-tx/mold-remediation/",
         "/service-areas/albany-tx/contents-restoration/",
         "/service-areas/anson-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/buffalo-gap-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Buffalo Gap, TX | Air Care Restoration",
-      "h1": "Contents Restoration & Storage in Buffalo Gap",
-      "meta_description": "24/7 contents restoration & storage in Buffalo Gap, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "contents restoration & storage buffalo gap",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/buffalo-gap-tx/",
-        "/service-areas/buffalo-gap-tx/fire-damage-restoration/",
-        "/service-areas/buffalo-gap-tx/mold-remediation/",
-        "/service-areas/albany-tx/contents-restoration-storage/",
-        "/service-areas/anson-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -13093,50 +12159,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/buffalo-gap-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Buffalo Gap, TX | Air Care Restoration",
-      "h1": "24/7 Emergency Water Removal in Buffalo Gap",
-      "meta_description": "24/7 24/7 emergency water removal in Buffalo Gap, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "24/7 emergency water removal buffalo gap",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/buffalo-gap-tx/",
-        "/service-areas/buffalo-gap-tx/fire-damage-restoration/",
-        "/service-areas/buffalo-gap-tx/mold-remediation/",
-        "/service-areas/albany-tx/emergency-water-removal/",
-        "/service-areas/anson-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/buffalo-gap-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13221,44 +12243,6 @@
         "/service-areas/brownwood-tx/mold-remediation/",
         "/service-areas/albany-tx/air-duct-cleaning/",
         "/service-areas/anson-tx/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/brownwood-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Brownwood, TX | Air Care Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Brownwood",
-      "meta_description": "24/7 air duct & hvac cleaning in Brownwood, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "air duct & hvac cleaning brownwood",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/brownwood-tx/",
-        "/service-areas/brownwood-tx/fire-damage-restoration/",
-        "/service-areas/brownwood-tx/mold-remediation/",
-        "/service-areas/albany-tx/air-duct-hvac-cleaning/",
-        "/service-areas/anson-tx/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -13391,44 +12375,6 @@
         "/service-areas/brownwood-tx/mold-remediation/",
         "/service-areas/albany-tx/contents-restoration/",
         "/service-areas/anson-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/brownwood-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Brownwood, TX | Air Care Restoration",
-      "h1": "Contents Restoration & Storage in Brownwood",
-      "meta_description": "24/7 contents restoration & storage in Brownwood, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "contents restoration & storage brownwood",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/brownwood-tx/",
-        "/service-areas/brownwood-tx/fire-damage-restoration/",
-        "/service-areas/brownwood-tx/mold-remediation/",
-        "/service-areas/albany-tx/contents-restoration-storage/",
-        "/service-areas/anson-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -14445,50 +13391,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/brownwood-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Brownwood, TX | Air Care Restoration",
-      "h1": "24/7 Emergency Water Removal in Brownwood",
-      "meta_description": "24/7 24/7 emergency water removal in Brownwood, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "24/7 emergency water removal brownwood",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/brownwood-tx/",
-        "/service-areas/brownwood-tx/fire-damage-restoration/",
-        "/service-areas/brownwood-tx/mold-remediation/",
-        "/service-areas/albany-tx/emergency-water-removal/",
-        "/service-areas/anson-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/brownwood-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14573,44 +13475,6 @@
         "/service-areas/early-tx/mold-remediation/",
         "/service-areas/albany-tx/air-duct-cleaning/",
         "/service-areas/anson-tx/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/early-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Early, TX | Air Care Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Early",
-      "meta_description": "24/7 air duct & hvac cleaning in Early, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "air duct & hvac cleaning early",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/early-tx/",
-        "/service-areas/early-tx/fire-damage-restoration/",
-        "/service-areas/early-tx/mold-remediation/",
-        "/service-areas/albany-tx/air-duct-hvac-cleaning/",
-        "/service-areas/anson-tx/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -14743,44 +13607,6 @@
         "/service-areas/early-tx/mold-remediation/",
         "/service-areas/albany-tx/contents-restoration/",
         "/service-areas/anson-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/early-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Early, TX | Air Care Restoration",
-      "h1": "Contents Restoration & Storage in Early",
-      "meta_description": "24/7 contents restoration & storage in Early, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "contents restoration & storage early",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/early-tx/",
-        "/service-areas/early-tx/fire-damage-restoration/",
-        "/service-areas/early-tx/mold-remediation/",
-        "/service-areas/albany-tx/contents-restoration-storage/",
-        "/service-areas/anson-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -15797,50 +14623,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/early-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Early, TX | Air Care Restoration",
-      "h1": "24/7 Emergency Water Removal in Early",
-      "meta_description": "24/7 24/7 emergency water removal in Early, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "24/7 emergency water removal early",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/early-tx/",
-        "/service-areas/early-tx/fire-damage-restoration/",
-        "/service-areas/early-tx/mold-remediation/",
-        "/service-areas/albany-tx/emergency-water-removal/",
-        "/service-areas/anson-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/early-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -15925,44 +14707,6 @@
         "/service-areas/roby-tx/mold-remediation/",
         "/service-areas/albany-tx/air-duct-cleaning/",
         "/service-areas/anson-tx/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/roby-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Roby, TX | Air Care Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Roby",
-      "meta_description": "24/7 air duct & hvac cleaning in Roby, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "air duct & hvac cleaning roby",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/roby-tx/",
-        "/service-areas/roby-tx/fire-damage-restoration/",
-        "/service-areas/roby-tx/mold-remediation/",
-        "/service-areas/albany-tx/air-duct-hvac-cleaning/",
-        "/service-areas/anson-tx/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -16095,44 +14839,6 @@
         "/service-areas/roby-tx/mold-remediation/",
         "/service-areas/albany-tx/contents-restoration/",
         "/service-areas/anson-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/roby-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Roby, TX | Air Care Restoration",
-      "h1": "Contents Restoration & Storage in Roby",
-      "meta_description": "24/7 contents restoration & storage in Roby, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "contents restoration & storage roby",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/roby-tx/",
-        "/service-areas/roby-tx/fire-damage-restoration/",
-        "/service-areas/roby-tx/mold-remediation/",
-        "/service-areas/albany-tx/contents-restoration-storage/",
-        "/service-areas/anson-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -17149,50 +15855,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/roby-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Roby, TX | Air Care Restoration",
-      "h1": "24/7 Emergency Water Removal in Roby",
-      "meta_description": "24/7 24/7 emergency water removal in Roby, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "24/7 emergency water removal roby",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/roby-tx/",
-        "/service-areas/roby-tx/fire-damage-restoration/",
-        "/service-areas/roby-tx/mold-remediation/",
-        "/service-areas/albany-tx/emergency-water-removal/",
-        "/service-areas/anson-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/roby-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17277,44 +15939,6 @@
         "/service-areas/rotan-tx/mold-remediation/",
         "/service-areas/albany-tx/air-duct-cleaning/",
         "/service-areas/anson-tx/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/rotan-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Rotan, TX | Air Care Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Rotan",
-      "meta_description": "24/7 air duct & hvac cleaning in Rotan, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "air duct & hvac cleaning rotan",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/rotan-tx/",
-        "/service-areas/rotan-tx/fire-damage-restoration/",
-        "/service-areas/rotan-tx/mold-remediation/",
-        "/service-areas/albany-tx/air-duct-hvac-cleaning/",
-        "/service-areas/anson-tx/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -17447,44 +16071,6 @@
         "/service-areas/rotan-tx/mold-remediation/",
         "/service-areas/albany-tx/contents-restoration/",
         "/service-areas/anson-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/rotan-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Rotan, TX | Air Care Restoration",
-      "h1": "Contents Restoration & Storage in Rotan",
-      "meta_description": "24/7 contents restoration & storage in Rotan, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "contents restoration & storage rotan",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/rotan-tx/",
-        "/service-areas/rotan-tx/fire-damage-restoration/",
-        "/service-areas/rotan-tx/mold-remediation/",
-        "/service-areas/albany-tx/contents-restoration-storage/",
-        "/service-areas/anson-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -18501,50 +17087,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/rotan-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Rotan, TX | Air Care Restoration",
-      "h1": "24/7 Emergency Water Removal in Rotan",
-      "meta_description": "24/7 24/7 emergency water removal in Rotan, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "24/7 emergency water removal rotan",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/rotan-tx/",
-        "/service-areas/rotan-tx/fire-damage-restoration/",
-        "/service-areas/rotan-tx/mold-remediation/",
-        "/service-areas/albany-tx/emergency-water-removal/",
-        "/service-areas/anson-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/rotan-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -18629,44 +17171,6 @@
         "/service-areas/robert-lee-tx/mold-remediation/",
         "/service-areas/albany-tx/air-duct-cleaning/",
         "/service-areas/anson-tx/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/robert-lee-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Robert Lee, TX | Air Care Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Robert Lee",
-      "meta_description": "24/7 air duct & hvac cleaning in Robert Lee, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "air duct & hvac cleaning robert lee",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/robert-lee-tx/",
-        "/service-areas/robert-lee-tx/fire-damage-restoration/",
-        "/service-areas/robert-lee-tx/mold-remediation/",
-        "/service-areas/albany-tx/air-duct-hvac-cleaning/",
-        "/service-areas/anson-tx/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -18799,44 +17303,6 @@
         "/service-areas/robert-lee-tx/mold-remediation/",
         "/service-areas/albany-tx/contents-restoration/",
         "/service-areas/anson-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/robert-lee-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Robert Lee, TX | Air Care Restoration",
-      "h1": "Contents Restoration & Storage in Robert Lee",
-      "meta_description": "24/7 contents restoration & storage in Robert Lee, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "contents restoration & storage robert lee",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/robert-lee-tx/",
-        "/service-areas/robert-lee-tx/fire-damage-restoration/",
-        "/service-areas/robert-lee-tx/mold-remediation/",
-        "/service-areas/albany-tx/contents-restoration-storage/",
-        "/service-areas/anson-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -19853,50 +18319,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/robert-lee-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Robert Lee, TX | Air Care Restoration",
-      "h1": "24/7 Emergency Water Removal in Robert Lee",
-      "meta_description": "24/7 24/7 emergency water removal in Robert Lee, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "24/7 emergency water removal robert lee",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/robert-lee-tx/",
-        "/service-areas/robert-lee-tx/fire-damage-restoration/",
-        "/service-areas/robert-lee-tx/mold-remediation/",
-        "/service-areas/albany-tx/emergency-water-removal/",
-        "/service-areas/anson-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/robert-lee-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -19981,44 +18403,6 @@
         "/service-areas/bronte-tx/mold-remediation/",
         "/service-areas/albany-tx/air-duct-cleaning/",
         "/service-areas/anson-tx/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/bronte-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Bronte, TX | Air Care Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Bronte",
-      "meta_description": "24/7 air duct & hvac cleaning in Bronte, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "air duct & hvac cleaning bronte",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/bronte-tx/",
-        "/service-areas/bronte-tx/fire-damage-restoration/",
-        "/service-areas/bronte-tx/mold-remediation/",
-        "/service-areas/albany-tx/air-duct-hvac-cleaning/",
-        "/service-areas/anson-tx/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -20151,44 +18535,6 @@
         "/service-areas/bronte-tx/mold-remediation/",
         "/service-areas/albany-tx/contents-restoration/",
         "/service-areas/anson-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/bronte-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Bronte, TX | Air Care Restoration",
-      "h1": "Contents Restoration & Storage in Bronte",
-      "meta_description": "24/7 contents restoration & storage in Bronte, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "contents restoration & storage bronte",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/bronte-tx/",
-        "/service-areas/bronte-tx/fire-damage-restoration/",
-        "/service-areas/bronte-tx/mold-remediation/",
-        "/service-areas/albany-tx/contents-restoration-storage/",
-        "/service-areas/anson-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -21205,50 +19551,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/bronte-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Bronte, TX | Air Care Restoration",
-      "h1": "24/7 Emergency Water Removal in Bronte",
-      "meta_description": "24/7 24/7 emergency water removal in Bronte, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "24/7 emergency water removal bronte",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/bronte-tx/",
-        "/service-areas/bronte-tx/fire-damage-restoration/",
-        "/service-areas/bronte-tx/mold-remediation/",
-        "/service-areas/albany-tx/emergency-water-removal/",
-        "/service-areas/anson-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/bronte-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -21333,44 +19635,6 @@
         "/service-areas/eden-tx/mold-remediation/",
         "/service-areas/albany-tx/air-duct-cleaning/",
         "/service-areas/anson-tx/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/eden-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Eden, TX | Air Care Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Eden",
-      "meta_description": "24/7 air duct & hvac cleaning in Eden, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "air duct & hvac cleaning eden",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/eden-tx/",
-        "/service-areas/eden-tx/fire-damage-restoration/",
-        "/service-areas/eden-tx/mold-remediation/",
-        "/service-areas/albany-tx/air-duct-hvac-cleaning/",
-        "/service-areas/anson-tx/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -21503,44 +19767,6 @@
         "/service-areas/eden-tx/mold-remediation/",
         "/service-areas/albany-tx/contents-restoration/",
         "/service-areas/anson-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/eden-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Eden, TX | Air Care Restoration",
-      "h1": "Contents Restoration & Storage in Eden",
-      "meta_description": "24/7 contents restoration & storage in Eden, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "contents restoration & storage eden",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/eden-tx/",
-        "/service-areas/eden-tx/fire-damage-restoration/",
-        "/service-areas/eden-tx/mold-remediation/",
-        "/service-areas/albany-tx/contents-restoration-storage/",
-        "/service-areas/anson-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -22557,50 +20783,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/eden-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Eden, TX | Air Care Restoration",
-      "h1": "24/7 Emergency Water Removal in Eden",
-      "meta_description": "24/7 24/7 emergency water removal in Eden, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "24/7 emergency water removal eden",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/eden-tx/",
-        "/service-areas/eden-tx/fire-damage-restoration/",
-        "/service-areas/eden-tx/mold-remediation/",
-        "/service-areas/albany-tx/emergency-water-removal/",
-        "/service-areas/anson-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/eden-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -22685,44 +20867,6 @@
         "/service-areas/paint-rock-tx/mold-remediation/",
         "/service-areas/albany-tx/air-duct-cleaning/",
         "/service-areas/anson-tx/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/paint-rock-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Paint Rock, TX | Air Care Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Paint Rock",
-      "meta_description": "24/7 air duct & hvac cleaning in Paint Rock, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "air duct & hvac cleaning paint rock",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/paint-rock-tx/",
-        "/service-areas/paint-rock-tx/fire-damage-restoration/",
-        "/service-areas/paint-rock-tx/mold-remediation/",
-        "/service-areas/albany-tx/air-duct-hvac-cleaning/",
-        "/service-areas/anson-tx/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -22855,44 +20999,6 @@
         "/service-areas/paint-rock-tx/mold-remediation/",
         "/service-areas/albany-tx/contents-restoration/",
         "/service-areas/anson-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/paint-rock-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Paint Rock, TX | Air Care Restoration",
-      "h1": "Contents Restoration & Storage in Paint Rock",
-      "meta_description": "24/7 contents restoration & storage in Paint Rock, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "contents restoration & storage paint rock",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/paint-rock-tx/",
-        "/service-areas/paint-rock-tx/fire-damage-restoration/",
-        "/service-areas/paint-rock-tx/mold-remediation/",
-        "/service-areas/albany-tx/contents-restoration-storage/",
-        "/service-areas/anson-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -23909,50 +22015,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/paint-rock-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Paint Rock, TX | Air Care Restoration",
-      "h1": "24/7 Emergency Water Removal in Paint Rock",
-      "meta_description": "24/7 24/7 emergency water removal in Paint Rock, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "24/7 emergency water removal paint rock",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/paint-rock-tx/",
-        "/service-areas/paint-rock-tx/fire-damage-restoration/",
-        "/service-areas/paint-rock-tx/mold-remediation/",
-        "/service-areas/albany-tx/emergency-water-removal/",
-        "/service-areas/anson-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/paint-rock-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -24037,44 +22099,6 @@
         "/service-areas/san-angelo-tx/mold-remediation/",
         "/service-areas/albany-tx/air-duct-cleaning/",
         "/service-areas/anson-tx/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/san-angelo-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in San Angelo, TX | Air Care Restoration",
-      "h1": "Air Duct & HVAC Cleaning in San Angelo",
-      "meta_description": "24/7 air duct & hvac cleaning in San Angelo, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "air duct & hvac cleaning san angelo",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/san-angelo-tx/",
-        "/service-areas/san-angelo-tx/fire-damage-restoration/",
-        "/service-areas/san-angelo-tx/mold-remediation/",
-        "/service-areas/albany-tx/air-duct-hvac-cleaning/",
-        "/service-areas/anson-tx/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -24207,44 +22231,6 @@
         "/service-areas/san-angelo-tx/mold-remediation/",
         "/service-areas/albany-tx/contents-restoration/",
         "/service-areas/anson-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/san-angelo-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in San Angelo, TX | Air Care Restoration",
-      "h1": "Contents Restoration & Storage in San Angelo",
-      "meta_description": "24/7 contents restoration & storage in San Angelo, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "contents restoration & storage san angelo",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/san-angelo-tx/",
-        "/service-areas/san-angelo-tx/fire-damage-restoration/",
-        "/service-areas/san-angelo-tx/mold-remediation/",
-        "/service-areas/albany-tx/contents-restoration-storage/",
-        "/service-areas/anson-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -25261,50 +23247,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/san-angelo-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in San Angelo, TX | Air Care Restoration",
-      "h1": "24/7 Emergency Water Removal in San Angelo",
-      "meta_description": "24/7 24/7 emergency water removal in San Angelo, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "24/7 emergency water removal san angelo",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/san-angelo-tx/",
-        "/service-areas/san-angelo-tx/fire-damage-restoration/",
-        "/service-areas/san-angelo-tx/mold-remediation/",
-        "/service-areas/albany-tx/emergency-water-removal/",
-        "/service-areas/anson-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/san-angelo-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -25389,44 +23331,6 @@
         "/service-areas/snyder-tx/mold-remediation/",
         "/service-areas/albany-tx/air-duct-cleaning/",
         "/service-areas/anson-tx/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/snyder-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Snyder, TX | Air Care Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Snyder",
-      "meta_description": "24/7 air duct & hvac cleaning in Snyder, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "air duct & hvac cleaning snyder",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/snyder-tx/",
-        "/service-areas/snyder-tx/fire-damage-restoration/",
-        "/service-areas/snyder-tx/mold-remediation/",
-        "/service-areas/albany-tx/air-duct-hvac-cleaning/",
-        "/service-areas/anson-tx/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -25559,44 +23463,6 @@
         "/service-areas/snyder-tx/mold-remediation/",
         "/service-areas/albany-tx/contents-restoration/",
         "/service-areas/anson-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/snyder-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Snyder, TX | Air Care Restoration",
-      "h1": "Contents Restoration & Storage in Snyder",
-      "meta_description": "24/7 contents restoration & storage in Snyder, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "contents restoration & storage snyder",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/snyder-tx/",
-        "/service-areas/snyder-tx/fire-damage-restoration/",
-        "/service-areas/snyder-tx/mold-remediation/",
-        "/service-areas/albany-tx/contents-restoration-storage/",
-        "/service-areas/anson-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -26613,50 +24479,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/snyder-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Snyder, TX | Air Care Restoration",
-      "h1": "24/7 Emergency Water Removal in Snyder",
-      "meta_description": "24/7 24/7 emergency water removal in Snyder, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "24/7 emergency water removal snyder",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/snyder-tx/",
-        "/service-areas/snyder-tx/fire-damage-restoration/",
-        "/service-areas/snyder-tx/mold-remediation/",
-        "/service-areas/albany-tx/emergency-water-removal/",
-        "/service-areas/anson-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/snyder-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -26741,44 +24563,6 @@
         "/service-areas/coleman-tx/mold-remediation/",
         "/service-areas/albany-tx/air-duct-cleaning/",
         "/service-areas/anson-tx/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/coleman-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Coleman, TX | Air Care Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Coleman",
-      "meta_description": "24/7 air duct & hvac cleaning in Coleman, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "air duct & hvac cleaning coleman",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/coleman-tx/",
-        "/service-areas/coleman-tx/fire-damage-restoration/",
-        "/service-areas/coleman-tx/mold-remediation/",
-        "/service-areas/albany-tx/air-duct-hvac-cleaning/",
-        "/service-areas/anson-tx/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -26911,44 +24695,6 @@
         "/service-areas/coleman-tx/mold-remediation/",
         "/service-areas/albany-tx/contents-restoration/",
         "/service-areas/anson-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/coleman-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Coleman, TX | Air Care Restoration",
-      "h1": "Contents Restoration & Storage in Coleman",
-      "meta_description": "24/7 contents restoration & storage in Coleman, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "contents restoration & storage coleman",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/coleman-tx/",
-        "/service-areas/coleman-tx/fire-damage-restoration/",
-        "/service-areas/coleman-tx/mold-remediation/",
-        "/service-areas/albany-tx/contents-restoration-storage/",
-        "/service-areas/anson-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -27965,50 +25711,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/coleman-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Coleman, TX | Air Care Restoration",
-      "h1": "24/7 Emergency Water Removal in Coleman",
-      "meta_description": "24/7 24/7 emergency water removal in Coleman, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "24/7 emergency water removal coleman",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/coleman-tx/",
-        "/service-areas/coleman-tx/fire-damage-restoration/",
-        "/service-areas/coleman-tx/mold-remediation/",
-        "/service-areas/albany-tx/emergency-water-removal/",
-        "/service-areas/anson-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/coleman-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -28093,44 +25795,6 @@
         "/service-areas/ballinger-tx/mold-remediation/",
         "/service-areas/albany-tx/air-duct-cleaning/",
         "/service-areas/anson-tx/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/ballinger-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Ballinger, TX | Air Care Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Ballinger",
-      "meta_description": "24/7 air duct & hvac cleaning in Ballinger, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "air duct & hvac cleaning ballinger",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/ballinger-tx/",
-        "/service-areas/ballinger-tx/fire-damage-restoration/",
-        "/service-areas/ballinger-tx/mold-remediation/",
-        "/service-areas/albany-tx/air-duct-hvac-cleaning/",
-        "/service-areas/anson-tx/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -28263,44 +25927,6 @@
         "/service-areas/ballinger-tx/mold-remediation/",
         "/service-areas/albany-tx/contents-restoration/",
         "/service-areas/anson-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/ballinger-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Ballinger, TX | Air Care Restoration",
-      "h1": "Contents Restoration & Storage in Ballinger",
-      "meta_description": "24/7 contents restoration & storage in Ballinger, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "contents restoration & storage ballinger",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/ballinger-tx/",
-        "/service-areas/ballinger-tx/fire-damage-restoration/",
-        "/service-areas/ballinger-tx/mold-remediation/",
-        "/service-areas/albany-tx/contents-restoration-storage/",
-        "/service-areas/anson-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -29317,50 +26943,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/ballinger-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Ballinger, TX | Air Care Restoration",
-      "h1": "24/7 Emergency Water Removal in Ballinger",
-      "meta_description": "24/7 24/7 emergency water removal in Ballinger, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "24/7 emergency water removal ballinger",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/ballinger-tx/",
-        "/service-areas/ballinger-tx/fire-damage-restoration/",
-        "/service-areas/ballinger-tx/mold-remediation/",
-        "/service-areas/albany-tx/emergency-water-removal/",
-        "/service-areas/anson-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/ballinger-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -29445,44 +27027,6 @@
         "/service-areas/haskell-tx/mold-remediation/",
         "/service-areas/albany-tx/air-duct-cleaning/",
         "/service-areas/anson-tx/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/haskell-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Haskell, TX | Air Care Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Haskell",
-      "meta_description": "24/7 air duct & hvac cleaning in Haskell, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "air duct & hvac cleaning haskell",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/haskell-tx/",
-        "/service-areas/haskell-tx/fire-damage-restoration/",
-        "/service-areas/haskell-tx/mold-remediation/",
-        "/service-areas/albany-tx/air-duct-hvac-cleaning/",
-        "/service-areas/anson-tx/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -29615,44 +27159,6 @@
         "/service-areas/haskell-tx/mold-remediation/",
         "/service-areas/albany-tx/contents-restoration/",
         "/service-areas/anson-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/haskell-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Haskell, TX | Air Care Restoration",
-      "h1": "Contents Restoration & Storage in Haskell",
-      "meta_description": "24/7 contents restoration & storage in Haskell, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "contents restoration & storage haskell",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/haskell-tx/",
-        "/service-areas/haskell-tx/fire-damage-restoration/",
-        "/service-areas/haskell-tx/mold-remediation/",
-        "/service-areas/albany-tx/contents-restoration-storage/",
-        "/service-areas/anson-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -30669,50 +28175,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/haskell-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Haskell, TX | Air Care Restoration",
-      "h1": "24/7 Emergency Water Removal in Haskell",
-      "meta_description": "24/7 24/7 emergency water removal in Haskell, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "24/7 emergency water removal haskell",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/haskell-tx/",
-        "/service-areas/haskell-tx/fire-damage-restoration/",
-        "/service-areas/haskell-tx/mold-remediation/",
-        "/service-areas/albany-tx/emergency-water-removal/",
-        "/service-areas/anson-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/haskell-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -30797,44 +28259,6 @@
         "/service-areas/albany-tx/mold-remediation/",
         "/service-areas/anson-tx/air-duct-cleaning/",
         "/service-areas/baird-tx/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/albany-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Albany, TX | Air Care Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Albany",
-      "meta_description": "24/7 air duct & hvac cleaning in Albany, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "air duct & hvac cleaning albany",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/albany-tx/",
-        "/service-areas/albany-tx/fire-damage-restoration/",
-        "/service-areas/albany-tx/mold-remediation/",
-        "/service-areas/anson-tx/air-duct-hvac-cleaning/",
-        "/service-areas/baird-tx/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -30967,44 +28391,6 @@
         "/service-areas/albany-tx/mold-remediation/",
         "/service-areas/anson-tx/contents-restoration/",
         "/service-areas/baird-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/albany-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Albany, TX | Air Care Restoration",
-      "h1": "Contents Restoration & Storage in Albany",
-      "meta_description": "24/7 contents restoration & storage in Albany, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "contents restoration & storage albany",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/albany-tx/",
-        "/service-areas/albany-tx/fire-damage-restoration/",
-        "/service-areas/albany-tx/mold-remediation/",
-        "/service-areas/anson-tx/contents-restoration-storage/",
-        "/service-areas/baird-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -32021,50 +29407,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/albany-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Albany, TX | Air Care Restoration",
-      "h1": "24/7 Emergency Water Removal in Albany",
-      "meta_description": "24/7 24/7 emergency water removal in Albany, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "24/7 emergency water removal albany",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/albany-tx/",
-        "/service-areas/albany-tx/fire-damage-restoration/",
-        "/service-areas/albany-tx/mold-remediation/",
-        "/service-areas/anson-tx/emergency-water-removal/",
-        "/service-areas/baird-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/albany-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -32149,44 +29491,6 @@
         "/service-areas/eastland-tx/mold-remediation/",
         "/service-areas/albany-tx/air-duct-cleaning/",
         "/service-areas/anson-tx/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/eastland-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Eastland, TX | Air Care Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Eastland",
-      "meta_description": "24/7 air duct & hvac cleaning in Eastland, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "air duct & hvac cleaning eastland",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/eastland-tx/",
-        "/service-areas/eastland-tx/fire-damage-restoration/",
-        "/service-areas/eastland-tx/mold-remediation/",
-        "/service-areas/albany-tx/air-duct-hvac-cleaning/",
-        "/service-areas/anson-tx/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -32319,44 +29623,6 @@
         "/service-areas/eastland-tx/mold-remediation/",
         "/service-areas/albany-tx/contents-restoration/",
         "/service-areas/anson-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/eastland-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Eastland, TX | Air Care Restoration",
-      "h1": "Contents Restoration & Storage in Eastland",
-      "meta_description": "24/7 contents restoration & storage in Eastland, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "contents restoration & storage eastland",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/eastland-tx/",
-        "/service-areas/eastland-tx/fire-damage-restoration/",
-        "/service-areas/eastland-tx/mold-remediation/",
-        "/service-areas/albany-tx/contents-restoration-storage/",
-        "/service-areas/anson-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -33373,50 +30639,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/eastland-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Eastland, TX | Air Care Restoration",
-      "h1": "24/7 Emergency Water Removal in Eastland",
-      "meta_description": "24/7 24/7 emergency water removal in Eastland, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "24/7 emergency water removal eastland",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/eastland-tx/",
-        "/service-areas/eastland-tx/fire-damage-restoration/",
-        "/service-areas/eastland-tx/mold-remediation/",
-        "/service-areas/albany-tx/emergency-water-removal/",
-        "/service-areas/anson-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/eastland-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -33501,44 +30723,6 @@
         "/service-areas/colorado-city-tx/mold-remediation/",
         "/service-areas/albany-tx/air-duct-cleaning/",
         "/service-areas/anson-tx/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/colorado-city-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Colorado City, TX | Air Care Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Colorado City",
-      "meta_description": "24/7 air duct & hvac cleaning in Colorado City, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "air duct & hvac cleaning colorado city",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/colorado-city-tx/",
-        "/service-areas/colorado-city-tx/fire-damage-restoration/",
-        "/service-areas/colorado-city-tx/mold-remediation/",
-        "/service-areas/albany-tx/air-duct-hvac-cleaning/",
-        "/service-areas/anson-tx/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -33671,44 +30855,6 @@
         "/service-areas/colorado-city-tx/mold-remediation/",
         "/service-areas/albany-tx/contents-restoration/",
         "/service-areas/anson-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/colorado-city-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Colorado City, TX | Air Care Restoration",
-      "h1": "Contents Restoration & Storage in Colorado City",
-      "meta_description": "24/7 contents restoration & storage in Colorado City, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "contents restoration & storage colorado city",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/colorado-city-tx/",
-        "/service-areas/colorado-city-tx/fire-damage-restoration/",
-        "/service-areas/colorado-city-tx/mold-remediation/",
-        "/service-areas/albany-tx/contents-restoration-storage/",
-        "/service-areas/anson-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -34725,50 +31871,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/colorado-city-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Colorado City, TX | Air Care Restoration",
-      "h1": "24/7 Emergency Water Removal in Colorado City",
-      "meta_description": "24/7 24/7 emergency water removal in Colorado City, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "24/7 emergency water removal colorado city",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/colorado-city-tx/",
-        "/service-areas/colorado-city-tx/fire-damage-restoration/",
-        "/service-areas/colorado-city-tx/mold-remediation/",
-        "/service-areas/albany-tx/emergency-water-removal/",
-        "/service-areas/anson-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/colorado-city-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -34853,44 +31955,6 @@
         "/service-areas/comanche-tx/mold-remediation/",
         "/service-areas/albany-tx/air-duct-cleaning/",
         "/service-areas/anson-tx/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/comanche-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Comanche, TX | Air Care Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Comanche",
-      "meta_description": "24/7 air duct & hvac cleaning in Comanche, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "air duct & hvac cleaning comanche",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/comanche-tx/",
-        "/service-areas/comanche-tx/fire-damage-restoration/",
-        "/service-areas/comanche-tx/mold-remediation/",
-        "/service-areas/albany-tx/air-duct-hvac-cleaning/",
-        "/service-areas/anson-tx/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -35023,44 +32087,6 @@
         "/service-areas/comanche-tx/mold-remediation/",
         "/service-areas/albany-tx/contents-restoration/",
         "/service-areas/anson-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/comanche-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Comanche, TX | Air Care Restoration",
-      "h1": "Contents Restoration & Storage in Comanche",
-      "meta_description": "24/7 contents restoration & storage in Comanche, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "contents restoration & storage comanche",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/comanche-tx/",
-        "/service-areas/comanche-tx/fire-damage-restoration/",
-        "/service-areas/comanche-tx/mold-remediation/",
-        "/service-areas/albany-tx/contents-restoration-storage/",
-        "/service-areas/anson-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -36077,50 +33103,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/comanche-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Comanche, TX | Air Care Restoration",
-      "h1": "24/7 Emergency Water Removal in Comanche",
-      "meta_description": "24/7 24/7 emergency water removal in Comanche, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "24/7 emergency water removal comanche",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/comanche-tx/",
-        "/service-areas/comanche-tx/fire-damage-restoration/",
-        "/service-areas/comanche-tx/mold-remediation/",
-        "/service-areas/albany-tx/emergency-water-removal/",
-        "/service-areas/anson-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/comanche-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -36205,44 +33187,6 @@
         "/service-areas/potosi-tx/mold-remediation/",
         "/service-areas/albany-tx/air-duct-cleaning/",
         "/service-areas/anson-tx/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/potosi-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Potosi, TX | Air Care Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Potosi",
-      "meta_description": "24/7 air duct & hvac cleaning in Potosi, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "air duct & hvac cleaning potosi",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/potosi-tx/",
-        "/service-areas/potosi-tx/fire-damage-restoration/",
-        "/service-areas/potosi-tx/mold-remediation/",
-        "/service-areas/albany-tx/air-duct-hvac-cleaning/",
-        "/service-areas/anson-tx/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -36375,44 +33319,6 @@
         "/service-areas/potosi-tx/mold-remediation/",
         "/service-areas/albany-tx/contents-restoration/",
         "/service-areas/anson-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/potosi-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Potosi, TX | Air Care Restoration",
-      "h1": "Contents Restoration & Storage in Potosi",
-      "meta_description": "24/7 contents restoration & storage in Potosi, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "contents restoration & storage potosi",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/potosi-tx/",
-        "/service-areas/potosi-tx/fire-damage-restoration/",
-        "/service-areas/potosi-tx/mold-remediation/",
-        "/service-areas/albany-tx/contents-restoration-storage/",
-        "/service-areas/anson-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -37429,50 +34335,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/potosi-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Potosi, TX | Air Care Restoration",
-      "h1": "24/7 Emergency Water Removal in Potosi",
-      "meta_description": "24/7 24/7 emergency water removal in Potosi, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "24/7 emergency water removal potosi",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/potosi-tx/",
-        "/service-areas/potosi-tx/fire-damage-restoration/",
-        "/service-areas/potosi-tx/mold-remediation/",
-        "/service-areas/albany-tx/emergency-water-removal/",
-        "/service-areas/anson-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/potosi-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -37557,44 +34419,6 @@
         "/service-areas/hawley-tx/mold-remediation/",
         "/service-areas/albany-tx/air-duct-cleaning/",
         "/service-areas/anson-tx/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/hawley-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Hawley, TX | Air Care Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Hawley",
-      "meta_description": "24/7 air duct & hvac cleaning in Hawley, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "air duct & hvac cleaning hawley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/hawley-tx/",
-        "/service-areas/hawley-tx/fire-damage-restoration/",
-        "/service-areas/hawley-tx/mold-remediation/",
-        "/service-areas/albany-tx/air-duct-hvac-cleaning/",
-        "/service-areas/anson-tx/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -37727,44 +34551,6 @@
         "/service-areas/hawley-tx/mold-remediation/",
         "/service-areas/albany-tx/contents-restoration/",
         "/service-areas/anson-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/hawley-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Hawley, TX | Air Care Restoration",
-      "h1": "Contents Restoration & Storage in Hawley",
-      "meta_description": "24/7 contents restoration & storage in Hawley, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "contents restoration & storage hawley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/hawley-tx/",
-        "/service-areas/hawley-tx/fire-damage-restoration/",
-        "/service-areas/hawley-tx/mold-remediation/",
-        "/service-areas/albany-tx/contents-restoration-storage/",
-        "/service-areas/anson-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -38781,50 +35567,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/hawley-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Hawley, TX | Air Care Restoration",
-      "h1": "24/7 Emergency Water Removal in Hawley",
-      "meta_description": "24/7 24/7 emergency water removal in Hawley, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "24/7 emergency water removal hawley",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/hawley-tx/",
-        "/service-areas/hawley-tx/fire-damage-restoration/",
-        "/service-areas/hawley-tx/mold-remediation/",
-        "/service-areas/albany-tx/emergency-water-removal/",
-        "/service-areas/anson-tx/emergency-water-removal/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/hawley-tx/emergency-plumbing/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -38909,44 +35651,6 @@
         "/service-areas/baird-tx/mold-remediation/",
         "/service-areas/albany-tx/air-duct-cleaning/",
         "/service-areas/anson-tx/air-duct-cleaning/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/baird-tx/air-duct-hvac-cleaning/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct & HVAC Cleaning in Baird, TX | Air Care Restoration",
-      "h1": "Air Duct & HVAC Cleaning in Baird",
-      "meta_description": "24/7 air duct & hvac cleaning in Baird, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "air duct & hvac cleaning baird",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-hvac-cleaning/",
-        "/service-areas/baird-tx/",
-        "/service-areas/baird-tx/fire-damage-restoration/",
-        "/service-areas/baird-tx/mold-remediation/",
-        "/service-areas/albany-tx/air-duct-hvac-cleaning/",
-        "/service-areas/anson-tx/air-duct-hvac-cleaning/",
         "/contact/"
       ]
     },
@@ -39079,44 +35783,6 @@
         "/service-areas/baird-tx/mold-remediation/",
         "/service-areas/albany-tx/contents-restoration/",
         "/service-areas/anson-tx/contents-restoration/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/baird-tx/contents-restoration-storage/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Contents Restoration & Storage in Baird, TX | Air Care Restoration",
-      "h1": "Contents Restoration & Storage in Baird",
-      "meta_description": "24/7 contents restoration & storage in Baird, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "contents restoration & storage baird",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/contents-restoration-storage/",
-        "/service-areas/baird-tx/",
-        "/service-areas/baird-tx/fire-damage-restoration/",
-        "/service-areas/baird-tx/mold-remediation/",
-        "/service-areas/albany-tx/contents-restoration-storage/",
-        "/service-areas/anson-tx/contents-restoration-storage/",
         "/contact/"
       ]
     },
@@ -40129,50 +36795,6 @@
         "/service-areas/baird-tx/mold-remediation/",
         "/service-areas/albany-tx/water-leak-detection/",
         "/service-areas/anson-tx/water-leak-detection/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/baird-tx/emergency-water-removal/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Removal in Baird, TX | Air Care Restoration",
-      "h1": "24/7 Emergency Water Removal in Baird",
-      "meta_description": "24/7 24/7 emergency water removal in Baird, TX. IICRC-certified, insurance billing accepted. Call (325) 339-8723.",
-      "primary_keyword": "24/7 emergency water removal baird",
-      "secondary_keywords": [
-        "emergency water removal",
-        "emergency water damage",
-        "24 hour water damage restoration",
-        "emergency flood service",
-        "emergency water extraction"
-      ],
-      "search_intent": "local_emergency",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 6.3,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/emergency-water-removal/",
-        "/service-areas/baird-tx/",
-        "/service-areas/baird-tx/fire-damage-restoration/",
-        "/service-areas/baird-tx/mold-remediation/",
-        "/service-areas/albany-tx/emergency-water-removal/",
-        "/service-areas/anson-tx/emergency-water-removal/",
         "/contact/"
       ]
     },

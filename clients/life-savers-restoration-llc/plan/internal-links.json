@@ -12,7 +12,6 @@
     "/services/water-cleanup/",
     "/services/biohazard-cleanup/",
     "/services/odor-removal/",
-    "/services/contents-restoration-storage/",
     "/services/contents-restoration/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -44,7 +43,6 @@
     "/services/water-cleanup/",
     "/services/biohazard-cleanup/",
     "/services/odor-removal/",
-    "/services/contents-restoration-storage/",
     "/services/contents-restoration/"
   ],
   "/service-areas/": [
@@ -121,22 +119,6 @@
     "/service-areas/nelson-nv/contents-restoration/",
     "/service-areas/north-las-vegas-nv/contents-restoration/",
     "/service-areas/paradise-nv/contents-restoration/"
-  ],
-  "/services/contents-restoration-storage/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-    "/service-areas/boulder-city-nv/contents-restoration-storage/",
-    "/service-areas/cal-nev-ari-nv/contents-restoration-storage/",
-    "/service-areas/enterprise-nv/contents-restoration-storage/",
-    "/service-areas/goodsprings-nv/contents-restoration-storage/",
-    "/service-areas/indian-springs-nv/contents-restoration-storage/",
-    "/service-areas/las-vegas-nv/contents-restoration-storage/",
-    "/service-areas/laughlin-nv/contents-restoration-storage/",
-    "/service-areas/nellis-afb-nv/contents-restoration-storage/",
-    "/service-areas/nelson-nv/contents-restoration-storage/",
-    "/service-areas/north-las-vegas-nv/contents-restoration-storage/",
-    "/service-areas/paradise-nv/contents-restoration-storage/"
   ],
   "/services/fire-damage-restoration/": [
     "/services/",
@@ -271,7 +253,6 @@
     "/service-areas/las-vegas-nv/water-cleanup/",
     "/service-areas/las-vegas-nv/biohazard-cleanup/",
     "/service-areas/las-vegas-nv/odor-removal/",
-    "/service-areas/las-vegas-nv/contents-restoration-storage/",
     "/service-areas/las-vegas-nv/contents-restoration/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -288,7 +269,6 @@
     "/service-areas/north-las-vegas-nv/water-cleanup/",
     "/service-areas/north-las-vegas-nv/biohazard-cleanup/",
     "/service-areas/north-las-vegas-nv/odor-removal/",
-    "/service-areas/north-las-vegas-nv/contents-restoration-storage/",
     "/service-areas/north-las-vegas-nv/contents-restoration/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -305,7 +285,6 @@
     "/service-areas/paradise-nv/water-cleanup/",
     "/service-areas/paradise-nv/biohazard-cleanup/",
     "/service-areas/paradise-nv/odor-removal/",
-    "/service-areas/paradise-nv/contents-restoration-storage/",
     "/service-areas/paradise-nv/contents-restoration/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -322,7 +301,6 @@
     "/service-areas/spring-valley-nv/water-cleanup/",
     "/service-areas/spring-valley-nv/biohazard-cleanup/",
     "/service-areas/spring-valley-nv/odor-removal/",
-    "/service-areas/spring-valley-nv/contents-restoration-storage/",
     "/service-areas/spring-valley-nv/contents-restoration/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -339,7 +317,6 @@
     "/service-areas/enterprise-nv/water-cleanup/",
     "/service-areas/enterprise-nv/biohazard-cleanup/",
     "/service-areas/enterprise-nv/odor-removal/",
-    "/service-areas/enterprise-nv/contents-restoration-storage/",
     "/service-areas/enterprise-nv/contents-restoration/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -356,7 +333,6 @@
     "/service-areas/sunrise-manor-nv/water-cleanup/",
     "/service-areas/sunrise-manor-nv/biohazard-cleanup/",
     "/service-areas/sunrise-manor-nv/odor-removal/",
-    "/service-areas/sunrise-manor-nv/contents-restoration-storage/",
     "/service-areas/sunrise-manor-nv/contents-restoration/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -373,7 +349,6 @@
     "/service-areas/boulder-city-nv/water-cleanup/",
     "/service-areas/boulder-city-nv/biohazard-cleanup/",
     "/service-areas/boulder-city-nv/odor-removal/",
-    "/service-areas/boulder-city-nv/contents-restoration-storage/",
     "/service-areas/boulder-city-nv/contents-restoration/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/cal-nev-ari-nv/",
@@ -390,7 +365,6 @@
     "/service-areas/whitney-nv/water-cleanup/",
     "/service-areas/whitney-nv/biohazard-cleanup/",
     "/service-areas/whitney-nv/odor-removal/",
-    "/service-areas/whitney-nv/contents-restoration-storage/",
     "/service-areas/whitney-nv/contents-restoration/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -407,7 +381,6 @@
     "/service-areas/winchester-nv/water-cleanup/",
     "/service-areas/winchester-nv/biohazard-cleanup/",
     "/service-areas/winchester-nv/odor-removal/",
-    "/service-areas/winchester-nv/contents-restoration-storage/",
     "/service-areas/winchester-nv/contents-restoration/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -424,7 +397,6 @@
     "/service-areas/nellis-afb-nv/water-cleanup/",
     "/service-areas/nellis-afb-nv/biohazard-cleanup/",
     "/service-areas/nellis-afb-nv/odor-removal/",
-    "/service-areas/nellis-afb-nv/contents-restoration-storage/",
     "/service-areas/nellis-afb-nv/contents-restoration/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -441,7 +413,6 @@
     "/service-areas/summerlin-south-nv/water-cleanup/",
     "/service-areas/summerlin-south-nv/biohazard-cleanup/",
     "/service-areas/summerlin-south-nv/odor-removal/",
-    "/service-areas/summerlin-south-nv/contents-restoration-storage/",
     "/service-areas/summerlin-south-nv/contents-restoration/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -458,7 +429,6 @@
     "/service-areas/blue-diamond-nv/water-cleanup/",
     "/service-areas/blue-diamond-nv/biohazard-cleanup/",
     "/service-areas/blue-diamond-nv/odor-removal/",
-    "/service-areas/blue-diamond-nv/contents-restoration-storage/",
     "/service-areas/blue-diamond-nv/contents-restoration/",
     "/service-areas/boulder-city-nv/",
     "/service-areas/cal-nev-ari-nv/",
@@ -475,7 +445,6 @@
     "/service-areas/nelson-nv/water-cleanup/",
     "/service-areas/nelson-nv/biohazard-cleanup/",
     "/service-areas/nelson-nv/odor-removal/",
-    "/service-areas/nelson-nv/contents-restoration-storage/",
     "/service-areas/nelson-nv/contents-restoration/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -492,7 +461,6 @@
     "/service-areas/goodsprings-nv/water-cleanup/",
     "/service-areas/goodsprings-nv/biohazard-cleanup/",
     "/service-areas/goodsprings-nv/odor-removal/",
-    "/service-areas/goodsprings-nv/contents-restoration-storage/",
     "/service-areas/goodsprings-nv/contents-restoration/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -509,7 +477,6 @@
     "/service-areas/sandy-valley-nv/water-cleanup/",
     "/service-areas/sandy-valley-nv/biohazard-cleanup/",
     "/service-areas/sandy-valley-nv/odor-removal/",
-    "/service-areas/sandy-valley-nv/contents-restoration-storage/",
     "/service-areas/sandy-valley-nv/contents-restoration/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -526,7 +493,6 @@
     "/service-areas/searchlight-nv/water-cleanup/",
     "/service-areas/searchlight-nv/biohazard-cleanup/",
     "/service-areas/searchlight-nv/odor-removal/",
-    "/service-areas/searchlight-nv/contents-restoration-storage/",
     "/service-areas/searchlight-nv/contents-restoration/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -543,7 +509,6 @@
     "/service-areas/cal-nev-ari-nv/water-cleanup/",
     "/service-areas/cal-nev-ari-nv/biohazard-cleanup/",
     "/service-areas/cal-nev-ari-nv/odor-removal/",
-    "/service-areas/cal-nev-ari-nv/contents-restoration-storage/",
     "/service-areas/cal-nev-ari-nv/contents-restoration/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -560,7 +525,6 @@
     "/service-areas/indian-springs-nv/water-cleanup/",
     "/service-areas/indian-springs-nv/biohazard-cleanup/",
     "/service-areas/indian-springs-nv/odor-removal/",
-    "/service-areas/indian-springs-nv/contents-restoration-storage/",
     "/service-areas/indian-springs-nv/contents-restoration/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -577,7 +541,6 @@
     "/service-areas/laughlin-nv/water-cleanup/",
     "/service-areas/laughlin-nv/biohazard-cleanup/",
     "/service-areas/laughlin-nv/odor-removal/",
-    "/service-areas/laughlin-nv/contents-restoration-storage/",
     "/service-areas/laughlin-nv/contents-restoration/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -599,15 +562,6 @@
     "/service-areas/las-vegas-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/contents-restoration/",
     "/service-areas/boulder-city-nv/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/las-vegas-nv/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/las-vegas-nv/",
-    "/service-areas/las-vegas-nv/fire-damage-restoration/",
-    "/service-areas/las-vegas-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-    "/service-areas/boulder-city-nv/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/las-vegas-nv/fire-damage-restoration/": [
@@ -691,15 +645,6 @@
     "/service-areas/boulder-city-nv/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/north-las-vegas-nv/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/north-las-vegas-nv/",
-    "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
-    "/service-areas/north-las-vegas-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-    "/service-areas/boulder-city-nv/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/north-las-vegas-nv/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/north-las-vegas-nv/",
@@ -779,15 +724,6 @@
     "/service-areas/paradise-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/contents-restoration/",
     "/service-areas/boulder-city-nv/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/paradise-nv/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/paradise-nv/",
-    "/service-areas/paradise-nv/fire-damage-restoration/",
-    "/service-areas/paradise-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-    "/service-areas/boulder-city-nv/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/paradise-nv/fire-damage-restoration/": [
@@ -871,15 +807,6 @@
     "/service-areas/boulder-city-nv/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/spring-valley-nv/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/spring-valley-nv/",
-    "/service-areas/spring-valley-nv/fire-damage-restoration/",
-    "/service-areas/spring-valley-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-    "/service-areas/boulder-city-nv/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/spring-valley-nv/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/spring-valley-nv/",
@@ -959,15 +886,6 @@
     "/service-areas/enterprise-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/contents-restoration/",
     "/service-areas/boulder-city-nv/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/enterprise-nv/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/enterprise-nv/",
-    "/service-areas/enterprise-nv/fire-damage-restoration/",
-    "/service-areas/enterprise-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-    "/service-areas/boulder-city-nv/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/enterprise-nv/fire-damage-restoration/": [
@@ -1051,15 +969,6 @@
     "/service-areas/boulder-city-nv/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/sunrise-manor-nv/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/sunrise-manor-nv/",
-    "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
-    "/service-areas/sunrise-manor-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-    "/service-areas/boulder-city-nv/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/sunrise-manor-nv/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/sunrise-manor-nv/",
@@ -1139,15 +1048,6 @@
     "/service-areas/boulder-city-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/contents-restoration/",
     "/service-areas/cal-nev-ari-nv/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/boulder-city-nv/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/boulder-city-nv/",
-    "/service-areas/boulder-city-nv/fire-damage-restoration/",
-    "/service-areas/boulder-city-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-    "/service-areas/cal-nev-ari-nv/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/boulder-city-nv/fire-damage-restoration/": [
@@ -1231,15 +1131,6 @@
     "/service-areas/boulder-city-nv/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/whitney-nv/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/whitney-nv/",
-    "/service-areas/whitney-nv/fire-damage-restoration/",
-    "/service-areas/whitney-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-    "/service-areas/boulder-city-nv/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/whitney-nv/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/whitney-nv/",
@@ -1319,15 +1210,6 @@
     "/service-areas/winchester-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/contents-restoration/",
     "/service-areas/boulder-city-nv/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/winchester-nv/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/winchester-nv/",
-    "/service-areas/winchester-nv/fire-damage-restoration/",
-    "/service-areas/winchester-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-    "/service-areas/boulder-city-nv/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/winchester-nv/fire-damage-restoration/": [
@@ -1411,15 +1293,6 @@
     "/service-areas/boulder-city-nv/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/nellis-afb-nv/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/nellis-afb-nv/",
-    "/service-areas/nellis-afb-nv/fire-damage-restoration/",
-    "/service-areas/nellis-afb-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-    "/service-areas/boulder-city-nv/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/nellis-afb-nv/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/nellis-afb-nv/",
@@ -1499,15 +1372,6 @@
     "/service-areas/summerlin-south-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/contents-restoration/",
     "/service-areas/boulder-city-nv/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/summerlin-south-nv/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/summerlin-south-nv/",
-    "/service-areas/summerlin-south-nv/fire-damage-restoration/",
-    "/service-areas/summerlin-south-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-    "/service-areas/boulder-city-nv/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/summerlin-south-nv/fire-damage-restoration/": [
@@ -1591,15 +1455,6 @@
     "/service-areas/cal-nev-ari-nv/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/blue-diamond-nv/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/blue-diamond-nv/",
-    "/service-areas/blue-diamond-nv/fire-damage-restoration/",
-    "/service-areas/blue-diamond-nv/mold-remediation/",
-    "/service-areas/boulder-city-nv/contents-restoration-storage/",
-    "/service-areas/cal-nev-ari-nv/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/blue-diamond-nv/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/blue-diamond-nv/",
@@ -1679,15 +1534,6 @@
     "/service-areas/nelson-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/contents-restoration/",
     "/service-areas/boulder-city-nv/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/nelson-nv/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/nelson-nv/",
-    "/service-areas/nelson-nv/fire-damage-restoration/",
-    "/service-areas/nelson-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-    "/service-areas/boulder-city-nv/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/nelson-nv/fire-damage-restoration/": [
@@ -1771,15 +1617,6 @@
     "/service-areas/boulder-city-nv/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/goodsprings-nv/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/goodsprings-nv/",
-    "/service-areas/goodsprings-nv/fire-damage-restoration/",
-    "/service-areas/goodsprings-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-    "/service-areas/boulder-city-nv/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/goodsprings-nv/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/goodsprings-nv/",
@@ -1859,15 +1696,6 @@
     "/service-areas/sandy-valley-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/contents-restoration/",
     "/service-areas/boulder-city-nv/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/sandy-valley-nv/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/sandy-valley-nv/",
-    "/service-areas/sandy-valley-nv/fire-damage-restoration/",
-    "/service-areas/sandy-valley-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-    "/service-areas/boulder-city-nv/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/sandy-valley-nv/fire-damage-restoration/": [
@@ -1951,15 +1779,6 @@
     "/service-areas/boulder-city-nv/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/searchlight-nv/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/searchlight-nv/",
-    "/service-areas/searchlight-nv/fire-damage-restoration/",
-    "/service-areas/searchlight-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-    "/service-areas/boulder-city-nv/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/searchlight-nv/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/searchlight-nv/",
@@ -2039,15 +1858,6 @@
     "/service-areas/cal-nev-ari-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/contents-restoration/",
     "/service-areas/boulder-city-nv/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/cal-nev-ari-nv/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/cal-nev-ari-nv/",
-    "/service-areas/cal-nev-ari-nv/fire-damage-restoration/",
-    "/service-areas/cal-nev-ari-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-    "/service-areas/boulder-city-nv/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/cal-nev-ari-nv/fire-damage-restoration/": [
@@ -2131,15 +1941,6 @@
     "/service-areas/boulder-city-nv/contents-restoration/",
     "/contact/"
   ],
-  "/service-areas/indian-springs-nv/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/indian-springs-nv/",
-    "/service-areas/indian-springs-nv/fire-damage-restoration/",
-    "/service-areas/indian-springs-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-    "/service-areas/boulder-city-nv/contents-restoration-storage/",
-    "/contact/"
-  ],
   "/service-areas/indian-springs-nv/fire-damage-restoration/": [
     "/services/fire-damage-restoration/",
     "/service-areas/indian-springs-nv/",
@@ -2219,15 +2020,6 @@
     "/service-areas/laughlin-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/contents-restoration/",
     "/service-areas/boulder-city-nv/contents-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/laughlin-nv/contents-restoration-storage/": [
-    "/services/contents-restoration-storage/",
-    "/service-areas/laughlin-nv/",
-    "/service-areas/laughlin-nv/fire-damage-restoration/",
-    "/service-areas/laughlin-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-storage/",
-    "/service-areas/boulder-city-nv/contents-restoration-storage/",
     "/contact/"
   ],
   "/service-areas/laughlin-nv/fire-damage-restoration/": [

@@ -322,5 +322,13 @@
       "requested_by": "Angie",
       "why": "client asked to remove it (misspelled city built as tarina-ca)"
     }
+  ],
+  "homepage_services": [
+    "ac-repair",
+    "drain-cleaning",
+    "emergency-plumbing",
+    "water-heater-repair",
+    "ac-installation",
+    "burst-pipe-repair"
   ]
 }

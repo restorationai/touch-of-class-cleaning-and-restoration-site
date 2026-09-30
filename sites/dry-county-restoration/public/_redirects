@@ -99,3 +99,23 @@
 /portfolio/ / 301
 /web-components-not-pulish-this / 301
 /web-components-not-pulish-this/ / 301
+# duplicate service merge 2026-09-30: /services/emergency-water-removal/ folded into /services/water-damage-restoration/ (scripts/service_merge.py)
+/services/emergency-water-removal /services/water-damage-restoration/ 301
+/services/emergency-water-removal/ /services/water-damage-restoration/ 301
+/service-areas/:city/emergency-water-removal /service-areas/:city/water-damage-restoration/ 301
+/service-areas/:city/emergency-water-removal/ /service-areas/:city/water-damage-restoration/ 301
+# duplicate service merge 2026-09-30: /services/air-duct-hvac-cleaning/ folded into /services/air-duct-cleaning/ (scripts/service_merge.py)
+/services/air-duct-hvac-cleaning /services/air-duct-cleaning/ 301
+/services/air-duct-hvac-cleaning/ /services/air-duct-cleaning/ 301
+/service-areas/:city/air-duct-hvac-cleaning /service-areas/:city/air-duct-cleaning/ 301
+/service-areas/:city/air-duct-hvac-cleaning/ /service-areas/:city/air-duct-cleaning/ 301
+# duplicate service merge 2026-09-30: /services/carpet-upholstery-cleaning/ folded into /services/carpet-cleaning/ (scripts/service_merge.py)
+/services/carpet-upholstery-cleaning /services/carpet-cleaning/ 301
+/services/carpet-upholstery-cleaning/ /services/carpet-cleaning/ 301
+/service-areas/:city/carpet-upholstery-cleaning /service-areas/:city/carpet-cleaning/ 301
+/service-areas/:city/carpet-upholstery-cleaning/ /service-areas/:city/carpet-cleaning/ 301
+# duplicate service merge 2026-09-30: /services/contents-restoration-storage/ folded into /services/contents-restoration/ (scripts/service_merge.py)
+/services/contents-restoration-storage /services/contents-restoration/ 301
+/services/contents-restoration-storage/ /services/contents-restoration/ 301
+/service-areas/:city/contents-restoration-storage /service-areas/:city/contents-restoration/ 301
+/service-areas/:city/contents-restoration-storage/ /service-areas/:city/contents-restoration/ 301

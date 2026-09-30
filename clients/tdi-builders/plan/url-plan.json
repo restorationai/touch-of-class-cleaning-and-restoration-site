@@ -921,50 +921,6 @@
       ]
     },
     {
-      "url_path": "/services/24-7-emergency-water-cleanup/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in Sacramento | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in Sacramento",
-      "meta_description": "Trusted 24/7 emergency water cleanup in Sacramento and surrounding areas. Licensed general contractor, free estimates, on-time and on-budget. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup sacramento",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/carmichael-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/citrus-heights-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/davis-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/el-dorado-hills-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/elk-grove-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/elverta-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/fair-oaks-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/florin-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/folsom-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/foothill-farms-ca/24-7-emergency-water-cleanup/"
-      ]
-    },
-    {
       "url_path": "/services/basement-sewage-cleanup/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -1006,50 +962,6 @@
         "/service-areas/florin-ca/basement-sewage-cleanup/",
         "/service-areas/folsom-ca/basement-sewage-cleanup/",
         "/service-areas/foothill-farms-ca/basement-sewage-cleanup/"
-      ]
-    },
-    {
-      "url_path": "/services/bathroom-remodeler/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Bathroom Remodeler in Sacramento | TDI Builders",
-      "h1": "Bathroom Remodeler in Sacramento",
-      "meta_description": "Trusted bathroom remodeler in Sacramento and surrounding areas. Licensed general contractor, free estimates, on-time and on-budget. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler sacramento",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/antelope-ca/bathroom-remodeler/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeler/",
-        "/service-areas/carmichael-ca/bathroom-remodeler/",
-        "/service-areas/citrus-heights-ca/bathroom-remodeler/",
-        "/service-areas/davis-ca/bathroom-remodeler/",
-        "/service-areas/el-dorado-hills-ca/bathroom-remodeler/",
-        "/service-areas/elk-grove-ca/bathroom-remodeler/",
-        "/service-areas/elverta-ca/bathroom-remodeler/",
-        "/service-areas/fair-oaks-ca/bathroom-remodeler/",
-        "/service-areas/florin-ca/bathroom-remodeler/",
-        "/service-areas/folsom-ca/bathroom-remodeler/",
-        "/service-areas/foothill-farms-ca/bathroom-remodeler/"
       ]
     },
     {
@@ -1138,50 +1050,6 @@
         "/service-areas/florin-ca/carpet-water-extraction/",
         "/service-areas/folsom-ca/carpet-water-extraction/",
         "/service-areas/foothill-farms-ca/carpet-water-extraction/"
-      ]
-    },
-    {
-      "url_path": "/services/general-contractor/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "General Contractor in Sacramento | TDI Builders",
-      "h1": "General Contractor in Sacramento",
-      "meta_description": "Trusted general contractor in Sacramento and surrounding areas. Licensed general contractor, free estimates, on-time and on-budget. Call (877) 688-0866.",
-      "primary_keyword": "general contractor sacramento",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/antelope-ca/general-contractor/",
-        "/service-areas/arden-arcade-ca/general-contractor/",
-        "/service-areas/carmichael-ca/general-contractor/",
-        "/service-areas/citrus-heights-ca/general-contractor/",
-        "/service-areas/davis-ca/general-contractor/",
-        "/service-areas/el-dorado-hills-ca/general-contractor/",
-        "/service-areas/elk-grove-ca/general-contractor/",
-        "/service-areas/elverta-ca/general-contractor/",
-        "/service-areas/fair-oaks-ca/general-contractor/",
-        "/service-areas/florin-ca/general-contractor/",
-        "/service-areas/folsom-ca/general-contractor/",
-        "/service-areas/foothill-farms-ca/general-contractor/"
       ]
     },
     {
@@ -3325,44 +3193,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/roseville-ca/24-7-emergency-water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in Roseville, CA | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in Roseville",
-      "meta_description": "Trusted 24/7 emergency water cleanup in Roseville, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup roseville",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/24-7-emergency-water-cleanup/",
-        "/service-areas/roseville-ca/",
-        "/service-areas/roseville-ca/home-remodeling/",
-        "/service-areas/roseville-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/roseville-ca/basement-sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -3397,44 +3227,6 @@
         "/service-areas/roseville-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/basement-sewage-cleanup/",
         "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/roseville-ca/bathroom-remodeler/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Bathroom Remodeler in Roseville, CA | TDI Builders",
-      "h1": "Bathroom Remodeler in Roseville",
-      "meta_description": "Trusted bathroom remodeler in Roseville, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler roseville",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/bathroom-remodeler/",
-        "/service-areas/roseville-ca/",
-        "/service-areas/roseville-ca/home-remodeling/",
-        "/service-areas/roseville-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeler/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeler/",
         "/contact/"
       ]
     },
@@ -3511,44 +3303,6 @@
         "/service-areas/roseville-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/carpet-water-extraction/",
         "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/roseville-ca/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Roseville, CA | TDI Builders",
-      "h1": "General Contractor in Roseville",
-      "meta_description": "Trusted general contractor in Roseville, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "general contractor roseville",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/roseville-ca/",
-        "/service-areas/roseville-ca/home-remodeling/",
-        "/service-areas/roseville-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/general-contractor/",
-        "/service-areas/arden-arcade-ca/general-contractor/",
         "/contact/"
       ]
     },
@@ -4119,44 +3873,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/elk-grove-ca/24-7-emergency-water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in Elk Grove, CA | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in Elk Grove",
-      "meta_description": "Trusted 24/7 emergency water cleanup in Elk Grove, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup elk grove",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/24-7-emergency-water-cleanup/",
-        "/service-areas/elk-grove-ca/",
-        "/service-areas/elk-grove-ca/home-remodeling/",
-        "/service-areas/elk-grove-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/elk-grove-ca/basement-sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4191,44 +3907,6 @@
         "/service-areas/elk-grove-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/basement-sewage-cleanup/",
         "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/elk-grove-ca/bathroom-remodeler/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Bathroom Remodeler in Elk Grove, CA | TDI Builders",
-      "h1": "Bathroom Remodeler in Elk Grove",
-      "meta_description": "Trusted bathroom remodeler in Elk Grove, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler elk grove",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/bathroom-remodeler/",
-        "/service-areas/elk-grove-ca/",
-        "/service-areas/elk-grove-ca/home-remodeling/",
-        "/service-areas/elk-grove-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeler/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeler/",
         "/contact/"
       ]
     },
@@ -4305,44 +3983,6 @@
         "/service-areas/elk-grove-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/carpet-water-extraction/",
         "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/elk-grove-ca/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Elk Grove, CA | TDI Builders",
-      "h1": "General Contractor in Elk Grove",
-      "meta_description": "Trusted general contractor in Elk Grove, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "general contractor elk grove",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/elk-grove-ca/",
-        "/service-areas/elk-grove-ca/home-remodeling/",
-        "/service-areas/elk-grove-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/general-contractor/",
-        "/service-areas/arden-arcade-ca/general-contractor/",
         "/contact/"
       ]
     },
@@ -4913,44 +4553,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/folsom-ca/24-7-emergency-water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in Folsom, CA | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in Folsom",
-      "meta_description": "Trusted 24/7 emergency water cleanup in Folsom, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup folsom",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/24-7-emergency-water-cleanup/",
-        "/service-areas/folsom-ca/",
-        "/service-areas/folsom-ca/home-remodeling/",
-        "/service-areas/folsom-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/folsom-ca/basement-sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4985,44 +4587,6 @@
         "/service-areas/folsom-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/basement-sewage-cleanup/",
         "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/folsom-ca/bathroom-remodeler/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Bathroom Remodeler in Folsom, CA | TDI Builders",
-      "h1": "Bathroom Remodeler in Folsom",
-      "meta_description": "Trusted bathroom remodeler in Folsom, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler folsom",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/bathroom-remodeler/",
-        "/service-areas/folsom-ca/",
-        "/service-areas/folsom-ca/home-remodeling/",
-        "/service-areas/folsom-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeler/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeler/",
         "/contact/"
       ]
     },
@@ -5099,44 +4663,6 @@
         "/service-areas/folsom-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/carpet-water-extraction/",
         "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/folsom-ca/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Folsom, CA | TDI Builders",
-      "h1": "General Contractor in Folsom",
-      "meta_description": "Trusted general contractor in Folsom, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "general contractor folsom",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/folsom-ca/",
-        "/service-areas/folsom-ca/home-remodeling/",
-        "/service-areas/folsom-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/general-contractor/",
-        "/service-areas/arden-arcade-ca/general-contractor/",
         "/contact/"
       ]
     },
@@ -5707,44 +5233,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/modesto-ca/24-7-emergency-water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in Modesto, CA | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in Modesto",
-      "meta_description": "Trusted 24/7 emergency water cleanup in Modesto, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup modesto",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/24-7-emergency-water-cleanup/",
-        "/service-areas/modesto-ca/",
-        "/service-areas/modesto-ca/home-remodeling/",
-        "/service-areas/modesto-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/modesto-ca/basement-sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5779,44 +5267,6 @@
         "/service-areas/modesto-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/basement-sewage-cleanup/",
         "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/modesto-ca/bathroom-remodeler/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Bathroom Remodeler in Modesto, CA | TDI Builders",
-      "h1": "Bathroom Remodeler in Modesto",
-      "meta_description": "Trusted bathroom remodeler in Modesto, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler modesto",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/bathroom-remodeler/",
-        "/service-areas/modesto-ca/",
-        "/service-areas/modesto-ca/home-remodeling/",
-        "/service-areas/modesto-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeler/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeler/",
         "/contact/"
       ]
     },
@@ -5893,44 +5343,6 @@
         "/service-areas/modesto-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/carpet-water-extraction/",
         "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/modesto-ca/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Modesto, CA | TDI Builders",
-      "h1": "General Contractor in Modesto",
-      "meta_description": "Trusted general contractor in Modesto, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "general contractor modesto",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/modesto-ca/",
-        "/service-areas/modesto-ca/home-remodeling/",
-        "/service-areas/modesto-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/general-contractor/",
-        "/service-areas/arden-arcade-ca/general-contractor/",
         "/contact/"
       ]
     },
@@ -6501,44 +5913,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/rocklin-ca/24-7-emergency-water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in Rocklin, CA | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in Rocklin",
-      "meta_description": "Trusted 24/7 emergency water cleanup in Rocklin, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup rocklin",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/24-7-emergency-water-cleanup/",
-        "/service-areas/rocklin-ca/",
-        "/service-areas/rocklin-ca/home-remodeling/",
-        "/service-areas/rocklin-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/rocklin-ca/basement-sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6573,44 +5947,6 @@
         "/service-areas/rocklin-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/basement-sewage-cleanup/",
         "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/rocklin-ca/bathroom-remodeler/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Bathroom Remodeler in Rocklin, CA | TDI Builders",
-      "h1": "Bathroom Remodeler in Rocklin",
-      "meta_description": "Trusted bathroom remodeler in Rocklin, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler rocklin",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/bathroom-remodeler/",
-        "/service-areas/rocklin-ca/",
-        "/service-areas/rocklin-ca/home-remodeling/",
-        "/service-areas/rocklin-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeler/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeler/",
         "/contact/"
       ]
     },
@@ -6687,44 +6023,6 @@
         "/service-areas/rocklin-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/carpet-water-extraction/",
         "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/rocklin-ca/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Rocklin, CA | TDI Builders",
-      "h1": "General Contractor in Rocklin",
-      "meta_description": "Trusted general contractor in Rocklin, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "general contractor rocklin",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/rocklin-ca/",
-        "/service-areas/rocklin-ca/home-remodeling/",
-        "/service-areas/rocklin-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/general-contractor/",
-        "/service-areas/arden-arcade-ca/general-contractor/",
         "/contact/"
       ]
     },
@@ -7295,44 +6593,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/citrus-heights-ca/24-7-emergency-water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in Citrus Heights, CA | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in Citrus Heights",
-      "meta_description": "Trusted 24/7 emergency water cleanup in Citrus Heights, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup citrus heights",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/24-7-emergency-water-cleanup/",
-        "/service-areas/citrus-heights-ca/",
-        "/service-areas/citrus-heights-ca/home-remodeling/",
-        "/service-areas/citrus-heights-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/citrus-heights-ca/basement-sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7367,44 +6627,6 @@
         "/service-areas/citrus-heights-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/basement-sewage-cleanup/",
         "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/citrus-heights-ca/bathroom-remodeler/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Bathroom Remodeler in Citrus Heights, CA | TDI Builders",
-      "h1": "Bathroom Remodeler in Citrus Heights",
-      "meta_description": "Trusted bathroom remodeler in Citrus Heights, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler citrus heights",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/bathroom-remodeler/",
-        "/service-areas/citrus-heights-ca/",
-        "/service-areas/citrus-heights-ca/home-remodeling/",
-        "/service-areas/citrus-heights-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeler/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeler/",
         "/contact/"
       ]
     },
@@ -7481,44 +6703,6 @@
         "/service-areas/citrus-heights-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/carpet-water-extraction/",
         "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/citrus-heights-ca/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Citrus Heights, CA | TDI Builders",
-      "h1": "General Contractor in Citrus Heights",
-      "meta_description": "Trusted general contractor in Citrus Heights, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "general contractor citrus heights",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/citrus-heights-ca/",
-        "/service-areas/citrus-heights-ca/home-remodeling/",
-        "/service-areas/citrus-heights-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/general-contractor/",
-        "/service-areas/arden-arcade-ca/general-contractor/",
         "/contact/"
       ]
     },
@@ -8089,44 +7273,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/rancho-cordova-ca/24-7-emergency-water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in Rancho Cordova, CA | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in Rancho Cordova",
-      "meta_description": "Trusted 24/7 emergency water cleanup in Rancho Cordova, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup rancho cordova",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/24-7-emergency-water-cleanup/",
-        "/service-areas/rancho-cordova-ca/",
-        "/service-areas/rancho-cordova-ca/home-remodeling/",
-        "/service-areas/rancho-cordova-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/rancho-cordova-ca/basement-sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8161,44 +7307,6 @@
         "/service-areas/rancho-cordova-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/basement-sewage-cleanup/",
         "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/rancho-cordova-ca/bathroom-remodeler/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Bathroom Remodeler in Rancho Cordova, CA | TDI Builders",
-      "h1": "Bathroom Remodeler in Rancho Cordova",
-      "meta_description": "Trusted bathroom remodeler in Rancho Cordova, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler rancho cordova",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/bathroom-remodeler/",
-        "/service-areas/rancho-cordova-ca/",
-        "/service-areas/rancho-cordova-ca/home-remodeling/",
-        "/service-areas/rancho-cordova-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeler/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeler/",
         "/contact/"
       ]
     },
@@ -8275,44 +7383,6 @@
         "/service-areas/rancho-cordova-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/carpet-water-extraction/",
         "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/rancho-cordova-ca/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Rancho Cordova, CA | TDI Builders",
-      "h1": "General Contractor in Rancho Cordova",
-      "meta_description": "Trusted general contractor in Rancho Cordova, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "general contractor rancho cordova",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/rancho-cordova-ca/",
-        "/service-areas/rancho-cordova-ca/home-remodeling/",
-        "/service-areas/rancho-cordova-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/general-contractor/",
-        "/service-areas/arden-arcade-ca/general-contractor/",
         "/contact/"
       ]
     },
@@ -8883,44 +7953,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/fair-oaks-ca/24-7-emergency-water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in Fair Oaks, CA | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in Fair Oaks",
-      "meta_description": "Trusted 24/7 emergency water cleanup in Fair Oaks, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup fair oaks",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/24-7-emergency-water-cleanup/",
-        "/service-areas/fair-oaks-ca/",
-        "/service-areas/fair-oaks-ca/home-remodeling/",
-        "/service-areas/fair-oaks-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/fair-oaks-ca/basement-sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8955,44 +7987,6 @@
         "/service-areas/fair-oaks-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/basement-sewage-cleanup/",
         "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/fair-oaks-ca/bathroom-remodeler/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Bathroom Remodeler in Fair Oaks, CA | TDI Builders",
-      "h1": "Bathroom Remodeler in Fair Oaks",
-      "meta_description": "Trusted bathroom remodeler in Fair Oaks, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler fair oaks",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/bathroom-remodeler/",
-        "/service-areas/fair-oaks-ca/",
-        "/service-areas/fair-oaks-ca/home-remodeling/",
-        "/service-areas/fair-oaks-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeler/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeler/",
         "/contact/"
       ]
     },
@@ -9069,44 +8063,6 @@
         "/service-areas/fair-oaks-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/carpet-water-extraction/",
         "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/fair-oaks-ca/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Fair Oaks, CA | TDI Builders",
-      "h1": "General Contractor in Fair Oaks",
-      "meta_description": "Trusted general contractor in Fair Oaks, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "general contractor fair oaks",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/fair-oaks-ca/",
-        "/service-areas/fair-oaks-ca/home-remodeling/",
-        "/service-areas/fair-oaks-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/general-contractor/",
-        "/service-areas/arden-arcade-ca/general-contractor/",
         "/contact/"
       ]
     },
@@ -9677,44 +8633,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/carmichael-ca/24-7-emergency-water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in Carmichael, CA | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in Carmichael",
-      "meta_description": "Trusted 24/7 emergency water cleanup in Carmichael, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup carmichael",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/24-7-emergency-water-cleanup/",
-        "/service-areas/carmichael-ca/",
-        "/service-areas/carmichael-ca/home-remodeling/",
-        "/service-areas/carmichael-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/carmichael-ca/basement-sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9749,44 +8667,6 @@
         "/service-areas/carmichael-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/basement-sewage-cleanup/",
         "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/carmichael-ca/bathroom-remodeler/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Bathroom Remodeler in Carmichael, CA | TDI Builders",
-      "h1": "Bathroom Remodeler in Carmichael",
-      "meta_description": "Trusted bathroom remodeler in Carmichael, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler carmichael",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/bathroom-remodeler/",
-        "/service-areas/carmichael-ca/",
-        "/service-areas/carmichael-ca/home-remodeling/",
-        "/service-areas/carmichael-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeler/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeler/",
         "/contact/"
       ]
     },
@@ -9863,44 +8743,6 @@
         "/service-areas/carmichael-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/carpet-water-extraction/",
         "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/carmichael-ca/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Carmichael, CA | TDI Builders",
-      "h1": "General Contractor in Carmichael",
-      "meta_description": "Trusted general contractor in Carmichael, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "general contractor carmichael",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/carmichael-ca/",
-        "/service-areas/carmichael-ca/home-remodeling/",
-        "/service-areas/carmichael-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/general-contractor/",
-        "/service-areas/arden-arcade-ca/general-contractor/",
         "/contact/"
       ]
     },
@@ -10471,44 +9313,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/west-sacramento-ca/24-7-emergency-water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in West Sacramento, CA | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in West Sacramento",
-      "meta_description": "Trusted 24/7 emergency water cleanup in West Sacramento, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup west sacramento",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/24-7-emergency-water-cleanup/",
-        "/service-areas/west-sacramento-ca/",
-        "/service-areas/west-sacramento-ca/home-remodeling/",
-        "/service-areas/west-sacramento-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/west-sacramento-ca/basement-sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10543,44 +9347,6 @@
         "/service-areas/west-sacramento-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/basement-sewage-cleanup/",
         "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/west-sacramento-ca/bathroom-remodeler/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Bathroom Remodeler in West Sacramento, CA | TDI Builders",
-      "h1": "Bathroom Remodeler in West Sacramento",
-      "meta_description": "Trusted bathroom remodeler in West Sacramento, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler west sacramento",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/bathroom-remodeler/",
-        "/service-areas/west-sacramento-ca/",
-        "/service-areas/west-sacramento-ca/home-remodeling/",
-        "/service-areas/west-sacramento-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeler/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeler/",
         "/contact/"
       ]
     },
@@ -10657,44 +9423,6 @@
         "/service-areas/west-sacramento-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/carpet-water-extraction/",
         "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/west-sacramento-ca/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in West Sacramento, CA | TDI Builders",
-      "h1": "General Contractor in West Sacramento",
-      "meta_description": "Trusted general contractor in West Sacramento, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "general contractor west sacramento",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/west-sacramento-ca/",
-        "/service-areas/west-sacramento-ca/home-remodeling/",
-        "/service-areas/west-sacramento-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/general-contractor/",
-        "/service-areas/arden-arcade-ca/general-contractor/",
         "/contact/"
       ]
     },
@@ -11265,44 +9993,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lincoln-ca/24-7-emergency-water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in Lincoln, CA | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in Lincoln",
-      "meta_description": "Trusted 24/7 emergency water cleanup in Lincoln, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup lincoln",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/24-7-emergency-water-cleanup/",
-        "/service-areas/lincoln-ca/",
-        "/service-areas/lincoln-ca/home-remodeling/",
-        "/service-areas/lincoln-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lincoln-ca/basement-sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -11337,44 +10027,6 @@
         "/service-areas/lincoln-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/basement-sewage-cleanup/",
         "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lincoln-ca/bathroom-remodeler/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Bathroom Remodeler in Lincoln, CA | TDI Builders",
-      "h1": "Bathroom Remodeler in Lincoln",
-      "meta_description": "Trusted bathroom remodeler in Lincoln, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler lincoln",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/bathroom-remodeler/",
-        "/service-areas/lincoln-ca/",
-        "/service-areas/lincoln-ca/home-remodeling/",
-        "/service-areas/lincoln-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeler/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeler/",
         "/contact/"
       ]
     },
@@ -11451,44 +10103,6 @@
         "/service-areas/lincoln-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/carpet-water-extraction/",
         "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lincoln-ca/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Lincoln, CA | TDI Builders",
-      "h1": "General Contractor in Lincoln",
-      "meta_description": "Trusted general contractor in Lincoln, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "general contractor lincoln",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/lincoln-ca/",
-        "/service-areas/lincoln-ca/home-remodeling/",
-        "/service-areas/lincoln-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/general-contractor/",
-        "/service-areas/arden-arcade-ca/general-contractor/",
         "/contact/"
       ]
     },
@@ -12059,44 +10673,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/granite-bay-ca/24-7-emergency-water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in Granite Bay, CA | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in Granite Bay",
-      "meta_description": "Trusted 24/7 emergency water cleanup in Granite Bay, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup granite bay",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/24-7-emergency-water-cleanup/",
-        "/service-areas/granite-bay-ca/",
-        "/service-areas/granite-bay-ca/home-remodeling/",
-        "/service-areas/granite-bay-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/granite-bay-ca/basement-sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12131,44 +10707,6 @@
         "/service-areas/granite-bay-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/basement-sewage-cleanup/",
         "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/granite-bay-ca/bathroom-remodeler/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Bathroom Remodeler in Granite Bay, CA | TDI Builders",
-      "h1": "Bathroom Remodeler in Granite Bay",
-      "meta_description": "Trusted bathroom remodeler in Granite Bay, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler granite bay",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/bathroom-remodeler/",
-        "/service-areas/granite-bay-ca/",
-        "/service-areas/granite-bay-ca/home-remodeling/",
-        "/service-areas/granite-bay-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeler/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeler/",
         "/contact/"
       ]
     },
@@ -12245,44 +10783,6 @@
         "/service-areas/granite-bay-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/carpet-water-extraction/",
         "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/granite-bay-ca/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Granite Bay, CA | TDI Builders",
-      "h1": "General Contractor in Granite Bay",
-      "meta_description": "Trusted general contractor in Granite Bay, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "general contractor granite bay",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/granite-bay-ca/",
-        "/service-areas/granite-bay-ca/home-remodeling/",
-        "/service-areas/granite-bay-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/general-contractor/",
-        "/service-areas/arden-arcade-ca/general-contractor/",
         "/contact/"
       ]
     },
@@ -12853,44 +11353,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/el-dorado-hills-ca/24-7-emergency-water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in El Dorado Hills, CA | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in El Dorado Hills",
-      "meta_description": "Trusted 24/7 emergency water cleanup in El Dorado Hills, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup el dorado hills",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/24-7-emergency-water-cleanup/",
-        "/service-areas/el-dorado-hills-ca/",
-        "/service-areas/el-dorado-hills-ca/home-remodeling/",
-        "/service-areas/el-dorado-hills-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/el-dorado-hills-ca/basement-sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12925,44 +11387,6 @@
         "/service-areas/el-dorado-hills-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/basement-sewage-cleanup/",
         "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/el-dorado-hills-ca/bathroom-remodeler/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Bathroom Remodeler in El Dorado Hills, CA | TDI Builders",
-      "h1": "Bathroom Remodeler in El Dorado Hills",
-      "meta_description": "Trusted bathroom remodeler in El Dorado Hills, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler el dorado hills",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/bathroom-remodeler/",
-        "/service-areas/el-dorado-hills-ca/",
-        "/service-areas/el-dorado-hills-ca/home-remodeling/",
-        "/service-areas/el-dorado-hills-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeler/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeler/",
         "/contact/"
       ]
     },
@@ -13039,44 +11463,6 @@
         "/service-areas/el-dorado-hills-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/carpet-water-extraction/",
         "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/el-dorado-hills-ca/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in El Dorado Hills, CA | TDI Builders",
-      "h1": "General Contractor in El Dorado Hills",
-      "meta_description": "Trusted general contractor in El Dorado Hills, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "general contractor el dorado hills",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/el-dorado-hills-ca/",
-        "/service-areas/el-dorado-hills-ca/home-remodeling/",
-        "/service-areas/el-dorado-hills-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/general-contractor/",
-        "/service-areas/arden-arcade-ca/general-contractor/",
         "/contact/"
       ]
     },
@@ -13647,44 +12033,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/loomis-ca/24-7-emergency-water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in Loomis, CA | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in Loomis",
-      "meta_description": "Trusted 24/7 emergency water cleanup in Loomis, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup loomis",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/24-7-emergency-water-cleanup/",
-        "/service-areas/loomis-ca/",
-        "/service-areas/loomis-ca/home-remodeling/",
-        "/service-areas/loomis-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/loomis-ca/basement-sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13719,44 +12067,6 @@
         "/service-areas/loomis-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/basement-sewage-cleanup/",
         "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/loomis-ca/bathroom-remodeler/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Bathroom Remodeler in Loomis, CA | TDI Builders",
-      "h1": "Bathroom Remodeler in Loomis",
-      "meta_description": "Trusted bathroom remodeler in Loomis, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler loomis",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/bathroom-remodeler/",
-        "/service-areas/loomis-ca/",
-        "/service-areas/loomis-ca/home-remodeling/",
-        "/service-areas/loomis-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeler/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeler/",
         "/contact/"
       ]
     },
@@ -13833,44 +12143,6 @@
         "/service-areas/loomis-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/carpet-water-extraction/",
         "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/loomis-ca/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Loomis, CA | TDI Builders",
-      "h1": "General Contractor in Loomis",
-      "meta_description": "Trusted general contractor in Loomis, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "general contractor loomis",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/loomis-ca/",
-        "/service-areas/loomis-ca/home-remodeling/",
-        "/service-areas/loomis-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/general-contractor/",
-        "/service-areas/arden-arcade-ca/general-contractor/",
         "/contact/"
       ]
     },
@@ -14441,44 +12713,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/manteca-ca/24-7-emergency-water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in Manteca, CA | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in Manteca",
-      "meta_description": "Trusted 24/7 emergency water cleanup in Manteca, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup manteca",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/24-7-emergency-water-cleanup/",
-        "/service-areas/manteca-ca/",
-        "/service-areas/manteca-ca/home-remodeling/",
-        "/service-areas/manteca-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/manteca-ca/basement-sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14513,44 +12747,6 @@
         "/service-areas/manteca-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/basement-sewage-cleanup/",
         "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/manteca-ca/bathroom-remodeler/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Bathroom Remodeler in Manteca, CA | TDI Builders",
-      "h1": "Bathroom Remodeler in Manteca",
-      "meta_description": "Trusted bathroom remodeler in Manteca, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler manteca",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/bathroom-remodeler/",
-        "/service-areas/manteca-ca/",
-        "/service-areas/manteca-ca/home-remodeling/",
-        "/service-areas/manteca-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeler/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeler/",
         "/contact/"
       ]
     },
@@ -14627,44 +12823,6 @@
         "/service-areas/manteca-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/carpet-water-extraction/",
         "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/manteca-ca/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Manteca, CA | TDI Builders",
-      "h1": "General Contractor in Manteca",
-      "meta_description": "Trusted general contractor in Manteca, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "general contractor manteca",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/manteca-ca/",
-        "/service-areas/manteca-ca/home-remodeling/",
-        "/service-areas/manteca-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/general-contractor/",
-        "/service-areas/arden-arcade-ca/general-contractor/",
         "/contact/"
       ]
     },
@@ -15235,44 +13393,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/turlock-ca/24-7-emergency-water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in Turlock, CA | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in Turlock",
-      "meta_description": "Trusted 24/7 emergency water cleanup in Turlock, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup turlock",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/24-7-emergency-water-cleanup/",
-        "/service-areas/turlock-ca/",
-        "/service-areas/turlock-ca/home-remodeling/",
-        "/service-areas/turlock-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/turlock-ca/basement-sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -15307,44 +13427,6 @@
         "/service-areas/turlock-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/basement-sewage-cleanup/",
         "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/turlock-ca/bathroom-remodeler/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Bathroom Remodeler in Turlock, CA | TDI Builders",
-      "h1": "Bathroom Remodeler in Turlock",
-      "meta_description": "Trusted bathroom remodeler in Turlock, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler turlock",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/bathroom-remodeler/",
-        "/service-areas/turlock-ca/",
-        "/service-areas/turlock-ca/home-remodeling/",
-        "/service-areas/turlock-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeler/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeler/",
         "/contact/"
       ]
     },
@@ -15421,44 +13503,6 @@
         "/service-areas/turlock-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/carpet-water-extraction/",
         "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/turlock-ca/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Turlock, CA | TDI Builders",
-      "h1": "General Contractor in Turlock",
-      "meta_description": "Trusted general contractor in Turlock, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "general contractor turlock",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/turlock-ca/",
-        "/service-areas/turlock-ca/home-remodeling/",
-        "/service-areas/turlock-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/general-contractor/",
-        "/service-areas/arden-arcade-ca/general-contractor/",
         "/contact/"
       ]
     },
@@ -16029,44 +14073,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/rio-linda-ca/24-7-emergency-water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in Rio Linda, CA | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in Rio Linda",
-      "meta_description": "Trusted 24/7 emergency water cleanup in Rio Linda, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup rio linda",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/24-7-emergency-water-cleanup/",
-        "/service-areas/rio-linda-ca/",
-        "/service-areas/rio-linda-ca/home-remodeling/",
-        "/service-areas/rio-linda-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/rio-linda-ca/basement-sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -16101,44 +14107,6 @@
         "/service-areas/rio-linda-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/basement-sewage-cleanup/",
         "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/rio-linda-ca/bathroom-remodeler/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Bathroom Remodeler in Rio Linda, CA | TDI Builders",
-      "h1": "Bathroom Remodeler in Rio Linda",
-      "meta_description": "Trusted bathroom remodeler in Rio Linda, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler rio linda",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/bathroom-remodeler/",
-        "/service-areas/rio-linda-ca/",
-        "/service-areas/rio-linda-ca/home-remodeling/",
-        "/service-areas/rio-linda-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeler/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeler/",
         "/contact/"
       ]
     },
@@ -16215,44 +14183,6 @@
         "/service-areas/rio-linda-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/carpet-water-extraction/",
         "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/rio-linda-ca/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Rio Linda, CA | TDI Builders",
-      "h1": "General Contractor in Rio Linda",
-      "meta_description": "Trusted general contractor in Rio Linda, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "general contractor rio linda",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/rio-linda-ca/",
-        "/service-areas/rio-linda-ca/home-remodeling/",
-        "/service-areas/rio-linda-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/general-contractor/",
-        "/service-areas/arden-arcade-ca/general-contractor/",
         "/contact/"
       ]
     },
@@ -16823,44 +14753,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/elverta-ca/24-7-emergency-water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in Elverta, CA | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in Elverta",
-      "meta_description": "Trusted 24/7 emergency water cleanup in Elverta, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup elverta",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/24-7-emergency-water-cleanup/",
-        "/service-areas/elverta-ca/",
-        "/service-areas/elverta-ca/home-remodeling/",
-        "/service-areas/elverta-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/elverta-ca/basement-sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -16895,44 +14787,6 @@
         "/service-areas/elverta-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/basement-sewage-cleanup/",
         "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/elverta-ca/bathroom-remodeler/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Bathroom Remodeler in Elverta, CA | TDI Builders",
-      "h1": "Bathroom Remodeler in Elverta",
-      "meta_description": "Trusted bathroom remodeler in Elverta, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler elverta",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/bathroom-remodeler/",
-        "/service-areas/elverta-ca/",
-        "/service-areas/elverta-ca/home-remodeling/",
-        "/service-areas/elverta-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeler/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeler/",
         "/contact/"
       ]
     },
@@ -17009,44 +14863,6 @@
         "/service-areas/elverta-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/carpet-water-extraction/",
         "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/elverta-ca/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Elverta, CA | TDI Builders",
-      "h1": "General Contractor in Elverta",
-      "meta_description": "Trusted general contractor in Elverta, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "general contractor elverta",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/elverta-ca/",
-        "/service-areas/elverta-ca/home-remodeling/",
-        "/service-areas/elverta-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/general-contractor/",
-        "/service-areas/arden-arcade-ca/general-contractor/",
         "/contact/"
       ]
     },
@@ -17617,44 +15433,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/mcclellan-park-ca/24-7-emergency-water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in McClellan Park, CA | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in McClellan Park",
-      "meta_description": "Trusted 24/7 emergency water cleanup in McClellan Park, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup mcclellan park",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/24-7-emergency-water-cleanup/",
-        "/service-areas/mcclellan-park-ca/",
-        "/service-areas/mcclellan-park-ca/home-remodeling/",
-        "/service-areas/mcclellan-park-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/mcclellan-park-ca/basement-sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17689,44 +15467,6 @@
         "/service-areas/mcclellan-park-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/basement-sewage-cleanup/",
         "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/mcclellan-park-ca/bathroom-remodeler/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Bathroom Remodeler in McClellan Park, CA | TDI Builders",
-      "h1": "Bathroom Remodeler in McClellan Park",
-      "meta_description": "Trusted bathroom remodeler in McClellan Park, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler mcclellan park",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/bathroom-remodeler/",
-        "/service-areas/mcclellan-park-ca/",
-        "/service-areas/mcclellan-park-ca/home-remodeling/",
-        "/service-areas/mcclellan-park-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeler/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeler/",
         "/contact/"
       ]
     },
@@ -17803,44 +15543,6 @@
         "/service-areas/mcclellan-park-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/carpet-water-extraction/",
         "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/mcclellan-park-ca/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in McClellan Park, CA | TDI Builders",
-      "h1": "General Contractor in McClellan Park",
-      "meta_description": "Trusted general contractor in McClellan Park, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "general contractor mcclellan park",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/mcclellan-park-ca/",
-        "/service-areas/mcclellan-park-ca/home-remodeling/",
-        "/service-areas/mcclellan-park-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/general-contractor/",
-        "/service-areas/arden-arcade-ca/general-contractor/",
         "/contact/"
       ]
     },
@@ -18411,44 +16113,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in Arden-Arcade, CA | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in Arden-Arcade",
-      "meta_description": "Trusted 24/7 emergency water cleanup in Arden-Arcade, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup arden-arcade",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/24-7-emergency-water-cleanup/",
-        "/service-areas/arden-arcade-ca/",
-        "/service-areas/arden-arcade-ca/home-remodeling/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/carmichael-ca/24-7-emergency-water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -18483,44 +16147,6 @@
         "/service-areas/arden-arcade-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/basement-sewage-cleanup/",
         "/service-areas/carmichael-ca/basement-sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/arden-arcade-ca/bathroom-remodeler/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Bathroom Remodeler in Arden-Arcade, CA | TDI Builders",
-      "h1": "Bathroom Remodeler in Arden-Arcade",
-      "meta_description": "Trusted bathroom remodeler in Arden-Arcade, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler arden-arcade",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/bathroom-remodeler/",
-        "/service-areas/arden-arcade-ca/",
-        "/service-areas/arden-arcade-ca/home-remodeling/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeler/",
-        "/service-areas/carmichael-ca/bathroom-remodeler/",
         "/contact/"
       ]
     },
@@ -18597,44 +16223,6 @@
         "/service-areas/arden-arcade-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/carpet-water-extraction/",
         "/service-areas/carmichael-ca/carpet-water-extraction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/arden-arcade-ca/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Arden-Arcade, CA | TDI Builders",
-      "h1": "General Contractor in Arden-Arcade",
-      "meta_description": "Trusted general contractor in Arden-Arcade, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "general contractor arden-arcade",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/arden-arcade-ca/",
-        "/service-areas/arden-arcade-ca/home-remodeling/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/general-contractor/",
-        "/service-areas/carmichael-ca/general-contractor/",
         "/contact/"
       ]
     },
@@ -19205,44 +16793,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/north-highlands-ca/24-7-emergency-water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in North Highlands, CA | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in North Highlands",
-      "meta_description": "Trusted 24/7 emergency water cleanup in North Highlands, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup north highlands",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/24-7-emergency-water-cleanup/",
-        "/service-areas/north-highlands-ca/",
-        "/service-areas/north-highlands-ca/home-remodeling/",
-        "/service-areas/north-highlands-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/north-highlands-ca/basement-sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -19277,44 +16827,6 @@
         "/service-areas/north-highlands-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/basement-sewage-cleanup/",
         "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/north-highlands-ca/bathroom-remodeler/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Bathroom Remodeler in North Highlands, CA | TDI Builders",
-      "h1": "Bathroom Remodeler in North Highlands",
-      "meta_description": "Trusted bathroom remodeler in North Highlands, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler north highlands",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/bathroom-remodeler/",
-        "/service-areas/north-highlands-ca/",
-        "/service-areas/north-highlands-ca/home-remodeling/",
-        "/service-areas/north-highlands-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeler/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeler/",
         "/contact/"
       ]
     },
@@ -19391,44 +16903,6 @@
         "/service-areas/north-highlands-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/carpet-water-extraction/",
         "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/north-highlands-ca/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in North Highlands, CA | TDI Builders",
-      "h1": "General Contractor in North Highlands",
-      "meta_description": "Trusted general contractor in North Highlands, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "general contractor north highlands",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/north-highlands-ca/",
-        "/service-areas/north-highlands-ca/home-remodeling/",
-        "/service-areas/north-highlands-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/general-contractor/",
-        "/service-areas/arden-arcade-ca/general-contractor/",
         "/contact/"
       ]
     },
@@ -19999,44 +17473,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in Antelope, CA | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in Antelope",
-      "meta_description": "Trusted 24/7 emergency water cleanup in Antelope, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup antelope",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/24-7-emergency-water-cleanup/",
-        "/service-areas/antelope-ca/",
-        "/service-areas/antelope-ca/home-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeling/",
-        "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/carmichael-ca/24-7-emergency-water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/antelope-ca/basement-sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -20071,44 +17507,6 @@
         "/service-areas/antelope-ca/bathroom-remodeling/",
         "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
         "/service-areas/carmichael-ca/basement-sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/antelope-ca/bathroom-remodeler/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Bathroom Remodeler in Antelope, CA | TDI Builders",
-      "h1": "Bathroom Remodeler in Antelope",
-      "meta_description": "Trusted bathroom remodeler in Antelope, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler antelope",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/bathroom-remodeler/",
-        "/service-areas/antelope-ca/",
-        "/service-areas/antelope-ca/home-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeling/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeler/",
-        "/service-areas/carmichael-ca/bathroom-remodeler/",
         "/contact/"
       ]
     },
@@ -20185,44 +17583,6 @@
         "/service-areas/antelope-ca/bathroom-remodeling/",
         "/service-areas/arden-arcade-ca/carpet-water-extraction/",
         "/service-areas/carmichael-ca/carpet-water-extraction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/antelope-ca/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Antelope, CA | TDI Builders",
-      "h1": "General Contractor in Antelope",
-      "meta_description": "Trusted general contractor in Antelope, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "general contractor antelope",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/antelope-ca/",
-        "/service-areas/antelope-ca/home-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeling/",
-        "/service-areas/arden-arcade-ca/general-contractor/",
-        "/service-areas/carmichael-ca/general-contractor/",
         "/contact/"
       ]
     },
@@ -20793,44 +18153,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/foothill-farms-ca/24-7-emergency-water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in Foothill Farms, CA | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in Foothill Farms",
-      "meta_description": "Trusted 24/7 emergency water cleanup in Foothill Farms, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup foothill farms",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/24-7-emergency-water-cleanup/",
-        "/service-areas/foothill-farms-ca/",
-        "/service-areas/foothill-farms-ca/home-remodeling/",
-        "/service-areas/foothill-farms-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/foothill-farms-ca/basement-sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -20865,44 +18187,6 @@
         "/service-areas/foothill-farms-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/basement-sewage-cleanup/",
         "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/foothill-farms-ca/bathroom-remodeler/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Bathroom Remodeler in Foothill Farms, CA | TDI Builders",
-      "h1": "Bathroom Remodeler in Foothill Farms",
-      "meta_description": "Trusted bathroom remodeler in Foothill Farms, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler foothill farms",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/bathroom-remodeler/",
-        "/service-areas/foothill-farms-ca/",
-        "/service-areas/foothill-farms-ca/home-remodeling/",
-        "/service-areas/foothill-farms-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeler/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeler/",
         "/contact/"
       ]
     },
@@ -20979,44 +18263,6 @@
         "/service-areas/foothill-farms-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/carpet-water-extraction/",
         "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/foothill-farms-ca/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Foothill Farms, CA | TDI Builders",
-      "h1": "General Contractor in Foothill Farms",
-      "meta_description": "Trusted general contractor in Foothill Farms, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "general contractor foothill farms",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/foothill-farms-ca/",
-        "/service-areas/foothill-farms-ca/home-remodeling/",
-        "/service-areas/foothill-farms-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/general-contractor/",
-        "/service-areas/arden-arcade-ca/general-contractor/",
         "/contact/"
       ]
     },
@@ -21587,44 +18833,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/rosemont-ca/24-7-emergency-water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in Rosemont, CA | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in Rosemont",
-      "meta_description": "Trusted 24/7 emergency water cleanup in Rosemont, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup rosemont",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/24-7-emergency-water-cleanup/",
-        "/service-areas/rosemont-ca/",
-        "/service-areas/rosemont-ca/home-remodeling/",
-        "/service-areas/rosemont-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/rosemont-ca/basement-sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -21659,44 +18867,6 @@
         "/service-areas/rosemont-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/basement-sewage-cleanup/",
         "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/rosemont-ca/bathroom-remodeler/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Bathroom Remodeler in Rosemont, CA | TDI Builders",
-      "h1": "Bathroom Remodeler in Rosemont",
-      "meta_description": "Trusted bathroom remodeler in Rosemont, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler rosemont",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/bathroom-remodeler/",
-        "/service-areas/rosemont-ca/",
-        "/service-areas/rosemont-ca/home-remodeling/",
-        "/service-areas/rosemont-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeler/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeler/",
         "/contact/"
       ]
     },
@@ -21773,44 +18943,6 @@
         "/service-areas/rosemont-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/carpet-water-extraction/",
         "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/rosemont-ca/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Rosemont, CA | TDI Builders",
-      "h1": "General Contractor in Rosemont",
-      "meta_description": "Trusted general contractor in Rosemont, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "general contractor rosemont",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/rosemont-ca/",
-        "/service-areas/rosemont-ca/home-remodeling/",
-        "/service-areas/rosemont-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/general-contractor/",
-        "/service-areas/arden-arcade-ca/general-contractor/",
         "/contact/"
       ]
     },
@@ -22381,44 +19513,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/florin-ca/24-7-emergency-water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in Florin, CA | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in Florin",
-      "meta_description": "Trusted 24/7 emergency water cleanup in Florin, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup florin",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/24-7-emergency-water-cleanup/",
-        "/service-areas/florin-ca/",
-        "/service-areas/florin-ca/home-remodeling/",
-        "/service-areas/florin-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/florin-ca/basement-sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -22453,44 +19547,6 @@
         "/service-areas/florin-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/basement-sewage-cleanup/",
         "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/florin-ca/bathroom-remodeler/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Bathroom Remodeler in Florin, CA | TDI Builders",
-      "h1": "Bathroom Remodeler in Florin",
-      "meta_description": "Trusted bathroom remodeler in Florin, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler florin",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/bathroom-remodeler/",
-        "/service-areas/florin-ca/",
-        "/service-areas/florin-ca/home-remodeling/",
-        "/service-areas/florin-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeler/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeler/",
         "/contact/"
       ]
     },
@@ -22567,44 +19623,6 @@
         "/service-areas/florin-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/carpet-water-extraction/",
         "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/florin-ca/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Florin, CA | TDI Builders",
-      "h1": "General Contractor in Florin",
-      "meta_description": "Trusted general contractor in Florin, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "general contractor florin",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/florin-ca/",
-        "/service-areas/florin-ca/home-remodeling/",
-        "/service-areas/florin-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/general-contractor/",
-        "/service-areas/arden-arcade-ca/general-contractor/",
         "/contact/"
       ]
     },
@@ -23175,44 +20193,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/woodland-ca/24-7-emergency-water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in Woodland, CA | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in Woodland",
-      "meta_description": "Trusted 24/7 emergency water cleanup in Woodland, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup woodland",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/24-7-emergency-water-cleanup/",
-        "/service-areas/woodland-ca/",
-        "/service-areas/woodland-ca/home-remodeling/",
-        "/service-areas/woodland-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/woodland-ca/basement-sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -23247,44 +20227,6 @@
         "/service-areas/woodland-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/basement-sewage-cleanup/",
         "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/woodland-ca/bathroom-remodeler/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Bathroom Remodeler in Woodland, CA | TDI Builders",
-      "h1": "Bathroom Remodeler in Woodland",
-      "meta_description": "Trusted bathroom remodeler in Woodland, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler woodland",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/bathroom-remodeler/",
-        "/service-areas/woodland-ca/",
-        "/service-areas/woodland-ca/home-remodeling/",
-        "/service-areas/woodland-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeler/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeler/",
         "/contact/"
       ]
     },
@@ -23361,44 +20303,6 @@
         "/service-areas/woodland-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/carpet-water-extraction/",
         "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/woodland-ca/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Woodland, CA | TDI Builders",
-      "h1": "General Contractor in Woodland",
-      "meta_description": "Trusted general contractor in Woodland, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "general contractor woodland",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/woodland-ca/",
-        "/service-areas/woodland-ca/home-remodeling/",
-        "/service-areas/woodland-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/general-contractor/",
-        "/service-areas/arden-arcade-ca/general-contractor/",
         "/contact/"
       ]
     },
@@ -23969,44 +20873,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/mather-ca/24-7-emergency-water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in Mather, CA | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in Mather",
-      "meta_description": "Trusted 24/7 emergency water cleanup in Mather, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup mather",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/24-7-emergency-water-cleanup/",
-        "/service-areas/mather-ca/",
-        "/service-areas/mather-ca/home-remodeling/",
-        "/service-areas/mather-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/mather-ca/basement-sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -24041,44 +20907,6 @@
         "/service-areas/mather-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/basement-sewage-cleanup/",
         "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/mather-ca/bathroom-remodeler/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Bathroom Remodeler in Mather, CA | TDI Builders",
-      "h1": "Bathroom Remodeler in Mather",
-      "meta_description": "Trusted bathroom remodeler in Mather, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler mather",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/bathroom-remodeler/",
-        "/service-areas/mather-ca/",
-        "/service-areas/mather-ca/home-remodeling/",
-        "/service-areas/mather-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeler/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeler/",
         "/contact/"
       ]
     },
@@ -24155,44 +20983,6 @@
         "/service-areas/mather-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/carpet-water-extraction/",
         "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/mather-ca/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Mather, CA | TDI Builders",
-      "h1": "General Contractor in Mather",
-      "meta_description": "Trusted general contractor in Mather, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "general contractor mather",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/mather-ca/",
-        "/service-areas/mather-ca/home-remodeling/",
-        "/service-areas/mather-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/general-contractor/",
-        "/service-areas/arden-arcade-ca/general-contractor/",
         "/contact/"
       ]
     },
@@ -24763,44 +21553,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/davis-ca/24-7-emergency-water-cleanup/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "24/7 Emergency Water Cleanup in Davis, CA | TDI Builders",
-      "h1": "24/7 Emergency Water Cleanup in Davis",
-      "meta_description": "Trusted 24/7 emergency water cleanup in Davis, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "24/7 emergency water cleanup davis",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/24-7-emergency-water-cleanup/",
-        "/service-areas/davis-ca/",
-        "/service-areas/davis-ca/home-remodeling/",
-        "/service-areas/davis-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-        "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/davis-ca/basement-sewage-cleanup/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -24835,44 +21587,6 @@
         "/service-areas/davis-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/basement-sewage-cleanup/",
         "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/davis-ca/bathroom-remodeler/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Bathroom Remodeler in Davis, CA | TDI Builders",
-      "h1": "Bathroom Remodeler in Davis",
-      "meta_description": "Trusted bathroom remodeler in Davis, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "bathroom remodeler davis",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/bathroom-remodeler/",
-        "/service-areas/davis-ca/",
-        "/service-areas/davis-ca/home-remodeling/",
-        "/service-areas/davis-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/bathroom-remodeler/",
-        "/service-areas/arden-arcade-ca/bathroom-remodeler/",
         "/contact/"
       ]
     },
@@ -24949,44 +21663,6 @@
         "/service-areas/davis-ca/bathroom-remodeling/",
         "/service-areas/antelope-ca/carpet-water-extraction/",
         "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/davis-ca/general-contractor/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "General Contractor in Davis, CA | TDI Builders",
-      "h1": "General Contractor in Davis",
-      "meta_description": "Trusted general contractor in Davis, CA. Licensed general contractor, free estimates, quality craftsmanship. Call (877) 688-0866.",
-      "primary_keyword": "general contractor davis",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/general-contractor/",
-        "/service-areas/davis-ca/",
-        "/service-areas/davis-ca/home-remodeling/",
-        "/service-areas/davis-ca/bathroom-remodeling/",
-        "/service-areas/antelope-ca/general-contractor/",
-        "/service-areas/arden-arcade-ca/general-contractor/",
         "/contact/"
       ]
     },

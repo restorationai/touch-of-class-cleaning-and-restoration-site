@@ -37,11 +37,8 @@
     "furnace-repair",
     "indoor-air-quality",
     "repiping",
-    "air-duct-cleaning-service",
     "all-plumbing-services",
     "attic-insulation",
-    "camera-inspections-of-drain-and-sewer-line",
-    "common-plumbing-emergencies",
     "drain-sewer-repairs",
     "gas-line-inspections",
     "instant-hot-water-system",
@@ -259,5 +256,18 @@
     }
   ],
   "template": "plumbing",
-  "blog_seed_count": 8
+  "blog_seed_count": 8,
+  "homepage_services": [
+    "ac-repair",
+    "drain-cleaning",
+    "emergency-plumbing",
+    "water-heater-repair",
+    "furnace-repair",
+    "water-heater-installation"
+  ],
+  "merged_services": {
+    "air-duct-cleaning-service": "air-duct-cleaning",
+    "camera-inspections-of-drain-and-sewer-line": "sewer-camera-inspection",
+    "common-plumbing-emergencies": "emergency-plumbing"
+  }
 }

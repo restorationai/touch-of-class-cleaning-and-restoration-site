@@ -16,12 +16,9 @@
     "/services/storm-damage-restoration/",
     "/services/water-damage-restoration/",
     "/services/garage-construction/",
-    "/services/24-7-emergency-water-cleanup/",
     "/services/basement-sewage-cleanup/",
-    "/services/bathroom-remodeler/",
     "/services/carpet-upholstery-cleaning/",
     "/services/carpet-water-extraction/",
-    "/services/general-contractor/",
     "/services/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
@@ -66,12 +63,9 @@
     "/services/storm-damage-restoration/",
     "/services/water-damage-restoration/",
     "/services/garage-construction/",
-    "/services/24-7-emergency-water-cleanup/",
     "/services/basement-sewage-cleanup/",
-    "/services/bathroom-remodeler/",
     "/services/carpet-upholstery-cleaning/",
     "/services/carpet-water-extraction/",
-    "/services/general-contractor/",
     "/services/post-construction-specialty-cleaning/"
   ],
   "/service-areas/": [
@@ -330,22 +324,6 @@
     "/service-areas/foothill-farms-ca/room-addition/",
     "/blog/do-you-need-a-permit/"
   ],
-  "/services/24-7-emergency-water-cleanup/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/carmichael-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/citrus-heights-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/davis-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/el-dorado-hills-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/elk-grove-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/elverta-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/fair-oaks-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/florin-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/folsom-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/foothill-farms-ca/24-7-emergency-water-cleanup/"
-  ],
   "/services/basement-sewage-cleanup/": [
     "/services/",
     "/contact/",
@@ -361,22 +339,6 @@
     "/service-areas/florin-ca/basement-sewage-cleanup/",
     "/service-areas/folsom-ca/basement-sewage-cleanup/",
     "/service-areas/foothill-farms-ca/basement-sewage-cleanup/"
-  ],
-  "/services/bathroom-remodeler/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
-    "/service-areas/carmichael-ca/bathroom-remodeler/",
-    "/service-areas/citrus-heights-ca/bathroom-remodeler/",
-    "/service-areas/davis-ca/bathroom-remodeler/",
-    "/service-areas/el-dorado-hills-ca/bathroom-remodeler/",
-    "/service-areas/elk-grove-ca/bathroom-remodeler/",
-    "/service-areas/elverta-ca/bathroom-remodeler/",
-    "/service-areas/fair-oaks-ca/bathroom-remodeler/",
-    "/service-areas/florin-ca/bathroom-remodeler/",
-    "/service-areas/folsom-ca/bathroom-remodeler/",
-    "/service-areas/foothill-farms-ca/bathroom-remodeler/"
   ],
   "/services/carpet-upholstery-cleaning/": [
     "/services/",
@@ -410,22 +372,6 @@
     "/service-areas/folsom-ca/carpet-water-extraction/",
     "/service-areas/foothill-farms-ca/carpet-water-extraction/"
   ],
-  "/services/general-contractor/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/antelope-ca/general-contractor/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
-    "/service-areas/carmichael-ca/general-contractor/",
-    "/service-areas/citrus-heights-ca/general-contractor/",
-    "/service-areas/davis-ca/general-contractor/",
-    "/service-areas/el-dorado-hills-ca/general-contractor/",
-    "/service-areas/elk-grove-ca/general-contractor/",
-    "/service-areas/elverta-ca/general-contractor/",
-    "/service-areas/fair-oaks-ca/general-contractor/",
-    "/service-areas/florin-ca/general-contractor/",
-    "/service-areas/folsom-ca/general-contractor/",
-    "/service-areas/foothill-farms-ca/general-contractor/"
-  ],
   "/services/post-construction-specialty-cleaning/": [
     "/services/",
     "/contact/",
@@ -457,12 +403,9 @@
     "/service-areas/roseville-ca/storm-damage-restoration/",
     "/service-areas/roseville-ca/water-damage-restoration/",
     "/service-areas/roseville-ca/garage-construction/",
-    "/service-areas/roseville-ca/24-7-emergency-water-cleanup/",
     "/service-areas/roseville-ca/basement-sewage-cleanup/",
-    "/service-areas/roseville-ca/bathroom-remodeler/",
     "/service-areas/roseville-ca/carpet-upholstery-cleaning/",
     "/service-areas/roseville-ca/carpet-water-extraction/",
-    "/service-areas/roseville-ca/general-contractor/",
     "/service-areas/roseville-ca/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
@@ -483,12 +426,9 @@
     "/service-areas/elk-grove-ca/storm-damage-restoration/",
     "/service-areas/elk-grove-ca/water-damage-restoration/",
     "/service-areas/elk-grove-ca/garage-construction/",
-    "/service-areas/elk-grove-ca/24-7-emergency-water-cleanup/",
     "/service-areas/elk-grove-ca/basement-sewage-cleanup/",
-    "/service-areas/elk-grove-ca/bathroom-remodeler/",
     "/service-areas/elk-grove-ca/carpet-upholstery-cleaning/",
     "/service-areas/elk-grove-ca/carpet-water-extraction/",
-    "/service-areas/elk-grove-ca/general-contractor/",
     "/service-areas/elk-grove-ca/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
@@ -509,12 +449,9 @@
     "/service-areas/folsom-ca/storm-damage-restoration/",
     "/service-areas/folsom-ca/water-damage-restoration/",
     "/service-areas/folsom-ca/garage-construction/",
-    "/service-areas/folsom-ca/24-7-emergency-water-cleanup/",
     "/service-areas/folsom-ca/basement-sewage-cleanup/",
-    "/service-areas/folsom-ca/bathroom-remodeler/",
     "/service-areas/folsom-ca/carpet-upholstery-cleaning/",
     "/service-areas/folsom-ca/carpet-water-extraction/",
-    "/service-areas/folsom-ca/general-contractor/",
     "/service-areas/folsom-ca/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
@@ -535,12 +472,9 @@
     "/service-areas/modesto-ca/storm-damage-restoration/",
     "/service-areas/modesto-ca/water-damage-restoration/",
     "/service-areas/modesto-ca/garage-construction/",
-    "/service-areas/modesto-ca/24-7-emergency-water-cleanup/",
     "/service-areas/modesto-ca/basement-sewage-cleanup/",
-    "/service-areas/modesto-ca/bathroom-remodeler/",
     "/service-areas/modesto-ca/carpet-upholstery-cleaning/",
     "/service-areas/modesto-ca/carpet-water-extraction/",
-    "/service-areas/modesto-ca/general-contractor/",
     "/service-areas/modesto-ca/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
@@ -561,12 +495,9 @@
     "/service-areas/rocklin-ca/storm-damage-restoration/",
     "/service-areas/rocklin-ca/water-damage-restoration/",
     "/service-areas/rocklin-ca/garage-construction/",
-    "/service-areas/rocklin-ca/24-7-emergency-water-cleanup/",
     "/service-areas/rocklin-ca/basement-sewage-cleanup/",
-    "/service-areas/rocklin-ca/bathroom-remodeler/",
     "/service-areas/rocklin-ca/carpet-upholstery-cleaning/",
     "/service-areas/rocklin-ca/carpet-water-extraction/",
-    "/service-areas/rocklin-ca/general-contractor/",
     "/service-areas/rocklin-ca/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
@@ -587,12 +518,9 @@
     "/service-areas/citrus-heights-ca/storm-damage-restoration/",
     "/service-areas/citrus-heights-ca/water-damage-restoration/",
     "/service-areas/citrus-heights-ca/garage-construction/",
-    "/service-areas/citrus-heights-ca/24-7-emergency-water-cleanup/",
     "/service-areas/citrus-heights-ca/basement-sewage-cleanup/",
-    "/service-areas/citrus-heights-ca/bathroom-remodeler/",
     "/service-areas/citrus-heights-ca/carpet-upholstery-cleaning/",
     "/service-areas/citrus-heights-ca/carpet-water-extraction/",
-    "/service-areas/citrus-heights-ca/general-contractor/",
     "/service-areas/citrus-heights-ca/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
@@ -613,12 +541,9 @@
     "/service-areas/rancho-cordova-ca/storm-damage-restoration/",
     "/service-areas/rancho-cordova-ca/water-damage-restoration/",
     "/service-areas/rancho-cordova-ca/garage-construction/",
-    "/service-areas/rancho-cordova-ca/24-7-emergency-water-cleanup/",
     "/service-areas/rancho-cordova-ca/basement-sewage-cleanup/",
-    "/service-areas/rancho-cordova-ca/bathroom-remodeler/",
     "/service-areas/rancho-cordova-ca/carpet-upholstery-cleaning/",
     "/service-areas/rancho-cordova-ca/carpet-water-extraction/",
-    "/service-areas/rancho-cordova-ca/general-contractor/",
     "/service-areas/rancho-cordova-ca/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
@@ -639,12 +564,9 @@
     "/service-areas/fair-oaks-ca/storm-damage-restoration/",
     "/service-areas/fair-oaks-ca/water-damage-restoration/",
     "/service-areas/fair-oaks-ca/garage-construction/",
-    "/service-areas/fair-oaks-ca/24-7-emergency-water-cleanup/",
     "/service-areas/fair-oaks-ca/basement-sewage-cleanup/",
-    "/service-areas/fair-oaks-ca/bathroom-remodeler/",
     "/service-areas/fair-oaks-ca/carpet-upholstery-cleaning/",
     "/service-areas/fair-oaks-ca/carpet-water-extraction/",
-    "/service-areas/fair-oaks-ca/general-contractor/",
     "/service-areas/fair-oaks-ca/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
@@ -665,12 +587,9 @@
     "/service-areas/carmichael-ca/storm-damage-restoration/",
     "/service-areas/carmichael-ca/water-damage-restoration/",
     "/service-areas/carmichael-ca/garage-construction/",
-    "/service-areas/carmichael-ca/24-7-emergency-water-cleanup/",
     "/service-areas/carmichael-ca/basement-sewage-cleanup/",
-    "/service-areas/carmichael-ca/bathroom-remodeler/",
     "/service-areas/carmichael-ca/carpet-upholstery-cleaning/",
     "/service-areas/carmichael-ca/carpet-water-extraction/",
-    "/service-areas/carmichael-ca/general-contractor/",
     "/service-areas/carmichael-ca/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
@@ -691,12 +610,9 @@
     "/service-areas/west-sacramento-ca/storm-damage-restoration/",
     "/service-areas/west-sacramento-ca/water-damage-restoration/",
     "/service-areas/west-sacramento-ca/garage-construction/",
-    "/service-areas/west-sacramento-ca/24-7-emergency-water-cleanup/",
     "/service-areas/west-sacramento-ca/basement-sewage-cleanup/",
-    "/service-areas/west-sacramento-ca/bathroom-remodeler/",
     "/service-areas/west-sacramento-ca/carpet-upholstery-cleaning/",
     "/service-areas/west-sacramento-ca/carpet-water-extraction/",
-    "/service-areas/west-sacramento-ca/general-contractor/",
     "/service-areas/west-sacramento-ca/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
@@ -717,12 +633,9 @@
     "/service-areas/lincoln-ca/storm-damage-restoration/",
     "/service-areas/lincoln-ca/water-damage-restoration/",
     "/service-areas/lincoln-ca/garage-construction/",
-    "/service-areas/lincoln-ca/24-7-emergency-water-cleanup/",
     "/service-areas/lincoln-ca/basement-sewage-cleanup/",
-    "/service-areas/lincoln-ca/bathroom-remodeler/",
     "/service-areas/lincoln-ca/carpet-upholstery-cleaning/",
     "/service-areas/lincoln-ca/carpet-water-extraction/",
-    "/service-areas/lincoln-ca/general-contractor/",
     "/service-areas/lincoln-ca/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
@@ -743,12 +656,9 @@
     "/service-areas/granite-bay-ca/storm-damage-restoration/",
     "/service-areas/granite-bay-ca/water-damage-restoration/",
     "/service-areas/granite-bay-ca/garage-construction/",
-    "/service-areas/granite-bay-ca/24-7-emergency-water-cleanup/",
     "/service-areas/granite-bay-ca/basement-sewage-cleanup/",
-    "/service-areas/granite-bay-ca/bathroom-remodeler/",
     "/service-areas/granite-bay-ca/carpet-upholstery-cleaning/",
     "/service-areas/granite-bay-ca/carpet-water-extraction/",
-    "/service-areas/granite-bay-ca/general-contractor/",
     "/service-areas/granite-bay-ca/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
@@ -769,12 +679,9 @@
     "/service-areas/el-dorado-hills-ca/storm-damage-restoration/",
     "/service-areas/el-dorado-hills-ca/water-damage-restoration/",
     "/service-areas/el-dorado-hills-ca/garage-construction/",
-    "/service-areas/el-dorado-hills-ca/24-7-emergency-water-cleanup/",
     "/service-areas/el-dorado-hills-ca/basement-sewage-cleanup/",
-    "/service-areas/el-dorado-hills-ca/bathroom-remodeler/",
     "/service-areas/el-dorado-hills-ca/carpet-upholstery-cleaning/",
     "/service-areas/el-dorado-hills-ca/carpet-water-extraction/",
-    "/service-areas/el-dorado-hills-ca/general-contractor/",
     "/service-areas/el-dorado-hills-ca/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
@@ -795,12 +702,9 @@
     "/service-areas/loomis-ca/storm-damage-restoration/",
     "/service-areas/loomis-ca/water-damage-restoration/",
     "/service-areas/loomis-ca/garage-construction/",
-    "/service-areas/loomis-ca/24-7-emergency-water-cleanup/",
     "/service-areas/loomis-ca/basement-sewage-cleanup/",
-    "/service-areas/loomis-ca/bathroom-remodeler/",
     "/service-areas/loomis-ca/carpet-upholstery-cleaning/",
     "/service-areas/loomis-ca/carpet-water-extraction/",
-    "/service-areas/loomis-ca/general-contractor/",
     "/service-areas/loomis-ca/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
@@ -821,12 +725,9 @@
     "/service-areas/manteca-ca/storm-damage-restoration/",
     "/service-areas/manteca-ca/water-damage-restoration/",
     "/service-areas/manteca-ca/garage-construction/",
-    "/service-areas/manteca-ca/24-7-emergency-water-cleanup/",
     "/service-areas/manteca-ca/basement-sewage-cleanup/",
-    "/service-areas/manteca-ca/bathroom-remodeler/",
     "/service-areas/manteca-ca/carpet-upholstery-cleaning/",
     "/service-areas/manteca-ca/carpet-water-extraction/",
-    "/service-areas/manteca-ca/general-contractor/",
     "/service-areas/manteca-ca/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
@@ -847,12 +748,9 @@
     "/service-areas/turlock-ca/storm-damage-restoration/",
     "/service-areas/turlock-ca/water-damage-restoration/",
     "/service-areas/turlock-ca/garage-construction/",
-    "/service-areas/turlock-ca/24-7-emergency-water-cleanup/",
     "/service-areas/turlock-ca/basement-sewage-cleanup/",
-    "/service-areas/turlock-ca/bathroom-remodeler/",
     "/service-areas/turlock-ca/carpet-upholstery-cleaning/",
     "/service-areas/turlock-ca/carpet-water-extraction/",
-    "/service-areas/turlock-ca/general-contractor/",
     "/service-areas/turlock-ca/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
@@ -873,12 +771,9 @@
     "/service-areas/rio-linda-ca/storm-damage-restoration/",
     "/service-areas/rio-linda-ca/water-damage-restoration/",
     "/service-areas/rio-linda-ca/garage-construction/",
-    "/service-areas/rio-linda-ca/24-7-emergency-water-cleanup/",
     "/service-areas/rio-linda-ca/basement-sewage-cleanup/",
-    "/service-areas/rio-linda-ca/bathroom-remodeler/",
     "/service-areas/rio-linda-ca/carpet-upholstery-cleaning/",
     "/service-areas/rio-linda-ca/carpet-water-extraction/",
-    "/service-areas/rio-linda-ca/general-contractor/",
     "/service-areas/rio-linda-ca/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
@@ -899,12 +794,9 @@
     "/service-areas/elverta-ca/storm-damage-restoration/",
     "/service-areas/elverta-ca/water-damage-restoration/",
     "/service-areas/elverta-ca/garage-construction/",
-    "/service-areas/elverta-ca/24-7-emergency-water-cleanup/",
     "/service-areas/elverta-ca/basement-sewage-cleanup/",
-    "/service-areas/elverta-ca/bathroom-remodeler/",
     "/service-areas/elverta-ca/carpet-upholstery-cleaning/",
     "/service-areas/elverta-ca/carpet-water-extraction/",
-    "/service-areas/elverta-ca/general-contractor/",
     "/service-areas/elverta-ca/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
@@ -925,12 +817,9 @@
     "/service-areas/mcclellan-park-ca/storm-damage-restoration/",
     "/service-areas/mcclellan-park-ca/water-damage-restoration/",
     "/service-areas/mcclellan-park-ca/garage-construction/",
-    "/service-areas/mcclellan-park-ca/24-7-emergency-water-cleanup/",
     "/service-areas/mcclellan-park-ca/basement-sewage-cleanup/",
-    "/service-areas/mcclellan-park-ca/bathroom-remodeler/",
     "/service-areas/mcclellan-park-ca/carpet-upholstery-cleaning/",
     "/service-areas/mcclellan-park-ca/carpet-water-extraction/",
-    "/service-areas/mcclellan-park-ca/general-contractor/",
     "/service-areas/mcclellan-park-ca/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
@@ -951,12 +840,9 @@
     "/service-areas/arden-arcade-ca/storm-damage-restoration/",
     "/service-areas/arden-arcade-ca/water-damage-restoration/",
     "/service-areas/arden-arcade-ca/garage-construction/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
     "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
     "/service-areas/arden-arcade-ca/carpet-upholstery-cleaning/",
     "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
     "/service-areas/arden-arcade-ca/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/carmichael-ca/",
@@ -977,12 +863,9 @@
     "/service-areas/north-highlands-ca/storm-damage-restoration/",
     "/service-areas/north-highlands-ca/water-damage-restoration/",
     "/service-areas/north-highlands-ca/garage-construction/",
-    "/service-areas/north-highlands-ca/24-7-emergency-water-cleanup/",
     "/service-areas/north-highlands-ca/basement-sewage-cleanup/",
-    "/service-areas/north-highlands-ca/bathroom-remodeler/",
     "/service-areas/north-highlands-ca/carpet-upholstery-cleaning/",
     "/service-areas/north-highlands-ca/carpet-water-extraction/",
-    "/service-areas/north-highlands-ca/general-contractor/",
     "/service-areas/north-highlands-ca/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
@@ -1003,12 +886,9 @@
     "/service-areas/antelope-ca/storm-damage-restoration/",
     "/service-areas/antelope-ca/water-damage-restoration/",
     "/service-areas/antelope-ca/garage-construction/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
     "/service-areas/antelope-ca/basement-sewage-cleanup/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
     "/service-areas/antelope-ca/carpet-upholstery-cleaning/",
     "/service-areas/antelope-ca/carpet-water-extraction/",
-    "/service-areas/antelope-ca/general-contractor/",
     "/service-areas/antelope-ca/post-construction-specialty-cleaning/",
     "/service-areas/arden-arcade-ca/",
     "/service-areas/carmichael-ca/",
@@ -1029,12 +909,9 @@
     "/service-areas/foothill-farms-ca/storm-damage-restoration/",
     "/service-areas/foothill-farms-ca/water-damage-restoration/",
     "/service-areas/foothill-farms-ca/garage-construction/",
-    "/service-areas/foothill-farms-ca/24-7-emergency-water-cleanup/",
     "/service-areas/foothill-farms-ca/basement-sewage-cleanup/",
-    "/service-areas/foothill-farms-ca/bathroom-remodeler/",
     "/service-areas/foothill-farms-ca/carpet-upholstery-cleaning/",
     "/service-areas/foothill-farms-ca/carpet-water-extraction/",
-    "/service-areas/foothill-farms-ca/general-contractor/",
     "/service-areas/foothill-farms-ca/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
@@ -1055,12 +932,9 @@
     "/service-areas/rosemont-ca/storm-damage-restoration/",
     "/service-areas/rosemont-ca/water-damage-restoration/",
     "/service-areas/rosemont-ca/garage-construction/",
-    "/service-areas/rosemont-ca/24-7-emergency-water-cleanup/",
     "/service-areas/rosemont-ca/basement-sewage-cleanup/",
-    "/service-areas/rosemont-ca/bathroom-remodeler/",
     "/service-areas/rosemont-ca/carpet-upholstery-cleaning/",
     "/service-areas/rosemont-ca/carpet-water-extraction/",
-    "/service-areas/rosemont-ca/general-contractor/",
     "/service-areas/rosemont-ca/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
@@ -1081,12 +955,9 @@
     "/service-areas/florin-ca/storm-damage-restoration/",
     "/service-areas/florin-ca/water-damage-restoration/",
     "/service-areas/florin-ca/garage-construction/",
-    "/service-areas/florin-ca/24-7-emergency-water-cleanup/",
     "/service-areas/florin-ca/basement-sewage-cleanup/",
-    "/service-areas/florin-ca/bathroom-remodeler/",
     "/service-areas/florin-ca/carpet-upholstery-cleaning/",
     "/service-areas/florin-ca/carpet-water-extraction/",
-    "/service-areas/florin-ca/general-contractor/",
     "/service-areas/florin-ca/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
@@ -1107,12 +978,9 @@
     "/service-areas/woodland-ca/storm-damage-restoration/",
     "/service-areas/woodland-ca/water-damage-restoration/",
     "/service-areas/woodland-ca/garage-construction/",
-    "/service-areas/woodland-ca/24-7-emergency-water-cleanup/",
     "/service-areas/woodland-ca/basement-sewage-cleanup/",
-    "/service-areas/woodland-ca/bathroom-remodeler/",
     "/service-areas/woodland-ca/carpet-upholstery-cleaning/",
     "/service-areas/woodland-ca/carpet-water-extraction/",
-    "/service-areas/woodland-ca/general-contractor/",
     "/service-areas/woodland-ca/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
@@ -1133,12 +1001,9 @@
     "/service-areas/mather-ca/storm-damage-restoration/",
     "/service-areas/mather-ca/water-damage-restoration/",
     "/service-areas/mather-ca/garage-construction/",
-    "/service-areas/mather-ca/24-7-emergency-water-cleanup/",
     "/service-areas/mather-ca/basement-sewage-cleanup/",
-    "/service-areas/mather-ca/bathroom-remodeler/",
     "/service-areas/mather-ca/carpet-upholstery-cleaning/",
     "/service-areas/mather-ca/carpet-water-extraction/",
-    "/service-areas/mather-ca/general-contractor/",
     "/service-areas/mather-ca/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
@@ -1159,12 +1024,9 @@
     "/service-areas/davis-ca/storm-damage-restoration/",
     "/service-areas/davis-ca/water-damage-restoration/",
     "/service-areas/davis-ca/garage-construction/",
-    "/service-areas/davis-ca/24-7-emergency-water-cleanup/",
     "/service-areas/davis-ca/basement-sewage-cleanup/",
-    "/service-areas/davis-ca/bathroom-remodeler/",
     "/service-areas/davis-ca/carpet-upholstery-cleaning/",
     "/service-areas/davis-ca/carpet-water-extraction/",
-    "/service-areas/davis-ca/general-contractor/",
     "/service-areas/davis-ca/post-construction-specialty-cleaning/",
     "/service-areas/antelope-ca/",
     "/service-areas/arden-arcade-ca/",
@@ -1278,15 +1140,6 @@
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
-  "/service-areas/roseville-ca/24-7-emergency-water-cleanup/": [
-    "/services/24-7-emergency-water-cleanup/",
-    "/service-areas/roseville-ca/",
-    "/service-areas/roseville-ca/home-remodeling/",
-    "/service-areas/roseville-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/roseville-ca/basement-sewage-cleanup/": [
     "/services/basement-sewage-cleanup/",
     "/service-areas/roseville-ca/",
@@ -1294,15 +1147,6 @@
     "/service-areas/roseville-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/basement-sewage-cleanup/",
     "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/roseville-ca/bathroom-remodeler/": [
-    "/services/bathroom-remodeler/",
-    "/service-areas/roseville-ca/",
-    "/service-areas/roseville-ca/home-remodeling/",
-    "/service-areas/roseville-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
     "/contact/"
   ],
   "/service-areas/roseville-ca/carpet-upholstery-cleaning/": [
@@ -1321,15 +1165,6 @@
     "/service-areas/roseville-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/carpet-water-extraction/",
     "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-    "/contact/"
-  ],
-  "/service-areas/roseville-ca/general-contractor/": [
-    "/services/general-contractor/",
-    "/service-areas/roseville-ca/",
-    "/service-areas/roseville-ca/home-remodeling/",
-    "/service-areas/roseville-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/general-contractor/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
     "/contact/"
   ],
   "/service-areas/roseville-ca/post-construction-specialty-cleaning/": [
@@ -1449,15 +1284,6 @@
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
-  "/service-areas/elk-grove-ca/24-7-emergency-water-cleanup/": [
-    "/services/24-7-emergency-water-cleanup/",
-    "/service-areas/elk-grove-ca/",
-    "/service-areas/elk-grove-ca/home-remodeling/",
-    "/service-areas/elk-grove-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/elk-grove-ca/basement-sewage-cleanup/": [
     "/services/basement-sewage-cleanup/",
     "/service-areas/elk-grove-ca/",
@@ -1465,15 +1291,6 @@
     "/service-areas/elk-grove-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/basement-sewage-cleanup/",
     "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/elk-grove-ca/bathroom-remodeler/": [
-    "/services/bathroom-remodeler/",
-    "/service-areas/elk-grove-ca/",
-    "/service-areas/elk-grove-ca/home-remodeling/",
-    "/service-areas/elk-grove-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
     "/contact/"
   ],
   "/service-areas/elk-grove-ca/carpet-upholstery-cleaning/": [
@@ -1492,15 +1309,6 @@
     "/service-areas/elk-grove-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/carpet-water-extraction/",
     "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-    "/contact/"
-  ],
-  "/service-areas/elk-grove-ca/general-contractor/": [
-    "/services/general-contractor/",
-    "/service-areas/elk-grove-ca/",
-    "/service-areas/elk-grove-ca/home-remodeling/",
-    "/service-areas/elk-grove-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/general-contractor/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
     "/contact/"
   ],
   "/service-areas/elk-grove-ca/post-construction-specialty-cleaning/": [
@@ -1620,15 +1428,6 @@
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
-  "/service-areas/folsom-ca/24-7-emergency-water-cleanup/": [
-    "/services/24-7-emergency-water-cleanup/",
-    "/service-areas/folsom-ca/",
-    "/service-areas/folsom-ca/home-remodeling/",
-    "/service-areas/folsom-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/folsom-ca/basement-sewage-cleanup/": [
     "/services/basement-sewage-cleanup/",
     "/service-areas/folsom-ca/",
@@ -1636,15 +1435,6 @@
     "/service-areas/folsom-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/basement-sewage-cleanup/",
     "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/folsom-ca/bathroom-remodeler/": [
-    "/services/bathroom-remodeler/",
-    "/service-areas/folsom-ca/",
-    "/service-areas/folsom-ca/home-remodeling/",
-    "/service-areas/folsom-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
     "/contact/"
   ],
   "/service-areas/folsom-ca/carpet-upholstery-cleaning/": [
@@ -1663,15 +1453,6 @@
     "/service-areas/folsom-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/carpet-water-extraction/",
     "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-    "/contact/"
-  ],
-  "/service-areas/folsom-ca/general-contractor/": [
-    "/services/general-contractor/",
-    "/service-areas/folsom-ca/",
-    "/service-areas/folsom-ca/home-remodeling/",
-    "/service-areas/folsom-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/general-contractor/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
     "/contact/"
   ],
   "/service-areas/folsom-ca/post-construction-specialty-cleaning/": [
@@ -1791,15 +1572,6 @@
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
-  "/service-areas/modesto-ca/24-7-emergency-water-cleanup/": [
-    "/services/24-7-emergency-water-cleanup/",
-    "/service-areas/modesto-ca/",
-    "/service-areas/modesto-ca/home-remodeling/",
-    "/service-areas/modesto-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/modesto-ca/basement-sewage-cleanup/": [
     "/services/basement-sewage-cleanup/",
     "/service-areas/modesto-ca/",
@@ -1807,15 +1579,6 @@
     "/service-areas/modesto-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/basement-sewage-cleanup/",
     "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/modesto-ca/bathroom-remodeler/": [
-    "/services/bathroom-remodeler/",
-    "/service-areas/modesto-ca/",
-    "/service-areas/modesto-ca/home-remodeling/",
-    "/service-areas/modesto-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
     "/contact/"
   ],
   "/service-areas/modesto-ca/carpet-upholstery-cleaning/": [
@@ -1834,15 +1597,6 @@
     "/service-areas/modesto-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/carpet-water-extraction/",
     "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-    "/contact/"
-  ],
-  "/service-areas/modesto-ca/general-contractor/": [
-    "/services/general-contractor/",
-    "/service-areas/modesto-ca/",
-    "/service-areas/modesto-ca/home-remodeling/",
-    "/service-areas/modesto-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/general-contractor/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
     "/contact/"
   ],
   "/service-areas/modesto-ca/post-construction-specialty-cleaning/": [
@@ -1962,15 +1716,6 @@
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
-  "/service-areas/rocklin-ca/24-7-emergency-water-cleanup/": [
-    "/services/24-7-emergency-water-cleanup/",
-    "/service-areas/rocklin-ca/",
-    "/service-areas/rocklin-ca/home-remodeling/",
-    "/service-areas/rocklin-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/rocklin-ca/basement-sewage-cleanup/": [
     "/services/basement-sewage-cleanup/",
     "/service-areas/rocklin-ca/",
@@ -1978,15 +1723,6 @@
     "/service-areas/rocklin-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/basement-sewage-cleanup/",
     "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/rocklin-ca/bathroom-remodeler/": [
-    "/services/bathroom-remodeler/",
-    "/service-areas/rocklin-ca/",
-    "/service-areas/rocklin-ca/home-remodeling/",
-    "/service-areas/rocklin-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
     "/contact/"
   ],
   "/service-areas/rocklin-ca/carpet-upholstery-cleaning/": [
@@ -2005,15 +1741,6 @@
     "/service-areas/rocklin-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/carpet-water-extraction/",
     "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-    "/contact/"
-  ],
-  "/service-areas/rocklin-ca/general-contractor/": [
-    "/services/general-contractor/",
-    "/service-areas/rocklin-ca/",
-    "/service-areas/rocklin-ca/home-remodeling/",
-    "/service-areas/rocklin-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/general-contractor/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
     "/contact/"
   ],
   "/service-areas/rocklin-ca/post-construction-specialty-cleaning/": [
@@ -2133,15 +1860,6 @@
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
-  "/service-areas/citrus-heights-ca/24-7-emergency-water-cleanup/": [
-    "/services/24-7-emergency-water-cleanup/",
-    "/service-areas/citrus-heights-ca/",
-    "/service-areas/citrus-heights-ca/home-remodeling/",
-    "/service-areas/citrus-heights-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/citrus-heights-ca/basement-sewage-cleanup/": [
     "/services/basement-sewage-cleanup/",
     "/service-areas/citrus-heights-ca/",
@@ -2149,15 +1867,6 @@
     "/service-areas/citrus-heights-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/basement-sewage-cleanup/",
     "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/citrus-heights-ca/bathroom-remodeler/": [
-    "/services/bathroom-remodeler/",
-    "/service-areas/citrus-heights-ca/",
-    "/service-areas/citrus-heights-ca/home-remodeling/",
-    "/service-areas/citrus-heights-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
     "/contact/"
   ],
   "/service-areas/citrus-heights-ca/carpet-upholstery-cleaning/": [
@@ -2176,15 +1885,6 @@
     "/service-areas/citrus-heights-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/carpet-water-extraction/",
     "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-    "/contact/"
-  ],
-  "/service-areas/citrus-heights-ca/general-contractor/": [
-    "/services/general-contractor/",
-    "/service-areas/citrus-heights-ca/",
-    "/service-areas/citrus-heights-ca/home-remodeling/",
-    "/service-areas/citrus-heights-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/general-contractor/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
     "/contact/"
   ],
   "/service-areas/citrus-heights-ca/post-construction-specialty-cleaning/": [
@@ -2304,15 +2004,6 @@
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
-  "/service-areas/rancho-cordova-ca/24-7-emergency-water-cleanup/": [
-    "/services/24-7-emergency-water-cleanup/",
-    "/service-areas/rancho-cordova-ca/",
-    "/service-areas/rancho-cordova-ca/home-remodeling/",
-    "/service-areas/rancho-cordova-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/rancho-cordova-ca/basement-sewage-cleanup/": [
     "/services/basement-sewage-cleanup/",
     "/service-areas/rancho-cordova-ca/",
@@ -2320,15 +2011,6 @@
     "/service-areas/rancho-cordova-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/basement-sewage-cleanup/",
     "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/rancho-cordova-ca/bathroom-remodeler/": [
-    "/services/bathroom-remodeler/",
-    "/service-areas/rancho-cordova-ca/",
-    "/service-areas/rancho-cordova-ca/home-remodeling/",
-    "/service-areas/rancho-cordova-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
     "/contact/"
   ],
   "/service-areas/rancho-cordova-ca/carpet-upholstery-cleaning/": [
@@ -2347,15 +2029,6 @@
     "/service-areas/rancho-cordova-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/carpet-water-extraction/",
     "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-    "/contact/"
-  ],
-  "/service-areas/rancho-cordova-ca/general-contractor/": [
-    "/services/general-contractor/",
-    "/service-areas/rancho-cordova-ca/",
-    "/service-areas/rancho-cordova-ca/home-remodeling/",
-    "/service-areas/rancho-cordova-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/general-contractor/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
     "/contact/"
   ],
   "/service-areas/rancho-cordova-ca/post-construction-specialty-cleaning/": [
@@ -2475,15 +2148,6 @@
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
-  "/service-areas/fair-oaks-ca/24-7-emergency-water-cleanup/": [
-    "/services/24-7-emergency-water-cleanup/",
-    "/service-areas/fair-oaks-ca/",
-    "/service-areas/fair-oaks-ca/home-remodeling/",
-    "/service-areas/fair-oaks-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/fair-oaks-ca/basement-sewage-cleanup/": [
     "/services/basement-sewage-cleanup/",
     "/service-areas/fair-oaks-ca/",
@@ -2491,15 +2155,6 @@
     "/service-areas/fair-oaks-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/basement-sewage-cleanup/",
     "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/fair-oaks-ca/bathroom-remodeler/": [
-    "/services/bathroom-remodeler/",
-    "/service-areas/fair-oaks-ca/",
-    "/service-areas/fair-oaks-ca/home-remodeling/",
-    "/service-areas/fair-oaks-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
     "/contact/"
   ],
   "/service-areas/fair-oaks-ca/carpet-upholstery-cleaning/": [
@@ -2518,15 +2173,6 @@
     "/service-areas/fair-oaks-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/carpet-water-extraction/",
     "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-    "/contact/"
-  ],
-  "/service-areas/fair-oaks-ca/general-contractor/": [
-    "/services/general-contractor/",
-    "/service-areas/fair-oaks-ca/",
-    "/service-areas/fair-oaks-ca/home-remodeling/",
-    "/service-areas/fair-oaks-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/general-contractor/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
     "/contact/"
   ],
   "/service-areas/fair-oaks-ca/post-construction-specialty-cleaning/": [
@@ -2646,15 +2292,6 @@
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
-  "/service-areas/carmichael-ca/24-7-emergency-water-cleanup/": [
-    "/services/24-7-emergency-water-cleanup/",
-    "/service-areas/carmichael-ca/",
-    "/service-areas/carmichael-ca/home-remodeling/",
-    "/service-areas/carmichael-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/carmichael-ca/basement-sewage-cleanup/": [
     "/services/basement-sewage-cleanup/",
     "/service-areas/carmichael-ca/",
@@ -2662,15 +2299,6 @@
     "/service-areas/carmichael-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/basement-sewage-cleanup/",
     "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/carmichael-ca/bathroom-remodeler/": [
-    "/services/bathroom-remodeler/",
-    "/service-areas/carmichael-ca/",
-    "/service-areas/carmichael-ca/home-remodeling/",
-    "/service-areas/carmichael-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
     "/contact/"
   ],
   "/service-areas/carmichael-ca/carpet-upholstery-cleaning/": [
@@ -2689,15 +2317,6 @@
     "/service-areas/carmichael-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/carpet-water-extraction/",
     "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-    "/contact/"
-  ],
-  "/service-areas/carmichael-ca/general-contractor/": [
-    "/services/general-contractor/",
-    "/service-areas/carmichael-ca/",
-    "/service-areas/carmichael-ca/home-remodeling/",
-    "/service-areas/carmichael-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/general-contractor/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
     "/contact/"
   ],
   "/service-areas/carmichael-ca/post-construction-specialty-cleaning/": [
@@ -2817,15 +2436,6 @@
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
-  "/service-areas/west-sacramento-ca/24-7-emergency-water-cleanup/": [
-    "/services/24-7-emergency-water-cleanup/",
-    "/service-areas/west-sacramento-ca/",
-    "/service-areas/west-sacramento-ca/home-remodeling/",
-    "/service-areas/west-sacramento-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/west-sacramento-ca/basement-sewage-cleanup/": [
     "/services/basement-sewage-cleanup/",
     "/service-areas/west-sacramento-ca/",
@@ -2833,15 +2443,6 @@
     "/service-areas/west-sacramento-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/basement-sewage-cleanup/",
     "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/west-sacramento-ca/bathroom-remodeler/": [
-    "/services/bathroom-remodeler/",
-    "/service-areas/west-sacramento-ca/",
-    "/service-areas/west-sacramento-ca/home-remodeling/",
-    "/service-areas/west-sacramento-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
     "/contact/"
   ],
   "/service-areas/west-sacramento-ca/carpet-upholstery-cleaning/": [
@@ -2860,15 +2461,6 @@
     "/service-areas/west-sacramento-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/carpet-water-extraction/",
     "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-    "/contact/"
-  ],
-  "/service-areas/west-sacramento-ca/general-contractor/": [
-    "/services/general-contractor/",
-    "/service-areas/west-sacramento-ca/",
-    "/service-areas/west-sacramento-ca/home-remodeling/",
-    "/service-areas/west-sacramento-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/general-contractor/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
     "/contact/"
   ],
   "/service-areas/west-sacramento-ca/post-construction-specialty-cleaning/": [
@@ -2988,15 +2580,6 @@
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
-  "/service-areas/lincoln-ca/24-7-emergency-water-cleanup/": [
-    "/services/24-7-emergency-water-cleanup/",
-    "/service-areas/lincoln-ca/",
-    "/service-areas/lincoln-ca/home-remodeling/",
-    "/service-areas/lincoln-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/lincoln-ca/basement-sewage-cleanup/": [
     "/services/basement-sewage-cleanup/",
     "/service-areas/lincoln-ca/",
@@ -3004,15 +2587,6 @@
     "/service-areas/lincoln-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/basement-sewage-cleanup/",
     "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/lincoln-ca/bathroom-remodeler/": [
-    "/services/bathroom-remodeler/",
-    "/service-areas/lincoln-ca/",
-    "/service-areas/lincoln-ca/home-remodeling/",
-    "/service-areas/lincoln-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
     "/contact/"
   ],
   "/service-areas/lincoln-ca/carpet-upholstery-cleaning/": [
@@ -3031,15 +2605,6 @@
     "/service-areas/lincoln-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/carpet-water-extraction/",
     "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-    "/contact/"
-  ],
-  "/service-areas/lincoln-ca/general-contractor/": [
-    "/services/general-contractor/",
-    "/service-areas/lincoln-ca/",
-    "/service-areas/lincoln-ca/home-remodeling/",
-    "/service-areas/lincoln-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/general-contractor/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
     "/contact/"
   ],
   "/service-areas/lincoln-ca/post-construction-specialty-cleaning/": [
@@ -3159,15 +2724,6 @@
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
-  "/service-areas/granite-bay-ca/24-7-emergency-water-cleanup/": [
-    "/services/24-7-emergency-water-cleanup/",
-    "/service-areas/granite-bay-ca/",
-    "/service-areas/granite-bay-ca/home-remodeling/",
-    "/service-areas/granite-bay-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/granite-bay-ca/basement-sewage-cleanup/": [
     "/services/basement-sewage-cleanup/",
     "/service-areas/granite-bay-ca/",
@@ -3175,15 +2731,6 @@
     "/service-areas/granite-bay-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/basement-sewage-cleanup/",
     "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/granite-bay-ca/bathroom-remodeler/": [
-    "/services/bathroom-remodeler/",
-    "/service-areas/granite-bay-ca/",
-    "/service-areas/granite-bay-ca/home-remodeling/",
-    "/service-areas/granite-bay-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
     "/contact/"
   ],
   "/service-areas/granite-bay-ca/carpet-upholstery-cleaning/": [
@@ -3202,15 +2749,6 @@
     "/service-areas/granite-bay-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/carpet-water-extraction/",
     "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-    "/contact/"
-  ],
-  "/service-areas/granite-bay-ca/general-contractor/": [
-    "/services/general-contractor/",
-    "/service-areas/granite-bay-ca/",
-    "/service-areas/granite-bay-ca/home-remodeling/",
-    "/service-areas/granite-bay-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/general-contractor/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
     "/contact/"
   ],
   "/service-areas/granite-bay-ca/post-construction-specialty-cleaning/": [
@@ -3330,15 +2868,6 @@
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
-  "/service-areas/el-dorado-hills-ca/24-7-emergency-water-cleanup/": [
-    "/services/24-7-emergency-water-cleanup/",
-    "/service-areas/el-dorado-hills-ca/",
-    "/service-areas/el-dorado-hills-ca/home-remodeling/",
-    "/service-areas/el-dorado-hills-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/el-dorado-hills-ca/basement-sewage-cleanup/": [
     "/services/basement-sewage-cleanup/",
     "/service-areas/el-dorado-hills-ca/",
@@ -3346,15 +2875,6 @@
     "/service-areas/el-dorado-hills-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/basement-sewage-cleanup/",
     "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/el-dorado-hills-ca/bathroom-remodeler/": [
-    "/services/bathroom-remodeler/",
-    "/service-areas/el-dorado-hills-ca/",
-    "/service-areas/el-dorado-hills-ca/home-remodeling/",
-    "/service-areas/el-dorado-hills-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
     "/contact/"
   ],
   "/service-areas/el-dorado-hills-ca/carpet-upholstery-cleaning/": [
@@ -3373,15 +2893,6 @@
     "/service-areas/el-dorado-hills-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/carpet-water-extraction/",
     "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-    "/contact/"
-  ],
-  "/service-areas/el-dorado-hills-ca/general-contractor/": [
-    "/services/general-contractor/",
-    "/service-areas/el-dorado-hills-ca/",
-    "/service-areas/el-dorado-hills-ca/home-remodeling/",
-    "/service-areas/el-dorado-hills-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/general-contractor/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
     "/contact/"
   ],
   "/service-areas/el-dorado-hills-ca/post-construction-specialty-cleaning/": [
@@ -3501,15 +3012,6 @@
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
-  "/service-areas/loomis-ca/24-7-emergency-water-cleanup/": [
-    "/services/24-7-emergency-water-cleanup/",
-    "/service-areas/loomis-ca/",
-    "/service-areas/loomis-ca/home-remodeling/",
-    "/service-areas/loomis-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/loomis-ca/basement-sewage-cleanup/": [
     "/services/basement-sewage-cleanup/",
     "/service-areas/loomis-ca/",
@@ -3517,15 +3019,6 @@
     "/service-areas/loomis-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/basement-sewage-cleanup/",
     "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/loomis-ca/bathroom-remodeler/": [
-    "/services/bathroom-remodeler/",
-    "/service-areas/loomis-ca/",
-    "/service-areas/loomis-ca/home-remodeling/",
-    "/service-areas/loomis-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
     "/contact/"
   ],
   "/service-areas/loomis-ca/carpet-upholstery-cleaning/": [
@@ -3544,15 +3037,6 @@
     "/service-areas/loomis-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/carpet-water-extraction/",
     "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-    "/contact/"
-  ],
-  "/service-areas/loomis-ca/general-contractor/": [
-    "/services/general-contractor/",
-    "/service-areas/loomis-ca/",
-    "/service-areas/loomis-ca/home-remodeling/",
-    "/service-areas/loomis-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/general-contractor/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
     "/contact/"
   ],
   "/service-areas/loomis-ca/post-construction-specialty-cleaning/": [
@@ -3672,15 +3156,6 @@
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
-  "/service-areas/manteca-ca/24-7-emergency-water-cleanup/": [
-    "/services/24-7-emergency-water-cleanup/",
-    "/service-areas/manteca-ca/",
-    "/service-areas/manteca-ca/home-remodeling/",
-    "/service-areas/manteca-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/manteca-ca/basement-sewage-cleanup/": [
     "/services/basement-sewage-cleanup/",
     "/service-areas/manteca-ca/",
@@ -3688,15 +3163,6 @@
     "/service-areas/manteca-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/basement-sewage-cleanup/",
     "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/manteca-ca/bathroom-remodeler/": [
-    "/services/bathroom-remodeler/",
-    "/service-areas/manteca-ca/",
-    "/service-areas/manteca-ca/home-remodeling/",
-    "/service-areas/manteca-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
     "/contact/"
   ],
   "/service-areas/manteca-ca/carpet-upholstery-cleaning/": [
@@ -3715,15 +3181,6 @@
     "/service-areas/manteca-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/carpet-water-extraction/",
     "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-    "/contact/"
-  ],
-  "/service-areas/manteca-ca/general-contractor/": [
-    "/services/general-contractor/",
-    "/service-areas/manteca-ca/",
-    "/service-areas/manteca-ca/home-remodeling/",
-    "/service-areas/manteca-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/general-contractor/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
     "/contact/"
   ],
   "/service-areas/manteca-ca/post-construction-specialty-cleaning/": [
@@ -3843,15 +3300,6 @@
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
-  "/service-areas/turlock-ca/24-7-emergency-water-cleanup/": [
-    "/services/24-7-emergency-water-cleanup/",
-    "/service-areas/turlock-ca/",
-    "/service-areas/turlock-ca/home-remodeling/",
-    "/service-areas/turlock-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/turlock-ca/basement-sewage-cleanup/": [
     "/services/basement-sewage-cleanup/",
     "/service-areas/turlock-ca/",
@@ -3859,15 +3307,6 @@
     "/service-areas/turlock-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/basement-sewage-cleanup/",
     "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/turlock-ca/bathroom-remodeler/": [
-    "/services/bathroom-remodeler/",
-    "/service-areas/turlock-ca/",
-    "/service-areas/turlock-ca/home-remodeling/",
-    "/service-areas/turlock-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
     "/contact/"
   ],
   "/service-areas/turlock-ca/carpet-upholstery-cleaning/": [
@@ -3886,15 +3325,6 @@
     "/service-areas/turlock-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/carpet-water-extraction/",
     "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-    "/contact/"
-  ],
-  "/service-areas/turlock-ca/general-contractor/": [
-    "/services/general-contractor/",
-    "/service-areas/turlock-ca/",
-    "/service-areas/turlock-ca/home-remodeling/",
-    "/service-areas/turlock-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/general-contractor/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
     "/contact/"
   ],
   "/service-areas/turlock-ca/post-construction-specialty-cleaning/": [
@@ -4014,15 +3444,6 @@
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
-  "/service-areas/rio-linda-ca/24-7-emergency-water-cleanup/": [
-    "/services/24-7-emergency-water-cleanup/",
-    "/service-areas/rio-linda-ca/",
-    "/service-areas/rio-linda-ca/home-remodeling/",
-    "/service-areas/rio-linda-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/rio-linda-ca/basement-sewage-cleanup/": [
     "/services/basement-sewage-cleanup/",
     "/service-areas/rio-linda-ca/",
@@ -4030,15 +3451,6 @@
     "/service-areas/rio-linda-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/basement-sewage-cleanup/",
     "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/rio-linda-ca/bathroom-remodeler/": [
-    "/services/bathroom-remodeler/",
-    "/service-areas/rio-linda-ca/",
-    "/service-areas/rio-linda-ca/home-remodeling/",
-    "/service-areas/rio-linda-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
     "/contact/"
   ],
   "/service-areas/rio-linda-ca/carpet-upholstery-cleaning/": [
@@ -4057,15 +3469,6 @@
     "/service-areas/rio-linda-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/carpet-water-extraction/",
     "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-    "/contact/"
-  ],
-  "/service-areas/rio-linda-ca/general-contractor/": [
-    "/services/general-contractor/",
-    "/service-areas/rio-linda-ca/",
-    "/service-areas/rio-linda-ca/home-remodeling/",
-    "/service-areas/rio-linda-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/general-contractor/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
     "/contact/"
   ],
   "/service-areas/rio-linda-ca/post-construction-specialty-cleaning/": [
@@ -4185,15 +3588,6 @@
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
-  "/service-areas/elverta-ca/24-7-emergency-water-cleanup/": [
-    "/services/24-7-emergency-water-cleanup/",
-    "/service-areas/elverta-ca/",
-    "/service-areas/elverta-ca/home-remodeling/",
-    "/service-areas/elverta-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/elverta-ca/basement-sewage-cleanup/": [
     "/services/basement-sewage-cleanup/",
     "/service-areas/elverta-ca/",
@@ -4201,15 +3595,6 @@
     "/service-areas/elverta-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/basement-sewage-cleanup/",
     "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/elverta-ca/bathroom-remodeler/": [
-    "/services/bathroom-remodeler/",
-    "/service-areas/elverta-ca/",
-    "/service-areas/elverta-ca/home-remodeling/",
-    "/service-areas/elverta-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
     "/contact/"
   ],
   "/service-areas/elverta-ca/carpet-upholstery-cleaning/": [
@@ -4228,15 +3613,6 @@
     "/service-areas/elverta-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/carpet-water-extraction/",
     "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-    "/contact/"
-  ],
-  "/service-areas/elverta-ca/general-contractor/": [
-    "/services/general-contractor/",
-    "/service-areas/elverta-ca/",
-    "/service-areas/elverta-ca/home-remodeling/",
-    "/service-areas/elverta-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/general-contractor/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
     "/contact/"
   ],
   "/service-areas/elverta-ca/post-construction-specialty-cleaning/": [
@@ -4356,15 +3732,6 @@
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
-  "/service-areas/mcclellan-park-ca/24-7-emergency-water-cleanup/": [
-    "/services/24-7-emergency-water-cleanup/",
-    "/service-areas/mcclellan-park-ca/",
-    "/service-areas/mcclellan-park-ca/home-remodeling/",
-    "/service-areas/mcclellan-park-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/mcclellan-park-ca/basement-sewage-cleanup/": [
     "/services/basement-sewage-cleanup/",
     "/service-areas/mcclellan-park-ca/",
@@ -4372,15 +3739,6 @@
     "/service-areas/mcclellan-park-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/basement-sewage-cleanup/",
     "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/mcclellan-park-ca/bathroom-remodeler/": [
-    "/services/bathroom-remodeler/",
-    "/service-areas/mcclellan-park-ca/",
-    "/service-areas/mcclellan-park-ca/home-remodeling/",
-    "/service-areas/mcclellan-park-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
     "/contact/"
   ],
   "/service-areas/mcclellan-park-ca/carpet-upholstery-cleaning/": [
@@ -4399,15 +3757,6 @@
     "/service-areas/mcclellan-park-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/carpet-water-extraction/",
     "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-    "/contact/"
-  ],
-  "/service-areas/mcclellan-park-ca/general-contractor/": [
-    "/services/general-contractor/",
-    "/service-areas/mcclellan-park-ca/",
-    "/service-areas/mcclellan-park-ca/home-remodeling/",
-    "/service-areas/mcclellan-park-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/general-contractor/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
     "/contact/"
   ],
   "/service-areas/mcclellan-park-ca/post-construction-specialty-cleaning/": [
@@ -4527,15 +3876,6 @@
     "/service-areas/carmichael-ca/room-addition/",
     "/contact/"
   ],
-  "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/": [
-    "/services/24-7-emergency-water-cleanup/",
-    "/service-areas/arden-arcade-ca/",
-    "/service-areas/arden-arcade-ca/home-remodeling/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/carmichael-ca/24-7-emergency-water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/arden-arcade-ca/basement-sewage-cleanup/": [
     "/services/basement-sewage-cleanup/",
     "/service-areas/arden-arcade-ca/",
@@ -4543,15 +3883,6 @@
     "/service-areas/arden-arcade-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/basement-sewage-cleanup/",
     "/service-areas/carmichael-ca/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/arden-arcade-ca/bathroom-remodeler/": [
-    "/services/bathroom-remodeler/",
-    "/service-areas/arden-arcade-ca/",
-    "/service-areas/arden-arcade-ca/home-remodeling/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
-    "/service-areas/carmichael-ca/bathroom-remodeler/",
     "/contact/"
   ],
   "/service-areas/arden-arcade-ca/carpet-upholstery-cleaning/": [
@@ -4570,15 +3901,6 @@
     "/service-areas/arden-arcade-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/carpet-water-extraction/",
     "/service-areas/carmichael-ca/carpet-water-extraction/",
-    "/contact/"
-  ],
-  "/service-areas/arden-arcade-ca/general-contractor/": [
-    "/services/general-contractor/",
-    "/service-areas/arden-arcade-ca/",
-    "/service-areas/arden-arcade-ca/home-remodeling/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/general-contractor/",
-    "/service-areas/carmichael-ca/general-contractor/",
     "/contact/"
   ],
   "/service-areas/arden-arcade-ca/post-construction-specialty-cleaning/": [
@@ -4698,15 +4020,6 @@
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
-  "/service-areas/north-highlands-ca/24-7-emergency-water-cleanup/": [
-    "/services/24-7-emergency-water-cleanup/",
-    "/service-areas/north-highlands-ca/",
-    "/service-areas/north-highlands-ca/home-remodeling/",
-    "/service-areas/north-highlands-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/north-highlands-ca/basement-sewage-cleanup/": [
     "/services/basement-sewage-cleanup/",
     "/service-areas/north-highlands-ca/",
@@ -4714,15 +4027,6 @@
     "/service-areas/north-highlands-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/basement-sewage-cleanup/",
     "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/north-highlands-ca/bathroom-remodeler/": [
-    "/services/bathroom-remodeler/",
-    "/service-areas/north-highlands-ca/",
-    "/service-areas/north-highlands-ca/home-remodeling/",
-    "/service-areas/north-highlands-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
     "/contact/"
   ],
   "/service-areas/north-highlands-ca/carpet-upholstery-cleaning/": [
@@ -4741,15 +4045,6 @@
     "/service-areas/north-highlands-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/carpet-water-extraction/",
     "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-    "/contact/"
-  ],
-  "/service-areas/north-highlands-ca/general-contractor/": [
-    "/services/general-contractor/",
-    "/service-areas/north-highlands-ca/",
-    "/service-areas/north-highlands-ca/home-remodeling/",
-    "/service-areas/north-highlands-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/general-contractor/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
     "/contact/"
   ],
   "/service-areas/north-highlands-ca/post-construction-specialty-cleaning/": [
@@ -4869,15 +4164,6 @@
     "/service-areas/carmichael-ca/room-addition/",
     "/contact/"
   ],
-  "/service-areas/antelope-ca/24-7-emergency-water-cleanup/": [
-    "/services/24-7-emergency-water-cleanup/",
-    "/service-areas/antelope-ca/",
-    "/service-areas/antelope-ca/home-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeling/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/carmichael-ca/24-7-emergency-water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/antelope-ca/basement-sewage-cleanup/": [
     "/services/basement-sewage-cleanup/",
     "/service-areas/antelope-ca/",
@@ -4885,15 +4171,6 @@
     "/service-areas/antelope-ca/bathroom-remodeling/",
     "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
     "/service-areas/carmichael-ca/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/antelope-ca/bathroom-remodeler/": [
-    "/services/bathroom-remodeler/",
-    "/service-areas/antelope-ca/",
-    "/service-areas/antelope-ca/home-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeling/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
-    "/service-areas/carmichael-ca/bathroom-remodeler/",
     "/contact/"
   ],
   "/service-areas/antelope-ca/carpet-upholstery-cleaning/": [
@@ -4912,15 +4189,6 @@
     "/service-areas/antelope-ca/bathroom-remodeling/",
     "/service-areas/arden-arcade-ca/carpet-water-extraction/",
     "/service-areas/carmichael-ca/carpet-water-extraction/",
-    "/contact/"
-  ],
-  "/service-areas/antelope-ca/general-contractor/": [
-    "/services/general-contractor/",
-    "/service-areas/antelope-ca/",
-    "/service-areas/antelope-ca/home-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeling/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
-    "/service-areas/carmichael-ca/general-contractor/",
     "/contact/"
   ],
   "/service-areas/antelope-ca/post-construction-specialty-cleaning/": [
@@ -5040,15 +4308,6 @@
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
-  "/service-areas/foothill-farms-ca/24-7-emergency-water-cleanup/": [
-    "/services/24-7-emergency-water-cleanup/",
-    "/service-areas/foothill-farms-ca/",
-    "/service-areas/foothill-farms-ca/home-remodeling/",
-    "/service-areas/foothill-farms-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/foothill-farms-ca/basement-sewage-cleanup/": [
     "/services/basement-sewage-cleanup/",
     "/service-areas/foothill-farms-ca/",
@@ -5056,15 +4315,6 @@
     "/service-areas/foothill-farms-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/basement-sewage-cleanup/",
     "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/foothill-farms-ca/bathroom-remodeler/": [
-    "/services/bathroom-remodeler/",
-    "/service-areas/foothill-farms-ca/",
-    "/service-areas/foothill-farms-ca/home-remodeling/",
-    "/service-areas/foothill-farms-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
     "/contact/"
   ],
   "/service-areas/foothill-farms-ca/carpet-upholstery-cleaning/": [
@@ -5083,15 +4333,6 @@
     "/service-areas/foothill-farms-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/carpet-water-extraction/",
     "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-    "/contact/"
-  ],
-  "/service-areas/foothill-farms-ca/general-contractor/": [
-    "/services/general-contractor/",
-    "/service-areas/foothill-farms-ca/",
-    "/service-areas/foothill-farms-ca/home-remodeling/",
-    "/service-areas/foothill-farms-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/general-contractor/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
     "/contact/"
   ],
   "/service-areas/foothill-farms-ca/post-construction-specialty-cleaning/": [
@@ -5211,15 +4452,6 @@
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
-  "/service-areas/rosemont-ca/24-7-emergency-water-cleanup/": [
-    "/services/24-7-emergency-water-cleanup/",
-    "/service-areas/rosemont-ca/",
-    "/service-areas/rosemont-ca/home-remodeling/",
-    "/service-areas/rosemont-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/rosemont-ca/basement-sewage-cleanup/": [
     "/services/basement-sewage-cleanup/",
     "/service-areas/rosemont-ca/",
@@ -5227,15 +4459,6 @@
     "/service-areas/rosemont-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/basement-sewage-cleanup/",
     "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/rosemont-ca/bathroom-remodeler/": [
-    "/services/bathroom-remodeler/",
-    "/service-areas/rosemont-ca/",
-    "/service-areas/rosemont-ca/home-remodeling/",
-    "/service-areas/rosemont-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
     "/contact/"
   ],
   "/service-areas/rosemont-ca/carpet-upholstery-cleaning/": [
@@ -5254,15 +4477,6 @@
     "/service-areas/rosemont-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/carpet-water-extraction/",
     "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-    "/contact/"
-  ],
-  "/service-areas/rosemont-ca/general-contractor/": [
-    "/services/general-contractor/",
-    "/service-areas/rosemont-ca/",
-    "/service-areas/rosemont-ca/home-remodeling/",
-    "/service-areas/rosemont-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/general-contractor/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
     "/contact/"
   ],
   "/service-areas/rosemont-ca/post-construction-specialty-cleaning/": [
@@ -5382,15 +4596,6 @@
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
-  "/service-areas/florin-ca/24-7-emergency-water-cleanup/": [
-    "/services/24-7-emergency-water-cleanup/",
-    "/service-areas/florin-ca/",
-    "/service-areas/florin-ca/home-remodeling/",
-    "/service-areas/florin-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/florin-ca/basement-sewage-cleanup/": [
     "/services/basement-sewage-cleanup/",
     "/service-areas/florin-ca/",
@@ -5398,15 +4603,6 @@
     "/service-areas/florin-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/basement-sewage-cleanup/",
     "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/florin-ca/bathroom-remodeler/": [
-    "/services/bathroom-remodeler/",
-    "/service-areas/florin-ca/",
-    "/service-areas/florin-ca/home-remodeling/",
-    "/service-areas/florin-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
     "/contact/"
   ],
   "/service-areas/florin-ca/carpet-upholstery-cleaning/": [
@@ -5425,15 +4621,6 @@
     "/service-areas/florin-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/carpet-water-extraction/",
     "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-    "/contact/"
-  ],
-  "/service-areas/florin-ca/general-contractor/": [
-    "/services/general-contractor/",
-    "/service-areas/florin-ca/",
-    "/service-areas/florin-ca/home-remodeling/",
-    "/service-areas/florin-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/general-contractor/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
     "/contact/"
   ],
   "/service-areas/florin-ca/post-construction-specialty-cleaning/": [
@@ -5553,15 +4740,6 @@
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
-  "/service-areas/woodland-ca/24-7-emergency-water-cleanup/": [
-    "/services/24-7-emergency-water-cleanup/",
-    "/service-areas/woodland-ca/",
-    "/service-areas/woodland-ca/home-remodeling/",
-    "/service-areas/woodland-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/woodland-ca/basement-sewage-cleanup/": [
     "/services/basement-sewage-cleanup/",
     "/service-areas/woodland-ca/",
@@ -5569,15 +4747,6 @@
     "/service-areas/woodland-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/basement-sewage-cleanup/",
     "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/woodland-ca/bathroom-remodeler/": [
-    "/services/bathroom-remodeler/",
-    "/service-areas/woodland-ca/",
-    "/service-areas/woodland-ca/home-remodeling/",
-    "/service-areas/woodland-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
     "/contact/"
   ],
   "/service-areas/woodland-ca/carpet-upholstery-cleaning/": [
@@ -5596,15 +4765,6 @@
     "/service-areas/woodland-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/carpet-water-extraction/",
     "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-    "/contact/"
-  ],
-  "/service-areas/woodland-ca/general-contractor/": [
-    "/services/general-contractor/",
-    "/service-areas/woodland-ca/",
-    "/service-areas/woodland-ca/home-remodeling/",
-    "/service-areas/woodland-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/general-contractor/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
     "/contact/"
   ],
   "/service-areas/woodland-ca/post-construction-specialty-cleaning/": [
@@ -5724,15 +4884,6 @@
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
-  "/service-areas/mather-ca/24-7-emergency-water-cleanup/": [
-    "/services/24-7-emergency-water-cleanup/",
-    "/service-areas/mather-ca/",
-    "/service-areas/mather-ca/home-remodeling/",
-    "/service-areas/mather-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/mather-ca/basement-sewage-cleanup/": [
     "/services/basement-sewage-cleanup/",
     "/service-areas/mather-ca/",
@@ -5740,15 +4891,6 @@
     "/service-areas/mather-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/basement-sewage-cleanup/",
     "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/mather-ca/bathroom-remodeler/": [
-    "/services/bathroom-remodeler/",
-    "/service-areas/mather-ca/",
-    "/service-areas/mather-ca/home-remodeling/",
-    "/service-areas/mather-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
     "/contact/"
   ],
   "/service-areas/mather-ca/carpet-upholstery-cleaning/": [
@@ -5767,15 +4909,6 @@
     "/service-areas/mather-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/carpet-water-extraction/",
     "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-    "/contact/"
-  ],
-  "/service-areas/mather-ca/general-contractor/": [
-    "/services/general-contractor/",
-    "/service-areas/mather-ca/",
-    "/service-areas/mather-ca/home-remodeling/",
-    "/service-areas/mather-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/general-contractor/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
     "/contact/"
   ],
   "/service-areas/mather-ca/post-construction-specialty-cleaning/": [
@@ -5895,15 +5028,6 @@
     "/service-areas/arden-arcade-ca/room-addition/",
     "/contact/"
   ],
-  "/service-areas/davis-ca/24-7-emergency-water-cleanup/": [
-    "/services/24-7-emergency-water-cleanup/",
-    "/service-areas/davis-ca/",
-    "/service-areas/davis-ca/home-remodeling/",
-    "/service-areas/davis-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/24-7-emergency-water-cleanup/",
-    "/service-areas/arden-arcade-ca/24-7-emergency-water-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/davis-ca/basement-sewage-cleanup/": [
     "/services/basement-sewage-cleanup/",
     "/service-areas/davis-ca/",
@@ -5911,15 +5035,6 @@
     "/service-areas/davis-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/basement-sewage-cleanup/",
     "/service-areas/arden-arcade-ca/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/davis-ca/bathroom-remodeler/": [
-    "/services/bathroom-remodeler/",
-    "/service-areas/davis-ca/",
-    "/service-areas/davis-ca/home-remodeling/",
-    "/service-areas/davis-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/bathroom-remodeler/",
-    "/service-areas/arden-arcade-ca/bathroom-remodeler/",
     "/contact/"
   ],
   "/service-areas/davis-ca/carpet-upholstery-cleaning/": [
@@ -5938,15 +5053,6 @@
     "/service-areas/davis-ca/bathroom-remodeling/",
     "/service-areas/antelope-ca/carpet-water-extraction/",
     "/service-areas/arden-arcade-ca/carpet-water-extraction/",
-    "/contact/"
-  ],
-  "/service-areas/davis-ca/general-contractor/": [
-    "/services/general-contractor/",
-    "/service-areas/davis-ca/",
-    "/service-areas/davis-ca/home-remodeling/",
-    "/service-areas/davis-ca/bathroom-remodeling/",
-    "/service-areas/antelope-ca/general-contractor/",
-    "/service-areas/arden-arcade-ca/general-contractor/",
     "/contact/"
   ],
   "/service-areas/davis-ca/post-construction-specialty-cleaning/": [

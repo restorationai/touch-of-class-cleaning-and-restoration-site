@@ -11,7 +11,6 @@
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
     "/services/emergency-plumbing/",
-    "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
     "/services/sewage-cleanup/",
@@ -28,13 +27,10 @@
     "/services/emergency-board-up-tarping/",
     "/services/industrial-restoration/",
     "/services/odor-removal/",
-    "/services/soot-removal/",
-    "/services/water-heater-flood-cleanup/",
     "/services/water-leak-detection/",
     "/services/appliance-leak-cleanup/",
     "/services/asbestos-abatement/",
     "/services/air-duct-cleaning/",
-    "/services/air-duct-hvac-cleaning/",
     "/services/contents-restoration-storage/",
     "/services/crawl-space-encapsulation/",
     "/services/carpet-cleaning/",
@@ -70,7 +66,6 @@
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
     "/services/emergency-plumbing/",
-    "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
     "/services/sewage-cleanup/",
@@ -87,13 +82,10 @@
     "/services/emergency-board-up-tarping/",
     "/services/industrial-restoration/",
     "/services/odor-removal/",
-    "/services/soot-removal/",
-    "/services/water-heater-flood-cleanup/",
     "/services/water-leak-detection/",
     "/services/appliance-leak-cleanup/",
     "/services/asbestos-abatement/",
     "/services/air-duct-cleaning/",
-    "/services/air-duct-hvac-cleaning/",
     "/services/contents-restoration-storage/",
     "/services/crawl-space-encapsulation/",
     "/services/carpet-cleaning/",
@@ -163,22 +155,6 @@
     "/service-areas/maricopa-ca/air-duct-cleaning/",
     "/service-areas/mcfarland-ca/air-duct-cleaning/",
     "/service-areas/oildale-ca/air-duct-cleaning/"
-  ],
-  "/services/air-duct-hvac-cleaning/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-    "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
-    "/service-areas/buttonwillow-ca/air-duct-hvac-cleaning/",
-    "/service-areas/delano-ca/air-duct-hvac-cleaning/",
-    "/service-areas/dustin-acres-ca/air-duct-hvac-cleaning/",
-    "/service-areas/east-niles-ca/air-duct-hvac-cleaning/",
-    "/service-areas/keene-ca/air-duct-hvac-cleaning/",
-    "/service-areas/lake-isabella-ca/air-duct-hvac-cleaning/",
-    "/service-areas/lamont-ca/air-duct-hvac-cleaning/",
-    "/service-areas/maricopa-ca/air-duct-hvac-cleaning/",
-    "/service-areas/mcfarland-ca/air-duct-hvac-cleaning/",
-    "/service-areas/oildale-ca/air-duct-hvac-cleaning/"
   ],
   "/services/appliance-leak-cleanup/": [
     "/services/",
@@ -528,22 +504,6 @@
     "/blog/fire-damage-restoration-process/",
     "/blog/smoke-odor-removal-techniques/"
   ],
-  "/services/soot-removal/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bear-valley-springs-ca/soot-removal/",
-    "/service-areas/buttonwillow-ca/soot-removal/",
-    "/service-areas/delano-ca/soot-removal/",
-    "/service-areas/dustin-acres-ca/soot-removal/",
-    "/service-areas/east-niles-ca/soot-removal/",
-    "/service-areas/keene-ca/soot-removal/",
-    "/service-areas/lake-isabella-ca/soot-removal/",
-    "/service-areas/lamont-ca/soot-removal/",
-    "/service-areas/maricopa-ca/soot-removal/",
-    "/service-areas/mcfarland-ca/soot-removal/",
-    "/service-areas/oildale-ca/soot-removal/"
-  ],
   "/services/storm-damage-restoration/": [
     "/services/",
     "/contact/",
@@ -694,38 +654,6 @@
     "/service-areas/mcfarland-ca/ceiling-water-damage-repair/",
     "/service-areas/oildale-ca/ceiling-water-damage-repair/"
   ],
-  "/services/water-heater-flood-cleanup/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-    "/service-areas/buttonwillow-ca/water-heater-flood-cleanup/",
-    "/service-areas/delano-ca/water-heater-flood-cleanup/",
-    "/service-areas/dustin-acres-ca/water-heater-flood-cleanup/",
-    "/service-areas/east-niles-ca/water-heater-flood-cleanup/",
-    "/service-areas/keene-ca/water-heater-flood-cleanup/",
-    "/service-areas/lake-isabella-ca/water-heater-flood-cleanup/",
-    "/service-areas/lamont-ca/water-heater-flood-cleanup/",
-    "/service-areas/maricopa-ca/water-heater-flood-cleanup/",
-    "/service-areas/mcfarland-ca/water-heater-flood-cleanup/",
-    "/service-areas/oildale-ca/water-heater-flood-cleanup/"
-  ],
-  "/services/emergency-water-removal/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/arvin-ca/emergency-water-removal/",
-    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-    "/service-areas/buttonwillow-ca/emergency-water-removal/",
-    "/service-areas/delano-ca/emergency-water-removal/",
-    "/service-areas/dustin-acres-ca/emergency-water-removal/",
-    "/service-areas/east-niles-ca/emergency-water-removal/",
-    "/service-areas/keene-ca/emergency-water-removal/",
-    "/service-areas/lake-isabella-ca/emergency-water-removal/",
-    "/service-areas/lamont-ca/emergency-water-removal/",
-    "/service-areas/maricopa-ca/emergency-water-removal/",
-    "/service-areas/mcfarland-ca/emergency-water-removal/",
-    "/service-areas/oildale-ca/emergency-water-removal/"
-  ],
   "/service-areas/oildale-ca/": [
     "/service-areas/",
     "/contact/",
@@ -736,7 +664,6 @@
     "/service-areas/oildale-ca/water-damage-restoration/",
     "/service-areas/oildale-ca/commercial-restoration/",
     "/service-areas/oildale-ca/emergency-plumbing/",
-    "/service-areas/oildale-ca/emergency-water-removal/",
     "/service-areas/oildale-ca/flood-damage-restoration/",
     "/service-areas/oildale-ca/reconstruction/",
     "/service-areas/oildale-ca/sewage-cleanup/",
@@ -753,13 +680,10 @@
     "/service-areas/oildale-ca/emergency-board-up-tarping/",
     "/service-areas/oildale-ca/industrial-restoration/",
     "/service-areas/oildale-ca/odor-removal/",
-    "/service-areas/oildale-ca/soot-removal/",
-    "/service-areas/oildale-ca/water-heater-flood-cleanup/",
     "/service-areas/oildale-ca/water-leak-detection/",
     "/service-areas/oildale-ca/appliance-leak-cleanup/",
     "/service-areas/oildale-ca/asbestos-abatement/",
     "/service-areas/oildale-ca/air-duct-cleaning/",
-    "/service-areas/oildale-ca/air-duct-hvac-cleaning/",
     "/service-areas/oildale-ca/contents-restoration-storage/",
     "/service-areas/oildale-ca/crawl-space-encapsulation/",
     "/service-areas/oildale-ca/carpet-cleaning/",
@@ -778,7 +702,6 @@
     "/service-areas/rosedale-ca/water-damage-restoration/",
     "/service-areas/rosedale-ca/commercial-restoration/",
     "/service-areas/rosedale-ca/emergency-plumbing/",
-    "/service-areas/rosedale-ca/emergency-water-removal/",
     "/service-areas/rosedale-ca/flood-damage-restoration/",
     "/service-areas/rosedale-ca/reconstruction/",
     "/service-areas/rosedale-ca/sewage-cleanup/",
@@ -795,13 +718,10 @@
     "/service-areas/rosedale-ca/emergency-board-up-tarping/",
     "/service-areas/rosedale-ca/industrial-restoration/",
     "/service-areas/rosedale-ca/odor-removal/",
-    "/service-areas/rosedale-ca/soot-removal/",
-    "/service-areas/rosedale-ca/water-heater-flood-cleanup/",
     "/service-areas/rosedale-ca/water-leak-detection/",
     "/service-areas/rosedale-ca/appliance-leak-cleanup/",
     "/service-areas/rosedale-ca/asbestos-abatement/",
     "/service-areas/rosedale-ca/air-duct-cleaning/",
-    "/service-areas/rosedale-ca/air-duct-hvac-cleaning/",
     "/service-areas/rosedale-ca/contents-restoration-storage/",
     "/service-areas/rosedale-ca/crawl-space-encapsulation/",
     "/service-areas/rosedale-ca/carpet-cleaning/",
@@ -820,7 +740,6 @@
     "/service-areas/delano-ca/water-damage-restoration/",
     "/service-areas/delano-ca/commercial-restoration/",
     "/service-areas/delano-ca/emergency-plumbing/",
-    "/service-areas/delano-ca/emergency-water-removal/",
     "/service-areas/delano-ca/flood-damage-restoration/",
     "/service-areas/delano-ca/reconstruction/",
     "/service-areas/delano-ca/sewage-cleanup/",
@@ -837,13 +756,10 @@
     "/service-areas/delano-ca/emergency-board-up-tarping/",
     "/service-areas/delano-ca/industrial-restoration/",
     "/service-areas/delano-ca/odor-removal/",
-    "/service-areas/delano-ca/soot-removal/",
-    "/service-areas/delano-ca/water-heater-flood-cleanup/",
     "/service-areas/delano-ca/water-leak-detection/",
     "/service-areas/delano-ca/appliance-leak-cleanup/",
     "/service-areas/delano-ca/asbestos-abatement/",
     "/service-areas/delano-ca/air-duct-cleaning/",
-    "/service-areas/delano-ca/air-duct-hvac-cleaning/",
     "/service-areas/delano-ca/contents-restoration-storage/",
     "/service-areas/delano-ca/crawl-space-encapsulation/",
     "/service-areas/delano-ca/carpet-cleaning/",
@@ -862,7 +778,6 @@
     "/service-areas/shafter-ca/water-damage-restoration/",
     "/service-areas/shafter-ca/commercial-restoration/",
     "/service-areas/shafter-ca/emergency-plumbing/",
-    "/service-areas/shafter-ca/emergency-water-removal/",
     "/service-areas/shafter-ca/flood-damage-restoration/",
     "/service-areas/shafter-ca/reconstruction/",
     "/service-areas/shafter-ca/sewage-cleanup/",
@@ -879,13 +794,10 @@
     "/service-areas/shafter-ca/emergency-board-up-tarping/",
     "/service-areas/shafter-ca/industrial-restoration/",
     "/service-areas/shafter-ca/odor-removal/",
-    "/service-areas/shafter-ca/soot-removal/",
-    "/service-areas/shafter-ca/water-heater-flood-cleanup/",
     "/service-areas/shafter-ca/water-leak-detection/",
     "/service-areas/shafter-ca/appliance-leak-cleanup/",
     "/service-areas/shafter-ca/asbestos-abatement/",
     "/service-areas/shafter-ca/air-duct-cleaning/",
-    "/service-areas/shafter-ca/air-duct-hvac-cleaning/",
     "/service-areas/shafter-ca/contents-restoration-storage/",
     "/service-areas/shafter-ca/crawl-space-encapsulation/",
     "/service-areas/shafter-ca/carpet-cleaning/",
@@ -904,7 +816,6 @@
     "/service-areas/wasco-ca/water-damage-restoration/",
     "/service-areas/wasco-ca/commercial-restoration/",
     "/service-areas/wasco-ca/emergency-plumbing/",
-    "/service-areas/wasco-ca/emergency-water-removal/",
     "/service-areas/wasco-ca/flood-damage-restoration/",
     "/service-areas/wasco-ca/reconstruction/",
     "/service-areas/wasco-ca/sewage-cleanup/",
@@ -921,13 +832,10 @@
     "/service-areas/wasco-ca/emergency-board-up-tarping/",
     "/service-areas/wasco-ca/industrial-restoration/",
     "/service-areas/wasco-ca/odor-removal/",
-    "/service-areas/wasco-ca/soot-removal/",
-    "/service-areas/wasco-ca/water-heater-flood-cleanup/",
     "/service-areas/wasco-ca/water-leak-detection/",
     "/service-areas/wasco-ca/appliance-leak-cleanup/",
     "/service-areas/wasco-ca/asbestos-abatement/",
     "/service-areas/wasco-ca/air-duct-cleaning/",
-    "/service-areas/wasco-ca/air-duct-hvac-cleaning/",
     "/service-areas/wasco-ca/contents-restoration-storage/",
     "/service-areas/wasco-ca/crawl-space-encapsulation/",
     "/service-areas/wasco-ca/carpet-cleaning/",
@@ -946,7 +854,6 @@
     "/service-areas/taft-ca/water-damage-restoration/",
     "/service-areas/taft-ca/commercial-restoration/",
     "/service-areas/taft-ca/emergency-plumbing/",
-    "/service-areas/taft-ca/emergency-water-removal/",
     "/service-areas/taft-ca/flood-damage-restoration/",
     "/service-areas/taft-ca/reconstruction/",
     "/service-areas/taft-ca/sewage-cleanup/",
@@ -963,13 +870,10 @@
     "/service-areas/taft-ca/emergency-board-up-tarping/",
     "/service-areas/taft-ca/industrial-restoration/",
     "/service-areas/taft-ca/odor-removal/",
-    "/service-areas/taft-ca/soot-removal/",
-    "/service-areas/taft-ca/water-heater-flood-cleanup/",
     "/service-areas/taft-ca/water-leak-detection/",
     "/service-areas/taft-ca/appliance-leak-cleanup/",
     "/service-areas/taft-ca/asbestos-abatement/",
     "/service-areas/taft-ca/air-duct-cleaning/",
-    "/service-areas/taft-ca/air-duct-hvac-cleaning/",
     "/service-areas/taft-ca/contents-restoration-storage/",
     "/service-areas/taft-ca/crawl-space-encapsulation/",
     "/service-areas/taft-ca/carpet-cleaning/",
@@ -988,7 +892,6 @@
     "/service-areas/tehachapi-ca/water-damage-restoration/",
     "/service-areas/tehachapi-ca/commercial-restoration/",
     "/service-areas/tehachapi-ca/emergency-plumbing/",
-    "/service-areas/tehachapi-ca/emergency-water-removal/",
     "/service-areas/tehachapi-ca/flood-damage-restoration/",
     "/service-areas/tehachapi-ca/reconstruction/",
     "/service-areas/tehachapi-ca/sewage-cleanup/",
@@ -1005,13 +908,10 @@
     "/service-areas/tehachapi-ca/emergency-board-up-tarping/",
     "/service-areas/tehachapi-ca/industrial-restoration/",
     "/service-areas/tehachapi-ca/odor-removal/",
-    "/service-areas/tehachapi-ca/soot-removal/",
-    "/service-areas/tehachapi-ca/water-heater-flood-cleanup/",
     "/service-areas/tehachapi-ca/water-leak-detection/",
     "/service-areas/tehachapi-ca/appliance-leak-cleanup/",
     "/service-areas/tehachapi-ca/asbestos-abatement/",
     "/service-areas/tehachapi-ca/air-duct-cleaning/",
-    "/service-areas/tehachapi-ca/air-duct-hvac-cleaning/",
     "/service-areas/tehachapi-ca/contents-restoration-storage/",
     "/service-areas/tehachapi-ca/crawl-space-encapsulation/",
     "/service-areas/tehachapi-ca/carpet-cleaning/",
@@ -1030,7 +930,6 @@
     "/service-areas/arvin-ca/water-damage-restoration/",
     "/service-areas/arvin-ca/commercial-restoration/",
     "/service-areas/arvin-ca/emergency-plumbing/",
-    "/service-areas/arvin-ca/emergency-water-removal/",
     "/service-areas/arvin-ca/flood-damage-restoration/",
     "/service-areas/arvin-ca/reconstruction/",
     "/service-areas/arvin-ca/sewage-cleanup/",
@@ -1047,13 +946,10 @@
     "/service-areas/arvin-ca/emergency-board-up-tarping/",
     "/service-areas/arvin-ca/industrial-restoration/",
     "/service-areas/arvin-ca/odor-removal/",
-    "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/arvin-ca/water-heater-flood-cleanup/",
     "/service-areas/arvin-ca/water-leak-detection/",
     "/service-areas/arvin-ca/appliance-leak-cleanup/",
     "/service-areas/arvin-ca/asbestos-abatement/",
     "/service-areas/arvin-ca/air-duct-cleaning/",
-    "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
     "/service-areas/arvin-ca/contents-restoration-storage/",
     "/service-areas/arvin-ca/crawl-space-encapsulation/",
     "/service-areas/arvin-ca/carpet-cleaning/",
@@ -1072,7 +968,6 @@
     "/service-areas/lamont-ca/water-damage-restoration/",
     "/service-areas/lamont-ca/commercial-restoration/",
     "/service-areas/lamont-ca/emergency-plumbing/",
-    "/service-areas/lamont-ca/emergency-water-removal/",
     "/service-areas/lamont-ca/flood-damage-restoration/",
     "/service-areas/lamont-ca/reconstruction/",
     "/service-areas/lamont-ca/sewage-cleanup/",
@@ -1089,13 +984,10 @@
     "/service-areas/lamont-ca/emergency-board-up-tarping/",
     "/service-areas/lamont-ca/industrial-restoration/",
     "/service-areas/lamont-ca/odor-removal/",
-    "/service-areas/lamont-ca/soot-removal/",
-    "/service-areas/lamont-ca/water-heater-flood-cleanup/",
     "/service-areas/lamont-ca/water-leak-detection/",
     "/service-areas/lamont-ca/appliance-leak-cleanup/",
     "/service-areas/lamont-ca/asbestos-abatement/",
     "/service-areas/lamont-ca/air-duct-cleaning/",
-    "/service-areas/lamont-ca/air-duct-hvac-cleaning/",
     "/service-areas/lamont-ca/contents-restoration-storage/",
     "/service-areas/lamont-ca/crawl-space-encapsulation/",
     "/service-areas/lamont-ca/carpet-cleaning/",
@@ -1114,7 +1006,6 @@
     "/service-areas/lake-isabella-ca/water-damage-restoration/",
     "/service-areas/lake-isabella-ca/commercial-restoration/",
     "/service-areas/lake-isabella-ca/emergency-plumbing/",
-    "/service-areas/lake-isabella-ca/emergency-water-removal/",
     "/service-areas/lake-isabella-ca/flood-damage-restoration/",
     "/service-areas/lake-isabella-ca/reconstruction/",
     "/service-areas/lake-isabella-ca/sewage-cleanup/",
@@ -1131,13 +1022,10 @@
     "/service-areas/lake-isabella-ca/emergency-board-up-tarping/",
     "/service-areas/lake-isabella-ca/industrial-restoration/",
     "/service-areas/lake-isabella-ca/odor-removal/",
-    "/service-areas/lake-isabella-ca/soot-removal/",
-    "/service-areas/lake-isabella-ca/water-heater-flood-cleanup/",
     "/service-areas/lake-isabella-ca/water-leak-detection/",
     "/service-areas/lake-isabella-ca/appliance-leak-cleanup/",
     "/service-areas/lake-isabella-ca/asbestos-abatement/",
     "/service-areas/lake-isabella-ca/air-duct-cleaning/",
-    "/service-areas/lake-isabella-ca/air-duct-hvac-cleaning/",
     "/service-areas/lake-isabella-ca/contents-restoration-storage/",
     "/service-areas/lake-isabella-ca/crawl-space-encapsulation/",
     "/service-areas/lake-isabella-ca/carpet-cleaning/",
@@ -1156,7 +1044,6 @@
     "/service-areas/east-niles-ca/water-damage-restoration/",
     "/service-areas/east-niles-ca/commercial-restoration/",
     "/service-areas/east-niles-ca/emergency-plumbing/",
-    "/service-areas/east-niles-ca/emergency-water-removal/",
     "/service-areas/east-niles-ca/flood-damage-restoration/",
     "/service-areas/east-niles-ca/reconstruction/",
     "/service-areas/east-niles-ca/sewage-cleanup/",
@@ -1173,13 +1060,10 @@
     "/service-areas/east-niles-ca/emergency-board-up-tarping/",
     "/service-areas/east-niles-ca/industrial-restoration/",
     "/service-areas/east-niles-ca/odor-removal/",
-    "/service-areas/east-niles-ca/soot-removal/",
-    "/service-areas/east-niles-ca/water-heater-flood-cleanup/",
     "/service-areas/east-niles-ca/water-leak-detection/",
     "/service-areas/east-niles-ca/appliance-leak-cleanup/",
     "/service-areas/east-niles-ca/asbestos-abatement/",
     "/service-areas/east-niles-ca/air-duct-cleaning/",
-    "/service-areas/east-niles-ca/air-duct-hvac-cleaning/",
     "/service-areas/east-niles-ca/contents-restoration-storage/",
     "/service-areas/east-niles-ca/crawl-space-encapsulation/",
     "/service-areas/east-niles-ca/carpet-cleaning/",
@@ -1198,7 +1082,6 @@
     "/service-areas/tarina-ca/water-damage-restoration/",
     "/service-areas/tarina-ca/commercial-restoration/",
     "/service-areas/tarina-ca/emergency-plumbing/",
-    "/service-areas/tarina-ca/emergency-water-removal/",
     "/service-areas/tarina-ca/flood-damage-restoration/",
     "/service-areas/tarina-ca/reconstruction/",
     "/service-areas/tarina-ca/sewage-cleanup/",
@@ -1215,13 +1098,10 @@
     "/service-areas/tarina-ca/emergency-board-up-tarping/",
     "/service-areas/tarina-ca/industrial-restoration/",
     "/service-areas/tarina-ca/odor-removal/",
-    "/service-areas/tarina-ca/soot-removal/",
-    "/service-areas/tarina-ca/water-heater-flood-cleanup/",
     "/service-areas/tarina-ca/water-leak-detection/",
     "/service-areas/tarina-ca/appliance-leak-cleanup/",
     "/service-areas/tarina-ca/asbestos-abatement/",
     "/service-areas/tarina-ca/air-duct-cleaning/",
-    "/service-areas/tarina-ca/air-duct-hvac-cleaning/",
     "/service-areas/tarina-ca/contents-restoration-storage/",
     "/service-areas/tarina-ca/crawl-space-encapsulation/",
     "/service-areas/tarina-ca/carpet-cleaning/",
@@ -1240,7 +1120,6 @@
     "/service-areas/weedpatch-ca/water-damage-restoration/",
     "/service-areas/weedpatch-ca/commercial-restoration/",
     "/service-areas/weedpatch-ca/emergency-plumbing/",
-    "/service-areas/weedpatch-ca/emergency-water-removal/",
     "/service-areas/weedpatch-ca/flood-damage-restoration/",
     "/service-areas/weedpatch-ca/reconstruction/",
     "/service-areas/weedpatch-ca/sewage-cleanup/",
@@ -1257,13 +1136,10 @@
     "/service-areas/weedpatch-ca/emergency-board-up-tarping/",
     "/service-areas/weedpatch-ca/industrial-restoration/",
     "/service-areas/weedpatch-ca/odor-removal/",
-    "/service-areas/weedpatch-ca/soot-removal/",
-    "/service-areas/weedpatch-ca/water-heater-flood-cleanup/",
     "/service-areas/weedpatch-ca/water-leak-detection/",
     "/service-areas/weedpatch-ca/appliance-leak-cleanup/",
     "/service-areas/weedpatch-ca/asbestos-abatement/",
     "/service-areas/weedpatch-ca/air-duct-cleaning/",
-    "/service-areas/weedpatch-ca/air-duct-hvac-cleaning/",
     "/service-areas/weedpatch-ca/contents-restoration-storage/",
     "/service-areas/weedpatch-ca/crawl-space-encapsulation/",
     "/service-areas/weedpatch-ca/carpet-cleaning/",
@@ -1282,7 +1158,6 @@
     "/service-areas/buttonwillow-ca/water-damage-restoration/",
     "/service-areas/buttonwillow-ca/commercial-restoration/",
     "/service-areas/buttonwillow-ca/emergency-plumbing/",
-    "/service-areas/buttonwillow-ca/emergency-water-removal/",
     "/service-areas/buttonwillow-ca/flood-damage-restoration/",
     "/service-areas/buttonwillow-ca/reconstruction/",
     "/service-areas/buttonwillow-ca/sewage-cleanup/",
@@ -1299,13 +1174,10 @@
     "/service-areas/buttonwillow-ca/emergency-board-up-tarping/",
     "/service-areas/buttonwillow-ca/industrial-restoration/",
     "/service-areas/buttonwillow-ca/odor-removal/",
-    "/service-areas/buttonwillow-ca/soot-removal/",
-    "/service-areas/buttonwillow-ca/water-heater-flood-cleanup/",
     "/service-areas/buttonwillow-ca/water-leak-detection/",
     "/service-areas/buttonwillow-ca/appliance-leak-cleanup/",
     "/service-areas/buttonwillow-ca/asbestos-abatement/",
     "/service-areas/buttonwillow-ca/air-duct-cleaning/",
-    "/service-areas/buttonwillow-ca/air-duct-hvac-cleaning/",
     "/service-areas/buttonwillow-ca/contents-restoration-storage/",
     "/service-areas/buttonwillow-ca/crawl-space-encapsulation/",
     "/service-areas/buttonwillow-ca/carpet-cleaning/",
@@ -1324,7 +1196,6 @@
     "/service-areas/dustin-acres-ca/water-damage-restoration/",
     "/service-areas/dustin-acres-ca/commercial-restoration/",
     "/service-areas/dustin-acres-ca/emergency-plumbing/",
-    "/service-areas/dustin-acres-ca/emergency-water-removal/",
     "/service-areas/dustin-acres-ca/flood-damage-restoration/",
     "/service-areas/dustin-acres-ca/reconstruction/",
     "/service-areas/dustin-acres-ca/sewage-cleanup/",
@@ -1341,13 +1212,10 @@
     "/service-areas/dustin-acres-ca/emergency-board-up-tarping/",
     "/service-areas/dustin-acres-ca/industrial-restoration/",
     "/service-areas/dustin-acres-ca/odor-removal/",
-    "/service-areas/dustin-acres-ca/soot-removal/",
-    "/service-areas/dustin-acres-ca/water-heater-flood-cleanup/",
     "/service-areas/dustin-acres-ca/water-leak-detection/",
     "/service-areas/dustin-acres-ca/appliance-leak-cleanup/",
     "/service-areas/dustin-acres-ca/asbestos-abatement/",
     "/service-areas/dustin-acres-ca/air-duct-cleaning/",
-    "/service-areas/dustin-acres-ca/air-duct-hvac-cleaning/",
     "/service-areas/dustin-acres-ca/contents-restoration-storage/",
     "/service-areas/dustin-acres-ca/crawl-space-encapsulation/",
     "/service-areas/dustin-acres-ca/carpet-cleaning/",
@@ -1366,7 +1234,6 @@
     "/service-areas/mcfarland-ca/water-damage-restoration/",
     "/service-areas/mcfarland-ca/commercial-restoration/",
     "/service-areas/mcfarland-ca/emergency-plumbing/",
-    "/service-areas/mcfarland-ca/emergency-water-removal/",
     "/service-areas/mcfarland-ca/flood-damage-restoration/",
     "/service-areas/mcfarland-ca/reconstruction/",
     "/service-areas/mcfarland-ca/sewage-cleanup/",
@@ -1383,13 +1250,10 @@
     "/service-areas/mcfarland-ca/emergency-board-up-tarping/",
     "/service-areas/mcfarland-ca/industrial-restoration/",
     "/service-areas/mcfarland-ca/odor-removal/",
-    "/service-areas/mcfarland-ca/soot-removal/",
-    "/service-areas/mcfarland-ca/water-heater-flood-cleanup/",
     "/service-areas/mcfarland-ca/water-leak-detection/",
     "/service-areas/mcfarland-ca/appliance-leak-cleanup/",
     "/service-areas/mcfarland-ca/asbestos-abatement/",
     "/service-areas/mcfarland-ca/air-duct-cleaning/",
-    "/service-areas/mcfarland-ca/air-duct-hvac-cleaning/",
     "/service-areas/mcfarland-ca/contents-restoration-storage/",
     "/service-areas/mcfarland-ca/crawl-space-encapsulation/",
     "/service-areas/mcfarland-ca/carpet-cleaning/",
@@ -1408,7 +1272,6 @@
     "/service-areas/valley-acres-ca/water-damage-restoration/",
     "/service-areas/valley-acres-ca/commercial-restoration/",
     "/service-areas/valley-acres-ca/emergency-plumbing/",
-    "/service-areas/valley-acres-ca/emergency-water-removal/",
     "/service-areas/valley-acres-ca/flood-damage-restoration/",
     "/service-areas/valley-acres-ca/reconstruction/",
     "/service-areas/valley-acres-ca/sewage-cleanup/",
@@ -1425,13 +1288,10 @@
     "/service-areas/valley-acres-ca/emergency-board-up-tarping/",
     "/service-areas/valley-acres-ca/industrial-restoration/",
     "/service-areas/valley-acres-ca/odor-removal/",
-    "/service-areas/valley-acres-ca/soot-removal/",
-    "/service-areas/valley-acres-ca/water-heater-flood-cleanup/",
     "/service-areas/valley-acres-ca/water-leak-detection/",
     "/service-areas/valley-acres-ca/appliance-leak-cleanup/",
     "/service-areas/valley-acres-ca/asbestos-abatement/",
     "/service-areas/valley-acres-ca/air-duct-cleaning/",
-    "/service-areas/valley-acres-ca/air-duct-hvac-cleaning/",
     "/service-areas/valley-acres-ca/contents-restoration-storage/",
     "/service-areas/valley-acres-ca/crawl-space-encapsulation/",
     "/service-areas/valley-acres-ca/carpet-cleaning/",
@@ -1450,7 +1310,6 @@
     "/service-areas/woody-ca/water-damage-restoration/",
     "/service-areas/woody-ca/commercial-restoration/",
     "/service-areas/woody-ca/emergency-plumbing/",
-    "/service-areas/woody-ca/emergency-water-removal/",
     "/service-areas/woody-ca/flood-damage-restoration/",
     "/service-areas/woody-ca/reconstruction/",
     "/service-areas/woody-ca/sewage-cleanup/",
@@ -1467,13 +1326,10 @@
     "/service-areas/woody-ca/emergency-board-up-tarping/",
     "/service-areas/woody-ca/industrial-restoration/",
     "/service-areas/woody-ca/odor-removal/",
-    "/service-areas/woody-ca/soot-removal/",
-    "/service-areas/woody-ca/water-heater-flood-cleanup/",
     "/service-areas/woody-ca/water-leak-detection/",
     "/service-areas/woody-ca/appliance-leak-cleanup/",
     "/service-areas/woody-ca/asbestos-abatement/",
     "/service-areas/woody-ca/air-duct-cleaning/",
-    "/service-areas/woody-ca/air-duct-hvac-cleaning/",
     "/service-areas/woody-ca/contents-restoration-storage/",
     "/service-areas/woody-ca/crawl-space-encapsulation/",
     "/service-areas/woody-ca/carpet-cleaning/",
@@ -1492,7 +1348,6 @@
     "/service-areas/bear-valley-springs-ca/water-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/commercial-restoration/",
     "/service-areas/bear-valley-springs-ca/emergency-plumbing/",
-    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
     "/service-areas/bear-valley-springs-ca/flood-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/reconstruction/",
     "/service-areas/bear-valley-springs-ca/sewage-cleanup/",
@@ -1509,13 +1364,10 @@
     "/service-areas/bear-valley-springs-ca/emergency-board-up-tarping/",
     "/service-areas/bear-valley-springs-ca/industrial-restoration/",
     "/service-areas/bear-valley-springs-ca/odor-removal/",
-    "/service-areas/bear-valley-springs-ca/soot-removal/",
-    "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
     "/service-areas/bear-valley-springs-ca/water-leak-detection/",
     "/service-areas/bear-valley-springs-ca/appliance-leak-cleanup/",
     "/service-areas/bear-valley-springs-ca/asbestos-abatement/",
     "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-    "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
     "/service-areas/bear-valley-springs-ca/contents-restoration-storage/",
     "/service-areas/bear-valley-springs-ca/crawl-space-encapsulation/",
     "/service-areas/bear-valley-springs-ca/carpet-cleaning/",
@@ -1534,7 +1386,6 @@
     "/service-areas/keene-ca/water-damage-restoration/",
     "/service-areas/keene-ca/commercial-restoration/",
     "/service-areas/keene-ca/emergency-plumbing/",
-    "/service-areas/keene-ca/emergency-water-removal/",
     "/service-areas/keene-ca/flood-damage-restoration/",
     "/service-areas/keene-ca/reconstruction/",
     "/service-areas/keene-ca/sewage-cleanup/",
@@ -1551,13 +1402,10 @@
     "/service-areas/keene-ca/emergency-board-up-tarping/",
     "/service-areas/keene-ca/industrial-restoration/",
     "/service-areas/keene-ca/odor-removal/",
-    "/service-areas/keene-ca/soot-removal/",
-    "/service-areas/keene-ca/water-heater-flood-cleanup/",
     "/service-areas/keene-ca/water-leak-detection/",
     "/service-areas/keene-ca/appliance-leak-cleanup/",
     "/service-areas/keene-ca/asbestos-abatement/",
     "/service-areas/keene-ca/air-duct-cleaning/",
-    "/service-areas/keene-ca/air-duct-hvac-cleaning/",
     "/service-areas/keene-ca/contents-restoration-storage/",
     "/service-areas/keene-ca/crawl-space-encapsulation/",
     "/service-areas/keene-ca/carpet-cleaning/",
@@ -1576,7 +1424,6 @@
     "/service-areas/maricopa-ca/water-damage-restoration/",
     "/service-areas/maricopa-ca/commercial-restoration/",
     "/service-areas/maricopa-ca/emergency-plumbing/",
-    "/service-areas/maricopa-ca/emergency-water-removal/",
     "/service-areas/maricopa-ca/flood-damage-restoration/",
     "/service-areas/maricopa-ca/reconstruction/",
     "/service-areas/maricopa-ca/sewage-cleanup/",
@@ -1593,13 +1440,10 @@
     "/service-areas/maricopa-ca/emergency-board-up-tarping/",
     "/service-areas/maricopa-ca/industrial-restoration/",
     "/service-areas/maricopa-ca/odor-removal/",
-    "/service-areas/maricopa-ca/soot-removal/",
-    "/service-areas/maricopa-ca/water-heater-flood-cleanup/",
     "/service-areas/maricopa-ca/water-leak-detection/",
     "/service-areas/maricopa-ca/appliance-leak-cleanup/",
     "/service-areas/maricopa-ca/asbestos-abatement/",
     "/service-areas/maricopa-ca/air-duct-cleaning/",
-    "/service-areas/maricopa-ca/air-duct-hvac-cleaning/",
     "/service-areas/maricopa-ca/contents-restoration-storage/",
     "/service-areas/maricopa-ca/crawl-space-encapsulation/",
     "/service-areas/maricopa-ca/carpet-cleaning/",
@@ -1615,15 +1459,6 @@
     "/service-areas/oildale-ca/home-remodeling/",
     "/service-areas/arvin-ca/air-duct-cleaning/",
     "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/oildale-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/oildale-ca/",
-    "/service-areas/oildale-ca/fire-damage-restoration/",
-    "/service-areas/oildale-ca/home-remodeling/",
-    "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-    "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/oildale-ca/appliance-leak-cleanup/": [
@@ -1815,15 +1650,6 @@
     "/service-areas/bear-valley-springs-ca/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/oildale-ca/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/oildale-ca/",
-    "/service-areas/oildale-ca/fire-damage-restoration/",
-    "/service-areas/oildale-ca/home-remodeling/",
-    "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bear-valley-springs-ca/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/oildale-ca/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/oildale-ca/",
@@ -1905,24 +1731,6 @@
     "/service-areas/bear-valley-springs-ca/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/oildale-ca/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/oildale-ca/",
-    "/service-areas/oildale-ca/fire-damage-restoration/",
-    "/service-areas/oildale-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/oildale-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/oildale-ca/",
-    "/service-areas/oildale-ca/fire-damage-restoration/",
-    "/service-areas/oildale-ca/home-remodeling/",
-    "/service-areas/arvin-ca/emergency-water-removal/",
-    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/rosedale-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/rosedale-ca/",
@@ -1930,15 +1738,6 @@
     "/service-areas/rosedale-ca/home-remodeling/",
     "/service-areas/arvin-ca/air-duct-cleaning/",
     "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/rosedale-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/rosedale-ca/",
-    "/service-areas/rosedale-ca/fire-damage-restoration/",
-    "/service-areas/rosedale-ca/home-remodeling/",
-    "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-    "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/rosedale-ca/appliance-leak-cleanup/": [
@@ -2130,15 +1929,6 @@
     "/service-areas/bear-valley-springs-ca/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/rosedale-ca/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/rosedale-ca/",
-    "/service-areas/rosedale-ca/fire-damage-restoration/",
-    "/service-areas/rosedale-ca/home-remodeling/",
-    "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bear-valley-springs-ca/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/rosedale-ca/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/rosedale-ca/",
@@ -2220,24 +2010,6 @@
     "/service-areas/bear-valley-springs-ca/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/rosedale-ca/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/rosedale-ca/",
-    "/service-areas/rosedale-ca/fire-damage-restoration/",
-    "/service-areas/rosedale-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/rosedale-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/rosedale-ca/",
-    "/service-areas/rosedale-ca/fire-damage-restoration/",
-    "/service-areas/rosedale-ca/home-remodeling/",
-    "/service-areas/arvin-ca/emergency-water-removal/",
-    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/delano-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/delano-ca/",
@@ -2245,15 +2017,6 @@
     "/service-areas/delano-ca/home-remodeling/",
     "/service-areas/arvin-ca/air-duct-cleaning/",
     "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/delano-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/delano-ca/",
-    "/service-areas/delano-ca/fire-damage-restoration/",
-    "/service-areas/delano-ca/home-remodeling/",
-    "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-    "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/delano-ca/appliance-leak-cleanup/": [
@@ -2445,15 +2208,6 @@
     "/service-areas/bear-valley-springs-ca/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/delano-ca/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/delano-ca/",
-    "/service-areas/delano-ca/fire-damage-restoration/",
-    "/service-areas/delano-ca/home-remodeling/",
-    "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bear-valley-springs-ca/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/delano-ca/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/delano-ca/",
@@ -2535,24 +2289,6 @@
     "/service-areas/bear-valley-springs-ca/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/delano-ca/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/delano-ca/",
-    "/service-areas/delano-ca/fire-damage-restoration/",
-    "/service-areas/delano-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/delano-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/delano-ca/",
-    "/service-areas/delano-ca/fire-damage-restoration/",
-    "/service-areas/delano-ca/home-remodeling/",
-    "/service-areas/arvin-ca/emergency-water-removal/",
-    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/shafter-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/shafter-ca/",
@@ -2560,15 +2296,6 @@
     "/service-areas/shafter-ca/home-remodeling/",
     "/service-areas/arvin-ca/air-duct-cleaning/",
     "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/shafter-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/shafter-ca/",
-    "/service-areas/shafter-ca/fire-damage-restoration/",
-    "/service-areas/shafter-ca/home-remodeling/",
-    "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-    "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/shafter-ca/appliance-leak-cleanup/": [
@@ -2760,15 +2487,6 @@
     "/service-areas/bear-valley-springs-ca/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/shafter-ca/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/shafter-ca/",
-    "/service-areas/shafter-ca/fire-damage-restoration/",
-    "/service-areas/shafter-ca/home-remodeling/",
-    "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bear-valley-springs-ca/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/shafter-ca/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/shafter-ca/",
@@ -2850,24 +2568,6 @@
     "/service-areas/bear-valley-springs-ca/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/shafter-ca/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/shafter-ca/",
-    "/service-areas/shafter-ca/fire-damage-restoration/",
-    "/service-areas/shafter-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/shafter-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/shafter-ca/",
-    "/service-areas/shafter-ca/fire-damage-restoration/",
-    "/service-areas/shafter-ca/home-remodeling/",
-    "/service-areas/arvin-ca/emergency-water-removal/",
-    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/wasco-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/wasco-ca/",
@@ -2875,15 +2575,6 @@
     "/service-areas/wasco-ca/home-remodeling/",
     "/service-areas/arvin-ca/air-duct-cleaning/",
     "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/wasco-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/wasco-ca/",
-    "/service-areas/wasco-ca/fire-damage-restoration/",
-    "/service-areas/wasco-ca/home-remodeling/",
-    "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-    "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/wasco-ca/appliance-leak-cleanup/": [
@@ -3075,15 +2766,6 @@
     "/service-areas/bear-valley-springs-ca/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/wasco-ca/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/wasco-ca/",
-    "/service-areas/wasco-ca/fire-damage-restoration/",
-    "/service-areas/wasco-ca/home-remodeling/",
-    "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bear-valley-springs-ca/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/wasco-ca/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/wasco-ca/",
@@ -3165,24 +2847,6 @@
     "/service-areas/bear-valley-springs-ca/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/wasco-ca/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/wasco-ca/",
-    "/service-areas/wasco-ca/fire-damage-restoration/",
-    "/service-areas/wasco-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/wasco-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/wasco-ca/",
-    "/service-areas/wasco-ca/fire-damage-restoration/",
-    "/service-areas/wasco-ca/home-remodeling/",
-    "/service-areas/arvin-ca/emergency-water-removal/",
-    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/taft-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/taft-ca/",
@@ -3190,15 +2854,6 @@
     "/service-areas/taft-ca/home-remodeling/",
     "/service-areas/arvin-ca/air-duct-cleaning/",
     "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/taft-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/taft-ca/",
-    "/service-areas/taft-ca/fire-damage-restoration/",
-    "/service-areas/taft-ca/home-remodeling/",
-    "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-    "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/taft-ca/appliance-leak-cleanup/": [
@@ -3390,15 +3045,6 @@
     "/service-areas/bear-valley-springs-ca/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/taft-ca/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/taft-ca/",
-    "/service-areas/taft-ca/fire-damage-restoration/",
-    "/service-areas/taft-ca/home-remodeling/",
-    "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bear-valley-springs-ca/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/taft-ca/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/taft-ca/",
@@ -3480,24 +3126,6 @@
     "/service-areas/bear-valley-springs-ca/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/taft-ca/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/taft-ca/",
-    "/service-areas/taft-ca/fire-damage-restoration/",
-    "/service-areas/taft-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/taft-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/taft-ca/",
-    "/service-areas/taft-ca/fire-damage-restoration/",
-    "/service-areas/taft-ca/home-remodeling/",
-    "/service-areas/arvin-ca/emergency-water-removal/",
-    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/tehachapi-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/tehachapi-ca/",
@@ -3505,15 +3133,6 @@
     "/service-areas/tehachapi-ca/home-remodeling/",
     "/service-areas/arvin-ca/air-duct-cleaning/",
     "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/tehachapi-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/tehachapi-ca/",
-    "/service-areas/tehachapi-ca/fire-damage-restoration/",
-    "/service-areas/tehachapi-ca/home-remodeling/",
-    "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-    "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/tehachapi-ca/appliance-leak-cleanup/": [
@@ -3705,15 +3324,6 @@
     "/service-areas/bear-valley-springs-ca/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/tehachapi-ca/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/tehachapi-ca/",
-    "/service-areas/tehachapi-ca/fire-damage-restoration/",
-    "/service-areas/tehachapi-ca/home-remodeling/",
-    "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bear-valley-springs-ca/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/tehachapi-ca/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/tehachapi-ca/",
@@ -3795,24 +3405,6 @@
     "/service-areas/bear-valley-springs-ca/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/tehachapi-ca/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/tehachapi-ca/",
-    "/service-areas/tehachapi-ca/fire-damage-restoration/",
-    "/service-areas/tehachapi-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/tehachapi-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/tehachapi-ca/",
-    "/service-areas/tehachapi-ca/fire-damage-restoration/",
-    "/service-areas/tehachapi-ca/home-remodeling/",
-    "/service-areas/arvin-ca/emergency-water-removal/",
-    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/arvin-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/arvin-ca/",
@@ -3820,15 +3412,6 @@
     "/service-areas/arvin-ca/home-remodeling/",
     "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
     "/service-areas/buttonwillow-ca/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/arvin-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/arvin-ca/",
-    "/service-areas/arvin-ca/fire-damage-restoration/",
-    "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
-    "/service-areas/buttonwillow-ca/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/arvin-ca/appliance-leak-cleanup/": [
@@ -4020,15 +3603,6 @@
     "/service-areas/buttonwillow-ca/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/arvin-ca/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/arvin-ca/",
-    "/service-areas/arvin-ca/fire-damage-restoration/",
-    "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bear-valley-springs-ca/soot-removal/",
-    "/service-areas/buttonwillow-ca/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/arvin-ca/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/arvin-ca/",
@@ -4110,24 +3684,6 @@
     "/service-areas/buttonwillow-ca/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/arvin-ca/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/arvin-ca/",
-    "/service-areas/arvin-ca/fire-damage-restoration/",
-    "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-    "/service-areas/buttonwillow-ca/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/arvin-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/arvin-ca/",
-    "/service-areas/arvin-ca/fire-damage-restoration/",
-    "/service-areas/arvin-ca/home-remodeling/",
-    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-    "/service-areas/buttonwillow-ca/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/lamont-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/lamont-ca/",
@@ -4135,15 +3691,6 @@
     "/service-areas/lamont-ca/home-remodeling/",
     "/service-areas/arvin-ca/air-duct-cleaning/",
     "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/lamont-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/lamont-ca/",
-    "/service-areas/lamont-ca/fire-damage-restoration/",
-    "/service-areas/lamont-ca/home-remodeling/",
-    "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-    "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/lamont-ca/appliance-leak-cleanup/": [
@@ -4335,15 +3882,6 @@
     "/service-areas/bear-valley-springs-ca/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/lamont-ca/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/lamont-ca/",
-    "/service-areas/lamont-ca/fire-damage-restoration/",
-    "/service-areas/lamont-ca/home-remodeling/",
-    "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bear-valley-springs-ca/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/lamont-ca/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/lamont-ca/",
@@ -4425,24 +3963,6 @@
     "/service-areas/bear-valley-springs-ca/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/lamont-ca/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/lamont-ca/",
-    "/service-areas/lamont-ca/fire-damage-restoration/",
-    "/service-areas/lamont-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/lamont-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/lamont-ca/",
-    "/service-areas/lamont-ca/fire-damage-restoration/",
-    "/service-areas/lamont-ca/home-remodeling/",
-    "/service-areas/arvin-ca/emergency-water-removal/",
-    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/lake-isabella-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/lake-isabella-ca/",
@@ -4450,15 +3970,6 @@
     "/service-areas/lake-isabella-ca/home-remodeling/",
     "/service-areas/arvin-ca/air-duct-cleaning/",
     "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/lake-isabella-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/lake-isabella-ca/",
-    "/service-areas/lake-isabella-ca/fire-damage-restoration/",
-    "/service-areas/lake-isabella-ca/home-remodeling/",
-    "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-    "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/lake-isabella-ca/appliance-leak-cleanup/": [
@@ -4650,15 +4161,6 @@
     "/service-areas/bear-valley-springs-ca/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/lake-isabella-ca/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/lake-isabella-ca/",
-    "/service-areas/lake-isabella-ca/fire-damage-restoration/",
-    "/service-areas/lake-isabella-ca/home-remodeling/",
-    "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bear-valley-springs-ca/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/lake-isabella-ca/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/lake-isabella-ca/",
@@ -4740,24 +4242,6 @@
     "/service-areas/bear-valley-springs-ca/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/lake-isabella-ca/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/lake-isabella-ca/",
-    "/service-areas/lake-isabella-ca/fire-damage-restoration/",
-    "/service-areas/lake-isabella-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/lake-isabella-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/lake-isabella-ca/",
-    "/service-areas/lake-isabella-ca/fire-damage-restoration/",
-    "/service-areas/lake-isabella-ca/home-remodeling/",
-    "/service-areas/arvin-ca/emergency-water-removal/",
-    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/east-niles-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/east-niles-ca/",
@@ -4765,15 +4249,6 @@
     "/service-areas/east-niles-ca/home-remodeling/",
     "/service-areas/arvin-ca/air-duct-cleaning/",
     "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/east-niles-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/east-niles-ca/",
-    "/service-areas/east-niles-ca/fire-damage-restoration/",
-    "/service-areas/east-niles-ca/home-remodeling/",
-    "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-    "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/east-niles-ca/appliance-leak-cleanup/": [
@@ -4965,15 +4440,6 @@
     "/service-areas/bear-valley-springs-ca/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/east-niles-ca/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/east-niles-ca/",
-    "/service-areas/east-niles-ca/fire-damage-restoration/",
-    "/service-areas/east-niles-ca/home-remodeling/",
-    "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bear-valley-springs-ca/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/east-niles-ca/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/east-niles-ca/",
@@ -5055,24 +4521,6 @@
     "/service-areas/bear-valley-springs-ca/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/east-niles-ca/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/east-niles-ca/",
-    "/service-areas/east-niles-ca/fire-damage-restoration/",
-    "/service-areas/east-niles-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/east-niles-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/east-niles-ca/",
-    "/service-areas/east-niles-ca/fire-damage-restoration/",
-    "/service-areas/east-niles-ca/home-remodeling/",
-    "/service-areas/arvin-ca/emergency-water-removal/",
-    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/tarina-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/tarina-ca/",
@@ -5080,15 +4528,6 @@
     "/service-areas/tarina-ca/home-remodeling/",
     "/service-areas/arvin-ca/air-duct-cleaning/",
     "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/tarina-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/tarina-ca/",
-    "/service-areas/tarina-ca/fire-damage-restoration/",
-    "/service-areas/tarina-ca/home-remodeling/",
-    "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-    "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/tarina-ca/appliance-leak-cleanup/": [
@@ -5280,15 +4719,6 @@
     "/service-areas/bear-valley-springs-ca/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/tarina-ca/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/tarina-ca/",
-    "/service-areas/tarina-ca/fire-damage-restoration/",
-    "/service-areas/tarina-ca/home-remodeling/",
-    "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bear-valley-springs-ca/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/tarina-ca/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/tarina-ca/",
@@ -5370,24 +4800,6 @@
     "/service-areas/bear-valley-springs-ca/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/tarina-ca/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/tarina-ca/",
-    "/service-areas/tarina-ca/fire-damage-restoration/",
-    "/service-areas/tarina-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/tarina-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/tarina-ca/",
-    "/service-areas/tarina-ca/fire-damage-restoration/",
-    "/service-areas/tarina-ca/home-remodeling/",
-    "/service-areas/arvin-ca/emergency-water-removal/",
-    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/weedpatch-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/weedpatch-ca/",
@@ -5395,15 +4807,6 @@
     "/service-areas/weedpatch-ca/home-remodeling/",
     "/service-areas/arvin-ca/air-duct-cleaning/",
     "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/weedpatch-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/weedpatch-ca/",
-    "/service-areas/weedpatch-ca/fire-damage-restoration/",
-    "/service-areas/weedpatch-ca/home-remodeling/",
-    "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-    "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/weedpatch-ca/appliance-leak-cleanup/": [
@@ -5595,15 +4998,6 @@
     "/service-areas/bear-valley-springs-ca/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/weedpatch-ca/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/weedpatch-ca/",
-    "/service-areas/weedpatch-ca/fire-damage-restoration/",
-    "/service-areas/weedpatch-ca/home-remodeling/",
-    "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bear-valley-springs-ca/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/weedpatch-ca/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/weedpatch-ca/",
@@ -5685,24 +5079,6 @@
     "/service-areas/bear-valley-springs-ca/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/weedpatch-ca/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/weedpatch-ca/",
-    "/service-areas/weedpatch-ca/fire-damage-restoration/",
-    "/service-areas/weedpatch-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/weedpatch-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/weedpatch-ca/",
-    "/service-areas/weedpatch-ca/fire-damage-restoration/",
-    "/service-areas/weedpatch-ca/home-remodeling/",
-    "/service-areas/arvin-ca/emergency-water-removal/",
-    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/buttonwillow-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/buttonwillow-ca/",
@@ -5710,15 +5086,6 @@
     "/service-areas/buttonwillow-ca/home-remodeling/",
     "/service-areas/arvin-ca/air-duct-cleaning/",
     "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/buttonwillow-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/buttonwillow-ca/",
-    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
-    "/service-areas/buttonwillow-ca/home-remodeling/",
-    "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-    "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/buttonwillow-ca/appliance-leak-cleanup/": [
@@ -5910,15 +5277,6 @@
     "/service-areas/bear-valley-springs-ca/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/buttonwillow-ca/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/buttonwillow-ca/",
-    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
-    "/service-areas/buttonwillow-ca/home-remodeling/",
-    "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bear-valley-springs-ca/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/buttonwillow-ca/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/buttonwillow-ca/",
@@ -6000,24 +5358,6 @@
     "/service-areas/bear-valley-springs-ca/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/buttonwillow-ca/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/buttonwillow-ca/",
-    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
-    "/service-areas/buttonwillow-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/buttonwillow-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/buttonwillow-ca/",
-    "/service-areas/buttonwillow-ca/fire-damage-restoration/",
-    "/service-areas/buttonwillow-ca/home-remodeling/",
-    "/service-areas/arvin-ca/emergency-water-removal/",
-    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/dustin-acres-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/dustin-acres-ca/",
@@ -6025,15 +5365,6 @@
     "/service-areas/dustin-acres-ca/home-remodeling/",
     "/service-areas/arvin-ca/air-duct-cleaning/",
     "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/dustin-acres-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/dustin-acres-ca/",
-    "/service-areas/dustin-acres-ca/fire-damage-restoration/",
-    "/service-areas/dustin-acres-ca/home-remodeling/",
-    "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-    "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/dustin-acres-ca/appliance-leak-cleanup/": [
@@ -6225,15 +5556,6 @@
     "/service-areas/bear-valley-springs-ca/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/dustin-acres-ca/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/dustin-acres-ca/",
-    "/service-areas/dustin-acres-ca/fire-damage-restoration/",
-    "/service-areas/dustin-acres-ca/home-remodeling/",
-    "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bear-valley-springs-ca/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/dustin-acres-ca/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/dustin-acres-ca/",
@@ -6315,24 +5637,6 @@
     "/service-areas/bear-valley-springs-ca/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/dustin-acres-ca/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/dustin-acres-ca/",
-    "/service-areas/dustin-acres-ca/fire-damage-restoration/",
-    "/service-areas/dustin-acres-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/dustin-acres-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/dustin-acres-ca/",
-    "/service-areas/dustin-acres-ca/fire-damage-restoration/",
-    "/service-areas/dustin-acres-ca/home-remodeling/",
-    "/service-areas/arvin-ca/emergency-water-removal/",
-    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/mcfarland-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/mcfarland-ca/",
@@ -6340,15 +5644,6 @@
     "/service-areas/mcfarland-ca/home-remodeling/",
     "/service-areas/arvin-ca/air-duct-cleaning/",
     "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/mcfarland-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/mcfarland-ca/",
-    "/service-areas/mcfarland-ca/fire-damage-restoration/",
-    "/service-areas/mcfarland-ca/home-remodeling/",
-    "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-    "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/mcfarland-ca/appliance-leak-cleanup/": [
@@ -6540,15 +5835,6 @@
     "/service-areas/bear-valley-springs-ca/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/mcfarland-ca/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/mcfarland-ca/",
-    "/service-areas/mcfarland-ca/fire-damage-restoration/",
-    "/service-areas/mcfarland-ca/home-remodeling/",
-    "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bear-valley-springs-ca/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/mcfarland-ca/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/mcfarland-ca/",
@@ -6630,24 +5916,6 @@
     "/service-areas/bear-valley-springs-ca/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/mcfarland-ca/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/mcfarland-ca/",
-    "/service-areas/mcfarland-ca/fire-damage-restoration/",
-    "/service-areas/mcfarland-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/mcfarland-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/mcfarland-ca/",
-    "/service-areas/mcfarland-ca/fire-damage-restoration/",
-    "/service-areas/mcfarland-ca/home-remodeling/",
-    "/service-areas/arvin-ca/emergency-water-removal/",
-    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/valley-acres-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/valley-acres-ca/",
@@ -6655,15 +5923,6 @@
     "/service-areas/valley-acres-ca/home-remodeling/",
     "/service-areas/arvin-ca/air-duct-cleaning/",
     "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/valley-acres-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/valley-acres-ca/",
-    "/service-areas/valley-acres-ca/fire-damage-restoration/",
-    "/service-areas/valley-acres-ca/home-remodeling/",
-    "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-    "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/valley-acres-ca/appliance-leak-cleanup/": [
@@ -6855,15 +6114,6 @@
     "/service-areas/bear-valley-springs-ca/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/valley-acres-ca/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/valley-acres-ca/",
-    "/service-areas/valley-acres-ca/fire-damage-restoration/",
-    "/service-areas/valley-acres-ca/home-remodeling/",
-    "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bear-valley-springs-ca/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/valley-acres-ca/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/valley-acres-ca/",
@@ -6945,24 +6195,6 @@
     "/service-areas/bear-valley-springs-ca/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/valley-acres-ca/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/valley-acres-ca/",
-    "/service-areas/valley-acres-ca/fire-damage-restoration/",
-    "/service-areas/valley-acres-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/valley-acres-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/valley-acres-ca/",
-    "/service-areas/valley-acres-ca/fire-damage-restoration/",
-    "/service-areas/valley-acres-ca/home-remodeling/",
-    "/service-areas/arvin-ca/emergency-water-removal/",
-    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/woody-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/woody-ca/",
@@ -6970,15 +6202,6 @@
     "/service-areas/woody-ca/home-remodeling/",
     "/service-areas/arvin-ca/air-duct-cleaning/",
     "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/woody-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/woody-ca/",
-    "/service-areas/woody-ca/fire-damage-restoration/",
-    "/service-areas/woody-ca/home-remodeling/",
-    "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-    "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/woody-ca/appliance-leak-cleanup/": [
@@ -7170,15 +6393,6 @@
     "/service-areas/bear-valley-springs-ca/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/woody-ca/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/woody-ca/",
-    "/service-areas/woody-ca/fire-damage-restoration/",
-    "/service-areas/woody-ca/home-remodeling/",
-    "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bear-valley-springs-ca/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/woody-ca/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/woody-ca/",
@@ -7260,24 +6474,6 @@
     "/service-areas/bear-valley-springs-ca/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/woody-ca/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/woody-ca/",
-    "/service-areas/woody-ca/fire-damage-restoration/",
-    "/service-areas/woody-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/woody-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/woody-ca/",
-    "/service-areas/woody-ca/fire-damage-restoration/",
-    "/service-areas/woody-ca/home-remodeling/",
-    "/service-areas/arvin-ca/emergency-water-removal/",
-    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/bear-valley-springs-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/bear-valley-springs-ca/",
@@ -7285,15 +6481,6 @@
     "/service-areas/bear-valley-springs-ca/home-remodeling/",
     "/service-areas/arvin-ca/air-duct-cleaning/",
     "/service-areas/buttonwillow-ca/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/bear-valley-springs-ca/fire-damage-restoration/",
-    "/service-areas/bear-valley-springs-ca/home-remodeling/",
-    "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-    "/service-areas/buttonwillow-ca/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/bear-valley-springs-ca/appliance-leak-cleanup/": [
@@ -7485,15 +6672,6 @@
     "/service-areas/buttonwillow-ca/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/bear-valley-springs-ca/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/bear-valley-springs-ca/fire-damage-restoration/",
-    "/service-areas/bear-valley-springs-ca/home-remodeling/",
-    "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/buttonwillow-ca/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/bear-valley-springs-ca/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/bear-valley-springs-ca/",
@@ -7575,24 +6753,6 @@
     "/service-areas/buttonwillow-ca/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/bear-valley-springs-ca/fire-damage-restoration/",
-    "/service-areas/bear-valley-springs-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-    "/service-areas/buttonwillow-ca/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/bear-valley-springs-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/bear-valley-springs-ca/",
-    "/service-areas/bear-valley-springs-ca/fire-damage-restoration/",
-    "/service-areas/bear-valley-springs-ca/home-remodeling/",
-    "/service-areas/arvin-ca/emergency-water-removal/",
-    "/service-areas/buttonwillow-ca/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/keene-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/keene-ca/",
@@ -7600,15 +6760,6 @@
     "/service-areas/keene-ca/home-remodeling/",
     "/service-areas/arvin-ca/air-duct-cleaning/",
     "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/keene-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/keene-ca/",
-    "/service-areas/keene-ca/fire-damage-restoration/",
-    "/service-areas/keene-ca/home-remodeling/",
-    "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-    "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/keene-ca/appliance-leak-cleanup/": [
@@ -7800,15 +6951,6 @@
     "/service-areas/bear-valley-springs-ca/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/keene-ca/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/keene-ca/",
-    "/service-areas/keene-ca/fire-damage-restoration/",
-    "/service-areas/keene-ca/home-remodeling/",
-    "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bear-valley-springs-ca/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/keene-ca/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/keene-ca/",
@@ -7890,24 +7032,6 @@
     "/service-areas/bear-valley-springs-ca/ceiling-water-damage-repair/",
     "/contact/"
   ],
-  "/service-areas/keene-ca/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/keene-ca/",
-    "/service-areas/keene-ca/fire-damage-restoration/",
-    "/service-areas/keene-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/keene-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/keene-ca/",
-    "/service-areas/keene-ca/fire-damage-restoration/",
-    "/service-areas/keene-ca/home-remodeling/",
-    "/service-areas/arvin-ca/emergency-water-removal/",
-    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
-    "/contact/"
-  ],
   "/service-areas/maricopa-ca/air-duct-cleaning/": [
     "/services/air-duct-cleaning/",
     "/service-areas/maricopa-ca/",
@@ -7915,15 +7039,6 @@
     "/service-areas/maricopa-ca/home-remodeling/",
     "/service-areas/arvin-ca/air-duct-cleaning/",
     "/service-areas/bear-valley-springs-ca/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/maricopa-ca/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/maricopa-ca/",
-    "/service-areas/maricopa-ca/fire-damage-restoration/",
-    "/service-areas/maricopa-ca/home-remodeling/",
-    "/service-areas/arvin-ca/air-duct-hvac-cleaning/",
-    "/service-areas/bear-valley-springs-ca/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/maricopa-ca/appliance-leak-cleanup/": [
@@ -8115,15 +7230,6 @@
     "/service-areas/bear-valley-springs-ca/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/maricopa-ca/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/maricopa-ca/",
-    "/service-areas/maricopa-ca/fire-damage-restoration/",
-    "/service-areas/maricopa-ca/home-remodeling/",
-    "/service-areas/arvin-ca/soot-removal/",
-    "/service-areas/bear-valley-springs-ca/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/maricopa-ca/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/maricopa-ca/",
@@ -8203,24 +7309,6 @@
     "/service-areas/maricopa-ca/home-remodeling/",
     "/service-areas/arvin-ca/ceiling-water-damage-repair/",
     "/service-areas/bear-valley-springs-ca/ceiling-water-damage-repair/",
-    "/contact/"
-  ],
-  "/service-areas/maricopa-ca/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/maricopa-ca/",
-    "/service-areas/maricopa-ca/fire-damage-restoration/",
-    "/service-areas/maricopa-ca/home-remodeling/",
-    "/service-areas/arvin-ca/water-heater-flood-cleanup/",
-    "/service-areas/bear-valley-springs-ca/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/maricopa-ca/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/maricopa-ca/",
-    "/service-areas/maricopa-ca/fire-damage-restoration/",
-    "/service-areas/maricopa-ca/home-remodeling/",
-    "/service-areas/arvin-ca/emergency-water-removal/",
-    "/service-areas/bear-valley-springs-ca/emergency-water-removal/",
     "/contact/"
   ],
   "/blog/what-to-do-first-24-hours-water-damage/": [

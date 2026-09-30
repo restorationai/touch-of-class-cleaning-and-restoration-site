@@ -67,3 +67,11 @@
 /when-should-you-schedule-mold-remediation-in-san-luis-obispo/ /service-areas/san-luis-obispo-ca/mold-remediation/ 301
 /faqs / 301
 /faqs/ / 301
+# duplicate service merge 2026-09-30: /services/contents-restoration-storage/ folded into /services/contents-restoration/ (scripts/service_merge.py)
+/services/contents-restoration-storage /services/contents-restoration/ 301
+/services/contents-restoration-storage/ /services/contents-restoration/ 301
+/service-areas/:city/contents-restoration-storage /service-areas/:city/contents-restoration/ 301
+/service-areas/:city/contents-restoration-storage/ /service-areas/:city/contents-restoration/ 301
+# duplicate service merge 2026-09-30: /services/vandalism-graffiti-removal/ folded into /services/vandalism-cleanup/ (scripts/service_merge.py)
+/services/vandalism-graffiti-removal /services/vandalism-cleanup/ 301
+/services/vandalism-graffiti-removal/ /services/vandalism-cleanup/ 301

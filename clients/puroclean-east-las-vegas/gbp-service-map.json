@@ -1,0 +1,570 @@
+{
+  "slug": "puroclean-east-las-vegas",
+  "policy": "scripts/site_structure.py (Santino 2026-09-30)",
+  "gbp_services": {
+    "24/7 Emergency Flood Damage": {
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "source": "claude",
+      "reason": "Modifier variant of water damage restoration",
+      "at": "2026-09-30"
+    },
+    "24/7 Emergency Water Cleanup": {
+      "verdict": "mapped",
+      "page": "water-cleanup",
+      "reason": "catalog slug match",
+      "source": "catalog",
+      "at": "2026-09-30"
+    },
+    "24/7 Flood Restoration": {
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "source": "claude",
+      "reason": "Modifier variant of water damage restoration",
+      "at": "2026-09-30"
+    },
+    "24/7 Water Cleanup": {
+      "verdict": "mapped",
+      "page": "water-cleanup",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "24/7 Water Damage Restoration": {
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "reason": "catalog slug match",
+      "source": "catalog",
+      "at": "2026-09-30"
+    },
+    "Attic Mold Removal": {
+      "verdict": "mapped",
+      "page": "mold-remediation",
+      "source": "claude",
+      "reason": "Room-specific mold remediation case",
+      "at": "2026-09-30"
+    },
+    "Basement Flood Cleanup": {
+      "verdict": "mapped",
+      "page": "basement-flood-cleanup",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Basement Mold Removal": {
+      "verdict": "mapped",
+      "page": "mold-remediation",
+      "source": "claude",
+      "reason": "Room-specific mold remediation case",
+      "at": "2026-09-30"
+    },
+    "Basement Sewage Cleanup": {
+      "verdict": "mapped",
+      "page": "sewage-cleanup",
+      "reason": "same-service cluster as sewage-cleanup",
+      "source": "cluster",
+      "at": "2026-09-30"
+    },
+    "Bathroom Mold Removal": {
+      "verdict": "mapped",
+      "page": "mold-remediation",
+      "source": "claude",
+      "reason": "Room-specific mold remediation case",
+      "at": "2026-09-30"
+    },
+    "Biohazard & Trauma Cleanup": {
+      "verdict": "mapped",
+      "page": "biohazard-cleanup",
+      "source": "claude",
+      "reason": "Direct match to biohazard page",
+      "at": "2026-09-30"
+    },
+    "Biohazard Cleanup": {
+      "verdict": "mapped",
+      "page": "biohazard-cleanup",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Black Mold Removal": {
+      "verdict": "mapped",
+      "page": "mold-remediation",
+      "source": "claude",
+      "reason": "Variant of mold remediation",
+      "at": "2026-09-30"
+    },
+    "Burst & Frozen Pipes": {
+      "verdict": "mapped",
+      "page": "burst-frozen-pipes",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Carpet Water Damage": {
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "source": "claude",
+      "reason": "Material-specific water damage case",
+      "at": "2026-09-30"
+    },
+    "Carpet Water Extraction": {
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "reason": "house alias",
+      "source": "alias",
+      "at": "2026-09-30"
+    },
+    "Category 3 Water Cleanup": {
+      "verdict": "mapped",
+      "page": "sewage-cleanup",
+      "reason": "same-service cluster as sewage-cleanup",
+      "source": "cluster",
+      "at": "2026-09-30"
+    },
+    "Ceiling Water Damage Repair": {
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "source": "claude",
+      "reason": "Room-specific water damage case",
+      "at": "2026-09-30"
+    },
+    "Commercial Fire Restoration": {
+      "verdict": "mapped",
+      "page": "commercial-fire-restoration",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Commercial Mold Remediation": {
+      "verdict": "mapped",
+      "page": "mold-remediation",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Commercial Sewage Cleanup": {
+      "verdict": "mapped",
+      "page": "sewage-cleanup",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Commercial Water Damage Restoration": {
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Contents Restoration & Pack-Out": {
+      "verdict": "mapped",
+      "page": "contents-restoration-storage",
+      "reason": "contents-restoration-pack-out was merged into contents-restoration-storage",
+      "source": "merged",
+      "at": "2026-09-30"
+    },
+    "Contents Restoration & Storage": {
+      "verdict": "mapped",
+      "page": "contents-restoration-storage",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Crawl Space Mold Removal": {
+      "verdict": "mapped",
+      "page": "mold-remediation",
+      "source": "claude",
+      "reason": "Room-specific mold remediation case",
+      "at": "2026-09-30"
+    },
+    "Crawl Space Water Removal": {
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "reason": "house alias",
+      "source": "alias",
+      "at": "2026-09-30"
+    },
+    "Emergency Burst Pipe Cleanup": {
+      "verdict": "mapped",
+      "page": "burst-frozen-pipes",
+      "source": "claude",
+      "reason": "Emergency variant of burst pipe page",
+      "at": "2026-09-30"
+    },
+    "Emergency Fire Damage Restoration": {
+      "verdict": "mapped",
+      "page": "fire-damage-restoration",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Emergency Flood Cleanup": {
+      "verdict": "mapped",
+      "page": "water-cleanup",
+      "source": "claude",
+      "reason": "Modifier variant of water cleanup",
+      "at": "2026-09-30"
+    },
+    "Emergency Flood Restoration": {
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "source": "claude",
+      "reason": "Modifier variant of water damage restoration",
+      "at": "2026-09-30"
+    },
+    "Emergency Mold Removal": {
+      "verdict": "mapped",
+      "page": "mold-remediation",
+      "source": "claude",
+      "reason": "Modifier variant of mold remediation",
+      "at": "2026-09-30"
+    },
+    "Emergency Sewage Cleanup": {
+      "verdict": "mapped",
+      "page": "sewage-cleanup",
+      "reason": "same-service cluster as sewage-cleanup",
+      "source": "cluster",
+      "at": "2026-09-30"
+    },
+    "Emergency Water Cleanup": {
+      "verdict": "mapped",
+      "page": "water-cleanup",
+      "reason": "catalog slug match",
+      "source": "catalog",
+      "at": "2026-09-30"
+    },
+    "Emergency Water Damage Restoration": {
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "reason": "same-service cluster as water-damage-restoration",
+      "source": "cluster",
+      "at": "2026-09-30"
+    },
+    "Emergency Water Removal": {
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "reason": "house alias",
+      "source": "alias",
+      "at": "2026-09-30"
+    },
+    "Fire & Smoke Restoration": {
+      "verdict": "mapped",
+      "page": "fire-damage-restoration",
+      "source": "claude",
+      "reason": "Direct match to fire damage page",
+      "at": "2026-09-30"
+    },
+    "Fire and Smoke Damage Cleanup": {
+      "verdict": "mapped",
+      "page": "fire-damage-restoration",
+      "source": "claude",
+      "reason": "Direct match to fire damage page",
+      "at": "2026-09-30"
+    },
+    "Fire Damage Restoration": {
+      "verdict": "mapped",
+      "page": "fire-damage-restoration",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Flood Damage Restoration": {
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "source": "claude",
+      "reason": "Synonym for water damage restoration",
+      "at": "2026-09-30"
+    },
+    "Flood Water Removal": {
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "reason": "house alias",
+      "source": "alias",
+      "at": "2026-09-30"
+    },
+    "Flooding Damage Restoration": {
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "source": "claude",
+      "reason": "Synonym for water damage restoration",
+      "at": "2026-09-30"
+    },
+    "Hardwood Floor Water Damage": {
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "source": "claude",
+      "reason": "Material-specific water damage case",
+      "at": "2026-09-30"
+    },
+    "Laminate Floor Water Damage": {
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "source": "claude",
+      "reason": "Material-specific water damage case",
+      "at": "2026-09-30"
+    },
+    "Mold Inspection": {
+      "verdict": "mapped",
+      "page": "mold-inspection-testing",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Mold Remediation": {
+      "verdict": "mapped",
+      "page": "mold-remediation",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Mold Removal": {
+      "verdict": "mapped",
+      "page": "mold-remediation",
+      "reason": "catalog slug match",
+      "source": "catalog",
+      "at": "2026-09-30"
+    },
+    "Mold Removal Behind Walls": {
+      "verdict": "mapped",
+      "page": "mold-remediation",
+      "source": "claude",
+      "reason": "Sub-case of mold remediation",
+      "at": "2026-09-30"
+    },
+    "Mold Testing": {
+      "verdict": "mapped",
+      "page": "mold-inspection-testing",
+      "source": "claude",
+      "reason": "Direct match to mold inspection page",
+      "at": "2026-09-30"
+    },
+    "Odor Removal": {
+      "verdict": "mapped",
+      "page": "fire-damage-restoration",
+      "source": "claude",
+      "reason": "General odor removal tied to fire damage",
+      "at": "2026-09-30"
+    },
+    "Sewage Backup Cleaning": {
+      "verdict": "mapped",
+      "page": "sewage-cleanup",
+      "source": "claude",
+      "reason": "Direct match to sewage cleanup page",
+      "at": "2026-09-30"
+    },
+    "Sewage Backup Cleanup": {
+      "verdict": "mapped",
+      "page": "sewage-cleanup",
+      "source": "claude",
+      "reason": "Direct match to sewage cleanup page",
+      "at": "2026-09-30"
+    },
+    "Sewage Cleanup & Remediation": {
+      "verdict": "mapped",
+      "page": "sewage-cleanup",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Sewage Cleanup and Sanitization": {
+      "verdict": "mapped",
+      "page": "sewage-cleanup",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Smoke Damage Restoration": {
+      "verdict": "mapped",
+      "page": "fire-damage-restoration",
+      "source": "claude",
+      "reason": "Sub-case of fire damage restoration",
+      "at": "2026-09-30"
+    },
+    "Smoke Odor Removal": {
+      "verdict": "mapped",
+      "page": "fire-damage-restoration",
+      "source": "claude",
+      "reason": "Task within fire damage restoration",
+      "at": "2026-09-30"
+    },
+    "Soot Removal": {
+      "verdict": "mapped",
+      "page": "fire-damage-restoration",
+      "source": "claude",
+      "reason": "Task within fire damage restoration",
+      "at": "2026-09-30"
+    },
+    "Standing Water Removal": {
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "reason": "house alias",
+      "source": "alias",
+      "at": "2026-09-30"
+    },
+    "Sump Pump Failure Cleanup": {
+      "verdict": "mapped",
+      "page": "water-cleanup",
+      "source": "claude",
+      "reason": "Sub-case of water cleanup",
+      "at": "2026-09-30"
+    },
+    "Toilet Overflow Cleanup": {
+      "verdict": "mapped",
+      "page": "sewage-cleanup",
+      "source": "claude",
+      "reason": "Sub-case of sewage cleanup",
+      "at": "2026-09-30"
+    },
+    "Trauma Cleanup": {
+      "verdict": "mapped",
+      "page": "biohazard-cleanup",
+      "source": "claude",
+      "reason": "Synonym for biohazard cleanup",
+      "at": "2026-09-30"
+    },
+    "Water Cleanup": {
+      "verdict": "mapped",
+      "page": "water-cleanup",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Water Damage Cleanup": {
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "reason": "catalog slug match",
+      "source": "catalog",
+      "at": "2026-09-30"
+    },
+    "Water Damage Remediation": {
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "reason": "catalog slug match",
+      "source": "catalog",
+      "at": "2026-09-30"
+    },
+    "Water Damage Repair": {
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "reason": "catalog slug match",
+      "source": "catalog",
+      "at": "2026-09-30"
+    },
+    "Water Damage Restoration": {
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Water Damage Under Flooring": {
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "source": "claude",
+      "reason": "Sub-case of water damage restoration",
+      "at": "2026-09-30"
+    },
+    "Water Dryout & Mitigation": {
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "source": "claude",
+      "reason": "Core water damage restoration task",
+      "at": "2026-09-30"
+    },
+    "Water Heater Flood Cleanup": {
+      "verdict": "mapped",
+      "page": "water-cleanup",
+      "source": "claude",
+      "reason": "Sub-case of water cleanup",
+      "at": "2026-09-30"
+    },
+    "Water Leak Detection": {
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "source": "claude",
+      "reason": "Sub-task of water damage restoration process",
+      "at": "2026-09-30"
+    },
+    "Water Mitigation": {
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "reason": "house alias",
+      "source": "alias",
+      "at": "2026-09-30"
+    },
+    "Water Removal & Extraction": {
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "reason": "house alias",
+      "source": "alias",
+      "at": "2026-09-30"
+    },
+    "Wet Carpet Drying": {
+      "verdict": "mapped",
+      "page": "water-cleanup",
+      "source": "claude",
+      "reason": "Task within water cleanup",
+      "at": "2026-09-30"
+    },
+    "Wet Drywall Repair": {
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "source": "claude",
+      "reason": "Task within water damage restoration",
+      "at": "2026-09-30"
+    },
+    "Wood Floor Water Damage Repair": {
+      "verdict": "mapped",
+      "page": "water-damage-restoration",
+      "source": "claude",
+      "reason": "Material-specific water damage case",
+      "at": "2026-09-30"
+    }
+  },
+  "merged": {
+    "contents-restoration-pack-out": {
+      "into": "contents-restoration-storage",
+      "reason": "phrasing variant of the same service",
+      "volumes": {
+        "contents-restoration-pack-out": {
+          "head": 210,
+          "near_me": 0,
+          "total": 210
+        },
+        "contents-restoration-storage": {
+          "head": 320,
+          "near_me": 70,
+          "total": 390
+        },
+        "terms": {
+          "contents-restoration-pack-out": "contents pack out",
+          "contents-restoration-storage": "contents restoration"
+        }
+      },
+      "at": "2026-09-30"
+    }
+  },
+  "kept_pairs": [
+    {
+      "a": "water-damage-restoration",
+      "b": "water-cleanup",
+      "reason": "distinct query with 19,700/mo nationally (head + near me)",
+      "volumes": {
+        "water-cleanup": {
+          "head": 1600,
+          "near_me": 18100,
+          "total": 19700
+        },
+        "water-damage-restoration": {
+          "head": 135000,
+          "near_me": 135000,
+          "total": 270000
+        },
+        "terms": {
+          "water-cleanup": "water cleanup",
+          "water-damage-restoration": "water damage restoration"
+        }
+      }
+    }
+  ]
+}

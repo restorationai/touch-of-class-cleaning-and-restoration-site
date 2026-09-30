@@ -52,7 +52,7 @@ This file is intended for AI assistants and language models to efficiently inges
 
 ### Core service pages
 - [Contents Restoration and Storage](https://californiarestorationwest.com/services/contents-restoration/)
-- [Contents Restoration & Storage](https://californiarestorationwest.com/services/contents-restoration-storage/)
+- [Contents Restoration & Storage](https://californiarestorationwest.com/services/contents-restoration/)
 - [Crawl Space Encapsulation](https://californiarestorationwest.com/services/crawl-space-encapsulation/)
 - [Mold Remediation](https://californiarestorationwest.com/services/mold-remediation/)
 - [Odor Removal and Deodorization](https://californiarestorationwest.com/services/odor-removal/)

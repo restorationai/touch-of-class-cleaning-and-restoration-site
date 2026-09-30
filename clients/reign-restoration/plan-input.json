@@ -33,7 +33,6 @@
   },
   "services": [
     "contents-restoration",
-    "contents-restoration-storage",
     "fire-damage-restoration",
     "general-contracting",
     "mold-remediation",
@@ -415,5 +414,16 @@
     }
   ],
   "template": "restoration",
-  "blog_seed_count": 8
+  "blog_seed_count": 8,
+  "homepage_services": [
+    "fire-damage-restoration",
+    "mold-remediation",
+    "water-damage-restoration",
+    "storm-damage-restoration",
+    "general-contracting",
+    "contents-restoration"
+  ],
+  "merged_services": {
+    "contents-restoration-storage": "contents-restoration"
+  }
 }

@@ -953,50 +953,6 @@
       ]
     },
     {
-      "url_path": "/services/air-duct-cleaning-service/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Corona | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Corona",
-      "meta_description": "Trusted air duct cleaning service in Corona and surrounding areas. Licensed and insured plumbing and HVAC pros, upfront pricing, free estimates. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service corona",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/service-areas/canyon-lake-ca/air-duct-cleaning-service/",
-        "/service-areas/chino-ca/air-duct-cleaning-service/",
-        "/service-areas/chino-hills-ca/air-duct-cleaning-service/",
-        "/service-areas/claremont-ca/air-duct-cleaning-service/",
-        "/service-areas/diamond-bar-ca/air-duct-cleaning-service/",
-        "/service-areas/eastvale-ca/air-duct-cleaning-service/",
-        "/service-areas/fontana-ca/air-duct-cleaning-service/",
-        "/service-areas/french-valley-ca/air-duct-cleaning-service/",
-        "/service-areas/fullerton-ca/air-duct-cleaning-service/",
-        "/service-areas/hemet-ca/air-duct-cleaning-service/"
-      ]
-    },
-    {
       "url_path": "/services/all-plumbing-services/",
       "archetype": "service-landing",
       "vars_keys": [
@@ -1082,94 +1038,6 @@
         "/service-areas/french-valley-ca/attic-insulation/",
         "/service-areas/fullerton-ca/attic-insulation/",
         "/service-areas/hemet-ca/attic-insulation/"
-      ]
-    },
-    {
-      "url_path": "/services/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Corona | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Corona",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Corona and surrounding areas. Licensed and insured plumbing and HVAC pros, upfront pricing, free estimates. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line corona",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/canyon-lake-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/chino-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/chino-hills-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/claremont-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/diamond-bar-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/eastvale-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/fontana-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/french-valley-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/fullerton-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/hemet-ca/camera-inspections-of-drain-and-sewer-line/"
-      ]
-    },
-    {
-      "url_path": "/services/common-plumbing-emergencies/",
-      "archetype": "service-landing",
-      "vars_keys": [
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Corona | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Corona",
-      "meta_description": "Trusted common plumbing emergencies in Corona and surrounding areas. Licensed and insured plumbing and HVAC pros, upfront pricing, free estimates. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies corona",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 1100,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 4.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/",
-        "/contact/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
-        "/service-areas/canyon-lake-ca/common-plumbing-emergencies/",
-        "/service-areas/chino-ca/common-plumbing-emergencies/",
-        "/service-areas/chino-hills-ca/common-plumbing-emergencies/",
-        "/service-areas/claremont-ca/common-plumbing-emergencies/",
-        "/service-areas/diamond-bar-ca/common-plumbing-emergencies/",
-        "/service-areas/eastvale-ca/common-plumbing-emergencies/",
-        "/service-areas/fontana-ca/common-plumbing-emergencies/",
-        "/service-areas/french-valley-ca/common-plumbing-emergencies/",
-        "/service-areas/fullerton-ca/common-plumbing-emergencies/",
-        "/service-areas/hemet-ca/common-plumbing-emergencies/"
       ]
     },
     {
@@ -4449,44 +4317,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/riverside-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Riverside, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Riverside",
-      "meta_description": "Trusted air duct cleaning service in Riverside, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service riverside",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/riverside-ca/",
-        "/service-areas/riverside-ca/ac-repair/",
-        "/service-areas/riverside-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/riverside-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -4559,82 +4389,6 @@
         "/service-areas/riverside-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/riverside-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Riverside, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Riverside",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Riverside, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line riverside",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/riverside-ca/",
-        "/service-areas/riverside-ca/ac-repair/",
-        "/service-areas/riverside-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/riverside-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Riverside, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Riverside",
-      "meta_description": "Trusted common plumbing emergencies in Riverside, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies riverside",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/riverside-ca/",
-        "/service-areas/riverside-ca/ac-repair/",
-        "/service-areas/riverside-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -5433,44 +5187,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Anaheim, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Anaheim",
-      "meta_description": "Trusted air duct cleaning service in Anaheim, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service anaheim",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/anaheim-ca/",
-        "/service-areas/anaheim-ca/ac-repair/",
-        "/service-areas/anaheim-ca/drain-cleaning/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/service-areas/canyon-lake-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/anaheim-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -5543,82 +5259,6 @@
         "/service-areas/anaheim-ca/drain-cleaning/",
         "/service-areas/bloomington-ca/attic-insulation/",
         "/service-areas/canyon-lake-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Anaheim, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Anaheim",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Anaheim, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line anaheim",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/anaheim-ca/",
-        "/service-areas/anaheim-ca/ac-repair/",
-        "/service-areas/anaheim-ca/drain-cleaning/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/canyon-lake-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Anaheim, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Anaheim",
-      "meta_description": "Trusted common plumbing emergencies in Anaheim, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies anaheim",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/anaheim-ca/",
-        "/service-areas/anaheim-ca/ac-repair/",
-        "/service-areas/anaheim-ca/drain-cleaning/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
-        "/service-areas/canyon-lake-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -6417,44 +6057,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/santa-ana-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Santa Ana, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Santa Ana",
-      "meta_description": "Trusted air duct cleaning service in Santa Ana, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service santa ana",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/santa-ana-ca/",
-        "/service-areas/santa-ana-ca/ac-repair/",
-        "/service-areas/santa-ana-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/santa-ana-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -6527,82 +6129,6 @@
         "/service-areas/santa-ana-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/santa-ana-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Santa Ana, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Santa Ana",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Santa Ana, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line santa ana",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/santa-ana-ca/",
-        "/service-areas/santa-ana-ca/ac-repair/",
-        "/service-areas/santa-ana-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/santa-ana-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Santa Ana, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Santa Ana",
-      "meta_description": "Trusted common plumbing emergencies in Santa Ana, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies santa ana",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/santa-ana-ca/",
-        "/service-areas/santa-ana-ca/ac-repair/",
-        "/service-areas/santa-ana-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -7401,44 +6927,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/fullerton-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Fullerton, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Fullerton",
-      "meta_description": "Trusted air duct cleaning service in Fullerton, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service fullerton",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/fullerton-ca/",
-        "/service-areas/fullerton-ca/ac-repair/",
-        "/service-areas/fullerton-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/fullerton-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -7511,82 +6999,6 @@
         "/service-areas/fullerton-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/fullerton-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Fullerton, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Fullerton",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Fullerton, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line fullerton",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/fullerton-ca/",
-        "/service-areas/fullerton-ca/ac-repair/",
-        "/service-areas/fullerton-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/fullerton-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Fullerton, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Fullerton",
-      "meta_description": "Trusted common plumbing emergencies in Fullerton, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies fullerton",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/fullerton-ca/",
-        "/service-areas/fullerton-ca/ac-repair/",
-        "/service-areas/fullerton-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -8385,44 +7797,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/ontario-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Ontario, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Ontario",
-      "meta_description": "Trusted air duct cleaning service in Ontario, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service ontario",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/ontario-ca/",
-        "/service-areas/ontario-ca/ac-repair/",
-        "/service-areas/ontario-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/ontario-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -8495,82 +7869,6 @@
         "/service-areas/ontario-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/ontario-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Ontario, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Ontario",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Ontario, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line ontario",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/ontario-ca/",
-        "/service-areas/ontario-ca/ac-repair/",
-        "/service-areas/ontario-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/ontario-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Ontario, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Ontario",
-      "meta_description": "Trusted common plumbing emergencies in Ontario, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies ontario",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/ontario-ca/",
-        "/service-areas/ontario-ca/ac-repair/",
-        "/service-areas/ontario-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -9369,44 +8667,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/chino-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Chino, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Chino",
-      "meta_description": "Trusted air duct cleaning service in Chino, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service chino",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/chino-ca/",
-        "/service-areas/chino-ca/ac-repair/",
-        "/service-areas/chino-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/chino-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -9479,82 +8739,6 @@
         "/service-areas/chino-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/chino-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Chino, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Chino",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Chino, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line chino",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/chino-ca/",
-        "/service-areas/chino-ca/ac-repair/",
-        "/service-areas/chino-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/chino-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Chino, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Chino",
-      "meta_description": "Trusted common plumbing emergencies in Chino, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies chino",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/chino-ca/",
-        "/service-areas/chino-ca/ac-repair/",
-        "/service-areas/chino-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -10353,44 +9537,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/norco-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Norco, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Norco",
-      "meta_description": "Trusted air duct cleaning service in Norco, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service norco",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/norco-ca/",
-        "/service-areas/norco-ca/ac-repair/",
-        "/service-areas/norco-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/norco-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -10463,82 +9609,6 @@
         "/service-areas/norco-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/norco-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Norco, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Norco",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Norco, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line norco",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/norco-ca/",
-        "/service-areas/norco-ca/ac-repair/",
-        "/service-areas/norco-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/norco-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Norco, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Norco",
-      "meta_description": "Trusted common plumbing emergencies in Norco, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies norco",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/norco-ca/",
-        "/service-areas/norco-ca/ac-repair/",
-        "/service-areas/norco-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -11337,44 +10407,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/yorba-linda-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Yorba Linda, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Yorba Linda",
-      "meta_description": "Trusted air duct cleaning service in Yorba Linda, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service yorba linda",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/yorba-linda-ca/",
-        "/service-areas/yorba-linda-ca/ac-repair/",
-        "/service-areas/yorba-linda-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/yorba-linda-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -11447,82 +10479,6 @@
         "/service-areas/yorba-linda-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/yorba-linda-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Yorba Linda, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Yorba Linda",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Yorba Linda, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line yorba linda",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/yorba-linda-ca/",
-        "/service-areas/yorba-linda-ca/ac-repair/",
-        "/service-areas/yorba-linda-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/yorba-linda-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Yorba Linda, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Yorba Linda",
-      "meta_description": "Trusted common plumbing emergencies in Yorba Linda, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies yorba linda",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/yorba-linda-ca/",
-        "/service-areas/yorba-linda-ca/ac-repair/",
-        "/service-areas/yorba-linda-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -12321,44 +11277,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/eastvale-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Eastvale, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Eastvale",
-      "meta_description": "Trusted air duct cleaning service in Eastvale, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service eastvale",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/eastvale-ca/",
-        "/service-areas/eastvale-ca/ac-repair/",
-        "/service-areas/eastvale-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/eastvale-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -12431,82 +11349,6 @@
         "/service-areas/eastvale-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/eastvale-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Eastvale, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Eastvale",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Eastvale, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line eastvale",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/eastvale-ca/",
-        "/service-areas/eastvale-ca/ac-repair/",
-        "/service-areas/eastvale-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/eastvale-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Eastvale, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Eastvale",
-      "meta_description": "Trusted common plumbing emergencies in Eastvale, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies eastvale",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/eastvale-ca/",
-        "/service-areas/eastvale-ca/ac-repair/",
-        "/service-areas/eastvale-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -13305,44 +12147,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lake-elsinore-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Lake Elsinore, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Lake Elsinore",
-      "meta_description": "Trusted air duct cleaning service in Lake Elsinore, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service lake elsinore",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/lake-elsinore-ca/",
-        "/service-areas/lake-elsinore-ca/ac-repair/",
-        "/service-areas/lake-elsinore-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lake-elsinore-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -13415,82 +12219,6 @@
         "/service-areas/lake-elsinore-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lake-elsinore-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Lake Elsinore, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Lake Elsinore",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Lake Elsinore, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line lake elsinore",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/lake-elsinore-ca/",
-        "/service-areas/lake-elsinore-ca/ac-repair/",
-        "/service-areas/lake-elsinore-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lake-elsinore-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Lake Elsinore, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Lake Elsinore",
-      "meta_description": "Trusted common plumbing emergencies in Lake Elsinore, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies lake elsinore",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/lake-elsinore-ca/",
-        "/service-areas/lake-elsinore-ca/ac-repair/",
-        "/service-areas/lake-elsinore-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -14289,44 +13017,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/jurupa-valley-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Jurupa Valley, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Jurupa Valley",
-      "meta_description": "Trusted air duct cleaning service in Jurupa Valley, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service jurupa valley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/jurupa-valley-ca/",
-        "/service-areas/jurupa-valley-ca/ac-repair/",
-        "/service-areas/jurupa-valley-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/jurupa-valley-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -14399,82 +13089,6 @@
         "/service-areas/jurupa-valley-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/jurupa-valley-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Jurupa Valley, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Jurupa Valley",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Jurupa Valley, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line jurupa valley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/jurupa-valley-ca/",
-        "/service-areas/jurupa-valley-ca/ac-repair/",
-        "/service-areas/jurupa-valley-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/jurupa-valley-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Jurupa Valley, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Jurupa Valley",
-      "meta_description": "Trusted common plumbing emergencies in Jurupa Valley, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies jurupa valley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/jurupa-valley-ca/",
-        "/service-areas/jurupa-valley-ca/ac-repair/",
-        "/service-areas/jurupa-valley-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -15273,44 +13887,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/mira-loma-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Mira Loma, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Mira Loma",
-      "meta_description": "Trusted air duct cleaning service in Mira Loma, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service mira loma",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/mira-loma-ca/",
-        "/service-areas/mira-loma-ca/ac-repair/",
-        "/service-areas/mira-loma-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/mira-loma-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -15383,82 +13959,6 @@
         "/service-areas/mira-loma-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/mira-loma-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Mira Loma, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Mira Loma",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Mira Loma, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line mira loma",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/mira-loma-ca/",
-        "/service-areas/mira-loma-ca/ac-repair/",
-        "/service-areas/mira-loma-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/mira-loma-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Mira Loma, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Mira Loma",
-      "meta_description": "Trusted common plumbing emergencies in Mira Loma, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies mira loma",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/mira-loma-ca/",
-        "/service-areas/mira-loma-ca/ac-repair/",
-        "/service-areas/mira-loma-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -16257,44 +14757,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/wildomar-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Wildomar, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Wildomar",
-      "meta_description": "Trusted air duct cleaning service in Wildomar, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service wildomar",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/wildomar-ca/",
-        "/service-areas/wildomar-ca/ac-repair/",
-        "/service-areas/wildomar-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/wildomar-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -16367,82 +14829,6 @@
         "/service-areas/wildomar-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/wildomar-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Wildomar, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Wildomar",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Wildomar, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line wildomar",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/wildomar-ca/",
-        "/service-areas/wildomar-ca/ac-repair/",
-        "/service-areas/wildomar-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/wildomar-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Wildomar, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Wildomar",
-      "meta_description": "Trusted common plumbing emergencies in Wildomar, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies wildomar",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/wildomar-ca/",
-        "/service-areas/wildomar-ca/ac-repair/",
-        "/service-areas/wildomar-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -17241,44 +15627,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/temecula-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Temecula, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Temecula",
-      "meta_description": "Trusted air duct cleaning service in Temecula, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service temecula",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/temecula-ca/",
-        "/service-areas/temecula-ca/ac-repair/",
-        "/service-areas/temecula-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/temecula-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -17351,82 +15699,6 @@
         "/service-areas/temecula-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/temecula-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Temecula, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Temecula",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Temecula, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line temecula",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/temecula-ca/",
-        "/service-areas/temecula-ca/ac-repair/",
-        "/service-areas/temecula-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/temecula-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Temecula, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Temecula",
-      "meta_description": "Trusted common plumbing emergencies in Temecula, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies temecula",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/temecula-ca/",
-        "/service-areas/temecula-ca/ac-repair/",
-        "/service-areas/temecula-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -18225,44 +16497,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/murrieta-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Murrieta, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Murrieta",
-      "meta_description": "Trusted air duct cleaning service in Murrieta, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service murrieta",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/murrieta-ca/",
-        "/service-areas/murrieta-ca/ac-repair/",
-        "/service-areas/murrieta-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/murrieta-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -18335,82 +16569,6 @@
         "/service-areas/murrieta-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/murrieta-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Murrieta, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Murrieta",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Murrieta, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line murrieta",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/murrieta-ca/",
-        "/service-areas/murrieta-ca/ac-repair/",
-        "/service-areas/murrieta-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/murrieta-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Murrieta, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Murrieta",
-      "meta_description": "Trusted common plumbing emergencies in Murrieta, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies murrieta",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/murrieta-ca/",
-        "/service-areas/murrieta-ca/ac-repair/",
-        "/service-areas/murrieta-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -19209,44 +17367,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/menifee-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Menifee, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Menifee",
-      "meta_description": "Trusted air duct cleaning service in Menifee, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service menifee",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/menifee-ca/",
-        "/service-areas/menifee-ca/ac-repair/",
-        "/service-areas/menifee-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/menifee-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -19319,82 +17439,6 @@
         "/service-areas/menifee-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/menifee-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Menifee, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Menifee",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Menifee, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line menifee",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/menifee-ca/",
-        "/service-areas/menifee-ca/ac-repair/",
-        "/service-areas/menifee-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/menifee-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Menifee, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Menifee",
-      "meta_description": "Trusted common plumbing emergencies in Menifee, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies menifee",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/menifee-ca/",
-        "/service-areas/menifee-ca/ac-repair/",
-        "/service-areas/menifee-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -20193,44 +18237,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/canyon-lake-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Canyon Lake, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Canyon Lake",
-      "meta_description": "Trusted air duct cleaning service in Canyon Lake, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service canyon lake",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/canyon-lake-ca/",
-        "/service-areas/canyon-lake-ca/ac-repair/",
-        "/service-areas/canyon-lake-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/canyon-lake-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -20303,82 +18309,6 @@
         "/service-areas/canyon-lake-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/canyon-lake-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Canyon Lake, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Canyon Lake",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Canyon Lake, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line canyon lake",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/canyon-lake-ca/",
-        "/service-areas/canyon-lake-ca/ac-repair/",
-        "/service-areas/canyon-lake-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/canyon-lake-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Canyon Lake, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Canyon Lake",
-      "meta_description": "Trusted common plumbing emergencies in Canyon Lake, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies canyon lake",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/canyon-lake-ca/",
-        "/service-areas/canyon-lake-ca/ac-repair/",
-        "/service-areas/canyon-lake-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -21177,44 +19107,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/sun-city-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Sun City, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Sun City",
-      "meta_description": "Trusted air duct cleaning service in Sun City, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service sun city",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/sun-city-ca/",
-        "/service-areas/sun-city-ca/ac-repair/",
-        "/service-areas/sun-city-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/sun-city-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -21287,82 +19179,6 @@
         "/service-areas/sun-city-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sun-city-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Sun City, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Sun City",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Sun City, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line sun city",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/sun-city-ca/",
-        "/service-areas/sun-city-ca/ac-repair/",
-        "/service-areas/sun-city-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/sun-city-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Sun City, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Sun City",
-      "meta_description": "Trusted common plumbing emergencies in Sun City, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies sun city",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/sun-city-ca/",
-        "/service-areas/sun-city-ca/ac-repair/",
-        "/service-areas/sun-city-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -22161,44 +19977,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/french-valley-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in French Valley, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in French Valley",
-      "meta_description": "Trusted air duct cleaning service in French Valley, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service french valley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/french-valley-ca/",
-        "/service-areas/french-valley-ca/ac-repair/",
-        "/service-areas/french-valley-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/french-valley-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -22271,82 +20049,6 @@
         "/service-areas/french-valley-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/french-valley-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in French Valley, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in French Valley",
-      "meta_description": "Trusted camera inspections of drain and sewer line in French Valley, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line french valley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/french-valley-ca/",
-        "/service-areas/french-valley-ca/ac-repair/",
-        "/service-areas/french-valley-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/french-valley-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in French Valley, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in French Valley",
-      "meta_description": "Trusted common plumbing emergencies in French Valley, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies french valley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/french-valley-ca/",
-        "/service-areas/french-valley-ca/ac-repair/",
-        "/service-areas/french-valley-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -23145,44 +20847,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/winchester-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Winchester, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Winchester",
-      "meta_description": "Trusted air duct cleaning service in Winchester, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service winchester",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/winchester-ca/",
-        "/service-areas/winchester-ca/ac-repair/",
-        "/service-areas/winchester-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/winchester-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -23255,82 +20919,6 @@
         "/service-areas/winchester-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/winchester-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Winchester, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Winchester",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Winchester, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line winchester",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/winchester-ca/",
-        "/service-areas/winchester-ca/ac-repair/",
-        "/service-areas/winchester-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/winchester-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Winchester, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Winchester",
-      "meta_description": "Trusted common plumbing emergencies in Winchester, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies winchester",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/winchester-ca/",
-        "/service-areas/winchester-ca/ac-repair/",
-        "/service-areas/winchester-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -24129,44 +21717,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/ontario-ranch-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Ontario Ranch, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Ontario Ranch",
-      "meta_description": "Trusted air duct cleaning service in Ontario Ranch, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service ontario ranch",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/ontario-ranch-ca/",
-        "/service-areas/ontario-ranch-ca/ac-repair/",
-        "/service-areas/ontario-ranch-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/ontario-ranch-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -24239,82 +21789,6 @@
         "/service-areas/ontario-ranch-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/ontario-ranch-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Ontario Ranch, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Ontario Ranch",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Ontario Ranch, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line ontario ranch",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/ontario-ranch-ca/",
-        "/service-areas/ontario-ranch-ca/ac-repair/",
-        "/service-areas/ontario-ranch-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/ontario-ranch-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Ontario Ranch, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Ontario Ranch",
-      "meta_description": "Trusted common plumbing emergencies in Ontario Ranch, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies ontario ranch",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/ontario-ranch-ca/",
-        "/service-areas/ontario-ranch-ca/ac-repair/",
-        "/service-areas/ontario-ranch-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -25113,44 +22587,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/chino-hills-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Chino Hills, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Chino Hills",
-      "meta_description": "Trusted air duct cleaning service in Chino Hills, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service chino hills",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/chino-hills-ca/",
-        "/service-areas/chino-hills-ca/ac-repair/",
-        "/service-areas/chino-hills-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/chino-hills-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -25223,82 +22659,6 @@
         "/service-areas/chino-hills-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/chino-hills-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Chino Hills, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Chino Hills",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Chino Hills, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line chino hills",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/chino-hills-ca/",
-        "/service-areas/chino-hills-ca/ac-repair/",
-        "/service-areas/chino-hills-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/chino-hills-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Chino Hills, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Chino Hills",
-      "meta_description": "Trusted common plumbing emergencies in Chino Hills, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies chino hills",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/chino-hills-ca/",
-        "/service-areas/chino-hills-ca/ac-repair/",
-        "/service-areas/chino-hills-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -26097,44 +23457,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/fontana-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Fontana, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Fontana",
-      "meta_description": "Trusted air duct cleaning service in Fontana, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service fontana",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/fontana-ca/",
-        "/service-areas/fontana-ca/ac-repair/",
-        "/service-areas/fontana-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/fontana-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -26207,82 +23529,6 @@
         "/service-areas/fontana-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/fontana-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Fontana, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Fontana",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Fontana, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line fontana",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/fontana-ca/",
-        "/service-areas/fontana-ca/ac-repair/",
-        "/service-areas/fontana-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/fontana-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Fontana, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Fontana",
-      "meta_description": "Trusted common plumbing emergencies in Fontana, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies fontana",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/fontana-ca/",
-        "/service-areas/fontana-ca/ac-repair/",
-        "/service-areas/fontana-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -27081,44 +24327,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/upland-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Upland, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Upland",
-      "meta_description": "Trusted air duct cleaning service in Upland, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service upland",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/upland-ca/",
-        "/service-areas/upland-ca/ac-repair/",
-        "/service-areas/upland-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/upland-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -27191,82 +24399,6 @@
         "/service-areas/upland-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/upland-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Upland, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Upland",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Upland, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line upland",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/upland-ca/",
-        "/service-areas/upland-ca/ac-repair/",
-        "/service-areas/upland-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/upland-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Upland, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Upland",
-      "meta_description": "Trusted common plumbing emergencies in Upland, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies upland",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/upland-ca/",
-        "/service-areas/upland-ca/ac-repair/",
-        "/service-areas/upland-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -28065,44 +25197,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/claremont-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Claremont, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Claremont",
-      "meta_description": "Trusted air duct cleaning service in Claremont, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service claremont",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/claremont-ca/",
-        "/service-areas/claremont-ca/ac-repair/",
-        "/service-areas/claremont-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/claremont-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -28175,82 +25269,6 @@
         "/service-areas/claremont-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/claremont-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Claremont, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Claremont",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Claremont, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line claremont",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/claremont-ca/",
-        "/service-areas/claremont-ca/ac-repair/",
-        "/service-areas/claremont-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/claremont-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Claremont, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Claremont",
-      "meta_description": "Trusted common plumbing emergencies in Claremont, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies claremont",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/claremont-ca/",
-        "/service-areas/claremont-ca/ac-repair/",
-        "/service-areas/claremont-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -29049,44 +26067,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/pomona-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Pomona, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Pomona",
-      "meta_description": "Trusted air duct cleaning service in Pomona, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service pomona",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/pomona-ca/",
-        "/service-areas/pomona-ca/ac-repair/",
-        "/service-areas/pomona-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/pomona-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -29159,82 +26139,6 @@
         "/service-areas/pomona-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/pomona-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Pomona, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Pomona",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Pomona, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line pomona",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/pomona-ca/",
-        "/service-areas/pomona-ca/ac-repair/",
-        "/service-areas/pomona-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/pomona-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Pomona, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Pomona",
-      "meta_description": "Trusted common plumbing emergencies in Pomona, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies pomona",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/pomona-ca/",
-        "/service-areas/pomona-ca/ac-repair/",
-        "/service-areas/pomona-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -30033,44 +26937,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/montclair-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Montclair, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Montclair",
-      "meta_description": "Trusted air duct cleaning service in Montclair, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service montclair",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/montclair-ca/",
-        "/service-areas/montclair-ca/ac-repair/",
-        "/service-areas/montclair-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/montclair-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -30143,82 +27009,6 @@
         "/service-areas/montclair-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/montclair-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Montclair, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Montclair",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Montclair, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line montclair",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/montclair-ca/",
-        "/service-areas/montclair-ca/ac-repair/",
-        "/service-areas/montclair-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/montclair-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Montclair, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Montclair",
-      "meta_description": "Trusted common plumbing emergencies in Montclair, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies montclair",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/montclair-ca/",
-        "/service-areas/montclair-ca/ac-repair/",
-        "/service-areas/montclair-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -31017,44 +27807,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Bloomington, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Bloomington",
-      "meta_description": "Trusted air duct cleaning service in Bloomington, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service bloomington",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/",
-        "/service-areas/bloomington-ca/ac-repair/",
-        "/service-areas/bloomington-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/canyon-lake-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/bloomington-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -31127,82 +27879,6 @@
         "/service-areas/bloomington-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/canyon-lake-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Bloomington, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Bloomington",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Bloomington, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line bloomington",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/",
-        "/service-areas/bloomington-ca/ac-repair/",
-        "/service-areas/bloomington-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/canyon-lake-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/bloomington-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Bloomington, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Bloomington",
-      "meta_description": "Trusted common plumbing emergencies in Bloomington, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies bloomington",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/",
-        "/service-areas/bloomington-ca/ac-repair/",
-        "/service-areas/bloomington-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/canyon-lake-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -32001,44 +28677,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/rialto-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Rialto, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Rialto",
-      "meta_description": "Trusted air duct cleaning service in Rialto, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service rialto",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/rialto-ca/",
-        "/service-areas/rialto-ca/ac-repair/",
-        "/service-areas/rialto-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/rialto-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -32111,82 +28749,6 @@
         "/service-areas/rialto-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/rialto-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Rialto, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Rialto",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Rialto, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line rialto",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/rialto-ca/",
-        "/service-areas/rialto-ca/ac-repair/",
-        "/service-areas/rialto-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/rialto-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Rialto, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Rialto",
-      "meta_description": "Trusted common plumbing emergencies in Rialto, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies rialto",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/rialto-ca/",
-        "/service-areas/rialto-ca/ac-repair/",
-        "/service-areas/rialto-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -32985,44 +29547,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/diamond-bar-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Diamond Bar, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Diamond Bar",
-      "meta_description": "Trusted air duct cleaning service in Diamond Bar, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service diamond bar",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/diamond-bar-ca/",
-        "/service-areas/diamond-bar-ca/ac-repair/",
-        "/service-areas/diamond-bar-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/diamond-bar-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -33095,82 +29619,6 @@
         "/service-areas/diamond-bar-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/diamond-bar-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Diamond Bar, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Diamond Bar",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Diamond Bar, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line diamond bar",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/diamond-bar-ca/",
-        "/service-areas/diamond-bar-ca/ac-repair/",
-        "/service-areas/diamond-bar-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/diamond-bar-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Diamond Bar, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Diamond Bar",
-      "meta_description": "Trusted common plumbing emergencies in Diamond Bar, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies diamond bar",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/diamond-bar-ca/",
-        "/service-areas/diamond-bar-ca/ac-repair/",
-        "/service-areas/diamond-bar-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -33969,44 +30417,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/san-bernardino-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in San Bernardino, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in San Bernardino",
-      "meta_description": "Trusted air duct cleaning service in San Bernardino, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service san bernardino",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/san-bernardino-ca/",
-        "/service-areas/san-bernardino-ca/ac-repair/",
-        "/service-areas/san-bernardino-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/san-bernardino-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -34079,82 +30489,6 @@
         "/service-areas/san-bernardino-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/san-bernardino-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in San Bernardino, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in San Bernardino",
-      "meta_description": "Trusted camera inspections of drain and sewer line in San Bernardino, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line san bernardino",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/san-bernardino-ca/",
-        "/service-areas/san-bernardino-ca/ac-repair/",
-        "/service-areas/san-bernardino-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/san-bernardino-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in San Bernardino, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in San Bernardino",
-      "meta_description": "Trusted common plumbing emergencies in San Bernardino, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies san bernardino",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/san-bernardino-ca/",
-        "/service-areas/san-bernardino-ca/ac-repair/",
-        "/service-areas/san-bernardino-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -34953,44 +31287,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/hemet-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Hemet, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Hemet",
-      "meta_description": "Trusted air duct cleaning service in Hemet, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service hemet",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/hemet-ca/",
-        "/service-areas/hemet-ca/ac-repair/",
-        "/service-areas/hemet-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/hemet-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -35063,82 +31359,6 @@
         "/service-areas/hemet-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/hemet-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Hemet, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Hemet",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Hemet, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line hemet",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/hemet-ca/",
-        "/service-areas/hemet-ca/ac-repair/",
-        "/service-areas/hemet-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/hemet-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Hemet, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Hemet",
-      "meta_description": "Trusted common plumbing emergencies in Hemet, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies hemet",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/hemet-ca/",
-        "/service-areas/hemet-ca/ac-repair/",
-        "/service-areas/hemet-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -35937,44 +32157,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/san-jacinto-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in San Jacinto, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in San Jacinto",
-      "meta_description": "Trusted air duct cleaning service in San Jacinto, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service san jacinto",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/san-jacinto-ca/",
-        "/service-areas/san-jacinto-ca/ac-repair/",
-        "/service-areas/san-jacinto-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/san-jacinto-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -36047,82 +32229,6 @@
         "/service-areas/san-jacinto-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/san-jacinto-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in San Jacinto, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in San Jacinto",
-      "meta_description": "Trusted camera inspections of drain and sewer line in San Jacinto, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line san jacinto",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/san-jacinto-ca/",
-        "/service-areas/san-jacinto-ca/ac-repair/",
-        "/service-areas/san-jacinto-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/san-jacinto-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in San Jacinto, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in San Jacinto",
-      "meta_description": "Trusted common plumbing emergencies in San Jacinto, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies san jacinto",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/san-jacinto-ca/",
-        "/service-areas/san-jacinto-ca/ac-repair/",
-        "/service-areas/san-jacinto-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -36921,44 +33027,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/silverado-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Silverado, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Silverado",
-      "meta_description": "Trusted air duct cleaning service in Silverado, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service silverado",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/silverado-ca/",
-        "/service-areas/silverado-ca/ac-repair/",
-        "/service-areas/silverado-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/silverado-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -37031,82 +33099,6 @@
         "/service-areas/silverado-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/silverado-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Silverado, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Silverado",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Silverado, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line silverado",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/silverado-ca/",
-        "/service-areas/silverado-ca/ac-repair/",
-        "/service-areas/silverado-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/silverado-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Silverado, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Silverado",
-      "meta_description": "Trusted common plumbing emergencies in Silverado, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies silverado",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/silverado-ca/",
-        "/service-areas/silverado-ca/ac-repair/",
-        "/service-areas/silverado-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -37905,44 +33897,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/temescal-valley-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Temescal Valley, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Temescal Valley",
-      "meta_description": "Trusted air duct cleaning service in Temescal Valley, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service temescal valley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/temescal-valley-ca/",
-        "/service-areas/temescal-valley-ca/ac-repair/",
-        "/service-areas/temescal-valley-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/temescal-valley-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -38015,82 +33969,6 @@
         "/service-areas/temescal-valley-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/temescal-valley-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Temescal Valley, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Temescal Valley",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Temescal Valley, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line temescal valley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/temescal-valley-ca/",
-        "/service-areas/temescal-valley-ca/ac-repair/",
-        "/service-areas/temescal-valley-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/temescal-valley-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Temescal Valley, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Temescal Valley",
-      "meta_description": "Trusted common plumbing emergencies in Temescal Valley, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies temescal valley",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/temescal-valley-ca/",
-        "/service-areas/temescal-valley-ca/ac-repair/",
-        "/service-areas/temescal-valley-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -38889,44 +34767,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/lake-mathews-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Lake Mathews, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Lake Mathews",
-      "meta_description": "Trusted air duct cleaning service in Lake Mathews, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service lake mathews",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/lake-mathews-ca/",
-        "/service-areas/lake-mathews-ca/ac-repair/",
-        "/service-areas/lake-mathews-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/lake-mathews-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -38999,82 +34839,6 @@
         "/service-areas/lake-mathews-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lake-mathews-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Lake Mathews, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Lake Mathews",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Lake Mathews, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line lake mathews",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/lake-mathews-ca/",
-        "/service-areas/lake-mathews-ca/ac-repair/",
-        "/service-areas/lake-mathews-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/lake-mathews-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Lake Mathews, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Lake Mathews",
-      "meta_description": "Trusted common plumbing emergencies in Lake Mathews, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies lake mathews",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/lake-mathews-ca/",
-        "/service-areas/lake-mathews-ca/ac-repair/",
-        "/service-areas/lake-mathews-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -39873,44 +35637,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/woodcrest-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Woodcrest, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Woodcrest",
-      "meta_description": "Trusted air duct cleaning service in Woodcrest, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service woodcrest",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/woodcrest-ca/",
-        "/service-areas/woodcrest-ca/ac-repair/",
-        "/service-areas/woodcrest-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/woodcrest-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -39983,82 +35709,6 @@
         "/service-areas/woodcrest-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/woodcrest-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Woodcrest, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Woodcrest",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Woodcrest, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line woodcrest",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/woodcrest-ca/",
-        "/service-areas/woodcrest-ca/ac-repair/",
-        "/service-areas/woodcrest-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/woodcrest-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Woodcrest, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Woodcrest",
-      "meta_description": "Trusted common plumbing emergencies in Woodcrest, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies woodcrest",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/woodcrest-ca/",
-        "/service-areas/woodcrest-ca/ac-repair/",
-        "/service-areas/woodcrest-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -40857,44 +36507,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/trabuco-canyon-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Trabuco Canyon, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Trabuco Canyon",
-      "meta_description": "Trusted air duct cleaning service in Trabuco Canyon, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service trabuco canyon",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/trabuco-canyon-ca/",
-        "/service-areas/trabuco-canyon-ca/ac-repair/",
-        "/service-areas/trabuco-canyon-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/trabuco-canyon-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -40967,82 +36579,6 @@
         "/service-areas/trabuco-canyon-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/trabuco-canyon-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Trabuco Canyon, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Trabuco Canyon",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Trabuco Canyon, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line trabuco canyon",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/trabuco-canyon-ca/",
-        "/service-areas/trabuco-canyon-ca/ac-repair/",
-        "/service-areas/trabuco-canyon-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/trabuco-canyon-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Trabuco Canyon, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Trabuco Canyon",
-      "meta_description": "Trusted common plumbing emergencies in Trabuco Canyon, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies trabuco canyon",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/trabuco-canyon-ca/",
-        "/service-areas/trabuco-canyon-ca/ac-repair/",
-        "/service-areas/trabuco-canyon-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -41841,44 +37377,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/north-tustin-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in North Tustin, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in North Tustin",
-      "meta_description": "Trusted air duct cleaning service in North Tustin, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service north tustin",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/north-tustin-ca/",
-        "/service-areas/north-tustin-ca/ac-repair/",
-        "/service-areas/north-tustin-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/north-tustin-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -41951,82 +37449,6 @@
         "/service-areas/north-tustin-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/north-tustin-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in North Tustin, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in North Tustin",
-      "meta_description": "Trusted camera inspections of drain and sewer line in North Tustin, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line north tustin",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/north-tustin-ca/",
-        "/service-areas/north-tustin-ca/ac-repair/",
-        "/service-areas/north-tustin-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/north-tustin-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in North Tustin, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in North Tustin",
-      "meta_description": "Trusted common plumbing emergencies in North Tustin, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies north tustin",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/north-tustin-ca/",
-        "/service-areas/north-tustin-ca/ac-repair/",
-        "/service-areas/north-tustin-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },
@@ -42825,44 +38247,6 @@
       ]
     },
     {
-      "url_path": "/service-areas/villa-park-ca/air-duct-cleaning-service/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Air Duct Cleaning Service in Villa Park, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Air Duct Cleaning Service in Villa Park",
-      "meta_description": "Trusted air duct cleaning service in Villa Park, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "air duct cleaning service villa park",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/air-duct-cleaning-service/",
-        "/service-areas/villa-park-ca/",
-        "/service-areas/villa-park-ca/ac-repair/",
-        "/service-areas/villa-park-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/air-duct-cleaning-service/",
-        "/service-areas/bloomington-ca/air-duct-cleaning-service/",
-        "/contact/"
-      ]
-    },
-    {
       "url_path": "/service-areas/villa-park-ca/all-plumbing-services/",
       "archetype": "service-area-service",
       "vars_keys": [
@@ -42935,82 +38319,6 @@
         "/service-areas/villa-park-ca/drain-cleaning/",
         "/service-areas/anaheim-ca/attic-insulation/",
         "/service-areas/bloomington-ca/attic-insulation/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/villa-park-ca/camera-inspections-of-drain-and-sewer-line/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Camera Inspections of Drain and Sewer Line in Villa Park, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Camera Inspections of Drain and Sewer Line in Villa Park",
-      "meta_description": "Trusted camera inspections of drain and sewer line in Villa Park, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "camera inspections of drain and sewer line villa park",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/villa-park-ca/",
-        "/service-areas/villa-park-ca/ac-repair/",
-        "/service-areas/villa-park-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/service-areas/bloomington-ca/camera-inspections-of-drain-and-sewer-line/",
-        "/contact/"
-      ]
-    },
-    {
-      "url_path": "/service-areas/villa-park-ca/common-plumbing-emergencies/",
-      "archetype": "service-area-service",
-      "vars_keys": [
-        "area",
-        "service"
-      ],
-      "title": "Common Plumbing Emergencies in Villa Park, CA | RT Olson Plumbing, Heating and Air Conditioning",
-      "h1": "Common Plumbing Emergencies in Villa Park",
-      "meta_description": "Trusted common plumbing emergencies in Villa Park, CA. Licensed and insured plumbing and HVAC pros, upfront pricing. Call (951) 344-5596.",
-      "primary_keyword": "common plumbing emergencies villa park",
-      "secondary_keywords": [],
-      "search_intent": "local_specialty",
-      "target_word_count": 900,
-      "image_roles": [
-        "hero",
-        "og",
-        "inline-1",
-        "inline-2"
-      ],
-      "schema_stubs": [
-        "service",
-        "local-business",
-        "faq",
-        "breadcrumb-list"
-      ],
-      "priority": 3.5,
-      "status": "planned",
-      "internal_links_out": [
-        "/services/common-plumbing-emergencies/",
-        "/service-areas/villa-park-ca/",
-        "/service-areas/villa-park-ca/ac-repair/",
-        "/service-areas/villa-park-ca/drain-cleaning/",
-        "/service-areas/anaheim-ca/common-plumbing-emergencies/",
-        "/service-areas/bloomington-ca/common-plumbing-emergencies/",
         "/contact/"
       ]
     },

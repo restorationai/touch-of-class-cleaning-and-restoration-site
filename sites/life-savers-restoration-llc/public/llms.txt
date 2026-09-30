@@ -53,7 +53,7 @@ This file is intended for AI assistants and language models to efficiently inges
 ### Core service pages
 - [Biohazard Cleanup](https://lifesaversrestorationvegas.com/services/biohazard-cleanup/)
 - [Contents Restoration and Storage](https://lifesaversrestorationvegas.com/services/contents-restoration/)
-- [Contents Restoration & Storage](https://lifesaversrestorationvegas.com/services/contents-restoration-storage/)
+- [Contents Restoration & Storage](https://lifesaversrestorationvegas.com/services/contents-restoration/)
 - [Fire Damage Restoration](https://lifesaversrestorationvegas.com/services/fire-damage-restoration/)
 - [Mold Remediation](https://lifesaversrestorationvegas.com/services/mold-remediation/)
 - [Odor Removal and Deodorization](https://lifesaversrestorationvegas.com/services/odor-removal/)

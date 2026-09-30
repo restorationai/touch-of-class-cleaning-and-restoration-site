@@ -1,0 +1,193 @@
+{
+  "slug": "arch-enviornmental-group-llc",
+  "policy": "scripts/site_structure.py (Santino 2026-09-30)",
+  "gbp_services": {
+    "Allergen Testing": {
+      "verdict": "mapped",
+      "page": "allergen-testing",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Asbestos Inspection": {
+      "verdict": "mapped",
+      "page": "asbestos-testing",
+      "source": "claude",
+      "reason": "Matches asbestos testing page",
+      "at": "2026-09-30"
+    },
+    "Asbestos Survey": {
+      "verdict": "mapped",
+      "page": "asbestos-testing",
+      "source": "claude",
+      "reason": "Synonym for asbestos inspection",
+      "at": "2026-09-30"
+    },
+    "Asbestos testing": {
+      "verdict": "mapped",
+      "page": "asbestos-testing",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Clearance Testing and Post-Remediation Verification": {
+      "verdict": "mapped",
+      "page": "clearance-testing",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Environmental Compliance Consulting": {
+      "verdict": "mapped",
+      "page": "compliance-consulting",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Environmental consultant": {
+      "verdict": "mapped",
+      "page": "compliance-consulting",
+      "source": "claude",
+      "reason": "Category label matching compliance consulting service",
+      "at": "2026-09-30"
+    },
+    "Environmental Due Diligence": {
+      "verdict": "mapped",
+      "page": "environmental-site-assessments",
+      "source": "claude",
+      "reason": "Same as site assessment service",
+      "at": "2026-09-30"
+    },
+    "Environmental Site Assessments": {
+      "verdict": "mapped",
+      "page": "environmental-site-assessments",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Hazardous Waste And Superfund": {
+      "verdict": "declined",
+      "page": null,
+      "source": "claude",
+      "head_term": "hazardous waste removal",
+      "volume": {
+        "metro": 0,
+        "metro_label": "Kingsburg, California",
+        "national": {
+          "head": 590,
+          "near_me": 210,
+          "total": 800
+        }
+      },
+      "reason": "distinct but below the volume bar (hazardous waste removal)",
+      "at": "2026-09-30"
+    },
+    "HVAC and Duct System Assessments": {
+      "verdict": "mapped",
+      "page": "hvac-duct-assessments",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Indoor Air Quality Testing": {
+      "verdict": "mapped",
+      "page": "indoor-air-quality-testing",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Lead Paint Inspection": {
+      "verdict": "mapped",
+      "page": "lead-paint-testing",
+      "source": "claude",
+      "reason": "Matches existing lead paint page",
+      "at": "2026-09-30"
+    },
+    "Lead Paint Testing": {
+      "verdict": "mapped",
+      "page": "lead-paint-testing",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Lead Paint Testing and Inspection": {
+      "verdict": "mapped",
+      "page": "lead-paint-testing",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Lead testing": {
+      "verdict": "mapped",
+      "page": "lead-paint-testing",
+      "source": "claude",
+      "reason": "Same as lead paint testing",
+      "at": "2026-09-30"
+    },
+    "Litigation Support and Forensic Sampling": {
+      "verdict": "mapped",
+      "page": "litigation-support-sampling",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Mold Inspection": {
+      "verdict": "mapped",
+      "page": "mold-inspection-testing",
+      "reason": "name containment",
+      "source": "containment",
+      "at": "2026-09-30"
+    },
+    "Mold Inspection and Testing": {
+      "verdict": "mapped",
+      "page": "mold-inspection-testing",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Mold testing": {
+      "verdict": "mapped",
+      "page": "mold-inspection-testing",
+      "source": "claude",
+      "reason": "Direct match to mold page",
+      "at": "2026-09-30"
+    },
+    "Post-Flood Mold Assessment": {
+      "verdict": "mapped",
+      "page": "post-flood-mold-assessment",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Remediation Oversight and Project Management": {
+      "verdict": "mapped",
+      "page": "remediation-oversight",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Sewage Contamination Assessment": {
+      "verdict": "mapped",
+      "page": "sewage-contamination-assessment",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "VOC and Formaldehyde Testing": {
+      "verdict": "mapped",
+      "page": "voc-formaldehyde-testing",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    },
+    "Water Quality Testing": {
+      "verdict": "mapped",
+      "page": "water-quality-testing",
+      "reason": "same name",
+      "source": "exact",
+      "at": "2026-09-30"
+    }
+  },
+  "merged": {},
+  "kept_pairs": []
+}

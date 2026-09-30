@@ -10,7 +10,6 @@
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
     "/services/emergency-plumbing/",
-    "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
     "/services/sewage-cleanup/",
@@ -29,9 +28,7 @@
     "/services/industrial-restoration/",
     "/services/odor-removal/",
     "/services/roof-leak-repair/",
-    "/services/soot-removal/",
     "/services/trauma-scene-cleanup/",
-    "/services/water-heater-flood-cleanup/",
     "/services/water-leak-detection/",
     "/services/appliance-leak-cleanup/",
     "/services/asbestos-abatement/",
@@ -39,12 +36,8 @@
     "/services/hoarding-cleanup/",
     "/services/unattended-death-cleanup/",
     "/services/air-duct-cleaning/",
-    "/services/air-duct-hvac-cleaning/",
-    "/services/basement-sewage-cleanup/",
-    "/services/basement-water-cleanup/",
     "/services/contents-restoration-storage/",
     "/services/crawl-space-encapsulation/",
-    "/services/vandalism-cleanup/",
     "/services/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
@@ -84,7 +77,6 @@
     "/services/water-damage-restoration/",
     "/services/commercial-restoration/",
     "/services/emergency-plumbing/",
-    "/services/emergency-water-removal/",
     "/services/flood-damage-restoration/",
     "/services/reconstruction/",
     "/services/sewage-cleanup/",
@@ -103,9 +95,7 @@
     "/services/industrial-restoration/",
     "/services/odor-removal/",
     "/services/roof-leak-repair/",
-    "/services/soot-removal/",
     "/services/trauma-scene-cleanup/",
-    "/services/water-heater-flood-cleanup/",
     "/services/water-leak-detection/",
     "/services/appliance-leak-cleanup/",
     "/services/asbestos-abatement/",
@@ -113,12 +103,8 @@
     "/services/hoarding-cleanup/",
     "/services/unattended-death-cleanup/",
     "/services/air-duct-cleaning/",
-    "/services/air-duct-hvac-cleaning/",
-    "/services/basement-sewage-cleanup/",
-    "/services/basement-water-cleanup/",
     "/services/contents-restoration-storage/",
     "/services/crawl-space-encapsulation/",
-    "/services/vandalism-cleanup/",
     "/services/post-construction-cleaning/"
   ],
   "/service-areas/": [
@@ -194,22 +180,6 @@
     "/service-areas/kent-wa/air-duct-cleaning/",
     "/service-areas/kirkland-wa/air-duct-cleaning/"
   ],
-  "/services/air-duct-hvac-cleaning/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
-    "/service-areas/bellevue-wa/air-duct-hvac-cleaning/",
-    "/service-areas/bremerton-wa/air-duct-hvac-cleaning/",
-    "/service-areas/burien-wa/air-duct-hvac-cleaning/",
-    "/service-areas/des-moines-wa/air-duct-hvac-cleaning/",
-    "/service-areas/edgewood-wa/air-duct-hvac-cleaning/",
-    "/service-areas/everett-wa/air-duct-hvac-cleaning/",
-    "/service-areas/fife-wa/air-duct-hvac-cleaning/",
-    "/service-areas/gig-harbor-wa/air-duct-hvac-cleaning/",
-    "/service-areas/kent-wa/air-duct-hvac-cleaning/",
-    "/service-areas/kirkland-wa/air-duct-hvac-cleaning/"
-  ],
   "/services/appliance-leak-cleanup/": [
     "/services/",
     "/contact/",
@@ -258,38 +228,6 @@
     "/service-areas/gig-harbor-wa/basement-flooding-cleanup/",
     "/service-areas/kent-wa/basement-flooding-cleanup/",
     "/service-areas/kirkland-wa/basement-flooding-cleanup/"
-  ],
-  "/services/basement-sewage-cleanup/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/service-areas/bellevue-wa/basement-sewage-cleanup/",
-    "/service-areas/bremerton-wa/basement-sewage-cleanup/",
-    "/service-areas/burien-wa/basement-sewage-cleanup/",
-    "/service-areas/des-moines-wa/basement-sewage-cleanup/",
-    "/service-areas/edgewood-wa/basement-sewage-cleanup/",
-    "/service-areas/everett-wa/basement-sewage-cleanup/",
-    "/service-areas/fife-wa/basement-sewage-cleanup/",
-    "/service-areas/gig-harbor-wa/basement-sewage-cleanup/",
-    "/service-areas/kent-wa/basement-sewage-cleanup/",
-    "/service-areas/kirkland-wa/basement-sewage-cleanup/"
-  ],
-  "/services/basement-water-cleanup/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
-    "/service-areas/bellevue-wa/basement-water-cleanup/",
-    "/service-areas/bremerton-wa/basement-water-cleanup/",
-    "/service-areas/burien-wa/basement-water-cleanup/",
-    "/service-areas/des-moines-wa/basement-water-cleanup/",
-    "/service-areas/edgewood-wa/basement-water-cleanup/",
-    "/service-areas/everett-wa/basement-water-cleanup/",
-    "/service-areas/fife-wa/basement-water-cleanup/",
-    "/service-areas/gig-harbor-wa/basement-water-cleanup/",
-    "/service-areas/kent-wa/basement-water-cleanup/",
-    "/service-areas/kirkland-wa/basement-water-cleanup/"
   ],
   "/services/biohazard-cleanup/": [
     "/services/",
@@ -434,22 +372,6 @@
     "/service-areas/gig-harbor-wa/emergency-plumbing/",
     "/service-areas/kent-wa/emergency-plumbing/",
     "/service-areas/kirkland-wa/emergency-plumbing/"
-  ],
-  "/services/emergency-water-removal/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
-    "/service-areas/bellevue-wa/emergency-water-removal/",
-    "/service-areas/bremerton-wa/emergency-water-removal/",
-    "/service-areas/burien-wa/emergency-water-removal/",
-    "/service-areas/des-moines-wa/emergency-water-removal/",
-    "/service-areas/edgewood-wa/emergency-water-removal/",
-    "/service-areas/everett-wa/emergency-water-removal/",
-    "/service-areas/fife-wa/emergency-water-removal/",
-    "/service-areas/gig-harbor-wa/emergency-water-removal/",
-    "/service-areas/kent-wa/emergency-water-removal/",
-    "/service-areas/kirkland-wa/emergency-water-removal/"
   ],
   "/services/fire-damage-restoration/": [
     "/services/",
@@ -716,22 +638,6 @@
     "/blog/fire-damage-restoration-process/",
     "/blog/smoke-odor-removal-techniques/"
   ],
-  "/services/soot-removal/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/service-areas/bellevue-wa/soot-removal/",
-    "/service-areas/bremerton-wa/soot-removal/",
-    "/service-areas/burien-wa/soot-removal/",
-    "/service-areas/des-moines-wa/soot-removal/",
-    "/service-areas/edgewood-wa/soot-removal/",
-    "/service-areas/everett-wa/soot-removal/",
-    "/service-areas/fife-wa/soot-removal/",
-    "/service-areas/gig-harbor-wa/soot-removal/",
-    "/service-areas/kent-wa/soot-removal/",
-    "/service-areas/kirkland-wa/soot-removal/"
-  ],
   "/services/storm-damage-restoration/": [
     "/services/",
     "/contact/",
@@ -781,22 +687,6 @@
     "/service-areas/kent-wa/unattended-death-cleanup/",
     "/service-areas/kirkland-wa/unattended-death-cleanup/"
   ],
-  "/services/vandalism-cleanup/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/service-areas/bellevue-wa/vandalism-cleanup/",
-    "/service-areas/bremerton-wa/vandalism-cleanup/",
-    "/service-areas/burien-wa/vandalism-cleanup/",
-    "/service-areas/des-moines-wa/vandalism-cleanup/",
-    "/service-areas/edgewood-wa/vandalism-cleanup/",
-    "/service-areas/everett-wa/vandalism-cleanup/",
-    "/service-areas/fife-wa/vandalism-cleanup/",
-    "/service-areas/gig-harbor-wa/vandalism-cleanup/",
-    "/service-areas/kent-wa/vandalism-cleanup/",
-    "/service-areas/kirkland-wa/vandalism-cleanup/"
-  ],
   "/services/water-cleanup/": [
     "/services/",
     "/contact/",
@@ -834,22 +724,6 @@
     "/blog/what-to-do-first-24-hours-water-damage/",
     "/blog/choosing-a-restoration-company/"
   ],
-  "/services/water-heater-flood-cleanup/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
-    "/service-areas/bellevue-wa/water-heater-flood-cleanup/",
-    "/service-areas/bremerton-wa/water-heater-flood-cleanup/",
-    "/service-areas/burien-wa/water-heater-flood-cleanup/",
-    "/service-areas/des-moines-wa/water-heater-flood-cleanup/",
-    "/service-areas/edgewood-wa/water-heater-flood-cleanup/",
-    "/service-areas/everett-wa/water-heater-flood-cleanup/",
-    "/service-areas/fife-wa/water-heater-flood-cleanup/",
-    "/service-areas/gig-harbor-wa/water-heater-flood-cleanup/",
-    "/service-areas/kent-wa/water-heater-flood-cleanup/",
-    "/service-areas/kirkland-wa/water-heater-flood-cleanup/"
-  ],
   "/services/water-leak-detection/": [
     "/services/",
     "/contact/",
@@ -875,7 +749,6 @@
     "/service-areas/seattle-wa/water-damage-restoration/",
     "/service-areas/seattle-wa/commercial-restoration/",
     "/service-areas/seattle-wa/emergency-plumbing/",
-    "/service-areas/seattle-wa/emergency-water-removal/",
     "/service-areas/seattle-wa/flood-damage-restoration/",
     "/service-areas/seattle-wa/reconstruction/",
     "/service-areas/seattle-wa/sewage-cleanup/",
@@ -894,9 +767,7 @@
     "/service-areas/seattle-wa/industrial-restoration/",
     "/service-areas/seattle-wa/odor-removal/",
     "/service-areas/seattle-wa/roof-leak-repair/",
-    "/service-areas/seattle-wa/soot-removal/",
     "/service-areas/seattle-wa/trauma-scene-cleanup/",
-    "/service-areas/seattle-wa/water-heater-flood-cleanup/",
     "/service-areas/seattle-wa/water-leak-detection/",
     "/service-areas/seattle-wa/appliance-leak-cleanup/",
     "/service-areas/seattle-wa/asbestos-abatement/",
@@ -904,12 +775,8 @@
     "/service-areas/seattle-wa/hoarding-cleanup/",
     "/service-areas/seattle-wa/unattended-death-cleanup/",
     "/service-areas/seattle-wa/air-duct-cleaning/",
-    "/service-areas/seattle-wa/air-duct-hvac-cleaning/",
-    "/service-areas/seattle-wa/basement-sewage-cleanup/",
-    "/service-areas/seattle-wa/basement-water-cleanup/",
     "/service-areas/seattle-wa/contents-restoration-storage/",
     "/service-areas/seattle-wa/crawl-space-encapsulation/",
-    "/service-areas/seattle-wa/vandalism-cleanup/",
     "/service-areas/seattle-wa/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
@@ -924,7 +791,6 @@
     "/service-areas/bellevue-wa/water-damage-restoration/",
     "/service-areas/bellevue-wa/commercial-restoration/",
     "/service-areas/bellevue-wa/emergency-plumbing/",
-    "/service-areas/bellevue-wa/emergency-water-removal/",
     "/service-areas/bellevue-wa/flood-damage-restoration/",
     "/service-areas/bellevue-wa/reconstruction/",
     "/service-areas/bellevue-wa/sewage-cleanup/",
@@ -943,9 +809,7 @@
     "/service-areas/bellevue-wa/industrial-restoration/",
     "/service-areas/bellevue-wa/odor-removal/",
     "/service-areas/bellevue-wa/roof-leak-repair/",
-    "/service-areas/bellevue-wa/soot-removal/",
     "/service-areas/bellevue-wa/trauma-scene-cleanup/",
-    "/service-areas/bellevue-wa/water-heater-flood-cleanup/",
     "/service-areas/bellevue-wa/water-leak-detection/",
     "/service-areas/bellevue-wa/appliance-leak-cleanup/",
     "/service-areas/bellevue-wa/asbestos-abatement/",
@@ -953,12 +817,8 @@
     "/service-areas/bellevue-wa/hoarding-cleanup/",
     "/service-areas/bellevue-wa/unattended-death-cleanup/",
     "/service-areas/bellevue-wa/air-duct-cleaning/",
-    "/service-areas/bellevue-wa/air-duct-hvac-cleaning/",
-    "/service-areas/bellevue-wa/basement-sewage-cleanup/",
-    "/service-areas/bellevue-wa/basement-water-cleanup/",
     "/service-areas/bellevue-wa/contents-restoration-storage/",
     "/service-areas/bellevue-wa/crawl-space-encapsulation/",
-    "/service-areas/bellevue-wa/vandalism-cleanup/",
     "/service-areas/bellevue-wa/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
@@ -973,7 +833,6 @@
     "/service-areas/tacoma-wa/water-damage-restoration/",
     "/service-areas/tacoma-wa/commercial-restoration/",
     "/service-areas/tacoma-wa/emergency-plumbing/",
-    "/service-areas/tacoma-wa/emergency-water-removal/",
     "/service-areas/tacoma-wa/flood-damage-restoration/",
     "/service-areas/tacoma-wa/reconstruction/",
     "/service-areas/tacoma-wa/sewage-cleanup/",
@@ -992,9 +851,7 @@
     "/service-areas/tacoma-wa/industrial-restoration/",
     "/service-areas/tacoma-wa/odor-removal/",
     "/service-areas/tacoma-wa/roof-leak-repair/",
-    "/service-areas/tacoma-wa/soot-removal/",
     "/service-areas/tacoma-wa/trauma-scene-cleanup/",
-    "/service-areas/tacoma-wa/water-heater-flood-cleanup/",
     "/service-areas/tacoma-wa/water-leak-detection/",
     "/service-areas/tacoma-wa/appliance-leak-cleanup/",
     "/service-areas/tacoma-wa/asbestos-abatement/",
@@ -1002,12 +859,8 @@
     "/service-areas/tacoma-wa/hoarding-cleanup/",
     "/service-areas/tacoma-wa/unattended-death-cleanup/",
     "/service-areas/tacoma-wa/air-duct-cleaning/",
-    "/service-areas/tacoma-wa/air-duct-hvac-cleaning/",
-    "/service-areas/tacoma-wa/basement-sewage-cleanup/",
-    "/service-areas/tacoma-wa/basement-water-cleanup/",
     "/service-areas/tacoma-wa/contents-restoration-storage/",
     "/service-areas/tacoma-wa/crawl-space-encapsulation/",
-    "/service-areas/tacoma-wa/vandalism-cleanup/",
     "/service-areas/tacoma-wa/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
@@ -1022,7 +875,6 @@
     "/service-areas/everett-wa/water-damage-restoration/",
     "/service-areas/everett-wa/commercial-restoration/",
     "/service-areas/everett-wa/emergency-plumbing/",
-    "/service-areas/everett-wa/emergency-water-removal/",
     "/service-areas/everett-wa/flood-damage-restoration/",
     "/service-areas/everett-wa/reconstruction/",
     "/service-areas/everett-wa/sewage-cleanup/",
@@ -1041,9 +893,7 @@
     "/service-areas/everett-wa/industrial-restoration/",
     "/service-areas/everett-wa/odor-removal/",
     "/service-areas/everett-wa/roof-leak-repair/",
-    "/service-areas/everett-wa/soot-removal/",
     "/service-areas/everett-wa/trauma-scene-cleanup/",
-    "/service-areas/everett-wa/water-heater-flood-cleanup/",
     "/service-areas/everett-wa/water-leak-detection/",
     "/service-areas/everett-wa/appliance-leak-cleanup/",
     "/service-areas/everett-wa/asbestos-abatement/",
@@ -1051,12 +901,8 @@
     "/service-areas/everett-wa/hoarding-cleanup/",
     "/service-areas/everett-wa/unattended-death-cleanup/",
     "/service-areas/everett-wa/air-duct-cleaning/",
-    "/service-areas/everett-wa/air-duct-hvac-cleaning/",
-    "/service-areas/everett-wa/basement-sewage-cleanup/",
-    "/service-areas/everett-wa/basement-water-cleanup/",
     "/service-areas/everett-wa/contents-restoration-storage/",
     "/service-areas/everett-wa/crawl-space-encapsulation/",
-    "/service-areas/everett-wa/vandalism-cleanup/",
     "/service-areas/everett-wa/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
@@ -1071,7 +917,6 @@
     "/service-areas/kent-wa/water-damage-restoration/",
     "/service-areas/kent-wa/commercial-restoration/",
     "/service-areas/kent-wa/emergency-plumbing/",
-    "/service-areas/kent-wa/emergency-water-removal/",
     "/service-areas/kent-wa/flood-damage-restoration/",
     "/service-areas/kent-wa/reconstruction/",
     "/service-areas/kent-wa/sewage-cleanup/",
@@ -1090,9 +935,7 @@
     "/service-areas/kent-wa/industrial-restoration/",
     "/service-areas/kent-wa/odor-removal/",
     "/service-areas/kent-wa/roof-leak-repair/",
-    "/service-areas/kent-wa/soot-removal/",
     "/service-areas/kent-wa/trauma-scene-cleanup/",
-    "/service-areas/kent-wa/water-heater-flood-cleanup/",
     "/service-areas/kent-wa/water-leak-detection/",
     "/service-areas/kent-wa/appliance-leak-cleanup/",
     "/service-areas/kent-wa/asbestos-abatement/",
@@ -1100,12 +943,8 @@
     "/service-areas/kent-wa/hoarding-cleanup/",
     "/service-areas/kent-wa/unattended-death-cleanup/",
     "/service-areas/kent-wa/air-duct-cleaning/",
-    "/service-areas/kent-wa/air-duct-hvac-cleaning/",
-    "/service-areas/kent-wa/basement-sewage-cleanup/",
-    "/service-areas/kent-wa/basement-water-cleanup/",
     "/service-areas/kent-wa/contents-restoration-storage/",
     "/service-areas/kent-wa/crawl-space-encapsulation/",
-    "/service-areas/kent-wa/vandalism-cleanup/",
     "/service-areas/kent-wa/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
@@ -1120,7 +959,6 @@
     "/service-areas/renton-wa/water-damage-restoration/",
     "/service-areas/renton-wa/commercial-restoration/",
     "/service-areas/renton-wa/emergency-plumbing/",
-    "/service-areas/renton-wa/emergency-water-removal/",
     "/service-areas/renton-wa/flood-damage-restoration/",
     "/service-areas/renton-wa/reconstruction/",
     "/service-areas/renton-wa/sewage-cleanup/",
@@ -1139,9 +977,7 @@
     "/service-areas/renton-wa/industrial-restoration/",
     "/service-areas/renton-wa/odor-removal/",
     "/service-areas/renton-wa/roof-leak-repair/",
-    "/service-areas/renton-wa/soot-removal/",
     "/service-areas/renton-wa/trauma-scene-cleanup/",
-    "/service-areas/renton-wa/water-heater-flood-cleanup/",
     "/service-areas/renton-wa/water-leak-detection/",
     "/service-areas/renton-wa/appliance-leak-cleanup/",
     "/service-areas/renton-wa/asbestos-abatement/",
@@ -1149,12 +985,8 @@
     "/service-areas/renton-wa/hoarding-cleanup/",
     "/service-areas/renton-wa/unattended-death-cleanup/",
     "/service-areas/renton-wa/air-duct-cleaning/",
-    "/service-areas/renton-wa/air-duct-hvac-cleaning/",
-    "/service-areas/renton-wa/basement-sewage-cleanup/",
-    "/service-areas/renton-wa/basement-water-cleanup/",
     "/service-areas/renton-wa/contents-restoration-storage/",
     "/service-areas/renton-wa/crawl-space-encapsulation/",
-    "/service-areas/renton-wa/vandalism-cleanup/",
     "/service-areas/renton-wa/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
@@ -1169,7 +1001,6 @@
     "/service-areas/auburn-wa/water-damage-restoration/",
     "/service-areas/auburn-wa/commercial-restoration/",
     "/service-areas/auburn-wa/emergency-plumbing/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
     "/service-areas/auburn-wa/flood-damage-restoration/",
     "/service-areas/auburn-wa/reconstruction/",
     "/service-areas/auburn-wa/sewage-cleanup/",
@@ -1188,9 +1019,7 @@
     "/service-areas/auburn-wa/industrial-restoration/",
     "/service-areas/auburn-wa/odor-removal/",
     "/service-areas/auburn-wa/roof-leak-repair/",
-    "/service-areas/auburn-wa/soot-removal/",
     "/service-areas/auburn-wa/trauma-scene-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
     "/service-areas/auburn-wa/water-leak-detection/",
     "/service-areas/auburn-wa/appliance-leak-cleanup/",
     "/service-areas/auburn-wa/asbestos-abatement/",
@@ -1198,12 +1027,8 @@
     "/service-areas/auburn-wa/hoarding-cleanup/",
     "/service-areas/auburn-wa/unattended-death-cleanup/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
     "/service-areas/auburn-wa/contents-restoration-storage/",
     "/service-areas/auburn-wa/crawl-space-encapsulation/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
     "/service-areas/auburn-wa/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/bellevue-wa/",
@@ -1218,7 +1043,6 @@
     "/service-areas/kirkland-wa/water-damage-restoration/",
     "/service-areas/kirkland-wa/commercial-restoration/",
     "/service-areas/kirkland-wa/emergency-plumbing/",
-    "/service-areas/kirkland-wa/emergency-water-removal/",
     "/service-areas/kirkland-wa/flood-damage-restoration/",
     "/service-areas/kirkland-wa/reconstruction/",
     "/service-areas/kirkland-wa/sewage-cleanup/",
@@ -1237,9 +1061,7 @@
     "/service-areas/kirkland-wa/industrial-restoration/",
     "/service-areas/kirkland-wa/odor-removal/",
     "/service-areas/kirkland-wa/roof-leak-repair/",
-    "/service-areas/kirkland-wa/soot-removal/",
     "/service-areas/kirkland-wa/trauma-scene-cleanup/",
-    "/service-areas/kirkland-wa/water-heater-flood-cleanup/",
     "/service-areas/kirkland-wa/water-leak-detection/",
     "/service-areas/kirkland-wa/appliance-leak-cleanup/",
     "/service-areas/kirkland-wa/asbestos-abatement/",
@@ -1247,12 +1069,8 @@
     "/service-areas/kirkland-wa/hoarding-cleanup/",
     "/service-areas/kirkland-wa/unattended-death-cleanup/",
     "/service-areas/kirkland-wa/air-duct-cleaning/",
-    "/service-areas/kirkland-wa/air-duct-hvac-cleaning/",
-    "/service-areas/kirkland-wa/basement-sewage-cleanup/",
-    "/service-areas/kirkland-wa/basement-water-cleanup/",
     "/service-areas/kirkland-wa/contents-restoration-storage/",
     "/service-areas/kirkland-wa/crawl-space-encapsulation/",
-    "/service-areas/kirkland-wa/vandalism-cleanup/",
     "/service-areas/kirkland-wa/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
@@ -1267,7 +1085,6 @@
     "/service-areas/redmond-wa/water-damage-restoration/",
     "/service-areas/redmond-wa/commercial-restoration/",
     "/service-areas/redmond-wa/emergency-plumbing/",
-    "/service-areas/redmond-wa/emergency-water-removal/",
     "/service-areas/redmond-wa/flood-damage-restoration/",
     "/service-areas/redmond-wa/reconstruction/",
     "/service-areas/redmond-wa/sewage-cleanup/",
@@ -1286,9 +1103,7 @@
     "/service-areas/redmond-wa/industrial-restoration/",
     "/service-areas/redmond-wa/odor-removal/",
     "/service-areas/redmond-wa/roof-leak-repair/",
-    "/service-areas/redmond-wa/soot-removal/",
     "/service-areas/redmond-wa/trauma-scene-cleanup/",
-    "/service-areas/redmond-wa/water-heater-flood-cleanup/",
     "/service-areas/redmond-wa/water-leak-detection/",
     "/service-areas/redmond-wa/appliance-leak-cleanup/",
     "/service-areas/redmond-wa/asbestos-abatement/",
@@ -1296,12 +1111,8 @@
     "/service-areas/redmond-wa/hoarding-cleanup/",
     "/service-areas/redmond-wa/unattended-death-cleanup/",
     "/service-areas/redmond-wa/air-duct-cleaning/",
-    "/service-areas/redmond-wa/air-duct-hvac-cleaning/",
-    "/service-areas/redmond-wa/basement-sewage-cleanup/",
-    "/service-areas/redmond-wa/basement-water-cleanup/",
     "/service-areas/redmond-wa/contents-restoration-storage/",
     "/service-areas/redmond-wa/crawl-space-encapsulation/",
-    "/service-areas/redmond-wa/vandalism-cleanup/",
     "/service-areas/redmond-wa/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
@@ -1316,7 +1127,6 @@
     "/service-areas/gig-harbor-wa/water-damage-restoration/",
     "/service-areas/gig-harbor-wa/commercial-restoration/",
     "/service-areas/gig-harbor-wa/emergency-plumbing/",
-    "/service-areas/gig-harbor-wa/emergency-water-removal/",
     "/service-areas/gig-harbor-wa/flood-damage-restoration/",
     "/service-areas/gig-harbor-wa/reconstruction/",
     "/service-areas/gig-harbor-wa/sewage-cleanup/",
@@ -1335,9 +1145,7 @@
     "/service-areas/gig-harbor-wa/industrial-restoration/",
     "/service-areas/gig-harbor-wa/odor-removal/",
     "/service-areas/gig-harbor-wa/roof-leak-repair/",
-    "/service-areas/gig-harbor-wa/soot-removal/",
     "/service-areas/gig-harbor-wa/trauma-scene-cleanup/",
-    "/service-areas/gig-harbor-wa/water-heater-flood-cleanup/",
     "/service-areas/gig-harbor-wa/water-leak-detection/",
     "/service-areas/gig-harbor-wa/appliance-leak-cleanup/",
     "/service-areas/gig-harbor-wa/asbestos-abatement/",
@@ -1345,12 +1153,8 @@
     "/service-areas/gig-harbor-wa/hoarding-cleanup/",
     "/service-areas/gig-harbor-wa/unattended-death-cleanup/",
     "/service-areas/gig-harbor-wa/air-duct-cleaning/",
-    "/service-areas/gig-harbor-wa/air-duct-hvac-cleaning/",
-    "/service-areas/gig-harbor-wa/basement-sewage-cleanup/",
-    "/service-areas/gig-harbor-wa/basement-water-cleanup/",
     "/service-areas/gig-harbor-wa/contents-restoration-storage/",
     "/service-areas/gig-harbor-wa/crawl-space-encapsulation/",
-    "/service-areas/gig-harbor-wa/vandalism-cleanup/",
     "/service-areas/gig-harbor-wa/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
@@ -1365,7 +1169,6 @@
     "/service-areas/bremerton-wa/water-damage-restoration/",
     "/service-areas/bremerton-wa/commercial-restoration/",
     "/service-areas/bremerton-wa/emergency-plumbing/",
-    "/service-areas/bremerton-wa/emergency-water-removal/",
     "/service-areas/bremerton-wa/flood-damage-restoration/",
     "/service-areas/bremerton-wa/reconstruction/",
     "/service-areas/bremerton-wa/sewage-cleanup/",
@@ -1384,9 +1187,7 @@
     "/service-areas/bremerton-wa/industrial-restoration/",
     "/service-areas/bremerton-wa/odor-removal/",
     "/service-areas/bremerton-wa/roof-leak-repair/",
-    "/service-areas/bremerton-wa/soot-removal/",
     "/service-areas/bremerton-wa/trauma-scene-cleanup/",
-    "/service-areas/bremerton-wa/water-heater-flood-cleanup/",
     "/service-areas/bremerton-wa/water-leak-detection/",
     "/service-areas/bremerton-wa/appliance-leak-cleanup/",
     "/service-areas/bremerton-wa/asbestos-abatement/",
@@ -1394,12 +1195,8 @@
     "/service-areas/bremerton-wa/hoarding-cleanup/",
     "/service-areas/bremerton-wa/unattended-death-cleanup/",
     "/service-areas/bremerton-wa/air-duct-cleaning/",
-    "/service-areas/bremerton-wa/air-duct-hvac-cleaning/",
-    "/service-areas/bremerton-wa/basement-sewage-cleanup/",
-    "/service-areas/bremerton-wa/basement-water-cleanup/",
     "/service-areas/bremerton-wa/contents-restoration-storage/",
     "/service-areas/bremerton-wa/crawl-space-encapsulation/",
-    "/service-areas/bremerton-wa/vandalism-cleanup/",
     "/service-areas/bremerton-wa/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
@@ -1414,7 +1211,6 @@
     "/service-areas/port-orchard-wa/water-damage-restoration/",
     "/service-areas/port-orchard-wa/commercial-restoration/",
     "/service-areas/port-orchard-wa/emergency-plumbing/",
-    "/service-areas/port-orchard-wa/emergency-water-removal/",
     "/service-areas/port-orchard-wa/flood-damage-restoration/",
     "/service-areas/port-orchard-wa/reconstruction/",
     "/service-areas/port-orchard-wa/sewage-cleanup/",
@@ -1433,9 +1229,7 @@
     "/service-areas/port-orchard-wa/industrial-restoration/",
     "/service-areas/port-orchard-wa/odor-removal/",
     "/service-areas/port-orchard-wa/roof-leak-repair/",
-    "/service-areas/port-orchard-wa/soot-removal/",
     "/service-areas/port-orchard-wa/trauma-scene-cleanup/",
-    "/service-areas/port-orchard-wa/water-heater-flood-cleanup/",
     "/service-areas/port-orchard-wa/water-leak-detection/",
     "/service-areas/port-orchard-wa/appliance-leak-cleanup/",
     "/service-areas/port-orchard-wa/asbestos-abatement/",
@@ -1443,12 +1237,8 @@
     "/service-areas/port-orchard-wa/hoarding-cleanup/",
     "/service-areas/port-orchard-wa/unattended-death-cleanup/",
     "/service-areas/port-orchard-wa/air-duct-cleaning/",
-    "/service-areas/port-orchard-wa/air-duct-hvac-cleaning/",
-    "/service-areas/port-orchard-wa/basement-sewage-cleanup/",
-    "/service-areas/port-orchard-wa/basement-water-cleanup/",
     "/service-areas/port-orchard-wa/contents-restoration-storage/",
     "/service-areas/port-orchard-wa/crawl-space-encapsulation/",
-    "/service-areas/port-orchard-wa/vandalism-cleanup/",
     "/service-areas/port-orchard-wa/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
@@ -1463,7 +1253,6 @@
     "/service-areas/university-place-wa/water-damage-restoration/",
     "/service-areas/university-place-wa/commercial-restoration/",
     "/service-areas/university-place-wa/emergency-plumbing/",
-    "/service-areas/university-place-wa/emergency-water-removal/",
     "/service-areas/university-place-wa/flood-damage-restoration/",
     "/service-areas/university-place-wa/reconstruction/",
     "/service-areas/university-place-wa/sewage-cleanup/",
@@ -1482,9 +1271,7 @@
     "/service-areas/university-place-wa/industrial-restoration/",
     "/service-areas/university-place-wa/odor-removal/",
     "/service-areas/university-place-wa/roof-leak-repair/",
-    "/service-areas/university-place-wa/soot-removal/",
     "/service-areas/university-place-wa/trauma-scene-cleanup/",
-    "/service-areas/university-place-wa/water-heater-flood-cleanup/",
     "/service-areas/university-place-wa/water-leak-detection/",
     "/service-areas/university-place-wa/appliance-leak-cleanup/",
     "/service-areas/university-place-wa/asbestos-abatement/",
@@ -1492,12 +1279,8 @@
     "/service-areas/university-place-wa/hoarding-cleanup/",
     "/service-areas/university-place-wa/unattended-death-cleanup/",
     "/service-areas/university-place-wa/air-duct-cleaning/",
-    "/service-areas/university-place-wa/air-duct-hvac-cleaning/",
-    "/service-areas/university-place-wa/basement-sewage-cleanup/",
-    "/service-areas/university-place-wa/basement-water-cleanup/",
     "/service-areas/university-place-wa/contents-restoration-storage/",
     "/service-areas/university-place-wa/crawl-space-encapsulation/",
-    "/service-areas/university-place-wa/vandalism-cleanup/",
     "/service-areas/university-place-wa/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
@@ -1512,7 +1295,6 @@
     "/service-areas/lakeland-north-wa/water-damage-restoration/",
     "/service-areas/lakeland-north-wa/commercial-restoration/",
     "/service-areas/lakeland-north-wa/emergency-plumbing/",
-    "/service-areas/lakeland-north-wa/emergency-water-removal/",
     "/service-areas/lakeland-north-wa/flood-damage-restoration/",
     "/service-areas/lakeland-north-wa/reconstruction/",
     "/service-areas/lakeland-north-wa/sewage-cleanup/",
@@ -1531,9 +1313,7 @@
     "/service-areas/lakeland-north-wa/industrial-restoration/",
     "/service-areas/lakeland-north-wa/odor-removal/",
     "/service-areas/lakeland-north-wa/roof-leak-repair/",
-    "/service-areas/lakeland-north-wa/soot-removal/",
     "/service-areas/lakeland-north-wa/trauma-scene-cleanup/",
-    "/service-areas/lakeland-north-wa/water-heater-flood-cleanup/",
     "/service-areas/lakeland-north-wa/water-leak-detection/",
     "/service-areas/lakeland-north-wa/appliance-leak-cleanup/",
     "/service-areas/lakeland-north-wa/asbestos-abatement/",
@@ -1541,12 +1321,8 @@
     "/service-areas/lakeland-north-wa/hoarding-cleanup/",
     "/service-areas/lakeland-north-wa/unattended-death-cleanup/",
     "/service-areas/lakeland-north-wa/air-duct-cleaning/",
-    "/service-areas/lakeland-north-wa/air-duct-hvac-cleaning/",
-    "/service-areas/lakeland-north-wa/basement-sewage-cleanup/",
-    "/service-areas/lakeland-north-wa/basement-water-cleanup/",
     "/service-areas/lakeland-north-wa/contents-restoration-storage/",
     "/service-areas/lakeland-north-wa/crawl-space-encapsulation/",
-    "/service-areas/lakeland-north-wa/vandalism-cleanup/",
     "/service-areas/lakeland-north-wa/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
@@ -1561,7 +1337,6 @@
     "/service-areas/des-moines-wa/water-damage-restoration/",
     "/service-areas/des-moines-wa/commercial-restoration/",
     "/service-areas/des-moines-wa/emergency-plumbing/",
-    "/service-areas/des-moines-wa/emergency-water-removal/",
     "/service-areas/des-moines-wa/flood-damage-restoration/",
     "/service-areas/des-moines-wa/reconstruction/",
     "/service-areas/des-moines-wa/sewage-cleanup/",
@@ -1580,9 +1355,7 @@
     "/service-areas/des-moines-wa/industrial-restoration/",
     "/service-areas/des-moines-wa/odor-removal/",
     "/service-areas/des-moines-wa/roof-leak-repair/",
-    "/service-areas/des-moines-wa/soot-removal/",
     "/service-areas/des-moines-wa/trauma-scene-cleanup/",
-    "/service-areas/des-moines-wa/water-heater-flood-cleanup/",
     "/service-areas/des-moines-wa/water-leak-detection/",
     "/service-areas/des-moines-wa/appliance-leak-cleanup/",
     "/service-areas/des-moines-wa/asbestos-abatement/",
@@ -1590,12 +1363,8 @@
     "/service-areas/des-moines-wa/hoarding-cleanup/",
     "/service-areas/des-moines-wa/unattended-death-cleanup/",
     "/service-areas/des-moines-wa/air-duct-cleaning/",
-    "/service-areas/des-moines-wa/air-duct-hvac-cleaning/",
-    "/service-areas/des-moines-wa/basement-sewage-cleanup/",
-    "/service-areas/des-moines-wa/basement-water-cleanup/",
     "/service-areas/des-moines-wa/contents-restoration-storage/",
     "/service-areas/des-moines-wa/crawl-space-encapsulation/",
-    "/service-areas/des-moines-wa/vandalism-cleanup/",
     "/service-areas/des-moines-wa/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
@@ -1610,7 +1379,6 @@
     "/service-areas/lakeland-south-wa/water-damage-restoration/",
     "/service-areas/lakeland-south-wa/commercial-restoration/",
     "/service-areas/lakeland-south-wa/emergency-plumbing/",
-    "/service-areas/lakeland-south-wa/emergency-water-removal/",
     "/service-areas/lakeland-south-wa/flood-damage-restoration/",
     "/service-areas/lakeland-south-wa/reconstruction/",
     "/service-areas/lakeland-south-wa/sewage-cleanup/",
@@ -1629,9 +1397,7 @@
     "/service-areas/lakeland-south-wa/industrial-restoration/",
     "/service-areas/lakeland-south-wa/odor-removal/",
     "/service-areas/lakeland-south-wa/roof-leak-repair/",
-    "/service-areas/lakeland-south-wa/soot-removal/",
     "/service-areas/lakeland-south-wa/trauma-scene-cleanup/",
-    "/service-areas/lakeland-south-wa/water-heater-flood-cleanup/",
     "/service-areas/lakeland-south-wa/water-leak-detection/",
     "/service-areas/lakeland-south-wa/appliance-leak-cleanup/",
     "/service-areas/lakeland-south-wa/asbestos-abatement/",
@@ -1639,12 +1405,8 @@
     "/service-areas/lakeland-south-wa/hoarding-cleanup/",
     "/service-areas/lakeland-south-wa/unattended-death-cleanup/",
     "/service-areas/lakeland-south-wa/air-duct-cleaning/",
-    "/service-areas/lakeland-south-wa/air-duct-hvac-cleaning/",
-    "/service-areas/lakeland-south-wa/basement-sewage-cleanup/",
-    "/service-areas/lakeland-south-wa/basement-water-cleanup/",
     "/service-areas/lakeland-south-wa/contents-restoration-storage/",
     "/service-areas/lakeland-south-wa/crawl-space-encapsulation/",
-    "/service-areas/lakeland-south-wa/vandalism-cleanup/",
     "/service-areas/lakeland-south-wa/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
@@ -1659,7 +1421,6 @@
     "/service-areas/algona-wa/water-damage-restoration/",
     "/service-areas/algona-wa/commercial-restoration/",
     "/service-areas/algona-wa/emergency-plumbing/",
-    "/service-areas/algona-wa/emergency-water-removal/",
     "/service-areas/algona-wa/flood-damage-restoration/",
     "/service-areas/algona-wa/reconstruction/",
     "/service-areas/algona-wa/sewage-cleanup/",
@@ -1678,9 +1439,7 @@
     "/service-areas/algona-wa/industrial-restoration/",
     "/service-areas/algona-wa/odor-removal/",
     "/service-areas/algona-wa/roof-leak-repair/",
-    "/service-areas/algona-wa/soot-removal/",
     "/service-areas/algona-wa/trauma-scene-cleanup/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
     "/service-areas/algona-wa/water-leak-detection/",
     "/service-areas/algona-wa/appliance-leak-cleanup/",
     "/service-areas/algona-wa/asbestos-abatement/",
@@ -1688,12 +1447,8 @@
     "/service-areas/algona-wa/hoarding-cleanup/",
     "/service-areas/algona-wa/unattended-death-cleanup/",
     "/service-areas/algona-wa/air-duct-cleaning/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
     "/service-areas/algona-wa/contents-restoration-storage/",
     "/service-areas/algona-wa/crawl-space-encapsulation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
     "/service-areas/algona-wa/post-construction-cleaning/",
     "/service-areas/auburn-wa/",
     "/service-areas/bellevue-wa/",
@@ -1708,7 +1463,6 @@
     "/service-areas/milton-wa/water-damage-restoration/",
     "/service-areas/milton-wa/commercial-restoration/",
     "/service-areas/milton-wa/emergency-plumbing/",
-    "/service-areas/milton-wa/emergency-water-removal/",
     "/service-areas/milton-wa/flood-damage-restoration/",
     "/service-areas/milton-wa/reconstruction/",
     "/service-areas/milton-wa/sewage-cleanup/",
@@ -1727,9 +1481,7 @@
     "/service-areas/milton-wa/industrial-restoration/",
     "/service-areas/milton-wa/odor-removal/",
     "/service-areas/milton-wa/roof-leak-repair/",
-    "/service-areas/milton-wa/soot-removal/",
     "/service-areas/milton-wa/trauma-scene-cleanup/",
-    "/service-areas/milton-wa/water-heater-flood-cleanup/",
     "/service-areas/milton-wa/water-leak-detection/",
     "/service-areas/milton-wa/appliance-leak-cleanup/",
     "/service-areas/milton-wa/asbestos-abatement/",
@@ -1737,12 +1489,8 @@
     "/service-areas/milton-wa/hoarding-cleanup/",
     "/service-areas/milton-wa/unattended-death-cleanup/",
     "/service-areas/milton-wa/air-duct-cleaning/",
-    "/service-areas/milton-wa/air-duct-hvac-cleaning/",
-    "/service-areas/milton-wa/basement-sewage-cleanup/",
-    "/service-areas/milton-wa/basement-water-cleanup/",
     "/service-areas/milton-wa/contents-restoration-storage/",
     "/service-areas/milton-wa/crawl-space-encapsulation/",
-    "/service-areas/milton-wa/vandalism-cleanup/",
     "/service-areas/milton-wa/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
@@ -1757,7 +1505,6 @@
     "/service-areas/pacific-wa/water-damage-restoration/",
     "/service-areas/pacific-wa/commercial-restoration/",
     "/service-areas/pacific-wa/emergency-plumbing/",
-    "/service-areas/pacific-wa/emergency-water-removal/",
     "/service-areas/pacific-wa/flood-damage-restoration/",
     "/service-areas/pacific-wa/reconstruction/",
     "/service-areas/pacific-wa/sewage-cleanup/",
@@ -1776,9 +1523,7 @@
     "/service-areas/pacific-wa/industrial-restoration/",
     "/service-areas/pacific-wa/odor-removal/",
     "/service-areas/pacific-wa/roof-leak-repair/",
-    "/service-areas/pacific-wa/soot-removal/",
     "/service-areas/pacific-wa/trauma-scene-cleanup/",
-    "/service-areas/pacific-wa/water-heater-flood-cleanup/",
     "/service-areas/pacific-wa/water-leak-detection/",
     "/service-areas/pacific-wa/appliance-leak-cleanup/",
     "/service-areas/pacific-wa/asbestos-abatement/",
@@ -1786,12 +1531,8 @@
     "/service-areas/pacific-wa/hoarding-cleanup/",
     "/service-areas/pacific-wa/unattended-death-cleanup/",
     "/service-areas/pacific-wa/air-duct-cleaning/",
-    "/service-areas/pacific-wa/air-duct-hvac-cleaning/",
-    "/service-areas/pacific-wa/basement-sewage-cleanup/",
-    "/service-areas/pacific-wa/basement-water-cleanup/",
     "/service-areas/pacific-wa/contents-restoration-storage/",
     "/service-areas/pacific-wa/crawl-space-encapsulation/",
-    "/service-areas/pacific-wa/vandalism-cleanup/",
     "/service-areas/pacific-wa/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
@@ -1806,7 +1547,6 @@
     "/service-areas/seatac-wa/water-damage-restoration/",
     "/service-areas/seatac-wa/commercial-restoration/",
     "/service-areas/seatac-wa/emergency-plumbing/",
-    "/service-areas/seatac-wa/emergency-water-removal/",
     "/service-areas/seatac-wa/flood-damage-restoration/",
     "/service-areas/seatac-wa/reconstruction/",
     "/service-areas/seatac-wa/sewage-cleanup/",
@@ -1825,9 +1565,7 @@
     "/service-areas/seatac-wa/industrial-restoration/",
     "/service-areas/seatac-wa/odor-removal/",
     "/service-areas/seatac-wa/roof-leak-repair/",
-    "/service-areas/seatac-wa/soot-removal/",
     "/service-areas/seatac-wa/trauma-scene-cleanup/",
-    "/service-areas/seatac-wa/water-heater-flood-cleanup/",
     "/service-areas/seatac-wa/water-leak-detection/",
     "/service-areas/seatac-wa/appliance-leak-cleanup/",
     "/service-areas/seatac-wa/asbestos-abatement/",
@@ -1835,12 +1573,8 @@
     "/service-areas/seatac-wa/hoarding-cleanup/",
     "/service-areas/seatac-wa/unattended-death-cleanup/",
     "/service-areas/seatac-wa/air-duct-cleaning/",
-    "/service-areas/seatac-wa/air-duct-hvac-cleaning/",
-    "/service-areas/seatac-wa/basement-sewage-cleanup/",
-    "/service-areas/seatac-wa/basement-water-cleanup/",
     "/service-areas/seatac-wa/contents-restoration-storage/",
     "/service-areas/seatac-wa/crawl-space-encapsulation/",
-    "/service-areas/seatac-wa/vandalism-cleanup/",
     "/service-areas/seatac-wa/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
@@ -1855,7 +1589,6 @@
     "/service-areas/edgewood-wa/water-damage-restoration/",
     "/service-areas/edgewood-wa/commercial-restoration/",
     "/service-areas/edgewood-wa/emergency-plumbing/",
-    "/service-areas/edgewood-wa/emergency-water-removal/",
     "/service-areas/edgewood-wa/flood-damage-restoration/",
     "/service-areas/edgewood-wa/reconstruction/",
     "/service-areas/edgewood-wa/sewage-cleanup/",
@@ -1874,9 +1607,7 @@
     "/service-areas/edgewood-wa/industrial-restoration/",
     "/service-areas/edgewood-wa/odor-removal/",
     "/service-areas/edgewood-wa/roof-leak-repair/",
-    "/service-areas/edgewood-wa/soot-removal/",
     "/service-areas/edgewood-wa/trauma-scene-cleanup/",
-    "/service-areas/edgewood-wa/water-heater-flood-cleanup/",
     "/service-areas/edgewood-wa/water-leak-detection/",
     "/service-areas/edgewood-wa/appliance-leak-cleanup/",
     "/service-areas/edgewood-wa/asbestos-abatement/",
@@ -1884,12 +1615,8 @@
     "/service-areas/edgewood-wa/hoarding-cleanup/",
     "/service-areas/edgewood-wa/unattended-death-cleanup/",
     "/service-areas/edgewood-wa/air-duct-cleaning/",
-    "/service-areas/edgewood-wa/air-duct-hvac-cleaning/",
-    "/service-areas/edgewood-wa/basement-sewage-cleanup/",
-    "/service-areas/edgewood-wa/basement-water-cleanup/",
     "/service-areas/edgewood-wa/contents-restoration-storage/",
     "/service-areas/edgewood-wa/crawl-space-encapsulation/",
-    "/service-areas/edgewood-wa/vandalism-cleanup/",
     "/service-areas/edgewood-wa/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
@@ -1904,7 +1631,6 @@
     "/service-areas/fife-wa/water-damage-restoration/",
     "/service-areas/fife-wa/commercial-restoration/",
     "/service-areas/fife-wa/emergency-plumbing/",
-    "/service-areas/fife-wa/emergency-water-removal/",
     "/service-areas/fife-wa/flood-damage-restoration/",
     "/service-areas/fife-wa/reconstruction/",
     "/service-areas/fife-wa/sewage-cleanup/",
@@ -1923,9 +1649,7 @@
     "/service-areas/fife-wa/industrial-restoration/",
     "/service-areas/fife-wa/odor-removal/",
     "/service-areas/fife-wa/roof-leak-repair/",
-    "/service-areas/fife-wa/soot-removal/",
     "/service-areas/fife-wa/trauma-scene-cleanup/",
-    "/service-areas/fife-wa/water-heater-flood-cleanup/",
     "/service-areas/fife-wa/water-leak-detection/",
     "/service-areas/fife-wa/appliance-leak-cleanup/",
     "/service-areas/fife-wa/asbestos-abatement/",
@@ -1933,12 +1657,8 @@
     "/service-areas/fife-wa/hoarding-cleanup/",
     "/service-areas/fife-wa/unattended-death-cleanup/",
     "/service-areas/fife-wa/air-duct-cleaning/",
-    "/service-areas/fife-wa/air-duct-hvac-cleaning/",
-    "/service-areas/fife-wa/basement-sewage-cleanup/",
-    "/service-areas/fife-wa/basement-water-cleanup/",
     "/service-areas/fife-wa/contents-restoration-storage/",
     "/service-areas/fife-wa/crawl-space-encapsulation/",
-    "/service-areas/fife-wa/vandalism-cleanup/",
     "/service-areas/fife-wa/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
@@ -1953,7 +1673,6 @@
     "/service-areas/normandy-park-wa/water-damage-restoration/",
     "/service-areas/normandy-park-wa/commercial-restoration/",
     "/service-areas/normandy-park-wa/emergency-plumbing/",
-    "/service-areas/normandy-park-wa/emergency-water-removal/",
     "/service-areas/normandy-park-wa/flood-damage-restoration/",
     "/service-areas/normandy-park-wa/reconstruction/",
     "/service-areas/normandy-park-wa/sewage-cleanup/",
@@ -1972,9 +1691,7 @@
     "/service-areas/normandy-park-wa/industrial-restoration/",
     "/service-areas/normandy-park-wa/odor-removal/",
     "/service-areas/normandy-park-wa/roof-leak-repair/",
-    "/service-areas/normandy-park-wa/soot-removal/",
     "/service-areas/normandy-park-wa/trauma-scene-cleanup/",
-    "/service-areas/normandy-park-wa/water-heater-flood-cleanup/",
     "/service-areas/normandy-park-wa/water-leak-detection/",
     "/service-areas/normandy-park-wa/appliance-leak-cleanup/",
     "/service-areas/normandy-park-wa/asbestos-abatement/",
@@ -1982,12 +1699,8 @@
     "/service-areas/normandy-park-wa/hoarding-cleanup/",
     "/service-areas/normandy-park-wa/unattended-death-cleanup/",
     "/service-areas/normandy-park-wa/air-duct-cleaning/",
-    "/service-areas/normandy-park-wa/air-duct-hvac-cleaning/",
-    "/service-areas/normandy-park-wa/basement-sewage-cleanup/",
-    "/service-areas/normandy-park-wa/basement-water-cleanup/",
     "/service-areas/normandy-park-wa/contents-restoration-storage/",
     "/service-areas/normandy-park-wa/crawl-space-encapsulation/",
-    "/service-areas/normandy-park-wa/vandalism-cleanup/",
     "/service-areas/normandy-park-wa/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
@@ -2002,7 +1715,6 @@
     "/service-areas/vashon-wa/water-damage-restoration/",
     "/service-areas/vashon-wa/commercial-restoration/",
     "/service-areas/vashon-wa/emergency-plumbing/",
-    "/service-areas/vashon-wa/emergency-water-removal/",
     "/service-areas/vashon-wa/flood-damage-restoration/",
     "/service-areas/vashon-wa/reconstruction/",
     "/service-areas/vashon-wa/sewage-cleanup/",
@@ -2021,9 +1733,7 @@
     "/service-areas/vashon-wa/industrial-restoration/",
     "/service-areas/vashon-wa/odor-removal/",
     "/service-areas/vashon-wa/roof-leak-repair/",
-    "/service-areas/vashon-wa/soot-removal/",
     "/service-areas/vashon-wa/trauma-scene-cleanup/",
-    "/service-areas/vashon-wa/water-heater-flood-cleanup/",
     "/service-areas/vashon-wa/water-leak-detection/",
     "/service-areas/vashon-wa/appliance-leak-cleanup/",
     "/service-areas/vashon-wa/asbestos-abatement/",
@@ -2031,12 +1741,8 @@
     "/service-areas/vashon-wa/hoarding-cleanup/",
     "/service-areas/vashon-wa/unattended-death-cleanup/",
     "/service-areas/vashon-wa/air-duct-cleaning/",
-    "/service-areas/vashon-wa/air-duct-hvac-cleaning/",
-    "/service-areas/vashon-wa/basement-sewage-cleanup/",
-    "/service-areas/vashon-wa/basement-water-cleanup/",
     "/service-areas/vashon-wa/contents-restoration-storage/",
     "/service-areas/vashon-wa/crawl-space-encapsulation/",
-    "/service-areas/vashon-wa/vandalism-cleanup/",
     "/service-areas/vashon-wa/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
@@ -2051,7 +1757,6 @@
     "/service-areas/burien-wa/water-damage-restoration/",
     "/service-areas/burien-wa/commercial-restoration/",
     "/service-areas/burien-wa/emergency-plumbing/",
-    "/service-areas/burien-wa/emergency-water-removal/",
     "/service-areas/burien-wa/flood-damage-restoration/",
     "/service-areas/burien-wa/reconstruction/",
     "/service-areas/burien-wa/sewage-cleanup/",
@@ -2070,9 +1775,7 @@
     "/service-areas/burien-wa/industrial-restoration/",
     "/service-areas/burien-wa/odor-removal/",
     "/service-areas/burien-wa/roof-leak-repair/",
-    "/service-areas/burien-wa/soot-removal/",
     "/service-areas/burien-wa/trauma-scene-cleanup/",
-    "/service-areas/burien-wa/water-heater-flood-cleanup/",
     "/service-areas/burien-wa/water-leak-detection/",
     "/service-areas/burien-wa/appliance-leak-cleanup/",
     "/service-areas/burien-wa/asbestos-abatement/",
@@ -2080,12 +1783,8 @@
     "/service-areas/burien-wa/hoarding-cleanup/",
     "/service-areas/burien-wa/unattended-death-cleanup/",
     "/service-areas/burien-wa/air-duct-cleaning/",
-    "/service-areas/burien-wa/air-duct-hvac-cleaning/",
-    "/service-areas/burien-wa/basement-sewage-cleanup/",
-    "/service-areas/burien-wa/basement-water-cleanup/",
     "/service-areas/burien-wa/contents-restoration-storage/",
     "/service-areas/burien-wa/crawl-space-encapsulation/",
-    "/service-areas/burien-wa/vandalism-cleanup/",
     "/service-areas/burien-wa/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
@@ -2100,7 +1799,6 @@
     "/service-areas/lake-holm-wa/water-damage-restoration/",
     "/service-areas/lake-holm-wa/commercial-restoration/",
     "/service-areas/lake-holm-wa/emergency-plumbing/",
-    "/service-areas/lake-holm-wa/emergency-water-removal/",
     "/service-areas/lake-holm-wa/flood-damage-restoration/",
     "/service-areas/lake-holm-wa/reconstruction/",
     "/service-areas/lake-holm-wa/sewage-cleanup/",
@@ -2119,9 +1817,7 @@
     "/service-areas/lake-holm-wa/industrial-restoration/",
     "/service-areas/lake-holm-wa/odor-removal/",
     "/service-areas/lake-holm-wa/roof-leak-repair/",
-    "/service-areas/lake-holm-wa/soot-removal/",
     "/service-areas/lake-holm-wa/trauma-scene-cleanup/",
-    "/service-areas/lake-holm-wa/water-heater-flood-cleanup/",
     "/service-areas/lake-holm-wa/water-leak-detection/",
     "/service-areas/lake-holm-wa/appliance-leak-cleanup/",
     "/service-areas/lake-holm-wa/asbestos-abatement/",
@@ -2129,12 +1825,8 @@
     "/service-areas/lake-holm-wa/hoarding-cleanup/",
     "/service-areas/lake-holm-wa/unattended-death-cleanup/",
     "/service-areas/lake-holm-wa/air-duct-cleaning/",
-    "/service-areas/lake-holm-wa/air-duct-hvac-cleaning/",
-    "/service-areas/lake-holm-wa/basement-sewage-cleanup/",
-    "/service-areas/lake-holm-wa/basement-water-cleanup/",
     "/service-areas/lake-holm-wa/contents-restoration-storage/",
     "/service-areas/lake-holm-wa/crawl-space-encapsulation/",
-    "/service-areas/lake-holm-wa/vandalism-cleanup/",
     "/service-areas/lake-holm-wa/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
@@ -2149,7 +1841,6 @@
     "/service-areas/waller-wa/water-damage-restoration/",
     "/service-areas/waller-wa/commercial-restoration/",
     "/service-areas/waller-wa/emergency-plumbing/",
-    "/service-areas/waller-wa/emergency-water-removal/",
     "/service-areas/waller-wa/flood-damage-restoration/",
     "/service-areas/waller-wa/reconstruction/",
     "/service-areas/waller-wa/sewage-cleanup/",
@@ -2168,9 +1859,7 @@
     "/service-areas/waller-wa/industrial-restoration/",
     "/service-areas/waller-wa/odor-removal/",
     "/service-areas/waller-wa/roof-leak-repair/",
-    "/service-areas/waller-wa/soot-removal/",
     "/service-areas/waller-wa/trauma-scene-cleanup/",
-    "/service-areas/waller-wa/water-heater-flood-cleanup/",
     "/service-areas/waller-wa/water-leak-detection/",
     "/service-areas/waller-wa/appliance-leak-cleanup/",
     "/service-areas/waller-wa/asbestos-abatement/",
@@ -2178,12 +1867,8 @@
     "/service-areas/waller-wa/hoarding-cleanup/",
     "/service-areas/waller-wa/unattended-death-cleanup/",
     "/service-areas/waller-wa/air-duct-cleaning/",
-    "/service-areas/waller-wa/air-duct-hvac-cleaning/",
-    "/service-areas/waller-wa/basement-sewage-cleanup/",
-    "/service-areas/waller-wa/basement-water-cleanup/",
     "/service-areas/waller-wa/contents-restoration-storage/",
     "/service-areas/waller-wa/crawl-space-encapsulation/",
-    "/service-areas/waller-wa/vandalism-cleanup/",
     "/service-areas/waller-wa/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
@@ -2198,7 +1883,6 @@
     "/service-areas/sumner-wa/water-damage-restoration/",
     "/service-areas/sumner-wa/commercial-restoration/",
     "/service-areas/sumner-wa/emergency-plumbing/",
-    "/service-areas/sumner-wa/emergency-water-removal/",
     "/service-areas/sumner-wa/flood-damage-restoration/",
     "/service-areas/sumner-wa/reconstruction/",
     "/service-areas/sumner-wa/sewage-cleanup/",
@@ -2217,9 +1901,7 @@
     "/service-areas/sumner-wa/industrial-restoration/",
     "/service-areas/sumner-wa/odor-removal/",
     "/service-areas/sumner-wa/roof-leak-repair/",
-    "/service-areas/sumner-wa/soot-removal/",
     "/service-areas/sumner-wa/trauma-scene-cleanup/",
-    "/service-areas/sumner-wa/water-heater-flood-cleanup/",
     "/service-areas/sumner-wa/water-leak-detection/",
     "/service-areas/sumner-wa/appliance-leak-cleanup/",
     "/service-areas/sumner-wa/asbestos-abatement/",
@@ -2227,12 +1909,8 @@
     "/service-areas/sumner-wa/hoarding-cleanup/",
     "/service-areas/sumner-wa/unattended-death-cleanup/",
     "/service-areas/sumner-wa/air-duct-cleaning/",
-    "/service-areas/sumner-wa/air-duct-hvac-cleaning/",
-    "/service-areas/sumner-wa/basement-sewage-cleanup/",
-    "/service-areas/sumner-wa/basement-water-cleanup/",
     "/service-areas/sumner-wa/contents-restoration-storage/",
     "/service-areas/sumner-wa/crawl-space-encapsulation/",
-    "/service-areas/sumner-wa/vandalism-cleanup/",
     "/service-areas/sumner-wa/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
@@ -2247,7 +1925,6 @@
     "/service-areas/north-puyallup-wa/water-damage-restoration/",
     "/service-areas/north-puyallup-wa/commercial-restoration/",
     "/service-areas/north-puyallup-wa/emergency-plumbing/",
-    "/service-areas/north-puyallup-wa/emergency-water-removal/",
     "/service-areas/north-puyallup-wa/flood-damage-restoration/",
     "/service-areas/north-puyallup-wa/reconstruction/",
     "/service-areas/north-puyallup-wa/sewage-cleanup/",
@@ -2266,9 +1943,7 @@
     "/service-areas/north-puyallup-wa/industrial-restoration/",
     "/service-areas/north-puyallup-wa/odor-removal/",
     "/service-areas/north-puyallup-wa/roof-leak-repair/",
-    "/service-areas/north-puyallup-wa/soot-removal/",
     "/service-areas/north-puyallup-wa/trauma-scene-cleanup/",
-    "/service-areas/north-puyallup-wa/water-heater-flood-cleanup/",
     "/service-areas/north-puyallup-wa/water-leak-detection/",
     "/service-areas/north-puyallup-wa/appliance-leak-cleanup/",
     "/service-areas/north-puyallup-wa/asbestos-abatement/",
@@ -2276,12 +1951,8 @@
     "/service-areas/north-puyallup-wa/hoarding-cleanup/",
     "/service-areas/north-puyallup-wa/unattended-death-cleanup/",
     "/service-areas/north-puyallup-wa/air-duct-cleaning/",
-    "/service-areas/north-puyallup-wa/air-duct-hvac-cleaning/",
-    "/service-areas/north-puyallup-wa/basement-sewage-cleanup/",
-    "/service-areas/north-puyallup-wa/basement-water-cleanup/",
     "/service-areas/north-puyallup-wa/contents-restoration-storage/",
     "/service-areas/north-puyallup-wa/crawl-space-encapsulation/",
-    "/service-areas/north-puyallup-wa/vandalism-cleanup/",
     "/service-areas/north-puyallup-wa/post-construction-cleaning/",
     "/service-areas/algona-wa/",
     "/service-areas/auburn-wa/",
@@ -2294,15 +1965,6 @@
     "/service-areas/seattle-wa/mold-remediation/",
     "/service-areas/algona-wa/air-duct-cleaning/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/seattle-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/seattle-wa/",
-    "/service-areas/seattle-wa/fire-damage-restoration/",
-    "/service-areas/seattle-wa/mold-remediation/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/seattle-wa/appliance-leak-cleanup/": [
@@ -2330,24 +1992,6 @@
     "/service-areas/seattle-wa/mold-remediation/",
     "/service-areas/algona-wa/basement-flooding-cleanup/",
     "/service-areas/auburn-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/seattle-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/seattle-wa/",
-    "/service-areas/seattle-wa/fire-damage-restoration/",
-    "/service-areas/seattle-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/seattle-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/seattle-wa/",
-    "/service-areas/seattle-wa/fire-damage-restoration/",
-    "/service-areas/seattle-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/seattle-wa/biohazard-cleanup/": [
@@ -2429,15 +2073,6 @@
     "/service-areas/seattle-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/seattle-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/seattle-wa/",
-    "/service-areas/seattle-wa/fire-damage-restoration/",
-    "/service-areas/seattle-wa/mold-remediation/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/seattle-wa/fire-damage-restoration/": [
@@ -2584,15 +2219,6 @@
     "/service-areas/auburn-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/seattle-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/seattle-wa/",
-    "/service-areas/seattle-wa/fire-damage-restoration/",
-    "/service-areas/seattle-wa/mold-remediation/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/seattle-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/seattle-wa/",
@@ -2620,15 +2246,6 @@
     "/service-areas/auburn-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/seattle-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/seattle-wa/",
-    "/service-areas/seattle-wa/fire-damage-restoration/",
-    "/service-areas/seattle-wa/mold-remediation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/seattle-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/seattle-wa/",
@@ -2647,15 +2264,6 @@
     "/service-areas/auburn-wa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/seattle-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/seattle-wa/",
-    "/service-areas/seattle-wa/fire-damage-restoration/",
-    "/service-areas/seattle-wa/mold-remediation/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/seattle-wa/water-leak-detection/": [
     "/services/water-leak-detection/",
     "/service-areas/seattle-wa/",
@@ -2672,15 +2280,6 @@
     "/service-areas/bellevue-wa/mold-remediation/",
     "/service-areas/algona-wa/air-duct-cleaning/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/bellevue-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/bellevue-wa/",
-    "/service-areas/bellevue-wa/fire-damage-restoration/",
-    "/service-areas/bellevue-wa/mold-remediation/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/bellevue-wa/appliance-leak-cleanup/": [
@@ -2708,24 +2307,6 @@
     "/service-areas/bellevue-wa/mold-remediation/",
     "/service-areas/algona-wa/basement-flooding-cleanup/",
     "/service-areas/auburn-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/bellevue-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/bellevue-wa/",
-    "/service-areas/bellevue-wa/fire-damage-restoration/",
-    "/service-areas/bellevue-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/bellevue-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/bellevue-wa/",
-    "/service-areas/bellevue-wa/fire-damage-restoration/",
-    "/service-areas/bellevue-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/bellevue-wa/biohazard-cleanup/": [
@@ -2807,15 +2388,6 @@
     "/service-areas/bellevue-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/bellevue-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/bellevue-wa/",
-    "/service-areas/bellevue-wa/fire-damage-restoration/",
-    "/service-areas/bellevue-wa/mold-remediation/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/bellevue-wa/fire-damage-restoration/": [
@@ -2962,15 +2534,6 @@
     "/service-areas/auburn-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/bellevue-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/bellevue-wa/",
-    "/service-areas/bellevue-wa/fire-damage-restoration/",
-    "/service-areas/bellevue-wa/mold-remediation/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/bellevue-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/bellevue-wa/",
@@ -2998,15 +2561,6 @@
     "/service-areas/auburn-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/bellevue-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/bellevue-wa/",
-    "/service-areas/bellevue-wa/fire-damage-restoration/",
-    "/service-areas/bellevue-wa/mold-remediation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/bellevue-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/bellevue-wa/",
@@ -3025,15 +2579,6 @@
     "/service-areas/auburn-wa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/bellevue-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/bellevue-wa/",
-    "/service-areas/bellevue-wa/fire-damage-restoration/",
-    "/service-areas/bellevue-wa/mold-remediation/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/bellevue-wa/water-leak-detection/": [
     "/services/water-leak-detection/",
     "/service-areas/bellevue-wa/",
@@ -3050,15 +2595,6 @@
     "/service-areas/tacoma-wa/mold-remediation/",
     "/service-areas/algona-wa/air-duct-cleaning/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/tacoma-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/tacoma-wa/",
-    "/service-areas/tacoma-wa/fire-damage-restoration/",
-    "/service-areas/tacoma-wa/mold-remediation/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/tacoma-wa/appliance-leak-cleanup/": [
@@ -3086,24 +2622,6 @@
     "/service-areas/tacoma-wa/mold-remediation/",
     "/service-areas/algona-wa/basement-flooding-cleanup/",
     "/service-areas/auburn-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/tacoma-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/tacoma-wa/",
-    "/service-areas/tacoma-wa/fire-damage-restoration/",
-    "/service-areas/tacoma-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/tacoma-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/tacoma-wa/",
-    "/service-areas/tacoma-wa/fire-damage-restoration/",
-    "/service-areas/tacoma-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/tacoma-wa/biohazard-cleanup/": [
@@ -3185,15 +2703,6 @@
     "/service-areas/tacoma-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/tacoma-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/tacoma-wa/",
-    "/service-areas/tacoma-wa/fire-damage-restoration/",
-    "/service-areas/tacoma-wa/mold-remediation/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/tacoma-wa/fire-damage-restoration/": [
@@ -3340,15 +2849,6 @@
     "/service-areas/auburn-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/tacoma-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/tacoma-wa/",
-    "/service-areas/tacoma-wa/fire-damage-restoration/",
-    "/service-areas/tacoma-wa/mold-remediation/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/tacoma-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/tacoma-wa/",
@@ -3376,15 +2876,6 @@
     "/service-areas/auburn-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/tacoma-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/tacoma-wa/",
-    "/service-areas/tacoma-wa/fire-damage-restoration/",
-    "/service-areas/tacoma-wa/mold-remediation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/tacoma-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/tacoma-wa/",
@@ -3403,15 +2894,6 @@
     "/service-areas/auburn-wa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/tacoma-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/tacoma-wa/",
-    "/service-areas/tacoma-wa/fire-damage-restoration/",
-    "/service-areas/tacoma-wa/mold-remediation/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/tacoma-wa/water-leak-detection/": [
     "/services/water-leak-detection/",
     "/service-areas/tacoma-wa/",
@@ -3428,15 +2910,6 @@
     "/service-areas/everett-wa/mold-remediation/",
     "/service-areas/algona-wa/air-duct-cleaning/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/everett-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/everett-wa/",
-    "/service-areas/everett-wa/fire-damage-restoration/",
-    "/service-areas/everett-wa/mold-remediation/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/everett-wa/appliance-leak-cleanup/": [
@@ -3464,24 +2937,6 @@
     "/service-areas/everett-wa/mold-remediation/",
     "/service-areas/algona-wa/basement-flooding-cleanup/",
     "/service-areas/auburn-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/everett-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/everett-wa/",
-    "/service-areas/everett-wa/fire-damage-restoration/",
-    "/service-areas/everett-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/everett-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/everett-wa/",
-    "/service-areas/everett-wa/fire-damage-restoration/",
-    "/service-areas/everett-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/everett-wa/biohazard-cleanup/": [
@@ -3563,15 +3018,6 @@
     "/service-areas/everett-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/everett-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/everett-wa/",
-    "/service-areas/everett-wa/fire-damage-restoration/",
-    "/service-areas/everett-wa/mold-remediation/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/everett-wa/fire-damage-restoration/": [
@@ -3718,15 +3164,6 @@
     "/service-areas/auburn-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/everett-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/everett-wa/",
-    "/service-areas/everett-wa/fire-damage-restoration/",
-    "/service-areas/everett-wa/mold-remediation/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/everett-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/everett-wa/",
@@ -3754,15 +3191,6 @@
     "/service-areas/auburn-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/everett-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/everett-wa/",
-    "/service-areas/everett-wa/fire-damage-restoration/",
-    "/service-areas/everett-wa/mold-remediation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/everett-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/everett-wa/",
@@ -3781,15 +3209,6 @@
     "/service-areas/auburn-wa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/everett-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/everett-wa/",
-    "/service-areas/everett-wa/fire-damage-restoration/",
-    "/service-areas/everett-wa/mold-remediation/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/everett-wa/water-leak-detection/": [
     "/services/water-leak-detection/",
     "/service-areas/everett-wa/",
@@ -3806,15 +3225,6 @@
     "/service-areas/kent-wa/mold-remediation/",
     "/service-areas/algona-wa/air-duct-cleaning/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/kent-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/kent-wa/",
-    "/service-areas/kent-wa/fire-damage-restoration/",
-    "/service-areas/kent-wa/mold-remediation/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/kent-wa/appliance-leak-cleanup/": [
@@ -3842,24 +3252,6 @@
     "/service-areas/kent-wa/mold-remediation/",
     "/service-areas/algona-wa/basement-flooding-cleanup/",
     "/service-areas/auburn-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/kent-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/kent-wa/",
-    "/service-areas/kent-wa/fire-damage-restoration/",
-    "/service-areas/kent-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/kent-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/kent-wa/",
-    "/service-areas/kent-wa/fire-damage-restoration/",
-    "/service-areas/kent-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/kent-wa/biohazard-cleanup/": [
@@ -3941,15 +3333,6 @@
     "/service-areas/kent-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/kent-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/kent-wa/",
-    "/service-areas/kent-wa/fire-damage-restoration/",
-    "/service-areas/kent-wa/mold-remediation/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/kent-wa/fire-damage-restoration/": [
@@ -4096,15 +3479,6 @@
     "/service-areas/auburn-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/kent-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/kent-wa/",
-    "/service-areas/kent-wa/fire-damage-restoration/",
-    "/service-areas/kent-wa/mold-remediation/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/kent-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/kent-wa/",
@@ -4132,15 +3506,6 @@
     "/service-areas/auburn-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/kent-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/kent-wa/",
-    "/service-areas/kent-wa/fire-damage-restoration/",
-    "/service-areas/kent-wa/mold-remediation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/kent-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/kent-wa/",
@@ -4159,15 +3524,6 @@
     "/service-areas/auburn-wa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/kent-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/kent-wa/",
-    "/service-areas/kent-wa/fire-damage-restoration/",
-    "/service-areas/kent-wa/mold-remediation/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/kent-wa/water-leak-detection/": [
     "/services/water-leak-detection/",
     "/service-areas/kent-wa/",
@@ -4184,15 +3540,6 @@
     "/service-areas/renton-wa/mold-remediation/",
     "/service-areas/algona-wa/air-duct-cleaning/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/renton-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/renton-wa/",
-    "/service-areas/renton-wa/fire-damage-restoration/",
-    "/service-areas/renton-wa/mold-remediation/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/renton-wa/appliance-leak-cleanup/": [
@@ -4220,24 +3567,6 @@
     "/service-areas/renton-wa/mold-remediation/",
     "/service-areas/algona-wa/basement-flooding-cleanup/",
     "/service-areas/auburn-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/renton-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/renton-wa/",
-    "/service-areas/renton-wa/fire-damage-restoration/",
-    "/service-areas/renton-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/renton-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/renton-wa/",
-    "/service-areas/renton-wa/fire-damage-restoration/",
-    "/service-areas/renton-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/renton-wa/biohazard-cleanup/": [
@@ -4319,15 +3648,6 @@
     "/service-areas/renton-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/renton-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/renton-wa/",
-    "/service-areas/renton-wa/fire-damage-restoration/",
-    "/service-areas/renton-wa/mold-remediation/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/renton-wa/fire-damage-restoration/": [
@@ -4474,15 +3794,6 @@
     "/service-areas/auburn-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/renton-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/renton-wa/",
-    "/service-areas/renton-wa/fire-damage-restoration/",
-    "/service-areas/renton-wa/mold-remediation/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/renton-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/renton-wa/",
@@ -4510,15 +3821,6 @@
     "/service-areas/auburn-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/renton-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/renton-wa/",
-    "/service-areas/renton-wa/fire-damage-restoration/",
-    "/service-areas/renton-wa/mold-remediation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/renton-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/renton-wa/",
@@ -4537,15 +3839,6 @@
     "/service-areas/auburn-wa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/renton-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/renton-wa/",
-    "/service-areas/renton-wa/fire-damage-restoration/",
-    "/service-areas/renton-wa/mold-remediation/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/renton-wa/water-leak-detection/": [
     "/services/water-leak-detection/",
     "/service-areas/renton-wa/",
@@ -4562,15 +3855,6 @@
     "/service-areas/auburn-wa/mold-remediation/",
     "/service-areas/algona-wa/air-duct-cleaning/",
     "/service-areas/bellevue-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/auburn-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/",
-    "/service-areas/auburn-wa/fire-damage-restoration/",
-    "/service-areas/auburn-wa/mold-remediation/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/bellevue-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/auburn-wa/appliance-leak-cleanup/": [
@@ -4598,24 +3882,6 @@
     "/service-areas/auburn-wa/mold-remediation/",
     "/service-areas/algona-wa/basement-flooding-cleanup/",
     "/service-areas/bellevue-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/auburn-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/",
-    "/service-areas/auburn-wa/fire-damage-restoration/",
-    "/service-areas/auburn-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/bellevue-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/auburn-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/auburn-wa/",
-    "/service-areas/auburn-wa/fire-damage-restoration/",
-    "/service-areas/auburn-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/bellevue-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/auburn-wa/biohazard-cleanup/": [
@@ -4697,15 +3963,6 @@
     "/service-areas/auburn-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/bellevue-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/auburn-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/auburn-wa/",
-    "/service-areas/auburn-wa/fire-damage-restoration/",
-    "/service-areas/auburn-wa/mold-remediation/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/bellevue-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/auburn-wa/fire-damage-restoration/": [
@@ -4852,15 +4109,6 @@
     "/service-areas/bellevue-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/auburn-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/auburn-wa/",
-    "/service-areas/auburn-wa/fire-damage-restoration/",
-    "/service-areas/auburn-wa/mold-remediation/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/bellevue-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/auburn-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/auburn-wa/",
@@ -4888,15 +4136,6 @@
     "/service-areas/bellevue-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/auburn-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/auburn-wa/",
-    "/service-areas/auburn-wa/fire-damage-restoration/",
-    "/service-areas/auburn-wa/mold-remediation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/bellevue-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/auburn-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/auburn-wa/",
@@ -4915,15 +4154,6 @@
     "/service-areas/bellevue-wa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/auburn-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/",
-    "/service-areas/auburn-wa/fire-damage-restoration/",
-    "/service-areas/auburn-wa/mold-remediation/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/bellevue-wa/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/auburn-wa/water-leak-detection/": [
     "/services/water-leak-detection/",
     "/service-areas/auburn-wa/",
@@ -4940,15 +4170,6 @@
     "/service-areas/kirkland-wa/mold-remediation/",
     "/service-areas/algona-wa/air-duct-cleaning/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/kirkland-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/kirkland-wa/",
-    "/service-areas/kirkland-wa/fire-damage-restoration/",
-    "/service-areas/kirkland-wa/mold-remediation/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/kirkland-wa/appliance-leak-cleanup/": [
@@ -4976,24 +4197,6 @@
     "/service-areas/kirkland-wa/mold-remediation/",
     "/service-areas/algona-wa/basement-flooding-cleanup/",
     "/service-areas/auburn-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/kirkland-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/kirkland-wa/",
-    "/service-areas/kirkland-wa/fire-damage-restoration/",
-    "/service-areas/kirkland-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/kirkland-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/kirkland-wa/",
-    "/service-areas/kirkland-wa/fire-damage-restoration/",
-    "/service-areas/kirkland-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/kirkland-wa/biohazard-cleanup/": [
@@ -5075,15 +4278,6 @@
     "/service-areas/kirkland-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/kirkland-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/kirkland-wa/",
-    "/service-areas/kirkland-wa/fire-damage-restoration/",
-    "/service-areas/kirkland-wa/mold-remediation/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/kirkland-wa/fire-damage-restoration/": [
@@ -5230,15 +4424,6 @@
     "/service-areas/auburn-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/kirkland-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/kirkland-wa/",
-    "/service-areas/kirkland-wa/fire-damage-restoration/",
-    "/service-areas/kirkland-wa/mold-remediation/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/kirkland-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/kirkland-wa/",
@@ -5266,15 +4451,6 @@
     "/service-areas/auburn-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/kirkland-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/kirkland-wa/",
-    "/service-areas/kirkland-wa/fire-damage-restoration/",
-    "/service-areas/kirkland-wa/mold-remediation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/kirkland-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/kirkland-wa/",
@@ -5293,15 +4469,6 @@
     "/service-areas/auburn-wa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/kirkland-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/kirkland-wa/",
-    "/service-areas/kirkland-wa/fire-damage-restoration/",
-    "/service-areas/kirkland-wa/mold-remediation/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/kirkland-wa/water-leak-detection/": [
     "/services/water-leak-detection/",
     "/service-areas/kirkland-wa/",
@@ -5318,15 +4485,6 @@
     "/service-areas/redmond-wa/mold-remediation/",
     "/service-areas/algona-wa/air-duct-cleaning/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/redmond-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/redmond-wa/",
-    "/service-areas/redmond-wa/fire-damage-restoration/",
-    "/service-areas/redmond-wa/mold-remediation/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/redmond-wa/appliance-leak-cleanup/": [
@@ -5354,24 +4512,6 @@
     "/service-areas/redmond-wa/mold-remediation/",
     "/service-areas/algona-wa/basement-flooding-cleanup/",
     "/service-areas/auburn-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/redmond-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/redmond-wa/",
-    "/service-areas/redmond-wa/fire-damage-restoration/",
-    "/service-areas/redmond-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/redmond-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/redmond-wa/",
-    "/service-areas/redmond-wa/fire-damage-restoration/",
-    "/service-areas/redmond-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/redmond-wa/biohazard-cleanup/": [
@@ -5453,15 +4593,6 @@
     "/service-areas/redmond-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/redmond-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/redmond-wa/",
-    "/service-areas/redmond-wa/fire-damage-restoration/",
-    "/service-areas/redmond-wa/mold-remediation/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/redmond-wa/fire-damage-restoration/": [
@@ -5608,15 +4739,6 @@
     "/service-areas/auburn-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/redmond-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/redmond-wa/",
-    "/service-areas/redmond-wa/fire-damage-restoration/",
-    "/service-areas/redmond-wa/mold-remediation/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/redmond-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/redmond-wa/",
@@ -5644,15 +4766,6 @@
     "/service-areas/auburn-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/redmond-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/redmond-wa/",
-    "/service-areas/redmond-wa/fire-damage-restoration/",
-    "/service-areas/redmond-wa/mold-remediation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/redmond-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/redmond-wa/",
@@ -5671,15 +4784,6 @@
     "/service-areas/auburn-wa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/redmond-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/redmond-wa/",
-    "/service-areas/redmond-wa/fire-damage-restoration/",
-    "/service-areas/redmond-wa/mold-remediation/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/redmond-wa/water-leak-detection/": [
     "/services/water-leak-detection/",
     "/service-areas/redmond-wa/",
@@ -5696,15 +4800,6 @@
     "/service-areas/gig-harbor-wa/mold-remediation/",
     "/service-areas/algona-wa/air-duct-cleaning/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/gig-harbor-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/gig-harbor-wa/",
-    "/service-areas/gig-harbor-wa/fire-damage-restoration/",
-    "/service-areas/gig-harbor-wa/mold-remediation/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/gig-harbor-wa/appliance-leak-cleanup/": [
@@ -5732,24 +4827,6 @@
     "/service-areas/gig-harbor-wa/mold-remediation/",
     "/service-areas/algona-wa/basement-flooding-cleanup/",
     "/service-areas/auburn-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/gig-harbor-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/gig-harbor-wa/",
-    "/service-areas/gig-harbor-wa/fire-damage-restoration/",
-    "/service-areas/gig-harbor-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/gig-harbor-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/gig-harbor-wa/",
-    "/service-areas/gig-harbor-wa/fire-damage-restoration/",
-    "/service-areas/gig-harbor-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/gig-harbor-wa/biohazard-cleanup/": [
@@ -5831,15 +4908,6 @@
     "/service-areas/gig-harbor-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/gig-harbor-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/gig-harbor-wa/",
-    "/service-areas/gig-harbor-wa/fire-damage-restoration/",
-    "/service-areas/gig-harbor-wa/mold-remediation/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/gig-harbor-wa/fire-damage-restoration/": [
@@ -5986,15 +5054,6 @@
     "/service-areas/auburn-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/gig-harbor-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/gig-harbor-wa/",
-    "/service-areas/gig-harbor-wa/fire-damage-restoration/",
-    "/service-areas/gig-harbor-wa/mold-remediation/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/gig-harbor-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/gig-harbor-wa/",
@@ -6022,15 +5081,6 @@
     "/service-areas/auburn-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/gig-harbor-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/gig-harbor-wa/",
-    "/service-areas/gig-harbor-wa/fire-damage-restoration/",
-    "/service-areas/gig-harbor-wa/mold-remediation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/gig-harbor-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/gig-harbor-wa/",
@@ -6049,15 +5099,6 @@
     "/service-areas/auburn-wa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/gig-harbor-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/gig-harbor-wa/",
-    "/service-areas/gig-harbor-wa/fire-damage-restoration/",
-    "/service-areas/gig-harbor-wa/mold-remediation/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/gig-harbor-wa/water-leak-detection/": [
     "/services/water-leak-detection/",
     "/service-areas/gig-harbor-wa/",
@@ -6074,15 +5115,6 @@
     "/service-areas/bremerton-wa/mold-remediation/",
     "/service-areas/algona-wa/air-duct-cleaning/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/bremerton-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/bremerton-wa/",
-    "/service-areas/bremerton-wa/fire-damage-restoration/",
-    "/service-areas/bremerton-wa/mold-remediation/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/bremerton-wa/appliance-leak-cleanup/": [
@@ -6110,24 +5142,6 @@
     "/service-areas/bremerton-wa/mold-remediation/",
     "/service-areas/algona-wa/basement-flooding-cleanup/",
     "/service-areas/auburn-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/bremerton-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/bremerton-wa/",
-    "/service-areas/bremerton-wa/fire-damage-restoration/",
-    "/service-areas/bremerton-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/bremerton-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/bremerton-wa/",
-    "/service-areas/bremerton-wa/fire-damage-restoration/",
-    "/service-areas/bremerton-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/bremerton-wa/biohazard-cleanup/": [
@@ -6209,15 +5223,6 @@
     "/service-areas/bremerton-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/bremerton-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/bremerton-wa/",
-    "/service-areas/bremerton-wa/fire-damage-restoration/",
-    "/service-areas/bremerton-wa/mold-remediation/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/bremerton-wa/fire-damage-restoration/": [
@@ -6364,15 +5369,6 @@
     "/service-areas/auburn-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/bremerton-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/bremerton-wa/",
-    "/service-areas/bremerton-wa/fire-damage-restoration/",
-    "/service-areas/bremerton-wa/mold-remediation/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/bremerton-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/bremerton-wa/",
@@ -6400,15 +5396,6 @@
     "/service-areas/auburn-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/bremerton-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/bremerton-wa/",
-    "/service-areas/bremerton-wa/fire-damage-restoration/",
-    "/service-areas/bremerton-wa/mold-remediation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/bremerton-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/bremerton-wa/",
@@ -6427,15 +5414,6 @@
     "/service-areas/auburn-wa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/bremerton-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/bremerton-wa/",
-    "/service-areas/bremerton-wa/fire-damage-restoration/",
-    "/service-areas/bremerton-wa/mold-remediation/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/bremerton-wa/water-leak-detection/": [
     "/services/water-leak-detection/",
     "/service-areas/bremerton-wa/",
@@ -6452,15 +5430,6 @@
     "/service-areas/port-orchard-wa/mold-remediation/",
     "/service-areas/algona-wa/air-duct-cleaning/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/port-orchard-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/port-orchard-wa/",
-    "/service-areas/port-orchard-wa/fire-damage-restoration/",
-    "/service-areas/port-orchard-wa/mold-remediation/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/port-orchard-wa/appliance-leak-cleanup/": [
@@ -6488,24 +5457,6 @@
     "/service-areas/port-orchard-wa/mold-remediation/",
     "/service-areas/algona-wa/basement-flooding-cleanup/",
     "/service-areas/auburn-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/port-orchard-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/port-orchard-wa/",
-    "/service-areas/port-orchard-wa/fire-damage-restoration/",
-    "/service-areas/port-orchard-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/port-orchard-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/port-orchard-wa/",
-    "/service-areas/port-orchard-wa/fire-damage-restoration/",
-    "/service-areas/port-orchard-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/port-orchard-wa/biohazard-cleanup/": [
@@ -6587,15 +5538,6 @@
     "/service-areas/port-orchard-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/port-orchard-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/port-orchard-wa/",
-    "/service-areas/port-orchard-wa/fire-damage-restoration/",
-    "/service-areas/port-orchard-wa/mold-remediation/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/port-orchard-wa/fire-damage-restoration/": [
@@ -6742,15 +5684,6 @@
     "/service-areas/auburn-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/port-orchard-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/port-orchard-wa/",
-    "/service-areas/port-orchard-wa/fire-damage-restoration/",
-    "/service-areas/port-orchard-wa/mold-remediation/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/port-orchard-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/port-orchard-wa/",
@@ -6778,15 +5711,6 @@
     "/service-areas/auburn-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/port-orchard-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/port-orchard-wa/",
-    "/service-areas/port-orchard-wa/fire-damage-restoration/",
-    "/service-areas/port-orchard-wa/mold-remediation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/port-orchard-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/port-orchard-wa/",
@@ -6805,15 +5729,6 @@
     "/service-areas/auburn-wa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/port-orchard-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/port-orchard-wa/",
-    "/service-areas/port-orchard-wa/fire-damage-restoration/",
-    "/service-areas/port-orchard-wa/mold-remediation/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/port-orchard-wa/water-leak-detection/": [
     "/services/water-leak-detection/",
     "/service-areas/port-orchard-wa/",
@@ -6830,15 +5745,6 @@
     "/service-areas/university-place-wa/mold-remediation/",
     "/service-areas/algona-wa/air-duct-cleaning/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/university-place-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/university-place-wa/",
-    "/service-areas/university-place-wa/fire-damage-restoration/",
-    "/service-areas/university-place-wa/mold-remediation/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/university-place-wa/appliance-leak-cleanup/": [
@@ -6866,24 +5772,6 @@
     "/service-areas/university-place-wa/mold-remediation/",
     "/service-areas/algona-wa/basement-flooding-cleanup/",
     "/service-areas/auburn-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/university-place-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/university-place-wa/",
-    "/service-areas/university-place-wa/fire-damage-restoration/",
-    "/service-areas/university-place-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/university-place-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/university-place-wa/",
-    "/service-areas/university-place-wa/fire-damage-restoration/",
-    "/service-areas/university-place-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/university-place-wa/biohazard-cleanup/": [
@@ -6965,15 +5853,6 @@
     "/service-areas/university-place-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/university-place-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/university-place-wa/",
-    "/service-areas/university-place-wa/fire-damage-restoration/",
-    "/service-areas/university-place-wa/mold-remediation/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/university-place-wa/fire-damage-restoration/": [
@@ -7120,15 +5999,6 @@
     "/service-areas/auburn-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/university-place-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/university-place-wa/",
-    "/service-areas/university-place-wa/fire-damage-restoration/",
-    "/service-areas/university-place-wa/mold-remediation/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/university-place-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/university-place-wa/",
@@ -7156,15 +6026,6 @@
     "/service-areas/auburn-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/university-place-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/university-place-wa/",
-    "/service-areas/university-place-wa/fire-damage-restoration/",
-    "/service-areas/university-place-wa/mold-remediation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/university-place-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/university-place-wa/",
@@ -7183,15 +6044,6 @@
     "/service-areas/auburn-wa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/university-place-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/university-place-wa/",
-    "/service-areas/university-place-wa/fire-damage-restoration/",
-    "/service-areas/university-place-wa/mold-remediation/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/university-place-wa/water-leak-detection/": [
     "/services/water-leak-detection/",
     "/service-areas/university-place-wa/",
@@ -7208,15 +6060,6 @@
     "/service-areas/lakeland-north-wa/mold-remediation/",
     "/service-areas/algona-wa/air-duct-cleaning/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/lakeland-north-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/lakeland-north-wa/",
-    "/service-areas/lakeland-north-wa/fire-damage-restoration/",
-    "/service-areas/lakeland-north-wa/mold-remediation/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/lakeland-north-wa/appliance-leak-cleanup/": [
@@ -7244,24 +6087,6 @@
     "/service-areas/lakeland-north-wa/mold-remediation/",
     "/service-areas/algona-wa/basement-flooding-cleanup/",
     "/service-areas/auburn-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/lakeland-north-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/lakeland-north-wa/",
-    "/service-areas/lakeland-north-wa/fire-damage-restoration/",
-    "/service-areas/lakeland-north-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/lakeland-north-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/lakeland-north-wa/",
-    "/service-areas/lakeland-north-wa/fire-damage-restoration/",
-    "/service-areas/lakeland-north-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/lakeland-north-wa/biohazard-cleanup/": [
@@ -7343,15 +6168,6 @@
     "/service-areas/lakeland-north-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/lakeland-north-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/lakeland-north-wa/",
-    "/service-areas/lakeland-north-wa/fire-damage-restoration/",
-    "/service-areas/lakeland-north-wa/mold-remediation/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/lakeland-north-wa/fire-damage-restoration/": [
@@ -7498,15 +6314,6 @@
     "/service-areas/auburn-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/lakeland-north-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/lakeland-north-wa/",
-    "/service-areas/lakeland-north-wa/fire-damage-restoration/",
-    "/service-areas/lakeland-north-wa/mold-remediation/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/lakeland-north-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/lakeland-north-wa/",
@@ -7534,15 +6341,6 @@
     "/service-areas/auburn-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/lakeland-north-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/lakeland-north-wa/",
-    "/service-areas/lakeland-north-wa/fire-damage-restoration/",
-    "/service-areas/lakeland-north-wa/mold-remediation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/lakeland-north-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/lakeland-north-wa/",
@@ -7561,15 +6359,6 @@
     "/service-areas/auburn-wa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/lakeland-north-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/lakeland-north-wa/",
-    "/service-areas/lakeland-north-wa/fire-damage-restoration/",
-    "/service-areas/lakeland-north-wa/mold-remediation/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/lakeland-north-wa/water-leak-detection/": [
     "/services/water-leak-detection/",
     "/service-areas/lakeland-north-wa/",
@@ -7586,15 +6375,6 @@
     "/service-areas/des-moines-wa/mold-remediation/",
     "/service-areas/algona-wa/air-duct-cleaning/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/des-moines-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/des-moines-wa/",
-    "/service-areas/des-moines-wa/fire-damage-restoration/",
-    "/service-areas/des-moines-wa/mold-remediation/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/des-moines-wa/appliance-leak-cleanup/": [
@@ -7622,24 +6402,6 @@
     "/service-areas/des-moines-wa/mold-remediation/",
     "/service-areas/algona-wa/basement-flooding-cleanup/",
     "/service-areas/auburn-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/des-moines-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/des-moines-wa/",
-    "/service-areas/des-moines-wa/fire-damage-restoration/",
-    "/service-areas/des-moines-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/des-moines-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/des-moines-wa/",
-    "/service-areas/des-moines-wa/fire-damage-restoration/",
-    "/service-areas/des-moines-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/des-moines-wa/biohazard-cleanup/": [
@@ -7721,15 +6483,6 @@
     "/service-areas/des-moines-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/des-moines-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/des-moines-wa/",
-    "/service-areas/des-moines-wa/fire-damage-restoration/",
-    "/service-areas/des-moines-wa/mold-remediation/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/des-moines-wa/fire-damage-restoration/": [
@@ -7876,15 +6629,6 @@
     "/service-areas/auburn-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/des-moines-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/des-moines-wa/",
-    "/service-areas/des-moines-wa/fire-damage-restoration/",
-    "/service-areas/des-moines-wa/mold-remediation/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/des-moines-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/des-moines-wa/",
@@ -7912,15 +6656,6 @@
     "/service-areas/auburn-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/des-moines-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/des-moines-wa/",
-    "/service-areas/des-moines-wa/fire-damage-restoration/",
-    "/service-areas/des-moines-wa/mold-remediation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/des-moines-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/des-moines-wa/",
@@ -7939,15 +6674,6 @@
     "/service-areas/auburn-wa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/des-moines-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/des-moines-wa/",
-    "/service-areas/des-moines-wa/fire-damage-restoration/",
-    "/service-areas/des-moines-wa/mold-remediation/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/des-moines-wa/water-leak-detection/": [
     "/services/water-leak-detection/",
     "/service-areas/des-moines-wa/",
@@ -7964,15 +6690,6 @@
     "/service-areas/lakeland-south-wa/mold-remediation/",
     "/service-areas/algona-wa/air-duct-cleaning/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/lakeland-south-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/lakeland-south-wa/",
-    "/service-areas/lakeland-south-wa/fire-damage-restoration/",
-    "/service-areas/lakeland-south-wa/mold-remediation/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/lakeland-south-wa/appliance-leak-cleanup/": [
@@ -8000,24 +6717,6 @@
     "/service-areas/lakeland-south-wa/mold-remediation/",
     "/service-areas/algona-wa/basement-flooding-cleanup/",
     "/service-areas/auburn-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/lakeland-south-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/lakeland-south-wa/",
-    "/service-areas/lakeland-south-wa/fire-damage-restoration/",
-    "/service-areas/lakeland-south-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/lakeland-south-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/lakeland-south-wa/",
-    "/service-areas/lakeland-south-wa/fire-damage-restoration/",
-    "/service-areas/lakeland-south-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/lakeland-south-wa/biohazard-cleanup/": [
@@ -8099,15 +6798,6 @@
     "/service-areas/lakeland-south-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/lakeland-south-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/lakeland-south-wa/",
-    "/service-areas/lakeland-south-wa/fire-damage-restoration/",
-    "/service-areas/lakeland-south-wa/mold-remediation/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/lakeland-south-wa/fire-damage-restoration/": [
@@ -8254,15 +6944,6 @@
     "/service-areas/auburn-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/lakeland-south-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/lakeland-south-wa/",
-    "/service-areas/lakeland-south-wa/fire-damage-restoration/",
-    "/service-areas/lakeland-south-wa/mold-remediation/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/lakeland-south-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/lakeland-south-wa/",
@@ -8290,15 +6971,6 @@
     "/service-areas/auburn-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/lakeland-south-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/lakeland-south-wa/",
-    "/service-areas/lakeland-south-wa/fire-damage-restoration/",
-    "/service-areas/lakeland-south-wa/mold-remediation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/lakeland-south-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/lakeland-south-wa/",
@@ -8317,15 +6989,6 @@
     "/service-areas/auburn-wa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/lakeland-south-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/lakeland-south-wa/",
-    "/service-areas/lakeland-south-wa/fire-damage-restoration/",
-    "/service-areas/lakeland-south-wa/mold-remediation/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/lakeland-south-wa/water-leak-detection/": [
     "/services/water-leak-detection/",
     "/service-areas/lakeland-south-wa/",
@@ -8342,15 +7005,6 @@
     "/service-areas/algona-wa/mold-remediation/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
     "/service-areas/bellevue-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/algona-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/algona-wa/",
-    "/service-areas/algona-wa/fire-damage-restoration/",
-    "/service-areas/algona-wa/mold-remediation/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
-    "/service-areas/bellevue-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/algona-wa/appliance-leak-cleanup/": [
@@ -8378,24 +7032,6 @@
     "/service-areas/algona-wa/mold-remediation/",
     "/service-areas/auburn-wa/basement-flooding-cleanup/",
     "/service-areas/bellevue-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/algona-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/algona-wa/",
-    "/service-areas/algona-wa/fire-damage-restoration/",
-    "/service-areas/algona-wa/mold-remediation/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/service-areas/bellevue-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/algona-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/algona-wa/",
-    "/service-areas/algona-wa/fire-damage-restoration/",
-    "/service-areas/algona-wa/mold-remediation/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
-    "/service-areas/bellevue-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/algona-wa/biohazard-cleanup/": [
@@ -8477,15 +7113,6 @@
     "/service-areas/algona-wa/mold-remediation/",
     "/service-areas/auburn-wa/emergency-plumbing/",
     "/service-areas/bellevue-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/algona-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/algona-wa/",
-    "/service-areas/algona-wa/fire-damage-restoration/",
-    "/service-areas/algona-wa/mold-remediation/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
-    "/service-areas/bellevue-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/algona-wa/fire-damage-restoration/": [
@@ -8632,15 +7259,6 @@
     "/service-areas/bellevue-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/algona-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/algona-wa/",
-    "/service-areas/algona-wa/fire-damage-restoration/",
-    "/service-areas/algona-wa/mold-remediation/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/service-areas/bellevue-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/algona-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/algona-wa/",
@@ -8668,15 +7286,6 @@
     "/service-areas/bellevue-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/algona-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/algona-wa/",
-    "/service-areas/algona-wa/fire-damage-restoration/",
-    "/service-areas/algona-wa/mold-remediation/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/service-areas/bellevue-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/algona-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/algona-wa/",
@@ -8695,15 +7304,6 @@
     "/service-areas/bellevue-wa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/algona-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/algona-wa/",
-    "/service-areas/algona-wa/fire-damage-restoration/",
-    "/service-areas/algona-wa/mold-remediation/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
-    "/service-areas/bellevue-wa/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/algona-wa/water-leak-detection/": [
     "/services/water-leak-detection/",
     "/service-areas/algona-wa/",
@@ -8720,15 +7320,6 @@
     "/service-areas/milton-wa/mold-remediation/",
     "/service-areas/algona-wa/air-duct-cleaning/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/milton-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/milton-wa/",
-    "/service-areas/milton-wa/fire-damage-restoration/",
-    "/service-areas/milton-wa/mold-remediation/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/milton-wa/appliance-leak-cleanup/": [
@@ -8756,24 +7347,6 @@
     "/service-areas/milton-wa/mold-remediation/",
     "/service-areas/algona-wa/basement-flooding-cleanup/",
     "/service-areas/auburn-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/milton-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/milton-wa/",
-    "/service-areas/milton-wa/fire-damage-restoration/",
-    "/service-areas/milton-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/milton-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/milton-wa/",
-    "/service-areas/milton-wa/fire-damage-restoration/",
-    "/service-areas/milton-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/milton-wa/biohazard-cleanup/": [
@@ -8855,15 +7428,6 @@
     "/service-areas/milton-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/milton-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/milton-wa/",
-    "/service-areas/milton-wa/fire-damage-restoration/",
-    "/service-areas/milton-wa/mold-remediation/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/milton-wa/fire-damage-restoration/": [
@@ -9010,15 +7574,6 @@
     "/service-areas/auburn-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/milton-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/milton-wa/",
-    "/service-areas/milton-wa/fire-damage-restoration/",
-    "/service-areas/milton-wa/mold-remediation/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/milton-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/milton-wa/",
@@ -9046,15 +7601,6 @@
     "/service-areas/auburn-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/milton-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/milton-wa/",
-    "/service-areas/milton-wa/fire-damage-restoration/",
-    "/service-areas/milton-wa/mold-remediation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/milton-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/milton-wa/",
@@ -9073,15 +7619,6 @@
     "/service-areas/auburn-wa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/milton-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/milton-wa/",
-    "/service-areas/milton-wa/fire-damage-restoration/",
-    "/service-areas/milton-wa/mold-remediation/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/milton-wa/water-leak-detection/": [
     "/services/water-leak-detection/",
     "/service-areas/milton-wa/",
@@ -9098,15 +7635,6 @@
     "/service-areas/pacific-wa/mold-remediation/",
     "/service-areas/algona-wa/air-duct-cleaning/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/pacific-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/pacific-wa/",
-    "/service-areas/pacific-wa/fire-damage-restoration/",
-    "/service-areas/pacific-wa/mold-remediation/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/pacific-wa/appliance-leak-cleanup/": [
@@ -9134,24 +7662,6 @@
     "/service-areas/pacific-wa/mold-remediation/",
     "/service-areas/algona-wa/basement-flooding-cleanup/",
     "/service-areas/auburn-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/pacific-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/pacific-wa/",
-    "/service-areas/pacific-wa/fire-damage-restoration/",
-    "/service-areas/pacific-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/pacific-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/pacific-wa/",
-    "/service-areas/pacific-wa/fire-damage-restoration/",
-    "/service-areas/pacific-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/pacific-wa/biohazard-cleanup/": [
@@ -9233,15 +7743,6 @@
     "/service-areas/pacific-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/pacific-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/pacific-wa/",
-    "/service-areas/pacific-wa/fire-damage-restoration/",
-    "/service-areas/pacific-wa/mold-remediation/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/pacific-wa/fire-damage-restoration/": [
@@ -9388,15 +7889,6 @@
     "/service-areas/auburn-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/pacific-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/pacific-wa/",
-    "/service-areas/pacific-wa/fire-damage-restoration/",
-    "/service-areas/pacific-wa/mold-remediation/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/pacific-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/pacific-wa/",
@@ -9424,15 +7916,6 @@
     "/service-areas/auburn-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/pacific-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/pacific-wa/",
-    "/service-areas/pacific-wa/fire-damage-restoration/",
-    "/service-areas/pacific-wa/mold-remediation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/pacific-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/pacific-wa/",
@@ -9451,15 +7934,6 @@
     "/service-areas/auburn-wa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/pacific-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/pacific-wa/",
-    "/service-areas/pacific-wa/fire-damage-restoration/",
-    "/service-areas/pacific-wa/mold-remediation/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/pacific-wa/water-leak-detection/": [
     "/services/water-leak-detection/",
     "/service-areas/pacific-wa/",
@@ -9476,15 +7950,6 @@
     "/service-areas/seatac-wa/mold-remediation/",
     "/service-areas/algona-wa/air-duct-cleaning/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/seatac-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/seatac-wa/",
-    "/service-areas/seatac-wa/fire-damage-restoration/",
-    "/service-areas/seatac-wa/mold-remediation/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/seatac-wa/appliance-leak-cleanup/": [
@@ -9512,24 +7977,6 @@
     "/service-areas/seatac-wa/mold-remediation/",
     "/service-areas/algona-wa/basement-flooding-cleanup/",
     "/service-areas/auburn-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/seatac-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/seatac-wa/",
-    "/service-areas/seatac-wa/fire-damage-restoration/",
-    "/service-areas/seatac-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/seatac-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/seatac-wa/",
-    "/service-areas/seatac-wa/fire-damage-restoration/",
-    "/service-areas/seatac-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/seatac-wa/biohazard-cleanup/": [
@@ -9611,15 +8058,6 @@
     "/service-areas/seatac-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/seatac-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/seatac-wa/",
-    "/service-areas/seatac-wa/fire-damage-restoration/",
-    "/service-areas/seatac-wa/mold-remediation/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/seatac-wa/fire-damage-restoration/": [
@@ -9766,15 +8204,6 @@
     "/service-areas/auburn-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/seatac-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/seatac-wa/",
-    "/service-areas/seatac-wa/fire-damage-restoration/",
-    "/service-areas/seatac-wa/mold-remediation/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/seatac-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/seatac-wa/",
@@ -9802,15 +8231,6 @@
     "/service-areas/auburn-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/seatac-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/seatac-wa/",
-    "/service-areas/seatac-wa/fire-damage-restoration/",
-    "/service-areas/seatac-wa/mold-remediation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/seatac-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/seatac-wa/",
@@ -9829,15 +8249,6 @@
     "/service-areas/auburn-wa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/seatac-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/seatac-wa/",
-    "/service-areas/seatac-wa/fire-damage-restoration/",
-    "/service-areas/seatac-wa/mold-remediation/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/seatac-wa/water-leak-detection/": [
     "/services/water-leak-detection/",
     "/service-areas/seatac-wa/",
@@ -9854,15 +8265,6 @@
     "/service-areas/edgewood-wa/mold-remediation/",
     "/service-areas/algona-wa/air-duct-cleaning/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/edgewood-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/edgewood-wa/",
-    "/service-areas/edgewood-wa/fire-damage-restoration/",
-    "/service-areas/edgewood-wa/mold-remediation/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/edgewood-wa/appliance-leak-cleanup/": [
@@ -9890,24 +8292,6 @@
     "/service-areas/edgewood-wa/mold-remediation/",
     "/service-areas/algona-wa/basement-flooding-cleanup/",
     "/service-areas/auburn-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/edgewood-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/edgewood-wa/",
-    "/service-areas/edgewood-wa/fire-damage-restoration/",
-    "/service-areas/edgewood-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/edgewood-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/edgewood-wa/",
-    "/service-areas/edgewood-wa/fire-damage-restoration/",
-    "/service-areas/edgewood-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/edgewood-wa/biohazard-cleanup/": [
@@ -9989,15 +8373,6 @@
     "/service-areas/edgewood-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/edgewood-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/edgewood-wa/",
-    "/service-areas/edgewood-wa/fire-damage-restoration/",
-    "/service-areas/edgewood-wa/mold-remediation/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/edgewood-wa/fire-damage-restoration/": [
@@ -10144,15 +8519,6 @@
     "/service-areas/auburn-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/edgewood-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/edgewood-wa/",
-    "/service-areas/edgewood-wa/fire-damage-restoration/",
-    "/service-areas/edgewood-wa/mold-remediation/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/edgewood-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/edgewood-wa/",
@@ -10180,15 +8546,6 @@
     "/service-areas/auburn-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/edgewood-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/edgewood-wa/",
-    "/service-areas/edgewood-wa/fire-damage-restoration/",
-    "/service-areas/edgewood-wa/mold-remediation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/edgewood-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/edgewood-wa/",
@@ -10207,15 +8564,6 @@
     "/service-areas/auburn-wa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/edgewood-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/edgewood-wa/",
-    "/service-areas/edgewood-wa/fire-damage-restoration/",
-    "/service-areas/edgewood-wa/mold-remediation/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/edgewood-wa/water-leak-detection/": [
     "/services/water-leak-detection/",
     "/service-areas/edgewood-wa/",
@@ -10232,15 +8580,6 @@
     "/service-areas/fife-wa/mold-remediation/",
     "/service-areas/algona-wa/air-duct-cleaning/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/fife-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/fife-wa/",
-    "/service-areas/fife-wa/fire-damage-restoration/",
-    "/service-areas/fife-wa/mold-remediation/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/fife-wa/appliance-leak-cleanup/": [
@@ -10268,24 +8607,6 @@
     "/service-areas/fife-wa/mold-remediation/",
     "/service-areas/algona-wa/basement-flooding-cleanup/",
     "/service-areas/auburn-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/fife-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/fife-wa/",
-    "/service-areas/fife-wa/fire-damage-restoration/",
-    "/service-areas/fife-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/fife-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/fife-wa/",
-    "/service-areas/fife-wa/fire-damage-restoration/",
-    "/service-areas/fife-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/fife-wa/biohazard-cleanup/": [
@@ -10367,15 +8688,6 @@
     "/service-areas/fife-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/fife-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/fife-wa/",
-    "/service-areas/fife-wa/fire-damage-restoration/",
-    "/service-areas/fife-wa/mold-remediation/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/fife-wa/fire-damage-restoration/": [
@@ -10522,15 +8834,6 @@
     "/service-areas/auburn-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/fife-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/fife-wa/",
-    "/service-areas/fife-wa/fire-damage-restoration/",
-    "/service-areas/fife-wa/mold-remediation/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/fife-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/fife-wa/",
@@ -10558,15 +8861,6 @@
     "/service-areas/auburn-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/fife-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/fife-wa/",
-    "/service-areas/fife-wa/fire-damage-restoration/",
-    "/service-areas/fife-wa/mold-remediation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/fife-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/fife-wa/",
@@ -10585,15 +8879,6 @@
     "/service-areas/auburn-wa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/fife-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/fife-wa/",
-    "/service-areas/fife-wa/fire-damage-restoration/",
-    "/service-areas/fife-wa/mold-remediation/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/fife-wa/water-leak-detection/": [
     "/services/water-leak-detection/",
     "/service-areas/fife-wa/",
@@ -10610,15 +8895,6 @@
     "/service-areas/normandy-park-wa/mold-remediation/",
     "/service-areas/algona-wa/air-duct-cleaning/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/normandy-park-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/normandy-park-wa/",
-    "/service-areas/normandy-park-wa/fire-damage-restoration/",
-    "/service-areas/normandy-park-wa/mold-remediation/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/normandy-park-wa/appliance-leak-cleanup/": [
@@ -10646,24 +8922,6 @@
     "/service-areas/normandy-park-wa/mold-remediation/",
     "/service-areas/algona-wa/basement-flooding-cleanup/",
     "/service-areas/auburn-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/normandy-park-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/normandy-park-wa/",
-    "/service-areas/normandy-park-wa/fire-damage-restoration/",
-    "/service-areas/normandy-park-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/normandy-park-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/normandy-park-wa/",
-    "/service-areas/normandy-park-wa/fire-damage-restoration/",
-    "/service-areas/normandy-park-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/normandy-park-wa/biohazard-cleanup/": [
@@ -10745,15 +9003,6 @@
     "/service-areas/normandy-park-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/normandy-park-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/normandy-park-wa/",
-    "/service-areas/normandy-park-wa/fire-damage-restoration/",
-    "/service-areas/normandy-park-wa/mold-remediation/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/normandy-park-wa/fire-damage-restoration/": [
@@ -10900,15 +9149,6 @@
     "/service-areas/auburn-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/normandy-park-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/normandy-park-wa/",
-    "/service-areas/normandy-park-wa/fire-damage-restoration/",
-    "/service-areas/normandy-park-wa/mold-remediation/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/normandy-park-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/normandy-park-wa/",
@@ -10936,15 +9176,6 @@
     "/service-areas/auburn-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/normandy-park-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/normandy-park-wa/",
-    "/service-areas/normandy-park-wa/fire-damage-restoration/",
-    "/service-areas/normandy-park-wa/mold-remediation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/normandy-park-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/normandy-park-wa/",
@@ -10963,15 +9194,6 @@
     "/service-areas/auburn-wa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/normandy-park-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/normandy-park-wa/",
-    "/service-areas/normandy-park-wa/fire-damage-restoration/",
-    "/service-areas/normandy-park-wa/mold-remediation/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/normandy-park-wa/water-leak-detection/": [
     "/services/water-leak-detection/",
     "/service-areas/normandy-park-wa/",
@@ -10988,15 +9210,6 @@
     "/service-areas/vashon-wa/mold-remediation/",
     "/service-areas/algona-wa/air-duct-cleaning/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/vashon-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/vashon-wa/",
-    "/service-areas/vashon-wa/fire-damage-restoration/",
-    "/service-areas/vashon-wa/mold-remediation/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/vashon-wa/appliance-leak-cleanup/": [
@@ -11024,24 +9237,6 @@
     "/service-areas/vashon-wa/mold-remediation/",
     "/service-areas/algona-wa/basement-flooding-cleanup/",
     "/service-areas/auburn-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/vashon-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/vashon-wa/",
-    "/service-areas/vashon-wa/fire-damage-restoration/",
-    "/service-areas/vashon-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/vashon-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/vashon-wa/",
-    "/service-areas/vashon-wa/fire-damage-restoration/",
-    "/service-areas/vashon-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/vashon-wa/biohazard-cleanup/": [
@@ -11123,15 +9318,6 @@
     "/service-areas/vashon-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/vashon-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/vashon-wa/",
-    "/service-areas/vashon-wa/fire-damage-restoration/",
-    "/service-areas/vashon-wa/mold-remediation/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/vashon-wa/fire-damage-restoration/": [
@@ -11278,15 +9464,6 @@
     "/service-areas/auburn-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/vashon-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/vashon-wa/",
-    "/service-areas/vashon-wa/fire-damage-restoration/",
-    "/service-areas/vashon-wa/mold-remediation/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/vashon-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/vashon-wa/",
@@ -11314,15 +9491,6 @@
     "/service-areas/auburn-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/vashon-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/vashon-wa/",
-    "/service-areas/vashon-wa/fire-damage-restoration/",
-    "/service-areas/vashon-wa/mold-remediation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/vashon-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/vashon-wa/",
@@ -11341,15 +9509,6 @@
     "/service-areas/auburn-wa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/vashon-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/vashon-wa/",
-    "/service-areas/vashon-wa/fire-damage-restoration/",
-    "/service-areas/vashon-wa/mold-remediation/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/vashon-wa/water-leak-detection/": [
     "/services/water-leak-detection/",
     "/service-areas/vashon-wa/",
@@ -11366,15 +9525,6 @@
     "/service-areas/burien-wa/mold-remediation/",
     "/service-areas/algona-wa/air-duct-cleaning/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/burien-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/burien-wa/",
-    "/service-areas/burien-wa/fire-damage-restoration/",
-    "/service-areas/burien-wa/mold-remediation/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/burien-wa/appliance-leak-cleanup/": [
@@ -11402,24 +9552,6 @@
     "/service-areas/burien-wa/mold-remediation/",
     "/service-areas/algona-wa/basement-flooding-cleanup/",
     "/service-areas/auburn-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/burien-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/burien-wa/",
-    "/service-areas/burien-wa/fire-damage-restoration/",
-    "/service-areas/burien-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/burien-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/burien-wa/",
-    "/service-areas/burien-wa/fire-damage-restoration/",
-    "/service-areas/burien-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/burien-wa/biohazard-cleanup/": [
@@ -11501,15 +9633,6 @@
     "/service-areas/burien-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/burien-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/burien-wa/",
-    "/service-areas/burien-wa/fire-damage-restoration/",
-    "/service-areas/burien-wa/mold-remediation/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/burien-wa/fire-damage-restoration/": [
@@ -11656,15 +9779,6 @@
     "/service-areas/auburn-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/burien-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/burien-wa/",
-    "/service-areas/burien-wa/fire-damage-restoration/",
-    "/service-areas/burien-wa/mold-remediation/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/burien-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/burien-wa/",
@@ -11692,15 +9806,6 @@
     "/service-areas/auburn-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/burien-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/burien-wa/",
-    "/service-areas/burien-wa/fire-damage-restoration/",
-    "/service-areas/burien-wa/mold-remediation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/burien-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/burien-wa/",
@@ -11719,15 +9824,6 @@
     "/service-areas/auburn-wa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/burien-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/burien-wa/",
-    "/service-areas/burien-wa/fire-damage-restoration/",
-    "/service-areas/burien-wa/mold-remediation/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/burien-wa/water-leak-detection/": [
     "/services/water-leak-detection/",
     "/service-areas/burien-wa/",
@@ -11744,15 +9840,6 @@
     "/service-areas/lake-holm-wa/mold-remediation/",
     "/service-areas/algona-wa/air-duct-cleaning/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/lake-holm-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/lake-holm-wa/",
-    "/service-areas/lake-holm-wa/fire-damage-restoration/",
-    "/service-areas/lake-holm-wa/mold-remediation/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/lake-holm-wa/appliance-leak-cleanup/": [
@@ -11780,24 +9867,6 @@
     "/service-areas/lake-holm-wa/mold-remediation/",
     "/service-areas/algona-wa/basement-flooding-cleanup/",
     "/service-areas/auburn-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/lake-holm-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/lake-holm-wa/",
-    "/service-areas/lake-holm-wa/fire-damage-restoration/",
-    "/service-areas/lake-holm-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/lake-holm-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/lake-holm-wa/",
-    "/service-areas/lake-holm-wa/fire-damage-restoration/",
-    "/service-areas/lake-holm-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/lake-holm-wa/biohazard-cleanup/": [
@@ -11879,15 +9948,6 @@
     "/service-areas/lake-holm-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/lake-holm-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/lake-holm-wa/",
-    "/service-areas/lake-holm-wa/fire-damage-restoration/",
-    "/service-areas/lake-holm-wa/mold-remediation/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/lake-holm-wa/fire-damage-restoration/": [
@@ -12034,15 +10094,6 @@
     "/service-areas/auburn-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/lake-holm-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/lake-holm-wa/",
-    "/service-areas/lake-holm-wa/fire-damage-restoration/",
-    "/service-areas/lake-holm-wa/mold-remediation/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/lake-holm-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/lake-holm-wa/",
@@ -12070,15 +10121,6 @@
     "/service-areas/auburn-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/lake-holm-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/lake-holm-wa/",
-    "/service-areas/lake-holm-wa/fire-damage-restoration/",
-    "/service-areas/lake-holm-wa/mold-remediation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/lake-holm-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/lake-holm-wa/",
@@ -12097,15 +10139,6 @@
     "/service-areas/auburn-wa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/lake-holm-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/lake-holm-wa/",
-    "/service-areas/lake-holm-wa/fire-damage-restoration/",
-    "/service-areas/lake-holm-wa/mold-remediation/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/lake-holm-wa/water-leak-detection/": [
     "/services/water-leak-detection/",
     "/service-areas/lake-holm-wa/",
@@ -12122,15 +10155,6 @@
     "/service-areas/waller-wa/mold-remediation/",
     "/service-areas/algona-wa/air-duct-cleaning/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/waller-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/waller-wa/",
-    "/service-areas/waller-wa/fire-damage-restoration/",
-    "/service-areas/waller-wa/mold-remediation/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/waller-wa/appliance-leak-cleanup/": [
@@ -12158,24 +10182,6 @@
     "/service-areas/waller-wa/mold-remediation/",
     "/service-areas/algona-wa/basement-flooding-cleanup/",
     "/service-areas/auburn-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/waller-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/waller-wa/",
-    "/service-areas/waller-wa/fire-damage-restoration/",
-    "/service-areas/waller-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/waller-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/waller-wa/",
-    "/service-areas/waller-wa/fire-damage-restoration/",
-    "/service-areas/waller-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/waller-wa/biohazard-cleanup/": [
@@ -12257,15 +10263,6 @@
     "/service-areas/waller-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/waller-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/waller-wa/",
-    "/service-areas/waller-wa/fire-damage-restoration/",
-    "/service-areas/waller-wa/mold-remediation/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/waller-wa/fire-damage-restoration/": [
@@ -12412,15 +10409,6 @@
     "/service-areas/auburn-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/waller-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/waller-wa/",
-    "/service-areas/waller-wa/fire-damage-restoration/",
-    "/service-areas/waller-wa/mold-remediation/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/waller-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/waller-wa/",
@@ -12448,15 +10436,6 @@
     "/service-areas/auburn-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/waller-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/waller-wa/",
-    "/service-areas/waller-wa/fire-damage-restoration/",
-    "/service-areas/waller-wa/mold-remediation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/waller-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/waller-wa/",
@@ -12475,15 +10454,6 @@
     "/service-areas/auburn-wa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/waller-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/waller-wa/",
-    "/service-areas/waller-wa/fire-damage-restoration/",
-    "/service-areas/waller-wa/mold-remediation/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/waller-wa/water-leak-detection/": [
     "/services/water-leak-detection/",
     "/service-areas/waller-wa/",
@@ -12500,15 +10470,6 @@
     "/service-areas/sumner-wa/mold-remediation/",
     "/service-areas/algona-wa/air-duct-cleaning/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/sumner-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/sumner-wa/",
-    "/service-areas/sumner-wa/fire-damage-restoration/",
-    "/service-areas/sumner-wa/mold-remediation/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/sumner-wa/appliance-leak-cleanup/": [
@@ -12536,24 +10497,6 @@
     "/service-areas/sumner-wa/mold-remediation/",
     "/service-areas/algona-wa/basement-flooding-cleanup/",
     "/service-areas/auburn-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/sumner-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/sumner-wa/",
-    "/service-areas/sumner-wa/fire-damage-restoration/",
-    "/service-areas/sumner-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/sumner-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/sumner-wa/",
-    "/service-areas/sumner-wa/fire-damage-restoration/",
-    "/service-areas/sumner-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/sumner-wa/biohazard-cleanup/": [
@@ -12635,15 +10578,6 @@
     "/service-areas/sumner-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/sumner-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/sumner-wa/",
-    "/service-areas/sumner-wa/fire-damage-restoration/",
-    "/service-areas/sumner-wa/mold-remediation/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/sumner-wa/fire-damage-restoration/": [
@@ -12790,15 +10724,6 @@
     "/service-areas/auburn-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/sumner-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/sumner-wa/",
-    "/service-areas/sumner-wa/fire-damage-restoration/",
-    "/service-areas/sumner-wa/mold-remediation/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/sumner-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/sumner-wa/",
@@ -12826,15 +10751,6 @@
     "/service-areas/auburn-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/sumner-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/sumner-wa/",
-    "/service-areas/sumner-wa/fire-damage-restoration/",
-    "/service-areas/sumner-wa/mold-remediation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/sumner-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/sumner-wa/",
@@ -12853,15 +10769,6 @@
     "/service-areas/auburn-wa/water-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/sumner-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/sumner-wa/",
-    "/service-areas/sumner-wa/fire-damage-restoration/",
-    "/service-areas/sumner-wa/mold-remediation/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/sumner-wa/water-leak-detection/": [
     "/services/water-leak-detection/",
     "/service-areas/sumner-wa/",
@@ -12878,15 +10785,6 @@
     "/service-areas/north-puyallup-wa/mold-remediation/",
     "/service-areas/algona-wa/air-duct-cleaning/",
     "/service-areas/auburn-wa/air-duct-cleaning/",
-    "/contact/"
-  ],
-  "/service-areas/north-puyallup-wa/air-duct-hvac-cleaning/": [
-    "/services/air-duct-hvac-cleaning/",
-    "/service-areas/north-puyallup-wa/",
-    "/service-areas/north-puyallup-wa/fire-damage-restoration/",
-    "/service-areas/north-puyallup-wa/mold-remediation/",
-    "/service-areas/algona-wa/air-duct-hvac-cleaning/",
-    "/service-areas/auburn-wa/air-duct-hvac-cleaning/",
     "/contact/"
   ],
   "/service-areas/north-puyallup-wa/appliance-leak-cleanup/": [
@@ -12914,24 +10812,6 @@
     "/service-areas/north-puyallup-wa/mold-remediation/",
     "/service-areas/algona-wa/basement-flooding-cleanup/",
     "/service-areas/auburn-wa/basement-flooding-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/north-puyallup-wa/basement-sewage-cleanup/": [
-    "/services/basement-sewage-cleanup/",
-    "/service-areas/north-puyallup-wa/",
-    "/service-areas/north-puyallup-wa/fire-damage-restoration/",
-    "/service-areas/north-puyallup-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-sewage-cleanup/",
-    "/service-areas/auburn-wa/basement-sewage-cleanup/",
-    "/contact/"
-  ],
-  "/service-areas/north-puyallup-wa/basement-water-cleanup/": [
-    "/services/basement-water-cleanup/",
-    "/service-areas/north-puyallup-wa/",
-    "/service-areas/north-puyallup-wa/fire-damage-restoration/",
-    "/service-areas/north-puyallup-wa/mold-remediation/",
-    "/service-areas/algona-wa/basement-water-cleanup/",
-    "/service-areas/auburn-wa/basement-water-cleanup/",
     "/contact/"
   ],
   "/service-areas/north-puyallup-wa/biohazard-cleanup/": [
@@ -13013,15 +10893,6 @@
     "/service-areas/north-puyallup-wa/mold-remediation/",
     "/service-areas/algona-wa/emergency-plumbing/",
     "/service-areas/auburn-wa/emergency-plumbing/",
-    "/contact/"
-  ],
-  "/service-areas/north-puyallup-wa/emergency-water-removal/": [
-    "/services/emergency-water-removal/",
-    "/service-areas/north-puyallup-wa/",
-    "/service-areas/north-puyallup-wa/fire-damage-restoration/",
-    "/service-areas/north-puyallup-wa/mold-remediation/",
-    "/service-areas/algona-wa/emergency-water-removal/",
-    "/service-areas/auburn-wa/emergency-water-removal/",
     "/contact/"
   ],
   "/service-areas/north-puyallup-wa/fire-damage-restoration/": [
@@ -13168,15 +11039,6 @@
     "/service-areas/auburn-wa/smoke-damage-restoration/",
     "/contact/"
   ],
-  "/service-areas/north-puyallup-wa/soot-removal/": [
-    "/services/soot-removal/",
-    "/service-areas/north-puyallup-wa/",
-    "/service-areas/north-puyallup-wa/fire-damage-restoration/",
-    "/service-areas/north-puyallup-wa/mold-remediation/",
-    "/service-areas/algona-wa/soot-removal/",
-    "/service-areas/auburn-wa/soot-removal/",
-    "/contact/"
-  ],
   "/service-areas/north-puyallup-wa/storm-damage-restoration/": [
     "/services/storm-damage-restoration/",
     "/service-areas/north-puyallup-wa/",
@@ -13204,15 +11066,6 @@
     "/service-areas/auburn-wa/unattended-death-cleanup/",
     "/contact/"
   ],
-  "/service-areas/north-puyallup-wa/vandalism-cleanup/": [
-    "/services/vandalism-cleanup/",
-    "/service-areas/north-puyallup-wa/",
-    "/service-areas/north-puyallup-wa/fire-damage-restoration/",
-    "/service-areas/north-puyallup-wa/mold-remediation/",
-    "/service-areas/algona-wa/vandalism-cleanup/",
-    "/service-areas/auburn-wa/vandalism-cleanup/",
-    "/contact/"
-  ],
   "/service-areas/north-puyallup-wa/water-cleanup/": [
     "/services/water-cleanup/",
     "/service-areas/north-puyallup-wa/",
@@ -13229,15 +11082,6 @@
     "/service-areas/north-puyallup-wa/mold-remediation/",
     "/service-areas/algona-wa/water-damage-restoration/",
     "/service-areas/auburn-wa/water-damage-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/north-puyallup-wa/water-heater-flood-cleanup/": [
-    "/services/water-heater-flood-cleanup/",
-    "/service-areas/north-puyallup-wa/",
-    "/service-areas/north-puyallup-wa/fire-damage-restoration/",
-    "/service-areas/north-puyallup-wa/mold-remediation/",
-    "/service-areas/algona-wa/water-heater-flood-cleanup/",
-    "/service-areas/auburn-wa/water-heater-flood-cleanup/",
     "/contact/"
   ],
   "/service-areas/north-puyallup-wa/water-leak-detection/": [

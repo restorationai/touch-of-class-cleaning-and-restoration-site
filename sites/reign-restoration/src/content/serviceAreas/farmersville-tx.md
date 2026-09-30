@@ -10,7 +10,7 @@ priority: 4.8
 plan_hash: "a9ead651903e9424"
 generated_at: "2026-09-23T14:12:04.436336+00:00"
 manual_override: false
-internal_links: ["/service-areas/", "/contact/", "/service-areas/farmersville-tx/fire-damage-restoration/", "/service-areas/farmersville-tx/mold-remediation/", "/service-areas/farmersville-tx/roofing/", "/service-areas/farmersville-tx/water-damage-restoration/", "/service-areas/farmersville-tx/storm-damage-restoration/", "/service-areas/farmersville-tx/water-cleanup/", "/service-areas/farmersville-tx/general-contracting/", "/service-areas/farmersville-tx/odor-removal/", "/service-areas/farmersville-tx/contents-restoration-storage/", "/service-areas/farmersville-tx/contents-restoration/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/"]
+internal_links: ["/service-areas/", "/contact/", "/service-areas/farmersville-tx/fire-damage-restoration/", "/service-areas/farmersville-tx/mold-remediation/", "/service-areas/farmersville-tx/roofing/", "/service-areas/farmersville-tx/water-damage-restoration/", "/service-areas/farmersville-tx/storm-damage-restoration/", "/service-areas/farmersville-tx/water-cleanup/", "/service-areas/farmersville-tx/general-contracting/", "/service-areas/farmersville-tx/odor-removal/", "/service-areas/farmersville-tx/contents-restoration/", "/service-areas/allen-tx/", "/service-areas/caddo-mills-tx/", "/service-areas/dallas-tx/"]
 breadcrumb: [{"name": "Home", "url": "/"}, {"name": "Service Areas", "url": "/service-areas/"}, {"name": "Farmersville"}]
 faq: []
 area_slug: "farmersville-tx"

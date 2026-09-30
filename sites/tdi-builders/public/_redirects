@@ -4,3 +4,18 @@
 /service-areas/sacramento-ca/ / 301
 /service-areas/sacramento-ca/:service /services/:service/ 301
 /service-areas/sacramento-ca/:service/ /services/:service/ 301
+# duplicate service merge 2026-09-30: /services/24-7-emergency-water-cleanup/ folded into /services/water-damage-restoration/ (scripts/service_merge.py)
+/services/24-7-emergency-water-cleanup /services/water-damage-restoration/ 301
+/services/24-7-emergency-water-cleanup/ /services/water-damage-restoration/ 301
+/service-areas/:city/24-7-emergency-water-cleanup /service-areas/:city/water-damage-restoration/ 301
+/service-areas/:city/24-7-emergency-water-cleanup/ /service-areas/:city/water-damage-restoration/ 301
+# duplicate service merge 2026-09-30: /services/general-contractor/ folded into /services/general-contracting/ (scripts/service_merge.py)
+/services/general-contractor /services/general-contracting/ 301
+/services/general-contractor/ /services/general-contracting/ 301
+/service-areas/:city/general-contractor /service-areas/:city/general-contracting/ 301
+/service-areas/:city/general-contractor/ /service-areas/:city/general-contracting/ 301
+# duplicate service merge 2026-09-30: /services/bathroom-remodeler/ folded into /services/bathroom-remodeling/ (scripts/service_merge.py)
+/services/bathroom-remodeler /services/bathroom-remodeling/ 301
+/services/bathroom-remodeler/ /services/bathroom-remodeling/ 301
+/service-areas/:city/bathroom-remodeler /service-areas/:city/bathroom-remodeling/ 301
+/service-areas/:city/bathroom-remodeler/ /service-areas/:city/bathroom-remodeling/ 301

@@ -34,9 +34,7 @@
   },
   "services": [
     "air-duct-cleaning",
-    "air-duct-hvac-cleaning",
     "carpet-cleaning",
-    "carpet-upholstery-cleaning",
     "junk-debris-removal",
     "sewage-cleanup",
     "storm-damage-restoration",
@@ -129,5 +127,18 @@
     }
   ],
   "template": "restoration",
-  "blog_seed_count": 8
+  "blog_seed_count": 8,
+  "homepage_services": [
+    "water-damage-restoration",
+    "sewage-cleanup",
+    "storm-damage-restoration",
+    "air-duct-cleaning",
+    "carpet-cleaning",
+    "tile-grout-cleaning"
+  ],
+  "merged_services": {
+    "air-duct-hvac-cleaning": "air-duct-cleaning",
+    "carpet-upholstery-cleaning": "carpet-cleaning",
+    "emergency-water-removal": "water-damage-restoration"
+  }
 }

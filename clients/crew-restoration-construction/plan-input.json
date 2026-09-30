@@ -28,7 +28,6 @@
     "asbestos-abatement",
     "biohazard-cleanup",
     "contents-restoration",
-    "contents-restoration-storage",
     "emergency-board-up-tarping",
     "fire-damage-restoration",
     "general-contracting",
@@ -45,7 +44,6 @@
     "commercial-restoration",
     "deck-construction",
     "emergency-plumbing",
-    "emergency-water-removal",
     "excavations",
     "flood-damage-restoration",
     "foundation-installation",
@@ -863,5 +861,17 @@
       ],
       "local_notes": "A Plymouth County farm town in the rolling Loess Hills region of western Iowa."
     }
-  ]
+  ],
+  "homepage_services": [
+    "fire-damage-restoration",
+    "mold-remediation",
+    "roofing",
+    "water-damage-restoration",
+    "sewage-cleanup",
+    "storm-damage-restoration"
+  ],
+  "merged_services": {
+    "contents-restoration-storage": "contents-restoration",
+    "emergency-water-removal": "water-damage-restoration"
+  }
 }

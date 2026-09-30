@@ -94,3 +94,23 @@
 /service-areas/bakersfield-ca/storm-damage-restoration/ /services/storm-damage-restoration/ 301
 /service-areas/bakersfield-ca/water-damage-restoration /services/water-damage-restoration/ 301
 /service-areas/bakersfield-ca/water-damage-restoration/ /services/water-damage-restoration/ 301
+# duplicate service merge 2026-09-30: /services/emergency-water-removal/ folded into /services/water-damage-restoration/ (scripts/service_merge.py)
+/services/emergency-water-removal /services/water-damage-restoration/ 301
+/services/emergency-water-removal/ /services/water-damage-restoration/ 301
+/service-areas/:city/emergency-water-removal /service-areas/:city/water-damage-restoration/ 301
+/service-areas/:city/emergency-water-removal/ /service-areas/:city/water-damage-restoration/ 301
+# duplicate service merge 2026-09-30: /services/air-duct-hvac-cleaning/ folded into /services/air-duct-cleaning/ (scripts/service_merge.py)
+/services/air-duct-hvac-cleaning /services/air-duct-cleaning/ 301
+/services/air-duct-hvac-cleaning/ /services/air-duct-cleaning/ 301
+/service-areas/:city/air-duct-hvac-cleaning /service-areas/:city/air-duct-cleaning/ 301
+/service-areas/:city/air-duct-hvac-cleaning/ /service-areas/:city/air-duct-cleaning/ 301
+# duplicate service merge 2026-09-30: /services/soot-removal/ folded into /services/smoke-damage-restoration/ (scripts/service_merge.py)
+/services/soot-removal /services/smoke-damage-restoration/ 301
+/services/soot-removal/ /services/smoke-damage-restoration/ 301
+/service-areas/:city/soot-removal /service-areas/:city/smoke-damage-restoration/ 301
+/service-areas/:city/soot-removal/ /service-areas/:city/smoke-damage-restoration/ 301
+# duplicate service merge 2026-09-30: /services/water-heater-flood-cleanup/ folded into /services/appliance-leak-cleanup/ (scripts/service_merge.py)
+/services/water-heater-flood-cleanup /services/appliance-leak-cleanup/ 301
+/services/water-heater-flood-cleanup/ /services/appliance-leak-cleanup/ 301
+/service-areas/:city/water-heater-flood-cleanup /service-areas/:city/appliance-leak-cleanup/ 301
+/service-areas/:city/water-heater-flood-cleanup/ /service-areas/:city/appliance-leak-cleanup/ 301

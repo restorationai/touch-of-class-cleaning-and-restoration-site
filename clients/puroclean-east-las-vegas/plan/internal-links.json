@@ -15,7 +15,6 @@
     "/services/basement-flood-cleanup/",
     "/services/burst-frozen-pipes/",
     "/services/commercial-fire-restoration/",
-    "/services/contents-restoration-pack-out/",
     "/services/contents-restoration-storage/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -50,7 +49,6 @@
     "/services/basement-flood-cleanup/",
     "/services/burst-frozen-pipes/",
     "/services/commercial-fire-restoration/",
-    "/services/contents-restoration-pack-out/",
     "/services/contents-restoration-storage/"
   ],
   "/service-areas/": [
@@ -272,22 +270,6 @@
     "/service-areas/pahrump-nv/commercial-restoration/",
     "/service-areas/paradise-nv/commercial-restoration/"
   ],
-  "/services/contents-restoration-pack-out/": [
-    "/services/",
-    "/contact/",
-    "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
-    "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
-    "/service-areas/enterprise-nv/contents-restoration-pack-out/",
-    "/service-areas/henderson-nv/contents-restoration-pack-out/",
-    "/service-areas/indian-springs-nv/contents-restoration-pack-out/",
-    "/service-areas/moapa-town-nv/contents-restoration-pack-out/",
-    "/service-areas/moapa-valley-nv/contents-restoration-pack-out/",
-    "/service-areas/mount-charleston-nv/contents-restoration-pack-out/",
-    "/service-areas/nelson-nv/contents-restoration-pack-out/",
-    "/service-areas/north-las-vegas-nv/contents-restoration-pack-out/",
-    "/service-areas/pahrump-nv/contents-restoration-pack-out/",
-    "/service-areas/paradise-nv/contents-restoration-pack-out/"
-  ],
   "/services/mold-inspection-testing/": [
     "/services/",
     "/contact/",
@@ -335,7 +317,6 @@
     "/service-areas/henderson-nv/basement-flood-cleanup/",
     "/service-areas/henderson-nv/burst-frozen-pipes/",
     "/service-areas/henderson-nv/commercial-fire-restoration/",
-    "/service-areas/henderson-nv/contents-restoration-pack-out/",
     "/service-areas/henderson-nv/contents-restoration-storage/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -355,7 +336,6 @@
     "/service-areas/north-las-vegas-nv/basement-flood-cleanup/",
     "/service-areas/north-las-vegas-nv/burst-frozen-pipes/",
     "/service-areas/north-las-vegas-nv/commercial-fire-restoration/",
-    "/service-areas/north-las-vegas-nv/contents-restoration-pack-out/",
     "/service-areas/north-las-vegas-nv/contents-restoration-storage/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -375,7 +355,6 @@
     "/service-areas/paradise-nv/basement-flood-cleanup/",
     "/service-areas/paradise-nv/burst-frozen-pipes/",
     "/service-areas/paradise-nv/commercial-fire-restoration/",
-    "/service-areas/paradise-nv/contents-restoration-pack-out/",
     "/service-areas/paradise-nv/contents-restoration-storage/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -395,7 +374,6 @@
     "/service-areas/spring-valley-nv/basement-flood-cleanup/",
     "/service-areas/spring-valley-nv/burst-frozen-pipes/",
     "/service-areas/spring-valley-nv/commercial-fire-restoration/",
-    "/service-areas/spring-valley-nv/contents-restoration-pack-out/",
     "/service-areas/spring-valley-nv/contents-restoration-storage/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -415,7 +393,6 @@
     "/service-areas/sunrise-manor-nv/basement-flood-cleanup/",
     "/service-areas/sunrise-manor-nv/burst-frozen-pipes/",
     "/service-areas/sunrise-manor-nv/commercial-fire-restoration/",
-    "/service-areas/sunrise-manor-nv/contents-restoration-pack-out/",
     "/service-areas/sunrise-manor-nv/contents-restoration-storage/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -435,7 +412,6 @@
     "/service-areas/whitney-nv/basement-flood-cleanup/",
     "/service-areas/whitney-nv/burst-frozen-pipes/",
     "/service-areas/whitney-nv/commercial-fire-restoration/",
-    "/service-areas/whitney-nv/contents-restoration-pack-out/",
     "/service-areas/whitney-nv/contents-restoration-storage/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -455,7 +431,6 @@
     "/service-areas/boulder-city-nv/basement-flood-cleanup/",
     "/service-areas/boulder-city-nv/burst-frozen-pipes/",
     "/service-areas/boulder-city-nv/commercial-fire-restoration/",
-    "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
     "/service-areas/boulder-city-nv/contents-restoration-storage/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/enterprise-nv/",
@@ -475,7 +450,6 @@
     "/service-areas/winchester-nv/basement-flood-cleanup/",
     "/service-areas/winchester-nv/burst-frozen-pipes/",
     "/service-areas/winchester-nv/commercial-fire-restoration/",
-    "/service-areas/winchester-nv/contents-restoration-pack-out/",
     "/service-areas/winchester-nv/contents-restoration-storage/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -495,7 +469,6 @@
     "/service-areas/summerlin-south-nv/basement-flood-cleanup/",
     "/service-areas/summerlin-south-nv/burst-frozen-pipes/",
     "/service-areas/summerlin-south-nv/commercial-fire-restoration/",
-    "/service-areas/summerlin-south-nv/contents-restoration-pack-out/",
     "/service-areas/summerlin-south-nv/contents-restoration-storage/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -515,7 +488,6 @@
     "/service-areas/enterprise-nv/basement-flood-cleanup/",
     "/service-areas/enterprise-nv/burst-frozen-pipes/",
     "/service-areas/enterprise-nv/commercial-fire-restoration/",
-    "/service-areas/enterprise-nv/contents-restoration-pack-out/",
     "/service-areas/enterprise-nv/contents-restoration-storage/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -535,7 +507,6 @@
     "/service-areas/blue-diamond-nv/basement-flood-cleanup/",
     "/service-areas/blue-diamond-nv/burst-frozen-pipes/",
     "/service-areas/blue-diamond-nv/commercial-fire-restoration/",
-    "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
     "/service-areas/blue-diamond-nv/contents-restoration-storage/",
     "/service-areas/boulder-city-nv/",
     "/service-areas/enterprise-nv/",
@@ -555,7 +526,6 @@
     "/service-areas/mount-charleston-nv/basement-flood-cleanup/",
     "/service-areas/mount-charleston-nv/burst-frozen-pipes/",
     "/service-areas/mount-charleston-nv/commercial-fire-restoration/",
-    "/service-areas/mount-charleston-nv/contents-restoration-pack-out/",
     "/service-areas/mount-charleston-nv/contents-restoration-storage/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -575,7 +545,6 @@
     "/service-areas/nelson-nv/basement-flood-cleanup/",
     "/service-areas/nelson-nv/burst-frozen-pipes/",
     "/service-areas/nelson-nv/commercial-fire-restoration/",
-    "/service-areas/nelson-nv/contents-restoration-pack-out/",
     "/service-areas/nelson-nv/contents-restoration-storage/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -595,7 +564,6 @@
     "/service-areas/sandy-valley-nv/basement-flood-cleanup/",
     "/service-areas/sandy-valley-nv/burst-frozen-pipes/",
     "/service-areas/sandy-valley-nv/commercial-fire-restoration/",
-    "/service-areas/sandy-valley-nv/contents-restoration-pack-out/",
     "/service-areas/sandy-valley-nv/contents-restoration-storage/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -615,7 +583,6 @@
     "/service-areas/moapa-town-nv/basement-flood-cleanup/",
     "/service-areas/moapa-town-nv/burst-frozen-pipes/",
     "/service-areas/moapa-town-nv/commercial-fire-restoration/",
-    "/service-areas/moapa-town-nv/contents-restoration-pack-out/",
     "/service-areas/moapa-town-nv/contents-restoration-storage/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -635,7 +602,6 @@
     "/service-areas/indian-springs-nv/basement-flood-cleanup/",
     "/service-areas/indian-springs-nv/burst-frozen-pipes/",
     "/service-areas/indian-springs-nv/commercial-fire-restoration/",
-    "/service-areas/indian-springs-nv/contents-restoration-pack-out/",
     "/service-areas/indian-springs-nv/contents-restoration-storage/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -655,7 +621,6 @@
     "/service-areas/moapa-valley-nv/basement-flood-cleanup/",
     "/service-areas/moapa-valley-nv/burst-frozen-pipes/",
     "/service-areas/moapa-valley-nv/commercial-fire-restoration/",
-    "/service-areas/moapa-valley-nv/contents-restoration-pack-out/",
     "/service-areas/moapa-valley-nv/contents-restoration-storage/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -675,7 +640,6 @@
     "/service-areas/pahrump-nv/basement-flood-cleanup/",
     "/service-areas/pahrump-nv/burst-frozen-pipes/",
     "/service-areas/pahrump-nv/commercial-fire-restoration/",
-    "/service-areas/pahrump-nv/contents-restoration-pack-out/",
     "/service-areas/pahrump-nv/contents-restoration-storage/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -695,7 +659,6 @@
     "/service-areas/searchlight-nv/basement-flood-cleanup/",
     "/service-areas/searchlight-nv/burst-frozen-pipes/",
     "/service-areas/searchlight-nv/commercial-fire-restoration/",
-    "/service-areas/searchlight-nv/contents-restoration-pack-out/",
     "/service-areas/searchlight-nv/contents-restoration-storage/",
     "/service-areas/blue-diamond-nv/",
     "/service-areas/boulder-city-nv/",
@@ -789,15 +752,6 @@
     "/service-areas/henderson-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/commercial-restoration/",
     "/service-areas/boulder-city-nv/commercial-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/henderson-nv/contents-restoration-pack-out/": [
-    "/services/contents-restoration-pack-out/",
-    "/service-areas/henderson-nv/",
-    "/service-areas/henderson-nv/fire-damage-restoration/",
-    "/service-areas/henderson-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
-    "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
     "/contact/"
   ],
   "/service-areas/henderson-nv/mold-inspection-testing/": [
@@ -908,15 +862,6 @@
     "/service-areas/boulder-city-nv/commercial-restoration/",
     "/contact/"
   ],
-  "/service-areas/north-las-vegas-nv/contents-restoration-pack-out/": [
-    "/services/contents-restoration-pack-out/",
-    "/service-areas/north-las-vegas-nv/",
-    "/service-areas/north-las-vegas-nv/fire-damage-restoration/",
-    "/service-areas/north-las-vegas-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
-    "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
-    "/contact/"
-  ],
   "/service-areas/north-las-vegas-nv/mold-inspection-testing/": [
     "/services/mold-inspection-testing/",
     "/service-areas/north-las-vegas-nv/",
@@ -1023,15 +968,6 @@
     "/service-areas/paradise-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/commercial-restoration/",
     "/service-areas/boulder-city-nv/commercial-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/paradise-nv/contents-restoration-pack-out/": [
-    "/services/contents-restoration-pack-out/",
-    "/service-areas/paradise-nv/",
-    "/service-areas/paradise-nv/fire-damage-restoration/",
-    "/service-areas/paradise-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
-    "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
     "/contact/"
   ],
   "/service-areas/paradise-nv/mold-inspection-testing/": [
@@ -1142,15 +1078,6 @@
     "/service-areas/boulder-city-nv/commercial-restoration/",
     "/contact/"
   ],
-  "/service-areas/spring-valley-nv/contents-restoration-pack-out/": [
-    "/services/contents-restoration-pack-out/",
-    "/service-areas/spring-valley-nv/",
-    "/service-areas/spring-valley-nv/fire-damage-restoration/",
-    "/service-areas/spring-valley-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
-    "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
-    "/contact/"
-  ],
   "/service-areas/spring-valley-nv/mold-inspection-testing/": [
     "/services/mold-inspection-testing/",
     "/service-areas/spring-valley-nv/",
@@ -1257,15 +1184,6 @@
     "/service-areas/sunrise-manor-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/commercial-restoration/",
     "/service-areas/boulder-city-nv/commercial-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/sunrise-manor-nv/contents-restoration-pack-out/": [
-    "/services/contents-restoration-pack-out/",
-    "/service-areas/sunrise-manor-nv/",
-    "/service-areas/sunrise-manor-nv/fire-damage-restoration/",
-    "/service-areas/sunrise-manor-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
-    "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
     "/contact/"
   ],
   "/service-areas/sunrise-manor-nv/mold-inspection-testing/": [
@@ -1376,15 +1294,6 @@
     "/service-areas/boulder-city-nv/commercial-restoration/",
     "/contact/"
   ],
-  "/service-areas/whitney-nv/contents-restoration-pack-out/": [
-    "/services/contents-restoration-pack-out/",
-    "/service-areas/whitney-nv/",
-    "/service-areas/whitney-nv/fire-damage-restoration/",
-    "/service-areas/whitney-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
-    "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
-    "/contact/"
-  ],
   "/service-areas/whitney-nv/mold-inspection-testing/": [
     "/services/mold-inspection-testing/",
     "/service-areas/whitney-nv/",
@@ -1491,15 +1400,6 @@
     "/service-areas/boulder-city-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/commercial-restoration/",
     "/service-areas/enterprise-nv/commercial-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/boulder-city-nv/contents-restoration-pack-out/": [
-    "/services/contents-restoration-pack-out/",
-    "/service-areas/boulder-city-nv/",
-    "/service-areas/boulder-city-nv/fire-damage-restoration/",
-    "/service-areas/boulder-city-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
-    "/service-areas/enterprise-nv/contents-restoration-pack-out/",
     "/contact/"
   ],
   "/service-areas/boulder-city-nv/mold-inspection-testing/": [
@@ -1610,15 +1510,6 @@
     "/service-areas/boulder-city-nv/commercial-restoration/",
     "/contact/"
   ],
-  "/service-areas/winchester-nv/contents-restoration-pack-out/": [
-    "/services/contents-restoration-pack-out/",
-    "/service-areas/winchester-nv/",
-    "/service-areas/winchester-nv/fire-damage-restoration/",
-    "/service-areas/winchester-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
-    "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
-    "/contact/"
-  ],
   "/service-areas/winchester-nv/mold-inspection-testing/": [
     "/services/mold-inspection-testing/",
     "/service-areas/winchester-nv/",
@@ -1725,15 +1616,6 @@
     "/service-areas/summerlin-south-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/commercial-restoration/",
     "/service-areas/boulder-city-nv/commercial-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/summerlin-south-nv/contents-restoration-pack-out/": [
-    "/services/contents-restoration-pack-out/",
-    "/service-areas/summerlin-south-nv/",
-    "/service-areas/summerlin-south-nv/fire-damage-restoration/",
-    "/service-areas/summerlin-south-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
-    "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
     "/contact/"
   ],
   "/service-areas/summerlin-south-nv/mold-inspection-testing/": [
@@ -1844,15 +1726,6 @@
     "/service-areas/boulder-city-nv/commercial-restoration/",
     "/contact/"
   ],
-  "/service-areas/enterprise-nv/contents-restoration-pack-out/": [
-    "/services/contents-restoration-pack-out/",
-    "/service-areas/enterprise-nv/",
-    "/service-areas/enterprise-nv/fire-damage-restoration/",
-    "/service-areas/enterprise-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
-    "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
-    "/contact/"
-  ],
   "/service-areas/enterprise-nv/mold-inspection-testing/": [
     "/services/mold-inspection-testing/",
     "/service-areas/enterprise-nv/",
@@ -1959,15 +1832,6 @@
     "/service-areas/blue-diamond-nv/mold-remediation/",
     "/service-areas/boulder-city-nv/commercial-restoration/",
     "/service-areas/enterprise-nv/commercial-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/blue-diamond-nv/contents-restoration-pack-out/": [
-    "/services/contents-restoration-pack-out/",
-    "/service-areas/blue-diamond-nv/",
-    "/service-areas/blue-diamond-nv/fire-damage-restoration/",
-    "/service-areas/blue-diamond-nv/mold-remediation/",
-    "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
-    "/service-areas/enterprise-nv/contents-restoration-pack-out/",
     "/contact/"
   ],
   "/service-areas/blue-diamond-nv/mold-inspection-testing/": [
@@ -2078,15 +1942,6 @@
     "/service-areas/boulder-city-nv/commercial-restoration/",
     "/contact/"
   ],
-  "/service-areas/mount-charleston-nv/contents-restoration-pack-out/": [
-    "/services/contents-restoration-pack-out/",
-    "/service-areas/mount-charleston-nv/",
-    "/service-areas/mount-charleston-nv/fire-damage-restoration/",
-    "/service-areas/mount-charleston-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
-    "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
-    "/contact/"
-  ],
   "/service-areas/mount-charleston-nv/mold-inspection-testing/": [
     "/services/mold-inspection-testing/",
     "/service-areas/mount-charleston-nv/",
@@ -2193,15 +2048,6 @@
     "/service-areas/nelson-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/commercial-restoration/",
     "/service-areas/boulder-city-nv/commercial-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/nelson-nv/contents-restoration-pack-out/": [
-    "/services/contents-restoration-pack-out/",
-    "/service-areas/nelson-nv/",
-    "/service-areas/nelson-nv/fire-damage-restoration/",
-    "/service-areas/nelson-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
-    "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
     "/contact/"
   ],
   "/service-areas/nelson-nv/mold-inspection-testing/": [
@@ -2312,15 +2158,6 @@
     "/service-areas/boulder-city-nv/commercial-restoration/",
     "/contact/"
   ],
-  "/service-areas/sandy-valley-nv/contents-restoration-pack-out/": [
-    "/services/contents-restoration-pack-out/",
-    "/service-areas/sandy-valley-nv/",
-    "/service-areas/sandy-valley-nv/fire-damage-restoration/",
-    "/service-areas/sandy-valley-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
-    "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
-    "/contact/"
-  ],
   "/service-areas/sandy-valley-nv/mold-inspection-testing/": [
     "/services/mold-inspection-testing/",
     "/service-areas/sandy-valley-nv/",
@@ -2427,15 +2264,6 @@
     "/service-areas/moapa-town-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/commercial-restoration/",
     "/service-areas/boulder-city-nv/commercial-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/moapa-town-nv/contents-restoration-pack-out/": [
-    "/services/contents-restoration-pack-out/",
-    "/service-areas/moapa-town-nv/",
-    "/service-areas/moapa-town-nv/fire-damage-restoration/",
-    "/service-areas/moapa-town-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
-    "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
     "/contact/"
   ],
   "/service-areas/moapa-town-nv/mold-inspection-testing/": [
@@ -2546,15 +2374,6 @@
     "/service-areas/boulder-city-nv/commercial-restoration/",
     "/contact/"
   ],
-  "/service-areas/indian-springs-nv/contents-restoration-pack-out/": [
-    "/services/contents-restoration-pack-out/",
-    "/service-areas/indian-springs-nv/",
-    "/service-areas/indian-springs-nv/fire-damage-restoration/",
-    "/service-areas/indian-springs-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
-    "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
-    "/contact/"
-  ],
   "/service-areas/indian-springs-nv/mold-inspection-testing/": [
     "/services/mold-inspection-testing/",
     "/service-areas/indian-springs-nv/",
@@ -2661,15 +2480,6 @@
     "/service-areas/moapa-valley-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/commercial-restoration/",
     "/service-areas/boulder-city-nv/commercial-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/moapa-valley-nv/contents-restoration-pack-out/": [
-    "/services/contents-restoration-pack-out/",
-    "/service-areas/moapa-valley-nv/",
-    "/service-areas/moapa-valley-nv/fire-damage-restoration/",
-    "/service-areas/moapa-valley-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
-    "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
     "/contact/"
   ],
   "/service-areas/moapa-valley-nv/mold-inspection-testing/": [
@@ -2780,15 +2590,6 @@
     "/service-areas/boulder-city-nv/commercial-restoration/",
     "/contact/"
   ],
-  "/service-areas/pahrump-nv/contents-restoration-pack-out/": [
-    "/services/contents-restoration-pack-out/",
-    "/service-areas/pahrump-nv/",
-    "/service-areas/pahrump-nv/fire-damage-restoration/",
-    "/service-areas/pahrump-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
-    "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
-    "/contact/"
-  ],
   "/service-areas/pahrump-nv/mold-inspection-testing/": [
     "/services/mold-inspection-testing/",
     "/service-areas/pahrump-nv/",
@@ -2895,15 +2696,6 @@
     "/service-areas/searchlight-nv/mold-remediation/",
     "/service-areas/blue-diamond-nv/commercial-restoration/",
     "/service-areas/boulder-city-nv/commercial-restoration/",
-    "/contact/"
-  ],
-  "/service-areas/searchlight-nv/contents-restoration-pack-out/": [
-    "/services/contents-restoration-pack-out/",
-    "/service-areas/searchlight-nv/",
-    "/service-areas/searchlight-nv/fire-damage-restoration/",
-    "/service-areas/searchlight-nv/mold-remediation/",
-    "/service-areas/blue-diamond-nv/contents-restoration-pack-out/",
-    "/service-areas/boulder-city-nv/contents-restoration-pack-out/",
     "/contact/"
   ],
   "/service-areas/searchlight-nv/mold-inspection-testing/": [

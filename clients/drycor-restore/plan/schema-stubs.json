@@ -198,27 +198,7 @@
     ],
     "missing_stubs": []
   },
-  "/services/emergency-water-removal/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/services/flood-damage-restoration/": {
-    "archetype": "service-landing",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/services/hurricane-damage-restoration/": {
     "archetype": "service-landing",
     "stubs": [
       "service",
@@ -1041,27 +1021,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/tampa-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/tampa-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/tampa-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1281,27 +1241,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/brandon-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/brandon-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/brandon-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1521,27 +1461,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/plant-city-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/plant-city-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/plant-city-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -1761,27 +1681,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/temple-terrace-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/temple-terrace-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/temple-terrace-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2001,27 +1901,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lakeland-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lakeland-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lakeland-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2241,27 +2121,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/seffner-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/seffner-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/seffner-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2481,27 +2341,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/zephyrhills-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/zephyrhills-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/zephyrhills-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2721,27 +2561,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/dover-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/dover-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/dover-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -2961,27 +2781,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/st-petersburg-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/st-petersburg-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/st-petersburg-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3201,27 +3001,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/clearwater-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/clearwater-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/clearwater-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3441,27 +3221,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/largo-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/largo-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/largo-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3681,27 +3441,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/pinellas-park-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/pinellas-park-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pinellas-park-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -3921,27 +3661,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/palm-harbor-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/palm-harbor-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/palm-harbor-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4161,27 +3881,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/dunedin-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/dunedin-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/dunedin-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4401,27 +4101,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/riverview-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/riverview-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/riverview-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4641,27 +4321,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/valrico-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/valrico-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/valrico-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -4881,27 +4541,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/apollo-beach-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/apollo-beach-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/apollo-beach-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5121,27 +4761,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ruskin-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ruskin-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ruskin-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5361,27 +4981,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lutz-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lutz-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lutz-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5601,27 +5201,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/wesley-chapel-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/wesley-chapel-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/wesley-chapel-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -5841,27 +5421,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/land-o-lakes-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/land-o-lakes-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/land-o-lakes-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6081,27 +5641,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/new-port-richey-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/new-port-richey-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/new-port-richey-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6321,27 +5861,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bradenton-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bradenton-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bradenton-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6561,27 +6081,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/palmetto-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/palmetto-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/palmetto-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -6801,27 +6301,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/winter-haven-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/winter-haven-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/winter-haven-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7041,27 +6521,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/auburndale-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/auburndale-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/auburndale-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7281,27 +6741,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/anna-maria-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/anna-maria-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/anna-maria-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7521,27 +6961,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/bartow-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/bartow-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/bartow-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -7761,27 +7181,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/clearwater-beach-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/clearwater-beach-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/clearwater-beach-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8001,27 +7401,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/dade-city-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/dade-city-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/dade-city-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8241,27 +7621,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/davenport-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/davenport-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/davenport-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8481,27 +7841,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/dundee-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/dundee-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/dundee-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8721,27 +8061,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/ellenton-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/ellenton-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/ellenton-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -8961,27 +8281,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/englewood-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/englewood-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/englewood-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9201,27 +8501,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/gibsonton-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/gibsonton-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/gibsonton-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9441,27 +8721,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/haines-city-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/haines-city-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/haines-city-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9681,27 +8941,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/holiday-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/holiday-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/holiday-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -9921,27 +9161,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/holmes-beach-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/holmes-beach-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/holmes-beach-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10161,27 +9381,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lake-wales-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lake-wales-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lake-wales-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10401,27 +9601,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lakewood-ranch-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lakewood-ranch-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lakewood-ranch-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10641,27 +9821,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lithia-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lithia-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lithia-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -10881,27 +10041,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/longboat-key-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/longboat-key-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/longboat-key-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11121,27 +10261,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/mulberry-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/mulberry-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/mulberry-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11361,27 +10481,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/nokomis-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/nokomis-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/nokomis-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11601,27 +10701,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/north-port-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/north-port-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/north-port-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -11841,27 +10921,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/odessa-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/odessa-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/odessa-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12081,27 +11141,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/oldsmar-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/oldsmar-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/oldsmar-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12321,27 +11361,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/osprey-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/osprey-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/osprey-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12561,27 +11581,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/parrish-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/parrish-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/parrish-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -12801,27 +11801,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/polk-city-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/polk-city-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/polk-city-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -13041,27 +12021,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/port-richey-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/port-richey-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/port-richey-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -13281,27 +12241,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/safety-harbor-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/safety-harbor-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/safety-harbor-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -13521,27 +12461,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sarasota-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sarasota-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sarasota-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -13761,27 +12681,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/seminole-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/seminole-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/seminole-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -14001,27 +12901,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/siesta-key-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/siesta-key-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/siesta-key-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -14241,27 +13121,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/st-pete-beach-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/st-pete-beach-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/st-pete-beach-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -14481,27 +13341,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/sun-city-center-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/sun-city-center-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/sun-city-center-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -14721,27 +13561,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/tarpon-springs-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/tarpon-springs-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/tarpon-springs-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -14961,27 +13781,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/trinity-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/trinity-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/trinity-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -15201,27 +14001,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/venice-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/venice-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/venice-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -15441,27 +14221,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/mango-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/mango-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/mango-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -15681,27 +14441,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/east-lake-orient-park-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/east-lake-orient-park-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/east-lake-orient-park-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -15921,27 +14661,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/pebble-creek-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/pebble-creek-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/pebble-creek-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -16161,27 +14881,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/university-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/university-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/university-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -16401,27 +15101,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/palm-river-clair-mel-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/palm-river-clair-mel-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/palm-river-clair-mel-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -16641,27 +15321,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/lake-magdalene-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/lake-magdalene-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/lake-magdalene-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",
@@ -16881,27 +15541,7 @@
     ],
     "missing_stubs": []
   },
-  "/service-areas/crystal-springs-fl/emergency-water-removal/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
   "/service-areas/crystal-springs-fl/flood-damage-restoration/": {
-    "archetype": "service-area-service",
-    "stubs": [
-      "service",
-      "local-business",
-      "faq",
-      "breadcrumb-list"
-    ],
-    "missing_stubs": []
-  },
-  "/service-areas/crystal-springs-fl/hurricane-damage-restoration/": {
     "archetype": "service-area-service",
     "stubs": [
       "service",

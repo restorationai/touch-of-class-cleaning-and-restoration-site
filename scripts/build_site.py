@@ -2243,6 +2243,7 @@ def cmd_scaffold(args) -> int:
         (content_root / sub).mkdir(parents=True, exist_ok=True)
     count = render_all_content(site_dir, plan_input, url_plan, internal_links)
     print(f"      Wrote {count} markdown files.")
+    _sync_homepage_services(slug, seed=True)
 
     # Step 3: Create GitHub repo (idempotent)
     print(f"[3/5] Ensuring GitHub repo {GH_OWNER}/{repo_name} exists...")
@@ -3200,7 +3201,23 @@ def cmd_add_pages(args) -> int:
                          services_lookup, areas_lookup, blog_topics_lookup, internal_links)
         new += 1
     print(f"  {slug}: wrote {new} new page file(s); {len(url_plan['pages']) - new} existing untouched")
+    _sync_homepage_services(slug)
     return 0
+
+
+def _sync_homepage_services(slug: str, seed: bool = False) -> None:
+    """HOMEPAGE = CURATED CORE (Santino 2026-09-30): mirror plan-input
+    `homepage_services` into src/data/homepage-services.json so new pages
+    (parity, core floor) never push the client's core services off the
+    homepage strip. seed=True (scaffold) freezes a new client's list from
+    its first build. Fail-open: a missing list keeps the priority fallback."""
+    try:
+        import site_structure
+        if seed:
+            site_structure.seed_homepage_services(slug)
+        site_structure.write_homepage_services(slug)
+    except Exception as e:  # noqa: BLE001
+        print(f"  homepage services sync skipped ({str(e)[:100]})")
 
 
 def build_parser() -> argparse.ArgumentParser:
