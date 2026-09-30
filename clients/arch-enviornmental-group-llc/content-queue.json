@@ -49,7 +49,7 @@
     },
     {
       "id": "2026-09-06-lead-testing",
-      "status": "written",
+      "status": "published",
       "queued_at": "2026-09-06T10:23:57Z",
       "priority": 1,
       "content_type": "target_term",
@@ -116,7 +116,8 @@
           "context": "EPA-mandated](https://www.epa.gov/lead) lead-safe procedures. Once that work is finished",
           "reason": "names a certification not present in brand.certifications"
         }
-      ]
+      ],
+      "published_verified_at": "2026-09-30T10:28:59Z"
     },
     {
       "id": "2026-09-03-best-mold-inspection-testing-in-kingsburg-ca",
