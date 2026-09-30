@@ -117,6 +117,21 @@ def _route_human(need_id: str, f: dict) -> None:
     _sb("POST", "/rest/v1/marketing_ops_notes",
         {"company_id": None, "author": "mini-responder", "status": "open",
          "body": body[:900]}, prefer="return=minimal")
+    # TEXT SANTINO (2026-09-30): routed needs used to land ONLY as a
+    # company-less ops note, which the daily digest never shows, so the
+    # Mini's "URGENT before 11:30" sweep question sat unanswered two days
+    # while the sweep put tracking numbers on live listings. One SMS per
+    # routed need; a failed text never breaks the responder.
+    q = re.sub(r"\s+", " ", f.get("question") or f.get("for") or "")
+    sms = (f"MINI NEEDS YOU ({f.get('client', '?')}): {q[:420]}"
+           + (" ..." if len(q) > 420 else "")
+           + " Reply to Claude or answer in mini-needs.md.")
+    try:
+        from client_concierge import send_message, OPS_PING_CONTACT_ID, OPS_PING_CELL
+        send_message({"id": OPS_PING_CONTACT_ID, "phone": OPS_PING_CELL}, "sms", sms[:640])
+        print(f"  {need_id}: texted Santino")
+    except Exception as e:  # noqa: BLE001
+        print(f"  {need_id}: SMS failed: {str(e)[:100]}")
 
 
 def main() -> int:
