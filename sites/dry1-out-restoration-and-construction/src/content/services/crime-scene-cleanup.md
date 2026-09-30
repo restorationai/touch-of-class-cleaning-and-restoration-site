@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Crime Scene Cleanup in Vista | Dry1 Out Restoration and Construction"
 h1: "Crime Scene Cleanup in Vista"
-meta_description: "24/7 crime scene cleanup in Vista and surrounding areas. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 crime scene cleanup in Vista and surrounding areas. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "crime scene cleanup vista"
 secondary_keywords: ["crime scene cleaning", "forensic cleanup", "post-crime cleanup", "homicide cleanup", "suicide scene cleanup"]
 search_intent: "local_sensitive"

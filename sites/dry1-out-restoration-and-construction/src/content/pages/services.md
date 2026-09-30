@@ -2,7 +2,7 @@
 archetype: "services-hub"
 title: "Restoration Services in Vista | Dry1 Out Restoration and Construction"
 h1: "Our Restoration Services"
-meta_description: "Full-service restoration in Vista: water, fire, mold, storm, biohazard, and commercial restoration. 24/7 response. Call (760) 576-1987."
+meta_description: "Full-service restoration in Vista: water, fire, mold, storm, biohazard, and commercial restoration. 24/7 response. Call (888) 379-1688."
 primary_keyword: "restoration services vista"
 secondary_keywords: ["damage restoration services", "property restoration services", "disaster restoration"]
 search_intent: "local_commercial"

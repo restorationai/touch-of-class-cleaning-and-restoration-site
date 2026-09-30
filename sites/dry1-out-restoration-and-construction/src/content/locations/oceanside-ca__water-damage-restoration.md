@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Damage Restoration in Oceanside, CA | Dry1 Out Restoration and Construction"
 h1: "Water Damage Restoration in Oceanside"
-meta_description: "24/7 water damage restoration in Oceanside, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 water damage restoration in Oceanside, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "water damage restoration oceanside"
 secondary_keywords: ["water removal", "water extraction", "water cleanup", "structural drying", "water mitigation"]
 search_intent: "local_emergency"

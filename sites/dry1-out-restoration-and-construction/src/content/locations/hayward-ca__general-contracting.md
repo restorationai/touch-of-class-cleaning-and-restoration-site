@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Renovations, Remodels and General Contracting in Hayward, CA | Dry1 Out Restoration and Construction"
 h1: "Renovations, Remodels and General Contracting in Hayward"
-meta_description: "24/7 renovations, remodels and general contracting in Hayward, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 renovations, remodels and general contracting in Hayward, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "renovations, remodels and general contracting hayward"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"

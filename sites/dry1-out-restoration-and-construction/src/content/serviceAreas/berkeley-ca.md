@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in Berkeley, CA | Dry1 Out Restoration and Construction"
 h1: "Restoration Services in Berkeley"
-meta_description: "Serving Berkeley, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (760) 576-1987."
+meta_description: "Serving Berkeley, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (888) 379-1688."
 primary_keyword: "restoration services berkeley"
 secondary_keywords: ["berkeley restoration company", "damage restoration berkeley", "berkeley disaster restoration"]
 search_intent: "local_commercial"

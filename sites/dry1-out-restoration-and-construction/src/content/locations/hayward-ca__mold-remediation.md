@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Hayward, CA | Dry1 Out Restoration and Construction"
 h1: "Mold Remediation in Hayward"
-meta_description: "24/7 mold remediation in Hayward, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 mold remediation in Hayward, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "mold remediation hayward"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"

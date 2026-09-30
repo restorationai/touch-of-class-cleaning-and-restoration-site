@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Flood Damage Restoration in Concord, CA | Dry1 Out Restoration and Construction"
 h1: "Flood Damage Restoration in Concord"
-meta_description: "24/7 flood damage restoration in Concord, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 flood damage restoration in Concord, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "flood damage restoration concord"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Emergency Plumbing in Escondido, CA | Dry1 Out Restoration and Construction"
 h1: "Emergency Plumbing in Escondido"
-meta_description: "24/7 emergency plumbing in Escondido, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 emergency plumbing in Escondido, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "emergency plumbing escondido"
 secondary_keywords: ["emergency plumber", "24 hour plumber", "burst pipe plumber", "emergency plumbing repair", "24/7 plumbing"]
 search_intent: "local_emergency"

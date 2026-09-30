@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Appliance Leak Cleanup in Hayward, CA | Dry1 Out Restoration and Construction"
 h1: "Appliance Leak Cleanup in Hayward"
-meta_description: "24/7 appliance leak cleanup in Hayward, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 appliance leak cleanup in Hayward, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "appliance leak cleanup hayward"
 secondary_keywords: ["dishwasher leak cleanup", "washing machine flood", "refrigerator leak cleanup", "water heater leak cleanup", "ice maker line leak"]
 search_intent: "local_emergency"

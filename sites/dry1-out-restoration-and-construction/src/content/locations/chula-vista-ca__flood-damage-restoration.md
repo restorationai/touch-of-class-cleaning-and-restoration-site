@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Flood Damage Restoration in Chula Vista, CA | Dry1 Out Restoration and Construction"
 h1: "Flood Damage Restoration in Chula Vista"
-meta_description: "24/7 flood damage restoration in Chula Vista, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 flood damage restoration in Chula Vista, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "flood damage restoration chula vista"
 secondary_keywords: ["flood cleanup", "flood restoration", "post-flood restoration", "residential flood damage", "flood damage repair"]
 search_intent: "local_emergency"

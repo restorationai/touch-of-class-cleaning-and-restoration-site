@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in Escondido, CA | Dry1 Out Restoration and Construction"
 h1: "Restoration Services in Escondido"
-meta_description: "Serving Escondido, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (760) 576-1987."
+meta_description: "Serving Escondido, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (888) 379-1688."
 primary_keyword: "restoration services escondido"
 secondary_keywords: ["escondido restoration company", "damage restoration escondido", "escondido disaster restoration"]
 search_intent: "local_commercial"

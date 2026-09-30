@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Leak Detection in Hayward, CA | Dry1 Out Restoration and Construction"
 h1: "Water Leak Detection in Hayward"
-meta_description: "24/7 water leak detection in Hayward, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 water leak detection in Hayward, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "water leak detection hayward"
 secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection", "water leak in wall", "leak detection service"]
 search_intent: "local_emergency"

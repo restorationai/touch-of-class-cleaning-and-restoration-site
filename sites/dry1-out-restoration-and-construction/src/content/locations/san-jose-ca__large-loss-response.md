@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Large Loss and Catastrophic Response in San Jose, CA | Dry1 Out Restoration and Construction"
 h1: "Large Loss and Catastrophic Response in San Jose"
-meta_description: "24/7 large loss and catastrophic response in San Jose, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 large loss and catastrophic response in San Jose, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "large loss and catastrophic response san jose"
 secondary_keywords: ["large loss restoration", "catastrophic loss response", "commercial catastrophic restoration", "multi-million dollar restoration", "large loss adjusters"]
 search_intent: "local_b2b"

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in Sunnyvale, CA | Dry1 Out Restoration and Construction"
 h1: "Storm Damage Restoration in Sunnyvale"
-meta_description: "24/7 storm damage restoration in Sunnyvale, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 storm damage restoration in Sunnyvale, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "storm damage restoration sunnyvale"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

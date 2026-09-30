@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Storm Damage Restoration in San Marcos, CA | Dry1 Out Restoration and Construction"
 h1: "Storm Damage Restoration in San Marcos"
-meta_description: "24/7 storm damage restoration in San Marcos, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 storm damage restoration in San Marcos, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "storm damage restoration san marcos"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

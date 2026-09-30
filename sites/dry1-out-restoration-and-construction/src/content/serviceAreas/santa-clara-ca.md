@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in Santa Clara, CA | Dry1 Out Restoration and Construction"
 h1: "Restoration Services in Santa Clara"
-meta_description: "Serving Santa Clara, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (760) 576-1987."
+meta_description: "Serving Santa Clara, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (888) 379-1688."
 primary_keyword: "restoration services santa clara"
 secondary_keywords: ["santa clara restoration company", "damage restoration santa clara", "santa clara disaster restoration"]
 search_intent: "local_commercial"

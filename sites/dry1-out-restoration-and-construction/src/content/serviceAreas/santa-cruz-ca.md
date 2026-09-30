@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in Santa Cruz, CA | Dry1 Out Restoration and Construction"
 h1: "Restoration Services in Santa Cruz"
-meta_description: "Serving Santa Cruz, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (760) 576-1987."
+meta_description: "Serving Santa Cruz, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (888) 379-1688."
 primary_keyword: "restoration services santa cruz"
 secondary_keywords: ["santa cruz restoration company", "damage restoration santa cruz", "santa cruz disaster restoration"]
 search_intent: "local_commercial"

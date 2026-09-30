@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Mold Remediation in Vista | Dry1 Out Restoration and Construction"
 h1: "Mold Remediation in Vista"
-meta_description: "24/7 mold remediation in Vista and surrounding areas. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 mold remediation in Vista and surrounding areas. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "mold remediation vista"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"
@@ -59,4 +59,4 @@ Vista sits far enough inland from the coast that it doesn't get San Diego's heav
 
 Dry1 Out Restoration and Construction handles mold remediation for homeowners and property managers throughout Vista and nearby North San Diego County communities, including Oceanside, Carlsbad, San Marcos, Escondido, and Fallbrook.
 
-If you're smelling something musty that wasn't there before, or you've found spotting after a leak that took a while to notice, call (760) 576-1987 to request an air quality test and get a written scope before anything comes off your walls.
+If you're smelling something musty that wasn't there before, or you've found spotting after a leak that took a while to notice, call (888) 379-1688 to request an air quality test and get a written scope before anything comes off your walls.

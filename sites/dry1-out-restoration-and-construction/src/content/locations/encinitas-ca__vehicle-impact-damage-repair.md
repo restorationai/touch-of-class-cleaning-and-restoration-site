@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Vehicle Impact Damage Repair in Encinitas, CA | Dry1 Out Restoration and Construction"
 h1: "Vehicle Impact Damage Repair in Encinitas"
-meta_description: "24/7 vehicle impact damage repair in Encinitas, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 vehicle impact damage repair in Encinitas, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "vehicle impact damage repair encinitas"
 secondary_keywords: []
 search_intent: "local_specialty"

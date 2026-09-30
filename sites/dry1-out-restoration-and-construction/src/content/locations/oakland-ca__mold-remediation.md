@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Oakland, CA | Dry1 Out Restoration and Construction"
 h1: "Mold Remediation in Oakland"
-meta_description: "24/7 mold remediation in Oakland, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 mold remediation in Oakland, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "mold remediation oakland"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"

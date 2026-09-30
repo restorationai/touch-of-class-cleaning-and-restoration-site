@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Biohazard Cleanup in Santa Clara, CA | Dry1 Out Restoration and Construction"
 h1: "Biohazard Cleanup in Santa Clara"
-meta_description: "24/7 biohazard cleanup in Santa Clara, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 biohazard cleanup in Santa Clara, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "biohazard cleanup santa clara"
 secondary_keywords: ["biohazard remediation", "blood cleanup", "bodily fluid cleanup", "sharps and needle cleanup", "infectious material cleanup"]
 search_intent: "local_sensitive"

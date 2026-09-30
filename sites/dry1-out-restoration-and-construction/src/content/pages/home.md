@@ -2,7 +2,7 @@
 archetype: "home"
 title: "Dry1 Out Restoration and Construction | Restoration Services in Vista, CA"
 h1: "24/7 Restoration Services in Vista"
-meta_description: "Dry1 Out Restoration and Construction provides 24/7 water, fire, mold, and storm damage restoration across Vista and surrounding areas. Licensed, insured, IICRC-certified. Call (760) 576-1987."
+meta_description: "Dry1 Out Restoration and Construction provides 24/7 water, fire, mold, and storm damage restoration across Vista and surrounding areas. Licensed, insured, IICRC-certified. Call (888) 379-1688."
 primary_keyword: "restoration services vista"
 secondary_keywords: ["restoration company near me", "24/7 damage restoration", "emergency restoration"]
 search_intent: "local_commercial"

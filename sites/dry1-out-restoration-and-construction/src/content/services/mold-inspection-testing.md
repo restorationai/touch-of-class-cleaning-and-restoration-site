@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Mold Inspection and Testing in Vista | Dry1 Out Restoration and Construction"
 h1: "Mold Inspection and Testing in Vista"
-meta_description: "24/7 mold inspection and testing in Vista and surrounding areas. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 mold inspection and testing in Vista and surrounding areas. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "mold inspection and testing vista"
 secondary_keywords: ["mold inspection", "mold testing", "indoor air quality testing", "mold spore testing", "mold assessment"]
 search_intent: "local_health"

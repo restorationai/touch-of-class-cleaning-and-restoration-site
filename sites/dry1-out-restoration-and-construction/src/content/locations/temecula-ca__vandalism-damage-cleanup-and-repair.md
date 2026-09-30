@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Vandalism Damage Cleanup and Repair in Temecula, CA | Dry1 Out Restoration and Construction"
 h1: "Vandalism Damage Cleanup and Repair in Temecula"
-meta_description: "24/7 vandalism damage cleanup and repair in Temecula, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 vandalism damage cleanup and repair in Temecula, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "vandalism damage cleanup and repair temecula"
 secondary_keywords: []
 search_intent: "local_specialty"

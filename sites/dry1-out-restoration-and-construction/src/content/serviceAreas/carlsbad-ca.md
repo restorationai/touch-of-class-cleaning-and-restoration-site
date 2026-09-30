@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in Carlsbad, CA | Dry1 Out Restoration and Construction"
 h1: "Restoration Services in Carlsbad"
-meta_description: "Serving Carlsbad, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (760) 576-1987."
+meta_description: "Serving Carlsbad, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (888) 379-1688."
 primary_keyword: "restoration services carlsbad"
 secondary_keywords: ["carlsbad restoration company", "damage restoration carlsbad", "carlsbad disaster restoration"]
 search_intent: "local_commercial"

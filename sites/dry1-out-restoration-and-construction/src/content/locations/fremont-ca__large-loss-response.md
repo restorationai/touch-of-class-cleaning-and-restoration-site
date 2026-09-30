@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Large Loss and Catastrophic Response in Fremont, CA | Dry1 Out Restoration and Construction"
 h1: "Large Loss and Catastrophic Response in Fremont"
-meta_description: "24/7 large loss and catastrophic response in Fremont, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 large loss and catastrophic response in Fremont, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "large loss and catastrophic response fremont"
 secondary_keywords: ["large loss restoration", "catastrophic loss response", "commercial catastrophic restoration", "multi-million dollar restoration", "large loss adjusters"]
 search_intent: "local_b2b"

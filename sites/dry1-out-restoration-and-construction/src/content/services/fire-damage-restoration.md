@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Fire Damage Restoration in Vista | Dry1 Out Restoration and Construction"
 h1: "Fire Damage Restoration in Vista"
-meta_description: "24/7 fire damage restoration in Vista and surrounding areas. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 fire damage restoration in Vista and surrounding areas. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "fire damage restoration vista"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

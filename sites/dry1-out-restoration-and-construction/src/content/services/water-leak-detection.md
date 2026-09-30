@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Water Leak Detection in Vista | Dry1 Out Restoration and Construction"
 h1: "Water Leak Detection in Vista"
-meta_description: "24/7 water leak detection in Vista and surrounding areas. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 water leak detection in Vista and surrounding areas. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "water leak detection vista"
 secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection", "water leak in wall", "leak detection service"]
 search_intent: "local_emergency"

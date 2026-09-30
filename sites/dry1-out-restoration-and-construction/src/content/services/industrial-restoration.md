@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Industrial Restoration in Vista | Dry1 Out Restoration and Construction"
 h1: "Industrial Restoration in Vista"
-meta_description: "24/7 industrial restoration in Vista and surrounding areas. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 industrial restoration in Vista and surrounding areas. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "industrial restoration vista"
 secondary_keywords: ["industrial water damage", "warehouse restoration", "manufacturing facility restoration", "industrial fire damage", "plant restoration services"]
 search_intent: "local_b2b"

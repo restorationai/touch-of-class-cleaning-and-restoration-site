@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Remediation in Concord, CA | Dry1 Out Restoration and Construction"
 h1: "Mold Remediation in Concord"
-meta_description: "24/7 mold remediation in Concord, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 mold remediation in Concord, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "mold remediation concord"
 secondary_keywords: ["mold removal", "black mold remediation", "mold abatement", "mold containment", "mold cleanup"]
 search_intent: "local_health"

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Smoke Damage Restoration in Fremont, CA | Dry1 Out Restoration and Construction"
 h1: "Smoke Damage Restoration in Fremont"
-meta_description: "24/7 smoke damage restoration in Fremont, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 smoke damage restoration in Fremont, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "smoke damage restoration fremont"
 secondary_keywords: ["smoke residue cleanup", "smoke damage repair", "post-fire smoke cleanup", "smoke damage restoration services", "wildfire smoke cleanup"]
 search_intent: "local_emergency"

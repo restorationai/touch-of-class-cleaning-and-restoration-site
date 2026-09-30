@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Emergency Board Up in Carlsbad, CA | Dry1 Out Restoration and Construction"
 h1: "Emergency Board Up in Carlsbad"
-meta_description: "24/7 emergency board up in Carlsbad, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 emergency board up in Carlsbad, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "emergency board up carlsbad"
 secondary_keywords: []
 search_intent: "local_specialty"

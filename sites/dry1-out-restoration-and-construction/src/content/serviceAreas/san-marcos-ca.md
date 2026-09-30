@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in San Marcos, CA | Dry1 Out Restoration and Construction"
 h1: "Restoration Services in San Marcos"
-meta_description: "Serving San Marcos, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (760) 576-1987."
+meta_description: "Serving San Marcos, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (888) 379-1688."
 primary_keyword: "restoration services san marcos"
 secondary_keywords: ["san marcos restoration company", "damage restoration san marcos", "san marcos disaster restoration"]
 search_intent: "local_commercial"

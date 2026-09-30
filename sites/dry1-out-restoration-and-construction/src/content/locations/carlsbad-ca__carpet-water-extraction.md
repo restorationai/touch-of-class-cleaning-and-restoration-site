@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Carpet Water Extraction in Carlsbad, CA | Dry1 Out Restoration and Construction"
 h1: "Carpet Water Extraction in Carlsbad"
-meta_description: "24/7 carpet water extraction in Carlsbad, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 carpet water extraction in Carlsbad, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "carpet water extraction carlsbad"
 secondary_keywords: []
 search_intent: "local_specialty"

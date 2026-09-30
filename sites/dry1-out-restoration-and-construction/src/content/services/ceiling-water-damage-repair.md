@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Ceiling Water Damage Repair in Vista | Dry1 Out Restoration and Construction"
 h1: "Ceiling Water Damage Repair in Vista"
-meta_description: "24/7 ceiling water damage repair in Vista and surrounding areas. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 ceiling water damage repair in Vista and surrounding areas. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "ceiling water damage repair vista"
 secondary_keywords: ["ceiling leaking", "water coming through ceiling", "ceiling leak repair", "sagging ceiling water damage", "water stain ceiling"]
 search_intent: "local_emergency"

@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Storm Damage Restoration in Vista | Dry1 Out Restoration and Construction"
 h1: "Storm Damage Restoration in Vista"
-meta_description: "24/7 storm damage restoration in Vista and surrounding areas. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 storm damage restoration in Vista and surrounding areas. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "storm damage restoration vista"
 secondary_keywords: ["hurricane damage cleanup", "tornado damage cleanup", "tree damage cleanup", "storm cleanup services", "severe weather damage repair"]
 search_intent: "local_emergency"

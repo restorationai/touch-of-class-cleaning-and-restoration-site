@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Fire Damage Restoration in San Francisco, CA | Dry1 Out Restoration and Construction"
 h1: "Fire Damage Restoration in San Francisco"
-meta_description: "24/7 fire damage restoration in San Francisco, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 fire damage restoration in San Francisco, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "fire damage restoration san francisco"
 secondary_keywords: ["fire cleanup", "fire and smoke restoration", "structural fire damage", "post-fire restoration", "fire damage repair"]
 search_intent: "local_emergency"

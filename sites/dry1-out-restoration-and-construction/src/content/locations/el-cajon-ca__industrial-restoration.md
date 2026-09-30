@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Industrial Restoration in El Cajon, CA | Dry1 Out Restoration and Construction"
 h1: "Industrial Restoration in El Cajon"
-meta_description: "24/7 industrial restoration in El Cajon, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 industrial restoration in El Cajon, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "industrial restoration el cajon"
 secondary_keywords: ["industrial water damage", "warehouse restoration", "manufacturing facility restoration", "industrial fire damage", "plant restoration services"]
 search_intent: "local_b2b"

@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Renovations, Remodels and General Contracting in El Cajon, CA | Dry1 Out Restoration and Construction"
 h1: "Renovations, Remodels and General Contracting in El Cajon"
-meta_description: "24/7 renovations, remodels and general contracting in El Cajon, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 renovations, remodels and general contracting in El Cajon, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "renovations, remodels and general contracting el cajon"
 secondary_keywords: ["general contractor", "home renovation services", "home remodeling", "kitchen remodel", "bathroom remodel", "post-damage rebuild"]
 search_intent: "local_commercial"

@@ -2,7 +2,7 @@
 archetype: "contact"
 title: "Contact Dry1 Out Restoration and Construction | 24/7 Restoration in Vista"
 h1: "Contact Dry1 Out Restoration and Construction"
-meta_description: "Call (760) 576-1987 for 24/7 emergency restoration in Vista and surrounding areas. Free estimates. Direct insurance billing."
+meta_description: "Call (888) 379-1688 for 24/7 emergency restoration in Vista and surrounding areas. Free estimates. Direct insurance billing."
 primary_keyword: "dry1 out restoration and construction contact"
 secondary_keywords: ["restoration company contact", "24/7 restoration phone", "emergency restoration near me"]
 search_intent: "navigational_action"

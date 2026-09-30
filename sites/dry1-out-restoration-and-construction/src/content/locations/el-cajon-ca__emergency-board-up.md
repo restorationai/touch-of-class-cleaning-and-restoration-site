@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Emergency Board Up in El Cajon, CA | Dry1 Out Restoration and Construction"
 h1: "Emergency Board Up in El Cajon"
-meta_description: "24/7 emergency board up in El Cajon, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 emergency board up in El Cajon, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "emergency board up el cajon"
 secondary_keywords: []
 search_intent: "local_specialty"

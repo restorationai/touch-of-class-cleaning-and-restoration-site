@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in El Cajon, CA | Dry1 Out Restoration and Construction"
 h1: "Restoration Services in El Cajon"
-meta_description: "Serving El Cajon, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (760) 576-1987."
+meta_description: "Serving El Cajon, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (888) 379-1688."
 primary_keyword: "restoration services el cajon"
 secondary_keywords: ["el cajon restoration company", "damage restoration el cajon", "el cajon disaster restoration"]
 search_intent: "local_commercial"

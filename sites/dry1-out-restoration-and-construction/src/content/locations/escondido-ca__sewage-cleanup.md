@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Sewage Cleanup and Sanitization in Escondido, CA | Dry1 Out Restoration and Construction"
 h1: "Sewage Cleanup and Sanitization in Escondido"
-meta_description: "24/7 sewage cleanup and sanitization in Escondido, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 sewage cleanup and sanitization in Escondido, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "sewage cleanup and sanitization escondido"
 secondary_keywords: ["sewage backup cleanup", "raw sewage removal", "septic overflow cleanup", "sewer line backup", "sanitization services"]
 search_intent: "local_emergency"

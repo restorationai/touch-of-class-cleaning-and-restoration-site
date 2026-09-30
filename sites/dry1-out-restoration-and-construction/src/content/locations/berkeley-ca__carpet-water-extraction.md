@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Carpet Water Extraction in Berkeley, CA | Dry1 Out Restoration and Construction"
 h1: "Carpet Water Extraction in Berkeley"
-meta_description: "24/7 carpet water extraction in Berkeley, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 carpet water extraction in Berkeley, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "carpet water extraction berkeley"
 secondary_keywords: []
 search_intent: "local_specialty"

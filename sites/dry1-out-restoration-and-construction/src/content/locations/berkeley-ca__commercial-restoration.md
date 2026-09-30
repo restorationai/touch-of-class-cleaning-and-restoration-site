@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Commercial Restoration in Berkeley, CA | Dry1 Out Restoration and Construction"
 h1: "Commercial Restoration in Berkeley"
-meta_description: "24/7 commercial restoration in Berkeley, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 commercial restoration in Berkeley, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "commercial restoration berkeley"
 secondary_keywords: ["commercial water damage", "commercial fire damage", "business restoration", "office restoration", "retail restoration"]
 search_intent: "local_b2b"

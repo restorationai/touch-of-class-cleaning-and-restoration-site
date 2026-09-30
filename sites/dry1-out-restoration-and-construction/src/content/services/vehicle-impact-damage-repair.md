@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Vehicle Impact Damage Repair in Vista | Dry1 Out Restoration and Construction"
 h1: "Vehicle Impact Damage Repair in Vista"
-meta_description: "24/7 vehicle impact damage repair in Vista and surrounding areas. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 vehicle impact damage repair in Vista and surrounding areas. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "vehicle impact damage repair vista"
 secondary_keywords: []
 search_intent: "local_specialty"

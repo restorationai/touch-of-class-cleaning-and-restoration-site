@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Burst Pipe Cleanup and Repair in Vista | Dry1 Out Restoration and Construction"
 h1: "Burst Pipe Cleanup and Repair in Vista"
-meta_description: "24/7 burst pipe cleanup and repair in Vista and surrounding areas. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 burst pipe cleanup and repair in Vista and surrounding areas. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "burst pipe cleanup and repair vista"
 secondary_keywords: ["burst pipe cleanup", "pipe burst emergency", "pipe break water damage", "water line break", "emergency pipe repair"]
 search_intent: "local_emergency"

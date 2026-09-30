@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Emergency Board Up in Oakland, CA | Dry1 Out Restoration and Construction"
 h1: "Emergency Board Up in Oakland"
-meta_description: "24/7 emergency board up in Oakland, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 emergency board up in Oakland, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "emergency board up oakland"
 secondary_keywords: []
 search_intent: "local_specialty"

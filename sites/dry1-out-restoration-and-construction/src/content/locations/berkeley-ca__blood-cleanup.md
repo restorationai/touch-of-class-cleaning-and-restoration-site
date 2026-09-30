@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Blood Cleanup in Berkeley, CA | Dry1 Out Restoration and Construction"
 h1: "Blood Cleanup in Berkeley"
-meta_description: "24/7 blood cleanup in Berkeley, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 blood cleanup in Berkeley, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "blood cleanup berkeley"
 secondary_keywords: []
 search_intent: "local_specialty"

@@ -15,8 +15,8 @@ export const brand = {
   dbaName: "",
   domain: "dry1out.com",
   canonicalUrl: "https://dry1out.com",
-  phone: "(760) 576-1987",
-  phoneRaw: "+17605761987",
+  phone: "(888) 379-1688",
+  phoneRaw: "+18883791688",
   hideMobileHeaderCall: false,
   // A2P/SMS-registration legal entity. When set, the estimate forms render
   // the carrier-compliant consent checkbox naming this entity (exact wording

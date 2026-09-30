@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Odor Removal and Deodorization in Chula Vista, CA | Dry1 Out Restoration and Construction"
 h1: "Odor Removal and Deodorization in Chula Vista"
-meta_description: "24/7 odor removal and deodorization in Chula Vista, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 odor removal and deodorization in Chula Vista, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "odor removal and deodorization chula vista"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"

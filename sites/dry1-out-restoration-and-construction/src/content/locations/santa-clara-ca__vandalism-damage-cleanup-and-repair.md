@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Vandalism Damage Cleanup and Repair in Santa Clara, CA | Dry1 Out Restoration and Construction"
 h1: "Vandalism Damage Cleanup and Repair in Santa Clara"
-meta_description: "24/7 vandalism damage cleanup and repair in Santa Clara, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 vandalism damage cleanup and repair in Santa Clara, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "vandalism damage cleanup and repair santa clara"
 secondary_keywords: []
 search_intent: "local_specialty"

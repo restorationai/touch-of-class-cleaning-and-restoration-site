@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Mold Inspection and Testing in Fremont, CA | Dry1 Out Restoration and Construction"
 h1: "Mold Inspection and Testing in Fremont"
-meta_description: "24/7 mold inspection and testing in Fremont, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 mold inspection and testing in Fremont, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "mold inspection and testing fremont"
 secondary_keywords: ["mold inspection", "mold testing", "indoor air quality testing", "mold spore testing", "mold assessment"]
 search_intent: "local_health"

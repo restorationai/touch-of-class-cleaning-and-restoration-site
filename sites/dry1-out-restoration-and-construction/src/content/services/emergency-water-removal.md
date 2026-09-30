@@ -2,7 +2,7 @@
 archetype: "service-landing"
 title: "Emergency Water Removal & Cleanup in Vista | Dry1 Out Restoration and Construction"
 h1: "Emergency Water Removal & Cleanup in Vista"
-meta_description: "24/7 emergency water removal & cleanup in Vista and surrounding areas. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 emergency water removal & cleanup in Vista and surrounding areas. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "emergency water removal & cleanup vista"
 secondary_keywords: ["emergency water removal", "water extraction", "water removal", "water cleanup", "emergency water cleanup", "standing water removal"]
 search_intent: "local_emergency"

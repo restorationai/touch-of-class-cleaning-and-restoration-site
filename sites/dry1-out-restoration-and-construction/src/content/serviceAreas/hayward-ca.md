@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in Hayward, CA | Dry1 Out Restoration and Construction"
 h1: "Restoration Services in Hayward"
-meta_description: "Serving Hayward, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (760) 576-1987."
+meta_description: "Serving Hayward, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (888) 379-1688."
 primary_keyword: "restoration services hayward"
 secondary_keywords: ["hayward restoration company", "damage restoration hayward", "hayward disaster restoration"]
 search_intent: "local_commercial"

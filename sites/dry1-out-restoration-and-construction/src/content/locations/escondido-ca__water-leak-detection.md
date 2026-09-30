@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Water Leak Detection in Escondido, CA | Dry1 Out Restoration and Construction"
 h1: "Water Leak Detection in Escondido"
-meta_description: "24/7 water leak detection in Escondido, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 water leak detection in Escondido, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "water leak detection escondido"
 secondary_keywords: ["leak detection", "hidden water leak", "slab leak detection", "water leak in wall", "leak detection service"]
 search_intent: "local_emergency"

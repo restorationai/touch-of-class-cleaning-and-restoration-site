@@ -2,7 +2,7 @@
 archetype: "service-area"
 title: "Restoration Services in Chula Vista, CA | Dry1 Out Restoration and Construction"
 h1: "Restoration Services in Chula Vista"
-meta_description: "Serving Chula Vista, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (760) 576-1987."
+meta_description: "Serving Chula Vista, CA with 24/7 water, fire, mold, and storm damage restoration. IICRC-certified team. Call (888) 379-1688."
 primary_keyword: "restoration services chula vista"
 secondary_keywords: ["chula vista restoration company", "damage restoration chula vista", "chula vista disaster restoration"]
 search_intent: "local_commercial"

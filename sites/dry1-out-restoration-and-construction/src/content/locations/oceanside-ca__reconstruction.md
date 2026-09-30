@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Reconstruction Services in Oceanside, CA | Dry1 Out Restoration and Construction"
 h1: "Reconstruction Services in Oceanside"
-meta_description: "24/7 reconstruction services in Oceanside, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 reconstruction services in Oceanside, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "reconstruction services oceanside"
 secondary_keywords: ["post-damage reconstruction", "rebuild services", "structural reconstruction", "post-disaster rebuilding", "fire damage reconstruction"]
 search_intent: "local_commercial"

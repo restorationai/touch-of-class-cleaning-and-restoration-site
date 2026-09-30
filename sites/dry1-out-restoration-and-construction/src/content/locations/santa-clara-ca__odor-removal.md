@@ -2,7 +2,7 @@
 archetype: "service-area-service"
 title: "Odor Removal and Deodorization in Santa Clara, CA | Dry1 Out Restoration and Construction"
 h1: "Odor Removal and Deodorization in Santa Clara"
-meta_description: "24/7 odor removal and deodorization in Santa Clara, CA. IICRC-certified, insurance billing accepted. Call (760) 576-1987."
+meta_description: "24/7 odor removal and deodorization in Santa Clara, CA. IICRC-certified, insurance billing accepted. Call (888) 379-1688."
 primary_keyword: "odor removal and deodorization santa clara"
 secondary_keywords: ["smoke odor removal", "ozone treatment", "hydroxyl deodorization", "thermal fogging", "professional odor elimination"]
 search_intent: "local_specialty"
