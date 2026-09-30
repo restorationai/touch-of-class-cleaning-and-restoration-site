@@ -19,7 +19,20 @@ jobs:
           node-version: '22'
 
       - name: Install Claude Code CLI
-        run: npm install -g @anthropic-ai/claude-code
+        run: |
+          npm install -g @anthropic-ai/claude-code@latest
+          # 2026-09-30: CI kept resolving Claude Code 2.1.197, which refuses
+          # claude-opus-5-5 ("2.1.280 or newer is required"); dev agent and
+          # the Mini-needs agent failed all afternoon. Fall back to the native
+          # installer when the npm copy on PATH is still too old.
+          V=$(claude --version 2>/dev/null | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -1)
+          echo "claude on PATH: ${V:-none}"
+          if [ -z "$V" ] || [ "$(printf '%s\n' "2.1.280" "$V" | sort -V | head -1)" != "2.1.280" ]; then
+            curl -fsSL https://claude.ai/install.sh | bash
+            echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+            export PATH="$HOME/.local/bin:$PATH"
+            claude --version
+          fi
 
       - name: CLI version
         run: claude --version
