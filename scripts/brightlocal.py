@@ -297,6 +297,13 @@ def rename_gate(slug: str) -> tuple[bool, str]:
         # order command flips the BrightLocal location's business_name to
         # the chosen string before spending a credit.
         ri = ints.get("rename_intent") or {}
+        if ri.get("dba_filed") and not ri.get("dba_doc_url"):
+            # Santino 2026-09-30: "the DBA filing on file is a must-have
+            # requirement before we begin citations" — a checkbox alone is
+            # not enough; the filing document must be in the client's files.
+            return False, (f"RENAMING: {chosen[0]['item']!r} chosen and DBA marked "
+                           "filed, but no filing DOCUMENT is on file — upload it "
+                           "(hub or Locations tab) before citations run")
         if ri.get("dba_filed"):
             # the mark binds to the exact string: a stale checkmark from a
             # since-swapped candidate must never clear the gate

@@ -133,7 +133,11 @@ NEVER_PASS = re.compile(
     r"\bp\.?\s?o\.?\s?box|pak mail|postnet|pack\s*(?:&|and|n)\s*ship|shipping and mailing|"
     r"anytime ?mailbox|ipostal|davinci|opus virtual|alliance virtual|earth ?class ?mail|"
     r"virtual (?:office|mailbox|address)", re.I)
-IWG = re.compile(r"\bregus\b|\bspaces\b|\bhq\b|signature by regus|\biwg\b|\bbasepoint\b", re.I)
+# Big-brand flex operators whose PRIVATE OFFICE (never the membership/virtual
+# product) can pass video verification. WeWork added 2026-09-30 (Santino: others
+# have used it to get verified): private office with your name on the door only.
+IWG = re.compile(r"\bregus\b|\bspaces\b|\bhq\b|signature by regus|\biwg\b|\bbasepoint\b|"
+                 r"\bwework\b", re.I)
 STORAGE_BAD = re.compile(r"cold storage|records|document|\brv\b|boat|freezer|shred|parking|"
                          r"moving|portable|pods\b|container", re.I)
 RENTAL_WORDS = re.compile(r"rent|lease|space|suite|\bpark\b|flex|business|center|centre|"
@@ -241,10 +245,11 @@ def rate(tier: str, it: dict) -> tuple[str, str, str]:
                 "if possible.")
     if tier == "coworking":
         if IWG.search(title):
-            return ("medium", "IWG private offices sometimes pass (Power Dry KC precedent); "
-                    "the virtual-office product fails.",
-                    "Regus/IWG: ask for a PRIVATE OFFICE, not a virtual office or membership; "
-                    "confirm door/lobby signage is allowed.")
+            return ("medium", "IWG/WeWork private offices sometimes pass (Power Dry KC "
+                    "precedent); the virtual-office, All Access and hot-desk products fail.",
+                    "Regus/IWG/WeWork: ask for a PRIVATE OFFICE on a monthly term, not a "
+                    "membership or virtual office; confirm your name on the door and lobby "
+                    "signage are allowed, and staffed-hours access.")
         if cat == "coworking space":
             return ("low", "Open desks have nothing lockable or signed to film; only a private "
                     "office here could pass.",
@@ -482,12 +487,15 @@ EXTRA_QUERIES = [
     # Plain form on purpose: quoting the town or OR-ing terms returned 0 (tested).
     ("craigslist", "site:craigslist.org {town} office for rent"),
     ("coworking", 'site:liquidspace.com OR site:coworker.com "{town}, {st}" private office'),
+    # WeWork (2026-09-30): building pages list the city; private offices only.
+    ("coworking", 'site:wework.com "{town}" private office'),
     ("storage", 'site:sparefoot.com "{town}, {st}" self storage'),
 ]
 # Hosts we recognise, host fragment -> source label shown in the app.
 SOURCES = {"loopnet": "loopnet", "crexi": "crexi", "cityfeet": "cityfeet", "showcase": "showcase",
            "commercialcafe": "commercialcafe", "officespace": "officespace",
            "craigslist": "craigslist", "liquidspace": "liquidspace", "coworker": "coworker",
+           "wework": "wework",
            "sparefoot": "sparefoot"}
 # CRE listing sites whose own listing page is a unit for lease even when it
 # never names the type ("listing: space").
@@ -908,7 +916,7 @@ def extra_options(dfs: DFS, town: dict) -> tuple[list[dict], list[dict], list[di
                     "craigslist post" if band_src == "listing snippet" else band_src, money,
                     f"${money['monthly']:,}/mo" if money.get("monthly") else None))
             elif kind == "coworking":
-                if src not in ("liquidspace", "coworker"):
+                if src not in ("liquidspace", "coworker", "wework"):
                     continue
                 path = re.sub(r"^https?://[^/]+", "", low)
                 depth = len([x for x in path.split("?")[0].split("/") if x])
@@ -931,8 +939,8 @@ def extra_options(dfs: DFS, town: dict) -> tuple[list[dict], list[dict], list[di
                     money["monthly"] = int(mm.group(1).replace(",", ""))
                 iwg = bool(IWG.search(text))
                 v = "medium"
-                reason = ("IWG private offices sometimes pass (Power Dry KC precedent); the "
-                          "virtual-office product fails." if iwg else
+                reason = ("IWG/WeWork private offices sometimes pass (Power Dry KC precedent); "
+                          "the virtual-office, All Access and hot-desk products fail." if iwg else
                           "A lockable private office in an executive/coworking centre passes "
                           "sometimes with door or lobby signage; desks and mail plans fail.")
                 note = ("Ask for a PRIVATE OFFICE on a monthly term (not hourly, not a virtual "

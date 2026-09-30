@@ -124,6 +124,34 @@ def _route_human(need_id: str, f: dict) -> None:
     # only IT texts Santino (scripts/ask_santino.py), never the Mini path.
 
 
+def apply_santino_answers(lines: list) -> int:
+    """Santino's texted answers (ops_kv santino-answers, written by
+    client_concierge.handle_boss_reply) -> ANSWER lines under their needs."""
+    queue = []
+    try:
+        rows = _sb("GET", "/rest/v1/ops_kv?k=eq.santino-answers&select=v") or []
+        queue = (rows[0].get("v") if rows else None) or []
+    except Exception as e:  # noqa: BLE001
+        print(f"  santino-answers read failed: {str(e)[:100]}")
+    done, left = 0, []
+    for q in queue:
+        idx = next((i for i, l in enumerate(lines) if l.startswith("- [")
+                    and f"{q.get('need')} " in l + " "), None)
+        if idx is None:
+            left.append(q)
+            continue
+        lines[idx] = re.sub(r"^- \[.\]", "- [x]", lines[idx], count=1)
+        lines.insert(idx + 1, f"  - ANSWER (Santino via text {str(q.get('at'))[:16]}Z, "
+                              f"{q.get('code')}): {q.get('answer')}")
+        done += 1
+    if done:
+        _sb("POST", "/rest/v1/ops_kv?on_conflict=k",
+            {"k": "santino-answers", "v": left,
+             "updated_at": datetime.now(timezone.utc).isoformat()},
+            prefer="resolution=merge-duplicates,return=minimal")
+    return done
+
+
 def main() -> int:
     if not NEEDS.exists():
         print("mini-responder: no needs file")
@@ -150,6 +178,11 @@ def main() -> int:
         lines[i] = line.replace("- [ ]", f"- [{state}]", 1) + f" -> {ans}"
         changed = True
         log.append(f"{need_id} [{state}] {ntype} {f.get('client', '')}: {ans[:140]}")
+    texted = apply_santino_answers(lines)
+    if texted:
+        changed = True
+        fulfilled += texted
+        log.append(f"{texted} answer(s) from Santino by text written back")
     stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     if not changed:
         print("mini-responder: no open needs")
