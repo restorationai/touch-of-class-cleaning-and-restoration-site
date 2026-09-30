@@ -1505,7 +1505,7 @@
     },
     {
       "id": "2026-09-24-should-i-get-a-mold-inspection-when-buying-a-house-henderson",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-24T19:30:00Z",
       "written_at": null,
       "post_url": null,
@@ -1538,8 +1538,7 @@
         "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
         "https://www.epa.gov/mold/samplingtesting-mold-necessary"
       ],
-      "notes": "Buyer-stage query. Fold in 'mold test home inspection' (1,000 searches a month, KD 11) as the main H2: a standard home inspection usually does NOT include mold sampling. Cover red flags in Henderson resale homes (water heater closets, AC air handlers, slab-leak history, stucco staining), inspection timing within the option period, and what to ask for in the report.",
-      "banked_at": "2026-09-29T02:04:34.985577+00:00"
+      "notes": "Buyer-stage query. Fold in 'mold test home inspection' (1,000 searches a month, KD 11) as the main H2: a standard home inspection usually does NOT include mold sampling. Cover red flags in Henderson resale homes (water heater closets, AC air handlers, slab-leak history, stucco staining), inspection timing within the option period, and what to ask for in the report."
     }
   ]
 }

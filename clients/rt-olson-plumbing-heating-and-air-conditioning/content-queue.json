@@ -341,7 +341,7 @@
     },
     {
       "id": "2026-09-28-how-to-shut-off-main-water-valve",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-28T12:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -372,8 +372,7 @@
       "external_authority_candidates": [
         "https://www.epa.gov/watersense"
       ],
-      "notes": "Step-by-step capsule first (locate, turn clockwise, open a low faucet to drain). Cover common Inland Empire slab-home valve locations (garage wall, front hose bib area) and the meter-box curb stop. Link to the burst-pipe blog as a sibling, not a duplicate.",
-      "banked_at": "2026-09-29T02:04:34.990467+00:00"
+      "notes": "Step-by-step capsule first (locate, turn clockwise, open a low faucet to drain). Cover common Inland Empire slab-home valve locations (garage wall, front hose bib area) and the meter-box curb stop. Link to the burst-pipe blog as a sibling, not a duplicate."
     },
     {
       "id": "2026-09-28-how-to-stop-a-toilet-from-overflowing",

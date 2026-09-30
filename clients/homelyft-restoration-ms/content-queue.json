@@ -474,7 +474,7 @@
     },
     {
       "id": "2026-09-24-fire-damage-restoration-cost-gulfport-ms",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-24T16:31:03Z",
       "written_at": null,
       "post_url": null,
@@ -512,8 +512,7 @@
         "https://www.mid.ms.gov/mississippi-insurance-department/consumers/homeowners-insurance-2/"
       ],
       "notes": "Client goal: Fire. Mirrors the published water damage cost guide format. Break cost into stages (board-up, water extraction from firefighting, soot and smoke cleanup, deodorization, contents pack-out, reconstruction). Ranges only if sourced; no invented price points. KD 1 and CPC 3.69 nationally: easy organic win.",
-      "source": "keyword-researcher 2026-09-24 seed=fire damage restoration",
-      "banked_at": "2026-09-28T22:24:24.205710+00:00"
+      "source": "keyword-researcher 2026-09-24 seed=fire damage restoration"
     },
     {
       "id": "2026-09-24-what-to-do-after-a-house-fire-biloxi-ms",

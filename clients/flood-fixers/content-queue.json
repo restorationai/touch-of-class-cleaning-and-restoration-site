@@ -1106,7 +1106,7 @@
     },
     {
       "id": "2026-09-10-does-commercial-property-insurance-cover-water-damage",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-10T20:15:00Z",
       "written_at": null,
       "post_url": null,
@@ -1139,8 +1139,7 @@
         "https://www.iii.org/",
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "The live insurance post is homeowners-only, so the commercial policy question is wide open. Decision-stage: these readers are 24 to 48 hours from hiring someone. Cover the sudden-and-accidental vs long-term-seepage split, business interruption as a separate coverage, deductible structure on a commercial policy, and flood exclusion (San Diego coastal and canyon properties). Do not give legal or coverage advice: frame as what to check in your policy and what to document.",
-      "banked_at": "2026-09-24T22:24:15.037409+00:00"
+      "notes": "The live insurance post is homeowners-only, so the commercial policy question is wide open. Decision-stage: these readers are 24 to 48 hours from hiring someone. Cover the sudden-and-accidental vs long-term-seepage split, business interruption as a separate coverage, deductible structure on a commercial policy, and flood exclusion (San Diego coastal and canyon properties). Do not give legal or coverage advice: frame as what to check in your policy and what to document."
     },
     {
       "id": "2026-09-10-who-is-responsible-for-water-damage-in-a-rental-property",

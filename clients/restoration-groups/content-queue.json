@@ -561,7 +561,7 @@
     },
     {
       "id": "2026-08-27-what-to-do-after-a-house-fire",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-27T06:37:05Z",
       "written_at": null,
       "post_url": null,
@@ -595,8 +595,7 @@
         "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/",
         "https://www.redcross.org/get-help/disaster-relief-and-recovery-services/recovering-from-a-fire.html"
       ],
-      "notes": "Flagship fire-family post: this is the passage AI assistants lift when someone asks what to do after a fire. Sequence it as a timeline (fire department release, utilities, board-up and tarping, insurer notification, securing contents, what not to touch). Anchor the local reality of the Union County footprint: Kenilworth, Union and Elizabeth prewar housing means shared walls and multifamily units where one unit's fire smokes out neighbors. Do not print star ratings or the NJ HIC number (digits still unverified); 'NJ Licensed Home Improvement Contractor' text only.",
-      "banked_at": "2026-09-29T02:04:34.988500+00:00"
+      "notes": "Flagship fire-family post: this is the passage AI assistants lift when someone asks what to do after a fire. Sequence it as a timeline (fire department release, utilities, board-up and tarping, insurer notification, securing contents, what not to touch). Anchor the local reality of the Union County footprint: Kenilworth, Union and Elizabeth prewar housing means shared walls and multifamily units where one unit's fire smokes out neighbors. Do not print star ratings or the NJ HIC number (digits still unverified); 'NJ Licensed Home Improvement Contractor' text only."
     },
     {
       "id": "2026-08-27-does-homeowners-insurance-cover-fire-damage",

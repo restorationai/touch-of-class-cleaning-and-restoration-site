@@ -557,7 +557,7 @@
     },
     {
       "id": "2026-09-10-what-to-do-after-a-house-fire",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-10T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -591,8 +591,7 @@
         "https://www.usfa.fema.gov/prevention/home-fires/after-a-fire/",
         "https://www.iii.org/fact-statistic/facts-statistics-homeowners-and-renters-insurance"
       ],
-      "notes": "Cornerstone panic-search page for the fire seed family: KD 0 at 260/mo. Lead with the first-24-hours sequence (get out, call 911, do not re-enter until cleared, board up, call insurer, document contents). Emotionally sensitive topic, so keep the tone calm and practical, no urgency pressure tactics. The Marshall Rd shop is in Cranberry, so a same-day response angle is factual here. Claims guardrails: certifications list is EMPTY for this client, so no IICRC/RIA/'certified technicians' language and no EPA Lead-Safe badge until Robert confirms intake. Never quote the GBP rating or review count. licensed_insured_attested is false, so no 'licensed and insured' claim beyond PA HIC #001913.",
-      "banked_at": "2026-09-24T22:24:15.036208+00:00"
+      "notes": "Cornerstone panic-search page for the fire seed family: KD 0 at 260/mo. Lead with the first-24-hours sequence (get out, call 911, do not re-enter until cleared, board up, call insurer, document contents). Emotionally sensitive topic, so keep the tone calm and practical, no urgency pressure tactics. The Marshall Rd shop is in Cranberry, so a same-day response angle is factual here. Claims guardrails: certifications list is EMPTY for this client, so no IICRC/RIA/'certified technicians' language and no EPA Lead-Safe badge until Robert confirms intake. Never quote the GBP rating or review count. licensed_insured_attested is false, so no 'licensed and insured' claim beyond PA HIC #001913."
     },
     {
       "id": "2026-09-10-fire-damage-restoration-cost",

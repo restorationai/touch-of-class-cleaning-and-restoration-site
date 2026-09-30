@@ -791,7 +791,7 @@
     },
     {
       "id": "2026-09-24-what-to-do-after-a-house-fire",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-24T21:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -830,8 +830,7 @@
       ],
       "notes": "KD 0, 260/mo. Structure follows the ChatGPT decomposition: wait for the fire department to clear re-entry, call the insurer, secure the property (board-up, tarp), document room by room, then restoration. Add a printable checklist section. Sensitive topic: calm, practical tone, no fear selling.",
       "source": "keyword-researcher",
-      "seed": "fire damage restoration",
-      "banked_at": "2026-09-24T22:24:15.027220+00:00"
+      "seed": "fire damage restoration"
     },
     {
       "id": "2026-09-24-fire-damage-restoration-cost",

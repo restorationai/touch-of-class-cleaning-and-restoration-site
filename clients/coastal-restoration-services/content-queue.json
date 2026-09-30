@@ -972,7 +972,7 @@
     },
     {
       "id": "2026-09-24-what-to-throw-away-after-smoke-damage-arroyo-grande",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-24T21:15:00Z",
       "written_at": null,
       "post_url": null,
@@ -1009,8 +1009,7 @@
       ],
       "notes": "KD 0, feeds the contents restoration and storage services. Clear discard list (food, medicine, cosmetics, heat-exposed plastics) vs salvageable (hard goods, many textiles, documents via specialist cleaning). Remind readers to photograph and inventory before discarding for the claim. Arroyo Grande is a named priority area.",
       "source": "keyword-researcher",
-      "seed": "fire damage restoration",
-      "banked_at": "2026-09-29T22:24:35.148983+00:00"
+      "seed": "fire damage restoration"
     }
   ]
 }

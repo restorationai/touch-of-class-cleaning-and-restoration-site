@@ -475,7 +475,7 @@
     },
     {
       "id": "2026-09-24-how-to-clean-soot-off-walls-henderson",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-24T00:00:00Z",
       "written_at": null,
       "post_url": null,
@@ -509,8 +509,7 @@
         "https://www.iicrc.org/page/IICRCS700",
         "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/fire/recovering-from-fire.html"
       ],
-      "notes": "590/mo, KD 0: highest-volume uncovered term in the fire family. Owner named fire damage as a wizard goal. Lead with identifying soot type (dry, oily, protein) before any cleaning. Cite the client IICRC FSRT certification and IICRC S700 as the standard. Henderson stucco and desert dust angle for local context.",
-      "banked_at": "2026-09-29T02:04:34.983173+00:00"
+      "notes": "590/mo, KD 0: highest-volume uncovered term in the fire family. Owner named fire damage as a wizard goal. Lead with identifying soot type (dry, oily, protein) before any cleaning. Cite the client IICRC FSRT certification and IICRC S700 as the standard. Henderson stucco and desert dust angle for local context."
     },
     {
       "id": "2026-09-24-does-homeowners-insurance-cover-fire-damage-nevada",

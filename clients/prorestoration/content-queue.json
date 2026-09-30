@@ -799,7 +799,7 @@
     },
     {
       "id": "2026-08-27-tree-fell-on-house-what-to-do",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-08-27T05:22:00Z",
       "written_at": null,
       "post_url": null,
@@ -832,8 +832,7 @@
       "external_authority_candidates": [
         "https://www.iicrc.org/page/IICRCS500"
       ],
-      "notes": "Safety first section is mandatory: downed power lines, unstable structure, when to evacuate. Cover the neighbor liability question (590 a month on its own) and the who do I call sequence: 911 or PG&E, then insurer, then restoration contractor for emergency tarping and structural drying. Do not give legal advice, describe the general California rule and point to the insurer.",
-      "banked_at": "2026-09-29T02:04:34.984525+00:00"
+      "notes": "Safety first section is mandatory: downed power lines, unstable structure, when to evacuate. Cover the neighbor liability question (590 a month on its own) and the who do I call sequence: 911 or PG&E, then insurer, then restoration contractor for emergency tarping and structural drying. Do not give legal advice, describe the general California rule and point to the insurer."
     },
     {
       "id": "2026-08-27-wind-damage-on-roofs",
