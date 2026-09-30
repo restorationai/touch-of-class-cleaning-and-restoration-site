@@ -30,9 +30,13 @@ same way — git is the message channel between the two machines.
   domain_connect playbook. Humans do registrar work. (Santino 2026-09-06.)
 - **No YouTube channel changes.** Renames are parked. (Santino 2026-09-07.)
 - **Supervised-first rule:** any playbook that has not yet had 3 clean runs
-  ON THIS MACHINE runs only while Santino is present and watching. Houzz,
-  Spotify/Apple podcast connects, Yelp edits, wrong-data fixes are all still
-  in supervised phase here — and so are the NEW citation lanes added
+  ON THIS MACHINE runs only while Santino is present and watching. EXCEPTION
+  (Santino 2026-09-30, "I trust you to handle this now and moving forward"):
+  Santino delegated Mini supervision to MacBook Claude. An inbox item or Need
+  ANSWER that says "UNATTENDED OK" overrides this rule for that item, and
+  Houzz creations/claims plus wrong-data fixes are GRADUATED to unattended
+  (daytime, normal caps). Still in supervised phase here: Spotify/Apple
+  podcast connects, Yelp edits — and so are the NEW citation lanes added
   2026-09-26: BBB claim/create, chamberofcommerce.com,
   yellowpagesdirectory.com, Porch, Apple Business Connect, and the
   client-identity re-test batch. Before ANY citation lane, read
@@ -83,8 +87,8 @@ Priority order:
    picks and it's daytime Pacific, run the sweep for real (this is the
    HomeGuide/queue lane; it is already past its 3 supervised runs fleet-wide,
    but ON THIS MACHINE the first 3 sweeps still need Santino present).
-2. Session-owned citation work from the ledger, ONLY with Santino present
-   (supervised phase): Houzz creations (needs the Gmail verification code —
+2. Session-owned citation work from the ledger (Houzz + wrong-data fixes
+   are unattended OK since 2026-09-30): Houzz creations (needs the Gmail verification code —
    the token in `~/.config/rankai` can read it via the repo's Gmail helpers),
    HomeGuide "review_needed" finishes, wrong-data fixes (Reign: MapQuest +
    Yelp).
