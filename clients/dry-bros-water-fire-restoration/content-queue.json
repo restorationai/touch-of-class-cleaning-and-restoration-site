@@ -614,7 +614,7 @@
     },
     {
       "id": "2026-09-24-does-renters-insurance-cover-water-damage-chicago",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-24T20:28:17Z",
       "written_at": null,
       "post_url": null,
@@ -651,8 +651,7 @@
       ],
       "notes": "HO-4 covers the renter's personal property and loss of use, not the building (landlord's policy). Cover sudden-and-accidental vs gradual leaks, upstairs-unit leaks in Chicago two-flats and condo buildings, and the landlord/HOA notification step. Contrast with the existing homeowners insurance post and link to it.",
       "source": "keyword-researcher",
-      "seed": "what to do after water damage",
-      "banked_at": "2026-09-28T10:24:07.253698+00:00"
+      "seed": "what to do after water damage"
     },
     {
       "id": "2026-09-24-how-to-fix-water-damage-on-ceiling-evanston",

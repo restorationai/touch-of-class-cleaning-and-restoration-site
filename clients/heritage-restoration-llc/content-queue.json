@@ -331,7 +331,7 @@
     },
     {
       "id": "2026-09-18-is-water-damage-permanent-sartell-mn",
-      "status": "banked",
+      "status": "queued",
       "queued_at": "2026-09-18T23:20:00Z",
       "written_at": null,
       "post_url": null,
@@ -365,8 +365,7 @@
       ],
       "notes": "PAA question that maps directly to the repair-versus-replace decision, which is where general contracting gets sold. Save-versus-replace table by material (drywall, hardwood, subfloor, insulation, cabinetry, carpet pad). Zero measured volume: write for extractable answers. Natural bridge to the general-contracting page for rebuild work.",
       "source": "keyword-researcher",
-      "seed": "water damage restoration",
-      "banked_at": "2026-09-24T22:24:15.041370+00:00"
+      "seed": "water damage restoration"
     },
     {
       "id": "2026-09-24-fire-damage-restoration-cost-little-falls-mn",
