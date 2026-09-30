@@ -1,6 +1,6 @@
 {
  "domain": "theacsenterprises.com",
- "captured_at": "2026-09-30T14:32:32+00:00",
+ "captured_at": "2026-09-30T14:47:20+00:00",
  "authoritative": {
   "ns": [
    "ns35.domaincontrol.com",
@@ -13,13 +13,11 @@
   ],
   "dkim": {},
   "apex_a": [
-   "3.33.130.190",
-   "15.197.148.33"
+   "15.197.148.33",
+   "3.33.130.190"
   ],
   "apex_cname": [],
-  "www_cname": [
-   "theacsenterprises.com"
-  ]
+  "www_cname": []
  },
  "cf_zone": {
   "zone_id": "ab549aa7d61e5b97db8546d00ca3fde4",
@@ -27,6 +25,15 @@
    "amos.ns.cloudflare.com",
    "anastasia.ns.cloudflare.com"
   ],
-  "records": []
+  "records": [
+   {
+    "id": "9b618d3107755619e4cdc4e54f48ff77",
+    "type": "TXT",
+    "name": "_dmarc.theacsenterprises.com",
+    "content": "v=DMARC1; p=quarantine; adkim=r; aspf=r; rua=mailto:dmarc_rua@onsecureserver.net;",
+    "priority": null,
+    "proxied": false
+   }
+  ]
  }
 }

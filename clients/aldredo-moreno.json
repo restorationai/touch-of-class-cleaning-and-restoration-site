@@ -13,7 +13,7 @@
     "url_count": 464,
     "generated_at": "2026-09-30T14:12:02.180038+00:00"
   },
-  "updated_at": "2026-09-30T14:37:02.998247+00:00",
+  "updated_at": "2026-09-30T14:47:22+00:00",
   "indexnow_key": "93078ed3113c4f9cb49adcf2d6649af1",
   "build": {
     "scaffolded_at": "2026-09-09T01:36:42.898954+00:00",
@@ -38,5 +38,17 @@
     "last_audit_at": "2026-09-24T21:03:52Z",
     "last_audit_verdict": "red",
     "last_audit_report_path": "audit-runs/2026-09-24-onsite-audit.md"
+  },
+  "zone": {
+    "id": "ab549aa7d61e5b97db8546d00ca3fde4",
+    "name": "theacsenterprises.com",
+    "status": "active",
+    "name_servers": [
+      "amos.ns.cloudflare.com",
+      "anastasia.ns.cloudflare.com"
+    ]
+  },
+  "apex_cutover": {
+    "legacy_origin": "15.197.148.33"
   }
 }
