@@ -31,6 +31,7 @@
   → RESULT (mini 2026-09-30 11:17 PDT): CLAIMED 11:10 (one green checkbox) and NAP edited 11:13 (phone was already 702). Then chamber's automated validation DEACTIVATED 2001319165; the public page is 410 and so are the other two records. Likely cause: the DBA name vs the not-yet-renamed GBP. One support reply sent on ticket #331862: merge both INTO 2001319165, and reactivate it manually. Decision options are in NEED-20260930-1117-chamber-dv-deactivated. Report: clients/_ops/mini-reports/2026-09-30-1058-bbb-chamber-desert-valley.md
 
 - [x] **BING SESSION CHECK (read-only, unattended):** Santino signed into Bing Places on 09-30. Confirm the sweep profile is signed in (bing.com/forbusiness loads the account, no SSO bounce); report yes/no in a one-line report. No edits.
+  → RE-VERIFY (mini 2026-09-30 14:31 PDT, agent Chrome 9223): PARTIAL. Santino's open tab shows the signed-in Bing Places dashboard (20 listings), but a NEW tab is signed out and there are no Microsoft auth cookies in the profile, so it isn't persisted. NEED-20260930-1431-bing-session-not-persisted. Report: 2026-09-30-1431-bing-verify-agent-chrome.md
 
 - [ ] **ALL-DAY DIRECTORY BLITZ — 2026-09-27 (Santino: "run tests all day on
   every directory until exhausted"):** AFTER the Apple Podcasts test, work
