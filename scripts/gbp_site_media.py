@@ -31,13 +31,21 @@ Two jobs, one per-client unit:
              plus REAL client photos in any site slot (photo-manifest), which
              keep priority. Team / before-after / services-hub AI images stay
              in the manifest for the planner but never ride this lane.
-             Cadence: --cap (default 1, env GBP_SITE_PHOTOS_WEEKLY_CAP) new
-             photo per client per rolling 7 days until the hero + service
-             images are exhausted, then the lane goes quiet for that client.
+             Cadence: --cap new photos per client per rolling 7 days (env
+             GBP_SITE_PHOTOS_WEEKLY_CAP, CI repo variable = 2 since 2026-09-30;
+             code fallback 1). One run pushes up to cap minus the lane pushes
+             already in the window, until the hero + service images are
+             exhausted, then the lane goes quiet for that client. A failed
+             image is logged and the run moves on to the next candidate
+             (max 3 failures per run), so one bad image never stalls the lane.
              NEVER sets or changes a COVER and never uploads a LOGO: photos are
-             only ADDED (hero goes up as EXTERIOR). Every push is recorded in
+             only ADDED (hero goes up as EXTERIOR on a storefront profile, as
+             ADDITIONAL on a service-area business, where Google 400s
+             EXTERIOR/INTERIOR). Every push is recorded in
              ops_kv 'gbp-site-media/{company_id}' (sha1 + URL) so nothing is
              uploaded twice; the planner's push_media writes the same ledger.
+             Probes retry HTTP 429 (Retry-After honored, capped); a site that
+             still 429s counts as live (the domain answers).
   planner-tick  Nightly GBP Profile Planner tick for one company with an
              APPLIED plan: calls the gbp-planner edge function's
              verification_status (service-role auth). That records verified_at
@@ -90,9 +98,17 @@ SB_URL = os.environ.get("SUPABASE_URL", "").rstrip("/")
 SB_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
 BUCKET = "branding"
 UA = "Mozilla/5.0 (RankAI site-media parity; +https://restorationai.io)"
-DEFAULT_CAP = 1                     # new photos per client per rolling 7 days
+DEFAULT_CAP = 1                     # new photos per client per rolling 7 days (CI: repo var = 2)
 LANE_ROLES = ("hero", "service")    # AI site images the lane may push (real photos: any role but logo)
 NEVER_CATEGORIES = ("COVER", "LOGO")  # the lane only ADDS photos
+# Google rejects EXTERIOR / INTERIOR on a service-area business (no storefront
+# address) with a bare 400 INVALID_ARGUMENT (Coastal, Arch, ACS 2026-09-30):
+# on those profiles the hero goes up as ADDITIONAL instead.
+STOREFRONT_ONLY = ("EXTERIOR", "INTERIOR")
+MAX_PUSH_FAILS = 3                  # per run: a failing image never blocks the ones behind it
+RATE_TRIES = 3                      # 429 retries per request (Retry-After honored)
+RATE_WAIT_CAP = 10.0                # seconds, max single 429 wait
+_rate_budget = [45.0]               # seconds of 429 waiting allowed per process
 ROLE_RANK = {"hero": 0, "service": 1, "team": 2, "before_after": 3, "services_hub": 4, "crew": 2, "other": 5}
 ROLE_CATEGORY = {"hero": "EXTERIOR", "service": "AT_WORK", "team": "TEAMS", "crew": "TEAMS",
                  "before_after": "AT_WORK", "services_hub": "ADDITIONAL", "logo": "LOGO", "other": "ADDITIONAL"}
@@ -158,18 +174,49 @@ def storage_upload(path: str, data: bytes, ctype: str) -> str:
 # --------------------------------------------------------------------------- #
 # probes
 # --------------------------------------------------------------------------- #
+def _fetch(method: str, url: str, **kw) -> requests.Response:
+    """requests.request that retries HTTP 429 (Cloudflare rate limit, 2026-09-30:
+    Dry County + Flood Solutions were skipped as "not live" on a 429) up to
+    RATE_TRIES times, honoring Retry-After (capped at RATE_WAIT_CAP s), inside a
+    per-process wait budget so a throttled client never eats the CI timeout."""
+    import time
+    r = requests.request(method, url, **kw)
+    for attempt in range(RATE_TRIES - 1):
+        if r.status_code != 429:
+            break
+        try:
+            wait = float(r.headers.get("Retry-After") or 0)
+        except ValueError:  # HTTP-date form: fall back to backoff
+            wait = 0.0
+        wait = min(RATE_WAIT_CAP, max(wait, 2.0 * 2 ** attempt))
+        if wait > _rate_budget[0]:
+            break
+        _rate_budget[0] -= wait
+        time.sleep(wait)
+        r = requests.request(method, url, **kw)
+    return r
+
+
+def _on_domain(host: str, domain: str) -> bool:
+    return host.replace("www.", "").endswith(domain.replace("www.", ""))
+
+
 def probe_site(domain: str) -> tuple[bool, str]:
-    """Live = the REAL domain answers 200 with HTML on its own host (not flags)."""
+    """Live = the REAL domain answers 200 with HTML on its own host (not flags).
+    A 429 that survives the retries also counts: a rate limit proves the domain
+    answers, it says nothing about the site being down."""
     if not domain:
         return False, "no domain on marketing_sites"
     try:
-        r = requests.get(f"https://{domain}/", headers={"User-Agent": UA}, timeout=20, allow_redirects=True)
+        r = _fetch("GET", f"https://{domain}/", headers={"User-Agent": UA}, timeout=20, allow_redirects=True)
     except Exception as e:  # noqa: BLE001
         return False, f"probe error: {str(e)[:80]}"
     host = requests.utils.urlparse(r.url).hostname or ""
+    if r.status_code == 429 and _on_domain(host, domain):
+        return True, f"HTTP 429 on {host} after {RATE_TRIES} tries (rate limited; domain answers, counted live)"
     if r.status_code != 200:
         return False, f"HTTP {r.status_code}"
-    if not host.replace("www.", "").endswith(domain.replace("www.", "")):
+    if not _on_domain(host, domain):
         return False, f"redirected off-domain to {host}"
     if "text/html" not in r.headers.get("content-type", ""):
         return False, "not HTML"
@@ -177,10 +224,13 @@ def probe_site(domain: str) -> tuple[bool, str]:
 
 
 def probe_image(url: str) -> tuple[bool, str]:
+    """(live, detail). A 429 after retries returns (False, '429 ...'): on its
+    own it cannot prove OUR build serves that path, so build_manifest counts it
+    live only once a sibling image on the same domain answered 200 image/*."""
     try:
-        r = requests.head(url, headers={"User-Agent": UA}, timeout=15, allow_redirects=True)
+        r = _fetch("HEAD", url, headers={"User-Agent": UA}, timeout=15, allow_redirects=True)
         if r.status_code == 405:
-            r = requests.get(url, headers={"User-Agent": UA}, timeout=20, stream=True)
+            r = _fetch("GET", url, headers={"User-Agent": UA}, timeout=20, stream=True)
     except Exception as e:  # noqa: BLE001
         return False, f"error {str(e)[:60]}"
     ct = r.headers.get("content-type", "")
@@ -348,11 +398,20 @@ def build_manifest(slug: str) -> dict:
     services = site_services(slug, domain)
     reals = real_slots(slug)
     images = []
-    for f in collect_images(slug):
-        rel = f.relative_to(ROOT / "sites" / slug / "public" / "images").as_posix()
+    files = collect_images(slug)
+    rels = {f: f.relative_to(ROOT / "sites" / slug / "public" / "images").as_posix() for f in files}
+    probes = {f: (probe_image(f"https://{domain}/images/{rels[f]}") if (live and domain) else (False, "site not live"))
+              for f in files}
+    # A 429 (rate limited) on one image is inconclusive alone; once a sibling
+    # image answered 200 image/* our build is proven on this domain, so count it.
+    if any(ok for ok, _ in probes.values()):
+        probes = {f: ((True, f"{d} (rate limited; build proven live by sibling images)")
+                      if not ok and d.startswith("429") else (ok, d)) for f, (ok, d) in probes.items()}
+    for f in files:
+        rel = rels[f]
         role, svc = _role(rel)
         site_url = f"https://{domain}/images/{rel}" if domain else ""
-        img_live, img_why = probe_image(site_url) if (live and site_url) else (False, "site not live")
+        img_live, img_why = probes[f]
         real = reals.get(f"/images/{rel}")
         ai = role != "logo" and not real
         if AI_NAME_HINT.search(f.stem):
@@ -419,7 +478,7 @@ def locate(slug: str, cid: str) -> tuple[str | None, str | None, dict | None, st
     for acct in _gget(f"{gbp.ACCT_API}/accounts", tok).get("accounts", []):
         page = ""
         for _ in range(5):
-            data = _gget(f"{gbp.INFO_API}/{acct['name']}/locations?readMask=name,title,metadata"
+            data = _gget(f"{gbp.INFO_API}/{acct['name']}/locations?readMask=name,title,metadata,storefrontAddress"
                          f"&pageSize=100{'&pageToken=' + page if page else ''}", tok)
             for loc in data.get("locations", []):
                 md = loc.get("metadata") or {}
@@ -432,16 +491,40 @@ def locate(slug: str, cid: str) -> tuple[str | None, str | None, dict | None, st
     return tok, None, None, f"no location for place_id {place or '-'} / plan {want_loc or '-'}"
 
 
-def push_one(tok: str, acct: str, loc_name: str, img: dict) -> dict:
-    if img.get("category") in NEVER_CATEGORIES:   # hard guard: never set/replace a cover or logo
-        raise RuntimeError(f"refusing category {img.get('category')}: the lane only adds photos")
+def lane_category(img: dict, storefront: bool) -> str:
+    """The category this image goes up as on THIS profile (SAB: no EXTERIOR/INTERIOR)."""
+    cat = img.get("category") or "ADDITIONAL"
+    return "ADDITIONAL" if (cat in STOREFRONT_ONLY and not storefront) else cat
+
+
+def _gerr(r: requests.Response) -> str:
+    """Google error with its detail (fieldViolations / reason), not a cut-off JSON dump."""
+    try:
+        e = r.json().get("error") or {}
+        bits = []
+        for d in e.get("details") or []:
+            for fv in d.get("fieldViolations") or []:
+                bits.append(f"{fv.get('field', '')}: {fv.get('description', '')}".strip(": "))
+            if d.get("reason"):
+                bits.append(str(d["reason"]))
+            for v in d.get("errorDetails") or []:   # GBP v4 ErrorDetail
+                bits.append(f"{v.get('field', '')} {v.get('message', '')}".strip())
+        return f"HTTP {r.status_code} {e.get('status', '')}: {e.get('message', '')}" + (f" [{'; '.join(bits)}]" if bits else "")
+    except ValueError:
+        return f"HTTP {r.status_code}: {r.text[:200]}"
+
+
+def push_one(tok: str, acct: str, loc_name: str, img: dict, category: str | None = None) -> dict:
+    category = category or img.get("category")
+    if category in NEVER_CATEGORIES:   # hard guard: never set/replace a cover or logo
+        raise RuntimeError(f"refusing category {category}: the lane only adds photos")
     locid = loc_name.split("/")[-1]
-    body = {"mediaFormat": "PHOTO", "locationAssociation": {"category": img["category"]},
+    body = {"mediaFormat": "PHOTO", "locationAssociation": {"category": category},
             "sourceUrl": img["gbp_url"], "description": img.get("caption", "")[:250]}
     r = requests.post(f"{GBP_V4}/{acct}/locations/{locid}/media", json=body,
                       headers={"Authorization": f"Bearer {tok}", "Content-Type": "application/json"}, timeout=60)
     if r.status_code not in (200, 201):
-        raise RuntimeError(f"HTTP {r.status_code}: {r.text[:200]}")
+        raise RuntimeError(_gerr(r)[:400])
     return r.json()
 
 
@@ -482,7 +565,6 @@ def cmd_push(slug: str, apply: bool, cap: int, real_only: bool, manifest: dict |
              and i.get("sha1") not in have and i.get("site_url") not in have
              and not (real_only and i.get("ai_generated"))]
     cands.sort(key=lambda i: (bool(i.get("ai_generated")), ROLE_RANK.get(i.get("role"), 9), i.get("key")))
-    batch = cands[:room]
     report["candidates"] = [{"key": i["key"], "role": i["role"], "ai": i["ai_generated"], "category": i["category"]}
                             for i in cands[:10]]
     report["remaining"] = len(cands)
@@ -498,32 +580,51 @@ def cmd_push(slug: str, apply: bool, cap: int, real_only: bool, manifest: dict |
     report["room_this_week"] = room
 
     gates_ok = all(g["ok"] for g in report["gates"].values())
+    storefront = bool(((loc or {}).get("storefrontAddress") or {}).get("addressLines"))
+    report["storefront"] = storefront
     lines = [f"  [{slug}] {mode}: site {'LIVE' if live else 'not live'} ({why}); GBP "
              f"{'verified' if report['gates']['gbp_verified']['ok'] else 'NOT verified'} "
-             f"({report['gates']['gbp_verified']['detail']}); {len(cands)} unpushed site image(s), "
-             f"{len(recent)}/{cap} used this week"
+             f"({report['gates']['gbp_verified']['detail']}{'' if storefront or not loc else ', service-area'}); "
+             f"{len(cands)} unpushed site image(s), {len(recent)}/{cap} used this week"
              + (quiet if not cands else "")]
     if not gates_ok:
         lines.append("    gates closed: nothing would be pushed")
-    for i in batch:
+    # Walk the whole candidate list until `room` photos land: a failed image
+    # (e.g. Google 400) must not stall the lane behind it night after night.
+    done = fails = 0
+    for i in cands:
+        if done >= room or fails >= MAX_PUSH_FAILS:
+            break
         tag = "AI" if i["ai_generated"] else "real"
+        cat = lane_category(i, storefront)
         if not gates_ok:
-            lines.append(f"    next up once gates open [{i['category']}/{tag}] {i['key']}")
+            lines.append(f"    next up once gates open [{cat}/{tag}] {i['key']}")
+            done += 1
             continue
         if not write:
-            lines.append(f"    would push [{i['category']}/{tag}] {i['key']} <- {i['gbp_url']}")
+            lines.append(f"    would push [{cat}/{tag}] {i['key']} <- {i['gbp_url']}")
+            done += 1
             continue
         try:
-            res = push_one(tok, acct, loc["name"], i)
+            try:
+                res = push_one(tok, acct, loc["name"], i, cat)
+            except RuntimeError as e:
+                if cat not in STOREFRONT_ONLY or "INVALID_ARGUMENT" not in str(e):
+                    raise
+                lines.append(f"    {cat} rejected for {i['key']} ({str(e)[:120]}); retrying as ADDITIONAL")
+                cat = "ADDITIONAL"
+                res = push_one(tok, acct, loc["name"], i, cat)
             rec = {"sha1": i["sha1"], "site_url": i["site_url"], "source_url": i["gbp_url"], "key": i["key"],
-                   "category": i["category"], "ai_generated": i["ai_generated"], "media_name": res.get("name"),
+                   "category": cat, "ai_generated": i["ai_generated"], "media_name": res.get("name"),
                    "at": iso(), "by": "lane"}
             pushed.append(rec)
             report["pushed"].append(rec)
-            lines.append(f"    pushed [{i['category']}/{tag}] {i['key']} -> {res.get('name')}")
-        except Exception as e:  # noqa: BLE001 -- fail-open per image
-            report["errors"].append({"key": i["key"], "error": str(e)[:200]})
-            lines.append(f"    FAILED {i['key']}: {str(e)[:160]}")
+            done += 1
+            lines.append(f"    pushed [{cat}/{tag}] {i['key']} -> {res.get('name')}")
+        except Exception as e:  # noqa: BLE001 -- fail-open per image, move on to the next one
+            fails += 1
+            report["errors"].append({"key": i["key"], "category": cat, "error": str(e)[:400]})
+            lines.append(f"    FAILED {i['key']} [{cat}]: {str(e)[:240]}")
     ledger["pushed"] = pushed
     ledger["last_run"] = report
     try:
@@ -571,13 +672,23 @@ def list_due() -> list[str]:
     return [s for s in slugs if (ROOT / "sites" / s / "public" / "images").is_dir()]
 
 
+def _env_cap() -> int:
+    """GBP_SITE_PHOTOS_WEEKLY_CAP (repo variable, passed by the workflow env);
+    unset/blank/garbage falls back to DEFAULT_CAP instead of crashing the run."""
+    try:
+        return max(0, int(str(os.environ.get("GBP_SITE_PHOTOS_WEEKLY_CAP") or "").strip() or DEFAULT_CAP))
+    except ValueError:
+        return DEFAULT_CAP
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="Website images -> GBP photo parity lane (+ planner site-asset mirror)")
     ap.add_argument("cmd", choices=["manifest", "push", "run", "list-due", "list-planner", "planner-tick"])
     ap.add_argument("--slug")
     ap.add_argument("--company-id")
     ap.add_argument("--apply", action="store_true", help="allow writes (still needs env GBP_SITE_PHOTOS_WRITE=1)")
-    ap.add_argument("--cap", type=int, default=int(os.environ.get("GBP_SITE_PHOTOS_WEEKLY_CAP") or DEFAULT_CAP))
+    ap.add_argument("--cap", type=int, default=_env_cap(),
+                    help="new photos per client per rolling 7 days (env GBP_SITE_PHOTOS_WEEKLY_CAP, CI repo var = 2)")
     ap.add_argument("--real-only", action="store_true", help="never push AI-generated site images")
     args = ap.parse_args()
     if args.cmd == "list-due":

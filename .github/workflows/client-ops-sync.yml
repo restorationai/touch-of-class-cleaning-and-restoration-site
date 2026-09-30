@@ -254,8 +254,9 @@ jobs:
           python3 scripts/gbp_parity.py --all --apply --apply-site --max-new-cities 1 || true
           # SITE-PHOTO PARITY LANE (2026-09-28): per client (one process +
           # timeout each, LAW 09-19): refresh the site-assets mirror the app's
-          # GBP Profile Planner drafts from, then add ONE website image per
-          # client per rolling week (GBP_SITE_PHOTOS_WEEKLY_CAP, default 1):
+          # GBP Profile Planner drafts from, then add up to
+          # GBP_SITE_PHOTOS_WEEKLY_CAP website images per client per rolling
+          # week (repo var = 2 since 2026-09-30; code fallback 1):
           # only the hero + per-service images (real client photos first),
           # until they are exhausted; never sets/changes a cover, never a
           # logo. Every client with a verified GBP whose real domain serves
