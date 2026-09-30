@@ -41,3 +41,6 @@
 - NEED-20260930-1235-houzz-dv-existing [~] human rachelle-elliston: routed to Claude (judgment call)
 - NEED-CANARY-202609302059 [x] company-nap narestco: National Restoration Construction | 1530 S Dash Point RD, Federal Way, WA 98003 | REAL phone (206) 883-0333 | https://narestco.com
 - NEED-20260930-1431-bing-session-not-persisted [~] human _ops: routed to Claude (judgment call)
+
+## 2026-09-30 22:20 UTC — 0 fulfilled, 1 routed
+- NEED-20260930-1520-apple-no-payment-method [~] human narestco: routed to Claude (judgment call)
